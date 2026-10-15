@@ -1,7 +1,7 @@
 {
 "schema": 2,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 447,
+"entries": 448,
 "note": "Pages, decks and lore entries (Bot cycle 31); card entries are indexed by data/card_index.csv.",
 "items": [
 {
@@ -348,13 +348,79 @@
 ]
 ],
 "issues": [
-"96"
+"96",
+"99"
 ],
 "related": [
 "EDH Standards.md",
 "Front-Matter Schema.md",
 "Card Index.md",
-"Knowledge Index.md"
+"Knowledge Index.md",
+"Update Log.md"
+]
+},
+{
+"path": "Card Enrichment.md",
+"kind": "page",
+"title": "Card Enrichment",
+"category": "cards",
+"tags": [
+"card-enrichment",
+"lore",
+"synergy",
+"coverage",
+"phase-8"
+],
+"headings": [
+[
+2,
+"Lore line",
+"lore-line"
+],
+[
+2,
+"Synergy line",
+"synergy-line"
+],
+[
+2,
+"Coverage of the priority pool",
+"coverage-of-the-priority-pool"
+],
+[
+2,
+"Enriched cards",
+"enriched-cards"
+],
+[
+2,
+"By lore entry",
+"by-lore-entry"
+],
+[
+2,
+"By package",
+"by-package"
+],
+[
+2,
+"Synergy clusters",
+"synergy-clusters"
+]
+],
+"issues": [
+"99",
+"100",
+"101",
+"102"
+],
+"related": [
+"Characters Index.md",
+"Items & Artifacts Index.md",
+"EDH Packages.md",
+"Planes Index.md",
+"Planeswalker Dossiers.md",
+"Conflicts & Arcs.md"
 ]
 },
 {
@@ -5176,6 +5242,11 @@
 ],
 [
 2,
+"Phase 8 — Card-level lore & synergy deepening (Bot cycles 33+; Cory, 2026-10-15)",
+"phase-8--card-level-lore--synergy-deepening-bot-cycles-33-cory-2026-10-15"
+],
+[
+2,
 "Phase 6",
 "phase-6"
 ],
@@ -5703,6 +5774,11 @@
 "changelog"
 ],
 "headings": [
+[
+2,
+"2026-10-15 — Bot cycle 33 (Phase 8: card enrichment format + batch 1)",
+"2026-10-15--bot-cycle-33-phase-8-card-enrichment-format--batch-1"
+],
 [
 2,
 "2026-10-15 — Bot cycle 32 (Phase 7 complete: lore cross-refs, story maps, rules quote checks)",
@@ -58008,7 +58084,8 @@
 "category": "lore",
 "tags": [
 "dossier",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58122,7 +58199,8 @@
 "category": "lore",
 "tags": [
 "dossier",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58135,7 +58213,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58186,7 +58265,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58237,7 +58317,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58263,7 +58344,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58312,7 +58394,8 @@
 "title": "Niv-Mizzet",
 "category": "lore",
 "tags": [
-"dossier"
+"dossier",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58491,7 +58574,8 @@
 "category": "lore",
 "tags": [
 "plane",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58504,7 +58588,8 @@
 "tags": [
 "plane",
 "has-secondary",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58516,7 +58601,8 @@
 "category": "lore",
 "tags": [
 "plane",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58528,7 +58614,8 @@
 "category": "lore",
 "tags": [
 "plane",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58540,7 +58627,8 @@
 "category": "lore",
 "tags": [
 "plane",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58553,7 +58641,8 @@
 "tags": [
 "plane",
 "has-secondary",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58566,7 +58655,8 @@
 "tags": [
 "plane",
 "has-secondary",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58578,7 +58668,8 @@
 "category": "lore",
 "tags": [
 "plane",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58626,7 +58717,8 @@
 "tags": [
 "plane",
 "has-secondary",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58719,7 +58811,8 @@
 "category": "lore",
 "tags": [
 "plane",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58731,7 +58824,8 @@
 "category": "lore",
 "tags": [
 "plane",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58743,7 +58837,8 @@
 "category": "lore",
 "tags": [
 "plane",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58968,7 +59063,8 @@
 "category": "lore",
 "tags": [
 "plane",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58981,7 +59077,8 @@
 "tags": [
 "item",
 "has-unknowns",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58993,7 +59090,8 @@
 "category": "lore",
 "tags": [
 "item",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59005,7 +59103,8 @@
 "category": "lore",
 "tags": [
 "item",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59017,7 +59116,8 @@
 "category": "lore",
 "tags": [
 "item",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59029,7 +59129,8 @@
 "category": "lore",
 "tags": [
 "item",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59041,7 +59142,8 @@
 "category": "lore",
 "tags": [
 "item",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59065,7 +59167,8 @@
 "category": "lore",
 "tags": [
 "item",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59102,7 +59205,8 @@
 "tags": [
 "item",
 "has-secondary",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59115,7 +59219,8 @@
 "tags": [
 "item",
 "has-unknowns",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59140,7 +59245,8 @@
 "tags": [
 "item",
 "has-unknowns",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59153,7 +59259,8 @@
 "tags": [
 "item",
 "has-unknowns",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59166,7 +59273,8 @@
 "tags": [
 "item",
 "has-secondary",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59190,7 +59298,8 @@
 "category": "lore",
 "tags": [
 "item",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59203,7 +59312,8 @@
 "tags": [
 "item",
 "has-unknowns",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59216,7 +59326,8 @@
 "tags": [
 "item",
 "has-secondary",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59228,7 +59339,8 @@
 "category": "lore",
 "tags": [
 "item",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59273,7 +59385,8 @@
 "category": "lore",
 "tags": [
 "item",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59682,7 +59795,8 @@
 "category": "lore",
 "tags": [
 "character",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59829,7 +59943,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59853,7 +59968,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59927,7 +60043,8 @@
 "category": "lore",
 "tags": [
 "character",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60014,7 +60131,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60026,7 +60144,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60050,7 +60169,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60147,7 +60267,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60209,7 +60330,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60221,7 +60343,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60233,7 +60356,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60245,7 +60369,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60258,7 +60383,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60294,7 +60420,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60330,7 +60457,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60562,7 +60690,8 @@
 "category": "lore",
 "tags": [
 "character",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60574,7 +60703,8 @@
 "category": "lore",
 "tags": [
 "character",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60882,7 +61012,8 @@
 "arc",
 "has-secondary",
 "has-unknowns",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },

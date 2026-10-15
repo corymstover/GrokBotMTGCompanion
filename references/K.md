@@ -67,6 +67,7 @@ schema: 2
 
 - **Lore & story (3):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Kamigawa (Neon Dynasty era)](../Planes%20Index.md#kamigawa-neon-dynasty-era) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists T](../Artist%20Index.md#artists-t) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
+- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kamigawa (Neon Dynasty era)](../Planes%20Index.md#kamigawa-neon-dynasty-era) (featured) · [Kaito Shizuki](../Characters%20Index.md#kaito-shizuki) (name-match) · [Kaito Shizuki](../Planeswalker%20Dossiers.md#kaito-shizuki) (name-match)
 
 ### Kalain, Reclusive Painter
 
@@ -291,6 +292,7 @@ schema: 2
 
 - **Decks (1):** [Braids, Arisen Nightmare (Dominaria-only)](../decks/plane-dominaria-braids-arisen-nightmare.md)
 - **Lore & story (1):** [Items & Artifacts Index → Golgothian Sylex](../Items%20%26%20Artifacts%20Index.md#golgothian-sylex)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Golgothian Sylex](../Items%20%26%20Artifacts%20Index.md#golgothian-sylex) (featured)
 
 ### Karn, the Great Creator
 
@@ -627,6 +629,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Eldraine](../Planes%20Index.md#eldraine)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Adventurer cards (real cards)](../Tokens%2C%20Emblems%20%26%20Dungeons.md#adventurer-cards-real-cards)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Eldraine](../Planes%20Index.md#eldraine) (featured) · [Kellan](../Characters%20Index.md#kellan) (name-match)
 
 ### Kellan, the Kid
 
@@ -952,6 +955,7 @@ schema: 2
 
 - **EDH guides (1):** [cEDH Primer → Compact combos](../cEDH%20Primer.md#compact-combos)
 - **Lore & story (1):** [Planes Index → Ikoria](../Planes%20Index.md#ikoria)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ikoria](../Planes%20Index.md#ikoria) (featured)
 
 ### Kinsbaile Borderguard
 
@@ -1244,6 +1248,7 @@ schema: 2
 [Card entry](../cards/K/ko.md#kolvori-god-of-kinship--the-ringhart-crest) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Koma, Cosmos Serpent
 
@@ -1251,6 +1256,7 @@ schema: 2
 
 - **Lore & story (2):** [Items & Artifacts Index → World Tree & the Sword of the Realms (Kaldheim)](../Items%20%26%20Artifacts%20Index.md#world-tree--the-sword-of-the-realms-kaldheim) · [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
 - **Card data (2):** [Artist Index → Artists E](../Artist%20Index.md#artists-e) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured) · [World Tree & the Sword of the Realms (Kaldheim)](../Items%20%26%20Artifacts%20Index.md#world-tree--the-sword-of-the-realms-kaldheim) (featured)
 
 ### Koma, World-Eater
 

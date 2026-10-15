@@ -39,8 +39,9 @@ TAG_RX = re.compile(r"^[a-z0-9+]+(-[a-z0-9+]+)*$")
 PAGES = {
     "Art & Flavor Story Links.md": ("lore", ["lore", "art", "flavor", "story-spotlight"], [37], "scripts/build_art_flavor.py", ["scryfall", "wizards-story"]),
     "Artist Index.md": ("cards", ["artists", "art-credits"], [43], "scripts/build_artists.py", ["scryfall"]),
-    "Card Data Conventions.md": ("meta", ["conventions", "card-entries"], [96], None, ["scryfall"]),
+    "Card Data Conventions.md": ("meta", ["conventions", "card-entries"], [96, 99], None, ["scryfall"]),
     "Card Index.md": ("cards", ["index", "coverage"], [1, 2, 5], "scripts/ingest_scryfall.py", ["scryfall"]),
+    "Card Enrichment.md": ("cards", ["card-enrichment", "lore", "synergy", "coverage", "phase-8"], [99, 100, 101, 102], "scripts/build_card_enrichment.py", ["scryfall", "wizards-story", "spellbook", "edhrec"]),
     "Characters Index.md": ("lore", ["lore", "characters", "status", "planeswalkers"], [7, 11, 20, 74, 92, 93, 94], None, ["wizards-story"]),
     "Conflicts & Arcs.md": ("lore", ["lore", "arcs", "conflicts"], [7, 13, 34, 72, 73, 92, 93, 94], None, ["wizards-story"]),
     "Contradictions & Retcons Log.md": ("lore", ["lore", "retcons", "contradictions", "canon"], [73, 76, 92, 93, 94], None, ["wizards-story"]),
@@ -92,7 +93,7 @@ PAGES = {
     "Lore Entry Index.md": ("lore", ["lore", "index", "entries", "retrieval"], [92, 94], "scripts/build_lore_index.py", ["wizards-story"]),
     "grixis/Grixis Integration Summary.md": ("meta", ["grixis", "summary", "follow-ups"], [59, 60, 61, 62, 63], None, ["grixis-repo"]),
 }
-INDEX_ONLY = {"Lore Entry Index.md"}  # generated hub that links every lore page; never counted as another page's "related"
+INDEX_ONLY = {"Lore Entry Index.md", "Card Enrichment.md"}  # generated hub that links every lore page; never counted as another page's "related"
 SUBDIRS = ["grixis"]  # sub-folders whose .md pages must be registered (decks/ folders are handled as decks)
 DECK_DIRS = ["decks", "grixis/decks"]
 SHARD_DIR = "cards"

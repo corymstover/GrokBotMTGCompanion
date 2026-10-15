@@ -180,6 +180,7 @@ schema: 2
 [Card entry](../cards/F/fa.md#falco-spara-pactweaver) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → New Capenna](../Planes%20Index.md#new-capenna)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [New Capenna](../Planes%20Index.md#new-capenna) (featured)
 
 ### Faldorn, Dread Wolf Herald
 

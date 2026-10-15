@@ -11,8 +11,11 @@ Steps (run in this order; each prints its own summary):
   4d lore-entries scripts/check_lore.py                 every lore entry cites an official page; statement/timeline rows cited;
                                                          entry anchors resolve; spark state agrees across Characters Index,
                                                          dossiers and retcon log; Lore Entry Index current (Bot cycle 31, #94)
-  4e lore-quotes  scripts/lore_quotes.py --check        every quotation on 13 lore pages is verbatim in the cached official
-                                                         page it cites (or Scryfall card text), or a documented exception
+  4e lore-quotes  scripts/lore_quotes.py --check        every quotation on 13 lore + 12 rules/FAQ/EDH pages is verbatim in the
+                                                         cached official page it cites (or card text / CR / rulings), or a
+                                                         documented exception (Bot cycles 31–32)
+  4f card-enrichment scripts/build_card_enrichment.py --check  card Lore/Synergy lines current; every lore relation cited and
+                                                         linked back by its entry; decks contain the card; tiers labelled (Bot cycle 33, #102)
   5 citations    scripts/check_citations.py              Wizards URLs in sitemap/resolving (data/citations.json) + CR rule numbers exist
   6 oracle       scripts/verify_cards.py                 every card entry matches the Scryfall Oracle/rulings bulk verbatim
   7 decks        (built in)                              every deck list still resolves, is legal, fits identity, 100 cards, singleton,
@@ -109,6 +112,7 @@ def main(argv):
              ("lore", ["scripts/build_lore_decks.py", "--check"]),  # Bot cycle 23: kind: lore decks must be >= 85% story-linked
              ("lore-entries", ["scripts/check_lore.py"]),  # Bot cycle 31 (#94): lore entry citations, anchors, spark consistency
              ("lore-quotes", ["scripts/lore_quotes.py", "--check"]),  # Bot cycle 31 (#94): verbatim quote verification
+             ("card-enrichment", ["scripts/build_card_enrichment.py", "--check"]),  # Bot cycle 33 (#102): card Lore/Synergy lines
              ("citations", ["scripts/check_citations.py"] + (["--online"] if online else [])),
              ("oracle", ["scripts/verify_cards.py"]), ("decks", None), ("freshness", None)]
     results = []

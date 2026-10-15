@@ -1108,6 +1108,7 @@ schema: 2
 [Card entry](../cards/M/me.md#memnarch) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured)
 
 ### Memorial to Genius
 

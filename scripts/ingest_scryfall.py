@@ -263,6 +263,20 @@ def ref_line(c: dict) -> str | None:
     return ref_line_text(info) if info else None
 
 
+_ENRICH: dict | None = None
+
+
+def enrichment_lines(c: dict) -> list[str]:
+    """Lore + Synergy lines from data/card_enrichment.json (Bot cycle 33, Phase 8, #99; built by build_card_enrichment.py),
+    so a re-import keeps them."""
+    global _ENRICH
+    if _ENRICH is None:
+        p = DATA_DIR / "card_enrichment.json"
+        _ENRICH = json.loads(p.read_text(encoding="utf-8"))["cards"] if p.exists() else {}
+    e = _ENRICH.get(c["oracle_id"])
+    return list(e["lines"]) if e else []
+
+
 def render_entry(c: dict, bulk_date: str, rulings: list | None = None) -> str:
     L = [f"### {heading(c)}", ""]
     faces = c.get("card_faces")
@@ -311,6 +325,7 @@ def render_entry(c: dict, bulk_date: str, rulings: list | None = None) -> str:
              f"printing: {c.get('set', '').upper()} #{c.get('collector_number', '')} ({c.get('released_at', '')})",
              *([] if rulings else [f"[rulings]({c.get('rulings_uri', '')})"]),
              f"source: Scryfall oracle_cards bulk {bulk_date[:10]}", "status: ✅ verified (Scryfall Oracle)"]
+    L.extend(enrichment_lines(c))
     rl = ref_line(c)
     if rl:
         L.append(rl)

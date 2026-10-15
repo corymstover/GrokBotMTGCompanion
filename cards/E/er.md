@@ -426,6 +426,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — By default, the controller of a Role token is the player who created it, even if that Role token is attached to a creature they don't control.
   - *2023-09-01* — Count the number of Auras you control as the ability resolves to determine the value of X.
+- **Lore:** Featured in: [Plane → Eldraine](../../Planes%20Index.md#eldraine) ([source](https://magic.wizards.com/en/news/announcements/a-first-look-at-wilds-of-eldraine), [2](https://magic.wizards.com/en/news/magic-story/episode-1-pure-of-heart)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 19,142 decks; highest synergy [Mesa Enchantress](../../cards/M/me.md#mesa-enchantress) (+77%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+75%), [Kor Spiritdancer](../../cards/K/ko.md#kor-spiritdancer) (+73%) · EDHREC: in 23,176 decks; most often under [Killian, Decisive Mentor](../../cards/K/ki.md#killian-decisive-mentor) (93.5% of its decks), [Eriette, the Beguiler](../../cards/E/er.md#eriette-the-beguiler) (70.7% of its decks), [Scriv, the Obligator](../../cards/S/sc.md#scriv-the-obligator) (88.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/E.md#eriette-of-the-charmed-apple)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/307/eriette-of-the-charmed-apple) · oracle_id `f43f5855-f297-4433-984b-18263b734cfc` · printing: SOC #307 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

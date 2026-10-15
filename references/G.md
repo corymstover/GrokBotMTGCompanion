@@ -20,6 +20,7 @@ schema: 2
 [Card entry](../cards/G/ga.md#gadwick-the-wizened) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Eldraine](../Planes%20Index.md#eldraine)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Eldraine](../Planes%20Index.md#eldraine) (featured)
 
 ### Gaea's Cradle
 
@@ -450,6 +451,7 @@ schema: 2
 [Card entry](../cards/G/ge.md#general-kudro-of-drannith) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Conflicts & Arcs → Ikoria: Lair of Behemoths (2020)](../Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ikoria: Lair of Behemoths (2020)](../Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020) (featured)
 
 ### General's Enforcer
 
@@ -1250,6 +1252,7 @@ schema: 2
 - **EDH guides (1):** [EDH Interaction → 1. Repeatable answers on permanents](../EDH%20Interaction.md#1-repeatable-answers-on-permanents)
 - **Lore & story (1):** [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres)
 - **Card data (1):** [Artist Index → Artists K](../Artist%20Index.md#artists-k)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured)
 
 ### Glistening Sphere
 
@@ -1635,6 +1638,7 @@ schema: 2
 [Card entry](../cards/G/god.md#godsend) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Items & Artifacts Index → Godsend & Khrusor](../Items%20%26%20Artifacts%20Index.md#godsend--khrusor)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Godsend & Khrusor](../Items%20%26%20Artifacts%20Index.md#godsend--khrusor) (depicts)
 
 ### Godsire
 
@@ -2028,6 +2032,7 @@ schema: 2
 [Card entry](../cards/G/gra.md#grandmother-sengir) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Ulgrotha](../Planes%20Index.md#ulgrotha)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ulgrotha](../Planes%20Index.md#ulgrotha) (featured)
 
 ### Grand Warlord Radha
 

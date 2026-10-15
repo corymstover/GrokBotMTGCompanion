@@ -44,6 +44,7 @@ schema: 2
 [Card entry](../cards/R/rad.md#radha-coalition-warlord) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Dominaria (Dominaria United era)](../Planes%20Index.md#dominaria-dominaria-united-era)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dominaria (Dominaria United era)](../Planes%20Index.md#dominaria-dominaria-united-era) (featured)
 
 ### Radha's Firebrand
 
@@ -125,6 +126,7 @@ schema: 2
 - **EDH guides (1):** [EDH Staples → Esper (WUB)](../EDH%20Staples.md#esper-wub)
 - **Lore & story (1):** [Planes Index → New Capenna](../Planes%20Index.md#new-capenna)
 - **Card data (1):** [Format Legality Matrix → duel](../Format%20Legality%20Matrix.md#duel)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [New Capenna](../Planes%20Index.md#new-capenna) (featured)
 
 ### Raffine's Tower
 
@@ -276,6 +278,7 @@ schema: 2
 - **Decks (2):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Be'lakor, the Dark Master (Grixis)](../grixis/decks/belakor-the-dark-master.md)
 - **Rules (1):** [Rules Interactions → Commander tax](../Rules%20Interactions.md#commander-tax)
 - **Lore & story (1):** [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (featured)
 
 ### Rakdos, Patron of Chaos
 
@@ -341,6 +344,7 @@ schema: 2
 
 - **Lore & story (3):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists A](../Artist%20Index.md#artists-a) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
+- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (featured) · [Ral Zarek](../Characters%20Index.md#ral-zarek) (name-match) · [Ral Zarek](../Planeswalker%20Dossiers.md#ral-zarek) (name-match)
 
 ### Ral, Izzet Viceroy
 
@@ -508,6 +512,7 @@ schema: 2
 - **Decks (1):** [Syr Konrad, the Grim (Eldraine-only)](../decks/plane-eldraine-syr-konrad-the-grim.md)
 - **Lore & story (1):** [Planes Index → Eldraine](../Planes%20Index.md#eldraine)
 - **Card data (1):** [Artist Index → Artists B](../Artist%20Index.md#artists-b)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Eldraine](../Planes%20Index.md#eldraine) (featured)
 
 ### Rankle's Prank
 
@@ -809,6 +814,7 @@ schema: 2
 [Card entry](../cards/R/rea.md#realmbreaker-the-invasion-tree) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Items & Artifacts Index → Realmbreaker, the Invasion Tree](../Items%20%26%20Artifacts%20Index.md#realmbreaker-the-invasion-tree)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Realmbreaker, the Invasion Tree](../Items%20%26%20Artifacts%20Index.md#realmbreaker-the-invasion-tree) (depicts)
 
 ### Realm-Cloaked Giant // Cast Off
 
@@ -1171,6 +1177,7 @@ schema: 2
 [Card entry](../cards/R/rei.md#reidane-god-of-the-worthy--valkmira-protectors-shield) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Reign of Chaos
 
@@ -2075,6 +2082,7 @@ schema: 2
 [Card entry](../cards/R/ri.md#risona-asari-commander) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Kamigawa (Neon Dynasty era)](../Planes%20Index.md#kamigawa-neon-dynasty-era)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kamigawa (Neon Dynasty era)](../Planes%20Index.md#kamigawa-neon-dynasty-era) (featured)
 
 ### Rite of Belzenlok
 
@@ -2611,6 +2619,7 @@ schema: 2
 
 - **Lore & story (1):** [Planes Index → Eldraine](../Planes%20Index.md#eldraine)
 - **Card data (1):** [Artist Index → Artists M](../Artist%20Index.md#artists-m)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Eldraine](../Planes%20Index.md#eldraine) (featured)
 
 ### Ruby Leech
 

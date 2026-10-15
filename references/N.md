@@ -67,6 +67,7 @@ schema: 2
 
 - **Lore & story (3):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Zendikar (Zendikar Rising era)](../Planes%20Index.md#zendikar-zendikar-rising-era) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
+- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Zendikar (Zendikar Rising era)](../Planes%20Index.md#zendikar-zendikar-rising-era) (featured) · [Nahiri](../Characters%20Index.md#nahiri) (name-match) · [Nahiri](../Planeswalker%20Dossiers.md#nahiri) (name-match)
 
 ### Nahiri's Binding
 
@@ -536,6 +537,7 @@ schema: 2
 - **EDH guides (1):** [EDH Staples → Abzan (WBG)](../EDH%20Staples.md#abzan-wbg)
 - **Rules (1):** [Keyword Encyclopedia → Mutate](../Keyword%20Encyclopedia.md#mutate)
 - **Lore & story (1):** [Planes Index → Ikoria](../Planes%20Index.md#ikoria)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ikoria](../Planes%20Index.md#ikoria) (featured)
 
 ### Nettlecyst
 
@@ -920,6 +922,7 @@ schema: 2
 [Card entry](../cards/N/ni.md#niv-mizzet-reborn) · **4 pages** (lore & story 4)
 
 - **Lore & story (4):** [Art & Flavor Story Links → War of the Spark (2019)](../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
+- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (featured) · [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match) · [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
 
 ### Niv-Mizzet, Supreme
 

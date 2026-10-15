@@ -19,7 +19,8 @@
    "anchor": "jace-beleren",
    "tags": [
     "dossier",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 20,
    "flags": {},
@@ -30,7 +31,10 @@
     "planes": [
      "Planes Index.md#vryn"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Jace, Vryn's Prodigy // Jace, Telepath Unbound"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -192,7 +196,8 @@
    "anchor": "kaito-shizuki",
    "tags": [
     "dossier",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 8,
    "flags": {},
@@ -200,7 +205,10 @@
     "characters": [
      "Characters Index.md#kaito-shizuki"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Kaito Shizuki"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -210,7 +218,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 12,
    "flags": {
@@ -220,7 +229,10 @@
     "characters": [
      "Characters Index.md#vraska"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Vraska, Golgari Queen"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -290,7 +302,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 8,
    "flags": {
@@ -303,7 +316,10 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Nahiri, Heir of the Ancients"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -370,7 +386,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 8,
    "flags": {
@@ -380,7 +397,10 @@
     "characters": [
      "Characters Index.md#ral-zarek"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Ral, Crackling Wit"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -413,7 +433,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 8,
    "flags": {
@@ -423,7 +444,10 @@
     "characters": [
      "Characters Index.md#tezzeret"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Tezzeret, Betrayer of Flesh"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -493,7 +517,8 @@
    "name": "Niv-Mizzet",
    "anchor": "niv-mizzet",
    "tags": [
-    "dossier"
+    "dossier",
+    "has-enriched-cards"
    ],
    "citations": 7,
    "flags": {},
@@ -501,7 +526,10 @@
     "characters": [
      "Characters Index.md#proft-etrata-aminatou-niv-mizzet"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Niv-Mizzet Reborn"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -778,7 +806,8 @@
    "anchor": "kaldheim",
    "tags": [
     "plane",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 7,
    "flags": {
@@ -814,7 +843,26 @@
     "planes": [
      "Planes Index.md#special-realms--cosmology"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Alrund, God of the Cosmos // Hakka, Whispering Raven",
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "Cosima, God of the Voyage // The Omenkeel",
+    "Egon, God of Death // Throne of Death",
+    "Esika, God of the Tree // The Prismatic Bridge",
+    "Halvar, God of Battle // Sword of the Realms",
+    "Inga Rune-Eyes",
+    "Jorn, God of Winter // Kaldring, the Rimestaff",
+    "Kolvori, God of Kinship // The Ringhart Crest",
+    "Koma, Cosmos Serpent",
+    "Reidane, God of the Worthy // Valkmira, Protector's Shield",
+    "Tergrid, God of Fright // Tergrid's Lantern",
+    "Toralf, God of Fury // Toralf's Hammer",
+    "Toski, Bearer of Secrets",
+    "Tyvar Kell",
+    "Valki, God of Lies // Tibalt, Cosmic Impostor",
+    "Varragoth, Bloodsky Sire"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -824,7 +872,8 @@
    "tags": [
     "plane",
     "has-secondary",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 5,
    "flags": {
@@ -848,7 +897,19 @@
     "planes": [
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Agatha of the Vile Cauldron",
+    "Eriette of the Charmed Apple",
+    "Gadwick, the Wizened",
+    "Hylda of the Icy Crown",
+    "Kellan, the Fae-Blooded // Birthright Boon",
+    "Linden, the Steadfast Queen",
+    "Questing Beast",
+    "Rankle, Master of Pranks",
+    "Ruby, Daring Tracker",
+    "Talion, the Kindly Lord"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -857,7 +918,8 @@
    "anchor": "ikoria",
    "tags": [
     "plane",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -879,7 +941,16 @@
      "cards/W/wi.md#winota-joiner-of-forces",
      "cards/Z/za.md#zagoth-triome"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Brokkos, Apex of Forever",
+    "Illuna, Apex of Wishes",
+    "Kinnan, Bonder Prodigy",
+    "Nethroi, Apex of Death",
+    "Snapdax, Apex of the Hunt",
+    "Vadrok, Apex of Thunder",
+    "Winota, Joiner of Forces"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -888,7 +959,8 @@
    "anchor": "new-capenna",
    "tags": [
     "plane",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -907,7 +979,14 @@
      "cards/Z/zi.md#ziatora-the-incinerator",
      "cards/Z/zi.md#ziatoras-proving-ground"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Falco Spara, Pactweaver",
+    "Jetmir, Nexus of Revels",
+    "Lord Xander, the Collector",
+    "Raffine, Scheming Seer",
+    "Ziatora, the Incinerator"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -916,7 +995,8 @@
    "anchor": "phyrexia-old-phyrexia--new-phyrexias-spheres",
    "tags": [
     "plane",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -947,7 +1027,18 @@
      "Planes Index.md#kaldheim",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Elesh Norn, Mother of Machines",
+    "Glissa Sunslayer",
+    "Jin-Gitaxias, Progress Tyrant",
+    "Memnarch",
+    "Sheoldred, the Apocalypse",
+    "Tezzeret, Betrayer of Flesh",
+    "Urabrask // The Great Work",
+    "Vorinclex, Monstrous Raider",
+    "Yawgmoth, Thran Physician"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -957,7 +1048,8 @@
    "tags": [
     "plane",
     "has-secondary",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -979,7 +1071,18 @@
     "characters": [
      "Characters Index.md#post-mending-planeswalkers"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Aurelia, Exemplar of Justice",
+    "Borborygmos",
+    "Lavinia, Azorius Renegade",
+    "Lazav, Familiar Stranger",
+    "Niv-Mizzet Reborn",
+    "Rakdos, Lord of Riots",
+    "Ral, Crackling Wit",
+    "Trostani, Three Whispers",
+    "Vraska, Golgari Queen"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -989,7 +1092,8 @@
    "tags": [
     "plane",
     "has-secondary",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -1000,7 +1104,10 @@
     "cards": [
      "cards/V/vi.md#vivien-reid"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Vivien Reid"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -1009,7 +1116,8 @@
    "anchor": "vryn",
    "tags": [
     "plane",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -1023,7 +1131,10 @@
      "cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound",
      "cards/M/mag.md#mage-ring-network"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Jace, Vryn's Prodigy // Jace, Telepath Unbound"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -1095,7 +1206,8 @@
    "tags": [
     "plane",
     "has-secondary",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -1109,7 +1221,11 @@
      "cards/F/fe.md#ferozs-ban",
      "cards/G/gra.md#grandmother-sengir"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Baron Sengir",
+    "Grandmother Sengir"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -1243,7 +1359,8 @@
    "anchor": "zendikar-zendikar-rising-era",
    "tags": [
     "plane",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -1259,7 +1376,12 @@
      "Characters Index.md#nahiri",
      "Characters Index.md#nissa-revane"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Drana, Liberator of Malakir",
+    "Linvala, the Preserver",
+    "Nahiri, Heir of the Ancients"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -1268,7 +1390,8 @@
    "anchor": "kamigawa-neon-dynasty-era",
    "tags": [
     "plane",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -1284,7 +1407,13 @@
     "characters": [
      "Characters Index.md#kaito-shizuki"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Eiganjo, Seat of the Empire",
+    "Hidetsugu, Devouring Chaos",
+    "Kaito Shizuki",
+    "Risona, Asari Commander"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -1293,7 +1422,8 @@
    "anchor": "dominaria-dominaria-united-era",
    "tags": [
     "plane",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -1308,7 +1438,12 @@
      "cards/R/rad.md#radha-coalition-warlord",
      "cards/S/she.md#sheoldred-the-apocalypse"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Jhoira, Ageless Innovator",
+    "Radha, Coalition Warlord",
+    "Sheoldred, the Apocalypse"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -1706,7 +1841,8 @@
    "anchor": "sothera-system-the-edge",
    "tags": [
     "plane",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -1719,7 +1855,10 @@
     "cards": [
      "cards/S/so.md#sothera-the-supervoid"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Sothera, the Supervoid"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -1729,7 +1868,8 @@
    "tags": [
     "item",
     "has-unknowns",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 8,
    "flags": {
@@ -1749,7 +1889,10 @@
      "Contradictions & Retcons Log.md#the-sylex-plan-karn-2018-vs-the-invasion-copy",
      "Contradictions & Retcons Log.md#who-made-the-sylex"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Karn's Sylex"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -1758,7 +1901,8 @@
    "anchor": "blackblade",
    "tags": [
     "item",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {},
@@ -1769,7 +1913,10 @@
     "cards": [
      "cards/B/bla.md#blackblade-reforged"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Blackblade Reforged"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -1778,7 +1925,8 @@
    "anchor": "immortal-sun",
    "tags": [
     "item",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {},
@@ -1790,7 +1938,10 @@
     "cards": [
      "cards/T/thei.md#the-immortal-sun"
     ]
-   }
+   },
+   "enriched_cards": [
+    "The Immortal Sun"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -1799,7 +1950,8 @@
    "anchor": "chain-veil",
    "tags": [
     "item",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {},
@@ -1811,7 +1963,10 @@
     "cards": [
      "cards/T/thec.md#the-chain-veil"
     ]
-   }
+   },
+   "enriched_cards": [
+    "The Chain Veil"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -1820,7 +1975,8 @@
    "anchor": "godsend--khrusor",
    "tags": [
     "item",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {},
@@ -1832,7 +1988,10 @@
     "cards": [
      "cards/G/god.md#godsend"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Godsend"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -1841,7 +2000,8 @@
    "anchor": "helvault",
    "tags": [
     "item",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {},
@@ -1852,7 +2012,10 @@
     "cards": [
      "cards/H/he.md#helvault"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Helvault"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -1881,7 +2044,8 @@
    "anchor": "planar-bridge",
    "tags": [
     "item",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {},
@@ -1893,7 +2057,10 @@
     "cards": [
      "cards/P/pl.md#planar-bridge"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Planar Bridge"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -1941,7 +2108,8 @@
    "tags": [
     "item",
     "has-secondary",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -1954,7 +2122,10 @@
     "cards": [
      "cards/T/theo.md#the-ozolith"
     ]
-   }
+   },
+   "enriched_cards": [
+    "The Ozolith"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -1964,7 +2135,8 @@
    "tags": [
     "item",
     "has-unknowns",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -1977,7 +2149,10 @@
     "cards": [
      "cards/T/thee.md#the-endstone"
     ]
-   }
+   },
+   "enriched_cards": [
+    "The Endstone"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -2009,7 +2184,8 @@
    "tags": [
     "item",
     "has-unknowns",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -2022,7 +2198,10 @@
     "cards": [
      "cards/L/li.md#lithoform-engine"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Lithoform Engine"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -2032,7 +2211,8 @@
    "tags": [
     "item",
     "has-unknowns",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -2045,7 +2225,10 @@
     "cards": [
      "cards/T/them.md#the-mightstone-and-weakstone"
     ]
-   }
+   },
+   "enriched_cards": [
+    "The Mightstone and Weakstone"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -2055,7 +2238,8 @@
    "tags": [
     "item",
     "has-secondary",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -2072,7 +2256,10 @@
     "retcons": [
      "Contradictions & Retcons Log.md#the-moonsilver-key-innistrad-relic-then-teferis-artifact"
     ]
-   }
+   },
+   "enriched_cards": [
+    "The Celestus"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -2102,7 +2289,8 @@
    "anchor": "reality-chip",
    "tags": [
     "item",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {},
@@ -2113,7 +2301,10 @@
     "cards": [
      "cards/T/ther.md#the-reality-chip"
     ]
-   }
+   },
+   "enriched_cards": [
+    "The Reality Chip"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -2123,7 +2314,8 @@
    "tags": [
     "item",
     "has-unknowns",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -2138,7 +2330,10 @@
      "cards/K/ko.md#koma-cosmos-serpent",
      "cards/T/thew.md#the-world-tree"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Koma, Cosmos Serpent"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -2148,7 +2343,8 @@
    "tags": [
     "item",
     "has-secondary",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -2167,7 +2363,13 @@
     "items": [
      "Items & Artifacts Index.md#godsend--khrusor"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Bident of Thassa",
+    "Bow of Nylea",
+    "Hammer of Purphoros",
+    "Whip of Erebos"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -2176,7 +2378,8 @@
    "anchor": "mana-rig-powerstones--thran-steel-dmu",
    "tags": [
     "item",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {},
@@ -2187,7 +2390,10 @@
     "cards": [
      "cards/T/them.md#the-mana-rig"
     ]
-   }
+   },
+   "enriched_cards": [
+    "The Mana Rig"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -2247,7 +2453,8 @@
    "anchor": "realmbreaker-the-invasion-tree",
    "tags": [
     "item",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {},
@@ -2259,7 +2466,10 @@
     "cards": [
      "cards/R/rea.md#realmbreaker-the-invasion-tree"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Realmbreaker, the Invasion Tree"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -3003,7 +3213,8 @@
    "anchor": "nahiri",
    "tags": [
     "character",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -3021,7 +3232,10 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Nahiri, Heir of the Ancients"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3314,7 +3528,8 @@
    "anchor": "yawgmoth",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -3331,7 +3546,10 @@
      "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Yawgmoth, Thran Physician"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3367,7 +3585,8 @@
    "anchor": "jace-beleren",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -3390,7 +3609,10 @@
     "retcons": [
      "Contradictions & Retcons Log.md#jace-dead-then-fragments-then-dead"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Jace, Vryn's Prodigy // Jace, Telepath Unbound"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3542,7 +3764,8 @@
    "anchor": "vraska",
    "tags": [
     "character",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -3560,7 +3783,10 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Vraska, Golgari Queen"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3735,7 +3961,8 @@
    "anchor": "ral-zarek",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -3752,7 +3979,10 @@
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Ral, Crackling Wit"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3761,7 +3991,8 @@
    "anchor": "tezzeret",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -3777,7 +4008,10 @@
     "planes": [
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Tezzeret, Betrayer of Flesh"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3815,7 +4049,8 @@
    "anchor": "kaito-shizuki",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -3832,7 +4067,10 @@
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Kaito Shizuki"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4028,7 +4266,8 @@
    "anchor": "lukka",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -4044,7 +4283,10 @@
     "planes": [
      "Planes Index.md#ikoria"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Lukka, Coppercoat Outcast"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4155,7 +4397,8 @@
    "anchor": "elesh-norn",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -4172,7 +4415,10 @@
      "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Elesh Norn, Mother of Machines"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4181,7 +4427,8 @@
    "anchor": "sheoldred",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -4198,7 +4445,10 @@
      "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Sheoldred, the Apocalypse"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4207,7 +4457,8 @@
    "anchor": "jin-gitaxias",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -4224,7 +4475,10 @@
      "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Jin-Gitaxias, Progress Tyrant"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4233,7 +4487,8 @@
    "anchor": "vorinclex",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -4250,7 +4505,10 @@
      "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Vorinclex, Monstrous Raider"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4260,7 +4518,8 @@
    "tags": [
     "character",
     "has-unknowns",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -4278,7 +4537,10 @@
      "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Urabrask // The Great Work"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4338,7 +4600,8 @@
    "anchor": "kellan",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -4354,7 +4617,10 @@
     "planes": [
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Kellan, the Fae-Blooded // Birthright Boon"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4414,7 +4680,8 @@
    "anchor": "proft-etrata-aminatou-niv-mizzet",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -4430,7 +4697,10 @@
     "planes": [
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Niv-Mizzet Reborn"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4737,13 +5007,17 @@
    "anchor": "tyvar-kell",
    "tags": [
     "character",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
     "confirmed": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Tyvar Kell"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4752,7 +5026,8 @@
    "anchor": "vivien-reid",
    "tags": [
     "character",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -4762,7 +5037,11 @@
     "planes": [
      "Planes Index.md#skalla"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Vivien Reid",
+    "Vivien, Monsters' Advocate"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -5563,7 +5842,8 @@
     "arc",
     "has-secondary",
     "has-unknowns",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -5589,7 +5869,13 @@
     "planes": [
      "Planes Index.md#ikoria"
     ]
-   }
+   },
+   "enriched_cards": [
+    "General Kudro of Drannith",
+    "Lukka, Coppercoat Outcast",
+    "The Ozolith",
+    "Vivien, Monsters' Advocate"
+   ]
   },
   {
    "page": "Conflicts & Arcs.md",

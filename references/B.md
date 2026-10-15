@@ -347,6 +347,7 @@ schema: 2
 [Card entry](../cards/B/bar.md#baron-sengir) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Ulgrotha](../Planes%20Index.md#ulgrotha)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ulgrotha](../Planes%20Index.md#ulgrotha) (featured)
 
 ### Baron Strucker, HYDRA Overlord
 
@@ -933,6 +934,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Items & Artifacts Index → Theros god weapons](../Items%20%26%20Artifacts%20Index.md#theros-god-weapons)
 - **Card data (1):** [Artist Index → Artists K](../Artist%20Index.md#artists-k)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Theros god weapons](../Items%20%26%20Artifacts%20Index.md#theros-god-weapons) (featured)
 
 ### Bigger on the Inside
 
@@ -1056,6 +1058,7 @@ schema: 2
 - **EDH guides (3):** [EDH Packages → Card advantage: Impulse / exile-to-play](../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [EDH Upgrade Paths → Feather, the Redeemed](../EDH%20Upgrade%20Paths.md#feather-the-redeemed) (+1 more) · [Grixis Packages → Ramp](../grixis/Grixis%20Packages.md#ramp)
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
 - **Card data (1):** [Artist Index → Artists R](../Artist%20Index.md#artists-r)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Birthing Boughs
 
@@ -1166,6 +1169,7 @@ schema: 2
 
 - **Decks (2):** [Braids, Arisen Nightmare (Dominaria-only)](../decks/plane-dominaria-braids-arisen-nightmare.md) · [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md)
 - **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Items & Artifacts Index → Blackblade](../Items%20%26%20Artifacts%20Index.md#blackblade)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Blackblade](../Items%20%26%20Artifacts%20Index.md#blackblade) (depicts)
 
 ### Black Cat, Cunning Thief
 
@@ -2058,6 +2062,7 @@ schema: 2
 [Card entry](../cards/B/bo.md#borborygmos) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (featured)
 
 ### Borborygmos Enraged
 
@@ -2238,6 +2243,7 @@ schema: 2
 
 - **Decks (1):** [Uro, Titan of Nature's Wrath (Theros-only)](../decks/plane-theros-uro-titan-of-natures-wrath.md)
 - **Lore & story (1):** [Items & Artifacts Index → Theros god weapons](../Items%20%26%20Artifacts%20Index.md#theros-god-weapons)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Theros god weapons](../Items%20%26%20Artifacts%20Index.md#theros-god-weapons) (featured)
 
 ### Brago, King Eternal
 
@@ -2686,6 +2692,7 @@ schema: 2
 
 - **Lore & story (1):** [Planes Index → Ikoria](../Planes%20Index.md#ikoria)
 - **Card data (1):** [Artist Index → Artists D](../Artist%20Index.md#artists-d)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ikoria](../Planes%20Index.md#ikoria) (featured)
 
 ### Bronzebeak Foragers
 

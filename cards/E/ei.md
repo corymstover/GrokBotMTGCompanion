@@ -256,6 +256,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
   - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Lore:** Featured in: [Plane → Kamigawa (Neon Dynasty era)](../../Planes%20Index.md#kamigawa-neon-dynasty-era) ([source](https://magic.wizards.com/en/news/magic-story/episode-1-stranger-eiganjo-2022-01-24), [2](https://magic.wizards.com/en/news/magic-story/episode-5-threads-war-2022-01-27)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 320,199 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (22.5% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (15.9% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (33.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/E.md#eiganjo-seat-of-the-empire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/268/eiganjo-seat-of-the-empire) · oracle_id `7edb3d15-4f70-4ebe-8c5e-caf6a225076d` · printing: NEO #268 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

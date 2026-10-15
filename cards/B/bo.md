@@ -3556,6 +3556,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17289 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2006-02-01* — Borborygmos's ability won't save your creatures that were dealt lethal damage in combat. Those creatures will be sent to your graveyard before they would get a counter.
+- **Lore:** Featured in: [Plane → Ravnica after the invasion (Murders at Karlov Manor)](../../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-murders-at-karlov-manor), [2](https://magic.wizards.com/en/news/magic-story/one-and-the-same) via entry) (the entry line carries ⚠️) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 250 decks; highest synergy [Gruul War Chant](../../cards/G/gru.md#gruul-war-chant) (+43%), [Gruul Charm](../../cards/G/gru.md#gruul-charm) (+39%), [Rubblebelt Raiders](../../cards/R/ru.md#rubblebelt-raiders) (+38%) · EDHREC: in 3,392 decks; most often under [Ruric Thar, the Unbowed](../../cards/R/ru.md#ruric-thar-the-unbowed) (4.3% of its decks), [Nikya of the Old Ways](../../cards/N/ni.md#nikya-of-the-old-ways) (5.3% of its decks), [Xenagos, God of Revels](../../cards/X/xe.md#xenagos-god-of-revels) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#borborygmos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/103/borborygmos) · oracle_id `9ab0820b-4f5f-47b3-8fa9-43f802aed275` · printing: GPT #103 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -5200,6 +5202,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2414 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-09-15* — You choose which mode you're using as you activate the ability.
+- **Lore:** Featured in: [Item → Theros god weapons](../../Items%20%26%20Artifacts%20Index.md#theros-god-weapons) ([source](https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-1-2013-08-21)) (the entry line carries ⚠️) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 68,663 decks; most often under [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (32.5% of its decks), [Rendmaw, Creaking Nest](../../cards/R/ren.md#rendmaw-creaking-nest) (41.7% of its decks), [Lara Croft, Tomb Raider](../../cards/L/la.md#lara-croft-tomb-raider) (83.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/B.md#bow-of-nylea)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/153/bow-of-nylea) · oracle_id `361b965f-2ce7-49f8-84e7-7325ea0c948d` · printing: THS #153 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

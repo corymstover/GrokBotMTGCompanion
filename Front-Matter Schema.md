@@ -12,7 +12,7 @@ schema: 2
 # Front-Matter Schema
 
 > **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **2**. Do not hand-edit.
-> Coverage: **51** registered pages (README.md and GOAL.md are exempt), **88** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
+> Coverage: **52** registered pages (README.md and GOAL.md are exempt), **88** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
 
 ## Contents
 - [Format](#format)
@@ -148,6 +148,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `calibration` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) |
 | `canon` | [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) |
 | `card-advantage` | [EDH Packages](EDH%20Packages.md) |
+| `card-enrichment` | [Card Enrichment](Card%20Enrichment.md) |
 | `card-entries` | [Card Data Conventions](Card%20Data%20Conventions.md) |
 | `cedh` | [cEDH Primer](cEDH%20Primer.md) |
 | `changelog` | [Update Log](Update%20Log.md) |
@@ -161,7 +162,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `contradictions` | [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) |
 | `conventions` | [Card Data Conventions](Card%20Data%20Conventions.md) |
 | `corrections` | [Grixis Corrections](grixis/Grixis%20Corrections.md) |
-| `coverage` | [Card Index](Card%20Index.md) |
+| `coverage` | [Card Enrichment](Card%20Enrichment.md) · [Card Index](Card%20Index.md) |
 | `deckbuilding-rules` | [EDH Standards](EDH%20Standards.md) |
 | `decks` | [EDH Themed Decks](EDH%20Themed%20Decks.md) · [README](grixis/README.md) |
 | `dossiers` | [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |
@@ -186,7 +187,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `lands` | [EDH Mana Bases](EDH%20Mana%20Bases.md) |
 | `legality` | [Format Legality Matrix](Format%20Legality%20Matrix.md) · [Grixis Corrections](grixis/Grixis%20Corrections.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) |
 | `lookup` | [Lookup Guide](Lookup%20Guide.md) |
-| `lore` | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) · [Characters Index](Characters%20Index.md) · [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) · [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) · [FAQ](FAQ.md) · [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) · [Lore Entry Index](Lore%20Entry%20Index.md) · [Lore Primary Sources](Lore%20Primary%20Sources.md) · [Master Timeline](Master%20Timeline.md) · [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md) · [Planes Index](Planes%20Index.md) · [Planeswalker Dossiers](Planeswalker%20Dossiers.md) · [Side-Media Index](Side-Media%20Index.md) · [Story Arc Summaries](Story%20Arc%20Summaries.md) · [Story Archive Index](Story%20Archive%20Index.md) |
+| `lore` | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) · [Card Enrichment](Card%20Enrichment.md) · [Characters Index](Characters%20Index.md) · [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) · [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) · [FAQ](FAQ.md) · [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) · [Lore Entry Index](Lore%20Entry%20Index.md) · [Lore Primary Sources](Lore%20Primary%20Sources.md) · [Master Timeline](Master%20Timeline.md) · [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md) · [Planes Index](Planes%20Index.md) · [Planeswalker Dossiers](Planeswalker%20Dossiers.md) · [Side-Media Index](Side-Media%20Index.md) · [Story Arc Summaries](Story%20Arc%20Summaries.md) · [Story Archive Index](Story%20Archive%20Index.md) |
 | `lore-decks` | [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) |
 | `maintenance` | [Knowledge Index](Knowledge%20Index.md) |
 | `mana-base` | [EDH Mana Bases](EDH%20Mana%20Bases.md) |
@@ -202,6 +203,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `packages` | [EDH Packages](EDH%20Packages.md) · [Grixis Packages](grixis/Grixis%20Packages.md) |
 | `pairings` | [EDH Pairings](EDH%20Pairings.md) |
 | `partner` | [EDH Pairings](EDH%20Pairings.md) |
+| `phase-8` | [Card Enrichment](Card%20Enrichment.md) |
 | `pilot-notes` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) |
 | `plane-restricted` | [EDH Themed Decks](EDH%20Themed%20Decks.md) |
 | `planes` | [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md) · [Planes Index](Planes%20Index.md) |
@@ -239,6 +241,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `strategy` | [EDH Archetypes](EDH%20Archetypes.md) |
 | `summary` | [Grixis Integration Summary](grixis/Grixis%20Integration%20Summary.md) |
 | `swap-ledger` | [EDH Deck Template](EDH%20Deck%20Template.md) |
+| `synergy` | [Card Enrichment](Card%20Enrichment.md) |
 | `tags` | [Front-Matter Schema](Front-Matter%20Schema.md) · [Knowledge Snapshots](Knowledge%20Snapshots.md) |
 | `template` | [EDH Deck Template](EDH%20Deck%20Template.md) · [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) |
 | `themes` | [EDH Themed Decks](EDH%20Themed%20Decks.md) |

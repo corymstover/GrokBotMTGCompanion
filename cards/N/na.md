@@ -537,6 +537,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10854 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-09-25* — You create a Kor Warrior token and attach an Equipment to it if you wish all while Nahiri's first ability is resolving. Nothing can happen in between, and no player may choose to take actions.
+- **Lore:** Featured in: [Plane → Zendikar (Zendikar Rising era)](../../Planes%20Index.md#zendikar-zendikar-rising-era) ([source](https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02)) — ⚠️ Name match only (not a canon claim): [Character → Nahiri](../../Characters%20Index.md#nahiri) · [Dossier → Nahiri](../../Planeswalker%20Dossiers.md#nahiri) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,928 decks; most often under [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (41.1% of its decks), [Ardenn, Intrepid Archaeologist // Rograkh, Son of Rohgahh](../../cards/A/ard.md#ardenn-intrepid-archaeologist) (11.7% of its decks), [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/N.md#nahiri-heir-of-the-ancients)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/230/nahiri-heir-of-the-ancients) · oracle_id `39bbc4cf-53fe-47dd-8ba3-1a59b1fa7dd1` · printing: ZNR #230 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

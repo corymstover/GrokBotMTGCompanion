@@ -153,6 +153,7 @@ schema: 2
 [Card entry](../cards/T/ta.md#talion-the-kindly-lord) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Eldraine](../Planes%20Index.md#eldraine)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Eldraine](../Planes%20Index.md#eldraine) (featured)
 
 ### Talisman of Conviction
 
@@ -1046,6 +1047,7 @@ schema: 2
 - **EDH guides (1):** [EDH Standards → Game Changers](../EDH%20Standards.md#game-changers)
 - **Rules (1):** [Keyword Encyclopedia → Menace](../Keyword%20Encyclopedia.md#menace)
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Termagant Swarm
 
@@ -1244,6 +1246,7 @@ schema: 2
 
 - **Lore & story (3):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists L](../Artist%20Index.md#artists-l) (+1 more) · [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
+- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Tezzeret](../Characters%20Index.md#tezzeret) (name-match) · [Tezzeret](../Planeswalker%20Dossiers.md#tezzeret) (name-match)
 
 ### Tezzeret, Cruel Captain
 
@@ -1473,6 +1476,7 @@ schema: 2
 [Card entry](../cards/T/thec.md#the-celestus) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Items & Artifacts Index → Celestus, Sungold Lock & Moonsilver Key](../Items%20%26%20Artifacts%20Index.md#celestus-sungold-lock--moonsilver-key)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Celestus, Sungold Lock & Moonsilver Key](../Items%20%26%20Artifacts%20Index.md#celestus-sungold-lock--moonsilver-key) (depicts)
 
 ### The Chain Veil
 
@@ -1480,6 +1484,7 @@ schema: 2
 
 - **Decks (1):** [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md)
 - **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Items & Artifacts Index → Chain Veil](../Items%20%26%20Artifacts%20Index.md#chain-veil)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chain Veil](../Items%20%26%20Artifacts%20Index.md#chain-veil) (depicts)
 
 ### The Chase Is On
 
@@ -1625,6 +1630,7 @@ schema: 2
 
 - **Lore & story (1):** [Items & Artifacts Index → Endstone](../Items%20%26%20Artifacts%20Index.md#endstone)
 - **Card data (1):** [Artist Index → Artists H](../Artist%20Index.md#artists-h)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Endstone](../Items%20%26%20Artifacts%20Index.md#endstone) (depicts)
 
 ### The Enigma Jewel // Locus of Enlightenment
 
@@ -1789,6 +1795,7 @@ schema: 2
 
 - **Decks (1):** [Ghalta, Primal Hunger (Ixalan-only)](../decks/plane-ixalan-ghalta-primal-hunger.md)
 - **Lore & story (1):** [Items & Artifacts Index → Immortal Sun](../Items%20%26%20Artifacts%20Index.md#immortal-sun)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Immortal Sun](../Items%20%26%20Artifacts%20Index.md#immortal-sun) (depicts)
 
 ### The Indomitable
 
@@ -1889,6 +1896,7 @@ schema: 2
 [Card entry](../cards/T/them.md#the-mana-rig) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Items & Artifacts Index → Mana Rig, powerstones & Thran steel (DMU)](../Items%20%26%20Artifacts%20Index.md#mana-rig-powerstones--thran-steel-dmu)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Mana Rig, powerstones & Thran steel (DMU)](../Items%20%26%20Artifacts%20Index.md#mana-rig-powerstones--thran-steel-dmu) (depicts)
 
 ### The Many Deeds of Belzenlok
 
@@ -1953,6 +1961,7 @@ schema: 2
 
 - **Decks (2):** [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
 - **Lore & story (1):** [Items & Artifacts Index → Mightstone & Weakstone](../Items%20%26%20Artifacts%20Index.md#mightstone--weakstone)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Mightstone & Weakstone](../Items%20%26%20Artifacts%20Index.md#mightstone--weakstone) (depicts)
 
 ### The Millennium Calendar
 
@@ -2045,6 +2054,7 @@ schema: 2
 - **Rules (1):** [Rules Interactions → Hexproof, shroud & ward](../Rules%20Interactions.md#hexproof-shroud--ward)
 - **Lore & story (2):** [Conflicts & Arcs → Ikoria: Lair of Behemoths (2020)](../Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020) · [Items & Artifacts Index → Ozolith](../Items%20%26%20Artifacts%20Index.md#ozolith)
 - **Card data (1):** [Artist Index → Artists R](../Artist%20Index.md#artists-r)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ozolith](../Items%20%26%20Artifacts%20Index.md#ozolith) (depicts) · [Ikoria: Lair of Behemoths (2020)](../Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020) (featured)
 
 ### The Phasing of Zhalfir
 
@@ -2085,6 +2095,7 @@ schema: 2
 - **Rules (1):** [Keyword Encyclopedia → Reconfigure](../Keyword%20Encyclopedia.md#reconfigure)
 - **Lore & story (1):** [Items & Artifacts Index → Reality Chip](../Items%20%26%20Artifacts%20Index.md#reality-chip)
 - **Card data (1):** [Artist Index → Artists T](../Artist%20Index.md#artists-t)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Reality Chip](../Items%20%26%20Artifacts%20Index.md#reality-chip) (depicts)
 
 ### There and Back Again
 
@@ -3627,6 +3638,7 @@ schema: 2
 
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
 - **Card data (1):** [Artist Index → Artists M](../Artist%20Index.md#artists-m)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Torbran, Thane of Red Fell
 
@@ -3749,6 +3761,7 @@ schema: 2
 - **EDH guides (3):** [EDH Standards → Combat damage, redirected — Saskia the Unyielding (BRGW, aggro)](../EDH%20Standards.md#combat-damage-redirected--saskia-the-unyielding-brgw-aggro) · [EDH Staples → Protection](../EDH%20Staples.md#protection) · [EDH Win Conditions → Counter-proofing](../EDH%20Win%20Conditions.md#counter-proofing)
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Touch the Spirit Realm
 
@@ -4308,6 +4321,7 @@ schema: 2
 
 - **Lore & story (1):** [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor)
 - **Card data (1):** [Artist Index → Artists I](../Artist%20Index.md#artists-i)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (featured)
 
 ### Trouble in Pairs
 
@@ -4673,6 +4687,7 @@ schema: 2
 - **Decks (1):** [Lathril, Blade of the Elves](../decks/lathril-blade-of-the-elves.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured) · [Tyvar Kell](../Characters%20Index.md#tyvar-kell) (name-match)
 
 ### Tyvar's Stand
 

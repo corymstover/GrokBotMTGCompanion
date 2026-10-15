@@ -77,6 +77,17 @@ def record(e, sparks):
 def build():
     sparks = spark_states()
     recs = [record(e, sparks) for e in L.all_entries()]
+    ce = ROOT / "data" / "card_enrichment.json"  # Bot cycle 33 (#102): cards whose Lore line names the entry
+    by_e = defaultdict(list)
+    if ce.exists():
+        for v in json.loads(ce.read_text(encoding="utf-8"))["cards"].values():
+            for x in v["lore"]["relations"]:
+                by_e[x["entry"]].append(v["name"])
+    for r in recs:
+        en = sorted(by_e.get(f"{r['page']}#{r['anchor']}", []))
+        if en:
+            r["enriched_cards"] = en
+            r["tags"].append("has-enriched-cards")
     return {"generated_by": "scripts/build_lore_index.py", "entries": len(recs),
             "by_kind": dict(Counter(r["kind"] for r in recs)), "items": recs}
 
@@ -87,18 +98,18 @@ def page(d):
     L_ = ["---", 'title: "Lore Entry Index"', "PLACEHOLDER", "---", "", "# Lore Entry Index", "",
           "> **Generated** by `scripts/build_lore_index.py` (Bot cycle 31, Phase 7 — retrieval for lore material). One row per entry on the eight lore entry pages; do not hand-edit. "
           "Tags are computed from what each entry already says (kind; `has-secondary` ⚠️ · `has-unknowns` ❓ · `has-non-canonical` 🚫 · `has-retcon` 🔄 when the entry carries that flag; spark state from [Characters Index → Status at a glance](Characters%20Index.md#status-at-a-glance), card links). "
-          "Links = internal links from the entry, by target (C = cards, Ch = characters, D = dossiers, P = planes, I = items, A = arcs, E = eras, R = retcons). Machine-readable copy: `data/lore_entries.json`; search with `python3 scripts/kb_find.py <words> --category lore`.",
+          "Links = internal links from the entry, by target (C = cards, Ch = characters, D = dossiers, P = planes, I = items, A = arcs, E = eras, R = retcons). Enriched cards = cards whose generated *Lore* line names the entry ([Card Enrichment](Card%20Enrichment.md), Bot cycle 33; tag `has-enriched-cards`). Machine-readable copy: `data/lore_entries.json`; search with `python3 scripts/kb_find.py <words> --category lore`.",
           f"> **{len(recs)} entries** · " + " · ".join(f"{KIND_LABEL[k].split(' (')[0]} {d['by_kind'].get(k, 0)}" for k in KIND_ORDER) + f" · {n_c} official citations (distinct URLs per entry, summed). Every entry cites ≥ 1 official page (`scripts/check_lore.py`).", "",
           "## Contents"] + [f"- [{KIND_LABEL[k]}](#{L.anchor(KIND_LABEL[k])})" for k in KIND_ORDER] + [""]
     ab = {"cards": "C", "characters": "Ch", "dossiers": "D", "planes": "P", "items": "I", "arcs": "A", "eras": "E", "retcons": "R"}
     for k in KIND_ORDER:
-        L_ += [f"## {KIND_LABEL[k]}", "", "| Entry | Tags | Cites | Links |", "|---|---|---|---|"]
+        L_ += [f"## {KIND_LABEL[k]}", "", "| Entry | Tags | Cites | Links | Enriched cards |", "|---|---|---|---|---|"]
         for r in recs:
             if r["kind"] != k:
                 continue
             links = " ".join(f"{ab[g]} {len(v)}" for g, v in r["links"].items())
             name = r["name"].replace("|", "\\|")
-            L_.append(f"| [{name}]({urlq(r['page'])}#{r['anchor']}) | {', '.join('`' + t + '`' for t in r['tags'])} | {r['citations']} | {links or '—'} |")
+            L_.append(f"| [{name}]({urlq(r['page'])}#{r['anchor']}) | {', '.join('`' + t + '`' for t in r['tags'])} | {r['citations']} | {links or '—'} | {f"[{len(r['enriched_cards'])}](Card%20Enrichment.md#by-lore-entry)" if r.get('enriched_cards') else '—'} |")
         L_.append("")
     return "\n".join(L_) + "\n"
 

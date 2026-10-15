@@ -38,7 +38,7 @@ DECK_DIRS = ["decks", "grixis/decks"]
 CARD_LINK = re.compile(r"(?<!!)\[([^\]]*)\]\(((?:\.\./)*cards/[^)#\s]+\.md)#([^)\s]+)\)")
 HEAD = re.compile(r"^(#{1,6})\s+(.*?)\s*$")
 GROUPS = [("deck", "Decks"), ("edh", "EDH guides"), ("rules", "Rules"), ("lore", "Lore & story"), ("cards", "Card data"), ("meta", "Meta")]
-EXCLUDE = {"Card Index.md"}  # the coverage index lists every card; it is not a reference
+EXCLUDE = {"Card Index.md", "Card Enrichment.md"}  # coverage indexes list cards; they are not references
 CC_START, CC_END = "<!-- CHARCARDS:START -->", "<!-- CHARCARDS:END -->"
 XR_START, XR_END = "<!-- CROSSREFS:START -->", "<!-- CROSSREFS:END -->"
 STOP_FIRST = {"Lord", "Will", "The", "Lady", "Sir", "King", "Queen", "General", "Captain"}
@@ -412,6 +412,11 @@ def build():
                         more = f" (+{len(ss) - 1} more)" if len(ss) > 1 else ""
                         parts.append(f"[{label} → {ss[0][1]}]({rel_link(p, rel)}#{ss[0][0]}){more}")
                 out.append(f"- **{head} ({len(items)}):** " + " · ".join(parts))
+            en = enrichment().get(r["oracle_id"])
+            if en and en["lore"]["relations"]:
+                rl = en["lore"]["relations"]
+                out.append(f"- **Lore entries ({len(rl)}; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** " + " · ".join(
+                    f"[{x['name']}]({rel_link(p, x['entry'].split('#')[0])}#{x['entry'].split('#', 1)[1]}) ({x['relation']})" for x in rl))
             out.append("")
             jcards[r["oracle_id"]] = {"name": r["name"], "n": len(pages), "kinds": {k: kc[k] for k, _ in GROUPS if kc[k]},
                                       "index": f"references/{L_}.md#{a2}"}
@@ -436,6 +441,18 @@ def build():
     files[REFS_JSON] = json.dumps({"generated_by": "scripts/build_crossrefs.py", "bulk": bulk_date[:10], "cards_referenced": len(jcards),
                                    "cards": dict(sorted(jcards.items()))}, ensure_ascii=False, indent=0) + "\n"
     return files, jcards
+
+
+_ENR = None
+
+
+def enrichment():
+    """data/card_enrichment.json cards (Bot cycle 33, #102): the reverse index lists each enriched card's lore entries."""
+    global _ENR
+    if _ENR is None:
+        p = ROOT / "data" / "card_enrichment.json"
+        _ENR = json.loads(p.read_text(encoding="utf-8"))["cards"] if p.exists() else {}
+    return _ENR
 
 
 # ------------------------------------------------------------------ 4. shard lines

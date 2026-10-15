@@ -662,6 +662,7 @@ schema: 2
 [Card entry](../cards/A/ag.md#agatha-of-the-vile-cauldron) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Eldraine](../Planes%20Index.md#eldraine)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Eldraine](../Planes%20Index.md#eldraine) (featured)
 
 ### Agatha's Soul Cauldron
 
@@ -1202,6 +1203,7 @@ schema: 2
 [Card entry](../cards/A/al.md#alrund-god-of-the-cosmos--hakka-whispering-raven) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Alrund's Epiphany
 
@@ -3125,6 +3127,7 @@ schema: 2
 - **Decks (1):** [Aurelia, the Warleader (Ravnica-only)](../decks/plane-ravnica-aurelia-the-warleader.md)
 - **Lore & story (1):** [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor)
 - **Card data (1):** [Artist Index → Artists H](../Artist%20Index.md#artists-h)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (featured)
 
 ### Aurelia's Fury
 

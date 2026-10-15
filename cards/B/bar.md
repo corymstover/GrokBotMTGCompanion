@@ -1048,6 +1048,8 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — The Baron’s ability will only regenerate creatures with type “Vampire,” regardless of whether the creature has “Vampire” in its name.
   - *2007-09-16* — Although Baron Sengir is now a Vampire, it still can’t regenerate itself.
+- **Lore:** Featured in: [Plane → Ulgrotha](../../Planes%20Index.md#ulgrotha) ([source](https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 101 decks; highest synergy [Sengir Vampire](../../cards/S/sen.md#sengir-vampire) (+60%), [Cordial Vampire](../../cards/C/cor.md#cordial-vampire) (+56%), [Captivating Vampire](../../cards/C/cap.md#captivating-vampire) (+51%) · EDHREC: in 743 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.3% of its decks), [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (0.9% of its decks), [Olivia, Crimson Bride](../../cards/O/ol.md#olivia-crimson-bride) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#baron-sengir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/58/baron-sengir) · oracle_id `fc728cd7-2b5b-45f3-896a-a45648bcb61d` · printing: ME1 #58 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

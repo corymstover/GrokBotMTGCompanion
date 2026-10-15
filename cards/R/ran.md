@@ -456,6 +456,8 @@ schema: 2
   - *2019-10-04* — In a Two-Headed Giant game, Rankle's second mode causes each team to lose 1 life twice.
   - *2019-10-04* — You can choose a mode even if some or all players will be unaffected.
   - *2019-10-04* — You can't choose a mode more than once.
+- **Lore:** Featured in: [Plane → Eldraine](../../Planes%20Index.md#eldraine) ([source](https://magic.wizards.com/en/news/magic-story/the-adventures-of-rankle-master-of-love)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Syr Konrad, the Grim (Eldraine-only)](../../decks/plane-eldraine-syr-konrad-the-grim.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,065 decks; highest synergy [Waste Not](../../cards/W/was.md#waste-not) (+64%), [Geth's Grimoire](../../cards/G/ge.md#geths-grimoire) (+52%), [The Raven Man](../../cards/T/ther.md#the-raven-man) (+42%) · EDHREC: in 112,989 decks; most often under [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (66.6% of its decks), [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (42.6% of its decks), [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (65.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/R.md#rankle-master-of-pranks)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/148/rankle-master-of-pranks) · oracle_id `b8619990-9dc2-4fcc-bc7e-457b77cd2a8e` · printing: OTC #148 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

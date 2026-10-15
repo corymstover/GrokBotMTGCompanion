@@ -156,6 +156,7 @@ schema: 2
 [Card entry](../cards/H/ha.md#halvar-god-of-battle--sword-of-the-realms) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Halving Season
 
@@ -182,6 +183,7 @@ schema: 2
 
 - **Lore & story (1):** [Items & Artifacts Index → Theros god weapons](../Items%20%26%20Artifacts%20Index.md#theros-god-weapons)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Theros god weapons](../Items%20%26%20Artifacts%20Index.md#theros-god-weapons) (featured)
 
 ### Hamza, Guardian of Arashin
 
@@ -839,6 +841,7 @@ schema: 2
 
 - **Decks (1):** [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
 - **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Items & Artifacts Index → Helvault](../Items%20%26%20Artifacts%20Index.md#helvault)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Helvault](../Items%20%26%20Artifacts%20Index.md#helvault) (depicts)
 
 ### Hemosymbic Mite
 
@@ -1116,6 +1119,7 @@ schema: 2
 [Card entry](../cards/H/hi.md#hidetsugu-devouring-chaos) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Kamigawa (Neon Dynasty era)](../Planes%20Index.md#kamigawa-neon-dynasty-era)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kamigawa (Neon Dynasty era)](../Planes%20Index.md#kamigawa-neon-dynasty-era) (featured)
 
 ### High Fae Trickster
 
@@ -1903,6 +1907,7 @@ schema: 2
 
 - **Lore & story (1):** [Planes Index → Eldraine](../Planes%20Index.md#eldraine)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Eldraine](../Planes%20Index.md#eldraine) (featured)
 
 ### Hylda's Crown of Winter
 

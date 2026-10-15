@@ -2431,6 +2431,7 @@ schema: 2
 - **Decks (2):** [Edgar Markov](../decks/edgar-markov.md) · [Edgar Markov (lifegain theme)](../decks/theme-edgar-markov-lifegain.md)
 - **Rules (1):** [Rules Interactions → Combat damage assignment](../Rules%20Interactions.md#combat-damage-assignment)
 - **Lore & story (1):** [Planes Index → Zendikar (Zendikar Rising era)](../Planes%20Index.md#zendikar-zendikar-rising-era)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Zendikar (Zendikar Rising era)](../Planes%20Index.md#zendikar-zendikar-rising-era) (featured)
 
 ### Drannith Magistrate
 

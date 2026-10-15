@@ -768,6 +768,7 @@ schema: 2
 - **EDH guides (2):** [EDH Packages → Graveyard: Reanimation](../EDH%20Packages.md#graveyard-reanimation) · [EDH Staples → Graveyard recursion](../EDH%20Staples.md#graveyard-recursion)
 - **Lore & story (1):** [Items & Artifacts Index → Theros god weapons](../Items%20%26%20Artifacts%20Index.md#theros-god-weapons)
 - **Card data (1):** [Artist Index → Artists M](../Artist%20Index.md#artists-m)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Theros god weapons](../Items%20%26%20Artifacts%20Index.md#theros-god-weapons) (featured)
 
 ### Whirlermaker
 
@@ -1219,6 +1220,7 @@ schema: 2
 
 - **Lore & story (1):** [Planes Index → Ikoria](../Planes%20Index.md#ikoria)
 - **Card data (1):** [Format Legality Matrix → pioneer](../Format%20Legality%20Matrix.md#pioneer)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ikoria](../Planes%20Index.md#ikoria) (featured)
 
 ### Winter Moon
 

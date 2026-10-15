@@ -225,6 +225,7 @@ schema: 2
 [Card entry](../cards/L/la.md#lavinia-azorius-renegade) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (featured)
 
 ### Lavinia of the Tenth
 
@@ -238,6 +239,7 @@ schema: 2
 [Card entry](../cards/L/la.md#lazav-familiar-stranger) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (featured)
 
 ### Lazier Goblin
 
@@ -905,6 +907,7 @@ schema: 2
 [Card entry](../cards/L/li.md#linden-the-steadfast-queen) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Eldraine](../Planes%20Index.md#eldraine)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Eldraine](../Planes%20Index.md#eldraine) (featured)
 
 ### Line Cutter
 
@@ -937,6 +940,7 @@ schema: 2
 [Card entry](../cards/L/li.md#linvala-the-preserver) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Zendikar (Zendikar Rising era)](../Planes%20Index.md#zendikar-zendikar-rising-era)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Zendikar (Zendikar Rising era)](../Planes%20Index.md#zendikar-zendikar-rising-era) (featured)
 
 ### Lion Heart
 
@@ -975,6 +979,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Spellslinger: Spell copiers](../EDH%20Packages.md#spellslinger-spell-copiers)
 - **Rules (1):** [Rules Interactions → Mutate & merged permanents](../Rules%20Interactions.md#mutate--merged-permanents)
 - **Lore & story (1):** [Items & Artifacts Index → Lithoform Core](../Items%20%26%20Artifacts%20Index.md#lithoform-core)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Lithoform Core](../Items%20%26%20Artifacts%20Index.md#lithoform-core) (featured)
 
 ### Lithomancer's Focus
 
@@ -1307,6 +1312,7 @@ schema: 2
 
 - **Decks (1):** [Lord Xander, the Collector (Grixis)](../grixis/decks/lord-xander-the-collector.md)
 - **Lore & story (1):** [Planes Index → New Capenna](../Planes%20Index.md#new-capenna)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [New Capenna](../Planes%20Index.md#new-capenna) (featured)
 
 ### Lore Drakkis
 
@@ -1473,6 +1479,7 @@ schema: 2
 [Card entry](../cards/L/lu.md#lukka-coppercoat-outcast) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Conflicts & Arcs → Ikoria: Lair of Behemoths (2020)](../Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ikoria: Lair of Behemoths (2020)](../Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020) (featured) · [Lukka](../Characters%20Index.md#lukka) (name-match)
 
 ### Lullmage Mentor
 

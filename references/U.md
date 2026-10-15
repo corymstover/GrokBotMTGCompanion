@@ -694,6 +694,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Urabrask](../Characters%20Index.md#urabrask) (name-match)
 
 ### Urabrask the Hidden
 

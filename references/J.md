@@ -138,6 +138,7 @@ schema: 2
 
 - **Lore & story (3):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Vryn](../Planes%20Index.md#vryn) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
+- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vryn](../Planes%20Index.md#vryn) (depicts) · [Jace Beleren](../Characters%20Index.md#jace-beleren) (name-match) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (name-match)
 
 ### Jace, Wielder of Mysteries
 
@@ -383,6 +384,7 @@ schema: 2
 - **EDH guides (1):** [EDH Staples → Naya (WRG)](../EDH%20Staples.md#naya-wrg)
 - **Lore & story (1):** [Planes Index → New Capenna](../Planes%20Index.md#new-capenna)
 - **Card data (1):** [Artist Index → Artists N](../Artist%20Index.md#artists-n)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [New Capenna](../Planes%20Index.md#new-capenna) (featured)
 
 ### Jetmir's Garden
 
@@ -442,6 +444,7 @@ schema: 2
 [Card entry](../cards/J/jh.md#jhoira-ageless-innovator) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Dominaria (Dominaria United era)](../Planes%20Index.md#dominaria-dominaria-united-era)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dominaria (Dominaria United era)](../Planes%20Index.md#dominaria-dominaria-united-era) (featured)
 
 ### Jhoira's Familiar
 
@@ -522,6 +525,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Jin-Gitaxias](../Characters%20Index.md#jin-gitaxias) (name-match)
 
 ### Jin-Gitaxias // The Great Synthesis
 
@@ -619,6 +623,7 @@ schema: 2
 [Card entry](../cards/J/jo.md#jorn-god-of-winter--kaldring-the-rimestaff) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Josu Vess, Lich Knight
 

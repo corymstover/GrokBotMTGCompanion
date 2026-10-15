@@ -109,6 +109,7 @@ schema: 2
 [Card entry](../cards/Q/qu.md#questing-beast) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Eldraine](../Planes%20Index.md#eldraine)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Eldraine](../Planes%20Index.md#eldraine) (featured)
 
 ### Questing Cosplayer
 
