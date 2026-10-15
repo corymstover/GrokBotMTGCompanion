@@ -13,6 +13,8 @@
 - [Banned list & legality](#banned-list--legality)
 - [Game Changers](#game-changers)
 - [Deck skeletons](#deck-skeletons)
+- [Synergy notes](#synergy-notes)
+- [Staples by color & role → EDH Staples](EDH%20Staples.md)
 - [Deck-building checklist](#deck-building-checklist)
 - [Open questions](#open-questions)
 
@@ -98,6 +100,30 @@ Built by [`scripts/build_deck_skeleton.py`](scripts/build_deck_skeleton.py): hig
 | [Edgar Markov](decks/edgar-markov.md) | BRW | 3 | 3 |
 | [Atraxa, Praetors' Voice](decks/atraxa-praetors-voice.md) | BGUW | 5 | 4 |
 | [The Ur-Dragon](decks/the-ur-dragon.md) | WUBRG | 3 | 3 |
+| [Talrand, Sky Summoner](decks/talrand-sky-summoner.md) | U | 3 | 3 |
+| [Teysa Karlov](decks/teysa-karlov.md) | BW | 2 | 3 |
+| [Tatyova, Benthic Druid](decks/tatyova-benthic-druid.md) | GU | 2 | 3 |
+
+## Synergy notes
+
+> Each note pairs a commander's **Oracle text** (rules fact, quoted from the linked entry) with cards in its validated skeleton, plus official **rulings** where they settle an interaction (Scryfall rulings bulk, source Wizards of the Coast). Anything about *how good* a line is = **Opinion**. Role and identity staples: [EDH Staples](EDH%20Staples.md).
+
+### Death triggers ×2 — Teysa Karlov (WB, aristocrats)
+- **Rules fact:** [Teysa Karlov](cards/T/te.md#teysa-karlov) — "If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time." Her creature tokens also have vigilance and lifelink.
+- **Doubled (they trigger on a creature dying):** [Blood Artist](cards/B/blo.md#blood-artist), [Zulaport Cutthroat](cards/Z/zu.md#zulaport-cutthroat), [Cruel Celebrant](cards/C/cr.md#cruel-celebrant), [Bastion of Remembrance](cards/B/bas.md#bastion-of-remembrance) (drain), [Pitiless Plunderer](cards/P/pi.md#pitiless-plunderer) (two Treasures per death).
+- **Not doubled (ruling 2019-01-25, WotC):** "An ability that triggers on an event that causes a creature to die doesn't trigger twice. For example, an ability that triggers 'whenever you sacrifice a creature' triggers only once." So the sacrifice clause of [Mirkwood Bats](cards/M/mir.md#mirkwood-bats) triggers once; sacrifice outlets [Ashnod's Altar](cards/A/as.md#ashnods-altar) and [Viscera Seer](cards/V/vi.md#viscera-seer) are the *enablers*, not the doubled payoff.
+- **Opinion:** the deck wants ~4–6 free sacrifice outlets and ~8+ death payoffs; protect Teysa, since the doubling is the engine. Skeleton: [Teysa Karlov](decks/teysa-karlov.md).
+
+### Instants & sorceries make bodies — Talrand, Sky Summoner (U, spellslinger)
+- **Rules fact:** [Talrand, Sky Summoner](cards/T/ta.md#talrand-sky-summoner) — "Whenever you cast an instant or sorcery spell, create a 2/2 blue Drake creature token with flying." Ruling (2021-03-19, WotC): the trigger "resolves before the spell that caused it to trigger … It resolves even if that spell is countered."
+- **Stacks with:** [Murmuring Mystic](cards/M/mu.md#murmuring-mystic) (1/1 flying Bird per instant/sorcery) and [Archmage Emeritus](cards/A/arc.md#archmage-emeritus) (magecraft: draw a card on cast *or copy*) — each cheap cantrip or counterspell becomes card + flier(s).
+- **Opinion:** cheap interaction (counterspells such as [Counterspell](cards/C/cou.md#counterspell) and [Arcane Denial](cards/A/arc.md#arcane-denial)) doubles as threat production; prioritize low-MV spells over big sorceries. Skeleton: [Talrand, Sky Summoner](decks/talrand-sky-summoner.md) (3 Game Changers → bracket floor 3).
+
+### Landfall card draw — Tatyova, Benthic Druid (GU, lands matter)
+- **Rules fact:** [Tatyova, Benthic Druid](cards/T/ta.md#tatyova-benthic-druid) — "Landfall — Whenever a land you control enters, you gain 1 life and draw a card." Ruling (2024-11-08, WotC): landfall "triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control"; it does **not** trigger "if a permanent already on the battlefield becomes a land."
+- **Extra land drops (more triggers per turn):** [Exploration](cards/E/ex.md#exploration), [Azusa, Lost but Seeking](cards/A/az.md#azusa-lost-but-seeking) (two additional lands), [Dryad of the Ilysian Grove](cards/D/dry.md#dryad-of-the-ilysian-grove), [Oracle of Mul Daya](cards/O/or.md#oracle-of-mul-daya) (also plays lands from the top of the library).
+- **Land recursion (reuse fetch/sacrifice lands):** [Crucible of Worlds](cards/C/cr.md#crucible-of-worlds), [Ramunap Excavator](cards/R/ram.md#ramunap-excavator) — "You may play lands from your graveyard."
+- **Opinion:** run more lands than usual (~38–40) plus fetch-style lands so each land drop yields two triggers. Skeleton: [Tatyova, Benthic Druid](decks/tatyova-benthic-druid.md).
 
 ## Deck-building checklist
 1. Commander block first (eligibility per CR 903.3; pairing mechanics).

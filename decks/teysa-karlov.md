@@ -1,0 +1,210 @@
+# Deck Skeleton — Teysa Karlov
+
+> **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/teysa-karlov) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Rejected candidates](#rejected-candidates)
+
+## Commander
+
+- **[Teysa Karlov](../cards/T/te.md#teysa-karlov)** — {2}{W}{B} — Legendary Creature — Human Advisor
+- Color identity: **BW (Black, White)**
+- Eligibility: Yes (legendary creature)
+- EDHREC sample: 21749 decks · bracket distribution reported by EDHREC: B1: 42, B2: 1,766, B3: 2,415, B4: 1,067, B5: 40
+
+## Validation
+
+- Total cards: **100** (1 commander + 63 nonland + 16 nonbasic lands + 20 basics)
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+
+## Bracket assessment
+
+- Game Changers (2): Smothering Tithe, Bolas's Citadel
+- Extra-turn cards: none
+- Mass land denial: none
+- Two-card infinite combos: ⚠️ not machine-checked — review manually.
+- **Minimum bracket by the published barometers: 3 (Upgraded) — 1–3 Game Changers.** (Brackets are a pregame-conversation tool; see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).)
+
+## Decklist (Archidekt import)
+
+```text
+1x Teysa Karlov [Commander{top}]
+1x Sol Ring [Artifact]
+1x Arcane Signet [Artifact]
+1x Skullclamp [Artifact]
+1x Ashnod's Altar [Artifact]
+1x Orzhov Signet [Artifact]
+1x Talisman of Hierarchy [Artifact]
+1x Phyrexian Altar [Artifact]
+1x Bolas's Citadel [Artifact]
+1x Zulaport Cutthroat [Creature]
+1x Cruel Celebrant [Creature]
+1x Blood Artist [Creature]
+1x Elas il-Kor, Sadistic Pilgrim [Creature]
+1x Pitiless Plunderer [Creature]
+1x Viscera Seer [Creature]
+1x Elenda, the Dusk Rose [Creature]
+1x Teysa, Orzhov Scion [Creature]
+1x Reassembling Skeleton [Creature]
+1x Pawn of Ulamog [Creature]
+1x Doomed Traveler [Creature]
+1x Grim Haruspex [Creature]
+1x Luminous Broodmoth [Creature]
+1x Midnight Reaper [Creature]
+1x Carrion Feeder [Creature]
+1x Ministrant of Obligation [Creature]
+1x Drivnod, Carnage Dominus [Creature]
+1x Syr Konrad, the Grim [Creature]
+1x Bartolomé del Presidio [Creature]
+1x Hallowed Spiritkeeper [Creature]
+1x Ophiomancer [Creature]
+1x Marionette Apprentice [Creature]
+1x Yahenni, Undying Partisan [Creature]
+1x Warren Soultrader [Creature]
+1x Priest of Forgotten Gods [Creature]
+1x Hunted Witness [Creature]
+1x Solemn Simulacrum [Creature]
+1x Mirkwood Bats [Creature]
+1x Orzhov Enforcer [Creature]
+1x Athreos, God of Passage [Creature]
+1x Braids, Arisen Nightmare [Creature]
+1x Sifter of Skulls [Creature]
+1x Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel [Creature]
+1x Morbid Opportunist [Creature]
+1x Bastion of Remembrance [Enchantment]
+1x Grave Pact [Enchantment]
+1x The Meathook Massacre [Enchantment]
+1x Dictate of Erebos [Enchantment]
+1x Smothering Tithe [Enchantment]
+1x Black Market [Enchantment]
+1x Phyrexian Arena [Enchantment]
+1x Swords to Plowshares [Instant]
+1x Village Rites [Instant]
+1x Path to Exile [Instant]
+1x Deadly Dispute [Instant]
+1x Anguished Unmaking [Instant]
+1x Despark [Instant]
+1x Mortify [Instant]
+1x Dark Ritual [Instant]
+1x Corrupted Conviction [Instant]
+1x Inkshield [Instant]
+1x Victimize [Sorcery]
+1x Damn [Sorcery]
+1x Diabolic Intent [Sorcery]
+1x Liliana, Dreadhorde General [Planeswalker]
+1x Command Tower [Land]
+1x Isolated Chapel [Land]
+1x Caves of Koilos [Land]
+1x Godless Shrine [Land]
+1x Tainted Field [Land]
+1x Bojuka Bog [Land]
+1x Fetid Heath [Land]
+1x Orzhov Basilica [Land]
+1x Shattered Sanctum [Land]
+1x Phyrexian Tower [Land]
+1x Temple of Silence [Land]
+1x Vault of Champions [Land]
+1x Shineshadow Snarl [Land]
+1x High Market [Land]
+1x Marsh Flats [Land]
+1x Brightclimb Pathway // Grimclimb Pathway [Land]
+10x Plains [Land]
+10x Swamp [Land]
+```
+
+## Card breakdown
+
+| Card | Section | EDHREC inclusion | Identity |
+|---|---|---|---|
+| [Sol Ring](../cards/S/so.md#sol-ring) | Artifact | 90% | C |
+| [Arcane Signet](../cards/A/arc.md#arcane-signet) | Artifact | 83% | C |
+| [Skullclamp](../cards/S/sk.md#skullclamp) | Artifact | 78% | C |
+| [Ashnod's Altar](../cards/A/as.md#ashnods-altar) | Artifact | 69% | C |
+| [Orzhov Signet](../cards/O/or.md#orzhov-signet) | Artifact | 58% | BW |
+| [Talisman of Hierarchy](../cards/T/ta.md#talisman-of-hierarchy) | Artifact | 55% | BW |
+| [Phyrexian Altar](../cards/P/ph.md#phyrexian-altar) | Artifact | 43% | C |
+| [Bolas's Citadel](../cards/B/bo.md#bolass-citadel) | Artifact | 29% | B |
+| [Zulaport Cutthroat](../cards/Z/zu.md#zulaport-cutthroat) | Creature | 84% | B |
+| [Cruel Celebrant](../cards/C/cr.md#cruel-celebrant) | Creature | 83% | BW |
+| [Blood Artist](../cards/B/blo.md#blood-artist) | Creature | 82% | B |
+| [Elas il-Kor, Sadistic Pilgrim](../cards/E/el.md#elas-il-kor-sadistic-pilgrim) | Creature | 77% | BW |
+| [Pitiless Plunderer](../cards/P/pi.md#pitiless-plunderer) | Creature | 77% | B |
+| [Viscera Seer](../cards/V/vi.md#viscera-seer) | Creature | 71% | B |
+| [Elenda, the Dusk Rose](../cards/E/el.md#elenda-the-dusk-rose) | Creature | 70% | BW |
+| [Teysa, Orzhov Scion](../cards/T/te.md#teysa-orzhov-scion) | Creature | 64% | BW |
+| [Reassembling Skeleton](../cards/R/rea.md#reassembling-skeleton) | Creature | 60% | B |
+| [Pawn of Ulamog](../cards/P/pa.md#pawn-of-ulamog) | Creature | 57% | B |
+| [Doomed Traveler](../cards/D/do.md#doomed-traveler) | Creature | 55% | W |
+| [Grim Haruspex](../cards/G/gri.md#grim-haruspex) | Creature | 55% | B |
+| [Luminous Broodmoth](../cards/L/lu.md#luminous-broodmoth) | Creature | 50% | W |
+| [Midnight Reaper](../cards/M/mid.md#midnight-reaper) | Creature | 48% | B |
+| [Carrion Feeder](../cards/C/car.md#carrion-feeder) | Creature | 48% | B |
+| [Ministrant of Obligation](../cards/M/min.md#ministrant-of-obligation) | Creature | 47% | W |
+| [Drivnod, Carnage Dominus](../cards/D/dri.md#drivnod-carnage-dominus) | Creature | 45% | B |
+| [Syr Konrad, the Grim](../cards/S/sy.md#syr-konrad-the-grim) | Creature | 44% | B |
+| [Bartolomé del Presidio](../cards/B/bar.md#bartolomé-del-presidio) | Creature | 43% | BW |
+| [Hallowed Spiritkeeper](../cards/H/ha.md#hallowed-spiritkeeper) | Creature | 43% | W |
+| [Ophiomancer](../cards/O/op.md#ophiomancer) | Creature | 43% | B |
+| [Marionette Apprentice](../cards/M/mar.md#marionette-apprentice) | Creature | 40% | B |
+| [Yahenni, Undying Partisan](../cards/Y/ya.md#yahenni-undying-partisan) | Creature | 40% | B |
+| [Warren Soultrader](../cards/W/war.md#warren-soultrader) | Creature | 38% | B |
+| [Priest of Forgotten Gods](../cards/P/pr.md#priest-of-forgotten-gods) | Creature | 38% | B |
+| [Hunted Witness](../cards/H/hu.md#hunted-witness) | Creature | 37% | W |
+| [Solemn Simulacrum](../cards/S/so.md#solemn-simulacrum) | Creature | 37% | C |
+| [Mirkwood Bats](../cards/M/mir.md#mirkwood-bats) | Creature | 37% | B |
+| [Orzhov Enforcer](../cards/O/or.md#orzhov-enforcer) | Creature | 35% | B |
+| [Athreos, God of Passage](../cards/A/at.md#athreos-god-of-passage) | Creature | 35% | BW |
+| [Braids, Arisen Nightmare](../cards/B/br.md#braids-arisen-nightmare) | Creature | 33% | B |
+| [Sifter of Skulls](../cards/S/si.md#sifter-of-skulls) | Creature | 31% | B |
+| [Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel](../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) | Creature | 28% | B |
+| [Morbid Opportunist](../cards/M/mor.md#morbid-opportunist) | Creature | 27% | B |
+| [Bastion of Remembrance](../cards/B/bas.md#bastion-of-remembrance) | Enchantment | 75% | B |
+| [Grave Pact](../cards/G/gra.md#grave-pact) | Enchantment | 40% | B |
+| [The Meathook Massacre](../cards/T/them.md#the-meathook-massacre) | Enchantment | 36% | B |
+| [Dictate of Erebos](../cards/D/di.md#dictate-of-erebos) | Enchantment | 33% | B |
+| [Smothering Tithe](../cards/S/sm.md#smothering-tithe) | Enchantment | 31% | W |
+| [Black Market](../cards/B/bla.md#black-market) | Enchantment | 29% | B |
+| [Phyrexian Arena](../cards/P/ph.md#phyrexian-arena) | Enchantment | 27% | B |
+| [Swords to Plowshares](../cards/S/sw.md#swords-to-plowshares) | Instant | 67% | W |
+| [Village Rites](../cards/V/vi.md#village-rites) | Instant | 54% | B |
+| [Path to Exile](../cards/P/pa.md#path-to-exile) | Instant | 52% | W |
+| [Deadly Dispute](../cards/D/dea.md#deadly-dispute) | Instant | 48% | B |
+| [Anguished Unmaking](../cards/A/an.md#anguished-unmaking) | Instant | 46% | BW |
+| [Despark](../cards/D/des.md#despark) | Instant | 32% | BW |
+| [Mortify](../cards/M/mor.md#mortify) | Instant | 30% | BW |
+| [Dark Ritual](../cards/D/da.md#dark-ritual) | Instant | 30% | B |
+| [Corrupted Conviction](../cards/C/cor.md#corrupted-conviction) | Instant | 30% | B |
+| [Inkshield](../cards/I/ink.md#inkshield) | Instant | 28% | BW |
+| [Victimize](../cards/V/vi.md#victimize) | Sorcery | 50% | B |
+| [Damn](../cards/D/da.md#damn) | Sorcery | 38% | BW |
+| [Diabolic Intent](../cards/D/di.md#diabolic-intent) | Sorcery | 33% | B |
+| [Liliana, Dreadhorde General](../cards/L/li.md#liliana-dreadhorde-general) | Planeswalker | 39% | B |
+| [Command Tower](../cards/C/com.md#command-tower) | Land | 89% | C |
+| [Isolated Chapel](../cards/I/is.md#isolated-chapel) | Land | 73% | BW |
+| [Caves of Koilos](../cards/C/cav.md#caves-of-koilos) | Land | 64% | BW |
+| [Godless Shrine](../cards/G/god.md#godless-shrine) | Land | 58% | BW |
+| [Tainted Field](../cards/T/ta.md#tainted-field) | Land | 57% | BW |
+| [Bojuka Bog](../cards/B/bo.md#bojuka-bog) | Land | 48% | B |
+| [Fetid Heath](../cards/F/fe.md#fetid-heath) | Land | 45% | BW |
+| [Orzhov Basilica](../cards/O/or.md#orzhov-basilica) | Land | 44% | BW |
+| [Shattered Sanctum](../cards/S/sha.md#shattered-sanctum) | Land | 44% | BW |
+| [Phyrexian Tower](../cards/P/ph.md#phyrexian-tower) | Land | 43% | B |
+| [Temple of Silence](../cards/T/te.md#temple-of-silence) | Land | 43% | BW |
+| [Vault of Champions](../cards/V/va.md#vault-of-champions) | Land | 43% | BW |
+| [Shineshadow Snarl](../cards/S/shi.md#shineshadow-snarl) | Land | 42% | BW |
+| [High Market](../cards/H/hi.md#high-market) | Land | 40% | C |
+| [Marsh Flats](../cards/M/mar.md#marsh-flats) | Land | 33% | C |
+| [Brightclimb Pathway // Grimclimb Pathway](../cards/B/br.md#brightclimb-pathway--grimclimb-pathway) | Land | 32% | BW |
+| 10× Plains | Basic land | — | — |
+| 10× Swamp | Basic land | — | — |
+
+## Rejected candidates
+
+EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):
+
+- none
