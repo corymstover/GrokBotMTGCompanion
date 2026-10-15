@@ -309,6 +309,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-04-16* — Although you must have exactly zero or seven cards in your hand to activate the last ability, it doesn’t matter how many cards you have in your hand as that ability resolves.
   - *2021-04-16* — If you don’t choose to either reveal the card or put it into your graveyard, the card stays on top of your library.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#the-biblioplex)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/264/the-biblioplex) · oracle_id `86ed6073-c35c-4d29-9911-5fe191dd875f` · printing: STX #264 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Big Idea

@@ -2,7 +2,7 @@
 title: "EDH Lore-Themed Deckbuilding"
 category: edh
 tags: [lore-decks, story-first, methodology, template]
-issues: [79, 80, 81]
+issues: [79, 80, 81, 95]
 generated_by: hand-written
 sources: [scryfall, wizards-story, spellbook, cr]
 related: ["Conflicts & Arcs.md", "EDH Deck Evaluation Checklist.md", "Planeswalker Dossiers.md", "EDH Deck Template.md", "Art & Flavor Story Links.md", "Characters Index.md"]
@@ -67,6 +67,7 @@ Every non-basic card gets a row:
 - **Package** = story beat or chapter (not only "Ramp").
 - **Why** = evidence first (quote + source or machine flag), then one guidance sentence if needed.
 - Playability slots start with "**Playability slot (guidance)**".
+- **Story map (Bot cycle 32, [#95](https://github.com/corymstover/GrokBotMTGCompanion/issues/95)):** each package also names the lore entries it draws on, in the spec's `story_map` (package → `Page.md#anchor` keys from the [Lore Entry Index](Lore%20Entry%20Index.md)). `build_lore_decks.py` renders it as the deck's **Story pilot notes → Story map** table; `build_lore_xrefs.py` writes the back-link into each entry's cross-reference block, and `check_lore.py` fails if a key doesn't resolve or the back-link is missing. A package with no entry yet is listed with ⚠️ rather than pointed at a loosely related entry.
 
 ## Facts vs guidance
 | Label | Covers |

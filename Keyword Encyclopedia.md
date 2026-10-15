@@ -2,7 +2,7 @@
 title: "Keyword Encyclopedia"
 category: rules
 tags: [keywords, evergreen, rulings]
-issues: [39]
+issues: [39, 96]
 generated_by: scripts/build_keywords.py
 sources: [cr, scryfall, wotc-articles]
 related: ["Rules Interactions.md"]

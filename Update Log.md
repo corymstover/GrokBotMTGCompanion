@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 32 (Phase 7 complete: lore cross-refs, story maps, rules quote checks)](#2026-10-15--bot-cycle-32-phase-7-complete-lore-cross-refs-story-maps-rules-quote-checks)
 - [2026-10-15 — Bot cycle 31 (Phase 7: lore retrieval + validation)](#2026-10-15--bot-cycle-31-phase-7-lore-retrieval--validation)
 - [2026-10-15 — Bot cycle 30 (Phase 6: final dossiers, status, snapshot)](#2026-10-15--bot-cycle-30-phase-6-final-dossiers-status-snapshot)
 - [2026-10-15 — Bot cycle 29 (Phase 6: dossiers, Omenpath-era planes, items)](#2026-10-15--bot-cycle-29-phase-6-dossiers-omenpath-era-planes-items)
@@ -45,6 +46,29 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 32 (Phase 7 complete: lore cross-refs, story maps, rules quote checks)
+Phase 7 priorities 2 + 4 and the rest of the gap audit. Phase 7 is complete; snapshot tag `v2.2-phase7-optimization`.
+
+- **P7.2 (#93) bidirectional cross-refs:**
+  - New `scripts/build_lore_xrefs.py`. It relates lore entries through hand-written links and name mentions (case-sensitive, whole-word; ambiguous names such as "Ravnica", group entries and common first names are not matched), makes every relation symmetric, and writes a generated *Cross-references* block at the end of each entry: 1,460 relations, blocks on 269 of 280 entries. Items also get same-name cards ("name match", not a canon claim); entries used by a lore deck link the deck's story map.
+  - `check_lore.py` now fails if a block is stale or any entry→entry link (2,943) or deck pointer (23) has no way back.
+  - Fix: an entry now ends before another generator's region, so the last Characters Index entry no longer pushed its block into the `CHARCARDS` table (the two generators had been undoing each other).
+- **P7.4 (#95) lore-deck calibration + pilot notes:**
+  - Each lore deck spec has a `story_map` (package → lore entries) and a `plane_anchor`. Both deck pages now have **Story pilot notes (guidance) → Story map**. Urza's "Lat-Nam & the Third Path" package has no lore entry yet and is flagged ⚠️.
+  - [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md#lore-decks) has a new **Lore decks** section: Urza floor 2, lore score 93.8%, story map 9/10; Nahiri floor 2, 86.8%, 10/10.
+  - Fix: `build_lore_decks.py` counts lands by front face, as calibration does. The Nahiri deck is 36 lands + 1 MDFC (Emeria's Call), not 37.
+  - [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) documents the story-map standard.
+- **P7.5 (#96) gap audit:**
+  - `lore_quotes.py` now also checks 12 rules/FAQ/EDH pages: FAQ, Rules Interactions, Keyword Encyclopedia, EDH Standards, EDH Mulligans, EDH Deck Evaluation Checklist, EDH Deck Template, Card Data Conventions, Tokens/Emblems/Dungeons, Format Legality Matrix, Printing History, EDH Win Conditions. That is 1,044 quotes, all verified against the cached CR, Scryfall rulings, card text, cached Wizards pages or (for the two Grixis-derived method pages) the read-only Grixis source, except 3 documented terms/code. In total, 2,719 quotes on 25 pages.
+  - 8 cited Wizards pages were fetched into a new gitignored `.cache/story/articles/`: B&R list, keyword glossary, reprint policy, ward preview, M21 release notes, two Making Magic columns, the Commander format page.
+  - Fixes:
+    - The EDH Deck Template swap question is now verbatim from the Grixis Refinement Protocol ("For this named role or package, …").
+    - The EDH Standards Game Changers definition and the "choose a legendary creature or artifact" quote now cite the Commander format page, where both are verbatim.
+    - `" / "` between Oracle lines is treated as a joiner.
+  - [Story Arc Summaries](Story%20Arc%20Summaries.md) is split into entries: 20 entries, kind `summary`, with Phase 7 issue numbers in its front matter. It is in the Lore Entry Index and kb_find (`--kind summary`), and has cross-reference blocks.
+  - [Knowledge Snapshots](Knowledge%20Snapshots.md) had no `v2.1-phase6-lore` row. Added it, plus `v2.2`.
+- `validate_all.py` PASS (12 steps). Grixis #63 remains ON HOLD.
 
 ## 2026-10-15 — Bot cycle 31 (Phase 7: lore retrieval + validation)
 New milestone [Phase 7 — Lore optimization pass](https://github.com/corymstover/GrokBotMTGCompanion/milestone/16) and issues #92–#96 (Cory's request: Phase 5's 4 priorities applied to the Phase 6 material). This cycle covers priorities 1 + 3.

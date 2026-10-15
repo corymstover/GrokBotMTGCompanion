@@ -2,7 +2,7 @@
 title: "Rules Interactions"
 category: rules
 tags: [rules, interactions, rulings]
-issues: [9]
+issues: [9, 96]
 generated_by: scripts/build_rules_interactions.py
 sources: [cr, scryfall]
 related: ["EDH Archetypes.md", "EDH Win Conditions.md", "EDH Pairings.md", "EDH Packages.md", "EDH Interaction.md", "cEDH Primer.md"]

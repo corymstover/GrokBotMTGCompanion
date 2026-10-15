@@ -17,6 +17,7 @@ OFFICIAL = re.compile(r"^https?://([a-z0-9-]+\.)*wizards\.com/", re.I)
 FLAGS = {"✅": "confirmed", "⚠️": "secondary", "❓": "unknown", "🚫": "non-canonical", "🔄": "retcon"}
 
 # page: (entry kind, heading level of entries, container headings whose children are entries, headings that are never entries)
+GEN_START = re.compile(r"^<!-- (?!LOREXREF)[A-Z-]+:START -->", re.M)
 ENTRY_PAGES = {
     "Planeswalker Dossiers.md": ("dossier", 2, None, {"Contents", "Spark & allegiance summary", "Character cards (name-matched)"}),
     "Planes Index.md": ("plane", 3, {"Detailed plane entries"}, set()),
@@ -24,10 +25,14 @@ ENTRY_PAGES = {
     "Contradictions & Retcons Log.md": ("retcon", 3, None, set()),
     "Characters Index.md": ("character", 3, None, set()),
     "Master Timeline.md": ("era", 3, {"A. In-universe eras"}, set()),
-    "Conflicts & Arcs.md": ("arc", 0, None, set()),  # mixed levels, see arc_entries()
+    "Conflicts & Arcs.md": ("arc", 0, None, set()),  # mixed levels, see MIXED
+    "Story Arc Summaries.md": ("summary", 0, None, set()),  # Bot cycle 32 (#96): one entry per arc summary, mixed levels
 }
 ARC_CONTAINERS = {"Post–War of the Spark arcs (2019–2022)", "Phyrexian Invasion of the Multiverse", "Omenpath-era arcs (2024–2026)"}
 ARC_SKIP = {"Contents", "Cross-arc threads", "Open questions"}
+# mixed-level pages: every ## heading is an entry except containers (whose ### children are the entries) and skips
+MIXED = {"arc": (ARC_CONTAINERS, ARC_SKIP),
+         "summary": ({"The Phyrexian Invasion saga (2023)"}, {"Contents"})}
 
 
 def anchor(h):
@@ -54,10 +59,15 @@ def sections(text):
     return out
 
 
-def entries(page):
-    """Entries on one registered lore page: [{page, kind, name, anchor, text}] in page order."""
+XREF_BLOCK = re.compile(r"\n*<!-- LOREXREF:START -->.*?<!-- LOREXREF:END -->\n?", re.S)
+
+
+def entries(page, raw=None):
+    """Entries on one registered lore page: [{page, kind, name, anchor, text, start, end}] in page order.
+    `text` has generated LOREXREF blocks removed (they are derived from these entries, Bot cycle 32);
+    start/end are offsets into `raw` (default: the page body) for the generator that writes the blocks."""
     kind, lvl, containers, skip = ENTRY_PAGES[page]
-    text = body(ROOT / page)
+    text = body(ROOT / page) if raw is None else raw
     secs = sections(text)
     seen, res = {}, []
     parent = None
@@ -68,14 +78,18 @@ def entries(page):
         a = a if not k else f"{a}-{k}"
         if l == 2:
             parent = h
-        if kind == "arc":
-            ok = (l == 2 and h not in ARC_CONTAINERS | ARC_SKIP) or (l == 3 and parent in ARC_CONTAINERS)
+        if kind in MIXED:
+            cont, skp = MIXED[kind]
+            ok = (l == 2 and h not in cont | skp) or (l == 3 and parent in cont)
         else:
             ok = l == lvl and h not in skip and (containers is None or parent in containers)
             if kind == "retcon" and parent and (parent.startswith("Queue") or parent.startswith("Open")):
                 ok = False
         if ok:
-            res.append({"page": page, "kind": kind, "name": h, "anchor": a, "text": text[s:e]})
+            # an entry ends before another generator's region (e.g. <!-- CHARCARDS:START --> after the last character)
+            m = GEN_START.search(text, s, e)
+            e = m.start() if m else e
+            res.append({"page": page, "kind": kind, "name": h, "anchor": a, "text": XREF_BLOCK.sub("\n", text[s:e]), "start": s, "end": e})
     return res
 
 

@@ -29,7 +29,7 @@ schema: 2
 - [Packages](#packages)
 - [Decklist (Archidekt import)](#decklist-archidekt-import)
 - [Card breakdown](#card-breakdown)
-- [Pilot notes (guidance)](#pilot-notes-guidance)
+- [Story pilot notes (guidance)](#story-pilot-notes-guidance)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -39,7 +39,7 @@ schema: 2
 
 **How the deck tells it (guidance):** Kor of Zendikar carry the lithomancer's forged weapons (Nahiri's own abilities make Kor Soldiers and move Equipment). Hedrons and Ugin's tools build the prison. The Helvault package is her imprisonment and her revenge on Sorin's plane, and the Skyclave cards are the ZNR hunt. 🚫 The compleated Nahiri (ONE) is red-white, so it cannot appear in a mono-white deck; that chapter is told only in the summary.
 
-Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#ancient-imprisoning-the-eldrazi) · [Characters Index](../Characters%20Index.md#nahiri) · [Planes Index → Zendikar](../Planes%20Index.md#planes-with-official-profiles) · [Master Timeline](../Master%20Timeline.md)
+Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#ancient-imprisoning-the-eldrazi) · [Characters Index](../Characters%20Index.md#nahiri) · [Planes Index → Zendikar](../Planes%20Index.md#zendikar-eldrazi-era) · [Master Timeline](../Master%20Timeline.md)
 
 ## Commander
 
@@ -49,7 +49,7 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#ancient-imprisoning-
 
 ## Validation
 
-- Total cards: **100** (37 lands incl. 24 basics)
+- Total cards: **100** (36 lands incl. 24 basics; plus 1 modal double-faced spell/land: Emeria's Call // Emeria, Shattered Skyclave)
 - Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
 - Checked with `scripts/evaluate_decklist.py` against Scryfall bulk 2026-10-15.
 
@@ -277,17 +277,36 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#ancient-imprisoning-
 | [Hedron Crawler](../cards/H/he.md#hedron-crawler) | Hedrons & the Eldrazi prison | named for the story; printed in `ogw` | C |
 | [Hedron Scrabbler](../cards/H/he.md#hedron-scrabbler) | Hedrons & the Eldrazi prison | named for the story; flavor: “"I don't care when the hedrons awoke. *Why* is the question that really matters." —Anowon, the Ruin Sage”; printed in `zen` | C |
 
-## Pilot notes (guidance)
+## Story pilot notes (guidance)
 
-- **Mana (fact):** 37 lands. **Guidance:** keep hands with 3+ lands or 2 lands plus a mana rock; the deck is slower than a tuned list by design.
+> Bot cycle 32 ([#95](https://github.com/corymstover/GrokBotMTGCompanion/issues/95)). Opening-hand odds, interaction counts and the floor are in [Bracket calibration & pilot notes](#bracket-calibration--pilot-notes) (generated, same as every deck). This section adds the lore side: which story each package plays out, linked to the [lore entries](../Lore%20Entry%20Index.md) that cite it. Package-to-entry pointers are curated in `data/lore_decks/lore_decks.json` (`story_map`); `scripts/check_lore.py` checks that every pointer resolves, and each entry links back.
+
+- **Mana (fact):** 36 lands (front face; +1 modal double-faced spell/land). **Guidance:** keep hands with 3+ lands or 2 lands plus a mana rock; the deck is slower than a tuned list by design.
 - **Win path (guidance):** combat with Equipment-bearing Kor and Nahiri's tokens; Avacyn or a voltron Equipment finisher closes games.
 - **Interaction (guidance):** the list keeps a small removal/counter suite so the story can reach its ending; hold it for threats that end the game.
 - **Pregame talk (guidance):** say it is a lore deck at Bracket 2, 0 Game Changers, 0 two-card infinites.
+- **Telling the story at the table (guidance):** name the package when you cast its first card. The table below is the cheat sheet.
+
+### Story map
+
+| Package | Cards | Story it plays out (lore entries) |
+|---|---|---|
+| Kor of Zendikar | 17 | Plane: [Zendikar (Eldrazi era)](../Planes%20Index.md#zendikar-eldrazi-era) · Dossier: [Nahiri](../Planeswalker%20Dossiers.md#nahiri) |
+| Hedrons & the Eldrazi prison | 16 | Item: [Hedrons](../Items%20%26%20Artifacts%20Index.md#hedrons) · Arc: [Ancient: imprisoning the Eldrazi](../Conflicts%20%26%20Arcs.md#ancient-imprisoning-the-eldrazi) · Dossier: [Ugin](../Planeswalker%20Dossiers.md#ugin) |
+| Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | 10 | Dossier: [Nahiri](../Planeswalker%20Dossiers.md#nahiri) |
+| The Helvault & revenge on Innistrad | 7 | Item: [Helvault](../Items%20%26%20Artifacts%20Index.md#helvault) · Arc: [Innistrad & Emrakul](../Conflicts%20%26%20Arcs.md#innistrad--emrakul) · Plane: [Innistrad](../Planes%20Index.md#innistrad) · Dossier: [Sorin Markov](../Planeswalker%20Dossiers.md#sorin-markov) · Retcon: [Emrakul's path off Zendikar](../Contradictions%20%26%20Retcons%20Log.md#emrakuls-path-off-zendikar) |
+| Lithomancer's arsenal (story-set Equipment) | 6 | Dossier: [Nahiri](../Planeswalker%20Dossiers.md#nahiri) |
+| Playability (guidance) | 6 | — (playability slots) |
+| Story lands (Zendikar / Innistrad printings) | 6 | Plane: [Zendikar (Eldrazi era)](../Planes%20Index.md#zendikar-eldrazi-era) · Plane: [Innistrad](../Planes%20Index.md#innistrad) |
+| Skyclaves & the Lithoform hunt (ZNR) | 4 | Item: [Lithoform Core](../Items%20%26%20Artifacts%20Index.md#lithoform-core) · Arc: [Zendikar Rising (2020)](../Conflicts%20%26%20Arcs.md#zendikar-rising-2020) · Plane: [Zendikar (Zendikar Rising era)](../Planes%20Index.md#zendikar-zendikar-rising-era) |
+| Story-set interaction | 1 | Arc: [Eldrazi Awaken / Battle for Zendikar / Gatewatch](../Conflicts%20%26%20Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch) |
+| Story-set ramp | 1 | Arc: [Eldrazi Awaken / Battle for Zendikar / Gatewatch](../Conflicts%20%26%20Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch) |
+| Story-set threats | 1 | Arc: [Eldrazi Awaken / Battle for Zendikar / Gatewatch](../Conflicts%20%26%20Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch) |
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
 
-> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+> From the [Commander Spellbook](https://commanderspellbook.com) API (2026-10-15); only combos complete in this list.
 
 **No complete combos found** (8 combos are one card away — not listed).
 <!-- COMBOS:END -->

@@ -2,7 +2,7 @@
 title: "Printing History"
 category: cards
 tags: [printings, reprints, reserved-list]
-issues: [40]
+issues: [40, 96]
 generated_by: scripts/build_printings.py
 sources: [scryfall, wotc-articles]
 related: []

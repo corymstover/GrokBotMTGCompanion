@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Lore-specific validation (Bot cycle 31, Phase 7 priority 3). Step `lore-entries` of scripts/validate_all.py.
 
-Checks, over the seven lore entry pages (lore_lib.ENTRY_PAGES: dossiers, planes, items, retcons, characters, arcs, eras):
+Checks, over the eight lore entry pages (lore_lib.ENTRY_PAGES: dossiers, planes, items, retcons, characters, arcs, arc summaries, eras):
   1 citations   every entry cites ≥ 1 official Wizards page (magic.wizards.com / *.wizards.com)
   2 rows        every dossier timeline row and every retcon statement row (Earlier / Later / Conflict) cites an official
                 page or links a lore entry that does (delegated), or is explicitly a KB-internal note ("The KB …", ❓)
@@ -9,6 +9,8 @@ Checks, over the seven lore entry pages (lore_lib.ENTRY_PAGES: dossiers, planes,
   4 sparks      spark state agrees between the Characters Index (Status at a glance + Sparks after the Phyrexian
                 Invasion), the dossier "Spark & allegiance summary" and the retcon log's spark rulings (KB treatment rows)
   5 index       data/lore_entries.json + Lore Entry Index.md are current (scripts/build_lore_index.py --check)
+  6 xrefs       generated cross-reference blocks are current (scripts/build_lore_xrefs.py --check) and reciprocal:
+                whenever entry A links entry B (hand-written or generated), B links A back (Bot cycle 32, #93)
 Quote verification is its own step (`lore-quotes`, scripts/lore_quotes.py).
   python3 scripts/check_lore.py            all checks (exit 1 on any problem)
   python3 scripts/check_lore.py --sparks   print the spark comparison table
@@ -179,11 +181,40 @@ def main(argv):
              or not B.PAGE.exists() or L.body(B.PAGE) != L.FM.sub("", text, count=1))
     if stale:
         bad.append("index: data/lore_entries.json / Lore Entry Index.md stale — run python3 scripts/build_lore_index.py")
+    import build_lore_xrefs as X
+    out, rel, blocks = X.render()
+    if any((ROOT / pg).read_text(encoding="utf-8") != t for pg, t in out.items()):
+        bad.append("xrefs: generated cross-reference blocks stale — run python3 scripts/build_lore_xrefs.py")
+    full = {}
+    for page in L.ENTRY_PAGES:
+        raw = L.body(ROOT / page)
+        for e in L.entries(page, raw=raw):
+            full[(page, e["anchor"])] = raw[e["start"]:e["end"]]
+    nlinks = 0
+    for k, t in full.items():
+        for dest, frag in L.links(t, k[0]):
+            b = (dest, frag)
+            if b in full and b != k:
+                nlinks += 1
+                if not any((d2, f2) == k for d2, f2 in L.links(full[b], b[0])):
+                    bad.append(f"xrefs: {k[0]}#{k[1]} → {b[0]}#{b[1]} has no link back")
+    # lore decks (Bot cycle 32, #95): every story_map pointer resolves to an entry, and that entry links the deck back
+    ndp = 0
+    for (pg, a), decks in X.deck_pointers().items():
+        for title, path in decks:
+            ndp += 1
+            if (pg, a) not in full:
+                bad.append(f"decks: {path} story_map points at {pg}#{a}, which is not a lore entry")
+            elif not any(d2 == path for d2, _ in L.links(full[(pg, a)], pg)):
+                bad.append(f"decks: {pg}#{a} does not link back to {path}")
+            dt = (ROOT / path).read_text(encoding="utf-8")
+            if f"#{a})" not in dt:
+                bad.append(f"decks: {path} story map does not link {pg}#{a} (re-run scripts/build_lore_decks.py)")
     kinds = {}
     for e in E:
         kinds[e["kind"]] = kinds.get(e["kind"], 0) + 1
     print(f"lore entries: {len(E)} entries (" + ", ".join(f"{k} {n}" for k, n in kinds.items()) + f"); {nrows} statement/timeline rows; "
-          f"{len(rows)} spark states compared; {len(bad)} problems")
+          f"{len(rows)} spark states compared; {nlinks} entry→entry links + {ndp} deck→entry pointers, all reciprocal unless listed; {len(bad)} problems")
     for b in bad[:40]:
         print("  " + b)
     return 1 if bad else 0

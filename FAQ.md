@@ -2,7 +2,7 @@
 title: "FAQ"
 category: meta
 tags: [faq, lore, rules]
-issues: [45]
+issues: [45, 96]
 generated_by: hand-written
 sources: [cr, wizards-story, scryfall]
 related: ["Rules Interactions.md", "EDH Standards.md", "Keyword Encyclopedia.md", "Story Arc Summaries.md", "Front-Matter Schema.md", "Characters Index.md"]

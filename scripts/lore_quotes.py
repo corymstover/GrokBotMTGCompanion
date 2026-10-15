@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
-"""Verbatim quote verification for lore pages (Bot cycle 31, Phase 7 — validation for lore material).
+"""Verbatim quote verification for lore pages (Bot cycle 31) and rules/FAQ/EDH pages (Bot cycle 32, #96).
 
 Every double-quoted passage (>= 12 characters) on a lore page is checked against
   1. the official story pages cached in .cache/story/text22/ (fetched by build_primary_sources.py; gitignored), preferring
      the official URLs cited on the same line, then any cached page; and
-  2. card text in the cached Scryfall default-cards bulk (flavor text of every printing, Oracle text, card names).
+  2. card text in the cached Scryfall default-cards bulk (flavor text of every printing, Oracle text, card names);
+  3. (cycle 32) cited non-story Wizards pages in .cache/story/articles/ (rules articles, policy pages, the Commander format
+     page), the cached Comprehensive Rules text and every Scryfall ruling comment (status "rules"); and
+  4. for the two Grixis-derived method pages only, the read-only Grixis source checkout ($GRIXIS_SRC, default
+     /workspace/grixis-src; status "grixis-repo"). Without that checkout the status is carried over from the ledger.
 Normalization: curly quotes/dashes folded, whitespace collapsed, case-folded, markdown emphasis removed; "…" / "..." and
-editorial [brackets] split a quote into parts that must each appear.
+editorial [brackets] and " / " (between Oracle lines) split a quote into parts that must each appear.
 Results per quote: verified (cited page) · verified-other (another cached official page) · card (card text) ·
 uncached (a cited official page is not in the cache) · MISS.
 The ledger data/lore_quotes.json stores per-page counts plus every non-verified quote with its documented reason
@@ -18,6 +22,7 @@ the ledger, so an edited or new quote still fails until it is re-verified on a m
   python3 scripts/lore_quotes.py --report    print every non-verified quote
 """
 import gzip
+import os
 import hashlib
 import json
 import re
@@ -30,15 +35,22 @@ import lore_lib as L  # noqa: E402
 
 ROOT = L.ROOT
 CACHE = ROOT / ".cache" / "story" / "text22"
+ARTICLES = ROOT / ".cache" / "story" / "articles"  # Bot cycle 32: cited non-story Wizards pages (rules articles, policies), gitignored
+GRIXIS_SRC = Path(os.environ.get("GRIXIS_SRC", "/workspace/grixis-src"))  # read-only Grixis source checkout, if present
 OUT = ROOT / "data" / "lore_quotes.json"
 EXC = ROOT / "data" / "lore_quote_exceptions.json"
 PAGES = ["Planeswalker Dossiers.md", "Planes Index.md", "Items & Artifacts Index.md", "Contradictions & Retcons Log.md",
          "Characters Index.md", "Conflicts & Arcs.md", "Master Timeline.md", "Story Arc Summaries.md",
          "Omenpath & Multiverse Connections.md", "EDH Lore-Themed Deckbuilding.md", "Side-Media Index.md", "Lore Primary Sources.md",
          "Art & Flavor Story Links.md"]
+RULES_PAGES = ["FAQ.md", "Rules Interactions.md", "Keyword Encyclopedia.md", "EDH Standards.md", "EDH Mulligans.md",
+               "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "Card Data Conventions.md", "Tokens, Emblems & Dungeons.md",
+               "Format Legality Matrix.md", "Printing History.md", "EDH Win Conditions.md"]  # Bot cycle 32 (#96)
+GRIXIS_PAGES = {"EDH Deck Evaluation Checklist.md", "EDH Deck Template.md"}
+PAGES = PAGES + RULES_PAGES
 REASONS = {"image-text": "text printed only on images (e.g. the IKO Story on Cards page), so it cannot be machine-verified",
            "other-source": "a cited non-Wizards official page (publisher/retailer listing, Netflix Tudum), not in the story cache",
-           "not-a-quote": "quotation marks around a KB label, term or title, not a quotation"}
+           "not-a-quote": "quotation marks around a KB label, term, title or code snippet, not a quotation"}
 
 
 def norm(s):
@@ -55,7 +67,7 @@ def strip_md(s):
 
 def parts(q):
     q = strip_md(q)
-    ps = re.split(r"\s*(?:…|\.\.\.|\[[^\]]*\])\s*", q)
+    ps = re.split(r"\s*(?:…|\.\.\.|\[[^\]]*\]| / )\s*", q)  # " / " joins Oracle lines (Bot cycle 32)
     return [norm(p).strip(" .,;:!?'\"-") for p in ps if len(p.strip(" .,;:!?'\"-")) >= 8]
 
 
@@ -66,7 +78,7 @@ def story():
     global _story
     if _story is None:
         _story = {}
-        for f in CACHE.glob("*.txt"):
+        for f in list(CACHE.glob("*.txt")) + list(ARTICLES.glob("*.txt")):
             t = f.read_text(encoding="utf-8")
             url = t.split("\n", 1)[0][4:].strip().rstrip("/")
             _story[url] = norm(re.sub(r"\s*\|\s*Art by:[^\n]*", "", t))
@@ -102,6 +114,34 @@ def pair_quotes(line):
     return [q for q in out if len(q) >= 12]
 
 
+_rules = _grixis = None
+
+
+def rules():
+    """Comprehensive Rules text + every Scryfall ruling comment (Bot cycle 32: rules/FAQ pages quote both)."""
+    global _rules
+    if _rules is None:
+        import glob
+        buf = []
+        cr = sorted(glob.glob(str(ROOT / ".cache" / "MagicCompRules-*.txt")))
+        if cr:
+            buf.append(Path(cr[-1]).read_text(encoding="utf-8", errors="ignore"))
+        rl = sorted(glob.glob(str(ROOT / ".cache" / "rulings-*.jsonl.gz")))
+        if rl:
+            with gzip.open(rl[-1], "rt", encoding="utf-8") as f:
+                buf += [json.loads(line).get("comment", "") for line in f]
+        _rules = norm("\n".join(buf))
+    return _rules
+
+
+def grixis():
+    """Markdown of the read-only Grixis source checkout (EDH Deck Template / Checklist quote its protocols)."""
+    global _grixis
+    if _grixis is None:
+        _grixis = norm("\n".join(p.read_text(encoding="utf-8", errors="ignore") for p in GRIXIS_SRC.rglob("*.md"))) if GRIXIS_SRC.exists() else ""
+    return _grixis
+
+
 def fp(q):
     return hashlib.sha1(norm(q).encode()).hexdigest()[:12]
 
@@ -123,6 +163,9 @@ def quotes(page):
                 yield q, ctx
 
 
+GRIXIS = False  # set per page: only the Grixis-derived method pages may verify against the Grixis source
+
+
 def classify(q, line):
     ps = parts(q)
     S = story()
@@ -137,23 +180,34 @@ def classify(q, line):
     C = cards()
     if all(p in C or p in allc for p in ps):
         return "card"
+    Rr = rules()
+    if all(p in Rr or p in C for p in ps):
+        return "rules"
+    if GRIXIS and all(p in grixis() for p in ps):
+        return "grixis-repo"
     if any(u not in S for u in cited):
         return "uncached"
     return "MISS"
 
 
 def build():
+    global GRIXIS
     exc = json.loads(EXC.read_text(encoding="utf-8")) if EXC.exists() else {}
+    led = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {"pages": {}}
     res = {"generated_by": "scripts/lore_quotes.py --build", "story_pages_cached": len(story()), "pages": {}}
     for page in PAGES:
         cnt, rows = {}, []
+        GRIXIS = page in GRIXIS_PAGES and GRIXIS_SRC.exists()
+        prev = {r["fp"]: r.get("status") for r in led["pages"].get(page, {}).get("quotes", [])}
         for q, line in quotes(page):
             k = classify(q, line)
             f = fp(q)
+            if k == "MISS" and page in GRIXIS_PAGES and not GRIXIS_SRC.exists() and prev.get(f) == "grixis-repo":
+                k = "grixis-repo"  # verified earlier against the Grixis checkout, which this machine lacks
             if k in ("MISS", "uncached") and f in exc.get(page, {}):
                 k = "excepted:" + exc[page][f]["reason"]
             cnt[k.split(":")[0]] = cnt.get(k.split(":")[0], 0) + 1
-            rows.append({"fp": f, "status": k, **({"quote": q[:160]} if not k.startswith("verified") and k != "card" else {})})
+            rows.append({"fp": f, "status": k, **({"quote": q[:160]} if not k.startswith("verified") and k not in ("card", "rules") else {})})
         res["pages"][page] = {"counts": dict(sorted(cnt.items())), "quotes": rows}
     return res
 
@@ -185,7 +239,7 @@ def main(argv):
     bad = []
     if CACHE.exists():
         now = build()
-        mode = f"re-verified against {now['story_pages_cached']} cached story pages + Scryfall card text"
+        mode = f"re-verified against {now['story_pages_cached']} cached official pages + Scryfall card text + CR/rulings"
         if dump(now) != dump(led):
             bad.append("ledger stale — run python3 scripts/lore_quotes.py --build")
     else:

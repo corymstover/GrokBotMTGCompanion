@@ -40,7 +40,7 @@ Every entry starts with a YAML block between `---` lines. Values are flat: strin
 | `generated_by` | script path or `hand-written` | yes | Generator to re-run instead of hand-editing. |
 | `sources` | list of source keys | yes | Where the facts come from (source keys below). |
 | `related` | list of page paths | yes | Up to 6 most strongly linked registered pages (links in + out; meta pages excluded for non-meta pages). Computed. |
-| `entry_kind` | enum: arc/era/dossier/character/plane/item/retcon | when applicable | Lore entry pages only (Bot cycle 31, #92): what each entry on the page is (see scripts/lore_lib.py ENTRY_PAGES). |
+| `entry_kind` | enum: arc/summary/era/dossier/character/plane/item/retcon | when applicable | Lore entry pages only (Bot cycle 31, #92): what each entry on the page is (see scripts/lore_lib.py ENTRY_PAGES). |
 | `entries` | int | when applicable | Lore entry pages only: number of entries on the page (indexed in data/lore_entries.json and Lore Entry Index.md). |
 | `schema` | int | yes | Front-matter schema version (currently 2). |
 

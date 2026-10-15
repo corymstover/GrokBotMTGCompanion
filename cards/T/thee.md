@@ -168,7 +168,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — You can cast The Elderspell without controlling any planeswalkers. The target planeswalkers will still be destroyed. You can also cast it without targeting any planeswalkers if you really want to do so.
   - *2019-05-03* — You choose the target planeswalkers to destroy as you cast The Elderspell, but you don’t choose a planeswalker to receive loyalty counters until The Elderspell is resolving.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#the-elderspell)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/T.md#the-elderspell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/89/the-elderspell) · oracle_id `eff0a1ad-ecc6-416f-a4ae-96b26cd8a905` · printing: WAR #89 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eldest Reborn

@@ -104,7 +104,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8934 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-14* — You must follow all normal timing rules for a card you play using The Temporal Anchor's last ability and, if it's a spell, you must pay its costs to cast it.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#the-temporal-anchor)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/T.md#the-temporal-anchor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/82/the-temporal-anchor) · oracle_id `168f2fbb-8cf7-43e0-8bb6-5e4cc3c1e363` · printing: BRO #82 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ten Rings

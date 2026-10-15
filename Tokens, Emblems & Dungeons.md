@@ -2,7 +2,7 @@
 title: "Tokens, Emblems & Dungeons"
 category: cards
 tags: [tokens, emblems, dungeons, not-cards]
-issues: [42]
+issues: [42, 96]
 generated_by: scripts/build_tokens.py
 sources: [scryfall, cr]
 related: []

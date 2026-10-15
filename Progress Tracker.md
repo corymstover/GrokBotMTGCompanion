@@ -84,19 +84,19 @@ schema: 2
 | Artist Index | ✅ (#43, Bot cycle 13) **2,440** artists · **50,956** artist-illustration credits · `data/artists.csv` · [Artist Index](Artist%20Index.md) |
 | YAML front-matter | ✅ (#44, Bot cycle 15; Bot cycle 16 added 7 pages + 40 `grixis/decks`, `kind: grixis`) **44 pages + 86 decks**. Pages: category/tags/issues/generator/sources; decks: kind/commander/identity/bracket floor/GC/validated. `scripts/front_matter.py --check` passes |
 | FAQ | ✅ (#45, Bot cycle 15) **29 Q&As** (9 lore, 9 rules, 7 Commander, 4 cards & collecting) linking to cited pages |
-| Knowledge Snapshots | ✅ (#47, Bot cycle 15) snapshot policy + **16 tags** documented (`v1.9` Bot cycle 16, `v2.0` Bot cycle 19) |
+| Knowledge Snapshots | ✅ (#47, Bot cycle 15) snapshot policy + **18 tags** documented (`v1.9` Bot cycle 16, `v2.0` Bot cycle 19, `v2.1` Bot cycle 30, `v2.2` Bot cycle 32) |
 | Front-matter schema v2 | ✅ (#65, Bot cycle 17) typed schema on **45 pages + 86 decks + 684 card shards**; decks gain `combos`, `two_card_infinites`, computed `tags`, WUBRG-ordered identity; pages gain `related` (link graph) and `schema`; [Front-Matter Schema](Front-Matter%20Schema.md) generated from the script |
-| Validation | ✅ (#67, Bot cycle 17; #94, Bot cycle 31 adds **lore-entries** and **lore-quotes**: 260 entries cited, 253 statement/timeline rows cited, 39 spark states consistent, 1,675 quotes verified or documented) `scripts/validate_all.py`: links · schema · retrieval index · citations (**725** Wizards URLs, **478** CR rule numbers) · Oracle drift (33,894 entries) · **86** deck re-checks · freshness — all PASS |
+| Validation | ✅ (#67, Bot cycle 17; #94, Bot cycle 31 adds **lore-entries** and **lore-quotes**: 260 entries cited, 253 statement/timeline rows cited, 39 spark states consistent, 1,675 quotes verified or documented; #93/#96, Bot cycle 32: lore-entries also checks cross-reference reciprocity (2,943 entry links, 23 deck pointers), lore-quotes covers 25 pages / 2,719 quotes incl. 12 rules/FAQ/EDH pages) `scripts/validate_all.py`: links · schema · retrieval index · citations (**768** Wizards URLs, **478** CR rule numbers) · Oracle drift (33,894 entries) · **88** deck re-checks · freshness — all PASS |
 | Cross-references | ✅ (#66, Bot cycle 18) [reverse card index](references/README.md): **8,468** cited cards, 28 pages · *Referenced in* line on each cited entry · deck *Cross-references* blocks (**86**) · *Used in decks* on **28** EDH package sections · character-card tables (**77/78** characters, **21/21** dossiers) · **1,077** Keyword Encyclopedia example links |
 | Bracket calibration | ✅ (#68, Bot cycle 19) calibration & pilot-notes block in **86** decks · floors B2 **10** · B3 **30** · B4 **46** · **146** two-card infinites in **37** decks · 1 MLD deck · 0 Grixis targets below the floor · [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) |
-| Retrieval index | ✅ (#65, Bot cycle 17; #92, Bot cycle 31) `data/kb_index.json`: pages and decks with every heading and anchor, plus **260 lore entries** with computed tags (`--kind`, `--tag spark-lost`, `--tag has-unknowns`) · `scripts/kb_find.py` · [Lore Entry Index](Lore%20Entry%20Index.md) |
+| Retrieval index | ✅ (#65, Bot cycle 17; #92, Bot cycle 31) `data/kb_index.json`: pages and decks with every heading and anchor, plus **280 lore entries** (Bot cycle 32 added 20 arc summaries) with computed tags (`--kind`, `--tag spark-lost`, `--tag has-unknowns`) · `scripts/kb_find.py` · [Lore Entry Index](Lore%20Entry%20Index.md) |
 | Lookup Guide | ✅ (#46, Bot cycle 14; Bot cycle 15 added front-matter filters; Bot cycle 17 added kb_find + validation) how-to-find table for cards, rules, EDH and lore with `rg`/CSV fast paths |
 | Rules-interactions section | 🟢 (#9) **27 topics** (was 17) · 37 official CR examples (was 20) · 139 linked rulings (was 87) |
 | Rulings in card entries | ✅ 78,943 rulings on 19,889 cards; all 33,894 cards processed (#10 closed) |
 
 ## Phase 6 status
 *Bot cycle 30, 2026-10-15.* Same totals as [ROADMAP → Phase 6](ROADMAP.md#phase-6).
-Snapshot tag: `v2.1-phase6-lore`. Maintenance mode has **not** started yet.
+Snapshot tag: `v2.1-phase6-lore`. Phase 7 (lore optimization, Bot cycles 31–32) is complete: snapshot tag `v2.2-phase7-optimization`. Maintenance mode has **not** started yet.
 
 | Area | Total | Notes |
 |---|---|---|
@@ -132,6 +132,6 @@ Snapshot tag: `v2.1-phase6-lore`. Maintenance mode has **not** started yet.
 | Phase 4 — Structure & usability | ✅ closed (Bot cycle 14: #46; Bot cycle 15: #44, #45, #47) | `v1.8-cycle15-phase4-complete` |
 | Grixis integration (Bot cycle 16) | ✅ #59–#62 done; #63 (follow-ups) open | `v1.9-grixis-integration` |
 | Phase 5 — Optimization pass (Bot cycles 17–19) | ✅ closed (Bot cycle 17: #65, #67; Bot cycle 18: #66; Bot cycle 19: #68) | `v2.0-phase5-optimization` |
-| Phase 7 — Lore optimization pass (Bot cycles 31+) | 🟡 **cycle 31** P7.1 lore front-matter, Lore Entry Index, kb_find entries (#92) + P7.3 lore validation steps (#94); next: cross-refs (#93), lore-deck calibration (#95), Phase 5 gap audit (#96) | milestone 16 |
+| Phase 7 — Lore optimization pass (Bot cycles 31–32) | ✅ **cycle 31** P7.1 lore front-matter, Lore Entry Index, kb_find entries (#92) + P7.3 lore validation steps (#94); **cycle 32** bidirectional lore cross-refs (#93), lore-deck story maps + calibration (#95), gap audit incl. rules/FAQ quote checks (#96). Tag `v2.2-phase7-optimization` | milestone 16 (closed) |
 | Phase 6 — Lore deepening sprint | 🟡 Bot cycle 20 arcs/timeline/retcons; cycle 21 lore deckbuilding (#79–#81); **cycle 22** primary-source pass (#73); **cycle 23** 85% lore-deck standard; **cycle 24** recent + pre-2019 arcs, dossiers started (#74); **cycle 25** all 40 arcs full format, 4 dossiers + 3 plane entries; **cycle 26** 7 dossiers, 4 plane entries, Items index (#75); **cycle 27** 7 dossiers, 5 items, 4 plane entries, spark refresh; **cycle 28** 3 new + 3 extended dossiers, 3 items, 4 plane entries; **cycle 29** 6 new dossiers, 4 plane entries, 2 items; **cycle 30** final 7 dossiers (38), 2 items (26), 2 retcons (29); tag `v2.1-phase6-lore` | milestone 15 |
 
