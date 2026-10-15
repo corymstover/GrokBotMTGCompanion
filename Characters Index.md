@@ -14,7 +14,7 @@
 - [Recent / Omenpath Era](#recent--omenpath-era)
 - [Sparks after the Phyrexian Invasion](#sparks-after-the-phyrexian-invasion)
 - [Echoverse counterparts](#echoverse-counterparts)
-- [Not yet reviewed](#not-yet-reviewed)
+- [Remaining profiled Planeswalkers (reviewed Bot cycle 4)](#remaining-profiled-planeswalkers-reviewed-bot-cycle-4)
 - [Open questions](#open-questions)
 
 ## Status at a glance
@@ -79,6 +79,25 @@
 | [Proft, Etrata, Aminatou, Niv-Mizzet](#proft-etrata-aminatou-niv-mizzet) | Recent / Omenpath Era | ✅ Active (DSK) |
 | [Uldaros Theorix](#uldaros-theorix) | Recent / Omenpath Era | 🚫 Echoverse being |
 | [Pinnacle / Sothera cast (Haliya, Sami, Mirri, Alpharael)](#pinnacle--sothera-cast-haliya-sami-mirri-alpharael) | Recent / Omenpath Era | ✅ Active (EOE) — per-character detail pending |
+| [Angrath](#angrath) | Remaining Planeswalkers (cycle 4) | ❓ Unknown |
+| [Arlinn Kord](#arlinn-kord) | Remaining Planeswalkers (cycle 4) | ⚠️ Probably alive |
+| [Ashiok](#ashiok) | Remaining Planeswalkers (cycle 4) | ❓ Unknown |
+| [Basri Ket](#basri-ket) | Remaining Planeswalkers (cycle 4) | ✅ Alive (2025) |
+| [Calix](#calix) | Remaining Planeswalkers (cycle 4) | ❓ Unknown |
+| [Dack Fayden](#dack-fayden) | Remaining Planeswalkers (cycle 4) | ❓ Unknown in the Multiverse |
+| [Daretti](#daretti) | Remaining Planeswalkers (cycle 4) | ✅ Alive (2025) |
+| [Davriel Cane](#davriel-cane) | Remaining Planeswalkers (cycle 4) | ⚠️ Unverified |
+| [Domri Rade](#domri-rade) | Remaining Planeswalkers (cycle 4) | ✅ Dead (War of the Spark, 2019) |
+| [Dovin Baan](#dovin-baan) | Remaining Planeswalkers (cycle 4) | ❓ A fugitive after the *War of the Spark* |
+| [Grist](#grist) | Remaining Planeswalkers (cycle 4) | ⚠️ Unverified |
+| [Kasmina](#kasmina) | Remaining Planeswalkers (cycle 4) | ❓ Unknown |
+| [Mu Yanling](#mu-yanling) | Remaining Planeswalkers (cycle 4) | ❓ Unknown |
+| [Ob Nixilis](#ob-nixilis) | Remaining Planeswalkers (cycle 4) | ❓ Unknown in the Multiverse |
+| [Tibalt](#tibalt) | Remaining Planeswalkers (cycle 4) | ❓ Probably dead, but not stated |
+| [Tyvar Kell](#tyvar-kell) | Remaining Planeswalkers (cycle 4) | ✅ Alive (2026) |
+| [Vivien Reid](#vivien-reid) | Remaining Planeswalkers (cycle 4) | ✅ Alive after the invasion |
+| [Will Kenrith](#will-kenrith) | Remaining Planeswalkers (cycle 4) | ✅ Alive as of *Wilds of Eldraine* (2023) |
+| [Xenagos](#xenagos) | Remaining Planeswalkers (cycle 4) | ✅ Dead |
 
 ## Pre-Mending / Ancient
 
@@ -530,8 +549,104 @@ The stated cause is uncertain even in-story: "Maybe this is some sort of natural
 ## Echoverse counterparts
 Reality Fracture cards include 🚫 Echoverse versions with different histories ("These warped counterparts are denizens of the Echoverse" — [Legends of Reality Fracture (2026-10-12)](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)). Do **not** merge them into the Multiverse entries above. Examples: Gideon the Oathless, Karn, Gilded Guardian (spark gifted by a "great Planeswalker Mishra"), Kiora of Fire and Ashes, Tamiyo, Upriser Crowned, Koth of the Homestead, Liliana the Faultless, Chandra, Chill of Compliance, Garruk, Veiled Butcher, Ajani Unrelenting.
 
-## Not yet reviewed
-⚠️ Official profiles exist, but no current status was checked this cycle: Angrath, Arlinn Kord, Ashiok (the real Ashiok, as distinct from Jace's disguise), Basri Ket, Calix, Dack Fayden, Daretti, Davriel Cane, Domri Rade, Dovin Baan, Grist, Kasmina, Mu Yanling, Ob Nixilis, Tibalt, Tyvar Kell, Vivien Reid, Will Kenrith, Xenagos. Profiles: `https://magic.wizards.com/en/story/<name>-planeswalker`. Tracked as a follow-up issue.
+## Remaining profiled Planeswalkers (reviewed Bot cycle 4)
+
+> Reviewed 2026-10-15 against the 19 official profiles and every fetched Magic Story article that names them. Status uses the same key as above. 🚫 marks Echoverse versions from *Reality Fracture*, which are **not** Multiverse canon status.
+
+### Angrath
+- **Who:** The profile says he is driven by "restless impatience" and raids "the coastal towns of the Sun Empire" on Ixalan.
+- **Status (late 2026):** ❓ Unknown. No fetched story after *Rivals of Ixalan* (2018) shows him. A 2022 side story only says Huatli used "a word she once heard Angrath use".
+- **Sources:** [profile](https://magic.wizards.com/en/story/angrath-planeswalker) · [Wool over the Eyes (2018)](https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14) · [A Note from a Stranger (2022)](https://magic.wizards.com/en/news/magic-story/note-stranger-2022-05-02)
+
+### Arlinn Kord
+- **Who:** Werewolf Planeswalker of Innistrad; "an ambassador and protector of her kind".
+- **Status (late 2026):** ⚠️ Probably alive. *The Legends of Reality Fracture* (2026-10-12) says Thalia "has found herself working with Arlinn Kord to set up defenses all over the plane" after the Phyrexian Invasion. ⚠️ That article covers both Multiverse and Echoverse versions, so this is not confirmed as main-Multiverse canon. Teferi warned her about Phyrexians at the end of *Crimson Vow*.
+- **Sources:** [profile](https://magic.wizards.com/en/story/arlinn-kord-planeswalker) · [VOW Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-till-death-do-us-part-2021-11-24) · [Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)
+
+### Ashiok
+- **Who:** "An elegant being of nightmare"; "Ashiok's motives and origin are unknown".
+- **Status (late 2026):** ❓ Unknown. Jace later wore Ashiok's face ("Jace as Ashiok smiles" — visiting Eriette's cell, OTJ Epilogue 2; see [Jace Beleren](#jace-beleren)). ❓ Whether the Ashiok who counseled Eriette in *Wilds of Eldraine* (2023) was the real Ashiok or Jace is not stated in the fetched sources. In *Secrets of Strixhaven* (2026) Ajani says Chandra's visions may be "Ashiok in disguise". No fetched story shows the real Ashiok after the invasion.
+- **Sources:** [profile](https://magic.wizards.com/en/story/ashiok-planeswalker) · [WOE Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets) · [OTJ Epilogue 2](https://magic.wizards.com/en/news/magic-story/epilogue-2-bring-the-end-part-2) · [SOS Ep. 3](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-3-asunder)
+
+### Basri Ket
+- **Who:** Former devotee of Oketra; after her death he "vowed to champion her ideals across the Multiverse".
+- **Status (late 2026):** ✅ Alive (2025). He races with the Amonkheti team in *Aetherdrift*. In Ep. 6 he "conjured waves of sand to shield the fleeing civilians".
+- **Sources:** [profile](https://magic.wizards.com/en/story/basri-ket-planeswalker) · [Aetherdrift: Hour of Restoration](https://magic.wizards.com/en/news/magic-story/aetherdrift-hour-of-restoration) · [Aetherdrift Ep. 6](https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-6-the-bloodless-revolution)
+
+### Calix
+- **Who:** "Artificially created by the God of Destiny" (Klothys) to keep Elspeth in the Underworld. His spark ignited when he failed.
+- **Status (late 2026):** ❓ Unknown. His spark ignited when he "simply planeswalked after" Elspeth (THB Story Summary). The last fetched story (*BRO Chapter 4*, 2022) says "He will never stop chasing you". No later story shows him.
+- **Sources:** [profile](https://magic.wizards.com/en/story/calix-planeswalker) · [BRO Ch. 4](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-4-the-dark)
+
+### Dack Fayden
+- **Who:** Human thief from Drakeston on Fiora: "the greatest thief in the Multiverse".
+- **Status (late 2026):** ❓ Unknown in the Multiverse. He was last seen fighting in the *War of the Spark* (2019). 🚫 The "Dack Fayden, Helping Hand" in *Legends of Reality Fracture*, a "philanthropist" with a mercantile guild, is an Echoverse version, not his canon status.
+- **Sources:** [profile](https://magic.wizards.com/en/story/dack-fayden-planeswalker) · [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) · [Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)
+
+### Daretti
+- **Who:** Returned to Fiora and schemed to reshape "the power structures of Paliano".
+- **Status (late 2026):** ✅ Alive (2025). He is a racer on Chandra's *Aetherdrift* team ("'Back to your stations!' shouts Daretti"). ❓ The fetched sources don't say whether he still has a spark.
+- **Sources:** [profile](https://magic.wizards.com/en/story/daretti-planeswalker) · [Aetherdrift Ep. 6](https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-6-the-bloodless-revolution)
+
+### Davriel Cane
+- **Who:** A "talented diabolist, skilled at binding demons to his service".
+- **Status (late 2026):** ⚠️ Unverified. No fetched Magic Story article mentions him. The profile is the only source.
+- **Sources:** [profile](https://magic.wizards.com/en/story/davriel-cane-planeswalker)
+
+### Domri Rade
+- **Who:** Gruul leader on Ravnica who "revels in chaos and destruction".
+- **Status (late 2026):** ✅ Dead (War of the Spark, 2019). 🗣️ The narrator reports "word was spreading through the chamber that Dumb Domri was dead. Turns out he was a Planeswalker and got his Spark harvested by an Eternal." He had sided with Bolas.
+- **Sources:** [profile](https://magic.wizards.com/en/story/domri-rade-planeswalker) · [WAR: The Path to Opulent](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15) · [WAR: Rallying the Reluctant](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22)
+
+### Dovin Baan
+- **Who:** "Can clearly see the flaws in any system". He uses this to "worm his way into positons of authority" (sic).
+- **Status (late 2026):** ❓ A fugitive after the *War of the Spark*. When Jace suggests the Immortal Sun could trap Tezzeret, Chandra adds "Or Dovin Baan". No later fetched story shows him.
+- **Sources:** [profile](https://magic.wizards.com/en/story/dovin-baan-planeswalker) · [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12)
+
+### Grist
+- **Who:** Insectoid Planeswalker, "both a single organism and the queen of a hive".
+- **Status (late 2026):** ⚠️ Unverified. No fetched story mentions Grist. The profile is the only source.
+- **Sources:** [profile](https://magic.wizards.com/en/story/grist-planeswalker)
+
+### Kasmina
+- **Who:** Secretive seer whose "visions of the future warn of dark days ahead". She was a professor at Strixhaven.
+- **Status (late 2026):** ❓ Unknown. In *Secrets of Strixhaven* (2026) students refer to "the business with Professor Kasmina", an incident that is not explained in the fetched episodes. A 2023 side story recalls that "Kasmina suggested there was an ember" among the students.
+- **Sources:** [profile](https://magic.wizards.com/en/story/kasmina-planeswalker) · [SOS Ep. 2](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-2-travels-and-travails) · [A Radiant Heart (2023)](https://magic.wizards.com/en/news/magic-story/a-radiant-heart)
+
+### Mu Yanling
+- **Who:** Has "adept command over wind and water".
+- **Status (late 2026):** ❓ Unknown. She was last seen in the *War of the Spark* (introduced "as Miss Mu Yanling" alongside Jiang Yanggu). No later fetched story mentions her.
+- **Sources:** [profile](https://magic.wizards.com/en/story/mu-yanling-planeswalker) · [WAR: Desperate Operatives](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29)
+
+### Ob Nixilis
+- **Who:** Warlord turned demon by "an ancient magical artifact"; "often seeking a new conquest".
+- **Status (late 2026):** ❓ Unknown in the Multiverse. He appears in the Zendikar stories (2015) and is named in *WAR: Ashes* as someone to hunt. 🚫 "Ob Nixilis, the Ascended Angel" in *Legends of Reality Fracture* is an Echoverse version.
+- **Sources:** [profile](https://magic.wizards.com/en/story/ob-nixilis-planeswalker) · [At Any Cost (2015)](https://magic.wizards.com/en/news/magic-story/any-cost-2015-11-25) · [Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)
+
+### Tibalt
+- **Who:** "A sadistic, interplanar menace". Born human on Innistrad, he became a half-devil.
+- **Status (late 2026):** ❓ Probably dead, but not stated. In *ONE* Ep. 5 (2023) the compleated Tibalt fights Tyvar. Elspeth last sees "Tyvar driving the twin barbs of Tibalt's tail into the space that should have held the Phyrexian's heart. Tibalt screamed."
+- **Sources:** [profile](https://magic.wizards.com/en/story/tibalt-planeswalker) · [ONE Ep. 5](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-5-inevitable-resolutions)
+
+### Tyvar Kell
+- **Who:** Elf prince of Kaldheim who wants to "write his legend across the stars".
+- **Status (late 2026):** ✅ Alive (2026). He survived New Phyrexia and the invasion: Kaya says "Tyvar's going to be bragging about killing a Phyrexian sea serpent". He was part of the team in *Duskmourn* (2024), and in *Secrets of Strixhaven* (2026) he sends Zimone a letter.
+- **Sources:** [profile](https://magic.wizards.com/en/story/tyvar-kell-planeswalker) · [MOM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life) · [DSK Ep. Six](https://magic.wizards.com/en/news/magic-story/episode-six-dont-die) · [SOS: The Math of More](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-the-math-of-more)
+
+### Vivien Reid
+- **Who:** "The last survivor of Skalla"; an archer with the Arkbow (see [Skalla](Planes%20Index.md#skalla)).
+- **Status (late 2026):** ✅ Alive after the invasion. Kaya: "Liliana's all right. So's Vivien." No later fetched story shows her.
+- **Sources:** [profile](https://magic.wizards.com/en/story/vivien-reid-planeswalker) · [Survival of the Fittest (MOM)](https://magic.wizards.com/en/news/magic-story/survival-of-the-fittest) · [MOM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life)
+
+### Will Kenrith
+- **Who:** He shares a spark with his twin Rowan ("the only Planeswalkers known to share a Spark"); a cryomancer.
+- **Status (late 2026):** ✅ Alive as of *Wilds of Eldraine* (2023). Rowan confronts him at Eriette's court ("Home is gone, Will!"). ❓ The fetched sources don't say whether the twins still share a working spark after the invasion.
+- **Sources:** [profile](https://magic.wizards.com/en/story/will-kenrith-planeswalker) · [WOE Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-broken-oaths)
+
+### Xenagos
+- **Who:** Satyr of the Skola Valley on Theros who sought "all the pleasures of the Multiverse".
+- **Status (late 2026):** ✅ Dead. He ascended to godhood, and Elspeth "stabbed Xenagos with Godsend, destroying him once and for all" (THB Story on Cards). Elspeth still recalls "the battle with Xenagos" in *SNC* Ep. 1.
+- **Sources:** [profile](https://magic.wizards.com/en/story/xenagos-planeswalker) · [THB Story on Cards](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16) · [Kruphix's Insight (2014)](https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11) · [SNC Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28)
 
 ## Open questions
 - ❓ **Sarkhan Vol**: survived Ugin's ghostfire? ([TDM Ep. 7](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return) ends with him diving into the storm.)
@@ -540,4 +655,6 @@ Reality Fracture cards include 🚫 Echoverse versions with different histories 
 - ❓ **Nahiri**: does she still have a spark?
 - ❓ **Ajani's "darkness"** in Secrets of Strixhaven and the "beings created to betray" ([SOS Ep. 6](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-6-two-three-five-seven)).
 - ❓ **Urabrask**: the death scene is not in the fetched corpus (only Chandra's memory of it).
+- ❓ **Kasmina**: what was "the business with Professor Kasmina" (SOS Ep. 2)?
+- ❓ **Tibalt**: did he die on New Phyrexia (ONE Ep. 5)?
 - ❓ **Garruk and the Kenrith twins** ([RF Ep. 10](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday)).

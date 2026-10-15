@@ -10,6 +10,7 @@
 - [Card breakdown](#card-breakdown)
 - [Rejected candidates](#rejected-candidates)
 - [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
 
 ## Commander
 
@@ -201,3 +202,18 @@ EDHREC suggestions excluded by validation (should normally be empty or only off-
 
 **Deck cards with official rulings:** 54 of 68 non-basic cards — [Goblin Warchief](../cards/G/gob.md#goblin-warchief) (1), [Skirk Prospector](../cards/S/sk.md#skirk-prospector) (1), [Goblin Matron](../cards/G/gob.md#goblin-matron) (2), [Pashalik Mons](../cards/P/pa.md#pashalik-mons) (2), [Siege-Gang Commander](../cards/S/si.md#siege-gang-commander) (1), [Goblin King](../cards/G/gob.md#goblin-king) (1), [Krenko, Tin Street Kingpin](../cards/K/kr.md#krenko-tin-street-kingpin) (2), [Hobgoblin Bandit Lord](../cards/H/ho.md#hobgoblin-bandit-lord) (2), [Goblin Trashmaster](../cards/G/gob.md#goblin-trashmaster) (2), [Conspicuous Snoop](../cards/C/con.md#conspicuous-snoop) (6), [Goblin Recruiter](../cards/G/gob.md#goblin-recruiter) (1), [Goblin Chirurgeon](../cards/G/gob.md#goblin-chirurgeon) (2), [Goblin Ringleader](../cards/G/gob.md#goblin-ringleader) (1), [Muxus, Goblin Grandee](../cards/M/mu.md#muxus-goblin-grandee) (2), [Howlsquad Heavy](../cards/H/ho.md#howlsquad-heavy) (7), [Rundvelt Hordemaster](../cards/R/ru.md#rundvelt-hordemaster) (1), [General Kreat, the Boltbringer](../cards/G/ge.md#general-kreat-the-boltbringer) (3), [Legion Warboss](../cards/L/le.md#legion-warboss) (4), [Hexing Squelcher](../cards/H/he.md#hexing-squelcher) (1), [Purphoros, God of the Forge](../cards/P/pu.md#purphoros-god-of-the-forge) (12), [Goblin Lackey](../cards/G/gob.md#goblin-lackey) (1), [Warren Instigator](../cards/W/war.md#warren-instigator) (2), [Kiki-Jiki, Mirror Breaker](../cards/K/ki.md#kiki-jiki-mirror-breaker) (7), [Battle Cry Goblin](../cards/B/bat.md#battle-cry-goblin) (1), [Gempalm Incinerator](../cards/G/ge.md#gempalm-incinerator) (3), [Goblin Piledriver](../cards/G/gob.md#goblin-piledriver) (1), [Grenzo, Havoc Raiser](../cards/G/gre.md#grenzo-havoc-raiser) (9), [Treasure Nabber](../cards/T/tre.md#treasure-nabber) (7), [Searslicer Goblin](../cards/S/sea.md#searslicer-goblin) (3), [Goro-Goro, Disciple of Ryusei](../cards/G/gor.md#goro-goro-disciple-of-ryusei) (3), [Swiftfoot Boots](../cards/S/sw.md#swiftfoot-boots) (1), [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Ruby Medallion](../cards/R/ru.md#ruby-medallion) (5), [Lightning Greaves](../cards/L/li.md#lightning-greaves) (2), [Thousand-Year Elixir](../cards/T/tho.md#thousand-year-elixir) (1), [Impact Tremors](../cards/I/im.md#impact-tremors) (1), [Shared Animosity](../cards/S/sha.md#shared-animosity) (2), [Blood Moon](../cards/B/blo.md#blood-moon) (4), [Boggart Shenanigans](../cards/B/bo.md#boggart-shenanigans) (3), [Raid Bombardment](../cards/R/rai.md#raid-bombardment) (5), [Chaos Warp](../cards/C/cha.md#chaos-warp) (5), [Battle Hymn](../cards/B/bat.md#battle-hymn) (1), [Massive Raid](../cards/M/mas.md#massive-raid) (1), [Thrill of Possibility](../cards/T/thr.md#thrill-of-possibility) (1), [Blasphemous Act](../cards/B/bla.md#blasphemous-act) (4), [Vandalblast](../cards/V/va.md#vandalblast) (4), [Faithless Looting](../cards/F/fa.md#faithless-looting) (7), [Goblin Grenade](../cards/G/gob.md#goblin-grenade) (3), [Empty the Warrens](../cards/E/em.md#empty-the-warrens) (4), [Castle Embereth](../cards/C/cas.md#castle-embereth) (2), [Path of Ancestry](../cards/P/pa.md#path-of-ancestry) (7), [Three Tree City](../cards/T/thr.md#three-tree-city) (1), [Den of the Bugbear](../cards/D/den.md#den-of-the-bugbear) (3), [Arena of Glory](../cards/A/are.md#arena-of-glory) (8).
 <!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**4 complete combo(s); 0 two-card infinite.** 70 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Krenko, Mob Boss + Skirk Prospector + Goblin Warchief | Infinite commander casts, Infinite creature tokens with haste, Infinite death triggers, Infinite creature ETB | — | [38-659-1288](https://commanderspellbook.com/combo/38-659-1288/) |
+| Krenko, Mob Boss + Skirk Prospector + Goblin Chieftain | Infinite commander casts, Infinite creature tokens with haste, Infinite death triggers, Infinite creature ETB | — | [38-659-3954](https://commanderspellbook.com/combo/38-659-3954/) |
+| Krenko, Mob Boss + Skirk Prospector + Thousand-Year Elixir | Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers, Infinite death triggers | — | [38-659-5295](https://commanderspellbook.com/combo/38-659-5295/) |
+| Krenko, Mob Boss + Skirk Prospector + Howlsquad Heavy | Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers, Infinite death triggers | — | [38-659-6410](https://commanderspellbook.com/combo/38-659-6410/) |
+<!-- COMBOS:END -->

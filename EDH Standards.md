@@ -66,7 +66,7 @@ The official **Commander Brackets** (beta) are a pregame-conversation tool, not 
 
 Barometers from the original beta article (Feb 2025): Brackets 1–2 — no intentional two-card infinite combos, no mass land denial; Bracket 1 no extra-turn cards; Brackets 2–3 extra turns only in low quantity, not chained/looped; Bracket 3 — no *early-game* two-card infinite combos, no mass land denial; Brackets 4–5 — no restrictions beyond the banned list. The **Oct 21 2025 update removed tutor restrictions** (efficient tutors are caught by the Game Changers list instead) and decoupled precons from Bracket 2.
 
-**How this repo assesses a deck** (method, not opinion): count Game Changers (Scryfall `game_changer` flag) → minimum bracket; flag extra-turn and mass-land-denial cards; two-card combos are reviewed manually and labeled ⚠️ until verified. Final placement beyond these floors is **Opinion** and must be labeled so.
+**How this repo assesses a deck** (method, not opinion): count Game Changers (Scryfall `game_changer` flag) → minimum bracket; flag extra-turn and mass-land-denial cards; two-card combos are detected automatically with the [Commander Spellbook](https://commanderspellbook.com) public API (`scripts/detect_combos.py`, results in each deck's *Combos* block and `data/combos.json`); a deck with a two-card infinite combo gets a combo-adjusted floor of at least Bracket 3 (barometer: none in Brackets 1–2). Whether a combo is "early-game" (Bracket 3 vs. 4) stays **Opinion**. ⚠️ Spellbook is community-maintained, so a missing combo is not proof that none exists. Final placement beyond these floors is **Opinion** and must be labeled so.
 
 ## Banned list & legality
 Card legality in every entry comes from Scryfall. Latest Commander-specific B&R change found on magic.wizards.com: **2026-02-09 — Biorhythm unbanned (added to Game Changers); Lutri, the Spellchaser unbanned but remains banned as a companion.** (The 2026-10-12 B&R announcement made no Commander changes; its "banned as a commander" items apply to **Brawl**, an MTG Arena format.)
@@ -95,42 +95,44 @@ Definition (official): cards that "can dramatically warp Commander games… run 
 ## Deck skeletons
 Built by [`scripts/build_deck_skeleton.py`](scripts/build_deck_skeleton.py): highest-inclusion cards for the commander from EDHREC (community data, fetched 2026-10-15), then **validated** (100 cards, singleton, strict identity, Commander-legal, commander eligibility) and bracket-floored. They are *starting points*, not tuned lists. Each skeleton ends with an auto-generated **Commander rules & rulings** block (`scripts/deck_rules_notes.py`): commander Oracle text, every official ruling, creature-type overlap, and which deck cards carry rulings. **Coverage: 32 skeletons — all 32 color identities** (5 mono-colors + colorless, 10 two-color pairs, 10 three-color combinations, all 5 four-color identities, and five-color). Bot cycle 3 added the last four: WUBR (Breya), UBRG (Yidris), BRGW (Saskia), RGWU (Kynaios and Tiro).
 
-| Deck | Identity | Game Changers | Bracket floor |
-|---|---|---|---|
-| [Kozilek, the Great Distortion](decks/kozilek-the-great-distortion.md) | Colorless | 1 | 3 |
-| [K'rrik, Son of Yawgmoth](decks/krrik-son-of-yawgmoth.md) | B | 7 | 4 |
-| [Selvala, Heart of the Wilds](decks/selvala-heart-of-the-wilds.md) | G | 2 | 3 |
-| [Krenko, Mob Boss](decks/krenko-mob-boss.md) | R | 0 | 2 (or 1) |
-| [Talrand, Sky Summoner](decks/talrand-sky-summoner.md) | U | 3 | 3 |
-| [Giada, Font of Hope](decks/giada-font-of-hope.md) | W | 3 | 3 |
-| [Lathril, Blade of the Elves](decks/lathril-blade-of-the-elves.md) | BG | 1 | 3 |
-| [Prosper, Tome-Bound](decks/prosper-tome-bound.md) | BR | 1 | 3 |
-| [Yuriko, the Tiger's Shadow](decks/yuriko-the-tigers-shadow.md) | BU | 4 | 4 |
-| [Teysa Karlov](decks/teysa-karlov.md) | BW | 2 | 3 |
-| [Xenagos, God of Revels](decks/xenagos-god-of-revels.md) | GR | 0 | 2 (or 1) |
-| [Tatyova, Benthic Druid](decks/tatyova-benthic-druid.md) | GU | 2 | 3 |
-| [Trostani, Selesnya's Voice](decks/trostani-selesnyas-voice.md) | GW | 1 | 3 |
-| [Niv-Mizzet, Parun](decks/niv-mizzet-parun.md) | RU | 4 | 4 |
-| [Feather, the Redeemed](decks/feather-the-redeemed.md) | RW | 0 | 2 (or 1) |
-| [Brago, King Eternal](decks/brago-king-eternal.md) | UW | 1 | 3 |
-| [Korvold, Fae-Cursed King](decks/korvold-fae-cursed-king.md) | BGR | 4 | 4 |
-| [Muldrotha, the Gravetide](decks/muldrotha-the-gravetide.md) | BGU | 1 | 3 |
-| [Karador, Ghost Chieftain](decks/karador-ghost-chieftain.md) | BGW | 0 | 2 (or 1) |
-| [Nekusar, the Mindrazer](decks/nekusar-the-mindrazer.md) | BRU | 2 | 3 |
-| [Edgar Markov](decks/edgar-markov.md) | BRW | 3 | 3 |
-| [Zur the Enchanter](decks/zur-the-enchanter.md) | BUW | 8 | 4 |
-| [Animar, Soul of Elements](decks/animar-soul-of-elements.md) | GRU | 5 | 4 |
-| [Gishath, Sun's Avatar](decks/gishath-suns-avatar.md) | GRW | 0 | 2 (or 1) |
-| [Chulane, Teller of Tales](decks/chulane-teller-of-tales.md) | GUW | 6 | 4 |
-| [Kykar, Wind's Fury](decks/kykar-winds-fury.md) | RUW | 6 | 4 |
-| [Breya, Etherium Shaper](decks/breya-etherium-shaper.md) | BRUW | 3 | 3 |
-| [Yidris, Maelstrom Wielder](decks/yidris-maelstrom-wielder.md) | BGRU | 0 | 2 (or 1) |
-| [Saskia the Unyielding](decks/saskia-the-unyielding.md) | BGRW | 1 | 3 |
-| [Kynaios and Tiro of Meletis](decks/kynaios-and-tiro-of-meletis.md) | GRUW | 1 | 3 |
-| [Atraxa, Praetors' Voice](decks/atraxa-praetors-voice.md) | BGUW | 5 | 4 |
-| [The Ur-Dragon](decks/the-ur-dragon.md) | BGRUW | 3 | 3 |
+| Deck | Identity | Game Changers | Bracket floor (GC) | Spellbook combos / two-card infinite | Combo-adjusted floor |
+|---|---|---|---|---|---|
+| [Kozilek, the Great Distortion](decks/kozilek-the-great-distortion.md) | Colorless | 1 | 3 | 1 / 1 | 3 ⚠️ |
+| [K'rrik, Son of Yawgmoth](decks/krrik-son-of-yawgmoth.md) | B | 7 | 4 | 15 / 5 | 4 ⚠️ |
+| [Selvala, Heart of the Wilds](decks/selvala-heart-of-the-wilds.md) | G | 2 | 3 | 27 / 9 | 3 ⚠️ |
+| [Krenko, Mob Boss](decks/krenko-mob-boss.md) | R | 0 | 2 (or 1) | 4 / 0 | 2 (or 1) |
+| [Talrand, Sky Summoner](decks/talrand-sky-summoner.md) | U | 3 | 3 | 2 / 1 | 3 ⚠️ |
+| [Giada, Font of Hope](decks/giada-font-of-hope.md) | W | 3 | 3 | 0 / 0 | 3 |
+| [Lathril, Blade of the Elves](decks/lathril-blade-of-the-elves.md) | BG | 1 | 3 | 0 / 0 | 3 |
+| [Prosper, Tome-Bound](decks/prosper-tome-bound.md) | BR | 1 | 3 | 2 / 0 | 3 |
+| [Yuriko, the Tiger's Shadow](decks/yuriko-the-tigers-shadow.md) | BU | 4 | 4 | 0 / 0 | 4 |
+| [Teysa Karlov](decks/teysa-karlov.md) | BW | 2 | 3 | 23 / 0 | 3 |
+| [Xenagos, God of Revels](decks/xenagos-god-of-revels.md) | GR | 0 | 2 (or 1) | 4 / 3 | **3** ⚠️ |
+| [Tatyova, Benthic Druid](decks/tatyova-benthic-druid.md) | GU | 2 | 3 | 2 / 0 | 3 |
+| [Trostani, Selesnya's Voice](decks/trostani-selesnyas-voice.md) | GW | 1 | 3 | 0 / 0 | 3 |
+| [Niv-Mizzet, Parun](decks/niv-mizzet-parun.md) | RU | 4 | 4 | 8 / 8 | 4 ⚠️ |
+| [Feather, the Redeemed](decks/feather-the-redeemed.md) | RW | 0 | 2 (or 1) | 0 / 0 | 2 (or 1) |
+| [Brago, King Eternal](decks/brago-king-eternal.md) | UW | 1 | 3 | 11 / 4 | 3 ⚠️ |
+| [Korvold, Fae-Cursed King](decks/korvold-fae-cursed-king.md) | BGR | 4 | 4 | 11 / 1 | 4 ⚠️ |
+| [Muldrotha, the Gravetide](decks/muldrotha-the-gravetide.md) | BGU | 1 | 3 | 1 / 0 | 3 |
+| [Karador, Ghost Chieftain](decks/karador-ghost-chieftain.md) | BGW | 0 | 2 (or 1) | 14 / 0 | 2 (or 1) |
+| [Nekusar, the Mindrazer](decks/nekusar-the-mindrazer.md) | BRU | 2 | 3 | 7 / 5 | 3 ⚠️ |
+| [Edgar Markov](decks/edgar-markov.md) | BRW | 3 | 3 | 6 / 6 | 3 ⚠️ |
+| [Zur the Enchanter](decks/zur-the-enchanter.md) | BUW | 8 | 4 | 1 / 0 | 4 |
+| [Animar, Soul of Elements](decks/animar-soul-of-elements.md) | GRU | 5 | 4 | 4 / 3 | 4 ⚠️ |
+| [Gishath, Sun's Avatar](decks/gishath-suns-avatar.md) | GRW | 0 | 2 (or 1) | 3 / 1 | **3** ⚠️ |
+| [Chulane, Teller of Tales](decks/chulane-teller-of-tales.md) | GUW | 6 | 4 | 8 / 3 | 4 ⚠️ |
+| [Kykar, Wind's Fury](decks/kykar-winds-fury.md) | RUW | 6 | 4 | 0 / 0 | 4 |
+| [Breya, Etherium Shaper](decks/breya-etherium-shaper.md) | BRUW | 3 | 3 | 32 / 0 | 3 |
+| [Yidris, Maelstrom Wielder](decks/yidris-maelstrom-wielder.md) | BGRU | 0 | 2 (or 1) | 0 / 0 | 2 (or 1) |
+| [Saskia the Unyielding](decks/saskia-the-unyielding.md) | BGRW | 1 | 3 | 0 / 0 | 3 |
+| [Kynaios and Tiro of Meletis](decks/kynaios-and-tiro-of-meletis.md) | GRUW | 1 | 3 | 0 / 0 | 3 |
+| [Atraxa, Praetors' Voice](decks/atraxa-praetors-voice.md) | BGUW | 5 | 4 | 1 / 0 | 4 |
+| [The Ur-Dragon](decks/the-ur-dragon.md) | BGRUW | 3 | 3 | 2 / 1 | 3 ⚠️ |
 
 ## Synergy notes
+
+> Archetype-level guides (aristocrats, tokens, spellslinger, landfall, counters, graveyard, blink, artifacts, combat, cascade, group hug/slug, lifedrain): [EDH Archetypes](EDH%20Archetypes.md).
 
 > Each note pairs a commander's **Oracle text** (rules fact, quoted from the linked entry) with cards in its validated skeleton, plus official **rulings** where they settle an interaction (Scryfall rulings bulk, source Wizards of the Coast). Anything about *how good* a line is = **Opinion**. Role and identity staples: [EDH Staples](EDH%20Staples.md).
 

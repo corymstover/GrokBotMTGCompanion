@@ -10,6 +10,7 @@
 - [Card breakdown](#card-breakdown)
 - [Rejected candidates](#rejected-candidates)
 - [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
 
 ## Commander
 
@@ -227,3 +228,23 @@ EDHREC suggestions excluded by validation (should normally be empty or only off-
 
 **Deck cards with official rulings:** 52 of 79 non-basic cards — [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Howling Mine](../cards/H/ho.md#howling-mine) (4), [Teferi's Puzzle Box](../cards/T/te.md#teferis-puzzle-box) (2), [Lightning Greaves](../cards/L/li.md#lightning-greaves) (2), [Font of Mythos](../cards/F/fo.md#font-of-mythos) (1), [Fellwar Stone](../cards/F/fe.md#fellwar-stone) (7), [Swiftfoot Boots](../cards/S/sw.md#swiftfoot-boots) (1), [Dark Deal](../cards/D/da.md#dark-deal) (1), [Whispering Madness](../cards/W/wh.md#whispering-madness) (13), [Winds of Change](../cards/W/wi.md#winds-of-change) (1), [Molten Psyche](../cards/M/mol.md#molten-psyche) (2), [Peer into the Abyss](../cards/P/pe.md#peer-into-the-abyss) (2), [Blasphemous Act](../cards/B/bla.md#blasphemous-act) (4), [Echo of Eons](../cards/E/ec.md#echo-of-eons) (7), [Prosperity](../cards/P/pr.md#prosperity) (1), [Underworld Dreams](../cards/U/un.md#underworld-dreams) (3), [Spiteful Visions](../cards/S/spi.md#spiteful-visions) (2), [Forced Fruition](../cards/F/fo.md#forced-fruition) (1), [Propaganda](../cards/P/pr.md#propaganda) (6), [Fevered Visions](../cards/F/fe.md#fevered-visions) (1), [Phyrexian Tyranny](../cards/P/ph.md#phyrexian-tyranny) (1), [Liliana's Caress](../cards/L/li.md#lilianas-caress) (1), [Bloodchief Ascension](../cards/B/blo.md#bloodchief-ascension) (5), [Razorkin Needlehead](../cards/R/raz.md#razorkin-needlehead) (1), [Magus of the Wheel](../cards/M/mag.md#magus-of-the-wheel) (1), [Jace's Archivist](../cards/J/ja.md#jaces-archivist) (1), [Kederekt Parasite](../cards/K/ke.md#kederekt-parasite) (1), [Sheoldred, the Apocalypse](../cards/S/she.md#sheoldred-the-apocalypse) (1), [Psychosis Crawler](../cards/P/ps.md#psychosis-crawler) (1), [Kami of the Crescent Moon](../cards/K/ka.md#kami-of-the-crescent-moon) (1), [Orcish Bowmasters](../cards/O/or.md#orcish-bowmasters) (8), [Nightscape Familiar](../cards/N/ni.md#nightscape-familiar) (10), [Stormfist Crusader](../cards/S/sto.md#stormfist-crusader) (1), [Ghyrson Starn, Kelermorph](../cards/G/gh.md#ghyrson-starn-kelermorph) (1), [The Locust God](../cards/T/thel.md#the-locust-god) (3), [Arcane Denial](../cards/A/arc.md#arcane-denial) (1), [Wheel and Deal](../cards/W/wh.md#wheel-and-deal) (2), [Cyclonic Rift](../cards/C/cy.md#cyclonic-rift) (4), [Chaos Warp](../cards/C/cha.md#chaos-warp) (5), [Negate](../cards/N/ne.md#negate) (1), [Ob Nixilis, the Hate-Twisted](../cards/O/ob.md#ob-nixilis-the-hate-twisted) (2), [Command Tower](../cards/C/com.md#command-tower) (3), [Reliquary Tower](../cards/R/rel.md#reliquary-tower) (1), [Watery Grave](../cards/W/wat.md#watery-grave) (2), [Steam Vents](../cards/S/ste.md#steam-vents) (3), [Blood Crypt](../cards/B/blo.md#blood-crypt) (3), [Exotic Orchard](../cards/E/ex.md#exotic-orchard) (5), [Dragonskull Summit](../cards/D/dra.md#dragonskull-summit) (2), [Drowned Catacomb](../cards/D/dro.md#drowned-catacomb) (2), [Geier Reach Sanitarium](../cards/G/ge.md#geier-reach-sanitarium) (2), [Training Center](../cards/T/tra.md#training-center) (2), [Morphic Pool](../cards/M/mor.md#morphic-pool) (1).
 <!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**7 complete combo(s); 5 two-card infinite.** 93 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| ⚠️ **two-card infinite** · Nekusar, the Mindrazer + Peer into the Abyss | Near-infinite card draw for target opponent, Near-infinite damage to one opponent, Near-infinite draw triggers for target opponent, Target opponent loses the game | — | [1561-1972](https://commanderspellbook.com/combo/1561-1972/) |
+| ⚠️ **two-card infinite** · Psychosis Crawler + Peer into the Abyss | Near-infinite lifeloss, Near-infinite card draw, Near-infinite draw triggers | — | [1561-2384](https://commanderspellbook.com/combo/1561-2384/) |
+| ⚠️ **two-card infinite** · Sheoldred, the Apocalypse + Peer into the Abyss | Near-infinite card draw for target opponent, Near-infinite draw triggers for target opponent, Near-infinite lifeloss for target opponent, Target opponent loses the game | — | [1561-2498](https://commanderspellbook.com/combo/1561-2498/) |
+| Peer into the Abyss + Underworld Dreams | Target opponent loses the game | — | [1561-2720](https://commanderspellbook.com/combo/1561-2720/) |
+| ⚠️ **two-card infinite** · Orcish Bowmasters + Peer into the Abyss | Infinite +1/+1 counters on a creature, Near-infinite card draw for target opponent, Near-infinite damage, Near-infinite draw triggers for target opponent | — | [1561-3862](https://commanderspellbook.com/combo/1561-3862/) |
+| Ob Nixilis, the Hate-Twisted + Peer into the Abyss | Target player loses the game | — | [1561-5165](https://commanderspellbook.com/combo/1561-5165/) |
+| ⚠️ **two-card infinite** · Razorkin Needlehead + Peer into the Abyss | Near-infinite damage to one opponent, Near-infinite draw triggers for target opponent, Near-infinite card draw for target opponent, Near-infinite lifeloss for target opponent | — | [1561-5919](https://commanderspellbook.com/combo/1561-5919/) |
+
+**Bracket implication:** a two-card infinite combo is outside the Bracket 1–2 barometer, so this deck as listed sits at **Bracket 3+** unless the combo is cut; whether it is *early-game* (Bracket 3 vs 4) is **Opinion** and must be discussed at Rule 0.
+<!-- COMBOS:END -->

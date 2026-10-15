@@ -10,6 +10,7 @@
 - [Card breakdown](#card-breakdown)
 - [Rejected candidates](#rejected-candidates)
 - [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
 
 ## Commander
 
@@ -233,3 +234,28 @@ EDHREC suggestions excluded by validation (should normally be empty or only off-
 
 **Deck cards with official rulings:** 47 of 79 non-basic cards — [Eternal Witness](../cards/E/et.md#eternal-witness) (1), [Karmic Guide](../cards/K/ka.md#karmic-guide) (2), [Sun Titan](../cards/S/sun.md#sun-titan) (4), [Viscera Seer](../cards/V/vi.md#viscera-seer) (2), [Reveillark](../cards/R/rev.md#reveillark) (7), [Saffi Eriksdotter](../cards/S/saf.md#saffi-eriksdotter) (2), [Accursed Marauder](../cards/A/ac.md#accursed-marauder) (2), [Wood Elves](../cards/W/wo.md#wood-elves) (1), [Gravebreaker Lamia](../cards/G/gra.md#gravebreaker-lamia) (1), [Syr Konrad, the Grim](../cards/S/sy.md#syr-konrad-the-grim) (2), [Plaguecrafter](../cards/P/pl.md#plaguecrafter) (3), [Twilight Diviner](../cards/T/tw.md#twilight-diviner) (4), [Shriekmaw](../cards/S/shr.md#shriekmaw) (2), [Honest Rutstein](../cards/H/ho.md#honest-rutstein) (2), [Old Stickfingers](../cards/O/ol.md#old-stickfingers) (2), [Golgari Grave-Troll](../cards/G/gol.md#golgari-grave-troll) (8), [Hermit Druid](../cards/H/he.md#hermit-druid) (1), [Fiend Artisan](../cards/F/fi.md#fiend-artisan) (3), [Blood Artist](../cards/B/blo.md#blood-artist) (1), [Zulaport Cutthroat](../cards/Z/zu.md#zulaport-cutthroat) (1), [Stinkweed Imp](../cards/S/sti.md#stinkweed-imp) (7), [Icetill Explorer](../cards/I/ic.md#icetill-explorer) (3), [Ramunap Excavator](../cards/R/ram.md#ramunap-excavator) (2), [Meren of Clan Nel Toth](../cards/M/me.md#meren-of-clan-nel-toth) (6), [Grave Researcher // Reanimate](../cards/G/gra.md#grave-researcher--reanimate) (20), [Sheoldred, Whispering One](../cards/S/she.md#sheoldred-whispering-one) (4), [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Altar of Dementia](../cards/A/al.md#altar-of-dementia) (2), [Buried Alive](../cards/B/bu.md#buried-alive) (1), [Victimize](../cards/V/vi.md#victimize) (4), [Eerie Ultimatum](../cards/E/ee.md#eerie-ultimatum) (4), [Reanimate](../cards/R/rea.md#reanimate) (5), [Living Death](../cards/L/li.md#living-death) (2), [Life from the Loam](../cards/L/li.md#life-from-the-loam) (6), [Dread Return](../cards/D/dre.md#dread-return) (7), [Swords to Plowshares](../cards/S/sw.md#swords-to-plowshares) (1), [Path to Exile](../cards/P/pa.md#path-to-exile) (2), [Assassin's Trophy](../cards/A/as.md#assassins-trophy) (6), [Animate Dead](../cards/A/an.md#animate-dead) (5), [Command Tower](../cards/C/com.md#command-tower) (3), [Overgrown Tomb](../cards/O/ov.md#overgrown-tomb) (4), [Godless Shrine](../cards/G/god.md#godless-shrine) (2), [Temple Garden](../cards/T/te.md#temple-garden) (3), [Exotic Orchard](../cards/E/ex.md#exotic-orchard) (5), [Sunpetal Grove](../cards/S/sun.md#sunpetal-grove) (2), [Llanowar Wastes](../cards/L/ll.md#llanowar-wastes) (2), [Caves of Koilos](../cards/C/cav.md#caves-of-koilos) (2).
 <!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**14 complete combo(s); 0 two-card infinite.** 209 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Saffi Eriksdotter + Sun Titan + Viscera Seer | Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers, Infinite death triggers | — | [2281-2292-3175](https://commanderspellbook.com/combo/2281-2292-3175/) |
+| Saffi Eriksdotter + Viscera Seer + Karmic Guide | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite scry 1 | — | [2281-2292-4681](https://commanderspellbook.com/combo/2281-2292-4681/) |
+| Saffi Eriksdotter + Sun Titan + Carrion Feeder | Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers, Infinite death triggers | — | [2281-2438-3175](https://commanderspellbook.com/combo/2281-2438-3175/) |
+| Saffi Eriksdotter + Carrion Feeder + Karmic Guide | Infinite +1/+1 counters on a creature, Infinite death triggers, Infinite creature ETB, Infinite creature LTB | — | [2281-2438-4681](https://commanderspellbook.com/combo/2281-2438-4681/) |
+| Saffi Eriksdotter + Sun Titan + Altar of Dementia | Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers, Infinite death triggers | — | [2281-3175-5256](https://commanderspellbook.com/combo/2281-3175-5256/) |
+| Saffi Eriksdotter + Altar of Dementia + Karmic Guide | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite mill | — | [2281-4681-5256](https://commanderspellbook.com/combo/2281-4681-5256/) |
+| Saffi Eriksdotter + Umbral Collar Zealot + Karmic Guide | Infinite creature LTB, Infinite creature ETB, Infinite death triggers, Infinite surveil | — | [2281-4681-6798](https://commanderspellbook.com/combo/2281-4681-6798/) |
+| Saffi Eriksdotter + Reveillark + Viscera Seer | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers | — | [67-2281-2292](https://commanderspellbook.com/combo/67-2281-2292/) |
+| Saffi Eriksdotter + Reveillark + Carrion Feeder | Infinite +1/+1 counters on a creature, Infinite death triggers, Infinite creature ETB, Infinite creature LTB | — | [67-2281-2438](https://commanderspellbook.com/combo/67-2281-2438/) |
+| Saffi Eriksdotter + Reveillark + Altar of Dementia | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite mill | — | [67-2281-5256](https://commanderspellbook.com/combo/67-2281-5256/) |
+| Karmic Guide + Reveillark + Viscera Seer | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers | — | [67-2292-4681](https://commanderspellbook.com/combo/67-2292-4681/) |
+| Karmic Guide + Reveillark + Carrion Feeder | Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers, Infinite death triggers | — | [67-2438-4681](https://commanderspellbook.com/combo/67-2438-4681/) |
+| Karmic Guide + Reveillark + Altar of Dementia | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite mill | — | [67-4681-5256](https://commanderspellbook.com/combo/67-4681-5256/) |
+| Sun Titan + Karmic Guide + Animate Dead + Altar of Dementia | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite mill | — | [3175-4681-4812-5256](https://commanderspellbook.com/combo/3175-4681-4812-5256/) |
+<!-- COMBOS:END -->

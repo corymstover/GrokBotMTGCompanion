@@ -10,6 +10,7 @@
 - [Card breakdown](#card-breakdown)
 - [Rejected candidates](#rejected-candidates)
 - [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
 
 ## Commander
 
@@ -197,3 +198,18 @@ EDHREC suggestions excluded by validation (should normally be empty or only off-
 
 **Deck cards with official rulings:** 47 of 66 non-basic cards — [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Sapphire Medallion](../cards/S/sap.md#sapphire-medallion) (5), [Bident of Thassa](../cards/B/bi.md#bident-of-thassa) (2), [Heraldic Banner](../cards/H/he.md#heraldic-banner) (2), [Negate](../cards/N/ne.md#negate) (1), [Brainstorm](../cards/B/br.md#brainstorm) (1), [Frantic Search](../cards/F/fr.md#frantic-search) (2), [Aetherize](../cards/A/ae.md#aetherize) (1), [High Tide](../cards/H/hi.md#high-tide) (2), [Pongify](../cards/P/po.md#pongify) (1), [Consider](../cards/C/con.md#consider) (1), [Rapid Hybridization](../cards/R/rap.md#rapid-hybridization) (2), [Reality Shift](../cards/R/rea.md#reality-shift) (13), [Arcane Denial](../cards/A/arc.md#arcane-denial) (1), [Snap](../cards/S/sn.md#snap) (1), [Impulse](../cards/I/im.md#impulse) (2), [An Offer You Can't Refuse](../cards/A/an.md#an-offer-you-cant-refuse) (2), [Rewind](../cards/R/rew.md#rewind) (3), [Wizard's Retort](../cards/W/wi.md#wizards-retort) (1), [Think Twice](../cards/T/thi.md#think-twice) (6), [Cyclonic Rift](../cards/C/cy.md#cyclonic-rift) (4), [Disdainful Stroke](../cards/D/di.md#disdainful-stroke) (2), [Swan Song](../cards/S/sw.md#swan-song) (1), [Dig Through Time](../cards/D/di.md#dig-through-time) (3), [Fact or Fiction](../cards/F/fa.md#fact-or-fiction) (1), [Mystical Tutor](../cards/M/my.md#mystical-tutor) (1), [Ponder](../cards/P/po.md#ponder) (1), [Winged Words](../cards/W/wi.md#winged-words) (2), [Treasure Cruise](../cards/T/tre.md#treasure-cruise) (3), [Gitaxian Probe](../cards/G/gi.md#gitaxian-probe) (6), [Flood of Recollection](../cards/F/fl.md#flood-of-recollection) (1), [Sleight of Hand](../cards/S/sl.md#sleight-of-hand) (1), [Archmage Emeritus](../cards/A/arc.md#archmage-emeritus) (4), [Murmuring Mystic](../cards/M/mu.md#murmuring-mystic) (1), [Baral, Chief of Compliance](../cards/B/bar.md#baral-chief-of-compliance) (3), [Haughty Djinn](../cards/H/ha.md#haughty-djinn) (2), [Archmage of Runes](../cards/A/arc.md#archmage-of-runes) (3), [Wavebreak Hippocamp](../cards/W/wav.md#wavebreak-hippocamp) (4), [Alandra, Sky Dreamer](../cards/A/al.md#alandra-sky-dreamer) (3), [Mocking Sprite](../cards/M/moc.md#mocking-sprite) (2), [Archaeomancer](../cards/A/arc.md#archaeomancer) (1), [Reconnaissance Mission](../cards/R/rec.md#reconnaissance-mission) (1), [Propaganda](../cards/P/pr.md#propaganda) (6), [Rhystic Study](../cards/R/rh.md#rhystic-study) (2), [Reliquary Tower](../cards/R/rel.md#reliquary-tower) (1), [Mystic Sanctuary](../cards/M/my.md#mystic-sanctuary) (2), [Myriad Landscape](../cards/M/my.md#myriad-landscape) (1).
 <!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**2 complete combo(s); 1 two-card infinite.** 7 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| ⚠️ **two-card infinite** · Hullbreaker Horror + Sol Ring | Infinite colorless mana, Infinite storm count | Permanent Castable for {C} | [513-5034--46](https://commanderspellbook.com/combo/513-5034--46/) |
+| High Tide + Archaeomancer + Snap | Infinite creature ETB, Infinite creature LTB, Infinite storm count | — | [802-1846-2493](https://commanderspellbook.com/combo/802-1846-2493/) |
+
+**Bracket implication:** a two-card infinite combo is outside the Bracket 1–2 barometer, so this deck as listed sits at **Bracket 3+** unless the combo is cut; whether it is *early-game* (Bracket 3 vs 4) is **Opinion** and must be discussed at Rule 0.
+<!-- COMBOS:END -->

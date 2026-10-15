@@ -6,7 +6,7 @@
 ## Contents
 - [Planes with official profiles](#planes-with-official-profiles)
 - [Other planes in recent stories (Omenpath era)](#other-planes-in-recent-stories-omenpath-era)
-- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn) · [Regatha](#regatha) · [Rath](#rath) · [Mercadia](#mercadia) ⚠️ · [Ulgrotha](#ulgrotha) ⚠️
+- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn) · [Regatha](#regatha) · [Rath](#rath) · [Mercadia](#mercadia) ⚠️ · [Ulgrotha](#ulgrotha) ⚠️ · [Theros Underworld](#theros-the-underworld-theros-beyond-death) · [Muraganda](#muraganda) · [Kylem](#kylem) · [Gobakhan](#gobakhan) · [Shenmeng](#shenmeng) · [Segovia](#segovia)
 - [Special realms & cosmology](#special-realms--cosmology)
 - [Gaps / next to add](#gaps--next-to-add)
 
@@ -139,6 +139,27 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 ### Ulgrotha
 - ⚠️ **No official source found.** Same check as Mercadia: no sitemap or corpus hit, and `/en/story/ulgrotha-plane` returned 404 (2026-10-15).
 
+### Theros: the Underworld (Theros Beyond Death)
+- ✅ The gods arose from mortal devotion: "From this prayer, this concentrated devotion, sprang forth the gods themselves." The gods "sealed the titans away in the Underworld", and Klothys, god of fate, "acted as eternal seal" while Erebos rules "this realm beyond death" ([THB Story Summary](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10)).
+- ✅ **Ilysia** is "the Underworld haven of fallen heroes". Heliod ended up imprisoned "beneath a giant boulder" by Erebos (same source). The gods' home is **Nyx**, where Xenagos ascended and was destroyed ([THB Story on Cards](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16)). Arc: [Theros Beyond Death](Conflicts%20%26%20Arcs.md#theros-beyond-death-2020).
+
+### Muraganda
+- ✅ Jungle plane where Garruk lives in the Reality Fracture story. "Chandra is greeted on Muraganda by the fug of jungle musk and flies". She finds a rounded wooden lodge "guarded on each side by a thicket of spined creepers and the bones of what can only be dinosaurs". Vraska sends Chandra and Ajani there because "we'll need Garruk's help" ([Reality Fracture Ep. 3](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-3-i-can-be-both), 2026-09-02). Characters: [Garruk Wildspeaker](Characters%20Index.md#garruk-wildspeaker), [Chandra Nalaar](Characters%20Index.md#chandra-nalaar).
+
+### Kylem
+- ✅ Where the Kenrith twins stayed before Strixhaven: "In his chambers on Kylem, Will Kenrith stared helplessly at the towering stack of books". Garruk had stayed with them until he was "satisfied enough in their security to leave them on their own" ([STX Ep. 1: Class Session](https://magic.wizards.com/en/news/magic-story/episode-1-class-session-2021-03-25)). Characters: [Will Kenrith](Characters%20Index.md#will-kenrith), [Rowan Kenrith](Characters%20Index.md#rowan-kenrith).
+
+### Gobakhan
+- ✅ Teyo Verada's home, plagued by "vicious diamond storms". "Shieldmages found him alone in his village, the only survivor" ([The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture), 2026-10-12).
+- ⚠️ The same article also describes an Echoverse Teyo, "the perfect, sharp-edged diamondblade assassin". Only the backstory paragraph is treated as Multiverse canon here.
+
+### Shenmeng
+- ✅ Home of Jiang Yanggu and Mowu: after the War of the Spark they "returned home to Shenmeng". The article continues: "A few years later, Shenmeng was attacked by the Phyrexian invaders" ([The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)). Mu Yanling's profile describes her wind-and-water magic; see [Mu Yanling](Characters%20Index.md#mu-yanling).
+- ⚠️ The same entry goes on to describe Mowu's death and a vengeful Yanggu. That article mixes Multiverse and Echoverse versions, so this part is unconfirmed.
+
+### Segovia
+- 🗣️ Only a passing mention. The compleated Vraska, narrating, recalls a souvenir: "an entire Segovian chariot I could barely carry into the Blind Eternities but now sits under a bell jar" ([MOM: One and the Same](https://magic.wizards.com/en/news/magic-story/one-and-the-same)). No other fetched source describes the plane.
+
 ## Special realms & cosmology
 - **Blind Eternities** — the chaotic void between planes, home of the Eldrazi titans ([Zendikar profile](https://magic.wizards.com/en/story/zendikar-plane)).
 - **Omenpaths** — portals between planes that appeared after the Phyrexian Invasion, letting non-Planeswalkers travel (used throughout OTJ, Lorwyn Eclipsed and SOS stories; ✅ e.g. [OTJ Episode 1](https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge)). ⚠️ The exact in-story origin of the Omenpaths is not yet cited here — open question for next cycle.
@@ -147,4 +168,4 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 
 ## Gaps / next to add
 - **Done in Bot cycle 2:** Eldraine, Kaldheim, Ikoria, New Capenna, Phyrexia (original) + New Phyrexia's spheres, Ravnica post-invasion, Skalla, Vryn (stub).
-- **Still to add:** Ergamon, Segovia, Muraganda, Mercadia & Ulgrotha (⚠️ stubs — no official source found yet), Kylem, Gobakhan, Vryn (mage-rings / Magic Origins), Dominaria United-era Dominaria, Theros Beyond Death, Zendikar Rising, Kamigawa: Neon Dynasty detail, Strixhaven colleges, Nauctis (announced set "Nauctis: The Sunken Realm", Scryfall release 2027-02 — ❓ no story yet). Tracked in GitHub issue #12.
+- **Still to add:** Ergamon (no fetched source), Mercadia & Ulgrotha (⚠️ stubs — no official source found yet), Vryn (mage-rings / Magic Origins), Dominaria United-era Dominaria, Zendikar Rising, Kamigawa: Neon Dynasty detail, Strixhaven colleges, Nauctis (announced set "Nauctis: The Sunken Realm", Scryfall release 2027-02 — ❓ no story yet). Tracked in GitHub issue #12.

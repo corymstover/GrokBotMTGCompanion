@@ -1,6 +1,6 @@
 # Rules Interactions
 
-> **Source of truth:** Magic: The Gathering **Comprehensive Rules, effective 2026-09-25** ([official text](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt), Wizards of the Coast). Rule text below is **quoted verbatim** (long rules trimmed with "…"); card rulings are **official WotC rulings** from the Scryfall rulings bulk (2026-10-15), quoted verbatim and linked to the card entries that carry them. Plain-language summaries are labeled **Summary** and are paraphrase, not rules text. Started Bot cycle 3 (issue [#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9)).
+> **Source of truth:** Magic: The Gathering **Comprehensive Rules, effective 2026-09-25** ([official text](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt), Wizards of the Coast). Rule text below is **quoted verbatim** (long rules trimmed with "…"); card rulings are **official WotC rulings** from the Scryfall rulings bulk (2026-10-15), quoted verbatim and linked to the card entries that carry them. Plain-language summaries are labeled **Summary** and are paraphrase, not rules text. Started Bot cycle 3, extended Bot cycle 4 (issue [#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9)).
 
 ## Contents
 - [Layers & timestamps](#layers--timestamps) — CR 613
@@ -10,6 +10,16 @@
 - [Copy effects](#copy-effects) — CR 707
 - [Commander: color identity](#commander-color-identity) — CR 903.4
 - [Commander: returning to the command zone](#commander-returning-to-the-command-zone) — CR 903.9
+- [Worked layer examples (official CR examples)](#worked-layer-examples-official-cr-examples) — CR 613
+- [Stack & priority](#stack--priority) — CR 117 / 405 / 608
+- [Casting vs. copying a spell](#casting-vs-copying-a-spell) — CR 601 / 707.10 / 707.12
+- [Combat damage assignment](#combat-damage-assignment) — CR 510
+- [Deathtouch + trample](#deathtouch--trample) — CR 702.2 / 702.19
+- [Protection](#protection) — CR 702.16
+- [Hexproof, shroud & ward](#hexproof-shroud--ward) — CR 702.11 / 702.18 / 702.21
+- [ETB / LTB & look-back triggers](#etb--ltb--look-back-triggers) — CR 603.6 / 603.10
+- [Mutate & merged permanents](#mutate--merged-permanents) — CR 702.140 / 730
+- [Commander tax](#commander-tax) — CR 903.8
 - [Open questions / next topics](#open-questions--next-topics)
 
 ## Layers & timestamps
@@ -178,6 +188,294 @@
 - [Tevesh Szat, Doom of Fools](cards/T/te.md#tevesh-szat-doom-of-fools) — *2020-11-10* — "If you leave the game, each commander you gained control of is returned to its previous controller's control. Each commander that entered the battlefield under your control is exiled (from there, its owner may return it to the command zone)."
 - [Sauron, Lord of the Rings](cards/S/sau.md#sauron-lord-of-the-rings) — *2023-06-16* — "Sauron, Lord of the Rings's last ability will trigger even if the owner of the commander that died chooses to return it to the command zone after it dies."
 
+## Worked layer examples (official CR examples)
+
+**Summary:** Every example below is an **official Example paragraph from the CR**, printed under the rule it illustrates; they are the safest worked layer cases because Wizards wrote them.
+
+
+**Official CR examples** (12):
+
+- *CR 613.4d example* — A 1/3 creature is given +0/+1 by an effect. Then another effect switches the creature’s power and toughness. Its new power and toughness is 4/1. A new effect gives the creature +5/+0. Its “unswitched” power and toughness would be 6/4, so its actual power and toughness is 4/6.
+- *CR 613.4d example* — A 1/3 creature is given +0/+1 by an effect. Then another effect switches the creature’s power and toughness. Its new power and toughness is 4/1. If the +0/+1 effect ends before the switch effect ends, the creature becomes 3/1.
+- *CR 613.4d example* — A 1/3 creature is given +0/+1 by an effect. Then another effect switches the creature’s power and toughness. Then another effect switches its power and toughness again. The two switches essentially cancel each other, and the creature becomes 1/4.
+- *CR 613.5 example* — Honor of the Pure is an enchantment that reads “White creatures you control get +1/+1.” Honor of the Pure and a 2/2 black creature are on the battlefield under your control. If an effect then turns the creature white (layer 5), it gets +1/+1 from Honor of the Pure (layer 7c), becoming 3/3. If the creature’s color is later changed to red (layer 5), Honor of the Pure’s effect stops applying to it, and it will return to being 2/2.
+- *CR 613.5 example* — Gray Ogre, a 2/2 creature, is on the battlefield. An effect puts a +1/+1 counter on it (layer 7c), making it 3/3. A spell targeting it that says “Target creature gets +4/+4 until end of turn” resolves (layer 7c), making it 7/7. An enchantment that says “Creatures you control get +0/+2” enters the battlefield (layer 7c), making it 7/9. An effect that says “Target creature becomes 0/1 until end of turn” is applied to it (layer 7b), making it 5/8 (0/1, with +4/+4 from the resolved spell, +0/+2 from the enchantment, and +1/+1 from the counter).
+- *CR 613.6 example* — An effect that reads “This creature gets +1/+1 and becomes the color of your choice until end of turn” is both a power- and toughness-changing effect and a color-changing effect. The “becomes the color of your choice” part is applied in layer 5, and then the “gets +1/+1” part is applied in layer 7c.
+- *CR 613.6 example* — Act of Treason has an effect that reads “Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.” This is both a control-changing effect and an effect that adds an ability to an object. The “gain control” part is applied in layer 2, and then the “it gains haste” part is applied in layer 6.
+- *CR 613.6 example* — An effect that reads “All noncreature artifacts become 2/2 artifact creatures until end of turn” is both a type-changing effect and a power- and toughness-setting effect. The type-changing effect is applied to all noncreature artifacts in layer 4 and the power- and toughness-setting effect is applied to those same permanents in layer 7b, even though those permanents aren’t noncreature artifacts by then.
+- *CR 613.6 example* — Svogthos, the Restless Tomb, is on the battlefield. An effect that says “Until end of turn, target land becomes a 3/3 creature that’s still a land” is applied to it (layers 4 and 7b). An effect that says “Target creature gets +1/+1 until end of turn” is applied to it (layer 7c), making it a 4/4 land creature. Then while you have ten creature cards in your graveyard, you activate Svogthos’s ability: “Until end of turn, this land becomes a black and green Plant Zombie creature with ‘This creature’s power and toughness are each equal to the number of creature cards in your graveyard.’ It’s still a land.” (layers 4, 5, and 7b). It becomes an 11/11 land creature. If a creature card enters or leaves your graveyard, Svogthos’s power and toughness will be modified accordingly. If the first effect is applied to it again, it will become a 4/4 land creature again.
+- *CR 613.7a example* — Rune of Flight is an Aura that grants enchanted Equipment “Equipped creature has flying.” A player attaches Rune of Flight to Colossus Hammer, an Equipment with “Equipped creature gets +10/+10 and loses flying.” The ability granted by Rune of Flight shares Rune of Flight’s timestamp because it is later than Colossus Hammer’s timestamp. If Colossus Hammer becomes attached to a creature, both of its abilities receive new timestamps (see rule 613.7e), but the relative order of those timestamps remains the same.
+- *CR 613.9 example* — Two effects are affecting the same creature: one from an Aura that says “Enchanted creature has flying” and one from an Aura that says “Enchanted creature loses flying.” Neither of these depends on the other, since nothing changes what they affect or what they’re doing to it. Applying them in timestamp order means the one that was generated last “wins.” The same process would be followed, and the same result reached, if either of the effects had a duration (such as “Target creature loses flying until end of turn”) or came from a non-Aura source (such as “All creatures lose flying”).
+- *CR 613.9 example* — One effect reads, “White creatures get +1/+1,” and another reads, “Enchanted creature is white.” The enchanted creature gets +1/+1 from the first effect, regardless of its previous color.
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Humility](cards/H/hu.md#humility) — *2009-10-01* — "This is the current interaction between Humility and Opalescence: The type-changing effect applies at layer 4, but the rest happens in the applicable layers. The rest of it will apply even if the permanent loses its ability before it's finished applying. So if Opalescence, Humility, and Worship are on the battlefield and Opalescence entered before Humility, the following is true: Layer 4: Humility and Worship each become creatures that are still enchantments. (Opalescence). Layer 6: Humility and Worship each lose their abilities. (Humility) Layer 7b: Humility becomes 4/4 and Worship becomes 4/4. (Opalescence). Humility becomes 1/1 and Worship becomes 1/1 (Humility). But if Humility entered before Opalescence, the following is true: Layer 4: Humility and Worship each become creatures that are still enchantments (Opalescence). Layer 6: Humility and Worship each lose their abilities (Humility). Layer 7b: Humility becomes 1/1 and Worship becomes 1/1 (Humility). Humility becomes 4/4 and Worship becomes 4/4 (Opalescence)."
+- [Mistform Ultimus](cards/M/mis.md#mistform-ultimus) — *2006-09-25* — "Mistform Ultimus has all creature types even if an effect removes its ability. Type-changing static abilities will apply in layer 4 before effects such as Sudden Spoiling’s remove them in layer 6."
+- [Two by Four](cards/T/tw.md#two-by-four) — *2024-11-08* — "The effect of a base power 4 counter or base toughness 4 counter overrides any existing effects that set that creature’s base power or toughness, as appropriate. Any existing effects or counters that raise, lower, or switch a creature’s power and/or toughness continue to apply to the creature’s new base power or toughness. Any base power- or toughness-setting effects that start to apply after the counter is placed on the creature will overwrite the counter’s effect. (For the rules-savvy, yes, this applies in layer 7b.)"
+
+## Stack & priority
+
+**Summary:** The active player gets priority first; a player who casts a spell or activates an ability gets priority again afterward (117.3c). The top object of the stack resolves only when all players pass in succession (117.4, 405.5). Some things don't use the stack (405.6). On resolution a spell or ability rechecks its targets; if all are illegal it doesn't resolve (608.2b).
+
+> **CR 117.1a** — A player may cast an instant spell any time they have priority. A player may cast a noninstant spell during their main phase any time they have priority and the stack is empty.
+>
+> **CR 117.3a** — The active player receives priority at the beginning of most steps and phases, after any turn-based actions (such as drawing a card during the draw step; see rule 703) have been dealt with and abilities that trigger at the beginning of that phase or step have been put on the stack. No player receives priority during the untap step. Players usually don’t get priority during the cleanup step (see rule 514.3).
+>
+> **CR 117.3b** — The active player receives priority after a spell or ability (other than a mana ability) resolves.
+>
+> **CR 117.3c** — If a player has priority when they cast a spell, activate an ability, or take a special action, that player receives priority afterward.
+>
+> **CR 117.3d** — If a player has priority and chooses not to take any actions, that player passes. If any mana is in that player’s mana pool, they announce what mana is there. Then the next player in turn order receives priority.
+>
+> **CR 117.4** — If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+>
+> **CR 405.1** — When a spell is cast, the physical card is put on the stack (see rule 601.2a). When an ability is activated or triggers, it goes on top of the stack without any card associated with it (see rules 602.2a and 603.3).
+>
+> **CR 405.2** — The stack keeps track of the order that spells and/or abilities were added to it. Each time an object is put on the stack, it’s put on top of all objects already there.
+>
+> **CR 405.5** — When all players pass in succession, the top (last-added) spell or ability on the stack resolves. If the stack is empty when all players pass, the current step or phase ends and the next begins.
+>
+> **CR 405.6** — Some things that happen during the game don’t use the stack.
+>
+> **CR 608.2b** — If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known …
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Sensei's Divining Top](cards/S/sen.md#senseis-divining-top) — *2016-06-08* — "Sensei's Divining Top's second ability may be activated in response to its first ability. If so, you'll draw a card, put Sensei's Divining Top on top of your library, and then look at the top three cards and rearrange them."
+- [Sylvan Library](cards/S/sy.md#sylvan-library) — *2022-12-08* — "Any cards drawn prior to Sylvan Library’s ability resolving, including in your upkeep or in response to Sylvan Library’s triggered ability, can be chosen to be put back using this effect. Sylvan Library’s controller is responsible for keeping these cards distinguishable in hand, such as by keeping them separate from cards that began the turn in hand."
+- [Ranger-Captain of Eos](cards/R/ran.md#ranger-captain-of-eos) — *2019-06-14* — "Your opponents may cast spells in response to the last ability of Ranger-Captain of Eos. The ability won’t affect those spells and it won’t affect spells that those players cast before you activated it. (In other words, the ability can’t be used to counter a spell.)"
+- [Gyre Sage](cards/G/gy.md#gyre-sage) — *2013-04-15* — "When comparing the stats as the evolve ability resolves, it's possible that the stat that's greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you'll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature enters the battlefield under your control, it toughness is greater so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You'll put a +1/+1 counter on the creature with evolve."
+- [Mechanized Production](cards/M/me.md#mechanized-production) — *2017-02-09* — "If the enchanted artifact leaves the battlefield in response to Mechanized Production's triggered ability but Mechanized Production does not, Mechanized Production is put into its owner's graveyard as a state-based action with no enchanted artifact. The triggered ability creates no token, but you can still win the game if you control enough artifacts with the same name."
+- [Twilight Prophet](cards/T/tw.md#twilight-prophet) — *2018-01-19* — "Some cards have triggered abilities with an intervening "if" clause that checks whether you have the city's blessing. These are worded "[Trigger condition], if you have the city's blessing, [effect]." You must already have the city's blessing in order for these abilities to trigger; otherwise they do nothing. In other words, there's no way to have the ability trigger if you don't have the city's blessing, even if you intend to get it in response to the triggered ability."
+
+## Casting vs. copying a spell
+
+**Summary:** A copy of a spell put onto the stack **isn't cast** (707.10), so "whenever you cast" triggers don't see it; it copies modes, targets, X and costs paid. An effect that says **cast a copy** follows casting steps 601.2a–h and the copy **is** cast (707.12).
+
+> **CR 601.2** — To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a–d) and determination and payment of costs (rules 601.2f–h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this …
+>
+> **CR 601.2a** — To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. Any continuous effects that modify the characteristics of the spell as you start casting it begin as it is put on the stack …
+>
+> **CR 601.2f** — The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), …
+>
+> **CR 601.2h** — The player pays the total cost. First, they pay all costs that don’t involve random elements or moving objects from the library to a public zone, in any order. Then they pay all remaining costs in any order. Partial payments are not allowed. Unpayable costs can’t be paid.
+>
+> **CR 601.2i** — Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, they get priority.
+>
+> **CR 707.10** — To copy a spell, activated ability, or triggered ability means to put a copy of it onto the stack; a copy of a spell isn’t cast and a copy of an activated ability isn’t activated. A copy of a spell or ability copies both the characteristics of the spell or ability and all decisions made for it, including modes, targets, the value of X, and additional or alternative costs. (See rule 601, “Casting Spells.”) Choices …
+>
+> **CR 707.10a** — If a copy of a spell is in a zone other than the stack, it ceases to exist. If a copy of a card is in any zone other than the stack or the battlefield, it ceases to exist. These are state-based actions. See rule 704.
+>
+> **CR 707.10c** — Some effects copy a spell or ability and state that its controller may choose new targets for the copy. The player may leave any number of the targets unchanged, even if those targets would be illegal. If the player chooses to change some or all of the targets, the new targets must be legal. Once the player has decided what the copy’s targets will be, the copy is put onto the stack with those targets.
+>
+> **CR 707.12** — An effect that instructs a player to cast a copy of an object (and not just copy a spell) follows the rules for casting spells, except that the copy is created in the same zone the object is in and then cast while another spell or ability is resolving. Casting a copy of an object follows steps 601.2a–h of rule 601, “Casting Spells,” and then the copy becomes cast. Once cast, the copy is a spell on the stack, and …
+
+**Official CR examples** (3):
+
+- *CR 707.10 example* — A player casts Fork, targeting an Emerald Charm. Fork reads, “Copy target instant or sorcery spell, except that the copy is red. You may choose new targets for the copy.” Emerald Charm is a modal green instant. When the Fork resolves, it puts a copy of the Emerald Charm on the stack except the copy is red, not green. The copy has the same mode that was chosen for the original Emerald Charm. It does not necessarily have the same target, but only because Fork allows choosing of new targets.
+- *CR 707.10 example* — Fling is an instant that reads, “As an additional cost to cast this spell, sacrifice a creature” and “Fling deals damage equal to the sacrificed creature’s power to any target.” When determining how much damage a copy of Fling deals, it checks the power of the creature sacrificed to pay for the original Fling.
+- *CR 707.10 example* — Dawnglow Infusion is a sorcery that reads, “You gain X life if {G} was spent to cast this spell and X life if {W} was spent to cast it.” Because mana isn’t an object, a copy of Dawnglow Infusion won’t cause you to gain any life, no matter what mana was spent to cast the original spell.
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Sink into Stupor // Soporific Springs](cards/S/si.md#sink-into-stupor--soporific-springs) — *2024-06-07* — "If a copy of a spell is returned to its owner's hand, it's moved there, then it will cease to exist as a state-based action. It can't be recast."
+- [Everflowing Chalice](cards/E/ev.md#everflowing-chalice) — *2024-11-08* — "If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked."
+- [Flusterstorm](cards/F/fl.md#flusterstorm) — *2022-12-08* — "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies."
+- [Sevinne's Reclamation](cards/S/sev.md#sevinnes-reclamation) — *2019-08-23* — "The copy that Sevinne's Reclamation creates is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy wasn't cast from a graveyard, so it won't make another copy of itself."
+- [The Meathook Massacre](cards/T/them.md#the-meathook-massacre) — *2021-09-24* — "If The Meathook Massacre enters the battlefield and it wasn't cast (or it was cast without paying its mana cost), X will be 0. The first ability will trigger, but it won't be much of a massacre."
+- [Unbreakable Formation](cards/U/un.md#unbreakable-formation) — *2024-01-12* — "If an effect copies a spell with an addendum ability while it's on the stack, the copy wasn't cast at all, so you won't get the addendum bonus."
+
+## Combat damage assignment
+
+**Summary:** Each creature assigns combat damage equal to its power; a blocked creature divides damage among its blockers as its controller chooses (510.1c), and all combat damage is dealt simultaneously (510.2). First or double strike creates an extra combat damage step (510.4).
+
+> **CR 510.1** — First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage. This turn-based action doesn’t use the stack. A player assigns a creature’s combat damage according to the following rules:
+>
+> **CR 510.1a** — Each attacking creature and each blocking creature assigns combat damage equal to its power. Creatures that would assign 0 or less damage this way don’t assign combat damage at all.
+>
+> **CR 510.1b** — An unblocked creature assigns its combat damage to the player, planeswalker, or battle it’s attacking. If it isn’t currently attacking anything (if, for example, it was attacking a planeswalker that has left the battlefield), it assigns no combat damage.
+>
+> **CR 510.1c** — A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage. If exactly one creature is blocking it, it assigns all its combat damage to that creature. If two or more creatures are blocking it, it assigns its combat damage to those creatures divided as its controller …
+>
+> **CR 510.1d** — A blocking creature assigns combat damage to the creatures it’s blocking. If it isn’t currently blocking any creatures (if, for example, they were destroyed or removed from combat), it assigns no combat damage. If it’s blocking exactly one creature, it assigns all its combat damage to that creature. If it’s blocking two or more creatures, it assigns its combat damage divided as its controller chooses among them.
+>
+> **CR 510.1e** — Once a player has assigned combat damage from each attacking or blocking creature they control, the total damage assignment (not solely the damage assignment of any individual attacking or blocking creature) is checked to see if it complies with the above rules. If it doesn’t, the combat damage assignment is illegal; the game returns to the moment before that player began to assign combat damage. (See rule 733, …
+>
+> **CR 510.2** — Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+>
+> **CR 510.4** — If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that …
+>
+> **CR 702.7b** — If at least one attacking or blocking creature has first strike or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the …
+
+**Official CR examples** (1):
+
+- *CR 510.1c example* — An attacking Elvish Regrower (a 4/3 creature) is blocked by Vampire Spawn (a 2/3 creature) and Helpful Hunter (a 1/1 creature). Elvish Regrower’s controller can assign all 4 damage to the Hunter, 1 damage to the Spawn and 3 damage to the Hunter, 2 damage to each creature, 3 damage to the Spawn and 1 damage to the Hunter, or all 4 damage to the Spawn.
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Viscera Seer](cards/V/vi.md#viscera-seer) — *2010-08-15* — "If you sacrifice an attacking or blocking creature during the declare blockers step, it won't deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it'll be destroyed before you get a chance to sacrifice it."
+- [Sword of Feast and Famine](cards/S/sw.md#sword-of-feast-and-famine) — *2020-08-07* — "You can tap your lands for mana while the triggered ability is on the stack. However, you'll lose any mana you produce this way if you don't spend it before the end of the current combat damage step."
+- [Maze of Ith](cards/M/maz.md#maze-of-ith) — *2022-12-08* — "You can activate Maze of Ith's ability targeting an attacking creature you control during the combat damage step or the end of combat step, even though it will already have dealt combat damage. This will untap the creature. The damage it dealt will be unaffected."
+- [Thopter Spy Network](cards/T/tho.md#thopter-spy-network) — *2015-06-22* — "The last ability will trigger, at most, once per combat damage step per player. However, if at least one artifact creature you control has first strike and others don't, or if an artifact creature you control has double strike, the ability could trigger twice per combat: once in each combat damage step."
+- [Invasion of Ikoria // Zilortha, Apex of Ikoria](cards/I/inv.md#invasion-of-ikoria--zilortha-apex-of-ikoria) — *2023-04-14* — "You decide whether to assign a non-Human creature’s combat damage as though it weren’t blocked just before it assigns that damage. You may make a different choice for each non-Human creature you control—that is, you may have none, some, or all of those creatures assign combat damage as though they weren’t blocked."
+- [Drana, Liberator of Malakir](cards/D/dra.md#drana-liberator-of-malakir) — *2015-08-25* — "The +1/+1 counter won't change how much damage Drana or any other attacking creature with first strike or double strike deals during that combat damage step. However, the +1/+1 counters that are put on attacking creatures without first strike will affect the damage those creatures deal during the regular combat damage step."
+
+## Deathtouch + trample
+
+**Summary:** With deathtouch, any nonzero combat damage assigned to a creature counts as lethal for assigning excess (702.2c), so a deathtouch + trample attacker needs to assign only 1 damage to each blocker and can assign the rest to the player, planeswalker or battle (702.19b).
+
+> **CR 702.2b** — A creature with toughness greater than 0 that’s been dealt damage by a source with deathtouch since the last time state-based actions were checked is destroyed as a state-based action. See rule 704.
+>
+> **CR 702.2c** — Any nonzero amount of combat damage assigned to a creature by a source with deathtouch is considered to be lethal damage for the purposes of determining if excess damage is being dealt.
+>
+> **CR 702.19b** — The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. Once all those blocking creatures are assigned lethal damage, any excess damage is assigned as its controller chooses among those blocking creatures and the player, planeswalker, or battle the creature is attacking. When checking for assigned lethal damage, take into account damage already marked on the creature …
+>
+> **CR 702.19c** — Trample over planeswalkers is a variant of trample that modifies the rules for assigning combat damage to planeswalkers. The controller of a creature with trample over planeswalkers assigns that creature’s combat damage as described in rule 702.19b, with one exception. If that creature is attacking a planeswalker, after lethal damage is assigned to all blocking creatures and damage at least equal to the loyalty of …
+
+**Official CR examples** (3):
+
+- *CR 702.19b example* — A 2/2 creature that can block an additional creature blocks two attackers: a 1/1 with no abilities and a 3/3 with trample. The active player could assign 1 damage from the first attacker and 1 damage from the second to the blocking creature, and 2 damage to the defending player from the creature with trample.
+- *CR 702.19b example* — A 6/6 green creature with trample is blocked by a 2/2 creature with protection from green. The attacking creature’s controller must assign at least 2 damage to the blocker, even though that damage will be prevented by the blocker’s protection ability. The attacking creature’s controller can divide the rest of the damage as they choose between the blocking creature and the defending player.
+- *CR 702.19c example* — A player controls a planeswalker with three loyalty counters that is being attacked by a 1/1 with no abilities and a 7/7 with trample over planeswalkers. The active player could assign 1 damage from the first attacker and 2 damage from the second to the planeswalker and 5 damage to the defending player from the creature with trample over planeswalkers.
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Aveline de Grandpré](cards/A/av.md#aveline-de-grandpré) — *2024-07-05* — "If a creature you control with deathtouch deals combat damage to a player at the same time it’s dealt lethal damage (perhaps because it has trample and was blocked), it will die before Aveline’s triggered ability resolves and puts +1/+1 counters on it."
+
+## Protection
+
+**Summary:** Protection from a quality means: can't be targeted by spells/abilities with that quality, enchanted or equipped by such Auras/Equipment, blocked by such creatures (when attacking), and damage from such sources is prevented (702.16b–f).
+
+> **CR 702.16a** — Protection is a static ability, written “Protection from [quality].” This quality is usually a color (as in “protection from black”) but can be any characteristic value or information. If the quality happens to be a card name, it is treated as such only if the protection ability specifies that the quality is a name. If the quality is a card type, subtype, or supertype, the ability applies to sources that are …
+>
+> **CR 702.16b** — A permanent or player with protection can’t be targeted by spells with the stated quality and can’t be targeted by abilities from a source with the stated quality.
+>
+> **CR 702.16c** — A permanent or player with protection can’t be enchanted by Auras that have the stated quality. Such Auras attached to the permanent or player with protection will be put into their owners’ graveyards as a state-based action. (See rule 704, “State-Based Actions.”)
+>
+> **CR 702.16d** — A permanent with protection can’t be equipped by Equipment that have the stated quality or fortified by Fortifications that have the stated quality. Such Equipment or Fortifications become unattached from that permanent as a state-based action, but remain on the battlefield. (See rule 704, “State-Based Actions.”)
+>
+> **CR 702.16e** — Any damage that would be dealt by sources that have the stated quality to a permanent or player with protection is prevented.
+>
+> **CR 702.16f** — Attacking creatures with protection can’t be blocked by creatures that have the stated quality.
+>
+> **CR 702.16j** — “Protection from everything” is a variant of the protection ability. A permanent or player with protection from everything has protection from each object regardless of that object’s characteristic values. Such a permanent or player can’t be targeted by spells or abilities and can’t be enchanted by Auras. Such a permanent can’t be equipped by Equipment, fortified by Fortifications, or blocked by creatures. All …
+>
+> **CR 702.16k** — “Protection from [a player]” is a variant of the protection ability. A permanent or player with protection from a specific player has protection from each object that player controls and protection from each object that player owns not controlled by another player, regardless of that object’s characteristic values. Such a permanent or player can’t be targeted by spells or abilities the specified player controls and …
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Cyclonic Rift](cards/C/cy.md#cyclonic-rift) — *2024-01-12* — "Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color."
+- [The One Ring](cards/T/theo.md#the-one-ring) — *2023-06-16* — "Nothing other than the specified events are prevented or illegal. An effect that doesn't target you could still cause you to discard cards, for example. Creatures can still attack you while you have protection from everything, although combat damage that they would deal to you will be prevented."
+- [Teferi's Protection](cards/T/te.md#teferis-protection) — *2017-08-25* — "Gaining protection from everything causes a spell or ability on the stack to have an illegal target if it targets you. As a spell or ability tries to resolve, if all its targets are illegal, that spell or ability doesn't resolve and none of its effects happen, including effects unrelated to the target. If at least one target is still legal, the spell or ability does as much as it can to the remaining legal targets, and its other effects still happen."
+- [Akroma's Will](cards/A/ak.md#akromas-will) — *2025-11-17* — ""Protection from each color" is shorthand for protection from white, from blue, from black, from red, and from green. Colorless is not a color."
+- [Animate Dead](cards/A/an.md#animate-dead) — *2016-06-08* — "If the creature put onto the battlefield has protection from black—or if the creature can't legally be enchanted by Animate Dead for another reason—Animate Dead won't be able to attach to it. It will be put into the graveyard as a state-based action, causing its delayed triggered ability to trigger. When the trigger resolves, if the creature's still on the battlefield, its controller will sacrifice it."
+- [Chandra's Ignition](cards/C/cha.md#chandras-ignition) — *2015-06-22* — "The creature is the source of the damage, not Chandra's Ignition. For example, Chandra's Ignition can have a white creature deal damage to a creature with protection from red."
+
+## Hexproof, shroud & ward
+
+**Summary:** Hexproof stops targeting by spells/abilities **opponents** control (702.11b); shroud stops targeting by **any** player (702.18a); ward is a **triggered ability** that counters an opponent's spell or ability targeting the permanent unless they pay the cost (702.21a) — so it uses the stack and can be responded to.
+
+> **CR 702.11b** — “Hexproof” on a permanent means “This permanent can’t be the target of spells or abilities your opponents control.”
+>
+> **CR 702.11c** — “Hexproof” on a player means “You can’t be the target of spells or abilities your opponents control.”
+>
+> **CR 702.11d** — “Hexproof from [quality]” is a variant of the hexproof ability. “Hexproof from [quality]” on a permanent means “This permanent can’t be the target of [quality] spells your opponents control or abilities your opponents control from [quality] sources.” A “hexproof from [quality]” ability is a hexproof ability.
+>
+> **CR 702.11e** — Any effect that causes an object to lose hexproof will cause an object to lose all “hexproof from [quality]” abilities. Any effect that allows a player to choose a creature with hexproof as a target as though it didn’t have hexproof will allow a player to choose a creature with a “hexproof from [quality]” ability. Any effect that looks for a card with hexproof will find a card with a “hexproof from [quality]” …
+>
+> **CR 702.18a** — Shroud is a static ability. “Shroud” means “This permanent or player can’t be the target of spells or abilities.”
+>
+> **CR 702.21a** — Ward is a triggered ability. Ward [cost] means “Whenever this permanent becomes the target of a spell or ability an opponent controls, counter that spell or ability unless that player pays [cost].”
+>
+> **CR 702.21b** — Some ward abilities include an X in their cost and state what X is equal to. This value is determined at the time the ability resolves, not locked in as the ability triggers.
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Heroic Intervention](cards/H/he.md#heroic-intervention) — *2020-06-23* — "The set of permanents affected by Heroic Intervention is determined as the spell resolves. Permanents you begin to control later in the turn won't gain hexproof and indestructible."
+- [Cyclonic Rift](cards/C/cy.md#cyclonic-rift) — *2024-01-12* — "Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color."
+- [Animate Dead](cards/A/an.md#animate-dead) — *2016-06-08* — "Abilities such as shroud and protection function only on the battlefield unless otherwise specified. A creature card with shroud may be targeted by Animate Dead, and Animate Dead will become attached to the creature that enters the battlefield."
+- [The Ozolith](cards/T/theo.md#the-ozolith) — *2020-04-17* — "+1/+1 counters on The Ozolith have no effect unless it becomes a creature. Keyword counters on The Ozolith will grant it keywords that may have no practical effect. For example, flying on a noncreature artifact is just strange, but hexproof on a noncreature artifact is entirely useful."
+- [Shadowspear](cards/S/sha.md#shadowspear) — *2020-01-24* — "If a permanent enters the battlefield under an opponent's control with hexproof or indestructible after Shadowspear's second ability resolves, it won't lose that ability unless you activate Shadowspear's second ability again. The same is true if an opponent's permanent gains indestructible or hexproof after Shadowspear's second ability resolves."
+- [Grave Pact](cards/G/gra.md#grave-pact) — *2023-09-01* — "None of the players are targeted. A player with hexproof would still sacrifice a creature."
+
+## ETB / LTB & look-back triggers
+
+**Summary:** Enters-the-battlefield triggers check the battlefield after the event, including the newcomers (603.6a). Leaves-the-battlefield triggers "look back in time" (603.10a), so they see the game as it was just before the permanent left. "Enters with …" / "enters tapped" text is a static ability, not a triggered ability; its effect happens as part of the event (603.6d).
+
+> **CR 603.2** — Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+>
+> **CR 603.6a** — Enters-the-battlefield abilities trigger when a permanent enters the battlefield. These are written, “When [this object] enters, . . . “ or “Whenever a [type] enters, . . .” Each time an event puts one or more permanents onto the battlefield, all permanents on the battlefield (including the newcomers) are checked for any enters-the-battlefield triggers that match the event.
+>
+> **CR 603.6c** — Leaves-the-battlefield abilities trigger when a permanent moves from the battlefield to another zone, or when a phased-in permanent leaves the game because its owner leaves the game. These are written as, but aren’t limited to, “When [this object] leaves the battlefield, . . .” or “Whenever [something] is put into a graveyard from the battlefield, . . . .” (See also rule 603.10.) An ability that attempts to do …
+>
+> **CR 603.6d** — Some permanents have text that reads “[This permanent] enters with . . . ,” “As [this permanent] enters . . . ,” “[This permanent] enters as . . . ,” or “[This permanent] enters tapped.” Such text is a static ability—not a triggered ability—whose effect occurs as part of the event that puts the permanent onto the battlefield.
+>
+> **CR 603.10** — Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions, and continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities are exceptions to this rule; the game “looks back in time” to determine if those abilities trigger, using the …
+>
+> **CR 603.10a** — Some zone-change triggers look back in time. These are leaves-the-battlefield abilities, abilities that trigger when a player sacrifices a permanent, abilities that trigger when a card leaves a graveyard, and abilities that trigger when an object that all players can see is put into a hand or library.
+
+**Official CR examples** (1):
+
+- *CR 603.10a example* — Two creatures are on the battlefield along with an artifact that has the ability “Whenever a creature dies, you gain 1 life.” Someone casts a spell that destroys all artifacts, creatures, and enchantments. The artifact’s ability triggers twice, even though the artifact goes to its owner’s graveyard at the same time as the creatures.
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Teferi's Protection](cards/T/te.md#teferis-protection) — *2017-08-25* — "Any one-shot effects that are waiting "until [this] leaves the battlefield," such as that of Banishing Light, won't happen when a permanent phases out."
+- [Austere Command](cards/A/au.md#austere-command) — *2020-11-10* — "If a card is exiled "until" another permanent leaves the battlefield, the exiled card returns to the battlefield immediately after that permanent leaves the battlefield during Austere Command's resolution, and it may be destroyed by a later mode."
+- [Rhythm of the Wild](cards/R/rh.md#rhythm-of-the-wild) — *2019-05-03* — "If Rhythm of the Wild leaves the battlefield at the same time that a nontoken creature enters the battlefield (most likely because that creature has a replacement effect, such as that of Rescuer Sphinx), that creature still gets a +1/+1 counter or haste."
+- [Sensei's Divining Top](cards/S/sen.md#senseis-divining-top) — *2016-06-08* — "If Sensei's Divining Top leaves the battlefield while its second ability is on the stack, you'll draw a card and leave Sensei's Divining Top in the zone it's moved to."
+- [Scute Swarm](cards/S/sc.md#scute-swarm) — *2020-09-25* — "If Scute Swarm leaves the battlefield before its triggered ability resolves, the token will still enter the battlefield as a copy of Scute Swarm, using Scute Swarm's copiable values from when it was last on the battlefield."
+- [Reality Shift](cards/R/rea.md#reality-shift) — *2014-11-24* — "If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+
+## Mutate & merged permanents
+
+**Summary:** A mutating creature spell with a legal target doesn't enter the battlefield; it merges with the target (702.140c). The merged permanent is the **same object** it was before — it hasn't just come under your control and existing effects keep applying (730.2c) — and uses the characteristics of its topmost component (730.2a) plus all abilities of every component (702.140e).
+
+> **CR 702.140a** — Mutate appears on some creature cards. It represents a static ability that functions while the spell with mutate is on the stack. “Mutate [cost]” means “You may pay [cost] rather than pay this spell’s mana cost. If you do, it becomes a mutating creature spell and targets a non-Human creature with the same owner as this spell.” Casting a spell using its mutate ability follows the rules for paying alternative costs …
+>
+> **CR 702.140b** — As a mutating creature spell begins resolving, if its target is illegal, it ceases to be a mutating creature spell and continues resolving as a creature spell and will be put onto the battlefield under the control of the spell’s controller.
+>
+> **CR 702.140c** — As a mutating creature spell resolves, if its target is legal, it doesn’t enter the battlefield. Rather, it merges with the target creature and becomes one object represented by more than one card or token (see rule 730, “Merging with Permanents”). The spell’s controller chooses whether the spell is put on top of the creature or on the bottom. The resulting permanent is a mutated permanent.
+>
+> **CR 702.140d** — An ability that triggers whenever a creature mutates triggers when a spell merges with a creature as a result of a resolving mutating creature spell.
+>
+> **CR 702.140e** — A mutated permanent has all abilities of each card and token that represents it. Its other characteristics are derived from the topmost card or token.
+>
+> **CR 730.2** — To merge an object with a permanent, place that object on top of or under that permanent. That permanent becomes a merged permanent represented by the card or copy that represented that object in addition to any other components that were representing it.
+>
+> **CR 730.2a** — A merged permanent has only the characteristics of its topmost component, unless otherwise specified by the effect that caused them to merge. This is a copiable effect whose timestamp is the time the objects merged. (See rule 613.2.)
+>
+> **CR 730.2b** — As an object merges with a permanent, that object leaves its previous zone and becomes part of an object on the battlefield, but the resulting permanent isn’t considered to have just entered the battlefield.
+>
+> **CR 730.2c** — Because a merged permanent is the same object that it was before, it hasn’t just come under a player’s control, any continuous effects that affected it continue to do so, and so on.
+>
+> **CR 730.3** — If a merged permanent leaves the battlefield, one permanent leaves the battlefield and each of the individual components are put into the appropriate zone.
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Luminous Broodmoth](cards/L/lu.md#luminous-broodmoth) — *2020-04-17* — "If a merged creature dies and that creature didn't have flying, each card that was part of that merged creature is returned to the battlefield. Each one has a flying counter on it."
+- [Lithoform Engine](cards/L/li.md#lithoform-engine) — *2020-09-25* — "Lithoform Engine can copy any spell or ability on the stack, not just one with targets. If a permanent spell is copied, new targets can't be chosen for it, if it has any (perhaps because it's an Aura or a mutating creature spell)."
+- [Duplicant](cards/D/du.md#duplicant) — *2020-08-07* — "If a melded permanent or a merged permanent is exiled by Duplicant's triggered ability, that ability's controller chooses the relative timestamp of the exiled cards. Duplicant looks at the information of the one with the latest timestamp."
+- [Vivien, Monsters' Advocate](cards/V/vi.md#vivien-monsters-advocate) — *2020-04-17* — "If you cast a mutating creature spell, you must choose a target for it before the triggered ability from Vivien's last ability puts a creature onto the battlefield. The creature you find can't be the target of the mutating creature spell."
+- [Paradoxical Outcome](cards/P/pa.md#paradoxical-outcome) — *2021-03-19* — "If a melded or merged permanent is returned to your hand this way, you'll draw a card for each of its components that are cards."
+- [Death's Oasis](cards/D/dea.md#deaths-oasis) — *2020-04-17* — "Use the mana value of the creature as it last existed on the battlefield and the mana value of the creature card as it exists in your graveyard to determine which cards may be returned to your hand. This may result in a creature's death bringing itself back to your hand; perhaps it was one card of a merged creature, or it had become a copy of a more expensive creature."
+
+## Commander tax
+
+**Summary:** Casting your commander from the command zone costs {2} more for each previous time **you** cast it from the command zone this game (903.8); casts from anywhere else don't count.
+
+> **CR 903.8** — A player may cast a commander they own from the command zone. A commander cast from the command zone costs an additional {2} for each previous time the player casting it has cast it from the command zone that game. This additional cost is informally known as the “commander tax.”
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Command Beacon](cards/C/com.md#command-beacon) — *2015-11-04* — "If you cast a commander from your hand, the additional cost based on the number of times you've cast it from your command zone (sometimes referred to as the "commander tax") doesn't apply. Additionally, that casting won't add to the tax if you later cast the commander from the command zone."
+- [Opal Palace](cards/O/op.md#opal-palace) — *2020-11-10* — "If Opal Palace's last ability produces two mana (most likely due to Mana Reflection) and you spend them to cast a commander, that commander enters with two counters for each time it's been cast from the command zone this game."
+- [Hellkite Courser](cards/H/he.md#hellkite-courser) — *2020-11-10* — "Putting your commander onto the battlefield this way isn't the same as casting that commander. The "commander tax" won't increase."
+- [Yuriko, the Tiger's Shadow](cards/Y/yu.md#yuriko-the-tigers-shadow) — *2020-11-10* — "Activating Yuriko's commander ninjutsu ability isn't the same as casting Yuriko as a spell. You won't have to pay the commander tax to activate that ability, and activating that ability won't increase the commander tax to pay later."
+- [Rakdos, Lord of Riots](cards/R/rak.md#rakdos-lord-of-riots) — *2020-11-10* — "If there are additional costs to cast a creature spell, such as a kicker cost or the commander tax, apply those increases before applying cost reductions."
+- [Derevi, Empyrial Tactician](cards/D/der.md#derevi-empyrial-tactician) — *2020-11-10* — "When you activate Derevi's last ability, you're not casting Derevi as a spell. The ability can't be countered by something that counters only spells. The ability isn't subject to the commander tax, nor does it increase the tax if you cast Derevi from the command zone later in the game."
+
 ## Open questions / next topics
-- Next (cycle 4): priority & the stack (CR 117, 405, 608), combat damage assignment (510), protection (702.16), ward (702.21), mutate/merge (702.140, 730), saga & class layers, and a worked example per layer using the card files.
+- Next: sagas & classes (714, 717), phasing (702.26), double-faced cards & transform (712, 701.27), the legend rule (704.5j), "can't" vs. "can" (101.2), and replacement-effect ordering worked examples (616).
 - ❓ Any rule summary here that disagrees with the quoted text is an error: the quoted CR text wins.
