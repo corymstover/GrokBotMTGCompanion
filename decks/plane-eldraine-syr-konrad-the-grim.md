@@ -1,0 +1,235 @@
+# Deck Skeleton — Syr Konrad, the Grim — Eldraine-only
+
+> **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/syr-konrad-the-grim) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Rejected candidates](#rejected-candidates)
+- [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Syr Konrad, the Grim](../cards/S/sy.md#syr-konrad-the-grim)** — {3}{B}{B} — Legendary Creature — Human Knight
+- Color identity: **B (Black)**
+- Eligibility: Yes (legendary creature)
+- EDHREC sample: 6229 decks · bracket distribution reported by EDHREC: B1: 35, B2: 620, B3: 650, B4: 272, B5: 16
+
+## Validation
+
+- Total cards: **100** (1 commander + 63 nonland + 1 nonbasic lands + 35 basics)
+- **Plane restriction (Eldraine):** every non-basic card has a paper printing in sets `eld, woe` (Scryfall default-cards). 56 slots were filled from that card pool by EDHREC rank because the EDHREC suggestions ran out (marked — in the inclusion column). Filler prefers the commander's creature types (tribe: none), then EDHREC rank; multicolor decks also get up to 8 on-plane dual lands. *This is an outline: filler cards are popular on-plane cards, not hand-tuned synergy (Opinion: review them).*
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+
+## Bracket assessment
+
+- Game Changers (0): none
+- Extra-turn cards: none
+- Mass land denial: none
+- Two-card infinite combos: ⚠️ not machine-checked — review manually.
+- **Minimum bracket by the published barometers: 2 (Core) or 1 (Exhibition) — no Game Changers; final call depends on combos/intent.** (Brackets are a pregame-conversation tool; see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).)
+
+## Decklist (Archidekt import)
+
+```text
+1x Syr Konrad, the Grim [Commander{top}]
+1x Arcane Signet [Artifact]
+1x Wishclaw Talisman [Artifact]
+1x Heraldic Banner [Artifact]
+1x Soul-Guide Lantern [Artifact]
+1x Agatha's Soul Cauldron [Artifact]
+1x Collector's Vault [Artifact]
+1x Tome of Legends [Artifact]
+1x Witch's Oven [Artifact]
+1x The Irencrag [Artifact]
+1x Prophetic Prism [Artifact]
+1x Hylda's Crown of Winter [Artifact]
+1x Candy Trail [Artifact]
+1x Golden Egg [Artifact]
+1x Eriette's Tempting Apple [Artifact]
+1x The Cauldron of Eternity [Artifact]
+1x Lucky Clover [Artifact]
+1x Ayara, First of Locthwain [Creature]
+1x Murderous Rider // Swift End [Creature]
+1x Eye Collector [Creature]
+1x Crashing Drawbridge [Creature]
+1x Rankle, Master of Pranks [Creature]
+1x Stonecoil Serpent [Creature]
+1x Gingerbrute [Creature]
+1x Lord Skitter, Sewer King [Creature]
+1x Cauldron Familiar [Creature]
+1x Syr Ginger, the Meal Ender [Creature]
+1x Piper of the Swarm [Creature]
+1x Chittering Witch [Creature]
+1x Experimental Confectioner [Creature]
+1x Clackbridge Troll [Creature]
+1x Lord Skitter's Butcher [Creature]
+1x Tangled Colony [Creature]
+1x Voracious Vermin [Creature]
+1x Faerie Dreamthief [Creature]
+1x Foulmire Knight // Profane Insight [Creature]
+1x Ashiok's Reaper [Creature]
+1x Smitten Swordmaster // Curry Favor [Creature]
+1x Old Flitterfang [Creature]
+1x Twisted Sewer-Witch [Creature]
+1x Order of Midnight // Alter Fate [Creature]
+1x Shambling Suit [Creature]
+1x Wicked Visitor [Creature]
+1x Gumdrop Poisoner // Tempt with Treats [Creature]
+1x Blacklance Paragon [Creature]
+1x Forever Young [Sorcery]
+1x Beseech the Mirror [Sorcery]
+1x Lich-Knights' Conquest [Sorcery]
+1x Rankle's Prank [Sorcery]
+1x Epic Downfall [Sorcery]
+1x Back for Seconds [Sorcery]
+1x Foreboding Fruit [Sorcery]
+1x Taste of Death [Sorcery]
+1x Not Dead After All [Instant]
+1x Bake into a Pie [Instant]
+1x Rowan's Grim Search [Instant]
+1x Faerie Fencing [Instant]
+1x Rat Out [Instant]
+1x Feed the Cauldron [Instant]
+1x Virtue of Persistence // Locthwain Scorn [Enchantment]
+1x Revenge of Ravens [Enchantment]
+1x Hopeless Nightmare [Enchantment]
+1x Lord Skitter's Blessing [Enchantment]
+1x Ashiok, Wicked Manipulator [Planeswalker]
+1x Witch's Cottage [Land]
+35x Swamp [Land]
+```
+
+## Card breakdown
+
+| Card | Section | EDHREC inclusion | Identity |
+|---|---|---|---|
+| [Arcane Signet](../cards/A/arc.md#arcane-signet) | Artifact | 59% | C |
+| [Wishclaw Talisman](../cards/W/wi.md#wishclaw-talisman) | Artifact | — | B |
+| [Heraldic Banner](../cards/H/he.md#heraldic-banner) | Artifact | — | C |
+| [Soul-Guide Lantern](../cards/S/so.md#soul-guide-lantern) | Artifact | — | C |
+| [Agatha's Soul Cauldron](../cards/A/ag.md#agathas-soul-cauldron) | Artifact | — | C |
+| [Collector's Vault](../cards/C/col.md#collectors-vault) | Artifact | — | C |
+| [Tome of Legends](../cards/T/to.md#tome-of-legends) | Artifact | — | C |
+| [Witch's Oven](../cards/W/wi.md#witchs-oven) | Artifact | — | C |
+| [The Irencrag](../cards/T/thei.md#the-irencrag) | Artifact | — | C |
+| [Prophetic Prism](../cards/P/pr.md#prophetic-prism) | Artifact | — | C |
+| [Hylda's Crown of Winter](../cards/H/hy.md#hyldas-crown-of-winter) | Artifact | — | C |
+| [Candy Trail](../cards/C/can.md#candy-trail) | Artifact | — | C |
+| [Golden Egg](../cards/G/gol.md#golden-egg) | Artifact | — | C |
+| [Eriette's Tempting Apple](../cards/E/er.md#eriettes-tempting-apple) | Artifact | — | C |
+| [The Cauldron of Eternity](../cards/T/thec.md#the-cauldron-of-eternity) | Artifact | — | B |
+| [Lucky Clover](../cards/L/lu.md#lucky-clover) | Artifact | — | C |
+| [Ayara, First of Locthwain](../cards/A/ay.md#ayara-first-of-locthwain) | Creature | 47% | B |
+| [Murderous Rider // Swift End](../cards/M/mu.md#murderous-rider--swift-end) | Creature | 17% | B |
+| [Eye Collector](../cards/E/ey.md#eye-collector) | Creature | 17% | B |
+| [Crashing Drawbridge](../cards/C/cr.md#crashing-drawbridge) | Creature | — | C |
+| [Rankle, Master of Pranks](../cards/R/ran.md#rankle-master-of-pranks) | Creature | — | B |
+| [Stonecoil Serpent](../cards/S/sto.md#stonecoil-serpent) | Creature | — | C |
+| [Gingerbrute](../cards/G/gi.md#gingerbrute) | Creature | — | C |
+| [Lord Skitter, Sewer King](../cards/L/lo.md#lord-skitter-sewer-king) | Creature | — | B |
+| [Cauldron Familiar](../cards/C/cau.md#cauldron-familiar) | Creature | — | B |
+| [Syr Ginger, the Meal Ender](../cards/S/sy.md#syr-ginger-the-meal-ender) | Creature | — | C |
+| [Piper of the Swarm](../cards/P/pi.md#piper-of-the-swarm) | Creature | — | B |
+| [Chittering Witch](../cards/C/chi.md#chittering-witch) | Creature | — | B |
+| [Experimental Confectioner](../cards/E/ex.md#experimental-confectioner) | Creature | — | B |
+| [Clackbridge Troll](../cards/C/cl.md#clackbridge-troll) | Creature | — | B |
+| [Lord Skitter's Butcher](../cards/L/lo.md#lord-skitters-butcher) | Creature | — | B |
+| [Tangled Colony](../cards/T/ta.md#tangled-colony) | Creature | — | B |
+| [Voracious Vermin](../cards/V/vo.md#voracious-vermin) | Creature | — | B |
+| [Faerie Dreamthief](../cards/F/fa.md#faerie-dreamthief) | Creature | — | B |
+| [Foulmire Knight // Profane Insight](../cards/F/fo.md#foulmire-knight--profane-insight) | Creature | — | B |
+| [Ashiok's Reaper](../cards/A/as.md#ashioks-reaper) | Creature | — | B |
+| [Smitten Swordmaster // Curry Favor](../cards/S/sm.md#smitten-swordmaster--curry-favor) | Creature | — | B |
+| [Old Flitterfang](../cards/O/ol.md#old-flitterfang) | Creature | — | B |
+| [Twisted Sewer-Witch](../cards/T/tw.md#twisted-sewer-witch) | Creature | — | B |
+| [Order of Midnight // Alter Fate](../cards/O/or.md#order-of-midnight--alter-fate) | Creature | — | B |
+| [Shambling Suit](../cards/S/sha.md#shambling-suit) | Creature | — | C |
+| [Wicked Visitor](../cards/W/wi.md#wicked-visitor) | Creature | — | B |
+| [Gumdrop Poisoner // Tempt with Treats](../cards/G/gu.md#gumdrop-poisoner--tempt-with-treats) | Creature | — | B |
+| [Blacklance Paragon](../cards/B/bla.md#blacklance-paragon) | Creature | — | B |
+| [Forever Young](../cards/F/fo.md#forever-young) | Sorcery | 36% | B |
+| [Beseech the Mirror](../cards/B/be.md#beseech-the-mirror) | Sorcery | — | B |
+| [Lich-Knights' Conquest](../cards/L/li.md#lich-knights-conquest) | Sorcery | — | B |
+| [Rankle's Prank](../cards/R/ran.md#rankles-prank) | Sorcery | — | B |
+| [Epic Downfall](../cards/E/ep.md#epic-downfall) | Sorcery | — | B |
+| [Back for Seconds](../cards/B/bac.md#back-for-seconds) | Sorcery | — | B |
+| [Foreboding Fruit](../cards/F/fo.md#foreboding-fruit) | Sorcery | — | B |
+| [Taste of Death](../cards/T/ta.md#taste-of-death) | Sorcery | — | B |
+| [Not Dead After All](../cards/N/no.md#not-dead-after-all) | Instant | 8% | B |
+| [Bake into a Pie](../cards/B/bak.md#bake-into-a-pie) | Instant | — | B |
+| [Rowan's Grim Search](../cards/R/ro.md#rowans-grim-search) | Instant | — | B |
+| [Faerie Fencing](../cards/F/fa.md#faerie-fencing) | Instant | — | B |
+| [Rat Out](../cards/R/rat.md#rat-out) | Instant | — | B |
+| [Feed the Cauldron](../cards/F/fe.md#feed-the-cauldron) | Instant | — | B |
+| [Virtue of Persistence // Locthwain Scorn](../cards/V/vi.md#virtue-of-persistence--locthwain-scorn) | Enchantment | 5% | B |
+| [Revenge of Ravens](../cards/R/rev.md#revenge-of-ravens) | Enchantment | — | B |
+| [Hopeless Nightmare](../cards/H/ho.md#hopeless-nightmare) | Enchantment | — | B |
+| [Lord Skitter's Blessing](../cards/L/lo.md#lord-skitters-blessing) | Enchantment | — | B |
+| [Ashiok, Wicked Manipulator](../cards/A/as.md#ashiok-wicked-manipulator) | Planeswalker | — | B |
+| [Witch's Cottage](../cards/W/wi.md#witchs-cottage) | Land | 45% | B |
+| 35× Swamp | Basic land | — | — |
+
+## Rejected candidates
+
+EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):
+
+- Sol Ring — no printing in Eldraine
+- Gray Merchant of Asphodel — no printing in Eldraine
+- Mindcrank — no printing in Eldraine
+- Bojuka Bog — no printing in Eldraine
+- Reassembling Skeleton — no printing in Eldraine
+- Dark Ritual — no printing in Eldraine
+- Tortured Existence — no printing in Eldraine
+- Blood Artist — no printing in Eldraine
+- Plaguecrafter — no printing in Eldraine
+- Crypt Ghast — no printing in Eldraine
+- Zulaport Cutthroat — no printing in Eldraine
+- Cabal Coffers — no printing in Eldraine
+- Accursed Marauder — no printing in Eldraine
+- Jet Medallion — no printing in Eldraine
+- Feed the Swarm — no printing in Eldraine
+- Victimize — no printing in Eldraine
+- Mesmeric Orb — no printing in Eldraine
+- Viscera Seer — no printing in Eldraine
+- Stitcher's Supplier — no printing in Eldraine
+- Fleshbag Marauder — no printing in Eldraine
+- Reanimate — no printing in Eldraine
+- Millikin — no printing in Eldraine
+- The Master of Lake-town — no printing in Eldraine
+- Living Death — no printing in Eldraine
+- Morality Shift — no printing in Eldraine
+- Golgari Thug — no printing in Eldraine
+- Dreadhound — no printing in Eldraine
+- Morbid Opportunist — no printing in Eldraine
+- Stinkweed Imp — no printing in Eldraine
+- Braids, Arisen Nightmare — no printing in Eldraine
+
+<!-- RULES-NOTES:START -->
+## Commander rules & rulings
+
+> Auto-generated by `scripts/deck_rules_notes.py` from Scryfall Oracle bulk (2026-10-15) and rulings bulk (2026-10-15); rulings are quoted verbatim (source: Wizards of the Coast unless marked). Facts only — strategy is in [EDH Standards](../EDH%20Standards.md#synergy-notes), labeled Opinion.
+
+**Oracle text — [Syr Konrad, the Grim](../cards/S/sy.md#syr-konrad-the-grim):**
+> Syr Konrad, the Grim: Whenever another creature dies, or a creature card is put into a graveyard from anywhere other than the battlefield, or a creature card leaves your graveyard, Syr Konrad deals 1 damage to each opponent. / {1}{B}: Each player mills a card. (They each put the top card of their library into their graveyard.)
+
+**Official rulings on the commander (2):**
+- *2019-10-04* — If one or more creatures die at the same time as Syr Konrad, its first ability triggers for each of those creatures.
+- *2019-10-04* — In a Two-Headed Giant game, Syr Konrad's first ability causes it to deal 1 damage twice.
+
+**Creature-type overlap** with the commander (Human, Knight): 11 card(s) — [Murderous Rider // Swift End](../cards/M/mu.md#murderous-rider--swift-end), [Syr Ginger, the Meal Ender](../cards/S/sy.md#syr-ginger-the-meal-ender), [Piper of the Swarm](../cards/P/pi.md#piper-of-the-swarm), [Chittering Witch](../cards/C/chi.md#chittering-witch), [Experimental Confectioner](../cards/E/ex.md#experimental-confectioner), [Foulmire Knight // Profane Insight](../cards/F/fo.md#foulmire-knight--profane-insight), [Smitten Swordmaster // Curry Favor](../cards/S/sm.md#smitten-swordmaster--curry-favor), [Twisted Sewer-Witch](../cards/T/tw.md#twisted-sewer-witch), [Order of Midnight // Alter Fate](../cards/O/or.md#order-of-midnight--alter-fate), [Gumdrop Poisoner // Tempt with Treats](../cards/G/gu.md#gumdrop-poisoner--tempt-with-treats), [Blacklance Paragon](../cards/B/bla.md#blacklance-paragon).
+
+**Deck cards with official rulings:** 50 of 64 non-basic cards — [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Wishclaw Talisman](../cards/W/wi.md#wishclaw-talisman) (2), [Heraldic Banner](../cards/H/he.md#heraldic-banner) (2), [Agatha's Soul Cauldron](../cards/A/ag.md#agathas-soul-cauldron) (3), [Tome of Legends](../cards/T/to.md#tome-of-legends) (1), [Witch's Oven](../cards/W/wi.md#witchs-oven) (4), [The Irencrag](../cards/T/thei.md#the-irencrag) (1), [Golden Egg](../cards/G/gol.md#golden-egg) (4), [The Cauldron of Eternity](../cards/T/thec.md#the-cauldron-of-eternity) (3), [Lucky Clover](../cards/L/lu.md#lucky-clover) (5), [Ayara, First of Locthwain](../cards/A/ay.md#ayara-first-of-locthwain) (1), [Murderous Rider // Swift End](../cards/M/mu.md#murderous-rider--swift-end) (12), [Rankle, Master of Pranks](../cards/R/ran.md#rankle-master-of-pranks) (7), [Gingerbrute](../cards/G/gi.md#gingerbrute) (5), [Cauldron Familiar](../cards/C/cau.md#cauldron-familiar) (3), [Syr Ginger, the Meal Ender](../cards/S/sy.md#syr-ginger-the-meal-ender) (1), [Piper of the Swarm](../cards/P/pi.md#piper-of-the-swarm) (1), [Chittering Witch](../cards/C/chi.md#chittering-witch) (2), [Experimental Confectioner](../cards/E/ex.md#experimental-confectioner) (4), [Clackbridge Troll](../cards/C/cl.md#clackbridge-troll) (2), [Foulmire Knight // Profane Insight](../cards/F/fo.md#foulmire-knight--profane-insight) (10), [Ashiok's Reaper](../cards/A/as.md#ashioks-reaper) (1), [Smitten Swordmaster // Curry Favor](../cards/S/sm.md#smitten-swordmaster--curry-favor) (11), [Old Flitterfang](../cards/O/ol.md#old-flitterfang) (4), [Twisted Sewer-Witch](../cards/T/tw.md#twisted-sewer-witch) (8), [Order of Midnight // Alter Fate](../cards/O/or.md#order-of-midnight--alter-fate) (10), [Shambling Suit](../cards/S/sha.md#shambling-suit) (3), [Wicked Visitor](../cards/W/wi.md#wicked-visitor) (2), [Gumdrop Poisoner // Tempt with Treats](../cards/G/gu.md#gumdrop-poisoner--tempt-with-treats) (16), [Blacklance Paragon](../cards/B/bla.md#blacklance-paragon) (1), [Forever Young](../cards/F/fo.md#forever-young) (3), [Beseech the Mirror](../cards/B/be.md#beseech-the-mirror) (5), [Lich-Knights' Conquest](../cards/L/li.md#lich-knights-conquest) (4), [Rankle's Prank](../cards/R/ran.md#rankles-prank) (3), [Epic Downfall](../cards/E/ep.md#epic-downfall) (2), [Back for Seconds](../cards/B/bac.md#back-for-seconds) (6), [Foreboding Fruit](../cards/F/fo.md#foreboding-fruit) (9), [Taste of Death](../cards/T/ta.md#taste-of-death) (6), [Not Dead After All](../cards/N/no.md#not-dead-after-all) (10), [Bake into a Pie](../cards/B/bak.md#bake-into-a-pie) (4), [Rowan's Grim Search](../cards/R/ro.md#rowans-grim-search) (5), [Faerie Fencing](../cards/F/fa.md#faerie-fencing) (1), [Rat Out](../cards/R/rat.md#rat-out) (1), [Feed the Cauldron](../cards/F/fe.md#feed-the-cauldron) (3), [Virtue of Persistence // Locthwain Scorn](../cards/V/vi.md#virtue-of-persistence--locthwain-scorn) (12), [Revenge of Ravens](../cards/R/rev.md#revenge-of-ravens) (1), [Hopeless Nightmare](../cards/H/ho.md#hopeless-nightmare) (1), [Lord Skitter's Blessing](../cards/L/lo.md#lord-skitters-blessing) (8), [Ashiok, Wicked Manipulator](../cards/A/as.md#ashiok-wicked-manipulator) (3), [Witch's Cottage](../cards/W/wi.md#witchs-cottage) (2).
+<!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**No complete combos found** (6 combos are one card away — not listed).
+<!-- COMBOS:END -->

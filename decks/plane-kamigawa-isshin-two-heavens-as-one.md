@@ -1,0 +1,253 @@
+# Deck Skeleton — Isshin, Two Heavens as One — Kamigawa-only
+
+> **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/isshin-two-heavens-as-one) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Rejected candidates](#rejected-candidates)
+- [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Isshin, Two Heavens as One](../cards/I/is.md#isshin-two-heavens-as-one)** — {R}{W}{B} — Legendary Creature — Human Samurai
+- Color identity: **BRW (Black, Red, White)**
+- Eligibility: Yes (legendary creature)
+- EDHREC sample: 30911 decks · bracket distribution reported by EDHREC: B1: 83, B2: 3,131, B3: 3,045, B4: 874, B5: 28
+
+## Validation
+
+- Total cards: **100** (1 commander + 63 nonland + 8 nonbasic lands + 28 basics)
+- **Plane restriction (Kamigawa):** every non-basic card has a paper printing in sets `bok, chk, neo, sok` (Scryfall default-cards). 42 slots were filled from that card pool by EDHREC rank because the EDHREC suggestions ran out (marked — in the inclusion column). Filler prefers the commander's creature types (tribe: none), then EDHREC rank; multicolor decks also get up to 8 on-plane dual lands. *This is an outline: filler cards are popular on-plane cards, not hand-tuned synergy (Opinion: review them).*
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+
+## Bracket assessment
+
+- Game Changers (1): Farewell
+- Extra-turn cards: none
+- Mass land denial: none
+- Two-card infinite combos: ⚠️ not machine-checked — review manually.
+- **Minimum bracket by the published barometers: 3 (Upgraded) — 1–3 Game Changers.** (Brackets are a pregame-conversation tool; see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).)
+
+## Decklist (Archidekt import)
+
+```text
+1x Isshin, Two Heavens as One [Commander{top}]
+1x Farewell [Sorcery]
+1x Banishing Slash [Sorcery]
+1x Eiganjo Uprising [Sorcery]
+1x Brilliant Restoration [Sorcery]
+1x Raiyuu, Storm's Edge [Creature]
+1x Goro-Goro, Disciple of Ryusei [Creature]
+1x Godo, Bandit Warlord [Creature]
+1x Selfless Samurai [Creature]
+1x Peerless Samurai [Creature]
+1x Asari Captain [Creature]
+1x Norika Yamazaki, the Poet [Creature]
+1x Imperial Subduer [Creature]
+1x Eiganjo Exemplar [Creature]
+1x Nezumi Bladeblesser [Creature]
+1x Sunblade Samurai [Creature]
+1x Spirited Companion [Creature]
+1x Junji, the Midnight Sky [Creature]
+1x Kiki-Jiki, Mirror Breaker [Creature]
+1x Atsushi, the Blazing Sky [Creature]
+1x Lizard Blades [Creature]
+1x Lion Sash [Creature]
+1x Containment Construct [Creature]
+1x Nashi, Moon Sage's Scion [Creature]
+1x Circuit Mender [Creature]
+1x Kokusho, the Evening Star [Creature]
+1x Ink-Eyes, Servant of Oni [Creature]
+1x Heartless Hidetsugu [Creature]
+1x Light-Paws, Emperor's Voice [Creature]
+1x Marrow-Gnawer [Creature]
+1x Dockside Chef [Creature]
+1x Seizan, Perverter of Truth [Creature]
+1x Virus Beetle [Creature]
+1x Zo-Zu the Punisher [Creature]
+1x Thundering Raiju [Creature]
+1x Throat Slitter [Creature]
+1x Ao, the Dawn Sky [Creature]
+1x Cloudsteel Kirin [Creature]
+1x Gravelighter [Creature]
+1x Kami of False Hope [Creature]
+1x Go-Shintai of Shared Purpose [Creature]
+1x Rabbit Battery [Creature]
+1x Go-Shintai of Hidden Cruelty [Creature]
+1x Fable of the Mirror-Breaker // Reflection of Kiki-Jiki [Enchantment]
+1x Tempered in Solitude [Enchantment]
+1x Ghostly Prison [Enchantment]
+1x Touch the Spirit Realm [Enchantment]
+1x The Restoration of Eiganjo // Architect of Restoration [Enchantment]
+1x Honden of Infinite Rage [Enchantment]
+1x Honden of Cleansing Fire [Enchantment]
+1x You Are Already Dead [Instant]
+1x Desperate Ritual [Instant]
+1x Reckoner's Bargain [Instant]
+1x Invoke Calamity [Instant]
+1x Ancestral Katana [Artifact]
+1x Oathkeeper, Takeno's Daisho [Artifact]
+1x Sensei's Divining Top [Artifact]
+1x Mirror Box [Artifact]
+1x Umezawa's Jitte [Artifact]
+1x Reckoner Bankbuster [Artifact]
+1x Honor-Worn Shaku [Artifact]
+1x Mechtitan Core [Artifact]
+1x Surgehacker Mech [Artifact]
+1x The Wandering Emperor [Planeswalker]
+1x Secluded Courtyard [Land]
+1x Forbidden Orchard [Land]
+1x Scoured Barrens [Land]
+1x Bloodfell Caves [Land]
+1x Wind-Scarred Crag [Land]
+1x Uncharted Haven [Land]
+1x Mech Hangar [Land]
+1x Tendo Ice Bridge [Land]
+10x Plains [Land]
+9x Swamp [Land]
+9x Mountain [Land]
+```
+
+## Card breakdown
+
+| Card | Section | EDHREC inclusion | Identity |
+|---|---|---|---|
+| [Farewell](../cards/F/fa.md#farewell) | Sorcery | 21% | W |
+| [Banishing Slash](../cards/B/ban.md#banishing-slash) | Sorcery | 8% | W |
+| [Eiganjo Uprising](../cards/E/ei.md#eiganjo-uprising) | Sorcery | 5% | RW |
+| [Brilliant Restoration](../cards/B/br.md#brilliant-restoration) | Sorcery | — | W |
+| [Raiyuu, Storm's Edge](../cards/R/rai.md#raiyuu-storms-edge) | Creature | 20% | RW |
+| [Goro-Goro, Disciple of Ryusei](../cards/G/gor.md#goro-goro-disciple-of-ryusei) | Creature | 16% | R |
+| [Godo, Bandit Warlord](../cards/G/god.md#godo-bandit-warlord) | Creature | 14% | R |
+| [Selfless Samurai](../cards/S/sel.md#selfless-samurai) | Creature | 14% | W |
+| [Peerless Samurai](../cards/P/pe.md#peerless-samurai) | Creature | 12% | R |
+| [Asari Captain](../cards/A/as.md#asari-captain) | Creature | 12% | RW |
+| [Norika Yamazaki, the Poet](../cards/N/no.md#norika-yamazaki-the-poet) | Creature | 11% | W |
+| [Imperial Subduer](../cards/I/im.md#imperial-subduer) | Creature | 11% | W |
+| [Eiganjo Exemplar](../cards/E/ei.md#eiganjo-exemplar) | Creature | 10% | W |
+| [Nezumi Bladeblesser](../cards/N/ne.md#nezumi-bladeblesser) | Creature | 6% | B |
+| [Sunblade Samurai](../cards/S/sun.md#sunblade-samurai) | Creature | 5% | W |
+| [Spirited Companion](../cards/S/spi.md#spirited-companion) | Creature | — | W |
+| [Junji, the Midnight Sky](../cards/J/ju.md#junji-the-midnight-sky) | Creature | — | B |
+| [Kiki-Jiki, Mirror Breaker](../cards/K/ki.md#kiki-jiki-mirror-breaker) | Creature | — | R |
+| [Atsushi, the Blazing Sky](../cards/A/at.md#atsushi-the-blazing-sky) | Creature | — | R |
+| [Lizard Blades](../cards/L/li.md#lizard-blades) | Creature | — | R |
+| [Lion Sash](../cards/L/li.md#lion-sash) | Creature | — | W |
+| [Containment Construct](../cards/C/con.md#containment-construct) | Creature | — | C |
+| [Nashi, Moon Sage's Scion](../cards/N/na.md#nashi-moon-sages-scion) | Creature | — | B |
+| [Circuit Mender](../cards/C/ci.md#circuit-mender) | Creature | — | C |
+| [Kokusho, the Evening Star](../cards/K/ko.md#kokusho-the-evening-star) | Creature | — | B |
+| [Ink-Eyes, Servant of Oni](../cards/I/ink.md#ink-eyes-servant-of-oni) | Creature | — | B |
+| [Heartless Hidetsugu](../cards/H/he.md#heartless-hidetsugu) | Creature | — | R |
+| [Light-Paws, Emperor's Voice](../cards/L/li.md#light-paws-emperors-voice) | Creature | — | W |
+| [Marrow-Gnawer](../cards/M/mar.md#marrow-gnawer) | Creature | — | B |
+| [Dockside Chef](../cards/D/do.md#dockside-chef) | Creature | — | B |
+| [Seizan, Perverter of Truth](../cards/S/sei.md#seizan-perverter-of-truth) | Creature | — | B |
+| [Virus Beetle](../cards/V/vi.md#virus-beetle) | Creature | — | B |
+| [Zo-Zu the Punisher](../cards/Z/zo.md#zo-zu-the-punisher) | Creature | — | R |
+| [Thundering Raiju](../cards/T/thu.md#thundering-raiju) | Creature | — | R |
+| [Throat Slitter](../cards/T/thr.md#throat-slitter) | Creature | — | B |
+| [Ao, the Dawn Sky](../cards/A/ao.md#ao-the-dawn-sky) | Creature | — | W |
+| [Cloudsteel Kirin](../cards/C/cl.md#cloudsteel-kirin) | Creature | — | W |
+| [Gravelighter](../cards/G/gra.md#gravelighter) | Creature | — | B |
+| [Kami of False Hope](../cards/K/ka.md#kami-of-false-hope) | Creature | — | W |
+| [Go-Shintai of Shared Purpose](../cards/G/gos.md#go-shintai-of-shared-purpose) | Creature | — | W |
+| [Rabbit Battery](../cards/R/rab.md#rabbit-battery) | Creature | — | R |
+| [Go-Shintai of Hidden Cruelty](../cards/G/gos.md#go-shintai-of-hidden-cruelty) | Creature | — | B |
+| [Fable of the Mirror-Breaker // Reflection of Kiki-Jiki](../cards/F/fa.md#fable-of-the-mirror-breaker--reflection-of-kiki-jiki) | Enchantment | 8% | R |
+| [Tempered in Solitude](../cards/T/te.md#tempered-in-solitude) | Enchantment | 7% | R |
+| [Ghostly Prison](../cards/G/gh.md#ghostly-prison) | Enchantment | 7% | W |
+| [Touch the Spirit Realm](../cards/T/to.md#touch-the-spirit-realm) | Enchantment | — | W |
+| [The Restoration of Eiganjo // Architect of Restoration](../cards/T/ther.md#the-restoration-of-eiganjo--architect-of-restoration) | Enchantment | — | W |
+| [Honden of Infinite Rage](../cards/H/ho.md#honden-of-infinite-rage) | Enchantment | — | R |
+| [Honden of Cleansing Fire](../cards/H/ho.md#honden-of-cleansing-fire) | Enchantment | — | W |
+| [You Are Already Dead](../cards/Y/yo.md#you-are-already-dead) | Instant | 7% | B |
+| [Desperate Ritual](../cards/D/des.md#desperate-ritual) | Instant | — | R |
+| [Reckoner's Bargain](../cards/R/rec.md#reckoners-bargain) | Instant | — | B |
+| [Invoke Calamity](../cards/I/inv.md#invoke-calamity) | Instant | — | R |
+| [Ancestral Katana](../cards/A/an.md#ancestral-katana) | Artifact | 7% | W |
+| [Oathkeeper, Takeno's Daisho](../cards/O/oa.md#oathkeeper-takenos-daisho) | Artifact | 6% | C |
+| [Sensei's Divining Top](../cards/S/sen.md#senseis-divining-top) | Artifact | — | C |
+| [Mirror Box](../cards/M/mir.md#mirror-box) | Artifact | — | C |
+| [Umezawa's Jitte](../cards/U/um.md#umezawas-jitte) | Artifact | — | C |
+| [Reckoner Bankbuster](../cards/R/rec.md#reckoner-bankbuster) | Artifact | — | C |
+| [Honor-Worn Shaku](../cards/H/ho.md#honor-worn-shaku) | Artifact | — | C |
+| [Mechtitan Core](../cards/M/me.md#mechtitan-core) | Artifact | — | C |
+| [Surgehacker Mech](../cards/S/sur.md#surgehacker-mech) | Artifact | — | C |
+| [The Wandering Emperor](../cards/T/thew.md#the-wandering-emperor) | Planeswalker | 6% | W |
+| [Secluded Courtyard](../cards/S/sec.md#secluded-courtyard) | Land | — | C |
+| [Forbidden Orchard](../cards/F/fo.md#forbidden-orchard) | Land | — | C |
+| [Scoured Barrens](../cards/S/sc.md#scoured-barrens) | Land | — | BW |
+| [Bloodfell Caves](../cards/B/blo.md#bloodfell-caves) | Land | — | BR |
+| [Wind-Scarred Crag](../cards/W/wi.md#wind-scarred-crag) | Land | — | RW |
+| [Uncharted Haven](../cards/U/un.md#uncharted-haven) | Land | — | C |
+| [Mech Hangar](../cards/M/me.md#mech-hangar) | Land | — | C |
+| [Tendo Ice Bridge](../cards/T/te.md#tendo-ice-bridge) | Land | — | C |
+| 10× Plains | Basic land | — | — |
+| 9× Swamp | Basic land | — | — |
+| 9× Mountain | Basic land | — | — |
+
+## Rejected candidates
+
+EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):
+
+- Command Tower — no printing in Kamigawa
+- Sol Ring — no printing in Kamigawa
+- Arcane Signet — no printing in Kamigawa
+- Swords to Plowshares — no printing in Kamigawa
+- Windcrag Siege — no printing in Kamigawa
+- Nomad Outpost — no printing in Kamigawa
+- Adeline, Resplendent Cathar — no printing in Kamigawa
+- Path to Exile — no printing in Kamigawa
+- Krenko, Tin Street Kingpin — no printing in Kamigawa
+- Clifftop Retreat — no printing in Kamigawa
+- Exotic Orchard — no printing in Kamigawa
+- Sword of the Animist — no printing in Kamigawa
+- Anim Pakal, Thousandth Moon — no printing in Kamigawa
+- Dragonskull Summit — no printing in Kamigawa
+- Etali, Primal Storm — no printing in Kamigawa
+- Lightning Greaves — no printing in Kamigawa
+- Isolated Chapel — no printing in Kamigawa
+- Fervent Charge — no printing in Kamigawa
+- Aurelia, the Warleader — no printing in Kamigawa
+- Captain Lannery Storm — no printing in Kamigawa
+- Hero of Bladehold — no printing in Kamigawa
+- Sacred Foundry — no printing in Kamigawa
+- Ruinous Ultimatum — no printing in Kamigawa
+- Godless Shrine — no printing in Kamigawa
+- Boros Charm — no printing in Kamigawa
+- Talisman of Conviction — no printing in Kamigawa
+- Swiftfoot Boots — no printing in Kamigawa
+- Battlefield Forge — no printing in Kamigawa
+- Blood Crypt — no printing in Kamigawa
+- Alesha, Who Laughs at Fate — no printing in Kamigawa
+
+<!-- RULES-NOTES:START -->
+## Commander rules & rulings
+
+> Auto-generated by `scripts/deck_rules_notes.py` from Scryfall Oracle bulk (2026-10-15) and rulings bulk (2026-10-15); rulings are quoted verbatim (source: Wizards of the Coast unless marked). Facts only — strategy is in [EDH Standards](../EDH%20Standards.md#synergy-notes), labeled Opinion.
+
+**Oracle text — [Isshin, Two Heavens as One](../cards/I/is.md#isshin-two-heavens-as-one):**
+> Isshin, Two Heavens as One: If a creature attacking causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+
+**Official rulings on the commander (2):**
+- *2022-02-18* — Isshin, Two Heavens as One's ability affects only triggered abilities with conditions that are directly related to attacking, such as “whenever [this creature] attacks” or “whenever you attack with one or more creatures.” It does not affect triggered abilities with other trigger conditions, such as “whenever [this creature] becomes tapped.”
+- *2022-02-18* — Isshin's effect doesn't copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution are also made individually.
+
+**Creature-type overlap** with the commander (Human, Samurai): 12 card(s) — [Raiyuu, Storm's Edge](../cards/R/rai.md#raiyuu-storms-edge), [Goro-Goro, Disciple of Ryusei](../cards/G/gor.md#goro-goro-disciple-of-ryusei), [Godo, Bandit Warlord](../cards/G/god.md#godo-bandit-warlord), [Selfless Samurai](../cards/S/sel.md#selfless-samurai), [Peerless Samurai](../cards/P/pe.md#peerless-samurai), [Asari Captain](../cards/A/as.md#asari-captain), [Norika Yamazaki, the Poet](../cards/N/no.md#norika-yamazaki-the-poet), [Imperial Subduer](../cards/I/im.md#imperial-subduer), [Eiganjo Exemplar](../cards/E/ei.md#eiganjo-exemplar), [Nezumi Bladeblesser](../cards/N/ne.md#nezumi-bladeblesser), [Sunblade Samurai](../cards/S/sun.md#sunblade-samurai), [Dockside Chef](../cards/D/do.md#dockside-chef).
+
+**Deck cards with official rulings:** 35 of 71 non-basic cards — [Farewell](../cards/F/fa.md#farewell) (1), [Banishing Slash](../cards/B/ban.md#banishing-slash) (2), [Raiyuu, Storm's Edge](../cards/R/rai.md#raiyuu-storms-edge) (2), [Goro-Goro, Disciple of Ryusei](../cards/G/gor.md#goro-goro-disciple-of-ryusei) (3), [Godo, Bandit Warlord](../cards/G/god.md#godo-bandit-warlord) (1), [Asari Captain](../cards/A/as.md#asari-captain) (2), [Norika Yamazaki, the Poet](../cards/N/no.md#norika-yamazaki-the-poet) (2), [Sunblade Samurai](../cards/S/sun.md#sunblade-samurai) (2), [Kiki-Jiki, Mirror Breaker](../cards/K/ki.md#kiki-jiki-mirror-breaker) (7), [Lizard Blades](../cards/L/li.md#lizard-blades) (10), [Lion Sash](../cards/L/li.md#lion-sash) (10), [Nashi, Moon Sage's Scion](../cards/N/na.md#nashi-moon-sages-scion) (10), [Ink-Eyes, Servant of Oni](../cards/I/ink.md#ink-eyes-servant-of-oni) (1), [Light-Paws, Emperor's Voice](../cards/L/li.md#light-paws-emperors-voice) (1), [Marrow-Gnawer](../cards/M/mar.md#marrow-gnawer) (1), [Thundering Raiju](../cards/T/thu.md#thundering-raiju) (3), [Cloudsteel Kirin](../cards/C/cl.md#cloudsteel-kirin) (14), [Gravelighter](../cards/G/gra.md#gravelighter) (1), [Rabbit Battery](../cards/R/rab.md#rabbit-battery) (10), [Fable of the Mirror-Breaker // Reflection of Kiki-Jiki](../cards/F/fa.md#fable-of-the-mirror-breaker--reflection-of-kiki-jiki) (13), [Tempered in Solitude](../cards/T/te.md#tempered-in-solitude) (2), [Ghostly Prison](../cards/G/gh.md#ghostly-prison) (2), [Touch the Spirit Realm](../cards/T/to.md#touch-the-spirit-realm) (6), [The Restoration of Eiganjo // Architect of Restoration](../cards/T/ther.md#the-restoration-of-eiganjo--architect-of-restoration) (7), [Desperate Ritual](../cards/D/des.md#desperate-ritual) (5), [Invoke Calamity](../cards/I/inv.md#invoke-calamity) (4), [Ancestral Katana](../cards/A/an.md#ancestral-katana) (2), [Oathkeeper, Takeno's Daisho](../cards/O/oa.md#oathkeeper-takenos-daisho) (1), [Sensei's Divining Top](../cards/S/sen.md#senseis-divining-top) (2), [Mirror Box](../cards/M/mir.md#mirror-box) (5), [Umezawa's Jitte](../cards/U/um.md#umezawas-jitte) (5), [The Wandering Emperor](../cards/T/thew.md#the-wandering-emperor) (1), [Secluded Courtyard](../cards/S/sec.md#secluded-courtyard) (1), [Uncharted Haven](../cards/U/un.md#uncharted-haven) (1), [Mech Hangar](../cards/M/me.md#mech-hangar) (2).
+<!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**No complete combos found** (63 combos are one card away — not listed).
+<!-- COMBOS:END -->

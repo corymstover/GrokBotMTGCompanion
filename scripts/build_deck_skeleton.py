@@ -52,6 +52,10 @@ def main():
     ap.add_argument("--max-nonbasic", type=int, default=16)
     ap.add_argument("--min-land-inclusion", type=float, default=0.25,
                     help="only add nonbasic lands played in at least this share of eligible decks")
+    ap.add_argument("--theme", help="EDHREC theme slug for this commander (e.g. superfriends); uses commanders/<slug>/<theme>")
+    ap.add_argument("--sets", help="plane restriction: comma-separated Scryfall set codes; every non-basic card must have a printing in one")
+    ap.add_argument("--plane", help="label for --sets (e.g. Innistrad)")
+    ap.add_argument("--out", help="output slug (default: commander slug)")
     args = ap.parse_args()
 
     cards, bulk_date = ing.get_bulk(ing.DEFAULT_CACHE, None)
@@ -68,7 +72,20 @@ def main():
             index = {r["name"]: r for r in csv.DictReader(fh)}
 
     slug = edhrec_slug(cmd["name"])
-    req = urllib.request.Request(EDHREC.format(slug=slug), headers={"User-Agent": ing.HEADERS["User-Agent"]})
+    page = slug + (f"/{args.theme}" if args.theme else "")
+    sets = set(s.strip().lower() for s in args.sets.split(",")) if args.sets else None
+    printed = {}
+    if sets:
+        import gzip
+        dc = sorted(ing.DEFAULT_CACHE.glob("default-cards-*.jsonl.gz"))[-1]
+        for line in gzip.open(dc, "rt", encoding="utf-8"):
+            c = json.loads(line)
+            if c.get("oracle_id") and not c.get("digital"):
+                printed.setdefault(c["oracle_id"], set()).add(c["set"])
+    in_plane = lambda c: (not sets) or bool(printed.get(c["oracle_id"], set()) & sets)
+    if sets and not in_plane(cmd):
+        sys.exit(f"commander {cmd['name']} has no printing in {sorted(sets)}")
+    req = urllib.request.Request(EDHREC.format(slug=page), headers={"User-Agent": ing.HEADERS["User-Agent"]})
     data = json.loads(urllib.request.urlopen(req, timeout=60).read())
     time.sleep(1)
     num_decks = data.get("container", {}).get("json_dict", {}).get("card", {}).get("num_decks") or \
@@ -93,6 +110,8 @@ def main():
             rejected.append((name, "outside color identity")); continue
         if c["oracle_id"] == cmd["oracle_id"]:
             continue
+        if not in_plane(c):
+            rejected.append((name, f"no printing in {args.plane or 'restricted sets'}")); continue
         front = (c.get("card_faces") or [c])[0].get("type_line") or c["type_line"]
         if "Land" in front and "//" not in c["name"] or front.startswith("Land"):
             if "Basic" not in front:
@@ -102,6 +121,25 @@ def main():
     nonbasic = [x for x in nonbasic if x[1] >= args.min_land_inclusion][:args.max_nonbasic]
     n_nonland = 99 - args.lands
     nonland = nonland[:n_nonland]
+    filler = 0
+    subtypes = lambda c: set(c["type_line"].split("—")[1].split()) if "—" in c["type_line"] and "Creature" in c["type_line"] else set()
+    tribe = subtypes(cmd) - {"Human", "Warrior", "Wizard", "Soldier", "Cleric", "Rogue", "Shaman", "Noble", "Advisor", "Druid", "Monk", "Samurai", "Knight", "Elder"}
+    if sets and len(cid) >= 2 and len(nonbasic) < 8:
+        haveL = {c["oracle_id"] for c, _, _ in nonbasic}
+        duals = sorted((c for c in uni if c["legalities"].get("commander") == "legal" and in_plane(c) and c["oracle_id"] not in haveL
+                        and c["type_line"].startswith("Land") and "Basic" not in c["type_line"] and c.get("edhrec_rank")
+                        and set(c.get("color_identity", [])) <= cid and len(set(c.get("produced_mana") or []) & cid) >= 2),
+                       key=lambda c: c["edhrec_rank"])
+        for c in duals[:8 - len(nonbasic)]:
+            nonbasic.append((c, None, "plane filler"))
+    if sets and len(nonland) < n_nonland:
+        have = {c["oracle_id"] for c, _, _ in nonland} | {cmd["oracle_id"]}
+        extra = sorted((c for c in uni if c["legalities"].get("commander") == "legal" and set(c.get("color_identity", [])) <= cid
+                        and in_plane(c) and c["oracle_id"] not in have and c.get("edhrec_rank")
+                        and not (((c.get("card_faces") or [c])[0].get("type_line") or c["type_line"]).startswith("Land") or "Land" in c["type_line"].split("//")[0])),
+                       key=lambda c: (0 if tribe & subtypes(c) else 1, c["edhrec_rank"]))
+        for c in extra[:n_nonland - len(nonland)]:
+            nonland.append((c, None, "plane filler")); filler += 1
     basics_needed = args.lands - len(nonbasic)
     colors = [x for x in "WUBRG" if x in cid] or ["C"]
     basic_counts = {}
@@ -124,6 +162,10 @@ def main():
         if c["legalities"].get("commander") != "legal":
             problems.append(f"{c['name']} not Commander-legal")
     elig = ing.commander_eligibility(cmd)
+    if sets:
+        off = [c["name"] for c in deck if not in_plane(c)]
+        if off:
+            problems.append("outside plane restriction: " + ", ".join(off))
     if elig.startswith("No"):
         problems.append("commander is not eligible (CR 903.3)")
     gcs = [c["name"] for c in deck if c.get("game_changer")]
@@ -157,9 +199,11 @@ def main():
     for b, n in basic_counts.items():
         archi.append(f"{n}x {b} [Land]")
 
-    L = [f"# Deck Skeleton — {cmd['name']}", "",
+    title = cmd["name"] + (f" — {args.plane}-only" if sets else "") + (f" — {args.theme.replace('-', ' ').title()} theme" if args.theme else "")
+    src = "https://edhrec.com/commanders/" + page
+    L = [f"# Deck Skeleton — {title}", "",
          f"> **Data-derived skeleton, not a tuned list.** Built {today} by `scripts/build_deck_skeleton.py` from "
-         f"[EDHREC]({'https://edhrec.com/commanders/' + slug}) inclusion rates (community data) and validated against Scryfall Oracle bulk "
+         f"[EDHREC]({src}) inclusion rates (community data) and validated against Scryfall Oracle bulk "
          f"({bulk_date[:10]}). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. "
          "Format per [EDH Standards](../EDH%20Standards.md).", "",
          "## Contents", "- [Commander](#commander)", "- [Validation](#validation)", "- [Bracket assessment](#bracket-assessment)",
@@ -172,6 +216,8 @@ def main():
          + (", ".join(f"B{k}: {v:,}" for k, v in sorted((data.get('bracket_counts') or {}).items())) or "n/a"), "",
          "## Validation", "",
          f"- Total cards: **{total}** (1 commander + {len(nonland)} nonland + {len(nonbasic)} nonbasic lands + {sum(basic_counts.values())} basics)",
+         *([f"- **Plane restriction ({args.plane}):** every non-basic card has a paper printing in sets `{', '.join(sorted(sets))}` (Scryfall default-cards). {filler} slots were filled from that card pool by EDHREC rank because the EDHREC suggestions ran out (marked — in the inclusion column). Filler prefers the commander's creature types (tribe: {', '.join(sorted(tribe)) or 'none'}), then EDHREC rank; multicolor decks also get up to 8 on-plane dual lands. *This is an outline: filler cards are popular on-plane cards, not hand-tuned synergy (Opinion: review them).*"] if sets else []),
+         *([f"- **Theme:** EDHREC `{args.theme}` theme page for this commander."] if args.theme else []),
          f"- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): "
          + ("✅ **all checks pass**" if not problems else "❌ " + "; ".join(problems)), "",
          "## Bracket assessment", "",
@@ -184,16 +230,16 @@ def main():
          "## Card breakdown", "", "| Card | Section | EDHREC inclusion | Identity |", "|---|---|---|---|"]
     for t, lst in cats.items():
         for c, incl in lst:
-            L.append(f"| {entry_link(c['name'])} | {t} | {incl:.0%} | {''.join(c.get('color_identity', [])) or 'C'} |")
+            L.append(f"| {entry_link(c['name'])} | {t} | {('—' if incl is None else f'{incl:.0%}')} | {''.join(c.get('color_identity', [])) or 'C'} |")
     for c, incl, _ in nonbasic:
-        L.append(f"| {entry_link(c['name'])} | Land | {incl:.0%} | {''.join(c.get('color_identity', [])) or 'C'} |")
+        L.append(f"| {entry_link(c['name'])} | Land | {('—' if incl is None else f'{incl:.0%}')} | {''.join(c.get('color_identity', [])) or 'C'} |")
     for b, n in basic_counts.items():
         L.append(f"| {n}× {b} | Basic land | — | — |")
     L += ["", "## Rejected candidates", "",
           "EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):", ""]
     L += [f"- {n} — {why}" for n, why in rejected[:30]] or ["- none"]
     DECKS.mkdir(exist_ok=True)
-    out = DECKS / f"{slug}.md"
+    out = DECKS / f"{args.out or slug}.md"
     out.write_text("\n".join(L) + "\n", encoding="utf-8")
     print(json.dumps({"deck": str(out.relative_to(ROOT)), "total": total, "problems": problems,
                       "game_changers": len(gcs), "bracket_floor": floor, "rejected": len(rejected)}))

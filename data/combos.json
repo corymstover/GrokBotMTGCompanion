@@ -2368,6 +2368,104 @@
    "two_card_infinite": 8,
    "almost": 38
   },
+  "plane-dominaria-braids-arisen-nightmare": {
+   "commander": [
+    "Braids, Arisen Nightmare"
+   ],
+   "combos": [
+    {
+     "id": "679-2498",
+     "cards": [
+      "Sheoldred, the Apocalypse",
+      "Lich's Mastery"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    }
+   ],
+   "two_card_infinite": 1,
+   "almost": 13
+  },
+  "plane-eldraine-syr-konrad-the-grim": {
+   "commander": [
+    "Syr Konrad, the Grim"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 6
+  },
+  "plane-innistrad-the-gitrog-monster": {
+   "commander": [
+    "The Gitrog Monster"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 35
+  },
+  "plane-ixalan-ghalta-primal-hunger": {
+   "commander": [
+    "Ghalta, Primal Hunger"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 4
+  },
+  "plane-kamigawa-isshin-two-heavens-as-one": {
+   "commander": [
+    "Isshin, Two Heavens as One"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 63
+  },
+  "plane-new-phyrexia-elesh-norn-mother-of-machines": {
+   "commander": [
+    "Elesh Norn, Mother of Machines"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 9
+  },
+  "plane-ravnica-aurelia-the-warleader": {
+   "commander": [
+    "Aurelia, the Warleader"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 13
+  },
+  "plane-tarkir-atarka-world-render": {
+   "commander": [
+    "Atarka, World Render"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 7
+  },
+  "plane-theros-uro-titan-of-natures-wrath": {
+   "commander": [
+    "Uro, Titan of Nature's Wrath"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 31
+  },
+  "plane-zendikar-omnath-locus-of-rage": {
+   "commander": [
+    "Omnath, Locus of Rage"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 14
+  },
   "prosper-tome-bound": {
    "commander": [
     "Prosper, Tome-Bound"
@@ -3473,6 +3571,511 @@
    ],
    "two_card_infinite": 1,
    "almost": 143
+  },
+  "theme-atraxa-praetors-voice-planeswalkers": {
+   "commander": [
+    "Atraxa, Praetors' Voice"
+   ],
+   "combos": [
+    {
+     "id": "1124-2696",
+     "cards": [
+      "Teferi, Who Slows the Sunset",
+      "The Chain Veil"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite activations of most planeswalkers",
+      "Infinite lifegain",
+      "Infinite lifegain triggers",
+      "Infinite mana permanents you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "1529-1887",
+     "cards": [
+      "Vraska, Betrayal's Sting",
+      "Vorinclex, Monstrous Raider"
+     ],
+     "n": 2,
+     "infinite": false,
+     "produces": [
+      "Target opponent loses the game"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "1529-5902",
+     "cards": [
+      "Vraska, Betrayal's Sting",
+      "Innkeeper's Talent"
+     ],
+     "n": 2,
+     "infinite": false,
+     "produces": [
+      "Target opponent loses the game"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "787-1124",
+     "cards": [
+      "Teferi, Temporal Archmage",
+      "The Chain Veil"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite colored mana",
+      "Infinite colorless mana",
+      "Infinite planeswalker activations"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "1124-1543-2247",
+     "cards": [
+      "Teferi, Master of Time",
+      "Ichormoon Gauntlet",
+      "The Chain Veil"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "R"
+    },
+    {
+     "id": "1543-2247-2369",
+     "cards": [
+      "Teferi, Master of Time",
+      "Ichormoon Gauntlet",
+      "Oath of Teferi"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "R"
+    },
+    {
+     "id": "2247-2431-5678",
+     "cards": [
+      "Teferi, Master of Time",
+      "The Eternal Wanderer",
+      "Deepglow Skate"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "R"
+    },
+    {
+     "id": "787-1124-4450",
+     "cards": [
+      "Teferi, Temporal Archmage",
+      "The Chain Veil",
+      "Carth the Lion"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite colored mana",
+      "Infinite colorless mana",
+      "Infinite mana permanents you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 2,
+   "almost": 80
+  },
+  "theme-chulane-teller-of-tales-landfall": {
+   "commander": [
+    "Chulane, Teller of Tales"
+   ],
+   "combos": [
+    {
+     "id": "1478-3293",
+     "cards": [
+      "Emeria Shepherd",
+      "Sakura-Tribe Elder"
+     ],
+     "n": 2,
+     "infinite": false,
+     "produces": [
+      "Put all basic Plains from your library onto the battlefield"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1636-3314",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Intruder Alarm"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "1636-4770",
+     "cards": [
+      "Intruder Alarm",
+      "Whitemane Lion"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mana creatures you control can produce",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "751-1636",
+     "cards": [
+      "Intruder Alarm",
+      "Shrieking Drake"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite storm count",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mana creatures you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "224-751-3052",
+     "cards": [
+      "Karametra, God of Harvests",
+      "Shrieking Drake",
+      "Retreat to Coralhelm"
+     ],
+     "n": 3,
+     "infinite": false,
+     "produces": [
+      "Put all Forests and Plains from your library onto the battlefield tapped"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "751-3314-4093",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Mana Breach",
+      "Shrieking Drake"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "R"
+    },
+    {
+     "id": "751-1671-3314-3470",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Shrieking Drake",
+      "Lotus Cobra",
+      "Simic Growth Chamber"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "751-1671-3314-3875",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Shrieking Drake",
+      "Tireless Provisioner",
+      "Simic Growth Chamber"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "751-3147-3314-3470",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Shrieking Drake",
+      "Lotus Cobra",
+      "Azorius Chancery"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "751-3147-3314-3875",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Shrieking Drake",
+      "Tireless Provisioner",
+      "Azorius Chancery"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "751-907-3314-3470",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Shrieking Drake",
+      "Lotus Cobra",
+      "Selesnya Sanctuary"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers",
+      "Near-infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "751-907-3314-3875",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Shrieking Drake",
+      "Tireless Provisioner",
+      "Selesnya Sanctuary"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 3,
+   "almost": 198
+  },
+  "theme-edgar-markov-lifegain": {
+   "commander": [
+    "Edgar Markov"
+   ],
+   "combos": [
+    {
+     "id": "110-3966",
+     "cards": [
+      "Marauding Blight-Priest",
+      "Exquisite Blood"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "110-6191",
+     "cards": [
+      "Marauding Blight-Priest",
+      "Bloodthirsty Conqueror"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "314-3966",
+     "cards": [
+      "Vito, Thorn of the Dusk Rose",
+      "Exquisite Blood"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "314-6191",
+     "cards": [
+      "Vito, Thorn of the Dusk Rose",
+      "Bloodthirsty Conqueror"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "690-3966",
+     "cards": [
+      "Sanguine Bond",
+      "Exquisite Blood"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "690-6191",
+     "cards": [
+      "Sanguine Bond",
+      "Bloodthirsty Conqueror"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    }
+   ],
+   "two_card_infinite": 6,
+   "almost": 64
+  },
+  "theme-muldrotha-the-gravetide-self-mill": {
+   "commander": [
+    "Muldrotha, the Gravetide"
+   ],
+   "combos": [
+    {
+     "id": "2836-4400",
+     "cards": [
+      "Hermit Druid",
+      "Laboratory Maniac"
+     ],
+     "n": 2,
+     "infinite": false,
+     "produces": [
+      "Win the game"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "1414-2730-5131-5256",
+     "cards": [
+      "Muldrotha, the Gravetide",
+      "Kaya's Ghostform",
+      "Altar of Dementia",
+      "Lotus Petal"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mill"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 0,
+   "almost": 92
   },
   "trostani-selesnyas-voice": {
    "commander": [

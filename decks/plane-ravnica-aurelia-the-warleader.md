@@ -1,0 +1,250 @@
+# Deck Skeleton — Aurelia, the Warleader — Ravnica-only
+
+> **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/aurelia-the-warleader) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Rejected candidates](#rejected-candidates)
+- [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Aurelia, the Warleader](../cards/A/au.md#aurelia-the-warleader)** — {2}{R}{R}{W}{W} — Legendary Creature — Angel
+- Color identity: **RW (Red, White)**
+- Eligibility: Yes (legendary creature)
+- EDHREC sample: 5788 decks · bracket distribution reported by EDHREC: B1: 21, B2: 542, B3: 503, B4: 308, B5: 19
+
+## Validation
+
+- Total cards: **100** (1 commander + 63 nonland + 8 nonbasic lands + 28 basics)
+- **Plane restriction (Ravnica):** every non-basic card has a paper printing in sets `dgm, dis, gpt, grn, gtc, mkm, rav, rna, rtr, war` (Scryfall default-cards). 33 slots were filled from that card pool by EDHREC rank because the EDHREC suggestions ran out (marked — in the inclusion column). Filler prefers the commander's creature types (tribe: Angel), then EDHREC rank; multicolor decks also get up to 8 on-plane dual lands. *This is an outline: filler cards are popular on-plane cards, not hand-tuned synergy (Opinion: review them).*
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+
+## Bracket assessment
+
+- Game Changers (1): Smothering Tithe
+- Extra-turn cards: Chance for Glory
+- Mass land denial: none
+- Two-card infinite combos: ⚠️ not machine-checked — review manually.
+- **Minimum bracket by the published barometers: 3 (Upgraded) — 1–3 Game Changers.** (Brackets are a pregame-conversation tool; see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).)
+
+## Decklist (Archidekt import)
+
+```text
+1x Aurelia, the Warleader [Commander{top}]
+1x Boros Charm [Instant]
+1x Wear // Tear [Instant]
+1x Chance for Glory [Instant]
+1x Aurelia's Fury [Instant]
+1x Response // Resurgence [Instant]
+1x Unbreakable Formation [Instant]
+1x Master Warcraft [Instant]
+1x Lightning Helix [Instant]
+1x Bolt Bend [Instant]
+1x Justice Strike [Instant]
+1x Demand Answers [Instant]
+1x Rootborn Defenses [Instant]
+1x Electrodominance [Instant]
+1x Boros Signet [Artifact]
+1x Sunforger [Artifact]
+1x Boros Cluestone [Artifact]
+1x Boros Locket [Artifact]
+1x Boros Keyrune [Artifact]
+1x Chromatic Lantern [Artifact]
+1x Illusionist's Bracers [Artifact]
+1x Aurelia, the Law Above [Creature]
+1x Aurelia, Exemplar of Justice [Creature]
+1x Firemane Avenger [Creature]
+1x Angelic Skirmisher [Creature]
+1x Frontline Medic [Creature]
+1x Tajic, Blade of the Legion [Creature]
+1x Swiftblade Vindicator [Creature]
+1x Tajic, Legion's Edge [Creature]
+1x Angel of Serenity [Creature]
+1x Wojek Investigator [Creature]
+1x Feather, the Redeemed [Creature]
+1x Guardian of the Gateless [Creature]
+1x Sunblade Angel [Creature]
+1x Aurelia's Vindicator [Creature]
+1x Angel of Grace [Creature]
+1x Light of the Legion [Creature]
+1x Firemane Angel [Creature]
+1x Archway Angel [Creature]
+1x Razia, Boros Archangel [Creature]
+1x Guttersnipe [Creature]
+1x Hellkite Tyrant [Creature]
+1x Delney, Streetwise Lookout [Creature]
+1x Krenko, Tin Street Kingpin [Creature]
+1x Crime Novelist [Creature]
+1x Utvara Hellkite [Creature]
+1x Electrostatic Field [Creature]
+1x Runaway Steam-Kin [Creature]
+1x Legion Warboss [Creature]
+1x Grateful Apparition [Creature]
+1x Smothering Tithe [Enchantment]
+1x Warleader's Call [Enchantment]
+1x Assemble the Legion [Enchantment]
+1x Legion's Initiative [Enchantment]
+1x Gleam of Battle [Enchantment]
+1x Blind Obedience [Enchantment]
+1x Sphere of Safety [Enchantment]
+1x Ethereal Armor [Enchantment]
+1x Divine Visitation [Enchantment]
+1x Vandalblast [Sorcery]
+1x Hour of Reckoning [Sorcery]
+1x Light Up the Stage [Sorcery]
+1x Single Combat [Sorcery]
+1x Ugin, the Ineffable [Planeswalker]
+1x Sacred Foundry [Land]
+1x Boros Garrison [Land]
+1x Rogue's Passage [Land]
+1x Boros Guildgate [Land]
+1x Sunhome, Fortress of the Legion [Land]
+1x Elegant Parlor [Land]
+1x Gateway Plaza [Land]
+1x Interplanar Beacon [Land]
+14x Plains [Land]
+14x Mountain [Land]
+```
+
+## Card breakdown
+
+| Card | Section | EDHREC inclusion | Identity |
+|---|---|---|---|
+| [Boros Charm](../cards/B/bo.md#boros-charm) | Instant | 70% | RW |
+| [Wear // Tear](../cards/W/we.md#wear--tear) | Instant | 33% | RW |
+| [Chance for Glory](../cards/C/cha.md#chance-for-glory) | Instant | 20% | RW |
+| [Aurelia's Fury](../cards/A/au.md#aurelias-fury) | Instant | 17% | RW |
+| [Response // Resurgence](../cards/R/res.md#response--resurgence) | Instant | 17% | RW |
+| [Unbreakable Formation](../cards/U/un.md#unbreakable-formation) | Instant | 12% | W |
+| [Master Warcraft](../cards/M/mas.md#master-warcraft) | Instant | 12% | RW |
+| [Lightning Helix](../cards/L/li.md#lightning-helix) | Instant | 10% | RW |
+| [Bolt Bend](../cards/B/bo.md#bolt-bend) | Instant | 10% | R |
+| [Justice Strike](../cards/J/ju.md#justice-strike) | Instant | 10% | RW |
+| [Demand Answers](../cards/D/dem.md#demand-answers) | Instant | 10% | R |
+| [Rootborn Defenses](../cards/R/ro.md#rootborn-defenses) | Instant | — | W |
+| [Electrodominance](../cards/E/el.md#electrodominance) | Instant | — | R |
+| [Boros Signet](../cards/B/bo.md#boros-signet) | Artifact | 53% | RW |
+| [Sunforger](../cards/S/sun.md#sunforger) | Artifact | 20% | RW |
+| [Boros Cluestone](../cards/B/bo.md#boros-cluestone) | Artifact | 9% | RW |
+| [Boros Locket](../cards/B/bo.md#boros-locket) | Artifact | 7% | RW |
+| [Boros Keyrune](../cards/B/bo.md#boros-keyrune) | Artifact | 6% | RW |
+| [Chromatic Lantern](../cards/C/chr.md#chromatic-lantern) | Artifact | — | C |
+| [Illusionist's Bracers](../cards/I/il.md#illusionists-bracers) | Artifact | — | C |
+| [Aurelia, the Law Above](../cards/A/au.md#aurelia-the-law-above) | Creature | 48% | RW |
+| [Aurelia, Exemplar of Justice](../cards/A/au.md#aurelia-exemplar-of-justice) | Creature | 38% | RW |
+| [Firemane Avenger](../cards/F/fi.md#firemane-avenger) | Creature | 34% | RW |
+| [Angelic Skirmisher](../cards/A/an.md#angelic-skirmisher) | Creature | 24% | W |
+| [Frontline Medic](../cards/F/fr.md#frontline-medic) | Creature | 12% | W |
+| [Tajic, Blade of the Legion](../cards/T/ta.md#tajic-blade-of-the-legion) | Creature | 11% | RW |
+| [Swiftblade Vindicator](../cards/S/sw.md#swiftblade-vindicator) | Creature | 11% | RW |
+| [Tajic, Legion's Edge](../cards/T/ta.md#tajic-legions-edge) | Creature | 10% | RW |
+| [Angel of Serenity](../cards/A/an.md#angel-of-serenity) | Creature | — | W |
+| [Wojek Investigator](../cards/W/wo.md#wojek-investigator) | Creature | — | W |
+| [Feather, the Redeemed](../cards/F/fe.md#feather-the-redeemed) | Creature | — | RW |
+| [Guardian of the Gateless](../cards/G/gu.md#guardian-of-the-gateless) | Creature | — | W |
+| [Sunblade Angel](../cards/S/sun.md#sunblade-angel) | Creature | — | W |
+| [Aurelia's Vindicator](../cards/A/au.md#aurelias-vindicator) | Creature | — | W |
+| [Angel of Grace](../cards/A/an.md#angel-of-grace) | Creature | — | W |
+| [Light of the Legion](../cards/L/li.md#light-of-the-legion) | Creature | — | W |
+| [Firemane Angel](../cards/F/fi.md#firemane-angel) | Creature | — | RW |
+| [Archway Angel](../cards/A/arc.md#archway-angel) | Creature | — | W |
+| [Razia, Boros Archangel](../cards/R/raz.md#razia-boros-archangel) | Creature | — | RW |
+| [Guttersnipe](../cards/G/gu.md#guttersnipe) | Creature | — | R |
+| [Hellkite Tyrant](../cards/H/he.md#hellkite-tyrant) | Creature | — | R |
+| [Delney, Streetwise Lookout](../cards/D/del.md#delney-streetwise-lookout) | Creature | — | W |
+| [Krenko, Tin Street Kingpin](../cards/K/kr.md#krenko-tin-street-kingpin) | Creature | — | R |
+| [Crime Novelist](../cards/C/cr.md#crime-novelist) | Creature | — | R |
+| [Utvara Hellkite](../cards/U/ut.md#utvara-hellkite) | Creature | — | R |
+| [Electrostatic Field](../cards/E/el.md#electrostatic-field) | Creature | — | R |
+| [Runaway Steam-Kin](../cards/R/ru.md#runaway-steam-kin) | Creature | — | R |
+| [Legion Warboss](../cards/L/le.md#legion-warboss) | Creature | — | R |
+| [Grateful Apparition](../cards/G/gra.md#grateful-apparition) | Creature | — | W |
+| [Smothering Tithe](../cards/S/sm.md#smothering-tithe) | Enchantment | 30% | W |
+| [Warleader's Call](../cards/W/war.md#warleaders-call) | Enchantment | 19% | RW |
+| [Assemble the Legion](../cards/A/as.md#assemble-the-legion) | Enchantment | 15% | RW |
+| [Legion's Initiative](../cards/L/le.md#legions-initiative) | Enchantment | 13% | RW |
+| [Gleam of Battle](../cards/G/gl.md#gleam-of-battle) | Enchantment | 9% | RW |
+| [Blind Obedience](../cards/B/bli.md#blind-obedience) | Enchantment | — | W |
+| [Sphere of Safety](../cards/S/sph.md#sphere-of-safety) | Enchantment | — | W |
+| [Ethereal Armor](../cards/E/et.md#ethereal-armor) | Enchantment | — | W |
+| [Divine Visitation](../cards/D/di.md#divine-visitation) | Enchantment | — | W |
+| [Vandalblast](../cards/V/va.md#vandalblast) | Sorcery | 19% | R |
+| [Hour of Reckoning](../cards/H/ho.md#hour-of-reckoning) | Sorcery | — | W |
+| [Light Up the Stage](../cards/L/li.md#light-up-the-stage) | Sorcery | — | R |
+| [Single Combat](../cards/S/si.md#single-combat) | Sorcery | — | W |
+| [Ugin, the Ineffable](../cards/U/ug.md#ugin-the-ineffable) | Planeswalker | — | C |
+| [Sacred Foundry](../cards/S/sac.md#sacred-foundry) | Land | 47% | RW |
+| [Boros Garrison](../cards/B/bo.md#boros-garrison) | Land | 41% | RW |
+| [Rogue's Passage](../cards/R/ro.md#rogues-passage) | Land | 37% | C |
+| [Boros Guildgate](../cards/B/bo.md#boros-guildgate) | Land | 31% | RW |
+| [Sunhome, Fortress of the Legion](../cards/S/sun.md#sunhome-fortress-of-the-legion) | Land | 28% | RW |
+| [Elegant Parlor](../cards/E/el.md#elegant-parlor) | Land | — | RW |
+| [Gateway Plaza](../cards/G/ga.md#gateway-plaza) | Land | — | C |
+| [Interplanar Beacon](../cards/I/int.md#interplanar-beacon) | Land | — | C |
+| 14× Plains | Basic land | — | — |
+| 14× Mountain | Basic land | — | — |
+
+## Rejected candidates
+
+EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):
+
+- Sol Ring — no printing in Ravnica
+- Command Tower — no printing in Ravnica
+- Arcane Signet — no printing in Ravnica
+- Swords to Plowshares — no printing in Ravnica
+- Clifftop Retreat — no printing in Ravnica
+- Gisela, Blade of Goldnight — no printing in Ravnica
+- Path to Exile — no printing in Ravnica
+- Lyra Dawnbringer — no printing in Ravnica
+- Temple of Triumph — no printing in Ravnica
+- Swiftfoot Boots — no printing in Ravnica
+- Giada, Font of Hope — no printing in Ravnica
+- Battlefield Forge — no printing in Ravnica
+- Helm of the Host — no printing in Ravnica
+- Talisman of Conviction — no printing in Ravnica
+- Wind-Scarred Crag — no printing in Ravnica
+- Firemane Commando — no printing in Ravnica
+- Rugged Prairie — no printing in Ravnica
+- Sword of the Animist — no printing in Ravnica
+- Sundown Pass — no printing in Ravnica
+- Iroas, God of Victory — no printing in Ravnica
+- Spectator Seating — no printing in Ravnica
+- Furycalm Snarl — no printing in Ravnica
+- Blasphemous Act — no printing in Ravnica
+- Lightning Greaves — no printing in Ravnica
+- Avacyn, Angel of Hope — no printing in Ravnica
+- Evolving Wilds — no printing in Ravnica
+- Herald of War — no printing in Ravnica
+- Combat Celebrant — no printing in Ravnica
+- Akroma's Will — no printing in Ravnica
+- Arid Mesa — no printing in Ravnica
+
+<!-- RULES-NOTES:START -->
+## Commander rules & rulings
+
+> Auto-generated by `scripts/deck_rules_notes.py` from Scryfall Oracle bulk (2026-10-15) and rulings bulk (2026-10-15); rulings are quoted verbatim (source: Wizards of the Coast unless marked). Facts only — strategy is in [EDH Standards](../EDH%20Standards.md#synergy-notes), labeled Opinion.
+
+**Oracle text — [Aurelia, the Warleader](../cards/A/au.md#aurelia-the-warleader):**
+> Aurelia, the Warleader: Flying, vigilance, haste / Whenever Aurelia attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase.
+
+**Official rulings on the commander (1):**
+- *2024-11-08* — Aurelia's last ability doesn't give you any additional main phases. This means that you will move directly from the end of combat step of one combat phase to the beginning of combat step of the next one.
+
+**Creature-type overlap** with the commander (Angel): 15 card(s) — [Aurelia, the Law Above](../cards/A/au.md#aurelia-the-law-above), [Aurelia, Exemplar of Justice](../cards/A/au.md#aurelia-exemplar-of-justice), [Firemane Avenger](../cards/F/fi.md#firemane-avenger), [Angelic Skirmisher](../cards/A/an.md#angelic-skirmisher), [Angel of Serenity](../cards/A/an.md#angel-of-serenity), [Wojek Investigator](../cards/W/wo.md#wojek-investigator), [Feather, the Redeemed](../cards/F/fe.md#feather-the-redeemed), [Guardian of the Gateless](../cards/G/gu.md#guardian-of-the-gateless), [Sunblade Angel](../cards/S/sun.md#sunblade-angel), [Aurelia's Vindicator](../cards/A/au.md#aurelias-vindicator), [Angel of Grace](../cards/A/an.md#angel-of-grace), [Light of the Legion](../cards/L/li.md#light-of-the-legion) ….
+
+**Deck cards with official rulings:** 59 of 71 non-basic cards — [Boros Charm](../cards/B/bo.md#boros-charm) (2), [Wear // Tear](../cards/W/we.md#wear--tear) (10), [Chance for Glory](../cards/C/cha.md#chance-for-glory) (3), [Aurelia's Fury](../cards/A/au.md#aurelias-fury) (3), [Response // Resurgence](../cards/R/res.md#response--resurgence) (9), [Unbreakable Formation](../cards/U/un.md#unbreakable-formation) (3), [Master Warcraft](../cards/M/mas.md#master-warcraft) (4), [Lightning Helix](../cards/L/li.md#lightning-helix) (2), [Bolt Bend](../cards/B/bo.md#bolt-bend) (7), [Rootborn Defenses](../cards/R/ro.md#rootborn-defenses) (7), [Electrodominance](../cards/E/el.md#electrodominance) (6), [Sunforger](../cards/S/sun.md#sunforger) (3), [Boros Keyrune](../cards/B/bo.md#boros-keyrune) (2), [Chromatic Lantern](../cards/C/chr.md#chromatic-lantern) (1), [Illusionist's Bracers](../cards/I/il.md#illusionists-bracers) (7), [Aurelia, the Law Above](../cards/A/au.md#aurelia-the-law-above) (1), [Aurelia, Exemplar of Justice](../cards/A/au.md#aurelia-exemplar-of-justice) (6), [Firemane Avenger](../cards/F/fi.md#firemane-avenger) (5), [Angelic Skirmisher](../cards/A/an.md#angelic-skirmisher) (2), [Frontline Medic](../cards/F/fr.md#frontline-medic) (4), [Tajic, Blade of the Legion](../cards/T/ta.md#tajic-blade-of-the-legion) (3), [Swiftblade Vindicator](../cards/S/sw.md#swiftblade-vindicator) (1), [Tajic, Legion's Edge](../cards/T/ta.md#tajic-legions-edge) (4), [Angel of Serenity](../cards/A/an.md#angel-of-serenity) (4), [Wojek Investigator](../cards/W/wo.md#wojek-investigator) (5), [Feather, the Redeemed](../cards/F/fe.md#feather-the-redeemed) (6), [Guardian of the Gateless](../cards/G/gu.md#guardian-of-the-gateless) (1), [Aurelia's Vindicator](../cards/A/au.md#aurelias-vindicator) (14), [Angel of Grace](../cards/A/an.md#angel-of-grace) (7), [Light of the Legion](../cards/L/li.md#light-of-the-legion) (4), [Firemane Angel](../cards/F/fi.md#firemane-angel) (1), [Razia, Boros Archangel](../cards/R/raz.md#razia-boros-archangel) (2), [Guttersnipe](../cards/G/gu.md#guttersnipe) (2), [Hellkite Tyrant](../cards/H/he.md#hellkite-tyrant) (1), [Delney, Streetwise Lookout](../cards/D/del.md#delney-streetwise-lookout) (10), [Krenko, Tin Street Kingpin](../cards/K/kr.md#krenko-tin-street-kingpin) (2), [Electrostatic Field](../cards/E/el.md#electrostatic-field) (2), [Runaway Steam-Kin](../cards/R/ru.md#runaway-steam-kin) (3), [Legion Warboss](../cards/L/le.md#legion-warboss) (4), [Grateful Apparition](../cards/G/gra.md#grateful-apparition) (6), [Smothering Tithe](../cards/S/sm.md#smothering-tithe) (1), [Assemble the Legion](../cards/A/as.md#assemble-the-legion) (1), [Legion's Initiative](../cards/L/le.md#legions-initiative) (2), [Gleam of Battle](../cards/G/gl.md#gleam-of-battle) (2), [Blind Obedience](../cards/B/bli.md#blind-obedience) (4), [Sphere of Safety](../cards/S/sph.md#sphere-of-safety) (1), [Ethereal Armor](../cards/E/et.md#ethereal-armor) (1), [Divine Visitation](../cards/D/di.md#divine-visitation) (3), [Vandalblast](../cards/V/va.md#vandalblast) (4), [Hour of Reckoning](../cards/H/ho.md#hour-of-reckoning) (6), [Light Up the Stage](../cards/L/li.md#light-up-the-stage) (9), [Single Combat](../cards/S/si.md#single-combat) (2), [Ugin, the Ineffable](../cards/U/ug.md#ugin-the-ineffable) (7), [Sacred Foundry](../cards/S/sac.md#sacred-foundry) (2), [Boros Garrison](../cards/B/bo.md#boros-garrison) (1), [Rogue's Passage](../cards/R/ro.md#rogues-passage) (1), [Boros Guildgate](../cards/B/bo.md#boros-guildgate) (2), [Sunhome, Fortress of the Legion](../cards/S/sun.md#sunhome-fortress-of-the-legion) (2), [Interplanar Beacon](../cards/I/int.md#interplanar-beacon) (2).
+<!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**No complete combos found** (13 combos are one card away — not listed).
+<!-- COMBOS:END -->
