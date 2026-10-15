@@ -2,16 +2,16 @@
 title: "Conflicts & Arcs"
 category: lore
 tags: [arcs, conflicts]
-issues: [7, 13, 34]
+issues: [7, 13, 34, 72]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Characters Index.md", "Master Timeline.md", "Planes Index.md", "Story Arc Summaries.md", "Omenpath & Multiverse Connections.md"]
+related: ["Characters Index.md", "Master Timeline.md", "Planes Index.md", "Story Arc Summaries.md", "Contradictions & Retcons Log.md", "Omenpath & Multiverse Connections.md"]
 schema: 2
 ---
 
 # Conflicts & Arcs
 
-> **Deepened (Bot cycle 3, 2026-10-15).** Wars and multi-set story arcs in story order. Each entry: **Sets** (release month from Scryfall), **Timeline** placement, **Planes**, **Characters**, sourced **Events**, **Outcome**, and **Sources** with a note on what each page establishes. Cross-arc storylines are traced in [Cross-arc threads](#cross-arc-threads). Related: [Characters Index](Characters%20Index.md) · [Planes Index](Planes%20Index.md) · [Master Timeline](Master%20Timeline.md).
+> **Deepened (Bot cycle 20, Phase 6):** major H2 arcs now carry Cause · Key beats · Outcome · Lasting consequences with direct Wizards citations; thin H3s (ZNR, STX, SNC, BLB) expanded. Anchors unchanged. Retcons: [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md).
 > **Sourcing:** official magic.wizards.com pages only (fetched 2026-10-15; URLs checked against the site's sitemap). Quotes are verbatim fragments. Flags per [Knowledge Index](Knowledge%20Index.md#canon--verification-flags): ✅ sourced · ⚠️ not verified this cycle · ❓ open question · 🚫 non-canonical.
 > **Bot cycle 7:** fuller beat-by-beat narratives (key beats, outcome, lasting consequences) are in [Story Arc Summaries](Story%20Arc%20Summaries.md); Omenpath links are in [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md).
 
@@ -62,103 +62,190 @@ schema: 2
 - [Open questions](#open-questions)
 
 ## Ancient: imprisoning the Eldrazi
-**Sets:** — (backstory; revealed in Rise of the Eldrazi / Battle for Zendikar) · **Timeline:** [Pre-Mending / Ancient](Master%20Timeline.md#pre-mending--ancient) · **Planes:** [Zendikar](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Ugin](Characters%20Index.md#ugin), [Sorin Markov](Characters%20Index.md#sorin-markov), [Nahiri](Characters%20Index.md#nahiri) · **Status:** ✅
+**Sets:** — (backstory; revealed in Rise of the Eldrazi / Battle for Zendikar) · **Timeline:** [Pre-Mending / Ancient](Master%20Timeline.md#pre-mending--ancient) · **Planes:** [Zendikar](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Ugin](Characters%20Index.md#ugin), [Sorin Markov](Characters%20Index.md#sorin-markov), [Nahiri](Characters%20Index.md#nahiri) · **Status:** ✅ deepened Bot cycle 20
 
-- Ugin, Sorin and Nahiri used hedrons to lure and imprison the three Eldrazi titans on Zendikar ([Zendikar profile](https://magic.wizards.com/en/story/zendikar-plane)).
+**Cause:** The Eldrazi titans — Emrakul, Ulamog and Kozilek — "roam the desolate spaces between worlds" and "devour the mana and life energy of any plane they encounter." Three ancient Planeswalkers could not defeat them, so they chose imprisonment ([BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23)).
+
+**Key beats:**
+- At Ugin's direction, Nahiri built a worldwide hedron network on her home plane; the titans "manifested in physical form on Zendikar, where they became confined … and sank into harmless dormancy." Sorin and Ugin left; Nahiri remained as ward ([BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23); [Zendikar profile](https://magic.wizards.com/en/story/zendikar-plane)).
+- "A little more than a thousand years ago, the Eldrazi nearly escaped—and neither Sorin nor Ugin returned to help." Nahiri left in search of the others ([BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23)).
 - Nahiri later blamed Planeswalkers for Zendikar's suffering: "Sorin and Ugin would never have been able to bind the Eldrazi in her home … and awaken the Roil" ([Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair)).
-- **Outcome:** The prison held for millennia until the Eye of Ugin was damaged (see [Eldrazi Awaken](#eldrazi-awaken--battle-for-zendikar--gatewatch)).
-- **Sources:** [Zendikar profile](https://magic.wizards.com/en/story/zendikar-plane) — hedron prison · [The Lithomancer](https://magic.wizards.com/en/news/magic-story/the-lithomancer) — Ugin, Sorin, Nahiri plan the trap · [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair) — Nahiri's later view
+
+**Outcome:** The prison held for millennia until the Eye of Ugin was damaged (see [Eldrazi Awaken](#eldrazi-awaken--battle-for-zendikar--gatewatch)).
+**Lasting consequences:** The Roil becomes Zendikar's signature upheaval; Nahiri's abandonment grievance drives [Innistrad & Emrakul](#innistrad--emrakul); the hedron prison is the template later reused against Emrakul on Innistrad's moon.
+**Sources:** [Zendikar profile](https://magic.wizards.com/en/story/zendikar-plane) · [BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23) · [The Lithomancer](https://magic.wizards.com/en/news/magic-story/the-lithomancer) · [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair)
 
 ## The Brothers' War
-**Sets:** The Brothers' War (2022-11, retold); original Antiquities era · **Timeline:** [Dated events (AR)](Master%20Timeline.md#dated-events-ar) · [Brothers' War & Phyrexian wars](Master%20Timeline.md#brothers-war--phyrexian-wars) · **Planes:** [Dominaria](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Urza](Characters%20Index.md#urza), [Mishra](Characters%20Index.md#mishra), [Teferi](Characters%20Index.md#teferi), [Kaya](Characters%20Index.md#kaya), [Saheeli Rai](Characters%20Index.md#saheeli-rai) · **Status:** ✅
+**Sets:** The Brothers' War (2022-11, retold); original Antiquities era · **Timeline:** [Dated events (AR)](Master%20Timeline.md#dated-events-ar) · [Brothers' War & Phyrexian wars](Master%20Timeline.md#brothers-war--phyrexian-wars) · **Planes:** [Dominaria](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Urza](Characters%20Index.md#urza), [Mishra](Characters%20Index.md#mishra), [Teferi](Characters%20Index.md#teferi), [Kaya](Characters%20Index.md#kaya), [Saheeli Rai](Characters%20Index.md#saheeli-rai) · **Status:** ✅ deepened Bot cycle 20
 
-- Urza and Mishra found the power stones in the Caves of Koilos; their war devastated Dominaria and caused an ice age; afterwards Urza discovered Phyrexia ([Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane)).
-- **Dated in official fiction:** Kroog is destroyed (**28 AR**); trench warfare near Tomakul (**44 AR**); Urza uses the sylex as Mishra's machine-self attacks (**63 AR**); "there was silence in Terisiare" (**64 AR**); survivors in Penregon "five years after the war" (**69 AR**) ([BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary), [BRO Ep. 1](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end), [BRO Ep. 2](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-2-the-beginning)).
+**Cause:** Urza and Mishra found the power stones in the Caves of Koilos; rivalry over the stones escalated into continental war ([Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane)).
+
+**Key beats:**
+- **Dated in official fiction:** Kroog destroyed (**28 AR**); trench warfare near Tomakul (**44 AR**); Urza uses the sylex as Mishra's machine-self attacks (**63 AR**); "there was silence in Terisiare" (**64 AR**); survivors in Penregon "five years after the war" (**69 AR**); Penregon's end (**79 AR**); Kroog in ruins (**85 AR**) ([BRO Ep. 1–5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary)).
+- Afterward Urza discovered Phyrexia ([Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane)).
 - **Frame story (4562 AR):** Teferi, Kaya and Saheeli use a time-travel coffin so Teferi can visit the war as a spirit and recover the sylex for use against Phyrexia ([BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary)).
-- **Outcome:** Urza "passed from the world into greater worlds" as the first snow fell — the start of the ice age ([BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary)).
-- **Sources:** [Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane) · [BRO Ep. 1](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end) (69 AR) · [BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary) — AR-dated scenes, frame story · [BRO Ch. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus)
+
+**Outcome:** Urza "passed from the world into greater worlds" as the first snow fell — the start of the ice age ([BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary)). The Sylex blast shattered Terisiare into an archipelago ([Planeswalker's Guide to Dominaria](https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31)).
+**Lasting consequences:** Ice age; Argivian/Phyrexian vendetta path; sylex recovered in 4562 AR for the Invasion Tree crisis. AR years appear **only** in BRO fiction — expansion of "AR" is not printed there ([Retcons Log → AR](Contradictions%20%26%20Retcons%20Log.md#ar-after-reckoning-expansion)).
+**Sources:** [Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane) · [BRO Ep. 1](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end) · [BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary) · [BRO Ch. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus) · [Planeswalker's Guide to Dominaria](https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31)
+
 
 ## Phyrexia vs. Dominaria & the Weatherlight
-**Sets:** Weatherlight → Apocalypse era (pre-2001 sets; not re-fetched) · **Timeline:** [Brothers' War & Phyrexian wars](Master%20Timeline.md#brothers-war--phyrexian-wars) · **Planes:** [Dominaria](Planes%20Index.md#planes-with-official-profiles), [Phyrexia & New Phyrexia's spheres](Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) · **Characters:** [Urza](Characters%20Index.md#urza), [Yawgmoth](Characters%20Index.md#yawgmoth), [Karn](Characters%20Index.md#karn), [Tevesh Szat](Characters%20Index.md#tevesh-szat), [Lord Windgrace](Characters%20Index.md#lord-windgrace) · **Status:** ✅ (profile-level; original novels not fetched ⚠️)
+**Sets:** Weatherlight → Apocalypse era (pre-2001 sets; not re-fetched) · **Timeline:** [Brothers' War & Phyrexian wars](Master%20Timeline.md#brothers-war--phyrexian-wars) · **Planes:** [Dominaria](Planes%20Index.md#planes-with-official-profiles), [Phyrexia & New Phyrexia's spheres](Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) · **Characters:** [Urza](Characters%20Index.md#urza), [Yawgmoth](Characters%20Index.md#yawgmoth), [Karn](Characters%20Index.md#karn), [Tevesh Szat](Characters%20Index.md#tevesh-szat), [Lord Windgrace](Characters%20Index.md#lord-windgrace) · **Status:** ✅ profile-level deepened Bot cycle 20; original novels not fetched ⚠️
 
-- Phyrexia nearly invaded Dominaria; the skyship *Weatherlight*, its crew and the Legacy artifacts (including Karn) thwarted it ([Dominaria](https://magic.wizards.com/en/story/dominaria-plane)).
-- Urza's millennia-long vendetta against Yawgmoth; "Urza and Yawgmoth perished together" ([Urza](https://magic.wizards.com/en/story/urza-planeswalker)). Urza's Nine Titans included Tevesh Szat and Lord Windgrace.
-- **Outcome:** Phyrexia's first invasion failed; Karn survived to create Mirrodin.
-- **Sources:** [Urza profile](https://magic.wizards.com/en/story/urza-planeswalker) · [Tevesh Szat](https://magic.wizards.com/en/story/tevesh-szat-planeswalker) · [Windgrace](https://magic.wizards.com/en/story/windgrace-planeswalker)
+**Cause:** After the Brothers' War, Urza discovered Phyrexia and began a millennia-long vendetta against Yawgmoth ([Urza profile](https://magic.wizards.com/en/story/urza-planeswalker); [Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane)).
+
+**Key beats:**
+- "Phyrexia nearly invaded Dominaria, were it not for the skyship *Weatherlight* and its crew." The ship "contained ancient magical technology that enabled the ship to planeswalk"; "The Weatherlight, its crew of heroes, and a collection of artifacts called the Legacy (including the Planeswalker, Karn) were all instrumental in thwarting the invasion" ([Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane)).
+- Urza's Nine Titans included Tevesh Szat and Lord Windgrace ([Tevesh Szat](https://magic.wizards.com/en/story/tevesh-szat-planeswalker); [Windgrace](https://magic.wizards.com/en/story/windgrace-planeswalker)).
+- "Urza and Yawgmoth perished together" ([Urza profile](https://magic.wizards.com/en/story/urza-planeswalker)).
+
+**Outcome:** Phyrexia's first invasion of Dominaria failed; Karn survived.
+**Lasting consequences:** Karn later creates Mirrodin (Argentum) and unwittingly carries Phyrexian oil there → [Phyrexian conquest of Mirrodin](#phyrexian-conquest-of-mirrodin). Dominaria's later Cabal / Belzenlok threat is a separate post-Mending arc ([Return to Dominaria](#return-to-dominaria--war-of-the-spark)).
+**Sources:** [Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane) · [Urza profile](https://magic.wizards.com/en/story/urza-planeswalker) · [Tevesh Szat](https://magic.wizards.com/en/story/tevesh-szat-planeswalker) · [Windgrace](https://magic.wizards.com/en/story/windgrace-planeswalker) · ⚠️ original Invasion-block novels not fetched this cycle (see [Side-Media Index](Side-Media%20Index.md))
 
 ## Time Rifts & the Mending
-**Sets:** Time Spiral block (2006–07) · **Timeline:** [Time Rifts & the Mending](Master%20Timeline.md#time-rifts--the-mending) · **Planes:** [Dominaria](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Teferi](Characters%20Index.md#teferi), [Freyalise](Characters%20Index.md#freyalise), [Jaya Ballard](Characters%20Index.md#jaya-ballard), [Venser](Characters%20Index.md#venser), [Karn](Characters%20Index.md#karn) · **Status:** ✅
+**Sets:** Time Spiral block (2006–07) · **Timeline:** [Time Rifts & the Mending](Master%20Timeline.md#time-rifts--the-mending) · **Planes:** [Dominaria](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Teferi](Characters%20Index.md#teferi), [Freyalise](Characters%20Index.md#freyalise), [Jaya Ballard](Characters%20Index.md#jaya-ballard), [Venser](Characters%20Index.md#venser), [Karn](Characters%20Index.md#karn) · **Status:** ✅ deepened Bot cycle 20
 
-- Cataclysms, many caused by Planeswalkers, made Dominaria the epicenter of temporal-planar fractures; powerful Planeswalkers mended them ([Dominaria](https://magic.wizards.com/en/story/dominaria-plane)).
-- Teferi gave up his spark in the rifts and later restored it ("Teferi had given up his spark and then restored it" — [ONE: Alone](https://magic.wizards.com/en/news/magic-story/alone)). The Mending reduced Planeswalkers' former godlike power ([BRO Ch. 1](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold)).
-- **Outcome:** Post-Mending Planeswalkers are mortal and far less powerful.
-- **Sources:** [Dominaria](https://magic.wizards.com/en/story/dominaria-plane) · [BRO Ch. 1](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold) · [Unkindness of Ravens](https://magic.wizards.com/en/news/magic-story/unkindness-ravens-2015-07-29)
+**Cause:** "A host of cataclysms, many caused by Planeswalkers, left Dominaria desolated, destabilizing the fabric of the Multiverse." Dominaria became "the epicenter of the temporal-planar fractures that threatened all the planes" ([Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane)).
+
+**Key beats:**
+- Before the Mending, Dominaria was "nearly uninhabitable, covered in salt flats, acidic lakes, lightning storms, dust bowls, and worse" ([Planeswalker's Guide to Dominaria](https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31)).
+- "Then came the Mending, when the damage to Dominaria was healed through the heroic sacrifice of multiple Planeswalkers. Vitality flowed back into the land, which recovered with supernatural speed" ([Planeswalker's Guide to Dominaria](https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31)).
+- Teferi "had given up his spark and then restored it" ([ONE: Alone](https://magic.wizards.com/en/news/magic-story/alone)). The Mending reduced Planeswalkers' former godlike power ([BRO Ch. 1](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold)).
+
+**Outcome:** Post-Mending Planeswalkers are mortal and far less powerful than their predecessors.
+**Lasting consequences:** Every later Gatewatch-era conflict assumes the weaker spark. ⚠️ Time Spiral-era fiction itself not fetched this cycle.
+**Sources:** [Dominaria](https://magic.wizards.com/en/story/dominaria-plane) · [Planeswalker's Guide to Dominaria](https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31) · [BRO Ch. 1](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold) · [ONE: Alone](https://magic.wizards.com/en/news/magic-story/alone) · [Unkindness of Ravens](https://magic.wizards.com/en/news/magic-story/unkindness-ravens-2015-07-29)
 
 ## Conflux of Alara
-**Sets:** Shards of Alara block (2008–09) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Alara](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Nicol Bolas](Characters%20Index.md#nicol-bolas), [Ajani Goldmane](Characters%20Index.md#ajani-goldmane) · **Status:** ✅
+**Sets:** Shards of Alara block (2008–09) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Alara](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Nicol Bolas](Characters%20Index.md#nicol-bolas), [Ajani Goldmane](Characters%20Index.md#ajani-goldmane) · **Status:** ✅ deepened Bot cycle 20
 
-- The five shards reconverged, as Nicol Bolas planned; wars broke out as cultures clashed ([Alara profile](https://magic.wizards.com/en/story/alara-plane)).
-- **Outcome:** Alara is one plane again.
-- **Sources:** [Alara profile](https://magic.wizards.com/en/story/alara-plane)
+**Cause:** For centuries Alara was five separate shards, "each one flowing with only three colors of mana," whose cultures evolved apart (Bant, Esper, Grixis, Jund, Naya). Nicol Bolas "planned this all along" — he came "to feed on its rich mana and, in one massive ritual, restore its lost power as part of his multiplanar plan" ([Alara profile](https://magic.wizards.com/en/story/alara-plane)).
+
+**Key beats:**
+- The shards reconverge; "the rejoined plane flows with all five colors of mana once more" and "waves of raw power crash across the former planar boundaries" ([Alara profile](https://magic.wizards.com/en/story/alara-plane)).
+- Wars erupt: Esper invades seeking carmot for etherium; Grixis undead assault other shards; Jund extends "life hunts"; Naya's forces march under the elves' decrees ([Alara profile](https://magic.wizards.com/en/story/alara-plane)).
+- "Only a fellow Planeswalker has hope of discovering his schemes—but even a Planeswalker would likely die trying to stop him" ([Alara profile](https://magic.wizards.com/en/story/alara-plane)). ⚠️ Ajani's role is from the original block fiction, not re-fetched.
+
+**Outcome:** Alara is one plane again under Bolas's design.
+**Lasting consequences:** First major post-Mending Bolas plot; sets the pattern of Bolas engineering planar crises for personal power that runs through Amonkhet and War of the Spark.
+**Sources:** [Alara profile](https://magic.wizards.com/en/story/alara-plane)
 
 ## Phyrexian conquest of Mirrodin
-**Sets:** Scars of Mirrodin block (2010–11) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Mirrodin → New Phyrexia](Planes%20Index.md#planes-with-official-profiles), [Phyrexia & New Phyrexia's spheres](Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) · **Characters:** [Karn](Characters%20Index.md#karn), [Koth](Characters%20Index.md#koth), [Elspeth Tirel](Characters%20Index.md#elspeth-tirel), [Venser](Characters%20Index.md#venser), [Elesh Norn](Characters%20Index.md#elesh-norn) · **Status:** ✅
+**Sets:** Scars of Mirrodin block (2010–11) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Mirrodin → New Phyrexia](Planes%20Index.md#planes-with-official-profiles), [Phyrexia & New Phyrexia's spheres](Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) · **Characters:** [Karn](Characters%20Index.md#karn), [Koth](Characters%20Index.md#koth), [Elspeth Tirel](Characters%20Index.md#elspeth-tirel), [Venser](Characters%20Index.md#venser), [Elesh Norn](Characters%20Index.md#elesh-norn) · **Status:** ✅ deepened Bot cycle 20
 
-- Karn's Mirrodin was corrupted by Phyrexian oil he unknowingly carried; Phyrexians overwhelmed the Mirrans despite Koth, Elspeth and Venser; Venser sacrificed himself to restore Karn ([New Phyrexia](https://magic.wizards.com/en/story/new-phyrexia-plane)).
-- **Outcome:** Mirrodin became New Phyrexia under the praetors — the base for the later [Phyrexian Invasion](#phyrexian-invasion-of-the-multiverse).
-- **Sources:** [New Phyrexia profile](https://magic.wizards.com/en/story/new-phyrexia-plane) · [Mirrodin profile](https://magic.wizards.com/en/story/mirrodin-plane)
+**Cause:** Karn created Argentum/Mirrodin but "unwittingly introduced a dark contagion: Phyrexian oil." The oil "began the slow process of transforming the creatures it touched deep beneath the world's surface" ([Mirrodin profile](https://magic.wizards.com/en/story/mirrodin-plane); [New Phyrexia profile](https://magic.wizards.com/en/story/new-phyrexia-plane)).
+
+**Key beats:**
+- Memnarch, Karn's Warden, went mad, abducted mortals from other planes, and was later defeated by Glissa Sunseeker ([Mirrodin profile](https://magic.wizards.com/en/story/mirrodin-plane); [New Phyrexia profile](https://magic.wizards.com/en/story/new-phyrexia-plane)).
+- Karn, "slowly losing his mind, … became the Father of Machines"; compleation became "an active campaign" and the Mirrans "were overwhelmed" ([New Phyrexia profile](https://magic.wizards.com/en/story/new-phyrexia-plane)).
+- Koth, Elspeth and Venser could not turn the tide; "Venser sacrificed his life to restore Karn to sanity," but "not even the creator of Mirrodin could stop the Phyrexian machine" ([New Phyrexia profile](https://magic.wizards.com/en/story/new-phyrexia-plane)).
+- Praetors — "some of Karn's top lieutenants" — fight among themselves; Urabrask's red-aligned faction "turns a blind eye to the citizens of Mirrodin" ([Mirrodin profile](https://magic.wizards.com/en/story/mirrodin-plane); [New Phyrexia profile](https://magic.wizards.com/en/story/new-phyrexia-plane)).
+
+**Outcome:** Mirrodin becomes New Phyrexia under the praetors.
+**Lasting consequences:** New Phyrexia is the staging ground for the later [Phyrexian Invasion of the Multiverse](#phyrexian-invasion-of-the-multiverse); Karn's oil-guilt and the Mirran resistance (Koth) persist into ONE/MOM.
+**Sources:** [New Phyrexia profile](https://magic.wizards.com/en/story/new-phyrexia-plane) · [Mirrodin profile](https://magic.wizards.com/en/story/mirrodin-plane)
 
 ## Eldrazi Awaken / Battle for Zendikar / Gatewatch
-**Sets:** Zendikar block (2009–10); Battle for Zendikar, Oath of the Gatewatch (2015–16) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Zendikar](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Jace Beleren](Characters%20Index.md#jace-beleren), [Chandra Nalaar](Characters%20Index.md#chandra-nalaar), [Gideon Jura](Characters%20Index.md#gideon-jura), [Nissa Revane](Characters%20Index.md#nissa-revane), [Kiora](Characters%20Index.md#kiora), [Ugin](Characters%20Index.md#ugin), [Nahiri](Characters%20Index.md#nahiri) · **Status:** ✅
+**Sets:** Zendikar block (2009–10); Battle for Zendikar, Oath of the Gatewatch (2015–16) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Zendikar](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Jace Beleren](Characters%20Index.md#jace-beleren), [Chandra Nalaar](Characters%20Index.md#chandra-nalaar), [Gideon Jura](Characters%20Index.md#gideon-jura), [Nissa Revane](Characters%20Index.md#nissa-revane), [Kiora](Characters%20Index.md#kiora), [Ugin](Characters%20Index.md#ugin), [Nahiri](Characters%20Index.md#nahiri), [Ob Nixilis](Characters%20Index.md#ob-nixilis) · **Status:** ✅ deepened Bot cycle 20
 
-- Bolas lured Jace and Chandra to Zendikar; at the Eye of Ugin, "the prison trapping the Eldrazi" was damaged ([Battle of Fort Keff](https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff)).
-- Ob Nixilis knocked the hedrons out of alignment to reignite his spark ([BFZ story summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23)).
-- Gideon, Nissa, Jace and Chandra swore oaths — "I will keep watch" — founding the Gatewatch ([Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03)); after the battle near the ruins of Sea Gate, "it was over" ([Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17)).
-- **Outcome:** Zendikar saved; Emrakul next appears on Innistrad (→ [Innistrad & Emrakul](#innistrad--emrakul)). Ulamog and Kozilek are destroyed: "The leylines themselves caught fire … enveloping the titans" ([Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17); sourced in Bot cycle 8, see [Story Arc Summaries](Story%20Arc%20Summaries.md#battle-for-zendikar--oath-of-the-gatewatch-201516)).
-- **Sources:** [Battle of Fort Keff](https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff) · [BFZ summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23) · [Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03)
+**Cause:** Nicol Bolas arranged for Sarkhan, Jace and Chandra to converge on the Eye of Ugin and "unknowingly reactivate it," loosing Eldrazi broods. Later Nissa, believing the titans would leave Zendikar if freed, "broke the last bonds holding them in" instead of resealing them ([BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23); [Battle of Fort Keff](https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff)).
+
+**Key beats:**
+- Titans feed and restore themselves across Zendikar; Gideon arrives seeking Chandra and realizes he cannot fight alone ([BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23)).
+- Ob Nixilis knocks hedrons out of alignment to reignite his spark ([BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23)).
+- Ulamog is nearly caught in a hedron ring when Ob Nixilis calls Kozilek; Chandra rescues Gideon, Jace and Nissa; the four swear "I will keep watch," founding the Gatewatch ([Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03); [BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23)).
+- Nissa and Jace bind the titans with leylines; "The leylines themselves caught fire … enveloping the titans." Survivors realize "it was over" ([Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17)).
+
+**Outcome:** Ulamog and Kozilek destroyed; Zendikar saved at enormous cost. Emrakul is absent and next appears on Innistrad (→ [Innistrad & Emrakul](#innistrad--emrakul)).
+**Lasting consequences:** Gatewatch founded; Nissa's earlier choice to free the titans remains a guilt thread; Emrakul later surfaces on Innistrad. Full beats: [Story Arc Summaries → BFZ/OGW](Story%20Arc%20Summaries.md#battle-for-zendikar--oath-of-the-gatewatch-201516).
+**Sources:** [Battle of Fort Keff](https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff) · [BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23) · [Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03) · [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17)
 
 ## Innistrad & Emrakul
-**Sets:** Innistrad block (2011–12); Shadows over Innistrad, Eldritch Moon (2016) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Innistrad](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Sorin Markov](Characters%20Index.md#sorin-markov), [Nahiri](Characters%20Index.md#nahiri), [Jace Beleren](Characters%20Index.md#jace-beleren), [Liliana Vess](Characters%20Index.md#liliana-vess) · **Status:** ✅ / ⚠️
+**Sets:** Innistrad block (2011–12); Shadows over Innistrad, Eldritch Moon (2016) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Innistrad](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Sorin Markov](Characters%20Index.md#sorin-markov), [Nahiri](Characters%20Index.md#nahiri), [Jace Beleren](Characters%20Index.md#jace-beleren), [Liliana Vess](Characters%20Index.md#liliana-vess), [Tamiyo](Characters%20Index.md#tamiyo) · **Status:** ✅ deepened Bot cycle 20
 
-- Nahiri took revenge on Sorin (Stone and Blood); Emrakul rose on Innistrad ([Emrakul Rises](https://magic.wizards.com/en/news/magic-story/emrakul-rises), [Innistrad](https://magic.wizards.com/en/story/innistrad-plane)).
-- **Outcome:** Emrakul is bound in Innistrad's silver moon, with "the glyph still brightly inscribed on its surface" ([The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27); sourced in Bot cycle 8, see [Story Arc Summaries](Story%20Arc%20Summaries.md#shadows-over-innistrad--eldritch-moon-2016)).
-- **Sources:** [Emrakul Rises](https://magic.wizards.com/en/news/magic-story/emrakul-rises) · [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) · [Innistrad profile](https://magic.wizards.com/en/story/innistrad-plane)
+**Cause:** After the first near-escape of the Eldrazi, Nahiri sought vengeance on Sorin for abandoning Zendikar (Stone and Blood). Separately, Innistrad's angelic protections collapsed: Griselbrand trapped Avacyn in the Helvault; "the Helvault was sundered and Avacyn was released," then "Madness swept over Innistrad"; "Sorin Markov finally intervened, unmaking his beloved creation," and "the last protections over the plane fell … opening it to new otherworldly intruders" ([Innistrad profile](https://magic.wizards.com/en/story/innistrad-plane)).
+
+**Key beats:**
+- Nahiri's revenge arc (Stone and Blood) draws Emrakul to Innistrad ([Emrakul Rises](https://magic.wizards.com/en/news/magic-story/emrakul-rises); [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15)).
+- Emrakul rises; mutations overwhelm Innistrad. The Gatewatch assembles at Thraben with Liliana's zombies buying time ([The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27)).
+- Jace and Tamiyo bind Emrakul to Innistrad's silver moon: "A glyph flashed onto the moon"; Emrakul is drawn into it; "The silver face of the moon glowered with the triangular patterns of the glyph. Branded. Scarred. Sealed." ([The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27)).
+
+**Outcome:** Emrakul is imprisoned in Innistrad's moon, "with the glyph still brightly inscribed on its surface" ([The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27)).
+**Lasting consequences:** Emrakul remains sealed on Innistrad (not destroyed). Nahiri–Sorin enmity and the Innistrad horror ecology continue into Midnight Hunt / Crimson Vow. Full beat table: [Story Arc Summaries → SOI/EMN](Story%20Arc%20Summaries.md#shadows-over-innistrad--eldritch-moon-2016).
+**Sources:** [Innistrad profile](https://magic.wizards.com/en/story/innistrad-plane) · [Emrakul Rises](https://magic.wizards.com/en/news/magic-story/emrakul-rises) · [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) · [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27)
 
 ## Kaladesh revolt
-**Sets:** Kaladesh, Aether Revolt (2016–17) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Kaladesh → Avishkar](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Chandra Nalaar](Characters%20Index.md#chandra-nalaar), [Saheeli Rai](Characters%20Index.md#saheeli-rai), [Tezzeret](Characters%20Index.md#tezzeret) · **Status:** ✅
+**Sets:** Kaladesh, Aether Revolt (2016–17) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Kaladesh → Avishkar](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Chandra Nalaar](Characters%20Index.md#chandra-nalaar), [Saheeli Rai](Characters%20Index.md#saheeli-rai), [Tezzeret](Characters%20Index.md#tezzeret) · **Status:** ✅ deepened Bot cycle 20
 
-- Revolution against the Consulate ([Revolution Begins](https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02)); the plane was later officially renamed **Avishkar** after a nearly bloodless revolution ([Avishkar profile](https://magic.wizards.com/en/story/avishkar-plane)).
-- **Outcome:** Consulate overthrown; Avishkar later hosts the Aetherdrift finale.
-- **Sources:** [Revolution Begins](https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02) · [Avishkar](https://magic.wizards.com/en/story/avishkar-plane)
+**Cause:** The Consulate "strove to control aether technology and stifle innate magic." The Inventors' Fair was "a deception—its true purpose was to gather" inventors under Consulate power. Tezzeret later installed himself as Grand Consul ([Avishkar profile](https://magic.wizards.com/en/story/avishkar-plane); [Revolution Begins](https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02)).
+
+**Key beats:**
+- Renegades (including Pia and Chandra Nalaar) plan to strike the Aether Hub against Tezzeret's Consulate ([Revolution Begins](https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02)).
+- The Consulate is overthrown in "a popular, nearly bloodless revolution" ([Avishkar profile](https://magic.wizards.com/en/story/avishkar-plane)).
+- The plane is officially renamed **Avishkar** and united under the Avishkar Assembly, which plans to resurrect the Ghirapur Grand Prix ([Avishkar profile](https://magic.wizards.com/en/story/avishkar-plane)).
+
+**Outcome:** Consulate overthrown; plane renamed Avishkar.
+**Lasting consequences:** Avishkar hosts the Aetherdrift finale years later; Chandra's family roots and Saheeli's artificer ties remain Omenpath-era threads. Rename documented in [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md#kaladesh--avishkar-rename).
+**Sources:** [Revolution Begins](https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02) · [Avishkar profile](https://magic.wizards.com/en/story/avishkar-plane) · [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02)
 
 ## Amonkhet & the God-Pharaoh
-**Sets:** Amonkhet, Hour of Devastation (2017) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Amonkhet](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Nicol Bolas](Characters%20Index.md#nicol-bolas), [Samut](Characters%20Index.md#samut), [Gideon Jura](Characters%20Index.md#gideon-jura), [Jace Beleren](Characters%20Index.md#jace-beleren) · **Status:** ✅
+**Sets:** Amonkhet, Hour of Devastation (2017) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Amonkhet](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Nicol Bolas](Characters%20Index.md#nicol-bolas), [Samut](Characters%20Index.md#samut), [Gideon Jura](Characters%20Index.md#gideon-jura), [Jace Beleren](Characters%20Index.md#jace-beleren), [Liliana Vess](Characters%20Index.md#liliana-vess) · **Status:** ✅ deepened Bot cycle 20
 
-- The promised God-Pharaoh — Nicol Bolas — returned; Bolas: "No more shadows. No more skulking." ([Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26)). Oketra was slain (per [Basri Ket](https://magic.wizards.com/en/story/basri-ket-planeswalker)).
-- **Outcome:** Bolas's Eternals later fuel the War of the Spark; post-invasion, Samut leads "the living in Naktamun" ([Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)).
-- **Sources:** [Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26) · [Amonkhet profile](https://magic.wizards.com/en/story/amonkhet-plane)
+**Cause:** "Several decades ago" Bolas came to Amonkhet and "prepared—layer upon layer of preparations" ([Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26)). Its gods oversee trials on the path to the afterlife, but "The wise and benevolent God-Pharaoh … is actually Nicol Bolas" ([Amonkhet profile](https://magic.wizards.com/en/story/amonkhet-plane); [Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26)).
+
+**Key beats:**
+- The Gatewatch arrives; Nissa sees Naktamun as "too perfect to be real" and that Bolas "left an entire culture with a crude outline of whatever existed before" ([The Writing on the Wall](https://magic.wizards.com/en/news/magic-story/writing-wall-2017-04-12); beats in [Story Arc Summaries](Story%20Arc%20Summaries.md#amonkhet--hour-of-devastation-2017)).
+- The Hours: Luxa turns to blood; dark divinities fell the gods; Hazoret leads survivors out as "The Eternals come!" ([Hour of Revelation](https://magic.wizards.com/en/news/magic-story/hour-revelation-2017-06-07) / [Hour of Eternity](https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12) — see SAS for full citations).
+- The Gatewatch confronts Bolas and is routed. Jace vanishes mid-battle; Chandra flees bleeding. Bolas: "No more shadows. No more skulking." Oketra slain (per [Basri Ket](https://magic.wizards.com/en/story/basri-ket-planeswalker)) ([Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26)).
+
+**Outcome:** Gatewatch scattered; most gods fall; Bolas gains his Eternal army.
+**Lasting consequences:** Eternals fuel [War of the Spark](#return-to-dominaria--war-of-the-spark); post-invasion Samut leads "the living in Naktamun" ([Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)).
+**Sources:** [Amonkhet profile](https://magic.wizards.com/en/story/amonkhet-plane) · [Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26) · [Story Arc Summaries → AKH/HOU](Story%20Arc%20Summaries.md#amonkhet--hour-of-devastation-2017) · [Basri Ket](https://magic.wizards.com/en/story/basri-ket-planeswalker)
 
 ## Ixalan & the Immortal Sun
-**Sets:** Ixalan, Rivals of Ixalan (2017–18) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Ixalan](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Huatli](Characters%20Index.md#huatli), [Vraska](Characters%20Index.md#vraska) · **Status:** ✅
+**Sets:** Ixalan, Rivals of Ixalan (2017–18) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Ixalan](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Huatli](Characters%20Index.md#huatli), [Vraska](Characters%20Index.md#vraska), [Jace Beleren](Characters%20Index.md#jace-beleren) · **Status:** ✅ deepened Bot cycle 20
 
-- Four peoples — River Heralds, Sun Empire, Brazen Coalition, Legion of Dusk — race for the Immortal Sun in Orazca ([Ixalan profile](https://magic.wizards.com/en/story/ixalan-plane)).
-- **Outcome:** The Immortal Sun later appears on Ravnica, where it was "shut down" during the War of the Spark ([WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12)).
-- **Sources:** [Ixalan profile](https://magic.wizards.com/en/story/ixalan-plane) · [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12)
+**Cause:** The Immortal Sun — "an artifact of mythic power that promises boundless wealth, the strength of empires, and eternal life" — sits secure in Orazca. River Heralds and the Sun Empire share the continent; Brazen Coalition pirates and the Legion of Dusk arrive as outsiders racing for the prize ([Ixalan profile](https://magic.wizards.com/en/story/ixalan-plane)).
+
+**Key beats:**
+- Four peoples race for Orazca and the Immortal Sun ([Ixalan profile](https://magic.wizards.com/en/story/ixalan-plane)).
+- ⚠️ Jace's and Vraska's Ixalan storylines (2017–18 web fiction) were not re-fetched this cycle; see [Story Archive Index](Story%20Archive%20Index.md) — queued for cycle 21.
+- Alternate endings published for Rivals of Ixalan ([Alternate Endings](https://magic.wizards.com/en/news/magic-story/rivals-ixalan-magic-story-alternate-endings-2018-02-21)) — ⚠️ treat non-chosen branches as non-binding unless later stories confirm them.
+
+**Outcome:** The Immortal Sun later appears on Ravnica, where it was "shut down" during the War of the Spark ([WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12)).
+**Lasting consequences:** Artifact becomes a War of the Spark linchpin; Huatli's spark and Ixalan's interior (Aclazotz, dinosaur gods) return in [Lost Caverns of Ixalan](#the-lost-caverns-of-ixalan-2023).
+**Sources:** [Ixalan profile](https://magic.wizards.com/en/story/ixalan-plane) · [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) · [Rivals alternate endings](https://magic.wizards.com/en/news/magic-story/rivals-ixalan-magic-story-alternate-endings-2018-02-21)
 
 ## Tarkir: Fate Reforged
-**Sets:** Khans, Fate Reforged, Dragons of Tarkir (2014–15) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Tarkir](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Sarkhan Vol](Characters%20Index.md#sarkhan-vol), [Ugin](Characters%20Index.md#ugin), [Narset](Characters%20Index.md#narset), [Nicol Bolas](Characters%20Index.md#nicol-bolas) · **Status:** ✅
+**Sets:** Khans, Fate Reforged, Dragons of Tarkir (2014–15) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Tarkir](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Sarkhan Vol](Characters%20Index.md#sarkhan-vol), [Ugin](Characters%20Index.md#ugin), [Narset](Characters%20Index.md#narset), [Nicol Bolas](Characters%20Index.md#nicol-bolas), [Sorin Markov](Characters%20Index.md#sorin-markov) · **Status:** ✅ deepened Bot cycle 20
 
-- Sarkhan traveled more than a thousand years into the past and saved Ugin, so dragon tempests kept birthing dragons ([Tarkir](https://magic.wizards.com/en/story/tarkir-plane)); in the original timeline Bolas had killed Ugin by turning Tarkir's dragons against him ([Chronicle of Bolas](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15)).
-- **Outcome:** A dragon-ruled present; Ugin alive (→ [Tarkir: Dragonstorm](#tarkir-dragonstorm-2025)).
-- **Sources:** [Tarkir](https://magic.wizards.com/en/story/tarkir-plane) · [PW Guide: Fate Reforged](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07) · [Tarkir story summary](https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29)
+**Cause:** In the original timeline, Bolas killed Ugin on Tarkir "by turning the minds of all the dragons against their own progenitor" and then "breaks Ugin's body with a deathblow" ([Chronicle of Bolas: The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15)). Without Ugin, dragon tempests fail and a khanate present develops. Sarkhan — haunted by Ugin's ghost — seeks to undo that past ([Tarkir story summary](https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29)).
+
+**Key beats:**
+- Present (Khans): five warrior clans under khans; dragons nearly extinct. Sarkhan and (separately) Sorin seek Ugin; Sorin came because he, Ugin and Nahiri once imprisoned the Eldrazi ([Tarkir story summary](https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29)).
+- Sarkhan passes through the Nexus more than a thousand years into Tarkir's past — the Temur "unwritten now" — and witnesses Ugin vs Bolas. He saves Ugin so "dragon tempests kept birthing dragons" ([Tarkir profile](https://magic.wizards.com/en/story/tarkir-plane); [PW Guide: Fate Reforged](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07)).
+- Altered present (Dragons): "the defeated clans are ruled by five legendary dragonlords" who reshape clan identity ([Tarkir profile](https://magic.wizards.com/en/story/tarkir-plane)).
+
+**Outcome:** A dragon-ruled present; Ugin alive.
+**Lasting consequences:** Ugin's survival enables his later role imprisoning Bolas in the Meditation Realm. Timeline rewrite is the KB's first seeded retcon — [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md#tarkir-timeline-rewrite). Leads to [Tarkir: Dragonstorm](#tarkir-dragonstorm-2025).
+**Sources:** [Tarkir](https://magic.wizards.com/en/story/tarkir-plane) · [Tarkir story summary](https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29) · [PW Guide: Fate Reforged](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07) · [Chronicle of Bolas: The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15)
 
 ## Return to Dominaria & War of the Spark
-**Sets:** Dominaria (2018-04); Guilds of Ravnica → War of the Spark (2018–19) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Dominaria](Planes%20Index.md#planes-with-official-profiles), [Ravnica](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Gideon Jura](Characters%20Index.md#gideon-jura), [Liliana Vess](Characters%20Index.md#liliana-vess), [Nicol Bolas](Characters%20Index.md#nicol-bolas), [Ugin](Characters%20Index.md#ugin), [Teyo Verada](Characters%20Index.md#teyo-verada), [Kaya](Characters%20Index.md#kaya), [Jiang Yanggu](Characters%20Index.md#jiang-yanggu) · **Status:** ✅
+**Sets:** Dominaria (2018-04); Guilds of Ravnica → War of the Spark (2018–19) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Dominaria](Planes%20Index.md#planes-with-official-profiles), [Ravnica](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Gideon Jura](Characters%20Index.md#gideon-jura), [Liliana Vess](Characters%20Index.md#liliana-vess), [Nicol Bolas](Characters%20Index.md#nicol-bolas), [Ugin](Characters%20Index.md#ugin), [Jace Beleren](Characters%20Index.md#jace-beleren) · **Status:** ✅ deepened Bot cycle 20
 
-- Dominaria: the Gatewatch killed Belzenlok; "plans were already in motion to attack Nicol Bolas" ([Return to Dominaria Ep. 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30)).
-- War of the Spark: Bolas's Elderspell on Ravnica stole sparks; the Izzet Beacon, Immortal Sun and Planar Bridge were shut down ([WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12)). Gideon "sacrificed himself to save Liliana Vess" ([Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)). Bolas was imprisoned (in the Meditation Realm, by Ugin — [LE Ep. 2](https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber)).
-- **Outcome:** The guilds hired Kaya to assassinate Liliana, Ral to hunt Tezzeret, Vraska to hunt Dovin Baan ([WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12)). Bolas's later escape: see [Cross-arc threads](#cross-arc-threads).
-- **Sources:** [Return to Dominaria Ep. 1](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-1-2018-03-21) · [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) · [Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)
+**Cause:** Bolas's multiplanar plan culminates on Ravnica with the Elderspell and Eternal army harvested on Amonkhet. On Dominaria the Cabal under Belzenlok must fall before the Gatewatch can strike Bolas ([Return to Dominaria Ep. 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30)).
+
+**Key beats:**
+- Dominaria: *Weatherlight* rebuilt; Belzenlok slain by Liliana; "plans were already in motion to attack Nicol Bolas" ([Ep. 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30); full beats [SAS → DOM](Story%20Arc%20Summaries.md#return-to-dominaria-2018)).
+- War of the Spark: Eternals overrun Ravnica; Bolas's Elderspell steals sparks; the Izzet Beacon, Immortal Sun and Planar Bridge are shut down ([WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12)).
+- Gatewatch renews oaths; Liliana turns Eternals on Bolas; Gideon "sacrificed himself to save Liliana Vess" ([Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12); [Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)).
+- Niv-Mizzet drives the Spear of Hazoret through Bolas; Bontu harvests stolen sparks; "Bolas began to dissolve" ([Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12). He was imprisoned in the Meditation Realm by Ugin ([LE Ep. 2](https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber); full beats [SAS → WAR](Story%20Arc%20Summaries.md#war-of-the-spark-2019)).
+
+**Outcome:** Bolas defeated and imprisoned; Gideon dead; Liliana spared. Guilds hire Kaya to assassinate Liliana, Ral to hunt Tezzeret, Vraska to hunt Dovin Baan ([WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12)).
+**Lasting consequences:** Post-WAR bounty arcs; Bolas's later escape via Omenpath (see [Cross-arc threads](#cross-arc-threads) and [Tarkir: Dragonstorm](#tarkir-dragonstorm-2025)). ⚠️ Greg Weisman novel overlaps the web stories — novel-only detail flagged secondary until cross-checked ([Side-Media Index](Side-Media%20Index.md)).
+**Sources:** [Return to Dominaria Ep. 1](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-1-2018-03-21) · [Ep. 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30) · [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) · [Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)
 
 ## Post–War of the Spark arcs (2019–2022)
 **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era)
@@ -192,12 +279,18 @@ schema: 2
 - **Sources:** [IKO Story on Cards](https://magic.wizards.com/en/news/feature/ikoria-lair-behemoths-story-cards-2020-04-10) (story text in images)
 
 ### Zendikar Rising (2020)
-**Sets:** Zendikar Rising (2020-09) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Zendikar](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Nissa Revane](Characters%20Index.md#nissa-revane), [Jace Beleren](Characters%20Index.md#jace-beleren), [Nahiri](Characters%20Index.md#nahiri) · **Status:** ✅
+**Sets:** Zendikar Rising (2020-09) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Zendikar](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Nissa Revane](Characters%20Index.md#nissa-revane), [Jace Beleren](Characters%20Index.md#jace-beleren), [Nahiri](Characters%20Index.md#nahiri) · **Status:** ✅ deepened Bot cycle 20
 
-- Nahiri sought the Lithoform Core in the Skyclaves; Nissa planeswalked home to protect Zendikar; Jace kept secret "that the ancient, terrible dragon was still alive" ([ZNR Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02)).
-- Nissa used the Core; Jace and Nahiri quarrel and Nahiri planeswalks away ([ZNR Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-two-guardians-2020-09-30)).
-- **Outcome:** Core spent; Jace–Nissa rift.
-- **Sources:** [Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02) · [Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-two-guardians-2020-09-30)
+**Cause:** Nahiri seeks the Lithoform Core in the Skyclaves; Jace keeps secret "that the ancient, terrible dragon was still alive" ([ZNR Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02)).
+
+**Key beats:**
+- Nahiri races for the Lithoform Core in the Skyclaves; Nissa planeswalks home to protect Zendikar ([Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02)).
+- Nissa ultimately uses the Core ([Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-two-guardians-2020-09-30)).
+- Jace and Nahiri quarrel; Nahiri planeswalks away ([Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-two-guardians-2020-09-30)).
+
+**Outcome:** Lithoform Core spent; Jace–Nissa relationship damaged.
+**Lasting consequences:** Nahiri's path continues toward Phyrexian compleation (ONE); Jace's secrecy about Bolas foreshadows later distrust.
+**Sources:** [Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02) · [Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-two-guardians-2020-09-30)
 
 ### Kaldheim (2021)
 **Sets:** Kaldheim (2021-02) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Kaldheim](Planes%20Index.md#kaldheim) · **Characters:** [Kaya](Characters%20Index.md#kaya), [Vorinclex](Characters%20Index.md#vorinclex) · **Status:** ✅
@@ -208,11 +301,17 @@ schema: 2
 - **Sources:** [Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-travelers-2021-01-07) · [Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-battle-kaldheim-2021-02-03)
 
 ### Strixhaven (2021)
-**Sets:** Strixhaven (2021-04) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Arcavios (Strixhaven)](Planes%20Index.md#other-planes-in-recent-stories-omenpath-era) · **Characters:** [Liliana Vess](Characters%20Index.md#liliana-vess), [Lukka](Characters%20Index.md#lukka), [Rowan Kenrith](Characters%20Index.md#rowan-kenrith) · **Status:** ✅
+**Sets:** Strixhaven (2021-04) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Arcavios (Strixhaven)](Planes%20Index.md#other-planes-in-recent-stories-omenpath-era) · **Characters:** [Liliana Vess](Characters%20Index.md#liliana-vess), [Lukka](Characters%20Index.md#lukka), [Rowan Kenrith](Characters%20Index.md#rowan-kenrith) · **Status:** ✅ deepened Bot cycle 20
 
-- A masked figure recruits Lukka on Arcavios ([STX Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-class-session-2021-03-25)); Liliana seeks to help Gideon ("He took my death" — [Ep. 2](https://magic.wizards.com/en/news/magic-story/episode-2-lessons-2021-03-31)).
-- **Outcome:** Liliana stays on as "Professor Liliana Vess" ([STX Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21)).
-- **Sources:** [Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-class-session-2021-03-25) · [Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21)
+**Cause:** Liliana comes to Arcavios seeking to help Gideon ("He took my death" — [Ep. 2](https://magic.wizards.com/en/news/magic-story/episode-2-lessons-2021-03-31)).
+
+**Key beats:**
+- A masked figure recruits Lukka on Arcavios ([Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-class-session-2021-03-25)).
+- Finale: Liliana stays on as "Professor Liliana Vess" ([Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21)).
+
+**Outcome:** Liliana becomes faculty. ⚠️ Episodes 2–4 detail not summarized this cycle.
+**Lasting consequences:** Liliana's Arcavios tenure resumes in [Secrets of Strixhaven](#secrets-of-strixhaven-2026).
+**Sources:** [Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-class-session-2021-03-25) · [Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21)
 
 ### Innistrad: Midnight Hunt & Crimson Vow (2021)
 **Sets:** MID (2021-09), VOW (2021-11) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Innistrad](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Teferi](Characters%20Index.md#teferi), [Kaya](Characters%20Index.md#kaya), [Sorin Markov](Characters%20Index.md#sorin-markov) · **Status:** ✅
@@ -231,11 +330,16 @@ schema: 2
 - **Sources:** [Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-stranger-eiganjo-2022-01-24) · [Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-threads-war-2022-01-27)
 
 ### Streets of New Capenna (2022)
-**Sets:** SNC (2022-04) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [New Capenna](Planes%20Index.md#new-capenna) · **Characters:** [Elspeth Tirel](Characters%20Index.md#elspeth-tirel), [Ajani Goldmane](Characters%20Index.md#ajani-goldmane) · **Status:** ✅
+**Sets:** SNC (2022-04) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [New Capenna](Planes%20Index.md#new-capenna) · **Characters:** [Elspeth Tirel](Characters%20Index.md#elspeth-tirel), [Ajani Goldmane](Characters%20Index.md#ajani-goldmane) · **Status:** ✅ deepened Bot cycle 20
 
-- Elspeth arrives seeking a home Ajani told her of ([SNC Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28)).
-- **Outcome:** She leaves with the Halo for Dominaria: "Time to meet some old friends" ([SNC Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05)).
-- **Sources:** [Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28) · [Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05)
+**Cause:** Elspeth seeks a home Ajani told her of ([Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28)).
+
+**Key beats:**
+- ⚠️ Episodes 2–4 (incl. [Ep. 4: The Font](https://magic.wizards.com/en/news/magic-story/episode-4-font-2022-04-04)) not summarized this cycle.
+
+**Outcome:** Elspeth leaves with Halo for Dominaria: "Time to meet some old friends" ([Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05)).
+**Lasting consequences:** In March of the Machine, Norn sends Atraxa to strike New Capenna ("In killing New Capenna, we strike at her heart") ([MOM Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless)); Elspeth's path into the invasion begins here.
+**Sources:** [Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28) · [Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05)
 
 ## Phyrexian Invasion of the Multiverse
 **Sets:** Dominaria United → The Brothers' War → Phyrexia: All Will Be One → March of the Machine (+ Aftermath) (2022-09 → 2023-05) · **Timeline:** [Phyrexian Invasion](Master%20Timeline.md#phyrexian-invasion) · **Planes:** [Dominaria](Planes%20Index.md#planes-with-official-profiles), [Mirrodin → New Phyrexia](Planes%20Index.md#planes-with-official-profiles), [Phyrexia & New Phyrexia's spheres](Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) · **Characters:** [Elesh Norn](Characters%20Index.md#elesh-norn), [Karn](Characters%20Index.md#karn), [Teferi](Characters%20Index.md#teferi), [Elspeth Tirel](Characters%20Index.md#elspeth-tirel), [Nissa Revane](Characters%20Index.md#nissa-revane), [Ajani Goldmane](Characters%20Index.md#ajani-goldmane), [Jace Beleren](Characters%20Index.md#jace-beleren), [Wrenn](Characters%20Index.md#wrenn)
@@ -316,11 +420,17 @@ schema: 2
 - **Sources:** [Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge) · [Epilogue 1](https://magic.wizards.com/en/news/magic-story/epilogue-1-the-invasion-tree) · [Epilogue 2](https://magic.wizards.com/en/news/magic-story/epilogue-2-bring-the-end-part-2)
 
 ### Bloomburrow (2024)
-**Sets:** BLB (2024-08) · **Timeline:** [Omenpath era](Master%20Timeline.md#omenpath-era-post-invasion) · **Planes:** [Bloomburrow](Planes%20Index.md#other-planes-in-recent-stories-omenpath-era) · **Characters:** [Ral Zarek](Characters%20Index.md#ral-zarek), [Helga](Characters%20Index.md#helga), [Jace Beleren](Characters%20Index.md#jace-beleren) · **Status:** ✅ / ⚠️
+**Sets:** BLB (2024-08) · **Timeline:** [Omenpath era](Master%20Timeline.md#omenpath-era-post-invasion) · **Planes:** [Bloomburrow](Planes%20Index.md#other-planes-in-recent-stories-omenpath-era) · **Characters:** [Ral Zarek](Characters%20Index.md#ral-zarek), [Helga](Characters%20Index.md#helga), [Jace Beleren](Characters%20Index.md#jace-beleren) · **Status:** ✅ / ⚠️ deepened Bot cycle 20 (Ep. 1 primary; later episodes summarized in SAS)
 
-- Ral learns Jace had been "masquerading as the nightmarish Ashiok" and follows his trail to Bloomburrow, arriving in animal form ([BLB Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley)).
-- **Outcome:** ⚠️ Later episodes not summarized this cycle.
-- **Sources:** [Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley)
+**Cause:** Ral learns Jace had been "masquerading as the nightmarish Ashiok" on Eldraine and follows his trail; outsiders arrive on Bloomburrow in animal form ([BLB Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley)).
+
+**Key beats:**
+- Ral arrives after "nearly two years of believing [Jace] was dead" ([Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley)).
+- Episode-level beats: see [Story Arc Summaries → Bloomburrow](Story%20Arc%20Summaries.md#bloomburrow-2024) for episode-level beats).
+
+**Outcome:** Ral confirms Jace survived; trail continues into later Omenpath arcs.
+**Lasting consequences:** Confirms ~2-year post-invasion marker; Ashiok-disguise reveal reframes Wilds of Eldraine. ⚠️ Full later-episode quotes still thinner than Ep. 1 — cycle 21 should finish BLB/DSK primary pulls.
+**Sources:** [Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley) · [Story Arc Summaries → BLB](Story%20Arc%20Summaries.md#bloomburrow-2024)
 
 ### Duskmourn: House of Horror (2024)
 **Sets:** DSK (2024-09) · **Timeline:** [Omenpath era](Master%20Timeline.md#omenpath-era-post-invasion) · **Planes:** [Duskmourn](Planes%20Index.md#other-planes-in-recent-stories-omenpath-era) · **Characters:** [Kaito Shizuki](Characters%20Index.md#kaito-shizuki), [Niko Aris](Characters%20Index.md#niko-aris), [The Wanderer](Characters%20Index.md#the-wanderer), [Proft, Etrata, Aminatou, Niv-Mizzet](Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) · **Status:** ✅

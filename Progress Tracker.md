@@ -44,9 +44,11 @@ schema: 2
 ## Lore
 | File | Status | Count |
 |---|---|---|
-| Master Timeline | 🟢 deepened (cycle 3) | 7 era tables (was 6 one-row eras) · **8 AR-dated events** (was 0) · 15 post-Mending steps, 5 invasion phases, 12 Omenpath rows with quoted relative markers · 56 links into Conflicts & Arcs · 23 release-chronology rows |
+| Master Timeline | 🟢 deepened (cycle 3; **cycle 20**: 6 era summaries with lasting consequences, Outcome column on 18 Post-Mending rows) | 7 era tables (was 6 one-row eras) · **8 AR-dated events** (was 0) · 15 post-Mending steps, 5 invasion phases, 12 Omenpath rows with quoted relative markers · 56 links into Conflicts & Arcs · 23 release-chronology rows |
 | Planes Index | 🟢 complete for named targets (cycle 5) | **23 detailed entries** (was 18). Mercadia and Ulgrotha went from ⚠️ stubs to ✅ sourced (*Known Multiverse*, Wizards 2008). Added Ergamon, ZNR Zendikar, NEO Kamigawa, DMU Dominaria and the Arcavios colleges; Vryn deepened. Only Nauctis remains (no story yet) |
 | Characters Index | 🟢 complete for profiled PWs (cycle 4) | **78 entries** (was 59); **61 ✅ / 10 ❓ / 6 ⚠️ / 1 🚫** (was 54 / 1 / 3 / 1); 0 profiled Planeswalkers left unreviewed (was 19) |
+| Conflicts & Arcs | 🟢 cycle 20 (Phase 6) | **17 arcs** with Cause · Key beats · Outcome · Lasting consequences (of 39 entries) |
+| Contradictions & Retcons Log | 🟡 skeleton (cycle 20) | **5** cited entries · 5 queued |
 | Story Arc Summaries | ✅ Phase 2 done (cycles 7–8, #34) | **19 arcs and 135 cited beats** (was 7 / 52). Cycle 8 added BFZ/OGW, SOI/EMN, KLD/AER, AKH/HOU, DOM, WAR, WOE, LCI, DFT, EOE, ECL, SOS and RF, and folded ONE+MOM into one Phyrexia arc. Other pre-2022 arcs stay as entries in Conflicts & Arcs |
 | Planeswalker Dossiers | ✅ Phase 2 done (cycles 7–8, #35) | **21 dossiers** (was 13). Cycle 8 newly sourced the spark moments of Gideon, Sorin, Ugin and Bolas, plus Karn's partial (Venser's spark). Still ❓: Teferi, Kaya, Vraska, Tamiyo, Nahiri, Ral, Oko, Tezzeret, and Ajani's ignition scene |
 | Omenpath & Multiverse | 🟢 first pass (cycle 7, #36) | 5 definition facts, 5 known connections, 4 infrastructure items, 4 exceptions, 3 open ❓ |

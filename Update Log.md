@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Knowledge Index.md", "Front-Matter Schema.md", "EDH Bracket Calibration.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "Progress Tracker.md"]
+related: ["Knowledge Index.md", "Front-Matter Schema.md", "Contradictions & Retcons Log.md", "EDH Bracket Calibration.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 20 (Phase 6: lore deepening — timeline & arcs, retcon log)](#2026-10-15--bot-cycle-20-phase-6-lore-deepening--timeline--arcs-retcon-log)
 - [2026-10-15 — Bot cycle 19 (Phase 5 complete: bracket calibration & pilot notes)](#2026-10-15--bot-cycle-19-phase-5-complete-bracket-calibration--pilot-notes)
 - [2026-10-15 — Bot cycle 18 (Phase 5: cross-references)](#2026-10-15--bot-cycle-18-phase-5-cross-references)
 - [2026-10-15 — Bot cycle 17 (Phase 5: schema v2, retrieval index, validate_all)](#2026-10-15--bot-cycle-17-phase-5-schema-v2-retrieval-index-validate_all)
@@ -33,6 +34,17 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 20 (Phase 6: lore deepening — timeline & arcs, retcon log)
+
+> All entries are **Bot cycle 20** (Grok Bot) changes on branch `bot-cycle20-lore-timeline`. Milestone: [Phase 6 — Lore deepening sprint](https://github.com/corymstover/GrokBotMTGCompanion/milestone/15). Other queued work (#63) on hold per Cory's brief.
+
+| # | Change | Files | Issue |
+|---|---|---|---|
+| 20.1 | **Conflicts & Arcs deepened**: 13 major H2 arcs (Ancient Eldrazi → Return to Dominaria/WAR) rewritten to **Cause · Key beats · Outcome · Lasting consequences · Sources**, plus 4 thin H3s (ZNR, STX, SNC, BLB). 17 arcs now carry an explicit cause and consequences. Earlier accurate content kept; anchors unchanged. Unfetched material flagged ⚠️. Sources re-fetched 2026-10-15: 10 plane profiles, BFZ and Tarkir block summaries, PW Guides (Fate Reforged, Dominaria 2022), Chronicle of Bolas: The Unwritten Now, The Promised End, Hour of Devastation, Revolution Begins. | `Conflicts & Arcs.md` | [#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72) |
+| 20.2 | **Master Timeline deepened**: era summaries with lasting consequences on all 6 era tables; the Post-Mending table gains an *Outcome / lasting* column (18 rows); retcon log cross-links. | `Master Timeline.md` | [#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72) |
+| 20.3 | **New [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md)** skeleton: 5 seeded, cited entries (Tarkir rewrite, Kaladesh→Avishkar, AR expansion, Emrakul's path, Bolas after WAR), 5 queued candidates, schema of fields/flags. Registered in front-matter. | `Contradictions & Retcons Log.md`, `scripts/front_matter.py` | [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76) |
+| 20.4 | Milestone 15 and issues #72–#77 (P6.1–P6.6) opened; dashboards updated. | README, Progress Tracker, ROADMAP, Knowledge Index | [#77](https://github.com/corymstover/GrokBotMTGCompanion/issues/77) |
 
 ## 2026-10-15 — Bot cycle 19 (Phase 5 complete: bracket calibration & pilot notes)
 
