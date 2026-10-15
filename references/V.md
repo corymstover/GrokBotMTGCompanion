@@ -32,6 +32,7 @@ schema: 2
 [Card entry](../cards/V/va.md#vadrok-apex-of-thunder) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Ikoria](../Planes%20Index.md#ikoria)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ikoria](../Planes%20Index.md#ikoria) (featured)
 
 ### Vaevictis Asmadi, the Dire
 
@@ -93,6 +94,7 @@ schema: 2
 - **Decks (1):** [Prosper, Tome-Bound](../decks/prosper-tome-bound.md)
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Valkyrie Aerial Unit
 
@@ -282,6 +284,7 @@ schema: 2
 
 - **Rules (1):** [Keyword Encyclopedia → Boast](../Keyword%20Encyclopedia.md#boast)
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Vat of Rebirth
 
@@ -907,6 +910,7 @@ schema: 2
 
 - **Rules (1):** [Rules Interactions → Mutate & merged permanents](../Rules%20Interactions.md#mutate--merged-permanents)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Conflicts & Arcs → Ikoria: Lair of Behemoths (2020)](../Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ikoria: Lair of Behemoths (2020)](../Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020) (featured) · [Vivien Reid](../Characters%20Index.md#vivien-reid) (name-match)
 
 ### Vivien, Nature's Avenger
 
@@ -933,6 +937,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Skalla](../Planes%20Index.md#skalla)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Skalla](../Planes%20Index.md#skalla) (featured) · [Vivien Reid](../Characters%20Index.md#vivien-reid) (name-match)
 
 ### Vivi Ornitier
 
@@ -1154,6 +1159,7 @@ schema: 2
 - **Decks (2):** [Atraxa, Praetors' Voice](../decks/atraxa-praetors-voice.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres)
 - **Card data (1):** [Artist Index → Artists R](../Artist%20Index.md#artists-r)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Vorinclex](../Characters%20Index.md#vorinclex) (name-match)
 
 ### Vorinclex // The Grand Evolution
 
@@ -1237,6 +1243,7 @@ schema: 2
 - **EDH guides (1):** [EDH Win Conditions → "loses the game" effects](../EDH%20Win%20Conditions.md#loses-the-game-effects)
 - **Lore & story (3):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists M](../Artist%20Index.md#artists-m) · [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
+- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (featured) · [Vraska](../Characters%20Index.md#vraska) (name-match) · [Vraska](../Planeswalker%20Dossiers.md#vraska) (name-match)
 
 ### Vraska Joins Up
 

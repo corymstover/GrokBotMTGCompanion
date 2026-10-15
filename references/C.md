@@ -2733,6 +2733,7 @@ schema: 2
 
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Cosi's Ravager
 

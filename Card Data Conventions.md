@@ -2,10 +2,10 @@
 title: "Card Data Conventions"
 category: meta
 tags: [conventions, card-entries]
-issues: [96]
+issues: [96, 99]
 generated_by: hand-written
 sources: [scryfall]
-related: ["EDH Standards.md", "Front-Matter Schema.md", "Card Index.md", "Knowledge Index.md"]
+related: ["EDH Standards.md", "Front-Matter Schema.md", "Card Index.md", "Knowledge Index.md", "Update Log.md"]
 schema: 2
 ---
 
@@ -40,6 +40,7 @@ data/categories.json                           curated category trackers (shown 
 ```
 - Every shard starts with YAML front-matter (`kind: shard`, `prefix`, `cards`, `bulk`; Bot cycle 17, see [Front-Matter Schema](Front-Matter%20Schema.md#card-shard-keys)), written by `scripts/front_matter.py`, which `ingest_scryfall.py` calls after each render.
 - A card cited by any page gets one **Referenced in** line (Bot cycle 18, #66) just before *Source flags*: page count by kind and a link to its section in the [reverse card index](references/README.md). The line is rendered by `ingest_scryfall.py` from `data/card_refs.json` and refreshed by `scripts/build_crossrefs.py`; the full list lives in `references/` so shards stay lean.
+- **Phase 8 card enrichment** (Bot cycle 33, [#99](https://github.com/corymstover/GrokBotMTGCompanion/issues/99)): an enriched card gets a **Lore** line and a **Synergy** line just before *Referenced in*. They are rendered by `ingest_scryfall.py` from `data/card_enrichment.json`, so a re-import keeps them, and refreshed by `scripts/build_card_enrichment.py`. The *Lore* line lists the lore entries that depict / feature / only name-match the card, with their official citations, Story Spotlight printings and flavor text found on official pages. The *Synergy* line has a *Proven* tier (KB decks, Commander Spellbook, EDHREC) and a *Guidance (Oracle pattern)* tier (EDH Packages). Neither repeats Oracle text or rulings. Format and coverage: [Card Enrichment](Card%20Enrichment.md).
 - Shard key = card name with accents stripped and all non-alphanumerics removed, lower-cased (*Æther Vial* → `aethervial`; *Rogue's Passage* → `roguespassage`).
 - Prefix = first **2** characters, deepened to 3, 4 or 5 characters when that prefix would hold more than **350** cards across the *full* universe (so `ma` → `mag`, `mal` …; `th` → `tha`, `thea` …). Because the depth is computed from the whole universe, not from what is ingested, **a card's shard never moves** as coverage grows.
 - The exact file for every card is in `data/card_index.csv` (`shard` + `anchor` columns) and the per-letter table in [Card Index](Card%20Index.md#shards-by-letter).
@@ -61,6 +62,9 @@ data/categories.json                           curated category trackers (shown 
 - **Rulings** (2):
   - *2023-09-01* — Ruling text verbatim.
   - *2024-01-12* *(Scryfall note)* — Ruling authored by Scryfall rather than Wizards.
+- **Lore:** Depicts: [Character → …](…) ([source](…)) — Featured in: [Plane → …](…) — ✅ Story Spotlight printing … · [format](…)   (enriched cards only)
+- **Synergy:** *Proven* — KB decks (n): … · Commander Spellbook: n combos … · EDHREC … — *Guidance (Oracle pattern)* — packages: … · [format](…)
+- **Referenced in:** n pages (…) → [reverse index](…)   (cards cited by any page)
 - **Source flags:** [Scryfall](…) · oracle_id `…` · printing: SET #123 (date) · [rulings](…) · source: Scryfall oracle_cards bulk YYYY-MM-DD · status: ✅ verified (Scryfall Oracle)
 ```
 Multi-face cards (split, adventure, transform, MDFC, flip, meld, etc.) show `Layout`, total MV and color identity once, then one `Face N: Name — cost — type line` block per face with that face's Oracle text, P/T/loyalty, and flavor text.

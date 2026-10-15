@@ -487,6 +487,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any lands you control from Realmbreaker's ability are exiled.
   - *2023-04-14* — The land card you put onto the battlefield can be one that was just milled, or it can be one that was already in their graveyard.
+- **Lore:** Depicts: [Item → Realmbreaker, the Invasion Tree](../../Items%20%26%20Artifacts%20Index.md#realmbreaker-the-invasion-tree) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine), [2](https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Realmbreaker, the Invasion Tree + Maskwood Nexus](https://commanderspellbook.com/combo/643-3850/) (Put all creature cards from your library onto the battlefield) · EDHREC: in 38,764 decks; most often under [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (12.2% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (14.4% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (7.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#realmbreaker-the-invasion-tree)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/263/realmbreaker-the-invasion-tree) · oracle_id `77398866-eebb-4091-b566-7726f8194a59` · printing: MOM #263 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

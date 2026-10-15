@@ -111,6 +111,20 @@ Apply the 4 Phase 5 priorities to the material Phase 6 added (cycles 20–30: Co
 - ✅ **Bot cycle 31:** priorities 1 + 3 for lore. 260 lore entries indexed with computed tags. Every entry cites ≥ 1 official page (1,078 entry citations). 1,675 quotations on 13 lore pages: 1,653 verified verbatim (1,561 against the cited or another cached official page, 92 against Scryfall card text) and 22 documented exceptions (image-only, non-Wizards, labels). Spark state agrees across 39 dossier/Characters-Index pairs and the retcon log. Two new `validate_all` steps.
 - ✅ **Bot cycle 32:** priorities 2 + 4 and the gap audit. 280 entries (Story Arc Summaries added, 20 entries). Bidirectional cross-reference blocks on 269 entries (1,460 symmetric relations; 2,943 entry→entry links all reciprocal; 23 lore-deck pointers back-linked). Lore-deck story maps and a Lore decks section in EDH Bracket Calibration. Quote checks now cover 25 pages / 2,719 quotes (12 rules/FAQ/EDH pages added). **Phase 7 complete**; snapshot tag `v2.2-phase7-optimization`.
 
+## Phase 8 — Card-level lore & synergy deepening (Bot cycles 33+; Cory, 2026-10-15)
+Per-card **Lore** context and **Synergy** across the card database. Priority: legendary creatures, planeswalkers, story-significant cards (named in lore entries), strong flavor-text cards; then outward. Generated where possible, cited, tiered (proven vs guidance), with bidirectional links and a validate_all check. Milestone: [Phase 8 — Card-level lore & synergy deepening](https://github.com/corymstover/GrokBotMTGCompanion/milestone/17). Grixis #63 stays on hold.
+
+| Issue | Item | Status | Output |
+|---|---|---|---|
+| [#99](https://github.com/corymstover/GrokBotMTGCompanion/issues/99) | P8.1 Format + tooling | 🟢 Bot cycle 33 | `scripts/build_card_enrichment.py` → `data/card_enrichment.json`; **Lore** + **Synergy** lines rendered by `ingest_scryfall.py` (re-imports keep them); [Card Enrichment](Card%20Enrichment.md) (format, coverage, by entry / package, clusters); curated notes in `data/card_lore_notes.json` |
+| [#100](https://github.com/corymstover/GrokBotMTGCompanion/issues/100) | P8.2 Card lore context (batches) | 🟡 batch 1 (cycle 33) | 93 legendary cards / planeswalkers linked from lore entries: 121 lore relations (depicts 14 · featured 82 · name-match 25), 3 Story Spotlight printings, 5 curated cited notes |
+| [#101](https://github.com/corymstover/GrokBotMTGCompanion/issues/101) | P8.3 Card synergy, proven vs guidance | 🟡 batch 1 (cycle 33) | KB decks (29 cards), Commander Spellbook combos (49 cards), EDHREC co-occurrence (93) and as-commander synergy (64); EDH Packages Oracle-pattern matches as guidance (22) |
+| [#102](https://github.com/corymstover/GrokBotMTGCompanion/issues/102) | P8.4 Bidirectional links + validate_all | 🟢 Bot cycle 33 | step **card-enrichment**: citations present, entries/decks link back, tiers labelled, shard lines current; reverse index *Lore entries* line; Lore Entry Index *Enriched cards* column + `has-enriched-cards` tag |
+| [#103](https://github.com/corymstover/GrokBotMTGCompanion/issues/103) | P8.5 Docs and dashboards | 🟡 ongoing | README, Progress Tracker, Update Log, Knowledge Index, Lookup Guide, Card Data Conventions |
+
+- ✅ **Bot cycle 33:** format, tooling and batch 1. Coverage: entry-linked cards 93/128 (72.7%); whole priority pool 93/4,549 (2.0%).
+- ⏳ **Bot cycle 34 (plan):** batch 2 = the 35 non-legendary entry-linked cards + the 396 remaining name-matched character cards; more curated notes (Story Spotlight cards, items); Spellbook/EDHREC fetch for the new cards.
+
 ## Phase 6
 - ✅ **Bot cycle 21:** [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) + 2 worked lore decks (Urza Brothers' War; Nahiri Lithomancer).
 - 🟡 **Bot cycle 22:** [Lore Primary Sources](Lore%20Primary%20Sources.md) (538 pages, 60 PW Guides); 14 arcs deepened; +6 retcon entries; 7 misquotes fixed. Next: cycle 24 (TDM/EOE/ECL/SOS/RF + pre-2019 arcs, dossiers #74).

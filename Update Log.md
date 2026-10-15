@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 33 (Phase 8: card enrichment format + batch 1)](#2026-10-15--bot-cycle-33-phase-8-card-enrichment-format--batch-1)
 - [2026-10-15 — Bot cycle 32 (Phase 7 complete: lore cross-refs, story maps, rules quote checks)](#2026-10-15--bot-cycle-32-phase-7-complete-lore-cross-refs-story-maps-rules-quote-checks)
 - [2026-10-15 — Bot cycle 31 (Phase 7: lore retrieval + validation)](#2026-10-15--bot-cycle-31-phase-7-lore-retrieval--validation)
 - [2026-10-15 — Bot cycle 30 (Phase 6: final dossiers, status, snapshot)](#2026-10-15--bot-cycle-30-phase-6-final-dossiers-status-snapshot)
@@ -46,6 +47,28 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 33 (Phase 8: card enrichment format + batch 1)
+New milestone [Phase 8 — Card-level lore & synergy deepening](https://github.com/corymstover/GrokBotMTGCompanion/milestone/17) with issues #99–#103 (Cory's request). This cycle covers the format, the tooling and batch 1.
+
+- **P8.1 (#99) format and tooling:**
+  - New `scripts/build_card_enrichment.py` writes `data/card_enrichment.json` and two lines per enriched card entry, **Lore** and **Synergy**, placed before *Referenced in*. `ingest_scryfall.py` renders them from the JSON, so a re-import keeps them.
+  - New generated page [Card Enrichment](Card%20Enrichment.md): format, coverage of the priority pool, cards by lore entry, cards by package, and EDHREC clusters.
+  - Curated notes go in `data/card_lore_notes.json`. Each needs official sources, and every quotation in it must be verbatim on a cited cached page.
+  - [Card Data Conventions](Card%20Data%20Conventions.md) documents the lines.
+- **P8.2 (#100) batch 1 lore:** 93 legendary cards and planeswalkers already linked from lore entries (64 legendary creatures, 18 legendary artifacts, 9 planeswalkers, 1 legendary land, 1 other legendary). They have 121 lore relations: 14 *depicts*, 82 *featured*, 25 *name match only* ⚠️. 28 relations carry a citation on the linking line itself; 68 use the entry's own citations (*via entry*). 19 cards show the entry line's ⚠️/❓ flags.
+  - Story Spotlight printings: Lithoform Engine (ZNR), Niv-Mizzet Reborn (WAR), The Celestus (MID).
+  - Curated notes, quotes verified against the cached pages: Godsend (THB Story on Cards), Blackblade Reforged (DOM Ep. 5), The Mightstone and Weakstone (BRO Ep. 5), Helvault (PW Guide to AVR), The Immortal Sun (PW Guide to Ixalan).
+- **P8.3 (#101) batch 1 synergy:**
+  - *Proven* tier: 29 cards are in KB decks; 49 have Commander Spellbook combos (Commander-legal variants, most popular shown); all 93 have EDHREC co-occurrence (decks and top commanders); 64 have EDHREC as-commander data (highest-synergy cards).
+  - *Guidance* tier: EDH Packages Oracle-pattern matches for 22 cards.
+  - Clusters: Esika (Kaldheim gods), Jodah, Be'lakor, Cloud (equipment), Ramos (Ikoria Apexes), Zhulodok (legendary artifacts).
+- **P8.4 (#102) links and validation:**
+  - New `validate_all` step **card-enrichment**: the JSON, shard lines and page are current; every lore relation is cited and its entry links the card back (for name matches, the *Character cards* table does); every listed deck contains the card; tiers are labelled; curated quotes are verbatim.
+  - The reverse index lists each enriched card's lore entries.
+  - The Lore Entry Index has an *Enriched cards* column and the tag `has-enriched-cards`.
+- **Coverage:** entry-linked cards 93/128 (72.7%); character cards 18/414; legendary creatures 62/3,786; planeswalkers 11/338; story-flavor cards 3/396. Whole priority pool: 93/4,549 (2.0%).
+- `validate_all.py` PASS (13 steps). Grixis #63 remains ON HOLD.
 
 ## 2026-10-15 — Bot cycle 32 (Phase 7 complete: lore cross-refs, story maps, rules quote checks)
 Phase 7 priorities 2 + 4 and the rest of the gap audit. Phase 7 is complete; snapshot tag `v2.2-phase7-optimization`.

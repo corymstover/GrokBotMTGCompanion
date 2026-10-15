@@ -1219,6 +1219,7 @@ schema: 2
 - **Decks (1):** [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md)
 - **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Items & Artifacts Index → Planar Bridge](../Items%20%26%20Artifacts%20Index.md#planar-bridge)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Planar Bridge](../Items%20%26%20Artifacts%20Index.md#planar-bridge) (depicts)
 
 ### Planar Chaos
 

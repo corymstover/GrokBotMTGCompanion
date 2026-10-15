@@ -655,6 +655,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4542 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-02-09* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
+- **Lore:** Depicts: [Item → Planar Bridge](../../Items%20%26%20Artifacts%20Index.md#planar-bridge) ([source](https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18), [2](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) · Commander Spellbook: 5 combos; most popular [Timestream Navigator + Planar Bridge](https://commanderspellbook.com/combo/1061-3592/) (Infinite turns, Lock) · EDHREC: in 35,848 decks; most often under [Karn, Legacy Reforged](../../cards/K/ka.md#karn-legacy-reforged) (46.2% of its decks), [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (13.7% of its decks), [Ultima, Origin of Oblivion](../../cards/U/ul.md#ultima-origin-of-oblivion) (28.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/P.md#planar-bridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/313/planar-bridge) · oracle_id `853c6cc0-ed2b-4d65-add1-2449ade8cf68` · printing: 2X2 #313 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

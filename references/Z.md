@@ -240,6 +240,7 @@ schema: 2
 - **EDH guides (1):** [EDH Staples → Jund (BRG)](../EDH%20Staples.md#jund-brg)
 - **Lore & story (1):** [Planes Index → New Capenna](../Planes%20Index.md#new-capenna)
 - **Card data (1):** [Artist Index → Artists T](../Artist%20Index.md#artists-t)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [New Capenna](../Planes%20Index.md#new-capenna) (featured)
 
 ### Zidane, Tantalus Thief
 

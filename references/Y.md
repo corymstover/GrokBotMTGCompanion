@@ -152,6 +152,7 @@ schema: 2
 - **EDH guides (2):** [EDH Packages → +1/+1 counters: Proliferate](../EDH%20Packages.md#11-counters-proliferate) · [EDH Win Conditions → Proliferate finishers](../EDH%20Win%20Conditions.md#proliferate-finishers)
 - **Rules (1):** [Keyword Encyclopedia → Protection](../Keyword%20Encyclopedia.md#protection)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Yawgmoth](../Characters%20Index.md#yawgmoth) (name-match)
 
 ### Yellow Scarves Cavalry
 

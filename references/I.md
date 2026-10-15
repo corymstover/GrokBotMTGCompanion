@@ -200,6 +200,7 @@ schema: 2
 [Card entry](../cards/I/il.md#illuna-apex-of-wishes) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Ikoria](../Planes%20Index.md#ikoria)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ikoria](../Planes%20Index.md#ikoria) (featured)
 
 ### Illusionary Mask
 
@@ -680,6 +681,7 @@ schema: 2
 [Card entry](../cards/I/ing.md#inga-rune-eyes) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Ingenious Artillerist
 

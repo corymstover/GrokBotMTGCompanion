@@ -209,6 +209,7 @@ schema: 2
 [Card entry](../cards/E/eg.md#egon-god-of-death--throne-of-death) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Eidolon of Blossoms
 
@@ -243,6 +244,7 @@ schema: 2
 - **EDH guides (1):** [EDH Mana Bases → White W](../EDH%20Mana%20Bases.md#white-w)
 - **Lore & story (1):** [Planes Index → Kamigawa (Neon Dynasty era)](../Planes%20Index.md#kamigawa-neon-dynasty-era)
 - **Card data (1):** [Artist Index → Artists Z](../Artist%20Index.md#artists-z)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kamigawa (Neon Dynasty era)](../Planes%20Index.md#kamigawa-neon-dynasty-era) (featured)
 
 ### Eiganjo Uprising
 
@@ -504,6 +506,7 @@ schema: 2
 - **EDH guides (2):** [EDH Packages → Blink: ETB doublers](../EDH%20Packages.md#blink-etb-doublers) · [EDH Themed & Plane-Restricted Decks → Plane-restricted](../EDH%20Themed%20Decks.md#plane-restricted)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j) (+3 more)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Elesh Norn](../Characters%20Index.md#elesh-norn) (name-match)
 
 ### Elesh Norn // The Argent Etchings
 
@@ -1319,6 +1322,7 @@ schema: 2
 
 - **Lore & story (1):** [Planes Index → Eldraine](../Planes%20Index.md#eldraine)
 - **Card data (1):** [Artist Index → Artists Z](../Artist%20Index.md#artists-z)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Eldraine](../Planes%20Index.md#eldraine) (featured)
 
 ### Eriette's Tempting Apple
 
@@ -1412,6 +1416,7 @@ schema: 2
 
 - **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
 - **Card data (1):** [Artist Index → Artists C](../Artist%20Index.md#artists-c)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaldheim](../Planes%20Index.md#kaldheim) (featured)
 
 ### Esika's Chariot
 

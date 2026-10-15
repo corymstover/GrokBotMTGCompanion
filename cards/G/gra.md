@@ -845,6 +845,8 @@ schema: 2
   > *—Baron Sengir*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29701 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** Featured in: [Plane → Ulgrotha](../../Planes%20Index.md#ulgrotha) ([source](https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 32 decks; highest synergy [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (+50%), [Mutilate](../../cards/M/mu.md#mutilate) (+44%), [Horobi, Death's Wail](../../cards/H/ho.md#horobi-deaths-wail) (+40%) · EDHREC: in 213 decks; most often under [Baron Sengir](../../cards/B/bar.md#baron-sengir) (26.7% of its decks), [Maha, Its Feathers Night](../../cards/M/mah.md#maha-its-feathers-night) (0.2% of its decks), [Vhati il-Dal](../../cards/V/vh.md#vhati-il-dal) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#grandmother-sengir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/93/grandmother-sengir) · oracle_id `4f92804f-a231-4406-9a16-f4e102517b06` · printing: ME2 #93 (2008-09-22) · [rulings](https://api.scryfall.com/cards/b43b2370-fe1b-491b-9dd0-b49a30bb2b93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
