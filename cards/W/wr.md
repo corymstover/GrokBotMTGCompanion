@@ -565,7 +565,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2712 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — The lands you play and spells you cast from your graveyard follow the usual timing restrictions, and you must pay any costs for spells you cast.
-- **Referenced in:** 5 pages (1 decks · 3 lore & story · 1 card data) → [reverse index](../../references/W.md#wrenn-and-realmbreaker)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #217 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) — ⚠️ Name match only (not a canon claim): [Character → Wrenn](../../Characters%20Index.md#wrenn) · [Dossier → Wrenn](../../Planeswalker%20Dossiers.md#wrenn) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · Commander Spellbook: 18 combos; most popular [Springheart Nantuko + Wrenn and Realmbreaker + Doubling Season](https://commanderspellbook.com/combo/1114-4772-5702/) (Infinite creature ETB, Infinite creature tokens) · EDHREC: in 61,551 decks; most often under [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (16.3% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (10.7% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (12.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 6 pages (1 decks · 1 edh guides · 3 lore & story · 1 card data) → [reverse index](../../references/W.md#wrenn-and-realmbreaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/217/wrenn-and-realmbreaker) · oracle_id `4566fb92-448e-4b3f-9045-9d74323c35d1` · printing: MOM #217 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrenn and Seven
@@ -580,6 +582,8 @@ schema: 2
   > −8: Return all permanent cards from your graveyard to your hand. You get an emblem with "You have no maximum hand size."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2491 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Wrenn](../../Characters%20Index.md#wrenn) · [Dossier → Wrenn](../../Planeswalker%20Dossiers.md#wrenn) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Gitrog Monster (Innistrad-only)](../../decks/plane-innistrad-the-gitrog-monster.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 66,503 decks; most often under [Winter, Cynical Opportunist](../../cards/W/wi.md#winter-cynical-opportunist) (65.7% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (15.5% of its decks), [The Necrobloom](../../cards/T/then.md#the-necrobloom) (11.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/W.md#wrenn-and-seven)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/226/wrenn-and-seven) · oracle_id `63a509ea-cedc-40e9-b4e8-0ff4fc356485` · printing: INR #226 (2025-01-24) · [rulings](https://api.scryfall.com/cards/302f0dc1-88ab-4961-b78c-fbe7980dca18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -595,7 +599,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6569 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-06-14* — When a spell you cast with retrace resolves or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
-- **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/W.md#wrenn-and-six)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Wrenn](../../Characters%20Index.md#wrenn) · [Dossier → Wrenn](../../Planeswalker%20Dossiers.md#wrenn) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Cloudstone Curio + Xenagos, the Reveler + Wrenn and Six](https://commanderspellbook.com/combo/48-2232-2937/) (Infinite creature tokens, Infinite damage) · EDHREC: in 23,387 decks; most often under [Lord Windgrace](../../cards/L/lo.md#lord-windgrace) (31.8% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (7.6% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (9.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 5 pages (1 edh guides · 2 lore & story · 2 card data) → [reverse index](../../references/W.md#wrenn-and-six)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/296/wrenn-and-six) · oracle_id `108ae90a-50fa-4cfd-b751-d630e41425fe` · printing: 2X2 #296 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrenn's Resolve
@@ -610,7 +616,9 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — Any cards you don't play will remain in exile.
   - *2023-04-14* — The cards you play from exile follow the usual timing restrictions, and you must pay any costs for spells you cast.
-- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/W.md#wrenns-resolve)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #173, PLST #MOM-173 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Prosper, Tome-Bound](../../decks/prosper-tome-bound.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 76,912 decks; most often under [Prosper, Tome-Bound](../../cards/P/pr.md#prosper-tome-bound) (37.3% of its decks), [Ral, Monsoon Mage](../../cards/R/ral.md#ral-monsoon-mage--ral-leyline-prodigy) (61.7% of its decks), [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (24.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 lore & story) → [reverse index](../../references/W.md#wrenns-resolve)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/173/wrenns-resolve) · oracle_id `a7d8c99c-cd44-4bad-82e6-7c7cff9bd89f` · printing: MOM #173 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wren's Run Hydra

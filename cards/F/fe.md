@@ -731,6 +731,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14768 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-11-24* — No player can cast spells or activate abilities between returning the creature card to the battlefield and checking whether it’s a Dragon.
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: Blood and Fire](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 40 combos; most popular [Scholar of the Ages + Fearsome Awakening + Sacrifice](https://commanderspellbook.com/combo/653-813-1181/) (Infinite black mana, Infinite death triggers) · EDHREC: in 5,714 decks; most often under [Sivitri, Dragon Master](../../cards/S/si.md#sivitri-dragon-master) (37.1% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (1.8% of its decks), [Rivaz of the Claw](../../cards/R/ri.md#rivaz-of-the-claw) (9.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/F.md#fearsome-awakening)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/69/fearsome-awakening) · oracle_id `b6e87f78-d4dd-44b2-bf70-92436ce583c9` · printing: FRF #69 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fearsome Goblin Pair
@@ -1214,6 +1217,8 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WOE #91 — [Art & Flavor → Wilds of Eldraine (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#wilds-of-eldraine-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Syr Konrad, the Grim (Eldraine-only)](../../decks/plane-eldraine-syr-konrad-the-grim.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,786 decks; most often under [Greta, Sweettooth Scourge](../../cards/G/gre.md#greta-sweettooth-scourge) (50.1% of its decks), [Asmoranomardicadaistinaculdacar](../../cards/A/as.md#asmoranomardicadaistinaculdacar) (16.1% of its decks), [Ygra, Eater of All](../../cards/Y/yg.md#ygra-eater-of-all) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/F.md#feed-the-cauldron)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/91/feed-the-cauldron) · oracle_id `21153db6-552a-4956-a53a-a9dfb6968629` · printing: WOE #91 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2390,6 +2395,8 @@ schema: 2
   > *In a stunning act of diplomacy, Yasova Dragonclaw ceded a portion of Temur lands to the Sultai. Her clan protested until they saw she had given the Sultai the breeding grounds of the krushoks. They hadn't realized she had a sense of humor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26998 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Call](https://magic.wizards.com/en/news/magic-story/call-2015-04-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 523 decks; most often under [Jasmine Boreal of the Seven](../../cards/J/ja.md#jasmine-boreal-of-the-seven) (2.6% of its decks), [Ruxa, Patient Professor](../../cards/R/ru.md#ruxa-patient-professor) (4.3% of its decks), [Yargle and Multani](../../cards/Y/ya.md#yargle-and-multani) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/128/feral-krushok) · oracle_id `8c42883d-8b70-4691-a1e7-4659e7954b88` · printing: FRF #128 (2015-01-23) · [rulings](https://api.scryfall.com/cards/5041996b-c265-4c4f-a52c-dfe29b2e282d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Feral Lightning
@@ -2644,6 +2651,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21471 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-04-01* — A “creature spell” is any spell with the type Creature, even if it has other types such as Artifact or Enchantment. Older cards of type Summon are also Creature spells.
+- **Lore:** Featured in: [Plane → Ulgrotha](../../Planes%20Index.md#ulgrotha) ([source](https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,699 decks; most often under [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (2.9% of its decks), [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (0.3% of its decks), [Karn, Silver Golem](../../cards/K/ka.md#karn-silver-golem) (3.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#ferozs-ban)
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/295/ferozs-ban) · oracle_id `445dd350-5165-4516-8669-9233f5558605` · printing: 7ED #295 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

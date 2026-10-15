@@ -388,6 +388,8 @@ schema: 2
 - **Rulings** (2):
   - *2011-01-22* — All Humans are destroyed, not just ones you control.
   - *2011-01-22* — If a creature card in your graveyard is both a Zombie and a Human, it will be returned to the battlefield tapped, then be destroyed.
+- **Lore:** ✅ Card art shown on [Games](https://magic.wizards.com/en/news/magic-story/games-2016-04-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 54,052 decks; most often under [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (62.0% of its decks), [Varina, Lich Queen](../../cards/V/va.md#varina-lich-queen) (58.9% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (39.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zombie-apocalypse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/131/zombie-apocalypse) · oracle_id `8241277d-654f-4985-9d49-a22c1e59eec2` · printing: MIC #131 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

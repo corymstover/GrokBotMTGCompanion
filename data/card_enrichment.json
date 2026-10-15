@@ -12945,7 +12945,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [Clans & Legions](https://magic.wizards.com/en/news/magic-story/clans-legions-2018-10-24) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,348 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (13.6% of its decks), [Firesong and Sunspeaker](../../cards/F/fi.md#firesong-and-sunspeaker) (8.2% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -12968,6 +12968,27 @@
     },
     "proven": {
      "decks": [],
+     "edhrec": {
+      "decks": 2348,
+      "potential": 2401742,
+      "top_commanders": [
+       {
+        "decks": 803,
+        "name": "General Ferrous Rokiric",
+        "pct": 13.6
+       },
+       {
+        "decks": 360,
+        "name": "Firesong and Sunspeaker",
+        "pct": 8.2
+       },
+       {
+        "decks": 240,
+        "name": "Feather, the Redeemed",
+        "pct": 1.8
+       }
+      ]
+     },
      "spellbook": {
       "capped": false,
       "count": 0,
@@ -28752,7 +28773,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [Bound and Bonded](https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,063 decks; most often under [Codie, Vociferous Codex](../../cards/C/cod.md#codie-vociferous-codex) (2.1% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (0.6% of its decks), [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -28775,6 +28796,27 @@
     },
     "proven": {
      "decks": [],
+     "edhrec": {
+      "decks": 2063,
+      "potential": 2154730,
+      "top_commanders": [
+       {
+        "decks": 192,
+        "name": "Codie, Vociferous Codex",
+        "pct": 2.1
+       },
+       {
+        "decks": 137,
+        "name": "Aragorn, the Uniter",
+        "pct": 0.6
+       },
+       {
+        "decks": 96,
+        "name": "Trostani, Selesnya's Voice",
+        "pct": 0.8
+       }
+      ]
+     },
      "spellbook": {
       "capped": false,
       "count": 0,
@@ -90578,7 +90620,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [Clans & Legions](https://magic.wizards.com/en/news/magic-story/clans-legions-2018-10-24), [Testing the Dark Waters](https://magic.wizards.com/en/news/magic-story/testing-dark-waters-2018-10-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,390 decks; most often under [Lilah, Undefeated Slickshot](../../cards/L/li.md#lilah-undefeated-slickshot) (53.8% of its decks), [Vadrik, Astral Archmage](../../cards/V/va.md#vadrik-astral-archmage) (35.5% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -90605,6 +90647,27 @@
     },
     "proven": {
      "decks": [],
+     "edhrec": {
+      "decks": 8390,
+      "potential": 2435986,
+      "top_commanders": [
+       {
+        "decks": 1549,
+        "name": "Lilah, Undefeated Slickshot",
+        "pct": 53.8
+       },
+       {
+        "decks": 1283,
+        "name": "Vadrik, Astral Archmage",
+        "pct": 35.5
+       },
+       {
+        "decks": 1140,
+        "name": "Vivi Ornitier",
+        "pct": 2.7
+       }
+      ]
+     },
      "spellbook": {
       "capped": false,
       "count": 0,
@@ -150708,7 +150771,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [Judgment](https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,457 decks; most often under [Sergeant John Benton](../../cards/S/ser.md#sergeant-john-benton) (8.4% of its decks), [Codie, Vociferous Codex](../../cards/C/cod.md#codie-vociferous-codex) (1.0% of its decks), [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -150731,6 +150794,27 @@
     },
     "proven": {
      "decks": [],
+     "edhrec": {
+      "decks": 1457,
+      "potential": 2154730,
+      "top_commanders": [
+       {
+        "decks": 420,
+        "name": "Sergeant John Benton",
+        "pct": 8.4
+       },
+       {
+        "decks": 89,
+        "name": "Codie, Vociferous Codex",
+        "pct": 1.0
+       },
+       {
+        "decks": 42,
+        "name": "Helga, Skittish Seer",
+        "pct": 0.2
+       }
+      ]
+     },
      "spellbook": {
       "capped": false,
       "count": 0,

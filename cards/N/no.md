@@ -546,6 +546,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16902 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-05-03* — A creature or planeswalker spell that can’t be countered is a legal target for No Escape. The spell won’t be countered when No Escape resolves, but you’ll still scry 1.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #63 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,906 decks; most often under [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (13.3% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (2.2% of its decks), [Matoya, Archon Elder](../../cards/M/mat.md#matoya-archon-elder) (9.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#no-escape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/63/no-escape) · oracle_id `7c6e0198-edd8-42b8-ba1b-549e1713d188` · printing: WAR #63 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -755,6 +757,8 @@ schema: 2
   > *—Tersa Lightshatter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #381 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Victory](https://magic.wizards.com/en/news/magic-story/victory-2014-11-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Edgar Markov](../../decks/edgar-markov.md) · [Edgar Markov (lifegain theme)](../../decks/theme-edgar-markov-lifegain.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 318,013 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (45.2% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (51.3% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (59.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/N.md#nomad-outpost)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/263/nomad-outpost) · oracle_id `4619de7e-3d6e-4c6b-8e6e-e24db324839d` · printing: TDM #263 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a68fbeaa-941f-4d53-becd-f93ed22b9a54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -776,6 +780,8 @@ schema: 2
   - *2010-06-15* — If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
   - *2010-06-15* — If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything.
   - *2010-06-15* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
+- **Lore:** ✅ Card art shown on [Stirring from Slumber](https://magic.wizards.com/en/news/magic-story/stirring-slumber-2015-05-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,603 decks; most often under [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (12.0% of its decks), [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (1.9% of its decks), [Commander Mustard](../../cards/C/com.md#commander-mustard) (14.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nomads-assembly)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/82/nomads-assembly) · oracle_id `a9a0088a-3c86-4baf-9754-79006f733ce1` · printing: C14 #82 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1462,6 +1468,8 @@ schema: 2
   > *"You know, Proft, I've done a lot of questionable things in my life, but helping a pompous detective save lives is a new low, even for me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14014 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #28, MKM #291 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,476 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.6% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (0.4% of its decks), [Alquist Proft, Master Sleuth](../../cards/A/al.md#alquist-proft-master-sleuth) (10.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#not-on-my-watch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/28/not-on-my-watch) · oracle_id `2d400c01-d2d0-442a-bc3d-cf106a754dab` · printing: MKM #28 (2024-02-09) · [rulings](https://api.scryfall.com/cards/700294fc-7c16-4f7d-bce0-7452d8e9c401/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2059,6 +2067,9 @@ schema: 2
 - **Rulings** (2):
   - *2015-08-25* — Although Noyan Dar’s ability is very similar to awaken, it is not the same ability. Any card that refers to a “card with awaken” doesn’t include Noyan Dar.
   - *2015-08-25* — The ability will resolve before the instant or sorcery spell that caused it to trigger.
+- **Lore:** ✅ Card art shown on [Shaping an Army](https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 13 combos; most popular [Squirrel Nest + Intruder Alarm + Noyan Dar, Roil Shaper](https://commanderspellbook.com/combo/515-1636-6202/) (Infinite creature ETB, Infinite creature tokens) · EDHREC as commander: 1,335 decks; highest synergy [Terra Eternal](../../cards/T/te.md#terra-eternal) (+76%), [Planar Outburst](../../cards/P/pl.md#planar-outburst) (+72%), [Darksteel Citadel](../../cards/D/da.md#darksteel-citadel) (+71%) · EDHREC: in 932 decks; most often under [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (0.8% of its decks), [Aang, at the Crossroads](../../cards/A/aa.md#aang-at-the-crossroads--aang-destined-savior) (1.0% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (0.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/N.md#noyan-dar-roil-shaper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/216/noyan-dar-roil-shaper) · oracle_id `e4190320-5854-479e-be11-a5d5ef3db6a6` · printing: BFZ #216 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Noyd, Keeper of the Void

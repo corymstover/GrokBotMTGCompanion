@@ -48,6 +48,8 @@ schema: 2
   > *—Vivien Reid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14537 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): IKO #173 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,938 decks; most often under [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (1.8% of its decks), [Anzrag, the Quake-Mole](../../cards/A/an.md#anzrag-the-quake-mole) (2.4% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/173/thwart-the-enemy) · oracle_id `5799baed-3457-4bf2-adf3-239a41dcc1c8` · printing: IKO #173 (2020-04-24) · [rulings](https://api.scryfall.com/cards/a7101f35-d8c9-4320-bffc-8bb25000d103/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thwart the Grave

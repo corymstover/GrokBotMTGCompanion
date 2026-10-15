@@ -510,6 +510,8 @@ schema: 2
   - *2018-10-05* — If you don't choose a target creature, Kraul Harpooner simply gets +X/+0 until end of turn.
   - *2018-10-05* — The value of X is determined only as the undergrowth ability resolves. If the number of creature cards in your graveyard changes later in the turn, Kraul Harpooner is unaffected.
   - *2018-10-05* — You choose the target of the triggered ability (or that it has no target) as it goes on the stack, but you choose whether the creatures fight as that ability resolves.
+- **Lore:** ✅ Card art shown on [Death's Precious Moments](https://magic.wizards.com/en/news/magic-story/deaths-precious-moments-2018-11-07), [War of the Spark: Ravnica—Desperate Operatives](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,675 decks; most often under [Grist, the Hunger Tide](../../cards/G/gri.md#grist-the-hunger-tide) (36.8% of its decks), [Zask, Skittering Swarmlord](../../cards/Z/za.md#zask-skittering-swarmlord) (21.6% of its decks), [Aatchik, Emerald Radian](../../cards/A/aa.md#aatchik-emerald-radian) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/K.md#kraul-harpooner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/167/kraul-harpooner) · oracle_id `332b6ed7-90de-46c0-85ad-1ad708b2c1e1` · printing: CLU #167 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -784,6 +786,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1088 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2012-07-01* — The ability counts each Goblin you control, including Krenko itself, not just the tokens it creates.
+- **Lore:** ✅ Card art shown on [Krenko, Mob Boss](https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-16), [Krenko, Mob Boss](https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Krenko, Mob Boss](../../decks/krenko-mob-boss.md) · Commander Spellbook: 100+ combos; most popular [Krenko, Mob Boss + Skirk Prospector + Goblin Warchief](https://commanderspellbook.com/combo/38-659-1288/) (Infinite commander casts, Infinite creature tokens with haste) · EDHREC as commander: 44,540 decks; highest synergy [Goblin Warchief](../../cards/G/gob.md#goblin-warchief) (+72%), [Goblin Matron](../../cards/G/gob.md#goblin-matron) (+68%), [Skirk Prospector](../../cards/S/sk.md#skirk-prospector) (+68%) · EDHREC: in 100,309 decks; most often under [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (69.9% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (28.9% of its decks), [The Great Goblin](../../cards/T/theg.md#the-great-goblin) (73.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (1 decks · 2 edh guides · 2 card data) → [reverse index](../../references/K.md#krenko-mob-boss)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/204/krenko-mob-boss) · oracle_id `68418069-f615-40ef-ae0d-764192acae00` · printing: FDN #204 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -811,7 +815,9 @@ schema: 2
   > *Krenko's hirelings are unflinchingly loyal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2031 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/K.md#krenkos-command)
+- **Lore:** ✅ Card art shown on [Krenko, Mob Boss](https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-16), [Krenko, Mob Boss](https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Krenko, Mob Boss](../../decks/krenko-mob-boss.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 81,232 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (60.4% of its decks), [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (80.0% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (16.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/K.md#krenkos-command)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/139/krenkos-command) · oracle_id `9cfe86ae-eebe-44aa-a956-4b3e9e621105` · printing: CLU #139 (2024-02-23) · [rulings](https://api.scryfall.com/cards/b07d96a1-87a0-45ff-ae6e-230deaf44dca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krenko's Enforcer
@@ -1573,6 +1579,8 @@ schema: 2
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
   - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Lore:** ✅ Card art shown on [Kruphix's Insight](https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,701 decks; highest synergy [Wilderness Reclamation](../../cards/W/wi.md#wilderness-reclamation) (+58%), [Doubling Cube](../../cards/D/do.md#doubling-cube) (+52%), [Seedborn Muse](../../cards/S/see.md#seedborn-muse) (+47%) · EDHREC: in 28,678 decks; most often under [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (14.9% of its decks), [Jorn, God of Winter](../../cards/J/jo.md#jorn-god-of-winter--kaldring-the-rimestaff) (34.4% of its decks), [Child of Alara](../../cards/C/chi.md#child-of-alara) (16.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kruphix-god-of-horizons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/152/kruphix-god-of-horizons) · oracle_id `b2cefcd6-4b81-479c-86ff-1695b836972c` · printing: JOU #152 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1586,6 +1594,8 @@ schema: 2
   > *The horizon is tantalizing in both its uncertainty and its potential.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14810 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Kruphix's Insight](https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,664 decks; most often under [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (8.5% of its decks), [Estrid, the Masked](../../cards/E/es.md#estrid-the-masked) (11.4% of its decks), [Tuvasa the Sunlit](../../cards/T/tu.md#tuvasa-the-sunlit) (5.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/155/kruphixs-insight) · oracle_id `fadfbceb-4392-4e7e-be29-cbf372135d16` · printing: C18 #155 (2018-08-10) · [rulings](https://api.scryfall.com/cards/d5d7ab7a-fcb2-44c7-8e99-e627d3ced1ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krydle of Baldur's Gate

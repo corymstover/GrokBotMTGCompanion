@@ -1348,6 +1348,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28350 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 374 decks; most often under [Cazur, Ruthless Stalker // Ukkima, Stalking Shadow](../../cards/C/caz.md#cazur-ruthless-stalker) (1.1% of its decks), [Ukkima, Stalking Shadow](../../cards/U/uk.md#ukkima-stalking-shadow) (8.3% of its decks), [Orvar, the All-Form](../../cards/O/or.md#orvar-the-all-form) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/54/long-finned-skywhale) · oracle_id `a8287efd-23ca-498b-90f1-c76099919fa4` · printing: KLD #54 (2016-09-30) · [rulings](https://api.scryfall.com/cards/772e9472-c710-474e-b8e9-54662330a592/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Long-Forgotten Gohei
@@ -1738,6 +1740,8 @@ schema: 2
   > *Nature can't be tamed, but the Sun Empire believes that humans are made stronger when they test themselves against the wild strength of the dinosaurs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18325 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Wool Over the Eyes](https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,043 decks; most often under [Bill the Pony](../../cards/B/bi.md#bill-the-pony) (45.3% of its decks), [Baldin, Century Herdmaster](../../cards/B/bal.md#baldin-century-herdmaster) (41.7% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/23/looming-altisaur) · oracle_id `af5302d3-782b-4d92-bc97-dccbfc76ac95` · printing: XLN #23 (2017-09-29) · [rulings](https://api.scryfall.com/cards/cfcff1c6-0db6-4ff6-b4af-d7048b426368/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Looming Hoverguard
@@ -1779,6 +1783,8 @@ schema: 2
   > {T}: Add {R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12198 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Revelation at the Eye](https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14), [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,737 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (1.2% of its decks), [Vincent, Vengeful Atoner](../../cards/V/vi.md#vincent-vengeful-atoner) (16.4% of its decks), [Zell Dincht](../../cards/Z/ze.md#zell-dincht) (10.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#looming-spires)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/238/looming-spires) · oracle_id `7d09b136-525f-49dd-a3a2-dfaca4e8e9a8` · printing: BFZ #238 (2015-10-02) · [rulings](https://api.scryfall.com/cards/b88177a2-de41-417d-a8f1-07edf005b453/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2007,6 +2013,8 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1884 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #14 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Feather, the Redeemed](../../decks/feather-the-redeemed.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 87,582 decks; most often under [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (61.4% of its decks), [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (43.3% of its decks), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (21.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/L.md#lorans-escape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/14/lorans-escape) · oracle_id `1a9048d6-f3fa-4f3b-9baa-35318177bc6e` · printing: BRO #14 (2022-11-18) · [rulings](https://api.scryfall.com/cards/3765610d-a0c1-4de9-a81b-ffa3eb06454b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2336,6 +2344,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-07-13* — If you have no cards in hand as Lord Windgrace's first ability resolves, you'll discard nothing then you'll draw one card.
   - *2018-07-13* — While resolving Lord Windgrace's last ability, you create six Cat Warrior tokens even if fewer than six nonland permanents are destroyed. However, if you choose any targets for the ability and each of them becomes an illegal target, the ability doesn't resolve and you don't create any tokens.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Lord Windgrace](../../Characters%20Index.md#lord-windgrace) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Lord Windgrace + Command Beacon + Planebound Accomplice + Heart of Kiran + Archaeological Dig](https://commanderspellbook.com/combo/1238-2570-3273-5964-5965/) (Infinite landfall triggers) · EDHREC as commander: 10,101 decks; highest synergy [The Gitrog Monster](../../cards/T/theg.md#the-gitrog-monster) (+59%), [Ramunap Excavator](../../cards/R/ram.md#ramunap-excavator) (+56%), [Lotus Cobra](../../cards/L/lo.md#lotus-cobra) (+55%) · EDHREC: in 14,981 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (19.9% of its decks), [Szarel, Genesis Shepherd](../../cards/S/sz.md#szarel-genesis-shepherd) (14.1% of its decks), [Soul of Windgrace](../../cards/S/so.md#soul-of-windgrace) (43.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 edh guides · 1 lore & story · 2 card data) → [reverse index](../../references/L.md#lord-windgrace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/43/lord-windgrace) · oracle_id `38a55562-1e2d-4240-9454-219a4a25d38d` · printing: C18 #43 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2646,6 +2656,8 @@ schema: 2
   - *2009-10-01* — If a targeted permanent is untapped at the time its controller's next untap step begins, this ability has no effect on it. It won't apply at some later time when the targeted permanent is tapped.
   - *2009-10-01* — If an affected permanent changes controllers before its old controller's next untap step, this ability will prevent it from being untapped during its new controller's next untap step.
   - *2009-10-01* — You may target any eight (or fewer) permanents. It's okay if any of them are already tapped, and it's okay if any of them are controlled by someone other than the defending player.
+- **Lore:** ✅ Card art shown on [The Rise of Kozilek](https://magic.wizards.com/en/news/magic-story/rise-kozilek-2015-12-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 134 decks; highest synergy [Whelming Wave](../../cards/W/wh.md#whelming-wave) (+64%), [Slinn Voda, the Rising Deep](../../cards/S/sl.md#slinn-voda-the-rising-deep) (+50%), [Scourge of Fleets](../../cards/S/sc.md#scourge-of-fleets) (+48%) · EDHREC: in 18,505 decks; most often under [Kiora, Sovereign of the Deep](../../cards/K/ki.md#kiora-sovereign-of-the-deep) (54.8% of its decks), [Kenessos, Priest of Thassa](../../cards/K/ke.md#kenessos-priest-of-thassa) (48.5% of its decks), [Arixmethes, Slumbering Isle](../../cards/A/ari.md#arixmethes-slumbering-isle) (35.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#lorthos-the-tidemaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/103/lorthos-the-tidemaker) · oracle_id `d9fd4ff3-5ada-40f4-b949-6fe65624a0c4` · printing: CMM #103 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2791,6 +2803,8 @@ schema: 2
   - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
   - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
   - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/sea-gods-labyrinth-part-1-2013-11-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 551 decks; most often under [Matoya, Archon Elder](../../cards/M/mat.md#matoya-archon-elder) (3.2% of its decks), [Elrond, Master of Healing](../../cards/E/el.md#elrond-master-of-healing) (1.1% of its decks), [Eligeth, Crossroads Augur // Siani, Eye of the Storm](../../cards/E/el.md#eligeth-crossroads-augur) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/52/lost-in-a-labyrinth) · oracle_id `e6813885-b629-4bd4-b445-da8ab4363080` · printing: THS #52 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lost in Memories
@@ -2934,6 +2948,8 @@ schema: 2
   > *—Baral, Chief of Compliance*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24278 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Renewal](https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 964 decks; most often under [Umori, the Collector](../../cards/U/um.md#umori-the-collector) (5.7% of its decks), [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (0.5% of its decks), [Tasigur, the Golden Fang](../../cards/T/ta.md#tasigur-the-golden-fang) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#lost-legacy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/88/lost-legacy) · oracle_id `532f3f03-37af-46b6-bafb-031e9a3df056` · printing: KLD #88 (2016-09-30) · [rulings](https://api.scryfall.com/cards/d5d0e447-d98e-43d5-9b53-166221c34be2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3976,6 +3992,8 @@ schema: 2
   - *2019-07-12* — If you control more than one Loyal Pegasus, they can attack or block together, even if no other creatures attack or block.
   - *2019-07-12* — In a Two-Headed Giant game, Loyal Pegasus can attack or block with a creature controlled by your teammate, even if no other creatures you control are attacking or blocking.
   - *2019-07-12* — Once Loyal Pegasus has attacked or blocked, it will remain in combat even if you no longer control another attacking or blocking creature.
+- **Lore:** ✅ Card art shown on [The Oracle of Ephara](https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19), [The Oracle of Ephara](https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19-0) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,472 decks; most often under [Thurid, Mare of Destiny](../../cards/T/thu.md#thurid-mare-of-destiny) (44.1% of its decks), [Sephara, Sky's Blade](../../cards/S/sep.md#sephara-skys-blade) (9.8% of its decks), [Lathiel, the Bounteous Dawn](../../cards/L/la.md#lathiel-the-bounteous-dawn) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/28/loyal-pegasus) · oracle_id `3b7b862a-7edd-4e96-b4b9-f7113b4c93f9` · printing: M20 #28 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loyal Retainers

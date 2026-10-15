@@ -191,6 +191,9 @@ schema: 2
   - *2014-09-20* — Controlling more than one Ivorytusk Fortress doesn’t allow you to untap any creature more than once during a single untap step.
   - *2014-09-20* — Each creature you control with a +1/+1 counter on it untaps at the same time as the active player’s permanents. You can’t choose to not untap them at that time.
   - *2014-09-20* — Effects that state a creature you control doesn’t untap during your untap step won’t apply during another player’s untap step.
+- **Lore:** ✅ Card art shown on [The Salt Road](https://magic.wizards.com/en/news/magic-story/the-salt-road) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,184 decks; most often under [Felothar, Dawn of the Abzan](../../cards/F/fe.md#felothar-dawn-of-the-abzan) (12.9% of its decks), [Anafenza, the Foremost](../../cards/A/an.md#anafenza-the-foremost) (37.6% of its decks), [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (1.0% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#ivorytusk-fortress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/179/ivorytusk-fortress) · oracle_id `10ae7744-5f98-4d6f-993a-ffb2a34b23e7` · printing: KTK #179 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivy Dancer

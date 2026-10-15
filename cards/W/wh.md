@@ -350,6 +350,8 @@ schema: 2
   > *—Kiora*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2385 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Kiora's Followers](https://magic.wizards.com/en/news/magic-story/kioras-followers-2014-02-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 69,138 decks; most often under [Kiora, Sovereign of the Deep](../../cards/K/ki.md#kiora-sovereign-of-the-deep) (89.6% of its decks), [Omo, Queen of Vesuva](../../cards/O/om.md#omo-queen-of-vesuva) (43.6% of its decks), [Koma, Cosmos Serpent](../../cards/K/ko.md#koma-cosmos-serpent) (72.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#whelming-wave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/409/whelming-wave) · oracle_id `e510eaaf-6497-480f-baa8-f4796b5f1086` · printing: CMR #409 (2020-11-20) · [rulings](https://api.scryfall.com/cards/ddb863a0-3ff8-42a3-a151-4ea9aa433336/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -379,6 +381,8 @@ schema: 2
   - *2022-02-18* — The artifact and the enchantment may be the same permanent.
   - *2022-02-18* — Whether you control an artifact and an enchantment is checked as When We Were Young resolves.
   - *2022-02-18* — “Those creatures” refers to the target creatures, not the artifact and the enchantment.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): NEO #43 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 731 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.3% of its decks), [The Wandering Rescuer](../../cards/T/thew.md#the-wandering-rescuer) (7.5% of its decks), [Raiyuu, Storm's Edge](../../cards/R/rai.md#raiyuu-storms-edge) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/43/when-we-were-young) · oracle_id `1f27aa69-d17e-4f1f-9aba-cee205036f93` · printing: NEO #43 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Where Ancients Tread
@@ -768,6 +772,8 @@ schema: 2
   > *—Saheeli Rai*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20127 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [A Grateful Consulate](https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,187 decks; most often under [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (1.3% of its decks), [Leonardo da Vinci](../../cards/L/le.md#leonardo-da-vinci) (4.4% of its decks), [Graaz, Unstoppable Juggernaut](../../cards/G/gra.md#graaz-unstoppable-juggernaut) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/W.md#whirlermaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/239/whirlermaker) · oracle_id `bdf28770-0962-4317-822f-c187bc6706d1` · printing: KLD #239 (2016-09-30) · [rulings](https://api.scryfall.com/cards/ff1a1246-d5a0-43dc-825a-062a3bb4def9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1122,7 +1128,9 @@ schema: 2
 - **Rulings** (2):
   - *2018-04-27* — Neither sacrificed creature can be the target of Whisper’s ability.
   - *2018-04-27* — Whisper can be one of the creatures sacrificed to activate its ability.
-- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/W.md#whisper-blood-liturgist)
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Braids, Arisen Nightmare (Dominaria-only)](../../decks/plane-dominaria-braids-arisen-nightmare.md) · Commander Spellbook: 53 combos; most popular [Ashnod the Uncaring + Whisper, Blood Liturgist + Lightning Greaves](https://commanderspellbook.com/combo/876-2068-4283/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 450 decks; highest synergy [Abhorrent Overlord](../../cards/A/ab.md#abhorrent-overlord) (+45%), [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+43%), [Buried Alive](../../cards/B/bu.md#buried-alive) (+40%) · EDHREC: in 24,229 decks; most often under [Orah, Skyclave Hierophant](../../cards/O/or.md#orah-skyclave-hierophant) (47.5% of its decks), [Ratadrabik of Urborg](../../cards/R/rat.md#ratadrabik-of-urborg) (19.2% of its decks), [Sidisi, Brood Tyrant](../../cards/S/si.md#sidisi-brood-tyrant) (13.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 lore & story) → [reverse index](../../references/W.md#whisper-blood-liturgist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/198/whisper-blood-liturgist) · oracle_id `496ab82e-24a9-4a74-ba4b-992c7309b44a` · printing: CMM #198 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whisperer of the Wilds
@@ -1138,6 +1146,9 @@ schema: 2
 - **Keywords:** Ferocious
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5739 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: Things Unseen](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27), [Chronicle of Bolas: Whispers of Treachery](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 11 combos; most popular [Ashaya, Soul of the Wild + Scryb Ranger + Whisperer of the Wilds](https://commanderspellbook.com/combo/460-539-5986/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 27,600 decks; most often under [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (43.5% of its decks), [Raggadragga, Goreguts Boss](../../cards/R/rag.md#raggadragga-goreguts-boss) (16.6% of its decks), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (13.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Mana creatures (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-creatures-mv--2) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/W.md#whisperer-of-the-wilds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/187/whisperer-of-the-wilds) · oracle_id `c1e456b6-5d2b-4c42-9464-54a8f9f8f3ba` · printing: 2XM #187 (2020-08-07) · [rulings](https://api.scryfall.com/cards/2cf17d8a-c7ee-4909-bc80-4138dcfe7e67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whispergear Sneak

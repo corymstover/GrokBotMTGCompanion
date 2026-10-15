@@ -21,6 +21,7 @@ schema: 2
 
 - **Decks (2):** [Atarka, World Render (Tarkir-only)](../decks/plane-tarkir-atarka-world-render.md) · [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ugin](../Characters%20Index.md#ugin) (name-match) · [Ugin](../Planeswalker%20Dossiers.md#ugin) (name-match)
 
 ### Ugin's Construct
 
@@ -30,8 +31,9 @@ schema: 2
 
 ### Ugin's Insight
 
-[Card entry](../cards/U/ug.md#ugins-insight) · **1 pages** (lore & story 1)
+[Card entry](../cards/U/ug.md#ugins-insight) · **2 pages** (edh guides 1 · lore & story 1)
 
+- **EDH guides (1):** [EDH Packages → Card advantage: Burst draw (instants & sorceries)](../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries)
 - **Lore & story (1):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages)
 
 ### Ugin's Labyrinth
@@ -49,11 +51,13 @@ schema: 2
 
 ### Ugin, the Ineffable
 
-[Card entry](../cards/U/ug.md#ugin-the-ineffable) · **7 pages** (decks 3 · lore & story 2 · card data 2)
+[Card entry](../cards/U/ug.md#ugin-the-ineffable) · **8 pages** (decks 3 · edh guides 1 · lore & story 2 · card data 2)
 
 - **Decks (3):** [Aurelia, the Warleader (Ravnica-only)](../decks/plane-ravnica-aurelia-the-warleader.md) · [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
+- **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists M](../Artist%20Index.md#artists-m) (+1 more) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ugin](../Characters%20Index.md#ugin) (name-match) · [Ugin](../Planeswalker%20Dossiers.md#ugin) (name-match)
 
 ### Ugin, the Spirit Dragon
 
@@ -63,6 +67,7 @@ schema: 2
 - **EDH guides (1):** [EDH Upgrade Paths → Kozilek, the Great Distortion](../EDH%20Upgrade%20Paths.md#kozilek-the-great-distortion)
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Format Legality Matrix → brawl](../Format%20Legality%20Matrix.md#brawl)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ugin](../Characters%20Index.md#ugin) (name-match) · [Ugin](../Planeswalker%20Dossiers.md#ugin) (name-match)
 
 ### Ukkima, Stalking Shadow
 
@@ -114,6 +119,7 @@ schema: 2
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists S](../Artist%20Index.md#artists-s)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Uldaros Theorix](../Characters%20Index.md#uldaros-theorix) (name-match)
 
 ### Ultima, Origin of Oblivion
 
@@ -389,8 +395,9 @@ schema: 2
 
 ### Unexpected Assistance
 
-[Card entry](../cards/U/un.md#unexpected-assistance) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/U/un.md#unexpected-assistance) · **3 pages** (edh guides 1 · lore & story 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Card advantage: Burst draw (instants & sorceries)](../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries)
 - **Lore & story (1):** [Art & Flavor Story Links → Lorwyn Eclipsed (2025–26)](../Art%20%26%20Flavor%20Story%20Links.md#lorwyn-eclipsed-202526)
 - **Card data (1):** [Artist Index → Artists G](../Artist%20Index.md#artists-g)
 
@@ -418,9 +425,11 @@ schema: 2
 
 ### Unexplained Vision
 
-[Card entry](../cards/U/un.md#unexplained-vision) · **1 pages** (lore & story 1)
+[Card entry](../cards/U/un.md#unexplained-vision) · **2 pages** (edh guides 1 · lore & story 1)
 
+- **EDH guides (1):** [EDH Packages → Card advantage: Burst draw (instants & sorceries)](../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries)
 - **Lore & story (1):** [Conflicts & Arcs → Throne of Eldraine (2019)](../Conflicts%20%26%20Arcs.md#throne-of-eldraine-2019)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Throne of Eldraine (2019)](../Conflicts%20%26%20Arcs.md#throne-of-eldraine-2019) (featured)
 
 ### Unforgiving Aim
 
@@ -497,8 +506,9 @@ schema: 2
 
 ### Unity of Purpose
 
-[Card entry](../cards/U/un.md#unity-of-purpose) · **1 pages** (lore & story 1)
+[Card entry](../cards/U/un.md#unity-of-purpose) · **2 pages** (edh guides 1 · lore & story 1)
 
+- **EDH guides (1):** [EDH Packages → +1/+1 counters: Counter payoffs](../EDH%20Packages.md#11-counters-counter-payoffs)
 - **Lore & story (1):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages)
 
 ### Universal Automaton
@@ -558,6 +568,7 @@ schema: 2
 [Card entry](../cards/U/un.md#unpredictable-cyclone) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Conflicts & Arcs → Ikoria: Lair of Behemoths (2020)](../Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ikoria: Lair of Behemoths (2020)](../Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020) (featured)
 
 ### Unsanctioned Ancient Juggler
 
@@ -668,17 +679,20 @@ schema: 2
 
 ### Up the Beanstalk
 
-[Card entry](../cards/U/up.md#up-the-beanstalk) · **3 pages** (decks 1 · lore & story 1 · card data 1)
+[Card entry](../cards/U/up.md#up-the-beanstalk) · **4 pages** (decks 1 · edh guides 1 · lore & story 1 · card data 1)
 
 - **Decks (1):** [Xenagos, God of Revels](../decks/xenagos-god-of-revels.md)
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Lore & story (1):** [Art & Flavor Story Links → Wilds of Eldraine (2023)](../Art%20%26%20Flavor%20Story%20Links.md#wilds-of-eldraine-2023)
 - **Card data (1):** [Format Legality Matrix → standard](../Format%20Legality%20Matrix.md#standard) (+2 more)
 
 ### Urabrask, Heretic Praetor
 
-[Card entry](../cards/U/ur.md#urabrask-heretic-praetor) · **1 pages** (lore & story 1)
+[Card entry](../cards/U/ur.md#urabrask-heretic-praetor) · **2 pages** (edh guides 1 · lore & story 1)
 
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) (+1 more)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urabrask](../Characters%20Index.md#urabrask) (name-match)
 
 ### Urabrask's Forge
 
@@ -690,8 +704,9 @@ schema: 2
 
 ### Urabrask // The Great Work
 
-[Card entry](../cards/U/ur.md#urabrask--the-great-work) · **3 pages** (lore & story 2 · card data 1)
+[Card entry](../cards/U/ur.md#urabrask--the-great-work) · **4 pages** (edh guides 1 · lore & story 2 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Spellslinger: Cast-trigger payoffs](../EDH%20Packages.md#spellslinger-cast-trigger-payoffs)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j)
 - **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Urabrask](../Characters%20Index.md#urabrask) (name-match)
@@ -702,6 +717,7 @@ schema: 2
 
 - **EDH guides (2):** [EDH Interaction → 4. Untap restriction](../EDH%20Interaction.md#4-untap-restriction) · [EDH Win Conditions → Haste enablers](../EDH%20Win%20Conditions.md#haste-enablers)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urabrask](../Characters%20Index.md#urabrask) (name-match)
 
 ### Urban Evolution
 
@@ -781,6 +797,7 @@ schema: 2
 [Card entry](../cards/U/ur.md#urza-academy-headmaster) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urza](../Characters%20Index.md#urza) (name-match)
 
 ### Urza, Chief Artificer
 
@@ -790,6 +807,7 @@ schema: 2
 - **EDH guides (1):** [EDH Staples → Esper (WUB)](../EDH%20Staples.md#esper-wub)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists B](../Artist%20Index.md#artists-b)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urza](../Characters%20Index.md#urza) (name-match)
 
 ### Urza, Lord High Artificer
 
@@ -799,30 +817,38 @@ schema: 2
 - **EDH guides (3):** [EDH Packages → Card advantage: Impulse / exile-to-play](../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [EDH Upgrade Paths → Breya, Etherium Shaper](../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) · [Grixis Packages → Ramp](../grixis/Grixis%20Packages.md#ramp)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (3):** [Artist Index → Artists G](../Artist%20Index.md#artists-g) · [Format Legality Matrix → duel](../Format%20Legality%20Matrix.md#duel) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urza](../Characters%20Index.md#urza) (name-match)
 
 ### Urza, Lord Protector
 
-[Card entry](../cards/U/ur.md#urza-lord-protector) · **1 pages** (lore & story 1)
+[Card entry](../cards/U/ur.md#urza-lord-protector) · **2 pages** (edh guides 1 · lore & story 1)
 
+- **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urza](../Characters%20Index.md#urza) (name-match)
 
 ### Urza, Planeswalker
 
-[Card entry](../cards/U/ur.md#urza-planeswalker) · **1 pages** (lore & story 1)
+[Card entry](../cards/U/ur.md#urza-planeswalker) · **2 pages** (edh guides 1 · lore & story 1)
 
+- **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers) (+1 more)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urza](../Characters%20Index.md#urza) (name-match)
 
 ### Urza, Powerstone Prodigy
 
 [Card entry](../cards/U/ur.md#urza-powerstone-prodigy) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urza](../Characters%20Index.md#urza) (name-match)
 
 ### Urza, Prince of Kroog
 
-[Card entry](../cards/U/ur.md#urza-prince-of-kroog) · **1 pages** (lore & story 1)
+[Card entry](../cards/U/ur.md#urza-prince-of-kroog) · **2 pages** (edh guides 1 · lore & story 1)
 
+- **EDH guides (1):** [EDH Packages → Tokens: Anthems](../EDH%20Packages.md#tokens-anthems)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urza](../Characters%20Index.md#urza) (name-match)
 
 ### Urza's Armor
 

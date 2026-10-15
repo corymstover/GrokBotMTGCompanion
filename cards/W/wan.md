@@ -128,6 +128,8 @@ schema: 2
   > *Just as Jin-Gitaxias's victory seemed certain, the Wanderer appeared, her blade already in motion. One mighty slash was enough to take the praetor out of the fight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19187 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): NEO #41 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,591 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (2.4% of its decks), [Raiyuu, Storm's Edge](../../cards/R/rai.md#raiyuu-storms-edge) (12.9% of its decks), [The Wandering Rescuer](../../cards/T/thew.md#the-wandering-rescuer) (25.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/41/wanderers-intervention) · oracle_id `4497d0b9-cf4b-4c9d-bf7e-8ed85aa6b5b8` · printing: NEO #41 (2022-02-18) · [rulings](https://api.scryfall.com/cards/43708ec9-a85a-4244-86b4-67b30b41d854/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderer's Strike

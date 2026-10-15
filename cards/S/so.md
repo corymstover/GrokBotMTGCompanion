@@ -1407,6 +1407,8 @@ schema: 2
   > *Denied all tools of necromancy, Liliana endured her least favorite feeling: boredom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24841 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): FRA #149 — [Art & Flavor → Reality Fracture (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#reality-fracture-2026) — ✅ Card art shown on [Reality Fracture](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-2-purge-yourself-of-doubt) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 926 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (12.0% of its decks), [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (1.3% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#solitary-cell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/149/solitary-cell) · oracle_id `66a22b35-3dc0-4a74-8474-e73293403de6` · printing: FRA #149 (2026-10-02) · [rulings](https://api.scryfall.com/cards/5142bbb6-194c-4b12-b11a-1a21c9fe81a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1857,6 +1859,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19741 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — Somberwald Alpha’s first ability will give each creature you control that becomes blocked +1/+1 until end of turn. It doesn’t matter how many of your opponent’s creatures are blocking each of your creatures.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,362 decks; most often under [Chief of the Wilds](../../cards/C/chi.md#chief-of-the-wilds) (23.9% of its decks), [Tolsimir, Friend to Wolves](../../cards/T/to.md#tolsimir-friend-to-wolves) (25.4% of its decks), [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/198/somberwald-alpha) · oracle_id `11b12954-dd1b-4c50-8433-15d8c1a15e29` · printing: ORI #198 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Somberwald Beastmaster
@@ -2596,6 +2600,8 @@ schema: 2
   > {2}: Prevent all combat damage that would be dealt to and dealt by target creature you control this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28907 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/dragons-errand-2015-05-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 317 decks; most often under [Patron of the Moon](../../cards/P/pa.md#patron-of-the-moon) (0.5% of its decks), [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (0.0% of its decks), [Professor Hojo](../../cards/P/pr.md#professor-hojo) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/160/soratami-cloud-chariot) · oracle_id `1a46373a-b48a-4118-92e0-d856ce409690` · printing: SOK #160 (2005-06-03) · [rulings](https://api.scryfall.com/cards/25e6129a-fa5c-4e27-a4d4-cbde7392164b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Soratami Cloudskater
@@ -2864,6 +2870,8 @@ schema: 2
   - *2021-03-19* — Sorcerous Spyglass affects cards regardless of what zone they're in. This includes cards in hand, cards in the graveyard, and exiled cards.
   - *2021-03-19* — You can choose any card name, even if that card doesn't normally have an activated ability. You're not limited to the names of cards you saw in the opponent's hand.
   - *2021-03-19* — You can't choose the name of a token unless that token has the same name as a card.
+- **Lore:** ✅ Card art shown on [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Lethal Vapors + Sorcerous Spyglass](https://commanderspellbook.com/combo/1919-2580/) (Destroy all creatures that enter the battlefield, Lock) · EDHREC: in 4,199 decks; most often under [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (1.6% of its decks), [Oswald Fiddlebender](../../cards/O/os.md#oswald-fiddlebender) (5.7% of its decks), [Isperia the Inscrutable](../../cards/I/is.md#isperia-the-inscrutable) (10.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sorcerous-spyglass)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/679/sorcerous-spyglass) · oracle_id `b2187f45-80ae-4ac4-9f83-5eb7a00978e2` · printing: FDN #679 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2899,7 +2907,9 @@ schema: 2
 - **Rulings** (2):
   - *2016-04-08* — If a card in your library has {X} in its mana cost, X is considered to be 0.
   - *2016-04-08* — In a Two-Headed Giant game, the highest life total among all players is the highest life total among all teams.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/S.md#sorin-grim-nemesis)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Sorin Markov](../../Characters%20Index.md#sorin-markov) · [Dossier → Sorin Markov](../../Planeswalker%20Dossiers.md#sorin-markov) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,111 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (4.3% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (2.7% of its decks), [Sorin of House Markov](../../cards/S/so.md#sorin-of-house-markov--sorin-ravenous-neonate) (14.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/S.md#sorin-grim-nemesis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/251/sorin-grim-nemesis) · oracle_id `0a01dd05-e289-489f-b3ad-88e15e157bd0` · printing: SOI #251 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sorin, Imperious Bloodlord
@@ -2916,6 +2926,8 @@ schema: 2
   - *2025-01-24* — If the target of the reflexive triggered ability is an illegal target as that ability tries to resolve, it doesn’t resolve. You won’t gain 3 life.
   - *2025-01-24* — Multiple instances of deathtouch and/or lifelink on the same creature are redundant.
   - *2025-01-24* — You don’t choose a target for Sorin’s second ability at the time you activate it. Rather, a second “reflexive” ability triggers when you sacrifice a Vampire this way. You choose a target for this ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Sorin Markov](../../Characters%20Index.md#sorin-markov) · [Dossier → Sorin Markov](../../Planeswalker%20Dossiers.md#sorin-markov) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Edgar Markov](../../decks/edgar-markov.md) · [Edgar Markov (lifegain theme)](../../decks/theme-edgar-markov-lifegain.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 41,563 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (46.9% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (26.6% of its decks), [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (32.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 6 pages (2 decks · 2 lore & story · 2 card data) → [reverse index](../../references/S.md#sorin-imperious-bloodlord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/133/sorin-imperious-bloodlord) · oracle_id `fee680c6-afe2-4321-9d8a-8f81a612a53b` · printing: INR #133 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2934,7 +2946,9 @@ schema: 2
   - *2011-01-22* — If a creature with undying is destroyed by Sorin, Lord of Innistrad's third ability, the undying ability will trigger, but the creature will already have been returned to the battlefield by Sorin. The undying ability won't do anything when it resolves.
   - *2011-01-22* — The emblems are cumulative. If you get two of them, creatures you control will get +2/+0.
   - *2011-01-22* — You can target a token creature with Sorin, Lord of Innistrad's third ability, but it won't return to the battlefield.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/S.md#sorin-lord-of-innistrad)
+- **Lore:** ✅ Card art shown on [The Lunarch's Journal](https://magic.wizards.com/en/news/magic-story/lunarchs-journal-2014-08-13) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Sorin Markov](../../Characters%20Index.md#sorin-markov) · [Dossier → Sorin Markov](../../Planeswalker%20Dossiers.md#sorin-markov) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 32,560 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (18.9% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (56.0% of its decks), [Elenda, the Dusk Rose](../../cards/E/el.md#elenda-the-dusk-rose) (24.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/S.md#sorin-lord-of-innistrad)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/289/sorin-lord-of-innistrad) · oracle_id `5c780dda-ee76-482a-a610-53c321c4fdec` · printing: LCC #289 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sorin Markov
@@ -2964,6 +2978,8 @@ schema: 2
   - *2010-06-15* — In a Two-Headed Giant game, Sorin’s second ability causes the targeted opponent’s team’s life total to become 10. Only the targeted player is actually considered to have actually gained or lost life.
   - *2016-07-13* — Controlling a player doesn’t allow you to look at that player’s sideboard. If an effect instructs that player to choose a card from outside the game, you can’t have that player choose any card.
   - *2016-07-13* — While controlling another player, you can see all cards in the game that player can see. This includes cards in that player’s hand, face-down cards that player controls, and any cards in that player’s library the player may look at.
+- **Lore:** ✅ Card art shown on [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15), [The Lithomancer](https://magic.wizards.com/en/news/magic-story/the-lithomancer) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Sorin Markov](../../Characters%20Index.md#sorin-markov) · [Dossier → Sorin Markov](../../Planeswalker%20Dossiers.md#sorin-markov) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Ezio Auditore da Firenze + Sorin Markov](https://commanderspellbook.com/combo/367-5712/) (Near-infinite lifeloss for target opponent, Target opponent loses the game) · EDHREC: in 39,150 decks; most often under [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (26.7% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (7.6% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (41.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (3 lore & story) → [reverse index](../../references/S.md#sorin-markov)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/109/sorin-markov) · oracle_id `c151e8b7-4b28-4f03-8a81-9bf623f893d7` · printing: M12 #109 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3003,6 +3019,8 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Sorin Markov](../../Characters%20Index.md#sorin-markov) · [Dossier → Sorin Markov](../../Planeswalker%20Dossiers.md#sorin-markov) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Sorin of House Markov // Sorin, Ravenous Neonate + Revival // Revenge](https://commanderspellbook.com/combo/4624-5731/) (Near-infinite damage to one opponent, Near-infinite lifeloss for target opponent) · EDHREC as commander: 6,615 decks; highest synergy [Vito, Thorn of the Dusk Rose](../../cards/V/vi.md#vito-thorn-of-the-dusk-rose) (+49%), [Exsanguinate](../../cards/E/ex.md#exsanguinate) (+48%), [Soul Warden](../../cards/S/so.md#soul-warden) (+42%) · EDHREC: in 36,255 decks; most often under [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (17.8% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (5.9% of its decks), [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (10.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 rules · 2 lore & story) → [reverse index](../../references/S.md#sorin-of-house-markov--sorin-ravenous-neonate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/245/sorin-of-house-markov-sorin-ravenous-neonate) · oracle_id `84e84532-498b-40ea-9510-46fb2403939b` · printing: MH3 #245 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3032,7 +3050,9 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — Only creatures you control as the first ability resolves will get the bonuses. Creatures you come to control after that happens will not.
   - *2014-09-20* — When the emblem’s ability resolves, if the player controls no creatures, the player won’t sacrifice anything.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/S.md#sorin-solemn-visitor)
+- **Lore:** ✅ Card art shown on [Sorin's Revelation](https://magic.wizards.com/en/news/magic-story/sorins-revelation), [The Story of Tarkir Block](https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Sorin Markov](../../Characters%20Index.md#sorin-markov) · [Dossier → Sorin Markov](../../Planeswalker%20Dossiers.md#sorin-markov) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,948 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (5.0% of its decks), [Sorin of House Markov](../../cards/S/so.md#sorin-of-house-markov--sorin-ravenous-neonate) (11.4% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (1.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/S.md#sorin-solemn-visitor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/202/sorin-solemn-visitor) · oracle_id `1f1f1ae7-dd00-4825-832e-3a049cf8ce73` · printing: KTK #202 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sorin's Thirst
@@ -3046,6 +3066,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18331 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-07-12* — If the target creature is an illegal target by the time Sorin’s Thirst tries to resolve, the spell doesn’t resolve. You won’t gain 2 life.
+- **Lore:** ✅ Card art shown on [Innistrad's Last Hope](https://magic.wizards.com/en/news/magic-story/innistrads-last-hope-2016-06-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,035 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.6% of its decks), [Sorin of House Markov](../../cards/S/so.md#sorin-of-house-markov--sorin-ravenous-neonate) (4.5% of its decks), [Vito, Thorn of the Dusk Rose](../../cards/V/vi.md#vito-thorn-of-the-dusk-rose) (5.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#sorins-thirst)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/325/sorins-thirst) · oracle_id `ff27ff37-96c0-41af-8881-a078e884e67b` · printing: M20 #325 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3074,6 +3096,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8100 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-11-19* — If you choose not to reveal the card you looked at with Sorin's first loyalty ability, it stays on top of your library.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Sorin Markov](../../Characters%20Index.md#sorin-markov) · [Dossier → Sorin Markov](../../Planeswalker%20Dossiers.md#sorin-markov) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Sorin the Mirthless + Tree of Perdition + Doubling Season](https://commanderspellbook.com/combo/2615-4040-4772/) (Target opponent loses the game) · EDHREC: in 17,284 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (7.1% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (30.1% of its decks), [Sorin of House Markov](../../cards/S/so.md#sorin-of-house-markov--sorin-ravenous-neonate) (18.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/S.md#sorin-the-mirthless)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/131/sorin-the-mirthless) · oracle_id `fbffaf9f-40e7-4113-a037-533b733cebce` · printing: VOW #131 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3090,6 +3114,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-07-12* — If the chosen target is an illegal target by the time Sorin's second ability tries to resolve, the ability doesn't resolve. You won't gain 4 life.
   - *2019-07-12* — The control-change effect from ability granted by Sorin's last ability lasts indefinitely. It doesn't wear off during the cleanup step, and it doesn't expire if Sorin or a Vampire whose ability was activated leaves the battlefield. In a multiplayer game, it does expire if you leave the game.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Sorin Markov](../../Characters%20Index.md#sorin-markov) · [Dossier → Sorin Markov](../../Planeswalker%20Dossiers.md#sorin-markov) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,201 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (1.3% of its decks), [Sorin of House Markov](../../cards/S/so.md#sorin-of-house-markov--sorin-ravenous-neonate) (6.1% of its decks), [Olivia Voldaren](../../cards/O/ol.md#olivia-voldaren) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/S.md#sorin-vampire-lord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/290/sorin-vampire-lord) · oracle_id `753dcc18-3697-49c5-80c6-2d8dc8ee8c9a` · printing: M20 #290 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3107,6 +3133,8 @@ schema: 2
   - *2019-05-03* — If Sorin leaves the battlefield after you've activated his first loyalty ability during your turn but before it resolves, you'll still gain 1 life as that ability deals damage.
   - *2019-05-03* — If a card in a graveyard has {X} in its mana cost, X is considered to be 0.
   - *2019-05-03* — Multiple instances of lifelink on the same creature or planeswalker are redundant.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Sorin Markov](../../Characters%20Index.md#sorin-markov) · [Dossier → Sorin Markov](../../Planeswalker%20Dossiers.md#sorin-markov) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Volcano Hellion + Sorin, Vengeful Bloodlord](https://commanderspellbook.com/combo/2675-5109/) (Infinite lifegain) · EDHREC: in 29,418 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (9.5% of its decks), [Sorin of House Markov](../../cards/S/so.md#sorin-of-house-markov--sorin-ravenous-neonate) (44.2% of its decks), [Astarion, the Decadent](../../cards/A/as.md#astarion-the-decadent) (15.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/S.md#sorin-vengeful-bloodlord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/217/sorin-vengeful-bloodlord) · oracle_id `cffb615c-2de0-4c65-9d0b-08a649ba0695` · printing: WAR #217 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3587,6 +3615,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11145 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-02-02* — If multiple creature cards leave your graveyard at the same time, Soul Enervation's last ability will trigger only once.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #106, MKM #302 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,414 decks; most often under [Shirei, Shizo's Caretaker](../../cards/S/shi.md#shirei-shizos-caretaker) (10.6% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (1.4% of its decks), [Syrix, Carrier of the Flame](../../cards/S/sy.md#syrix-carrier-of-the-flame) (18.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#soul-enervation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/106/soul-enervation) · oracle_id `5b4508a3-1d21-46ec-8a50-cd3171a7348a` · printing: MKM #106 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4176,6 +4206,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6833 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-14* — Playing the exiled card follows all normal timing rules for a card of that type, and its owner must pay all costs (including the additional {2} if applicable) to cast it this way.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #26 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 22,242 decks; most often under [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (22.5% of its decks), [Dargo, the Shipwrecker // Tymna the Weaver](../../cards/D/da.md#dargo-the-shipwrecker) (35.9% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (9.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#soul-partition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/26/soul-partition) · oracle_id `2cfd5c18-47d0-4549-aacc-2428db21df2f` · printing: BRO #26 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4714,6 +4746,8 @@ schema: 2
   - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
   - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Lore:** ✅ Card art shown on [Sorin's Restoration](https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Kitsa, Otterball Elite + Ashnod's Altar + Intruder Alarm + Soul Summons](https://commanderspellbook.com/combo/1636-2034-5803-7244/) (Infinite self-mill, Near-infinite creature ETB) · EDHREC: in 776 decks; most often under [Kaust, Eyes of the Glade](../../cards/K/ka.md#kaust-eyes-of-the-glade) (9.1% of its decks), [Aminatou, the Fateshifter](../../cards/A/am.md#aminatou-the-fateshifter) (0.7% of its decks), [Monk Gyatso](../../cards/M/mon.md#monk-gyatso) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/26/soul-summons) · oracle_id `0f5b79ca-9f80-420b-a6c5-bb2a9a95c7e7` · printing: FRF #26 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Soulsurge Elemental

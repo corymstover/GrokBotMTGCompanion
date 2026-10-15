@@ -220,6 +220,8 @@ schema: 2
   - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
   - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
   - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DFT #175 — [Art & Flavor → Aetherdrift (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#aetherdrift-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,264 decks; most often under [Samut, the Driving Force](../../cards/S/sam.md#samut-the-driving-force) (63.0% of its decks), [Loot, the Pathfinder](../../cards/L/lo.md#loot-the-pathfinder) (7.1% of its decks), [Redshift, Rocketeer Chief](../../cards/R/red.md#redshift-rocketeer-chief) (6.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#point-the-way)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/175/point-the-way) · oracle_id `0ffe9c8b-e0cb-4a29-bc14-649dbec5d1f3` · printing: DFT #175 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -839,6 +841,8 @@ schema: 2
   - *2013-09-15* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
   - *2013-09-15* — The value of X in Polukranos's last ability is equal to the value chosen for X when its activated ability was activated.
   - *2013-09-15* — You choose the division of damage as you put the ability on the stack, not as it resolves. Each target must be assigned at least 1 damage. In multiplayer games, you may choose creatures controlled by different opponents.
+- **Lore:** ✅ Card art shown on [Ajani, Mentor of Heroes](https://magic.wizards.com/en/news/magic-story/ajani-mentor-heroes-2014-12-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 102 decks; highest synergy [Hydra Broodmaster](../../cards/H/hy.md#hydra-broodmaster) (+37%), [Mistcutter Hydra](../../cards/M/mis.md#mistcutter-hydra) (+36%), [Ulvenwald Hydra](../../cards/U/ul.md#ulvenwald-hydra) (+31%) · EDHREC: in 10,426 decks; most often under [Gargos, Vicious Watcher](../../cards/G/ga.md#gargos-vicious-watcher) (24.3% of its decks), [Agatha of the Vile Cauldron](../../cards/A/ag.md#agatha-of-the-vile-cauldron) (20.2% of its decks), [Polukranos Reborn](../../cards/P/po.md#polukranos-reborn--polukranos-engine-of-ruin) (20.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/172/polukranos-world-eater) · oracle_id `ecbf5560-853a-43a9-bf70-ac8d403b0ce8` · printing: THS #172 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polygoyf
@@ -1256,6 +1260,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12984 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-04-08* — You choose which lands to untap after you have drawn three cards. Lands controlled by any player may be untapped this way.
+- **Lore:** ✅ Card art shown on [The Mystery of Markov Manor](https://magic.wizards.com/en/news/magic-story/mystery-markov-manor-2016-03-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,658 decks; most often under [Melek, Reforged Researcher](../../cards/M/me.md#melek-reforged-researcher) (21.3% of its decks), [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (9.6% of its decks), [Mizzix of the Izmagnus](../../cards/M/miz.md#mizzix-of-the-izmagnus) (3.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#pore-over-the-pages)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/79/pore-over-the-pages) · oracle_id `55fe5ec3-1c81-4e9d-9e4c-f68ce6d7c2de` · printing: SOI #79 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Porphyry Nodes
@@ -1353,6 +1360,8 @@ schema: 2
   > *After five thousand years, the nightmare returned.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1071 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #240 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Ashad, the Lone Cyberman (Grixis)](../../grixis/decks/ashad-the-lone-cyberman.md) · [Mishra, Eminent One (Grixis)](../../grixis/decks/mishra-eminent-one.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 147,590 decks; most often under [Magda, Brazen Outlaw](../../cards/M/mag.md#magda-brazen-outlaw) (45.4% of its decks), [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (35.4% of its decks), [Tannuk, Steadfast Second](../../cards/T/ta.md#tannuk-steadfast-second) (49.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 lore & story) → [reverse index](../../references/P.md#portal-to-phyrexia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/240/portal-to-phyrexia) · oracle_id `301d1d8e-d3fc-4010-8b29-4724fa0b31cd` · printing: BRO #240 (2022-11-18) · [rulings](https://api.scryfall.com/cards/5f608efc-0dbc-4cc3-aadd-ed473bfc29ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1385,6 +1394,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15389 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-06-23* — Portcullis Vine can be sacrificed to pay the cost of its last ability.
+- **Lore:** ✅ Card art shown on [Bound and Bonded](https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,086 decks; most often under [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (12.1% of its decks), [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (2.6% of its decks), [Betor, Kin to All](../../cards/B/be.md#betor-kin-to-all) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/195/portcullis-vine) · oracle_id `a217f386-11b5-48f0-b173-3b0700ba295f` · printing: M21 #195 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portent
@@ -1430,6 +1441,8 @@ schema: 2
   - *2024-07-26* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2024-07-26* — The card types that can appear on cards you reveal with Portent of Calamity are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types. Raccoon and Scout are subtypes, not card types.
   - *2024-07-26* — You choose which spell to cast (if any) as Portent of Calamity resolves. If you choose to cast a spell this way, you do so as part of the resolution of Portent of Calamity. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s types are ignored.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BLB #66 — [Art & Flavor → Bloomburrow (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#bloomburrow-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,276 decks; most often under [Alania, Divergent Storm](../../cards/A/al.md#alania-divergent-storm) (12.0% of its decks), [Glarb, Calamity's Augur](../../cards/G/gl.md#glarb-calamitys-augur) (3.7% of its decks), [Clement, the Worrywort](../../cards/C/cl.md#clement-the-worrywort) (10.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#portent-of-calamity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/66/portent-of-calamity) · oracle_id `0d49187a-1c37-4c3a-afc2-fac2bbc6b29a` · printing: BLB #66 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1600,6 +1613,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22025 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — Possessed Skaab’s last ability will apply no matter what caused it to die (lethal damage, being sacrificed, enough -1/-1 counters, and so on). Possessed Skaab won’t go to the graveyard. It will be put from the battlefield into exile. Abilities that trigger whenever a creature dies won’t trigger.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 98+ combos; most popular [Ghostly Flicker + Peregrine Drake + Possessed Skaab](https://commanderspellbook.com/combo/1987-2187-3821/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 1,525 decks; most often under [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (2.6% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (1.2% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/215/possessed-skaab) · oracle_id `a42b567d-6bfc-49e7-8f91-917e2bb3046c` · printing: ORI #215 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Possession Engine

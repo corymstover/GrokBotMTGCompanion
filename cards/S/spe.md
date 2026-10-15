@@ -218,6 +218,8 @@ schema: 2
   - *2013-09-15* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
   - *2013-09-15* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
   - *2013-09-15* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/nymphs-theros-2013-10-01), [official story page](https://magic.wizards.com/en/news/feature/nymphs-theros-2013-10-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 528 decks; most often under [Three Dog, Galaxy News DJ](../../cards/T/thr.md#three-dog-galaxy-news-dj) (1.0% of its decks), [Uril, the Miststalker](../../cards/U/ur.md#uril-the-miststalker) (0.3% of its decks), [Wildsear, Scouring Maw](../../cards/W/wi.md#wildsear-scouring-maw) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/141/spearpoint-oread) · oracle_id `2fa7bb26-18eb-4ff0-8558-f6f3981a84ce` · printing: THS #141 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spear Spewer
@@ -344,6 +346,8 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7974 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-a-living-flame) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 17,920 decks; most often under [Rootha, Mastering the Moment](../../cards/R/ro.md#rootha-mastering-the-moment) (50.5% of its decks), [Prismari, the Inspiration](../../cards/P/pr.md#prismari-the-inspiration) (17.8% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (6.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/262/spectacle-summit) · oracle_id `33a4e73d-d93a-4b6f-88ff-cd53f20d178c` · printing: SOS #262 (2026-04-24) · [rulings](https://api.scryfall.com/cards/a0a66f7b-eab4-45da-8895-c2c2c7eb05f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectacular Pileup
@@ -392,6 +396,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19046 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — An opus ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-a-living-flame) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,676 decks; most often under [Prismari, the Inspiration](../../cards/P/pr.md#prismari-the-inspiration) (5.0% of its decks), [Rootha, Mastering the Moment](../../cards/R/ro.md#rootha-mastering-the-moment) (3.8% of its decks), [Ashling, Rekindled](../../cards/A/as.md#ashling-rekindled--ashling-rimebound) (4.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#spectacular-skywhale)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/229/spectacular-skywhale) · oracle_id `6a6b19db-cdeb-4922-8642-5d872f90e7a1` · printing: SOS #229 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectacular Spider-Man
@@ -1334,6 +1341,8 @@ schema: 2
   > *The druid's aim was dead on. But their choice of target was dead wrong.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #903 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): NEO #80 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Talrand, Sky Summoner](../../decks/talrand-sky-summoner.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 166,871 decks; most often under [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (16.2% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (11.0% of its decks), [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (16.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#spell-pierce)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/64/spell-pierce) · oracle_id `d64b0848-0193-4025-ba62-63ecd8fb9f50` · printing: DFT #64 (2025-02-14) · [rulings](https://api.scryfall.com/cards/8dd4374f-0301-4b2e-bc99-2cd19568cb3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1719,7 +1728,9 @@ schema: 2
   - *2017-07-14* — Afflict resolves before combat damage is dealt. If this loss of life brings a player to 0 life or less, that player loses the game immediately. A blocking creature with lifelink won't deal combat damage in time to save that player.
   - *2017-07-14* — If multiple creatures block a creature with afflict, afflict triggers only once.
   - *2023-07-28* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player. If a creature is attacking a battle, that battle's protector is the defending player.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#spellweaver-eternal)
+- **Lore:** ✅ Card art shown on [Hour of Eternity](https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,369 decks; most often under [Geralf, the Fleshwright](../../cards/G/ge.md#geralf-the-fleshwright) (7.5% of its decks), [Adeliz, the Cinder Wind](../../cards/A/ad.md#adeliz-the-cinder-wind) (12.4% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (0.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/S.md#spellweaver-eternal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/46/spellweaver-eternal) · oracle_id `71f3d3d3-3f82-43f6-b2a9-d21afbdd7739` · printing: HOU #46 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellweaver Helix

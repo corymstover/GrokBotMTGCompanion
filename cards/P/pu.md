@@ -288,7 +288,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10276 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — You don't have to choose any targets for Pull from the Grave. However, if you do and all of the targets are illegal as Pull from the Grave tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#pull-from-the-grave)
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-3-asunder) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,046 decks; most often under [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (12.7% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (3.0% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (3.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/P.md#pull-from-the-grave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/95/pull-from-the-grave) · oracle_id `c5373026-8b43-42a7-aa69-a1b0f1619795` · printing: SOS #95 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pull from Tomorrow
@@ -616,6 +618,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28398 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-07-14* — Puncturing Blow’s replacement effect will exile the target creature if it would die this turn for any reason, not just due to lethal damage. It applies to the target creature even if Puncturing Blow deals no damage to it (due to a prevention effect) or Puncturing Blow deals damage to a different creature (due to a redirection effect).
+- **Lore:** ✅ Card art shown on [Endure](https://magic.wizards.com/en/news/magic-story/endure-2017-07-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 366 decks; most often under [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (0.4% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.0% of its decks), [The Emperor of Palamecia](../../cards/T/thee.md#the-emperor-of-palamecia--the-lord-master-of-hell) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#puncturing-blow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/106/puncturing-blow) · oracle_id `1128d2ab-0b6e-4912-8735-15521bc314e6` · printing: HOU #106 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1297,6 +1301,8 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24933 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Judgment](https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 836 decks; most often under [Gavi, Nest Warden](../../cards/G/ga.md#gavi-nest-warden) (2.2% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.2% of its decks), [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#pursue-glory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/147/pursue-glory) · oracle_id `f85edb4f-1eec-40cc-9e21-0a6fb71e8499` · printing: AKH #147 (2017-04-28) · [rulings](https://api.scryfall.com/cards/f5668ae2-fa74-47c9-877e-5326cac67659/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1374,6 +1380,8 @@ schema: 2
   > Vehicles you control become artifact creatures until end of turn. Creatures you control gain haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12909 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DFT #143 — [Art & Flavor → Aetherdrift (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#aetherdrift-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,793 decks; most often under [Kolodin, Triumph Caster](../../cards/K/ko.md#kolodin-triumph-caster) (45.3% of its decks), [Balthier and Fran](../../cards/B/bal.md#balthier-and-fran) (59.6% of its decks), [Samut, the Driving Force](../../cards/S/sam.md#samut-the-driving-force) (20.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#push-the-limit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/143/push-the-limit) · oracle_id `62e54c6d-d775-4597-bd4d-dc38460b33ec` · printing: DFT #143 (2025-02-14) · [rulings](https://api.scryfall.com/cards/21de84a2-2654-4e1a-a569-bf385bb43685/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

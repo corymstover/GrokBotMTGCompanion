@@ -256,6 +256,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-04-18* — Once Rhonas has attacked or blocked, it will remain in combat even if you no longer control another creature with power 4 or greater.
   - *2017-04-18* — You don't have to attack with another creature with power 4 or greater for Rhonas to be able to attack. The same is true of blocking.
+- **Lore:** ✅ Card art shown on [Hour of Glory](https://magic.wizards.com/en/news/magic-story/hour-glory-2017-06-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 766 decks; highest synergy [Ulvenwald Tracker](../../cards/U/ul.md#ulvenwald-tracker) (+57%), [Tail Swipe](../../cards/T/ta.md#tail-swipe) (+55%), [Inscription of Abundance](../../cards/I/ins.md#inscription-of-abundance) (+52%) · EDHREC: in 31,162 decks; most often under [Indominus Rex, Alpha](../../cards/I/ind.md#indominus-rex-alpha) (58.2% of its decks), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (32.1% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (5.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#rhonas-the-indomitable)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/182/rhonas-the-indomitable) · oracle_id `5d2acd3e-4782-42e3-bcd5-80f8b439cc28` · printing: AKH #182 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -378,6 +380,8 @@ schema: 2
   - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
   - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 398 decks; most often under [Ghired, Conclave Exile](../../cards/G/gh.md#ghired-conclave-exile) (0.9% of its decks), [Aragorn, Hornburg Hero](../../cards/A/ara.md#aragorn-hornburg-hero) (0.9% of its decks), [Perrie, the Pulverizer](../../cards/P/pe.md#perrie-the-pulverizer) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/196/rhox-maulers) · oracle_id `019461d9-63ae-43d3-a9d4-bd745d0cf46c` · printing: ORI #196 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox Meditant

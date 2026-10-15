@@ -852,6 +852,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #407 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-05-03* — If a permanent has {X} in its mana cost, X is considered to be 0.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #190 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Teysa Karlov](../../decks/teysa-karlov.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 303,304 decks; most often under [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (60.6% of its decks), [Temmet, Naktamun's Will](../../cards/T/te.md#temmet-naktamuns-will) (59.8% of its decks), [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (42.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (1 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/D.md#despark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/50/despark) · oracle_id `bd16434d-55ea-4c5a-a9ef-752971a4af16` · printing: FRC #50 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1368,5 +1370,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24609 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-14* — The permanent's owner chooses whether to put it on the top or bottom of their library. If multiple cards are put into the library this way (such as when the spell targets a melded permanent), that permanent's owner puts all the cards on top or all the cards on the bottom. They put them in whatever order they wish, and do not need to reveal the order.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #46 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 894 decks; most often under [Elminster](../../cards/E/el.md#elminster) (0.8% of its decks), [Wan Shi Tong, All-Knowing](../../cards/W/wan.md#wan-shi-tong-all-knowing) (1.9% of its decks), [Elrond, Master of Healing](../../cards/E/el.md#elrond-master-of-healing) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#desynchronize)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/46/desynchronize) · oracle_id `dae81b1b-28dd-4f7f-9bcb-65e72eaa37e2` · printing: BRO #46 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

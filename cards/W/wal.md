@@ -931,6 +931,8 @@ schema: 2
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15826 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Under the Cover of Fog](https://magic.wizards.com/en/news/magic-story/under-cover-fog-2018-10-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,715 decks; most often under [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (10.0% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (6.8% of its decks), [Geralf, Visionary Stitcher](../../cards/G/ge.md#geralf-visionary-stitcher) (45.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/58/wall-of-mist) · oracle_id `b2ca8824-6bd8-4aa3-b156-618118eb98a4` · printing: GRN #58 (2018-10-05) · [rulings](https://api.scryfall.com/cards/62a37646-8f7c-40fc-851d-e3fdd205b012/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Mourning

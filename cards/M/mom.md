@@ -179,6 +179,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12989 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — If there are fewer than three cards in your library, look at all of the cards in your library and follow the instructions in order. For example, if you had only two cards in your library, you would look at both, put one into your hand, and then put the other one in the graveyard.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #67 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,661 decks; most often under [River Song](../../cards/R/ri.md#river-song) (21.8% of its decks), [Zethi, Arcane Blademaster](../../cards/Z/ze.md#zethi-arcane-blademaster) (12.2% of its decks), [Octavia, Living Thesis](../../cards/O/oc.md#octavia-living-thesis) (21.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#moment-of-truth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/67/moment-of-truth) · oracle_id `ef61fb5c-2ea6-4f82-92c5-c4713dee45fa` · printing: MOM #67 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -195,6 +197,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16845 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — Moment of Valor's first mode can target an untapped creature. It still gets +1/+0 and gains indestructible until end of turn.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WOE #20 — [Art & Flavor → Wilds of Eldraine (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#wilds-of-eldraine-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,933 decks; most often under [Brigone, Soldier of Meletis](../../cards/B/br.md#brigone-soldier-of-meletis) (15.4% of its decks), [Killian, Ink Duelist](../../cards/K/ki.md#killian-ink-duelist) (4.3% of its decks), [Will, Scion of Peace](../../cards/W/wi.md#will-scion-of-peace) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#moment-of-valor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/20/moment-of-valor) · oracle_id `bfac8072-2bbc-43ca-b141-9cd0799840f7` · printing: WOE #20 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

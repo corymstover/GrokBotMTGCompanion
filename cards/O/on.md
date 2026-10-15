@@ -446,7 +446,9 @@ schema: 2
   - *2024-04-12* — You can’t choose the same mode more than once.
   - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
   - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#one-last-job)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): OTJ #22 — [Art & Flavor → Outlaws of Thunder Junction (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#outlaws-of-thunder-junction-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,164 decks; most often under [Greasefang, Okiba Boss](../../cards/G/gre.md#greasefang-okiba-boss) (12.9% of its decks), [Caradora, Heart of Alacria](../../cards/C/car.md#caradora-heart-of-alacria) (39.9% of its decks), [Miriam, Herd Whisperer](../../cards/M/mir.md#miriam-herd-whisperer) (53.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/O.md#one-last-job)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/22/one-last-job) · oracle_id `55cba59c-932c-4295-87dc-9179fbdfbd53` · printing: OTJ #22 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One Ring to Rule Them All
@@ -568,6 +570,8 @@ schema: 2
   - *2022-10-14* — While casting a card with the prototype ability using the last ability of One with the Multiverse, you can either choose to cast it normally or choose to cast it as a prototyped spell. In either case, you won't pay its mana cost.
   - *2022-10-14* — While casting a spell without paying its mana cost using the last ability, you can't pay alternative costs, but you may choose to pay any optional additional costs the spell may have (such as a kicker cost). You still must pay any mandatory additional costs.
   - *2022-10-14* — You must follow all normal timing rules for spells cast and lands played using the middle ability and must pay all costs for spells cast this way. To cast a spell this way, you may choose to pay any alternative costs or optional additional costs the spell may have (such as a kicker cost). You must pay any mandatory additional costs.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #59 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Sensei's Divining Top + One with the Multiverse + Heliod, the Radiant Dawn // Heliod, the Warped Eclipse](https://commanderspellbook.com/combo/1456-4668-5078/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 82,297 decks; most often under [Aminatou, Veil Piercer](../../cards/A/am.md#aminatou-veil-piercer) (84.4% of its decks), [Marvo, Deep Operative](../../cards/M/mar.md#marvo-deep-operative) (84.2% of its decks), [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (54.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#one-with-the-multiverse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/121/one-with-the-multiverse) · oracle_id `06bb4272-25d1-46db-8585-15f919267e1e` · printing: DSC #121 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -712,6 +716,8 @@ schema: 2
   - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #292, MKM #30 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,791 decks; most often under [Alquist Proft, Master Sleuth](../../cards/A/al.md#alquist-proft-master-sleuth) (11.9% of its decks), [Teysa, Opulent Oligarch](../../cards/T/te.md#teysa-opulent-oligarch) (2.9% of its decks), [Morska, Undersea Sleuth](../../cards/M/mor.md#morska-undersea-sleuth) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#on-the-job)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/30/on-the-job) · oracle_id `e4733889-4d4c-4bf7-8a9b-fb5ad7a38395` · printing: MKM #30 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

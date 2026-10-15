@@ -446,6 +446,8 @@ schema: 2
   - *2009-10-01* — If multiple Mountains enter under your control at the same time, Valakut's second ability could trigger that many times. Each ability takes into consideration the other Mountains that entered at the same time as the one that caused it to trigger.
   - *2009-10-01* — Valakut, the Molten Pinnacle's triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless, at the time a Mountain enters under your control, you control five or more Mountains other than that new one, and (2) the ability will do nothing if you control fewer than five Mountains other than that new one by the time it resolves.
   - *2009-10-01* — You target a permanent or player when the ability triggers. You decide whether to have Valakut deal damage to that permanent or player as the ability resolves.
+- **Lore:** ✅ Card art shown on [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 121,960 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (14.0% of its decks), [Norin the Wary](../../cards/N/no.md#norin-the-wary) (52.0% of its decks), [Kratos, God of War](../../cards/K/kr.md#kratos-god-of-war) (45.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/V.md#valakut-the-molten-pinnacle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/228/valakut-the-molten-pinnacle) · oracle_id `1bc44216-4e06-4f66-89b7-5c327004604e` · printing: ZEN #228 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -544,6 +546,9 @@ schema: 2
   - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
   - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,066 decks; most often under [Aragorn, Hornburg Hero](../../cards/A/ara.md#aragorn-hornburg-hero) (29.6% of its decks), [Kutzil, Malamet Exemplar](../../cards/K/ku.md#kutzil-malamet-exemplar) (0.1% of its decks), [Shalai and Hallar](../../cards/S/sha.md#shalai-and-hallar) (0.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/V.md#valeron-wardens)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/203/valeron-wardens) · oracle_id `d1202573-2105-4d4d-ae7d-7164974b6d89` · printing: ORI #203 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valgavoth, Harrower of Souls
@@ -903,6 +908,8 @@ schema: 2
   - *2014-09-20* — If Valley Dasher enters the battlefield before the combat phase, it will attack that turn if able. If it enters the battlefield after combat, it won't attack that turn and will usually be available to block on the following turn.
   - *2014-09-20* — If, during your declare attackers step, Valley Dasher is tapped or is affected by a spell or ability that says it can't attack, then it doesn't attack. If there's a cost associated with having Valley Dasher attack, you're not forced to pay that cost, so it doesn't have to attack in that case either.
   - *2014-09-20* — You still choose which player or planeswalker Valley Dasher attacks.
+- **Lore:** ✅ Card art shown on [The Salt Road](https://magic.wizards.com/en/news/magic-story/the-salt-road) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 310 decks; most often under [Zurgo Helmsmasher](../../cards/Z/zu.md#zurgo-helmsmasher) (0.4% of its decks), [Ognis, the Dragon's Lash](../../cards/O/og.md#ognis-the-dragons-lash) (0.3% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/125/valley-dasher) · oracle_id `aad16b50-a866-4871-843f-ec8813ad5dfd` · printing: KTK #125 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valley Flamecaller
@@ -1008,6 +1015,8 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BLB #159 — [Art & Flavor → Bloomburrow (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#bloomburrow-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,090 decks; most often under [Mabel, Heir to Cragflame](../../cards/M/mab.md#mabel-heir-to-cragflame) (42.4% of its decks), [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (4.2% of its decks), [Arthur, Marigold Knight](../../cards/A/art.md#arthur-marigold-knight) (5.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#valley-rally)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/159/valley-rally) · oracle_id `5b919920-b1b6-499b-a7fe-c630778a7831` · printing: BLB #159 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1126,6 +1135,8 @@ schema: 2
   > *—T'Challa, the Black Panther*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2586 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Khanfall](https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 64,176 decks; most often under [Dogmeat, Ever Loyal](../../cards/D/do.md#dogmeat-ever-loyal) (49.1% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (20.1% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (7.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/V.md#valorous-stance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/145/valorous-stance) · oracle_id `1f938353-9081-4dc1-b8e7-d18ece038bd4` · printing: MSC #145 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f726d332-6961-403d-83f8-25c997f4dffc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1424,6 +1435,8 @@ schema: 2
   > *—Olivia Voldaren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27683 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Promises Old and New](https://magic.wizards.com/en/news/magic-story/promises-old-and-new-2016-04-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 442 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.1% of its decks), [Shadow the Hedgehog](../../cards/S/sha.md#shadow-the-hedgehog) (0.3% of its decks), [Barktooth Warbeard](../../cards/B/bar.md#barktooth-warbeard) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/143/vampire-noble) · oracle_id `e85d957b-35a8-48a9-8d63-90e3c680e0dd` · printing: SOI #143 (2016-04-08) · [rulings](https://api.scryfall.com/cards/b2435f17-0378-4480-8d56-d256245c7ced/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vampire Nocturnus
@@ -1732,6 +1745,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21282 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-09-22* — Only Vampires you control when Vampiric Fury resolves will receive the bonus. Creatures that enter later in the turn, that you gain control of later in the turn, or that become Vampires later in the turn won't be affected.
+- **Lore:** ✅ Card art shown on [Promises Old and New](https://magic.wizards.com/en/news/magic-story/promises-old-and-new-2016-04-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,767 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (1.5% of its decks), [Olivia Voldaren](../../cards/O/ol.md#olivia-voldaren) (12.0% of its decks), [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/167/vampiric-fury) · oracle_id `1e23457f-1ed9-4597-9f73-6f5b7206f5a1` · printing: ISD #167 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vampiric Link
@@ -2036,6 +2051,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21077 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — If the target nonland permanent is an illegal target when Vanish from Sight tries to resolve, it won't resolve and none of its effects will happen. You won't surveil.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DSK #82 — [Art & Flavor → Duskmourn: House of Horror (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#duskmourn-house-of-horror-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,844 decks; most often under [Wan Shi Tong, All-Knowing](../../cards/W/wan.md#wan-shi-tong-all-knowing) (6.1% of its decks), [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (1.2% of its decks), [The Emperor of Palamecia](../../cards/T/thee.md#the-emperor-of-palamecia--the-lord-master-of-hell) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#vanish-from-sight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/82/vanish-from-sight) · oracle_id `1056b27c-125c-4daa-a0c8-533efc9ccc32` · printing: DSK #82 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2078,6 +2095,8 @@ schema: 2
   > *Faced with a blast that would level not only New Phyrexia, but also a dozen innocent worlds, Elspeth consigned it—and herself—to the nothingness in between.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15200 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ONE #36, PLST #ONE-36 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,254 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.3% of its decks), [Elesh Norn, Mother of Machines](../../cards/E/el.md#elesh-norn-mother-of-machines) (1.5% of its decks), [Skrelv, Defector Mite](../../cards/S/sk.md#skrelv-defector-mite) (5.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#vanish-into-eternity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/36/vanish-into-eternity) · oracle_id `c14e422b-6412-45ce-8e82-d47ba61557a0` · printing: ONE #36 (2023-02-10) · [rulings](https://api.scryfall.com/cards/8f0b3308-9c0b-4461-9094-38deec20e1bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2995,6 +3014,8 @@ schema: 2
 - **Rulings** (2):
   - *2011-01-22* — Multiple instances of deathtouch or lifelink on the same creature are redundant.
   - *2011-01-22* — Vault of the Archangel's last ability affects only creatures you control when that ability resolves. It won't affect creatures that come under your control later in the turn.
+- **Lore:** ✅ Card art shown on [I Am Avacyn](https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18), [The Lunarch's Journal](https://magic.wizards.com/en/news/magic-story/lunarchs-journal-2014-08-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Volcano Hellion + Vault of the Archangel](https://commanderspellbook.com/combo/4169-5109/) (Infinite lifegain) · EDHREC: in 277,606 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (32.7% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (62.5% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (79.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/V.md#vault-of-the-archangel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/410/vault-of-the-archangel) · oracle_id `eeaac65a-3480-475a-bb28-e6375d53f487` · printing: TDC #410 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

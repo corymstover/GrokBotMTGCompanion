@@ -1174,6 +1174,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18207 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-06-23* — You won't gain more than 8 life if more than one creature died this turn.
+- **Lore:** ✅ Card art shown on [Endure](https://magic.wizards.com/en/news/magic-story/endure-2017-07-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,101 decks; most often under [Lathiel, the Bounteous Dawn](../../cards/L/la.md#lathiel-the-bounteous-dawn) (5.5% of its decks), [Dina, Soul Steeper](../../cards/D/di.md#dina-soul-steeper) (1.9% of its decks), [Treebeard, Gracious Host](../../cards/T/tre.md#treebeard-gracious-host) (5.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#life-goes-on)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/192/life-goes-on) · oracle_id `15d2176b-ab3d-4738-bcbc-bcebf891d16e` · printing: M21 #192 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1945,6 +1947,8 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25993 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 665 decks; most often under [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (0.5% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.1% of its decks), [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/153/lightning-javelin) · oracle_id `a6f6b062-cd7e-4631-9921-40e054ab835d` · printing: ORI #153 (2015-07-17) · [rulings](https://api.scryfall.com/cards/c1ccaeed-9670-4432-8a45-d5c06119fa9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Mare
@@ -2208,6 +2212,8 @@ schema: 2
   > *Invoking Thor's wrath is a mistake few villains are stupid enough—or sturdy enough—to make twice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2269 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DMU #137 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 72,907 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (26.9% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (4.7% of its decks), [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (28.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/L.md#lightning-strike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/142/lightning-strike) · oracle_id `f34b9bc4-7bfe-47fd-ba23-4eeeb46026eb` · printing: MSH #142 (2026-06-26) · [rulings](https://api.scryfall.com/cards/88b13bc0-da54-4c3b-917c-7c8345a329f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2375,6 +2381,8 @@ schema: 2
   - *2018-10-05* — If the creature with mentor leaves the battlefield with mentor on the stack, use its power as that creature last existed on the battlefield to determine whether the target creature has less power.
   - *2018-10-05* — If the target creature's power is no longer less than the attacking creature's power as the ability resolves, mentor doesn't add a +1/+1 counter. For example, if two 3/3 creatures with mentor attack and both mentor triggers target the same 2/2 creature, the first to resolve puts a +1/+1 counter on it and the second does nothing.
   - *2018-10-05* — Mentor compares the power of the creature with mentor with that of the target creature at two different times: once as the triggered ability is put onto the stack, and once as the triggered ability resolves. If you wish to raise a creature's power so its mentor ability can target a bigger creature, the last chance you have to do so is during the beginning of combat step.
+- **Lore:** ✅ Card art shown on [Clans & Legions](https://magic.wizards.com/en/news/magic-story/clans-legions-2018-10-24) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Aurelia, the Warleader (Ravnica-only)](../../decks/plane-ravnica-aurelia-the-warleader.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,964 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (3.6% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.7% of its decks), [Aurelia, the Warleader](../../cards/A/au.md#aurelia-the-warleader) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#light-of-the-legion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/19/light-of-the-legion) · oracle_id `79fc0d30-9b9b-400c-a614-c3a1f90a5380` · printing: GRN #19 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2464,6 +2472,8 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #146 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,757 decks; most often under [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (21.3% of its decks), [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (2.9% of its decks), [Solphim, Mayhem Dominus](../../cards/S/so.md#solphim-mayhem-dominus) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#light-up-the-night)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/146/light-up-the-night) · oracle_id `4669926b-93f9-4d80-aee3-492fbf8e0a0a` · printing: MID #146 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2635,7 +2645,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13310 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-06-23* — If the target creature is an illegal target by the time Liliana's second ability tries to resolve, the ability won't resolve. No player loses 2 life. If the target is legal but not destroyed (most likely because it has indestructible), its controller does lose 2 life.
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/L.md#liliana-death-mage)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Fauna Shaman + Timestream Navigator + Liliana, Death Mage](https://commanderspellbook.com/combo/1061-6653-6656/) (Infinite turns, Lock) · EDHREC: in 7,286 decks; most often under [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (34.1% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (3.7% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (0.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 2 lore & story) → [reverse index](../../references/L.md#liliana-death-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/328/liliana-death-mage) · oracle_id `d654dd73-763d-4dfb-a30f-a058fd7f27a6` · printing: M21 #328 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, Death's Majesty
@@ -2651,6 +2663,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2080 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-04-18* — A creature that is a Zombie and has other types, such as a Zombie Jackal, isn't a non-Zombie creature.
+- **Lore:** ✅ Card art shown on [Servants](https://magic.wizards.com/en/news/magic-story/servants-2017-04-19) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Felidar Guardian + Liliana, Death's Majesty + Viscera Seer](https://commanderspellbook.com/combo/2292-2781-5210/) (Infinite death triggers, Infinite creature ETB) · EDHREC: in 79,126 decks; most often under [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (37.8% of its decks), [Temmet, Naktamun's Will](../../cards/T/te.md#temmet-naktamuns-will) (51.9% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (40.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 edh guides · 3 lore & story) → [reverse index](../../references/L.md#liliana-deaths-majesty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/121/liliana-deaths-majesty) · oracle_id `7fca595e-1902-40fd-a359-622caa612b6a` · printing: MIC #121 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2665,6 +2679,8 @@ schema: 2
   > −10: Return all creature cards from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7865 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 18,169 decks; most often under [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (22.2% of its decks), [The Reaper, King No More](../../cards/T/ther.md#the-reaper-king-no-more) (32.1% of its decks), [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (29.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/L.md#liliana-death-wielder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/78/liliana-death-wielder) · oracle_id `e1b6cc44-41b6-43d0-9fe9-722cebb1c47b` · printing: ECC #78 (2026-01-23) · [rulings](https://api.scryfall.com/cards/6f874b0e-32e3-421f-8109-522638b3f38d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2686,7 +2702,9 @@ schema: 2
   - *2024-01-12* — If Liliana somehow becomes a creature and dies, her first ability will trigger.
   - *2024-01-12* — The permanent types are artifact, creature, enchantment, land, and planeswalker. Supertypes, like legendary, aren't permanent types.
   - *2024-01-12* — While making choices for Liliana's last ability, if a permanent has more than one permanent type, it can count for any of them. For example, you could choose an artifact creature as the artifact you're sparing, another creature as the creature, and an enchantment creature as the enchantment. Similarly, you could choose an enchantment creature as both the creature and the enchantment that you're sparing, even if you control another creature and/or another enchantment.
-- **Referenced in:** 7 pages (2 decks · 1 edh guides · 3 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-dreadhorde-general)
+- **Lore:** ✅ Card art shown on [War of the Spark: Ravnica—Old Friends and New](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Teysa Karlov](../../decks/teysa-karlov.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · Commander Spellbook: 100+ combos; most popular [Aminatou, the Fateshifter + Ichormoon Gauntlet + Doubling Season + Liliana, Dreadhorde General](https://commanderspellbook.com/combo/193-1543-1940-4772/) (Infinite turns, Lock) · EDHREC: in 185,879 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (46.7% of its decks), [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (38.5% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (36.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 8 pages (2 decks · 2 edh guides · 3 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-dreadhorde-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/176/liliana-dreadhorde-general) · oracle_id `5e958212-6a5b-4288-8d31-f1572619d7dc` · printing: FDN #176 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, Heretical Healer // Liliana, Defiant Necromancer
@@ -2717,6 +2735,8 @@ schema: 2
   - *2016-04-08* — The back face of a double-faced card doesn’t have a mana cost. A double-faced permanent with its back face up has a converted mana cost equal to the converted mana cost of its front face. Each back face has a color indicator that defines its color.
   - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
   - *2017-09-29* — You can control two of this permanent, one front-face up and the other back-face up, at the same time.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09), [Puppets](https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [Liliana, Heretical Healer // Liliana, Defiant Necromancer + Cadaver Imp + Phyrexian Altar + Pitiless Plunderer](https://commanderspellbook.com/combo/136-2945-4050-4871/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 5,456 decks; highest synergy [Liliana, Death's Majesty](../../cards/L/li.md#liliana-deaths-majesty) (+68%), [Liliana, Dreadhorde General](../../cards/L/li.md#liliana-dreadhorde-general) (+63%), [Liliana's Triumph](../../cards/L/li.md#lilianas-triumph) (+60%) · EDHREC: in 30,582 decks; most often under [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (14.6% of its decks), [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (9.5% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-heretical-healer--liliana-defiant-necromancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cc2/1/liliana-heretical-healer-liliana-defiant-necromancer) · oracle_id `b96a8ad2-3d86-459b-a34f-19c9dc07c3c4` · printing: CC2 #1 (2022-01-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2735,6 +2755,8 @@ schema: 2
   - *2012-07-01* — When you activate Liliana's second ability, you choose only the target creature. You choose whether that creature gets +X/+X or -X/-X when the ability resolves. The value of X is determined by the number of Swamps you control when the ability resolves.
   - *2012-07-01* — You can activate Liliana's first ability even if your library contains no Swamp cards (or you don't want to find one). You'll still search your library and shuffle it.
   - *2013-07-01* — Each of Liliana's abilities refers to lands (or land cards) with the subtype Swamp, not just ones named Swamp.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 77,188 decks; most often under [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (69.4% of its decks), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (11.3% of its decks), [Maha, Its Feathers Night](../../cards/M/mah.md#maha-its-feathers-night) (33.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/L.md#liliana-of-the-dark-realms)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/102/liliana-of-the-dark-realms) · oracle_id `92301066-8904-41bc-84bd-4aa286cbab9c` · printing: M14 #102 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2753,6 +2775,8 @@ schema: 2
   - *2022-09-09* — When Liliana’s first ability resolves, first the player whose turn it is chooses a card in hand without revealing it, then each other player in turn order does the same. Then all the chosen cards are discarded at the same time.
   - *2022-09-09* — When Liliana’s third ability resolves, you put each permanent the player controls into one of the two piles. For example, you could put a creature into one pile and an Aura enchanting that creature into the other pile.
   - *2022-09-09* — You can activate Liliana’s first ability even if some or all players will be unable to discard a card.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Braids, Arisen Nightmare (Dominaria-only)](../../decks/plane-dominaria-braids-arisen-nightmare.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 55,920 decks; most often under [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (53.5% of its decks), [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (41.8% of its decks), [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (61.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 2 lore & story) → [reverse index](../../references/L.md#liliana-of-the-veil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/475/liliana-of-the-veil) · oracle_id `0ba134d8-ee7d-48ec-8dc6-57942b8e9261` · printing: INR #475 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2797,6 +2821,8 @@ schema: 2
   > *—Nicol Bolas*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24802 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26), [Return to Dominaria: Episode 9](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 858 decks; most often under [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (7.7% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (1.1% of its decks), [Vorthos, Steward of Myth](../../cards/V/vo.md#vorthos-steward-of-myth) (8.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#lilianas-defeat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/68/lilianas-defeat) · oracle_id `7c8b38b3-b808-4ad8-b4e5-39e216063ff6` · printing: HOU #68 (2017-07-14) · [rulings](https://api.scryfall.com/cards/0f72b028-b9df-40c7-822f-4acc6bdcc719/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2830,6 +2856,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16297 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — The ability applies only while Liliana's Elite is on the battlefield.
+- **Lore:** ✅ Card art shown on [Battle of Thraben](https://magic.wizards.com/en/news/magic-story/battle-thraben-2016-07-20), [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,340 decks; most often under [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (21.9% of its decks), [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (3.2% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#lilianas-elite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/82/lilianas-elite) · oracle_id `b6492082-d0ef-4f7c-a4b1-f8ecf6eb0890` · printing: 2X2 #82 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2845,6 +2873,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19333 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-04-08* — You don’t lose the game for having zero cards in your library until you’re instructed to draw a card. X can be greater than or equal to the number of cards in your library without causing you to lose the game.
+- **Lore:** ✅ Card art shown on [Liliana's Indignation](https://magic.wizards.com/en/news/magic-story/lilianas-indignation-2016-04-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,532 decks; most often under [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (12.8% of its decks), [Syr Konrad, the Grim](../../cards/S/sy.md#syr-konrad-the-grim) (1.4% of its decks), [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (0.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/L.md#lilianas-indignation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/120/lilianas-indignation) · oracle_id `c724dd2e-c62d-4a20-a1b9-54264d0b811a` · printing: SOI #120 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana's Influence
@@ -3031,6 +3062,8 @@ schema: 2
   - *2019-05-03* — Whether you control an appropriate planeswalker is checked only as the spell resolves.
   - *2021-03-19* — As Liliana's Triumph resolves, the opponent whose turn it is (or, if it's your turn, the next opponent in turn order) chooses a creature to sacrifice, then each other opponent in turn order does the same, knowing the choices made before them. Then all the chosen creatures are sacrificed at the same time. Then, if you control a Liliana planeswalker, in the same order, each opponent chooses a card in their hand without revealing it, and those cards are discarded at the same time.
   - *2021-03-19* — You can cast Liliana's Triumph even if some or all of your opponents will be unable to sacrifice a creature. If you control a Liliana planeswalker, they'll still discard a card, even if they couldn't sacrifice a creature.
+- **Lore:** ✅ Card art shown on [War of the Spark: Ravnica—Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 36,716 decks; most often under [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (52.2% of its decks), [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (35.8% of its decks), [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (65.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#lilianas-triumph)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/98/lilianas-triumph) · oracle_id `c2e68ac5-cfff-4b76-8062-25a82fdf9a5c` · printing: WAR #98 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3046,6 +3079,8 @@ schema: 2
   > *"All mistakes can be fixed. Even you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8127 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 66 combos; most popular [Kwia Vigorbloom + Emiel the Blessed + Liliana the Faultless](https://commanderspellbook.com/combo/4499-7818-8160/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 757 decks; highest synergy [Haliya, Guided by Light](../../cards/H/ha.md#haliya-guided-by-light) (+59%), [Soul Warden](../../cards/S/so.md#soul-warden) (+55%), [Soul's Attendant](../../cards/S/so.md#souls-attendant) (+55%) · EDHREC: in 17,574 decks; most often under [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (12.4% of its decks), [Amalia Benavides Aguirre](../../cards/A/am.md#amalia-benavides-aguirre) (25.4% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (9.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/L.md#liliana-the-faultless)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/200/liliana-the-faultless) · oracle_id `22c2e66d-a2a1-46db-a70a-dff5ad5d6c14` · printing: FRA #200 (2026-10-02) · [rulings](https://api.scryfall.com/cards/70d8c400-87dc-4f15-808f-e54a95d779fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3064,7 +3099,9 @@ schema: 2
   - *2016-07-13* — Liliana's second ability doesn't target the card to return to your hand. After putting the top two cards of your library into your graveyard, you may choose from among any creature cards there.
   - *2016-07-13* — While resolving the triggered ability of Liliana's emblem, if you control zero Zombies, you'll get two Zombie tokens.
   - *2016-07-13* — You can activate Liliana's first ability without any targets just to add a loyalty counter to her.
-- **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-the-last-hope)
+- **Lore:** ✅ Card art shown on [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 18,559 decks; most often under [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (60.7% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (7.4% of its decks), [Gisa, the Hellraiser](../../cards/G/gi.md#gisa-the-hellraiser) (15.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 5 pages (1 edh guides · 3 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-the-last-hope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/81/liliana-the-last-hope) · oracle_id `64a9a6b4-26b5-4d23-be86-85c54e9c4727` · printing: 2X2 #81 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, the Necromancer
@@ -3082,7 +3119,9 @@ schema: 2
   - *2018-07-13* — If any abilities trigger on the target creatures being destroyed, those abilities won’t be put onto the stack until after you’ve put creature cards onto the battlefield from graveyards.
   - *2018-07-13* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Liliana’s third ability that came from other players’ graveyards are exiled.
   - *2018-07-13* — You may activate Liliana’s last ability without choosing any target creatures. You’ll just put up to two creature cards onto the battlefield from graveyards. However, if you choose any targets and all of those targets become illegal before the ability tries to resolve, the ability won’t resolve and you won’t put any cards onto the battlefield.
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/L.md#liliana-the-necromancer)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,616 decks; most often under [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (31.5% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (4.8% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 2 lore & story) → [reverse index](../../references/L.md#liliana-the-necromancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/291/liliana-the-necromancer) · oracle_id `f3ad60a6-05d0-48a1-a804-7900d306d613` · printing: M19 #291 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana the Repentant
@@ -3098,7 +3137,9 @@ schema: 2
 - **Keywords:** Exhaust, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13309 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (3 lore & story) → [reverse index](../../references/L.md#liliana-the-repentant)
+- **Lore:** ✅ Card art shown on [Reality Fracture](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-7-pick-up-the-pieces) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 591 decks; highest synergy [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+58%), [Liliana, Death's Majesty](../../cards/L/li.md#liliana-deaths-majesty) (+57%), [Rise of the Dark Realms](../../cards/R/ri.md#rise-of-the-dark-realms) (+48%) · EDHREC: in 7,242 decks; most often under [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (6.2% of its decks), [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (7.1% of its decks), [Sidisi, Brood Tyrant](../../cards/S/si.md#sidisi-brood-tyrant) (21.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 3 lore & story) → [reverse index](../../references/L.md#liliana-the-repentant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/231/liliana-the-repentant) · oracle_id `5eb4403f-f199-4f75-a7c6-e76783f9b07d` · printing: FRA #231 (2026-10-02) · [rulings](https://api.scryfall.com/cards/1eb25a6c-d6b4-465d-990e-f1ab86b26b69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, Untouched by Death
@@ -3117,7 +3158,9 @@ schema: 2
   - *2018-07-13* — In a Two-Headed Giant game, Liliana’s first ability causes the opposing team to lose 4 life and you gain 2 life.
   - *2018-07-13* — Once Liliana’s third ability has resolved, any Zombie cards in your graveyard may be cast this turn, including Zombie cards that enter your graveyard later in the turn.
   - *2018-07-13* — The value of X is determined only as Liliana’s second ability resolves. If the number of Zombies you control changes later, the target creature’s power and toughness won’t change.
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/L.md#liliana-untouched-by-death)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 55 combos; most popular [Liliana, Untouched by Death + Rooftop Storm + Carrion Feeder](https://commanderspellbook.com/combo/598-2438-2452/) (Infinite +1/+1 counters on a creature, Infinite death triggers) · EDHREC: in 20,906 decks; most often under [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (53.1% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (16.3% of its decks), [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (49.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 2 lore & story) → [reverse index](../../references/L.md#liliana-untouched-by-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/106/liliana-untouched-by-death) · oracle_id `4f66489c-5a19-40ad-9126-461fa8231f1b` · printing: M19 #106 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana Vess
@@ -3132,6 +3175,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4788 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — A “creature card” is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.
+- **Lore:** ✅ Card art shown on [Veil of Deceit](https://magic.wizards.com/en/news/magic-story/veil-deceit-2014-07-01) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 18 combos; most popular [Yennett, Cryptic Sovereign + Liliana Vess + Aminatou, the Fateshifter + Nexus of Fate](https://commanderspellbook.com/combo/193-1367-3039-3502/) (Infinite turns, Lock) · EDHREC: in 33,763 decks; most often under [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (60.4% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (5.1% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (42.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-vess)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/103/liliana-vess) · oracle_id `a6c05941-2cfb-4dac-a7c0-ab808187eb7c` · printing: M15 #103 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3152,7 +3197,9 @@ schema: 2
   - *2020-06-23* — If you have no cards in hand, you just don't discard anything. You don't lose 3 life. Other players still discard if able.
   - *2020-06-23* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Liliana's emblem are exiled.
   - *2020-06-23* — The value of X is determined only as Liliana's second ability resolves. Once that happens, the value of X won't change later in the turn even if the number of cards in your graveyard changes.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-waker-of-the-dead)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 26,669 decks; most often under [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (27.6% of its decks), [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (60.4% of its decks), [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (24.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-waker-of-the-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/108/liliana-waker-of-the-dead) · oracle_id `e0df8e2a-96d2-4e4d-b065-aa2e162abbfe` · printing: M21 #108 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lilting Refrain
@@ -3400,7 +3447,7 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6301 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Lore:** Featured in: [Plane → Eldraine](../../Planes%20Index.md#eldraine) ([source](https://magic.wizards.com/en/news/announcements/a-first-look-at-wilds-of-eldraine), [2](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) via entry) (the entry line carries ⚠️) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** Featured in: [Plane → Eldraine](../../Planes%20Index.md#eldraine) ([source](https://magic.wizards.com/en/news/announcements/a-first-look-at-wilds-of-eldraine), [2](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) via entry) (the entry line carries ⚠️) — ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 798 decks; highest synergy [Ajani's Pridemate](../../cards/A/aj.md#ajanis-pridemate) (+55%), [Voice of the Blessed](../../cards/V/vo.md#voice-of-the-blessed) (+43%), [Daxos, Blessed by the Sun](../../cards/D/da.md#daxos-blessed-by-the-sun) (+39%) · EDHREC: in 23,811 decks; most often under [Heliod, Sun-Crowned](../../cards/H/he.md#heliod-sun-crowned) (47.8% of its decks), [Aerith Gainsborough](../../cards/A/ae.md#aerith-gainsborough) (67.9% of its decks), [Darien, King of Kjeldor](../../cards/D/da.md#darien-king-of-kjeldor) (20.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#linden-the-steadfast-queen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/737/linden-the-steadfast-queen) · oracle_id `dbc56f3b-83b3-41c8-a8ae-d3774fe6ee01` · printing: FDN #737 (2026-04-24) · [rulings](https://api.scryfall.com/cards/e0bb07cd-9b74-4ba7-8089-27a565d74197/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
@@ -3520,6 +3567,8 @@ schema: 2
   - *2018-04-27* — An ability that triggers "whenever you cast a historic spell" doesn't trigger if a historic card is put onto the battlefield without being cast.
   - *2018-04-27* — Lands are never cast, so abilities that trigger "whenever you cast a historic spell" won't trigger if you play a legendary land. They also won't trigger if a card on the battlefield transforms into a legendary land, as the Ixalan and Rivals of Ixalan double-faced cards do.
   - *2018-04-27* — Some abilities trigger "whenever you cast a historic spell." Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 6](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-6-2018-04-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 281 decks; most often under [Iname, Death Aspect](../../cards/I/ina.md#iname-death-aspect) (6.9% of its decks), [King of the Oathbreakers](../../cards/K/ki.md#king-of-the-oathbreakers) (0.3% of its decks), [Asmoranomardicadaistinaculdacar](../../cards/A/as.md#asmoranomardicadaistinaculdacar) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/99/lingering-phantom) · oracle_id `76164af1-275e-4d68-9df5-9801768512ef` · printing: DOM #99 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lingering Souls
@@ -3640,7 +3689,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-01-22* — For each triggered ability, the game checks to see if the condition is true at the moment the ability would trigger. If the condition isn't true, the ability won't trigger. If the ability does trigger, the game will check again to see if the condition is true as the ability tries to resolve. If it's not true at that time, the ability won't do anything.
   - *2016-01-22* — In a multiplayer game, it's possible for the condition to be true at both times but with respect to two different opponents.
-- **Lore:** Featured in: [Plane → Zendikar (Zendikar Rising era)](../../Planes%20Index.md#zendikar-zendikar-rising-era) ([source](https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** Featured in: [Plane → Zendikar (Zendikar Rising era)](../../Planes%20Index.md#zendikar-zendikar-rising-era) ([source](https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02)) — ✅ Card art shown on [Zendikar: Things Have Changed](https://magic.wizards.com/en/news/feature/zendikar-things-have-changed-2020-09-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 52 decks; highest synergy [Cloudshift](../../cards/C/cl.md#cloudshift) (+42%), [Flickerwisp](../../cards/F/fl.md#flickerwisp) (+34%), [Teleportation Circle](../../cards/T/te.md#teleportation-circle) (+34%) · EDHREC: in 6,204 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (6.2% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (1.5% of its decks), [Shilgengar, Sire of Famine](../../cards/S/shi.md#shilgengar-sire-of-famine) (2.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#linvala-the-preserver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/25/linvala-the-preserver) · oracle_id `64f5689d-504d-40e9-bdb5-36dcefd257e2` · printing: OGW #25 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
@@ -3916,6 +3965,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-09-25* — If the target land is an illegal target by the time Lithoform Blight tries to resolve, the spell doesn't resolve. It doesn't enter the battlefield, so you don't draw a card.
   - *2020-09-25* — The enchanted land keeps any other card types (such as artifact) and supertypes (such as basic or legendary) when it loses its land types.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ZNR #109 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,227 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (5.1% of its decks), [Tatsunari, Toad Rider](../../cards/T/ta.md#tatsunari-toad-rider) (1.4% of its decks), [Victor, Valgavoth's Seneschal](../../cards/V/vi.md#victor-valgavoths-seneschal) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lithoform-blight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/109/lithoform-blight) · oracle_id `b256c311-e37d-4b3c-889c-85443e3d5e7e` · printing: ZNR #109 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3962,6 +4013,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28431 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-08-25* — Lithomancer’s Focus will prevent damage to the creature from any colorless source that turn, even if that source didn’t exist or wasn’t colorless as Lithomancer’s Focus resolved.
+- **Lore:** ✅ Card art shown on [At Any Cost](https://magic.wizards.com/en/news/magic-story/any-cost-2015-11-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 363 decks; most often under [Gregor, Shrewd Magistrate](../../cards/G/gre.md#gregor-shrewd-magistrate) (7.4% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (0.4% of its decks), [Sergeant John Benton](../../cards/S/ser.md#sergeant-john-benton) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lithomancers-focus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/38/lithomancers-focus) · oracle_id `a8a27a87-fc4c-44b5-9ba8-505bbf42164e` · printing: BFZ #38 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4157,7 +4210,9 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#live-fast)
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02), [Renewal](https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,826 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.4% of its decks), [Yarok, the Desecrated](../../cards/Y/ya.md#yarok-the-desecrated) (0.7% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (0.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/L.md#live-fast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/87/live-fast) · oracle_id `04d02394-e17f-43cd-932f-f58e8cc56629` · printing: KLD #87 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lively Dirge

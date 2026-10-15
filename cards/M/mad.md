@@ -213,6 +213,8 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ZNR #67 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Lord Xander, the Collector (Grixis)](../../grixis/decks/lord-xander-the-collector.md) · Commander Spellbook: 7 combos; most popular [Bruvac the Grandiloquent + Maddening Cacophony](https://commanderspellbook.com/combo/95-5080/) (Infinite mill) · EDHREC: in 99,989 decks; most often under [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (66.6% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (49.3% of its decks), [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (24.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 rules) → [reverse index](../../references/M.md#maddening-cacophony)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/67/maddening-cacophony) · oracle_id `e0f0f290-c83f-4d97-9f5d-786c7136b0d1` · printing: ZNR #67 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -211,6 +211,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-09-20* — If one of these lands enters the battlefield at the same time as one or more other lands (due to Oblivion Sower or Warp World, perhaps), it doesn't take those lands into consideration when determining how many other lands you control.
   - *2016-09-20* — If one of these lands is your first, second, or third land, it enters the battlefield untapped. If you control three or more other lands, however, it enters the battlefield tapped.
+- **Lore:** ✅ Card art shown on [Revolution Begins](https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 134,902 decks; most often under [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (28.0% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (9.3% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (20.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#concealed-courtyard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/268/concealed-courtyard) · oracle_id `2d899466-b1eb-4901-b626-1f2fb09b786d` · printing: OTJ #268 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -499,6 +501,8 @@ schema: 2
   > *"Your swords and wards have no power here."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22184 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,474 decks; most often under [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (5.6% of its decks), [Volo, Guide to Monsters](../../cards/V/vo.md#volo-guide-to-monsters) (0.5% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/160/conclave-naturalists) · oracle_id `cb5de977-d420-41cc-85f0-6ffee8bbeff1` · printing: 2XM #160 (2020-08-07) · [rulings](https://api.scryfall.com/cards/082a5372-b25a-4559-96b8-2d8d54199a38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conclave Phalanx
@@ -681,6 +685,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15711 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-07-26* — The two targets can be the same creature as long as that creature is a token.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BLB #130 — [Art & Flavor → Bloomburrow (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#bloomburrow-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,810 decks; most often under [Alania, Divergent Storm](../../cards/A/al.md#alania-divergent-storm) (11.3% of its decks), [Bria, Riptide Rogue](../../cards/B/br.md#bria-riptide-rogue) (4.6% of its decks), [Mabel, Heir to Cragflame](../../cards/M/mab.md#mabel-heir-to-cragflame) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#conduct-electricity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/130/conduct-electricity) · oracle_id `0369627e-3b83-4e5b-a8af-a99f944443b3` · printing: BLB #130 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -962,6 +968,8 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KLD #41 — [Art & Flavor → Kaladesh & Aether Revolt (2016–17)](../../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) — ✅ Card art shown on [A Grateful Consulate](https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 18,343 decks; most often under [Satya, Aetherflux Genius](../../cards/S/sat.md#satya-aetherflux-genius) (52.8% of its decks), [Saheeli, Radiant Creator](../../cards/S/sah.md#saheeli-radiant-creator) (47.5% of its decks), [Dr. Madison Li](../../cards/D/drm.md#dr-madison-li) (19.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#confiscation-coup)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/41/confiscation-coup) · oracle_id `c246cdb4-2fd8-487e-944e-3e52fbd1bbaa` · printing: KLD #41 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1461,6 +1469,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23304 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — If the regeneration ability is activated before combat damage is dealt, the two creatures you sacrifice won’t deal combat damage. However, you must regenerate a creature before it would be destroyed, so if you wait for combat damage to be dealt, the enchanted creature may be destroyed by that damage before it has the chance to regenerate.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,186 decks; most often under [Eriette, the Beguiler](../../cards/E/er.md#eriette-the-beguiler) (3.0% of its decks), [Shirei, Shizo's Caretaker](../../cards/S/shi.md#shirei-shizos-caretaker) (0.9% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (0.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Voltron (equipment & auras): Evasion & double strike](../../EDH%20Packages.md#voltron-equipment--auras-evasion--double-strike) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#consecrated-by-blood)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/87/consecrated-by-blood) · oracle_id `270508aa-b2e7-4066-be2f-4308cffe2b94` · printing: ORI #87 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consecrated Sphinx
@@ -1828,6 +1839,8 @@ schema: 2
   - *2017-02-09* — In a multiplayer game, if Consulate Crackdown’s owner leaves the game, the exiled cards will return to the battlefield. Because the one-shot effect that returns the cards isn’t an ability that goes on the stack, it won’t cease to exist along with the leaving player’s spells and abilities on the stack.
   - *2017-02-09* — The exiled cards return to the battlefield immediately after Consulate Crackdown leaves the battlefield. Nothing happens between the two events, including state-based actions. If Consulate Crackdown exiles multiple artifacts, those cards all return to the battlefield at the same time.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): AER #11 — [Art & Flavor → Kaladesh & Aether Revolt (2016–17)](../../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Consulate Crackdown + Mycosynth Lattice](https://commanderspellbook.com/combo/1155-3263/) (Exile all permanents opponents control, Mass Land Denial) · EDHREC: in 3,025 decks; most often under [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (0.9% of its decks), [Aminatou, Veil Piercer](../../cards/A/am.md#aminatou-veil-piercer) (0.5% of its decks), [Hokori, Dust Drinker](../../cards/H/ho.md#hokori-dust-drinker) (7.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#consulate-crackdown)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/11/consulate-crackdown) · oracle_id `128f7e5a-17e0-4069-a185-c9f874c7d234` · printing: AER #11 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1894,6 +1907,8 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Lore:** ✅ Card art shown on [Quiet Moments](https://magic.wizards.com/en/news/magic-story/quiet-moments-2016-12-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,995 decks; most often under [Satya, Aetherflux Genius](../../cards/S/sat.md#satya-aetherflux-genius) (15.7% of its decks), [Dr. Madison Li](../../cards/D/drm.md#dr-madison-li) (21.7% of its decks), [Liberty Prime, Recharged](../../cards/L/li.md#liberty-prime-recharged) (18.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/10/consulate-surveillance) · oracle_id `06d62e22-df9c-488e-8d2d-793eaf4cd75c` · printing: KLD #10 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consulate Turret
@@ -1917,6 +1932,8 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Lore:** ✅ Card art shown on [Breaking Points](https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,227 decks; most often under [Dr. Madison Li](../../cards/D/drm.md#dr-madison-li) (8.6% of its decks), [Liberty Prime, Recharged](../../cards/L/li.md#liberty-prime-recharged) (9.7% of its decks), [Rex, Cyber-Hound](../../cards/R/rex.md#rex-cyber-hound) (30.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#consulate-turret)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/147/consulate-turret) · oracle_id `14d71432-c2e6-4c81-92ef-cf98e1fcf5f8` · printing: AER #147 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1935,6 +1952,8 @@ schema: 2
   - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
   - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,465 decks; most often under [Kwende, Pride of Femeref](../../cards/K/kw.md#kwende-pride-of-femeref) (47.0% of its decks), [Odric, Master Tactician](../../cards/O/od.md#odric-master-tactician) (10.1% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gn2/6/consuls-lieutenant) · oracle_id `a38b672f-4739-4b7e-8958-2a455510656e` · printing: GN2 #6 (2019-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consul's Shieldguard
@@ -2717,6 +2736,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12242 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
+- **Lore:** ✅ Card art shown on [Battle of Thraben](https://magic.wizards.com/en/news/magic-story/battle-thraben-2016-07-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,664 decks; most often under [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (8.8% of its decks), [Octavia, Living Thesis](../../cards/O/oc.md#octavia-living-thesis) (15.0% of its decks), [Marvo, Deep Operative](../../cards/M/mar.md#marvo-deep-operative) (5.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#contingency-plan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/52/contingency-plan) · oracle_id `67bc4116-539e-4748-95e1-033df78173ec` · printing: EMN #52 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2779,6 +2800,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15521 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-09-20* — If multiple artifacts enter the battlefield simultaneously, you'll scry 1 that many times. You won't look at more than one card from your library at once.
+- **Lore:** ✅ Card art shown on [The Making of Kaladesh](https://magic.wizards.com/en/news/magic-story/making-kaladesh-2016-11-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,972 decks; most often under [Tivit, Seller of Secrets](../../cards/T/ti.md#tivit-seller-of-secrets) (8.2% of its decks), [Inquisitor Eisenhorn](../../cards/I/inq.md#inquisitor-eisenhorn) (38.7% of its decks), [Inquisitor Greyfax](../../cards/I/inq.md#inquisitor-greyfax) (13.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#contraband-kingpin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/177/contraband-kingpin) · oracle_id `680da572-6cd5-482a-b01d-32944566d8c4` · printing: KLD #177 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Contraband Livestock
@@ -3017,6 +3041,8 @@ schema: 2
   - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won't stop being suspected.
   - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
   - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #119 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,253 decks; most often under [Nelly Borca, Impulsive Accuser](../../cards/N/ne.md#nelly-borca-impulsive-accuser) (20.0% of its decks), [Kaima, the Fractured Calm](../../cards/K/ka.md#kaima-the-fractured-calm) (43.0% of its decks), [Tahngarth, First Mate](../../cards/T/ta.md#tahngarth-first-mate) (28.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#convenient-target)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/119/convenient-target) · oracle_id `2f214dcf-9601-4ccb-bdac-2f9b9f6dff99` · printing: MKM #119 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -251,6 +251,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-04-16* — Although you may want to include Lessons in your sideboard if you’re playing with cards that instruct you to learn, Lesson cards can be included in your main deck like other instant or sorcery cards.
   - *2021-04-16* — Lesson is a spell subtype found on some instant and sorcery cards in the Strixhaven set. The Lesson subtype has no special rules associated with it.
+- **Lore:** ✅ Card art shown on [Blue-Green Ribbons](https://magic.wizards.com/en/news/magic-story/blue-green-ribbons-2021-04-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,486 decks; most often under [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (12.7% of its decks), [Toph, Hardheaded Teacher](../../cards/T/to.md#toph-hardheaded-teacher) (2.8% of its decks), [Dina, Soul Steeper](../../cards/D/di.md#dina-soul-steeper) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/120/basic-conjuration) · oracle_id `547ab16c-b8d1-4357-9219-7cabde80f5ba` · printing: STX #120 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basilica Bell-Haunt
@@ -507,6 +509,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-06-23* — After activating Basri's second ability, a creature that attacks gets a +1/+1 counter before blockers are chosen.
   - *2020-06-23* — Basri's last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +2/+2 or gain flying.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Basri Ket](../../Characters%20Index.md#basri-ket) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,335 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.2% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.1% of its decks), [Lae'zel, Vlaakith's Champion // Noble Heritage](../../cards/L/la.md#laezel-vlaakiths-champion) (6.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#basri-devoted-paladin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/320/basri-devoted-paladin) · oracle_id `1601e553-31c2-4e04-9f0c-bc17e49eeff7` · printing: M21 #320 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -526,6 +530,8 @@ schema: 2
   - *2020-06-23* — The Soldier token created by Basri's last ability can't attack during the turn you create it unless it gains haste somehow.
   - *2020-06-23* — The delayed triggered ability of Basri's second ability triggers if any nontoken creatures attack, and it counts how many nontoken creatures attacked. Attacking nontoken creatures that leave combat before the triggered ability resolves are counted. Token creatures that are attacking don't stop the ability from triggering and aren't counted.
   - *2020-06-23* — You choose which player or planeswalker each Soldier token is attacking. They don't have to be attacking the same players or planeswalkers that the nontoken creatures are attacking, and they don't have to be attacking the same player or planeswalker as each other.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Basri Ket](../../Characters%20Index.md#basri-ket) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 21,227 decks; most often under [Anim Pakal, Thousandth Moon](../../cards/A/an.md#anim-pakal-thousandth-moon) (17.8% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (9.9% of its decks), [Lae'zel, Vlaakith's Champion // Master Chef](../../cards/L/la.md#laezel-vlaakiths-champion) (26.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/B.md#basri-ket)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/7/basri-ket) · oracle_id `497d7ab8-07f1-4c8a-a45a-52b9a4d9400f` · printing: M21 #7 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -603,6 +609,8 @@ schema: 2
 - **Keywords:** Exert, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12598 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Basri Ket](../../Characters%20Index.md#basri-ket) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 152 decks; highest synergy [Arahbo, the First Fang](../../cards/A/ara.md#arahbo-the-first-fang) (+60%), [King of the Pride](../../cards/K/ki.md#king-of-the-pride) (+60%), [Regal Caracal](../../cards/R/reg.md#regal-caracal) (+58%) · EDHREC: in 8,032 decks; most often under [Gavi, Nest Warden](../../cards/G/ga.md#gavi-nest-warden) (19.0% of its decks), [Arahbo, the First Fang](../../cards/A/ara.md#arahbo-the-first-fang) (27.4% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#basri-tomorrows-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/3/basri-tomorrows-champion) · oracle_id `d8e1e9ba-708c-4f54-abc3-817004a2f2ac` · printing: DFT #3 (2025-02-14) · [rulings](https://api.scryfall.com/cards/991270fa-a391-4c2e-bd9a-19151386fb67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -631,6 +639,8 @@ schema: 2
   > *Headquartered at the Bastion of the Honorable, the soldiers of Ghirapur are charged with the task of keeping peace in the city.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29054 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Puppets](https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 304 decks; most often under [Jasmine Boreal of the Seven](../../cards/J/ja.md#jasmine-boreal-of-the-seven) (1.5% of its decks), [Isamaru, Hound of Konda](../../cards/I/is.md#isamaru-hound-of-konda) (3.9% of its decks), [Depala, Pilot Exemplar](../../cards/D/dep.md#depala-pilot-exemplar) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#bastion-enforcer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/303/bastion-enforcer) · oracle_id `87449f64-9500-4967-a073-cde19824e087` · printing: M20 #303 (2019-07-12) · [rulings](https://api.scryfall.com/cards/7cbf17a0-2dbc-4e79-9cfa-ea49b1605105/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -669,6 +679,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28479 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-09-20* — Once Bastion Mastodon is tapped and attacking, gaining vigilance won't cause it to become untapped.
+- **Lore:** ✅ Card art shown on [A Grateful Consulate](https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19), [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 358 decks; most often under [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (1.9% of its decks), [Lulu, Loyal Hollyphant // Master Chef](../../cards/L/lu.md#lulu-loyal-hollyphant) (2.8% of its decks), [Losheel, Clockwork Scholar](../../cards/L/lo.md#losheel-clockwork-scholar) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#bastion-mastodon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/197/bastion-mastodon) · oracle_id `48a01671-da1f-4875-bcd5-ca99566ff399` · printing: KLD #197 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

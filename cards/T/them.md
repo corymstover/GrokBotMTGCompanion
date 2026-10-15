@@ -128,6 +128,9 @@ schema: 2
   - *2019-10-04* — Once you announce that you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't try to change by how much a relic's cost is reduced.
   - *2019-10-04* — The cost reduction ability reduces only the generic mana in the relic's cost. The colored mana must still be paid.
   - *2019-10-04* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 32,150 decks; most often under [Braids, Conjurer Adept](../../cards/B/br.md#braids-conjurer-adept) (45.4% of its decks), [Leonardo da Vinci](../../cards/L/le.md#leonardo-da-vinci) (40.3% of its decks), [Baral, Chief of Compliance](../../cards/B/bar.md#baral-chief-of-compliance) (18.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-magic-mirror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/51/the-magic-mirror) · oracle_id `9acf2701-2ba1-46fa-ad4a-b130a58181d3` · printing: ELD #51 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Majestic Duo

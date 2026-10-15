@@ -435,6 +435,8 @@ schema: 2
   - *2015-02-25* — Icefall Regent’s triggered ability can target any creature controlled by an opponent, including one that is already tapped. In that case, the creature stays tapped and won’t untap during its controller’s untap step.
   - *2015-02-25* — If another player gains control of Icefall Regent, the creature will no longer be affected by the ability stopping it from untapping, even if you later regain control of Icefall Regent.
   - *2015-02-25* — The ability stopping the creature from untapping will continue to apply to it even if the creature changes controllers.
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: Things Unseen](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,299 decks; most often under [Sivitri, Dragon Master](../../cards/S/si.md#sivitri-dragon-master) (45.6% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (3.0% of its decks), [Renari, Merchant of Marvels // Acolyte of Bahamut](../../cards/R/ren.md#renari-merchant-of-marvels) (56.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/e01/24/icefall-regent) · oracle_id `0cf18002-1bbe-40b3-ae15-fa51e61e9391` · printing: E01 #24 (2017-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice-Fang Coatl
@@ -1134,5 +1136,7 @@ schema: 2
   > *"Keep them distracted," instructed the Theorist. Chandra's doppelganger smiled, and a chill went through the air.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25172 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): FRA #30 — [Art & Flavor → Reality Fracture (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#reality-fracture-2026) — ✅ Card art shown on [Reality Fracture](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-6-the-man-who-kills-his-own-ambition) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 865 decks; most often under [Codie, Ravenous Codex](../../cards/C/cod.md#codie-ravenous-codex) (0.6% of its decks), [Saheeli, Jewel of Avishkar](../../cards/S/sah.md#saheeli-jewel-of-avishkar) (2.4% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#icy-reception)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/30/icy-reception) · oracle_id `612c7807-be70-4e2f-afd2-3d3c03eddbbe` · printing: FRA #30 (2026-10-02) · [rulings](https://api.scryfall.com/cards/8d754b96-5e44-45af-9c7a-b0da59fbe4c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

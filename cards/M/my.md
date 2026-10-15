@@ -1171,6 +1171,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20240 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-04-12* — If Mystical Tether leaves the battlefield before its triggered ability resolves, the target artifact or creature won't be exiled at all.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): OTJ #19 — [Art & Flavor → Outlaws of Thunder Junction (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#outlaws-of-thunder-junction-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,136 decks; most often under [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (0.9% of its decks), [Zur the Enchanter](../../cards/Z/zu.md#zur-the-enchanter) (0.3% of its decks), [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mystical-tether)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/19/mystical-tether) · oracle_id `fb1a6986-39f7-4592-9039-7e30f5ccd009` · printing: OTJ #19 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1426,6 +1428,8 @@ schema: 2
   > *—Shang-Chi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #373 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Enlightened](https://magic.wizards.com/en/news/magic-story/enlightened) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 321,122 decks; most often under [Kilo, Apogee Mind](../../cards/K/ki.md#kilo-apogee-mind) (63.2% of its decks), [Zinnia, Valley's Voice](../../cards/Z/zi.md#zinnia-valleys-voice) (69.9% of its decks), [Satya, Aetherflux Genius](../../cards/S/sat.md#satya-aetherflux-genius) (70.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 decks · 3 edh guides) → [reverse index](../../references/M.md#mystic-monastery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/253/mystic-monastery) · oracle_id `834b8f71-9a45-42ae-9e99-e749fa6fb45e` · printing: MSC #253 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bc23343a-3a01-4975-8430-17bf15fa639d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

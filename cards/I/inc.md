@@ -441,6 +441,8 @@ schema: 2
   - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Lore:** ✅ Card art shown on [I Am Avacyn](https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 48,889 decks; most often under [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (40.7% of its decks), [Silvar, Devourer of the Free // Trynn, Champion of Freedom](../../cards/S/si.md#silvar-devourer-of-the-free) (55.7% of its decks), [Kyler, Sigardian Emissary](../../cards/K/ky.md#kyler-sigardian-emissary) (48.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#increasing-devotion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/91/increasing-devotion) · oracle_id `7a5ff4d4-27b7-47d4-ba88-970c63c4e3fb` · printing: C20 #91 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -78,7 +78,9 @@ schema: 2
   - *2023-02-04* — Other replacement effects that would change the number of loyalty counters Vraska enters with will apply as normal.
   - *2023-02-04* — The compleated ability looks only at whether a player chose to pay 2 life for a Phyrexian mana symbol as they were casting the spell. If a player paid life for some other reason while casting the spell, that will not reduce the number of loyalty counters the planeswalker enters the battlefield with.
   - *2023-02-04* — The target of Vraska's second loyalty ability will lose any other subtypes and card types it previously had and will be only a Treasure artifact. It will retain any supertypes it had.
-- **Referenced in:** 7 pages (2 decks · 1 edh guides · 1 rules · 2 lore & story · 1 card data) → [reverse index](../../references/V.md#vraska-betrayals-sting)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Vraska](../../Characters%20Index.md#vraska) · [Dossier → Vraska](../../Planeswalker%20Dossiers.md#vraska) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · Commander Spellbook: 2 combos; most popular [Vraska, Betrayal's Sting + Vorinclex, Monstrous Raider](https://commanderspellbook.com/combo/1529-1887/) (Target opponent loses the game) · EDHREC: in 125,899 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (52.7% of its decks), [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (61.9% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (16.6% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Proliferate](../../EDH%20Packages.md#11-counters-proliferate) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 8 pages (2 decks · 2 edh guides · 1 rules · 2 lore & story · 1 card data) → [reverse index](../../references/V.md#vraska-betrayals-sting)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/88/vraska-betrayals-sting) · oracle_id `05d09c55-f551-4cb4-a8d2-4811dccc848d` · printing: ECC #88 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska, Golgari Queen
@@ -111,7 +113,9 @@ schema: 2
   > *Letting Oko believe he held all the cards provided the perfect cover for her own scheme to unfold.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2648 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (1 decks · 2 lore & story) → [reverse index](../../references/V.md#vraska-joins-up)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Vraska](../../Characters%20Index.md#vraska) · [Dossier → Vraska](../../Planeswalker%20Dossiers.md#vraska) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 62,746 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (26.7% of its decks), [Skullbriar, the Walking Grave](../../cards/S/sk.md#skullbriar-the-walking-grave) (63.5% of its decks), [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (20.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 2 lore & story) → [reverse index](../../references/V.md#vraska-joins-up)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/236/vraska-joins-up) · oracle_id `c91b0dd5-4c63-49a5-95bf-c342b6ff2076` · printing: OTJ #236 (2024-04-19) · [rulings](https://api.scryfall.com/cards/06e546c2-737e-4b17-bf60-3069b1ccdf31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska, Regal Gorgon
@@ -125,6 +129,8 @@ schema: 2
   > −10: For each creature card in your graveyard, put a +1/+1 counter on each creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19326 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Vraska](../../Characters%20Index.md#vraska) · [Dossier → Vraska](../../Planeswalker%20Dossiers.md#vraska) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,534 decks; most often under [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (5.1% of its decks), [Vraska, the Silencer](../../cards/V/vr.md#vraska-the-silencer) (12.3% of its decks), [Damia, Sage of Stone](../../cards/D/da.md#damia-sage-of-stone) (6.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/V.md#vraska-regal-gorgon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/269/vraska-regal-gorgon) · oracle_id `7616e834-4852-40c8-9de6-d89f96119f12` · printing: GRN #269 (2018-10-05) · [rulings](https://api.scryfall.com/cards/4299dbe6-c94d-4ecc-8bfd-741d2649cba1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -142,6 +148,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — For a player's life total to become 1, what actually happens is that the player loses the appropriate amount of life (or in some rare cases, gains the appropriate amount of life). For example, if the targeted player's life total is 4 when this ability resolves, that player loses 3 life. Other cards that interact with life loss will interact with this effect accordingly.
   - *2017-09-29* — If the target artifact, creature, or enchantment is an illegal target by the time Vraska's second ability resolves, the entire ability doesn't resolve. You won't get a Treasure. If, on the other hand, the target is a legal target but isn't destroyed (most likely because it has indestructible), you will get a Treasure.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Vraska](../../Characters%20Index.md#vraska) · [Dossier → Vraska](../../Planeswalker%20Dossiers.md#vraska) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 16,030 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (75.0% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (6.1% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (6.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/V.md#vraska-relic-seeker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/232/vraska-relic-seeker) · oracle_id `3c037103-5af0-40a8-bbbe-7f3f5958b6e9` · printing: XLN #232 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -158,6 +166,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — The triggered ability Vraska grants to creatures with her third ability triggers on any damage those creatures deal, including noncombat damage. If multiple players are dealt damage simultaneously by affected creatures, you choose the order in which those triggers resolve. If all your opponents have lost the game, you’ll win the game before any more of the triggers resolve.
   - *2018-01-19* — Vraska’s first and last abilities affect only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +1/+0 or gain abilities.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Vraska](../../Characters%20Index.md#vraska) · [Dossier → Vraska](../../Planeswalker%20Dossiers.md#vraska) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,945 decks; most often under [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (8.5% of its decks), [Vraska, the Silencer](../../cards/V/vr.md#vraska-the-silencer) (13.5% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (7.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/V.md#vraska-scheming-gorgon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/197/vraska-scheming-gorgon) · oracle_id `83045a9c-57da-411f-80aa-56178d14856b` · printing: RIX #197 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -186,6 +196,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — If the target creature or planeswalker is an illegal target by the time Vraska’s Contempt resolves, the entire spell doesn’t resolve. You won’t gain life.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): XLN #129 — ✅ Card art shown on [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,037 decks; most often under [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (7.7% of its decks), [Vito, Thorn of the Dusk Rose](../../cards/V/vi.md#vito-thorn-of-the-dusk-rose) (6.2% of its decks), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/129/vraskas-contempt) · oracle_id `38ddbe0b-07ef-4cdf-ad6c-cd8b8ba6d206` · printing: XLN #129 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska's Fall
@@ -217,6 +229,8 @@ schema: 2
   - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
   - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
   - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): FRA #71 — [Art & Flavor → Reality Fracture (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#reality-fracture-2026) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,505 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (12.3% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (1.0% of its decks), [Vraska, the Silencer](../../cards/V/vr.md#vraska-the-silencer) (15.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#vraskas-final-mercy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/71/vraskas-final-mercy) · oracle_id `7799413d-e313-4a05-ad28-f4c926c26d28` · printing: FRA #71 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -248,7 +262,9 @@ schema: 2
 - **Rulings** (2):
   - *2026-08-21* — Sculpture is a creature type. Treasure is an artifact type.
   - *2026-08-21* — Vraska's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/V.md#vraska-soul-of-stone)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Vraska](../../Characters%20Index.md#vraska) · [Dossier → Vraska](../../Planeswalker%20Dossiers.md#vraska) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Vraska, Soul of Stone + Sensei's Divining Top + Mystic Forge + Roar of Resistance](https://commanderspellbook.com/combo/985-4478-5078-8171/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 5,764 decks; highest synergy [Skullclamp](../../cards/S/sk.md#skullclamp) (+53%), [Harmonic Prodigy](../../cards/H/ha.md#harmonic-prodigy) (+47%), [Fateful Discovery](../../cards/F/fa.md#fateful-discovery) (+46%) · EDHREC: in 3,762 decks; most often under [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (16.0% of its decks), [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (13.9% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (25.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/V.md#vraska-soul-of-stone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/277/vraska-soul-of-stone) · oracle_id `cad63b31-667b-4518-bc49-be4ffb82bc63` · printing: FRA #277 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska's Scorn
@@ -283,6 +299,8 @@ schema: 2
   > −2: Create a 1/1 black Assassin creature token with deathtouch and "Whenever this token deals damage to a planeswalker, destroy that planeswalker."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12558 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [War of the Spark: Ravnica—Desperate Operatives](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Vraska](../../Characters%20Index.md#vraska) · [Dossier → Vraska](../../Planeswalker%20Dossiers.md#vraska) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 9 combos; most popular [Vraska, Swarm's Eminence + Walking Ballista](https://commanderspellbook.com/combo/2190-3693/) (Infinite damage) · EDHREC: in 8,227 decks; most often under [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (17.8% of its decks), [The Serpent Society](../../cards/T/thes.md#the-serpent-society) (20.5% of its decks), [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (5.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/V.md#vraska-swarms-eminence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/236/vraska-swarms-eminence) · oracle_id `cff8b4e9-c60c-42c1-ad2e-74ae9d7f3afb` · printing: WAR #236 (2019-05-03) · [rulings](https://api.scryfall.com/cards/59ee2974-07e9-4506-903c-457cb7327dd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -300,6 +318,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22652 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — Vraska's last ability checks at the moment it would trigger to see if you control six or more lands. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't control six or more lands at that time, the ability won't resolve and its effect won't happen.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Vraska](../../Characters%20Index.md#vraska) · [Dossier → Vraska](../../Planeswalker%20Dossiers.md#vraska) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 83 decks; highest synergy [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+38%), [Vraska, the Silencer](../../cards/V/vr.md#vraska-the-silencer) (+34%), [Three Visits](../../cards/T/thr.md#three-visits) (+31%) · EDHREC: in 1,373 decks; most often under [The Serpent Society](../../cards/T/thes.md#the-serpent-society) (11.0% of its decks), [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (25.0% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (3.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/V.md#vraska-the-cutting-glare)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/278/vraska-the-cutting-glare) · oracle_id `580de511-863c-4b7a-9d2e-fcdf6e12d54b` · printing: FRA #278 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -315,6 +335,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5807 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-04-12* — The returned card will lose any other subtypes and card types and will be only a Treasure artifact. It will retain its supertypes as well as its abilities.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Vraska](../../Characters%20Index.md#vraska) · [Dossier → Vraska](../../Planeswalker%20Dossiers.md#vraska) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,363 decks; highest synergy [Chevill, Bane of Monsters](../../cards/C/che.md#chevill-bane-of-monsters) (+53%), [Sheoldred's Edict](../../cards/S/she.md#sheoldreds-edict) (+49%), [Viridian Longbow](../../cards/V/vi.md#viridian-longbow) (+49%) · EDHREC: in 24,766 decks; most often under [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (75.2% of its decks), [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (22.7% of its decks), [The Serpent Society](../../cards/T/thes.md#the-serpent-society) (49.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/V.md#vraska-the-silencer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/237/vraska-the-silencer) · oracle_id `e7c5a568-3855-4a20-9edf-01a8a6a4ba97` · printing: OTJ #237 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -331,7 +353,9 @@ schema: 2
 - **Rulings** (2):
   - *2012-10-01* — Each Assassin token's triggered ability will trigger whenever it deals combat damage to any player, including you.
   - *2012-10-01* — If an effect creates a copy of one of the Assassin creature tokens, the copy will also have the triggered ability.
-- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/V.md#vraska-the-unseen)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Vraska](../../Characters%20Index.md#vraska) · [Dossier → Vraska](../../Planeswalker%20Dossiers.md#vraska) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 19,269 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (66.8% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (5.9% of its decks), [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (10.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 5 pages (2 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/V.md#vraska-the-unseen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/207/vraska-the-unseen) · oracle_id `0d2bbce0-8c27-4b82-ab62-51a0c3cfc9b0` · printing: C19 #207 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vren, the Relentless

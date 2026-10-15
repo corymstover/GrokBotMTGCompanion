@@ -244,6 +244,8 @@ schema: 2
   - *2013-09-15* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
   - *2013-09-15* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
   - *2013-09-15* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+- **Lore:** ✅ Card art shown on [The Walls of Akros](https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 238 decks; most often under [Borborygmos and Fblthp](../../cards/B/bo.md#borborygmos-and-fblthp) (0.9% of its decks), [Agatha of the Vile Cauldron](../../cards/A/ag.md#agatha-of-the-vile-cauldron) (0.3% of its decks), [Tazri, Stalwart Survivor](../../cards/T/ta.md#tazri-stalwart-survivor) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/166/ill-tempered-cyclops) · oracle_id `07f62413-92cc-4f44-a827-a7c3a7318602` · printing: CN2 #166 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ill-Tempered Loner // Howlpack Avenger
@@ -613,6 +615,8 @@ schema: 2
   - *2017-02-09* — If each target creature is an illegal target as Illusionist’s Stratagem resolves, the spell doesn’t resolve. You won’t draw a card.
   - *2017-02-09* — If you choose two target creatures and one is an illegal target as Illusionist’s Stratagem resolves, you’ll exile the other, return it, and draw a card.
   - *2017-02-09* — You may cast Illusionist’s Stratagem without any targets if you wish to just draw a card.
+- **Lore:** ✅ Card art shown on [The Skies over Ghirapur](https://magic.wizards.com/en/news/magic-story/skies-over-ghirapur-2017-01-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 58 combos; most popular [Illusionist's Stratagem + Peregrine Drake + Archaeomancer](https://commanderspellbook.com/combo/2493-3378-3821/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 18,784 decks; most often under [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (8.3% of its decks), [Vannifar, Evolved Enigma](../../cards/V/va.md#vannifar-evolved-enigma) (37.6% of its decks), [Yarok, the Desecrated](../../cards/Y/ya.md#yarok-the-desecrated) (7.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#illusionists-stratagem)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/36/illusionists-stratagem) · oracle_id `1225bee2-c829-4a93-9f75-3495277c23bc` · printing: AER #36 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -370,7 +370,7 @@ def edhrec_commander(name, fetch):
 
 
 # ------------------------------------------------------------------ build
-def pool(rows_by_key, by_id, prints, links, cc, caps):
+def pool(rows_by_key, by_id, prints, links, cc, caps, prev=None):
     S, norm = story_norm()
     big = "\n".join(S.values())
     sh = set()
@@ -406,6 +406,8 @@ def pool(rows_by_key, by_id, prints, links, cc, caps):
                 if len(w) >= 8 and hash(" ".join(w[:6])) in sh and norm(fl).strip(" .'\"-") in big:
                     tiers[oid].add("story-flavor")
                     break
+        if not S and (prev or {}).get(oid, {}).get("lore", {}).get("flavor_on"):
+            tiers[oid].add("story-flavor")  # no story cache: keep the earlier verified flavor match
     return tiers
 
 
@@ -550,8 +552,8 @@ def build(fetch=False):
     prints = load_printings()
     caps = art_captions()
     afs = art_flavor_sections()
-    tiers = pool(rows_by_key, by_id, prints, links, cc, caps)
     prev = json.loads(OUT.read_text(encoding="utf-8")).get("cards", {}) if OUT.exists() else {}
+    tiers = pool(rows_by_key, by_id, prints, links, cc, caps, prev)
     notes = json.loads(NOTES.read_text(encoding="utf-8")) if NOTES.exists() else {}
     notes = {k: v for k, v in notes.items() if not k.startswith("_")}
     S, norm = story_norm()

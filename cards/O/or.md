@@ -312,6 +312,8 @@ schema: 2
   - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
   - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
   - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions.
+- **Lore:** ✅ Card art shown on [The Oracle of Ephara](https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19), [The Oracle of Ephara](https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19-0) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Mind Over Matter + Oracle's Insight](https://commanderspellbook.com/combo/1929-4067/) (Infinite draw triggers, Infinite looting) · EDHREC: in 2,051 decks; most often under [Eriette, the Beguiler](../../cards/E/er.md#eriette-the-beguiler) (3.1% of its decks), [Aminatou, Veil Piercer](../../cards/A/am.md#aminatou-veil-piercer) (0.8% of its decks), [Elrond, Master of Healing](../../cards/E/el.md#elrond-master-of-healing) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/127/oracles-insight) · oracle_id `3f1f27ca-15e6-4ac6-8bd3-1e6b3ca00857` · printing: BBD #127 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oracle's Restoration
@@ -325,6 +327,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13665 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — If the target creature is an illegal target as Oracle's Restoration tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card or gain 1 life.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SOS #156 — [Art & Flavor → Secrets of Strixhaven (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#secrets-of-strixhaven-2026) — ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-5-breaking-point) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,870 decks; most often under [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (13.0% of its decks), [The Howling Abomination](../../cards/T/theh.md#the-howling-abomination) (30.6% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/O.md#oracles-restoration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/156/oracles-restoration) · oracle_id `00e75a6b-699e-4824-86e5-66d45245cd9b` · printing: SOS #156 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -515,6 +519,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20991 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-11-10* — If there is only one card in your library, you put it into your hand.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): LCI #68 — [Art & Flavor → The Lost Caverns of Ixalan (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-lost-caverns-of-ixalan-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,872 decks; most often under [Emry, Lurker of the Loch](../../cards/E/em.md#emry-lurker-of-the-loch) (3.9% of its decks), [Mm'menon, the Right Hand](../../cards/M/mm.md#mmmenon-the-right-hand) (4.6% of its decks), [Ashnod the Uncaring](../../cards/A/as.md#ashnod-the-uncaring) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#orazca-puzzle-door)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/68/orazca-puzzle-door) · oracle_id `6bcf21ef-6641-4752-a0da-937a9277c812` · printing: LCI #68 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1137,6 +1143,8 @@ schema: 2
   - *2013-09-15* — If you sacrifice the Ordeal in some other way, its last ability will trigger.
   - *2013-09-15* — The +1/+1 counter is put on the creature before blockers are declared and before combat damage is dealt.
   - *2013-09-15* — The check of whether the enchanted creature has three or more +1/+1 counters on it happens as part of the resolution of the attack triggered ability. If the third +1/+1 counter is put on the enchanted creature any other way, you won't sacrifice the Ordeal until the next time the creature attacks.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/tragedy-2013-10-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,577 decks; most often under [Mazzy, Truesword Paladin](../../cards/M/maz.md#mazzy-truesword-paladin) (9.7% of its decks), [Treebeard, Gracious Host](../../cards/T/tre.md#treebeard-gracious-host) (6.7% of its decks), [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/27/ordeal-of-heliod) · oracle_id `a6861402-4819-4d85-8b60-677471f40d7d` · printing: A25 #27 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ordeal of Nylea
@@ -2474,6 +2482,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #418 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Lore:** ✅ Card art shown on [Family Values](https://magic.wizards.com/en/news/magic-story/family-values-2015-11-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Teysa Karlov](../../decks/teysa-karlov.md) · Commander Spellbook: 100+ combos; most popular [Kodama of the East Tree + Orzhov Basilica + The Necrobloom](https://commanderspellbook.com/combo/1479-3861-5671/) (Infinite creature ETB, Infinite creature tokens) · EDHREC: in 295,790 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (20.2% of its decks), [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (44.4% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (37.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/O.md#orzhov-basilica)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/292/orzhov-basilica) · oracle_id `aa00ae0b-7c0f-427e-8102-ce0e2a6af5df` · printing: DSC #292 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

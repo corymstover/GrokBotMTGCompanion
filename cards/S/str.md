@@ -406,6 +406,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7837 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — If there are fewer than three cards in your library, you look at all of them, put one of them into your hand, and put the rest into your graveyard.
+- **Lore:** ✅ Card art shown on [Endure](https://magic.wizards.com/en/news/magic-story/endure-2017-07-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 18,230 decks; most often under [Octavia, Living Thesis](../../cards/O/oc.md#octavia-living-thesis) (34.7% of its decks), [Gale, Waterdeep Prodigy // Scion of Halaster](../../cards/G/ga.md#gale-waterdeep-prodigy) (29.1% of its decks), [Kess, Dissident Mage](../../cards/K/ke.md#kess-dissident-mage) (5.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/S.md#strategic-planning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/77/strategic-planning) · oracle_id `02b5acf3-47cb-4d39-9307-e02656f1879b` · printing: KHM #77 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -797,6 +799,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7406 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-11-19* — Strefan's first triggered ability counts the number of players that lost any amount of life, even if they also gained that much or more life this turn.
+- **Lore:** ✅ Card art shown on [The Devouring House](https://magic.wizards.com/en/news/magic-story/devouring-house-2021-11-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8,432 decks; highest synergy [Crossway Troublemakers](../../cards/C/cr.md#crossway-troublemakers) (+83%), [Glass-Cast Heart](../../cards/G/gl.md#glass-cast-heart) (+82%), [Markov Enforcer](../../cards/M/mar.md#markov-enforcer) (+81%) · EDHREC: in 11,444 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (9.7% of its decks), [Olivia, Crimson Bride](../../cards/O/ol.md#olivia-crimson-bride) (51.0% of its decks), [Anje, Maid of Dishonor](../../cards/A/an.md#anje-maid-of-dishonor) (70.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/2/strefan-maurer-progenitor) · oracle_id `3cc745d2-5021-43ff-ace8-35011011e62a` · printing: VOC #2 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strength Bobblehead
@@ -854,6 +858,8 @@ schema: 2
   - *2020-08-07* — The Human Soldier token that you'll create can't be the target to get +2/+2.
   - *2020-08-07* — You'll create a Human Soldier token if you control any Equipment, not just one attached to the target creature, or even to any creature at all.
   - *2020-08-07* — You'll create only one token, no matter how many Equipment you control beyond the first.
+- **Lore:** ✅ Card art shown on [The Lunarch Inquisition](https://magic.wizards.com/en/news/magic-story/lunarch-inquisition-2016-05-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,784 decks; most often under [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (1.2% of its decks), [Gregor, Shrewd Magistrate](../../cards/G/gre.md#gregor-shrewd-magistrate) (9.6% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/42/strength-of-arms) · oracle_id `40ff84c7-cd72-49a6-86ba-a8d23c819ee7` · printing: INR #42 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strength of Cedars
@@ -1745,6 +1751,8 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 528 decks; most often under [Taborax, Hope's Demise](../../cards/T/ta.md#taborax-hopes-demise) (3.8% of its decks), [Rev, Tithe Extractor](../../cards/R/rev.md#rev-tithe-extractor) (0.8% of its decks), [Gix, Yawgmoth Praetor](../../cards/G/gi.md#gix-yawgmoth-praetor) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#stronghold-confessor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/105/stronghold-confessor) · oracle_id `e7c200a9-4793-44c8-ba8d-6298dc83bbac` · printing: DOM #105 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1890,6 +1898,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-04-29* — If a player controls an artifact creature with a shield counter on it as Structural Assault destroys all artifacts, a shield counter will be removed before Structural Assault deals damage to each creature. Unless that artifact creature has another shield counter on it, the damage won't be prevented.
   - *2022-04-29* — Structural Assault counts the number of artifacts that were put into graveyards from the battlefield this turn for any reason, not just because they were destroyed by Structural Assault.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SNC #126 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,408 decks; most often under [Kibo, Uktabi Prince](../../cards/K/ki.md#kibo-uktabi-prince) (10.6% of its decks), [Vazi, Keen Negotiator](../../cards/V/va.md#vazi-keen-negotiator) (5.9% of its decks), [Jaws, Relentless Predator](../../cards/J/ja.md#jaws-relentless-predator) (2.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/126/structural-assault) · oracle_id `23cf22fe-483f-4841-882e-e1513bb1d495` · printing: SNC #126 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Structural Collapse
@@ -1968,6 +1978,8 @@ schema: 2
   - *2021-02-05* — If you choose two target creatures and either target is an illegal target as Struggle for Skemfar tries to resolve, neither creature will deal or be dealt damage.
   - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2021-02-05* — You can cast Struggle for Skemfar targeting only a creature you control.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KHM #196, PLST #KHM-196 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,962 decks; most often under [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (2.0% of its decks), [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (0.5% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/196/struggle-for-skemfar) · oracle_id `a3bdb026-e09d-443f-ba02-fe0d5412fc97` · printing: KHM #196 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Struggle // Survive

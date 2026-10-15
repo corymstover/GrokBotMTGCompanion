@@ -321,6 +321,8 @@ schema: 2
   - *2015-06-22* — As The Great Aurora resolves, first you choose any number of land cards in your hand to put onto the battlefield, and then each other player in turn order does the same. The lands enter the battlefield simultaneously.
   - *2015-06-22* — If a player is required to draw more cards than their library contains, that player loses the game. If all players lose the game this way, the game is a draw.
   - *2015-06-22* — The number of cards you draw is equal to the number of permanents on the battlefield that you shuffle into your library plus the number of cards from your hand that you shuffle into your library.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,791 decks; most often under [Azusa, Lost but Seeking](../../cards/A/az.md#azusa-lost-but-seeking) (4.3% of its decks), [Omnath, Locus of Mana](../../cards/O/om.md#omnath-locus-of-mana) (2.1% of its decks), [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/179/the-great-aurora) · oracle_id `b9d7341e-10e7-43f9-bee2-e8053b287acd` · printing: ORI #179 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Great Goblin

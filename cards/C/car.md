@@ -426,6 +426,8 @@ schema: 2
   > *—Anowon, the Ruin Sage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16044 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Veil of Deceit](https://magic.wizards.com/en/news/magic-story/veil-deceit-2014-07-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [The Locust God + Carnage Altar + Mana Echoes](https://commanderspellbook.com/combo/1339-2440-3287/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 4,541 decks; most often under [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (1.1% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.3% of its decks), [Yedora, Grave Gardener](../../cards/Y/ye.md#yedora-grave-gardener) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/238/carnage-altar) · oracle_id `aa05900f-0f04-407e-931c-fea8f91e78e3` · printing: C13 #238 (2013-11-01) · [rulings](https://api.scryfall.com/cards/c08486d3-3d94-49c7-b8c9-61eb8a3e6428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carnage, Crimson Chaos
@@ -901,6 +903,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27082 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Unkindness of Ravens](https://magic.wizards.com/en/news/magic-story/unkindness-ravens-2015-07-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 512 decks; most often under [The Raven Man](../../cards/T/ther.md#the-raven-man) (3.3% of its decks), [Maha, Its Feathers Night](../../cards/M/mah.md#maha-its-feathers-night) (0.4% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/88/carrion-crow) · oracle_id `2f9de785-a80a-4356-a4b4-0e0243e8ea2d` · printing: M15 #88 (2014-07-18) · [rulings](https://api.scryfall.com/cards/97d80cc4-f3be-4306-8126-e60f7b00d384/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carrion Cruiser

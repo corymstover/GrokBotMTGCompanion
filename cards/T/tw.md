@@ -472,6 +472,8 @@ schema: 2
   - *2022-09-09* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy created by Twinferno's delayed triggered ability will have the same mode or modes. You can't choose different ones.
   - *2022-09-09* — The copies that Twinferno's ability creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger.
   - *2022-09-09* — You can't choose to pay any additional costs for the copy created by Twinferno's delayed triggered ability. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DMU #149, PLST #DMU-149 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Errant, Street Artist + Reality Spasm + Twinferno](https://commanderspellbook.com/combo/1357-4697-5942/) (Infinite untap of permanents you control, Infinite magecraft triggers) · EDHREC: in 62,741 decks; most often under [Storm, Force of Nature](../../cards/S/sto.md#storm-force-of-nature) (28.2% of its decks), [Riku of Many Paths](../../cards/R/ri.md#riku-of-many-paths) (53.1% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (7.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#twinferno)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/149/twinferno) · oracle_id `93989dd7-2d3e-46e2-8e92-8d0479796087` · printing: DMU #149 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -845,6 +847,8 @@ schema: 2
   - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
   - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
   - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WOE #154 — [Art & Flavor → Wilds of Eldraine (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#wilds-of-eldraine-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 16,679 decks; most often under [Stella Lee, Wild Card](../../cards/S/ste.md#stella-lee-wild-card) (64.0% of its decks), [Brion Stoutarm](../../cards/B/br.md#brion-stoutarm) (21.5% of its decks), [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#twisted-fealty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/154/twisted-fealty) · oracle_id `a5ae75de-0dff-44bf-9dc6-5895ab3ae731` · printing: WOE #154 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

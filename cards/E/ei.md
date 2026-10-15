@@ -272,7 +272,9 @@ schema: 2
   > *Two different visions of freedom clashed at the gates of the Imperial Palace.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13857 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#eiganjo-uprising)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): NEO #217 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Isshin, Two Heavens as One (Kamigawa-only)](../../decks/plane-kamigawa-isshin-two-heavens-as-one.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,596 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (5.1% of its decks), [Raiyuu, Storm's Edge](../../cards/R/rai.md#raiyuu-storms-edge) (19.2% of its decks), [Baeloth Barrityl, Entertainer // Noble Heritage](../../cards/B/bae.md#baeloth-barrityl-entertainer) (14.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/E.md#eiganjo-uprising)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/217/eiganjo-uprising) · oracle_id `fe2fe9f2-908b-49a9-9648-b01e0417a364` · printing: NEO #217 (2022-02-18) · [rulings](https://api.scryfall.com/cards/35203138-5237-49aa-a335-7a32829548a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eight-and-a-Half-Tails

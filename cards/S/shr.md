@@ -597,6 +597,8 @@ schema: 2
   > *The gods known to the merfolk as Ula, Emeria, and Cosi were nothing more than false memories of a monstrous trinity: the Eldrazi titans Ulamog, Emrakul, and Kozilek.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1218 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) · [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 130,871 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (77.6% of its decks), [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (83.5% of its decks), [Ultima, Origin of Oblivion](../../cards/U/ul.md#ultima-origin-of-oblivion) (76.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 decks · 1 lore & story) → [reverse index](../../references/S.md#shrine-of-the-forsaken-gods)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/292/shrine-of-the-forsaken-gods) · oracle_id `8ea46945-d5ab-4209-b473-4769e7b8b962` · printing: MKC #292 (2024-02-09) · [rulings](https://api.scryfall.com/cards/4472d5fb-ca8f-43d0-a95d-5bd8bdb6a02d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -410,7 +410,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4125 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-02-07* — You pay all costs and follow all normal timing rules for the card played from exile with this permanent’s ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#count-on-luck)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DFT #118 — [Art & Flavor → Aetherdrift (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#aetherdrift-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 40,206 decks; most often under [Clive, Ifrit's Dominant](../../cards/C/cl.md#clive-ifrits-dominant--ifrit-warden-of-inferno) (65.5% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (11.3% of its decks), [Prosper, Tome-Bound](../../cards/P/pr.md#prosper-tome-bound) (8.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/C.md#count-on-luck)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/118/count-on-luck) · oracle_id `73ad7bcd-4ffc-442c-b6b5-d935b9ccaaaf` · printing: DFT #118 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Country Roads

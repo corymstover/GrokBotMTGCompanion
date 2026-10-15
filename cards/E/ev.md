@@ -103,6 +103,8 @@ schema: 2
   > *—Admiral Beckett Brass*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1898 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 86,793 decks; most often under [Omo, Queen of Vesuva](../../cards/O/om.md#omo-queen-of-vesuva) (27.7% of its decks), [Admiral Brass, Unsinkable](../../cards/A/ad.md#admiral-brass-unsinkable) (41.5% of its decks), [Eluge, the Shoreless Sea](../../cards/E/el.md#eluge-the-shoreless-sea) (14.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#evacuation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/156/evacuation) · oracle_id `fdd94383-b573-439a-8e1c-925af887c5a6` · printing: LCC #156 (2023-11-17) · [rulings](https://api.scryfall.com/cards/b11037bc-e719-461e-a89e-9c026dfd9fd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -304,6 +306,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11147 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-04-08* — If a targeted creature card is normally colorless, it will simply become black. It won’t be both black and colorless.
+- **Lore:** ✅ Card art shown on [Games](https://magic.wizards.com/en/news/magic-story/games-2016-04-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,405 decks; most often under [Kathril, Aspect Warper](../../cards/K/ka.md#kathril-aspect-warper) (15.9% of its decks), [Hidetsugu and Kairi](../../cards/H/hi.md#hidetsugu-and-kairi) (17.9% of its decks), [Indominus Rex, Alpha](../../cards/I/ind.md#indominus-rex-alpha) (5.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/133/ever-after) · oracle_id `86be501c-6f05-4ce0-adb0-7adb135bfb93` · printing: C20 #133 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Everbark Shaman
@@ -1170,6 +1174,8 @@ schema: 2
   > *—High Evolutionary, Herbert Wyndham*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ECL #264 — [Art & Flavor → Lorwyn Eclipsed (2025–26)](../../Art%20%26%20Flavor%20Story%20Links.md#lorwyn-eclipsed-202526) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (8): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · [Muldrotha, the Gravetide](../../decks/muldrotha-the-gravetide.md) · [The Gitrog Monster (Innistrad-only)](../../decks/plane-innistrad-the-gitrog-monster.md) … · Commander Spellbook: 35 combos; most popular [Tifa Lockhart + Scale Up + Evolving Wilds](https://commanderspellbook.com/combo/2443-7675-7676/) (Target opponent loses the game) · EDHREC: in 2,022,737 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (64.7% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (30.8% of its decks), [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (40.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 15 pages (8 decks · 4 edh guides · 1 lore & story · 2 card data) → [reverse index](../../references/E.md#evolving-wilds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/240/evolving-wilds) · oracle_id `a75445d3-1303-4bb5-89ad-26ea93fecd48` · printing: MSC #240 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c0318a48-30e4-4ef7-be3d-5e561c5ce428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

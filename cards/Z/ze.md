@@ -263,6 +263,9 @@ schema: 2
 - **Rulings** (2):
   - *2019-01-25* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
   - *2019-01-25* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+- **Lore:** ✅ Card art shown on [The Principles of Unnatural Selection](https://magic.wizards.com/en/news/magic-story/principles-unnatural-selection-2019-02-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 200 decks; highest synergy [Fathom Mage](../../cards/F/fa.md#fathom-mage) (+53%), [Simic Ascendancy](../../cards/S/si.md#simic-ascendancy) (+50%), [Bred for the Hunt](../../cards/B/br.md#bred-for-the-hunt) (+45%) · EDHREC: in 28,760 decks; most often under [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (73.4% of its decks), [Kumena, Tyrant of Orazca](../../cards/K/ku.md#kumena-tyrant-of-orazca) (32.6% of its decks), [Nicanzil, Current Conductor](../../cards/N/ni.md#nicanzil-current-conductor) (39.8% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/Z.md#zegana-utopian-speaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/298/zegana-utopian-speaker) · oracle_id `04260930-ff38-4b35-9ec4-e89196a4f2c7` · printing: LCC #298 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zektar Shrine Expedition
@@ -363,6 +366,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16682 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — The ability defining Zendikar Incarnate’s power works in all zones, not just the battlefield. Zendikar Incarnate’s power changes as the number of lands you control does.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,055 decks; most often under [Zilortha, Strength Incarnate](../../cards/Z/zi.md#zilortha-strength-incarnate) (33.7% of its decks), [Omnath, Locus of Rage](../../cards/O/om.md#omnath-locus-of-rage) (5.3% of its decks), [Lord Windgrace](../../cards/L/lo.md#lord-windgrace) (4.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/195/zendikar-incarnate) · oracle_id `ecd307e6-9096-401f-bd82-ad190532d389` · printing: C18 #195 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zendikar Resurgent
@@ -376,6 +381,9 @@ schema: 2
 - **Rulings** (2):
   - *2016-01-22* — If the land’s mana ability produces more than one type of mana, choose one of those types to determine what mana Zendikar Resurgent produces.
   - *2016-01-22* — The last ability will resolve before the creature spell that caused it to trigger.
+- **Lore:** ✅ Card art shown on [Bottled Up](https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28), [Zendikar Resurgent](https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 46 combos; most popular [Palinchron + Zendikar Resurgent](https://commanderspellbook.com/combo/3542-4974/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 67,966 decks; most often under [Omnath, Locus of Mana](../../cards/O/om.md#omnath-locus-of-mana) (39.3% of its decks), [Kona, Rescue Beastie](../../cards/K/ko.md#kona-rescue-beastie) (20.3% of its decks), [Imoti, Celebrant of Bounty](../../cards/I/im.md#imoti-celebrant-of-bounty) (23.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/Z.md#zendikar-resurgent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/160/zendikar-resurgent) · oracle_id `a0af158b-f42a-4022-a438-e0a2e1fd6d9e` · printing: C17 #160 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zendikar's Roil
@@ -390,7 +398,9 @@ schema: 2
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2183 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/Z.md#zendikars-roil)
+- **Lore:** ✅ Card art shown on [Nissa's Quest](https://magic.wizards.com/en/news/magic-story/nissas-quest-2015-09-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Tatyova, Benthic Druid](../../decks/tatyova-benthic-druid.md) · Commander Spellbook: 98 combos; most popular [Kodama of the East Tree + Simic Growth Chamber + Zendikar's Roil](https://commanderspellbook.com/combo/1479-1671-4677/) (Infinite creature ETB, Infinite creature tokens) · EDHREC: in 75,495 decks; most often under [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (33.4% of its decks), [Omnath, Locus of Rage](../../cards/O/om.md#omnath-locus-of-rage) (51.2% of its decks), [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (21.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Landfall payoffs](../../EDH%20Packages.md#lands--landfall-landfall-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/Z.md#zendikars-roil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/88/zendikars-roil) · oracle_id `a842cc2b-52eb-4dc5-86c6-6575c2ed913d` · printing: ZNC #88 (2020-09-25) · [rulings](https://api.scryfall.com/cards/60297593-2438-48d7-9414-48af114a93d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zenith Chronicler
@@ -758,6 +768,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1630 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — If an attacking creature with double strike and trample destroys all of its blocking creatures with first-strike combat damage, all of its normal combat damage is assigned to the player, planeswalker, or battle that creature's attacking.
+- **Lore:** ✅ Card art shown on [Glimpse the Far Side of the Sun](https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Gishath, Sun's Avatar](../../decks/gishath-suns-avatar.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 605 decks; highest synergy [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+41%), [Geode Golem](../../cards/G/ge.md#geode-golem) (+37%), [Burnished Hart](../../cards/B/bu.md#burnished-hart) (+36%) · EDHREC: in 99,939 decks; most often under [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (52.8% of its decks), [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (74.0% of its decks), [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (51.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/Z.md#zetalpa-primal-dawn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/142/zetalpa-primal-dawn) · oracle_id `7da0e5de-3e4c-420a-8685-991206100b9d` · printing: TDC #142 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -865,6 +865,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-04-27* — After Radha’s triggered ability resolves, you can cast spells and activate abilities before blockers are declared.
   - *2018-04-27* — The amount of mana you’ll add is the number of creatures you attack with. Creatures that are put onto the battlefield attacking before Radha’s triggered ability resolves don’t count, and creatures that attacked but left combat before the triggered ability resolves do count.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 22 combos; most popular [Grand Warlord Radha + Aggravated Assault](https://commanderspellbook.com/combo/1059-3750/) (Infinite combat phases, Infinite green mana) · EDHREC as commander: 966 decks; highest synergy [Hellkite Charger](../../cards/H/he.md#hellkite-charger) (+47%), [Radha, Heir to Keld](../../cards/R/rad.md#radha-heir-to-keld) (+46%), [Aggravated Assault](../../cards/A/ag.md#aggravated-assault) (+38%) · EDHREC: in 27,037 decks; most often under [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (28.3% of its decks), [Voja, Jaws of the Conclave](../../cards/V/vo.md#voja-jaws-of-the-conclave) (18.0% of its decks), [Ognis, the Dragon's Lash](../../cards/O/og.md#ognis-the-dragons-lash) (35.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#grand-warlord-radha)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/195/grand-warlord-radha) · oracle_id `0fb90df6-a62b-4a9f-ae79-db71d40466ce` · printing: DOM #195 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1098,6 +1100,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10519 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — If the target is illegal as Grapple with Death tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SOS #192 — [Art & Flavor → Secrets of Strixhaven (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#secrets-of-strixhaven-2026) — ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-4-something-to-offer) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,562 decks; most often under [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (38.6% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (4.6% of its decks), [Dina, Soul Steeper](../../cards/D/di.md#dina-soul-steeper) (15.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#grapple-with-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/192/grapple-with-death) · oracle_id `dced5cab-1438-4264-b44c-54dc37ec73d3` · printing: SOS #192 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1179,6 +1183,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24861 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-09-29* — You may cast Grasping Current without choosing any target creatures. You’ll just search for Jace, Ingenious Mind-Mage. However, if you choose any targets and all of those targets become illegal before Grasping Current resolves, the spell won’t resolve and you won’t search.
+- **Lore:** ✅ Card art shown on [The Race, Part 2](https://magic.wizards.com/en/news/magic-story/race-part-2-2017-10-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 859 decks; most often under [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (18.9% of its decks), [Leori, Sparktouched Hunter](../../cards/L/le.md#leori-sparktouched-hunter) (0.9% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/282/grasping-current) · oracle_id `a10a4bb2-c6fa-482b-9c8b-e64cbb8424ba` · printing: XLN #282 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grasping Dunes
@@ -1502,6 +1508,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16375 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — Count the number of creature cards in your graveyard as the ability resolves to determine how much life is lost. Notably, this could include any other creature you owned that died in combat, and perhaps even Graveblade Marauder itself.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,284 decks; most often under [Kamiz, Obscura Oculus](../../cards/K/ka.md#kamiz-obscura-oculus) (13.9% of its decks), [Alesha, Who Smiles at Death](../../cards/A/al.md#alesha-who-smiles-at-death) (1.8% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/77/graveblade-marauder) · oracle_id `33f29fcb-c9ea-4d81-afa2-5c9575b4d58e` · printing: 2X2 #77 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Graveborn Muse
@@ -1947,6 +1955,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18352 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-02-01* — The number of creature cards in your graveyard is counted only as the ability resolves. Once the ability resolves, the bonus won't change, even if the number of creature cards in your graveyard changes later in the turn.
+- **Lore:** ✅ Card art shown on [The Oracle of Ephara](https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19), [The Oracle of Ephara](https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19-0) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,021 decks; most often under [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (15.4% of its decks), [Ishkanah, Grafwidow](../../cards/I/is.md#ishkanah-grafwidow) (35.3% of its decks), [Thantis, the Warweaver](../../cards/T/tha.md#thantis-the-warweaver) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/122/graverobber-spider) · oracle_id `f0ad4a60-ce7f-4117-b8b0-266ffd0447c2` · printing: BNG #122 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Scrabbler
@@ -2376,6 +2386,8 @@ schema: 2
   > *—\*The Theorem Unending and Final,\* Antiphon 6*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15485 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): EOE #103 — [Art & Flavor → Edge of Eternities (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#edge-of-eternities-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,013 decks; most often under [Alpharael, Stonechosen](../../cards/A/al.md#alpharael-stonechosen) (22.1% of its decks), [Syr Vondam, Sunstar Exemplar](../../cards/S/sy.md#syr-vondam-sunstar-exemplar) (5.7% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (2.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#gravkill)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/103/gravkill) · oracle_id `15c6837c-775b-4b4a-a2f7-9fd79215fa05` · printing: EOE #103 (2025-08-01) · [rulings](https://api.scryfall.com/cards/cfa6c57f-a193-48cc-9764-d8348548a111/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

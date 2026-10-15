@@ -796,7 +796,7 @@ schema: 2
   - *2022-02-18* — You must still pay all costs and follow all normal timing rules when playing a card this way. For example, you may play a land this way only during one of your own main phases while the stack is empty, and only if you haven't previously played a land this turn.
 - **Lore:** Featured in: [Plane → Kamigawa (Neon Dynasty era)](../../Planes%20Index.md#kamigawa-neon-dynasty-era) ([source](https://magic.wizards.com/en/news/magic-story/episode-1-stranger-eiganjo-2022-01-24), [2](https://magic.wizards.com/en/news/magic-story/episode-5-threads-war-2022-01-27)) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: 10 combos; most popular [Hidetsugu, Devouring Chaos + Eligeth, Crossroads Augur + The Locust God + Phyrexian Altar](https://commanderspellbook.com/combo/724-1339-1689-4050/) (Infinite card draw, Near-infinite death triggers) · EDHREC as commander: 1,288 decks; highest synergy [Shadow of Mortality](../../cards/S/sha.md#shadow-of-mortality) (+60%), [Chandra's Incinerator](../../cards/C/cha.md#chandras-incinerator) (+52%), [Baneful Omen](../../cards/B/ban.md#baneful-omen) (+50%) · EDHREC: in 9,052 decks; most often under [Raphael, Fiendish Savior](../../cards/R/rap.md#raphael-fiendish-savior) (40.7% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (7.1% of its decks), [Prosper, Tome-Bound](../../cards/P/pr.md#prosper-tome-bound) (6.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hidetsugu-devouring-chaos)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/H.md#hidetsugu-devouring-chaos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/99/hidetsugu-devouring-chaos) · oracle_id `d56f24a1-04dc-4769-9941-05bd99508e40` · printing: NEO #99 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidetsugu's Poison Rite
@@ -878,6 +878,8 @@ schema: 2
   > *In the Rite of Redemption, nobles take the same vows as Elenda, the first vampire, and make the same eternal sacrifice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15474 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Unbowed, Part 2](https://magic.wizards.com/en/news/magic-story/unbowed-part-2-2018-09-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,006 decks; most often under [Captain Rex Nebula](../../cards/C/cap.md#captain-rex-nebula) (25.1% of its decks), [Abdel Adrian, Gorion's Ward // Candlekeep Sage](../../cards/A/ab.md#abdel-adrian-gorions-ward) (7.8% of its decks), [Brago, King Eternal](../../cards/B/br.md#brago-king-eternal) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/240/hierophants-chalice) · oracle_id `52732f93-b951-43c3-bb02-c254996606e5` · printing: XLN #240 (2017-09-29) · [rulings](https://api.scryfall.com/cards/6e8be52c-25ce-49da-8435-58797550f058/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High Alert
@@ -891,6 +893,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5710 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-01-25* — High Alert’s first ability doesn’t actually change any creature’s power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, Titanic Brawl won’t cause a creature to fight with its toughness under High Alert.
+- **Lore:** ✅ Card art shown on [The Ascension of Reza](https://magic.wizards.com/en/news/magic-story/ascension-reza-2019-02-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 33 combos; most popular [Axebane Guardian + High Alert](https://commanderspellbook.com/combo/3043-4896/) (Infinite colored mana, Infinite mana creatures you control can produce) · EDHREC: in 27,693 decks; most often under [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (81.3% of its decks), [Pramikon, Sky Rampart](../../cards/P/pr.md#pramikon-sky-rampart) (33.5% of its decks), [Plagon, Lord of the Beach](../../cards/P/pl.md#plagon-lord-of-the-beach) (39.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/182/high-alert) · oracle_id `5f657279-cc0f-4431-b517-47bd1c7109b6` · printing: RNA #182 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Highborn Ghoul
@@ -1059,6 +1063,8 @@ schema: 2
   > *—Chianul, Who Whispers Twice*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26442 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 600 decks; most often under [Jegantha, the Wellspring](../../cards/J/je.md#jegantha-the-wellspring) (5.4% of its decks), [Dina, Soul Steeper](../../cards/D/di.md#dina-soul-steeper) (0.6% of its decks), [Lathiel, the Bounteous Dawn](../../cards/L/la.md#lathiel-the-bounteous-dawn) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/188/highland-game) · oracle_id `0e0d40a6-e0a4-4fb2-be72-314f7d66b7eb` · printing: M19 #188 (2018-07-13) · [rulings](https://api.scryfall.com/cards/4ec59964-42c1-4c29-8c60-37b7f376c347/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Highland Giant
@@ -1086,6 +1092,8 @@ schema: 2
   > *—Boyl Bucksalt, Storm Fleet swab*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6575 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: Perspectives](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08), [Wool Over the Eyes](https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,323 decks; most often under [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (10.3% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (2.1% of its decks), [Okaun, Eye of Chaos // Zndrsplt, Eye of Wisdom](../../cards/O/ok.md#okaun-eye-of-chaos) (6.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/251/highland-lake) · oracle_id `c643365a-4255-4d23-adb9-0f8b456f0838` · printing: C19 #251 (2019-08-23) · [rulings](https://api.scryfall.com/cards/46bb20af-a326-4a42-94d3-cb1990300e0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Highland Weald
@@ -1186,6 +1194,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12223 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-01-24* — High Priest of Penance's ability triggers once for each instance of damage dealt to it, not once for each 1 damage. The ability will trigger even if High Priest of Penance is dealt lethal damage.
+- **Lore:** ✅ Card art shown on [Bound and Bonded](https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Ill-Tempered Loner // Howlpack Avenger + High Priest of Penance](https://commanderspellbook.com/combo/3417-7387/) (Destroy all nonland permanents opponents control each turn, Lock) · EDHREC: in 8,702 decks; most often under [Nalia de'Arnise](../../cards/N/na.md#nalia-dearnise) (43.0% of its decks), [Orah, Skyclave Hierophant](../../cards/O/or.md#orah-skyclave-hierophant) (27.1% of its decks), [Burakos, Party Leader // Folk Hero](../../cards/B/bu.md#burakos-party-leader) (17.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/848/high-priest-of-penance) · oracle_id `d8070ee7-dbd1-4d38-9715-ba14e103e379` · printing: CLB #848 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High-Rise Sawjack
@@ -1247,6 +1257,9 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — High Sentinels of Arashin gets +1/+1 per creature, not per +1/+1 counter. It doesn't matter how many +1/+1 counters are on any other creature you control as long as there's one or more.
   - *2014-09-20* — The activated ability can target and put +1/+1 counters on High Sentinels of Arashin itself.
+- **Lore:** ✅ Card art shown on [Bond and Blood](https://magic.wizards.com/en/news/magic-story/bond-and-blood-2014-12-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,661 decks; most often under [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (12.3% of its decks), [Bright-Palm, Soul Awakener](../../cards/B/br.md#bright-palm-soul-awakener) (13.9% of its decks), [Shalai and Hallar](../../cards/S/sha.md#shalai-and-hallar) (3.2% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/H.md#high-sentinels-of-arashin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/189/high-sentinels-of-arashin) · oracle_id `f0e7d147-379e-45b7-bfc4-d926637e060d` · printing: MOC #189 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High-Society Hunter
@@ -1296,6 +1309,8 @@ schema: 2
   - *2016-09-20* — Fabricate doesn't cause the creature with the ability to enter the battlefield with +1/+1 counters already on it. For example, Weaponcraft Enthusiast will enter the battlefield as a 0/1 creature, then its fabricate ability goes on the stack. Players may take actions (such as casting instants) while the ability is waiting to resolve.
   - *2016-09-20* — If you can't put +1/+1 counters on the creature for any reason as fabricate resolves (for instance, if it's no longer on the battlefield), you just create Servo tokens.
   - *2016-09-20* — You choose whether to put +1/+1 counters on the creature or create Servo tokens as the fabricate ability is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 21 combos; most popular [Nim Deathmantle + Ashnod's Altar + Highspire Artisan](https://commanderspellbook.com/combo/123-2034-5003/) (Infinite death triggers, Infinite creature ETB) · EDHREC: in 490 decks; most often under [Tadeas, Juniper Ascendant](../../cards/T/ta.md#tadeas-juniper-ascendant) (2.4% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (0.1% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/157/highspire-artisan) · oracle_id `fc8c54c4-a436-43cc-888b-f4ba3e751c16` · printing: KLD #157 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Highspire Bell-Ringer
@@ -1352,6 +1367,8 @@ schema: 2
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29551 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Way of the Mantis](https://magic.wizards.com/en/news/magic-story/way-of-the-mantis) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 258 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (0.9% of its decks), [Zurgo Helmsmasher](../../cards/Z/zu.md#zurgo-helmsmasher) (0.2% of its decks), [Narset, Enlightened Master](../../cards/N/na.md#narset-enlightened-master) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/177/highspire-mantis) · oracle_id `6adff11d-5126-4a4b-b182-e2700d406995` · printing: KTK #177 (2014-09-26) · [rulings](https://api.scryfall.com/cards/60d3708b-dd40-4515-bf8f-36cbc5de6b67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High Stride
@@ -1691,6 +1708,8 @@ schema: 2
   > *—Blackbeard the Pirate, Ben Grimm*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #97 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: Things Unseen](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (5): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Chulane, Teller of Tales](../../decks/chulane-teller-of-tales.md) · [Muldrotha, the Gravetide](../../decks/muldrotha-the-gravetide.md) · [Tatyova, Benthic Druid](../../decks/tatyova-benthic-druid.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 795,668 decks; most often under [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (74.8% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (66.7% of its decks), [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (74.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 8 pages (5 decks · 2 edh guides · 1 card data) → [reverse index](../../references/H.md#hinterland-harbor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/250/hinterland-harbor) · oracle_id `fb5a3403-7f0b-406c-8c4f-d693be010ca6` · printing: MSC #250 (2026-06-26) · [rulings](https://api.scryfall.com/cards/892451a1-5527-4857-84f8-62028d147489/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

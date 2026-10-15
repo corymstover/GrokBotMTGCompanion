@@ -410,6 +410,8 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15698 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #153 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,816 decks; most often under [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (14.0% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.3% of its decks), [Rowan, Scion of War](../../cards/R/ro.md#rowan-scion-of-war) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/153/packs-betrayal) · oracle_id `5b7abe71-0be3-4dd4-880e-88b65b47ea4d` · printing: MID #153 (2021-09-24) · [rulings](https://api.scryfall.com/cards/7ebadb1e-32cd-41d6-b26e-49134973d05c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pack's Disdain
@@ -630,6 +632,8 @@ schema: 2
   - *2025-07-25* — If lethal damage is dealt to the enchanted creature, Pain for All’s last ability still triggers.
   - *2025-07-25* — If the enchanted creature is dealt damage by multiple sources at once, such as by two creatures blocking it, Pain for All’s last ability triggers only once. When that triggered ability resolves, the enchanted creature deals damage equal to the total amount of damage dealt to it to each opponent.
   - *2025-07-25* — If the enchanted creature leaves the battlefield before Pain for All’s second ability resolves, use its power as it last existed on the battlefield to determine how much damage is dealt.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): EOE #151 — [Art & Flavor → Edge of Eternities (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#edge-of-eternities-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Lord of Tresserhorn (Grixis)](../../grixis/decks/lord-of-tresserhorn.md) · Commander Spellbook: 3 combos; most popular [Dawnsire, Sunstar Dreadnought + Pain for All](https://commanderspellbook.com/combo/6758-6889/) (Near-infinite damage) · EDHREC: in 60,008 decks; most often under [Smaug the Impenetrable](../../cards/S/sm.md#smaug-the-impenetrable) (67.4% of its decks), [Indoraptor, the Perfect Hybrid](../../cards/I/ind.md#indoraptor-the-perfect-hybrid) (35.1% of its decks), [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (53.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/P.md#pain-for-all)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/151/pain-for-all) · oracle_id `4eedf21c-0ad1-48da-a9fe-2ffdbf8371e9` · printing: EOE #151 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1020,6 +1024,9 @@ schema: 2
   - *2014-11-24* — Each Siege will have one of the two listed abilities, depending on your choice as it enters the battlefield.
   - *2014-11-24* — Each of the last two abilities is linked to the first ability. They each refer only to the choice made as a result of the first ability. If a permanent enters the battlefield as a copy of one of the Sieges, its controller will make a new choice for that Siege. Which ability the copy has won’t depend on the choice made for the original permanent.
   - *2014-11-24* — The words “Khans” and “Dragons” are anchor words, connecting your choice to the appropriate ability. Anchor words are a new rules concept. “[Anchor word] — [Ability]” means “As long as you chose [anchor word] as this permanent entered the battlefield, this permanent has [ability].” Notably, the anchor word “Dragons” has no connection to the creature type Dragon.
+- **Lore:** ✅ Card art shown on [The Doom of the Golden Fang](https://magic.wizards.com/en/news/magic-story/doom-golden-fang-2015-02-04), [Khanfall](https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Isochron Scepter + Vampiric Tutor + Nexus of Fate + Palace Siege](https://commanderspellbook.com/combo/171-1367-1827-5261/) (Infinite turns, Skip your draw steps) · EDHREC: in 26,458 decks; most often under [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) (39.7% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (2.5% of its decks), [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (9.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#palace-siege)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/119/palace-siege) · oracle_id `4d819d35-5cd3-48f1-a77a-b7c3ff82c62e` · printing: C17 #119 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paladin Class
@@ -1160,6 +1167,8 @@ schema: 2
   > *Closely linked to the Church of Dusk, the paladins of the Bloodstained order are devout to the point of fanaticism.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21607 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Race, Part 1](https://magic.wizards.com/en/news/magic-story/race-part-1-2017-10-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,652 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.8% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (1.1% of its decks), [Elenda, the Dusk Rose](../../cards/E/el.md#elenda-the-dusk-rose) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/25/paladin-of-the-bloodstained) · oracle_id `f340018d-8b68-45d5-a72e-a922be68365d` · printing: XLN #25 (2017-09-29) · [rulings](https://api.scryfall.com/cards/5a0385d5-d0f4-40b8-af28-6557ffdfb625/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paladin's Arms
@@ -1368,6 +1377,8 @@ schema: 2
 - **Rulings** (2):
   - *2014-05-29* — If you control Paliano, the High City but you didn't draft a card named Paliano, the High City, its second ability won't add mana. Notably, Paliano won't produce colorless mana.
   - *2014-05-29* — The three chosen colors must be different.
+- **Lore:** ✅ Card art shown on [The Black Rose](https://magic.wizards.com/en/news/magic-story/black-rose-2014-05-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 795 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.0% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/65/paliano-the-high-city) · oracle_id `cf682012-de36-4ab4-ad94-c3c0fd7bce3f` · printing: CNS #65 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paliano Vanguard
@@ -2000,6 +2011,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — If a melded or merged permanent is returned to your hand this way, you'll draw a card for each of its components that are cards.
   - *2021-03-19* — If you control but don't own some of the target permanents, they won't count when determining how many cards you draw.
+- **Lore:** ✅ Card art shown on [Breakthrough](https://magic.wizards.com/en/news/magic-story/breakthrough-2016-12-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Heliod, the Radiant Dawn // Heliod, the Warped Eclipse + Invasion of Arcavios // Invocation of the Founders + Coveted Jewel + Paradoxical Outcome](https://commanderspellbook.com/combo/1031-3941-4668-5896/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 21,481 decks; most often under [Jhoira, Weatherlight Captain](../../cards/J/jh.md#jhoira-weatherlight-captain) (53.9% of its decks), [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (8.4% of its decks), [Hinata, Dawn-Crowned](../../cards/H/hi.md#hinata-dawn-crowned) (21.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#paradoxical-outcome)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/60/paradoxical-outcome) · oracle_id `2cce7250-f8f9-4c0a-87b1-ba3c5b8ed6b3` · printing: KLD #60 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2460,6 +2473,8 @@ schema: 2
   > *—Zilla of Lambholt*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20558 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15), [Under the Silver Moon](https://magic.wizards.com/en/news/magic-story/under-silver-moon-2016-03-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Fractured Identity + Lich + Paraselene + Platinum Angel](https://commanderspellbook.com/combo/190-202-2432-4591/) (Each opponent loses the game, Infinite lifeloss) · EDHREC: in 2,034 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.2% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (0.3% of its decks), [Avacyn, Angel of Hope](../../cards/A/av.md#avacyn-angel-of-hope) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#paraselene)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/26/paraselene) · oracle_id `e14ac0f3-00d5-4a95-990c-b7ea157bb87e` · printing: ISD #26 (2011-09-30) · [rulings](https://api.scryfall.com/cards/406380ab-2695-4084-99a5-f5560304f8cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3585,6 +3600,8 @@ schema: 2
   - *2021-11-19* — If an effect allows you to “cast a spell without paying its mana cost,” you can't cast that spell for its cleave cost.
   - *2021-11-19* — If you cast a spell for its cleave cost, that spell doesn't have any of the text in square brackets while it's on the stack.
   - *2021-11-19* — You can't cast a spell for both its cleave cost and another alternative cost. For example, if an effect gives an Alchemist's Retrieval in your graveyard a flashback cost of {U}, you can't cast it from your graveyard for its cleave cost.
+- **Lore:** ✅ Card art shown on [The Devouring House](https://magic.wizards.com/en/news/magic-story/devouring-house-2021-11-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,727 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.4% of its decks), [Zurgo Helmsmasher](../../cards/Z/zu.md#zurgo-helmsmasher) (1.5% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/124/path-of-peril) · oracle_id `d41987b0-2ea0-4cc7-8608-70c486db76eb` · printing: VOW #124 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Path of the Animist
@@ -3666,6 +3683,8 @@ schema: 2
 - **Rulings** (2):
   - *2010-06-15* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
   - *2010-06-15* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
+- **Lore:** ✅ Card art shown on [Limits](https://magic.wizards.com/en/news/magic-story/limits-2015-07-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 69,477 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (43.7% of its decks), [The Beamtown Bullies](../../cards/T/theb.md#the-beamtown-bullies) (52.5% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (11.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#pathrazer-of-ulamog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/4/pathrazer-of-ulamog) · oracle_id `4bf95747-4572-49b8-b892-87fe7f910252` · printing: CMM #4 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3871,6 +3890,8 @@ schema: 2
   > *Lady Farisa's contempt of tawdry kitsch grew even more infamous after her death.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18129 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Laid to Rest](https://magic.wizards.com/en/news/magic-story/laid-rest-2016-08-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Nine Lives + Fractured Identity + Patrician's Scorn](https://commanderspellbook.com/combo/190-389-4157/) (Each opponent loses the game) · EDHREC: in 3,145 decks; most often under [Zedruu the Greathearted](../../cards/Z/ze.md#zedruu-the-greathearted) (4.1% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (0.3% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/29/patricians-scorn) · oracle_id `0dc9acfb-3f8b-4a34-b44c-5cc62689904b` · printing: FUT #29 (2007-05-04) · [rulings](https://api.scryfall.com/cards/4edfd70c-2923-4813-bf14-04194518163c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patriot, Shield Wielder
@@ -4056,6 +4077,9 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15149 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,310 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (8.0% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.4% of its decks), [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (1.7% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#patron-of-the-valiant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/37/patron-of-the-valiant) · oracle_id `4d36ea21-e8cb-442d-ba3f-c399289ac208` · printing: CMR #37 (2020-11-20) · [rulings](https://api.scryfall.com/cards/7db1e841-04e9-49ab-acbf-defd6d82140a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patron of the Vein
@@ -4162,6 +4186,8 @@ schema: 2
   - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
   - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Lore:** ✅ Card art shown on [Bound and Bonded](https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,701 decks; most often under [Questing Beast](../../cards/Q/qu.md#questing-beast) (23.2% of its decks), [Emmara, Soul of the Accord](../../cards/E/em.md#emmara-soul-of-the-accord) (3.0% of its decks), [Xyris, the Writhing Storm](../../cards/X/xy.md#xyris-the-writhing-storm) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/140/pause-for-reflection) · oracle_id `a7f266b5-7258-4eaa-b447-66460ec38505` · printing: GRN #140 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pavel Maliki

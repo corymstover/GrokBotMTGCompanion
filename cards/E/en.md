@@ -721,6 +721,9 @@ schema: 2
   - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
   - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Lore:** ✅ Card art shown on [Unwelcome](https://magic.wizards.com/en/news/magic-story/unwelcome-2016-03-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,778 decks; most often under [Anowon, the Ruin Thief](../../cards/A/an.md#anowon-the-ruin-thief) (12.7% of its decks), [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (8.4% of its decks), [Garland, Royal Kidnapper](../../cards/G/ga.md#garland-royal-kidnapper) (9.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#endless-obedience)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/41/endless-obedience) · oracle_id `312a831a-5da9-4a22-9974-f2d90ae3eb75` · printing: ZNC #41 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Endless One
@@ -734,6 +737,8 @@ schema: 2
   > *It embodies all possible meanings of the word "infinite."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6054 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Shaping an Army](https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 42 combos; most popular [Mortuary + Endless One + Grim Haruspex](https://commanderspellbook.com/combo/229-631-5220/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 25,818 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (14.5% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (7.0% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (5.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/804/endless-one) · oracle_id `7a51780a-fa28-4ee0-94c7-4330800ca9cb` · printing: CMM #804 (2023-08-04) · [rulings](https://api.scryfall.com/cards/00b3c10a-799f-4922-bb0a-44981b13203b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Endless Ranks of HYDRA
@@ -778,6 +783,8 @@ schema: 2
   - *2017-04-18* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
   - *2017-07-14* — If you exile a creature that isn’t a creature card with the second ability of Endless Sands (such as a token creature or a land that has become a creature), the third ability won’t return that token or card from exile.
   - *2017-07-14* — The last ability of Endless Sands returns only creature cards exiled by that card. If Endless Sands leaves the battlefield before you activate that ability, the exiled creatures are lost in the dunes forever.
+- **Lore:** ✅ Card art shown on [Endure](https://magic.wizards.com/en/news/magic-story/endure-2017-07-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Yarok, the Desecrated + Endless Sands + Peregrine Drake + Quarry Beetle](https://commanderspellbook.com/combo/1457-1851-2499-3821/) (Infinite creature ETB, Infinite creature LTB) · EDHREC: in 25,523 decks; most often under [Hazezon, Shaper of Sand](../../cards/H/ha.md#hazezon-shaper-of-sand) (60.3% of its decks), [Yuma, Proud Protector](../../cards/Y/yu.md#yuma-proud-protector) (28.2% of its decks), [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (7.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#endless-sands)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/272/endless-sands) · oracle_id `c4033d97-769f-4811-8b11-f85b8817b7a2` · printing: C20 #272 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -974,6 +981,8 @@ schema: 2
   > *When the defenses around Lurenbraum Fortress faltered, the Crimson Ballroom received some unexpected guests.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2283 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): PLST #VOW-155, VOW #155 — ✅ Card art shown on [Episode 5: Till Death Do Us Part](https://magic.wizards.com/en/news/magic-story/episode-5-till-death-do-us-part-2021-11-24) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Najal, the Storm Runner + Worldfire + End the Festivities](https://commanderspellbook.com/combo/762-3765-4838/) (Each opponent loses the game, Exile all cards in hands and graveyards) · EDHREC: in 72,247 decks; most often under [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (87.3% of its decks), [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (77.3% of its decks), [Ojer Axonil, Deepest Might](../../cards/O/oj.md#ojer-axonil-deepest-might--temple-of-power) (69.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/155/end-the-festivities) · oracle_id `09618da4-6e2d-4047-96d7-0576c0754e7d` · printing: VOW #155 (2021-11-19) · [rulings](https://api.scryfall.com/cards/bec748e6-7245-4a71-aeee-cefed8346948/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Endurance
@@ -1164,6 +1173,8 @@ schema: 2
   - *2015-02-25* — A creature entering the battlefield with one or more +1/+1 counters on it will cause Enduring Scalelord's ability to trigger.
   - *2015-02-25* — If +1/+1 counters are put on multiple creatures you control (other than Enduring Scalelord) at the same time, Enduring Scalelord's ability will trigger once for each of those creatures.
   - *2015-02-25* — If you control two Enduring Scalelords, putting a +1/+1 counter on one of them will cause the ability of the other one to trigger. When this ability resolves, you'll put a +1/+1 counter on the other Scalelord. This will cause the ability of the first one to trigger. This loop will repeat until you choose not to put a +1/+1 counter on one of the Enduring Scalelords.
+- **Lore:** ✅ Card art shown on [The Guardian](https://magic.wizards.com/en/news/magic-story/guardian-2015-04-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Wildwood Scourge + Enduring Scalelord](https://commanderspellbook.com/combo/1027-2808/) (Infinite +1/+1 counters on certain creatures) · EDHREC: in 9,939 decks; most often under [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (18.2% of its decks), [Shalai and Hallar](../../cards/S/sha.md#shalai-and-hallar) (9.8% of its decks), [Bright-Palm, Soul Awakener](../../cards/B/br.md#bright-palm-soul-awakener) (24.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/325/enduring-scalelord) · oracle_id `270a21c1-4c44-46ef-8c4f-e08484f360e1` · printing: MOC #325 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enduring Sliver
@@ -1735,6 +1746,8 @@ schema: 2
   > *"I do not reject the gods. I reject their authority, their pettiness, and their arrogance."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13331 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,254 decks; most often under [Arahbo, the First Fang](../../cards/A/ara.md#arahbo-the-first-fang) (53.4% of its decks), [Ajani, Nacatl Pariah](../../cards/A/aj.md#ajani-nacatl-pariah--ajani-nacatl-avenger) (31.0% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/12/enlightened-ascetic) · oracle_id `8fe257e5-b54a-4e56-8040-d2eaa0bb0a6a` · printing: ORI #12 (2015-07-17) · [rulings](https://api.scryfall.com/cards/76549fc3-5798-4c70-bb70-802b6f597eb7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enlightened Confidant
@@ -1752,6 +1765,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-08-21* — Enlightened Confidant's ability checks at the moment it would trigger to see if you gained life this turn. If you didn't, the ability won't trigger at all. Once your end step begins, it's too late to gain life in order to cause this ability to trigger. However, the last part of the ability will check how much life you've gained as the ability resolves, so you could still gain more life while the ability is on the stack to make putting a card into your hand easier.
   - *2026-08-21* — If a card in your graveyard has an X in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Reality Fracture](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,370 decks; most often under [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (7.8% of its decks), [Amalia Benavides Aguirre](../../cards/A/am.md#amalia-benavides-aguirre) (12.7% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (4.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#enlightened-confidant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/5/enlightened-confidant) · oracle_id `a139eb7f-3853-490c-a839-35d0e5aed7b5` · printing: FRA #5 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2300,6 +2315,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1282 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — If the target creature is an illegal target when Enter the Enigma tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DSK #52 — [Art & Flavor → Duskmourn: House of Horror (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#duskmourn-house-of-horror-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 124,686 decks; most often under [Storm, Force of Nature](../../cards/S/sto.md#storm-force-of-nature) (44.5% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (13.9% of its decks), [Elsha, Threefold Master](../../cards/E/el.md#elsha-threefold-master) (61.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/E.md#enter-the-enigma)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/52/enter-the-enigma) · oracle_id `67554654-e751-4679-9e92-f3588525ae4f` · printing: DSK #52 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2325,6 +2342,8 @@ schema: 2
   - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #196 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,564 decks; most often under [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (24.2% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (4.3% of its decks), [Saruman, the White Hand](../../cards/S/sar.md#saruman-the-white-hand) (9.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#enter-the-god-eternals)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/196/enter-the-god-eternals) · oracle_id `67ee7c8b-afcc-4f09-a184-3db01f2ab175` · printing: WAR #196 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2693,6 +2712,8 @@ schema: 2
   > *"A spark is power and freedom. Use it better than I did," Jace's voice echoed to Tam.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18614 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): FRA #131 — [Art & Flavor → Reality Fracture (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#reality-fracture-2026) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,069 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (2.0% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (2.7% of its decks), [Xavier Sal, Infested Captain](../../cards/X/xa.md#xavier-sal-infested-captain) (4.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#entrust-the-spark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/131/entrust-the-spark) · oracle_id `b796ecc8-a2e8-4ab9-8736-6825b650434d` · printing: FRA #131 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ca894d25-b9fc-4cd6-8746-70d8c2868721/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

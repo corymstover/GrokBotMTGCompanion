@@ -61,6 +61,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26439 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 602 decks; most often under [Doran, Besieged by Time](../../cards/D/do.md#doran-besieged-by-time) (0.2% of its decks), [General Tazri](../../cards/G/ge.md#general-tazri) (0.7% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#affa-protector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/14/affa-protector) · oracle_id `5b38a1e4-a6af-4094-9392-70a87759e20d` · printing: OGW #14 (2016-01-22) · [rulings](https://api.scryfall.com/cards/0e54ac79-fbaa-4385-869b-aaf31e33a11f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

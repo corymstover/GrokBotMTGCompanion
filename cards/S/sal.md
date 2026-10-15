@@ -317,6 +317,8 @@ schema: 2
   - *2015-08-25* — If the player has no cards in their library when the ingest ability resolves, nothing happens. That player won’t lose the game (until they have to draw a card from an empty library).
   - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
   - *2015-08-25* — The card exiled by the ingest ability is exiled face up.
+- **Lore:** ✅ Card art shown on [Revelation at the Eye](https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,942 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (1.6% of its decks), [Vela the Night-Clad](../../cards/V/ve.md#vela-the-night-clad) (24.2% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#salvage-drone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/65/salvage-drone) · oracle_id `9b18bbf3-3b1c-4010-bc6f-e7eacb2ffb70` · printing: BFZ #65 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

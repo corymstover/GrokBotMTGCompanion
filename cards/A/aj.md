@@ -63,7 +63,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8045 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-07-13* — If a card in your graveyard has {X} in its mana cost, X is considered to be 0.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/A.md#ajani-adversary-of-tyrants)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 17,525 decks; most often under [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (16.7% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (6.7% of its decks), [Ajani, Nacatl Pariah](../../cards/A/aj.md#ajani-nacatl-pariah--ajani-nacatl-avenger) (40.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/A.md#ajani-adversary-of-tyrants)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/3/ajani-adversary-of-tyrants) · oracle_id `b25bea73-7444-4ee2-8022-611461506117` · printing: M19 #3 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani, Caller of the Pride
@@ -79,7 +81,9 @@ schema: 2
 - **Rulings** (2):
   - *2012-07-01* — The number of Cat tokens you put onto the battlefield is equal to your life total when the third ability resolves.
   - *2012-07-01* — You can activate the first ability without a target. You'll still put one loyalty counter on Ajani when you activate the ability.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/A.md#ajani-caller-of-the-pride)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 37,681 decks; most often under [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (36.5% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (11.2% of its decks), [Arahbo, the First Fang](../../cards/A/ara.md#arahbo-the-first-fang) (50.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/A.md#ajani-caller-of-the-pride)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/134/ajani-caller-of-the-pride) · oracle_id `1d5ff280-7f4d-4801-aefd-9b6e6b1f2818` · printing: FDN #134 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani Fells the Godsire
@@ -109,6 +113,8 @@ schema: 2
 - **Rulings** (2):
   - *2007-10-01* — The power and toughness of the Avatar created by the third ability will change as your life total changes.
   - *2007-10-01* — The vigilance granted to a creature by the second ability remains until the end of the turn even if the +1/+1 counter is removed.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Second Chance + Purgatory + Ajani Goldmane + Opalescence](https://commanderspellbook.com/combo/1530-5299-5537-5538/) (Infinite turns, Lock) · EDHREC: in 11,894 decks; most often under [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (3.7% of its decks), [Ajani, Nacatl Pariah](../../cards/A/aj.md#ajani-nacatl-pariah--ajani-nacatl-avenger) (15.0% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/A.md#ajani-goldmane)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m11/1/ajani-goldmane) · oracle_id `dfb5f660-fd8b-4b7b-934c-6a71cd182f15` · printing: M11 #1 (2010-07-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -126,6 +132,8 @@ schema: 2
   - *2019-07-12* — Ajani’s last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t gain flying or double strike.
   - *2019-07-12* — If the target creature is an illegal target by the time Ajani’s second ability tries to resolve, the ability doesn’t resolve. No player will gain life.
   - *2019-07-12* — You may activate Ajani’s first ability without choosing any target. If you do, you will gain 2 life. However, if you do choose a target and the target creature is an illegal target by the time the ability tries to resolve, the ability doesn’t resolve. You won’t gain 2 life.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,326 decks; most often under [Ajani, Nacatl Pariah](../../cards/A/aj.md#ajani-nacatl-pariah--ajani-nacatl-avenger) (9.8% of its decks), [Marisi, Breaker of the Coil](../../cards/M/mar.md#marisi-breaker-of-the-coil) (3.7% of its decks), [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#ajani-inspiring-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/282/ajani-inspiring-leader) · oracle_id `15474e82-94b4-47e1-b91c-3deaf4dbffd6` · printing: M20 #282 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -142,6 +150,8 @@ schema: 2
 - **Rulings** (2):
   - *2014-04-26* — If one or more, but not all, of the targets of the first ability are illegal when that ability tries to resolve, no counters will be placed on illegal targets. You can't change the distribution you announced when you activated the ability; the excess counters are just lost.
   - *2014-04-26* — You announce how many counters will be placed on each target creature as you activate Ajani's first ability. Each target must receive at least one counter.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Ajani, Mentor of Heroes + Pestilent Cauldron // Restorative Burst + Doubling Season](https://commanderspellbook.com/combo/846-3463-4772/) (Infinite mill, Near-infinite lifegain) · EDHREC: in 17,108 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (5.1% of its decks), [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (12.6% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#ajani-mentor-of-heroes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/145/ajani-mentor-of-heroes) · oracle_id `a612bd38-069f-4bdc-9aa6-c172435e3841` · printing: JOU #145 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -177,6 +187,8 @@ schema: 2
   - *2024-06-07* — When Ajani, Nacatl Avenger's last ability resolves, starting with the next opponent in turn order, each opponent in turn order chooses permanents they control. Each opponent will know the choices made by players who chose before them. They then sacrifice all of their unchosen nonland permanents simultaneously.
   - *2024-06-07* — You can activate one of Ajani, Nacatl Avenger's loyalty abilities the turn he enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if Ajani, Nacatl Avenger enters the battlefield during combat, there will be an opportunity for your opponent to remove him before you can activate one of his abilities.
   - *2024-06-07* — You don't choose a target for Ajani, Nacatl Avenger's second ability when you activate it. Rather, if you control a red permanent other than Ajani, Nacatl Avenger, a second "reflexive" ability triggers when you create a Cat Warrior creature token this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Ajani, Nacatl Pariah // Ajani, Nacatl Avenger + Nim Deathmantle + Ashnod's Altar](https://commanderspellbook.com/combo/2034-5003-5628/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 2,740 decks; highest synergy [Regal Caracal](../../cards/R/reg.md#regal-caracal) (+75%), [Arahbo, the First Fang](../../cards/A/ara.md#arahbo-the-first-fang) (+72%), [Brimaz, King of Oreskos](../../cards/B/br.md#brimaz-king-of-oreskos) (+68%) · EDHREC: in 33,407 decks; most often under [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (46.1% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (8.7% of its decks), [Jetmir, Nexus of Revels](../../cards/J/je.md#jetmir-nexus-of-revels) (17.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/A.md#ajani-nacatl-pariah--ajani-nacatl-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/237/ajani-nacatl-pariah-ajani-nacatl-avenger) · oracle_id `2588f348-d7a3-46c8-9ace-dca53ed5ef99` · printing: MH3 #237 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -194,6 +206,8 @@ schema: 2
   - *2025-11-17* — An Aura being put onto the battlefield this way can't enchant anything else that is being put onto the battlefield at the same time.
   - *2025-11-17* — If a card in a library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2025-11-17* — If an Aura is put onto the battlefield without being cast, the Aura's controller-to-be chooses what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in its current zone.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,450 decks; most often under [Brigid, Clachan's Heart](../../cards/B/br.md#brigid-clachans-heart--brigid-douns-mind) (36.9% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (8.0% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/A.md#ajani-outland-chaperone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/4/ajani-outland-chaperone) · oracle_id `3ba809ce-3556-415c-9fcc-291cb10a43cd` · printing: ECL #4 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -212,7 +226,9 @@ schema: 2
   - *2026-08-21* — If Ajani's Pridemate is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
   - *2026-08-21* — If more than one creature you control with lifelink deals combat damage at the same time, you will gain life that many times, and Ajani's first ability (as well as Ajani's Pridemate's ability) will trigger that many times.
   - *2026-08-21* — Unlike the card Ajani's Pridemate, the token has no mana cost. Its mana value is 0.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/A.md#ajani-resolute)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,150 decks; most often under [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (8.7% of its decks), [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (4.0% of its decks), [Whtz, the Bibliophile](../../cards/W/wh.md#whtz-the-bibliophile) (3.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/A.md#ajani-resolute)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/195/ajani-resolute) · oracle_id `0d60c095-4c6c-4618-8ef3-508f3d454efa` · printing: FRA #195 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani's Aid
@@ -318,6 +334,8 @@ schema: 2
   - *2022-09-09* — Compleated is a replacement effect, and it applies only to a permanent that is entering the battlefield with loyalty counters. Any other replacement effect that would apply to the number of loyalty counters it enters the battlefield with will apply as normal.
   - *2022-09-09* — Phyrexian is not a color nor a type of mana, and players cannot add Phyrexian mana. It’s just a symbol that gives you another way to pay for a spell or ability.
   - *2022-09-09* — The compleated ability looks only at whether a player chose to pay 2 life for a Phyrexian mana symbol as they were casting the spell. If a player paid life for some other reason while casting the spell, that will not reduce the number of loyalty counters the planeswalker enters the battlefield with.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 22,887 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (22.3% of its decks), [Ixhel, Scion of Atraxa](../../cards/I/ix.md#ixhel-scion-of-atraxa) (22.0% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 6 pages (2 decks · 1 rules · 2 lore & story · 1 card data) → [reverse index](../../references/A.md#ajani-sleeper-agent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/192/ajani-sleeper-agent) · oracle_id `37714eb9-a39d-4534-a2d3-27908c418f8a` · printing: DMU #192 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -381,6 +399,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17433 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Ajani's Response's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was. 
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SOS #6 — [Art & Flavor → Secrets of Strixhaven (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#secrets-of-strixhaven-2026) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,592 decks; most often under [Silverquill, the Disputant](../../cards/S/si.md#silverquill-the-disputant) (1.9% of its decks), [Lorehold, the Historian](../../cards/L/lo.md#lorehold-the-historian) (2.0% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#ajanis-response)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/6/ajanis-response) · oracle_id `bf7ec320-64bb-46ca-aac0-ca3d4224b69e` · printing: SOS #6 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -414,6 +434,8 @@ schema: 2
   - *2014-07-18* — If multiple effects modify how damage is dealt, the player being dealt damage or the controller of the permanent being dealt damage chooses the order to apply the effects. For example, Dictate of the Twin Gods says, “If a source would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.” Suppose you would be dealt 3 damage while Dictate of the Twin Gods is on the battlefield and you control Ajani’s emblem. You can either (a) prevent all but 1 damage first and then let Dictate of the Twin Gods’s effect double that, for a result of being dealt 2 damage, or (b) double the damage to 6 and then prevent all but 1 of that damage.
   - *2014-07-18* — The emblem’s ability doesn’t consider who controls the source dealing damage to you or a planeswalker you control.
   - *2014-07-18* — You may activate the first ability with no targets. If you do, you simply put a loyalty counter on Ajani to pay the cost of the ability.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Teferi, Master of Time + Ajani Steadfast + Ajani, the Greathearted + Doubling Season](https://commanderspellbook.com/combo/1095-2247-3516-4772/) (Infinite turns, Lock) · EDHREC: in 32,140 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (60.6% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (9.1% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (5.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/A.md#ajani-steadfast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/813/ajani-steadfast) · oracle_id `90249526-1875-450a-882d-bf6f6bfd37a6` · printing: CMM #813 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -436,6 +458,8 @@ schema: 2
   - *2019-07-12* — The ability of Ajani's Pridemate triggers just once for each life-gaining event, whether it's 1 life from Impassioned Orator or 4 life from Dawning Angel. If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and the ability of Ajani's Pridemate triggers only once.
   - *2019-07-12* — The tokens created by Ajani's second ability are similar to the card Ajani's Pridemate, but they have no mana cost and their mana value is 0.
   - *2019-07-12* — Whether you have at least 15 life more than your starting life total is determined as Ajani's last ability resolves.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Cloudshift + Eternal Witness + Ajani, Strength of the Pride + Pull from Eternity + Panharmonicon](https://commanderspellbook.com/combo/864-1539-1750-2397-3603/) (Exile each artifact and creature your opponents control each turn, Lock) · EDHREC: in 54,225 decks; most often under [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (20.5% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (20.9% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (10.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/A.md#ajani-strength-of-the-pride)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/2/ajani-strength-of-the-pride) · oracle_id `c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4` · printing: M20 #2 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -464,6 +488,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — If Ajani is somehow a creature as his last ability resolves, he’ll get a +1/+1 counter.
   - *2019-05-03* — If a planeswalker you control is also a creature (most likely because it’s Gideon), that planeswalker receives both a +1/+1 counter and a loyalty counter as Ajani’s last ability resolves.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Teferi, Master of Time + Ajani Steadfast + Ajani, the Greathearted + Doubling Season](https://commanderspellbook.com/combo/1095-2247-3516-4772/) (Infinite turns, Lock) · EDHREC: in 40,541 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (8.3% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (14.3% of its decks), [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (28.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/A.md#ajani-the-greathearted)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/184/ajani-the-greathearted) · oracle_id `f5d9be71-91d0-4166-ba58-cbbf5d490c40` · printing: WAR #184 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -480,6 +506,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10317 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-08-21* — The creature token created by Ajani's first ability will always enter the battlefield before the loyalty ability that caused it to trigger resolves. Importantly, this means that if you activate his first loyalty ability, the token created will get +1/+0 and gain haste until end of turn.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,623 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (31.7% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (5.9% of its decks), [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/A.md#ajani-unrelenting)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/242/ajani-unrelenting) · oracle_id `71620e92-45a4-49cb-94d5-348013ecf886` · printing: FRA #242 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -496,6 +524,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-02-09* — A nonland permanent card is an artifact, creature, enchantment, or planeswalker card.
   - *2017-02-09* — The amount of life gained from Ajani's second ability is equal to power of the creature as it last existed on the battlefield.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,196 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (4.6% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (3.1% of its decks), [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (5.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#ajani-unyielding)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/324/ajani-unyielding) · oracle_id `8a70ddc5-bb51-45eb-96f2-8ecaecac0cc2` · printing: NCC #324 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -512,6 +542,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-02-09* — If you don’t have a creature card in your library while resolving Ajani’s second ability, you’ll reveal your library and then randomize it.
   - *2017-02-09* — The value of X for Ajani’s third ability is determined only as it resolves. The number of +1/+1 counters on the creature won’t change later if your life total changes.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 3](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,215 decks; most often under [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (3.2% of its decks), [Marisi, Breaker of the Coil](../../cards/M/mar.md#marisi-breaker-of-the-coil) (4.0% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (3 lore & story) → [reverse index](../../references/A.md#ajani-valiant-protector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/185/ajani-valiant-protector) · oracle_id `542423cb-fbfb-4a2f-9f6d-87b273a95e96` · printing: AER #185 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -528,6 +560,8 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — The first ability tracks the permanent, but not its controller. If the permanent changes controllers before its first controller's next untap step has come around, then it won't untap during its new controller's next untap step.
   - *2008-10-01* — You may target any permanent with Ajani Vengeant's first ability. It doesn't have to be tapped.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,095 decks; most often under [Numot, the Devastator](../../cards/N/nu.md#numot-the-devastator) (40.1% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (6.5% of its decks), [Ajani, Nacatl Pariah](../../cards/A/aj.md#ajani-nacatl-pariah--ajani-nacatl-avenger) (15.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#ajani-vengeant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddh/1/ajani-vengeant) · oracle_id `f953afdf-96f7-4851-994c-1617e8f5e5c9` · printing: DDH #1 (2011-09-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -544,5 +578,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-07-13* — Ajani’s second ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +2/+2.
   - *2018-07-13* — The value of X is determined only as Ajani’s third ability resolves. If your life total changes later, the creature won’t gain or lose +1/+1 counters.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ajani Goldmane](../../Characters%20Index.md#ajani-goldmane) · [Dossier → Ajani Goldmane](../../Planeswalker%20Dossiers.md#ajani-goldmane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,165 decks; most often under [Ajani, Nacatl Pariah](../../cards/A/aj.md#ajani-nacatl-pariah--ajani-nacatl-avenger) (15.0% of its decks), [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (2.7% of its decks), [Marisi, Breaker of the Coil](../../cards/M/mar.md#marisi-breaker-of-the-coil) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#ajani-wise-counselor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/281/ajani-wise-counselor) · oracle_id `341f198b-beb6-4a44-af91-a64a5989c865` · printing: M19 #281 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

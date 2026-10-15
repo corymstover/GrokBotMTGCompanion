@@ -529,6 +529,8 @@ schema: 2
   > *"Of your blood I will make my mead, an offering to the thirsty jungle."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27007 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [All the Cairns of Jund](https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Intruder Alarm + Jund Battlemage](https://commanderspellbook.com/combo/975-1636/) (Infinite creature tokens, Infinite creature ETB) · EDHREC: in 522 decks; most often under [Slimefoot and Squee](../../cards/S/sl.md#slimefoot-and-squee) (2.4% of its decks), [Kresh the Bloodbraided](../../cards/K/kr.md#kresh-the-bloodbraided) (1.5% of its decks), [Korvold, Fae-Cursed King](../../cards/K/ko.md#korvold-fae-cursed-king) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/106/jund-battlemage) · oracle_id `d2567448-f8a5-4bf3-9804-f5aac3b645ce` · printing: ALA #106 (2008-10-03) · [rulings](https://api.scryfall.com/cards/ee8c962f-11b0-48f7-bbba-a2212e41990f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jund Charm

@@ -101,6 +101,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15271 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — Ovalchase Daredevil's ability triggers only if it's already in your graveyard as an artifact enters the battlefield under your control.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 88 combos; most popular [Ovalchase Daredevil + The Underworld Cookbook + Academy Manufactor + Clock of Omens](https://commanderspellbook.com/combo/1651-2561-4231-4798/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC: in 5,190 decks; most often under [Asmoranomardicadaistinaculdacar](../../cards/A/as.md#asmoranomardicadaistinaculdacar) (65.5% of its decks), [Greasefang, Okiba Boss](../../cards/G/gre.md#greasefang-okiba-boss) (4.3% of its decks), [Setzer, Wandering Gambler](../../cards/S/set.md#setzer-wandering-gambler) (3.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/O.md#ovalchase-daredevil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/101/ovalchase-daredevil) · oracle_id `a33961bb-fff0-4f4a-aa35-f904dbf2b075` · printing: 2XM #101 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ovalchase Dragster
@@ -316,6 +319,8 @@ schema: 2
   > *The truth came to Kumena like the Great River's torrent: the only way to keep his enemies away from the hidden city was to claim its power for himself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11793 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Shapers](https://magic.wizards.com/en/news/magic-story/shapers-2017-09-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,340 decks; most often under [Jhoira of the Ghitu](../../cards/J/jh.md#jhoira-of-the-ghitu) (23.6% of its decks), [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (8.8% of its decks), [Ashling, Rekindled](../../cards/A/as.md#ashling-rekindled--ashling-rimebound) (10.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/66/overflowing-insight) · oracle_id `ff03a063-9634-4746-a208-9dbcde5c6bdb` · printing: XLN #66 (2017-09-29) · [rulings](https://api.scryfall.com/cards/f6b3dd8f-902e-45b8-a422-370705621294/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overgrown Arch
@@ -425,6 +430,8 @@ schema: 2
   - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
   - *2025-11-17* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
   - *2025-11-17* — This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
+- **Lore:** ✅ Card art shown on [Bound and Bonded](https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (10): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) · [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Lathril, Blade of the Elves](../../decks/lathril-blade-of-the-elves.md) … · Commander Spellbook: 1 combo; most popular [Floral Evoker + Veilborn Ghoul + Squandered Resources + Overgrown Tomb](https://commanderspellbook.com/combo/2167-6557-7380-7383/) (Infinite +1/+1 counters on a creature, Infinite landfall triggers) · EDHREC: in 927,536 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (47.6% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (39.8% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (48.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 14 pages (10 decks · 3 edh guides · 1 card data) → [reverse index](../../references/O.md#overgrown-tomb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/289/overgrown-tomb) · oracle_id `975ec9a3-6f20-4177-8211-82526e092538` · printing: TRK #289 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -919,6 +926,8 @@ schema: 2
   - *2016-01-22* — For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
   - *2016-01-22* — If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
   - *2016-01-22* — The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
+- **Lore:** ✅ Card art shown on [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,396 decks; most often under [Talrand, Sky Summoner](../../cards/T/ta.md#talrand-sky-summoner) (2.8% of its decks), [Baral, Chief of Compliance](../../cards/B/bar.md#baral-chief-of-compliance) (3.1% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#overwhelming-denial)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/61/overwhelming-denial) · oracle_id `45aa8bdb-54da-4069-bd6c-c63396154464` · printing: OGW #61 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -983,6 +992,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — Overwhelming Remorse's first ability can't reduce its cost to less than {B}.
   - *2022-10-14* — Overwhelming Remorse's first ability doesn't change its mana cost or mana value. It just reduces the cost to cast the spell.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #110 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 19,070 decks; most often under [Sidisi, Brood Tyrant](../../cards/S/si.md#sidisi-brood-tyrant) (11.8% of its decks), [Jarad, Golgari Lich Lord](../../cards/J/ja.md#jarad-golgari-lich-lord) (15.2% of its decks), [Araumi of the Dead Tide](../../cards/A/ara.md#araumi-of-the-dead-tide) (15.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#overwhelming-remorse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/110/overwhelming-remorse) · oracle_id `bb4507c1-1e5d-48b5-8fc0-1d26bd1c9e72` · printing: BRO #110 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1065,6 +1076,8 @@ schema: 2
   - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
   - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
   - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): FRA #59 — [Art & Flavor → Reality Fracture (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#reality-fracture-2026) — ✅ Card art shown on [Reality Fracture](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-8-keep-your-lids-open) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,235 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (17.5% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (3.4% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/O.md#overwrite-the-multiverse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/59/overwrite-the-multiverse) · oracle_id `d0372cde-bf30-4a1b-93bb-9ff4ac1c116d` · printing: FRA #59 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1158,5 +1171,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-09-20* — The Construct token you're creating doesn't count towards X for the ability that creates it.
   - *2016-09-20* — The value of X is determined only as Oviya Pashiri's last ability resolves. The token's power and toughness won't change as the number of creatures you control changes.
+- **Lore:** ✅ Card art shown on [Bottled Up](https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28), [Breaking Points](https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Oviya Pashiri, Sage Lifecrafter + Intruder Alarm](https://commanderspellbook.com/combo/5-1636/) (Infinite creature tokens, Infinite creature ETB) · EDHREC as commander: 710 decks; highest synergy [Skullclamp](../../cards/S/sk.md#skullclamp) (+47%), [Teething Wurmlet](../../cards/T/te.md#teething-wurmlet) (+46%), [Haywire Mite](../../cards/H/ha.md#haywire-mite) (+45%) · EDHREC: in 5,163 decks; most often under [Gimbal, Gremlin Prodigy](../../cards/G/gi.md#gimbal-gremlin-prodigy) (15.5% of its decks), [Rhys the Redeemed](../../cards/R/rh.md#rhys-the-redeemed) (5.3% of its decks), [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/O.md#oviya-pashiri-sage-lifecrafter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/311/oviya-pashiri-sage-lifecrafter) · oracle_id `41e03224-bcdd-4127-a19a-fe66196339b9` · printing: CMM #311 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

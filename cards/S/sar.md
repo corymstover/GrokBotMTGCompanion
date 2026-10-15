@@ -271,6 +271,8 @@ schema: 2
   - *2025-04-04* — If a card in your hand is already revealed (perhaps because it was revealed to pay a cost of a spell that’s still on the stack or due to the effect of a card like Telepathy), you may reveal it again to pay the cost of another spell or ability that requires you to reveal a card from your hand.
   - *2025-04-04* — If a cost to cast a spell includes revealing a card, that card remains revealed from the time the spell is announced until the time it leaves the stack.
   - *2025-04-04* — If an effect refers to a “[subtype] card,” it refers only to a card that has that subtype. For example, Teeming Dragonstorm is a card that cares about Dragons and features Dragons in its art, but it isn’t a Dragon card.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Sarkhan Vol](../../Characters%20Index.md#sarkhan-vol) · [Dossier → Sarkhan Vol](../../Planeswalker%20Dossiers.md#sarkhan-vol) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 18 combos; most popular [Sarkhan, Dragon Ascendant + Goldspan Dragon + Deadeye Navigator](https://commanderspellbook.com/combo/1409-3809-6348/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 1,438 decks; highest synergy [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (+84%), [Dragon Tempest](../../cards/D/dra.md#dragon-tempest) (+79%), [Dragonlord's Servant](../../cards/D/dra.md#dragonlords-servant) (+75%) · EDHREC: in 19,843 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (6.5% of its decks), [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (9.8% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (7.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 rules · 2 lore & story) → [reverse index](../../references/S.md#sarkhan-dragon-ascendant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/118/sarkhan-dragon-ascendant) · oracle_id `71cb48e2-2328-471c-a04a-7b6461f378f4` · printing: TDM #118 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -286,6 +288,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12151 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-07-13* — In a Two-Headed Giant game, Sarkhan's first ability causes the opposing team to lose 2 life.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Sarkhan Vol](../../Characters%20Index.md#sarkhan-vol) · [Dossier → Sarkhan Vol](../../Planeswalker%20Dossiers.md#sarkhan-vol) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,796 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (4.3% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (2.8% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/S.md#sarkhan-dragonsoul)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/296/sarkhan-dragonsoul) · oracle_id `c2c1e44c-2a19-466f-a6d5-4cb71a940b86` · printing: M19 #296 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -302,7 +306,9 @@ schema: 2
 - **Rulings** (2):
   - *2018-07-13* — A "Dragon spell" refers only to a spell that has the Dragon subtype, regardless of its name. For example, Dragon's Hoard isn't a Dragon spell.
   - *2018-07-13* — Because it's a loyalty ability, Sarkhan's second ability isn't a mana ability. It can be activated only any time you could cast a sorcery. It uses the stack and can be responded to.
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/S.md#sarkhan-fireblood)
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Sarkhan Vol](../../Characters%20Index.md#sarkhan-vol) · [Dossier → Sarkhan Vol](../../Planeswalker%20Dossiers.md#sarkhan-vol) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 27,090 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (10.6% of its decks), [Rivaz of the Claw](../../cards/R/ri.md#rivaz-of-the-claw) (44.1% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (9.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 2 lore & story) → [reverse index](../../references/S.md#sarkhan-fireblood)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/154/sarkhan-fireblood) · oracle_id `074cbe14-a0c8-4772-955a-b4052333d6ce` · printing: M19 #154 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan's Catharsis
@@ -348,7 +354,9 @@ schema: 2
   - *2023-05-12* — Sarkhan copies exactly what was printed on the original Dragon and nothing else, with the noted exceptions (unless that creature is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on in response to Sarkhan's ability.
   - *2023-05-12* — Sarkhan's first ability doesn't change the mana cost or mana value of any Dragon spell. It changes only the total cost you pay.
   - *2023-05-12* — That ability can't reduce the amount of colored mana you pay for a Dragon spell. It reduces only the generic component of that cost.
-- **Referenced in:** 3 pages (1 decks · 2 lore & story) → [reverse index](../../references/S.md#sarkhan-soul-aflame)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Sarkhan Vol](../../Characters%20Index.md#sarkhan-vol) · [Dossier → Sarkhan Vol](../../Planeswalker%20Dossiers.md#sarkhan-vol) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Ur-Dragon](../../decks/the-ur-dragon.md) · Commander Spellbook: 1 combo; most popular [Deadeye Navigator + Ganax, Astral Hunter + Sarkhan, Soul Aflame](https://commanderspellbook.com/combo/1409-2972-6693/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 1,808 decks; highest synergy [Dragonlord's Servant](../../cards/D/dra.md#dragonlords-servant) (+81%), [Dragon Tempest](../../cards/D/dra.md#dragon-tempest) (+80%), [Dragonspeaker Shaman](../../cards/D/dra.md#dragonspeaker-shaman) (+77%) · EDHREC: in 77,597 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (50.5% of its decks), [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (86.8% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (53.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 2 lore & story) → [reverse index](../../references/S.md#sarkhan-soul-aflame)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/301/sarkhan-soul-aflame) · oracle_id `bbcae463-ba05-4cfe-9c25-13f2e64698c7` · printing: TDC #301 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan's Rage
@@ -376,6 +384,8 @@ schema: 2
   > *With Taigam whispering encouragement in his ear, Sarkhan threw aside his misgivings. The ritual would return him to his former glory. All he needed was a dragon's heart.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15015 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): TDM #158 — [Art & Flavor → Tarkir: Dragonstorm (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#tarkir-dragonstorm-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,448 decks; most often under [Kotis, the Fangkeeper](../../cards/K/ko.md#kotis-the-fangkeeper) (2.5% of its decks), [Tifa Lockhart](../../cards/T/ti.md#tifa-lockhart) (1.7% of its decks), [Eshki Dragonclaw](../../cards/E/es.md#eshki-dragonclaw) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#sarkhans-resolve)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/158/sarkhans-resolve) · oracle_id `30f058f8-5777-4c25-b881-8f1d0ce17d3a` · printing: TDM #158 (2025-04-11) · [rulings](https://api.scryfall.com/cards/cae56fef-b661-4bc5-b9a1-3871ae06e491/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -434,6 +444,8 @@ schema: 2
   - *2014-09-20* — Any loyalty counters on Sarkhan when his first ability resolves will remain on him while he's a creature. Because he's not a planeswalker at this time, damage dealt to him won't cause those counters to be removed.
   - *2014-09-20* — If Sarkhan, the Dragonspeaker becomes a creature due to his first ability, that doesn't count as having a creature enter the battlefield. Sarkhan was already on the battlefield; he only changed his types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
   - *2014-09-20* — If a permanent enters the battlefield as a copy of Sarkhan after his first ability has resolved, the copy will be a Sarkhan planeswalker. It will enter the battlefield with four loyalty counters, no matter how many loyalty counters are on the original Sarkhan. You'll then find yourself in the same situation described above.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10), [The Story of Tarkir Block](https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29), [Unwritten](https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Sarkhan Vol](../../Characters%20Index.md#sarkhan-vol) · [Dossier → Sarkhan Vol](../../Planeswalker%20Dossiers.md#sarkhan-vol) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · Commander Spellbook: 15 combos; most popular [Aerie Ouphes + Sarkhan, the Dragonspeaker + Grumgully, the Generous](https://commanderspellbook.com/combo/3575-4381-5297/) (Infinite damage to some creatures, Infinite death triggers) · EDHREC: in 5,585 decks; most often under [Atarka, World Render](../../cards/A/at.md#atarka-world-render) (27.8% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.7% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/S.md#sarkhan-the-dragonspeaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/119/sarkhan-the-dragonspeaker) · oracle_id `80c26f58-04b0-4db0-b84e-9b136609abe0` · printing: KTK #119 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -455,6 +467,8 @@ schema: 2
   - *2010-06-15* — The first ability causes Sarkhan to deal damage directly to himself, resulting in that many loyalty counters being removed from him. The damage would never have been dealt to you, so prevention effects that would prevent damage from being dealt to you won't affect it.
   - *2010-06-15* — Unlike previous planeswalkers, Sarkhan the Mad has no way to raise his loyalty.
   - *2010-06-15* — You choose a single target as you activate the third ability. All your Dragons deal damage to that player.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Sarkhan Vol](../../Characters%20Index.md#sarkhan-vol) · [Dossier → Sarkhan Vol](../../Planeswalker%20Dossiers.md#sarkhan-vol) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,713 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (1.3% of its decks), [Rivaz of the Claw](../../cards/R/ri.md#rivaz-of-the-claw) (6.7% of its decks), [Scion of the Ur-Dragon](../../cards/S/sc.md#scion-of-the-ur-dragon) (3.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/S.md#sarkhan-the-mad)
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/214/sarkhan-the-mad) · oracle_id `e70a93e4-2fe7-46d3-8958-153ab2fcfd99` · printing: ROE #214 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -471,6 +485,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — A planeswalker that becomes a creature due to Sarkhan’s first loyalty ability can’t attack unless you’ve controlled it continuously since your turn began.
   - *2019-05-03* — Once Sarkhan’s first loyalty ability has resolved, each planeswalker you control (including Sarkhan) is no longer a planeswalker for the rest of the turn. They don’t lose any loyalty counters or abilities, and you can still activate their loyalty abilities if you haven’t done so yet this turn. They don’t lose loyalty if they’re dealt damage while they’re not planeswalkers.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Sarkhan Vol](../../Characters%20Index.md#sarkhan-vol) · [Dossier → Sarkhan Vol](../../Planeswalker%20Dossiers.md#sarkhan-vol) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 27,824 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (57.7% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (5.0% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (7.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/S.md#sarkhan-the-masterless)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/880/sarkhan-the-masterless) · oracle_id `67dbc5dd-6d05-43e7-83f7-70e10eb54807` · printing: CMM #880 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -485,6 +501,8 @@ schema: 2
   > −8: Search your library for any number of Dragon creature cards, put them onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6326 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Story of Tarkir Block](https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29), [Unbroken and Unbowed](https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Sarkhan Vol](../../Characters%20Index.md#sarkhan-vol) · [Dossier → Sarkhan Vol](../../Planeswalker%20Dossiers.md#sarkhan-vol) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 24,460 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (22.4% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (19.5% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (14.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/S.md#sarkhan-unbroken)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/230/sarkhan-unbroken) · oracle_id `1d37b453-f10c-42f2-8390-626a8a8eb27c` · printing: DTK #230 (2015-03-27) · [rulings](https://api.scryfall.com/cards/192452f8-93c2-4a20-a52b-0093741a9e45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -502,6 +520,8 @@ schema: 2
   - *2008-10-01* — Sarkhan Vol’s first ability affects only creatures you control when that ability resolves.
   - *2008-10-01* — You may activate the first ability even if you control no creatures. Sarkhan Vol gains a loyalty counter, but the ability will have no effect.
   - *2008-10-01* — You may target any creature with the second ability, not just a creature an opponent controls. If you target a creature you already control, you’ll gain control of it (which will usually have no visible effect), it’ll untap, and it’ll gain haste until end of turn.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Sarkhan Vol](../../Characters%20Index.md#sarkhan-vol) · [Dossier → Sarkhan Vol](../../Planeswalker%20Dossiers.md#sarkhan-vol) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,248 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.8% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (0.8% of its decks), [Atarka, World Render](../../cards/A/at.md#atarka-world-render) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/S.md#sarkhan-vol)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mma/183/sarkhan-vol) · oracle_id `d902074a-2a2b-42b7-a1e5-750862c64fbe` · printing: MMA #183 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

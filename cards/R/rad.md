@@ -207,6 +207,8 @@ schema: 2
   - *2018-01-19* — Once you have the city's blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city's blessing isn't a permanent itself and can't be removed by any effect.
   - *2018-01-19* — Some cards get power, toughness, and/or abilities once you have the city's blessing. If another card has an ability that triggers when creatures with certain characteristics enter the battlefield (such as Mentor of the Meek or Elemental Bond do), use the entering permanent's characteristics after you have the city's blessing to determine whether those abilities trigger. This is true even if the entering permanent is your tenth permanent.
   - *2018-01-19* — To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.
+- **Lore:** ✅ Card art shown on [Glimpse the Far Side of the Sun](https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 28,142 decks; most often under [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (39.9% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (6.5% of its decks), [Alela, Artful Provocateur](../../cards/A/al.md#alela-artful-provocateur) (7.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#radiant-destiny)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/135/radiant-destiny) · oracle_id `068cbbe3-43c3-425e-80ec-d1ce5c02ea9b` · printing: LCC #135 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -363,6 +365,8 @@ schema: 2
   > *The Shifting Wastes are Dromoka's domain. She will not tolerate intruders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19819 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Guardian](https://magic.wizards.com/en/news/magic-story/guardian-2015-04-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,327 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.3% of its decks), [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (0.8% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/31/radiant-purge) · oracle_id `b61718ad-7102-4ed2-b884-733bc46df715` · printing: DTK #31 (2015-03-27) · [rulings](https://api.scryfall.com/cards/c34d94f4-c504-4cf1-9bc7-d318fbee54d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Scrollwielder
@@ -464,6 +468,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17063 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-07-25* — If the target permanent is an illegal target as Radiant Strike tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain life.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): EOE #29 — [Art & Flavor → Edge of Eternities (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#edge-of-eternities-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,791 decks; most often under [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (1.4% of its decks), [Syr Vondam, Sunstar Exemplar](../../cards/S/sy.md#syr-vondam-sunstar-exemplar) (3.4% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#radiant-strike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/29/radiant-strike) · oracle_id `186efd85-83d4-40cc-b617-76f32dbe99ce` · printing: EOE #29 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -522,6 +528,8 @@ schema: 2
   - *2018-10-05* — If a card with jump-start is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
   - *2018-10-05* — If an effect allows you to pay an alternative cost rather than a spell's mana cost, you may pay that alternative cost when you jump-start a spell. You'll still discard a card as an additional cost to cast it.
   - *2018-10-05* — You must still follow any timing restrictions and permissions when casting a spell with jump-start, including those based on the card's type. For instance, you can cast a sorcery using jump-start only when you could normally cast a sorcery.
+- **Lore:** ✅ Card art shown on [Testing the Dark Waters](https://magic.wizards.com/en/news/magic-story/testing-dark-waters-2018-10-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,588 decks; most often under [Stella Lee, Wild Card](../../cards/S/ste.md#stella-lee-wild-card) (24.6% of its decks), [Neerdiv, Devious Diver](../../cards/N/ne.md#neerdiv-devious-diver) (59.6% of its decks), [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (5.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/110/radical-idea) · oracle_id `fd51dce2-8e8a-4686-910e-1bbc2825d190` · printing: OTC #110 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radioactive Man

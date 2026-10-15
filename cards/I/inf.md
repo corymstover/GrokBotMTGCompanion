@@ -176,6 +176,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29617 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — If, during its controller’s declare attackers step, the enchanted creature is tapped or is affected by a spell or ability that says it can’t attack, then that creature doesn’t attack. If there’s a cost associated with having that creature attack, its controller isn’t forced to pay that cost. If they don’t, the creature doesn’t have to attack.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 250 decks; most often under [Kaima, the Fractured Calm](../../cards/K/ka.md#kaima-the-fractured-calm) (0.6% of its decks), [Valduk, Keeper of the Flame](../../cards/V/va.md#valduk-keeper-of-the-flame) (0.3% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/152/infectious-bloodlust) · oracle_id `9cd8ca01-e8a9-47ea-8899-b016a2dcaea8` · printing: ORI #152 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infectious Horror

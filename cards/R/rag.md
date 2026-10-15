@@ -671,6 +671,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7589 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Unbowed, Part 3](https://magic.wizards.com/en/news/magic-story/unbowed-part-3-2018-09-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 19,120 decks; most often under [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (17.5% of its decks), [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (19.2% of its decks), [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (38.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#raging-swordtooth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/283/raging-swordtooth) · oracle_id `626709bc-6c29-434f-9e3f-b84bb8a5c431` · printing: LCC #283 (2023-11-17) · [rulings](https://api.scryfall.com/cards/6bf82a3f-2faf-45b8-95af-32a93880b54c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

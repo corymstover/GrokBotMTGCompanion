@@ -509,6 +509,8 @@ schema: 2
   > *On the third night, the villagers destroyed their clocks. The sounds of whirring gears and chiming metal held only dread for them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17055 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Chronomaton](https://magic.wizards.com/en/news/magic-story/chronomaton-2012-07-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,794 decks; most often under [Omarthis, Ghostfire Initiate](../../cards/O/om.md#omarthis-ghostfire-initiate) (41.4% of its decks), [Nylea, Keen-Eyed](../../cards/N/ny.md#nylea-keen-eyed) (21.2% of its decks), [Graaz, Unstoppable Juggernaut](../../cards/G/gra.md#graaz-unstoppable-juggernaut) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddm/2/chronomaton) · oracle_id `610f25b0-770f-457a-b0eb-6deb832f71d4` · printing: DDM #2 (2014-03-14) · [rulings](https://api.scryfall.com/cards/787b6916-3fce-41dd-ab52-f17546fd04ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronosavant

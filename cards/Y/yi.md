@@ -94,6 +94,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8148 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2014-07-18* — If Yisan isn't on the battlefield when its ability resolves, use the number of verse counters on it when it left the battlefield to determine which creature cards may be put onto the battlefield. This number will include the counter you put on Yisan to activate the ability.
+- **Lore:** ✅ Card art shown on [The Bard and the Biologist](https://magic.wizards.com/en/news/magic-story/bard-and-biologist-2014-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,402 decks; highest synergy [Scryb Ranger](../../cards/S/sc.md#scryb-ranger) (+70%), [Quirion Ranger](../../cards/Q/qu.md#quirion-ranger) (+69%), [Temur Sabertooth](../../cards/T/te.md#temur-sabertooth) (+60%) · EDHREC: in 14,737 decks; most often under [Derevi, Empyrial Tactician](../../cards/D/der.md#derevi-empyrial-tactician) (6.4% of its decks), [Captain Sisay](../../cards/C/cap.md#captain-sisay) (20.2% of its decks), [Yeva, Nature's Herald](../../cards/Y/ye.md#yeva-natures-herald) (23.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/334/yisan-the-wanderer-bard) · oracle_id `7f4b0233-a2b0-41a2-8448-2df1f845148c` · printing: CMM #334 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yixlid Jailer

@@ -441,6 +441,8 @@ schema: 2
   - *2018-01-19* — The ability of Sanctum of the Sun is a mana ability. It doesn't use the stack and can't be responded to.
   - *2018-01-19* — The cards you exile from your hand are exiled face up.
   - *2018-01-19* — The mana value of a split card, such as a card with aftermath from the Amonkhet block, is based on the combined mana cost of its two halves. A split card doesn't have two mana values.
+- **Lore:** ✅ Card art shown on [Glimpse the Far Side of the Sun](https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,863 decks; most often under [Tetzin, Gnome Champion](../../cards/T/te.md#tetzin-gnome-champion--the-golden-gear-colossus) (77.9% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (1.6% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/176/azors-gateway-sanctum-of-the-sun) · oracle_id `c0cbb347-b060-43ce-a9c5-8c835be3cf1b` · printing: RIX #176 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azor, the Lawbringer
@@ -456,6 +458,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11701 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2018-01-19* — If multiple effects say that an opponent can't cast instant or sorcery spells during that player's next turn, they all apply to the same turn.
+- **Lore:** ✅ Card art shown on [The Arbiter of Law Left Chaos in His Wake](https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24), [Chronicle of Bolas: The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15), [Glimpse the Far Side of the Sun](https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 15 combos; most popular [Azor, the Lawbringer + Soulherder](https://commanderspellbook.com/combo/205-2334/) (Opponents can't cast instant spells during their turns, Opponents can't cast sorcery spells) · EDHREC as commander: 393 decks; highest synergy [Render Silent](../../cards/R/ren.md#render-silent) (+38%), [Isperia, Supreme Judge](../../cards/I/is.md#isperia-supreme-judge) (+36%), [Sphinx's Revelation](../../cards/S/sph.md#sphinxs-revelation) (+33%) · EDHREC: in 9,161 decks; most often under [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (4.2% of its decks), [Brago, King Eternal](../../cards/B/br.md#brago-king-eternal) (3.5% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/154/azor-the-lawbringer) · oracle_id `89812139-9fc1-4fc9-b1d0-d07067d62083` · printing: RIX #154 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azra Bladeseeker

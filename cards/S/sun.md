@@ -403,7 +403,9 @@ schema: 2
   - *2015-02-25* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Aven Tactician’s bolster ability.
   - *2015-02-25* — Count the number of cards in your hand as Sunbringer’s Touch resolves to determine the value of X.
   - *2015-02-25* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves. That could be the creature with the bolster ability, if it’s still under your control and has the least toughness.
-- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#sunbringers-touch)
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 800 decks; most often under [Anafenza, the Foremost](../../cards/A/an.md#anafenza-the-foremost) (3.4% of its decks), [Felothar, Dawn of the Abzan](../../cards/F/fe.md#felothar-dawn-of-the-abzan) (0.5% of its decks), [Dromoka, the Eternal](../../cards/D/dro.md#dromoka-the-eternal) (4.1% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/S.md#sunbringers-touch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/209/sunbringers-touch) · oracle_id `bbfced8f-0f83-4cc9-9143-aa2473828b48` · printing: DTK #209 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sun Ce, Young Conquerer
@@ -1021,6 +1023,8 @@ schema: 2
 - **Rulings** (2):
   - *2005-10-01* — If you give double strike to a creature after either first-strike or normal combat damage has been dealt, it won't help that creature deal any additional combat damage.
   - *2005-10-01* — If you give double strike to a creature with first strike after first-strike combat damage has been dealt, that creature will also deal damage during the normal combat damage step.
+- **Lore:** ✅ Card art shown on [Clans & Legions](https://magic.wizards.com/en/news/magic-story/clans-legions-2018-10-24) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Aurelia, the Warleader (Ravnica-only)](../../decks/plane-ravnica-aurelia-the-warleader.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 87,793 decks; most often under [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (41.3% of its decks), [Nelly Borca, Impulsive Accuser](../../cards/N/ne.md#nelly-borca-impulsive-accuser) (58.0% of its decks), [Ardenn, Intrepid Archaeologist // Rograkh, Son of Rohgahh](../../cards/A/ard.md#ardenn-intrepid-archaeologist) (37.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sunhome-fortress-of-the-legion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/324/sunhome-fortress-of-the-legion) · oracle_id `a9f8344c-1705-4254-81d6-aa05e0c69c29` · printing: OTC #324 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1550,6 +1554,9 @@ schema: 2
   > If an opponent has more cards in hand than you, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8569 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #38 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,928 decks; most often under [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (28.1% of its decks), [Aragorn, King of Gondor](../../cards/A/ara.md#aragorn-king-of-gondor) (15.7% of its decks), [Silvar, Devourer of the Free // Trynn, Champion of Freedom](../../cards/S/si.md#silvar-devourer-of-the-free) (8.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sunset-revelry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/38/sunset-revelry) · oracle_id `65779f3b-7fc5-4847-99d7-78f697d34c3d` · printing: MID #38 (2021-09-24) · [rulings](https://api.scryfall.com/cards/61b39ef1-29d4-4c8d-aece-a3f1ce008e2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunset Saboteur

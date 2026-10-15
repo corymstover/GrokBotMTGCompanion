@@ -119,7 +119,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15971 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-07-26* — If all of the targets are illegal as Calamitous Tide tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw or discard any cards.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#calamitous-tide)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BLB #43 — [Art & Flavor → Bloomburrow (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#bloomburrow-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,597 decks; most often under [Alania, Divergent Storm](../../cards/A/al.md#alania-divergent-storm) (6.3% of its decks), [Eluge, the Shoreless Sea](../../cards/E/el.md#eluge-the-shoreless-sea) (4.1% of its decks), [Clement, the Worrywort](../../cards/C/cl.md#clement-the-worrywort) (2.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/C.md#calamitous-tide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/43/calamitous-tide) · oracle_id `d605d9d1-c01a-4ef6-89f9-06fae8cd57e6` · printing: BLB #43 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calamity Bearer
@@ -212,6 +214,8 @@ schema: 2
   > *The sylex's blast had razed the land, leaving behind only snow and sorrow. Urza stood alone in the sudden silence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10234 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #4 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,081 decks; most often under [Heliod, Sun-Crowned](../../cards/H/he.md#heliod-sun-crowned) (9.3% of its decks), [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (3.6% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (3.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#calamitys-wake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/4/calamitys-wake) · oracle_id `a6436330-f35a-4d31-9230-03e0c62f9e7e` · printing: BRO #4 (2022-11-18) · [rulings](https://api.scryfall.com/cards/013bed2b-25db-4dfc-9283-e80c9ac6c841/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -442,6 +446,8 @@ schema: 2
   - *2020-01-24* — If an Aura is being put onto the battlefield at the same time as an enchantment creature, that Aura can’t enchant that creature.
   - *2020-01-24* — If an Aura is put onto the battlefield without being cast, the Aura’s controller-to-be chooses what it will enchant as it comes back onto the battlefield. An Aura put onto the battlefield this way doesn’t target anything (so it could be attached to an opponent’s permanent with hexproof, for example), but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains in its current zone.
   - *2020-01-24* — If the target enchantment you control leaves the battlefield or otherwise becomes an illegal target before Calix’s second ability resolves, the target permanent you don’t control won’t be exiled.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Calix](../../Characters%20Index.md#calix) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 31,297 decks; most often under [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (32.0% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (17.1% of its decks), [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (13.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#calix-destinys-hand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/918/calix-destinys-hand) · oracle_id `d9f01177-2237-475e-ad91-114bfae077ce` · printing: CMM #918 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -464,6 +470,8 @@ schema: 2
   - *2023-05-12* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied.
   - *2023-05-12* — Once you choose to create a token using the last ability, that ability won't trigger again that turn. Additional instances of the ability that are already on the stack will resolve but will have no effect.
   - *2023-05-12* — The token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Calix](../../Characters%20Index.md#calix) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Calix, Guided by Fate + Three Blind Mice + Doubling Season](https://commanderspellbook.com/combo/860-3663-4772/) (Infinite copies of tokens you control, Infinite creature tokens) · EDHREC as commander: 3,198 decks; highest synergy [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (+77%), [Sanctum Weaver](../../cards/S/san.md#sanctum-weaver) (+69%), [Jukai Naturalist](../../cards/J/ju.md#jukai-naturalist) (+68%) · EDHREC: in 42,026 decks; most often under [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (45.9% of its decks), [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (32.9% of its decks), [Yuna, Hope of Spira](../../cards/Y/yu.md#yuna-hope-of-spira) (57.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#calix-guided-by-fate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/26/calix-guided-by-fate) · oracle_id `1bcc8ca6-5fd0-4fc9-8f0c-f81d8abf9249` · printing: MAT #26 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -498,6 +506,8 @@ schema: 2
   > *"Why would a little thing like death stop me from running the Syndicate? I'm going to be here for a long, long time."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11334 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #289, MKM #6 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) — ✅ Flavor text verbatim on [official page 1](https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,067 decks; most often under [Phlage, Titan of Fire's Fury](../../cards/P/ph.md#phlage-titan-of-fires-fury) (51.2% of its decks), [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (5.0% of its decks), [Cloud, Midgar Mercenary](../../cards/C/cl.md#cloud-midgar-mercenary) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#call-a-surprise-witness)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/6/call-a-surprise-witness) · oracle_id `9038a457-ce01-4f6d-9e2b-5220f08b4290` · printing: MKM #6 (2024-02-09) · [rulings](https://api.scryfall.com/cards/f5148def-cf1a-460e-8dfd-856103940892/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -661,7 +671,9 @@ schema: 2
   - *2017-02-09* — Revolt abilities check only whether a permanent you controlled left the battlefield this turn or not. They don't apply multiple times if more than one permanent you controlled left the battlefield. They don't check whether the permanent that left the battlefield is still in the zone it moved to.
   - *2017-02-09* — Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Murder, or an enchantment you returned to your hand with Leave in the Dust.
   - *2017-02-09* — Tokens that leave the battlefield will satisfy a revolt ability.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/C.md#call-for-unity)
+- **Lore:** ✅ Card art shown on [Renewal](https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 16,691 decks; most often under [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (19.6% of its decks), [Minthara, Merciless Soul](../../cards/M/min.md#minthara-merciless-soul) (33.2% of its decks), [Merry, Warden of Isengard // Pippin, Warden of Isengard](../../cards/M/me.md#merry-warden-of-isengard) (17.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/C.md#call-for-unity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/9/call-for-unity) · oracle_id `288d5415-ef44-400f-ab88-7c8a4deaaf4b` · printing: AER #9 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call from the Grave
@@ -755,6 +767,9 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — A single player must have cast two or more spells during the previous turn for Call of the Full Moon's last ability to trigger. If multiple players each cast just one spell during that turn, the ability won't trigger.
   - *2015-06-22* — Call of the Full Moon's last ability will look at the entire previous turn, even if Call of the Moon wasn't on the battlefield for some or all of that turn. For example, if you cast Call of the Full Moon and another spell on the same turn, you'll have to sacrifice Call of the Full Moon at the beginning of the upkeep of the following turn.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 568 decks; most often under [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (0.9% of its decks), [Uril, the Miststalker](../../cards/U/ur.md#uril-the-miststalker) (0.3% of its decks), [Valduk, Keeper of the Flame](../../cards/V/va.md#valduk-keeper-of-the-flame) (0.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Voltron (equipment & auras): Evasion & double strike](../../EDH%20Packages.md#voltron-equipment--auras-evasion--double-strike) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#call-of-the-full-moon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/134/call-of-the-full-moon) · oracle_id `3e34a3de-ae30-4d7b-88f1-03e2b79c4451` · printing: ORI #134 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call of the Herd
@@ -978,6 +993,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13172 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-04-08* — You can activate Call the Bloodline’s ability once on each player’s turn, not just your own.
+- **Lore:** ✅ Card art shown on [Innistrad's Last Hope](https://magic.wizards.com/en/news/magic-story/innistrads-last-hope-2016-06-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,460 decks; most often under [Evelyn, the Covetous](../../cards/E/ev.md#evelyn-the-covetous) (17.5% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (1.0% of its decks), [Olivia, Crimson Bride](../../cards/O/ol.md#olivia-crimson-bride) (10.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/C.md#call-the-bloodline)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/103/call-the-bloodline) · oracle_id `8e90300b-c0da-4484-b065-e2fafa4e1b15` · printing: SOI #103 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1024,6 +1041,8 @@ schema: 2
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11099 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Brink of Extinction](https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10), [Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,501 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (3.1% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (15.2% of its decks), [Kytheon, Hero of Akros](../../cards/K/ky.md#kytheon-hero-of-akros--gideon-battle-forged) (51.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/C.md#call-the-gatewatch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/16/call-the-gatewatch) · oracle_id `652bfa31-b2eb-4cba-850f-1db02a83bb35` · printing: OGW #16 (2016-01-22) · [rulings](https://api.scryfall.com/cards/4719ac60-2cff-4abb-b9cc-b677d3ac945c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1101,6 +1120,8 @@ schema: 2
   - *2025-04-04* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Dragon you control may become lethal if Call the Spirit Dragons leaves the battlefield during that turn.
   - *2025-04-04* — If you control a Dragon that is more than one color, you may put more than one +1/+1 counter on it with the last ability of Call the Spirit Dragons.
   - *2025-04-04* — The last ability will only cause you to win the game if you put a +1/+1 counter on each of five different Dragons with it.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): TDM #174 — [Art & Flavor → Tarkir: Dragonstorm (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#tarkir-dragonstorm-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Ur-Dragon](../../decks/the-ur-dragon.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 35,855 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (48.9% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (51.7% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (10.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/C.md#call-the-spirit-dragons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/174/call-the-spirit-dragons) · oracle_id `3ceb23f5-abb1-4569-a1e4-1eed9a9babcf` · printing: TDM #174 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

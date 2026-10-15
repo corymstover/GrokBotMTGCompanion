@@ -903,6 +903,8 @@ schema: 2
   - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn't become renowned. Any ability that triggers "whenever a creature becomes renowned" won't trigger.
   - *2015-06-22* — Renown won't trigger when a creature deals combat damage to a planeswalker or another creature. It also won't trigger when a creature deals noncombat damage to a player.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09), [Offers to the Fire](https://magic.wizards.com/en/news/magic-story/offers-fire-2015-08-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 463 decks; most often under [Aragorn, Hornburg Hero](../../cards/A/ara.md#aragorn-hornburg-hero) (1.2% of its decks), [General Marhault Elsdragon](../../cards/G/ge.md#general-marhault-elsdragon) (1.5% of its decks), [Obosh, the Preypiercer](../../cards/O/ob.md#obosh-the-preypiercer) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/128/acolyte-of-the-inferno) · oracle_id `35bf67e0-8141-4664-b762-2c613353e1eb` · printing: ORI #128 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acolyte of Xathrid
@@ -1150,6 +1152,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-09-20* — After the creature returns to the battlefield, it will be a new object with no connection to the creature that was exiled. It won't be in combat or have any additional abilities it may have had before it was exiled. Any +1/+1 counters on it or Auras attached to it are removed, and any Equipment will no longer be attached.
   - *2016-09-20* — If a creature token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Lore:** ✅ Card art shown on [The Making of Kaladesh](https://magic.wizards.com/en/news/magic-story/making-kaladesh-2016-11-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 37 combos; most popular [Abdel Adrian, Gorion's Ward + Acrobatic Maneuver + Restoration Angel](https://commanderspellbook.com/combo/359-372-1090/) (Infinite creature ETB, Infinite creature LTB) · EDHREC: in 28,741 decks; most often under [Zidane, Tantalus Thief](../../cards/Z/zi.md#zidane-tantalus-thief) (36.6% of its decks), [Abigale, Eloquent First-Year](../../cards/A/ab.md#abigale-eloquent-first-year) (35.7% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (7.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/1/acrobatic-maneuver) · oracle_id `1aa1cf50-ee79-4bef-826b-5f1a9e1aa1a5` · printing: KLD #1 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Across the Multiverse
@@ -1254,6 +1258,8 @@ schema: 2
   - *2018-03-16* — The effects of Act of Heroism are cumulative. If multiples resolve targeting the same creature, that creature can block that many additional creatures this turn.
   - *2018-03-16* — Untapping an attacking creature doesn't remove it from combat.
   - *2018-03-16* — You can cast Act of Heroism even if the target creature won't be able to block right away, perhaps because you're the attacking player.
+- **Lore:** ✅ Card art shown on [Hour of Eternity](https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,605 decks; most often under [Brigone, Soldier of Meletis](../../cards/B/br.md#brigone-soldier-of-meletis) (21.7% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (1.3% of its decks), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#act-of-heroism)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/1/act-of-heroism) · oracle_id `25edb501-11b5-4617-8a65-2eb4869cccd5` · printing: A25 #1 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

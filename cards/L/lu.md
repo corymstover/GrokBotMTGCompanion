@@ -376,6 +376,8 @@ schema: 2
   - *2023-02-04* — Other replacement effects that would change the number of loyalty counters Lukka enters with will apply as normal.
   - *2023-02-04* — The compleated ability looks only at whether a player chose to pay 2 life for a Phyrexian mana symbol as they were casting the spell. If a player paid life for some other reason while casting the spell, that will not reduce the number of loyalty counters the planeswalker enters the battlefield with.
   - *2023-02-04* — You can't choose more targets than the greatest power among creatures you control as you activate the ability, and each chosen target must receive at least 1 damage.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Lukka](../../Characters%20Index.md#lukka) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,390 decks; most often under [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (3.4% of its decks), [Minsc & Boo, Timeless Heroes](../../cards/M/min.md#minsc--boo-timeless-heroes) (5.4% of its decks), [Slinza, the Spiked Stampede](../../cards/S/sl.md#slinza-the-spiked-stampede) (5.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/L.md#lukka-bound-to-ruin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/207/lukka-bound-to-ruin) · oracle_id `8e68eba1-65ac-4c03-956f-45e7b5695e2a` · printing: ONE #207 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1119,7 +1121,9 @@ schema: 2
 - **Rulings** (2):
   - *2012-05-01* — The decision to pay {1} is made when the triggered ability resolves. It’s not an additional cost of the instant spell.
   - *2012-05-01* — The triggered ability will go on the stack on top of the instant spell and resolve before it.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#lunar-mystic)
+- **Lore:** ✅ Card art shown on [I Am Avacyn](https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,453 decks; most often under [Kalamax, the Stormsire](../../cards/K/ka.md#kalamax-the-stormsire) (5.9% of its decks), [Talrand, Sky Summoner](../../cards/T/ta.md#talrand-sky-summoner) (0.9% of its decks), [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (0.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/L.md#lunar-mystic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/115/lunar-mystic) · oracle_id `9652f79c-3060-4e9c-9623-0ebe4ab4094c` · printing: C20 #115 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lunar Rejection
@@ -1732,6 +1736,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-04-29* — Unless another effect is making that planeswalker a creature with a power and toughness, the equipped planeswalker has base power and toughness 0/0.
   - *2022-04-29* — “Equip planeswalker” is a variant of the equip ability. “Equip planeswalker [cost]” means “[Cost]: Attach this permanent to target planeswalker you control as though that planeswalker were a creature. Activate only as a sorcery.”
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SNC #240 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 24 combos; most popular [Devoted Druid + Luxior, Giada's Gift](https://commanderspellbook.com/combo/3774-4762/) (Infinite green mana) · EDHREC: in 37,034 decks; most often under [Indominus Rex, Alpha](../../cards/I/ind.md#indominus-rex-alpha) (41.0% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (19.0% of its decks), [Minsc & Boo, Timeless Heroes](../../cards/M/min.md#minsc--boo-timeless-heroes) (12.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/240/luxior-giadas-gift) · oracle_id `2f9263d7-916f-4535-95d2-888ab73cf339` · printing: SNC #240 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Luxior, Ignited
@@ -1766,6 +1772,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13779 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-07-25* — In the rare case where Luxknight Breacher enters at the same time as one or more other creatures and/or artifacts you control, it doesn’t count those other creatures and/or artifacts. It counts only creatures and/or artifacts that are already on the battlefield under your control.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): EOE #26 — [Art & Flavor → Edge of Eternities (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#edge-of-eternities-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,708 decks; most often under [Syr Vondam, Sunstar Exemplar](../../cards/S/sy.md#syr-vondam-sunstar-exemplar) (6.4% of its decks), [Dion, Bahamut's Dominant](../../cards/D/di.md#dion-bahamuts-dominant--bahamut-warden-of-light) (14.4% of its decks), [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#luxknight-breacher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/26/luxknight-breacher) · oracle_id `e0a508b5-0896-4620-a93e-60b958829703` · printing: EOE #26 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

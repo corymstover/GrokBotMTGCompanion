@@ -114,6 +114,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21565 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-15* — The creature that returns to the battlefield during the resolution of Triad of the Fate's middle ability does so as a new object, with no memory of its previous existence. It won't have a fate counter on it.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/tragedy-2013-10-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Skullbriar, the Walking Grave + Triad of Fates + Intruder Alarm](https://commanderspellbook.com/combo/480-1636-2449/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 474 decks; highest synergy [Oblivion Stone](../../cards/O/ob.md#oblivion-stone) (+66%), [Thousand-Year Elixir](../../cards/T/tho.md#thousand-year-elixir) (+61%), [Magewright's Stone](../../cards/M/mag.md#magewrights-stone) (+56%) · EDHREC: in 1,194 decks; most often under [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (1.3% of its decks), [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (0.6% of its decks), [Mister Negative](../../cards/M/mis.md#mister-negative) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/206/triad-of-fates) · oracle_id `fd09875f-71a1-41c2-b404-ff58f4d4cb6c` · printing: THS #206 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trial and Error
@@ -242,6 +244,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29011 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-04-18* — Each Trial has an ability to return to your hand when a Cartouche enters the battlefield under your control. The Trial is returned to its owner's hand only if it's on the battlefield as the ability resolves.
+- **Lore:** ✅ Card art shown on [Judgment](https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 308 decks; most often under [Marina Vendrell](../../cards/M/mar.md#marina-vendrell) (0.1% of its decks), [Hazoret the Fervent](../../cards/H/ha.md#hazoret-the-fervent) (3.1% of its decks), [Samut, Voice of Dissent](../../cards/S/sam.md#samut-voice-of-dissent) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#trial-of-zeal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/152/trial-of-zeal) · oracle_id `0798eb13-83f1-4b7c-b537-83a9da2915a6` · printing: AKH #152 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1158,6 +1162,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23112 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-01-24* — If the target creature is an illegal target by the time Triumphant Surge tries to resolve, the spell won’t resolve. You won’t gain 3 life.
+- **Lore:** Featured in: [Arc → Theros Beyond Death (2020)](../../Conflicts%20%26%20Arcs.md#theros-beyond-death-2020) ([source](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16), [2](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10) via entry) — ✅ Story Spotlight printing (Scryfall `story_spotlight`): THB #41 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,233 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.1% of its decks), [Lathiel, the Bounteous Dawn](../../cards/L/la.md#lathiel-the-bounteous-dawn) (0.7% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#triumphant-surge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/41/triumphant-surge) · oracle_id `ff281103-7a9b-4eb1-b81e-b8cd137b6e98` · printing: THB #41 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

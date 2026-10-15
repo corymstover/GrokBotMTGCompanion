@@ -338,6 +338,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-02-07* — If you somehow cast this spell when it’s not a main phase, the second ability still takes effect, but there are no additional combat phases this turn. If you cast it during an opponent’s main phase, there are two additional combat phases, but that opponent gets to attack during those combat phases, not you.
   - *2025-02-07* — There is no main phase between the two additional combat phases. If you cast this during your second main phase, you will go directly to the end step after the two additional combat phases are complete.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DFT #127 — [Art & Flavor → Aetherdrift (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#aetherdrift-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Cult of Skaro (Grixis)](../../grixis/decks/cult-of-skaro.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 121,377 decks; most often under [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (41.8% of its decks), [Rootha, Mastering the Moment](../../cards/R/ro.md#rootha-mastering-the-moment) (58.9% of its decks), [Raph & Mikey, Troublemakers](../../cards/R/rap.md#raph--mikey-troublemakers) (48.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/F.md#full-throttle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/127/full-throttle) · oracle_id `3c2f87eb-b0f4-4578-b143-6fba313a82ec` · printing: DFT #127 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -691,6 +693,8 @@ schema: 2
   > *Thallids nurture saprolings, entertain them, and eat them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6551 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,436 decks; most often under [Shroofus Sproutsire](../../cards/S/shr.md#shroofus-sproutsire) (71.9% of its decks), [Slimefoot, the Stowaway](../../cards/S/sl.md#slimefoot-the-stowaway) (67.5% of its decks), [Ghave, Guru of Spores](../../cards/G/gh.md#ghave-guru-of-spores) (20.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fungal-plots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/291/fungal-plots) · oracle_id `0a85402a-e3be-4ebb-8001-9d9a20dde7e8` · printing: CMM #291 (2023-08-04) · [rulings](https://api.scryfall.com/cards/783fb92d-6de6-49f5-a204-5bcf577c9640/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -867,6 +871,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27487 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-09-20* — You can't target the same permanent or player twice to have one recipient be dealt 4 damage.
+- **Lore:** ✅ Card art shown on [Bottled Up](https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 464 decks; most often under [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (6.3% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.0% of its decks), [Niv-Mizzet, Visionary](../../cards/N/ni.md#niv-mizzet-visionary) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/115/furious-reprisal) · oracle_id `38e1ab26-95f9-43dd-9bda-13c7d8ba47ea` · printing: KLD #115 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Furious Resistance

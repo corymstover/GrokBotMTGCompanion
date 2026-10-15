@@ -303,6 +303,8 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26378 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/dreams-city-2014-04-23-0), [Dreams of the City](https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 608 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (0.3% of its decks), [King Macar, the Gold-Cursed](../../cards/K/ki.md#king-macar-the-gold-cursed) (1.2% of its decks), [Erebos, God of the Dead](../../cards/E/er.md#erebos-god-of-the-dead) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/64/claim-of-erebos) · oracle_id `557dda97-c9e6-4d3d-95d8-8180ab9d87b3` · printing: BNG #64 (2014-02-07) · [rulings](https://api.scryfall.com/cards/a51db556-b3e8-4628-9e39-6353023b0696/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Claim the Firstborn
@@ -726,6 +728,8 @@ schema: 2
   > *Alhammarret rose to his feet, and the full force of his mind hit Jace like a storm front.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12416 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Flood](https://magic.wizards.com/en/news/magic-story/flood-2018-01-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,409 decks; most often under [Zimone, Infinite Analyst](../../cards/Z/zi.md#zimone-infinite-analyst) (14.7% of its decks), [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (6.9% of its decks), [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (19.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#clash-of-wills)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/49/clash-of-wills) · oracle_id `56aec5bd-a8e8-403f-b339-0fc817426428` · printing: ORI #49 (2015-07-17) · [rulings](https://api.scryfall.com/cards/665ee42f-8d76-4f8b-9dd3-7455a90f0da7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1502,6 +1506,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30445 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — Count the number of creatures named Cleric of the Forward Order you control as the ability resolves to determine how much life you gain. If the Cleric of the Forward Order with the ability that triggered is still on the battlefield, it will count itself.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 180 decks; most often under [Minwu, White Mage](../../cards/M/min.md#minwu-white-mage) (0.6% of its decks), [Duke Ulder Ravengard](../../cards/D/du.md#duke-ulder-ravengard) (0.7% of its decks), [Orah, Skyclave Hierophant](../../cards/O/or.md#orah-skyclave-hierophant) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/3/cleric-of-the-forward-order) · oracle_id `84a2a592-0e31-434f-b3b4-f2013d86f29d` · printing: DMR #3 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clever Combo
@@ -1706,6 +1712,8 @@ schema: 2
   > *Though losses run high among the scouts of the Stone Havens, they never flinch from their duty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25950 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Sigil of the New Dawn + Defiler of Faith + Phyrexian Altar + Ondu Cleric + Cliffside Lookout](https://commanderspellbook.com/combo/871-3929-4050-4399-5105/) (Infinite death triggers, Infinite creature ETB) · EDHREC: in 666 decks; most often under [General Tazri](../../cards/G/ge.md#general-tazri) (1.6% of its decks), [Munda, Ambush Leader](../../cards/M/mu.md#munda-ambush-leader) (42.5% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#cliffside-lookout)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/20/cliffside-lookout) · oracle_id `97671aac-7322-44ae-8908-d573734db3af` · printing: BFZ #20 (2015-10-02) · [rulings](https://api.scryfall.com/cards/8c755ae6-badc-4dc8-bfa6-fdebcb00bfba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1865,6 +1873,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24438 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-04-08* — You can cast Clip Wings even if some (or all) of your opponents don’t control a creature with flying. Those who do must each choose a flying creature to sacrifice, and those who don’t are unaffected.
+- **Lore:** ✅ Card art shown on [The Archmage of Goldnight](https://magic.wizards.com/en/news/magic-story/archmage-goldnight-2016-06-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 929 decks; most often under [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (0.1% of its decks), [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (0.2% of its decks), [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/197/clip-wings) · oracle_id `cefa28e2-6a95-4aca-86f4-b0b741f61939` · printing: SOI #197 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clive, Ifrit's Dominant // Ifrit, Warden of Inferno

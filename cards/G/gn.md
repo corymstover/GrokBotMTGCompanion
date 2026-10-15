@@ -229,6 +229,8 @@ schema: 2
   > {T}: Target attacking Elf you control gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14059 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,422 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (9.4% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (4.3% of its decks), [Thranduil, the Elvenking](../../cards/T/thr.md#thranduil-the-elvenking) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/100/gnarlroot-trapper) · oracle_id `d3cc22ea-2ccf-409b-b471-51adb63c7fda` · printing: ORI #100 (2015-07-17) · [rulings](https://api.scryfall.com/cards/e05572ba-3a26-41f5-96c1-960ec9367178/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnarlwood Dryad

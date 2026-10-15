@@ -576,6 +576,8 @@ schema: 2
   > *Kaya had stalked countless horrific foes, but never one that killed with such callous precision and twisted creativity.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12870 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KHM #85 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,807 decks; most often under [Dina, Soul Steeper](../../cards/D/di.md#dina-soul-steeper) (13.3% of its decks), [Vito, Thorn of the Dusk Rose](../../cards/V/vi.md#vito-thorn-of-the-dusk-rose) (6.9% of its decks), [Astarion, the Decadent](../../cards/A/as.md#astarion-the-decadent) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/85/dogged-pursuit) · oracle_id `987f8c13-0164-4536-b505-d9fa799222fb` · printing: KHM #85 (2021-02-05) · [rulings](https://api.scryfall.com/cards/60f6a159-b969-4767-802e-409f8bf286fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dogmeat, Ever Loyal
@@ -1026,7 +1028,9 @@ schema: 2
   - *2019-05-03* — Because it's a loyalty ability, Domri's first loyalty ability isn't a mana ability. It can be activated only any time you could cast a sorcery. It uses the stack and can be responded to.
   - *2019-05-03* — If Domri leaves the battlefield before his last ability resolves, most likely because he only had 2 loyalty when you activated the ability, the creature won't have +1/+0 from Domri's static ability while it fights.
   - *2019-05-03* — If either target is an illegal target as Domri's last ability resolves, no creature will deal or be dealt damage.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/D.md#domri-anarch-of-bolas)
+- **Lore:** ✅ Card art shown on [War of the Spark: Ravnica – The Path to Opulent](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Domri Rade](../../Characters%20Index.md#domri-rade) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 15 combos; most popular [Cloudstone Curio + Xenagos, the Reveler + Domri, Anarch of Bolas](https://commanderspellbook.com/combo/2232-2937-4848/) (Infinite creature tokens, Infinite creature ETB) · EDHREC: in 60,820 decks; most often under [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (24.5% of its decks), [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (33.2% of its decks), [Maarika, Brutal Gladiator](../../cards/M/maa.md#maarika-brutal-gladiator) (52.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/D.md#domri-anarch-of-bolas)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/191/domri-anarch-of-bolas) · oracle_id `afc2269c-d3b5-487d-9445-800c7a8e526b` · printing: WAR #191 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Domri, Chaos Bringer
@@ -1045,6 +1049,8 @@ schema: 2
   - *2019-01-25* — If a creature enters the battlefield with two instances of riot, you may choose to have it get two +1/+1 counters, one +1/+1 counter and haste, or two instances of haste. Multiple instances of haste on the same creature are redundant, but we’re not going to tell the Gruul how to live their lives.
   - *2019-01-25* — If you choose for the creature to gain haste, it gains haste indefinitely. It won’t lose it as the turn ends or as another player gains control of it.
   - *2019-01-25* — Riot is a replacement effect. Players can’t respond to your choice of +1/+1 counter or haste, and they can’t take actions while the creature is on the battlefield without one or the other.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Domri Rade](../../Characters%20Index.md#domri-rade) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,273 decks; most often under [Slinza, the Spiked Stampede](../../cards/S/sl.md#slinza-the-spiked-stampede) (7.8% of its decks), [Minsc & Boo, Timeless Heroes](../../cards/M/min.md#minsc--boo-timeless-heroes) (2.0% of its decks), [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/D.md#domri-chaos-bringer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/166/domri-chaos-bringer) · oracle_id `2a5408ed-8b47-4896-97e4-aa102a4b85c9` · printing: RNA #166 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1060,6 +1066,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23707 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-01-25* — Domri's first and third abilities affect only creatures you control at the time they resolve. Creatures you begin to control later in the turn won't get +1/+1 or gain haste if his first ability has resolved, and won't gain trample or get three +1/+1 counters if his third ability has resolved.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Domri Rade](../../Characters%20Index.md#domri-rade) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,089 decks; most often under [Slinza, the Spiked Stampede](../../cards/S/sl.md#slinza-the-spiked-stampede) (1.1% of its decks), [Minsc & Boo, Timeless Heroes](../../cards/M/min.md#minsc--boo-timeless-heroes) (0.4% of its decks), [Ruric Thar, the Unbowed](../../cards/R/ru.md#ruric-thar-the-unbowed) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#domri-city-smasher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/269/domri-city-smasher) · oracle_id `d8fe9672-0ead-4f47-abd8-e1ee133c5c60` · printing: RNA #269 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1079,6 +1087,8 @@ schema: 2
   - *2017-03-14* — The second target of Domri's second ability can be another creature you control, but it can't be the same creature as the first target.
   - *2017-03-14* — When resolving Domri's first ability, if the card you look at isn't a creature card, or if it's a creature card you don't want to put into your hand, you simply put it back on top of your library. You don't reveal it or say why you're putting it back.
   - *2024-01-12* — If a creature has both double strike and trample, the combat damage it assigned during the first combat damage step will be considered when determining how much damage can trample through in the second combat damage step. If each creature blocking it is destroyed during the first combat damage step, then all of the damage must be assigned to the player, planeswalker, or battle it's attacking during the second combat damage step.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/burying-part-2-2013-03-06) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Domri Rade](../../Characters%20Index.md#domri-rade) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,457 decks; most often under [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (6.8% of its decks), [Maarika, Brutal Gladiator](../../cards/M/maa.md#maarika-brutal-gladiator) (11.2% of its decks), [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (8.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/D.md#domri-rade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/179/domri-rade) · oracle_id `0c4a2c42-0874-40b4-8d12-47eeadc3e976` · printing: RVR #179 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1718,6 +1728,8 @@ schema: 2
   - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
   - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
   - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Lore:** Featured in: [Plane → Kaldheim](../../Planes%20Index.md#kaldheim) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08), [2](https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-2-2021-01-14) via entry) · [Item → World Tree & the Sword of the Realms (Kaldheim)](../../Items%20%26%20Artifacts%20Index.md#world-tree--the-sword-of-the-realms-kaldheim) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08), [2](https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-2-2021-01-14) via entry) (the entry line carries ❓) — ✅ Story Spotlight printing (Scryfall `story_spotlight`): KHM #9 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 32,717 decks; most often under [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (57.4% of its decks), [Ranar the Ever-Watchful](../../cards/R/ran.md#ranar-the-ever-watchful) (75.4% of its decks), [Gwen Stacy](../../cards/G/gw.md#gwen-stacy--ghost-spider) (17.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/D.md#doomskar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/9/doomskar) · oracle_id `38ece0fa-2c94-4eae-b6ab-74b783862f3e` · printing: KHM #9 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1929,6 +1941,8 @@ schema: 2
 - **Rulings** (2):
   - *2008-04-01* — If you cast a creature spell of the chosen type, Door of Destinies will get a charge counter before the creature enters. The creature will enter with the additional boost to its power and toughness.
   - *2013-07-01* — Creature types, such as Human or Sliver, appear after the dash on the type line of creatures. Notably, artifact is not a creature type. A creature may have more than one creature type, such as Goblin Warrior. Such a creature would benefit from Door of Destinies if the chosen creature type was Goblin or Warrior.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/path-bravery-2013-07-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 145,226 decks; most often under [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (61.7% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (17.2% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (65.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#door-of-destinies)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/198/door-of-destinies) · oracle_id `9b6d3dcf-aa5a-4516-bd48-a0723e86bfd1` · printing: MSC #198 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2194,7 +2208,9 @@ schema: 2
   - *2025-11-17* — If you can't place -1/-1 counters on any creatures you control (probably because you control no creatures), you can't choose to blight.
   - *2025-11-17* — Once you've announced that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to destroy or otherwise remove your creatures to stop you from blighting as part of paying the cost of that spell or ability.
   - *2025-11-17* — The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dose-of-dawnglow)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ECL #100 — [Art & Flavor → Lorwyn Eclipsed (2025–26)](../../Art%20%26%20Flavor%20Story%20Links.md#lorwyn-eclipsed-202526) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 40 combos; most popular [Dualcaster Mage + Carrion Feeder + Dose of Dawnglow](https://commanderspellbook.com/combo/147-2438-7166/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 3,973 decks; most often under [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (3.7% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (2.6% of its decks), [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (2.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/D.md#dose-of-dawnglow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/100/dose-of-dawnglow) · oracle_id `f852bc33-e2f8-43be-9e6e-7badd1f894ef` · printing: ECL #100 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### DOT-7 Repair Squad
@@ -2231,6 +2247,8 @@ schema: 2
   - *2018-07-13* — The copy that Doublecast’s ability creates is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger.
   - *2018-07-13* — The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
   - *2018-07-13* — You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: Perspectives](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Errant, Street Artist + Reality Spasm + Doublecast](https://commanderspellbook.com/combo/1357-4697-5937/) (Infinite untap of permanents you control, Infinite magecraft triggers) · EDHREC: in 9,718 decks; most often under [Ashling, Flame Dancer](../../cards/A/as.md#ashling-flame-dancer) (11.6% of its decks), [Ojer Axonil, Deepest Might](../../cards/O/oj.md#ojer-axonil-deepest-might--temple-of-power) (2.6% of its decks), [Codie, Vociferous Codex](../../cards/C/cod.md#codie-vociferous-codex) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/307/doublecast) · oracle_id `946675f5-8998-4f1b-934b-85ffe6e2f002` · printing: JMP #307 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Double Cleave
@@ -2609,6 +2627,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-01-25* — Dovin’s second ability can target a creature that’s already tapped. That creature won’t untap during its controller’s next untap step.
   - *2019-01-25* — In a Two-Headed Giant game, if a player is instructed to skip their next untap step, the entire team skips that step.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Dovin Baan](../../Characters%20Index.md#dovin-baan) · [Dossier → Dovin Baan](../../Planeswalker%20Dossiers.md#dovin-baan) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,259 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (2.9% of its decks), [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (1.6% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/D.md#dovin-architect-of-law)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/265/dovin-architect-of-law) · oracle_id `a3386efe-d6c5-4853-a4db-61460da3364a` · printing: RNA #265 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2626,6 +2646,8 @@ schema: 2
   - *2016-09-20* — Activated abilities contain a colon. They're generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
   - *2016-09-20* — An opponent affected by Dovin Baan's emblem chooses which two of their permanents to untap, not you.
   - *2016-09-20* — Dovin Baan's first ability can target any creature, not just one with an activated ability. It can also be activated targeting no creature at all.
+- **Lore:** ✅ Card art shown on [A Grateful Consulate](https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19), [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Dovin Baan](../../Characters%20Index.md#dovin-baan) · [Dossier → Dovin Baan](../../Planeswalker%20Dossiers.md#dovin-baan) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,154 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (3.6% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (14.4% of its decks), [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/D.md#dovin-baan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/179/dovin-baan) · oracle_id `5b33bfbf-e4e1-43de-9c96-ccdc2916510a` · printing: KLD #179 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2642,6 +2664,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-01-25* — If you have fewer than ten cards in your library as Dovin's last ability resolves, look at however many cards you have, put three of them into your hand (or all of them if you have fewer than three cards in your library), and then put the rest back in a random order.
   - *2019-01-25* — The delayed triggered ability created by Dovin's first ability triggers for each creature you control that deals combat damage to a player this turn. Dovin gets only one loyalty counter as each ability resolves, no matter how much damage was dealt.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Dovin Baan](../../Characters%20Index.md#dovin-baan) · [Dossier → Dovin Baan](../../Planeswalker%20Dossiers.md#dovin-baan) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Aminatou, the Fateshifter + Teferi, Master of Time + Nicol Bolas, Dragon-God + Dovin, Grand Arbiter](https://commanderspellbook.com/combo/193-1180-2247-6802/) (Infinite turns, Lock) · EDHREC: in 5,179 decks; most often under [Millicent, Restless Revenant](../../cards/M/mil.md#millicent-restless-revenant) (8.3% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (2.2% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/D.md#dovin-grand-arbiter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/153/dovin-grand-arbiter) · oracle_id `596237da-3d51-4052-a8ca-2218efc1afb3` · printing: VOC #153 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2658,6 +2682,8 @@ schema: 2
   - *2019-05-03* — Dovin’s loyalty ability can target any permanent an opponent controls, not just one that can deal or be dealt damage.
   - *2019-05-03* — In a multiplayer game, if you leave the game after Dovin’s last ability resolves but before your next turn begins, its effect lasts until your next turn would have begun. It neither expires immediately nor lasts indefinitely.
   - *2019-05-03* — Once Dovin’s loyalty ability resolves, the damage prevention continues to apply even if Dovin leaves the battlefield.
+- **Lore:** ✅ Card art shown on [War of the Spark: Ravnica – Rallying the Reluctant](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Dovin Baan](../../Characters%20Index.md#dovin-baan) · [Dossier → Dovin Baan](../../Planeswalker%20Dossiers.md#dovin-baan) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Port Razer + Thrasta, Tempest's Roar + Odric, Lunarch Marshal + Dovin, Hand of Control](https://commanderspellbook.com/combo/1548-2408-4526-5178/) (Infinite combat damage, Infinite combat phases) · EDHREC: in 16,165 decks; most often under [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (46.0% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (11.7% of its decks), [Lavinia, Azorius Renegade](../../cards/L/la.md#lavinia-azorius-renegade) (18.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/D.md#dovin-hand-of-control)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/229/dovin-hand-of-control) · oracle_id `95bbe04c-bcea-461d-9946-6c1a35dfbeb1` · printing: WAR #229 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2674,6 +2700,9 @@ schema: 2
 - **Rulings** (2):
   - *2019-01-25* — The second ability of Dovin’s Acuity resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
   - *2019-01-25* — The second ability of Dovin’s Acuity triggers only if it’s on the battlefield. It won’t return from your graveyard.
+- **Lore:** ✅ Card art shown on [The Ascension of Reza](https://magic.wizards.com/en/news/magic-story/ascension-reza-2019-02-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,807 decks; most often under [Brago, King Eternal](../../cards/B/br.md#brago-king-eternal) (5.0% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (1.1% of its decks), [Yorion, Sky Nomad](../../cards/Y/yo.md#yorion-sky-nomad) (6.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dovins-acuity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/168/dovins-acuity) · oracle_id `898e480d-c44e-4080-910a-f53e4ee471e1` · printing: RNA #168 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dovin's Automaton

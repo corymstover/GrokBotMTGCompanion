@@ -934,6 +934,8 @@ schema: 2
   > *"Your eyes, they burn with resolve . . . beautiful."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3771 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 7](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-7-2018-04-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 44,487 decks; most often under [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (29.8% of its decks), [Zimone, Infinite Analyst](../../cards/Z/zi.md#zimone-infinite-analyst) (51.0% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (4.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#syncopate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/80/syncopate) · oracle_id `318f7f70-e374-40ef-8afb-3389c10461d8` · printing: FIN #80 (2025-06-13) · [rulings](https://api.scryfall.com/cards/83e1cd8d-5b97-427a-be75-2a1947f9c59b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

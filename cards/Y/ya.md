@@ -90,6 +90,8 @@ schema: 2
   - *2017-02-09* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, you must pay those to cast the card.
   - *2017-02-09* — While you're casting your free spell, the Expertise spell is still on the stack. It will be put into its owner's graveyard after the free spell is cast. The free spell can't target the Expertise card in your graveyard. It can target the Expertise spell on the stack, but the Expertise spell will become an illegal target before the free spell resolves.
   - *2017-04-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If an expertise spell allows you to cast a split card, you may cast either half or, if that split card has fuse, both halves.
+- **Lore:** ✅ Flavor text verbatim on [official page 1](https://magic.wizards.com/en/news/magic-story/dead-night-2016-11-30) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,418 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (7.0% of its decks), [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (35.2% of its decks), [Talion, the Kindly Lord](../../cards/T/ta.md#talion-the-kindly-lord) (12.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/75/yahennis-expertise) · oracle_id `692babfa-9b74-415e-a560-abae4ccb006b` · printing: AER #75 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yahenni, Undying Partisan
@@ -205,6 +207,8 @@ schema: 2
   > *—Field notes of Aryel, knight of Windgrace*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6623 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23), [Return to Dominaria: Episode 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Braids, Arisen Nightmare (Dominaria-only)](../../decks/plane-dominaria-braids-arisen-nightmare.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 324 decks; highest synergy [Fireshrieker](../../cards/F/fi.md#fireshrieker) (+54%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+50%), [Rogue's Passage](../../cards/R/ro.md#rogues-passage) (+48%) · EDHREC: in 22,831 decks; most often under [The Gitrog, Ravenous Ride](../../cards/T/theg.md#the-gitrog-ravenous-ride) (49.6% of its decks), [Yargle and Multani](../../cards/Y/ya.md#yargle-and-multani) (45.7% of its decks), [Abigale, Eloquent First-Year](../../cards/A/ab.md#abigale-eloquent-first-year) (56.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/Y.md#yargle-glutton-of-urborg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/241/yargle-glutton-of-urborg) · oracle_id `ed66cd31-958f-4b28-82a3-e04acc819afc` · printing: FRA #241 (2026-10-02) · [rulings](https://api.scryfall.com/cards/04c816fb-5951-4db1-8834-ed3f0b36bfe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -352,6 +356,8 @@ schema: 2
 - **Rulings** (2):
   - *2014-11-24* — Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it.
   - *2014-11-24* — The powers of the target creature and Yasova Dragonclaw are checked as you put the ability on the stack and again as the ability resolves. Once the ability resolves, it doesn’t matter what happens to either creature’s power.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21), [Chronicle of Bolas: The Twins](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13), [Khanfall](https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,744 decks; highest synergy [Evolutionary Leap](../../cards/E/ev.md#evolutionary-leap) (+54%), [Life's Legacy](../../cards/L/li.md#lifes-legacy) (+53%), [Greater Good](../../cards/G/gre.md#greater-good) (+50%) · EDHREC: in 1,396 decks; most often under [Eshki, Temur's Roar](../../cards/E/es.md#eshki-temurs-roar) (1.8% of its decks), [Surrak Dragonclaw](../../cards/S/sur.md#surrak-dragonclaw) (9.5% of its decks), [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/148/yasova-dragonclaw) · oracle_id `75dc0995-f89e-4a2c-b30b-9b5a07c21183` · printing: FRF #148 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yathan Roadwatcher
@@ -472,6 +478,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
   - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Tatyova, Benthic Druid](../../decks/tatyova-benthic-druid.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 610,940 decks; most often under [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (61.7% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (73.8% of its decks), [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (77.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 card data) → [reverse index](../../references/Y.md#yavimaya-coast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/425/yavimaya-coast) · oracle_id `40b36bc6-c185-4bda-99e7-0118953c2c97` · printing: SOC #425 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

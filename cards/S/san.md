@@ -130,6 +130,8 @@ schema: 2
   - *2025-11-17* — The colors are white, blue, black, red, and green. Colorless is not a color.
   - *2025-11-17* — The value of X is calculated only once, as Sanar's ability resolves.
   - *2025-11-17* — You pay all costs and follow all timing rules for cards cast this way. For example, if an exiled card is a sorcery card, you may cast it only during your main phase while the stack is empty.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Kirol, Abigale, Lluwen, Sanar](../../Characters%20Index.md#kirol-abigale-lluwen-sanar) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 704 decks; highest synergy [Treasure Hunt](../../cards/T/tre.md#treasure-hunt) (+63%), [Magmakin Artillerist](../../cards/M/mag.md#magmakin-artillerist) (+51%), [Saprazzan Skerry](../../cards/S/sap.md#saprazzan-skerry) (+22%) · EDHREC: in 2,643 decks; most often under [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (3.0% of its decks), [Niv-Mizzet, Guildpact](../../cards/N/ni.md#niv-mizzet-guildpact) (6.7% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#sanar-innovative-first-year)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/241/sanar-innovative-first-year) · oracle_id `2676ba6d-e7a7-48cf-9c86-6e2a11f03096` · printing: ECL #241 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -160,6 +162,8 @@ schema: 2
   - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
   - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
   - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Kirol, Abigale, Lluwen, Sanar](../../Characters%20Index.md#kirol-abigale-lluwen-sanar) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 45 combos; most popular [Displacer Kitten + Molten-Core Maestro + Storm-Kiln Artist + Sanar, Unfinished Genius // Wild Idea](https://commanderspellbook.com/combo/1170-5195-7417-7420/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 1,307 decks; highest synergy [Seize the Spoils](../../cards/S/sei.md#seize-the-spoils) (+30%), [Stock Up](../../cards/S/sto.md#stock-up) (+30%), [Skycoach Waypoint](../../cards/S/sk.md#skycoach-waypoint) (+28%) · EDHREC: in 18,612 decks; most often under [Prismari, the Inspiration](../../cards/P/pr.md#prismari-the-inspiration) (31.3% of its decks), [Rootha, Mastering the Moment](../../cards/R/ro.md#rootha-mastering-the-moment) (27.1% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (4.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#sanar-unfinished-genius--wild-idea)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/223/sanar-unfinished-genius-wild-idea) · oracle_id `a8c44bd9-6470-47d7-934f-77c76a44a984` · printing: SOS #223 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -273,6 +277,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-04-17* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Human you control may become lethal if Sanctuary Lockdown leaves the battlefield during that turn.
   - *2020-04-17* — Since Sanctuary Lockdown’s activated ability doesn’t have a tap symbol in its cost, you can tap creatures that haven’t been under your control since your most recent turn began to pay the cost.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): IKO #28 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,501 decks; most often under [Silvar, Devourer of the Free // Trynn, Champion of Freedom](../../cards/S/si.md#silvar-devourer-of-the-free) (17.2% of its decks), [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (3.4% of its decks), [Jirina Kudro](../../cards/J/ji.md#jirina-kudro) (34.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/28/sanctuary-lockdown) · oracle_id `66793ddf-aca3-44cb-8742-4eee178f31c6` · printing: IKO #28 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctuary Raptor
@@ -524,6 +530,8 @@ schema: 2
   > Whenever you cast a colorless spell with mana value 7 or greater, you may sacrifice this land. If you do, search your library for a colorless creature card, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2890 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Revelation at the Eye](https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) · [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 58,003 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (62.6% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (29.0% of its decks), [Kozilek, the Great Distortion](../../cards/K/ko.md#kozilek-the-great-distortion) (73.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 decks · 1 lore & story) → [reverse index](../../references/S.md#sanctum-of-ugin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/242/sanctum-of-ugin) · oracle_id `72cb5dcd-9b24-435c-921a-3766108374c4` · printing: BFZ #242 (2015-10-02) · [rulings](https://api.scryfall.com/cards/86798d03-9f2d-46bd-a660-13c8dd5535ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -913,6 +921,8 @@ schema: 2
   > *—Gvar Barzeel, krumar captain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #510 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Bond and Blood](https://magic.wizards.com/en/news/magic-story/bond-and-blood-2014-12-03), [The Salt Road](https://magic.wizards.com/en/news/magic-story/the-salt-road) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 260,394 decks; most often under [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (71.1% of its decks), [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (75.1% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (31.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (1 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#sandsteppe-citadel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/164/sandsteppe-citadel) · oracle_id `544dbabd-cbfc-40da-a5ba-2fea9cddb453` · printing: ECC #164 (2026-01-23) · [rulings](https://api.scryfall.com/cards/e7482def-e87e-4a7f-9c18-7859483b2a66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1405,6 +1415,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12498 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-09-29* — Sanguine Sacrament causes you to gain an amount of life equal to twice the number chosen for X as a single life-gain event. An ability that triggers “Whenever you gain life” will trigger only once.
+- **Lore:** ✅ Card art shown on [Unbowed, Part 3](https://magic.wizards.com/en/news/magic-story/unbowed-part-3-2018-09-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,298 decks; most often under [Hope Estheim](../../cards/H/ho.md#hope-estheim) (20.5% of its decks), [Will, Scion of Peace](../../cards/W/wi.md#will-scion-of-peace) (21.3% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/33/sanguine-sacrament) · oracle_id `851be993-35d7-4566-96a0-3fe84d17979e` · printing: XLN #33 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Savior

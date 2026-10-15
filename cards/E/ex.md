@@ -381,7 +381,9 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#excavation-elephant)
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 7](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-7-2018-04-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 319 decks; most often under [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (1.7% of its decks), [Lulu, Loyal Hollyphant // Master Chef](../../cards/L/lu.md#lulu-loyal-hollyphant) (6.4% of its decks), [Quintorius, Loremaster](../../cards/Q/qu.md#quintorius-loremaster) (0.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/E.md#excavation-elephant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/17/excavation-elephant) · oracle_id `45fa04ee-3b5c-45b3-8c09-bda08cca3630` · printing: DOM #17 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Excavation Explosion
@@ -1314,6 +1316,8 @@ schema: 2
   > *Quintorius was a daydreamer, far happier digging through history books than practicing battle tactics. He agreed with the military academy on only one thing: he did not belong in their ranks.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19442 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Mentor](https://magic.wizards.com/en/news/magic-story/mentor-2021-04-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,483 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (1.2% of its decks), [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (1.9% of its decks), [Killian, Ink Duelist](../../cards/K/ki.md#killian-ink-duelist) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/18/expel) · oracle_id `58776b25-794e-4a87-bc71-a77c025b9b03` · printing: STX #18 (2021-04-23) · [rulings](https://api.scryfall.com/cards/be517a58-b7ee-4213-98a5-8c19e1b2def6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Expel from Orazca
@@ -1727,6 +1731,8 @@ schema: 2
   - *2017-03-14* — Explore's effect allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you don't get to play a land as Explore resolves; Explore fully resolves first and you draw a card, perhaps a land you'll play later.
   - *2017-03-14* — If you somehow manage to cast Explore when it's not your turn, you'll draw a card when it resolves, but you won't be able to play a land that turn.
   - *2017-03-14* — The effects of multiple Explores in the same turn are cumulative. They're also cumulative with other effects that let you play additional lands, such as the one from Urban Evolution.
+- **Lore:** ✅ Card art shown on [The Lithomancer](https://magic.wizards.com/en/news/magic-story/the-lithomancer) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Omnath, Locus of Rage (Zendikar-only)](../../decks/plane-zendikar-omnath-locus-of-rage.md) · [Tatyova, Benthic Druid](../../decks/tatyova-benthic-druid.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 441,711 decks; most often under [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (44.5% of its decks), [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (44.3% of its decks), [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (58.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Extra land drops](../../EDH%20Packages.md#lands--landfall-extra-land-drops) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/E.md#explore)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/259/explore) · oracle_id `b8f566ea-8283-4afa-9ac8-737e26419283` · printing: TLE #259 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1846,6 +1852,8 @@ schema: 2
   > *Kaito and Tamiyo charged headlong into Jin-Gitaxias's secret lab, unaware that the praetor was eagerly awaiting their arrival.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11059 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): NEO #139 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Feather, the Redeemed](../../decks/feather-the-redeemed.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,541 decks; most often under [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (35.5% of its decks), [Ashling the Pilgrim](../../cards/A/as.md#ashling-the-pilgrim) (22.2% of its decks), [Anim Pakal, Thousandth Moon](../../cards/A/an.md#anim-pakal-thousandth-moon) (5.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#explosive-entry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/139/explosive-entry) · oracle_id `57544b37-fd5d-4da5-bbb6-7b4a09501dd1` · printing: NEO #139 (2022-02-18) · [rulings](https://api.scryfall.com/cards/7ba639ff-fe82-4ac3-9fb4-eac168bef053/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1860,7 +1868,9 @@ schema: 2
   > *Loot decided he liked these rescuers much more than the last ones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15792 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/E.md#explosive-getaway)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DFT #202 — [Art & Flavor → Aetherdrift (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#aetherdrift-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,759 decks; most often under [Kolodin, Triumph Caster](../../cards/K/ko.md#kolodin-triumph-caster) (17.9% of its decks), [Samut, the Driving Force](../../cards/S/sam.md#samut-the-driving-force) (11.8% of its decks), [Firesong and Sunspeaker](../../cards/F/fi.md#firesong-and-sunspeaker) (4.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Blink: Blink effects](../../EDH%20Packages.md#blink-blink-effects) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/E.md#explosive-getaway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/202/explosive-getaway) · oracle_id `c844cc98-b8b9-447d-92ee-64f4a4906e7c` · printing: DFT #202 (2025-02-14) · [rulings](https://api.scryfall.com/cards/a876edac-b8c8-4994-94f5-548e0fe70fe4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Explosive Growth
@@ -1974,6 +1984,8 @@ schema: 2
   > *Rowan and Will were a natural fit in Prismari College, the school of outrageous elemental arts.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15804 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): PLST #STX-100, STX #100 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Explosive Welcome + Reiterate + Twinning Staff](https://commanderspellbook.com/combo/2539-3368-5312/) (Infinite damage, Infinite magecraft triggers) · EDHREC: in 4,747 decks; most often under [The Scarlet Witch](../../cards/T/thes.md#the-scarlet-witch) (29.8% of its decks), [Lorehold, the Historian](../../cards/L/lo.md#lorehold-the-historian) (5.5% of its decks), [Magar of the Magic Strings](../../cards/M/mag.md#magar-of-the-magic-strings) (6.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/100/explosive-welcome) · oracle_id `ac27ccb8-81e2-42e2-a340-0b0ce9609688` · printing: STX #100 (2021-04-23) · [rulings](https://api.scryfall.com/cards/122c01e6-38a6-456e-971e-9004df85ac1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exponential Growth
@@ -2038,6 +2050,8 @@ schema: 2
   - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2024-02-02* — Unlike a face-down creature that was cast using a disguise or morph ability, a cloaked creature may still be turned face up after it loses its abilities if it's a creature card.
   - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #124, MKM #307 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,978 decks; most often under [Yarus, Roar of the Old Gods](../../cards/Y/ya.md#yarus-roar-of-the-old-gods) (40.7% of its decks), [Kaust, Eyes of the Glade](../../cards/K/ka.md#kaust-eyes-of-the-glade) (43.9% of its decks), [Missy](../../cards/M/mis.md#missy) (16.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#expose-the-culprit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/124/expose-the-culprit) · oracle_id `4f7e4aff-ef68-44fe-a0dc-b9ab0ecd7146` · printing: MKM #124 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2178,6 +2192,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won't count because it's still on the stack as you make this check.
   - *2021-03-19* — A spell or ability that counters spells can still target Exquisite Firecraft. When that spell or ability resolves, Exquisite Firecraft won't be countered if its spell mastery ability applies, but any additional effects of the countering spell or ability will still happen.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,308 decks; most often under [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (18.2% of its decks), [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (1.4% of its decks), [Solphim, Mayhem Dominus](../../cards/S/so.md#solphim-mayhem-dominus) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#exquisite-firecraft)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/143/exquisite-firecraft) · oracle_id `e83c617f-1e07-40db-9b12-ae01122a3e24` · printing: ORI #143 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2344,6 +2360,8 @@ schema: 2
   > *Phenax, god of deception, offered the soldiers protection from every poison on Theros. He saw no need to mention that Pharika's poisons were drawn from Nyx.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3973 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Thank the Gods](https://magic.wizards.com/en/news/magic-story/thank-gods-2014-04-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 41,705 decks; most often under [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (71.7% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (41.2% of its decks), [Zur, Eternal Schemer](../../cards/Z/zu.md#zur-eternal-schemer) (55.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/157/extinguish-all-hope) · oracle_id `c7ca25f3-7a22-477b-8546-4c2597d5d1ff` · printing: CMM #157 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1888ac60-a885-43a7-8e95-9523a0213644/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Extinguisher Battleship
@@ -2371,6 +2389,8 @@ schema: 2
   > *Jaya did not want to die, but of all the things to die for, Dominaria felt right.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21763 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DMU #94 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,604 decks; most often under [Vito, Thorn of the Dusk Rose](../../cards/V/vi.md#vito-thorn-of-the-dusk-rose) (1.3% of its decks), [Sheoldred, the Apocalypse](../../cards/S/she.md#sheoldred-the-apocalypse) (0.4% of its decks), [Dina, Soul Steeper](../../cards/D/di.md#dina-soul-steeper) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#extinguish-the-light)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/94/extinguish-the-light) · oracle_id `6dbef43d-40d3-4894-86a5-d31a5026604e` · printing: DMU #94 (2022-09-09) · [rulings](https://api.scryfall.com/cards/01a51d08-f90e-4b72-8dce-fb2a6c72f181/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2543,7 +2563,9 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — Extraordinary Journey's second ability applies to all creatures that enter the battlefield from exile or were cast from exile, not just creatures cast with Extraordinary Journey's first ability.
   - *2023-09-01* — Players must pay all costs and follow all normal timing rules for spells cast with Extraordinary Journey's first ability.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#extraordinary-journey)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WOE #48 — [Art & Flavor → Wilds of Eldraine (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#wilds-of-eldraine-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,191 decks; most often under [Beluna Grandsquall](../../cards/B/be.md#beluna-grandsquall--seek-thrills) (37.6% of its decks), [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (8.2% of its decks), [Gorion, Wise Mentor](../../cards/G/gor.md#gorion-wise-mentor) (19.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/E.md#extraordinary-journey)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/48/extraordinary-journey) · oracle_id `69288566-3015-45de-b391-6fe079865f0c` · printing: WOE #48 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Extraplanar Lens
@@ -2645,6 +2667,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24272 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — While resolving Extricator of Sin's first ability, you can't sacrifice multiple permanents to get multiple Eldrazi Horror tokens.
+- **Lore:** ✅ Card art shown on [Saint Traft and the Flight of Nightmares](https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 965 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (0.4% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (0.7% of its decks), [Gisela, the Broken Blade](../../cards/G/gi.md#gisela-the-broken-blade) (7.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#extricator-of-sin--extricator-of-flesh)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/23/extricator-of-sin-extricator-of-flesh) · oracle_id `08b3328c-1d96-4a05-ae8b-f1b654084faa` · printing: EMN #23 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2691,7 +2715,9 @@ schema: 2
   - *2021-04-16* — Returning a nonlegendary creature card is not optional. If there is at least one in your graveyard, you must target it with the magecraft ability.
   - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
   - *2021-04-16* — The Blood Avatar will be awakened even if no player has creatures to sacrifice when it resolves.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#extus-oriq-overlord--awaken-the-blood-avatar)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #149 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 59 combos; most popular [Extus, Oriq Overlord // Awaken the Blood Avatar + Chain of Smog](https://commanderspellbook.com/combo/326-4558/) (Infinite magecraft triggers, Infinite self-discard triggers) · EDHREC as commander: 7,795 decks; highest synergy [Sedgemoor Witch](../../cards/S/sed.md#sedgemoor-witch) (+49%), [Young Pyromancer](../../cards/Y/yo.md#young-pyromancer) (+45%), [Monastery Mentor](../../cards/M/mon.md#monastery-mentor) (+39%) · EDHREC: in 1,814 decks; most often under [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.5% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.4% of its decks), [Olivia, Opulent Outlaw](../../cards/O/ol.md#olivia-opulent-outlaw) (1.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/E.md#extus-oriq-overlord--awaken-the-blood-avatar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/149/extus-oriq-overlord-awaken-the-blood-avatar) · oracle_id `0b299983-9f0f-404a-acd1-8f142572b1f1` · printing: STX #149 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exuberant Firestoker

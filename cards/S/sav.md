@@ -454,6 +454,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1684 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-02-25* — This mana won't be lost as steps and phases end for the remainder of the turn even if Savage Ventmaw leaves the battlefield during the turn.
+- **Lore:** ✅ Card art shown on [Sorin's Restoration](https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · [The Ur-Dragon](../../decks/the-ur-dragon.md) · [Xenagos, God of Revels](../../decks/xenagos-god-of-revels.md) · Commander Spellbook: 24 combos; most popular [Savage Ventmaw + Aggravated Assault](https://commanderspellbook.com/combo/62-3750/) (Infinite combat damage, Infinite combat phases) · EDHREC: in 97,033 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (33.7% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (54.6% of its decks), [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (37.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (3 decks · 2 edh guides) → [reverse index](../../references/S.md#savage-ventmaw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/665/savage-ventmaw) · oracle_id `f743d85f-754e-4e70-9907-af54acb9e8d4` · printing: FDN #665 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -517,6 +519,8 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #495 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** Featured in: [Plane → Ikoria](../../Planes%20Index.md#ikoria) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02), [2](https://magic.wizards.com/en/news/magic-story/survival-of-the-fittest) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Edgar Markov](../../decks/edgar-markov.md) · [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · [Edgar Markov (lifegain theme)](../../decks/theme-edgar-markov-lifegain.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 265,219 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (35.9% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (40.1% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (40.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 lore & story) → [reverse index](../../references/S.md#savai-triome)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/253/savai-triome) · oracle_id `00625242-9348-4ef4-b975-f2ac82fee21d` · printing: IKO #253 (2020-04-24) · [rulings](https://api.scryfall.com/cards/748e6a61-9c1f-4225-9f04-e54002f63ac3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

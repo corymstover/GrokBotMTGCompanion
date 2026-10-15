@@ -595,6 +595,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
   - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/burying-part-1-2013-01-30), [official story page](https://magic.wizards.com/en/news/feature/burying-part-2-2013-03-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (8): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Gishath, Sun's Avatar](../../decks/gishath-suns-avatar.md) · [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 932,224 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (48.1% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (45.1% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (48.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 12 pages (8 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#stomping-ground)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/299/stomping-ground) · oracle_id `16052b52-ade1-406f-a06b-ce7ea607fb63` · printing: TRK #299 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -637,6 +639,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20956 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-04-16* — If multiple cards leave your graveyard as part of the same event, Stonebound Mentor’s ability will trigger only once.
+- **Lore:** ✅ Card art shown on [The Mentor](https://magic.wizards.com/en/news/magic-story/mentor-2021-04-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,877 decks; most often under [Quintorius, Loremaster](../../cards/Q/qu.md#quintorius-loremaster) (33.6% of its decks), [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (3.7% of its decks), [Quintorius, Field Historian](../../cards/Q/qu.md#quintorius-field-historian) (39.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/239/stonebound-mentor) · oracle_id `7c4b4dd4-4a80-436a-8526-5c58c1751ccd` · printing: STX #239 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stonebrow, Krosan Hero
@@ -922,6 +926,8 @@ schema: 2
   > *"These days, soldiers never stick around long enough for a proper healing. They just want me to knit them up so they can hurry back to the fight."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26230 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Blight We Were Born For](https://magic.wizards.com/en/news/magic-story/blight-we-were-born-2016-01-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 627 decks; most often under [Hope Estheim](../../cards/H/ho.md#hope-estheim) (0.2% of its decks), [Minwu, White Mage](../../cards/M/min.md#minwu-white-mage) (1.1% of its decks), [Karlov of the Ghost Council](../../cards/K/ka.md#karlov-of-the-ghost-council) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/51/stone-haven-medic) · oracle_id `e4d6ed72-f40f-4e4a-bec0-19b1d4f99ebe` · printing: BFZ #51 (2015-10-02) · [rulings](https://api.scryfall.com/cards/3956563b-bde3-4aec-93fe-e03bade49458/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone Haven Outfitter
@@ -1101,6 +1107,8 @@ schema: 2
   > *The Sun Empire's cities are built from the bones of the earth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5873 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Hand That Moves](https://magic.wizards.com/en/news/magic-story/hand-moves-2017-04-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 26,674 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (2.8% of its decks), [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (6.0% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (6.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#stone-quarry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/495/stone-quarry) · oracle_id `90bccf66-58ec-445d-ac96-c6013054a1b4` · printing: CMR #495 (2020-11-20) · [rulings](https://api.scryfall.com/cards/aa3575e1-7d2c-4777-b469-16f7483bb8e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1258,6 +1266,8 @@ schema: 2
   - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that’s already on the battlefield, the new permanent isn’t bargained, even if the original was.
   - *2023-09-01* — Some instant and sorcery spells require additional targets if they’re bargained. You ignore those targeting requirements if those spells aren’t bargained, and you can’t bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won’t be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
   - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell’s bargain cost.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WOE #151 — [Art & Flavor → Wilds of Eldraine (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#wilds-of-eldraine-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,592 decks; most often under [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (60.7% of its decks), [Smaug the Impenetrable](../../cards/S/sm.md#smaug-the-impenetrable) (5.8% of its decks), [Rowan, Scion of War](../../cards/R/ro.md#rowan-scion-of-war) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#stonesplitter-bolt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/151/stonesplitter-bolt) · oracle_id `1322734c-3c3e-4885-a6d2-d6460a16fca2` · printing: WOE #151 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2297,6 +2307,8 @@ schema: 2
   - *2025-04-04* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
   - *2025-04-04* — If an Aura is exiled this way, its owner chooses what it will enchant as it returns to the battlefield. An Aura put onto the battlefield this way doesn’t target anything (so it could be attached to a permanent with shroud, for example), but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains in exile for the rest of the game.
   - *2025-04-04* — If this enchantment leaves the battlefield before its ability resolves, the target nonland permanent won’t be exiled.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): TDM #28 — [Art & Flavor → Tarkir: Dragonstorm (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#tarkir-dragonstorm-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,838 decks; most often under [Zurgo, Thunder's Decree](../../cards/Z/zu.md#zurgo-thunders-decree) (4.2% of its decks), [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (1.2% of its decks), [Betor, Kin to All](../../cards/B/be.md#betor-kin-to-all) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#stormplain-detainment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/28/stormplain-detainment) · oracle_id `4ad9c550-5605-4ffe-8e27-e9f2d9ada000` · printing: TDM #28 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2647,6 +2659,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — If a creature is attacking a planeswalker, the controller of the planeswalker is the defending player.
   - *2019-05-03* — Storm the Citadel affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +2/+2 or gain the triggered ability.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #178 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,592 decks; most often under [Edric, Spymaster of Trest](../../cards/E/ed.md#edric-spymaster-of-trest) (3.7% of its decks), [Marisi, Breaker of the Coil](../../cards/M/mar.md#marisi-breaker-of-the-coil) (0.9% of its decks), [Shroofus Sproutsire](../../cards/S/shr.md#shroofus-sproutsire) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#storm-the-citadel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/178/storm-the-citadel) · oracle_id `bd4810a4-8f86-4d1c-82f1-cbcd7e9479d6` · printing: WAR #178 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2666,6 +2680,8 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #200 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,988 decks; most often under [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (13.8% of its decks), [Doc Aurlock, Grizzled Genius](../../cards/D/do.md#doc-aurlock-grizzled-genius) (5.7% of its decks), [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/200/storm-the-festival) · oracle_id `5d03188b-fbc4-4e16-9fe6-db98dbdb7f68` · printing: MID #200 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm the Seedcore
@@ -2681,6 +2697,8 @@ schema: 2
   - *2023-04-14* — If all of Storm the Seedcore’s targets are illegal at the time the spell tries to resolve, it won’t resolve and none of its effects will happen. Creatures you control won’t gain vigilance and trample.
   - *2023-04-14* — If some of the creatures are illegal targets as Storm the Seedcore tries to resolve, the original distribution of counters still applies and the counters that would have been put on the illegal targets are lost. They won’t be put instead on a legal target.
   - *2023-04-14* — You choose how many targets Storm the Seedcore has and how the counters will be distributed as you cast the spell. Each target must receive at least one counter.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #206, PLST #MOM-206 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,972 decks; most often under [Kyler, Sigardian Emissary](../../cards/K/ky.md#kyler-sigardian-emissary) (4.8% of its decks), [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (1.1% of its decks), [Glissa, Herald of Predation](../../cards/G/gl.md#glissa-herald-of-predation) (8.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#storm-the-seedcore)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/206/storm-the-seedcore) · oracle_id `ae7643ea-ef1c-43a3-9605-4e8585239ea3` · printing: MOM #206 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2788,6 +2806,8 @@ schema: 2
   - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won’t put a +1/+1 counter on it.
   - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
   - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn’t use the stack and can’t be responded to.
+- **Lore:** ✅ Card art shown on [The Guardian](https://magic.wizards.com/en/news/magic-story/guardian-2015-04-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 851 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.2% of its decks), [Yarus, Roar of the Old Gods](../../cards/Y/ya.md#yarus-roar-of-the-old-gods) (1.9% of its decks), [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#stormwing-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/159/stormwing-dragon) · oracle_id `10796fe6-edf8-427b-986c-e7666a72ec8d` · printing: DTK #159 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

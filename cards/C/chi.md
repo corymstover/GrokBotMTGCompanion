@@ -216,7 +216,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2844 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to an artifact creature you control may become lethal if Chief of the Foundry leaves the battlefield during that turn.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#chief-of-the-foundry)
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Urza, Lord High Artificer](../../decks/lore-brothers-war-urza-lord-high-artificer.md) · Commander Spellbook: 5 combos; most popular [Slagstone Refinery + March of the Machines + Sword of the Meek + Krark-Clan Ironworks + Chief of the Foundry](https://commanderspellbook.com/combo/2558-4303-4659-4694-4854/) (Infinite colorless mana, Infinite death triggers) · EDHREC: in 58,797 decks; most often under [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (38.0% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (33.1% of its decks), [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (16.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/C.md#chief-of-the-foundry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/238/chief-of-the-foundry) · oracle_id `4fdfa41a-75a5-4b36-8c9e-083e26d137e2` · printing: 2XM #238 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chief of the Scale
@@ -230,6 +232,9 @@ schema: 2
   > *"We are the shield unbroken. If we fall today, we will die well, and our trees will bear our names in honor."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21678 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Salt Road](https://magic.wizards.com/en/news/magic-story/the-salt-road) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,633 decks; most often under [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (5.0% of its decks), [Zurgo, Thunder's Decree](../../cards/Z/zu.md#zurgo-thunders-decree) (5.4% of its decks), [Zurgo Helmsmasher](../../cards/Z/zu.md#zurgo-helmsmasher) (1.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#chief-of-the-scale)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/170/chief-of-the-scale) · oracle_id `32e4de02-8437-4ffc-acc9-a3736652d282` · printing: KTK #170 (2014-09-26) · [rulings](https://api.scryfall.com/cards/a227b8cc-cbe5-4955-ad1b-a354704a82e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chief of the Wilds

@@ -149,6 +149,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23035 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-04-16* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions (such as that of Mascot Interception). Mascot Interception’s mana value is always 4, no matter what the total cost to cast it was.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #110 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,250 decks; most often under [Brion Stoutarm](../../cards/B/br.md#brion-stoutarm) (2.4% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.1% of its decks), [Zidane, Tantalus Thief](../../cards/Z/zi.md#zidane-tantalus-thief) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/110/mascot-interception) · oracle_id `ae3da0be-2a3f-498a-8854-73d0a5526ec2` · printing: STX #110 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Masked Admirers
@@ -257,7 +259,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4158 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-09-22* — If Mask of Avacyn somehow becomes attached to a creature an opponent controls, that creature can't be the target of spells or abilities you control.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mask-of-avacyn)
+- **Lore:** ✅ Card art shown on [The Hunter Cannot Pity](https://magic.wizards.com/en/news/magic-story/hunter-cannot-pity-2014-07-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 39,663 decks; most often under [Ardenn, Intrepid Archaeologist // Rograkh, Son of Rohgahh](../../cards/A/ard.md#ardenn-intrepid-archaeologist) (27.0% of its decks), [Wyleth, Soul of Steel](../../cards/W/wy.md#wyleth-soul-of-steel) (41.6% of its decks), [Balan, Wandering Knight](../../cards/B/bal.md#balan-wandering-knight) (19.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Voltron (equipment & auras): Protective equipment/auras](../../EDH%20Packages.md#voltron-equipment--auras-protective-equipmentauras) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/M.md#mask-of-avacyn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/466/mask-of-avacyn) · oracle_id `ab66f8a8-eb3d-4c2d-95e9-26a53c66b237` · printing: CMR #466 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mask of Griselbrand
@@ -853,6 +857,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — In a casual game, a card you choose from outside the game comes from your personal collection. In a tournament event, a card you choose from outside the game must come from your sideboard. You may look at your sideboard at any time.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): RIX #77 — ✅ Card art shown on [Sabotage](https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,535 decks; most often under [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (16.6% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.4% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/77/masterminds-acquisition) · oracle_id `6aec5b1f-cea6-4ec3-9759-e4544da8c52b` · printing: RIX #77 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master of Arms
@@ -1407,6 +1413,8 @@ schema: 2
   - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
   - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Lore:** ✅ Card art shown on [Khanfall](https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Wormfang Manta + Mastery of the Unseen + Civic Guildmage](https://commanderspellbook.com/combo/2684-2724-4168/) (Infinite turns, Lock) · EDHREC: in 3,877 decks; most often under [Kaust, Eyes of the Glade](../../cards/K/ka.md#kaust-eyes-of-the-glade) (80.2% of its decks), [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (2.2% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/74/mastery-of-the-unseen) · oracle_id `ae0701c1-7a99-46fe-bcb1-ea33ad2a0fc9` · printing: MKC #74 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Masticore

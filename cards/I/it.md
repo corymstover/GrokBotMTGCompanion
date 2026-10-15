@@ -80,7 +80,9 @@ schema: 2
   - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won't stop being suspected.
   - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
   - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#it-doesnt-add-up)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #299, MKM #89 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,341 decks; most often under [Hidetsugu and Kairi](../../cards/H/hi.md#hidetsugu-and-kairi) (5.1% of its decks), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (0.2% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (0.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/I.md#it-doesnt-add-up)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/89/it-doesnt-add-up) · oracle_id `dcfc8c59-d032-414d-9da6-125ebcb1366c` · printing: MKM #89 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Item Crate
@@ -259,6 +261,8 @@ schema: 2
   - *2010-06-15* — It doesn’t matter whose graveyard the permanent is put into, only that it was last controlled by, and sacrificed by, an opponent.
   - *2010-06-15* — The second ability triggers whenever an opponent sacrifices a nontoken permanent for any reason, not just due to the annihilator ability.
   - *2010-06-15* — When the second ability resolves, you must return the card to the battlefield, even if you don’t want to.
+- **Lore:** ✅ Card art shown on [Kruphix's Insight](https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) · Commander Spellbook: 2 combos; most popular [It That Betrays + Mirrorweave + Bronze Bombshell](https://commanderspellbook.com/combo/2378-4859-6550/) (Near-infinite damage) · EDHREC: in 105,643 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (79.5% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (36.9% of its decks), [Ultima, Origin of Oblivion](../../cards/U/ul.md#ultima-origin-of-oblivion) (49.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#it-that-betrays)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/805/it-that-betrays) · oracle_id `b11187ab-f8a8-422b-b550-4495f96de0f2` · printing: CMM #805 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

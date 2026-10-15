@@ -275,6 +275,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12078 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-11-19* — You can't discard Edgar's Awakening just because you want to. In order to discard it, a rule or effect needs to allow or instruct you to do so.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): VOW #110 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,889 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (3.8% of its decks), [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (10.6% of its decks), [Anje, Maid of Dishonor](../../cards/A/an.md#anje-maid-of-dishonor) (17.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#edgars-awakening)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/108/edgars-awakening) · oracle_id `2c04371a-af69-4e42-8cda-096cf8312b5e` · printing: INR #108 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edge of Autumn

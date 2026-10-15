@@ -195,7 +195,9 @@ schema: 2
   - *2016-09-20* — Fabricate doesn't cause the creature with the ability to enter the battlefield with +1/+1 counters already on it. For example, Weaponcraft Enthusiast will enter the battlefield as a 0/1 creature, then its fabricate ability goes on the stack. Players may take actions (such as casting instants) while the ability is waiting to resolve.
   - *2016-09-20* — If you can't put +1/+1 counters on the creature for any reason as fabricate resolves (for instance, if it's no longer on the battlefield), you just create Servo tokens.
   - *2016-09-20* — You choose whether to put +1/+1 counters on the creature or create Servo tokens as the fabricate ability is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created.
-- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#weaponcraft-enthusiast)
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 24 combos; most popular [Tayam, Luminous Enigma + Weaponcraft Enthusiast + Ashnod's Altar](https://commanderspellbook.com/combo/687-1483-2034/) (Infinite colorless mana, Infinite death triggers) · EDHREC: in 8,429 decks; most often under [Tayam, Luminous Enigma](../../cards/T/ta.md#tayam-luminous-enigma) (13.4% of its decks), [Shirei, Shizo's Caretaker](../../cards/S/shi.md#shirei-shizos-caretaker) (14.5% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (4.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/W.md#weaponcraft-enthusiast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/105/weaponcraft-enthusiast) · oracle_id `7c27136a-bf9d-4f42-9c37-abe347fad1bb` · printing: KLD #105 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weaponized Scrap
@@ -470,6 +472,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2496 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Rulings** (1):
   - *2018-04-27* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn't make an object more historic than another or provide an additional bonus—an object either is historic or it isn't.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 6](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-6-2018-04-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Braids, Arisen Nightmare (Dominaria-only)](../../decks/plane-dominaria-braids-arisen-nightmare.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 109 decks; highest synergy [Mech Hangar](../../cards/M/me.md#mech-hangar) (+44%), [Traxos, Scourge of Kroog](../../cards/T/tra.md#traxos-scourge-of-kroog) (+44%), [Scrap Trawler](../../cards/S/sc.md#scrap-trawler) (+39%) · EDHREC: in 66,330 decks; most often under [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (44.5% of its decks), [Edward Kenway](../../cards/E/ed.md#edward-kenway) (42.7% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (33.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#weatherlight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/165/weatherlight) · oracle_id `73b3682f-396a-4ebe-aaac-6ce3ee36283a` · printing: NEC #165 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -835,6 +839,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8141 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-11-19* — Activating Wedding Invitation's last ability targeting a creature that has already been blocked won't cause that creature to become unblocked.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): VOW #260 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 17,121 decks; most often under [Squall, SeeD Mercenary](../../cards/S/sq.md#squall-seed-mercenary) (17.7% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (1.9% of its decks), [Lyse Hext](../../cards/L/ly.md#lyse-hext) (17.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/260/wedding-invitation) · oracle_id `d9e752f2-d552-4d72-babd-29eca3508820` · printing: VOW #260 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wedding Ring
@@ -1105,7 +1111,9 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20498 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/W.md#weight-of-memory)
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 9](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,058 decks; most often under [The Emperor of Palamecia](../../cards/T/thee.md#the-emperor-of-palamecia--the-lord-master-of-hell) (14.6% of its decks), [Bruvac the Grandiloquent](../../cards/B/br.md#bruvac-the-grandiloquent) (1.2% of its decks), [The Mindskinner](../../cards/T/them.md#the-mindskinner) (0.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/W.md#weight-of-memory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/74/weight-of-memory) · oracle_id `826c5feb-9e82-49e0-bc6f-6c29004f8151` · printing: DOM #74 (2018-04-27) · [rulings](https://api.scryfall.com/cards/2f2359aa-9230-4519-b12e-ec395a8dd2a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weight of Spires
@@ -1133,6 +1141,8 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27769 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Path or the Horizon](https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07), [The Path or the Horizon](https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07-0) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 430 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (0.2% of its decks), [Eriette, the Beguiler](../../cards/E/er.md#eriette-the-beguiler) (0.3% of its decks), [Athreos, Shroud-Veiled](../../cards/A/at.md#athreos-shroud-veiled) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/126/weight-of-the-underworld) · oracle_id `b960d17b-3679-4dc5-9a5d-c8e7fd81fa9a` · printing: ORI #126 (2015-07-17) · [rulings](https://api.scryfall.com/cards/e2f31943-e26c-4bd2-bdbd-d980836f99b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wei Infantry
@@ -1244,6 +1254,8 @@ schema: 2
   - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
   - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
   - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Lore:** ✅ Card art shown on [The Drownyard Temple](https://magic.wizards.com/en/news/magic-story/drownyard-temple-2016-04-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Arbor Elf + Weirding Wood + Freed from the Real](https://commanderspellbook.com/combo/1112-2050-4222/) (Infinite colored mana) · EDHREC: in 8,422 decks; most often under [Estrid, the Masked](../../cards/E/es.md#estrid-the-masked) (20.3% of its decks), [Gimbal, Gremlin Prodigy](../../cards/G/gi.md#gimbal-gremlin-prodigy) (22.7% of its decks), [Lonis, Cryptozoologist](../../cards/L/lo.md#lonis-cryptozoologist) (10.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/315/weirding-wood) · oracle_id `9ce5cc2f-e223-4c3b-adc1-c0109fd31762` · printing: MOC #315 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wei Scout

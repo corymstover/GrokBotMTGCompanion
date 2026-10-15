@@ -262,6 +262,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19924 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-02-18* — If it is both an enchantment creature and a legendary creature, you still only put one +1/+1 counter on it and it gets +1/+1 until end of turn.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): NEO #32 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,276 decks; most often under [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (3.2% of its decks), [Sergeant John Benton](../../cards/S/ser.md#sergeant-john-benton) (3.5% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/32/regents-authority) · oracle_id `54402930-84ea-4c3e-9880-ca631e47485f` · printing: NEO #32 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regicide

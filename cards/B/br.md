@@ -1578,6 +1578,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1806 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-09-20* — The last ability is cumulative. If you control an additional Brave the Sands, your creatures will each be able to block three creatures, and so on.
+- **Lore:** ✅ Card art shown on [Bond and Blood](https://magic.wizards.com/en/news/magic-story/bond-and-blood-2014-12-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 91,333 decks; most often under [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (56.9% of its decks), [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (38.0% of its decks), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (57.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/19/brave-the-sands) · oracle_id `4e89bd75-f59d-4f08-be51-5660fbbba3c2` · printing: CM2 #19 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brave the Wilds
@@ -1869,6 +1871,8 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14891 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Kiora's Followers](https://magic.wizards.com/en/news/magic-story/kioras-followers-2014-02-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 57 combos; most popular [Kiki-Jiki, Mirror Breaker + Breaching Hippocamp](https://commanderspellbook.com/combo/618-4894/) (Infinite creature tokens with haste, Infinite death triggers) · EDHREC: in 5,584 decks; most often under [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (11.4% of its decks), [Prime Speaker Vannifar](../../cards/P/pr.md#prime-speaker-vannifar) (62.0% of its decks), [Bill Ferny, Bree Swindler](../../cards/B/bi.md#bill-ferny-bree-swindler) (54.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/43/breaching-hippocamp) · oracle_id `5ba04e0d-a3eb-448d-8a97-08c155ef9694` · printing: THS #43 (2013-09-27) · [rulings](https://api.scryfall.com/cards/8841c01e-015e-4541-942a-f8859dd03fea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Breaching Leviathan
@@ -1900,6 +1904,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — The cards you choose can be ones that were just milled or ones that were already in the graveyard.
   - *2023-04-14* — The creatures you control will be Phyrexians until they leave the battlefield. Any of them that stops being a creature will also stop being a Phyrexian until it becomes a creature again, if applicable.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #94 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 31 combos; most popular [Doomsday Excruciator + Breach the Multiverse](https://commanderspellbook.com/combo/3495-5909/) (Infinite mill, Infinite self-mill) · EDHREC: in 170,086 decks; most often under [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (21.3% of its decks), [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (35.8% of its decks), [Magar of the Magic Strings](../../cards/M/mag.md#magar-of-the-magic-strings) (57.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/B.md#breach-the-multiverse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/94/breach-the-multiverse) · oracle_id `ebbd5b9c-07ff-4b42-81c2-ba09539f3a42` · printing: MOM #94 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2171,6 +2177,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — If a permanent you controlled or a token is destroyed with Break the Spell but is put into a zone other than a graveyard as a result, you will draw a card.
   - *2023-09-01* — If the enchantment has indestructible, it won't be destroyed. You won't draw a card.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WOE #5 — [Art & Flavor → Wilds of Eldraine (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#wilds-of-eldraine-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,554 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (4.4% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (1.3% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#break-the-spell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/5/break-the-spell) · oracle_id `b9d51e07-851f-4b7b-bffe-7c1efff0714c` · printing: WOE #5 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2332,6 +2340,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6056 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2005-10-01* — If there isn’t a legal creature to attach Breath of Fury to after the enchanted creature is sacrificed, you don’t untap your creatures or get an additional combat phase, and Breath of Fury is put into its owner’s graveyard as a state-based action.
+- **Lore:** ✅ Card art shown on [Krenko, Mob Boss](https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-16), [Krenko, Mob Boss](https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Goro-Goro and Satoru (Grixis)](../../grixis/decks/goro-goro-and-satoru.md) · Commander Spellbook: 100+ combos; most popular [Breath of Fury + Loyal Apprentice](https://commanderspellbook.com/combo/33-3259/) (Infinite combat damage, Infinite combat phases) · EDHREC: in 25,843 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (24.9% of its decks), [Goro-Goro and Satoru](../../cards/G/gor.md#goro-goro-and-satoru) (25.6% of its decks), [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (12.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#breath-of-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/121/breath-of-fury) · oracle_id `fdaa0faf-e7ee-48b3-9330-de0fc3792ad3` · printing: C16 #121 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2830,6 +2840,8 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — Activating the ability targeting a creature that’s already attacking or blocking won’t remove it from combat or affect that attack or block.
   - *2014-09-20* — If Briber’s Purse has no gem counters on it, it remains on the battlefield, although you can’t activate its last ability.
+- **Lore:** ✅ Card art shown on [The Poisoned Heart](https://magic.wizards.com/en/news/magic-story/poisoned-heart-2015-04-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Emry, Lurker of the Loch + Jeskai Ascendancy + Orcish Mechanics + Briber's Purse](https://commanderspellbook.com/combo/776-1329-1834-2709/) (Infinite damage, Infinite looting) · EDHREC: in 6,429 decks; most often under [Fblthp, Lost on the Range](../../cards/F/fb.md#fblthp-lost-on-the-range) (30.5% of its decks), [Flubs, the Fool](../../cards/F/fl.md#flubs-the-fool) (3.0% of its decks), [Jhoira, Weatherlight Captain](../../cards/J/jh.md#jhoira-weatherlight-captain) (7.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/217/bribers-purse) · oracle_id `bb2cc0f4-6abd-48d6-b442-76eafbfd2309` · printing: KTK #217 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bribery
@@ -3356,6 +3368,8 @@ schema: 2
   > *—Michiko Konda's journal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2384 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): NEO #7 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Isshin, Two Heavens as One (Kamigawa-only)](../../decks/plane-kamigawa-isshin-two-heavens-as-one.md) · Commander Spellbook: 2 combos; most popular [Encroaching Mycosynth + Archaeomancer + Brilliant Restoration + Phyrexian Altar](https://commanderspellbook.com/combo/1370-1379-2493-4050/) (Infinite colored mana, Infinite death triggers) · EDHREC: in 69,062 decks; most often under [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (26.9% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (18.8% of its decks), [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (25.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#brilliant-restoration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/7/brilliant-restoration) · oracle_id `9584a8ae-2aba-42b8-8983-0467d6bd5698` · printing: NEO #7 (2022-02-18) · [rulings](https://api.scryfall.com/cards/64f7a506-0aa1-4c2d-b322-e0e9179d05fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3439,6 +3453,8 @@ schema: 2
   - *2014-02-01* — Although the tokens enter the battlefield attacking or blocking, they were never declared as attacking or blocking creatures. Abilities that trigger whenever a creature attacks or blocks won't trigger.
   - *2014-02-01* — For the first triggered ability, you declare which player, planeswalker, or battle the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker Brimaz is attacking.
   - *2014-02-01* — If Brimaz somehow blocks two or more creatures (note it can't naturally do this), its last ability will trigger that many times.
+- **Lore:** ✅ Card art shown on [Ajani, Mentor of Heroes](https://magic.wizards.com/en/news/magic-story/ajani-mentor-heroes-2014-12-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 32 combos; most popular [Breath of Fury + Rising of the Day + Brimaz, King of Oreskos](https://commanderspellbook.com/combo/1879-3259-7659/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 728 decks; highest synergy [Leonin Warleader](../../cards/L/le.md#leonin-warleader) (+45%), [Regal Caracal](../../cards/R/reg.md#regal-caracal) (+43%), [Arahbo, the First Fang](../../cards/A/ara.md#arahbo-the-first-fang) (+42%) · EDHREC: in 54,141 decks; most often under [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (56.6% of its decks), [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (70.6% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (29.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#brimaz-king-of-oreskos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/5/brimaz-king-of-oreskos) · oracle_id `49471b65-be9d-4ded-b2e5-dfc81b306b54` · printing: BNG #5 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3875,6 +3891,8 @@ schema: 2
 - **Keywords:** Corrupted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10432 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ONE #44 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,632 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (6.6% of its decks), [Venser, Corpse Puppet](../../cards/V/ve.md#venser-corpse-puppet) (51.6% of its decks), [Atraxa, Grand Unifier](../../cards/A/at.md#atraxa-grand-unifier) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#bring-the-ending)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/44/bring-the-ending) · oracle_id `57b37690-0fb6-4e78-9210-4a529a6ade7c` · printing: ONE #44 (2023-02-10) · [rulings](https://api.scryfall.com/cards/ba9d9d26-0c76-4a09-aa25-b32854e70c0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3976,6 +3994,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2016-07-13* — For more information on meld cards, see the Eldritch Moon mechanics article (https://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics-2016-06-27).
+- **Lore:** ✅ Card art shown on [Saint Traft and the Flight of Nightmares](https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#brisela-voice-of-nightmares)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/14b/brisela-voice-of-nightmares) · oracle_id `b23587e0-9fb7-492e-8bb4-f218e8e4ce6c` · printing: INR #14b (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4218,6 +4238,8 @@ schema: 2
   - *2018-04-27* — Broken Bond’s effect doesn’t count as playing a land. It can put a land card onto the battlefield even if you’ve already played your land for the turn.
   - *2018-04-27* — If the target artifact or enchantment is an illegal target by the time Broken Bond tries to resolve, the spell doesn’t resolve. You won’t put a land card onto the battlefield.
   - *2018-04-27* — You can’t cast Broken Bond unless you choose an artifact or enchantment as a target.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DOM #157 — [Art & Flavor → Return to Dominaria (2018)](../../Art%20%26%20Flavor%20Story%20Links.md#return-to-dominaria-2018) — ✅ Flavor text verbatim on [official page 1](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-1-2018-03-21) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Tatyova, Benthic Druid](../../decks/tatyova-benthic-druid.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 72,695 decks; most often under [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (20.7% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (13.9% of its decks), [Tatyova, Benthic Druid](../../cards/T/ta.md#tatyova-benthic-druid) (24.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/B.md#broken-bond)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/157/broken-bond) · oracle_id `858e12e9-3eaa-40cf-9e22-f9ccdfe485b3` · printing: DOM #157 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -5103,6 +5125,8 @@ schema: 2
   > *The brothers' rivalry escalated into all-out enmity, and Tocasia paid the price.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6218 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #128 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 24,992 decks; most often under [Kibo, Uktabi Prince](../../cards/K/ki.md#kibo-uktabi-prince) (15.5% of its decks), [Slicer, Hired Muscle](../../cards/S/sl.md#slicer-hired-muscle--slicer-high-speed-antagonist) (18.0% of its decks), [Jaws, Relentless Predator](../../cards/J/ja.md#jaws-relentless-predator) (13.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/B.md#brotherhoods-end)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/128/brotherhoods-end) · oracle_id `fe7bf8ca-88ae-4c6d-8d71-ef170a87c0d0` · printing: BRO #128 (2022-11-18) · [rulings](https://api.scryfall.com/cards/50f7666d-0d60-4fe5-b144-286d4e47b704/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -5292,6 +5316,8 @@ schema: 2
 - **Rulings** (2):
   - *2012-05-01* — All of these Auras will become attached to Bruna before combat damage is dealt. If Bruna is attacking, these Auras become attached before blockers are declared.
   - *2012-05-01* — Only Auras that could legally enchant Bruna may be attached to it, whether they're being moved from other permanents or being put onto the battlefield. An Aura with "enchant land," for example, could not be attached to Bruna this way.
+- **Lore:** ✅ Card art shown on [A Gaze Blank and Pitiless](https://magic.wizards.com/en/news/magic-story/gaze-blank-and-pitiless-2016-03-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,574 decks; highest synergy [Sage's Reverie](../../cards/S/sag.md#sages-reverie) (+83%), [Ethereal Armor](../../cards/E/et.md#ethereal-armor) (+79%), [All That Glitters](../../cards/A/al.md#all-that-glitters) (+77%) · EDHREC: in 7,062 decks; most often under [Estrid, the Masked](../../cards/E/es.md#estrid-the-masked) (24.8% of its decks), [Tuvasa the Sunlit](../../cards/T/tu.md#tuvasa-the-sunlit) (12.8% of its decks), [Arna Kennerüd, Skycaptain](../../cards/A/arn.md#arna-kennerüd-skycaptain) (8.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/170/bruna-light-of-alabaster) · oracle_id `e8f213eb-58db-4fab-bd0b-2acfd0a86ac3` · printing: C18 #170 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bruna, the Fading Light

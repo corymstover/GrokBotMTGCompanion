@@ -787,6 +787,8 @@ schema: 2
   > *"You were my mistake. I will forever bear the weight of your horrors, and of your end."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10535 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #118 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,455 decks; most often under [Kelsien, the Plague](../../cards/K/ke.md#kelsien-the-plague) (40.2% of its decks), [Tor Wauki the Younger](../../cards/T/to.md#tor-wauki-the-younger) (45.0% of its decks), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mirrodin-avenged)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/118/mirrodin-avenged) · oracle_id `ec83f398-31af-484d-b6d2-8c7add142260` · printing: MOM #118 (2023-04-21) · [rulings](https://api.scryfall.com/cards/750b2090-7fd4-4048-a148-9a5fc7b6f265/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1106,6 +1108,8 @@ schema: 2
   - *2015-02-25* — Notably, the token won’t be attacking.
   - *2015-02-25* — The ability that exiles the token will trigger at end of combat no matter what happens to the original creature or to Mirror Mockery.
   - *2015-02-25* — The token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: The First Lesson](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Roalesk, Apex Hybrid + Sage of Hours + Mirror Mockery + Helm of the Host](https://commanderspellbook.com/combo/521-1494-1692-3048/) (Infinite turns, Lock) · EDHREC: in 7,132 decks; most often under [Hidetsugu and Kairi](../../cards/H/hi.md#hidetsugu-and-kairi) (31.8% of its decks), [Keiga, the Tide Star](../../cards/K/ke.md#keiga-the-tide-star) (67.8% of its decks), [Kairi, the Swirling Sky](../../cards/K/ka.md#kairi-the-swirling-sky) (53.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/62/mirror-mockery) · oracle_id `6a802318-9123-4058-8554-5023eace33f4` · printing: DTK #62 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror of Fate

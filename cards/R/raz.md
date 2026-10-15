@@ -126,6 +126,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22479 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-14* — "This spell can't be countered" means it can't be countered even by the ward keyword ability. The spell's controller may still pay the ward cost if it targets an artifact with ward, but Raze to the Ground won't be countered if they don't.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #149 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,389 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.2% of its decks), [Fin Fang Foom](../../cards/F/fi.md#fin-fang-foom) (3.8% of its decks), [Surrak Dragonclaw](../../cards/S/sur.md#surrak-dragonclaw) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#raze-to-the-ground)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/149/raze-to-the-ground) · oracle_id `efe24eed-e1e2-4807-ae61-2e5be529ae3c` · printing: BRO #149 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -144,6 +146,8 @@ schema: 2
 - **Rulings** (2):
   - *2005-10-01* — If either target creature leaves the battlefield before damage is dealt, that damage won’t be redirected. It doesn’t matter if Razia leaves the battlefield.
   - *2005-10-01* — The 3 damage doesn’t have to be from the same source, and it doesn’t have to be all dealt at once. If only 2 damage is redirected, the next 1 damage will also be redirected.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/absolution-guildpact-2013-01-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Aurelia, the Warleader (Ravnica-only)](../../decks/plane-ravnica-aurelia-the-warleader.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 119 decks; highest synergy [Boros Reckoner](../../cards/B/bo.md#boros-reckoner) (+56%), [Truefire Captain](../../cards/T/tru.md#truefire-captain) (+52%), [Lightning Helix](../../cards/L/li.md#lightning-helix) (+39%) · EDHREC: in 1,973 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (1.1% of its decks), [Aurelia, the Warleader](../../cards/A/au.md#aurelia-the-warleader) (4.0% of its decks), [Aurelia, the Law Above](../../cards/A/au.md#aurelia-the-law-above) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#razia-boros-archangel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/92/razia-boros-archangel) · oracle_id `d830a136-6fb9-42e7-81f1-97e1d713ee82` · printing: HOP #92 (2009-09-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

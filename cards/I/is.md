@@ -244,6 +244,8 @@ schema: 2
   > *—Doctor Strange*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/sea-gods-labyrinth-part-2-2013-11-20), [Bottled Up](https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28), [Chronicle of Bolas: A Familiar Stranger](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (57): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,667,736 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (95.1% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (91.3% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (97.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 37 pages (36 decks · 1 card data) → [reverse index](../../references/I.md#island)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/294/island) · oracle_id `b2c6aa39-2d2a-459c-a555-fb48ba993373` · printing: MDD #294 (2027-04-09) · [rulings](https://api.scryfall.com/cards/1335d293-3dd2-4f13-bd2c-22181f4528ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -440,6 +442,9 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8725 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/ravnica-high-2013-08-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,399 decks; highest synergy [Windreader Sphinx](../../cards/W/wi.md#windreader-sphinx) (+64%), [Aetherize](../../cards/A/ae.md#aetherize) (+59%), [Warden of Evos Isle](../../cards/W/war.md#warden-of-evos-isle) (+59%) · EDHREC: in 14,136 decks; most often under [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (10.9% of its decks), [Kangee, Sky Warden](../../cards/K/ka.md#kangee-sky-warden) (28.5% of its decks), [Yennett, Cryptic Sovereign](../../cards/Y/ye.md#yennett-cryptic-sovereign) (5.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#isperia-supreme-judge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/217/isperia-supreme-judge) · oracle_id `c46718dc-24dc-4b77-b455-aa4c89570b8d` · printing: C20 #217 (2020-04-17) · [rulings](https://api.scryfall.com/cards/1e3b82a7-ebef-4190-9f50-40b992ba89c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isperia the Inscrutable

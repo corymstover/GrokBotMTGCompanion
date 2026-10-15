@@ -216,6 +216,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-02-25* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Aven Tactician’s bolster ability.
   - *2015-02-25* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves. That could be the creature with the bolster ability, if it’s still under your control and has the least toughness.
+- **Lore:** ✅ Card art shown on [The Guardian](https://magic.wizards.com/en/news/magic-story/guardian-2015-04-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 493 decks; most often under [Optimus Prime, Hero](../../cards/O/op.md#optimus-prime-hero--optimus-prime-autobot-leader) (0.7% of its decks), [Anafenza, Kin-Tree Spirit](../../cards/A/an.md#anafenza-kin-tree-spirit) (7.2% of its decks), [Anafenza, the Foremost](../../cards/A/an.md#anafenza-the-foremost) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/15/echoes-of-the-kin-tree) · oracle_id `9863a7da-6f51-4d3e-9ace-e8ff201faf13` · printing: DTK #15 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echoing Assault

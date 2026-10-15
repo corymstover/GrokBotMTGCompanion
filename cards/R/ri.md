@@ -1659,6 +1659,8 @@ schema: 2
   - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,977 decks; most often under [Magda, Brazen Outlaw](../../cards/M/mag.md#magda-brazen-outlaw) (7.3% of its decks), [Beluna Grandsquall](../../cards/B/be.md#beluna-grandsquall--seek-thrills) (6.5% of its decks), [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rimrock-knight--boulder-rush)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/137/rimrock-knight-boulder-rush) · oracle_id `24db950b-e4fe-42d0-977b-4957eb8229d9` · printing: ELD #137 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1947,6 +1949,9 @@ schema: 2
   - *2015-06-22* — Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger.
   - *2015-06-22* — Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
   - *2015-06-22* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 396 decks; most often under [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (0.6% of its decks), [Derevi, Empyrial Tactician](../../cards/D/der.md#derevi-empyrial-tactician) (0.3% of its decks), [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (0.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#ringwarden-owl)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/68/ringwarden-owl) · oracle_id `4a8b3316-a01a-4206-bbed-d7aac6c834bd` · printing: ORI #68 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ringwraiths
@@ -2553,7 +2558,9 @@ schema: 2
   - *2018-07-13* — A later effect that changes the affected creature’s colors will overwrite that part of Rise from the Grave’s effect; the creature will be only the new color. The same is true about an effect that changes the affected creature’s types or subtypes.
   - *2018-07-13* — If the creature is normally colorless, it will simply become black. It can’t be both black and colorless.
   - *2018-07-13* — Rise from the Grave doesn’t overwrite any previous colors or types. Rather, it adds another color and another subtype.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#rise-from-the-grave)
+- **Lore:** ✅ Card art shown on [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,543 decks; most often under [Anowon, the Ruin Thief](../../cards/A/an.md#anowon-the-ruin-thief) (11.0% of its decks), [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (12.1% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (1.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/R.md#rise-from-the-grave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/53/rise-from-the-grave) · oracle_id `4e769107-0f32-4181-9e57-ffebc2228d3a` · printing: ZNC #53 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rise from the Nether
@@ -2704,6 +2711,8 @@ schema: 2
   - *2021-04-16* — If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional.
   - *2021-04-16* — If you bring a card into the game from outside the game in a Constructed tournament (or a Constructed game played under tournament conditions), you may select only a card from your sideboard. In casual Constructed games, the card comes from your collection.
   - *2021-04-16* — If you bring a card into the game from outside the game in a Sealed Deck or Booster Draft event, you may select only a card that is in the card pool that you built your deck from.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #226 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 287 decks; most often under [Shadrix Silverquill](../../cards/S/sha.md#shadrix-silverquill) (0.9% of its decks), [Killian, Ink Duelist](../../cards/K/ki.md#killian-ink-duelist) (0.8% of its decks), [Extus, Oriq Overlord](../../cards/E/ex.md#extus-oriq-overlord--awaken-the-blood-avatar) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/226/rise-of-extus) · oracle_id `810f2b50-59c7-490a-8e6a-00f982cd16a0` · printing: STX #226 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rise of the Ants
@@ -2768,7 +2777,9 @@ schema: 2
   - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2021-02-05* — It doesn’t matter if the cards that represented those creatures are still in the graveyard as Rise of the Dread Marn resolves. They’ll still count as long as they died that turn.
   - *2021-02-05* — The number of nontoken creatures that died that turn is counted as Rise of the Dread Marn is resolving. In other words, nontoken creatures that die in response to Rise of the Dread Marn will count.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rise-of-the-dread-marn)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KHM #107 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 27,537 decks; most often under [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (14.3% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (15.5% of its decks), [Varina, Lich Queen](../../cards/V/va.md#varina-lich-queen) (13.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/R.md#rise-of-the-dread-marn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/107/rise-of-the-dread-marn) · oracle_id `0998768a-1632-4da1-8310-352582501c4b` · printing: KHM #107 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rise of the Eldrazi
@@ -4100,6 +4111,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3166 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): XLN #71 — ✅ Card art shown on [The Shapers](https://magic.wizards.com/en/news/magic-story/shapers-2017-09-27), [Something Else Entirely](https://magic.wizards.com/en/news/magic-story/something-else-entirely-2017-10-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 52,701 decks; most often under [Anhelo, the Painter](../../cards/A/an.md#anhelo-the-painter) (31.8% of its decks), [Zevlor, Elturel Exile](../../cards/Z/ze.md#zevlor-elturel-exile) (41.2% of its decks), [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (6.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/595/rivers-rebuke) · oracle_id `c52cfb41-18f3-4e73-b5e7-d75baf74e578` · printing: FDN #595 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Riverwalk Technique

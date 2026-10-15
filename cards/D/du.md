@@ -410,6 +410,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-09-24* — If you control three or more creatures with different powers and the target creature you control is still a legal target as Duel for Dominance resolves but the target creature you don't control isn't, you will still put a +1/+1 counter on the creature you control. It isn't much of a duel, but your creature is still dominant.
   - *2021-09-24* — Only the +1/+1 counter is contingent on having three or more creatures with different powers. The target creatures will still fight even if you don't have three or more creatures with different powers when Duel for Dominance resolves.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #184 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,524 decks; most often under [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (10.2% of its decks), [Neyith of the Dire Hunt](../../cards/N/ne.md#neyith-of-the-dire-hunt) (21.5% of its decks), [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/192/duel-for-dominance) · oracle_id `5064a55a-9692-4a67-9e82-16250b9140d1` · printing: INR #192 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dueling Coach
@@ -571,6 +573,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21116 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-06-01* — Due Respect won't tap any permanents that have entered before it resolved.
+- **Lore:** ✅ Card art shown on [A Garden of Flesh](https://magic.wizards.com/en/news/magic-story/garden-flesh-2022-05-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,828 decks; most often under [Elesh Norn](../../cards/E/el.md#elesh-norn--the-argent-etchings) (9.6% of its decks), [Elesh Norn, Mother of Machines](../../cards/E/el.md#elesh-norn-mother-of-machines) (2.0% of its decks), [Elesh Norn, Grand Cenobite](../../cards/E/el.md#elesh-norn-grand-cenobite) (6.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/8/due-respect) · oracle_id `1c367fa2-844a-4083-9484-c6def1dee8a8` · printing: NPH #8 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duergar Assailant
@@ -1261,6 +1265,8 @@ schema: 2
   > *—Nokar, priest of Sheoldred*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3258 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 51,189 decks; most often under [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (56.8% of its decks), [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (30.2% of its decks), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (10.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/D.md#duress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/606/duress) · oracle_id `33d405ea-7a9a-4970-b70f-9c05d90dd6f0` · printing: FDN #606 (2024-11-15) · [rulings](https://api.scryfall.com/cards/34c3a894-ee75-4db9-a69f-711bb3cc150a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1376,6 +1382,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18969 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,694 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (3.0% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (2.0% of its decks), [Mavren Fein, Dusk Apostle](../../cards/M/mav.md#mavren-fein-dusk-apostle) (81.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/9/duskborne-skymarcher) · oracle_id `f7ff0046-8365-4ea4-9872-583d140f7b3f` · printing: XLN #9 (2017-09-29) · [rulings](https://api.scryfall.com/cards/baa524bb-0ce7-4c30-93c3-ae15c3b05e92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dusk Charger
@@ -1522,6 +1530,8 @@ schema: 2
   - *2017-09-29* — When a Vehicle becomes a creature, that doesn’t count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won’t trigger.
   - *2017-09-29* — You may activate a crew ability of a Vehicle even if it’s already an artifact creature. Doing so has no effect on the Vehicle. It doesn’t change its power and toughness.
   - *2017-09-29* — You may tap more creatures than necessary to activate a crew ability.
+- **Lore:** ✅ Card art shown on [The Race, Part 1](https://magic.wizards.com/en/news/magic-story/race-part-1-2017-10-11), [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,998 decks; most often under [Edward Kenway](../../cards/E/ed.md#edward-kenway) (5.0% of its decks), [Admiral Beckett Brass](../../cards/A/ad.md#admiral-beckett-brass) (2.0% of its decks), [Skeleton Ship](../../cards/S/sk.md#skeleton-ship) (5.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/236/dusk-legion-dreadnought) · oracle_id `7278f382-8249-4981-9d87-47cef7dc13dd` · printing: XLN #236 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dusk Legion Duelist
@@ -2049,6 +2059,9 @@ schema: 2
   > *When Malakir's surgeons failed, its death-shamans took over.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18358 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Doom of the Golden Fang](https://magic.wizards.com/en/news/magic-story/doom-golden-fang-2015-02-04), [Mercy](https://magic.wizards.com/en/news/magic-story/mercy) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,029 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.1% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.1% of its decks), [Syr Konrad, the Grim](../../cards/S/sy.md#syr-konrad-the-grim) (0.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dutiful-return)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/110/dutiful-return) · oracle_id `c8f958da-3a31-4064-9a78-66e9b65b85ab` · printing: BFZ #110 (2015-10-02) · [rulings](https://api.scryfall.com/cards/55d6cb71-c911-4f82-93e9-654e8ffa85c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dutiful Servants

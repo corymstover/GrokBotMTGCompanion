@@ -479,6 +479,8 @@ schema: 2
   > *—\*The Theriad\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29872 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Emonberry Red](https://magic.wizards.com/en/news/magic-story/emonberry-red-2014-02-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 233 decks; most often under [Barktooth Warbeard](../../cards/B/bar.md#barktooth-warbeard) (5.9% of its decks), [Garth One-Eye](../../cards/G/ga.md#garth-one-eye) (0.3% of its decks), [Tyrox, Saurid Tyrant](../../cards/T/ty.md#tyrox-saurid-tyrant) (5.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/90/cyclops-of-one-eyed-pass) · oracle_id `78922912-d7b9-47cc-8908-f44d7cc3fc4b` · printing: BNG #90 (2014-02-07) · [rulings](https://api.scryfall.com/cards/71a25c69-8e57-4a44-955a-da1541bbe0fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclops Superconductor

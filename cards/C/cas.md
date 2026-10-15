@@ -582,7 +582,9 @@ schema: 2
   > *Every part of Jace's mind that objected to his plan had been cut away. The Theorist was all that remained.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16730 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#cast-away-doubt)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): FRA #51 — [Art & Flavor → Reality Fracture (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#reality-fracture-2026) — ✅ Card art shown on [Reality Fracture](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-3-i-can-be-both) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,385 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (8.3% of its decks), [Indoraptor, the Perfect Hybrid](../../cards/I/ind.md#indoraptor-the-perfect-hybrid) (14.6% of its decks), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (5.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/C.md#cast-away-doubt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/51/cast-away-doubt) · oracle_id `bcf29dd7-6d5a-4139-958e-7c59434c0770` · printing: FRA #51 (2026-10-02) · [rulings](https://api.scryfall.com/cards/3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Castaway's Despair
@@ -699,6 +701,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — Although the common lands have basic land types, they aren't basic lands.
   - *2019-10-04* — Once the common lands (such as Mystic Sanctuary) enter the battlefield tapped, there's no way to untap them with a spell or ability to make their last ability trigger.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 195,979 decks; most often under [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (43.8% of its decks), [Zinnia, Valley's Voice](../../cards/Z/zi.md#zinnia-valleys-voice) (46.6% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (26.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/C.md#castle-ardenvale)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/346/castle-ardenvale) · oracle_id `f8f4fc60-725d-46d8-8e8f-e68e00d20589` · printing: TDC #346 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -731,6 +735,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — Although the common lands have basic land types, they aren't basic lands.
   - *2019-10-04* — Once the common lands (such as Mystic Sanctuary) enter the battlefield tapped, there's no way to untap them with a spell or ability to make their last ability trigger.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Krenko, Mob Boss](../../decks/krenko-mob-boss.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 143,831 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (39.9% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (47.4% of its decks), [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (28.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/C.md#castle-embereth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/347/castle-embereth) · oracle_id `91fbb25b-8521-483f-88b0-77778d25f7fd` · printing: TDC #347 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -749,6 +755,8 @@ schema: 2
   - *2019-10-04* — Although the common lands have basic land types, they aren't basic lands.
   - *2019-10-04* — Once the common lands (such as Mystic Sanctuary) enter the battlefield tapped, there's no way to untap them with a spell or ability to make their last ability trigger.
   - *2019-10-04* — The mana generated by Castle Garenbrig's last ability can't be spent to activate abilities of creature cards that aren't on the battlefield.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Selvala, Heart of the Wilds](../../decks/selvala-heart-of-the-wilds.md) · Commander Spellbook: 3 combos; most popular [Agatha of the Vile Cauldron + Silvanus's Invoker + Castle Garenbrig](https://commanderspellbook.com/combo/2092-2910-4954/) (Infinite power and toughness for most creatures you control until end of turn, Infinite mana lands you control can produce) · EDHREC: in 195,009 decks; most often under [Lumra, Bellow of the Woods](../../cards/L/lu.md#lumra-bellow-of-the-woods) (52.3% of its decks), [Gargos, Vicious Watcher](../../cards/G/ga.md#gargos-vicious-watcher) (47.9% of its decks), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (35.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/C.md#castle-garenbrig)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/240/castle-garenbrig) · oracle_id `de75e5dd-8a52-406c-b55c-96d686885500` · printing: ELD #240 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -767,6 +775,8 @@ schema: 2
   - *2019-10-04* — Although the common lands have basic land types, they aren't basic lands.
   - *2019-10-04* — No player may take actions between the time you draw a card and the time you lose life.
   - *2019-10-04* — Once the common lands (such as Mystic Sanctuary) enter the battlefield tapped, there's no way to untap them with a spell or ability to make their last ability trigger.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 183,450 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (18.2% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (8.9% of its decks), [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (21.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#castle-locthwain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/884/castle-locthwain) · oracle_id `be811e70-aaaa-41f3-bf9e-5d3f9f719b49` · printing: CLB #884 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -815,6 +825,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — Although the common lands have basic land types, they aren't basic lands.
   - *2019-10-04* — Once the common lands (such as Mystic Sanctuary) enter the battlefield tapped, there's no way to untap them with a spell or ability to make their last ability trigger.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 152,796 decks; most often under [Zimone, Mystery Unraveler](../../cards/Z/zi.md#zimone-mystery-unraveler) (40.7% of its decks), [Satya, Aetherflux Genius](../../cards/S/sat.md#satya-aetherflux-genius) (33.5% of its decks), [Eluge, the Shoreless Sea](../../cards/E/el.md#eluge-the-shoreless-sea) (29.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#castle-vantress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/267/castle-vantress) · oracle_id `cdf41cf4-4e77-453d-be5b-0abbbd358934` · printing: DSC #267 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -158,6 +158,8 @@ schema: 2
   - *2013-04-15* — Putting a +1/+1 counter on a creature with unleash that’s already blocking won’t remove it from combat. It will continue to block.
   - *2013-04-15* — The unleash ability applies no matter where the creature is entering the battlefield from.
   - *2013-04-15* — You make the choice to have the creature with unleash enter the battlefield with a +1/+1 counter or not as it’s entering the battlefield. At that point, it’s too late for a player to respond to the creature spell by trying to counter it, for example.
+- **Lore:** ✅ Card art shown on [In Praise of the Worldsoul, Part 3](https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-3) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 577 decks; most often under [Exava, Rakdos Blood Witch](../../cards/E/ex.md#exava-rakdos-blood-witch) (37.3% of its decks), [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (0.6% of its decks), [Gornog, the Red Reaper](../../cards/G/gor.md#gornog-the-red-reaper) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/146/splatter-thug) · oracle_id `3baee36b-d64f-448c-ae45-c1ec124c92ec` · printing: IMA #146 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splendid Agony
@@ -558,6 +560,8 @@ schema: 2
   - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
   - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #63 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,587 decks; most often under [Urza, Lord Protector](../../cards/U/ur.md#urza-lord-protector) (2.2% of its decks), [Urza, Powerstone Prodigy](../../cards/U/ur.md#urza-powerstone-prodigy) (11.4% of its decks), [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#splitting-the-powerstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/63/splitting-the-powerstone) · oracle_id `178828a5-c202-4503-9755-fc6bb2390209` · printing: BRO #63 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

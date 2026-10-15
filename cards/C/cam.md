@@ -46,7 +46,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4782 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-10-05* — The second part of Camaraderie's effect affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +1/+1.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#camaraderie)
+- **Lore:** ✅ Card art shown on [The Ledger of Hidden Fortunes](https://magic.wizards.com/en/news/magic-story/ledger-hidden-fortunes-2019-02-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Trostani, Selesnya's Voice](../../decks/trostani-selesnyas-voice.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 33,851 decks; most often under [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (16.3% of its decks), [Emmara, Soul of the Accord](../../cards/E/em.md#emmara-soul-of-the-accord) (58.5% of its decks), [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (28.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/C.md#camaraderie)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/334/camaraderie) · oracle_id `9aab386c-d48c-4611-b757-aa69b26cc1b1` · printing: NCC #334 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Camel

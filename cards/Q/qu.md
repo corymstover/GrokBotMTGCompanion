@@ -1596,6 +1596,8 @@ schema: 2
   - *2017-02-09* — If Quicksmith Spy leaves the battlefield, you no longer control it.
   - *2017-02-09* — If Quicksmith Spy or the artifact leaves the battlefield while the card-drawing ability is on the stack, that ability resolves as normal.
   - *2017-02-09* — If another player gains control of Quicksmith Spy, the artifact will no longer have the card-drawing ability, even if you regain control of Quicksmith Spy.
+- **Lore:** ✅ Card art shown on [The Skies over Ghirapur](https://magic.wizards.com/en/news/magic-story/skies-over-ghirapur-2017-01-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,438 decks; most often under [Kilo, Apogee Mind](../../cards/K/ki.md#kilo-apogee-mind) (0.3% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (0.2% of its decks), [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/Q.md#quicksmith-spy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/41/quicksmith-spy) · oracle_id `54250029-1bd7-4caf-a839-9497607ce725` · printing: AER #41 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1645,6 +1647,9 @@ schema: 2
   - *2014-09-20* — The ability can target a creature that’s already tapped. It still won’t untap during its controller’s next untap step.
   - *2014-09-20* — The ability tracks the creature, but not its controller. If the creature changes controllers before its first controller’s next untap step has come around, then it won’t untap during its new controller’s next untap step.
   - *2014-09-20* — You decide whether to pay {1} as the triggered ability resolves.
+- **Lore:** ✅ Card art shown on [Enlightened](https://magic.wizards.com/en/news/magic-story/enlightened) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,678 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (5.9% of its decks), [Narset, Enlightened Master](../../cards/N/na.md#narset-enlightened-master) (1.9% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (1.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/Q.md#quiet-contemplation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/50/quiet-contemplation) · oracle_id `f87dfde4-8c57-4543-826c-6b3cf9c11b90` · printing: KTK #50 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quiet Disrepair
@@ -1909,6 +1914,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9132 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-04-16* — If two or more cards leave your graveyard as a single event, Quintorius's last ability will trigger once. If they leave your graveyard as separate events, it will trigger once for each event.
+- **Lore:** ✅ Card art shown on [The Mentor](https://magic.wizards.com/en/news/magic-story/mentor-2021-04-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Quintorius, Field Historian + Squee, the Immortal + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Phyrexian Altar](https://commanderspellbook.com/combo/392-2279-3705-4050/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 788 decks; highest synergy [Faithless Looting](../../cards/F/fa.md#faithless-looting) (+59%), [Hofri Ghostforge](../../cards/H/ho.md#hofri-ghostforge) (+53%), [Sevinne's Reclamation](../../cards/S/sev.md#sevinnes-reclamation) (+53%) · EDHREC: in 13,667 decks; most often under [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (83.2% of its decks), [Quintorius, Loremaster](../../cards/Q/qu.md#quintorius-loremaster) (74.3% of its decks), [Hofri Ghostforge](../../cards/H/ho.md#hofri-ghostforge) (39.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#quintorius-field-historian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/326/quintorius-field-historian) · oracle_id `28b64167-b7ea-4b4f-8434-061298050366` · printing: SOC #326 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1926,6 +1933,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9142 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings** (1):
   - *2026-03-20* — If multiple cards leave your graveyard at the same time, Quintorius's first ability will trigger only once.
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-field-studies-in-a-future-tense) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Phyrexian Altar + Reassembling Skeleton + Quintorius, History Chaser](https://commanderspellbook.com/combo/1580-4050-7396/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 10,392 decks; highest synergy [Currency Converter](../../cards/C/cu.md#currency-converter) (+89%), [Containment Construct](../../cards/C/con.md#containment-construct) (+85%), [Serra Paragon](../../cards/S/ser.md#serra-paragon) (+83%) · EDHREC: in 4,109 decks; most often under [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (3.4% of its decks), [Excava, the Risen Past](../../cards/E/ex.md#excava-the-risen-past) (59.6% of its decks), [Quintorius, Loremaster](../../cards/Q/qu.md#quintorius-loremaster) (48.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/Q.md#quintorius-history-chaser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/7/quintorius-history-chaser) · oracle_id `5c40a8d4-6969-4d71-aba5-5c7e4109b7d5` · printing: SOC #7 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

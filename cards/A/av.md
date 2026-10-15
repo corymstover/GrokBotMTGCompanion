@@ -173,6 +173,8 @@ schema: 2
   - *2020-08-07* — A planeswalker with indestructible still loses loyalty as it's dealt damage. It is put into its owner's graveyard if its loyalty becomes 0.
   - *2020-08-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature you control may become lethal if Avacyn leaves the battlefield during that turn.
   - *2023-07-28* — A battle with indestructible still loses defense counters as it's dealt damage. If it's a Siege, it will still be exiled when the last defense counter is removed from it, and its controller may still cast it transformed without paying its mana cost.
+- **Lore:** ✅ Card art shown on [A Gaze Blank and Pitiless](https://magic.wizards.com/en/news/magic-story/gaze-blank-and-pitiless-2016-03-09), [The Hunter Cannot Pity](https://magic.wizards.com/en/news/magic-story/hunter-cannot-pity-2014-07-16), [The Lunarch's Journal](https://magic.wizards.com/en/news/magic-story/lunarchs-journal-2014-08-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Giada, Font of Hope](../../decks/giada-font-of-hope.md) · [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · Commander Spellbook: 19 combos; most popular [Avacyn, Angel of Hope + Worldslayer](https://commanderspellbook.com/combo/3149-3981/) (Destroy all permanents opponents control each turn, Lock) · EDHREC as commander: 4,339 decks; highest synergy [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (+57%), [Hour of Revelation](../../cards/H/ho.md#hour-of-revelation) (+55%), [Wrath of God](../../cards/W/wr.md#wrath-of-god) (+50%) · EDHREC: in 187,013 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (67.6% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (64.4% of its decks), [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (27.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 7 pages (2 decks · 2 edh guides · 1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/A.md#avacyn-angel-of-hope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/477/avacyn-angel-of-hope) · oracle_id `216cb26e-8da9-478b-bfbc-8030f7adee72` · printing: INR #477 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -210,6 +212,8 @@ schema: 2
   - *2014-07-18* — Neither activated ability has any effect on damage that’s already been dealt.
   - *2014-07-18* — The possible color choices are white, blue, black, red, and green. You can’t choose artifact, colorless, or any other word.
   - *2014-07-18* — Whether the target permanent or player is still a legal target is no longer checked after the appropriate ability resolves. For example, if a creature targeted by the first ability gains protection from white after the ability resolves but before it prevents damage, the effect will still prevent damage.
+- **Lore:** ✅ Card art shown on [The Lunarch's Journal](https://magic.wizards.com/en/news/magic-story/lunarchs-journal-2014-08-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 95 decks; highest synergy [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (+32%), [Aegis Angel](../../cards/A/ae.md#aegis-angel) (+31%), [Guardian of the Gateless](../../cards/G/gu.md#guardian-of-the-gateless) (+31%) · EDHREC: in 5,699 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (3.9% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (1.7% of its decks), [Avacyn, Angel of Hope](../../cards/A/av.md#avacyn-angel-of-hope) (4.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/3/avacyn-guardian-angel) · oracle_id `6da0b6d2-3c5e-49ef-9264-076269c04744` · printing: M15 #3 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avacynian Missionaries // Lunarch Inquisitors
@@ -297,6 +301,8 @@ schema: 2
   - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
   - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
   - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Lore:** ✅ Card art shown on [I Am Avacyn](https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18), [Stories and Endings](https://magic.wizards.com/en/news/magic-story/stories-and-endings-2016-05-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,355 decks; most often under [Anje Falkenrath](../../cards/A/an.md#anje-falkenrath) (81.4% of its decks), [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (7.7% of its decks), [Flubs, the Fool](../../cards/F/fl.md#flubs-the-fool) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#avacyns-judgment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/142/avacyns-judgment) · oracle_id `f3ae58ed-8ef7-4e0a-945f-1f622157236b` · printing: VOC #142 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -818,6 +824,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28316 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 379 decks; most often under [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (0.4% of its decks), [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (0.1% of its decks), [Minwu, White Mage](../../cards/M/min.md#minwu-white-mage) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/6/aven-battle-priest) · oracle_id `696fb1fa-5535-4f73-8235-ad4416dcfdd0` · printing: ORI #6 (2015-07-17) · [rulings](https://api.scryfall.com/cards/b0060e75-a5a4-4d9a-894c-45bb7e2feffc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aven Brigadier
@@ -1520,6 +1528,8 @@ schema: 2
 - **Rulings** (2):
   - *2014-11-24* — If a mode requires a target and there are no legal targets available, that mode can't be chosen. You must choose another mode if able.
   - *2014-11-24* — You choose which mode you're using as you put the ability on the stack, after the creature has entered the battlefield. Once you've chosen a mode, you can't change that mode even if the creature leaves the battlefield in response to that ability.
+- **Lore:** ✅ Card art shown on [Khanfall](https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Volo, Guide to Monsters + Food Chain + Aven Surveyor](https://commanderspellbook.com/combo/2950-3519-4115/) (Infinite colored mana that can only be spent to cast creature spells, Infinite creature ETB) · EDHREC: in 1,175 decks; most often under [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (2.4% of its decks), [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (0.5% of its decks), [Tawnos, the Toymaker](../../cards/T/ta.md#tawnos-the-toymaker) (4.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/57/aven-surveyor) · oracle_id `57831c07-6915-4579-b3e1-de93a3664444` · printing: CMR #57 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aven Tactician
@@ -1717,6 +1727,8 @@ schema: 2
   > *Pilots take crippled skyships to the Aviaries, trusting Ghirapur's most talented mechanics to get them back into the air.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19018 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,696 decks; most often under [God-Eternal Oketra](../../cards/G/god.md#god-eternal-oketra) (26.1% of its decks), [Teshar, Ancestor's Apostle](../../cards/T/te.md#teshar-ancestors-apostle) (10.2% of its decks), [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/6/aviary-mechanic) · oracle_id `b47d37ee-2bb2-4ca8-b245-94d2cc4b6684` · printing: KLD #6 (2016-09-30) · [rulings](https://api.scryfall.com/cards/b97b0767-4308-4e5d-bc12-6cf8d8724797/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aviation Pioneer
@@ -1766,6 +1778,8 @@ schema: 2
   - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
   - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
   - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DFT #249 — [Art & Flavor → Aetherdrift (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#aetherdrift-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 44,063 decks; most often under [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (28.2% of its decks), [Vnwxt, Verbose Host](../../cards/V/vn.md#vnwxt-verbose-host) (46.5% of its decks), [Samut, the Driving Force](../../cards/S/sam.md#samut-the-driving-force) (73.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/A.md#avishkar-raceway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/249/avishkar-raceway) · oracle_id `e2c35551-1ba5-4424-baf9-821b49bbcc8c` · printing: DFT #249 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

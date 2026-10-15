@@ -125,6 +125,8 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #477 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** Featured in: [Plane → Ikoria](../../Planes%20Index.md#ikoria) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02), [2](https://magic.wizards.com/en/news/magic-story/survival-of-the-fittest) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 273,891 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (22.5% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (49.4% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (28.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 lore & story) → [reverse index](../../references/R.md#raugrin-triome)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/251/raugrin-triome) · oracle_id `c7fa1dda-9312-4ec8-82cd-a1ba7bc33497` · printing: IKO #251 (2020-04-24) · [rulings](https://api.scryfall.com/cards/02138fbb-3962-4348-8d31-faaefba0b8b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

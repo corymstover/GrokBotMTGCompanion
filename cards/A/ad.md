@@ -1051,6 +1051,8 @@ schema: 2
   > *An adventure without a companion is hardly an adventure at all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8503 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 7](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-7-2018-04-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 16,125 decks; most often under [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (1.8% of its decks), [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (1.6% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/A.md#adventurous-impulse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/142/adventurous-impulse) · oracle_id `5bf49f39-b3d5-4148-8dc2-b5b5011769d2` · printing: IKO #142 (2020-04-24) · [rulings](https://api.scryfall.com/cards/30811fb2-5767-4106-9a8d-6091f61969c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

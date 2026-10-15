@@ -104,6 +104,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8934 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-14* — You must follow all normal timing rules for a card you play using The Temporal Anchor's last ability and, if it's a spell, you must pay its costs to cast it.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #82 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Timestream Navigator + The Temporal Anchor](https://commanderspellbook.com/combo/1061-2823/) (Infinite turns, Lock) · EDHREC: in 14,955 decks; most often under [Elminster](../../cards/E/el.md#elminster) (38.7% of its decks), [Galadriel of Lothlórien](../../cards/G/ga.md#galadriel-of-lothlórien) (45.0% of its decks), [Kenessos, Priest of Thassa](../../cards/K/ke.md#kenessos-priest-of-thassa) (21.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/T.md#the-temporal-anchor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/82/the-temporal-anchor) · oracle_id `168f2fbb-8cf7-43e0-8bb6-5e4cc3c1e363` · printing: BRO #82 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -376,6 +378,8 @@ schema: 2
   - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
   - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
   - *2021-02-05* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KHM #232 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,364 decks; most often under [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (16.8% of its decks), [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (11.7% of its decks), [Xavier Sal, Infested Captain](../../cards/X/xa.md#xavier-sal-infested-captain) (4.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/232/the-trickster-gods-heist) · oracle_id `78f99c66-cb50-49e3-ab2d-e7755818ffd7` · printing: KHM #232 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Triumph of Anax

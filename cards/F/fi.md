@@ -441,6 +441,8 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8781 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-field-studies-in-a-future-tense) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,434 decks; most often under [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (44.6% of its decks), [Lorehold, the Historian](../../cards/L/lo.md#lorehold-the-historian) (10.8% of its decks), [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (4.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fields-of-strife)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/255/fields-of-strife) · oracle_id `a32e08fa-bea4-4ba9-a126-9bf0a91f67e2` · printing: SOS #255 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3dc7a4c3-c356-4fba-bea0-e8788da3eb57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -520,6 +522,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28298 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — In a multiplayer game, Fiend Binder’s triggered ability can only target a creature controlled by the player it’s attacking (or by the controller of the planeswalker it’s attacking).
+- **Lore:** ✅ Card art shown on [Saint Traft and the Flight of Nightmares](https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 375 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (0.5% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.1% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fiend-binder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gn2/7/fiend-binder) · oracle_id `060c7999-ab81-4e37-af65-7cd219b693c8` · printing: GN2 #7 (2019-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -939,6 +943,8 @@ schema: 2
   > *Burning something is easy. Choosing a target can be more difficult.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25563 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 8](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-8-2018-05-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 728 decks; most often under [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (3.0% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.1% of its decks), [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/118/fiery-intervention) · oracle_id `a8cd3a52-1056-4664-ae55-eb0ba3a43a15` · printing: DOM #118 (2018-04-27) · [rulings](https://api.scryfall.com/cards/67f36a25-3692-4f2e-a25e-84b90656e6a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fiery Islet
@@ -1215,6 +1221,8 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 10](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-10-2018-05-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,573 decks; most often under [Hallar, the Firefletcher](../../cards/H/ha.md#hallar-the-firefletcher) (14.0% of its decks), [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (2.1% of its decks), [Aegar, the Freezing Flame](../../cards/A/ae.md#aegar-the-freezing-flame) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/119/fight-with-fire) · oracle_id `202b275e-e0c4-482d-abe9-c5e6360208f3` · printing: DOM #119 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Figure of Destiny
@@ -1640,6 +1648,8 @@ schema: 2
   > *—Liliana Vess*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2638 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DOM #93 — [Art & Flavor → Return to Dominaria (2018)](../../Art%20%26%20Flavor%20Story%20Links.md#return-to-dominaria-2018) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [K'rrik, Son of Yawgmoth](../../decks/krrik-son-of-yawgmoth.md) · [Braids, Arisen Nightmare (Dominaria-only)](../../decks/plane-dominaria-braids-arisen-nightmare.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 62,923 decks; most often under [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (39.0% of its decks), [The Beamtown Bullies](../../cards/T/theb.md#the-beamtown-bullies) (31.3% of its decks), [Magar of the Magic Strings](../../cards/M/mag.md#magar-of-the-magic-strings) (29.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 decks · 1 lore & story) → [reverse index](../../references/F.md#final-parting)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/160/final-parting) · oracle_id `a5852994-d816-4e62-8a03-254223714544` · printing: CMM #160 (2023-08-04) · [rulings](https://api.scryfall.com/cards/94f24b7c-4952-4abc-aaba-22a529012468/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2437,6 +2447,8 @@ schema: 2
   > *—Jaya Ballard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24013 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Release](https://magic.wizards.com/en/news/magic-story/release-2016-10-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,017 decks; most often under [Omnath, Locus of Rage](../../cards/O/om.md#omnath-locus-of-rage) (0.4% of its decks), [Omnath, Locus of the Roil](../../cards/O/om.md#omnath-locus-of-the-roil) (0.8% of its decks), [Barktooth Warbeard](../../cards/B/bar.md#barktooth-warbeard) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fire-elemental)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/538/fire-elemental) · oracle_id `3912d21e-1ebc-4a81-9dc9-f404248d564a` · printing: FDN #538 (2024-11-15) · [rulings](https://api.scryfall.com/cards/dc506f58-048d-49cc-ad8c-2eb851b08bb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2758,6 +2770,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19411 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-11-17* — If Firemane Angel is put into your graveyard from the battlefield or returned from your graveyard to the battlefield during your upkeep before its triggered ability resolves, you won't gain 1 life.
+- **Lore:** ✅ Card art shown on [Krenko, Mob Boss](https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-16), [Krenko, Mob Boss](https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Aurelia, the Warleader (Ravnica-only)](../../decks/plane-ravnica-aurelia-the-warleader.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,501 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (1.3% of its decks), [Aurelia, the Warleader](../../cards/A/au.md#aurelia-the-warleader) (6.3% of its decks), [Gisela, Blade of Goldnight](../../cards/G/gi.md#gisela-blade-of-goldnight) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#firemane-angel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/199/firemane-angel) · oracle_id `837e4452-3002-41e3-890b-3d54b469e7b9` · printing: IMA #199 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2854,6 +2868,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13557 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-10-05* — The triggered ability of Firemind’s Research resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): GRN #171 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,939 decks; most often under [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (8.9% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (1.1% of its decks), [Veyran, Voice of Duality](../../cards/V/ve.md#veyran-voice-of-duality) (2.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/F.md#fireminds-research)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/171/fireminds-research) · oracle_id `edac6c23-cff5-4ee2-9227-756b1dc6ab0c` · printing: GRN #171 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Firemind Vessel
@@ -4078,6 +4095,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19586 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-01-24* — Five-Alarm Fire’s first ability triggers once for each time a creature you control deals combat damage, even if it deals combat damage to more than one creature, planeswalker, or player. For example, an attacking creature with trample that deals combat damage to a blocking creature and the defending player will cause Five-Alarm Fire’s ability to trigger once. A creature with double strike, however, may cause Five-Alarm Fire’s ability to trigger twice during a single combat.
+- **Lore:** ✅ Card art shown on [Limits](https://magic.wizards.com/en/news/magic-story/limits-2015-07-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,411 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (1.5% of its decks), [Subira, Tulzidi Caravanner](../../cards/S/sub.md#subira-tulzidi-caravanner) (18.3% of its decks), [Neyali, Suns' Vanguard](../../cards/N/ne.md#neyali-suns-vanguard) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/91/five-alarm-fire) · oracle_id `b1e5c507-d110-4f9e-a58a-939f9961e464` · printing: GTC #91 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Five-Finger Discount

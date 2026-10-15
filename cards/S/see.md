@@ -183,7 +183,9 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16768 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#seed-of-hope)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #204 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,987 decks; most often under [Dina, Soul Steeper](../../cards/D/di.md#dina-soul-steeper) (1.7% of its decks), [The Mycotyrant](../../cards/T/them.md#the-mycotyrant) (1.1% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (0.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/S.md#seed-of-hope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/204/seed-of-hope) · oracle_id `863d6607-912b-4186-9874-87d5473ec481` · printing: MOM #204 (2023-04-21) · [rulings](https://api.scryfall.com/cards/084a8b94-0c5d-41e0-88e4-fe91ab92c09d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### See Double
@@ -428,6 +430,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27451 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-04-18* — It doesn’t matter whether the noncreature spell has resolved or was countered, as long as it was cast. That spell may even still be on the stack when you activate Seeker of Insight’s ability.
+- **Lore:** ✅ Card art shown on [Brazen](https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 471 decks; most often under [The Locust God](../../cards/T/thel.md#the-locust-god) (0.3% of its decks), [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (0.2% of its decks), [Octavia, Living Thesis](../../cards/O/oc.md#octavia-living-thesis) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/69/seeker-of-insight) · oracle_id `a0b2d446-fe90-40f8-8674-7421c425b489` · printing: AKH #69 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeker of Skybreak
@@ -546,6 +550,8 @@ schema: 2
   > *—Nissa Revane*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11373 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,002 decks; most often under [Sasaya, Orochi Ascendant](../../cards/S/sas.md#sasaya-orochi-ascendant--sasayas-essence) (71.8% of its decks), [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (5.2% of its decks), [Borborygmos Enraged](../../cards/B/bo.md#borborygmos-enraged) (25.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#seek-the-horizon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddr/20/seek-the-horizon) · oracle_id `7537b482-7626-4b65-8b67-53b99baf1872` · printing: DDR #20 (2016-09-02) · [rulings](https://api.scryfall.com/cards/6244cbd8-8cc4-44a7-b11d-2ab159e92c02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

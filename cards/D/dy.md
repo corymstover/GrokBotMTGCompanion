@@ -125,6 +125,8 @@ schema: 2
   - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
   - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/ravnica-high-2013-08-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,391 decks; most often under [Rosnakht, Heir of Rohgahh](../../cards/R/ro.md#rosnakht-heir-of-rohgahh) (49.8% of its decks), [Balmor, Battlemage Captain](../../cards/B/bal.md#balmor-battlemage-captain) (12.0% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/94/dynacharge) · oracle_id `61869f52-51a8-4126-af06-5f5c3d80c28c` · printing: MM3 #94 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dynaheir, Invoker Adept

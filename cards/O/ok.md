@@ -124,6 +124,8 @@ schema: 2
   - *2017-04-18* — If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert’s effect preventing it from untapping expires without having done anything.
   - *2017-04-18* — If you gain control of another player’s creature until end of turn and exert it, it will untap during that player’s untap step.
   - *2017-04-18* — You can’t exert a creature unless an effect allows you to do so. Similar effects that “tap and freeze” a creature (such as that of Decision Paralysis) don’t exert that creature.
+- **Lore:** ✅ Card art shown on [Hour of Eternity](https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 371 decks; most often under [Johan](../../cards/J/jo.md#johan) (28.4% of its decks), [Samut, Voice of Dissent](../../cards/S/sam.md#samut-voice-of-dissent) (0.9% of its decks), [Oketra the True](../../cards/O/ok.md#oketra-the-true) (6.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#oketras-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/17/oketras-avenger) · oracle_id `8f064160-3afe-408a-85b4-b335eae8571c` · printing: HOU #17 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -294,7 +296,9 @@ schema: 2
   - *2025-11-17* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-11-17* — The effect of Oko, Lorwyn Liege's first loyalty ability lasts indefinitely. It doesn't expire during the cleanup step or when Oko leaves the battlefield or transforms.
   - *2025-11-17* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/O.md#oko-lorwyn-liege--oko-shadowmoor-scion)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Oko](../../Characters%20Index.md#oko) · [Dossier → Oko](../../Planeswalker%20Dossiers.md#oko) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 37 combos; most popular [Argothian Elder + Griffin Canyon + Oko, Lorwyn Liege // Oko, Shadowmoor Scion](https://commanderspellbook.com/combo/2102-3814-7176/) (Infinite mana lands you control can produce, Infinitely large creature until end of turn) · EDHREC: in 7,704 decks; most often under [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (7.4% of its decks), [Omo, Queen of Vesuva](../../cards/O/om.md#omo-queen-of-vesuva) (14.5% of its decks), [Gor Muldrak, Amphinologist](../../cards/G/gor.md#gor-muldrak-amphinologist) (46.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/O.md#oko-lorwyn-liege--oko-shadowmoor-scion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/61/oko-lorwyn-liege-oko-shadowmoor-scion) · oracle_id `a0c956dc-d7de-4f11-b76f-7537fbee1731` · printing: ECL #61 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oko's Accomplices
@@ -355,6 +359,8 @@ schema: 2
   - *2024-04-12* — The spell or ability that constituted a crime doesn't have to have resolved yet or at all. As soon as you're finished casting the spell, activating the ability, or putting the triggered ability on the stack, you've committed a crime.
   - *2024-04-12* — When Oko becomes a copy of the target creature, he's neither entering nor leaving the battlefield. Any enters-the-battlefield or leaves-the-battlefield abilities won't trigger.
   - *2024-04-12* — While Oko is a copy of a creature, he isn't a planeswalker. He won't have his loyalty abilities, and damage dealt to him won't cause him to lose loyalty counters.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Oko](../../Characters%20Index.md#oko) · [Dossier → Oko](../../Planeswalker%20Dossiers.md#oko) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Oko, the Ringleader + Doubling Season + Spark Double](https://commanderspellbook.com/combo/3908-4772-5403/) (Infinite copies of nonland permanents you control, Infinite creature tokens) · EDHREC: in 8,780 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (1.2% of its decks), [Xavier Sal, Infested Captain](../../cards/X/xa.md#xavier-sal-infested-captain) (5.9% of its decks), [Adrix and Nev, Twincasters](../../cards/A/ad.md#adrix-and-nev-twincasters) (5.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/O.md#oko-the-ringleader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/223/oko-the-ringleader) · oracle_id `4372b729-dc3d-4469-8fc5-811cc787d653` · printing: OTJ #223 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -376,6 +382,8 @@ schema: 2
   - *2019-10-04* — Oko copies the printed values of the target creature. It won't copy counters on that creature or effects that have changed its power, toughness, types, color, or so on. Notably, it won't copy effects that made the target creature become a creature if it isn't normally a creature.
   - *2019-10-04* — Oko's last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't be 10/10.
   - *2019-10-04* — While Oko is a creature, he isn't a planeswalker. Damage dealt to him won't cause him to lose loyalty.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Oko](../../Characters%20Index.md#oko) · [Dossier → Oko](../../Planeswalker%20Dossiers.md#oko) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,399 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.4% of its decks), [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (0.4% of its decks), [Zimone, Paradox Sculptor](../../cards/Z/zi.md#zimone-paradox-sculptor) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/O.md#oko-the-trickster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/309/oko-the-trickster) · oracle_id `f4bf8bd1-71b0-4eb1-976c-54677238b2a6` · printing: ELD #309 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -404,6 +412,8 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Oko](../../Characters%20Index.md#oko) · [Dossier → Oko](../../Planeswalker%20Dossiers.md#oko) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · Commander Spellbook: 1 combo; most popular [Time Sieve + Myr Battlesphere + Teleportation Circle + Oko, Thief of Crowns](https://commanderspellbook.com/combo/164-1558-2963-4840/) (Infinite turns, Lock) · EDHREC: in 78,861 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (16.3% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (13.6% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (13.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/O.md#oko-thief-of-crowns)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/197/oko-thief-of-crowns) · oracle_id `60c60923-ff1b-43f7-8768-731499fcffc9` · printing: ELD #197 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

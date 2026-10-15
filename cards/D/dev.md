@@ -200,6 +200,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23772 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-10-01* — Only the controller of the enchanted creature can activate the ability that gives it trample.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/slaughter-games-2012-10-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,069 decks; most often under [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (0.5% of its decks), [Olivia Voldaren](../../cards/O/ol.md#olivia-voldaren) (1.2% of its decks), [Queen Marchesa](../../cards/Q/qu.md#queen-marchesa) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/65/deviant-glee) · oracle_id `13aeccd5-cca2-4249-904d-d5516f977440` · printing: RTR #65 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devil Dinosaur
@@ -597,6 +599,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24920 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-01-22* — Once you announce that you’re casting Devour in Flames, it’s too late for anyone to interrupt you by trying to remove the land you’re returning.
+- **Lore:** ✅ Card art shown on [Up in Flames](https://magic.wizards.com/en/news/magic-story/flames-2016-01-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 839 decks; most often under [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (7.4% of its decks), [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (0.9% of its decks), [Omnath, Locus of Rage](../../cards/O/om.md#omnath-locus-of-rage) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/106/devour-in-flames) · oracle_id `ea1fc580-a640-4f49-8f29-405c2830eca8` · printing: OGW #106 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devouring Deep

@@ -289,6 +289,8 @@ schema: 2
   > *Five rivers encircle Theros, flowing with waters more ancient than the world itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #116 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Thank the Gods](https://magic.wizards.com/en/news/magic-story/thank-gods-2014-04-30), [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (36): [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Admiral Brass, Unsinkable (Grixis)](../../grixis/decks/admiral-brass-unsinkable.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 727,085 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (23.8% of its decks), [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (53.9% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (87.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 40 pages (36 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/M.md#mana-confluence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/163/mana-confluence) · oracle_id `d0ee5bdc-2b69-4b73-9a20-ffcc18783b29` · printing: JOU #163 (2014-05-02) · [rulings](https://api.scryfall.com/cards/504a69eb-3c2d-4bb1-b117-252b15acf0c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1403,6 +1405,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17753 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Way of the Mantis](https://magic.wizards.com/en/news/magic-story/way-of-the-mantis) (caption names the card and its artist) — ✅ Flavor text verbatim on [official page 1](https://magic.wizards.com/en/news/feature/planeswalkers-guide-khans-tarkir-part-1-2014-09-03) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,350 decks; most often under [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (46.2% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (3.3% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/184/mantis-rider) · oracle_id `5c1a0a7a-dea4-4b8e-b9c0-8c19942a01ef` · printing: KTK #184 (2014-09-26) · [rulings](https://api.scryfall.com/cards/82d5ce46-7118-4ede-ba1d-c387e7ce16e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mantle of Leadership

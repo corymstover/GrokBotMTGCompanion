@@ -161,6 +161,8 @@ schema: 2
   > *As Ob Nixilis closed in, Halo swept through Giada like an electrical current, and inside her, something long dormant unfurled its wings.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22766 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SNC #28 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,324 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.2% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (0.5% of its decks), [Brigone, Soldier of Meletis](../../cards/B/br.md#brigone-soldier-of-meletis) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/28/revelation-of-power) · oracle_id `287f60a6-e83b-487b-add9-2048a06dcca1` · printing: SNC #28 (2022-04-29) · [rulings](https://api.scryfall.com/cards/7e010b11-8f3e-4792-afe4-0a376650b6c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revel in Riches

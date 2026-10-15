@@ -254,6 +254,8 @@ schema: 2
   > *—Olgard of the Skiltfolk*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14032 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Sacrifice](https://magic.wizards.com/en/news/magic-story/sacrifice-2016-03-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 40 combos; most popular [Midnight Guard + Presence of Gond](https://commanderspellbook.com/combo/1424-2617/) (Infinite creature tokens) · EDHREC: in 6,454 decks; most often under [Ghired, Mirror of the Wilds](../../cards/G/gh.md#ghired-mirror-of-the-wilds) (35.9% of its decks), [Emmara, Soul of the Accord](../../cards/E/em.md#emmara-soul-of-the-accord) (7.1% of its decks), [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/99/midnight-guard) · oracle_id `f5430b0e-e77f-47b8-ae6d-30bcff4d7e35` · printing: BBD #99 (2018-06-08) · [rulings](https://api.scryfall.com/cards/87c1d85d-b2b8-4c9d-84fa-2566b14cb5ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Haunting

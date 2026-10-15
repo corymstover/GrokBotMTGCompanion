@@ -130,6 +130,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18899 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — If multiple players are instructed to scry at once, such as while resolving Eager Construct's triggered ability, those players each look at the top card of their library at the same time, then they choose in turn order whether to put those cards on the top or bottom of their library.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,736 decks; most often under [River Song](../../cards/R/ri.md#river-song) (30.0% of its decks), [Gluntch, the Bestower](../../cards/G/gl.md#gluntch-the-bestower) (0.5% of its decks), [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/250/eager-construct) · oracle_id `39363190-7f79-4fae-bcfc-b17ec4e07bfe` · printing: 2XM #250 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eager First-Year
@@ -162,6 +164,8 @@ schema: 2
   > *Sharrel poured his heart into his words and watched them take flight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23409 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-winnowing-season) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Nim Deathmantle + Ashnod's Altar + Eager Glyphmage](https://commanderspellbook.com/combo/2034-5003-7454/) (Infinite creature ETB, Infinite creature LTB) · EDHREC: in 1,163 decks; most often under [Silverquill, the Disputant](../../cards/S/si.md#silverquill-the-disputant) (2.1% of its decks), [Abigale, Poet Laureate](../../cards/A/ab.md#abigale-poet-laureate--heroic-stanza) (4.1% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/11/eager-glyphmage) · oracle_id `070aa6c7-4741-47de-b68a-629aa4201ac0` · printing: SOS #11 (2026-04-24) · [rulings](https://api.scryfall.com/cards/bf736de9-9bc4-49df-ae60-672ed4f83f32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eager Trufflesnout

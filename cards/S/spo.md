@@ -190,6 +190,8 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Lore:** ✅ Card art shown on [In the Dead of Night](https://magic.wizards.com/en/news/magic-story/dead-night-2016-11-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 599 decks; most often under [Satya, Aetherflux Genius](../../cards/S/sat.md#satya-aetherflux-genius) (0.7% of its decks), [Saheeli, Radiant Creator](../../cards/S/sah.md#saheeli-radiant-creator) (0.7% of its decks), [The Motherlode, Excavator](../../cards/T/them.md#the-motherlode-excavator) (24.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/134/spontaneous-artist) · oracle_id `c0602911-7d44-4a7a-a04c-837036ed3b82` · printing: KLD #134 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spontaneous Combustion

@@ -172,6 +172,8 @@ schema: 2
   > *—Plargg, dean of chaos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11211 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-field-studies-in-a-future-tense) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,351 decks; most often under [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (71.3% of its decks), [Millicent, Restless Revenant](../../cards/M/mil.md#millicent-restless-revenant) (10.1% of its decks), [Excava, the Risen Past](../../cards/E/ex.md#excava-the-risen-past) (35.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#ceaseless-conflict)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/12/ceaseless-conflict) · oracle_id `2f109125-b743-4ecf-84da-690d8e8ddf9c` · printing: SOC #12 (2026-04-24) · [rulings](https://api.scryfall.com/cards/a0e18f74-7fa6-4e3a-bc80-390a25055205/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -643,6 +645,8 @@ schema: 2
   - *2025-11-17* — If an effect refers to a "[subtype] card," it refers only to a card that has that subtype. For example, Glen Elendra's Answer creates a Faerie token and features a Faerie in its art, but it isn't a Faerie card.
   - *2025-11-17* — Notably, Celestial Reunion's behold instruction is limited to "creatures." It doesn't allow you to behold kindred cards or kindred permanents, which are permitted for most other behold instructions.
   - *2025-11-17* — To behold two creatures of a specified creature type, you can reveal two creature cards of that type from your hand, choose two creatures you control of that type on the battlefield, or reveal one card and choose one creature on the battlefield.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ECL #170 — [Art & Flavor → Lorwyn Eclipsed (2025–26)](../../Art%20%26%20Flavor%20Story%20Links.md#lorwyn-eclipsed-202526) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,871 decks; most often under [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (6.4% of its decks), [Ashling, the Limitless](../../cards/A/as.md#ashling-the-limitless) (4.1% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (6.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 rules · 1 lore & story) → [reverse index](../../references/C.md#celestial-reunion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/170/celestial-reunion) · oracle_id `ba0a815c-1dfe-47c1-890f-496c670124f3` · printing: ECL #170 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -894,7 +898,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10628 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — If the target creature card is an illegal target as Cemetery Recruitment tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card even if the target creature card was a Zombie card.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#cemetery-recruitment)
+- **Lore:** ✅ Card art shown on [Puppets](https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,413 decks; most often under [Ghoulcaller Gisa](../../cards/G/gh.md#ghoulcaller-gisa) (25.3% of its decks), [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (18.8% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (5.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/C.md#cemetery-recruitment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/517/cemetery-recruitment) · oracle_id `07792d72-d5db-41b9-871c-e720e12ce659` · printing: FDN #517 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cemetery Tampering

@@ -507,6 +507,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1159 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-04-16* — If you choose 1 for the value of X, Crackle with Power will cost {3}{R}{R} to cast and deal five damage to a single target. If you choose 2 for the value of X, it will cost {6}{R}{R} to cast and deal ten damage to each of up to two targets, and so on.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #95 — ✅ Card art shown on [Episode 5: Final Exam](https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) · Commander Spellbook: 1 combo; most popular [Yavimaya Bloomsage // Channel + Crackle with Power](https://commanderspellbook.com/combo/7439-7440/) (Near-infinite damage) · EDHREC: in 136,655 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (19.4% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (15.6% of its decks), [Magus Lucea Kane](../../cards/M/mag.md#magus-lucea-kane) (39.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#crackle-with-power)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/95/crackle-with-power) · oracle_id `273f5483-b67e-4dd6-bba8-c0a047fa34d7` · printing: STX #95 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -570,6 +572,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-10-05* — If any exiled cards you own are face down, they have no characteristics. If they're normally instants or sorceries, they won't be counted.
   - *2018-10-05* — The ability that defines Crackling Drake's power works in all zones.
+- **Lore:** ✅ Card art shown on [Testing the Dark Waters](https://magic.wizards.com/en/news/magic-story/testing-dark-waters-2018-10-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,735 decks; most often under [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (13.3% of its decks), [Melek, Reforged Researcher](../../cards/M/me.md#melek-reforged-researcher) (26.1% of its decks), [Kalamax, the Stormsire](../../cards/K/ka.md#kalamax-the-stormsire) (6.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/174/crackling-drake) · oracle_id `c8b4eba6-88ce-42d7-a235-5a4765a4a981` · printing: RVR #174 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crackling Emergence
@@ -1187,6 +1191,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — If the target creature is an illegal target by the time Crashing Tide tries to resolve, the spell doesn’t resolve. You won’t draw a card.
   - *2018-01-19* — Once you announce that you’re casting Crashing Tide, players can’t try to remove your Merfolk to make it lose flash until you’re done casting it. If it loses flash after it’s been cast, it will still resolve if able.
+- **Lore:** ✅ Card art shown on [Rivals of Ixalan Magic Story Alternate Endings](https://magic.wizards.com/en/news/magic-story/rivals-ixalan-magic-story-alternate-endings-2018-02-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,135 decks; most often under [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (1.4% of its decks), [Svyelun of Sea and Sky](../../cards/S/sv.md#svyelun-of-sea-and-sky) (16.5% of its decks), [Kumena, Tyrant of Orazca](../../cards/K/ku.md#kumena-tyrant-of-orazca) (3.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/34/crashing-tide) · oracle_id `4c3f87d7-a632-4b8c-9052-b4055ea88771` · printing: RIX #34 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crashing Wave
@@ -3127,6 +3133,9 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16604 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/greater-good-2013-02-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,124 decks; most often under [Vorinclex, Monstrous Raider](../../cards/V/vo.md#vorinclex-monstrous-raider) (2.8% of its decks), [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (2.0% of its decks), [Vorel of the Hull Clade](../../cards/V/vo.md#vorel-of-the-hull-clade) (5.1% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#crowned-ceratok)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/158/crowned-ceratok) · oracle_id `5cdeb1fe-9ce3-4088-a35c-dcfb762f76d8` · printing: IMA #158 (2017-11-17) · [rulings](https://api.scryfall.com/cards/7cfc5264-e27e-4286-9feb-0dda0b074097/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crown-Hunter Hireling
@@ -3192,6 +3201,8 @@ schema: 2
   - *2013-04-15* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, the new top card won't be revealed until you finish doing so.
   - *2013-04-15* — The top card of your library isn't in your hand, so you can't suspend it, cycle it, discard it, or activate any of its activated abilities.
   - *2013-04-15* — When playing with the top card of your library revealed, if an effect tells you to draw several cards, reveal each one before you draw it.
+- **Lore:** ✅ Card art shown on [The Ledger of Hidden Fortunes](https://magic.wizards.com/en/news/magic-story/ledger-hidden-fortunes-2019-02-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 353 decks; most often under [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (0.3% of its decks), [Tolsimir Wolfblood](../../cards/T/to.md#tolsimir-wolfblood) (5.0% of its decks), [Amareth, the Lustrous](../../cards/A/am.md#amareth-the-lustrous) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#crown-of-convergence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/258/crown-of-convergence) · oracle_id `316c265b-67e2-48b3-aac8-07a898dbb20f` · printing: RAV #258 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3345,6 +3356,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12285 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-11-10* — The triggered ability triggers both when Crow of Dark Tidings enters the battlefield and when it dies. You don't have to choose only one.
+- **Lore:** ✅ Card art shown on [Liliana's Indignation](https://magic.wizards.com/en/news/magic-story/lilianas-indignation-2016-04-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,591 decks; most often under [Araumi of the Dead Tide](../../cards/A/ara.md#araumi-of-the-dead-tide) (21.4% of its decks), [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (8.3% of its decks), [Zul Ashur, Lich Lord](../../cards/Z/zu.md#zul-ashur-lich-lord) (14.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#crow-of-dark-tidings)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/519/crow-of-dark-tidings) · oracle_id `a4ffe297-5e82-43f9-91a4-7aa3d8dd3b4a` · printing: FDN #519 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crow Scarer
@@ -3404,6 +3418,8 @@ schema: 2
   - *2014-11-24* — Notably, turning a face-down creature face up isn't an activated ability. If you manifest a Dragon creature card or cast a Dragon creature card face down using the morph ability, you can't use mana generated by the last ability to turn that card face up.
   - *2014-11-24* — The mana generated by the last ability can't be spent to activate abilities of Dragon sources that aren't on the battlefield.
   - *2014-11-24* — You can use mana generated by the last ability to pay an alternative cost (such as a dash cost) or an additional cost to cast a Dragon spell. It's not limited to paying just that spell's mana cost.
+- **Lore:** Depicts: [Item → Stormnexus Ritual & the Crucible of the Spirit Dragon (Tarkir)](../../Items%20%26%20Artifacts%20Index.md#stormnexus-ritual--the-crucible-of-the-spirit-dragon-tarkir) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1) via entry) — ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21), [Chronicle of Bolas: A Familiar Stranger](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01), [Chronicle of Bolas: The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15) (caption names the card and its artist) — *Depicts:* "Narset and the other rebellion leaders gathered at the remains of the Crucible of the Spirit Dragon, hoping to finally put an end to the dragonlords' reign." ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 39,554 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (21.6% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (17.9% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (21.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/C.md#crucible-of-the-spirit-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/231/crucible-of-the-spirit-dragon) · oracle_id `ecfbebc9-7fc7-474e-8c59-8ede800e082e` · printing: AFC #231 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3419,6 +3435,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-07-13* — Crucible of Worlds doesn't allow you to activate abilities (such as cycling) of land cards in your graveyard.
   - *2018-07-13* — Crucible of Worlds doesn't change the times when you can play those land cards. You can still play only one land per turn, and only during your main phase when you have priority and the stack is empty.
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: A Familiar Stranger](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Tatyova, Benthic Druid](../../decks/tatyova-benthic-druid.md) · [Doctor Doom, King of Latveria (Grixis)](../../grixis/decks/doctor-doom-king-of-latveria.md) · Commander Spellbook: 61 combos; most popular [Glacial Chasm + Crucible of Worlds + Azusa, Lost but Seeking](https://commanderspellbook.com/combo/2573-3946-4011/) (Prevent all damage that would be dealt to you, Lock) · EDHREC: in 229,449 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (41.1% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (41.0% of its decks), [The Necrobloom](../../cards/T/then.md#the-necrobloom) (32.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Lands from graveyard](../../EDH%20Packages.md#lands--landfall-lands-from-graveyard) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/C.md#crucible-of-worlds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/303/crucible-of-worlds) · oracle_id `33c722cf-b4bf-431f-aefd-ee96241a7fbf` · printing: 2X2 #303 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3548,6 +3566,8 @@ schema: 2
   - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren't promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won't be able to choose targets for an enters ability of that permanent once the spell resolves.
   - *2024-07-26* — You can't pay a gift cost more than once.
   - *2024-07-26* — You pay all costs and follow all timing rules for a spell cast this way. For example, if the exiled card is a sorcery, you may cast it only during your main phase while the stack is empty.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BLB #88 — [Art & Flavor → Bloomburrow (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#bloomburrow-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 25,595 decks; most often under [Gonti, Night Minister](../../cards/G/gon.md#gonti-night-minister) (41.0% of its decks), [Tasha, the Witch Queen](../../cards/T/ta.md#tasha-the-witch-queen) (25.2% of its decks), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (7.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#cruelclaws-heist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/88/cruelclaws-heist) · oracle_id `7a0bc265-6b40-48d6-a588-c9624df7d1bc` · printing: BLB #88 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3672,6 +3692,8 @@ schema: 2
   - *2017-04-18* — The enchanted player can’t choose to lose 5 life if they have a creature or planeswalker that can be sacrificed.
   - *2017-04-18* — The enchanted player chooses a permanent to sacrifice from among the creatures and planeswalkers that player controls. You don’t choose which type of permanent the player has to sacrifice.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): AKH #84 — [Art & Flavor → Amonkhet & Hour of Devastation (2017)](../../Art%20%26%20Flavor%20Story%20Links.md#amonkhet--hour-of-devastation-2017) — ✅ Card art shown on [Brazen](https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Lynde, Cheerful Tormentor (Grixis)](../../grixis/decks/lynde-cheerful-tormentor.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,406 decks; most often under [Lynde, Cheerful Tormentor](../../cards/L/ly.md#lynde-cheerful-tormentor) (73.4% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (4.0% of its decks), [Ghen, Arcanum Weaver](../../cards/G/gh.md#ghen-arcanum-weaver) (13.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/C.md#cruel-reality)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/84/cruel-reality) · oracle_id `2e3cc9b6-7849-4385-a487-c8f5364174e7` · printing: AKH #84 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3685,7 +3707,9 @@ schema: 2
   > *On Innistrad, Liliana embraced necromancy, honing her powers by practicing on scores of undead—and sometimes the living.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15709 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cruel-revival)
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,809 decks; most often under [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (22.3% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (3.3% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (2.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/C.md#cruel-revival)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gnt/28/cruel-revival) · oracle_id `836d074a-8888-42a0-8dce-11ffce00d2f5` · printing: GNT #28 (2018-11-16) · [rulings](https://api.scryfall.com/cards/5f4b76ac-550e-4450-bade-66b176add109/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cruel Sadist
@@ -3771,7 +3795,9 @@ schema: 2
   - *2017-03-14* — Cruel Ultimatum's only target is an opponent. You don't choose which creature card in your graveyard you'll return to your hand until Cruel Ultimatum resolves.
   - *2017-03-14* — If, as Cruel Ultimatum begins to resolve, your opponent's life total is 5 or less and you have two or fewer cards in your library, the game will result in a draw. Your opponent's life total will drop to 0 or less, but Cruel Ultimatum must finish resolving completely before state-based actions are performed. You'll then be forced to draw three cards and fail to draw one. When state-based actions are finally performed, you and your opponent will both lose the game at the same time, which means the game is a draw.
   - *2024-04-12* — If the target opponent is an illegal target as Cruel Ultimatum tries to resolve, it won't resolve and none of its effects will happen. (I'm not going to list them all here because it would just be disappointing to hear all of the things you won't get to do.)
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#cruel-ultimatum)
+- **Lore:** ✅ Card art shown on [Kruphix's Insight](https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11), [Unbroken and Unbowed](https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Bjorna, Nightfall Alchemist (Grixis)](../../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 26,398 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (37.8% of its decks), [Zevlor, Elturel Exile](../../cards/Z/ze.md#zevlor-elturel-exile) (62.9% of its decks), [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (19.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/C.md#cruel-ultimatum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/e01/82/cruel-ultimatum) · oracle_id `01294ac9-1a06-4ee8-b3b1-db1f07c9d94e` · printing: E01 #82 (2017-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cruel Witness
@@ -3838,6 +3864,8 @@ schema: 2
   - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid.
   - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
   - *2015-08-25* — You may leave any cards with that name in the player’s graveyard, hand, or library. You don’t have to exile them.
+- **Lore:** ✅ Card art shown on [Nissa's Resolve](https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 279 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (0.2% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (0.2% of its decks), [Fin Fang Foom](../../cards/F/fi.md#fin-fang-foom) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/128/crumble-to-dust) · oracle_id `c13da0f4-917f-4e07-b484-21cb4bec4da6` · printing: BFZ #128 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crumbling Ashes
@@ -3937,6 +3965,8 @@ schema: 2
   - *2024-11-08* — As long as Crusader of Odric is on the battlefield and still a creature, its ability will count itself.
   - *2024-11-08* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Crusader of Odric may become lethal if other creatures you control leave the battlefield during that turn.
   - *2024-11-08* — The ability that defines Crusader of Odric's power and toughness works in all zones, not just the battlefield.
+- **Lore:** ✅ Card art shown on [The Lunarch Inquisition](https://magic.wizards.com/en/news/magic-story/lunarch-inquisition-2016-05-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,476 decks; most often under [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (9.2% of its decks), [Odric, Master Tactician](../../cards/O/od.md#odric-master-tactician) (32.5% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/731/crusader-of-odric) · oracle_id `ea384b0d-3091-4d50-b15f-1f6763647b7c` · printing: FDN #731 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crusading Knight
@@ -4050,6 +4080,9 @@ schema: 2
   > *Most students could barely endure Dean Embrose's scrutiny for a semester or two; Killian lived with it his entire life.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10824 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [A Silent Voice Calls](https://magic.wizards.com/en/news/magic-story/silent-voice-calls-2021-04-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,992 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (5.4% of its decks), [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (12.4% of its decks), [Belbe, Corrupted Observer](../../cards/B/be.md#belbe-corrupted-observer) (26.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#crushing-disappointment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/68/crushing-disappointment) · oracle_id `77a1958e-ee24-4305-9dad-da8372803be8` · printing: STX #68 (2021-04-23) · [rulings](https://api.scryfall.com/cards/7fbe8cf1-11df-4ca4-9a6b-265193c49250/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crushing Pain
@@ -4177,6 +4210,8 @@ schema: 2
   > *Ugin's whispered summons led Sarkhan Vol to the moment that would echo down the centuries and seal Tarkir's fate: the primal battle between Ugin and Nicol Bolas.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1585 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21), [Chronicle of Bolas: Whispers of Treachery](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11), [Khanfall](https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Ur-Dragon](../../decks/the-ur-dragon.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 103,704 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (70.6% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (55.5% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (9.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#crux-of-fate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/107/crux-of-fate) · oracle_id `52a0dae4-2a95-487e-acd4-eabdb2d031e2` · printing: C17 #107 (2017-08-25) · [rulings](https://api.scryfall.com/cards/11721b88-2654-482c-b9d4-80e54efdbf63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

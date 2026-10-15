@@ -197,6 +197,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22138 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Truth of Names](https://magic.wizards.com/en/news/magic-story/truth-names-2015-01-28) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,486 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.3% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (0.4% of its decks), [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shockmaw-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/114/shockmaw-dragon) · oracle_id `e0754b8e-fd3c-4207-9031-a6323e1b66d5` · printing: FRF #114 (2015-01-23) · [rulings](https://api.scryfall.com/cards/e4810919-b379-40db-a68b-a769dd3ee32d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -237,6 +239,8 @@ schema: 2
   > *Gwenna stayed her hand only once, to save young Harbin's life—a mistake she would never repeat.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21501 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #190 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,699 decks; most often under [Ohabi Caleria](../../cards/O/oh.md#ohabi-caleria) (3.2% of its decks), [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (0.2% of its decks), [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#shoot-down)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/190/shoot-down) · oracle_id `2a89feeb-9e66-4539-bd75-7d9d53f52d49` · printing: BRO #190 (2022-11-18) · [rulings](https://api.scryfall.com/cards/20014a1c-197c-4e04-94b2-874886183e2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

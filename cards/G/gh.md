@@ -851,6 +851,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20328 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-09-20* — Face-down creatures and most artifact creatures are colorless.
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: Whispers of Treachery](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,115 decks; most often under [Traxos, Scourge of Kroog](../../cards/T/tra.md#traxos-scourge-of-kroog) (13.9% of its decks), [Hope of Ghirapur](../../cards/H/ho.md#hope-of-ghirapur) (40.9% of its decks), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (3.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/220/ghostfire-blade) · oracle_id `093b1d8d-c836-4e9b-855b-4020361aa6ac` · printing: KTK #220 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostfire Slice
@@ -1410,7 +1412,9 @@ schema: 2
   > *"Geralf, must you always whine? I agreed to nothing. I'll raise ghouls anytime I wish."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2425 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#ghoulcaller-gisa)
+- **Lore:** ✅ Card art shown on [Games](https://magic.wizards.com/en/news/magic-story/games-2016-04-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 72 combos; most popular [Ghoulcaller Gisa + Thornbite Staff + Phyrexian Altar + Lord of the Accursed](https://commanderspellbook.com/combo/2178-2817-4050-4149/) (Infinite colored mana, Infinite creature ETB) · EDHREC as commander: 5,888 decks; highest synergy [Lord of the Accursed](../../cards/L/lo.md#lord-of-the-accursed) (+76%), [Death Baron](../../cards/D/dea.md#death-baron) (+75%), [Champion of the Perished](../../cards/C/cha.md#champion-of-the-perished) (+73%) · EDHREC: in 62,717 decks; most often under [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (25.7% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (33.0% of its decks), [Xu-Ifit, Osteoharmonist](../../cards/X/xu.md#xu-ifit-osteoharmonist) (61.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/G.md#ghoulcaller-gisa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/161/ghoulcaller-gisa) · oracle_id `0dd894cb-1968-471c-af08-ea7ec5ce8428` · printing: CMM #161 (2023-08-04) · [rulings](https://api.scryfall.com/cards/44d7906e-8a89-4644-acb5-46fbe97ab39f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulcaller's Accomplice
@@ -1424,6 +1428,8 @@ schema: 2
   > *"Once in the box, we're all the same."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27303 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Laid to Rest](https://magic.wizards.com/en/news/magic-story/laid-rest-2016-08-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 485 decks; most often under [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (0.4% of its decks), [Ghoulcaller Gisa](../../cards/G/gh.md#ghoulcaller-gisa) (0.4% of its decks), [Elas il-Kor, Sadistic Pilgrim](../../cards/E/el.md#elas-il-kor-sadistic-pilgrim) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/237/ghoulcallers-accomplice) · oracle_id `16616aa2-5490-4fab-9de4-f37ca8c8be08` · printing: JMP #237 (2020-07-17) · [rulings](https://api.scryfall.com/cards/63b62aaf-cc36-4235-b802-828b2c4d6341/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulcaller's Bell
@@ -1566,6 +1572,8 @@ schema: 2
   - *2021-09-24* —  Once a creature with decayed attacks, it will be sacrificed at end of combat, even if it no longer has decayed at that time.
   - *2021-09-24* — If any creature cards put onto the battlefield this way become permanents that aren't creatures because of another effect, those permanents won't be Zombies, but they will gain decayed.
   - *2021-09-24* — The creatures will enter the battlefield simultaneously. They will see each other enter for the purposes of triggered abilities.
+- **Lore:** ✅ Card art shown on [The Dance of Undeath](https://magic.wizards.com/en/news/magic-story/dance-undeath-2021-09-24) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 10 combos; most popular [Ghouls' Night Out + Phyrexian Altar + Blessed Sanctuary + Eternal Witness](https://commanderspellbook.com/combo/396-864-1333-4050/) (Infinite colored mana, Infinite creature tokens) · EDHREC: in 13,043 decks; most often under [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (18.4% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (5.7% of its decks), [Gisa, the Hellraiser](../../cards/G/gi.md#gisa-the-hellraiser) (8.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/19/ghouls-night-out) · oracle_id `cc9f9f14-a11c-4e33-9e11-8bf6ef13cf2b` · printing: MIC #19 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulsteed

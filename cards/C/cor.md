@@ -828,6 +828,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-02-25* — Because exiling the creature cards from your graveyard is part of the activation cost, no player can respond to stop you from activating the ability by moving creature cards out of your graveyard.
   - *2015-02-25* — “Exiled this way” refers to that activation of the ability, not any creature cards that have been previously exiled.
+- **Lore:** ✅ Card art shown on [The Poisoned Heart](https://magic.wizards.com/en/news/magic-story/poisoned-heart-2015-04-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,087 decks; most often under [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (1.2% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (0.4% of its decks), [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#corpseweft)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/92/corpseweft) · oracle_id `9ffb5615-124e-4848-9e0d-120851bd50e5` · printing: DTK #92 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -962,6 +964,8 @@ schema: 2
   - *2010-08-15* — The life you gain is equal to the damage dealt by Corrupt, not necessarily to the number of Swamps you control (if some or all of the damage is prevented, for example).
   - *2013-07-01* — Corrupt counts any land you control with the subtype Swamp, not just ones named Swamp.
   - *2022-10-14* — Corrupt counts any land you control with the subtype Swamp, not just ones named Swamp.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #88 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,403 decks; most often under [Vito, Thorn of the Dusk Rose](../../cards/V/vi.md#vito-thorn-of-the-dusk-rose) (17.6% of its decks), [Korlash, Heir to Blackblade](../../cards/K/ko.md#korlash-heir-to-blackblade) (47.2% of its decks), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/C.md#corrupt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/88/corrupt) · oracle_id `a88a1c53-7de3-423a-a95a-24ed5666ab96` · printing: BRO #88 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1008,6 +1012,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — Players can't respond to this spell until it's been cast and all its costs have been paid. No one can try to interfere with the creature you sacrificed to prevent you from casting this spell.
   - *2023-04-14* — You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #98, PLST #MOM-98 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Teysa Karlov](../../decks/teysa-karlov.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 228,880 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (23.2% of its decks), [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (58.5% of its decks), [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (29.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/C.md#corrupted-conviction)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/84/corrupted-conviction) · oracle_id `b45e35df-9032-4482-89a6-c7c50c6d0a79` · printing: OTJ #84 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1098,6 +1104,8 @@ schema: 2
 - **Rulings** (2):
   - *2009-02-01* — Corrupted Roots can enchant only a Forest or a Plains. It checks the enchanted land’s subtypes, not its name. If at any time the enchanted land is neither a Forest nor a Plains (due to Unstable Frontier’s ability, perhaps), Corrupted Roots is put into its owner’s graveyard as a state-based action.
   - *2009-02-01* — Corrupted Roots doesn’t care why the enchanted land becomes tapped. If that land changes from being untapped to being tapped for any reason, the ability will trigger.
+- **Lore:** ✅ Card art shown on [All the Cairns of Jund](https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 670 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (1.2% of its decks), [Tatsunari, Toad Rider](../../cards/T/ta.md#tatsunari-toad-rider) (0.2% of its decks), [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/con/41/corrupted-roots) · oracle_id `0c6f343a-0088-477a-a6b5-256783ad0c27` · printing: CON #41 (2009-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Shapeshifter

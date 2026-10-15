@@ -300,6 +300,8 @@ schema: 2
   > *—Kunh Mei, last words*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26471 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 594 decks; most often under [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (0.0% of its decks), [Emry, Lurker of the Loch](../../cards/E/em.md#emry-lurker-of-the-loch) (0.2% of its decks), [Syr Ginger, the Meal Ender](../../cards/S/sy.md#syr-ginger-the-meal-ender) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/417/vial-of-dragonfire) · oracle_id `17be934e-1e33-4b95-a984-242fa018e280` · printing: CMM #417 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c924502b-a49e-4bf6-9e1a-9aa83f279228/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vial of Poison
@@ -1687,6 +1689,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3766 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-09-22* — Untapping an attacking creature doesn't remove it from combat.
+- **Lore:** ✅ Card art shown on [Under the Silver Moon](https://magic.wizards.com/en/news/magic-story/under-silver-moon-2016-03-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 66 combos; most popular [The Jolly Balloon Man + Village Bell-Ringer](https://commanderspellbook.com/combo/2059-5917/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 44,411 decks; most often under [The Jolly Balloon Man](../../cards/T/thej.md#the-jolly-balloon-man) (66.1% of its decks), [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (34.3% of its decks), [Rocco, Cabaretti Caterer](../../cards/R/ro.md#rocco-cabaretti-caterer) (24.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/216/village-bell-ringer) · oracle_id `d7b50175-b473-452a-bb30-19a71c42e649` · printing: MOC #216 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Village Cannibals
@@ -2065,6 +2069,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22385 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-08-21* — If the permanent had {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): FRA #162 — [Art & Flavor → Reality Fracture (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#reality-fracture-2026) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,519 decks; most often under [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (16.3% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (1.4% of its decks), [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (7.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/V.md#vindictive-triumph)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/162/vindictive-triumph) · oracle_id `d6b478d1-5015-49ba-b1aa-cbc2b08107a6` · printing: FRA #162 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3527,6 +3533,8 @@ schema: 2
   - *2021-09-24* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-09-24* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
   - *2021-09-24* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Lore:** ✅ Card art shown on [The Dance of Undeath](https://magic.wizards.com/en/news/magic-story/dance-undeath-2021-09-24) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,165 decks; most often under [Arvinox, the Mind Flail](../../cards/A/arv.md#arvinox-the-mind-flail) (22.6% of its decks), [Tariel, Reckoner of Souls](../../cards/T/ta.md#tariel-reckoner-of-souls) (6.2% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/34/visions-of-dread) · oracle_id `0b12fee3-1ad1-4dc3-bd19-e9ccce5cb829` · printing: MIC #34 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visions of Duplicity
@@ -3580,7 +3588,9 @@ schema: 2
   - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
   - *2022-10-14* — You must follow all normal timing rules for a card you play using Visions of Phyrexia's first ability and, if it's a spell, you must pay its costs to cast it.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#visions-of-phyrexia)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #156 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,624 decks; most often under [Prosper, Tome-Bound](../../cards/P/pr.md#prosper-tome-bound) (4.3% of its decks), [Ashling the Pilgrim](../../cards/A/as.md#ashling-the-pilgrim) (18.0% of its decks), [Pia Nalaar, Consul of Revival](../../cards/P/pi.md#pia-nalaar-consul-of-revival) (14.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/V.md#visions-of-phyrexia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/156/visions-of-phyrexia) · oracle_id `634b46a6-ec8b-41f0-8eb6-1e9144035847` · printing: BRO #156 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visions of Ruin
@@ -4044,6 +4054,8 @@ schema: 2
   - *2019-07-12* — In a casual game, a card you choose from outside the game comes from your personal collection. In a tournament event, a card you choose from outside the game must come from your sideboard. You may look at your sideboard at any time.
   - *2019-07-12* — You can activate Vivien’s first ability without choosing any target creatures. The counters won’t be put on anything. This is a change from previous rules regarding distributing counters.
   - *2019-07-12* — You choose how the counters will be distributed as you activate Vivien’s first ability. Each target creature must be assigned at least one counter. This means that you can’t put two counters on one creature but give two creatures trample.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Vivien Reid](../../Characters%20Index.md#vivien-reid) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,765 decks; most often under [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (2.8% of its decks), [Mowu, Loyal Companion](../../cards/M/mow.md#mowu-loyal-companion) (20.3% of its decks), [Vorinclex, Monstrous Raider](../../cards/V/vo.md#vorinclex-monstrous-raider) (4.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#vivien-arkbow-ranger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/199/vivien-arkbow-ranger) · oracle_id `3e83dec6-e1a0-4137-aaab-308dfd3122e1` · printing: M20 #199 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4061,6 +4073,8 @@ schema: 2
   - *2019-05-03* — Once you cast the creature card, it leaves exile. You can't cast it again if that card becomes exiled again.
   - *2019-05-03* — While resolving Vivien's last ability, you must exile one of the three cards, even if none of them are creature cards. You may look at the exiled card at any time, even if it's not a creature card.
   - *2019-05-03* — You must follow any applicable timing permissions and restrictions if you cast the exiled card. This means that if Vivien leaves the battlefield, you can't cast the creature spell as though it had flash unless another effect allows you to do so.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Vivien Reid](../../Characters%20Index.md#vivien-reid) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 44 combos; most popular [Ulalek, Fused Atrocity + Drowner of Truth // Drowned Jungle + Vivien, Champion of the Wilds](https://commanderspellbook.com/combo/2997-5657-6489/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 41,940 decks; most often under [Kadena, Slinking Sorcerer](../../cards/K/ka.md#kadena-slinking-sorcerer) (48.9% of its decks), [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (10.8% of its decks), [Volo, Guide to Monsters](../../cards/V/vo.md#volo-guide-to-monsters) (15.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#vivien-champion-of-the-wilds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/838/vivien-champion-of-the-wilds) · oracle_id `146eb8c8-93d5-4dd5-af7a-46d5acd4a89d` · printing: CLB #838 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4102,6 +4116,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19790 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-07-12* — If there are no creature cards in your library as Vivien’s second ability resolves, you reveal your library then put it back in a random order.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Vivien Reid](../../Characters%20Index.md#vivien-reid) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,332 decks; most often under [Vorinclex, Monstrous Raider](../../cards/V/vo.md#vorinclex-monstrous-raider) (8.4% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (2.2% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#vivien-natures-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/298/vivien-natures-avenger) · oracle_id `5513b150-c08f-4f3e-8e41-fd7b43d00b78` · printing: M20 #298 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4118,6 +4134,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-07-13* — If either creature is an illegal target as Vivien’s second ability tries to resolve, the creature you control won’t deal damage.
   - *2018-07-13* — Vivien’s last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +4/+4 or gain trample.
+- **Lore:** ✅ Card art shown on [Unbowed, Part 1](https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Vivien Reid](../../Characters%20Index.md#vivien-reid) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,189 decks; most often under [Vorinclex, Monstrous Raider](../../cards/V/vo.md#vorinclex-monstrous-raider) (4.2% of its decks), [Ohabi Caleria](../../cards/O/oh.md#ohabi-caleria) (3.8% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#vivien-of-the-arkbow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/301/vivien-of-the-arkbow) · oracle_id `34fe53c2-8909-4786-b5c0-331de997ff81` · printing: M19 #301 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4134,7 +4152,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8499 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-04-29* — You may activate Vivien on the Hunt's first ability without sacrificing a creature. If you do, the ability does nothing.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/V.md#vivien-on-the-hunt)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Vivien Reid](../../Characters%20Index.md#vivien-reid) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 16,111 decks; most often under [Rocco, Cabaretti Caterer](../../cards/R/ro.md#rocco-cabaretti-caterer) (20.9% of its decks), [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (5.6% of its decks), [Tana, the Bloodsower // Tymna the Weaver](../../cards/T/ta.md#tana-the-bloodsower) (34.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/V.md#vivien-on-the-hunt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/162/vivien-on-the-hunt) · oracle_id `f6f927f3-dc3f-446c-aa7b-81048eb73243` · printing: SNC #162 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien Reid
@@ -4150,7 +4170,7 @@ schema: 2
 - **Rulings:** none published on Scryfall
 - **Lore:** Featured in: [Plane → Skalla](../../Planes%20Index.md#skalla) ([source](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22), [2](https://magic.wizards.com/en/story/vivien-reid-planeswalker)) — ⚠️ Name match only (not a canon claim): [Character → Vivien Reid](../../Characters%20Index.md#vivien-reid) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 40,605 decks; most often under [Omo, Queen of Vesuva](../../cards/O/om.md#omo-queen-of-vesuva) (20.1% of its decks), [Vorinclex, Monstrous Raider](../../cards/V/vo.md#vorinclex-monstrous-raider) (56.0% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (42.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/V.md#vivien-reid)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/V.md#vivien-reid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/234/vivien-reid) · oracle_id `b5f20a6d-8c3e-452f-9d98-4886f0fa052a` · printing: FDN #234 (2024-11-15) · [rulings](https://api.scryfall.com/cards/38769247-42a1-4571-9071-6d59fe28650a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien's Arkbow

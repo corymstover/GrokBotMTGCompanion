@@ -103,6 +103,8 @@ schema: 2
   > *—Jhoira*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #76 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 7](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-7-2018-04-25), [Unbowed, Part 3](https://magic.wizards.com/en/news/magic-story/unbowed-part-3-2018-09-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (14): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Nekusar, the Mindrazer](../../decks/nekusar-the-mindrazer.md) · [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 899,573 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (61.1% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (58.3% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (51.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 19 pages (14 decks · 3 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/S.md#sulfur-falls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/84/sulfur-falls) · oracle_id `6a6c5e17-6465-4a1f-9d63-8a3ce2edc522` · printing: FRC #84 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2b20fa73-c6de-49c1-b3d0-6ebd543a00d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -271,6 +273,8 @@ schema: 2
   - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
   - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Lore:** ✅ Card art shown on [The Doom of the Golden Fang](https://magic.wizards.com/en/news/magic-story/doom-golden-fang-2015-02-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,605 decks; most often under [Shirei, Shizo's Caretaker](../../cards/S/shi.md#shirei-shizos-caretaker) (2.3% of its decks), [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (0.7% of its decks), [Kadena, Slinking Sorcerer](../../cards/K/ka.md#kadena-slinking-sorcerer) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/85/sultai-emissary) · oracle_id `0274f286-46a1-4028-878a-88c2146a895c` · printing: FRF #85 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Flayer

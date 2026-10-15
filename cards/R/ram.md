@@ -296,6 +296,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-01-25* — All of the artifacts and enchantments that are destroyed leave the battlefield before any Centaurs are created, and their abilities can’t affect or trigger on these tokens entering the battlefield.
   - *2019-01-25* — If a permanent has indestructible, it isn’t destroyed this way and its controller won’t create a Centaur token for it. If it is destroyed but put into a zone other than a graveyard, its controller does create a Centaur token for it.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): RNA #134 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Nine Lives + Fractured Identity + Rampage of the Clans](https://commanderspellbook.com/combo/190-389-2153/) (Each opponent loses the game) · EDHREC: in 18,821 decks; most often under [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (19.1% of its decks), [Ygra, Eater of All](../../cards/Y/yg.md#ygra-eater-of-all) (10.8% of its decks), [The Cabbage Merchant](../../cards/T/thec.md#the-cabbage-merchant) (33.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rampage-of-the-clans)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/134/rampage-of-the-clans) · oracle_id `5dc34e93-97e3-434b-9f12-f45c6d556f13` · printing: RNA #134 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

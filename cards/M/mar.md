@@ -676,6 +676,9 @@ schema: 2
   - *2014-05-29* — Once dethrone triggers, it doesn't matter what happens to the players' life totals before the ability resolves. You'll put a +1/+1 counter on the creature even if the defending player doesn't have the most life as the ability resolves.
   - *2014-05-29* — The +1/+1 counter is put on the creature before blockers are declared.
   - *2023-07-28* — Dethrone doesn't trigger if the creature attacks a planeswalker, even if its controller has the most life. The same is true if the creature attacks a battle, even if its protector has the most life.
+- **Lore:** ✅ Card art shown on [The Black Rose](https://magic.wizards.com/en/news/magic-story/black-rose-2014-05-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,382 decks; most often under [Sun Quan, Lord of Wu](../../cards/S/sun.md#sun-quan-lord-of-wu) (33.8% of its decks), [Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose) (1.5% of its decks), [Rikku, Resourceful Guardian](../../cards/R/ri.md#rikku-resourceful-guardian) (16.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#marchesas-infiltrator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/22/marchesas-infiltrator) · oracle_id `9f05fab1-398a-4bd1-824d-6b1373dc9a94` · printing: CNS #22 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marchesa's Smuggler
@@ -731,7 +734,9 @@ schema: 2
   - *2014-05-29* — Once dethrone triggers, it doesn't matter what happens to the players' life totals before the ability resolves. You'll put a +1/+1 counter on the creature even if the defending player doesn't have the most life as the ability resolves.
   - *2014-05-29* — The +1/+1 counter is put on the creature before blockers are declared.
   - *2023-07-28* — Dethrone doesn't trigger if the creature attacks a planeswalker, even if its controller has the most life. The same is true if the creature attacks a battle, even if its protector has the most life.
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 rules) → [reverse index](../../references/M.md#marchesa-the-black-rose)
+- **Lore:** ✅ Card art shown on [The Black Rose](https://magic.wizards.com/en/news/magic-story/black-rose-2014-05-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Marchesa, the Black Rose (Grixis)](../../grixis/decks/marchesa-the-black-rose.md) · Commander Spellbook: 1 combo; most popular [Marchesa, the Black Rose + Time Sieve + Myr Battlesphere](https://commanderspellbook.com/combo/1558-3166-4840/) (Infinite turns, Lock) · EDHREC as commander: 14,221 decks; highest synergy [Unspeakable Symbol](../../cards/U/un.md#unspeakable-symbol) (+64%), [Iron Apprentice](../../cards/I/ir.md#iron-apprentice) (+57%), [Carrion Feeder](../../cards/C/car.md#carrion-feeder) (+56%) · EDHREC: in 18,428 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (11.7% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (15.3% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (6.1% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 rules) → [reverse index](../../references/M.md#marchesa-the-black-rose)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/248/marchesa-the-black-rose) · oracle_id `17a59d3d-9e01-48cd-bb4a-3eaaa077751c` · printing: 2X2 #248 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### March from the Black Gate
@@ -1039,6 +1044,8 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — Although the tokens are attacking, they were never declared as attacking creatures (for purposes of abilities that trigger whenever a creature attacks, for example).
   - *2014-09-20* — As the Goblin token enters the battlefield, you choose which opponent or opposing planeswalker it’s attacking. It doesn’t have to attack the same opponent or opposing planeswalker that the original creature is attacking.
+- **Lore:** ✅ Card art shown on [The Salt Road](https://magic.wizards.com/en/news/magic-story/the-salt-road), [Victory](https://magic.wizards.com/en/news/magic-story/victory-2014-11-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 21,089 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (42.3% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (10.9% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (5.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/185/mardu-ascendancy) · oracle_id `aa1de5ce-ddd4-4c1f-8c52-0311f4419e7b` · printing: KTK #185 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mardu Banner
@@ -1188,6 +1195,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25051 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-11-24* — If the enchanted creature assigns combat damage during the first combat damage step, and then it loses first strike before the second combat damage step, it won’t assign combat damage again in the second combat damage step.
+- **Lore:** ✅ Card art shown on [The Truth of Names](https://magic.wizards.com/en/news/magic-story/truth-names-2015-01-28) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 813 decks; most often under [Zurgo Helmsmasher](../../cards/Z/zu.md#zurgo-helmsmasher) (1.2% of its decks), [Zurgo, Thunder's Decree](../../cards/Z/zu.md#zurgo-thunders-decree) (0.5% of its decks), [Alesha, Who Smiles at Death](../../cards/A/al.md#alesha-who-smiles-at-death) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/107/mardu-runemark) · oracle_id `a912834b-e4bc-4ccc-ae13-915ebe5acd00` · printing: FRF #107 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mardu Scout
@@ -1296,6 +1305,8 @@ schema: 2
   - *2014-09-20* — Mardu Warshrieker's raid ability isn't a mana ability even though it adds mana. It uses the stack and can be responded to.
   - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
   - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+- **Lore:** ✅ Card art shown on [The Salt Road](https://magic.wizards.com/en/news/magic-story/the-salt-road), [Victory](https://magic.wizards.com/en/news/magic-story/victory-2014-11-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 11 combos; most popular [Ashnod's Altar + Mardu Warshrieker + Nim Deathmantle](https://commanderspellbook.com/combo/2034-2785-5003/) (Infinite black mana, Infinite colorless mana) · EDHREC: in 549 decks; most often under [Zurgo Helmsmasher](../../cards/Z/zu.md#zurgo-helmsmasher) (5.0% of its decks), [Zurgo, Thunder's Decree](../../cards/Z/zu.md#zurgo-thunders-decree) (0.6% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/117/mardu-warshrieker) · oracle_id `fe9e9e2e-f304-4da3-a257-6886b0b1896b` · printing: KTK #117 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mardu Woe-Reaper
@@ -2529,6 +2540,8 @@ schema: 2
   > *"Should I fall, take up our standard and carry on. The Legion must always prevail."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10606 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Rivals of Ixalan Magic Story Alternate Endings](https://magic.wizards.com/en/news/magic-story/rivals-ixalan-magic-story-alternate-endings-2018-02-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,336 decks; most often under [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (45.6% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (3.0% of its decks), [Elenda, the Dusk Rose](../../cards/E/el.md#elenda-the-dusk-rose) (13.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/132/martyr-of-dusk) · oracle_id `794aaf8a-6d8e-41fb-acbe-a2b73d65d9d9` · printing: LCC #132 (2023-11-17) · [rulings](https://api.scryfall.com/cards/d32e68b4-2584-4b1c-9268-642e3678bae7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Martyr of Frost

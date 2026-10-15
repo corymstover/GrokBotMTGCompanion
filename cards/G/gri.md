@@ -966,6 +966,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-04-18* — Because damage remains marked on a creature until it’s removed as the turn ends, the damage a Grim Strider takes during combat may become lethal if you draw cards later in the turn.
   - *2017-04-18* — If a spell or ability causes you to draw cards and then has you remove some from hand (such as by discarding them or putting them on top of your library), Grim Strider may briefly have 0 toughness or less. As long as its toughness is 1 or greater again after the spell or ability is finished resolving, it will remain on the battlefield.
+- **Lore:** ✅ Card art shown on [Trespass](https://magic.wizards.com/en/news/magic-story/trespass-2017-05-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 238 decks; most often under [Abigale, Eloquent First-Year](../../cards/A/ab.md#abigale-eloquent-first-year) (1.8% of its decks), [Xu-Ifit, Osteoharmonist](../../cards/X/xu.md#xu-ifit-osteoharmonist) (0.8% of its decks), [Varolz, the Scar-Striped](../../cards/V/va.md#varolz-the-scar-striped) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/94/grim-strider) · oracle_id `b9dcdf5b-0fdb-4d8e-8ddf-08e44f67018d` · printing: AKH #94 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grim Tutor
@@ -1428,6 +1430,8 @@ schema: 2
   - *2021-06-18* — Grist's second loyalty ability doesn't require a target. If you choose to sacrifice a creature as it resolves, the reflexive triggered ability triggers and you'll choose a target creature or planeswalker to destroy. This will happen even if Grist isn't on the battlefield when the loyalty ability resolves.
   - *2021-06-18* — Grist, the Hunger Tide can be your commander as its first ability works before the game begins during deck construction.
   - *2021-06-18* — If Grist is no longer on the battlefield as its first loyalty ability resolves, you will still create a 1/1 black and green Insect creature token and mill a card. If an Insect card is milled this way, you won't be able to put a loyalty counter on Grist, but you will still repeat the process. More mill for the Grist, as it were.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Grist](../../Characters%20Index.md#grist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 22 combos; most popular [Agatha's Soul Cauldron + Grist, the Hunger Tide + Metallic Mimic](https://commanderspellbook.com/combo/345-414-4613/) (Infinite creature ETB, Infinite self-mill) · EDHREC: in 72,976 decks; most often under [Disa the Restless](../../cards/D/di.md#disa-the-restless) (63.3% of its decks), [Winter, Cynical Opportunist](../../cards/W/wi.md#winter-cynical-opportunist) (74.4% of its decks), [Zask, Skittering Swarmlord](../../cards/Z/za.md#zask-skittering-swarmlord) (88.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#grist-the-hunger-tide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/220/grist-the-hunger-tide) · oracle_id `0efb0d7e-dea0-4817-a243-15066e9ef333` · printing: DSC #220 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1460,7 +1464,9 @@ schema: 2
   - *2024-06-07* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
   - *2024-06-07* — The tokens are Insects instead of their other creature types, and they're black and green instead of their other colors. These are copiable values of the tokens that other effects may copy.
   - *2024-06-07* — You can activate one of Grist, the Plague Swarm's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if Grist, the Plague Swarm enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#grist-voracious-larva--grist-the-plague-swarm)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Grist](../../Characters%20Index.md#grist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 34 combos; most popular [Grist, Voracious Larva // Grist, the Plague Swarm + Vorinclex, Monstrous Raider + Body Launderer + Phyrexian Altar](https://commanderspellbook.com/combo/1887-3305-4050-5926/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 2,963 decks; highest synergy [Unearth](../../cards/U/un.md#unearth) (+62%), [Grist, the Hunger Tide](../../cards/G/gri.md#grist-the-hunger-tide) (+60%), [Dread Return](../../cards/D/dre.md#dread-return) (+54%) · EDHREC: in 31,478 decks; most often under [Grist, the Hunger Tide](../../cards/G/gri.md#grist-the-hunger-tide) (65.3% of its decks), [Zask, Skittering Swarmlord](../../cards/Z/za.md#zask-skittering-swarmlord) (79.8% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (6.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/G.md#grist-voracious-larva--grist-the-plague-swarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/251/grist-voracious-larva-grist-the-plague-swarm) · oracle_id `196f8f13-d4df-4740-8746-8fed3bc71840` · printing: MH3 #251 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grixis Battlemage
@@ -1533,6 +1539,8 @@ schema: 2
   > *There is no height above Grixis that is free from the stench of death.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6039 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [All the Cairns of Jund](https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 25,844 decks; most often under [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (5.0% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (8.1% of its decks), [Anhelo, the Painter](../../cards/A/an.md#anhelo-the-painter) (16.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#grixis-panorama)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/407/grixis-panorama) · oracle_id `743f4488-fef1-4f4d-b745-d2de92423e00` · printing: NCC #407 (2022-04-29) · [rulings](https://api.scryfall.com/cards/e49dd5f0-1afa-4301-acdb-28424e2553b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

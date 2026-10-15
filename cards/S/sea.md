@@ -394,6 +394,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5648 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-01-22* — It doesn’t matter how many cards are in your hand as the last ability resolves. For example, if you have no cards in hand and control two Sea Gate Wreckages, you can activate the last ability of each of them. You’ll draw a card as each ability resolves.
+- **Lore:** ✅ Card art shown on [The Flood](https://magic.wizards.com/en/news/magic-story/flood-2018-01-10), [Zendikar Resurgent](https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 28,103 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (44.1% of its decks), [Kozilek, the Great Distortion](../../cards/K/ko.md#kozilek-the-great-distortion) (34.7% of its decks), [Ultima, Origin of Oblivion](../../cards/U/ul.md#ultima-origin-of-oblivion) (17.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1028/sea-gate-wreckage) · oracle_id `91f34686-cb96-49c0-b4a7-49dd1fd076e2` · printing: CMM #1028 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea God's Revenge
@@ -550,6 +552,8 @@ schema: 2
   - *2023-04-14* — If a token is exiled, it ceases to exist. It won’t be returned to the battlefield.
   - *2023-04-14* — In a multiplayer game, if Seal from Existence’s owner leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn’t an ability that goes on the stack, it won’t cease to exist along with the leaving player’s spells and abilities on the stack.
   - *2023-04-14* — Seal from Existence’s last ability creates two one-shot effects: one that exiles the permanent when the ability resolves, and another that returns the exiled card to the battlefield immediately after Seal from Existence leaves the battlefield.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #35 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,412 decks; most often under [Zur the Enchanter](../../cards/Z/zu.md#zur-the-enchanter) (8.2% of its decks), [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (8.2% of its decks), [Elesh Norn, Mother of Machines](../../cards/E/el.md#elesh-norn-mother-of-machines) (12.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#seal-from-existence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/35/seal-from-existence) · oracle_id `72c4c682-df97-4408-997b-e849f54aba39` · printing: MOM #35 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -671,6 +675,8 @@ schema: 2
   - *2015-11-04* — Seal of the Guildpact's last ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
   - *2015-11-04* — The cost reduction can apply to alternative costs such as evoke costs.
   - *2015-11-04* — You must choose two different colors.
+- **Lore:** ✅ Card art shown on [The Race, Part 2](https://magic.wizards.com/en/news/magic-story/race-part-2-2017-10-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,263 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (27.4% of its decks), [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (1.4% of its decks), [Mizzix of the Izmagnus](../../cards/M/miz.md#mizzix-of-the-izmagnus) (3.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/266/seal-of-the-guildpact) · oracle_id `9a2d60bc-3024-4a1b-ad74-81645fd227c4` · printing: RVR #266 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Monster

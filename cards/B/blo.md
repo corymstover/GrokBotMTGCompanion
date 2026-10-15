@@ -859,6 +859,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22957 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — If you cast an Aura spell targeting a creature controlled by an opponent, you still control that Aura. It will count for Blood-Cursed Knight’s ability.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,274 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.5% of its decks), [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (0.6% of its decks), [Aryel, Knight of Windgrace](../../cards/A/ary.md#aryel-knight-of-windgrace) (7.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/211/blood-cursed-knight) · oracle_id `fdf51294-6270-4c94-a2a9-8df37dfcaa0d` · printing: ORI #211 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Divination
@@ -906,6 +908,8 @@ schema: 2
   > *—Samor, Mardu border guard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #949 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Truth of Names](https://magic.wizards.com/en/news/magic-story/truth-names-2015-01-28) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Isshin, Two Heavens as One (Kamigawa-only)](../../decks/plane-kamigawa-isshin-two-heavens-as-one.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 160,128 decks; most often under [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (38.4% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (16.7% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (12.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/B.md#bloodfell-caves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/250/bloodfell-caves) · oracle_id `64e29bfc-9313-4e8c-808c-bc27f6b018a6` · printing: TDM #250 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1dde3c68-6f29-4c00-b668-c25ac9e3e13b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2119,6 +2123,8 @@ schema: 2
   - *2014-09-20* — The activated ability can be activated only if Bloodsoaked Champion is in your graveyard. Notably, if it attacks and then dies later in the turn, you can use its ability to return it to the battlefield, as its attack satisfies its own activation instruction.
   - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
   - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+- **Lore:** ✅ Card art shown on [Victory](https://magic.wizards.com/en/news/magic-story/victory-2014-11-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Pitiless Plunderer + Ashnod's Altar + Bloodsoaked Champion](https://commanderspellbook.com/combo/1263-2034-4871/) (Infinite colorless mana, Infinite death triggers) · EDHREC: in 35,180 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (13.8% of its decks), [Ashnod, Flesh Mechanist](../../cards/A/as.md#ashnod-flesh-mechanist) (62.3% of its decks), [Nalia de'Arnise](../../cards/N/na.md#nalia-dearnise) (56.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/740/bloodsoaked-champion) · oracle_id `cad09970-14c8-4d80-82fe-6c855efb0191` · printing: CLB #740 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodsoaked Insight // Sanguine Morass
@@ -2269,6 +2275,8 @@ schema: 2
   - *2018-01-19* — If a land has an ability that continuously changes the types of other lands (such as Urborg, Tomb of Yawgmoth does), that ability will apply before Blood Sun removes that land’s abilities. If a land has an ability that grants abilities to other objects, Blood Sun will stop it from doing so.
   - *2018-01-19* — If a land has an ability that triggers “when” it enters the battlefield, it will lose that ability before it triggers.
   - *2018-01-19* — Land cards not on the battlefield aren’t affected.
+- **Lore:** ✅ Card art shown on [Glimpse the Far Side of the Sun](https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,625 decks; most often under [Zo-Zu the Punisher](../../cards/Z/zo.md#zo-zu-the-punisher) (9.7% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.5% of its decks), [Zhao, the Moon Slayer](../../cards/Z/zh.md#zhao-the-moon-slayer) (46.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/92/blood-sun) · oracle_id `1534d90f-fc88-42dc-bf01-8b0986485e78` · printing: RIX #92 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodsworn Squire // Bloodsworn Knight
@@ -2507,6 +2515,8 @@ schema: 2
   - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
   - *2025-01-24* — The value of X is determined only once, as Bloodtithe Harvester’s last ability resolves.
   - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): PLST #VOW-232, VOW #232 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 17,810 decks; most often under [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (81.0% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (8.5% of its decks), [Anje, Maid of Dishonor](../../cards/A/an.md#anje-maid-of-dishonor) (82.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bloodtithe-harvester)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/233/bloodtithe-harvester) · oracle_id `419a8ab2-cff6-4811-a559-8791c9bb3d8e` · printing: INR #233 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

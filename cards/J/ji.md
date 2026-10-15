@@ -55,6 +55,8 @@ schema: 2
   > −5: Until end of turn, target creature gains trample and gets +X/+X, where X is the number of lands you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20618 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jiang Yanggu](../../Characters%20Index.md#jiang-yanggu) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,006 decks; most often under [Sophia, Dogged Detective](../../cards/S/so.md#sophia-dogged-detective) (6.2% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (0.5% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/J.md#jiang-yanggu)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/22/jiang-yanggu) · oracle_id `b15c8f43-685d-4901-9cad-47bc6dc6346f` · printing: GS1 #22 (2018-06-22) · [rulings](https://api.scryfall.com/cards/eb8dae9a-dac2-4b80-b546-852b989bd8c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -72,7 +74,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24093 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — A creature attacks a player alone if no other creatures are declared as attackers attacking that player. It doesn't matter if other creatures are declared as attackers attacking planeswalkers that player controls, battles they protect, or other players.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/J.md#jiang-yanggu-alone)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jiang Yanggu](../../Characters%20Index.md#jiang-yanggu) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 320 decks; highest synergy [Inti, Seneschal of the Sun](../../cards/I/int.md#inti-seneschal-of-the-sun) (+68%), [Ivora, Insatiable Heir](../../cards/I/iv.md#ivora-insatiable-heir) (+66%), [Marauding Mako](../../cards/M/mar.md#marauding-mako) (+66%) · EDHREC: in 745 decks; most often under [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (10.7% of its decks), [Clive, Ifrit's Dominant](../../cards/C/cl.md#clive-ifrits-dominant--ifrit-warden-of-inferno) (2.9% of its decks), [Astonishing Spider-Man](../../cards/A/as.md#astonishing-spider-man) (13.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/J.md#jiang-yanggu-alone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/246/jiang-yanggu-alone) · oracle_id `fa8b3557-b35a-4a68-ab85-cf09683f3bc5` · printing: FRA #246 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jiang Yanggu, Never Alone
@@ -87,6 +91,8 @@ schema: 2
   > *"I traveled with Mowu as a Planeswalker. Now I do so through Omenpaths. Neither of us are complaining about the longer walk."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18816 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jiang Yanggu](../../Characters%20Index.md#jiang-yanggu) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Nim Deathmantle + Ashnod's Altar + Jiang Yanggu, Never Alone](https://commanderspellbook.com/combo/2034-5003-8177/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 50 decks; highest synergy [Jaheira, Friend of the Forest](../../cards/J/ja.md#jaheira-friend-of-the-forest) (+65%), [Second Harvest](../../cards/S/sec.md#second-harvest) (+59%), [For the Common Good](../../cards/F/fo.md#for-the-common-good) (+55%) · EDHREC: in 2,963 decks; most often under [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (6.8% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (3.9% of its decks), [Sophia, Dogged Detective](../../cards/S/so.md#sophia-dogged-detective) (15.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/J.md#jiang-yanggu-never-alone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/261/jiang-yanggu-never-alone) · oracle_id `4ba661d7-1cb8-4fec-bfaa-5f2797235fcf` · printing: FRA #261 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f5a0bb3e-8119-4739-8684-e61d1d607dcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -100,7 +106,9 @@ schema: 2
   > −1: Put a +1/+1 counter on target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6431 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/J.md#jiang-yanggu-wildcrafter)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jiang Yanggu](../../Characters%20Index.md#jiang-yanggu) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 11 combos; most popular [Horseshoe Crab + Jiang Yanggu, Wildcrafter + Mana Reflection](https://commanderspellbook.com/combo/579-2540-3995/) (Infinite colored mana) · EDHREC: in 23,972 decks; most often under [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (20.0% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (2.5% of its decks), [Kros, Defense Contractor](../../cards/K/kr.md#kros-defense-contractor) (11.5% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/J.md#jiang-yanggu-wildcrafter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/164/jiang-yanggu-wildcrafter) · oracle_id `04f2c320-dfcc-440a-9e24-3c2083d74e7c` · printing: WAR #164 (2019-05-03) · [rulings](https://api.scryfall.com/cards/10e0d47d-b13c-4d48-881f-8aaa347ef209/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jibbirik Omnivore
@@ -243,6 +251,8 @@ schema: 2
   - *2017-11-17* — If a player has more cards in their hand than their maximum hand size during the cleanup step of that player's turn, that player discards until they have that many cards. A player's maximum hand size isn't checked at any time other than their own cleanup step.
   - *2017-11-17* — Jin-Gitaxias doesn't affect the maximum hand size of its controller. Because the cleanup step is after the end step, its controller may have to discard some of the cards that were just drawn.
   - *2017-11-17* — Unless another spell or ability is affecting your opponent's maximum hand size, Jin-Gitaxias's ability will result in your opponent having a maximum hand size of zero. They will discard each card from their hand during their cleanup step.
+- **Lore:** ✅ Flavor text verbatim on [official page 1](https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-the-progress-engine) — ⚠️ Name match only (not a canon claim): [Character → Jin-Gitaxias](../../Characters%20Index.md#jin-gitaxias) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,080 decks; highest synergy [Psychosis Crawler](../../cards/P/ps.md#psychosis-crawler) (+48%), [Geode Golem](../../cards/G/ge.md#geode-golem) (+46%), [Jin-Gitaxias, Progress Tyrant](../../cards/J/ji.md#jin-gitaxias-progress-tyrant) (+46%) · EDHREC: in 95,361 decks; most often under [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (36.3% of its decks), [Satoru Umezawa](../../cards/S/sat.md#satoru-umezawa) (37.1% of its decks), [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (14.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/J.md#jin-gitaxias-core-augur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/62/jin-gitaxias-core-augur) · oracle_id `eb23aed0-c450-4e57-96f2-2866dceca004` · printing: IMA #62 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -289,7 +299,9 @@ schema: 2
   - *2023-04-14* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2023-04-14* — If you cast a spell “without paying its mana cost,” you can’t pay any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast it.
   - *2023-04-14* — Once you’ve activated Jin-Gitaxias’s last ability, it doesn’t matter what happens to the number of cards in your hand. The ability will resolve even if you have six or fewer cards in your hand by that time.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/J.md#jin-gitaxias--the-great-synthesis)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jin-Gitaxias](../../Characters%20Index.md#jin-gitaxias) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 19 combos; most popular [Jin-Gitaxias // The Great Synthesis + Time Stretch + Archaeomancer](https://commanderspellbook.com/combo/957-2493-7879/) (Lock, Near-infinite turns) · EDHREC as commander: 3,975 decks; highest synergy [Tezzeret's Gambit](../../cards/T/te.md#tezzerets-gambit) (+61%), [Jin-Gitaxias, Progress Tyrant](../../cards/J/ji.md#jin-gitaxias-progress-tyrant) (+52%), [Experimental Augury](../../cards/E/ex.md#experimental-augury) (+51%) · EDHREC: in 46,760 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (15.0% of its decks), [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (23.9% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (4.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/J.md#jin-gitaxias--the-great-synthesis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/65/jin-gitaxias-the-great-synthesis) · oracle_id `b70c3adb-64ba-49ea-bcf6-6406a58cb453` · printing: MOM #65 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jinnie Fay, Jetmir's Second

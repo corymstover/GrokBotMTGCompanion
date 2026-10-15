@@ -490,6 +490,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19713 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-09-20* — An artifact creature gains indestructible in addition to getting +2/+2, not instead of it.
+- **Lore:** ✅ Card art shown on [Quiet Moments](https://magic.wizards.com/en/news/magic-story/quiet-moments-2016-12-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,365 decks; most often under [Depala, Pilot Exemplar](../../cards/D/dep.md#depala-pilot-exemplar) (23.1% of its decks), [Kolodin, Triumph Caster](../../cards/K/ko.md#kolodin-triumph-caster) (6.1% of its decks), [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/7/built-to-last) · oracle_id `403e554b-72a5-48b3-acea-0b4062ffb913` · printing: KLD #7 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Built to Smash
@@ -503,6 +505,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11309 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-09-20* — An artifact creature gains trample in addition to getting +3/+3, not instead of it.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,107 decks; most often under [Slicer, Hired Muscle](../../cards/S/sl.md#slicer-hired-muscle--slicer-high-speed-antagonist) (41.9% of its decks), [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (5.9% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (5.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/108/built-to-smash) · oracle_id `c363f338-0777-45e6-b13c-f15ba026b63a` · printing: KLD #108 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bulette
@@ -1664,6 +1668,8 @@ schema: 2
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28041 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 402 decks; most often under [Syr Gwyn, Hero of Ashvale](../../cards/S/sy.md#syr-gwyn-hero-of-ashvale) (1.2% of its decks), [Arthur, Marigold Knight](../../cards/A/art.md#arthur-marigold-knight) (0.5% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/117/burning-yard-trainer) · oracle_id `6ea7a921-45b2-4589-833b-75b6dc6aed07` · printing: ELD #117 (2019-10-04) · [rulings](https://api.scryfall.com/cards/17755d1b-3a56-4362-a534-85b35ceb1802/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burnished Hart
@@ -1677,6 +1683,8 @@ schema: 2
   > *Forged by divine hands to wander mortal realms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #505 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/sea-gods-labyrinth-part-2-2013-11-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Urza, Lord High Artificer](../../decks/lore-brothers-war-urza-lord-high-artificer.md) · [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 260,966 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (32.5% of its decks), [Rendmaw, Creaking Nest](../../cards/R/ren.md#rendmaw-creaking-nest) (38.0% of its decks), [Ultima, Origin of Oblivion](../../cards/U/ul.md#ultima-origin-of-oblivion) (32.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Land ramp (puts lands onto the battlefield)](../../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#burnished-hart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/250/burnished-hart) · oracle_id `893fed41-c144-433f-af88-bc7d419b7fb3` · printing: FDN #250 (2024-11-15) · [rulings](https://api.scryfall.com/cards/65ebbff0-fbe6-4310-a33f-e00bb2534979/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2221,6 +2229,8 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13257 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Chronomaton](https://magic.wizards.com/en/news/magic-story/chronomaton-2012-07-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,359 decks; most often under [Daredevil, Fearless Fighter](../../cards/D/da.md#daredevil-fearless-fighter) (58.8% of its decks), [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (1.4% of its decks), [The Sentry, Golden Guardian](../../cards/T/thes.md#the-sentry-golden-guardian) (10.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/256/butchers-cleaver) · oracle_id `5cc5be7a-cbe6-4853-bb95-0390e25b4f2b` · printing: INR #256 (2025-01-24) · [rulings](https://api.scryfall.com/cards/3c55bce1-8746-4554-9876-f443c37a125b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Butcher's Glee

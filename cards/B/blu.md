@@ -314,6 +314,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22487 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-07-14* — If the targeted creature is an illegal target by the time Blur of Blades resolves, it won’t resolve and none of its effects will happen. Blur of Blades won’t deal damage to any player.
+- **Lore:** ✅ Card art shown on [Endure](https://magic.wizards.com/en/news/magic-story/endure-2017-07-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,388 decks; most often under [The Scorpion God](../../cards/T/thes.md#the-scorpion-god) (13.1% of its decks), [The Reaper, King No More](../../cards/T/ther.md#the-reaper-king-no-more) (4.1% of its decks), [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#blur-of-blades)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/84/blur-of-blades) · oracle_id `65410f7a-c749-4b23-ad61-8a7136efcad2` · printing: HOU #84 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

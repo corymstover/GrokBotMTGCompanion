@@ -82,6 +82,9 @@ schema: 2
 - **Rulings** (2):
   - *2011-06-01* — If you choose both modes, and only one of the targeted cards is still a legal target when Remember the Fallen tries to resolve, only that card is returned to your hand.
   - *2011-06-01* — You choose which mode you're using — or whether to use both modes — as you're casting the spell. Once this choice is made, it can't be changed later while the spell is on the stack.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/lost-confession-2013-09-09), [official story page](https://magic.wizards.com/en/news/feature/lost-confession-2013-09-11), [official story page](https://magic.wizards.com/en/news/feature/lost-confession-2013-12-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,252 decks; most often under [Vadrok, Apex of Thunder](../../cards/V/va.md#vadrok-apex-of-thunder) (8.3% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.3% of its decks), [Kemba, Kha Regent](../../cards/K/ke.md#kemba-kha-regent) (5.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#remember-the-fallen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/27/remember-the-fallen) · oracle_id `7ed3918d-509a-4fe6-a32d-5899df8f9046` · printing: 2XM #27 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remembrance
@@ -189,6 +192,8 @@ schema: 2
   - *2016-01-22* — No player may take any actions between the two times the player goes through the process.
   - *2016-01-22* — The player can’t choose to discard two cards unless they have at least two cards in hand. Similarly, that player can’t choose to sacrifice a creature or planeswalker unless they control one. This means that if the target opponent doesn’t have two cards in hand and doesn’t control a creature or planeswalker, that player will lose 5 life and then lose 5 life again.
   - *2016-04-08* — The same player chooses both times. In a multiplayer game, you can’t choose a different opponent to repeat the process.
+- **Lore:** ✅ Card art shown on [Up in Flames](https://magic.wizards.com/en/news/magic-story/flames-2016-01-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,383 decks; most often under [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (1.0% of its decks), [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (0.7% of its decks), [Zevlor, Elturel Exile](../../cards/Z/ze.md#zevlor-elturel-exile) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/89/remorseless-punishment) · oracle_id `42e07167-b490-46ad-9b5c-b483a4bb64e3` · printing: OGW #89 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remote Farm

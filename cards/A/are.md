@@ -94,6 +94,8 @@ schema: 2
   - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
   - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
   - *2018-12-07* — Resolving Arena Athlete's ability after a creature has blocked won't remove the blocking creature from combat or cause the creature it blocked to become unblocked.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/i-iroan-2013-11-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 879 decks; most often under [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (1.8% of its decks), [Anax and Cymede](../../cards/A/an.md#anax-and-cymede) (13.0% of its decks), [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/123/arena-athlete) · oracle_id `4dfea3bf-dfd1-4abd-a17e-f3a07488a069` · printing: UMA #123 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena of Glory

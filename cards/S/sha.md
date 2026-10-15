@@ -485,6 +485,8 @@ schema: 2
   - *2017-09-29* — When a Vehicle becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
   - *2017-09-29* — You may activate a crew ability of a Vehicle even if it's already an artifact creature. Doing so has no effect on the Vehicle. It doesn't change its power and toughness.
   - *2017-09-29* — You may tap more creatures than necessary to activate a crew ability.
+- **Lore:** ✅ Card art shown on [Unbowed, Part 1](https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,925 decks; most often under [Nicanzil, Current Conductor](../../cards/N/ni.md#nicanzil-current-conductor) (27.8% of its decks), [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (1.1% of its decks), [Edward Kenway](../../cards/E/ed.md#edward-kenway) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/246/shadowed-caravel) · oracle_id `7986fcb6-bafb-4bbc-9f2f-fd9e2a5fcad1` · printing: XLN #246 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadowfax, Lord of Horses
@@ -906,6 +908,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14996 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — Once you legally activate the last ability, it doesn’t matter how many creature cards are in your graveyard as it resolves.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,460 decks; most often under [Grenzo, Dungeon Warden](../../cards/G/gre.md#grenzo-dungeon-warden) (10.8% of its decks), [Horobi, Death's Wail](../../cards/H/ho.md#horobi-deaths-wail) (12.0% of its decks), [Kraven the Hunter](../../cards/K/kr.md#kraven-the-hunter) (7.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddr/60/shadows-of-the-past) · oracle_id `a5ba544f-b223-47c8-a408-b00512772107` · printing: DDR #60 (2016-09-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadowspear
@@ -1372,6 +1376,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #369 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — After you draw cards while Shamanic Revelation is resolving, nothing else can happen before you gain the appropriate amount of life. Notably, abilities that trigger when you draw cards won't be put onto the stack until after you've gained life.
+- **Lore:** ✅ Card art shown on [Khanfall](https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18), [Unwritten](https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Lathril, Blade of the Elves](../../decks/lathril-blade-of-the-elves.md) · [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · [Trostani, Selesnya's Voice](../../decks/trostani-selesnyas-voice.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 323,503 decks; most often under [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (63.7% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (29.1% of its decks), [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (31.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/S.md#shamanic-revelation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/311/shamanic-revelation) · oracle_id `d1d171de-1c6d-4fb9-817a-9c689c709f3d` · printing: NCC #311 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1394,6 +1400,8 @@ schema: 2
   - *2015-02-25* — Some formidable abilities are activated abilities that require creatures you control to have total power 8 or greater. Once you activate these abilities, it doesn’t matter what happens to the total power of creatures you control.
   - *2015-02-25* — The first ability of Shaman of Forgotten Ways is a mana ability. It doesn’t use the stack and can’t be responded to.
   - *2015-02-25* — The mana produced by Shaman of Forgotten Ways can be used to cast face-down creature spells with morph or megamorph.
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,240 decks; most often under [Ruric Thar, the Unbowed](../../cards/R/ru.md#ruric-thar-the-unbowed) (41.9% of its decks), [Agatha of the Vile Cauldron](../../cards/A/ag.md#agatha-of-the-vile-cauldron) (41.3% of its decks), [Raggadragga, Goreguts Boss](../../cards/R/rag.md#raggadragga-goreguts-boss) (12.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/204/shaman-of-forgotten-ways) · oracle_id `ca405696-8c30-4c01-bf90-11cdf8837942` · printing: DTK #204 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shaman of Spring
@@ -1914,6 +1922,9 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — Players can cast spells and activate abilities after the triggered ability of Shapers’ Sanctuary resolves but before the spell or ability that caused it to trigger does. Notably, the card you draw may be able to counter that spell or ability.
   - *2017-09-29* — The triggered ability of Shapers’ Sanctuary resolves before the spell or ability that caused it to trigger.
+- **Lore:** ✅ Card art shown on [The Shapers](https://magic.wizards.com/en/news/magic-story/shapers-2017-09-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,931 decks; most often under [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (5.9% of its decks), [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (2.6% of its decks), [Oviya Pashiri, Sage Lifecrafter](../../cards/O/ov.md#oviya-pashiri-sage-lifecrafter) (30.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#shapers-sanctuary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/206/shapers-sanctuary) · oracle_id `15bd8fa1-0858-4029-9973-e24c86e45af3` · printing: XLN #206 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shapesharer
@@ -2097,7 +2108,9 @@ schema: 2
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5411 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#shardmages-rescue)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DSK #29 — [Art & Flavor → Duskmourn: House of Horror (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#duskmourn-house-of-horror-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 29,409 decks; most often under [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (50.1% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (8.2% of its decks), [Pearl-Ear, Imperial Advisor](../../cards/P/pe.md#pearl-ear-imperial-advisor) (47.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Voltron (equipment & auras): Protective equipment/auras](../../EDH%20Packages.md#voltron-equipment--auras-protective-equipmentauras) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/S.md#shardmages-rescue)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/29/shardmages-rescue) · oracle_id `406247ee-2b86-4068-b5fa-65cdc83a82f4` · printing: DSK #29 (2024-09-27) · [rulings](https://api.scryfall.com/cards/aed0cafa-d701-4e1f-9773-abcf817c244c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shard of Broken Glass
@@ -2387,6 +2400,8 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21143 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Sacrifice](https://magic.wizards.com/en/news/magic-story/sacrifice-2016-03-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,816 decks; most often under [Ashnod, Flesh Mechanist](../../cards/A/as.md#ashnod-flesh-mechanist) (7.7% of its decks), [Rev, Tithe Extractor](../../cards/R/rev.md#rev-tithe-extractor) (2.6% of its decks), [Valduk, Keeper of the Flame](../../cards/V/va.md#valduk-keeper-of-the-flame) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddq/32/sharpened-pitchfork) · oracle_id `409b44fc-fae2-4804-83a7-78cf95038f58` · printing: DDQ #32 (2016-02-26) · [rulings](https://api.scryfall.com/cards/36c8cdec-5ca9-40b0-ba90-48966e674546/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sharp Eraser
@@ -2464,6 +2479,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14104 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Regenerating artifacts can regenerate from this.
+- **Lore:** ✅ Card art shown on [No End and No Beginning](https://magic.wizards.com/en/news/magic-story/no-end-and-no-beginning-2015-02-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,390 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (1.9% of its decks), [Kibo, Uktabi Prince](../../cards/K/ki.md#kibo-uktabi-prince) (0.5% of its decks), [Edward Kenway](../../cards/E/ed.md#edward-kenway) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shatter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/114/shatter) · oracle_id `84d32e68-72b9-432d-a023-7bc6a26b8ad0` · printing: RIX #114 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2494,6 +2511,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13372 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-3-asunder) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,231 decks; most often under [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (14.6% of its decks), [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (17.9% of its decks), [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/S.md#shattered-acolyte)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/31/shattered-acolyte) · oracle_id `57f58d52-0014-4cac-94fc-668063cc147a` · printing: SOS #31 (2026-04-24) · [rulings](https://api.scryfall.com/cards/dc0517ca-b271-49a1-a286-c20f4e5b9309/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2649,6 +2668,8 @@ schema: 2
   > {2}{G}, Sacrifice an enchantment: Each other player sacrifices an enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16613 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Limits](https://magic.wizards.com/en/news/magic-story/limits-2015-07-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,292 decks; highest synergy [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (+58%), [Goblin Matron](../../cards/G/gob.md#goblin-matron) (+46%), [Sling-Gang Lieutenant](../../cards/S/sl.md#sling-gang-lieutenant) (+45%) · EDHREC: in 1,814 decks; most often under [Korvold, Fae-Cursed King](../../cards/K/ko.md#korvold-fae-cursed-king) (1.5% of its decks), [Prossh, Skyraider of Kher](../../cards/P/pr.md#prossh-skyraider-of-kher) (4.0% of its decks), [Kresh the Bloodbraided](../../cards/K/kr.md#kresh-the-bloodbraided) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/275/shattergang-brothers) · oracle_id `7fb63d9a-8d90-4b43-8390-924de2d7e32c` · printing: 2X2 #275 (2022-07-08) · [rulings](https://api.scryfall.com/cards/52a30e27-4c52-4191-8541-e25732a2dd42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shattering Blow
@@ -2662,6 +2683,8 @@ schema: 2
   > *—Prime Speaker Zegana*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16786 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/ravnica-high-2013-08-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,980 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (41.4% of its decks), [Aurelia, the Warleader](../../cards/A/au.md#aurelia-the-warleader) (1.7% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/225/shattering-blow) · oracle_id `dc9374df-134d-4d32-842e-991e2bfb2dc1` · printing: GTC #225 (2013-02-01) · [rulings](https://api.scryfall.com/cards/a77058d9-d2b5-424a-bfe2-070b754051cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shattering Pulse

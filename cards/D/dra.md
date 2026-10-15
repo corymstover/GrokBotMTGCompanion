@@ -299,6 +299,8 @@ schema: 2
   > *"If I am to die, I will die in the embrace of immeasurable flame."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13340 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: Perspectives](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,219 decks; most often under [Atarka, World Render](../../cards/A/at.md#atarka-world-render) (42.2% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (2.4% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/215/draconic-disciple) · oracle_id `781cee5f-f9cb-42ed-b408-543d297bf96d` · printing: M19 #215 (2018-07-13) · [rulings](https://api.scryfall.com/cards/a353510a-30de-4891-97b9-d7d556531c41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Draconic Intervention
@@ -311,6 +313,8 @@ schema: 2
   > Exile Draconic Intervention.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15499 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #96 — ✅ Card art shown on [Episode 5: Final Exam](https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,994 decks; most often under [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (2.6% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.8% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (2.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/96/draconic-intervention) · oracle_id `9fe75f56-c2e4-4c82-8113-039b8c486fae` · printing: STX #96 (2021-04-23) · [rulings](https://api.scryfall.com/cards/657de246-b9fc-47b1-b932-091e9500bb82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Draconic Lore
@@ -819,7 +823,9 @@ schema: 2
   - *2024-07-26* — The delayed triggered ability created by Dragonhawk's last ability counts only cards that were exiled by the ability that created it. It doesn't count cards exiled by previous instances of Dragonhawk's last ability or by the abilities of other Dragonhawks you may have controlled previously.
   - *2024-07-26* — The value of X is calculated only once, as Dragonhawk's last ability resolves.
   - *2024-07-26* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dragonhawk-fates-tempest)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BLB #132, PLST #BLB-132 — [Art & Flavor → Bloomburrow (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#bloomburrow-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 12 combos; most popular [Dragonhawk, Fate's Tempest + Orthion, Hero of Lavabrink + The Master, Multiplied](https://commanderspellbook.com/combo/2136-4836-6567/) (Cast a subset of spells in your library, Near-infinite damage) · EDHREC as commander: 2,687 decks; highest synergy [Combat Celebrant](../../cards/C/com.md#combat-celebrant) (+53%), [Carnelian Orb of Dragonkind](../../cards/C/car.md#carnelian-orb-of-dragonkind) (+52%), [Thundermane Dragon](../../cards/T/thu.md#thundermane-dragon) (+50%) · EDHREC: in 71,796 decks; most often under [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (25.9% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (9.9% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (16.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/D.md#dragonhawk-fates-tempest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/132/dragonhawk-fates-tempest) · oracle_id `f7f435bc-1716-4412-9505-a1f2f2d83d08` · printing: BLB #132 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Hunter
@@ -901,6 +907,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-02-25* — If some of the targets are illegal targets as the ability tries to resolve, the original division of damage still applies but no damage is dealt to the illegal targets. If all targets are illegal, the ability doesn’t resolve.
   - *2015-02-25* — You choose how many targets the ability has and how the damage is divided as you put the ability on the stack. Each target must receive at least 1 damage.
+- **Lore:** ✅ Card art shown on [The Call](https://magic.wizards.com/en/news/magic-story/call-2015-04-15), [Chronicle of Bolas: Blood and Fire](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18), [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 200 decks; highest synergy [Atarka, World Render](../../cards/A/at.md#atarka-world-render) (+52%), [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (+43%), [Dragonlord's Servant](../../cards/D/dra.md#dragonlords-servant) (+42%) · EDHREC: in 35,840 decks; most often under [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (58.3% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (13.8% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (7.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dragonlord-atarka)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/285/dragonlord-atarka) · oracle_id `daff70a4-a990-47c9-b6ef-2c379272c8a3` · printing: TDC #285 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -918,6 +926,8 @@ schema: 2
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1891 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Ur-Dragon](../../decks/the-ur-dragon.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 705 decks; highest synergy [Sunscorch Regent](../../cards/S/sun.md#sunscorch-regent) (+36%), [Dromoka's Command](../../cards/D/dro.md#dromokas-command) (+28%), [Dromoka, the Eternal](../../cards/D/dro.md#dromoka-the-eternal) (+28%) · EDHREC: in 86,633 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (60.7% of its decks), [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (36.6% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (50.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/D.md#dragonlord-dromoka)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/286/dragonlord-dromoka) · oracle_id `82cdd612-3322-4372-810f-1ff106ea8e6a` · printing: TDC #286 (2025-04-11) · [rulings](https://api.scryfall.com/cards/4452d99e-23c2-408d-9eb8-ef31aefafa9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -935,6 +945,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-02-25* — Casting a spell face down won’t cause Dragonlord Kolaghan’s last ability to trigger. A spell with no name can’t have the same name as any other card.
   - *2015-02-25* — If an opponent casts a creature spell with delve and exiles all cards from their graveyard with the same name to help pay its cost, Dragonlord Kolaghan’s ability won’t trigger.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Breath of Fury + Dragonlord Kolaghan](https://commanderspellbook.com/combo/1251-3259--95/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 134 decks; highest synergy [Dragon Tempest](../../cards/D/dra.md#dragon-tempest) (+48%), [Crux of Fate](../../cards/C/cr.md#crux-of-fate) (+46%), [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (+46%) · EDHREC: in 18,073 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (16.0% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (12.9% of its decks), [Rivaz of the Claw](../../cards/R/ri.md#rivaz-of-the-claw) (26.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/218/dragonlord-kolaghan) · oracle_id `5ff89859-ddfd-48e5-8423-57b3956173ac` · printing: DTK #218 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonlord Ojutai
@@ -967,6 +979,8 @@ schema: 2
   - *2015-02-25* — If Dragonlord Silumgar ceases to be under your control before its ability resolves, you won't gain control of the creature or planeswalker at all.
   - *2015-02-25* — If Dragonlord Silumgar leaves the battlefield, you no longer control it, and its control-change effect ends.
   - *2015-02-25* — If another player gains control of Dragonlord Silumgar, its control-change effect ends. Regaining control of Dragonlord Silumgar won't cause you to regain control of the creature or planeswalker.
+- **Lore:** ✅ Card art shown on [The Poisoned Heart](https://magic.wizards.com/en/news/magic-story/poisoned-heart-2015-04-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 365 decks; highest synergy [Hostage Taker](../../cards/H/ho.md#hostage-taker) (+45%), [Agent of Treachery](../../cards/A/ag.md#agent-of-treachery) (+44%), [Control Magic](../../cards/C/con.md#control-magic) (+43%) · EDHREC: in 21,740 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (14.6% of its decks), [Sivitri, Dragon Master](../../cards/S/si.md#sivitri-dragon-master) (74.5% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (9.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dragonlord-silumgar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/203/dragonlord-silumgar) · oracle_id `44581d4f-746b-43b8-a34d-16dc383ab70e` · printing: 2X2 #203 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1271,6 +1285,8 @@ schema: 2
   - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
   - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
   - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Lore:** ✅ Card art shown on [The Chensal Twins](https://magic.wizards.com/en/news/magic-story/the-chensal-twins) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Missy (Grixis)](../../grixis/decks/missy.md) · Commander Spellbook: 13 combos; most popular [Missy + Goblin Bombardment + Dragon's Eye Savants](https://commanderspellbook.com/combo/3565-4424-5147/) (Infinite damage, Infinite death triggers) · EDHREC: in 2,948 decks; most often under [Geralf, Visionary Stitcher](../../cards/G/ge.md#geralf-visionary-stitcher) (53.4% of its decks), [Missy](../../cards/M/mis.md#missy) (23.3% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (4.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dragons-eye-savants)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/54/dragons-eye-savants) · oracle_id `ca588f4e-4d2f-4aae-84de-be9862e13f1c` · printing: A25 #54 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1596,6 +1612,9 @@ schema: 2
   - *2014-09-20* — Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger.
   - *2014-09-20* — Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
   - *2014-09-20* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+- **Lore:** ✅ Card art shown on [The Chensal Twins](https://magic.wizards.com/en/news/magic-story/the-chensal-twins) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,716 decks; most often under [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (11.0% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (1.9% of its decks), [Elsha of the Infinite](../../cards/E/el.md#elsha-of-the-infinite) (2.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dragon-style-twins)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/108/dragon-style-twins) · oracle_id `d150f456-c33a-4b19-ac73-b1d818d5db8f` · printing: KTK #108 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Tempest
@@ -1610,6 +1629,8 @@ schema: 2
   - *2017-11-17* — If a Dragon entering the battlefield causes Dragon Tempest’s second ability to trigger but leaves the battlefield before that ability resolves, that Dragon still deals damage.
   - *2017-11-17* — The amount of damage dealt by the Dragon that entered the battlefield is based on the number of Dragons you control when the ability resolves.
   - *2017-11-17* — The two abilities aren’t mutually exclusive. If a Dragon with flying (which is most of them) enters the battlefield under your control, both abilities will trigger.
+- **Lore:** ✅ Card art shown on [The Guardian](https://magic.wizards.com/en/news/magic-story/guardian-2015-04-02), [Unbroken and Unbowed](https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · [The Ur-Dragon](../../decks/the-ur-dragon.md) · [Goro-Goro and Satoru (Grixis)](../../grixis/decks/goro-goro-and-satoru.md) · Commander Spellbook: 4 combos; most popular [Dragon Tempest + Ancient Gold Dragon](https://commanderspellbook.com/combo/2855-5982/) (Near-infinite damage) · EDHREC: in 174,425 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (77.3% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (79.1% of its decks), [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (94.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 card data) → [reverse index](../../references/D.md#dragon-tempest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/94/dragon-tempest) · oracle_id `b9bacb46-fd1d-459b-81c2-d7d08fe73848` · printing: TDC #94 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1627,6 +1648,8 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — The value of X is determined as the activated ability resolves. If the equipped creature isn't on the battlefield at that time, use its power the last time it was on the battlefield to determine the value of X.
   - *2017-07-14* — If the equipped creature's power is negative while resolving the activated ability it gains, X is considered to be 0.
+- **Lore:** ✅ Card art shown on [A Tarkir of Dragons](https://magic.wizards.com/en/news/magic-story/tarkir-dragons-2015-02-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 20,024 decks; most often under [Arixmethes, Slumbering Isle](../../cards/A/ari.md#arixmethes-slumbering-isle) (9.7% of its decks), [Graaz, Unstoppable Juggernaut](../../cards/G/gra.md#graaz-unstoppable-juggernaut) (12.7% of its decks), [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/219/dragon-throne-of-tarkir) · oracle_id `93e40d56-18fd-42e1-a598-636aab79b836` · printing: KTK #219 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Trainer
@@ -1704,6 +1727,8 @@ schema: 2
   - *2015-02-25* — If you control a creature with power less than 0, use its actual power when calculating the total power of creatures you control. For example, if you control three creatures with powers 4, 5, and -2, the total power of creatures you control is 7.
   - *2015-02-25* — Other formidable abilities are triggered abilities with an "intervening 'if'" clause. Such abilities check the total power of creatures you control twice: once at the appropriate time to see if the ability will trigger, and again as the ability tries to resolve. If, at that time, the total power of creatures you control is no longer 8 or greater, the ability will have no effect.
   - *2015-02-25* — Some formidable abilities are activated abilities that require creatures you control to have total power 8 or greater. Once you activate these abilities, it doesn't matter what happens to the total power of creatures you control.
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: Blood and Fire](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,087 decks; most often under [Agatha of the Vile Cauldron](../../cards/A/ag.md#agatha-of-the-vile-cauldron) (8.8% of its decks), [Avatar Roku, Firebender](../../cards/A/av.md#avatar-roku-firebender) (8.3% of its decks), [Iroh, Dragon of the West](../../cards/I/ir.md#iroh-dragon-of-the-west) (22.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/137/dragon-whisperer) · oracle_id `54884040-b426-43da-9bb1-016621e1446d` · printing: DTK #137 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonwing Glider
@@ -2159,6 +2184,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18838 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-02-02* — Only the controller of Dramatic Accusation may activate its ability.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #294, MKM #53 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,760 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (1.7% of its decks), [Wan Shi Tong, All-Knowing](../../cards/W/wan.md#wan-shi-tong-all-knowing) (2.8% of its decks), [Ezrim, Agency Chief](../../cards/E/ez.md#ezrim-agency-chief) (6.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dramatic-accusation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/53/dramatic-accusation) · oracle_id `677b9c19-4886-4e06-88f8-9afa94e58aa8` · printing: MKM #53 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2213,6 +2240,8 @@ schema: 2
   > *—Toph*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #673 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [A Grateful Consulate](https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19), [In This Very Arena](https://magic.wizards.com/en/news/magic-story/very-arena-2016-10-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 37 combos; most popular [Dramatic Reversal + Isochron Scepter](https://commanderspellbook.com/combo/4821-5261/) (Infinite magecraft triggers, Infinite mana nonland permanents you control can produce) · EDHREC: in 206,097 decks; most often under [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (69.7% of its decks), [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (39.3% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (17.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/D.md#dramatic-reversal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/158/dramatic-reversal) · oracle_id `da46904c-8fb8-44c2-b2ab-775a1cc12ec3` · printing: TLE #158 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2ad14406-4504-4951-83f0-82c298964d6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2282,7 +2311,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-08-25* — Drana's last ability triggers after combat damage has been dealt, so only attacking creatures that survive the combat damage step in which Drana deals combat damage will have +1/+1 counters put on them.
   - *2015-08-25* — The +1/+1 counter won't change how much damage Drana or any other attacking creature with first strike or double strike deals during that combat damage step. However, the +1/+1 counters that are put on attacking creatures without first strike will affect the damage those creatures deal during the regular combat damage step.
-- **Lore:** Featured in: [Plane → Zendikar (Zendikar Rising era)](../../Planes%20Index.md#zendikar-zendikar-rising-era) ([source](https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** Featured in: [Plane → Zendikar (Zendikar Rising era)](../../Planes%20Index.md#zendikar-zendikar-rising-era) ([source](https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02)) — ✅ Card art shown on [Zendikar: Things Have Changed](https://magic.wizards.com/en/news/feature/zendikar-things-have-changed-2020-09-01), [The Blight We Were Born For](https://magic.wizards.com/en/news/magic-story/blight-we-were-born-2016-01-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — KB decks (2): [Edgar Markov](../../decks/edgar-markov.md) · [Edgar Markov (lifegain theme)](../../decks/theme-edgar-markov-lifegain.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 677 decks; highest synergy [Vampire Nighthawk](../../cards/V/va.md#vampire-nighthawk) (+64%), [Cordial Vampire](../../cards/C/cor.md#cordial-vampire) (+60%), [Necropolis Regent](../../cards/N/ne.md#necropolis-regent) (+60%) · EDHREC: in 105,348 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (54.1% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (69.3% of its decks), [Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose) (44.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (2 decks · 1 rules · 1 lore & story) → [reverse index](../../references/D.md#drana-liberator-of-malakir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/193/drana-liberator-of-malakir) · oracle_id `89b24b5f-d837-4274-8877-8ff7dc2708ba` · printing: LCC #193 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
@@ -2384,6 +2413,8 @@ schema: 2
   - *2020-04-17* — Effects may put cards from other zones onto the battlefield under an opponent's control.
   - *2020-04-17* — If a rule or effect allows them to do so, your opponents may play lands from zones other than their hand and activate abilities of cards in zones other than their hand.
   - *2020-04-17* — If an effect says that an opponent may cast a spell from anywhere other than their hand, Drannith Magistrate's restriction overrules that permission.
+- **Lore:** Featured in: [Plane → Ikoria](../../Planes%20Index.md#ikoria) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02), [2](https://magic.wizards.com/en/news/magic-story/survival-of-the-fittest) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Drannith Magistrate + Knowledge Pool](https://commanderspellbook.com/combo/3031-3903/) (Opponents can't cast spells, Lock) · EDHREC: in 188,819 decks; most often under [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (51.3% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (49.7% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (7.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/D.md#drannith-magistrate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/11/drannith-magistrate) · oracle_id `aadd10d0-6dd0-4bdc-8d93-ff08e29a5863` · printing: IKO #11 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -101,6 +101,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4925 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-05-03* — If The Wanderer would be dealt lethal damage at the same time as you and/or other permanents you control would be dealt noncombat damage, the damage that would be dealt to you and your other permanents is prevented.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → The Wanderer](../../Characters%20Index.md#the-wanderer) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Time Sieve + Descent into Avernus + The Wanderer](https://commanderspellbook.com/combo/1558-1932-5228/) (Infinite turns, Lock) · EDHREC: in 32,690 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (54.7% of its decks), [Pramikon, Sky Rampart](../../cards/P/pr.md#pramikon-sky-rampart) (27.8% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (4.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#the-wanderer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/843/the-wanderer) · oracle_id `4c2196e5-6ed7-4cd2-b8e7-f01aff236569` · printing: CMM #843 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -595,6 +597,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #818 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-02-05* — The World Tree’s third ability doesn’t cause lands you control to lose any of their abilities. It also doesn’t cause lands you control to gain or lose any land types.
+- **Lore:** Depicts: [Item → World Tree & the Sword of the Realms (Kaldheim)](../../Items%20%26%20Artifacts%20Index.md#world-tree--the-sword-of-the-realms-kaldheim) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08), [2](https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-2-2021-01-14) via entry) (the entry line carries ❓) — ✅ Story Spotlight printing (Scryfall `story_spotlight`): KHM #275, PLST #KHM-275 — *Depicts:* Kaldheim's World Tree: "Looming overhead is the unfathomably huge bulk of the World Tree, whose dangling roots plunge into the realm." (Istfell) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-2-2021-01-14)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [The World Tree + Maskwood Nexus](https://commanderspellbook.com/combo/643-4218/) (Put all creature cards from your library onto the battlefield) · EDHREC: in 179,803 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (30.1% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (48.2% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (31.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/T.md#the-world-tree)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/275/the-world-tree) · oracle_id `3437d504-bf62-4c27-b15f-f6330182ff7e` · printing: KHM #275 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

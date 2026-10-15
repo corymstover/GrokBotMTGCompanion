@@ -345,6 +345,8 @@ schema: 2
   - *2021-04-16* — If an exiled card is both blue and red, Culmination of Studies deals 1 damage to each opponent and you draw a card.
   - *2021-04-16* — If multiple red cards are exiled, all of the damage is dealt as a single event.
   - *2021-04-16* — You will exile all X cards from the top of your library before taking any of the listed actions.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #173 — ✅ Card art shown on [Episode 5: Final Exam](https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,382 decks; most often under [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (3.1% of its decks), [Galazeth Prismari](../../cards/G/ga.md#galazeth-prismari) (6.3% of its decks), [Lilah, Undefeated Slickshot](../../cards/L/li.md#lilah-undefeated-slickshot) (6.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/173/culmination-of-studies) · oracle_id `d4e124af-d335-4c42-b60a-fe578f69f7ed` · printing: STX #173 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cultbrand Cinder
@@ -677,6 +679,9 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24990 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: The First Lesson](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 820 decks; most often under [Taigam, Ojutai Master](../../cards/T/ta.md#taigam-ojutai-master) (10.7% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.2% of its decks), [Ojutai, Soul of Winter](../../cards/O/oj.md#ojutai-soul-of-winter) (23.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#cunning-breezedancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/215/cunning-breezedancer) · oracle_id `ba997e44-fc80-4463-ad3f-6497be26df0f` · printing: DTK #215 (2015-03-27) · [rulings](https://api.scryfall.com/cards/bdbfe3b0-3b1d-4b0c-9d98-07f1cecce4b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cunning Coyote
@@ -2385,6 +2390,8 @@ schema: 2
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27681 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Poisoned Heart](https://magic.wizards.com/en/news/magic-story/poisoned-heart-2015-04-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 443 decks; most often under [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (0.3% of its decks), [The Walls of Ba Sing Se](../../cards/T/thew.md#the-walls-of-ba-sing-se) (1.8% of its decks), [Karn, Legacy Reforged](../../cards/K/ka.md#karn-legacy-reforged) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/236/custodian-of-the-trove) · oracle_id `0d060d19-9c8b-4831-a9be-aa2c98b6858a` · printing: DTK #236 (2015-03-27) · [rulings](https://api.scryfall.com/cards/eb14f061-9506-40fb-b10d-4bada38ca0f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Custodi Lich

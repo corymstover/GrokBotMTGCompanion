@@ -163,7 +163,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15953 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-14* — If a replacement effect causes the milled cards to be exiled instead of going to the graveyard, this effect can still apply to the cards "milled this way" in exile.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/W.md#wasteful-harvest)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #196 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,606 decks; most often under [Tadeas, Juniper Ascendant](../../cards/T/ta.md#tadeas-juniper-ascendant) (22.3% of its decks), [Titania, Voice of Gaea](../../cards/T/ti.md#titania-voice-of-gaea) (9.2% of its decks), [The Mycotyrant](../../cards/T/them.md#the-mycotyrant) (1.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/W.md#wasteful-harvest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/196/wasteful-harvest) · oracle_id `d44627c0-1617-4706-bbeb-0169745364c7` · printing: BRO #196 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waste Land
@@ -310,6 +312,8 @@ schema: 2
   - *2021-03-19* — Because Wastes is a basic land, you can include as many of them as you like in your Constructed decks.
   - *2021-03-19* — In Limited events (including Sealed Deck and Booster Draft), Wastes must be in your card pool to be included in your deck. You can't add Wastes to your card pool in the same way that you can add other basic lands.
   - *2021-03-19* — Wastes is not a land type. If something asks you to name a land type, you can't choose Wastes.
+- **Lore:** ✅ Card art shown on [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15), [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 123,250 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (85.4% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (46.0% of its decks), [Ultima, Origin of Oblivion](../../cards/U/ul.md#ultima-origin-of-oblivion) (86.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/191/wastes) · oracle_id `05d24b0c-904a-46b6-b42a-96a4d91a0dd4` · printing: EOC #191 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wastescape Battlemage

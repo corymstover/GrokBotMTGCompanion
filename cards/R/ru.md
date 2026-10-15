@@ -447,7 +447,7 @@ schema: 2
   - *2023-09-01* — If you controlled a creature with power 4 or greater when you declared Ruby as an attacker, it doesn't matter whether you still control one as her triggered ability resolves. Ruby will still get +2/+2 until end of turn.
 - **Lore:** Featured in: [Plane → Eldraine](../../Planes%20Index.md#eldraine) ([source](https://magic.wizards.com/en/news/announcements/a-first-look-at-wilds-of-eldraine), [2](https://magic.wizards.com/en/news/magic-story/episode-1-pure-of-heart)) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: 10 combos; most popular [Ruby, Daring Tracker + Bard Class + Agatha of the Vile Cauldron + Kogla, the Titan Ape](https://commanderspellbook.com/combo/2092-2246-3657-6726/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 4,787 decks; highest synergy [Migration Path](../../cards/M/mig.md#migration-path) (+65%), [Circuitous Route](../../cards/C/ci.md#circuitous-route) (+60%), [Explosive Vegetation](../../cards/E/ex.md#explosive-vegetation) (+60%) · EDHREC: in 71,818 decks; most often under [Raggadragga, Goreguts Boss](../../cards/R/rag.md#raggadragga-goreguts-boss) (67.3% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (25.2% of its decks), [Ognis, the Dragon's Lash](../../cards/O/og.md#ognis-the-dragons-lash) (47.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Mana creatures (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-creatures-mv--2) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/R.md#ruby-daring-tracker)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/R.md#ruby-daring-tracker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/245/ruby-daring-tracker) · oracle_id `5d1b0eee-3a7a-4f22-a40d-7658a368962a` · printing: FDN #245 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruby Leech
@@ -545,6 +545,8 @@ schema: 2
   > *—Taklai, Mardu convoy*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1443 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: The First Lesson](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20), [Sorin's Revelation](https://magic.wizards.com/en/news/magic-story/sorins-revelation), [Unwritten](https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 111,870 decks; most often under [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (25.0% of its decks), [Atarka, World Render](../../cards/A/at.md#atarka-world-render) (55.3% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (9.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/R.md#rugged-highlands)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/265/rugged-highlands) · oracle_id `6c922206-6e68-4dcd-9559-88da1074f2c4` · printing: TDM #265 (2025-04-11) · [rulings](https://api.scryfall.com/cards/31261eca-28ad-407c-84ef-0c124d0d7451/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -729,6 +731,8 @@ schema: 2
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23839 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,054 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (1.3% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (1.7% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/R.md#ruin-in-their-wake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/122/ruin-in-their-wake) · oracle_id `68adbc52-34dd-47c4-bb1c-0c51033fe7cc` · printing: OGW #122 (2016-01-22) · [rulings](https://api.scryfall.com/cards/5a0ff591-e4d9-4b62-ac9c-7962fd815226/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1311,6 +1315,8 @@ schema: 2
   > *—Korax, officer of the \*I.K.S. Gr'oth\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6975 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 21,606 decks; most often under [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (31.1% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (11.2% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (9.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/R.md#run-amok)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/582/run-amok) · oracle_id `d463de75-8d3c-4077-a2cc-c304a63acc69` · printing: TRC #582 (2026-11-13) · [rulings](https://api.scryfall.com/cards/b18e1c55-29bc-434f-85b7-765d7ba71ff3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1584,6 +1590,8 @@ schema: 2
   > *Scholars had puzzled for centuries over the ruins at Tal Terig. Its secrets had always lived within one rune-carved head.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15240 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Mortuary + Carrion Feeder + Aluren + Runed Servitor](https://commanderspellbook.com/combo/2195-2438-4191-5220/) (Infinite +1/+1 counters on a creature, Infinite card draw for opponents) · EDHREC: in 5,230 decks; most often under [Zurzoth, Chaos Rider](../../cards/Z/zu.md#zurzoth-chaos-rider) (15.8% of its decks), [Sheoldred, the Apocalypse](../../cards/S/she.md#sheoldred-the-apocalypse) (2.8% of its decks), [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/481/runed-servitor) · oracle_id `4e5e81e1-ab47-4f08-9c42-dba0adc5cf9a` · printing: JMP #481 (2020-07-17) · [rulings](https://api.scryfall.com/cards/efedf97b-8901-4558-8bd0-3f488097f686/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Runed Stalactite
@@ -2204,6 +2212,8 @@ schema: 2
   - *2018-03-16* — If Ruric Thar can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so Ruric Thar doesn't have to attack in that case either.
   - *2018-03-16* — Ruric Thar's triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
   - *2018-03-16* — Ruric Thar's triggered ability triggers whenever any player casts a noncreature spell, including you.
+- **Lore:** ✅ Card art shown on [Rage of the Unsung](https://magic.wizards.com/en/news/magic-story/rage-unsung-2019-01-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,073 decks; highest synergy [Somberwald Sage](../../cards/S/so.md#somberwald-sage) (+59%), [Beast Whisperer](../../cards/B/be.md#beast-whisperer) (+55%), [Zhur-Taa Druid](../../cards/Z/zh.md#zhur-taa-druid) (+54%) · EDHREC: in 26,883 decks; most often under [Nikya of the Old Ways](../../cards/N/ni.md#nikya-of-the-old-ways) (82.7% of its decks), [Yurlok of Scorch Thrash](../../cards/Y/yu.md#yurlok-of-scorch-thrash) (22.7% of its decks), [Alena, Kessig Trapper // Gilanra, Caller of Wirewood](../../cards/A/al.md#alena-kessig-trapper) (68.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/271/ruric-thar-the-unbowed) · oracle_id `6ed13a89-4284-4c01-8099-75e2d68c8c63` · printing: 2X2 #271 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rushblade Commander
@@ -2349,6 +2359,8 @@ schema: 2
   - *2015-08-25* — Rush of Ice tracks the creature, but not its controller. If the creature changes controllers before its first controller’s next untap step has come around, then it won’t untap during its new controller’s next untap step.
   - *2015-08-25* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that’s turned into a creature this way can still be tapped for {G}.
   - *2015-08-25* — You can cast a spell with awaken for its mana cost and get only its first effect. If you cast a spell for its awaken cost, you’ll get both effects.
+- **Lore:** ✅ Card art shown on [Nissa's Resolve](https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,290 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (2.4% of its decks), [Noyan Dar, Roil Shaper](../../cards/N/no.md#noyan-dar-roil-shaper) (6.9% of its decks), [Jyoti, Moag Ancient](../../cards/J/jy.md#jyoti-moag-ancient) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/84/rush-of-ice) · oracle_id `e9d62416-c4b1-4982-9593-174d46e975c7` · printing: BFZ #84 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rush of Inspiration // Crackling Falls
@@ -2736,6 +2748,8 @@ schema: 2
 - **Rulings** (2):
   - *2013-01-24* — Rust Scarab’s ability normally triggers only once per combat, no matter how many creatures are assigned to block it.
   - *2013-01-24* — The artifact or enchantment will be destroyed before combat damage is dealt but after blockers are chosen.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/burying-part-1-2013-01-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,803 decks; most often under [Grist, the Hunger Tide](../../cards/G/gri.md#grist-the-hunger-tide) (4.7% of its decks), [Zask, Skittering Swarmlord](../../cards/Z/za.md#zask-skittering-swarmlord) (4.2% of its decks), [Vrestin, Menoptra Leader](../../cards/V/vr.md#vrestin-menoptra-leader) (14.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/130/rust-scarab) · oracle_id `c3bd1d38-e73f-4e30-b22a-dca0a0e4d701` · printing: GTC #130 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rust-Shield Rampager
@@ -3022,6 +3036,8 @@ schema: 2
   - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
   - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
   - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Lore:** ✅ Card art shown on [Bond and Blood](https://magic.wizards.com/en/news/magic-story/bond-and-blood-2014-12-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Missy (Grixis)](../../grixis/decks/missy.md) · Commander Spellbook: 36 combos; most popular [Missy + Ashnod's Altar + Ruthless Ripper](https://commanderspellbook.com/combo/1794-2034-4424/) (Infinite colorless mana, Infinite death triggers) · EDHREC: in 6,765 decks; most often under [Etrata, Deadly Fugitive](../../cards/E/et.md#etrata-deadly-fugitive) (53.9% of its decks), [Kadena, Slinking Sorcerer](../../cards/K/ka.md#kadena-slinking-sorcerer) (14.4% of its decks), [Missy](../../cards/M/mis.md#missy) (41.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#ruthless-ripper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/107/ruthless-ripper) · oracle_id `cfbcd70b-d3a9-47e9-a8b3-b8134d00dff8` · printing: A25 #107 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

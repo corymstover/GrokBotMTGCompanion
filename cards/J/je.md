@@ -217,6 +217,8 @@ schema: 2
   - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
   - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
   - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Lore:** ✅ Card art shown on [Mercy](https://magic.wizards.com/en/news/magic-story/mercy) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,251 decks; most often under [Yarus, Roar of the Old Gods](../../cards/Y/ya.md#yarus-roar-of-the-old-gods) (45.3% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (1.1% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/113/jeering-instigator) · oracle_id `170adfe9-ffbe-40b1-b665-e756e7eb0302` · printing: KTK #113 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jegantha, the Wellspring
@@ -588,6 +590,8 @@ schema: 2
   > *Discipline to persevere, insight to discover.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13298 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Chensal Twins](https://magic.wizards.com/en/news/magic-story/the-chensal-twins) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,286 decks; most often under [Zedruu the Greathearted](../../cards/Z/ze.md#zedruu-the-greathearted) (6.4% of its decks), [Narset, Enlightened Master](../../cards/N/na.md#narset-enlightened-master) (8.7% of its decks), [Pramikon, Sky Rampart](../../cards/P/pr.md#pramikon-sky-rampart) (6.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/222/jeskai-banner) · oracle_id `fda10ef2-f431-4d9b-96a4-4db4c98d2b0c` · printing: KTK #222 (2014-09-26) · [rulings](https://api.scryfall.com/cards/684dc050-a66b-4364-9880-56f383db6c0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Barricade
@@ -663,6 +667,9 @@ schema: 2
   - *2014-09-20* — Once it triggers, prowess isn't connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
   - *2014-09-20* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
   - *2020-06-23* — You draw a card and discard a card all while Jeskai Elder's ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Lore:** ✅ Card art shown on [The Chensal Twins](https://magic.wizards.com/en/news/magic-story/the-chensal-twins) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,737 decks; most often under [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (3.4% of its decks), [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (10.4% of its decks), [Elsha, Threefold Master](../../cards/E/el.md#elsha-threefold-master) (1.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/J.md#jeskai-elder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/53/jeskai-elder) · oracle_id `dfbd5ad1-0f68-4219-95c4-98f674f321be` · printing: 2X2 #53 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Infiltrator
@@ -1041,7 +1048,7 @@ schema: 2
   - *2022-04-29* — If a creature with double strike loses double strike after dealing damage during the first combat damage step but before dealing damage in the second combat damage step, it will not deal damage during that second combat damage step. Notably, this means that if your ninth creature dies in the first combat damage step, the rest of your creatures won't deal combat damage again unless something else is granting them double strike.
 - **Lore:** Featured in: [Plane → New Capenna](../../Planes%20Index.md#new-capenna) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna), [2](https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28) via entry) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: 15 combos; most popular [Najeela, the Blade-Blossom + Jetmir, Nexus of Revels + Bloom Tender](https://commanderspellbook.com/combo/2011-5123-5168/) (Infinite creature tokens with haste, Infinite combat phases) · EDHREC as commander: 9,876 decks; highest synergy [Adeline, Resplendent Cathar](../../cards/A/ad.md#adeline-resplendent-cathar) (+52%), [Artifact Mutation](../../cards/A/art.md#artifact-mutation) (+40%), [Aura Mutation](../../cards/A/au.md#aura-mutation) (+39%) · EDHREC: in 63,275 decks; most often under [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (76.4% of its decks), [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (37.3% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (21.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/J.md#jetmir-nexus-of-revels)
+- **Referenced in:** 4 pages (2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/J.md#jetmir-nexus-of-revels)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/193/jetmir-nexus-of-revels) · oracle_id `da72a4bc-ce6f-4b72-bc66-2ee33cfa87df` · printing: SNC #193 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetmir's Fixer
@@ -1070,6 +1077,8 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #367 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** Featured in: [Plane → New Capenna](../../Planes%20Index.md#new-capenna) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna), [2](https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Gishath, Sun's Avatar](../../decks/gishath-suns-avatar.md) · [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) · [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 324,045 decks; most often under [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (37.4% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (26.5% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (53.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 7 pages (3 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/J.md#jetmirs-garden)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/250/jetmirs-garden) · oracle_id `f5896356-5744-4f7e-a4e5-1cc36dde5958` · printing: SNC #250 (2022-04-29) · [rulings](https://api.scryfall.com/cards/26d40e03-6de4-4373-9fbf-04c1dd79e995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
