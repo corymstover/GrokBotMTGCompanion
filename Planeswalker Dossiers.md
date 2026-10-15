@@ -181,7 +181,7 @@ schema: 2
 | When (story) | Event | Source |
 |---|---|---|
 | BRO (2022) | Compleated (see Characters Index). | [BRO Ch. 3](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis) |
-| MOM (2023) | Turns on Nashi on Kamigawa; her missed blow was "Tamiyo making a request, in the only way she could." | [MOM Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story) |
+| MOM (2023) | Turns on Nashi on Kamigawa; her missed blow was "Tamiyo was making a request, in the only way she could." | [MOM Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story) |
 | OTJ / DSK (2024) | Her story-self guides Nashi ("You did it … Just like I knew you could"); Nashi frees her shade from the scroll in Duskmourn. | [A Long Way from Home](https://magic.wizards.com/en/news/magic-story/a-long-way-from-home) · [DSK Ep. 6](https://magic.wizards.com/en/news/magic-story/episode-six-dont-die) |
 
 **Allegiances:** Moonfolk researcher; mother of Nashi.

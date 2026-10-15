@@ -5,7 +5,7 @@ tags: [characters, status, planeswalkers]
 issues: [7, 11, 20]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Conflicts & Arcs.md", "Master Timeline.md", "Planes Index.md", "Planeswalker Dossiers.md", "Story Arc Summaries.md", "Card Index.md"]
+related: ["Conflicts & Arcs.md", "Master Timeline.md", "Planes Index.md", "Planeswalker Dossiers.md", "Contradictions & Retcons Log.md", "Story Arc Summaries.md"]
 schema: 2
 ---
 
@@ -340,7 +340,7 @@ schema: 2
 
 ### Tamiyo
 - **Who:** Moonfolk researcher/chronicler.
-- **Status (late 2026):** ✅ Dead — compleated, then killed by the Wanderer; a story-construct of her survives.
+- **Status (late 2026):** ✅ Dead — compleated, then killed by the Wanderer ("the pile of metal the emperor struck down", [MOM Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story)); a story-construct of her survives ([Retcons Log](Contradictions%20%26%20Retcons%20Log.md#tamiyo-after-compleation)).
 - **Detail:** First Planeswalker given Jin-Gitaxias's "special compleation process"; "the day the Wanderer killed what had been left of Tamiyo" (A Long Way from Home). Before her death she created a story-copy of herself sealed in a scroll, which continues to guide her son Nashi. "Tamiyo, Upriser Crowned" is 🚫 Echoverse.
 - **See also:** Planes: [Kamigawa](Planes%20Index.md#planes-with-official-profiles) · Arcs: [Phyrexian Invasion](Conflicts%20%26%20Arcs.md#phyrexian-invasion-of-the-multiverse) · Timeline: [Phyrexian Invasion](Master%20Timeline.md#phyrexian-invasion)
 - **Sources:** [profile](https://magic.wizards.com/en/story/tamiyo-planeswalker) · [BRO Ch. 3](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis) · [MOM Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story) · [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair) · [A Long Way from Home](https://magic.wizards.com/en/news/magic-story/a-long-way-from-home)
@@ -388,7 +388,7 @@ schema: 2
 - **Sources:** [profile](https://magic.wizards.com/en/story/niko-aris-planeswalker) · [DSK Ep. One](https://magic.wizards.com/en/news/magic-story/episode-one-dont-go-past-the-old-dark-house)
 
 ### The Wanderer
-- **Who:** Lost empress of Kamigawa.
+- **Who:** Lost empress of Kamigawa. NEO Ep. 4 shows "The Emperor of Kamigawa" as "a planeswalker, just like him" ([Ep. 4](https://magic.wizards.com/en/news/magic-story/episode-4-break-2022-01-26); [Retcons Log](Contradictions%20%26%20Retcons%20Log.md#the-wanderer-is-the-emperor-of-kamigawa)).
 - **Status (late 2026):** ✅ Active (Duskmourn).
 - **Detail:** Killed what remained of the compleated Tamiyo; enters Duskmourn.
 - **See also:** Planes: [Kamigawa](Planes%20Index.md#planes-with-official-profiles), [Duskmourn](Planes%20Index.md#other-planes-in-recent-stories-omenpath-era) · Arcs: [Phyrexian Invasion](Conflicts%20%26%20Arcs.md#phyrexian-invasion-of-the-multiverse), [Omenpath-era arcs](Conflicts%20%26%20Arcs.md#omenpath-era-arcs-20242026) · Timeline: [Phyrexian Invasion](Master%20Timeline.md#phyrexian-invasion), [Omenpath era](Master%20Timeline.md#omenpath-era-post-invasion)
