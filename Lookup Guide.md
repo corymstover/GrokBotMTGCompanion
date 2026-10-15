@@ -49,6 +49,9 @@ sources: []
 | Partner / Background pairs | [EDH Pairings](EDH%20Pairings.md) |
 | A full list to start from | [decks/](decks/) (46 validated) · [EDH Themed Decks](EDH%20Themed%20Decks.md) · [EDH Upgrade Paths](EDH%20Upgrade%20Paths.md) |
 | Competitive (Bracket 5) | ⚠️ [cEDH Primer](cEDH%20Primer.md) only |
+| A refined Grixis (U/B/R) list with the reasoning behind it | [grixis/](grixis/README.md) (40 decks) · `rg -l '^kind: grixis' grixis/decks/` |
+| Is my list legal, and what's its bracket floor? | `python3 scripts/evaluate_decklist.py my.txt --combos` · method: [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) |
+| How to build or refine a deck step by step | [EDH Deck Template](EDH%20Deck%20Template.md) |
 
 ## Lore
 | I need… | Go to |
@@ -74,6 +77,7 @@ Every major page and every deck starts with YAML front-matter (Bot cycle 15, [#4
 | Decks with no Game Changers | `rg -l '^game_changers: 0$' decks/` |
 | Decks for a color identity (e.g. Sultai) | `rg -l '^color_identity: BGU$' decks/` |
 | Plane-restricted decks | `rg '^plane: ' decks/` |
+| Grixis decks at the bracket floor 3 | `rg -l '^bracket_floor: 3' grixis/decks/` |
 
 After running any generator, re-apply with `python3 scripts/front_matter.py`. `--check` fails if any page or deck is missing front-matter or has a stale value.
 

@@ -60,6 +60,8 @@ sources: []
 | Deck skeletons | **46 validated** (was 32): 32 core, one per color identity, + **10 plane-restricted + 4 themed** (Bot cycle 7): C, 5 mono, 10 pairs, 10 three-color, 5 four-color (Atraxa, Breya, Yidris, Saskia, Kynaios & Tiro), WUBRG; each with a Commander rules & rulings block |
 | EDH Staples | ✅ auto-generated: top 15 per color identity (C, 5 mono, 10 two-color, 10 three-color) + top 15 per role/archetype (14 roles) from 32,048 ranked Commander-legal cards |
 | Synergy notes | 15 commander engines with Oracle text + official rulings · **12 archetype guides** in [EDH Archetypes](EDH%20Archetypes.md) (was 0) |
+| Grixis section | ✅ (Bot cycle 16, #59–#62) **40 integrated decks** of 62 source lists (22 left out: 20 unrefined in the source, 2 future-release) · **87 corrections** (2 legality, 1 companion, 40 bracket, 40 format, 2 provenance, 2 structure flags) · 16,137 source Oracle rows checked, 0 outdated · 444 Game Changer slots · Spellbook **288 combos, 83 two-card infinite in 19 decks** · floors: 35× B4, 5× B3 · [package library](grixis/Grixis%20Packages.md) |
+| Deckbuilding method | ✅ (Bot cycle 16, #62) [EDH Deck Template](EDH%20Deck%20Template.md) + [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) (gates A–E, generalized from the Grixis repo) + `scripts/evaluate_decklist.py` (any identity) |
 | Combo detection | ✅ (#15) Commander Spellbook API on all 46 decks: **218 complete combos, 63 two-card infinite in 18 decks** (was 189 / 51 / 14); combo-adjusted floors (Xenagos and Gishath 2 → 3) |
 | Phase 1 guides (Bot cycles 6–7, [ROADMAP](ROADMAP.md)) | ✅ **9 of 9 Phase 1 issues done** (cycle 7: Upgrade Paths, 32 commanders / 576 upgrade rows / 256 cuts; Themed Decks, 14): Mana Bases (32 identities, 1,118 non-basic lands), Packages (13 / 33 sub-packages / 321 rows), Win Conditions (8 categories / 146 rows / 46 combo kills), Interaction (6 hierarchies / 19 buckets / 183 rows), Pairings (8 abilities / 3,104 legal pairs), Mulligans (5 CR quotes, 2 odds tables, 19 opening-hand cards, 12 archetype rows), cEDH Primer (129 rows, 61 Spellbook combos). Open: #30 upgrade paths, #33 themed decks |
 
@@ -72,7 +74,7 @@ sources: []
 | Format Legality Matrix | ✅ (#41, Bot cycle 11) **33,894 × 23** formats in `data/legality_matrix.csv` · banned/restricted lists (**1,390** entries across 21 formats) in [Format Legality Matrix](Format%20Legality%20Matrix.md) |
 | Tokens, Emblems & Dungeons | ✅ (#42, Bot cycle 12) **780** creature tokens · **105** noncreature · **89** emblems · **5** dungeons · **159** adventurer cards · `data/tokens.json` |
 | Artist Index | ✅ (#43, Bot cycle 13) **2,440** artists · **50,956** artist-illustration credits · `data/artists.csv` · [Artist Index](Artist%20Index.md) |
-| YAML front-matter | ✅ (#44, Bot cycle 15) **37 pages + 46 decks**. Pages: category/tags/issues/generator/sources; decks: kind/commander/identity/bracket floor/GC/validated. `scripts/front_matter.py --check` passes |
+| YAML front-matter | ✅ (#44, Bot cycle 15; Bot cycle 16 added 7 pages + 40 `grixis/decks`, `kind: grixis`) **44 pages + 86 decks**. Pages: category/tags/issues/generator/sources; decks: kind/commander/identity/bracket floor/GC/validated. `scripts/front_matter.py --check` passes |
 | FAQ | ✅ (#45, Bot cycle 15) **29 Q&As** (9 lore, 9 rules, 7 Commander, 4 cards & collecting) linking to cited pages |
 | Knowledge Snapshots | ✅ (#47, Bot cycle 15) snapshot policy + **14 tags** documented |
 | Lookup Guide | ✅ (#46, Bot cycle 14; Bot cycle 15 added front-matter filters) how-to-find table for cards, rules, EDH and lore with `rg`/CSV fast paths |
@@ -95,3 +97,4 @@ sources: []
 | Phase 2 — Lore & Story depth | ✅ closed (Bot cycle 7: #36; Bot cycle 8: #34, #35, #37, #38) | `v1.6-cycle8-phase2-complete` |
 | Phase 3 — Card & Rules enrichment | ✅ closed (Bot cycles 8–13: #39–#43; milestone closed and tag created in Bot cycle 15) | `v1.7-cycle9-phase3-complete` (on 63dbeb7, PR #55) |
 | Phase 4 — Structure & usability | ✅ closed (Bot cycle 14: #46; Bot cycle 15: #44, #45, #47) | `v1.8-cycle15-phase4-complete` |
+| Grixis integration (Bot cycle 16) | ✅ #59–#62 done; #63 (follow-ups) open | `v1.9-grixis-integration` |

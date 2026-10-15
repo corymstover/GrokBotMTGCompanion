@@ -71,3 +71,15 @@ Rules: well-structured, cross-referenced, source-noted, no redundancy; official 
 | Phase 4 | [#45](https://github.com/corymstover/GrokBotMTGCompanion/issues/45) | Central FAQ for common lore and rules questions with internal links | ✅ Bot cycle 15 | [FAQ](FAQ.md) |
 | Phase 4 | [#46](https://github.com/corymstover/GrokBotMTGCompanion/issues/46) | Documented lookup patterns or simple helper notes so entries are faster to retrieve | ✅ Bot cycle 14 | [Lookup Guide](Lookup%20Guide.md) |
 | Phase 4 | [#47](https://github.com/corymstover/GrokBotMTGCompanion/issues/47) | Additional knowledge-snapshot tags at meaningful milestones | ✅ Bot cycle 15 | [Knowledge Snapshots](Knowledge%20Snapshots.md) |
+
+## Grixis integration (Bot cycle 16; user task, 2026-10-15)
+The user asked us to integrate their [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) work (read-only) and generalize its method. Milestone: [Grixis integration (Bot cycle 16)](https://github.com/corymstover/GrokBotMTGCompanion/milestone/13).
+
+| Issue | Item | Status | Output |
+|---|---|---|---|
+| [#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59) | Evaluate all 62 source lists, integrate the approved ones | ✅ Bot cycle 16: 40 integrated, 22 left out with reasons | [grixis/](grixis/README.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) |
+| [#60](https://github.com/corymstover/GrokBotMTGCompanion/issues/60) | Corrections log (legality, format, bracket, Oracle check) | ✅ Bot cycle 16: 87 corrections | [Grixis Corrections](grixis/Grixis%20Corrections.md) |
+| [#61](https://github.com/corymstover/GrokBotMTGCompanion/issues/61) | Cross-deck Grixis package library | ✅ Bot cycle 16 | [Grixis Packages](grixis/Grixis%20Packages.md) |
+| [#62](https://github.com/corymstover/GrokBotMTGCompanion/issues/62) | Generalize the method for any identity | ✅ Bot cycle 16 | [EDH Deck Template](EDH%20Deck%20Template.md) · [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) · `scripts/evaluate_decklist.py` |
+| [#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63) | Follow-ups: import remaining lists as approved; re-check `mbc` cards; optional optimization pass | ⏳ open (not started) | [Summary → follow-ups](grixis/Grixis%20Integration%20Summary.md#recommended-follow-ups) |
+
