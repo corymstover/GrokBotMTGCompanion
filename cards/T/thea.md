@@ -266,6 +266,7 @@ schema: 2
   - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
   - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-arkenstone--seek-the-heart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/170/the-arkenstone-seek-the-heart) · oracle_id `09f09d0a-6054-4545-b81e-0295773cc5f0` · printing: HOB #170 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Art of Tea
@@ -335,6 +336,7 @@ schema: 2
   - *2019-01-25* — Damage dealt to a player causes that player to lose that much life.
   - *2019-01-25* — In a multiplayer game, if an opponent loses life during your turn and then leaves the game, you can play cards exiled with Theater of Horrors.
   - *2019-01-25* — Theater of Horrors doesn't change when you can play the exiled cards during your turn. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty. If you exile a land card, you can play it only during your main phase and only if you have an available land play remaining.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/T.md#theater-of-horrors)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/236/theater-of-horrors) · oracle_id `b391a4ce-52ce-4a8c-bbe5-6053951ee1d4` · printing: DSC #236 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Autonomous Furnace

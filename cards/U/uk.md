@@ -44,6 +44,7 @@ schema: 2
   - *2020-04-17* — If the target player is an illegal target by the time Ukkima's last ability tries to resolve, the ability won't resolve. You won't gain any life.
   - *2020-04-17* — If your life total is brought to 0 or less at the same time that Ukkima is dealt lethal damage, you lose the game before the last ability goes on the stack.
   - *2020-04-17* — Use Ukkima's power as it last existed on the battlefield to determine how much damage it deals and how much life you gain. If that number is negative, it deals no damage and you gain no life.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/U.md#ukkima-stalking-shadow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/247/ukkima-stalking-shadow) · oracle_id `b8c3cb84-0a30-420d-8fc3-bb85ce69b5e8` · printing: OTC #247 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uktabi Drake
@@ -89,6 +90,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29276 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#uktabi-faerie)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/247/uktabi-faerie) · oracle_id `447f1cce-bbc5-473b-a838-34070f8fd2dc` · printing: MIR #247 (1996-10-08) · [rulings](https://api.scryfall.com/cards/c3cdee9f-7ea9-4397-a230-ce610be5d3af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uktabi Kong

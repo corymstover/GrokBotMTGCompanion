@@ -74,6 +74,7 @@ schema: 2
   > *"Dark have been my dreams of late, but I feel new-awakened. I only fear that already you have come too late, Gandalf."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4631 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#théoden-king-of-rohan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/233/th%C3%A9oden-king-of-rohan) · oracle_id `e739e3ce-4c5e-4172-a9de-adf66ca6588c` · printing: LTR #233 (2023-06-23) · [rulings](https://api.scryfall.com/cards/f6dcd1ca-4943-46e4-bb5d-c14949e21e23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The One Ring
@@ -92,6 +93,7 @@ schema: 2
   - *2023-06-16* — If a player has protection from everything, it means three things: 1) All damage that would be dealt to that player is prevented. 2) Auras can't be attached to that player. 3) That player can't be the target of spells or abilities.
   - *2023-06-16* — Nothing other than the specified events are prevented or illegal. An effect that doesn't target you could still cause you to discard cards, for example. Creatures can still attack you while you have protection from everything, although combat damage that they would deal to you will be prevented.
   - *2023-06-16* — Protection from everything will usually prevent damage if it would be dealt to you, but some damage can't be prevented. In this case, that damage reduces your life total as normal.
+- **Referenced in:** 14 pages (6 decks · 4 edh guides · 2 rules · 2 card data) → [reverse index](../../references/T.md#the-one-ring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/246/the-one-ring) · oracle_id `3aa83ed2-f48b-4ce6-a614-2c54ddf50538` · printing: LTR #246 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ooze
@@ -106,6 +108,7 @@ schema: 2
   - *2026-01-27* — If enough -1/-1 counters are put on a creature you control at the same time to make its toughness 0 or less (or the damage marked on it to be lethal), the number of +1/+1 counters on it before it got any -1/-1 counters will be used to determine how many Mutagen tokens you get. For example, if there are three +1/+1 counters on a creature and it gets four -1/-1 counters, you'll get three Mutagen tokens. That's because The Ooze's triggered ability checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
   - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
   - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-ooze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/177/the-ooze) · oracle_id `82a6fa6f-13c2-4ea3-bec2-c51b56b2783b` · printing: TMT #177 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theopholos, Order Acolyte
@@ -133,6 +136,7 @@ schema: 2
   > *—Imbraham, Quandrix dean*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6507 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#theoretical-duplication)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/34/theoretical-duplication) · oracle_id `efe7e212-5c91-42f0-9dff-591131b4f6d8` · printing: C21 #34 (2021-04-23) · [rulings](https://api.scryfall.com/cards/1575a14e-fa70-44f0-8384-95cb90031337/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theoretical Necromancer
@@ -257,4 +261,5 @@ schema: 2
   - *2020-04-17* — If the target creature is an illegal target by the time The Ozolith's last ability tries to resolve, the ability won't resolve. You won't remove any counters from The Ozolith.
   - *2020-04-17* — The Ozolith's first ability doesn't move counters off the creature that's left the battlefield. Rather, you put the same number of each kind of counter the creature had onto The Ozoloith. Notably, if you somehow control a second The Ozolith, each one will receive the same number and kinds of counters that were on the creature that left the battlefield. Similarly, if the creature has an ability that triggers when it leaves the battlefield that refers to the number of counters it had, that ability will use the number of counters that were on the permanent, even if The Ozolith's first ability resolves first.
   - *2020-04-17* — You can't move only some of the counters from The Ozolith onto the target creature.
+- **Referenced in:** 6 pages (3 decks · 1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/T.md#the-ozolith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/237/the-ozolith) · oracle_id `1946ded1-5f53-409f-b0a6-5433bb0357d2` · printing: IKO #237 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

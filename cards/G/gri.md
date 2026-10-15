@@ -162,6 +162,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-06-18* — If you pay the evoke cost, you can have the creature's own triggered ability resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice the creature.
   - *2021-06-18* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#grief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/87/grief) · oracle_id `0d6b89dc-23fb-48e9-a54b-cea2838ae7c8` · printing: MH2 #87 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grief Tyrant
@@ -209,6 +210,7 @@ schema: 2
   - *2020-06-23* — Griffin Aerie's ability looks at how much life you've gained in the turn, even if it wasn't on the battlefield when you gained life. It doesn't care if you also lost life, even if you lost more life than you gained.
   - *2020-06-23* — If you haven't gained 3 life by the time your end step begins, Griffin Aerie's ability won't trigger at all.
   - *2020-06-23* — You create just one Griffin token, no matter how much life you've gained past 3 life.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/G.md#griffin-aerie)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/22/griffin-aerie) · oracle_id `7cab62dc-a256-4da8-a3ea-b3903ec37077` · printing: M21 #22 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Griffin Canyon
@@ -224,6 +226,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18159 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — This can target an already untapped Griffin, and gives the bonus regardless.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#griffin-canyon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/163/griffin-canyon) · oracle_id `ba642c8b-9ade-4501-8393-672fd53d4955` · printing: VIS #163 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Griffin Dreamfinder
@@ -253,6 +256,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16692 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — If Griffin Guide and the enchanted creature go to the graveyard at the same time, Griffin Guide's last ability will trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#griffin-guide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/8/griffin-guide) · oracle_id `c5323a43-82de-4340-8578-b3ffcc66f8fa` · printing: DMR #8 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Griffin Protector
@@ -368,6 +372,7 @@ schema: 2
   - *2023-06-16* — If you choose not to cast the card, it is put on the bottom of its owner's library in a random order along with the other exiled cards.
   - *2023-06-16* — The cards are exiled face up. All players will be able to see them.
   - *2023-06-16* — You cast the card while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gríma-sarumans-footman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/57/gr%C3%ADma-sarumans-footman) · oracle_id `9df60bb7-2dd4-4d22-b814-f52145356424` · printing: LTC #57 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gríma Wormtongue
@@ -407,6 +412,7 @@ schema: 2
   > *—Liliana Vess*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2107 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#grim-backwoods)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/377/grim-backwoods) · oracle_id `5effaa94-7f87-4485-8959-473d584c5034` · printing: SOC #377 (2026-04-24) · [rulings](https://api.scryfall.com/cards/606c5f42-fe5f-4dcd-b8f4-b67beabe3f0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grim Bauble
@@ -554,6 +560,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17680 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — It affects all opposing players in a multiplayer game.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#grim-feast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/265/grim-feast) · oracle_id `331233ba-0ddc-4cb2-b3b7-1b782e03529f` · printing: MIR #265 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grim Flayer
@@ -632,6 +639,7 @@ schema: 2
   - *2014-04-26* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
   - *2014-04-26* — An Aura spell without bestow that has an illegal target when it tries to resolve won't resolve and will be put into its owner's graveyard. It won't enter the battlefield and constellation abilities won't trigger. An Aura spell with bestow won't be countered this way. It will revert to being an enchantment creature and resolve, entering the battlefield and triggering constellation abilities.
   - *2014-04-26* — When an enchantment enters the battlefield under your control, each constellation ability of permanents you control will trigger. You can put these abilities on the stack in any order. The last ability you put on the stack will be the first one that resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#grim-guardian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/73/grim-guardian) · oracle_id `c1f1babf-13d0-4fc4-b192-127d2d5db7f1` · printing: JOU #73 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grim Haruspex
@@ -656,6 +664,7 @@ schema: 2
   - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
   - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
   - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 6 pages (4 decks · 1 rules · 1 card data) → [reverse index](../../references/G.md#grim-haruspex)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/754/grim-haruspex) · oracle_id `72aef1d8-11df-4bc2-af83-907b05df73a8` · printing: CLB #754 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grim Harvest
@@ -668,6 +677,7 @@ schema: 2
 - **Keywords:** Recover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20401 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#grim-harvest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/58/grim-harvest) · oracle_id `231ca538-b277-4c12-979f-57640a0e87f0` · printing: CSP #58 (2006-07-21) · [rulings](https://api.scryfall.com/cards/bdb1972f-2ef7-4fe2-8c8e-ab07f48a3176/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grim Hireling
@@ -681,6 +691,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #902 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/G.md#grim-hireling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/755/grim-hireling) · oracle_id `89738595-dafb-400a-bfba-91a53a37e717` · printing: CLB #755 (2022-06-10) · [rulings](https://api.scryfall.com/cards/38326f48-548c-4b18-9ad2-0b7c23385deb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grim Initiate
@@ -764,6 +775,7 @@ schema: 2
   > *Part prison, part home.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #676 · Game Changer: **yes** · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 17 pages (10 decks · 4 edh guides · 3 card data) → [reverse index](../../references/G.md#grim-monolith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/126/grim-monolith) · oracle_id `229d6627-1292-4ae1-8849-b0f956fa6540` · printing: ULG #126 (1999-02-15) · [rulings](https://api.scryfall.com/cards/9ddc9fe1-17c8-4e1d-aeb8-c4214e881280/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grimoire of the Dead
@@ -967,6 +979,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #710 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-06-23* — You don't reveal the card you search for.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#grim-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/103/grim-tutor) · oracle_id `e62f8d69-a559-4f13-a5c9-5fb750b4af2c` · printing: M21 #103 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grim Wanderer
@@ -1035,6 +1048,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2173 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (3 decks · 1 edh guides) → [reverse index](../../references/G.md#grinding-station)
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/127/grinding-station) · oracle_id `0fcd476f-4db8-4293-9388-1678a0043c9e` · printing: 5DN #127 (2004-06-04) · [rulings](https://api.scryfall.com/cards/df1df511-b52c-45cd-9503-ffce4271a802/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grindstone
@@ -1051,6 +1065,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If the two cards are both colorless, then the effect does not repeat. It only repeats if both cards have at least one color and at least one color is shared between them.
   - *2024-04-12* — The process can repeat any number of times, as long as two cards that share a color are milled each time.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/G.md#grindstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/223/grindstone) · oracle_id `97560adc-814e-450c-9ca7-f9364e910a0b` · printing: TPR #223 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grinning Demon
@@ -1083,6 +1098,7 @@ schema: 2
   - *2021-03-19* — If you cast Grinning Ignus during your main phase, it will enter the battlefield and you'll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.
   - *2021-04-16* — Although Grinning Ignus's ability has a timing restriction, it's still a mana ability. It doesn't use the stack and it can't be responded to.
   - *2021-04-16* — If you cast this as normal during your main phase, it will enter the battlefield and you'll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#grinning-ignus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/104/grinning-ignus) · oracle_id `eca27964-accc-46cc-8aff-a06183e61e9c` · printing: STX #104 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grinning Totem
@@ -1180,6 +1196,7 @@ schema: 2
   - *2016-01-22* — Grip of the Roil tracks the creature, but not its controller. If the creature changes controllers before its first controller's next untap step has come around, then it won't untap during its new controller's next untap step.
   - *2016-01-22* — If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
   - *2016-01-22* — The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#grip-of-the-roil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/56/grip-of-the-roil) · oracle_id `c3c87292-2fc8-4759-b7b6-18a8b539b5d1` · printing: OGW #56 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Griptide
@@ -1210,6 +1227,7 @@ schema: 2
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2012-05-01* — You can’t activate Griselbrand’s ability if you have 6 or less life.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/G.md#griselbrand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/115/griselbrand) · oracle_id `f759d112-76db-4091-a22b-b9f19ab6fa5f` · printing: INR #115 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grishnákh, Brash Instigator
@@ -1259,6 +1277,7 @@ schema: 2
   > *To the Golgari, anything buried is treasure.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1386 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#grisly-salvage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/290/grisly-salvage) · oracle_id `a89ebf63-63c9-42cd-98b4-ec852cd9b0a8` · printing: TDC #290 (2025-04-11) · [rulings](https://api.scryfall.com/cards/12a90f7a-28df-4017-b221-0e9234ff74a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grisly Sigil
@@ -1339,6 +1358,7 @@ schema: 2
   - *2019-08-23* — Each Plant token is owned by the player who created it. You don't own them all.
   - *2019-08-23* — If Grismold is dealt lethal damage at the same time as a creature token, Grismold won't receive a counter from its ability in time to save it.
   - *2019-08-23* — In a multiplayer game, if a creature token dies at the same time its controller loses the game, Grismold's last ability triggers.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#grismold-the-dreadsower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/44/grismold-the-dreadsower) · oracle_id `d0d28e2c-416e-432c-b4bf-07f6302c52ea` · printing: C19 #44 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gristleback
@@ -1408,6 +1428,7 @@ schema: 2
   - *2021-06-18* — Grist's second loyalty ability doesn't require a target. If you choose to sacrifice a creature as it resolves, the reflexive triggered ability triggers and you'll choose a target creature or planeswalker to destroy. This will happen even if Grist isn't on the battlefield when the loyalty ability resolves.
   - *2021-06-18* — Grist, the Hunger Tide can be your commander as its first ability works before the game begins during deck construction.
   - *2021-06-18* — If Grist is no longer on the battlefield as its first loyalty ability resolves, you will still create a 1/1 black and green Insect creature token and mill a card. If an Insect card is milled this way, you won't be able to put a loyalty counter on Grist, but you will still repeat the process. More mill for the Grist, as it were.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#grist-the-hunger-tide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/220/grist-the-hunger-tide) · oracle_id `0efb0d7e-dea0-4817-a243-15066e9ef333` · printing: DSC #220 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grist, Voracious Larva // Grist, the Plague Swarm
@@ -1439,6 +1460,7 @@ schema: 2
   - *2024-06-07* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
   - *2024-06-07* — The tokens are Insects instead of their other creature types, and they're black and green instead of their other colors. These are copiable values of the tokens that other effects may copy.
   - *2024-06-07* — You can activate one of Grist, the Plague Swarm's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if Grist, the Plague Swarm enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#grist-voracious-larva--grist-the-plague-swarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/251/grist-voracious-larva-grist-the-plague-swarm) · oracle_id `196f8f13-d4df-4740-8746-8fed3bc71840` · printing: MH3 #251 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grixis Battlemage
@@ -1511,6 +1533,7 @@ schema: 2
   > *There is no height above Grixis that is free from the stench of death.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6039 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#grixis-panorama)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/407/grixis-panorama) · oracle_id `743f4488-fef1-4f4d-b745-d2de92423e00` · printing: NCC #407 (2022-04-29) · [rulings](https://api.scryfall.com/cards/e49dd5f0-1afa-4301-acdb-28424e2553b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grixis Slavedriver
@@ -1651,6 +1674,7 @@ schema: 2
   > *—Jolrael, empress of beasts*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8110 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#grizzly-bears)
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/268/grizzly-bears) · oracle_id `14c8f55d-d177-4c25-a931-ebeb9e6062a0` · printing: 10E #268 (2007-07-13) · [rulings](https://api.scryfall.com/cards/409f9b88-f03e-40b6-9883-68c14c37c0de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grizzly Fate

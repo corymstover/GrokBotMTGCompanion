@@ -68,6 +68,7 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31348 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spock-logical-choice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/194/spock-logical-choice) · oracle_id `a877820f-8999-4dfe-a50d-09f63c885ce3` · printing: TRC #194 (2026-11-13) · [rulings](https://api.scryfall.com/cards/5a741052-e92d-4e9c-8cfa-3b5ed1f432f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spoils of Adventure
@@ -100,6 +101,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15469 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-11-07* — Use the number of creatures that died that turn as Spoils of Blood resolves to determine the value of X. In other words, creatures that die in response to Spoils of Blood will count.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spoils-of-blood)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/30/spoils-of-blood) · oracle_id `26516566-c837-428d-bc81-582c74da2c28` · printing: C14 #30 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spoils of Evil
@@ -149,6 +151,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
   - *2009-10-01* — Spoils of Victory allows you to search your library for any card with the land type Plains, Island, Swamp, Mountain, or Forest, not just a card with one of those names.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spoils-of-victory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/172/spoils-of-victory) · oracle_id `852bd598-6e48-43c8-9211-740ae9e0c42e` · printing: C13 #172 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spoils of War
@@ -254,6 +257,7 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spooky-clown-mox)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/10/spooky-clown-mox) · oracle_id `785e6563-51c4-4063-9ad9-0392954e135e` · printing: SUNF #10 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ecae5a63-8494-4454-889c-2a69b98254f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporeback Troll
@@ -377,6 +381,7 @@ schema: 2
   > *A progenitor of tadpoles and allergies in equal measure.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1147 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (3 decks · 1 edh guides) → [reverse index](../../references/S.md#spore-frog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/180/spore-frog) · oracle_id `97db6c39-e690-49b6-93a6-e51b8dfad10b` · printing: MH1 #180 (2019-06-14) · [rulings](https://api.scryfall.com/cards/6d42fd52-34ea-4d1b-80dc-58fb0593bb5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporemound
@@ -455,6 +460,7 @@ schema: 2
   - *2022-10-07* — If a permanent spell with ravenous is copied, the copy will have the same value for X, and the token permanent that the spell becomes as it enters the battlefield will enter with X counters.
   - *2022-10-07* — If another permanent enters the battlefield as a copy of a creature with Ravenous, it will not enter with any counters from the ravenous ability.
   - *2022-10-07* — The triggered ability that checks to see if X is 5 or greater refers to the value of X that was chosen as the spell was cast, which may be different from the number of counters it entered with if there are replacement effects involved. This is also true for any other ability that it has which refers to X and triggers when it enters the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#sporocyst)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/98/sporocyst) · oracle_id `ed58a617-cf86-4c2e-8044-1af37b1a1465` · printing: 40K #98 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporogenesis
@@ -499,6 +505,7 @@ schema: 2
 - **Rulings** (2):
   - *2007-05-01* — All creatures you control gain the ability, regardless of whether they have spore counters on them, which means for example, they would lose the bonus from Muraganda Petroglyphs.
   - *2007-05-01* — Your other creatures that produce spore counters (such as Thallids) can create a Saproling by removing two spore counters (by using this ability) or by removing three spore counters (by using their own ability).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sporoloth-ancient)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/232/sporoloth-ancient) · oracle_id `071e15b5-6d21-4695-9ad0-69f40eb8f4ef` · printing: TSR #232 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spotcycle Scouter

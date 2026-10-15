@@ -54,6 +54,7 @@ schema: 2
   > *Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1395 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (3 decks · 1 edh guides) → [reverse index](../../references/C.md#coiling-oracle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/172/coiling-oracle) · oracle_id `69fd4ddf-9ed8-4c56-bef3-9944daf05e4f` · printing: RVR #172 (2024-01-12) · [rulings](https://api.scryfall.com/cards/559ff1b1-018c-4e08-9531-8af20af47d05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coiling Rebirth
@@ -78,6 +79,7 @@ schema: 2
   - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren’t promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won’t be able to choose targets for an enters ability of that permanent once the spell resolves.
   - *2024-07-26* — The token created by the additional effect of Coiling Rebirth isn’t “cast,” so abilities that trigger when a creature spell is cast won’t trigger for the copy.
   - *2024-07-26* — You can’t pay a gift cost more than once.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#coiling-rebirth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/86/coiling-rebirth) · oracle_id `27a91ebd-39f4-432d-b6cc-cd86b4a3979a` · printing: BLB #86 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coiling Stalker
@@ -127,6 +129,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27608 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#coils-of-the-medusa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/65/coils-of-the-medusa) · oracle_id `02a8a4e6-2081-4903-81ad-96e5a949dff8` · printing: WTH #65 (1997-06-09) · [rulings](https://api.scryfall.com/cards/502bfb38-4a37-4053-af20-d5606ffc67c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coin of Fate

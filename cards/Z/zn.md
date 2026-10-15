@@ -46,6 +46,7 @@ schema: 2
   - *2018-06-08* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
   - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
   - *2018-07-13* — If an effect has a player flip a coin and refers to winning or losing a flip, only the player who flipped the coin wins or loses the flip. If that player loses the flip, nobody wins the flip.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/Z.md#zndrsplt-eye-of-wisdom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/5/zndrsplt-eye-of-wisdom) · oracle_id `502849a6-8e65-40f3-b348-a41c4f939768` · printing: BBD #5 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zndrsplt's Judgment

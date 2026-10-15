@@ -38,6 +38,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-09-25* — The power of the target creature and the number of Warriors you control are checked only as Goma Fada Vanguard's ability is put onto the stack and as that ability resolves. If the creature's power becomes greater after the ability has resolved, it still can't block.
   - *2020-09-25* — The target creature is restricted from blocking anything, not just Goma Fada Vanguard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#goma-fada-vanguard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/141/goma-fada-vanguard) · oracle_id `74027d31-6efb-471d-9499-cdb1cefc9eae` · printing: ZNR #141 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gomazoa

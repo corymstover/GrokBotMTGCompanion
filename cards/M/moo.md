@@ -100,6 +100,7 @@ schema: 2
   > *—Locke Cole*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4353 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moogles-valor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/27/moogles-valor) · oracle_id `9627ed9a-5ade-412d-bf8d-f0705b1c9405` · printing: FIN #27 (2025-06-13) · [rulings](https://api.scryfall.com/cards/caa838a7-60a9-4791-af5b-194f7574c4c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonblade Shinobi
@@ -119,6 +120,7 @@ schema: 2
   - *2019-06-14* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature’s controller chooses which player or planeswalker it’s attacking.
   - *2019-06-14* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. If you wait until after the declare blockers step, because all combat damage is dealt at once, the Ninja won’t normally deal combat damage.
   - *2019-06-14* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/M.md#moonblade-shinobi)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/59/moonblade-shinobi) · oracle_id `046e25ee-c96d-4cff-93be-f7e3379d713c` · printing: MH1 #59 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moon-Blessed Cleric
@@ -181,6 +183,7 @@ schema: 2
   - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
   - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
   - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/M.md#moon-circuit-hacker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/67/moon-circuit-hacker) · oracle_id `7cd8b017-8d59-4b55-bb9a-8d8e492ef1ac` · printing: NEO #67 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moon-Eating Dog
@@ -332,6 +335,7 @@ schema: 2
   > *At every fifth full moon, the Moon Market convenes to peddle Ravnica's most forbidden wares.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16066 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moonlight-bargain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/114/moonlight-bargain) · oracle_id `444dea65-9be7-4b64-afd1-eebe44b285be` · printing: C18 #114 (2018-08-10) · [rulings](https://api.scryfall.com/cards/662097e6-355f-4192-9fa7-4b8c22346a64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonlight Geist
@@ -517,6 +521,7 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8177 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moonshadow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/110/moonshadow) · oracle_id `a3635b3f-839c-4fe5-83a5-7c70e8630184` · printing: ECL #110 (2026-01-23) · [rulings](https://api.scryfall.com/cards/2573e694-eaa0-42ca-b470-2ab507cbcec1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonshae Pixie // Pixie Dust
@@ -543,6 +548,7 @@ schema: 2
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
   - *2024-04-12* — If an opponent was dealt combat damage this turn and subsequently lost the game, Moonshae Pixie's second ability still counts that player when determining how many cards its controller should draw.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moonshae-pixie--pixie-dust)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/84/moonshae-pixie-pixie-dust) · oracle_id `89f1aefd-feb6-45ce-a992-707d027714e7` · printing: CLB #84 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonshaker Cavalry
@@ -560,6 +566,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — Moonshaker Cavalry's triggered ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't be affected.
   - *2023-09-01* — The value of X is determined only as Moonshaker Cavalry's triggered ability resolves, potentially including Moonshaker Cavalry itself. It won't change later in the turn if the number of creatures you control changes.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moonshaker-cavalry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/110/moonshaker-cavalry) · oracle_id `b3f16f34-d78c-4b61-821b-05fc6bd0da37` · printing: SOC #110 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonsilver Key
@@ -574,6 +581,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-09-24* — Most mana abilities found on artifacts are activated mana abilities. An activated mana ability is an activated ability that could produce mana as it resolves, does not require a target, and isn't a loyalty ability.
   - *2021-09-24* — Some artifacts, such as Gauntlet of Power, have triggered mana abilities. A triggered mana ability is a triggered ability that could produce mana as it resolves, triggers on the resolution of an activated mana ability or on mana being added, and doesn't require a target.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/M.md#moonsilver-key)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/255/moonsilver-key) · oracle_id `373395b2-f04b-46c9-b9f4-4f6815b71009` · printing: MID #255 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonsilver Spear
@@ -587,6 +595,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6805 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moonsilver-spear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/212/moonsilver-spear) · oracle_id `d99bcf62-db93-40db-8844-3d0af0756a0c` · printing: AFC #212 (2021-07-23) · [rulings](https://api.scryfall.com/cards/a4ace878-6d15-4276-9bfb-2f23667c6d7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonsnare Prototype
@@ -622,6 +631,7 @@ schema: 2
   - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
   - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
   - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#moonsnare-specialist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/70/moonsnare-specialist) · oracle_id `ba858b68-ae93-4e1c-8a3a-3e4ac97282e8` · printing: NEO #70 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moon Sprite
@@ -686,6 +696,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10954 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#moonstone-harsh-mistress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/107/moonstone-harsh-mistress) · oracle_id `aeeb50f2-8e02-4d40-a1dd-28b1c5c85c7e` · printing: MSH #107 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1a1b2bd0-e17d-4b34-a8ee-7c913a6bc945/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonveil Dragon
@@ -827,6 +838,7 @@ schema: 2
   > {W}{U}, {T}, Exile a creature card from your graveyard: Create a 1/1 white Spirit creature token with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8830 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moorland-haunt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/175/moorland-haunt) · oracle_id `5324192b-6687-41e4-8e56-326b21a5dbf3` · printing: VOC #175 (2021-11-19) · [rulings](https://api.scryfall.com/cards/74deeeaa-95e9-42c9-89e3-e317ea63e216/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moorland Inquisitor

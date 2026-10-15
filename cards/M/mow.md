@@ -36,4 +36,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8282 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-05-03* — Because Mowu's replacement effect affects only Mowu, it will apply if Mowu somehow enters the battlefield with one or more +1/+1 counters on it and give Mowu an additional +1/+1 counter.
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/M.md#mowu-loyal-companion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/306/mowu-loyal-companion) · oracle_id `34ceb733-0329-4c1b-8d75-25c34fd4400f` · printing: CMM #306 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

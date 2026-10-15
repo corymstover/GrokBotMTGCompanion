@@ -215,6 +215,7 @@ schema: 2
   - *2019-10-04* — Escape to the Wilds doesn't change when you can play the exiled cards. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty. If you exile a land card, you can play it only during your main phase and only if you have an available land play remaining.
   - *2019-10-04* — If you don't play a card exiled this way, it remains in exile.
   - *2019-10-04* — The additional land that you play doesn't have to be from among the exiled cards.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/E.md#escape-to-the-wilds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/115/escape-to-the-wilds) · oracle_id `45a8c126-5396-4736-a37e-460a50706a98` · printing: EOC #115 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Escape Tunnel
@@ -233,6 +234,7 @@ schema: 2
   - *2024-02-02* — Once a creature with power 2 or less has been blocked, Escape Tunnel's last ability won't cause it to become unblocked.
   - *2026-01-27* — If the target creature's power is increased to 3 or greater after Escape Tunnel's last ability is activated but before it resolves, the ability doesn't resolve. However, if instead the creature's power is increased to 3 or greater after the ability resolves, it still can't be blocked that turn.
   - *2026-01-27* — Once a creature with power 2 or less has been blocked, Escape Tunnel's last ability won't cause it to become unblocked.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#escape-tunnel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/184/escape-tunnel) · oracle_id `0056fc91-4398-471c-b561-7ff99750ac8a` · printing: TMT #184 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Escape Velocity
@@ -270,6 +272,7 @@ schema: 2
 - **Keywords:** Reach, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14404 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#escarpment-fortress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/278/escarpment-fortress) · oracle_id `5c3f45cb-d2f0-4dac-b124-18e8f6d7e2dc` · printing: ACR #278 (2024-07-05) · [rulings](https://api.scryfall.com/cards/c11c9e60-fc14-48fe-bca9-b74f82301835/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Esgaroth Garrison
@@ -345,6 +348,7 @@ schema: 2
   - *2021-02-05* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
   - *2021-02-05* — While resolving the triggered ability of The Prismatic Bridge, if there are no creature or planeswalker cards in your library, you'll simply reveal your entire library, randomize it, and continue playing.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/E.md#esika-god-of-the-tree--the-prismatic-bridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/168/esika-god-of-the-tree-the-prismatic-bridge) · oracle_id `92023a5d-a143-4950-a71b-d736e6b8e959` · printing: KHM #168 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Esika's Chariot
@@ -363,6 +367,7 @@ schema: 2
   - *2021-02-05* — If the original token is an Aura, the token you create is put onto the battlefield without being cast. The Aura's controller-to-be chooses what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If an Aura token can't legally be attached to anything, it isn't created.
   - *2021-02-05* — If the original token is copying something else, the token you create will use the copiable values of the original token. In most cases, it will be a copy of whatever the original token is copying. If it's copying a permanent or card with {X} in its mana cost, X is 0.
   - *2021-02-05* — The token you create copies the original characteristics of the token it's copying as stated by the effect that created that token. The newly created token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it, whether it has any Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on. Notably, the token you create won't be attacking, even if the original token is.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/E.md#esikas-chariot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/169/esikas-chariot) · oracle_id `8e7b079d-9ede-421c-bd2b-f9a5126a8e6f` · printing: KHM #169 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Esior, Wardwing Familiar
@@ -420,6 +425,7 @@ schema: 2
   - *2024-04-12* — If the copied artifact was a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token.
   - *2024-04-12* — If the copied artifact was copying something else when it was last on the battlefield, then the token enters the battlefield as whatever that artifact copied.
   - *2024-04-12* — The token copies exactly what was printed on the original artifact and nothing else (unless that artifact was copying something else or was a token; see below). It doesn’t copy whether that artifact was tapped or untapped, whether it had any counters on it or Auras and Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/E.md#esoteric-duplicator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/big/5/esoteric-duplicator) · oracle_id `0752fe67-9b8a-42c0-90e3-087d426b2f3b` · printing: BIG #5 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Esper Battlemage
@@ -451,6 +457,7 @@ schema: 2
   - *2008-10-01* — If this spell is copied, the copy will have the same mode as the original.
   - *2008-10-01* — While the spell is on the stack, treat it as though its only text is the chosen mode. The other two modes are treated as though they don’t exist. You don’t choose targets for those modes.
   - *2008-10-01* — You can choose a mode only if you can choose legal targets for that mode. If you can’t choose legal targets for any of the modes, you can’t cast the spell.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#esper-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/179/esper-charm) · oracle_id `d40ea3d9-8c48-4846-b1f4-99018d4fd789` · printing: C18 #179 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Esper Cormorants
@@ -505,6 +512,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 4 pages (3 edh guides · 1 card data) → [reverse index](../../references/E.md#esper-origins--summon-esper-maduin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/185/esper-origins-summon:-esper-maduin) · oracle_id `947b40a2-e272-4ef6-85fb-3d767a21bc7a` · printing: FIN #185 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Esper Panorama
@@ -518,6 +526,7 @@ schema: 2
   > *Esper is an expansive canvas painted by precise, controlling hands.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6292 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#esper-panorama)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/399/esper-panorama) · oracle_id `6b9cd3d0-4316-4945-b960-12f51052d260` · printing: NCC #399 (2022-04-29) · [rulings](https://api.scryfall.com/cards/b89070ab-4fe6-4919-b160-b32100fb4930/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Esper Sentinel
@@ -534,6 +543,7 @@ schema: 2
   - *2021-06-18* — If Esper Sentinel's has negative power when this ability resolves, then {X} is {0}. The opponent may still choose not to pay the cost if they want you to draw a card.
   - *2021-06-18* — If a noncreature spell was already cast by an opponent the turn Esper Sentinel enters the battlefield, that opponent already cast their first noncreature spell this turn, and Esper Sentinel's ability won't trigger for that opponent that turn.
   - *2021-06-18* — This ability checks Esper Sentinel's power when it resolves, not when the ability goes on the stack. If Esper Sentinel is no longer on the battlefield when it resolves, use the power it had the last time it was on the battlefield.
+- **Referenced in:** 9 pages (4 decks · 4 edh guides · 1 card data) → [reverse index](../../references/E.md#esper-sentinel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/12/esper-sentinel) · oracle_id `5def9f38-0a0b-4e8d-9f9d-29dcb46520b4` · printing: MH2 #12 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Esper Sojourners
@@ -667,6 +677,7 @@ schema: 2
   > *Witherbloom believed in life and death's intricate balance. Hexhaven was drawn to their unpredictable power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28829 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#essence-burn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/82/essence-burn) · oracle_id `f1216f36-00fd-4d03-85c1-f4910a02d4d0` · printing: FRA #82 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d2e958de-70de-4156-8f9b-b2c0c1ba704a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Essence Capture
@@ -805,6 +816,7 @@ schema: 2
   - *2016-04-08* — Essence Flux checks whether the creature is a Spirit after it has returned from exile.
   - *2016-04-08* — If a creature token is exiled, it ceases to exist. It won’t be returned to the battlefield.
   - *2016-04-08* — If a double-faced card is exiled, it will return with its front face up.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/E.md#essence-flux)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/64/essence-flux) · oracle_id `64824ae5-efab-4b55-9d3c-b9c690bad857` · printing: INR #64 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Essence Fracture
@@ -862,6 +874,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9602 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — Essenceknit Scholar's last ability will check as your end step starts to see if a creature died under your control this turn. If none did, the ability won't trigger at all. It's not possible to cause a creature to die during your end step in time to have the ability trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#essenceknit-scholar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/187/essenceknit-scholar) · oracle_id `dd757328-0593-4fc7-a099-e82f5c0677ff` · printing: SOS #187 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Essence Leak
@@ -980,6 +993,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2645 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — A "creature spell" is any spell with the card type creature, even if it has other types such as artifact or enchantment.
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/E.md#essence-scatter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/47/essence-scatter) · oracle_id `46665089-aa3d-44c3-964d-6638dfbb5782` · printing: SOS #47 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Essence Sliver
@@ -1038,6 +1052,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1143 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-01-24* — If this creature enters at the same time as one or more other creatures, its ability will trigger for each of those other creatures. 
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#essence-warden)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/106/essence-warden) · oracle_id `6ca2a89e-7032-4864-b4e9-66f3178f90ab` · printing: CMA #106 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Establishing Shot
@@ -1083,6 +1098,7 @@ schema: 2
   - *2018-07-13* — If the chosen enchantment is copying something else (for example, if the chosen enchantment is another Estrid's Invocation), then Estrid's Invocation enters the battlefield as whatever the chosen enchantment copied.
   - *2018-07-13* — If the copied enchantment has {X} in its mana cost, X is considered to be 0.
   - *2018-07-13* — Once Estrid's Invocation returns, it's considered a new object with no relation to the object that it was. You must choose an enchantment that's currently on the battlefield to copy (or to not copy anything). Auras that were attached to it will be put into their owners' graveyards. Any counters that were on it cease to exist.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/E.md#estrids-invocation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/269/estrids-invocation) · oracle_id `7f5f10ee-6428-4053-8824-3bc70420ec2c` · printing: MH3 #269 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Estrid, the Masked
@@ -1116,6 +1132,7 @@ schema: 2
   - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
   - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
   - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/E.md#estrid-the-masked)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/40/estrid-the-masked) · oracle_id `7cf1fa2e-1572-4d9d-8e93-e49016b34458` · printing: C18 #40 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Estwald Shieldbasher

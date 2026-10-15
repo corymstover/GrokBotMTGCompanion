@@ -157,6 +157,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #814 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2018-07-13* — Sai's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 10 pages (5 decks · 3 edh guides · 2 card data) → [reverse index](../../references/S.md#sai-master-thopterist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/118/sai-master-thopterist) · oracle_id `52241b9c-7a69-4176-9234-8bdab09d8e64` · printing: CMM #118 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saint Traft and Rem Karolus
@@ -171,6 +172,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — If it’s the fourth or subsequent time the first ability has resolved in a turn, nothing happens.
   - *2023-04-14* — The last ability of Saint Traft and Rem Karolus will trigger whether you tapped any creatures to pay for the spell or not, as long as it has convoke.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#saint-traft-and-rem-karolus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/9/saint-traft-and-rem-karolus) · oracle_id `3a1be8b3-16e2-4fae-bea7-3a98f2f9db38` · printing: MOC #9 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sai of the Shinobi

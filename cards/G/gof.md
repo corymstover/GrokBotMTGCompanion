@@ -65,4 +65,5 @@ schema: 2
 - **Rulings** (2):
   - *2011-06-01* — If the targeted creature is also an artifact when Go for the Throat tries to resolve, it won't resolve.
   - *2022-10-14* — If the targeted creature is also an artifact when Go for the Throat tries to resolve, it won't resolve.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#go-for-the-throat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/250/go-for-the-throat) · oracle_id `2f092562-9e17-43cd-aeb8-d0567f99363e` · printing: MOC #250 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -67,6 +67,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20692 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-10-01* — The targeted opponent has two options: Let you have the three revealed cards or let you have five unknown cards. Note that if the opponent goes with the first option, you put cards into your hand rather than draw them (in case something like Hoofprints of the Stag cares about that), but if the opponent goes with the second option, you actually draw cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#covenant-of-minds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/105/covenant-of-minds) · oracle_id `3edac7df-2a88-4718-865e-703dff9c972e` · printing: CN2 #105 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cover of Darkness
@@ -78,6 +79,7 @@ schema: 2
   > Creatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1487 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/C.md#cover-of-darkness)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/133/cover-of-darkness) · oracle_id `d78654fc-7d90-40ce-9c36-a211424d1a88` · printing: ONS #133 (2002-10-07) · [rulings](https://api.scryfall.com/cards/0d6d7d88-d82b-40f4-bf57-ec5d7c480689/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cover of Winter
@@ -170,6 +172,7 @@ schema: 2
   - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
   - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
   - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#covert-technician)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/49/covert-technician) · oracle_id `b713ee3a-b6cd-4cd7-b403-f0bbc683ea99` · printing: NEO #49 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coveted Falcon
@@ -214,6 +217,7 @@ schema: 2
   - *2018-07-13* — Coveted Jewel's last ability resolves after blockers are chosen but before combat damage is dealt.
   - *2018-07-13* — Coveted Jewel's last ability triggers after you declare blockers (or declare no blockers at all) if any attacking creatures are unblocked. It doesn't matter if some attacking creatures were blocked.
   - *2018-07-13* — If more than one opponent attacks you at the same time, Coveted Jewel's last ability triggers for each of them. You choose which player ends up with Coveted Jewel, but each of them draws three cards and has a chance to activate its mana ability.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#coveted-jewel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/196/coveted-jewel) · oracle_id `98492d7d-3b9e-4ae1-ac45-1b508d6d2670` · printing: MSC #196 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coveted Peacock

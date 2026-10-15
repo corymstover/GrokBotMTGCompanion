@@ -180,6 +180,7 @@ schema: 2
   - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#tuinvale-treefolk--oaken-boon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/180/tuinvale-treefolk-oaken-boon) · oracle_id `09193c40-538c-4154-a671-076eece35e54` · printing: ELD #180 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tukatongue Thallid
@@ -252,6 +253,7 @@ schema: 2
 - **Rulings** (2):
   - *2010-03-01* — A token permanent that’s destroyed is put into its owner’s graveyard before it ceases to exist. If a token is destroyed by Tuktuk Scrapper’s ability, Tuktuk Scrapper deals damage to that token’s controller.
   - *2013-07-01* — If the targeted artifact hass indestructible or regenerates (or you choose not to destroy it), Tuktuk Scrapper doesn’t deal damage to that artifact’s controller. Similarly, if the targeted artifact is destroyed but a replacement effect moves it to a different zone instead of its owner’s graveyard, Tuktuk Scrapper doesn’t deal damage to that artifact’s controller.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tuktuk-scrapper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wwk/94/tuktuk-scrapper) · oracle_id `85cf2403-b419-4364-8ac9-67dd1ceddf9e` · printing: WWK #94 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuktuk the Explorer
@@ -268,6 +270,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15273 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2010-06-15* — Both Tuktuk the Explorer and Tuktuk the Returned are legendary creatures. However, since they have different names, one of each may coexist without being affected by the “legend rule.”
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tuktuk-the-explorer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/149/tuktuk-the-explorer) · oracle_id `754e227b-ff31-4b5c-b612-2221c2b44246` · printing: 2XM #149 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tumble Magnet
@@ -302,6 +305,7 @@ schema: 2
   - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
   - *2024-04-12* — The value of X is determined only once, as Tumbleweed Rising resolves. If you don’t control any creatures at that time, you’ll create a 0/0 Elemental token, which will likely immediately die unless something else is raising its toughness.
   - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#tumbleweed-rising)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/187/tumbleweed-rising) · oracle_id `ef574346-1d98-447d-acb6-4d8d53c5f651` · printing: OTJ #187 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tundra
@@ -314,6 +318,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
   - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Referenced in:** 5 pages (3 edh guides · 2 card data) → [reverse index](../../references/T.md#tundra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/322/tundra) · oracle_id `02418479-9455-417f-a6a1-004356faff37` · printing: VMA #322 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tundra Fumarole
@@ -366,6 +371,7 @@ schema: 2
   - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tundra-tank)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/121/tundra-tank) · oracle_id `2ded4b02-7aa4-46a1-b10f-8480eb942cd4` · printing: TLA #121 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tundra Wall
@@ -420,6 +426,7 @@ schema: 2
   > *"But we're not most people," Pia replied.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11120 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tune-up)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/33/tune-up) · oracle_id `aaa14260-2537-4668-8517-c825118777cc` · printing: DFT #33 (2025-02-14) · [rulings](https://api.scryfall.com/cards/f8bddc5f-8f25-4313-b5bb-e5eae2923878/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tunnel
@@ -488,6 +495,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32333 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-07* — If either you or the chosen opponent controls no creatures, the other player still chooses a creature they control. You can exile that creature and return it to the battlefield under its owner’s control at the beginning of the next end step. If you don’t exile it, nothing happens. It won’t fight anything.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tunnel-of-love)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/234a/tunnel-of-love) · oracle_id `e6dd25bd-8017-4691-86ba-466c68d9fd8a` · printing: UNF #234a (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tunnel Rats
@@ -841,6 +849,7 @@ schema: 2
   - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
   - *2026-01-27* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#turncoat-kunoichi)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/26/turncoat-kunoichi) · oracle_id `0f35cf85-6783-4d69-b5e6-a81f7c1f21e7` · printing: TMT #26 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn Inside Out
@@ -1086,6 +1095,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-12-07* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
   - *2018-12-07* — Once the exiled creature returns, it’s considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners’ graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#turn-to-mist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/214/turn-to-mist) · oracle_id `631f04d6-5693-4414-a378-fd839c3b6f6d` · printing: CLU #214 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn to Slag
@@ -1264,6 +1274,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15074 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-01-27* — To double the number of +1/+1 counters on a creature, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#turtle-van)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/181/turtle-van) · oracle_id `aeb9a2e6-ad11-4e2c-81d0-caf279d31ece` · printing: TMT #181 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tusk and Whiskers
@@ -1278,6 +1289,7 @@ schema: 2
   > *Weighing in at a combined thirteen thousand pounds and two ounces.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28648 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tusk-and-whiskers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/182/tusk-and-whiskers) · oracle_id `de45de7e-5bba-4612-8bb7-755710d93ecf` · printing: UNF #182 (2022-10-07) · [rulings](https://api.scryfall.com/cards/903168f6-c195-47af-bdf7-b5748108d2a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tusked Colossodon
@@ -1330,6 +1342,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — Several creatures with outlast also grant an ability to creatures you control with +1/+1 counters on them, including themselves. These counters could come from an outlast ability, but any +1/+1 counter on the creature will count.
   - *2014-09-20* — The cost to activate a creature's outlast ability includes the tap symbol ({T}). A creature's outlast ability can't be activated unless that creature has been under your control continuously since the beginning of your turn.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#tuskguard-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/328/tuskguard-captain) · oracle_id `aa149597-087a-4e1f-953c-2cd04e90a93b` · printing: CMM #328 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuvasa the Sunlit
@@ -1346,6 +1359,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-07-13* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to Tuvasa may become lethal if some of your enchantments leave the battlefield during that turn.
   - *2018-07-13* — Tuvasa's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tuvasa-the-sunlit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/47/tuvasa-the-sunlit) · oracle_id `6a83d976-8087-48d7-b6f5-63efb8329e99` · printing: C18 #47 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuya Bearclaw

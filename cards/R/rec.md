@@ -141,6 +141,7 @@ schema: 2
   > *—Teachings of Eight-and-a-Half-Tails*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18815 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reciprocate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddg/24/reciprocate) · oracle_id `ebdd29c0-2c33-4410-a05c-80ced58c7b81` · printing: DDG #24 (2011-04-01) · [rulings](https://api.scryfall.com/cards/0440701b-8df5-4125-8e06-f29f91acba2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Abandon
@@ -212,6 +213,7 @@ schema: 2
   > *The best defense is not even knowing what the word "defense" means.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3521 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reckless-barbarian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/193/reckless-barbarian) · oracle_id `a621ae15-122a-4e11-bfcf-11dfc09784c0` · printing: CLB #193 (2022-06-10) · [rulings](https://api.scryfall.com/cards/c912e984-1d27-4da2-9733-d56e437bcf58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Blaze
@@ -224,6 +226,7 @@ schema: 2
   > *Aang learned the hard way not to play with fire.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12263 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reckless-blaze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/124/reckless-blaze) · oracle_id `75137acb-dc8e-439b-8d84-c5cf682ff6bc` · printing: TLE #124 (2025-11-21) · [rulings](https://api.scryfall.com/cards/82c686f9-b403-4ab2-af5d-cf586e18ecf5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Brute
@@ -259,6 +262,7 @@ schema: 2
   - *2016-01-22* — For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
   - *2016-01-22* — If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
   - *2016-01-22* — The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#reckless-bushwhacker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/116/reckless-bushwhacker) · oracle_id `4fb83127-00cf-4ce7-aedf-cb0b2740c66f` · printing: OGW #116 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Charge
@@ -308,6 +312,7 @@ schema: 2
   - *2021-02-05* — All Equipment you decide to attach to tokens become attached at the same time.
   - *2021-02-05* — Count the number of Vehicles and Equipment you control as Reckless Crew resolves to determine how many Dwarf Berserkers to create.
   - *2021-02-05* — You can’t have more than one Equipment become attached to the same token.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reckless-crew)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/146/reckless-crew) · oracle_id `ced584a8-7548-4b4e-8ccf-04b66d255539` · printing: KHM #146 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Detective
@@ -371,6 +376,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #668 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-09-20* — In a Two-Headed Giant game, Reckless Fireweaver's ability causes 2 damage total to be dealt to the opposing team.
+- **Referenced in:** 8 pages (5 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#reckless-fireweaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/126/reckless-fireweaver) · oracle_id `180e1a7e-890d-477c-80a5-da8a5f2857b3` · printing: KLD #126 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Handling
@@ -385,6 +391,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-05-12* — You can't do anything between putting the artifact card you found in your hand and discarding. You may end up discarding that card. But hey, if you do, 2 damage!
   - *2023-05-12* — You discard a card at random even if you didn't find an artifact card in your library.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reckless-handling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/19/reckless-handling) · oracle_id `f1ea7dc5-01cb-4780-947c-08ea9324c52f` · printing: MAT #19 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Imp
@@ -417,6 +424,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2128 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-11-19* — You must still pay all costs to cast those spells and follow normal casting permissions. For example, if one of the exiled cards is a sorcery, this effect doesn't allow you to cast it during an opponent's turn.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/R.md#reckless-impulse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/168/reckless-impulse) · oracle_id `584cf0fd-112a-4ca6-9c0e-1f3228a7d325` · printing: TRK #168 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Lackey
@@ -474,6 +482,7 @@ schema: 2
   > *—Jiang Yanggu's travelogue*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31687 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reckless-pangolin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/26/reckless-pangolin) · oracle_id `1f384f19-7fb4-4120-8001-5b401b4debbd` · printing: GS1 #26 (2018-06-22) · [rulings](https://api.scryfall.com/cards/4662c681-fcc9-4fc8-a598-b068208132fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Pyrosurfer
@@ -521,6 +530,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — If either target is an illegal target as Reckless Rage resolves, the other will still be dealt damage.
   - *2018-01-19* — You can’t cast Reckless Rage unless you choose both a creature you control and a creature you don’t control as targets.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#reckless-rage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/110/reckless-rage) · oracle_id `d7e2b2ba-cb5e-41f1-ad33-baf56c0b72ed` · printing: RIX #110 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Ransacking
@@ -535,6 +545,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6558 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-11-17* — If the target creature is an illegal target as Reckless Ransacking tries to resolve, it won't resolve and none of its effects will happen. You won't create a Treasure token.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#reckless-ransacking)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/152/reckless-ransacking) · oracle_id `ebcd198e-7fbd-46e0-a6d9-ff499e541978` · printing: ECL #152 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Reveler
@@ -669,6 +680,7 @@ schema: 2
 - **Keywords:** Treasure, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3799 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/R.md#reckoner-bankbuster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/255/reckoner-bankbuster) · oracle_id `b6be94dc-7162-4887-b959-3bda709724eb` · printing: NEO #255 (2022-02-18) · [rulings](https://api.scryfall.com/cards/279acd17-6c17-427b-a69d-fc02442ff4a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckoner's Bargain
@@ -682,6 +694,7 @@ schema: 2
   > *Restricted auctions are held once a year at the Dragon's Lair—the sacred, neutral meeting ground of all Reckoner gangs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3865 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#reckoners-bargain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/120/reckoners-bargain) · oracle_id `044ea111-ce87-49ab-98f7-ae8447f48ac5` · printing: NEO #120 (2022-02-18) · [rulings](https://api.scryfall.com/cards/6338942d-d650-4571-8ec6-4d658792c53e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckoner Shakedown
@@ -709,6 +722,7 @@ schema: 2
   > *The wise pay as much attention to what they throw away as to what they keep.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5038 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reclaim)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/195/reclaim) · oracle_id `797155cd-faf4-4321-8629-c8c352392748` · printing: ORI #195 (2015-07-17) · [rulings](https://api.scryfall.com/cards/88f3c600-66f1-4a5e-ba4f-61e9f7f7a1d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reclaiming Vines
@@ -766,6 +780,7 @@ schema: 2
   > *"What was once formed by masons, shaped by smiths, or given life by mages, I will return to the embrace of the earth."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #332 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 9 pages (7 decks · 1 edh guides · 1 card data) → [reverse index](../../references/R.md#reclamation-sage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/231/reclamation-sage) · oracle_id `032ec6e2-6cc3-4a97-9cc7-3233f5e11904` · printing: FDN #231 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1918ea65-ab7f-4d40-97fd-a656c892a2a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reclusive Artificer
@@ -822,6 +837,7 @@ schema: 2
   > *Anything sent into a plagued world is bound to come back infected.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17113 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#recoil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/197/recoil) · oracle_id `1579bf86-4400-4467-88e8-1c5ba1209804` · printing: DMR #197 (2023-01-13) · [rulings](https://api.scryfall.com/cards/9035dda8-5ad3-4169-b281-83d6ca55b71e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Recollect
@@ -867,6 +883,7 @@ schema: 2
   - *2024-03-08* — Some spells and abilities that cause you to proliferate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't proliferate.
   - *2024-03-08* — You can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2024-03-08* — You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#recon-craft-theta)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/141/recon-craft-theta) · oracle_id `8fba247e-9849-4a06-84ff-242894b0503a` · printing: PIP #141 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reconnaissance
@@ -880,6 +897,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #891 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Does not undo any effects which triggered on declaration of attackers or blockers.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reconnaissance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/17/reconnaissance) · oracle_id `32599d7c-243b-447b-9d5d-e8e29830ac61` · printing: EXO #17 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reconnaissance Mission
@@ -896,6 +914,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #906 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-04-17* — Reconnaissance Mission's triggered ability triggers for each creature you control that deals combat damage to a player. You may draw one card each time the ability resolves, no matter how much damage was dealt.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/R.md#reconnaissance-mission)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/153/reconnaissance-mission) · oracle_id `11bf211c-95a3-4e7f-bd08-13f979d54e73` · printing: MSC #153 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reconstructed Thopter
@@ -993,6 +1012,7 @@ schema: 2
   > *—Gurezan, Legion resurrectionist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14359 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#recover)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/84/recover) · oracle_id `f4361602-63da-430b-adbb-36d74e987aa6` · printing: RIX #84 (2018-01-19) · [rulings](https://api.scryfall.com/cards/f2f4e0a8-7af7-4422-a964-c19503692ba6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Recross the Paths
@@ -1022,6 +1042,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1169 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-06-07* — If a creature card has "*" in its toughness, the ability that defines its toughness works in all zones. For example, if Nethergoyf is in your library, its toughness is determined by the ability "Nethergoyf's power is equal to the number of card types among cards in your graveyard and its toughness is equal to that number plus 1." If your graveyard consists of an artifact card, a creature card, and an instant card, you won't be able to find Nethergoyf with Recruiter of the Guard since Nethergoyf's toughness will be 4.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/R.md#recruiter-of-the-guard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/266/recruiter-of-the-guard) · oracle_id `d521a329-a53a-4962-810a-2abed80df260` · printing: MH3 #266 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Recruitment Drive
@@ -1129,6 +1150,7 @@ schema: 2
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2013-04-15* — If you cast this as normal during your main phase, it will enter the battlefield and you’ll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/R.md#recurring-nightmare)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/113/recurring-nightmare) · oracle_id `a6708b11-1bcd-4208-a967-fe91f2e3313c` · printing: TPR #113 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Recursive Recruitment
@@ -1161,6 +1183,7 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-11-12* — A permanent with a keyword counter on it gains that keyword. To determine how this interacts with continuous effects, use the counter’s timestamp. The timestamp of a counter is the most recent time that any counter of that kind was put onto that permanent.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#recycla-bird)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/28/recycla-bird) · oracle_id `3a8c92a9-22fe-4d03-b3fd-d9a699ad60a8` · printing: CMB2 #28 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Recycle

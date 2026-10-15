@@ -64,6 +64,7 @@ schema: 2
   - *2025-10-02* — If an effect instructs your opponent to draw multiple cards, the ability triggers after they draw whichever is the second one for the turn. It goes on the stack after they've drawn and looked at all the cards and finished resolving the spell or ability that caused them to draw cards.
   - *2025-10-02* — The last ability can trigger only once each turn for each opponent. It doesn't matter whether The Unagi of Kyoshi Island was on the battlefield when the first card was drawn. If it's not on the battlefield when the second card is drawn, the ability can't trigger at all that turn. It won't trigger when the third or fourth card is drawn.
   - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/T.md#the-unagi-of-kyoshi-island)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/77/the-unagi-of-kyoshi-island) · oracle_id `be922360-ee9f-4cfb-bf10-d481c5de5cb1` · printing: TLA #77 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Unbeatable Squirrel Girl
@@ -79,6 +80,7 @@ schema: 2
 - **Keywords:** I LOVE Squirrels!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6096 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-unbeatable-squirrel-girl)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/193/the-unbeatable-squirrel-girl) · oracle_id `80312910-5d53-44f1-9982-e46dc7532abb` · printing: MSH #193 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d8b94ebb-0b3a-4e68-8c0c-3a61ac32f3ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Underworld Cookbook
@@ -156,6 +158,7 @@ schema: 2
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20016 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-unspeakable)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dds/13/the-unspeakable) · oracle_id `64e413c9-96e5-43c3-a182-84d53fef4327` · printing: DDS #13 (2017-03-31) · [rulings](https://api.scryfall.com/cards/e956c695-bf0a-430c-a14e-196ae6ab7c9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ur-Dragon
@@ -174,6 +177,7 @@ schema: 2
   - *2017-08-25* — The Ur-Dragon’s triggered ability resolves after all attackers have been chosen. You can’t attack with some Dragons, put a creature card with haste onto the battlefield, and then attack with that creature. Similarly, any “whenever a creature attacks” abilities of the permanent card you put onto the battlefield won’t trigger.
   - *2017-08-25* — You draw one card for each Dragon you controlled that attacked, even if some of them left the battlefield before The Ur-Dragon’s triggered ability resolves.
   - *2017-08-25* — You may only put one permanent card from your hand onto the battlefield, no matter how many Dragons you attacked with or how many players they attacked.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/T.md#the-ur-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/361/the-ur-dragon) · oracle_id `87b22b09-4f6d-4bc5-9cfc-663e4c7c6981` · printing: CMM #361 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ur-Sphinx

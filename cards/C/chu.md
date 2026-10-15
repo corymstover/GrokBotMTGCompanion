@@ -57,6 +57,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — Chulane's triggered ability doesn't count as playing a land. It can put a land card onto the battlefield even if you've already played your land for the turn, and even if it's not your turn.
   - *2019-10-04* — Chulane's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 7 pages (2 decks · 5 edh guides) → [reverse index](../../references/C.md#chulane-teller-of-tales)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/202/chulane-teller-of-tales) · oracle_id `ebf7ce9b-9e5e-4557-9e28-76556997f0ee` · printing: MKC #202 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chupacabra Echo

@@ -255,6 +255,7 @@ schema: 2
   - *2024-02-02* — An instant or sorcery spell with deathtouch must actually deal damage to a creature for it to be destroyed. If the spell instructs another object to deal damage (for example, Hard-Hitting Question), the spell doesn't deal any damage itself and its instance of deathtouch doesn't apply. Dealing 0 damage isn't dealing damage.
   - *2024-02-02* — Judith, Carnage Connoisseur's triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
   - *2024-02-02* — Similarly, an instant or sorcery spell with lifelink must actually deal damage in order to cause its controller to gain life. If the spell instructs another object to deal damage, its controller won't gain life when that damage is dealt.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/J.md#judith-carnage-connoisseur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/210/judith-carnage-connoisseur) · oracle_id `e86c965b-ac10-4fff-b682-dddd6d9747c6` · printing: MKM #210 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Judith, the Scourge Diva
@@ -326,6 +327,7 @@ schema: 2
   - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
   - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
   - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jugan-defends-the-temple--remnant-of-the-rising-star)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/194/jugan-defends-the-temple-remnant-of-the-rising-star) · oracle_id `e70ac420-8540-4a69-820f-ae3e0274ca1a` · printing: NEO #194 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jugan, the Rising Star
@@ -378,6 +380,7 @@ schema: 2
   - *2022-10-07* — Counters are also items that Juggletron can't juggle. They're not part of the art, and Juggletron just can't get a grasp on them. 
   - *2022-10-07* — If you put name, ability, or power and toughness stickers in Juggletron's art, they'll do what they're supposed to do as stickers, but they aren't items Juggletron can juggle.
   - *2022-10-07* — In order to count toward Juggletron's power bonus, a sticker must be completely within Juggletron's art, such that no part of the sticker is touching the frame, another sticker, or Juggletron itself. This includes the entire sticker, including the white border.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#juggletron)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/113/juggletron) · oracle_id `d1f06087-d9b9-4d07-bbc5-8ad4a262bb84` · printing: UNF #113 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Juju Bubble
@@ -454,6 +457,7 @@ schema: 2
   > *"The Order of Jukai accepts only the strongest of body and spirit. I will train until I meet their expectations."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27296 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jukai-trainee)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/196/jukai-trainee) · oracle_id `cb9fa34d-1d5f-461c-acad-bc573d41ceb2` · printing: NEO #196 (2022-02-18) · [rulings](https://api.scryfall.com/cards/8be526cd-1480-4661-a05b-e004d7b4656c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jumbo Cactuar
@@ -468,6 +472,7 @@ schema: 2
 - **Keywords:** 10,000 Needles
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2918 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jumbo-cactuar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/191/jumbo-cactuar) · oracle_id `e0bdfbb4-3060-4492-bd9b-0c47e719400a` · printing: FIN #191 (2025-06-13) · [rulings](https://api.scryfall.com/cards/db01c222-8795-47e9-a789-e7f749a3ee7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jumbo Imp
@@ -586,6 +591,7 @@ schema: 2
   > *The sky is the dragon's throne, the seat from which it issues its fiery decrees.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5252 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/J.md#jund-panorama)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/408/jund-panorama) · oracle_id `f39f33ac-074d-442d-ae4c-1d694ee315f3` · printing: NCC #408 (2022-04-29) · [rulings](https://api.scryfall.com/cards/50d8346a-e0b5-41eb-be89-7d1eb0e84f28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jund Sojourners
@@ -703,6 +709,7 @@ schema: 2
   > *Long-standing disagreements between the Sultai and Abzan about how to honor their dead have led to rare but fierce skirmishes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #798 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/J.md#jungle-hollow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/258/jungle-hollow) · oracle_id `6de714e1-446d-4fb9-9e3d-bcd3ec6af9ca` · printing: TDM #258 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ea13440b-3f7b-4182-9541-27c1fa3121e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jungle Lion
@@ -741,6 +748,7 @@ schema: 2
   > *On Naya, ambition and treachery are scarce, hunted nearly to extinction by the awe owed to terrestrial gods.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #324 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 3 edh guides) → [reverse index](../../references/J.md#jungle-shrine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/154/jungle-shrine) · oracle_id `2e69537c-c898-4e13-a72d-ce3957a90304` · printing: ECC #154 (2026-01-23) · [rulings](https://api.scryfall.com/cards/0b1a84b6-4202-4413-80ed-4142c51e619a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jungle Troll
@@ -878,6 +886,7 @@ schema: 2
 - **Keywords:** Flying, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1228 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/J.md#junji-the-midnight-sky)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/183/junji-the-midnight-sky) · oracle_id `78a48f4e-ba4c-4d8d-938a-9ddb342a885b` · printing: TDC #183 (2025-04-11) · [rulings](https://api.scryfall.com/cards/e9ff50c0-915e-4055-a595-3df6be8f1e1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Junkblade Bruiser
@@ -911,6 +920,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1976 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/J.md#junk-diver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/293/junk-diver) · oracle_id `08c595da-9305-42a9-b72f-5ccc546edc01` · printing: MH3 #293 (2024-06-14) · [rulings](https://api.scryfall.com/cards/6b5d53cb-bf80-43b0-b839-b11a64ff4c1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Junk Golem
@@ -1054,6 +1064,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — For Juri's second ability, use its power from when it was last on the battlefield to determine how much damage is dealt. If that power was 0 or less, Juri deals no damage.
   - *2020-11-10* — Juri's first ability doesn't allow you to sacrifice any permanents. You'll have to find another way to do that.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/J.md#juri-master-of-the-revue)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/119/juri-master-of-the-revue) · oracle_id `3364bad6-6d0a-4141-b410-86e3d9e1916e` · printing: EOC #119 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jurin, Leading the Charge
@@ -1068,6 +1079,7 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16061 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jurin-leading-the-charge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/27/jurin-leading-the-charge) · oracle_id `de384867-8bb4-4edf-b542-970538718fdd` · printing: SLX #27 (2025-04-25) · [rulings](https://api.scryfall.com/cards/867b4e3d-e175-4d6b-868a-87b3d6f61b07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jushi Apprentice // Tomoya the Revealer
@@ -1143,6 +1155,7 @@ schema: 2
   > *—Firemane Kavrova*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11606 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/J.md#justice-strike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/182/justice-strike) · oracle_id `bc63e7ca-e62a-4026-803d-eecdbbedf3c6` · printing: GRN #182 (2018-10-05) · [rulings](https://api.scryfall.com/cards/27619ce9-59df-4f0e-a5db-2d32a530e547/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Justice, Vance Astrovik
@@ -1157,6 +1170,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22380 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#justice-vance-astrovik)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/61/justice-vance-astrovik) · oracle_id `184dba74-63ed-4820-9174-68adf26bfabf` · printing: MSH #61 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f1448731-d50e-4b9c-8eb2-3d85c21516c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Justiciar's Portal

@@ -57,6 +57,7 @@ schema: 2
   - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
   - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#ian-chesterton)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/22/ian-chesterton) · oracle_id `32c9ce8c-a19d-49e4-bc6d-c7182fa00b51` · printing: WHO #22 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ian Malcolm, Chaotician

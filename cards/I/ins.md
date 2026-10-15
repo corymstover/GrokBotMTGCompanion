@@ -133,6 +133,7 @@ schema: 2
   - *2024-04-12* — You can’t choose the same mode more than once.
   - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
   - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#insatiable-avarice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/91/insatiable-avarice) · oracle_id `ad3e705f-da57-4eff-84d7-2072522de988` · printing: OTJ #91 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Insatiable Frugivore
@@ -225,6 +226,7 @@ schema: 2
 - **Keywords:** Menace, Void
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16810 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#insatiable-skittermaw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/108/insatiable-skittermaw) · oracle_id `69a68dec-4b01-4528-81fc-a3c5f5097f72` · printing: EOE #108 (2025-08-01) · [rulings](https://api.scryfall.com/cards/e9d30cca-ea33-418f-bba3-5103f1dbd751/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Insatiable Souleater
@@ -301,6 +303,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inscription-of-insight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/61/inscription-of-insight) · oracle_id `1551fe97-437e-4e89-a0d2-c398cb2155e4` · printing: ZNR #61 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inscription of Ruin
@@ -458,6 +461,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-02-02* — If multiple creature cards leave your graveyard at the same time, Insidious Roots's last ability will trigger only once.
   - *2024-02-02* — In the rare case where Insidious Roots is a creature token, it will grant itself the ability "{T}: Add one mana of any color."
+- **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/I.md#insidious-roots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/208/insidious-roots) · oracle_id `d75b2b8e-05c9-47da-b359-a867256d78ea` · printing: MKM #208 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Insidious Will
@@ -483,6 +487,7 @@ schema: 2
   - *2016-09-20* — The copy is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger.
   - *2016-09-20* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2016-09-20* — The third mode can copy any instant or sorcery spell, not just one with targets.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#insidious-will)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/52/insidious-will) · oracle_id `8088d110-2314-45c3-b6ee-3f55d1f388e4` · printing: KLD #52 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Insight
@@ -602,6 +607,7 @@ schema: 2
   - *2019-11-12* — If you choose a keyword that usually takes a modifier, such as costs for abilities like cycling or numbers for abilities like crew, don’t include any such modifiers. For example, if you write “cycling,” all spells you cast with a cycling ability cost {1} less, no matter what their cycling costs are.
   - *2019-11-12* — Once you’ve written a word for a word-blank legacy ability, you can’t change it, even between games. It remains part of that physical card
   - *2019-11-12* — To choose a keyword ability, you may select any keyword ability (such as flying, hexproof, or legacy) but not a keyword action (such as destroy, populate, or scry).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inspirational-antelope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/78/inspirational-antelope) · oracle_id `494e6cf9-6824-462e-a737-a320503595ed` · printing: CMB2 #78 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspiration from Beyond
@@ -853,6 +859,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-11-17* — Creatures you control that have +1/+1 counters put on them after Inspiring Call resolves won't gain indestructible.
   - *2017-11-17* — Once a creature gains indestructible, it will have it for the turn, even if it loses all its +1/+1 counters.
+- **Referenced in:** 5 pages (1 decks · 3 edh guides · 1 card data) → [reverse index](../../references/I.md#inspiring-call)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/168/inspiring-call) · oracle_id `9b9a10ff-5a5d-4df8-88aa-18d84ff9117c` · printing: TLE #168 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspiring Captain
@@ -903,6 +910,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#inspiring-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/28/inspiring-leader) · oracle_id `d46dcc75-55ff-4226-a392-a49755d269d2` · printing: CLB #28 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspiring Overseer
@@ -918,6 +926,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1650 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/I.md#inspiring-overseer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/736/inspiring-overseer) · oracle_id `d646e42b-5635-4798-b633-29c093b66a55` · printing: FDN #736 (2026-04-24) · [rulings](https://api.scryfall.com/cards/79016cf3-6eea-4b21-9ff3-f187d606e19a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspiring Paladin
@@ -994,6 +1003,7 @@ schema: 2
   - *2017-02-09* — Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
   - *2017-02-09* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
   - *2017-02-09* — When using improvise to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap artifacts you control to help pay that cost. For example, if you cast Whir of Invention (a spell with improvise and mana cost {X}{U}{U}{U}) and choose X to be 3, the total cost is {3}{U}{U}{U}. If you tap two artifacts, you'll have to pay {1}{U}{U}{U}.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inspiring-statuary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/230/inspiring-statuary) · oracle_id `78b2b68d-6e27-49f3-8373-6e19faf6f679` · printing: MKC #230 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspiring Unicorn
@@ -1020,6 +1030,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-09-20* — If one of these lands enters the battlefield at the same time as one or more other lands (due to Oblivion Sower or Warp World, perhaps), it doesn't take those lands into consideration when determining how many other lands you control.
   - *2016-09-20* — If one of these lands is your first, second, or third land, it enters the battlefield untapped. If you control three or more other lands, however, it enters the battlefield tapped.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#inspiring-vantage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/269/inspiring-vantage) · oracle_id `3f17c60e-923a-4392-9da8-87d9ded009b7` · printing: OTJ #269 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspiring Veteran
@@ -1063,6 +1074,7 @@ schema: 2
   - *2025-04-04* — If a noncreature permanent is instructed to endure, the effect is the same. You can put +1/+1 counters on that permanent or create a Spirit token.
   - *2025-04-04* — If you can’t put +1/+1 counters on the creature for any reason as an endure ability resolves (for example, if the creature is no longer on the battlefield), you’ll just create a Spirit token.
   - *2025-04-04* — You choose whether to put +1/+1 counters on the creature or create a Spirit token as the ability that includes the endure instruction is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inspirited-vanguard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/146/inspirited-vanguard) · oracle_id `db756a16-3db6-4bde-bbc2-ecee3ee9d9d3` · printing: TDM #146 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspirit, Flagship Vessel
@@ -1078,6 +1090,7 @@ schema: 2
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3556 · Game Changer: no · Can be commander: Yes (legendary Spacecraft with P/T, CR 903.3)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#inspirit-flagship-vessel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/2/inspirit-flagship-vessel) · oracle_id `554df866-3dbb-4811-8573-6033481591aa` · printing: EOC #2 (2025-08-01) · [rulings](https://api.scryfall.com/cards/46900ec7-eb18-45c4-8e90-a48b665cfdee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Instant Ramen
@@ -1141,6 +1154,7 @@ schema: 2
   - *2004-10-04* — If attached to an opponent's creature, you can untap their creature during your turn.
   - *2004-10-04* — Instill Energy's untap ability will not untap the creature until it resolves. This means other spells and abilities can be used before it actually becomes untapped.
   - *2005-08-01* — Any Auras (or other effects) which are on the creature that would cause it to not be untapped (or have a cost to be untapped) during untap step do not in any way hinder or imply a cost to use this card's ability to untap once during the turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#instill-energy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/157/instill-energy) · oracle_id `8695c3c1-fb4b-4429-ae33-ec186f68796b` · printing: ME4 #157 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Instill Furor
@@ -1274,6 +1288,7 @@ schema: 2
   - *2017-04-18* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
   - *2017-04-18* — You can't cast Injury unless you target both a creature and a player. If one target is illegal as Injury resolves, the spell deals damage to the remaining legal target.
   - *2017-07-14* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/I.md#insult--injury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/213/insult-injury) · oracle_id `47543892-4d60-4c6b-a6a4-69b9172af01e` · printing: AKH #213 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Insurrection
@@ -1288,4 +1303,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1827 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — You untap all creatures, control all creatures, and give all creatures haste.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/I.md#insurrection)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/236/insurrection) · oracle_id `7f7c204f-be1a-47e4-91c6-ba6f906d9012` · printing: CMM #236 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

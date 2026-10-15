@@ -134,6 +134,7 @@ schema: 2
   - *2019-10-04* — In a Two-Headed Giant game, Cauldron Familiar's first ability causes the opposing team to lose 1 life twice, and you gain 1 life once.
   - *2019-10-04* — You can't activate Cauldron Familiar's last ability unless it's in your graveyard.
   - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#cauldron-familiar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/216/cauldron-familiar) · oracle_id `a7dc2e62-1c50-4ed7-b71f-2d782a447a5e` · printing: JMP #216 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cauldron Haze
@@ -168,6 +169,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-03-20* — Because targets are chosen before costs are paid, the target of Cauldron of Essence's last ability can't be the creature sacrificed to pay its cost.
   - *2026-03-20* — If one or more creatures you control die at the same time that Cauldron of Essence leaves the battlefield, its first ability triggers once for each of those creatures.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#cauldron-of-essence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/179/cauldron-of-essence) · oracle_id `a2f8cde8-bf7b-4234-89f0-a95f9dc937e3` · printing: SOS #179 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cauldron of Souls
@@ -186,6 +188,7 @@ schema: 2
   - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time.
   - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
   - *2013-06-07* — When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/C.md#cauldron-of-souls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/180/cauldron-of-souls) · oracle_id `5811d905-cae5-4f92-a78e-abb43f8864a7` · printing: CM2 #180 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cauldron's Gift

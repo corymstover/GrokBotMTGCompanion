@@ -85,6 +85,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-07-13* — If Spreading Flames has multiple targets, and some, but not all, are illegal targets when Spreading Flames tries to resolve, Spreading Flames will still deal damage to the remaining legal targets according to the original damage division. If all the targets are illegal, the spell won’t resolve.
   - *2016-07-13* — You announce how the damage will be divided as part of casting Spreading Flames. Each chosen target must receive at least 1 damage.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#spreading-flames)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/143/spreading-flames) · oracle_id `95bedd11-ed01-4cb1-bcdb-c5f9fdba8c79` · printing: EMN #143 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spreading Insurrection
@@ -145,6 +146,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12012 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — The enchanted land loses its existing land types and any abilities printed on it. It now has the land type Island and has the ability to tap to produce {U}. Spreading Seas doesn't change the enchanted land's name or whether it's legendary, basic, or snow.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#spreading-seas)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/70/spreading-seas) · oracle_id `af32757c-9d3c-4f6c-a6fa-d5729a440382` · printing: ZEN #70 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spread the Sickness
@@ -180,6 +182,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #782 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-06-14* — While resolving Springbloom Druid's triggered ability, you can't sacrifice multiple lands to search for more than two basic land cards.
+- **Referenced in:** 4 pages (2 decks · 2 edh guides) → [reverse index](../../references/S.md#springbloom-druid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/767/springbloom-druid) · oracle_id `788a4896-3414-40bf-b391-d2efea2fb5f9` · printing: FDN #767 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spring Cleaning
@@ -216,6 +219,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 4 pages (1 decks · 1 rules · 2 card data) → [reverse index](../../references/S.md#springheart-nantuko)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/171/springheart-nantuko) · oracle_id `8a3ad2ef-8bcb-40c0-85de-f03328c2b644` · printing: MH3 #171 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springing Tiger
@@ -274,6 +278,7 @@ schema: 2
   - *2008-08-01* — Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box.
   - *2008-08-01* — Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost.
   - *2008-08-01* — The effect counts the mana symbols in this cards mana cost as well.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#springjack-shepherd)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/15/springjack-shepherd) · oracle_id `325b3469-531e-4ca2-bccb-bb95258c1b54` · printing: EVE #15 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springjaw Trap
@@ -309,6 +314,7 @@ schema: 2
   - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
   - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
   - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spring-leaf-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/208/spring-leaf-avenger) · oracle_id `19797dd6-6f48-47bc-a9ac-84d4acad3fa5` · printing: NEO #208 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springleaf Drum
@@ -323,6 +329,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — You can tap a creature that hasn't been under your control since your most recent turn began to activate Springleaf Drum's ability.
   - *2025-11-17* — You can tap a creature that hasn't been under your control since your most recent turn began to activate Springleaf Drum's ability.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#springleaf-drum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/260/springleaf-drum) · oracle_id `bdeb440d-a714-40e8-9038-f651e6ae45fb` · printing: ECL #260 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springleaf Parade
@@ -337,6 +344,7 @@ schema: 2
   > *—Kithkin rite-leader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1802 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#springleaf-parade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/19/springleaf-parade) · oracle_id `b1305916-53cc-4021-897e-bbefc65dce78` · printing: ECC #19 (2026-01-23) · [rulings](https://api.scryfall.com/cards/44265489-645a-43b0-bc1f-726905b06876/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spring-Loaded Sawblades // Bladewheel Chariot
@@ -585,6 +593,7 @@ schema: 2
   - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
   - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sprouting-renewal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/157/sprouting-renewal) · oracle_id `674202f0-6832-4392-a118-d513162bcd03` · printing: RVR #157 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sprouting Thrinax
@@ -598,6 +607,7 @@ schema: 2
   > *The vast network of predation on Jund has actually caused some strange creatures to adapt to being eaten.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11980 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sprouting-thrinax)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/278/sprouting-thrinax) · oracle_id `ea74e89e-0724-4744-a6c9-e35c415624fb` · printing: 2X2 #278 (2022-07-08) · [rulings](https://api.scryfall.com/cards/41b05cf1-1bc2-43e1-b383-9cbb69517389/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sprouting Vines

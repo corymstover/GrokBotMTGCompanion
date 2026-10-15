@@ -197,6 +197,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-02-02* — To determine the number of differently named creature tokens you control, count each creature token you control once, but only if its English name isn't exactly the same as another creature token you've already counted this way.
   - *2024-02-02* — Unless a token is a copy of another permanent or was explicitly given a name by the effect that created it, its name is the subtypes it was given when it was created plus the word "Token." For example, the 0/1 green Plant creature token created by Audience with Trostani is named "Plant Token."
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#audience-with-trostani)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/152/audience-with-trostani) · oracle_id `cbbb5c0c-e953-410d-88c6-8fedb719e94c` · printing: MKM #152 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Auditore Ambush
@@ -299,6 +300,7 @@ schema: 2
   - *2021-09-24* — The top card of your library isn't in your hand, so you can't suspend it, cycle it, discard it, or activate any of its activated abilities.
   - *2021-09-24* — While you have three creatures with different powers, Augur of Autumn allows you to cast the top card of your library if it's a creature card, it's your main phase, and the stack is empty. If that creature card has flash, you'll be able to cast it any time you could cast an instant, even on an opponent's turn.
   - *2021-09-24* — You still pay all costs for that spell, including additional costs. You may also pay alternative costs.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#augur-of-autumn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/92/augur-of-autumn) · oracle_id `9e774188-caa1-4b62-b9cc-547f8e444b7f` · printing: EOC #92 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Augur of Bolas
@@ -390,6 +392,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-03-20* — As Augusta's last ability resolves, the player whose turn it is chooses a card to exile from their graveyard, then each other player in turn order does the same, then all of the chosen cards are exiled at the same time. Each player will know the choices made by the players who chose before them.
   - *2026-03-20* — You don't choose a target for Augusta's last ability at the time it triggers. Instead, a second "reflexive" ability triggers whenever one or more nonland cards are exiled this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#augusta-order-returned)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/11/augusta-order-returned) · oracle_id `a80a1f84-ea49-4c8d-912d-c7036b814a6c` · printing: SOC #11 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Auntie Ant, Ant Auntie
@@ -450,6 +453,7 @@ schema: 2
   - *2025-11-17* — If you can't place -1/-1 counters on any creatures you control (probably because you control no creatures), you can't choose to blight.
   - *2025-11-17* — Once you've announced that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to destroy or otherwise remove your creatures to stop you from blighting as part of paying the cost of that spell or ability.
   - *2025-11-17* — The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control.
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/A.md#auntie-ool-cursewretch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/2/auntie-ool-cursewretch) · oracle_id `e3cd53c1-86bd-4177-adb0-a1fa693b44c6` · printing: ECC #2 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Auntie's Hovel
@@ -463,6 +467,7 @@ schema: 2
   > *The Stinkdrinker warren's hill of salvaged trinkets is large enough to cut a door in.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10310 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aunties-hovel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/267/aunties-hovel) · oracle_id `245469ff-72b6-4846-8a82-a1d29f4d09bb` · printing: LRW #267 (2007-10-12) · [rulings](https://api.scryfall.com/cards/098685c9-cd85-4279-a3b5-b495485bba35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Auntie's Sentence
@@ -493,6 +498,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-04-01* — If a Goblin or Rogue you control deals combat damage to a player while Auntie's Snitch is in your graveyard, you can return Auntie's Snitch to your hand, then you can cast it for its prowl cost that turn.
   - *2008-04-01* — The last ability will trigger only if Auntie's Snitch is in your graveyard at the moment a Goblin or Rogue deals combat damage to a player. The ability will check again when it tries to resolve. If Auntie's Snitch hasn't left the graveyard by this time, you may return it to your hand.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#aunties-snitch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mma/72/aunties-snitch) · oracle_id `d2964a68-36d9-4b05-8f34-540969b410bf` · printing: MMA #72 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aunt May
@@ -506,6 +512,7 @@ schema: 2
   > *"I cooked your favorite breakfast, Petey—wheatcakes!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4946 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aunt-may)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/768/aunt-may) · oracle_id `bdb769b5-c861-4ec1-ad6b-e2a56ca05fd1` · printing: MSC #768 (2026-06-26) · [rulings](https://api.scryfall.com/cards/252c2564-c39d-476d-b7d0-43aee625fcaa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aura Barbs
@@ -532,6 +539,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — You don’t draw a card if this spell is countered or if the target is illegal on resolution.
   - *2004-10-04* — You still draw a card if the enchantment regenerates.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aura-blast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pls/1/aura-blast) · oracle_id `4e3c3bdc-667d-42ec-b960-159a39c53cb3` · printing: PLS #1 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aura Extraction
@@ -637,6 +645,7 @@ schema: 2
   > *"In memories, we can find our deepest reserves of strength."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4442 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/A.md#auramancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/97/auramancer) · oracle_id `bd5eb181-6a69-4dc2-93a0-fa000291bc3d` · printing: DSC #97 (2024-09-27) · [rulings](https://api.scryfall.com/cards/d0957032-6d98-4cac-889b-890e9bfe1f86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Auramancer's Guise
@@ -695,6 +704,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2201 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Aura of Silence affects all opponents in a multiplayer game.
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/A.md#aura-of-silence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c15/60/aura-of-silence) · oracle_id `e7faf8eb-e829-4109-8dfe-42865a23ba86` · printing: C15 #60 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aura Shards
@@ -707,6 +717,7 @@ schema: 2
   > *Gaea forged her soldiers into self-wielding weapons that struck down all impurities.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1061 · Game Changer: **yes** · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/A.md#aura-shards)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/182/aura-shards) · oracle_id `8d03d050-391c-4311-8c42-4ee632d40fdc` · printing: CMD #182 (2011-06-17) · [rulings](https://api.scryfall.com/cards/a6222cc6-996e-4b73-af87-e837bf1eb921/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aura Thief
@@ -768,6 +779,7 @@ schema: 2
   - *2018-10-05* — Mentor compares the power of the creature with mentor with that of the target creature at two different times: once as the triggered ability is put onto the stack, and once as the triggered ability resolves. If you wish to raise a creature’s power so its mentor ability can target a bigger creature, the last chance you have to do so is during the beginning of combat step.
   - *2018-10-05* — Once Aurelia’s last ability has resolved, the creature keeps whatever bonuses it got from that ability even if its colors change.
   - *2018-10-05* — The target creature gains trample and vigilance if it’s both red and white. It gets +2/+0 only once, even if it’s both red and white, and even if it’s neither red nor white.
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/A.md#aurelia-exemplar-of-justice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/164/aurelia-exemplar-of-justice) · oracle_id `2e1e0385-1537-4cb6-9d24-e4593d9a8f4a` · printing: RVR #164 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aurelia's Fury
@@ -781,6 +793,7 @@ schema: 2
   - *2013-01-24* — If Aurelia’s Fury has multiple targets, and some but not all of them are illegal targets when Aurelia’s Fury resolves, Aurelia’s Fury will still deal damage to the remaining legal targets according to the original damage division.
   - *2013-01-24* — If all of the targets are illegal when Aurelia’s Fury tries to resolve, it won’t resolve and none of its effects will happen. Nothing will be dealt damage.
   - *2013-01-24* — You announce the value of X and how the damage will be divided as part of casting Aurelia’s Fury. Each chosen target must receive at least 1 damage.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#aurelias-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/144/aurelias-fury) · oracle_id `ceaa0e02-2dec-412d-86aa-c1129fd0fb08` · printing: GTC #144 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aurelia's Vindicator
@@ -810,6 +823,7 @@ schema: 2
   - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
   - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#aurelias-vindicator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/4/aurelias-vindicator) · oracle_id `4f452ce7-1166-4810-afed-ea5e156a6f52` · printing: MKM #4 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aurelia, the Law Above
@@ -825,6 +839,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1795 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-02-02* — For both triggered abilities, it doesn't matter what happens to the attacking creatures in response. As long as a player attacked with at least the appropriate number of creatures, the effects of Aurelia's triggered abilities will still occur.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#aurelia-the-law-above)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/188/aurelia-the-law-above) · oracle_id `2a800427-ff8c-4b3c-baee-85211b70656d` · printing: MKM #188 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aurelia, the Warleader
@@ -841,6 +856,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #819 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — Aurelia's last ability doesn't give you any additional main phases. This means that you will move directly from the end of combat step of one combat phase to the beginning of combat step of the next one.
+- **Referenced in:** 7 pages (2 decks · 4 edh guides · 1 card data) → [reverse index](../../references/A.md#aurelia-the-warleader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/651/aurelia-the-warleader) · oracle_id `0f5a3a09-2f07-4774-9e0f-e99d9a444166` · printing: FDN #651 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aurification
@@ -883,6 +899,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3300 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-12-01* — Gaining life when a creature enters is optional.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#auriok-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/9/auriok-champion) · oracle_id `633fd158-19d0-4d97-a076-2ad897bbed19` · printing: IMA #9 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Auriok Edgewright
@@ -940,6 +957,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12317 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#auriok-salvagers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/6/auriok-salvagers) · oracle_id `db2f3a06-f75e-4689-b147-9820aebb30e2` · printing: 2XM #6 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Auriok Siege Sled
@@ -1193,6 +1211,7 @@ schema: 2
   - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/A.md#aurora-phoenix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/778/aurora-phoenix) · oracle_id `a98cc4d0-a322-4142-aee0-83f39b137616` · printing: CLB #778 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aurora Shifter
@@ -1242,6 +1261,7 @@ schema: 2
   > At the beginning of your upkeep, if you control twelve different creatures from the above list and don't control a Brushwagg, you win the game.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#auspicious-aquarium)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pf26/17/auspicious-aquarium) · oracle_id `dc1c7a16-be3c-43eb-afea-dbcafbbd56e1` · printing: PF26 #17 (2026-10-19) · [rulings](https://api.scryfall.com/cards/2647ed1a-53c0-4158-8de4-b8f99940a9c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Auspicious Arrival
@@ -1260,6 +1280,7 @@ schema: 2
   - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#auspicious-arrival)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/5/auspicious-arrival) · oracle_id `b25d5b06-44cf-42bc-90dd-3b238f702361` · printing: MKM #5 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Auspicious Starrix
@@ -1278,6 +1299,7 @@ schema: 2
   - *2020-04-17* — Auspicious Starrix’s effect doesn’t count as playing lands. It can put land cards onto the battlefield even if it’s not your turn or if you’ve already played your land for the turn.
   - *2020-04-17* — If an Aura is put onto the battlefield without being cast, the Aura’s controller-to-be chooses what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn’t target anything (so it could be attached to an opponent’s permanent with hexproof, for example), but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains in its current zone.
   - *2020-04-17* — If there are fewer than X permanent cards in your library, you exile your entire library and put the permanent cards in it onto the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#auspicious-starrix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/144/auspicious-starrix) · oracle_id `8432df19-dbf4-457b-8c0b-1f4b3a0a37d2` · printing: IKO #144 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Austere Command
@@ -1295,6 +1317,7 @@ schema: 2
   - *2020-11-10* — Each of the chosen modes happens sequentially. If a permanent has an ability that triggers whenever it or another permanent is destroyed, it will see permanents destroyed at the same time as it or before it, but not permanents destroyed by later modes.
   - *2020-11-10* — If a card is exiled "until" another permanent leaves the battlefield, the exiled card returns to the battlefield immediately after that permanent leaves the battlefield during Austere Command's resolution, and it may be destroyed by a later mode.
   - *2020-11-10* — If the first and last modes are chosen, an artifact creature with mana value 4 or greater will have to be regenerated twice to survive. This is because the modes happen sequentially, and the regeneration "shield" is used up by the first one. The same is true with any other combination of modes that covers one permanent twice.
+- **Referenced in:** 5 pages (1 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/A.md#austere-command)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/121/austere-command) · oracle_id `09cc8709-fe10-472a-b05c-e89f3523018d` · printing: MSC #121 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Autarch Mammoth
@@ -1327,6 +1350,7 @@ schema: 2
   > *Citizens are free to do as they wish, within the confines of the Consulate's laws.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #315 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#authority-of-the-consuls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/137/authority-of-the-consuls) · oracle_id `55f3c721-e13a-406e-bc8e-d6cdc91ac477` · printing: FDN #137 (2024-11-15) · [rulings](https://api.scryfall.com/cards/42ce2d7f-5924-47c0-b5ed-dacf9f9617a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Author of Shadows
@@ -1437,6 +1461,7 @@ schema: 2
   - *2024-03-08* — Some triggered abilities state that you “may pay” a certain amount of {E}. You can’t pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-03-08* — Some triggered abilities that state that you “may pay” a certain amount of {E} describe an effect that happens “If you do.” In that case, no player may take actions to try to stop the ability’s effect after you make your choice. If the payment is followed by the phrase “When you do,” then you’ll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-03-08* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#automated-assembly-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/10/automated-assembly-line) · oracle_id `6e24a5bd-0ce3-4dc1-98c6-60d527bfdcfd` · printing: PIP #10 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Automated Warfare System
@@ -1508,6 +1533,7 @@ schema: 2
   - *2023-10-13* — The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, or the controller of the planeswalker or protector of the battle the creature was attacking at the time it became an attacking creature this combat.
   - *2023-10-13* — The tokens all enter the battlefield at the same time.
   - *2023-10-13* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
+- **Referenced in:** 6 pages (4 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#auton-soldier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/36/auton-soldier) · oracle_id `94357494-4ccc-43d4-b2d4-351581cbf9b6` · printing: WHO #36 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Autumnal Gloom // Ancient of the Equinox

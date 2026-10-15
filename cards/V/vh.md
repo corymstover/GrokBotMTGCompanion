@@ -45,6 +45,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/V.md#vhal-candlekeep-researcher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/102/vhal-candlekeep-researcher) · oracle_id `7253e7d1-b1df-4637-bf64-850be7fa5188` · printing: CLB #102 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vhati il-Dal

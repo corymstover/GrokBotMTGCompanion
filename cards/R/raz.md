@@ -84,6 +84,7 @@ schema: 2
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1881 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#razaketh-the-foulblooded)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/181/razaketh-the-foulblooded) · oracle_id `136c9ecb-59b4-4ef6-bcb2-7b8d3df3ee75` · printing: CMM #181 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d6bb956d-0df6-4910-9320-55f2c5674d98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raze
@@ -125,6 +126,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22479 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-14* — "This spell can't be countered" means it can't be countered even by the ward keyword ability. The spell's controller may still pay the ward cost if it targets an artifact with ward, but Raze to the Ground won't be countered if they don't.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#raze-to-the-ground)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/149/raze-to-the-ground) · oracle_id `efe24eed-e1e2-4807-ae61-2e5be529ae3c` · printing: BRO #149 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razia, Boros Archangel
@@ -142,6 +144,7 @@ schema: 2
 - **Rulings** (2):
   - *2005-10-01* — If either target creature leaves the battlefield before damage is dealt, that damage won’t be redirected. It doesn’t matter if Razia leaves the battlefield.
   - *2005-10-01* — The 3 damage doesn’t have to be from the same source, and it doesn’t have to be all dealt at once. If only 2 damage is redirected, the next 1 damage will also be redirected.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#razia-boros-archangel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/92/razia-boros-archangel) · oracle_id `d830a136-6fb9-42e7-81f1-97e1d713ee82` · printing: HOP #92 (2009-09-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razia's Purification
@@ -261,6 +264,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — The value of X is calculated only once, as Razorfield Ripper's triggered ability resolves.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#razorfield-ripper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/42/razorfield-ripper) · oracle_id `ef842299-8a31-4793-9142-2bcd7a8b2fab` · printing: M3C #42 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorfield Thresher
@@ -446,6 +450,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #996 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — If a spell or ability causes an opponent to put cards into their hand without specifically using the word "draw," it's not a card drawn.
+- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#razorkin-needlehead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/153/razorkin-needlehead) · oracle_id `a78f981a-bf8a-42a4-b171-d655cc2cc1a2` · printing: DSK #153 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorlash Transmogrant
@@ -530,6 +535,7 @@ schema: 2
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1069 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#razortide-bridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/171/razortide-bridge) · oracle_id `6cb37ac1-dd11-4a8c-bca5-ef44d828059f` · printing: EOC #171 (2025-08-01) · [rulings](https://api.scryfall.com/cards/0bbd24cd-48f7-40d7-9741-f30108f04b84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razortip Whip
@@ -558,6 +564,7 @@ schema: 2
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18911 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#razortooth-rats)
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/158/razortooth-rats) · oracle_id `72e9a207-dad9-4c51-8040-e90a36bd35e6` · printing: 9ED #158 (2005-07-29) · [rulings](https://api.scryfall.com/cards/92750247-eba4-4810-a758-f943cd8a16b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razortrap Gorge

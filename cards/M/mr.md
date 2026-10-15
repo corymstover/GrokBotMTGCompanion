@@ -53,6 +53,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-03-08* — Some cards from other releases may instruct you to roll dice other than six-sided dice. Results of 4 or higher on those dice cause Mr. House's first ability to trigger.
   - *2024-03-08* — The die rolls caused by Mr. House's last ability have no inherent effect. Abilities that trigger whenever you roll dice or whenever you roll a certain result, such as Mr. House's first ability, will trigger as appropriate.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mr-house-president-and-ceo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/7/mr-house-president-and-ceo) · oracle_id `d4e54b48-956f-4467-8485-a5fdb44779fd` · printing: PIP #7 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mr. Monopoly, On the Go

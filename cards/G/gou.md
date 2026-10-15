@@ -65,4 +65,5 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gourmands-talent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/31/gourmands-talent) · oracle_id `e802bf11-d3c7-4aad-8e85-99b39ff50d70` · printing: BLC #31 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

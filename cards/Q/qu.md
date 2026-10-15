@@ -375,6 +375,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7416 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — The effect of Quandrix Charm's last mode will overwrite any previous effects that set the creature's power and toughness to specific values. Effects that otherwise modify the target creature's power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#quandrix-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/217/quandrix-charm) · oracle_id `f43e36ea-6bf5-45bd-a4ad-cc507ae45641` · printing: SOS #217 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quandrix Command
@@ -447,6 +448,7 @@ schema: 2
   - *2026-03-20* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half (as long as the resulting spell would have lesser mana value than the spell with cascade) but not both halves.
   - *2026-03-20* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2026-03-20* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/Q.md#quandrix-the-proof)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/218/quandrix-the-proof) · oracle_id `2cbccc46-bdef-4dfb-90a4-0278c5c8488a` · printing: SOS #218 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quantum Entanglement
@@ -479,6 +481,7 @@ schema: 2
   - *2023-10-13* — If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token.
   - *2023-10-13* — If the copied creature is copying something else (for example, if the copied creature is an Evil Twin), then the token enters the battlefield as whatever that creature copied.
   - *2023-10-13* — The token copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/Q.md#quantum-misalignment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/152/quantum-misalignment) · oracle_id `197582b9-4c86-41a3-ad0c-789a0db8e087` · printing: MSC #152 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quantum Reduction
@@ -613,6 +616,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-04-17* — If a creature you control with trample is unblocked, the full amount of combat damage it deals to the defending player is counted by Quartzwood Crasher's last ability.
   - *2020-04-17* — Quartzwood Crasher's second ability includes damage dealt by Quartzwood Crasher itself as long as it still has trample.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/Q.md#quartzwood-crasher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/281/quartzwood-crasher) · oracle_id `178a79e2-64fd-4777-95fe-98b7834a642a` · printing: LCC #281 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quarum Trench Gnomes
@@ -666,6 +670,7 @@ schema: 2
   - *2018-10-05* — If the copied creature is itself a token, the token created by Quasiduplicate copies the original characteristics of that token as stated by the effect that created it.
   - *2018-10-05* — The token copies exactly what is printed on the creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
   - *2018-10-05* — You must still follow any timing restrictions and permissions when casting a spell with jump-start, including those based on the card's type. For instance, you can cast a sorcery using jump-start only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/Q.md#quasiduplicate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/55/quasiduplicate) · oracle_id `76b709ae-5765-4b7a-99c9-89eade7c8cb8` · printing: RVR #55 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Queen Allenal of Ruadach
@@ -727,6 +732,7 @@ schema: 2
   - *2016-08-23* — If the triggered ability that causes the monarch to draw a card goes on the stack, and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
   - *2016-08-23* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward.
   - *2016-08-23* — The last ability of Queen Marchesa (long may she reign) checks to see if an opponent is the monarch as your upkeep begins. If no opponent is the monarch, Queen Marchesa's (long may she reign) ability won't trigger at all. Queen Marchesa's (long may she reign) ability will also check to see if an opponent is the monarch as it tries to resolve. If no opponent is the monarch at that time, Queen Marchesa's (long may she reign) ability will have no effect.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/Q.md#queen-marchesa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/239/queen-marchesa) · oracle_id `d7ac4be1-dcca-49b6-8ddb-d1b0e6cf2dcf` · printing: OTC #239 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Queen Mother Ramonda
@@ -741,6 +747,7 @@ schema: 2
   > *"T'Challa may not be of my blood, but he is my son. I will suffer no threats to his kingdom."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18101 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#queen-mother-ramonda)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/23/queen-mother-ramonda) · oracle_id `f5619a13-b229-4202-a217-bf6509706e77` · printing: MSC #23 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6b971f0b-42de-46bc-8e26-51eb5be447ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Queen of Ice // Rage of Winter
@@ -765,6 +772,7 @@ schema: 2
   - *2019-10-04* — Rage of Winter can target a creature that's already tapped. That creature won't untap during its controller's next untap step.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#queen-of-ice--rage-of-winter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/61/queen-of-ice-rage-of-winter) · oracle_id `f5511802-56fe-4922-83d2-ae723e1beab7` · printing: ELD #61 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Queen's Agent
@@ -916,6 +924,7 @@ schema: 2
   - *2010-03-01* — Controlling more than one Quest for Renewal with four or more quest counters on it is redundant. You can’t untap your permanents more than once in a single untap step.
   - *2010-03-01* — Creatures put onto the battlefield tapped don’t cause Quest for Renewal’s first ability to trigger.
   - *2010-03-01* — During another player’s untap step, effects that would otherwise cause your creatures to stay tapped don’t apply because they apply only during *your* untap step. For example, if you control a Quest for Renewal with four or more quest counters on it and a Deep-Slumber Titan (a creature that says “Deep-Slumber Titan doesn’t untap during your untap step”), you untap Deep-Slumber Titan during each other player’s untap step.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#quest-for-renewal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wwk/110/quest-for-renewal) · oracle_id `cba4ab80-09e8-4868-a082-a9a3bade9571` · printing: WWK #110 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quest for the Gemblades
@@ -955,6 +964,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17551 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Quest for the Gravelord’s first ability triggers regardless of who controlled the creature and whose graveyard it was put into.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#quest-for-the-gravelord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/156/quest-for-the-gravelord) · oracle_id `c5f92560-dc82-4bd2-ae6b-4c3942d458b7` · printing: BBD #156 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quest for the Holy Relic
@@ -1029,6 +1039,7 @@ schema: 2
   - *2019-10-04* — Once a creature with power 3 or greater has blocked this creature, changing the power of the blocking creature won't cause this creature to become unblocked.
   - *2019-10-04* — Questing Beast only stops combat damage from being prevented by effects that specifically use the word “prevent.”
   - *2019-10-04* — The damage Questing Beast deals to the target planeswalker as its last ability resolves isn't combat damage.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/Q.md#questing-beast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/171/questing-beast) · oracle_id `b685757b-521e-4353-a233-97052359723d` · printing: ELD #171 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Questing Cosplayer
@@ -1051,6 +1062,7 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — Questing Beast’s abilities are as follows: “Vigilance, deathtouch, haste . . .” You know what? It has a lot of abilities, so instead of typing them all out here, I’ll remind you that you can see its official text by using the Gatherer card database at Gatherer.Wizards.com.
   - *2024-11-08* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#questing-cosplayer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/583/questing-cosplayer) · oracle_id `1cf823e6-ef87-4aea-9166-70ed5d351f28` · printing: MB2 #583 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Questing Druid // Seek the Beast
@@ -1077,6 +1089,7 @@ schema: 2
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
   - *2023-09-01* — You pay all costs and follow all normal timing rules for cards played from exile with Seek the Beast. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#questing-druid--seek-the-beast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/234/questing-druid-seek-the-beast) · oracle_id `555df32f-f8e9-49af-bc4a-1194ea325a97` · printing: WOE #234 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Questing Phelddagrif
@@ -1090,6 +1103,7 @@ schema: 2
   > {U}: This creature gains flying until end of turn. Target opponent may draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17444 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#questing-phelddagrif)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pls/119/questing-phelddagrif) · oracle_id `97f3afdb-dcee-44da-b210-c8d20030baff` · printing: PLS #119 (2001-02-05) · [rulings](https://api.scryfall.com/cards/cea4cfef-6736-42a5-9f3e-10de8d0cd8d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Questionable Cuisine
@@ -1137,6 +1151,7 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-11-12* — While Queue of Beetles is on the battlefield, if both players pass priority, the bottom object of the stack resolves rather than the top object of the stack. Other than that, there are no changes to how priority or the stack works.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#queue-of-beetles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/61/queue-of-beetles) · oracle_id `e11a4bcf-9086-40b3-add5-177424306472` · printing: CMB2 #61 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Queza, Augur of Agonies
@@ -1150,6 +1165,7 @@ schema: 2
   > *Some try to unravel the tangled skeins of fate. She reweaves them to her own deadly design.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4568 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/Q.md#queza-augur-of-agonies)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/212/queza-augur-of-agonies) · oracle_id `c983338d-ae6b-4a15-9931-daa20fca8269` · printing: SNC #212 (2022-04-29) · [rulings](https://api.scryfall.com/cards/7edb7a26-82be-4efd-9a5c-a3816e1ee2d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quickbeam, Upstart Ent
@@ -1237,6 +1253,7 @@ schema: 2
   - *2006-02-01* — If you cast multiple Quickens on the same turn, they'll all apply to the very next sorcery spell you cast.
   - *2006-02-01* — You don't choose a sorcery card when Quicken resolves. Rather, this sets up a rule that is true for you until the turn ends or until you cast a sorcery card, even if you cast that sorcery at a time you normally could.
   - *2006-09-25* — After Quicken resolves, you can Suspend a sorcery in your hand any time you can cast an instant. As soon as you actually cast a sorcery, you lose this capability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/Q.md#quicken)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/57/quicken) · oracle_id `cf188dd3-1927-481b-b8c0-93b1222dbf53` · printing: RVR #57 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quickening Licid
@@ -1266,6 +1283,7 @@ schema: 2
 - **Keywords:** Open an Attraction, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13810 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#quick-fixer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/85/quick-fixer) · oracle_id `a4f50771-4a10-4d5d-a7c4-0e24c873a0ae` · printing: UNF #85 (2022-10-07) · [rulings](https://api.scryfall.com/cards/a78c8da1-7220-4fbf-b672-547af59d2490/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quickling
@@ -1350,6 +1368,7 @@ schema: 2
 - **Keywords:** Power-up, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14594 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/Q.md#quicksilver-brash-blur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/148/quicksilver-brash-blur) · oracle_id `b76ce131-e51a-445e-8216-00df5904ab93` · printing: MSH #148 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2d5819ca-165d-4f4c-9500-3ac206994880/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quicksilver Dagger
@@ -1399,6 +1418,7 @@ schema: 2
   - *2004-12-01* — Quicksilver Elemental has a rather tricky interaction with Leonin Bola. You can actually unattach your opponent's Bola as part of the cost of activating the Elemental-copied ability.
   - *2004-12-01* — The granted abilities effectively use "this permanent," rather than "[that card's name]," so you treat the abilities as if they were printed on Quicksilver Elemental. For example, you treat an ability that says "Sacrifice a creature: Nantuko Husk gets +2/+2 until end of turn" as "Sacrifice a creature: Quicksilver Elemental gets +2/+2 until end of turn."
   - *2016-06-08* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/Q.md#quicksilver-elemental)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/47/quicksilver-elemental) · oracle_id `c88e3aff-c539-4e8b-8ee1-a43b3d0962b4` · printing: MRD #47 (2003-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quicksilver Fisher
@@ -1477,6 +1497,7 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28935 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#quicksilver-pietro-maximoff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/551/quicksilver-pietro-maximoff) · oracle_id `c5c1fb0f-b9cf-48a0-a4ea-e995e222e4b4` · printing: MSC #551 (2026-06-26) · [rulings](https://api.scryfall.com/cards/95ced506-c1a4-4742-9f13-3a261f5a08da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quicksilver, Speedster
@@ -1573,6 +1594,7 @@ schema: 2
   - *2017-02-09* — If Quicksmith Spy leaves the battlefield, you no longer control it.
   - *2017-02-09* — If Quicksmith Spy or the artifact leaves the battlefield while the card-drawing ability is on the stack, that ability resolves as normal.
   - *2017-02-09* — If another player gains control of Quicksmith Spy, the artifact will no longer have the card-drawing ability, even if you regain control of Quicksmith Spy.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/Q.md#quicksmith-spy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/41/quicksmith-spy) · oracle_id `54250029-1bd7-4caf-a839-9497607ce725` · printing: AER #41 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quick-Stick Lick Trick
@@ -1679,6 +1701,7 @@ schema: 2
   - *2008-10-01* — If multiple Quietus Spikes trigger at the same time, that player loses half their life when the first ability resolves, then loses half of the remainder when the next ability resolves, and so on. The player does not lose the same amount each time.
   - *2008-10-01* — That player loses half their life after combat damage has been subtracted from the player's life total. The amount of life the player loses is determined as the triggered ability resolves.
   - *2010-06-15* — In a Two-Headed Giant game, after combat damage is dealt, Quietus Spike looks at that player's life total (which is the same as the team's life total) when determining how much life the team will lose, which basically means the team's life total is halved. Here's an example of the math: The team has 19 life, so the player has 19 life. Quietus Spike causes the team to lose 10 life (19 divided by 2, rounded up). The team's life total becomes 9 (19 minus 10).
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/Q.md#quietus-spike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/377/quietus-spike) · oracle_id `0ff0a309-9b4a-4f9e-9ea6-c4d07906ebec` · printing: NCC #377 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quill-Blade Laureate // Twofold Intent
@@ -1840,6 +1863,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — The additional Frog token won't have any abilities the other tokens were created with. Anything else specified in the effect creating the token (such as tapped or "Exile that token at end of combat") applies to both the original tokens and the Frog.
   - *2025-06-06* — You don't need to control the spell or ability that creates the tokens, but you do have to be the one creating the tokens for Quina's first ability to apply.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#quina-qu-gourmet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/194/quina-qu-gourmet) · oracle_id `2acb15bd-6c89-4ff3-ab32-beac67e9c88a` · printing: FIN #194 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quinjet Technician
@@ -1883,6 +1907,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9132 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-04-16* — If two or more cards leave your graveyard as a single event, Quintorius's last ability will trigger once. If they leave your graveyard as separate events, it will trigger once for each event.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#quintorius-field-historian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/326/quintorius-field-historian) · oracle_id `28b64167-b7ea-4b4f-8434-061298050366` · printing: SOC #326 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quintorius, History Chaser
@@ -1899,6 +1924,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9142 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings** (1):
   - *2026-03-20* — If multiple cards leave your graveyard at the same time, Quintorius's first ability will trigger only once.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/Q.md#quintorius-history-chaser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/7/quintorius-history-chaser) · oracle_id `5c40a8d4-6969-4d71-aba5-5c7e4109b7d5` · printing: SOC #7 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quintorius Kand
@@ -1924,6 +1950,7 @@ schema: 2
   - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
   - *2023-11-10* — You exile the cards face up. All players will be able to see them.
   - *2023-11-10* — You must follow all normal timing rules for a card you play with Quintorius Kand's last ability and, if it's a spell, you must pay its costs to cast it.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/Q.md#quintorius-kand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/238/quintorius-kand) · oracle_id `91babc5f-ebeb-4894-8c35-b0f60249cb80` · printing: LCI #238 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quintorius, Loremaster
@@ -1943,6 +1970,7 @@ schema: 2
   - *2023-04-14* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
   - *2023-04-14* — Quintorius's last two abilities are linked. The last ability can target only cards exiled by the triggered ability. If a Spirit you sacrifice to activate the last ability ends up being exiled because of a replacement effect, that card can't be targeted by the last ability.
   - *2023-04-14* — You must follow all applicable timing rules for casting the exiled card. For example, if the card is a sorcery card, you can cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#quintorius-loremaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/327/quintorius-loremaster) · oracle_id `c3d38129-b955-4fb5-8486-095f918935b9` · printing: SOC #327 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quirion Beastcaller
@@ -2033,6 +2061,7 @@ schema: 2
   - *2021-06-18* — Returning the Forest you control to its owner's hand is the cost to activate the ability. Once you activate the ability, no one can try to do anything to the Forest to stop you from activating the ability.
   - *2021-06-18* — You can target any creature with Quirion Ranger's ability, not just a tapped creature.
   - *2021-06-18* — You may return any land you control with the subtype Forest. It doesn't have to be one named Forest.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/Q.md#quirion-ranger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/285/quirion-ranger) · oracle_id `3ecaefc8-ead2-47a3-a7ea-b030faab65a7` · printing: MH2 #285 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quirion Sentinel

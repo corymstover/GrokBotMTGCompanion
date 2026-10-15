@@ -111,6 +111,7 @@ schema: 2
   > 20 | Copy that spell. You may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13075 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mathise-surge-channeler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/25/mathise-surge-channeler) · oracle_id `61be7df8-cc78-4822-9e70-f226a8a96c9d` · printing: SLX #25 (2025-04-25) · [rulings](https://api.scryfall.com/cards/3c560e53-73d9-4b0e-9b93-c729e00e7bbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Math is for Blockers
@@ -256,4 +257,5 @@ schema: 2
   - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
   - *2023-11-10* — The Core's activated ability is a mana ability. It doesn't use the stack and can't be responded to.
   - *2023-11-10* — Transforming Matzalantli doesn't cause it to leave the battlefield. It also doesn't cause it to become untapped.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/M.md#matzalantli-the-great-door--the-core)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/256/matzalantli-the-great-door-the-core) · oracle_id `16182e01-22ff-4786-985d-919b47c4aa4d` · printing: LCI #256 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

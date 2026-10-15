@@ -51,6 +51,7 @@ schema: 2
   > Whenever this creature attacks alone, this creature can't be blocked this combat.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31695 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#yuan-shaos-infantry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/129/yuan-shaos-infantry) · oracle_id `8ad91015-db7f-43ea-97c9-bf2bf5656858` · printing: PTK #129 (1999-05-01) · [rulings](https://api.scryfall.com/cards/a2623481-cee3-4a9d-933b-235fcde9a27b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuan Shao, the Indecisive
@@ -65,6 +66,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25224 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#yuan-shao-the-indecisive)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/128/yuan-shao-the-indecisive) · oracle_id `2fc5fffa-2eb1-4a3c-af47-3ff8c7df608d` · printing: PTK #128 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuan-Ti Fang-Blade
@@ -137,6 +139,7 @@ schema: 2
   - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
   - *2025-10-02* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, you must pay those to cast the card.
   - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/Y.md#yue-the-moon-spirit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/83/yue-the-moon-spirit) · oracle_id `961f1883-2f97-4249-90f9-416279d7a9dd` · printing: TLA #83 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuffie, Materia Hunter
@@ -159,6 +162,7 @@ schema: 2
   - *2025-06-06* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
   - *2025-06-06* — You can't use Yuffie's last ability to try to attach an Equipment to Yuffie if that Equipment can't legally be attached to Yuffie.
   - *2025-06-06* — Yuffie enters attacking the same player, planeswalker, or battle the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/Y.md#yuffie-materia-hunter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/65/yuffie-materia-hunter) · oracle_id `acdcbb49-9d71-4c36-8ccb-650fb11c3a58` · printing: FIC #65 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuki-Onna
@@ -213,6 +217,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9202 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-04-12* — Yuma must be on the battlefield for its last ability to trigger. If it is put into your graveyard at the same time as a Desert card you own, its ability won't trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#yuma-proud-protector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/4/yuma-proud-protector) · oracle_id `b8a0b967-3b5b-46f5-830b-5c8f1037784a` · printing: OTC #4 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yume, Chronicler of Valor
@@ -240,6 +245,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3520 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Yuna's last ability counts all counters that were on the permanent, not just +1/+1 counters.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/Y.md#yuna-grand-summoner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pw25/16/yuna-grand-summoner) · oracle_id `ba72d4a9-6f36-4796-bd71-2342fa9b4a30` · printing: PW25 #16 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuna, Hope of Spira
@@ -256,6 +262,7 @@ schema: 2
   - *2025-06-06* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
   - *2025-06-06* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
   - *2025-06-06* — Multiple finality counters on a single permanent are redundant.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#yuna-hope-of-spira)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/250/yuna-hope-of-spira) · oracle_id `3dee768a-612c-4960-bad2-2fe5b83a70c3` · printing: FIN #250 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuna's Decision
@@ -328,6 +335,7 @@ schema: 2
   - *2020-11-10* — Although the ninjutsu ability has the creature enter the battlefield attacking, it was never declared as an attacking creature (for the purposes of abilities that trigger whenever a creature attacks, for example).
   - *2020-11-10* — Commander ninjutsu is a variant of ninjutsu that can be activated from the command zone as well as from your hand. Just as with regular ninjutsu, the Ninja enters attacking the player or planeswalker that the returned creature was attacking.
   - *2020-11-10* — If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+- **Referenced in:** 7 pages (2 decks · 2 edh guides · 1 rules · 2 card data) → [reverse index](../../references/Y.md#yuriko-the-tigers-shadow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/364/yuriko-the-tigers-shadow) · oracle_id `a7043fbd-1dfd-42cf-be4b-cc343d0949e5` · printing: CMM #364 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yurlok of Scorch Thrash

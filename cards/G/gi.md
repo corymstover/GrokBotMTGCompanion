@@ -204,6 +204,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1629 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — "Each Angel you already control" means each Angel you control other than the Angel entering, including Giada. It doesn't matter if some or all of the Angels on the battlefield entered after Giada did.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/G.md#giada-font-of-hope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/141/giada-font-of-hope) · oracle_id `48e6d3d8-2f27-4017-acdd-40bce8cdbc02` · printing: FDN #141 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant Adephage
@@ -221,6 +222,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2582 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-01-24* — As the token is created, it checks the printed values of the Giant Adephage it's copying—or, if the Giant Adephage whose ability triggered was itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield—as well as any copy effects that have been applied to it. It won't copy counters on the Giant Adephage, nor will it copy other effects that have changed Giant Adephage's power, toughness, types, color, or so on. Normally, this means the token will simply be a Giant Adephage. But if any copy effects have affected that Giant Adephage, they're taken into account.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#giant-adephage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/179/giant-adephage) · oracle_id `8e1d261d-b8d3-4fb1-922d-47789854b5b3` · printing: DSC #179 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant Albatross
@@ -296,6 +298,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28497 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-03-14* — The delayed triggered ability that exiles the token isn’t a characteristic of the token. If an effect such as populate copies the token, the new token won’t be exiled.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/G.md#giantbaiting)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/208/giantbaiting) · oracle_id `894a220b-1372-4a76-b38f-bf0d7001af41` · printing: MM3 #208 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant Beaver
@@ -328,6 +331,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27626 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2006-02-01* — It used to make Butterfly tokens. Now it makes Insect tokens named Butterfly.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#giant-caterpillar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/249/giant-caterpillar) · oracle_id `43a515f2-b53a-4bb4-bb6e-0d79c9162359` · printing: MMQ #249 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant Cindermaw
@@ -453,6 +457,7 @@ schema: 2
   > *"Cap called for Giant-Man, not Ant-Man. Something big must be going down."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3293 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/G.md#giant-growth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/167/giant-growth) · oracle_id `5748ebf1-24e3-499d-ab7c-c2cebd462a24` · printing: MSH #167 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fd1f95bf-48ea-455a-8a6c-0249b11c8900/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant Harbinger
@@ -514,6 +519,7 @@ schema: 2
   - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/G.md#giant-killer--chop-down)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/14/giant-killer-chop-down) · oracle_id `91e71279-c9d2-4873-916a-59da03a65741` · printing: ELD #14 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant Koi
@@ -561,6 +567,7 @@ schema: 2
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#giant-mana-cake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/25/giant-mana-cake) · oracle_id `26f6170a-34dc-41c8-b3b1-20377f131e6e` · printing: SUNF #25 (2022-10-07) · [rulings](https://api.scryfall.com/cards/4fac4b12-4cb6-438e-acd5-f4598f922b65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant-Man, Gargantuan Genius
@@ -624,6 +631,7 @@ schema: 2
   - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#giant-opportunity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/159/giant-opportunity) · oracle_id `395aa62e-0786-4bd8-a88f-998e4700742e` · printing: ELD #159 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant Ox
@@ -670,6 +678,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-02-05* — The Giant Wizard creature token enters the battlefield as a 4/4 creature. Any abilities that trigger when a creature with a certain toughness enters the battlefield will see the token enter as a 4/4 creature.
   - *2021-02-05* — You decide whether to pay {3}{U} as the enters-the-battlefield ability resolves. If you do, you immediately create the Giant Wizard creature token and attach Giant's Amulet to it. No players may respond to your decision to pay or not, and no player may take actions during this process.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#giants-amulet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/59/giants-amulet) · oracle_id `016a6ec3-f4f6-4b47-9931-e0b14a25bd5e` · printing: KHM #59 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant's Boulder
@@ -822,6 +831,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19610 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-04-01* — This card now uses the Reach keyword ability to enable the blocking of flying creatures. This works because a creature with flying can only be blocked by creatures with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#giant-spider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/163/giant-spider) · oracle_id `e740ce2f-2134-473c-afa1-1b6d2d1e38ef` · printing: DMR #163 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant's Skewer
@@ -929,6 +939,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20176 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-09-09* — You may sacrifice Gibbering Barricade to its own ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gibbering-barricade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/95/gibbering-barricade) · oracle_id `c6106021-08ae-49c8-b32c-fdc7397522e7` · printing: DMU #95 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gibbering Descent
@@ -1014,6 +1025,7 @@ schema: 2
   - *2015-08-25* — Gideon's first ability doesn't count as a creature entering the battlefield. Gideon was already on the battlefield; he only changed his types. Specifically, your rally abilities won't trigger. (Of course, Gideon's second ability will cause rally abilities to trigger.)
   - *2015-08-25* — If Gideon becomes a creature the same turn he enters the battlefield, you can't attack with him or use any of his {T} abilities (if he gains any).
   - *2015-08-25* — If damage that can't be prevented is dealt to Gideon after his first ability has resolved, that damage will have all applicable results: specifically, the damage is marked on Gideon (since he's a creature) and that damage causes that many loyalty counters to be removed from him (since he's a planeswalker). Even though he has indestructible, if Gideon has no loyalty counters on him, he's put into his owner's graveyard.
+- **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/G.md#gideon-ally-of-zendikar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/29/gideon-ally-of-zendikar) · oracle_id `51eae7ff-fed9-4afe-8053-7690379449dd` · printing: BFZ #29 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon Blackblade
@@ -1033,6 +1045,7 @@ schema: 2
   - *2019-05-03* — If an effect causes Gideon to lose all abilities during your turn, he's still a Human Soldier creature and a Gideon planeswalker. This is because his first ability applies before that ability is lost.
   - *2019-05-03* — If damage that can't be prevented is dealt to Gideon during your turn, that damage will have all applicable results: specifically, the damage is marked on Gideon (since he's a creature) and that damage causes that many loyalty counters to be removed from him (since he's a planeswalker). Even though he has indestructible, if Gideon has no loyalty counters on him, he's put into his owner's graveyard.
   - *2019-05-03* — You choose which ability the target creature gains as Gideon's first loyalty ability resolves, not as you activate it.
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#gideon-blackblade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/20/gideon-blackblade) · oracle_id `813c19f5-3580-488d-9eee-c7a563def532` · printing: RVR #20 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon, Champion of Justice
@@ -1054,6 +1067,7 @@ schema: 2
   - *2013-01-24* — Say you activate Gideon, Champion of Justice's second ability, and then an opponent gains control of him before combat. You may have any of your creatures attack Gideon, Champion of Justice (since he's still a planeswalker). Then Gideon, Champion of Justice may block (since he's a creature). He may block any eligible attacking creature, including one that's attacking him! During combat, he behaves as an attacked planeswalker and/or a blocking creature, as appropriate. For example, he deals combat damage to any creatures he's blocking, but he doesn't deal combat damage to any unblocked creatures that are attacking him.
   - *2013-01-24* — You put a loyalty counter on Gideon, Champion of Justice as part of the cost of activating the first ability. When that ability resolves, you count the number of creatures controlled by the target opponent and put that many additional loyalty counters on Gideon.
   - *2013-07-01* — If damage that can't be prevented is dealt to Gideon, Champion of Justice after his second ability has resolved, that damage will have all applicable results: specifically, the damage is marked on Gideon (since he's a creature) and that damage causes that many loyalty counters to be removed from him (since he's a planeswalker). Even though he has indestructible, if Gideon, Champion of Justice has no loyalty counters on him, he's put into his owner's graveyard as a state-based action.
+- **Referenced in:** 3 pages (3 lore & story) → [reverse index](../../references/G.md#gideon-champion-of-justice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/93/gideon-champion-of-justice) · oracle_id `5843bf12-27db-4e7d-81ee-98874bea72c7` · printing: C21 #93 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon Jura
@@ -1077,6 +1091,7 @@ schema: 2
   - *2010-06-15* — If you activate Gideon Jura's third ability and then unpreventable damage is dealt to him (due to Unstable Footing, for example), that damage has all applicable results: specifically, the damage is marked on Gideon Jura (since he's a creature) and that damage causes that many loyalty counters to be removed from him (since he's a planeswalker). If the total amount of damage marked on Gideon Jura is lethal damage, he's destroyed as a state-based action. If Gideon Jura has no loyalty counters on him, he's put into his owner's graveyard as a state-based action.
   - *2010-06-15* — Say you activate Gideon Jura's third ability, then an opponent gains control of him before combat. You may have any of your creatures attack Gideon Jura (since he's still a planeswalker). Then Gideon Jura may block (since he's a creature). He may block any eligible attacking creature, including one that's attacking him! During combat, he behaves as an attacked planeswalker and/or a blocking creature, as appropriate. For example, he deals combat damage to any creatures he's blocking, but he doesn't deal combat damage to any unblocked creatures that are attacking him.
   - *2011-01-22* — The first ability only affects the declaration of attackers. If a creature is put onto the battlefield attacking (thanks to Hero of Bladehold, Preeminent Captain, or the Ninjutsu ability, for example), that creature's controller may choose the defending player or planeswalker that it will be attacking in the normal way.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/G.md#gideon-jura)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/822/gideon-jura) · oracle_id `7340dbcb-4b26-4038-be8c-a89e76294221` · printing: CMM #822 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon, Martial Paragon
@@ -1096,6 +1111,7 @@ schema: 2
   - *2017-04-18* — If Gideon becomes a creature the same turn he enters the battlefield, you can't attack with him or use any of his {T} abilities (if he gains any).
   - *2017-04-18* — If damage that can't be prevented is dealt to Gideon after his second ability has resolved, that damage will have all applicable results: specifically, the damage is marked on Gideon (since he's a creature) and that damage causes that many loyalty counters to be removed from him (since he's a planeswalker). Even though he has indestructible, if Gideon has no loyalty counters on him, he's put into his owner's graveyard.
   - *2017-04-18* — The set of creatures affected by Gideon's first and third abilities is determined as the abilities resolve. Creatures you begin to control later in the turn and permanents you control that become creatures later in the turn won't get +1/+1 or +2/+2.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/G.md#gideon-martial-paragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/270/gideon-martial-paragon) · oracle_id `4cbce730-7b70-41bd-b463-bfec46afe3b0` · printing: AKH #270 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon of the Trials
@@ -1118,6 +1134,7 @@ schema: 2
   - *2017-04-18* — If you have Gideon's emblem in a Two-Headed Giant game and control a Gideon planeswalker, your team can't lose the game and the opposing team can't win the game. If your teammate controls a Gideon planeswalker but you do not, your emblem's effect doesn't apply.
   - *2017-04-18* — No game effect can cause you to lose the game or cause any opponent to win the game while Gideon's emblem is in effect. It doesn't matter whether you have 0 or less life, you're forced to draw a card while your library is empty, you have ten or more poison counters, you're at your Glorious End, your opponent casts a second Approach of the Second Sun, or so on. You keep playing.
   - *2017-04-18* — Other circumstances can still cause you to lose the game. You will lose a game if you concede, if you're penalized with a Game Loss or a Match Loss during a sanctioned tournament due to a DCI rules infraction, or if your Magic Online® game clock runs out of time.
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#gideon-of-the-trials)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/14/gideon-of-the-trials) · oracle_id `a9bbaad7-c016-4908-a6a7-2c26112a6bf6` · printing: AKH #14 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon's Avenger
@@ -1178,6 +1195,7 @@ schema: 2
   > *—Nicol Bolas*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28098 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#gideons-defeat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/13/gideons-defeat) · oracle_id `d9d76570-d951-4c09-aa0e-c204c3407aaf` · printing: HOU #13 (2017-07-14) · [rulings](https://api.scryfall.com/cards/4722eb81-1aa1-4863-8dfb-d9d6035bd6c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon's Intervention
@@ -1194,6 +1212,7 @@ schema: 2
   - *2017-04-18* — You may choose the name of a land card. Cards with that name can still be played (since lands are never cast), but damage they would deal to you and your permanents will be prevented.
   - *2017-04-18* — You must choose the name of a card, not the name of a token. For example, you can't choose "Zombie Token." However, if a token happens to have the same name as a card (such as an embalmed creature token), you can choose it.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#gideons-intervention)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/15/gideons-intervention) · oracle_id `02fe8ed4-3c5d-4875-b584-b33b819c47be` · printing: AKH #15 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon's Lawkeeper
@@ -1247,6 +1266,7 @@ schema: 2
   > *On Amonkhet, Gideon lost both his sural and his faith in himself. But he can still throw a punch, and he still knows a bad guy when he sees one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22059 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#gideons-reproach)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/19/gideons-reproach) · oracle_id `ec43d67c-2254-4782-8bd4-3318b25907e6` · printing: DOM #19 (2018-04-27) · [rulings](https://api.scryfall.com/cards/7b771f44-ce32-41a2-b219-738924b7f42d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon's Resolve
@@ -1276,6 +1296,7 @@ schema: 2
   - *2019-05-03* — If you cast more than one Gideon's Sacrifice in one turn, all damage that would be dealt at once to you and/or permanents you control is dealt to one of the chosen permanents of your choice. It's not dealt to all of them, and you can't split the damage between them. The next time damage would be dealt to you, you may choose a different one of those permanents to be dealt that damage.
   - *2019-05-03* — If you control no creatures or planeswalkers as Gideon's Sacrifice resolves, nothing happens. The damage redirection effect won't be able to be applied to any damage events.
   - *2019-05-03* — More damage can be redirected to the chosen creature than it has toughness or to the chosen planeswalker than it has loyalty, as long as that damage is all dealt at once (like combat damage is) or is all dealt while a single spell or ability is resolving.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#gideons-sacrifice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/68/gideons-sacrifice) · oracle_id `1af63a5e-2bec-4f8d-a373-d9ce43a7d242` · printing: MKC #68 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon's Triumph
@@ -1311,6 +1332,7 @@ schema: 2
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20231 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/G.md#gideon-the-oathless)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/230/gideon-the-oathless) · oracle_id `7afa530f-ea51-4bee-af3b-59b83ea5cb25` · printing: FRA #230 (2026-10-02) · [rulings](https://api.scryfall.com/cards/c985b0d1-25bd-4069-aab7-a566ff27a8f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon, the Oathsworn
@@ -1331,6 +1353,7 @@ schema: 2
   - *2019-05-03* — If Gideon becomes a creature the same turn he enters the battlefield, you can't attack with him or use any of his {T} abilities (if he gains any).
   - *2019-05-03* — If Gideon has 9 loyalty as you activate his last ability, he'll be put into your graveyard and won't be exiled.
   - *2019-05-03* — If damage that can't be prevented is dealt to Gideon after his first loyalty ability has resolved, that damage will have all applicable results: specifically, the damage is marked on Gideon (since he's a creature) and that damage causes that many loyalty counters to be removed from him (since he's a planeswalker). Even though he's also a creature, if Gideon has no loyalty counters on him, he's put into his owner's graveyard.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/G.md#gideon-the-oathsworn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/265/gideon-the-oathsworn) · oracle_id `19a81aa7-823b-43fa-abc2-b2700a122bc1` · printing: WAR #265 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gifted Aetherborn
@@ -1397,6 +1420,7 @@ schema: 2
   - *2019-08-23* — No player may take any actions between the time you announce that you're turning Gift of Doom face up and the time it's attached to the chosen creature.
   - *2019-08-23* — This doesn't target the creature Gift of Doom will enchant, so an opponent's creature with hexproof or a creature with shroud may be chosen this way. The chosen recipient must be able to legally be enchanted by the Aura, so a creature with protection from black can't be chosen this way.
   - *2019-08-23* — You can't pay Gift of Doom's morph cost more than once.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gift-of-doom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/17/gift-of-doom) · oracle_id `2dd1450e-902e-480a-9c42-1c47549d2eeb` · printing: C19 #17 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gift of Estates
@@ -1409,6 +1433,7 @@ schema: 2
 - **Rulings** (2):
   - *2005-08-01* — Gift of Estates does nothing if each of your opponents has the same number of lands or fewer as you.
   - *2005-08-01* — You can find nonbasic lands if they have the Plains land type, such as dual lands (Tundra, et al).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gift-of-estates)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/73/gift-of-estates) · oracle_id `1bd70be6-752c-4ecb-a3e8-2bacec4b94fc` · printing: C14 #73 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gift of Fangs
@@ -1472,6 +1497,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-09-15* — If the creature is no longer on the battlefield at the beginning of the next end step after it's returned to the battlefield, Gift of Immortality will remain in its owner's graveyard.
   - *2013-09-15* — If the enchanted creature is a token, neither it nor Gift of Immortality will return to the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gift-of-immortality)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/134/gift-of-immortality) · oracle_id `2c11c72f-5b04-47d8-bdf8-8d9d197ebc1b` · printing: MSC #134 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gift of Orzhova
@@ -1515,6 +1541,7 @@ schema: 2
 - **Keywords:** Enchant, Flash, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17264 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gift-of-strands)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/208/gift-of-strands) · oracle_id `7a7789e5-f2ac-49b2-943e-7d49e4727fb6` · printing: HOC #208 (2026-08-14) · [rulings](https://api.scryfall.com/cards/e945fa91-21c6-4a23-83ac-26f04c917908/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gift of Strength
@@ -1528,6 +1555,7 @@ schema: 2
   > *—Nikya of the Old Ways*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19561 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#gift-of-strength)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/165/gift-of-strength) · oracle_id `fe971240-268a-47d4-a14e-3d6352656091` · printing: CLU #165 (2024-02-23) · [rulings](https://api.scryfall.com/cards/bc69887e-0b7b-4ffe-8f56-0b8486f23f99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gift of the Deity
@@ -1608,6 +1636,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19193 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gift-of-wrath)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/143/gift-of-wrath) · oracle_id `9ba31dd0-d78e-4639-a550-bd72cac5898a` · printing: NEO #143 (2022-02-18) · [rulings](https://api.scryfall.com/cards/3c33f6d9-be29-4698-96f9-d393a2c8ad68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gifts Given
@@ -1639,6 +1668,7 @@ schema: 2
   - *2022-10-07* — Gift Shop tracks which modes have been chosen, not who chose them. If another player gains control of Gift Shop and then visits it, they won’t be able to choose a mode you chose while you controlled it.
   - *2022-10-07* — If there are no more modes to choose, the Gift Shop is sold out. The ability is removed from the stack with no effect.
   - *2022-10-07* — If you choose the last mode and don’t put a sticker on anything, you still chose that mode. It can’t be chosen again.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gift-shop)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/214a/gift-shop) · oracle_id `dd640def-3643-4fba-98f4-6b2815e96b10` · printing: UNF #214a (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gifts Ungiven
@@ -1650,6 +1680,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1540 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2017-03-14* — You can choose to find fewer than four cards if you want. If you find one or two cards, your opponent must choose for them to be put into your graveyard, even if they don't want to.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 2 card data) → [reverse index](../../references/G.md#gifts-ungiven)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/51/gifts-ungiven) · oracle_id `58aec411-167d-4709-8560-793eaaed62c5` · printing: 2X2 #51 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gigadrowse
@@ -1772,6 +1803,7 @@ schema: 2
   > *—Vivien Reid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4323 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#gigantosaurus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/185/gigantosaurus) · oracle_id `e666bae7-dd51-4921-8b89-7e8d423caba0` · printing: M19 #185 (2018-07-13) · [rulings](https://api.scryfall.com/cards/c1db84d8-d426-4c0d-b44e-5be7b0f5f5bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gigapede
@@ -1816,6 +1848,7 @@ schema: 2
   - *2024-09-20* — If Giggling Skitterspike is no longer on the battlefield when its second ability resolves, use its power as it last existed on the battlefield to determine how much damage it deals.
   - *2024-09-20* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
   - *2024-09-20* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#giggling-skitterspike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/39/giggling-skitterspike) · oracle_id `ca02cb31-9850-48bf-bc8d-ed86a4d4d4f7` · printing: DSC #39 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilacorn
@@ -1935,6 +1968,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If the chosen creature to exchange is not on the battlefield at resolution, then sacrifice this card.
   - *2004-10-04* — This ability is targeted, so Protection can prevent targeting if it exists when the ability would be put on the stack. Once the ability is on the stack, adding Protection will not counter the ability but the exchange will not take place since the target is illegal and you sacrifice this card on resolution.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/G.md#gilded-drake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/76/gilded-drake) · oracle_id `7f06c098-6482-4bf3-a9a1-110d6d5b5703` · printing: USG #76 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilded Ghoda
@@ -1973,6 +2007,7 @@ schema: 2
   - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#gilded-goose)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/269/gilded-goose) · oracle_id `f2f09757-1931-47c0-a5f0-39280445489d` · printing: SOC #269 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilded Light
@@ -2000,6 +2035,7 @@ schema: 2
   > *T'Challa merged vibranium technology with organic matter to create a jungle of boundless potential.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #412 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/G.md#gilded-lotus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/199/gilded-lotus) · oracle_id `9a02a9a7-39d9-4763-85d3-747a0540b60b` · printing: MSC #199 (2026-06-26) · [rulings](https://api.scryfall.com/cards/28e619e6-ecc1-49c3-8fa9-ce42becdb9ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilded Pinions
@@ -2158,6 +2194,7 @@ schema: 2
   > *Dawn's Light, greatest palace of Gilt-Leaf Wood, is built on tiers of wood and power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4950 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/G.md#gilt-leaf-palace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/268/gilt-leaf-palace) · oracle_id `85573a3d-2993-491a-8f8d-bbdb844fa84e` · printing: LRW #268 (2007-10-12) · [rulings](https://api.scryfall.com/cards/cc4bbbb5-4218-4b2a-9ca2-de4d5f5dda19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilt-Leaf Seer
@@ -2200,6 +2237,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — Once an attacking creature with menace is legally blocked by two or more creatures, removing one or more of those blockers from combat won't change or undo that block.
   - *2020-11-10* — The power and toughness of the target non-Elf creature are checked again as Gilt-Leaf Winnower's triggered ability would resolve. If that creature's power and toughness are equal at that time, the ability doesn't resolve.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#gilt-leaf-winnower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/130/gilt-leaf-winnower) · oracle_id `53b99846-3f80-4e9d-ad3c-52a4906b8823` · printing: CMR #130 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giltspire Avenger
@@ -2231,6 +2269,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — A token’s name is its subtypes plus the word “Token” unless it’s copying another object or it was given a specific name by the effect that created it. For example, the tokens created by Gimbal’s last ability are named “Gremlin Token.” These tokens have the same name as the 2/2 red Gremlin creature tokens created by Release the Gremlins.
   - *2023-04-14* — To determine the number of differently named artifact tokens you control, count each artifact token you control once, but only if its English name isn’t exactly the same as another artifact token you’ve already counted this way.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gimbal-gremlin-prodigy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/3/gimbal-gremlin-prodigy) · oracle_id `e7441404-71ff-449e-812b-18cd52eabb98` · printing: MOC #3 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gimli, Counter of Kills
@@ -2396,6 +2435,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gingerbread-hunter--puny-snack)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/227/gingerbread-hunter-puny-snack) · oracle_id `f762c225-1c8c-4f12-aa88-c8c89e0a7185` · printing: WOE #227 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gingerbrute
@@ -2417,6 +2457,7 @@ schema: 2
   - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 rules) → [reverse index](../../references/G.md#gingerbrute)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/246/gingerbrute) · oracle_id `10b8d4c7-7553-4d76-b643-d98b80701e13` · printing: WOE #246 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ginger, Queen of Sweets
@@ -2436,6 +2477,7 @@ schema: 2
   - *2026-08-21* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
   - *2026-08-21* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
   - *2026-08-21* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#ginger-queen-of-sweets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/14/ginger-queen-of-sweets) · oracle_id `5ea93956-085d-409b-bd95-dd669fa69eeb` · printing: FRC #14 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gin'tak Charge
@@ -2573,6 +2615,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10583 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gisas-favorite-shovel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/19/gisas-favorite-shovel) · oracle_id `9c298c7b-9c63-4a66-a0fc-977491b623c7` · printing: SLX #19 (2023-09-08) · [rulings](https://api.scryfall.com/cards/8139bb44-47e8-4076-99ed-ad3623198ad9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gisa, the Hellraiser
@@ -2592,6 +2635,7 @@ schema: 2
   - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
   - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
   - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gisa-the-hellraiser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/89/gisa-the-hellraiser) · oracle_id `696363c9-e8a7-4c65-b65c-4a94891ec43d` · printing: OTJ #89 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gisela, Blade of Goldnight
@@ -2609,6 +2653,7 @@ schema: 2
   - *2018-03-16* — Gisela doubles damage dealt to opponents and permanents your opponents control from any source, including sources controlled by those opponents.
   - *2018-03-16* — If damage dealt by a source you control is being divided or assigned among multiple permanents an opponent controls or among an opponent and one or more permanents they control simultaneously, divide the original amount and double the results. For example, if you attack with a 5/5 creature with trample and your opponent blocks with a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. These amounts are then doubled to 4 and 6 damage, respectively. You can't double the damage to 10 first and then assign 2 to the creature and 8 to the player.
   - *2018-03-16* — If multiple replacement effects would modify how damage would be dealt, the player being dealt damage (or the controller of the permanent being dealt damage) chooses the order in which to apply those effects.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#gisela-blade-of-goldnight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/211/gisela-blade-of-goldnight) · oracle_id `66f9f325-5e8e-4ebf-b5b3-c6410d80f2c5` · printing: MKC #211 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gisela, the Broken Blade
@@ -2625,6 +2670,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2547 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2016-07-13* — In a Commander game, your commander may be Bruna, the Fading Light or Gisela, the Broken Blade, and the other may be in your deck. If they meld into Brisela, Voice of Nightmares, Brisela will also be your commander; but if Brisela leaves the battlefield, only the card chosen as your commander at the start of the game may be put into the command zone.
+- **Referenced in:** 3 pages (1 decks · 2 rules) → [reverse index](../../references/G.md#gisela-the-broken-blade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/24/gisela-the-broken-blade) · oracle_id `f3e23d5e-bd88-4e7c-a3fb-db2a8cb05b22` · printing: INR #24 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gishath, Sun's Avatar
@@ -2639,6 +2685,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2458 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2017-09-29* — If you have fewer cards in your library than the amount of damage Gishath deals, you reveal the cards you have. Because you're not drawing cards, you don't lose the game.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/G.md#gishath-suns-avatar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/229/gishath-suns-avatar) · oracle_id `a311daab-40dc-4433-9ed8-feab7c558bbf` · printing: LCI #229 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gitaxian Anatomist
@@ -2680,6 +2727,7 @@ schema: 2
   - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
   - *2011-06-01* — The targeted player may have no cards in their hand. You'll still draw a card.
   - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Referenced in:** 11 pages (7 decks · 2 edh guides · 2 card data) → [reverse index](../../references/G.md#gitaxian-probe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/35/gitaxian-probe) · oracle_id `1d67f5ff-1fce-45e5-b6a1-416c569351e2` · printing: NPH #35 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gitaxian Raptor
@@ -2737,6 +2785,7 @@ schema: 2
   > *"Get behind me!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19366 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#give-no-ground)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/29/give-no-ground) · oracle_id `bae18a46-00e0-4b3e-8fdb-44cc61f30f8e` · printing: EMN #29 (2016-07-22) · [rulings](https://api.scryfall.com/cards/1cb3347a-9b32-46a4-a621-4ae5244ba2f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giver of Runes
@@ -2866,4 +2915,5 @@ schema: 2
   - *2022-10-14* — If a spell you cast this way has an {X} in its mana cost, you must choose 0 for X.
   - *2022-10-14* — You may play a land this way only during your own turn and only if you have not yet played a land this turn.
   - *2022-10-14* — You must play the cards as you resolve the last ability. You can't wait and play them later.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/G.md#gix-yawgmoth-praetor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/181/gix-yawgmoth-praetor) · oracle_id `928d977e-cff0-4e0e-83bb-16d73a754f35` · printing: TDC #181 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -193,6 +193,7 @@ schema: 2
   - *2018-04-27* — Naban's effect doesn't copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
   - *2018-04-27* — Replacement effects are unaffected by Naban's first ability. For example, a Wizard that enters the battlefield with one +1/+1 counter on it won't receive an additional +1/+1 counter.
   - *2018-04-27* — The trigger event doesn't have to specifically refer to "Wizards." For example, an ability that triggers "whenever a creature enters the battlefield under your control" would trigger twice if the entering creature is a Wizard.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/N.md#naban-dean-of-iteration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/58/naban-dean-of-iteration) · oracle_id `cffb9b7f-d52c-43e0-a4a6-b06dea83eb53` · printing: DOM #58 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nacatl Hunt-Pride
@@ -259,6 +260,7 @@ schema: 2
   - *2007-05-01* — In a multiplayer game in which you're allowed to attack only one player each combat, the new creatures will be attacking the same player as Nacatl War-Pride. In a multiplayer game in which you may attack multiple players, you choose the player each new creature is attacking. It must be a player you're allowed to attack.
   - *2007-05-01* — Putting an attacking creature onto the battlefield doesn't trigger "When this creature attacks" abilities. It also won't check attacking restrictions, costs, or requirements.
   - *2007-05-01* — The tokens enter attacking, even if the attack couldn't legally be declared.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nacatl-war-pride)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/147/nacatl-war-pride) · oracle_id `692fdca7-0eff-4d2d-b744-213b6f6e18fb` · printing: FUT #147 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nacre Talisman
@@ -294,6 +296,7 @@ schema: 2
   - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
   - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
   - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/N.md#nadaar-selfless-paladin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/27/nadaar-selfless-paladin) · oracle_id `0e3f9345-d986-4d60-a343-45598ab59aff` · printing: AFR #27 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nadier, Agent of the Duskenel
@@ -329,6 +332,7 @@ schema: 2
   > *Checking around every corner doesn't help if you forget to look up.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #859 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/N.md#nadiers-nightblade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/275/nadiers-nightblade) · oracle_id `391978f6-0bbc-41e8-9246-f7d0e21c7900` · printing: MH3 #275 (2024-06-14) · [rulings](https://api.scryfall.com/cards/bc9926d7-91b7-4067-b590-a0430bf68d16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nadir Kraken
@@ -345,6 +349,7 @@ schema: 2
   - *2020-01-24* — If Nadir Kraken leaves the battlefield after its ability has triggered, you can still pay {1} and get a Tentacle, even though you won't put a +1/+1 counter on Nadir Kraken.
   - *2020-01-24* — While resolving Nadir Kraken's ability, you can't pay {1} multiple times to create multiple Tentacles or to give it multiple +1/+1 counters.
   - *2020-01-24* — You choose whether to pay {1} after drawing the card and seeing what it is. If you draw multiple cards, you see them all before deciding how many of the resulting triggers you'll pay {1} for.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/N.md#nadir-kraken)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/112/nadir-kraken) · oracle_id `5a73d439-bd78-42e1-90ae-eedd30536881` · printing: MKC #112 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nadu, Winged Wisdom
@@ -364,6 +369,7 @@ schema: 2
   - *2024-06-07* — If you somehow control more than one Nadu, each permanent you control will have that many instances of the granted ability. These abilities are not redundant. For example, if you control two Nadus and one becomes the target of a spell or ability, each of its granted abilities will trigger. If that same Nadu becomes the target of a spell or ability again later in the turn, each of its granted abilities will trigger again, as each of them have triggered only once so far this turn.
   - *2024-06-07* — Nadu, Winged Wisdom's last ability grants a triggered ability to itself as well as other creatures you control.
   - *2024-06-07* — The ability that Nadu grants to each creature you control functions independently for each creature. Specifically, the ability can trigger twice each turn for each creature you control, not just twice total.
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/N.md#nadu-winged-wisdom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/193/nadu-winged-wisdom) · oracle_id `0ff11a61-6fe3-4c70-aba8-417023a5e54e` · printing: MH3 #193 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nael, Avizoa Aeronaut
@@ -516,6 +522,7 @@ schema: 2
   - *2023-05-12* — Playing the exiled card follows the normal rules for playing that card. Unless you're casting an Equipment spell this way, you must pay the spell's costs, and you must follow all applicable timing rules. For example, if the card is a creature card, you can cast that card by paying its mana cost only during your main phase while the stack is empty.
   - *2023-05-12* — Unless an effect allows you to play additional lands that turn, you can play a land card exiled with Nahiri only if you haven't played a land yet that turn.
   - *2023-05-12* — You may play the card exiled with Nahiri's ability even if Nahiri or the equipped creature leaves the battlefield or you lose control of them.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/N.md#nahiri-forged-in-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/36/nahiri-forged-in-fury) · oracle_id `87966759-206a-4a2d-bf78-86f727c29972` · printing: MAT #36 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nahiri, Heir of the Ancients
@@ -530,6 +537,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10854 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-09-25* — You create a Kor Warrior token and attach an Equipment to it if you wish all while Nahiri's first ability is resolving. Nothing can happen in between, and no player may choose to take actions.
+- **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/N.md#nahiri-heir-of-the-ancients)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/230/nahiri-heir-of-the-ancients) · oracle_id `39bbc4cf-53fe-47dd-8ba3-1a59b1fa7dd1` · printing: ZNR #230 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nahiri's Binding
@@ -563,6 +571,7 @@ schema: 2
   - *2020-09-25* — If an effect says that a land enters tapped unless a condition is met or a cost is paid, that land enters tapped even if that condition is met or that cost is paid if it's affected by Nahiri's Lithoforming.
   - *2020-09-25* — Nahiri's Lithoforming's permission to play lands is cumulative with other effects that allow you to play additional lands, such as that of Scale the Heights.
   - *2020-09-25* — You don't sacrifice lands until Nahiri's Lithoforming is resolving. Once you do so, players can't take actions until the spell has finished resolving.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nahiris-lithoforming)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/151/nahiris-lithoforming) · oracle_id `888e711a-1251-4704-8ef1-b4b98ec54b5a` · printing: ZNR #151 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nahiri's Machinations
@@ -607,6 +616,7 @@ schema: 2
   - *2023-02-04* — If some of the targets of the last ability become illegal, the original division of damage still applies, but the damage that would have been dealt to illegal targets isn't dealt at all.
   - *2023-02-04* — You can't choose more than X targets, and each chosen target must receive at least 1 damage.
   - *2023-02-04* — You choose the value of X, the targets, and how damage will be divided as you cast Nahiri's Sacrifice.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#nahiris-sacrifice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/142/nahiris-sacrifice) · oracle_id `a84cc828-8d1b-4e61-a13f-60124e2ee35f` · printing: ONE #142 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nahiri's Stoneblades
@@ -632,6 +642,7 @@ schema: 2
   > −X: Nahiri deals X damage to target tapped creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17860 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/N.md#nahiri-storm-of-stone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/233/nahiri-storm-of-stone) · oracle_id `6332d6d3-1d77-486c-b040-02fc7225f245` · printing: WAR #233 (2019-05-03) · [rulings](https://api.scryfall.com/cards/8806605c-0cb7-4360-96e4-afb424ccad90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nahiri's Warcrafting
@@ -684,6 +695,7 @@ schema: 2
   - *2016-04-08* — If the artifact or creature put onto the battlefield with Nahiri’s third ability leaves the battlefield before the next end step, it won’t be returned to your hand from its new zone.
   - *2016-04-08* — If you find a noncreature artifact with Nahiri’s third ability, it will still gain haste, even though it won’t be meaningful unless that artifact becomes a creature.
   - *2016-04-08* — You can activate Nahiri’s first ability with no intention of discarding a card just to add loyalty to Nahiri.
+- **Referenced in:** 3 pages (3 lore & story) → [reverse index](../../references/N.md#nahiri-the-harbinger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/929/nahiri-the-harbinger) · oracle_id `d492eb9a-1f3b-4bf2-9a5d-0f4a4433f33f` · printing: CMM #929 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nahiri, the Lithomancer
@@ -698,6 +710,7 @@ schema: 2
   > Nahiri, the Lithomancer can be your commander.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9188 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/N.md#nahiri-the-lithomancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/45/nahiri-the-lithomancer) · oracle_id `a554aa2c-d947-4fc6-929d-d5891f467615` · printing: CMM #45 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b074e60a-6f9b-4679-9617-261e2e15e1e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nahiri, the Unforgiving
@@ -718,6 +731,7 @@ schema: 2
   - *2023-02-04* — Other replacement effects that would change the number of loyalty counters Nahiri enters with will apply as normal.
   - *2023-02-04* — The compleated ability looks only at whether a player chose to pay 2 life for a Phyrexian mana symbol as they were casting the spell. If a player paid life for some other reason while casting the spell, that will not reduce the number of loyalty counters the planeswalker enters the battlefield with.
   - *2023-02-04* — The last loyalty ability will check Nahiri's loyalty as the ability tries to resolve to see if the target is still legal. If it's not, the ability won't resolve and none of its effects will happen. The card won't be exiled and no token will be created.
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/N.md#nahiri-the-unforgiving)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/211/nahiri-the-unforgiving) · oracle_id `d71d42e0-cd56-4f53-95ff-ecab7f8c6552` · printing: ONE #211 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Naiad of Hidden Coves
@@ -765,6 +779,7 @@ schema: 2
   - *2020-11-10* — The controller of each Warrior token created by Najeela chooses which player or planeswalker it's attacking. The tokens don't have to be attacking the same player or planeswalker as the creature that caused the ability to trigger. They can even be attacking players or planeswalkers that weren't being attacked.
   - *2020-11-10* — There is no main phase before the additional combat phase. This means that, for example, you can't activate an equip ability between combats.
   - *2020-11-10* — Untapping an attacking creature doesn't remove it from combat.
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/N.md#najeela-the-blade-blossom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/62/najeela-the-blade-blossom) · oracle_id `09619943-6aec-4080-ace5-a0c6ebb23f1c` · printing: BBD #62 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nakaya Shade
@@ -854,6 +869,7 @@ schema: 2
   - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
   - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
   - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nalathni-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/197/nalathni-dragon) · oracle_id `0887dc95-3e75-4f72-bf05-4067d3785376` · printing: MB2 #197 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nalfeshnee
@@ -867,6 +883,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2738 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/N.md#nalfeshnee)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/678/nalfeshnee) · oracle_id `97a85a3e-258e-49b7-8ebe-7efee808da7a` · printing: CLB #678 (2022-06-10) · [rulings](https://api.scryfall.com/cards/b7717617-706a-4338-a207-dd8c08feb1c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nalia de'Arnise
@@ -985,6 +1002,7 @@ schema: 2
   > *The Astrotorium has never been a place for self-restraint.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#name-sticker-goblin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/107m/name-sticker-goblin) · oracle_id `acee1d16-1651-4e2c-8138-cc6456c4ee71` · printing: UNF #107m (2022-10-07) · [rulings](https://api.scryfall.com/cards/fd1442b4-da59-4042-835f-143c8dcaa73b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Naming Screen
@@ -1054,6 +1072,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10881 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/N.md#namor-the-sub-mariner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/69/namor-the-sub-mariner) · oracle_id `dff11626-ad4d-443a-b7db-f508790b5fd2` · printing: MSH #69 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7aaefcf9-fbe1-4767-92a5-09825761d116/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nanoform Sentinel
@@ -1067,6 +1086,7 @@ schema: 2
   > *Cloudsculpting naturally led the Illvoi to other methods of reshaping matter.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12202 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nanoform-sentinel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/71/nanoform-sentinel) · oracle_id `07155470-c5ab-41ae-ade3-bdc06d357379` · printing: EOE #71 (2025-08-01) · [rulings](https://api.scryfall.com/cards/3eeae8c3-7939-4c79-92f0-fbdb9c1b71d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nanogene Conversion
@@ -1085,6 +1105,7 @@ schema: 2
   - *2023-10-13* — If the targeted creature is itself copying a creature, each other creature will become whatever it's copying, as modified by that copy effect.
   - *2023-10-13* — Non-copy effects that have already applied to the other creatures will continue to apply to them. For example, if Giant Growth had given one of them +3/+3 earlier in the turn, then Nanogene Conversion made it a copy of Bear Cub, it will be a 5/5 Bear Cub.
   - *2023-10-13* — This effect can cause each other creature to stop being a creature. For example, if you target an animated Vehicle, only the printed wording will be copied—the crew effect that is making it a creature until end of turn won't be copied. Each other creature will become an unanimated copy of that Vehicle.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nanogene-conversion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/49/nanogene-conversion) · oracle_id `c06d1127-a269-453f-9c06-e9c424998eb7` · printing: WHO #49 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nantuko Blightcutter
@@ -1310,6 +1331,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5201 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-07-28* — The final chapter ability of a Saga is the ability with the greatest chapter number among chapter abilities that Saga has.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/N.md#narci-fable-singer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/710/narci-fable-singer) · oracle_id `61bbf710-4eb4-4e11-be6e-700a0c6a41ee` · printing: CMM #710 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narcissism
@@ -1356,6 +1378,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-01-12* — If Narcomoeba is removed from your graveyard before its ability resolves, you can't put it onto the battlefield.
   - *2024-01-12* — If Narcomoeba is revealed or looked at while moving from your library to your graveyard (such as with Mind Funeral), its ability will trigger when it's put into your graveyard. It was still in your library while it was revealed or being looked at.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#narcomoeba)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/47/narcomoeba) · oracle_id `dc65bb62-4ba2-4ec1-b3b9-9c51e64cbfc8` · printing: GRN #47 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nardole, Resourceful Cyborg
@@ -1377,6 +1400,7 @@ schema: 2
   - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
   - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/N.md#nardole-resourceful-cyborg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/50/nardole-resourceful-cyborg) · oracle_id `81c515b7-9174-4b34-ad07-4144e3dbaaac` · printing: WHO #50 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narfi, Betrayer King
@@ -1397,6 +1421,7 @@ schema: 2
   - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
   - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
   - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#narfi-betrayer-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/224/narfi-betrayer-king) · oracle_id `18beb8eb-6f67-482f-9a7d-282f1e7ecbc1` · printing: KHM #224 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narnam Cobra
@@ -1473,6 +1498,7 @@ schema: 2
 - **Keywords:** Reach, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#narrow-minded-baloney-fireworks)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/12/narrow-minded-baloney-fireworks) · oracle_id `366e0a62-ff95-48d1-bc63-7995a393bc34` · printing: SUNF #12 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1b516ae7-2891-40e9-80a1-48ec62171275/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset, Enlightened Exile
@@ -1495,6 +1521,7 @@ schema: 2
   - *2023-05-12* — Narset's first ability gives it prowess while it's on the battlefield.
   - *2023-05-12* — Once a prowess ability triggers, causing the creature to lose prowess by removing Narset, Enlightened Exile won't affect that ability. The creature will still get +1/+1 until end of turn.
   - *2023-05-12* — You cast the copy while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/N.md#narset-enlightened-exile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/38/narset-enlightened-exile) · oracle_id `d92725de-ead0-4a6c-83db-55ec3acc7184` · printing: MAT #38 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset, Enlightened Master
@@ -1513,6 +1540,7 @@ schema: 2
   - *2014-09-20* — If the card has {X} in its mana cost, you must choose 0 as the value for X when casting it.
   - *2014-09-20* — The cards are exiled face up. Casting the noncreature cards exiled this way follows the normal rules for casting those cards. You must follow all applicable timing rules. For example, if one of the exiled cards is a sorcery card, you can cast it only during your main phase while the stack is empty.
   - *2014-09-20* — You can't play any land cards exiled with Narset.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#narset-enlightened-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/931/narset-enlightened-master) · oracle_id `aeaf7768-ed67-487d-8506-e667babb88ba` · printing: CMM #931 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset, Jeskai Waymaster
@@ -1527,6 +1555,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12062 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-04-04* — You may choose to discard your hand even if your hand contains zero cards.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#narset-jeskai-waymaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/209/narset-jeskai-waymaster) · oracle_id `1a2a74b8-0689-4959-9348-02cc832194cf` · printing: TDM #209 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset of the Ancient Way
@@ -1546,6 +1575,7 @@ schema: 2
   - *2020-04-17* — Narset's second ability goes on the stack without a target. While that ability is resolving, you draw a card and may choose to discard a card. When you discard a nonland card this way, the reflexive triggered ability triggers and you pick a target to be dealt damage. This is different from effects that say "If you do . . ." in that you choose a target after looking at the card you draw and players can respond to the reflexive triggered ability knowing how much damage will be dealt.
   - *2020-04-17* — The emblem created by Narset's last ability is colorless. The damage it deals is from a colorless source.
   - *2020-04-17* — You can discard a card even if Narset leaves the battlefield before her middle ability resolves. The reflexive triggered ability will still trigger if you discard a nonland card.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/N.md#narset-of-the-ancient-way)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/930/narset-of-the-ancient-way) · oracle_id `b7ac6e89-941f-4ad9-a437-38ec38ec5263` · printing: CMM #930 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset, Parter of Veils
@@ -1562,6 +1592,7 @@ schema: 2
   - *2019-05-03* — Narset will "see" cards drawn by opponents earlier in the turn she entered the battlefield, although Narset can't affect cards drawn before she entered the battlefield. For example, if an opponent draws two cards, then Narset enters the battlefield, that opponent can't draw more cards that turn, but the two drawn cards are unaffected.
   - *2019-05-03* — Replacement effects (such as that of Underrealm Lich or the first ability of Jace, Wielder of Mysteries) can't be used to replace draws that Narset disallows. However, if an opponent's first draw is replaced (by Underrealm Lich's ability, for example), that draw didn't happen and Narset won't stop the next draw (which may also be replaced by Underrealm Lich's ability).
   - *2019-05-03* — Your opponents can each draw a maximum of one card each on each player's turn. Subsequent card draws during that turn are ignored.
+- **Referenced in:** 6 pages (2 decks · 1 edh guides · 1 lore & story · 2 card data) → [reverse index](../../references/N.md#narset-parter-of-veils)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/853/narset-parter-of-veils) · oracle_id `ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f` · printing: CMM #853 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset's Rebuke
@@ -1574,6 +1605,7 @@ schema: 2
   > *With a swift motion Narset struck Sarkhan down. She would not let his fevered dreams of draconic dominance come to fruition. Not after all she had done to free Tarkir.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19763 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#narsets-rebuke)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/114/narsets-rebuke) · oracle_id `247075c5-62f8-41a1-91b3-562ff0aabb30` · printing: TDM #114 (2025-04-11) · [rulings](https://api.scryfall.com/cards/5098bd73-d51c-4db4-bf06-fd4854089d37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset's Reversal
@@ -1596,6 +1628,7 @@ schema: 2
   - *2019-05-03* — The controller of a copy can’t choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
   - *2019-05-03* — The copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger.
   - *2019-05-03* — The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/N.md#narsets-reversal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/92/narsets-reversal) · oracle_id `d55f6c70-321f-4fb4-bd33-0850ae1a7c36` · printing: TDC #92 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset Transcendent
@@ -1611,6 +1644,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-02-25* — If a spell that exiles itself as part of its own resolution, such as Volcanic Vision, gains rebound, the ability that lets you cast the spell again won’t be created. The spell will simply be exiled.
   - *2015-02-25* — When resolving Narset’s first ability, if the top card of your library is a creature or a land card, or if you don’t wish to put it into your hand, it isn’t revealed.
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/N.md#narset-transcendent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/225/narset-transcendent) · oracle_id `e1de0c94-0ecc-425a-9b92-27c2745d07e7` · printing: DTK #225 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narstad Scrapper
@@ -1647,6 +1681,7 @@ schema: 2
   - *2018-04-27* — The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
   - *2018-04-27* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
   - *2018-04-27* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/N.md#naru-meha-master-wizard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/124/naru-meha-master-wizard) · oracle_id `562c9c68-e5a7-45ab-b098-5b649d165ff5` · printing: C21 #124 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narwhal
@@ -1702,6 +1737,7 @@ schema: 2
   - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
   - *2022-02-18* — You may only cast a spell this way by paying the appropriate amount of life. You may not pay its normal cost and may not pay any other alternative costs. You may still pay for additional costs, such as kicker costs. If the spell has mandatory additional costs, you must pay those.
   - *2022-02-18* — You must follow all normal timing rules when casting a spell or playing a land this way. For example, you cannot normally play a land card this way if you have already played a land this turn.
+- **Referenced in:** 5 pages (3 decks · 1 rules · 1 card data) → [reverse index](../../references/N.md#nashi-moon-sages-scion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/143/nashi-moon-sages-scion) · oracle_id `d04b6c2c-50fc-464d-9991-230efec70d2b` · printing: OTC #143 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nashi, Moon's Legacy
@@ -1762,6 +1798,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18870 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-06-29* — Nasty Little Rabbit's ability will check at the start of your beginning of combat step to see if you control a creature with power 4 or greater. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't control a creature with power 4 or greater at that time, the ability won't resolve.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nasty-little-rabbit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/130/nasty-little-rabbit) · oracle_id `ee86cce6-c7c1-40a6-896b-cde9b86bb532` · printing: HOB #130 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nathan Drake, Treasure Hunter
@@ -1776,6 +1813,7 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14513 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nathan-drake-treasure-hunter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2216/nathan-drake-treasure-hunter) · oracle_id `ed69b907-272c-4a87-a943-06aaad976fb1` · printing: SLD #2216 (2025-10-27) · [rulings](https://api.scryfall.com/cards/1bb5f991-4d05-48b2-ac8d-81fd9ef7f4bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nath of the Gilt-Leaf
@@ -1841,6 +1879,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23313 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — You are not required to find all the basic lands you are entitled to.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#natural-balance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/231/natural-balance) · oracle_id `69acaa6f-3ba2-420c-9069-02958f844121` · printing: MIR #231 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Natural Connection
@@ -1892,6 +1931,7 @@ schema: 2
   > *—Iveta, rooftop runner*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2429 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/N.md#naturalize)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/190/naturalize) · oracle_id `bdb3ca68-ec1f-4e16-81cc-d23f8f52c728` · printing: M19 #190 (2018-07-13) · [rulings](https://api.scryfall.com/cards/390c40ba-2464-44ae-8d67-93c72ab3c425/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Naturalize 2
@@ -1951,6 +1991,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-06-08* — Players can respond to this spell only after it's been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to stop you from casting this spell or to make you sacrifice a different one.
   - *2016-06-08* — Sacrificing a green creature is part of Natural Order's cost. You can't sacrifice more creatures to search for more creature cards, and you can't cast Natural Order at all if you control no green creatures.
+- **Referenced in:** 5 pages (1 decks · 2 edh guides · 2 card data) → [reverse index](../../references/N.md#natural-order)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/177/natural-order) · oracle_id `8c1fe337-375a-4add-93b6-0ac39ed72b4f` · printing: EMA #177 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Natural Reclamation
@@ -1972,6 +2013,7 @@ schema: 2
   - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#natural-reclamation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/829/natural-reclamation) · oracle_id `98266582-12fd-4a7b-a9bb-e9cc4370ed28` · printing: CLB #829 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Natural Selection
@@ -1983,6 +2025,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28382 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2007-07-15* — This is now targeted.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#natural-selection)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2ed/213/natural-selection) · oracle_id `57f90b30-bcb0-447e-8788-5c5ded187207` · printing: 2ED #213 (1993-12-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Natural Spring
@@ -2037,6 +2080,7 @@ schema: 2
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
   - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
   - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/N.md#natural-unity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/9/natural-unity) · oracle_id `3deb19f6-c1a3-4bca-a6ae-df5d0b42a66e` · printing: CN2 #9 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nature's Blessing
@@ -2092,6 +2136,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #382 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — If the target artifact or enchantment is an illegal target by the time Nature's Claim tries to resolve, the spell doesn't resolve. No player gains 4 life. If the target is legal but not destroyed (most likely because it has indestructible), its controller does gain 4 life.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/N.md#natures-claim)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/177/natures-claim) · oracle_id `6d4e558e-9109-4918-a082-fdcbaffd516b` · printing: IMA #177 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nature's Cloak
@@ -2150,6 +2195,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — You may find a basic Forest or any land card with the land type Forest.
+- **Referenced in:** 15 pages (12 decks · 2 edh guides · 1 card data) → [reverse index](../../references/N.md#natures-lore)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/177/natures-lore) · oracle_id `78826359-fe63-44ad-adc4-a17ffcd710e4` · printing: MSC #177 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nature's Panoply
@@ -2207,6 +2253,7 @@ schema: 2
 - **Keywords:** Harmonize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #861 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/N.md#natures-rhythm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/150/natures-rhythm) · oracle_id `0259f063-3e3f-4e07-9066-f748d4819829` · printing: TDM #150 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1397d904-c51d-451e-8505-7f3118acc1f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nature's Ruin
@@ -2232,6 +2279,7 @@ schema: 2
   > *—\*The Antiquities War\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12596 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#natures-spiral)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/175/natures-spiral) · oracle_id `565922d6-8152-411f-8d4d-dc7c8523a49b` · printing: DOM #175 (2018-04-27) · [rulings](https://api.scryfall.com/cards/6666b95e-80de-4bf7-bae6-8a7e991b38ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nature's Way
@@ -2262,6 +2310,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2588 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-12-01* — The lands are tapped and untapped once each time combat damage is dealt (usually once each turn, but first strike, double strike, and multiple combat phases can change that), not once for each creature that deals combat damage.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#natures-will)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/230/natures-will) · oracle_id `9837287b-d821-4655-8f01-93fc6c7f0ecc` · printing: CHK #230 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nature's Wrath
@@ -2300,6 +2349,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18097 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — All creatures on the battlefield when Nausea resolves are affected. Ones that enter the battlefield or become creatures later in the turn are not.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nausea)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/97/nausea) · oracle_id `2b8abae2-dd15-41ee-81ae-6a463723b43e` · printing: EMA #97 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nautiloid Ship
@@ -2316,6 +2366,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3270 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-06-10* — If Nautiloid Ship leaves the battlefield and later returns to the battlefield, it is a new object with no memory of its previous existence. Specifically, you can't use its third ability to put cards onto the battlefield that were exiled with it the last time it was on the battlefield.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/N.md#nautiloid-ship)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/328/nautiloid-ship) · oracle_id `613a8774-165e-4cf6-ad43-124f9ffc9980` · printing: CLB #328 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Navigation Orb
@@ -2405,6 +2456,7 @@ schema: 2
   - *2008-10-01* — If this spell is copied, the copy will have the same mode as the original.
   - *2008-10-01* — While the spell is on the stack, treat it as though its only text is the chosen mode. The other two modes are treated as though they don't exist. You don't choose targets for those modes.
   - *2008-10-01* — You can choose a mode only if you can choose legal targets for that mode. If you can't choose legal targets for any of the modes, you can't cast the spell.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/N.md#naya-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/162/naya-charm) · oracle_id `20cc0f3e-de69-4e5f-88b3-ae7e6c6b5996` · printing: DMC #162 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Naya Hushblade
@@ -2429,6 +2481,7 @@ schema: 2
   > *Between the thunderous footfalls of Naya's behemoths lie moments of perfect quiet.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4569 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/N.md#naya-panorama)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/417/naya-panorama) · oracle_id `71e28800-c42c-48c0-95e5-0296be54a4e8` · printing: NCC #417 (2022-04-29) · [rulings](https://api.scryfall.com/cards/6a546a28-8df5-4080-9f50-af86d84a066f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Naya Sojourners
@@ -2496,6 +2549,7 @@ schema: 2
   - *2024-11-08* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Nazar's second ability triggers only once.
   - *2024-11-08* — In a Two-Headed Giant game, life gained by your teammate won't cause Nazar's second ability to trigger, even though it caused your team's life total to increase.
   - *2024-11-08* — Nazar's second ability triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nazar-the-velvet-fang)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/43/nazar-the-velvet-fang) · oracle_id `beeed1c5-2f51-4e40-87b9-9a6f810ee4cb` · printing: J25 #43 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nazgûl
@@ -2521,6 +2575,7 @@ schema: 2
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
   - *2023-06-16* — The last ability of Nazgûl also lets you ignore the "singleton" rule in formats like Commander.
   - *2023-06-16* — The last ability of Nazgûl lets you ignore the "four-of" rule. It doesn't let you ignore format legality. For example, during a The Lord of the Rings: Tales of Middle-earth™ Limited event, you can't add Nazgûl from your personal collection, no matter how much Sauron might want you to.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nazgûl)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/100/nazg%C3%BBl) · oracle_id `48a62778-7c11-486f-a0e1-020c283a7ef9` · printing: LTR #100 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nazgûl Battle-Mace

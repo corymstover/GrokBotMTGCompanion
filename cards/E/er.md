@@ -187,6 +187,7 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-01-11* *(Scryfall note)* — This card recieved errata for its flavor text on Gatherer: http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=74275
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#erase-not-the-urzas-legacy-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/10/erase-(not-the-urzas-legacy-one)) · oracle_id `bd8bc323-5f9f-4251-845a-b6284661ec50` · printing: UNH #10 (2004-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erayo, Soratami Ascendant // Erayo's Essence
@@ -205,6 +206,7 @@ schema: 2
   - *2005-06-01* — Erayo’s Essence triggers only for the first spell an opponent casts in a given turn. It doesn’t trigger off any other spell that player casts after the first.
   - *2005-06-01* — If Erayo, Soratami Ascendant flips while an opponent’s first spell for the turn is still on the stack, the ability of Erayo’s Essence doesn’t trigger because the opponent’s spell has already been cast. The spell isn’t countered.
   - *2005-06-01* — If you have multiple opponents, Erayo’s Essence can trigger once for each opponent.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/E.md#erayo-soratami-ascendant--erayos-essence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/35/erayo-soratami-ascendant-erayos-essence) · oracle_id `d83bb32d-f409-421a-9d93-bd7ea3240b47` · printing: SOK #35 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erdwal Illuminator
@@ -311,6 +313,7 @@ schema: 2
   - *2020-01-24* — The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#erebos-god-of-the-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/85/erebos-god-of-the-dead) · oracle_id `1cfc7b12-a595-492d-81ee-bd100ba7de6a` · printing: THS #85 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erebos's Emissary
@@ -423,6 +426,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — By default, the controller of a Role token is the player who created it, even if that Role token is attached to a creature they don't control.
   - *2023-09-01* — Count the number of Auras you control as the ability resolves to determine the value of X.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/E.md#eriette-of-the-charmed-apple)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/307/eriette-of-the-charmed-apple) · oracle_id `f43f5855-f297-4433-984b-18263b734cfc` · printing: SOC #307 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eriette's Lullaby
@@ -448,6 +452,7 @@ schema: 2
   > {2}, {T}, Sacrifice Eriette's Tempting Apple: Target opponent loses 3 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8359 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#eriettes-tempting-apple)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/245/eriettes-tempting-apple) · oracle_id `b26a2875-c704-491a-b82d-07c316e53611` · printing: WOE #245 (2023-09-08) · [rulings](https://api.scryfall.com/cards/5b61711f-8982-4ff0-86ba-01e0125cd705/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eriette's Whisper
@@ -509,6 +514,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#erinis-gloom-stalker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/230/erinis-gloom-stalker) · oracle_id `1b76a54d-5a9f-4b1b-a075-4b4c4de8ba0a` · printing: CLB #230 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eris, Roar of the Storm
@@ -527,6 +533,7 @@ schema: 2
   - *2024-04-12* — Spells that were cast before Eris entered the battlefield count. If Eris was the first spell you cast this turn, the next spell you cast this turn is your second spell.
   - *2024-04-12* — The mana value of a double-faced card in your graveyard is always the mana value of the front face.
   - *2024-04-12* — The mana value of a split card in the graveyard is the total mana value of both halves of that card. It does not have two mana values.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/E.md#eris-roar-of-the-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/5/eris-roar-of-the-storm) · oracle_id `918991a6-7321-419d-8f3d-150fe32d02d2` · printing: OTC #5 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erithizon
@@ -569,6 +576,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1782 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — If the target is illegal as Erode tries to resolve, it won't resolve and none of its effects will happen. No player will search their library.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#erode)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/15/erode) · oracle_id `2e467fab-e808-44d3-99bf-e3621baeb7cb` · printing: SOS #15 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eroded Canyon
@@ -660,6 +668,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — Errant and Giada lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don’t have priority. This action doesn’t use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
   - *2023-04-14* — If the top card of your library changes while you’re casting a spell, playing a land, or activating an ability, you can’t look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can’t look at the next one until you’re done paying for that spell.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#errant-and-giada)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/224/errant-and-giada) · oracle_id `24697554-02fa-48ba-b51d-6bba3f85c293` · printing: MOM #224 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Errant Doomsayers
@@ -818,6 +827,7 @@ schema: 2
   > *"In Barrin's name!" cried Lyna as Hanna's sword passed through her, "Ertai sends word that the portal is open—but not for long!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9118 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#erratic-portal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/222/erratic-portal) · oracle_id `4a85cd7e-625b-4043-b7f1-999def26eb36` · printing: TPR #222 (2015-05-06) · [rulings](https://api.scryfall.com/cards/d6a72bdb-102b-40a6-82ff-caa4dbfe1175/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erratic Visionary
@@ -896,6 +906,7 @@ schema: 2
   - *2022-09-09* — Activated abilities are written in the form “Cost: Effect.” Some keyword abilities, such as equip and crew, are activated abilities and will have colons in their reminder texts.
   - *2022-09-09* — If you counter a delayed triggered ability that triggers at the beginning of the “next” occurrence of a specified step or phase, that ability won’t trigger again the following time that phase or step occurs.
   - *2022-09-09* — Triggered abilities use the word “when,” “whenever,” or “at.” They’re often written as “[Trigger condition], [effect].” Some keyword abilities, such as prowess and fabricate, are triggered abilities and will have “when,” “whenever,” or “at” in their reminder text.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#ertai-resurrected)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/199/ertai-resurrected) · oracle_id `3d038f7c-95fa-4b71-8f74-b9b4dd45cde0` · printing: DMU #199 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ertai's Familiar
@@ -911,6 +922,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28181 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2008-04-01* — Activating the activated ability will prevent Ertai’s Familiar from phasing out for any reason, not just due to its own phasing ability.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/E.md#ertais-familiar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/38/ertais-familiar) · oracle_id `711cd80d-c58d-4c2a-87db-d2e4c75f60d3` · printing: WTH #38 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ertai's Meddling
@@ -947,6 +959,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9493 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-09-09* — If multiple opponents have each cast two or more spells this turn, Ertai’s Scorn costs only {U} less to cast, not {U} less for each of them.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#ertais-scorn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/48/ertais-scorn) · oracle_id `76e6c0e7-593a-4b4a-9eb6-a912f9c3f26f` · printing: DMU #48 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ertai's Trickery
@@ -1010,6 +1023,7 @@ schema: 2
   - *2024-04-12* — The copy made by Ertha Jo's triggered ability is created on the stack, so it's not "activated."
   - *2024-04-12* — The copy will have the same targets as the ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
   - *2024-04-12* — The source of the copy is the same as the source of the original ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#ertha-jo-frontier-mentor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/203/ertha-jo-frontier-mentor) · oracle_id `0a66ce8b-af99-411f-8ecb-52a5d2f6af3d` · printing: OTJ #203 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erudite Wizard
@@ -1038,4 +1052,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6367 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-11-19* — You may choose to apply Eruth's replacement effect even if there are fewer than two cards in your library. If there are no cards in your library, you won't exile any cards this way, but you also won't lose the game for having attempted to draw from an empty library.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eruth-tormented-prophet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/237/eruth-tormented-prophet) · oracle_id `a0380b63-58ef-4545-beec-6ad307bbc21b` · printing: VOW #237 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

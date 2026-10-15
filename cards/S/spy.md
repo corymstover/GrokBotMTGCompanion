@@ -60,6 +60,7 @@ schema: 2
   - *2023-11-10* — Map tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Map and the ability "{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery."
   - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
   - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#spyglass-siren)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/78/spyglass-siren) · oracle_id `4ec9d9eb-14e2-47ea-88a2-d2394e363784` · printing: LCI #78 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spy Kit
@@ -95,6 +96,7 @@ schema: 2
   - *2024-06-07* — If no cards are discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive any +1/+1 counters.
   - *2024-06-07* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard cards but before it receives +1/+1 counters, if any.
   - *2024-06-07* — You must already control a Swamp as Spymaster's Vault enters the battlefield for it to enter untapped. If it enters the battlefield at the same time as a Swamp when you control no other Swamps, it will enter tapped.
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/S.md#spymasters-vault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/230/spymasters-vault) · oracle_id `69ddca4b-5cc0-45f3-b2e6-a047c8d601be` · printing: MH3 #230 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spy Network

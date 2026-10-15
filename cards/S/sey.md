@@ -33,4 +33,5 @@ schema: 2
   > *"Your hope ends here. And your meaningless existence with it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12604 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#seymour-flux)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/558/seymour-flux) · oracle_id `7312efc2-8a02-47cd-874b-c3338241435e` · printing: FIN #558 (2025-06-13) · [rulings](https://api.scryfall.com/cards/c5fdc78e-0815-443c-8c26-35387b6f4f37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -368,6 +368,7 @@ schema: 2
 - **Keywords:** Throw ..., ... Catch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7815 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-america-first-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mar/88/captain-america-first-avenger) · oracle_id `7d038055-035d-4698-b6b6-e2859bf2f1d1` · printing: MAR #88 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0669ffcf-30c1-4d90-ae5f-3deca0f82526/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain America, Liberator
@@ -408,6 +409,7 @@ schema: 2
 - **Keywords:** Flying, Vigilance, Battalion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16636 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-america-skybound)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/588/captain-america-skybound) · oracle_id `e9566303-15cf-4444-a044-fc19540f21b6` · printing: MSC #588 (2026-06-26) · [rulings](https://api.scryfall.com/cards/49d952d9-8584-435a-bf45-62bf13887083/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain America's Motorcycle
@@ -438,6 +440,7 @@ schema: 2
 - **Keywords:** Indestructible, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5134 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-americas-shield)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/244/captain-americas-shield) · oracle_id `8255a797-ddd3-4db0-a3f5-dd8f38c3b908` · printing: MSH #244 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4b5433ac-0d36-4472-bf8b-d22f0ffd367b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain America, Steve Rogers
@@ -451,6 +454,7 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20197 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-america-steve-rogers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/835/captain-america-steve-rogers) · oracle_id `d2084a6b-3248-4ed4-8fb5-d9c439d1ee72` · printing: MSC #835 (2026-06-26) · [rulings](https://api.scryfall.com/cards/cdbfb76f-0ec1-445f-8341-0a64f495c79f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain America, Super-Soldier
@@ -476,6 +480,7 @@ schema: 2
   > Whenever another Hero you control enters, it gains vigilance and haste until end of turn. Put a +1/+1 counter on that Hero and a +1/+1 counter on Captain America.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11580 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-america-team-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lmar/6/captain-america-team-leader) · oracle_id `916cf34a-fd2c-47fe-bebb-f7b52b3dabed` · printing: LMAR #6 (2026-10-15) · [rulings](https://api.scryfall.com/cards/ff25a4f5-c1de-464b-8153-7678bca847a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain America, Unbowed
@@ -505,6 +510,7 @@ schema: 2
 - **Keywords:** Flying, First strike, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11789 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-america-wings-of-freedom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/10/captain-america-wings-of-freedom) · oracle_id `942ac2ac-7528-4768-8398-8520a8ee15e5` · printing: MSH #10 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c87ca9ce-5034-4137-99cc-c2b28f298912/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain Howler, Sea Scourge
@@ -545,6 +551,7 @@ schema: 2
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #24435 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-kathryn-janeway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/187/captain-kathryn-janeway) · oracle_id `d77d1895-ce02-4302-87c9-649e852fd0ea` · printing: TRK #187 (2026-11-13) · [rulings](https://api.scryfall.com/cards/d17ea45c-7f9c-411f-b7d3-ca7100ffe53b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain Kirk, Boldly Going
@@ -576,6 +583,7 @@ schema: 2
   - *2017-09-29* — Captain Lannery Storm's last ability triggers whenever you sacrifice a Treasure for any reason, not just to activate a Treasure's mana ability.
   - *2017-09-29* — If you sacrifice Treasures to cast Captain Lannery Storm, its last ability won't trigger for those Treasures.
   - *2017-09-29* — You can activate the mana ability of a Treasure even if you have nothing to spend that mana on.
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/C.md#captain-lannery-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/158/captain-lannery-storm) · oracle_id `235bf0ba-658c-463f-b112-7478ba27bd7b` · printing: OTC #158 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain Marvel, Apex Avenger
@@ -648,6 +656,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4478 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-nghathrod)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/646/captain-nghathrod) · oracle_id `cfb23c6b-6e4a-4fc9-b3bb-a3ddc2ba06b8` · printing: CLB #646 (2022-06-10) · [rulings](https://api.scryfall.com/cards/55c02dc8-0743-400c-b334-ca029caf0463/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain of the Mists
@@ -759,6 +768,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-01-22* — The token is never declared as an attacking creature. It simply enters the battlefield attacking. This won’t cause any abilities that trigger “whenever a creature attacks” to trigger.
   - *2016-01-22* — You choose which opponent or planeswalker controlled by an opponent the token is attacking as it enters the battlefield. It doesn’t have to be the same opponent or planeswalker that the equipped creature is attacking.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captains-claws)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/162/captains-claws) · oracle_id `4cacd7de-83ac-4767-b6f2-f5a89f04a0b9` · printing: OGW #162 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain's Defense
@@ -800,6 +810,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4502 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-sisay)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/237/captain-sisay) · oracle_id `2e7a9ea9-f76c-4c12-950f-c613fa16cfa8` · printing: INV #237 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain's Maneuver
@@ -827,6 +838,7 @@ schema: 2
   > *"To the mother lode, and death take the wary!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6140 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#captain-storm-cosmium-raider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/227/captain-storm-cosmium-raider) · oracle_id `431e85e3-15e6-471b-ba71-6058394c9a96` · printing: LCI #227 (2023-11-17) · [rulings](https://api.scryfall.com/cards/14c65f5a-10bd-4f9b-b816-46c2240b11ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain's Tutelage
@@ -882,6 +894,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3586 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-09-29* — You can target and gain control of an untapped creature this way.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#captivating-crew)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/159/captivating-crew) · oracle_id `1049bc06-83de-4ed6-ae38-f259e5038a95` · printing: OTC #159 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captivating Glance
@@ -945,6 +958,7 @@ schema: 2
   - *2010-08-15* — Gaining control of a creature doesn’t cause you gain control of any Auras or Equipment attached to it.
   - *2010-08-15* — Since Captivating Vampire’s activated ability doesn’t have a tap symbol in its cost, you can tap a Vampire (including Captivating Vampire itself) that hasn’t been under your control since your most recent turn began to pay the cost.
   - *2010-08-15* — The effect of Captivating Vampire’s activated ability has no duration. You retain control of the affected creature until the game ends, the creature leaves the battlefield, or a later effect causes someone else to gain control of it. It doesn’t matter whether Captivating Vampire remains on the battlefield. Similarly, the affected creature remains a Vampire in addition to its other types until the game ends, the creature leaves the battlefield, or a later effect changes its types or subtypes.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/C.md#captivating-vampire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/100/captivating-vampire) · oracle_id `acd382ee-94fb-4a29-b14e-c2a3c6dde7e0` · printing: INR #100 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captive Audience
@@ -1035,6 +1049,7 @@ schema: 2
   - *2016-09-20* — When a player casts an Aura spell, it targets the creature that it will enchant and may cause Captured by the Consulate's last ability to trigger.
   - *2016-09-20* — When you attach Captured by the Consulate to an opponent's creature, you still control Captured by the Consulate. Its last ability triggers whenever your opponents cast a spell with a single target, not when an opponent of the creature's controller casts a spell with a single target.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#captured-by-the-consulate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/8/captured-by-the-consulate) · oracle_id `da164485-c985-42fa-819e-42f0d33237c5` · printing: KLD #8 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captured Sunlight
@@ -1068,6 +1083,7 @@ schema: 2
   > *The province of Jingzhou was the fulcrum of the three kingdoms. At separate times it was coveted and controlled by the Wu, the Shu, and the Wei.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5160 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/C.md#capture-of-jingzhou)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/79/capture-of-jingzhou) · oracle_id `89aa65d9-2502-40b0-90b6-b25a8e9f6155` · printing: CMM #79 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f87d0298-f76b-4ea8-82c4-5861c4539d8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Capture Sphere

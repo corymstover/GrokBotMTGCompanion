@@ -47,6 +47,7 @@ schema: 2
   > Whenever you attack, put a quest counter on target nonland permanent you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15239 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moira-brown-guide-author)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/110/moira-brown-guide-author) · oracle_id `db02644b-820f-4102-b1f6-ed8fac40baf8` · printing: PIP #110 (2024-03-08) · [rulings](https://api.scryfall.com/cards/418ce6f6-b483-4695-aaf5-e4f7eeb9eb16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moira, Urborg Haunt

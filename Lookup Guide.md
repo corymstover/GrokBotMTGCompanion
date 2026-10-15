@@ -5,7 +5,7 @@ tags: [lookup, retrieval]
 issues: [46]
 generated_by: hand-written
 sources: []
-related: ["Front-Matter Schema.md", "FAQ.md", "Format Legality Matrix.md", "Knowledge Index.md", "ROADMAP.md", "Art & Flavor Story Links.md"]
+related: ["Front-Matter Schema.md", "Characters Index.md", "EDH Packages.md", "FAQ.md", "Format Legality Matrix.md", "Knowledge Index.md"]
 schema: 2
 ---
 
@@ -33,6 +33,7 @@ schema: 2
 | Printings, first/latest set, reprint gaps, Reserved List | [Printing History](Printing%20History.md) · `data/printings_summary.csv` | `rg -i '^"?Sol Ring,' data/printings_summary.csv` |
 | Who illustrated what | [Artist Index](Artist%20Index.md) · `data/artists.csv` | `rg -i '^"?Rebecca Guay,' data/artists.csv` |
 | Tokens, emblems, dungeons (🚫 not cards) | [Tokens, Emblems & Dungeons](Tokens%2C%20Emblems%20%26%20Dungeons.md) · `data/tokens.json` | `python3 -c "import json;print([o for o in json.load(open('data/tokens.json'))['objects'] if o['name']=='Treasure'])"` |
+| Where a card is discussed (decks, guides, rules, lore) | [Reverse card index](references/README.md) · the card entry's *Referenced in* line | `python3 scripts/kb_find.py "Sol Ring"` prints the count and the index anchor; `data/card_refs.json` |
 | Which cards have entries (coverage) | [Card Index](Card%20Index.md) · `data/card_index.csv` | 33,894 rows, one per card |
 
 ## Rules
@@ -51,6 +52,7 @@ schema: 2
 | An archetype plan | [EDH Archetypes](EDH%20Archetypes.md) → [EDH Packages](EDH%20Packages.md) → [EDH Win Conditions](EDH%20Win%20Conditions.md) / [EDH Interaction](EDH%20Interaction.md) |
 | Lands for an identity | [EDH Mana Bases](EDH%20Mana%20Bases.md) |
 | Partner / Background pairs | [EDH Pairings](EDH%20Pairings.md) |
+| Which decks run a package (and which packages a deck runs) | [EDH Packages](EDH%20Packages.md) *Used in decks* lines · each deck's *Cross-references* block |
 | A full list to start from | [decks/](decks/) (46 validated) · [EDH Themed Decks](EDH%20Themed%20Decks.md) · [EDH Upgrade Paths](EDH%20Upgrade%20Paths.md) |
 | Competitive (Bracket 5) | ⚠️ [cEDH Primer](cEDH%20Primer.md) only |
 | A refined Grixis (U/B/R) list with the reasoning behind it | [grixis/](grixis/README.md) (40 decks) · `rg -l '^kind: grixis' grixis/decks/` |
@@ -61,6 +63,7 @@ schema: 2
 | I need… | Go to |
 |---|---|
 | A character's current status | [Characters Index](Characters%20Index.md) (status at a glance) |
+| Cards named after a character | [Characters Index → Character cards](Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards](Planeswalker%20Dossiers.md#character-cards-name-matched) (name matches, not canon claims) |
 | A Planeswalker's life story / spark | [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |
 | What happened in a set's story | [Story Arc Summaries](Story%20Arc%20Summaries.md) (beats with citations) → [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) (one entry per arc, incl. older arcs) |
 | When something happened | [Master Timeline](Master%20Timeline.md) |

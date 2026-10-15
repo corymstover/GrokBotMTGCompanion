@@ -161,6 +161,7 @@ schema: 2
   > *—Jor Kadeen*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2763 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#infectious-bite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/172/infectious-bite) · oracle_id `7b740cd6-e07d-4273-8a7f-e084bdaf0f1c` · printing: ONE #172 (2023-02-10) · [rulings](https://api.scryfall.com/cards/83dfb2a5-cd5c-46c6-9bb8-7c5d00f3e003/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infectious Bloodlust
@@ -215,6 +216,7 @@ schema: 2
   > *"I give you pain, you give me information. A simple trade, is it not?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2482 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#infectious-inquiry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/97/infectious-inquiry) · oracle_id `66051196-53ea-4461-b241-205df9395b3b` · printing: ONE #97 (2023-02-10) · [rulings](https://api.scryfall.com/cards/0a10f284-b043-4307-bdc7-6dad47cc9221/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infectious Rage
@@ -251,6 +253,7 @@ schema: 2
   - *2024-06-07* — You can target an artifact or creature you already control (including Infernal Captor) with Infernal Captor's last ability just to untap that permanent and give it haste.
   - *2024-06-07* — You can't sacrifice more than one creature to any one exploit ability.
   - *2024-06-07* — You choose whether to sacrifice a creature and which creature to sacrifice as the exploit ability resolves.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/I.md#infernal-captor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/125/infernal-captor) · oracle_id `2f0dec6c-797f-4dc3-9994-066c00cbf1a4` · printing: MH3 #125 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Caretaker
@@ -334,6 +337,7 @@ schema: 2
   > *Ancient evils dwell within the burning chasm called the Ashmouth, ever ready to devour those foolish enough to travel alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #264 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/I.md#infernal-grasp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/216/infernal-grasp) · oracle_id `94f0a572-e91c-4b56-a5d1-6cbbeabd210d` · printing: SOC #216 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f67b323d-0dda-45f8-84b7-d883ce5045a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Harvest
@@ -351,6 +355,7 @@ schema: 2
   - *2004-10-04* — If X is 0, you can’t choose any targets.
   - *2004-10-04* — The return of X of your Swamps to your hand is part of the cost and is paid on casting. You do not have a choice to pay this cost zero times or more than one time in order to multiply the effect.
   - *2004-10-04* — You can use X as being zero.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#infernal-harvest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/62/infernal-harvest) · oracle_id `b8c8cde9-34db-4185-86f5-4289969880c5` · printing: VIS #62 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Idol
@@ -455,6 +460,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
   - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#infernal-plunge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/148/infernal-plunge) · oracle_id `0b67dff0-5bb7-44fe-a72b-d3b1a6c0ee72` · printing: ISD #148 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Rebirth
@@ -614,6 +620,7 @@ schema: 2
   > *—Jaya Ballard, task mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19255 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inferno)
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/196/inferno) · oracle_id `69e2df4e-c7f3-4c3a-be5b-1c4afb29cead` · printing: 8ED #196 (2003-07-28) · [rulings](https://api.scryfall.com/cards/bf6895de-9c74-49a0-a71c-1e55a6897dfa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inferno Elemental
@@ -695,6 +702,7 @@ schema: 2
   - *2021-07-23* — However, if you have a way to decrease its power, you can cause the triggered ability to trigger multiple times in a single turn.
   - *2021-07-23* — That triggered ability triggers only if the activated ability causes the power of Inferno of the Star Mounts to become exactly 20. If its power becomes 20 in any other way, the ability won't trigger. If its power becomes 21 or greater this way, the ability won't trigger.
   - *2021-07-23* — You don't choose a target when you activate the activated ability. You choose a target for the linked triggered ability only if it triggers because the power of Inferno of the Star Mounts became 20.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inferno-of-the-star-mounts)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/151/inferno-of-the-star-mounts) · oracle_id `cd54438d-7f9d-4d80-b15b-0f0bf4becc15` · printing: AFR #151 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inferno Project
@@ -792,6 +800,7 @@ schema: 2
   > *"I control the swarm. If you strike me down, there will be nothing left to hold back their hunger."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3862 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/I.md#infestation-sage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/64/infestation-sage) · oracle_id `d398dca3-f3a5-44c9-998f-b4fce9e5c2bf` · printing: FDN #64 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d40c73de-7a5f-46f2-a70b-449bc8ecfe24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infested Fleshcutter
@@ -812,6 +821,7 @@ schema: 2
   - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
   - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#infested-fleshcutter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/17/infested-fleshcutter) · oracle_id `e9c03ed6-34dd-46f7-ab41-8004348328cc` · printing: ONE #17 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infested Roothold
@@ -878,6 +888,7 @@ schema: 2
   > *Getting in was the easy part. Getting out proved to be more difficult.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17900 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#infiltrate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/33/infiltrate) · oracle_id `081764b4-ef96-44aa-836c-05353efd215c` · printing: NEM #33 (2000-02-14) · [rulings](https://api.scryfall.com/cards/c549b817-8ad6-44d0-9761-5e4ff9e62c71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infiltration Lens
@@ -1028,6 +1039,7 @@ schema: 2
   - *2012-05-01* — Infinite Reflection can enchant a creature controlled by another player.
   - *2012-05-01* — Other "enters" replacement abilities printed on the creature entering won't be applied because the creature will already be a copy of the enchanted creature at that point (and therefore it won't have those abilities). For example, if the enchanted creature is Serra Angel, a creature that normally enters tapped will enter as an untapped copy of Serra Angel, and a creature that would normally enter with counters on it will enter as a copy of Serra Angel with no counters.
   - *2012-05-01* — Replacement effects that modify how a permanent enters are now applied in the following order: control-changing effects (such as Gather Specimens), then copy effects (such as the abilities of Infinite Reflection and Clone), then all other effects.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/I.md#infinite-reflection)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/114/infinite-reflection) · oracle_id `5bbcfb73-cccc-47b0-81ae-17eb7c33ff5e` · printing: C14 #114 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infinity Elemental
@@ -1133,6 +1145,7 @@ schema: 2
   > *"Sir, this may be the information booth, but I cannot answer ontological questions. It would be arrogant to assume I could describe the true nature of reality. Also there's a line."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32320 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#information-booth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/218a/information-booth) · oracle_id `2155f3d8-c876-42bc-b546-a476425a4133` · printing: UNF #218a (2022-10-07) · [rulings](https://api.scryfall.com/cards/015dc10f-d1cb-41ed-a32e-3382540109b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Information Dealer
@@ -1164,6 +1177,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-03-20* — A repartee ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
   - *2026-03-20* — It doesn't matter if the creature or creatures targeted by the spell that caused the repartee ability to trigger leave the battlefield or stop being creatures before that spell resolves. As long as that spell targeted one or more creatures when it was cast, the repartee ability will trigger and later resolve.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#informed-inkwright)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/20/informed-inkwright) · oracle_id `d2a372d8-3eb2-4ba4-a75f-7951654de383` · printing: SOS #20 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infuriate
@@ -1177,6 +1191,7 @@ schema: 2
   > *—Luphea of Setessa, \*Histories\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5579 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#infuriate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/141/infuriate) · oracle_id `d23119ca-73d1-4a48-a8d0-dab8919d891f` · printing: THB #141 (2020-01-24) · [rulings](https://api.scryfall.com/cards/85a74392-4056-428c-a807-b062957e838e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infuse

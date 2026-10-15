@@ -146,6 +146,7 @@ schema: 2
   - *2022-09-09* — Permanents that phase out as The Phasing of Zhalfir's first and second chapter abilities resolve don't phase in during their controllers' untap steps while the Saga is on the battlefield. After it leaves the battlefield, they will phase in during their controller's next untap step as normal.
   - *2022-09-09* — Phased-out permanents are treated as though they don't exist. They can't be the targets of spells or abilities, their static abilities have no effect on the game, their triggered abilities can't trigger, they can't attack or block, and so on.
   - *2022-09-09* — Phasing out doesn't cause any "leaves the battlefield" abilities to trigger. Similarly, phasing in won't cause any "enters the battlefield" abilities to trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-phasing-of-zhalfir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/59/the-phasing-of-zhalfir) · oracle_id `6b92a5f4-a241-48c8-9aec-c8e9d5b01fa5` · printing: DMU #59 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Philosopher
@@ -312,4 +313,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6890 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Rulings** (1):
   - *2024-03-08* — Once an artifact enters the battlefield under your control in a given turn, it doesn't matter what happens to it later. A Knight token created by The Prydwen, Steel Flagship's second ability will still get +2/+2 for the rest of that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-prydwen-steel-flagship)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/22/the-prydwen-steel-flagship) · oracle_id `f6ea8085-5ba9-43b6-994d-04be35c5793b` · printing: PIP #22 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

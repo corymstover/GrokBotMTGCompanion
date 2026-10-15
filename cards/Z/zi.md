@@ -56,6 +56,7 @@ schema: 2
   - *2022-04-29* — The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
   - *2022-04-29* — You don't have to attack with the creature with blitz unless another ability says you do.
   - *2022-04-29* — “If you don't” in the second ability refers to whether you played a land or cast a spell from the top of your library, not just whether or not you cast a spell.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#ziatoras-envoy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/232/ziatoras-envoy) · oracle_id `93fe1d5b-3ab3-431a-9d78-175550ba9d43` · printing: SNC #232 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ziatora's Proving Ground
@@ -71,6 +72,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #536 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 7 pages (3 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/Z.md#ziatoras-proving-ground)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/261/ziatoras-proving-ground) · oracle_id `f7e7b78c-c769-4720-8585-1874773eb342` · printing: SNC #261 (2022-04-29) · [rulings](https://api.scryfall.com/cards/75fdce80-e338-4a50-bdc6-786511feaeef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ziatora, the Incinerator
@@ -85,6 +87,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3141 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-04-29* — Use the creature's power as it last existed on the battlefield to determine how much damage Ziatora deals.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/Z.md#ziatora-the-incinerator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/231/ziatora-the-incinerator) · oracle_id `d46c3fb6-f1c7-4a96-ae42-5bce17fc7c1d` · printing: SNC #231 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zidane, Tantalus Thief
@@ -99,6 +102,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8213 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — If an opponent gains control of Zidane from you, Zidane's last ability will trigger and you'll create a Treasure token. If an opponent gains control of Zidane and one or more other permanents from you simultaneously, Zidane's last ability will trigger for each of those permanents, including itself. This means you'll create a Treasure token for each of those permanents, including Zidane.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zidane-tantalus-thief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/251/zidane-tantalus-thief) · oracle_id `f267fb54-1881-464c-81af-9e03c3f3b41d` · printing: FIN #251 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zilortha, Strength Incarnate
@@ -119,6 +123,7 @@ schema: 2
   - *2020-04-17* — A creature with 0 toughness is put into its owner’s graveyard. This state-based action isn’t a consequence of damage, so Zilortha doesn’t affect it.
   - *2020-04-17* — Any time the game is checking whether damage is lethal or if a creature should be destroyed for having lethal damage marked on it, use the power of your creatures rather than their toughness to check the damage against. This includes being assigned trample damage, damage from Flame Spill, and so on.
   - *2020-04-17* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature you control may become lethal if Zilortha enters or leaves the battlefield during that turn.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/Z.md#zilortha-strength-incarnate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/366/zilortha-strength-incarnate) · oracle_id `2dba8d8d-891e-482e-8014-879f701d0619` · printing: CMM #366 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zimone, All-Questioning
@@ -134,6 +139,7 @@ schema: 2
   - *2024-09-20* — If you don't control a prime number of lands as Zimone's ability tries to resolve, it won't resolve.
   - *2024-09-20* — In case you do end up with more than 31 lands, the remaining prime numbers below 100 are 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, and 97.
   - *2024-09-20* — There are a few more prime numbers, but we couldn't fit them all on the card. (Some of them would take up more room than we have in the text box by themselves, but you probably won't control that many lands.)
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zimone-all-questioning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/340/zimone-all-questioning) · oracle_id `6c044dd1-8938-4d62-a7b2-e2298de08f70` · printing: SOC #340 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zimone and Dina
@@ -165,6 +171,7 @@ schema: 2
   - *2026-03-20* — If you cast your first spell with {X} in its mana cost during a turn before Zimone is on the battlefield, casting another spell with {X} in its mana cost later in the turn won't cause her last ability to trigger. That spell also won't have the cost reduction from Zimone's first ability.
   - *2026-03-20* — Since Zimone's last ability won't trigger until you've finished casting your first spell with {X} in its mana cost each turn, the counters from that ability won't be placed on Zimone until after that spell's cost has been determined. The counters put on Zimone from casting your first spell with {X} in its mana cost do not reduce that same spell's cost. 
   - *2026-03-20* — Zimone's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/Z.md#zimone-infinite-analyst)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/10/zimone-infinite-analyst) · oracle_id `977f9390-e01d-4e9d-8e9c-e543b1266972` · printing: SOC #10 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zimone, Mystery Unraveler
@@ -196,6 +203,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/Z.md#zimone-mystery-unraveler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/8/zimone-mystery-unraveler) · oracle_id `75bf0f27-9df1-4ab4-97a8-94bb3223bdf9` · printing: DSC #8 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zimone, Paradox Sculptor
@@ -262,6 +270,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8486 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — You choose odd or even while Zimone's Hypothesis is resolving. Players can't take any actions between the time you make that choice and the time creatures are returned to their owners' hands.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zimones-hypothesis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/206/zimones-hypothesis) · oracle_id `ae27fa09-ab73-44b4-8e86-44d626ec221d` · printing: SOC #206 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zinnia, Valley's Voice
@@ -288,6 +297,7 @@ schema: 2
   - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it's a 1/1 (unless that creature is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
   - *2024-07-26* — The token created by the offspring ability isn't "cast", so abilities that trigger when a creature spell is cast won't trigger for the copy.
   - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can't try to pay it multiple times to get more token copies.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zinnia-valleys-voice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/4/zinnia-valleys-voice) · oracle_id `d8c16a3a-dd9d-410c-a5d5-06339a89970f` · printing: BLC #4 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zirda, the Dawnwaker
@@ -319,6 +329,7 @@ schema: 2
   - *2020-06-01* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discarded, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
   - *2020-06-01* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
   - *2020-06-01* *(Scryfall note)* — Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can’t be responded to. It can’t be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/Z.md#zirda-the-dawnwaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/233/zirda-the-dawnwaker) · oracle_id `7b515c56-7b1e-42a8-82b0-1b30201fb162` · printing: IKO #233 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zirilan of the Claw

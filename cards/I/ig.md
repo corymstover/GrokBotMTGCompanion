@@ -153,6 +153,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — A Food token is an artifact token with "{2}, {T}, Sacrifice this token: You gain 3 life."
   - *2025-06-06* — If the target card is an illegal target as Ignis Scientia's last ability resolves, it won't resolve and none of its effects will happen. You won't create a Food token even if the target card was a creature card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#ignis-scientia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/227/ignis-scientia) · oracle_id `23320d55-80cb-4da3-a53c-8c75abdc8c8f` · printing: FIN #227 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ignite Disorder
@@ -198,6 +199,7 @@ schema: 2
   > *—Ajani Goldmane*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13343 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#ignite-the-beacon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/18/ignite-the-beacon) · oracle_id `1f74d046-e695-4ad9-a27c-8ff1f30d4c23` · printing: WAR #18 (2019-05-03) · [rulings](https://api.scryfall.com/cards/4e11d6f9-0b80-4b19-ab96-23f80b66b409/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ignite the Future
@@ -221,6 +223,7 @@ schema: 2
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
   - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#ignite-the-future)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/797/ignite-the-future) · oracle_id `915aa871-4c5e-4799-9a07-d7b855df4e7a` · printing: CLB #797 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ignition Team
@@ -254,6 +257,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #535 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-06-18* — A creature attacks alone if it's the only creature declared as an attacker during the declare attackers step (including creatures controlled by your teammates, if applicable). For example, exalted won't trigger if you attack with multiple creatures and all but one of them are removed from combat.
+- **Referenced in:** 9 pages (3 decks · 4 edh guides · 1 rules · 1 card data) → [reverse index](../../references/I.md#ignoble-hierarch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/52/ignoble-hierarch) · oracle_id `c8de43a3-ebd3-4000-b343-a6ffed11d34d` · printing: ECC #52 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ignoble Soldier

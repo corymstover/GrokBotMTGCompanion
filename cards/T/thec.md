@@ -85,6 +85,7 @@ schema: 2
   - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Bosco, Just a Bear's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Bosco, Just a Bear's ability.
   - *2025-10-02* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
   - *2025-10-02* — Whatever you do, don't eat the delicious cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-cabbage-merchant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/134/the-cabbage-merchant) · oracle_id `e31808bb-fb6e-487b-a973-db44961c84ee` · printing: TLE #134 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Caffeinated Runner
@@ -123,6 +124,7 @@ schema: 2
   - *2024-07-05* — The Capitoline Triad’s mana value doesn’t change no matter how many historic cards are in your graveyard.
   - *2024-07-05* — The ability of the emblem created by The Capitoline Triad overwrites all previous effects that set the power and toughness of creatures you control to specific values. Other effects that set these characteristics to specific values that start to apply after the emblem is created will overwrite this effect.
   - *2024-07-05* — The first step of casting a spell is to move it to the stack. If this causes the number of historic cards in your graveyard to change (probably because you are casting The Capitoline Triad from your graveyard), that new number will be used to determine the cost reduction.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-capitoline-triad)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/1/the-capitoline-triad) · oracle_id `e0321049-a3ed-4378-b607-7fb190b6f0fd` · printing: ACR #1 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cauldron of Eternity
@@ -138,6 +140,7 @@ schema: 2
   - *2019-10-04* — Once you announce that you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't try to change by how much a relic's cost is reduced.
   - *2019-10-04* — The cost reduction ability reduces only the generic mana in the relic's cost. The colored mana must still be paid.
   - *2019-10-04* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-cauldron-of-eternity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/82/the-cauldron-of-eternity) · oracle_id `a7308a1f-ec46-478e-86ea-33b2ebbd995f` · printing: ELD #82 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cave of Two Lovers
@@ -219,6 +222,7 @@ schema: 2
   - *2014-07-18* — Each additional time The Chain Veil’s last ability resolves will allow you to activate a loyalty ability of each planeswalker you control an additional time. For example, if you activate The Chain Veil’s last ability, untap it, then activate it again, you can activate a loyalty ability of a planeswalker you control three times that turn.
   - *2014-07-18* — For the first ability, it doesn’t matter whether the planeswalker is still on the battlefield as your end step begins. If you activated one of its loyalty abilities that turn, The Chain Veil’s triggered ability won’t trigger.
   - *2014-07-18* — The second loyalty ability you activate doesn’t have to be the same as the first ability. For example, you could activate a planeswalker’s first ability twice, or you could activate a planeswalker’s first ability, then activate its second ability.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/T.md#the-chain-veil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/943/the-chain-veil) · oracle_id `fb88fb3d-6a85-4bb1-b316-7f759b45a0fa` · printing: CMM #943 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Champion
@@ -271,6 +275,7 @@ schema: 2
   - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#the-chase-is-on)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/116/the-chase-is-on) · oracle_id `789899eb-3a33-4a41-b6b5-5e2f55a9af51` · printing: MKM #116 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cheese Stands Alone
@@ -333,6 +338,7 @@ schema: 2
   - *2019-10-04* — The Circle of Loyalty's triggered ability won't trigger when you cast it because it's not on the battlefield yet.
   - *2019-10-04* — The cost reduction ability reduces only the generic mana in the relic's cost. The colored mana must still be paid.
   - *2019-10-04* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-circle-of-loyalty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/98/the-circle-of-loyalty) · oracle_id `fd1b4523-2399-4771-89bf-1d65f5d67056` · printing: DMC #98 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The City on the Edge of Forever
@@ -346,6 +352,7 @@ schema: 2
   > III — Sacrifice a creature token. If you do, you gain 5 life.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31305 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-city-on-the-edge-of-forever)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/228/the-city-on-the-edge-of-forever) · oracle_id `47c9ef8c-7ba7-4702-bd8c-5fedc59c8166` · printing: TRK #228 (2026-11-13) · [rulings](https://api.scryfall.com/cards/aac6f64d-d39a-4994-bc70-6b477b2640f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Clever Magician
@@ -372,6 +379,7 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9260 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-clone-saga)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/782/the-clone-saga) · oracle_id `0f0282c6-aceb-4879-8ec8-482d0501204a` · printing: MSC #782 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d356ed6b-062f-47c5-a54e-a74dbc0300f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cloning of Shredder
@@ -448,6 +456,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14681 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-coming-of-galactus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/212/the-coming-of-galactus) · oracle_id `e05f23ba-f2b2-4c40-83fa-8defce3cb978` · printing: MSH #212 (2026-06-26) · [rulings](https://api.scryfall.com/cards/04a38b92-619e-4fe8-b0cb-6fa31f0824ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Commander Recommender
@@ -542,6 +551,7 @@ schema: 2
   > *Ambition has a price in Baldur's Gate, and it is paid to the Council.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2050 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/T.md#the-council-of-four)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/271/the-council-of-four) · oracle_id `3dfb006f-6620-4602-ac3c-d40a5a15a981` · printing: CLB #271 (2022-06-10) · [rulings](https://api.scryfall.com/cards/0873cfa8-046c-4b14-ae22-3fd6a691f763/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Countdown Is at One
@@ -682,6 +692,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga’s greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
   - *2022-09-09* — You must search your library as the chapter II ability resolves, and you will lose 3 life.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/T.md#the-cruelty-of-gix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/87/the-cruelty-of-gix) · oracle_id `2b5c62af-af5f-4beb-9688-19604ca46918` · printing: DMU #87 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Crystal's Chosen
@@ -694,6 +705,7 @@ schema: 2
   > *Within the light, the will of the crystal surged through them. They decided to accept their destiny. And so began a journey to dispel the darkness and return light to the world ...*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11640 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-crystals-chosen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/14/the-crystals-chosen) · oracle_id `df4ef2f8-2591-4be3-b905-4f9ff9c538ea` · printing: FIN #14 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d4df4373-0ee6-44e3-81c6-0881c070014c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Curse of Fenric
@@ -708,6 +720,7 @@ schema: 2
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18620 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-curse-of-fenric)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/118/the-curse-of-fenric) · oracle_id `ef7fce1b-0d95-4f92-a8ad-09d9756fa0e4` · printing: WHO #118 (2023-10-13) · [rulings](https://api.scryfall.com/cards/0e399b70-d793-4833-8317-557fa98a611c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Curve Keeper
@@ -739,4 +752,5 @@ schema: 2
   - *2023-10-13* — If the face-down card has a morph ability, its controller may turn it face up by paying the associated morph cost.
   - *2023-10-13* — If, for any reason, the face-down creature is turned face up, the effect making it a Cyberman ends. It will be whatever is printed on the card.
   - *2023-10-13* — The player who controls a face-down permanent may look at it at any time. Notably, if the cards were put on the battlefield face down from another player's library, the player that owns them does not get to look at those cards.
+- **Referenced in:** 5 pages (4 decks · 1 edh guides) → [reverse index](../../references/T.md#the-cyber-controller)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/119/the-cyber-controller) · oracle_id `06c25d71-f3f4-4089-b9bc-de96fbad73a5` · printing: WHO #119 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

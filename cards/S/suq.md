@@ -36,6 +36,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22641 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#suqata-assassin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/69/suqata-assassin) · oracle_id `db43b866-13e0-4336-a580-b64fe1ee5954` · printing: VIS #69 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suq'Ata Firewalker

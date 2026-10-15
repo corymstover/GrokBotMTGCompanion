@@ -86,6 +86,7 @@ PAGES = {
 SUBDIRS = ["grixis"]  # sub-folders whose .md pages must be registered (decks/ folders are handled as decks)
 DECK_DIRS = ["decks", "grixis/decks"]
 SHARD_DIR = "cards"
+REF_DIR = "references"  # reverse card index (Bot cycle 18, #66; scripts/build_crossrefs.py)
 SCHEMA_PAGE = "Front-Matter Schema.md"
 # key: (type, required, meaning)
 SCHEMA = {
@@ -114,6 +115,16 @@ SCHEMA = {
         "plane": ("string", False, "Plane-restricted decks only."),
         "theme": ("string", False, "Theme decks only (EDHREC theme)."),
         "source_repo": ("string", False, "Grixis decks only: the read-only source repository."),
+        "schema": ("int", True, f"Front-matter schema version (currently {SCHEMA_VERSION})."),
+    },
+    "reference": {
+        "title": ("string", True, "The page's H1 (`Reverse card index — L`)."),
+        "category": ("`cards`", True, "Always `cards`."),
+        "kind": ("`reference`", True, "Always `reference`."),
+        "letter": ("string", True, "Card-shard letter folder the page mirrors (`index` for references/README.md)."),
+        "cards": ("int", True, "Number of cited cards listed on the page."),
+        "generated_by": ("`scripts/build_crossrefs.py`", True, "Never hand-edited."),
+        "tags": ("list of tags", True, "Always `[reverse-index, cross-references]`."),
         "schema": ("int", True, f"Front-matter schema version (currently {SCHEMA_VERSION})."),
     },
     "shard": {
@@ -274,6 +285,14 @@ def shard_fm(path, body):
                       f"schema: {SCHEMA_VERSION}", "---", ""])
 
 
+def ref_fm(path, body):
+    n = re.search(r"^\*\*([\d,]+) cards\b", body, re.M)
+    return "\n".join(["---", f"title: {q(h1(body, path.stem))}", "category: cards", "kind: reference",
+                      f"letter: {'index' if path.name == 'README.md' else path.stem}",
+                      f"cards: {n.group(1).replace(',', '') if n else 'null'}", "generated_by: scripts/build_crossrefs.py",
+                      "tags: [reverse-index, cross-references]", f"schema: {SCHEMA_VERSION}", "---", ""])
+
+
 def targets(shards=True):
     for name in sorted(PAGES):
         p = ROOT / name
@@ -282,6 +301,8 @@ def targets(shards=True):
     for d in DECK_DIRS:
         for p in sorted((ROOT / d).glob("*.md")):
             yield p, deck_fm, "deck"
+    for p in sorted((ROOT / REF_DIR).glob("*.md")):
+        yield p, ref_fm, "reference"
     if shards:
         for p in sorted((ROOT / SHARD_DIR).rglob("*.md")):
             if p.name != "README.md":
@@ -359,15 +380,16 @@ def schema_page():
                     decktags[t] += 1
     n_sh = sum(1 for p in (ROOT / SHARD_DIR).rglob("*.md") if p.name != "README.md")
     n_deck = sum(1 for d in DECK_DIRS for _ in (ROOT / d).glob("*.md"))
+    n_ref = sum(1 for _ in (ROOT / REF_DIR).glob("*.md"))
     L = ["# Front-Matter Schema", "",
          f"> **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65]({I}65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **{SCHEMA_VERSION}**. Do not hand-edit.",
-         f"> Coverage: **{len(PAGES) + 1}** pages (incl. README/GOAL exempt: 2), **{n_deck}** decks, **{n_sh}** card shards. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).", "",
-         "## Contents", "- [Format](#format)", "- [Page keys](#page-keys)", "- [Deck keys](#deck-keys)", "- [Card-shard keys](#card-shard-keys)",
+         f"> Coverage: **{len(PAGES)}** registered pages (README.md and GOAL.md are exempt), **{n_deck}** decks, **{n_sh}** card shards, **{n_ref}** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).", "",
+         "## Contents", "- [Format](#format)", "- [Page keys](#page-keys)", "- [Deck keys](#deck-keys)", "- [Card-shard keys](#card-shard-keys)", "- [Reverse-index keys](#reverse-index-keys)",
          "- [Source keys](#source-keys)", "- [Tag vocabulary](#tag-vocabulary)", "- [Validation rules](#validation-rules)", "- [Filtering examples](#filtering-examples)", "",
          "## Format", "",
          "Every entry starts with a YAML block between `---` lines. Values are flat: strings (quoted when free text), ints, `true`/`false`, and inline lists `[a, b]`. "
          "This flat subset is readable by any YAML parser and by `rg` line matching. README.md and GOAL.md are exempt.", ""]
-    for kind, head in (("page", "Page keys"), ("deck", "Deck keys"), ("shard", "Card-shard keys")):
+    for kind, head in (("page", "Page keys"), ("deck", "Deck keys"), ("shard", "Card-shard keys"), ("reference", "Reverse-index keys")):
         L += [f"## {head}", "", "| Key | Type | Required | Meaning |", "|---|---|---|---|"]
         for k, (typ, req, mean) in SCHEMA[kind].items():
             L.append(f"| `{k}` | {typ} | {'yes' if req else 'when applicable'} | {mean} |")

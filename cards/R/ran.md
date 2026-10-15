@@ -133,6 +133,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #853 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-03-16* — If the creature this Aura would enchant is an illegal target by the time Rancor tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so it won't be put into a graveyard from the battlefield and its ability won't trigger.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/R.md#rancor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/156/rancor) · oracle_id `9d2d6479-531c-4ce1-b52b-00e36fa63b64` · printing: 2X2 #156 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rancorous Archaic
@@ -185,6 +186,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-06-14* — If a card in a player’s library has {X} in its mana cost, X is considered to be 0.
   - *2019-06-14* — Your opponents may cast spells in response to the last ability of Ranger-Captain of Eos. The ability won’t affect those spells and it won’t affect spells that those players cast before you activated it. (In other words, the ability can’t be used to counter a spell.)
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/R.md#ranger-captain-of-eos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/21/ranger-captain-of-eos) · oracle_id `cada3481-cc2b-4412-b9b5-0436af53aad2` · printing: MH1 #21 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ranger Class
@@ -396,6 +398,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.
   - *2018-01-19* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/R.md#ranging-raptors)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/249/ranging-raptors) · oracle_id `2a86b70b-34ca-45df-8aa1-c3fb2da72dc3` · printing: LCC #249 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rank and File
@@ -453,6 +456,7 @@ schema: 2
   - *2019-10-04* — In a Two-Headed Giant game, Rankle's second mode causes each team to lose 1 life twice.
   - *2019-10-04* — You can choose a mode even if some or all players will be unaffected.
   - *2019-10-04* — You can't choose a mode more than once.
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/R.md#rankle-master-of-pranks)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/148/rankle-master-of-pranks) · oracle_id `b8619990-9dc2-4fcc-bc7e-457b77cd2a8e` · printing: OTC #148 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rankle, Master of Pranksters
@@ -487,6 +491,7 @@ schema: 2
   - *2023-09-01* — As the first mode is performed, first the player whose turn it is chooses two cards in hand without revealing them, then each other player in turn order does the same. Then the chosen cards are discarded at the same time.
   - *2023-09-01* — As the third mode is performed, first the player whose turn it is chooses two creatures they control, then each other player in turn order does the same, knowing the choices made before them. Then all the chosen creatures are sacrificed at the same time.
   - *2023-09-01* — You can choose a mode even if some or all players will be entirely or partially unaffected.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rankles-prank)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/102/rankles-prank) · oracle_id `052e8e1c-d006-4c9f-90da-deafbbf7fed3` · printing: WOE #102 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rank Officer

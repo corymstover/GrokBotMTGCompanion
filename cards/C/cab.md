@@ -71,6 +71,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #200 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-06-18* — The mana ability of Cabal Coffers counts each land you control with the subtype Swamp, not just ones named Swamp.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/C.md#cabal-coffers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/301/cabal-coffers) · oracle_id `7358e164-5704-4e78-9b21-6a9bf2a968ce` · printing: MH2 #301 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Conditioning
@@ -207,6 +208,7 @@ schema: 2
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #442 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 14 pages (10 decks · 3 edh guides · 1 lore & story) → [reverse index](../../references/C.md#cabal-ritual)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/106/cabal-ritual) · oracle_id `5b5bf1fa-6502-4790-b66b-f0f8504ebc7c` · printing: VMA #106 (2014-06-16) · [rulings](https://api.scryfall.com/cards/a5d85875-22da-4054-ae42-e85b472a6d5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Shrine
@@ -243,6 +245,7 @@ schema: 2
   > *The seat of Belzenlok's power, the Stronghold serves as the gathering place for the Cabal as their dark influence spreads from Urborg.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #971 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 lore & story) → [reverse index](../../references/C.md#cabal-stronghold)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/238/cabal-stronghold) · oracle_id `066cd584-773c-4623-be53-8f6feda5a26a` · printing: DOM #238 (2018-04-27) · [rulings](https://api.scryfall.com/cards/0bda51ef-ee3e-48d4-92e2-c9083bbe0f80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Surgeon
@@ -341,6 +344,7 @@ schema: 2
   > • Create two 1/1 green and white Citizen creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7835 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/C.md#cabaretti-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/173/cabaretti-charm) · oracle_id `36d8b701-f5dc-42c0-9869-268f8149cbd1` · printing: SNC #173 (2022-04-29) · [rulings](https://api.scryfall.com/cards/08f33c8a-8e93-4296-964b-da132a854b3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabaretti Confluence

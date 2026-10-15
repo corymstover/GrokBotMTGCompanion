@@ -77,6 +77,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — If a card that isn't a transforming double-faced card is a copy of Ojer Kaslem, Deepest Growth, it won't return to the battlefield when it dies.
   - *2023-11-10* — While resolving Ojer Kaslem, Deepest Growth's middle ability, you could put no cards, a creature card, a land card, or a creature card and a land card onto the battlefield.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/O.md#ojer-kaslem-deepest-growth--temple-of-cultivation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/204/ojer-kaslem-deepest-growth-temple-of-cultivation) · oracle_id `eda11077-b2ce-408b-b982-def2da8fe599` · printing: LCI #204 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ojer Pakpatiq, Deepest Epoch // Temple of Cyclical Time
@@ -120,6 +121,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — Everything that is specified by the effect creating the original token or tokens will also be true about the additional tokens created by Ojer Taq, Deepest Foundation's replacement effect. For example, if an effect tells you to create a token "tapped and attacking," the additional tokens will also be tapped and attacking. Similarly, if an effect creates a token and puts counters on it, the additional tokens will also get those counters.
   - *2023-11-10* — If a card that isn't a transforming double-faced card is a copy of Ojer Taq, Deepest Foundation, it won't return to the battlefield when it dies.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/O.md#ojer-taq-deepest-foundation--temple-of-civilization)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/26/ojer-taq-deepest-foundation-temple-of-civilization) · oracle_id `486bb9a5-73f1-4cec-b097-fb07ac80b72e` · printing: LCI #26 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oji, the Exquisite Blade
@@ -267,4 +269,5 @@ schema: 2
   - *2015-02-25* — If you cast a card from exile this way, it will go to its owner’s graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile.
   - *2015-02-25* — If you cast a spell with rebound from any zone other than your hand (including your opponent’s hand), rebound will have no effect.
   - *2015-02-25* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#ojutais-summons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/68/ojutais-summons) · oracle_id `def45f3a-dba0-4d08-b086-5236d6e0edb1` · printing: DTK #68 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

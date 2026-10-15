@@ -36,6 +36,7 @@ schema: 2
   > *"I'm okay. Just finish the mission!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6513 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#suki-courageous-rescuer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/37/suki-courageous-rescuer) · oracle_id `70ea1a9d-ec52-4c11-8c4d-0d957e5491ad` · printing: TLA #37 (2025-11-21) · [rulings](https://api.scryfall.com/cards/33b97433-e16c-422e-a0ca-f6b1e98d8681/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suki, Kyoshi Captain

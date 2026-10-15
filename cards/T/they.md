@@ -49,6 +49,7 @@ schema: 2
   - *2024-09-20* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2024-09-20* — Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
   - *2024-09-20* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/T.md#they-came-from-the-pipes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/14/they-came-from-the-pipes) · oracle_id `1b8870fd-2d8a-42af-8173-b747d8d4c04f` · printing: DSC #14 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### They Went This Way

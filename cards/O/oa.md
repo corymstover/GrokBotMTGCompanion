@@ -186,6 +186,7 @@ schema: 2
   - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/O.md#oakhame-ranger--bring-back)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/212/oakhame-ranger-bring-back) · oracle_id `9c247a17-361c-435e-90c8-ce9c6b71f7db` · printing: ELD #212 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oakheart Dryads
@@ -322,6 +323,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10917 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-12-01* — Oathkeeper's second ability checks whether the card's creature type is Samurai, not whether the creature was a Samurai when it left the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#oathkeeper-takenos-daisho)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/265/oathkeeper-takenos-daisho) · oracle_id `7d58b478-a64b-46e9-b62a-08c6c1ca7c13` · printing: CHK #265 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Ajani
@@ -335,6 +337,7 @@ schema: 2
   > *"Until all have found their place, I will keep watch."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9686 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#oath-of-ajani)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/131/oath-of-ajani) · oracle_id `1ec39c8f-eb1e-4881-a749-0c188788b612` · printing: AER #131 (2017-01-20) · [rulings](https://api.scryfall.com/cards/968c7d5a-b037-4ff7-b6d2-df00adf5691b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Chandra
@@ -353,6 +356,7 @@ schema: 2
   - *2016-01-22* — Oath of Chandra’s last ability will trigger even if the planeswalker that entered the battlefield under your control is no longer on the battlefield, no longer under your control, or no longer a planeswalker. This is also true if Oath of Chandra wasn’t on the battlefield when the planeswalker entered.
   - *2016-01-22* — The last ability triggers only once per turn, even if more than one planeswalker entered the battlefield under your control.
   - *2016-01-22* — The “legend rule” checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#oath-of-chandra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/113/oath-of-chandra) · oracle_id `53a0923f-7da8-4e31-a231-9b275916e2a2` · printing: OGW #113 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Druids
@@ -365,6 +369,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — The ability can only target an opponent of the current player.
   - *2009-10-01* — The targeted player controlling more creatures than the current player is a part of the targeting requirement. A player can't be targeted by this ability unless it's true, and the ability doesn't resolve if it's no longer true at that time.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#oath-of-druids)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/159/oath-of-druids) · oracle_id `cf0dcb27-f02e-4065-81dc-75fbbb09ea3f` · printing: C16 #159 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Eorl
@@ -412,6 +417,7 @@ schema: 2
   - *2016-01-22* — Each of the Oaths is legendary: if you control more than one of any particular Oath, you choose one to remain on the battlefield and the others are put into your graveyard.
   - *2016-01-22* — Even if you control a particular Oath, you can cast another of that Oath to take advantage of its enters-the-battlefield ability. It will enter the battlefield, causing its first ability to trigger. You will then choose one to keep, as detailed above, and then its enters-the-battlefield ability will resolve.
   - *2016-01-22* — The “legend rule” checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/O.md#oath-of-gideon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/830/oath-of-gideon) · oracle_id `ea168acc-22a1-4ba5-affd-fb813b93535a` · printing: CMM #830 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Jace
@@ -430,6 +436,7 @@ schema: 2
   - *2016-01-22* — Even if you control a particular Oath, you can cast another of that Oath to take advantage of its enters-the-battlefield ability. It will enter the battlefield, causing its first ability to trigger. You will then choose one to keep, as detailed above, and then its enters-the-battlefield ability will resolve.
   - *2016-01-22* — If you control no planeswalkers as the last ability resolves, you won’t scry at all. Abilities that trigger whenever you scry won’t trigger.
   - *2016-01-22* — The “legend rule” checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#oath-of-jace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/854/oath-of-jace) · oracle_id `dc92b420-8ac7-4478-a287-3d897357be08` · printing: CMM #854 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Kaya
@@ -445,6 +452,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — If an opponent attacks more than one planeswalker you control, the last ability of Oath of Kaya triggers once for each of those attacked planeswalkers.
   - *2019-05-03* — If the target is an illegal target by the time the first ability of Oath of Kaya tries to resolve, the ability doesn’t resolve. You won’t gain 3 life.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#oath-of-kaya)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/209/oath-of-kaya) · oracle_id `8b3febb9-0597-46af-b005-982f1a31c83e` · printing: WAR #209 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Lieges
@@ -476,6 +484,7 @@ schema: 2
   - *2016-07-13* — Oath of Liliana is legendary, just like the previous Oaths from Oath of the Gatewatch. If you already control an Oath of Liliana, you can still cast a second Oath of Liliana to take advantage of its enters-the-battlefield ability. It will enter the battlefield, causing its first ability to trigger. You will then choose one to keep, and the other will be put into your graveyard.
   - *2016-07-13* — Oath of Liliana’s last ability will trigger even if the planeswalker that entered the battlefield under your control is no longer on the battlefield, no longer under your control, or no longer a planeswalker. This is also true if Oath of Liliana wasn’t on the battlefield when the planeswalker entered.
   - *2016-07-13* — The last ability triggers only once per turn, even if more than one planeswalker entered the battlefield under your control.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#oath-of-liliana)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/99/oath-of-liliana) · oracle_id `0bd7fd12-a0b7-4b4e-8a33-cace6e6bd6d1` · printing: EMN #99 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Lim-Dûl
@@ -515,6 +524,7 @@ schema: 2
   - *2016-01-22* — Each of the Oaths is legendary: if you control more than one of any particular Oath, you choose one to remain on the battlefield and the others are put into your graveyard.
   - *2016-01-22* — Even if you control a particular Oath, you can cast another of that Oath to take advantage of its enters-the-battlefield ability. It will enter the battlefield, causing its first ability to trigger. You will then choose one to keep, as detailed above, and then its enters-the-battlefield ability will resolve.
   - *2016-01-22* — The “legend rule” checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/O.md#oath-of-nissa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/140/oath-of-nissa) · oracle_id `c4efdbab-711d-4269-9b24-b05d36f7e5c7` · printing: OGW #140 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Scholars
@@ -545,6 +555,7 @@ schema: 2
   - *2018-04-27* — If the exiled card is an Aura, that card’s owner chooses what it will enchant as it returns to the battlefield. An Aura put onto the battlefield this way doesn’t target anything (so it could be attached to an opponent’s permanent with hexproof, for example), but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains exiled.
   - *2018-04-27* — If you somehow control more than one Oath of Teferi, you won’t be able to activate abilities of planeswalkers you control more than twice in one turn.
   - *2018-04-27* — The exiled card will return to the battlefield at the beginning of the next end step even if Oath of Teferi is no longer on the battlefield at that time.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 lore & story) → [reverse index](../../references/O.md#oath-of-teferi)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/934/oath-of-teferi) · oracle_id `ee00a42d-6ee4-4e46-92d6-62e8e5910880` · printing: CMM #934 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of the Ancient Wood
@@ -624,4 +635,5 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — Casting Oathsworn Vampire from your graveyard follows the normal rules for casting that card. You must pay its costs, and you must follow all applicable timing rules.
   - *2018-01-19* — Oathsworn Vampire's last ability cares only whether you gained life in the turn, even if Oathsworn Vampire wasn't in your graveyard when that happened. It doesn't care how much you gained, whether you also lost life, or even whether you lost more life than you gained.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#oathsworn-vampire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/204/oathsworn-vampire) · oracle_id `e1fb696f-1df8-4571-9710-0d79001326d3` · printing: LCC #204 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -153,6 +153,7 @@ schema: 2
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22383 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chicken-troupe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/133/chicken-troupe) · oracle_id `68982532-c0c8-477b-9dd4-180c6d22731e` · printing: UNF #133 (2022-10-07) · [rulings](https://api.scryfall.com/cards/d68cf6bc-3b4f-4765-87a7-f4b390d08bca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chief Engineer
@@ -187,6 +188,7 @@ schema: 2
   > *The throne was his in appearance only.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #25126 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chief-magistrate-of-mercadia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/35/chief-magistrate-of-mercadia) · oracle_id `6b4544d8-0579-4621-8660-4adb3b2a90be` · printing: MBC #35 (2026-10-19) · [rulings](https://api.scryfall.com/cards/1aa3f1d6-92e5-4da2-a0e3-2c4df5619e1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chief of the Edge
@@ -304,6 +306,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8185 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#child-of-alara)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/192/child-of-alara) · oracle_id `70dbe8a9-505d-41c2-9b5b-a991d13ab459` · printing: 2X2 #192 (2022-07-08) · [rulings](https://api.scryfall.com/cards/b2373625-af3c-4c2a-a1d1-5288c446955d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Child of Gaea
@@ -334,6 +337,7 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14663 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#child-of-night)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/218/child-of-night) · oracle_id `c650a7bc-e350-44a0-a698-d4a233d66156` · printing: JMP #218 (2020-07-17) · [rulings](https://api.scryfall.com/cards/3887af00-a87d-4396-b82b-38b88c084e8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Child of the Pack // Savage Packmate
@@ -515,6 +519,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21016 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chilling-shade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/53/chilling-shade) · oracle_id `1bbcfbad-c4c5-4818-b73c-26d83f7fa22c` · printing: CSP #53 (2006-07-21) · [rulings](https://api.scryfall.com/cards/d050c8b9-2b5a-4025-9886-73c418f4e22f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chilling Trap
@@ -687,6 +692,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — A spell or ability that counters spells can still target spells that can't be countered. When that spell or ability resolves, the uncounterable spell won't be countered, but any additional effects of the countering spell or ability will still happen.
   - *2023-11-10* — Chimil, the Inner Sun's first ability applies only while it's on the battlefield. While it's a spell, it can be countered.
+- **Referenced in:** 3 pages (2 decks · 1 rules) → [reverse index](../../references/C.md#chimil-the-inner-sun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/137/chimil-the-inner-sun) · oracle_id `119d9671-61ba-4629-89b1-f94bdec5cb74` · printing: ECC #137 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chimney Goyf
@@ -706,6 +712,7 @@ schema: 2
   - *2019-11-12* — Some playtest cards have unusual type lines. To determine whether those cards have a card type not listed above, refer to that card’s Card-Specific Notes in this document.
   - *2019-11-12* — The ability that defines Chimney Goyf’s power and toughness works in all zones, not just the battlefield. If Chimney Goyf is in your graveyard, it will count itself.
   - *2019-11-12* — The card types that can normally appear on cards in a graveyard are artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal. Legendary, basic, and snow are supertypes, not card types.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chimney-goyf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/38/chimney-goyf) · oracle_id `e1731049-9c1e-411f-86ae-5240c9010926` · printing: CMB2 #38 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chimney Imp
@@ -790,6 +797,7 @@ schema: 2
   - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
   - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
   - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chishiro-the-shattered-blade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/1/chishiro-the-shattered-blade) · oracle_id `c98a4af3-3e58-4927-9a60-d2664cf0b139` · printing: NEC #1 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chiss-Goria, Forge Tyrant
@@ -970,6 +978,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — In a multiplayer game, opponents who have left the game aren't counted by Chittering Witch's triggered ability.
   - *2019-10-04* — You can sacrifice Chittering Witch to pay the cost of its last ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#chittering-witch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/175/chittering-witch) · oracle_id `8b1aa532-4f19-407e-83a5-13b3160ad8c2` · printing: TDC #175 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chitterspitter
@@ -995,6 +1004,7 @@ schema: 2
   > *"I dub thee Syr Hellraker. For now."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3077 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/C.md#chivalric-alliance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/11/chivalric-alliance) · oracle_id `9b8d9236-0452-4509-aca4-a53a399fff85` · printing: MOC #11 (2023-04-21) · [rulings](https://api.scryfall.com/cards/f96d4b03-e3b0-4b24-869d-4270b813b518/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chivalrous Chevalier

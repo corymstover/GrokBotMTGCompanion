@@ -87,6 +87,7 @@ schema: 2
   - *2023-09-01* — You may play the cards exiled with Expensive Taste even if they are land cards.
   - *2023-09-01* — You must still follow all normal timing rules to play cards exiled with Expensive Taste.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/D.md#decadent-dragon--expensive-taste)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/223/decadent-dragon-expensive-taste) · oracle_id `5df44b8d-b337-49d8-8427-34253f52cb47` · printing: WOE #223 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decanter of Endless Water
@@ -101,6 +102,7 @@ schema: 2
   > *—Bindlehaim, Upper City merchant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #321 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#decanter-of-endless-water)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/309/decanter-of-endless-water) · oracle_id `8ae98ef8-8f52-4877-a08c-1fae5514184e` · printing: CLB #309 (2022-06-10) · [rulings](https://api.scryfall.com/cards/518bbc36-58ea-44c4-a857-75a3aff058f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decaying Soil
@@ -168,6 +170,7 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13879 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#deceiver-exarch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/36/deceiver-exarch) · oracle_id `3c939ea6-68b7-4965-b1d3-af1d3dc79778` · printing: CMA #36 (2017-06-09) · [rulings](https://api.scryfall.com/cards/35437d86-6f92-480a-aa0c-c17c3943c00c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deceiver of Form
@@ -218,6 +221,7 @@ schema: 2
   > *Believing they wrote the forged letter that had been stolen from Zhou Yu, Cao Cao rashly executed his two best admirals for treason.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29801 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#deception)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/73/deception) · oracle_id `ae1b44df-1d8c-453a-9efb-6d1c93e52418` · printing: PTK #73 (1999-05-01) · [rulings](https://api.scryfall.com/cards/bdb63768-2d8a-4a74-a312-b981dd462cdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deceptive Frostkite
@@ -253,6 +257,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2271 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (3 edh guides) → [reverse index](../../references/D.md#deceptive-landscape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/356/deceptive-landscape) · oracle_id `1831fe12-dbe0-437f-8fc8-f01bbb701fe1` · printing: TDC #356 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ba863744-929b-43f3-a773-342ba3437b18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decimate
@@ -266,6 +271,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #991 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — You must choose a legal target for each target required by Decimate. However, if a permanent has multiple card types, it may be chosen as the target for more than one instance of the word "target." For example, you could cast Decimate targeting an artifact creature, an enchantment, and a land.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#decimate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/220/decimate) · oracle_id `a4e5693f-12a0-451e-818d-d6efc7b4ed25` · printing: OTC #220 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decimator Beetle
@@ -348,6 +354,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — For each card you reveal, use that card’s printed name (including any stickers) to determine the first word of its name. You may not use its Oracle text or its name in other languages.
   - *2022-10-07* — In case you’re wondering, we’ve chosen to allow Y to be both a consonant and a vowel, depending on what the card cares about. Y? Because we’re nice, and because Y has a great legal team.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#decisions-decisions)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/44/decisions-decisions) · oracle_id `378b29c5-9f63-420c-87f5-627f9fae2663` · printing: UNF #44 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decisive Denial
@@ -561,6 +568,7 @@ schema: 2
   > Exchange your library with another deck you own from outside the game. Shuffle your library.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#decorated-knight--present-arms)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hho/19/decorated-knight-present-arms) · oracle_id `d61cd9f1-a0ea-42d0-8afa-2cf62c80ec4d` · printing: HHO #19 (2019-12-01) · [rulings](https://api.scryfall.com/cards/6cbda4a6-e01b-4df2-aee9-b6f14336b85f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decorum Dissertation
@@ -576,6 +584,7 @@ schema: 2
   - *2026-03-20* — Each spell with paradigm has the Lesson subtype. The Lesson subtype appears on instants and sorceries and has no inherent rules meaning. Other effects (such as the learn ability from the original Strixhaven release) may refer to it.
   - *2026-03-20* — Once a spell with paradigm has resolved, it doesn't matter what happens to the card in exile. Even if the card leaves exile, the delayed triggered ability will still trigger during each of your first main phases, and the copy will still be created.
   - *2026-03-20* — Paradigm creates a delayed triggered ability that triggers at the beginning of each of your first main phases for the rest of the game. When that ability resolves and the copy is created, you can choose not to cast the copy. In that case, the copy will cease to exist the next time state-based actions are checked. The delayed triggered ability will still trigger again at the beginning of your first main phase on your next turn regardless.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/D.md#decorum-dissertation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/78/decorum-dissertation) · oracle_id `f4c57454-d36f-4f38-b7ac-76477a516c3e` · printing: SOS #78 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decoy Gambit
@@ -621,6 +630,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
   - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#decree-of-annihilation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/85/decree-of-annihilation) · oracle_id `6679b462-3c90-418c-8727-acd1a61d988b` · printing: SCG #85 (2003-05-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decree of Justice
@@ -652,6 +662,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
   - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#decree-of-pain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/136/decree-of-pain) · oracle_id `932668fa-d6e3-41c0-ad0c-8e0a00e68d11` · printing: DSC #136 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decree of Savagery

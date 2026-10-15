@@ -72,6 +72,7 @@ schema: 2
   > *—Lady Azami, letter to Sensei Hisoka*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4172 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#azami-lady-of-scrolls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/74/azami-lady-of-scrolls) · oracle_id `0f8b97fe-3e5e-47c2-9a9d-7f77482aa159` · printing: CMM #74 (2023-08-04) · [rulings](https://api.scryfall.com/cards/fa727656-fb33-485b-9378-18b80cad42b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azimaet Drake
@@ -146,6 +147,7 @@ schema: 2
   - *2026-06-29* — Some spells and abilities that amass Goblins may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Goblins.
   - *2026-06-29* — To amass Goblins N, if you don't control an Army creature, create a 0/0 black Goblin Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Goblin, it becomes a Goblin in addition to its other types.
   - *2026-06-29* — Use the power of the creature as it last existed on the battlefield to determine the value of X.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#azog-morias-ruin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/61/azog-morias-ruin) · oracle_id `a8b018a7-0350-4ee0-9582-8d391018bdee` · printing: HOB #61 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Aethermage
@@ -193,6 +195,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #478 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Referenced in:** 4 pages (2 decks · 2 edh guides) → [reverse index](../../references/A.md#azorius-chancery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/261/azorius-chancery) · oracle_id `189fc8f4-17ac-4f1d-82c8-8401445bdaf4` · printing: DSC #261 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Charm
@@ -252,6 +255,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Gate is not a basic land type.
   - *2013-04-15* — The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#azorius-guildgate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/683/azorius-guildgate) · oracle_id `ad1712d8-809f-410c-8b91-ffe6fb8a69a1` · printing: FDN #683 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Guildmage
@@ -374,6 +378,7 @@ schema: 2
   > *The maze-like design embodies the core of Azorius law—strict structure designed to test wills and stall change.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #211 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (4 decks · 1 edh guides) → [reverse index](../../references/A.md#azorius-signet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/53/azorius-signet) · oracle_id `e018773f-95b3-49a3-9674-6f04ddef2092` · printing: FRC #53 (2026-10-02) · [rulings](https://api.scryfall.com/cards/af690536-b0bc-4d85-8bb8-f6856b9f927b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Skyguard
@@ -567,6 +572,7 @@ schema: 2
   - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#azula-on-the-hunt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/85/azula-on-the-hunt) · oracle_id `89f96032-5cba-404d-82b0-38d2be963e4b` · printing: TLA #85 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azula, Ruthless Firebender
@@ -669,6 +675,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #330 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2020-06-23* — Azusa's ability is cumulative with other effects that allow you to play additional lands, such as that of Song of Creation (from the Ikoria: Lair of Behemoths set).
+- **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/A.md#azusa-lost-but-seeking)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/274/azusa-lost-but-seeking) · oracle_id `6c2c8bf3-9bf8-4a86-89d3-3bb36260dc51` · printing: CMM #274 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azusa's Many Journeys // Likeness of the Seeker

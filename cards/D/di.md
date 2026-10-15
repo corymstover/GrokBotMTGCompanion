@@ -360,6 +360,7 @@ schema: 2
   - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
   - *2022-10-14* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
   - *2022-10-14* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Referenced in:** 15 pages (8 decks · 5 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/D.md#diabolic-intent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/89/diabolic-intent) · oracle_id `038519b9-bca8-4b27-b5ac-2409595469d0` · printing: BRO #89 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diabolic Machine
@@ -375,6 +376,7 @@ schema: 2
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31025 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#diabolic-machine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/196/diabolic-machine) · oracle_id `afd9b232-3f46-40c5-b1cf-2a7e8c955eba` · printing: ME4 #196 (2011-01-10) · [rulings](https://api.scryfall.com/cards/82e90d11-dde3-4aaa-b21c-79ea480447ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diabolic Revelation
@@ -413,6 +415,7 @@ schema: 2
   > *The wise always keep an ear open to the whispers of power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #485 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/D.md#diabolic-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/54/diabolic-tutor) · oracle_id `14589b6b-1814-46f9-a364-83cc15dacac2` · printing: CMA #54 (2017-06-09) · [rulings](https://api.scryfall.com/cards/d650dd8c-edd8-44e4-ae95-aaaf84557a72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diabolic Vision
@@ -456,6 +459,7 @@ schema: 2
   - *2024-03-08* — Removing a shield counter when a permanent would be dealt damage or destroyed isn’t the same as regenerating a permanent.
   - *2024-03-08* — Shield counters don’t prevent players from sacrificing permanents.
   - *2024-03-08* — “Shield” is not an ability that permanents have and shield counters are not keyword counters. If a permanent with a shield counter loses its abilities, the shield counter will still protect it as normal.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#diamond-city)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/147/diamond-city) · oracle_id `88e29d50-1680-495d-be84-b92b4c9e636f` · printing: PIP #147 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diamond Faerie
@@ -546,6 +550,7 @@ schema: 2
 - **Keywords:** Indestructible, Treasure, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1491 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/D.md#diamond-pick-axe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/143/diamond-pick-axe) · oracle_id `542e7d60-3fc8-46e2-8786-f7c8b3d4c979` · printing: LCI #143 (2023-11-17) · [rulings](https://api.scryfall.com/cards/4ae30fa7-3d1d-417f-80d7-a668236cb2c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diamond Valley
@@ -585,6 +590,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19530 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#diaochan-artful-beauty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/108/diaochan-artful-beauty) · oracle_id `bf20bc37-3205-45af-a3be-05d6835c0d87` · printing: PTK #108 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diary of Dreams
@@ -600,6 +606,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9546 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — Book is a new artifact type with no inherent rules meaning.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#diary-of-dreams)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/248/diary-of-dreams) · oracle_id `98b43c61-4563-4a29-8cf0-fb8b34f337ce` · printing: SOS #248 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dichotomancy
@@ -645,6 +652,7 @@ schema: 2
   - *2014-04-26* — If you control more than one Dictate of Erebos and a creature you control dies, each of the triggered abilities will trigger. Each opponent will sacrifice a creature each time one of those abilities resolves.
   - *2014-04-26* — None of the opponents are targeted. An opponent with hexproof would still sacrifice a creature.
   - *2014-04-26* — When the triggered ability resolves, first the player whose turn it is (if that player is an opponent) chooses which creature they will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#dictate-of-erebos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/65/dictate-of-erebos) · oracle_id `7c777a41-e40a-4b40-96bf-8ddd5c12924c` · printing: JOU #65 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dictate of Heliod
@@ -688,6 +696,7 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1864 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/D.md#dictate-of-kruphix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/587/dictate-of-kruphix) · oracle_id `be74a4c1-d569-4203-b28a-3e2ac6a82990` · printing: FDN #587 (2024-11-15) · [rulings](https://api.scryfall.com/cards/b5e4087b-e692-4eb2-bb59-ff2a001d6dd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dictate of the Twin Gods
@@ -706,6 +715,7 @@ schema: 2
   - *2014-04-26* — If more than one Dictate of the Twin Gods is on the battlefield, damage dealt will double for each one (two of them will end up multiplying the damage by four, three of them by eight, and four of them by sixteen).
   - *2014-04-26* — If multiple effects modify how damage will be dealt, the player being dealt damage or the controller of the permanent being dealt damage chooses the order to apply the effects. For example, the ability of Decorated Griffin says “Prevent the next 1 combat damage that would be dealt to you this turn.” Suppose you would be dealt 3 combat damage and you activate the ability of Decorated Griffin. You can either (a) prevent 1 damage first and then let Dictate of the Twin Gods's effect double the remaining 2 damage, for a result of being dealt 4 damage, or (b) double the damage to 6 and then prevent 1 damage, for a result of being dealt 5 damage.
   - *2014-04-26* — The source of the damage doesn't change. A spell that deals damage will specify the source of the damage, often the spell itself. An ability that deals damage will also specify the source of the damage, although the ability itself will never be that source. Often the source of the ability is also the source of the damage.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dictate-of-the-twin-gods)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/93/dictate-of-the-twin-gods) · oracle_id `3d960d33-623a-4415-ae00-f8cffbc15f5a` · printing: JOU #93 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dictation Quillograph
@@ -796,6 +806,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#die-young)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/76/die-young) · oracle_id `4bcc54d1-8ab6-4ad3-91b6-97fb02b88cc0` · printing: KLD #76 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diffusion Sliver
@@ -885,6 +896,7 @@ schema: 2
   - *2021-03-19* — Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
   - *2021-03-19* — Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
   - *2021-03-19* — You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+- **Referenced in:** 6 pages (3 decks · 1 rules · 2 card data) → [reverse index](../../references/D.md#dig-through-time)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/195/dig-through-time) · oracle_id `f8b17b89-26ce-4208-874a-9e1d66514640` · printing: SOC #195 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dig Up
@@ -904,6 +916,7 @@ schema: 2
   - *2021-11-19* — If you cast a spell for its cleave cost, that spell doesn't have any of the text in square brackets while it's on the stack.
   - *2021-11-19* — If you paid the cleave cost, you must put a card into your hand as Dig Up resolves (assuming there is at least one card in your library).
   - *2021-11-19* — You can't cast a spell for both its cleave cost and another alternative cost. For example, if an effect gives an Alchemist's Retrieval in your graveyard a flashback cost of {U}, you can't cast it from your graveyard for its cleave cost.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/D.md#dig-up)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/197/dig-up) · oracle_id `ae96fe7e-8d89-4f44-9cc4-3c9b124fdc4b` · printing: VOW #197 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dig Up the Body
@@ -936,6 +949,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3479 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/D.md#dihada-binder-of-wills)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/1/dihada-binder-of-wills) · oracle_id `d326de4d-6157-4586-91b8-5668e1381ac3` · printing: DMC #1 (2022-09-09) · [rulings](https://api.scryfall.com/cards/ddeb54d6-a600-42b9-98df-20f8d58caed8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dihada's Ploy
@@ -998,6 +1012,7 @@ schema: 2
   > *"I wish I could get her a big, open prairie like she likes. I'd let her hop her way to happiness."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16546 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#diligent-zookeeper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/171/diligent-zookeeper) · oracle_id `6a84a8a4-c8b0-45ce-af6f-605fcffc395b` · printing: TLA #171 (2025-11-21) · [rulings](https://api.scryfall.com/cards/21f52564-9820-42dc-a08d-459d51afc397/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diluvian Primordial
@@ -1165,6 +1180,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #387 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/D.md#dimir-aqueduct)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/270/dimir-aqueduct) · oracle_id `378a1d57-e2f1-4b84-9692-1564602e9e99` · printing: DSC #270 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dimir Charm
@@ -1264,6 +1280,7 @@ schema: 2
 - **Keywords:** Regenerate, Fear, Transmute
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5490 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#dimir-house-guard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/73/dimir-house-guard) · oracle_id `35c027cd-f754-4e41-9242-8a9d0481171c` · printing: RVR #73 (2024-01-12) · [rulings](https://api.scryfall.com/cards/a1974bac-4763-4f95-ae60-061e34d0283d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dimir Infiltrator
@@ -1346,6 +1363,7 @@ schema: 2
   > *An emblem of a secret guild, the Dimir insignia is seen only by its own members—and the doomed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #158 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 19 pages (15 decks · 3 edh guides · 1 card data) → [reverse index](../../references/D.md#dimir-signet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/56/dimir-signet) · oracle_id `7d881c57-0bd9-4c57-aa4a-b10808b86143` · printing: FRC #56 (2026-10-02) · [rulings](https://api.scryfall.com/cards/0862060d-3198-4eeb-af8c-efeb27f42a99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dimir Spybug
@@ -1495,6 +1513,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-05-01* — If the targeted opponent becomes an illegal target, the entire spell doesn’t resolve. You won’t get a token.
   - *2008-05-01* — The parts of the spell happen in order. When determining how many black creatures and how many red creatures you control, keep in mind that you just put a creature onto the battlefield that’s black and red.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#din-of-the-fireherd)
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/184/din-of-the-fireherd) · oracle_id `6480ab32-3a29-4449-8ff7-c8e43c320ed3` · printing: SHM #184 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dinosaur Egg
@@ -1568,6 +1587,7 @@ schema: 2
   - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#dinosaurs-on-a-spaceship)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/122/dinosaurs-on-a-spaceship) · oracle_id `e3b4314b-e7a2-449a-af5a-817c8260adf1` · printing: WHO #122 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dinosaur Stampede
@@ -1643,6 +1663,7 @@ schema: 2
   - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
   - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dion-bahamuts-dominant--bahamut-warden-of-light)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/16/dion-bahamuts-dominant-bahamut-warden-of-light) · oracle_id `4a0cc2a2-3711-473a-b2c5-b1e52b34e4fb` · printing: FIN #16 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dionus, Elvish Archdruid
@@ -1661,6 +1682,7 @@ schema: 2
   - *2024-11-08* — If Dionus leaves the battlefield and returns to the battlefield in the same turn, or if one Dionus leaves and another Dionus enters, the ability granted by the old one is different from the ability granted by the new one. This means that an Elf that already untapped and got a +1/+1 counter from the previous granted triggered ability could untap and get another +1/+1 counter from the new granted triggered ability if it becomes tapped again later that turn.
   - *2024-11-08* — If Dionus leaves the battlefield while one or more triggered abilities generated by the ability it grants are still on the stack, those abilities will still resolve as normal.
   - *2024-11-08* — If you somehow control multiple copies of Dionus, each permanent you control will have that many instances of the granted ability. These abilities are not redundant. For example, if you control two copies of Dionus and one becomes tapped during your turn, each of its granted abilities will trigger. When those abilities resolve, each one will untap that Dionus (if it's tapped at the time) and will put a +1/+1 counter on it regardless of whether it's tapped or untapped.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dionus-elvish-archdruid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/52/dionus-elvish-archdruid) · oracle_id `d5e5cf55-eb9e-4f01-9056-791215411b27` · printing: J25 #52 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diplomacy of the Wastes
@@ -1700,6 +1722,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6365 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Shroud does not apply until after it is on the battlefield, so it can be the target of a spell while it is on the stack.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/D.md#diplomatic-immunity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/75/diplomatic-immunity) · oracle_id `f1a3153c-0200-4ff2-b7d5-48d23920bb3c` · printing: MMQ #75 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diplomatic Relations
@@ -1809,6 +1832,7 @@ schema: 2
   - *2017-09-29* — Count the number of other attacking Pirates as the ability resolves to determine the size of the bonus.
   - *2017-09-29* — In a Two-Headed Giant game, attacking Pirates controlled by your teammate will count for Dire Fleet Captain’s ability.
   - *2017-09-29* — Once the ability resolves, the bonus won’t change later in the turn, even if the number of other attacking Pirates does.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dire-fleet-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/221/dire-fleet-captain) · oracle_id `68f1da0d-1143-457a-b709-1da3c060a45d` · printing: XLN #221 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dire Fleet Daredevil
@@ -1824,6 +1848,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
   - *2018-01-19* — The effect of Dire Fleet Daredevil doesn't change when you can cast the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
+- **Referenced in:** 4 pages (3 decks · 1 edh guides) → [reverse index](../../references/D.md#dire-fleet-daredevil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/162/dire-fleet-daredevil) · oracle_id `7a3e50a5-c163-4c41-b62d-d52c233c55b7` · printing: OTC #162 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dire Fleet Hoarder
@@ -1885,6 +1910,7 @@ schema: 2
 - **Keywords:** Flash, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14081 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dire-fleet-poisoner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/68/dire-fleet-poisoner) · oracle_id `8150cc84-3f9f-470d-a0f9-ee6d9dab13da` · printing: RIX #68 (2018-01-19) · [rulings](https://api.scryfall.com/cards/88273b1e-b33b-44d3-8777-4e78a04eed65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dire Fleet Ravager
@@ -1932,6 +1958,7 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2332 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#diregraf-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/148/diregraf-captain) · oracle_id `70de24d9-c585-4bf6-ac2c-c5b4b7aa298c` · printing: MIC #148 (2021-09-24) · [rulings](https://api.scryfall.com/cards/158407ad-35a9-40e1-9762-1c0572b56ecb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diregraf Colossus
@@ -1946,6 +1973,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-04-08* — Diregraf Colossus's last ability won't trigger when you cast it because it's not on the battlefield yet.
   - *2016-04-08* — If Diregraf Colossus enters the battlefield from your graveyard, its first ability will count itself among the Zombie cards in your graveyard. Similarly, if it enters the battlefield at the same time as another Zombie card enters the battlefield from your graveyard, the ability will count that other Zombie.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#diregraf-colossus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/112/diregraf-colossus) · oracle_id `fd62ad01-601f-4250-bc2a-8ef3982e45c4` · printing: MIC #112 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diregraf Escort
@@ -2145,6 +2173,7 @@ schema: 2
 - **Keywords:** Flying, Mutate, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7993 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dirge-bat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/84/dirge-bat) · oracle_id `4746828f-46ea-439f-88de-5e54cc536545` · printing: IKO #84 (2020-04-24) · [rulings](https://api.scryfall.com/cards/59677c76-8148-4b6f-95b0-0e3ccf137a3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dirge of Dread
@@ -2193,6 +2222,7 @@ schema: 2
   - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
   - *2026-03-20* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Dirgur Focusmage's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
   - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dirgur-focusmage--braingeyser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/18/dirgur-focusmage-braingeyser) · oracle_id `655ee0db-1913-464f-bd06-072c6bf446bd` · printing: SOC #18 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dirgur Island Dragon // Skimming Strike
@@ -2217,6 +2247,7 @@ schema: 2
   - *2025-04-04* — If an effect instructs you to choose a card name, you may choose the alternative Omen name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
   - *2025-04-04* — If you cast an omen card as an Omen, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Thundermane Dragon (“You may cast creature spells with power 4 or greater from the top of your library.”) and Twinmaw Stormbrood is on top of your library, you can cast Twinmaw Stormbrood, but not Charring Bite.
   - *2025-04-04* — When casting a spell as an Omen, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dirgur-island-dragon--skimming-strike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/40/dirgur-island-dragon-skimming-strike) · oracle_id `23cda76b-6e47-4922-a38d-93f7aae1eb00` · printing: TDM #40 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dirgur Nemesis
@@ -2308,6 +2339,7 @@ schema: 2
   - *2017-02-09* — If you counter a delayed triggered ability that triggers at the beginning of the "next" occurrence of a specified step or phase, that ability won't trigger again the following time that phase or step occurs.
   - *2017-02-09* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities, such as prowess and fabricate, are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#disallow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/31/disallow) · oracle_id `88b51e15-6630-4e14-a6b8-db0aa12e34ef` · printing: AER #31 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disappear
@@ -2373,6 +2405,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9395 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-06-07* — Disa the Restless's last ability creates a token that's a copy of the card Tarmogoyf in the Oracle card reference. Official text for Tarmogoyf can be found using the Gatherer card database at Gatherer.Wizards.com.  
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#disa-the-restless)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/1/disa-the-restless) · oracle_id `283bfc53-afd3-4d21-b7d5-5baba4232422` · printing: M3C #1 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Discerning Financier
@@ -2427,6 +2460,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — If you control at least one other creature when the ability resolves, you must sacrifice one. If you don't control any other creatures at that time, the ability won't do anything.
   - *2020-08-07* — The creature's power as it last existed on the battlefield is the amount of life you gain and the number of cards you draw.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#disciple-of-bolas)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/178/disciple-of-bolas) · oracle_id `8f2c8498-5b10-4ec7-8678-598c90987556` · printing: TDC #178 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disciple of Caelus Nin
@@ -2490,6 +2524,7 @@ schema: 2
   - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
   - *2024-06-07* — Use the power of the sacrificed creature as it last existed on the battlefield to determine the value of X.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/D.md#disciple-of-freyalise--garden-of-freyalise)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/250/disciple-of-freyalise-garden-of-freyalise) · oracle_id `2699005b-a471-429f-a9d8-fbf2077ee2fd` · printing: MH3 #250 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disciple of Grace
@@ -2506,6 +2541,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26410 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#disciple-of-grace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/25/disciple-of-grace) · oracle_id `7f4ceca9-0f55-4fa6-8e64-befbc4303d4e` · printing: ONS #25 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disciple of Griselbrand
@@ -2667,6 +2703,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2500 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — If an artifact is put into a graveyard at the same time as Disciple of the Vault, its ability triggers for that artifact.
+- **Referenced in:** 6 pages (3 decks · 1 edh guides · 2 card data) → [reverse index](../../references/D.md#disciple-of-the-vault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/86/disciple-of-the-vault) · oracle_id `c8625113-0ce4-4454-83a1-25c31b8bfb9a` · printing: 2XM #86 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disciples of Gix
@@ -2799,6 +2836,7 @@ schema: 2
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13405 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#discourtesy-clerk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/70/discourtesy-clerk) · oracle_id `0aafaef7-4827-4c80-87db-060f5be803f9` · printing: UNF #70 (2022-10-07) · [rulings](https://api.scryfall.com/cards/2658ceab-8d96-44d2-b443-ef671deca928/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Discover the Impossible
@@ -2865,6 +2903,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-02-05* — If a spell has {X} in its mana cost, use the value chosen for X when determining the spell's mana value.
   - *2021-03-19* — A face-down spell has mana value 0 and can't be targeted by Disdainful Stroke.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/D.md#disdainful-stroke)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/47/disdainful-stroke) · oracle_id `11e02134-7b1a-46a4-a89e-7539dd1efada` · printing: WOE #47 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disease Carriers
@@ -2903,6 +2942,7 @@ schema: 2
   > *—Ivrelya, Dimir spymaster*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20600 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#disembowel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/74/disembowel) · oracle_id `6fa90258-3c9f-4723-880f-31871c0772e0` · printing: RVR #74 (2024-01-12) · [rulings](https://api.scryfall.com/cards/149576b0-d571-4f70-a58b-847ae4fb0173/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disempower
@@ -2942,6 +2982,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1114 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — This is not modal. If the target changes from an artifact to an enchantment or vice versa, this still destroys it.
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/D.md#disenchant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/572/disenchant) · oracle_id `a7e97fa9-4b72-4548-b854-5be5f18a6f1a` · printing: FDN #572 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disentomb
@@ -3039,6 +3080,7 @@ schema: 2
   > *—Samthar, Sultai merchant, to Jialing, Jeskai monk*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1028 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dismal-backwater)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/254/dismal-backwater) · oracle_id `865a2194-fca0-446e-aae3-ca475cd66e00` · printing: TDM #254 (2025-04-11) · [rulings](https://api.scryfall.com/cards/082b52c9-c46e-44d3-b723-546ba528e07b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dismal Failure
@@ -3107,6 +3149,7 @@ schema: 2
   - *2020-04-17* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
   - *2020-04-17* — Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
   - *2020-04-17* — You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/D.md#dismantling-wave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/129/dismantling-wave) · oracle_id `25012c1f-c069-43d7-b930-a3a5a7eb1389` · printing: MSC #129 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dismember
@@ -3122,6 +3165,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #922 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-06-07* — A Phyrexian mana symbol contributes 1 toward the mana value of a card, even if life is paid for it. Specifically, Dismember's mana value is always 3.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/D.md#dismember)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/79/dismember) · oracle_id `fd74f8eb-0253-42dd-8277-186d4934da38` · printing: MM2 #79 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dismiss
@@ -3268,6 +3312,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #449 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-06-01* — If you control three or more artifacts when Dispatch resolves, you'll tap the creature, then exile it.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#dispatch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/130/dispatch) · oracle_id `133c99c0-3652-410f-8100-68015a47af9f` · printing: MSC #130 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dispatch Dispensary
@@ -3290,6 +3335,7 @@ schema: 2
   - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
   - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
   - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dispatch-dispensary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/176/dispatch-dispensary) · oracle_id `18d8eff2-4f0f-42c2-beb5-95b3c3df2603` · printing: UST #176 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dispel
@@ -3303,6 +3349,7 @@ schema: 2
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #950 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 lore & story) → [reverse index](../../references/D.md#dispel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/76/dispel) · oracle_id `6d7be242-a072-40ce-b540-95880506cccd` · printing: BFZ #76 (2015-10-02) · [rulings](https://api.scryfall.com/cards/bceab6b3-6b64-4964-a501-ce806a6c13ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dispeller's Capsule
@@ -3483,6 +3530,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2022-06-10* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+- **Referenced in:** 10 pages (5 decks · 4 edh guides · 1 card data) → [reverse index](../../references/D.md#displacer-kitten)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/63/displacer-kitten) · oracle_id `09ef446c-a13d-49d9-a94c-cd5f5a2d440b` · printing: CLB #63 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Display of Dominance
@@ -3580,6 +3628,7 @@ schema: 2
   - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
   - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
   - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/D.md#disrupt-decorum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/151/disrupt-decorum) · oracle_id `9b084cd4-cc21-4f3a-9ac5-1e1160a31aa6` · printing: MKC #151 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disrupting Scepter
@@ -3607,6 +3656,7 @@ schema: 2
   - *2005-02-01* — Disrupting Shoal can target any spell, but does nothing unless that spell's mana value is X.
   - *2018-12-07* — If a card in your hand has {X} in its mana cost, X is considered to be 0.
   - *2018-12-07* — If a spell has {X} in its mana cost, include the value chosen for that X when determining the mana value of that spell, even if it was cast for an alternative cost and no mana was spent on X.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/D.md#disrupting-shoal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/51/disrupting-shoal) · oracle_id `2912d93d-ed51-41ef-b64f-3cb6581c09e5` · printing: UMA #51 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disruption Aura
@@ -3676,6 +3726,7 @@ schema: 2
   - *2025-04-04* — If the target creature’s power becomes greater than 3 before Petty Revenge resolves, the target is illegal and the spell is put into its owner’s graveyard.
   - *2025-04-04* — If you cast an omen card as an Omen, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Thundermane Dragon (“You may cast creature spells with power 4 or greater from the top of your library.”) and Twinmaw Stormbrood is on top of your library, you can cast Twinmaw Stormbrood, but not Charring Bite.
   - *2025-04-04* — When casting a spell as an Omen, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#disruptive-stormbrood--petty-revenge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/178/disruptive-stormbrood-petty-revenge) · oracle_id `ec74ae5d-1284-443c-9842-18954f8cf5a8` · printing: TDM #178 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disruptive Student
@@ -3709,6 +3760,7 @@ schema: 2
   - *2024-06-07* — Some cards can have alternative names, such as split cards, adventurer cards, double-faced cards, and so on. You may choose one of the two names the card can have; Disruptor Flute's abilities won't affect anything with the other name. For example, if you choose Ondu Knotmaster, Throw a Line will still cost only {W}{B} to cast.
   - *2024-06-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
   - *2024-06-07* — You can choose the name of any card. You can't choose the name of a token unless it's also the name of a card.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/D.md#disruptor-flute)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/209/disruptor-flute) · oracle_id `d6c46906-1339-4440-8cd0-2bb9890d4975` · printing: MH3 #209 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disruptor of Currents
@@ -3774,6 +3826,7 @@ schema: 2
   - *2022-10-07* — Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
   - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
   - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dissatisfied-customer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/72/dissatisfied-customer) · oracle_id `15cea1c7-2c11-4e33-9b71-9ed94091bcac` · printing: UNF #72 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dissection Practice
@@ -3897,6 +3950,7 @@ schema: 2
   - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
   - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
   - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dissolve)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/51/dissolve) · oracle_id `2f0741f9-802b-4761-8094-7b1f3ea1a424` · printing: IMA #51 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Distant Melody
@@ -3910,6 +3964,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #653 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-04-01* — Note that this spell counts the number of permanents you control of the chosen type, not just the number of creatures you control. It will also take your kindred permanents of the chosen type into account.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#distant-melody)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/45/distant-melody) · oracle_id `ac6c5852-71c7-4f19-8c87-ccb345052862` · printing: ECC #45 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Distant Memories
@@ -3926,6 +3981,7 @@ schema: 2
   - *2011-06-01* — If no opponent has you put the card into your hand, the card remains exiled.
   - *2011-06-01* — In multiplayer formats, your opponents each make the decision in turn order.
   - *2011-06-01* — The card is exiled face up. Each opponent will know what the card is when deciding whether to have you put it in your hand.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#distant-memories)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/24/distant-memories) · oracle_id `12c78cc4-7fbe-4639-bef7-bf959a0d6d68` · printing: MBS #24 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Distemper of the Blood
@@ -4086,6 +4142,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13173 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-07-05* — Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn’t matter what happens to that Assassin or commander after that.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#distract-the-guards)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/3/distract-the-guards) · oracle_id `5b3687e5-546f-4a70-aa5c-b7db3300a3f4` · printing: ACR #3 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Distract the Hydra
@@ -4122,6 +4179,7 @@ schema: 2
   > *"The route is direct but challenging. Incidentally, how are you with heights?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8743 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#district-guide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/128/district-guide) · oracle_id `1eb4c001-1115-4b99-bbbf-703eb551a381` · printing: GRN #128 (2018-10-05) · [rulings](https://api.scryfall.com/cards/c150deec-3287-40ef-9b9c-c22bf5d70b02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### District Mascot
@@ -4182,6 +4240,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21634 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — The value of X will change as the number of cards in the appropriate graveyard changes.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#disturbing-conversion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/54/disturbing-conversion) · oracle_id `adde6737-516c-4d6f-9363-388ad37d4114` · printing: MOM #54 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disturbing Mirth
@@ -4310,6 +4369,7 @@ schema: 2
   - *2016-11-08* — If two players' creatures are exiled this way, start with the player whose turn it is. If that player controlled a creature exiled this way, that player follows the process on Divergent Transformations to replace it. If not, proceed to the next player in turn order. Repeat until the players who controlled the exiled creatures have each replaced those creatures.
   - *2016-11-08* — The two creatures that are put onto the battlefield are put onto the battlefield sequentially. Triggered abilities of the second won't see the first enter the battlefield.
   - *2016-11-08* — You can't cast Divergent Transformations without two target creatures. If a targeted creature becomes an illegal target for Divergent Transformations after it's been cast, its controller won't exile or replace that creature, but the other creature is still affected.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/D.md#divergent-transformations)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/216/divergent-transformations) · oracle_id `f08e835a-7827-4fdc-8dcf-ae74507da052` · printing: CMM #216 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diversionary Tactics
@@ -4404,6 +4464,7 @@ schema: 2
   > *Flittersprites collect unusually valuable things: coins of fallen empires, baby teeth, and memories of treasured names.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14552 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#divest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/87/divest) · oracle_id `9e0d7408-3827-4a65-9905-9fef3ae23c7e` · printing: 2XM #87 (2020-08-07) · [rulings](https://api.scryfall.com/cards/4494cb6d-1a99-40b6-96cc-0dc2ddec102f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Divide by Zero
@@ -4423,6 +4484,7 @@ schema: 2
   - *2021-04-16* — If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional.
   - *2021-04-16* — If you bring a card into the game from outside the game in a Constructed tournament (or a Constructed game played under tournament conditions), you may select only a card from your sideboard. In casual Constructed games, the card comes from your collection.
   - *2021-04-16* — If you bring a card into the game from outside the game in a Sealed Deck or Booster Draft event, you may select only a card that is in the card pool that you built your deck from.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/D.md#divide-by-zero)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/41/divide-by-zero) · oracle_id `7b1c1a0c-f443-4eb5-a430-9eea886361ca` · printing: STX #41 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Divination
@@ -4435,6 +4497,7 @@ schema: 2
   > *"The stars mark your destiny. May you accept the fate thus divulged."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6273 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#divination)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/51/divination) · oracle_id `273b339c-964b-4a18-8eb5-ceb8abcdfd9e` · printing: M19 #51 (2018-07-13) · [rulings](https://api.scryfall.com/cards/cb3b35b8-f321-46d8-a441-6b9a6efa9021/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Divine Arrow
@@ -4447,6 +4510,7 @@ schema: 2
   > *Ravnica's defenders watched in horror as Oketra's shot pierced the body of the pegasus. Gideon tumbled through the air, Blackblade in hand.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20123 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#divine-arrow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/100/divine-arrow) · oracle_id `6add505a-9c0f-42e6-898d-be3194c3df33` · printing: JMP #100 (2020-07-17) · [rulings](https://api.scryfall.com/cards/352c4997-2b96-45da-a4e1-70a86453c6fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Divine Congregation
@@ -4825,6 +4889,7 @@ schema: 2
   - *2018-10-05* — If an effect changes under whose control a token would be created, that effect applies before Divine Visitation's effect applies. If an effect changes under whose control a token would enter the battlefield, that effect applies after Divine Visitation's effect is able to be applied.
   - *2018-10-05* — If you create a noncreature token that will be a creature as it enters the battlefield, perhaps because of an effect such as that of March of the Machines, Divine Visitation's effect doesn't apply to that token's creation. (This is because Divine Visitation's effect modifies how the tokens are created, and March of the Machines's effect doesn't apply until you consider how the tokens are entering the battlefield.)
   - *2018-10-05* — The token's characteristics are entirely replaced by a 4/4 white Angel creature token with flying and vigilance. It doesn't have any abilities the token would have been created with. Anything else specified in the effect creating the token (such as tapped, attacking, "That token gains haste," or "Exile that token at end of combat") still applies.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/D.md#divine-visitation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/131/divine-visitation) · oracle_id `5917216f-5b42-41fa-8976-401bdbeb782e` · printing: MSC #131 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diving Griffin

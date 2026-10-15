@@ -111,6 +111,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reach-of-branches)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mma/158/reach-of-branches) · oracle_id `951b59c5-6d5a-4fca-b3ae-e783814e7e7a` · printing: MMA #158 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reach of Shadows
@@ -137,6 +138,7 @@ schema: 2
   > *—Tifa Lockhart*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4286 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reach-the-horizon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/195/reach-the-horizon) · oracle_id `14bc29ee-4f84-4e62-8ede-5741b99414c9` · printing: FIN #195 (2025-06-13) · [rulings](https://api.scryfall.com/cards/c25960e0-5779-4e20-89f3-03950ad9d91c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reach Through Mists
@@ -168,6 +170,7 @@ schema: 2
   - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
   - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
   - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/R.md#read-the-bones)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/154/read-the-bones) · oracle_id `5bf4d8d9-a2b2-4dba-ac05-9d4470a89db2` · printing: DSC #154 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Read the Runes
@@ -251,6 +254,7 @@ schema: 2
 - **Keywords:** Vanishing, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9592 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#reality-acid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/81/reality-acid) · oracle_id `232c297d-71b6-429f-99df-39a11dbcea40` · printing: TSR #81 (2021-03-19) · [rulings](https://api.scryfall.com/cards/a8510381-e05c-4cc4-98aa-c9327e18ec02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reality Anchor
@@ -349,6 +353,7 @@ schema: 2
   - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
   - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Referenced in:** 5 pages (1 decks · 1 edh guides · 2 rules · 1 card data) → [reverse index](../../references/R.md#reality-shift)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/199/reality-shift) · oracle_id `70dc830e-d05b-4fc7-88dd-879e140b3fbf` · printing: SOC #199 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reality Smasher
@@ -424,6 +429,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If a player uses a text-changing effect to make a land type be listed as producing two different colors, the player tapping the land for mana can choose to produce mana of either color. But if it produces more than one mana, all mana is of the same color.
   - *2013-04-15* — If a land has more than one basic land type, the player tapping the land for mana can choose to produce mana of either color. But if it produces more than one mana, all mana is of the same color.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reality-twist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/94/reality-twist) · oracle_id `2c6f9fdb-ee27-4cd8-9d4d-1ea8b2830f73` · printing: ICE #94 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Really Charming Prince
@@ -504,6 +510,7 @@ schema: 2
   - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#realm-cloaked-giant--cast-off)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/70/realm-cloaked-giant-cast-off) · oracle_id `a1d17244-9c92-4094-9843-d7ee31c85ea4` · printing: AFC #70 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Realm of Koh
@@ -519,6 +526,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5741 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-10-02* — If one of these lands enters at the same time as any number of basic lands, those other lands are not counted when determining if this land enters tapped or untapped.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#realm-of-koh)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/276/realm-of-koh) · oracle_id `bb9ce416-eef1-49e8-89a0-2b6837505070` · printing: TLA #276 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Realm Razer
@@ -601,6 +609,7 @@ schema: 2
   - *2021-02-05* — You can look at the top card of your library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
   - *2021-02-05* — You must choose an existing creature type, such as Elk or Advisor. You can't choose card types (e.g., artifact) or supertypes (e.g., snow).
   - *2021-02-05* — You'll still pay all costs for the spell, including additional costs. You may also pay alternative costs if any are available.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/R.md#realmwalker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/114/realmwalker) · oracle_id `b81eaa2f-0554-41c6-bdf6-d1cb73b8f56f` · printing: ECC #114 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Realmwright
@@ -635,6 +644,7 @@ schema: 2
   - *2025-09-19* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creature you control from Reanimate is exiled.
   - *2025-09-19* — The amount of life you lose is determined by the mana value of the card in your graveyard, not the creature once it's on the battlefield.
   - *2025-09-19* — You lose life after the creature is already on the battlefield. Any abilities it has that interact with loss of life, such as that of Platinum Emperion, apply to that loss of life.
+- **Referenced in:** 27 pages (20 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/R.md#reanimate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/155/reanimate) · oracle_id `a044474a-cd72-4e9d-bd8d-a08f2de9cdc0` · printing: DSC #155 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reap
@@ -650,6 +660,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-04-01* — The count of the number of black permanents the targeted opponent controls is done during announcement since it only affects target selection. It does not get recounted later.
   - *2008-04-01* — This card has received errata so that it now targets a specific opponent.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/R.md#reap)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/247/reap) · oracle_id `7fcb8472-1e77-4dcd-b18f-8abf8806da08` · printing: TMP #247 (1997-10-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reap and Sow
@@ -742,6 +753,7 @@ schema: 2
   - *2019-10-04* — Once Reaper of Night's ability has resolved, the number of cards in defending player's hand no longer matters. Reaper of Night won't gain or lose flying if that number changes later in the turn.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reaper-of-night--harvest-fear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/102/reaper-of-night-harvest-fear) · oracle_id `d40e5a76-6c9a-47eb-b412-d3056cf36b3f` · printing: ELD #102 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reaper of Sheoldred
@@ -949,6 +961,7 @@ schema: 2
   - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
   - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
   - *2024-02-02* — You can't cast Reasonable Doubt just to suspect a creature. There has to be a spell on the stack that's a legal target for Reasonable Doubt.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#reasonable-doubt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/69/reasonable-doubt) · oracle_id `020503f5-0915-4cd5-a617-1c7bde045e10` · printing: MKM #69 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reason // Believe
@@ -988,6 +1001,7 @@ schema: 2
   > *—Mort the Philosopher, last words*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #773 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/R.md#reassembling-skeleton)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/195/reassembling-skeleton) · oracle_id `9dbc3530-b278-4c8d-b2cc-a09dfac9d5e5` · printing: TDC #195 (2025-04-11) · [rulings](https://api.scryfall.com/cards/4d431445-d7db-4ce1-b422-41494d9be1b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reaver Ambush

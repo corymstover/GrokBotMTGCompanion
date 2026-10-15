@@ -89,6 +89,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-01-27* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2026-01-27* — Once the exiled creature returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#go-ninja-go)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/149/go-ninja-go) · oracle_id `46f77c8c-6817-4aea-a80a-d91f508ccbd0` · printing: TMT #149 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gonti, Canny Acquisitor
@@ -125,6 +126,7 @@ schema: 2
   - *2016-09-20* — You may look at and cast that card (and spend mana as though it were mana of any type to do so) even if Gonti leaves the battlefield. If another player gains control of Gonti, that player can't look at or cast the card, and you still can.
   - *2016-09-20* — You pay the costs for the exiled card if you cast it. You may pay alternative costs such as emerge rather than the card's mana cost.
   - *2023-07-28* — The six types of mana are white, blue, black, red, green, and colorless. Snow mana is not a type of mana. Gonti, Lord of Luxury won't let you pay a snow cost using mana produced by a nonsnow source.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/G.md#gonti-lord-of-luxury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/135/gonti-lord-of-luxury) · oracle_id `d5be0ff6-39d9-4f9f-a028-e62dc38463f2` · printing: OTC #135 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gonti, Night Minister
@@ -138,6 +140,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2431 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/G.md#gonti-night-minister)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/87/gonti-night-minister) · oracle_id `e16f79c1-ffbb-4893-b62a-d4e9d15e2b16` · printing: DFT #87 (2025-02-14) · [rulings](https://api.scryfall.com/cards/d79ca40a-e5c0-4956-8df0-ecbd2a25656f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gonti's Aether Heart
@@ -160,6 +163,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gontis-aether-heart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/152/gontis-aether-heart) · oracle_id `69428825-3c40-486d-b051-14e97a598ce6` · printing: AER #152 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gonti's Machinations

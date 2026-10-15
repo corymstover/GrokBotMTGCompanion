@@ -60,6 +60,7 @@ schema: 2
   > *Tannuk's gut warned of danger, but Sami forged ahead without heed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12071 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#samis-curiosity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/203/samis-curiosity) · oracle_id `5f532b7f-cb76-4be7-b361-0106c561dcb2` · printing: EOE #203 (2025-08-01) · [rulings](https://api.scryfall.com/cards/703ad0f3-bd05-42b0-85fb-0cd37807dc91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sami, Ship's Engineer
@@ -73,6 +74,7 @@ schema: 2
   > *Whenever Sami was down on their luck, they returned to an old comfort: the clinks and clanks of tinkering.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13052 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#sami-ships-engineer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/225/sami-ships-engineer) · oracle_id `470c16c5-b078-47f5-89b0-42991e1f7157` · printing: EOE #225 (2025-08-01) · [rulings](https://api.scryfall.com/cards/75c38cc9-07de-46d4-8195-f04b2b7e0fee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samite Alchemist
@@ -227,6 +229,7 @@ schema: 2
   - *2025-07-25* — Affinity for artifacts means “This spell costs {1} less to cast for each artifact you control.”
   - *2025-07-25* — If a spell has multiple instances of affinity, each one applies. For example, if you somehow control two Sami, Wildcat Captains and you control two artifacts, each spell you cast will cost {4} less to cast.
   - *2025-07-25* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#sami-wildcat-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/226/sami-wildcat-captain) · oracle_id `c4175a34-70bb-47e5-8406-efdc4d2cd079` · printing: EOE #226 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sam, Loyal Attendant
@@ -254,6 +257,7 @@ schema: 2
   - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sam-loyal-attendant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/7/sam-loyal-attendant) · oracle_id `2837be10-23ad-49d2-943e-b1e00edbbbd9` · printing: LTC #7 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sample Collector
@@ -304,6 +308,7 @@ schema: 2
 - **Keywords:** Bushido
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23566 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#samurai-enforcers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/42/samurai-enforcers) · oracle_id `9d0d19e4-34f9-4bfa-9c8b-74356d223a18` · printing: CHK #42 (2004-10-01) · [rulings](https://api.scryfall.com/cards/8b2be3fe-87a2-47b2-8af1-b99a48622c7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samurai of the Pale Curtain
@@ -347,6 +352,7 @@ schema: 2
   > *Samut doesn't pretend to know the best path, but she does know that Amonkhet will only thrive if its people keep moving forward.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8813 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/S.md#samut-hazorets-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/251/samut-hazorets-champion) · oracle_id `add02a36-8811-438b-a8e1-f5c8a8146b4e` · printing: FRA #251 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ba920f23-f05c-410e-8516-c93abedf1d4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut's Sprint
@@ -382,6 +388,7 @@ schema: 2
   - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
   - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
   - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#samut-the-driving-force)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/222/samut-the-driving-force) · oracle_id `ee89c719-5ae8-4316-bfd0-cfe3684b5859` · printing: DFT #222 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, the Tested
@@ -398,6 +405,7 @@ schema: 2
   - *2017-07-14* — If Samut's second ability has two targets and one becomes an illegal target, the remaining target is dealt 1 damage, not 2.
   - *2017-07-14* — While resolving Samut's last ability, all of the creatures and planeswalkers put onto the battlefield this way enter at the same time. If any have triggered abilities that trigger on something else entering the battlefield, they'll see each other.
   - *2017-07-14* — You divide the damage as you activate Samut's second ability, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you activate the ability, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#samut-the-tested)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/144/samut-the-tested) · oracle_id `fffdc2ac-bde4-4e4c-a5bd-0e6c6e49ad91` · printing: HOU #144 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, Tyrant of Naktamun
@@ -416,6 +424,7 @@ schema: 2
   - *2026-08-21* — If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
   - *2026-08-21* — Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
   - *2026-08-21* — Split second doesn't stop triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/S.md#samut-tyrant-of-naktamun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/220/samut-tyrant-of-naktamun) · oracle_id `a275f7ac-7dae-4422-875a-f34f24b6f28a` · printing: FRA #220 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, Tyrant Smasher
@@ -430,6 +439,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16783 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-05-03* — If the target creature is an illegal target by the time Samut’s loyalty ability tries to resolve, the ability doesn’t resolve. You won’t scry 1.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/S.md#samut-tyrant-smasher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/235/samut-tyrant-smasher) · oracle_id `80405d7a-f533-44bd-ac85-890476cf2b78` · printing: WAR #235 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, Vizier of Naktamun
@@ -445,6 +455,7 @@ schema: 2
 - **Keywords:** Vigilance, First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7126 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#samut-vizier-of-naktamun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/45/samut-vizier-of-naktamun) · oracle_id `178b3fdf-dbee-4245-a811-b21ff8a24f66` · printing: MAT #45 (2023-05-12) · [rulings](https://api.scryfall.com/cards/a0f3fdb0-47ad-4df6-a95c-a2c81aaf7af5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, Voice of Dissent
@@ -462,6 +473,7 @@ schema: 2
 - **Keywords:** Vigilance, Haste, Double strike, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6345 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 2 lore & story) → [reverse index](../../references/S.md#samut-voice-of-dissent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/205/samut-voice-of-dissent) · oracle_id `b1eee275-5106-4c8d-a497-d7945ad81d74` · printing: AKH #205 (2017-04-28) · [rulings](https://api.scryfall.com/cards/60f2d8f1-43a9-438a-830c-9d6b5701f950/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samwise Gamgee
@@ -483,6 +495,7 @@ schema: 2
   - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#samwise-gamgee)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/222/samwise-gamgee) · oracle_id `7ce37c26-91ea-493f-bfc3-a890d4538bc1` · printing: LTR #222 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samwise the Stouthearted

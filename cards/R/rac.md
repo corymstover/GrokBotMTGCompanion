@@ -66,6 +66,7 @@ schema: 2
   > *Purchasing chrome racehorses with cash is a common means of dispersing mysterious income.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8380 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#racers-ring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/253/racers-ring) · oracle_id `7e2eb4d5-22a3-43c1-8cf3-e85723da1b61` · printing: SNC #253 (2022-04-29) · [rulings](https://api.scryfall.com/cards/2a11bdb2-a269-4038-85f3-69fbd02982e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Racers' Scoreboard

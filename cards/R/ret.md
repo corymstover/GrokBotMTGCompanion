@@ -189,6 +189,7 @@ schema: 2
   > *Where the geometries of the world collapse, a master of the aether can harvest power beyond comprehending.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4153 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#retraction-helix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/71/retraction-helix) · oracle_id `2707f9f4-2b80-47ac-af0a-99fc53af94bf` · printing: A25 #71 (2018-03-16) · [rulings](https://api.scryfall.com/cards/7aa3fdd0-34d8-47b3-9753-d2929838732e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retreat to Coralhelm
@@ -205,6 +206,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/R.md#retreat-to-coralhelm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/126/retreat-to-coralhelm) · oracle_id `c450f6b7-bb2a-4b8c-aec7-d27555137b63` · printing: DSC #126 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retreat to Emeria
@@ -221,6 +223,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#retreat-to-emeria)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/20/retreat-to-emeria) · oracle_id `cc0cda37-9fea-48c6-897a-45f6b84e1eae` · printing: ZNC #20 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retreat to Hagra
@@ -253,6 +256,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#retreat-to-kazandu)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/435/retreat-to-kazandu) · oracle_id `3f8e5ff1-af89-427e-924c-19a44f9a3788` · printing: CMR #435 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retreat to Valakut
@@ -306,6 +310,7 @@ schema: 2
   > *—Asmira, Holy Avenger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12751 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#retribution-of-the-meek)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/19/retribution-of-the-meek) · oracle_id `61f2083b-3018-43a4-8852-8e6d2a97d5d6` · printing: VIS #19 (1997-02-03) · [rulings](https://api.scryfall.com/cards/860b8633-1bfc-426a-8666-5e6a584d4525/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retributive Wand
@@ -366,6 +371,7 @@ schema: 2
   - *2021-04-16* — If you bring a card into the game from outside the game in a Constructed tournament (or a Constructed game played under tournament conditions), you may select only a card from your sideboard. In casual Constructed games, the card comes from your collection.
   - *2021-04-16* — If you bring a card into the game from outside the game in a Sealed Deck or Booster Draft event, you may select only a card that is in the card pool that you built your deck from.
   - *2021-04-16* — Retriever Phoenix must be in your graveyard at the moment you're instructed to learn if you want to use the last ability to return it to the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#retriever-phoenix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/113/retriever-phoenix) · oracle_id `279e573d-b7a3-4e62-a708-3ec992d97972` · printing: STX #113 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retrieve the Esper
@@ -384,6 +390,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#retrieve-the-esper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/68/retrieve-the-esper) · oracle_id `9d6fdbd4-ba51-4df1-b383-9b709b36a8d7` · printing: FIN #68 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retrofitted Transmogrant
@@ -411,6 +418,7 @@ schema: 2
   > {T}, Sacrifice a Thopter: Create a 4/4 colorless Construct artifact creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4496 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/R.md#retrofitter-foundry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/57/retrofitter-foundry) · oracle_id `aaadfe41-b2be-4183-b45e-a70e53a59d2e` · printing: C18 #57 (2018-08-10) · [rulings](https://api.scryfall.com/cards/5da578b8-19e6-4068-9336-e7cd33c585f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retromancer
@@ -554,6 +562,7 @@ schema: 2
 - **Keywords:** Mill, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17574 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#return-of-the-mole-man)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/729/return-of-the-mole-man) · oracle_id `a38f7ce1-6ccc-4fd3-9e02-631e8933c1f8` · printing: MSC #729 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fe75cfa6-614a-43f7-9088-ec8ab00a8738/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return of the Nightstalkers
@@ -578,6 +587,7 @@ schema: 2
   > *"The curse is broken."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #179 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 6 pages (3 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/R.md#return-of-the-wildspeaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/115/return-of-the-wildspeaker) · oracle_id `2b76f9e9-cd28-4eaf-8674-215c34263f96` · printing: ECC #115 (2026-01-23) · [rulings](https://api.scryfall.com/cards/2fa1dac5-51ba-403e-b48b-d2c0d23a8146/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return the Favor
@@ -614,6 +624,7 @@ schema: 2
   - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can't be changed.
   - *2024-04-12* — You don't choose the new target for the spell or ability targeted with Return the Favor's second mode until Return the Favor resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target has somehow become illegal itself.
   - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/R.md#return-the-favor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/142/return-the-favor) · oracle_id `30377bd5-99ab-4888-9ea7-e5a069b527e8` · printing: OTJ #142 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return the Past
@@ -663,6 +674,7 @@ schema: 2
   > *"Swallowing his eye, the valiant Xiahou Dun fought on; / But Cao Cao's vanguard, its commander wounded, could not hold out for long."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27132 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#return-to-battle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/81/return-to-battle) · oracle_id `cf6676b7-b40a-46bd-b166-bd3cbb49d80d` · printing: PTK #81 (1999-05-01) · [rulings](https://api.scryfall.com/cards/1841e615-fdcd-4187-bd69-d07abde0e1ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return to Dust
@@ -693,6 +705,7 @@ schema: 2
   > *—\*Tales of the Fae\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #785 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/R.md#return-to-nature)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/309/return-to-nature) · oracle_id `777b8ec4-a783-4297-96b7-4f200d0eb734` · printing: MOC #309 (2023-04-21) · [rulings](https://api.scryfall.com/cards/7e99f99a-68a1-4f35-853c-794630d313fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return to the Earth
@@ -738,6 +751,7 @@ schema: 2
   - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-01-12* — When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.
   - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#return-to-the-ranks)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/29/return-to-the-ranks) · oracle_id `0d4ee553-f206-4e70-a7b2-a3670440aee7` · printing: M15 #29 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return to the Sewers
@@ -772,6 +786,7 @@ schema: 2
   - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can’t legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn’t created.
   - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
   - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. The Role token won’t be created.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#return-triumphant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/26/return-triumphant) · oracle_id `a4814615-ffa2-4692-86bc-3a1b7fc2acc8` · printing: WOE #26 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return Upon the Tide

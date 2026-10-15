@@ -41,6 +41,7 @@ schema: 2
   - *2018-10-05* — Mnemonic Betrayal doesn’t change when you can cast the exiled cards. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
   - *2018-10-05* — Only the cards that remain in exile are returned to their owners’ graveyards. For example, a permanent spell cast this way will remain on the battlefield.
   - *2018-10-05* — You can’t play land cards exiled this way.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/M.md#mnemonic-betrayal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/189/mnemonic-betrayal) · oracle_id `aa41e0e6-d04e-48d6-8450-02b972dd0bb1` · printing: GRN #189 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Deluge
@@ -57,6 +58,7 @@ schema: 2
   - *2020-11-10* — If the card you copy has {X} in its mana cost, you must choose 0 as the value of X when casting the copy without paying its mana cost.
   - *2020-11-10* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast it.
   - *2020-11-10* — You create and cast the copies all during the resolution of Mnemonic Deluge. You can't wait and cast them later. If you don't cast all three copies, the ones you don't cast will cease to exist.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mnemonic-deluge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/82/mnemonic-deluge) · oracle_id `56de4cdc-4db0-48ec-8a16-f66086507233` · printing: CMR #82 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Nexus
@@ -103,6 +105,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
   - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mnemonic-sphere)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/64/mnemonic-sphere) · oracle_id `53bfffae-b99e-44bd-8954-6cf236f93f26` · printing: NEO #64 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Wall

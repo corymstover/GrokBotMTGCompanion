@@ -255,6 +255,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-07-12* — If Moldervine Reclamation leaves the battlefield at the same time that one or more creatures you control die, its ability triggers for each of those creatures.
   - *2019-07-12* — If a creature you control dies at the same time that your life total becomes 0 or less, you lose the game before Moldervine Reclamation's ability can save you.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moldervine-reclamation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/320/moldervine-reclamation) · oracle_id `68639a3d-2192-4921-8298-c76bb0cd6b02` · printing: SOC #320 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mold Folk
@@ -286,6 +287,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9690 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-11-19* — Moldgraf Millipede gets a +1/+1 counter for every creature card in your graveyard, including any creature cards that were already there before you milled three cards.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#moldgraf-millipede)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/208/moldgraf-millipede) · oracle_id `48edac92-0dd8-4274-bf1b-122243770540` · printing: INR #208 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moldgraf Monstrosity
@@ -384,6 +386,7 @@ schema: 2
 - **Keywords:** Mill, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4951 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mole-man-moloid-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/177/mole-man-moloid-master) · oracle_id `34994475-b914-44f6-8ca1-c2747b6d5956` · printing: MSH #177 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1b406cc5-75c9-430a-83a2-de0f2a8aeae6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mole Module
@@ -485,6 +488,7 @@ schema: 2
   - *2023-11-10* — Multiple cards have abilities that begin with "At the beginning of your end step, if you descended this turn." These cards don't need to have been under your control at the time you descended. For example, if a permanent card is put into your graveyard during your first main phase and you cast Stalactite Stalker your second main phase, its ability will trigger at the beginning of your end step.
   - *2023-11-10* — Some cards refer to a player who has "descended this turn." This means that a permanent card has been put into that player's graveyard from anywhere this turn.
   - *2023-11-10* — Some cards refer to the number of times a player descended this turn. Those cards care about the number of permanent cards put into that player's graveyard from anywhere this turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#molten-collapse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/234/molten-collapse) · oracle_id `f0d1636e-6f80-44fe-869a-1749ab249815` · printing: LCI #234 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten-Core Maestro
@@ -545,6 +549,7 @@ schema: 2
   - *2024-04-12* — If the copied permanent has {X} in its mana cost, X is 0.
   - *2024-04-12* — If the copied permanent is a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token, with the stated exceptions.
   - *2024-04-12* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied, with the stated exceptions.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/M.md#molten-duplication)
 - **Source flags:** [Scryfall](https://scryfall.com/card/big/14/molten-duplication) · oracle_id `92b91910-9b65-4421-8eef-a33793161089` · printing: BIG #14 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Echoes
@@ -562,6 +567,7 @@ schema: 2
   - *2020-04-17* — If the nontoken creature leaves the battlefield before Molten Echoes's triggered ability resolves, the token that's created uses the creature's last known information from before it left.
   - *2020-04-17* — The token copies exactly what is printed on the creature and nothing else (unless that creature is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
   - *2020-04-17* — You must choose an existing creature type, such as Human or Warrior. Card types such as artifact and supertypes such as legendary can't be chosen.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#molten-echoes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/148/molten-echoes) · oracle_id `26486a42-4dc6-472b-9a9b-3c3ca78cc3b5` · printing: VOC #148 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Exhale
@@ -627,6 +633,7 @@ schema: 2
   - *2024-06-07* — If a permanent returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead—unless the spell or ability that's causing the permanent to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If that spell or ability later returns the card to the battlefield (as Static Prison might, for example), the permanent card will return to the battlefield as a new object with no relation to its previous existence. The unearth effects will no longer apply to it.
   - *2024-06-07* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will do nothing as it resolves.
   - *2024-06-07* — Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/M.md#molten-gatekeeper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/128/molten-gatekeeper) · oracle_id `90fdfba8-f29e-44f9-91d2-7bf3c458a9c1` · printing: MH3 #128 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Hydra
@@ -768,6 +775,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-01-01* — If a player doesn’t have any cards in their hand, the player will still shuffle their library.
   - *2011-01-01* — The metalcraft effect counts all cards each opponent drew for any reason during that turn, not just the cards those opponents drew due to Molten Psyche’s first effect.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/M.md#molten-psyche)
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/98/molten-psyche) · oracle_id `6f98c1eb-0f52-4d21-a266-e8d52f98c1b3` · printing: SOM #98 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Rain
@@ -781,6 +789,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16211 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — If the target land is an illegal target by the time Molten Rain tries to resolve, the spell doesn't resolve. No player is dealt 2 damage. If the target is legal but not destroyed (most likely because it has indestructible), its controller is dealt 2 damage.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#molten-rain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/103/molten-rain) · oracle_id `e9774695-b2f1-4014-8504-04b2339be568` · printing: MM3 #103 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Ravager
@@ -795,6 +804,7 @@ schema: 2
   > *—Sachir, Akoum Expeditionary House*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31205 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#molten-ravager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/351/molten-ravager) · oracle_id `697c851d-8475-479e-8783-cebdbe9a892d` · printing: JMP #351 (2020-07-17) · [rulings](https://api.scryfall.com/cards/a5664b7d-b553-4e0a-93ec-3d70e8e4f63b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Rebuke

@@ -76,6 +76,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-07-25* — If a creature’s power is less than 0 when it’s doubled, instead that creature gets -X/-0, where X is how much less than 0 its power is. For example, if an effect has given Bear Cub, a 2/2 creature, -4/-0 so that it’s a -2/2 creature, doubling its power and toughness gives it -2/+2, and it becomes a -4/4 creature.
   - *2025-07-25* — If an effect instructs you to “double” a creature’s power, that creature gets +X/+0, where X is its power as that effect begins to apply. Similarly, a creature whose toughness is doubled gets +0/+X, where X is its toughness as the effect begins to apply.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mightform-harmonizer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/200/mightform-harmonizer) · oracle_id `8e025cda-71c5-4d06-8436-decd408667af` · printing: EOE #200 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might Makes Right
@@ -196,6 +197,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3852 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-07-26* — If the target creature is an illegal target as Might of the Meek tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw a card.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#might-of-the-meek)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/144/might-of-the-meek) · oracle_id `19b5c94b-b4fa-41a9-b649-51c4e6f03602` · printing: BLB #144 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might of the Nephilim
@@ -330,6 +332,7 @@ schema: 2
 - **Keywords:** Alliance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16462 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mighty-mutanimals)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/21/mighty-mutanimals) · oracle_id `fcdc7dfc-04b5-411a-ab49-282b9c2608e2` · printing: TMT #21 (2026-03-06) · [rulings](https://api.scryfall.com/cards/5dd5369c-174c-450b-b776-553866787f8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mighty Servant of Leuk-o
@@ -386,6 +389,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1229 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#migration-path)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/262/migration-path) · oracle_id `db4907f3-4071-47c4-9329-96b4813435be` · printing: TDC #262 (2025-04-11) · [rulings](https://api.scryfall.com/cards/21e3dfad-69b6-416c-966b-0d9c876d22fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Migratory Greathorn

@@ -256,6 +256,7 @@ schema: 2
   - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blessed-hippogriff--tyrs-blessing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/11/blessed-hippogriff-tyrs-blessing) · oracle_id `3372b994-47de-4e89-9bfc-76e1cb3f1cfa` · printing: CLB #11 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Light

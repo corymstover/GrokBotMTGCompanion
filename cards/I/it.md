@@ -45,6 +45,7 @@ schema: 2
   > At the beginning of your upkeep, exile the top three cards of your library. Each opponent secretly chooses a number 0 or greater. Then those numbers are revealed. Choose an opponent with the highest number. Itazura deals that much damage to them, then they may cast a spell from among those cards without paying its mana cost. You put a card from among them that wasn't cast this way into your hand.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #21792 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#itazura-lingering-wick)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/41/itazura-lingering-wick) · oracle_id `55b45ac9-9ce7-4d17-9efb-3c0c51482950` · printing: MBC #41 (2026-10-19) · [rulings](https://api.scryfall.com/cards/414c5fd9-e1be-4b82-9aec-85c19ca0f480/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### It Came from Planet Glurg
@@ -60,6 +61,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — If an effect needs information about the creature's name, it looks at all its names to determine that information. For example, if It Came from Planet Glurg becomes a copy of both Blorbian Buddy and Rat in the Hat, it has six words in its name. The first letters of its name are B and R. A creature with alpha strike whose name came before Rat in the Hat alphabetically would have first strike while in combat with it.
   - *2022-10-07* — It Came from Planet Glurg copies exactly what was printed on the original creatures and nothing more (unless any of those creatures are copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters or stickers on it, and Auras or Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#it-came-from-planet-glurg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/169/it-came-from-planet-glurg) · oracle_id `d9aecc0c-1383-431e-b235-67039ac2d5b3` · printing: UNF #169 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### It Doesn't Add Up
@@ -78,6 +80,7 @@ schema: 2
   - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won't stop being suspected.
   - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
   - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#it-doesnt-add-up)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/89/it-doesnt-add-up) · oracle_id `dcfc8c59-d032-414d-9da6-125ebcb1366c` · printing: MKM #89 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Item Crate
@@ -106,6 +109,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13608 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-06-06* — If the target creature isn't both attacking and equipped when Item Shopkeep's ability tries to resolve, it won't resolve and none of its effects will happen. However, in cases where it does resolve, it doesn't matter what happens to any of the Equipment on that creature. It'll still have menace even if it stops being equipped.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#item-shopkeep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/142/item-shopkeep) · oracle_id `7532f0ea-9d13-43ca-9b7d-2d22f2a66017` · printing: FIN #142 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iterative Analysis
@@ -133,6 +137,7 @@ schema: 2
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
   - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
   - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/I.md#iterative-analysis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/6/iterative-analysis) · oracle_id `79172853-240c-4924-8b20-edf469946df4` · printing: CNS #6 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ith, High Arcanist
@@ -254,6 +259,7 @@ schema: 2
   - *2010-06-15* — It doesn’t matter whose graveyard the permanent is put into, only that it was last controlled by, and sacrificed by, an opponent.
   - *2010-06-15* — The second ability triggers whenever an opponent sacrifices a nontoken permanent for any reason, not just due to the annihilator ability.
   - *2010-06-15* — When the second ability resolves, you must return the card to the battlefield, even if you don’t want to.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#it-that-betrays)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/805/it-that-betrays) · oracle_id `b11187ab-f8a8-422b-b550-4495f96de0f2` · printing: CMM #805 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### It That Gets Left Hanging
@@ -289,6 +295,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-06-07* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
   - *2024-06-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of It That Heralds the End). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/I.md#it-that-heralds-the-end)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/9/it-that-heralds-the-end) · oracle_id `c14ac951-329d-452b-be75-5c72166cd9c7` · printing: MH3 #9 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Itzquinth, Firstborn of Gishath

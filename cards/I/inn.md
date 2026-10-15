@@ -223,6 +223,7 @@ schema: 2
   - *2024-07-26* — Once a ward ability of a permanent with a counter on it has triggered, causing that permanent to lose ward by removing Innkeeper's Talent or removing the counters from that permanent won't affect that ability. The appropriate player will still have to pay {1} or have their spell or ability countered.
   - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
   - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#innkeepers-talent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/180/innkeepers-talent) · oracle_id `915b75d1-b5e3-4aca-a54c-beaccef0a2e4` · printing: BLB #180 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Innocence Kami

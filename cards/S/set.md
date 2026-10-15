@@ -90,6 +90,7 @@ schema: 2
   - *2020-01-24* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
   - *2020-01-24* — An Aura spell that has an illegal target when it tries to resolve doesn't resolve and is instead put into its owner's graveyard. It doesn't enter the battlefield, so constellation abilities don't trigger.
   - *2020-01-24* — If Setessan Champion leaves the battlefield after its ability has triggered, you still draw a card even though you won't put a +1/+1 counter on Setessan Champion.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#setessan-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/912/setessan-champion) · oracle_id `38513660-260f-4663-b199-6473fa004a3b` · printing: CMM #912 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Setessan Griffin
@@ -214,6 +215,7 @@ schema: 2
   > {2}{B/R}: Minotaurs you control get +1/+0 and gain menace and haste until end of turn. ({B/R} can be paid with either {B} or {R}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17146 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sethron-hurloon-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/25/sethron-hurloon-general) · oracle_id `561c1ce9-41e7-474a-9476-bb9a7d24f0d5` · printing: JMP #25 (2020-07-17) · [rulings](https://api.scryfall.com/cards/274cdb39-1454-4c9b-acd8-4f762a48e71f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seton, Krosan Protector
@@ -312,6 +314,7 @@ schema: 2
   - *2018-04-27* — Both loyalty counters must be put onto the same planeswalker.
   - *2018-04-27* — If the target creature is an illegal target by the time Settle the Score tries to resolve, the spell doesn’t resolve. You won’t put loyalty counters on a planeswalker.
   - *2018-04-27* — You don’t choose which planeswalker receives loyalty counters until Settle the Score resolves. If you don’t control a planeswalker, you’ll simply exile the target creature and not put loyalty counters on anything.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/S.md#settle-the-score)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/276/settle-the-score) · oracle_id `2f18bb2d-249f-4d7a-a0f7-8a285d365777` · printing: JMP #276 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Settle the Wreckage
@@ -345,4 +348,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12053 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Some effects that instruct a player to flip a coin care only about whether the coin comes up heads or tails. These effects don't normally cause any player to win or lose that coin flip.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#setzer-wandering-gambler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/93/setzer-wandering-gambler) · oracle_id `acdd5082-7b3c-4fd3-941b-d19dd72698ec` · printing: FIC #93 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -156,6 +156,7 @@ schema: 2
   - *2026-01-27* — To have two commanders, both must have appropriate partner abilities as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2026-01-27* — Whatever you do, don't eat the cards. (Also, don't make the pizzas pictured on the cards. You don't have the digestive system of a Ninja Turtle.)
   - *2026-01-27* — You can have two commanders if each one has "Partner—Character select." You can't mix and match them with cards that have other partner abilities.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#michelangelo-the-heart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/5/michelangelo-the-heart) · oracle_id `f11e914c-16bc-4836-bc14-bc1b5de9cd87` · printing: TMC #5 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Michelangelo, Weirdness to 11
@@ -173,6 +174,7 @@ schema: 2
   - *2026-01-27* — In the unusual case where you control more than one Michelangelo, Weirdness to 11, each one you control will increase the number of +1/+1 counters placed on a creature you control by one.
   - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
   - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/M.md#michelangelo-weirdness-to-11)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/121/michelangelo-weirdness-to-11) · oracle_id `170ab932-9d50-4ce7-9a42-08e1edce7e7c` · printing: TMT #121 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Michiko Konda, Truth Seeker
@@ -242,4 +244,5 @@ schema: 2
   - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#microscope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/607/microscope) · oracle_id `8dde3f91-ebc8-4de6-9261-88010e1a7c73` · printing: MB2 #607 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

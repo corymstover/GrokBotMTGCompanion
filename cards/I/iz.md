@@ -49,6 +49,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-02-02* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
   - *2024-02-02* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#izoni-center-of-the-web)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/209/izoni-center-of-the-web) · oracle_id `8074afbf-190b-4a24-b939-cc559bdffe38` · printing: MKM #209 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izoni, Thousand-Eyed
@@ -65,6 +66,7 @@ schema: 2
   - *2018-10-05* — Because tokens aren't cards, they never count for undergrowth abilities.
   - *2018-10-05* — Creature cards with other types, such as artifact creature cards, count for undergrowth abilities.
   - *2018-10-05* — You can activate Izoni's last ability while its undergrowth ability is on the stack. This will increase the number of Insect tokens you'll create.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#izoni-thousand-eyed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/180/izoni-thousand-eyed) · oracle_id `5a210b32-6e1f-4578-bd8b-4e481b761159` · printing: GRN #180 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Boilerworks
@@ -78,6 +80,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #437 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/I.md#izzet-boilerworks)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/302/izzet-boilerworks) · oracle_id `1cb9d94a-3039-4f2e-8fcc-6996f9a45f74` · printing: OTC #302 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Charm
@@ -92,6 +95,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1538 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — If you choose the last mode, you draw two cards and discard two cards all while Izzet Charm is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#izzet-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/190/izzet-charm) · oracle_id `a07698f6-5ad5-49a3-9da2-f82d407f5cd7` · printing: RVR #190 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Chemister
@@ -125,6 +129,7 @@ schema: 2
   > *He ensures not only whether but also when and where the lightning strikes twice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18163 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#izzet-chronarch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/175/izzet-chronarch) · oracle_id `1da438f3-db1c-4713-a60c-e078f31d809c` · printing: C17 #175 (2017-08-25) · [rulings](https://api.scryfall.com/cards/d2f8fe93-8d20-41d4-8205-597a9c9b8bbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Cluestone
@@ -176,6 +181,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Gate is not a basic land type.
   - *2013-04-15* — The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#izzet-guildgate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/691/izzet-guildgate) · oracle_id `bf75a3d1-f184-4b48-a913-21caee1db084` · printing: FDN #691 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Guildmage
@@ -239,6 +245,7 @@ schema: 2
   > *The Izzet signet is redesigned often, each time becoming closer to a vanity portrait of Niv-Mizzet.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #172 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 16 pages (12 decks · 3 edh guides · 1 card data) → [reverse index](../../references/I.md#izzet-signet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/58/izzet-signet) · oracle_id `2fda4fe7-8b0c-489c-a000-6d358e614e34` · printing: FRC #58 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d5e141ad-5cb8-416b-9acf-bce1baeb6b6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Staticaster

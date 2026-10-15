@@ -60,6 +60,7 @@ schema: 2
   - *2025-06-06* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2025-06-06* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2025-06-06* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 rules) → [reverse index](../../references/S.md#sakashima-of-a-thousand-faces)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/89/sakashima-of-a-thousand-faces) · oracle_id `8ecdaf4b-4442-42da-9714-4257a83faf50` · printing: CMR #89 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakashima's Protege
@@ -90,6 +91,7 @@ schema: 2
   - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sakashimas-protege)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/90/sakashimas-protege) · oracle_id `cf127842-5fb1-44df-8d91-8cc0f48c559a` · printing: CMR #90 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakashima's Student
@@ -111,6 +113,7 @@ schema: 2
   - *2012-06-01* — If the chosen creature is copying something else (for example, if the chosen creature is another Sakashima's Student), then your Sakashima's Student enters as whatever the chosen creature copied.
   - *2012-06-01* — Sakashima's Student copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below) and it is a Ninja in addition to its other types. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
   - *2012-06-01* — You can choose not to copy anything. In that case, Sakashima's Student enters as a 0/0 creature, and is probably put into the graveyard immediately.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/S.md#sakashimas-student)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/24/sakashimas-student) · oracle_id `afcc68e2-3634-43ce-ae99-dd2ec735d146` · printing: PCA #24 (2016-11-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakashima's Will
@@ -172,6 +175,7 @@ schema: 2
   > *He'd chosen a sunlit clearing with open skies and an ample brook. All that remained was to find a worthy sapling.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #114 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 13 pages (9 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#sakura-tribe-elder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/285/sakura-tribe-elder) · oracle_id `e3afc704-220f-498f-9eaa-0821b17dc24c` · printing: SOC #285 (2026-04-24) · [rulings](https://api.scryfall.com/cards/7a8b1c49-8594-426d-b585-41140235bb0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakura-Tribe Scout
@@ -186,6 +190,7 @@ schema: 2
   > *—\*The History of Kamigawa\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3655 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sakura-tribe-scout)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/144/sakura-tribe-scout) · oracle_id `0c319f45-cb0f-4641-acd8-145768acb3fc` · printing: SOK #144 (2005-06-03) · [rulings](https://api.scryfall.com/cards/9cbdda50-8a27-4094-849d-b6f66def82ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakura-Tribe Springcaller

@@ -81,6 +81,7 @@ schema: 2
 | Knowledge Snapshots | ✅ (#47, Bot cycle 15) snapshot policy + **14 tags** documented |
 | Front-matter schema v2 | ✅ (#65, Bot cycle 17) typed schema on **45 pages + 86 decks + 684 card shards**; decks gain `combos`, `two_card_infinites`, computed `tags`, WUBRG-ordered identity; pages gain `related` (link graph) and `schema`; [Front-Matter Schema](Front-Matter%20Schema.md) generated from the script |
 | Validation | ✅ (#67, Bot cycle 17) `scripts/validate_all.py`: links · schema · retrieval index · citations (**725** Wizards URLs, **478** CR rule numbers) · Oracle drift (33,894 entries) · **86** deck re-checks · freshness — all PASS |
+| Cross-references | ✅ (#66, Bot cycle 18) [reverse card index](references/README.md): **8,468** cited cards, 28 pages · *Referenced in* line on each cited entry · deck *Cross-references* blocks (**86**) · *Used in decks* on **28** EDH package sections · character-card tables (**77/78** characters, **21/21** dossiers) · **1,077** Keyword Encyclopedia example links |
 | Retrieval index | ✅ (#65, Bot cycle 17) `data/kb_index.json` (131 entries with every heading + anchor) · `scripts/kb_find.py` |
 | Lookup Guide | ✅ (#46, Bot cycle 14; Bot cycle 15 added front-matter filters; Bot cycle 17 added kb_find + validation) how-to-find table for cards, rules, EDH and lore with `rg`/CSV fast paths |
 | Rules-interactions section | 🟢 (#9) **27 topics** (was 17) · 37 official CR examples (was 20) · 139 linked rulings (was 87) |
@@ -103,4 +104,4 @@ schema: 2
 | Phase 3 — Card & Rules enrichment | ✅ closed (Bot cycles 8–13: #39–#43; milestone closed and tag created in Bot cycle 15) | `v1.7-cycle9-phase3-complete` (on 63dbeb7, PR #55) |
 | Phase 4 — Structure & usability | ✅ closed (Bot cycle 14: #46; Bot cycle 15: #44, #45, #47) | `v1.8-cycle15-phase4-complete` |
 | Grixis integration (Bot cycle 16) | ✅ #59–#62 done; #63 (follow-ups) open | `v1.9-grixis-integration` |
-| Phase 5 — Optimization pass (Bot cycles 17–19) | 🟡 Bot cycle 17: #65, #67 done; #66, #68 next | — |
+| Phase 5 — Optimization pass (Bot cycles 17–19) | 🟡 Bot cycle 17: #65, #67 done; Bot cycle 18: #66 done; #68 next | — |

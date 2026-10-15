@@ -91,6 +91,7 @@ schema: 2
   - *2022-10-14* — The last mode can target delayed triggered abilities. Notably, it can target the delayed triggered ability that exiles an unearthed permanent at the beginning of the next end step. If that delayed triggered ability is countered, the unearthed permanent remains on the battlefield indefinitely. It will still be exiled, however, if it would die or otherwise leave the battlefield for any other reason.
   - *2022-10-14* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."
   - *2022-10-14* — Turn-based actions and special actions like the normal card draw, combat damage, or turning a face-down creature face up can't be targeted. Mana abilities also can't be targeted.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#defabricate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/45/defabricate) · oracle_id `60fc5eb0-95d6-49b0-a538-945ef599e484` · printing: BRO #45 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deface
@@ -180,6 +181,7 @@ schema: 2
   - *2018-01-19* — If there’s no one around to make a decision, you can call or text someone if you need to. If there’s a physical action required, such as high-fiving, you’ll need someone there.
   - *2018-01-19* — It doesn’t have to be someone who plays Magic. This may be fun.
   - *2018-01-19* — You can choose any player not currently in your game. This includes people who used to be in your game but left it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#defective-detective)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/32/defective-detective) · oracle_id `282bcb1b-3dfd-44aa-99b3-04012316ec60` · printing: UST #32 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defender en-Vec
@@ -321,6 +323,7 @@ schema: 2
   > *Lagorin would not lose another.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3245 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#defend-the-rider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/157/defend-the-rider) · oracle_id `561af57d-d43d-4d98-9ef6-18a0843f22ae` · printing: DFT #157 (2025-02-14) · [rulings](https://api.scryfall.com/cards/59ed23a2-6153-47b2-ab73-062195cafb74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defenestrate
@@ -389,6 +392,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — The additional cost can be reduced by effects that reduce costs, such as Sapphire Medallion.
   - *2006-05-01* — In Two-Headed Giant, spells don't cost extra on your own turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#defense-grid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/293/defense-grid) · oracle_id `22ba474e-f6e6-450d-a4cf-0739f0b51079` · printing: 9ED #293 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defense of the Heart
@@ -401,6 +405,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — Defense of the Heart's ability will check if an opponent controls three or more creatures as your upkeep begins. If none of them do, the ability won't trigger at all. If an opponent does, the ability will check again as it tries to resolve. If none of your opponents control three or more creatures at that point, the ability won't do anything. The opponent that controls three or more creatures as the ability resolves doesn't have to be the same opponent that controlled three or more creatures as it triggered.
   - *2023-09-01* — If Defense of the Heart leaves the battlefield while its triggered ability is on the stack, the ability will still resolve as normal.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#defense-of-the-heart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/100/defense-of-the-heart) · oracle_id `e7e1b166-9267-426d-897d-24903327b48d` · printing: ULG #100 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defensive Formation
@@ -574,6 +579,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5714 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-06-23* — If the target creature is an illegal target by the time Defiant Strike tries to resolve, the spell won't resolve. You won't draw a card.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#defiant-strike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/15/defiant-strike) · oracle_id `f8c2d9c5-6fe6-4698-9972-83cdd625d94b` · printing: M21 #15 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Survivor
@@ -647,6 +653,7 @@ schema: 2
   > *The only shortcut in a bog is to the bottom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #985 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#defile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/86/defile) · oracle_id `49dddec0-d958-4810-8c6e-225fc8118c8f` · printing: MH1 #86 (2019-06-14) · [rulings](https://api.scryfall.com/cards/5bcb4398-edd1-41a7-a496-b12bce22ceb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiled Crypt // Cadaver Lab
@@ -676,6 +683,7 @@ schema: 2
   - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
   - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
   - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#defiled-crypt--cadaver-lab)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/91/defiled-crypt-cadaver-lab) · oracle_id `f97de425-c7ab-4688-8606-159370d179ee` · printing: DSK #91 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiler of Dreams
@@ -724,6 +732,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — Some players may make the mental shortcut that the Defilers effectively turn one of the colored mana symbols in the spell’s cost into a Phyrexian colored mana symbol. Despite the similarity in function, this ability does not cause the spells to have Phyrexian mana symbols in their costs. Sorry, Rage Extractor!
   - *2022-09-09* — You may only pay the additional cost once per permanent spell.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#defiler-of-flesh)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/90/defiler-of-flesh) · oracle_id `3ad002de-8be3-48d2-a0e0-865538144789` · printing: DMU #90 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiler of Instinct
@@ -813,6 +822,7 @@ schema: 2
   > *Nothing a New Yorker ain't seen a thousand times before.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23075 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#definitely-not-a-turtle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/98/definitely-not-a-turtle) · oracle_id `3d8dfd57-7d26-4a3b-a9c3-33077c85b3db` · printing: TMC #98 (2026-03-06) · [rulings](https://api.scryfall.com/cards/8f15d16e-b9cc-4edd-9792-f5d452488778/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deflecting Palm
@@ -825,6 +835,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — Deflecting Palm doesn't target any permanent or player. You choose a source of damage as Deflecting Palm resolves.
   - *2014-09-20* — If multiple prevention and/or replacement effects are trying to apply to the same damage, the player who would be dealt damage chooses the order in which to apply them.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#deflecting-palm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/205/deflecting-palm) · oracle_id `dc5dffc8-fac5-4956-bac4-1ad2cc16f6be` · printing: MKC #205 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deflecting Swat
@@ -843,6 +854,7 @@ schema: 2
   - *2020-04-17* — If you choose new targets for the target spell, the new targets must be legal.
   - *2020-04-17* — It doesn't matter whose commander you control. Any one will do. If you have two commanders, you just need to control one of them.
   - *2020-04-17* — Once you begin casting this spell, players can't take any other actions until you're done casting it. Notably, they can't try to remove the commander you control to make you pay its cost.
+- **Referenced in:** 44 pages (38 decks · 4 edh guides · 2 card data) → [reverse index](../../references/D.md#deflecting-swat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/214/deflecting-swat) · oracle_id `ae120613-97d6-4393-b39d-c3e6c076f5d6` · printing: CMM #214 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deflection
@@ -895,6 +907,7 @@ schema: 2
 - **Keywords:** Provoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23097 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/D.md#deftblade-elite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/23/deftblade-elite) · oracle_id `9a3e3a8f-7c19-4b52-a1b4-08eb09f6127a` · printing: VMA #23 (2014-06-16) · [rulings](https://api.scryfall.com/cards/d576b8f2-9b5b-47c0-8f9f-faa209d59595/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deft Dismissal

@@ -129,6 +129,7 @@ schema: 2
   - *2025-07-25* — Reflecting Pool’s ability checks the effects of all mana-producing abilities of lands you control, but it doesn’t check their costs or legality. For example, Spire of Industry says “{T}, Pay 1 life: Add one mana of any color. Activate only if you control an artifact.” If you control Spire of Industry and Reflecting Pool, you can tap Reflecting Pool for any color of mana. It doesn’t matter whether you control an artifact, whether you can pay 1 life, or whether Spire of Industry is untapped.
   - *2025-07-25* — Reflecting Pool’s ability doesn’t care about any restrictions or riders your lands put on the mana they produce, such as those of Plaza of Heroes or Power Depot. It just produces one mana of the appropriate type, with no restrictions or riders.
   - *2025-07-25* — The types of mana are white, blue, black, red, green, and colorless.
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/R.md#reflecting-pool)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/23/reflecting-pool) · oracle_id `67f43ac6-2a58-4b53-b5d7-0330e2a252e2` · printing: FRC #23 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reflections of Littjara
@@ -147,6 +148,7 @@ schema: 2
   - *2021-02-05* — The token that a resolving copy of a permanent spell becomes isn't "created." Abilities that refer to a copy being created won't interact with the copy resolving.
   - *2021-02-05* — The triggered ability and the copy it creates will resolve before the spell that caused the ability to trigger.
   - *2021-02-05* — You must choose an existing creature type, such as Zombie or Angel. You can't choose card types (e.g., artifact) or supertypes (e.g., snow).
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#reflections-of-littjara)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/164/reflections-of-littjara) · oracle_id `c3fdfb94-2d10-4743-864c-a59fdd57d8b7` · printing: TDC #164 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reflective Gate
@@ -186,6 +188,7 @@ schema: 2
   - *2016-01-22* — If the returned creature had no name while it was on the battlefield (likely because the creature was face down), its owner can still cast face-down creature spells with morph or megamorph, or cast the same card face up, before your next turn.
   - *2016-01-22* — In several cases, the name of the creature that was returned won’t match the name of that card once it’s back in its owner’s hand. For example, if the card was copying another creature, it will probably have a different name in its owner’s hand and can be cast again before your next turn. The same is true if a double-faced card with its back face up is returned to its owner’s hand this way.
   - *2016-01-22* — Reflector Mage’s ability doesn’t stop any player from playing lands (in the case that the returned creature was also a land).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#reflector-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/157/reflector-mage) · oracle_id `5398362d-c45e-4d56-a622-8be1124730b9` · printing: OGW #157 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reflexes
@@ -241,6 +244,7 @@ schema: 2
 - **Keywords:** Miracle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1701 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/R.md#reforge-the-soul)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/167/reforge-the-soul) · oracle_id `ece854f8-8c60-4f30-894f-2286d3dd61b9` · printing: INR #167 (2025-01-24) · [rulings](https://api.scryfall.com/cards/1c3509c6-2ae7-45be-8ac9-4d14d69db32f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refraction Trap
@@ -387,6 +391,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1882 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — If the target spell is an illegal target when Refute tries to resolve, it won't resolve and none of its effects will happen. You won't draw or discard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#refute)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/579/refute) · oracle_id `eb1dfa29-7371-4cb6-bfa2-16f7820b69be` · printing: TRC #579 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refute Destiny

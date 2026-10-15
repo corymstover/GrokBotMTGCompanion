@@ -59,6 +59,7 @@ schema: 2
   - *2016-08-23* — If the triggered ability that causes the monarch to draw a card goes on the stack, and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
   - *2016-08-23* — Regal Behemoth's last ability is a triggered mana ability. It doesn't use the stack and can't be responded to.
   - *2016-08-23* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#regal-behemoth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/251/regal-behemoth) · oracle_id `797c2b1c-c373-4735-b397-f561559c7c61` · printing: LCC #251 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regal Bloodlord
@@ -109,6 +110,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — All other Cats you control get +1/+1 and have lifelink, not just those created by Regal Caracal's last ability.
   - *2024-11-08* — Multiple instances of lifelink on the same creature are redundant.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#regal-caracal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/579/regal-caracal) · oracle_id `aa571676-b390-4b8a-baea-4c4cd60c01f6` · printing: FDN #579 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regal Force
@@ -123,6 +125,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3630 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — If Regal Force is still on the battlefield as its triggered ability resolves, its ability will count itself.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#regal-force)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddu/22/regal-force) · oracle_id `e264ffe3-0252-49d6-b990-dbb3654325a5` · printing: DDU #22 (2018-04-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regal Imperiosaur
@@ -136,6 +139,7 @@ schema: 2
   > *Initially frustrated by Muraganda's inconsistent biodiversity, Avishkari researchers made a breakthrough after mapping the plane's aetheric index—the wide variety of fauna was the result of raw magic, not evolution.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7012 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#regal-imperiosaur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/177/regal-imperiosaur) · oracle_id `83a76601-ef59-4888-af70-5088dd1f504c` · printing: DFT #177 (2025-02-14) · [rulings](https://api.scryfall.com/cards/36f569cc-ed09-4c27-b753-18b22ad7f425/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regal Leosaur
@@ -292,6 +296,7 @@ schema: 2
   > *—Adrian Adanto of Lujio*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2526 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/R.md#regisaur-alpha)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/286/regisaur-alpha) · oracle_id `0673f4e0-66ff-458c-b4ba-eb067e560cce` · printing: LCC #286 (2023-11-17) · [rulings](https://api.scryfall.com/cards/2a3c6780-8ac2-489c-a347-19dbe977df43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regna's Sanction
@@ -337,6 +342,7 @@ schema: 2
   - *2018-06-08* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
   - *2018-06-08* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
   - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#regna-the-redeemer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/3/regna-the-redeemer) · oracle_id `0e14f59f-021a-4ad3-a26b-8f79e680c426` · printing: BBD #3 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regress
@@ -362,4 +368,5 @@ schema: 2
   > *While the root remains, the tree yet lives.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1393 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/R.md#regrowth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/175/regrowth) · oracle_id `e6e4a8bd-5c40-4654-8de1-0da9afed90fd` · printing: MH1 #175 (2019-06-14) · [rulings](https://api.scryfall.com/cards/d771fc5d-b9a1-4637-8241-3f54616b64af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

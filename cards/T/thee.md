@@ -57,6 +57,7 @@ schema: 2
   - *2026-06-29* — If you copy a kicked spell on the stack, the copy is also kicked.
   - *2026-06-29* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2026-06-29* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/T.md#the-eagles-are-coming)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/12/the-eagles-are-coming!) · oracle_id `169a4a77-12ff-4997-9550-bdcd456aa2f7` · printing: HOB #12 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Earth Crystal
@@ -76,6 +77,7 @@ schema: 2
   - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of green spells you cast.
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of The Earth Crystal's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
   - *2025-06-06* — You choose how many targets The Earth Crystal's last ability has and how the counters are distributed as you activate it. Each target must receive at least one counter. This means, for example, that you can't target two creatures and assign them two and zero counters respectively.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-earth-crystal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/184/the-earth-crystal) · oracle_id `5e7ef7fe-968b-4ada-9fe4-6fda0541aafc` · printing: FIN #184 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Earth King
@@ -91,6 +93,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2570 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-10-02* — The Earth King's second ability counts the number of creatures with power 4 or greater you attack with when the ability triggers. Even if some or all of those creatures are no longer attacking or no longer have power 4 or greater when the ability resolves, they still count towards how many lands you can search for.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#the-earth-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/172/the-earth-king) · oracle_id `d5770b0f-4493-42e9-a2d7-0e74a28da4ba` · printing: TLA #172 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Echoverse Fulcrum
@@ -134,6 +137,7 @@ schema: 2
   - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-eighth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/124/the-eighth-doctor) · oracle_id `0956bc16-ff04-4e96-8059-ef62afa2405f` · printing: WHO #124 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Elder Dragon War
@@ -164,6 +168,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — You can cast The Elderspell without controlling any planeswalkers. The target planeswalkers will still be destroyed. You can also cast it without targeting any planeswalkers if you really want to do so.
   - *2019-05-03* — You choose the target planeswalkers to destroy as you cast The Elderspell, but you don’t choose a planeswalker to receive loyalty counters until The Elderspell is resolving.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#the-elderspell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/89/the-elderspell) · oracle_id `eff0a1ad-ecc6-416f-a4ae-96b26cd8a905` · printing: WAR #89 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eldest Reborn
@@ -187,6 +192,7 @@ schema: 2
   - *2018-04-27* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities—in the Dominaria set, this is always three—the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
   - *2018-04-27* — When the first chapter ability of The Eldest Reborn resolves, the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses a creature or planeswalker they control, then each other opponent in turn order (if any) does the same. All chosen permanents are then sacrificed at the same time. Players will know the choices made by earlier players when making their choices.
   - *2018-04-27* — When the second chapter ability of The Eldest Reborn resolves, the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses a card in hand without revealing it, then each other opponent in turn order (if any) does the same. All chosen cards are then discarded at the same time.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/T.md#the-eldest-reborn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/139/the-eldest-reborn) · oracle_id `44ed4c0c-a012-4895-a547-b04150553bba` · printing: DSC #139 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eleventh Doctor
@@ -217,6 +223,7 @@ schema: 2
   - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-eleventh-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/125/the-eleventh-doctor) · oracle_id `721e8249-ff1b-4c15-964b-4ba2a96beb75` · printing: WHO #125 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eleventh Hour
@@ -242,6 +249,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-eleventh-hour)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/41/the-eleventh-hour) · oracle_id `6b3e1aaf-6909-400a-88f2-9e9fde9a0cf7` · printing: WHO #41 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Emperor of Palamecia // The Lord Master of Hell
@@ -297,6 +305,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-07-25* — For your life total to become a certain value, you will gain or lose the appropriate amount of life. For example, if your starting life total is 20 and your life total is 17 when The Endstone’s last ability resolves, you will lose 7 life and your life total will become 10. Other abilities that interact with life gain or life loss will interact with this effect accordingly.
   - *2025-07-25* — The Endstone’s first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-endstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/240/the-endstone) · oracle_id `57ee0730-3ac5-4f17-ac82-bd4a6673c2bb` · printing: EOE #240 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Enigma Jewel // Locus of Enlightenment
@@ -329,6 +338,7 @@ schema: 2
   - *2023-11-10* — The copy of the activated ability created by Locus of Enlightenment's triggered ability resolves before the original ability.
   - *2023-11-10* — The copy will have the same targets as the ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them.
   - *2023-11-10* — You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#the-enigma-jewel--locus-of-enlightenment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/55/the-enigma-jewel-locus-of-enlightenment) · oracle_id `c0d2bdd9-1e68-4d3a-83f8-ec2ba440a494` · printing: LCI #55 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eternal Wanderer
@@ -349,6 +359,7 @@ schema: 2
   - *2023-02-04* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2023-02-04* — If the permanent that returns to the battlefield has any abilities that trigger at the beginning of the end step, those abilities won't trigger that turn.
   - *2023-02-04* — The Eternal Wanderer does not have a planeswalker type.
+- **Referenced in:** 5 pages (2 decks · 1 edh guides · 2 card data) → [reverse index](../../references/T.md#the-eternal-wanderer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/11/the-eternal-wanderer) · oracle_id `20a1671d-e8a4-4cf1-87a7-f2f6319f4b9e` · printing: ONE #11 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eternity Elevator

@@ -59,6 +59,7 @@ schema: 2
   - *2021-11-19* — If an effect allows you to “cast a spell without paying its mana cost,” you can't cast that spell for its cleave cost.
   - *2021-11-19* — If you cast a spell for its cleave cost, that spell doesn't have any of the text in square brackets while it's on the stack.
   - *2021-11-19* — You can't cast a spell for both its cleave cost and another alternative cost. For example, if an effect gives an Alchemist's Retrieval in your graveyard a flashback cost of {U}, you can't cast it from your graveyard for its cleave cost.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/W.md#wash-away)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/87/wash-away) · oracle_id `a4630da0-fe9b-4ead-9621-eac4b7825c35` · printing: VOW #87 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wash Out
@@ -88,6 +89,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11306 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2017-08-25* — If a creature is dealt lethal combat damage at the same time that Wasitora deals combat damage to that creature's controller, that creature will be destroyed before that player chooses a creature to sacrifice.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wasitora-nekoru-queen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/293/wasitora-nekoru-queen) · oracle_id `13fc4168-fcc2-4011-804f-211d5d86b7dd` · printing: 2X2 #293 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wasp Lancer
@@ -161,6 +163,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15953 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-14* — If a replacement effect causes the milled cards to be exiled instead of going to the graveyard, this effect can still apply to the cards "milled this way" in exile.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/W.md#wasteful-harvest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/196/wasteful-harvest) · oracle_id `d44627c0-1617-4706-bbeb-0169745364c7` · printing: BRO #196 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waste Land
@@ -172,6 +175,7 @@ schema: 2
   > {T}, Sacrifice Waste Land: Destroy target nonbasic land. That land's controller creates a Wastes token. (It's a land with {T}: Add {C}.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#waste-land)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/121/waste-land) · oracle_id `b19fdaa8-5063-4b87-8ad3-5581cc54e226` · printing: CMB2 #121 (2021-08-20) · [rulings](https://api.scryfall.com/cards/37a5dad0-ad6e-4b7e-8a55-b0aa5b1a8209/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wasteland
@@ -186,6 +190,7 @@ schema: 2
   > *—Oracle \*en\*-Vec*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1217 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/W.md#wasteland)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/248/wasteland) · oracle_id `09a70ae8-3859-4a09-901d-dce063fa3b5f` · printing: EMA #248 (2016-06-10) · [rulings](https://api.scryfall.com/cards/aaafb9bc-7cea-4624-a227-595544fa42b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wasteland Raider
@@ -278,6 +283,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#waste-management)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/40/waste-management) · oracle_id `8d4e0866-d8f5-4eb6-a0fd-3fa9d4b9cf4a` · printing: NCC #40 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waste Not
@@ -290,6 +296,7 @@ schema: 2
   > Whenever an opponent discards a noncreature, nonland card, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1255 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 9 pages (7 decks · 1 edh guides · 1 card data) → [reverse index](../../references/W.md#waste-not)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/117/waste-not) · oracle_id `00fdcc19-88ed-46c3-91f0-095806228105` · printing: C16 #117 (2016-11-11) · [rulings](https://api.scryfall.com/cards/2f5500a2-c6d6-40d7-b586-59b854733160/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wastes

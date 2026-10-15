@@ -140,6 +140,7 @@ schema: 2
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
   - *2024-02-02* — You choose how many targets Officious Interrogation has and what those targets are as you cast it. You can't choose the same target more than once. It's legal to cast Officious Interrogation with no targets, although this particular option should be placed under some serious scrutiny.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#officious-interrogation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/222/officious-interrogation) · oracle_id `e57e448b-1186-4662-a6b0-01a9ce33b961` · printing: MKM #222 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Offspring's Revenge
@@ -174,6 +175,7 @@ schema: 2
   - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#of-herbs-and-stewed-rabbit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/17/of-herbs-and-stewed-rabbit) · oracle_id `2efb908f-d069-4041-930b-5c1ccec00db2` · printing: LTC #17 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Of One Mind

@@ -59,6 +59,7 @@ schema: 2
   - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#susan-foreman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/110/susan-foreman) · oracle_id `0f21f3b1-aee9-4272-ad02-067aa5f6a7c8` · printing: WHO #110 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suspend
@@ -124,6 +125,7 @@ schema: 2
   - *2024-09-20* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-09-20* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-09-20* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#suspended-sentence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/25/suspended-sentence) · oracle_id `98641070-93bd-4088-90cb-956c2b21979e` · printing: DSC #25 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suspension Field

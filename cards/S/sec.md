@@ -71,6 +71,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #221 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-02-18* — If Secluded Courtyard is somehow on the battlefield without a chosen type, mana from its second mana ability can't be spent on anything.
+- **Referenced in:** 6 pages (5 decks · 1 edh guides) → [reverse index](../../references/S.md#secluded-courtyard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/265/secluded-courtyard) · oracle_id `79ba18fd-f184-43c1-86df-56ee18ce806c` · printing: MSC #265 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secluded Glen
@@ -84,6 +85,7 @@ schema: 2
   > *Protected by glamers and guile, Glen Elendra harbors the elusive Oona, queen of the fae.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5126 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#secluded-glen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/271/secluded-glen) · oracle_id `09f52275-99e6-45e0-b2db-cafe26d5fb91` · printing: LRW #271 (2007-10-12) · [rulings](https://api.scryfall.com/cards/9e4afa65-7933-4a64-b50f-a9a9f832b112/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secluded Starforge
@@ -98,6 +100,7 @@ schema: 2
   > *The heat of a sun condensed into a forge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3691 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#secluded-starforge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/257/secluded-starforge) · oracle_id `69f55a7c-6ddf-412e-b63b-b395731a1ff2` · printing: EOE #257 (2025-08-01) · [rulings](https://api.scryfall.com/cards/a997ff9f-045a-44a2-983d-f36414cef1ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secluded Steppe
@@ -111,6 +114,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1459 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#secluded-steppe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/177/secluded-steppe) · oracle_id `8dec6fcf-1254-4b1b-ba23-7a3e492a7241` · printing: EOC #177 (2025-08-01) · [rulings](https://api.scryfall.com/cards/aaa5bee9-3f6a-45b0-a282-6b23222e948f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Breakfast
@@ -186,6 +190,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-01-24* — Second Harvest copies all tokens, not only creature tokens.
   - *2025-01-24* — Second Harvest copies the original characteristics of each token as stated by the effect that created that token. It doesn’t copy whether that token is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/S.md#second-harvest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/213/second-harvest) · oracle_id `61a6341e-0d36-44b6-8026-9c87c8ef61cb` · printing: INR #213 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Sight
@@ -222,6 +227,7 @@ schema: 2
   > *The bright tunnel sometimes leads back to life.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9129 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#second-sunrise)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/20/second-sunrise) · oracle_id `15cef63b-903e-4f1b-a128-e59157e07c36` · printing: MRD #20 (2003-10-02) · [rulings](https://api.scryfall.com/cards/4e50ee7c-f2a2-4d49-a1cc-8233fd8dd0c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Thoughts
@@ -436,6 +442,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1111 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-04-16* — If the opponent is an illegal target as Secret Rendezvous tries to resolve, neither player will draw cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#secret-rendezvous)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/166/secret-rendezvous) · oracle_id `34b90d3e-f48c-41ff-b3e4-5cab7a9cd597` · printing: SOC #166 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Salvage
@@ -475,6 +482,7 @@ schema: 2
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
   - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
   - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#secrets-of-paradise)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/10/secrets-of-paradise) · oracle_id `f309fe9f-0732-4b81-a342-a394225cbbb1` · printing: CNS #10 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secrets of the Dead
@@ -489,6 +497,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3742 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-01-22* — Secrets of the Dead’s triggered ability resolves before the spell you cast from your graveyard does.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#secrets-of-the-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/95/secrets-of-the-dead) · oracle_id `b9720c63-5aa7-4fb8-8d71-8f55d8b1337b` · printing: C19 #95 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secrets of the Golden City
@@ -555,6 +564,7 @@ schema: 2
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
   - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
   - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#secret-summoning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/9/secret-summoning) · oracle_id `1342ee23-c3a0-4578-833a-e30a9fc9141c` · printing: CNS #9 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Tunnel
@@ -614,6 +624,7 @@ schema: 2
   > *—Kadri, Dromoka warrior*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1196 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#secure-the-wastes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/31/secure-the-wastes) · oracle_id `b2347910-d6c6-4681-8316-7ef27056485c` · printing: FRC #31 (2026-10-02) · [rulings](https://api.scryfall.com/cards/83a01121-e5cd-45ba-97c2-7bd7d50158e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Securitron Squadron
@@ -635,6 +646,7 @@ schema: 2
   - *2024-03-08* — If, for some reason, the creature doesn’t have the squad ability when it’s on the battlefield, the ability won’t trigger, even if you’ve paid the squad cost one or more times.
   - *2024-03-08* — The tokens created by the squad ability aren’t “cast,” so any abilities that trigger when a spell is cast won’t trigger for the copies.
   - *2024-03-08* — You may pay the squad cost any number of times. You will create a token that is a copy of that permanent for each time you paid the squad cost. If you paid the squad cost multiple times, the tokens will all enter the battlefield simultaneously.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#securitron-squadron)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/23/securitron-squadron) · oracle_id `96312b75-3110-4506-9f95-0c6c17d9da11` · printing: PIP #23 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Security Blockade

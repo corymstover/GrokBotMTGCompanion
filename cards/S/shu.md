@@ -53,6 +53,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25866 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shu-cavalry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/23/shu-cavalry) · oracle_id `d9180f63-c745-41a1-9f01-273e7ee13176` · printing: ME3 #23 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Defender
@@ -66,6 +67,7 @@ schema: 2
   > *Confronting Cao Cao's army at Steepslope Bridge, Zhang Fei bellowed, "I am Zhang Fei of Yan! Who dares fight me to the death?" Cao Cao's army cowered and fled.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31460 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shu-defender)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/20/shu-defender) · oracle_id `0b6625cb-4177-45bd-ba99-2af43dfd6f46` · printing: PTK #20 (1999-05-01) · [rulings](https://api.scryfall.com/cards/ee57a9ab-c385-4a51-aff7-6a654f5d7611/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Elite Companions
@@ -109,6 +111,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29915 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shu-farmer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/23/shu-farmer) · oracle_id `0d059577-0790-4033-b719-a74b6a62262e` · printing: PTK #23 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Foot Soldiers
@@ -135,6 +138,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26778 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shu-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/25/shu-general) · oracle_id `0fef6729-b044-4daf-834a-ac8c9711ad8a` · printing: ME3 #25 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Grain Caravan
@@ -209,6 +213,7 @@ schema: 2
   > {6}, {T}: Return target artifact card from your graveyard to the battlefield with a finality counter on it. Activate only as a sorcery. (If a permanent with a finality counter on it would be put into a graveyard, exile it instead.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13903 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shuris-fabricator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/114/shuris-fabricator) · oracle_id `127f6985-c1f4-487f-b5ee-c84524cd6c55` · printing: MSC #114 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ace834f0-7f64-4716-8599-f96f674e61a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shuri, the Black Panther
@@ -241,6 +246,7 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26463 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shuri-vibranium-technologist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/746/shuri-vibranium-technologist) · oracle_id `94b2a7a6-9e9a-437f-9cde-111b1b02a68e` · printing: MSC #746 (2026-06-26) · [rulings](https://api.scryfall.com/cards/33795ef2-2215-4a69-9127-25ef252db684/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shuri, Wakandan Inventor
@@ -255,6 +261,7 @@ schema: 2
   > *While her older brother T'Challa ruled Wakanda, Shuri perfected its defenses and vibranium-based weapons.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5752 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/S.md#shuri-wakandan-inventor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/75/shuri-wakandan-inventor) · oracle_id `a8c047fc-20a9-4c62-b8a6-9ead56d60ad0` · printing: MSH #75 (2026-06-26) · [rulings](https://api.scryfall.com/cards/65005522-555e-4479-939c-be16e0262f6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Soldier-Farmers
@@ -282,6 +289,7 @@ schema: 2
   > *Although she was a Kelpien, a prey species, she feared no predator once behind the controls.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32249 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shuttle-ace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/36/shuttle-ace) · oracle_id `4b5b0864-7ddd-497d-a7d6-a31c49bb9c7b` · printing: TRK #36 (2026-11-13) · [rulings](https://api.scryfall.com/cards/559f838a-24ac-4f18-8c40-23cfde6f65cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shuttle Crew

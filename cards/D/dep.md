@@ -264,6 +264,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-07-25* — If Depthshaker Titan’s first ability causes a Vehicle to become an artifact creature, it doesn’t count as “crewing” that Vehicle for any ability that would trigger due to a Vehicle becoming crewed.
   - *2025-07-25* — If Depthshaker Titan’s first ability causes a Vehicle to become an artifact creature, its base power and toughness will be set to 3/3. Crewing that Vehicle will not restore its power and toughness. Similarly, if the ability causes a permanent with station to become an artifact creature, putting an amount of charge counters on it greater than or equal to the amount required for it to become an artifact creature won’t overwrite the base power and toughness set by Depthshaker Titan’s first ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#depthshaker-titan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/9/depthshaker-titan) · oracle_id `23bf0648-7097-41df-a539-1d36ac42cf9c` · printing: EOC #9 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Depths of Desire

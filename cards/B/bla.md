@@ -153,6 +153,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-04-27* — "Equip [quality] creature" is a variant of the equip keyword. "Equip [quality] creature [cost]" means "[Cost]: Attach this Equipment to target [quality] creature you control. Activate only as a sorcery."
   - *2018-04-27* — Whether the target creature is legendary is checked only as Blackblade Reforged's first equip ability is activated and as that ability resolves. If the creature somehow becomes nonlegendary later, Blackblade Reforged remains attached to it.
+- **Referenced in:** 3 pages (2 decks · 1 lore & story) → [reverse index](../../references/B.md#blackblade-reforged)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/178/blackblade-reforged) · oracle_id `dca51281-fb21-45b6-beb4-1f13397caee2` · printing: DMC #178 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blackbloom Rogue // Blackbloom Bog
@@ -245,6 +246,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-09-19* — If there are fewer than nine cards left in the opponent's library as the ability resolves, you look at all of the remaining cards.
   - *2025-09-19* — You must follow all normal timing rules when playing a land or casting a spell this way.
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/B.md#black-cat-cunning-thief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/52/black-cat-cunning-thief) · oracle_id `f5cdb413-2b72-4dc6-b93d-2532ac2ae568` · printing: SPM #52 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blackcleave Cliffs
@@ -311,6 +313,7 @@ schema: 2
   > *An imposing visage that looms over all who would rise above their station.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2593 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#black-dragon-gate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/347/black-dragon-gate) · oracle_id `dde6bce5-8bbe-4866-b5aa-2c05c7d37241` · printing: CLB #347 (2022-06-10) · [rulings](https://api.scryfall.com/cards/c4ceb589-c741-44ac-98c8-3d997953ee61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blacker Lotus
@@ -335,6 +338,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16190 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-07* — Count the number of Attractions you’ve visited this turn as you cast Black Hole to determine how many targets you may choose. Those Attractions don’t have to still be on the battlefield as you cast Black Hole.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#black-hole)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/67/black-hole) · oracle_id `25783439-9b22-4882-a7c2-e0b1fc2f7ec6` · printing: UNF #67 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Knight
@@ -366,6 +370,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13612 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-10-04* — Blacklance Paragon can be the target of its own triggered ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#blacklance-paragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/79/blacklance-paragon) · oracle_id `258a78cc-a9f3-459a-9837-93a9856f72db` · printing: ELD #79 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Lotus
@@ -376,6 +381,7 @@ schema: 2
   > {T}, Sacrifice this artifact: Add three mana of any one color.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#black-lotus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/4/black-lotus) · oracle_id `5089ec1a-f881-4d55-af14-5d996171203b` · printing: VMA #4 (2014-06-16) · [rulings](https://api.scryfall.com/cards/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Mage's Rod
@@ -394,6 +400,7 @@ schema: 2
   - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
   - *2025-06-06* — The granted ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
   - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/B.md#black-mages-rod)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/90/black-mages-rod) · oracle_id `909b3d90-5762-461b-b49a-004a9e72733d` · printing: FIN #90 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blackmail
@@ -431,6 +438,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #680 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Getting the mana is not optional.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#black-market)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/739/black-market) · oracle_id `21338b71-37f5-4121-9b84-565025ebcd17` · printing: CLB #739 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Market Connections
@@ -445,6 +453,7 @@ schema: 2
 - **Keywords:** Hire a Mercenary, Treasure, Sell Contraband, Buy Information
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #129 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 16 pages (10 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#black-market-connections)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/155/black-market-connections) · oracle_id `d2664f28-49e1-46f8-a863-b217e961a57c` · printing: MSC #155 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9d9ca869-e68a-4f53-9f52-85c714dac6f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Market Tycoon
@@ -534,6 +543,7 @@ schema: 2
 - **Keywords:** Mine Vibranium, First strike, Survey the Realm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8604 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#black-panther-wakandan-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mar/87/black-panther-wakandan-king) · oracle_id `48deff27-b421-430b-a484-55b4a593010a` · printing: MAR #87 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a1b11ef2-2285-40eb-b11c-223c159e3d1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Poplar Shaman
@@ -574,6 +584,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2289 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-06-18* — Blacksmith's Skill checks whether the permanent is an artifact creature when it resolves. If the target isn't an artifact creature when the spell is cast but becomes one before the spell resolves, it will get +2/+2.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#blacksmiths-skill)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/6/blacksmiths-skill) · oracle_id `5c5b308c-07d5-422a-8b45-b8b19cb967ca` · printing: MH2 #6 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blacksmith's Talent
@@ -597,6 +608,7 @@ schema: 2
   - *2024-07-26* — If either target of the Level 2 class ability is an illegal target as the ability resolves, the ability won't do anything. If both targets are illegal, the ability won't resolve. If the Equipment is already attached to the target creature, nothing happens.
   - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
   - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blacksmiths-talent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/125/blacksmiths-talent) · oracle_id `9fdad42a-9db5-4d91-9e80-9d5ce19038b8` · printing: BLB #125 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blacksnag Buzzard
@@ -724,6 +736,7 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7947 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#black-widow-agile-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/77/black-widow-agile-avenger) · oracle_id `df7abfb0-21df-4359-be81-0f3c09e1425e` · printing: MSC #77 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8c2bf77c-9acf-4e2c-9cad-e74546f26070/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Widow, Daring Operative
@@ -807,6 +820,7 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13723 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#black-widow-super-spy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/89/black-widow-super-spy) · oracle_id `579f9a86-a1af-4c2a-a7e5-8fea0bd0eb61` · printing: MSH #89 (2026-06-26) · [rulings](https://api.scryfall.com/cards/63ce0909-7d7d-410d-ab6c-c87fa3e23877/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bladeback Sliver
@@ -870,6 +884,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8895 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-11-10* — If the target creature is an illegal target by the time Bladebrand tries to resolve, the spell doesn't resolve. You don't draw a card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bladebrand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/68/bladebrand) · oracle_id `b9cf9f1e-0280-43b6-9d58-262052dcb8a8` · printing: RVR #68 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bladecoil Serpent
@@ -1021,6 +1036,7 @@ schema: 2
   - *2023-02-04* — Some Equipment creature cards in other sets have reconfigure, a different ability that attaches them to a creature. Reconfigure is not an equip ability, and reconfigure costs are not reduced by Bladehold War-Whip's second ability.
   - *2023-02-04* — The Rebel enters the battlefield as a 2/2 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 2/2 creature entered the battlefield.
   - *2023-02-04* — The second ability affects other Equipment even if it isn't currently attached to a creature.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#bladehold-war-whip)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/197/bladehold-war-whip) · oracle_id `d3142c6b-86e9-42b7-916c-ce7c34e7bd53` · printing: ONE #197 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blade Instructor
@@ -1057,6 +1073,7 @@ schema: 2
   - *2024-01-12* — Spectacle cares only that an opponent lost life during the turn, not that the opponent's life total is currently lower than it was. For example, if an opponent loses 1 life and then gains 2 life in the same turn, you can cast a spell for its spectacle cost that turn.
   - *2024-01-12* — Spectacle doesn't change when you can cast the spell. For example, you can't cast a sorcery with spectacle during an opponent's turn unless another effect allows you to do so, even if that player has lost life this turn.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a spectacle cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#blade-juggler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/106/blade-juggler) · oracle_id `34400cf5-b8c4-4cf2-9186-51f12037cc51` · printing: CLU #106 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blademane Baku
@@ -1092,6 +1109,7 @@ schema: 2
   - *2015-11-04* — The term “defending player” in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, or the controller of the planeswalker the creature was attacking at the time it became an attacking creature this combat.
   - *2015-11-04* — The token creatures all enter the battlefield at the same time.
   - *2015-11-04* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#blade-of-selves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/313/blade-of-selves) · oracle_id `9c329f3d-4d0a-4012-8aa6-92afdd120a52` · printing: TDC #313 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blade of Shared Souls
@@ -1133,6 +1151,7 @@ schema: 2
   - *2009-10-01* — If the equipped creature itself is put into a graveyard, Blade of the Bloodchief's ability will trigger. However, it won't do anything when it resolves unless a spell or ability has caused it to become attached to another creature by that time. (Remember that you may activate an equip ability only as a sorcery.)
   - *2009-10-01* — The +1/+1 counters are put on the equipped creature, not Blade of the Bloodchief. If Blade of the Bloodchief is moved to a different creature, the +1/+1 counters will stay where they are.
   - *2009-10-01* — The creature that gets the counters is the one that's equipped by Blade of the Bloodchief at the time the ability resolves. It doesn't matter what creature Blade of the Bloodchief was attached to (if any) when it triggered.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/B.md#blade-of-the-bloodchief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/300/blade-of-the-bloodchief) · oracle_id `8985e545-07c3-45f9-9058-fe3c1f50de04` · printing: LCC #300 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blade of the Oni
@@ -1158,6 +1177,7 @@ schema: 2
   - *2022-02-18* — If an Equipment with reconfigure somehow loses its abilities while it is attached, the effect causing it to not be a creature continues to apply until it becomes unattached.
   - *2022-02-18* — Reconfigure represents two activated abilities. Reconfigure [cost] means “[Cost]: Attach this permanent to another target creature you control. Activate only as a sorcery,” and “[Cost]: Unattach this permanent. Activate only if this permanent is attached to a creature and only as a sorcery.”
   - *2022-02-18* — Similarly, if an Equipment is tapped, its reconfigure abilities may still be activated and it may still become attached to creatures. Becoming attached doesn't untap it. In most cases, an attached Equipment being tapped won't affect gameplay, but it will be relevant if it becomes unattached again before it untaps.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blade-of-the-oni)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/89/blade-of-the-oni) · oracle_id `6d9ac636-3c6c-40ca-90f3-1a3387836bb4` · printing: NEO #89 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blade of the Sixth Pride
@@ -1234,6 +1254,7 @@ schema: 2
   > *"Flesh is a betrayal of the self."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4775 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#blade-splicer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/175/blade-splicer) · oracle_id `194166ad-0179-42a3-86b9-ba7f322ec576` · printing: MOC #175 (2023-04-21) · [rulings](https://api.scryfall.com/cards/3dac9526-388d-487e-a790-066f83050794/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bladestitched Skaab
@@ -1276,6 +1297,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — If an attacking creature has intimidate, what colors it is matters only as the defending player declares blockers. Once it's blocked, changing its colors won't change that.
   - *2009-10-01* — Intimidate looks at the current colors of a creature that has it. Normally, Bladetusk Boar can't be blocked except by artifact creatures and/or red creatures. If it's turned blue, then it can't be blocked except by artifact creatures and/or blue creatures.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#bladetusk-boar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/90/bladetusk-boar) · oracle_id `f640a102-7ee8-4605-9e15-09938fb229b2` · printing: JOU #90 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bladewing, Deathless Tyrant
@@ -1290,6 +1312,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6674 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-09-09* — The number of creature cards in your graveyard is determined at the time the triggered ability resolves. If any creature cards are in your graveyard as a result of dying in the same combat damage step that the ability triggered in, they will be counted.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bladewing-deathless-tyrant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/9/bladewing-deathless-tyrant) · oracle_id `cc4bc5d7-ed37-4a80-a5e7-eb68c255cbef` · printing: DMC #9 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bladewing's Thrall
@@ -1319,6 +1342,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3765 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bladewing-the-risen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/193/bladewing-the-risen) · oracle_id `c22cc70a-9533-4bfc-b3ce-b2d43a73f0c1` · printing: IMA #193 (2017-11-17) · [rulings](https://api.scryfall.com/cards/27ce43cb-44f4-4d94-8700-d9f3cc043989/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blanchwood Armor
@@ -1379,6 +1403,7 @@ schema: 2
   - *2004-10-04* — The lands do not get the name “Swamp” in addition to their current name. This is a reversal of older rulings.
   - *2004-10-04* — Whether the land is a basic land or not is unchanged by this effect.
   - *2006-10-15* — If this effect is applied to a snow land, the land is now a snow Swamp and not just a regular Swamp.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blanket-of-night)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/52/blanket-of-night) · oracle_id `10e95489-a94d-4523-964c-ec9753103a62` · printing: VIS #52 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blaring Captain
@@ -1429,6 +1454,7 @@ schema: 2
   - *2020-11-10* — Blasphemous Act's ability can't reduce the total cost to cast the spell below {R}.
   - *2020-11-10* — The total cost to cast Blasphemous Act is locked in before you pay that cost. For example, if there are three creatures on the battlefield, including one you can sacrifice to add {C}, the total cost of Blasphemous Act is {5}{R}. Then you can sacrifice the creature when you activate mana abilities just before paying the cost.
   - *2020-11-10* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Blasphemous Act). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+- **Referenced in:** 28 pages (22 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#blasphemous-act)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/163/blasphemous-act) · oracle_id `7a2484a9-04fd-41a0-8224-610c1c07ed10` · printing: MSC #163 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blasphemous Edict
@@ -1445,6 +1471,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — If a player controls fewer than thirteen creatures when Blasphemous Edict resolves, they will sacrifice all of their creatures.
   - *2024-11-08* — Starting with the player whose turn it is, each player in turn order chooses which creatures they will sacrifice, then all the creatures chosen by all players are sacrificed at the same time. Players get to know the choices made by players who chose before them.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#blasphemous-edict)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/57/blasphemous-edict) · oracle_id `6cf50e21-0f60-4e9a-b910-ebe1bad2a29e` · printing: FDN #57 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blasted Landscape
@@ -1575,6 +1602,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#blast-from-the-past)
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/48/blast-from-the-past) · oracle_id `08638828-ce88-44d4-a6b2-1effb68ccbdf` · printing: UND #48 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blast-Furnace Hellkite
@@ -1591,6 +1619,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — Blast-Furnace Hellkite’s last ability applies to any creature that is attacking one of your opponents, even if another opponent controls that creature.
   - *2022-10-14* — When you cast a spell with offering by sacrificing a permanent, generic mana in the sacrificed permanent’s mana cost reduces only generic mana in the spell’s total cost. Colored and colorless mana in the sacrificed permanent’s mana cost reduces mana of the same type in spell’s total cost, and any excess reduces the spell’s total cost by that much generic mana. The total cost of the spell can’t be reduced to less than {0}.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#blast-furnace-hellkite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/12/blast-furnace-hellkite) · oracle_id `c13079d5-6749-43e5-a8ee-ef3af31ff679` · printing: BRC #12 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blasting Station
@@ -1602,6 +1631,7 @@ schema: 2
   > Whenever a creature enters, you may untap this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3474 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#blasting-station)
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/107/blasting-station) · oracle_id `3a38d2d1-c4ff-4088-b1df-5feb9602ee2e` · printing: 5DN #107 (2004-06-04) · [rulings](https://api.scryfall.com/cards/71e2f832-6601-4232-b250-fd1c88538fbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blastoderm
@@ -1645,6 +1675,7 @@ schema: 2
   - *2025-07-25* — An activation cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {6} to activate Blast Zone’s ability.
   - *2025-07-25* — Every token has mana value 0 unless it is copying something or was created with a specific mana cost.
   - *2025-07-25* — If a permanent has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#blast-zone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/987/blast-zone) · oracle_id `393a254f-be31-431a-9341-a51286f8cbce` · printing: CMM #987 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blatant Thievery
@@ -1671,6 +1702,7 @@ schema: 2
   > *Fire never dies alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11352 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blaze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/167/blaze) · oracle_id `0596920f-9946-42f4-a03b-24aab67f9f1b` · printing: BBD #167 (2018-06-08) · [rulings](https://api.scryfall.com/cards/b16d0422-61ea-4039-b1c1-e590ace9156e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blaze Commando
@@ -1686,6 +1718,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Blaze Commando’s ability triggers each time an instant or sorcery spell you control deals damage (or, put another way, the number of times the word “deals” appears in its instructions), no matter how much damage is dealt or how many players or permanents are dealt damage. For example, if you cast Punish the Enemy and it “deals 3 damage to target player or planeswalker and 3 damage to target creature,” Blaze Commando’s ability will trigger once and you’ll get two Soldier tokens.
   - *2013-04-15* — Some instant or sorcery spells cause other objects to deal damage, rather than deal damage themselves. Such spells don’t cause Blaze Commando to trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blaze-commando)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/56/blaze-commando) · oracle_id `92e2f982-f8b9-4c3b-ab50-14c025370e5c` · printing: DGM #56 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blazemire Verge
@@ -1699,6 +1732,7 @@ schema: 2
   > *Here, the Balemurk spits and boils, the oppressive darkness pierced by scorching spears of fire.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #496 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#blazemire-verge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/256/blazemire-verge) · oracle_id `977c2f33-b622-4172-9efb-7f523becd32b` · printing: DSK #256 (2024-09-27) · [rulings](https://api.scryfall.com/cards/d151c8e2-d715-470d-868a-f45191db9fa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blaze of Glory
@@ -1712,6 +1746,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Does not allow a tapped creature to block, or allow a creature to block any creatures it would not normally be able to block.
   - *2013-09-20* — If a turn has multiple combat phases, this spell can be cast during any of them as long as it's before the beginning of that phase's Declare Blockers Step.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blaze-of-glory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/7/blaze-of-glory) · oracle_id `b330ac89-790e-4cc9-96a5-532c48252088` · printing: ME4 #7 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blazethorn Scarecrow
@@ -1789,6 +1824,7 @@ schema: 2
   - *2026-06-19* — You pay all costs and follow all normal timing rules for a card played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
   - *2026-08-21* — If the target creature is an illegal target by the time the spell tries to resolve (most likely because it has left the battlefield in response), the spell will not resolve. No card will be exiled.
   - *2026-08-21* — You pay all costs and follow all normal timing rules for a card played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#blazing-crescendo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/75/blazing-crescendo) · oracle_id `6344c96a-efa5-4125-8219-d333228391cf` · printing: FRA #75 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blazing Effigy
@@ -1829,6 +1865,7 @@ schema: 2
   - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
   - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
   - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blazing-firesinger--seething-song)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/109/blazing-firesinger-seething-song) · oracle_id `1bf505a7-292e-4642-83b6-8ff41ebe5d51` · printing: SOS #109 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blazing Hellhound
@@ -1900,6 +1937,7 @@ schema: 2
   > Target creature gets +X/+0 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14355 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blazing-shoal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/96/blazing-shoal) · oracle_id `ccba143d-ed9b-4044-bdad-f010a0e38e47` · printing: BOK #96 (2005-02-04) · [rulings](https://api.scryfall.com/cards/8b915daa-d239-4460-bd6b-e1327fdf7f51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blazing Specter

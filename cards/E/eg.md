@@ -98,4 +98,5 @@ schema: 2
   - *2021-02-05* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
   - *2021-02-05* — You choose which cards you're exiling as Egon's triggered ability is resolving. If there are two or more cards in your graveyard at that time, you must exile two of them. You can't choose not to exile cards and sacrifice Egon instead to draw a card.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#egon-god-of-death--throne-of-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/92/egon-god-of-death-throne-of-death) · oracle_id `8fa7bd8f-f712-4dd1-9ffb-e30dfe744389` · printing: KHM #92 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

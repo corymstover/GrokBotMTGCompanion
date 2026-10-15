@@ -59,6 +59,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-necrobloom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/194/the-necrobloom) · oracle_id `b981af39-4ee6-4fbc-9a89-618dcad9dfbf` · printing: MH3 #194 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Neutrinos
@@ -108,6 +109,7 @@ schema: 2
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — The Ninth Doctor's ability triggers during the untap step and goes onto the stack at the beginning of the next step (usually the upkeep). The additional upkeep is taken after that step, not after the untap step.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-ninth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/148/the-ninth-doctor) · oracle_id `c99f59c0-5cce-41a4-908f-d34e2c697419` · printing: WHO #148 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Nipton Lottery

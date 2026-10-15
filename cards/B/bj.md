@@ -33,4 +33,5 @@ schema: 2
 - **Keywords:** Goad, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12189 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#bjorna-nightfall-alchemist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/2/bjorna-nightfall-alchemist) · oracle_id `c880fbdc-bdd9-4f80-81d4-e3e1124f76ca` · printing: SLX #2 (2022-03-03) · [rulings](https://api.scryfall.com/cards/83b0b716-bcb0-4044-b64a-354e3cbbd563/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

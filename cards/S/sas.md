@@ -74,6 +74,7 @@ schema: 2
   - *2016-11-08* — If a creature you control deals combat damage to the chosen player, it deals that much damage to that player again.
   - *2016-11-08* — Once the chosen player has left the game, Saskia's triggered ability will have no effect.
   - *2016-11-08* — The damage that Saskia's ability causes a creature to deal isn't combat damage.
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/S.md#saskia-the-unyielding)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/41/saskia-the-unyielding) · oracle_id `e54d207c-51b8-458e-86a1-2633ac064c8e` · printing: C16 #41 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sassy Gremlin Blood
@@ -88,4 +89,5 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sassy-gremlin-blood)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/34/sassy-gremlin-blood) · oracle_id `16663933-c8e2-4411-8eed-673c52fa3ecb` · printing: SUNF #34 (2022-10-07) · [rulings](https://api.scryfall.com/cards/e997ea17-18e3-4d4c-8ab3-0395e44fca9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -127,6 +127,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-11-12* — A spell fizzles when it tries to resolve but each of its targets is no longer a legal target.
   - *2019-11-12* — Elemental is a card type, and Fire is an elemental type. This has no relation to the creature type Elemental. If an effect refers to an Elemental, it refers to the creature type.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trial-and-error)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/68/trial-and-error) · oracle_id `2bd30e98-4ce2-4fac-8b3e-6a7f75080025` · printing: CMB2 #68 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trial // Error
@@ -183,6 +184,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10775 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-10-13* — The cards that didn't get put on the bottom of their owners' libraries will return to the battlefield as Trial of a Time Lord leaves the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trial-of-a-time-lord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/29/trial-of-a-time-lord) · oracle_id `a5425d4f-cd6c-4240-89a4-dd13e0e1a95f` · printing: WHO #29 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trial of Knowledge
@@ -225,6 +227,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28897 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-04-18* — Each Trial has an ability to return to your hand when a Cartouche enters the battlefield under your control. The Trial is returned to its owner’s hand only if it’s on the battlefield as the ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trial-of-strength)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/191/trial-of-strength) · oracle_id `b272cb56-dcba-479e-9fba-5b31e616a95f` · printing: AKH #191 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trial of Zeal
@@ -239,6 +242,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29011 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-04-18* — Each Trial has an ability to return to your hand when a Cartouche enters the battlefield under your control. The Trial is returned to its owner's hand only if it's on the battlefield as the ability resolves.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#trial-of-zeal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/152/trial-of-zeal) · oracle_id `0798eb13-83f1-4b7c-b537-83a9da2915a6` · printing: AKH #152 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triangle of War
@@ -415,6 +419,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2182 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-06-14* — If a card in your library has X in its mana cost, X is considered to be 0.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/T.md#tribute-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/73/tribute-mage) · oracle_id `c2b51295-8820-425f-a517-55231123c7de` · printing: MH1 #73 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tribute to Horobi // Echo of Death's Wail
@@ -438,6 +443,7 @@ schema: 2
   - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
   - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
   - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#tribute-to-horobi--echo-of-deaths-wail)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/124/tribute-to-horobi-echo-of-deaths-wail) · oracle_id `81622cf6-3021-4ad4-933d-a7e3d8ac817f` · printing: NEO #124 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tribute to Hunger
@@ -478,6 +484,7 @@ schema: 2
   > *—Esika, god of the Tree*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #613 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tribute-to-the-world-tree)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/211/tribute-to-the-world-tree) · oracle_id `72deedab-7c17-4505-aeca-4bc8596d80a5` · printing: MOM #211 (2023-04-21) · [rulings](https://api.scryfall.com/cards/c0cdeaba-fc21-44e6-bf99-aa1ff379401b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tribute to Urborg
@@ -513,6 +520,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14349 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#triceraton-commander)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/25/triceraton-commander) · oracle_id `45d40cdb-21cc-4569-a894-83dd3026c947` · printing: TMT #25 (2026-03-06) · [rulings](https://api.scryfall.com/cards/6445b690-71ce-4371-ae9c-bac0e70dda81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triceraton Regenta
@@ -555,6 +563,7 @@ schema: 2
   - *2021-03-19* — Players may turn face-down creatures face up while a spell with split second is on the stack.
   - *2021-03-19* — Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
   - *2021-03-19* — Split second doesn’t stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#trickbind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/88/trickbind) · oracle_id `0c2abd2a-ca98-45d2-8dd1-984d2c0c266a` · printing: TSP #88 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trickery Charm
@@ -738,6 +747,7 @@ schema: 2
   - *2011-01-01* — If damage from a source with infect that would be dealt to a player is prevented, that player doesn’t get poison counters. If damage from a source with infect that would be dealt to a creature is prevented, that creature doesn’t get -1/-1 counters.
   - *2011-01-01* — Infect’s effect applies to any damage, not just combat damage.
   - *2011-01-01* — The -1/-1 counters remain on the creature indefinitely. They’re not removed if the creature regenerates or the turn ends.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trigon-of-infestation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/214/trigon-of-infestation) · oracle_id `6af2b898-7ba0-4641-8234-5171397cf602` · printing: SOM #214 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trigon of Mending
@@ -786,6 +796,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — If Trinisphere leaves the battlefield or becomes tapped or untapped as a cost to cast a spell, this cost is paid after you've locked in the total cost.
   - *2020-08-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. Finally, apply Trinisphere's effect if the mana component of the spell's cost is less than three mana. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#trinisphere)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/303/trinisphere) · oracle_id `69d994f2-b8f6-425f-9655-977c2144d40c` · printing: 2XM #303 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trinket Mage
@@ -798,6 +809,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2055 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#trinket-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddu/41/trinket-mage) · oracle_id `ffc95093-24a2-4616-a44a-24788e8df9c8` · printing: DDU #41 (2018-04-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triple Threat
@@ -852,6 +864,7 @@ schema: 2
 - **Keywords:** Flying, Vigilance, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2202 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#triplicate-titan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/79/triplicate-titan) · oracle_id `56e05b17-aa1d-483d-857c-4cab4f12aa8a` · printing: C21 #79 (2021-04-23) · [rulings](https://api.scryfall.com/cards/568dd5a6-86f4-4039-87d7-812120c8ab94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trip Noose
@@ -890,6 +903,7 @@ schema: 2
   > *Trip wire, hooked poles, and sunken pits were commonly used to unhorse riders during the Three Kingdoms period.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32084 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trip-wire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/137/trip-wire) · oracle_id `5751df7a-aa9a-4a27-b7ab-445ec4bcbdee` · printing: ME3 #137 (2009-09-07) · [rulings](https://api.scryfall.com/cards/6ba99278-0a8f-4cee-8a50-dfac97996106/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tri-Sentinel, Act of Vengeance
@@ -920,6 +934,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1477 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — Triskaidekaphile's triggered ability will trigger only if you have exactly thirteen cards in your hand as your upkeep starts. If you have fewer cards in your hand, you won't be able to draw cards during your upkeep in time to cause the ability to trigger.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/T.md#triskaidekaphile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/81/triskaidekaphile) · oracle_id `ef238ba8-acf0-4e62-9abd-5291886a32e8` · printing: MID #81 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triskaidekaphobia
@@ -950,6 +965,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19788 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#triskelavus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/226/triskelavus) · oracle_id `e958f7bf-3011-4175-b467-ca225a9b7ad2` · printing: CM2 #226 (2018-06-08) · [rulings](https://api.scryfall.com/cards/899eb19e-9932-4066-9de6-dfdbbab5e769/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triskelion
@@ -967,6 +983,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-08* — If Triskelion has damage marked on it, activating its ability may cause that damage to become lethal. For example, say a Triskelion with two +1/+1 counters on it has been dealt 2 damage earlier in the turn. If you activate its ability by removing a +1/+1 counter from it, it now has 2 toughness and is destroyed as a state-based action. You won’t be able to remove the other +1/+1 counter from it to activate its ability again. The first activation of the ability will still resolve.
   - *2022-12-08* — If you activate the ability of an attacking or blocking Triskelion during the declare blockers step, it will deal less combat damage as a result. If you wait until the combat damage step, but Triskelion is dealt lethal damage, it’ll be destroyed before you get a chance to activate its ability.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#triskelion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/387/triskelion) · oracle_id `74f67dcf-5afb-45aa-8d4b-3cdb23f6f2a1` · printing: MOC #387 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triton Cavalry
@@ -1014,6 +1031,7 @@ schema: 2
   > *"Who will miss you, drywalker? A wife? A child? Perhaps they will blame the sea for your fate, and teach future generations to stay far away from it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2035 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/T.md#triton-shorestalker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/121/triton-shorestalker) · oracle_id `71a60247-17e5-44bd-9fed-f7d550b09ef3` · printing: OTC #121 (2024-04-19) · [rulings](https://api.scryfall.com/cards/511bff25-3213-42c4-8abd-9eda49f8dc96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triton Shorethief
@@ -1057,6 +1075,7 @@ schema: 2
   - *2024-06-07* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
   - *2024-06-07* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
   - *2024-06-07* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#triton-wavebreaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/74/triton-wavebreaker) · oracle_id `d2309fba-4273-4084-b206-642a43975c34` · printing: MH3 #74 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triton Waverider
@@ -1125,6 +1144,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — An Aura returning to the battlefield this way can't be attached to anything else entering the battlefield at the same time. If it enchants a permanent, you have to choose one already on the battlefield.
   - *2020-11-10* — If you return an Aura card to the battlefield this way, the Aura isn't being cast, so you choose what it will enchant as is enters the battlefield. An Aura returned this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in the graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#triumphant-reckoning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/52/triumphant-reckoning) · oracle_id `0d3e0b38-a9ff-489b-8c00-4ca89deb4869` · printing: CMR #52 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triumphant Surge
@@ -1138,6 +1158,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23112 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-01-24* — If the target creature is an illegal target by the time Triumphant Surge tries to resolve, the spell won’t resolve. You won’t gain 3 life.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#triumphant-surge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/41/triumphant-surge) · oracle_id `ff281103-7a9b-4eb1-b81e-b8cd137b6e98` · printing: THB #41 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triumph of Cruelty
@@ -1223,6 +1244,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1181 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-06-01* — Multiple instances of infect are redundant.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#triumph-of-the-hordes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/td2/78/triumph-of-the-hordes) · oracle_id `3ded0c0c-40ce-4d14-a9a6-b023bc19ee0e` · printing: TD2 #78 (2011-05-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trivia Contest (UNF #233a)

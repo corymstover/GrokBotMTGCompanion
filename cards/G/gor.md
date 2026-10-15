@@ -85,6 +85,7 @@ schema: 2
   - *2018-07-13* — Goreclaw's last ability affects only creatures you control with the appropriate power at the time it resolves. Creatures you begin to control later in the turn won't get either bonus, and a creature you control whose power decreases later in the turn won't lose either bonus.
   - *2018-07-13* — If another creature has an ability that changes its power when it attacks, such as Brawl-Bash Ogre, you may have that ability resolve before Goreclaw's last ability.
   - *2018-07-13* — If you cast a creature spell that will enter the battlefield with a number of +1/+1 counters, such as Hungering Hydra, those counters aren't considered when determining whether Goreclaw reduces that spell's cost. Similarly, effects that will raise the creature's power once it has entered the battlefield won't apply.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/G.md#goreclaw-terror-of-qal-sisma)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/293/goreclaw-terror-of-qal-sisma) · oracle_id `befb211f-37ca-4083-98d4-9ff1f28be3f2` · printing: CMM #293 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorehorn Minotaurs
@@ -287,6 +288,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6195 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gorgons-head)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/158/gorgons-head) · oracle_id `190cdc23-fa05-475f-b853-471ca0f21b71` · printing: BNG #158 (2014-02-07) · [rulings](https://api.scryfall.com/cards/d745dd92-9f7a-44a4-a27f-2ff17753db1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorilla Berserkers
@@ -303,6 +305,7 @@ schema: 2
 - **Keywords:** Trample, Rampage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15100 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#gorilla-berserkers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/all/93a/gorilla-berserkers) · oracle_id `6373c66d-edfc-44cb-af2a-2273e0ba53e0` · printing: ALL #93a (1996-06-10) · [rulings](https://api.scryfall.com/cards/344b4613-17f8-4c8b-b5bc-f773a8f8007a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorilla Chieftain
@@ -361,6 +364,7 @@ schema: 2
   - *2019-11-12* — If a spell or ability an opponent controls causes you to make a choice and you choose to discard Gorilla Tactics, its last ability will trigger.
   - *2019-11-12* — In a Magic game, cards are discarded only from a player’s hand. Effects that put cards from a player’s library into that player’s graveyard do not cause those cards to be discarded.
   - *2019-11-12* — This card’s name is far too similar to the existing card Guerrilla Tactics. It’ll be changed during creative review.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gorilla-tactics)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/76/gorilla-tactics) · oracle_id `f0616b31-6f05-4056-b96c-559ca4ca085a` · printing: CMB2 #76 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorilla Titan
@@ -402,6 +406,7 @@ schema: 2
   > *They were formidable even before they learned the use of weapons.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21773 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gorilla-warrior)
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/128/gorilla-warrior) · oracle_id `c0e6ae0f-6cf7-48ca-acb8-73d4c38b9005` · printing: S99 #128 (1999-07-01) · [rulings](https://api.scryfall.com/cards/d6997a75-42c9-4706-ac34-69fa34011eca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goring Ceratops
@@ -418,6 +423,7 @@ schema: 2
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6482 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#goring-ceratops)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/13/goring-ceratops) · oracle_id `34f5383b-21fe-45f5-9598-7382ee4c5b12` · printing: XLN #13 (2017-09-29) · [rulings](https://api.scryfall.com/cards/8309f684-5912-4191-9f64-d573f1cc84c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goring Warplow
@@ -496,6 +502,7 @@ schema: 2
   - *2018-06-08* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
   - *2018-06-08* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
   - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#gorm-the-great)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/8/gorm-the-great) · oracle_id `a7195e9f-53fa-4fb5-b1f1-099c0a772090` · printing: BBD #8 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gor Muldrak, Amphinologist
@@ -512,6 +519,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Gor Muldrak's first ability affects itself.
   - *2020-11-10* — Gor Muldrak's last ability checks how many creatures each player controls as it resolves. If other abilities trigger at the beginning of your end step (such as the delayed triggered ability of an encore ability) you choose the order in which they resolve.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gor-muldrak-amphinologist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/277/gor-muldrak-amphinologist) · oracle_id `9abdd53a-aa62-447b-9525-02a2227cc44b` · printing: CMR #277 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorn Captain
@@ -558,6 +566,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10924 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-04-14* — The set of creatures affected by the last ability is determined as that ability resolves. Creatures you begin to control later in the turn and permanents that become creatures later in the turn won’t gain haste. As long as Goro-Goro and Satoru is still on the battlefield under your control, it will gain haste.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/G.md#goro-goro-and-satoru)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/445/goro-goro-and-satoru) · oracle_id `854bdd4a-d549-41d5-af43-0e2154ed017e` · printing: MOC #445 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goro-Goro, Disciple of Ryusei
@@ -573,6 +582,7 @@ schema: 2
   - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
   - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
   - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/G.md#goro-goro-disciple-of-ryusei)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/145/goro-goro-disciple-of-ryusei) · oracle_id `b80df711-af51-4f9a-9a3f-f7a4cddc9c2c` · printing: NEO #145 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goryo's Vengeance
@@ -590,4 +600,5 @@ schema: 2
   - *2013-06-07* — You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word "target" on the resulting spell.
   - *2013-06-07* — You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
   - *2018-12-07* — If the returned creature leaves the battlefield before the end step, it will remain in its current zone. It won't be exiled.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/G.md#goryos-vengeance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/99/goryos-vengeance) · oracle_id `3ea3c681-f0ad-45a2-bc25-2813efd8d560` · printing: UMA #99 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -86,6 +86,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rebellion-of-the-flamekin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/188/rebellion-of-the-flamekin) · oracle_id `0e2a283b-c06a-4b54-a627-5b4959318b1a` · printing: LRW #188 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebellious Captives
@@ -137,6 +138,7 @@ schema: 2
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11827 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rebel-salvo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/144/rebel-salvo) · oracle_id `a35b7fd3-fdef-4414-b720-978f7ce70bff` · printing: ONE #144 (2023-02-10) · [rulings](https://api.scryfall.com/cards/cd37d1b1-70ce-466e-890d-36be82433035/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebirth
@@ -148,6 +150,7 @@ schema: 2
   > Each player may ante the top card of their library. If a player does, that player's life total becomes 20.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/R.md#rebirth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/267/rebirth) · oracle_id `d17576b2-4a47-4848-8908-3152c8b4afe2` · printing: 4ED #267 (1995-04-01) · [rulings](https://api.scryfall.com/cards/27c01d57-2bd4-433e-bea7-1acc70d14be3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reborn Hero
@@ -203,6 +206,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — If the permanent you control targeted by the target spell leaves the battlefield, that spell is no longer a legal target for Rebuff the Wicked. On the other hand, if that targeted permanent becomes an illegal target for the target spell but remains on the battlefield under your control, the target spell is still a legal target for Rebuff the Wicked.
   - *2021-03-19* — Rebuff the Wicked can target a spell that has multiple targets, as long as at least one of those targets is a permanent you control.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rebuff-the-wicked)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/35/rebuff-the-wicked) · oracle_id `f5822e53-ddec-4c77-bcf4-091e35c1e731` · printing: TSR #35 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebuild

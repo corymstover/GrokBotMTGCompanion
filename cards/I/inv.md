@@ -437,6 +437,7 @@ schema: 2
   - *2023-04-14* — In a multiplayer game, if the protector of a battle leaves the game and that battle is not currently being attacked, its controller chooses a new protector for it as a state-based action. If it is being attacked, its controller chooses a new protector for it once no creatures are attacking it. This means that it continues to be attacked and can be dealt combat damage as normal.
   - *2023-04-14* — Only creatures controlled by a battle’s protector can block creatures that are attacking that battle. This means a Siege’s controller can never assign creatures to block for it.
   - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#invasion-of-ergamon--truga-cliffcharger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/233/invasion-of-ergamon-truga-cliffcharger) · oracle_id `fe84933e-d98f-4cbc-b272-387a80894e31` · printing: MOM #233 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Fiora // Marchesa, Resolute Monarch
@@ -546,6 +547,7 @@ schema: 2
   - *2023-04-14* — Only creatures controlled by a battle’s protector can block creatures that are attacking that battle. This means a Siege’s controller can never assign creatures to block for it.
   - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
   - *2023-04-14* — You decide whether to assign a non-Human creature’s combat damage as though it weren’t blocked just before it assigns that damage. You may make a different choice for each non-Human creature you control—that is, you may have none, some, or all of those creatures assign combat damage as though they weren’t blocked.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/I.md#invasion-of-ikoria--zilortha-apex-of-ikoria)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/190/invasion-of-ikoria-zilortha-apex-of-ikoria) · oracle_id `21d90735-5e04-4a8c-a546-ff26d4d5998d` · printing: MOM #190 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Innistrad // Deluge of the Dead
@@ -793,6 +795,7 @@ schema: 2
   - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is "When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost."
   - *2023-04-14* — The member of World's Greatest Valor's Reach Tag Team and the other creature token don't have to be attacking the same player, planeswalker, or battle for the ability to trigger.
   - *2023-04-14* — The tokens' triggered ability also works if a nontoken creature somehow gains it. For example, if a nontoken creature becomes a copy of the token and then attacks alongside a creature token, the ability will trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#invasion-of-kylem--valors-reach-tag-team)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/235/invasion-of-kylem-valors-reach-tag-team) · oracle_id `fee0aa18-5103-4814-94e3-87ad3eaf5a6f` · printing: MOM #235 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Lorwyn // Winnowing Forces
@@ -860,6 +863,7 @@ schema: 2
   - *2023-04-14* — Only creatures controlled by a battle’s protector can block creatures that are attacking that battle. This means a Siege’s controller can never assign creatures to block for it.
   - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
   - *2023-04-14* — The set of creatures affected by Kyren Flamewright’s ability is determined as the ability resolves. The Elemental tokens will get the bonuses, but creatures you begin to control later in the turn and noncreature permanents that become creatures later in the turn will not.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#invasion-of-mercadia--kyren-flamewright)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/147/invasion-of-mercadia-kyren-flamewright) · oracle_id `dd5a9ea5-0f27-4492-97d1-1a9970094c19` · printing: MOM #147 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Moag // Bloomwielder Dryads
@@ -1002,6 +1006,7 @@ schema: 2
   - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
   - *2023-04-14* — Teferi Akosa’s last ability has received an update to its official rules text to clarify its function. The updated text is included above.
   - *2023-04-14* — You activate Teferi Akosa’s last ability without choosing a target or tapping any creatures. As it resolves, you choose which untapped creatures you control to tap, if any. If you don’t tap any creatures (including if you don’t control any), X is 0. After you tap creatures or not, the reflexive triggered ability triggers. You choose the target for that ability as it’s put on the stack.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/I.md#invasion-of-new-phyrexia--teferi-akosa-of-zhalfir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/239/invasion-of-new-phyrexia-teferi-akosa-of-zhalfir) · oracle_id `480ea052-87d7-4fea-ac97-b6121b78f863` · printing: MOM #239 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Pyrulea // Gargantuan Slabhorn
@@ -1145,6 +1150,7 @@ schema: 2
   - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
   - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#invasion-of-segovia--caetus-sea-tyrant-of-segovia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/63/invasion-of-segovia-caetus-sea-tyrant-of-segovia) · oracle_id `7b3c0d89-55ed-43d7-a00a-7b060857ec4e` · printing: MOM #63 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Shandalar // Leyline Surge
@@ -1467,6 +1473,7 @@ schema: 2
   > *Gerrard studied the globe as Mirri kept watch. Suddenly, his eyes widened. "This is Dominaria!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13524 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#invasion-plans)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/89/invasion-plans) · oracle_id `db9c0d94-9fa5-4f07-be48-23e19d2f3d68` · printing: STH #89 (1998-03-02) · [rulings](https://api.scryfall.com/cards/f52c2f83-9535-4ee5-9964-5cc01e617981/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion Reinforcements
@@ -1601,6 +1608,7 @@ schema: 2
   - *2022-02-18* — Living Breakthrough's triggered ability won't affect spells that a player has already cast, even if those spells haven't resolved yet.
   - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
   - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inventive-iteration--living-breakthrough)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/57/inventive-iteration-living-breakthrough) · oracle_id `e711a213-2a6b-4b34-a788-95b6c0b7ba48` · printing: NEO #57 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inventive Wingsmith
@@ -1662,6 +1670,7 @@ schema: 2
   - *2016-09-20* — No player may take actions in a turn before Inventors' Fair's triggered ability checks to see if it should trigger. If you don't control three or more artifacts, it won't trigger.
   - *2016-09-20* — When using Inventors' Fair's activated ability, the number of artifacts you control is checked only as you activate it. It's not checked again as the ability resolves.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Referenced in:** 10 pages (7 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/I.md#inventors-fair)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/247/inventors-fair) · oracle_id `91d4a5fe-fd6d-4b14-a63f-61b4d0ecd9c4` · printing: KLD #247 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inventor's Goggles
@@ -1750,6 +1759,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-01-22* — If your opponent puts one of the face-down exiled cards into your graveyard (for example, to activate an ability of an Eldrazi Processor), choose one of the cards at random. The card is revealed only after the cost is fully paid. That is, your opponent can’t learn what card was chosen and decide to back up (not cast the spell, activate the ability, or so on, as applicable).
   - *2016-01-22* — No player can look at the cards once they’re exiled.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inverter-of-truth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/72/inverter-of-truth) · oracle_id `941350ba-30e2-4549-865f-ca1bd7626782` · printing: OGW #72 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invert // Invent
@@ -1790,6 +1800,7 @@ schema: 2
   - *2024-06-07* — If the target spell has damage divided as it was cast, the division can't be changed although the targets receiving that damage still can. The same is true of spells that distribute counters.
   - *2024-06-07* — If you choose new targets for the target spell, the new targets must be legal.
   - *2024-06-07* — You don't make any decisions about new targets for the spell until you win the flip.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#invert-polarity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/190/invert-polarity) · oracle_id `69e12b1f-0fd9-43a9-b3db-fe08290442c6` · printing: MH3 #190 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invert the Skies
@@ -1843,6 +1854,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — If an effect says that an opponent can't gain life, you can't have that player gain life to pay Invigorate's alternative cost. If an effect instead replaces life gain, such as that of Sulfuric Vortex, you may choose to pay the cost even though the cost's action is replaced with nothing.
   - *2020-08-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as the alternative cost of Invigorate), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/I.md#invigorate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/172/invigorate) · oracle_id `9264c198-76c7-4ac0-9334-37c691de1b54` · printing: 2XM #172 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invigorated Rampage
@@ -1858,6 +1870,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10198 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-02-09* — If you choose Invigorated Rampage's second mode and one target becomes an illegal target, the remaining target gets +2/+0 and gains trample. It doesn't get +4/+0.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#invigorated-rampage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/86/invigorated-rampage) · oracle_id `d1a665f1-b06f-4775-bcb1-c57a476fa651` · printing: AER #86 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invigorating Boon
@@ -1996,6 +2009,7 @@ schema: 2
   > Whenever you attack, you may pay {R}{G}{W}{U}. When you do, target creature gets +1/+0 until end of turn for each creature you control and can't be blocked this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15717 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#invisible-woman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lmar/5/invisible-woman) · oracle_id `085016ee-4429-453f-b7f3-d61065f1214e` · printing: LMAR #5 (2026-11-01) · [rulings](https://api.scryfall.com/cards/8d239a23-9575-4202-804a-cab7c08a546d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invisible Woman, Sue Storm
@@ -2011,6 +2025,7 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12118 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#invisible-woman-sue-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/17/invisible-woman-sue-storm) · oracle_id `e9d20b6d-fa4f-473b-9866-230fd92a1319` · printing: MSH #17 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2f80394b-2f7e-40a7-8203-720bcf39d71b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invocation of Saint Traft
@@ -2027,6 +2042,7 @@ schema: 2
   - *2016-04-08* — If an effect gives the token vigilance, the token will still enter the battlefield tapped.
   - *2016-04-08* — Removing Invocation of Saint Traft or the enchanted creature from the battlefield won’t stop the delayed triggered ability from exiling the Angel token at end of combat.
   - *2016-04-08* — You declare which player or planeswalker the token is attacking as you put it onto the battlefield. It doesn’t have to be the same player or planeswalker the enchanted creature is attacking.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#invocation-of-saint-traft)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/246/invocation-of-saint-traft) · oracle_id `cd6e9465-f4eb-482d-9c49-3a16b52c997c` · printing: SOI #246 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invoke Calamity
@@ -2041,6 +2057,7 @@ schema: 2
   - *2022-02-18* — If you cast a spell without paying its mana cost, you can't choose to cast it for any alternative costs. You can, however, pay any additional costs. If the spell has any mandatory additional costs, you must pay those.
   - *2022-02-18* — Invoke Calamity looks for the mana values and types of the spells on the stack, not the mana values and types of the cards in your graveyard. Notably, this means that you may cast the back face of a modal double-faced card or either face of a split card as long as the spells you are casting are either instants or sorceries and together have a total mana value of 6 or less.
   - *2022-02-18* — The spells are cast one after the other during the resolution of Invoke Calamity. The one you cast second will be the first one to resolve.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#invoke-calamity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/147/invoke-calamity) · oracle_id `5b3f041e-ad4a-47ea-bdc4-1be2353f2e18` · printing: NEO #147 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invoke Despair
@@ -2067,6 +2084,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10721 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-02-18* — You choose both targets for this spell as you cast it, but you choose which creatures and/or Vehicles to put counters on as it resolves. Notably, if you targeted yourself and put a creature or Vehicle card onto the battlefield with Invoke Justice, you may put some or all of the counters on that permanent.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#invoke-justice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/21/invoke-justice) · oracle_id `3e5cd60f-8fef-4152-a957-0a803997b3da` · printing: NEO #21 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invoke Prejudice
@@ -2079,6 +2097,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — In a multi-player game, it affects all opposing players.
   - *2004-10-04* — This ability triggers when the spell is cast.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/I.md#invoke-prejudice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/62/invoke-prejudice) · oracle_id `854ad486-0c59-4c57-9a76-ab1dff0ff37c` · printing: LEG #62 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invoke the Ancients
@@ -2093,6 +2112,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — If a replacement effect causes you to create more than two tokens, you will make that choice for each of those tokens individually. For example, if you resolve Invoke the Ancients while you control Parallel Lives, you will choose a type of counter for each of the four resulting tokens.
   - *2022-02-18* — You choose the type of counter that each of the two green Spirit creature tokens will get separately.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/I.md#invoke-the-ancients)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/193/invoke-the-ancients) · oracle_id `868b3c65-d753-4f32-b6ca-31e58782ea92` · printing: NEO #193 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invoke the Divine

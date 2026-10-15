@@ -54,6 +54,7 @@ schema: 2
   - *2021-04-16* — Mila’s first ability triggers only once no matter how many creatures are attacking or how many planeswalkers are being attacked.
   - *2021-04-16* — Mila’s second ability will resolve before the spell or ability that caused it to trigger.
   - *2021-04-16* — When Mila’s first ability resolves, you will put a loyalty counter on all planeswalkers you control, even ones that aren’t being attacked.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mila-crafty-companion--lukka-wayward-bonder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/153/mila-crafty-companion-lukka-wayward-bonder) · oracle_id `ee524e82-35c4-4cae-b65e-3e147eac2927` · printing: STX #153 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mild-Mannered Librarian
@@ -98,6 +99,7 @@ schema: 2
   - *2025-09-19* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of other double-faced cards is determined.
   - *2025-09-19* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
   - *2025-09-19* — While a double-faced card isn't on the stack or battlefield, consider only the characteristics of its front face.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#miles-morales--ultimate-spider-man)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/108/miles-morales-ultimate-spider-man) · oracle_id `be48c721-bdc6-4f2c-96d6-82d934b31615` · printing: SPM #108 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miles "Tails" Prower
@@ -228,6 +230,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#militias-pride)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/30/militias-pride) · oracle_id `d311154b-4742-49e5-9b65-4de2d3e0d50b` · printing: LRW #30 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Millennial Gargoyle

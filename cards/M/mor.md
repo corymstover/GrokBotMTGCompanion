@@ -139,6 +139,7 @@ schema: 2
   - *2020-09-25* — Moraug's first ability checks each turn how many times each creature has attacked. It counts times that creature attacked before Moraug was on the battlefield, and it stops applying if Moraug leaves the battlefield.
   - *2020-09-25* — Moraug's first ability counts how many times a creature has attacked, not how many times it has dealt damage. The first time a creature attacks in a turn, the +1/+0 bonus will apply to the combat damage it deals during that combat.
   - *2020-09-25* — There won't be an additional main phase after the additional combat phase. For example, if the landfall ability resolves twice during your postcombat main phase, you'll get two consecutive additional combat phases after your main phase (untapping your creatures at the beginning of each), followed by your ending phase.
+- **Referenced in:** 4 pages (2 decks · 2 edh guides) → [reverse index](../../references/M.md#moraug-fury-of-akoum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/89/moraug-fury-of-akoum) · oracle_id `6288c0cb-cf32-4ae9-abf0-104ec71654fa` · printing: EOC #89 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morbid Bloom
@@ -202,6 +203,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #246 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — If Morbid Opportunist dies at the same time as one or more other creatures, Morbid Opportunist's ability still triggers.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/M.md#morbid-opportunist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/219/morbid-opportunist) · oracle_id `322f44f0-e6da-4ee0-b474-e7d5e9a461c5` · printing: SOC #219 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morbid Plunder
@@ -245,6 +247,7 @@ schema: 2
   - *2025-11-17* — Some older cards were originally printed with the "tribal" card type. That card type has been replaced with "kindred." This change does not affect the gameplay function of these cards.
   - *2025-11-17* — The value of X is calculated only once, as Morcant's Eyes's last ability resolves. In most cases, Morcant's Eyes will be in your graveyard at that time, so it will count toward the value of X.
   - *2025-11-17* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#morcants-eyes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/185/morcants-eyes) · oracle_id `c55a27cc-8e25-4714-b1da-86e5c1c6661a` · printing: ECL #185 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morcant's Loyalist
@@ -260,6 +263,7 @@ schema: 2
   > *—High Perfect's decree*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5400 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#morcants-loyalist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/236/morcants-loyalist) · oracle_id `b2c30683-cc7f-4341-add1-b08cb9b93eeb` · printing: ECL #236 (2026-01-23) · [rulings](https://api.scryfall.com/cards/175c6b1c-8790-41a2-ae15-5031206c410f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mordant Dragon
@@ -289,6 +293,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — The cards put into your hand due to Mordenkainen's last ability aren't "drawn." Anything that cares about you drawing cards won't notice your hand suddenly becoming very, very well-stocked.
   - *2021-07-23* — The power and toughness of the Dog Illusion token will change as the number of cards in your hand changes.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mordenkainen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/64/mordenkainen) · oracle_id `6be0bf15-fdcb-4425-9bd8-3c39039cab7d` · printing: AFR #64 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mordenkainen's Polymorph
@@ -359,6 +364,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14072 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — Mordor Trebuchet's controller chooses which player, planeswalker, or battle the token is attacking. It doesn't need to be the same player, planeswalker, or battle that any of the Goblins and/or Orcs are attacking.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mordor-trebuchet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/97/mordor-trebuchet) · oracle_id `8a8e0d0a-1101-45b6-8f70-1de2c07bc369` · printing: LTR #97 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### More of That Strange Oil...
@@ -604,6 +610,7 @@ schema: 2
   - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
   - *2021-02-05* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much an Elf, a Dwarf, a Sliver, a Goat, a Coward, and a Zombie as it is a Shapeshifter.
   - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moritte-of-the-frost)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/223/moritte-of-the-frost) · oracle_id `78699161-fc14-4a44-8a15-0f7c08be0343` · printing: KHM #223 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morkrut Banshee
@@ -654,6 +661,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-04-08* — In the unusual situation that you control no other creatures or lands, the last ability won't do anything. Morkrut Necropod can attack or block with no penalty.
   - *2016-04-08* — When Morkrut Necropod attacks, its trigger doesn't resolve until after all attackers have been chosen. The same is true for when it blocks. This means that another creature, such as one enchanted with Invocation of Saint Traft, can also attack or block and then be sacrificed. Sacrificing a blocking creature this way doesn't cause the creature it blocked to become unblocked.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#morkrut-necropod)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/125/morkrut-necropod) · oracle_id `ed3990cd-fa67-427b-bbe4-a2b1942e9be2` · printing: SOI #125 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morlun, Devourer of Spiders
@@ -748,6 +756,7 @@ schema: 2
   - *2019-06-14* — If a spell has hybrid mana symbols in its mana cost, you choose which half you will be paying before determining the total cost. For example, if a spell of the chosen type costs {2}{W/U}{W/U}, you may choose for the cost to be {2}{W}{U} and then reduce it to {2}.
   - *2019-06-14* — Morophon's effect reduces the total cost by up to one mana of each color. For example, if a spell of the chosen type costs {4}{R}{W}{W}, it will cost {4}{W} after applying Morophon's effect.
   - *2019-06-14* — You must choose an existing creature type, such as Sliver or Warrior. Card types such as artifact, and supertypes such as legendary or snow, can't be chosen.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#morophon-the-boundless)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/3/morophon-the-boundless) · oracle_id `bf418a2f-e639-4e52-9cad-5a0713a1829b` · printing: CMM #3 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morphic Pool
@@ -762,6 +771,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #149 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-06-08* — If you began the game with two or more opponents but now only have one opponent left, these lands enter the battlefield tapped.
+- **Referenced in:** 44 pages (40 decks · 3 edh guides · 1 card data) → [reverse index](../../references/M.md#morphic-pool)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/357/morphic-pool) · oracle_id `bd004c9d-771e-4e63-a97d-a2259c096af8` · printing: CLB #357 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morphling
@@ -777,6 +787,7 @@ schema: 2
   > {1}: This creature gets -1/+1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18703 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#morphling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/81/morphling) · oracle_id `19f233b2-8be6-4172-abf9-b132fc3393d9` · printing: VMA #81 (2014-06-16) · [rulings](https://api.scryfall.com/cards/a0d09164-f53f-4f80-8166-8faeacaff418/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morselhoarder
@@ -923,6 +934,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — If a spell or ability sets a player's life total to a specified amount, that player gains or loses the appropriate amount of life. For example, if your life total is 20 and an effect sets your life total to 15, you lost 5 life.
   - *2022-10-07* — Mortarion, Demon Primarch's ability looks only at the amount of life you've lost this turn, regardless of any life you may have gained. For example, if you lost 3 life due to combat damage, but gained 2 life later in the turn, X may be up to 3 for this ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mortarion-daemon-primarch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/41/mortarion-daemon-primarch) · oracle_id `588eecbf-dcfc-4b97-b81c-8b9f3d39e08f` · printing: 40K #41 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortarpod
@@ -969,6 +981,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #580 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2006-02-01* — This spell isn't modal. When it resolves, it will destroy the target if it's a creature or an enchantment, even if it changed from one to the other between targeting and resolution.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/M.md#mortify)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/662/mortify) · oracle_id `faa01ed1-ccfa-4e58-951f-cd81f9068027` · printing: FDN #662 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortipede
@@ -1047,6 +1060,7 @@ schema: 2
   > {T}: Add {B}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #707 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/M.md#mortuary-mire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/900/mortuary-mire) · oracle_id `1b3fb20a-e090-4286-9c03-6b71c27c45be` · printing: CLB #900 (2022-06-10) · [rulings](https://api.scryfall.com/cards/058f30e5-64a9-4d6b-b7a6-0fd95d460cae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortus Strider

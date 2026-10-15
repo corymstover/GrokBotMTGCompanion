@@ -69,6 +69,7 @@ schema: 2
   - *2017-08-25* — This commander's eminence ability is a triggered ability. The commander must be on the battlefield or in the command zone as the trigger event occurs and also as the triggered ability resolves. If the commander is in an appropriate zone as the trigger event occurs but leaves that zone, the ability won't do anything as it resolves.
   - *2017-08-25* — To activate Inalla's last ability, you may tap any untapped Wizards you control, including ones you haven't controlled continuously since the beginning of your most recent turn, such as Inalla itself. (Note that tapping the creature doesn't use {T} [the tap symbol].)
   - *2017-08-25* — You can pay {1} only once each time Inalla's first ability resolves. You can't pay more to get more than one token.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#inalla-archmage-ritualist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/38/inalla-archmage-ritualist) · oracle_id `21bdba6e-3f9d-4ead-8212-0cbb0ce7f8cc` · printing: C17 #38 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iname as One

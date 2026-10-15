@@ -204,6 +204,7 @@ schema: 2
   > *Mishra was gone—all that remained was a machine wearing his face.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10659 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#gruesome-realization)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/103/gruesome-realization) · oracle_id `c24e34e7-0ac6-451a-b73b-31c7f96d123f` · printing: BRO #103 (2022-11-18) · [rulings](https://api.scryfall.com/cards/21cd0ece-a267-42ab-b95a-6e7931bd837a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruesome Scourger
@@ -230,6 +231,7 @@ schema: 2
   > *Though Gideon arrived at Sea Gate too late to prevent the massacre, he still had enough time to lead its survivors to relative safety.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9681 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#gruesome-slaughter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/9/gruesome-slaughter) · oracle_id `5f6fbb1d-63c9-4913-8e99-9e8c3b4e8d8c` · printing: BFZ #9 (2015-10-02) · [rulings](https://api.scryfall.com/cards/3d3e464c-3032-4579-8840-4fe75474e3fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruff Triplets
@@ -454,6 +456,7 @@ schema: 2
   > *The Gruul aren't satisfied with just smashing things. They continue smashing other things with the things they just smashed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31613 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gruul-scrapper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/89/gruul-scrapper) · oracle_id `878e8980-a2cc-4335-aafe-f5166ef48f79` · printing: GPT #89 (2006-02-03) · [rulings](https://api.scryfall.com/cards/f7f3fdc0-3fd1-47da-b3ed-e4a462179e75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Signet
@@ -466,6 +469,7 @@ schema: 2
   > *Gruul territorial markings need not be legible. The blood, snot, and muck used to smear them are unmistakably Gruul.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #826 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#gruul-signet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/223/gruul-signet) · oracle_id `d36e0c9f-c025-4dfe-9644-9cad2461ce38` · printing: CLU #223 (2024-02-23) · [rulings](https://api.scryfall.com/cards/ed1adca8-9386-42b0-ac6b-699394ac7969/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Spellbreaker
@@ -498,6 +502,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #466 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/G.md#gruul-turf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/152/gruul-turf) · oracle_id `657243dd-e479-4f4b-99d2-09b55d833a35` · printing: ECC #152 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul War Chant

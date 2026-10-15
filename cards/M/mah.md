@@ -36,6 +36,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1288 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/M.md#mahadi-emporium-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/282/mahadi-emporium-master) · oracle_id `1b3e841e-0f8f-467d-9983-f9b8d081a67f` · printing: CLB #282 (2022-06-10) · [rulings](https://api.scryfall.com/cards/c3da2b1a-76c5-4d36-bdf8-025b86f61eb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maha, Its Feathers Night
@@ -54,6 +55,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-26* — Effects that modify a creature’s power and/or toughness, such as the effect of Overprotect, will apply to the creature no matter when they started to take effect. The same is true for counters that change its power and/or toughness and effects that switch its power and toughness.
   - *2024-07-26* — Maha’s last ability overwrites all previous effects that set those creatures’ base toughness to specific values. Any toughness-setting effects that start to apply afterward will overwrite this effect.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/M.md#maha-its-feathers-night)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/100/maha-its-feathers-night) · oracle_id `129476ae-9dab-4e04-8e8e-f249afd56ff9` · printing: BLB #100 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mahamoti Djinn

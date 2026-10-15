@@ -151,6 +151,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15215 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-09-19* — You must follow all normal timing rules when playing a land or casting a spell this way.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#superior-foes-of-spider-man)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/167/superior-foes-of-spider-man) · oracle_id `a6a7af21-e52c-4f7f-a57f-bd365d075966` · printing: MSC #167 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Superior Numbers
@@ -180,6 +181,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-09-19* — If the copied card has {X} in its mana cost, X is 0.
   - *2025-09-19* — Treat Superior Spider-Man as though he were the chosen card entering (with the noted exceptions). Any "As this creature enters," "This creature enters with," and "When this creature enters" abilities of the chosen card will work.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#superior-spider-man)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/155/superior-spider-man) · oracle_id `636cc915-9d1b-4ffe-9e74-795b78663911` · printing: SPM #155 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super Mutant Scavenger
@@ -251,6 +253,7 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5067 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#super-shredder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/83/super-shredder) · oracle_id `b7ee76bf-d15a-489e-8f05-414788f8f649` · printing: TMT #83 (2026-03-06) · [rulings](https://api.scryfall.com/cards/37a497b8-e908-4ddc-996e-a8470df72afb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supersize
@@ -279,6 +282,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17789 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#super-skrull)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/115/super-skrull) · oracle_id `4644013f-c96a-450e-a7bc-ddfa7a563050` · printing: MSH #115 (2026-06-26) · [rulings](https://api.scryfall.com/cards/11fc8221-756a-4919-9272-38793e9c1ad9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super-Soldier Serum
@@ -319,6 +323,7 @@ schema: 2
 - **Keywords:** First strike, Trample, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2248 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#super-state)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2081/super-state) · oracle_id `ab2dfe99-bd77-44d7-92be-81643ea901f0` · printing: SLD #2081 (2025-07-14) · [rulings](https://api.scryfall.com/cards/a6a39919-a521-4e96-a47a-e09ac4d783bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super Strength
@@ -660,6 +665,7 @@ schema: 2
   > *Leonos had no second thoughts about the abolishment edict. He'd left skyrunes warning of the eviction, even though it was cloudy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #469 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 7 pages (3 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#supreme-verdict)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/211/supreme-verdict) · oracle_id `0230de18-8d15-4cfa-9d42-7ccddd9f9570` · printing: CLU #211 (2024-02-23) · [rulings](https://api.scryfall.com/cards/3892f1c5-937e-4ef4-b6f9-e0c0ded070d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supreme Will

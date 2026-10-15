@@ -127,6 +127,7 @@ schema: 2
   - *2023-10-13* — A player facing a villainous choice can always choose either option, even if one or both of the options are impossible. For example, if one of the options is to sacrifice a creature, a player who controls no creatures can still choose that option.
   - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sycorax-commander)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/161/sycorax-commander) · oracle_id `78ed3e01-6d22-429a-a9db-baff38d7bc03` · printing: WHO #161 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sydri, Galvanic Genius
@@ -162,6 +163,7 @@ schema: 2
   - *2008-05-01* — Sygg’s ability checks to see if it triggers at the end of every turn. It doesn’t have to be your turn, and it doesn’t have to be the turn of the opponent that lost life.
   - *2008-05-01* — Sygg’s ability will trigger even if Sygg wasn’t on the battlefield at the time some or all of the life was lost.
   - *2008-05-01* — You don’t specify an opponent when the ability triggers. If multiple opponents have lost 3 or more life over the course of the turn, the ability will trigger only once.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#sygg-river-cutthroat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/103/sygg-river-cutthroat) · oracle_id `cd4db500-0017-46c6-be94-1bf48f686b6a` · printing: ZNC #103 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sygg, River Guide
@@ -336,6 +338,7 @@ schema: 2
 - **Keywords:** Hexproof, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1896 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#sylvan-caryatid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/272/sylvan-caryatid) · oracle_id `13d4c46b-c2d6-44cc-a252-4a991d471854` · printing: TDC #272 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2662837c-3837-4da9-80b4-79edb0b6c289/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Echoes
@@ -363,6 +366,7 @@ schema: 2
   - *2007-05-01* — It targets a creature card in the graveyard. This target is selected when putting the triggered ability on the stack. The wording specifies it has to be a card other than the Hierophant.
   - *2008-04-01* — If Sylvan Hierophant is removed from the graveyard before the ability resolves, you still return the targeted creature card from your graveyard to your hand.
   - *2008-04-01* — If you control Sylvan Hierophant when it goes to the graveyard, you exile the Hierophant and return a creature card from your graveyard to your hand. It doesn't matter whose graveyard the Hierophant goes to.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sylvan-hierophant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/141/sylvan-hierophant) · oracle_id `e98361d9-1e3a-464e-bac6-75314fc49f32` · printing: WTH #141 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Library
@@ -380,6 +384,7 @@ schema: 2
   - *2022-12-08* — It’s not possible to take any actions between drawing the cards and choosing two cards. You can’t cast the cards you drew to avoid having two cards to choose.
   - *2022-12-08* — You always perform your normal draw before this ability. The normal draw occurs before anything can be placed on the stack during a player’s draw step.
   - *2022-12-08* — You can put back zero, one, or two cards.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/S.md#sylvan-library)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/179/sylvan-library) · oracle_id `92eed395-62ca-4293-882b-8565c40daab5` · printing: DMR #179 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Messenger
@@ -424,6 +429,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-11-07* — You choose the opponents for each effect as the spell resolves.
   - *2014-11-07* — You may choose the same opponent for each of the effects, or you may choose different opponents. None of the affected players are targets of the spell.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sylvan-offering)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/314/sylvan-offering) · oracle_id `732aaa4b-22ea-49e2-b09f-e6169f726537` · printing: NCC #314 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Paradise
@@ -450,6 +456,7 @@ schema: 2
   - *2013-01-24* — You search and shuffle your library only once.
   - *2013-07-01* — If Sylvan Primordial’s enters-the-battlefield ability resolves but one of the target noncreature permanents isn’t destroyed (perhaps because it has indestructible or it regenerated), it won’t count toward the number of Forest cards you can put onto the battlefield.
   - *2014-02-01* — If an opponent has any legal permanents to target, you must target one of them.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#sylvan-primordial)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/136/sylvan-primordial) · oracle_id `52b88034-bf0f-4d29-b776-40ce421f1107` · printing: GTC #136 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Ranger
@@ -489,6 +496,7 @@ schema: 2
   > *—Oakhide druid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #779 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#sylvan-safekeeper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/287/sylvan-safekeeper) · oracle_id `bddf8f4a-3149-4dd6-a9e5-7747e7e45a1c` · printing: MH3 #287 (2024-06-14) · [rulings](https://api.scryfall.com/cards/83036e21-21ea-4324-aa07-11757f80c417/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Scavenging
@@ -501,6 +509,7 @@ schema: 2
   > • Create a 3/3 green Raccoon creature token if you control a creature with power 4 or greater.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6927 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sylvan-scavenging)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/113/sylvan-scavenging) · oracle_id `398afdf2-4a12-430e-85c9-c68847230939` · printing: FDN #113 (2024-11-15) · [rulings](https://api.scryfall.com/cards/c35b683c-d3b2-46a1-876a-81b34e8ba2fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Scrying
@@ -514,6 +523,7 @@ schema: 2
   > *—Nissa Revane*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1307 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sylvan-scrying)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/192/sylvan-scrying) · oracle_id `ee24bf27-484d-4e1c-998e-6a74e3d3f6c4` · printing: BFZ #192 (2015-10-02) · [rulings](https://api.scryfall.com/cards/d1b93087-e6a0-4ba9-83ba-a0ed2e396dc7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Shepherd
@@ -587,6 +597,7 @@ schema: 2
   - *2018-06-08* — The triggered ability of the “partner with” keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
   - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding “partner with” abilities as the game begins. A creature with a “partner with” ability can’t partner with any creature other than its designated partner. Losing a partner ability during the game doesn’t cause either to cease to be your commander.
   - *2018-06-08* — “Partner with [name]” represents two abilities. The first is a triggered ability: “When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library.”
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#sylvia-brightspear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/10/sylvia-brightspear) · oracle_id `22a93a6d-fe58-4135-8ac2-6b92e9bb75a3` · printing: BBD #10 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvok Battle-Chair
@@ -813,6 +824,7 @@ schema: 2
   > *—Mervin, Brazen Coalition prospector*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17165 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#synapse-necromage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/125/synapse-necromage) · oracle_id `f5eace41-0f53-4084-8bec-1e079c04287b` · printing: LCI #125 (2023-11-17) · [rulings](https://api.scryfall.com/cards/efeb22a4-37bf-487a-9cf4-74de4cbbc0a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Synapse Sliver
@@ -922,6 +934,7 @@ schema: 2
   > *"Your eyes, they burn with resolve . . . beautiful."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3771 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#syncopate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/80/syncopate) · oracle_id `318f7f70-e374-40ef-8afb-3389c10461d8` · printing: FIN #80 (2025-06-13) · [rulings](https://api.scryfall.com/cards/83e1cd8d-5b97-427a-be75-2a1947f9c59b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syndicate Enforcer
@@ -1013,6 +1026,7 @@ schema: 2
 - **Keywords:** Trample, Landfall
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31558 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#syndicate-liquidators)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/218/syndicate-liquidators) · oracle_id `2f32de5c-4d85-42bc-b1bf-f762a46e5efc` · printing: TRK #218 (2026-11-13) · [rulings](https://api.scryfall.com/cards/18bb2edd-8dee-4714-a707-6542b6ebbd53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syndicate Messenger
@@ -1216,6 +1230,7 @@ schema: 2
   > *Necromancers deal in commodities far more precious than gold and grain.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9818 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#syphon-flesh)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/129/syphon-flesh) · oracle_id `bc7c3151-ad07-429a-8af8-e4f24b7d9f6b` · printing: MIC #129 (2021-09-24) · [rulings](https://api.scryfall.com/cards/63124d37-d16c-48d6-b1a2-a1a3834b3dc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syphon Fuel
@@ -1246,6 +1261,7 @@ schema: 2
   - *2008-08-01* — Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
   - *2008-08-01* — If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard.
   - *2008-08-01* — When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#syphon-life)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mma/100/syphon-life) · oracle_id `c9367dd3-1a50-4eae-993e-c055dc6c4dc5` · printing: MMA #100 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syphon Mind
@@ -1259,6 +1275,7 @@ schema: 2
   > *—Ultron*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1048 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#syphon-mind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/159/syphon-mind) · oracle_id `abc37d6c-6300-47b5-a679-9db5b83eb54f` · printing: MSC #159 (2026-06-26) · [rulings](https://api.scryfall.com/cards/be3f418b-25c3-4370-a1de-50e8e88c2ef6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syphon Sliver
@@ -1405,6 +1422,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3032 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-09-01* — For Syr Ginger's last ability, use its power from when it was last on the battlefield to determine how much life is gained. If that power was 0 or less, you gain no life.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#syr-ginger-the-meal-ender)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/252/syr-ginger-the-meal-ender) · oracle_id `2eb16535-718f-4b88-92bc-96429d796327` · printing: WOE #252 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Gwyn, Hero of Ashvale
@@ -1468,6 +1486,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — If one or more creatures die at the same time as Syr Konrad, its first ability triggers for each of those creatures.
   - *2019-10-04* — In a Two-Headed Giant game, Syr Konrad's first ability causes it to deal 1 damage twice.
+- **Referenced in:** 11 pages (6 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#syr-konrad-the-grim)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/158/syr-konrad-the-grim) · oracle_id `14c3ff84-1e82-4606-a433-869fc52cc382` · printing: DSC #158 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Vondam, Sunstar Exemplar
@@ -1523,6 +1542,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1022 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-06-18* — Sythis, Harvest Hand's ability doesn't trigger when it is cast.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sythis-harvests-hand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/938/sythis-harvests-hand) · oracle_id `0fc64fd6-f057-4056-9dca-47accb7ff036` · printing: CMM #938 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syx, Robot Overlord

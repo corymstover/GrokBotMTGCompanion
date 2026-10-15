@@ -193,6 +193,7 @@ schema: 2
   - *2012-05-01* — If the card has {X} in its mana cost, you must choose 0 as its value.
   - *2012-05-01* — If the revealed card is a creature card that shares a creature type with a creature you control, but you choose not to cast it, it's put on the bottom of your library. (This is a recent change.)
   - *2012-05-01* — If you cast a card "without paying its mana cost," you can't pay any alternative costs. You can pay additional costs, such as kicker costs. If the card has mandatory additional costs, you must pay those.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#descendants-path)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/167/descendants-path) · oracle_id `ba13cbdb-8043-4c1b-8a85-084c86886ac8` · printing: TLE #167 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Descend on the Prey
@@ -275,6 +276,7 @@ schema: 2
   > *"Your atoms will serve my ambitions in a much more useful form."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13380 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#desculpting-blast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/54/desculpting-blast) · oracle_id `2d80ee9c-55d4-4115-8a58-63e8460f9795` · printing: EOE #54 (2025-08-01) · [rulings](https://api.scryfall.com/cards/77fdbf32-b5f4-4346-846d-d8e0e53e6e53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desdemona, Freedom's Edge
@@ -322,6 +324,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4430 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-07-13* — You create one Bat token each time Desecrated Tomb’s ability triggers, no matter how many cards left your graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#desecrated-tomb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/230/desecrated-tomb) · oracle_id `07ff619a-21ee-44b6-b666-ceab4a78096a` · printing: M19 #230 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desecrate Reality
@@ -339,6 +342,7 @@ schema: 2
   - *2023-07-28* — If a card has {X} in its mana cost, X is zero when it's in any zone but the stack.
   - *2023-07-28* — If an effect allows you to cast a spell without paying its mana cost, you can't choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can't waive a cost reduction unless that effect says you may.
   - *2023-07-28* — If you copy a spell that has an adamant ability, no mana was spent to cast the copy at all, so that ability won't apply.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#desecrate-reality)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/714/desecrate-reality) · oracle_id `c9cd57f6-1f69-4ea1-9672-ca944759c7e8` · printing: CMM #714 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desecration Demon
@@ -399,6 +403,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-08-01* — If the creature card has “*” in its power or toughness, the ability that defines “*” works in all zones.
   - *2008-08-01* — This ability doesn’t target a card. It will determine which card is returned to your hand as it resolves. If there’s a tie, you choose which of the tied cards to return to your hand at that time.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#desecrator-hag)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/153/desecrator-hag) · oracle_id `264e60a3-3191-497d-ab06-1411e668b4aa` · printing: CM2 #153 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desert
@@ -455,6 +460,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #267 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/D.md#deserted-beach)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/176/deserted-beach) · oracle_id `f0ec8681-da50-466b-8cdd-1dc710deccd9` · printing: FRA #176 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deserted Temple
@@ -468,6 +474,7 @@ schema: 2
   > *A monument to long-forgotten gods, it stands as a tribute to the fleeting nature of human ways.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1573 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#deserted-temple)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/301/deserted-temple) · oracle_id `9f12bf9a-6e1a-4377-b4af-e8cabd3ee58a` · printing: MH3 #301 (2024-06-14) · [rulings](https://api.scryfall.com/cards/fd51f8f0-779b-40bb-b65c-5907f816676e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deserter's Disciple
@@ -483,6 +490,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — If the target creature's power is increased to 3 or greater after Deserter's Disciple's ability is activated but before it resolves, the ability doesn't resolve. However, if instead the creature's power is increased to 3 or greater after the ability resolves, it still can't be blocked that turn.
   - *2025-10-02* — Once a creature with power 2 or less has been blocked, Deserter's Disciple's ability won't cause it to become unblocked.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#deserters-disciple)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/131/deserters-disciple) · oracle_id `73ca3132-d849-4cf9-beba-75ba09789332` · printing: TLA #131 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deserter's Quarters
@@ -608,6 +616,7 @@ schema: 2
   > *While pursuing the remnants of Yuan Shao's forces into the Wuhan Desert, Cao Cao was temporarily turned back by a fierce sandstorm.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29037 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#desert-sandstorm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/107/desert-sandstorm) · oracle_id `230bf3a4-68a8-4553-b8d7-ad340cbd7371` · printing: PTK #107 (1999-05-01) · [rulings](https://api.scryfall.com/cards/588ad2bf-405d-4c36-b485-e415c22f2703/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desert's Due
@@ -648,6 +657,7 @@ schema: 2
   > *Massive, mindless, and imbued with one terrible purpose.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17964 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#desert-twister)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/100/desert-twister) · oracle_id `6f880348-6dc8-4cf8-9313-9893c41a70a3` · printing: CMA #100 (2017-06-09) · [rulings](https://api.scryfall.com/cards/38b6ac26-651f-4557-a993-7a65c5ddf35f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desert Warfare
@@ -661,6 +671,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-06-07* — Desert Warfare's first ability won't return any Deserts that you sacrificed or that were put into your graveyard from your hand or library before Desert Warfare entered the battlefield.
   - *2024-06-07* — If the Desert leaves your graveyard before the delayed triggered ability created by Desert Warfare's first ability resolves, that Desert won't be put onto the battlefield from its new zone when that ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#desert-warfare)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/64/desert-warfare) · oracle_id `de301ef8-8ba0-423d-9117-a8492a58d01b` · printing: M3C #64 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desert Were-Worm
@@ -705,6 +716,7 @@ schema: 2
 - **Keywords:** Surveil, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5625 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#desmond-miles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/24/desmond-miles) · oracle_id `654d84bb-f801-4d03-898c-78952f1c5a73` · printing: ACR #24 (2024-07-05) · [rulings](https://api.scryfall.com/cards/c9523cd1-c3cf-4745-af09-77c1a83ac86f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desolate Lighthouse
@@ -718,6 +730,7 @@ schema: 2
   > *A lonely sentinel facing gales, hurricanes, and tides of homicidal spirits.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2192 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#desolate-lighthouse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/327/desolate-lighthouse) · oracle_id `aa6dbdf2-2379-4ff5-8a6c-70258784dc35` · printing: LCC #327 (2023-11-17) · [rulings](https://api.scryfall.com/cards/c155cc10-09f4-424b-b366-142adf9c1712/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desolate Mire
@@ -745,6 +758,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Each Desolation only causes up to one land per turn to be sacrificed. If you have more than one, each will do this.
   - *2004-10-04* — It works even if it was not on the battlefield when the land was tapped for mana.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#desolation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/58/desolation) · oracle_id `a80c3af8-470e-4e95-9579-cfdf18fbdbfa` · printing: VIS #58 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desolation Angel
@@ -824,6 +838,7 @@ schema: 2
   > *—Munda, ambush leader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4055 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#desolation-twin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/82/desolation-twin) · oracle_id `c0cb1f37-1679-42c7-a794-81e088157eeb` · printing: C21 #82 (2021-04-23) · [rulings](https://api.scryfall.com/cards/935ad5f7-f86c-4fea-94fe-d111d4435ac4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Despark
@@ -837,6 +852,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #407 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-05-03* — If a permanent has {X} in its mana cost, X is considered to be 0.
+- **Referenced in:** 5 pages (1 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/D.md#despark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/50/despark) · oracle_id `bd16434d-55ea-4c5a-a9ef-752971a4af16` · printing: FRC #50 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desperate Bloodseeker
@@ -879,6 +895,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31078 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Desperate Charge affects only creatures you control at the time it resolves. A creature that enters later in the turn won't get +2/+0.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#desperate-charge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/63/desperate-charge) · oracle_id `26074e44-cf2b-459f-9a5d-7eed231ed2b4` · printing: ME3 #63 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desperate Farmer // Depraved Harvester
@@ -1018,6 +1035,7 @@ schema: 2
   - *2013-06-07* — If all of the spell’s targets are illegal when the spell tries to resolve, it won’t resolve and none of its effects will happen.
   - *2013-06-07* — You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word “target” on the resulting spell.
   - *2013-06-07* — You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/D.md#desperate-ritual)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/127/desperate-ritual) · oracle_id `3620ab8f-b693-4225-bb96-5ca3cb3fa465` · printing: UMA #127 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desperate Sentry
@@ -1130,6 +1148,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — You own a nontoken permanent if it started the game in your deck. If it started the game in no one's deck (for example, it was brought into the game by Living Wish), you own it if you brought it into the game.
   - *2012-10-01* — A token's owner is the player under who created it.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#despotic-scepter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/206/despotic-scepter) · oracle_id `34a85d7f-d4ea-4a0f-aa4c-bf0b0f4987bf` · printing: ME2 #206 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Destined Confrontation
@@ -1189,6 +1208,7 @@ schema: 2
   - *2020-01-24* — If you activate Destiny Spinner's ability more than once in a turn, the value of X may be different each time. If you choose the same land as the target more than once, the most recent effect (and most recent value of X) applies.
   - *2020-01-24* — If you control no enchantments at the time Destiny Spinner's activated ability resolves, the land becomes a 0/0 creature and is put into its owner's graveyard unless another effect is raising its toughness.
   - *2020-01-24* — The value of X is determined only as Destiny Spinner's activated ability resolves. Once that happens, the creature's base power and toughness won't change later in the turn even if the number of enchantments you control changes.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/D.md#destiny-spinner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/890/destiny-spinner) · oracle_id `7dd189f8-a23f-4b43-b0ef-fb174a9664ba` · printing: CMM #890 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Destroy Evil
@@ -1204,6 +1224,7 @@ schema: 2
   > *—Captain America, Steve Rogers*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4860 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#destroy-evil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/128/destroy-evil) · oracle_id `b75e667a-1ceb-445a-acf4-ae1fd2dae9e7` · printing: MSC #128 (2026-06-26) · [rulings](https://api.scryfall.com/cards/af2498a2-3763-408a-9bd2-279034869285/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Destroy the Evidence
@@ -1315,6 +1336,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15774 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#destructor-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/127/destructor-dragon) · oracle_id `b0104d66-5c28-482f-838a-416aabaeaf43` · printing: FRF #127 (2015-01-23) · [rulings](https://api.scryfall.com/cards/a87cb2f2-00ed-46a3-a69d-5360e1558b03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desynchronization
@@ -1331,6 +1353,7 @@ schema: 2
   - *2024-07-05* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
   - *2024-07-05* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
   - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#desynchronization)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/16/desynchronization) · oracle_id `dab64d0f-1246-4a4d-9a79-6db2ca0c8882` · printing: ACR #16 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desynchronize
@@ -1345,4 +1368,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24609 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-14* — The permanent's owner chooses whether to put it on the top or bottom of their library. If multiple cards are put into the library this way (such as when the spell targets a melded permanent), that permanent's owner puts all the cards on top or all the cards on the bottom. They put them in whatever order they wish, and do not need to reveal the order.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#desynchronize)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/46/desynchronize) · oracle_id `dae81b1b-28dd-4f7f-9bcb-65e72eaa37e2` · printing: BRO #46 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

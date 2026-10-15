@@ -1,0 +1,1358 @@
+{
+ "generated_by": "scripts/build_crossrefs.py",
+ "note": "Oracle-pattern matches of each deck list against the EDH Packages sub-packages",
+ "packages": {
+  "Ramp: Mana rocks (MV ≤ 2)": [
+   {
+    "deck": "grixis/decks/mairsil-the-pretender.md",
+    "label": "Mairsil, the Pretender (Grixis)",
+    "cards": 12
+   },
+   {
+    "deck": "grixis/decks/mishra-artificer-prodigy.md",
+    "label": "Mishra, Artificer Prodigy (Grixis)",
+    "cards": 12
+   },
+   {
+    "deck": "grixis/decks/crosis-the-purger.md",
+    "label": "Crosis, the Purger (Grixis)",
+    "cards": 11
+   },
+   {
+    "deck": "grixis/decks/garza-zol-plague-queen.md",
+    "label": "Garza Zol, Plague Queen (Grixis)",
+    "cards": 11
+   },
+   {
+    "deck": "decks/kykar-winds-fury.md",
+    "label": "Kykar, Wind's Fury",
+    "cards": 10
+   },
+   {
+    "deck": "decks/nekusar-the-mindrazer.md",
+    "label": "Nekusar, the Mindrazer",
+    "cards": 10
+   },
+   {
+    "deck": "grixis/decks/fire-lord-azula.md",
+    "label": "Fire Lord Azula (Grixis)",
+    "cards": 10
+   },
+   {
+    "deck": "grixis/decks/kess-dissident-mage.md",
+    "label": "Kess, Dissident Mage (Grixis)",
+    "cards": 10
+   },
+   {
+    "deck": "decks/zur-the-enchanter.md",
+    "label": "Zur the Enchanter",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/anhelo-the-painter.md",
+    "label": "Anhelo, the Painter (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/bjorna-nightfall-alchemist-cecily.md",
+    "label": "Bjorna, Nightfall Alchemist (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/don-andres-the-renegade.md",
+    "label": "Don Andres, the Renegade (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/edward-kenway.md",
+    "label": "Edward Kenway (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/inalla-archmage-ritualist.md",
+    "label": "Inalla, Archmage Ritualist (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/jeleva-nephalias-scourge.md",
+    "label": "Jeleva, Nephalia's Scourge (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/kefka-court-mage.md",
+    "label": "Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/mai-and-zuko.md",
+    "label": "Mai and Zuko (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/admiral-beckett-brass.md",
+    "label": "Admiral Beckett Brass (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/admiral-brass-unsinkable.md",
+    "label": "Admiral Brass, Unsinkable (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/cormela-glamour-thief.md",
+    "label": "Cormela, Glamour Thief (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/cult-of-skaro.md",
+    "label": "Cult of Skaro (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/evelyn-the-covetous.md",
+    "label": "Evelyn, the Covetous (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/lord-of-tresserhorn.md",
+    "label": "Lord of Tresserhorn (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/marchesa-dealer-of-death.md",
+    "label": "Marchesa, Dealer of Death (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/mishra-eminent-one.md",
+    "label": "Mishra, Eminent One (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/nekusar-the-mindrazer.md",
+    "label": "Nekusar, the Mindrazer (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "decks/brago-king-eternal.md",
+    "label": "Brago, King Eternal",
+    "cards": 7
+   },
+   {
+    "deck": "decks/breya-etherium-shaper.md",
+    "label": "Breya, Etherium Shaper",
+    "cards": 7
+   },
+   {
+    "deck": "grixis/decks/abaddon-the-despoiler.md",
+    "label": "Abaddon the Despoiler (Grixis)",
+    "cards": 7
+   },
+   {
+    "deck": "grixis/decks/ashad-the-lone-cyberman.md",
+    "label": "Ashad, the Lone Cyberman (Grixis)",
+    "cards": 7
+   },
+   {
+    "deck": "grixis/decks/ashnod-the-uncaring.md",
+    "label": "Ashnod the Uncaring (Grixis)",
+    "cards": 7
+   },
+   {
+    "deck": "grixis/decks/belakor-the-dark-master.md",
+    "label": "Be'lakor, the Dark Master (Grixis)",
+    "cards": 7
+   },
+   {
+    "deck": "grixis/decks/grixistax-october-2026.md",
+    "label": "Kraum, Ludevic's Opus (Grixis)",
+    "cards": 7
+   },
+   {
+    "deck": "grixis/decks/lord-xander-the-collector.md",
+    "label": "Lord Xander, the Collector (Grixis)",
+    "cards": 7
+   },
+   {
+    "deck": "grixis/decks/lynde-cheerful-tormentor.md",
+    "label": "Lynde, Cheerful Tormentor (Grixis)",
+    "cards": 7
+   },
+   {
+    "deck": "grixis/decks/missy.md",
+    "label": "Missy (Grixis)",
+    "cards": 7
+   },
+   {
+    "deck": "decks/niv-mizzet-parun.md",
+    "label": "Niv-Mizzet, Parun",
+    "cards": 6
+   },
+   {
+    "deck": "decks/prosper-tome-bound.md",
+    "label": "Prosper, Tome-Bound",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/davros-dalek-creator.md",
+    "label": "Davros, Dalek Creator (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/doctor-doom-king-of-latveria.md",
+    "label": "Doctor Doom, King of Latveria (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/dr-eggman.md",
+    "label": "Dr. Eggman (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/edea-possessed-sorceress.md",
+    "label": "Edea, Possessed Sorceress (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/goro-goro-and-satoru.md",
+    "label": "Goro-Goro and Satoru (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/marchesa-the-black-rose.md",
+    "label": "Marchesa, the Black Rose (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/nathan-drake-treasure-hunter.md",
+    "label": "Nathan Drake, Treasure Hunter (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "decks/edgar-markov.md",
+    "label": "Edgar Markov",
+    "cards": 5
+   },
+   {
+    "deck": "decks/feather-the-redeemed.md",
+    "label": "Feather, the Redeemed",
+    "cards": 5
+   },
+   {
+    "deck": "decks/kozilek-the-great-distortion.md",
+    "label": "Kozilek, the Great Distortion",
+    "cards": 5
+   },
+   {
+    "deck": "decks/talrand-sky-summoner.md",
+    "label": "Talrand, Sky Summoner",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/gwendlyn-di-corci.md",
+    "label": "Gwendlyn Di Corci (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/loki-the-deceiver.md",
+    "label": "Loki, the Deceiver (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "decks/atraxa-praetors-voice.md",
+    "label": "Atraxa, Praetors' Voice",
+    "cards": 4
+   },
+   {
+    "deck": "decks/krrik-son-of-yawgmoth.md",
+    "label": "K'rrik, Son of Yawgmoth",
+    "cards": 4
+   },
+   {
+    "deck": "decks/plane-ixalan-ghalta-primal-hunger.md",
+    "label": "Ghalta, Primal Hunger (Ixalan-only)",
+    "cards": 4
+   },
+   {
+    "deck": "decks/teysa-karlov.md",
+    "label": "Teysa Karlov",
+    "cards": 4
+   },
+   {
+    "deck": "decks/theme-edgar-markov-lifegain.md",
+    "label": "Edgar Markov (lifegain theme)",
+    "cards": 4
+   },
+   {
+    "deck": "decks/yidris-maelstrom-wielder.md",
+    "label": "Yidris, Maelstrom Wielder",
+    "cards": 4
+   },
+   {
+    "deck": "decks/yuriko-the-tigers-shadow.md",
+    "label": "Yuriko, the Tiger's Shadow",
+    "cards": 4
+   },
+   {
+    "deck": "decks/chulane-teller-of-tales.md",
+    "label": "Chulane, Teller of Tales",
+    "cards": 3
+   },
+   {
+    "deck": "decks/giada-font-of-hope.md",
+    "label": "Giada, Font of Hope",
+    "cards": 3
+   },
+   {
+    "deck": "decks/kynaios-and-tiro-of-meletis.md",
+    "label": "Kynaios and Tiro of Meletis",
+    "cards": 3
+   },
+   {
+    "deck": "decks/saskia-the-unyielding.md",
+    "label": "Saskia the Unyielding",
+    "cards": 3
+   },
+   {
+    "deck": "decks/tatyova-benthic-druid.md",
+    "label": "Tatyova, Benthic Druid",
+    "cards": 3
+   },
+   {
+    "deck": "decks/the-ur-dragon.md",
+    "label": "The Ur-Dragon",
+    "cards": 3
+   },
+   {
+    "deck": "decks/theme-atraxa-praetors-voice-planeswalkers.md",
+    "label": "Atraxa, Praetors' Voice (planeswalkers theme)",
+    "cards": 3
+   },
+   {
+    "deck": "decks/theme-chulane-teller-of-tales-landfall.md",
+    "label": "Chulane, Teller of Tales (landfall theme)",
+    "cards": 3
+   },
+   {
+    "deck": "decks/trostani-selesnyas-voice.md",
+    "label": "Trostani, Selesnya's Voice",
+    "cards": 3
+   },
+   {
+    "deck": "decks/xenagos-god-of-revels.md",
+    "label": "Xenagos, God of Revels",
+    "cards": 3
+   }
+  ],
+  "Ramp: Land ramp (puts lands onto the battlefield)": [
+   {
+    "deck": "decks/tatyova-benthic-druid.md",
+    "label": "Tatyova, Benthic Druid",
+    "cards": 7
+   },
+   {
+    "deck": "decks/gishath-suns-avatar.md",
+    "label": "Gishath, Sun's Avatar",
+    "cards": 5
+   },
+   {
+    "deck": "decks/korvold-fae-cursed-king.md",
+    "label": "Korvold, Fae-Cursed King",
+    "cards": 3
+   },
+   {
+    "deck": "decks/plane-ixalan-ghalta-primal-hunger.md",
+    "label": "Ghalta, Primal Hunger (Ixalan-only)",
+    "cards": 3
+   },
+   {
+    "deck": "decks/plane-zendikar-omnath-locus-of-rage.md",
+    "label": "Omnath, Locus of Rage (Zendikar-only)",
+    "cards": 3
+   }
+  ],
+  "Ramp: Mana creatures (MV ≤ 2)": [
+   {
+    "deck": "decks/chulane-teller-of-tales.md",
+    "label": "Chulane, Teller of Tales",
+    "cards": 8
+   },
+   {
+    "deck": "decks/animar-soul-of-elements.md",
+    "label": "Animar, Soul of Elements",
+    "cards": 7
+   },
+   {
+    "deck": "decks/selvala-heart-of-the-wilds.md",
+    "label": "Selvala, Heart of the Wilds",
+    "cards": 7
+   },
+   {
+    "deck": "decks/theme-chulane-teller-of-tales-landfall.md",
+    "label": "Chulane, Teller of Tales (landfall theme)",
+    "cards": 6
+   },
+   {
+    "deck": "decks/xenagos-god-of-revels.md",
+    "label": "Xenagos, God of Revels",
+    "cards": 6
+   },
+   {
+    "deck": "decks/karador-ghost-chieftain.md",
+    "label": "Karador, Ghost Chieftain",
+    "cards": 5
+   },
+   {
+    "deck": "decks/lathril-blade-of-the-elves.md",
+    "label": "Lathril, Blade of the Elves",
+    "cards": 5
+   },
+   {
+    "deck": "decks/trostani-selesnyas-voice.md",
+    "label": "Trostani, Selesnya's Voice",
+    "cards": 5
+   },
+   {
+    "deck": "decks/plane-ixalan-ghalta-primal-hunger.md",
+    "label": "Ghalta, Primal Hunger (Ixalan-only)",
+    "cards": 4
+   },
+   {
+    "deck": "decks/saskia-the-unyielding.md",
+    "label": "Saskia the Unyielding",
+    "cards": 4
+   },
+   {
+    "deck": "decks/korvold-fae-cursed-king.md",
+    "label": "Korvold, Fae-Cursed King",
+    "cards": 3
+   },
+   {
+    "deck": "decks/muldrotha-the-gravetide.md",
+    "label": "Muldrotha, the Gravetide",
+    "cards": 3
+   },
+   {
+    "deck": "decks/theme-muldrotha-the-gravetide-self-mill.md",
+    "label": "Muldrotha, the Gravetide (self mill theme)",
+    "cards": 3
+   }
+  ],
+  "Ramp: Cost reducers": [
+   {
+    "deck": "decks/giada-font-of-hope.md",
+    "label": "Giada, Font of Hope",
+    "cards": 6
+   },
+   {
+    "deck": "decks/gishath-suns-avatar.md",
+    "label": "Gishath, Sun's Avatar",
+    "cards": 6
+   },
+   {
+    "deck": "decks/the-ur-dragon.md",
+    "label": "The Ur-Dragon",
+    "cards": 6
+   },
+   {
+    "deck": "decks/talrand-sky-summoner.md",
+    "label": "Talrand, Sky Summoner",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/mishra-artificer-prodigy.md",
+    "label": "Mishra, Artificer Prodigy (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "decks/breya-etherium-shaper.md",
+    "label": "Breya, Etherium Shaper",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/ashad-the-lone-cyberman.md",
+    "label": "Ashad, the Lone Cyberman (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/belakor-the-dark-master.md",
+    "label": "Be'lakor, the Dark Master (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/loki-the-deceiver.md",
+    "label": "Loki, the Deceiver (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/mai-and-zuko.md",
+    "label": "Mai and Zuko (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "decks/kozilek-the-great-distortion.md",
+    "label": "Kozilek, the Great Distortion",
+    "cards": 3
+   },
+   {
+    "deck": "decks/niv-mizzet-parun.md",
+    "label": "Niv-Mizzet, Parun",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/anhelo-the-painter.md",
+    "label": "Anhelo, the Painter (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/ashnod-the-uncaring.md",
+    "label": "Ashnod the Uncaring (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/cult-of-skaro.md",
+    "label": "Cult of Skaro (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/doctor-doom-king-of-latveria.md",
+    "label": "Doctor Doom, King of Latveria (Grixis)",
+    "cards": 3
+   }
+  ],
+  "Card advantage: Repeatable draw engines (permanents)": [
+   {
+    "deck": "decks/niv-mizzet-parun.md",
+    "label": "Niv-Mizzet, Parun",
+    "cards": 10
+   },
+   {
+    "deck": "decks/kynaios-and-tiro-of-meletis.md",
+    "label": "Kynaios and Tiro of Meletis",
+    "cards": 8
+   },
+   {
+    "deck": "decks/saskia-the-unyielding.md",
+    "label": "Saskia the Unyielding",
+    "cards": 8
+   },
+   {
+    "deck": "decks/talrand-sky-summoner.md",
+    "label": "Talrand, Sky Summoner",
+    "cards": 8
+   },
+   {
+    "deck": "decks/theme-chulane-teller-of-tales-landfall.md",
+    "label": "Chulane, Teller of Tales (landfall theme)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/goro-goro-and-satoru.md",
+    "label": "Goro-Goro and Satoru (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "decks/animar-soul-of-elements.md",
+    "label": "Animar, Soul of Elements",
+    "cards": 7
+   },
+   {
+    "deck": "decks/chulane-teller-of-tales.md",
+    "label": "Chulane, Teller of Tales",
+    "cards": 7
+   },
+   {
+    "deck": "decks/muldrotha-the-gravetide.md",
+    "label": "Muldrotha, the Gravetide",
+    "cards": 7
+   },
+   {
+    "deck": "decks/xenagos-god-of-revels.md",
+    "label": "Xenagos, God of Revels",
+    "cards": 7
+   },
+   {
+    "deck": "grixis/decks/bjorna-nightfall-alchemist-cecily.md",
+    "label": "Bjorna, Nightfall Alchemist (Grixis)",
+    "cards": 7
+   },
+   {
+    "deck": "decks/plane-theros-uro-titan-of-natures-wrath.md",
+    "label": "Uro, Titan of Nature's Wrath (Theros-only)",
+    "cards": 6
+   },
+   {
+    "deck": "decks/theme-muldrotha-the-gravetide-self-mill.md",
+    "label": "Muldrotha, the Gravetide (self mill theme)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/davros-dalek-creator.md",
+    "label": "Davros, Dalek Creator (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/edward-kenway.md",
+    "label": "Edward Kenway (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/gwendlyn-di-corci.md",
+    "label": "Gwendlyn Di Corci (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/loki-the-deceiver.md",
+    "label": "Loki, the Deceiver (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/mai-and-zuko.md",
+    "label": "Mai and Zuko (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/missy.md",
+    "label": "Missy (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "decks/giada-font-of-hope.md",
+    "label": "Giada, Font of Hope",
+    "cards": 5
+   },
+   {
+    "deck": "decks/gishath-suns-avatar.md",
+    "label": "Gishath, Sun's Avatar",
+    "cards": 5
+   },
+   {
+    "deck": "decks/kykar-winds-fury.md",
+    "label": "Kykar, Wind's Fury",
+    "cards": 5
+   },
+   {
+    "deck": "decks/teysa-karlov.md",
+    "label": "Teysa Karlov",
+    "cards": 5
+   },
+   {
+    "deck": "decks/theme-atraxa-praetors-voice-planeswalkers.md",
+    "label": "Atraxa, Praetors' Voice (planeswalkers theme)",
+    "cards": 5
+   },
+   {
+    "deck": "decks/yuriko-the-tigers-shadow.md",
+    "label": "Yuriko, the Tiger's Shadow",
+    "cards": 5
+   },
+   {
+    "deck": "decks/zur-the-enchanter.md",
+    "label": "Zur the Enchanter",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/cult-of-skaro.md",
+    "label": "Cult of Skaro (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/doctor-doom-king-of-latveria.md",
+    "label": "Doctor Doom, King of Latveria (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/nekusar-the-mindrazer.md",
+    "label": "Nekusar, the Mindrazer (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "decks/atraxa-praetors-voice.md",
+    "label": "Atraxa, Praetors' Voice",
+    "cards": 4
+   },
+   {
+    "deck": "decks/breya-etherium-shaper.md",
+    "label": "Breya, Etherium Shaper",
+    "cards": 4
+   },
+   {
+    "deck": "decks/nekusar-the-mindrazer.md",
+    "label": "Nekusar, the Mindrazer",
+    "cards": 4
+   },
+   {
+    "deck": "decks/plane-innistrad-the-gitrog-monster.md",
+    "label": "The Gitrog Monster (Innistrad-only)",
+    "cards": 4
+   },
+   {
+    "deck": "decks/selvala-heart-of-the-wilds.md",
+    "label": "Selvala, Heart of the Wilds",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/admiral-beckett-brass.md",
+    "label": "Admiral Beckett Brass (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/ashad-the-lone-cyberman.md",
+    "label": "Ashad, the Lone Cyberman (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/dr-eggman.md",
+    "label": "Dr. Eggman (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/evelyn-the-covetous.md",
+    "label": "Evelyn, the Covetous (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/fire-lord-azula.md",
+    "label": "Fire Lord Azula (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/garza-zol-plague-queen.md",
+    "label": "Garza Zol, Plague Queen (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/grixistax-october-2026.md",
+    "label": "Kraum, Ludevic's Opus (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/lynde-cheerful-tormentor.md",
+    "label": "Lynde, Cheerful Tormentor (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/marchesa-the-black-rose.md",
+    "label": "Marchesa, the Black Rose (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/mishra-artificer-prodigy.md",
+    "label": "Mishra, Artificer Prodigy (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/mishra-eminent-one.md",
+    "label": "Mishra, Eminent One (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "decks/edgar-markov.md",
+    "label": "Edgar Markov",
+    "cards": 3
+   },
+   {
+    "deck": "decks/lathril-blade-of-the-elves.md",
+    "label": "Lathril, Blade of the Elves",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/crosis-the-purger.md",
+    "label": "Crosis, the Purger (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/kefka-court-mage.md",
+    "label": "Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/marchesa-dealer-of-death.md",
+    "label": "Marchesa, Dealer of Death (Grixis)",
+    "cards": 3
+   }
+  ],
+  "Card advantage: Burst draw (instants & sorceries)": [
+   {
+    "deck": "decks/niv-mizzet-parun.md",
+    "label": "Niv-Mizzet, Parun",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/bjorna-nightfall-alchemist-cecily.md",
+    "label": "Bjorna, Nightfall Alchemist (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/doctor-doom-king-of-latveria.md",
+    "label": "Doctor Doom, King of Latveria (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "decks/talrand-sky-summoner.md",
+    "label": "Talrand, Sky Summoner",
+    "cards": 4
+   },
+   {
+    "deck": "decks/kykar-winds-fury.md",
+    "label": "Kykar, Wind's Fury",
+    "cards": 3
+   },
+   {
+    "deck": "decks/teysa-karlov.md",
+    "label": "Teysa Karlov",
+    "cards": 3
+   },
+   {
+    "deck": "decks/yidris-maelstrom-wielder.md",
+    "label": "Yidris, Maelstrom Wielder",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/edea-possessed-sorceress.md",
+    "label": "Edea, Possessed Sorceress (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/fire-lord-azula.md",
+    "label": "Fire Lord Azula (Grixis)",
+    "cards": 3
+   }
+  ],
+  "Card advantage: Impulse / exile-to-play": [
+   {
+    "deck": "decks/prosper-tome-bound.md",
+    "label": "Prosper, Tome-Bound",
+    "cards": 15
+   },
+   {
+    "deck": "grixis/decks/don-andres-the-renegade.md",
+    "label": "Don Andres, the Renegade (Grixis)",
+    "cards": 12
+   },
+   {
+    "deck": "grixis/decks/nathan-drake-treasure-hunter.md",
+    "label": "Nathan Drake, Treasure Hunter (Grixis)",
+    "cards": 11
+   },
+   {
+    "deck": "grixis/decks/edward-kenway.md",
+    "label": "Edward Kenway (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/abaddon-the-despoiler.md",
+    "label": "Abaddon the Despoiler (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/admiral-beckett-brass.md",
+    "label": "Admiral Beckett Brass (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/admiral-brass-unsinkable.md",
+    "label": "Admiral Brass, Unsinkable (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/goro-goro-and-satoru.md",
+    "label": "Goro-Goro and Satoru (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "decks/plane-kamigawa-isshin-two-heavens-as-one.md",
+    "label": "Isshin, Two Heavens as One (Kamigawa-only)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/fire-lord-azula.md",
+    "label": "Fire Lord Azula (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/jeleva-nephalias-scourge.md",
+    "label": "Jeleva, Nephalia's Scourge (Grixis)",
+    "cards": 3
+   }
+  ],
+  "Aristocrats: Free sacrifice outlets": [
+   {
+    "deck": "grixis/decks/marchesa-the-black-rose.md",
+    "label": "Marchesa, the Black Rose (Grixis)",
+    "cards": 7
+   },
+   {
+    "deck": "decks/teysa-karlov.md",
+    "label": "Teysa Karlov",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/edea-possessed-sorceress.md",
+    "label": "Edea, Possessed Sorceress (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/lord-of-tresserhorn.md",
+    "label": "Lord of Tresserhorn (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/missy.md",
+    "label": "Missy (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "decks/karador-ghost-chieftain.md",
+    "label": "Karador, Ghost Chieftain",
+    "cards": 3
+   },
+   {
+    "deck": "decks/korvold-fae-cursed-king.md",
+    "label": "Korvold, Fae-Cursed King",
+    "cards": 3
+   }
+  ],
+  "Aristocrats: Death-trigger drain payoffs": [
+   {
+    "deck": "decks/teysa-karlov.md",
+    "label": "Teysa Karlov",
+    "cards": 4
+   }
+  ],
+  "Aristocrats: Fodder makers (multiple creature tokens)": [
+   {
+    "deck": "decks/krenko-mob-boss.md",
+    "label": "Krenko, Mob Boss",
+    "cards": 9
+   },
+   {
+    "deck": "decks/breya-etherium-shaper.md",
+    "label": "Breya, Etherium Shaper",
+    "cards": 4
+   },
+   {
+    "deck": "decks/plane-eldraine-syr-konrad-the-grim.md",
+    "label": "Syr Konrad, the Grim (Eldraine-only)",
+    "cards": 3
+   },
+   {
+    "deck": "decks/plane-new-phyrexia-elesh-norn-mother-of-machines.md",
+    "label": "Elesh Norn, Mother of Machines (New-only)",
+    "cards": 3
+   },
+   {
+    "deck": "decks/teysa-karlov.md",
+    "label": "Teysa Karlov",
+    "cards": 3
+   },
+   {
+    "deck": "decks/trostani-selesnyas-voice.md",
+    "label": "Trostani, Selesnya's Voice",
+    "cards": 3
+   }
+  ],
+  "+1/+1 counters: Counter doublers": [
+   {
+    "deck": "decks/animar-soul-of-elements.md",
+    "label": "Animar, Soul of Elements",
+    "cards": 4
+   }
+  ],
+  "+1/+1 counters: Proliferate": [
+   {
+    "deck": "decks/atraxa-praetors-voice.md",
+    "label": "Atraxa, Praetors' Voice",
+    "cards": 24
+   },
+   {
+    "deck": "decks/theme-atraxa-praetors-voice-planeswalkers.md",
+    "label": "Atraxa, Praetors' Voice (planeswalkers theme)",
+    "cards": 12
+   }
+  ],
+  "+1/+1 counters: Counter payoffs": [],
+  "Spellslinger: Instant/sorcery cost reducers": [
+   {
+    "deck": "decks/talrand-sky-summoner.md",
+    "label": "Talrand, Sky Summoner",
+    "cards": 4
+   },
+   {
+    "deck": "decks/niv-mizzet-parun.md",
+    "label": "Niv-Mizzet, Parun",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/anhelo-the-painter.md",
+    "label": "Anhelo, the Painter (Grixis)",
+    "cards": 3
+   }
+  ],
+  "Spellslinger: Spell copiers": [
+   {
+    "deck": "grixis/decks/anhelo-the-painter.md",
+    "label": "Anhelo, the Painter (Grixis)",
+    "cards": 4
+   }
+  ],
+  "Spellslinger: Cast-trigger payoffs": [
+   {
+    "deck": "decks/feather-the-redeemed.md",
+    "label": "Feather, the Redeemed",
+    "cards": 14
+   },
+   {
+    "deck": "decks/kykar-winds-fury.md",
+    "label": "Kykar, Wind's Fury",
+    "cards": 14
+   },
+   {
+    "deck": "decks/niv-mizzet-parun.md",
+    "label": "Niv-Mizzet, Parun",
+    "cards": 10
+   },
+   {
+    "deck": "grixis/decks/anhelo-the-painter.md",
+    "label": "Anhelo, the Painter (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/abaddon-the-despoiler.md",
+    "label": "Abaddon the Despoiler (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "decks/talrand-sky-summoner.md",
+    "label": "Talrand, Sky Summoner",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/bjorna-nightfall-alchemist-cecily.md",
+    "label": "Bjorna, Nightfall Alchemist (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "decks/plane-ravnica-aurelia-the-warleader.md",
+    "label": "Aurelia, the Warleader (Ravnica-only)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/kefka-court-mage.md",
+    "label": "Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/kess-dissident-mage.md",
+    "label": "Kess, Dissident Mage (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/mai-and-zuko.md",
+    "label": "Mai and Zuko (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/marchesa-dealer-of-death.md",
+    "label": "Marchesa, Dealer of Death (Grixis)",
+    "cards": 3
+   }
+  ],
+  "Graveyard: Self-mill": [
+   {
+    "deck": "decks/theme-muldrotha-the-gravetide-self-mill.md",
+    "label": "Muldrotha, the Gravetide (self mill theme)",
+    "cards": 14
+   },
+   {
+    "deck": "decks/muldrotha-the-gravetide.md",
+    "label": "Muldrotha, the Gravetide",
+    "cards": 11
+   },
+   {
+    "deck": "decks/karador-ghost-chieftain.md",
+    "label": "Karador, Ghost Chieftain",
+    "cards": 8
+   }
+  ],
+  "Graveyard: Reanimation": [
+   {
+    "deck": "decks/karador-ghost-chieftain.md",
+    "label": "Karador, Ghost Chieftain",
+    "cards": 5
+   },
+   {
+    "deck": "decks/krrik-son-of-yawgmoth.md",
+    "label": "K'rrik, Son of Yawgmoth",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/belakor-the-dark-master.md",
+    "label": "Be'lakor, the Dark Master (Grixis)",
+    "cards": 3
+   }
+  ],
+  "Graveyard: Recursion to hand": [
+   {
+    "deck": "decks/theme-muldrotha-the-gravetide-self-mill.md",
+    "label": "Muldrotha, the Gravetide (self mill theme)",
+    "cards": 4
+   },
+   {
+    "deck": "decks/karador-ghost-chieftain.md",
+    "label": "Karador, Ghost Chieftain",
+    "cards": 3
+   }
+  ],
+  "Tokens: Token doublers": [
+   {
+    "deck": "decks/trostani-selesnyas-voice.md",
+    "label": "Trostani, Selesnya's Voice",
+    "cards": 3
+   }
+  ],
+  "Tokens: Anthems": [
+   {
+    "deck": "decks/edgar-markov.md",
+    "label": "Edgar Markov",
+    "cards": 3
+   },
+   {
+    "deck": "decks/giada-font-of-hope.md",
+    "label": "Giada, Font of Hope",
+    "cards": 3
+   },
+   {
+    "deck": "decks/kozilek-the-great-distortion.md",
+    "label": "Kozilek, the Great Distortion",
+    "cards": 3
+   },
+   {
+    "deck": "decks/theme-edgar-markov-lifegain.md",
+    "label": "Edgar Markov (lifegain theme)",
+    "cards": 3
+   }
+  ],
+  "Tokens: Mass pump finishers": [],
+  "Blink: Blink effects": [],
+  "Blink: ETB doublers": [
+   {
+    "deck": "decks/brago-king-eternal.md",
+    "label": "Brago, King Eternal",
+    "cards": 3
+   }
+  ],
+  "Lands / landfall: Extra land drops": [
+   {
+    "deck": "decks/tatyova-benthic-druid.md",
+    "label": "Tatyova, Benthic Druid",
+    "cards": 10
+   },
+   {
+    "deck": "decks/kynaios-and-tiro-of-meletis.md",
+    "label": "Kynaios and Tiro of Meletis",
+    "cards": 3
+   },
+   {
+    "deck": "decks/plane-zendikar-omnath-locus-of-rage.md",
+    "label": "Omnath, Locus of Rage (Zendikar-only)",
+    "cards": 3
+   }
+  ],
+  "Lands / landfall: Landfall payoffs": [
+   {
+    "deck": "decks/plane-zendikar-omnath-locus-of-rage.md",
+    "label": "Omnath, Locus of Rage (Zendikar-only)",
+    "cards": 20
+   },
+   {
+    "deck": "decks/theme-chulane-teller-of-tales-landfall.md",
+    "label": "Chulane, Teller of Tales (landfall theme)",
+    "cards": 17
+   },
+   {
+    "deck": "decks/tatyova-benthic-druid.md",
+    "label": "Tatyova, Benthic Druid",
+    "cards": 15
+   },
+   {
+    "deck": "decks/chulane-teller-of-tales.md",
+    "label": "Chulane, Teller of Tales",
+    "cards": 7
+   },
+   {
+    "deck": "decks/theme-muldrotha-the-gravetide-self-mill.md",
+    "label": "Muldrotha, the Gravetide (self mill theme)",
+    "cards": 3
+   }
+  ],
+  "Lands / landfall: Lands from graveyard": [
+   {
+    "deck": "decks/tatyova-benthic-druid.md",
+    "label": "Tatyova, Benthic Druid",
+    "cards": 6
+   },
+   {
+    "deck": "decks/karador-ghost-chieftain.md",
+    "label": "Karador, Ghost Chieftain",
+    "cards": 4
+   },
+   {
+    "deck": "decks/muldrotha-the-gravetide.md",
+    "label": "Muldrotha, the Gravetide",
+    "cards": 3
+   },
+   {
+    "deck": "decks/theme-muldrotha-the-gravetide-self-mill.md",
+    "label": "Muldrotha, the Gravetide (self mill theme)",
+    "cards": 3
+   }
+  ],
+  "Artifacts: Artifact payoffs": [
+   {
+    "deck": "grixis/decks/ashad-the-lone-cyberman.md",
+    "label": "Ashad, the Lone Cyberman (Grixis)",
+    "cards": 7
+   },
+   {
+    "deck": "decks/breya-etherium-shaper.md",
+    "label": "Breya, Etherium Shaper",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/ashnod-the-uncaring.md",
+    "label": "Ashnod the Uncaring (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "decks/prosper-tome-bound.md",
+    "label": "Prosper, Tome-Bound",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/dr-eggman.md",
+    "label": "Dr. Eggman (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/mishra-artificer-prodigy.md",
+    "label": "Mishra, Artificer Prodigy (Grixis)",
+    "cards": 3
+   }
+  ],
+  "Artifacts: Artifact cost reducers": [
+   {
+    "deck": "decks/breya-etherium-shaper.md",
+    "label": "Breya, Etherium Shaper",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/ashad-the-lone-cyberman.md",
+    "label": "Ashad, the Lone Cyberman (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/ashnod-the-uncaring.md",
+    "label": "Ashnod the Uncaring (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/cult-of-skaro.md",
+    "label": "Cult of Skaro (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/mai-and-zuko.md",
+    "label": "Mai and Zuko (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/mishra-artificer-prodigy.md",
+    "label": "Mishra, Artificer Prodigy (Grixis)",
+    "cards": 3
+   }
+  ],
+  "Enchantress: Enchantress draw": [],
+  "Voltron (equipment & auras): Protective equipment/auras": [
+   {
+    "deck": "grixis/decks/garza-zol-plague-queen.md",
+    "label": "Garza Zol, Plague Queen (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "decks/zur-the-enchanter.md",
+    "label": "Zur the Enchanter",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/crosis-the-purger.md",
+    "label": "Crosis, the Purger (Grixis)",
+    "cards": 3
+   }
+  ],
+  "Voltron (equipment & auras): Evasion & double strike": [
+   {
+    "deck": "decks/yidris-maelstrom-wielder.md",
+    "label": "Yidris, Maelstrom Wielder",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/garza-zol-plague-queen.md",
+    "label": "Garza Zol, Plague Queen (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "decks/plane-theros-uro-titan-of-natures-wrath.md",
+    "label": "Uro, Titan of Nature's Wrath (Theros-only)",
+    "cards": 3
+   }
+  ],
+  "Treasure: Repeatable Treasure makers": [
+   {
+    "deck": "grixis/decks/edward-kenway.md",
+    "label": "Edward Kenway (Grixis)",
+    "cards": 10
+   },
+   {
+    "deck": "decks/korvold-fae-cursed-king.md",
+    "label": "Korvold, Fae-Cursed King",
+    "cards": 8
+   },
+   {
+    "deck": "decks/prosper-tome-bound.md",
+    "label": "Prosper, Tome-Bound",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/admiral-brass-unsinkable.md",
+    "label": "Admiral Brass, Unsinkable (Grixis)",
+    "cards": 7
+   },
+   {
+    "deck": "grixis/decks/admiral-beckett-brass.md",
+    "label": "Admiral Beckett Brass (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/don-andres-the-renegade.md",
+    "label": "Don Andres, the Renegade (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/nathan-drake-treasure-hunter.md",
+    "label": "Nathan Drake, Treasure Hunter (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/goro-goro-and-satoru.md",
+    "label": "Goro-Goro and Satoru (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "decks/the-ur-dragon.md",
+    "label": "The Ur-Dragon",
+    "cards": 3
+   }
+  ]
+ }
+}

@@ -49,6 +49,7 @@ schema: 2
   - *2021-03-19* — Forest is a land type and Dryad is a creature type.
   - *2021-03-19* — If Dryad Arbor is changed into another basic land type, it continues to be a green Dryad creature.
   - *2021-03-19* — If a Dryad Arbor gains flash, or you have the ability to play Dryad Arbor as though it had flash (due to Teferi, Mage of Zhalfir or Scout's Warning, for example), you can ignore the normal timing rules for when during your turn you can play a land, but not any other restrictions. You can't play Dryad Arbor during another player's turn, and you can't play Dryad Arbor if you don't have any land plays remaining.
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/D.md#dryad-arbor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/273/dryad-arbor) · oracle_id `e996cd67-739c-40f4-b276-0042acf26c71` · printing: DSC #273 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad Greenseeker
@@ -97,6 +98,7 @@ schema: 2
   - *2020-01-24* — Dryad of the Ilysian Grove’s first ability is cumulative if you control more than one. It’s also cumulative with other effects that let you play additional lands, such as the one from Escape to the Wilds.
   - *2020-01-24* — Each land you control will have the land types Plains, Island, Swamp, Mountain, and Forest. They’ll also have the mana ability of each basic land type (for example, Forests have “{T}: Add {G}.”). They’ll still have their other subtypes and abilities.
   - *2020-01-24* — Giving a land additional basic land types doesn’t change its name or whether it’s legendary or basic.
+- **Referenced in:** 8 pages (3 decks · 4 edh guides · 1 card data) → [reverse index](../../references/D.md#dryad-of-the-ilysian-grove)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/891/dryad-of-the-ilysian-grove) · oracle_id `bdbde5d0-f5e4-44da-b27c-b4ad6f374cc9` · printing: CMM #891 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad's Caress

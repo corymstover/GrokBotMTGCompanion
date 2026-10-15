@@ -36,6 +36,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #946 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-06-10* — An ability that triggers from the resolution of an activated mana ability is also a mana ability. This means that if the land's ability that caused you to add mana was an activated mana ability, Caged Sun's triggered ability won't use the stack and can't be responded to.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#caged-sun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/178/caged-sun) · oracle_id `09b895ff-e729-48d1-bfc1-ea5fd7adda6a` · printing: CM2 #178 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caged Zombie

@@ -46,6 +46,7 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#miara-thorn-of-the-glade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/51/miara-thorn-of-the-glade) · oracle_id `6895d7a2-264b-4731-9294-c02e1e220384` · printing: KHC #51 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miasma Demon

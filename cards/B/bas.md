@@ -128,6 +128,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #564 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — Basalt Monolith's last ability can untap it as often as you can pay for it. If you believe you've found a way to generate an unbounded amount of mana with it, you're probably right.
+- **Referenced in:** 6 pages (3 decks · 3 edh guides) → [reverse index](../../references/B.md#basalt-monolith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/232/basalt-monolith) · oracle_id `6b8cf2a0-b045-4d91-9d91-c602d40c6237` · printing: 2XM #232 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basalt Ravager
@@ -322,6 +323,7 @@ schema: 2
   - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
   - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#basilica-shepherd)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/4/basilica-shepherd) · oracle_id `929c67aa-49ff-4401-85e8-76990fe1a369` · printing: ONE #4 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basilica Skullbomb
@@ -374,6 +376,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #254 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/B.md#basilisk-collar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/669/basilisk-collar) · oracle_id `f5f4dd28-f4ae-4d39-b9b8-6ebfd63c93fe` · printing: FDN #669 (2024-11-15) · [rulings](https://api.scryfall.com/cards/7b36fba7-71f7-4b7f-bde5-b3a9752ad21c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basilisk Gate
@@ -405,6 +408,7 @@ schema: 2
   - *2024-07-05* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
   - *2024-07-05* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
   - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#basim-ibn-ishaq)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/49/basim-ibn-ishaq) · oracle_id `8a70bde5-c514-4dcf-919a-48bdd1c17768` · printing: ACR #49 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ba Sing Se
@@ -425,6 +429,7 @@ schema: 2
   - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
   - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
   - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#ba-sing-se)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/266/ba-sing-se) · oracle_id `de1ae205-ca5b-4d26-8194-ca85f1406e53` · printing: TLA #266 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basking Broodscale
@@ -446,6 +451,7 @@ schema: 2
   - *2024-06-07* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
   - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
   - *2024-06-07* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/B.md#basking-broodscale)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/145/basking-broodscale) · oracle_id `a7c69802-99c4-4778-934e-cc09ba58c267` · printing: MH3 #145 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basking Capybara
@@ -501,6 +507,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-06-23* — After activating Basri's second ability, a creature that attacks gets a +1/+1 counter before blockers are chosen.
   - *2020-06-23* — Basri's last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +2/+2 or gain flying.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#basri-devoted-paladin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/320/basri-devoted-paladin) · oracle_id `1601e553-31c2-4e04-9f0c-bc17e49eeff7` · printing: M21 #320 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basri Ket
@@ -519,6 +526,7 @@ schema: 2
   - *2020-06-23* — The Soldier token created by Basri's last ability can't attack during the turn you create it unless it gains haste somehow.
   - *2020-06-23* — The delayed triggered ability of Basri's second ability triggers if any nontoken creatures attack, and it counts how many nontoken creatures attacked. Attacking nontoken creatures that leave combat before the triggered ability resolves are counted. Token creatures that are attacking don't stop the ability from triggering and aren't counted.
   - *2020-06-23* — You choose which player or planeswalker each Soldier token is attacking. They don't have to be attacking the same players or planeswalkers that the nontoken creatures are attacking, and they don't have to be attacking the same player or planeswalker as each other.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/B.md#basri-ket)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/7/basri-ket) · oracle_id `497d7ab8-07f1-4c8a-a45a-52b9a4d9400f` · printing: M21 #7 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basri's Acolyte
@@ -595,6 +603,7 @@ schema: 2
 - **Keywords:** Exert, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12598 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#basri-tomorrows-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/3/basri-tomorrows-champion) · oracle_id `d8e1e9ba-708c-4f54-abc3-817004a2f2ac` · printing: DFT #3 (2025-02-14) · [rulings](https://api.scryfall.com/cards/991270fa-a391-4c2e-bd9a-19151386fb67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bassara Tower Archer
@@ -622,6 +631,7 @@ schema: 2
   > *Headquartered at the Bastion of the Honorable, the soldiers of Ghirapur are charged with the task of keeping peace in the city.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29054 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#bastion-enforcer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/303/bastion-enforcer) · oracle_id `87449f64-9500-4967-a073-cde19824e087` · printing: M20 #303 (2019-07-12) · [rulings](https://api.scryfall.com/cards/7cbf17a0-2dbc-4e79-9cfa-ea49b1605105/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bastion Inventor
@@ -659,6 +669,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28479 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-09-20* — Once Bastion Mastodon is tapped and attacking, gaining vigilance won't cause it to become untapped.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#bastion-mastodon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/197/bastion-mastodon) · oracle_id `48a01671-da1f-4875-bcd5-ca99566ff399` · printing: KLD #197 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bastion of Remembrance
@@ -675,6 +686,7 @@ schema: 2
   - *2020-04-17* — If one or more creatures you control die at the same time that Bastion of Remembrance leaves the battlefield, its last ability triggers for each of those creatures.
   - *2020-04-17* — If your life total is brought to 0 or less at the same time that creatures you control are dealt lethal damage, you lose the game before the last ability goes on the stack.
   - *2020-04-17* — In a Two-Headed Giant game, Bastion of Remembrance's last ability causes the opposing team to lose 2 life and you to gain 1 life.
+- **Referenced in:** 8 pages (1 decks · 5 edh guides · 2 card data) → [reverse index](../../references/B.md#bastion-of-remembrance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/160/bastion-of-remembrance) · oracle_id `c7f33cea-2ec8-4081-9208-a5b1d86721b3` · printing: TLE #160 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bastion Protector
@@ -692,6 +704,7 @@ schema: 2
   - *2015-11-04* — A "commander creature" is a permanent that's both someone's commander and a creature.
   - *2015-11-04* — Bastion Protector's ability applies to any commander creature you control, whether you own it or not.
   - *2015-11-04* — Bastion Protector's ability doesn't apply to commanders that aren't currently creatures.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#bastion-protector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/122/bastion-protector) · oracle_id `858f53ef-3fec-4aa0-867d-b7f040614b3c` · printing: MSC #122 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bast, Panther Goddess

@@ -169,6 +169,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8095 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-11-10* — Poetic Ingenuity's last ability resolves before the spell that caused it to trigger. You create a Dinosaur token even if the artifact spell is countered.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#poetic-ingenuity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/161/poetic-ingenuity) · oracle_id `9780d975-acbe-40c6-b444-1e1e6b772788` · printing: LCI #161 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poet's Quill
@@ -219,6 +220,7 @@ schema: 2
   - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
   - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
   - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#point-the-way)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/175/point-the-way) · oracle_id `0ffe9c8b-e0cb-4a29-bc14-649dbec5d1f3` · printing: DFT #175 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Point to the Scoreboard
@@ -315,6 +317,7 @@ schema: 2
   > (A player with ten or more poison counters loses the game.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#poison-counter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tecc/13/poison-counter) · oracle_id `60acebe2-e1e5-478a-ab88-6a9c1409bca5` · printing: TECC #13 (2026-01-23) · [rulings](https://api.scryfall.com/cards/8a9cb417-8709-4336-be36-2fb0cea31fe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poison Dart Frog
@@ -332,6 +335,7 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2261 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#poison-dart-frog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/207/poison-dart-frog) · oracle_id `e88a2b71-c90d-4e16-99a3-93d11fe7a968` · printing: LCI #207 (2023-11-17) · [rulings](https://api.scryfall.com/cards/62c1f09a-9d17-415c-8afa-cd0b62abe48d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poisoner's Apprentice
@@ -360,6 +364,7 @@ schema: 2
   > *"Breath of basilisk, sting of scorpion, or medusa's tears? All may be distilled, for a price."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11304 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#poison-the-blade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/248/poison-the-blade) · oracle_id `8af22295-0d6b-4cdc-b815-eb81ade241ec` · printing: CLB #248 (2022-06-10) · [rulings](https://api.scryfall.com/cards/3de4bf10-a502-4748-9118-5459684542a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poison the Cup
@@ -422,6 +427,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-07-13* — If another creature dies at the same time as Poison-Tip Archer does, each opponent loses 1 life.
   - *2018-07-13* — In a Two-Headed Giant game, Poison-tip Archer's last ability causes the opposing team to lose 2 life.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/P.md#poison-tip-archer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/90/poison-tip-archer) · oracle_id `d0e810bb-5f38-4045-a718-30d423c05659` · printing: KHC #90 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pokey, the Scallywagg
@@ -444,6 +450,7 @@ schema: 2
   - *2024-11-08* — If you really want to, you can apply the effects of both Pokey’s second and third abilities to a coin flip or a d20 roll. For example, if you would flip a coin, you can choose to replace that flip with a d20 roll, and you can choose to replace that d20 roll with a coin flip. (Since you can only apply a replacement effect to a single event once, the nonsense stops there.) In that case, you’d flip a coin. If it’s heads, that would count as 20 for the replaced d20 roll, which would count as heads for the originally replaced coin flip. Great job.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pokey-the-scallywagg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/600/pokey-the-scallywagg) · oracle_id `146fe477-129f-42af-825d-6e524089fd5a` · printing: MB2 #600 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polar Kraken
@@ -628,6 +635,7 @@ schema: 2
   - *2023-09-01* — The value of X is determined only once, as Hare Raising resolves. If the number of creatures you control changes after that time, it won't change the bonus granted.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pollen-shield-hare--hare-raising)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/233/pollen-shield-hare-hare-raising) · oracle_id `3ef02f2b-b611-40c3-a1d5-8b34989643cf` · printing: WOE #233 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polliwallop
@@ -643,6 +651,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8288 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-07-26* — If either creature is an illegal target as Polliwallop resolves, the creature you control won't deal damage.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#polliwallop)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/189/polliwallop) · oracle_id `efd2a4ca-1bd0-4762-a997-f099326b1746` · printing: BLB #189 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polluted Bonds
@@ -710,6 +719,7 @@ schema: 2
   > *A warped gateway that seeps toxins and malevolence into the waters around Towashi.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #36 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 54 pages (48 decks · 4 edh guides · 2 card data) → [reverse index](../../references/P.md#polluted-delta)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/224/polluted-delta) · oracle_id `ef86989d-ce80-4e55-aece-7d11710eeffa` · printing: MH3 #224 (2024-06-14) · [rulings](https://api.scryfall.com/cards/6e288374-2b71-4ace-b1d2-a19fee6cb4af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polluted Mire
@@ -744,6 +754,7 @@ schema: 2
   - *2024-07-26* — When comparing the stats as the evolve ability resolves, it's possible that the stat that's greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you'll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature you control enters , its toughness is greater, so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You'll put a +1/+1 counter on the creature with evolve.
   - *2024-07-26* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
   - *2024-07-26* — Whenever a creature you control enters check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won't trigger at all.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#pollywog-prodigy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/15/pollywog-prodigy) · oracle_id `99a3cea9-f4ab-4da3-a085-c09dc93fc8cb` · printing: BLC #15 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pollywog Symbiote
@@ -782,6 +793,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14161 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-04-14* — If Polukranos, Engine of Ruin and other nontoken Hydras you control die at the same time, Polukranos’s triggered ability will trigger once for itself and once for each of those other Hydras.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#polukranos-reborn--polukranos-engine-of-ruin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/200/polukranos-reborn-polukranos-engine-of-ruin) · oracle_id `7a9fa906-b43e-4d98-b134-5936d3085851` · printing: MOM #200 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polukranos, Unchained
@@ -851,6 +863,7 @@ schema: 2
   - *2024-06-07* — The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, the controller of the planeswalker the creature was attacking at the time it became an attacking creature this combat, or the protector of the battle this creature was attacking at the time it became an attacking creature this combat.
   - *2024-06-07* — The token creatures all enter the battlefield at the same time.
   - *2024-06-07* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#polygoyf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/65/polygoyf) · oracle_id `6021f2e3-f915-428c-8289-2aa675b5bc78` · printing: M3C #65 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polygraph Orb
@@ -944,6 +957,7 @@ schema: 2
   - *2018-01-19* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
   - *2018-01-19* — The token will have Polyraptor's ability. It will also be able to create copies of itself.
   - *2018-01-19* — The token won't copy counters or damage marked on Polyraptor, nor will it copy other effects that have changed Polyraptor's power, toughness, types, color, or so on. Normally, this means the token will simply be a Polyraptor. But if any copy effects have affected that Polyraptor, they're taken into account.
+- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 card data) → [reverse index](../../references/P.md#polyraptor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/144/polyraptor) · oracle_id `e47e3a40-f51f-41ed-8e7c-06200a2abc22` · printing: RIX #144 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pompous Battlemage // Improvised Act
@@ -1003,6 +1017,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #146 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — If you choose to shuffle your library, that includes the three cards you just looked at and put back on top of it.
+- **Referenced in:** 13 pages (8 decks · 3 edh guides · 2 card data) → [reverse index](../../references/P.md#ponder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/159/ponder) · oracle_id `02090581-61aa-4348-ad57-451be8ee91c2` · printing: TDC #159 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pondering Mage
@@ -1042,6 +1057,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #155 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — If the target creature is an illegal target by the time Pongify tries to resolve, the spell won't resolve. No player creates an Ape token. If the target is legal but not destroyed (most likely because it has indestructible), its controller does create an Ape token.
+- **Referenced in:** 9 pages (4 decks · 3 edh guides · 2 card data) → [reverse index](../../references/P.md#pongify)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/160/pongify) · oracle_id `05849bd6-8f38-4031-be2b-e2aa03beb8cc` · printing: TDC #160 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pontiff of Blight
@@ -1059,6 +1075,7 @@ schema: 2
   - *2024-01-12* — The extort ability doesn't target any player.
   - *2024-01-12* — The extort ability resolves before the spell that caused it to trigger. The ability resolves even if that spell is countered.
   - *2024-01-12* — You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#pontiff-of-blight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/768/pontiff-of-blight) · oracle_id `f5a95092-fb71-4b55-bc54-782bd1c603e1` · printing: CLB #768 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ponyback Brigade
@@ -1119,6 +1136,7 @@ schema: 2
   - *2021-09-24* — Decayed does not grant haste. Creatures with decayed that enter the battlefield during your turn may not attack until your next turn.
   - *2021-09-24* — Decayed represents a static ability and a triggered ability. "Decayed" means "This creature can't block" and "When this creature attacks, sacrifice it at end of combat."
   - *2021-09-24* — Once a creature with decayed attacks, it will be sacrificed at end of combat, even if it no longer has decayed at that time.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#poppet-stitcher--poppet-factory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/71/poppet-stitcher-poppet-factory) · oracle_id `bc2d0702-b140-4b78-8a8f-3a6d19073b59` · printing: MID #71 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pop Quiz
@@ -1176,6 +1194,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#popular-entertainer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/192/popular-entertainer) · oracle_id `702d7b7b-7935-4cb2-9cd7-06f638f5405f` · printing: CLB #192 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Porcelain Legionnaire
@@ -1210,6 +1229,7 @@ schema: 2
   > *"There is a single, glorious truth, etched in the hearts of the faithful. Join in unity, or be washed away."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19261 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#porcelain-zealot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/30/porcelain-zealot) · oracle_id `4c11bda3-903f-4b7c-9e5e-f6c5c91977cf` · printing: ONE #30 (2023-02-10) · [rulings](https://api.scryfall.com/cards/0409bacf-b728-473d-bf9b-41fdf364e783/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Porcuparrot
@@ -1333,6 +1353,7 @@ schema: 2
   > *After five thousand years, the nightmare returned.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1071 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 lore & story) → [reverse index](../../references/P.md#portal-to-phyrexia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/240/portal-to-phyrexia) · oracle_id `301d1d8e-d3fc-4010-8b29-4724fa0b31cd` · printing: BRO #240 (2022-11-18) · [rulings](https://api.scryfall.com/cards/5f608efc-0dbc-4cc3-aadd-ed473bfc29ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portcullis
@@ -1376,6 +1397,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4191 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — This does not cause a player to lose if they have less than 3 cards in their library. It allows you to look at and reorder or shuffle whatever remaining cards there might be.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#portent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/74/portent) · oracle_id `e744dbb6-2d56-462a-8d49-d79c73944048` · printing: DSC #74 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portent of Betrayal
@@ -1408,6 +1430,7 @@ schema: 2
   - *2024-07-26* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2024-07-26* — The card types that can appear on cards you reveal with Portent of Calamity are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types. Raccoon and Scout are subtypes, not card types.
   - *2024-07-26* — You choose which spell to cast (if any) as Portent of Calamity resolves. If you choose to cast a spell this way, you do so as part of the resolution of Portent of Calamity. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s types are ignored.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#portent-of-calamity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/66/portent-of-calamity) · oracle_id `0d49187a-1c37-4c3a-afc2-fac2bbc6b29a` · printing: BLB #66 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portent Tracker
@@ -1466,6 +1489,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Port Razer doesn't have to attack in any additional combat it creates (or any other time for that matter).
   - *2024-04-12* — Port Razer's last ability doesn't stop it from attacking a planeswalker or battle during any combat.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/P.md#port-razer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/230/port-razer) · oracle_id `653e4b68-3184-4352-ac91-127f7e6d7c12` · printing: LCC #230 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Port Town
@@ -1484,6 +1508,7 @@ schema: 2
   - *2016-04-08* — If an effect instructs you to put Port Town onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
   - *2016-04-08* — Lands don't have a subtype just because they can produce mana of the corresponding color. Port Town itself is neither a Plains nor an Island, even though it produces white and blue mana, so you can't reveal one to satisfy the ability of another.
   - *2016-04-08* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land. For example, you could reveal Canopy Vista from the Battle for Zendikar set to satisfy the ability of Port Town.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/P.md#port-town)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/256/port-town) · oracle_id `458d2b12-f578-4392-98d3-c3bc83f316c4` · printing: MSC #256 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Possessed Aven
@@ -1590,6 +1615,7 @@ schema: 2
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10130 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#possession-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/54/possession-engine) · oracle_id `ab7c0256-eea9-4e0d-932d-c25460eed836` · printing: DFT #54 (2025-02-14) · [rulings](https://api.scryfall.com/cards/f206b0a1-50d8-4d53-850d-fb15fd328267/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Possibility Storm
@@ -1606,6 +1632,7 @@ schema: 2
   - *2013-04-15* — If you cast a spell without paying its mana cost, you can't choose to cast it for any alternative costs, such as overload costs. You can pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, you must pay those.
   - *2013-04-15* — Instant and sorcery cards with miracle allow a player to cast a card immediately upon drawing it. If a player casts a spell this way, the spell is cast from that player's hand. Possibility Storm will trigger.
   - *2013-04-15* — The original spell is part of the group of exiled cards put on the bottom of the library in a random order. If the exiled card that shared a card type with that card wasn't cast, it's also part of this group.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#possibility-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/34/possibility-storm) · oracle_id `8586169f-cb8c-4424-ba64-a7c1cc00680e` · printing: DGM #34 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Possibility Technician
@@ -1829,6 +1856,7 @@ schema: 2
 - **Keywords:** Mutate, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7070 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pouncing-shoreshark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/64/pouncing-shoreshark) · oracle_id `38630f89-bc22-49b2-b97e-d31a5169decc` · printing: IKO #64 (2020-04-24) · [rulings](https://api.scryfall.com/cards/c859b339-b55b-41fe-948c-27502e3b3ea8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pouncing Wurm
@@ -1912,6 +1940,7 @@ schema: 2
   - *2004-10-04* — Only affects the generic mana part of activation costs. Colored parts of mana costs are not affected.
   - *2006-07-15* — Can't reduce Snow mana costs.
   - *2016-06-08* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#power-artifact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/57/power-artifact) · oracle_id `9a8c8d52-1701-4ae0-9d2d-cce4e476673b` · printing: ME4 #57 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Powerbalance
@@ -1957,6 +1986,7 @@ schema: 2
   > *Never content, vedalken artificers continually tinker with their creations.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3137 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#power-conduit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/376/power-conduit) · oracle_id `2e358f7e-c282-4b92-8255-1436c99cda49` · printing: NCC #376 (2022-04-29) · [rulings](https://api.scryfall.com/cards/b4634637-ba33-4849-b647-d33018a02f39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Depot
@@ -1975,6 +2005,7 @@ schema: 2
   - *2021-06-18* — Power Depot is a land, so it can only be played as a land. It cannot be cast as a spell.
   - *2021-06-18* — The mana produced by the last activated ability can't be spent to activate abilities of artifact cards in other zones, such as cycling or unearth costs.
   - *2021-06-18* — Yes, this land enters the battlefield with a +1/+1 counter, which does nothing while it's a land. When it's put into the graveyard from the battlefield, you may put its +1/+1 counters onto target artifact creature, no matter what Power Depot's card types are at the time.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/P.md#power-depot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/251/power-depot) · oracle_id `64687880-03f9-4f38-985b-1027c797e33f` · printing: MH2 #251 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Fist
@@ -2133,6 +2164,7 @@ schema: 2
   - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
   - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/P.md#power-play)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/8/power-play) · oracle_id `15710c57-369a-442b-b7ea-175f3d9d164d` · printing: CNS #8 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Sink
@@ -2146,6 +2178,7 @@ schema: 2
   - *2004-10-04* — Does not increase the mana cost of the spell. It just requires a separate expenditure in order for it to succeed.
   - *2004-10-04* — When this spell resolves, you either pay X mana or let your lands become tapped. The lands that become tapped are not “tapped for mana”. If you choose to pay, you may pay the X mana using whatever mana abilities you want to use.
   - *2010-03-01* — Only lands that actually have mana abilities will get tapped. This includes basic lands and lands with mana abilities printed on them, as well as lands which have been granted a mana ability by some effect.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#power-sink)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/88/power-sink) · oracle_id `39412e6d-2837-4729-abf9-e64a5ba87e40` · printing: VMA #88 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Powerstone Engineer
@@ -2203,6 +2236,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15615 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-04-27* — Powerstone Shard’s activated ability is a mana ability. It doesn’t use the stack and can’t be responded to.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#powerstone-shard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/227/powerstone-shard) · oracle_id `769c45ae-5d49-4815-944e-98790ad4efb0` · printing: DOM #227 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Surge
@@ -2254,6 +2288,7 @@ schema: 2
   - *2007-09-16* — Each part of Pox's effect is processed separately. For each part, first the player whose turn it is makes all necessary choices (such as which cards to discard), then each other player in turn order chooses, then the actions happen at the same time. Then Pox's effect moves to the next stage.
   - *2007-09-16* — The losses, discards, and sacrifices are rounded up. For example, if you have 5 life, you'll lose 2 life, leaving you at 3 life. (Five divided by three is one and two-thirds. Rounding that up to the nearest whole number gives you two.)
   - *2007-09-16* — The number you need to lose, discard, or sacrifice isn't calculated until it's time to perform that part of the effect. For example, if your opponent casts Pox and you discard Dodecapod as part of Pox's discard effect, Dodecapod will be put onto the battlefield instead of into your graveyard. Then, when determining how many creatures you need to sacrifice, the Dodecapod is taken into account.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pox)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/82/pox) · oracle_id `539d7c1a-b5e9-4204-9109-ddb2e8dec168` · printing: ME1 #82 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pox Plague

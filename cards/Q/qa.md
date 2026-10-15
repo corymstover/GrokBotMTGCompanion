@@ -121,6 +121,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2336 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-04-04* — If a card with a renew ability is put into your graveyard during your turn, you can activate that ability if it’s legal to do so before any other player can take any actions.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#qarsi-revenant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/86/qarsi-revenant) · oracle_id `bbea79bc-71d4-4100-92f4-783c2c4b46da` · printing: TDM #86 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qarsi Sadist
@@ -179,6 +180,7 @@ schema: 2
   - *2021-03-19* — If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger.
   - *2021-03-19* — Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
   - *2021-03-19* — You must attack with exactly one creature for exalted abilities to trigger. Exalted abilities won't trigger if you attack a player with one creature and a planeswalker with another, for example, or if you attack with two creatures but one is removed from combat.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/Q.md#qasali-pridemage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/267/qasali-pridemage) · oracle_id `10821e37-8a83-4d8e-a12f-249a10933a22` · printing: 2X2 #267 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qasali Slingers
@@ -195,4 +197,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5649 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-08-25* — If Qasali Slingers enters the battlefield at the same time as other Cats you control, its ability will trigger for each of those Cats.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#qasali-slingers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/33/qasali-slingers) · oracle_id `f763d118-3183-4604-a50c-7c3933e2185e` · printing: C17 #33 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

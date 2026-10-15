@@ -145,6 +145,7 @@ schema: 2
   > *The elves of the Llanowar forest have defended it for generations. It is their sacred duty to keep outside influences from corrupting their ancestral home.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #56 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 14 pages (9 decks · 3 edh guides · 2 card data) → [reverse index](../../references/L.md#llanowar-elves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/227/llanowar-elves) · oracle_id `68954295-54e3-4303-a6bc-fc4547a4e3a3` · printing: FDN #227 (2024-11-15) · [rulings](https://api.scryfall.com/cards/6a0b230b-d391-4998-a3f7-7b158a0ec2cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Empath
@@ -215,6 +216,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3950 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-09-09* — Llanowar Loamspeaker's second ability doesn't untap the land that becomes a creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#llanowar-loamspeaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/170/llanowar-loamspeaker) · oracle_id `08377424-619e-48ae-bc3c-fb199cd77cf9` · printing: DMU #170 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Mentor
@@ -229,6 +231,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13190 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — Unlike the card Llanowar Elves, the token has no mana cost. Its mana value is 0.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#llanowar-mentor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/216/llanowar-mentor) · oracle_id `bc7b6508-6522-4772-93b0-3985e7e75048` · printing: TSR #216 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Reborn
@@ -243,6 +246,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2422 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2007-05-01* — The +1/+1 counter won't affect Llanowar Reborn in any way unless another effect turns it into a creature.
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/L.md#llanowar-reborn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/341/llanowar-reborn) · oracle_id `92acb789-0e42-465c-ac16-40fefec48805` · printing: LCC #341 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Scout
@@ -257,6 +261,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6297 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-04-27* — Llanowar Scout’s effect doesn’t count as playing a land. It can put a land card onto the battlefield even if you’ve already played as many lands as able this turn or if it’s not your turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#llanowar-scout)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/170/llanowar-scout) · oracle_id `3bdc9211-8eff-4b30-8d6f-d26f4087f77f` · printing: DOM #170 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Sentinel
@@ -299,6 +304,7 @@ schema: 2
   > *"Llanowar remembers the Ice Age, the Phyrexian Invasion, and the Rift Era. So long as we draw breath, we will ensure such disasters never threaten our world again."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2214 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#llanowar-tribe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/66/llanowar-tribe) · oracle_id `cfd0f0e6-1bbf-4450-97d2-c54907abb7e4` · printing: KHC #66 (2021-02-05) · [rulings](https://api.scryfall.com/cards/407c1b95-dc0c-4154-a441-fe25537df45c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Vanguard
@@ -342,6 +348,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
   - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
+- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 card data) → [reverse index](../../references/L.md#llanowar-wastes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/383/llanowar-wastes) · oracle_id `32116127-cf96-4a1b-8896-a1ebc087b597` · printing: SOC #383 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llawan, Cephalid Empress
@@ -383,6 +390,7 @@ schema: 2
   - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
   - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
   - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/L.md#lluwen-exchange-student--pest-friend)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/199/lluwen-exchange-student-pest-friend) · oracle_id `cb125cd4-c7c2-415d-b802-bdcfc2454403` · printing: SOS #199 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lluwen, Imperfect Naturalist
@@ -398,4 +406,5 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9016 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/L.md#lluwen-imperfect-naturalist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/232/lluwen-imperfect-naturalist) · oracle_id `81ff5764-72ce-4b9a-a14f-07413700d935` · printing: ECL #232 (2026-01-23) · [rulings](https://api.scryfall.com/cards/127a30a6-c25a-448a-a242-dc04f273a854/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

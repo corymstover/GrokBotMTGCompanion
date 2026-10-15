@@ -73,6 +73,7 @@ schema: 2
   - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it’s a 1/1 (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
   - *2024-07-26* — The token created by the offspring ability isn’t “cast”, so abilities that trigger when a creature spell is cast won’t trigger for the copy.
   - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can’t try to pay it multiple times to get more token copies.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#splash-lasher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/73/splash-lasher) · oracle_id `0d0c4c91-683a-4563-a0b0-39f3c04f6307` · printing: BLB #73 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splash Portal
@@ -185,6 +186,7 @@ schema: 2
   > *Gabriel Garciá Márquez*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#splendid-genesis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcel/4/splendid-genesis) · oracle_id `723db8aa-d1c9-409c-8187-69e0e31ea9c0` · printing: PCEL #4 (1997-09-01) · [rulings](https://api.scryfall.com/cards/f62e8120-7aca-49c2-91b2-2622e27cf281/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splendid Reclamation
@@ -199,6 +201,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #877 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — If an effect states that a land enters the battlefield tapped unless a condition is met, Splendid Reclamation's effect puts that land onto the battlefield tapped even if that condition is true. For example, you may reveal a Plains as Port Town (from the Shadows over Innistrad set) is returned to the battlefield, but Port Town will still enter tapped.
+- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 card data) → [reverse index](../../references/S.md#splendid-reclamation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/108/splendid-reclamation) · oracle_id `13fe5e46-77a6-45d8-ac0b-c3d740eccf86` · printing: EOC #108 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splendor Mare
@@ -355,6 +358,7 @@ schema: 2
   - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
   - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
   - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#splinters-technique)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/80/splinters-technique) · oracle_id `532ee9c3-391c-44db-8ed5-a1d28fd7f876` · printing: TMT #80 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splinter, the Mentor
@@ -380,6 +384,7 @@ schema: 2
   - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
   - *2026-01-27* — To have two commanders, both must have appropriate partner abilities as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2026-01-27* — You can have two commanders if each one has "Partner—Character select." You can't mix and match them with cards that have other partner abilities.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#splinter-the-mentor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/3/splinter-the-mentor) · oracle_id `fdcb016e-36e7-46b3-9dff-20b9b9cc421d` · printing: TMC #3 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splinter Twin
@@ -406,6 +411,7 @@ schema: 2
   - *2010-06-15* — The token that's put onto the battlefield copies exactly what's printed on the enchanted creature (unless that creature is copying something else or it's a token; see below), plus it has haste. It doesn't copy whether the enchanted creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or whether it's been affected by any noncopy effects that changed its power, toughness, types, color, or so on. In particular, it doesn't copy the ability granted to the enchanted creature by Splinter Twin.
   - *2010-06-15* — The token will not be kicked, even if the creature it's copying was.
   - *2013-07-01* — If the enchanted creature is legendary, you will have to put either the original creature or the token into the graveyard as a state-based action.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#splinter-twin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/129/splinter-twin) · oracle_id `2df3187b-4b91-4de9-9b26-d48a30700cec` · printing: MM2 #129 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Split Decision
@@ -552,6 +558,7 @@ schema: 2
   - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
   - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#splitting-the-powerstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/63/splitting-the-powerstone) · oracle_id `178828a5-c202-4503-9755-fc6bb2390209` · printing: BRO #63 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Split Up

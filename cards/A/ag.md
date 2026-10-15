@@ -140,6 +140,7 @@ schema: 2
   > • Return target artifact or creature card with mana value 3 or less from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9912 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#against-all-odds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/1/against-all-odds) · oracle_id `f4a73cde-58bf-4719-8eb0-e039fdde4f62` · printing: ONE #1 (2023-02-10) · [rulings](https://api.scryfall.com/cards/3cd8dd4e-6892-49d7-8fae-97d04f9f6c84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agate Assault
@@ -190,6 +191,7 @@ schema: 2
   - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it's a 1/1 (unless that creature is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
   - *2024-07-26* — The token created by the offspring ability isn't "cast", so abilities that trigger when a creature spell is cast won't trigger for the copy.
   - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can't try to pay it multiple times to get more token copies.
+- **Referenced in:** 3 pages (1 rules · 2 card data) → [reverse index](../../references/A.md#agate-instigator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/BLC-21/agate-instigator) · oracle_id `e1a2bd31-b800-47cd-8866-1b849a601b09` · printing: PLST #BLC-21 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agatha of the Vile Cauldron
@@ -204,6 +206,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities and will have colons in their reminder text. Triggered abilities (starting with "when," "whenever," or "at") are unaffected by the cost reduction ability of Agatha of the Vile Cauldron.
   - *2023-09-01* — Agatha of the Vile Cauldron's first ability affects only abilities of creatures you control on the battlefield. The costs of activated abilities of creature cards that work in other zones (such as cycling) won't be reduced.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#agatha-of-the-vile-cauldron)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/199/agatha-of-the-vile-cauldron) · oracle_id `f398d222-f8e7-4983-9a77-267adef7f551` · printing: WOE #199 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agatha's Champion
@@ -238,6 +241,7 @@ schema: 2
   - *2023-09-01* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities and will have colons in their reminder text.
   - *2023-09-01* — Agatha's Soul Cauldron grants only activated abilities. It doesn't grant keyword abilities (unless those keyword abilities are activated), triggered abilities, or static abilities.
   - *2023-09-01* — The granted abilities effectively use "this permanent" rather than "[that card's name]," so you treat the abilities as though they were printed on the creature that gained the ability. For example, say you exiled the card Argothian Sprite with Agatha's Soul Cauldron. Argothian Sprite has the ability "{7}: Put two +1/+1 counters on Argothian Sprite." If you controlled a Callous Sell-Sword with a +1/+1 counter on it, you'd treat it as though it had the ability "{7}: Put two +1/+1 counters on Callous Sell-Sword."
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/A.md#agathas-soul-cauldron)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/242/agathas-soul-cauldron) · oracle_id `c259e16f-2a44-4552-8678-815f757a02e8` · printing: WOE #242 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ageless Entity
@@ -531,6 +535,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#agent-of-the-iron-throne)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/107/agent-of-the-iron-throne) · oracle_id `325032d5-c452-4454-8976-82f86fee5ab8` · printing: CLB #107 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agent of the Shadow Thieves
@@ -554,6 +559,7 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — The ability granted by Agent of the Shadow Thieves is looking to see if any of the attacking player's opponents have a higher life total than that defending player. The attacking player's life total is not included in this comparison.
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#agent-of-the-shadow-thieves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/108/agent-of-the-shadow-thieves) · oracle_id `b2142d8b-ea53-443e-bd60-9e70d9da9bd7` · printing: CLB #108 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agent of Treachery
@@ -573,6 +579,7 @@ schema: 2
   - *2019-07-12* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it. Gaining control of an Aura or Equipment doesn't change what it's currently attached to.
   - *2019-07-12* — If you don't control three permanents you don't own as your end step begins, Agent of Treachery's last ability doesn't trigger. If you no longer control three permanents you don't own as it resolves, you won't draw three cards. Those don't have to be the same three permanents each time.
   - *2019-07-12* — If you gain control of a permanent "until end of turn," that effect will wear off during the cleanup step, after the end step. You'll control that permanent while considering Agent of Treachery's last ability.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/A.md#agent-of-treachery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/43/agent-of-treachery) · oracle_id `4cd82c7a-86df-4d29-b578-c009208c0d4b` · printing: M20 #43 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agent Phil Coulson
@@ -588,6 +595,7 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10487 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#agent-phil-coulson)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/4/agent-phil-coulson) · oracle_id `dae20bcd-dc24-4f9d-9400-a6f013b49f14` · printing: MSH #4 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1383e587-df58-4b45-9067-b9399e90b9ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agents of HYDRA
@@ -651,6 +659,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5992 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-09-19* — If your Agent Venom dies at the same time as one or more other nontoken creatures you control, his ability triggers for each of those creatures.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#agent-venom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/49/agent-venom) · oracle_id `14c356aa-178d-4c14-a88e-fbe92ee6d89f` · printing: SPM #49 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Age of Ultron
@@ -692,6 +701,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If you have enough mana, the ability may be activated more than once in a turn.
   - *2023-09-01* — You will normally activate this ability during your postcombat main phase so you can untap any creatures that attacked.
+- **Referenced in:** 9 pages (5 decks · 3 edh guides · 1 card data) → [reverse index](../../references/A.md#aggravated-assault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/185/aggravated-assault) · oracle_id `20129459-a386-41eb-899d-1aede3427300` · printing: ONS #185 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aggression
@@ -738,6 +748,7 @@ schema: 2
   > {T}: Add {R} or {W}.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aggressive-crag)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/112/aggressive-crag) · oracle_id `02bd033c-684f-420d-b8d0-5e7ebf161af3` · printing: CMB2 #112 (2021-08-20) · [rulings](https://api.scryfall.com/cards/d24742bc-1214-4fd9-a61c-4283756df098/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aggressive Detective
@@ -762,6 +773,7 @@ schema: 2
   > *—Jiang Yanggu's travelogue*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17099 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aggressive-instinct)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/34/aggressive-instinct) · oracle_id `d1c8f14b-7977-488a-8bd9-cefd6687f017` · printing: GS1 #34 (2018-06-22) · [rulings](https://api.scryfall.com/cards/40ab4bcf-e6b9-4368-97d5-56862713a66a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aggressive Mammoth
@@ -884,6 +896,7 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — Tokens created with A Girl and Her Dogs’s first ability are still subject to the “legend rule”, so be wary of giving two Dogs the same name or naming a Dog after an existing legendary Magic card.
   - *2024-11-08* — You may give the Dog any name, including the name of an existing Magic card. Good names for Dogs include, but are not limited to: Booster, Bryn, Comet, Jasper, Killer, Pax, Pi, Ranger, Rocket, Sgt. Pepper, and Isamaru, Hound of Konda. (We thought you might need some suggestions to get you started.)
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#a-girl-and-her-dogs)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/515/a-girl-and-her-dogs) · oracle_id `9dffded8-b11f-4460-97f0-f847dc92e41f` · printing: MB2 #515 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agitator Ant
@@ -982,6 +995,7 @@ schema: 2
   - *2020-01-24* — If you choose a card from their graveyard, it may be a land card.
   - *2020-01-24* — No player may take actions between the time you choose a card and the time it's exiled.
   - *2020-01-24* — You must choose a card to exile if able. If there are no nonland cards in the opponent's hand, you must exile a card from their graveyard, and vice versa.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#agonizing-remorse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/83/agonizing-remorse) · oracle_id `1267dfda-eb1a-4963-9fe3-fa619d924d7a` · printing: THB #83 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agonizing Syphon
@@ -1050,6 +1064,7 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-11-12* — To double a player’s life total, that player gains as much life as needed so that their life total is twice the number it was before. If their life total was negative, that player loses as much life as needed so that their life total is twice as far below 0 as it was before. Other effects interact with this life gain or loss accordingly.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#a-good-thing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/86/a-good-thing) · oracle_id `9cfdc604-71de-44e4-8ba7-2a3ee03aab68` · printing: CMB2 #86 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agoraphobia

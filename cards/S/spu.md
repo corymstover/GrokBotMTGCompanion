@@ -80,4 +80,5 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — This is already true almost all of the time, but if you manage to engineer a game state involving Floral Spuzzem and R&D’s Secret Lair, you’ll be glad you have this.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spuzzem-strategist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/584/spuzzem-strategist) · oracle_id `209377f6-e958-43dc-94f6-eb4e6ac6ecc4` · printing: MB2 #584 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

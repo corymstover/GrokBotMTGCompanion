@@ -56,6 +56,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9217 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-02-01* — If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inquisition-of-kozilek)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/80/inquisition-of-kozilek) · oracle_id `395611fa-aec2-4c9e-92c3-70cf95cc00f4` · printing: 2X2 #80 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisitive Glimmer
@@ -108,6 +109,7 @@ schema: 2
   - *2022-10-07* — Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed with Inquisitor Eisenhorn's ability.
   - *2022-10-07* — You can reveal an instant or sorcery card this way on any turn to create a token, not just your own, if it's the first card you've drawn that turn.
   - *2022-10-07* — You don't have to reveal a drawn card if you don't wish to create a Cherubael token.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inquisitor-eisenhorn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/127/inquisitor-eisenhorn) · oracle_id `db07a3f9-c6d1-4cae-a899-12b3e8d94018` · printing: 40K #127 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisitor Exarch
@@ -152,6 +154,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Although the tokens enter the battlefield attacking, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won't trigger.
   - *2022-10-07* — For the triggered ability, you declare which player or planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker the equipped creature is attacking.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inquisitorial-rosette)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/159/inquisitorial-rosette) · oracle_id `4a3a25ae-61f5-4bcd-ae3d-4b31feaa83d8` · printing: 40K #159 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisitor's Flail
@@ -167,6 +170,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-09-22* — If a creature is equipped with a second Inquisitor’s Flail, combat damage dealt by and dealt to that creature will be multiplied by four. A third Inquisitor’s Flail would multiply the combat damage by eight, and so on.
   - *2011-09-22* — If you divide the combat damage dealt by the equipped creature, perhaps because the creature has trample or is dealing combat damage to multiple creatures, you’ll divide the original amount and then double the results. For example, if a 5/5 creature with trample is blocked by a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. These amounts are then doubled to 4 and 6 damage, respectively. You can’t double the damage to 10 first and then assign 2 to the creature and 8 to the player.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#inquisitors-flail)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/227/inquisitors-flail) · oracle_id `a89ae357-b5aa-4256-beb3-a2e5e7f43200` · printing: ISD #227 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisitor's Ox

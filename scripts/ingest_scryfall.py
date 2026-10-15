@@ -244,6 +244,25 @@ def render_rulings(c: dict, rulings: list | None) -> list[str]:
     return out
 
 
+REF_KIND_LABELS = {"deck": "decks", "edh": "edh guides", "rules": "rules", "lore": "lore & story", "cards": "card data", "meta": "meta"}
+_REFS: dict | None = None
+
+
+def ref_line_text(info: dict) -> str:
+    """One-line pointer from a card entry to its reverse-index section (Bot cycle 18, #66; data from build_crossrefs.py)."""
+    kinds = " · ".join(f"{n} {REF_KIND_LABELS[k]}" for k, n in info["kinds"].items())
+    return f"- **Referenced in:** {info['n']} page{'s' if info['n'] != 1 else ''} ({kinds}) → [reverse index](../../{info['index']})"
+
+
+def ref_line(c: dict) -> str | None:
+    global _REFS
+    if _REFS is None:
+        p = DATA_DIR / "card_refs.json"
+        _REFS = json.loads(p.read_text(encoding="utf-8"))["cards"] if p.exists() else {}
+    info = _REFS.get(c["oracle_id"])
+    return ref_line_text(info) if info else None
+
+
 def render_entry(c: dict, bulk_date: str, rulings: list | None = None) -> str:
     L = [f"### {heading(c)}", ""]
     faces = c.get("card_faces")
@@ -292,6 +311,9 @@ def render_entry(c: dict, bulk_date: str, rulings: list | None = None) -> str:
              f"printing: {c.get('set', '').upper()} #{c.get('collector_number', '')} ({c.get('released_at', '')})",
              *([] if rulings else [f"[rulings]({c.get('rulings_uri', '')})"]),
              f"source: Scryfall oracle_cards bulk {bulk_date[:10]}", "status: ✅ verified (Scryfall Oracle)"]
+    rl = ref_line(c)
+    if rl:
+        L.append(rl)
     L.append("- **Source flags:** " + " · ".join(flags))
     L.append("")
     return "\n".join(L)

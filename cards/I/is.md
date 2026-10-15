@@ -154,6 +154,7 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#ishai-ojutai-dragonspeaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/12/ishai-ojutai-dragonspeaker) · oracle_id `4aae7102-301a-429d-b169-4f462384d55d` · printing: CM2 #12 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ishgard, the Holy See // Faith & Grief
@@ -183,6 +184,7 @@ schema: 2
   - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
   - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/I.md#ishgard-the-holy-see--faith--grief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/283/ishgard-the-holy-see-faith-&-grief) · oracle_id `4f4358cb-59df-46d9-be27-69929f5a615c` · printing: FIN #283 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ishi-Ishi, Akki Crackshot
@@ -212,6 +214,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6899 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2016-07-13* — The number of Spiders you control is checked only as Ishkanah's last ability resolves. The ability will count Ishkanah itself if it's still on the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#ishkanah-grafwidow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/187/ishkanah-grafwidow) · oracle_id `6f4861f4-1b3b-4dbc-b55b-196075d0a693` · printing: DSC #187 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isildur's Fateful Strike
@@ -241,6 +244,7 @@ schema: 2
   > *—Doctor Strange*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 37 pages (36 decks · 1 card data) → [reverse index](../../references/I.md#island)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/294/island) · oracle_id `b2c6aa39-2d2a-459c-a555-fb48ba993373` · printing: MDD #294 (2027-04-09) · [rulings](https://api.scryfall.com/cards/1335d293-3dd2-4f13-bd2c-22181f4528ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Island Fish Jasconius
@@ -316,6 +320,7 @@ schema: 2
   - *2020-08-07* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2020-08-07* — If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
   - *2020-08-07* — You cast the copy while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/I.md#isochron-scepter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/264/isochron-scepter) · oracle_id `ddd649f4-dbaf-48ec-8ff7-95581257772d` · printing: 2XM #264 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isolate
@@ -342,6 +347,7 @@ schema: 2
   > *Serra's blessing lies strongest upon Sursi, where her holy chapels are untouched even as evil encroaches.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #90 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 8 pages (5 decks · 2 edh guides · 1 card data) → [reverse index](../../references/I.md#isolated-chapel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/74/isolated-chapel) · oracle_id `7e5d9efe-48a9-434b-bb09-056e0e09cc9a` · printing: FRC #74 (2026-10-02) · [rulings](https://api.scryfall.com/cards/b3169b9a-f5e3-402e-883a-08274d0c7b12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isolated Watchtower
@@ -462,6 +468,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — Isshin's effect doesn't copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution are also made individually.
   - *2022-02-18* — Isshin, Two Heavens as One's ability affects only triggered abilities with conditions that are directly related to attacking, such as “whenever [this creature] attacks” or “whenever you attack with one or more creatures.” It does not affect triggered abilities with other trigger conditions, such as “whenever [this creature] becomes tapped.”
+- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 card data) → [reverse index](../../references/I.md#isshin-two-heavens-as-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/224/isshin-two-heavens-as-one) · oracle_id `65114758-9a75-43a7-96e8-0aa68faa6b24` · printing: NEO #224 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Istvan, Butcher of Eln

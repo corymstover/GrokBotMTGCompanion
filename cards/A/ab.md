@@ -131,6 +131,7 @@ schema: 2
 - **Keywords:** Mark of Chaos Ascendant, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8866 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#abaddon-the-despoiler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/2/abaddon-the-despoiler) · oracle_id `8dedb9a7-0afa-4dff-b124-2344c170f11a` · printing: 40K #2 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c9f1fc97-00c0-492b-a4a3-b179afc2f95d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abandon Attachments
@@ -159,6 +160,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1126 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-10-02* — If one of these lands enters at the same time as any number of basic lands, those other lands are not counted when determining if this land enters tapped or untapped.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#abandoned-air-temple)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/263/abandoned-air-temple) · oracle_id `9575d7ce-f26d-4b90-87a3-6329e9799572` · printing: TLA #263 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abandoned Campground
@@ -332,6 +334,7 @@ schema: 2
   - *2015-06-22* — The card exiled by Abbot of Keral Keep's ability is exiled face up.
   - *2015-06-22* — Unless an effect allows you to play additional lands that turn, you can play a land card exiled with Abbot of Keral Keep's ability only if you haven't played a land yet that turn.
   - *2015-06-22* — You may play that card that turn even if Abbot of Keral Keep is no longer on the battlefield or under your control.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#abbot-of-keral-keep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/100/abbot-of-keral-keep) · oracle_id `09be0f69-9c7f-491f-964d-bfbbc2d4251f` · printing: 2X2 #100 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abbot of the Sacred Meeple
@@ -349,6 +352,7 @@ schema: 2
   - *2024-11-08* — If the space two spaces higher than this creature’s power on the Monk Track is already occupied (or, in rare cases, if its power is so high that there is no such space), this creature can occupy any lower-valued space on the Monk Track.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#abbot-of-the-sacred-meeple)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/507/abbot-of-the-sacred-meeple) · oracle_id `9f318608-da70-438c-823a-a03b89d8c4ac` · printing: MB2 #507 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abby, Merciless Soldier
@@ -363,6 +367,7 @@ schema: 2
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15574 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#abby-merciless-soldier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2202/abby-merciless-soldier) · oracle_id `e05efd01-0202-4bd6-bac6-c6210819d463` · printing: SLD #2202 (2025-10-27) · [rulings](https://api.scryfall.com/cards/28e11b59-c677-4235-a377-18921c5131f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abdel Adrian, Gorion's Ward
@@ -390,6 +395,7 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
   - *2022-06-10* — The Soldier creature tokens stay on the battlefield even after the exiled cards return.
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#abdel-adrian-gorions-ward)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/2/abdel-adrian-gorions-ward) · oracle_id `cab092f9-b7ff-43b9-935f-310869a4daf8` · printing: CLB #2 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abduction
@@ -515,6 +521,7 @@ schema: 2
   - *2004-10-04* — Abeyance never prevents mana abilities from being activated.
   - *2004-10-04* — Abeyance prohibits activated abilities of cards which are not on the battlefield.
   - *2008-08-01* — This can't be used as a counterspell. It will have no effect on spells which were on the stack when it was cast, nor on those cast in response to it.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#abeyance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/1/abeyance) · oracle_id `6300de53-6e71-4f0e-87e1-b0acd25c59a8` · printing: WTH #1 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abhorrent Oculus
@@ -546,6 +553,7 @@ schema: 2
   - *2024-09-20* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2024-09-20* — Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
   - *2024-09-20* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#abhorrent-oculus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/42/abhorrent-oculus) · oracle_id `b1a0e129-27f0-4a09-b00d-497e18777306` · printing: DSK #42 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abhorrent Overlord
@@ -564,6 +572,7 @@ schema: 2
   - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
   - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
   - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#abhorrent-overlord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/75/abhorrent-overlord) · oracle_id `13f63240-a6bb-4333-a3dd-818725c6fb73` · printing: THS #75 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abian, Luvion Usurper
@@ -583,6 +592,7 @@ schema: 2
   - *2019-11-12* — If you control Abian but haven't become Abian, its loyalty abilities function as normal, drawing from its loyalty counters and not your life. Its last ability causes you, the player, to deal damage, although the source of the ability is Abian.
   - *2019-11-12* — To activate your last ability, you can't pay more life than you have.
   - *2019-11-12* — While Abian is on the battlefield, you're both a player and a permanent. You're a legendary planeswalker that's red and green.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#abian-luvion-usurper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/87/abian-luvion-usurper) · oracle_id `2df37779-2ec0-48ac-8be9-5d3b0e9679e6` · printing: CMB2 #87 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abiding Grace
@@ -616,6 +626,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-11-17* — If the affected creature gains an ability after Abigale's last ability resolves, it will keep that ability.
   - *2025-11-17* — The effect of Abigale's last ability that causes the target creature to lose all abilities lasts indefinitely. It doesn't expire during the cleanup step or when Abigale leaves the battlefield.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#abigale-eloquent-first-year)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/204/abigale-eloquent-first-year) · oracle_id `48a773d0-c433-4463-b50f-b6d4604a042c` · printing: ECL #204 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abigale, Poet Laureate // Heroic Stanza
@@ -646,6 +657,7 @@ schema: 2
   - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
   - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
   - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#abigale-poet-laureate--heroic-stanza)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/170/abigale-poet-laureate-heroic-stanza) · oracle_id `2f5f46ed-b8aa-4864-bd20-17281d4632bf` · printing: SOS #170 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abjure
@@ -660,6 +672,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6220 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — You can't sacrifice more than one permanent.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#abjure)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/31/abjure) · oracle_id `dd97e457-07eb-4918-b780-ae7ff42a37e7` · printing: WTH #31 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abnormal Endurance
@@ -788,6 +801,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — As long as Abomination of Llanowar is on the battlefield (and still an Elf) or in your graveyard, its ability will count itself.
   - *2020-11-10* — The ability that defines Abomination of Llanowar's power and toughness applies in all zones, not just the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#abomination-of-llanowar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/81/abomination-of-llanowar) · oracle_id `5146ba3f-2c5f-4a86-95d7-a34ce1e842b0` · printing: KHC #81 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abomination, Terrifying Titan
@@ -890,6 +904,7 @@ schema: 2
   > *The desert is a voracious beast, devouring both flesh and stone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #145 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#abrade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/234/abrade) · oracle_id `f9db72dc-9a5b-48a4-a86e-7464d9a2166a` · printing: SOC #234 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1add1757-c1f8-448a-b279-c6940fb7ad5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abraded Bluffs
@@ -923,6 +938,7 @@ schema: 2
   - *2021-03-19* — If a permanent has {X} in its mana cost, X is considered to be 0.
   - *2021-03-19* — The mana value of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
   - *2024-04-12* — If you target a creature with ward, you may still pay the ward cost, but Abrupt Decay won't be countered even if you don't.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#abrupt-decay)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/146/abrupt-decay) · oracle_id `1c747fe2-289e-492a-a846-aa77707e2dc3` · printing: MM3 #146 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Absolute Grace
@@ -1214,6 +1230,7 @@ schema: 2
   - *2023-11-10* — If a token is exiled this way, it ceases to exist and won't return to the battlefield.
   - *2023-11-10* — If another effect causes one of the returned permanents to become a creature and sets its base power and toughness as it does so, that creature will have that power and toughness; it won't be 1/1. Notably, crewing a Vehicle does not set its power and toughness, so a Vehicle will remain a 1/1 if you crew it.
   - *2023-11-10* — The exiled card will return to the battlefield at the beginning of the next end step even if Abuelo, Ancestral Echo is no longer on the battlefield at that time.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#abuelo-ancestral-echo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/219/abuelo-ancestral-echo) · oracle_id `eaa9baac-72f2-4bde-9146-860878d9860b` · printing: LCI #219 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abuelo's Awakening
@@ -1226,6 +1243,7 @@ schema: 2
   > *Quintorius touched the old poncho he'd found. A rush of magic condensed into an Echo, and wise Abuelo stepped forth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15117 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/A.md#abuelos-awakening)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/1/abuelos-awakening) · oracle_id `2b22cf44-7b03-4919-9812-6796bf193484` · printing: LCI #1 (2023-11-17) · [rulings](https://api.scryfall.com/cards/f93b725e-2b9c-4830-ac54-b2562afe09bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abu Ja'far
@@ -1295,6 +1313,7 @@ schema: 2
   - *2025-11-17* — If an effect causes a creature with changeling to become a new creature type, it will be only that new creature type (unless the effect says "in addition" or similar). It will still have changeling; the effect making it all creature types will simply be overwritten.
   - *2025-11-17* — If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it.
   - *2025-11-17* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much a Kithkin, a Goblin, a Merfolk, and a Brushwagg as it is a Shapeshifter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#abundant-countryside)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/22/abundant-countryside) · oracle_id `e3eb6f90-ccfc-41e7-bff6-0b378226bc7e` · printing: ECC #22 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abundant Growth
@@ -1309,6 +1328,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2445 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — The enchanted land retains any other abilities it has. Activating one of the land's activated abilities won't cause the other(s) to be activated.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#abundant-growth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/97/abundant-growth) · oracle_id `947a2665-2f4d-4193-8768-118f85334549` · printing: ECC #97 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abundant Harvest
@@ -1321,6 +1341,7 @@ schema: 2
   > *"Gaea knows what you need. Do you?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6967 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#abundant-harvest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/269/abundant-harvest) · oracle_id `34841228-31ac-48ac-b6d6-486b5e1e07dd` · printing: CMM #269 (2023-08-04) · [rulings](https://api.scryfall.com/cards/516e137a-d9d9-4ba7-89fb-e680ddb2c2d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abundant Maw
@@ -1396,6 +1417,7 @@ schema: 2
   - *2024-11-08* — Except for the listed exception, the token created by Abyssal Harvester's ability copies exactly what was printed on the original card and nothing else. It doesn't copy information about the object that card was before it was put into that graveyard.
   - *2024-11-08* — If a card copied by the token had any "when this creature enters" abilities, the appropriate token also has those abilities and will trigger them when it's created. Similarly, any "as this creature enters" or "this creature enters with" abilities that the token has copied will also work.
   - *2024-11-08* — The token is a Nightmare in addition to its other creature types. This is a copiable value of the token that other effects may copy.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#abyssal-harvester)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/54/abyssal-harvester) · oracle_id `68cc5065-0514-4adf-885f-da554e1db00a` · printing: FDN #54 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abyssal Horror
@@ -1490,6 +1512,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16593 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#abyssal-specter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/59/abyssal-specter) · oracle_id `51833cff-6519-4806-8d91-0040e9a02189` · printing: MM3 #59 (2017-03-17) · [rulings](https://api.scryfall.com/cards/69a41bec-7fb0-4060-918a-38cbbb329543/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abzan Advantage
@@ -1549,6 +1572,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — Several creatures with outlast also grant an ability to creatures you control with +1/+1 counters on them, including themselves. These counters could come from an outlast ability, but any +1/+1 counter on the creature will count.
   - *2014-09-20* — The cost to activate a creature's outlast ability includes the tap symbol ({T}). A creature's outlast ability can't be activated unless that creature has been under your control continuously since the beginning of your turn.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#abzan-battle-priest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/164/abzan-battle-priest) · oracle_id `1b44fe0a-4a99-4166-b0b3-102b36b54ffa` · printing: MOC #164 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abzan Beastmaster
@@ -1578,6 +1602,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4532 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-09-20* — If you choose the third mode, you choose how the counters will be distributed as you cast the spell. Notably, if you choose to put one +1/+1 counter on each of two target creatures, and one of those creatures becomes an illegal target in response, the +1/+1 counter that would have been put on that creature is lost. It can't be put on the remaining legal target.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#abzan-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/138/abzan-charm) · oracle_id `4137a22c-f793-4e27-a9b2-72740a6e2121` · printing: DMC #138 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abzan Devotee
@@ -1609,6 +1634,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — Several creatures with outlast also grant an ability to creatures you control with +1/+1 counters on them, including themselves. These counters could come from an outlast ability, but any +1/+1 counter on the creature will count.
   - *2014-09-20* — The cost to activate a creature's outlast ability includes the tap symbol ({T}). A creature's outlast ability can't be activated unless that creature has been under your control continuously since the beginning of your turn.
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/A.md#abzan-falconer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/165/abzan-falconer) · oracle_id `8b972819-507a-40a9-ab1f-1a674ea56083` · printing: MOC #165 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abzan Guide
@@ -1658,6 +1684,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15153 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-04-04* — If you control no creatures as Abzan Monument’s last ability resolves, X is 0. In this case, you’ll create a 0/0 white Spirit creature token, which will likely immediately die unless something else is raising its toughness.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#abzan-monument)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/238/abzan-monument) · oracle_id `93563b7b-5685-4832-b164-0701dbf3cf18` · printing: TDM #238 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abzan Runemark

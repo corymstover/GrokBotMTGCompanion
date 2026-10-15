@@ -82,6 +82,7 @@ schema: 2
   - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
   - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
   - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#deekah-fractal-theorist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/193/deekah-fractal-theorist) · oracle_id `6b071146-2f83-4fda-a55a-46fcb74e6f28` · printing: SOC #193 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dee Kay, Finder of the Lost
@@ -101,6 +102,7 @@ schema: 2
   - *2022-10-07* — If you roll a 2, a 4, or a 6 while rolling to visit your attractions, and one or more visit abilities also trigger from that roll, you choose the order in which those abilities and Dee Kay's ability go on the stack. You can have Dee Kay's ability resolve before those visit abilities, after them, or in between any of them.
   - *2022-10-07* — If you roll more than one die at a time, Dee Kay's abilities will trigger for each corresponding result. For example, if I roll 2, 2, and 4 on three six-sided dice, her second ability will trigger twice and her third ability will trigger once.
   - *2022-10-07* — It doesn't matter why you rolled a die or how many sides that die has: if you roll a 2, a 4, or a 6, the corresponding ability will trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dee-kay-finder-of-the-lost)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/167/dee-kay-finder-of-the-lost) · oracle_id `e4a338d5-8cd5-4583-893b-ebbede2280c6` · printing: UNF #167 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deem Inferior
@@ -115,6 +117,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17858 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-06-07* — The permanent's owner chooses whether to put it second from the top or on the bottom of their library. If multiple cards are put into the library this way (such as when this spell targets a melded permanent), that permanent's owner puts all the cards second from the top or all the cards on the bottom. They put them in whatever order they wish and do not need to reveal the order.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#deem-inferior)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/57/deem-inferior) · oracle_id `f0bd4a29-ac13-4d4f-8479-e0e80f8d846f` · printing: MH3 #57 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deem Worthy
@@ -150,6 +153,7 @@ schema: 2
   - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#deep-analysis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/149/deep-analysis) · oracle_id `579cbd92-797f-4cdf-91ed-fca7a523eae5` · printing: MSC #149 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep-Cavern Bat
@@ -194,6 +198,7 @@ schema: 2
   > *"Bargain with ruthless cunning, and when all else fails, make sure you fight with the same."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16998 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#deepchannel-duelist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/213/deepchannel-duelist) · oracle_id `c892d28c-4a78-4a7f-b8d5-c3663b819c5e` · printing: ECL #213 (2026-01-23) · [rulings](https://api.scryfall.com/cards/1b742172-7118-45e7-9945-62bd77d94e85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepchannel Mentor
@@ -318,6 +323,7 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#deep-fried-plague-myr)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/14/deep-fried-plague-myr) · oracle_id `43f5ce56-6ad1-4a42-b1d7-26f1c7933693` · printing: SUNF #14 (2022-10-07) · [rulings](https://api.scryfall.com/cards/907157c3-f562-403c-94cb-9171deadaee4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepglow Skate
@@ -335,6 +341,7 @@ schema: 2
   - *2020-08-07* — As Deepglow Skate's ability resolves, you must double each kind of counter on the permanents it targets.
   - *2020-08-07* — To double the number of each kind of counter on a permanent, put another counter on it for each counter it already has. Effects that interact with counters being put onto permanents apply as appropriate.
   - *2020-08-07* — You can choose no targets if you don't want to double the counters on any permanents.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/D.md#deepglow-skate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/70/deepglow-skate) · oracle_id `debce64a-18bd-42f5-9e85-158c2242e9e9` · printing: EOC #70 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Gnome Terramancer
@@ -348,6 +355,7 @@ schema: 2
 - **Keywords:** Mold Earth, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2236 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#deep-gnome-terramancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/658/deep-gnome-terramancer) · oracle_id `d4e3440d-4e34-40d7-8a42-c673225c0332` · printing: CLB #658 (2022-06-10) · [rulings](https://api.scryfall.com/cards/cc75f9f1-5873-450f-a0b2-871b55036954/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Goblin Skulltaker
@@ -406,6 +414,7 @@ schema: 2
   - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#deep-reconnaissance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/236/deep-reconnaissance) · oracle_id `a823e880-3d5f-4186-a7da-e710a7db583c` · printing: ODY #236 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deeproot Champion
@@ -434,6 +443,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5952 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — Deeproot Elite's ability can target the Merfolk that caused it to trigger. It can also target Deeproot Elite itself.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#deeproot-elite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/237/deeproot-elite) · oracle_id `764e8e6e-0ace-4fc8-8ca5-468a10ae3b73` · printing: LCC #237 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deeproot Historian
@@ -461,6 +471,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4519 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-11-10* — If more than one nontoken Merfolk you control becomes tapped at the same time (for example, to pay the cost of Adaptive Gemguard's activated ability), Deeproot Pilgrimage's ability will trigger only once.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/D.md#deeproot-pilgrimage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/52/deeproot-pilgrimage) · oracle_id `188656d8-4ea8-4e58-88da-b010a16eb6f2` · printing: LCI #52 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deeproot Warrior
@@ -490,6 +501,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — The ability of Deeproot Waters resolves before the spell that caused it to trigger.
   - *2018-01-19* — If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#deeproot-waters)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/152/deeproot-waters) · oracle_id `8e7b31eb-7a91-4992-b24a-d81173e1dbc8` · printing: LCC #152 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deeproot Wayfinder
@@ -602,6 +614,7 @@ schema: 2
   > *"My success at navigating the Dark Meanders irritates the Inkfathom school. They consider themselves peerless divers, but I try to remind them that they cannot own commodities like bravery and cunning."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27695 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#deeptread-merrow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/57/deeptread-merrow) · oracle_id `b301b371-e99e-43cc-af7f-dbd7b2abe5f8` · printing: LRW #57 (2007-10-12) · [rulings](https://api.scryfall.com/cards/42ebd6ff-2b1c-4e93-81cc-81998459c5c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Water
@@ -647,6 +660,7 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18074 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#deepway-navigator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/214/deepway-navigator) · oracle_id `812df594-75af-494f-be09-5f9633aca46a` · printing: ECL #214 (2026-01-23) · [rulings](https://api.scryfall.com/cards/d988e28b-fa60-4b60-8229-7a15932c784b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Wood

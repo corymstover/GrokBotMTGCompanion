@@ -107,6 +107,7 @@ schema: 2
   - *2008-04-01* — When you cast a spell by paying its evoke cost, its mana cost doesn't change. You just pay the evoke cost instead.
   - *2008-04-01* — Whether evoke's sacrifice ability triggers when the creature enters depends on whether the spell's controller chose to pay the evoke cost, not whether they actually paid it (if it was reduced or otherwise altered by another ability, for example).
   - *2018-12-07* — Reveillark's ability may target zero, one, or two creature cards in your graveyard. Each target must have power 2 or less.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#reveillark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/26/reveillark) · oracle_id `1be13ede-98f8-497e-800c-03e5802932b3` · printing: 2X2 #26 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reveille Squad
@@ -176,6 +177,7 @@ schema: 2
   - *2017-09-29* — If the second ability of Revel in Riches causes you to win the game, please refrain from throwing your Treasure tokens into the air as this may distract or injure other players.
   - *2017-09-29* — If you don't control ten Treasures as the second ability of Revel in Riches resolves, you won't win the game.
   - *2017-09-29* — If you don't control ten Treasures as your upkeep begins, the second ability of Revel in Riches won't trigger. You can't take any actions during your turn before your upkeep begins.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/R.md#revel-in-riches)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/117/revel-in-riches) · oracle_id `cc3fcd26-c088-4335-9a35-0e11019e3d5b` · printing: XLN #117 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revel of the Fallen God
@@ -189,6 +191,7 @@ schema: 2
   > *—Guruthes, disciple of Xenagos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22337 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#revel-of-the-fallen-god)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/155/revel-of-the-fallen-god) · oracle_id `5d46b8dd-2a4a-4d9f-b4c6-2b45f05081c2` · printing: JOU #155 (2014-05-02) · [rulings](https://api.scryfall.com/cards/e1d2c774-aab9-4747-af91-da792ed7cfe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revel Ruiner
@@ -261,6 +264,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2910 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-10-04* — The triggered ability of Revenge of Ravens resolves before any abilities the attacking player controls. If this causes the attacking player to lose the game, that player's triggered abilities won't resolve and no combat damage will be dealt.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#revenge-of-ravens)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/104/revenge-of-ravens) · oracle_id `dd96f145-73eb-4a6d-bcfd-5d6313fac1f9` · printing: ELD #104 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revenge of the Drowned
@@ -329,6 +333,7 @@ schema: 2
   - *2010-08-15* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2010-08-15* — When Reverberate resolves, it creates a copy of a spell. You control the copy. That copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
   - *2010-08-15* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if a player sacrifices a 3/3 creature to cast Fling, and you copy it with Reverberate, the copy of Fling will also deal 3 damage to its target.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/R.md#reverberate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/145/reverberate) · oracle_id `a1f55890-31c5-4ed4-a2cd-7a4a9f05f8ca` · printing: M13 #145 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverberating Summons
@@ -604,6 +609,7 @@ schema: 2
   > *Esika alone knows how to distill the essence of the World Tree into the Cosmos Elixir, a magical substance which grants the Skoti god-family immortality.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4225 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#revitalize)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/23/revitalize) · oracle_id `b1385b03-cb4b-4812-857f-7421f1df39af` · printing: KHM #23 (2021-02-05) · [rulings](https://api.scryfall.com/cards/3a9fb75e-c8e5-417b-83d4-5105af9c66c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revitalizing Repast // Old-Growth Grove
@@ -627,6 +633,7 @@ schema: 2
   - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
   - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#revitalizing-repast--old-growth-grove)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/256/revitalizing-repast-old-growth-grove) · oracle_id `8dd6d060-d023-48a6-85cb-7a5521b6257b` · printing: MH3 #256 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revival Experiment
@@ -654,6 +661,7 @@ schema: 2
   > III — Creatures you control gain trample and lifelink until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11672 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#revival-of-the-ancestors)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/218/revival-of-the-ancestors) · oracle_id `5a848c1f-d11a-42fb-b9ce-663901fc9555` · printing: TDM #218 (2025-04-11) · [rulings](https://api.scryfall.com/cards/fd742ff5-f0ea-4f4b-911e-4c09e2154dba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revival // Revenge
@@ -700,6 +708,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-04-01* — If the spell is countered or doesn't resolve for any reason (for example, if all its targets become illegal), none of its effects happen. There is no clash, and the spell card won't be returned to your hand.
   - *2008-04-01* — If you win the clash, the spell moves from the stack to your hand as part of its resolution. It never hits the graveyard. If you don't win the clash, the spell is put into the graveyard from the stack as normal.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#revive-the-fallen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/76/revive-the-fallen) · oracle_id `2f857ef6-c1e5-4b85-b3fb-8163be4895b5` · printing: MOR #76 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revive the Shire
@@ -784,6 +793,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — If the target creature card is an illegal target as Revoke Demise tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
   - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#revoke-demise)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/10/revoke-demise) · oracle_id `83f0b573-58a0-457d-80e5-6e0b690e5f4e` · printing: J25 #10 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revoke Existence
@@ -862,4 +872,5 @@ schema: 2
   - *2024-11-08* — If you leave the game, cards exiled face down with Rev's last ability remain exiled face down indefinitely. No player may look at them.
   - *2024-11-08* — You may look at and cast cards exiled face down with Rev's last ability even if Rev leaves the battlefield. If another player gains control of Rev, that player can't look at or cast the cards you exiled with its last ability, and you still can.
   - *2024-11-08* — You pay all costs and follow all timing rules for spells cast with the permission granted by Rev's last ability. For example, if the exiled card is a sorcery, you may cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rev-tithe-extractor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-45/rev-tithe-extractor) · oracle_id `8345eb05-c04e-4c1d-9776-5ab7d91a7842` · printing: PLST #J25-45 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

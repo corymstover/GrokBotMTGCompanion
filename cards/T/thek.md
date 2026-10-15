@@ -70,6 +70,7 @@ schema: 2
   - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
   - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
   - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-kami-war--o-kagachi-made-manifest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/227/the-kami-war-o-kagachi-made-manifest) · oracle_id `4d23b22b-31a5-4eec-b894-2dd5a7138c5a` · printing: NEO #227 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Karfell Rocker

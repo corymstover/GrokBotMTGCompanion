@@ -382,6 +382,7 @@ schema: 2
   - *2020-08-07* — Like other Equipment, each Equipment with living weapon has an equip cost. You can pay this cost to attach an Equipment to another creature you control. Once the Germ token is no longer equipped, it will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
   - *2020-08-07* — The Germ token enters the battlefield as a 0/0 creature and the Equipment becomes attached to it before state-based actions would cause the token to die. Abilities that trigger as the token enters the battlefield see that a 0/0 creature entered the battlefield.
   - *2020-08-07* — The ability to return Batterskull to its owner's hand can be activated only if Batterskull is on the battlefield. If Batterskull is no longer on the battlefield when the ability resolves, Batterskull remains in its new zone and isn't returned to its owner's hand.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#batterskull)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/234/batterskull) · oracle_id `d12e5ce0-5705-4c35-9a93-b883db52c80c` · printing: 2XM #234 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battery Bearer
@@ -419,6 +420,7 @@ schema: 2
   - *2022-06-10* — The term “defending player” in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking or the controller of the planeswalker it was attacking at the time the ability resolves. If that creature is no longer attacking, it refers to the player it was last attacking or the controller of the planeswalker it was last attacking.
   - *2022-06-10* — The tokens all enter the battlefield at the same time.
   - *2022-06-10* — You choose whether each token is attacking the player or a planeswalker they control as the token is created. If it’s attacking a planeswalker, you choose which one.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/B.md#battle-angels-of-tyr)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/9/battle-angels-of-tyr) · oracle_id `c2bd0c24-3973-48bc-a591-3779e3640c5d` · printing: CLB #9 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle at the Bridge
@@ -445,6 +447,7 @@ schema: 2
   - *2017-02-09* — When calculating a spell’s total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
   - *2017-02-09* — When using improvise to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell’s total cost. Then you can tap artifacts you control to help pay that cost. For example, if you cast Whir of Invention (a spell with improvise and mana cost {X}{U}{U}{U}) and choose X to be 3, the total cost is {3}{U}{U}{U}. If you tap two artifacts, you’ll have to pay {1}{U}{U}{U}.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#battle-at-the-bridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/53/battle-at-the-bridge) · oracle_id `3d63ad3a-4e9f-4968-a576-4be063f4ecbf` · printing: AER #53 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle at the Helvault
@@ -461,6 +464,7 @@ schema: 2
   - *2023-07-28* — Auras attached to the exiled permanents will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanents will cease to exist. When the cards return to the battlefield, they will be new objects with no connection to the cards that were exiled.
   - *2023-07-28* — If Battle at the Helvault leaves the battlefield before its first or second chapter ability resolves, the target permanents won't be exiled.
   - *2023-07-28* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#battle-at-the-helvault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/719/battle-at-the-helvault) · oracle_id `076584c8-ec58-4711-8f59-4839a4fa88ad` · printing: CMM #719 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Brawler
@@ -503,6 +507,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5145 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-07-23* — Battle Cry Goblin's activated ability will affect only Goblins you control as it resolves. If you activate it before attacking and then create a Goblin with its triggered ability during combat, the Goblin you create will not get +1/+0.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#battle-cry-goblin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/132/battle-cry-goblin) · oracle_id `e74c4001-d958-4d2b-b57d-c3601f01580c` · printing: AFR #132 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefield Butcher
@@ -532,6 +537,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
   - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
+- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 card data) → [reverse index](../../references/B.md#battlefield-forge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/65/battlefield-forge) · oracle_id `6b75b94e-83b7-457e-ac41-7ca90b5a59aa` · printing: FRC #65 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefield Improvisation
@@ -682,6 +688,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9174 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#battlefly-swarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/81/battlefly-swarm) · oracle_id `1396e7f1-ac91-4778-9f71-493c7a44bd51` · printing: DMU #81 (2022-09-09) · [rulings](https://api.scryfall.com/cards/3c6b4a2d-0bc0-4a54-9c78-712b48ad6be1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle for Bretagard
@@ -707,6 +714,7 @@ schema: 2
   - *2021-02-05* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2021-02-05* — The chapter III ability doesn't target any of the tokens. You choose which ones you're copying as the ability resolves.
   - *2021-02-05* — Unless the effect that creates a token specifies a different name, the name of a token is the same as its creature types plus the word "Token". In particular, a Human Warrior creature token has a different name than an Elf Warrior creature token, and you may create a copy of each using the chapter III ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#battle-for-bretagard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/916/battle-for-bretagard) · oracle_id `8294539d-7982-4ec9-8392-99eed78542f5` · printing: CMM #916 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Frenzy
@@ -830,6 +838,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1660 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-05-01* — Battle Hymn uses the stack and can be responded to. The amount of mana produced is based on the number of creatures you control when Battle Hymn resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#battle-hymn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/128/battle-hymn) · oracle_id `4b977117-741c-4157-8fcf-719e475a8a4c` · printing: AVR #128 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle-Mad Ronin
@@ -899,6 +908,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4634 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-07-18* — If a creature loses double strike after dealing combat damage in the first combat damage step, it won’t assign combat damage in the second one.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#battle-mastery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/89/battle-mastery) · oracle_id `a06c7c1a-8534-40fb-8bb8-59f8f2530567` · printing: BBD #89 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Menu
@@ -914,6 +924,7 @@ schema: 2
 - **Keywords:** Attack, Ability, Item, Magic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8515 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#battle-menu)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/9/battle-menu) · oracle_id `8af57b80-bbc6-47ce-83f6-34ae8e2f5bd5` · printing: FIN #9 (2025-06-13) · [rulings](https://api.scryfall.com/cards/240e1466-bd02-423d-b829-234dcd2bfab2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Myrsphere
@@ -1006,6 +1017,7 @@ schema: 2
   > *—Braids*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10000 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#battle-rage-blessing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/80/battle-rage-blessing) · oracle_id `533d6b9f-a145-44c4-9d16-74fcd9c0ae2f` · printing: DMU #80 (2022-09-09) · [rulings](https://api.scryfall.com/cards/7cfc631b-49d1-4f1c-adac-5b07a2ccd06f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Rampart

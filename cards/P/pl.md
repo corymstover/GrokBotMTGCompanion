@@ -189,6 +189,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8806 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — Plagon's last ability doesn't actually change the target creature's power. It changes only the amount of combat damage the creature assigns. All other rules and effects that check power or toughness use the real values, even if they cause damage "equal to a creature's power" to be dealt.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#plagon-lord-of-the-beach)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-37/plagon-lord-of-the-beach) · oracle_id `1c95b7cf-be4d-4961-9073-3e39487492c8` · printing: PLST #J25-37 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plaguebearer
@@ -263,6 +264,7 @@ schema: 2
   - *2018-10-05* — As Plaguecrafter's ability resolves, first the player whose turn it is chooses a creature or planeswalker they control, then each other player in turn order does the same, knowing the choices made before them. Then all the chosen permanents are sacrificed at the same time. Next, each player in the same order who couldn't sacrifice a permanent chooses a card in hand without revealing it, then the chosen cards are discarded at the same time.
   - *2018-10-05* — Each player chooses a permanent to sacrifice from among the creatures and planeswalkers they control. You don't choose which type of permanent any other player has to sacrifice.
   - *2018-10-05* — Plaguecrafter can be the creature its controller sacrifices for its own ability.
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/P.md#plaguecrafter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/89/plaguecrafter) · oracle_id `2e3ee458-fa3f-4452-ab95-5a7fb5a0483b` · printing: RVR #89 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plague Dogs
@@ -387,6 +389,7 @@ schema: 2
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2136 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/P.md#plague-myr)
 - **Source flags:** [Scryfall](https://scryfall.com/card/td2/51/plague-myr) · oracle_id `2f328e05-5edf-4b21-9c2a-50dcf1e7b3ec` · printing: TD2 #51 (2011-05-14) · [rulings](https://api.scryfall.com/cards/5cc8b864-c6db-4e4d-b9bc-ec84a4c3aa79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plague Nurse
@@ -407,6 +410,7 @@ schema: 2
   - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
   - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#plague-nurse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/179/plague-nurse) · oracle_id `af7abd22-3134-4872-bbe2-0ad84742d9e5` · printing: ONE #179 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plague of Vermin
@@ -567,6 +571,7 @@ schema: 2
   > *—Thor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#plains)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/292/plains) · oracle_id `bc71ebf6-2056-41f7-be35-b2e5c34afa99` · printing: MDD #292 (2027-04-09) · [rulings](https://api.scryfall.com/cards/09ac862f-0a51-44dd-b86f-9412b8218b13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plain Walker
@@ -650,6 +655,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4542 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-02-09* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/P.md#planar-bridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/313/planar-bridge) · oracle_id `853c6cc0-ed2b-4d65-add1-2449ade8cf68` · printing: 2X2 #313 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Planar Chaos
@@ -661,6 +667,7 @@ schema: 2
   > Whenever a player casts a spell, that player flips a coin. If they lose the flip, counter that spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7175 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#planar-chaos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/97/planar-chaos) · oracle_id `f0864dbb-4d91-4282-a774-7b225e649ca8` · printing: JUD #97 (2002-05-27) · [rulings](https://api.scryfall.com/cards/5dae5e16-d2fc-488c-9c53-d35c377d6a00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Planar Cleansing
@@ -716,6 +723,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6564 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text. Notably, loyalty abilities of planeswalkers are activated abilities.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#planar-disruption)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/28/planar-disruption) · oracle_id `6128679e-7e54-41e4-ab6e-25aeeffed49f` · printing: ONE #28 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Planar Engineering
@@ -729,6 +737,7 @@ schema: 2
   > *—Oracle Jadzi, to Tam*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3149 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#planar-engineering)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/158/planar-engineering) · oracle_id `dc48079a-b1c4-4c43-a989-418c78a264ec` · printing: SOS #158 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c83b96a3-ddfd-4d11-8a85-5bf62087cbb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Planar Gate
@@ -757,6 +766,7 @@ schema: 2
   > *Out of nothing, something was born.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1509 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#planar-genesis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/198/planar-genesis) · oracle_id `b368121b-9984-4a01-8d35-d1e4a8a87539` · printing: MH3 #198 (2024-06-14) · [rulings](https://api.scryfall.com/cards/7fc9a10b-c9f9-4129-a671-ced0917ce78b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Planar Guide
@@ -821,6 +831,7 @@ schema: 2
   - *2015-08-25* — If the non-awaken part of the spell requires a target, you must choose a legal target. You can't cast the spell if you can't choose a legal target for each instance of the word “target” (though you only need a legal target for the awaken ability if you're casting the spell for its awaken cost).
   - *2015-08-25* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
   - *2015-08-25* — You can cast a spell with awaken for its mana cost and get only its first effect. If you cast a spell for its awaken cost, you'll get both effects.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#planar-outburst)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/209/planar-outburst) · oracle_id `ff0d05b9-0c9c-4217-abd2-7e7757a0c4c9` · printing: NCC #209 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Planar Overlay
@@ -889,6 +900,7 @@ schema: 2
 - **Keywords:** Kinfall, Landship
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#plane-merge-elf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/83/plane-merge-elf) · oracle_id `45f94525-84f6-462d-99da-14735f2c273c` · printing: CMB2 #83 (2021-08-20) · [rulings](https://api.scryfall.com/cards/e6047d50-84bd-4095-af6c-eae6e9480ed7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Planequake
@@ -901,6 +913,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-11-12* — Creatures and planeswalkers dealt lethal damage by Planequake won’t be destroyed until state-based actions are performed, after you’ve opened the “Uncovered Cavern” plot booster if applicable.
   - *2019-11-12* — If you don’t have the appropriate unopened plot booster when instructed to open one, that part of the spell or ability’s effect is ignored.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#planequake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/59/planequake) · oracle_id `c6e99ad9-5317-46d8-8b44-fcab72fac8bc` · printing: CMB2 #59 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Planeswalkerificate
@@ -922,6 +935,7 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — The enchanted creature’s toughness doesn’t turn into loyalty counters. Its toughness is its loyalty, and that value is modified appropriately as the enchanted creature is dealt damage.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#planeswalkerificate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/565/planeswalkerificate) · oracle_id `a2e4b83d-efef-480f-a624-7a055d98e589` · printing: MB2 #565 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Planeswalker's Favor
@@ -1053,6 +1067,7 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/P.md#planewide-celebration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/172/planewide-celebration) · oracle_id `af23d348-adc9-451e-af08-bf9b1986c591` · printing: WAR #172 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plan for All Outcomes
@@ -1089,6 +1104,7 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — The ability that defines Fully-Grown Treefolk’s power and toughness applies in all zones, not just the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#plant-a-sapling--fully-grown-treefolk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/582/plant-a-sapling-fully-grown-treefolk) · oracle_id `9a847227-1b19-46a9-8f14-30b2eb0e78a4` · printing: MB2 #582 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plant Elemental
@@ -1118,6 +1134,7 @@ schema: 2
   - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
   - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
   - *2024-04-12* — You’ll only surveil 3 if you have no cards in hand when Plan the Heist resolves, but you’ll still draw three cards either way.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#plan-the-heist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/62/plan-the-heist) · oracle_id `a9471b33-b5b0-408a-9900-6964e5fe42da` · printing: OTJ #62 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plargg and Nassari
@@ -1136,6 +1153,7 @@ schema: 2
   - *2023-05-12* — If you cast a spell "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast it.
   - *2023-05-12* — In a multiplayer game, you choose an opponent to choose a nonland card exiled with Plargg and Nassari.
   - *2023-05-12* — In a two-player game, assuming each player eventually exiles a nonland card, your opponent will choose one of them, and you'll be able to cast the other one.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/P.md#plargg-and-nassari)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/250/plargg-and-nassari) · oracle_id `9e769a65-7aa5-484d-9493-badb485b5964` · printing: SOC #250 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plargg, Dean of Chaos // Augusta, Dean of Order
@@ -1275,6 +1293,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — If a creature with ward is equipped with Plate Armor, becoming the target of a spell or ability an opponent controls will cause both ward abilities to trigger.
   - *2021-07-23* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#plate-armor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/32/plate-armor) · oracle_id `36082b5e-760b-4245-af59-00d308470d1a` · printing: AFR #32 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plateau
@@ -1287,6 +1306,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
   - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Referenced in:** 5 pages (3 edh guides · 2 card data) → [reverse index](../../references/P.md#plateau)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/308/plateau) · oracle_id `c7a15ca4-085f-4d92-8387-c3711c04c8fa` · printing: VMA #308 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plated Crusher
@@ -1472,6 +1492,7 @@ schema: 2
   - *2009-10-01* — If you control Platinum Angel in a Two-Headed Giant game, your team can't lose the game and the opposing team can't win the game.
   - *2009-10-01* — No game effect can cause you to lose the game or cause any opponent to win the game while you control Platinum Angel. It doesn't matter whether you have 0 or less life, you're forced to draw a card while your library is empty, you have ten or more poison counters, you're dealt combat damage by Phage the Untouchable, your opponent has Mortal Combat with twenty or more creature cards in their graveyard, or so on. You keep playing.
   - *2009-10-01* — Other circumstances can still cause you to lose the game, however. You will lose a game if you concede, if you're penalized with a Game Loss or a Match Loss during a sanctioned tournament due to a DCI rules infraction, or if your _Magic Online_(R) game clock runs out of time.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#platinum-angel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/214/platinum-angel) · oracle_id `b148578c-c0bf-4785-b97c-4b6f83028008` · printing: CN2 #214 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Platinum Emperion
@@ -1588,6 +1609,7 @@ schema: 2
   > {TK}{TK}{TK} — 4/4
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#playable-delusionary-hydra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/30/playable-delusionary-hydra) · oracle_id `065cdf8d-6874-4ab6-a08e-79bd88b245bd` · printing: SUNF #30 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c27dffce-908c-45cf-bfe5-67af12467321/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Playful Shove
@@ -1620,6 +1642,7 @@ schema: 2
   - *2018-06-08* — If an effect allows a player to cast a spell spending mana “as though it were mana of any color” or “of any type,” that player must still pay for the colored mana in that spell’s total cost. That cost doesn’t become generic.
   - *2018-06-08* — Only the generic mana portion of a spell’s cost can be paid with assist. Any colored mana costs must be paid by the spell’s controller, even if the assisting player paid mana of that color.
   - *2018-06-08* — You may reveal a card with assist and discuss how to pay for it before you begin to cast the spell. Targets are chosen for that spell before you choose another player to help you pay for it and before that player has committed any mana to doing so.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#play-of-the-game)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/29/play-of-the-game) · oracle_id `337287d6-cd22-4b70-8bbb-318e3cf91bee` · printing: BBD #29 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Playtest Wish
@@ -1658,6 +1681,7 @@ schema: 2
   - *2019-01-25* — Any additions to a Gate’s land types or abilities gained by a Gate can affect the types of mana a Gate can produce.
   - *2019-01-25* — Plaza of Harmony checks the effects of all mana-producing abilities of Gates you control, but it doesn’t check their costs or legality. For example, it doesn’t check whether a Gate is untapped.
   - *2019-01-25* — The types of mana are white, blue, black, red, green, and colorless.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#plaza-of-harmony)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/254/plaza-of-harmony) · oracle_id `5ff1d6d8-8cea-4a25-90d9-b575f4c99bc8` · printing: RNA #254 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plaza of Heroes
@@ -1671,6 +1695,7 @@ schema: 2
   > {3}, {T}, Exile this land: Target legendary creature gains hexproof and indestructible until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #471 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 6 pages (4 decks · 1 edh guides · 1 card data) → [reverse index](../../references/P.md#plaza-of-heroes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/255/plaza-of-heroes) · oracle_id `9c58d241-4d9f-4b46-b8ee-f4587f9acfd6` · printing: MSC #255 (2026-06-26) · [rulings](https://api.scryfall.com/cards/96fe4b9b-d766-463b-a6df-345ebebfc17c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plea for Guidance
@@ -1726,6 +1751,7 @@ schema: 2
   > *—Gideon Jura*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8614 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#pledge-of-unity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/210/pledge-of-unity) · oracle_id `ad501bcb-b838-4716-9759-98c484772285` · printing: WAR #210 (2019-05-03) · [rulings](https://api.scryfall.com/cards/ca9b3518-7fcd-49e2-a4c4-e5daa8be6c21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plot Armor
@@ -2001,6 +2027,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-12-01* — Assuming the entwine cost has been paid, the effect is (1) sacrifice any number of creatures, (2) gain 3 life for each sacrificed creature, (3) choose X, (4) pay X life, and (5) look at the top X cards of your library, put one into your hand, and exile the rest.
   - *2004-12-01* — Everything other than the mode/entwine choice (and paying the {1}{B}, of course) is done on resolution.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#plunge-into-darkness)
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/57/plunge-into-darkness) · oracle_id `07a39452-f9d5-41ba-acbc-fc5e7f698f64` · printing: 5DN #57 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plunge into Winter

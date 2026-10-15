@@ -63,6 +63,7 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — The set of creatures affected by Oddric’s ability and how they are affected is determined as the ability resolves. Creatures you begin to control later in the turn won’t gain any abilities or cause creatures to gain new abilities, and the abilities gained won’t change even if every creature that normally had the abilities leaves the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#oddric-lunar-marquis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/551/oddric-lunar-marquis) · oracle_id `99db3404-1b0e-4d31-8781-b12b01ee68f6` · printing: MB2 #551 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odds // Ends
@@ -113,6 +114,7 @@ schema: 2
   - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
   - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
   - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/O.md#odric-blood-cursed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/243/odric-blood-cursed) · oracle_id `690f79f3-e6a5-4542-8401-61a9bf645d55` · printing: VOW #243 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odric, Lunarch Marshal
@@ -128,6 +130,7 @@ schema: 2
   - *2016-04-08* — Odric's ability triggers at the beginning of each combat, not just combat on your turn, whether or not any creatures you control have any of the listed abilities. If a creature gains one of the listed abilities before Odric's triggered ability resolves, perhaps due to another ability that triggered at the beginning of combat, then creatures you control will gain that ability.
   - *2016-04-08* — The set of creatures affected by Odric's ability and how they are affected is determined as the ability resolves. Creatures you begin to control later in the turn won't gain any abilities or cause creatures to gain new abilities, and the abilities gained won't change even if every creature that normally had the abilities leaves the battlefield.
   - *2020-01-24* — If one of those creatures has one or more variants of the listed keywords (for example, hexproof from white), creatures you control gain those specific variants.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#odric-lunarch-marshal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/36/odric-lunarch-marshal) · oracle_id `bad76170-c773-4be5-9457-20dc9f745cb4` · printing: INR #36 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odric, Master Tactician
@@ -146,6 +149,7 @@ schema: 2
   - *2012-07-01* — All blocking declarations must still be legal.
   - *2012-07-01* — If there's a cost associated with having a creature block and you choose for that creature to block, its controller can choose to pay that cost or not. If that player decides to not pay that cost, you must propose a new set of blocking creatures.
   - *2012-07-01* — You can decide that a creature won't block.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#odric-master-tactician)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/46/odric-master-tactician) · oracle_id `ade898df-14a5-460b-94f6-1f3f74d3ff95` · printing: CMM #46 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odric's Outrider

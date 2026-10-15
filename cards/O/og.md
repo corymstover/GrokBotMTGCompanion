@@ -75,6 +75,7 @@ schema: 2
 - **Keywords:** Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9507 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#ognis-the-dragons-lash)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/210/ognis-the-dragons-lash) · oracle_id `a6e50e06-6d1d-457d-8fbb-ec9a866960c3` · printing: SNC #210 (2022-04-29) · [rulings](https://api.scryfall.com/cards/636058c3-bacc-4a66-8988-832ab0cc9be6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Arsonist
@@ -140,6 +141,7 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13029 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#ogre-chitterlord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/319/ogre-chitterlord) · oracle_id `532cac99-e3cf-4869-a19f-cba67a2a6fd0` · printing: WOE #319 (2023-09-08) · [rulings](https://api.scryfall.com/cards/a70b2033-eec5-4c86-9ebe-a68960a86763/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Enforcer
@@ -395,6 +397,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2016 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-01-24* — All Rats you control have deathtouch while Ogre Slumlord is on the battlefield, not just the ones created by Ogre Slumlord.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/O.md#ogre-slumlord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/145/ogre-slumlord) · oracle_id `0a5e3748-2e58-4e53-9653-8af4e21cf223` · printing: OTC #145 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Taskmaster

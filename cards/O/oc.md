@@ -111,6 +111,7 @@ schema: 2
   - *2024-06-07* — Ocelot Pride doesn't need to have been on the battlefield when you gained life. For example, if a creature with lifelink deals combat damage on your turn and you cast Ocelot Pride during your second main phase, its last ability will trigger at the beginning of your end step.
   - *2024-06-07* — Ocelot Pride's last ability doesn't target any of the tokens.
   - *2024-06-07* — Once you have the city's blessing, you have it for the rest of the game, even if you lose control of some or all your permanents. The city's blessing isn't a permanent itself and can't be removed by any effect.
+- **Referenced in:** 4 pages (1 edh guides · 1 rules · 2 card data) → [reverse index](../../references/O.md#ocelot-pride)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/38/ocelot-pride) · oracle_id `b4ce2c8f-a19c-461e-8a2e-0ec2bd3ebca3` · printing: MH3 #38 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ochran Assassin
@@ -143,6 +144,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6682 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-07-23* — For example, if Ochre Jelly had five +1/+1 counters on it when it dies, the token you create will enter the battlefield with two +1/+1 counters on it. When that token dies, the next one you create will enter with one +1/+1 counter on it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#ochre-jelly)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/196/ochre-jelly) · oracle_id `2b757d32-09a3-49cd-ada4-84b5335178ce` · printing: AFR #196 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octavia, Living Thesis
@@ -188,6 +190,7 @@ schema: 2
   - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren't promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won't be able to choose targets for an enters ability of that permanent once the spell resolves.
   - *2024-07-26* — The token you create copies the original characteristics of the token as stated by the effect that created that token (unless that token is copying something else; see below). It doesn't copy whether that token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
   - *2024-07-26* — You can't pay a gift cost more than once.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#octomancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/37/octomancer) · oracle_id `1cf7e5a0-cc8f-4bf7-9767-2f3bcae26339` · printing: BLC #37 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octo Opus
@@ -206,6 +209,7 @@ schema: 2
   - *2022-10-07* — If you’re not using a printed token or another Magic card to represent the token, you can’t fold it in half. Its power, toughness, and the number of folds it has (zero) remains the same.
   - *2022-10-07* — Sacrificing Octo Opus has no effect on Contortionist. It will still have the ability to fold in half at the beginning of your upkeep, but doing so is optional.
   - *2022-10-07* — To represent the token, you have three choices: (1) Use the printed token included in some Unfinity booster packs, (2) use another printed Magic card or token as a substitute, or (3) use anything else, read the next ruling, and be slightly sad.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#octo-opus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/54/octo-opus) · oracle_id `aaae8413-2a92-421c-af3f-8fe2284f3506` · printing: UNF #54 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octoprophet
@@ -232,6 +236,7 @@ schema: 2
   > *A skilled Waterbender is always well armed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3136 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#octopus-form)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/66/octopus-form) · oracle_id `6fec368d-374d-4318-861b-ff478ba51a3c` · printing: TLA #66 (2025-11-21) · [rulings](https://api.scryfall.com/cards/ce96a826-53a0-4029-bf34-46779d133b13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octopus Umbra

@@ -122,6 +122,7 @@ schema: 2
   > *Every movement is a summons—even your screams.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1236 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/A.md#arachnogenesis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/169/arachnogenesis) · oracle_id `b655bee5-52d3-467e-b16c-cfc2edf2b1a1` · printing: DSC #169 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f5f18431-64c0-4ae5-bdc1-1e953313f086/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arachnoid
@@ -230,6 +231,7 @@ schema: 2
   - *2024-03-08* — To enlist a creature, that creature must be untapped, it must not be attacking (even if it has vigilance), and it must have haste or have been under that attacking player’s control since the beginning of their current turn.
   - *2024-03-08* — When a player taps a creature for an attacking creature’s enlist ability, that attacking creature gets +X/+0 until end of turn, where X is the tapped creature’s power. This is a triggered ability that goes on the stack immediately after attackers have been declared in the declare attackers step.
   - *2024-03-08* — You may tap only one creature for an enlist ability of an attacking creature, and a single creature can’t be tapped for more than one enlist ability.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#aradesh-the-founder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/9/aradesh-the-founder) · oracle_id `32620b26-10b9-47a7-bfa7-ca590ab5fa50` · printing: PIP #9 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aragorn and Arwen, Wed
@@ -276,6 +278,7 @@ schema: 2
   - *2023-11-03* — If a creature has multiple instances of renown, each triggers separately. The first one that resolves causes the creature to become renowned, which means any additional renown abilities that creature has will have no effect. The creature's controller chooses what order to put those renown abilities on the stack, so they can choose to have the ability with the higher renown number resolve first.
   - *2023-11-03* — Renown won't trigger when a creature deals damage to a planeswalker, a battle, or another creature. It also won't trigger when a creature deals noncombat damage to a player.
   - *2023-11-03* — When a creature you control that isn't renowned deals combat damage to a player, you'll put a +1/+1 counter on it and it will become renowned. Since it wasn't renowned when it dealt combat damage, Aragorn, Hornburg Hero's last ability won't trigger, and you won't double the number of +1/+1 counters on it.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#aragorn-hornburg-hero)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/492/aragorn-hornburg-hero) · oracle_id `07326335-45dd-4ebd-8ae6-5191b6eb2928` · printing: LTC #492 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aragorn, King of Gondor
@@ -298,6 +301,7 @@ schema: 2
   - *2023-06-16* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
   - *2023-06-16* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
   - *2023-06-16* — When Aragorn, King of Gondor's last ability triggers, you can choose not to target a creature, probably because you're the monarch and just want creatures to be unable to block this turn. However, if you do choose a target, and that target is illegal at the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. Creatures will still be able to block this turn, even if you're the monarch.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#aragorn-king-of-gondor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/5/aragorn-king-of-gondor) · oracle_id `be97c400-c690-426d-a39e-4082080a3823` · printing: LTC #5 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aragorn, the Uniter
@@ -334,6 +338,7 @@ schema: 2
   - *2017-08-25* — The value of X is determined only as Arahbo's last ability resolves. If the attacking Cat's power is negative at that time, X is 0.
   - *2017-08-25* — This commander's eminence ability is a triggered ability. The commander must be on the battlefield or in the command zone as the trigger event occurs and also as the triggered ability resolves. If the commander is in an appropriate zone as the trigger event occurs but leaves that zone, the ability won't do anything as it resolves.
   - *2017-08-25* — While resolving Arahbo's last ability, you can't pay {1}{G}{W} multiple times to multiply the effect for one Cat.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/A.md#arahbo-roar-of-the-world)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/35/arahbo-roar-of-the-world) · oracle_id `66944a11-40a1-4f3a-9f83-52324e0edfef` · printing: C17 #35 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arahbo, the First Fang
@@ -349,6 +354,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3700 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — If Arahbo enters at the same time as one or more nontoken Cats you control, its last ability will trigger once for each of those Cats (as well as itself).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#arahbo-the-first-fang)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/2/arahbo-the-first-fang) · oracle_id `dfec65a0-6fb6-463d-aa62-e84a427db217` · printing: FDN #2 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Araña, Heart of the Spider
@@ -364,6 +370,7 @@ schema: 2
   - *2025-09-19* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
   - *2025-09-19* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
   - *2025-09-19* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#araña-heart-of-the-spider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/123/ara%C3%B1a-heart-of-the-spider) · oracle_id `a16037f2-a0f6-465d-8d6e-cec34b4a6320` · printing: SPM #123 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arashin Cleric
@@ -479,6 +486,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1024 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2020-01-24* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/A.md#arasta-of-the-endless-web)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/244/arasta-of-the-endless-web) · oracle_id `695eea46-1535-48c5-bbb6-0b8379e77bfc` · printing: TDC #244 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Araumi of the Dead Tide

@@ -51,10 +51,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 78 Oracle cards · 74 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Mirrodin (2003-10-02)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as affinity for artifacts). The mana value of the spell remains unchanged, no matter what the total cost to cast it was." (2 cards, e.g. [[Utrom Monitor]], 2026-01-27)
-- "Affinity can reduce only the generic mana in a spell's total cost. It can't reduce colored mana requirements." (1 card, e.g. [[Ethersworn Sphinx]], 2021-06-18)
+- "To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as affinity for artifacts). The mana value of the spell remains unchanged, no matter what the total cost to cast it was." (2 cards, e.g. [Utrom Monitor](cards/U/ut.md#utrom-monitor), 2026-01-27)
+- "Affinity can reduce only the generic mana in a spell's total cost. It can't reduce colored mana requirements." (1 card, e.g. [Ethersworn Sphinx](cards/E/et.md#ethersworn-sphinx), 2021-06-18)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Emry, Lurker of the Loch]], [[Mycosynth Golem]], [[Sapling Nursery]]
+**Examples (Commander-legal; each entry includes its rulings):** [Emry, Lurker of the Loch](cards/E/em.md#emry-lurker-of-the-loch), [Mycosynth Golem](cards/M/my.md#mycosynth-golem), [Sapling Nursery](cards/S/sap.md#sapling-nursery)
 
 #### Afflict
 
@@ -67,10 +67,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 11 Oracle cards · 11 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Hour of Devastation (2017-07-14)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Afflict causes the defending player to lose life; it's not damage or combat damage." (9 cards, e.g. [[Wildfire Eternal]], 2017-07-14)
-- "Afflict resolves before combat damage is dealt. If this loss of life brings a player to 0 life or less, that player loses the game immediately. A blocking creature with lifelink won't deal combat damage in time to save that player." (9 cards, e.g. [[Wildfire Eternal]], 2017-07-14)
+- "Afflict causes the defending player to lose life; it's not damage or combat damage." (9 cards, e.g. [Wildfire Eternal](cards/W/wi.md#wildfire-eternal), 2017-07-14)
+- "Afflict resolves before combat damage is dealt. If this loss of life brings a player to 0 life or less, that player loses the game immediately. A blocking creature with lifelink won't deal combat damage in time to save that player." (9 cards, e.g. [Wildfire Eternal](cards/W/wi.md#wildfire-eternal), 2017-07-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Neheb, the Eternal]], [[Ammit Eternal]], [[Wildfire Eternal]]
+**Examples (Commander-legal; each entry includes its rulings):** [Neheb, the Eternal](cards/N/ne.md#neheb-the-eternal), [Ammit Eternal](cards/A/am.md#ammit-eternal), [Wildfire Eternal](cards/W/wi.md#wildfire-eternal)
 
 #### Afterlife
 
@@ -83,10 +83,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 11 Oracle cards · 11 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Ravnica Allegiance (2019-01-25)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Because blockers are chosen all at once, you can't block with a creature with afterlife, wait for it to die, then block with the resulting Spirit tokens." (11 cards, e.g. [[Indebted Spirit]], 2024-06-07)
-- "If Indebted Spirit is put into a graveyard from the battlefield while it's an Aura, its afterlife ability will still trigger." (1 card, e.g. [[Indebted Spirit]], 2024-06-07)
+- "Because blockers are chosen all at once, you can't block with a creature with afterlife, wait for it to die, then block with the resulting Spirit tokens." (11 cards, e.g. [Indebted Spirit](cards/I/ind.md#indebted-spirit), 2024-06-07)
+- "If Indebted Spirit is put into a graveyard from the battlefield while it's an Aura, its afterlife ability will still trigger." (1 card, e.g. [Indebted Spirit](cards/I/ind.md#indebted-spirit), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Tithe Taker]], [[Indebted Spirit]], [[Ministrant of Obligation]]
+**Examples (Commander-legal; each entry includes its rulings):** [Tithe Taker](cards/T/ti.md#tithe-taker), [Indebted Spirit](cards/I/ind.md#indebted-spirit), [Ministrant of Obligation](cards/M/min.md#ministrant-of-obligation)
 
 #### Aftermath
 
@@ -99,10 +99,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 27 Oracle cards · 27 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Amonkhet (2017-04-28)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way." (27 cards, e.g. [[Indulge // Excess]], 2022-04-29)
-- "If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack." (27 cards, e.g. [[Indulge // Excess]], 2022-04-29)
+- "A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way." (27 cards, e.g. [Indulge // Excess](cards/I/ind.md#indulge--excess), 2022-04-29)
+- "If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack." (27 cards, e.g. [Indulge // Excess](cards/I/ind.md#indulge--excess), 2022-04-29)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Dusk // Dawn]], [[Commit // Memory]], [[Insult // Injury]]
+**Examples (Commander-legal; each entry includes its rulings):** [Dusk // Dawn](cards/D/du.md#dusk--dawn), [Commit // Memory](cards/C/com.md#commit--memory), [Insult // Injury](cards/I/ins.md#insult--injury)
 
 #### Amplify
 
@@ -114,7 +114,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 9 Oracle cards · 9 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Legions Promos (2003-01-25)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Canopy Crawler]], [[Kilnmouth Dragon]], [[Feral Throwback]]
+**Examples (Commander-legal; each entry includes its rulings):** [Canopy Crawler](cards/C/can.md#canopy-crawler), [Kilnmouth Dragon](cards/K/ki.md#kilnmouth-dragon), [Feral Throwback](cards/F/fe.md#feral-throwback)
 
 #### Annihilator
 
@@ -127,10 +127,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 14 Oracle cards · 13 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Rise of the Eldrazi (2010-04-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything." (14 cards, e.g. [[Nulldrifter]], 2024-06-07)
-- "Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block." (10 cards, e.g. [[Flayer of Loyalties]], 2023-07-28)
+- "If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything." (14 cards, e.g. [Nulldrifter](cards/N/nu.md#nulldrifter), 2024-06-07)
+- "Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block." (10 cards, e.g. [Flayer of Loyalties](cards/F/fl.md#flayer-of-loyalties), 2023-07-28)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Kozilek, Butcher of Truth]], [[Artisan of Kozilek]], [[Ulamog, the Infinite Gyre]]
+**Examples (Commander-legal; each entry includes its rulings):** [Kozilek, Butcher of Truth](cards/K/ko.md#kozilek-butcher-of-truth), [Artisan of Kozilek](cards/A/art.md#artisan-of-kozilek), [Ulamog, the Infinite Gyre](cards/U/ul.md#ulamog-the-infinite-gyre)
 
 #### Ascend
 
@@ -143,10 +143,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 30 Oracle cards · 27 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Rivals of Ixalan (2018-01-19)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you cast a spell with ascend, you don't get the city's blessing until it resolves. Players may respond to that spell by trying to change whether you get the city's blessing." (25 cards, e.g. [[Detective of the Month]], 2024-02-02)
-- "If you control ten permanents but don't control a permanent or resolving spell with ascend, you don't get the city's blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won't have the city's blessing and the spell will affect creatures you control." (23 cards, e.g. [[Wayward Swordtooth]], 2018-01-19)
+- "If you cast a spell with ascend, you don't get the city's blessing until it resolves. Players may respond to that spell by trying to change whether you get the city's blessing." (25 cards, e.g. [Detective of the Month](cards/D/det.md#detective-of-the-month), 2024-02-02)
+- "If you control ten permanents but don't control a permanent or resolving spell with ascend, you don't get the city's blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won't have the city's blessing and the spell will affect creatures you control." (23 cards, e.g. [Wayward Swordtooth](cards/W/way.md#wayward-swordtooth), 2018-01-19)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Wayward Swordtooth]], [[Ocelot Pride]], [[Twilight Prophet]]
+**Examples (Commander-legal; each entry includes its rulings):** [Wayward Swordtooth](cards/W/way.md#wayward-swordtooth), [Ocelot Pride](cards/O/oc.md#ocelot-pride), [Twilight Prophet](cards/T/tw.md#twilight-prophet)
 
 #### Assist
 
@@ -159,10 +159,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 17 Oracle cards · 16 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Battlebond (2018-06-08)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Assist allows another player to pay for any amount of generic mana. If an effect changes the cost of the spell, the amount that player may pay will be more or less than the amount in the spell's reminder text." (16 cards, e.g. [[Vampire Charmseeker]], 2018-06-08)
-- "Only the generic mana portion of a spell's cost can be paid with assist. Any colored mana costs must be paid by the spell's controller, even if the assisting player paid mana of that color." (16 cards, e.g. [[Vampire Charmseeker]], 2018-06-08)
+- "Assist allows another player to pay for any amount of generic mana. If an effect changes the cost of the spell, the amount that player may pay will be more or less than the amount in the spell's reminder text." (16 cards, e.g. [Vampire Charmseeker](cards/V/va.md#vampire-charmseeker), 2018-06-08)
+- "Only the generic mana portion of a spell's cost can be paid with assist. Any colored mana costs must be paid by the spell's controller, even if the assisting player paid mana of that color." (16 cards, e.g. [Vampire Charmseeker](cards/V/va.md#vampire-charmseeker), 2018-06-08)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Game Plan]], [[Play of the Game]], [[Out of Bounds]]
+**Examples (Commander-legal; each entry includes its rulings):** [Game Plan](cards/G/ga.md#game-plan), [Play of the Game](cards/P/pl.md#play-of-the-game), [Out of Bounds](cards/O/ou.md#out-of-bounds)
 
 #### Aura Swap
 
@@ -174,7 +174,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 1 Oracle cards · 1 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Future Sight (2007-05-04)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Arcanum Wings]]
+**Examples (Commander-legal; each entry includes its rulings):** [Arcanum Wings](cards/A/arc.md#arcanum-wings)
 
 #### Awaken
 
@@ -187,10 +187,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 15 Oracle cards · 15 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Duel Decks: Zendikar vs. Eldrazi (2015-08-28)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Awaken doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless." (15 cards, e.g. [[Sheer Drop]], 2015-08-25)
-- "If a spell with awaken has multiple targets (including the land you control), and some but not all of those targets become illegal by the time the spell tries to resolve, the spell won't affect the illegal targets in any way." (15 cards, e.g. [[Sheer Drop]], 2015-08-25)
+- "Awaken doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless." (15 cards, e.g. [Sheer Drop](cards/S/she.md#sheer-drop), 2015-08-25)
+- "If a spell with awaken has multiple targets (including the land you control), and some but not all of those targets become illegal by the time the spell tries to resolve, the spell won't affect the illegal targets in any way." (15 cards, e.g. [Sheer Drop](cards/S/she.md#sheer-drop), 2015-08-25)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Part the Waterveil]], [[Planar Outburst]], [[Boiling Earth]]
+**Examples (Commander-legal; each entry includes its rulings):** [Part the Waterveil](cards/P/pa.md#part-the-waterveil), [Planar Outburst](cards/P/pl.md#planar-outburst), [Boiling Earth](cards/B/bo.md#boiling-earth)
 
 ### Abilities: B
 
@@ -205,10 +205,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 26 Oracle cards · 25 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): March of the Machine (2023-04-21)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Backup confers only abilities that are actually printed below it. Any abilities that are gained by the permanent are ignored, including abilities gained due to a resolving spell or ability or copy effects." (25 cards, e.g. [[Voldaren Thrillseeker]], 2023-04-14)
-- "If a backup ability causes another creature to gain abilities, the creature with backup will still have those abilities." (25 cards, e.g. [[Voldaren Thrillseeker]], 2023-04-14)
+- "Backup confers only abilities that are actually printed below it. Any abilities that are gained by the permanent are ignored, including abilities gained due to a resolving spell or ability or copy effects." (25 cards, e.g. [Voldaren Thrillseeker](cards/V/vo.md#voldaren-thrillseeker), 2023-04-14)
+- "If a backup ability causes another creature to gain abilities, the creature with backup will still have those abilities." (25 cards, e.g. [Voldaren Thrillseeker](cards/V/vo.md#voldaren-thrillseeker), 2023-04-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Archpriest of Shadows]], [[Guardian Scalelord]], [[Emergent Woodwurm]]
+**Examples (Commander-legal; each entry includes its rulings):** [Archpriest of Shadows](cards/A/arc.md#archpriest-of-shadows), [Guardian Scalelord](cards/G/gu.md#guardian-scalelord), [Emergent Woodwurm](cards/E/em.md#emergent-woodwurm)
 
 #### Banding
 
@@ -221,10 +221,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 26 Oracle cards · 24 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Limited Edition Alpha (1993-08-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it." (24 cards, e.g. [[Chatzuk, Mighty Guitarist]], 2024-11-08)
-- "If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it." (24 cards, e.g. [[Chatzuk, Mighty Guitarist]], 2024-11-08)
+- "A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it." (24 cards, e.g. [Chatzuk, Mighty Guitarist](cards/C/cha.md#chatzuk-mighty-guitarist), 2024-11-08)
+- "If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it." (24 cards, e.g. [Chatzuk, Mighty Guitarist](cards/C/cha.md#chatzuk-mighty-guitarist), 2024-11-08)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Benalish Hero]], [[Mesa Pegasus]], [[Kjeldoran Warrior]]
+**Examples (Commander-legal; each entry includes its rulings):** [Benalish Hero](cards/B/be.md#benalish-hero), [Mesa Pegasus](cards/M/me.md#mesa-pegasus), [Kjeldoran Warrior](cards/K/kj.md#kjeldoran-warrior)
 
 #### Bargain
 
@@ -237,10 +237,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 20 Oracle cards · 20 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Wilds of Eldraine (2023-09-08)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Bargain means "As an additional cost to cast this spell, you may sacrifice an artifact, enchantment, or token."" (20 cards, e.g. [[Troublemaker Ouphe]], 2023-09-01)
-- "Bargain represents an optional additional cost. A spell cast with that additional cost paid is "bargained."" (20 cards, e.g. [[Troublemaker Ouphe]], 2023-09-01)
+- "Bargain means "As an additional cost to cast this spell, you may sacrifice an artifact, enchantment, or token."" (20 cards, e.g. [Troublemaker Ouphe](cards/T/tro.md#troublemaker-ouphe), 2023-09-01)
+- "Bargain represents an optional additional cost. A spell cast with that additional cost paid is "bargained."" (20 cards, e.g. [Troublemaker Ouphe](cards/T/tro.md#troublemaker-ouphe), 2023-09-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Beseech the Mirror]], [[Back for Seconds]], [[Ice Out]]
+**Examples (Commander-legal; each entry includes its rulings):** [Beseech the Mirror](cards/B/be.md#beseech-the-mirror), [Back for Seconds](cards/B/bac.md#back-for-seconds), [Ice Out](cards/I/ic.md#ice-out)
 
 #### Battle Cry
 
@@ -253,9 +253,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 15 Oracle cards · 14 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Mirrodin Besieged Promos (2011-02-03)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Whenever Hero of Bladehold attacks, both abilities will trigger. You can put them onto the stack in any order. If the token-creating ability resolves first, the tokens each get +1/+0 until end of turn from the battle cry ability." (1 card, e.g. [[Hero of Bladehold]], 2011-06-01)
+- "Whenever Hero of Bladehold attacks, both abilities will trigger. You can put them onto the stack in any order. If the token-creating ability resolves first, the tokens each get +1/+0 until end of turn from the battle cry ability." (1 card, e.g. [Hero of Bladehold](cards/H/he.md#hero-of-bladehold), 2011-06-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Hero of Bladehold]], [[Iraxxa, Empress of Mars]], [[Ria Ivor, Bane of Bladehold]]
+**Examples (Commander-legal; each entry includes its rulings):** [Hero of Bladehold](cards/H/he.md#hero-of-bladehold), [Iraxxa, Empress of Mars](cards/I/ir.md#iraxxa-empress-of-mars), [Ria Ivor, Bane of Bladehold](cards/R/ri.md#ria-ivor-bane-of-bladehold)
 
 #### Bestow
 
@@ -268,10 +268,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 43 Oracle cards · 43 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Theros Promos (2013-09-21)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature." (43 cards, e.g. [[Triton Wavebreaker]], 2024-06-07)
-- "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura." (43 cards, e.g. [[Triton Wavebreaker]], 2024-06-07)
+- "Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature." (43 cards, e.g. [Triton Wavebreaker](cards/T/tri.md#triton-wavebreaker), 2024-06-07)
+- "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura." (43 cards, e.g. [Triton Wavebreaker](cards/T/tri.md#triton-wavebreaker), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Springheart Nantuko]], [[Nyxborn Hydra]], [[Eidolon of Countless Battles]]
+**Examples (Commander-legal; each entry includes its rulings):** [Springheart Nantuko](cards/S/spr.md#springheart-nantuko), [Nyxborn Hydra](cards/N/ny.md#nyxborn-hydra), [Eidolon of Countless Battles](cards/E/ei.md#eidolon-of-countless-battles)
 
 #### Blitz
 
@@ -284,10 +284,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 17 Oracle cards · 17 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Game Day Promos (2022-04-08)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you choose to pay the blitz cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its blitz cost only if you could cast that creature spell. Most of the time, this means during your main phase when the stack is empty." (17 cards, e.g. [[Sabin, Master Monk]], 2025-06-06)
-- "If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is." (17 cards, e.g. [[Sabin, Master Monk]], 2025-06-06)
+- "If you choose to pay the blitz cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its blitz cost only if you could cast that creature spell. Most of the time, this means during your main phase when the stack is empty." (17 cards, e.g. [Sabin, Master Monk](cards/S/sab.md#sabin-master-monk), 2025-06-06)
+- "If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is." (17 cards, e.g. [Sabin, Master Monk](cards/S/sab.md#sabin-master-monk), 2025-06-06)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Jaxis, the Troublemaker]], [[Star Athlete]], [[Wave of Rats]]
+**Examples (Commander-legal; each entry includes its rulings):** [Jaxis, the Troublemaker](cards/J/ja.md#jaxis-the-troublemaker), [Star Athlete](cards/S/sta.md#star-athlete), [Wave of Rats](cards/W/wav.md#wave-of-rats)
 
 #### Bloodthirst
 
@@ -300,9 +300,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 23 Oracle cards · 23 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Salvat 2005 (2005-08-22)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Indoraptor, the Perfect Hybrid's bloodthirst ability counts all damage dealt to your opponents this turn, not just damage dealt by sources you control." (1 card, e.g. [[Indoraptor, the Perfect Hybrid]], 2023-11-10)
+- "Indoraptor, the Perfect Hybrid's bloodthirst ability counts all damage dealt to your opponents this turn, not just damage dealt by sources you control." (1 card, e.g. [Indoraptor, the Perfect Hybrid](cards/I/ind.md#indoraptor-the-perfect-hybrid), 2023-11-10)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Indoraptor, the Perfect Hybrid]], [[Bloodlord of Vaasgoth]], [[Skarrgan Firebird]]
+**Examples (Commander-legal; each entry includes its rulings):** [Indoraptor, the Perfect Hybrid](cards/I/ind.md#indoraptor-the-perfect-hybrid), [Bloodlord of Vaasgoth](cards/B/blo.md#bloodlord-of-vaasgoth), [Skarrgan Firebird](cards/S/sk.md#skarrgan-firebird)
 
 #### Boast
 
@@ -315,10 +315,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 18 Oracle cards · 18 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Kaldheim (2021-02-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A boast ability can be activated at any point after the creature with that ability has been declared as an attacker. This can be before blockers are declared, after blockers are declared but before combat damage is dealt, during combat after combat damage is dealt, during the postcombat main phase, during the end step, or, in some unusual cases, during the cleanup step." (17 cards, e.g. [[Sigurd, Jarl of Ravensthorpe]], 2024-07-05)
-- "If a creature with a boast ability is put onto the battlefield attacking, it was never declared as an attacker. Its boast ability can't be activated that turn." (17 cards, e.g. [[Sigurd, Jarl of Ravensthorpe]], 2024-07-05)
+- "A boast ability can be activated at any point after the creature with that ability has been declared as an attacker. This can be before blockers are declared, after blockers are declared but before combat damage is dealt, during combat after combat damage is dealt, during the postcombat main phase, during the end step, or, in some unusual cases, during the cleanup step." (17 cards, e.g. [Sigurd, Jarl of Ravensthorpe](cards/S/si.md#sigurd-jarl-of-ravensthorpe), 2024-07-05)
+- "If a creature with a boast ability is put onto the battlefield attacking, it was never declared as an attacker. Its boast ability can't be activated that turn." (17 cards, e.g. [Sigurd, Jarl of Ravensthorpe](cards/S/si.md#sigurd-jarl-of-ravensthorpe), 2024-07-05)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Varragoth, Bloodsky Sire]], [[Broadside Bombardiers]], [[Sigurd, Jarl of Ravensthorpe]]
+**Examples (Commander-legal; each entry includes its rulings):** [Varragoth, Bloodsky Sire](cards/V/va.md#varragoth-bloodsky-sire), [Broadside Bombardiers](cards/B/br.md#broadside-bombardiers), [Sigurd, Jarl of Ravensthorpe](cards/S/si.md#sigurd-jarl-of-ravensthorpe)
 
 #### Bushido
 
@@ -331,9 +331,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 38 Oracle cards · 37 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Champions of Kamigawa (2004-10-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Note that multiple instances of the bushido ability each trigger separately." (1 card, e.g. [[Sensei Golden-Tail]], 2004-12-01)
+- "Note that multiple instances of the bushido ability each trigger separately." (1 card, e.g. [Sensei Golden-Tail](cards/S/sen.md#sensei-golden-tail), 2004-12-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Toshiro Umezawa]], [[Sensei Golden-Tail]], [[Kentaro, the Smiling Cat]]
+**Examples (Commander-legal; each entry includes its rulings):** [Toshiro Umezawa](cards/T/to.md#toshiro-umezawa), [Sensei Golden-Tail](cards/S/sen.md#sensei-golden-tail), [Kentaro, the Smiling Cat](cards/K/ke.md#kentaro-the-smiling-cat)
 
 #### Buyback
 
@@ -346,9 +346,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 41 Oracle cards · 39 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Tempest (1997-10-14)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Flashback and buyback don't mix. If you cast Blast from the Past using flashback, it will be exiled rather than go back to your hand." (1 card, e.g. [[Blast from the Past]], 2020-02-29)
+- "Flashback and buyback don't mix. If you cast Blast from the Past using flashback, it will be exiled rather than go back to your hand." (1 card, e.g. [Blast from the Past](cards/B/bla.md#blast-from-the-past), 2020-02-29)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Reiterate]], [[Clockspinning]], [[Haze of Rage]]
+**Examples (Commander-legal; each entry includes its rulings):** [Reiterate](cards/R/rei.md#reiterate), [Clockspinning](cards/C/cl.md#clockspinning), [Haze of Rage](cards/H/ha.md#haze-of-rage)
 
 ### Abilities: C
 
@@ -363,10 +363,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 38 Oracle cards · 37 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Alara Reborn (2009-04-30)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade." (36 cards, e.g. [[Quandrix, the Proof]], 2026-03-20)
-- "If a spell with cascade is countered, the cascade ability will still resolve normally." (36 cards, e.g. [[Quandrix, the Proof]], 2026-03-20)
+- "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade." (36 cards, e.g. [Quandrix, the Proof](cards/Q/qu.md#quandrix-the-proof), 2026-03-20)
+- "If a spell with cascade is countered, the cascade ability will still resolve normally." (36 cards, e.g. [Quandrix, the Proof](cards/Q/qu.md#quandrix-the-proof), 2026-03-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Apex Devastator]], [[Maelstrom Wanderer]], [[Call Forth the Tempest]]
+**Examples (Commander-legal; each entry includes its rulings):** [Apex Devastator](cards/A/ap.md#apex-devastator), [Maelstrom Wanderer](cards/M/mae.md#maelstrom-wanderer), [Call Forth the Tempest](cards/C/cal.md#call-forth-the-tempest)
 
 #### Casualty
 
@@ -379,10 +379,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 15 Oracle cards · 15 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Streets of New Capenna Promos (2022-04-29)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Casualty N means "As an additional cost to cast this spell, you may sacrifice a creature with power N or greater." and "When you cast this spell, if a casualty cost was paid for it, copy it. If the spell has any targets, you may choose new targets for the copy."" (15 cards, e.g. [[Xander's Pact]], 2022-04-29)
-- "If you pay the casualty cost of a spell, the copy will resolve before the original spell." (15 cards, e.g. [[Xander's Pact]], 2022-04-29)
+- "Casualty N means "As an additional cost to cast this spell, you may sacrifice a creature with power N or greater." and "When you cast this spell, if a casualty cost was paid for it, copy it. If the spell has any targets, you may choose new targets for the copy."" (15 cards, e.g. [Xander's Pact](cards/X/xa.md#xanders-pact), 2022-04-29)
+- "If you pay the casualty cost of a spell, the copy will resolve before the original spell." (15 cards, e.g. [Xander's Pact](cards/X/xa.md#xanders-pact), 2022-04-29)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Cut Your Losses]], [[Ob Nixilis, the Adversary]], [[Rob the Archives]]
+**Examples (Commander-legal; each entry includes its rulings):** [Cut Your Losses](cards/C/cu.md#cut-your-losses), [Ob Nixilis, the Adversary](cards/O/ob.md#ob-nixilis-the-adversary), [Rob the Archives](cards/R/ro.md#rob-the-archives)
 
 #### Champion
 
@@ -394,7 +394,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 12 Oracle cards · 12 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Lorwyn Promos (2007-09-27)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Wren's Run Packmaster]], [[Wanderwine Prophets]], [[Mistbind Clique]]
+**Examples (Commander-legal; each entry includes its rulings):** [Wren's Run Packmaster](cards/W/wr.md#wrens-run-packmaster), [Wanderwine Prophets](cards/W/wan.md#wanderwine-prophets), [Mistbind Clique](cards/M/mis.md#mistbind-clique)
 
 #### Changeling
 
@@ -407,10 +407,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 66 Oracle cards · 62 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Lorwyn (2007-10-12)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Changeling is a characteristic-defining ability. It functions in all zones, not only while a card that has it is on the battlefield." (26 cards, e.g. [[Sizzling Changeling]], 2025-11-17)
-- "If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it." (26 cards, e.g. [[Sizzling Changeling]], 2025-11-17)
+- "Changeling is a characteristic-defining ability. It functions in all zones, not only while a card that has it is on the battlefield." (26 cards, e.g. [Sizzling Changeling](cards/S/si.md#sizzling-changeling), 2025-11-17)
+- "If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it." (26 cards, e.g. [Sizzling Changeling](cards/S/si.md#sizzling-changeling), 2025-11-17)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Realmwalker]], [[Taurean Mauler]], [[Mirror Entity]]
+**Examples (Commander-legal; each entry includes its rulings):** [Realmwalker](cards/R/rea.md#realmwalker), [Taurean Mauler](cards/T/ta.md#taurean-mauler), [Mirror Entity](cards/M/mir.md#mirror-entity)
 
 #### Cipher
 
@@ -423,10 +423,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 15 Oracle cards · 15 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Gatecrash (2013-02-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature." (15 cards, e.g. [[Arcane Heist]], 2024-04-12)
-- "The copy of the card with cipher is created in and cast from exile." (15 cards, e.g. [[Arcane Heist]], 2024-04-12)
+- "If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature." (15 cards, e.g. [Arcane Heist](cards/A/arc.md#arcane-heist), 2024-04-12)
+- "The copy of the card with cipher is created in and cast from exile." (15 cards, e.g. [Arcane Heist](cards/A/arc.md#arcane-heist), 2024-04-12)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Whispering Madness]], [[Hidden Strings]], [[Stolen Identity]]
+**Examples (Commander-legal; each entry includes its rulings):** [Whispering Madness](cards/W/wh.md#whispering-madness), [Hidden Strings](cards/H/hi.md#hidden-strings), [Stolen Identity](cards/S/sto.md#stolen-identity)
 
 #### Cleave
 
@@ -439,10 +439,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 12 Oracle cards · 12 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Innistrad: Crimson Vow (2021-11-19)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A cleave cost is an alternative cost that's paid instead of the spell's mana cost. Casting a spell for its cleave cost doesn't change the spell's mana value." (12 cards, e.g. [[Winged Portent]], 2021-11-19)
-- "If an effect allows you to "cast a spell without paying its mana cost," you can't cast that spell for its cleave cost." (12 cards, e.g. [[Winged Portent]], 2021-11-19)
+- "A cleave cost is an alternative cost that's paid instead of the spell's mana cost. Casting a spell for its cleave cost doesn't change the spell's mana value." (12 cards, e.g. [Winged Portent](cards/W/wi.md#winged-portent), 2021-11-19)
+- "If an effect allows you to "cast a spell without paying its mana cost," you can't cast that spell for its cleave cost." (12 cards, e.g. [Winged Portent](cards/W/wi.md#winged-portent), 2021-11-19)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Wash Away]], [[Dig Up]], [[Alchemist's Retrieval]]
+**Examples (Commander-legal; each entry includes its rulings):** [Wash Away](cards/W/was.md#wash-away), [Dig Up](cards/D/di.md#dig-up), [Alchemist's Retrieval](cards/A/al.md#alchemists-retrieval)
 
 #### Companion
 
@@ -455,10 +455,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 12 Oracle cards · 10 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Ikoria: Lair of Behemoths Promos (2020-04-24)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions." (19 cards, e.g. [[Lutri, Pauper Otter]], 2024-11-08)
-- "Before shuffling your deck to become your library, you may reveal one card from outside the game to be your companion if your starting deck meets the requirements of the companion ability. You can't reveal more than one. It remains revealed outside the game as the game begins." (10 cards, e.g. [[Lutri, Pauper Otter]], 2024-11-08)
+- "Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions." (19 cards, e.g. [Lutri, Pauper Otter](cards/L/lu.md#lutri-pauper-otter), 2024-11-08)
+- "Before shuffling your deck to become your library, you may reveal one card from outside the game to be your companion if your starting deck meets the requirements of the companion ability. You can't reveal more than one. It remains revealed outside the game as the game begins." (10 cards, e.g. [Lutri, Pauper Otter](cards/L/lu.md#lutri-pauper-otter), 2024-11-08)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Lurrus of the Dream-Den]], [[Zirda, the Dawnwaker]], [[Jegantha, the Wellspring]]
+**Examples (Commander-legal; each entry includes its rulings):** [Lurrus of the Dream-Den](cards/L/lu.md#lurrus-of-the-dream-den), [Zirda, the Dawnwaker](cards/Z/zi.md#zirda-the-dawnwaker), [Jegantha, the Wellspring](cards/J/je.md#jegantha-the-wellspring)
 
 #### Compleated
 
@@ -471,10 +471,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 7 Oracle cards · 7 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Kamigawa: Neon Dynasty Promos (2022-02-18)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "The compleated ability looks only at whether a player chose to pay 2 life for a Phyrexian mana symbol as they were casting the spell. If a player paid life for some other reason while casting the spell, that will not reduce the number of loyalty counters the planeswalker enters the battlefield with." (7 cards, e.g. [[Vraska, Betrayal's Sting]], 2023-02-04)
-- "Compleated is a replacement effect, and it applies only to a permanent that is entering the battlefield with loyalty counters. Any other replacement effect that would apply to the number of loyalty counters it enters the battlefield with will apply as normal." (2 cards, e.g. [[Ajani, Sleeper Agent]], 2022-09-09)
+- "The compleated ability looks only at whether a player chose to pay 2 life for a Phyrexian mana symbol as they were casting the spell. If a player paid life for some other reason while casting the spell, that will not reduce the number of loyalty counters the planeswalker enters the battlefield with." (7 cards, e.g. [Vraska, Betrayal's Sting](cards/V/vr.md#vraska-betrayals-sting), 2023-02-04)
+- "Compleated is a replacement effect, and it applies only to a permanent that is entering the battlefield with loyalty counters. Any other replacement effect that would apply to the number of loyalty counters it enters the battlefield with will apply as normal." (2 cards, e.g. [Ajani, Sleeper Agent](cards/A/aj.md#ajani-sleeper-agent), 2022-09-09)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Vraska, Betrayal's Sting]], [[Nissa, Ascended Animist]], [[Jace, the Perfected Mind]]
+**Examples (Commander-legal; each entry includes its rulings):** [Vraska, Betrayal's Sting](cards/V/vr.md#vraska-betrayals-sting), [Nissa, Ascended Animist](cards/N/ni.md#nissa-ascended-animist), [Jace, the Perfected Mind](cards/J/ja.md#jace-the-perfected-mind)
 
 #### Conspire
 
@@ -487,9 +487,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 11 Oracle cards · 11 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Shadowmoor (2008-05-02)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with conspire won't affect the copy, and vice versa." (1 card, e.g. [[Rally the Galadhrim]], 2023-11-03)
+- "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with conspire won't affect the copy, and vice versa." (1 card, e.g. [Rally the Galadhrim](cards/R/ral.md#rally-the-galadhrim), 2023-11-03)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Rally the Galadhrim]], [[Traitor's Roar]], [[Giantbaiting]]
+**Examples (Commander-legal; each entry includes its rulings):** [Rally the Galadhrim](cards/R/ral.md#rally-the-galadhrim), [Traitor's Roar](cards/T/tra.md#traitors-roar), [Giantbaiting](cards/G/gi.md#giantbaiting)
 
 #### Convoke
 
@@ -502,10 +502,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 104 Oracle cards · 104 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Salvat 2005 (2005-08-22)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke." (101 cards, e.g. [[Winter, Team Player]], 2026-08-21)
-- "When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value." (101 cards, e.g. [[Winter, Team Player]], 2026-08-21)
+- "If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke." (101 cards, e.g. [Winter, Team Player](cards/W/wi.md#winter-team-player), 2026-08-21)
+- "When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value." (101 cards, e.g. [Winter, Team Player](cards/W/wi.md#winter-team-player), 2026-08-21)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Chord of Calling]], [[Clever Concealment]], [[City on Fire]]
+**Examples (Commander-legal; each entry includes its rulings):** [Chord of Calling](cards/C/cho.md#chord-of-calling), [Clever Concealment](cards/C/cl.md#clever-concealment), [City on Fire](cards/C/ci.md#city-on-fire)
 
 #### Craft
 
@@ -518,10 +518,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 24 Oracle cards · 24 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): The Lost Caverns of Ixalan Commander (2023-11-17)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield." (24 cards, e.g. [[Waterlogged Hulk // Watertight Gondola]], 2023-11-10)
-- "The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)" (24 cards, e.g. [[Waterlogged Hulk // Watertight Gondola]], 2023-11-10)
+- "If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield." (24 cards, e.g. [Waterlogged Hulk // Watertight Gondola](cards/W/wat.md#waterlogged-hulk--watertight-gondola), 2023-11-10)
+- "The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)" (24 cards, e.g. [Waterlogged Hulk // Watertight Gondola](cards/W/wat.md#waterlogged-hulk--watertight-gondola), 2023-11-10)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Tithing Blade // Consuming Sepulcher]], [[The Enigma Jewel // Locus of Enlightenment]], [[Altar of the Wretched // Wretched Bonemass]]
+**Examples (Commander-legal; each entry includes its rulings):** [Tithing Blade // Consuming Sepulcher](cards/T/ti.md#tithing-blade--consuming-sepulcher), [The Enigma Jewel // Locus of Enlightenment](cards/T/thee.md#the-enigma-jewel--locus-of-enlightenment), [Altar of the Wretched // Wretched Bonemass](cards/A/al.md#altar-of-the-wretched--wretched-bonemass)
 
 #### Crew
 
@@ -534,10 +534,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 192 Oracle cards · 181 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Kaladesh (2016-09-30)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature." (25 cards, e.g. [[Luxurious Locomotive]], 2024-04-12)
-- "You may tap more creatures than necessary to activate a crew ability." (25 cards, e.g. [[Luxurious Locomotive]], 2024-04-12)
+- "Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature." (25 cards, e.g. [Luxurious Locomotive](cards/L/lu.md#luxurious-locomotive), 2024-04-12)
+- "You may tap more creatures than necessary to activate a crew ability." (25 cards, e.g. [Luxurious Locomotive](cards/L/lu.md#luxurious-locomotive), 2024-04-12)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Hedge Shredder]], [[Smuggler's Copter]], [[Imposter Mech]]
+**Examples (Commander-legal; each entry includes its rulings):** [Hedge Shredder](cards/H/he.md#hedge-shredder), [Smuggler's Copter](cards/S/sm.md#smugglers-copter), [Imposter Mech](cards/I/im.md#imposter-mech)
 
 #### Cumulative Upkeep
 
@@ -550,10 +550,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 82 Oracle cards · 80 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Ice Age (1995-06-03)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if a permanent with "cumulative upkeep {1}" has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent." (26 cards, e.g. [[Yavimaya Ants]], 2008-10-01)
-- "Both the cumulative upkeep and the triggered ability trigger at the beginning of upkeep, so you can choose what order they resolve." (1 card, e.g. [[Tombstone Stairwell]], 2004-10-04)
+- "Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if a permanent with "cumulative upkeep {1}" has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent." (26 cards, e.g. [Yavimaya Ants](cards/Y/ya.md#yavimaya-ants), 2008-10-01)
+- "Both the cumulative upkeep and the triggered ability trigger at the beginning of upkeep, so you can choose what order they resolve." (1 card, e.g. [Tombstone Stairwell](cards/T/to.md#tombstone-stairwell), 2004-10-04)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Mystic Remora]], [[Glacial Chasm]], [[Braid of Fire]]
+**Examples (Commander-legal; each entry includes its rulings):** [Mystic Remora](cards/M/my.md#mystic-remora), [Glacial Chasm](cards/G/gl.md#glacial-chasm), [Braid of Fire](cards/B/br.md#braid-of-fire)
 
 #### Cycling
 
@@ -566,10 +566,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 405 Oracle cards · 394 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Urza's Saga (1998-10-12)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not." (55 cards, e.g. [[Yoked Plowbeast]], 2008-10-01)
-- "When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability." (31 cards, e.g. [[Vizier of Tumbling Sands]], 2022-12-08)
+- "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not." (55 cards, e.g. [Yoked Plowbeast](cards/Y/yo.md#yoked-plowbeast), 2008-10-01)
+- "When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability." (31 cards, e.g. [Vizier of Tumbling Sands](cards/V/vi.md#vizier-of-tumbling-sands), 2022-12-08)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Ozolith, the Shattered Spire]], [[Reconnaissance Mission]], [[Unearth]]
+**Examples (Commander-legal; each entry includes its rulings):** [Ozolith, the Shattered Spire](cards/O/oz.md#ozolith-the-shattered-spire), [Reconnaissance Mission](cards/R/rec.md#reconnaissance-mission), [Unearth](cards/U/un.md#unearth)
 
 ### Abilities: D
 
@@ -584,10 +584,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 23 Oracle cards · 23 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Fate Reforged (2015-01-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you pay the dash cost to cast a creature spell, that card will be returned to its owner's hand only if it's still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is." (21 cards, e.g. [[Riders of Rohan]], 2023-06-16)
-- "If a creature enters the battlefield as a copy of or becomes a copy of a creature whose dash cost was paid, the copy won't have haste and won't be returned to its owner's hand." (20 cards, e.g. [[Riders of Rohan]], 2023-06-16)
+- "If you pay the dash cost to cast a creature spell, that card will be returned to its owner's hand only if it's still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is." (21 cards, e.g. [Riders of Rohan](cards/R/ri.md#riders-of-rohan), 2023-06-16)
+- "If a creature enters the battlefield as a copy of or becomes a copy of a creature whose dash cost was paid, the copy won't have haste and won't be returned to its owner's hand." (20 cards, e.g. [Riders of Rohan](cards/R/ri.md#riders-of-rohan), 2023-06-16)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Ragavan, Nimble Pilferer]], [[Flamerush Rider]], [[Kolaghan, the Storm's Fury]]
+**Examples (Commander-legal; each entry includes its rulings):** [Ragavan, Nimble Pilferer](cards/R/rag.md#ragavan-nimble-pilferer), [Flamerush Rider](cards/F/fl.md#flamerush-rider), [Kolaghan, the Storm's Fury](cards/K/ko.md#kolaghan-the-storms-fury)
 
 #### Daybound and Nightbound
 
@@ -610,9 +610,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 344 Oracle cards · 329 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Future Sight (2007-05-04)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "An instant or sorcery spell must actually deal damage to a creature for it to be destroyed. Simply targeting a creature isn't enough. If the spell instructs another object to deal damage, the spell doesn't deal any damage itself and its instance of deathtouch doesn't apply. Dealing 0 damage isn't dealing damage." (1 card, e.g. [[Pestilent Spirit]], 2019-01-25)
+- "An instant or sorcery spell must actually deal damage to a creature for it to be destroyed. Simply targeting a creature isn't enough. If the spell instructs another object to deal damage, the spell doesn't deal any damage itself and its instance of deathtouch doesn't apply. Dealing 0 damage isn't dealing damage." (1 card, e.g. [Pestilent Spirit](cards/P/pe.md#pestilent-spirit), 2019-01-25)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Sheoldred, the Apocalypse]], [[Elas il-Kor, Sadistic Pilgrim]], [[Bloodthirsty Conqueror]]
+**Examples (Commander-legal; each entry includes its rulings):** [Sheoldred, the Apocalypse](cards/S/she.md#sheoldred-the-apocalypse), [Elas il-Kor, Sadistic Pilgrim](cards/E/el.md#elas-il-kor-sadistic-pilgrim), [Bloodthirsty Conqueror](cards/B/blo.md#bloodthirsty-conqueror)
 
 #### Decayed
 
@@ -624,7 +624,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 1 Oracle cards · 1 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Innistrad: Midnight Hunt Tokens (2021-09-24)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Rot-Curse Rakshasa]]
+**Examples (Commander-legal; each entry includes its rulings):** [Rot-Curse Rakshasa](cards/R/ro.md#rot-curse-rakshasa)
 
 #### Defender
 
@@ -637,10 +637,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 313 Oracle cards · 308 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Limited Edition Alpha (1993-08-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "The number of creatures with defender you control is counted when the ability resolves." (2 cards, e.g. [[Coral Colony]], 2022-09-09)
-- "Another effect can give Elder Land Wurm defender after it has lost it. Blocking again will cause it to lose that instance of defender too." (1 card, e.g. [[Elder Land Wurm]], 2004-10-04)
+- "The number of creatures with defender you control is counted when the ability resolves." (2 cards, e.g. [Coral Colony](cards/C/cor.md#coral-colony), 2022-09-09)
+- "Another effect can give Elder Land Wurm defender after it has lost it. Blocking again will cause it to lose that instance of defender too." (1 card, e.g. [Elder Land Wurm](cards/E/el.md#elder-land-wurm), 2004-10-04)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Electrostatic Field]], [[Thermo-Alchemist]], [[The Walls of Ba Sing Se]]
+**Examples (Commander-legal; each entry includes its rulings):** [Electrostatic Field](cards/E/el.md#electrostatic-field), [Thermo-Alchemist](cards/T/ther.md#thermo-alchemist), [The Walls of Ba Sing Se](cards/T/thew.md#the-walls-of-ba-sing-se)
 
 #### Delve
 
@@ -653,10 +653,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 30 Oracle cards · 28 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Future Sight (2007-05-04)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana." (27 cards, e.g. [[Sorcerous Squall]], 2023-11-03)
-- "Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it." (25 cards, e.g. [[Will of the Naga]], 2021-03-19)
+- "Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana." (27 cards, e.g. [Sorcerous Squall](cards/S/so.md#sorcerous-squall), 2023-11-03)
+- "Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it." (25 cards, e.g. [Will of the Naga](cards/W/wi.md#will-of-the-naga), 2021-03-19)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Dig Through Time]], [[Treasure Cruise]], [[Temporal Trespass]]
+**Examples (Commander-legal; each entry includes its rulings):** [Dig Through Time](cards/D/di.md#dig-through-time), [Treasure Cruise](cards/T/tre.md#treasure-cruise), [Temporal Trespass](cards/T/te.md#temporal-trespass)
 
 #### Demonstrate
 
@@ -669,10 +669,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 7 Oracle cards · 6 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Commander 2021 (2021-04-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you copy a spell with demonstrate, you then immediately choose an opponent. If they copy the spell, it goes on top of the stack." (6 cards, e.g. [[Transforming Flourish]], 2025-04-04)
-- "You choose whether to make a copy as the demonstrate ability resolves. This happens before the original spell resolves. Your copy goes on the stack above the original spell." (6 cards, e.g. [[Transforming Flourish]], 2025-04-04)
+- "If you copy a spell with demonstrate, you then immediately choose an opponent. If they copy the spell, it goes on top of the stack." (6 cards, e.g. [Transforming Flourish](cards/T/tra.md#transforming-flourish), 2025-04-04)
+- "You choose whether to make a copy as the demonstrate ability resolves. This happens before the original spell resolves. Your copy goes on the stack above the original spell." (6 cards, e.g. [Transforming Flourish](cards/T/tra.md#transforming-flourish), 2025-04-04)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Incarnation Technique]], [[Replication Technique]], [[Creative Technique]]
+**Examples (Commander-legal; each entry includes its rulings):** [Incarnation Technique](cards/I/inc.md#incarnation-technique), [Replication Technique](cards/R/rep.md#replication-technique), [Creative Technique](cards/C/cr.md#creative-technique)
 
 #### Dethrone
 
@@ -685,10 +685,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 9 Oracle cards · 9 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Conspiracy (2014-06-06)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Dethrone doesn't trigger if the creature attacks a planeswalker, even if its controller has the most life. The same is true if the creature attacks a battle, even if its protector has the most life." (8 cards, e.g. [[Treasonous Ogre]], 2023-07-28)
-- "In a Two-Headed Giant game, dethrone will trigger if the creature attacks either player on the team with the most life or tied for the most life." (8 cards, e.g. [[Treasonous Ogre]], 2014-05-29)
+- "Dethrone doesn't trigger if the creature attacks a planeswalker, even if its controller has the most life. The same is true if the creature attacks a battle, even if its protector has the most life." (8 cards, e.g. [Treasonous Ogre](cards/T/tre.md#treasonous-ogre), 2023-07-28)
+- "In a Two-Headed Giant game, dethrone will trigger if the creature attacks either player on the team with the most life or tied for the most life." (8 cards, e.g. [Treasonous Ogre](cards/T/tre.md#treasonous-ogre), 2014-05-29)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Scourge of the Throne]], [[Treasonous Ogre]], [[Marchesa, the Black Rose]]
+**Examples (Commander-legal; each entry includes its rulings):** [Scourge of the Throne](cards/S/sc.md#scourge-of-the-throne), [Treasonous Ogre](cards/T/tre.md#treasonous-ogre), [Marchesa, the Black Rose](cards/M/mar.md#marchesa-the-black-rose)
 
 #### Devoid
 
@@ -701,10 +701,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 134 Oracle cards · 132 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Duel Decks: Zendikar vs. Eldrazi (2015-08-28)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost." (89 cards, e.g. [[Wumpus Aberration]], 2024-06-07)
-- "Devoid works in all zones, not just on the battlefield." (89 cards, e.g. [[Wumpus Aberration]], 2024-06-07)
+- "A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost." (89 cards, e.g. [Wumpus Aberration](cards/W/wu.md#wumpus-aberration), 2024-06-07)
+- "Devoid works in all zones, not just on the battlefield." (89 cards, e.g. [Wumpus Aberration](cards/W/wu.md#wumpus-aberration), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Sowing Mycospawn]], [[Basking Broodscale]], [[Emrakul's Messenger]]
+**Examples (Commander-legal; each entry includes its rulings):** [Sowing Mycospawn](cards/S/so.md#sowing-mycospawn), [Basking Broodscale](cards/B/bas.md#basking-broodscale), [Emrakul's Messenger](cards/E/em.md#emrakuls-messenger)
 
 #### Devour
 
@@ -717,10 +717,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 24 Oracle cards · 24 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Shards of Alara (2008-10-03)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If multiple creatures with devour are entering under your control at the same time, you may use each one's devour ability. A creature you already control can be devoured by only one of them, however. (In other words, you can't sacrifice the same creature to satisfy multiple devour abilities.) All creatures devoured this way are sacrificed at the same time." (6 cards, e.g. [[Thunder-Thrash Elder]], 2008-10-01)
-- "You may choose not to sacrifice any creatures for the Devour ability." (6 cards, e.g. [[Thunder-Thrash Elder]], 2008-10-01)
+- "If multiple creatures with devour are entering under your control at the same time, you may use each one's devour ability. A creature you already control can be devoured by only one of them, however. (In other words, you can't sacrifice the same creature to satisfy multiple devour abilities.) All creatures devoured this way are sacrificed at the same time." (6 cards, e.g. [Thunder-Thrash Elder](cards/T/thu.md#thunder-thrash-elder), 2008-10-01)
+- "You may choose not to sacrifice any creatures for the Devour ability." (6 cards, e.g. [Thunder-Thrash Elder](cards/T/thu.md#thunder-thrash-elder), 2008-10-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Mycoloth]], [[Famished Worldsire]], [[Feasting Hobbit]]
+**Examples (Commander-legal; each entry includes its rulings):** [Mycoloth](cards/M/my.md#mycoloth), [Famished Worldsire](cards/F/fa.md#famished-worldsire), [Feasting Hobbit](cards/F/fe.md#feasting-hobbit)
 
 #### Disguise
 
@@ -733,10 +733,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 43 Oracle cards · 43 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Murders at Karlov Manor (2024-02-09)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot." (43 cards, e.g. [[Bayek of Siwa]], 2024-07-05)
-- "If a face-down creature loses its abilities, it can't be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up." (43 cards, e.g. [[Bayek of Siwa]], 2024-07-05)
+- "Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot." (43 cards, e.g. [Bayek of Siwa](cards/B/bay.md#bayek-of-siwa), 2024-07-05)
+- "If a face-down creature loses its abilities, it can't be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up." (43 cards, e.g. [Bayek of Siwa](cards/B/bay.md#bayek-of-siwa), 2024-07-05)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Bayek of Siwa]], [[Hunted Bonebrute]], [[Arno Dorian]]
+**Examples (Commander-legal; each entry includes its rulings):** [Bayek of Siwa](cards/B/bay.md#bayek-of-siwa), [Hunted Bonebrute](cards/H/hu.md#hunted-bonebrute), [Arno Dorian](cards/A/arn.md#arno-dorian)
 
 #### Disturb
 
@@ -749,10 +749,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 25 Oracle cards · 25 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Innistrad: Midnight Hunt (2021-09-24)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""Disturb [cost]" means "You may cast this card transformed from your graveyard by paying [cost] rather than its mana cost."" (12 cards, e.g. [[Overwhelmed Archivist // Archive Haunt]], 2021-09-24)
-- "Disturb is found only on the front faces of some double-faced cards." (12 cards, e.g. [[Overwhelmed Archivist // Archive Haunt]], 2021-09-24)
+- ""Disturb [cost]" means "You may cast this card transformed from your graveyard by paying [cost] rather than its mana cost."" (12 cards, e.g. [Overwhelmed Archivist // Archive Haunt](cards/O/ov.md#overwhelmed-archivist--archive-haunt), 2021-09-24)
+- "Disturb is found only on the front faces of some double-faced cards." (12 cards, e.g. [Overwhelmed Archivist // Archive Haunt](cards/O/ov.md#overwhelmed-archivist--archive-haunt), 2021-09-24)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Lunarch Veteran // Luminous Phantom]], [[Mirrorhall Mimic // Ghastly Mimicry]], [[Malevolent Hermit // Benevolent Geist]]
+**Examples (Commander-legal; each entry includes its rulings):** [Lunarch Veteran // Luminous Phantom](cards/L/lu.md#lunarch-veteran--luminous-phantom), [Mirrorhall Mimic // Ghastly Mimicry](cards/M/mir.md#mirrorhall-mimic--ghastly-mimicry), [Malevolent Hermit // Benevolent Geist](cards/M/mal.md#malevolent-hermit--benevolent-geist)
 
 #### Double Strike
 
@@ -765,9 +765,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 123 Oracle cards · 120 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Legions (2003-02-03)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A creature with first strike and double strike deals combat damage the same as a creature with double strike. It doesn't deal damage three times or before other creatures with first strike." (1 card, e.g. [[Kwende, Pride of Femeref]], 2018-04-27)
+- "A creature with first strike and double strike deals combat damage the same as a creature with double strike. It doesn't deal damage three times or before other creatures with first strike." (1 card, e.g. [Kwende, Pride of Femeref](cards/K/kw.md#kwende-pride-of-femeref), 2018-04-27)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Lizard Blades]], [[Zetalpa, Primal Dawn]], [[Bronze Guardian]]
+**Examples (Commander-legal; each entry includes its rulings):** [Lizard Blades](cards/L/li.md#lizard-blades), [Zetalpa, Primal Dawn](cards/Z/ze.md#zetalpa-primal-dawn), [Bronze Guardian](cards/B/br.md#bronze-guardian)
 
 #### Dredge
 
@@ -780,10 +780,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 14 Oracle cards · 14 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Ravnica: City of Guilds (2005-10-07)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Dredge can replace any card draw, not only the one during your draw step." (14 cards, e.g. [[Stinkweed Imp]], 2024-01-12)
-- "If an effect puts a card into your hand without specifically using the word "draw," you're not drawing a card. Dredge can't replace this event." (14 cards, e.g. [[Stinkweed Imp]], 2024-01-12)
+- "Dredge can replace any card draw, not only the one during your draw step." (14 cards, e.g. [Stinkweed Imp](cards/S/sti.md#stinkweed-imp), 2024-01-12)
+- "If an effect puts a card into your hand without specifically using the word "draw," you're not drawing a card. Dredge can't replace this event." (14 cards, e.g. [Stinkweed Imp](cards/S/sti.md#stinkweed-imp), 2024-01-12)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Life from the Loam]], [[Dakmor Salvage]], [[Golgari Grave-Troll]]
+**Examples (Commander-legal; each entry includes its rulings):** [Life from the Loam](cards/L/li.md#life-from-the-loam), [Dakmor Salvage](cards/D/da.md#dakmor-salvage), [Golgari Grave-Troll](cards/G/gol.md#golgari-grave-troll)
 
 ### Abilities: E
 
@@ -798,10 +798,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 54 Oracle cards · 52 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Urza's Saga Promos (1998-09-26)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Paying for echo is always optional. When the echo triggered ability resolves, if you can't pay the echo cost or choose not to, you sacrifice that permanent." (4 cards, e.g. [[Rakdos Headliner]], 2021-06-18)
-- "Your permanent's echo ability will trigger at the beginning of your upkeep if it entered the battlefield since the beginning of your last upkeep, or if you gained control of it since the beginning of your last upkeep." (4 cards, e.g. [[Rakdos Headliner]], 2021-06-18)
+- "Paying for echo is always optional. When the echo triggered ability resolves, if you can't pay the echo cost or choose not to, you sacrifice that permanent." (4 cards, e.g. [Rakdos Headliner](cards/R/rak.md#rakdos-headliner), 2021-06-18)
+- "Your permanent's echo ability will trigger at the beginning of your upkeep if it entered the battlefield since the beginning of your last upkeep, or if you gained control of it since the beginning of your last upkeep." (4 cards, e.g. [Rakdos Headliner](cards/R/rak.md#rakdos-headliner), 2021-06-18)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Karmic Guide]], [[Emet-Selch, Unsundered // Hades, Sorcerer of Eld]], [[Bone Shredder]]
+**Examples (Commander-legal; each entry includes its rulings):** [Karmic Guide](cards/K/ka.md#karmic-guide), [Emet-Selch, Unsundered // Hades, Sorcerer of Eld](cards/E/em.md#emet-selch-unsundered--hades-sorcerer-of-eld), [Bone Shredder](cards/B/bo.md#bone-shredder)
 
 #### Embalm
 
@@ -814,10 +814,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 15 Oracle cards · 15 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Amonkhet (2017-04-28)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "For each card with embalm, a corresponding game play supplement token can be found in some Amonkhet booster packs. These supplements are not required to play with cards with embalm; you can use the same items to represent an embalmed token as you would any other token." (15 cards, e.g. [[Vizier of Many Faces]], 2017-04-18)
-- "If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so." (15 cards, e.g. [[Vizier of Many Faces]], 2017-07-14)
+- "For each card with embalm, a corresponding game play supplement token can be found in some Amonkhet booster packs. These supplements are not required to play with cards with embalm; you can use the same items to represent an embalmed token as you would any other token." (15 cards, e.g. [Vizier of Many Faces](cards/V/vi.md#vizier-of-many-faces), 2017-04-18)
+- "If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so." (15 cards, e.g. [Vizier of Many Faces](cards/V/vi.md#vizier-of-many-faces), 2017-07-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Vizier of Many Faces]], [[Sacred Cat]], [[Angel of Sanctions]]
+**Examples (Commander-legal; each entry includes its rulings):** [Vizier of Many Faces](cards/V/vi.md#vizier-of-many-faces), [Sacred Cat](cards/S/sac.md#sacred-cat), [Angel of Sanctions](cards/A/an.md#angel-of-sanctions)
 
 #### Emerge
 
@@ -830,10 +830,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 15 Oracle cards · 15 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Eldritch Moon (2016-07-22)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Colored mana components of emerge costs can't be reduced with emerge." (14 cards, e.g. [[Wretched Gryff]], 2025-01-24)
-- "Emerge represents two static abilities that function while the spell with emerge is on the stack. "Emerge [cost]" means "You may cast this spell by paying [cost] and sacrificing a creature rather than paying its mana cost" and "If you chose to pay this spell's emerge cost, its total cost is reduced by an amount of generic mana equal to the sacrificed creature's mana value."" (13 cards, e.g. [[Wretched Gryff]], 2025-01-24)
+- "Colored mana components of emerge costs can't be reduced with emerge." (14 cards, e.g. [Wretched Gryff](cards/W/wr.md#wretched-gryff), 2025-01-24)
+- "Emerge represents two static abilities that function while the spell with emerge is on the stack. "Emerge [cost]" means "You may cast this spell by paying [cost] and sacrificing a creature rather than paying its mana cost" and "If you chose to pay this spell's emerge cost, its total cost is reduced by an amount of generic mana equal to the sacrificed creature's mana value."" (13 cards, e.g. [Wretched Gryff](cards/W/wr.md#wretched-gryff), 2025-01-24)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Herigast, Erupting Nullkite]], [[Crabomination]], [[Elder Deep-Fiend]]
+**Examples (Commander-legal; each entry includes its rulings):** [Herigast, Erupting Nullkite](cards/H/he.md#herigast-erupting-nullkite), [Crabomination](cards/C/cr.md#crabomination), [Elder Deep-Fiend](cards/E/el.md#elder-deep-fiend)
 
 #### Enchant
 
@@ -846,10 +846,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 1276 Oracle cards · 1241 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Limited Edition Alpha (1993-08-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A Curse spell targets the player it will enchant like any other Aura spell, and a Curse stays on the battlefield like any other Aura. If the enchanted player gains protection from the Curse's color (or any other characteristic the Curse has), the Curse will be put into its owner's graveyard." (5 cards, e.g. [[Curse of the Forsaken]], 2013-10-17)
-- "Each Cartouche is an Aura with "Enchant creature you control." If another player gains control of either the Cartouche or the enchanted creature (but not both), then the Cartouche will be enchanting an illegal permanent and be put into its owner's graveyard as a state-based action." (5 cards, e.g. [[Cartouche of Zeal]], 2017-04-18)
+- "A Curse spell targets the player it will enchant like any other Aura spell, and a Curse stays on the battlefield like any other Aura. If the enchanted player gains protection from the Curse's color (or any other characteristic the Curse has), the Curse will be put into its owner's graveyard." (5 cards, e.g. [Curse of the Forsaken](cards/C/cu.md#curse-of-the-forsaken), 2013-10-17)
+- "Each Cartouche is an Aura with "Enchant creature you control." If another player gains control of either the Cartouche or the enchanted creature (but not both), then the Cartouche will be enchanting an illegal permanent and be put into its owner's graveyard as a state-based action." (5 cards, e.g. [Cartouche of Zeal](cards/C/car.md#cartouche-of-zeal), 2017-04-18)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Wild Growth]], [[Animate Dead]], [[Curiosity]]
+**Examples (Commander-legal; each entry includes its rulings):** [Wild Growth](cards/W/wi.md#wild-growth), [Animate Dead](cards/A/an.md#animate-dead), [Curiosity](cards/C/cu.md#curiosity)
 
 #### Encore
 
@@ -862,10 +862,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 26 Oracle cards · 26 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Commander Legends (2020-11-20)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Exiling the card with encore is a cost to activate the ability. Once you announce that you're activating it, no player may take actions until you've finished. They can't try to remove the card from your graveyard to stop you from paying the cost." (18 cards, e.g. [[Angel of Indemnity]], 2024-04-12)
-- "Encore is an activated ability that functions from the graveyard. "Encore [cost]" means "[Cost], Exile this card from your graveyard: For each opponent, create a token that's a copy of this card that attacks that opponent this turn if able. The tokens gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery."" (7 cards, e.g. [[Subterfuge]], 2025-11-17)
+- "Exiling the card with encore is a cost to activate the ability. Once you announce that you're activating it, no player may take actions until you've finished. They can't try to remove the card from your graveyard to stop you from paying the cost." (18 cards, e.g. [Angel of Indemnity](cards/A/an.md#angel-of-indemnity), 2024-04-12)
+- "Encore is an activated ability that functions from the graveyard. "Encore [cost]" means "[Cost], Exile this card from your graveyard: For each opponent, create a token that's a copy of this card that attacks that opponent this turn if able. The tokens gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery."" (7 cards, e.g. [Subterfuge](cards/S/sub.md#subterfuge), 2025-11-17)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Impulsive Pilferer]], [[Phyrexian Triniform]], [[Angel of Indemnity]]
+**Examples (Commander-legal; each entry includes its rulings):** [Impulsive Pilferer](cards/I/im.md#impulsive-pilferer), [Phyrexian Triniform](cards/P/ph.md#phyrexian-triniform), [Angel of Indemnity](cards/A/an.md#angel-of-indemnity)
 
 #### Enlist
 
@@ -878,10 +878,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 12 Oracle cards · 12 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Dominaria United (2022-09-09)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "The attacking player chooses whether to tap a creature for an enlist ability immediately after they tap the creatures that they have chosen to attack with. You can't choose to enlist a creature later." (12 cards, e.g. [[Aradesh, the Founder]], 2024-03-08)
-- "To enlist a creature, that creature must be untapped, it must not be attacking (even if it has vigilance), and it must have haste or have been under that attacking player's control since the beginning of their current turn." (12 cards, e.g. [[Aradesh, the Founder]], 2024-03-08)
+- "The attacking player chooses whether to tap a creature for an enlist ability immediately after they tap the creatures that they have chosen to attack with. You can't choose to enlist a creature later." (12 cards, e.g. [Aradesh, the Founder](cards/A/ara.md#aradesh-the-founder), 2024-03-08)
+- "To enlist a creature, that creature must be untapped, it must not be attacking (even if it has vigilance), and it must have haste or have been under that attacking player's control since the beginning of their current turn." (12 cards, e.g. [Aradesh, the Founder](cards/A/ara.md#aradesh-the-founder), 2024-03-08)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Yavimaya Steelcrusher]], [[Aradesh, the Founder]], [[Guardian of New Benalia]]
+**Examples (Commander-legal; each entry includes its rulings):** [Yavimaya Steelcrusher](cards/Y/ya.md#yavimaya-steelcrusher), [Aradesh, the Founder](cards/A/ara.md#aradesh-the-founder), [Guardian of New Benalia](cards/G/gu.md#guardian-of-new-benalia)
 
 #### Entwine
 
@@ -894,9 +894,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 33 Oracle cards · 32 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Mirrodin (2003-10-02)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Assuming the entwine cost has been paid, the effect is (1) sacrifice any number of creatures, (2) gain 3 life for each sacrificed creature, (3) choose X, (4) pay X life, and (5) look at the top X cards of your library, put one into your hand, and exile the rest." (1 card, e.g. [[Plunge into Darkness]], 2004-12-01)
+- "Assuming the entwine cost has been paid, the effect is (1) sacrifice any number of creatures, (2) gain 3 life for each sacrificed creature, (3) choose X, (4) pay X life, and (5) look at the top X cards of your library, put one into your hand, and exile the rest." (1 card, e.g. [Plunge into Darkness](cards/P/pl.md#plunge-into-darkness), 2004-12-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Savage Beating]], [[Kaya's Guile]], [[Goblin War Party]]
+**Examples (Commander-legal; each entry includes its rulings):** [Savage Beating](cards/S/sav.md#savage-beating), [Kaya's Guile](cards/K/ka.md#kayas-guile), [Goblin War Party](cards/G/gob.md#goblin-war-party)
 
 #### Epic
 
@@ -908,7 +908,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 5 Oracle cards · 5 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Saviors of Kamigawa (2005-06-03)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Undying Flames]], [[Eternal Dominion]], [[Enduring Ideal]]
+**Examples (Commander-legal; each entry includes its rulings):** [Undying Flames](cards/U/un.md#undying-flames), [Eternal Dominion](cards/E/et.md#eternal-dominion), [Enduring Ideal](cards/E/en.md#enduring-ideal)
 
 #### Equip
 
@@ -921,10 +921,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 625 Oracle cards · 601 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Arena League 2003 (2003-01-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control." (18 cards, e.g. [[Warrior's Sword]], 2025-06-06)
-- "If the Rebel is destroyed, the Equipment stays on the battlefield. Similarly, you may pay its equip cost to move it from the Rebel token to another creature you control." (13 cards, e.g. [[Vulshok Splitter]], 2023-02-04)
+- "You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control." (18 cards, e.g. [Warrior's Sword](cards/W/war.md#warriors-sword), 2025-06-06)
+- "If the Rebel is destroyed, the Equipment stays on the battlefield. Similarly, you may pay its equip cost to move it from the Rebel token to another creature you control." (13 cards, e.g. [Vulshok Splitter](cards/V/vu.md#vulshok-splitter), 2023-02-04)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Swiftfoot Boots]], [[Lightning Greaves]], [[Mithril Coat]]
+**Examples (Commander-legal; each entry includes its rulings):** [Swiftfoot Boots](cards/S/sw.md#swiftfoot-boots), [Lightning Greaves](cards/L/li.md#lightning-greaves), [Mithril Coat](cards/M/mit.md#mithril-coat)
 
 #### Escalate
 
@@ -937,10 +937,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 9 Oracle cards · 9 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Eldritch Moon Promos (2016-07-22)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Effects that reduce the cost of spells reduce the total cost, including any escalate costs added." (8 cards, e.g. [[Savage Alliance]], 2016-07-13)
-- "If an effect allows you to cast a spell that has escalate without paying its mana cost, you pay escalate costs for that spell if you choose more than one mode." (8 cards, e.g. [[Savage Alliance]], 2016-07-13)
+- "Effects that reduce the cost of spells reduce the total cost, including any escalate costs added." (8 cards, e.g. [Savage Alliance](cards/S/sav.md#savage-alliance), 2016-07-13)
+- "If an effect allows you to cast a spell that has escalate without paying its mana cost, you pay escalate costs for that spell if you choose more than one mode." (8 cards, e.g. [Savage Alliance](cards/S/sav.md#savage-alliance), 2016-07-13)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Collective Resistance]], [[Collective Effort]], [[Collective Defiance]]
+**Examples (Commander-legal; each entry includes its rulings):** [Collective Resistance](cards/C/col.md#collective-resistance), [Collective Effort](cards/C/col.md#collective-effort), [Collective Defiance](cards/C/col.md#collective-defiance)
 
 #### Escape
 
@@ -953,10 +953,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 32 Oracle cards · 32 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Theros Beyond Death Promos (2020-01-24)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect." (31 cards, e.g. [[Phlage, Titan of Fire's Fury]], 2024-06-07)
-- "If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those." (31 cards, e.g. [[Phlage, Titan of Fire's Fury]], 2024-06-07)
+- "If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect." (31 cards, e.g. [Phlage, Titan of Fire's Fury](cards/P/ph.md#phlage-titan-of-fires-fury), 2024-06-07)
+- "If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those." (31 cards, e.g. [Phlage, Titan of Fire's Fury](cards/P/ph.md#phlage-titan-of-fires-fury), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Uro, Titan of Nature's Wrath]], [[Woe Strider]], [[Kroxa, Titan of Death's Hunger]]
+**Examples (Commander-legal; each entry includes its rulings):** [Uro, Titan of Nature's Wrath](cards/U/ur.md#uro-titan-of-natures-wrath), [Woe Strider](cards/W/wo.md#woe-strider), [Kroxa, Titan of Death's Hunger](cards/K/kr.md#kroxa-titan-of-deaths-hunger)
 
 #### Eternalize
 
@@ -969,10 +969,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 13 Oracle cards · 12 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Hour of Devastation (2017-07-14)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "The token copies exactly what was printed on the original card and nothing else, except the characteristics specifically modified by eternalize. It doesn't copy any information about the object the card was before it was put into your graveyard." (12 cards, e.g. [[Fanatic of Rhonas]], 2024-06-07)
-- "For each card with eternalize, a corresponding game play supplement token can be found in some Hour of Devastation booster packs. These supplements are not required to play with cards with eternalize; you can use the same items to represent an eternalized token as you would any other token." (9 cards, e.g. [[Sunscourge Champion]], 2017-07-14)
+- "The token copies exactly what was printed on the original card and nothing else, except the characteristics specifically modified by eternalize. It doesn't copy any information about the object the card was before it was put into your graveyard." (12 cards, e.g. [Fanatic of Rhonas](cards/F/fa.md#fanatic-of-rhonas), 2024-06-07)
+- "For each card with eternalize, a corresponding game play supplement token can be found in some Hour of Devastation booster packs. These supplements are not required to play with cards with eternalize; you can use the same items to represent an eternalized token as you would any other token." (9 cards, e.g. [Sunscourge Champion](cards/S/sun.md#sunscourge-champion), 2017-07-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Fanatic of Rhonas]], [[Timeless Witness]], [[Adorned Pouncer]]
+**Examples (Commander-legal; each entry includes its rulings):** [Fanatic of Rhonas](cards/F/fa.md#fanatic-of-rhonas), [Timeless Witness](cards/T/ti.md#timeless-witness), [Adorned Pouncer](cards/A/ad.md#adorned-pouncer)
 
 #### Evoke
 
@@ -985,10 +985,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 36 Oracle cards · 35 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Lorwyn (2007-10-12)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was." (15 cards, e.g. [[Wistfulness]], 2025-11-17)
-- "If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first." (10 cards, e.g. [[Wispmare]], 2013-04-15)
+- "To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was." (15 cards, e.g. [Wistfulness](cards/W/wi.md#wistfulness), 2025-11-17)
+- "If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first." (10 cards, e.g. [Wispmare](cards/W/wi.md#wispmare), 2013-04-15)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Mulldrifter]], [[Endurance]], [[Shriekmaw]]
+**Examples (Commander-legal; each entry includes its rulings):** [Mulldrifter](cards/M/mu.md#mulldrifter), [Endurance](cards/E/en.md#endurance), [Shriekmaw](cards/S/shr.md#shriekmaw)
 
 #### Evolve
 
@@ -1001,10 +1001,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 22 Oracle cards · 22 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Friday Night Magic 2013 (2013-01-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If evolve triggers, the stat comparison will happen again when the ability tries to resolve. If neither stat of the new creature is greater, the ability will do nothing. If the creature that entered the battlefield leaves the battlefield before evolve tries to resolve, use its last known power and toughness to compare the stats." (19 cards, e.g. [[Ray Fillet, Wave Warrior]], 2026-01-27)
-- "When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness." (18 cards, e.g. [[Ray Fillet, Wave Warrior]], 2026-01-27)
+- "If evolve triggers, the stat comparison will happen again when the ability tries to resolve. If neither stat of the new creature is greater, the ability will do nothing. If the creature that entered the battlefield leaves the battlefield before evolve tries to resolve, use its last known power and toughness to compare the stats." (19 cards, e.g. [Ray Fillet, Wave Warrior](cards/R/ray.md#ray-fillet-wave-warrior), 2026-01-27)
+- "When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness." (18 cards, e.g. [Ray Fillet, Wave Warrior](cards/R/ray.md#ray-fillet-wave-warrior), 2026-01-27)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Gyre Sage]], [[Pollywog Prodigy]], [[Fathom Mage]]
+**Examples (Commander-legal; each entry includes its rulings):** [Gyre Sage](cards/G/gy.md#gyre-sage), [Pollywog Prodigy](cards/P/po.md#pollywog-prodigy), [Fathom Mage](cards/F/fa.md#fathom-mage)
 
 #### Exalted
 
@@ -1017,10 +1017,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 35 Oracle cards · 35 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Shards of Alara (2008-10-03)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers." (14 cards, e.g. [[Qasali Pridemage]], 2021-03-19)
-- "In a Two-Headed Giant game, a creature "attacks alone" if it's the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate's exalted abilities won't." (13 cards, e.g. [[Noble Hierarch]], 2020-08-07)
+- "Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers." (14 cards, e.g. [Qasali Pridemage](cards/Q/qa.md#qasali-pridemage), 2021-03-19)
+- "In a Two-Headed Giant game, a creature "attacks alone" if it's the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate's exalted abilities won't." (13 cards, e.g. [Noble Hierarch](cards/N/no.md#noble-hierarch), 2020-08-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Ignoble Hierarch]], [[Noble Hierarch]], [[Qasali Pridemage]]
+**Examples (Commander-legal; each entry includes its rulings):** [Ignoble Hierarch](cards/I/ig.md#ignoble-hierarch), [Noble Hierarch](cards/N/no.md#noble-hierarch), [Qasali Pridemage](cards/Q/qa.md#qasali-pridemage)
 
 #### Exhaust
 
@@ -1033,10 +1033,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 36 Oracle cards · 36 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Aetherdrift (2025-02-14)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Exhaust abilities can be activated any time you could normally activate an ability." (32 cards, e.g. [[Rough Rhino Cavalry]], 2025-10-02)
-- "If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves." (32 cards, e.g. [[Rough Rhino Cavalry]], 2025-10-02)
+- "Exhaust abilities can be activated any time you could normally activate an ability." (32 cards, e.g. [Rough Rhino Cavalry](cards/R/ro.md#rough-rhino-cavalry), 2025-10-02)
+- "If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves." (32 cards, e.g. [Rough Rhino Cavalry](cards/R/ro.md#rough-rhino-cavalry), 2025-10-02)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Riverchurn Monument]], [[Bitter Work]], [[The Legend of Kuruk // Avatar Kuruk]]
+**Examples (Commander-legal; each entry includes its rulings):** [Riverchurn Monument](cards/R/ri.md#riverchurn-monument), [Bitter Work](cards/B/bi.md#bitter-work), [The Legend of Kuruk // Avatar Kuruk](cards/T/thel.md#the-legend-of-kuruk--avatar-kuruk)
 
 #### Exploit
 
@@ -1049,10 +1049,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 23 Oracle cards · 23 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Dragons of Tarkir (2015-03-27)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "You can't sacrifice more than one creature to any one exploit ability." (14 cards, e.g. [[Infernal Captor]], 2024-06-07)
-- "A creature with exploit "exploits a creature" when the controller of the exploit ability sacrifices a creature as that ability resolves." (12 cards, e.g. [[Infernal Captor]], 2024-06-07)
+- "You can't sacrifice more than one creature to any one exploit ability." (14 cards, e.g. [Infernal Captor](cards/I/inf.md#infernal-captor), 2024-06-07)
+- "A creature with exploit "exploits a creature" when the controller of the exploit ability sacrifices a creature as that ability resolves." (12 cards, e.g. [Infernal Captor](cards/I/inf.md#infernal-captor), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Sidisi, Undead Vizier]], [[Overcharged Amalgam]], [[Colonel Autumn]]
+**Examples (Commander-legal; each entry includes its rulings):** [Sidisi, Undead Vizier](cards/S/si.md#sidisi-undead-vizier), [Overcharged Amalgam](cards/O/ov.md#overcharged-amalgam), [Colonel Autumn](cards/C/col.md#colonel-autumn)
 
 #### Extort
 
@@ -1065,10 +1065,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 17 Oracle cards · 17 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Gatecrash Promos (2013-01-26)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "The amount of life you gain from extort is based on the total amount of life lost, not necessarily the number of opponents you have. For example, if your opponent's life total can't change (perhaps because that player controls Platinum Emperion), you won't gain any life." (16 cards, e.g. [[Sorin of House Markov // Sorin, Ravenous Neonate]], 2024-06-07)
-- "The extort ability doesn't target any player." (16 cards, e.g. [[Sorin of House Markov // Sorin, Ravenous Neonate]], 2024-06-07)
+- "The amount of life you gain from extort is based on the total amount of life lost, not necessarily the number of opponents you have. For example, if your opponent's life total can't change (perhaps because that player controls Platinum Emperion), you won't gain any life." (16 cards, e.g. [Sorin of House Markov // Sorin, Ravenous Neonate](cards/S/so.md#sorin-of-house-markov--sorin-ravenous-neonate), 2024-06-07)
+- "The extort ability doesn't target any player." (16 cards, e.g. [Sorin of House Markov // Sorin, Ravenous Neonate](cards/S/so.md#sorin-of-house-markov--sorin-ravenous-neonate), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Blind Obedience]], [[Crypt Ghast]], [[Sorin of House Markov // Sorin, Ravenous Neonate]]
+**Examples (Commander-legal; each entry includes its rulings):** [Blind Obedience](cards/B/bli.md#blind-obedience), [Crypt Ghast](cards/C/cr.md#crypt-ghast), [Sorin of House Markov // Sorin, Ravenous Neonate](cards/S/so.md#sorin-of-house-markov--sorin-ravenous-neonate)
 
 ### Abilities: F
 
@@ -1083,10 +1083,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 16 Oracle cards · 16 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Kaladesh (2016-09-30)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Fabricate doesn't cause the creature with the ability to enter the battlefield with +1/+1 counters already on it. For example, Weaponcraft Enthusiast will enter the battlefield as a 0/1 creature, then its fabricate ability goes on the stack. Players may take actions (such as casting instants) while the ability is waiting to resolve." (14 cards, e.g. [[Weaponcraft Enthusiast]], 2016-09-20)
-- "If you can't put +1/+1 counters on the creature for any reason as fabricate resolves (for instance, if it's no longer on the battlefield), you just create Servo tokens." (14 cards, e.g. [[Weaponcraft Enthusiast]], 2016-09-20)
+- "Fabricate doesn't cause the creature with the ability to enter the battlefield with +1/+1 counters already on it. For example, Weaponcraft Enthusiast will enter the battlefield as a 0/1 creature, then its fabricate ability goes on the stack. Players may take actions (such as casting instants) while the ability is waiting to resolve." (14 cards, e.g. [Weaponcraft Enthusiast](cards/W/we.md#weaponcraft-enthusiast), 2016-09-20)
+- "If you can't put +1/+1 counters on the creature for any reason as fabricate resolves (for instance, if it's no longer on the battlefield), you just create Servo tokens." (14 cards, e.g. [Weaponcraft Enthusiast](cards/W/we.md#weaponcraft-enthusiast), 2016-09-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Marionette Apprentice]], [[Marionette Master]], [[Angel of Invention]]
+**Examples (Commander-legal; each entry includes its rulings):** [Marionette Apprentice](cards/M/mar.md#marionette-apprentice), [Marionette Master](cards/M/mar.md#marionette-master), [Angel of Invention](cards/A/an.md#angel-of-invention)
 
 #### Fading
 
@@ -1098,7 +1098,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 18 Oracle cards · 17 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Nemesis (2000-02-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Saproling Burst]], [[Parallax Nexus]], [[Tangle Wire]]
+**Examples (Commander-legal; each entry includes its rulings):** [Saproling Burst](cards/S/sap.md#saproling-burst), [Parallax Nexus](cards/P/pa.md#parallax-nexus), [Tangle Wire](cards/T/ta.md#tangle-wire)
 
 #### Fear
 
@@ -1110,7 +1110,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 41 Oracle cards · 41 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Visions (1997-02-03)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Shriekmaw]], [[Avatar of Woe]], [[Guiltfeeder]]
+**Examples (Commander-legal; each entry includes its rulings):** [Shriekmaw](cards/S/shr.md#shriekmaw), [Avatar of Woe](cards/A/av.md#avatar-of-woe), [Guiltfeeder](cards/G/gu.md#guiltfeeder)
 
 #### Firebending
 
@@ -1123,10 +1123,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 26 Oracle cards · 26 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Avatar: The Last Airbender Promos (2025-11-21)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."" (24 cards, e.g. [[Zuko, Seeking Honor]], 2025-10-02)
-- "Firebending abilities aren't mana abilities. They use the stack and can be responded to." (24 cards, e.g. [[Zuko, Seeking Honor]], 2025-10-02)
+- ""Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."" (24 cards, e.g. [Zuko, Seeking Honor](cards/Z/zu.md#zuko-seeking-honor), 2025-10-02)
+- "Firebending abilities aren't mana abilities. They use the stack and can be responded to." (24 cards, e.g. [Zuko, Seeking Honor](cards/Z/zu.md#zuko-seeking-honor), 2025-10-02)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Firebending Student]], [[Fire Lord Azula]], [[Ozai, the Phoenix King]]
+**Examples (Commander-legal; each entry includes its rulings):** [Firebending Student](cards/F/fi.md#firebending-student), [Fire Lord Azula](cards/F/fi.md#fire-lord-azula), [Ozai, the Phoenix King](cards/O/oz.md#ozai-the-phoenix-king)
 
 #### First Strike
 
@@ -1139,9 +1139,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 400 Oracle cards · 375 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Limited Edition Alpha (1993-08-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Gearshift Ace's triggered ability triggers when it becomes tapped to activate a crew ability. Even if Gearshift Ace leaves the battlefield before its triggered ability resolves, that Vehicle still gains first strike until end of turn." (1 card, e.g. [[Gearshift Ace]], 2016-09-20)
+- "Gearshift Ace's triggered ability triggers when it becomes tapped to activate a crew ability. Even if Gearshift Ace leaves the battlefield before its triggered ability resolves, that Vehicle still gains first strike until end of turn." (1 card, e.g. [Gearshift Ace](cards/G/ge.md#gearshift-ace), 2016-09-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Knight of the White Orchid]], [[Combustible Gearhulk]], [[Ocelot Pride]]
+**Examples (Commander-legal; each entry includes its rulings):** [Knight of the White Orchid](cards/K/kn.md#knight-of-the-white-orchid), [Combustible Gearhulk](cards/C/com.md#combustible-gearhulk), [Ocelot Pride](cards/O/oc.md#ocelot-pride)
 
 #### Flanking
 
@@ -1154,9 +1154,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 30 Oracle cards · 29 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Mirage (1996-10-08)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Cavalry Master adds only one instance of flanking per creature, even if that creature already has multiple instances of flanking." (1 card, e.g. [[Cavalry Master]], 2006-09-25)
+- "Cavalry Master adds only one instance of flanking per creature, even if that creature already has multiple instances of flanking." (1 card, e.g. [Cavalry Master](cards/C/cav.md#cavalry-master), 2006-09-25)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Sidar Kondo of Jamuraa]], [[Outrider en-Kor]], [[Knight of the Holy Nimbus]]
+**Examples (Commander-legal; each entry includes its rulings):** [Sidar Kondo of Jamuraa](cards/S/si.md#sidar-kondo-of-jamuraa), [Outrider en-Kor](cards/O/ou.md#outrider-en-kor), [Knight of the Holy Nimbus](cards/K/kn.md#knight-of-the-holy-nimbus)
 
 #### Flash
 
@@ -1169,10 +1169,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 627 Oracle cards · 608 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Multiverse Gift Box (1996-11-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player's turn. In most cases, if you foretell a card that isn't an instant (or doesn't have flash), you'll have to wait until your next turn to cast it." (3 cards, e.g. [[Jarl of the Forsaken]], 2021-02-05)
-- "A spell or ability that counters spells can still target spells with flash you cast. When that spell or ability resolves, your spell won't be countered, but any additional effects of the countering spell or ability will still happen." (1 card, e.g. [[Cunning Nightbonder]], 2020-04-17)
+- "Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player's turn. In most cases, if you foretell a card that isn't an instant (or doesn't have flash), you'll have to wait until your next turn to cast it." (3 cards, e.g. [Jarl of the Forsaken](cards/J/ja.md#jarl-of-the-forsaken), 2021-02-05)
+- "A spell or ability that counters spells can still target spells with flash you cast. When that spell or ability resolves, your spell won't be countered, but any additional effects of the countering spell or ability will still happen." (1 card, e.g. [Cunning Nightbonder](cards/C/cu.md#cunning-nightbonder), 2020-04-17)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Mithril Coat]], [[Orcish Bowmasters]], [[Faerie Mastermind]]
+**Examples (Commander-legal; each entry includes its rulings):** [Mithril Coat](cards/M/mit.md#mithril-coat), [Orcish Bowmasters](cards/O/or.md#orcish-bowmasters), [Faerie Mastermind](cards/F/fa.md#faerie-mastermind)
 
 #### Flashback
 
@@ -1185,10 +1185,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 219 Oracle cards · 215 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Odyssey (2001-10-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way." (203 cards, e.g. [[Twinned Vision]], 2026-08-21)
-- "You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery." (202 cards, e.g. [[Twinned Vision]], 2026-08-21)
+- "A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way." (203 cards, e.g. [Twinned Vision](cards/T/tw.md#twinned-vision), 2026-08-21)
+- "You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery." (202 cards, e.g. [Twinned Vision](cards/T/tw.md#twinned-vision), 2026-08-21)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Faithless Looting]], [[Sevinne's Reclamation]], [[Dread Return]]
+**Examples (Commander-legal; each entry includes its rulings):** [Faithless Looting](cards/F/fa.md#faithless-looting), [Sevinne's Reclamation](cards/S/sev.md#sevinnes-reclamation), [Dread Return](cards/D/dre.md#dread-return)
 
 #### Flying
 
@@ -1201,10 +1201,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 3284 Oracle cards · 3164 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Limited Edition Alpha (1993-08-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A creature spell that doesn't have flying won't cost less even if an effect will cause the creature to have flying once on the battlefield. This is also true if the creature spell itself has an ability that gives it flying once on the battlefield under certain conditions, even if those conditions are true." (2 cards, e.g. [[Warden of Evos Isle]], 2020-11-10)
-- "A creature that loses flying due to the effect of Fear of Falling's last ability can still gain flying from the effect of another spell or ability, such as Jump Scare." (1 card, e.g. [[Fear of Falling]], 2024-09-20)
+- "A creature spell that doesn't have flying won't cost less even if an effect will cause the creature to have flying once on the battlefield. This is also true if the creature spell itself has an ability that gives it flying once on the battlefield under certain conditions, even if those conditions are true." (2 cards, e.g. [Warden of Evos Isle](cards/W/war.md#warden-of-evos-isle), 2020-11-10)
+- "A creature that loses flying due to the effect of Fear of Falling's last ability can still gain flying from the effect of another spell or ability, such as Jump Scare." (1 card, e.g. [Fear of Falling](cards/F/fe.md#fear-of-falling), 2024-09-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Faerie Mastermind]], [[Goldspan Dragon]], [[Welcoming Vampire]]
+**Examples (Commander-legal; each entry includes its rulings):** [Faerie Mastermind](cards/F/fa.md#faerie-mastermind), [Goldspan Dragon](cards/G/gol.md#goldspan-dragon), [Welcoming Vampire](cards/W/we.md#welcoming-vampire)
 
 #### For Mirrodin!
 
@@ -1216,7 +1216,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 13 Oracle cards · 13 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Phyrexia: All Will Be One Commander (2023-02-10)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Hexplate Wallbreaker]], [[Glimmer Lens]], [[Bladehold War-Whip]]
+**Examples (Commander-legal; each entry includes its rulings):** [Hexplate Wallbreaker](cards/H/he.md#hexplate-wallbreaker), [Glimmer Lens](cards/G/gl.md#glimmer-lens), [Bladehold War-Whip](cards/B/bla.md#bladehold-war-whip)
 
 #### Forecast
 
@@ -1229,9 +1229,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 12 Oracle cards · 11 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Salvat 2005 (2005-08-22)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "You can tap any two untapped white and/or blue creatures you control, including ones you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Sky Hussar's forecast ability." (1 card, e.g. [[Sky Hussar]], 2024-01-12)
+- "You can tap any two untapped white and/or blue creatures you control, including ones you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Sky Hussar's forecast ability." (1 card, e.g. [Sky Hussar](cards/S/sk.md#sky-hussar), 2024-01-12)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Spirit en-Dal]], [[Sky Hussar]], [[Skyscribing]]
+**Examples (Commander-legal; each entry includes its rulings):** [Spirit en-Dal](cards/S/spi.md#spirit-en-dal), [Sky Hussar](cards/S/sk.md#sky-hussar), [Skyscribing](cards/S/sk.md#skyscribing)
 
 #### Foretell
 
@@ -1244,10 +1244,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 51 Oracle cards · 51 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Kaldheim Promos (2021-02-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you're taking the action, no other player can respond by trying to remove the card from your hand." (50 cards, e.g. [[Sozin's Comet]], 2025-10-02)
-- "If you're casting a foretold card from exile for its foretell cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell." (46 cards, e.g. [[Sozin's Comet]], 2025-10-02)
+- "Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you're taking the action, no other player can respond by trying to remove the card from your hand." (50 cards, e.g. [Sozin's Comet](cards/S/so.md#sozins-comet), 2025-10-02)
+- "If you're casting a foretold card from exile for its foretell cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell." (46 cards, e.g. [Sozin's Comet](cards/S/so.md#sozins-comet), 2025-10-02)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Delayed Blast Fireball]], [[Ravenform]], [[Ultimate Magic: Holy]]
+**Examples (Commander-legal; each entry includes its rulings):** [Delayed Blast Fireball](cards/D/del.md#delayed-blast-fireball), [Ravenform](cards/R/rav.md#ravenform), [Ultimate Magic: Holy](cards/U/ul.md#ultimate-magic-holy)
 
 #### Fortify
 
@@ -1259,7 +1259,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 2 Oracle cards · 2 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Future Sight (2007-05-04)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[C.A.M.P.]], [[Darksteel Garrison]]
+**Examples (Commander-legal; each entry includes its rulings):** [C.A.M.P.](cards/C/cam.md#camp), [Darksteel Garrison](cards/D/da.md#darksteel-garrison)
 
 #### Freerunning
 
@@ -1272,9 +1272,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 12 Oracle cards · 12 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Assassin's Creed (2024-07-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn't matter what happens to that Assassin or commander after that." (12 cards, e.g. [[Viewpoint Synchronization]], 2024-07-05)
+- "Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn't matter what happens to that Assassin or commander after that." (12 cards, e.g. [Viewpoint Synchronization](cards/V/vi.md#viewpoint-synchronization), 2024-07-05)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Overpowering Attack]], [[Eagle Vision]], [[Restart Sequence]]
+**Examples (Commander-legal; each entry includes its rulings):** [Overpowering Attack](cards/O/ov.md#overpowering-attack), [Eagle Vision](cards/E/ea.md#eagle-vision), [Restart Sequence](cards/R/res.md#restart-sequence)
 
 #### Frenzy
 
@@ -1297,10 +1297,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 22 Oracle cards · 17 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Dragon's Maze Promos (2013-04-27)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you cast a split card with fuse from your hand without paying its mana cost, you can choose to use its fuse ability and cast both halves without paying their mana costs." (16 cards, e.g. [[Gallifrey Falls // No More]], 2023-10-13)
-- "If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other." (16 cards, e.g. [[Gallifrey Falls // No More]], 2023-10-13)
+- "If you cast a split card with fuse from your hand without paying its mana cost, you can choose to use its fuse ability and cast both halves without paying their mana costs." (16 cards, e.g. [Gallifrey Falls // No More](cards/G/ga.md#gallifrey-falls--no-more), 2023-10-13)
+- "If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other." (16 cards, e.g. [Gallifrey Falls // No More](cards/G/ga.md#gallifrey-falls--no-more), 2023-10-13)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Wear // Tear]], [[Gallifrey Falls // No More]], [[Armed // Dangerous]]
+**Examples (Commander-legal; each entry includes its rulings):** [Wear // Tear](cards/W/we.md#wear--tear), [Gallifrey Falls // No More](cards/G/ga.md#gallifrey-falls--no-more), [Armed // Dangerous](cards/A/arm.md#armed--dangerous)
 
 ### Abilities: G
 
@@ -1315,10 +1315,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 26 Oracle cards · 26 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Warhammer 40,000 Commander (2022-10-07)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "As an additional cost to cast a spell with gift, you can promise the listed gift to an opponent. That opponent is chosen as part of that additional cost. The gift isn't given at this time; rather, it's given at a later time based on whether or not the spell is a permanent spell." (25 cards, e.g. [[Bilbo's Gambit]], 2026-06-29)
-- "For instants and sorceries with gift, the gift is given to the appropriate opponent as part of the resolution of the spell. This happens before any of the spell's other effects would take place." (25 cards, e.g. [[Bilbo's Gambit]], 2026-06-29)
+- "As an additional cost to cast a spell with gift, you can promise the listed gift to an opponent. That opponent is chosen as part of that additional cost. The gift isn't given at this time; rather, it's given at a later time based on whether or not the spell is a permanent spell." (25 cards, e.g. [Bilbo's Gambit](cards/B/bi.md#bilbos-gambit), 2026-06-29)
+- "For instants and sorceries with gift, the gift is given to the appropriate opponent as part of the resolution of the spell. This happens before any of the spell's other effects would take place." (25 cards, e.g. [Bilbo's Gambit](cards/B/bi.md#bilbos-gambit), 2026-06-29)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Dawn's Truce]], [[Into the Flood Maw]], [[Long River's Pull]]
+**Examples (Commander-legal; each entry includes its rulings):** [Dawn's Truce](cards/D/da.md#dawns-truce), [Into the Flood Maw](cards/I/int.md#into-the-flood-maw), [Long River's Pull](cards/L/lo.md#long-rivers-pull)
 
 #### Graft
 
@@ -1330,7 +1330,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 13 Oracle cards · 13 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Dissension (2006-05-05)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Llanowar Reborn]], [[Cytoplast Manipulator]], [[Novijen Sages]]
+**Examples (Commander-legal; each entry includes its rulings):** [Llanowar Reborn](cards/L/ll.md#llanowar-reborn), [Cytoplast Manipulator](cards/C/cy.md#cytoplast-manipulator), [Novijen Sages](cards/N/no.md#novijen-sages)
 
 #### Gravestorm
 
@@ -1343,10 +1343,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 3 Oracle cards · 3 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Future Sight (2007-05-04)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with gravestorm won't affect the copies." (2 cards, e.g. [[Ominous Harvest]], 2026-03-20)
-- "Gravestorm counts all permanents put into graveyards from the battlefield this turn. It doesn't matter who controlled those permanents, who owns them, or whether or not they were tokens." (2 cards, e.g. [[Ominous Harvest]], 2026-03-20)
+- "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with gravestorm won't affect the copies." (2 cards, e.g. [Ominous Harvest](cards/O/om.md#ominous-harvest), 2026-03-20)
+- "Gravestorm counts all permanents put into graveyards from the battlefield this turn. It doesn't matter who controlled those permanents, who owns them, or whether or not they were tokens." (2 cards, e.g. [Ominous Harvest](cards/O/om.md#ominous-harvest), 2026-03-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Ominous Harvest]], [[Follow the Bodies]], [[Bitter Ordeal]]
+**Examples (Commander-legal; each entry includes its rulings):** [Ominous Harvest](cards/O/om.md#ominous-harvest), [Follow the Bodies](cards/F/fo.md#follow-the-bodies), [Bitter Ordeal](cards/B/bi.md#bitter-ordeal)
 
 ### Abilities: H
 
@@ -1361,10 +1361,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 11 Oracle cards · 11 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Tarkir: Dragonstorm Promos (2025-04-11)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""Harmonize [cost]" means "You may cast this card from your graveyard by paying [cost] and tapping up to one untapped creature you control rather than paying the spell's mana cost," "If you cast this spell using its harmonize ability, its total cost is reduced by an amount of generic mana equal to the tapped creature's power," and "If the harmonize cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."" (8 cards, e.g. [[Zenith Festival]], 2025-04-04)
-- "A spell cast using harmonize will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way." (8 cards, e.g. [[Zenith Festival]], 2025-04-04)
+- ""Harmonize [cost]" means "You may cast this card from your graveyard by paying [cost] and tapping up to one untapped creature you control rather than paying the spell's mana cost," "If you cast this spell using its harmonize ability, its total cost is reduced by an amount of generic mana equal to the tapped creature's power," and "If the harmonize cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."" (8 cards, e.g. [Zenith Festival](cards/Z/ze.md#zenith-festival), 2025-04-04)
+- "A spell cast using harmonize will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way." (8 cards, e.g. [Zenith Festival](cards/Z/ze.md#zenith-festival), 2025-04-04)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Winternight Stories]], [[Wild Ride]], [[Zenith Festival]]
+**Examples (Commander-legal; each entry includes its rulings):** [Winternight Stories](cards/W/wi.md#winternight-stories), [Wild Ride](cards/W/wi.md#wild-ride), [Zenith Festival](cards/Z/ze.md#zenith-festival)
 
 #### Haste
 
@@ -1377,9 +1377,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 669 Oracle cards · 640 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Limited Edition Alpha (1993-08-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Activating Gingerbrute's middle ability after it has become blocked by a creature without haste won't cause it to become unblocked." (1 card, e.g. [[Gingerbrute]], 2019-10-04)
+- "Activating Gingerbrute's middle ability after it has become blocked by a creature without haste won't cause it to become unblocked." (1 card, e.g. [Gingerbrute](cards/G/gi.md#gingerbrute), 2019-10-04)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Craterhoof Behemoth]], [[Anger]], [[Goldspan Dragon]]
+**Examples (Commander-legal; each entry includes its rulings):** [Craterhoof Behemoth](cards/C/cr.md#craterhoof-behemoth), [Anger](cards/A/an.md#anger), [Goldspan Dragon](cards/G/gol.md#goldspan-dragon)
 
 #### Haunt
 
@@ -1392,9 +1392,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 10 Oracle cards · 10 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Guildpact (2006-02-03)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you own the creature Exhumer Thrull was haunting, that creature will generally be a legal target for the haunt trigger to return to your hand." (1 card, e.g. [[Exhumer Thrull]], 2006-02-01)
+- "If you own the creature Exhumer Thrull was haunting, that creature will generally be a legal target for the haunt trigger to return to your hand." (1 card, e.g. [Exhumer Thrull](cards/E/ex.md#exhumer-thrull), 2006-02-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Benediction of Moons]], [[Orzhov Pontiff]], [[Seize the Soul]]
+**Examples (Commander-legal; each entry includes its rulings):** [Benediction of Moons](cards/B/be.md#benediction-of-moons), [Orzhov Pontiff](cards/O/or.md#orzhov-pontiff), [Seize the Soul](cards/S/sei.md#seize-the-soul)
 
 #### Hexproof
 
@@ -1407,9 +1407,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 99 Oracle cards · 92 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Portal Three Kingdoms (1999-05-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""Hexproof from [quality]" is a variant of the hexproof ability. "Hexproof from black" means "This permanent can't be the target of black spells your opponents control or abilities of black sources your opponents control."" (1 card, e.g. [[Knight of Grace]], 2018-04-27)
+- ""Hexproof from [quality]" is a variant of the hexproof ability. "Hexproof from black" means "This permanent can't be the target of black spells your opponents control or abilities of black sources your opponents control."" (1 card, e.g. [Knight of Grace](cards/K/kn.md#knight-of-grace), 2018-04-27)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Lotus Field]], [[Volatile Stormdrake]], [[Breaker of Creation]]
+**Examples (Commander-legal; each entry includes its rulings):** [Lotus Field](cards/L/lo.md#lotus-field), [Volatile Stormdrake](cards/V/vo.md#volatile-stormdrake), [Breaker of Creation](cards/B/br.md#breaker-of-creation)
 
 #### Hidden Agenda
 
@@ -1422,8 +1422,8 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 15 Oracle cards · 0 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Conspiracy (2014-06-06)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect." (15 cards, e.g. [[Unexpected Potential]], 2016-08-23)
-- "At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts." (15 cards, e.g. [[Unexpected Potential]], 2016-08-23)
+- "A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect." (15 cards, e.g. [Unexpected Potential](cards/U/un.md#unexpected-potential), 2016-08-23)
+- "At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts." (15 cards, e.g. [Unexpected Potential](cards/U/un.md#unexpected-potential), 2016-08-23)
 
 #### Hideaway
 
@@ -1436,10 +1436,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 15 Oracle cards · 15 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Lorwyn (2007-10-12)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card." (14 cards, e.g. [[Evercoat Ursine]], 2024-07-26)
-- "Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order." (13 cards, e.g. [[Collector's Cage]], 2024-04-12)
+- "Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card." (14 cards, e.g. [Evercoat Ursine](cards/E/ev.md#evercoat-ursine), 2024-07-26)
+- "Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order." (13 cards, e.g. [Collector's Cage](cards/C/col.md#collectors-cage), 2024-04-12)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Mosswort Bridge]], [[Windbrisk Heights]], [[Spinerock Knoll]]
+**Examples (Commander-legal; each entry includes its rulings):** [Mosswort Bridge](cards/M/mos.md#mosswort-bridge), [Windbrisk Heights](cards/W/wi.md#windbrisk-heights), [Spinerock Knoll](cards/S/spi.md#spinerock-knoll)
 
 #### Horsemanship
 
@@ -1452,9 +1452,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 30 Oracle cards · 28 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Portal Three Kingdoms Promos (1999-04-29)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach." (27 cards, e.g. [[Zhao Zilong, Tiger General]], 2009-10-01)
+- "Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach." (27 cards, e.g. [Zhao Zilong, Tiger General](cards/Z/zh.md#zhao-zilong-tiger-general), 2009-10-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Lu Xun, Scholar General]], [[Xiahou Dun, the One-Eyed]], [[Wu Scout]]
+**Examples (Commander-legal; each entry includes its rulings):** [Lu Xun, Scholar General](cards/L/lu.md#lu-xun-scholar-general), [Xiahou Dun, the One-Eyed](cards/X/xi.md#xiahou-dun-the-one-eyed), [Wu Scout](cards/W/wu.md#wu-scout)
 
 ### Abilities: I
 
@@ -1469,10 +1469,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 5 Oracle cards · 5 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Duskmourn: House of Horror (2024-09-27)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""Impending N–[cost]" is a keyword that represents multiple abilities. The official rules are as follows: (a) You may choose to pay [cost] rather than pay this spell's mana cost. (b) If you chose to pay this spell's impending cost, it enters the battlefield with N time counters on it. (c) As long as this permanent has a time counter on it, if it was cast for its impending cost, it's not a creature. (d) At the beginning of your end step, if this permanent was cast for its impending cost, remove a time counter from it." (5 cards, e.g. [[Overlord of the Mistmoors]], 2024-09-20)
-- "If an object enters as a copy of a permanent that was cast with its impending cost, it won't enter with time counters, and it will be a creature." (5 cards, e.g. [[Overlord of the Mistmoors]], 2024-09-20)
+- ""Impending N–[cost]" is a keyword that represents multiple abilities. The official rules are as follows: (a) You may choose to pay [cost] rather than pay this spell's mana cost. (b) If you chose to pay this spell's impending cost, it enters the battlefield with N time counters on it. (c) As long as this permanent has a time counter on it, if it was cast for its impending cost, it's not a creature. (d) At the beginning of your end step, if this permanent was cast for its impending cost, remove a time counter from it." (5 cards, e.g. [Overlord of the Mistmoors](cards/O/ov.md#overlord-of-the-mistmoors), 2024-09-20)
+- "If an object enters as a copy of a permanent that was cast with its impending cost, it won't enter with time counters, and it will be a creature." (5 cards, e.g. [Overlord of the Mistmoors](cards/O/ov.md#overlord-of-the-mistmoors), 2024-09-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Overlord of the Hauntwoods]], [[Overlord of the Balemurk]], [[Overlord of the Floodpits]]
+**Examples (Commander-legal; each entry includes its rulings):** [Overlord of the Hauntwoods](cards/O/ov.md#overlord-of-the-hauntwoods), [Overlord of the Balemurk](cards/O/ov.md#overlord-of-the-balemurk), [Overlord of the Floodpits](cards/O/ov.md#overlord-of-the-floodpits)
 
 #### Improvise
 
@@ -1485,10 +1485,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 23 Oracle cards · 23 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Friday Night Magic 2017 (2017-01-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If an artifact you control has a mana ability with {T} in the cost, activating that ability while casting a spell with improvise will result in the artifact being tapped when you pay the spell's costs. You won't be able to tap it again for improvise. Similarly, if you sacrifice an artifact to activate a mana ability while casting a spell with improvise, that artifact won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for improvise." (16 cards, e.g. [[Metallic Rebuke]], 2020-08-07)
-- "Improvise doesn't change a spell's mana cost or mana value." (16 cards, e.g. [[Metallic Rebuke]], 2020-08-07)
+- "If an artifact you control has a mana ability with {T} in the cost, activating that ability while casting a spell with improvise will result in the artifact being tapped when you pay the spell's costs. You won't be able to tap it again for improvise. Similarly, if you sacrifice an artifact to activate a mana ability while casting a spell with improvise, that artifact won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for improvise." (16 cards, e.g. [Metallic Rebuke](cards/M/me.md#metallic-rebuke), 2020-08-07)
+- "Improvise doesn't change a spell's mana cost or mana value." (16 cards, e.g. [Metallic Rebuke](cards/M/me.md#metallic-rebuke), 2020-08-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Kappa Cannoneer]], [[Whir of Invention]], [[Bottle-Cap Blast]]
+**Examples (Commander-legal; each entry includes its rulings):** [Kappa Cannoneer](cards/K/ka.md#kappa-cannoneer), [Whir of Invention](cards/W/wh.md#whir-of-invention), [Bottle-Cap Blast](cards/B/bo.md#bottle-cap-blast)
 
 #### Increment
 
@@ -1501,10 +1501,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 9 Oracle cards · 9 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Secrets of Strixhaven (2026-04-24)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "An increment ability will only trigger if the permanent it's on is a creature. Similarly, if the permanent is no longer a creature when its increment ability resolves, the ability won't do anything." (9 cards, e.g. [[Topiary Lecturer]], 2026-03-20)
-- "If increment triggers, the comparison will happen again when the ability tries to resolve. If the amount of mana spent to cast that spell isn't greater than either of that creature's stats anymore, the ability will do nothing." (9 cards, e.g. [[Topiary Lecturer]], 2026-03-20)
+- "An increment ability will only trigger if the permanent it's on is a creature. Similarly, if the permanent is no longer a creature when its increment ability resolves, the ability won't do anything." (9 cards, e.g. [Topiary Lecturer](cards/T/to.md#topiary-lecturer), 2026-03-20)
+- "If increment triggers, the comparison will happen again when the ability tries to resolve. If the amount of mana spent to cast that spell isn't greater than either of that creature's stats anymore, the ability will do nothing." (9 cards, e.g. [Topiary Lecturer](cards/T/to.md#topiary-lecturer), 2026-03-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Pensive Professor]], [[Topiary Lecturer]], [[Berta, Wise Extrapolator]]
+**Examples (Commander-legal; each entry includes its rulings):** [Pensive Professor](cards/P/pe.md#pensive-professor), [Topiary Lecturer](cards/T/to.md#topiary-lecturer), [Berta, Wise Extrapolator](cards/B/be.md#berta-wise-extrapolator)
 
 #### Indestructible
 
@@ -1517,10 +1517,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 114 Oracle cards · 111 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Arena League 2004 (2004-01-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Lethal damage and effects that say "destroy" won't cause a creature with indestructible to be put into the graveyard. However, a creature with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it's sacrificed, if it's legendary and another legendary creature with the same name is controlled by the same player, or if its toughness is 0 or less." (3 cards, e.g. [[Ulamog, the Infinite Gyre]], 2013-07-01)
-- "A battle with indestructible still loses defense counters as it's dealt damage. If it's a Siege, it will still be exiled when the last defense counter is removed from it, and its controller may still cast it transformed without paying its mana cost." (1 card, e.g. [[Avacyn, Angel of Hope]], 2023-07-28)
+- "Lethal damage and effects that say "destroy" won't cause a creature with indestructible to be put into the graveyard. However, a creature with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it's sacrificed, if it's legendary and another legendary creature with the same name is controlled by the same player, or if its toughness is 0 or less." (3 cards, e.g. [Ulamog, the Infinite Gyre](cards/U/ul.md#ulamog-the-infinite-gyre), 2013-07-01)
+- "A battle with indestructible still loses defense counters as it's dealt damage. If it's a Siege, it will still be exiled when the last defense counter is removed from it, and its controller may still cast it transformed without paying its mana cost." (1 card, e.g. [Avacyn, Angel of Hope](cards/A/av.md#avacyn-angel-of-hope), 2023-07-28)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[The One Ring]], [[Mithril Coat]], [[Darksteel Citadel]]
+**Examples (Commander-legal; each entry includes its rulings):** [The One Ring](cards/T/theo.md#the-one-ring), [Mithril Coat](cards/M/mit.md#mithril-coat), [Darksteel Citadel](cards/D/da.md#darksteel-citadel)
 
 #### Infect
 
@@ -1533,10 +1533,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 47 Oracle cards · 46 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Scars of Mirrodin (2010-10-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate." (15 cards, e.g. [[Skithiryx, the Blight Dragon]], 2025-09-19)
-- "Damage from a source with infect affects planeswalkers normally." (13 cards, e.g. [[Tel-Jilad Fallen]], 2011-01-01)
+- "Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate." (15 cards, e.g. [Skithiryx, the Blight Dragon](cards/S/sk.md#skithiryx-the-blight-dragon), 2025-09-19)
+- "Damage from a source with infect affects planeswalkers normally." (13 cards, e.g. [Tel-Jilad Fallen](cards/T/te.md#tel-jilad-fallen), 2011-01-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Blightsteel Colossus]], [[Skithiryx, the Blight Dragon]], [[Ichor Rats]]
+**Examples (Commander-legal; each entry includes its rulings):** [Blightsteel Colossus](cards/B/bli.md#blightsteel-colossus), [Skithiryx, the Blight Dragon](cards/S/sk.md#skithiryx-the-blight-dragon), [Ichor Rats](cards/I/ic.md#ichor-rats)
 
 #### Ingest
 
@@ -1549,10 +1549,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 9 Oracle cards · 9 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Duel Decks: Zendikar vs. Eldrazi (2015-08-28)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If the player has no cards in their library when the ingest ability resolves, nothing happens. That player won't lose the game (until they have to draw a card from an empty library)." (9 cards, e.g. [[Vile Aggregate]], 2015-08-25)
-- "The card exiled by the ingest ability is exiled face up." (9 cards, e.g. [[Vile Aggregate]], 2015-08-25)
+- "If the player has no cards in their library when the ingest ability resolves, nothing happens. That player won't lose the game (until they have to draw a card from an empty library)." (9 cards, e.g. [Vile Aggregate](cards/V/vi.md#vile-aggregate), 2015-08-25)
+- "The card exiled by the ingest ability is exiled face up." (9 cards, e.g. [Vile Aggregate](cards/V/vi.md#vile-aggregate), 2015-08-25)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Benthic Infiltrator]], [[Fathom Feeder]], [[Ruination Guide]]
+**Examples (Commander-legal; each entry includes its rulings):** [Benthic Infiltrator](cards/B/be.md#benthic-infiltrator), [Fathom Feeder](cards/F/fa.md#fathom-feeder), [Ruination Guide](cards/R/ru.md#ruination-guide)
 
 #### Intimidate
 
@@ -1565,10 +1565,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 23 Oracle cards · 23 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Zendikar (2009-10-02)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If an attacking creature has intimidate, what colors it is matters only as the defending player declares blockers. Once it's blocked, changing its colors won't change that." (2 cards, e.g. [[Halo Hunter]], 2009-10-01)
-- "Intimidate looks at the current colors of a creature that has it. Normally, Bladetusk Boar can't be blocked except by artifact creatures and/or red creatures. If it's turned blue, then it can't be blocked except by artifact creatures and/or blue creatures." (1 card, e.g. [[Bladetusk Boar]], 2009-10-01)
+- "If an attacking creature has intimidate, what colors it is matters only as the defending player declares blockers. Once it's blocked, changing its colors won't change that." (2 cards, e.g. [Halo Hunter](cards/H/ha.md#halo-hunter), 2009-10-01)
+- "Intimidate looks at the current colors of a creature that has it. Normally, Bladetusk Boar can't be blocked except by artifact creatures and/or red creatures. If it's turned blue, then it can't be blocked except by artifact creatures and/or blue creatures." (1 card, e.g. [Bladetusk Boar](cards/B/bla.md#bladetusk-boar), 2009-10-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Mikaeus, the Unhallowed]], [[Sepulchral Primordial]], [[Geth, Lord of the Vault]]
+**Examples (Commander-legal; each entry includes its rulings):** [Mikaeus, the Unhallowed](cards/M/mik.md#mikaeus-the-unhallowed), [Sepulchral Primordial](cards/S/sep.md#sepulchral-primordial), [Geth, Lord of the Vault](cards/G/ge.md#geth-lord-of-the-vault)
 
 ### Abilities: J
 
@@ -1583,9 +1583,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 19 Oracle cards · 19 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Final Fantasy (2025-06-13)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them." (18 cards, e.g. [[Warrior's Sword]], 2025-06-06)
+- "If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them." (18 cards, e.g. [Warrior's Sword](cards/W/war.md#warriors-sword), 2025-06-06)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Black Mage's Rod]], [[Dancer's Chakrams]], [[Machinist's Arsenal]]
+**Examples (Commander-legal; each entry includes its rulings):** [Black Mage's Rod](cards/B/bla.md#black-mages-rod), [Dancer's Chakrams](cards/D/da.md#dancers-chakrams), [Machinist's Arsenal](cards/M/mac.md#machinists-arsenal)
 
 #### Jump-Start
 
@@ -1598,10 +1598,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 12 Oracle cards · 12 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Guilds of Ravnica (2018-10-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A spell cast using jump-start will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way." (12 cards, e.g. [[Start the TARDIS]], 2023-10-13)
-- "If a card with jump-start is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions." (12 cards, e.g. [[Start the TARDIS]], 2023-10-13)
+- "A spell cast using jump-start will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way." (12 cards, e.g. [Start the TARDIS](cards/S/sta.md#start-the-tardis), 2023-10-13)
+- "If a card with jump-start is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions." (12 cards, e.g. [Start the TARDIS](cards/S/sta.md#start-the-tardis), 2023-10-13)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Quasiduplicate]], [[Chemister's Insight]], [[Risk Factor]]
+**Examples (Commander-legal; each entry includes its rulings):** [Quasiduplicate](cards/Q/qu.md#quasiduplicate), [Chemister's Insight](cards/C/che.md#chemisters-insight), [Risk Factor](cards/R/ri.md#risk-factor)
 
 ### Abilities: K
 
@@ -1616,10 +1616,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 230 Oracle cards · 226 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Invasion (2000-10-02)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a spell's kicker cost was paid, the spell is "kicked."" (221 cards, e.g. [[The Eagles Are Coming!]], 2026-06-29)
-- "The kicker ability doesn't let you pay a kicker cost more than once." (221 cards, e.g. [[The Eagles Are Coming!]], 2026-06-29)
+- "If a spell's kicker cost was paid, the spell is "kicked."" (221 cards, e.g. [The Eagles Are Coming!](cards/T/thee.md#the-eagles-are-coming), 2026-06-29)
+- "The kicker ability doesn't let you pay a kicker cost more than once." (221 cards, e.g. [The Eagles Are Coming!](cards/T/thee.md#the-eagles-are-coming), 2026-06-29)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Tear Asunder]], [[Rite of Replication]], [[Maddening Cacophony]]
+**Examples (Commander-legal; each entry includes its rulings):** [Tear Asunder](cards/T/te.md#tear-asunder), [Rite of Replication](cards/R/ri.md#rite-of-replication), [Maddening Cacophony](cards/M/mad.md#maddening-cacophony)
 
 ### Abilities: L
 
@@ -1634,9 +1634,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 134 Oracle cards · 129 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Limited Edition Alpha (1993-08-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""Legendary landwalk" means "This creature is can't be blocked as long as defending player controls a legendary land."" (1 card, e.g. [[Livonya Silone]], 2009-10-01)
+- ""Legendary landwalk" means "This creature is can't be blocked as long as defending player controls a legendary land."" (1 card, e.g. [Livonya Silone](cards/L/li.md#livonya-silone), 2009-10-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Sheoldred, Whispering One]], [[Chatterfang, Squirrel General]], [[Stormtide Leviathan]]
+**Examples (Commander-legal; each entry includes its rulings):** [Sheoldred, Whispering One](cards/S/she.md#sheoldred-whispering-one), [Chatterfang, Squirrel General](cards/C/cha.md#chatterfang-squirrel-general), [Stormtide Leviathan](cards/S/sto.md#stormtide-leviathan)
 
 #### Level Up
 
@@ -1649,10 +1649,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 26 Oracle cards · 25 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Rise of the Eldrazi (2010-04-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A creature's level is based on how many level counters it has on it, not how many times its level up ability has been activated or has resolved. If a leveler gets level counters due to some other effect (such as Clockspinning) or loses level counters for some reason (such as Vampire Hexmage), its level is changed accordingly." (24 cards, e.g. [[Zulaport Enforcer]], 2010-06-15)
-- "The abilities a leveler grants to itself don't overwrite any other abilities it may have. In particular, they don't overwrite the creature's level up ability; it always has that." (24 cards, e.g. [[Zulaport Enforcer]], 2010-06-15)
+- "A creature's level is based on how many level counters it has on it, not how many times its level up ability has been activated or has resolved. If a leveler gets level counters due to some other effect (such as Clockspinning) or loses level counters for some reason (such as Vampire Hexmage), its level is changed accordingly." (24 cards, e.g. [Zulaport Enforcer](cards/Z/zu.md#zulaport-enforcer), 2010-06-15)
+- "The abilities a leveler grants to itself don't overwrite any other abilities it may have. In particular, they don't overwrite the creature's level up ability; it always has that." (24 cards, e.g. [Zulaport Enforcer](cards/Z/zu.md#zulaport-enforcer), 2010-06-15)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Joraga Treespeaker]], [[Hexdrinker]], [[Coralhelm Commander]]
+**Examples (Commander-legal; each entry includes its rulings):** [Joraga Treespeaker](cards/J/jo.md#joraga-treespeaker), [Hexdrinker](cards/H/he.md#hexdrinker), [Coralhelm Commander](cards/C/cor.md#coralhelm-commander)
 
 #### Lifelink
 
@@ -1665,10 +1665,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 380 Oracle cards · 362 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Future Sight (2007-05-04)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Multiple instances of lifelink on the same creature are redundant." (2 cards, e.g. [[Lyra Dawnbringer]], 2022-12-08)
-- "An instant or sorcery spell with lifelink causes its controller to gain life only if it's the source of any damage that's dealt. An instant or sorcery spell with lifelink that causes another source to deal damage won't cause its controller to gain life." (1 card, e.g. [[Soulfire Grand Master]], 2014-11-24)
+- "Multiple instances of lifelink on the same creature are redundant." (2 cards, e.g. [Lyra Dawnbringer](cards/L/ly.md#lyra-dawnbringer), 2022-12-08)
+- "An instant or sorcery spell with lifelink causes its controller to gain life only if it's the source of any damage that's dealt. An instant or sorcery spell with lifelink that causes another source to deal damage won't cause its controller to gain life." (1 card, e.g. [Soulfire Grand Master](cards/S/so.md#soulfire-grand-master), 2014-11-24)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Mangara, the Diplomat]], [[Enduring Innocence]], [[Serra Ascendant]]
+**Examples (Commander-legal; each entry includes its rulings):** [Mangara, the Diplomat](cards/M/man.md#mangara-the-diplomat), [Enduring Innocence](cards/E/en.md#enduring-innocence), [Serra Ascendant](cards/S/ser.md#serra-ascendant)
 
 #### Living Metal
 
@@ -1681,10 +1681,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 13 Oracle cards · 13 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Transformers (2022-11-18)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""Living metal" means "As long as it's your turn, this permanent is an artifact creature in addition to its other types."" (13 cards, e.g. [[Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier]], 2022-10-14)
-- "If a static ability of another permanent applies only to noncreature permanents, that ability applies to a Vehicle with living metal only during your opponents' turns. For example, if you control Arcee, Acrobatic Coupe and March of the Machines, Arcee will be a 2/2 artifact creature during your turn and a 3/3 artifact creature (because its mana value is 3) during each opponent's turn." (13 cards, e.g. [[Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier]], 2022-10-14)
+- ""Living metal" means "As long as it's your turn, this permanent is an artifact creature in addition to its other types."" (13 cards, e.g. [Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier](cards/U/ul.md#ultra-magnus-tactician--ultra-magnus-armored-carrier), 2022-10-14)
+- "If a static ability of another permanent applies only to noncreature permanents, that ability applies to a Vehicle with living metal only during your opponents' turns. For example, if you control Arcee, Acrobatic Coupe and March of the Machines, Arcee will be a 2/2 artifact creature during your turn and a 3/3 artifact creature (because its mana value is 3) during each opponent's turn." (13 cards, e.g. [Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier](cards/U/ul.md#ultra-magnus-tactician--ultra-magnus-armored-carrier), 2022-10-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Slicer, Hired Muscle // Slicer, High-Speed Antagonist]], [[Starscream, Power Hungry // Starscream, Seeker Leader]], [[Ratchet, Field Medic // Ratchet, Rescue Racer]]
+**Examples (Commander-legal; each entry includes its rulings):** [Slicer, Hired Muscle // Slicer, High-Speed Antagonist](cards/S/sl.md#slicer-hired-muscle--slicer-high-speed-antagonist), [Starscream, Power Hungry // Starscream, Seeker Leader](cards/S/sta.md#starscream-power-hungry--starscream-seeker-leader), [Ratchet, Field Medic // Ratchet, Rescue Racer](cards/R/rat.md#ratchet-field-medic--ratchet-rescue-racer)
 
 #### Living Weapon
 
@@ -1697,10 +1697,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 19 Oracle cards · 19 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Mirrodin Besieged (2011-02-04)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If the living weapon trigger causes two Germs to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to one of them. The other will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0." (11 cards, e.g. [[Tangleweave Armor]], 2023-02-04)
-- "Like other Equipment, each Equipment with living weapon has an equip cost. You can pay this cost to attach an Equipment to another creature you control. Once the Germ token is no longer equipped, it will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0." (11 cards, e.g. [[Tangleweave Armor]], 2023-02-04)
+- "If the living weapon trigger causes two Germs to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to one of them. The other will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0." (11 cards, e.g. [Tangleweave Armor](cards/T/ta.md#tangleweave-armor), 2023-02-04)
+- "Like other Equipment, each Equipment with living weapon has an equip cost. You can pay this cost to attach an Equipment to another creature you control. Once the Germ token is no longer equipped, it will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0." (11 cards, e.g. [Tangleweave Armor](cards/T/ta.md#tangleweave-armor), 2023-02-04)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Nettlecyst]], [[Batterskull]], [[Bonehoard]]
+**Examples (Commander-legal; each entry includes its rulings):** [Nettlecyst](cards/N/ne.md#nettlecyst), [Batterskull](cards/B/bat.md#batterskull), [Bonehoard](cards/B/bo.md#bonehoard)
 
 ### Abilities: M
 
@@ -1715,10 +1715,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 63 Oracle cards · 61 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Torment (2002-02-04)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger." (63 cards, e.g. [[Madlands]], 2024-11-08)
-- "If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved." (63 cards, e.g. [[Madlands]], 2024-11-08)
+- "A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger." (63 cards, e.g. [Madlands](cards/M/mad.md#madlands), 2024-11-08)
+- "If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved." (63 cards, e.g. [Madlands](cards/M/mad.md#madlands), 2024-11-08)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Emrakul, the World Anew]], [[Necrogoyf]], [[Markov Baron]]
+**Examples (Commander-legal; each entry includes its rulings):** [Emrakul, the World Anew](cards/E/em.md#emrakul-the-world-anew), [Necrogoyf](cards/N/ne.md#necrogoyf), [Markov Baron](cards/M/mar.md#markov-baron)
 
 #### Max Speed
 
@@ -1731,10 +1731,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 36 Oracle cards · 34 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Aetherdrift (2025-02-14)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""Max speed — [ability]" means "As long as you have max speed, this object has [ability]." If the granted ability functions in a zone other than the battlefield, the max speed ability does too." (32 cards, e.g. [[Walking Sarcophagus]], 2025-02-07)
-- "A player "has max speed" if their speed is 4." (32 cards, e.g. [[Walking Sarcophagus]], 2025-02-07)
+- ""Max speed — [ability]" means "As long as you have max speed, this object has [ability]." If the granted ability functions in a zone other than the battlefield, the max speed ability does too." (32 cards, e.g. [Walking Sarcophagus](cards/W/wal.md#walking-sarcophagus), 2025-02-07)
+- "A player "has max speed" if their speed is 4." (32 cards, e.g. [Walking Sarcophagus](cards/W/wal.md#walking-sarcophagus), 2025-02-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Muraganda Raceway]], [[Amonkhet Raceway]], [[Howlsquad Heavy]]
+**Examples (Commander-legal; each entry includes its rulings):** [Muraganda Raceway](cards/M/mu.md#muraganda-raceway), [Amonkhet Raceway](cards/A/am.md#amonkhet-raceway), [Howlsquad Heavy](cards/H/ho.md#howlsquad-heavy)
 
 #### Mayhem
 
@@ -1747,10 +1747,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 16 Oracle cards · 16 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Through the Omenpaths (2025-09-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Mayhem represents an alternative cost that can be paid to cast a spell from your graveyard if you discarded the card with mayhem that turn. You must pay any additional costs the spell has." (12 cards, e.g. [[Ultimate Green Goblin]], 2025-09-19)
-- "You must follow all normal timing rules when casting a spell with mayhem. For example, you can't cast a creature card with mayhem you couldn't normally cast during an opponent's turn, even if you discard that card during an opponent's turn." (12 cards, e.g. [[Ultimate Green Goblin]], 2025-09-19)
+- "Mayhem represents an alternative cost that can be paid to cast a spell from your graveyard if you discarded the card with mayhem that turn. You must pay any additional costs the spell has." (12 cards, e.g. [Ultimate Green Goblin](cards/U/ul.md#ultimate-green-goblin), 2025-09-19)
+- "You must follow all normal timing rules when casting a spell with mayhem. For example, you can't cast a creature card with mayhem you couldn't normally cast during an opponent's turn, even if you discard that card during an opponent's turn." (12 cards, e.g. [Ultimate Green Goblin](cards/U/ul.md#ultimate-green-goblin), 2025-09-19)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Chameleon, Master of Disguise]], [[Oscorp Industries]], [[Ultimate Green Goblin]]
+**Examples (Commander-legal; each entry includes its rulings):** [Chameleon, Master of Disguise](cards/C/cha.md#chameleon-master-of-disguise), [Oscorp Industries](cards/O/os.md#oscorp-industries), [Ultimate Green Goblin](cards/U/ul.md#ultimate-green-goblin)
 
 #### Melee
 
@@ -1763,10 +1763,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 12 Oracle cards · 12 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Conspiracy: Take the Crown (2016-08-26)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Creatures that enter the battlefield attacking were never declared as attackers, so they won't count toward melee's effect. Similarly, if a creature with melee enters the battlefield attacking, melee won't trigger." (9 cards, e.g. [[Tifa, Martial Artist]], 2025-06-06)
-- "You determine the size of the bonus as the melee ability resolves. Count each opponent that you attacked with one or more creatures. It doesn't matter if the attacking creatures are still attacking or even if they are still on the battlefield. It also doesn't matter if the opponent you attacked is still in the game." (9 cards, e.g. [[Tifa, Martial Artist]], 2025-06-06)
+- "Creatures that enter the battlefield attacking were never declared as attackers, so they won't count toward melee's effect. Similarly, if a creature with melee enters the battlefield attacking, melee won't trigger." (9 cards, e.g. [Tifa, Martial Artist](cards/T/ti.md#tifa-martial-artist), 2025-06-06)
+- "You determine the size of the bonus as the melee ability resolves. Count each opponent that you attacked with one or more creatures. It doesn't matter if the attacking creatures are still attacking or even if they are still on the battlefield. It also doesn't matter if the opponent you attacked is still in the game." (9 cards, e.g. [Tifa, Martial Artist](cards/T/ti.md#tifa-martial-artist), 2025-06-06)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Skyhunter Strike Force]], [[Tifa, Martial Artist]], [[Wulfgar of Icewind Dale]]
+**Examples (Commander-legal; each entry includes its rulings):** [Skyhunter Strike Force](cards/S/sk.md#skyhunter-strike-force), [Tifa, Martial Artist](cards/T/ti.md#tifa-martial-artist), [Wulfgar of Icewind Dale](cards/W/wu.md#wulfgar-of-icewind-dale)
 
 #### Menace
 
@@ -1779,10 +1779,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 395 Oracle cards · 382 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Ice Age (1995-06-03)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Once an attacking creature with menace is legally blocked by two or more creatures, removing one or more of those blockers from combat won't change or undo that block." (2 cards, e.g. [[Gilt-Leaf Winnower]], 2015-06-22)
-- "If the card represents multiple creatures and at least one of them is wearing a hat, the creature will have menace." (1 card, e.g. [[Goblin Haberdasher]], 2020-02-29)
+- "Once an attacking creature with menace is legally blocked by two or more creatures, removing one or more of those blockers from combat won't change or undo that block." (2 cards, e.g. [Gilt-Leaf Winnower](cards/G/gi.md#gilt-leaf-winnower), 2015-06-22)
+- "If the card represents multiple creatures and at least one of them is wearing a hat, the creature will have menace." (1 card, e.g. [Goblin Haberdasher](cards/G/gob.md#goblin-haberdasher), 2020-02-29)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Noxious Gearhulk]], [[Kozilek, the Great Distortion]], [[Tergrid, God of Fright // Tergrid's Lantern]]
+**Examples (Commander-legal; each entry includes its rulings):** [Noxious Gearhulk](cards/N/no.md#noxious-gearhulk), [Kozilek, the Great Distortion](cards/K/ko.md#kozilek-the-great-distortion), [Tergrid, God of Fright // Tergrid's Lantern](cards/T/te.md#tergrid-god-of-fright--tergrids-lantern)
 
 #### Mentor
 
@@ -1795,10 +1795,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 21 Oracle cards · 20 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Guilds of Ravnica Promos (2018-10-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If the target creature's power is no longer less than the attacking creature's power as the ability resolves, mentor doesn't add a +1/+1 counter. For example, if two 3/3 creatures with mentor attack and both mentor triggers target the same 2/2 creature, the first to resolve puts a +1/+1 counter on it and the second does nothing." (18 cards, e.g. [[Nyxborn Unicorn]], 2024-06-07)
-- "Mentor compares the power of the creature with mentor with that of the target creature at two different times: once as the triggered ability is put onto the stack, and once as the triggered ability resolves. If you wish to raise a creature's power so its mentor ability can target a bigger creature, the last chance you have to do so is during the beginning of combat step." (18 cards, e.g. [[Nyxborn Unicorn]], 2024-06-07)
+- "If the target creature's power is no longer less than the attacking creature's power as the ability resolves, mentor doesn't add a +1/+1 counter. For example, if two 3/3 creatures with mentor attack and both mentor triggers target the same 2/2 creature, the first to resolve puts a +1/+1 counter on it and the second does nothing." (18 cards, e.g. [Nyxborn Unicorn](cards/N/ny.md#nyxborn-unicorn), 2024-06-07)
+- "Mentor compares the power of the creature with mentor with that of the target creature at two different times: once as the triggered ability is put onto the stack, and once as the triggered ability resolves. If you wish to raise a creature's power so its mentor ability can target a bigger creature, the last chance you have to do so is during the beginning of combat step." (18 cards, e.g. [Nyxborn Unicorn](cards/N/ny.md#nyxborn-unicorn), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Legion Warboss]], [[Danny Pink]], [[Felisa, Fang of Silverquill]]
+**Examples (Commander-legal; each entry includes its rulings):** [Legion Warboss](cards/L/le.md#legion-warboss), [Danny Pink](cards/D/da.md#danny-pink), [Felisa, Fang of Silverquill](cards/F/fe.md#felisa-fang-of-silverquill)
 
 #### Miracle
 
@@ -1811,10 +1811,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 19 Oracle cards · 17 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Avacyn Restored (2012-05-04)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability." (9 cards, e.g. [[Metamorphosis Fanatic]], 2024-09-20)
-- "It's important to reveal a card with miracle before it is mixed with the other cards in your hand." (9 cards, e.g. [[Metamorphosis Fanatic]], 2024-09-20)
+- "If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability." (9 cards, e.g. [Metamorphosis Fanatic](cards/M/me.md#metamorphosis-fanatic), 2024-09-20)
+- "It's important to reveal a card with miracle before it is mixed with the other cards in your hand." (9 cards, e.g. [Metamorphosis Fanatic](cards/M/me.md#metamorphosis-fanatic), 2024-09-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Metamorphosis Fanatic]], [[Redress Fate]], [[Devastation Tide]]
+**Examples (Commander-legal; each entry includes its rulings):** [Metamorphosis Fanatic](cards/M/me.md#metamorphosis-fanatic), [Redress Fate](cards/R/red.md#redress-fate), [Devastation Tide](cards/D/dev.md#devastation-tide)
 
 #### Mobilize
 
@@ -1827,10 +1827,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 14 Oracle cards · 13 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Tarkir: Dragonstorm (2025-04-11)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "You choose the player, planeswalker, or battle each Warrior token is attacking. They don't all have to attack the same one, and they don't have to attack the same player, planeswalker, or battle as the creature with mobilize." (11 cards, e.g. [[Zurgo Stormrender]], 2025-04-04)
-- "The value of X is calculated only once, as Avenger of the Fallen's mobilize ability resolves." (1 card, e.g. [[Avenger of the Fallen]], 2025-04-04)
+- "You choose the player, planeswalker, or battle each Warrior token is attacking. They don't all have to attack the same one, and they don't have to attack the same player, planeswalker, or battle as the creature with mobilize." (11 cards, e.g. [Zurgo Stormrender](cards/Z/zu.md#zurgo-stormrender), 2025-04-04)
+- "The value of X is calculated only once, as Avenger of the Fallen's mobilize ability resolves." (1 card, e.g. [Avenger of the Fallen](cards/A/av.md#avenger-of-the-fallen), 2025-04-04)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Voice of Victory]], [[Zurgo Stormrender]], [[Avenger of the Fallen]]
+**Examples (Commander-legal; each entry includes its rulings):** [Voice of Victory](cards/V/vo.md#voice-of-victory), [Zurgo Stormrender](cards/Z/zu.md#zurgo-stormrender), [Avenger of the Fallen](cards/A/av.md#avenger-of-the-fallen)
 
 #### Modular
 
@@ -1843,10 +1843,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 24 Oracle cards · 24 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Darksteel (2004-02-06)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield." (12 cards, e.g. [[Arcbound Worker]], 2006-09-25)
-- "If this creature gets enough -1/-1 counters put on it to cause it to go to the graveyard, modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield." (7 cards, e.g. [[Arcbound Condor]], 2024-06-07)
+- "If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield." (12 cards, e.g. [Arcbound Worker](cards/A/arc.md#arcbound-worker), 2006-09-25)
+- "If this creature gets enough -1/-1 counters put on it to cause it to go to the graveyard, modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield." (7 cards, e.g. [Arcbound Condor](cards/A/arc.md#arcbound-condor), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Power Depot]], [[Arcbound Ravager]], [[Arcbound Crusher]]
+**Examples (Commander-legal; each entry includes its rulings):** [Power Depot](cards/P/po.md#power-depot), [Arcbound Ravager](cards/A/arc.md#arcbound-ravager), [Arcbound Crusher](cards/A/arc.md#arcbound-crusher)
 
 #### More Than Meets the Eye
 
@@ -1859,10 +1859,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 15 Oracle cards · 15 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Transformers (2022-11-18)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""More Than Meets the Eye [cost]" means "You may cast this card converted by paying [cost] rather than its mana cost." It functions in any zone from which the spell can be cast." (15 cards, e.g. [[Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier]], 2022-10-14)
-- "To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was." (15 cards, e.g. [[Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier]], 2022-10-14)
+- ""More Than Meets the Eye [cost]" means "You may cast this card converted by paying [cost] rather than its mana cost." It functions in any zone from which the spell can be cast." (15 cards, e.g. [Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier](cards/U/ul.md#ultra-magnus-tactician--ultra-magnus-armored-carrier), 2022-10-14)
+- "To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was." (15 cards, e.g. [Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier](cards/U/ul.md#ultra-magnus-tactician--ultra-magnus-armored-carrier), 2022-10-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Slicer, Hired Muscle // Slicer, High-Speed Antagonist]], [[Starscream, Power Hungry // Starscream, Seeker Leader]], [[Ratchet, Field Medic // Ratchet, Rescue Racer]]
+**Examples (Commander-legal; each entry includes its rulings):** [Slicer, Hired Muscle // Slicer, High-Speed Antagonist](cards/S/sl.md#slicer-hired-muscle--slicer-high-speed-antagonist), [Starscream, Power Hungry // Starscream, Seeker Leader](cards/S/sta.md#starscream-power-hungry--starscream-seeker-leader), [Ratchet, Field Medic // Ratchet, Rescue Racer](cards/R/rat.md#ratchet-field-medic--ratchet-rescue-racer)
 
 #### Morph
 
@@ -1875,10 +1875,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 153 Oracle cards · 153 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Onslaught Promos (2002-09-28)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot." (35 cards, e.g. [[Woolly Loxodon]], 2014-09-20)
-- "Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost." (35 cards, e.g. [[Woolly Loxodon]], 2014-09-20)
+- "Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot." (35 cards, e.g. [Woolly Loxodon](cards/W/wo.md#woolly-loxodon), 2014-09-20)
+- "Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost." (35 cards, e.g. [Woolly Loxodon](cards/W/wo.md#woolly-loxodon), 2014-09-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Grim Haruspex]], [[Hooded Hydra]], [[Rattleclaw Mystic]]
+**Examples (Commander-legal; each entry includes its rulings):** [Grim Haruspex](cards/G/gri.md#grim-haruspex), [Hooded Hydra](cards/H/ho.md#hooded-hydra), [Rattleclaw Mystic](cards/R/rat.md#rattleclaw-mystic)
 
 #### Mutate
 
@@ -1891,9 +1891,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 34 Oracle cards · 34 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Commander 2020 (2020-04-17)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If Otrimi deals combat damage to a player at the same time that it's dealt lethal damage, Otrimi (or any other creature card with mutate that was merged with it) can be the target of its triggered ability." (1 card, e.g. [[Otrimi, the Ever-Playful]], 2020-04-17)
+- "If Otrimi deals combat damage to a player at the same time that it's dealt lethal damage, Otrimi (or any other creature card with mutate that was merged with it) can be the target of its triggered ability." (1 card, e.g. [Otrimi, the Ever-Playful](cards/O/ot.md#otrimi-the-ever-playful), 2020-04-17)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Nethroi, Apex of Death]], [[Sawtusk Demolisher]], [[Auspicious Starrix]]
+**Examples (Commander-legal; each entry includes its rulings):** [Nethroi, Apex of Death](cards/N/ne.md#nethroi-apex-of-death), [Sawtusk Demolisher](cards/S/saw.md#sawtusk-demolisher), [Auspicious Starrix](cards/A/au.md#auspicious-starrix)
 
 #### Myriad
 
@@ -1906,10 +1906,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 23 Oracle cards · 23 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Commander 2015 (2015-11-13)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it's attacking the player or a planeswalker they control." (21 cards, e.g. [[Polygoyf]], 2024-06-07)
-- "Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won't trigger, including the myriad ability of the tokens. If there are any costs to have a creature attack, those costs won't apply to the tokens." (14 cards, e.g. [[Polygoyf]], 2024-06-07)
+- "If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it's attacking the player or a planeswalker they control." (21 cards, e.g. [Polygoyf](cards/P/po.md#polygoyf), 2024-06-07)
+- "Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won't trigger, including the myriad ability of the tokens. If there are any costs to have a creature attack, those costs won't apply to the tokens." (14 cards, e.g. [Polygoyf](cards/P/po.md#polygoyf), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Battle Angels of Tyr]], [[Goldlust Triad]], [[Scurry of Squirrels]]
+**Examples (Commander-legal; each entry includes its rulings):** [Battle Angels of Tyr](cards/B/bat.md#battle-angels-of-tyr), [Goldlust Triad](cards/G/gol.md#goldlust-triad), [Scurry of Squirrels](cards/S/sc.md#scurry-of-squirrels)
 
 ### Abilities: N
 
@@ -1924,10 +1924,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 35 Oracle cards · 35 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Betrayers of Kamigawa Promos (2005-01-22)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked." (25 cards, e.g. [[Yuffie, Materia Hunter]], 2025-06-06)
-- "If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike." (22 cards, e.g. [[Orochi Soul-Reaver]], 2024-04-12)
+- "The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked." (25 cards, e.g. [Yuffie, Materia Hunter](cards/Y/yu.md#yuffie-materia-hunter), 2025-06-06)
+- "If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike." (22 cards, e.g. [Orochi Soul-Reaver](cards/O/or.md#orochi-soul-reaver), 2024-04-12)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Nashi, Moon Sage's Scion]], [[Fallen Shinobi]], [[Prosperous Thief]]
+**Examples (Commander-legal; each entry includes its rulings):** [Nashi, Moon Sage's Scion](cards/N/na.md#nashi-moon-sages-scion), [Fallen Shinobi](cards/F/fa.md#fallen-shinobi), [Prosperous Thief](cards/P/pr.md#prosperous-thief)
 
 ### Abilities: O
 
@@ -1942,9 +1942,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 6 Oracle cards · 6 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Betrayers of Kamigawa (2005-02-04)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "When you cast a spell with offering by sacrificing a permanent, generic mana in the sacrificed permanent's mana cost reduces only generic mana in the spell's total cost. Colored and colorless mana in the sacrificed permanent's mana cost reduces mana of the same type in spell's total cost, and any excess reduces the spell's total cost by that much generic mana. The total cost of the spell can't be reduced to less than {0}." (1 card, e.g. [[Blast-Furnace Hellkite]], 2022-10-14)
+- "When you cast a spell with offering by sacrificing a permanent, generic mana in the sacrificed permanent's mana cost reduces only generic mana in the spell's total cost. Colored and colorless mana in the sacrificed permanent's mana cost reduces mana of the same type in spell's total cost, and any excess reduces the spell's total cost by that much generic mana. The total cost of the spell can't be reduced to less than {0}." (1 card, e.g. [Blast-Furnace Hellkite](cards/B/bla.md#blast-furnace-hellkite), 2022-10-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Blast-Furnace Hellkite]], [[Patron of the Moon]], [[Patron of the Orochi]]
+**Examples (Commander-legal; each entry includes its rulings):** [Blast-Furnace Hellkite](cards/B/bla.md#blast-furnace-hellkite), [Patron of the Moon](cards/P/pa.md#patron-of-the-moon), [Patron of the Orochi](cards/P/pa.md#patron-of-the-orochi)
 
 #### Offspring
 
@@ -1957,10 +1957,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 20 Oracle cards · 20 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Bloomburrow (2024-08-02)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If the spell is countered, the offspring ability will not trigger, and no token will be created." (20 cards, e.g. [[Warren Warleader]], 2024-07-26)
-- "If the spell resolves but the creature with offspring leaves the battlefield before the offspring ability resolves, you'll still create a token copy of it." (20 cards, e.g. [[Warren Warleader]], 2024-07-26)
+- "If the spell is countered, the offspring ability will not trigger, and no token will be created." (20 cards, e.g. [Warren Warleader](cards/W/war.md#warren-warleader), 2024-07-26)
+- "If the spell resolves but the creature with offspring leaves the battlefield before the offspring ability resolves, you'll still create a token copy of it." (20 cards, e.g. [Warren Warleader](cards/W/war.md#warren-warleader), 2024-07-26)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Coruscation Mage]], [[Agate Instigator]], [[Starscape Cleric]]
+**Examples (Commander-legal; each entry includes its rulings):** [Coruscation Mage](cards/C/cor.md#coruscation-mage), [Agate Instigator](cards/A/ag.md#agate-instigator), [Starscape Cleric](cards/S/sta.md#starscape-cleric)
 
 #### Outlast
 
@@ -1973,10 +1973,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 13 Oracle cards · 13 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Khans of Tarkir (2014-09-26)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Several creatures with outlast also grant an ability to creatures you control with +1/+1 counters on them, including themselves. These counters could come from an outlast ability, but any +1/+1 counter on the creature will count." (9 cards, e.g. [[Tuskguard Captain]], 2014-09-20)
-- "The cost to activate a creature's outlast ability includes the tap symbol ({T}). A creature's outlast ability can't be activated unless that creature has been under your control continuously since the beginning of your turn." (9 cards, e.g. [[Tuskguard Captain]], 2014-09-20)
+- "Several creatures with outlast also grant an ability to creatures you control with +1/+1 counters on them, including themselves. These counters could come from an outlast ability, but any +1/+1 counter on the creature will count." (9 cards, e.g. [Tuskguard Captain](cards/T/tu.md#tuskguard-captain), 2014-09-20)
+- "The cost to activate a creature's outlast ability includes the tap symbol ({T}). A creature's outlast ability can't be activated unless that creature has been under your control continuously since the beginning of your turn." (9 cards, e.g. [Tuskguard Captain](cards/T/tu.md#tuskguard-captain), 2014-09-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Abzan Falconer]], [[Envoy of the Ancestors]], [[Abzan Battle Priest]]
+**Examples (Commander-legal; each entry includes its rulings):** [Abzan Falconer](cards/A/ab.md#abzan-falconer), [Envoy of the Ancestors](cards/E/en.md#envoy-of-the-ancestors), [Abzan Battle Priest](cards/A/ab.md#abzan-battle-priest)
 
 #### Overload
 
@@ -1989,10 +1989,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 27 Oracle cards · 27 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Duel Decks: Izzet vs. Golgari (2012-09-07)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color." (27 cards, e.g. [[Fangs of Kalonia]], 2024-06-07)
-- "If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead." (27 cards, e.g. [[Fangs of Kalonia]], 2024-06-07)
+- "Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color." (27 cards, e.g. [Fangs of Kalonia](cards/F/fa.md#fangs-of-kalonia), 2024-06-07)
+- "If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead." (27 cards, e.g. [Fangs of Kalonia](cards/F/fa.md#fangs-of-kalonia), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Cyclonic Rift]], [[Vandalblast]], [[Damn]]
+**Examples (Commander-legal; each entry includes its rulings):** [Cyclonic Rift](cards/C/cy.md#cyclonic-rift), [Vandalblast](cards/V/va.md#vandalblast), [Damn](cards/D/da.md#damn)
 
 ### Abilities: P
 
@@ -2007,10 +2007,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 5 Oracle cards · 5 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Secrets of Strixhaven Promos (2026-04-24)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Each spell with paradigm has the Lesson subtype. The Lesson subtype appears on instants and sorceries and has no inherent rules meaning. Other effects (such as the learn ability from the original Strixhaven release) may refer to it." (5 cards, e.g. [[Restoration Seminar]], 2026-03-20)
-- "Once a spell with paradigm has resolved, it doesn't matter what happens to the card in exile. Even if the card leaves exile, the delayed triggered ability will still trigger during each of your first main phases, and the copy will still be created." (5 cards, e.g. [[Restoration Seminar]], 2026-03-20)
+- "Each spell with paradigm has the Lesson subtype. The Lesson subtype appears on instants and sorceries and has no inherent rules meaning. Other effects (such as the learn ability from the original Strixhaven release) may refer to it." (5 cards, e.g. [Restoration Seminar](cards/R/res.md#restoration-seminar), 2026-03-20)
+- "Once a spell with paradigm has resolved, it doesn't matter what happens to the card in exile. Even if the card leaves exile, the delayed triggered ability will still trigger during each of your first main phases, and the copy will still be created." (5 cards, e.g. [Restoration Seminar](cards/R/res.md#restoration-seminar), 2026-03-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Improvisation Capstone]], [[Germination Practicum]], [[Decorum Dissertation]]
+**Examples (Commander-legal; each entry includes its rulings):** [Improvisation Capstone](cards/I/im.md#improvisation-capstone), [Germination Practicum](cards/G/ge.md#germination-practicum), [Decorum Dissertation](cards/D/dec.md#decorum-dissertation)
 
 #### Partner
 
@@ -2023,10 +2023,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 143 Oracle cards · 129 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Commander 2016 (2016-11-11)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander." (57 cards, e.g. [[Sakashima of a Thousand Faces]], 2025-06-06)
-- "You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes." (57 cards, e.g. [[Sakashima of a Thousand Faces]], 2025-06-06)
+- "To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander." (57 cards, e.g. [Sakashima of a Thousand Faces](cards/S/sak.md#sakashima-of-a-thousand-faces), 2025-06-06)
+- "You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes." (57 cards, e.g. [Sakashima of a Thousand Faces](cards/S/sak.md#sakashima-of-a-thousand-faces), 2025-06-06)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Kodama of the East Tree]], [[Sakashima of a Thousand Faces]], [[Kediss, Emberclaw Familiar]]
+**Examples (Commander-legal; each entry includes its rulings):** [Kodama of the East Tree](cards/K/ko.md#kodama-of-the-east-tree), [Sakashima of a Thousand Faces](cards/S/sak.md#sakashima-of-a-thousand-faces), [Kediss, Emberclaw Familiar](cards/K/ke.md#kediss-emberclaw-familiar)
 
 #### Persist
 
@@ -2039,10 +2039,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 25 Oracle cards · 25 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Shadowmoor (2008-05-02)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a creature with persist stops being a creature, persist will still work." (20 cards, e.g. [[Woodfall Primus]], 2013-06-07)
-- "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point." (20 cards, e.g. [[Woodfall Primus]], 2013-06-07)
+- "If a creature with persist stops being a creature, persist will still work." (20 cards, e.g. [Woodfall Primus](cards/W/wo.md#woodfall-primus), 2013-06-07)
+- "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point." (20 cards, e.g. [Woodfall Primus](cards/W/wo.md#woodfall-primus), 2013-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Glen Elendra Archmage]], [[Puppeteer Clique]], [[Persistent Constrictor]]
+**Examples (Commander-legal; each entry includes its rulings):** [Glen Elendra Archmage](cards/G/gl.md#glen-elendra-archmage), [Puppeteer Clique](cards/P/pu.md#puppeteer-clique), [Persistent Constrictor](cards/P/pe.md#persistent-constrictor)
 
 #### Phasing
 
@@ -2055,9 +2055,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 13 Oracle cards · 12 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Mirage (1996-10-08)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Activating the activated ability will prevent Ertai's Familiar from phasing out for any reason, not just due to its own phasing ability." (1 card, e.g. [[Ertai's Familiar]], 2008-04-01)
+- "Activating the activated ability will prevent Ertai's Familiar from phasing out for any reason, not just due to its own phasing ability." (1 card, e.g. [Ertai's Familiar](cards/E/er.md#ertais-familiar), 2008-04-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Katabatic Winds]], [[Shimmering Efreet]], [[Ertai's Familiar]]
+**Examples (Commander-legal; each entry includes its rulings):** [Katabatic Winds](cards/K/ka.md#katabatic-winds), [Shimmering Efreet](cards/S/shi.md#shimmering-efreet), [Ertai's Familiar](cards/E/er.md#ertais-familiar)
 
 #### Plot
 
@@ -2070,10 +2070,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 40 Oracle cards · 39 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Outlaws of Thunder Junction (2024-04-19)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Exiling a card using its plot ability is a special action. Once you announce you're taking that action, no other player can respond by trying to remove that card from your hand." (39 cards, e.g. [[Visage Bandit]], 2024-04-12)
-- "Plot abilities are written "Plot [cost]," which means "Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted."" (39 cards, e.g. [[Visage Bandit]], 2024-04-12)
+- "Exiling a card using its plot ability is a special action. Once you announce you're taking that action, no other player can respond by trying to remove that card from your hand." (39 cards, e.g. [Visage Bandit](cards/V/vi.md#visage-bandit), 2024-04-12)
+- "Plot abilities are written "Plot [cost]," which means "Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted."" (39 cards, e.g. [Visage Bandit](cards/V/vi.md#visage-bandit), 2024-04-12)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Aven Interrupter]], [[Railway Brawler]], [[Outcaster Trailblazer]]
+**Examples (Commander-legal; each entry includes its rulings):** [Aven Interrupter](cards/A/av.md#aven-interrupter), [Railway Brawler](cards/R/rai.md#railway-brawler), [Outcaster Trailblazer](cards/O/ou.md#outcaster-trailblazer)
 
 #### Poisonous
 
@@ -2095,7 +2095,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 37 Oracle cards · 37 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Marvel Super Heroes Commander (2026-06-26)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Human Torch, Johnny Storm]], [[Nick Fury, Agent of S.H.I.E.L.D.]], [[Quicksilver, Brash Blur]]
+**Examples (Commander-legal; each entry includes its rulings):** [Human Torch, Johnny Storm](cards/H/hu.md#human-torch-johnny-storm), [Nick Fury, Agent of S.H.I.E.L.D.](cards/N/ni.md#nick-fury-agent-of-shield), [Quicksilver, Brash Blur](cards/Q/qu.md#quicksilver-brash-blur)
 
 #### Protection
 
@@ -2108,9 +2108,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 213 Oracle cards · 194 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Limited Edition Alpha (1993-08-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""Protection from Demons and from Dragons" means the following: -- Baneslayer Angel can't be blocked by creatures with the creature type Demon or the creature type Dragon. -- Baneslayer Angel can't be targeted abilities from sources with the creature type Demon or the creature type Dragon, or by spells with either of those types. -- All damage that would be dealt to Baneslayer Angel by sources with the creature type Demon or the creature type Dragon is prevented. -- Baneslayer Angel can't be enchanted by Auras or equipped by artifacts that have somehow gotten the creature type Demon or the creature type Dragon." (1 card, e.g. [[Baneslayer Angel]], 2009-10-01)
+- ""Protection from Demons and from Dragons" means the following: -- Baneslayer Angel can't be blocked by creatures with the creature type Demon or the creature type Dragon. -- Baneslayer Angel can't be targeted abilities from sources with the creature type Demon or the creature type Dragon, or by spells with either of those types. -- All damage that would be dealt to Baneslayer Angel by sources with the creature type Demon or the creature type Dragon is prevented. -- Baneslayer Angel can't be enchanted by Auras or equipped by artifacts that have somehow gotten the creature type Demon or the creature type Dragon." (1 card, e.g. [Baneslayer Angel](cards/B/ban.md#baneslayer-angel), 2009-10-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Yawgmoth, Thran Physician]], [[Karmic Guide]], [[Emrakul, the Promised End]]
+**Examples (Commander-legal; each entry includes its rulings):** [Yawgmoth, Thran Physician](cards/Y/ya.md#yawgmoth-thran-physician), [Karmic Guide](cards/K/ka.md#karmic-guide), [Emrakul, the Promised End](cards/E/em.md#emrakul-the-promised-end)
 
 #### Prototype
 
@@ -2123,10 +2123,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 19 Oracle cards · 19 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): The Brothers' War (2022-11-18)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Regardless of how it was cast, a prototype card always has the same name, abilities, types, and so on. Only the mana cost, mana value, color, power, and toughness change depending on whether the card was cast as a prototyped spell." (19 cards, e.g. [[Frogmyr Enforcer]], 2024-06-07)
-- "A prototype card is a colorless card in every zone except the stack or the battlefield, as well as while on the stack or the battlefield if not cast as a prototyped spell. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Blitz Automaton is a colorless creature card with mana value 7. It can't be the target of Recommission, a spell that targets an artifact or creature card with mana value 3 or less in your graveyard." (18 cards, e.g. [[Woodcaller Automaton]], 2022-10-14)
+- "Regardless of how it was cast, a prototype card always has the same name, abilities, types, and so on. Only the mana cost, mana value, color, power, and toughness change depending on whether the card was cast as a prototyped spell." (19 cards, e.g. [Frogmyr Enforcer](cards/F/fr.md#frogmyr-enforcer), 2024-06-07)
+- "A prototype card is a colorless card in every zone except the stack or the battlefield, as well as while on the stack or the battlefield if not cast as a prototyped spell. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Blitz Automaton is a colorless creature card with mana value 7. It can't be the target of Recommission, a spell that targets an artifact or creature card with mana value 3 or less in your graveyard." (18 cards, e.g. [Woodcaller Automaton](cards/W/wo.md#woodcaller-automaton), 2022-10-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Steel Seraph]], [[Skitterbeam Battalion]], [[Hulking Metamorph]]
+**Examples (Commander-legal; each entry includes its rulings):** [Steel Seraph](cards/S/ste.md#steel-seraph), [Skitterbeam Battalion](cards/S/sk.md#skitterbeam-battalion), [Hulking Metamorph](cards/H/hu.md#hulking-metamorph)
 
 #### Provoke
 
@@ -2138,7 +2138,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 9 Oracle cards · 9 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Legions Promos (2003-01-25)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Goblin Grappler]], [[Deftblade Elite]], [[Krosan Vorine]]
+**Examples (Commander-legal; each entry includes its rulings):** [Goblin Grappler](cards/G/gob.md#goblin-grappler), [Deftblade Elite](cards/D/def.md#deftblade-elite), [Krosan Vorine](cards/K/kr.md#krosan-vorine)
 
 #### Prowess
 
@@ -2151,10 +2151,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 97 Oracle cards · 94 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Duel Decks: Speed vs. Cunning (2014-09-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Any spell you cast that doesn't have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won't cause prowess to trigger. Playing a land also won't cause prowess to trigger." (24 cards, e.g. [[Wing Commando]], 2022-10-14)
-- "Once it triggers, prowess isn't connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve." (24 cards, e.g. [[Wing Commando]], 2022-10-14)
+- "Any spell you cast that doesn't have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won't cause prowess to trigger. Playing a land also won't cause prowess to trigger." (24 cards, e.g. [Wing Commando](cards/W/wi.md#wing-commando), 2022-10-14)
+- "Once it triggers, prowess isn't connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve." (24 cards, e.g. [Wing Commando](cards/W/wi.md#wing-commando), 2022-10-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Pinnacle Monk // Mystic Peak]], [[Stormcatch Mentor]], [[Monastery Mentor]]
+**Examples (Commander-legal; each entry includes its rulings):** [Pinnacle Monk // Mystic Peak](cards/P/pi.md#pinnacle-monk--mystic-peak), [Stormcatch Mentor](cards/S/sto.md#stormcatch-mentor), [Monastery Mentor](cards/M/mon.md#monastery-mentor)
 
 #### Prowl
 
@@ -2167,9 +2167,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 10 Oracle cards · 10 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Morningtide (2008-02-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a Goblin or Rogue you control deals combat damage to a player while Auntie's Snitch is in your graveyard, you can return Auntie's Snitch to your hand, then you can cast it for its prowl cost that turn." (1 card, e.g. [[Auntie's Snitch]], 2008-04-01)
+- "If a Goblin or Rogue you control deals combat damage to a player while Auntie's Snitch is in your graveyard, you can return Auntie's Snitch to your hand, then you can cast it for its prowl cost that turn." (1 card, e.g. [Auntie's Snitch](cards/A/au.md#aunties-snitch), 2008-04-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Notorious Throng]], [[Enigma Thief]], [[Knowledge Exploitation]]
+**Examples (Commander-legal; each entry includes its rulings):** [Notorious Throng](cards/N/no.md#notorious-throng), [Enigma Thief](cards/E/en.md#enigma-thief), [Knowledge Exploitation](cards/K/kn.md#knowledge-exploitation)
 
 ### Abilities: R
 
@@ -2184,9 +2184,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 15 Oracle cards · 12 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Legends (1994-06-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "The rampage bonus is calculated only once per combat, when the triggered ability resolves. Adding or removing blockers later in combat won't change the bonus." (1 card, e.g. [[Varchild's War-Riders]], 2007-09-16)
+- "The rampage bonus is calculated only once per combat, when the triggered ability resolves. Adding or removing blockers later in combat won't change the bonus." (1 card, e.g. [Varchild's War-Riders](cards/V/va.md#varchilds-war-riders), 2007-09-16)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Varchild's War-Riders]], [[Aerathi Berserker]], [[Gorilla Berserkers]]
+**Examples (Commander-legal; each entry includes its rulings):** [Varchild's War-Riders](cards/V/va.md#varchilds-war-riders), [Aerathi Berserker](cards/A/ae.md#aerathi-berserker), [Gorilla Berserkers](cards/G/gor.md#gorilla-berserkers)
 
 #### Ravenous
 
@@ -2199,10 +2199,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 12 Oracle cards · 12 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Warhammer 40,000 Commander (2022-10-07)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A creature with ravenous gets its counters as it enters the battlefield. It doesn't enter the battlefield first and then get its counters. Any triggered ability that looks for a creature with a certain power or toughness entering the battlefield will see the counters when it checks to see if it should trigger." (11 cards, e.g. [[Zoanthrope]], 2022-10-07)
-- "If a permanent spell with ravenous is copied, the copy will have the same value for X, and the token permanent that the spell becomes as it enters the battlefield will enter with X counters." (11 cards, e.g. [[Zoanthrope]], 2022-10-07)
+- "A creature with ravenous gets its counters as it enters the battlefield. It doesn't enter the battlefield first and then get its counters. Any triggered ability that looks for a creature with a certain power or toughness entering the battlefield will see the counters when it checks to see if it should trigger." (11 cards, e.g. [Zoanthrope](cards/Z/zo.md#zoanthrope), 2022-10-07)
+- "If a permanent spell with ravenous is copied, the copy will have the same value for X, and the token permanent that the spell becomes as it enters the battlefield will enter with X counters." (11 cards, e.g. [Zoanthrope](cards/Z/zo.md#zoanthrope), 2022-10-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Jacked Rabbit]], [[Sporocyst]], [[Tyrant Guard]]
+**Examples (Commander-legal; each entry includes its rulings):** [Jacked Rabbit](cards/J/ja.md#jacked-rabbit), [Sporocyst](cards/S/spo.md#sporocyst), [Tyrant Guard](cards/T/ty.md#tyrant-guard)
 
 #### Reach
 
@@ -2215,10 +2215,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 438 Oracle cards · 424 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Limited Edition Alpha (1993-08-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "This card now uses the Reach keyword ability to enable the blocking of flying creatures. This works because a creature with flying can only be blocked by creatures with flying or reach." (6 cards, e.g. [[Rashka the Slayer]], 2008-04-01)
-- "Odric, Blood-Cursed counts the number of the listed abilities found, not the number of creatures with those abilities. If you control a single creature with both reach and vigilance as Odric enters the battlefield, you create two Blood tokens. On the other hand, if you control two creatures that each have flying, you create a single Blood token." (1 card, e.g. [[Odric, Blood-Cursed]], 2021-11-19)
+- "This card now uses the Reach keyword ability to enable the blocking of flying creatures. This works because a creature with flying can only be blocked by creatures with flying or reach." (6 cards, e.g. [Rashka the Slayer](cards/R/ras.md#rashka-the-slayer), 2008-04-01)
+- "Odric, Blood-Cursed counts the number of the listed abilities found, not the number of creatures with those abilities. If you control a single creature with both reach and vigilance as Odric enters the battlefield, you create two Blood tokens. On the other hand, if you control two creatures that each have flying, you create a single Blood token." (1 card, e.g. [Odric, Blood-Cursed](cards/O/od.md#odric-blood-cursed), 2021-11-19)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Six]], [[Ancient Greenwarden]], [[Kodama of the West Tree]]
+**Examples (Commander-legal; each entry includes its rulings):** [Six](cards/S/si.md#six), [Ancient Greenwarden](cards/A/an.md#ancient-greenwarden), [Kodama of the West Tree](cards/K/ko.md#kodama-of-the-west-tree)
 
 #### Read Ahead
 
@@ -2231,9 +2231,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 10 Oracle cards · 10 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Dominaria United (2022-09-09)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga's greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to." (10 cards, e.g. [[Yotia Declares War]], 2022-09-09)
+- "As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga's greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to." (10 cards, e.g. [Yotia Declares War](cards/Y/yo.md#yotia-declares-war), 2022-09-09)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[The Cruelty of Gix]], [[The Weatherseed Treaty]], [[Love Song of Night and Day]]
+**Examples (Commander-legal; each entry includes its rulings):** [The Cruelty of Gix](cards/T/thec.md#the-cruelty-of-gix), [The Weatherseed Treaty](cards/T/thew.md#the-weatherseed-treaty), [Love Song of Night and Day](cards/L/lo.md#love-song-of-night-and-day)
 
 #### Rebound
 
@@ -2246,10 +2246,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 35 Oracle cards · 34 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Rise of the Eldrazi (2010-04-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Rebound will have no effect on copies of spells because you don't cast them from your hand." (21 cards, e.g. [[Void Squall]], 2015-02-25)
-- "At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card's type (if it's a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law)." (11 cards, e.g. [[World at War]], 2010-06-15)
+- "Rebound will have no effect on copies of spells because you don't cast them from your hand." (21 cards, e.g. [Void Squall](cards/V/vo.md#void-squall), 2015-02-25)
+- "At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card's type (if it's a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law)." (11 cards, e.g. [World at War](cards/W/wo.md#world-at-war), 2010-06-15)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Ephemerate]], [[Quantum Misalignment]], [[Transpose]]
+**Examples (Commander-legal; each entry includes its rulings):** [Ephemerate](cards/E/ep.md#ephemerate), [Quantum Misalignment](cards/Q/qu.md#quantum-misalignment), [Transpose](cards/T/tra.md#transpose)
 
 #### Reconfigure
 
@@ -2262,10 +2262,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 17 Oracle cards · 17 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Kamigawa: Neon Dynasty Promos (2022-02-18)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Although it causes an Equipment to become attached to a creature, reconfigure is not an "equip ability" for the purpose of cards like Fighter Class and Leonin Shikari." (17 cards, e.g. [[Razorfield Ripper]], 2024-06-07)
-- "An Equipment creature with reconfigure can be attached to creatures by effects other than its reconfigure ability, such as the activated ability of Brass Squire." (17 cards, e.g. [[Razorfield Ripper]], 2024-06-07)
+- "Although it causes an Equipment to become attached to a creature, reconfigure is not an "equip ability" for the purpose of cards like Fighter Class and Leonin Shikari." (17 cards, e.g. [Razorfield Ripper](cards/R/raz.md#razorfield-ripper), 2024-06-07)
+- "An Equipment creature with reconfigure can be attached to creatures by effects other than its reconfigure ability, such as the activated ability of Brass Squire." (17 cards, e.g. [Razorfield Ripper](cards/R/raz.md#razorfield-ripper), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[The Reality Chip]], [[Lizard Blades]], [[Lion Sash]]
+**Examples (Commander-legal; each entry includes its rulings):** [The Reality Chip](cards/T/ther.md#the-reality-chip), [Lizard Blades](cards/L/li.md#lizard-blades), [Lion Sash](cards/L/li.md#lion-sash)
 
 #### Recover
 
@@ -2277,7 +2277,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 7 Oracle cards · 7 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Coldsnap (2006-07-21)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Garza's Assassin]], [[Grim Harvest]], [[Icefall]]
+**Examples (Commander-legal; each entry includes its rulings):** [Garza's Assassin](cards/G/ga.md#garzas-assassin), [Grim Harvest](cards/G/gri.md#grim-harvest), [Icefall](cards/I/ic.md#icefall)
 
 #### Reinforce
 
@@ -2290,9 +2290,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 11 Oracle cards · 11 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Morningtide (2008-02-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you activate Bannerhide Krushok's reinforce ability during your main phase, your opponents will have the chance to respond to that ability before you can activate the scavenge ability, perhaps by removing Bannerhide Krushok from your graveyard. However, if Bannerhide Krushok ends up in your graveyard during your main phase in such a way that there are no spells or abilities on the stack, you'll have priority to activate the scavenge ability before anyone can remove Bannerhide Krushok from your graveyard." (1 card, e.g. [[Bannerhide Krushok]], 2021-06-18)
+- "If you activate Bannerhide Krushok's reinforce ability during your main phase, your opponents will have the chance to respond to that ability before you can activate the scavenge ability, perhaps by removing Bannerhide Krushok from your graveyard. However, if Bannerhide Krushok ends up in your graveyard during your main phase in such a way that there are no spells or abilities on the stack, you'll have priority to activate the scavenge ability before anyone can remove Bannerhide Krushok from your graveyard." (1 card, e.g. [Bannerhide Krushok](cards/B/ban.md#bannerhide-krushok), 2021-06-18)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Brighthearth Banneret]], [[Hunting Triad]], [[Bannerhide Krushok]]
+**Examples (Commander-legal; each entry includes its rulings):** [Brighthearth Banneret](cards/B/br.md#brighthearth-banneret), [Hunting Triad](cards/H/hu.md#hunting-triad), [Bannerhide Krushok](cards/B/ban.md#bannerhide-krushok)
 
 #### Renown
 
@@ -2305,10 +2305,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 20 Oracle cards · 20 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Magic Origins (2015-07-17)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger." (20 cards, e.g. [[Constable of the Realm]], 2021-06-18)
-- "Renown won't trigger when a creature deals combat damage to a planeswalker or another creature. It also won't trigger when a creature deals noncombat damage to a player." (20 cards, e.g. [[Constable of the Realm]], 2021-06-18)
+- "If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger." (20 cards, e.g. [Constable of the Realm](cards/C/con.md#constable-of-the-realm), 2021-06-18)
+- "Renown won't trigger when a creature deals combat damage to a planeswalker or another creature. It also won't trigger when a creature deals noncombat damage to a player." (20 cards, e.g. [Constable of the Realm](cards/C/con.md#constable-of-the-realm), 2021-06-18)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Relic Seeker]], [[Constable of the Realm]], [[Scab-Clan Berserker]]
+**Examples (Commander-legal; each entry includes its rulings):** [Relic Seeker](cards/R/rel.md#relic-seeker), [Constable of the Realm](cards/C/con.md#constable-of-the-realm), [Scab-Clan Berserker](cards/S/sc.md#scab-clan-berserker)
 
 #### Replicate
 
@@ -2321,10 +2321,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 20 Oracle cards · 19 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Salvat 2005 (2005-08-22)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with replicate won't affect the copies." (5 cards, e.g. [[Changing Loyalty]], 2026-03-20)
-- "The copies that replicate creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger." (5 cards, e.g. [[Changing Loyalty]], 2026-03-20)
+- "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with replicate won't affect the copies." (5 cards, e.g. [Changing Loyalty](cards/C/cha.md#changing-loyalty), 2026-03-20)
+- "The copies that replicate creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger." (5 cards, e.g. [Changing Loyalty](cards/C/cha.md#changing-loyalty), 2026-03-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Changing Loyalty]], [[Consign to Memory]], [[Shattering Spree]]
+**Examples (Commander-legal; each entry includes its rulings):** [Changing Loyalty](cards/C/cha.md#changing-loyalty), [Consign to Memory](cards/C/con.md#consign-to-memory), [Shattering Spree](cards/S/sha.md#shattering-spree)
 
 #### Retrace
 
@@ -2337,10 +2337,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 18 Oracle cards · 17 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Eventide (2008-07-25)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You're casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs." (17 cards, e.g. [[Formless Genesis]], 2024-09-20)
-- "A retrace card cast from your graveyard follows the normal timing rules for its card type." (15 cards, e.g. [[Formless Genesis]], 2024-09-20)
+- "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You're casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs." (17 cards, e.g. [Formless Genesis](cards/F/fo.md#formless-genesis), 2024-09-20)
+- "A retrace card cast from your graveyard follows the normal timing rules for its card type." (15 cards, e.g. [Formless Genesis](cards/F/fo.md#formless-genesis), 2024-09-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Throes of Chaos]], [[Formless Genesis]], [[Embrace the Unknown]]
+**Examples (Commander-legal; each entry includes its rulings):** [Throes of Chaos](cards/T/thr.md#throes-of-chaos), [Formless Genesis](cards/F/fo.md#formless-genesis), [Embrace the Unknown](cards/E/em.md#embrace-the-unknown)
 
 #### Riot
 
@@ -2353,10 +2353,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 13 Oracle cards · 13 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Ravnica Allegiance (2019-01-25)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a creature entering the battlefield has riot but can't have a +1/+1 counter put onto it, it gains haste." (11 cards, e.g. [[Zhur-Taa Goblin]], 2019-01-25)
-- "Riot is a replacement effect. Players can't respond to your choice of +1/+1 counter or haste, and they can't take actions while the creature is on the battlefield without one or the other." (11 cards, e.g. [[Zhur-Taa Goblin]], 2019-01-25)
+- "If a creature entering the battlefield has riot but can't have a +1/+1 counter put onto it, it gains haste." (11 cards, e.g. [Zhur-Taa Goblin](cards/Z/zh.md#zhur-taa-goblin), 2019-01-25)
+- "Riot is a replacement effect. Players can't respond to your choice of +1/+1 counter or haste, and they can't take actions while the creature is on the battlefield without one or the other." (11 cards, e.g. [Zhur-Taa Goblin](cards/Z/zh.md#zhur-taa-goblin), 2019-01-25)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Spider-Punk]], [[Arcbound Slasher]], [[Skarrgan Hellkite]]
+**Examples (Commander-legal; each entry includes its rulings):** [Spider-Punk](cards/S/spi.md#spider-punk), [Arcbound Slasher](cards/A/arc.md#arcbound-slasher), [Skarrgan Hellkite](cards/S/sk.md#skarrgan-hellkite)
 
 #### Ripple
 
@@ -2368,7 +2368,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 5 Oracle cards · 5 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Arena League 2006 (2006-01-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Surging Dementia]], [[Surging Aether]], [[Surging Flame]]
+**Examples (Commander-legal; each entry includes its rulings):** [Surging Dementia](cards/S/sur.md#surging-dementia), [Surging Aether](cards/S/sur.md#surging-aether), [Surging Flame](cards/S/sur.md#surging-flame)
 
 ### Abilities: S
 
@@ -2383,10 +2383,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 32 Oracle cards · 30 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Outlaws of Thunder Junction (2024-04-19)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""Saddle N" means "Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery."" (30 cards, e.g. [[Venomsac Lagac]], 2025-02-07)
-- "Creatures with saddle can attack or block as normal even if they aren't saddled." (30 cards, e.g. [[Venomsac Lagac]], 2025-02-07)
+- ""Saddle N" means "Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery."" (30 cards, e.g. [Venomsac Lagac](cards/V/ve.md#venomsac-lagac), 2025-02-07)
+- "Creatures with saddle can attack or block as normal even if they aren't saddled." (30 cards, e.g. [Venomsac Lagac](cards/V/ve.md#venomsac-lagac), 2025-02-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[The Gitrog, Ravenous Ride]], [[Ornery Tumblewagg]], [[Calamity, Galloping Inferno]]
+**Examples (Commander-legal; each entry includes its rulings):** [The Gitrog, Ravenous Ride](cards/T/theg.md#the-gitrog-ravenous-ride), [Ornery Tumblewagg](cards/O/or.md#ornery-tumblewagg), [Calamity, Galloping Inferno](cards/C/cal.md#calamity-galloping-inferno)
 
 #### Scavenge
 
@@ -2399,10 +2399,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 15 Oracle cards · 15 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Duel Decks: Izzet vs. Golgari (2012-09-07)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Exiling the creature card with scavenge is part of the cost of activating the scavenge ability. Once the ability is activated and the cost is paid, it's too late to stop the ability from being activated by trying to remove the creature card from the graveyard." (12 cards, e.g. [[Bannerhide Krushok]], 2021-06-18)
-- "Exiling the card with scavenge is part of the cost of activating the scavenge ability. Once the ability is activated and the cost is paid, it's too late to stop the ability from being activated by trying to remove the card from the graveyard." (1 card, e.g. [[Dodgy Jalopy]], 2022-04-29)
+- "Exiling the creature card with scavenge is part of the cost of activating the scavenge ability. Once the ability is activated and the cost is paid, it's too late to stop the ability from being activated by trying to remove the creature card from the graveyard." (12 cards, e.g. [Bannerhide Krushok](cards/B/ban.md#bannerhide-krushok), 2021-06-18)
+- "Exiling the card with scavenge is part of the cost of activating the scavenge ability. Once the ability is activated and the cost is paid, it's too late to stop the ability from being activated by trying to remove the card from the graveyard." (1 card, e.g. [Dodgy Jalopy](cards/D/do.md#dodgy-jalopy), 2022-04-29)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Boneyard Mycodrax]], [[Dodgy Jalopy]], [[Golgari Decoy]]
+**Examples (Commander-legal; each entry includes its rulings):** [Boneyard Mycodrax](cards/B/bo.md#boneyard-mycodrax), [Dodgy Jalopy](cards/D/do.md#dodgy-jalopy), [Golgari Decoy](cards/G/gol.md#golgari-decoy)
 
 #### Shadow
 
@@ -2415,10 +2415,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 40 Oracle cards · 37 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Tempest (1997-10-14)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If an attacking creature has multiple evasion abilities, such as shadow and flying, a creature can block it only if that creature satisfies all of the appropriate evasion abilities." (35 cards, e.g. [[Dauthi Voidwalker]], 2021-06-18)
-- "Multiple instances of shadow on the same creature are redundant." (34 cards, e.g. [[Zealot il-Vec]], 2021-03-19)
+- "If an attacking creature has multiple evasion abilities, such as shadow and flying, a creature can block it only if that creature satisfies all of the appropriate evasion abilities." (35 cards, e.g. [Dauthi Voidwalker](cards/D/da.md#dauthi-voidwalker), 2021-06-18)
+- "Multiple instances of shadow on the same creature are redundant." (34 cards, e.g. [Zealot il-Vec](cards/Z/ze.md#zealot-il-vec), 2021-03-19)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Dauthi Voidwalker]], [[Nether Traitor]], [[Looter il-Kor]]
+**Examples (Commander-legal; each entry includes its rulings):** [Dauthi Voidwalker](cards/D/da.md#dauthi-voidwalker), [Nether Traitor](cards/N/ne.md#nether-traitor), [Looter il-Kor](cards/L/lo.md#looter-il-kor)
 
 #### Shroud
 
@@ -2431,9 +2431,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 39 Oracle cards · 35 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Homelands (1995-10-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "It can be targeted while on the stack. Shroud only works while it is on the battlefield." (1 card, e.g. [[Blurred Mongoose]], 2004-10-04)
+- "It can be targeted while on the stack. Shroud only works while it is on the battlefield." (1 card, e.g. [Blurred Mongoose](cards/B/blu.md#blurred-mongoose), 2004-10-04)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Argothian Enchantress]], [[Helix Pinnacle]], [[Diplomatic Immunity]]
+**Examples (Commander-legal; each entry includes its rulings):** [Argothian Enchantress](cards/A/arg.md#argothian-enchantress), [Helix Pinnacle](cards/H/he.md#helix-pinnacle), [Diplomatic Immunity](cards/D/di.md#diplomatic-immunity)
 
 #### Skulk
 
@@ -2446,10 +2446,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 16 Oracle cards · 16 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Shadows over Innistrad (2016-04-08)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you cause a creature to have 0 power or less, use the actual value (which may be negative) to determine whether it can block or be blocked. A creature with skulk and 0 or less power most likely won't be blocked, but it won't deal combat damage and won't trigger any abilities that trigger when combat damage is dealt." (7 cards, e.g. [[Uninvited Geist // Unimpeded Trespasser]], 2016-04-08)
-- "Skulk matters only as blockers are chosen. Modifying either creature's power after blockers are chosen won't cause the attacking creature to become unblocked." (7 cards, e.g. [[Uninvited Geist // Unimpeded Trespasser]], 2016-04-08)
+- "If you cause a creature to have 0 power or less, use the actual value (which may be negative) to determine whether it can block or be blocked. A creature with skulk and 0 or less power most likely won't be blocked, but it won't deal combat damage and won't trigger any abilities that trigger when combat damage is dealt." (7 cards, e.g. [Uninvited Geist // Unimpeded Trespasser](cards/U/un.md#uninvited-geist--unimpeded-trespasser), 2016-04-08)
+- "Skulk matters only as blockers are chosen. Modifying either creature's power after blockers are chosen won't cause the attacking creature to become unblocked." (7 cards, e.g. [Uninvited Geist // Unimpeded Trespasser](cards/U/un.md#uninvited-geist--unimpeded-trespasser), 2016-04-08)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Forgotten Creation]], [[Gollum, Obsessed Stalker]], [[Wharf Infiltrator]]
+**Examples (Commander-legal; each entry includes its rulings):** [Forgotten Creation](cards/F/fo.md#forgotten-creation), [Gollum, Obsessed Stalker](cards/G/gol.md#gollum-obsessed-stalker), [Wharf Infiltrator](cards/W/wh.md#wharf-infiltrator)
 
 #### Sneak
 
@@ -2462,10 +2462,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 27 Oracle cards · 27 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Teenage Mutant Ninja Turtles (2026-03-06)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking." (26 cards, e.g. [[Turncoat Kunoichi]], 2026-01-27)
-- "Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block)." (26 cards, e.g. [[Turncoat Kunoichi]], 2026-01-27)
+- "If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking." (26 cards, e.g. [Turncoat Kunoichi](cards/T/tu.md#turncoat-kunoichi), 2026-01-27)
+- "Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block)." (26 cards, e.g. [Turncoat Kunoichi](cards/T/tu.md#turncoat-kunoichi), 2026-01-27)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Splinter's Technique]], [[Raphael, the Nightwatcher]], [[Shredder's Technique]]
+**Examples (Commander-legal; each entry includes its rulings):** [Splinter's Technique](cards/S/spl.md#splinters-technique), [Raphael, the Nightwatcher](cards/R/rap.md#raphael-the-nightwatcher), [Shredder's Technique](cards/S/shr.md#shredders-technique)
 
 #### Solved
 
@@ -2478,10 +2478,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 13 Oracle cards · 13 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Murders at Karlov Manor (2024-02-09)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""Solved — [Triggered ability]" means "[Triggered ability]. This ability triggers only if this Case is solved." Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."" (13 cards, e.g. [[Case of the Uneaten Feast]], 2024-02-02)
-- ""Solved — [static ability]" means "As long as this Case is solved, [static ability]." Static abilities are written as statements, such as "Creatures you control get +1/+1" or "Instant and sorcery spells you cast cost {1} less to cast."" (13 cards, e.g. [[Case of the Uneaten Feast]], 2024-02-02)
+- ""Solved — [Triggered ability]" means "[Triggered ability]. This ability triggers only if this Case is solved." Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."" (13 cards, e.g. [Case of the Uneaten Feast](cards/C/cas.md#case-of-the-uneaten-feast), 2024-02-02)
+- ""Solved — [static ability]" means "As long as this Case is solved, [static ability]." Static abilities are written as statements, such as "Creatures you control get +1/+1" or "Instant and sorcery spells you cast cost {1} less to cast."" (13 cards, e.g. [Case of the Uneaten Feast](cards/C/cas.md#case-of-the-uneaten-feast), 2024-02-02)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Case of the Locked Hothouse]], [[Case of the Ransacked Lab]], [[Case of the Uneaten Feast]]
+**Examples (Commander-legal; each entry includes its rulings):** [Case of the Locked Hothouse](cards/C/cas.md#case-of-the-locked-hothouse), [Case of the Ransacked Lab](cards/C/cas.md#case-of-the-ransacked-lab), [Case of the Uneaten Feast](cards/C/cas.md#case-of-the-uneaten-feast)
 
 #### Soulbond
 
@@ -2494,9 +2494,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 26 Oracle cards · 25 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Avacyn Restored Promos (2012-04-28)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you activate the ability granted by Deadeye Navigator, the creature will be exiled, the pair will immediately be broken, and then the card will be returned to the battlefield. Deadeye Navigator's soulbond ability triggers when that card enters the battlefield and the pair can then be reunited." (1 card, e.g. [[Deadeye Navigator]], 2017-03-14)
+- "If you activate the ability granted by Deadeye Navigator, the creature will be exiled, the pair will immediately be broken, and then the card will be returned to the battlefield. Deadeye Navigator's soulbond ability triggers when that card enters the battlefield and the pair can then be reunited." (1 card, e.g. [Deadeye Navigator](cards/D/dea.md#deadeye-navigator), 2017-03-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Deadeye Navigator]], [[Tandem Lookout]], [[Doom Weaver]]
+**Examples (Commander-legal; each entry includes its rulings):** [Deadeye Navigator](cards/D/dea.md#deadeye-navigator), [Tandem Lookout](cards/T/ta.md#tandem-lookout), [Doom Weaver](cards/D/do.md#doom-weaver)
 
 #### Soulshift
 
@@ -2509,9 +2509,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 26 Oracle cards · 26 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Champions of Kamigawa (2004-10-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Each soulshift ability can return one Spirit, or both abilities can attempt to return just one Spirit (causing the second ability to be countered)." (1 card, e.g. [[Forked-Branch Garami]], 2005-02-01)
+- "Each soulshift ability can return one Spirit, or both abilities can attempt to return just one Spirit (causing the second ability to be countered)." (1 card, e.g. [Forked-Branch Garami](cards/F/fo.md#forked-branch-garami), 2005-02-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[He Who Hungers]], [[Forked-Branch Garami]], [[Promised Kannushi]]
+**Examples (Commander-legal; each entry includes its rulings):** [He Who Hungers](cards/H/he.md#he-who-hungers), [Forked-Branch Garami](cards/F/fo.md#forked-branch-garami), [Promised Kannushi](cards/P/pr.md#promised-kannushi)
 
 #### Space Sculptor
 
@@ -2534,10 +2534,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 11 Oracle cards · 11 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Ravnica Allegiance (2019-01-25)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A card's spectacle cost is the same no matter how much life your opponents lost or how many opponents lost life." (11 cards, e.g. [[Spikewheel Acrobat]], 2024-01-12)
-- "In a multiplayer game, if an opponent loses life and later that turn leaves the game, you can cast a spell for its spectacle cost. (If a player leaves the game during their turn, that turn continues without an active player.)" (11 cards, e.g. [[Spikewheel Acrobat]], 2024-01-12)
+- "A card's spectacle cost is the same no matter how much life your opponents lost or how many opponents lost life." (11 cards, e.g. [Spikewheel Acrobat](cards/S/spi.md#spikewheel-acrobat), 2024-01-12)
+- "In a multiplayer game, if an opponent loses life and later that turn leaves the game, you can cast a spell for its spectacle cost. (If a player leaves the game during their turn, that turn continues without an active player.)" (11 cards, e.g. [Spikewheel Acrobat](cards/S/spi.md#spikewheel-acrobat), 2024-01-12)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Light Up the Stage]], [[Body Count]], [[Skewer the Critics]]
+**Examples (Commander-legal; each entry includes its rulings):** [Light Up the Stage](cards/L/li.md#light-up-the-stage), [Body Count](cards/B/bo.md#body-count), [Skewer the Critics](cards/S/sk.md#skewer-the-critics)
 
 #### Splice
 
@@ -2550,10 +2550,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 32 Oracle cards · 30 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Arena League 2004 (2004-01-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A card with a splice ability can't be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it." (27 cards, e.g. [[Wear Away]], 2013-06-07)
-- "You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word "target" on the resulting spell." (27 cards, e.g. [[Wear Away]], 2013-06-07)
+- "A card with a splice ability can't be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it." (27 cards, e.g. [Wear Away](cards/W/we.md#wear-away), 2013-06-07)
+- "You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word "target" on the resulting spell." (27 cards, e.g. [Wear Away](cards/W/we.md#wear-away), 2013-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Desperate Ritual]], [[Goryo's Vengeance]], [[Fell Beast's Shriek]]
+**Examples (Commander-legal; each entry includes its rulings):** [Desperate Ritual](cards/D/des.md#desperate-ritual), [Goryo's Vengeance](cards/G/gor.md#goryos-vengeance), [Fell Beast's Shriek](cards/F/fe.md#fell-beasts-shriek)
 
 #### Split Second
 
@@ -2566,10 +2566,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 25 Oracle cards · 21 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Time Spiral (2006-10-06)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "After a spell with split second resolves (or otherwise leaves the stack), players may again cast spells and activate abilities before the next object on the stack resolves." (21 cards, e.g. [[Siege Smash]], 2024-06-07)
-- "Casting a spell with split second won't affect spells and abilities that are already on the stack." (21 cards, e.g. [[Siege Smash]], 2024-06-07)
+- "After a spell with split second resolves (or otherwise leaves the stack), players may again cast spells and activate abilities before the next object on the stack resolves." (21 cards, e.g. [Siege Smash](cards/S/si.md#siege-smash), 2024-06-07)
+- "Casting a spell with split second won't affect spells and abilities that are already on the stack." (21 cards, e.g. [Siege Smash](cards/S/si.md#siege-smash), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Krosan Grip]], [[Legolas's Quick Reflexes]], [[Angel's Grace]]
+**Examples (Commander-legal; each entry includes its rulings):** [Krosan Grip](cards/K/kr.md#krosan-grip), [Legolas's Quick Reflexes](cards/L/le.md#legolass-quick-reflexes), [Angel's Grace](cards/A/an.md#angels-grace)
 
 #### Spree
 
@@ -2582,10 +2582,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 21 Oracle cards · 21 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Outlaws of Thunder Junction (2024-04-19)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a spell with spree is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose new modes." (21 cards, e.g. [[Unfortunate Accident]], 2024-04-12)
-- "If all targets for the chosen modes become illegal before a spell with spree resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets." (21 cards, e.g. [[Unfortunate Accident]], 2024-04-12)
+- "If a spell with spree is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose new modes." (21 cards, e.g. [Unfortunate Accident](cards/U/un.md#unfortunate-accident), 2024-04-12)
+- "If all targets for the chosen modes become illegal before a spell with spree resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets." (21 cards, e.g. [Unfortunate Accident](cards/U/un.md#unfortunate-accident), 2024-04-12)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Return the Favor]], [[Three Steps Ahead]], [[Great Train Heist]]
+**Examples (Commander-legal; each entry includes its rulings):** [Return the Favor](cards/R/ret.md#return-the-favor), [Three Steps Ahead](cards/T/thr.md#three-steps-ahead), [Great Train Heist](cards/G/gre.md#great-train-heist)
 
 #### Squad
 
@@ -2598,10 +2598,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 15 Oracle cards · 15 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Warhammer 40,000 Commander (2022-10-07)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If the spell is countered, the squad ability will not trigger, and no tokens will be created." (15 cards, e.g. [[Roadkill Rodney]], 2026-01-27)
-- "The tokens created by the squad ability aren't "cast," so any abilities that trigger when a spell is cast won't trigger for the copies." (15 cards, e.g. [[Roadkill Rodney]], 2026-01-27)
+- "If the spell is countered, the squad ability will not trigger, and no tokens will be created." (15 cards, e.g. [Roadkill Rodney](cards/R/ro.md#roadkill-rodney), 2026-01-27)
+- "The tokens created by the squad ability aren't "cast," so any abilities that trigger when a spell is cast won't trigger for the copies." (15 cards, e.g. [Roadkill Rodney](cards/R/ro.md#roadkill-rodney), 2026-01-27)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Galadhrim Brigade]], [[Securitron Squadron]], [[Endless Foot Assault]]
+**Examples (Commander-legal; each entry includes its rulings):** [Galadhrim Brigade](cards/G/ga.md#galadhrim-brigade), [Securitron Squadron](cards/S/sec.md#securitron-squadron), [Endless Foot Assault](cards/E/en.md#endless-foot-assault)
 
 #### Start Your Engines!
 
@@ -2613,7 +2613,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 45 Oracle cards · 40 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Aetherdrift (2025-02-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Muraganda Raceway]], [[Amonkhet Raceway]], [[Howlsquad Heavy]]
+**Examples (Commander-legal; each entry includes its rulings):** [Muraganda Raceway](cards/M/mu.md#muraganda-raceway), [Amonkhet Raceway](cards/A/am.md#amonkhet-raceway), [Howlsquad Heavy](cards/H/ho.md#howlsquad-heavy)
 
 #### Station
 
@@ -2626,10 +2626,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 33 Oracle cards · 31 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Edge of Eternities (2025-08-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A station card is a card with the station keyword ability. The station keyword means "Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature's power. Activate only as a sorcery."" (2 cards, e.g. [[Atmospheric Greenhouse]], 2025-07-25)
-- "Each station card has one or more striations in its text box. Each striation is preceded by a station symbol—a circle surrounding a number and a plus sign." (2 cards, e.g. [[Atmospheric Greenhouse]], 2025-07-25)
+- "A station card is a card with the station keyword ability. The station keyword means "Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature's power. Activate only as a sorcery."" (2 cards, e.g. [Atmospheric Greenhouse](cards/A/at.md#atmospheric-greenhouse), 2025-07-25)
+- "Each station card has one or more striations in its text box. Each striation is preceded by a station symbol—a circle surrounding a number and a plus sign." (2 cards, e.g. [Atmospheric Greenhouse](cards/A/at.md#atmospheric-greenhouse), 2025-07-25)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Exploration Broodship]], [[Adagia, Windswept Bastion]], [[Uthros Research Craft]]
+**Examples (Commander-legal; each entry includes its rulings):** [Exploration Broodship](cards/E/ex.md#exploration-broodship), [Adagia, Windswept Bastion](cards/A/ad.md#adagia-windswept-bastion), [Uthros Research Craft](cards/U/ut.md#uthros-research-craft)
 
 #### Storied
 
@@ -2642,10 +2642,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 9 Oracle cards · 9 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): The Hobbit (2026-08-14)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you control three legendary, Saga, and/or artifact permanents but don't control a permanent with storied, you don't get an enduring story. For example, if you controlled three artifacts, lost control of two, then cast Thorin Oakenshield, you won't have an enduring story." (9 cards, e.g. [[Óin the Brave]], 2026-06-29)
-- "Once you have an enduring story, you have it for the rest of the game, even if you lose control of some or all of your storied permanents. The enduring story designation is on the player and can't be removed by any effect." (9 cards, e.g. [[Óin the Brave]], 2026-06-29)
+- "If you control three legendary, Saga, and/or artifact permanents but don't control a permanent with storied, you don't get an enduring story. For example, if you controlled three artifacts, lost control of two, then cast Thorin Oakenshield, you won't have an enduring story." (9 cards, e.g. [Óin the Brave](cards/O/oi.md#óin-the-brave), 2026-06-29)
+- "Once you have an enduring story, you have it for the rest of the game, even if you lose control of some or all of your storied permanents. The enduring story designation is on the player and can't be removed by any effect." (9 cards, e.g. [Óin the Brave](cards/O/oi.md#óin-the-brave), 2026-06-29)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Kíli the Resourceful]], [[Thorin Oakenshield]], [[Dáin, Lord of the Iron Hills]]
+**Examples (Commander-legal; each entry includes its rulings):** [Kíli the Resourceful](cards/K/ki.md#kíli-the-resourceful), [Thorin Oakenshield](cards/T/tho.md#thorin-oakenshield), [Dáin, Lord of the Iron Hills](cards/D/da.md#dáin-lord-of-the-iron-hills)
 
 #### Storm
 
@@ -2658,10 +2658,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 38 Oracle cards · 33 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Scourge (2003-05-26)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies." (28 cards, e.g. [[Storm of Memories]], 2025-10-02)
-- "The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn." (26 cards, e.g. [[Storm of Memories]], 2025-10-02)
+- "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies." (28 cards, e.g. [Storm of Memories](cards/S/sto.md#storm-of-memories), 2025-10-02)
+- "The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn." (26 cards, e.g. [Storm of Memories](cards/S/sto.md#storm-of-memories), 2025-10-02)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Flusterstorm]], [[Grapeshot]], [[Brain Freeze]]
+**Examples (Commander-legal; each entry includes its rulings):** [Flusterstorm](cards/F/fl.md#flusterstorm), [Grapeshot](cards/G/gra.md#grapeshot), [Brain Freeze](cards/B/br.md#brain-freeze)
 
 #### Sunburst
 
@@ -2674,9 +2674,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 16 Oracle cards · 16 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Fifth Dawn (2004-06-04)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Sunburst checks what mana was actually spent to cast the spell. If an effect allows you to spend mana "as though it were mana" of any color or type, that allows you to spend mana you couldn't otherwise spend, but it doesn't change what mana you spent to cast the spell." (1 card, e.g. [[Pentad Prism]], 2020-08-07)
+- "Sunburst checks what mana was actually spent to cast the spell. If an effect allows you to spend mana "as though it were mana" of any color or type, that allows you to spend mana you couldn't otherwise spend, but it doesn't change what mana you spent to cast the spell." (1 card, e.g. [Pentad Prism](cards/P/pe.md#pentad-prism), 2020-08-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Pentad Prism]], [[Engineered Explosives]], [[Arcbound Wanderer]]
+**Examples (Commander-legal; each entry includes its rulings):** [Pentad Prism](cards/P/pe.md#pentad-prism), [Engineered Explosives](cards/E/en.md#engineered-explosives), [Arcbound Wanderer](cards/A/arc.md#arcbound-wanderer)
 
 #### Surge
 
@@ -2689,10 +2689,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 11 Oracle cards · 11 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Oath of the Gatewatch (2016-01-22)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Casting a spell for its surge cost doesn't change its mana cost or its mana value." (11 cards, e.g. [[Tyrant of Valakut]], 2016-01-22)
-- "For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell." (11 cards, e.g. [[Tyrant of Valakut]], 2016-01-22)
+- "Casting a spell for its surge cost doesn't change its mana cost or its mana value." (11 cards, e.g. [Tyrant of Valakut](cards/T/ty.md#tyrant-of-valakut), 2016-01-22)
+- "For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell." (11 cards, e.g. [Tyrant of Valakut](cards/T/ty.md#tyrant-of-valakut), 2016-01-22)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Fall of the Titans]], [[Crush of Tentacles]], [[Reckless Bushwhacker]]
+**Examples (Commander-legal; each entry includes its rulings):** [Fall of the Titans](cards/F/fa.md#fall-of-the-titans), [Crush of Tentacles](cards/C/cr.md#crush-of-tentacles), [Reckless Bushwhacker](cards/R/rec.md#reckless-bushwhacker)
 
 #### Suspend
 
@@ -2705,10 +2705,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 72 Oracle cards · 70 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Time Spiral Promos (2006-09-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Cards exiled with suspend are exiled face up." (70 cards, e.g. [[Suspended Sentence]], 2024-09-20)
-- "Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to." (70 cards, e.g. [[Suspended Sentence]], 2024-09-20)
+- "Cards exiled with suspend are exiled face up." (70 cards, e.g. [Suspended Sentence](cards/S/sus.md#suspended-sentence), 2024-09-20)
+- "Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to." (70 cards, e.g. [Suspended Sentence](cards/S/sus.md#suspended-sentence), 2024-09-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Profane Tutor]], [[Search for Tomorrow]], [[Sol Talisman]]
+**Examples (Commander-legal; each entry includes its rulings):** [Profane Tutor](cards/P/pr.md#profane-tutor), [Search for Tomorrow](cards/S/sea.md#search-for-tomorrow), [Sol Talisman](cards/S/so.md#sol-talisman)
 
 ### Abilities: T
 
@@ -2722,7 +2722,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 17 Oracle cards · 17 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Marvel Super Heroes (2026-06-26)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[HULK SMASH!]], [[We Say Thee Nay!]], [[Earth's Mightiest Heroes]]
+**Examples (Commander-legal; each entry includes its rulings):** [HULK SMASH!](cards/H/hu.md#hulk-smash), [We Say Thee Nay!](cards/W/we.md#we-say-thee-nay), [Earth's Mightiest Heroes](cards/E/ea.md#earths-mightiest-heroes)
 
 #### Tiered
 
@@ -2735,10 +2735,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 7 Oracle cards · 7 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Final Fantasy (2025-06-13)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a spell with tiered is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose a new mode." (7 cards, e.g. [[Vincent's Limit Break]], 2025-06-06)
-- "If an effect allows you to cast a spell with tiered "without paying its mana cost," you must still choose exactly one mode and pay the associated additional cost." (7 cards, e.g. [[Vincent's Limit Break]], 2025-06-06)
+- "If a spell with tiered is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose a new mode." (7 cards, e.g. [Vincent's Limit Break](cards/V/vi.md#vincents-limit-break), 2025-06-06)
+- "If an effect allows you to cast a spell with tiered "without paying its mana cost," you must still choose exactly one mode and pay the associated additional cost." (7 cards, e.g. [Vincent's Limit Break](cards/V/vi.md#vincents-limit-break), 2025-06-06)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Restoration Magic]], [[Fire Magic]], [[Tifa's Limit Break]]
+**Examples (Commander-legal; each entry includes its rulings):** [Restoration Magic](cards/R/res.md#restoration-magic), [Fire Magic](cards/F/fi.md#fire-magic), [Tifa's Limit Break](cards/T/ti.md#tifas-limit-break)
 
 #### Toxic
 
@@ -2751,10 +2751,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 40 Oracle cards · 38 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Commander Legends: Battle for Baldur's Gate (2022-06-10)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged." (36 cards, e.g. [[Bloodroot Apothecary]], 2024-07-26)
-- "If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters." (36 cards, e.g. [[Bloodroot Apothecary]], 2024-07-26)
+- "Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged." (36 cards, e.g. [Bloodroot Apothecary](cards/B/blo.md#bloodroot-apothecary), 2024-07-26)
+- "If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters." (36 cards, e.g. [Bloodroot Apothecary](cards/B/blo.md#bloodroot-apothecary), 2024-07-26)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Skrelv, Defector Mite]], [[Myr Convert]], [[Bloated Contaminator]]
+**Examples (Commander-legal; each entry includes its rulings):** [Skrelv, Defector Mite](cards/S/sk.md#skrelv-defector-mite), [Myr Convert](cards/M/my.md#myr-convert), [Bloated Contaminator](cards/B/blo.md#bloated-contaminator)
 
 #### Training
 
@@ -2767,10 +2767,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 11 Oracle cards · 11 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Innistrad: Crimson Vow Promos (2021-11-19)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A creature's training ability triggers only when both that creature and a creature with greater power are declared as attackers. Increasing a creature's power after attackers are declared won't cause a training ability to trigger." (10 cards, e.g. [[Jenny Flint]], 2023-10-13)
-- "Once a creature's training ability has triggered, destroying the other attacking creature or reducing its power won't stop the creature with training from getting a +1/+1 counter." (10 cards, e.g. [[Jenny Flint]], 2023-10-13)
+- "A creature's training ability triggers only when both that creature and a creature with greater power are declared as attackers. Increasing a creature's power after attackers are declared won't cause a training ability to trigger." (10 cards, e.g. [Jenny Flint](cards/J/je.md#jenny-flint), 2023-10-13)
+- "Once a creature's training ability has triggered, destroying the other attacking creature or reducing its power won't stop the creature with training from getting a +1/+1 counter." (10 cards, e.g. [Jenny Flint](cards/J/je.md#jenny-flint), 2023-10-13)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Torens, Fist of the Angels]], [[Hopeful Initiate]], [[Jenny Flint]]
+**Examples (Commander-legal; each entry includes its rulings):** [Torens, Fist of the Angels](cards/T/to.md#torens-fist-of-the-angels), [Hopeful Initiate](cards/H/ho.md#hopeful-initiate), [Jenny Flint](cards/J/je.md#jenny-flint)
 
 #### Trample
 
@@ -2783,9 +2783,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 1033 Oracle cards · 994 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Limited Edition Alpha (1993-08-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Any time the game is checking whether damage is lethal or if a creature should be destroyed for having lethal damage marked on it, use the power of your creatures rather than their toughness to check the damage against. This includes being assigned trample damage, damage from Flame Spill, and so on." (1 card, e.g. [[Zilortha, Strength Incarnate]], 2020-04-17)
+- "Any time the game is checking whether damage is lethal or if a creature should be destroyed for having lethal damage marked on it, use the power of your creatures rather than their toughness to check the damage against. This includes being assigned trample damage, damage from Flame Spill, and so on." (1 card, e.g. [Zilortha, Strength Incarnate](cards/Z/zi.md#zilortha-strength-incarnate), 2020-04-17)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Rampaging Baloths]], [[Ghalta, Primal Hunger]], [[Hellkite Tyrant]]
+**Examples (Commander-legal; each entry includes its rulings):** [Rampaging Baloths](cards/R/ram.md#rampaging-baloths), [Ghalta, Primal Hunger](cards/G/gh.md#ghalta-primal-hunger), [Hellkite Tyrant](cards/H/he.md#hellkite-tyrant)
 
 #### Transfigure
 
@@ -2798,9 +2798,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 1 Oracle cards · 1 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Future Sight (2007-05-04)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Transfigure is similar to Transmute, though it can be activated only if the permanent with Transfigure is on the battlefield, and it can fetch only a creature." (1 card, e.g. [[Fleshwrither]], 2007-05-01)
+- "Transfigure is similar to Transmute, though it can be activated only if the permanent with Transfigure is on the battlefield, and it can fetch only a creature." (1 card, e.g. [Fleshwrither](cards/F/fl.md#fleshwrither), 2007-05-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Fleshwrither]]
+**Examples (Commander-legal; each entry includes its rulings):** [Fleshwrither](cards/F/fl.md#fleshwrither)
 
 #### Transmute
 
@@ -2812,7 +2812,7 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 
 **Cards:** 14 Oracle cards · 14 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Salvat 2005 (2005-08-22)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Tolaria West]], [[Perplex]], [[Grozoth]]
+**Examples (Commander-legal; each entry includes its rulings):** [Tolaria West](cards/T/to.md#tolaria-west), [Perplex](cards/P/pe.md#perplex), [Grozoth](cards/G/gro.md#grozoth)
 
 #### Tribute
 
@@ -2825,10 +2825,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 11 Oracle cards · 11 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Friday Night Magic 2014 (2014-01-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature's controller." (11 cards, e.g. [[Thunder Brute]], 2017-04-18)
-- "If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won't enter the battlefield and then have the +1/+1 counters placed on it." (11 cards, e.g. [[Thunder Brute]], 2014-02-01)
+- "For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature's controller." (11 cards, e.g. [Thunder Brute](cards/T/thu.md#thunder-brute), 2017-04-18)
+- "If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won't enter the battlefield and then have the +1/+1 counters placed on it." (11 cards, e.g. [Thunder Brute](cards/T/thu.md#thunder-brute), 2014-02-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Nessian Wilds Ravager]], [[Oracle of Bones]], [[Flame-Wreathed Phoenix]]
+**Examples (Commander-legal; each entry includes its rulings):** [Nessian Wilds Ravager](cards/N/ne.md#nessian-wilds-ravager), [Oracle of Bones](cards/O/or.md#oracle-of-bones), [Flame-Wreathed Phoenix](cards/F/fl.md#flame-wreathed-phoenix)
 
 ### Abilities: U
 
@@ -2843,10 +2843,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 16 Oracle cards · 15 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Rise of the Eldrazi (2010-04-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a creature enchanted with an Aura that has umbra armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Umbra armor won't do anything because it won't have to." (16 cards, e.g. [[Penumbra Umbra]], 2024-11-08)
-- "If a creature enchanted with an Aura that has umbra armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness), umbra armor's effect will replace all of them and save the creature." (16 cards, e.g. [[Penumbra Umbra]], 2024-11-08)
+- "If a creature enchanted with an Aura that has umbra armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Umbra armor won't do anything because it won't have to." (16 cards, e.g. [Penumbra Umbra](cards/P/pe.md#penumbra-umbra), 2024-11-08)
+- "If a creature enchanted with an Aura that has umbra armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness), umbra armor's effect will replace all of them and save the creature." (16 cards, e.g. [Penumbra Umbra](cards/P/pe.md#penumbra-umbra), 2024-11-08)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Bear Umbra]], [[Snake Umbra]], [[Hyena Umbra]]
+**Examples (Commander-legal; each entry includes its rulings):** [Bear Umbra](cards/B/be.md#bear-umbra), [Snake Umbra](cards/S/sn.md#snake-umbra), [Hyena Umbra](cards/H/hy.md#hyena-umbra)
 
 #### Undaunted
 
@@ -2859,9 +2859,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 5 Oracle cards · 5 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Commander 2016 (2016-11-11)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Causing an opponent to lose the game after you've announced that you're casting a spell with undaunted and determined its total cost won't cause you to have to pay more mana." (5 cards, e.g. [[Sublime Exhalation]], 2016-11-08)
+- "Causing an opponent to lose the game after you've announced that you're casting a spell with undaunted and determined its total cost won't cause you to have to pay more mana." (5 cards, e.g. [Sublime Exhalation](cards/S/sub.md#sublime-exhalation), 2016-11-08)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Curtains' Call]], [[Divergent Transformations]], [[Coastal Breach]]
+**Examples (Commander-legal; each entry includes its rulings):** [Curtains' Call](cards/C/cu.md#curtains-call), [Divergent Transformations](cards/D/di.md#divergent-transformations), [Coastal Breach](cards/C/coa.md#coastal-breach)
 
 #### Undying
 
@@ -2874,9 +2874,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 25 Oracle cards · 24 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Wizards Play Network 2012 (2012-01-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Demonlord of Ashmouth's "enters" ability will trigger no matter how it entered, including because of its undying ability." (1 card, e.g. [[Demonlord of Ashmouth]], 2012-05-01)
+- "Demonlord of Ashmouth's "enters" ability will trigger no matter how it entered, including because of its undying ability." (1 card, e.g. [Demonlord of Ashmouth](cards/D/dem.md#demonlord-of-ashmouth), 2012-05-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Gleeful Arsonist]], [[Flayer of the Hatebound]], [[Hancock, Ghoulish Mayor]]
+**Examples (Commander-legal; each entry includes its rulings):** [Gleeful Arsonist](cards/G/gl.md#gleeful-arsonist), [Flayer of the Hatebound](cards/F/fl.md#flayer-of-the-hatebound), [Hancock, Ghoulish Mayor](cards/H/ha.md#hancock-ghoulish-mayor)
 
 #### Unearth
 
@@ -2889,10 +2889,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 56 Oracle cards · 56 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Shards of Alara (2008-10-03)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will do nothing as it resolves." (22 cards, e.g. [[Salvation Colossus]], 2024-06-07)
-- "Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead." (22 cards, e.g. [[Salvation Colossus]], 2024-06-07)
+- "If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will do nothing as it resolves." (22 cards, e.g. [Salvation Colossus](cards/S/sal.md#salvation-colossus), 2024-06-07)
+- "Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead." (22 cards, e.g. [Salvation Colossus](cards/S/sal.md#salvation-colossus), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Molten Gatekeeper]], [[Cityscape Leveler]], [[Priest of Fell Rites]]
+**Examples (Commander-legal; each entry includes its rulings):** [Molten Gatekeeper](cards/M/mol.md#molten-gatekeeper), [Cityscape Leveler](cards/C/ci.md#cityscape-leveler), [Priest of Fell Rites](cards/P/pr.md#priest-of-fell-rites)
 
 #### Unleash
 
@@ -2905,10 +2905,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 15 Oracle cards · 14 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Return to Ravnica (2012-10-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A creature with unleash can't block if it has any +1/+1 counter on it, not just one put on it by the unleash ability." (14 cards, e.g. [[Tesak, Judith's Hellhound]], 2024-02-02)
-- "Putting a +1/+1 counter on a creature with unleash that's already blocking won't remove it from combat. It will continue to block." (14 cards, e.g. [[Tesak, Judith's Hellhound]], 2024-02-02)
+- "A creature with unleash can't block if it has any +1/+1 counter on it, not just one put on it by the unleash ability." (14 cards, e.g. [Tesak, Judith's Hellhound](cards/T/te.md#tesak-judiths-hellhound), 2024-02-02)
+- "Putting a +1/+1 counter on a creature with unleash that's already blocking won't remove it from combat. It will continue to block." (14 cards, e.g. [Tesak, Judith's Hellhound](cards/T/te.md#tesak-judiths-hellhound), 2024-02-02)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Tesak, Judith's Hellhound]], [[Thrill-Kill Assassin]], [[Exava, Rakdos Blood Witch]]
+**Examples (Commander-legal; each entry includes its rulings):** [Tesak, Judith's Hellhound](cards/T/te.md#tesak-judiths-hellhound), [Thrill-Kill Assassin](cards/T/thr.md#thrill-kill-assassin), [Exava, Rakdos Blood Witch](cards/E/ex.md#exava-rakdos-blood-witch)
 
 ### Abilities: V
 
@@ -2923,9 +2923,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 21 Oracle cards · 20 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Planar Chaos (2007-02-02)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a permanent that's already on the battlefield without time counters on it becomes a copy of a permanent with vanishing, it will stay on the battlefield indefinitely (unless time counters are somehow put on it later). If a permanent with one or more time counters on it becomes a copy of a permanent with vanishing, it will vanish as normal. If a permanent enters the battlefield as a copy of a permanent with vanishing, it enters with the appropriate number of time counters and will vanish as normal." (1 card, e.g. [[Dreamtide Whale]], 2024-06-07)
+- "If a permanent that's already on the battlefield without time counters on it becomes a copy of a permanent with vanishing, it will stay on the battlefield indefinitely (unless time counters are somehow put on it later). If a permanent with one or more time counters on it becomes a copy of a permanent with vanishing, it will vanish as normal. If a permanent enters the battlefield as a copy of a permanent with vanishing, it enters with the appropriate number of time counters and will vanish as normal." (1 card, e.g. [Dreamtide Whale](cards/D/dre.md#dreamtide-whale), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Dreamtide Whale]], [[Out of Time]], [[Chronozoa]]
+**Examples (Commander-legal; each entry includes its rulings):** [Dreamtide Whale](cards/D/dre.md#dreamtide-whale), [Out of Time](cards/O/ou.md#out-of-time), [Chronozoa](cards/C/chr.md#chronozoa)
 
 #### Vigilance
 
@@ -2938,9 +2938,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 758 Oracle cards · 727 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Limited Edition Alpha (1993-08-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A creature losing vigilance after it has attacked (most likely because Serra's Guardian leaves the battlefield) won't cause it to become tapped." (1 card, e.g. [[Serra's Guardian]], 2019-07-12)
+- "A creature losing vigilance after it has attacked (most likely because Serra's Guardian leaves the battlefield) won't cause it to become tapped." (1 card, e.g. [Serra's Guardian](cards/S/ser.md#serras-guardian), 2019-07-12)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Sun Titan]], [[Enduring Vitality]], [[Adeline, Resplendent Cathar]]
+**Examples (Commander-legal; each entry includes its rulings):** [Sun Titan](cards/S/sun.md#sun-titan), [Enduring Vitality](cards/E/en.md#enduring-vitality), [Adeline, Resplendent Cathar](cards/A/ad.md#adeline-resplendent-cathar)
 
 #### Visit
 
@@ -2965,10 +2965,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 196 Oracle cards · 192 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Strixhaven: School of Mages (2021-04-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered." (17 cards, e.g. [[Patchwork Automaton]], 2022-02-18)
-- "A creature that is both a Beast and a Bird still only gets one instance of ward {1} from Radagast, Wizard of Wilds's first ability." (1 card, e.g. [[Radagast, Wizard of Wilds]], 2023-06-16)
+- "If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered." (17 cards, e.g. [Patchwork Automaton](cards/P/pa.md#patchwork-automaton), 2022-02-18)
+- "A creature that is both a Beast and a Bird still only gets one instance of ward {1} from Radagast, Wizard of Wilds's first ability." (1 card, e.g. [Radagast, Wizard of Wilds](cards/R/rad.md#radagast-wizard-of-wilds), 2023-06-16)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Roaming Throne]], [[Hexing Squelcher]], [[Kappa Cannoneer]]
+**Examples (Commander-legal; each entry includes its rulings):** [Roaming Throne](cards/R/ro.md#roaming-throne), [Hexing Squelcher](cards/H/he.md#hexing-squelcher), [Kappa Cannoneer](cards/K/ka.md#kappa-cannoneer)
 
 #### Warp
 
@@ -2981,9 +2981,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 34 Oracle cards · 34 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Warhammer 40,000 Commander (2022-10-07)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Astelli Reclaimer's enters ability cares about the mana you actually paid to cast Astelli Reclaimer, not its mana cost. If you cast Astelli Reclaimer for {3}{W}{W}, X is 5. If you cast it with warp for {2}{W}, X is 3. Any effects that increase or decrease the cost to cast it will also be taken into account." (1 card, e.g. [[Astelli Reclaimer]], 2025-07-25)
+- "Astelli Reclaimer's enters ability cares about the mana you actually paid to cast Astelli Reclaimer, not its mana cost. If you cast Astelli Reclaimer for {3}{W}{W}, X is 5. If you cast it with warp for {2}{W}, X is 3. Any effects that increase or decrease the cost to cast it will also be taken into account." (1 card, e.g. [Astelli Reclaimer](cards/A/as.md#astelli-reclaimer), 2025-07-25)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Exalted Sunborn]], [[Haliya, Guided by Light]], [[Starfield Vocalist]]
+**Examples (Commander-legal; each entry includes its rulings):** [Exalted Sunborn](cards/E/ex.md#exalted-sunborn), [Haliya, Guided by Light](cards/H/ha.md#haliya-guided-by-light), [Starfield Vocalist](cards/S/sta.md#starfield-vocalist)
 
 #### Web-slinging
 
@@ -2996,10 +2996,10 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 10 Oracle cards · 10 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Through the Omenpaths (2025-09-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "The creature you return must be tapped at the time you pay costs, but doesn't necessarily need to be tapped before you start casting the spell. For example, if you tap a creature with a mana ability to pay part of the spell's web-slinging cost, you could also return that creature to your hand to pay the cost." (9 cards, e.g. [[Spiders-Man, Heroic Horde]], 2025-09-19)
-- "Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those." (9 cards, e.g. [[Spiders-Man, Heroic Horde]], 2025-09-19)
+- "The creature you return must be tapped at the time you pay costs, but doesn't necessarily need to be tapped before you start casting the spell. For example, if you tap a creature with a mana ability to pay part of the spell's web-slinging cost, you could also return that creature to your hand to pay the cost." (9 cards, e.g. [Spiders-Man, Heroic Horde](cards/S/spi.md#spiders-man-heroic-horde), 2025-09-19)
+- "Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those." (9 cards, e.g. [Spiders-Man, Heroic Horde](cards/S/spi.md#spiders-man-heroic-horde), 2025-09-19)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Spider-Sense]], [[Spider-Man, Brooklyn Visionary]], [[Silk, Web Weaver]]
+**Examples (Commander-legal; each entry includes its rulings):** [Spider-Sense](cards/S/spi.md#spider-sense), [Spider-Man, Brooklyn Visionary](cards/S/spi.md#spider-man-brooklyn-visionary), [Silk, Web Weaver](cards/S/si.md#silk-web-weaver)
 
 #### Wither
 
@@ -3012,9 +3012,9 @@ Jump: [A](#abilities-a) · [B](#abilities-b) · [C](#abilities-c) · [D](#abilit
 **Cards:** 26 Oracle cards · 26 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Shadowmoor (2008-05-02)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Any damage dealt to creatures by a source with wither, whether it's combat damage or noncombat damage, is dealt in the form of -1/-1 counters." (1 card, e.g. [[Spinerock Tyrant]], 2025-11-17)
+- "Any damage dealt to creatures by a source with wither, whether it's combat damage or noncombat damage, is dealt in the form of -1/-1 counters." (1 card, e.g. [Spinerock Tyrant](cards/S/spi.md#spinerock-tyrant), 2025-11-17)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Necroskitter]], [[Village Pillagers]], [[Kulrath Knight]]
+**Examples (Commander-legal; each entry includes its rulings):** [Necroskitter](cards/N/ne.md#necroskitter), [Village Pillagers](cards/V/vi.md#village-pillagers), [Kulrath Knight](cards/K/ku.md#kulrath-knight)
 
 ### Abilities: ∞
 
@@ -3066,10 +3066,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 25 Oracle cards · 25 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Ravnica Allegiance Promos (2019-01-25)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters." (24 cards, e.g. [[Temperamental Oozewagg]], 2024-06-07)
-- "You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it." (24 cards, e.g. [[Temperamental Oozewagg]], 2024-06-07)
+- "If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters." (24 cards, e.g. [Temperamental Oozewagg](cards/T/te.md#temperamental-oozewagg), 2024-06-07)
+- "You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it." (24 cards, e.g. [Temperamental Oozewagg](cards/T/te.md#temperamental-oozewagg), 2024-06-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Incubation Druid]], [[Evolution Witness]], [[Basking Broodscale]]
+**Examples (Commander-legal; each entry includes its rulings):** [Incubation Druid](cards/I/inc.md#incubation-druid), [Evolution Witness](cards/E/ev.md#evolution-witness), [Basking Broodscale](cards/B/bas.md#basking-broodscale)
 
 #### Airbend
 
@@ -3082,10 +3082,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 13 Oracle cards · 13 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Avatar: The Last Airbender (2025-11-21)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost." (12 cards, e.g. [[Whirlwind Technique]], 2025-10-02)
-- "If a token is exiled by airbend or Airbender Ascension's last ability, it will cease to exist and can't be cast or return to the battlefield." (1 card, e.g. [[Airbender Ascension]], 2025-10-02)
+- "To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost." (12 cards, e.g. [Whirlwind Technique](cards/W/wh.md#whirlwind-technique), 2025-10-02)
+- "If a token is exiled by airbend or Airbender Ascension's last ability, it will cease to exist and can't be cast or return to the battlefield." (1 card, e.g. [Airbender Ascension](cards/A/ai.md#airbender-ascension), 2025-10-02)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Avatar's Wrath]], [[Airbender Ascension]], [[Appa, Steadfast Guardian]]
+**Examples (Commander-legal; each entry includes its rulings):** [Avatar's Wrath](cards/A/av.md#avatars-wrath), [Airbender Ascension](cards/A/ai.md#airbender-ascension), [Appa, Steadfast Guardian](cards/A/ap.md#appa-steadfast-guardian)
 
 #### Amass
 
@@ -3098,10 +3098,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 71 Oracle cards · 71 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): War of the Spark (2019-05-03)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."" (53 cards, e.g. [[Widespread Brutality]], 2023-06-16)
-- "To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types." (31 cards, e.g. [[Warg Rider]], 2023-11-03)
+- "Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."" (53 cards, e.g. [Widespread Brutality](cards/W/wi.md#widespread-brutality), 2023-06-16)
+- "To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types." (31 cards, e.g. [Warg Rider](cards/W/war.md#warg-rider), 2023-11-03)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Orcish Bowmasters]], [[Dreadhorde Invasion]], [[Barad-dûr]]
+**Examples (Commander-legal; each entry includes its rulings):** [Orcish Bowmasters](cards/O/or.md#orcish-bowmasters), [Dreadhorde Invasion](cards/D/dre.md#dreadhorde-invasion), [Barad-dûr](cards/B/bar.md#barad-dûr)
 
 #### Assemble
 
@@ -3114,9 +3114,9 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 25 Oracle cards · 1 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Future Sight (2007-05-04)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets." (2 cards, e.g. [[Widget Contraption]], 2018-01-19)
+- "If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets." (2 cards, e.g. [Widget Contraption](cards/W/wi.md#widget-contraption), 2018-01-19)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Steamflogger Boss]]
+**Examples (Commander-legal; each entry includes its rulings):** [Steamflogger Boss](cards/S/ste.md#steamflogger-boss)
 
 #### Attach
 
@@ -3141,9 +3141,9 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 23 Oracle cards · 23 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Tarkir: Dragonstorm (2025-04-11)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Notably, Celestial Reunion's behold instruction is limited to "creatures." It doesn't allow you to behold kindred cards or kindred permanents, which are permitted for most other behold instructions." (1 card, e.g. [[Celestial Reunion]], 2025-11-17)
+- "Notably, Celestial Reunion's behold instruction is limited to "creatures." It doesn't allow you to behold kindred cards or kindred permanents, which are permitted for most other behold instructions." (1 card, e.g. [Celestial Reunion](cards/C/ce.md#celestial-reunion), 2025-11-17)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Champions of the Perfect]], [[Champion of the Path]], [[Sarkhan, Dragon Ascendant]]
+**Examples (Commander-legal; each entry includes its rulings):** [Champions of the Perfect](cards/C/cha.md#champions-of-the-perfect), [Champion of the Path](cards/C/cha.md#champion-of-the-path), [Sarkhan, Dragon Ascendant](cards/S/sar.md#sarkhan-dragon-ascendant)
 
 #### Blight
 
@@ -3156,10 +3156,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 27 Oracle cards · 26 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Lorwyn Eclipsed (2026-01-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you can't place -1/-1 counters on any creatures you control (probably because you control no creatures), you can't choose to blight." (24 cards, e.g. [[Wild Unraveling]], 2025-11-17)
-- "The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control." (24 cards, e.g. [[Wild Unraveling]], 2025-11-17)
+- "If you can't place -1/-1 counters on any creatures you control (probably because you control no creatures), you can't choose to blight." (24 cards, e.g. [Wild Unraveling](cards/W/wi.md#wild-unraveling), 2025-11-17)
+- "The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control." (24 cards, e.g. [Wild Unraveling](cards/W/wi.md#wild-unraveling), 2025-11-17)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[High Perfect Morcant]], [[Scuzzback Scrounger]], [[Auntie Ool, Cursewretch]]
+**Examples (Commander-legal; each entry includes its rulings):** [High Perfect Morcant](cards/H/hi.md#high-perfect-morcant), [Scuzzback Scrounger](cards/S/sc.md#scuzzback-scrounger), [Auntie Ool, Cursewretch](cards/A/au.md#auntie-ool-cursewretch)
 
 #### Bolster
 
@@ -3172,10 +3172,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 24 Oracle cards · 24 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Fate Reforged (2015-01-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Bolster itself doesn't target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Aven Tactician's bolster ability." (12 cards, e.g. [[Sunbringer's Touch]], 2015-02-25)
-- "You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves. That could be the creature with the bolster ability, if it's still under your control and has the least toughness." (12 cards, e.g. [[Sunbringer's Touch]], 2015-02-25)
+- "Bolster itself doesn't target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Aven Tactician's bolster ability." (12 cards, e.g. [Sunbringer's Touch](cards/S/sun.md#sunbringers-touch), 2015-02-25)
+- "You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves. That could be the creature with the bolster ability, if it's still under your control and has the least toughness." (12 cards, e.g. [Sunbringer's Touch](cards/S/sun.md#sunbringers-touch), 2015-02-25)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Anafenza, Kin-Tree Spirit]], [[Elite Scaleguard]], [[Optimus Prime, Hero // Optimus Prime, Autobot Leader]]
+**Examples (Commander-legal; each entry includes its rulings):** [Anafenza, Kin-Tree Spirit](cards/A/an.md#anafenza-kin-tree-spirit), [Elite Scaleguard](cards/E/el.md#elite-scaleguard), [Optimus Prime, Hero // Optimus Prime, Autobot Leader](cards/O/op.md#optimus-prime-hero--optimus-prime-autobot-leader)
 
 ### Actions: C
 
@@ -3200,10 +3200,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 29 Oracle cards · 29 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Lorwyn (2007-10-12)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If the spell is countered or doesn't resolve for any reason (for example, if all its targets become illegal), none of its effects happen. There is no clash, and the spell card won't be returned to your hand." (6 cards, e.g. [[Titan's Revenge]], 2008-04-01)
-- "If you win the clash, the spell moves from the stack to your hand as part of its resolution. It never hits the graveyard. If you don't win the clash, the spell is put into the graveyard from the stack as normal." (6 cards, e.g. [[Titan's Revenge]], 2008-04-01)
+- "If the spell is countered or doesn't resolve for any reason (for example, if all its targets become illegal), none of its effects happen. There is no clash, and the spell card won't be returned to your hand." (6 cards, e.g. [Titan's Revenge](cards/T/ti.md#titans-revenge), 2008-04-01)
+- "If you win the clash, the spell moves from the stack to your hand as part of its resolution. It never hits the graveyard. If you don't win the clash, the spell is put into the graveyard from the stack as normal." (6 cards, e.g. [Titan's Revenge](cards/T/ti.md#titans-revenge), 2008-04-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Hoarder's Greed]], [[Research the Deep]], [[Revive the Fallen]]
+**Examples (Commander-legal; each entry includes its rulings):** [Hoarder's Greed](cards/H/ho.md#hoarders-greed), [Research the Deep](cards/R/res.md#research-the-deep), [Revive the Fallen](cards/R/rev.md#revive-the-fallen)
 
 #### Cloak
 
@@ -3216,10 +3216,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 9 Oracle cards · 9 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Murders at Karlov Manor (2024-02-09)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "To cloak a card, put it onto the battlefield face down. It becomes a 2/2 face-down creature card with ward {2} and no name, mana cost, or creature types. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn't have or change the characteristics it does have." (9 cards, e.g. [[Become Anonymous]], 2024-07-05)
-- "You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield." (9 cards, e.g. [[Become Anonymous]], 2024-07-05)
+- "To cloak a card, put it onto the battlefield face down. It becomes a 2/2 face-down creature card with ward {2} and no name, mana cost, or creature types. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn't have or change the characteristics it does have." (9 cards, e.g. [Become Anonymous](cards/B/be.md#become-anonymous), 2024-07-05)
+- "You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield." (9 cards, e.g. [Become Anonymous](cards/B/be.md#become-anonymous), 2024-07-05)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Unexplained Absence]], [[Vannifar, Evolved Enigma]], [[Etrata, Deadly Fugitive]]
+**Examples (Commander-legal; each entry includes its rulings):** [Unexplained Absence](cards/U/un.md#unexplained-absence), [Vannifar, Evolved Enigma](cards/V/va.md#vannifar-evolved-enigma), [Etrata, Deadly Fugitive](cards/E/et.md#etrata-deadly-fugitive)
 
 #### Collect Evidence
 
@@ -3232,10 +3232,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 22 Oracle cards · 22 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Murders at Karlov Manor (2024-02-09)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all." (22 cards, e.g. [[Detective's Phoenix]], 2024-06-07)
-- "Evidence Examiner's last ability triggers whenever you collect evidence for any reason, not just when you collect evidence with its first ability." (1 card, e.g. [[Evidence Examiner]], 2024-02-02)
+- "If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all." (22 cards, e.g. [Detective's Phoenix](cards/D/det.md#detectives-phoenix), 2024-06-07)
+- "Evidence Examiner's last ability triggers whenever you collect evidence for any reason, not just when you collect evidence with its first ability." (1 card, e.g. [Evidence Examiner](cards/E/ev.md#evidence-examiner), 2024-02-02)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Analyze the Pollen]], [[Forensic Researcher]], [[Detective's Phoenix]]
+**Examples (Commander-legal; each entry includes its rulings):** [Analyze the Pollen](cards/A/an.md#analyze-the-pollen), [Forensic Researcher](cards/F/fo.md#forensic-researcher), [Detective's Phoenix](cards/D/det.md#detectives-phoenix)
 
 #### Connive
 
@@ -3248,10 +3248,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 50 Oracle cards · 50 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Streets of New Capenna Promos (2022-04-29)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter." (28 cards, e.g. [[Unstable Experiment]], 2025-09-19)
-- "If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger "when [that creature] connives" will trigger." (27 cards, e.g. [[Unstable Experiment]], 2025-09-19)
+- "Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter." (28 cards, e.g. [Unstable Experiment](cards/U/un.md#unstable-experiment), 2025-09-19)
+- "If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger "when [that creature] connives" will trigger." (27 cards, e.g. [Unstable Experiment](cards/U/un.md#unstable-experiment), 2025-09-19)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Ledger Shredder]], [[Spymaster's Vault]], [[Lethal Scheme]]
+**Examples (Commander-legal; each entry includes its rulings):** [Ledger Shredder](cards/L/le.md#ledger-shredder), [Spymaster's Vault](cards/S/spy.md#spymasters-vault), [Lethal Scheme](cards/L/le.md#lethal-scheme)
 
 #### Convert
 
@@ -3264,10 +3264,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 15 Oracle cards · 15 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Transformers (2022-11-18)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Similarly, an ability of another card that instructs you to "transform" one of these cards will cause you to convert it, even if that ability doesn't use the word "convert."" (15 cards, e.g. [[Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier]], 2022-10-14)
-- "The convert keyword action functions the same way as the transform keyword action found on some other cards; to convert a permanent on the battlefield, turn it over so that its other face is up." (15 cards, e.g. [[Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier]], 2022-10-14)
+- "Similarly, an ability of another card that instructs you to "transform" one of these cards will cause you to convert it, even if that ability doesn't use the word "convert."" (15 cards, e.g. [Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier](cards/U/ul.md#ultra-magnus-tactician--ultra-magnus-armored-carrier), 2022-10-14)
+- "The convert keyword action functions the same way as the transform keyword action found on some other cards; to convert a permanent on the battlefield, turn it over so that its other face is up." (15 cards, e.g. [Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier](cards/U/ul.md#ultra-magnus-tactician--ultra-magnus-armored-carrier), 2022-10-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Slicer, Hired Muscle // Slicer, High-Speed Antagonist]], [[Starscream, Power Hungry // Starscream, Seeker Leader]], [[Ratchet, Field Medic // Ratchet, Rescue Racer]]
+**Examples (Commander-legal; each entry includes its rulings):** [Slicer, Hired Muscle // Slicer, High-Speed Antagonist](cards/S/sl.md#slicer-hired-muscle--slicer-high-speed-antagonist), [Starscream, Power Hungry // Starscream, Seeker Leader](cards/S/sta.md#starscream-power-hungry--starscream-seeker-leader), [Ratchet, Field Medic // Ratchet, Rescue Racer](cards/R/rat.md#ratchet-field-medic--ratchet-rescue-racer)
 
 #### Counter
 
@@ -3311,7 +3311,7 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 
 **Cards:** 13 Oracle cards · 12 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Return to Ravnica (2012-10-05)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Tax Collector]], [[Lavinia of the Tenth]], [[Martial Law]]
+**Examples (Commander-legal; each entry includes its rulings):** [Tax Collector](cards/T/ta.md#tax-collector), [Lavinia of the Tenth](cards/L/la.md#lavinia-of-the-tenth), [Martial Law](cards/M/mar.md#martial-law)
 
 #### Discard
 
@@ -3334,10 +3334,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 31 Oracle cards · 30 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): The Lost Caverns of Ixalan (2023-11-17)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves." (27 cards, e.g. [[Long-Range Sensor]], 2025-07-25)
-- "When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand." (27 cards, e.g. [[Long-Range Sensor]], 2025-07-25)
+- "The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves." (27 cards, e.g. [Long-Range Sensor](cards/L/lo.md#long-range-sensor), 2025-07-25)
+- "When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand." (27 cards, e.g. [Long-Range Sensor](cards/L/lo.md#long-range-sensor), 2025-07-25)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Chimil, the Inner Sun]], [[Brass's Tunnel-Grinder // Tecutlan, the Searing Rift]], [[Trumpeting Carnosaur]]
+**Examples (Commander-legal; each entry includes its rulings):** [Chimil, the Inner Sun](cards/C/chi.md#chimil-the-inner-sun), [Brass's Tunnel-Grinder // Tecutlan, the Searing Rift](cards/B/br.md#brasss-tunnel-grinder--tecutlan-the-searing-rift), [Trumpeting Carnosaur](cards/T/tru.md#trumpeting-carnosaur)
 
 #### Double
 
@@ -3350,10 +3350,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 262 Oracle cards · 249 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Ice Age (1995-06-03)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "To double the number of +1/+1 counters on a creature, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly." (8 cards, e.g. [[Turtle Van]], 2026-01-27)
-- "To double the number of +1/+1 counters on a permanent, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly." (8 cards, e.g. [[Ornery Tumblewagg]], 2024-04-12)
+- "To double the number of +1/+1 counters on a creature, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly." (8 cards, e.g. [Turtle Van](cards/T/tu.md#turtle-van), 2026-01-27)
+- "To double the number of +1/+1 counters on a permanent, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly." (8 cards, e.g. [Ornery Tumblewagg](cards/O/or.md#ornery-tumblewagg), 2024-04-12)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Unnatural Growth]], [[Mossborn Hydra]], [[Twinflame Tyrant]]
+**Examples (Commander-legal; each entry includes its rulings):** [Unnatural Growth](cards/U/un.md#unnatural-growth), [Mossborn Hydra](cards/M/mos.md#mossborn-hydra), [Twinflame Tyrant](cards/T/tw.md#twinflame-tyrant)
 
 ### Actions: E
 
@@ -3368,10 +3368,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 36 Oracle cards · 36 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Avatar: The Last Airbender Promos (2025-11-21)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."" (35 cards, e.g. [[Toph, the First Metalbender]], 2025-10-02)
-- "Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless." (35 cards, e.g. [[Toph, the First Metalbender]], 2025-10-02)
+- ""Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."" (35 cards, e.g. [Toph, the First Metalbender](cards/T/to.md#toph-the-first-metalbender), 2025-10-02)
+- "Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless." (35 cards, e.g. [Toph, the First Metalbender](cards/T/to.md#toph-the-first-metalbender), 2025-10-02)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Badgermole Cub]], [[Ba Sing Se]], [[Earthbender Ascension]]
+**Examples (Commander-legal; each entry includes its rulings):** [Badgermole Cub](cards/B/bad.md#badgermole-cub), [Ba Sing Se](cards/B/bas.md#ba-sing-se), [Earthbender Ascension](cards/E/ea.md#earthbender-ascension)
 
 #### Empower Jace
 
@@ -3384,10 +3384,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 35 Oracle cards · 35 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Reality Fracture (2026-10-02)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that." (35 cards, e.g. [[Way of the Wildspeaker]], 2026-08-21)
-- "If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on." (35 cards, e.g. [[Way of the Wildspeaker]], 2026-08-21)
+- "Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that." (35 cards, e.g. [Way of the Wildspeaker](cards/W/way.md#way-of-the-wildspeaker), 2026-08-21)
+- "If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on." (35 cards, e.g. [Way of the Wildspeaker](cards/W/way.md#way-of-the-wildspeaker), 2026-08-21)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Sanctum Lurker]], [[Fatehold Charm]], [[Way of the Pyromancer]]
+**Examples (Commander-legal; each entry includes its rulings):** [Sanctum Lurker](cards/S/san.md#sanctum-lurker), [Fatehold Charm](cards/F/fa.md#fatehold-charm), [Way of the Pyromancer](cards/W/way.md#way-of-the-pyromancer)
 
 #### Endure
 
@@ -3400,10 +3400,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 10 Oracle cards · 10 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Tarkir: Dragonstorm Promos (2025-04-11)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a noncreature permanent is instructed to endure, the effect is the same. You can put +1/+1 counters on that permanent or create a Spirit token." (10 cards, e.g. [[Warden of the Grove]], 2025-04-04)
-- "If you can't put +1/+1 counters on the creature for any reason as an endure ability resolves (for example, if the creature is no longer on the battlefield), you'll just create a Spirit token." (10 cards, e.g. [[Warden of the Grove]], 2025-04-04)
+- "If a noncreature permanent is instructed to endure, the effect is the same. You can put +1/+1 counters on that permanent or create a Spirit token." (10 cards, e.g. [Warden of the Grove](cards/W/war.md#warden-of-the-grove), 2025-04-04)
+- "If you can't put +1/+1 counters on the creature for any reason as an endure ability resolves (for example, if the creature is no longer on the battlefield), you'll just create a Spirit token." (10 cards, e.g. [Warden of the Grove](cards/W/war.md#warden-of-the-grove), 2025-04-04)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Warden of the Grove]], [[Anafenza, Unyielding Lineage]], [[Sinkhole Surveyor]]
+**Examples (Commander-legal; each entry includes its rulings):** [Warden of the Grove](cards/W/war.md#warden-of-the-grove), [Anafenza, Unyielding Lineage](cards/A/an.md#anafenza-unyielding-lineage), [Sinkhole Surveyor](cards/S/si.md#sinkhole-surveyor)
 
 #### Exchange
 
@@ -3426,10 +3426,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 36 Oracle cards · 36 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Amonkhet (2017-04-28)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert's effect preventing it from untapping expires without having done anything." (30 cards, e.g. [[Rohirrim Chargers]], 2023-11-03)
-- "If you gain control of another player's creature until end of turn and exert it, it will untap during that player's untap step." (29 cards, e.g. [[Rohirrim Chargers]], 2023-11-03)
+- "If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert's effect preventing it from untapping expires without having done anything." (30 cards, e.g. [Rohirrim Chargers](cards/R/ro.md#rohirrim-chargers), 2023-11-03)
+- "If you gain control of another player's creature until end of turn and exert it, it will untap during that player's untap step." (29 cards, e.g. [Rohirrim Chargers](cards/R/ro.md#rohirrim-chargers), 2023-11-03)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Arena of Glory]], [[Combat Celebrant]], [[Pride Sovereign]]
+**Examples (Commander-legal; each entry includes its rulings):** [Arena of Glory](cards/A/are.md#arena-of-glory), [Combat Celebrant](cards/C/com.md#combat-celebrant), [Pride Sovereign](cards/P/pr.md#pride-sovereign)
 
 #### Exile
 
@@ -3442,9 +3442,9 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 1 Oracle cards · 1 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Warhammer 40,000 Commander (2022-10-07)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "At the beginning of the end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile it if it eventually leaves the battlefield." (1 card, e.g. [[Canoptek Tomb Sentinel]], 2022-10-07)
+- "At the beginning of the end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile it if it eventually leaves the battlefield." (1 card, e.g. [Canoptek Tomb Sentinel](cards/C/can.md#canoptek-tomb-sentinel), 2022-10-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Canoptek Tomb Sentinel]]
+**Examples (Commander-legal; each entry includes its rulings):** [Canoptek Tomb Sentinel](cards/C/can.md#canoptek-tomb-sentinel)
 
 #### Explore
 
@@ -3457,10 +3457,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 57 Oracle cards · 53 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Ixalan (2017-09-29)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter." (47 cards, e.g. [[Waterwind Scout]], 2023-11-10)
-- "If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate." (45 cards, e.g. [[Waterwind Scout]], 2023-11-10)
+- "Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter." (47 cards, e.g. [Waterwind Scout](cards/W/wat.md#waterwind-scout), 2023-11-10)
+- "If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate." (45 cards, e.g. [Waterwind Scout](cards/W/wat.md#waterwind-scout), 2023-11-10)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Get Lost]], [[Worldwalker Helm]], [[Path of Discovery]]
+**Examples (Commander-legal; each entry includes its rulings):** [Get Lost](cards/G/ge.md#get-lost), [Worldwalker Helm](cards/W/wo.md#worldwalker-helm), [Path of Discovery](cards/P/pa.md#path-of-discovery)
 
 ### Actions: F
 
@@ -3485,9 +3485,9 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 3 Oracle cards · 2 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Future Sight (2007-05-04)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "The opponent chosen for the fateseal action doesn't have to be the player who controlled the target creature." (1 card, e.g. [[Spin into Myth]], 2007-05-01)
+- "The opponent chosen for the fateseal action doesn't have to be the player who controlled the target creature." (1 card, e.g. [Spin into Myth](cards/S/spi.md#spin-into-myth), 2007-05-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Mesmeric Sliver]], [[Spin into Myth]]
+**Examples (Commander-legal; each entry includes its rulings):** [Mesmeric Sliver](cards/M/me.md#mesmeric-sliver), [Spin into Myth](cards/S/spi.md#spin-into-myth)
 
 #### Fight
 
@@ -3500,9 +3500,9 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 153 Oracle cards · 144 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): HarperPrism Book Promos (1994-11-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Although most instants and sorceries that cause damage to be dealt are the sources of that damage, a few cause other objects to deal damage (for example, spells that cause creatures to fight). The first ability of Dromoka's Command won't prevent damage caused by those other sources." (1 card, e.g. [[Dromoka's Command]], 2015-02-25)
+- "Although most instants and sorceries that cause damage to be dealt are the sources of that damage, a few cause other objects to deal damage (for example, spells that cause creatures to fight). The first ability of Dromoka's Command won't prevent damage caused by those other sources." (1 card, e.g. [Dromoka's Command](cards/D/dro.md#dromokas-command), 2015-02-25)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Bridgeworks Battle // Tanglespan Bridgeworks]], [[Brash Taunter]], [[Ezuri's Predation]]
+**Examples (Commander-legal; each entry includes its rulings):** [Bridgeworks Battle // Tanglespan Bridgeworks](cards/B/br.md#bridgeworks-battle--tanglespan-bridgeworks), [Brash Taunter](cards/B/br.md#brash-taunter), [Ezuri's Predation](cards/E/ez.md#ezuris-predation)
 
 #### Forage
 
@@ -3515,10 +3515,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 8 Oracle cards · 7 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Bloomburrow (2024-08-02)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you don't have enough cards in your graveyard or a Food on the battlefield, you can't choose to forage." (5 cards, e.g. [[Treetop Sentries]], 2024-07-26)
-- "You decide whether to forage or not as Bushy Bodyguard's last ability resolves. Once that ability starts resolving, it's too late for any player to respond before Bushy Bodyguard gets the +1/+1 counters if you foraged." (1 card, e.g. [[Bushy Bodyguard]], 2024-07-26)
+- "If you don't have enough cards in your graveyard or a Food on the battlefield, you can't choose to forage." (5 cards, e.g. [Treetop Sentries](cards/T/tre.md#treetop-sentries), 2024-07-26)
+- "You decide whether to forage or not as Bushy Bodyguard's last ability resolves. Once that ability starts resolving, it's too late for any player to respond before Bushy Bodyguard gets the +1/+1 counters if you foraged." (1 card, e.g. [Bushy Bodyguard](cards/B/bu.md#bushy-bodyguard), 2024-07-26)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Camellia, the Seedmiser]], [[Thornvault Forager]], [[Feed the Cycle]]
+**Examples (Commander-legal; each entry includes its rulings):** [Camellia, the Seedmiser](cards/C/cam.md#camellia-the-seedmiser), [Thornvault Forager](cards/T/tho.md#thornvault-forager), [Feed the Cycle](cards/F/fe.md#feed-the-cycle)
 
 ### Actions: G
 
@@ -3533,10 +3533,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 85 Oracle cards · 80 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Conspiracy: Take the Crown (2016-08-26)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks." (26 cards, e.g. [[Killian, Decisive Mentor]], 2026-03-20)
-- "Attacking with a goaded creature doesn't cause it to stop being goaded. If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks." (1 card, e.g. [[Ghoulish Impetus]], 2023-07-28)
+- "If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks." (26 cards, e.g. [Killian, Decisive Mentor](cards/K/ki.md#killian-decisive-mentor), 2026-03-20)
+- "Attacking with a goaded creature doesn't cause it to stop being goaded. If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks." (1 card, e.g. [Ghoulish Impetus](cards/G/gh.md#ghoulish-impetus), 2023-07-28)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Disrupt Decorum]], [[Shiny Impetus]], [[Grenzo, Havoc Raiser]]
+**Examples (Commander-legal; each entry includes its rulings):** [Disrupt Decorum](cards/D/di.md#disrupt-decorum), [Shiny Impetus](cards/S/shi.md#shiny-impetus), [Grenzo, Havoc Raiser](cards/G/gre.md#grenzo-havoc-raiser)
 
 ### Actions: H
 
@@ -3560,7 +3560,7 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 
 **Cards:** 33 Oracle cards · 33 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Limited Edition Alpha (1993-08-05)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Asceticism]], [[Experiment One]], [[Sedge Sliver]]
+**Examples (Commander-legal; each entry includes its rulings):** [Asceticism](cards/A/as.md#asceticism), [Experiment One](cards/E/ex.md#experiment-one), [Sedge Sliver](cards/S/sed.md#sedge-sliver)
 
 ### Actions: I
 
@@ -3575,9 +3575,9 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 36 Oracle cards · 33 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): March of the Machine (2023-04-21)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "For the first mode, if the nontoken artifact or enchantment is an illegal target at the time Sunder the Gateway tries to resolve, it won't resolve and none of its effects will happen. You won't incubate." (1 card, e.g. [[Sunder the Gateway]], 2023-04-14)
+- "For the first mode, if the nontoken artifact or enchantment is an illegal target at the time Sunder the Gateway tries to resolve, it won't resolve and none of its effects will happen. You won't incubate." (1 card, e.g. [Sunder the Gateway](cards/S/sun.md#sunder-the-gateway), 2023-04-14)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Sunfall]], [[Chrome Host Seedshark]], [[Elesh Norn // The Argent Etchings]]
+**Examples (Commander-legal; each entry includes its rulings):** [Sunfall](cards/S/sun.md#sunfall), [Chrome Host Seedshark](cards/C/chr.md#chrome-host-seedshark), [Elesh Norn // The Argent Etchings](cards/E/el.md#elesh-norn--the-argent-etchings)
 
 #### Investigate
 
@@ -3590,10 +3590,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 143 Oracle cards · 134 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Shadows over Innistrad Promos (2016-04-08)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens." (62 cards, e.g. [[Wojek Investigator]], 2024-02-02)
-- "You can't cast a spell without choosing legal targets. If all of those targets become illegal, the spell doesn't resolve and you won't investigate." (8 cards, e.g. [[Survive the Night]], 2016-04-08)
+- "Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens." (62 cards, e.g. [Wojek Investigator](cards/W/wo.md#wojek-investigator), 2024-02-02)
+- "You can't cast a spell without choosing legal targets. If all of those targets become illegal, the spell doesn't resolve and you won't investigate." (8 cards, e.g. [Survive the Night](cards/S/sur.md#survive-the-night), 2016-04-08)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Tireless Tracker]], [[Forensic Gadgeteer]], [[Tamiyo's Journal]]
+**Examples (Commander-legal; each entry includes its rulings):** [Tireless Tracker](cards/T/ti.md#tireless-tracker), [Forensic Gadgeteer](cards/F/fo.md#forensic-gadgeteer), [Tamiyo's Journal](cards/T/ta.md#tamiyos-journal)
 
 ### Actions: L
 
@@ -3608,10 +3608,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 21 Oracle cards · 21 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Strixhaven: School of Mages (2021-04-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional." (21 cards, e.g. [[Study Break]], 2021-04-16)
-- "Retriever Phoenix must be in your graveyard at the moment you're instructed to learn if you want to use the last ability to return it to the battlefield." (1 card, e.g. [[Retriever Phoenix]], 2021-04-16)
+- "If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional." (21 cards, e.g. [Study Break](cards/S/stu.md#study-break), 2021-04-16)
+- "Retriever Phoenix must be in your graveyard at the moment you're instructed to learn if you want to use the last ability to return it to the battlefield." (1 card, e.g. [Retriever Phoenix](cards/R/ret.md#retriever-phoenix), 2021-04-16)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[First Day of Class]], [[Eyetwitch]], [[Divide by Zero]]
+**Examples (Commander-legal; each entry includes its rulings):** [First Day of Class](cards/F/fi.md#first-day-of-class), [Eyetwitch](cards/E/ey.md#eyetwitch), [Divide by Zero](cards/D/di.md#divide-by-zero)
 
 ### Actions: M
 
@@ -3626,10 +3626,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 61 Oracle cards · 58 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Ugin's Fate (2015-01-17)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything." (30 cards, e.g. [[Zimone, Mystery Unraveler]], 2024-09-20)
-- "Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger." (30 cards, e.g. [[Zimone, Mystery Unraveler]], 2024-09-20)
+- "If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything." (30 cards, e.g. [Zimone, Mystery Unraveler](cards/Z/zi.md#zimone-mystery-unraveler), 2024-09-20)
+- "Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger." (30 cards, e.g. [Zimone, Mystery Unraveler](cards/Z/zi.md#zimone-mystery-unraveler), 2024-09-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Reality Shift]], [[Kozilek, the Broken Reality]], [[Orochi Soul-Reaver]]
+**Examples (Commander-legal; each entry includes its rulings):** [Reality Shift](cards/R/rea.md#reality-shift), [Kozilek, the Broken Reality](cards/K/ko.md#kozilek-the-broken-reality), [Orochi Soul-Reaver](cards/O/or.md#orochi-soul-reaver)
 
 #### Manifest Dread
 
@@ -3642,10 +3642,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 30 Oracle cards · 30 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Duskmourn: House of Horror Promos (2024-09-27)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything." (30 cards, e.g. [[Zimone, Mystery Unraveler]], 2024-09-20)
-- "Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger." (30 cards, e.g. [[Zimone, Mystery Unraveler]], 2024-09-20)
+- "If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything." (30 cards, e.g. [Zimone, Mystery Unraveler](cards/Z/zi.md#zimone-mystery-unraveler), 2024-09-20)
+- "Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger." (30 cards, e.g. [Zimone, Mystery Unraveler](cards/Z/zi.md#zimone-mystery-unraveler), 2024-09-20)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Abhorrent Oculus]], [[They Came from the Pipes]], [[Hauntwoods Shrieker]]
+**Examples (Commander-legal; each entry includes its rulings):** [Abhorrent Oculus](cards/A/ab.md#abhorrent-oculus), [They Came from the Pipes](cards/T/they.md#they-came-from-the-pipes), [Hauntwoods Shrieker](cards/H/ha.md#hauntwoods-shrieker)
 
 #### Meld
 
@@ -3658,10 +3658,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 7 Oracle cards · 7 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Eldritch Moon (2016-07-22)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "In the Commander variant, a meld card's color identity is determined only by the mana costs and mana symbols in the rules text of its front face. No symbols or rules text of the permanent it melds into are considered." (4 cards, e.g. [[Vanille, Cheerful l'Cie]], 2025-06-06)
-- "Only two cards belonging to the same meld pair can be melded. Tokens, cards that aren't meld cards, or meld cards that don't form a meld pair can't be melded. If an effect instructs a player to meld cards that can't be melded, those cards remain in exile." (4 cards, e.g. [[Vanille, Cheerful l'Cie]], 2025-06-06)
+- "In the Commander variant, a meld card's color identity is determined only by the mana costs and mana symbols in the rules text of its front face. No symbols or rules text of the permanent it melds into are considered." (4 cards, e.g. [Vanille, Cheerful l'Cie](cards/V/va.md#vanille-cheerful-lcie), 2025-06-06)
+- "Only two cards belonging to the same meld pair can be melded. Tokens, cards that aren't meld cards, or meld cards that don't form a meld pair can't be melded. If an effect instructs a player to meld cards that can't be melded, those cards remain in exile." (4 cards, e.g. [Vanille, Cheerful l'Cie](cards/V/va.md#vanille-cheerful-lcie), 2025-06-06)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Gisela, the Broken Blade]], [[Hanweir Battlements]], [[Titania, Voice of Gaea]]
+**Examples (Commander-legal; each entry includes its rulings):** [Gisela, the Broken Blade](cards/G/gi.md#gisela-the-broken-blade), [Hanweir Battlements](cards/H/ha.md#hanweir-battlements), [Titania, Voice of Gaea](cards/T/ti.md#titania-voice-of-gaea)
 
 #### Mill
 
@@ -3674,10 +3674,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 607 Oracle cards · 581 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Antiquities (1994-03-04)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you don't have at least two cards in your library, you can't choose to mill two cards." (5 cards, e.g. [[Visage of Dread // Dread Osseosaur]], 2023-11-10)
-- "An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Bilbo, Luckwearer is a blue creature card whose mana value is 2. It can't be put into your hand by the effect of Speak Secrets ("Mill four cards, then put an instant or sorcery card from among them into your hand.")." (3 cards, e.g. [[Thranduil, Sindarin Liege // Silvan Rally]], 2026-06-29)
+- "If you don't have at least two cards in your library, you can't choose to mill two cards." (5 cards, e.g. [Visage of Dread // Dread Osseosaur](cards/V/vi.md#visage-of-dread--dread-osseosaur), 2023-11-10)
+- "An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Bilbo, Luckwearer is a blue creature card whose mana value is 2. It can't be put into your hand by the effect of Speak Secrets ("Mill four cards, then put an instant or sorcery card from among them into your hand.")." (3 cards, e.g. [Thranduil, Sindarin Liege // Silvan Rally](cards/T/thr.md#thranduil-sindarin-liege--silvan-rally), 2026-06-29)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Takenuma, Abandoned Mire]], [[Syr Konrad, the Grim]], [[Six]]
+**Examples (Commander-legal; each entry includes its rulings):** [Takenuma, Abandoned Mire](cards/T/ta.md#takenuma-abandoned-mire), [Syr Konrad, the Grim](cards/S/sy.md#syr-konrad-the-grim), [Six](cards/S/si.md#six)
 
 #### Monstrosity
 
@@ -3690,10 +3690,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 37 Oracle cards · 37 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Duel Decks: Heroes vs. Monsters (2013-09-06)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens." (30 cards, e.g. [[Maester Seymour]], 2025-06-06)
-- "An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves." (27 cards, e.g. [[Alpha Deathclaw]], 2024-03-08)
+- "Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens." (30 cards, e.g. [Maester Seymour](cards/M/mae.md#maester-seymour), 2025-06-06)
+- "An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves." (27 cards, e.g. [Alpha Deathclaw](cards/A/al.md#alpha-deathclaw), 2024-03-08)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Giggling Skitterspike]], [[Maester Seymour]], [[Hydra Broodmaster]]
+**Examples (Commander-legal; each entry includes its rulings):** [Giggling Skitterspike](cards/G/gi.md#giggling-skitterspike), [Maester Seymour](cards/M/mae.md#maester-seymour), [Hydra Broodmaster](cards/H/hy.md#hydra-broodmaster)
 
 ### Actions: O
 
@@ -3708,9 +3708,9 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 46 Oracle cards · 21 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Unfinity (2022-10-07)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "No matter which two modes you choose, you always follow the instructions in the order they're written. You'll open an Attraction before rolling to visit them, if applicable, and similarly you'll get tickets before you may put a sticker on a nonland permanent you own." (1 card, e.g. [[Command Performance]], 2022-10-07)
+- "No matter which two modes you choose, you always follow the instructions in the order they're written. You'll open an Attraction before rolling to visit them, if applicable, and similarly you'll get tickets before you may put a sticker on a nonland permanent you own." (1 card, e.g. [Command Performance](cards/C/com.md#command-performance), 2022-10-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Command Performance]], [[Monitor Monitor]], [[Myra the Magnificent]]
+**Examples (Commander-legal; each entry includes its rulings):** [Command Performance](cards/C/com.md#command-performance), [Monitor Monitor](cards/M/mon.md#monitor-monitor), [Myra the Magnificent](cards/M/my.md#myra-the-magnificent)
 
 ### Actions: P
 
@@ -3735,9 +3735,9 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 2 Oracle cards · 1 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Unknown Event (2023-09-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If one of the exiled cards is a land card, you may play it only if you have an available land play remaining this turn." (1 card, e.g. [[Urianger Augurelt]], 2025-06-06)
+- "If one of the exiled cards is a land card, you may play it only if you have an available land play remaining this turn." (1 card, e.g. [Urianger Augurelt](cards/U/ur.md#urianger-augurelt), 2025-06-06)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Urianger Augurelt]]
+**Examples (Commander-legal; each entry includes its rulings):** [Urianger Augurelt](cards/U/ur.md#urianger-augurelt)
 
 #### Populate
 
@@ -3750,10 +3750,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 27 Oracle cards · 26 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Return to Ravnica (2012-10-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If you control no creature tokens when you populate, nothing will happen." (26 cards, e.g. [[Muster the Departed]], 2024-06-07)
-- "Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control." (24 cards, e.g. [[Xavier Sal, Infested Captain]], 2024-01-12)
+- "If you control no creature tokens when you populate, nothing will happen." (26 cards, e.g. [Muster the Departed](cards/M/mu.md#muster-the-departed), 2024-06-07)
+- "Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control." (24 cards, e.g. [Xavier Sal, Infested Captain](cards/X/xa.md#xavier-sal-infested-captain), 2024-01-12)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Rootborn Defenses]], [[Sundering Growth]], [[Trostani, Selesnya's Voice]]
+**Examples (Commander-legal; each entry includes its rulings):** [Rootborn Defenses](cards/R/ro.md#rootborn-defenses), [Sundering Growth](cards/S/sun.md#sundering-growth), [Trostani, Selesnya's Voice](cards/T/tro.md#trostani-selesnyas-voice)
 
 #### Proliferate
 
@@ -3766,10 +3766,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 102 Oracle cards · 96 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Duel Decks: Elspeth vs. Tezzeret (2010-09-03)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so." (64 cards, e.g. [[Tam, the Possibility]], 2026-08-21)
-- "To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them." (64 cards, e.g. [[Tam, the Possibility]], 2026-08-21)
+- "An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so." (64 cards, e.g. [Tam, the Possibility](cards/T/ta.md#tam-the-possibility), 2026-08-21)
+- "To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them." (64 cards, e.g. [Tam, the Possibility](cards/T/ta.md#tam-the-possibility), 2026-08-21)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Karn's Bastion]], [[Evolution Sage]], [[Cankerbloom]]
+**Examples (Commander-legal; each entry includes its rulings):** [Karn's Bastion](cards/K/ka.md#karns-bastion), [Evolution Sage](cards/E/ev.md#evolution-sage), [Cankerbloom](cards/C/can.md#cankerbloom)
 
 ### Actions: R
 
@@ -3784,9 +3784,9 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 10 Oracle cards · 10 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): The Hobbit (2026-08-14)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Once a spell or ability that causes you to recruit begins to resolve, no player may take any other actions until it's done. Any responses made to the spell or ability must be made before you draw, discard, and potentially create a token." (10 cards, e.g. [[The Queen of Dale]], 2026-06-29)
+- "Once a spell or ability that causes you to recruit begins to resolve, no player may take any other actions until it's done. Any responses made to the spell or ability must be made before you draw, discard, and potentially create a token." (10 cards, e.g. [The Queen of Dale](cards/T/theq.md#the-queen-of-dale), 2026-06-29)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[The Queen of Dale]], [[Celebrate the Mountain-king]], [[Bard's Company]]
+**Examples (Commander-legal; each entry includes its rulings):** [The Queen of Dale](cards/T/theq.md#the-queen-of-dale), [Celebrate the Mountain-king](cards/C/ce.md#celebrate-the-mountain-king), [Bard's Company](cards/B/bar.md#bards-company)
 
 #### Regenerate
 
@@ -3799,9 +3799,9 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 274 Oracle cards · 271 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Limited Edition Alpha (1993-08-05)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A creature with indestructible never needs to regenerate, so Debt of Loyalty will have no effect on it." (1 card, e.g. [[Debt of Loyalty]], 2013-07-01)
+- "A creature with indestructible never needs to regenerate, so Debt of Loyalty will have no effect on it." (1 card, e.g. [Debt of Loyalty](cards/D/deb.md#debt-of-loyalty), 2013-07-01)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Nightscape Familiar]], [[Asceticism]], [[Dawn Charm]]
+**Examples (Commander-legal; each entry includes its rulings):** [Nightscape Familiar](cards/N/ni.md#nightscape-familiar), [Asceticism](cards/A/as.md#asceticism), [Dawn Charm](cards/D/da.md#dawn-charm)
 
 #### Reveal
 
@@ -3823,7 +3823,7 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 
 **Cards:** 3 Oracle cards · 3 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Unfinity (2022-10-07)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Command Performance]], [["Lifetime" Pass Holder]], [[Line Cutter]]
+**Examples (Commander-legal; each entry includes its rulings):** [Command Performance](cards/C/com.md#command-performance), ["Lifetime" Pass Holder](cards/L/li.md#lifetime-pass-holder), [Line Cutter](cards/L/li.md#line-cutter)
 
 ### Actions: S
 
@@ -3848,10 +3848,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 448 Oracle cards · 425 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Alliances (1996-06-10)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry." (45 cards, e.g. [[Witches' Eye]], 2013-09-15)
-- "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom." (45 cards, e.g. [[Witches' Eye]], 2013-09-15)
+- "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry." (45 cards, e.g. [Witches' Eye](cards/W/wi.md#witches-eye), 2013-09-15)
+- "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom." (45 cards, e.g. [Witches' Eye](cards/W/wi.md#witches-eye), 2013-09-15)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Path of Ancestry]], [[Viscera Seer]], [[Temple of Silence]]
+**Examples (Commander-legal; each entry includes its rulings):** [Path of Ancestry](cards/P/pa.md#path-of-ancestry), [Viscera Seer](cards/V/vi.md#viscera-seer), [Temple of Silence](cards/T/te.md#temple-of-silence)
 
 #### Search
 
@@ -3894,10 +3894,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 20 Oracle cards · 19 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Oath of the Gatewatch Promos (2016-01-22)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature." (15 cards, e.g. [[Together Forever]], 2018-06-08)
-- "You can't put more than one +1/+1 counter on any one target using the support action." (15 cards, e.g. [[Together Forever]], 2018-06-08)
+- "If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature." (15 cards, e.g. [Together Forever](cards/T/to.md#together-forever), 2018-06-08)
+- "You can't put more than one +1/+1 counter on any one target using the support action." (15 cards, e.g. [Together Forever](cards/T/to.md#together-forever), 2018-06-08)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Together Forever]], [[Generous Patron]], [[Gladehart Cavalry]]
+**Examples (Commander-legal; each entry includes its rulings):** [Together Forever](cards/T/to.md#together-forever), [Generous Patron](cards/G/ge.md#generous-patron), [Gladehart Cavalry](cards/G/gl.md#gladehart-cavalry)
 
 #### Surveil
 
@@ -3910,10 +3910,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 261 Oracle cards · 252 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Odyssey (2001-10-01)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it." (31 cards, e.g. [[Way of the Wildspeaker]], 2026-08-21)
-- "When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard." (28 cards, e.g. [[Sword of Once and Future]], 2024-01-12)
+- "To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it." (31 cards, e.g. [Way of the Wildspeaker](cards/W/way.md#way-of-the-wildspeaker), 2026-08-21)
+- "When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard." (28 cards, e.g. [Sword of Once and Future](cards/S/sw.md#sword-of-once-and-future), 2024-01-12)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Consider]], [[Arid Archway]], [[Doom Whisperer]]
+**Examples (Commander-legal; each entry includes its rulings):** [Consider](cards/C/con.md#consider), [Arid Archway](cards/A/ari.md#arid-archway), [Doom Whisperer](cards/D/do.md#doom-whisperer)
 
 #### Suspect
 
@@ -3926,9 +3926,9 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 19 Oracle cards · 19 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Murders at Karlov Manor (2024-02-09)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "You can't cast Reasonable Doubt just to suspect a creature. There has to be a spell on the stack that's a legal target for Reasonable Doubt." (1 card, e.g. [[Reasonable Doubt]], 2024-02-02)
+- "You can't cast Reasonable Doubt just to suspect a creature. There has to be a spell on the stack that's a legal target for Reasonable Doubt." (1 card, e.g. [Reasonable Doubt](cards/R/rea.md#reasonable-doubt), 2024-02-02)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Nelly Borca, Impulsive Accuser]], [[Barbed Servitor]], [[Hot Pursuit]]
+**Examples (Commander-legal; each entry includes its rulings):** [Nelly Borca, Impulsive Accuser](cards/N/ne.md#nelly-borca-impulsive-accuser), [Barbed Servitor](cards/B/bar.md#barbed-servitor), [Hot Pursuit](cards/H/ho.md#hot-pursuit)
 
 ### Actions: T
 
@@ -3963,9 +3963,9 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 9 Oracle cards · 9 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Doctor Who (2023-10-13)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "To time travel, look at each permanent you control with a time counter on it and each suspended card you own in exile with a time counter on it. For each of them, you choose whether you want to put a time counter on that card or permanent, remove a time counter from it, or do neither. Then those changes all happen simultaneously." (9 cards, e.g. [[Wibbly-wobbly, Timey-wimey]], 2023-10-13)
+- "To time travel, look at each permanent you control with a time counter on it and each suspended card you own in exile with a time counter on it. For each of them, you choose whether you want to put a time counter on that card or permanent, remove a time counter from it, or do neither. Then those changes all happen simultaneously." (9 cards, e.g. [Wibbly-wobbly, Timey-wimey](cards/W/wi.md#wibbly-wobbly-timey-wimey), 2023-10-13)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[The Tenth Doctor]], [[Time Beetle]], [[Wibbly-wobbly, Timey-wimey]]
+**Examples (Commander-legal; each entry includes its rulings):** [The Tenth Doctor](cards/T/thet.md#the-tenth-doctor), [Time Beetle](cards/T/ti.md#time-beetle), [Wibbly-wobbly, Timey-wimey](cards/W/wi.md#wibbly-wobbly-timey-wimey)
 
 #### Transform
 
@@ -3978,10 +3978,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 435 Oracle cards · 424 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Innistrad Promos (2011-09-24)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so." (34 cards, e.g. [[Trystan, Callous Cultivator // Trystan, Penitent Culler]], 2025-11-17)
-- "Double-faced permanents with daybound transform to their nightbound faces as it becomes night. Similarly, double-faced permanents with nightbound transform to their daybound faces as it becomes day. This happens immediately and is not a state-based action. It happens any time it becomes day or night, not just during the untap step." (22 cards, e.g. [[Werewhat]], 2024-11-08)
+- "A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so." (34 cards, e.g. [Trystan, Callous Cultivator // Trystan, Penitent Culler](cards/T/try.md#trystan-callous-cultivator--trystan-penitent-culler), 2025-11-17)
+- "Double-faced permanents with daybound transform to their nightbound faces as it becomes night. Similarly, double-faced permanents with nightbound transform to their daybound faces as it becomes day. This happens immediately and is not a state-based action. It happens any time it becomes day or night, not just during the untap step." (22 cards, e.g. [Werewhat](cards/W/we.md#werewhat), 2024-11-08)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun]], [[Etali, Primal Conqueror // Etali, Primal Sickness]], [[Ojer Taq, Deepest Foundation // Temple of Civilization]]
+**Examples (Commander-legal; each entry includes its rulings):** [Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun](cards/G/gro.md#growing-rites-of-itlimoc--itlimoc-cradle-of-the-sun), [Etali, Primal Conqueror // Etali, Primal Sickness](cards/E/et.md#etali-primal-conqueror--etali-primal-sickness), [Ojer Taq, Deepest Foundation // Temple of Civilization](cards/O/oj.md#ojer-taq-deepest-foundation--temple-of-civilization)
 
 #### Triple
 
@@ -3994,9 +3994,9 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 6 Oracle cards · 5 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Core Set 2021 (2020-07-03)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "To double a creature's power and toughness, that creature gets +X/+Y, where X is that creature's power and Y is that creature's toughness when Tifa's Limit Break resolves. To triple a creature's power, that creature gets +X/+Y, where X is twice that creature's power and Y is twice that creature's toughness when Tifa's Limit Break resolves." (1 card, e.g. [[Tifa's Limit Break]], 2025-06-06)
+- "To double a creature's power and toughness, that creature gets +X/+Y, where X is that creature's power and Y is that creature's toughness when Tifa's Limit Break resolves. To triple a creature's power, that creature gets +X/+Y, where X is twice that creature's power and Y is twice that creature's toughness when Tifa's Limit Break resolves." (1 card, e.g. [Tifa's Limit Break](cards/T/ti.md#tifas-limit-break), 2025-06-06)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Fiery Emancipation]], [[City on Fire]], [[Tifa's Limit Break]]
+**Examples (Commander-legal; each entry includes its rulings):** [Fiery Emancipation](cards/F/fi.md#fiery-emancipation), [City on Fire](cards/C/ci.md#city-on-fire), [Tifa's Limit Break](cards/T/ti.md#tifas-limit-break)
 
 ### Actions: V
 
@@ -4011,10 +4011,10 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 38 Oracle cards · 38 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Adventures in the Forgotten Realms (2021-07-23)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- "Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered." (36 cards, e.g. [[Zombie Ogre]], 2021-07-23)
-- "Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon." (36 cards, e.g. [[Zombie Ogre]], 2021-07-23)
+- "Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered." (36 cards, e.g. [Zombie Ogre](cards/Z/zo.md#zombie-ogre), 2021-07-23)
+- "Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon." (36 cards, e.g. [Zombie Ogre](cards/Z/zo.md#zombie-ogre), 2021-07-23)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[Acererak the Archlich]], [[Nadaar, Selfless Paladin]], [[Radiant Solar]]
+**Examples (Commander-legal; each entry includes its rulings):** [Acererak the Archlich](cards/A/ac.md#acererak-the-archlich), [Nadaar, Selfless Paladin](cards/N/na.md#nadaar-selfless-paladin), [Radiant Solar](cards/R/rad.md#radiant-solar)
 
 #### Vote
 
@@ -4039,8 +4039,8 @@ Jump: [A](#actions-a) · [B](#actions-b) · [C](#actions-c) · [D](#actions-d) �
 **Cards:** 28 Oracle cards · 28 Commander-legal · earliest Scryfall printing of a card that has it now (includes Oracle errata): Avatar: The Last Airbender (2025-11-21)
 
 **Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):
-- ""Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."" (27 cards, e.g. [[Yue, the Moon Spirit]], 2025-10-02)
-- "Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost." (27 cards, e.g. [[Yue, the Moon Spirit]], 2025-10-02)
+- ""Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."" (27 cards, e.g. [Yue, the Moon Spirit](cards/Y/yu.md#yue-the-moon-spirit), 2025-10-02)
+- "Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost." (27 cards, e.g. [Yue, the Moon Spirit](cards/Y/yu.md#yue-the-moon-spirit), 2025-10-02)
 
-**Examples (Commander-legal; each entry includes its rulings):** [[The Unagi of Kyoshi Island]], [[Spirit Water Revival]], [[Aang, Swift Savior // Aang and La, Ocean's Fury]]
+**Examples (Commander-legal; each entry includes its rulings):** [The Unagi of Kyoshi Island](cards/T/theu.md#the-unagi-of-kyoshi-island), [Spirit Water Revival](cards/S/spi.md#spirit-water-revival), [Aang, Swift Savior // Aang and La, Ocean's Fury](cards/A/aa.md#aang-swift-savior--aang-and-la-oceans-fury)
 

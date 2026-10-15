@@ -230,6 +230,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2241 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2008-08-01* — When Glacial Chasm's "enters" ability resolves, if you don't control any other lands, you must sacrifice Glacial Chasm itself.
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/G.md#glacial-chasm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/229/glacial-chasm) · oracle_id `73e7a2ad-d11c-4867-b97d-f971809da778` · printing: ME2 #229 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glacial Crasher
@@ -312,6 +313,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — As this is entering, it checks for lands that are already on the battlefield. It won't see lands that are entering at the same time (due to Warp World, for example).
   - *2009-10-01* — This checks for lands you control with the land type Plains or Island, not for lands named Plains or Island. The lands it checks for don't have to be basic lands. For example, if you control Watery Grave (a nonbasic land with the land types Island and Swamp), Glacial Fortress will enter untapped.
+- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 card data) → [reverse index](../../references/G.md#glacial-fortress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/73/glacial-fortress) · oracle_id `027dd013-baa7-4111-b3c9-f4d1414e9c45` · printing: FRC #73 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glacial Grasp
@@ -405,6 +407,7 @@ schema: 2
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11336 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glacial-wall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/53/glacial-wall) · oracle_id `7fcf8faa-2c93-4dc8-aa56-6fc40340e212` · printing: EMA #53 (2016-06-10) · [rulings](https://api.scryfall.com/cards/c059330e-1aef-4d22-b3c2-cd84cab5fe38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glacian, Powerstone Engineer
@@ -444,6 +447,7 @@ schema: 2
 - **Keywords:** Trample, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4887 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glacier-godmaw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/188/glacier-godmaw) · oracle_id `300e48df-7f7f-47ff-b450-8ba7bd1b1c67` · printing: EOE #188 (2025-08-01) · [rulings](https://api.scryfall.com/cards/d3291c51-e963-4970-813d-9a06a47aa71e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glaciers
@@ -476,6 +480,7 @@ schema: 2
   - *2025-04-04* — Glacierwood Siege’s Sultai ability doesn’t allow you to activate abilities (such as cycling) of land cards in your graveyard.
   - *2025-04-04* — Glacierwood Siege’s Sultai ability doesn’t change the times when you can play those land cards. You can still play only one land per turn, and only during your main phase when you have priority and the stack is empty.
   - *2025-04-04* — If you somehow control Glacierwood Siege and no choice was made for it (perhaps because another permanent on the battlefield became a copy of it), it has neither of the two abilities.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#glacierwood-siege)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/189/glacierwood-siege) · oracle_id `295a831c-490e-42ba-afc1-dab3524a4f0c` · printing: TDM #189 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gladecover Scout
@@ -522,6 +527,7 @@ schema: 2
   - *2016-01-22* — Support can target a creature you don’t control.
   - *2016-01-22* — You can’t put more than one +1/+1 counter on any one target using the support action.
   - *2016-01-22* — You gain 2 life per creature, not per +1/+1 counter.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#gladehart-cavalry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddu/11/gladehart-cavalry) · oracle_id `4d937ea3-bfd4-4cdf-b722-08f2b99ea2a5` · printing: DDU #11 (2018-04-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glademuse
@@ -557,6 +563,7 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — You don’t have to pay the mana cost if a spell or ability lets you put Glade of the Pump Spells onto the battlefield, such as with the activated ability of Elvish Reclaimer.
   - *2024-11-08* — You still follow all of the normal timing rules for playing a land as a special action when you play Glade of the Pump Spells. You just have to pay {2}{G} in addition to all of the other requirements as you do so.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glade-of-the-pump-spells)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/576/glade-of-the-pump-spells) · oracle_id `7bf6cb04-a987-4f8f-a070-7ba801ab01ac` · printing: MB2 #576 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gladewalker Ritualist
@@ -636,6 +643,7 @@ schema: 2
   - *2023-06-16* — If the spell has {X} in its mana cost, you must choose 0 as the value of X.
   - *2023-06-16* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2023-06-16* — If you cast a spell using Glamdring's triggered ability, you do so as part of the resolution of the ability. You can't wait to cast the spell later in the turn. Timing permissions based on the card's type are ignored.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glamdring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/239/glamdring) · oracle_id `52826984-44cb-48dc-a737-bb02983ffea8` · printing: LTR #239 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glamdring, Foe-hammer // Gleam of Death
@@ -668,6 +676,7 @@ schema: 2
   - *2026-06-29* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Glamdring, Foe-hammer). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
   - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glamdring-foe-hammer--gleam-of-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/174/glamdring-foe-hammer-gleam-of-death) · oracle_id `2802069f-201e-43a7-b5d3-43a95951a2ec` · printing: HOB #174 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glamerdye
@@ -791,6 +800,7 @@ schema: 2
   - *2024-07-26* — If the top card of your library has {X} in its mana cost, you must choose a value of X that makes that spell's mana value 4 or greater in order to cast it.
   - *2024-07-26* — You can look at the top card of your library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
   - *2024-07-26* — You must pay all costs and follow all timing rules for lands played and spells cast from the top of your library this way.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/G.md#glarb-calamitys-augur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/215/glarb-calamitys-augur) · oracle_id `df9409e6-bd6d-4b5b-b807-fcf347ee940a` · printing: BLB #215 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glarecaster
@@ -872,6 +882,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1199 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-06-07* — Glaring Fleshraker's first ability goes on the stack above the spell that caused it to trigger and resolves first. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/G.md#glaring-fleshraker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/7/glaring-fleshraker) · oracle_id `0ffce5e0-6b1d-4d1a-9318-1a1a219df532` · printing: MH3 #7 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glaring Spotlight
@@ -938,6 +949,7 @@ schema: 2
   - *2023-09-01* — Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
   - *2023-09-01* — If Glass Casket leaves the battlefield before its triggered ability resolves, the target creature won't be exiled.
   - *2023-09-01* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#glass-casket)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/16/glass-casket) · oracle_id `d9167046-7908-4d16-8cc1-3eb02d1ba547` · printing: WOE #16 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glass-Cast Heart
@@ -953,6 +965,7 @@ schema: 2
   - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
   - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
   - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glass-cast-heart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/199/glass-cast-heart) · oracle_id `3edd6272-20fa-4c3a-bf34-2f253cc8ac9e` · printing: LCC #199 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glassdust Hulk
@@ -1064,6 +1077,7 @@ schema: 2
   - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
   - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#glasswing-grace--age-graced-chapel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/254/glasswing-grace-age-graced-chapel) · oracle_id `3a3e8c9b-e458-4661-980d-0a84a4c2452b` · printing: MH3 #254 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glassworks // Shattered Yard
@@ -1139,6 +1153,7 @@ schema: 2
 - **Keywords:** Treasure, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6766 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gleaming-barrier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/252/gleaming-barrier) · oracle_id `1eb9e401-8975-447b-839d-f7cd23897465` · printing: FDN #252 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1b49b009-e6f2-494a-9235-f5c25c2d70a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gleaming Bastion
@@ -1192,6 +1207,7 @@ schema: 2
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — Some cards that cause you to amass Zombies also provide bonuses to "Zombie tokens." These affect any token that happens to be a Zombie, not just a Zombie Army you've amassed.
   - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gleaming-overseer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/151/gleaming-overseer) · oracle_id `f7716dff-5de7-4b52-966e-72ee3adc8d9a` · printing: MIC #151 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gleaming Splendor
@@ -1237,6 +1253,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — If a creature enters the battlefield attacking, it won’t cause Gleam of Battle to trigger.
   - *2013-04-15* — The +1/+1 counter is put on the creature before blockers are declared and combat damage is dealt.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gleam-of-battle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/73/gleam-of-battle) · oracle_id `19f23d9e-0c05-4028-9c64-60b9a20020f9` · printing: DGM #73 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gleam of Resistance
@@ -1286,6 +1303,7 @@ schema: 2
   - *2024-09-20* — Gleeful Arsonist's first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
   - *2024-09-20* — If Gleeful Arsonist is no longer on the battlefield when its first ability resolves, use its power as it last existed on the battlefield to determine how much damage it deals.
   - *2024-09-20* — Once undying returns the creature, it's considered a new object with no relation to the object that it was. Auras that were attached to it won't return to the battlefield. Equipment that was attached to it will remain unattached. Any counters that were on it won't be put on the new creature.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#gleeful-arsonist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/27/gleeful-arsonist) · oracle_id `9025b3ce-f6ae-431d-9eb5-02d713b8c9b8` · printing: DSC #27 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gleeful Demolition
@@ -1298,6 +1316,7 @@ schema: 2
   > *Urabrask encourages creativity in all its forms, even the destructive ones. Especially the destructive ones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7877 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gleeful-demolition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/134/gleeful-demolition) · oracle_id `66465bc1-4a34-4951-be53-57f90002976a` · printing: ONE #134 (2023-02-10) · [rulings](https://api.scryfall.com/cards/a3e4efa6-5783-4a51-99c6-116d1a8f01cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gleeful Sabotage
@@ -1343,6 +1362,7 @@ schema: 2
   - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
   - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
   - *2013-06-07* — When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
+- **Referenced in:** 5 pages (3 decks · 1 rules · 1 card data) → [reverse index](../../references/G.md#glen-elendra-archmage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/58/glen-elendra-archmage) · oracle_id `5f3f68b5-8c6a-4181-bb8a-9c73967d198a` · printing: UMA #58 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glen Elendra Guardian
@@ -1361,6 +1381,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5706 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-11-17* — If the target noncreature spell is an illegal target as Glen Elendra Guardian's last ability tries to resolve (probably because that spell already left the stack due to another effect), it won't resolve and none of its effects will happen. No player will draw a card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glen-elendra-guardian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/51/glen-elendra-guardian) · oracle_id `97febf6b-302c-4c41-8838-eef7c7353bdc` · printing: ECL #51 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glen Elendra Liege
@@ -1412,6 +1433,7 @@ schema: 2
   - *2025-11-17* — Glen Elendra's Answer can't target mana abilities. An activated mana ability is one that could add mana as it resolves, doesn't have a target, and isn't a loyalty ability. A triggered mana ability is one that could add mana as it resolves and triggers based on an activated mana ability.
   - *2025-11-17* — Glen Elendra's Answer counters only spells, activated abilities, and triggered abilities your opponents control that are already on the stack. It doesn't prevent spells from being cast or abilities from being activated or triggering later in the turn, and it has no effect on static abilities.
   - *2025-11-17* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities, such as mobilize (from the Tarkir: Dragonstorm release), are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/G.md#glen-elendras-answer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/52/glen-elendras-answer) · oracle_id `11ed8209-2184-4416-a8f0-72de00599574` · printing: ECL #52 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glidedive Duo
@@ -1518,6 +1540,7 @@ schema: 2
   > *At first Sasha felt silly fending off the cellarspawn hordes with the essence of her childhood pet hamster. But it sure beat dying alone in the dark.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10503 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glimmerburst)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/62/glimmerburst) · oracle_id `a26820b9-3bec-41b2-9812-99e4a2211297` · printing: DSK #62 (2024-09-27) · [rulings](https://api.scryfall.com/cards/fe1ab8db-3994-4b6d-9eaf-75243a78b715/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glimmerdust Nap
@@ -1568,6 +1591,7 @@ schema: 2
   - *2023-02-04* — If the Rebel is destroyed, the Equipment stays on the battlefield. Similarly, you may pay its equip cost to move it from the Rebel token to another creature you control.
   - *2023-02-04* — If the ability causes two Rebel tokens to be created (due to an effect such as that of Mondrak, Glory Dominus), the Equipment becomes attached to only one of them.
   - *2023-02-04* — The Rebel enters the battlefield as a 2/2 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 2/2 creature entered the battlefield.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/G.md#glimmer-lens)
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/6/glimmer-lens) · oracle_id `bb7cebb7-a979-4879-b834-deab13f2a22c` · printing: ONC #6 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glimmerlight
@@ -1702,6 +1726,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7639 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — The delayed triggered ability created by Glimpse of Nature resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/G.md#glimpse-of-nature)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/210/glimpse-of-nature) · oracle_id `5fae52ed-1b84-406e-951d-b0d329dc48a7` · printing: CHK #210 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glimpse of Tomorrow
@@ -1748,6 +1773,7 @@ schema: 2
   > *—Wayta*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6875 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#glimpse-the-core)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/186/glimpse-the-core) · oracle_id `fa44fa48-d270-4f0f-b672-d63e1c1942ce` · printing: LCI #186 (2023-11-17) · [rulings](https://api.scryfall.com/cards/de7d6aed-3dc8-417d-a190-1660cfc8ee4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glimpse the Cosmos
@@ -1843,6 +1869,7 @@ schema: 2
   - *2024-11-08* — Like most abilities on creature cards, Glimpse, the Unthinkable’s abilities only apply while it’s on the battlefield. This means that if Glimpse, the Unthinkable isn’t on the battlefield, players are free to choose its name with Meddling Mage or choose Glimpse, the Unthinkable in a player’s hand with Thoughtseize.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glimpse-the-unthinkable)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/594/glimpse-the-unthinkable) · oracle_id `ab6b0048-0be6-4ff2-916e-b6a246eb765f` · printing: MB2 #594 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glint
@@ -1918,6 +1945,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-07-12* — In a Two-Headed Giant game, Glint-Horn Buccaneer’s triggered ability causes the opposing team to be dealt 1 damage twice.
   - *2019-07-12* — The middle ability of Glint-Horn Buccaneer is a triggered ability, not an activated ability. It doesn’t allow you to discard a card whenever you want; rather, you need some other way of discarding a card, such as by activating its last ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#glint-horn-buccaneer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/141/glint-horn-buccaneer) · oracle_id `64ad5657-78e9-4f34-8877-18c4f51fff9a` · printing: M20 #141 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glinting Creeper
@@ -2137,6 +2165,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1379 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-02-04* — For the third mode, you choose which counters to remove as the ability resolves. You may remove any three (or fewer) counters, even if the permanent has multiple kinds of counters on it.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/G.md#glissa-sunslayer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/122/glissa-sunslayer) · oracle_id `8859a692-d107-4de2-9110-4681fc2761c7` · printing: ECC #122 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glissa, the Traitor
@@ -2244,6 +2273,7 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/G.md#glistening-sphere)
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/20/glistening-sphere) · oracle_id `15679808-baba-4a11-b111-f313ce24197f` · printing: ONC #20 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glister Bairn
@@ -2343,6 +2373,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24270 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glitterflitter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/48/glitterflitter) · oracle_id `3786047e-f136-49f8-81d6-08beb3f9bcfd` · printing: UNF #48 (2022-10-07) · [rulings](https://api.scryfall.com/cards/e03dfb51-c0df-4cb7-8e42-57d52cec4e89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glittering Frost
@@ -2416,6 +2447,7 @@ schema: 2
   > *The only thing Ziatora desires is "more."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2302 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glittering-stockpile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/167/glittering-stockpile) · oracle_id `feaf9dcb-d845-4cf9-b35d-cd58175162e7` · printing: OTC #167 (2024-04-19) · [rulings](https://api.scryfall.com/cards/74713a58-e343-4504-9900-cf9d76951242/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glittering Wish
@@ -2429,6 +2461,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29441 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — In a casual game, a card you choose from outside the game comes from your personal collection. In a tournament event, a card you choose from outside the game must come from your sideboard. You may look at your sideboard any time.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glittering-wish)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/253/glittering-wish) · oracle_id `45c29ac0-f9ca-4ab9-b93e-8b678509bcd7` · printing: TSR #253 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glittermonger
@@ -2504,6 +2537,7 @@ schema: 2
   - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
   - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glóin-the-mighty--easy-pickings)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/99/gl%C3%B3in-the-mighty-easy-pickings) · oracle_id `6505a53b-00db-44c4-8eaa-09a1a01451a4` · printing: HOB #99 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gloom
@@ -2618,6 +2652,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11752 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-11-17* — The value of X is calculated only once, as Gloom Ripper's ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gloom-ripper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/102/gloom-ripper) · oracle_id `78e1beca-840d-47b2-8759-cc31454fdf5a` · printing: ECL #102 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gloomshrieker
@@ -2889,6 +2924,7 @@ schema: 2
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10622 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#glorious-purpose)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/31/glorious-purpose) · oracle_id `182baad0-ec6e-4e93-9dfc-7c80b37005de` · printing: MSC #31 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d78f2105-030f-4951-aa02-0d4db3d34f59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glorious Sunrise
@@ -3148,6 +3184,7 @@ schema: 2
 - **Keywords:** Reach, Mutate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7299 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glowstone-recluse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/156/glowstone-recluse) · oracle_id `b2b76070-f103-4f83-ad21-119e6352f2cd` · printing: IKO #156 (2020-04-24) · [rulings](https://api.scryfall.com/cards/06a9698d-400c-4c31-82cd-28d0897fe28c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gluetius Maximus
@@ -3176,6 +3213,7 @@ schema: 2
   - *2022-06-10* — All three players must be different players, although any one of them can be you. If there are only two players in the game, you won't choose a third player, and no one will create Treasure tokens.
   - *2022-06-10* — The first chosen player gets to choose which creature they will place the counters on.
   - *2022-06-10* — You may choose a player who doesn't control any creatures as the first chosen player.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gluntch-the-bestower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/275/gluntch-the-bestower) · oracle_id `0222dc7c-459b-4909-a037-72b2eb248599` · printing: CLB #275 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gluttonous Cyclops
@@ -3333,6 +3371,7 @@ schema: 2
   - *2017-04-18* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
   - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
   - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#glyph-keeper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/55/glyph-keeper) · oracle_id `d22b7d4a-0ac7-4221-80fd-a47edad03b84` · printing: AKH #55 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glyph of Delusion

@@ -204,6 +204,7 @@ schema: 2
   > *As retaliation for the Warlord's ambush at the peace summit, Mishra leveled Yotia's capital city.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23736 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#the-fall-of-kroog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/133/the-fall-of-kroog) · oracle_id `bfd8d447-7253-40d0-a153-78e9700045d7` · printing: BRO #133 (2022-11-18) · [rulings](https://api.scryfall.com/cards/f454583d-d227-4fc8-842e-128e025880e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fall of Lord Konda // Fragment of Konda
@@ -243,6 +244,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17571 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#the-fantasticar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/104/the-fantasticar) · oracle_id `9b0abb58-4e2c-45dc-99b1-61a4cb79354b` · printing: MSC #104 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ed0beb69-8441-4104-9990-81bd82f81f9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fantastic Four
@@ -258,6 +260,7 @@ schema: 2
   > • Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18629 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#the-fantastic-four)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/741/the-fantastic-four) · oracle_id `a2281c99-3f45-441b-8e78-7f1f29bf1dcd` · printing: MSC #741 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d78cb67a-ed8a-4e76-8506-04c274318b56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fearsome Flock
@@ -293,6 +296,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16115 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-fifteenth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1584/the-fifteenth-doctor) · oracle_id `90aa8344-ffc7-4a1a-a02a-80eceb1babe5` · printing: SLD #1584 (2023-12-11) · [rulings](https://api.scryfall.com/cards/530a26f1-cf7a-4e56-886b-6799b057c739/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fifth Alias
@@ -322,6 +326,7 @@ schema: 2
   - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-fifth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/127/the-fifth-doctor) · oracle_id `992ddd9f-e0db-4383-909c-6dacca41d188` · printing: WHO #127 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Filigree Sylex
@@ -354,6 +359,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-final-days)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/101/the-final-days) · oracle_id `f2b88031-bfb7-46c4-abdd-3b6b5f5acfa4` · printing: FIN #101 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fire Crystal
@@ -375,6 +381,7 @@ schema: 2
   - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of red spells you cast.
   - *2025-06-06* — The token copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of The Fire Crystal's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-fire-crystal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/135/the-fire-crystal) · oracle_id `57276db8-9d8d-4587-ae88-dfdc44343f17` · printing: FIN #135 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fire Nation Drill
@@ -392,6 +399,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — Because damage remains marked on a creature until the damage is removed as the turn ends, damage previously dealt to a creature with indestructible may cause it to be destroyed if The Fire Nation Drill's first activated ability resolves during that turn.
   - *2025-10-02* — If a permanent enters under an opponent's control with hexproof or indestructible after The Fire Nation Drill's first activated ability resolves, it won't lose that ability unless you activate The Fire Nation Drill's ability again. The same is true if an opponent's permanent gains indestructible or hexproof after The Fire Nation Drill's ability resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-fire-nation-drill)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/98/the-fire-nation-drill) · oracle_id `3d4b9d71-4275-4c18-a4dc-9aad234eb92c` · printing: TLA #98 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The First Doctor
@@ -408,6 +416,7 @@ schema: 2
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
   - *2023-10-13* — You choose the target for The First Doctor's last ability before revealing any cards for cascade.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-first-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/128/the-first-doctor) · oracle_id `5611b70d-f8d1-4a8f-b9a2-a356264a7c46` · printing: WHO #128 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The First Eruption
@@ -451,6 +460,7 @@ schema: 2
   - *2020-01-24* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
   - *2020-01-24* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
   - *2020-01-24* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters. 
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-first-iroan-games)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/170/the-first-iroan-games) · oracle_id `58934f6d-1aa2-414c-85c6-955a1e26d675` · printing: THB #170 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The First Sliver
@@ -661,6 +671,7 @@ schema: 2
   > You may have The Fourteenth Doctor enter as a copy of a Doctor card in your graveyard that was put there from your library this turn. If you do, it gains haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15299 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-fourteenth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1583/the-fourteenth-doctor) · oracle_id `0afcf1eb-ac2c-4bb0-8823-9fe45968c2d9` · printing: SLD #1583 (2023-12-11) · [rulings](https://api.scryfall.com/cards/8b8a78cf-ee6c-4852-9651-eeaa634daaa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fourth Doctor
@@ -682,6 +693,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-fourth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/2/the-fourth-doctor) · oracle_id `c19fdee3-5fbc-4e2d-ac23-85b46eacafdc` · printing: WHO #2 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Frightful Four
@@ -698,6 +710,7 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13102 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-frightful-four)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/44/the-frightful-four) · oracle_id `6d3469dd-d39e-463b-9b41-2f6215a41feb` · printing: MSC #44 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3e792132-de96-47aa-bcd5-58f1e9be5932/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theft of Dreams
@@ -734,4 +747,5 @@ schema: 2
   - *2023-10-13* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
   - *2023-10-13* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-fugitive-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/130/the-fugitive-doctor) · oracle_id `b3a03768-7676-4b33-a813-cc69dea77c4d` · printing: WHO #130 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

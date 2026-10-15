@@ -57,6 +57,7 @@ schema: 2
   - *2023-10-13* — A player facing a villainous choice can always choose either option, even if one or both of the options are impossible. For example, if one of the options is to sacrifice a creature, a player who controls no creatures can still choose that option.
   - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#the-dalek-emperor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/120/the-dalek-emperor) · oracle_id `07799012-7051-400e-adde-b54b41b80c70` · printing: WHO #120 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Darkhold
@@ -87,6 +88,7 @@ schema: 2
   - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of black spells you cast.
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of The Darkness Crystal's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
   - *2025-06-06* — While you control The Darkness Crystal, abilities that trigger whenever a nontoken creature an opponent control dies won't trigger because that card is exiled instead.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-darkness-crystal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/96/the-darkness-crystal) · oracle_id `660f370a-b25b-4ea5-b765-7abf96899c1c` · printing: FIN #96 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Dawning Archaic
@@ -130,6 +132,7 @@ schema: 2
   > III — Exile any number of target players' graveyards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9287 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-death-of-gwen-stacy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/54/the-death-of-gwen-stacy) · oracle_id `2624b5c5-ba59-4e20-8e66-e463268366e4` · printing: SPM #54 (2025-09-26) · [rulings](https://api.scryfall.com/cards/690f1f31-f8c5-4336-9ec9-72ff761e3adc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Deck of Many Things
@@ -319,6 +322,7 @@ schema: 2
   - *2025-07-25* — You can’t make any illegal decisions or illegal choices—you can’t do anything that player couldn’t do. You can’t make choices or decisions for that player that aren’t called for by the game rules or by any cards, permanents, spells, abilities, and so on. If an effect causes another player to make decisions that the affected player would normally make (such as Master Warcraft does), that effect takes precedence. In other words, if the affected player wouldn’t make a decision, you wouldn’t make that decision on that player’s behalf.
   - *2025-07-25* — You can’t make the affected player concede. That player may choose to concede at any time, even while you’re controlling that player.
   - *2025-07-25* — You only control the player. You don’t control any of that player’s permanents, spells, or abilities.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-dominion-bracelet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/239/the-dominion-bracelet) · oracle_id `c017f8ae-9103-4965-a07a-f259f44a157d` · printing: EOE #239 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Dragon-Kami Reborn // Dragon-Kami's Egg

@@ -68,6 +68,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10213 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — You and your opponent both pick the target creatures on announcing, which is before the coin is flipped. You pick first.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mogg-assassin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/88/mogg-assassin) · oracle_id `36a6925a-621e-47d6-8cb3-1b2886e1986e` · printing: EXO #88 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Bombers
@@ -302,6 +303,7 @@ schema: 2
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3025 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mogg-war-marshal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/DMR-131/mogg-war-marshal) · oracle_id `7b8f4879-578e-40e4-863a-41d0c32c6bdd` · printing: PLST #DMR-131 (2026-05-18) · [rulings](https://api.scryfall.com/cards/4ebce261-3a53-48f2-a173-0d98c68aff2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogis, God of Slaughter
@@ -405,4 +407,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7288 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — As long as at least one creature card was discarded this way, you'll create a Moogle token, and as long as at least one noncreature card was discarded this way, you'll put a +1/+1 counter on each Moogle you control. Additional creature cards discarded beyond the first won't result in additional Moogle tokens, and additional noncreature cards discarded beyond the first won't result in additional counters.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/M.md#mog-moogle-warrior)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/89/mog-moogle-warrior) · oracle_id `f18cce8c-8fb6-49a7-8f79-2529c0ee3ecc` · printing: FIC #89 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

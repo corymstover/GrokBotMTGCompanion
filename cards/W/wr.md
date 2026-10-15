@@ -132,6 +132,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23925 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-04-12* — At the beginning of your end step, Wrangler of the Damned’s last ability will check to see if you’ve cast a spell from your hand this turn. If you have, the ability won’t trigger at all. If the ability does trigger, it will check again as it tries to resolve. If you’ve cast a spell from your hand since the ability triggered, the ability won’t do anything.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wrangler-of-the-damned)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/238/wrangler-of-the-damned) · oracle_id `0d8fded4-0393-43c2-82a1-383f29de65ce` · printing: OTJ #238 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrap in Flames
@@ -160,6 +161,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2329 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2007-05-01* — Wrap in Vigor sets up a separate regeneration shield on each creature you control at the time it resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wrap-in-vigor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/183/wrap-in-vigor) · oracle_id `39da2aa8-f4d9-44f6-a446-488beaec821f` · printing: CNS #183 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrathful Raptors
@@ -179,6 +181,7 @@ schema: 2
   - *2023-11-10* — If Wrathful Raptors and one or more other Dinosaurs you control are dealt damage at the same time, Wrathful Raptors's ability triggers for itself and for each of those Dinosaurs, regardless of whether or not Wrathful Raptors was dealt lethal damage.
   - *2023-11-10* — If lethal damage is dealt to a Dinosaur you control while you control Wrathful Raptors, Wrathful Raptors's last ability still triggers.
   - *2023-11-10* — If multiple sources deal damage to a Dinosaur you control while you control Wrathful Raptors, most likely because multiple creatures blocked that Dinosaur, Wrathful Raptors's last ability triggers only once.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/W.md#wrathful-raptors)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/88/wrathful-raptors) · oracle_id `1ba92b64-d821-4c24-aed6-fc90d0c63c10` · printing: LCC #88 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrathful Red Dragon
@@ -206,6 +209,7 @@ schema: 2
   > *Legend speaks of the lost coastal polis of Olantin, whose inhabitants' hubris enraged the sun god Heliod.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #684 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (2 edh guides · 2 card data) → [reverse index](../../references/W.md#wrath-of-god)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/70/wrath-of-god) · oracle_id `34515b16-c9a4-4f98-8c77-416a7a523407` · printing: CMM #70 (2023-08-04) · [rulings](https://api.scryfall.com/cards/537d2b05-3f52-45d6-8fe3-26282085d0c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrath of Leknif
@@ -219,6 +223,7 @@ schema: 2
   - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wrath-of-leknif)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/605/wrath-of-leknif) · oracle_id `2a4bf27f-cf53-4a10-b909-be2ca696649d` · printing: MB2 #605 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrath of Marit Lage
@@ -255,6 +260,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-11-12* — If each manabond counter is removed from a permanent, the manabond effect ends.
   - *2019-11-12* — Permanents with a manabond counter on them retain their colors and supertypes, while losing all other card types and subtypes.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wrath-of-sod)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/103/wrath-of-sod) · oracle_id `69909846-94f9-4b2c-918f-274ba2aa4279` · printing: CMB2 #103 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrath of the Bloodmane
@@ -399,6 +405,7 @@ schema: 2
   - *2025-06-06* — Effects that modify the creature's power and/or toughness without setting base power and/or toughness will apply to the creature no matter when they started to take effect. The same is true for counters that change its power and/or toughness and effects that switch its power and toughness.
   - *2025-06-06* — Once a creature equipped with Wrecking Ball Arm has been blocked, changing the blocking creature's power to 2 or less won't cause the creature to become unblocked.
   - *2025-06-06* — Wrecking Ball Arm overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply afterward will overwrite this effect.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/W.md#wrecking-ball-arm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/100/wrecking-ball-arm) · oracle_id `9f48cb32-46be-4c47-b558-2ea359efdd9b` · printing: FIC #100 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrecking Beast
@@ -541,6 +548,7 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — Wrenn and One is played as a land. It doesn’t use the stack, it’s not a spell, it can’t be responded to, it has no mana cost, and it counts as your land play for the turn.
   - *2024-11-08* — Wrenn is a planeswalker type, not a land type.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wrenn-and-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/588/wrenn-and-one) · oracle_id `7b587921-00d3-42c0-b295-b62310173390` · printing: MB2 #588 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrenn and Realmbreaker
@@ -557,6 +565,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2712 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — The lands you play and spells you cast from your graveyard follow the usual timing restrictions, and you must pay any costs for spells you cast.
+- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/W.md#wrenn-and-realmbreaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/217/wrenn-and-realmbreaker) · oracle_id `4566fb92-448e-4b3f-9045-9d74323c35d1` · printing: MOM #217 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrenn and Seven
@@ -571,6 +580,7 @@ schema: 2
   > −8: Return all permanent cards from your graveyard to your hand. You get an emblem with "You have no maximum hand size."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2491 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/W.md#wrenn-and-seven)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/226/wrenn-and-seven) · oracle_id `63a509ea-cedc-40e9-b4e8-0ff4fc356485` · printing: INR #226 (2025-01-24) · [rulings](https://api.scryfall.com/cards/302f0dc1-88ab-4961-b78c-fbe7980dca18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrenn and Six
@@ -585,6 +595,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6569 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-06-14* — When a spell you cast with retrace resolves or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+- **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/W.md#wrenn-and-six)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/296/wrenn-and-six) · oracle_id `108ae90a-50fa-4cfd-b751-d630e41425fe` · printing: 2X2 #296 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrenn's Resolve
@@ -599,6 +610,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — Any cards you don't play will remain in exile.
   - *2023-04-14* — The cards you play from exile follow the usual timing restrictions, and you must pay any costs for spells you cast.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/W.md#wrenns-resolve)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/173/wrenns-resolve) · oracle_id `a7d8c99c-cd44-4bad-82e6-7c7cff9bd89f` · printing: MOM #173 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wren's Run Hydra
@@ -631,6 +643,7 @@ schema: 2
 - **Rulings** (2):
   - *2007-10-01* — Wren's Run Packmaster gives deathtouch to all Wolf permanents you control, not just the tokens it creates.
   - *2009-10-01* — A Wolf's deathtouch ability will apply if both Wren's Run Packmaster and that Wolf are on the battlefield at the time the Wolf deals damage. The creature dealt damage by the Wolf will be destroyed the next time state-based actions are checked, even if the Wolf or Wren's Run Packmaster leaves the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#wrens-run-packmaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/171/wrens-run-packmaster) · oracle_id `d4d27fef-e86b-4dd3-a15e-a0db8d0725ee` · printing: CMA #171 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wren's Run Vanquisher
@@ -746,6 +759,7 @@ schema: 2
   - *2025-01-24* — The mana value of the back face of a double-faced card is the mana value of its front face. The mana value of a melded permanent is the sum of the mana values of its front faces. A creature that’s a copy of either has a mana value of 0.
   - *2025-01-24* — You may sacrifice a creature with a mana value of 0, such as a token creature that’s not a copy of another permanent, to cast a spell for its emerge cost. You’ll just pay the full emerge cost with no reduction.
   - *2025-01-24* — You may sacrifice a creature with mana value greater than or equal to the emerge cost. If you do, you’ll pay only the colored mana component of the emerge cost.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#wretched-gryff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/7/wretched-gryff) · oracle_id `83d0c4bc-aab9-4c14-a7dc-a344fcce4fea` · printing: INR #7 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wretched Throng
@@ -790,6 +804,7 @@ schema: 2
   > *The professor of essence studies always relished the looks on the first-years' faces as their vivisections descended into chaos.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8067 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wriggling-grub)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/12/wriggling-grub) · oracle_id `d25e8f54-1915-4d0b-b4b1-93ee40da2cfa` · printing: J25 #12 (2024-11-15) · [rulings](https://api.scryfall.com/cards/e02aa086-13b2-42cf-acf4-086ba406e886/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wring Flesh
@@ -816,6 +831,7 @@ schema: 2
   > {TK}{TK}{TK} — 7/2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wrinkly-monkey-shenanigans)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/31/wrinkly-monkey-shenanigans) · oracle_id `f7016cec-bb17-4f56-bf8e-3d8c83e6e41b` · printing: SUNF #31 (2022-10-07) · [rulings](https://api.scryfall.com/cards/9d595a6a-03f6-4da6-945b-4de82d71b298/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Write into Being

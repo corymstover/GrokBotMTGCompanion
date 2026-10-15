@@ -91,6 +91,7 @@ schema: 2
   - *2020-04-17* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
   - *2020-04-17* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
   - *2020-04-17* — Trynn's ability checks only whether you declared an attacking creature during the turn. It doesn't trigger once for each such creature, and it doesn't check whether any attacking creatures dealt damage.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#trynn-champion-of-freedom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/1/trynn-champion-of-freedom) · oracle_id `76771556-3eb7-4f87-aaeb-32ea81105aa2` · printing: C20 #1 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trystan, Callous Cultivator // Trystan, Penitent Culler
@@ -118,6 +119,7 @@ schema: 2
   - *2025-11-17* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Oko, Lorwyn Liege's color identity is green and blue, since its front face is blue, its rules text contains a green mana symbol, and its back face has a green color indicator as well as a blue mana symbol in its rules text.
   - *2025-11-17* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-11-17* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#trystan-callous-cultivator--trystan-penitent-culler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/199/trystan-callous-cultivator-trystan-penitent-culler) · oracle_id `961d1128-a022-480c-918e-16ba0abf844b` · printing: ECL #199 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trystan's Command

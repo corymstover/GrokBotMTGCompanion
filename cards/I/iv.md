@@ -174,6 +174,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5750 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — If you have four or fewer cards in your hand when Ivory Tower's ability resolves, the ability has no effect.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#ivory-tower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/269/ivory-tower) · oracle_id `d416a4ed-9f16-4a8b-8aee-03c630e1eb6c` · printing: VMA #269 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivorytusk Fortress
@@ -237,6 +238,7 @@ schema: 2
   - *2022-09-09* — The copy is created even if the spell that caused the ability to trigger has been countered by the time the ability resolves. The copy resolves before the original spell.
   - *2022-09-09* — The copy that Ivy, Gleeful Spellthief's second ability creates is created on the stack, so it's not "cast." Other abilities that trigger when a player casts a spell won't trigger.
   - *2022-09-09* — The second ability triggers whenever a player casts a spell that targets only one creature and no other object or player. It doesn't matter who controls the creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#ivy-gleeful-spellthief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/201/ivy-gleeful-spellthief) · oracle_id `55ad6a6b-1c44-4397-86ae-dd9221892b22` · printing: DMU #201 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivy Lane Denizen

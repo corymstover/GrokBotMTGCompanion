@@ -110,6 +110,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6306 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-07-28* — In a Two-Headed Giant game, creatures can attack planeswalkers your teammate controls without requiring a mana payment.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#onakke-oathkeeper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/722/onakke-oathkeeper) · oracle_id `080df9eb-c26b-494a-96b4-d7e47e501866` · printing: CMM #722 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Onakke Ogre
@@ -166,6 +167,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8845 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-10-04* — The earliest opportunity you have to cast Once Upon a Time is during the first player's upkeep, before that player can play a land.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#once-upon-a-time)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/169/once-upon-a-time) · oracle_id `d00ade82-caab-43c6-9756-6e9e6edfc519` · printing: ELD #169 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ondu Champion
@@ -256,6 +258,7 @@ schema: 2
   - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/O.md#ondu-inversion--ondu-skyruins)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/30/ondu-inversion-ondu-skyruins) · oracle_id `15fc4e74-300e-4c2d-8ed7-004553b2f7c2` · printing: ZNR #30 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ondu Knotmaster // Throw a Line
@@ -287,6 +290,7 @@ schema: 2
   - *2024-06-07* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2024-06-07* — You choose how the counters will be distributed as you cast Throw a Line. Each target must receive at least one +1/+1 counter.
   - *2024-06-07* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#ondu-knotmaster--throw-a-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/196/ondu-knotmaster-throw-a-line) · oracle_id `dc69a130-967a-4d9f-992f-db7fad2fcd6d` · printing: MH3 #196 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ondu Rising
@@ -327,6 +331,7 @@ schema: 2
   - *2023-07-28* — If the copied enchantment is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token.
   - *2023-07-28* — If the copied enchantment is copying something else, then the token enters the battlefield as whatever that enchantment copied.
   - *2023-07-28* — Once you choose to create a token copy of an enchantment during the resolution of Ondu Spiritdancer's ability, that ability won't trigger again that turn, no matter how many more enchantments enter the battlefield under your control.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#ondu-spiritdancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/101/ondu-spiritdancer) · oracle_id `d2ae893f-52af-4645-8712-d62fb78f901e` · printing: DSC #101 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ondu War Cleric
@@ -441,6 +446,7 @@ schema: 2
   - *2024-04-12* — You can’t choose the same mode more than once.
   - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
   - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#one-last-job)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/22/one-last-job) · oracle_id `55cba59c-932c-4295-87dc-9179fbdfbd53` · printing: OTJ #22 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One Ring to Rule Them All
@@ -489,6 +495,7 @@ schema: 2
   - *2019-11-12* — One with Death has no target, so a spell or ability that changes targets can’t be used to have another player lose the game.
   - *2019-11-12* — Yes, seriously.
   - *2019-11-12* — Yes, you lose the game.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#one-with-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/45/one-with-death) · oracle_id `f60d0b8c-3086-425f-a53a-769c5badab45` · printing: CMB2 #45 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One with Nature
@@ -543,6 +550,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2896 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-07-13* — If a permanent has {X} in its mana cost, X is considered to be 0.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#one-with-the-machine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/66/one-with-the-machine) · oracle_id `757eadac-dd29-4a7f-8683-5bc823168326` · printing: M19 #66 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One with the Multiverse
@@ -560,6 +568,7 @@ schema: 2
   - *2022-10-14* — While casting a card with the prototype ability using the last ability of One with the Multiverse, you can either choose to cast it normally or choose to cast it as a prototyped spell. In either case, you won't pay its mana cost.
   - *2022-10-14* — While casting a spell without paying its mana cost using the last ability, you can't pay alternative costs, but you may choose to pay any optional additional costs the spell may have (such as a kicker cost). You still must pay any mandatory additional costs.
   - *2022-10-14* — You must follow all normal timing rules for spells cast and lands played using the middle ability and must pay all costs for spells cast this way. To cast a spell this way, you may choose to pay any alternative costs or optional additional costs the spell may have (such as a kicker cost). You must pay any mandatory additional costs.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#one-with-the-multiverse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/121/one-with-the-multiverse) · oracle_id `06bb4272-25d1-46db-8585-15f919267e1e` · printing: DSC #121 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One with the Stars
@@ -594,6 +603,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17950 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#one-with-the-wind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/64/one-with-the-wind) · oracle_id `9203bee0-718a-4ede-9556-5521417c4080` · printing: XLN #64 (2017-09-29) · [rulings](https://api.scryfall.com/cards/2c00f8bf-0088-44ad-b40b-26a2951a2428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ongoing Investigation
@@ -621,6 +631,7 @@ schema: 2
   > {T}, Sacrifice an artifact: This artifact deals 1 damage to each opponent. You gain 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6290 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/O.md#oni-cult-anvil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/230/oni-cult-anvil) · oracle_id `c018f072-8f6d-4835-a717-ed4ecba70d97` · printing: NEO #230 (2022-02-18) · [rulings](https://api.scryfall.com/cards/c84db1e2-855c-4169-a9cc-a54c73c14e0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oni of Wild Places
@@ -701,6 +712,7 @@ schema: 2
   - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#on-the-job)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/30/on-the-job) · oracle_id `e4733889-4d4c-4bf7-8a9b-fb5ad7a38395` · printing: MKM #30 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### On the Trail
@@ -780,6 +792,7 @@ schema: 2
   > *The edge of Naktamun was once protected by Kefnet. The honored mummies who patrol it now do so in his image.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3501 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#on-wings-of-gold)
 - **Source flags:** [Scryfall](https://scryfall.com/card/drc/5/on-wings-of-gold) · oracle_id `3b6f608d-f27d-44cd-b0a1-0e1e1aa1c98a` · printing: DRC #5 (2025-02-14) · [rulings](https://api.scryfall.com/cards/d5e247d3-8542-4e6c-b256-5ae216eeceb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Onyx Goblet

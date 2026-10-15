@@ -438,6 +438,7 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10289 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#knight-of-dusks-shadow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/96/knight-of-dusks-shadow) · oracle_id `815ae30f-f455-4795-96eb-4bcc41d415e8` · printing: DMU #96 (2022-09-09) · [rulings](https://api.scryfall.com/cards/33dfd2fe-e0e0-465c-b730-a30e6f5c271c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Glory
@@ -472,6 +473,7 @@ schema: 2
   - *2018-04-27* — "Hexproof from [quality]" is a variant of the hexproof ability. "Hexproof from black" means "This permanent can't be the target of black spells your opponents control or abilities of black sources your opponents control."
   - *2018-04-27* — If an effect says that a creature loses hexproof or can be targeted as though it didn't have hexproof, this applies to hexproof from black as well.
   - *2018-04-27* — Knight of Grace only gets +1/+0 if any player controls a black permanent, no matter how many black permanents players control.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/K.md#knight-of-grace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/576/knight-of-grace) · oracle_id `7b51a979-47e0-4b98-8ec5-8064c83422e1` · printing: FDN #576 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Infamy
@@ -504,6 +506,7 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — To determine if you are way behind, check the game state as it was at any point during the current turn, regardless of whether Knight of Lost Causes was on the battlefield at that time. For example, if you control one creature and an opponent controls four, then you play Knight of Lost Causes going up to two creatures, you are way behind this turn because, at some point in the past the turn, that opponent controlled three creatures more than you.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#knight-of-lost-causes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/518/knight-of-lost-causes) · oracle_id `9416bfc9-53bf-4213-b6f2-bcdbb5762ad4` · printing: MB2 #518 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Malice
@@ -688,6 +691,7 @@ schema: 2
   - *2019-07-12* — A player loses life if they pay life.
   - *2019-07-12* — It doesn't matter whether a player has 4 or less life than they started the turn with. If a player lost 4 life but also gained 6 life, that player still lost 4 life.
   - *2019-07-12* — Knight of the Ebon Legion looks at your entire turn to determine whether a player lost 4 or more life. It doesn't matter how many players lost 4 or more life, only whether anyone did. It also doesn't matter whether Knight of the Ebon Legion was on the battlefield when they lost life.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/K.md#knight-of-the-ebon-legion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/105/knight-of-the-ebon-legion) · oracle_id `3b4eaa50-dff6-4825-97da-42b2f5554218` · printing: M20 #105 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Hokey Pokey
@@ -718,6 +722,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20303 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — After the last ability resolves, regeneration shields don't apply if Knight of the Holy Nimbus would be destroyed for the remainder of the turn. This includes its own effect as well as regeneration shields from other sources.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/K.md#knight-of-the-holy-nimbus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/23/knight-of-the-holy-nimbus) · oracle_id `4e92c705-19c2-42df-ad12-808d272c505e` · printing: TSR #23 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Keep
@@ -922,6 +927,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7157 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — If an effect refers to a “[subtype] spell” or “[subtype] card,” it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn’t a Pirate card.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#knight-of-the-stampede)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/138/knight-of-the-stampede) · oracle_id `801d60c1-40b1-48b6-8800-afe1a21386f3` · printing: RIX #138 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Tusk
@@ -953,6 +959,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — Knight of the White Orchid's triggered ability has an “intervening ‘if' clause.” That means (1) the ability won't trigger at all unless any one of your opponents controls more lands than you, and (2) the ability will do nothing if you control at least as many lands as each of your opponents by the time it resolves.
   - *2015-06-22* — The Plains you search for doesn't have to be basic. For example, you could put a Sacred Foundry onto the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/K.md#knight-of-the-white-orchid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/193/knight-of-the-white-orchid) · oracle_id `7d0efc64-151f-45b4-8c0b-c32609f9d862` · printing: MOC #193 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Widget
@@ -1146,6 +1153,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-04-04* — If either creature is an illegal target as Knockout Maneuver resolves, the creature you control won't deal damage. If the creature you control is an illegal target, you won't put a +1/+1 counter on it even if it's still on the battlefield.
   - *2025-04-04* — You can't cast Knockout Maneuver unless you choose a creature you control and a creature an opponent controls as targets.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#knockout-maneuver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/147/knockout-maneuver) · oracle_id `7e4931f4-f518-4200-aad4-4ac8acf202e5` · printing: TDM #147 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knollspine Dragon
@@ -1189,6 +1197,7 @@ schema: 2
   > *The elves of Naya were the last to acknowledge the massive shift of mana in their world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14715 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#knotvine-mystic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/con/114/knotvine-mystic) · oracle_id `5d045695-e4b3-4daa-bfab-d77640fedfd6` · printing: CON #114 (2009-02-06) · [rulings](https://api.scryfall.com/cards/f6372fa0-e9c8-45d0-a3b8-72eb191c6b26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knotvine Paladin
@@ -1247,6 +1256,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/K.md#knowledge-exploitation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/38/knowledge-exploitation) · oracle_id `61ad3299-474a-400f-a1c1-b86024aca3e8` · printing: MOR #38 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knowledge Is Power

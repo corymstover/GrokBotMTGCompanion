@@ -222,6 +222,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2664 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — Mischievous Mystic doesn't need to have been under your control when the first card is drawn for its ability to trigger. As long as you control it when you draw your second card in a turn, that ability will trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mischievous-mystic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/47/mischievous-mystic) · oracle_id `542831c6-6279-4977-9b29-0fb9c0ebf04d` · printing: FDN #47 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mischievous Poltergeist
@@ -253,6 +254,7 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12513 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mischievous-pup)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/144/mischievous-pup) · oracle_id `e75b187d-0e3b-4d94-a940-8b7e4e7ed1ca` · printing: FDN #144 (2024-11-15) · [rulings](https://api.scryfall.com/cards/7214d984-6400-44d7-bde6-57d96b606e78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mischievous Quanar
@@ -306,6 +308,7 @@ schema: 2
   - *2004-10-04* — You can choose to make a spell on the stack target this spell (if such a target choice would be legal had the spell been cast while this spell was on the stack). The new target for the deflected spell is not chosen until this spell resolves. This spell is still on the stack when new targets are selected for the spell.
   - *2004-10-04* — You can’t make a spell which is on the stack target itself.
   - *2004-10-04* — You choose the spell to target on announcement, but you pick the new target for that spell on resolution.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/M.md#misdirection)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddt/15/misdirection) · oracle_id `c39e5fb0-6de3-4105-ad3c-0ecb8951a1d5` · printing: DDT #15 (2017-10-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mise
@@ -400,6 +403,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12369 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-04-29* — If the card was both a land and a creature (such as Dryad Arbor), you will create both a Rogue token and a Treasure token.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#misfortune-teller)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/141/misfortune-teller) · oracle_id `bd1ccc6f-d281-413e-889e-1e022c3f2a99` · printing: OTC #141 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Misguided Rage
@@ -425,6 +429,7 @@ schema: 2
   > *A sojourn through time gave dark inspiration to one gifted young mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23576 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/M.md#mishra-artificer-prodigy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/243/mishra-artificer-prodigy) · oracle_id `b38adaac-3714-4348-9fec-cb2e2ad518b1` · printing: TSP #243 (2006-10-06) · [rulings](https://api.scryfall.com/cards/d5deaec5-499d-4e19-b879-8bcd1dc35f3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mishra, Claimed by Gix
@@ -453,6 +458,7 @@ schema: 2
   - *2022-10-14* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
   - *2022-10-14* — You choose which player or planeswalker Mishra, Lost to Phyrexia is attacking as it enters the battlefield.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mishra-claimed-by-gix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/216/mishra-claimed-by-gix) · oracle_id `26a623a1-60c9-47e3-af96-616e29551865` · printing: BRO #216 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mishra, Eminent One
@@ -469,6 +475,7 @@ schema: 2
   - *2022-10-14* — If the copied permanent has {X} in its mana cost, X is 0.
   - *2022-10-14* — If the copied permanent is a token, the new token that’s created copies the original characteristics of that token as stated by the effect that created that token (with the listed exceptions).
   - *2022-10-14* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied (with the listed exceptions).
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/M.md#mishra-eminent-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/1/mishra-eminent-one) · oracle_id `d3438037-3efd-4ce0-88ec-6d48ab521992` · printing: BRC #1 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mishra, Excavation Prodigy
@@ -486,6 +493,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13576 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-14* — The last ability will trigger if you discard artifact cards for any reason, not just due to its activated ability.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mishra-excavation-prodigy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/140/mishra-excavation-prodigy) · oracle_id `4eba0e29-985b-4763-9a70-0946ba044b43` · printing: BRO #140 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mishra, Lost to Phyrexia
@@ -517,6 +525,7 @@ schema: 2
   - *2022-10-14* — While a meld card is in any zone other than the battlefield, it has only the characteristics of its front face. The same is true while it's on the battlefield with its front face up.
   - *2022-10-14* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mishra-lost-to-phyrexia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/163b/mishra-lost-to-phyrexia) · oracle_id `3989308a-4c0f-493a-b38f-cb4f5019dfe7` · printing: BRO #163b (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mishra's Bauble
@@ -530,6 +539,7 @@ schema: 2
   > *—Heidar, Rimewind master*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1104 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/M.md#mishras-bauble)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/274/mishras-bauble) · oracle_id `63afc3d1-7653-476e-838f-fc18d4a62a21` · printing: 2XM #274 (2020-08-07) · [rulings](https://api.scryfall.com/cards/45bbbf9b-8fee-4c32-a513-02dac6ac8a39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mishra's Command
@@ -558,6 +568,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23462 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mishras-domination)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/142/mishras-domination) · oracle_id `ede2354a-64b0-402c-8fbe-9da90f811a9b` · printing: BRO #142 (2022-11-18) · [rulings](https://api.scryfall.com/cards/87c71fb1-a30b-4e0e-a6d6-4656cfff2da1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mishra's Factory
@@ -572,6 +583,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-08* — A noncreature permanent that becomes a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature. Notably, if you turn Mishra's Factory into a creature on the turn it entered the battlefield, you won't be able to then activate its first or last abilities.
   - *2022-12-08* — After it becomes a creature, Mishra's Factory will still have all its abilities.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#mishras-factory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/251/mishras-factory) · oracle_id `5963e0ef-e0bc-4611-ad4f-813a4c0eacfb` · printing: DMR #251 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mishra's Foundry
@@ -586,6 +598,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — If Mishra's Foundry becomes a creature and you haven't controlled it continuously since the beginning of your most recent turn, you won't be able to activate its first or last abilities, and it won't be able to attack (unless it somehow gains haste).
   - *2022-10-14* — If Mishra's Foundry is already a creature, activating the second ability will override any previous effects that set its power and/or toughness to specific values. Other effects that are affecting its power and/or toughness, including +1/+1 counters and the effects of spells like Giant Growth, will continue to apply.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#mishras-foundry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/265/mishras-foundry) · oracle_id `b43e9772-6ad4-49c7-9557-b18ee1e4587d` · printing: BRO #265 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mishra's Groundbreaker
@@ -687,6 +700,7 @@ schema: 2
   - *2018-04-27* — The token will have Mishra’s Self-Replicator’s ability. It will also be able to create copies of itself.
   - *2018-04-27* — The token won’t copy counters or damage marked on Mishra’s Self-Replicator, nor will it copy other effects that have changed Mishra’s Self-Replicator’s power, toughness, types, color, and so on. Normally, this means the token will simply be a Mishra’s Self-Replicator, but if any copy effects have affected that Mishra’s Self-Replicator, they’re taken into account.
   - *2018-04-27* — While resolving the triggered ability of Mishra’s Self-Replicator, you can’t pay {1} multiple times to create more than one token. However, if you control more than one Mishra’s Self-Replicator, you can pay {1} for each of their abilities.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mishras-self-replicator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/223/mishras-self-replicator) · oracle_id `5546d127-a961-4e33-bbc9-06ee14b0cb04` · printing: DOM #223 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mishra's Toy Workshop
@@ -733,6 +747,7 @@ schema: 2
   - *2004-10-04* — This mana may be used on additional costs to cast the spell, such as Kicker.
   - *2004-10-04* — This mana may not be used to pay costs imposed after the spell is initially cast.
   - *2004-10-04* — You can spend the mana on costs on the spell's text.
+- **Referenced in:** 6 pages (2 decks · 2 edh guides · 2 card data) → [reverse index](../../references/M.md#mishras-workshop)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/305/mishras-workshop) · oracle_id `ba284fe6-bb29-455c-8321-9714a0cdc05e` · printing: VMA #305 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mishra, Tamer of Mak Fawa
@@ -751,6 +766,7 @@ schema: 2
   - *2022-10-14* — If a permanent returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead—unless the spell or ability that's causing the permanent to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If that spell or ability later returns the card to the battlefield (as Static Net might, for example), the permanent card will return to the battlefield as a new object with no relation to its previous existence. The unearth effects will no longer apply to it.
   - *2022-10-14* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will do nothing as it resolves.
   - *2022-10-14* — Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mishra-tamer-of-mak-fawa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/217/mishra-tamer-of-mak-fawa) · oracle_id `3be40d81-9be5-4f39-8ce4-920c26cf2748` · printing: BRO #217 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Misinformation
@@ -894,6 +910,7 @@ schema: 2
   - *2023-10-13* — The player who controls a face-down permanent may look at it at any time. Notably, if the cards were put on the battlefield face down from another player's library, the player that owns them does not get to look at those cards.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/M.md#missy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/8/missy) · oracle_id `905610cd-1461-4f5a-b9c8-19b193b9d513` · printing: WHO #8 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mistakes Were Made
@@ -924,6 +941,7 @@ schema: 2
 - **Keywords:** Flying, Champion, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10302 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/M.md#mistbind-clique)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/75/mistbind-clique) · oracle_id `d1946f91-0653-4647-b3de-95d78b9597c4` · printing: LRW #75 (2007-10-12) · [rulings](https://api.scryfall.com/cards/cfc421e2-0dd4-4bdf-b5f5-a60c4b0df63b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mistblade Shinobi
@@ -937,6 +955,7 @@ schema: 2
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3309 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/M.md#mistblade-shinobi)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/20/mistblade-shinobi) · oracle_id `16856e22-6f9e-4f8e-b4ee-622a7c2ee453` · printing: PCA #20 (2016-11-25) · [rulings](https://api.scryfall.com/cards/f333193b-a95a-43dc-b50a-58412a33c8b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mistbreath Elder
@@ -978,6 +997,7 @@ schema: 2
   > *The reach of Atlantis travels far beyond the waves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2806 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mist-cloaked-herald)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/760/mist-cloaked-herald) · oracle_id `74255add-2894-4c31-81c1-d38873fa325f` · printing: MSC #760 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1e19ed76-26fe-4e39-8d65-959ae5675d5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mistcutter Hydra
@@ -993,6 +1013,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5010 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-09-15* — Spells that can't be countered can still be chosen as the target of spells or abilities that try to counter them. Although the spell won't be countered, the spell or ability that tries to counter it will resolve, and any other effects of that spell or ability will happen.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mistcutter-hydra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/162/mistcutter-hydra) · oracle_id `30b5b764-478a-46fa-8f95-a1f515925a2d` · printing: THS #162 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mist Dancer
@@ -1030,6 +1051,7 @@ schema: 2
   > *—Hakim, Loreweaver*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28433 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mist-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/79/mist-dragon) · oracle_id `448f5c55-7334-4fa4-9d90-0e57bae19444` · printing: MIR #79 (1996-10-08) · [rulings](https://api.scryfall.com/cards/3b9b4be4-74c8-4fe5-a5e4-de57c11e8ec1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mister Cheddar, Cheese Sliver
@@ -1218,6 +1240,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31143 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mistform-dreamer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/93/mistform-dreamer) · oracle_id `5c679c43-5990-4dcf-a36e-865c17bdea32` · printing: ONS #93 (2002-10-07) · [rulings](https://api.scryfall.com/cards/ff34e303-c94a-4f5f-b9f6-8d48e6aac383/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mistform Mask
@@ -1332,6 +1355,7 @@ schema: 2
   - *2006-09-25* — Like any creature, if Mistform Ultimus becomes another type as the result of a spell or ability, it will lose all its other creature types.
   - *2006-09-25* — Mistform Ultimus has all creature types even if an effect removes its ability. Type-changing static abilities will apply in layer 4 before effects such as Sudden Spoiling’s remove them in layer 6.
   - *2006-09-25* — The type “Illusion” is printed on the card’s type line purely for flavor. The Ultimus has every other creature type as well.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/M.md#mistform-ultimus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/26/mistform-ultimus) · oracle_id `7bf0e628-06b5-4e12-a526-a2bce08844f2` · printing: TSB #26 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mistform Wakecaster
@@ -1609,6 +1633,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #375 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-04-04* — You must already control a Mountain or Forest as Mistrise Village enters for it to enter untapped. If it enters at the same time as a Mountain or Forest when you control no other Mountains or Forests, it will enter tapped.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/M.md#mistrise-village)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/261/mistrise-village) · oracle_id `339f5334-b65a-445a-a016-20e997e0b4bb` · printing: TDM #261 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mists of Littjara
@@ -1661,6 +1686,7 @@ schema: 2
   - *2019-06-14* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
   - *2019-06-14* — The token will have Mist-Syndicate Naga’s ability. It will also be able to create copies of itself.
   - *2019-06-14* — The token won’t copy counters, Auras, or Equipment on Mist-Syndicate Naga, nor will it copy other effects that have changed its power, toughness, types, color, or so on. Normally, this means the token will simply be a Mist-Syndicate Naga. But if any copy effects have affected Mist-Syndicate Naga, they’re taken into account.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/M.md#mist-syndicate-naga)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/58/mist-syndicate-naga) · oracle_id `08109241-690f-4d09-ad2f-1cddab9b3c64` · printing: MH1 #58 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mistvault Bridge
@@ -1676,6 +1702,7 @@ schema: 2
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1832 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mistvault-bridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/249/mistvault-bridge) · oracle_id `33ee23bc-6327-4a54-a704-dfd83be36bb5` · printing: MH2 #249 (2021-06-18) · [rulings](https://api.scryfall.com/cards/9f36a6e2-3e51-4a30-a225-10cfe6650b9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mistveil Plains
@@ -1690,6 +1717,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-12-07* — A land card that produces white mana, even a Plains, normally has no color.
   - *2018-12-07* — Once you activate Mistveil Plains's last ability, it doesn't matter if you lose control of some of your white permanents.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#mistveil-plains)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/386/mistveil-plains) · oracle_id `bb5c1817-ac22-4779-9005-251bc354f181` · printing: SOC #386 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mistvein Borderpost
@@ -1815,6 +1843,7 @@ schema: 2
   > {T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #42 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 36 pages (30 decks · 4 edh guides · 2 card data) → [reverse index](../../references/M.md#misty-rainforest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/250/misty-rainforest) · oracle_id `09dd85aa-47bc-4713-a9b9-8b52ff2285ed` · printing: MH2 #250 (2021-06-18) · [rulings](https://api.scryfall.com/cards/88231c0d-0cc8-44ec-bf95-81d1710ac141/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Misunderstood Trapeze Elf
@@ -1829,4 +1858,5 @@ schema: 2
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#misunderstood-trapeze-elf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/5/misunderstood-trapeze-elf) · oracle_id `658252ed-7f52-4a31-834b-c39cee1d5e00` · printing: SUNF #5 (2022-10-07) · [rulings](https://api.scryfall.com/cards/e6952074-d6c2-4fbe-88ca-6d42f83c7ee7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

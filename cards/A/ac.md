@@ -217,6 +217,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — Abilities that reduce the cost to cast a spell apply after abilities that raise them. For example, if an opponent chose to draw an additional card as Academy Loremaster's triggered ability resolved, Argivian Phalanx (a card with mana cost {5}{W} and the ability "This spell costs {1} less to cast for each creature you control.") will cost them {W} to cast that turn if they have seven or more creatures.
   - *2022-09-09* — The cost increase applies to spells that player casts even if they're casting them for an alternative cost. If they cast a spell without paying its mana cost, they'll still have to pay {2}.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#academy-loremaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/40/academy-loremaster) · oracle_id `7d540860-ae94-4773-a526-aaffca3eb057` · printing: DMU #40 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Academy Manufactor
@@ -235,6 +236,7 @@ schema: 2
   - *2021-06-18* — If you control eighteen Academy Manufactors (I don't know, you figure it out) and would create some number of Clue, Food, or Treasure tokens, you will instead create 129,140,163 times that many Clue tokens, 129,140,163 times that many Food tokens, and 129,140,163 times that many Treasure tokens.
   - *2021-06-18* — If you control one Academy Manufactor and would create some number of Clue, Food, or Treasure tokens, you will instead create that many Clue tokens, that many Food tokens, and that many Treasure tokens.
   - *2021-06-18* — If you control two Academy Manufactors and would create some number of Clue, Food, or Treasure tokens, you will instead create three times that many Clue tokens, three times that many Food tokens, and three times that many Treasure tokens.
+- **Referenced in:** 8 pages (4 decks · 1 edh guides · 1 rules · 2 card data) → [reverse index](../../references/A.md#academy-manufactor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/251/academy-manufactor) · oracle_id `f36d1d8b-8303-44a9-ab56-531931641ea2` · printing: OTC #251 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Academy Raider
@@ -289,6 +291,7 @@ schema: 2
   > *Its secrets once wrought the greatest artifice ever known. Now crabs loot the rubble to decorate their shells.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #459 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 8 pages (6 decks · 2 edh guides) → [reverse index](../../references/A.md#academy-ruins)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/309/academy-ruins) · oracle_id `a3da7d5b-2c2b-45fe-b9c5-413b8c8fc0a2` · printing: 2XM #309 (2020-08-07) · [rulings](https://api.scryfall.com/cards/a95b7645-154f-4904-bf71-db7eb24d4df2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Academy Wall
@@ -320,6 +323,7 @@ schema: 2
   > *—Nomad sentry*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7400 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#accelerate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/90/accelerate) · oracle_id `79189464-9645-4411-8886-68fd40a588ed` · printing: TOR #90 (2002-02-04) · [rulings](https://api.scryfall.com/cards/6a28dd88-db90-4f02-8aa9-39051d2c4763/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accelerated Evolution
@@ -493,6 +497,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25320 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-03-16* — Because Accumulated Knowledge is still on the stack as you perform its instructions, it isn't in your graveyard and won't add to the number of cards drawn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#accumulated-knowledge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/40/accumulated-knowledge) · oracle_id `1ca25379-d194-4670-a7bf-525ad11cf436` · printing: A25 #40 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accumulate Wisdom
@@ -506,6 +511,7 @@ schema: 2
   > *—Wan Shi Tong*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5567 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#accumulate-wisdom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/44/accumulate-wisdom) · oracle_id `a63eb744-71c4-447d-9372-c3a734f022c5` · printing: TLA #44 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a6335319-6c92-40d4-ab2d-c06c79049c30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accursed Centaur
@@ -561,6 +567,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-06-07* — As Accursed Marauder's enters-the-battlefield ability resolves, first the player whose turn it is chooses which creature they'll sacrifice, then each other player in turn order does the same. Players will know the choices of previous players when making their choice. Then all of the chosen creatures are sacrificed by their controllers simultaneously.
   - *2024-06-07* — You may sacrifice Accursed Marauder to its own ability. If it is the only creature you control when that ability resolves, you must sacrifice it.
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/A.md#accursed-marauder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/80/accursed-marauder) · oracle_id `d8ad23a1-0b43-48ea-9fbe-d89b29194509` · printing: MH3 #80 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accursed Spirit
@@ -594,6 +601,7 @@ schema: 2
   - *2016-04-08* — Accursed Witch's first ability affects all spells cast by your opponents that target it, including Aura spells and spells that have additional targets. It doesn't affect abilities.
   - *2016-04-08* — If an effect causes Accursed Witch to transform on the battlefield, rather than leaving it and returning transformed, then Infectious Curse doesn't become attached to any player and is put into your graveyard. This won't cause abilities that trigger when a creature leaves the battlefield to trigger.
   - *2016-04-08* — Infectious Curse's middle ability affects all spells you cast that target the enchanted player, including Aura spells and spells that have additional targets. It doesn't affect abilities.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#accursed-witch--infectious-curse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/97/accursed-witch-infectious-curse) · oracle_id `80b07882-e144-4815-8b6f-04b3ab343d97` · printing: SOI #97 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ace, Fearless Rebel
@@ -617,6 +625,7 @@ schema: 2
   - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
   - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#ace-fearless-rebel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/98/ace-fearless-rebel) · oracle_id `50d0d870-fe3d-44a2-ad6e-93307a1fb468` · printing: WHO #98 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acererak the Archlich
@@ -633,6 +642,7 @@ schema: 2
   - *2021-07-23* — Acererak the Archlich has an intervening if clause in its first triggered ability. If you have completed Tomb of Annihilation, the ability won't trigger at all. If it does trigger, but you somehow complete Tomb of Annihilation while the ability is on the stack, then the ability won't do anything. You won't return Acererak to its owner's hand and you won't venture into the dungeon.
   - *2021-07-23* — If Acererak is no longer on the battlefield as its first ability resolves and you haven't completed Tomb of Annihilation, you will still venture into the dungeon.
   - *2021-07-23* — In a multiplayer game, each opponent decides in turn order whether or not they will sacrifice a creature and which one they will sacrifice. Each opponent knows the choices made before they make their own choice. Then, once all opponents have chosen, creatures are sacrificed and tokens are created simultaneously.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/A.md#acererak-the-archlich)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/87/acererak-the-archlich) · oracle_id `31b4e85d-89fc-4712-8f05-7ec097b1d3b6` · printing: AFR #87 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ace's Baseball Bat
@@ -698,6 +708,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Acidic Dagger does not affect the creature if all damage is prevented or redirected.
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the Declare Blockers Step of the first combat phase in that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#acidic-dagger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/291/acidic-dagger) · oracle_id `bf034a20-e362-4f38-9bf9-857777c62598` · printing: MIR #291 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acidic Slime
@@ -713,6 +724,7 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1520 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#acidic-slime)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/270/acidic-slime) · oracle_id `21f45043-5419-4019-8b6c-e5294bd5f549` · printing: CMM #270 (2023-08-04) · [rulings](https://api.scryfall.com/cards/932d48fb-42b5-4aaa-a91c-d35cdb5e41a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acidic Sliver
@@ -805,6 +817,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — If a card that isn't a transforming double-faced card is a copy of Aclazotz, Deepest Betrayal, it won't return to the battlefield when it dies.
   - *2023-11-10* — The last ability of Temple of the Dead will resolve even if you have two or more cards in hand at that time.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aclazotz-deepest-betrayal--temple-of-the-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/88/aclazotz-deepest-betrayal-temple-of-the-dead) · oracle_id `fcdfe9d5-2743-4d3e-ab57-bf0f96beaa15` · printing: LCI #88 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acolyte Hybrid
@@ -871,6 +884,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#acolyte-of-bahamut)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/212/acolyte-of-bahamut) · oracle_id `38477748-bc57-449c-afe1-c5f34caf8eff` · printing: CLB #212 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acolyte of the Inferno
@@ -1120,6 +1134,7 @@ schema: 2
   > *Once Aang and The Blue Spirit were under attack, it was unclear which one was rescuing the other.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11543 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#acrobatic-leap)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/151/acrobatic-leap) · oracle_id `1347224f-421e-4270-8e50-cf25c875909c` · printing: TLE #151 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a8b4bc34-cc8d-41d0-88ee-f40ec95cc0b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acrobatic Maneuver
@@ -1208,6 +1223,7 @@ schema: 2
   - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
   - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
   - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#act-of-aggression)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c15/141/act-of-aggression) · oracle_id `9d7624ea-ffff-470b-928b-bbac66ddbd1c` · printing: C15 #141 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Act of Authority
@@ -1238,6 +1254,7 @@ schema: 2
   - *2018-03-16* — The effects of Act of Heroism are cumulative. If multiples resolve targeting the same creature, that creature can block that many additional creatures this turn.
   - *2018-03-16* — Untapping an attacking creature doesn't remove it from combat.
   - *2018-03-16* — You can cast Act of Heroism even if the target creature won't be able to block right away, perhaps because you're the attacking player.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#act-of-heroism)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/1/act-of-heroism) · oracle_id `25edb501-11b5-4617-8a65-2eb4869cccd5` · printing: A25 #1 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Act of Treason
@@ -1252,6 +1269,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-07-12* — Act of Treason can target any creature, even one that's untapped or one you already control.
   - *2019-07-12* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#act-of-treason)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/99/act-of-treason) · oracle_id `9d08af23-9f4a-4097-9abc-3b17475ab744` · printing: RVR #99 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Act on Impulse

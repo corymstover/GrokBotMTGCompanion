@@ -76,6 +76,7 @@ schema: 2
   > *—Scarlet Witch, Wanda Maximoff*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15009 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wandas-vision)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/708/wandas-vision) · oracle_id `1448eadb-e8b1-4e8f-9697-3bb919085dab` · printing: MSC #708 (2026-06-26) · [rulings](https://api.scryfall.com/cards/43cf33cc-c1ac-4196-aa82-b27083694f64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderbrine Preacher
@@ -204,6 +205,7 @@ schema: 2
   - *2021-04-16* — For Wandering Archaic's triggered ability, the opponent chooses whether to pay {2} before their spell resolves. If they don't pay {2}, your copy will resolve before the original spell.
   - *2021-04-16* — While resolving Explore the Vastlands, first the active player reveals the cards they are going to put into their hand. Then each other player in turn order does the same, knowing choices made before they choose.
   - *2021-04-16* —  
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#wandering-archaic--explore-the-vastlands)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/6/wandering-archaic-explore-the-vastlands) · oracle_id `6556c4c0-b10d-4208-821b-0c0a49abd188` · printing: STX #6 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Champion
@@ -469,6 +471,7 @@ schema: 2
   > *—Professor Dellian Fel*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15370 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wander-off)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/104/wander-off) · oracle_id `b14d3226-adc2-4bdd-9e69-fefdc946ac04` · printing: SOS #104 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3d409512-50b9-4a38-91b0-19ba25227992/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandertale Mentor
@@ -518,6 +521,7 @@ schema: 2
   - *2025-11-17* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2025-11-17* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
   - *2025-11-17* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wanderwine-farewell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/83/wanderwine-farewell) · oracle_id `7e1da4a1-5922-4a2e-8bbc-25fbcbf20935` · printing: ECL #83 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderwine Hub
@@ -544,6 +548,7 @@ schema: 2
 - **Keywords:** Champion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9574 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#wanderwine-prophets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/95/wanderwine-prophets) · oracle_id `9ab36915-b600-4970-961a-403f5da0dba1` · printing: LRW #95 (2007-10-12) · [rulings](https://api.scryfall.com/cards/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wand of Denial
@@ -642,6 +647,7 @@ schema: 2
   > 20 | X is three.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2499 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#wand-of-wonder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/204/wand-of-wonder) · oracle_id `8f1123dd-19b7-402b-8ecd-ab62494c9fd5` · printing: CLB #204 (2022-06-10) · [rulings](https://api.scryfall.com/cards/df67ec01-9d4c-4ae1-9c8a-f94d649c81bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waning Wurm
@@ -686,6 +692,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — The second triggered ability won't be put on the stack until after the spell or ability causing the opponent to search their library finishes resolving.
   - *2025-10-02* — Wan Shi Tong, Librarian's second triggered ability won't trigger if you search an opponent's library or if an opponent searches another player's library.
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/W.md#wan-shi-tong-librarian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/78/wan-shi-tong-librarian) · oracle_id `2bace3ea-7d28-4a1c-857a-d3c3a1c11b59` · printing: TLA #78 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanted Griffin

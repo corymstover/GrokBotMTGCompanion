@@ -66,6 +66,7 @@ schema: 2
   - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
   - *2024-01-12* — Note that if the spell with overload is dealing damage, protection from that spell's color will still prevent that damage.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mizzium-mortars)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/803/mizzium-mortars) · oracle_id `48ddba1e-2ad7-463f-9307-d2379a800e51` · printing: CLB #803 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzium Skin
@@ -138,6 +139,7 @@ schema: 2
   - *2015-11-04* — Mizzix's last ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
   - *2015-11-04* — The cost reduction can apply to alternative costs such as flashback costs.
   - *2015-11-04* — You finish casting a spell, including paying its costs, before Mizzix's first ability triggers. The ability that gives you the experience counter will resolve before the spell that caused it to trigger.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#mizzix-of-the-izmagnus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/348/mizzix-of-the-izmagnus) · oracle_id `f787c6cf-a4ff-487b-a7b0-0f516e68510a` · printing: CMM #348 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzix, Replica Rider
@@ -181,4 +183,5 @@ schema: 2
   - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
   - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mizzixs-mastery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/175/mizzixs-mastery) · oracle_id `40362fe0-a1a9-4d76-8c35-eac474b91af5` · printing: OTC #175 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

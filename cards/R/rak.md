@@ -172,6 +172,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #518 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/R.md#rakdos-carnarium)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/161/rakdos-carnarium) · oracle_id `0a023964-2905-4928-9c3e-dc63e6ebd218` · printing: ECC #161 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Charm
@@ -188,6 +189,7 @@ schema: 2
   > *—Rakdos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #326 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/R.md#rakdos-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/125/rakdos-charm) · oracle_id `5e62b51d-faec-4aa0-9504-cf2c282d08ea` · printing: EOC #125 (2025-08-01) · [rulings](https://api.scryfall.com/cards/64b67170-1602-4050-80c0-ade2a6cac211/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Cluestone
@@ -264,6 +266,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24117 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2006-05-01* — If the second ability is activated during the end step, the token won't be exiled until the following turn's end step.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rakdos-guildmage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/214/rakdos-guildmage) · oracle_id `650949ca-609b-46c5-bc6b-6f782cdcb6d2` · printing: RVR #214 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Headliner
@@ -281,6 +284,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-06-18* — Paying for echo is always optional. When the echo triggered ability resolves, if you can't pay the echo cost or choose not to, you sacrifice that permanent.
   - *2021-06-18* — Your permanent's echo ability will trigger at the beginning of your upkeep if it entered the battlefield since the beginning of your last upkeep, or if you gained control of it since the beginning of your last upkeep.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#rakdos-headliner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/210/rakdos-headliner) · oracle_id `a8828c17-190b-4e64-a0f2-8d14c013d692` · printing: MH2 #210 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Ickspitter
@@ -357,6 +361,7 @@ schema: 2
   - *2020-11-10* — Rakdos's last ability can't reduce the colored mana requirement of a creature spell you cast.
   - *2020-11-10* — Rakdos's last ability cares about the total life lost, not necessarily what an opponent's life total is compared to what it was at the beginning of the turn. For example, if an opponent loses 5 life and then gains 10 life in a turn, creature spells you cast will cost {5} less to cast.
   - *2020-11-10* — Rakdos's last ability won't reduce the cost to cast Rakdos itself. It applies only to creature spells you cast once Rakdos is on the battlefield.
+- **Referenced in:** 4 pages (2 decks · 1 rules · 1 lore & story) → [reverse index](../../references/R.md#rakdos-lord-of-riots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/230/rakdos-lord-of-riots) · oracle_id `143a269a-b9ee-48ba-bd7b-4aa46eb36778` · printing: DSC #230 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos, Patron of Chaos
@@ -372,6 +377,7 @@ schema: 2
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2755 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rakdos-patron-of-chaos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/224/rakdos-patron-of-chaos) · oracle_id `d08ce18a-0fd9-47ac-ad2f-6934b60070f1` · printing: MKM #224 (2024-02-09) · [rulings](https://api.scryfall.com/cards/cc6fd2d5-8eb2-4265-a1bf-d4ae635285af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Pit Dragon
@@ -415,6 +421,7 @@ schema: 2
 - **Keywords:** First strike, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26219 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#rakdos-ringleader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/186/rakdos-ringleader) · oracle_id `f8ce8573-7c87-4f47-a0d4-14bd335f2c1d` · printing: RTR #186 (2012-10-05) · [rulings](https://api.scryfall.com/cards/6b54fbe8-324a-4066-bed1-dda1dca319fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Riteknife
@@ -469,6 +476,7 @@ schema: 2
   > *Made of bone and boiled in blood, a Rakdos signet is not considered finished until it has been used as a murder weapon.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #168 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 19 pages (15 decks · 3 edh guides · 1 card data) → [reverse index](../../references/R.md#rakdos-signet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/60/rakdos-signet) · oracle_id `3adb7681-977f-4a32-9ec8-51481b958268` · printing: FRC #60 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a263e71d-953f-4648-b326-33133cfa7e00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos's Return
@@ -515,6 +523,7 @@ schema: 2
   - *2024-04-12* — If the sacrificed creature had {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2024-04-12* — Use the mana value of the sacrificed creature as it last existed on the battlefield to determine how many cards to exile.
   - *2024-04-12* — You pay all costs and follow all normal timing rules for cards played from exile with Rakdos's triggered ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#rakdos-the-muscle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/226/rakdos-the-muscle) · oracle_id `e2c141af-925e-42bd-8d83-e1a71f4c9794` · printing: OTJ #226 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos, the Showstopper
@@ -532,6 +541,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-01-25* — All of the creatures whose coins come up tails are destroyed at the same time.
   - *2019-01-25* — Players can't take any action between the time that coins are flipped and the time creatures are destroyed. For example, if they wish to cast a spell to have a creature gain indestructible, they must do so before Rakdos's triggered ability resolves, without knowing whether that creature's coin will come up heads or tails.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/R.md#rakdos-the-showstopper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/205/rakdos-the-showstopper) · oracle_id `03a4b997-4738-41a9-933f-e1f765e3a75a` · printing: CLU #205 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Trumpeter
@@ -618,6 +628,7 @@ schema: 2
   > *"If you're not having fun, what's the point of living forever?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6578 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/R.md#rakish-heir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/149/rakish-heir) · oracle_id `3318c391-7aa1-4550-88a0-b29d8dca28b7` · printing: VOC #149 (2021-11-19) · [rulings](https://api.scryfall.com/cards/0da15652-8207-4be1-b821-3fb3dad66e37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakish Revelers
@@ -674,6 +685,7 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18406 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rakka-mar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/247/rakka-mar) · oracle_id `6d92f14b-470b-40bc-b294-f725d46f307e` · printing: CMM #247 (2023-08-04) · [rulings](https://api.scryfall.com/cards/cd36b274-5b76-44ec-8d62-069b08debe89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raksha Golden Cub

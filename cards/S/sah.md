@@ -63,6 +63,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21026 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#saheeli-consul-of-oversight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/203/saheeli-consul-of-oversight) · oracle_id `dfa95c0e-393d-4b22-9de3-45a7efc0ba14` · printing: FRA #203 (2026-10-02) · [rulings](https://api.scryfall.com/cards/07572be0-6610-493c-a21e-14b78e9805c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli, Filigree Master
@@ -80,6 +81,7 @@ schema: 2
   - *2022-10-14* — For the first ability, you don't choose which artifact to tap until the ability resolves.
   - *2022-10-14* — If you manage to activate Saheeli's last ability multiple times, each emblem you get is applied independently. For example, if you have two of those emblems, artifact creatures you control get +2/+2 and artifact spells you cast cost {2} less.
   - *2022-10-14* — The cost reduction provided by Saheeli's emblem can never reduce the colored mana costs of an artifact spell.
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/S.md#saheeli-filigree-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/219/saheeli-filigree-master) · oracle_id `68cf7415-b434-4284-89b4-c7d44a003eb8` · printing: BRO #219 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli, Jewel of Avishkar
@@ -94,6 +96,7 @@ schema: 2
   > *"Life isn't worth living without freedom of expression."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17101 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#saheeli-jewel-of-avishkar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/275/saheeli-jewel-of-avishkar) · oracle_id `83705258-1f42-41db-a32e-de99ffd759eb` · printing: FRA #275 (2026-10-02) · [rulings](https://api.scryfall.com/cards/28d84ef6-e190-46d4-882d-1cea5e111e2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli, Radiant Creator
@@ -118,6 +121,7 @@ schema: 2
   - *2025-02-07* — Some spells and abilities which give you {E} or say you “may pay” some amount of {E} require one or more targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. None of its effects will happen, you won’t get any {E} from it, and you won’t get the chance to pay any {E} for its effects even if you want to.
   - *2025-02-07* — The token you create copies the original characteristics of the permanent as printed on the card or, for a token, as stated by the effect that created that token (unless it’s copying something else; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras or Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
   - *2025-02-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#saheeli-radiant-creator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/drc/3/saheeli-radiant-creator) · oracle_id `20f602b3-814f-406c-b7eb-2d1fc98f8cf1` · printing: DRC #3 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli Rai
@@ -140,6 +144,7 @@ schema: 2
   - *2016-09-20* — In a Two-Headed Giant game, Saheeli's first ability causes 2 damage total to be dealt to the opposing team.
   - *2016-09-20* — The token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
   - *2016-09-20* — The token is an artifact in addition to its other types. This is a copiable value of the token that other effects may copy. Haste and the ability's delayed triggered ability aren't copiable.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#saheeli-rai)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/186/saheeli-rai) · oracle_id `5f3fe679-aff1-41b3-8d75-c78c2c0636f0` · printing: KLD #186 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli's Artistry
@@ -242,6 +247,7 @@ schema: 2
   - *2019-05-03* — Saheeli's first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
   - *2019-05-03* — Saheeli's loyalty ability causes the target artifact to copy the printed values of the target permanent, plus any copy effects that have been applied to it. It won't copy counters on that permanent or effects that have changed its power, toughness, types, color, or so on. Notably, it won't copy effects that made the target permanent become a creature.
   - *2019-05-03* — The target artifact is an artifact in addition to whatever types the second target has, and this exception is copiable. If something else copies the artifact later in the turn, that copy also will be an artifact.
+- **Referenced in:** 4 pages (1 decks · 1 lore & story · 2 card data) → [reverse index](../../references/S.md#saheeli-sublime-artificer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/935/saheeli-sublime-artificer) · oracle_id `ab655810-f67e-4576-9174-35b16f5e3235` · printing: CMM #935 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli, the Gifted
@@ -264,6 +270,7 @@ schema: 2
   - *2018-07-13* — The total cost to cast a spell is locked in before you pay that cost. For example, if you control three artifacts, including one you can sacrifice to add {C}, Saheeli's second ability will reduce the cost of a spell you cast by {3}. Then you can sacrifice the artifact when you activate mana abilities just before paying the cost, and it remains reduced by {3}.
   - *2018-07-13* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Saheeli's second ability). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
   - *2018-07-13* — While resolving Saheeli's third ability, each token copies exactly what was printed on the original artifact and nothing else (unless that artifact is copying something else or is a token; see below). It doesn't copy whether that artifact is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its types, color, or so on.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/S.md#saheeli-the-gifted)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/44/saheeli-the-gifted) · oracle_id `0e084342-31ff-47a5-9fd8-5b385add7a1a` · printing: C18 #44 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli, the Sun's Brilliance
@@ -282,6 +289,7 @@ schema: 2
   - *2023-11-10* — If the copied permanent is a token, the new token that's created copies the original characteristics of that token as stated by the effect that created the token (with the listed exceptions).
   - *2023-11-10* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied (with the listed exceptions).
   - *2023-11-10* — The token copies exactly what was printed on the original permanent, with the listed exceptions (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#saheeli-the-suns-brilliance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/239/saheeli-the-suns-brilliance) · oracle_id `5aa76c5d-8046-42ce-b61d-cc9b4806c11a` · printing: LCI #239 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sahir, Visitor in Darkness

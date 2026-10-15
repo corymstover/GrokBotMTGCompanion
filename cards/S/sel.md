@@ -175,6 +175,7 @@ schema: 2
   > • Create a 2/2 white Knight creature token with vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9903 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#selesnya-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/192/selesnya-charm) · oracle_id `a1a49639-bcc4-4522-8862-c9fb13d40880` · printing: CMA #192 (2017-06-09) · [rulings](https://api.scryfall.com/cards/6e52d1a2-064f-4dcb-983d-322aec1776f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Cluestone
@@ -240,6 +241,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Gate is not a basic land type.
   - *2013-04-15* — The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#selesnya-guildgate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/694/selesnya-guildgate) · oracle_id `75b235d3-595a-4859-be45-9559d8445db5` · printing: FDN #694 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Guildmage
@@ -310,6 +312,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #585 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Referenced in:** 6 pages (3 decks · 3 edh guides) → [reverse index](../../references/S.md#selesnya-sanctuary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/246/selesnya-sanctuary) · oracle_id `00ef1c55-dea1-4564-bd57-66de86cba4df` · printing: CLU #246 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Sentry
@@ -336,6 +339,7 @@ schema: 2
   > *The symbol of the Conclave is one of unity, with tree supporting sun and sun feeding tree.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1085 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#selesnya-signet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/RVR-267/selesnya-signet) · oracle_id `1436dd81-496e-42a5-b210-fb5b9cdf073f` · printing: PLST #RVR-267 (2026-08-10) · [rulings](https://api.scryfall.com/cards/43b5b24f-316a-406d-b30a-0f6252f6590d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Self-Assembler
@@ -421,6 +425,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-09-22* — Only creatures you control when Selfless Cathar's ability resolves will be affected. Creatures that enter or that you gain control of later in the turn will not.
   - *2011-09-22* — You can activate Selfless Cathar's ability even if you control no other creatures.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#selfless-cathar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/31/selfless-cathar) · oracle_id `a6e4c8de-4c35-4ea4-b865-596ae8cef075` · printing: M15 #31 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Exorcist
@@ -488,6 +493,7 @@ schema: 2
   - *2025-11-17* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2025-11-17* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
   - *2025-11-17* — You choose the creature type as Selfless Safewright's last ability resolves. Once the ability starts to resolve, players can't respond to the choice or take any actions until the ability finishes resolving.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#selfless-safewright)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/193/selfless-safewright) · oracle_id `ce19b337-9266-471d-bec3-49eb7f0e62ac` · printing: ECL #193 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Samurai
@@ -500,6 +506,7 @@ schema: 2
   > Sacrifice this creature: Another target creature you control gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7282 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#selfless-samurai)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/35/selfless-samurai) · oracle_id `20c9fb06-3941-456f-ba02-4fbde9deb1e2` · printing: NEO #35 (2022-02-18) · [rulings](https://api.scryfall.com/cards/76c27ec5-5a9b-4080-9a53-00630335a915/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Savior
@@ -529,6 +536,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #594 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — The set of creatures affected by Selfless Spirit's last ability is determined as the ability resolves. Creatures you begin to control later in the turn won't gain indestructible.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#selfless-spirit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/167/selfless-spirit) · oracle_id `71d785a9-ddc8-472e-a778-a551b444a4bd` · printing: SOC #167 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Squire
@@ -545,6 +553,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-11-08* — Selfless Squire's first triggered ability prevents all damage that would be dealt to you this turn after the triggered ability resolves, even if Selfless Squire leaves the battlefield.
   - *2016-11-08* — Selfless Squire's second triggered ability doesn't trigger only when damage is prevented by its first triggered ability's effect. Any effect that uses the word "prevent" will cause it to trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#selfless-squire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/82/selfless-squire) · oracle_id `7d079c78-b2a9-444f-ab54-c61c041baa6d` · printing: MKC #82 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Self-Reflection
@@ -687,6 +696,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-05-29* — Except in some very rare cases, the card each player draws will be the card revealed from the top of their library.
   - *2026-08-05* *(Scryfall note)* — Selvala’s ability is not a mana ability. Players can respond to it, and it can’t be activated in the middle of paying for a cost. A recent update to rule 605.1a has made any abilities that move cards to or from libraries no longer mana abilities.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#selvala-explorer-returned)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/218/selvala-explorer-returned) · oracle_id `b628a39b-c923-473d-900a-1617f47ecb76` · printing: MKC #218 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selvala, Heart of the Wilds
@@ -702,6 +712,7 @@ schema: 2
   - *2016-08-23* — If the new creature isn't on the battlefield as the first ability resolves, use its power when it left the battlefield to determine whether its controller may draw a card. Note that effects that reduced its power before it left the battlefield will apply.
   - *2016-08-23* — Selvala's last ability is a mana ability. It doesn't use the stack and can't be responded to. If the greatest power among creatures you control is 0 or less at that time, no mana is added.
   - *2016-08-23* — The new creature's power is compared to the power of each other creature on the battlefield as the first ability resolves. If another creature has the same or higher power than the new creature's power, no one may draw a card.
+- **Referenced in:** 7 pages (2 decks · 4 edh guides · 1 card data) → [reverse index](../../references/S.md#selvala-heart-of-the-wilds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/116/selvala-heart-of-the-wilds) · oracle_id `1d725121-e50c-42f0-9128-56802f07c89e` · printing: ECC #116 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selvala's Charge

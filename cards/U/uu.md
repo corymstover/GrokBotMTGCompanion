@@ -50,4 +50,5 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — If you don't put the card into your graveyard, it stays on top of your library.
   - *2022-09-09* — The ability that defines Uurg, Spawn of Turg's power works in all zones, not just on the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#uurg-spawn-of-turg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/127/uurg-spawn-of-turg) · oracle_id `0191a93a-f304-4c20-9af4-7cdea82c07cf` · printing: EOC #127 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

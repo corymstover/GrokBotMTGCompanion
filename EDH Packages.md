@@ -52,6 +52,8 @@ Pattern: `\{T\}: Add` · 65 Commander-legal matches
 | [Talisman of Hierarchy](cards/T/ta.md#talisman-of-hierarchy) | WB | 2 | 135 | $0.40 |  |
 | [Talisman of Progress](cards/T/ta.md#talisman-of-progress) | WU | 2 | 136 | $0.29 |  |
 
+Used in decks (≥ 3 matching cards, 68): [Mairsil, the Pretender (Grixis)](grixis/decks/mairsil-the-pretender.md) 12 · [Mishra, Artificer Prodigy (Grixis)](grixis/decks/mishra-artificer-prodigy.md) 12 · [Crosis, the Purger (Grixis)](grixis/decks/crosis-the-purger.md) 11 · [Garza Zol, Plague Queen (Grixis)](grixis/decks/garza-zol-plague-queen.md) 11 · [Kykar, Wind's Fury](decks/kykar-winds-fury.md) 10 · [Nekusar, the Mindrazer](decks/nekusar-the-mindrazer.md) 10 · [Fire Lord Azula (Grixis)](grixis/decks/fire-lord-azula.md) 10 · [Kess, Dissident Mage (Grixis)](grixis/decks/kess-dissident-mage.md) 10 · [Zur the Enchanter](decks/zur-the-enchanter.md) 9 · [Anhelo, the Painter (Grixis)](grixis/decks/anhelo-the-painter.md) 9 · [Bjorna, Nightfall Alchemist (Grixis)](grixis/decks/bjorna-nightfall-alchemist-cecily.md) 9 · [Don Andres, the Renegade (Grixis)](grixis/decks/don-andres-the-renegade.md) 9 · …56 more
+
 Budget options beyond the top 10 (≤ $1.00): [Talisman of Conviction](cards/T/ta.md#talisman-of-conviction) (WR, $0.35) · [Dimir Signet](cards/D/di.md#dimir-signet) (UB, $0.29) · [Rakdos Signet](cards/R/rak.md#rakdos-signet) (BR, $0.40) · [Izzet Signet](cards/I/iz.md#izzet-signet) (UR, $0.28)
 
 ### Ramp: Land ramp (puts lands onto the battlefield)
@@ -70,6 +72,8 @@ Pattern: `search your library for (up to (one|two) )?(a |an )?(basic land|land) 
 | [Kodama of the West Tree](cards/K/ko.md#kodama-of-the-west-tree) | G | 3 | 855 | $19.61 |  |
 | [Shared Roots](cards/S/sha.md#shared-roots) | G | 2 | 1,006 | $0.38 |  |
 | [Roiling Regrowth](cards/R/ro.md#roiling-regrowth) | G | 3 | 1,054 | $0.27 |  |
+
+Used in decks (≥ 3 matching cards, 5): [Tatyova, Benthic Druid](decks/tatyova-benthic-druid.md) 7 · [Gishath, Sun's Avatar](decks/gishath-suns-avatar.md) 5 · [Korvold, Fae-Cursed King](decks/korvold-fae-cursed-king.md) 3 · [Ghalta, Primal Hunger (Ixalan-only)](decks/plane-ixalan-ghalta-primal-hunger.md) 3 · [Omnath, Locus of Rage (Zendikar-only)](decks/plane-zendikar-omnath-locus-of-rage.md) 3
 
 Budget options beyond the top 10 (≤ $1.00): [Migration Path](cards/M/mig.md#migration-path) (G, $0.29) · [Explosive Vegetation](cards/E/ex.md#explosive-vegetation) (G, $0.28) · [Topiary Stomper](cards/T/to.md#topiary-stomper) (G, $0.66) · [Wight of the Reliquary](cards/W/wi.md#wight-of-the-reliquary) (BG, $0.43)
 
@@ -90,6 +94,8 @@ Pattern: `\{T\}: Add` · 168 Commander-legal matches
 | [Ignoble Hierarch](cards/I/ig.md#ignoble-hierarch) | BRG | 1 | 535 | $0.92 |  |
 | [Incubation Druid](cards/I/inc.md#incubation-druid) | G | 2 | 642 | $0.78 |  |
 
+Used in decks (≥ 3 matching cards, 13): [Chulane, Teller of Tales](decks/chulane-teller-of-tales.md) 8 · [Animar, Soul of Elements](decks/animar-soul-of-elements.md) 7 · [Selvala, Heart of the Wilds](decks/selvala-heart-of-the-wilds.md) 7 · [Chulane, Teller of Tales (landfall theme)](decks/theme-chulane-teller-of-tales-landfall.md) 6 · [Xenagos, God of Revels](decks/xenagos-god-of-revels.md) 6 · [Karador, Ghost Chieftain](decks/karador-ghost-chieftain.md) 5 · [Lathril, Blade of the Elves](decks/lathril-blade-of-the-elves.md) 5 · [Trostani, Selesnya's Voice](decks/trostani-selesnyas-voice.md) 5 · [Ghalta, Primal Hunger (Ixalan-only)](decks/plane-ixalan-ghalta-primal-hunger.md) 4 · [Saskia the Unyielding](decks/saskia-the-unyielding.md) 4 · [Korvold, Fae-Cursed King](decks/korvold-fae-cursed-king.md) 3 · [Muldrotha, the Gravetide](decks/muldrotha-the-gravetide.md) 3 · …1 more
+
 Budget options beyond the top 10 (≤ $1.00): [Gyre Sage](cards/G/gy.md#gyre-sage) (G, $0.64) · [Iron Myr](cards/I/ir.md#iron-myr) (R, $0.75) · [Silver Myr](cards/S/si.md#silver-myr) (U, $0.24) · [Gold Myr](cards/G/gol.md#gold-myr) (W, $0.72)
 
 ### Ramp: Cost reducers
@@ -108,6 +114,8 @@ Pattern: `spells you cast cost \{\d\} less|cost \{\d\} less to cast` · 180 Comm
 | [Pearl Medallion](cards/P/pe.md#pearl-medallion) | C | 2 | 430 | $7.40 |  |
 | [Emerald Medallion](cards/E/em.md#emerald-medallion) | C | 2 | 582 | $5.16 |  |
 | [Cloud Key](cards/C/cl.md#cloud-key) | C | 3 | 606 | $1.52 |  |
+
+Used in decks (≥ 3 matching cards, 16): [Giada, Font of Hope](decks/giada-font-of-hope.md) 6 · [Gishath, Sun's Avatar](decks/gishath-suns-avatar.md) 6 · [The Ur-Dragon](decks/the-ur-dragon.md) 6 · [Talrand, Sky Summoner](decks/talrand-sky-summoner.md) 5 · [Mishra, Artificer Prodigy (Grixis)](grixis/decks/mishra-artificer-prodigy.md) 5 · [Breya, Etherium Shaper](decks/breya-etherium-shaper.md) 4 · [Ashad, the Lone Cyberman (Grixis)](grixis/decks/ashad-the-lone-cyberman.md) 4 · [Be'lakor, the Dark Master (Grixis)](grixis/decks/belakor-the-dark-master.md) 4 · [Loki, the Deceiver (Grixis)](grixis/decks/loki-the-deceiver.md) 4 · [Mai and Zuko (Grixis)](grixis/decks/mai-and-zuko.md) 4 · [Kozilek, the Great Distortion](decks/kozilek-the-great-distortion.md) 3 · [Niv-Mizzet, Parun](decks/niv-mizzet-parun.md) 3 · …4 more
 
 Budget options beyond the top 10 (≤ $1.00): [Goblin Electromancer](cards/G/gob.md#goblin-electromancer) (UR, $0.23) · [Danitha Capashen, Paragon](cards/D/da.md#danitha-capashen-paragon) (W, $0.34) · [Stormcatch Mentor](cards/S/sto.md#stormcatch-mentor) (UR, $0.28) · [Nightscape Familiar](cards/N/ni.md#nightscape-familiar) (B, $0.42)
 
@@ -132,6 +140,8 @@ Pattern: `(whenever|at the beginning of)[^.]*draw (a|one) card` · 728 Commander
 | [Archmage Emeritus](cards/A/arc.md#archmage-emeritus) | U | 4 | 253 | $0.64 |  |
 | [Faerie Mastermind](cards/F/fa.md#faerie-mastermind) | U | 2 | 288 | $11.95 |  |
 
+Used in decks (≥ 3 matching cards, 50): [Niv-Mizzet, Parun](decks/niv-mizzet-parun.md) 10 · [Kynaios and Tiro of Meletis](decks/kynaios-and-tiro-of-meletis.md) 8 · [Saskia the Unyielding](decks/saskia-the-unyielding.md) 8 · [Talrand, Sky Summoner](decks/talrand-sky-summoner.md) 8 · [Chulane, Teller of Tales (landfall theme)](decks/theme-chulane-teller-of-tales-landfall.md) 8 · [Goro-Goro and Satoru (Grixis)](grixis/decks/goro-goro-and-satoru.md) 8 · [Animar, Soul of Elements](decks/animar-soul-of-elements.md) 7 · [Chulane, Teller of Tales](decks/chulane-teller-of-tales.md) 7 · [Muldrotha, the Gravetide](decks/muldrotha-the-gravetide.md) 7 · [Xenagos, God of Revels](decks/xenagos-god-of-revels.md) 7 · [Bjorna, Nightfall Alchemist (Grixis)](grixis/decks/bjorna-nightfall-alchemist-cecily.md) 7 · [Uro, Titan of Nature's Wrath (Theros-only)](decks/plane-theros-uro-titan-of-natures-wrath.md) 6 · …38 more
+
 Budget options beyond the top 10 (≤ $1.00): [Psychosis Crawler](cards/P/ps.md#psychosis-crawler) (C, $0.68) · [Bident of Thassa](cards/B/bi.md#bident-of-thassa) (U, $0.43) · [Tatyova, Benthic Druid](cards/T/ta.md#tatyova-benthic-druid) (UG, $0.24) · [Curiosity](cards/C/cu.md#curiosity) (U, $0.71)
 
 ### Card advantage: Burst draw (instants & sorceries)
@@ -151,6 +161,8 @@ Pattern: `draw (two|three|four|five|seven|X) cards` · 294 Commander-legal match
 | [Unexpected Windfall](cards/U/un.md#unexpected-windfall) | R | 4 | 269 | $1.88 |  |
 | [Harmonize](cards/H/ha.md#harmonize) | G | 4 | 327 | $0.19 |  |
 
+Used in decks (≥ 3 matching cards, 9): [Niv-Mizzet, Parun](decks/niv-mizzet-parun.md) 6 · [Bjorna, Nightfall Alchemist (Grixis)](grixis/decks/bjorna-nightfall-alchemist-cecily.md) 5 · [Doctor Doom, King of Latveria (Grixis)](grixis/decks/doctor-doom-king-of-latveria.md) 5 · [Talrand, Sky Summoner](decks/talrand-sky-summoner.md) 4 · [Kykar, Wind's Fury](decks/kykar-winds-fury.md) 3 · [Teysa Karlov](decks/teysa-karlov.md) 3 · [Yidris, Maelstrom Wielder](decks/yidris-maelstrom-wielder.md) 3 · [Edea, Possessed Sorceress (Grixis)](grixis/decks/edea-possessed-sorceress.md) 3 · [Fire Lord Azula (Grixis)](grixis/decks/fire-lord-azula.md) 3
+
 Budget options beyond the top 10 (≤ $1.00): [Demand Answers](cards/D/dem.md#demand-answers) (R, $0.46) · [Read the Bones](cards/R/rea.md#read-the-bones) (B, $0.19) · [Corrupted Conviction](cards/C/cor.md#corrupted-conviction) (B, $0.36) · [Treasure Cruise](cards/T/tre.md#treasure-cruise) (U, $0.25)
 
 ### Card advantage: Impulse / exile-to-play
@@ -169,6 +181,8 @@ Pattern: `exile the top[^.]*\. (Until|You may) [^.]*(play|cast)` · 209 Commande
 | [Atsushi, the Blazing Sky](cards/A/at.md#atsushi-the-blazing-sky) | R | 4 | 1,364 | $0.28 |  |
 | [Bonehoard Dracosaur](cards/B/bo.md#bonehoard-dracosaur) | R | 5 | 1,394 | $15.19 |  |
 | [Chandra, Torch of Defiance](cards/C/cha.md#chandra-torch-of-defiance) | R | 4 | 1,480 | $1.94 |  |
+
+Used in decks (≥ 3 matching cards, 11): [Prosper, Tome-Bound](decks/prosper-tome-bound.md) 15 · [Don Andres, the Renegade (Grixis)](grixis/decks/don-andres-the-renegade.md) 12 · [Nathan Drake, Treasure Hunter (Grixis)](grixis/decks/nathan-drake-treasure-hunter.md) 11 · [Edward Kenway (Grixis)](grixis/decks/edward-kenway.md) 6 · [Abaddon the Despoiler (Grixis)](grixis/decks/abaddon-the-despoiler.md) 5 · [Admiral Beckett Brass (Grixis)](grixis/decks/admiral-beckett-brass.md) 5 · [Admiral Brass, Unsinkable (Grixis)](grixis/decks/admiral-brass-unsinkable.md) 4 · [Goro-Goro and Satoru (Grixis)](grixis/decks/goro-goro-and-satoru.md) 4 · [Isshin, Two Heavens as One (Kamigawa-only)](decks/plane-kamigawa-isshin-two-heavens-as-one.md) 3 · [Fire Lord Azula (Grixis)](grixis/decks/fire-lord-azula.md) 3 · [Jeleva, Nephalia's Scourge (Grixis)](grixis/decks/jeleva-nephalias-scourge.md) 3
 
 Budget options beyond the top 10 (≤ $1.00): [Grenzo, Havoc Raiser](cards/G/gre.md#grenzo-havoc-raiser) (R, $0.30) · [Gix, Yawgmoth Praetor](cards/G/gi.md#gix-yawgmoth-praetor) (B, $0.68) · [Party Thrasher](cards/P/pa.md#party-thrasher) (R, $0.58) · [Reckless Impulse](cards/R/rec.md#reckless-impulse) (R, $0.87)
 
@@ -193,6 +207,8 @@ Pattern: `(^|\. |\n)Sacrifice (a|another) creature: ` · 41 Commander-legal matc
 | [Woe Strider](cards/W/wo.md#woe-strider) | B | 3 | 1,676 | $0.28 |  |
 | [Spawning Pit](cards/S/spa.md#spawning-pit) | C | 2 | 4,270 | $1.56 |  |
 
+Used in decks (≥ 3 matching cards, 7): [Marchesa, the Black Rose (Grixis)](grixis/decks/marchesa-the-black-rose.md) 7 · [Teysa Karlov](decks/teysa-karlov.md) 5 · [Edea, Possessed Sorceress (Grixis)](grixis/decks/edea-possessed-sorceress.md) 5 · [Lord of Tresserhorn (Grixis)](grixis/decks/lord-of-tresserhorn.md) 5 · [Missy (Grixis)](grixis/decks/missy.md) 5 · [Karador, Ghost Chieftain](decks/karador-ghost-chieftain.md) 3 · [Korvold, Fae-Cursed King](decks/korvold-fae-cursed-king.md) 3
+
 Budget options beyond the top 10 (≤ $1.00): [Fanatical Devotion](cards/F/fa.md#fanatical-devotion) (W, $0.51) · [Immersturm Predator](cards/I/im.md#immersturm-predator) (BR, $0.23) · [Bloodflow Connoisseur](cards/B/blo.md#bloodflow-connoisseur) (B, $0.10) · [Bloodthrone Vampire](cards/B/blo.md#bloodthrone-vampire) (B, $0.14)
 
 ### Aristocrats: Death-trigger drain payoffs
@@ -212,6 +228,8 @@ Pattern: `whenever (a|another) (nontoken )?creature (you control )?dies[^.]*(los
 | [Grave Venerations](cards/G/gra.md#grave-venerations) | B | 4 | 4,101 | $0.36 |  |
 | [Dark Prophecy](cards/D/da.md#dark-prophecy) | B | 3 | 4,331 | $5.43 |  |
 
+Used in decks (≥ 3 matching cards, 1): [Teysa Karlov](decks/teysa-karlov.md) 4
+
 Budget options beyond the top 10 (≤ $1.00): [Dreadhound](cards/D/dre.md#dreadhound) (B, $0.17) · [Life Insurance](cards/L/li.md#life-insurance) (WB, $0.31) · [Agent Venom](cards/A/ag.md#agent-venom) (B, $0.36) · [Relic Vial](cards/R/rel.md#relic-vial) (C, $0.26)
 
 ### Aristocrats: Fodder makers (multiple creature tokens)
@@ -230,6 +248,8 @@ Pattern: `create (two|three|four|X|a number of) [^.]*creature tokens` · 555 Com
 | [Secure the Wastes](cards/S/sec.md#secure-the-wastes) | W | 1 | 1,196 | $0.30 |  |
 | [Arachnogenesis](cards/A/ara.md#arachnogenesis) | G | 3 | 1,236 | $1.77 |  |
 | [Grand Crescendo](cards/G/gra.md#grand-crescendo) | W | 2 | 1,251 | $0.75 |  |
+
+Used in decks (≥ 3 matching cards, 6): [Krenko, Mob Boss](decks/krenko-mob-boss.md) 9 · [Breya, Etherium Shaper](decks/breya-etherium-shaper.md) 4 · [Syr Konrad, the Grim (Eldraine-only)](decks/plane-eldraine-syr-konrad-the-grim.md) 3 · [Elesh Norn, Mother of Machines (New-only)](decks/plane-new-phyrexia-elesh-norn-mother-of-machines.md) 3 · [Teysa Karlov](decks/teysa-karlov.md) 3 · [Trostani, Selesnya's Voice](decks/trostani-selesnyas-voice.md) 3
 
 Budget options beyond the top 10 (≤ $1.00): [Martial Coup](cards/M/mar.md#martial-coup) (W, $0.26) · [Grave Titan](cards/G/gra.md#grave-titan) (B, $0.25) · [Siege-Gang Commander](cards/S/si.md#siege-gang-commander) (R, $0.26) · [Hornet Queen](cards/H/ho.md#hornet-queen) (G, $0.23)
 
@@ -254,6 +274,8 @@ Pattern: `(twice that many|that many plus one) \+1/\+1 counters|twice that many 
 | [Mycoloth](cards/M/my.md#mycoloth) | G | 5 | 2,103 | $0.56 |  |
 | [Conclave Mentor](cards/C/con.md#conclave-mentor) | WG | 2 | 2,378 | $0.35 |  |
 
+Used in decks (≥ 3 matching cards, 1): [Animar, Soul of Elements](decks/animar-soul-of-elements.md) 4
+
 Budget options beyond the top 10 (≤ $1.00): [Benevolent Hydra](cards/B/be.md#benevolent-hydra) (G, $0.76) · [Mauhúr, Uruk-hai Captain](cards/M/mau.md#mauhúr-uruk-hai-captain) (BR, $0.26) · [Mowu, Loyal Companion](cards/M/mow.md#mowu-loyal-companion) (G, $0.22) · [Galloping Lizrog](cards/G/ga.md#galloping-lizrog) (UG, $0.31)
 
 ### +1/+1 counters: Proliferate
@@ -272,6 +294,8 @@ Pattern: `\bproliferate\b` · 95 Commander-legal matches
 | [Tekuthal, Inquiry Dominus](cards/T/te.md#tekuthal-inquiry-dominus) | U | 4 | 1,183 | $1.92 |  |
 | [Dreamtide Whale](cards/D/dre.md#dreamtide-whale) | U | 3 | 1,186 | $3.43 |  |
 | [Flux Channeler](cards/F/fl.md#flux-channeler) | U | 3 | 1,250 | $2.65 |  |
+
+Used in decks (≥ 3 matching cards, 2): [Atraxa, Praetors' Voice](decks/atraxa-praetors-voice.md) 24 · [Atraxa, Praetors' Voice (planeswalkers theme)](decks/theme-atraxa-praetors-voice-planeswalkers.md) 12
 
 Budget options beyond the top 10 (≤ $1.00): [Experimental Augury](cards/E/ex.md#experimental-augury) (U, $0.21) · [Contagion Clasp](cards/C/con.md#contagion-clasp) (C, $0.35) · [Metastatic Evangel](cards/M/me.md#metastatic-evangel) (W, $0.37) · [Grateful Apparition](cards/G/gra.md#grateful-apparition) (W, $0.18)
 
@@ -315,6 +339,8 @@ Pattern: `instant and sorcery spells you cast cost \{1\} less|instant or sorcery
 | [Mocking Sprite](cards/M/moc.md#mocking-sprite) | U | 3 | 2,894 | $0.20 |  |
 | [Mindsplice Apparatus](cards/M/min.md#mindsplice-apparatus) | U | 4 | 2,999 | $1.10 |  |
 
+Used in decks (≥ 3 matching cards, 3): [Talrand, Sky Summoner](decks/talrand-sky-summoner.md) 4 · [Niv-Mizzet, Parun](decks/niv-mizzet-parun.md) 3 · [Anhelo, the Painter (Grixis)](grixis/decks/anhelo-the-painter.md) 3
+
 Budget options beyond the top 10 (≤ $1.00): [Jace's Sanctum](cards/J/ja.md#jaces-sanctum) (U, $0.58) · [Mizzix of the Izmagnus](cards/M/miz.md#mizzix-of-the-izmagnus) (UR, $0.83) · [Dirgur Focusmage // Braingeyser](cards/D/di.md#dirgur-focusmage--braingeyser) (U, $0.27) · [Curious Homunculus // Voracious Reader](cards/C/cu.md#curious-homunculus--voracious-reader) (U, $0.31)
 
 ### Spellslinger: Spell copiers
@@ -334,6 +360,8 @@ Pattern: `copy (target|that) (instant or sorcery|instant|sorcery) spell` · 34 C
 | [Reiterate](cards/R/rei.md#reiterate) | R | 3 | 2,557 | $18.13 |  |
 | [Increasing Vengeance](cards/I/inc.md#increasing-vengeance) | R | 2 | 3,076 | $0.86 |  |
 
+Used in decks (≥ 3 matching cards, 1): [Anhelo, the Painter (Grixis)](grixis/decks/anhelo-the-painter.md) 4
+
 Budget options beyond the top 10 (≤ $1.00): [Expansion // Explosion](cards/E/ex.md#expansion--explosion) (UR, $0.19) · [Naru Meha, Master Wizard](cards/N/na.md#naru-meha-master-wizard) (U, $0.96) · [Gandalf the Grey](cards/G/ga.md#gandalf-the-grey) (UR, $0.37) · [Insidious Will](cards/I/ins.md#insidious-will) (U, $0.46)
 
 ### Spellslinger: Cast-trigger payoffs
@@ -352,6 +380,8 @@ Pattern: `whenever you cast (an|a) (instant or sorcery|instant|sorcery|noncreatu
 | [Valley Floodcaller](cards/V/va.md#valley-floodcaller) | U | 3 | 761 | $3.77 |  |
 | [Talrand, Sky Summoner](cards/T/ta.md#talrand-sky-summoner) | U | 4 | 804 | $0.41 |  |
 | [Coruscation Mage](cards/C/cor.md#coruscation-mage) | R | 2 | 805 | $2.16 |  |
+
+Used in decks (≥ 3 matching cards, 12): [Feather, the Redeemed](decks/feather-the-redeemed.md) 14 · [Kykar, Wind's Fury](decks/kykar-winds-fury.md) 14 · [Niv-Mizzet, Parun](decks/niv-mizzet-parun.md) 10 · [Anhelo, the Painter (Grixis)](grixis/decks/anhelo-the-painter.md) 9 · [Abaddon the Despoiler (Grixis)](grixis/decks/abaddon-the-despoiler.md) 5 · [Talrand, Sky Summoner](decks/talrand-sky-summoner.md) 4 · [Bjorna, Nightfall Alchemist (Grixis)](grixis/decks/bjorna-nightfall-alchemist-cecily.md) 4 · [Aurelia, the Warleader (Ravnica-only)](decks/plane-ravnica-aurelia-the-warleader.md) 3 · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](grixis/decks/kefka-court-mage.md) 3 · [Kess, Dissident Mage (Grixis)](grixis/decks/kess-dissident-mage.md) 3 · [Mai and Zuko (Grixis)](grixis/decks/mai-and-zuko.md) 3 · [Marchesa, Dealer of Death (Grixis)](grixis/decks/marchesa-dealer-of-death.md) 3
 
 Budget options beyond the top 10 (≤ $1.00): [Young Pyromancer](cards/Y/yo.md#young-pyromancer) (R, $0.24) · [Stormcatch Mentor](cards/S/sto.md#stormcatch-mentor) (UR, $0.28) · [Firebrand Archer](cards/F/fi.md#firebrand-archer) (R, $0.25) · [Fiery Inscription](cards/F/fi.md#fiery-inscription) (R, $0.46)
 
@@ -376,6 +406,8 @@ Pattern: `\bmill (two|three|four|five|X|\w+) cards\b|you mill` · 260 Commander-
 | [Hedge Shredder](cards/H/he.md#hedge-shredder) | G | 4 | 1,277 | $2.49 |  |
 | [Palantír of Orthanc](cards/P/pa.md#palantír-of-orthanc) | C | 3 | 1,339 | $18.11 |  |
 
+Used in decks (≥ 3 matching cards, 3): [Muldrotha, the Gravetide (self mill theme)](decks/theme-muldrotha-the-gravetide-self-mill.md) 14 · [Muldrotha, the Gravetide](decks/muldrotha-the-gravetide.md) 11 · [Karador, Ghost Chieftain](decks/karador-ghost-chieftain.md) 8
+
 Budget options beyond the top 10 (≤ $1.00): [Skull Prophet](cards/S/sk.md#skull-prophet) (BG, $0.64) · [Nyx Weaver](cards/N/ny.md#nyx-weaver) (BG, $0.23) · [Perpetual Timepiece](cards/P/pe.md#perpetual-timepiece) (C, $0.30) · [Liliana, Death's Majesty](cards/L/li.md#liliana-deaths-majesty) (B, $0.36)
 
 ### Graveyard: Reanimation
@@ -395,6 +427,8 @@ Pattern: `(return|put) target creature card from (a|your) graveyard (on)?to the 
 | [Artisan of Kozilek](cards/A/art.md#artisan-of-kozilek) | C | 9 | 1,207 | $0.43 |  |
 | [Cleric Class](cards/C/cl.md#cleric-class) | W | 1 | 1,416 | $0.94 |  |
 
+Used in decks (≥ 3 matching cards, 3): [Karador, Ghost Chieftain](decks/karador-ghost-chieftain.md) 5 · [K'rrik, Son of Yawgmoth](decks/krrik-son-of-yawgmoth.md) 3 · [Be'lakor, the Dark Master (Grixis)](grixis/decks/belakor-the-dark-master.md) 3
+
 Budget options beyond the top 10 (≤ $1.00): [Liliana, Death's Majesty](cards/L/li.md#liliana-deaths-majesty) (B, $0.36) · [Priest of Fell Rites](cards/P/pr.md#priest-of-fell-rites) (WB, $0.25) · [Vat of Rebirth](cards/V/va.md#vat-of-rebirth) (B, $0.32) · [Kenrith, the Returned King](cards/K/ke.md#kenrith-the-returned-king) (WUBRG, $0.51)
 
 ### Graveyard: Recursion to hand
@@ -413,6 +447,8 @@ Pattern: `return (target|up to \w+ target) [a-z ]*cards? from your graveyard to 
 | [Timeless Witness](cards/T/ti.md#timeless-witness) | G | 4 | 1,323 | $0.33 |  |
 | [Regrowth](cards/R/reg.md#regrowth) | G | 2 | 1,393 | $0.48 |  |
 | [Unnatural Restoration](cards/U/un.md#unnatural-restoration) | G | 2 | 1,530 | $1.35 |  |
+
+Used in decks (≥ 3 matching cards, 2): [Muldrotha, the Gravetide (self mill theme)](decks/theme-muldrotha-the-gravetide-self-mill.md) 4 · [Karador, Ghost Chieftain](decks/karador-ghost-chieftain.md) 3
 
 Budget options beyond the top 10 (≤ $1.00): [Stitch Together](cards/S/sti.md#stitch-together) (B, $0.30) · [Oversold Cemetery](cards/O/ov.md#oversold-cemetery) (B, $0.48) · [Nyx Weaver](cards/N/ny.md#nyx-weaver) (BG, $0.23) · [Honest Rutstein](cards/H/ho.md#honest-rutstein) (BG, $0.33)
 
@@ -437,6 +473,8 @@ Pattern: `twice that many (of those )?tokens|create (twice|double) that many` ·
 | [Kaya, Geist Hunter](cards/K/ka.md#kaya-geist-hunter) | WB | 3 | 4,513 | $0.36 |  |
 | [Bard, King of Dale](cards/B/bar.md#bard-king-of-dale) | WU | 6 | 7,293 | $3.37 |  |
 
+Used in decks (≥ 3 matching cards, 1): [Trostani, Selesnya's Voice](decks/trostani-selesnyas-voice.md) 3
+
 ### Tokens: Anthems
 
 Pattern: `creatures you control get \+\d+/\+\d+` · 223 Commander-legal matches
@@ -453,6 +491,8 @@ Pattern: `creatures you control get \+\d+/\+\d+` · 223 Commander-legal matches
 | [Elvish Archdruid](cards/E/el.md#elvish-archdruid) | G | 3 | 883 | $0.48 |  |
 | [Warleader's Call](cards/W/war.md#warleaders-call) | WR | 3 | 913 | $4.08 |  |
 | [Bastion Protector](cards/B/bas.md#bastion-protector) | W | 3 | 935 | $0.29 |  |
+
+Used in decks (≥ 3 matching cards, 4): [Edgar Markov](decks/edgar-markov.md) 3 · [Giada, Font of Hope](decks/giada-font-of-hope.md) 3 · [Kozilek, the Great Distortion](decks/kozilek-the-great-distortion.md) 3 · [Edgar Markov (lifegain theme)](decks/theme-edgar-markov-lifegain.md) 3
 
 Budget options beyond the top 10 (≤ $1.00): [Thunderfoot Baloth](cards/T/thu.md#thunderfoot-baloth) (G, $0.40) · [Cemetery Reaper](cards/C/ce.md#cemetery-reaper) (B, $0.21) · [Master of Etherium](cards/M/mas.md#master-of-etherium) (U, $0.25) · [It That Heralds the End](cards/I/it.md#it-that-heralds-the-end) (C, $0.34)
 
@@ -512,6 +552,8 @@ Pattern: `(entering|enters)[^.]*causes? a triggered ability[^.]*triggers? an add
 | [Gandalf the White](cards/G/ga.md#gandalf-the-white) | W | 5 | 2,692 | $8.84 |  |
 | [Naban, Dean of Iteration](cards/N/na.md#naban-dean-of-iteration) | U | 2 | 6,024 | $0.29 |  |
 
+Used in decks (≥ 3 matching cards, 1): [Brago, King Eternal](decks/brago-king-eternal.md) 3
+
 ## Lands / landfall
 
 **Guidance:** Plan: extra land drops plus landfall payoffs.
@@ -533,6 +575,8 @@ Pattern: `play an additional land|play two additional lands` · 36 Commander-leg
 | [The Gitrog Monster](cards/T/theg.md#the-gitrog-monster) | BG | 5 | 911 | $0.42 |  |
 | [Wayward Swordtooth](cards/W/way.md#wayward-swordtooth) | G | 3 | 1,062 | $3.74 |  |
 
+Used in decks (≥ 3 matching cards, 3): [Tatyova, Benthic Druid](decks/tatyova-benthic-druid.md) 10 · [Kynaios and Tiro of Meletis](decks/kynaios-and-tiro-of-meletis.md) 3 · [Omnath, Locus of Rage (Zendikar-only)](decks/plane-zendikar-omnath-locus-of-rage.md) 3
+
 Budget options beyond the top 10 (≤ $1.00): [Rites of Flourishing](cards/R/ri.md#rites-of-flourishing) (G, $0.54) · [Escape to the Wilds](cards/E/es.md#escape-to-the-wilds) (RG, $0.29) · [Urban Evolution](cards/U/ur.md#urban-evolution) (UG, $0.12) · [Ghirapur Orrery](cards/G/gh.md#ghirapur-orrery) (C, $0.39)
 
 ### Lands / landfall: Landfall payoffs
@@ -552,6 +596,8 @@ Pattern: `\blandfall\b|whenever a land (you control )?enters` · 207 Commander-l
 | [Icetill Explorer](cards/I/ic.md#icetill-explorer) | G | 4 | 611 | $21.00 |  |
 | [Tireless Tracker](cards/T/ti.md#tireless-tracker) | G | 3 | 666 | $0.24 |  |
 
+Used in decks (≥ 3 matching cards, 5): [Omnath, Locus of Rage (Zendikar-only)](decks/plane-zendikar-omnath-locus-of-rage.md) 20 · [Chulane, Teller of Tales (landfall theme)](decks/theme-chulane-teller-of-tales-landfall.md) 17 · [Tatyova, Benthic Druid](decks/tatyova-benthic-druid.md) 15 · [Chulane, Teller of Tales](decks/chulane-teller-of-tales.md) 7 · [Muldrotha, the Gravetide (self mill theme)](decks/theme-muldrotha-the-gravetide-self-mill.md) 3
+
 Budget options beyond the top 10 (≤ $1.00): [Omnath, Locus of Rage](cards/O/om.md#omnath-locus-of-rage) (RG, $0.34) · [Bloodghast](cards/B/blo.md#bloodghast) (B, $0.95) · [Retreat to Coralhelm](cards/R/ret.md#retreat-to-coralhelm) (U, $0.41) · [Emeria Angel](cards/E/em.md#emeria-angel) (W, $0.26)
 
 ### Lands / landfall: Lands from graveyard
@@ -570,6 +616,8 @@ Pattern: `play lands from your graveyard|return (target|all) land cards? from yo
 | [Lumra, Bellow of the Woods](cards/L/lu.md#lumra-bellow-of-the-woods) | G | 6 | 1,128 | $27.17 |  |
 | [Titania, Protector of Argoth](cards/T/ti.md#titania-protector-of-argoth) | G | 5 | 1,171 | $0.32 |  |
 | [World Shaper](cards/W/wo.md#world-shaper) | G | 4 | 1,524 | $5.51 |  |
+
+Used in decks (≥ 3 matching cards, 4): [Tatyova, Benthic Druid](decks/tatyova-benthic-druid.md) 6 · [Karador, Ghost Chieftain](decks/karador-ghost-chieftain.md) 4 · [Muldrotha, the Gravetide](decks/muldrotha-the-gravetide.md) 3 · [Muldrotha, the Gravetide (self mill theme)](decks/theme-muldrotha-the-gravetide-self-mill.md) 3
 
 Budget options beyond the top 10 (≤ $1.00): [The Mending of Dominaria](cards/T/them.md#the-mending-of-dominaria) (G, $0.32) · [Szarel, Genesis Shepherd](cards/S/sz.md#szarel-genesis-shepherd) (BRG, $0.53) · [Perennial Behemoth](cards/P/pe.md#perennial-behemoth) (G, $0.48) · [Glacierwood Siege](cards/G/gl.md#glacierwood-siege) (UG, $0.33)
 
@@ -594,6 +642,8 @@ Pattern: `whenever (an|another|one or more) (nontoken )?artifacts? (you control 
 | [Disciple of the Vault](cards/D/di.md#disciple-of-the-vault) | B | 1 | 2,500 | $0.90 |  |
 | [Efficient Construction](cards/E/ef.md#efficient-construction) | U | 4 | 2,611 | $0.46 |  |
 
+Used in decks (≥ 3 matching cards, 6): [Ashad, the Lone Cyberman (Grixis)](grixis/decks/ashad-the-lone-cyberman.md) 7 · [Breya, Etherium Shaper](decks/breya-etherium-shaper.md) 6 · [Ashnod the Uncaring (Grixis)](grixis/decks/ashnod-the-uncaring.md) 5 · [Prosper, Tome-Bound](decks/prosper-tome-bound.md) 3 · [Dr. Eggman (Grixis)](grixis/decks/dr-eggman.md) 3 · [Mishra, Artificer Prodigy (Grixis)](grixis/decks/mishra-artificer-prodigy.md) 3
+
 Budget options beyond the top 10 (≤ $1.00): [Surge Conductor](cards/S/sur.md#surge-conductor) (C, $0.31) · [Mendicant Core, Guidelight](cards/M/me.md#mendicant-core-guidelight) (WU, $0.59) · [Golbez, Crystal Collector](cards/G/gol.md#golbez-crystal-collector) (UB, $0.35) · [Sarinth Steelseeker](cards/S/sar.md#sarinth-steelseeker) (G, $0.23)
 
 ### Artifacts: Artifact cost reducers
@@ -608,6 +658,8 @@ Pattern: `artifact spells you cast cost` · 6 Commander-legal matches
 | [Voyager Quickwelder](cards/V/vo.md#voyager-quickwelder) | W | 3 | 2,592 | $0.31 |  |
 | [Shuri, Wakandan Inventor](cards/S/shu.md#shuri-wakandan-inventor) | U | 2 | 5,752 | $0.34 |  |
 | [Saheeli, Filigree Master](cards/S/sah.md#saheeli-filigree-master) | UR | 4 | 9,636 | $0.90 |  |
+
+Used in decks (≥ 3 matching cards, 6): [Breya, Etherium Shaper](decks/breya-etherium-shaper.md) 3 · [Ashad, the Lone Cyberman (Grixis)](grixis/decks/ashad-the-lone-cyberman.md) 3 · [Ashnod the Uncaring (Grixis)](grixis/decks/ashnod-the-uncaring.md) 3 · [Cult of Skaro (Grixis)](grixis/decks/cult-of-skaro.md) 3 · [Mai and Zuko (Grixis)](grixis/decks/mai-and-zuko.md) 3 · [Mishra, Artificer Prodigy (Grixis)](grixis/decks/mishra-artificer-prodigy.md) 3
 
 ## Enchantress
 
@@ -647,6 +699,8 @@ Pattern: `(equipped|enchanted) creature (gets [^.]*and )?(has|gains) (hexproof|s
 | [Sword of Fire and Ice](cards/S/sw.md#sword-of-fire-and-ice) | C | 3 | 1,340 | $17.41 |  |
 | [Caduceus, Staff of Hermes](cards/C/cad.md#caduceus-staff-of-hermes) | W | 3 | 1,439 | $7.63 |  |
 
+Used in decks (≥ 3 matching cards, 3): [Garza Zol, Plague Queen (Grixis)](grixis/decks/garza-zol-plague-queen.md) 6 · [Zur the Enchanter](decks/zur-the-enchanter.md) 3 · [Crosis, the Purger (Grixis)](grixis/decks/crosis-the-purger.md) 3
+
 Budget options beyond the top 10 (≤ $1.00): [Thran Power Suit](cards/T/thr.md#thran-power-suit) (C, $0.95) · [Spirit Mantle](cards/S/spi.md#spirit-mantle) (W, $0.30) · [Royal Treatment](cards/R/ro.md#royal-treatment) (G, $0.31) · [Shielded by Faith](cards/S/shi.md#shielded-by-faith) (W, $0.41)
 
 ### Voltron (equipment & auras): Evasion & double strike
@@ -665,6 +719,8 @@ Pattern: `(equipped|enchanted) creature (gets [^.]*and )?(has|gains) (double str
 | [Loxodon Warhammer](cards/L/lo.md#loxodon-warhammer) | C | 3 | 987 | $1.22 |  |
 | [Genji Glove](cards/G/ge.md#genji-glove) | C | 5 | 1,058 | $7.25 |  |
 | [Fireshrieker](cards/F/fi.md#fireshrieker) | C | 3 | 1,142 | $0.23 |  |
+
+Used in decks (≥ 3 matching cards, 3): [Yidris, Maelstrom Wielder](decks/yidris-maelstrom-wielder.md) 4 · [Garza Zol, Plague Queen (Grixis)](grixis/decks/garza-zol-plague-queen.md) 4 · [Uro, Titan of Nature's Wrath (Theros-only)](decks/plane-theros-uro-titan-of-natures-wrath.md) 3
 
 Budget options beyond the top 10 (≤ $1.00): [Sticky Fingers](cards/S/sti.md#sticky-fingers) (R, $0.23) · [Beamtown Beatstick](cards/B/be.md#beamtown-beatstick) (R, $0.82) · [Wrecking Ball Arm](cards/W/wr.md#wrecking-ball-arm) (C, $0.28) · [Glasswing Grace // Age-Graced Chapel](cards/G/gl.md#glasswing-grace--age-graced-chapel) (WB, $0.36)
 
@@ -688,6 +744,8 @@ Pattern: `(whenever|at the beginning)[^.]*create (a|one|two|X|that many) Treasur
 | [The Reaver Cleaver](cards/T/ther.md#the-reaver-cleaver) | R | 3 | 530 | $24.48 |  |
 | [Grim Hireling](cards/G/gri.md#grim-hireling) | B | 4 | 902 | $10.17 |  |
 | [Old Gnawbone](cards/O/ol.md#old-gnawbone) | G | 7 | 932 | $48.53 |  |
+
+Used in decks (≥ 3 matching cards, 9): [Edward Kenway (Grixis)](grixis/decks/edward-kenway.md) 10 · [Korvold, Fae-Cursed King](decks/korvold-fae-cursed-king.md) 8 · [Prosper, Tome-Bound](decks/prosper-tome-bound.md) 8 · [Admiral Brass, Unsinkable (Grixis)](grixis/decks/admiral-brass-unsinkable.md) 7 · [Admiral Beckett Brass (Grixis)](grixis/decks/admiral-beckett-brass.md) 6 · [Don Andres, the Renegade (Grixis)](grixis/decks/don-andres-the-renegade.md) 6 · [Nathan Drake, Treasure Hunter (Grixis)](grixis/decks/nathan-drake-treasure-hunter.md) 5 · [Goro-Goro and Satoru (Grixis)](grixis/decks/goro-goro-and-satoru.md) 4 · [The Ur-Dragon](decks/the-ur-dragon.md) 3
 
 Budget options beyond the top 10 (≤ $1.00): [Captain Lannery Storm](cards/C/cap.md#captain-lannery-storm) (R, $0.26) · [Mahadi, Emporium Master](cards/M/mah.md#mahadi-emporium-master) (BR, $0.44) · [Shiny Impetus](cards/S/shi.md#shiny-impetus) (R, $0.13) · [Sticky Fingers](cards/S/sti.md#sticky-fingers) (R, $0.23)
 

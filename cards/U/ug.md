@@ -48,6 +48,7 @@ schema: 2
   - *2025-04-04* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2025-04-04* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs those must be paid to cast the spell.
   - *2025-04-04* — You must follow the normal timing permissions and restrictions of each spell you cast using the permission granted by Ugin’s last ability.
+- **Referenced in:** 4 pages (2 decks · 2 lore & story) → [reverse index](../../references/U.md#ugin-eye-of-the-storms)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/1/ugin-eye-of-the-storms) · oracle_id `5c58353a-fd60-4528-bf0d-669626cda0b2` · printing: TDM #1 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin's Binding
@@ -111,6 +112,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-08-25* — If X is 0, you won't scry at all. Any abilities that trigger whenever you scry won't trigger.
   - *2015-08-25* — Use the highest mana value among permanents you control as Ugin's Insight resolves to determine how many cards you scry.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#ugins-insight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/87/ugins-insight) · oracle_id `ad7b9db0-e061-4360-9b81-0408d18d971d` · printing: BFZ #87 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin's Labyrinth
@@ -125,6 +127,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2765 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-06-07* — In the rare case where more than one card is exiled with Ugin's Labyrinth's imprint ability (likely because the triggered ability was copied or the ability triggered a second time), its last ability will return all such cards to their owners' hands.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/U.md#ugins-labyrinth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/233/ugins-labyrinth) · oracle_id `d565cd3d-68d4-4039-9e45-7e69e31d0ffb` · printing: MH3 #233 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin's Mastery
@@ -150,6 +153,7 @@ schema: 2
   - *2023-07-28* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
   - *2023-07-28* — You can look at a face-down permanent you control any time. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
   - *2023-07-28* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#ugins-mastery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/53/ugins-mastery) · oracle_id `d6158860-ada8-4e39-8156-23dee2f68f79` · printing: MKC #53 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin's Nexus
@@ -186,6 +190,7 @@ schema: 2
   - *2019-05-03* — If you've activated Ugin's ability multiple times, you must keep track of which exiled card belongs to each Spirit token.
   - *2019-05-03* — Once you look at the exiled face-down card once, you may look at it again any time you wish. If another player gains control of the Spirit token, that player can't look at the exiled card.
   - *2019-05-03* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Ugin). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 6 pages (2 decks · 2 lore & story · 2 card data) → [reverse index](../../references/U.md#ugin-the-ineffable)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/811/ugin-the-ineffable) · oracle_id `18bdc181-9592-4147-81fb-7f83ce137f70` · printing: CMM #811 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin, the Spirit Dragon
@@ -204,6 +209,7 @@ schema: 2
   - *2020-06-23* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
   - *2020-06-23* — If a permanent has {X} in its mana cost, X is considered to be 0.
   - *2020-06-23* — The mana value of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
+- **Referenced in:** 8 pages (3 decks · 1 edh guides · 3 lore & story · 1 card data) → [reverse index](../../references/U.md#ugin-the-spirit-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/1/ugin-the-spirit-dragon) · oracle_id `eecb3047-a563-441a-9175-200421981ac3` · printing: M21 #1 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uglúk of the White Hand

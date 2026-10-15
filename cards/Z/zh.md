@@ -148,6 +148,7 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2514 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/Z.md#zhalfirin-void)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/273/zhalfirin-void) · oracle_id `13aab4fc-4c89-45e6-8275-b074b00d0ee9` · printing: AFC #273 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d481d871-d1e3-439b-bfd5-5b2212f9b0c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhang Fei, Fierce Warrior
@@ -177,6 +178,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26964 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zhang-he-wei-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/95/zhang-he-wei-general) · oracle_id `fe35b809-7439-4bdc-bce2-42262095064f` · printing: PTK #95 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhang Liao, Hero of Hefei
@@ -188,6 +190,7 @@ schema: 2
   > Whenever Zhang Liao deals damage to an opponent, that opponent discards a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30035 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zhang-liao-hero-of-hefei)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/96/zhang-liao-hero-of-hefei) · oracle_id `244541f6-cbfc-4e89-9156-64e412f745a7` · printing: PTK #96 (1999-05-01) · [rulings](https://api.scryfall.com/cards/8f42a953-3073-4e74-9bb8-c8c5a45d1dfa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhao, Ruthless Admiral
@@ -208,6 +211,7 @@ schema: 2
   - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zhao-ruthless-admiral)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/252/zhao-ruthless-admiral) · oracle_id `d6b0198a-c1f2-4142-b5e2-8205adf14d0a` · printing: TLA #252 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhao, the Moon Slayer
@@ -225,6 +229,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — If an effect states that a land enters tapped unless a condition is met, Zhao, the Moon Slayer's second ability has it enter tapped even if that condition is true. For example, you may control a basic land while playing Abandoned Air Temple, but Abandoned Air Temple will still enter tapped.
   - *2025-10-02* — While Zhao has a conqueror counter on him, if a nonbasic land has an ability that triggers "when" it enters, it will lose that ability before it can trigger. Nonbasic lands will lose any other land types and abilities they had. They will have the land type Mountain and the intrinsic ability "{T}: Add {R}." This effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zhao-the-moon-slayer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/162/zhao-the-moon-slayer) · oracle_id `94c64d41-d756-42b6-b0e7-0a351d64a68c` · printing: TLA #162 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhao, the Seething Flame
@@ -255,6 +260,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26412 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/Z.md#zhao-zilong-tiger-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/33/zhao-zilong-tiger-general) · oracle_id `22aa8e7f-b30d-49e2-b99e-9232e1a3bcf3` · printing: PTK #33 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhentarim Bandit
@@ -298,6 +304,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27544 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zhuge-jin-wu-strategist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/66/zhuge-jin-wu-strategist) · oracle_id `ce995d3f-be7c-4d2a-8ec4-c7f7f831f0bf` · printing: PTK #66 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhulodok, Void Gorger
@@ -320,6 +327,7 @@ schema: 2
   - *2023-07-28* — The mana value of a split card is determined by the combined mana value of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2023-07-28* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2023-07-28* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/Z.md#zhulodok-void-gorger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/704/zhulodok-void-gorger) · oracle_id `ec726c54-987b-48ed-8ffa-ec73a5e35333` · printing: CMM #704 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhur-Taa Ancient
@@ -367,6 +375,7 @@ schema: 2
   - *2019-01-25* — If a creature entering the battlefield has riot but can’t have a +1/+1 counter put onto it, it gains haste.
   - *2019-01-25* — If you choose for the creature to gain haste, it gains haste indefinitely. It won’t lose it as the turn ends or as another player gains control of it.
   - *2019-01-25* — Riot is a replacement effect. Players can’t respond to your choice of +1/+1 counter or haste, and they can’t take actions while the creature is on the battlefield without one or the other.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/Z.md#zhur-taa-goblin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/215/zhur-taa-goblin) · oracle_id `1003304f-af01-4235-af82-6ef901bd00bf` · printing: RNA #215 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhur-Taa Swine

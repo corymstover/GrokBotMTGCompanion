@@ -223,6 +223,7 @@ schema: 2
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 rules) → [reverse index](../../references/B.md#bloated-contaminator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/159/bloated-contaminator) · oracle_id `090018e0-4dcb-4b3c-b4e0-7ba62de0484d` · printing: ONE #159 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloated Processor
@@ -328,6 +329,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #142 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — If Blood Artist and one or more other creatures die at the same time, its ability will trigger for each of those creatures.
+- **Referenced in:** 12 pages (9 decks · 2 edh guides · 1 card data) → [reverse index](../../references/B.md#blood-artist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/209/blood-artist) · oracle_id `310f141c-7f37-4729-aed6-dd9c09db448d` · printing: SOC #209 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Aspirant
@@ -516,6 +518,7 @@ schema: 2
   - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#bloodbraid-elf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/184/bloodbraid-elf) · oracle_id `3f0c9466-5ab9-4205-a84f-b4b27b5a678e` · printing: 2X2 #184 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodbraid Marauder
@@ -585,6 +588,7 @@ schema: 2
   > *—Phage the Untouchable*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5893 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#blood-celebrant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/61/blood-celebrant) · oracle_id `695ce90b-a5a2-4d8c-ac05-07f04010603e` · printing: LGN #61 (2003-02-03) · [rulings](https://api.scryfall.com/cards/805de325-6f14-4a52-bb85-f9a9545d82a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodchief Ascension
@@ -601,6 +605,7 @@ schema: 2
   - *2009-10-01* — Bloodchief Ascension's first ability has an "intervening 'if' clause." It won't trigger at all unless an opponent has already lost 2 or more life by the time the end step begins.
   - *2009-10-01* — Bloodchief Ascension's second ability doesn't behave like a leaves-the-battlefield triggered ability, since the card put into an opponent's graveyard may come from anywhere. If a Bloodchief Ascension with three quest counters on it and a permanent an opponent owns are destroyed at the same time, for example, the game will not "look back in time" at the game state, and Bloodchief Ascension's second ability won't trigger.
   - *2009-10-01* — For the first ability to trigger, a single opponent must have lost 2 life. Two opponents each losing 1 life won't cause it to trigger. It will trigger a maximum of once per turn, no matter how many opponents have lost 2 or more life.
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/B.md#bloodchief-ascension)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/139/bloodchief-ascension) · oracle_id `d5ea905b-4bb6-48d0-9082-c472703db550` · printing: CMM #139 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodchief's Thirst
@@ -781,6 +786,7 @@ schema: 2
   - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
   - *2025-11-17* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
   - *2025-11-17* — This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
+- **Referenced in:** 53 pages (48 decks · 4 edh guides · 1 card data) → [reverse index](../../references/B.md#blood-crypt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/278/blood-crypt) · oracle_id `43985bbc-a0f6-4812-984e-392bc8562633` · printing: TRK #278 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Cultist
@@ -900,6 +906,7 @@ schema: 2
   > *—Samor, Mardu border guard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #949 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/B.md#bloodfell-caves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/250/bloodfell-caves) · oracle_id `64e29bfc-9313-4e8c-808c-bc27f6b018a6` · printing: TDM #250 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1dde3c68-6f29-4c00-b668-c25ac9e3e13b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Feud
@@ -1024,6 +1031,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8399 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-12-07* — You can sacrifice Bloodflow Connoisseur to pay the cost for its own ability. In this case, nothing happens as the ability resolves.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#bloodflow-connoisseur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/71/bloodflow-connoisseur) · oracle_id `ddb2fb87-235a-4365-aa25-40c197425e43` · printing: 2X2 #71 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood for Bones
@@ -1129,6 +1137,7 @@ schema: 2
   > Whenever you cast a noncreature spell, counter that spell unless you sacrifice a creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15448 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#blood-funnel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/77/blood-funnel) · oracle_id `81dd22f7-f6c6-4cf2-9744-b1d918dbcf9a` · printing: RAV #77 (2005-10-07) · [rulings](https://api.scryfall.com/cards/5f4e8084-4b9e-48e0-bf59-d45543e176f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodghast
@@ -1147,6 +1156,7 @@ schema: 2
   - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#bloodghast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/210/bloodghast) · oracle_id `e97f9c2b-b41e-4f36-9245-77c0ac125647` · printing: SOC #210 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodgift Demon
@@ -1389,6 +1399,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #862 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-11-10* — Bloodletter of Aclazotz's last ability doesn't change the amount of damage dealt to opponents. For example, if a 1/1 creature with lifelink deals combat damage to an opponent on your turn, they would lose 2 life, but you'd still gain only 1 life.
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/B.md#bloodletter-of-aclazotz)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/92/bloodletter-of-aclazotz) · oracle_id `469956a2-7cd4-4695-b8f4-c841526f160d` · printing: LCI #92 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodletter Quill
@@ -1418,6 +1429,7 @@ schema: 2
   - *2025-11-17* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2025-11-17* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
   - *2025-11-17* — You choose the creature type as Bloodline Bidding resolves. Once Bloodline Bidding starts to resolve, players can't respond to the choice or take any actions until Bloodline Bidding finishes resolving.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bloodline-bidding)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/91/bloodline-bidding) · oracle_id `bdb9e933-f679-4930-b669-0d123db09d16` · printing: ECL #91 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodline Culling
@@ -1451,6 +1463,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2549 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/B.md#bloodline-keeper--lord-of-lineage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/98/bloodline-keeper-lord-of-lineage) · oracle_id `434e82b5-abd4-41ac-a5b1-2dd01c667374` · printing: INR #98 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodline Necromancer
@@ -1466,6 +1479,7 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4115 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bloodline-necromancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/185/bloodline-necromancer) · oracle_id `f2a54e85-dd8b-462c-a811-c9553dc349a5` · printing: LCC #185 (2023-11-17) · [rulings](https://api.scryfall.com/cards/6b1e719c-4679-4cf0-8ca4-ae740eb0ba92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodline Pretender
@@ -1545,6 +1559,7 @@ schema: 2
   - *2011-09-22* — A creature spell like Phantasmal Image that may enter as a copy of a creature is not a Vampire creature spell, even if you intend on copying a Vampire creature when that creature enters.
   - *2011-09-22* — Multiple instances of bloodthirst are cumulative. For example, if you control Bloodlord of Vaasgoth and cast a Vampire creature spell that already has bloodthirst 1, that Vampire will enter with four +1/+1 counters on it if an opponent has been dealt damage that turn.
   - *2011-09-22* — Vampire creatures you put directly onto the battlefield without casting them and Vampire creature tokens you put onto the battlefield will not gain bloodthirst 3 from Bloodlord of Vaasgoth.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#bloodlord-of-vaasgoth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/121/bloodlord-of-vaasgoth) · oracle_id `d8560ee9-8cbb-440b-a132-e102a1eb3e89` · printing: VOC #121 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Lust
@@ -1643,6 +1658,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1669 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-06-10* — If a creature isn't destroyed this way for some reason, such as having indestructible or being regenerated, Blood Money's controller will not create a Treasure token for it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blood-money)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/183/blood-money) · oracle_id `75f5d372-4ff9-430c-8302-72472439e0d2` · printing: LCC #183 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Moon
@@ -1659,6 +1675,7 @@ schema: 2
   - *2020-08-07* — If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it can trigger.
   - *2020-08-07* — Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability "{T}: Add {R}."
   - *2020-08-07* — This effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/B.md#blood-moon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/118/blood-moon) · oracle_id `94fac5fe-97d5-4c12-a80c-8efff9d853ae` · printing: 2XM #118 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Oath
@@ -1760,6 +1777,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2600 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Because combat damage resolves immediately after it is assigned, you cannot sacrifice Blood Pet in between assigning and dealing combat damage. The last chance you have to sacrifice it before combat damage is dealt is during the Declare Blockers step.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/B.md#blood-pet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/121/blood-pet) · oracle_id `e05c6c80-a91a-45e0-b991-0014fd5a6472` · printing: 7ED #121 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Petal Celebrant
@@ -1790,6 +1808,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-11-12* — If Blood Poet loses spark, its spark abilities can’t be activated.
   - *2019-11-12* — You can activate only one spark ability from among permanents you control each turn, no matter how many permanents you control with spark abilities.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blood-poet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/34/blood-poet) · oracle_id `c74655d1-25a2-4208-8507-95fccff2a694` · printing: CMB2 #34 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Price
@@ -1941,6 +1960,7 @@ schema: 2
   - *2024-07-26* — If the target player is an illegal target as Bloodroot Apothecary's second ability tries to resolve, it won't resolve and none of its effects will happen. No player will create a Treasure token.
   - *2024-07-26* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get three poison counters.
   - *2024-07-26* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#bloodroot-apothecary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/27/bloodroot-apothecary) · oracle_id `09ecb8df-2a17-4e5a-814c-474bce54794d` · printing: BLC #27 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodscale Prowler
@@ -2188,6 +2208,7 @@ schema: 2
   > *A graveyard for conquerors and conquered alike.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #43 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 52 pages (46 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#bloodstained-mire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/216/bloodstained-mire) · oracle_id `fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57` · printing: MH3 #216 (2024-06-14) · [rulings](https://api.scryfall.com/cards/579743fe-f71e-4cb2-8629-d6b02ed1591d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodstoke Howler
@@ -2306,6 +2327,7 @@ schema: 2
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2624 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/B.md#bloodthirster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/73/bloodthirster) · oracle_id `e971249a-64a3-4a9b-9a0c-e9d858ca8a55` · printing: 40K #73 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ccbb3a6d-7e75-46c7-a91f-db4cf8d003af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodthirsty Adversary
@@ -2379,6 +2401,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — Damage dealt to an opponent causes that opponent to lose life. An opponent paying life also causes loss of life.
   - *2024-11-08* — If you and an opponent both lose life simultaneously, and this causes your life total to become 0 or less, you'll lose the game before Bloodthirsty Conqueror's triggered ability can resolve.
+- **Referenced in:** 6 pages (2 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/B.md#bloodthirsty-conqueror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/58/bloodthirsty-conqueror) · oracle_id `fd505c02-c59e-476d-8e88-35da862ddc23` · printing: FDN #58 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodthirsty Ogre
@@ -2437,6 +2460,7 @@ schema: 2
 - **Rulings** (2):
   - *2010-06-15* — If you sacrifice an attacking or blocking creature during the declare blockers step, it won't deal combat damage. If you wait until the combat damage step, but the creature you wish to sacrifice is dealt lethal damage, it'll be destroyed before you get a chance to sacrifice it.
   - *2010-06-15* — You can sacrifice Bloodthrone Vampire to activate its own ability, but it won't be on the battlefield to get the bonus.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#bloodthrone-vampire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddp/46/bloodthrone-vampire) · oracle_id `aa76cc50-5be0-4844-b3a4-fb33fca3cdd3` · printing: DDP #46 (2015-08-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Tithe
@@ -2449,6 +2473,7 @@ schema: 2
   > *The Crimson Throne may be empty, but its coffers are full.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11007 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blood-tithe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m11/84/blood-tithe) · oracle_id `c82665b7-d011-4bdc-b4a2-eca5861b16d2` · printing: M11 #84 (2010-07-16) · [rulings](https://api.scryfall.com/cards/cf166294-3359-4da4-84d0-006c75c183fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodtithe Collector
@@ -2465,6 +2490,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19907 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — Bloodtithe Collector's triggered ability cares whether an opponent lost life this turn, not how their life total changed. For example, an opponent who gained 2 life and lost 1 life in the same turn still lost life.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bloodtithe-collector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/751/bloodtithe-collector) · oracle_id `93088b0c-d158-473a-9c06-aa2f344a9868` · printing: FDN #751 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodtithe Harvester
@@ -2481,6 +2507,7 @@ schema: 2
   - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
   - *2025-01-24* — The value of X is determined only once, as Bloodtithe Harvester’s last ability resolves.
   - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bloodtithe-harvester)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/233/bloodtithe-harvester) · oracle_id `419a8ab2-cff6-4811-a559-8791c9bb3d8e` · printing: INR #233 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood-Toll Harpy
@@ -2712,6 +2739,7 @@ schema: 2
   - *2025-11-17* — For each color (white, blue, black, red, and green), check to see if you control a permanent of that color. You can count the same permanent for multiple colors. For example, if you control a green enchantment and a white-black creature, Bloom Tender's ability produces {W}{B}{G}.
   - *2025-11-17* — Lands are normally colorless permanents, even if they tap for mana of a certain color.
   - *2025-11-17* — The colors are white, blue, black, red, and green. Colorless is not a color.
+- **Referenced in:** 11 pages (8 decks · 2 edh guides · 1 card data) → [reverse index](../../references/B.md#bloom-tender)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/166/bloom-tender) · oracle_id `0c23fefe-9891-4dd8-9bb1-eebdb3274e31` · printing: ECL #166 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloomvine Regent // Claim Territory
@@ -2737,6 +2765,7 @@ schema: 2
   - *2025-04-04* — If an effect instructs you to choose a card name, you may choose the alternative Omen name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
   - *2025-04-04* — If you cast an omen card as an Omen, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Thundermane Dragon (“You may cast creature spells with power 4 or greater from the top of your library.”) and Twinmaw Stormbrood is on top of your library, you can cast Twinmaw Stormbrood, but not Charring Bite.
   - *2025-04-04* — When casting a spell as an Omen, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/B.md#bloomvine-regent--claim-territory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/136/bloomvine-regent-claim-territory) · oracle_id `da1e019c-2ffb-412d-90d7-f2e5e5c44c4b` · printing: TDM #136 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blorbian Buddy
@@ -2843,6 +2872,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3952 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-04-16* — This ability counts the total amount of life gained without considering any life you lost during that turn. For example, if you lost 3 life and gained 3 life earlier in the turn, you'll gain 2 more life from Blossoming Bogbeast and creatures you control will get +5/+5.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#blossoming-bogbeast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/264/blossoming-bogbeast) · oracle_id `30f3c3be-0fe9-463d-a245-e44701aec7f2` · printing: SOC #264 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blossoming Calm
@@ -2884,6 +2914,7 @@ schema: 2
   > *—Hamza of House Fenzala*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1076 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/B.md#blossoming-sands)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/251/blossoming-sands) · oracle_id `45429b2c-be3b-4b2e-9bab-a059ccbda8cd` · printing: TDM #251 (2025-04-11) · [rulings](https://api.scryfall.com/cards/0a9df994-e0f4-4919-af99-4f643eb9199c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blossoming Tortoise
@@ -2914,6 +2945,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23892 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Creatures are counted on resolution.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blossoming-wreath)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/120/blossoming-wreath) · oracle_id `fbd99a88-8926-455e-8e23-58fed6d14719` · printing: WTH #120 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blossom Prancer

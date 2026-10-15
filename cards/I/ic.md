@@ -96,6 +96,7 @@ schema: 2
   > *A thousand years removed from her home, her news of war had lost its context, but not its relevance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25340 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#icatian-crier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/22/icatian-crier) · oracle_id `668312dd-7b6e-46bf-9c6a-bfb03dd75b8f` · printing: UMA #22 (2018-12-07) · [rulings](https://api.scryfall.com/cards/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icatian Infantry
@@ -246,6 +247,7 @@ schema: 2
   > *Icatia's once peaceful towns faced increasing attacks from orcs and goblins as the climate cooled. By the time the empire fell, they were little more than armed camps.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29608 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#icatian-town)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/18/icatian-town) · oracle_id `aa8b60b6-cf55-4aaa-9caa-2b17942d8269` · printing: ME1 #18 (2007-09-10) · [rulings](https://api.scryfall.com/cards/582044a0-0f4e-4de4-8bea-bc64757db198/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iceberg
@@ -414,6 +416,7 @@ schema: 2
 - **Keywords:** Recover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22719 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/I.md#icefall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/85/icefall) · oracle_id `30baca42-50e2-45f8-8f99-8e2f9795b4da` · printing: CSP #85 (2006-07-21) · [rulings](https://api.scryfall.com/cards/6cf90fc3-b08b-4261-a194-d6b06fdd59d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icefall Regent
@@ -484,6 +487,7 @@ schema: 2
 - **Keywords:** Islandcycling, Landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14988 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#ice-flan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/55/ice-flan) · oracle_id `3b7120a6-700b-4c61-bea4-a835f0cc0bcb` · printing: FIN #55 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ad304c9c-943f-442f-bb82-ff378ad7d7ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Floe
@@ -590,6 +594,7 @@ schema: 2
   - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that’s already on the battlefield, the new permanent isn’t bargained, even if the original was.
   - *2023-09-01* — Some instant and sorcery spells require additional targets if they’re bargained. You ignore those targeting requirements if those spells aren’t bargained, and you can’t bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won’t be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
   - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell’s bargain cost.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/I.md#ice-out)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/54/ice-out) · oracle_id `fed3bc35-4269-48f0-9133-a595ce49c2d1` · printing: WOE #54 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Over
@@ -644,6 +649,7 @@ schema: 2
   > Destroy target land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13712 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#ice-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/122/ice-storm) · oracle_id `a0b97e33-2d0c-4800-a9f5-9cd9be651ea8` · printing: ME1 #122 (2007-09-10) · [rulings](https://api.scryfall.com/cards/68cc9670-6faf-41c3-b111-358c46d8812d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icetill Explorer
@@ -663,6 +669,7 @@ schema: 2
   - *2025-07-25* — Icetill Explorer’s second ability doesn’t allow you to activate abilities (such as cycling) of land cards in your graveyard.
   - *2025-07-25* — Icetill Explorer’s second ability doesn’t change the times when you can play those land cards. You can still play lands only during your main phase when you have priority and the stack is empty.
   - *2025-07-25* — The effect of Icetill Explorer’s first ability is cumulative with similar effects. For example, if you control both Icetill Explorer and Exploration (an enchantment with “You may play an additional land on each of your turns”), you’ll be able to play three lands during each of your turns.
+- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 card data) → [reverse index](../../references/I.md#icetill-explorer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/192/icetill-explorer) · oracle_id `109cdefd-e8cc-4ac7-b6ba-2cfdef8d780f` · printing: EOE #192 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Tunnel
@@ -713,6 +720,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2022-06-10* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#icewind-stalwart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/27/icewind-stalwart) · oracle_id `9ad12c75-e97d-404a-bfa9-26ff1d0bb506` · printing: CLB #27 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icewrought Sentry
@@ -760,6 +768,7 @@ schema: 2
   - *2011-01-01* — Infect's effect applies to any damage, not just combat damage.
   - *2011-01-01* — The -1/-1 counters remain on the creature indefinitely. They're not removed if the creature regenerates or the turn ends.
   - *2011-01-01* — Whenever Ichorclaw Myr becomes blocked, its last ability triggers just once, no matter how many creatures it became blocked by. It will get just +2/+2.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#ichorclaw-myr)
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/166/ichorclaw-myr) · oracle_id `8462a2fa-944b-4fff-a161-10345690b56f` · printing: SOM #166 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichor Drinker
@@ -831,6 +840,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2590 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/I.md#ichormoon-gauntlet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/56/ichormoon-gauntlet) · oracle_id `9fc7aba7-eda2-4134-9c10-31ee35201b72` · printing: ONE #56 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichorplate Golem
@@ -865,6 +875,7 @@ schema: 2
   - *2011-01-01* — If damage from a source with infect that would be dealt to a player is prevented, that player doesn't get poison counters. If damage from a source with infect that would be dealt to a creature is prevented, that creature doesn't get -1/-1 counters.
   - *2011-01-01* — Infect's effect applies to any damage, not just combat damage.
   - *2011-01-01* — The -1/-1 counters remain on the creature indefinitely. They're not removed if the creature regenerates or the turn ends.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/I.md#ichor-rats)
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/67/ichor-rats) · oracle_id `f8148664-49c0-421f-93a5-cd59e4e9ea36` · printing: SOM #67 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichor Shade
@@ -955,6 +966,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #966 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-06-01* — The ability will trigger when Ichor Wellspring is put into a graveyard from the battlefield, even if the ability that triggered when it entered hasn't resolved yet.
+- **Referenced in:** 5 pages (5 decks) → [reverse index](../../references/I.md#ichor-wellspring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/245/ichor-wellspring) · oracle_id `5b5ef43b-13fd-4461-8d2d-18be65e9a790` · printing: C21 #245 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ich-Tekik, Salvage Splicer
@@ -1011,6 +1023,7 @@ schema: 2
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11219 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#icingdeath-frost-tyrant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/20/icingdeath-frost-tyrant) · oracle_id `1dc2c213-72f6-4112-96a8-bf6ad553c707` · printing: AFR #20 (2021-07-23) · [rulings](https://api.scryfall.com/cards/26b0e68a-9d4e-42ea-8dac-c47cbed0c6ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icing Manipulator
@@ -1060,6 +1073,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2457 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-07-12* — You must choose an existing creature type, such as Vampire or Warrior. Card types (such as artifact) and supertypes (such as legendary) can't be chosen.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#icon-of-ancestry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/305/icon-of-ancestry) · oracle_id `2b4973cc-83b0-4986-a19e-b4252706527e` · printing: LCC #305 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icy Blast
@@ -1092,6 +1106,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10819 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — Once a player announces that they're casting a spell or activating an ability, no player may take other actions until the spell or ability has been paid for. Notably, other players can't try to tap that player's permanents to stop them from paying {T} or to stop them from producing enough mana.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#icy-manipulator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/225/icy-manipulator) · oracle_id `3608f1f7-8dc5-4dd1-ae91-c830e1de9529` · printing: DMR #225 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icy Prison
@@ -1119,4 +1134,5 @@ schema: 2
   > *"Keep them distracted," instructed the Theorist. Chandra's doppelganger smiled, and a chill went through the air.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25172 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#icy-reception)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/30/icy-reception) · oracle_id `612c7807-be70-4e2f-afd2-3d3c03eddbbe` · printing: FRA #30 (2026-10-02) · [rulings](https://api.scryfall.com/cards/8d754b96-5e44-45af-9c7a-b0da59fbe4c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -35,6 +35,7 @@ schema: 2
   > *"Why so slow, why so slow? Hurry up! You never know what you'll find."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2154 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kwain-itinerant-meddler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/284/kwain-itinerant-meddler) · oracle_id `ce6a85b5-e249-4582-a6be-ce200da5fd53` · printing: CMR #284 (2020-11-20) · [rulings](https://api.scryfall.com/cards/f571fef1-1fd2-4355-b803-5edccb6f4b94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kwende, Pride of Femeref
@@ -53,6 +54,7 @@ schema: 2
   - *2018-04-27* — A creature with first strike and double strike deals combat damage the same as a creature with double strike. It doesn't deal damage three times or before other creatures with first strike.
   - *2018-04-27* — If a creature loses double strike after first strike damage is dealt, it won't deal normal combat damage.
   - *2018-04-27* — If a creature you control gains first strike after Kwende has entered the battlefield, that creature also gains double strike.
+- **Referenced in:** 2 pages (1 rules · 1 lore & story) → [reverse index](../../references/K.md#kwende-pride-of-femeref)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/25/kwende-pride-of-femeref) · oracle_id `3adebbbf-39fe-4b42-b719-2f8edb009693` · printing: DOM #25 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kwia Vigorbloom
@@ -66,4 +68,5 @@ schema: 2
 - **Keywords:** Flying, Lifelink, Vigilance, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13100 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/K.md#kwia-vigorbloom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/140/kwia-vigorbloom) · oracle_id `07a28621-e617-46b0-af3e-2efb03b5056a` · printing: FRA #140 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2d6ff182-a853-4898-895b-072c89324ca7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

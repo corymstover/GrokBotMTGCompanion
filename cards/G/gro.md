@@ -403,6 +403,7 @@ schema: 2
 - **Rulings** (2):
   - *2012-07-01* — Only spells and abilities that target cards in graveyards will be affected. Abilities that don’t target cards in graveyards (like the one Tormod’s Crypt has) can still affect those cards.
   - *2012-07-01* — The last ability only works when Ground Seal is on the battlefield.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#ground-seal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/149/ground-seal) · oracle_id `13f6f960-ef79-4f2c-8874-90fe9e77099e` · printing: C18 #149 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Groundshaker Sliver
@@ -470,6 +471,7 @@ schema: 2
   - *2026-03-20* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2026-03-20* — You can tap any untapped creatures you control to pay for Group Project's flashback cost, even ones you haven't controlled continuously since the beginning of your most recent turn.
   - *2026-03-20* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#group-project)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/17/group-project) · oracle_id `e1ce210e-2d1d-4ab4-bfb7-8e36884797fc` · printing: SOS #17 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grove of the Burnwillows
@@ -483,6 +485,7 @@ schema: 2
   > *Spring is the most beautiful season in the grove, when the new leaves open from their ember-buds in a race of leaping flames.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3345 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#grove-of-the-burnwillows)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/238/grove-of-the-burnwillows) · oracle_id `d33c3fbb-8306-4c2d-b0dd-88f12639da94` · printing: IMA #238 (2017-11-17) · [rulings](https://api.scryfall.com/cards/de4b75ad-7539-4184-a940-6014a0327b3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grove of the Guardian
@@ -496,6 +499,7 @@ schema: 2
 - **Rulings** (2):
   - *2012-10-01* — To activate Grove of the Guardian’s second ability you can tap any two untapped creatures you control, including ones you haven’t controlled continuously since the beginning of your most recent turn.
   - *2012-10-01* — You can’t tap Grove of the Guardian to activate both abilities at the same time.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#grove-of-the-guardian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/240/grove-of-the-guardian) · oracle_id `f746612a-fbed-44ca-b2cc-5928e10cf4bb` · printing: RTR #240 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grove Rumbler
@@ -515,6 +519,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#grove-rumbler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/211/grove-rumbler) · oracle_id `5dcbed75-bafc-492a-85a1-44f3ff06fa78` · printing: BFZ #211 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grovetender Druids
@@ -531,6 +536,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-08-25* — If a creature with a rally ability enters the battlefield under your control at the same time as other Allies, that ability will trigger once for each of those creatures and once for the creature with the ability itself.
   - *2015-08-25* — When an Ally enters the battlefield under your control, each rally ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#grovetender-druids)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/212/grovetender-druids) · oracle_id `1fc8b186-bb74-4fe1-a2da-e8ce3074f988` · printing: BFZ #212 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grow Extra Arms
@@ -622,6 +628,7 @@ schema: 2
   - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
   - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
   - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#growing-ranks)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/193/growing-ranks) · oracle_id `bec6fb31-60a3-432f-ba36-aebf172f8b27` · printing: C19 #193 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun
@@ -642,6 +649,7 @@ schema: 2
   - *2017-09-29* — If you control a creature that will be removed from the battlefield "at the beginning of the next end step," you can resolve the ability of Growing Rites of Itlimoc before that creature leaves the battlefield.
   - *2017-09-29* — If you gain control of a creature "until end of turn," or if a noncreature permanent you control becomes a creature "until end of turn," it'll be a creature under your control through the entire end step.
   - *2017-09-29* — The last ability of Growing Rites of Itlimoc doesn't trigger if you don't control four or more creatures as your end step begins. If you don't control four or more creatures as it resolves, it does nothing.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/G.md#growing-rites-of-itlimoc--itlimoc-cradle-of-the-sun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/188/growing-rites-of-itlimoc-itlimoc-cradle-of-the-sun) · oracle_id `ea9c459a-6047-43aa-968f-a582be4000e8` · printing: LCI #188 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grown from the Stump
@@ -685,6 +693,7 @@ schema: 2
   - *2019-11-12* — Giant Growth means “Target creature gets +3/+3 until end of turn.”
   - *2019-11-12* — Rampant Growth means “Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library.”
   - *2019-11-12* — Regrowth means “Return target card from your graveyard to your hand.”
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#growth-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/77/growth-charm) · oracle_id `8899224a-b9da-45a9-945a-a066912caa6b` · printing: CMB2 #77 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Growth Curve
@@ -738,6 +747,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #239 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-01-25* — Growth Spiral's effect doesn't count as playing a land. It can put a land card onto the battlefield even if it's not your turn or if you've already played your land for the turn.
+- **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 card data) → [reverse index](../../references/G.md#growth-spiral)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/88/growth-spiral) · oracle_id `34bcc217-dd91-45a0-90d7-a94d02f1f317` · printing: DSC #88 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Growth Spurt
@@ -766,4 +776,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17715 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2005-10-01* — The search ability lets you find cards whose mana values are each equal to exactly 9, such as other Grozoths.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#grozoth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/53/grozoth) · oracle_id `8ecbc87e-a63e-4afc-b5eb-2fc3dcd685f5` · printing: RAV #53 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

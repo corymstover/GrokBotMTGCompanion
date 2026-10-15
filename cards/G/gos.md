@@ -76,6 +76,7 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5606 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#go-shintai-of-hidden-cruelty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/97/go-shintai-of-hidden-cruelty) · oracle_id `ff8cf669-a38a-44ae-baff-420f59492371` · printing: NEO #97 (2022-02-18) · [rulings](https://api.scryfall.com/cards/45e1ff1e-916b-4455-84cb-4125a79d76de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Go-Shintai of Life's Origin
@@ -89,6 +90,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5143 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-02-18* — If a token copy of Go-Shintai of Life's Origin enters the battlefield, it will cause its own triggered ability to trigger.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/G.md#go-shintai-of-lifes-origin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/37/go-shintai-of-lifes-origin) · oracle_id `6dbcd542-ddb0-434e-b8ee-3e31e1a8b051` · printing: NEC #37 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Go-Shintai of Lost Wisdom
@@ -119,6 +121,7 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5456 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#go-shintai-of-shared-purpose)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/14/go-shintai-of-shared-purpose) · oracle_id `4cab6ea8-4a80-4b34-b758-7f2aa4d540e4` · printing: NEO #14 (2022-02-18) · [rulings](https://api.scryfall.com/cards/0ab91962-ebad-46f6-9f90-7477c224d93d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gossamer Chains

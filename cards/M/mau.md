@@ -47,6 +47,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4466 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-06-16* — Mauhúr's last ability applies to counters placed on Army tokens when you amass Orcs (or Zombies, or anything else.)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#mauhúr-uruk-hai-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/214/mauh%C3%BAr-uruk-hai-captain) · oracle_id `9966cac0-331f-4627-be5a-5060a6ac5a32` · printing: LTR #214 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maular, the Next Evolution

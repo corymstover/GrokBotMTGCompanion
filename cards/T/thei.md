@@ -54,6 +54,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2650 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-immortal-sun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/393/the-immortal-sun) · oracle_id `52232aad-e4ca-4551-8c8d-c69a3b6b49c7` · printing: CMM #393 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Immortal Weapons
@@ -87,6 +88,7 @@ schema: 2
   - *2023-11-10* — The Indomitable checks if you control three or more tapped Pirates and/or Vehicles only as you begin to cast it. Once you begin to cast The Indomitable from your graveyard, it doesn't matter what happens to the tapped Pirates and/or Vehicles you control.
   - *2023-11-10* — The casting permission granted by The Indomitable's last ability doesn't change when you may cast it from your graveyard.
   - *2023-11-10* — You still pay The Indomitable's costs when casting it from your graveyard.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/T.md#the-indomitable)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/75/the-indomitable) · oracle_id `276dc5c8-c8cf-4b9c-ad75-31876e6e040a` · printing: LCC #75 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Infamous Cruelclaw
@@ -129,6 +131,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3955 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — The Irencrag's last ability lasts indefinitely.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-irencrag)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/248/the-irencrag) · oracle_id `8c89ba89-9bb3-4609-873c-6f5a961733ce` · printing: WOE #248 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Their Name Is Death
@@ -142,6 +145,7 @@ schema: 2
   > *—\*The Book of Mournful Night\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3960 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 6 pages (5 decks · 1 edh guides) → [reverse index](../../references/T.md#their-name-is-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/62/their-name-is-death) · oracle_id `97f9aa5e-e34d-4029-9213-b32ebaf9859c` · printing: 40K #62 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ea5ddc28-dfc1-4b96-b6e2-590fcb1f83ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Their Number Is Legion
@@ -154,4 +158,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8796 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-07* — You must still pay its normal cost and follow all normal timing rules when casting Their Number is Legion from your graveyard using the permission granted by its last ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#their-number-is-legion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/63/their-number-is-legion) · oracle_id `8cd45064-2ad9-4247-902e-aefaf3bc1a43` · printing: 40K #63 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

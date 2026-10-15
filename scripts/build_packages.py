@@ -71,6 +71,9 @@ PKG = [
 
 
 def main():
+    import json
+    dp = ing.ROOT / "data" / "deck_packages.json"  # written by scripts/build_crossrefs.py
+    deck_use = json.loads(dp.read_text(encoding="utf-8"))["packages"] if dp.exists() else {}
     d = Data()
     L = d.header("EDH Packages", "scripts/build_packages.py", 26,
                  "Bracket notes: **GC** cards count toward the Bracket 3 limit of three; see [EDH Standards → brackets](EDH%20Standards.md#power-bracket-assessment). Pick cards whose identity fits your commander.")
@@ -84,6 +87,10 @@ def main():
             gcs = sum(1 for c in cs[:10] if c.get("game_changer"))
             L += [f"### {name}: {lab}", "", f"Pattern: `{pat}` · {len(cs)} Commander-legal matches" + (f" · {gcs} Game Changer(s) in the top 10" if gcs else ""), ""]
             L += d.table(cs, 10) + [""]
+            used = deck_use.get(f"{name}: {lab}", [])
+            if used:  # Bot cycle 18 (#66): back-links to the decks that run this package (data/deck_packages.json)
+                L += [f"Used in decks (≥ 3 matching cards, {len(used)}): " + " · ".join(
+                    f"[{u['label']}]({u['deck'].replace(' ', '%20')}) {u['cards']}" for u in used[:12]) + (f" · …{len(used) - 12} more" if len(used) > 12 else ""), ""]
             bud = [c for c in cs[10:] if d.price.get(c["oracle_id"], 99) <= 1.0][:4]
             if bud: L += ["Budget options beyond the top 10 (≤ $1.00): " + " · ".join(f"{d.link(c)} ({d.ci(c)}, {d.usd(c)})" for c in bud), ""]
     L += ["## Method", "", "- Each sub-package is a regex on Oracle text over Commander-legal cards (case-insensitive), shown with the section. Matches are heuristics, so some cards fit loosely.",

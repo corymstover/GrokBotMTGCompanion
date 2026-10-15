@@ -53,6 +53,7 @@ schema: 2
 - **Keywords:** Defender, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20755 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moaning-wall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/72/moaning-wall) · oracle_id `7bf22390-a6c0-4da6-9f05-e66628f72079` · printing: HOU #72 (2017-07-14) · [rulings](https://api.scryfall.com/cards/ef494f81-638a-4e5d-b987-0dde7f2a135c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moan of the Unhallowed

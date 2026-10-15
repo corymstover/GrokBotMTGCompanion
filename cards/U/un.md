@@ -337,6 +337,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unassuming-gelatinous-serpent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/36/unassuming-gelatinous-serpent) · oracle_id `6ad4d181-21ce-47f3-9c00-2aa8c307e7fe` · printing: SUNF #36 (2022-10-07) · [rulings](https://api.scryfall.com/cards/7985d1dd-32cf-4c83-ae68-ee4961c1e6b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unassuming Sage
@@ -365,6 +366,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9710 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-02-02* — If the target nonland permanent is an illegal target as Unauthorized Exit tries to resolve, it won't resolve and none of its effects will happen. You won't surveil 1.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#unauthorized-exit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/74/unauthorized-exit) · oracle_id `3d145811-adb2-46a4-b173-bf8152e5de48` · printing: MKM #74 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unbender Tine
@@ -478,6 +480,7 @@ schema: 2
   - *2019-01-25* — Unbreakable Formation affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't gain indestructible or vigilance and they won't get a +1/+1 counter.
   - *2024-01-12* — Addendum abilities of instant spells apply while the spell is resolving, not immediately after casting it. If the spell is countered, you don't get the addendum bonus.
   - *2024-01-12* — If an effect copies a spell with an addendum ability while it's on the stack, the copy wasn't cast at all, so you won't get the addendum bonus.
+- **Referenced in:** 5 pages (1 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/U.md#unbreakable-formation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/32/unbreakable-formation) · oracle_id `97435e03-2fff-4fe0-8fa9-69ab0a046a33` · printing: RVR #32 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unbreathing Horde
@@ -588,6 +591,7 @@ schema: 2
   > *—Rahilda, Vildin-Pack alpha*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12018 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#uncaged-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/177/uncaged-fury) · oracle_id `7aac51ef-ae03-4a9e-9a48-46223787f291` · printing: INR #177 (2025-01-24) · [rulings](https://api.scryfall.com/cards/de8f4d5b-ea3c-4d01-b163-2fcfb1bcca8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uncage the Menagerie
@@ -645,6 +649,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2832 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-07-26* — If Uncharted Haven is somehow on the battlefield without a chosen color, its mana ability won't make any mana.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#uncharted-haven)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/261/uncharted-haven) · oracle_id `d23c3613-bc5e-4fc5-939c-62a090c53a79` · printing: BLB #261 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uncharted Voyage
@@ -690,6 +695,7 @@ schema: 2
   - *2023-04-14* — If you choose for the creature to gain haste, it gains haste indefinitely. It won’t lose it as the turn ends or as another player gains control of it.
   - *2023-04-14* — Riot is a replacement effect. Players can’t respond to your choice of +1/+1 counter or haste, and they can’t take actions while the creature is on the battlefield without one or the other.
   - *2023-04-14* — The damage is dealt by the same source as the original source of damage. The doubled damage isn’t dealt by Uncivil Unrest unless it was somehow the original source of damage.
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/U.md#uncivil-unrest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/35/uncivil-unrest) · oracle_id `bd655e8b-f192-4635-9e23-357b6f89ef8f` · printing: MOC #35 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unclaimed Battle Axe
@@ -764,6 +770,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #247 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/U.md#unclaimed-territory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/275/unclaimed-territory) · oracle_id `584b15f2-6ae9-413a-8b8d-9244dbea4878` · printing: MSC #275 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uncle Iroh
@@ -956,6 +963,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1811 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-06-14* — If Undead Augur dies at the same time as one or more other Zombies you control, Undead Augur's ability triggers for each of them.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#undead-augur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/130/undead-augur) · oracle_id `c26887e1-27f4-4550-921b-53460e43c079` · printing: MIC #130 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undead Butler
@@ -1182,6 +1190,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13443 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-01-24* — If the target player has no land cards in their library, all cards from that library will be revealed and put into their graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#undercity-informer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/82/undercity-informer) · oracle_id `ccf5a0d4-69e8-4607-a76c-cfca336899e4` · printing: GTC #82 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undercity Necrolisk
@@ -1278,6 +1287,7 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #421 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 card data) → [reverse index](../../references/U.md#undercity-sewers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/270/undercity-sewers) · oracle_id `08d80efc-9542-4ba2-824c-c8615d8d07f2` · printing: MKM #270 (2024-02-09) · [rulings](https://api.scryfall.com/cards/2b5801fb-2026-4f25-98bc-ebb2f99684b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undercity Shade
@@ -1475,6 +1485,7 @@ schema: 2
   - *2019-11-12* — If you cast a card “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, you must pay those to cast the card.
   - *2019-11-12* — Underdark Beholder’s second ability isn’t a damage prevention effect. It can replace damage that can’t be prevented.
   - *2019-11-12* — You must cast the revealed card while Underdark Beholder’s triggered ability is resolving. You can’t cast it later in the turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#underdark-beholder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/49/underdark-beholder) · oracle_id `e6b5bf57-f03d-475c-874f-d6529c9aaf06` · printing: CMB2 #49 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underdark Explorer
@@ -1500,6 +1511,7 @@ schema: 2
   - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to “have the initiative.” The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
   - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
   - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren’t in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can’t start Undercity.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#underdark-explorer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/154/underdark-explorer) · oracle_id `7647682d-d491-4cb1-add7-b4d745994e62` · printing: CLB #154 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underdark Rift
@@ -1576,6 +1588,7 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #482 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/U.md#underground-mortuary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/271/underground-mortuary) · oracle_id `840119bf-e60f-4ff7-9c9b-d420d09df545` · printing: MKM #271 (2024-02-09) · [rulings](https://api.scryfall.com/cards/f6ca59cd-8779-4a84-a54b-e863b79c61f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underground River
@@ -1590,6 +1603,7 @@ schema: 2
   > *—\*The Antiquities War\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #141 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 16 pages (12 decks · 3 edh guides · 1 card data) → [reverse index](../../references/U.md#underground-river)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/87/underground-river) · oracle_id `857febd9-cdd7-4f8e-a852-d88084b0cfbc` · printing: FRC #87 (2026-10-02) · [rulings](https://api.scryfall.com/cards/e8b05f37-815f-4854-bf82-ca544ca67532/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underground Sea
@@ -1602,6 +1616,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
   - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Referenced in:** 45 pages (39 decks · 4 edh guides · 2 card data) → [reverse index](../../references/U.md#underground-sea)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/323/underground-sea) · oracle_id `4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b` · printing: VMA #323 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undergrowth
@@ -1635,6 +1650,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#undergrowth-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/197/undergrowth-champion) · oracle_id `cb0eb84d-b41b-4147-aa7c-089b7fabd835` · printing: BFZ #197 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undergrowth Leopard
@@ -1692,6 +1708,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Count the number of opponents you currently have, not how many you started with. If your four-player game is down to you and a single opponent, the land enters the battlefield tapped.
   - *2020-11-10* — If an effect puts the land onto the battlefield tapped, having two or more opponents won't untap it.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/U.md#undergrowth-stadium)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/80/undergrowth-stadium) · oracle_id `7c69f718-acc8-4851-8e5d-0cbaaa86192c` · printing: TMC #80 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underhanded Designs
@@ -1718,6 +1735,7 @@ schema: 2
   > *"Which would you like first, the insult or the injury?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6124 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#undermine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddh/62/undermine) · oracle_id `6bcfe240-c165-49f2-a90a-be05c05498a1` · printing: DDH #62 (2011-09-02) · [rulings](https://api.scryfall.com/cards/a23735a3-8ec8-48ae-8bd0-3b6b782690c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undermountain Adventurer
@@ -1759,6 +1777,7 @@ schema: 2
   - *2018-10-05* — If an effect instructs you to draw multiple cards, each draw is performed—and replaced by Underrealm Lich's ability—one at a time. This means that if you're drawing two cards, you'll look at the top three cards of your library, put one into your hand, put the other two into your graveyard, and then repeat the process with the next three cards in your library.
   - *2018-10-05* — Underrealm Lich's first ability applies even if you have fewer than three cards in your library. If you have no cards in your library, you can't lose the game for trying to draw a card from an empty library.
   - *2018-10-05* — You can activate Underrealm Lich's last ability even if it's already tapped. It can't be tapped again, but it still gains indestructible.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/U.md#underrealm-lich)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/215/underrealm-lich) · oracle_id `e1bce9c3-300c-4a9d-abe0-a1f02d3a1105` · printing: CLU #215 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undersea Invader
@@ -1817,6 +1836,7 @@ schema: 2
   - *2024-09-20* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2024-09-20* — Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
   - *2024-09-20* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#under-the-skin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/203/under-the-skin) · oracle_id `8e121178-e9e3-43a5-a174-ecbe47d759f9` · printing: DSK #203 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undertow
@@ -1894,6 +1914,7 @@ schema: 2
   - *2020-01-24* — If you're casting an adventurer card or split card with escape, you choose how you wish to cast it, then pay the appropriate cost (for the Adventure, the creature, or the half of the split card you chose) plus exiling three cards.
   - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
   - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Referenced in:** 22 pages (16 decks · 4 edh guides · 2 card data) → [reverse index](../../references/U.md#underworld-breach)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/161/underworld-breach) · oracle_id `27e0948b-9916-473b-8d8c-a51bdfbc7457` · printing: THB #161 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underworld Cerberus
@@ -1977,6 +1998,7 @@ schema: 2
   - *2004-10-04* — If multiple cards are drawn at once, this card triggers once for each card drawn.
   - *2004-10-04* — In a multi-player game, it affects all opponents.
   - *2020-01-24* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” it’s not a card drawn.
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/U.md#underworld-dreams)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/121/underworld-dreams) · oracle_id `967cf377-ae26-464d-85ac-8448b5a911f7` · printing: THB #121 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underworld Fires
@@ -2126,6 +2148,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25487 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2005-06-01* — If you have no cards in your library, Undying Flames does nothing.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/U.md#undying-flames)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/119/undying-flames) · oracle_id `5db128ed-69c0-41f3-b8b4-fb7cefdb236c` · printing: SOK #119 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undying Malice
@@ -2138,6 +2161,7 @@ schema: 2
   > *Lazlo was going to find the jerks who stabbed him in the back and stab them in their fronts.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1313 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#undying-malice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/528/undying-malice) · oracle_id `8b061702-1bc3-45aa-a758-446b25034801` · printing: FDN #528 (2024-11-15) · [rulings](https://api.scryfall.com/cards/97b3cf11-e352-4ee1-8c03-13898f576ef9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undying Rage
@@ -2169,6 +2193,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #959 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-06-14* — If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/U.md#unearth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/96/unearth) · oracle_id `4e0b647a-6e1a-421b-bca9-8d5e346bda80` · printing: 2X2 #96 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unearthly Blizzard
@@ -2261,6 +2286,7 @@ schema: 2
   - *2017-07-14* — To determine the total cost of a Sphinx spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the creature remains unchanged, no matter what the total cost to cast it was.
   - *2017-07-14* — Unesh's cost-reduction ability doesn't reduce the cost to cast itself.
   - *2017-07-14* — You (not your opponent) choose which pile to put into your hand and which to put into your graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unesh-criosphinx-sovereign)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/52/unesh-criosphinx-sovereign) · oracle_id `7492ea06-24d5-4a1f-a6ac-c33743e91aa7` · printing: HOU #52 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unexpected Assistance
@@ -2279,6 +2305,7 @@ schema: 2
   - *2025-11-17* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
   - *2025-11-17* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2025-11-17* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/U.md#unexpected-assistance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/80/unexpected-assistance) · oracle_id `c452e748-8a2a-4f68-8869-e294925a8b0b` · printing: ECL #80 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unexpected Fangs
@@ -2333,6 +2360,7 @@ schema: 2
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
   - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
   - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/U.md#unexpected-potential)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/12/unexpected-potential) · oracle_id `1acbbf61-edf7-4f67-968b-6832c2dd54d1` · printing: CNS #12 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unexpected Request
@@ -2375,6 +2403,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #269 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/U.md#unexpected-windfall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/164/unexpected-windfall) · oracle_id `498c10c9-253d-4b15-b48c-1509381b17e8` · printing: AFR #164 (2021-07-23) · [rulings](https://api.scryfall.com/cards/bae6a5fb-39f5-4cf8-85f7-661cb4570507/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unexplained Absence
@@ -2400,6 +2429,7 @@ schema: 2
   - *2024-02-02* — Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped.
   - *2024-02-02* — Unlike a face-down creature that was cast using a disguise or morph ability, a cloaked creature may still be turned face up after it loses its abilities if it’s a creature card.
   - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/U.md#unexplained-absence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/17/unexplained-absence) · oracle_id `71faaee5-70ff-449c-85c8-560eb189a0a7` · printing: MKC #17 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unexplained Disappearance
@@ -2434,6 +2464,7 @@ schema: 2
   - *2019-10-04* — If an effect allows you to cast a spell without paying its mana cost, you can't choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can't waive a cost reduction unless that effect says you may.
   - *2019-10-04* — If an instant or sorcery spell has an adamant ability, you perform the spell's instructions in order. You don't perform the adamant instruction before the spell resolves or before any other effects printed above it.
   - *2019-10-04* — If you copy a spell that has an adamant ability, no mana was spent to cast the copy at all, so that ability won't apply.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#unexplained-vision)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/70/unexplained-vision) · oracle_id `9f693483-f4df-497a-a6c7-fc269fc60ea8` · printing: ELD #70 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unfathomable Truths
@@ -2527,6 +2558,7 @@ schema: 2
   > *"I tend to my field of view like a garden. Occasionally, it needs weeding."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11457 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unforgiving-aim)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/200/unforgiving-aim) · oracle_id `be7e220e-272e-45ca-8265-8d78da2cd2a7` · printing: ECL #200 (2026-01-23) · [rulings](https://api.scryfall.com/cards/0bef3905-24f8-419b-aeca-396adfc6d0dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unforgiving One
@@ -2572,6 +2604,7 @@ schema: 2
   - *2024-04-12* — You can’t choose the same mode more than once.
   - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
   - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/U.md#unfortunate-accident)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/111/unfortunate-accident) · oracle_id `011558f3-3c23-430e-a08b-8f91238e7971` · printing: OTJ #111 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unfriendly Fire
@@ -2610,6 +2643,7 @@ schema: 2
   > {TK}{TK}{TK}{TK}{TK} — 8/6
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unglued-pea-brained-dinosaur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/45/unglued-pea-brained-dinosaur) · oracle_id `eb1c4f0a-b993-4aa1-8b13-1695b5f63653` · printing: SUNF #45 (2022-10-07) · [rulings](https://api.scryfall.com/cards/955c33c6-0cc6-47ec-8f71-8d169c02b243/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unhallowed Pact
@@ -2667,6 +2701,7 @@ schema: 2
   > {TK}{TK}{TK} — 2/6
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unhinged-beast-hunt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/39/unhinged-beast-hunt) · oracle_id `ea1fb0c3-d52c-4435-af2c-4b74f31189f7` · printing: SUNF #39 (2022-10-07) · [rulings](https://api.scryfall.com/cards/04da8455-cfaa-4061-9aea-4c9015baaab4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unholy Annex // Ritual Chamber
@@ -2696,6 +2731,7 @@ schema: 2
   - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
   - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
   - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/U.md#unholy-annex--ritual-chamber)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/118/unholy-annex-ritual-chamber) · oracle_id `bd388ad9-a47b-4b0b-b94a-8e4343cd3de5` · printing: DSK #118 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unholy Citadel
@@ -2815,6 +2851,7 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-11-12* — If Unicycle is attached to a creature when it becomes a creature, it becomes unattached. It remains unattached when it stops being a creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unicycle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/110/unicycle) · oracle_id `40cabb8b-d9bd-40ba-9624-c4526bf0f888` · printing: CMB2 #110 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unicycling Automaton
@@ -2862,6 +2899,7 @@ schema: 2
   - *2024-09-20* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2024-09-20* — Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
   - *2024-09-20* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unidentified-hovership)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/37/unidentified-hovership) · oracle_id `bde67dfb-706b-4942-a365-984ea6e97a2b` · printing: DSK #37 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unified Front
@@ -2949,6 +2987,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-04-08* — If you cause a creature to have 0 power or less, use the actual value (which may be negative) to determine whether it can block or be blocked. A creature with skulk and 0 or less power most likely won't be blocked, but it won't deal combat damage and won't trigger any abilities that trigger when combat damage is dealt.
   - *2016-04-08* — Skulk matters only as blockers are chosen. Modifying either creature's power after blockers are chosen won't cause the attacking creature to become unblocked.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/U.md#uninvited-geist--unimpeded-trespasser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/94/uninvited-geist-unimpeded-trespasser) · oracle_id `5c975dbb-aabb-43fe-877c-c3950019a584` · printing: SOI #94 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Union of the Third Path
@@ -2961,6 +3000,7 @@ schema: 2
   > *Terisia City at last opened its ivory towers to all who sought respite from the endless war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8863 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#union-of-the-third-path)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/31/union-of-the-third-path) · oracle_id `4492c329-174a-44aa-be4d-9f018173b9a7` · printing: BRO #31 (2022-11-18) · [rulings](https://api.scryfall.com/cards/486a0745-7360-4cc9-9cc2-30c0eda6e00c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unique Charmed Pants
@@ -2974,6 +3014,7 @@ schema: 2
   > {TK}{TK}{TK}{TK} — 4/8
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unique-charmed-pants)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/38/unique-charmed-pants) · oracle_id `989346e5-3e76-40ce-8295-d267929d4fd5` · printing: SUNF #38 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c3bd4f88-d861-476b-87d6-605f2c0deee0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### United Battlefront
@@ -2987,6 +3028,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14231 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-04-04* — If a card in a library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#united-battlefront)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/32/united-battlefront) · oracle_id `892a83a0-a3cb-4cfb-9106-4008e4e75c0f` · printing: TDM #32 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### United Front
@@ -3000,6 +3042,7 @@ schema: 2
   > *—Hakoda*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5387 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#united-front)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/39/united-front) · oracle_id `c23f260b-b7d3-4c25-a08a-dabdb99e1791` · printing: TLA #39 (2025-11-21) · [rulings](https://api.scryfall.com/cards/d347caf8-0c12-401f-9e33-9978cb347f89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unite the Coalition
@@ -3043,6 +3086,7 @@ schema: 2
   - *2016-01-22* — If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature.
   - *2016-01-22* — Support can target a creature you don’t control.
   - *2016-01-22* — You can’t put more than one +1/+1 counter on any one target using the support action.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#unity-of-purpose)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/66/unity-of-purpose) · oracle_id `9fbcae6e-5523-47a3-b0ff-ab7a8bb72822` · printing: OGW #66 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Universal Automaton
@@ -3058,6 +3102,7 @@ schema: 2
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2146 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#universal-automaton)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/235/universal-automaton) · oracle_id `d50b1d2e-1825-432a-ab73-068fdc356f50` · printing: MH1 #235 (2019-06-14) · [rulings](https://api.scryfall.com/cards/53c682e2-c90f-4f4b-9010-00b099e85518/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Universal Solvent
@@ -3128,6 +3173,7 @@ schema: 2
   > *—\*The Callapheia\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7628 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#unknown-shores)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/249/unknown-shores) · oracle_id `82c5ec8e-27be-475a-9921-ad61209fd022` · printing: THB #249 (2020-01-24) · [rulings](https://api.scryfall.com/cards/492181e4-5825-45d4-b8a1-37f29c32a845/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unlawful Entry
@@ -3156,6 +3202,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1640 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-06-23* — If an effect instructs you to "double" a creature's power, that creature gets +X/+0, where X is its power as that effect begins to apply. If its power is negative, instead it gets -X/-0 where X is how far below 0 its power is. The value of X won't change if another effect alters the creature's power later in the turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#unleash-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/170/unleash-fury) · oracle_id `4eaa100c-f1ef-4a2b-9370-5dad7f3a95f2` · printing: M21 #170 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unleash Shell
@@ -3222,6 +3269,7 @@ schema: 2
   > *"I appreciate you not letting me fall to my death in the acid bogs. Now, can you let me down?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14052 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#unlikely-aid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/103/unlikely-aid) · oracle_id `795e0ffb-fcd9-4cb9-ad18-8a0217229bfe` · printing: IKO #103 (2020-04-24) · [rulings](https://api.scryfall.com/cards/bac3409e-7c24-43b0-9956-5f0cdeae6468/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unlikely Alliance
@@ -3284,6 +3332,7 @@ schema: 2
   - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Bosco, Just a Bear's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Bosco, Just a Bear's ability.
   - *2025-10-02* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
   - *2025-10-02* — Whatever you do, don't eat the delicious cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unlucky-cabbage-merchant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/201/unlucky-cabbage-merchant) · oracle_id `d8f7d4c8-bc50-4bcf-b930-797dcb3c2a21` · printing: TLA #201 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unlucky Drop
@@ -3358,6 +3407,7 @@ schema: 2
   > *—Doros, expedition guide*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1626 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/U.md#unmarked-grave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/106/unmarked-grave) · oracle_id `134dfb35-0c32-4143-aa63-7701f406b59e` · printing: MH2 #106 (2021-06-18) · [rulings](https://api.scryfall.com/cards/492b368b-de32-45c1-8459-238aae54f9fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unmask
@@ -3432,6 +3482,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #439 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — If you control more than one Unnatural Growth, each one applies independently. For example, if you control two copies of Unnatural Growth, a 2/2 Bear Cub becomes a 4/4 creature when the first ability resolves and then becomes an 8/8 creature when the second one resolves.
+- **Referenced in:** 4 pages (2 decks · 1 rules · 1 card data) → [reverse index](../../references/U.md#unnatural-growth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/223/unnatural-growth) · oracle_id `7324abaa-48da-439d-9339-b0ea5eea612e` · printing: INR #223 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unnatural Hunger
@@ -3494,6 +3545,7 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 2 card data) → [reverse index](../../references/U.md#unnatural-restoration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/191/unnatural-restoration) · oracle_id `05d1e797-bda2-4411-a546-919493768650` · printing: ONE #191 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unnatural Selection
@@ -3597,6 +3649,7 @@ schema: 2
   - *2020-04-17* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, such as that of Swallow Whole, those must be paid to cast the card.
   - *2020-04-17* — If you exile your entire library without exiling a card that shares a card type, you put the library back in a random order and continue. You won’t draw a card.
   - *2020-04-17* — If you wish to cast the last exiled card, you do so as part of the resolution of the cycling ability. You can’t wait to cast it later. Timing permissions based on a card’s type are ignored.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#unpredictable-cyclone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/139/unpredictable-cyclone) · oracle_id `5b67a944-ab0b-4155-8bc0-becb1b38b3bb` · printing: IKO #139 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unquenchable Fury (NEC #23)
@@ -3778,6 +3831,7 @@ schema: 2
 - **Keywords:** Indestructible, Bolster
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unsanctioned-ancient-juggler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/13/unsanctioned-ancient-juggler) · oracle_id `4413cb03-d6e9-4e6c-b5fe-9240ca0ebd13` · printing: SUNF #13 (2022-10-07) · [rulings](https://api.scryfall.com/cards/3bf70946-5a50-4918-bb61-23be7c2cc75a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unscrupulous Agent
@@ -3947,6 +4001,7 @@ schema: 2
   > *The symbols are spread throughout Aphetto, marking sites where minions of the Raven Guild and the Cabal can seek refuge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5836 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#unspeakable-symbol)
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/79/unspeakable-symbol) · oracle_id `a5690d5f-633c-4a1e-afba-5fd79dcbf20e` · printing: SCG #79 (2003-05-26) · [rulings](https://api.scryfall.com/cards/2cc4601b-5f34-4733-8c32-9779de4c502c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unstable Amulet
@@ -3979,6 +4034,7 @@ schema: 2
   - *2025-09-19* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger "when [that creature] connives" will trigger.
   - *2025-09-19* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
   - *2025-09-19* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/U.md#unstable-experiment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/789/unstable-experiment) · oracle_id `5b7bbc76-22cc-482e-8d65-34cff34c93c8` · printing: MSC #789 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unstable Footing
@@ -4103,6 +4159,7 @@ schema: 2
   > *Its collapse is like the lashing out of a long-dead civilization that resents being forgotten.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5048 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unstable-obelisk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/416/unstable-obelisk) · oracle_id `060ae1bb-956a-4264-b405-a33151f31493` · printing: CMM #416 (2023-08-04) · [rulings](https://api.scryfall.com/cards/94eba26e-7c9e-46f3-ad13-aa684f3365cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unstable Robot Dragon
@@ -4116,6 +4173,7 @@ schema: 2
   > {TK}{TK}{TK} — 2/7
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unstable-robot-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/47/unstable-robot-dragon) · oracle_id `676de97a-299b-42ac-aa93-bb12dc9c4460` · printing: SUNF #47 (2022-10-07) · [rulings](https://api.scryfall.com/cards/a5f917b0-3c9a-4643-ade8-ada20dfc2d05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unstable Shapeshifter
@@ -4188,6 +4246,7 @@ schema: 2
   > *Jace knew that if he just had time to explain his plan, he would find support. Unfortunately, time was in short supply.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1781 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#unstoppable-plan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/72/unstoppable-plan) · oracle_id `3f6f4c98-ed7e-4fb1-8bfe-4210a39f77f2` · printing: DFT #72 (2025-02-14) · [rulings](https://api.scryfall.com/cards/aaeb5981-7e6a-4ffd-bb02-4757b2e92f08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unstoppable Slasher
@@ -4202,6 +4261,7 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1562 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unstoppable-slasher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/119/unstoppable-slasher) · oracle_id `6662968e-ca9e-454c-be44-24ad10e43d3e` · printing: DSK #119 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c78da035-6b5b-4136-9ab6-f622b64fdc54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unsubstantiate
@@ -4244,6 +4304,7 @@ schema: 2
   > *—The Theorist, Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2841 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/U.md#unsummon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/46/unsummon) · oracle_id `837182db-1bf3-4a2c-bd01-1af9d9873561` · printing: FRA #46 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ddad9f16-52d5-49de-82b0-b1a5294a9c44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unswerving Sloth
@@ -4340,6 +4401,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
   - *2006-10-15* — Can fetch a snow land.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#untamed-wilds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/279/untamed-wilds) · oracle_id `b3b4c21d-f8d7-455f-be46-d5eb909d54df` · printing: 7ED #279 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Untap, Upkeep, Draw
@@ -4402,6 +4464,7 @@ schema: 2
   - *2024-09-20* — If a spell or ability targets multiple things, you can't target it with Untimely Malfunction's second mode, even if all but one of those targets have become illegal.
   - *2024-09-20* — The effect of Untimely Malfunction's last mode won't cause creatures that are already blocking to stop blocking.
   - *2024-09-20* — You don't choose the new target for the spell or ability targeted with Untimely Malfunction's second mode until Untimely Malfunction resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target has somehow become illegal itself.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/U.md#untimely-malfunction)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/161/untimely-malfunction) · oracle_id `2c49d24a-98a4-43c2-bb59-1ef13d4214c2` · printing: DSK #161 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unwanted Remake
@@ -4447,6 +4510,7 @@ schema: 2
   - *2017-04-18* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
   - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
   - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unwavering-initiate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/36/unwavering-initiate) · oracle_id `e6088c23-a660-4d2c-b633-1c6cb1a59ebe` · printing: AKH #36 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unwelcome Sprite
@@ -4506,6 +4570,7 @@ schema: 2
   - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
   - *2024-09-20* — If a permanent with an eerie ability enters at the same time as one or more enchantments, its ability will trigger for each of those enchantments.
   - *2024-09-20* — In the unusual case where Unwilling Vessel has +1/+1 counters on it and then receives an amount of -1/-1 counters that causes it to die, use the total number of counters that were on Unwilling Vessel when it died, including all of the +1/+1 and -1/-1 counters, to determine the value of X.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unwilling-vessel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/81/unwilling-vessel) · oracle_id `d2593334-ce0b-43e1-97ad-b00950bfae2b` · printing: DSK #81 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unwind
@@ -4519,6 +4584,7 @@ schema: 2
   > *—Jhoira*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1063 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/U.md#unwind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/72/unwind) · oracle_id `e38b8ecb-e7ae-474d-b6a4-29cc1aa8ccd9` · printing: DOM #72 (2018-04-27) · [rulings](https://api.scryfall.com/cards/97da6607-9131-4f8b-8af3-63439a59b78b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unwinding Clock
@@ -4535,6 +4601,7 @@ schema: 2
   - *2011-06-01* — Even if you control more than one Unwinding Clock, you'll only untap your artifacts once during each other player's untap step.
   - *2011-06-01* — Some effects, such as the one generated by Rust Tick's ability, state that an artifact doesn't untap during its controller's untap step. These effects won't apply and stop the artifact from untapping during another player's untap step.
   - *2011-06-01* — Those artifacts untap at the same time as the active player's permanents. You have no choice about what untaps and can't choose to not untap an artifact you control.
+- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/U.md#unwinding-clock)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/228/unwinding-clock) · oracle_id `153fac93-5d2b-4348-a468-a5eef6a12da3` · printing: C18 #228 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unworthy Dead
@@ -4594,6 +4661,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24628 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unyaro-griffin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/49/unyaro-griffin) · oracle_id `27d80a75-688e-4f68-9622-54484dd3bd91` · printing: 6ED #49 (1999-04-21) · [rulings](https://api.scryfall.com/cards/5e7af2b0-e07f-4b59-8fcf-e51c47f4f095/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unyielding Gatekeeper

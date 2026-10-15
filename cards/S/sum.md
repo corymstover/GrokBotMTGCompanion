@@ -157,6 +157,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2952 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — This spell increases the number of lands you can play in a turn. The land cards are played as you would normally play lands.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/S.md#summer-bloom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/160/summer-bloom) · oracle_id `e5df4597-1647-4ac2-bdb3-a517598d1431` · printing: 2X2 #160 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summit Apes
@@ -267,6 +268,7 @@ schema: 2
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
   - *2025-06-06* — The mana value of a nonmodal double-faced permanent is the mana value of its front face, no matter which face is up.
   - *2025-06-06* — Use the total mana value of other permanents you control as Summon: Bahamut's fourth chapter ability resolves to determine how much damage is dealt.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#summon-bahamut)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/1/summon:-bahamut) · oracle_id `fe9f6825-597b-4d80-ab7c-f4ee4e824b6f` · printing: FIN #1 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Brynhildr
@@ -345,6 +347,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — If the targeted spell is an illegal target by the time Summoner’s Bane resolves, the entire spell doesn’t resolve. You won’t get a creature token.
   - *2009-10-01* — You get the token creature, not the controller of the creature spell.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summoners-bane)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddm/31/summoners-bane) · oracle_id `b9b0c209-e346-45ee-a272-0b53589c21df` · printing: DDM #31 (2014-03-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoner's Bond
@@ -374,6 +377,7 @@ schema: 2
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
   - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
   - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#summoners-bond)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/11/summoners-bond) · oracle_id `07b6326a-b73d-422b-bcb5-c508aa3fc558` · printing: CN2 #11 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoner's Egg
@@ -420,6 +424,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-06-07* — Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.
   - *2021-03-19* — If Summoner's Pact is countered, the delayed triggered ability that threatens you with a game loss won't trigger at the beginning of your next upkeep.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#summoners-pact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/234/summoners-pact) · oracle_id `782dcbc4-5a11-42f5-b8d9-4572e36d45b3` · printing: TSR #234 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoner's Sending
@@ -484,6 +489,7 @@ schema: 2
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
   - *2025-06-06* — Summon: Esper Valigarmanda's second, third, and fourth chapter abilities aren't mana abilities. They use the stack and can be responded to.
   - *2025-06-06* — You cast the spell while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summon-esper-valigarmanda)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/60/summon:-esper-valigarmanda) · oracle_id `cecd2f49-8ccb-472d-9cf1-fd0f4d93546d` · printing: FIC #60 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Fat Chocobo
@@ -508,6 +514,7 @@ schema: 2
   - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
   - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#summon-fat-chocobo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/202/summon:-fat-chocobo) · oracle_id `b5d2f8e7-89d3-4015-ab99-ba4d66918e37` · printing: FIN #202 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Fenrir
@@ -533,6 +540,7 @@ schema: 2
   - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
   - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summon-fenrir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/203/summon:-fenrir) · oracle_id `3509171e-8d7d-4e9e-97a1-58e6c7d225ed` · printing: FIN #203 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: G.F. Cerberus
@@ -591,6 +599,7 @@ schema: 2
   - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
   - *2025-06-06* — Summon: G.F. Ifrit's third and fourth chapter abilities aren't mana abilities. They use the stack and can be responded to.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summon-gf-ifrit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/163/summon:-gf-ifrit) · oracle_id `96d1bfc1-b80f-466f-b07d-df1ab361e8e0` · printing: FIN #163 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Good King Mog XII
@@ -620,6 +629,7 @@ schema: 2
   - *2025-06-06* — The delayed triggered ability set up by Summon: Good King Mog XII's second and third chapter abilities resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
   - *2025-06-06* — The new token copies the original characteristics of the copied token as stated by the effect that created that token.
   - *2025-06-06* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, color, and so on.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summon-good-king-mog-xii)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/26/summon:-good-king-mog-xii) · oracle_id `2148820c-85b6-4598-adf2-10873001a779` · printing: FIC #26 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoning Materia
@@ -638,6 +648,7 @@ schema: 2
   - *2025-06-06* — Summoning Materia lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
   - *2025-06-06* — The top card of your library isn't in your hand, so you can't cycle it, discard it, or activate any of its abilities that could be activated from your hand.
   - *2025-06-06* — You must follow all normal timing rules for spells cast using the second ability and must pay all costs for spells cast this way. To cast a spell this way, you may choose to pay any alternative costs or optional additional costs the spell may have (such as a kicker cost). You must pay any mandatory additional costs.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summoning-materia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/72/summoning-materia) · oracle_id `2ca9e6e5-5eec-4593-8816-5c4317c79eb0` · printing: FIC #72 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoning Station
@@ -693,6 +704,7 @@ schema: 2
   - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
   - *2025-06-06* — You don't have to choose any targets for Summon: Ixion's second or third chapter ability. However, if you do and all of the targets are illegal when the ability tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summon-ixion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/27/summon:-ixion) · oracle_id `1ccb8122-9135-4b8d-b1d1-18997fd7e9d2` · printing: FIC #27 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Knights of Round
@@ -717,6 +729,7 @@ schema: 2
   - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
   - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summon-knights-of-round)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/36/summon:-knights-of-round) · oracle_id `73122880-d7f4-422f-a336-18773bcb7bfe` · printing: FIN #36 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Kujata
@@ -767,6 +780,7 @@ schema: 2
   - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
   - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summon-leviathan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/77/summon:-leviathan) · oracle_id `b38d1811-64d7-4a35-a86c-3291eecd8391` · printing: FIN #77 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Magus Sisters
@@ -802,6 +816,7 @@ schema: 2
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
   - *2025-06-06* — Shield counters don't prevent players from sacrificing creatures.
   - *2025-06-06* — The random choice of mode for Summon: Magus Sisters's chapter abilities is made before targets are chosen.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summon-magus-sisters)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/71/summon:-magus-sisters) · oracle_id `06f11ff8-cc99-411d-b00b-464ba4b7b87d` · printing: FIC #71 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Primal Garuda
@@ -826,6 +841,7 @@ schema: 2
   - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
   - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summon-primal-garuda)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/37/summon:-primal-garuda) · oracle_id `aaf9e711-94e1-4869-81b0-baa6380ee873` · printing: FIN #37 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Primal Odin
@@ -852,6 +868,7 @@ schema: 2
   - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
   - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#summon-primal-odin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/121/summon:-primal-odin) · oracle_id `032f59c3-9f47-4db3-a43c-065a99ed7efe` · printing: FIN #121 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Shiva
@@ -876,6 +893,7 @@ schema: 2
   - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
   - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summon-shiva)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/78/summon:-shiva) · oracle_id `5846718c-7d31-4d2c-80a2-b1534e2aebc1` · printing: FIN #78 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summons of Saruman
@@ -928,6 +946,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summon-the-school)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/42/summon-the-school) · oracle_id `00909d51-3da8-41eb-a535-0c325fedc59f` · printing: LRW #42 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Titan
@@ -954,6 +973,7 @@ schema: 2
   - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
   - *2025-06-06* — The value of X in Summon: Titan's third chapter ability is calculated only once, as the ability resolves.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#summon-titan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/204/summon:-titan) · oracle_id `66ce0c60-f406-4ece-915f-675da4e8b16d` · printing: FIN #204 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon Undead
@@ -996,6 +1016,7 @@ schema: 2
   - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
   - *2025-06-06* — While resolving Valefor's first chapter ability, the next opponent in turn order chooses a creature with the greatest mana value among creatures they control, then each other opponent in turn order does the same. Then the chosen creatures are returned to their owners' hands simultaneously.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#summon-valefor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/42/summon:-valefor) · oracle_id `67d29e56-9ca8-46bc-9ee0-20184e867ce4` · printing: FIC #42 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Yojimbo

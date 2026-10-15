@@ -315,6 +315,7 @@ schema: 2
   - *2014-05-29* — Once dethrone triggers, it doesn't matter what happens to the players' life totals before the ability resolves. You'll put a +1/+1 counter on the creature even if the defending player doesn't have the most life as the ability resolves.
   - *2014-05-29* — The +1/+1 counter is put on the creature before blockers are declared.
   - *2023-07-28* — Dethrone doesn't trigger if the creature attacks a planeswalker, even if its controller has the most life. The same is true if the creature attacks a battle, even if its protector has the most life.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#treasonous-ogre)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/36/treasonous-ogre) · oracle_id `826d4279-1576-4898-a1c2-26fd547fb0d0` · printing: CNS #36 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Chest
@@ -359,6 +360,7 @@ schema: 2
   - *2021-03-19* — Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
   - *2021-03-19* — Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
   - *2021-03-19* — You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+- **Referenced in:** 8 pages (4 decks · 1 edh guides · 1 rules · 2 card data) → [reverse index](../../references/T.md#treasure-cruise)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/205/treasure-cruise) · oracle_id `5b6bdf5a-2742-4851-92cd-a857a3852836` · printing: SOC #205 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasured Find
@@ -457,6 +459,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — If Treasure Map leaves the battlefield before its ability resolves, you can't put a landmark counter on it. However, if it somehow already had three landmark counters on it before it left the battlefield, you'll get three Treasures.
   - *2017-09-29* — If a third landmark counter is put on Treasure Map by something other than the resolution of its first ability (as modified by any applicable replacement effects), you won't remove those counters, transform Treasure Map, or get Treasures yet. You'll have to wait until you activate its first ability again.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#treasure-map--treasure-cove)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/267/treasure-map-treasure-cove) · oracle_id `0b55eac6-a745-4bf4-8926-5ce83bc38d7d` · printing: LCI #267 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Nabber
@@ -477,6 +480,7 @@ schema: 2
   - *2018-07-13* — If you control multiple Treasure Nabbers, their effects all expire at the same time. You won't keep an artifact for any longer.
   - *2018-07-13* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If that player controls any nabbed treasures, the effect giving that player control of those artifacts ends.
   - *2018-07-13* — The artifact remains tapped when you gain control of it.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#treasure-nabber)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/265/treasure-nabber) · oracle_id `20a6d576-a5b2-43b4-8be9-75be001e567d` · printing: CMM #265 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Trove
@@ -504,6 +508,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #461 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#treasure-vault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/261/treasure-vault) · oracle_id `3c43efd6-b1a8-452c-ae20-9a936c3340ab` · printing: AFR #261 (2021-07-23) · [rulings](https://api.scryfall.com/cards/a0931eb3-b403-4b1a-ad46-a7b0a51bb9a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasury Thrull
@@ -662,6 +667,7 @@ schema: 2
   - *2016-07-13* — Any toughness-modifying effects, counters, Auras, or Equipment will apply after its toughness is set to the player's former life total. For example, say Tree of Perdition is equipped with Cultist's Staff (which makes it 2/15) and the player's life total is 7. After the exchange, Tree of Perdition would be a 2/9 creature (its toughness became 7, which was then modified by Cultist's Staff) and the player's life total would be 15.
   - *2016-07-13* — If Tree of Perdition isn't on the battlefield when the ability resolves, the exchange can't happen and the ability will have no effect. Notably, activating the ability and giving Tree of Perdition -13/-13 in response won't cause your opponent to lose the game.
   - *2016-07-13* — When the ability resolves, Tree of Perdition's toughness becomes the targeted opponent's former life total and that player gains or loses an amount of life necessary so that their life total equals Tree of Perdition's former toughness. Other effects that interact with life gain or life loss will interact with this effect accordingly.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/T.md#tree-of-perdition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/49/tree-of-perdition) · oracle_id `0cdece2a-0bdf-4e6d-9ddc-4a8d58b2ec29` · printing: ECC #49 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tree of Redemption
@@ -692,6 +698,7 @@ schema: 2
   > *Tel-Jilad, sanctum of the ancient trolls, keepers of the secret of Mirrodin's origin.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1528 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tree-of-tales)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/319/tree-of-tales) · oracle_id `8b4aa971-b919-4750-8388-33d4f42c9280` · printing: DSC #319 (2024-09-27) · [rulings](https://api.scryfall.com/cards/3b3134b3-1bad-4b41-9e56-700125ff31fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treeshaker Chimera
@@ -842,6 +849,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#treetop-sentries)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/201/treetop-sentries) · oracle_id `5bf5739a-6322-4e6e-b41e-e7bdbb11b1ce` · printing: BLB #201 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treetop Snarespinner
@@ -902,6 +910,7 @@ schema: 2
 - **Keywords:** Vigilance, Ward
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32236 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trelane-squire-of-gothos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/195/trelane-squire-of-gothos) · oracle_id `3c516327-00a3-4d03-87a3-73b4a90719d3` · printing: TRC #195 (2026-11-13) · [rulings](https://api.scryfall.com/cards/3ff8a24f-2771-454b-abb3-619b1c56f7e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trelasarra, Moon Dancer
@@ -943,6 +952,7 @@ schema: 2
   > *Where do you run when the earth becomes your enemy?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19549 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tremor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/228/tremor) · oracle_id `4281a153-665b-44cf-bcff-9cf88c14c2b5` · printing: 8ED #228 (2003-07-28) · [rulings](https://api.scryfall.com/cards/7d47f27d-5a25-4d2a-b2a2-027b579b881b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trench Behemoth
@@ -1048,6 +1058,7 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trendy-circus-pirate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/2/trendy-circus-pirate) · oracle_id `eb980d94-2860-4fe5-85e0-2757985721f1` · printing: SUNF #2 (2022-10-07) · [rulings](https://api.scryfall.com/cards/96cc18d9-edf1-4cb5-bb0d-a33d380c7d94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treno, Dark City
@@ -1104,6 +1115,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Activating the last ability after blockers have been declared won’t change or undo any blocks.
   - *2022-10-07* — You can activate this creature’s last ability even if it doesn’t have any name stickers on it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#_____-_____-_____-trespasser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/61/_____-_____-_____-trespasser) · oracle_id `75854e14-5f15-443d-b342-b27fc3ab4b6e` · printing: UNF #61 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trespasser il-Vec
@@ -1133,6 +1145,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5176 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-04-18* — If a creature enters the battlefield under enchanted player’s control and causes an ability controlled by that player to trigger, the triggered ability of Trespasser’s Curse resolves first if it’s that player’s turn, and resolves last if it’s your turn.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/T.md#trespassers-curse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/112/trespassers-curse) · oracle_id `2769751d-ca67-4d6e-93c9-9587367ae8ab` · printing: AKH #112 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trespassing Souleater
@@ -1251,6 +1264,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If you don't want to unsummon a land, you can play this card then tap it for mana before the enters ability resolves. You may then choose to sacrifice it instead of unsummoning a land.
   - *2005-08-01* — This land is of type "Lair" only; other subtypes have been removed. It is not a basic land.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#trevas-ruins)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/260/trevas-ruins) · oracle_id `7b2c7758-2b89-49ff-8838-8dc9880c7209` · printing: DMR #260 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treva, the Renewer

@@ -43,6 +43,7 @@ schema: 2
   - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mai-and-zuko)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/68/mai-and-zuko) · oracle_id `b86ba0aa-89f3-4924-b3c4-f7ca44468e9b` · printing: TLE #68 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mai, Jaded Edge
@@ -100,6 +101,7 @@ schema: 2
   - *2017-08-25* — If one of Mairsil's abilities doesn't resolve, most likely because its target became illegal before it resolved, it can't be activated again in the same turn.
   - *2017-08-25* — If you have a creature enter the battlefield as a copy of Mairsil, its first ability triggers. You won't be able to activate any abilities before the "legend rule" applies, but the triggered ability will still let you exile another card with a cage counter regardless of which Mairsil you keep.
   - *2017-08-25* — The exiled cards remain exiled with cage counters when Mairsil leaves the battlefield. If Mairsil returns to the battlefield, it will see all of those exiled cards with cage counters on them.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mairsil-the-pretender)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/41/mairsil-the-pretender) · oracle_id `ed5fbae0-2dca-44a5-84dc-62674b3a92a6` · printing: C17 #41 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mai, Scornful Striker
@@ -115,6 +117,7 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4916 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mai-scornful-striker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/109/mai-scornful-striker) · oracle_id `953a2bd3-5bca-41fc-8785-66b2d7fa381a` · printing: TLA #109 (2025-11-21) · [rulings](https://api.scryfall.com/cards/74dd4c0e-27b8-4c47-b7a6-a281413cd6b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maître Tree

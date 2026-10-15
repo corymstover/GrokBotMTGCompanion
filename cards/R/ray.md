@@ -101,6 +101,7 @@ schema: 2
   - *2026-01-27* — When comparing the stats as the evolve ability resolves, it's possible that the stat that's greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you'll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature you control enters, its toughness is greater, so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You'll put a +1/+1 counter on the creature with evolve.
   - *2026-01-27* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
   - *2026-01-27* — Whenever a creature you control enters check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won't trigger at all.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#ray-fillet-wave-warrior)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/14/ray-fillet-wave-warrior) · oracle_id `206913aa-4d73-4465-8311-8054a22c0743` · printing: TMC #14 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rayne, Academy Chancellor

@@ -90,6 +90,7 @@ schema: 2
   - *2023-10-13* — If the face-down card has a morph ability, its controller may turn it face up by paying the associated morph cost.
   - *2023-10-13* — If, for any reason, the face-down creature is turned face up, the effect making it a Cyberman ends. It will be whatever is printed on the card.
   - *2023-10-13* — The player who controls a face-down permanent may look at it at any time. Notably, if the cards were put on the battlefield face down from another player's library, the player that owns them does not get to look at those cards.
+- **Referenced in:** 6 pages (4 decks · 1 edh guides · 1 card data) → [reverse index](../../references/C.md#cyber-conversion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/38/cyber-conversion) · oracle_id `33761c1a-9848-45bf-b934-123cebab566b` · printing: WHO #38 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyberdrive Awakener
@@ -104,6 +105,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #970 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/C.md#cyberdrive-awakener)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/69/cyberdrive-awakener) · oracle_id `126a5d0b-e7d6-458e-87af-47d845678014` · printing: EOC #69 (2025-08-01) · [rulings](https://api.scryfall.com/cards/19bf6b74-b236-42eb-8c88-d715cece6357/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyberman Patrol
@@ -117,6 +119,7 @@ schema: 2
   > *"Obey or you will be destroyed."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2807 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/C.md#cyberman-patrol)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/174/cyberman-patrol) · oracle_id `1e51fab7-3ca5-4fbb-a1e9-b39c842895e8` · printing: WHO #174 (2023-10-13) · [rulings](https://api.scryfall.com/cards/566ae475-48cd-42d0-8d96-168529b2180d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cybermat
@@ -151,6 +154,7 @@ schema: 2
   - *2023-10-13* — The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, or the controller of the planeswalker or the protector of the battle the creature was attacking at the time it became an attacking creature this combat.
   - *2023-10-13* — The token creatures all enter the battlefield at the same time.
   - *2023-10-13* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
+- **Referenced in:** 6 pages (5 decks · 1 edh guides) → [reverse index](../../references/C.md#cybermen-squadron)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/176/cybermen-squadron) · oracle_id `8d035688-089f-4d5c-bcad-9140a6c1681b` · printing: WHO #176 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cybernetica Datasmith
@@ -167,6 +171,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17365 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-07* — Both targets must be chosen when putting Cybernetica Datasmith's activated ability on the stack. Notably, this means that if you target yourself to draw a card, you don't get to see what that card is before choosing which player to give a Robot to.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cybernetica-datasmith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/114/cybernetica-datasmith) · oracle_id `23a265ef-d651-4d8d-94dd-0072f83541f9` · printing: 40K #114 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cybernetic Specialist
@@ -182,6 +187,7 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31140 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cybernetic-specialist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/262/cybernetic-specialist) · oracle_id `9fc49a69-f80c-478f-b237-66f155c0c09a` · printing: TRK #262 (2026-11-13) · [rulings](https://api.scryfall.com/cards/b147f16e-a2d6-4d43-9213-9a2723b0d3ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cybership
@@ -201,6 +207,7 @@ schema: 2
   - *2023-10-13* — If the face-down card has a morph ability, its controller may turn it face up by paying the associated morph cost.
   - *2023-10-13* — If, for any reason, the face-down creature is turned face up, the effect making it a Cyberman ends. It will be whatever is printed on the card.
   - *2023-10-13* — The player who controls a face-down permanent may look at it at any time. Notably, if the cards were put on the battlefield face down from another player's library, the player that owns them does not get to look at those cards.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#cybership)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/177/cybership) · oracle_id `9c6ac895-0644-47ea-8a40-8f35cbbeba42` · printing: WHO #177 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cycle of Life
@@ -227,6 +234,7 @@ schema: 2
   > *—Katara*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1901 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cycle-of-renewal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/170/cycle-of-renewal) · oracle_id `77eda626-5cef-496d-b291-cfa1ee6fc1fb` · printing: TLA #170 (2025-11-21) · [rulings](https://api.scryfall.com/cards/233f4a05-057b-48f4-8f56-8d4a060a40e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclical Evolution
@@ -309,6 +317,7 @@ schema: 2
   - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
   - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 50 pages (43 decks · 4 edh guides · 2 rules · 1 card data) → [reverse index](../../references/C.md#cyclonic-rift)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/40/cyclonic-rift) · oracle_id `d75b9c82-1b49-4c3e-a1b5-aeef57d6644b` · printing: RVR #40 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter
@@ -396,6 +405,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-11-12* — If a land becomes a basic land type (such as Swamp) but not “in addition to its other types,” it loses all other land types it has and all abilities from its rules text and it has “{T}: Add {B}.”
   - *2019-11-12* — If both target lands become illegal targets, Cyclopean Titan’s triggered ability won’t resolve. It will remain in your graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cyclopean-titan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/40/cyclopean-titan) · oracle_id `31f59a3e-a040-451c-999e-1f60cb957c57` · printing: CMB2 #40 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclopean Tomb
@@ -410,6 +420,7 @@ schema: 2
   - *2006-10-15* — Will not add or remove the supertype snow to or from a land.
   - *2008-08-01* — The delayed triggered ability created when Cyclopean Tomb is put into a graveyard from the battlefield triggers during each of your upkeeps for the rest of the game. As it resolves, you must remove a mire counter from a land that had a mire counter put on it by that instance of Cyclopean Tomb, but it doesn't matter where the mire counter you remove came from. For instance, you could remove mire counters that were put on the land by Gilder Bairn.
   - *2008-08-01* — The land remains a Swamp as long as it has a mire counter on it. This effect is not tied to the Tomb remaining on the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cyclopean-tomb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/195/cyclopean-tomb) · oracle_id `1edee40f-d153-4d67-aee7-ef08e11e4a79` · printing: ME4 #195 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclops Electromancer
@@ -598,6 +609,7 @@ schema: 2
 - **Rulings** (2):
   - *2006-05-01* — If the ability is activated and Cytoplast Manipulator leaves the battlefield before it resolves, the ability does nothing. The target creature will remain under its current controller's control.
   - *2006-05-01* — The control change lasts as long as Cytoplast Manipulator is on the battlefield. It doesn't end if the creature loses all its +1/+1 counters, it stops being a creature, or if Cytoplast Manipulator becomes untapped.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/C.md#cytoplast-manipulator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/23/cytoplast-manipulator) · oracle_id `026ef98e-4f0a-4a6d-b74f-d17ac8b10e37` · printing: DIS #23 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cytoplast Root-Kin

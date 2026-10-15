@@ -45,4 +45,5 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — Unlike most similar effects, Baeloth Barrityl's first ability doesn't cause a creature to be goaded until your next turn. Rather, it causes it to be goaded for as long as Baeloth Barrityl is on battlefield, has the ability, and has sufficient power.
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#baeloth-barrityl-entertainer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/655/baeloth-barrityl-entertainer) · oracle_id `33b401b1-cf94-4c7a-8a8a-426ac3d87bd0` · printing: CLB #655 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

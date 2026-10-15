@@ -77,6 +77,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #472 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 35 pages (31 decks · 3 edh guides · 1 lore & story) → [reverse index](../../references/X.md#xanders-lounge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/260/xanders-lounge) · oracle_id `8291543f-d086-48aa-b2b7-5481ca8c9198` · printing: SNC #260 (2022-04-29) · [rulings](https://api.scryfall.com/cards/54f449ff-4025-465e-9ec5-a5cf42c4c9d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xander's Pact
@@ -95,6 +96,7 @@ schema: 2
   - *2022-04-29* — If you pay the casualty cost of a spell, the copy will resolve before the original spell.
   - *2022-04-29* — The copy of the spell is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger.
   - *2022-04-29* — You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/X.md#xanders-pact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/43/xanders-pact) · oracle_id `3df11e5c-19aa-441c-a889-6b40eb3fdabf` · printing: NCC #43 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xantcha, Sleeper Agent
@@ -114,6 +116,7 @@ schema: 2
   - *2018-07-13* — Xantcha's controller may activate its last ability. In this case, the same player loses 2 life and draws a card.
   - *2018-07-13* — Xantcha's first ability is a replacement effect that modifies how it enters the battlefield, not a triggered ability. Players can't take actions (such as activating its last ability) while Xantcha's on the battlefield before it's controlled by another player.
   - *2019-08-23* — In a multiplayer game, if Xantcha's owner leaves the game, Xantcha leaves the game with them. If Xantcha's controller leaves the game, Xantcha is exiled. This is a change from previous rulings due to Xantcha's updated wording.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/X.md#xantcha-sleeper-agent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/362/xantcha-sleeper-agent) · oracle_id `0f0f3712-8d13-41a5-b332-2ab34e48d79d` · printing: CMM #362 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xanthic Statue
@@ -228,4 +231,5 @@ schema: 2
   - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
   - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
   - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/X.md#xavier-sal-infested-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/14/xavier-sal-infested-captain) · oracle_id `50a9c647-47ba-4732-852a-f0ab2b4549c9` · printing: LCC #14 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

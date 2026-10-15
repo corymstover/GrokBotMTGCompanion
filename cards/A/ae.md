@@ -200,6 +200,7 @@ schema: 2
   > *Athreos cares little for the other gods' conflict with mortals. He is concerned only with safe passage for the dead.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7565 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aegis-of-the-gods)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/1/aegis-of-the-gods) · oracle_id `c5bfc1b9-a55d-4608-a6f7-bb62cb8dc3c6` · printing: JOU #1 (2014-05-02) · [rulings](https://api.scryfall.com/cards/f2b2f381-86a2-42ac-b694-dcde437d574f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aegis of the Heavens
@@ -346,6 +347,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29342 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — There is a typographical error in the title of the card so that the "Ae" does not appear.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#aerathi-berserker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/131/aerathi-berserker) · oracle_id `5cb495a2-c683-4066-b6ee-d0b7d8843cb9` · printing: LEG #131 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aerial Assault
@@ -442,6 +444,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26757 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aerialephant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/2/aerialephant) · oracle_id `20046568-b067-49fb-93b4-2ee86421f14b` · printing: UNF #2 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1a2f4abd-089e-4015-a207-8a62616668b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aerial Extortionist
@@ -531,6 +534,7 @@ schema: 2
   - *2012-10-01* — You must be able to target a creature with flying to cast Aerial Predation.
   - *2017-11-17* — If the creature with flying is an illegal target when Aerial Predation tries to resolve, it won't resolve and none of its effects will happen. You won't gain 2 life.
   - *2017-11-17* — You must be able to target a creature with flying to cast Aerial Predation.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aerial-predation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/154/aerial-predation) · oracle_id `6bac1495-16cf-4e1e-9126-482f85322c78` · printing: IMA #154 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aerial Responder
@@ -602,6 +606,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13308 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — Heartwood tokens are a kind of predefined token. Each one is a red and green artifact with the artifact subtype Heartwood and the ability "{T}: Add {R} or {G}."
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/A.md#aerid-konstrari)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/121/aerid-konstrari) · oracle_id `172a8f58-c420-4497-b962-c5853f923667` · printing: FRA #121 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aerie Auxiliary
@@ -687,6 +692,7 @@ schema: 2
   - *2014-02-01* — If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability.
   - *2014-02-01* — Inspired abilities don’t trigger when the creature enters the battlefield.
   - *2014-02-01* — Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aerie-worshippers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/30/aerie-worshippers) · oracle_id `674c34eb-1080-4811-8f2a-5006e08d98b8` · printing: BNG #30 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aerith Gainsborough
@@ -707,6 +713,7 @@ schema: 2
   - *2025-06-06* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Aerith Gainsborough's second ability triggers only once.
   - *2025-06-06* — In a Two-Headed Giant game, life gained by your teammate won't cause Aerith Gainsborough's second ability to trigger, even though it caused your team's life total to increase.
   - *2025-06-06* — In the rare case where enough -1/-1 counters are put on Aerith Gainsborough at the same time to make its toughness 0 or less, the number of +1/+1 counters on it before it got those -1/-1 counters will be used to determine the value of X in Aerith Gainsborough's third ability. For example, if there are two +1/+1 counters on Aerith Gainsborough and it gets three -1/-1 counters, you'll put two +1/+1 counters on each legendary creature you control when Aerith Gainsborough's third ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aerith-gainsborough)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/4/aerith-gainsborough) · oracle_id `dd9a6f6b-f9b7-4292-bc80-b7da326de032` · printing: FIN #4 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aerith, Last Ancient
@@ -723,6 +730,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5245 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Aerith's last ability checks at the moment it would trigger to see if you gained life this turn. If you didn't, the ability won't trigger at all. Once your end step begins, it's too late to gain life in order to cause this ability to trigger. However, the last part of the ability will check how much life you've gained as the ability resolves, so if you've only gained 5 life this turn by the time the end step comes around, you could still gain 2 more life while this ability is on the stack in order to return the target creature card to the battlefield instead of your hand.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aerith-last-ancient)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/76/aerith-last-ancient) · oracle_id `d6cba688-faff-4d9f-8148-37d389fa5fb3` · printing: FIC #76 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aerith Rescue Mission
@@ -851,6 +859,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#aesi-tyrant-of-gyre-strait)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/210/aesi-tyrant-of-gyre-strait) · oracle_id `6511f317-bd38-46d0-b800-7125a3f420da` · printing: DSC #210 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aesthetic Consultation
@@ -861,6 +870,7 @@ schema: 2
   > Choose an artist. Exile the top six cards of your library, then reveal cards from the top of your library until you reveal a card with art by the chosen artist. Put that card in your hand and exile all other cards revealed this way.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aesthetic-consultation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/48/aesthetic-consultation) · oracle_id `8789d5fa-101c-457a-90ec-5cf067f5289b` · printing: UNH #48 (2004-11-19) · [rulings](https://api.scryfall.com/cards/0464a507-20e5-42d5-8aca-12504a869f21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aesthir Glider
@@ -876,6 +886,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23358 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aesthir-glider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/209/aesthir-glider) · oracle_id `99dcde0b-4f4d-4d7a-89aa-8a89c256e38f` · printing: DOM #209 (2018-04-27) · [rulings](https://api.scryfall.com/cards/25afd4a7-4253-4a4e-a105-e92f64460faa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Adept
@@ -968,6 +979,7 @@ schema: 2
   > • Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1559 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/A.md#aether-channeler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/42/aether-channeler) · oracle_id `fb220f46-f8b8-4804-baa4-e7d50b4871f7` · printing: DMU #42 (2022-09-09) · [rulings](https://api.scryfall.com/cards/60afeb75-2c1e-4634-8c83-88b1dddb77c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Charge
@@ -1105,6 +1117,7 @@ schema: 2
   - *2016-09-20* — The first ability counts spells you cast earlier in the turn even if you didn't control Aetherflux Reservoir as you cast them, and even if those spells were countered.
   - *2016-09-20* — The first ability counts the spell that caused it to trigger plus any other spells you cast earlier in the turn.
   - *2016-09-20* — The number of spells you've cast is counted only as Aetherflux Reservoir's triggered ability resolves. For example, if you cast a spell, then respond to the triggered ability with a second spell, you'll gain 4 life total.
+- **Referenced in:** 8 pages (5 decks · 3 edh guides) → [reverse index](../../references/A.md#aetherflux-reservoir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/192/aetherflux-reservoir) · oracle_id `5f15125e-ae89-471e-b055-226a783bc7c1` · printing: KLD #192 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Gale
@@ -1229,6 +1242,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2288 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-02-07* — To double the number of a kind of counters on a permanent, put a number of that kind of counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly. The same is true for doubling the number of counters on a player.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aetheric-amplifier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/drc/18/aetheric-amplifier) · oracle_id `295cd8e1-0830-46c1-9957-556afd4bcee6` · printing: DRC #18 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Inspector
@@ -1265,6 +1279,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #287 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-11-17* — An "attacking creature" is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat. There's no such thing as an attacking creature outside of the combat phase.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/A.md#aetherize)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/151/aetherize) · oracle_id `7c779721-cd1b-4696-9ae9-68ccc284ed2a` · printing: FDN #151 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aetherjacket
@@ -1296,6 +1311,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Aetherling's first ability will return it to the battlefield only if that ability also exiled it. If Aetherling left the battlefield in response to that ability, it won't return, even if it was exiled by another spell or ability.
   - *2013-04-15* — Aetherling's last ability can be activated even if its power is 0 or less. If a creature would assign 0 or less damage in combat, it doesn't assign combat damage at all.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#aetherling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/11/aetherling) · oracle_id `b980bf11-9e12-4ee9-83c1-45706d9ae344` · printing: DGM #11 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aethermage's Touch
@@ -1424,6 +1440,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aether-refinery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/54/aether-refinery) · oracle_id `9e9cde32-0568-44bc-a00a-9709f15c1350` · printing: M3C #54 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Revolt
@@ -1545,6 +1562,7 @@ schema: 2
   - *2015-11-04* — If you gain control of a commander spell, the commander’s owner chooses whether to put it in the command zone if it later leaves the battlefield.
   - *2015-11-04* — If you gain control of an instant or sorcery spell, it will be put into its owner’s graveyard as it resolves.
   - *2015-11-04* — You may change any or none of the spell’s targets. If you change a target, you must choose a legal target for the spell. If you can’t, you must leave the target unchanged (even if the current target is illegal). Notably, if you were originally chosen as a “target opponent” for a spell you gain control with Aethersnatch, you are now an illegal target as you aren’t your own opponent.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#aethersnatch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c15/9/aethersnatch) · oracle_id `45892ec2-8996-444f-a61c-5151926baa0b` · printing: C15 #9 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aethersnipe
@@ -1574,6 +1592,7 @@ schema: 2
   > *—Spellbomb inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2713 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#aether-spellbomb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/456/aether-spellbomb) · oracle_id `4b033a0a-c1ae-44d7-9662-72cbbfda024b` · printing: JMP #456 (2020-07-17) · [rulings](https://api.scryfall.com/cards/a54e8ce9-edd7-4ae7-9521-6fb6727cf63b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aethersphere Harvester
@@ -1611,6 +1630,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#aethersphere-harvester)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/142/aethersphere-harvester) · oracle_id `7b3e74ad-0179-480b-871c-9e3bc30a43ff` · printing: AER #142 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Spike
@@ -1673,6 +1693,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#aethersquall-ancient)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/39/aethersquall-ancient) · oracle_id `47c685b1-6e1e-4e08-8a52-9da6902df113` · printing: KLD #39 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Sting
@@ -1774,6 +1795,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#aether-swooper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/26/aether-swooper) · oracle_id `f7ed301a-dce7-49d0-a68a-d3a099201f65` · printing: AER #26 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Syphon
@@ -2011,6 +2033,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2734 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-06-06* — The value of X changes as your life total changes. Since damage remains marked on creatures until the damage is removed as the turn ends, nonlethal damage dealt to the equipped creature may become lethal if your life total decreases during that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aettir-and-priwen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/253/aettir-and-priwen) · oracle_id `19d8937e-23fb-4758-a306-0e7af9bb44c4` · printing: FIN #253 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aeve, Progenitor Ooze

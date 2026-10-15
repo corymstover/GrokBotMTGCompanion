@@ -302,6 +302,7 @@ schema: 2
   > *King Darien's breath crystallized and fell to the frozen battlefield, but its command carried true to all soldiers of New Argive.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32118 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/K.md#kjeldoran-war-cry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/13/kjeldoran-war-cry) · oracle_id `e45a1626-d659-4eda-bc6b-bd8119ce7386` · printing: CSP #13 (2006-07-21) · [rulings](https://api.scryfall.com/cards/320b2b02-a3ff-4f68-93e6-8539d7caa005/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Warrior
@@ -321,4 +322,5 @@ schema: 2
   - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
   - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
   - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/K.md#kjeldoran-warrior)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/41/kjeldoran-warrior) · oracle_id `73b70a48-b62c-4fdf-9c2d-c6d6688f9ac8` · printing: ICE #41 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

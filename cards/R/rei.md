@@ -65,6 +65,7 @@ schema: 2
   - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
   - *2021-02-05* — Valkmira's first ability prevents 1 damage from each source an opponent controls each time that source would deal damage to you. It prevents 1 of any kind of damage, not just combat damage.
   - *2021-02-05* — Valkmira's last ability affects each spell (including Aura spells), activated ability, and triggered ability controlled by an opponent that targets you or another permanent you control.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#reidane-god-of-the-worthy--valkmira-protectors-shield)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/21/reidane-god-of-the-worthy-valkmira-protectors-shield) · oracle_id `35ae7b25-6d0f-49f8-a40d-dd2cf88e6f44` · printing: KHM #21 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reigning Victor
@@ -95,6 +96,7 @@ schema: 2
   > *—Kaervek*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27831 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reign-of-chaos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/190/reign-of-chaos) · oracle_id `436b5989-9b8c-4e03-a82e-046837c891ca` · printing: MIR #190 (1996-10-08) · [rulings](https://api.scryfall.com/cards/9285b14a-fc8e-457a-b803-202e05be41e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reign of Terror
@@ -120,6 +122,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-05-29* — Use the powers of the creatures as they last existed on the battlefield to determine the value of X, even if they were negative. For example, if the sacrificed creatures were 3/3, 5/5, 0/4, and -2/2, the Demon will be 6/6.
   - *2014-05-29* — You choose which creature you are sacrificing first, then each other player in turn order does the same. The creatures are all sacrificed simultaneously.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reign-of-the-pit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/258/reign-of-the-pit) · oracle_id `3e1a6337-bb29-450f-bf29-ff71b357a983` · printing: NCC #258 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reincarnation
@@ -181,6 +184,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20731 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — You have to show which creature cards you put on top of your library, but not the order you put them there.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reinforcements)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/28/reinforcements) · oracle_id `ff27ff96-afd2-45df-b799-3046179e27c6` · printing: ME2 #28 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reins of Power
@@ -193,6 +197,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — It is perfectly legal for either or both players to have zero creatures. They give control of all their zero creatures as instructed.
   - *2007-05-01* — You only untap creatures controlled by you and the targeted opponent, not all creatures.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reins-of-power)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/734/reins-of-power) · oracle_id `96381388-1e82-411c-8290-1f3e909d3b5f` · printing: CLB #734 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reins of the Vinesteed
@@ -228,6 +233,7 @@ schema: 2
   - *2021-04-16* — If you cast a spell “without paying its mana cost,” you can’t pay any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
   - *2021-04-16* — If you target a spell that can’t be countered, like Heated Debate, you won’t counter the spell, but you will get to cast a spell with an equal or lesser mana value.
   - *2021-04-16* — This can be used to cast either face of a modal double-faced card, but only if the face you are casting has an equal or lesser mana value than the target spell.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#reinterpret)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/73/reinterpret) · oracle_id `e197104f-5382-4cb2-8afe-5ca0594629c2` · printing: C21 #73 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reiterate
@@ -250,6 +256,7 @@ schema: 2
   - *2021-03-19* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will resolve before the original spell does.
   - *2021-03-19* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2021-03-19* — You can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 rules) → [reverse index](../../references/R.md#reiterate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/182/reiterate) · oracle_id `38394ee3-6726-4f91-bc25-36bce0c6aab9` · printing: TSR #182 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reiterating Bolt

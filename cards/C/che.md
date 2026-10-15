@@ -53,6 +53,7 @@ schema: 2
   - *2024-11-08* — I’m not sure what wizard would want Lazav, Familiar Stranger as their familiar, but to each their own. (I would pick Owl Familiar, personally.)
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chea-friend-to-maybe-too-many)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/591/chea-friend-to-maybe-too-many) · oracle_id `c3020f78-15d5-4166-a610-75522a454e0a` · printing: MB2 #591 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cheap Ass
@@ -146,6 +147,7 @@ schema: 2
   - *2023-09-01* — Increasing a creature's power after it has blocked a creature affected by Squeak By will not remove that blocking creature from combat or make the affected creature unblocked.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cheeky-house-mouse--squeak-by)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/7/cheeky-house-mouse-squeak-by) · oracle_id `db70ddae-0ac1-47f2-9158-8448e337a08f` · printing: WOE #7 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cheer
@@ -266,6 +268,7 @@ schema: 2
   - *2018-10-05* — If a card with jump-start is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
   - *2018-10-05* — If an effect allows you to pay an alternative cost rather than a spell's mana cost, you may pay that alternative cost when you jump-start a spell. You'll still discard a card as an additional cost to cast it.
   - *2018-10-05* — You must still follow any timing restrictions and permissions when casting a spell with jump-start, including those based on the card's type. For instance, you can cast a sorcery using jump-start only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#chemisters-insight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/81/chemisters-insight) · oracle_id `a2cb30d7-c0a9-4f79-bc19-fc88c4986725` · printing: CLU #81 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chemister's Trick
@@ -304,6 +307,7 @@ schema: 2
   - *2018-01-19* — For the triggered ability that the entering Dinosaur gains, you choose a target when the ability goes on the stack, but you don't choose until that ability resolves whether those creatures fight.
   - *2018-01-19* — If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.
   - *2018-01-19* — You must pay the costs for spells you cast this way. If there's an alternative cost you can pay instead of the mana cost for a Dinosaur spell, you may pay that cost instead.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#cherished-hatchling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/124/cherished-hatchling) · oracle_id `bd7111bc-9b8f-4c4b-b61c-7841a857ce6b` · printing: RIX #124 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chevill, Bane of Monsters

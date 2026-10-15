@@ -61,6 +61,7 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26439 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#affa-protector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/14/affa-protector) · oracle_id `5b38a1e4-a6af-4094-9392-70a87759e20d` · printing: OGW #14 (2016-01-22) · [rulings](https://api.scryfall.com/cards/0e54ac79-fbaa-4385-869b-aaf31e33a11f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Affectionate Indrik
@@ -177,6 +178,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7143 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-02-02* — Because blockers are chosen all at once, you can't block with a creature with afterlife, wait for it to die, then block with the resulting Spirit tokens.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#afterlife-insurance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/23/afterlife-insurance) · oracle_id `05501e88-d4c3-4474-92a9-c02ab15b107b` · printing: CLU #23 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aftermath Analyst
@@ -192,6 +194,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #630 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 7 pages (3 decks · 3 edh guides · 1 card data) → [reverse index](../../references/A.md#aftermath-analyst)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/91/aftermath-analyst) · oracle_id `374e54d8-8e73-4268-9dde-c28c77bbbf32` · printing: EOC #91 (2025-08-01) · [rulings](https://api.scryfall.com/cards/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aftershock

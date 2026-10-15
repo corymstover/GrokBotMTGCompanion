@@ -289,6 +289,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — If for some reason you can't win the game (because your opponent has cast Angel's Grace this turn, for example), you won't lose for having tried to draw a card from a library with no cards in it. The draw was still replaced.
   - *2021-03-19* — If two or more players each control a Laboratory Maniac and each player is instructed to draw a number of cards, first the player whose turn it is draws that many cards. If this causes that player to win the game instead, the game is immediately over. If the game isn't over yet, repeat this process for each other player in turn order.
+- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 card data) → [reverse index](../../references/L.md#laboratory-maniac)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/71/laboratory-maniac) · oracle_id `aa286dd5-aa19-446d-9003-684d81eb57ca` · printing: INR #71 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lab Rats
@@ -366,6 +367,7 @@ schema: 2
   - *2017-04-18* — You'll sacrifice Labyrinth Guardian even if you counter the spell that targets it. If that spell has no other targets, it'll be countered when it tries to resolve.
   - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
   - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#labyrinth-guardian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/60/labyrinth-guardian) · oracle_id `867ee3e7-88df-4e4b-b199-f441a8460573` · printing: AKH #60 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Labyrinth Minotaur
@@ -415,6 +417,7 @@ schema: 2
   - *2020-04-17* — If a creature is attacking a planeswalker, the planeswalker’s controller is the defending player.
   - *2020-04-17* — Labyrinth Raptor’s second and third abilities apply to itself as long as it still has menace.
   - *2020-04-17* — The defending player sacrifices a blocking creature before combat damage is dealt. This may cause a single creature to be blocking the creature with menace; the blocking creature remains blocking. It will still deal and be dealt combat damage as normal.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#labyrinth-raptor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/193/labyrinth-raptor) · oracle_id `a29b2e93-d872-4be8-8b15-57f57282ed45` · printing: IKO #193 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Laccolith Grunt
@@ -620,6 +623,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-09-19* — The spell is cast as Lady Octopus's last ability resolves. You can't wait and cast it later.
   - *2025-09-19* — You don't have to cast a spell as that ability resolves. If you choose not to for some reason, don't let anyone judge your genius plans.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lady-octopus-inspired-inventor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/35/lady-octopus-inspired-inventor) · oracle_id `8e51fdb8-4f83-4e94-b36c-40a501075ecb` · printing: SPM #35 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lady of Laughter
@@ -681,6 +685,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27175 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lady-sun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/45/lady-sun) · oracle_id `dcc363a7-652d-4d2b-9081-3e5735120f21` · printing: PTK #45 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lady Zhurong, Warrior Queen
@@ -697,6 +702,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26179 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lady-zhurong-warrior-queen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/139/lady-zhurong-warrior-queen) · oracle_id `531e6ffb-28e0-4e8e-ad88-2f3a243789cf` · printing: PTK #139 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Laelia, the Blade Reforged
@@ -718,6 +724,7 @@ schema: 2
   - *2024-06-07* — The last ability triggers only once for each time cards are put into exile from your library and/or graveyard, no matter how many cards were exiled at the same time.
   - *2024-06-07* — You must follow the normal timing permissions and restrictions while playing the exiled card. If it's a land, you can't play it unless you have land plays available.
   - *2024-06-07* — You'll still pay all costs for a spell cast this way, including additional costs. You may also pay alternative costs if any are available.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/L.md#laelia-the-blade-reforged)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/246/laelia-the-blade-reforged) · oracle_id `a0be9bb2-3234-4c6c-b8ce-0879b1f43003` · printing: SOC #246 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lae'zel's Acrobatics
@@ -733,6 +740,7 @@ schema: 2
   - *2022-06-10* — Any abilities that trigger during the resolution of Lae'zel's Acrobatics will wait to go on the stack until after it's finished resolving. That means that if you roll 10–20, any abilities that trigger when the creatures are exiled the first time, return to the battlefield, or are exiled the second time can be put on the stack in any order. The active player puts their abilities on the stack first in an order of their choice, followed by every other player in turn order. The last ability to be put on the stack will be the first to resolve.
   - *2022-06-10* — Auras attached to the exiled creatures will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creatures will cease to exist. When the cards return to the battlefield, they will be new objects with no connection to the cards that were exiled.
   - *2022-06-10* — The creatures you control are exiled before you roll a die. Notably, this means that if any of those creatures have abilities that replace a die roll or trigger due to a die roll, those won't occur.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#laezels-acrobatics)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/30/laezels-acrobatics) · oracle_id `3efe6ac8-f92e-4108-913b-077e41c0a841` · printing: CLB #30 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lae'zel, Vlaakith's Champion
@@ -756,6 +764,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/L.md#laezel-vlaakiths-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/29/laezel-vlaakiths-champion) · oracle_id `c066f921-e349-45d1-8ec3-0955d10bbf19` · printing: CLB #29 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### La Forge, Perceptive Engineer
@@ -796,6 +805,7 @@ schema: 2
   > {T}: Search your library for a card, put it into your hand, then shuffle. Activate only if five or more creatures died this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3063 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/L.md#lagomos-hand-of-hatred)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/205/lagomos-hand-of-hatred) · oracle_id `12c98c1e-7e02-473d-b494-ad8a0731fe82` · printing: DMU #205 (2022-09-09) · [rulings](https://api.scryfall.com/cards/1a6bb0c2-1e3c-48cd-8f10-49f047e0514c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lagonna-Band Elder
@@ -1031,6 +1041,7 @@ schema: 2
   - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
   - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lake-town-mariners--gone-fishing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/44/lake-town-mariners-gone-fishing) · oracle_id `dba1d231-6b03-44ad-ab8c-be0c8fe1b6db` · printing: HOB #44 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lake-town Toymaker
@@ -1458,6 +1469,7 @@ schema: 2
   - *2006-10-15* — You can fetch any of the "Snow-Covered" lands, since they all also have the supertype basic.
   - *2009-10-01* — This ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless any one of your opponents controls more lands than you, and (2) the ability will do nothing if you control at least as many lands as each of your opponents by the time it resolves.
   - *2009-10-01* — You shuffle your library if you search, even if you don't put any basic land cards into your hand.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 2 card data) → [reverse index](../../references/L.md#land-tax)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/153/land-tax) · oracle_id `d2d9ecea-7925-420e-98b9-2f87f41f387c` · printing: SOC #153 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Languish
@@ -1470,6 +1482,7 @@ schema: 2
   > *It seemed to the tenders of the sick that on the Halfling and on the Lady of Rohan this malady lay heavily. Soon they began to fall down into the darkness, and as the sun turned west, a grey shadow crept over their faces.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5742 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#languish)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/187/languish) · oracle_id `ef1a83f2-6707-41a2-b5ed-861c8e45ae07` · printing: HOC #187 (2026-08-14) · [rulings](https://api.scryfall.com/cards/e8701682-5b74-4855-adcf-7a1cf0c8cb41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lantern Bearer // Lanterns' Lift
@@ -1582,6 +1595,7 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-11-12* — If an effect refers to the top card of your library, it doesn’t refer to the bottom card of your library while you control Lantern of Undersight. Lantern of Undersight affects only how you draw cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lantern-of-undersight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/106/lantern-of-undersight) · oracle_id `5255bad8-23a8-4ec5-860f-b44ca88a5536` · printing: CMB2 #106 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lantern Scout
@@ -1625,6 +1639,7 @@ schema: 2
   > Whenever a player casts a blue spell, you may pay {3}. If you do, untap target permanent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25907 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lapis-lazuli-talisman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/327/lapis-lazuli-talisman) · oracle_id `83447e57-06f7-4e7b-91d4-7b8f71ea0676` · printing: ICE #327 (1995-06-03) · [rulings](https://api.scryfall.com/cards/ce00bb19-983e-427d-be54-ae6daf0ccdde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lapis Orb of Dragonkind
@@ -1766,6 +1781,7 @@ schema: 2
   - *2019-11-12* — After each player has lost life, the player whose turn it is chooses a permanent of each listed type. One permanent can’t be chosen twice this way, and that player skips any types of which they don’t control a permanent. Next, each other player in turn order does the same, knowing choices made before them. Then all the chosen permanents are sacrificed at the same time.
   - *2019-11-12* — After exiling cards from their graveyards and moving cards from their libraries, the player whose turn it is chooses a counter on a permanent they control, then each other player in turn order does the same knowing choices made before them. Then all of the chosen counters are removed at the same time.
   - *2019-11-12* — While resolving Largepox, first the player whose turn it is chooses a card in hand without revealing it, then each other player in turn order does the same. Then all the chosen cards are discarded at the same time.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#largepox)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/44/largepox) · oracle_id `5eee53e8-dd44-4b75-a8eb-18f8721bd6ac` · printing: CMB2 #44 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Larger Than Life
@@ -1994,6 +2010,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23971 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-09-15* — If the creature is an illegal target when Last Breath tries to resolve, it won't resolve and none of its effects will happen. Its controller won't gain 4 life.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#last-breath)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/15/last-breath) · oracle_id `e6fb4f0d-ce49-4913-a2ef-88365e4916cf` · printing: 2X2 #15 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Last Caress
@@ -2017,6 +2034,7 @@ schema: 2
   > *"I only had time to read half the spell, but I'm pretty sure this will work!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4503 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#last-chance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/127/last-chance) · oracle_id `360039a5-1cbd-4ee3-8f94-21b5348e106a` · printing: DMR #127 (2023-01-13) · [rulings](https://api.scryfall.com/cards/c0efb595-d407-4389-a99d-d97c4d6bdcd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Last-Ditch Effort
@@ -2045,6 +2063,7 @@ schema: 2
   > *—Armus*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15955 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#last-gasp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/580/last-gasp) · oracle_id `a82c3860-4dd6-4ffd-aa8f-ab8df687db6c` · printing: TRC #580 (2026-11-13) · [rulings](https://api.scryfall.com/cards/6d9c8d6b-b49f-4777-baa3-6381a624e3c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lasting Tarfire
@@ -2097,6 +2116,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14529 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-06-29* — Only a Dragon permanent card can be put onto the battlefield this way.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#last-light-of-durins-day)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/103/last-light-of-durins-day) · oracle_id `539583f4-21c8-4b61-a2c5-f612fadc3ffa` · printing: HOB #103 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Last March of the Ents
@@ -2111,6 +2131,7 @@ schema: 2
   > *With doom we come, with doom we come!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #986 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#last-march-of-the-ents)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/172/last-march-of-the-ents) · oracle_id `3999cd64-ff5c-4e2c-8aa6-d14f9f8a2b4c` · printing: LTR #172 (2023-06-23) · [rulings](https://api.scryfall.com/cards/7f1b99e0-ffb7-4f98-8ee5-4357bb79dd2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Last-Minute Chopping
@@ -2208,6 +2229,7 @@ schema: 2
   - *2022-10-07* — If the Aura can't become attached to the creature (for example, if the creature has protection from black), the Aura will be placed into its owner's graveyard as a state-based action. The creature will remain on the battlefield.
   - *2022-10-07* — Similarly, if the enchantment leaves the battlefield before its enters-the-battlefield ability resolves, you won't be able to put a name sticker on it. However, you will be able to return a creature card from your graveyard to the battlefield.
   - *2022-10-07* — This enchantment will become an Aura whether you put a name sticker on it or not. "Last Voyage of the ________" is kind of a disappointing name though.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#last-voyage-of-the-_____)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/78/last-voyage-of-the-_____) · oracle_id `54ddf766-b528-488d-9b98-8a101bdb5de9` · printing: UNF #78 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Last Word
@@ -2301,6 +2323,7 @@ schema: 2
   - *2020-11-10* — If some, but not all, of the creatures are illegal targets as the triggered ability tries to resolve, the original distribution of counters still applies and the counters that would have been put on illegal targets are lost. If all of the creatures are illegal targets, the ability won't resolve.
   - *2020-11-10* — The triggered ability will consider the total amount of life you've gained that turn, not how your life total has changed. For example, if you start the turn at 10 life, then gain 5 life, and then lose 7 life, you'll distribute five +1/+1 counters, even though your life total is now lower than it was at the beginning of the turn.
   - *2020-11-10* — You may choose no targets if you want. In that case, no +1/+1 counters are put on any creature.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#lathiel-the-bounteous-dawn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/285/lathiel-the-bounteous-dawn) · oracle_id `d3c56fc4-3611-41b1-952e-4c5311b1510b` · printing: CMR #285 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lathliss, Dragon Queen
@@ -2316,6 +2339,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1073 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — If Lathliss enters at the same time as one or more other nontoken Dragons you control, its second ability will trigger once for each of those other Dragons.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/L.md#lathliss-dragon-queen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/219/lathliss-dragon-queen) · oracle_id `15fef45d-f1a9-49b2-abaa-fe77bb9d1afd` · printing: TDC #219 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lathnu Hellion
@@ -2367,6 +2391,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1998 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-02-05* — You can tap any ten untapped Elves you control, including ones you haven't controlled continuously since the beginning of your most recent turn, to pay that part of the cost of Lathril's activated ability. You must have controlled Lathril continuously since the beginning of your most recent turn, however. Lathril doesn't count as one of the ten.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/L.md#lathril-blade-of-the-elves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/242/lathril-blade-of-the-elves) · oracle_id `9b568c34-ba0a-44a7-a0ee-bee3a37b3396` · printing: FDN #242 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lat-Nam Adept
@@ -2481,6 +2506,7 @@ schema: 2
   - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can’t choose outlaw.
   - *2024-04-12* — The value of X is determined as Laughing Jasper Flint’s last ability resolves.
   - *2024-04-12* — You pay all costs and follow all normal timing rules for cards played from exile with Laughing Jasper Flint’s last ability. For example, if you exile a creature card this way, you must wait until your main phase to cast it.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/L.md#laughing-jasper-flint)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/215/laughing-jasper-flint) · oracle_id `bd7c5a8b-cf62-41e1-a664-b16e3e5d142b` · printing: OTJ #215 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Laughing Mad
@@ -2500,6 +2526,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#laughing-mad)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/143/laughing-mad) · oracle_id `4f65e6a9-0d90-44b9-9b76-00814db2dbd8` · printing: FIN #143 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Launch
@@ -2573,6 +2600,7 @@ schema: 2
 - **Keywords:** Partner with, Goad, First strike, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12497 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/L.md#laurine-the-diversion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/172/laurine-the-diversion) · oracle_id `f2f8847d-17a8-4c26-8a7a-1bb6c02f2b39` · printing: OTC #172 (2024-04-19) · [rulings](https://api.scryfall.com/cards/ca2b008e-e144-45b1-9bc7-eb49e03a8a8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lava Axe
@@ -2729,6 +2757,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15727 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-10-05* — Lava Coil's replacement effect will exile the target creature if it would die this turn for any reason, not just due to lethal damage. It applies to the target creature even if Lava Coil deals no damage to it (due to a prevention effect).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lava-coil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/116/lava-coil) · oracle_id `fa71db44-5181-4c51-8b24-7fbedf36e3ca` · printing: 2X2 #116 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lavacore Elemental
@@ -2920,6 +2949,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12530 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — Arcane is a spell subtype that has no inherent rules meaning. It may be referenced by effects from other cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lava-spike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/136/lava-spike) · oracle_id `2837888c-bfa8-4955-9334-0605ad409f7e` · printing: UMA #136 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lavaspur Boots
@@ -2934,6 +2964,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1549 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lavaspur-boots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/243/lavaspur-boots) · oracle_id `63bfb9ca-d9d5-4c17-be39-82eb115bc20c` · printing: OTJ #243 (2024-04-19) · [rulings](https://api.scryfall.com/cards/e50709de-e6ef-4dbc-af1e-290fed279f34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lavastep Raider
@@ -3003,6 +3034,7 @@ schema: 2
   - *2021-03-19* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
   - *2021-03-19* — If an effect allows a player to cast a spell without paying its mana cost, that player can't choose to cast it and pay its mana cost unless another rule or effect allows that player to cast it that way. However, if that spell also has additional costs that require mana, paying that mana will stop Lavinia's last ability from triggering.
   - *2021-03-19* — Players may cast spells that they know Lavinia's second ability will counter. Any abilities that trigger when spells are cast will trigger and resolve if appropriate, and any effects that count spells cast will count those spells if appropriate.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/L.md#lavinia-azorius-renegade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/195/lavinia-azorius-renegade) · oracle_id `81ba3a33-0e04-4f68-9a42-1dd717733b57` · printing: RVR #195 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lavinia, Foil to Conspiracy
@@ -3044,6 +3076,7 @@ schema: 2
   - *2013-04-15* — The mana value of a creature token is 0 unless that token is a copy of another creature, in which case it copies that creature's mana cost.
   - *2013-04-15* — The static abilities of a detained permanent still apply. The triggered abilities of a detained permanent can still trigger.
   - *2013-04-15* — When a player leaves a multiplayer game, any continuous effects with durations that last until that player's next turn or until a specific point in that turn will last until that turn would have begun. They neither expire immediately nor last indefinitely.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/L.md#lavinia-of-the-tenth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/199/lavinia-of-the-tenth) · oracle_id `55df6fa3-3d24-46d5-b325-099336c3f0fd` · printing: CLU #199 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lawbringer
@@ -3240,6 +3273,7 @@ schema: 2
   - *2024-04-12* — Lazav copies exactly what was printed on the original card and nothing else. It doesn't copy any information about the object the card was before it was put into a graveyard.
   - *2024-04-12* — The spell or ability that constituted a crime doesn't have to have resolved yet or at all. As soon as you're finished casting the spell, activating the ability, or putting the triggered ability on the stack, you've committed a crime.
   - *2024-04-12* — When Lazav becomes a copy of an exiled creature card, it's neither entering nor leaving the battlefield. Any enters-the-battlefield or leaves-the-battlefield abilities won't trigger.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#lazav-familiar-stranger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/216/lazav-familiar-stranger) · oracle_id `ca60623a-1a98-4153-a0ee-2f34981de5cb` · printing: OTJ #216 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lazav, the Multifarious
@@ -3292,6 +3326,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-11-12* — Once you motivate a creature, it remains motivated for you for as long as it remains on the battlefield. If another player gains control of it, that player must motivate it before it can attack or block, but if you regain control of it, it’s still motivated for you.
   - *2019-11-12* — Paying a creature’s motivate cost is a special action that its controller may take any time they have priority during their main phase with no spells or abilities on the stack.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lazier-goblin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/56/lazier-goblin) · oracle_id `a1ac2c7b-f2cc-46dc-91e8-411e989473eb` · printing: CMB2 #56 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lazotep Archway
@@ -3312,6 +3347,7 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — The token created by Lazotep Archway’s eternalize ability copies exactly what was printed on the original card and nothing else, except the characteristics specifically modified by eternalize. It doesn’t copy any information about the object the card was before it was put into your graveyard. (And, as noted in the reminder text, it enters tapped!)
   - *2024-11-08* — The token is a 4/4 black Zombie creature land with Lazotep Archway’s printed abilities. These are copiable values of the token which other effects may copy.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lazotep-archway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/613/lazotep-archway) · oracle_id `ecc8e782-90a0-4a4d-b4cb-1d7383938c14` · printing: MB2 #613 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lazotep Behemoth
@@ -3367,6 +3403,7 @@ schema: 2
   - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lazotep-plating)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/59/lazotep-plating) · oracle_id `ba0082fb-2d4c-489e-8140-93a6fa693fd0` · printing: WAR #59 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lazotep Quarry
@@ -3424,4 +3461,5 @@ schema: 2
   - *2023-07-28* — If you don't control an Army, the Sliver Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
   - *2023-07-28* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Slivers, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Sliver, it becomes a Sliver in addition to its other types.
   - *2023-07-28* — To amass Slivers 2, if you don't control an Army creature, create a 0/0 black Sliver Army creature token. Then you choose an Army creature you control and put 2 +1/+1 counters on it. If that Army isn't already a Sliver, it becomes a Sliver in addition to its other types.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lazotep-sliver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/733/lazotep-sliver) · oracle_id `2017d355-403a-4408-9779-94d1125e373f` · printing: CMM #733 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

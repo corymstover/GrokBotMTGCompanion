@@ -98,6 +98,7 @@ schema: 2
   - *2022-10-07* — Sector assignment isn’t copiable. If a creature enters the battlefield as a copy of a creature in alpha sector, for example, its controller may assign it to any sector.
   - *2022-10-07* — The sectors are essentially designations that change how Space Beleren’s other abilities will affect creatures on the battlefield. The sectors have no other effect on gameplay. Specifically, unless Space Beleren’s first loyalty ability has been activated, sector assignments have no effect on combat. A creature in one sector can block an attacking creature in another sector.
   - *2022-10-07* — While Space Beleren is on the battlefield, any time there are creatures on the battlefield that aren’t assigned to a sector, those creatures are assigned to a sector by their controllers as a state-based action. First, all players who don’t control a Space Beleren (or another permanent with space sculptor, but come on) in turn order assign their creatures. Then all players who do control a Space Beleren in turn order assign their creatures.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#space-beleren)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/178/space-beleren) · oracle_id `cfca44cb-8ca5-4ebb-bd5c-b621eca41944` · printing: UNF #178 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Space Fungus Snickerdoodle
@@ -112,6 +113,7 @@ schema: 2
 - **Keywords:** Skulk, Battle Cry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#space-fungus-snickerdoodle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/29/space-fungus-snickerdoodle) · oracle_id `fd29fdbd-b4c5-4d23-9388-df0a798fbbba` · printing: SUNF #29 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1dca39e2-0001-48bb-88a0-16e40b4877c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Space Marine Devastator
@@ -129,6 +131,7 @@ schema: 2
   - *2022-10-07* — If, for some reason, the creature doesn't have the squad ability when it's on the battlefield, the ability won't trigger, even if you've paid the squad cost one or more times.
   - *2022-10-07* — The tokens created by the squad ability aren't "cast," so any abilities that trigger when a spell is cast won't trigger for the copies.
   - *2022-10-07* — You may pay the squad cost any number of times. You will get a token that is a copy of that permanent for each time you paid the squad cost.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#space-marine-devastator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/14/space-marine-devastator) · oracle_id `fa25d142-e6ba-4fc9-81e2-114c32afc030` · printing: 40K #14 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Space Marine Scout
@@ -197,6 +200,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-04-29* — If Spara's Adjudicators is removed from exile without being cast, the land will continue to have this ability.
   - *2022-04-29* — You may use the mana ability Spara's Adjudicators grants to the land while casting Spara's Adjudicators from exile.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sparas-adjudicators)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/224/sparas-adjudicators) · oracle_id `02718076-4c71-4bf5-988f-e6f94fbf0aef` · printing: SNC #224 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spara's Headquarters
@@ -212,6 +216,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #398 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 9 pages (5 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/S.md#sparas-headquarters)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/257/sparas-headquarters) · oracle_id `3123ec89-8e95-4761-ba17-747ec667509f` · printing: SNC #257 (2022-04-29) · [rulings](https://api.scryfall.com/cards/7363f1fb-9af3-4212-921f-d59533faf0e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spare Changeling
@@ -302,6 +307,7 @@ schema: 2
   - *2019-05-03* — If the copied permanent is affected by a type-changing effect, Spark Double may enter the battlefield with different permanent types than the copied permanent currently has. Use the characteristics of Spark Double as it enters the battlefield, not of the copied permanent, to determine whether it enters with an additional counter on it. Notably, if Spark Double copies a Gideon planeswalker that’s a creature because its loyalty ability caused it to become a planeswalker creature, Spark Double enters as a noncreature planeswalker and doesn’t get a +1/+1 counter. On the other hand, if Spark Double copies Gideon Blackblade during your turn, Spark Double enters as a planeswalker creature and gets both kinds of counters.
   - *2019-05-03* — Spark Double copies exactly what was printed on the original permanent (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
   - *2019-05-03* — Spark Double isn’t legendary if it copies a legendary permanent, and this exception is copiable. If something else copies Spark Double later, that copy also won’t be legendary. If you control two or more permanents with the same name but only one is legendary, the “legend rule” doesn’t apply.
+- **Referenced in:** 14 pages (10 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#spark-double)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/62/spark-double) · oracle_id `8dcb35e5-ae44-455f-86e3-4a77d496ff34` · printing: RVR #62 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spark Elemental
@@ -341,6 +347,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11802 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-11-10* — You must sacrifice exactly one creature or pay an extra {3}{B} to cast this spell; you can't cast it without paying one of those costs, and you can't pay either multiple times. Players can respond to Spark Harvest only after it's been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to stop you from casting this spell or to make it cost more mana.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#spark-harvest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/150/spark-harvest) · oracle_id `25756e33-25e5-4976-8cce-a39fa2c4b007` · printing: CMR #150 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sparkhunter Masticore
@@ -503,6 +510,7 @@ schema: 2
   > {R}, {T}, Discard a card: Create a 3/1 red Elemental creature token named Spark Elemental. It has trample, haste, and "At the beginning of the end step, sacrifice this token."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25972 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sparkspitter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/149/sparkspitter) · oracle_id `0fbec99f-0e49-4211-a06e-edd783cf47da` · printing: UMA #149 (2018-12-07) · [rulings](https://api.scryfall.com/cards/91e67cab-496b-4b07-a045-b332d378ae74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spark Spray
@@ -661,6 +669,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22210 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-07-01* — If used on an Aura and the permanent enchanted by that Aura phases out, the Aura will not phase out. It will stay on the battlefield and then immediately be put into the graveyard since the permanent it was enchanting is phased out.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#spatial-binding)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/284/spatial-binding) · oracle_id `52fc8217-5a14-40b5-a8fc-b6fc45af5f33` · printing: MIR #284 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spatial Contortion
@@ -704,6 +713,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3047 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-06-07* — You do not have to choose a target for Spawnbed Protector's ability, and if you don't, you will still create Eldrazi Scion tokens. If you do choose a target but the target Eldrazi creature card is illegal as Spawnbed Protector's ability tries to resolve, it won't resolve and none of its effects will happen. You won't create Eldrazi Scion tokens.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spawnbed-protector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/36/spawnbed-protector) · oracle_id `256a7f54-0e8e-4d22-a0f7-ff2830e8884e` · printing: M3C #36 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spawnbinder Mage
@@ -770,6 +780,7 @@ schema: 2
   - *2015-08-25* — Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
   - *2015-08-25* — Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
   - *2015-08-25* — Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#spawning-bed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/248/spawning-bed) · oracle_id `49e43de3-460b-4562-aef6-da43bd56debc` · printing: BFZ #248 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spawning Breath
@@ -796,6 +807,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19252 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spawning-grounds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/163/spawning-grounds) · oracle_id `1961dd92-db0b-4f02-b9c8-08f760f4051b` · printing: C18 #163 (2018-08-10) · [rulings](https://api.scryfall.com/cards/46106777-e366-47da-b8ba-b010ac96f1fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spawning Kraken
@@ -810,6 +822,7 @@ schema: 2
   > *—Lukka*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4128 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spawning-kraken)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/33/spawning-kraken) · oracle_id `f0357833-80b5-40ba-874a-bd22ea6e4e46` · printing: C21 #33 (2021-04-23) · [rulings](https://api.scryfall.com/cards/44917638-3c84-4c21-b139-5084e6e1efc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spawning Pit
@@ -821,6 +834,7 @@ schema: 2
   > {1}, Remove two charge counters from this artifact: Create a 2/2 colorless Spawn artifact creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4270 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#spawning-pit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/td2/69/spawning-pit) · oracle_id `ea7b0704-7715-4f8a-b32f-d2d2f3b36054` · printing: TD2 #69 (2011-05-14) · [rulings](https://api.scryfall.com/cards/e9a8ca49-fc8f-49c1-a7c6-c8326b2deb52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spawning Pool

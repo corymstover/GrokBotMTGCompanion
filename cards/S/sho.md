@@ -77,6 +77,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-01-24* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
   - *2020-01-24* — An Aura spell that has an illegal target when it tries to resolve doesn’t resolve and is instead put into its owner’s graveyard. It doesn’t enter the battlefield, so constellation abilities don’t trigger.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#shoal-kraken)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/65/shoal-kraken) · oracle_id `be700da5-123e-461e-8192-88f9d86925b9` · printing: THB #65 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shoal Serpent
@@ -108,6 +109,7 @@ schema: 2
   > *If you're going to have a gimmick, embrace it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2221 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shock)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/809/shock) · oracle_id `a9d288b8-cdc1-4e55-a0c9-d6edfc95e65d` · printing: MSC #809 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b23900fb-efe9-43ab-9f67-4545dd01fb9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shock Brigade
@@ -195,6 +197,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22138 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shockmaw-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/114/shockmaw-dragon) · oracle_id `e0754b8e-fd3c-4207-9031-a6323e1b66d5` · printing: FRF #114 (2015-01-23) · [rulings](https://api.scryfall.com/cards/e4810919-b379-40db-a68b-a769dd3ee32d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shock Troops
@@ -234,6 +237,7 @@ schema: 2
   > *Gwenna stayed her hand only once, to save young Harbin's life—a mistake she would never repeat.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21501 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#shoot-down)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/190/shoot-down) · oracle_id `2a89feeb-9e66-4539-bd75-7d9d53f52d49` · printing: BRO #190 (2022-11-18) · [rulings](https://api.scryfall.com/cards/20014a1c-197c-4e04-94b2-874886183e2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shoot the Sheriff
@@ -251,6 +255,7 @@ schema: 2
   - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it’s referring only to permanents with one or more of the creature types specified above. Notably, it’s not referring to any spell or card not on the battlefield. However, other abilities may refer to an “outlaw spell” or “outlaw card” in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
   - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can’t choose outlaw.
   - *2024-04-12* — The only deputy in the Outlaws of Thunder Junction release is a Mercenary, so no, you cannot shoot the deputy.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shoot-the-sheriff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/106/shoot-the-sheriff) · oracle_id `2038138e-2e52-41e4-90fc-443fa054c5c0` · printing: OTJ #106 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shopkeeper's Bane
@@ -439,6 +444,7 @@ schema: 2
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2308 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (3 card data) → [reverse index](../../references/S.md#shorikai-genesis-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/4/shorikai-genesis-engine) · oracle_id `e2962883-6daf-4a84-af73-917afc73092c` · printing: NEC #4 (2022-02-18) · [rulings](https://api.scryfall.com/cards/969ac7dd-f3aa-4888-9ff0-d16a31b5e7a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Short Bow
@@ -570,6 +576,7 @@ schema: 2
   - *2004-10-04* — If the cards being put onto the battlefield also require choices, those choices are made after all players choose their card. The active player makes choices for their card (if any), then the other players (if any) in turn order.
   - *2004-10-04* — Players choose cards during resolution, not announcement.
   - *2008-04-01* — The current player chooses first, then each other player chooses in turn order. A player does not have to reveal the chosen card, so long as it is clear *which* card was chosen. After all choices are made, the cards are put onto the battlefield simultaneously.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#show-and-tell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/121/show-and-tell) · oracle_id `b83a3ba0-249e-4c39-bbf0-cb005413f7d2` · printing: CN2 #121 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Showdown of the Skalds

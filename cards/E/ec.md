@@ -147,6 +147,7 @@ schema: 2
   - *2026-03-20* — Once a spell with paradigm has resolved, it doesn't matter what happens to the card in exile. Even if the card leaves exile, the delayed triggered ability will still trigger during each of your first main phases, and the copy will still be created.
   - *2026-03-20* — Paradigm creates a delayed triggered ability that triggers at the beginning of each of your first main phases for the rest of the game. When that ability resolves and the copy is created, you can choose not to cast the copy. In that case, the copy will cease to exist the next time state-based actions are checked. The delayed triggered ability will still trigger again at the beginning of your first main phase on your next turn regardless.
   - *2026-03-20* — The token created by Echocasting Symposium copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on. If it is a Vehicle, it is not crewed.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#echocasting-symposium)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/44/echocasting-symposium) · oracle_id `d88c3554-18db-4e5e-a979-2402990a0311` · printing: SOS #44 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echo Chamber
@@ -199,6 +200,7 @@ schema: 2
   - *2024-06-07* — The copy created by Echoes of Eternity's last ability is put directly onto the stack. It isn't cast, so any abilities that apply "when you cast [this spell]" won't trigger.
   - *2024-06-07* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at the beginning of" in their reminder text.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#echoes-of-eternity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/4/echoes-of-eternity) · oracle_id `23a79523-4be0-4d17-80aa-5ea024cb3463` · printing: MH3 #4 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echoes of the Kin Tree
@@ -264,6 +266,7 @@ schema: 2
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
   - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
   - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/E.md#echoing-boon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/3/echoing-boon) · oracle_id `22e89c6d-2304-4def-8a74-e53a6271e9b9` · printing: CN2 #3 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echoing Calm
@@ -320,6 +323,7 @@ schema: 2
   - *2023-11-10* — Any enters-the-battlefield abilities of the copied land card will trigger when Echoing Deeps enters the battlefield. Any "as [this land] enters the battlefield" or "[this land] enters the battlefield with" abilities of the chosen land card will also work.
   - *2023-11-10* — Echoing Deeps copies exactly what was printed on the original land card, with the noted exception.
   - *2023-11-10* — If you choose to have Echoing Deeps not copy anything, it enters the battlefield untapped.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/E.md#echoing-deeps)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/271/echoing-deeps) · oracle_id `2ef88214-f46d-473e-a55b-795a647e2f03` · printing: LCI #271 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echoing Echo
@@ -454,6 +458,7 @@ schema: 2
   - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/E.md#echo-of-eons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/46/echo-of-eons) · oracle_id `23d3e5fe-3f82-44cf-91a1-6646a12a0255` · printing: MH1 #46 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echo, Perceptive Prodigy
@@ -540,6 +545,7 @@ schema: 2
   > When this creature enters, look at the top four cards of your library. You may reveal an Elemental, Island, or Mountain card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8657 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eclipsed-flamekin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/219/eclipsed-flamekin) · oracle_id `48c641df-d511-4e35-b623-9d1fdb5240da` · printing: ECL #219 (2026-01-23) · [rulings](https://api.scryfall.com/cards/d907ae44-cd07-4409-946c-e97f584d9a81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eclipsed Kithkin

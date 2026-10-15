@@ -288,6 +288,7 @@ schema: 2
   - *2019-11-12* — If you cast a spell that has more than one card type, you put a counter on each of those types on the tracker list.
   - *2019-11-12* — The counter isn’t put on Bucket List; it’s put on the tracker list. Because it isn’t on an object or player, it can’t be proliferated, removed, or so on.
   - *2019-11-12* — You sacrifice Bucket List and draw an additional card while resolving the ability that triggers when you cast the fifth spell that covers the last card type on its tracker list.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bucket-list)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/89/bucket-list) · oracle_id `81d80885-3b21-4730-83bf-c519984a210c` · printing: CMB2 #89 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bucknard's Everfull Purse
@@ -368,6 +369,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-12-01* — Budoka Gardener flips if you control ten or more lands when its ability resolves, even if you don’t use its ability to put a land onto the battlefield.
   - *2013-07-01* — Budoka Gardener flips even if you put a second copy of a legendary land onto the battlefield. You’ll have ten lands on the battlefield while the ability is resolving, so the Gardener flips. Then you will choose one of the legendary lands to keep and put the other into its owner’s graveyard as a state-based action.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#budoka-gardener--dokai-weaver-of-life)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/134/budoka-gardener-dokai-weaver-of-life) · oracle_id `cb952c81-c7bb-4670-938d-296d35551986` · printing: C18 #134 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Budoka Pupil // Ichiga, Who Topples Oaks
@@ -447,6 +449,7 @@ schema: 2
   - *2024-07-26* — Gaining a level won't remove abilities that a Class had at a previous level.
   - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
   - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#builders-talent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/5/builders-talent) · oracle_id `0b19082c-8f80-448b-9e1b-0f324a159409` · printing: BLB #5 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Built Bear
@@ -473,6 +476,7 @@ schema: 2
   - *2024-11-08* — In a Limited format with Continuous Construction, you can modify your circled options for Built Bear in between matches, but you can’t modify those options during a match (such as while sideboarding in between games).
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#built-bear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/572/built-bear) · oracle_id `9a422c31-817d-4a86-b54b-720de3a4c50d` · printing: MB2 #572 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Built to Last
@@ -533,6 +537,7 @@ schema: 2
   - *2024-11-08* — To double a creature's power, that creature gets +X/+0, where X is that creature's power when Bulk Up resolves.
   - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bulk-up)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/80/bulk-up) · oracle_id `fade8af0-5fdb-4237-9dd6-48bfd1d62767` · printing: FDN #80 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bull Aurochs
@@ -846,6 +851,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — During the declare blockers step, the defending player must assign at least one blocker to each creature that must be blocked if that player controls any creatures that could block it.
   - *2022-10-07* — If multiple attacking creatures must be blocked, the defending player must assign blockers in such a way that the greatest number of those attacking creatures are blocked.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bumper-cars)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/202a/bumper-cars) · oracle_id `f2fe3d93-77f0-400f-85f1-dc6e84111bff` · printing: UNF #202a (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bump in the Night
@@ -905,6 +911,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#burakos-party-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/653/burakos-party-leader) · oracle_id `883ad210-917b-40e6-8682-31d6eb3ed12a` · printing: CLB #653 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burdened Aerialist
@@ -1020,6 +1027,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #907 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Playing a land will trigger it, but putting a land onto the battlefield as part of an effect will not.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#burgeoning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/143/burgeoning) · oracle_id `88cf4c1a-5863-45fc-b76d-7ad33b175b2b` · printing: C16 #143 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burglar Rat
@@ -1047,6 +1055,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #353 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — You can look in your library and then choose to find any number from zero to three creatures after you look at it.
+- **Referenced in:** 7 pages (6 decks · 1 card data) → [reverse index](../../references/B.md#buried-alive)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/273/buried-alive) · oracle_id `8203c621-a1a0-4865-8c9a-0d4064c86107` · printing: MH3 #273 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buried in the Garden
@@ -1063,6 +1072,7 @@ schema: 2
   - *2024-02-02* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
   - *2024-02-02* — If Buried in the Garden leaves the battlefield before its first triggered ability resolves, the target permanent won't be exiled.
   - *2024-02-02* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#buried-in-the-garden)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/191/buried-in-the-garden) · oracle_id `f1f0eab3-681b-4c2d-b590-555951920880` · printing: MKM #191 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buried Ogre
@@ -1075,6 +1085,7 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-11-12* — You may put Buried Ogre into your graveyard before shuffling the other cards in your deck to become your library. If you do, you lose 1 life immediately after setting your starting life total.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#buried-ogre)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/36/buried-ogre) · oracle_id `d21cd679-b25c-4ff7-b65f-d2fd371b35cb` · printing: CMB2 #36 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buried Ruin
@@ -1088,6 +1099,7 @@ schema: 2
   > *History has buried its treasures deep.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #193 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#buried-ruin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/150/buried-ruin) · oracle_id `3644f316-f9a3-46c9-9b1e-747f86cf4ead` · printing: EOC #150 (2025-08-01) · [rulings](https://api.scryfall.com/cards/7ab1a074-9d92-4125-9200-84cd035f8f53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buried Treasure
@@ -1342,6 +1354,7 @@ schema: 2
   > *—Sun Tzu, \*Art of War\* (trans. Giles)*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30614 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#burning-fields)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/103/burning-fields) · oracle_id `b3b58231-d532-423b-91d0-78d9c0f66f0f` · printing: PTK #103 (1999-05-01) · [rulings](https://api.scryfall.com/cards/dee12f01-581e-4a3c-a8b5-41bef2516781/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning-Fist Minotaur
@@ -1383,6 +1396,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — Each player must discard three cards, even a player that (for some reason) didn’t actually draw three cards.
   - *2009-10-01* — First the player whose turn it is draws three cards, then each other player in turn order does so. Then the active player randomly chooses the three cards they will discard, then each other player in turn order does so. Then all the cards are discarded at the same time.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#burning-inquiry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/128/burning-inquiry) · oracle_id `af98156b-3064-4f16-940e-10039241f2b0` · printing: M10 #128 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning of Xinye
@@ -1398,6 +1412,7 @@ schema: 2
   - *2009-10-01* — In a multiplayer game, only lands controlled by two players (you and the targeted opponent) are destroyed. However, Burning of Xinye will deal 4 damage to each creature, even those controlled by other players.
   - *2009-10-01* — The lands that will be destroyed aren’t chosen until Burning of Xinye resolves.
   - *2013-07-01* — As Burning of Xinye resolves, first you destroy four lands you control (all at the same time), then the targeted opponent destroys four lands they control (all at the same time). That player chooses which of their lands to destroy. Neither of you can choose to destroy a land with indestructible.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#burning-of-xinye)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/151/burning-of-xinye) · oracle_id `3a3cec13-4766-40d2-88e0-41bcdd5249e9` · printing: VMA #151 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Oil
@@ -1461,6 +1476,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-02-05* — If you choose not to search your library, no cards are revealed or put anywhere else, and you don't shuffle.
   - *2021-02-05* — While in your library, a double-faced card has only the name of its front face. It's not possible to reveal two of the same double-faced card this way.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#burning-rune-demon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/81/burning-rune-demon) · oracle_id `d551fae8-6b40-4118-b9db-29d2f5dff405` · printing: KHM #81 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Sands
@@ -1632,6 +1648,7 @@ schema: 2
   - *2007-09-16* — Can’t acquire cards that are phased out.
   - *2009-10-01* — In a sanctioned event, a card that’s “outside the game” is one that’s in your sideboard. In an unsanctioned event, you may choose any card from your collection.
   - *2009-10-01* — You can’t acquire exiled cards because those cards are still in one of the game’s zones.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#burning-wish)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/152/burning-wish) · oracle_id `13a884b5-8970-4d71-9082-a8b6c8db9a01` · printing: CN2 #152 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning-Yard Trainer
@@ -1660,6 +1677,7 @@ schema: 2
   > *Forged by divine hands to wander mortal realms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #505 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#burnished-hart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/250/burnished-hart) · oracle_id `893fed41-c144-433f-af88-bc7d419b7fb3` · printing: FDN #250 (2024-11-15) · [rulings](https://api.scryfall.com/cards/65ebbff0-fbe6-4310-a33f-e00bb2534979/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burnout
@@ -1748,6 +1766,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
   - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 2 card data) → [reverse index](../../references/B.md#burnt-offering)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/116/burnt-offering) · oracle_id `86eb30a0-0beb-42db-9ddf-cf8be6c99dd3` · printing: ICE #116 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burn Trail
@@ -1917,6 +1936,7 @@ schema: 2
   > *Like thousands of others, the beebles quit Magic for several years following the release of the \*Mercadian Masques\* set.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bursting-beebles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/28/bursting-beebles) · oracle_id `0575ee9a-1940-4b38-b269-5b806b2b6173` · printing: UNH #28 (2004-11-19) · [rulings](https://api.scryfall.com/cards/1d7262a7-f48c-411b-8a0e-c5bd8f646145/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burst Lightning
@@ -1935,6 +1955,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#burst-lightning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/192/burst-lightning) · oracle_id `ac2086fe-98ee-4280-9c7c-c5c2d6548a8b` · printing: FDN #192 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burst of Energy
@@ -2046,6 +2067,7 @@ schema: 2
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1258 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bushwhack)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/215/bushwhack) · oracle_id `c61374e5-a7f6-455e-a40b-a481751b536b` · printing: FDN #215 (2024-11-15) · [rulings](https://api.scryfall.com/cards/03ebdb36-55e0-49dd-a514-785fbeb4ae19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bushy Bodyguard
@@ -2074,6 +2096,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/B.md#bushy-bodyguard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/166/bushy-bodyguard) · oracle_id `5436bb0d-b5c7-43a9-8b3f-67cdc0dd0381` · printing: BLB #166 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Busted!
@@ -2103,6 +2126,7 @@ schema: 2
   - *2025-06-06* — If a spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2025-06-06* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2025-06-06* — You choose whether to cast a spell from among the cards in your hand as Buster Sword's middle ability resolves. You can't wait to cast one later in the turn. Timing restrictions based on the card's types are ignored.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#buster-sword)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/255/buster-sword) · oracle_id `5e060d58-4d6e-425c-b7d4-727669fcce5b` · printing: FIN #255 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Butch DeLoria, Tunnel Snake
@@ -2151,6 +2175,7 @@ schema: 2
   - *2010-03-01* — If you and an opponent each control a Butcher of Malakir and a creature is put into a graveyard, a chain reaction happens. First the ability of one player's Butcher will trigger, causing each opponent to sacrifice a creature. That sacrifice causes the ability of the other player's Butcher to trigger, and so on.
   - *2010-03-01* — If you control more than one Butcher of Malakir and a creature you control is put into a graveyard, each of those Butchers' abilities will trigger. Each opponent will sacrifice a creature each time one of those abilities resolves.
   - *2010-03-01* — When the triggered ability resolves, first the player whose turn it is (if that player is an opponent) chooses which creature they will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#butcher-of-malakir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/187/butcher-of-malakir) · oracle_id `a85197ab-dc94-4b72-9716-8dbdbbe90ff8` · printing: LCC #187 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Butcher of the Horde

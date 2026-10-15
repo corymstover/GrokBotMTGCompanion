@@ -84,6 +84,7 @@ schema: 2
   - *2021-03-19* — If an attacking creature has multiple evasion abilities, such as shadow and flying, a creature can block it only if that creature satisfies all of the appropriate evasion abilities.
   - *2021-03-19* — Multiple instances of shadow on the same creature are redundant.
   - *2021-03-19* — Once a creature has been blocked, that creature remains blocked and will deal and be dealt combat damage even if it gains or loses shadow or if the blocking creature gains or loses shadow.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/Z.md#zealot-il-vec)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/47/zealot-il-vec) · oracle_id `4107d0e3-608b-4024-b433-40c5d8b63549` · printing: TSP #47 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zealot of the God-Pharaoh
@@ -139,6 +140,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2453 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — The triggered ability can target any permanent, including one that's untapped or one that you already control.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/Z.md#zealous-conscripts)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/183/zealous-conscripts) · oracle_id `1dae6f39-2cbd-485c-b190-017a26401fd4` · printing: INR #183 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zealous Display
@@ -276,6 +278,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zektar-shrine-expedition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/155/zektar-shrine-expedition) · oracle_id `45bd5e97-f34e-47bc-ad21-da42d3444431` · printing: ZEN #155 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zell Dincht
@@ -316,6 +319,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/Z.md#zellix-sanity-flayer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/652/zellix-sanity-flayer) · oracle_id `4dde484a-8d5b-4eb6-ab4a-e30cc370431c` · printing: CLB #652 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zelyon Sword
@@ -343,6 +347,7 @@ schema: 2
 - **Keywords:** Landwalk, Forestwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31235 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/Z.md#zendikar-farguide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/194/zendikar-farguide) · oracle_id `01ab37a4-21d2-49f4-9b85-cb522a4d04ad` · printing: ZEN #194 (2009-10-02) · [rulings](https://api.scryfall.com/cards/b3aeb7fb-8618-4595-84b4-20881b824b3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zendikar Incarnate
@@ -385,6 +390,7 @@ schema: 2
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2183 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/Z.md#zendikars-roil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/88/zendikars-roil) · oracle_id `a842cc2b-52eb-4dc5-86c6-6575c2ed913d` · printing: ZNC #88 (2020-09-25) · [rulings](https://api.scryfall.com/cards/60297593-2438-48d7-9414-48af114a93d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zenith Chronicler
@@ -398,6 +404,7 @@ schema: 2
   > *It watches through the never-ending day, motionless save for the unsettling, twitching dance it performs as each sun reaches its apex.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2682 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/Z.md#zenith-chronicler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/246/zenith-chronicler) · oracle_id `9fed6494-3bdd-4bc6-901f-da5fb623b152` · printing: ONE #246 (2023-02-10) · [rulings](https://api.scryfall.com/cards/1431fe83-7dc7-4c40-8d66-6525560e4323/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zenith Festival
@@ -418,6 +425,7 @@ schema: 2
   - *2025-04-04* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using harmonize only when you could normally cast a sorcery.
   - *2025-04-04* — You pay all costs and follow all timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
   - *2025-04-04* — “Harmonize [cost]” means “You may cast this card from your graveyard by paying [cost] and tapping up to one untapped creature you control rather than paying the spell’s mana cost,” “If you cast this spell using its harmonize ability, its total cost is reduced by an amount of generic mana equal to the tapped creature’s power,” and “If the harmonize cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/Z.md#zenith-festival)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/41/zenith-festival) · oracle_id `4dabba8c-0490-41ec-a03e-f7d0c9f0edb6` · printing: TDC #41 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zenith Flare
@@ -523,6 +531,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4551 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zephyr-boots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/261/zephyr-boots) · oracle_id `02f3b9c3-f611-4f05-ab3e-b296916efdad` · printing: STX #261 (2021-04-23) · [rulings](https://api.scryfall.com/cards/4d0566fd-3775-48f1-ba22-6e659558c3d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyr Charge
@@ -581,6 +590,7 @@ schema: 2
   - *2022-10-07* — You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
   - *2022-10-07* — You may pay the squad cost any number of times. You will get a token that is a copy of that permanent for each time you paid the squad cost.
   - *2022-10-07* — You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zephyrim)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/20/zephyrim) · oracle_id `d29551ab-e314-4872-9fc5-fe9a442dc8a9` · printing: 40K #20 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyr Net
@@ -645,6 +655,7 @@ schema: 2
   - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
   - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/Z.md#zephyr-singer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/86/zephyr-singer) · oracle_id `1800ae74-0b54-4547-ab8f-ea61418d73e8` · printing: MOM #86 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyr Spirit
@@ -718,6 +729,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14609 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zeriam-golden-wind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/5/zeriam-golden-wind) · oracle_id `fa1dc21d-f7f6-425f-a4ae-2b0f143091e3` · printing: DMC #5 (2022-09-09) · [rulings](https://api.scryfall.com/cards/e7efbb9a-e0b3-412c-9ee7-a90123033999/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zero Point Ballad
@@ -746,6 +758,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1630 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — If an attacking creature with double strike and trample destroys all of its blocking creatures with first-strike combat damage, all of its normal combat damage is assigned to the player, planeswalker, or battle that creature's attacking.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/Z.md#zetalpa-primal-dawn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/142/zetalpa-primal-dawn) · oracle_id `7da0e5de-3e4c-420a-8685-991206100b9d` · printing: TDC #142 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zethi, Arcane Blademaster

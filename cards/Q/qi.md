@@ -34,6 +34,7 @@ schema: 2
   > *—Mu Yanling's journal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30010 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#qilins-blessing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/14/qilins-blessing) · oracle_id `31585036-cdc3-47f5-9fc7-913212826f2a` · printing: GS1 #14 (2018-06-22) · [rulings](https://api.scryfall.com/cards/028ad74f-8366-4c14-b532-63fa892f5784/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qiqirn Merchant

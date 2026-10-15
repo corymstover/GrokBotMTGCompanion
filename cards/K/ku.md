@@ -115,6 +115,7 @@ schema: 2
   - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-06-06* — The damage is dealt by the same source as the original source of damage. The doubled damage isn't dealt by Trance Kuja unless it was the original source of damage.
   - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/K.md#kuja-genome-sorcerer--trance-kuja-fate-defied)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/232/kuja-genome-sorcerer-trance-kuja-fate-defied) · oracle_id `3998a60d-9521-4100-8d41-3e612972a3de` · printing: FIN #232 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kujar Seedsculptor
@@ -201,6 +202,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2672 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — Kuldotha Forgemaster can be one of the three artifacts you sacrifice to activate the ability.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/K.md#kuldotha-forgemaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/266/kuldotha-forgemaster) · oracle_id `b0f99367-4313-4bb1-a9fd-7711bc4ce40e` · printing: 2XM #266 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuldotha Phoenix
@@ -228,6 +230,7 @@ schema: 2
   > *All goblin rituals serve a dual purpose as fertility rites, even the destructive ones. Especially the destructive ones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13540 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kuldotha-rebirth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/96/kuldotha-rebirth) · oracle_id `f3e28778-0149-4dbd-badb-ba5aeacacd76` · printing: SOM #96 (2010-10-01) · [rulings](https://api.scryfall.com/cards/7ee07266-a95d-4cd8-9863-1664922e9490/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuldotha Ringleader
@@ -260,6 +263,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5465 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-05-01* — This checks your opponents' creatures for any kind of counters, not just -1/-1 counters.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/K.md#kulrath-knight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/126/kulrath-knight) · oracle_id `f3d1b2e9-6ede-416d-937b-2063ea278d2f` · printing: ECC #126 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kulrath Mystic
@@ -441,6 +445,7 @@ schema: 2
   - *2020-01-24* — If an effect exiles a card from a graveyard and allows a player to cast it, that player may do so. The spell is cast from exile, not a graveyard.
   - *2020-01-24* — Look at the card as it exists in your graveyard to determine whether it can enter the battlefield. For example, Sculpting Steel (a noncreature card in the graveyard) can be put onto the battlefield as a copy of a creature, but Phyrexian Metamorph (a creature card in the graveyard) can’t be put onto the battlefield, even if it would copy a noncreature artifact. A Theros Beyond Death God creature card can’t be put onto the battlefield regardless of your devotion to its colors.
   - *2020-01-24* — Players can still play lands from graveyards if an effect allows them to do so.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/K.md#kunoros-hound-of-athreos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/222/kunoros-hound-of-athreos) · oracle_id `d297ce39-da98-4351-be9d-24f4d09bee7f` · printing: THB #222 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuon, Ogre Ascendant // Kuon's Essence
@@ -471,6 +476,7 @@ schema: 2
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4523 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/K.md#kura-the-boundless-sky)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/200/kura-the-boundless-sky) · oracle_id `6426e73a-7e11-48ab-ac5c-15647c6cf9ba` · printing: NEO #200 (2022-02-18) · [rulings](https://api.scryfall.com/cards/06b25752-26be-4189-bc8b-828db6f0e612/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kurbis, Harvest Celebrant
@@ -575,6 +581,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10708 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kusari-gama)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/260/kusari-gama) · oracle_id `b5585eb5-4df3-4ae2-8c39-a8e7a9706dc2` · printing: CHK #260 (2004-10-01) · [rulings](https://api.scryfall.com/cards/c6a700bd-6424-4a0c-b055-e8b64cf430ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kutzil, Malamet Exemplar
@@ -592,6 +599,7 @@ schema: 2
   - *2023-11-10* — If a creature has a characteristic-defining ability that sets its power and toughness, indicated with a */* or similar in the power and toughness box, that ability is taken into account when determining its base power and toughness.
   - *2023-11-10* — Normally, a creature's base power and toughness are the power and toughness printed on the card or, for a token, the power and toughness set by the effect that created it. If another effect sets a creature's power and toughness to specific numbers or values, those become its base power and toughness. If an effect modifies a creature's power and/or toughness without setting them, that is not included when determining its base power and toughness.
   - *2023-11-10* — Some creatures have base power and toughness 0/0 and an ability that gives them a bonus based on some criteria. Those are not characteristic-defining abilities, and that ability doesn't change its base power and toughness. Such a creature will have power greater than its base power if the ability is raising its power above 0.
+- **Referenced in:** 4 pages (3 edh guides · 1 card data) → [reverse index](../../references/K.md#kutzil-malamet-exemplar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/232/kutzil-malamet-exemplar) · oracle_id `3233af43-7826-4895-b67e-03c6102c2cd5` · printing: LCI #232 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kutzil's Flanker

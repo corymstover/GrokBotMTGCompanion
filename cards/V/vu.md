@@ -109,6 +109,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21499 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vulshok-battlegear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/418/vulshok-battlegear) · oracle_id `708df587-3b13-42cb-8341-f476ab4cbe45` · printing: CMM #418 (2023-08-04) · [rulings](https://api.scryfall.com/cards/8363acf3-eff9-4f57-8b8a-683256d279e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok Battlemaster
@@ -152,6 +153,7 @@ schema: 2
   > {2}{R}, {T}, Sacrifice this artifact: Create an X/X colorless Golem artifact creature token with haste, where X is the number of charge counters on Vulshok Factory. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15925 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vulshok-factory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/16/vulshok-factory) · oracle_id `c5b0d98b-9743-488e-a3be-07043d6ad78a` · printing: ONC #16 (2023-02-10) · [rulings](https://api.scryfall.com/cards/b1c40dd7-6839-49ae-9901-443fd5748877/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok Gauntlets
@@ -250,6 +252,7 @@ schema: 2
   - *2023-02-04* — If the Rebel is destroyed, the Equipment stays on the battlefield. Similarly, you may pay its equip cost to move it from the Rebel token to another creature you control.
   - *2023-02-04* — If the ability causes two Rebel tokens to be created (due to an effect such as that of Mondrak, Glory Dominus), the Equipment becomes attached to only one of them.
   - *2023-02-04* — The Rebel enters the battlefield as a 2/2 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 2/2 creature entered the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/V.md#vulshok-splitter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/156/vulshok-splitter) · oracle_id `6253f9d4-83ff-4a0b-b465-e9f9a565f664` · printing: ONE #156 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok War Boar
@@ -347,4 +350,5 @@ schema: 2
   - *2024-11-08* — If Vuzzle Spaceship is blocking a creature with flying, causing it to lose flying by removing counters from it won’t stop it from blocking. Similarly, once Vuzzle Spaceship’s “Lasers” ability is on the stack, removing counters from it to cause it to lose that ability won’t affect the ability on the stack.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vuzzle-spaceship)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/569/vuzzle-spaceship) · oracle_id `e2470cf2-7640-416d-a7b6-c6c272803212` · printing: MB2 #569 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

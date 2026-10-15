@@ -143,6 +143,7 @@ schema: 2
   - *2023-10-13* — An instant or sorcery that counts how many spells you've cast from anywhere other than your hand, such as Surge of Brilliance, counts itself if it was cast from a zone other than your hand.
   - *2023-10-13* — If a spell or ability allows you to copy a spell on the stack but doesn't specify that the spell is cast, that spell wasn't cast and won't be counted by paradox abilities. However, if a spell or ability allows you to cast a copy of a spell, that spell will be counted for paradox abilities.
   - *2023-10-13* — Paradox abilities count any spells cast from zones other than your hand. These are usually spells cast from exile, the graveyard, or the command zone. They also count spells cast from outside the game, such as spells cast with Wish or Garth One-Eye's ability.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/I.md#iraxxa-empress-of-mars)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/89/iraxxa-empress-of-mars) · oracle_id `52925539-423a-42ec-91b9-0d39e7df565c` · printing: WHO #89 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Irencrag Feat
@@ -189,6 +190,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #954 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-06-10* — Irenicus's Vile Duplication has received an update to its Oracle text to clarify that the token still has flying even if the creature it's copying isn't legendary.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#irenicuss-vile-duplication)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/78/irenicuss-vile-duplication) · oracle_id `a3faf698-1dac-45ef-9c43-c8cead489ffc` · printing: CLB #78 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ire of Kaminari
@@ -323,6 +325,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#iridescent-vinelasher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/99/iridescent-vinelasher) · oracle_id `4f8c4927-46c2-4c18-b5af-c6288dbaff6d` · printing: BLB #99 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iridian Maelstrom
@@ -367,6 +370,7 @@ schema: 2
   - *2026-01-27* — If the copied creature is copying something else, then Irma becomes a copy of whatever that creature copied (with the listed exceptions).
   - *2026-01-27* — Irma copies exactly what was printed on the original creature and nothing else, with the listed exceptions (unless that creature is copying something else; see below). She doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, and so on.
   - *2026-01-27* — You don't have to choose a target for Irma's ability. However, if you do and the target creature is an illegal target as Irma's ability tries to resolve, it won't resolve and none of its effects will happen. Irma won't become a copy of anything else, and you won't put a +1/+1 counter on her.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#irma-part-time-mutant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/12/irma-part-time-mutant) · oracle_id `deda54da-4fcc-4da3-9337-7768a2db3283` · printing: TMC #12 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iroas, God of Victory
@@ -392,6 +396,7 @@ schema: 2
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
   - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#iroas-god-of-victory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/205/iroas-god-of-victory) · oracle_id `36041cf2-159f-4809-9377-930ac4db545f` · printing: C16 #205 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iroas's Blessing
@@ -441,6 +446,7 @@ schema: 2
   - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#iroh-dragon-of-the-west)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/119/iroh-dragon-of-the-west) · oracle_id `98f9b97b-4c15-4d24-895a-a9bebb68e79b` · printing: TLE #119 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iroh, Firebending Instructor
@@ -479,6 +485,7 @@ schema: 2
   - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-10-02* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-10-02* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#iroh-grand-lotus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/227/iroh-grand-lotus) · oracle_id `ee8e6ef3-eb96-48bd-8619-8a9112b3d4f0` · printing: TLA #227 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iroh's Demonstration
@@ -533,6 +540,7 @@ schema: 2
   - *2022-02-18* — In some unusual cases, you may end up putting the counters on more than one permanent. For example, if you control The Ozolith when Iron Apprentice dies, you will put the appropriate number of each kind of counter onto both The Ozolith and the target creature.
   - *2022-02-18* — Iron Apprentice puts all of its counters onto the target creature, not just its +1/+1 counters.
   - *2022-02-18* — Iron Apprentice's ability doesn't cause you to move counters from itself to the target creature. Rather, you put the same number of each kind of counter Iron Apprentice had when it died onto that creature.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#iron-apprentice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/248/iron-apprentice) · oracle_id `cd0c8db0-67ee-483b-8298-455cce35fef7` · printing: NEO #248 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron-Barb Hellion
@@ -783,6 +791,7 @@ schema: 2
 - **Keywords:** Flying, Improvise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10092 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#ironheart-clever-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/60/ironheart-clever-champion) · oracle_id `df3d5b86-7b75-4df9-8985-7159cde12261` · printing: MSH #60 (2026-06-26) · [rulings](https://api.scryfall.com/cards/395e477a-861f-4661-b329-6c1ad5343ed5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Hills
@@ -812,6 +821,7 @@ schema: 2
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11619 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#iron-hills-blacksmith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/16/iron-hills-blacksmith) · oracle_id `9febdfa8-8af2-4aba-b2e6-cb2baad7e02b` · printing: HOB #16 (2026-08-14) · [rulings](https://api.scryfall.com/cards/370e09c2-36c5-4662-8350-1db798afad3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Hills Stalwart
@@ -960,6 +970,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7431 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#iron-man-armored-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/33/iron-man-armored-avenger) · oracle_id `c81195d4-19c6-4cac-b312-7f5c33dff962` · printing: MSC #33 (2026-06-26) · [rulings](https://api.scryfall.com/cards/94af0633-59c6-4893-ab44-232d37573dde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Man, Bleeding Edge
@@ -975,6 +986,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9404 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#iron-man-bleeding-edge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/626/iron-man-bleeding-edge) · oracle_id `fc6e170c-820c-48bb-95c7-ee79fba634de` · printing: MSC #626 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b14b6721-6491-41a4-afb4-93bd76f21173/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Man, Futurist Paragon
@@ -1033,6 +1045,7 @@ schema: 2
 - **Keywords:** Flying, Genius Industrialist, Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5740 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#iron-man-titan-of-innovation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mar/91/iron-man-titan-of-innovation) · oracle_id `67ab82de-1167-42f5-90bd-21c63edcc712` · printing: MAR #91 (2026-06-26) · [rulings](https://api.scryfall.com/cards/20d54b22-62e8-48ac-ba65-0bdbf42d6cad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Man, Tony Stark
@@ -1047,6 +1060,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17358 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#iron-man-tony-stark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/851/iron-man-tony-stark) · oracle_id `188e1516-5766-406b-aacb-468f2d9a530a` · printing: MSC #851 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ec18d8cd-67ed-4338-8ae7-69628469cd43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Mastiff
@@ -1077,6 +1091,7 @@ schema: 2
 - **Keywords:** Flying, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9283 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/I.md#iron-monger-sadistic-tycoon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/45/iron-monger-sadistic-tycoon) · oracle_id `7324d8c0-3a30-452b-b05d-ec7b6a98666c` · printing: MSC #45 (2026-06-26) · [rulings](https://api.scryfall.com/cards/799554d1-d1fb-4206-af9a-80d3582bedc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Myr
@@ -1090,6 +1105,7 @@ schema: 2
   > *The myr are like rusted metal: gleaming purpose hidden by a thin disguise of debris.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1252 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#iron-myr)
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/168/iron-myr) · oracle_id `6c5cbab6-ee27-46f5-97a7-df85698d1e9f` · printing: SOM #168 (2010-10-01) · [rulings](https://api.scryfall.com/cards/5bd0a588-b695-4060-b5d5-c6a74710ff0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ironpaw Aspirant
@@ -1209,6 +1225,7 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3014 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#iron-spider-stark-upgrade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/166/iron-spider-stark-upgrade) · oracle_id `e123fd7d-ace9-48a4-9510-eedcc837d8e8` · printing: SPM #166 (2025-09-26) · [rulings](https://api.scryfall.com/cards/8da5f34e-7f40-406a-88d2-bb1e3ed25200/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Star
@@ -1329,6 +1346,7 @@ schema: 2
   - *2025-04-04* — The term “defending player” in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking, the controller of the planeswalker it was attacking, or the protector of the battle it was attacking at the time the ability resolves. If that creature is no longer attacking, it refers to the appropriate player based on who or what the creature was last attacking.
   - *2025-04-04* — The tokens created by a single instance of myriad all enter at the same time.
   - *2025-04-04* — You choose whether each token is attacking the player or a planeswalker they control as the token is created. If it’s attacking a planeswalker, you choose which one. You can’t have any of the tokens attack a battle.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#ironwill-forger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/13/ironwill-forger) · oracle_id `eee99fdc-b116-4f06-9f9f-7b7dda5743c1` · printing: TDC #13 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ironwright's Cleansing
@@ -1380,6 +1398,7 @@ schema: 2
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5504 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#irregular-cohort)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/696/irregular-cohort) · oracle_id `c0636d16-671c-4e80-af8c-67d80d2cd979` · printing: CLB #696 (2022-06-10) · [rulings](https://api.scryfall.com/cards/61775227-34ad-469a-a4d4-ee8ce69dd10f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Irresistible Prey
@@ -1442,6 +1461,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #813 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#irrigated-farmland)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/251/irrigated-farmland) · oracle_id `406eabe2-df62-49e2-bb39-c0227509d875` · printing: MSC #251 (2026-06-26) · [rulings](https://api.scryfall.com/cards/996b4484-a701-409a-822c-aa19be89a2c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Irrigation Ditch
@@ -1454,4 +1474,5 @@ schema: 2
   > {T}, Sacrifice this land: Add {G}{U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23649 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#irrigation-ditch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/324/irrigation-ditch) · oracle_id `e0c3c87b-83e3-4cff-b05f-78a192e2bba4` · printing: INV #324 (2000-10-02) · [rulings](https://api.scryfall.com/cards/977f1b44-166c-4faf-8a7b-d431707e90ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

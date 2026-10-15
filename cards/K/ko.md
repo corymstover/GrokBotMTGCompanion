@@ -178,6 +178,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10186 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-06-07* — Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kobolds-of-kher-keep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/107/kobolds-of-kher-keep) · oracle_id `badf0669-9f65-44e3-bf91-6c57ac2fecff` · printing: ME3 #107 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kobold Taskmaster
@@ -191,6 +192,7 @@ schema: 2
   > *The Taskmaster knows that there is no cure for the common Kobold.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19499 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kobold-taskmaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/106/kobold-taskmaster) · oracle_id `372f2534-25dc-4ff3-9891-31ee42b33345` · printing: ME3 #106 (2009-09-07) · [rulings](https://api.scryfall.com/cards/8619e6be-ae9c-4045-aa19-419be35ab6f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kodama of the Center Tree
@@ -227,6 +229,7 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Referenced in:** 3 pages (1 edh guides · 2 rules) → [reverse index](../../references/K.md#kodama-of-the-east-tree)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/239/kodama-of-the-east-tree) · oracle_id `cb1afab6-b9c8-4b9c-840b-24106523a783` · printing: CMR #239 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kodama of the North Tree
@@ -274,6 +277,7 @@ schema: 2
   - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
   - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
   - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/K.md#kodama-of-the-west-tree)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/199/kodama-of-the-west-tree) · oracle_id `d69b1e68-8d8e-460b-9eb4-6a68be886197` · printing: NEO #199 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kodama's Might
@@ -304,6 +308,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #37 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-12-01* — You can get just one basic land card if you wish (or even none at all). If you get only one land card, you put it onto the battlefield tapped.
+- **Referenced in:** 14 pages (11 decks · 2 edh guides · 1 card data) → [reverse index](../../references/K.md#kodamas-reach)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/113/kodamas-reach) · oracle_id `1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90` · printing: ECC #113 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kogla and Yidaro
@@ -320,6 +325,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2562 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-04-14* — You don't have to choose a target artifact or enchantment for the last ability. However, if you do, and that permanent is an illegal target at the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. You won't shuffle Kogla and Yidaro into your library and you won't draw a card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kogla-and-yidaro)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/244/kogla-and-yidaro) · oracle_id `fe8c2b7e-f80d-4acb-a976-edcf436a78a9` · printing: MOM #244 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kogla, the Titan Ape
@@ -336,6 +342,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-04-17* — If the target Human is an illegal target by the time Kogla's last ability tries to resolve, the ability won't resolve. Kogla won't gain indestructible.
   - *2020-04-17* — If the target creature is an illegal target when Kogla's first ability tries to resolve, the ability doesn't resolve. If it's a legal target but Kogla is no longer on the battlefield when the ability resolves, the target creature won't deal or be dealt damage.
+- **Referenced in:** 5 pages (1 decks · 3 edh guides · 1 card data) → [reverse index](../../references/K.md#kogla-the-titan-ape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/162/kogla-the-titan-ape) · oracle_id `8b21062e-97b0-4967-96df-30e8309f4fba` · printing: IKO #162 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Koh, the Face Stealer
@@ -385,6 +392,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2272 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/K.md#kokusho-the-evening-star)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/95/kokusho-the-evening-star) · oracle_id `cf631c93-b7fb-4e4f-b405-3778c15b1117` · printing: IMA #95 (2017-11-17) · [rulings](https://api.scryfall.com/cards/ab56cedb-1bcd-48a5-8503-a8e324e236ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kolaghan Aspirant
@@ -508,6 +516,7 @@ schema: 2
   - *2014-11-24* — If you choose to pay the dash cost rather than the mana cost, you’re still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its dash cost only when you otherwise could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
   - *2014-11-24* — If you pay the dash cost to cast a creature spell, that card will be returned to its owner’s hand only if it’s still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
   - *2014-11-24* — You don’t have to attack with the creature with dash unless another ability says you do.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/K.md#kolaghan-the-storms-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/176/kolaghan-the-storms-fury) · oracle_id `f6e160c1-b29f-4f3d-ab55-43ffe3ab4acf` · printing: C17 #176 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kolaghan Warmonger
@@ -554,6 +563,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-02-05* — A creature token you control is enchanted or equipped if there’s an Aura or an Equipment attached to it. You don’t have to control that Aura or Equipment.
   - *2021-02-05* — A creature token you control that’s enchanted or equipped gets only +1/+1 from Koll’s last ability, no matter how many Auras and Equipment are attached to that creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#koll-the-forgemaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/220/koll-the-forgemaster) · oracle_id `344dc8b0-302a-4721-99b6-5a6626a349c1` · printing: KHM #220 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kolodin, Triumph Caster
@@ -597,6 +607,7 @@ schema: 2
   - *2021-02-05* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2021-02-05* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/K.md#kolvori-god-of-kinship--the-ringhart-crest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/181/kolvori-god-of-kinship-the-ringhart-crest) · oracle_id `490ac985-79b5-438d-a2e7-f47683b29683` · printing: KHM #181 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Koma and Toski, Compleated
@@ -632,6 +643,7 @@ schema: 2
   - *2021-02-05* — If you choose the first mode of Koma's activated ability, you can choose a permanent that's already tapped as the target. The effect stopping its activated abilities will still apply.
   - *2021-02-05* — The first mode of Koma's activated ability doesn't stop static abilities from affecting the game, and it doesn't stop triggered abilities from triggering. Unlike similar effects, it does stop mana abilities from being activated. Most activated abilities that produce mana as they resolve are mana abilities.
   - *2021-02-05* — You can't sacrifice Koma itself to activate its last ability, but you can sacrifice any other Serpent you control, including Koma's Coil.
+- **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/K.md#koma-cosmos-serpent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/213/koma-cosmos-serpent) · oracle_id `6ba0656f-e0d2-4735-9c66-3a00afa9fc23` · printing: MKC #213 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Komainu Battle Armor
@@ -689,6 +701,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2117 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — A spell or ability that counters spells can still target Koma. When that spell or ability resolves, Koma won't be countered, but any additional effects of the countering spell or ability will still happen.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#koma-world-eater)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/121/koma-world-eater) · oracle_id `1ebf2142-f171-40cd-8143-15f50084b707` · printing: FDN #121 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Komodo Rhino
@@ -721,6 +734,7 @@ schema: 2
   - *2024-09-20* — If a creature's survival ability triggers but that creature is untapped when the ability begins to resolve, that ability won't do anything.
   - *2024-09-20* — If a creature's survival ability triggers but the creature leaves the battlefield before the ability resolves, use its tapped or untapped status as it last existed on the battlefield to determine whether or not the ability will do anything.
   - *2024-09-20* — Survival abilities (and other abilities that trigger at the beginning of your second main phase) will trigger at the beginning of the second main phase you take in a turn. They won't trigger during your third, fourth, or other additional main phases in a single turn, if effects somehow cause you to have more than two main phases.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kona-rescue-beastie)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/187/kona-rescue-beastie) · oracle_id `76372327-41ec-4516-abff-3b612e073629` · printing: DSK #187 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Konda, Lord of Eiganjo
@@ -734,6 +748,7 @@ schema: 2
 - **Keywords:** Indestructible, Bushido, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15748 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#konda-lord-of-eiganjo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/30/konda-lord-of-eiganjo) · oracle_id `efea2342-bb24-472a-acfb-1b9e012af91b` · printing: CHK #30 (2004-10-01) · [rulings](https://api.scryfall.com/cards/5edab171-94b9-4e5e-ab61-bd8c6c8cfc38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Konda's Banner
@@ -775,6 +790,7 @@ schema: 2
   > {T}: This creature deals 2 damage to target attacking creature. Activate only during the declare attackers step and only if you've been attacked this step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30978 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kongmings-contraptions)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/10/kongmings-contraptions) · oracle_id `c3327ffe-f47f-4f5b-b929-a7706ef4932d` · printing: PTK #10 (1999-05-01) · [rulings](https://api.scryfall.com/cards/6729eb0b-5655-4191-af14-4f7e4a8dded7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kongming, "Sleeping Dragon"
@@ -941,6 +957,7 @@ schema: 2
   > *Kor have no concept of exploration. They return to homelands forgotten.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4181 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/K.md#kor-cartographer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/28/kor-cartographer) · oracle_id `a5f537f6-3254-45a3-a4e7-d4d4fd7a972d` · printing: KHC #28 (2021-02-05) · [rulings](https://api.scryfall.com/cards/6226b346-ca4c-45ea-871c-1a8fb7f9be0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kor Castigator
@@ -1316,6 +1333,7 @@ schema: 2
   - *2019-10-04* — If you sacrifice a permanent as part of a spell or activated ability's cost, Korvold's last ability will resolve before that spell or ability.
   - *2019-10-04* — If you somehow control no other permanents, you can attack with Korvold. You won't sacrifice anything, and there's no penalty for being unable to do so.
   - *2019-10-04* — Korvold's last ability is a triggered ability, not an activated ability. It doesn't allow you to sacrifice a permanent whenever you want; rather, you need some other way of sacrificing permanents, such as Korvold's first triggered ability.
+- **Referenced in:** 5 pages (1 decks · 3 edh guides · 1 card data) → [reverse index](../../references/K.md#korvold-fae-cursed-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/120/korvold-fae-cursed-king) · oracle_id `9ae669dd-7e60-4649-b96e-35da28be641a` · printing: EOC #120 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Korvold, Gleeful Glutton
@@ -1372,6 +1390,7 @@ schema: 2
   > *Treachery and anarchy make poor partners.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28992 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/K.md#koskun-keep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/114/koskun-keep) · oracle_id `184c5a0d-7654-4421-86e4-7f04bcf49494` · printing: HML #114 (1995-10-01) · [rulings](https://api.scryfall.com/cards/395fe900-ed19-438e-a658-ed7cf85818e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Koth, Fire of Resistance
@@ -1386,6 +1405,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4234 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — Koth's emblem is colorless. Notably, this means that protection from red won't stop a permanent or player from being the target of the emblem's ability, nor will it prevent the damage being dealt. Replacement effects that care about damage from a red source don't apply to it.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/K.md#koth-fire-of-resistance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/138/koth-fire-of-resistance) · oracle_id `2c75b870-263b-41ab-9ece-6e3845bc3d8d` · printing: ONE #138 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Koth of the Hammer
@@ -1404,6 +1424,7 @@ schema: 2
   - *2011-01-01* — Koth’s emblem grants an activated ability to each Mountain you control at any given time for the rest of the game. It will continuously check which permanents you control are Mountains to determine what has the ability. For example, a Mountain that comes under your control later in the game will have the ability, while a Mountain you controlled at the time the emblem was created, but that later came under the control of another player, will no longer have the ability.
   - *2011-01-01* — Koth’s first ability can target any Mountain, including an untapped Mountain and/or a Mountain another player controls.
   - *2011-01-01* — Loyalty abilities can’t be mana abilities. Koth’s second ability uses the stack and can be countered or otherwise responded to. Like all loyalty abilities, it can be activated only once per turn, during your main phase, when the stack is empty, and only if no other loyalty abilities of this permanent have been activated this turn.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/K.md#koth-of-the-hammer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddi/44/koth-of-the-hammer) · oracle_id `589186e0-3ebe-46a3-a9e7-798b1712fa93` · printing: DDI #44 (2012-03-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Koth of the Homestead
@@ -1420,6 +1441,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20092 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — When a Plains you control enters, both of Koth's abilities will trigger. In that case, Koth's controller determines what order those abilities are placed on the stack.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/K.md#koth-of-the-homestead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/199/koth-of-the-homestead) · oracle_id `567aeb60-a441-41b1-98f4-54510d299317` · printing: FRA #199 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kothophed, Soul Hoarder
@@ -1437,6 +1459,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — It doesn't matter who controlled the permanent when it was put into a graveyard.
   - *2015-06-22* — The triggered ability is mandatory. You can't decline to draw the card and lose life, even if you want to.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kothophed-soul-hoarder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/114/kothophed-soul-hoarder) · oracle_id `85e1791f-f9a0-4e82-baf6-33cff2dcf60b` · printing: DMC #114 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Koth's Courier
@@ -1466,6 +1489,7 @@ schema: 2
 - **Keywords:** Reach, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15036 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/K.md#koth-the-geomancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/248/koth-the-geomancer) · oracle_id `3b17da84-ae4d-4fc1-a327-85e54e6156c6` · printing: FRA #248 (2026-10-02) · [rulings](https://api.scryfall.com/cards/54f64e95-5a97-4d7c-9939-7f33a3165562/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kotis, Sibsig Champion
@@ -1495,6 +1519,7 @@ schema: 2
   - *2025-04-04* — If any of the spells you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2025-04-04* — Since you are using an alternative cost to cast the spells, you can’t pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the spells have any mandatory additional costs, you must pay those.
   - *2025-04-04* — You cast the spells from among the exiled cards while Kotis’s last ability is resolving and still on the stack. You can’t wait to cast them later in the turn. Timing restrictions based on the card’s type are ignored.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/K.md#kotis-the-fangkeeper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/202/kotis-the-fangkeeper) · oracle_id `2eb2f6a2-e31a-4d3e-93ce-100394899014` · printing: TDM #202 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kotori, Pilot Prodigy
@@ -1558,6 +1583,7 @@ schema: 2
   - *2010-06-15* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
   - *2010-06-15* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
   - *2018-12-07* — Kozilek's first ability triggers as you cast it, and that ability resolves before the spell itself. It resolves even if the spell is countered.
+- **Referenced in:** 4 pages (2 decks · 1 rules · 1 card data) → [reverse index](../../references/K.md#kozilek-butcher-of-truth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/2/kozilek-butcher-of-truth) · oracle_id `7b8528b0-71eb-4c9e-bed9-aa2d2e84038f` · printing: 2X2 #2 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kozilek, Compleated
@@ -1578,6 +1604,7 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — The number of cards each opponent discards is calculated as Kozilek’s first ability resolves. If an opponent has two or fewer cards in their hand at that time, they won’t discard any cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kozilek-compleated)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/502/kozilek-compleated) · oracle_id `fd0592e0-021a-450f-b0fb-e4a242dc16bf` · printing: MB2 #502 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kozilek's Channeler
@@ -1611,6 +1638,7 @@ schema: 2
   - *2024-06-07* — If all of Kozilek's Command's targets are illegal as it tries to resolve, it will do nothing. If at least one target is still legal, it will resolve and do as much as it can.
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/K.md#kozileks-command)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/11/kozileks-command) · oracle_id `2f2c549d-0293-4b9d-b9a8-ff392800f3a5` · printing: MH3 #11 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kozilek's Pathfinder
@@ -1753,6 +1781,7 @@ schema: 2
   - *2024-06-07* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2024-06-07* — Unlike a face-down creature that was cast using a morph or disguise ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
   - *2024-06-07* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes morph, manifest, disguise, cloak, and a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/K.md#kozilek-the-broken-reality)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/10/kozilek-the-broken-reality) · oracle_id `39f4bf0e-47d5-4ae8-a504-71acda849850` · printing: MH3 #10 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kozilek, the Great Distortion
@@ -1773,4 +1802,5 @@ schema: 2
   - *2016-01-22* — Kozilek's triggered ability checks to see if you have fewer than seven cards in hand when you cast it. Kozilek is on the stack at this time and not in your hand. If you don't, the ability won't trigger at all. If the ability does trigger, it will check again as it tries to resolve. If you have seven or more cards in hand at that time, the ability won't do anything.
   - *2016-01-22* — The mana value of a spell doesn't change, even if it's been cast using an alternative cost (such as an awaken cost). For example, the mana value of a Sheer Drop (a spell with mana cost {2}{W}) that's been cast for its awaken cost of {5}{W} is 3.
   - *2016-01-22* — To activate the last ability, there must be a legal target: a spell on the stack. That target will determine the value of X and the mana value of the card you discard. You can't activate the ability unless you can match the mana value of a spell on the stack to that of a card in your hand.
+- **Referenced in:** 5 pages (1 decks · 1 edh guides · 1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/K.md#kozilek-the-great-distortion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/2/kozilek-the-great-distortion) · oracle_id `4c1c1537-e519-4e2f-9bc2-d34b289d4487` · printing: CMM #2 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

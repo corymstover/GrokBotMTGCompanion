@@ -60,6 +60,7 @@ schema: 2
   - *2019-07-12* — Because damage remains marked on a creature until it's removed as the turn ends, lethal damage dealt to other creatures you control with flying may cause them to be destroyed if Sephara leaves the battlefield during that turn.
   - *2019-07-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as Sephara's alternative cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
   - *2019-07-12* — To pay Sephara's alternative cost, you may tap any untapped creatures you control with flying, including ones you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sephara-skys-blade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/54/sephara-skys-blade) · oracle_id `ac8952c9-bd30-48cd-b964-7e6271f9cbc8` · printing: CMM #54 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel
@@ -87,6 +88,7 @@ schema: 2
   - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
   - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 2 card data) → [reverse index](../../references/S.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/115/sephiroth-fabled-soldier-sephiroth-one-winged-angel) · oracle_id `70113003-be5e-406a-9aec-cb480468c36d` · printing: FIN #115 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sephiroth, Fallen Hero
@@ -104,6 +106,7 @@ schema: 2
   - *2025-06-06* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
   - *2025-06-06* — An Aura controlled by another player does not cause a creature you control to be modified.
   - *2025-06-06* — Sephiroth's first ability will overwrite any previous effects that set the creature's power and toughness to specific numbers. Effects that otherwise modify its power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sephiroth-fallen-hero)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/92/sephiroth-fallen-hero) · oracle_id `ca9ab230-51e2-4ef2-a7b9-4e325d9f9657` · printing: FIC #92 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sephiroth, Planet's Heir
@@ -148,6 +151,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-06-01* — A player is poisoned if that player has one or more poison counters.
   - *2011-06-01* — Septic Rats gets a maximum of +1/+1 from its ability, no matter how many poison counters the defending player has.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#septic-rats)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/55/septic-rats) · oracle_id `c7335845-ace9-402d-a5be-3bfe3fe9b089` · printing: MBS #55 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sepulcher Ghoul
@@ -176,4 +180,5 @@ schema: 2
 - **Rulings** (2):
   - *2013-01-24* — The creature cards enter simultaneously.
   - *2013-01-24* — You can choose a number of targets up to the number of opponents you have, one target per opponent.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#sepulchral-primordial)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/54/sepulchral-primordial) · oracle_id `480454a0-fb10-432b-a963-8b0c0ffc6680` · printing: ZNC #54 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -60,6 +60,7 @@ schema: 2
   - *2023-06-16* — Gwaihir, Greatest of the Eagles's ability looks at how much life you've gained in the turn, even if it wasn't on the battlefield when you gained life. It doesn't care if you also lost life, even if you lost more life than you gained.
   - *2023-06-16* — If you haven't gained 3 or more life by the time an end step begins, Gwaihir, Greatest of the Eagles's ability won't trigger at all.
   - *2023-06-16* — You create just one Bird token, no matter how much life you've gained past 3 life.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gwaihir-greatest-of-the-eagles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/15/gwaihir-greatest-of-the-eagles) · oracle_id `77572e70-4b8b-46ae-8c8d-f71b7dd456e0` · printing: LTC #15 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwaihir the Windlord
@@ -89,6 +90,7 @@ schema: 2
   > *Urborg became the final resting place of many swordsmen of renown, their steel outmatched by the wiles of Gwendlyn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24945 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gwendlyn-di-corci)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/149/gwendlyn-di-corci) · oracle_id `de44e7c8-01f9-44f9-9716-9e8a5b82b1ff` · printing: ME3 #149 (2009-09-07) · [rulings](https://api.scryfall.com/cards/a496823b-c864-4591-b395-5493383d11a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwenna, Eyes of Gaea

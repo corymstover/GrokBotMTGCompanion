@@ -49,6 +49,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3302 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-04-12* — If you cast a creature spell without paying its mana cost but you paid mana for additional costs or cost increases (such as from Aven Interrupter), Satoru's last ability won't trigger.
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/S.md#satoru-the-infiltrator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/230/satoru-the-infiltrator) · oracle_id `7555c429-5f2d-4171-b6b0-8e3c8da7f314` · printing: OTJ #230 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satoru Umezawa
@@ -70,6 +71,7 @@ schema: 2
   - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
   - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
   - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/S.md#satoru-umezawa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/234/satoru-umezawa) · oracle_id `ed1d21ba-ddfe-4f82-9e37-93f9e2c7ba33` · printing: NEO #234 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satsuki, the Living Lore
@@ -85,6 +87,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4664 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-02-18* — Putting a lore counter on a Saga will usually cause the next chapter ability to trigger. If it already has a number of lore counters on it equal to its final chapter number however, no abilities trigger. In particular, this doesn't cause the final chapter ability to trigger again.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#satsuki-the-living-lore)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/235/satsuki-the-living-lore) · oracle_id `e41be9ad-3717-4f25-a8e0-c9947a2a0227` · printing: NEO #235 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satya, Aetherflux Genius
@@ -126,6 +129,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2301 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-07-13* — Satyr Enchanter’s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#satyr-enchanter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/936/satyr-enchanter) · oracle_id `aa321138-b1a7-4b8e-a2ca-b9ce65704e92` · printing: CMM #936 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Firedancer
@@ -200,6 +204,7 @@ schema: 2
   - *2014-02-01* — If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability.
   - *2014-02-01* — Inspired abilities don’t trigger when the creature enters the battlefield.
   - *2014-02-01* — Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#satyr-nyx-smith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/109/satyr-nyx-smith) · oracle_id `3ad9d55d-02f7-412e-8756-6a026f8e68d7` · printing: BNG #109 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Piper
@@ -251,6 +256,7 @@ schema: 2
   - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
   - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
   - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#satyrs-cunning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/152/satyrs-cunning) · oracle_id `46fd9b9e-ef8f-41d6-9f1d-040bb7fe74c1` · printing: THB #152 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Wayfinder
@@ -264,4 +270,5 @@ schema: 2
   > *The first satyr to wake after a revel must search for the site of the next one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1785 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (4 decks · 1 edh guides) → [reverse index](../../references/S.md#satyr-wayfinder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/106/satyr-wayfinder) · oracle_id `ead4c01a-e2ae-49c9-95d9-651d81005907` · printing: EOC #106 (2025-08-01) · [rulings](https://api.scryfall.com/cards/8bbbe65d-7162-42fb-94ee-d835d6c3f02a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

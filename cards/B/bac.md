@@ -120,6 +120,7 @@ schema: 2
   - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that’s already on the battlefield, the new permanent isn’t bargained, even if the original was.
   - *2023-09-01* — Some instant and sorcery spells require additional targets if they’re bargained. You ignore those targeting requirements if those spells aren’t bargained, and you can’t bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won’t be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
   - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell’s bargain cost.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/B.md#back-for-seconds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/80/back-for-seconds) · oracle_id `ee3d21b9-58b4-480c-bae3-26de50f1a5c6` · printing: WOE #80 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Back from the Brink
@@ -221,6 +222,7 @@ schema: 2
   > *—Barrin, \*Principia\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5445 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 2 card data) → [reverse index](../../references/B.md#back-to-basics)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/46/back-to-basics) · oracle_id `05c2dec2-d2f7-4036-b91f-4fccba10a8bb` · printing: UMA #46 (2018-12-07) · [rulings](https://api.scryfall.com/cards/0600d6c2-0f72-4e79-a55d-1f06dffa48c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Back to Nature
@@ -268,6 +270,7 @@ schema: 2
   - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
   - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#backup-plan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/2/backup-plan) · oracle_id `6f14f61f-e533-4541-b861-4dbaf0d88833` · printing: CNS #2 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Backwoods Survivalists

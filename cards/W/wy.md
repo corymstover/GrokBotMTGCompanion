@@ -97,6 +97,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/W.md#wyll-blade-of-frontiers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/208/wyll-blade-of-frontiers) · oracle_id `4fb254cf-b60c-4a3e-b753-4213cb572837` · printing: CLB #208 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wyll's Reversal

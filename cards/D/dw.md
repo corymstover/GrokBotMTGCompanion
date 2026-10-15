@@ -84,6 +84,7 @@ schema: 2
   - *2026-06-29* — A creature equipped by an Equipment with hone counters on it gets +1/+0 for each hone counter on that Equipment. This effect is from the counter itself rather than an ability on the Equipment, so even if the Equipment loses some of its abilities, each hone counter will still grant +1/+0 to the creature.
   - *2026-06-29* — Hone counters can be put on any Equipment and each one will grant +1/+0 to that Equipment's equipped creature, even if the Equipment the hone counters are on doesn't reference hone counters or have an ability that puts them on itself.
   - *2026-06-29* — The power boost applies only while the Equipment with hone counters is attached to a creature. If an Equipment with hone counters on it becomes unattached from a creature, leaves the battlefield, or has its hone counters removed, the power of the creature changes immediately.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dwalin-weaponmaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/154/dwalin-weaponmaster) · oracle_id `cee583b7-7cc3-40ea-a227-b760839ec291` · printing: HOB #154 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarfhold Champion
@@ -225,6 +226,7 @@ schema: 2
   > *Foolishly, Najib retreated to his castle at El-Abar; the next morning he was dead. In just one night, the dwarven forces had reduced the mighty walls to mere rubble.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29560 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dwarven-demolition-team)
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/184/dwarven-demolition-team) · oracle_id `caf3c6ec-d17e-497c-8fe7-6f818ce93f96` · printing: 8ED #184 (2003-07-28) · [rulings](https://api.scryfall.com/cards/94d17787-1f59-4e88-ba57-e69f02bb3ffe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Driller
@@ -270,6 +272,7 @@ schema: 2
 - **Keywords:** Landwalk, Mountainwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8286 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dwarven-grunt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/185/dwarven-grunt) · oracle_id `6da00e2d-4287-48eb-8abe-d153318381fd` · printing: ODY #185 (2001-10-01) · [rulings](https://api.scryfall.com/cards/6f00d726-4289-48ff-8c14-6a5080a00fda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Hammer
@@ -285,6 +288,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-02-05* — The Dwarf Berserker creature token enters the battlefield as a 2/1 creature. Any abilities that trigger when a creature with a certain power enters the battlefield will see the token enter as a 2/1 creature.
   - *2021-02-05* — You decide whether to pay {2} as the enters-the-battlefield ability resolves. If you do, you immediately create the Dwarf Berserker creature token and attach Dwarven Hammer to it. No players may respond to your decision to pay or not, and no player may take actions during this process.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dwarven-hammer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/219/dwarven-hammer) · oracle_id `a6365f98-f652-492b-81de-5f8cd6fe0a1c` · printing: CMM #219 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Hold
@@ -392,6 +396,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — As these lands are entering the battlefield, they check for lands that are already on the battlefield. They won't see lands that are entering the battlefield at the same time (due to Scapeshift, for example).
   - *2019-10-04* — If another effect puts these lands onto the battlefield tapped, they enter tapped, even if you control enough lands with the appropriate basic land type.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/D.md#dwarven-mine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/243/dwarven-mine) · oracle_id `74ed0bd3-ac31-41a4-8220-d8e7c8c1c437` · printing: ELD #243 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Miner
@@ -406,6 +411,7 @@ schema: 2
   > *—Jamul, Femeref farmer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11831 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dwarven-miner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/169/dwarven-miner) · oracle_id `0935377b-384f-4e4c-9fbb-8d2a7d5dc280` · printing: MIR #169 (1996-10-08) · [rulings](https://api.scryfall.com/cards/b7142196-c379-4932-9402-97642ad2ebdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Nomad
@@ -622,6 +628,7 @@ schema: 2
   - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if you switch its power and toughness during that turn.
   - *2021-03-19* — Effects that switch a creature's power and toughness apply after all other effects, regardless of when those effects began to apply. For instance, if you target a 1/2 creature then give it +2/+0 later in the turn, it's a 2/3 creature, not a 4/1 creature.
   - *2021-03-19* — Switching a creature's power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dwarven-thaumaturgist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/98/dwarven-thaumaturgist) · oracle_id `019d0013-52fd-4261-9cc8-7efcee5a4616` · printing: WTH #98 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Trader
@@ -636,6 +643,7 @@ schema: 2
   > *—Reveka, Wizard Savant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10436 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dwarven-trader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/72a/dwarven-trader) · oracle_id `b40c5f3e-7080-4828-9215-79727c7a911f` · printing: HML #72a (1995-10-01) · [rulings](https://api.scryfall.com/cards/4db9aa47-f42b-41e9-948c-8b012c3809fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Vigilantes
@@ -721,6 +729,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2639 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2015-06-22* — Count the number of attacking Elves you control as Dwynen's last ability resolves to determine how much life to gain.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dwynen-gilt-leaf-daen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/217/dwynen-gilt-leaf-daen) · oracle_id `30d0d75f-e94c-460b-b957-9f1d655c0f65` · printing: FDN #217 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwynen's Elite
@@ -735,4 +744,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5561 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — Dwynen's Elite's ability checks at the moment it would trigger to see if you control another Elf. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't control another Elf at that time, the ability won't resolve and none of its effects will happen.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dwynens-elite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/218/dwynens-elite) · oracle_id `3d4a7dd3-9258-4bd1-adc4-08f0205e196a` · printing: FDN #218 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

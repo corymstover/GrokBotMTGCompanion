@@ -87,6 +87,7 @@ schema: 2
   - *2025-10-02* — A battle with indestructible still loses defense counters as it's dealt damage. If it's a Siege, it will still be exiled when the last defense counter is removed from it, and its controller may still cast it transformed without paying its mana cost.
   - *2025-10-02* — A planeswalker with indestructible still loses loyalty as it's dealt damage. It is put into its owner's graveyard if its loyalty becomes 0.
   - *2025-10-02* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature you control may become lethal if The Walls of Ba Sing Se leave the battlefield during that turn.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/T.md#the-walls-of-ba-sing-se)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/261/the-walls-of-ba-sing-se) · oracle_id `af7d7da5-aff5-48e1-901a-f81257a85f71` · printing: TLA #261 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wanderer
@@ -100,6 +101,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4925 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-05-03* — If The Wanderer would be dealt lethal damage at the same time as you and/or other permanents you control would be dealt noncombat damage, the damage that would be dealt to you and your other permanents is prevented.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#the-wanderer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/843/the-wanderer) · oracle_id `4c2196e5-6ed7-4cd2-b8e7-f01aff236569` · printing: CMM #843 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wandering Emperor
@@ -117,6 +119,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5525 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-02-18* — You may still only activate one of The Wandering Emperor's loyalty abilities on the turn she entered the battlefield.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/T.md#the-wandering-emperor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/42/the-wandering-emperor) · oracle_id `0c7f18d5-36cb-4bc6-a358-443b97666215` · printing: NEO #42 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wandering Minstrel
@@ -134,6 +137,7 @@ schema: 2
   - *2025-06-06* — If a land has an ability that says it enters the battlefield tapped, you choose the order in which that ability's effect and The Wandering Minstrel's effect apply. This means you can choose to have the land enter tapped or untapped. If a land you control is simply put onto the battlefield tapped without a replacement effect being applied, it always enters untapped if you control The Wandering Minstrel.
   - *2025-06-06* — The Wandering Minstrel's second ability checks at the moment it would trigger to see if you control five or more Towns. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't control five or more Towns at that time, the ability won't resolve and none of its effects will happen.
   - *2025-06-06* — The value of X is calculated only once, as The Wandering Minstrel's last ability resolves.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#the-wandering-minstrel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/249/the-wandering-minstrel) · oracle_id `e6e6e3d2-f2fb-46a1-8798-13a2f2efe8cc` · printing: FIN #249 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wandering Rescuer
@@ -167,6 +171,7 @@ schema: 2
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
   - *2023-10-13* — You choose the target of the second ability as it attacks. The number of time counters is checked at the time the ability resolves. If The War Doctor has left the battlefield by that time, use the number of time counters it had on it the last time it was on the battlefield to determine how much damage it deals to that target.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-war-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/167/the-war-doctor) · oracle_id `d97553bf-6763-4a7b-8d82-1b438a22aa62` · printing: WHO #167 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The War Games
@@ -181,6 +186,7 @@ schema: 2
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13825 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-war-games)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/30/the-war-games) · oracle_id `d7cfe3a3-e8e6-446d-a855-46c845f657fa` · printing: WHO #30 (2023-10-13) · [rulings](https://api.scryfall.com/cards/0662fee0-a6bc-4a1c-8a0f-6e7efc6b8a21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The War in Heaven
@@ -285,6 +291,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5666 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-06-16* — For the last ability, the target Kraken can (and probably will) be The Watcher in the Water. If it is, and if it has at least one stun counter on it, you'll remove a stun counter from it instead of untapping it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-watcher-in-the-water)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/75/the-watcher-in-the-water) · oracle_id `a9ddb3dc-f289-46a1-af17-3a8523a26b0d` · printing: LTR #75 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Water Crystal
@@ -306,6 +313,7 @@ schema: 2
   - *2025-06-06* — Some older cards have received errata to instruct a player to mill cards rather than to put the top cards of their library into their graveyard. Use the Oracle™ card reference at Gatherer.Wizards.com to determine whether a specific card has received such errata. As a rule of thumb, if an effect instructs a player to look at or reveal a card before it's put into its owner's graveyard, it's unlikely to have received errata.
   - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of blue spells you cast.
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of The Water Crystal's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-water-crystal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/85/the-water-crystal) · oracle_id `f8d2a94f-7be1-4b17-8556-398dde531360` · printing: FIN #85 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Water Maro
@@ -337,6 +345,7 @@ schema: 2
   - *2022-09-09* — As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga’s greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
   - *2022-09-09* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
   - *2022-09-09* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don’t contribute to domain abilities.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#the-weatherseed-treaty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/188/the-weatherseed-treaty) · oracle_id `7d723a6f-854f-43df-9401-a4eb0c0f639f` · printing: DMU #188 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Weaver King
@@ -431,6 +440,7 @@ schema: 2
 - **Keywords:** First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30105 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-whizzer-classic-speedster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/710/the-whizzer-classic-speedster) · oracle_id `aa86bce1-9cde-44d8-9455-24502221f31d` · printing: MSC #710 (2026-06-26) · [rulings](https://api.scryfall.com/cards/77134e93-4c03-476b-ab60-d8fb48f7a74f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wiley Speedster
@@ -465,6 +475,7 @@ schema: 2
   - *2025-06-06* — In the rare case where you control two of The Wind Crystal, life you gain is multiplied by four. Three of The Wind Crystal means life you gain is multiplied by eight, and so on.
   - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of white spells you cast.
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of The Wind Crystal's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-wind-crystal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/43/the-wind-crystal) · oracle_id `240f0835-36af-4ad8-9336-d6d3d816d293` · printing: FIN #43 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wise Mothman
@@ -488,6 +499,7 @@ schema: 2
   - *2024-03-08* — Rad counters don’t go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
   - *2024-03-08* — The cards are milled all at once, which means abilities that trigger “whenever one or more nonland cards are milled” will trigger exactly once as long as at least one nonland card was milled.
   - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is “At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves.”
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-wise-mothman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2455/the-wise-mothman) · oracle_id `7656f93b-336f-49cb-b8fe-c2b5c014258f` · printing: SLD #2455 (2026-01-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wise Sable
@@ -583,6 +595,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #818 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-02-05* — The World Tree’s third ability doesn’t cause lands you control to lose any of their abilities. It also doesn’t cause lands you control to gain or lose any land types.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-world-tree)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/275/the-world-tree) · oracle_id `3437d504-bf62-4c27-b15f-f6330182ff7e` · printing: KHM #275 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wretched

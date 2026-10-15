@@ -197,6 +197,7 @@ schema: 2
   > At the beginning of each player's upkeep, this artifact deals 1 damage to that player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15854 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#copper-tablet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/154/copper-tablet) · oracle_id `16d1023b-2162-4010-8bf4-218dbe7c99a0` · printing: ME1 #154 (2007-09-10) · [rulings](https://api.scryfall.com/cards/f953fa1a-14ea-46db-9a28-7375f0528335/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copy Artifact
@@ -210,6 +211,7 @@ schema: 2
   - *2004-10-04* — The artifact to copy is chosen at the time this card enters. If there is no valid artifact to choose, then this card enters as an enchantment that has no effect.
   - *2004-10-04* — The copy is both an artifact and an enchantment, so it is an artifact-enchantment (perhaps even an artifact-creature-enchantment). It can be affected by anything which affects either type of permanent.
   - *2004-10-04* — The copy of the artifact is not still blue. It copies the color of the thing it is copying.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#copy-artifact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/44/copy-artifact) · oracle_id `80bc56a9-40e0-48da-ae86-190e39c8a4a3` · printing: ME4 #44 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copy Catchers
@@ -275,6 +277,7 @@ schema: 2
   - *2023-09-01* — If the chosen permanent is a token, Copy Enchantment copies the original characteristics of that token as stated by the effect that created the token. Copy Enchantment does not become a token.
   - *2023-09-01* — If the chosen permanent is copying something else (for example, if the chosen permanent is another Copy Enchantment), then your Copy Enchantment enters the battlefield as whatever the chosen permanent copied.
   - *2023-09-01* — You can choose not to copy anything. In that case, Copy Enchantment simply enters the battlefield as an enchantment with an irrelevant ability. We're sure you had your reasons.
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/C.md#copy-enchantment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/39/copy-enchantment) · oracle_id `87bc0b1f-49ef-4c06-9049-2c148b467882` · printing: RVR #39 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copy Land

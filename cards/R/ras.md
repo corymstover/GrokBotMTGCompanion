@@ -54,6 +54,7 @@ schema: 2
   - *2022-06-10* — Rasaad yn Bashir's first ability doesn't actually change any creature's power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values.
   - *2022-06-10* — To double a creature's toughness, that creature gets +0/+X, where X is that creature's toughness as the triggered ability resolves.
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#rasaad-yn-bashir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/37/rasaad-yn-bashir) · oracle_id `3848ad74-8ee7-4546-9394-30db88e1d1e6` · printing: CLB #37 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rashel, Fist of Torm
@@ -67,6 +68,7 @@ schema: 2
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12372 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rashel-fist-of-torm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/24/rashel-fist-of-torm) · oracle_id `c0c39f80-cf12-482e-a7c4-757db85125b0` · printing: SLX #24 (2025-04-25) · [rulings](https://api.scryfall.com/cards/12401fc7-3332-48e5-b38a-efaae29b3ee1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rashida Scalebane
@@ -98,6 +100,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Gets the bonus only once even if it blocks more than one black creature.
   - *2008-04-01* — This card now uses the Reach keyword ability to enable the blocking of flying creatures. This works because a creature with flying can only be blocked by creatures with flying or reach.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#rashka-the-slayer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/12/rashka-the-slayer) · oracle_id `8e1e477a-192a-4e5c-a18b-7e25d9bd47f3` · printing: HML #12 (1995-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rashmi and Ragavan
@@ -138,6 +141,7 @@ schema: 2
   - *2016-09-20* — Rashmi has to be on the battlefield at the moment you cast your first spell. If that spell is Rashmi itself, Rashmi's ability can't trigger. If that spell causes Rashmi to leave the battlefield as an additional cost to cast it, Rashmi's ability can't trigger.
   - *2016-09-20* — Rashmi's ability resolves before the spell that caused it to trigger. If you cast a spell using the ability, it will also resolve before the initial spell.
   - *2016-09-20* — Rashmi's ability triggers when you cast your first spell each turn, not just on your turn.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/R.md#rashmi-eternities-crafter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/231/rashmi-eternities-crafter) · oracle_id `01a79429-7d57-4a51-9815-a20905ed4707` · printing: DSC #231 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rasputin Dreamweaver
@@ -156,6 +160,7 @@ schema: 2
   - *2009-10-01* — If a number of dream counters would be put on Rasputin Dreamweaver for any reason that would bring the total number of dream counters on it to eight or more, the total number of dream counters on it is brought to seven instead.
   - *2009-10-01* — If a permanent with eight or more dream counters on it becomes a copy of Rasputin Dreamweaver (or just gains its last ability), all dream counters except seven are removed from it as a state-based action.
   - *2009-10-01* — The fourth ability has an "intervening 'if' clause," so it won't trigger at all unless Rasputin Dreamweaver started the turn untapped.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rasputin-dreamweaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/170/rasputin-dreamweaver) · oracle_id `fef452ee-9018-4175-bb79-476544e48433` · printing: ME3 #170 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rasputin, the Oneiromancer
@@ -169,6 +174,7 @@ schema: 2
   > {T}, Remove a dream counter from Rasputin: Create a 2/2 white Knight creature token with protection from red.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21371 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rasputin-the-oneiromancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/40/rasputin-the-oneiromancer) · oracle_id `c16fd2b9-9147-43bc-aa08-6d1bddf1d3e8` · printing: DMC #40 (2022-09-09) · [rulings](https://api.scryfall.com/cards/7f0f171a-2929-4d95-9829-d0e885622e04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rassilon, the War President

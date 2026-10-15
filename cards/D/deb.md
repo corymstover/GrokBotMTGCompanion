@@ -106,6 +106,7 @@ schema: 2
   - *2008-04-01* — If you cast Debt of Loyalty but nothing happens to the targeted creature for the rest of the turn that would cause it to be destroyed, Debt of Loyalty has no visible effect. The regeneration shield wears off at the end of the turn. If the creature regenerates during a later turn, you won’t gain control of it.
   - *2008-04-01* — You may cast Debt of Loyalty targeting a creature you already control. If you do, and that creature would be destroyed later in the turn, it will regenerate and you’ll gain control of it (though gaining control of a creature you already control usually has no visible effect).
   - *2013-07-01* — A creature with indestructible never needs to regenerate, so Debt of Loyalty will have no effect on it.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/D.md#debt-of-loyalty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/11/debt-of-loyalty) · oracle_id `7a5cfc97-89cf-43bc-8e48-f8bf7a0c5fcd` · printing: WTH #11 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Debtors' Knell

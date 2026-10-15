@@ -215,6 +215,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19221 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-10-13* — The last ability can find any card with the Doctor creature type, not just a card with "Doctor" in the name.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fugitive-of-the-judoon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/103/fugitive-of-the-judoon) · oracle_id `cacda1c2-2fe8-40a3-89f3-38a835f10af3` · printing: WHO #103 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fugitive Wizard
@@ -337,6 +338,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-02-07* — If you somehow cast this spell when it’s not a main phase, the second ability still takes effect, but there are no additional combat phases this turn. If you cast it during an opponent’s main phase, there are two additional combat phases, but that opponent gets to attack during those combat phases, not you.
   - *2025-02-07* — There is no main phase between the two additional combat phases. If you cast this during your second main phase, you will go directly to the end step after the two additional combat phases are complete.
+- **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/F.md#full-throttle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/127/full-throttle) · oracle_id `3c2f87eb-b0f4-4578-b143-6fba313a82ec` · printing: DFT #127 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fully Grown
@@ -377,6 +379,7 @@ schema: 2
   > *A solo so violent even the echoes can deafen the unprepared.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26513 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fulminous-forte)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/84/fulminous-forte) · oracle_id `2a29d028-d1a4-413f-9c01-d6842294420a` · printing: FRA #84 (2026-10-02) · [rulings](https://api.scryfall.com/cards/19acb2b5-3b3e-43f0-bd81-8426ed3d9c55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fumarole
@@ -437,6 +440,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — Creatures destroyed this way count toward the life gained even if they're put into a zone other than a graveyard.
   - *2024-11-08* — You won't gain 1 life for a creature that isn't actually destroyed, such as a creature with indestructible.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/F.md#fumigate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/65/fumigate) · oracle_id `b17ea905-0696-4e58-b564-557e87236e27` · printing: EOC #65 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fumiko the Lowblood
@@ -482,6 +486,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — If a nontoken creature is sacrificed to pay a cost of a spell or ability, Fumulus's thirdsecond ability will resolve before that spell or ability. Conversely, if a nontoken creature is sacrificed during the resolution of a spell or ability, that spell or ability will finish resolving before Fumulus's second ability is put onto the stack.
   - *2024-11-08* — If you sacrifice Fumulus, its thirdsecond ability will still trigger.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/F.md#fumulus-the-infestation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/42/fumulus-the-infestation) · oracle_id `c75f8365-71f1-415f-8bbc-9bacb8ddba0b` · printing: J25 #42 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Funeral Charm
@@ -495,6 +500,7 @@ schema: 2
   > • Target creature gains swampwalk until end of turn. (It can't be blocked as long as defending player controls a Swamp.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18453 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#funeral-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/44/funeral-charm) · oracle_id `8866272d-89cb-478c-82ae-20e1d510eab7` · printing: TSB #44 (2006-10-06) · [rulings](https://api.scryfall.com/cards/6fc44e66-7ff8-4fcd-9f98-e53707590d67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Funeral Longboat
@@ -582,6 +588,7 @@ schema: 2
   - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
   - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
   - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/F.md#funeral-room--awakening-hall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/100/funeral-room-awakening-hall) · oracle_id `a39d541e-86c1-4595-a2e9-f107def5bbc6` · printing: DSK #100 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fungal Behemoth
@@ -670,6 +677,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-04-27* — If the target creature is an illegal target by the time Fungal Infection tries to resolve, the spell doesn’t resolve. You won’t create a Saproling token.
   - *2018-04-27* — The target creature will be on the battlefield when you create the Saproling token, even if it’s about to die for having 0 toughness or lethal damage. Its abilities may affect the token’s creation or trigger when the token enters the battlefield. Abilities that trigger this way will resolve after the target creature has died.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#fungal-infection)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/94/fungal-infection) · oracle_id `04a8858e-9033-403e-9346-5a2ad1bdf680` · printing: DOM #94 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fungal Plots
@@ -683,6 +691,7 @@ schema: 2
   > *Thallids nurture saprolings, entertain them, and eat them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6551 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fungal-plots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/291/fungal-plots) · oracle_id `0a85402a-e3be-4ebb-8001-9d9a20dde7e8` · printing: CMM #291 (2023-08-04) · [rulings](https://api.scryfall.com/cards/783fb92d-6de6-49f5-a204-5bcf577c9640/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fungal Reaches
@@ -1215,6 +1224,7 @@ schema: 2
   - *2021-06-18* — If you pay the evoke cost, you can have the creature's own triggered ability resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice the creature.
   - *2021-06-18* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
   - *2021-06-18* — You divide the damage as you put the triggered ability on the stack, not as it resolves. Each target must be assigned at least 1 damage. You can't choose more than four targets and deal 0 damage to some of them.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/50/fury) · oracle_id `fbf9f8c5-849f-45d5-8129-5fc683c21a04` · printing: ECC #50 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Furyblade Vampire
@@ -1265,6 +1275,7 @@ schema: 2
   - *2021-04-16* — If an effect instructs you to put one of these lands onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
   - *2021-04-16* — The "Snarl" itself doesn't have any land subtypes. You can't reveal one to satisfy the ability of another.
   - *2021-04-16* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land card.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/F.md#furycalm-snarl)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/247/furycalm-snarl) · oracle_id `651dea9c-2375-4e44-8e65-ba8e40f0c0ef` · printing: MSC #247 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fury Charm
@@ -1296,6 +1307,7 @@ schema: 2
   - *2026-03-20* — If one of the Elemental tokens is tapped or is affected by a spell or ability that says it can't attack, then it doesn't attack.
   - *2026-03-20* — If one of the tokens can't attack the appropriate player, its controller is free to have it attack any other player, planeswalker, or battle or to not attack with it. If there's a cost associated with attacking the appropriate player, its controller is free to have it attack any other player, planeswalker, or battle or not attack with it. However, if there's a cost associated with that token attacking at all, that token has to attack the appropriate player or not attack.
   - *2026-03-20* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Furygale Flocking's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#furygale-flocking)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/32/furygale-flocking) · oracle_id `943fc88d-c281-46bb-9dc7-1052f789362b` · printing: SOC #32 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fury of the Horde
@@ -1467,6 +1479,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — Effects that set a creature's power, toughness, or creature types will be applied in timestamp order. The timestamp of Futurist Operative's first ability is when it entered the battlefield, not when it became tapped. Notably, this means the ability will not overwrite any effects that set its power and toughness to specific numbers after it entered the battlefield. Effects that otherwise modify its power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
   - *2022-02-18* — Untapping Futurist Operative once it's been declared as an attacker won't remove it from combat.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#futurist-operative)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/53/futurist-operative) · oracle_id `9f53aac8-f21f-4928-af8f-65b40cb9149c` · printing: NEO #53 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Futurist Sentinel

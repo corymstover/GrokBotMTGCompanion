@@ -113,6 +113,7 @@ schema: 2
   - *2021-06-18* — You don't have to attack with the creature with dash unless another ability says you do.
   - *2021-06-18* — You must still follow all timing restrictions and pay all costs when casting the exiled card. If you exile a land card, you can't play that card.
   - *2021-06-18* — You'll create a Treasure token even if that player has no cards left in their library to exile.
+- **Referenced in:** 21 pages (14 decks · 3 edh guides · 2 rules · 2 card data) → [reverse index](../../references/R.md#ragavan-nimble-pilferer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/138/ragavan-nimble-pilferer) · oracle_id `37108cd4-bbab-4ce3-9ed6-f60e8422e703` · printing: MH2 #138 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rag Dealer
@@ -250,6 +251,7 @@ schema: 2
   - *2026-06-29* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2026-06-29* — Some spells and abilities that amass Goblins may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Goblins.
   - *2026-06-29* — To amass Goblins N, if you don't control an Army creature, create a 0/0 black Goblin Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Goblin, it becomes a Goblin in addition to its other types.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rage-into-the-valley)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/79/rage-into-the-valley) · oracle_id `8c7641b6-3a6c-4441-a98c-3b5d61d91f76` · printing: HOB #79 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragemonger
@@ -280,6 +282,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23622 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2010-06-15* — If, during its controller’s declare attackers step, a creature affected by Rage Nimbus’s activated ability is tapped, is affected by a spell or ability that says it can’t attack, or is affected by “summoning sickness,” then that creature doesn’t attack. If there’s a cost associated with having that creature attack, its controller isn’t forced to pay that cost, so the creature doesn’t have to attack in that case either.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rage-nimbus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/160/rage-nimbus) · oracle_id `ab5b49d4-e648-43f1-bcc0-7dd4763316ee` · printing: ROE #160 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rage of Purphoros
@@ -380,6 +383,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-09-20* — Once Ragged Playmate's ability has resolved, raising the affected creature's power above 2 won't cause it to be able to be blocked this turn.
   - *2024-09-20* — Once a creature with power 2 or less has been blocked, activating Ragged Playmate's ability targeting that creature won't cause it to stop being blocked once the ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#ragged-playmate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/150/ragged-playmate) · oracle_id `d0732ebf-91ad-4e3c-a09a-f410d20587fc` · printing: DSK #150 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragged Recluse // Odious Witch
@@ -596,6 +600,7 @@ schema: 2
   - *2025-07-25* — Any +1/+1 counters put on Raging Ravine remain on it even after it stops being a creature. They’ll have no effect until it becomes a creature again. (In other words, the land continues to rage, but to no effect.)
   - *2025-07-25* — If Raging Ravine’s last ability is activated multiple times in a turn, it will get that many instances of the granted triggered ability. For example, if you activate Raging Ravine’s last ability twice and then attack with it, you’ll put a +1/+1 counter on it twice.
   - *2025-07-25* — If this land becomes a creature but you haven’t controlled it continuously since your most recent turn began, you won’t be able to activate its mana ability or attack with it that turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#raging-ravine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/160/raging-ravine) · oracle_id `8d38194e-b607-4ff4-9c19-0e8636d463bf` · printing: ECC #160 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Redcap
@@ -636,6 +641,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-05-01* — If a creature enters (or something becomes a creature) after the ability resolves, that creature will not be able to block any creature that was attacking at the time the ability resolved.
   - *2008-05-01* — If a creature is put onto the battlefield attacking after the ability resolves, it can be blocked by any creature that could normally block it (including creatures that entered after the ability resolved).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#raging-river)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2ed/169/raging-river) · oracle_id `a2310312-6e1e-4e34-a351-9aef499a810f` · printing: 2ED #169 (1993-12-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Spirit
@@ -665,6 +671,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7589 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#raging-swordtooth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/283/raging-swordtooth) · oracle_id `626709bc-6c29-434f-9e3f-b84bb8a5c431` · printing: LCC #283 (2023-11-17) · [rulings](https://api.scryfall.com/cards/6bf82a3f-2faf-45b8-95af-32a93880b54c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rag Man

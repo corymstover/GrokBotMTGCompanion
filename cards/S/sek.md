@@ -51,4 +51,5 @@ schema: 2
   > *The orcs believe Sek'Kuar still lives in the Karplusan Mountains, gathering his dead army, intent on revenge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16638 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sekkuar-deathkeeper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/354/sekkuar-deathkeeper) · oracle_id `94426127-65c2-435e-ba92-423a3c102061` · printing: CMM #354 (2023-08-04) · [rulings](https://api.scryfall.com/cards/a873dbe5-d95a-4ecb-ac0a-8dc6c40f3576/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -103,6 +103,7 @@ schema: 2
   - *2022-12-08* — Maze of Ith doesn't have a mana ability. It doesn't tap for colorless mana.
   - *2022-12-08* — The creature isn't removed from combat; it just has its damage prevented. It's still an attacking creature until the combat phase is complete.
   - *2022-12-08* — You can activate Maze of Ith's ability targeting an attacking creature you control during the combat damage step or the end of combat step, even though it will already have dealt combat damage. This will untap the creature. The damage it dealt will be unaffected.
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/M.md#maze-of-ith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/250/maze-of-ith) · oracle_id `38a12bd7-4394-44a8-91a0-6a4ff7fa4f71` · printing: DMR #250 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze of Shadows
@@ -146,6 +147,7 @@ schema: 2
   - *2013-04-15* — Putting a Gate onto the battlefield with Maze's End doesn't count as the one land you can play during your turn. If it's your turn, you can play Maze's End or a different land card from your hand after its ability has resolved.
   - *2013-04-15* — Returning Maze's End to its owner's hand is part of the cost to activate its last ability. Once that ability is announced, players can't respond to it until after you've paid its activation cost and returned Maze's End to hand.
   - *2013-04-15* — When the last ability of Maze's End resolves, you'll search for a Gate and put it onto the battlefield before checking to see if you win the game. This check will happen even if you don't put a Gate onto the battlefield this way. This check will happen only as the ability resolves, not at other times.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mazes-end)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/727/mazes-end) · oracle_id `49479778-c4c0-43ba-a7b7-45f00d067462` · printing: FDN #727 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze Sentinel
@@ -208,6 +210,7 @@ schema: 2
   - *2020-08-07* — If you sacrifice Mazirek and other permanents at the same time, Mazirek's last ability triggers for the other permanents.
   - *2020-08-07* — If you sacrifice a permanent as part of casting a spell or activating an ability, Mazirek's last ability will resolve before that spell or ability.
   - *2020-08-07* — Mazirek's last ability is a triggered ability, not an activated ability. It doesn't allow you to sacrifice a permanent whenever you want; rather, you need some other way of sacrificing permanents.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#mazirek-kraul-death-priest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/319/mazirek-kraul-death-priest) · oracle_id `e0420f2c-d578-421e-ae75-e7dc5f70661a` · printing: SOC #319 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mazzy, Truesword Paladin
@@ -222,4 +225,5 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — In some unusual cases, the Aura put into your graveyard isn't an Aura card. This may happen due to copy effects, for example. In these cases, you'll still exile the card and you may cast it.
   - *2022-06-10* — You must still pay all costs and follow all timing rules when casting the card from exile.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mazzy-truesword-paladin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/283/mazzy-truesword-paladin) · oracle_id `9fa75b3c-a512-4318-9c03-e2d958acb6ef` · printing: CLB #283 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

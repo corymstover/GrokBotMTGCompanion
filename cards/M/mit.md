@@ -45,6 +45,7 @@ schema: 2
   - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
   - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mite-overseer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/404/mite-overseer) · oracle_id `d92411b3-cb25-4123-a78e-4f785dfdae0c` · printing: ONE #404 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mithril Coat
@@ -63,6 +64,7 @@ schema: 2
   - *2023-06-16* — Attaching an Equipment with its enters-the-battlefield triggered ability isn't the same as using its equip ability. You don't pay mana for the attachment, and the timing restrictions for equip abilities don't apply.
   - *2023-06-16* — If the target creature becomes an illegal target, the Equipment remains on the battlefield unattached.
   - *2023-06-16* — Mithril Coat doesn't enter the battlefield attached to a creature. Instead, the Equipment enters the battlefield and then a triggered ability attaches it to a creature. You may cast Mithril Coat even if you don't control any creatures.
+- **Referenced in:** 5 pages (1 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/M.md#mithril-coat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/245/mithril-coat) · oracle_id `3dc364f3-3094-4660-80ca-9418588c7fde` · printing: LTR #245 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mitotic Manipulation
@@ -90,4 +92,5 @@ schema: 2
   > When this creature dies, create two 2/2 green Ooze creature tokens. They have "When this token dies, create two 1/1 green Ooze creature tokens."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8400 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mitotic-slime)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/302/mitotic-slime) · oracle_id `1162c7ff-c0cb-469a-ad3c-322b0981ae1d` · printing: NCC #302 (2022-04-29) · [rulings](https://api.scryfall.com/cards/8aacf055-e36f-4428-8a3c-f73fa4b4307c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

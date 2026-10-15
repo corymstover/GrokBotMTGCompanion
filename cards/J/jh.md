@@ -92,6 +92,7 @@ schema: 2
   - *2015-06-22* — Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger.
   - *2015-06-22* — Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
   - *2015-06-22* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jhessian-thief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/61/jhessian-thief) · oracle_id `b917c3aa-2d54-49e0-924a-dfd02eaf4b2d` · printing: IMA #61 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhessian Zombies
@@ -110,6 +111,7 @@ schema: 2
   - *2009-05-01* — Unlike the normal cycling ability, landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library.
   - *2009-05-01* — You can choose to find any card with the appropriate land type, including nonbasic lands. You can also choose not to find a card, even if there is a land card with the appropriate type in your library.
   - *2009-05-01* — You may only activate one landcycling ability at a time. You must specify which landcycling ability you are activating as you cycle this card, not as the ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jhessian-zombies)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddh/56/jhessian-zombies) · oracle_id `40cc8ac6-114f-439d-816d-f65cd52bbbd2` · printing: DDH #56 (2011-09-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhoira, Ageless Innovator
@@ -122,6 +124,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10332 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-09-09* — If Jhoira, Ageless Innovator isn't on the battlefield as the activated ability resolves, you won't be able to put any ingenuity counters on it. However, you can still put an artifact card from your hand onto the battlefield. Use the number of ingenuity counters that were on Jhoira before it left the battlefield to determine the value of X.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/J.md#jhoira-ageless-innovator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/202/jhoira-ageless-innovator) · oracle_id `83b9a734-ee92-44c8-bf47-ca69b6d6405e` · printing: DMU #202 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhoira of the Ghitu
@@ -163,6 +166,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — A spell is historic if it has the legendary supertype, the artifact card type, or the Saga enchantment subtype. Having two of those qualities doesn't make a spell more historic than another or provide an additional bonus—a spell either is historic or it isn't.
   - *2020-08-07* — The last ability of Jhoira's Familiar doesn't reduce its own cost while you're casting it.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/J.md#jhoiras-familiar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/265/jhoiras-familiar) · oracle_id `df4b5f7b-9d83-49b1-bd5e-77d0652eb34c` · printing: 2XM #265 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhoira's Timebug
@@ -203,6 +207,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — A spell is historic if it has the legendary supertype, the artifact card type, or the Saga enchantment subtype. Having two of those qualities doesn't make a spell more historic than another or provide an additional bonus—a spell either is historic or it isn't.
   - *2020-08-07* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 7 pages (5 decks · 1 edh guides · 1 card data) → [reverse index](../../references/J.md#jhoira-weatherlight-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/118/jhoira-weatherlight-captain) · oracle_id `c803b788-4213-4fab-b841-7e5bbf66088e` · printing: EOC #118 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhoira, Weatherlight Corsair
@@ -214,6 +219,7 @@ schema: 2
   > Whenever Jhoira enters or attacks, target opponent reveals cards from the top of their library until they reveal a historic permanent card. You put that card onto the battlefield under your control and lose life equal to that permanent's mana value. That player puts the rest of the revealed cards on the bottom of their library in a random order. (Artifacts, legendaries, and Sagas are historic.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15011 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/J.md#jhoira-weatherlight-corsair)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/8/jhoira-weatherlight-corsair) · oracle_id `cf9b0bb5-d545-4efd-9255-39b10c2be0ee` · printing: FRC #8 (2026-10-02) · [rulings](https://api.scryfall.com/cards/1874c58d-00ce-4973-a318-50ce21d1a675/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhovall Queen

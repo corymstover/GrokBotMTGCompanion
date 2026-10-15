@@ -167,6 +167,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2198 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2016-01-22* — Once you announce that you’re activating the last ability, it’s too late for anyone to interrupt you by trying to remove the land you returned.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#mina-and-denn-wildborn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/94/mina-and-denn-wildborn) · oracle_id `e091718c-0c26-46d9-b694-f95effbac3e5` · printing: ZNC #94 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minamo, School at Water's Edge
@@ -180,6 +181,7 @@ schema: 2
   > *Its students graduate the school and enter history.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #612 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/M.md#minamo-school-at-waters-edge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/279/minamo-school-at-waters-edge) · oracle_id `17784f90-89a1-47a5-83ef-ae60dfc30bd1` · printing: CHK #279 (2004-10-01) · [rulings](https://api.scryfall.com/cards/7536292c-da25-41c8-ba28-1e35758a7f3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minamo Scrollkeeper
@@ -253,6 +255,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #416 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — The legendary creature must already be on the battlefield as the land enters the battlefield. If it enters the battlefield at the same time, the land will enter tapped.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/M.md#minas-tirith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/256/minas-tirith) · oracle_id `7b0d7e62-0287-454a-8702-b0bfa7b41245` · printing: LTR #256 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minas Tirith Garrison
@@ -314,6 +317,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-06-08* — Mindblade Render's ability triggers if a Warrior an opponent controls deals combat damage to another player who's also your opponent. You can't choose not to draw a card or lose 1 life if this happens.
   - *2018-06-08* — Mindblade Render's ability triggers only once, regardless of how many opponents were dealt damage, how much damage they were dealt, or how many Warriors dealt damage.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mindblade-render)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/187/mindblade-render) · oracle_id `028dcef2-3de9-4dde-ba17-f9e077b3190d` · printing: TDC #187 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindblaze
@@ -351,6 +355,7 @@ schema: 2
   - *2025-09-19* — For Mindbreak Trap's alternative cost to apply, a single opponent must cast three or more spells. Three opponents each casting a single spell won't work, for example.
   - *2025-09-19* — If a spell is exiled, it's removed from the stack and thus will not resolve. The spell isn't countered; it just no longer exists. This works on spells that can't be countered.
   - *2025-09-19* — Mindbreak Trap's alternative cost condition checks whether an opponent cast three or more spells this turn, not whether those spells have resolved.
+- **Referenced in:** 11 pages (8 decks · 2 edh guides · 1 card data) → [reverse index](../../references/M.md#mindbreak-trap)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/57/mindbreak-trap) · oracle_id `48712d36-5c13-4ded-87a4-68106da4a5cd` · printing: ZEN #57 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Burst
@@ -430,6 +435,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #983 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-11-17* — Damage dealt to an opponent usually causes that opponent to lose life. An opponent paying life also causes loss of life.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mindcrank)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/866/mindcrank) · oracle_id `c73c1d91-0163-49c6-832a-b9327e7a2c9b` · printing: CLB #866 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindculling
@@ -445,6 +451,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-06-01* — If the opponent has one card in hand, that player will discard that card and you will draw two cards. If the opponent has no cards in hand, you will draw two cards.
   - *2011-06-01* — You must be able to target an opponent to cast Mindculling. If that opponent is an illegal target when Mindculling tries to resolve, it’ll be countered and will have no effect. You won’t draw two cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mindculling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/39/mindculling) · oracle_id `955a7f4d-7100-4d8b-818c-be8651d0ebe6` · printing: NPH #39 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Drain
@@ -585,6 +592,7 @@ schema: 2
 - **Keywords:** Enchant, Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20409 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mind-harness)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/78/mind-harness) · oracle_id `bba30360-c54a-4906-8b2e-84bb1209c43d` · printing: MIR #78 (1996-10-08) · [rulings](https://api.scryfall.com/cards/5bf17780-801d-4ab8-91f4-a803ede51395/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind into Matter
@@ -755,6 +763,7 @@ schema: 2
   - *2008-10-01* — If an effect says "Search your library . . . then shuffle your library," you shuffle you libraries even though you can't search.
   - *2008-10-01* — If an effect says "You may search your library . . . If you do, shuffle your library" or "You may search your library . . . then shuffle your library," you can't choose to search, so you won't shuffle.
   - *2008-10-01* — The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/M.md#mindlock-orb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/51/mindlock-orb) · oracle_id `5794b58e-f3b6-4637-b288-283b3a72a718` · printing: ALA #51 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Maggots
@@ -824,6 +833,7 @@ schema: 2
   > *"As ever," said Urza, "we wait."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7875 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mind-over-matter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/40/mind-over-matter) · oracle_id `656afde2-cdf3-4907-a0fc-7ac93f5d3e03` · printing: EXO #40 (1998-06-15) · [rulings](https://api.scryfall.com/cards/6e091dd6-149f-46ea-bae0-224e79e3aacb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Peel
@@ -935,6 +945,7 @@ schema: 2
   > *Many an inventor has collapsed under the pressure to create a flawless design.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12672 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mind-rot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/115/mind-rot) · oracle_id `ad44cf74-b717-48fb-9fa2-77512024d76a` · printing: M21 #115 (2020-07-03) · [rulings](https://api.scryfall.com/cards/833a8604-92d5-443b-9bc0-bd91c973ef07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minds Aglow
@@ -947,6 +958,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3767 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-09-22* — The card-drawing part of the effect is not optional. A player can’t choose to draw fewer than X cards.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/M.md#minds-aglow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/105/minds-aglow) · oracle_id `b259f4e4-04a9-40e0-85e9-34b4b74ee388` · printing: CMM #105 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindscour Dragon
@@ -996,6 +1008,7 @@ schema: 2
   - *2022-12-08* — Spells cast from zones other than a player's hand and spells that were countered are counted by the storm ability.
   - *2022-12-08* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
   - *2022-12-08* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/M.md#minds-desire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/123/minds-desire) · oracle_id `b3739b5a-5731-4c64-a244-815a363b0d5c` · printing: C21 #123 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind's Dilation
@@ -1045,6 +1058,7 @@ schema: 2
   > *"Ideas drift like petals on the wind. I have only to lift my face to the breeze."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2218 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#minds-eye)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/240/minds-eye) · oracle_id `63fd2a57-7a47-4e07-947c-f4e9da7ee538` · printing: BBD #240 (2018-06-08) · [rulings](https://api.scryfall.com/cards/5a0e1ef4-fdb1-42bd-8e46-ba84cf850939/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Shatter
@@ -1108,6 +1122,7 @@ schema: 2
   - *2024-04-12* — You can't make the affected player concede. That player may choose to concede at any time, even while you're controlling that player.
   - *2024-04-12* — You could gain control of yourself using Mindslaver, but gaining control of yourself doesn't really do anything.
   - *2024-04-12* — You only control the player. You don't control any of that player's permanents, spells, or abilities.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#mindslaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/176/mindslaver) · oracle_id `a806f4ee-f48a-46c3-8772-5aaabebe4c7e` · printing: SOM #176 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindslaver Toolkit
@@ -1197,6 +1212,7 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2999 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#mindsplice-apparatus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/63/mindsplice-apparatus) · oracle_id `4d0760fb-4e04-4f29-a268-14c13c30232d` · printing: ONE #63 (2023-02-10) · [rulings](https://api.scryfall.com/cards/7f4ad1cb-4bbb-4485-b322-0b003f06d034/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Spring
@@ -1291,6 +1307,7 @@ schema: 2
   > *—Jhoira, master artificer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 11 pages (7 decks · 2 edh guides · 2 card data) → [reverse index](../../references/M.md#mind-stone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/76/mind-stone) · oracle_id `c97361b5-af16-4a7b-af85-a429dbaf4ad2` · printing: MBC #76 (2026-10-19) · [rulings](https://api.scryfall.com/cards/b30a8f92-ce42-4b27-a893-bcf97fde228d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindstorm Crown
@@ -1356,6 +1373,7 @@ schema: 2
   > Target player discards X cards at random.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12158 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/M.md#mind-twist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/72/mind-twist) · oracle_id `78f9c223-9982-4282-a496-a6f892f0a5bf` · printing: ME3 #72 (2009-09-07) · [rulings](https://api.scryfall.com/cards/9763ea41-55c4-4b0a-9dc2-91ad4938b343/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Unbound
@@ -1529,6 +1547,7 @@ schema: 2
   - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#minecart-daredevil--ride-the-rails)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/141/minecart-daredevil-ride-the-rails) · oracle_id `df555f60-2164-49dc-be67-00aca9eb0d45` · printing: WOE #141 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mine Collapse
@@ -1661,6 +1680,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #994 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — The legendary creature must already be on the battlefield as the land enters the battlefield. If it enters the battlefield at the same time, the land will enter tapped.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/M.md#mines-of-moria)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/257/mines-of-moria) · oracle_id `583cdebe-0195-45be-bd2e-5765f07cb902` · printing: LTR #257 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mine Worker
@@ -1719,6 +1739,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — If you don’t sacrifice a creature at the beginning of your upkeep (either by choice or because you can’t), but you somehow prevent all the damage Minion of Leshrac would deal to you, then you don’t tap Minion of Leshrac.
   - *2008-10-01* — Minion of Leshrac can’t target itself with its activated ability because it has protection from black.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#minion-of-leshrac)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/104/minion-of-leshrac) · oracle_id `8af3b981-6eda-46b0-a7b8-226bc719d137` · printing: ME2 #104 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minion of Tevesh Szat
@@ -1750,6 +1771,7 @@ schema: 2
   - *2021-07-23* — A Dragon creature card is a creature card with the creature type Dragon, not necessarily a creature card with the word “Dragon” in its name.
   - *2021-07-23* — The creature card is already tapped and attacking as it's put onto the battlefield. Any abilities that trigger whenever a creature becomes tapped or whenever a creature attacks won't trigger.
   - *2021-07-23* — You choose which player or planeswalker the Dragon is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker Minion of the Mighty is attacking.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#minion-of-the-mighty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/156/minion-of-the-mighty) · oracle_id `058062c7-071b-4b14-903d-ae8d2876b37f` · printing: AFR #156 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minion of the Wastes
@@ -1824,6 +1846,7 @@ schema: 2
   > *When it takes forever to learn all the rules, no time is left for breaking them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13646 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#minister-of-impediments)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/144/minister-of-impediments) · oracle_id `5a51a0ee-bc81-4c42-bb17-a41cea957d9a` · printing: DIS #144 (2006-05-05) · [rulings](https://api.scryfall.com/cards/96aada87-a880-4d33-8694-9fbc74211755/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minister of Inquiries
@@ -1883,6 +1906,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8926 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-01-25* — Because blockers are chosen all at once, you can’t block with a creature with afterlife, wait for it to die, then block with the resulting Spirit tokens.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/M.md#ministrant-of-obligation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/23/ministrant-of-obligation) · oracle_id `0cee5539-d10b-4de2-aee8-e02f0e24ac26` · printing: RVR #23 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minnea, Planar Tourist
@@ -1910,6 +1934,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4340 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-07-23* — Minn's last ability uses the Illusion's power the last time it existed on the battlefield to determine what cards you may put onto the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#minn-wily-illusionist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/16/minn-wily-illusionist) · oracle_id `d4212d44-d6a0-4c5b-9c54-bc90f36828dd` · printing: AFC #16 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minor Misstep
@@ -1923,6 +1948,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14959 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — While a spell with {X} in its mana cost is on the stack, use the value of X that was chosen when it was cast to determine its mana value. Normally, this means that a spell with {X} in its mana cost will have a mana value greater than 1.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#minor-misstep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/64/minor-misstep) · oracle_id `d91b3c6f-f8a1-4859-90ca-22cd79517552` · printing: ONE #64 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur Abomination
@@ -1966,6 +1992,7 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26565 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#minotaur-de-force)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/114/minotaur-de-force) · oracle_id `67151297-3d25-4882-b562-56025ee81f48` · printing: UNF #114 (2022-10-07) · [rulings](https://api.scryfall.com/cards/e8994e99-2a63-4b2f-906f-373065aa3319/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur Explorer
@@ -2076,6 +2103,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — Minsc has asked us (repeatedly) to let you know that Boo is the only miniature giant space hamster in the Realms.
   - *2021-07-23* — The activated ability will overwrite any previous effects that set the creature's power and toughness to specific values. Effects that otherwise modify the target creature's power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#minsc-beloved-ranger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/227/minsc-beloved-ranger) · oracle_id `2cd10c6c-f946-457e-9175-92501322f7a5` · printing: AFR #227 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minsc & Boo, Timeless Heroes
@@ -2092,6 +2120,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — If there is no legal target for the reflexive trigger in Minsc & Boo's second loyalty ability, or if the target is illegal as the ability tries to resolve, you will not draw any cards even if the sacrificed creature was a Hamster.
   - *2022-06-10* — Minsc & Boo's second loyalty ability won't deal extra damage if you shout "Go for the eyes, Boo!" but it definitely can't hurt.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/M.md#minsc--boo-timeless-heroes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/285/minsc-&-boo-timeless-heroes) · oracle_id `3a310554-3f69-4158-bb94-9d6965c7125a` · printing: CLB #285 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minthara, Merciless Soul

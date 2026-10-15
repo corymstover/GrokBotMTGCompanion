@@ -57,6 +57,7 @@ schema: 2
   - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
   - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inherited-envelope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/242/inherited-envelope) · oracle_id `2f1ae834-f6b8-458c-ac0d-3510ddb85193` · printing: LTR #242 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inhumaniac

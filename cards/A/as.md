@@ -168,6 +168,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — A creature attacks alone if it's the only creature declared as an attacker during the declare attackers step. For example, Asari Captain's triggered ability won't trigger if you attack with multiple creatures and all but one of them are removed from combat.
   - *2022-02-18* — Asari Captain's triggered ability gives the solitary attacker +1/+0 for each creature you control that is either a Samurai or a Warrior as it resolves, including the attacker itself, if applicable. A creature that is both a Samurai and a Warrior is only counted once.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#asari-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/215/asari-captain) · oracle_id `32e7385e-525e-4925-8cfd-bfea21fcd1bf` · printing: NEO #215 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ascendant Acolyte
@@ -319,6 +320,7 @@ schema: 2
   - *2021-02-05* — The chapter I/II ability doesn’t change whether the damage is combat damage or not. If combat damage would be dealt to a creature you control, the damage that’s dealt instead to the chosen creature is still combat damage.
   - *2021-02-05* — The creature card put onto the battlefield by the chapter III ability will enter the battlefield as a flying Angel Warrior (in addition to whatever other creature types it has).
   - *2021-02-05* — You choose a creature for the chapter I/II ability as that ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ascent-of-the-worthy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/202/ascent-of-the-worthy) · oracle_id `d748bad4-dd4c-4553-9fcc-e462260f6ff3` · printing: KHM #202 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Asceticism
@@ -335,6 +337,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1348 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-01-01* — You may target any creature with the regeneration ability, not just one you control.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#asceticism)
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/110/asceticism) · oracle_id `9396546c-d067-4ce3-9c3d-b62cca970b4f` · printing: SOM #110 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### As Foretold
@@ -353,6 +356,7 @@ schema: 2
   - *2017-04-18* — If you control multiple As Foretolds, you may cast one spell for each of them paying {0}.
   - *2017-04-18* — If you're casting a split card, only the mana value of the half you're casting is compared to the number of time counters on As Foretold. This is because only that half is on the stack at the time that you choose to apply the effect of As Foretold.
   - *2023-09-01* — If you cast a spell for an alternative cost of {0}, you can't pay any other alternative costs, such as emerge costs. You can, however, pay additional costs, such as bargain. If the spell has any mandatory additional costs, such as that of Tormenting Voice, you must pay those to cast the spell.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#as-foretold)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/38/as-foretold) · oracle_id `e4b3e0af-5caa-47c1-b5be-c56a875cbb15` · printing: 2X2 #38 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Asgardian Citadel
@@ -397,6 +401,7 @@ schema: 2
   - *2023-10-13* — If you pay the casualty cost of a spell, the copy will resolve before the original spell.
   - *2023-10-13* — The copy of the spell is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
   - *2023-10-13* — You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once.
+- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/A.md#ashad-the-lone-cyberman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/113/ashad-the-lone-cyberman) · oracle_id `f3902dfd-6d09-425f-8446-a68cae2eea50` · printing: WHO #113 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Asha's Favor
@@ -441,6 +446,7 @@ schema: 2
   - *2020-09-25* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Ashaya may become lethal if lands you control leave the battlefield during that turn.
   - *2020-09-25* — The ability that defines Ashaya's power and toughness applies in all zones, not just the battlefield.
   - *2020-09-25* — You can't play creature cards as lands; you'll still have to cast them as spells, and they'll enter the battlefield as lands (in addition to their other types).
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#ashaya-soul-of-the-wild)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/170/ashaya-soul-of-the-wild) · oracle_id `162572f2-1757-42e9-bd97-e6bd9a762c0e` · printing: DSC #170 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ash Barrens
@@ -455,6 +461,7 @@ schema: 2
 - **Keywords:** Landcycling, Basic landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #210 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ash-barrens)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/60/ash-barrens) · oracle_id `58257464-278e-45fa-8e0b-bcd9a7500bc1` · printing: TMC #60 (2026-03-06) · [rulings](https://api.scryfall.com/cards/e8510205-4baa-4f1c-bf64-5d931e2ddf48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashcloud Phoenix
@@ -511,6 +518,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-02* — The value of X is locked in as the first ability resolves. The bonus it grants won't change after that point, even if the number of Rats you control does.
   - *2022-12-02* — You choose which Rat creature cards to return to your hand as the last ability resolves. You may choose Rat creature cards milled with this ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ashcoat-of-the-shadow-swarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/19/ashcoat-of-the-shadow-swarm) · oracle_id `9cc69ea5-42a2-4306-ac6d-cff5adb20bcb` · printing: J22 #19 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashen Firebeast
@@ -558,6 +566,7 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29091 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ashen-monstrosity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/93/ashen-monstrosity) · oracle_id `01906aae-fc53-40b0-a386-dae43e4f437f` · printing: BOK #93 (2005-02-04) · [rulings](https://api.scryfall.com/cards/de3218e3-4640-4f73-a52b-f11ea5ea23a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashenmoor Cohort
@@ -671,6 +680,7 @@ schema: 2
   - *2017-09-29* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keyword abilities (such as embalm from the Amonkhet set) are activated abilities and will have colons in their reminder text. Triggered abilities (starting with “when,” “whenever,” or “at”) are unaffected by Ashes of the Abhorrent.
   - *2017-09-29* — Ashes of the Abhorrent doesn’t stop players from playing land cards from the graveyard if an effect allows them to do so.
   - *2017-09-29* — If a creature dies at the same time that Ashes of the Abhorrent is destroyed, you’ll gain 1 life.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/A.md#ashes-of-the-abhorrent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/2/ashes-of-the-abhorrent) · oracle_id `a75d5b54-5cc9-49c4-8e8c-3bef22d4c01c` · printing: XLN #2 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashes of the Fallen
@@ -700,6 +710,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — If both of the targeted creatures are illegal targets by the time Ashes to Ashes resolves, it’s countered. It doesn’t deal 5 damage to you.
   - *2009-10-01* — If one of the targeted creatures is an illegal target by the time Ashes to Ashes resolves, it still exiles the other one and deals 5 damage to you.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ashes-to-ashes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/58/ashes-to-ashes) · oracle_id `944a52d9-bb14-43c5-8d05-2afaf023dc9f` · printing: ME3 #58 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok, Dream Render
@@ -718,6 +729,7 @@ schema: 2
   - *2019-05-03* — If an effect says “Search your library . . . then shuffle your library,” your opponents shuffle their libraries even though they can’t search.
   - *2019-05-03* — If an effect says “You may search your library . . . If you do, shuffle your library” or “You may search your library . . . then shuffle your library,” your opponents can’t choose to search, so they won’t shuffle.
   - *2019-05-03* — Spells and abilities your opponents control may cause other players to search their libraries, and spells and abilities you control may cause your opponents to search their libraries.
+- **Referenced in:** 7 pages (4 decks · 1 lore & story · 2 card data) → [reverse index](../../references/A.md#ashiok-dream-render)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/228/ashiok-dream-render) · oracle_id `93723b12-db34-4047-885e-8606415b1553` · printing: WAR #228 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok, Nightmare Muse
@@ -739,6 +751,7 @@ schema: 2
   - *2020-01-24* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells and/or permanents you control from Ashiok's last ability are exiled.
   - *2020-01-24* — The card exiled while resolving Ashiok's second ability may be the one that was returned to its owner's hand.
   - *2020-01-24* — You may cast any face-up cards your opponents own from exile while resolving Ashiok's last ability, not just those exiled by Ashiok's second ability or by Ashiok's Nightmare tokens.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/A.md#ashiok-nightmare-muse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/208/ashiok-nightmare-muse) · oracle_id `ebc9ff52-c914-4c48-9d35-0e4cd07741cb` · printing: THB #208 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok, Nightmare Weaver
@@ -757,6 +770,7 @@ schema: 2
   - *2013-09-15* — If Ashiok leaves the battlefield, and later another Ashiok enters the battlefield, it is a new object (even if the two were represented by the same card). Creature cards exiled by the original Ashiok can't be put onto the battlefield by the second ability of the new Ashiok.
   - *2013-09-15* — If you put a creature card with bestow onto the battlefield, it will be a creature on the battlefield, not an Aura.
   - *2013-09-15* — If you put a creature card with {X} in its mana cost onto the battlefield, the value of that X is 0.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#ashiok-nightmare-weaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/188/ashiok-nightmare-weaver) · oracle_id `b6f52260-9ad5-4024-acf9-d77f3c08c872` · printing: THS #188 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok's Adept
@@ -791,6 +805,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-01-24* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Ashiok’s second ability are exiled, and the control effect of Ashiok’s last ability ends.
   - *2020-01-24* — The effect of Ashiok’s last ability lasts indefinitely. It doesn’t expire as the turn ends or if Ashiok leaves the battlefield.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#ashiok-sculptor-of-fears)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/274/ashiok-sculptor-of-fears) · oracle_id `ce79bbd2-edf0-4d5e-9aaf-717ec3960c48` · printing: THB #274 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok's Erasure
@@ -839,6 +854,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7526 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — Enchantment tokens (such as Roles) that are sacrificed, destroyed, or would otherwise go to the graveyard are put into their owner's graveyard before ceasing to exist. If you controlled the token, Ashiok's Reaper's ability will trigger.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#ashioks-reaper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/79/ashioks-reaper) · oracle_id `6f1e5571-ddda-4cea-84ef-36a571d8fd51` · printing: WOE #79 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok's Skulker
@@ -871,6 +887,7 @@ schema: 2
   - *2023-09-01* — Ashiok's first ability doesn't allow you to attempt to pay an amount of life greater than your current life total.
   - *2023-09-01* — Ashiok, Wicked Nightmare's first ability isn't optional. You can't choose to pay life instead of exiling cards from the top of your library while you control Ashiok, and you can't split the payment between life and cards.
   - *2023-09-01* — If you would pay life while you control Ashiok and your library does not have at least that many cards in it, you'll just pay life as normal.
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/A.md#ashiok-wicked-manipulator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/78/ashiok-wicked-manipulator) · oracle_id `67d66678-a8e6-4f80-bade-1f1daf4b0610` · printing: WOE #78 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashling, Flame Dancer
@@ -889,6 +906,7 @@ schema: 2
   - *2024-06-07* — Once Ashling leaves the battlefield, you have until the end of the current step or phase to spend whatever red mana you have before you lose that mana as normal. There is no penalty associated with this other than the loss of the mana.
   - *2024-06-07* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies will not cause Ashling's last ability to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause Ashling's last ability to trigger.
   - *2024-06-07* — You can keep unspent red mana indefinitely while Ashling is on the battlefield. That means if you add a red mana during one step or phase, you can spend it during a later step or phase, or even a later turn. You will still lose other types of unspent mana as each step and phase ends.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ashling-flame-dancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/115/ashling-flame-dancer) · oracle_id `6fe9fd59-9cac-4572-8f94-bc19bea44f94` · printing: MH3 #115 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashling, Rekindled // Ashling, Rimebound
@@ -939,6 +957,7 @@ schema: 2
   - *2025-11-17* — Some older cards were originally printed with the "tribal" card type. That card type has been replaced with "kindred." This change does not affect the gameplay function of these cards.
   - *2025-11-17* — The token created by the first mode of Ashling's Command copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
   - *2025-11-17* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ashlings-command)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/205/ashlings-command) · oracle_id `9651d197-a408-4665-a292-58d5471f4ffc` · printing: ECL #205 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashling's Prerogative
@@ -1032,6 +1051,7 @@ schema: 2
   - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
   - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ashnod-flesh-mechanist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/84/ashnod-flesh-mechanist) · oracle_id `7dfae95e-f67e-49e3-b68a-40ea7e5099dd` · printing: BRO #84 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashnod's Altar
@@ -1045,6 +1065,7 @@ schema: 2
   > *—Ashnod, to Tawnos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #134 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 18 pages (10 decks · 7 edh guides · 1 card data) → [reverse index](../../references/A.md#ashnods-altar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/368/ashnods-altar) · oracle_id `4d18bcba-a346-445e-a182-6cc30b7e066d` · printing: CMM #368 (2023-08-04) · [rulings](https://api.scryfall.com/cards/3c0f7157-a375-499c-92c7-d47d2e95dbad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashnod's Battle Gear
@@ -1113,6 +1134,7 @@ schema: 2
   > *"Listen, Duck. Gix is everywhere, playing every side. Mishra won't listen . . . but perhaps Urza will."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8310 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#ashnods-intervention)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/85/ashnods-intervention) · oracle_id `c1a7d108-8073-42a5-ade0-a0643d078268` · printing: BRO #85 (2022-11-18) · [rulings](https://api.scryfall.com/cards/bcf491db-d12b-4c58-9c05-085cac34a73e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashnod's Transmogrant
@@ -1140,6 +1162,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13659 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-14* — “Sacrificed to activate it” means that a permanent was sacrificed to pay the ability’s costs. Sacrificing an artifact, such as a Treasure token, to create mana that you used to pay an activation cost doesn’t count.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#ashnod-the-uncaring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/4/ashnod-the-uncaring) · oracle_id `dcd5ab1b-adc5-486e-a1e0-636af6ee9470` · printing: BRC #4 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ash, Party Crasher
@@ -1177,6 +1200,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — If Ashroot Animist leaves the battlefield before its last ability resolves, use its power as it last existed on the battlefield to determine the value of X.
   - *2024-11-08* — The value of X is determined only once, as Ashroot Animist's last ability resolves. The value of the bonus won't change later in the turn if Ashroot Animist's power changes.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#ashroot-animist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/117/ashroot-animist) · oracle_id `3f008b57-6471-4785-9571-3b90193da7e2` · printing: FDN #117 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ash Zealot
@@ -1262,6 +1286,7 @@ schema: 2
   - *2021-07-23* — If Asmodeus the Archfiend leaves the battlefield before you activate its last ability, any cards exiled by its replacement effect remain exiled face down for the rest of the game. If you somehow return the same Asmodeus the Archfiend card to the battlefield, it will be a different object with no connection to those face-down cards.
   - *2021-07-23* — If a card is exiled face-down and no player has been given permission to look at it, no player is allowed to look at it as long as it remains exiled face-down.
   - *2021-07-23* — If your library is empty, no cards will be exiled but you won't lose the game due to drawing from an empty library.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#asmodeus-the-archfiend)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/88/asmodeus-the-archfiend) · oracle_id `1e4032f6-9741-4845-9325-781c9e489172` · printing: AFR #88 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Asmoranomardicadaistinaculdacar
@@ -1447,6 +1472,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9988 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-07* — If you still control Aspiring Champion as its triggered ability resolves, you must sacrifice it. You can't choose not to sacrifice it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aspiring-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/71/aspiring-champion) · oracle_id `d343c116-b33a-4ed6-ad15-d7270e739b04` · printing: 40K #71 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assassinate
@@ -1512,6 +1538,7 @@ schema: 2
   > Destroy target nonblack attacking creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23889 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#assassins-blade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/80/assassins-blade) · oracle_id `76da2150-34b9-4483-99df-131e1c5468d5` · printing: POR #80 (1997-05-01) · [rulings](https://api.scryfall.com/cards/b80e8fe0-eccb-4268-a6ce-1365c68e6b13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assassin's Ink
@@ -1560,6 +1587,7 @@ schema: 2
   - *2024-02-02* — If the permanent's controller doesn't search their library, they don't shuffle their library.
   - *2024-02-02* — If the target permanent is a legal target but isn't destroyed, most likely because it has indestructible, its controller may search their library.
   - *2024-02-02* — If the target permanent is an illegal target by the time Assassin's Trophy tries to resolve, the spell doesn't resolve. No player searches their library.
+- **Referenced in:** 11 pages (7 decks · 3 edh guides · 1 card data) → [reverse index](../../references/A.md#assassins-trophy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/294/assassins-trophy) · oracle_id `ac10d218-f9a6-4058-9cda-a15ca1b0b7b5` · printing: SOC #294 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assault // Battery
@@ -1606,6 +1634,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-11-17* — Assault Formation’s first ability doesn’t actually change any creature’s power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, Hunt the Weak won’t cause a creature to fight with its toughness.
   - *2017-11-17* — For example, a 2/3 creature will assign 3 combat damage rather than 2.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#assault-formation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/246/assault-formation) · oracle_id `4d6d3e6d-f958-4c17-b117-960fb8033601` · printing: TDC #246 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assault Griffin
@@ -1770,6 +1799,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6839 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — Assemble the Entmoot's activated ability counts the total amount of life you gained without taking into account any life you lost during that turn. For example, if you gained 3 life and lost 3 life earlier in the turn, you'll create three tapped 3/3 green Treefolk creature tokens, then put a reach counter on each of them.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#assemble-the-entmoot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/36/assemble-the-entmoot) · oracle_id `1f1ad44c-1811-40e3-976b-03f19866abd5` · printing: LTC #36 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assemble the Legion
@@ -1781,6 +1811,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2285 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-01-12* — If Assemble the Legion isn't on the battlefield when its ability resolves, use the number of muster counters it had when it was last on the battlefield to determine how many Soldier tokens to create.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/A.md#assemble-the-legion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/163/assemble-the-legion) · oracle_id `6f81bef3-6ca0-4cf4-aa99-7b2813eeef04` · printing: RVR #163 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assemble the Players
@@ -1801,6 +1832,7 @@ schema: 2
   - *2024-02-02* — If the top card of your library has a disguise or morph ability, you can cast it face down from the top of your library, even if it doesn't normally have power 2 or less.
   - *2024-02-02* — You can look at the top card of your library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
   - *2024-02-02* — You must pay all costs and follow all timing rules for spells cast from the top of your library this way.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#assemble-the-players)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/3/assemble-the-players) · oracle_id `180ba940-2b11-4953-b7ce-74847e1aebfd` · printing: MKM #3 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assemble the Rank and Vile
@@ -1828,6 +1860,7 @@ schema: 2
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
   - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
   - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#assemble-the-rank-and-vile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/2/assemble-the-rank-and-vile) · oracle_id `8c912b1f-4584-4945-9931-f6850e5ebfa4` · printing: CN2 #2 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assembly Hall
@@ -1943,6 +1976,7 @@ schema: 2
   - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
   - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
   - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#assure--assemble)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/248/assure-assemble) · oracle_id `087018b6-6355-4534-9a35-9336b4b7fccc` · printing: RVR #248 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ass Whuppin'
@@ -2003,6 +2037,7 @@ schema: 2
   - *2025-07-25* — If a copy of Astelli Reclaimer is created on the stack, no mana was spent to cast the copy, so X will be 0. The amount of mana spent to cast the original spell is not copied.
   - *2025-07-25* — If an effect allows you to cast Astelli Reclaimer without paying its mana cost, X will be 0.
   - *2025-07-25* — If an effect requires you to pay some amount of mana to prevent Astelli Reclaimer from being countered, as Divert Disaster does, that mana wasn’t spent to cast Astelli Reclaimer and will not be taken into account.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/A.md#astelli-reclaimer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/4/astelli-reclaimer) · oracle_id `bb956492-e3ed-483a-9169-5b795a8e619e` · printing: EOE #4 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astonishing Spider-Man
@@ -2059,6 +2094,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-02-01* — If you choose 1 for the value of X, Astral Cornucopia will cost {3} to cast and enter the battlefield with one charge counter. If you choose 2 for the value of X, it will cost {6} to cast and enter the battlefield with two charge counters, and so on.
   - *2014-02-01* — The last ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Referenced in:** 4 pages (3 decks · 1 edh guides) → [reverse index](../../references/A.md#astral-cornucopia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/342/astral-cornucopia) · oracle_id `1bc42024-52da-4d93-8b47-544f0a4a72a1` · printing: SOC #342 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astral Dragon

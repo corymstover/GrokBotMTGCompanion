@@ -87,6 +87,7 @@ schema: 2
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
   - *2020-11-10* — You choose which Auras and Equipment to move as Ardenn's ability resolves. Players can't take actions between the time you choose what to move and the time they're attached to the target permanent or player.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#ardenn-intrepid-archaeologist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/10/ardenn-intrepid-archaeologist) · oracle_id `7c521612-21c6-4c4b-b10e-66e70928609b` · printing: CMR #10 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardent Dustspeaker
@@ -105,6 +106,7 @@ schema: 2
   - *2021-04-16* — The cards exiled by Ardent Dustspeaker’s ability are exiled face up.
   - *2021-04-16* — Unless an effect allows you to play additional lands that turn, you can play land cards exiled with Ardent Dustspeaker only if you haven’t played a land yet that turn. In most cases, if you exile two land cards, you won’t be able to play both.
   - *2021-04-16* — You may play those cards that turn even if Ardent Dustspeaker leaves the battlefield or another player gains control of it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ardent-dustspeaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/92/ardent-dustspeaker) · oracle_id `370974e7-d242-4f24-a031-cba71c935306` · printing: STX #92 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardent Electromancer
@@ -250,6 +252,7 @@ schema: 2
   - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ardenvale-tactician--dizzying-swoop)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/5/ardenvale-tactician-dizzying-swoop) · oracle_id `ea27c8bf-33c5-443f-b8b2-51235efc2491` · printing: ELD #5 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardoz, Cobbler of War
@@ -281,4 +284,5 @@ schema: 2
   - *2025-06-06* — If a card copied by the token had any "when [this permanent] enters" abilities, the token also has those abilities, and they'll trigger when it's created. Similarly, any "as [this permanent] enters" or "[this permanent] enters with" abilities that the token has copied will also work.
   - *2025-06-06* — If the copied card has {X} in its mana cost, X is 0.
   - *2025-06-06* — The token is a Demon creature instead of its other types and is black instead of its other colors. Its base power and toughness are 5/5. These are copiable values of the token that other effects may copy.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ardyn-the-usurper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/89/ardyn-the-usurper) · oracle_id `9ae13026-960a-4d31-b775-d47209a1e313` · printing: FIN #89 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

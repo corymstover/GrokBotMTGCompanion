@@ -44,6 +44,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-05-01* — The tokens enter under your control.
   - *2008-05-01* — You target the opponent when you activate Oona's ability. You don't choose the color until the ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#oona-queen-of-the-fae)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/98/oona-queen-of-the-fae) · oracle_id `6052822d-47a2-4d69-a32d-40cdd600d7a9` · printing: ZNC #98 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oona's Blackguard
@@ -162,6 +163,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18973 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#ooze-patrol)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/172/ooze-patrol) · oracle_id `a9e3e8b0-4276-419d-9326-be56af3c41be` · printing: DFT #172 (2025-02-14) · [rulings](https://api.scryfall.com/cards/101d22c6-830d-4908-9003-6b206f694eba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ooze Spill

@@ -206,6 +206,7 @@ schema: 2
   > {T}, Remove a depletion counter from this land: Add {G}{G}. If there are no depletion counters on this land, sacrifice it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6239 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hickory-woodlot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/319/hickory-woodlot) · oracle_id `26259c65-8f4e-42a6-b8a7-f65c36d35c4d` · printing: MMQ #319 (1999-10-04) · [rulings](https://api.scryfall.com/cards/af7aafb7-6870-4d09-a191-70786766c459/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Ancients
@@ -339,6 +340,7 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2247 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hidden-grotto)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/254/hidden-grotto) · oracle_id `382d18a2-438e-4ae7-a83f-1658ef1f9b07` · printing: BLB #254 (2024-08-02) · [rulings](https://api.scryfall.com/cards/4ba8f2e7-8357-4862-97dc-1942d066023a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Guerrillas
@@ -581,6 +583,7 @@ schema: 2
   - *2013-04-15* — The spell with cipher is encoded on the creature as part of that spell’s resolution, just after the spell’s other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
   - *2013-04-15* — You cast the copy of the card with cipher during the resolution of the triggered ability. Ignore timing restrictions based on the card’s type.
   - *2013-04-15* — You choose the creature as the spell resolves. The cipher ability doesn’t target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/H.md#hidden-strings)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/12/hidden-strings) · oracle_id `a50737d7-dd2d-40da-817c-f913f76b5011` · printing: DGM #12 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Volcano
@@ -747,6 +750,7 @@ schema: 2
   - *2023-04-14* — The last triggered ability targets the opponent. If that player is an illegal target as the ability tries to resolve, the ability won’t resolve and none of its effects will happen. You won’t exile a card.
   - *2023-04-14* — The two cards you put on top of your library can be from the three you just drew or ones that were already in your hand.
   - *2023-04-14* — You choose whether or not to cast the instant or sorcery card as the last triggered ability resolves. If you do, you do so as part of the resolution of that ability. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s type are ignored.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hidetsugu-and-kairi)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/228/hidetsugu-and-kairi) · oracle_id `18591d9e-c9f5-4ae8-aee1-8580bc8fa600` · printing: MOM #228 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidetsugu Consumes All // Vessel of the All-Consuming
@@ -775,6 +779,7 @@ schema: 2
   - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
   - *2022-02-18* — The mana value of a transforming double-faced card with its back face up is the mana value of the front face.
   - *2022-02-18* — Vessel of the All-Consuming's first triggered ability will trigger whenever it deals any damage, not just combat damage. If it deals damage to multiple players and/or permanents at the same time (perhaps because of trample or because it was blocked by multiple creatures), that ability triggers only once.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hidetsugu-consumes-all--vessel-of-the-all-consuming)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/221/hidetsugu-consumes-all-vessel-of-the-all-consuming) · oracle_id `5b8be856-c08d-4356-925d-fce843565189` · printing: NEO #221 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidetsugu, Devouring Chaos
@@ -789,6 +794,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11179 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-02-18* — You must still pay all costs and follow all normal timing rules when playing a card this way. For example, you may play a land this way only during one of your own main phases while the stack is empty, and only if you haven't previously played a land this turn.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hidetsugu-devouring-chaos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/99/hidetsugu-devouring-chaos) · oracle_id `d56f24a1-04dc-4769-9941-05bd99508e40` · printing: NEO #99 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidetsugu's Poison Rite
@@ -973,6 +979,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #841 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — High Fae Trickster's last ability applies only to casting spells. It does not, for example, change when you may activate abilities that can be activated "only as a sorcery."
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/H.md#high-fae-trickster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/40/high-fae-trickster) · oracle_id `28c1a4a0-f58c-4d07-a918-51ff8a74f050` · printing: FDN #40 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High-Flying Ace
@@ -1107,6 +1114,7 @@ schema: 2
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31792 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#highly-illogical)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/62/highly-illogical) · oracle_id `38c43f30-0e01-4dcd-88fc-f1de318a5e29` · printing: TRK #62 (2026-11-13) · [rulings](https://api.scryfall.com/cards/11c94c5f-abf4-429e-8703-c5db9abd79bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High Market
@@ -1120,6 +1128,7 @@ schema: 2
   > *If it can't be had here, it can't be had on any world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #420 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/H.md#high-market)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/380/high-market) · oracle_id `86fb3749-37d6-48a6-8524-71e996850307` · printing: SOC #380 (2026-04-24) · [rulings](https://api.scryfall.com/cards/894aa6b6-0d08-4c43-8734-9cb7b31359c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High Noon
@@ -1135,6 +1144,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-04-12* — If you cast High Noon, you’ve already cast at least one spell that turn (High Noon itself) so you won’t be able to cast any more spells until the next turn. If High Noon enters the battlefield on a turn where you haven’t cast any spells, you’ll be able to cast one spell that turn.
   - *2024-04-12* — If you cast a spell that was countered, you can’t cast another spell during the same turn while High Noon is on the battlefield.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/H.md#high-noon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/15/high-noon) · oracle_id `3c8cbf0f-0288-4b5e-bd4f-0f208670b6b5` · printing: OTJ #15 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High Perfect Morcant
@@ -1159,6 +1169,7 @@ schema: 2
   - *2025-11-17* — The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control.
   - *2025-11-17* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2025-11-17* — You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/H.md#high-perfect-morcant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/229/high-perfect-morcant) · oracle_id `dd27c5fa-4355-4e5c-8219-b74cfe209da0` · printing: ECL #229 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High Priest of Penance
@@ -1204,6 +1215,7 @@ schema: 2
   - *2026-01-27* — If a creature you control would enter the battlefield with a number of +1/+1 counters on it, it enters with that many plus one instead.
   - *2026-01-27* — If two or more effects attempt to modify how many counters would be put on a creature you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
   - *2026-01-27* — In the case where you control more than one High Score, each one you control will increase the number of +1/+1 counters placed on a creature you control by one. (Leave some room on the leaderboard for the rest of us!)
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#high-score)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/29/high-score) · oracle_id `d81fc181-ecb0-43a5-88e8-c61aca3428d8` · printing: TMC #29 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High Seas
@@ -1250,6 +1262,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4377 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — If High-Society Hunter dies at the same time as one or more other nontoken creatures, its last ability will trigger for each of those creatures.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#high-society-hunter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/61/high-society-hunter) · oracle_id `0dc158ba-7ec8-4558-91f5-0a87ef8380d4` · printing: FDN #61 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High-Speed Hoverbike
@@ -1365,6 +1378,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-08* — The delayed triggered ability refers to any land with the land type Island, not just those named Island.
   - *2022-12-08* — The effect applies even if the Island in question entered the battlefield after High Tide resolved.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/H.md#high-tide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/54/high-tide) · oracle_id `dc671205-f2fa-454f-9957-921a6069ad53` · printing: DMR #54 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hightide Hermit
@@ -1406,6 +1420,7 @@ schema: 2
   - *2019-11-12* — One a spell or ability has had random targets chosen, a player can’t choose to not finish casting or activating that spell or ability unless there’s no way for the player to complete the process. For example, the player can’t choose to not activate mana abilities to pay for the spell.
   - *2019-11-12* — Targeted spells and abilities cost only {2} less, even if they have more than one target.
   - *2019-11-12* — Targets are chosen only from among legal targets.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#high-troller)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/54/high-troller) · oracle_id `e3b94133-ff48-4f7b-b47e-2fa552efb233` · printing: CMB2 #54 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Highway Robber
@@ -1455,6 +1470,7 @@ schema: 2
 - **Rulings** (2):
   - *2005-02-01* — If Higure deals first strike damage (or the first part of double strike damage), the triggered ability would resolve before regular combat damage, and the searched-for Ninja would be able to get swapped with an unblocked creature and still deal its regular damage.
   - *2005-02-01* — If Higure deals regular combat damage and you use its ability to search for another Ninja, that card won't be in your hand in time to activate its ninjutsu ability to put it onto the battlefield and deal damage. However, the card you searched for could still be swapped for an unblocked creature, including Higure, as long as you activate its ninjutsu ability before the end of combat.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#higure-the-still-wind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/18/higure-the-still-wind) · oracle_id `01197456-62f1-4bc0-9f2f-127f97f9b05d` · printing: PCA #18 (2016-11-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hijack
@@ -1509,6 +1525,7 @@ schema: 2
   - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2025-06-06* — You must follow the normal timing permissions and restrictions for Gentleman's Rise when casting it with the permission of Hildibrand Manderville's triggered ability. You must pay its mana cost (or, if another effect allows, an alternative cost).
   - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hildibrand-manderville--gentlemans-rise)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/83/hildibrand-manderville-gentlemans-rise) · oracle_id `6df03db9-e4b3-4931-94e3-c582d2b04110` · printing: FIC #83 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hillcomber Giant
@@ -1672,6 +1689,7 @@ schema: 2
   > *—Blackbeard the Pirate, Ben Grimm*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #97 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 8 pages (5 decks · 2 edh guides · 1 card data) → [reverse index](../../references/H.md#hinterland-harbor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/250/hinterland-harbor) · oracle_id `fb5a3403-7f0b-406c-8c4f-d693be010ca6` · printing: MSC #250 (2026-06-26) · [rulings](https://api.scryfall.com/cards/892451a1-5527-4857-84f8-62028d147489/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hinterland Hermit // Hinterland Scourge
@@ -1847,6 +1865,7 @@ schema: 2
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
   - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
   - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/H.md#hired-heist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/5/hired-heist) · oracle_id `b0d84455-dc35-45d3-901e-8d28363142f4` · printing: CN2 #5 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hired Hexblade
@@ -1924,6 +1943,7 @@ schema: 2
   - *2024-11-08* — Once a creature with daunt has been blocked, reducing the power of a creature blocking it to 2 or less won’t cause that creature to stop blocking.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hish-of-the-snake-cult)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/595/hish-of-the-snake-cult) · oracle_id `0f15dd1b-3d32-4d58-ba46-957f108ae677` · printing: MB2 #595 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hisoka, Minamo Sensei
@@ -2123,6 +2143,7 @@ schema: 2
 - **Keywords:** Reach, Vigilance, Hexproof, Haste, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12180 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hit-monkey)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/723/hit-monkey) · oracle_id `e27d1993-8d83-449d-8a64-8b66086db995` · printing: MSC #723 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7a253dc9-1593-4914-90ca-309aa3aed53d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hit // Run
@@ -2196,6 +2217,7 @@ schema: 2
   - *2009-10-01* — If the spell that’s copied has an X whose value was determined as it was cast (like Earthquake does), the copy has the same value of X.
   - *2009-10-01* — If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode. A player can’t choose a different one.
   - *2009-10-01* — The copies that Hive Mind’s ability creates are created on the stack, so they’re not “cast.” Abilities that trigger when a player casts a spell (like Hive Mind’s ability itself) won’t trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hive-mind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/54/hive-mind) · oracle_id `f97e405d-4c24-4d4d-9e19-e349c073113c` · printing: M10 #54 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hive Mind Coprocessor

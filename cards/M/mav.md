@@ -56,6 +56,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10501 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mavinda-students-advocate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/21/mavinda-students-advocate) · oracle_id `1c248187-0be3-4a03-a817-14f68f638ae7` · printing: STX #21 (2021-04-23) · [rulings](https://api.scryfall.com/cards/8b3d521f-31cd-4bd2-b6b6-771c79252789/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mavren Fein, Dusk Apostle
@@ -70,4 +71,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3857 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2017-09-29* — Once you attack with one or more nontoken Vampires, Mavren Fein's ability will create a Vampire token even if some or all of those Vampires leave the battlefield or are removed from combat.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/M.md#mavren-fein-dusk-apostle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/133/mavren-fein-dusk-apostle) · oracle_id `1b94a11b-21b0-4465-a520-69608f022fb4` · printing: LCC #133 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -80,6 +80,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12453 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2007-07-15* — You draw the card when Bandage resolves, not when the damage is actually prevented.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bandage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/7/bandage) · oracle_id `c664df64-0103-462b-a0f8-c483b152974a` · printing: TPR #7 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banding Sliver
@@ -94,6 +95,7 @@ schema: 2
   - *2019-11-12* — A player who controls a creature blocked by or blocking multiple creatures must choose a combat damage assignment order for those creatures. If each creature in that order loses banding, the order will be enforced. Otherwise, the player who controls the creature with banding can assign the other creature’s damage ignoring the damage assignment order and without assigning lethal damage to a creature before assigning damage to another creature.
   - *2019-11-12* — Creatures don’t “share” abilities in a band. For example, if Banding Sliver bands with a creature with flying, Banding Sliver can be blocked by a creature without flying, and this causes the blocking creature to also block the creature with flying.
   - *2019-11-12* — While blocking, a creature with banding can block along with any number of creatures. This isn’t a “band,” but it’s similar for how damage assignment is modified.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#banding-sliver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/2/banding-sliver) · oracle_id `5b4ce4bd-fdfd-4476-a679-844953d71e15` · printing: CMB2 #2 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bandit's Haul
@@ -133,6 +135,7 @@ schema: 2
   - *2024-07-26* — Opponents can discard either one nonland card or two cards which may or may not be nonland cards. If they really want to, they can discard two nonland cards.
   - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
   - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bandits-talent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/83/bandits-talent) · oracle_id `bcbe879a-4609-4493-bd7d-47c26d27e83c` · printing: BLB #83 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Band Together
@@ -280,6 +283,7 @@ schema: 2
   - *2015-08-25* — If Bane of Bala Ged attacks a planeswalker, the defending player may exile that planeswalker. Bane of Bala Ged will still be attacking and may be blocked as normal. If it’s not blocked, it won’t deal combat damage.
   - *2015-08-25* — If the defending player controls only one permanent, that permanent will be exiled.
   - *2015-08-25* — The permanents are exiled before blockers are chosen.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bane-of-bala-ged)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/802/bane-of-bala-ged) · oracle_id `38839894-1706-4e11-8310-5ea8dd8866d9` · printing: CMM #802 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bane of Progress
@@ -295,6 +299,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-10-17* — Bane of Progress's ability destroys all artifacts and enchantments, including those you control.
   - *2013-10-17* — If an artifact or enchantment isn't destroyed (perhaps because it has indestructible or it regenerated), it won't count toward the number of +1/+1 counters put on Bane of Progress. However, if an artifact or enchantment is destroyed but doesn't go to its owner's graveyard due to a replacement effect (like the one Rest in Peace creates), it will count.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#bane-of-progress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/99/bane-of-progress) · oracle_id `51f9a6cc-8eb2-44ed-a2d9-913ac514ad67` · printing: ECC #99 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bane of the Living
@@ -310,6 +315,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — The X in the ability has the same value as the X paid in the Morph ability. This is pretty easy to derive since there is no other source of X.
   - *2004-10-04* — The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bane-of-the-living)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/104/bane-of-the-living) · oracle_id `c99e4768-192c-49bf-8f51-c204a2248326` · printing: C19 #104 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bane's Contingency
@@ -353,6 +359,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4926 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — “Protection from Demons and from Dragons” means the following: -- Baneslayer Angel can't be blocked by creatures with the creature type Demon or the creature type Dragon. -- Baneslayer Angel can't be targeted abilities from sources with the creature type Demon or the creature type Dragon, or by spells with either of those types. -- All damage that would be dealt to Baneslayer Angel by sources with the creature type Demon or the creature type Dragon is prevented. -- Baneslayer Angel can't be enchanted by Auras or equipped by artifacts that have somehow gotten the creature type Demon or the creature type Dragon.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/B.md#baneslayer-angel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/6/baneslayer-angel) · oracle_id `0e11792b-7fe5-4208-aa0b-e5d09b2b65fe` · printing: M21 #6 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baneslayer Aspirant
@@ -437,6 +444,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13036 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — If the target permanent is an illegal target when Banishing Betrayal tries to resolve, it won't resolve and none of its effects will happen. You won't surveil.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#banishing-betrayal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/38/banishing-betrayal) · oracle_id `6b633e58-ea1b-4ed0-addb-6dfd93645ae4` · printing: SOS #38 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banishing Knack
@@ -481,6 +489,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — If you control an artifact that is also an enchantment as Banishing Slash resolves, you will create a Samurai token.
   - *2022-02-18* — You may cast Banishing Slash without choosing a target. If you do, and you control both an artifact and an enchantment as it resolves, you'll just create a Samurai token. However, if you do choose a target and that target is an illegal target as Banishing Slash tries to resolve, Banishing Slash won't resolve and none of its effects will happen. The illegal target won't be destroyed and you won't create a Samurai token.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/B.md#banishing-slash)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/3/banishing-slash) · oracle_id `2800830c-73c6-4097-be7b-d698c6813c38` · printing: NEO #3 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banishing Stroke
@@ -598,6 +607,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-06-18* — Exiling the creature card with scavenge is part of the cost of activating the scavenge ability. Once the ability is activated and the cost is paid, it's too late to stop the ability from being activated by trying to remove the creature card from the graveyard.
   - *2021-06-18* — If you activate Bannerhide Krushok's reinforce ability during your main phase, your opponents will have the chance to respond to that ability before you can activate the scavenge ability, perhaps by removing Bannerhide Krushok from your graveyard. However, if Bannerhide Krushok ends up in your graveyard during your main phase in such a way that there are no spells or abilities on the stack, you'll have priority to activate the scavenge ability before anyone can remove Bannerhide Krushok from your graveyard.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#bannerhide-krushok)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/149/bannerhide-krushok) · oracle_id `e3191093-1aaa-4002-a603-7c8d132b6a31` · printing: MH2 #149 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banner of Kinship
@@ -622,6 +632,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21652 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-05-01* — Only creatures you control when Banners Raised resolves will get the bonus. Creatures that enter or that you gain control of later in the turn will be unaffected.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#banners-raised)
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/127/banners-raised) · oracle_id `b60d83ea-18bf-4c64-b4ee-981d54629362` · printing: AVR #127 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banon, the Returners' Leader
@@ -638,6 +649,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6545 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — You pay all costs and follow all timing rules for cards played with the permission granted by Banon's first ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#banon-the-returners-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/78/banon-the-returners-leader) · oracle_id `1b62e88f-d544-4c01-a5a2-1c185a3c9c1e` · printing: FIC #78 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banquet Guests
@@ -751,6 +763,7 @@ schema: 2
   > *Bant's hearts are as pure as its air and as bright as its skies.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5012 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#bant-panorama)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/387/bant-panorama) · oracle_id `0a1d817d-dce8-4e83-a380-909f7c9eee46` · printing: NCC #387 (2022-04-29) · [rulings](https://api.scryfall.com/cards/dc506497-4ecd-41d3-9042-f92f498251b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bant Sojourners

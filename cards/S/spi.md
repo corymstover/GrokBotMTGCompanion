@@ -314,6 +314,7 @@ schema: 2
   > *On Earth-982, May "Mayday" Parker, the first child of Peter and Mary Jane, continues her father's legacy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12173 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spider-girl-legacy-hero)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/149/spider-girl-legacy-hero) · oracle_id `d459b3f5-a18c-4c17-a855-dc147f7c2161` · printing: SPM #149 (2025-09-26) · [rulings](https://api.scryfall.com/cards/d1f3196a-fe48-446f-ab07-00c66b7816c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Gwen, Free Spirit
@@ -342,6 +343,7 @@ schema: 2
 - **Keywords:** Food, Animal May-Ham
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5526 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spider-ham-peter-porker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/114/spider-ham-peter-porker) · oracle_id `00b50215-e832-417f-9c80-2bc3050b6ebb` · printing: SPM #114 (2025-09-26) · [rulings](https://api.scryfall.com/cards/41f18f42-b86b-4a12-9f0d-76b761571195/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Islanders
@@ -373,6 +375,7 @@ schema: 2
 - **Keywords:** Vigilance, From the Future, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7544 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spider-man-2099)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/150/spider-man-2099) · oracle_id `19845456-3d96-48a4-89fa-9b8e583774c9` · printing: SPM #150 (2025-09-26) · [rulings](https://api.scryfall.com/cards/2a72c7e7-34f5-4cb0-9959-35516e398e49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man 2099, Miguel O'Hara
@@ -406,6 +409,7 @@ schema: 2
   - *2025-09-19* — The creature you return must be tapped at the time you pay costs, but doesn't necessarily need to be tapped before you start casting the spell. For example, if you tap a creature with a mana ability to pay part of the spell's web-slinging cost, you could also return that creature to your hand to pay the cost.
   - *2025-09-19* — Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell with web-slinging. For creatures, that usually means you must cast it during a main phase of your turn while the stack is empty.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#spider-man-brooklyn-visionary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/115/spider-man-brooklyn-visionary) · oracle_id `2ca85872-9436-4515-af50-c13e59605627` · printing: SPM #115 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man, Hometown Hero
@@ -573,6 +577,7 @@ schema: 2
 - **Keywords:** Haste, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19558 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spider-man-web-spinner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/832/spider-man-web-spinner) · oracle_id `d586ef58-ca9e-4c6d-94d6-3b8d782b11e1` · printing: MSC #832 (2026-06-26) · [rulings](https://api.scryfall.com/cards/acf20da5-e460-4191-ad68-eae398bb7c5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Mobile
@@ -610,6 +615,7 @@ schema: 2
   - *2025-09-19* — If you choose for a creature with riot to gain haste, it gains haste indefinitely. It doesn't lose it as the turn ends or if another player gains control of it.
   - *2025-09-19* — Riot is a replacement effect. Players can't respond to your choice of a +1/+1 counter or haste.
   - *2025-09-19* — While Spider-Punk is on the battlefield, spells and abilities can still be the target of another spell or ability that would normally counter them, but they won't be countered as that spell or ability resolves.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#spider-punk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/92/spider-punk) · oracle_id `03bf7a90-78c1-4e83-8553-e22d85e49876` · printing: SPM #92 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Rex, Daring Dino
@@ -644,6 +650,7 @@ schema: 2
   - *2025-09-19* — Triggered abilities use the words "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities (such as prowess) are triggered abilities and will have "when," "whenever," or "at the beginning of" in their reminder text.
   - *2025-09-19* — Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell with web-slinging. For creatures, that usually means you must cast it during a main phase of your turn while the stack is empty.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#spider-sense)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/46/spider-sense) · oracle_id `c4485bf9-e7ff-48b5-a983-02900939ee9d` · printing: SPM #46 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spidersilk Armor
@@ -656,6 +663,7 @@ schema: 2
   > *It hardly weighs anything, but it takes all day to remove.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7255 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spidersilk-armor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddg/32/spidersilk-armor) · oracle_id `ad73e5eb-197c-45a3-9d20-a406ba126c79` · printing: DDG #32 (2011-04-01) · [rulings](https://api.scryfall.com/cards/e55202a1-c246-4b5b-94d6-43c86a69d61a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spidersilk Net
@@ -684,6 +692,7 @@ schema: 2
   > *"With each attempt on Spider-Man's life, my father came closer to ending the menace. It is my pleasure to finish the job."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18999 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spider-slayer-hatred-honed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/175/spider-slayer-hatred-honed) · oracle_id `ca68f436-2522-4007-87bf-2669c7743db0` · printing: SPM #175 (2025-09-26) · [rulings](https://api.scryfall.com/cards/ac37ca6f-a6ee-4dfb-949f-2562f98d09d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spiders-Man, Heroic Horde
@@ -701,6 +710,7 @@ schema: 2
   - *2025-09-19* — The creature you return must be tapped at the time you pay costs, but doesn't necessarily need to be tapped before you start casting the spell. For example, if you tap a creature with a mana ability to pay part of the spell's web-slinging cost, you could also return that creature to your hand to pay the cost.
   - *2025-09-19* — Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell with web-slinging. For creatures, that usually means you must cast it during a main phase of your turn while the stack is empty.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#spiders-man-heroic-horde)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/117/spiders-man-heroic-horde) · oracle_id `d21d7557-9702-46c1-8277-42a3442084c2` · printing: SPM #117 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider Spawning
@@ -875,6 +885,7 @@ schema: 2
   > When this creature enters, move all +1/+1 counters from all creatures onto it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21820 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spike-cannibal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/75/spike-cannibal) · oracle_id `c175ab0e-7085-41ec-83e4-38fc85c338fa` · printing: EXO #75 (1998-06-15) · [rulings](https://api.scryfall.com/cards/64003772-c62f-4728-a00c-48c78991c6ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spike Colony
@@ -933,6 +944,7 @@ schema: 2
   - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
   - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
   - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spiked-corridor--torture-pit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/28/spiked-corridor-torture-pit) · oracle_id `e49b902f-a556-4dab-8928-93caf0a3f609` · printing: DSC #28 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spiked Pit Trap
@@ -1161,6 +1173,7 @@ schema: 2
   > *The conquistadors surrounded the dinosaur only to find that it had outflanked them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23142 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#spike-tailed-ceratops)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/209/spike-tailed-ceratops) · oracle_id `399ea8a4-55f5-4f14-ad7a-7af306959496` · printing: XLN #209 (2017-09-29) · [rulings](https://api.scryfall.com/cards/41a3b5f2-0b0b-42e0-a15b-4bb2fce05927/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spiketail Hatchling
@@ -1240,6 +1253,7 @@ schema: 2
   - *2024-01-12* — Spectacle cares only that an opponent lost life during the turn, not that the opponent's life total is currently lower than it was. For example, if an opponent loses 1 life and then gains 2 life in the same turn, you can cast a spell for its spectacle cost that turn.
   - *2024-01-12* — Spectacle doesn't change when you can cast the spell. For example, you can't cast a sorcery with spectacle during an opponent's turn unless another effect allows you to do so, even if that player has lost life this turn.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a spectacle cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#spikewheel-acrobat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/118/spikewheel-acrobat) · oracle_id `e9b403db-8981-440f-a451-aa77ae3cf006` · printing: RNA #118 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spike Worker
@@ -1542,6 +1556,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2633 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-06-01* — Spine of Ish Sah's last ability doesn't allow you to sacrifice it. You must find another way to get Spine of Ish Sah into the graveyard.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#spine-of-ish-sah)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/383/spine-of-ish-sah) · oracle_id `02f062f5-8012-4440-ac12-49fc49822106` · printing: MOC #383 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spinerock Knoll
@@ -1563,6 +1578,7 @@ schema: 2
   - *2022-04-29* — Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
   - *2022-04-29* — Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
   - *2022-04-29* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#spinerock-knoll)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/300/spinerock-knoll) · oracle_id `690c7f8e-fea2-4920-afa7-02ff120701a1` · printing: DSC #300 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spinerock Tyrant
@@ -1583,6 +1599,7 @@ schema: 2
   - *2025-11-17* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell (such as conspire's triggered ability that creates a copy of the spell) won't trigger.
   - *2025-11-17* — The copy will have the same target unless you choose new ones. If you change the target, the new target must be legal.
   - *2025-11-17* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#spinerock-tyrant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/159/spinerock-tyrant) · oracle_id `e35d4c62-5211-4785-b683-a83719195d87` · printing: ECL #159 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spineseeker Centipede
@@ -1641,6 +1658,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23801 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2007-05-01* — The opponent chosen for the fateseal action doesn’t have to be the player who controlled the target creature.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#spin-into-myth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/arc/8/spin-into-myth) · oracle_id `4a4cf6e2-8673-45b8-bc21-cd030f312cd1` · printing: ARC #8 (2010-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spinneret and Spiderling
@@ -1687,6 +1705,7 @@ schema: 2
 - **Keywords:** Open an Attraction, Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18076 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#spinnerette-arachnobat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/180/spinnerette-arachnobat) · oracle_id `9372f286-5ea6-4abb-b695-1ad5f46efe34` · printing: UNF #180 (2022-10-07) · [rulings](https://api.scryfall.com/cards/24a92336-2ed7-4496-9476-9fe3368bbdfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spinner of Souls
@@ -1756,6 +1775,7 @@ schema: 2
   > *—Captain Rex Nebula*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32346 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spinny-ride)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/227a/spinny-ride) · oracle_id `cf2cc44e-8134-4b37-bc10-694abb8808f0` · printing: UNF #227a (2022-10-07) · [rulings](https://api.scryfall.com/cards/61ceb59c-fdd7-43f8-8824-fff5e0154271/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spin Out
@@ -1873,6 +1893,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #188 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-06-08* — If you began the game with two or more opponents but now only have one opponent left, these lands enter the battlefield tapped.
+- **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#spire-garden)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/75/spire-garden) · oracle_id `45fe016e-1a09-410c-bbe3-4663ba06c5b7` · printing: TMC #75 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spire Golem
@@ -1922,6 +1943,7 @@ schema: 2
   - *2025-02-07* — Exhaust abilities can be activated any time you could normally activate an ability.
   - *2025-02-07* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
   - *2025-02-07* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spire-mechcycle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/147/spire-mechcycle) · oracle_id `7d347d59-0cd5-4207-86cb-5d6244c7c70a` · printing: DFT #147 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spire Monitor
@@ -1950,6 +1972,7 @@ schema: 2
   > *A beacon of prosperity to some, a shadow of oppression to others.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #392 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 8 pages (6 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#spire-of-industry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/183/spire-of-industry) · oracle_id `55a519b4-61cb-448a-875b-4d6dbe00580f` · printing: EOC #183 (2025-08-01) · [rulings](https://api.scryfall.com/cards/35e9ec06-a848-4230-84a2-19cb8034e0f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spire Owl
@@ -1963,6 +1986,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19573 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spire-owl)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/98/spire-owl) · oracle_id `7fa1eca4-0db1-446b-b3cb-15a619ffa97b` · printing: USG #98 (1998-10-12) · [rulings](https://api.scryfall.com/cards/c66b2aa6-e891-4ae5-b6c9-1537b797c3ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spire Patrol
@@ -2168,6 +2192,7 @@ schema: 2
   > *She formed a friendship with several playful spirits, and soon "the pack" was known as the source of much mischief in Eiganjo.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #944 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/S.md#spirited-companion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/838/spirited-companion) · oracle_id `9c5f0d91-9d86-4e66-94fd-4af93ad01838` · printing: CMM #838 (2023-08-04) · [rulings](https://api.scryfall.com/cards/7e038684-c476-41db-a1b1-57c46e5b4c9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spirit en-Dal
@@ -2184,6 +2209,7 @@ schema: 2
   - *2021-03-19* — If an attacking creature has multiple evasion abilities, such as shadow and flying, a creature can block it only if that creature satisfies all of the appropriate evasion abilities.
   - *2021-03-19* — Multiple instances of shadow on the same creature are redundant.
   - *2021-03-19* — Once a creature has been blocked, that creature remains blocked and will deal and be dealt combat damage even if it gains or loses shadow or if the blocking creature gains or loses shadow.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#spirit-en-dal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/17/spirit-en-dal) · oracle_id `54730a15-0f03-4064-89dc-24de05117e7c` · printing: FUT #17 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spirit en-Kor
@@ -2267,6 +2293,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1704 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#spirit-mantle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/175/spirit-mantle) · oracle_id `81a51328-b995-4f3b-90bc-a20ae21dd254` · printing: SOC #175 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8ac5a048-e8aa-48e8-b51b-b4e9a5b63ea6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spirit Mascot
@@ -2505,6 +2532,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — Because to die means to be put into a graveyard from the battlefield, a creature or planeswalker that is exiled instead doesn't "die." Abilities that would trigger when it dies won't trigger.
   - *2022-02-18* — If Spirit-Sister's Call leaves the battlefield, the replacement effect continues to apply. If one of the permanents it returned would leave the battlefield, it'll be exiled instead.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spirit-sisters-call)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/232/spirit-sisters-call) · oracle_id `83914a83-4de2-4d64-9770-f68a12014167` · printing: DSC #232 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spirit Sorcerer Token
@@ -2517,6 +2545,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spirit-sorcerer-token)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmdd/8/spirit-sorcerer-token) · oracle_id `9c3c0e04-b222-4bc9-adbe-a3b37cc8c44e` · printing: TMDD #8 (2027-04-09) · [rulings](https://api.scryfall.com/cards/3b9c4950-9890-4977-87a0-6eba840e1f66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spirit Summoning
@@ -2624,6 +2653,7 @@ schema: 2
   - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
   - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
   - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#spirit-water-revival)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/73/spirit-water-revival) · oracle_id `68979160-b5ce-4787-8a1e-1f40e614c3b0` · printing: TLA #73 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spirit Weaver
@@ -2686,6 +2716,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2276 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spiteful-banditry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/149/spiteful-banditry) · oracle_id `fde2653f-5270-4b8f-9642-0835dbb076c2` · printing: LTR #149 (2023-06-23) · [rulings](https://api.scryfall.com/cards/e85a82bc-49f3-4694-b688-808a541146db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spiteful Blow
@@ -2866,6 +2897,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-05-01* — Spiteful Visions's second ability triggers any time any player draws a card, not just when a player draws a card as a result of its first ability.
   - *2013-04-15* — The triggered ability is put onto the stack after you have already drawn your card for the turn.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#spiteful-visions)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/233/spiteful-visions) · oracle_id `922cf963-2b1b-43ad-819e-6e49133e6aae` · printing: DSC #233 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spite // Malice
@@ -2997,6 +3029,7 @@ schema: 2
   > *—Kumano, to his pupils*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13446 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spitting-earth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/364/spitting-earth) · oracle_id `0c3bf4e1-d91e-4dd3-a800-e40971222c71` · printing: JMP #364 (2020-07-17) · [rulings](https://api.scryfall.com/cards/de1aa8f9-8200-4ddd-9ab5-1a8181cc1792/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spitting Gourna

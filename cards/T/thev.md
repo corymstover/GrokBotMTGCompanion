@@ -43,6 +43,7 @@ schema: 2
   - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/T.md#the-valeyard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/165/the-valeyard) · oracle_id `ed202f1d-3511-45f4-bfbc-e6b76d4311d1` · printing: WHO #165 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Value Knight

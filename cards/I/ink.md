@@ -65,6 +65,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2973 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-02-01* — If, during the combat damage step, a creature is destroyed during combat and Ink-Eyes also deals combat damage to a player, the destroyed creature can be a legal target for Ink-Eyes's ability.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/I.md#ink-eyes-servant-of-oni)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/33/ink-eyes-servant-of-oni) · oracle_id `5d520476-740a-4005-801e-472b24fa6497` · printing: PCA #33 (2016-11-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inkfathom Divers
@@ -155,6 +156,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-06-01* — If Inkmoth Nexus entered this turn and it's not a creature, it can be tapped for mana. If it becomes a creature that turn, it can't attack or be tapped for mana.
   - *2011-06-01* — If you've controlled Inkmoth Nexus continuously since your most recent turn began and it becomes a creature, it can attack or be tapped for mana.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/I.md#inkmoth-nexus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/145/inkmoth-nexus) · oracle_id `675281ff-b81f-4e5e-9f85-9f8cd202b50b` · printing: MBS #145 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inkrise Infiltrator
@@ -170,6 +172,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13527 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inkrise-infiltrator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/100/inkrise-infiltrator) · oracle_id `6a45d09a-6af3-45fb-8f7c-cf630cb37f24` · printing: NEO #100 (2022-02-18) · [rulings](https://api.scryfall.com/cards/cbb6e447-5f40-4039-8a17-257b4a55382c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inkshape Demonstrator
@@ -198,6 +201,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #784 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-04-16* — If multiple damage prevention effects would apply to combat damage that would be dealt to you, you get to choose the order the prevention effects are applied in.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/I.md#inkshield)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/316/inkshield) · oracle_id `da93264e-4e04-401a-9809-e4e1056cf604` · printing: SOC #316 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ink-Treader Nephilim

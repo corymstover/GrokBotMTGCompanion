@@ -244,6 +244,7 @@ schema: 2
 - **Keywords:** Deathtouch, Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8817 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gnarlwood-dryad)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/180/gnarlwood-dryad) · oracle_id `e823639f-1308-47f6-9b51-8fd9a682489a` · printing: DSC #180 (2024-09-27) · [rulings](https://api.scryfall.com/cards/8eae5e38-49ee-49ef-87ca-7b570d9ca2b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnashing of Teeth
@@ -493,4 +494,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18176 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-02-05* — If the target land is an illegal target by the time the last activated ability tries to resolve, the ability won’t resolve and none of its effects will happen. You won’t create a Troll Warrior creature token.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gnottvold-slumbermound)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/258/gnottvold-slumbermound) · oracle_id `2e413d18-2c55-49be-9e49-54d170c978a2` · printing: KHM #258 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -116,6 +116,7 @@ schema: 2
   - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that’s being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you’re playing and ignore the other face’s characteristics.
+- **Referenced in:** 6 pages (1 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/B.md#bala-ged-recovery--bala-ged-sanctuary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/180/bala-ged-recovery-bala-ged-sanctuary) · oracle_id `d2075f58-b0e9-4e85-b7e6-0523a27a1d5b` · printing: ZNR #180 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bala Ged Scorpion
@@ -199,6 +200,7 @@ schema: 2
   - *2016-06-08* — Balance doesn't have targets, so permanents that can't be targeted, such as a creature with shroud or protection from white, are valid choices to be sacrificed.
   - *2016-06-08* — Each type of object is counted during the corresponding part of the process. Cards in hand are counted after lands have been sacrificed, and creatures on the battlefield are counted after cards have been discarded. Thus, a land creature sacrificed to the first part of the spell would not be counted when determining how many creatures are on the battlefield for the last part.
   - *2016-06-08* — First the player whose turn it is chooses which lands (if any) to keep, then each other player in turn order does the same. Each player will know the choices made by the players who chose before them. All of the unchosen lands are then sacrificed simultaneously. Then the process is repeated for cards in hand, except that no cards are revealed until all players have chosen what to discard, at which point those cards are all discarded simultaneously. Lastly, the process is repeated for creatures, and players will again know earlier choices made when deciding what to sacrifice. All of the unchosen creatures are then sacrificed simultaneously.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#balance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/2/balance) · oracle_id `17fa98cd-ed8f-483f-9525-7e989a82ebb2` · printing: EMA #2 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balance of Power
@@ -213,6 +215,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25168 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — The number of cards is counted during resolution.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#balance-of-power)
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/62/balance-of-power) · oracle_id `c57ee68e-6832-4d4c-b710-fc03a2c10a9c` · printing: 8ED #62 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balancing Act
@@ -241,6 +244,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-08-25* — Balan's activated ability has no timing restriction. You can activate it any time you have priority.
   - *2017-08-25* — If Balan deals first-strike damage and then gains double strike (most likely because it picked up some Equipment with its activated ability after first-strike damage was dealt), it will also deal regular combat damage.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#balan-wandering-knight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/16/balan-wandering-knight) · oracle_id `d12cfd46-73c2-4206-9a10-0d2e7d6ac87e` · printing: CMM #16 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baldin, Century Herdmaster
@@ -394,6 +398,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31214 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-10-01* — If the ability is activated during a turn’s Ending phase (after any “at the beginning of the End step” triggers would have triggered that turn), the Graveborn token will remain on the battlefield until the following turn’s End step.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#balduvian-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/79/balduvian-dead) · oracle_id `18d6b89a-3588-43d9-a247-4747a7d784fc` · printing: ME2 #79 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balduvian Fallen
@@ -561,6 +566,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1281 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-12-07* — The damage dealt by Balefire Dragon’s triggered ability isn’t combat damage.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/B.md#balefire-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/479/balefire-dragon) · oracle_id `3d783beb-9ca6-4681-9276-fc3ad13b993f` · printing: INR #479 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balefire Liege
@@ -656,6 +662,7 @@ schema: 2
   - *2021-04-16* —  If you copy a "Mastery" spell and the alternative cost was paid, the copy will resolve as though the cost was paid.
   - *2021-04-16* —  In a multiplayer game, you choose which opponent takes the prescribed action as the spell resolves.
   - *2021-04-16* —  The mana value of a spell on the stack is determined by its mana cost, not any alternative costs you used to pay for it.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#baleful-mastery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/126/baleful-mastery) · oracle_id `adfcdadd-ddda-477b-8e72-0cae2430fb63` · printing: OTC #126 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baleful Stare
@@ -683,6 +690,7 @@ schema: 2
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #363 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 11 pages (8 decks · 2 edh guides · 1 card data) → [reverse index](../../references/B.md#baleful-strix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/215/baleful-strix) · oracle_id `37688720-03de-4eca-a82d-a0afe8d58adc` · printing: OTC #215 (2024-04-19) · [rulings](https://api.scryfall.com/cards/be8439e6-f779-49f0-806a-b04995697a6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balemurk Leech
@@ -837,6 +845,7 @@ schema: 2
   > *Buy enough balloons and it turns into a ride.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32331 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/B.md#balloon-stand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/200a/balloon-stand) · oracle_id `abb6f51b-2a14-44ac-8c19-e135c9deb1ea` · printing: UNF #200a (2022-10-07) · [rulings](https://api.scryfall.com/cards/2e9eaed8-e956-4fb2-a23d-3d442cd2fa5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ballot Broker
@@ -902,6 +911,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Count the number of o’s in name stickers on this enchantment as the last ability resolves to determine how much damage is dealt. If this enchantment is no longer on the battlefield at that time, use the number of o’s its name stickers had when it was last on the battlefield.
   - *2022-10-07* — The last ability will trigger whenever you put any kind of sticker on this enchantment, not just name stickers, although only o’s in name stickers will count towards the amount of damage dealt. Notably, o’s in ability and art stickers won’t count.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/B.md#_____-balls-of-fire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/100/_____-balls-of-fire) · oracle_id `82c2a58b-0ee2-454b-9ddd-670c1e788166` · printing: UNF #100 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ballynock Cohort
@@ -979,6 +989,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — Balmor's last ability affects only creatures you control at the time it resolves, including Balmor itself. Creatures you begin to control later in the turn or noncreature permanents that become creatures later won't get the bonus.
   - *2024-11-08* — Balmor's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#balmor-battlemage-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/237/balmor-battlemage-captain) · oracle_id `7da19fc5-cb85-4ec7-beea-95210378bbfe` · printing: FDN #237 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balor
@@ -995,6 +1006,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4467 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#balor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/162/balor) · oracle_id `6f931c1e-f1d2-4dc7-a653-c29adfc8fb2c` · printing: CLB #162 (2022-06-10) · [rulings](https://api.scryfall.com/cards/60c1b3da-e8e6-4118-a268-1e3871e6ffee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baloth Cage Trap
@@ -1058,6 +1070,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3966 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-07-25* — If Baloth Prime leaves the battlefield at the same time as you sacrifice one or more lands (probably because you also sacrificed Baloth Prime), its second ability triggers for each of those lands.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#baloth-prime)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/13/baloth-prime) · oracle_id `dba3dcc1-2177-4a8c-8cf3-7d4fb83c7a16` · printing: EOC #13 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baloth Pup
@@ -1145,6 +1158,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14857 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Balthier and Fran's last ability doesn't give you any additional main phases. This means that you will move directly from the end of combat step of one combat phase to the beginning of combat step of the next one.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#balthier-and-fran)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/213/balthier-and-fran) · oracle_id `570cb560-c246-4652-b230-ab34f966c78a` · printing: FIN #213 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balthor the Defiled
@@ -1191,6 +1205,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-11-17* — If the target player has no land cards in their library, all cards from that library will be revealed and put into their graveyard.
   - *2024-01-12* — The land card they reveal, if any, is included in the cards put into their graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#balustrade-spy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/66/balustrade-spy) · oracle_id `39b4a47a-df51-4bd9-9a20-43ac80a5d352` · printing: RVR #66 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balustrade Wurm

@@ -48,4 +48,5 @@ schema: 2
   > Whenever Maarika deals damage to a creature, if that creature was dealt excess damage this turn, that creature's controller sacrifices a noncreature, nonland permanent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10703 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#maarika-brutal-gladiator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/15/maarika-brutal-gladiator) · oracle_id `a46f9f5c-775c-470d-8935-9556e1bbb23d` · printing: SLX #15 (2023-02-10) · [rulings](https://api.scryfall.com/cards/86123ab7-ee60-4ef2-8467-1ad420213eb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

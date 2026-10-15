@@ -109,6 +109,7 @@ schema: 2
   - *2010-06-15* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
   - *2010-06-15* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
   - *2018-12-07* — If Ulamog's Crusher can't attack for any reason (such as becoming tapped or having just entered the battlefield), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/U.md#ulamogs-crusher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/6/ulamogs-crusher) · oracle_id `597bce51-af89-4d13-9a97-667b4f4f4694` · printing: CMM #6 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulamog's Despoiler
@@ -144,6 +145,7 @@ schema: 2
   - *2024-06-07* — If a permanent on the battlefield has {X} in its mana cost, X is 0 when determining its mana value.
   - *2024-06-07* — The mana value of a face-down permanent is 0.
   - *2024-06-07* — The mana value of a token that isn't a copy of another object is 0.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#ulamogs-dreadsire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/38/ulamogs-dreadsire) · oracle_id `2afefaab-c614-4fca-afba-d8d206d9a8b9` · printing: M3C #38 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulamog's Nullifier
@@ -209,6 +211,7 @@ schema: 2
   - *2015-08-25* — Cards exiled by Ulamog's first and third abilities are exiled face up.
   - *2015-08-25* — If the player has less than twenty cards in their library, exile all of them. That player won't lose the game until they have to draw a card from an empty library.
   - *2015-08-25* — Ulamog's first ability resolves independently of Ulamog once they've both been put on the stack. If Ulamog is countered, that triggered ability will still resolve. That triggered ability will always resolve before Ulamog does.
+- **Referenced in:** 3 pages (2 decks · 1 lore & story) → [reverse index](../../references/U.md#ulamog-the-ceaseless-hunger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/5/ulamog-the-ceaseless-hunger) · oracle_id `0bfa4512-e35a-4c93-b324-80ec659f5a97` · printing: CMM #5 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulamog, the Defiler
@@ -230,6 +233,7 @@ schema: 2
   - *2024-06-07* — Ulamog, the Defiler has received a minor update to clarify that the target of the first ability exiles the top half of their library. Its updated Oracle text appears above.
   - *2024-06-07* — Ulamog, the Defiler's first ability will resolve before Ulamog does. If Ulamog is countered or otherwise leaves the stack in response to its triggered ability, the triggered ability will still resolve as normal.
   - *2024-06-07* — Use the number of +1/+1 counters on Ulamog at the time its annihilator ability resolves to determine how many permanents defending player should sacrifice.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/U.md#ulamog-the-defiler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/15/ulamog-the-defiler) · oracle_id `97836c48-8777-4b4e-98fb-e99204f38bdd` · printing: MH3 #15 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulamog, the Infinite Gyre
@@ -249,6 +253,7 @@ schema: 2
   - *2010-06-15* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
   - *2013-07-01* — Lethal damage and effects that say "destroy" won't cause a creature with indestructible to be put into the graveyard. However, a creature with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it's sacrificed, if it's legendary and another legendary creature with the same name is controlled by the same player, or if its toughness is 0 or less.
   - *2018-12-07* — Ulamog's ability triggers as you cast it, and that ability resolves before the spell itself. It resolves even if that spell is countered.
+- **Referenced in:** 3 pages (2 decks · 1 rules) → [reverse index](../../references/U.md#ulamog-the-infinite-gyre)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/3/ulamog-the-infinite-gyre) · oracle_id `b817bc56-9b4d-4c50-bafa-3c652b99578f` · printing: 2X2 #3 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulasht, the Hate Seed
@@ -292,6 +297,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15542 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — If you cast a spell with {X} in its mana cost without paying its mana cost, you must choose 0 as the value for X. This means that X will also be 0 when calculating the mana value of that spell.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/U.md#uldaros-theorix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/159/uldaros-theorix) · oracle_id `020d561b-2e5d-439e-9e6a-318d23e73542` · printing: FRA #159 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulgrotha Charm
@@ -389,6 +395,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — The affected land keeps any other card types (such as artifact) and supertypes (such as basic or legendary) when it loses its land types.
   - *2025-06-06* — Ultima's last ability is a triggered mana ability. It doesn't use the stack and can't be responded to.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/U.md#ultima-origin-of-oblivion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/2/ultima-origin-of-oblivion) · oracle_id `baa337ce-edc6-4ee5-a898-68e9dbb4ab93` · printing: FIN #2 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultimate Alliance
@@ -419,6 +426,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-09-19* — Mayhem represents an alternative cost that can be paid to cast a spell from your graveyard if you discarded the card with mayhem that turn. You must pay any additional costs the spell has.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell with mayhem. For example, you can't cast a creature card with mayhem you couldn't normally cast during an opponent's turn, even if you discard that card during an opponent's turn.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/U.md#ultimate-green-goblin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/157/ultimate-green-goblin) · oracle_id `b5b43d01-fce6-4a00-9c19-7a7e2a09d833` · printing: SPM #157 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultimate Magic: Holy
@@ -434,6 +442,7 @@ schema: 2
   - *2025-06-06* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you're taking the action, no other player can respond by trying to remove the card from your hand.
   - *2025-06-06* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player's turn. In most cases, if you foretell a card that isn't an instant, you'll have to wait until your next turn to cast it.
   - *2025-06-06* — If you're casting a foretold card from exile for its foretell cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/U.md#ultimate-magic-holy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/32/ultimate-magic:-holy) · oracle_id `1eae48aa-f01d-4398-a68e-3b5af0542ab1` · printing: FIC #32 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultimate Magic: Meteor
@@ -580,6 +589,7 @@ schema: 2
   - *2022-10-14* — Ultra Magnus's controller chooses which player or planeswalker the artifact creature is attacking. It doesn't have to be the same player or planeswalker that Ultra Magnus is attacking.
   - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
   - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/U.md#ultra-magnus-tactician--ultra-magnus-armored-carrier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bot/15/ultra-magnus-tactician-ultra-magnus-armored-carrier) · oracle_id `48e913c0-efeb-47f5-9dcb-b795751e6b6d` · printing: BOT #15 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultramarines Honour Guard
@@ -597,6 +607,7 @@ schema: 2
   - *2022-10-07* — If, for some reason, the creature doesn't have the squad ability when it's on the battlefield, the ability won't trigger, even if you've paid the squad cost one or more times.
   - *2022-10-07* — The tokens created by the squad ability aren't "cast," so any abilities that trigger when a spell is cast won't trigger for the copies.
   - *2022-10-07* — You may pay the squad cost any number of times. You will get a token that is a copy of that permanent for each time you paid the squad cost.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#ultramarines-honour-guard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/18/ultramarines-honour-guard) · oracle_id `74cd099c-8476-4f75-bc1a-8b166f696163` · printing: 40K #18 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultron, Artificial Malevolence
@@ -611,6 +622,7 @@ schema: 2
   > *—Ultron, to Hank Pym*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4460 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/U.md#ultron-artificial-malevolence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/252/ultron-artificial-malevolence) · oracle_id `a8f25e67-2112-4355-9298-363ed04a5cb8` · printing: MSH #252 (2026-06-26) · [rulings](https://api.scryfall.com/cards/32ddd5ac-57ed-4e78-8932-a65980191f6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultron Drone
@@ -638,6 +650,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13930 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#ultron-machine-overlord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/507/ultron-machine-overlord) · oracle_id `19fd953c-b6d4-457f-b85f-b681c5b0e341` · printing: MSC #507 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b38f8149-0ab8-42cb-9af6-8c647550ab68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultron's Auxiliary
@@ -665,6 +678,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12925 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#ultron-the-annihilator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/668/ultron-the-annihilator) · oracle_id `33f2c6cb-f864-4bee-b365-aedf33fbedf5` · printing: MSC #668 (2026-06-26) · [rulings](https://api.scryfall.com/cards/51879585-9cdf-499b-b7cc-226319c74a0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultron, Unlimited
@@ -679,6 +693,7 @@ schema: 2
 - **Keywords:** Flying, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8721 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/U.md#ultron-unlimited)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/100/ultron-unlimited) · oracle_id `436501ca-0998-43fc-975f-87c2d34caab3` · printing: MSC #100 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bf5b410f-d6cb-4a74-a975-372975cf21f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultros, Obnoxious Octopus
@@ -730,6 +745,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14539 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#ulvenwald-captive--ulvenwald-abomination)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/175/ulvenwald-captive-ulvenwald-abomination) · oracle_id `0272ca81-e727-4f4b-b06e-072d70bb5558` · printing: EMN #175 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulvenwald Hydra
@@ -833,4 +849,5 @@ schema: 2
 - **Rulings** (2):
   - *2017-03-14* — If either target of Ulvenwald Tracker’s ability is an illegal target when the ability tries to resolve, neither creature will deal or be dealt damage.
   - *2017-03-14* — The second target of Ulvenwald Tracker’s ability can be another creature you control, but it can’t be the same creature as the first target.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#ulvenwald-tracker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/144/ulvenwald-tracker) · oracle_id `63a37c08-7e38-4fe2-9a71-cc4604c4f831` · printing: MM3 #144 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

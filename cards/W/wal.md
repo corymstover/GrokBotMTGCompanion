@@ -139,6 +139,7 @@ schema: 2
   - *2008-04-01* — If you're casting a spell "without paying its mana cost," you can't use its evoke ability.
   - *2008-04-01* — When you cast a spell by paying its evoke cost, its mana cost doesn't change. You just pay the evoke cost instead.
   - *2008-04-01* — Whether evoke's sacrifice ability triggers when the creature enters depends on whether the spell's controller chose to pay the evoke cost, not whether they actually paid it (if it was reduced or otherwise altered by another ability, for example).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#walker-of-the-grove)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/191/walker-of-the-grove) · oracle_id `02d69413-e040-46b1-8f58-69bde666329d` · printing: UMA #191 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walker of the Wastes
@@ -235,6 +236,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — A casting cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {6} to cast Walking Ballista.
   - *2020-08-07* — If Walking Ballista has been dealt damage or had its toughness reduced by an effect, this limits how many times you'll be able to remove +1/+1 counters from it in a single turn. For example, if it has three +1/+1 counters on it and has been dealt 1 damage this turn, it will be destroyed immediately after you activate the ability a second time and you won't be able to activate it a third time.
+- **Referenced in:** 9 pages (4 decks · 3 edh guides · 2 card data) → [reverse index](../../references/W.md#walking-ballista)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/306/walking-ballista) · oracle_id `4b515bb0-f275-4400-8032-3173b799ab40` · printing: 2XM #306 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Bulwark
@@ -249,6 +251,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4436 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-09-09* — Walking Bulwark’s last ability doesn’t actually change any creature’s power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, since having two creatures fight doesn’t result in combat damage, an effect that causes the affected creature to fight another creature will still use its power to determine how much damage is dealt.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#walking-bulwark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/334/walking-bulwark) · oracle_id `8ad0d89b-beef-40f7-8ce8-65589e3970be` · printing: TDC #334 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Corpse
@@ -325,6 +328,7 @@ schema: 2
   - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
   - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
   - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#walking-sarcophagus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/246/walking-sarcophagus) · oracle_id `791b8ac8-8db8-44b4-8c85-fcc9017c17ef` · printing: DFT #246 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Skyscraper
@@ -429,6 +433,7 @@ schema: 2
   > *With the proportionate strength and stickiness of a spider, Spider-Man can scale skyscrapers with ease.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10786 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wall-crawl)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/121/wall-crawl) · oracle_id `4a09536e-dfc1-4b15-adc1-07ef866ebda0` · printing: SPM #121 (2025-09-26) · [rulings](https://api.scryfall.com/cards/97a2a1ab-57ec-4210-9412-765ae4f02db0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Air
@@ -754,6 +759,7 @@ schema: 2
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8149 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wall-of-glare)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/25/wall-of-glare) · oracle_id `a59897cb-7ead-494a-a1d0-c9baf79bf18b` · printing: UDS #25 (1999-06-07) · [rulings](https://api.scryfall.com/cards/5f159193-fcf8-437c-b14a-06718a446a5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Granite
@@ -987,6 +993,7 @@ schema: 2
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1108 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/W.md#wall-of-omens)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/138/wall-of-omens) · oracle_id `5f601f48-d24b-4883-9fde-b3f620e7c9ea` · printing: TDC #138 (2025-04-11) · [rulings](https://api.scryfall.com/cards/3d134bb2-17ec-4e65-976e-f06fa983f3fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of One Thousand Cuts
@@ -1219,6 +1226,7 @@ schema: 2
 - **Keywords:** First strike, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23582 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wall-of-spears)
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/320/wall-of-spears) · oracle_id `ed836d84-ff1e-4af8-b4b8-314569b3faec` · printing: 8ED #320 (2003-07-28) · [rulings](https://api.scryfall.com/cards/b4f34f06-7f89-4f2b-8979-8219ac1c4560/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Stolen Identity

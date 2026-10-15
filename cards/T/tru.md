@@ -97,6 +97,7 @@ schema: 2
   - *2021-04-16* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, a "whenever you gain life" ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
   - *2021-04-16* — If you gain an amount of life "for each" of something, that life is gained as one event and the ability will trigger only once.
   - *2021-04-16* — You may only pay {2} once for each life gain event.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trudge-garden)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/290/trudge-garden) · oracle_id `be175e92-567a-42e3-ad54-136c0631fe0e` · printing: SOC #290 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### True Ancestry
@@ -113,6 +114,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — Clue tokens are artifact tokens with "{2}, Sacrifice this token: Draw a card."
   - *2025-10-02* — Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because of creating a Clue token this way.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#true-ancestry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/199/true-ancestry) · oracle_id `26c2dd96-07e7-4294-9431-96d5aeff3761` · printing: TLA #199 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### True Believer
@@ -201,6 +203,7 @@ schema: 2
   - *2017-04-18* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
   - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
   - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trueheart-duelist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/35/trueheart-duelist) · oracle_id `a0185db5-8988-4f63-8f3c-a19b4807a431` · printing: AKH #35 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trueheart Twins
@@ -273,6 +276,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11449 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — Protection from a player means that True-Name Nemesis has protection from each object controlled by that player. If an object has no controller (such as a card in a graveyard), its owner is considered its controller for this purpose.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#true-name-nemesis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/136/true-name-nemesis) · oracle_id `112322ad-8f66-4cd4-98a1-f425d61a69ce` · printing: BBD #136 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### True Polymorph
@@ -358,6 +362,7 @@ schema: 2
   - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
   - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
   - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/T.md#trumpeting-carnosaur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/171/trumpeting-carnosaur) · oracle_id `f2ef8bda-373d-4387-900d-0f1b6ccf72e9` · printing: LCI #171 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trumpeting Gnarr
@@ -569,6 +574,7 @@ schema: 2
   - *2019-11-12* — If you need to choose a card in your hand without revealing it to other players (most likely because an effect instructs each player to discard a card), you can hide your hand while choosing one or use any other method to keep your choice secret.
   - *2019-11-12* — One a spell or ability has had another player choose modes for it, a player can’t choose to not finish casting or activating that spell or ability unless there’s no way for the player to complete the process. For example, the player can’t choose to not activate mana abilities to pay for the spell.
   - *2019-11-12* — While playing with your hand revealed, you can still reveal cards to pay a cost.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#truth-or-dare)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/32/truth-or-dare) · oracle_id `0deeaca6-730a-425a-a117-875c928c9913` · printing: CMB2 #32 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Truth or Tale

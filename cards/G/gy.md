@@ -102,6 +102,7 @@ schema: 2
   - *2013-04-15* — When comparing the stats as the evolve ability resolves, it's possible that the stat that's greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you'll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature enters the battlefield under your control, it toughness is greater so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You'll put a +1/+1 counter on the creature with evolve.
   - *2013-04-15* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
   - *2013-04-15* — Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won't trigger at all.
+- **Referenced in:** 4 pages (1 edh guides · 2 rules · 1 card data) → [reverse index](../../references/G.md#gyre-sage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/300/gyre-sage) · oracle_id `e3aa16cf-079b-4737-9ffd-7bfdffef0cb2` · printing: MOC #300 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gyruda, Doom of Depths
@@ -131,6 +132,7 @@ schema: 2
   - *2020-06-01* *(Scryfall note)* — Once you put your companion into your hand, it behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game.
   - *2020-06-01* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
   - *2020-06-01* *(Scryfall note)* — Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can’t be responded to. It can’t be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gyruda-doom-of-depths)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/221/gyruda-doom-of-depths) · oracle_id `25eaa977-ca85-4f8d-8be5-9297a3edb14f` · printing: IKO #221 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gyrus, Waker of Corpses

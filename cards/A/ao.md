@@ -35,4 +35,5 @@ schema: 2
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4388 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#ao-the-dawn-sky)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/135/ao-the-dawn-sky) · oracle_id `697ac261-263b-4879-bf45-6d10d23312ae` · printing: SOC #135 (2026-04-24) · [rulings](https://api.scryfall.com/cards/e002d351-3795-4cd9-b389-9ed81077845e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

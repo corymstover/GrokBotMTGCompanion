@@ -147,6 +147,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27333 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#ma-chao-western-warrior)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/116/ma-chao-western-warrior) · oracle_id `023e26d8-b67d-43dd-89b1-8905b1183094` · printing: PTK #116 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Machinate
@@ -183,6 +184,7 @@ schema: 2
   - *2022-10-14* — If the copied creature has {X} in its mana cost, X is 0.
   - *2022-10-14* — Machine God’s Effigy will not copy any types (such as creature or enchantment) or non-artifact subtypes (such as Phyrexian or Elf) that creature had, but it will copy any supertypes, such as legendary, and artifact subtypes (such as Treasure or Vehicle). It also has the same name, so if you copy a legendary creature you control, you will need to choose one of them to put in your graveyard due to the legend rule.
   - *2022-10-14* — The ability of Machine God’s Effigy doesn’t target the creature.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#machine-gods-effigy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/16/machine-gods-effigy) · oracle_id `64ebdd6f-acde-4aab-a86b-2798bad5f70c` · printing: BRC #16 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Machine Man, Model X-51
@@ -209,6 +211,7 @@ schema: 2
   > *The Warlord decreed that only someone who could move the statue would be strong enough to marry the princess. So Urza moved it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15113 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#machine-over-matter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/57/machine-over-matter) · oracle_id `37069c66-c17a-40ac-80f4-14ef49d18008` · printing: BRO #57 (2022-11-18) · [rulings](https://api.scryfall.com/cards/d08eadf5-a86d-4e8d-b65d-79b4f88477b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Machinesmith Automaton
@@ -242,4 +245,5 @@ schema: 2
   - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
   - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
   - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/M.md#machinists-arsenal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/23/machinists-arsenal) · oracle_id `e7fff34e-9b80-4a67-a917-fd9efddb5a1f` · printing: FIN #23 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

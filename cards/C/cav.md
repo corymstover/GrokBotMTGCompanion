@@ -76,6 +76,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5704 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-02-07* — You may put this creature’s enters ability onto the stack without choosing any target. It will resolve with no effect. However, if you do choose a target and the target permanent is an illegal target by the time that ability tries to resolve, the ability won’t resolve. No player will create a Golem token. If the target is legal but not destroyed (most likely because it has indestructible), its controller will create a Golem token.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/C.md#cavalier-of-dawn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/10/cavalier-of-dawn) · oracle_id `7c520355-1ab8-4d6d-9a29-0f63d6b60024` · printing: M20 #10 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavalier of Flame
@@ -163,6 +164,7 @@ schema: 2
 - **Rulings** (2):
   - *2006-09-25* — Cavalry Master adds only one instance of flanking per creature, even if that creature already has multiple instances of flanking.
   - *2006-09-25* — If a creature without flanking is given flanking by another effect, then this ability will grant a second instance. Similarly, if a creature loses flanking, then it won’t get the Calvary Master instance either.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#cavalry-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/6/cavalry-master) · oracle_id `7083dedd-b246-4fe0-b1ca-00c490ed9c6b` · printing: TSP #6 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavalry Pegasus
@@ -220,6 +222,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — If Cave of the Frost Dragon enters the battlefield at the same time as one or more other lands, it doesn't take those lands into consideration when determining how many other lands you control.
   - *2021-07-23* — If you turn Cave of the Frost Dragon into a creature but haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cave-of-the-frost-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/253/cave-of-the-frost-dragon) · oracle_id `1e4146d2-cfa0-4f5e-9761-3c83519b90c3` · printing: AFR #253 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cave People
@@ -278,6 +281,7 @@ schema: 2
   - *2023-06-16* — Cavern-Hoard Dragon's last ability cares about the number of artifacts that player controls as the ability resolves.
   - *2023-06-16* — If the greatest number of artifacts an opponent controls is seven or more, Cavern-Hoard Dragon costs {R}{R} to cast.
   - *2023-06-16* — Once a player has announced that they are casting Cavern-Hoard Dragon, no player may take actions to try and change the greatest number of artifacts an opponent controls before Cavern-Hoard Dragon's cost is locked in.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cavern-hoard-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/31/cavern-hoard-dragon) · oracle_id `939e8448-013a-4aef-9a92-7c883a77a1a0` · printing: LTC #31 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavern Lampad
@@ -313,6 +317,7 @@ schema: 2
   - *2018-12-07* — You must choose an existing creature type, such as Human or Warrior. Card types such as artifact can't be chosen.
   - *2023-11-10* — The spell can't be countered if the mana produced by Cavern of Souls is spent to cover any cost of the spell, even an additional cost such as a kicker cost. This is true even if you use the mana to pay an additional cost while casting a spell "without paying its mana cost."
   - *2023-11-10* — You must choose an existing creature type, such as Human or Warrior. Card types such as artifact can't be chosen.
+- **Referenced in:** 22 pages (17 decks · 3 edh guides · 2 card data) → [reverse index](../../references/C.md#cavern-of-souls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/269/cavern-of-souls) · oracle_id `89ca686a-7c72-4d8f-9290-e89635624a83` · printing: LCI #269 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavernous Maw
@@ -326,6 +331,7 @@ schema: 2
   > *Many footprints lead into the cave. None lead out.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15019 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cavernous-maw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/270/cavernous-maw) · oracle_id `952ab8fe-f7d3-4673-89de-8c6d3f8a081f` · printing: LCI #270 (2023-11-17) · [rulings](https://api.scryfall.com/cards/2a51ebf6-a465-42e2-82b7-d2cb928ca632/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caverns of Despair
@@ -353,6 +359,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — Activating Cavern Stomper's last ability after it has been blocked by one or more creatures with power 2 or less won't change or undo those blocks.
   - *2023-11-10* — Reducing a creature's power after it has blocked Cavern Stomper will not remove that blocking creature from combat or make Cavern Stomper unblocked.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#cavern-stomper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/177/cavern-stomper) · oracle_id `94657522-9977-4d2b-8eb6-f1e64e82cd0f` · printing: LCI #177 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavern Thoctar
@@ -419,6 +426,7 @@ schema: 2
   - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to “have the initiative.” The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
   - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
   - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren’t in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can’t start Undercity.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#caves-of-chaos-adventurer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/167/caves-of-chaos-adventurer) · oracle_id `e4d2dcbb-9910-482e-9e46-dfed2097509b` · printing: CLB #167 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caves of Koilos
@@ -434,6 +442,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
   - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
+- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 card data) → [reverse index](../../references/C.md#caves-of-koilos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/66/caves-of-koilos) · oracle_id `33de01e9-ce5a-42d4-afcb-343cd54a6d80` · printing: FRC #66 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cave Tiger

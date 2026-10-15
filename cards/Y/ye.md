@@ -93,6 +93,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25867 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#yellow-scarves-cavalry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/125/yellow-scarves-cavalry) · oracle_id `8ff7e8e9-11b4-4a77-a423-70777f00482b` · printing: PTK #125 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yellow Scarves General
@@ -109,6 +110,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29284 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#yellow-scarves-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/126/yellow-scarves-general) · oracle_id `6fbade4d-502d-45d7-a79e-3fd9e3e7ccdf` · printing: PTK #126 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yellow Scarves Troops

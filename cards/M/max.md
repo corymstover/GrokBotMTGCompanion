@@ -73,6 +73,7 @@ schema: 2
   - *2025-09-19* — However, if such a creature can't attack players other than you, it must attack you (unless you control it) or a planeswalker or battle it can attack.
   - *2025-09-19* — If a creature under the effects of the first chapter ability can't attack for any reason (such as being tapped or having come under your control that turn), then it doesn't attack. If there's a cost associated with having it attack, you're not forced to pay that cost, so it doesn't have to attack in that case either.
   - *2025-09-19* — Maximum Carnage's first chapter ability affects all creatures until your next turn, regardless of whether or not they were on the battlefield at the time the ability resolved.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#maximum-carnage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/83/maximum-carnage) · oracle_id `7351fca5-8672-4ba3-a015-bd4b6b289efc` · printing: SPM #83 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maximum Overdrive

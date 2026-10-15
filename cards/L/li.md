@@ -359,6 +359,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — If Liberated Livestock's ability causes more than the expected number of tokens to be created (due to an effect such as that of Doubling Season), you may put an Aura card from your hand and/or graveyard onto the battlefield attached to each of the additional tokens as well.
   - *2023-09-01* — If you attempt to put an Aura onto the battlefield this way and that Aura can't legally be attached to the token, that Aura does not enter the battlefield at all. Instead, it will stay in its previous zone.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#liberated-livestock)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woc/5/liberated-livestock) · oracle_id `d080cb03-b3e5-42e8-b289-2ce2151b4cb8` · printing: WOC #5 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liberating Combustion
@@ -387,6 +388,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — The last ability cares only about the amount of mana that was actually spent to cast the spell, regardless of its mana cost.
   - *2022-10-14* — The third ability applies only to casting spells. It does not, for example, change when you may activate abilities that can be activated "only as a sorcery."
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#liberator-urzas-battlethopter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/237/liberator-urzas-battlethopter) · oracle_id `798a4a6f-7443-4e8e-afcb-0a694fdfcbb3` · printing: BRO #237 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liberty Prime, Recharged
@@ -447,6 +449,7 @@ schema: 2
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — You may tap multiples of these in response to each other because the requirement for 7 cards is checked only at the time the ability is announced and not again when it resolves.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/L.md#library-of-alexandria)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/303/library-of-alexandria) · oracle_id `2111588d-9af5-4a33-989e-b074d83f0463` · printing: VMA #303 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Library of Lat-Nam
@@ -502,6 +505,7 @@ schema: 2
   - *2010-08-15* — Note that usually you will have 0 or less life at the time Lich leaves the battlefield causing you to lose as a State-Based Action before the last ability can even go on the stack.
   - *2010-08-15* — The last ability will cause you to lose the game even if you somehow manage to have a life total greater than 0 at the time the Lich leaves the battlefield or if some other effect would prevent you from losing for having 0 life. If, on the other hand, some effect such as that from Platinum Angel says that you can't lose the game then even the last ability of the Lich cannot cause you to do so. The ability will just resolve and the game will continue as normal.
   - *2011-01-01* — The last ability will cause you to lose the game even if you somehow manage to have a life total greater than 0 at the time the Lich is put into the graveyard or if some other effect would prevent you from losing for having 0 life. If, on the other hand, some effect such as that from Platinum Angel says that you can't lose the game then even the last ability of the Lich cannot cause you to do so. The ability will just resolve and the game will continue as normal.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lich)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/89/lich) · oracle_id `5b7515f2-7a5a-4e2a-9784-6cbacd768172` · printing: ME4 #89 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lichenthrope
@@ -531,6 +535,7 @@ schema: 2
   - *2023-09-01* — If any abilities trigger as you sacrifice permanents, those abilities won't be put onto the stack until after you've returned creature cards from your graveyard to the battlefield.
   - *2023-09-01* — You can choose to sacrifice zero permanents.
   - *2023-09-01* — You sacrifice the artifacts, enchantments, and/or tokens as part of the resolution of Lich-Knights' Conquest. It isn't an additional cost. If Lich-Knights' Conquest is countered, you won't sacrifice anything.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#lich-knights-conquest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/96/lich-knights-conquest) · oracle_id `b0e533dd-baf2-482a-b9e1-872eb5e47439` · printing: WOE #96 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lich Lord of Unx
@@ -545,6 +550,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12375 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-05-01* — The second ability counts all Zombies you control, not just the tokens put onto the battlefield with the first ability. It will count Lich Lord of Unx itself if it’s still under your control and still a Zombie when the ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lich-lord-of-unx)
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/24/lich-lord-of-unx) · oracle_id `6643fc8e-548e-48db-9f67-ffbca9e57016` · printing: ARB #24 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lich's Caress
@@ -572,6 +578,7 @@ schema: 2
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lichs-duel-mastery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/546/lichs-duel-mastery) · oracle_id `04a7c544-5db7-4d9e-afb7-4ea526bf34b5` · printing: MB2 #546 (2024-08-02) · [rulings](https://api.scryfall.com/cards/c20bc090-26ae-4c7e-90ae-157228917c65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lich's Mastery
@@ -592,6 +599,7 @@ schema: 2
   - *2018-04-27* — While you can’t lose the game, your opponents can still win the game if an effect says so.
   - *2018-04-27* — While you control Lich’s Mastery, your life total still changes. Lich’s Mastery’s effects don’t replace the life gain or life loss.
   - *2018-04-27* — You don’t have to exile all the cards from one place. For example, if a source deals 5 damage to you, you may exile one permanent, two cards from hand, and two cards from your graveyard.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lichs-mastery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/98/lichs-mastery) · oracle_id `785c306c-471c-4699-8ab2-43c253d569cf` · printing: DOM #98 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lich's Mirror
@@ -622,6 +630,7 @@ schema: 2
   - *2008-10-01* — Lich's Mirror shuffles tokens you own into your library, too. The tokens you own will leave play. However, there's no point to physically shuffling tokens into your library because you can't draw them as part of Lich's Mirror's effect and they'll cease to exist immediately afterwards.
   - *2009-10-01* — A token's owner is the player who created it.
   - *2010-06-15* — In a Two-Headed Giant game, if your team would lose the game and you control Lich's Mirror, your team won't lose. Instead, you'll do what Lich's Mirror says and your teammate won't do anything. This is true even if the reason your team would lose is because your teammate tried to draw a card with an empty library or was affected by an ability that said they lost the game. Your life total (which is the same as your team's life total) becomes 20. Your team's life total is adjusted by the amount of life you gain or lose as a result of this, which basically means your team's life total becomes 20.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lichs-mirror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/210/lichs-mirror) · oracle_id `e81da4a7-4b03-4107-b7d9-4b635faa615d` · printing: ALA #210 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lich's Relic
@@ -635,6 +644,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14723 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#lichs-relic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/57/lichs-relic) · oracle_id `0540eaca-0e03-4831-955a-192ae2b87d35` · printing: FRA #57 (2026-10-02) · [rulings](https://api.scryfall.com/cards/b105511d-5022-4a84-b6ce-4bb433e93a62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lich's Tomb
@@ -679,6 +689,7 @@ schema: 2
 - **Keywords:** Pheromone Trail, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18465 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lictor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/94/lictor) · oracle_id `3fdf064d-a5be-4925-87b1-3547997f0840` · printing: 40K #94 (2022-10-07) · [rulings](https://api.scryfall.com/cards/3c4d8f36-461f-48a6-a4e4-9ddfb388de19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lidless Gaze
@@ -791,6 +802,7 @@ schema: 2
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
   - *2025-10-02* — Lier's last ability allows you to cast adventurer cards in your graveyard as Adventures and omen cards in your graveyard as Omens using the flashback it grants. This is because the alternative characteristics of those cards are considered when determining whether or not those spells can legally be cast. Note that only the Adventure or Omen can be cast this way. For example, if you control Lier and you have Bonecrusher Giant in your graveyard, you can cast Stomp with flashback, but not Bonecrusher Giant.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lier-disciple-of-the-drowned)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/157/lier-disciple-of-the-drowned) · oracle_id `f224db3d-cdd2-43f2-b625-4b861efa6449` · printing: TDC #157 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liesa, Forgotten Archangel
@@ -805,6 +817,7 @@ schema: 2
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2109 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#liesa-forgotten-archangel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/243/liesa-forgotten-archangel) · oracle_id `efcaadbe-24e3-4dfc-b08c-a910f003d427` · printing: INR #243 (2025-01-24) · [rulings](https://api.scryfall.com/cards/106b6b43-1881-417b-97f5-f5b050eb98fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liesa, Shroud of Dusk
@@ -822,6 +835,7 @@ schema: 2
   - *2020-11-10* — Liesa's first ability applies only to the "commander tax." If there are any other additional costs to cast Liesa, those costs must be paid as normal.
   - *2020-11-10* — Liesa's first ability isn't optional. You can't choose to pay mana to cover the "commander tax," even if you have that mana available.
   - *2020-11-10* — Liesa's last ability will resolve before the spell that caused it to trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#liesa-shroud-of-dusk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/286/liesa-shroud-of-dusk) · oracle_id `2270daaf-252d-40c4-bed5-bd46ae15f041` · printing: CMR #286 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lieutenant Kirtar
@@ -1011,6 +1025,7 @@ schema: 2
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5792 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lifecraft-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/234/lifecraft-engine) · oracle_id `caa69b51-1efd-4d0e-803b-914a83ccb836` · printing: DFT #234 (2025-02-14) · [rulings](https://api.scryfall.com/cards/40c92203-17df-4f10-92c6-ebcc79f01357/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lifecrafter's Bestiary
@@ -1131,6 +1146,7 @@ schema: 2
   - *2024-01-12* — Once you've announced that you're applying a card's dredge ability to replace a draw, players can't take any actions until you've put that card into your hand and milled cards.
   - *2024-01-12* — One card draw can't be replaced by multiple dredge abilities.
   - *2024-01-12* — You can't attempt to use a dredge ability if you don't have enough cards in your library.
+- **Referenced in:** 9 pages (3 decks · 4 edh guides · 1 rules · 1 card data) → [reverse index](../../references/L.md#life-from-the-loam)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/96/life-from-the-loam) · oracle_id `ac8fba34-512c-4f24-999a-ab72f1ce4acb` · printing: TDC #96 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lifegift
@@ -1158,6 +1174,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18207 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-06-23* — You won't gain more than 8 life if more than one creature died this turn.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#life-goes-on)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/192/life-goes-on) · oracle_id `15d2176b-ab3d-4738-bcbc-bcebf891d16e` · printing: M21 #192 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Life Insurance
@@ -1176,6 +1193,7 @@ schema: 2
   - *2024-01-12* — The extort ability doesn't target any player.
   - *2024-01-12* — The extort ability resolves before the spell that caused it to trigger. The ability resolves even if that spell is countered.
   - *2024-01-12* — You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/L.md#life-insurance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/224/life-insurance) · oracle_id `50779f73-c538-4364-aca4-4ab069a00814` · printing: DSC #224 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lifelace
@@ -1249,6 +1267,7 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — Splicing Lifening Elemental onto an instant or sorcery will give it lifelink. It won’t make that instant or sorcery spell a creature spell, nor give it a power or toughness.
   - *2024-11-08* — You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell, although multiple cards with the same name may be spliced onto one spell.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lifening-elemental)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/547/lifening-elemental) · oracle_id `8ac13b2c-845e-4c49-9a8c-2cfcc69dc0d4` · printing: MB2 #547 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Life of the Party
@@ -1360,6 +1379,7 @@ schema: 2
   > *—Snow-Fur, kitsune poet*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20066 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lifespinner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/133/lifespinner) · oracle_id `0fb26acd-891d-471d-98d8-73c6f940052b` · printing: BOK #133 (2005-02-04) · [rulings](https://api.scryfall.com/cards/c6a83083-f7c6-4ddf-aee9-538a1778697d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lifespring Druid
@@ -1418,6 +1438,7 @@ schema: 2
 - **Keywords:** Roll to Visit Your Attractions, Open an Attraction
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12300 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/L.md#lifetime-pass-holder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/79/lifetime-pass-holder) · oracle_id `7bf6f13a-3c90-4bda-bc84-e026828bf4d1` · printing: UNF #79 (2022-10-07) · [rulings](https://api.scryfall.com/cards/fede7f75-0dff-4f3e-816d-e52b43e8b33b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lifted by Clouds
@@ -1488,6 +1509,7 @@ schema: 2
   - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
   - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
   - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lightfoot-rogue)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/111/lightfoot-rogue) · oracle_id `8a825e4c-4a87-4b8d-84f7-3e50b896d7cb` · printing: AFR #111 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightfoot Technique
@@ -1666,6 +1688,7 @@ schema: 2
   - *2025-06-06* — If another effect (or effects) modifies how much damage a source you control would deal—by preventing some of it, for example—the player being dealt damage or the controller of the permanent being dealt damage chooses the order in which any such effects (including Lightning's) apply. If all of the damage is prevented, Lightning's effect no longer applies.
   - *2025-06-06* — If damage dealt by a source you control is being divided or assigned among multiple permanents and/or players, that damage is divided or assigned before doubling. For example, if you attack with a 5/5 creature with trample and it's blocked by a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. Those amounts are then doubled to 4 and 6, respectively.
   - *2025-06-06* — The damage is dealt by the same source as the original source of damage. The doubled damage isn't dealt by Lightning unless it was the original source of damage.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/L.md#lightning-army-of-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/233/lightning-army-of-one) · oracle_id `585eb5bc-5a3d-44d8-b593-1ff0d67f96a7` · printing: FIN #233 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Axe
@@ -1738,6 +1761,7 @@ schema: 2
   > *"I am the god of thunder, the lord of the savage lightning, and the very skies must tremble when speaks The Mighty Thor!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #157 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 6 pages (2 decks · 1 edh guides · 3 card data) → [reverse index](../../references/L.md#lightning-bolt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/806/lightning-bolt) · oracle_id `4457ed35-7c10-48c8-9776-456485fdf070` · printing: MSC #806 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7673784e-db4b-43a1-8d55-1bb9fc1e284f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Cloud
@@ -1764,6 +1788,7 @@ schema: 2
   > At the beginning of your upkeep, if this artifact has five or more charge counters on it, remove all of them from it and create that many 3/1 red Elemental creature tokens with haste. Exile them at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19776 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lightning-coils)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/198/lightning-coils) · oracle_id `bbb16f23-fdb1-444b-bef8-ce3e177c2678` · printing: MRD #198 (2003-10-02) · [rulings](https://api.scryfall.com/cards/a800f326-3416-4917-a1cf-0f90255777d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Colt
@@ -1775,6 +1800,7 @@ schema: 2
   > When Lightning Colt enters, it deals 3 damage to any target.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lightning-colt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/57/lightning-colt) · oracle_id `93bc4e17-bd0e-4516-af6f-09a25712a323` · printing: CMB2 #57 (2021-08-20) · [rulings](https://api.scryfall.com/cards/1b7a9707-24fc-4214-8572-7ca47575b782/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning-Core Excavator
@@ -1876,6 +1902,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one Lightning Greaves to allow two new creatures to attack in the same turn.
   - *2020-08-07* — You can't simply unequip Equipment from a creature. If Lightning Greaves is attached to the only creature you control, you won't be able to attach other equipment to it (or target it with anything else) until you have another creature to which you can attach Lightning Greaves.
+- **Referenced in:** 50 pages (44 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/L.md#lightning-greaves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/202/lightning-greaves) · oracle_id `ca204b66-8d0c-431a-8d34-282f7c2d17da` · printing: MSC #202 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Helix
@@ -1890,6 +1917,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-11-17* — If the chosen target is illegal when Lightning Helix tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.
   - *2024-02-02* — If the chosen target is illegal when Lightning Helix tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#lightning-helix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/218/lightning-helix) · oracle_id `800c258a-cfc4-4a54-a667-065ea8dea69e` · printing: MKM #218 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Hounds
@@ -2107,6 +2135,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22315 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-11-24* — Lightning Shrieker’s owner shuffles it into their library only if it’s on the battlefield as its ability resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lightning-shrieker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/345/lightning-shrieker) · oracle_id `a5196310-f449-4d5e-8ea8-901a83bad6ff` · printing: JMP #345 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Skelemental
@@ -2179,6 +2208,7 @@ schema: 2
   > *Invoking Thor's wrath is a mistake few villains are stupid enough—or sturdy enough—to make twice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2269 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/L.md#lightning-strike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/142/lightning-strike) · oracle_id `f34b9bc4-7bfe-47fd-ba23-4eeeb46026eb` · printing: MSH #142 (2026-06-26) · [rulings](https://api.scryfall.com/cards/88b13bc0-da54-4c3b-917c-7c8345a329f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Surge
@@ -2314,6 +2344,7 @@ schema: 2
   - *2020-06-23* — If enchanted creature is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
   - *2020-06-23* — If you gain an amount of life “for each” of something, that life is gained as one event and the ability triggers only once.
   - *2020-06-23* — In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it caused your team's life total to increase.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#light-of-promise)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/25/light-of-promise) · oracle_id `64c54c9f-0550-41e2-a44a-5892a199f670` · printing: M21 #25 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Light of Sanction
@@ -2344,6 +2375,7 @@ schema: 2
   - *2018-10-05* — If the creature with mentor leaves the battlefield with mentor on the stack, use its power as that creature last existed on the battlefield to determine whether the target creature has less power.
   - *2018-10-05* — If the target creature's power is no longer less than the attacking creature's power as the ability resolves, mentor doesn't add a +1/+1 counter. For example, if two 3/3 creatures with mentor attack and both mentor triggers target the same 2/2 creature, the first to resolve puts a +1/+1 counter on it and the second does nothing.
   - *2018-10-05* — Mentor compares the power of the creature with mentor with that of the target creature at two different times: once as the triggered ability is put onto the stack, and once as the triggered ability resolves. If you wish to raise a creature's power so its mentor ability can target a bigger creature, the last chance you have to do so is during the beginning of combat step.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#light-of-the-legion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/19/light-of-the-legion) · oracle_id `79fc0d30-9b9b-400c-a614-c3a1f90a5380` · printing: GRN #19 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Light-Paws, Emperor's Voice
@@ -2356,6 +2388,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3144 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-02-18* — If the Aura card you find can't be attached to Light-Paws for any reason, it stays in your library and does not enter the battlefield.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/L.md#light-paws-emperors-voice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/25/light-paws-emperors-voice) · oracle_id `1718a442-b878-4690-b608-a013de3d79fc` · printing: NEO #25 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightshell Duo
@@ -2431,6 +2464,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#light-up-the-night)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/146/light-up-the-night) · oracle_id `4669926b-93f9-4d80-aee3-492fbf8e0a0a` · printing: MID #146 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Light Up the Stage
@@ -2455,6 +2489,7 @@ schema: 2
   - *2024-01-12* — Spectacle cares only that an opponent lost life during the turn, not that the opponent's life total is currently lower than it was. For example, if an opponent loses 1 life and then gains 2 life in the same turn, you can cast a spell for its spectacle cost that turn.
   - *2024-01-12* — Spectacle doesn't change when you can cast the spell. For example, you can't cast a sorcery with spectacle during an opponent's turn unless another effect allows you to do so, even if that player has lost life this turn.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a spectacle cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 rules) → [reverse index](../../references/L.md#light-up-the-stage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/166/light-up-the-stage) · oracle_id `8d286376-f386-43ab-a9bd-8478fb9e2497` · printing: DSC #166 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightwalker
@@ -2600,6 +2635,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13310 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-06-23* — If the target creature is an illegal target by the time Liliana's second ability tries to resolve, the ability won't resolve. No player loses 2 life. If the target is legal but not destroyed (most likely because it has indestructible), its controller does lose 2 life.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/L.md#liliana-death-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/328/liliana-death-mage) · oracle_id `d654dd73-763d-4dfb-a30f-a058fd7f27a6` · printing: M21 #328 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, Death's Majesty
@@ -2615,6 +2651,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2080 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-04-18* — A creature that is a Zombie and has other types, such as a Zombie Jackal, isn't a non-Zombie creature.
+- **Referenced in:** 4 pages (1 edh guides · 3 lore & story) → [reverse index](../../references/L.md#liliana-deaths-majesty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/121/liliana-deaths-majesty) · oracle_id `7fca595e-1902-40fd-a359-622caa612b6a` · printing: MIC #121 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, Death Wielder
@@ -2628,6 +2665,7 @@ schema: 2
   > −10: Return all creature cards from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7865 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/L.md#liliana-death-wielder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/78/liliana-death-wielder) · oracle_id `e1b6cc44-41b6-43d0-9fe9-722cebb1c47b` · printing: ECC #78 (2026-01-23) · [rulings](https://api.scryfall.com/cards/6f874b0e-32e3-421f-8109-522638b3f38d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, Dreadhorde General
@@ -2648,6 +2686,7 @@ schema: 2
   - *2024-01-12* — If Liliana somehow becomes a creature and dies, her first ability will trigger.
   - *2024-01-12* — The permanent types are artifact, creature, enchantment, land, and planeswalker. Supertypes, like legendary, aren't permanent types.
   - *2024-01-12* — While making choices for Liliana's last ability, if a permanent has more than one permanent type, it can count for any of them. For example, you could choose an artifact creature as the artifact you're sparing, another creature as the creature, and an enchantment creature as the enchantment. Similarly, you could choose an enchantment creature as both the creature and the enchantment that you're sparing, even if you control another creature and/or another enchantment.
+- **Referenced in:** 7 pages (2 decks · 1 edh guides · 3 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-dreadhorde-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/176/liliana-dreadhorde-general) · oracle_id `5e958212-6a5b-4288-8d31-f1572619d7dc` · printing: FDN #176 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, Heretical Healer // Liliana, Defiant Necromancer
@@ -2678,6 +2717,7 @@ schema: 2
   - *2016-04-08* — The back face of a double-faced card doesn’t have a mana cost. A double-faced permanent with its back face up has a converted mana cost equal to the converted mana cost of its front face. Each back face has a color indicator that defines its color.
   - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
   - *2017-09-29* — You can control two of this permanent, one front-face up and the other back-face up, at the same time.
+- **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-heretical-healer--liliana-defiant-necromancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cc2/1/liliana-heretical-healer-liliana-defiant-necromancer) · oracle_id `b96a8ad2-3d86-459b-a34f-19c9dc07c3c4` · printing: CC2 #1 (2022-01-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana of the Dark Realms
@@ -2695,6 +2735,7 @@ schema: 2
   - *2012-07-01* — When you activate Liliana's second ability, you choose only the target creature. You choose whether that creature gets +X/+X or -X/-X when the ability resolves. The value of X is determined by the number of Swamps you control when the ability resolves.
   - *2012-07-01* — You can activate Liliana's first ability even if your library contains no Swamp cards (or you don't want to find one). You'll still search your library and shuffle it.
   - *2013-07-01* — Each of Liliana's abilities refers to lands (or land cards) with the subtype Swamp, not just ones named Swamp.
+- **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/L.md#liliana-of-the-dark-realms)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/102/liliana-of-the-dark-realms) · oracle_id `92301066-8904-41bc-84bd-4aa286cbab9c` · printing: M14 #102 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana of the Veil
@@ -2712,6 +2753,7 @@ schema: 2
   - *2022-09-09* — When Liliana’s first ability resolves, first the player whose turn it is chooses a card in hand without revealing it, then each other player in turn order does the same. Then all the chosen cards are discarded at the same time.
   - *2022-09-09* — When Liliana’s third ability resolves, you put each permanent the player controls into one of the two piles. For example, you could put a creature into one pile and an Aura enchanting that creature into the other pile.
   - *2022-09-09* — You can activate Liliana’s first ability even if some or all players will be unable to discard a card.
+- **Referenced in:** 3 pages (1 decks · 2 lore & story) → [reverse index](../../references/L.md#liliana-of-the-veil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/475/liliana-of-the-veil) · oracle_id `0ba134d8-ee7d-48ec-8dc6-57942b8e9261` · printing: INR #475 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana's Caress
@@ -2725,6 +2767,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2404 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2010-08-15* — If an opponent discards multiple cards (due to a spell, an ability, or the action of discarding down to the maximum hand size during their cleanup step), Liliana’s Caress’s ability triggers that many times.
+- **Referenced in:** 6 pages (5 decks · 1 edh guides) → [reverse index](../../references/L.md#lilianas-caress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m11/103/lilianas-caress) · oracle_id `a4aec0d6-13fa-4709-b1a9-2f483f032744` · printing: M11 #103 (2010-07-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana's Contract
@@ -2740,6 +2783,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-07-13* — If the second ability does trigger, but you no longer control four Demons with different names as the ability resolves, you won’t win the game.
   - *2018-07-13* — If you don’t control four Demons with different names as your upkeep begins, the second ability of Liliana’s Contract won’t trigger. You can’t take any actions during your turn before your upkeep begins.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#lilianas-contract)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/107/lilianas-contract) · oracle_id `6858702a-e563-4dcb-a50d-65406cea7c86` · printing: M19 #107 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana's Defeat
@@ -2753,6 +2797,7 @@ schema: 2
   > *—Nicol Bolas*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24802 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#lilianas-defeat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/68/lilianas-defeat) · oracle_id `7c8b38b3-b808-4ad8-b4e5-39e216063ff6` · printing: HOU #68 (2017-07-14) · [rulings](https://api.scryfall.com/cards/0f72b028-b9df-40c7-822f-4acc6bdcc719/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana's Devotee
@@ -2785,6 +2830,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16297 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — The ability applies only while Liliana's Elite is on the battlefield.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#lilianas-elite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/82/lilianas-elite) · oracle_id `b6492082-d0ef-4f7c-a4b1-f8ecf6eb0890` · printing: 2X2 #82 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana's Indignation
@@ -2841,6 +2887,7 @@ schema: 2
   - *2024-11-08* — If you control Liliana’s Undead Minion in a Two-Headed Giant game, your team can’t lose the game.
   - *2024-11-08* — While you control, Liliana’s Undead Minion, nothing can cause you to lose the game. You won’t lose from having 0 or less life, drawing a card from an empty library, having ten or more poison counters, and so on. However, your opponents can still win the game if an effect says so, such as with the ability of Wowzer, the Aspirational.
   - *2024-11-08* — You can activate one of Liliana’s Undead Minion’s loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if Liliana’s Undead Minion enters the battlefield during combat, there will be an opportunity for your opponents to remove it before you can activate one of its abilities.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lilianas-other-contract--lilianas-undead-minion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/548/lilianas-other-contract-lilianas-undead-minion) · oracle_id `150be0e9-a65f-4209-bdea-8cf4c691d217` · printing: MB2 #548 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana's Reaver
@@ -2984,6 +3031,7 @@ schema: 2
   - *2019-05-03* — Whether you control an appropriate planeswalker is checked only as the spell resolves.
   - *2021-03-19* — As Liliana's Triumph resolves, the opponent whose turn it is (or, if it's your turn, the next opponent in turn order) chooses a creature to sacrifice, then each other opponent in turn order does the same, knowing the choices made before them. Then all the chosen creatures are sacrificed at the same time. Then, if you control a Liliana planeswalker, in the same order, each opponent chooses a card in their hand without revealing it, and those cards are discarded at the same time.
   - *2021-03-19* — You can cast Liliana's Triumph even if some or all of your opponents will be unable to sacrifice a creature. If you control a Liliana planeswalker, they'll still discard a card, even if they couldn't sacrifice a creature.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#lilianas-triumph)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/98/lilianas-triumph) · oracle_id `c2e68ac5-cfff-4b76-8062-25a82fdf9a5c` · printing: WAR #98 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana the Faultless
@@ -2998,6 +3046,7 @@ schema: 2
   > *"All mistakes can be fixed. Even you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8127 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/L.md#liliana-the-faultless)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/200/liliana-the-faultless) · oracle_id `22c2e66d-a2a1-46db-a70a-dff5ad5d6c14` · printing: FRA #200 (2026-10-02) · [rulings](https://api.scryfall.com/cards/70d8c400-87dc-4f15-808f-e54a95d779fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, the Last Hope
@@ -3015,6 +3064,7 @@ schema: 2
   - *2016-07-13* — Liliana's second ability doesn't target the card to return to your hand. After putting the top two cards of your library into your graveyard, you may choose from among any creature cards there.
   - *2016-07-13* — While resolving the triggered ability of Liliana's emblem, if you control zero Zombies, you'll get two Zombie tokens.
   - *2016-07-13* — You can activate Liliana's first ability without any targets just to add a loyalty counter to her.
+- **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-the-last-hope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/81/liliana-the-last-hope) · oracle_id `64a9a6b4-26b5-4d23-be86-85c54e9c4727` · printing: 2X2 #81 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, the Necromancer
@@ -3032,6 +3082,7 @@ schema: 2
   - *2018-07-13* — If any abilities trigger on the target creatures being destroyed, those abilities won’t be put onto the stack until after you’ve put creature cards onto the battlefield from graveyards.
   - *2018-07-13* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Liliana’s third ability that came from other players’ graveyards are exiled.
   - *2018-07-13* — You may activate Liliana’s last ability without choosing any target creatures. You’ll just put up to two creature cards onto the battlefield from graveyards. However, if you choose any targets and all of those targets become illegal before the ability tries to resolve, the ability won’t resolve and you won’t put any cards onto the battlefield.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/L.md#liliana-the-necromancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/291/liliana-the-necromancer) · oracle_id `f3ad60a6-05d0-48a1-a804-7900d306d613` · printing: M19 #291 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana the Repentant
@@ -3047,6 +3098,7 @@ schema: 2
 - **Keywords:** Exhaust, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13309 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (3 lore & story) → [reverse index](../../references/L.md#liliana-the-repentant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/231/liliana-the-repentant) · oracle_id `5eb4403f-f199-4f75-a7c6-e76783f9b07d` · printing: FRA #231 (2026-10-02) · [rulings](https://api.scryfall.com/cards/1eb25a6c-d6b4-465d-990e-f1ab86b26b69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, Untouched by Death
@@ -3065,6 +3117,7 @@ schema: 2
   - *2018-07-13* — In a Two-Headed Giant game, Liliana’s first ability causes the opposing team to lose 4 life and you gain 2 life.
   - *2018-07-13* — Once Liliana’s third ability has resolved, any Zombie cards in your graveyard may be cast this turn, including Zombie cards that enter your graveyard later in the turn.
   - *2018-07-13* — The value of X is determined only as Liliana’s second ability resolves. If the number of Zombies you control changes later, the target creature’s power and toughness won’t change.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/L.md#liliana-untouched-by-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/106/liliana-untouched-by-death) · oracle_id `4f66489c-5a19-40ad-9126-461fa8231f1b` · printing: M19 #106 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana Vess
@@ -3079,6 +3132,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4788 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — A “creature card” is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-vess)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/103/liliana-vess) · oracle_id `a6c05941-2cfb-4dac-a7c0-ab808187eb7c` · printing: M15 #103 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, Waker of the Dead
@@ -3098,6 +3152,7 @@ schema: 2
   - *2020-06-23* — If you have no cards in hand, you just don't discard anything. You don't lose 3 life. Other players still discard if able.
   - *2020-06-23* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Liliana's emblem are exiled.
   - *2020-06-23* — The value of X is determined only as Liliana's second ability resolves. Once that happens, the value of X won't change later in the turn even if the number of cards in your graveyard changes.
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-waker-of-the-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/108/liliana-waker-of-the-dead) · oracle_id `e0df8e2a-96d2-4e4d-b065-aa2e162abbfe` · printing: M21 #108 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lilting Refrain
@@ -3110,6 +3165,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22552 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Adding a counter is optional. If you forget to add one during your upkeep, you cannot back up and add one later.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lilting-refrain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/83/lilting-refrain) · oracle_id `f91a71b7-9bc0-4609-a312-ffede52dc0ad` · printing: USG #83 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lily Bowen, Raging Grandma
@@ -3225,6 +3281,7 @@ schema: 2
   - *2007-09-16* — If you have five or fewer cards in your library, you can pay 1 life as many times as you like, but you'll keep seeing the same cards.
   - *2007-09-16* — If you pay no life, you shuffle the rest of your library and then put the top five cards back on top in any order.
   - *2007-09-16* — In other words: — Step 1: Look at the top five cards of your library. — Step 2: If you like them, proceed to step 3a. If you don't like them, proceed to step 3b. — Step 3a: Shuffle the rest of your library, then put those five cards back on top of your library in the order you want. The spell has finished resolving. — Step 3b: Put those five cards on the bottom of your library in the order you want. Pay 1 life. Return to step 1.
+- **Referenced in:** 4 pages (3 decks · 1 edh guides) → [reverse index](../../references/L.md#lim-dûls-vault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/197/lim-d%C3%BBls-vault) · oracle_id `3f8e7a45-4c6e-4ee6-93d0-b7de9715ec97` · printing: C13 #197 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lim-Dûl the Necromancer
@@ -3281,6 +3338,7 @@ schema: 2
   - *2004-10-04* — If a player has less than 5 lands, they get to pick and keep all of their lands.
   - *2004-10-04* — The sacrificed lands are chosen during resolution. The current player chooses first.
   - *2004-10-04* — You can put lands onto the battlefield using effects, you just can’t play lands from your hand as an action.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/L.md#limited-resources)
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/10/limited-resources) · oracle_id `5b287dcc-f853-4df1-8ddf-5b8b2adc2873` · printing: EXO #10 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Limits of Solidarity
@@ -3326,6 +3384,7 @@ schema: 2
   - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
   - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/L.md#lindblum-industrial-regency--mage-siege)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/285/lindblum-industrial-regency-mage-siege) · oracle_id `4cc014f3-05e0-442e-9dee-03eab1aa65a3` · printing: FIN #285 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Linden, the Steadfast Queen
@@ -3341,6 +3400,7 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6301 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#linden-the-steadfast-queen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/737/linden-the-steadfast-queen) · oracle_id `dbc56f3b-83b3-41c8-a8ae-d3774fe6ee01` · printing: FDN #737 (2026-04-24) · [rulings](https://api.scryfall.com/cards/e0bb07cd-9b74-4ba7-8089-27a565d74197/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Linebreaker Baloth
@@ -3373,6 +3433,7 @@ schema: 2
 - **Keywords:** Roll to Visit Your Attractions
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15581 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/L.md#line-cutter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/80/line-cutter) · oracle_id `a43d9793-b2ee-427c-95ca-285611aa1a4d` · printing: UNF #80 (2022-10-07) · [rulings](https://api.scryfall.com/cards/0d07ddf4-e86f-406e-a31b-47aede5a97c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lineprancers
@@ -3393,6 +3454,7 @@ schema: 2
   - *2022-10-07* — If either target of the activated ability is illegal as the ability tries to resolve, it will have no effect. If both targets become illegal, the ability won’t resolve at all.
   - *2022-10-07* — If the creature you control does attack, and the creature you don’t control can’t block it for any reason (such as being tapped), then it doesn’t block. If there’s a cost associated with having it block the creature, its controller isn’t forced to pay that cost, so it doesn’t have to block in that case either. That creature is then free to block another creature or to not block at all.
   - *2022-10-07* — Once the activated ability resolves, the blocking requirement is set, even if the second target creature loses its power and toughness sticker before blockers are declared.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lineprancers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/146/lineprancers) · oracle_id `71433aef-5a06-449e-93b1-9565cb0afd93` · printing: UNF #146 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Linessa, Zephyr Mage
@@ -3504,6 +3566,7 @@ schema: 2
   - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time.
   - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
   - *2013-06-07* — When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lingering-tormentor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/36/lingering-tormentor) · oracle_id `276b1bd8-8918-4226-bab3-100cf5aa3c24` · printing: EVE #36 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lin Sivvi, Defiant Hero
@@ -3535,6 +3598,7 @@ schema: 2
   - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
   - *2017-03-14* — Linvala’s last ability affects only creatures on the battlefield. Activated abilities that work in other zones (such as bloodrush or unearth) can still be activated. Triggered abilities (starting with “when,” “whenever,” or “at”) are unaffected.
   - *2017-03-14* — No abilities of creatures your opponents control can be activated, including mana abilities.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/L.md#linvala-keeper-of-silence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/119/linvala-keeper-of-silence) · oracle_id `88dadc31-dfac-41b3-bf2a-65fa89e3c16d` · printing: JMP #119 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Linvala, Shield of Sea Gate
@@ -3574,6 +3638,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-01-22* — For each triggered ability, the game checks to see if the condition is true at the moment the ability would trigger. If the condition isn't true, the ability won't trigger. If the ability does trigger, the game will check again to see if the condition is true as the ability tries to resolve. If it's not true at that time, the ability won't do anything.
   - *2016-01-22* — In a multiplayer game, it's possible for the condition to be true at both times but with respect to two different opponents.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#linvala-the-preserver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/25/linvala-the-preserver) · oracle_id `64f5689d-504d-40e9-bdb5-36dcefd257e2` · printing: OGW #25 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lion Heart
@@ -3589,6 +3654,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13587 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lion-heart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/261/lion-heart) · oracle_id `bd4151cc-743a-40f0-9e51-1f67555d9ab3` · printing: FIN #261 (2025-06-13) · [rulings](https://api.scryfall.com/cards/04d327a3-1699-4556-b681-a957671ad142/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lionheart Glimmer
@@ -3643,6 +3709,7 @@ schema: 2
   - *2022-02-18* — If an Equipment with reconfigure somehow loses its abilities while it is attached, the effect causing it to not be a creature continues to apply until it becomes unattached.
   - *2022-02-18* — Reconfigure represents two activated abilities. Reconfigure [cost] means "[Cost]: Attach this permanent to another target creature you control. Activate only as a sorcery," and "[Cost]: Unattach this permanent. Activate only if this permanent is attached to a creature and only as a sorcery."
   - *2022-02-18* — Similarly, if an Equipment is tapped, its reconfigure abilities may still be activated and it may still become attached to creatures. Becoming attached doesn't untap it. In most cases, an attached Equipment being tapped won't affect gameplay, but it will be relevant if it becomes unattached again before it untaps.
+- **Referenced in:** 5 pages (1 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/L.md#lion-sash)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/26/lion-sash) · oracle_id `50330e48-db74-4c5f-a0bc-f9a8607e8f31` · printing: NEO #26 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lion's Eye Diamond
@@ -3657,6 +3724,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #741 · Game Changer: **yes** · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — The ability is a mana ability, so it is activated and resolves as a mana ability, but it can only be activated at times when you can cast an instant. Yes, this is a bit weird.
+- **Referenced in:** 19 pages (13 decks · 3 edh guides · 3 card data) → [reverse index](../../references/L.md#lions-eye-diamond)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/271/lions-eye-diamond) · oracle_id `ee6099b0-fb1f-42f1-b862-7708c6e36d05` · printing: VMA #271 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lion Umbra
@@ -3844,6 +3912,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-09-25* — If the target land is an illegal target by the time Lithoform Blight tries to resolve, the spell doesn't resolve. It doesn't enter the battlefield, so you don't draw a card.
   - *2020-09-25* — The enchanted land keeps any other card types (such as artifact) and supertypes (such as basic or legendary) when it loses its land types.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lithoform-blight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/109/lithoform-blight) · oracle_id `b256c311-e37d-4b3c-889c-85443e3d5e7e` · printing: ZNR #109 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lithoform Engine
@@ -3872,6 +3941,7 @@ schema: 2
   - *2020-09-25* — The token that a resolving copy of a spell becomes isn't said to have been “created.”
   - *2020-09-25* — Triggered abilities use the word “when,” “whenever,” or “at.” They're often written as “[Trigger condition], [effect].” Some keywords (such as prowess) are triggered abilities and will use “when,” “whenever,” or “at” in their reminder text.
   - *2020-09-25* — You can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy. Most notably, if the original spell was kicked, the copy is kicked.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 rules) → [reverse index](../../references/L.md#lithoform-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/245/lithoform-engine) · oracle_id `0bf299da-1854-4153-baea-3cee2eb01ee8` · printing: ZNR #245 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lithomancer's Focus
@@ -4058,6 +4128,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/L.md#livaan-cultist-of-tiamat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/188/livaan-cultist-of-tiamat) · oracle_id `ee565d5c-7a3a-481c-91aa-b982cf384220` · printing: CLB #188 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Live Fast
@@ -4079,6 +4150,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#live-fast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/87/live-fast) · oracle_id `04d02394-e17f-43cd-932f-f58e8cc56629` · printing: KLD #87 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lively Dirge
@@ -4108,6 +4180,7 @@ schema: 2
   - *2024-04-12* — You can’t choose the same mode more than once.
   - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
   - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lively-dirge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/93/lively-dirge) · oracle_id `0b23d9aa-d4ed-4ccf-8810-4a4d11d6fb9c` · printing: OTJ #93 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Live or Die
@@ -4221,6 +4294,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-03-16* — As Living Death resolves, all players exile their creature cards from graveyards at the same time. Then all players sacrifice all creatures they control at the same time. Then all players put all creatures they exiled onto the battlefield at the same time.
   - *2018-03-16* — Only cards exiled by Living Death's first instruction are put onto the battlefield. If a replacement effect (such as that of Leyline of the Void) causes any of the sacrificed creatures to be exiled instead of put into a graveyard, those cards aren't returned to the battlefield.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/L.md#living-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/185/living-death) · oracle_id `9e6a3df4-67a3-452e-a6ef-f04dbadb21ef` · printing: TDC #185 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Living Destiny
@@ -4264,6 +4338,7 @@ schema: 2
   - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#living-end)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/121/living-end) · oracle_id `3939fbe0-3be4-41ef-828d-c93f2cb33b4f` · printing: TSR #121 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Living History
@@ -4602,6 +4677,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30178 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2009-10-01* — “Legendary landwalk” means “This creature is can’t be blocked as long as defending player controls a legendary land.”
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/L.md#livonya-silone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/160/livonya-silone) · oracle_id `57f2aa02-f5f3-42a5-939d-5cc94200951e` · printing: ME3 #160 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lizard Blades
@@ -4626,6 +4702,7 @@ schema: 2
   - *2022-02-18* — If an Equipment with reconfigure somehow loses its abilities while it is attached, the effect causing it to not be a creature continues to apply until it becomes unattached.
   - *2022-02-18* — Reconfigure represents two activated abilities. Reconfigure [cost] means “[Cost]: Attach this permanent to another target creature you control. Activate only as a sorcery,” and “[Cost]: Unattach this permanent. Activate only if this permanent is attached to a creature and only as a sorcery.”
   - *2022-02-18* — Similarly, if an Equipment is tapped, its reconfigure abilities may still be activated and it may still become attached to creatures. Becoming attached doesn't untap it. In most cases, an attached Equipment being tapped won't affect gameplay, but it will be relevant if it becomes unattached again before it untaps.
+- **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/L.md#lizard-blades)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/153/lizard-blades) · oracle_id `f6314e50-a610-4fff-8f60-803d23460ff0` · printing: NEO #153 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lizard, Connors's Curse

@@ -102,6 +102,7 @@ schema: 2
   - *2007-10-01* — Abilities that trigger when a player gains life may trigger as a result of this ability.
   - *2007-10-01* — In other multiplayer formats, each player's life total is set to the highest life total within their range of influence. These changes happen at the same time. For example, if each player has a range of influence of one, and the players in the game are Alice (4 life), Barry (8 life), Carrie (11 life), and Doug (7 life), in that order, then Alice's life total will become 8 and Barry and Doug's life totals will each become 11.
   - *2010-06-15* — In a Two-Headed Giant game, each team chooses one person on that team to gain the appropriate amount of life. This basically means that the triggered ability will set the life total of each team to that of the team with the highest life total.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#arbiter-of-knollridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/17/arbiter-of-knollridge) · oracle_id `62705a41-7c4d-4e6c-85b0-36a9d27ab5ae` · printing: CM2 #17 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arbiter of the Ideal
@@ -197,6 +198,7 @@ schema: 2
   - *2013-09-15* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
   - *2013-09-15* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
   - *2013-09-15* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#arbor-colossus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c15/174/arbor-colossus) · oracle_id `bec585af-0c59-46a7-838f-d747c80a9e97` · printing: C15 #174 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arboreal Alliance
@@ -221,6 +223,7 @@ schema: 2
   - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
   - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
   - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#arboreal-alliance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/497/arboreal-alliance) · oracle_id `2f497352-c812-48c4-a922-cc311bcdcdc6` · printing: LTC #497 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arboreal Grazer
@@ -264,6 +267,7 @@ schema: 2
   > {T}: Untap target Forest.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #605 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/A.md#arbor-elf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/160/arbor-elf) · oracle_id `4567a528-75f0-4ea6-b927-3a500caf76ac` · printing: A25 #160 (2018-03-16) · [rulings](https://api.scryfall.com/cards/4b81165e-f091-4211-8b47-5ea6868b0d4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arboretum Elemental

@@ -40,4 +40,5 @@ schema: 2
   - *2025-09-19* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block," but it won't stop being suspected.
   - *2025-09-19* — Though JJJ suspects only one creature when he enters, there is generally no limit to the number of creatures that can be suspected. Suspecting a new creature doesn't cause other creatures to stop being suspected.
   - *2025-09-19* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#j-jonah-jameson)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/81/j-jonah-jameson) · oracle_id `de861715-fd0b-493e-9a7c-c470a23044c0` · printing: SPM #81 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

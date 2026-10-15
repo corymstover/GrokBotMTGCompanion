@@ -111,6 +111,7 @@ schema: 2
   > *Ranks of sleeping Ardenvale knights filled Eriette's throne room, ready to defend their witch-queen with unthinking devotion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9453 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#eerie-interference)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/12/eerie-interference) · oracle_id `35ba0e70-da7c-4ed9-b8ec-7dd5c5ce110e` · printing: WOE #12 (2023-09-08) · [rulings](https://api.scryfall.com/cards/42a74545-75c8-4a6b-bee1-ac5665d9bcf0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eerie Interlude
@@ -126,6 +127,7 @@ schema: 2
   - *2016-04-08* — Auras attached to the exiled creatures will be put into their owners’ graveyards. Equipment attached to the exiled creatures will become unattached and remain on the battlefield. Any counters on the exiled creatures will cease to exist.
   - *2016-04-08* — If a creature token is exiled, it ceases to exist. It won’t be returned to the battlefield.
   - *2016-04-08* — If a double-faced card is exiled, it will return with its front face up.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/E.md#eerie-interlude)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/22/eerie-interlude) · oracle_id `0634091a-a74c-4cea-b6d1-7324a725554a` · printing: KHC #22 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eerie Procession
@@ -169,4 +171,5 @@ schema: 2
   - *2025-04-04* — If an Aura is put onto the battlefield without being cast, the Aura’s controller-to-be chooses what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn’t target anything (so it could be attached to an opponent’s permanent with hexproof, for example), but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains in its current zone.
   - *2025-04-04* — You choose which permanent cards to return while Eerie Ultimatum is resolving. No player may take actions between the time you choose and the time those cards return to the battlefield.
   - *2025-04-04* — You may choose to return just one permanent card, regardless of its name.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/E.md#eerie-ultimatum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/184/eerie-ultimatum) · oracle_id `5674f6ae-ed5d-441e-a534-b5dd415165fd` · printing: IKO #184 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

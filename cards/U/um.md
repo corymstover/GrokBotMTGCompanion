@@ -157,6 +157,7 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1289 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#umbral-collar-zealot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/227/umbral-collar-zealot) · oracle_id `12db6263-75c2-442f-a1a5-7af7915f8f9f` · printing: SOC #227 (2026-04-24) · [rulings](https://api.scryfall.com/cards/98648b8a-2cf0-4c10-ab13-c88b2e03fc15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbral Expanse
@@ -173,6 +174,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7408 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — Unlike some other dual lands, Umbral Expanse has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Shineshadow Snarl (included in the Secrets of Strixhaven Commander decks).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#umbral-expanse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/60/umbral-expanse) · oracle_id `5a1dfc60-645d-4bc0-8883-e06ed9c80706` · printing: SOC #60 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbral Juke
@@ -204,6 +206,7 @@ schema: 2
   - *2008-05-01* — If a creature with an {Q} ability hasn't been under your control since your most recent turn began, you can't activate that ability, unless the creature has haste.
   - *2008-05-01* — If the permanent is already untapped, you can't activate its {Q} ability. That's because you can't pay the "Untap this permanent" cost.
   - *2008-05-01* — When you activate an {Q} ability, you untap the creature with that ability as a cost. The untap can't be responded to. (The actual ability can be responded to, of course.)
+- **Referenced in:** 5 pages (1 decks · 4 edh guides) → [reverse index](../../references/U.md#umbral-mantle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/267/umbral-mantle) · oracle_id `44f3241f-af82-4f2e-b15d-7f279bf6e816` · printing: SHM #267 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbra Mystic
@@ -298,6 +301,7 @@ schema: 2
   - *2005-02-01* — If the Jitte leaves the battlefield after the "+2/+2" mode is announced but before it resolves, the bonus is given to the creature that was most recently equipped once the ability resolves.
   - *2005-02-01* — The ability can be used any time Umezawa's Jitte's controller has priority — only the "target creature" choice has additional requirements. Choosing the "Equipped creature gets +2/+2 until end of turn" mode does nothing if the Jitte isn't equipped to a creature when the ability resolves.
   - *2005-02-01* — Umezawa's Jitte's activated ability generates a modal choice. The choice is made when the ability is activated.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/U.md#umezawas-jitte)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/163/umezawas-jitte) · oracle_id `1da10d5c-36a8-473f-a5d4-782ad61d8057` · printing: BOK #163 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umori, the Collector

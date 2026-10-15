@@ -198,6 +198,7 @@ schema: 2
   - *2024-07-05* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
   - *2024-07-05* — Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped.
   - *2024-07-05* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#arno-dorian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/47/arno-dorian) · oracle_id `ae90daea-6644-4235-bca6-b94ee9925f63` · printing: ACR #47 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arnyn, Deathbloom Botanist

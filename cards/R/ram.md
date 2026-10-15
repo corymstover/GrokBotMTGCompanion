@@ -129,6 +129,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — You may not play lands exiled with the last ability.
   - *2022-09-09* — You must pay all costs and follow all normal timing rules for spells cast with Ramirez DePietro, Pillager's last ability.
+- **Referenced in:** 5 pages (4 decks · 1 edh guides) → [reverse index](../../references/R.md#ramirez-depietro-pillager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/285/ramirez-depietro-pillager) · oracle_id `a3b8690e-ac47-444f-924e-ab2a12a85431` · printing: LCC #285 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rammas Echor, Ancient Shield
@@ -143,6 +144,7 @@ schema: 2
   - *2023-11-03* — A creature attacks alone if it's the only creature declared as an attacker during the declare attackers step (including creatures controlled by your teammates, if applicable). For example, exalted won't trigger if you attack with multiple creatures and all but one of them are removed from combat.
   - *2023-11-03* — If Rammas Echor was the second spell you cast in a turn, its first ability won't trigger that turn.
   - *2023-11-03* — Spells that were cast before Rammas Echor, Ancient Shield entered the battlefield count. If Rammas Echor was the first spell you cast in a turn, the next spell you cast that turn is your second spell.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rammas-echor-ancient-shield)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/505/rammas-echor-ancient-shield) · oracle_id `53d58401-c318-47e0-aab0-60001c071dbb` · printing: LTC #505 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramos, Dragon Engine
@@ -161,6 +163,7 @@ schema: 2
   - *2024-11-08* — Ramos's triggered ability counts the number of colors a spell has (from zero to five), not how many colored mana symbols are there in its mana cost or how many colors of mana you spent.
   - *2024-11-08* — Ramos's triggered ability doesn't trigger until you've finished casting a spell, including paying all of its costs. If Ramos has fewer than five +1/+1 counters on it, there's no way to add counters with a spell and pay for that spell with the newly-added counters.
   - *2024-11-08* — Ramos's triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered or otherwise leaves the stack without resolving. In that case, use its last known information to determine what colors it was.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#ramos-dragon-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/678/ramos-dragon-engine) · oracle_id `3ed41d2d-211b-4013-8562-8c64d54cc43a` · printing: FDN #678 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramosian Captain
@@ -293,6 +296,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-01-25* — All of the artifacts and enchantments that are destroyed leave the battlefield before any Centaurs are created, and their abilities can’t affect or trigger on these tokens entering the battlefield.
   - *2019-01-25* — If a permanent has indestructible, it isn’t destroyed this way and its controller won’t create a Centaur token for it. If it is destroyed but put into a zone other than a graveyard, its controller does create a Centaur token for it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rampage-of-the-clans)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/134/rampage-of-the-clans) · oracle_id `5dc34e93-97e3-434b-9f12-f45c6d556f13` · printing: RNA #134 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampage of the Valkyries
@@ -348,6 +352,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 9 pages (4 decks · 2 edh guides · 1 rules · 2 card data) → [reverse index](../../references/R.md#rampaging-baloths)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/104/rampaging-baloths) · oracle_id `2d3e6549-6cc6-434f-a189-ba3b55e64c34` · printing: EOC #104 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Brontodon
@@ -424,6 +429,7 @@ schema: 2
   - *2017-09-29* — If another creature enters the battlefield at the same time as Rampaging Ferocidon, its last ability triggers.
   - *2017-09-29* — Rampaging Ferocidon's last ability triggers whenever any player has a creature enter the battlefield, including you.
   - *2017-09-29* — Spells and abilities that cause players to gain life still resolve while Rampaging Ferocidon is on the battlefield. No player will gain life, but any other effects of that spell or ability will happen.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rampaging-ferocidon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/167/rampaging-ferocidon) · oracle_id `3e5ca524-8dd1-4f7f-a467-5210d768b8a1` · printing: DSC #167 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Geoderm
@@ -622,6 +628,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
   - *2004-10-04* — The land does not count toward your one per turn limit because it was put onto the battlefield by an effect.
+- **Referenced in:** 14 pages (9 decks · 3 edh guides · 2 card data) → [reverse index](../../references/R.md#rampant-growth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/265/rampant-growth) · oracle_id `8539f295-5d58-4436-a73a-b9277c4c7795` · printing: TDC #265 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampant, Growth
@@ -646,6 +653,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3338 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-02-18* — Use Rampant Rejuvenator's power as it last existed on the battlefield to determine the value of X for its last ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rampant-rejuvenator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/28/rampant-rejuvenator) · oracle_id `b5f5d6e3-e72e-40a5-a5c7-410617b6f933` · printing: NEC #28 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampart Architect
@@ -658,6 +666,7 @@ schema: 2
   > Whenever a creature you control with defender dies, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5366 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rampart-architect)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/47/rampart-architect) · oracle_id `b0edba6f-8f54-4dc4-b952-20b57a797d60` · printing: TDC #47 (2025-04-11) · [rulings](https://api.scryfall.com/cards/20f533fc-51d0-49bd-afcc-81b8b3ff9749/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampart Crawler
@@ -765,6 +774,7 @@ schema: 2
   - *2020-04-17* — If either creature is an illegal target as Ram Through tries to resolve, the creature you control won’t deal damage to any creature or player.
   - *2020-04-17* — If the target creature you control has deathtouch, 1 damage from it is lethal.
   - *2020-04-17* — Once you’ve determined how much damage is excess, the creature you control simultaneously deals damage to the creature and to its controller. This damage may be modified by replacement or prevention effects.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#ram-through)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/314/ram-through) · oracle_id `4b1befff-48fa-47a3-832e-bdaf43495c02` · printing: CMM #314 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramunap Excavator
@@ -780,6 +790,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-07-14* — Ramunap Excavator doesn't allow you to activate activated abilities (such as cycling) of land cards in your graveyard.
   - *2017-07-14* — Ramunap Excavator doesn't change the times when you can play those land cards. You can still play only one land per turn, and only during your main phase when you have priority and the stack is empty.
+- **Referenced in:** 7 pages (2 decks · 4 edh guides · 1 card data) → [reverse index](../../references/R.md#ramunap-excavator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/202/ramunap-excavator) · oracle_id `4f819ba4-52ef-4fdd-8e4c-5ae3b2f44db5` · printing: OTC #202 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramunap Hydra

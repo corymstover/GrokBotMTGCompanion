@@ -92,6 +92,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13889 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#armada-wurm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/143/armada-wurm) · oracle_id `33598888-0367-4085-9415-f4e21da08354` · printing: RTR #143 (2012-10-05) · [rulings](https://api.scryfall.com/cards/50cb4bf3-70d1-4acc-a1fb-49f4ea74ca16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armadillo Cloak
@@ -119,6 +120,7 @@ schema: 2
   > Destroy all lands.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4059 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/A.md#armageddon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/5/armageddon) · oracle_id `c9ed8b01-959a-47d6-891e-0abbdccf6e4f` · printing: A25 #5 (2018-03-16) · [rulings](https://api.scryfall.com/cards/77f1f6ac-983f-4f3e-8906-47f774e8367b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armageddon Clock
@@ -278,6 +280,7 @@ schema: 2
   - *2013-04-15* — When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
   - *2013-04-15* — When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn’t resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can’t perform any actions or have any actions performed on it.
   - *2013-04-15* — You can choose the same object as the target of each half of a fused split spell, if appropriate.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#armed--dangerous)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/122/armed-dangerous) · oracle_id `a0593a5b-6f76-4eb3-a1b1-9794d2d36c92` · printing: DGM #122 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armed Response
@@ -517,6 +520,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16795 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-11-10* — Whether or not you control another Dinosaur is checked only as Armored Kincaller's ability is resolving. It doesn't matter if you still control Armored Kincaller at the time, or if it's still a Dinosaur.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#armored-kincaller)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/174/armored-kincaller) · oracle_id `6aad6906-96ec-4994-bfc3-9a76f893bc8c` · printing: LCI #174 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Pegasus
@@ -619,6 +623,7 @@ schema: 2
   > *Not all enormous beasts are quick to anger.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24185 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#armored-whirl-turtle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/7/armored-whirl-turtle) · oracle_id `51a886f2-9b0a-4964-9d59-99dc1a68a97c` · printing: GS1 #7 (2018-06-22) · [rulings](https://api.scryfall.com/cards/fcc87fdf-6473-4b91-a8b9-2986e57dc071/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Wolf-Rider
@@ -733,6 +738,7 @@ schema: 2
   > III — This Saga deals X damage to target opponent, where X is the greatest mana value among artifacts you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13060 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#armor-wars)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/203/armor-wars) · oracle_id `1ad83cac-2c85-477b-ab00-1369f9683db5` · printing: MSH #203 (2026-06-26) · [rulings](https://api.scryfall.com/cards/11a13397-1d31-4257-87c2-a757a751c601/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armory Automaton
@@ -752,6 +758,7 @@ schema: 2
   - *2016-11-08* — If an Equipment an opponent controls is attached to a creature you control, any ability of that Equipment that says "you" refers to that opponent. However, if the Equipment says that the equipped creature has an ability, the word "you" in that ability refers to you, the controller of the creature.
   - *2016-11-08* — The triggered ability triggers both when Armory Automaton enters the battlefield and whenever it attacks. You don't have to choose only one.
   - *2016-11-08* — You can choose to target no Equipment if you don't want to attach any to Armory Automaton. Because the ability is optional, you also don't have to attach the Equipment it targets as you resolve the ability. However, you must either attach all of the target Equipment or attach none of them.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#armory-automaton)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/51/armory-automaton) · oracle_id `fa3335be-80b1-49d7-9809-5bef13be79f4` · printing: C16 #51 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armory Guard
@@ -937,6 +944,7 @@ schema: 2
   > *—Sidar Jabari*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21221 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#army-ants)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/126/army-ants) · oracle_id `c39112ab-ee1f-4f00-b18b-692b5fe32b80` · printing: VIS #126 (1997-02-03) · [rulings](https://api.scryfall.com/cards/7e129be5-e2c5-4f69-b8e8-539ac2085c7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Army of Allah
@@ -969,4 +977,5 @@ schema: 2
   - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#army-of-the-damned)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/242/army-of-the-damned) · oracle_id `75d667ec-86f4-4850-a3b6-e7a9fc7053b0` · printing: NCC #242 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
