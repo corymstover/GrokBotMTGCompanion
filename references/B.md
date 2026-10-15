@@ -1162,10 +1162,10 @@ schema: 2
 
 ### Blackblade Reforged
 
-[Card entry](../cards/B/bla.md#blackblade-reforged) · **3 pages** (decks 2 · lore & story 1)
+[Card entry](../cards/B/bla.md#blackblade-reforged) · **4 pages** (decks 2 · lore & story 2)
 
 - **Decks (2):** [Braids, Arisen Nightmare (Dominaria-only)](../decks/plane-dominaria-braids-arisen-nightmare.md) · [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md)
-- **Lore & story (1):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages)
+- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Items & Artifacts Index → Blackblade](../Items%20%26%20Artifacts%20Index.md#blackblade)
 
 ### Black Cat, Cunning Thief
 

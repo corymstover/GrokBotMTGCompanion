@@ -1464,10 +1464,10 @@ schema: 2
 
 ### The Chain Veil
 
-[Card entry](../cards/T/thec.md#the-chain-veil) · **2 pages** (decks 1 · lore & story 1)
+[Card entry](../cards/T/thec.md#the-chain-veil) · **3 pages** (decks 1 · lore & story 2)
 
 - **Decks (1):** [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md)
-- **Lore & story (1):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages)
+- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Items & Artifacts Index → Chain Veil](../Items%20%26%20Artifacts%20Index.md#chain-veil)
 
 ### The Chase Is On
 
@@ -1609,8 +1609,9 @@ schema: 2
 
 ### The Endstone
 
-[Card entry](../cards/T/thee.md#the-endstone) · **1 pages** (card data 1)
+[Card entry](../cards/T/thee.md#the-endstone) · **2 pages** (lore & story 1 · card data 1)
 
+- **Lore & story (1):** [Items & Artifacts Index → Endstone](../Items%20%26%20Artifacts%20Index.md#endstone)
 - **Card data (1):** [Artist Index → Artists H](../Artist%20Index.md#artists-h)
 
 ### The Enigma Jewel // Locus of Enlightenment
@@ -1772,9 +1773,10 @@ schema: 2
 
 ### The Immortal Sun
 
-[Card entry](../cards/T/thei.md#the-immortal-sun) · **1 pages** (decks 1)
+[Card entry](../cards/T/thei.md#the-immortal-sun) · **2 pages** (decks 1 · lore & story 1)
 
 - **Decks (1):** [Ghalta, Primal Hunger (Ixalan-only)](../decks/plane-ixalan-ghalta-primal-hunger.md)
+- **Lore & story (1):** [Items & Artifacts Index → Immortal Sun](../Items%20%26%20Artifacts%20Index.md#immortal-sun)
 
 ### The Indomitable
 
@@ -2018,11 +2020,11 @@ schema: 2
 
 ### The Ozolith
 
-[Card entry](../cards/T/theo.md#the-ozolith) · **6 pages** (decks 3 · rules 1 · lore & story 1 · card data 1)
+[Card entry](../cards/T/theo.md#the-ozolith) · **7 pages** (decks 3 · rules 1 · lore & story 2 · card data 1)
 
 - **Decks (3):** [Animar, Soul of Elements](../decks/animar-soul-of-elements.md) · [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md) · [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md)
 - **Rules (1):** [Rules Interactions → Hexproof, shroud & ward](../Rules%20Interactions.md#hexproof-shroud--ward)
-- **Lore & story (1):** [Conflicts & Arcs → Ikoria: Lair of Behemoths (2020)](../Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020)
+- **Lore & story (2):** [Conflicts & Arcs → Ikoria: Lair of Behemoths (2020)](../Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020) · [Items & Artifacts Index → Ozolith](../Items%20%26%20Artifacts%20Index.md#ozolith)
 - **Card data (1):** [Artist Index → Artists R](../Artist%20Index.md#artists-r)
 
 ### The Phasing of Zhalfir

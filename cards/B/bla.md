@@ -153,7 +153,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-04-27* — "Equip [quality] creature" is a variant of the equip keyword. "Equip [quality] creature [cost]" means "[Cost]: Attach this Equipment to target [quality] creature you control. Activate only as a sorcery."
   - *2018-04-27* — Whether the target creature is legendary is checked only as Blackblade Reforged's first equip ability is activated and as that ability resolves. If the creature somehow becomes nonlegendary later, Blackblade Reforged remains attached to it.
-- **Referenced in:** 3 pages (2 decks · 1 lore & story) → [reverse index](../../references/B.md#blackblade-reforged)
+- **Referenced in:** 4 pages (2 decks · 2 lore & story) → [reverse index](../../references/B.md#blackblade-reforged)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/178/blackblade-reforged) · oracle_id `dca51281-fb21-45b6-beb4-1f13397caee2` · printing: DMC #178 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blackbloom Rogue // Blackbloom Bog

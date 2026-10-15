@@ -316,6 +316,7 @@ schema: 2
   - *2014-04-26* — Godsend's triggered ability will trigger only once no matter how many creatures the equipped creature blocks or becomes blocked by.
   - *2014-04-26* — If Godsend exiles a land card (perhaps because it was turned into a creature and then blocked or was blocked by the equipped creature), opponents can still play land cards with the same name as the exiled card. Godsend stops only the casting of spells.
   - *2014-04-26* — If Godsend leaves the battlefield, and later another Godsend enters the battlefield, it is a new object (even if the two were represented by the same card). The new Godsend won't stop opponents from casting cards with the same name as cards exiled with the first one.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#godsend)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/12/godsend) · oracle_id `dd91f4f2-ea46-48c5-8a80-0dc4ae5b79c4` · printing: JOU #12 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gods' Eye, Gate to the Reikai

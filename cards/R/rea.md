@@ -487,6 +487,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any lands you control from Realmbreaker's ability are exiled.
   - *2023-04-14* — The land card you put onto the battlefield can be one that was just milled, or it can be one that was already in their graveyard.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#realmbreaker-the-invasion-tree)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/263/realmbreaker-the-invasion-tree) · oracle_id `77398866-eebb-4091-b566-7726f8194a59` · printing: MOM #263 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Realm-Cloaked Giant // Cast Off

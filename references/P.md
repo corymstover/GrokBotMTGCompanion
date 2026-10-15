@@ -1214,10 +1214,10 @@ schema: 2
 
 ### Planar Bridge
 
-[Card entry](../cards/P/pl.md#planar-bridge) · **3 pages** (decks 1 · lore & story 1 · card data 1)
+[Card entry](../cards/P/pl.md#planar-bridge) · **4 pages** (decks 1 · lore & story 2 · card data 1)
 
 - **Decks (1):** [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md)
-- **Lore & story (1):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages)
+- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Items & Artifacts Index → Planar Bridge](../Items%20%26%20Artifacts%20Index.md#planar-bridge)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a)
 
 ### Planar Chaos

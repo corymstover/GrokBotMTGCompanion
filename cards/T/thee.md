@@ -305,7 +305,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-07-25* — For your life total to become a certain value, you will gain or lose the appropriate amount of life. For example, if your starting life total is 20 and your life total is 17 when The Endstone’s last ability resolves, you will lose 7 life and your life total will become 10. Other abilities that interact with life gain or life loss will interact with this effect accordingly.
   - *2025-07-25* — The Endstone’s first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-endstone)
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/T.md#the-endstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/240/the-endstone) · oracle_id `57ee0730-3ac5-4f17-ac82-bd4a6673c2bb` · printing: EOE #240 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Enigma Jewel // Locus of Enlightenment

@@ -5,7 +5,7 @@ tags: [sources, primary, planeswalkers-guide, story-episodes]
 issues: [73]
 generated_by: scripts/build_primary_sources.py
 sources: [wizards-story]
-related: ["Conflicts & Arcs.md", "Side-Media Index.md", "Contradictions & Retcons Log.md", "Planeswalker Dossiers.md"]
+related: ["Conflicts & Arcs.md", "Side-Media Index.md", "Contradictions & Retcons Log.md", "Items & Artifacts Index.md", "Planeswalker Dossiers.md"]
 schema: 2
 ---
 

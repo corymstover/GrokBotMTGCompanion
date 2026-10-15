@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Contradictions & Retcons Log.md", "Knowledge Index.md", "Conflicts & Arcs.md", "Front-Matter Schema.md", "Lore Primary Sources.md", "EDH Deck Evaluation Checklist.md"]
+related: ["Contradictions & Retcons Log.md", "Knowledge Index.md", "Conflicts & Arcs.md", "Front-Matter Schema.md", "Lore Primary Sources.md", "Planeswalker Dossiers.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 26 (Phase 6: dossiers, planes, items index)](#2026-10-15--bot-cycle-26-phase-6-dossiers-planes-items-index)
 - [2026-10-15 — Bot cycle 25 (Phase 6: last six arcs, episode upgrades, dossiers)](#2026-10-15--bot-cycle-25-phase-6-last-six-arcs-episode-upgrades-dossiers)
 - [2026-10-15 — Bot cycle 24 (Phase 6: newest arcs, pre-2019 arcs, dossiers)](#2026-10-15--bot-cycle-24-phase-6-newest-arcs-pre-2019-arcs-dossiers)
 - [2026-10-15 — Bot cycle 23 (lore decks: 85% standard incl. lands)](#2026-10-15--bot-cycle-23-lore-decks-85-standard-incl-lands)
@@ -39,6 +40,20 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 26 (Phase 6: dossiers, planes, items index)
+Issues [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76); milestone 15. Cycle 25 merged as PR #86.
+
+- [Planeswalker Dossiers](Planeswalker%20Dossiers.md) (#74): **+14 timeline rows** for Karn (DOM sylex dig, WAR, BRO dissection), Teferi (DOM spark, BRO time travel), Kaya (WAR oath, BRO), Nahiri (the Helvault, MAT spark), Sorin (Helvault, SOI), Ral (WAR) and Tezzeret (AER, BRO with the Planar Bridge in his chest). Teferi's spark-reclaim is now cited.
+- [Planes Index](Planes%20Index.md) (#74): new detailed entries for **Innistrad**, **Zendikar (Eldrazi era)**, **Theros** and **Tarkir** (30 detailed entries).
+- New **[Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md)** (#75 started): 14 entries (Golgothian Sylex, Blackblade, Immortal Sun, Chain Veil, Godsend & Khrusor, Helvault, Hedrons, Planar Bridge, Spear of Hazoret, Temporal Anchor, Ozolith ⚠️, Endstone, Elderspell, Realmbreaker), each with verbatim-cited uses, arc links and card links.
+- [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md): 20 entries.
+  - **Resolved:** Teferi's spark. He reclaims it in DOM Ep. 11: "One of the reasons I took my spark back was to come with you." It was ❓ open in cycle 25.
+  - **New:** the sylex plan (Karn's 2018 plan vs the invasion-era copy).
+  - **New ❓:** the Immortal Sun was built for Torrezon but found in Orazca.
+  - Searching all 588 fetched pages found no spark restored after the invasion; that item stays queued.
+- [Master Timeline](Master%20Timeline.md): the ELD, THB, IKO and MAT rows are deepened with sources. Lukka's later Oriq and compleation appearances are now cited.
+- Every new quote was checked verbatim against the fetched text (0 new misses; the Ozolith lines are ⚠️ image text). `validate_all.py` PASS. Grixis #63 remains ON HOLD.
 
 ## 2026-10-15 — Bot cycle 25 (Phase 6: last six arcs, episode upgrades, dossiers)
 Issues [#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72), [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73), [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76); milestone 15.

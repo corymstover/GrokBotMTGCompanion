@@ -1944,7 +1944,7 @@ schema: 2
   > *"And how did that work out last time?" asked Jace.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #544 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 5 pages (3 decks · 1 lore & story · 1 card data) → [reverse index](../../references/H.md#hedron-archive)
+- **Referenced in:** 6 pages (3 decks · 2 lore & story · 1 card data) → [reverse index](../../references/H.md#hedron-archive)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/726/hedron-archive) · oracle_id `32263baa-d3f0-463f-92b3-4e9938476add` · printing: FDN #726 (2024-11-15) · [rulings](https://api.scryfall.com/cards/535b9ac6-dba2-4162-86ed-df3e9fad0306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hedron Blade
@@ -3396,7 +3396,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22131 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-01-22* — Helvault’s first and third abilities are linked. Similarly, Helvault’s second and third abilities are linked. Only cards exiled as a result of Helvault’s first or second abilities will be returned to the battlefield by its third ability.
-- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/H.md#helvault)
+- **Referenced in:** 3 pages (1 decks · 2 lore & story) → [reverse index](../../references/H.md#helvault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/266/helvault) · oracle_id `fa3d8a6f-dc5b-4890-a806-f785a41660c7` · printing: INR #266 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hematite Golem
