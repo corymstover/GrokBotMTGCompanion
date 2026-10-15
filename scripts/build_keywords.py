@@ -188,6 +188,8 @@ def main() -> int:
         "## Contents", *toc, "",
     ]
     OUT.write_text("\n".join(head + body) + "\n", encoding="utf-8")
+    import resolve_card_links  # Bot cycle 18 (#66): example placeholders become card-entry links on every run
+    resolve_card_links.main([str(OUT)])
     print(f"{OUT.name}: {counts} rulings={counts_r[0]} status={len(STATUS)}")
     return 0
 
