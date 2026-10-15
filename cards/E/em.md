@@ -1244,7 +1244,7 @@ schema: 2
   - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#emerias-call--emeria-shattered-skyclave)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#emerias-call--emeria-shattered-skyclave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/12/emerias-call-emeria-shattered-skyclave) · oracle_id `6ec2a242-9068-4ee2-8ac8-8341cc570f56` · printing: ZNR #12 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emeria Shepherd
@@ -1277,7 +1277,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #942 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Emeria, the Sky Ruin's triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless you control seven or more Plains as your upkeep starts, and (2) the ability will do nothing if you control fewer than seven Plains by the time it resolves.
-- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/E.md#emeria-the-sky-ruin)
+- **Referenced in:** 4 pages (2 decks · 2 edh guides) → [reverse index](../../references/E.md#emeria-the-sky-ruin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/368/emeria-the-sky-ruin) · oracle_id `cc999cf2-c99b-4911-8c52-6cc4a99fcc7b` · printing: SOC #368 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emerin, Shivan Angel
@@ -2229,5 +2229,5 @@ schema: 2
   - *2019-10-04* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Emry). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
   - *2019-10-04* — You must follow the normal timing permissions and restrictions for the target artifact card. Unless it has flash, you'll most likely only be able to cast it during your main phase while the stack is empty.
   - *2019-10-04* — You'll still pay all costs for a spell cast this way, including additional costs. You may also pay alternative costs if any are available.
-- **Referenced in:** 12 pages (8 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/E.md#emry-lurker-of-the-loch)
+- **Referenced in:** 13 pages (9 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/E.md#emry-lurker-of-the-loch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/71/emry-lurker-of-the-loch) · oracle_id `da3e7d3d-2ca0-40c3-9602-fca37c92f507` · printing: EOC #71 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

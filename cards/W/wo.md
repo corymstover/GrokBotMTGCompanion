@@ -2267,7 +2267,7 @@ schema: 2
   > *Even a fragment of a powerstone contains within it not just energy, but space—vast dimensions trapped in fragile crystal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #571 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/W.md#worn-powerstone)
+- **Referenced in:** 4 pages (2 decks · 1 lore & story · 1 card data) → [reverse index](../../references/W.md#worn-powerstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/298/worn-powerstone) · oracle_id `b166b670-febc-4821-855e-f8d465644c03` · printing: MH3 #298 (2024-06-14) · [rulings](https://api.scryfall.com/cards/ace686ad-9e3f-41b3-b8eb-d1b6d45eb4e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worry Beads

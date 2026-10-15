@@ -1432,7 +1432,7 @@ schema: 2
   > *"Every thought is a star illuminating the darkness. Inspiration comes from finding the constellations that link them."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3541 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stroke-of-genius)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#stroke-of-genius)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/203/stroke-of-genius) · oracle_id `0cc6d683-366f-4ae4-be60-20ad9621fdaf` · printing: SOC #203 (2026-04-24) · [rulings](https://api.scryfall.com/cards/beeb5419-828e-4a84-b4f3-87bc6f4cc594/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stroke of Midnight

@@ -512,7 +512,7 @@ schema: 2
   - *2020-08-07* — As the last ability resolves, you can tap untapped Myr you control even if Myr Battlesphere is no longer on the battlefield by then. If that has happened, Myr Battlesphere won't be able to get the +X/+0 bonus, but it will still deal X damage to the appropriate player or planeswalker.
   - *2020-08-07* — You can tap any untapped Myr you control as the last ability resolves, not just the Myr tokens you created with the first ability. This includes Myr that haven't been under your control since your most recent turn began.
   - *2020-08-07* — You choose the value for X as the last ability resolves. You can't choose a value for X that's greater than the number of untapped Myr you control.
-- **Referenced in:** 6 pages (2 decks · 2 edh guides · 2 card data) → [reverse index](../../references/M.md#myr-battlesphere)
+- **Referenced in:** 7 pages (3 decks · 2 edh guides · 2 card data) → [reverse index](../../references/M.md#myr-battlesphere)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/322/myr-battlesphere) · oracle_id `c53ba31a-ba27-4e17-9a92-311acb1cab29` · printing: TDC #322 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Convert
@@ -632,7 +632,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-03-16* — You can choose to find one basic land card with Myriad Landscape's last ability.
-- **Referenced in:** 8 pages (3 decks · 3 edh guides · 2 card data) → [reverse index](../../references/M.md#myriad-landscape)
+- **Referenced in:** 9 pages (4 decks · 3 edh guides · 2 card data) → [reverse index](../../references/M.md#myriad-landscape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/169/myriad-landscape) · oracle_id `2549bc57-9ffb-4053-9f10-f2a5f792b845` · printing: EOC #169 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Incubator

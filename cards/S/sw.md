@@ -893,7 +893,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-03-16* — If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one Swiftfoot Boots to allow two new creatures to attack in the same turn.
-- **Referenced in:** 31 pages (24 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/S.md#swiftfoot-boots)
+- **Referenced in:** 32 pages (25 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/S.md#swiftfoot-boots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/77/swiftfoot-boots) · oracle_id `c8b143ad-43ec-4e0d-a440-e348daa31391` · printing: MBC #77 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swiftgear Drake
@@ -1558,7 +1558,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #234 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#sword-of-the-animist)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#sword-of-the-animist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/413/sword-of-the-animist) · oracle_id `d79cbc61-6c15-48ea-bbba-3cffb819ccba` · printing: CMM #413 (2023-08-04) · [rulings](https://api.scryfall.com/cards/64401acc-d080-4763-b67a-95164c11c69e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of the Chosen
@@ -1747,7 +1747,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — Use the power of the creature from when it was last on the battlefield to determine how much life is gained.
-- **Referenced in:** 25 pages (19 decks · 3 edh guides · 3 card data) → [reverse index](../../references/S.md#swords-to-plowshares)
+- **Referenced in:** 26 pages (20 decks · 3 edh guides · 3 card data) → [reverse index](../../references/S.md#swords-to-plowshares)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/37/swords-to-plowshares) · oracle_id `b1544f21-7e98-461b-aed5-e748b0168c52` · printing: FRC #37 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword-Swallowing Seraph

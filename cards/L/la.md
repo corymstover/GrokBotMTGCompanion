@@ -2419,6 +2419,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16407 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-10-01* — Shuffling a card from your hand into your library is mandatory. The effect says “if you do” because performing that action might have been impossible. If you fail to shuffle a card into your library because your hand was empty, you won’t draw any cards.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lat-nams-legacy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/52/lat-nams-legacy) · oracle_id `f885ee54-3b26-4d61-9783-3930b0e625aa` · printing: ME2 #52 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lattice-Blade Mantis

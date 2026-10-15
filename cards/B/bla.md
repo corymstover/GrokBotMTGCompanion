@@ -153,7 +153,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-04-27* — "Equip [quality] creature" is a variant of the equip keyword. "Equip [quality] creature [cost]" means "[Cost]: Attach this Equipment to target [quality] creature you control. Activate only as a sorcery."
   - *2018-04-27* — Whether the target creature is legendary is checked only as Blackblade Reforged's first equip ability is activated and as that ability resolves. If the creature somehow becomes nonlegendary later, Blackblade Reforged remains attached to it.
-- **Referenced in:** 3 pages (2 decks · 1 lore & story) → [reverse index](../../references/B.md#blackblade-reforged)
+- **Referenced in:** 4 pages (3 decks · 1 lore & story) → [reverse index](../../references/B.md#blackblade-reforged)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/178/blackblade-reforged) · oracle_id `dca51281-fb21-45b6-beb4-1f13397caee2` · printing: DMC #178 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blackbloom Rogue // Blackbloom Bog
@@ -942,6 +942,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17828 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bladed-bracers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/213/bladed-bracers) · oracle_id `24d373cd-245a-4051-b187-ba8cc83b0c48` · printing: AVR #213 (2012-05-04) · [rulings](https://api.scryfall.com/cards/897a5116-043c-46aa-880e-be8dcb1618bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bladed Pinions
@@ -1675,7 +1676,7 @@ schema: 2
   - *2025-07-25* — An activation cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {6} to activate Blast Zone’s ability.
   - *2025-07-25* — Every token has mana value 0 unless it is copying something or was created with a specific mana cost.
   - *2025-07-25* — If a permanent has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#blast-zone)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#blast-zone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/987/blast-zone) · oracle_id `393a254f-be31-431a-9341-a51286f8cbce` · printing: CMM #987 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blatant Thievery

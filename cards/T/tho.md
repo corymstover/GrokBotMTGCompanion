@@ -980,7 +980,7 @@ schema: 2
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #929 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/T.md#thoughtcast)
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/T.md#thoughtcast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/242/thoughtcast) · oracle_id `cce9bbff-82dc-4b2f-addd-d6715588de20` · printing: MOC #242 (2023-04-21) · [rulings](https://api.scryfall.com/cards/466a0be8-31b9-4ea0-9a96-b09a76f4ec69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thought Collapse
@@ -1406,7 +1406,7 @@ schema: 2
   > *Infinite possibilities contained in a finite space.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 16 pages (12 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#thought-vessel)
+- **Referenced in:** 17 pages (13 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#thought-vessel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/78/thought-vessel) · oracle_id `9965d9c5-2ebf-4a6c-930e-55c5890979be` · printing: MBC #78 (2026-10-19) · [rulings](https://api.scryfall.com/cards/ad077996-6b5e-4eb8-bb6e-93d43c5efa8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thoughtweft Charge

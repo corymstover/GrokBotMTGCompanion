@@ -464,7 +464,7 @@ schema: 2
   - *2023-07-28* — Auras attached to the exiled permanents will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanents will cease to exist. When the cards return to the battlefield, they will be new objects with no connection to the cards that were exiled.
   - *2023-07-28* — If Battle at the Helvault leaves the battlefield before its first or second chapter ability resolves, the target permanents won't be exiled.
   - *2023-07-28* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#battle-at-the-helvault)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#battle-at-the-helvault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/719/battle-at-the-helvault) · oracle_id `076584c8-ec58-4711-8f59-4839a4fa88ad` · printing: CMM #719 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Brawler

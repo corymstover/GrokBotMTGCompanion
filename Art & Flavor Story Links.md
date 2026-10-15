@@ -5,7 +5,7 @@ tags: [art, flavor, story-spotlight]
 issues: [37]
 generated_by: scripts/build_art_flavor.py
 sources: [scryfall, wizards-story]
-related: ["Story Arc Summaries.md", "Artist Index.md", "Planeswalker Dossiers.md", "Side-Media Index.md"]
+related: ["Story Arc Summaries.md", "Artist Index.md", "EDH Lore-Themed Deckbuilding.md", "Planeswalker Dossiers.md", "Side-Media Index.md"]
 schema: 2
 ---
 

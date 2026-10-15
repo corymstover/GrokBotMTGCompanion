@@ -4312,6 +4312,7 @@ schema: 2
   > *When Urza's war machines became too costly, Tawnos's weaponry replaced them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31638 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tawnoss-weaponry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/232/tawnoss-weaponry) · oracle_id `f07f98bb-4190-4643-aeb9-c5eaf358c97c` · printing: ME4 #232 (2011-01-10) · [rulings](https://api.scryfall.com/cards/b73fe4b5-142f-4b1f-b48d-7aa65782bdb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tawnos, the Toymaker

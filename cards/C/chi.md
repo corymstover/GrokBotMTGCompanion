@@ -216,6 +216,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2844 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to an artifact creature you control may become lethal if Chief of the Foundry leaves the battlefield during that turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#chief-of-the-foundry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/238/chief-of-the-foundry) · oracle_id `4fdfa41a-75a5-4b36-8c9e-083e26d137e2` · printing: 2XM #238 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chief of the Scale

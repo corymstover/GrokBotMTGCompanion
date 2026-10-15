@@ -1272,7 +1272,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #452 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — You may find any land card, not just a basic land card.
-- **Referenced in:** 4 pages (2 decks · 2 edh guides) → [reverse index](../../references/E.md#expedition-map)
+- **Referenced in:** 6 pages (4 decks · 2 edh guides) → [reverse index](../../references/E.md#expedition-map)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/724/expedition-map) · oracle_id `8fcf50cd-e6d0-4516-850f-d42ee75dcc3a` · printing: FDN #724 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Expedition Raptor

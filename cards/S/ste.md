@@ -906,7 +906,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #793 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-07-12* — Steel Overseer's ability puts a +1/+1 counter on each artifact creature you control, including Steel Overseer.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#steel-overseer)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#steel-overseer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/144/steel-overseer) · oracle_id `986ae327-f433-4c58-93dc-afc544b9bfcb` · printing: EOC #144 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steel-Plume Marshal
@@ -986,7 +986,7 @@ schema: 2
   > *Some blades seek their own wielders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1023 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#steelshapers-gift)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#steelshapers-gift)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/59/steelshapers-gift) · oracle_id `d9abda7e-6ca2-42ea-ab24-c542e57014f1` · printing: CMM #59 (2023-08-04) · [rulings](https://api.scryfall.com/cards/55d61383-b739-4422-a76c-d8cbca13c5b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steel Squirrel

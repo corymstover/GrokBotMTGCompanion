@@ -1814,7 +1814,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #39 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 18 pages (13 decks · 3 edh guides · 2 card data) → [reverse index](../../references/S.md#skullclamp)
+- **Referenced in:** 20 pages (15 decks · 3 edh guides · 2 card data) → [reverse index](../../references/S.md#skullclamp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/210/skullclamp) · oracle_id `65986c1b-8e51-4604-b685-d82fa7d1263a` · printing: MSC #210 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1d8b007b-3169-4ee3-80c7-781fc096fc7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skull Collector
@@ -2340,7 +2340,7 @@ schema: 2
   - *2020-09-25* — If Skyclave Apparition's first ability exiled more than one card owned by a single player, that player creates a token with power and toughness equal to the sum of those cards' mana values. If the first ability exiled cards owned by more than one player, each of those players creates a token with power and toughness equal to the sum of the mana values of all cards exiled by the first ability.
   - *2020-09-25* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
   - *2020-09-25* — If there's no exiled card when Skyclave Apparition leaves the battlefield (most likely because its first ability hasn't resolved yet), no player creates a token.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#skyclave-apparition)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/S.md#skyclave-apparition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/173/skyclave-apparition) · oracle_id `d90af00a-d322-4265-9954-7b1e80702e18` · printing: SOC #173 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyclave Cleric // Skyclave Basilica
@@ -2444,6 +2444,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#skyclave-relic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/380/skyclave-relic) · oracle_id `eb44b65d-6b56-4f20-a4fb-c5dd147a54c4` · printing: MOC #380 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyclave Sentinel

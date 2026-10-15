@@ -1043,7 +1043,7 @@ schema: 2
   - *2017-02-09* — Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
   - *2017-02-09* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
   - *2017-02-09* — When using improvise to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap artifacts you control to help pay that cost. For example, if you cast Whir of Invention (a spell with improvise and mana cost {X}{U}{U}{U}) and choose X to be 3, the total cost is {3}{U}{U}{U}. If you tap two artifacts, you'll have to pay {1}{U}{U}{U}.
-- **Referenced in:** 5 pages (3 decks · 1 rules · 1 card data) → [reverse index](../../references/W.md#whir-of-invention)
+- **Referenced in:** 6 pages (4 decks · 1 rules · 1 card data) → [reverse index](../../references/W.md#whir-of-invention)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/49/whir-of-invention) · oracle_id `152b91c9-cc07-4ca8-944f-9bc2242a2283` · printing: AER #49 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whisk Away

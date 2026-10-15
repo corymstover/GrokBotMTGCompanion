@@ -1,0 +1,825 @@
+{
+ "decks": [
+  {
+   "slug": "lore-brothers-war-urza-lord-high-artificer",
+   "type": "arc",
+   "title": "Lore Deck — The Brothers' War (Urza, Lord High Artificer)",
+   "commander": "Urza, Lord High Artificer",
+   "basic": "Island",
+   "basics": 20,
+   "arc_anchor": "the-brothers-war",
+   "character_anchor": "urza",
+   "plane": "Dominaria",
+   "story": "**Arc:** [The Brothers' War](../Conflicts%20%26%20Arcs.md#the-brothers-war) told from Urza's side. Urza and Mishra found the power stones in the Caves of Koilos, and their rivalry became a war that \"devastated Dominaria\" ([Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane)). Kroog fell in **28 AR**; in **63 AR** Urza activated the sylex as Mishra's machine-self attacked; in **64 AR** \"there was silence in Terisiare\" ([BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary)). The blast shattered Terisiare into an archipelago ([Planeswalker's Guide to Dominaria](https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31)).\n\n**How the deck tells it (guidance):** you open in Tocasia's dig and on the Koilos stones, build Urza's workshops and lands, and field the war machines of Kroog and the Argivian armies. Lat-Nam's Third-Path wizards stand by as interaction. If the game goes long, Golgothian Sylex is the war's ending. Karn and the Metathran look ahead to Urza's later legacy.",
+   "keywords": "Urza|Mishra|Tocasia|Kroog|Argoth|Koilos|Tawnos|Ashnod|Terisiare|Tomakul|Yotia|powerstone|Thran|sylex|Brothers' War|Lat-Nam|Hurkyl|Drafna|Feldon|Karn",
+   "story_sets": [
+    "atq",
+    "bro",
+    "brr",
+    "brc"
+   ],
+   "cards": [
+    {
+     "name": "Liberator, Urza's Battlethopter",
+     "package": "Urza's inventions",
+     "note": ""
+    },
+    {
+     "name": "Karn, Scion of Urza",
+     "package": "Karn & Urza's later legacy",
+     "note": "Karn is the silver golem Urza created ([Karn profile](https://magic.wizards.com/en/story/karn-planeswalker))."
+    },
+    {
+     "name": "Karn, Living Legacy",
+     "package": "Karn & Urza's later legacy",
+     "note": "Karn — Urza's creation and a Legacy artifact ([Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane))."
+    },
+    {
+     "name": "The Mightstone and Weakstone",
+     "package": "Koilos stones, powerstones & the sylex",
+     "note": "The two power stones Urza and Mishra found in the Caves of Koilos ([Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane))."
+    },
+    {
+     "name": "Mightstone",
+     "package": "Koilos stones, powerstones & the sylex",
+     "note": ""
+    },
+    {
+     "name": "Weakstone",
+     "package": "Koilos stones, powerstones & the sylex",
+     "note": ""
+    },
+    {
+     "name": "Powerstone Shard",
+     "package": "Koilos stones, powerstones & the sylex",
+     "note": ""
+    },
+    {
+     "name": "Worn Powerstone",
+     "package": "Koilos stones, powerstones & the sylex",
+     "note": ""
+    },
+    {
+     "name": "Fractured Powerstone",
+     "package": "Koilos stones, powerstones & the sylex",
+     "note": ""
+    },
+    {
+     "name": "Energy Refractor",
+     "package": "Koilos stones, powerstones & the sylex",
+     "note": ""
+    },
+    {
+     "name": "Urza's Mine",
+     "package": "Urza's lands & workshops",
+     "note": ""
+    },
+    {
+     "name": "Urza's Power Plant",
+     "package": "Urza's lands & workshops",
+     "note": ""
+    },
+    {
+     "name": "Urza's Tower",
+     "package": "Urza's lands & workshops",
+     "note": ""
+    },
+    {
+     "name": "Urza's Workshop",
+     "package": "Urza's lands & workshops",
+     "note": ""
+    },
+    {
+     "name": "Urza's Cave",
+     "package": "Urza's lands & workshops",
+     "note": ""
+    },
+    {
+     "name": "Urza's Factory",
+     "package": "Urza's lands & workshops",
+     "note": ""
+    },
+    {
+     "name": "Urza's Saga",
+     "package": "Urza's lands & workshops",
+     "note": ""
+    },
+    {
+     "name": "Urza's Bauble",
+     "package": "Urza's inventions",
+     "note": ""
+    },
+    {
+     "name": "Urza's Incubator",
+     "package": "Urza's inventions",
+     "note": ""
+    },
+    {
+     "name": "Urza's Chalice",
+     "package": "Urza's inventions",
+     "note": ""
+    },
+    {
+     "name": "Urza's Avenger",
+     "package": "Urza's inventions",
+     "note": ""
+    },
+    {
+     "name": "Urza's Armor",
+     "package": "Urza's inventions",
+     "note": ""
+    },
+    {
+     "name": "Urza's Blueprints",
+     "package": "Urza's inventions",
+     "note": ""
+    },
+    {
+     "name": "Urza's Command",
+     "package": "Urza's inventions",
+     "note": ""
+    },
+    {
+     "name": "Urza's Rebuff",
+     "package": "Urza's inventions",
+     "note": ""
+    },
+    {
+     "name": "Yotian Soldier",
+     "package": "Kroog, Tawnos & the war machines",
+     "note": ""
+    },
+    {
+     "name": "Amulet of Kroog",
+     "package": "Kroog, Tawnos & the war machines",
+     "note": ""
+    },
+    {
+     "name": "Clay Statue",
+     "package": "Kroog, Tawnos & the war machines",
+     "note": ""
+    },
+    {
+     "name": "Dragon Engine",
+     "package": "Kroog, Tawnos & the war machines",
+     "note": ""
+    },
+    {
+     "name": "Grapeshot Catapult",
+     "package": "Kroog, Tawnos & the war machines",
+     "note": ""
+    },
+    {
+     "name": "Onulet",
+     "package": "Kroog, Tawnos & the war machines",
+     "note": ""
+    },
+    {
+     "name": "Tocasia's Dig Site",
+     "package": "Urza's lands & workshops",
+     "note": "Tocasia's dig, where the brothers' story begins (card flavor)."
+    },
+    {
+     "name": "Hall of Tagsin",
+     "package": "Urza's lands & workshops",
+     "note": ""
+    },
+    {
+     "name": "Argivian Avenger",
+     "package": "Kroog, Tawnos & the war machines",
+     "note": ""
+    },
+    {
+     "name": "Metathran Soldier",
+     "package": "Karn & Urza's later legacy",
+     "note": ""
+    },
+    {
+     "name": "Thran Dynamo",
+     "package": "Thran legacy",
+     "note": ""
+    },
+    {
+     "name": "Thran Turbine",
+     "package": "Thran legacy",
+     "note": ""
+    },
+    {
+     "name": "Thran Foundry",
+     "package": "Thran legacy",
+     "note": ""
+    },
+    {
+     "name": "Thran Golem",
+     "package": "Thran legacy",
+     "note": ""
+    },
+    {
+     "name": "Inspiring Statuary",
+     "package": "Kroog, Tawnos & the war machines",
+     "note": ""
+    },
+    {
+     "name": "Sai, Master Thopterist",
+     "package": "Machine army (mechanical echo)",
+     "note": ""
+    },
+    {
+     "name": "Foundry Inspector",
+     "package": "Machine army (mechanical echo)",
+     "note": ""
+    },
+    {
+     "name": "Chief of the Foundry",
+     "package": "Machine army (mechanical echo)",
+     "note": ""
+    },
+    {
+     "name": "Steel Overseer",
+     "package": "Machine army (mechanical echo)",
+     "note": ""
+    },
+    {
+     "name": "Myr Battlesphere",
+     "package": "Machine army (mechanical echo)",
+     "note": ""
+    },
+    {
+     "name": "Emry, Lurker of the Loch",
+     "package": "Machine army (mechanical echo)",
+     "note": ""
+    },
+    {
+     "name": "Ornithopter",
+     "package": "Machine army (mechanical echo)",
+     "note": ""
+    },
+    {
+     "name": "Solemn Simulacrum",
+     "package": "Machine army (mechanical echo)",
+     "note": ""
+    },
+    {
+     "name": "Burnished Hart",
+     "package": "Kroog, Tawnos & the war machines",
+     "note": ""
+    },
+    {
+     "name": "Drafna, Founder of Lat-Nam",
+     "package": "Lat-Nam & the Third Path",
+     "note": ""
+    },
+    {
+     "name": "Hurkyl, Master Wizard",
+     "package": "Lat-Nam & the Third Path",
+     "note": ""
+    },
+    {
+     "name": "Hurkyl's Recall",
+     "package": "Lat-Nam & the Third Path",
+     "note": ""
+    },
+    {
+     "name": "Lat-Nam's Legacy",
+     "package": "Lat-Nam & the Third Path",
+     "note": ""
+    },
+    {
+     "name": "Machine Over Matter",
+     "package": "Lat-Nam & the Third Path",
+     "note": ""
+    },
+    {
+     "name": "Stroke of Genius",
+     "package": "Lat-Nam & the Third Path",
+     "note": ""
+    },
+    {
+     "name": "Sol Ring",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Mind Stone",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Thought Vessel",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Lightning Greaves",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Skullclamp",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Expedition Map",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Fabricate",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Whir of Invention",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Thoughtcast",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Pongify",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "An Offer You Can't Refuse",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Counterspell",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Negate",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Academy Ruins",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Buried Ruin",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Inventors' Fair",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Seat of the Synod",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Darksteel Citadel",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Reliquary Tower",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Blast Zone",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Demolition Field",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Golgothian Sylex",
+     "package": "Koilos stones, powerstones & the sylex",
+     "note": "The sylex is the weapon Urza activates in 63 AR, ending the war ([BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary))."
+    },
+    {
+     "name": "Tawnos's Weaponry",
+     "package": "Kroog, Tawnos & the war machines",
+     "note": ""
+    },
+    {
+     "name": "Urza's Engine",
+     "package": "Urza's inventions",
+     "note": ""
+    }
+   ],
+   "win_path": "combat with Constructs, thopters and Urza himself; Golgothian Sylex is the story finale (sacrifice for a board wipe), not a guaranteed one."
+  },
+  {
+   "slug": "lore-nahiri-the-lithomancer",
+   "type": "character",
+   "title": "Lore Deck — Nahiri, the Lithomancer",
+   "commander": "Nahiri, the Lithomancer",
+   "basic": "Plains",
+   "basics": 24,
+   "arc_anchor": "ancient-imprisoning-the-eldrazi",
+   "character_anchor": "nahiri",
+   "plane": "Zendikar",
+   "story": "**Character:** [Nahiri](../Planeswalker%20Dossiers.md#nahiri), the kor lithomancer of Zendikar. Six thousand years ago, with Ugin and Sorin, she trapped the Eldrazi on Zendikar; \"At Ugin's direction, Nahiri constructed a massive network of stone structures called hedrons\" ([BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23)). When the Eldrazi nearly escaped, \"neither Sorin nor Ugin returned to help\" (same source). She was later trapped in the Helvault for a millennium and took revenge on Sorin, which unleashed Emrakul on Innistrad ([Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15)). She hunted the Lithoform Core in the Skyclaves ([ZNR Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02)), was compleated on New Phyrexia, and survived, vowing \"No Planeswalker will set foot on Zendikar ever again\" ([Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair)).\n\n**How the deck tells it (guidance):** Kor of Zendikar carry the lithomancer's forged weapons (Nahiri's own abilities make Kor Soldiers and move Equipment). Hedrons and Ugin's tools build the prison. The Helvault package is her imprisonment and her revenge on Sorin's plane, and the Skyclave cards are the ZNR hunt. 🚫 The compleated Nahiri (ONE) is red-white, so it cannot appear in a mono-white deck; that chapter is told only in the summary.",
+   "keywords": "Nahiri|hedron|Helvault|lithoman|Skyclave|Lithoform|Emrakul|Ugin|Sorin|\\bkor\\b|Zendikar|Eldrazi|Kozilek|Ulamog|Avacyn|Markov",
+   "story_sets": [
+    "zen",
+    "wwk",
+    "roe",
+    "bfz",
+    "ogw",
+    "znr",
+    "isd",
+    "dka",
+    "avr",
+    "soi",
+    "emn"
+   ],
+   "cards": [
+    {
+     "name": "Lithomancer's Focus",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": ""
+    },
+    {
+     "name": "Nahiri's Binding",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": ""
+    },
+    {
+     "name": "Stoneforge Mystic",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Stoneforge Acolyte",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Stone Haven Outfitter",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Stoneforge Masterwork",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Armament Master",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Kor Outfitter",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Kor Duelist",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Kor Blademaster",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Kor Skyfisher",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Kor Cartographer",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Kor Spiritdancer",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Kor Sanctifiers",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Kor Hookmaster",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Kor Scythemaster",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Skyclave Apparition",
+     "package": "Skyclaves & the Lithoform hunt (ZNR)",
+     "note": ""
+    },
+    {
+     "name": "Skyclave Relic",
+     "package": "Skyclaves & the Lithoform hunt (ZNR)",
+     "note": ""
+    },
+    {
+     "name": "Emeria's Call // Emeria, Shattered Skyclave",
+     "package": "Skyclaves & the Lithoform hunt (ZNR)",
+     "note": ""
+    },
+    {
+     "name": "Maul of the Skyclaves",
+     "package": "Skyclaves & the Lithoform hunt (ZNR)",
+     "note": ""
+    },
+    {
+     "name": "Hedron Archive",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": "\"At Ugin's direction, Nahiri constructed a massive network of stone structures called hedrons\" ([BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23))."
+    },
+    {
+     "name": "Hedron Matrix",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": ""
+    },
+    {
+     "name": "Hedron Blade",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": ""
+    },
+    {
+     "name": "Aligned Hedron Network",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": ""
+    },
+    {
+     "name": "Dreamstone Hedron",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": ""
+    },
+    {
+     "name": "Ugin's Construct",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": ""
+    },
+    {
+     "name": "Eye of Ugin",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": "Site of the Eldrazi prison's lock, damaged when the Eldrazi were loosed ([Battle of Fort Keff](https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff))."
+    },
+    {
+     "name": "Ugin, the Ineffable",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": "Ugin directed Nahiri's hedron network ([BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23))."
+    },
+    {
+     "name": "Helvault",
+     "package": "The Helvault & revenge on Innistrad",
+     "note": "Nahiri spent \"the millennium spent trapped in the Helvault\" before her revenge on Sorin ([Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15))."
+    },
+    {
+     "name": "Battle at the Helvault",
+     "package": "The Helvault & revenge on Innistrad",
+     "note": ""
+    },
+    {
+     "name": "Declaration in Stone",
+     "package": "The Helvault & revenge on Innistrad",
+     "note": ""
+    },
+    {
+     "name": "Thraben Gargoyle // Stonewing Antagonizer",
+     "package": "The Helvault & revenge on Innistrad",
+     "note": ""
+    },
+    {
+     "name": "Bladed Bracers",
+     "package": "The Helvault & revenge on Innistrad",
+     "note": ""
+    },
+    {
+     "name": "Avacyn, Angel of Hope",
+     "package": "The Helvault & revenge on Innistrad",
+     "note": ""
+    },
+    {
+     "name": "Puresteel Paladin",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Sram, Senior Edificer",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Colossus Hammer",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Shadowspear",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Sword of the Animist",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Mithril Coat",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Hammer of Nazahn",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Blackblade Reforged",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Umezawa's Jitte",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Lightning Greaves",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Swiftfoot Boots",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Skullclamp",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Sigarda's Aid",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Open the Armory",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Steelshaper's Gift",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Path to Exile",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Swords to Plowshares",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Generous Gift",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Fateful Absence",
+     "package": "The Helvault & revenge on Innistrad",
+     "note": ""
+    },
+    {
+     "name": "Smite the Monstrous",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Isolation Zone",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": ""
+    },
+    {
+     "name": "Sol Ring",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Mind Stone",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Pearl Medallion",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Expedition Map",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Ancient Den",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Emeria, the Sky Ruin",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Kor Haven",
+     "package": "Kor of Zendikar",
+     "note": ""
+    },
+    {
+     "name": "Holdout Settlement",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": ""
+    },
+    {
+     "name": "Shrine of the Forsaken Gods",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": ""
+    },
+    {
+     "name": "Sanctum of Ugin",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": ""
+    },
+    {
+     "name": "Inventors' Fair",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Buried Ruin",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Myriad Landscape",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Fabled Passage",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Prismatic Vista",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Sun Titan",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Selfless Spirit",
+     "package": "Playability (guidance)",
+     "note": ""
+    },
+    {
+     "name": "Mentor of the Meek",
+     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
+     "note": ""
+    },
+    {
+     "name": "Hedron Crawler",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": ""
+    },
+    {
+     "name": "Hedron Scrabbler",
+     "package": "Hedrons & the Eldrazi prison",
+     "note": ""
+    }
+   ],
+   "win_path": "combat with Equipment-bearing Kor and Nahiri's tokens; Avacyn or a voltron Equipment finisher closes games."
+  }
+ ]
+}

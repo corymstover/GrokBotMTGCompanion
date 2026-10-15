@@ -5,14 +5,14 @@ tags: [schema, front-matter, tags, retrieval]
 issues: [65]
 generated_by: scripts/front_matter.py
 sources: []
-related: ["EDH Bracket Calibration.md", "Knowledge Index.md", "Card Data Conventions.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "Lookup Guide.md"]
+related: ["EDH Bracket Calibration.md", "Knowledge Index.md", "Card Data Conventions.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "EDH Lore-Themed Deckbuilding.md"]
 schema: 2
 ---
 
 # Front-Matter Schema
 
 > **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **2**. Do not hand-edit.
-> Coverage: **47** registered pages (README.md and GOAL.md are exempt), **86** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
+> Coverage: **48** registered pages (README.md and GOAL.md are exempt), **88** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
 
 ## Contents
 - [Format](#format)
@@ -48,7 +48,7 @@ Every entry starts with a YAML block between `---` lines. Values are flat: strin
 |---|---|---|---|
 | `title` | string | yes | The deck page's H1 heading. |
 | `category` | `deck` | yes | Always `deck`. |
-| `kind` | enum: core/plane/theme/grixis | yes | core = EDHREC skeleton; plane = plane-restricted; theme = EDHREC theme page; grixis = imported from the Grixis repo. |
+| `kind` | enum: core/plane/theme/grixis/lore | yes | core = EDHREC skeleton; plane = plane-restricted; theme = EDHREC theme page; grixis = imported from the Grixis repo; lore = story-first lore-themed (Bot cycle 21). |
 | `commander` | string | yes | First commander's Scryfall name. |
 | `color_identity` | WUBRG-ordered letters or `C` | yes | Commander color identity (CR 903.4), always in WUBRG order. |
 | `bracket_floor` | int 1–5 | yes | Minimum bracket by the published barometers (Game Changers, MLD, two-card infinites). |
@@ -180,9 +180,10 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `legality` | [Format Legality Matrix](Format%20Legality%20Matrix.md) · [Grixis Corrections](grixis/Grixis%20Corrections.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) |
 | `lookup` | [Lookup Guide](Lookup%20Guide.md) |
 | `lore` | [FAQ](FAQ.md) |
+| `lore-decks` | [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) |
 | `maintenance` | [Knowledge Index](Knowledge%20Index.md) |
 | `mana-base` | [EDH Mana Bases](EDH%20Mana%20Bases.md) |
-| `methodology` | [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) · [EDH Deck Template](EDH%20Deck%20Template.md) |
+| `methodology` | [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) · [EDH Deck Template](EDH%20Deck%20Template.md) · [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) |
 | `milestones` | [Progress Tracker](Progress%20Tracker.md) |
 | `mulligan` | [EDH Mulligans](EDH%20Mulligans.md) |
 | `multiverse` | [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md) |
@@ -222,12 +223,13 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `stax` | [EDH Interaction](EDH%20Interaction.md) |
 | `story-archive` | [Story Archive Index](Story%20Archive%20Index.md) |
 | `story-beats` | [Story Arc Summaries](Story%20Arc%20Summaries.md) |
+| `story-first` | [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) |
 | `story-spotlight` | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) |
 | `strategy` | [EDH Archetypes](EDH%20Archetypes.md) |
 | `summary` | [Grixis Integration Summary](grixis/Grixis%20Integration%20Summary.md) |
 | `swap-ledger` | [EDH Deck Template](EDH%20Deck%20Template.md) |
 | `tags` | [Front-Matter Schema](Front-Matter%20Schema.md) · [Knowledge Snapshots](Knowledge%20Snapshots.md) |
-| `template` | [EDH Deck Template](EDH%20Deck%20Template.md) |
+| `template` | [EDH Deck Template](EDH%20Deck%20Template.md) · [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) |
 | `themes` | [EDH Themed Decks](EDH%20Themed%20Decks.md) |
 | `timeline` | [Master Timeline](Master%20Timeline.md) |
 | `tokens` | [Tokens, Emblems & Dungeons](Tokens%2C%20Emblems%20%26%20Dungeons.md) |
@@ -243,11 +245,11 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `azorius` | 1 |
 | `bant` | 2 |
 | `boros` | 2 |
-| `bracket-floor-2` | 10 |
+| `bracket-floor-2` | 12 |
 | `bracket-floor-3` | 30 |
 | `bracket-floor-4` | 46 |
 | `colorless` | 1 |
-| `combos` | 22 |
+| `combos` | 23 |
 | `core` | 32 |
 | `dimir` | 1 |
 | `dune` | 1 |
@@ -262,14 +264,15 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `izzet` | 1 |
 | `jeskai` | 1 |
 | `jund` | 1 |
+| `lore` | 2 |
 | `mardu` | 3 |
 | `mono-black` | 3 |
-| `mono-blue` | 1 |
+| `mono-blue` | 2 |
 | `mono-green` | 2 |
 | `mono-red` | 1 |
-| `mono-white` | 2 |
+| `mono-white` | 3 |
 | `naya` | 1 |
-| `no-game-changers` | 13 |
+| `no-game-changers` | 15 |
 | `orzhov` | 1 |
 | `plane` | 10 |
 | `plane-dominaria` | 1 |

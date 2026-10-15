@@ -1,0 +1,31 @@
+{
+ "lore-brothers-war-urza-lord-high-artificer": {
+  "date": "2026-10-15",
+  "combos": [
+   {
+    "id": "457-4331-4947--44",
+    "cards": [
+     "Drafna, Founder of Lat-Nam",
+     "Urza, Lord High Artificer",
+     "Sai, Master Thopterist"
+    ],
+    "infinite": true,
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite creature ETB",
+     "Infinite storm count",
+     "Infinite tapped creature tokens"
+    ],
+    "requires": [
+     "Artifact Castable for {0} that survives"
+    ]
+   }
+  ],
+  "almost": 22
+ },
+ "lore-nahiri-the-lithomancer": {
+  "date": "2026-10-15",
+  "combos": [],
+  "almost": 7
+ }
+}

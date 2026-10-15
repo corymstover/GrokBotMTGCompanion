@@ -1261,7 +1261,7 @@ schema: 2
   > When this creature dies, you may draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #41 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 15 pages (10 decks · 3 edh guides · 2 card data) → [reverse index](../../references/S.md#solemn-simulacrum)
+- **Referenced in:** 16 pages (11 decks · 3 edh guides · 2 card data) → [reverse index](../../references/S.md#solemn-simulacrum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/215/solemn-simulacrum) · oracle_id `00c0543c-2a1f-4425-8283-4062d74a1637` · printing: MSC #215 (2026-06-26) · [rulings](https://api.scryfall.com/cards/daafd816-f7c1-4630-9e5c-a1e5db570a35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sole Performer
@@ -1547,7 +1547,7 @@ schema: 2
   > *Jace could see the sunlight in his Multiverse, but somewhere along the way, he lost the feel of its warmth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 86 pages (76 decks · 7 edh guides · 3 card data) → [reverse index](../../references/S.md#sol-ring)
+- **Referenced in:** 88 pages (78 decks · 7 edh guides · 3 card data) → [reverse index](../../references/S.md#sol-ring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/21/sol-ring) · oracle_id `6ad8011d-3471-4369-9d68-b264cc027487` · printing: FRC #21 (2026-10-02) · [rulings](https://api.scryfall.com/cards/8ee443cc-e17a-493b-9c93-1f9e141a30e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Solstice Revelations

@@ -1376,7 +1376,7 @@ schema: 2
   > *—Urza*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9944 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#energy-refractor)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#energy-refractor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/234/energy-refractor) · oracle_id `fd9dde4c-bacd-48d8-b4c9-a6a04f0b3338` · printing: BRO #234 (2022-11-18) · [rulings](https://api.scryfall.com/cards/cc2a81fb-5045-4b7b-8cfb-b90c4f4a1f51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Energy Storm

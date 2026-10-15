@@ -388,7 +388,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — The last ability cares only about the amount of mana that was actually spent to cast the spell, regardless of its mana cost.
   - *2022-10-14* — The third ability applies only to casting spells. It does not, for example, change when you may activate abilities that can be activated "only as a sorcery."
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#liberator-urzas-battlethopter)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/L.md#liberator-urzas-battlethopter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/237/liberator-urzas-battlethopter) · oracle_id `798a4a6f-7443-4e8e-afcb-0a694fdfcbb3` · printing: BRO #237 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liberty Prime, Recharged
@@ -1902,7 +1902,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one Lightning Greaves to allow two new creatures to attack in the same turn.
   - *2020-08-07* — You can't simply unequip Equipment from a creature. If Lightning Greaves is attached to the only creature you control, you won't be able to attach other equipment to it (or target it with anything else) until you have another creature to which you can attach Lightning Greaves.
-- **Referenced in:** 50 pages (44 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/L.md#lightning-greaves)
+- **Referenced in:** 52 pages (46 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/L.md#lightning-greaves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/202/lightning-greaves) · oracle_id `ca204b66-8d0c-431a-8d34-282f7c2d17da` · printing: MSC #202 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Helix
@@ -3956,6 +3956,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28431 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-08-25* — Lithomancer’s Focus will prevent damage to the creature from any colorless source that turn, even if that source didn’t exist or wasn’t colorless as Lithomancer’s Focus resolved.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lithomancers-focus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/38/lithomancers-focus) · oracle_id `a8a27a87-fc4c-44b5-9ba8-505bbf42164e` · printing: BFZ #38 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lithomantic Barrage

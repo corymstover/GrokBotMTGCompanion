@@ -136,6 +136,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-09-25* — Attaching an Equipment with its enters-the-battlefield triggered ability isn't the same as using its equip ability. You don't pay mana for the attachment, and if the Equipment enters at a time you couldn't cast a sorcery, you can still attach it to a creature you control.
   - *2020-09-25* — If the target creature becomes an illegal target, the Equipment remains on the battlefield unattached.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#maul-of-the-skyclaves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/195/maul-of-the-skyclaves) · oracle_id `088a1f56-198c-41a1-b244-ec1c7a771041` · printing: MOC #195 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maul Splicer

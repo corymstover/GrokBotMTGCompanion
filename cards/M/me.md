@@ -2123,7 +2123,7 @@ schema: 2
   - *2025-01-24* — If a creature enters with +1/+1 counters or a continuous effect such as that of Wedding Festivity will apply to the creature on the battlefield, those effects apply when checking to see if Mentor of the Meek's ability will trigger.
   - *2025-01-24* — Mentor of the Meek's ability checks the power of the other creature only as it enters. If that creature's power is 2 or less, the ability will trigger. Once the ability triggers, raising that creature's power above 2 won't affect that ability. Similarly, reducing the creature's power to 2 or less after it enters won't cause the ability to trigger.
   - *2025-01-24* — While resolving the triggered ability of Mentor of the Meek, you can't pay {1} multiple times to draw more than one card.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mentor-of-the-meek)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#mentor-of-the-meek)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/170/mentor-of-the-meek) · oracle_id `b9f4f96b-6e54-4fe6-8df7-623e0fc72409` · printing: HOC #170 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mentor's Guidance
@@ -4106,6 +4106,7 @@ schema: 2
   > *Just as Serra crafted angels of light and faith, Urza constructed an army of sorcery and power to resist the coming invasion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22695 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#metathran-soldier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/39/metathran-soldier) · oracle_id `b723fcec-f208-4397-a178-e1e47b729cf1` · printing: UDS #39 (1999-06-07) · [rulings](https://api.scryfall.com/cards/650d40d0-78ec-4b6e-8ea0-28d43ce175d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Metathran Transport

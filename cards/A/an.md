@@ -1139,7 +1139,7 @@ schema: 2
   > *Taj-Nar, throne of Raksha Golden Cub, destined leader of the leonin prides.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #483 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#ancient-den)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#ancient-den)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/148/ancient-den) · oracle_id `02f16726-f2f6-4943-b71a-93f8e26251d3` · printing: EOC #148 (2025-08-01) · [rulings](https://api.scryfall.com/cards/d9a7b0f6-97f9-4937-865c-e25c142c3ed7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ancient Excavation
@@ -3670,7 +3670,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-04-29* — If the target is no longer legal as An Offer You Can't Refuse resolves, no Treasure tokens are created.
   - *2022-04-29* — If the target is still legal as it resolves but the spell can't be countered for some reason, its controller will still create two Treasure tokens.
-- **Referenced in:** 41 pages (34 decks · 5 edh guides · 2 card data) → [reverse index](../../references/A.md#an-offer-you-cant-refuse)
+- **Referenced in:** 42 pages (35 decks · 5 edh guides · 2 card data) → [reverse index](../../references/A.md#an-offer-you-cant-refuse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/160/an-offer-you-cant-refuse) · oracle_id `234a734b-ba28-4f1b-9d01-3c3e7d516590` · printing: FDN #160 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anoint

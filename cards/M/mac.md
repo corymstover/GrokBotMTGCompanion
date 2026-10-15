@@ -211,7 +211,7 @@ schema: 2
   > *The Warlord decreed that only someone who could move the statue would be strong enough to marry the princess. So Urza moved it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15113 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#machine-over-matter)
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/M.md#machine-over-matter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/57/machine-over-matter) · oracle_id `37069c66-c17a-40ac-80f4-14ef49d18008` · printing: BRO #57 (2022-11-18) · [rulings](https://api.scryfall.com/cards/d08eadf5-a86d-4e8d-b65d-79b4f88477b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Machinesmith Automaton

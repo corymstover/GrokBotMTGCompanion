@@ -162,6 +162,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28166 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — The -1/-0 applies to attacking creatures from all players.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#weakstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/239/weakstone) · oracle_id `004584f8-fd89-4a3e-9782-c117dbe1532b` · printing: ME4 #239 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weakstone's Subjugation

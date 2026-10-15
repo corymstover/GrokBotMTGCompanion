@@ -1660,7 +1660,7 @@ schema: 2
   > *Lumengrid, site of the Knowledge Pool, source of vedalken arcana.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #310 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 10 pages (7 decks · 1 edh guides · 2 card data) → [reverse index](../../references/S.md#seat-of-the-synod)
+- **Referenced in:** 11 pages (8 decks · 1 edh guides · 2 card data) → [reverse index](../../references/S.md#seat-of-the-synod)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/176/seat-of-the-synod) · oracle_id `39451b4d-cd7a-40da-b457-cb51b609173f` · printing: EOC #176 (2025-08-01) · [rulings](https://api.scryfall.com/cards/57a194b3-2899-4dee-977a-c77df0b94dfe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Troll

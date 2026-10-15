@@ -1670,7 +1670,7 @@ schema: 2
   - *2016-09-20* — No player may take actions in a turn before Inventors' Fair's triggered ability checks to see if it should trigger. If you don't control three or more artifacts, it won't trigger.
   - *2016-09-20* — When using Inventors' Fair's activated ability, the number of artifacts you control is checked only as you activate it. It's not checked again as the ability resolves.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
-- **Referenced in:** 10 pages (7 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/I.md#inventors-fair)
+- **Referenced in:** 12 pages (9 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/I.md#inventors-fair)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/247/inventors-fair) · oracle_id `91d4a5fe-fd6d-4b14-a63f-61b4d0ecd9c4` · printing: KLD #247 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inventor's Goggles

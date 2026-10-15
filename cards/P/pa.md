@@ -3679,7 +3679,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-01-27* — If the target creature is an illegal target by the time Path to Exile tries to resolve, it won't resolve and none of its effects will happen. The creature's controller won't search for a basic land card.
   - *2026-01-27* — The controller of the exiled creature isn't required to search their library for a basic land. If that player doesn't, the player won't shuffle their library.
-- **Referenced in:** 22 pages (18 decks · 2 edh guides · 2 card data) → [reverse index](../../references/P.md#path-to-exile)
+- **Referenced in:** 23 pages (19 decks · 2 edh guides · 2 card data) → [reverse index](../../references/P.md#path-to-exile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/30/path-to-exile) · oracle_id `d683d985-9888-4d21-8b5f-69e69ce4a03b` · printing: FRC #30 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Path to Redemption

@@ -1078,7 +1078,7 @@ schema: 2
   - *2019-07-12* — Colossus Hammer can be attached to a creature that didn't have flying to begin with. It just won't lose flying.
   - *2019-07-12* — If an ability of the equipped creature states that it has flying "as long as" a particular condition is true, that condition becoming true will not cause that creature to gain flying. For example, if the equipped creature "has flying as long as it's attacking," it will not gain flying, even if it attacks after Colossus Hammer becomes attached to it.
   - *2019-07-12* — If the equipped creature gains flying after Colossus Hammer became attached to it, it will keep flying.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#colossus-hammer)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#colossus-hammer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/202/colossus-hammer) · oracle_id `8ec03b88-8d3a-4a32-8b7c-7da59b0c03d0` · printing: AFC #202 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colossus of Akros

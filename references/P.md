@@ -394,9 +394,9 @@ schema: 2
 
 ### Path to Exile
 
-[Card entry](../cards/P/pa.md#path-to-exile) · **22 pages** (decks 18 · edh guides 2 · card data 2)
+[Card entry](../cards/P/pa.md#path-to-exile) · **23 pages** (decks 19 · edh guides 2 · card data 2)
 
-- **Decks (18):** [Atraxa, Praetors' Voice](../decks/atraxa-praetors-voice.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md) · [Brago, King Eternal](../decks/brago-king-eternal.md) · [Breya, Etherium Shaper](../decks/breya-etherium-shaper.md) · [Chulane, Teller of Tales](../decks/chulane-teller-of-tales.md) · [Chulane, Teller of Tales (landfall theme)](../decks/theme-chulane-teller-of-tales-landfall.md) · [Edgar Markov](../decks/edgar-markov.md) · [Edgar Markov (lifegain theme)](../decks/theme-edgar-markov-lifegain.md) · [Feather, the Redeemed](../decks/feather-the-redeemed.md) · [Giada, Font of Hope](../decks/giada-font-of-hope.md) · [Gishath, Sun's Avatar](../decks/gishath-suns-avatar.md) · [Karador, Ghost Chieftain](../decks/karador-ghost-chieftain.md) · [Kykar, Wind's Fury](../decks/kykar-winds-fury.md) · [Kynaios and Tiro of Meletis](../decks/kynaios-and-tiro-of-meletis.md) · [Saskia the Unyielding](../decks/saskia-the-unyielding.md) · [Teysa Karlov](../decks/teysa-karlov.md) · [Trostani, Selesnya's Voice](../decks/trostani-selesnyas-voice.md) · [Zur the Enchanter](../decks/zur-the-enchanter.md)
+- **Decks (19):** [Atraxa, Praetors' Voice](../decks/atraxa-praetors-voice.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md) · [Brago, King Eternal](../decks/brago-king-eternal.md) · [Breya, Etherium Shaper](../decks/breya-etherium-shaper.md) · [Chulane, Teller of Tales](../decks/chulane-teller-of-tales.md) · [Chulane, Teller of Tales (landfall theme)](../decks/theme-chulane-teller-of-tales-landfall.md) · [Edgar Markov](../decks/edgar-markov.md) · [Edgar Markov (lifegain theme)](../decks/theme-edgar-markov-lifegain.md) · [Feather, the Redeemed](../decks/feather-the-redeemed.md) · [Giada, Font of Hope](../decks/giada-font-of-hope.md) · [Gishath, Sun's Avatar](../decks/gishath-suns-avatar.md) · [Karador, Ghost Chieftain](../decks/karador-ghost-chieftain.md) · [Kykar, Wind's Fury](../decks/kykar-winds-fury.md) · [Kynaios and Tiro of Meletis](../decks/kynaios-and-tiro-of-meletis.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Saskia the Unyielding](../decks/saskia-the-unyielding.md) · [Teysa Karlov](../decks/teysa-karlov.md) · [Trostani, Selesnya's Voice](../decks/trostani-selesnyas-voice.md) · [Zur the Enchanter](../decks/zur-the-enchanter.md)
 - **EDH guides (2):** [EDH Interaction → 3. Creature](../EDH%20Interaction.md#3-creature) · [EDH Staples → White](../EDH%20Staples.md#white) (+1 more)
 - **Card data (2):** [Artist Index → Most prolific artists](../Artist%20Index.md#most-prolific-artists) (+11 more) · [Printing History → Most-printed cards](../Printing%20History.md#most-printed-cards)
 
@@ -495,9 +495,9 @@ schema: 2
 
 ### Pearl Medallion
 
-[Card entry](../cards/P/pe.md#pearl-medallion) · **3 pages** (decks 1 · edh guides 1 · card data 1)
+[Card entry](../cards/P/pe.md#pearl-medallion) · **4 pages** (decks 2 · edh guides 1 · card data 1)
 
-- **Decks (1):** [Giada, Font of Hope](../decks/giada-font-of-hope.md)
+- **Decks (2):** [Giada, Font of Hope](../decks/giada-font-of-hope.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
 - **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers)
 - **Card data (1):** [Artist Index → Artists O](../Artist%20Index.md#artists-o)
 
@@ -1445,9 +1445,9 @@ schema: 2
 
 ### Pongify
 
-[Card entry](../cards/P/po.md#pongify) · **9 pages** (decks 4 · edh guides 3 · card data 2)
+[Card entry](../cards/P/po.md#pongify) · **10 pages** (decks 5 · edh guides 3 · card data 2)
 
-- **Decks (4):** [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md) · [Niv-Mizzet, Parun](../decks/niv-mizzet-parun.md) · [Talrand, Sky Summoner](../decks/talrand-sky-summoner.md) · [Tatyova, Benthic Druid](../decks/tatyova-benthic-druid.md)
+- **Decks (5):** [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md) · [Niv-Mizzet, Parun](../decks/niv-mizzet-parun.md) · [Talrand, Sky Summoner](../decks/talrand-sky-summoner.md) · [Tatyova, Benthic Druid](../decks/tatyova-benthic-druid.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
 - **EDH guides (3):** [EDH Interaction → 3. Creature](../EDH%20Interaction.md#3-creature) · [EDH Staples → Targeted removal](../EDH%20Staples.md#targeted-removal) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (+1 more)
 - **Card data (2):** [Artist Index → Most prolific artists](../Artist%20Index.md#most-prolific-artists) (+1 more) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
@@ -1562,9 +1562,9 @@ schema: 2
 
 ### Powerstone Shard
 
-[Card entry](../cards/P/po.md#powerstone-shard) · **1 pages** (decks 1)
+[Card entry](../cards/P/po.md#powerstone-shard) · **2 pages** (decks 2)
 
-- **Decks (1):** [Braids, Arisen Nightmare (Dominaria-only)](../decks/plane-dominaria-braids-arisen-nightmare.md)
+- **Decks (2):** [Braids, Arisen Nightmare (Dominaria-only)](../decks/plane-dominaria-braids-arisen-nightmare.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
 
 ### Pox
 
@@ -1842,9 +1842,9 @@ schema: 2
 
 ### Prismatic Vista
 
-[Card entry](../cards/P/pr.md#prismatic-vista) · **2 pages** (decks 1 · card data 1)
+[Card entry](../cards/P/pr.md#prismatic-vista) · **3 pages** (decks 2 · card data 1)
 
-- **Decks (1):** [Lord Xander, the Collector (Grixis)](../grixis/decks/lord-xander-the-collector.md)
+- **Decks (2):** [Lord Xander, the Collector (Grixis)](../grixis/decks/lord-xander-the-collector.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
 - **Card data (1):** [Artist Index → Artists G](../Artist%20Index.md#artists-g)
 
 ### Prison Realm
@@ -2237,8 +2237,9 @@ schema: 2
 
 ### Puresteel Paladin
 
-[Card entry](../cards/P/pu.md#puresteel-paladin) · **1 pages** (card data 1)
+[Card entry](../cards/P/pu.md#puresteel-paladin) · **2 pages** (decks 1 · card data 1)
 
+- **Decks (1):** [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
 - **Card data (1):** [Artist Index → Artists F](../Artist%20Index.md#artists-f) (+1 more)
 
 ### Purging Stormbrood // Absorb Essence

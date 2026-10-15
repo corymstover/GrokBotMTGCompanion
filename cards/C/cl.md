@@ -967,6 +967,7 @@ schema: 2
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28575 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#clay-statue)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/189/clay-statue) · oracle_id `cc1ba59c-bb70-4da9-bbd0-a466075f9053` · printing: ME4 #189 (2011-01-10) · [rulings](https://api.scryfall.com/cards/176eedf6-4a8f-4994-b03b-0f482507fa03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cleanfall

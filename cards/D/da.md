@@ -2910,7 +2910,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #284 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-07-18* — Although Darksteel Citadel is an artifact, it can't be cast as a spell. Playing it follows the normal rules for playing a land.
-- **Referenced in:** 4 pages (2 decks · 1 rules · 1 card data) → [reverse index](../../references/D.md#darksteel-citadel)
+- **Referenced in:** 5 pages (3 decks · 1 rules · 1 card data) → [reverse index](../../references/D.md#darksteel-citadel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/285/darksteel-citadel) · oracle_id `8dc067bf-f78f-4ac4-b6e7-b305c42cf0bc` · printing: C21 #285 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Darksteel Colossus

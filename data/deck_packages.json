@@ -269,6 +269,11 @@
     "cards": 4
    },
    {
+    "deck": "decks/lore-brothers-war-urza-lord-high-artificer.md",
+    "label": "Urza, Lord High Artificer",
+    "cards": 4
+   },
+   {
     "deck": "decks/plane-ixalan-ghalta-primal-hunger.md",
     "label": "Ghalta, Primal Hunger (Ixalan-only)",
     "cards": 4
@@ -674,6 +679,11 @@
    {
     "deck": "decks/breya-etherium-shaper.md",
     "label": "Breya, Etherium Shaper",
+    "cards": 4
+   },
+   {
+    "deck": "decks/lore-nahiri-the-lithomancer.md",
+    "label": "Nahiri, the Lithomancer",
     "cards": 4
    },
    {
@@ -1278,6 +1288,11 @@
     "deck": "grixis/decks/garza-zol-plague-queen.md",
     "label": "Garza Zol, Plague Queen (Grixis)",
     "cards": 6
+   },
+   {
+    "deck": "decks/lore-nahiri-the-lithomancer.md",
+    "label": "Nahiri, the Lithomancer",
+    "cards": 3
    },
    {
     "deck": "decks/zur-the-enchanter.md",

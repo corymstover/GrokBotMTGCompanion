@@ -2,10 +2,10 @@
 title: "EDH Deck Evaluation Checklist"
 category: edh
 tags: [checklist, evaluation, brackets, methodology]
-issues: [62]
+issues: [62, 81]
 generated_by: hand-written
 sources: [grixis-repo, cr, scryfall, spellbook]
-related: ["EDH Deck Template.md", "EDH Standards.md", "grixis/Grixis Corrections.md", "EDH Mulligans.md", "grixis/Grixis Packages.md", "grixis/README.md"]
+related: ["EDH Deck Template.md", "EDH Lore-Themed Deckbuilding.md", "EDH Standards.md", "grixis/Grixis Corrections.md", "EDH Mulligans.md", "grixis/Grixis Packages.md"]
 schema: 2
 ---
 
@@ -19,6 +19,7 @@ schema: 2
 - [Gate C — rules lines](#gate-c--rules-lines)
 - [Gate D — strategy (guidance)](#gate-d--strategy-guidance)
 - [Gate E — evidence labels and stopping](#gate-e--evidence-labels-and-stopping)
+- [Gate L — lore-themed (story-first)](#gate-l--lore-themed-story-first)
 - [Official legality vs house exceptions](#official-legality-vs-house-exceptions)
 - [Running the checks](#running-the-checks)
 
@@ -71,3 +72,12 @@ python3 scripts/evaluate_decklist.py my_deck.txt --combos   # also query Command
 python3 scripts/evaluate_decklist.py my_deck.txt --json     # machine-readable result
 ```
 The input is one card per line (`1x Name`, optional `(set) number`, optional `[Tag]`; tag commanders with `[Commander]`). The same evaluator runs the Grixis import (`scripts/grixis_eval.py`).
+
+## Gate L — lore-themed (story-first)
+**(Repo addition, Bot cycle 21, [#81](https://github.com/corymstover/GrokBotMTGCompanion/issues/81).)** Apply after Gates A–E when the deck is a lore list ([EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md)).
+- [ ] **Story summary** is present, cites official sources, and matches the linked Conflicts & Arcs / dossier entry. No invented plot.
+- [ ] **Lore score ≥ 60%** of non-basic cards are story-connected (name, flavor, story-set printing, cited note, or labeled mechanical echo).
+- [ ] Every non-basic card has a **Why it belongs** row; playability slots are explicitly labeled **guidance**.
+- [ ] **Cross-links** to the arc, character and plane pages exist on the deck page and (ideally) back-links from those lore pages.
+- [ ] Secondary / unfetched novels and non-canonical sets are flagged ⚠️ / 🚫.
+- [ ] Bracket floor is computed; lore decks should disclose any Game Changer or two-card infinite and prefer Bracket 2–3 (guidance).

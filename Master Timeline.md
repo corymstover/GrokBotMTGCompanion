@@ -5,7 +5,7 @@ tags: [timeline, eras]
 issues: [7, 72]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Characters Index.md", "Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Planes Index.md", "Omenpath & Multiverse Connections.md", "Story Arc Summaries.md"]
+related: ["Characters Index.md", "Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Planes Index.md", "EDH Lore-Themed Deckbuilding.md", "Omenpath & Multiverse Connections.md"]
 schema: 2
 ---
 
@@ -39,6 +39,7 @@ schema: 2
 | Distant past (undated) | Serra creates Serra's Realm ("long gone"); Freyalise's and Windgrace's sacrifices; Dakkon and Dihada. | — · [Serra](Characters%20Index.md#serra), [Freyalise](Characters%20Index.md#freyalise), [Dakkon Blackblade](Characters%20Index.md#dakkon-blackblade), [Geyadrone Dihada](Characters%20Index.md#geyadrone-dihada) | [Serra](https://magic.wizards.com/en/story/serra-planeswalker) · [Freyalise](https://magic.wizards.com/en/story/freyalise-planeswalker) · [Dakkon](https://magic.wizards.com/en/story/dakkon-blackblade-planeswalker) |
 
 ### Brothers' War & Phyrexian wars
+> **Lore-themed EDH decks (cycle 21):** [Brothers' War — Urza](decks/lore-brothers-war-urza-lord-high-artificer.md).
 > **Era summary (cycle 20):** Urza/Mishra war → ice age → Urza vs Yawgmoth → *Weatherlight*/Legacy victory → Karn founds Mirrodin with hidden oil. **Lasting consequences:** Phyrexian threat lineage; sylex as recurring weapon (BRO frame → Invasion Tree); AR calendar only officially dated here.
 | Relative date | Event | Arc · Characters | Source |
 |---|---|---|---|

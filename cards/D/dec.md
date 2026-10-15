@@ -389,6 +389,7 @@ schema: 2
   - *2016-04-08* — It's possible to have a creature and a noncreature permanent with the same name, such as two copies of the same land, one of which has become a land creature. Only creatures with that name are exiled by Declaration in Stone.
   - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
   - *2022-06-10* — Unless a token is a copy of another permanent or was explicitly given a name by the effect that created it, its name is the subtypes it was given when it was created plus the word "Token." For example, if an effect creates a 1/1 Soldier creature token, that token is named "Soldier Token."
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#declaration-in-stone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/196/declaration-in-stone) · oracle_id `49554441-bb48-4829-b8d6-55e687a6c2e2` · printing: NCC #196 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Declaration of Naught

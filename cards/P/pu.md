@@ -946,7 +946,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — Once the equip {0} ability is activated, causing Puresteel Paladin to leave the battlefield or causing its controller to control fewer than three artifacts won't stop the equip ability from resolving.
   - *2020-08-07* — You may still activate the Equipment's other equip abilities if you wish.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#puresteel-paladin)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#puresteel-paladin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/51/puresteel-paladin) · oracle_id `74a62c7b-4753-4af2-b7a1-9a4ae8988801` · printing: CMM #51 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Purestrain Genestealer

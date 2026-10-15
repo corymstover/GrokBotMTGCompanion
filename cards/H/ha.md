@@ -1334,7 +1334,7 @@ schema: 2
   - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
   - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
-- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/H.md#hall-of-tagsin)
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/H.md#hall-of-tagsin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/263/hall-of-tagsin) · oracle_id `fd809587-773c-47ec-8676-cefef6d1e38f` · printing: BRO #263 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hall of the Bandit Lord
@@ -2034,7 +2034,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to the equipped creature may become lethal if you attach Hammer of Nazahn to a different creature during that turn.
   - *2020-08-07* — If Hammer of Nazahn enters the battlefield at the same time as other Equipment you control, its ability will trigger for each of those Equipment.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/H.md#hammer-of-nazahn)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/H.md#hammer-of-nazahn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/388/hammer-of-nazahn) · oracle_id `e3955573-3db5-490e-903e-65e0172a9202` · printing: CMM #388 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hammer of Purphoros

@@ -5,7 +5,7 @@ tags: [arcs, conflicts]
 issues: [7, 13, 34, 72]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Characters Index.md", "Master Timeline.md", "Planes Index.md", "Story Arc Summaries.md", "Contradictions & Retcons Log.md", "Omenpath & Multiverse Connections.md"]
+related: ["Characters Index.md", "Master Timeline.md", "Planes Index.md", "Story Arc Summaries.md", "Contradictions & Retcons Log.md", "EDH Lore-Themed Deckbuilding.md"]
 schema: 2
 ---
 
@@ -62,6 +62,7 @@ schema: 2
 - [Open questions](#open-questions)
 
 ## Ancient: imprisoning the Eldrazi
+> **Lore-themed EDH decks:** [Nahiri, the Lithomancer](decks/lore-nahiri-the-lithomancer.md) (character who built the hedrons) · [guide](EDH%20Lore-Themed%20Deckbuilding.md).
 **Sets:** — (backstory; revealed in Rise of the Eldrazi / Battle for Zendikar) · **Timeline:** [Pre-Mending / Ancient](Master%20Timeline.md#pre-mending--ancient) · **Planes:** [Zendikar](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Ugin](Characters%20Index.md#ugin), [Sorin Markov](Characters%20Index.md#sorin-markov), [Nahiri](Characters%20Index.md#nahiri) · **Status:** ✅ deepened Bot cycle 20
 
 **Cause:** The Eldrazi titans — Emrakul, Ulamog and Kozilek — "roam the desolate spaces between worlds" and "devour the mana and life energy of any plane they encounter." Three ancient Planeswalkers could not defeat them, so they chose imprisonment ([BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23)).
@@ -88,6 +89,7 @@ schema: 2
 **Outcome:** Urza "passed from the world into greater worlds" as the first snow fell — the start of the ice age ([BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary)). The Sylex blast shattered Terisiare into an archipelago ([Planeswalker's Guide to Dominaria](https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31)).
 **Lasting consequences:** Ice age; Argivian/Phyrexian vendetta path; sylex recovered in 4562 AR for the Invasion Tree crisis. AR years appear **only** in BRO fiction — expansion of "AR" is not printed there ([Retcons Log → AR](Contradictions%20%26%20Retcons%20Log.md#ar-after-reckoning-expansion)).
 **Sources:** [Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane) · [BRO Ep. 1](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end) · [BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary) · [BRO Ch. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus) · [Planeswalker's Guide to Dominaria](https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31)
+- **Lore-themed EDH decks:** [Brothers' War — Urza, Lord High Artificer](decks/lore-brothers-war-urza-lord-high-artificer.md) ([guide](EDH%20Lore-Themed%20Deckbuilding.md)).
 
 
 ## Phyrexia vs. Dominaria & the Weatherlight

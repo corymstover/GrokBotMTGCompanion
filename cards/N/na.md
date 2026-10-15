@@ -555,6 +555,7 @@ schema: 2
   - *2020-09-25* — A planeswalker enchanted this way may be attacked.
   - *2020-09-25* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities and will have a colon in their reminder text. Triggered abilities (starting with "when," "whenever," or "at") are unaffected.
   - *2020-09-25* — No abilities of the enchanted permanent can be activated, including mana abilities.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nahiris-binding)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/29/nahiris-binding) · oracle_id `8f674382-78b5-462c-9a7f-c5f613c317d4` · printing: ZNR #29 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nahiri's Lithoforming
@@ -710,7 +711,7 @@ schema: 2
   > Nahiri, the Lithomancer can be your commander.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9188 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/N.md#nahiri-the-lithomancer)
+- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/N.md#nahiri-the-lithomancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/45/nahiri-the-lithomancer) · oracle_id `a554aa2c-d947-4fc6-929d-d5891f467615` · printing: CMM #45 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b074e60a-6f9b-4679-9617-261e2e15e1e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nahiri, the Unforgiving

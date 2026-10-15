@@ -144,6 +144,7 @@ schema: 2
 - **Sources:** [profile](https://magic.wizards.com/en/story/sorin-markov-planeswalker) · [Aetherdrift Ep. 3](https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-3-go) (mention only) · [Legends of Reality Fracture (2026-10-12)](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) (Echoverse entries)
 
 ### Nahiri
+- **Lore-themed EDH decks:** [Nahiri, the Lithomancer](decks/lore-nahiri-the-lithomancer.md).
 - **Who:** Kor lithomancer; co-creator of the hedrons with Ugin and Sorin.
 - **Status (late 2026):** ✅ Alive — survived compleation; diminished power; vows to close Zendikar to Planeswalkers.
 - **Detail:** Sacrificed herself in the assault on New Phyrexia and returned compleated, leading the invasion of Zendikar. In the Aftermath story she is found alive by Ajani; "She might not wield the power she previously had" and swears "No Planeswalker will set foot on Zendikar ever again." ❓ Whether she still holds a spark is not stated.
@@ -193,6 +194,7 @@ schema: 2
 ## Brothers' War & Weatherlight
 
 ### Urza
+- **Lore-themed EDH decks:** [Brothers' War — Urza, Lord High Artificer](decks/lore-brothers-war-urza-lord-high-artificer.md).
 - **Who:** Master artificer; feuded with Mishra; vendetta against Yawgmoth.
 - **Status (late 2026):** ✅ Deceased.
 - **Detail:** "Urza and Yawgmoth perished together" (profile); "Since Urza's death…" (MOM Ep. 9).

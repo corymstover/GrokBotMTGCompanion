@@ -1337,7 +1337,7 @@ schema: 2
   > *Only the Eldrazi mind thinks in the warped paths required to open the hedrons and tap the power within.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1943 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dreamstone-hedron)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/D.md#dreamstone-hedron)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/945/dreamstone-hedron) · oracle_id `0e2575be-c596-4c8c-bf07-7941ca065721` · printing: CMM #945 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d0a27816-7ee9-4fa1-aa01-78796ad62337/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Strix
