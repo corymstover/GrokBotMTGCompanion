@@ -7,6 +7,7 @@ If the cache is missing, the page is rebuilt from the committed CSV.
 
 Usage: python3 scripts/build_primary_sources.py [--check]
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import csv, re, sys
 from pathlib import Path
 R = Path(__file__).resolve().parent.parent
@@ -109,7 +110,7 @@ def main():
     if C.exists() and any(C.glob('*.txt')):
         rows = scan()
         if '--check' not in sys.argv:
-            with CSV.open('w', newline='') as fh:
+            with atomic_io.atomic_open(CSV, 'w', newline='') as fh:
                 w = csv.DictWriter(fh, fieldnames=['date', 'title', 'kind', 'arc', 'words', 'url']); w.writeheader(); w.writerows(rows)
     else:
         rows = list(csv.DictReader(CSV.open()))

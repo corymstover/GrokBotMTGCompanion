@@ -12,6 +12,7 @@ Usage: python3 scripts/build_grixis.py [--refresh-combos] [SRC]
 Facts come from Scryfall bulk (.cache/) and Commander Spellbook; source commentary is the
 source author's guidance and is quoted, not re-asserted.
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import csv, datetime as dt, glob, json, os, re, subprocess, sys, time
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -446,8 +447,9 @@ def main():
             R.append(f"- **{' + '.join(d['commanders'])}** (`{did}`): {why}")
     R.append("")
     (OUT / "README.md").write_text("\n".join(R) + "\n", encoding="utf-8")
-    json.dump({did: {k: d[k] for k in ("slug", "themes", "commanders", "ci", "gcs", "floor", "cfloor", "n_combos", "n_two", "src_claim", "lands", "avg_mv", "source_path")} | {"fixes": len(d["fixes"])}
-               for did, d in integrated.items()}, open(ROOT / "data/grixis_summary.json", "w"), indent=1, ensure_ascii=False)
+    with atomic_io.atomic_open(ROOT / "data/grixis_summary.json", "w") as fh:
+        json.dump({did: {k: d[k] for k in ("slug", "themes", "commanders", "ci", "gcs", "floor", "cfloor", "n_combos", "n_two", "src_claim", "lands", "avg_mv", "source_path")} | {"fixes": len(d["fixes"])}
+                   for did, d in integrated.items()}, fh, indent=1, ensure_ascii=False)
     print(json.dumps({"integrated": len(integrated), "left_out": len(evaluation) - len(integrated), "corrections": len(corrections), "kinds": kinds}, default=str))
 
 

@@ -13,6 +13,7 @@ links cards. kb_find.py indexes these records, so `python3 scripts/kb_find.py sy
   python3 scripts/build_lore_index.py           write both files
   python3 scripts/build_lore_index.py --check   exit 1 if either is stale (run by scripts/check_lore.py)
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import json
 import re
 import sys

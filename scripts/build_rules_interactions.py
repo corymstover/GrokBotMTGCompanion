@@ -1,5 +1,6 @@
 """Build "Rules Interactions.md": verbatim Comprehensive Rules (2026-09-25; download the official .txt to .cache/MagicCompRules-20260925.txt or set CR_TXT) + official WotC rulings from the Scryfall rulings bulk. Bot cycles 3–5. CR "Example:" paragraphs (official) are attached to the rule they follow."""
-import sys,csv,json,gzip,re,os
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
+import sys,csv,json,gzip,re,os,pathlib
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import ingest_scryfall as ing
 R=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..')+'/'
 CRURL="https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt"
@@ -91,5 +92,5 @@ for name,num,rules,pat,excl,summ,exr in topics:
         o.append(f"- {ing.link(row,'')} — *{x['published_at']}* — \"{x['comment']}\"")
     o.append("")
 o.append("## Open questions / next topics\n- Possible further topics: morph/disguise & face-down (708), split/adventure/omen cards (709, 715), the monarch & initiative (724, 725), day/night (726), dungeons (309), banding (702.22).\n- ❓ Any rule summary here that disagrees with the quoted text is an error: the quoted CR text wins.")
-open(R+'Rules Interactions.md','w').write("\n".join(o)+"\n")
+pathlib.Path(R+'Rules Interactions.md').write_text("\n".join(o)+"\n")
 print('topics',len(topics),'rulings quoted',total,'CR examples',crx[0])

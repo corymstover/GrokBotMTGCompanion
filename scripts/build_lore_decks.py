@@ -15,6 +15,7 @@ Output: decks/<slug>.md in the shared deck layout (Commander / Validation / Brac
 Decklist / Card breakdown / Combos), so front_matter, deck_calibration and build_crossrefs pick them up.
 Usage: python3 scripts/build_lore_decks.py [--online] [--check]
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import glob, gzip, json, re, sys, csv, urllib.request, datetime
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))

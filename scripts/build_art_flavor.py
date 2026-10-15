@@ -12,6 +12,7 @@ Usage:
   python3 scripts/build_art_flavor.py                                  (write the Markdown)
 Card names are written as [[Name]] and resolved by scripts/resolve_card_links.py.
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import csv
 import glob
 import gzip
@@ -63,7 +64,7 @@ def harvest(corpus: str) -> None:
             if re.fullmatch(r"\| Art by:?", ln) and 0 < i < len(L) - 1 and L[i - 1] and L[i + 1]:
                 rows.add((L[i - 1], L[i + 1], url, title))
     CAP_CSV.parent.mkdir(exist_ok=True)
-    with CAP_CSV.open("w", newline="", encoding="utf-8") as fh:
+    with atomic_io.atomic_open(CAP_CSV, "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
         w.writerow(["caption_name", "caption_artist", "url", "title"])
         w.writerows(sorted(rows))

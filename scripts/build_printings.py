@@ -9,6 +9,7 @@ Source: Scryfall default-cards bulk (every printing). A "printing" is a distinct
 Paper and digital-only printings are counted separately.
 Usage: python3 scripts/build_printings.py && python3 scripts/resolve_card_links.py "Printing History.md"
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import csv
 import gzip
 import json
@@ -67,7 +68,7 @@ def main() -> int:
             "commander_legality": index[o]["commander_legality"], "edhrec_rank": index[o]["edhrec_rank"],
         })
     rows.sort(key=lambda r: r["name"].lower())
-    with CSV_OUT.open("w", newline="", encoding="utf-8") as fh:
+    with atomic_io.atomic_open(CSV_OUT, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]))
         w.writeheader()
         w.writerows(rows)

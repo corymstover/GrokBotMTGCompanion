@@ -10,6 +10,7 @@ are kept apart from **guidance** (pilot tips, which cuts lower the bracket), whi
 Barometers follow EDH Standards → Power bracket assessment (official Commander Brackets, Oct 2025 update).
 Usage: python3 scripts/deck_calibration.py [--check]
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import json
 import re
 import sys

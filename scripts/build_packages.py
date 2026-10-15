@@ -2,6 +2,7 @@
 """Generate "EDH Packages.md" (Bot cycle 6, #26): reusable card packages by function, from Scryfall data.
 Each sub-package = Oracle-text pattern (shown) → Commander-legal cards, most-played first, with identity, MV, price, GC flag.
 Usage: python3 scripts/build_packages.py"""
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import re
 from edh_lib import Data
 import ingest_scryfall as ing
@@ -75,6 +76,12 @@ def main():
     dp = ing.ROOT / "data" / "deck_packages.json"  # written by scripts/build_crossrefs.py
     deck_use = json.loads(dp.read_text(encoding="utf-8"))["packages"] if dp.exists() else {}
     d = Data()
+    ce = ing.ROOT / "data" / "card_enrichment.json"  # written by scripts/build_card_enrichment.py
+    enriched = {}
+    if ce.exists():
+        for v in sorted(json.loads(ce.read_text(encoding="utf-8"))["cards"].values(), key=lambda v: v["name"]):
+            for pk in v["synergy"]["guidance"]["packages"][:3]:
+                enriched.setdefault(pk, []).append(v)
     L = d.header("EDH Packages", "scripts/build_packages.py", 26,
                  "Bracket notes: **GC** cards count toward the Bracket 3 limit of three; see [EDH Standards → brackets](EDH%20Standards.md#power-bracket-assessment). Pick cards whose identity fits your commander.")
     L += ["## Contents"] + [f"- [{p[0]}](#{re.sub(r'[^a-z0-9 -]', '', p[0].lower()).replace(' ', '-')})" for p in PKG] + ["- [Method](#method)", ""]
@@ -91,6 +98,10 @@ def main():
             if used:  # Bot cycle 18 (#66): back-links to the decks that run this package (data/deck_packages.json)
                 L += [f"Used in decks (≥ 3 matching cards, {len(used)}): " + " · ".join(
                     f"[{u['label']}]({u['deck'].replace(' ', '%20')}) {u['cards']}" for u in used[:12]) + (f" · …{len(used) - 12} more" if len(used) > 12 else ""), ""]
+            en = enriched.get(f"{name}: {lab}", [])
+            if en:  # Bot cycle 34 (#102): back-links to Phase 8 enriched cards whose Synergy line names this sub-package
+                L += [f"Enriched cards naming this package ([card enrichment](Card%20Enrichment.md#by-package), guidance tier, {len(en)}): " + " · ".join(
+                    f"[{v['name']}]({v['shard'].replace(' ', '%20')}#{v['anchor']})" for v in en), ""]
             bud = [c for c in cs[10:] if d.price.get(c["oracle_id"], 99) <= 1.0][:4]
             if bud: L += ["Budget options beyond the top 10 (≤ $1.00): " + " · ".join(f"{d.link(c)} ({d.ci(c)}, {d.usd(c)})" for c in bud), ""]
     L += ["## Method", "", "- Each sub-package is a regex on Oracle text over Commander-legal cards (case-insensitive), shown with the section. Matches are heuristics, so some cards fit loosely.",

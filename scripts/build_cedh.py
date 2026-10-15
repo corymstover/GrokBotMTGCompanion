@@ -3,6 +3,7 @@
 Cards come from Scryfall data and must be Commander-legal. Combos come from the Commander Spellbook find-my-combos API,
 queried with a fixed list of well-known competitive combo pieces and cached in data/cedh_combos.json.
 Usage: python3 scripts/build_cedh.py [--refresh]"""
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import json, re, sys, urllib.request, datetime
 from edh_lib import Data
 import ingest_scryfall as ing

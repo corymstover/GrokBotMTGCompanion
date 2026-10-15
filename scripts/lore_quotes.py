@@ -21,6 +21,7 @@ the ledger, so an edited or new quote still fails until it is re-verified on a m
   python3 scripts/lore_quotes.py --check     exit 1 on an unexplained MISS, or a stale ledger
   python3 scripts/lore_quotes.py --report    print every non-verified quote
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import gzip
 import os
 import hashlib

@@ -8,6 +8,7 @@ These are NOT cards: none of them can be put in a deck (CR 111.1, 114.1, 309.2).
   Tokens, Emblems & Dungeons.md       readable tables, plus the adventurer cards (real cards, CR 715)
 Usage: python3 scripts/build_tokens.py && python3 scripts/resolve_card_links.py "Tokens, Emblems & Dungeons.md"
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import csv
 import gzip
 import json

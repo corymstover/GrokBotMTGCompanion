@@ -25,6 +25,7 @@ Usage:
 """
 from __future__ import annotations
 
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import argparse
 import csv
 import datetime as dt
@@ -507,7 +508,7 @@ def main() -> int:
 
     rows.sort(key=lambda r: (ascii_key(r["name"]), r["name"]))
     DATA_DIR.mkdir(exist_ok=True)
-    with INDEX_CSV.open("w", encoding="utf-8", newline="") as fh:
+    with atomic_io.atomic_open(INDEX_CSV, "w", encoding="utf-8", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=CSV_FIELDS, lineterminator="\n")
         w.writeheader()
         w.writerows(rows)

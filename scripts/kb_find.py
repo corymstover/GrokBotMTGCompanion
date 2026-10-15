@@ -12,6 +12,7 @@ their computed tags (e.g. spark-lost, unknown, secondary, non-canonical, has-car
 Scoring (simple, deterministic): per query word, title 5 · tag 4 · commander 4 · section heading 2; all words must hit.
 Card facts stay in the card entries (data/card_index.csv); this index only points at them.
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import csv
 import json
 import re

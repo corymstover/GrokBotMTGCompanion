@@ -15,6 +15,7 @@ and that the blocks are current.
   python3 scripts/build_lore_xrefs.py           rewrite the blocks on the lore entry pages
   python3 scripts/build_lore_xrefs.py --check   exit 1 if any block is stale
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import csv
 import re
 import sys
