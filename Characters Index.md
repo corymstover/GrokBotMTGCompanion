@@ -460,7 +460,7 @@ schema: 2
 ### Teyo Verada
 - **Who:** Shieldmage.
 - **Status (late 2026):** ✅ Alive — protecting Gobakhan.
-- **Detail:** "Teyo has brought his unorthodox techniques back to Gobakhan" (Legends). ❓ Spark status not stated.
+- **Detail:** "Teyo has brought his unorthodox techniques back to Gobakhan" (Legends). ❓ Spark status not stated. *(Bot cycle 28 re-check: his profile, the WAR episodes and Legends of RF give no post-invasion spark statement.)*
 - **See also:** Arcs: [Return to Dominaria & War of the Spark](Conflicts%20%26%20Arcs.md#return-to-dominaria--war-of-the-spark) · Timeline: [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era)
 - **Sources:** [profile](https://magic.wizards.com/en/story/teyo-verada-planeswalker) · [Legends of Reality Fracture (2026-10-12)](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)
 
@@ -559,7 +559,7 @@ schema: 2
 |---|---|
 | Nissa, Teferi, Koth ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world)); Karn — gave his up ([MOM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life)); Saheeli, Huatli ([LCI: Pawns](https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns)); Rowan ([WOE Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets)); Nahiri ("she was no longer a Planeswalker", [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair)) *(Bot cycle 27)*; Jiang Yanggu, Liliana ("former Planeswalker") ([Legends of Reality Fracture (2026-10-12)](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) | Chandra, Ajani ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world), [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair)); Kaya ([MKM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay)); Garruk, Chandra, Ajani planeswalk in [RF Ep. 10](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday); Tam (inherits Jace's spark) |
 
-The stated cause is uncertain even in-story: "Maybe this is some sort of natural response from the Multiverse; a great pruning" (She Who Breaks the World). ❓ Teyo, Will Kenrith, Bolas: spark status not stated. *(Bot cycle 27: Nahiri moved to "lost".)*
+The stated cause is uncertain even in-story: "Maybe this is some sort of natural response from the Multiverse; a great pruning" (She Who Breaks the World). Context in the same story: "The sylex had gone off in the Blind Eternities. Holes had been punched in the space between planes" ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world)). ❓ Teyo, Will Kenrith: spark status not stated. ❓ Bolas: unknown even in-story — "we don't know whether his spark is intact" ([LE Ep. 2](https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber)). *(Bot cycle 27: Nahiri moved to "lost". Bot cycle 28: Teyo/Will/Bolas re-checked; no new statement.)*
 
 ## Echoverse counterparts
 Reality Fracture cards include 🚫 Echoverse versions with different histories ("These warped counterparts are denizens of the Echoverse" — [Legends of Reality Fracture (2026-10-12)](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)). Do **not** merge them into the Multiverse entries above. Examples: Gideon the Oathless, Karn, Gilded Guardian (spark gifted by a "great Planeswalker Mishra"), Kiora of Fire and Ashes, Tamiyo, Upriser Crowned, Koth of the Homestead, Liliana the Faultless, Chandra, Chill of Compliance, Garruk, Veiled Butcher, Ajani Unrelenting.
@@ -655,7 +655,7 @@ Reality Fracture cards include 🚫 Echoverse versions with different histories 
 
 ### Will Kenrith
 - **Who:** He shares a spark with his twin Rowan ("the only Planeswalkers known to share a Spark"); a cryomancer.
-- **Status (late 2026):** ✅ Alive as of *Wilds of Eldraine* (2023). Rowan confronts him at Eriette's court ("Home is gone, Will!"). ❓ The fetched sources don't say whether the twins still share a working spark after the invasion.
+- **Status (late 2026):** ✅ Alive as of *Wilds of Eldraine* (2023). Rowan confronts him at Eriette's court ("Home is gone, Will!"). ❓ The fetched sources don't say whether the twins still share a working spark after the invasion. *(Bot cycle 28)* ⚠️ Closest statements: WOE Ep. 1 says "they share at least one thing in common: their spark," and when Rowan reaches for it, "In fact, she can't feel it at all" ([WOE Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-pure-of-heart)). Will's own spark is never described separately, so his status stays ❓ (not inferred from Rowan's).
 - **Sources:** [profile](https://magic.wizards.com/en/story/will-kenrith-planeswalker) · [WOE Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-broken-oaths)
 
 ### Xenagos

@@ -144,7 +144,7 @@ schema: 2
   - *2022-02-18* — Similarly, if an Equipment is tapped, its reconfigure abilities may still be activated and it may still become attached to creatures. Becoming attached doesn't untap it. In most cases, an attached Equipment being tapped won't affect gameplay, but it will be relevant if it becomes unattached again before it untaps.
   - *2022-02-18* — The top card of your library is still in your library and not in your hand. You can't discard cards from the top of your library (for example, to activate their channel abilities).
   - *2022-02-18* — You must pay all costs and follow all timing rules for cards played from the top of your library this way. For example, you may play a land this way only while the stack is empty during one of your own main phases, and only if you haven't played a land yet this turn.
-- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/T.md#the-reality-chip)
+- **Referenced in:** 4 pages (1 decks · 1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/T.md#the-reality-chip)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/74/the-reality-chip) · oracle_id `751f22bc-bcea-4213-a37b-b5f72448a4c4` · printing: NEO #74 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### There and Back Again

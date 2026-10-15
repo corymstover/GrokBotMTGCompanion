@@ -1338,6 +1338,26 @@
 ],
 [
 2,
+"Added Bot cycle 28",
+"added-bot-cycle-28"
+],
+[
+3,
+"Did the sylex blast cause the spark loss?",
+"did-the-sylex-blast-cause-the-spark-loss"
+],
+[
+3,
+"Elspeth: struck down on Theros, then back",
+"elspeth-struck-down-on-theros-then-back"
+],
+[
+3,
+"The Living Guildpact: Jace, then Niv-Mizzet",
+"the-living-guildpact-jace-then-niv-mizzet"
+],
+[
+2,
 "Queue for later cycles",
 "queue-for-later-cycles"
 ],
@@ -1355,9 +1375,9 @@
 "Conflicts & Arcs.md",
 "Characters Index.md",
 "Items & Artifacts Index.md",
-"Master Timeline.md",
+"Planeswalker Dossiers.md",
 "Planes Index.md",
-"Planeswalker Dossiers.md"
+"Master Timeline.md"
 ]
 },
 {
@@ -3776,6 +3796,21 @@
 "biblioplex--the-blood-avatar-strixhaven"
 ],
 [
+3,
+"Reality Chip",
+"reality-chip"
+],
+[
+3,
+"World Tree & the Sword of the Realms (Kaldheim)",
+"world-tree--the-sword-of-the-realms-kaldheim"
+],
+[
+3,
+"Theros god weapons",
+"theros-god-weapons"
+],
+[
 2,
 "Spells & world-scale magic",
 "spells--world-scale-magic"
@@ -4551,6 +4586,26 @@
 "lorwyn-shadowmoor"
 ],
 [
+3,
+"Dominaria (before Dominaria United)",
+"dominaria-before-dominaria-united"
+],
+[
+3,
+"Kamigawa (Kami War era)",
+"kamigawa-kami-war-era"
+],
+[
+3,
+"Fiora",
+"fiora"
+],
+[
+3,
+"Shandalar",
+"shandalar"
+],
+[
 2,
 "Special realms & cosmology",
 "special-realms--cosmology"
@@ -4569,9 +4624,9 @@
 "Characters Index.md",
 "Conflicts & Arcs.md",
 "Contradictions & Retcons Log.md",
+"Items & Artifacts Index.md",
 "Master Timeline.md",
-"Planeswalker Dossiers.md",
-"Items & Artifacts Index.md"
+"Planeswalker Dossiers.md"
 ]
 },
 {
@@ -4694,6 +4749,21 @@
 2,
 "Tam",
 "tam"
+],
+[
+2,
+"Garruk Wildspeaker",
+"garruk-wildspeaker"
+],
+[
+2,
+"Wrenn",
+"wrenn"
+],
+[
+2,
+"Niv-Mizzet",
+"niv-mizzet"
 ],
 [
 2,
@@ -5355,6 +5425,11 @@
 "headings": [
 [
 2,
+"2026-10-15 — Bot cycle 28 (Phase 6: dossiers, items, planes, retcons)",
+"2026-10-15--bot-cycle-28-phase-6-dossiers-items-planes-retcons"
+],
+[
+2,
 "2026-10-15 — Bot cycle 27 (Phase 6: dossiers, items, planes, spark refresh)",
 "2026-10-15--bot-cycle-27-phase-6-dossiers-items-planes-spark-refresh"
 ],
@@ -5492,11 +5567,11 @@
 "issues": [],
 "related": [
 "Contradictions & Retcons Log.md",
-"Knowledge Index.md",
 "Planeswalker Dossiers.md",
-"Conflicts & Arcs.md",
-"Front-Matter Schema.md",
-"Lore Primary Sources.md"
+"Knowledge Index.md",
+"Lore Primary Sources.md",
+"Planes Index.md",
+"Characters Index.md"
 ]
 },
 {

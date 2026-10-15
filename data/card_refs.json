@@ -4950,9 +4950,9 @@
 },
 "10764b35-5c6c-4161-8579-1124d5963a0e": {
 "name": "Niv-Mizzet Reborn",
-"n": 3,
+"n": 4,
 "kinds": {
-"lore": 3
+"lore": 4
 },
 "index": "references/N.md#niv-mizzet-reborn"
 },
@@ -4991,9 +4991,9 @@
 },
 "108ae90a-50fa-4cfd-b751-d630e41425fe": {
 "name": "Wrenn and Six",
-"n": 3,
+"n": 4,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 2
 },
 "index": "references/W.md#wrenn-and-six"
@@ -7381,9 +7381,9 @@
 },
 "184d4672-05a9-4182-8b3f-3561fb33ed62": {
 "name": "Garruk, Curse Breaker",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/G.md#garruk-curse-breaker"
@@ -7442,9 +7442,9 @@
 },
 "186b4def-4fff-4a2b-bcbf-5318b0ac5fa9": {
 "name": "Garruk Wildspeaker",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/G.md#garruk-wildspeaker"
@@ -9712,8 +9712,9 @@
 },
 "212d058b-69c6-4dc2-8c93-bdfe26dc2ffe": {
 "name": "Hammer of Purphoros",
-"n": 1,
+"n": 2,
 "kinds": {
+"lore": 1,
 "cards": 1
 },
 "index": "references/H.md#hammer-of-purphoros"
@@ -11967,10 +11968,10 @@
 },
 "298a7e1a-b254-442e-bc1d-2a3e5296d849": {
 "name": "Garruk, Primal Hunter",
-"n": 3,
+"n": 4,
 "kinds": {
 "deck": 1,
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/G.md#garruk-primal-hunter"
@@ -14733,9 +14734,9 @@
 },
 "32ea6b1c-d48e-4663-ad5c-d7f4a85450af": {
 "name": "Garruk, Unleashed",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/G.md#garruk-unleashed"
@@ -14885,11 +14886,11 @@
 },
 "33666a98-812f-4892-9f8d-33e0cbecc340": {
 "name": "Niv-Mizzet, Parun",
-"n": 10,
+"n": 11,
 "kinds": {
 "deck": 3,
 "edh": 5,
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/N.md#niv-mizzet-parun"
@@ -15250,9 +15251,10 @@
 },
 "3437d504-bf62-4c27-b15f-f6330182ff7e": {
 "name": "The World Tree",
-"n": 2,
+"n": 3,
 "kinds": {
 "edh": 1,
+"lore": 1,
 "cards": 1
 },
 "index": "references/T.md#the-world-tree"
@@ -15794,9 +15796,10 @@
 },
 "361b965f-2ce7-49f8-84e7-7325ea0c948d": {
 "name": "Bow of Nylea",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 1,
+"lore": 1
 },
 "index": "references/B.md#bow-of-nylea"
 },
@@ -16602,9 +16605,9 @@
 },
 "38ece0fa-2c94-4eae-b6ab-74b783862f3e": {
 "name": "Doomskar",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/D.md#doomskar"
 },
@@ -19999,10 +20002,10 @@
 },
 "4566fb92-448e-4b3f-9045-9d74323c35d1": {
 "name": "Wrenn and Realmbreaker",
-"n": 4,
+"n": 5,
 "kinds": {
 "deck": 1,
-"lore": 2,
+"lore": 3,
 "cards": 1
 },
 "index": "references/W.md#wrenn-and-realmbreaker"
@@ -20276,9 +20279,9 @@
 },
 "46570366-5e58-40b7-b725-833321a3b7b1": {
 "name": "Niv-Mizzet, Guildpact",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/N.md#niv-mizzet-guildpact"
 },
@@ -21496,9 +21499,9 @@
 },
 "4a6972fe-348a-4a19-a1d0-bdf8f1f9c792": {
 "name": "Garruk, Veiled Butcher",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/G.md#garruk-veiled-butcher"
@@ -21955,9 +21958,9 @@
 },
 "4c3a865a-88b1-43e0-b326-17c45670da54": {
 "name": "Niv-Mizzet, Supreme",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/N.md#niv-mizzet-supreme"
 },
@@ -24053,10 +24056,11 @@
 },
 "53987a39-c18c-4c13-b1ea-fd1b2a369f9e": {
 "name": "Whip of Erebos",
-"n": 4,
+"n": 5,
 "kinds": {
 "deck": 1,
 "edh": 2,
+"lore": 1,
 "cards": 1
 },
 "index": "references/W.md#whip-of-erebos"
@@ -28377,10 +28381,10 @@
 },
 "63a509ea-cedc-40e9-b4e8-0ff4fc356485": {
 "name": "Wrenn and Seven",
-"n": 3,
+"n": 4,
 "kinds": {
 "deck": 1,
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/W.md#wrenn-and-seven"
@@ -28488,9 +28492,9 @@
 },
 "640c1743-3ad6-46ae-87d1-4d7fbe6a8ff4": {
 "name": "Garruk the Slayer",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/G.md#garruk-the-slayer"
 },
@@ -30878,9 +30882,9 @@
 },
 "6ba0656f-e0d2-4735-9c66-3a00afa9fc23": {
 "name": "Koma, Cosmos Serpent",
-"n": 3,
+"n": 4,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 2
 },
 "index": "references/K.md#koma-cosmos-serpent"
@@ -33534,10 +33538,11 @@
 },
 "751f22bc-bcea-4213-a37b-b5f72448a4c4": {
 "name": "The Reality Chip",
-"n": 3,
+"n": 4,
 "kinds": {
 "deck": 1,
 "rules": 1,
+"lore": 1,
 "cards": 1
 },
 "index": "references/T.md#the-reality-chip"
@@ -35841,9 +35846,9 @@
 },
 "7cec9021-6f25-4fd8-b40e-adf4ffd3a7b8": {
 "name": "Garruk Relentless // Garruk, the Veil-Cursed",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/G.md#garruk-relentless--garruk-the-veil-cursed"
@@ -39111,9 +39116,9 @@
 },
 "899d58dc-60b2-4013-9f91-c1888c585d66": {
 "name": "Niv-Mizzet, Dracogenius",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/N.md#niv-mizzet-dracogenius"
 },
@@ -40354,9 +40359,9 @@
 },
 "8e2fbc26-5373-4fd7-8e9e-41af5bb9ff18": {
 "name": "Garruk, Caller of Beasts",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/G.md#garruk-caller-of-beasts"
@@ -42300,11 +42305,11 @@
 },
 "959acb66-84ca-4535-bca2-ad591895735e": {
 "name": "Niv-Mizzet, the Firemind",
-"n": 4,
+"n": 5,
 "kinds": {
 "deck": 1,
 "edh": 2,
-"lore": 1
+"lore": 2
 },
 "index": "references/N.md#niv-mizzet-the-firemind"
 },
@@ -46598,9 +46603,9 @@
 },
 "a5350327-e84c-44b6-8359-87882e521048": {
 "name": "Niv-Mizzet, Ghost Counsel",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/N.md#niv-mizzet-ghost-counsel"
 },
@@ -61211,11 +61216,11 @@
 },
 "d9f1dc61-831e-4244-a2da-aa9da6fd5b50": {
 "name": "Niv-Mizzet, Visionary",
-"n": 4,
+"n": 5,
 "kinds": {
 "deck": 1,
 "edh": 2,
-"lore": 1
+"lore": 2
 },
 "index": "references/N.md#niv-mizzet-visionary"
 },
@@ -63132,9 +63137,9 @@
 },
 "e0cef79c-ad47-4cbc-9d73-a913e487ccb7": {
 "name": "Garruk, Cursed Huntsman",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/G.md#garruk-cursed-huntsman"
@@ -63385,11 +63390,11 @@
 },
 "e1afaef7-9fa3-4662-a95f-adfb0da9fd11": {
 "name": "Bident of Thassa",
-"n": 7,
+"n": 8,
 "kinds": {
 "deck": 4,
 "edh": 1,
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/B.md#bident-of-thassa"
@@ -67255,9 +67260,9 @@
 },
 "ef9a8bdc-3361-440d-89f6-0bf5ff7a09e8": {
 "name": "Garruk, Apex Predator",
-"n": 3,
+"n": 4,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 2
 },
 "index": "references/G.md#garruk-apex-predator"
@@ -70941,9 +70946,9 @@
 },
 "fc762e40-84c1-4762-82f7-a0fc4f6fd522": {
 "name": "Garruk, Savage Herald",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/G.md#garruk-savage-herald"
 },

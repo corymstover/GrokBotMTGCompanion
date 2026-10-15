@@ -210,7 +210,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-03-16* — If a creature can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
   - *2018-03-16* — The controller of each attacking creature still chooses which player or planeswalker that creature attacks.
-- **Referenced in:** 7 pages (4 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/B.md#bident-of-thassa)
+- **Referenced in:** 8 pages (4 decks · 1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/B.md#bident-of-thassa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/146/bident-of-thassa) · oracle_id `e1afaef7-9fa3-4662-a95f-adfb0da9fd11` · printing: LCC #146 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bifurcate

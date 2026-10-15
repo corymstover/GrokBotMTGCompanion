@@ -2067,10 +2067,11 @@ schema: 2
 
 ### The Reality Chip
 
-[Card entry](../cards/T/ther.md#the-reality-chip) · **3 pages** (decks 1 · rules 1 · card data 1)
+[Card entry](../cards/T/ther.md#the-reality-chip) · **4 pages** (decks 1 · rules 1 · lore & story 1 · card data 1)
 
 - **Decks (1):** [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md)
 - **Rules (1):** [Keyword Encyclopedia → Reconfigure](../Keyword%20Encyclopedia.md#reconfigure)
+- **Lore & story (1):** [Items & Artifacts Index → Reality Chip](../Items%20%26%20Artifacts%20Index.md#reality-chip)
 - **Card data (1):** [Artist Index → Artists T](../Artist%20Index.md#artists-t)
 
 ### There and Back Again
@@ -2390,9 +2391,10 @@ schema: 2
 
 ### The World Tree
 
-[Card entry](../cards/T/thew.md#the-world-tree) · **2 pages** (edh guides 1 · card data 1)
+[Card entry](../cards/T/thew.md#the-world-tree) · **3 pages** (edh guides 1 · lore & story 1 · card data 1)
 
 - **EDH guides (1):** [EDH Mana Bases → Five-color WUBRG](../EDH%20Mana%20Bases.md#five-color-wubrg)
+- **Lore & story (1):** [Items & Artifacts Index → World Tree & the Sword of the Realms (Kaldheim)](../Items%20%26%20Artifacts%20Index.md#world-tree--the-sword-of-the-realms-kaldheim)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a) (+1 more)
 
 ### They Came from the Pipes

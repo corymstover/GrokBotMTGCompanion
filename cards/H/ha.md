@@ -2050,7 +2050,7 @@ schema: 2
   > *All the world is Purphoros's anvil.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3031 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hammer-of-purphoros)
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/H.md#hammer-of-purphoros)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/88/hammer-of-purphoros) · oracle_id `212d058b-69c6-4dc2-8c93-bdfe26dc2ffe` · printing: EOC #88 (2025-08-01) · [rulings](https://api.scryfall.com/cards/900de725-741b-4b25-8e40-78ed7575a83f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hammer of Ruin

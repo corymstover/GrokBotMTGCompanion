@@ -890,58 +890,58 @@ schema: 2
 
 ### Niv-Mizzet, Dracogenius
 
-[Card entry](../cards/N/ni.md#niv-mizzet-dracogenius) · **1 pages** (lore & story 1)
+[Card entry](../cards/N/ni.md#niv-mizzet-dracogenius) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Niv-Mizzet, Ghost Counsel
 
-[Card entry](../cards/N/ni.md#niv-mizzet-ghost-counsel) · **1 pages** (lore & story 1)
+[Card entry](../cards/N/ni.md#niv-mizzet-ghost-counsel) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Niv-Mizzet, Guildpact
 
-[Card entry](../cards/N/ni.md#niv-mizzet-guildpact) · **1 pages** (lore & story 1)
+[Card entry](../cards/N/ni.md#niv-mizzet-guildpact) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Niv-Mizzet, Parun
 
-[Card entry](../cards/N/ni.md#niv-mizzet-parun) · **10 pages** (decks 3 · edh guides 5 · lore & story 1 · card data 1)
+[Card entry](../cards/N/ni.md#niv-mizzet-parun) · **11 pages** (decks 3 · edh guides 5 · lore & story 2 · card data 1)
 
 - **Decks (3):** [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Nekusar, the Mindrazer (Grixis)](../grixis/decks/nekusar-the-mindrazer.md) · [Niv-Mizzet, Parun](../decks/niv-mizzet-parun.md)
 - **EDH guides (5):** [cEDH Primer → Compact combos](../cEDH%20Primer.md#compact-combos) · [EDH Archetypes → Spellslinger (instants & sorceries)](../EDH%20Archetypes.md#spellslinger-instants--sorceries) · [EDH Standards → Draw ↔ damage loop — Niv-Mizzet, Parun (UR, spellslinger) ⚠️ two-card combo](../EDH%20Standards.md#draw--damage-loop--niv-mizzet-parun-ur-spellslinger--two-card-combo) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) · [EDH Win Conditions → Combo kills (Commander Spellbook)](../EDH%20Win%20Conditions.md#combo-kills-commander-spellbook)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists E](../Artist%20Index.md#artists-e) (+1 more)
 
 ### Niv-Mizzet Reborn
 
-[Card entry](../cards/N/ni.md#niv-mizzet-reborn) · **3 pages** (lore & story 3)
+[Card entry](../cards/N/ni.md#niv-mizzet-reborn) · **4 pages** (lore & story 4)
 
-- **Lore & story (3):** [Art & Flavor Story Links → War of the Spark (2019)](../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor)
+- **Lore & story (4):** [Art & Flavor Story Links → War of the Spark (2019)](../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Niv-Mizzet, Supreme
 
-[Card entry](../cards/N/ni.md#niv-mizzet-supreme) · **1 pages** (lore & story 1)
+[Card entry](../cards/N/ni.md#niv-mizzet-supreme) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Niv-Mizzet, the Firemind
 
-[Card entry](../cards/N/ni.md#niv-mizzet-the-firemind) · **4 pages** (decks 1 · edh guides 2 · lore & story 1)
+[Card entry](../cards/N/ni.md#niv-mizzet-the-firemind) · **5 pages** (decks 1 · edh guides 2 · lore & story 2)
 
 - **Decks (1):** [Niv-Mizzet, Parun](../decks/niv-mizzet-parun.md)
 - **EDH guides (2):** [EDH Archetypes → Spellslinger (instants & sorceries)](../EDH%20Archetypes.md#spellslinger-instants--sorceries) · [EDH Win Conditions → Combo kills (Commander Spellbook)](../EDH%20Win%20Conditions.md#combo-kills-commander-spellbook)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Niv-Mizzet, Visionary
 
-[Card entry](../cards/N/ni.md#niv-mizzet-visionary) · **4 pages** (decks 1 · edh guides 2 · lore & story 1)
+[Card entry](../cards/N/ni.md#niv-mizzet-visionary) · **5 pages** (decks 1 · edh guides 2 · lore & story 2)
 
 - **Decks (1):** [Niv-Mizzet, Parun](../decks/niv-mizzet-parun.md)
 - **EDH guides (2):** [EDH Archetypes → Spellslinger (instants & sorceries)](../EDH%20Archetypes.md#spellslinger-instants--sorceries) · [EDH Win Conditions → Combo kills (Commander Spellbook)](../EDH%20Win%20Conditions.md#combo-kills-commander-spellbook)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Noble Heritage
 

@@ -2582,7 +2582,7 @@ schema: 2
   - *2014-07-18* — The emblem is owned and controlled by the target of the ability that created it. In a multiplayer game, if Garruk’s owner leaves the game, the emblem does not.
   - *2014-07-18* — The emblem’s ability won’t trigger if a creature attacks a planeswalker.
   - *2014-07-18* — The first ability can target and destroy a Garruk planeswalker controlled by another player.
-- **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/G.md#garruk-apex-predator)
+- **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/G.md#garruk-apex-predator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/210/garruk-apex-predator) · oracle_id `ef9a8bdc-3361-440d-89f6-0bf5ff7a09e8` · printing: M15 #210 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Caller of Beasts
@@ -2598,7 +2598,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-07-01* — If you have Garruk's emblem, the creature card you search for will be put onto the battlefield before the creature spell you cast resolves. The creature card you put onto the battlefield isn't cast, so the ability of the emblem won't retrigger.
   - *2013-07-01* — You choose what green creature card to put onto the battlefield, if any, when the second ability resolves.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-caller-of-beasts)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-caller-of-beasts)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/172/garruk-caller-of-beasts) · oracle_id `8e2fbc26-5373-4fd7-8e9e-41af5bb9ff18` · printing: M14 #172 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Curse Breaker
@@ -2613,7 +2613,7 @@ schema: 2
   > −4: Until your next turn, whenever one or more creatures attack one of your opponents, those creatures get +2/+2 and gain trample until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15498 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-curse-breaker)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-curse-breaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/259/garruk-curse-breaker) · oracle_id `184d4672-05a9-4182-8b3f-3561fb33ed62` · printing: FRA #259 (2026-10-02) · [rulings](https://api.scryfall.com/cards/90ca5812-ceb5-46bd-b049-aed7ff10e6af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Cursed Huntsman
@@ -2629,7 +2629,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — If lethal damage is dealt to one of Garruk's Wolf tokens at the same time that Garruk's loyalty is brought to 0 or less, Garruk is put into your graveyard before the Wolf's triggered ability can save him.
   - *2019-10-04* — If the target creature is an illegal target by the time Garruk's second ability tries to resolve, the ability won't resolve. You won't draw a card. If the target is legal but not destroyed (most likely because it has indestructible), you will still draw.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-cursed-huntsman)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-cursed-huntsman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/191/garruk-cursed-huntsman) · oracle_id `e0cef79c-ad47-4cbc-9d73-a913e487ccb7` · printing: ELD #191 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Primal Hunter
@@ -2646,7 +2646,7 @@ schema: 2
   - *2011-09-22* — For Garruk’s second ability, the greatest power among creatures you control is determined when that ability begins resolving.
   - *2011-09-22* — For Garruk’s third ability, the number of Wurm tokens you put onto the battlefield is determined when that ability begins resolving.
   - *2011-09-22* — If the greatest power among creatures you control is 0 or less, you’ll draw no cards. You won’t discard any cards this way.
-- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-primal-hunter)
+- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-primal-hunter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/190/garruk-primal-hunter) · oracle_id `298a7e1a-b254-442e-bc1d-2a3e5296d849` · printing: C21 #190 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk Relentless // Garruk, the Veil-Cursed
@@ -2670,7 +2670,7 @@ schema: 2
   - *2011-09-22* — The second ability of Garruk, the Veil-Cursed doesn't target a creature. However, when that ability resolves, you must sacrifice a creature if you control one.
   - *2011-09-22* — You can't activate a loyalty ability of Garruk Relentless and later that turn after he transforms activate a loyalty ability of Garruk, the Veil-Cursed.
   - *2011-09-22* — You don't add or remove loyalty counters from Garruk Relentless when he transforms into Garruk, the Veil-Cursed. In most cases, he'll have one or two loyalty counters on him.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-relentless--garruk-the-veil-cursed)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-relentless--garruk-the-veil-cursed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/197/garruk-relentless-garruk-the-veil-cursed) · oracle_id `7cec9021-6f25-4fd8-b40e-adf4ffd3a7b8` · printing: INR #197 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Savage Herald
@@ -2687,7 +2687,7 @@ schema: 2
   - *2020-06-23* — Garruk's last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't gain the ability.
   - *2020-06-23* — If either creature is an illegal target as Garruk's second ability tries to resolve, the creature you control won't deal damage to any creature.
   - *2020-06-23* — When assigning combat damage, you choose for each creature whether you want to assign its damage to the creature blocking it, or if you want to assign it to the player or planeswalker the creature is attacking. You can't split the damage assignment between them.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#garruk-savage-herald)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/G.md#garruk-savage-herald)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/336/garruk-savage-herald) · oracle_id `fc762e40-84c1-4762-82f7-a0fc4f6fd522` · printing: M21 #336 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk's Companion
@@ -2824,7 +2824,7 @@ schema: 2
   > −25: Destroy all creatures Garruk the Slayer doesn't control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#garruk-the-slayer)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/G.md#garruk-the-slayer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ppc1/1/garruk-the-slayer) · oracle_id `640c1743-3ad6-46ae-87d1-4d7fbe6a8ff4` · printing: PPC1 #1 (2014-07-12) · [rulings](https://api.scryfall.com/cards/c18e2175-ec42-47f2-a40f-426ccaa1e89e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Unleashed
@@ -2841,7 +2841,7 @@ schema: 2
   - *2020-06-23* — Garruk's second ability gives him only one loyalty counter, no matter how many opponents control how many more creatures than you do.
   - *2020-06-23* — If Garruk has only two loyalty counters, activating his second loyalty ability results in him dying before it resolves. He won't be there to get a loyalty counter.
   - *2020-06-23* — If the creature you put onto the battlefield with Garruk's emblem's ability during your end step has an ability that triggers at the beginning of your end step, it won't trigger during that end step.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-unleashed)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-unleashed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/183/garruk-unleashed) · oracle_id `32ea6b1c-d48e-4663-ad5c-d7f4a85450af` · printing: M21 #183 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Veiled Butcher
@@ -2856,7 +2856,7 @@ schema: 2
   > −3: Each opponent discards two cards. For each opponent who didn't discard two nonland cards this way, you draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17747 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-veiled-butcher)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-veiled-butcher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/229/garruk-veiled-butcher) · oracle_id `4a6972fe-348a-4a19-a1d0-bdf8f1f9c792` · printing: FRA #229 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d48bfb8a-d135-45f3-be99-4694b4b9ab93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk Wildspeaker
@@ -2872,7 +2872,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — The first ability can target any two lands. They don’t have to be tapped.
   - *2009-10-01* — The third ability affects only creatures you control at the time it resolves. It won’t affect creatures that come under your control later in the turn.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-wildspeaker)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-wildspeaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/157/garruk-wildspeaker) · oracle_id `186b4def-4fff-4a2b-bcbf-5318b0ac5fa9` · printing: CMD #157 (2011-06-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garrulous Sycophant

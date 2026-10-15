@@ -5,7 +5,7 @@ tags: [planes]
 issues: [7, 12]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Characters Index.md", "Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Master Timeline.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md"]
+related: ["Characters Index.md", "Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Items & Artifacts Index.md", "Master Timeline.md", "Planeswalker Dossiers.md"]
 schema: 2
 ---
 
@@ -17,7 +17,7 @@ schema: 2
 ## Contents
 - [Planes with official profiles](#planes-with-official-profiles)
 - [Other planes in recent stories (Omenpath era)](#other-planes-in-recent-stories-omenpath-era)
-- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn) · [Regatha](#regatha) · [Rath](#rath) · [Mercadia](#mercadia) · [Ulgrotha](#ulgrotha) · [Ergamon](#ergamon) · [Theros Underworld](#theros-the-underworld-theros-beyond-death) · [Muraganda](#muraganda) · [Kylem](#kylem) · [Gobakhan](#gobakhan) · [Shenmeng](#shenmeng) · [Segovia](#segovia) · [Zendikar (ZNR)](#zendikar-zendikar-rising-era) · [Kamigawa (NEO)](#kamigawa-neon-dynasty-era) · [Dominaria (DMU)](#dominaria-dominaria-united-era) · [Arcavios colleges](#arcavios--the-strixhaven-colleges) · [Kaladesh → Avishkar](#kaladesh--avishkar) · [Amonkhet](#amonkhet) · [Ixalan](#ixalan) *(Bot cycle 25)* · [Innistrad](#innistrad) · [Zendikar (Eldrazi era)](#zendikar-eldrazi-era) · [Theros](#theros) · [Tarkir](#tarkir) *(Bot cycle 26)* · *(Bot cycle 27)* [Ravnica (before the invasion)](#ravnica-before-the-invasion) · [Alara](#alara) · [Mirrodin (before Phyrexia)](#mirrodin-before-phyrexia) · [Lorwyn-Shadowmoor](#lorwyn-shadowmoor)
+- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn) · [Regatha](#regatha) · [Rath](#rath) · [Mercadia](#mercadia) · [Ulgrotha](#ulgrotha) · [Ergamon](#ergamon) · [Theros Underworld](#theros-the-underworld-theros-beyond-death) · [Muraganda](#muraganda) · [Kylem](#kylem) · [Gobakhan](#gobakhan) · [Shenmeng](#shenmeng) · [Segovia](#segovia) · [Zendikar (ZNR)](#zendikar-zendikar-rising-era) · [Kamigawa (NEO)](#kamigawa-neon-dynasty-era) · [Dominaria (DMU)](#dominaria-dominaria-united-era) · [Arcavios colleges](#arcavios--the-strixhaven-colleges) · [Kaladesh → Avishkar](#kaladesh--avishkar) · [Amonkhet](#amonkhet) · [Ixalan](#ixalan) *(Bot cycle 25)* · [Innistrad](#innistrad) · [Zendikar (Eldrazi era)](#zendikar-eldrazi-era) · [Theros](#theros) · [Tarkir](#tarkir) *(Bot cycle 26)* · *(Bot cycle 27)* [Ravnica (before the invasion)](#ravnica-before-the-invasion) · [Alara](#alara) · [Mirrodin (before Phyrexia)](#mirrodin-before-phyrexia) · [Lorwyn-Shadowmoor](#lorwyn-shadowmoor) · *(Bot cycle 28)* [Dominaria (before DMU)](#dominaria-before-dominaria-united) · [Kamigawa (Kami War era)](#kamigawa-kami-war-era) · [Fiora](#fiora) · [Shandalar](#shandalar)
 - [Special realms & cosmology](#special-realms--cosmology)
 - [Gaps / next to add](#gaps--next-to-add)
 
@@ -293,6 +293,28 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 - ✅ After Oona: "the queen and mother of all faeries, Oona, had been defeated and destroyed, and her control over the cycle of day and night had ended." "Lorwyn, the day aspect, and Shadowmoor, the night aspect, are divided and kept separate, either by the Great Aurora, as they were during the Age of Oona, or by auroras in the current age" ([PW Guide to Lorwyn Eclipsed](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed)). "Lorwyn-Shadowmoor is about duality" (same source).
 - Arc: [Lorwyn Eclipsed](Conflicts%20%26%20Arcs.md#lorwyn-eclipsed-202526).
 
+### Dominaria (before Dominaria United)
+*Added Bot cycle 28.* For the 2022 plane see [Dominaria (Dominaria United era)](#dominaria-dominaria-united-era).
+- ✅ "Home to a rich variety of terrain—cold mountains, wide plains, jungles, deserts, islands." It is "the birthplace of brothers Urza and Mishra, master artificers who discovered ancient stones of power in the Caves of Koilos"; their war plunged "the plane into an ice age" ([Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane)).
+- ✅ "Phyrexia nearly invaded Dominaria, were it not for the skyship Weatherlight and its crew." Later "Dominaria was also the epicenter of the temporal-planar fractures that threatened all the planes"; "A handful of powerful Planeswalkers intervened to mend the rifts" (same source).
+- ✅ 2018: "as the cult of the Cabal grows in strength, now under the control of the Demonlord Belzenlok, Dominaria faces new threats" (same source). By 2022 Urborg holds "the Stronghold, fortress of the slain demon Belzenlok" ([PW Guide to DMU](https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31)). Arcs: [Phyrexia vs. Dominaria & the Weatherlight](Conflicts%20%26%20Arcs.md#phyrexia-vs-dominaria--the-weatherlight), [Return to Dominaria & WAR](Conflicts%20%26%20Arcs.md#return-to-dominaria--war-of-the-spark).
+
+### Kamigawa (Kami War era)
+*Added Bot cycle 28.* For the modern plane see [Kamigawa (Neon Dynasty era)](#kamigawa-neon-dynasty-era).
+- ✅ "For many hundreds of years, Kamigawa's denizens peacefully worshipped the spirits of their world. Then suddenly their gods attacked." The plane has "two symbiotic worlds: the utsushiyo, or material realm, and the kakuriyo, or kami spirit realm" ([Kamigawa profile](https://magic.wizards.com/en/story/kamigawa-plane)).
+- ✅ Cause: "it was the proud daimyo Konda who had begun the war. With aid from moonfolk allies, Konda kidnapped a kami to secure his own power and immortality" (same source).
+- ✅ Dating: "1,200 years ago, Konda, Lord of Eiganjo, captured and imprisoned a part of O-Kagachi"; "Kyodai partnered with Konda's daughter, Michiko, to defeat both O-Kagachi and Konda" ([PW Guide to NEO](https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03)). Arc: [Kamigawa: Neon Dynasty](Conflicts%20%26%20Arcs.md#kamigawa-neon-dynasty-2022).
+
+### Fiora
+*Added Bot cycle 28.*
+- ✅ "A plane of perpetual renaissance"; "Fiora is one of the most dangerous planes a Planeswalker can visit. Every sleeve hides a dagger, every smile a lie." In "Paliano, the High City—murder and subterfuge are common", and "the laws issued from Paliano mystically bind the populace" ([Fiora profile](https://magic.wizards.com/en/story/fiora-plane)).
+- ✅ Beyond the city: "The massacre of Drakestown is a grim reminder of this truth"; "The explorer Selvala was one of the first to travel the frontier" (same source). ⚠️ Conspiracy-era stories were not fetched; Brago and the Kenrith twins' Fioran past are not covered here.
+
+### Shandalar
+*Added Bot cycle 28.*
+- ✅ "Abnormally mana-rich, Shandalar is a place where magic flows freely: from the wilds of Kalonia and the kingdom of Thune to the shadows of Xathrid, the peak of Valkas, and the remote Evos Isle." "It was once home to the Onakke, an ogre civilization adept at using the plane's abundant mana to craft artifacts of terrible power"; now its people "must combat the growing hive mind of the slivers" ([Shandalar profile](https://magic.wizards.com/en/story/shandalar-plane)).
+- ✅ The Chain Veil came from here: "While hunting a beast across Shandalar, Garruk's path led him to the Onakke Catacombs" ([Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)). See [Items → Chain Veil](Items%20%26%20Artifacts%20Index.md#chain-veil).
+
 ## Special realms & cosmology
 - **Blind Eternities** — the chaotic void between planes, home of the Eldrazi titans ([Zendikar profile](https://magic.wizards.com/en/story/zendikar-plane)).
 - **Omenpaths** — portals between planes that appeared after the Phyrexian Invasion, letting non-Planeswalkers travel (used throughout OTJ, Lorwyn Eclipsed and SOS stories; ✅ e.g. [OTJ Episode 1](https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge)). ⚠️ The exact in-story origin of the Omenpaths is not yet cited here — open question for next cycle.
@@ -305,4 +327,5 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 - **Done in Bot cycle 25:** Kaladesh → Avishkar, Amonkhet, Ixalan (detailed entries from PW Guides, profiles and episodes).
 - **Done in Bot cycle 26:** Innistrad, Zendikar (Eldrazi era), Theros, Tarkir.
 - **Done in Bot cycle 27:** Ravnica (before the invasion), Alara, Mirrodin (before Phyrexia), Lorwyn-Shadowmoor.
+- **Done in Bot cycle 28:** Dominaria (before Dominaria United), Kamigawa (Kami War era), Fiora, Shandalar.
 - **Still to add:** Nauctis (announced set "Nauctis: The Sunken Realm", Scryfall release 2027-02 — ❓ no story yet). Tracked in GitHub issue #12.
