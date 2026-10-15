@@ -3,6 +3,7 @@
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 9 (Phase 3: Keyword Encyclopedia complete)](#2026-10-15--bot-cycle-9-phase-3-keyword-encyclopedia-complete)
 - [2026-10-15 — Bot cycle 8 (Phase 2 complete; Phase 3 keyword encyclopedia started)](#2026-10-15--bot-cycle-8-phase-2-complete-phase-3-keyword-encyclopedia-started)
 - [2026-10-15 — Bot cycle 7 (Phase 1 complete; Phase 2 lore depth started)](#2026-10-15--bot-cycle-7-phase-1-complete-phase-2-lore-depth-started)
 - [2026-10-15 — Bot cycle 6 (ROADMAP Phase 1: EDH & deckbuilding depth)](#2026-10-15--bot-cycle-6-roadmap-phase-1-edh--deckbuilding-depth)
@@ -11,6 +12,15 @@
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 9 (Phase 3: Keyword Encyclopedia complete)
+
+> All entries in this section are **Bot cycle 9** (Grok Bot) changes, on branch `bot-cycle9`.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 9.1 | Bot cycle 9: **Keyword Encyclopedia** finish for [#39](https://github.com/corymstover/GrokBotMTGCompanion/issues/39). Added **44** status labels (🌲 evergreen / 🍂 deciduous / 🍁 retired from evergreen / mill note) only where official Wizards articles name the term (Evergreen Eggs & Ham 2015, Introducing Ward 2021, Deciduous 2022, M21 release notes). Everything else stays unlabeled. Added shared WotC **ruling excerpts** on **217** entries (top shared comments among that keyword's cards). | `Keyword Encyclopedia.md`, `scripts/build_keywords.py` | #39 |
+| 9.2 | Bot cycle 9: README dashboard, Progress Tracker, Knowledge Index, ROADMAP tracking table, Update Log (#39 ✅; Phase 3 continues with #40–#43). | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `ROADMAP.md`, `Update Log.md` | docs |
 
 ## 2026-10-15 — Bot cycle 8 (Phase 2 complete; Phase 3 keyword encyclopedia started)
 

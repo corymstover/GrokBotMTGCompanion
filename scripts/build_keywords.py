@@ -31,6 +31,31 @@ GLOSSARY = {"deathtouch", "defender", "double strike", "enchant", "first strike"
             "vigilance", "goad", "scry", "shuffle", "equip"}
 
 
+EEH = ("Evergreen Eggs & Ham (2015)", "https://magic.wizards.com/en/news/making-magic/evergreen-eggs-ham-2015-06-08")
+WARD = ("Introducing Ward (2021)", "https://magic.wizards.com/en/news/card-preview/introducing-ward-2021-03-25")
+DEC = ("Deciduous (2022)", "https://magic.wizards.com/en/news/making-magic/deciduous-2022-03-28")
+M21 = ("Core Set 2021 Release Notes (2020)", "https://magic.wizards.com/en/news/feature/core-set-2021-and-jumpstart-release-notes-2020-06-20")
+# Status labels used ONLY where an official Wizards article says so. Anything else stays unlabeled.
+EVERGREEN_2015 = ["deathtouch", "defender", "double strike", "enchant", "equip", "first strike", "flash", "flying",
+                  "haste", "hexproof", "indestructible", "lifelink", "menace", "reach", "trample", "vigilance",
+                  "activate", "attach", "cast", "counter", "destroy", "discard", "exchange", "exile", "fight",
+                  "play", "regenerate", "reveal", "sacrifice", "scry", "search", "shuffle", "tap and untap"]
+STATUS = {k: ("🌲 Evergreen", "on the Magic Origins (2015) evergreen list", [EEH]) for k in EVERGREEN_2015}
+STATUS.update({
+    "ward": ("🌲 Evergreen", "\"a new evergreen keyword\" as of Strixhaven (2021)", [WARD]),
+    "prowess": ("🍂 Deciduous", "evergreen in 2015, later \"changed to be deciduous\"", [EEH, DEC]),
+    "protection": ("🍂 Deciduous ⚠️", "moved \"from what we call evergreen to deciduous\" in 2015. The 2022 article says it was \"sort of returned to evergreen status\" and is \"slightly more evergreen than deciduous\"", [EEH, DEC]),
+    "cycling": ("🍂 Deciduous", "\"As of Streets of New Capenna, we've added it to deciduous status\"", [DEC]),
+    "investigate": ("🍂 Deciduous", "listed under \"Clue Tokens and Investigate\"", [DEC]),
+    "banding": ("🍁 Retired from evergreen", "removed in Sixth Edition", [EEH]),
+    "fear": ("🍁 Retired from evergreen", "removed in Magic 2010", [EEH]),
+    "shroud": ("🍁 Retired from evergreen", "replaced by hexproof (M12): \"we no longer use the keyword on new cards\"", [EEH]),
+    "intimidate": ("🍁 Retired from evergreen", "removed in Magic Origins", [EEH]),
+    "landwalk": ("🍁 Retired from evergreen", "removed in Magic Origins", [EEH]),
+    "mill": ("Keyword action since M21", "\"promoted to an official game term\" in Core Set 2021. Not called evergreen by the source ❓", [M21]),
+})
+
+
 def parse_cr(path: Path):
     lines = path.read_text(encoding="utf-8-sig").splitlines()
     start = max(i for i, l in enumerate(lines) if l.startswith("701.1. "))
@@ -62,6 +87,11 @@ def main() -> int:
             continue
         for k in c.get("keywords", []):
             kw_cards[k.lower()].append(c)
+    rul = defaultdict(list)
+    for r, _ in [ing.get_bulk(ing.DEFAULT_CACHE, None, "rulings")]:
+        for x in r:
+            if x.get("source") == "wotc":
+                rul[x["oracle_id"]].append(x)
     first = {}
     gz = sorted((ROOT / ".cache").glob("default-cards-*.jsonl.gz"))[-1]
     for ln in gzip.open(gz, "rt", encoding="utf-8"):
@@ -89,8 +119,11 @@ def main() -> int:
         defn = next((t for sub, t in s["rules"] if sub == "a"), s["rules"][0][1] if s["rules"] else "")
         cr_id = f"{s['sec']}.{s['n']}"
         g = " · ✅ on Wizards' [Common Keywords]({}) glossary".format(GLOSSARY_URL) if s["name"].lower() in GLOSSARY else ""
+        st = STATUS.get(s["name"].lower())
+        stline = (f"**Status:** {st[0]}: {st[1]} ({' · '.join(f'[{a}]({u})' for a, u in st[2])})" if st
+                  else "**Status:** not labeled (no official evergreen/deciduous statement found)")
         out = [f"#### {s['name']}", "",
-               f"**CR {cr_id}** ({len(s['rules'])} subrules){g}", "",
+               f"**CR {cr_id}** ({len(s['rules'])} subrules){g}", "", stline, "",
                f"> {cr_id}a {defn}" if any(sub == "a" for sub, _ in s["rules"]) else f"> {defn}", ""]
         stats = f"**Cards:** {len(rows)} Oracle cards · {len(legal)} Commander-legal"
         if fp:
@@ -98,11 +131,34 @@ def main() -> int:
         if not keys:
             stats = "**Cards:** no card in Scryfall's `keywords` data lists this name (it may be rules-only, reminder-only, or worded differently on cards) ❓"
         out.append(stats)
+        terms = [t for t in re.split(r" and ", s["name"].lower().split(" [")[0]) if t]
+        word = re.compile(r"\b(" + "|".join(map(re.escape, terms)) + r")\b", re.I)
+        freq = defaultdict(list)
+        for o in cs:
+            for x in rul.get(o, []):
+                bare = x["comment"]
+                for part in index[o]["name"].split(" // "):
+                    bare = bare.replace(part, "")
+                if word.search(bare):
+                    key = re.sub(r"\s+", " ", x["comment"].replace("’", "'").replace("“", '"').replace("”", '"')).strip()
+                    freq[key].append((x["published_at"], index[o]["name"]))
+        top = sorted(freq.items(), key=lambda kv: (-len(kv[1]), kv[0]))[:2]
+        if top and len(top[0][1]) == 1:
+            top = top[:1]
+        if top:
+            out.append("")
+            out.append("**Ruling excerpts** (official Wizards rulings, verbatim; the most widely shared among this keyword's cards):")
+            for text, uses in top:
+                d, nm = max(uses)
+                text = text.replace("\n", " ").replace("<", "&lt;").replace("[[", "[ [")
+                out.append(f"- \"{text}\" ({len(uses)} card{'s' if len(uses) > 1 else ''}, e.g. [[{nm}]], {d})")
+            counts_r[0] += 1
         if ex:
             out.append("")
             out.append("**Examples (Commander-legal; each entry includes its rulings):** " + ", ".join(f"[[{r['name']}]]" for r in ex))
         return out, len(rows), bool(keys)
 
+    counts_r = [0]
     body = []
     counts = {"702": [0, 0], "701": [0, 0]}
     toc = []
@@ -123,14 +179,16 @@ def main() -> int:
                 body.append("")
     head = [
         "# Keyword Encyclopedia", "",
-        "> **Bot cycle 8 · issue [#39](https://github.com/corymstover/GrokBotMTGCompanion/issues/39) (Phase 3).** Every keyword ability (CR 702) and keyword action (CR 701), with the Comprehensive Rules definition quoted verbatim, card counts, the earliest printing, and Commander-legal examples. Generated by `scripts/build_keywords.py`.",
-        f"> **Sources:** Comprehensive Rules dated {crdate} (cached as `.cache/{cr.name}`); Scryfall Oracle and default-cards bulk data (`keywords` field); Wizards' [Common Keywords]({GLOSSARY_URL}) page for the ✅ marks. ✅ means the term is on that beginner glossary. It is **not** an official evergreen list, and this page does not label any keyword evergreen.",
+        "> **Bot cycle 8 · issue [#39](https://github.com/corymstover/GrokBotMTGCompanion/issues/39) (Phase 3; Bot cycle 9 added status labels and ruling excerpts).** Every keyword ability (CR 702) and keyword action (CR 701), with the Comprehensive Rules definition quoted verbatim, card counts, the earliest printing, and Commander-legal examples. Generated by `scripts/build_keywords.py`.",
+        f"> **Sources:** Comprehensive Rules dated {crdate} (cached as `.cache/{cr.name}`); Scryfall Oracle and default-cards bulk data (`keywords` field and WotC rulings); Wizards' [Common Keywords]({GLOSSARY_URL}) page for the ✅ marks; [{EEH[0]}]({EEH[1]}), [{WARD[0]}]({WARD[1]}), [{DEC[0]}]({DEC[1]}), and [{M21[0]}]({M21[1]}) for status labels only where those articles name a term. ✅ means the term is on the beginner glossary. Status labels are separate and appear only with a cited official article.",
         "> Each example links to its card entry, which includes the card's official rulings. For tricky interactions see [Rules Interactions](Rules%20Interactions.md).", "",
-        f"**Coverage:** {counts['702'][0]} keyword abilities ({counts['702'][1]} matched to cards) · {counts['701'][0]} keyword actions ({counts['701'][1]} matched to cards).", "",
+        f"**Status labels:** 🌲 evergreen · 🍂 deciduous · 🍁 retired from evergreen. A label appears only where an official Wizards article ({EEH[0]}, {WARD[0]}, {DEC[0]}) says so, with a quote. Everything else is **not labeled**: most of those are set or block mechanics, but this page does not claim that without a source. The 2015 evergreen list predates later changes, which are noted where a source exists. ❓ the current status of 2015 actions such as regenerate.",
+        "",
+        f"**Coverage:** {counts['702'][0]} keyword abilities ({counts['702'][1]} matched to cards) · {counts['701'][0]} keyword actions ({counts['701'][1]} matched to cards) · {sum(1 for k in STATUS)} status labels · ruling excerpts for {counts_r[0]} entries.", "",
         "## Contents", *toc, "",
     ]
     OUT.write_text("\n".join(head + body) + "\n", encoding="utf-8")
-    print(f"{OUT.name}: {counts}")
+    print(f"{OUT.name}: {counts} rulings={counts_r[0]} status={len(STATUS)}")
     return 0
 
 
