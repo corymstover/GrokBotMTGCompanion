@@ -5,16 +5,16 @@ tags: [items, artifacts, relics]
 issues: [75]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Lore Primary Sources.md"]
+related: ["Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Planes Index.md", "Lore Primary Sources.md"]
 schema: 2
 ---
 
 # Items & Artifacts Index
 
-> **Bot cycle 26 · issue [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75) (started).** Story items, spells and artifacts: what each is, who used it, where it appears, and the card that depicts it. Every quote is verbatim from a fetched magic.wizards.com page (see [Lore Primary Sources](Lore%20Primary%20Sources.md)). Card links go to this KB's Oracle-verified card entries; card text is game rules, not story. Flags: ⚠️ secondary or image-only source · ❓ not covered by fetched sources.
+> **Bot cycles 26–27 · issue [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75).** Story items, spells and artifacts: what each is, who used it, where it appears, and the card that depicts it. Every quote is verbatim from a fetched magic.wizards.com page (see [Lore Primary Sources](Lore%20Primary%20Sources.md)). Card links go to this KB's Oracle-verified card entries; card text is game rules, not story. Flags: ⚠️ secondary or image-only source · ❓ not covered by fetched sources.
 
 ## Contents
-- [Artifacts](#artifacts): [Golgothian Sylex](#golgothian-sylex) · [Blackblade](#blackblade) · [Immortal Sun](#immortal-sun) · [Chain Veil](#chain-veil) · [Godsend & Khrusor](#godsend--khrusor) · [Helvault](#helvault) · [Hedrons](#hedrons) · [Planar Bridge](#planar-bridge) · [Spear of Hazoret](#spear-of-hazoret) · [Temporal Anchor](#temporal-anchor) · [Ozolith](#ozolith) · [Endstone](#endstone)
+- [Artifacts](#artifacts): [Golgothian Sylex](#golgothian-sylex) · [Blackblade](#blackblade) · [Immortal Sun](#immortal-sun) · [Chain Veil](#chain-veil) · [Godsend & Khrusor](#godsend--khrusor) · [Helvault](#helvault) · [Hedrons](#hedrons) · [Planar Bridge](#planar-bridge) · [Spear of Hazoret](#spear-of-hazoret) · [Temporal Anchor](#temporal-anchor) · [Ozolith](#ozolith) · [Endstone](#endstone) · *(Bot cycle 27)* [Halo](#halo) · [Lithoform Core](#lithoform-core) · [Mightstone & Weakstone](#mightstone--weakstone) · [Celestus, Sungold Lock & Moonsilver Key](#celestus-sungold-lock--moonsilver-key) · [Biblioplex & the Blood Avatar](#biblioplex--the-blood-avatar-strixhaven)
 - [Spells & world-scale magic](#spells--world-scale-magic): [Elderspell](#elderspell) · [Realmbreaker, the Invasion Tree](#realmbreaker-the-invasion-tree)
 - [Queue](#queue)
 
@@ -72,6 +72,36 @@ schema: 2
 ### Endstone
 - **What / use:** The relic both faiths chase in Edge of Eternities: "He said there would be a battle over the Endstone" ([EOE Ep. 10](https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-10)); Tezzeret delivers it ([EOE Ep. 11](https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-11)). ❓ Who receives it is not stated. Arc: [Edge of Eternities](Conflicts%20%26%20Arcs.md#edge-of-eternities-2025) · **Card:** [The Endstone](cards/T/thee.md#the-endstone)
 
+### Halo
+*Added Bot cycle 27.*
+- **What:** "Halo, a viscous, divine, oil-like fluid in high demand for its magic-enhancing and curative power, is running out." The archangels "gave themselves up to make Halo"; New Capenna is surrounded by "a shield of diffuse Halo, the very essence of the angels" ([PW Guide to New Capenna](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna)).
+- **Use:** Its source: "How had she discovered her power to make Halo?" ([SNC Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05)). Carried to New Phyrexia against phyresis: "Halo might be one, but their supply was limited, and they had yet to test it in the field"; "Jace swallowed the last of his Halo" ([ONE Ep. 2](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-2-unstable-foundations); [Ep. 3](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-3-inconceivable-losses)).
+- **Arcs:** [Streets of New Capenna](Conflicts%20%26%20Arcs.md#streets-of-new-capenna-2022) · [ONE](Conflicts%20%26%20Arcs.md#phyrexia-all-will-be-one-2023) · **Cards:** [Halo Fountain](cards/H/ha.md#halo-fountain), [Halo Forager](cards/H/ha.md#halo-forager)
+
+### Lithoform Core
+*Added Bot cycle 27.*
+- **What:** "There's an ancient object called the Lithoform Core," Nahiri said ([ZNR Ep. 2](https://magic.wizards.com/en/news/magic-story/episode-2-race-murasa-skyclave-2020-09-09)). Nahiri's aim: "With the Lithoform Core, she would erase the Roil and make Zendikar as beautiful and tranquil as it was millennia ago" ([ZNR Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-dangerous-climb-long-fall-2020-09-16)).
+- **Use:** Nissa uses it so that "Zendikar was healing"; the Core is left "inert" ([ZNR Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-two-guardians-2020-09-30)). Later recalled as "unleashing the healing power of the Lithoform Core" ([BRO Ch. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus)).
+- **Arc:** [Zendikar Rising](Conflicts%20%26%20Arcs.md#zendikar-rising-2020) · **Card:** [Lithoform Engine](cards/L/li.md#lithoform-engine) (related artifact; ❓ the card is not stated to be the Core)
+
+### Mightstone & Weakstone
+*Added Bot cycle 27.*
+- **What / use:** The brothers' powerstones. After the sylex blast, Urza's eyes "were no longer human eyes, but rather two gemstones, radiating with a cascade of multicolored hues"—"Mightstone and Weakstone, reunited at last, within the surviving brother" ([BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary)).
+- **Arc:** [The Brothers' War](Conflicts%20%26%20Arcs.md#the-brothers-war) · **Card:** [The Mightstone and Weakstone](cards/T/them.md#the-mightstone-and-weakstone) · ❓ how the brothers first divided the stone is not quoted here (the fetched episodes start later).
+
+### Celestus, Sungold Lock & Moonsilver Key
+*Added Bot cycle 27.*
+- **What:** "Built by hedgewitches centuries ago, the Celestus is an astronomical mechanism in the heart of the Ulvenwald." To restore day and night, "a mechanism called the Sungold Lock in the center of the Celestus needs to be joined with an enchanted, blessed-silver item called the Moonsilver Key" ([PW Guide to Midnight Hunt](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-innistrad-midnight-hunt)).
+- **Use:** At the climax, "Raised by the joined magic of the Dawnhart Coven, the Moonsilver Key floats toward the Sungold Lock." Afterwards: "In Teferi's hand is the Moonsilver Key" ([VOW Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-till-death-do-us-part-2021-11-24)).
+- 📝 **Name overlap:** in *The Brothers' War* (2022) Teferi uses "another of Teferi's artifacts, one he called the Moonsilver Key" for time travel ([BRO Ch. 2](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities)). ⚠️ VOW ends with the key in Teferi's hand, so the same object is the natural reading, but no fetched text states it outright. See [Retcons log](Contradictions%20%26%20Retcons%20Log.md#the-moonsilver-key-innistrad-relic-then-teferis-artifact).
+- **Arc:** [Midnight Hunt & Crimson Vow](Conflicts%20%26%20Arcs.md#innistrad-midnight-hunt--crimson-vow-2021) · **Cards:** [The Celestus](cards/T/thec.md#the-celestus), [Moonsilver Key](cards/M/moo.md#moonsilver-key)
+
+### Biblioplex & the Blood Avatar (Strixhaven)
+*Added Bot cycle 27.*
+- **What:** "The Library of Strixhaven, also known as the Biblioplex, forms the center of the university," with "archive chambers tall enough to have their own weather" ([PW Guide to Strixhaven](https://magic.wizards.com/en/news/feature/planeswalkers-guide-strixhaven-2021-04-01)).
+- **Use:** Extus targets it ("Tomes of great value, magical artifacts—the Biblioplex is full of things an aspiring megalomaniac might want") and summons "Blood Avatar!" ([STX Ep. 4](https://magic.wizards.com/en/news/magic-story/episode-4-put-test-2021-04-14); [Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21)). After the invasion: "the rebuilt Biblioplex, memorials to lost faculty and students" ([PW Guide to Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-secrets-of-strixhaven)).
+- **Arcs:** [Strixhaven (2021)](Conflicts%20%26%20Arcs.md#strixhaven-2021) · [Secrets of Strixhaven](Conflicts%20%26%20Arcs.md#secrets-of-strixhaven-2026) · **Card:** [Hall of Oracles](cards/H/ha.md#hall-of-oracles) (a Strixhaven location card)
+
 ## Spells & world-scale magic
 
 ### Elderspell
@@ -81,4 +111,5 @@ schema: 2
 - Norn "sent Vorinclex to Kaldheim to steal some of the essence of the World Tree, which she then used to grow her own plane-traversing Invasion Tree"; it "breaches into countless planes" ([PW Guide to MOM](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine)). Its sapling: "It is the beginning of great things, Father" ([DMU Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18)). Arcs: [DMU](Conflicts%20%26%20Arcs.md#dominaria-united-2022) · [MOM](Conflicts%20%26%20Arcs.md#march-of-the-machine-2023) · **Card:** [Realmbreaker, the Invasion Tree](cards/R/rea.md#realmbreaker-the-invasion-tree)
 
 ## Queue
-- Next cycles: the Halo (SNC/ONE), the Lithoform Core (ZNR), Mightstone & Weakstone (BRO), Sungold Lock / Celestus (MID/VOW), the Sylex copy's fate, the Monolith of Phyrexia-era relics, and the Strixhaven Archives' items (SOS).
+- Done Bot cycle 27: Halo, Lithoform Core, Mightstone & Weakstone, Celestus / Sungold Lock / Moonsilver Key, Biblioplex & Blood Avatar.
+- Next cycles: the Reality Chip (NEO), Kaldheim's Doomskar / World Tree sap, other Theros god weapons, the Sylex copy's fate, Lukka's Ozolith follow-up, other Edge of Eternities relics.

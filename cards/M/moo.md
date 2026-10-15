@@ -581,7 +581,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-09-24* — Most mana abilities found on artifacts are activated mana abilities. An activated mana ability is an activated ability that could produce mana as it resolves, does not require a target, and isn't a loyalty ability.
   - *2021-09-24* — Some artifacts, such as Gauntlet of Power, have triggered mana abilities. A triggered mana ability is a triggered ability that could produce mana as it resolves, triggers on the resolution of an activated mana ability or on mana being added, and doesn't require a target.
-- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/M.md#moonsilver-key)
+- **Referenced in:** 4 pages (3 decks · 1 lore & story) → [reverse index](../../references/M.md#moonsilver-key)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/255/moonsilver-key) · oracle_id `373395b2-f04b-46c9-b9f4-4f6815b71009` · printing: MID #255 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonsilver Spear

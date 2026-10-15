@@ -2422,9 +2422,10 @@ schema: 2
 
 ### Moonsilver Key
 
-[Card entry](../cards/M/moo.md#moonsilver-key) · **3 pages** (decks 3)
+[Card entry](../cards/M/moo.md#moonsilver-key) · **4 pages** (decks 3 · lore & story 1)
 
 - **Decks (3):** [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [The Gitrog Monster (Innistrad-only)](../decks/plane-innistrad-the-gitrog-monster.md)
+- **Lore & story (1):** [Items & Artifacts Index → Celestus, Sungold Lock & Moonsilver Key](../Items%20%26%20Artifacts%20Index.md#celestus-sungold-lock--moonsilver-key)
 
 ### Moonsilver Spear
 

@@ -1301,6 +1301,7 @@ schema: 2
   > {T}: Put a +1/+1 counter on target creature. Activate only as a sorcery and only if you've cast an instant or sorcery spell this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5384 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hall-of-oracles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/378/hall-of-oracles) · oracle_id `0bb896ba-e15e-43a9-9120-e674d7ba003c` · printing: SOC #378 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c29b896e-eee0-4f40-89b8-89262dae44e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hall of Storm Giants
@@ -1565,6 +1566,7 @@ schema: 2
   - *2023-04-14* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2023-04-14* — If you cast a card "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the card.
   - *2023-04-14* — You choose whether or not to cast the target instant or sorcery card as the reflexive triggered ability resolves. If you do, you do so as part of the resolution of the triggered ability. You can't wait to cast it later in the turn. Timing restrictions based on the card's type are ignored.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#halo-forager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/227/halo-forager) · oracle_id `210d1077-6e60-4f06-a8a4-10b842979ac5` · printing: MOM #227 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Halo Fountain
@@ -1579,7 +1581,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-04-29* — Activating mana abilities is done before paying costs when activating an ability. This means that if you control a creature which can be tapped for mana, such as Avacyn's Pilgrim, you may both tap it for mana and untap it to pay costs for Halo Fountain's activated abilities.
   - *2022-04-29* — Untapping creatures is part of the cost of all of Halo Fountain's abilities. Once you've begun activating an ability, other players can't take actions until you have finished activating it, including paying its costs. Notably, players can't take actions to remove the creatures from the battlefield to prevent you from untapping them to pay for the ability.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/H.md#halo-fountain)
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/H.md#halo-fountain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/15/halo-fountain) · oracle_id `36a9de4c-8073-475d-8679-e50844eef09e` · printing: SNC #15 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Halo Hopper

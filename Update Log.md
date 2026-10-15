@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Contradictions & Retcons Log.md", "Knowledge Index.md", "Conflicts & Arcs.md", "Front-Matter Schema.md", "Lore Primary Sources.md", "Planeswalker Dossiers.md"]
+related: ["Contradictions & Retcons Log.md", "Knowledge Index.md", "Planeswalker Dossiers.md", "Conflicts & Arcs.md", "Front-Matter Schema.md", "Lore Primary Sources.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 27 (Phase 6: dossiers, items, planes, spark refresh)](#2026-10-15--bot-cycle-27-phase-6-dossiers-items-planes-spark-refresh)
 - [2026-10-15 — Bot cycle 26 (Phase 6: dossiers, planes, items index)](#2026-10-15--bot-cycle-26-phase-6-dossiers-planes-items-index)
 - [2026-10-15 — Bot cycle 25 (Phase 6: last six arcs, episode upgrades, dossiers)](#2026-10-15--bot-cycle-25-phase-6-last-six-arcs-episode-upgrades-dossiers)
 - [2026-10-15 — Bot cycle 24 (Phase 6: newest arcs, pre-2019 arcs, dossiers)](#2026-10-15--bot-cycle-24-phase-6-newest-arcs-pre-2019-arcs-dossiers)
@@ -40,6 +41,16 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 27 (Phase 6: dossiers, items, planes, spark refresh)
+Issues [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76); milestone 15. Cycle 26 merged as PR #87.
+
+- [Planeswalker Dossiers](Planeswalker%20Dossiers.md) (#74): **+14 timeline rows**: Vraska (Bolas's Golgari offer, WAR), Tamiyo (SOI, EMN moon binding, NEO compleation setup), Sarkhan (Fate Reforged duel, WAR spear), Ugin (absence a thousand years ago, Fate Reforged magic), Bolas (original-timeline murder of Ugin, Tezzeret and Vraska hires), Kaito (NEO search for the emperor) and Oko (arrival on Eldraine, OTJ with Kellan).
+- [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) (#75): **+5 entries (19)**: Halo, Lithoform Core, Mightstone & Weakstone, Celestus / Sungold Lock / Moonsilver Key, Biblioplex & the Blood Avatar. "Strixhaven Archives" has no exact match in the fetched text, so it is covered as the Biblioplex. Queue refreshed.
+- [Planes Index](Planes%20Index.md) (#74): **Ravnica (before the invasion)**, **Alara**, **Mirrodin (before Phyrexia)**, **Lorwyn-Shadowmoor** (34 detailed entries).
+- [Characters Index](Characters%20Index.md): spark refresh. **Nahiri → spark lost** ("Then again, she was no longer a Planeswalker", Beyond Repair); the open question is closed. Teferi's reclaim is now cited (DOM Ep. 11). Teyo, Will Kenrith and Bolas stay ❓.
+- [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md): **22 entries** (+Nahiri's spark ✅ resolved; Moonsilver Key: Innistrad relic, then Teferi's artifact ⚠️ inferred).
+- Every new quote was checked verbatim against the fetched text (0 new misses). `validate_all.py` PASS. Grixis #63 remains ON HOLD.
 
 ## 2026-10-15 — Bot cycle 26 (Phase 6: dossiers, planes, items index)
 Issues [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76); milestone 15. Cycle 25 merged as PR #86.

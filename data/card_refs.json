@@ -1,7 +1,7 @@
 {
 "generated_by": "scripts/build_crossrefs.py",
 "bulk": "2026-10-15",
-"cards_referenced": 8532,
+"cards_referenced": 8535,
 "cards": {
 "00037840-6089-42ec-8c5c-281f9f474504": {
 "name": "Nissa, Worldsoul Speaker",
@@ -3519,6 +3519,14 @@
 },
 "index": "references/P.md#patchwork-automaton"
 },
+"0bb896ba-e15e-43a9-9120-e674d7ba003c": {
+"name": "Hall of Oracles",
+"n": 1,
+"kinds": {
+"lore": 1
+},
+"index": "references/H.md#hall-of-oracles"
+},
 "0bc7f093-bef0-4f1a-852c-4b75ebf54838": {
 "name": "Arcane Signet",
 "n": 81,
@@ -3558,11 +3566,12 @@
 },
 "0bf299da-1854-4153-baea-3cee2eb01ee8": {
 "name": "Lithoform Engine",
-"n": 3,
+"n": 4,
 "kinds": {
 "deck": 1,
 "edh": 1,
-"rules": 1
+"rules": 1,
+"lore": 1
 },
 "index": "references/L.md#lithoform-engine"
 },
@@ -9674,6 +9683,14 @@
 "deck": 1
 },
 "index": "references/K.md#kor-scythemaster"
+},
+"210d1077-6e60-4f06-a8a4-10b842979ac5": {
+"name": "Halo Forager",
+"n": 1,
+"kinds": {
+"lore": 1
+},
+"index": "references/H.md#halo-forager"
 },
 "2111588d-9af5-4a33-989e-b074d83f0463": {
 "name": "Library of Alexandria",
@@ -15958,9 +15975,10 @@
 },
 "36a9de4c-8073-475d-8679-e50844eef09e": {
 "name": "Halo Fountain",
-"n": 2,
+"n": 3,
 "kinds": {
 "deck": 1,
+"lore": 1,
 "cards": 1
 },
 "index": "references/H.md#halo-fountain"
@@ -16139,9 +16157,10 @@
 },
 "373395b2-f04b-46c9-b9f4-4f6815b71009": {
 "name": "Moonsilver Key",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 3
+"deck": 3,
+"lore": 1
 },
 "index": "references/M.md#moonsilver-key"
 },
@@ -53858,6 +53877,14 @@
 },
 "index": "references/F.md#fae-of-wishes--granted"
 },
+"c0ad2b5f-066b-424b-bddf-d3014731e599": {
+"name": "The Celestus",
+"n": 1,
+"kinds": {
+"lore": 1
+},
+"index": "references/T.md#the-celestus"
+},
 "c0adbddc-b070-4c5f-afe0-0474c72a9251": {
 "name": "Gemstone Caverns",
 "n": 14,
@@ -54621,9 +54648,10 @@
 },
 "c396db03-bf11-4e20-b630-4f9aa8fd78da": {
 "name": "The Mightstone and Weakstone",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 2
+"deck": 2,
+"lore": 1
 },
 "index": "references/T.md#the-mightstone-and-weakstone"
 },

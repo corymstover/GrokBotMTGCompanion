@@ -3941,7 +3941,7 @@ schema: 2
   - *2020-09-25* — The token that a resolving copy of a spell becomes isn't said to have been “created.”
   - *2020-09-25* — Triggered abilities use the word “when,” “whenever,” or “at.” They're often written as “[Trigger condition], [effect].” Some keywords (such as prowess) are triggered abilities and will use “when,” “whenever,” or “at” in their reminder text.
   - *2020-09-25* — You can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy. Most notably, if the original spell was kicked, the copy is kicked.
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 rules) → [reverse index](../../references/L.md#lithoform-engine)
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 lore & story) → [reverse index](../../references/L.md#lithoform-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/245/lithoform-engine) · oracle_id `0bf299da-1854-4153-baea-3cee2eb01ee8` · printing: ZNR #245 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lithomancer's Focus

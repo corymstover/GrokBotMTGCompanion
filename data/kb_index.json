@@ -1323,6 +1323,21 @@
 ],
 [
 2,
+"Added Bot cycle 27",
+"added-bot-cycle-27"
+],
+[
+3,
+"Nahiri's spark: sensed by Ajani, but gone",
+"nahiris-spark-sensed-by-ajani-but-gone"
+],
+[
+3,
+"The Moonsilver Key: Innistrad relic, then Teferi's artifact",
+"the-moonsilver-key-innistrad-relic-then-teferis-artifact"
+],
+[
+2,
 "Queue for later cycles",
 "queue-for-later-cycles"
 ],
@@ -1339,10 +1354,10 @@
 "related": [
 "Conflicts & Arcs.md",
 "Characters Index.md",
+"Items & Artifacts Index.md",
 "Master Timeline.md",
 "Planes Index.md",
-"Planeswalker Dossiers.md",
-"Items & Artifacts Index.md"
+"Planeswalker Dossiers.md"
 ]
 },
 {
@@ -3736,6 +3751,31 @@
 "endstone"
 ],
 [
+3,
+"Halo",
+"halo"
+],
+[
+3,
+"Lithoform Core",
+"lithoform-core"
+],
+[
+3,
+"Mightstone & Weakstone",
+"mightstone--weakstone"
+],
+[
+3,
+"Celestus, Sungold Lock & Moonsilver Key",
+"celestus-sungold-lock--moonsilver-key"
+],
+[
+3,
+"Biblioplex & the Blood Avatar (Strixhaven)",
+"biblioplex--the-blood-avatar-strixhaven"
+],
+[
 2,
 "Spells & world-scale magic",
 "spells--world-scale-magic"
@@ -3762,6 +3802,7 @@
 "related": [
 "Conflicts & Arcs.md",
 "Contradictions & Retcons Log.md",
+"Planes Index.md",
 "Lore Primary Sources.md"
 ]
 },
@@ -4490,6 +4531,26 @@
 "tarkir"
 ],
 [
+3,
+"Ravnica (before the invasion)",
+"ravnica-before-the-invasion"
+],
+[
+3,
+"Alara",
+"alara"
+],
+[
+3,
+"Mirrodin (before Phyrexia)",
+"mirrodin-before-phyrexia"
+],
+[
+3,
+"Lorwyn-Shadowmoor",
+"lorwyn-shadowmoor"
+],
+[
 2,
 "Special realms & cosmology",
 "special-realms--cosmology"
@@ -4510,7 +4571,7 @@
 "Contradictions & Retcons Log.md",
 "Master Timeline.md",
 "Planeswalker Dossiers.md",
-"Story Arc Summaries.md"
+"Items & Artifacts Index.md"
 ]
 },
 {
@@ -5294,6 +5355,11 @@
 "headings": [
 [
 2,
+"2026-10-15 — Bot cycle 27 (Phase 6: dossiers, items, planes, spark refresh)",
+"2026-10-15--bot-cycle-27-phase-6-dossiers-items-planes-spark-refresh"
+],
+[
+2,
 "2026-10-15 — Bot cycle 26 (Phase 6: dossiers, planes, items index)",
 "2026-10-15--bot-cycle-26-phase-6-dossiers-planes-items-index"
 ],
@@ -5427,10 +5493,10 @@
 "related": [
 "Contradictions & Retcons Log.md",
 "Knowledge Index.md",
+"Planeswalker Dossiers.md",
 "Conflicts & Arcs.md",
 "Front-Matter Schema.md",
-"Lore Primary Sources.md",
-"Planeswalker Dossiers.md"
+"Lore Primary Sources.md"
 ]
 },
 {
@@ -30391,6 +30457,11 @@
 ],
 [
 3,
+"Hall of Oracles",
+"hall-of-oracles"
+],
+[
+3,
 "Hall of Tagsin",
 "hall-of-tagsin"
 ],
@@ -30413,6 +30484,11 @@
 3,
 "Hallowed Spiritkeeper",
 "hallowed-spiritkeeper"
+],
+[
+3,
+"Halo Forager",
+"halo-forager"
 ],
 [
 3,
@@ -50984,6 +51060,11 @@
 3,
 "The Cauldron of Eternity",
 "the-cauldron-of-eternity"
+],
+[
+3,
+"The Celestus",
+"the-celestus"
 ],
 [
 3,
