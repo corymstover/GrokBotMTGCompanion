@@ -35,7 +35,7 @@ Phase 4 — Structure & usability
 
 Rules: well-structured, cross-referenced, source-noted, no redundancy; official sources first (Scryfall, magic.wizards.com, Comprehensive Rules); flag non-canonical/uncertain; maintain README, Progress Tracker, issues/milestones; chain cycles continuously, stop only for genuine blockers.
 
-## Tracking (Bot cycle 6)
+## Tracking (Bot cycle 6; updated Bot cycle 8)
 
 | Phase | Issue | Item | Status | Output |
 |---|---|---|---|---|
@@ -48,12 +48,12 @@ Rules: well-structured, cross-referenced, source-noted, no redundancy; official 
 | Phase 1 | [#31](https://github.com/corymstover/GrokBotMTGCompanion/issues/31) | Mulligan & early-game priorities per major archetype | ✅ Bot cycle 6 | [EDH Mulligans](EDH%20Mulligans.md) |
 | Phase 1 | [#32](https://github.com/corymstover/GrokBotMTGCompanion/issues/32) | Partner / Background / Friends Forever support matrices | ✅ Bot cycle 6 | [EDH Pairings](EDH%20Pairings.md) |
 | Phase 1 | [#33](https://github.com/corymstover/GrokBotMTGCompanion/issues/33) | Additional themed or plane-restricted deck outlines | ✅ Bot cycle 7 | [EDH Themed Decks](EDH%20Themed%20Decks.md) |
-| Phase 2 | [#34](https://github.com/corymstover/GrokBotMTGCompanion/issues/34) | Narrative summaries of major story arcs (key beats, outcomes, lasting consequences)… | 🟡 Bot cycle 7: 7 arcs | [Story Arc Summaries](Story%20Arc%20Summaries.md) |
-| Phase 2 | [#35](https://github.com/corymstover/GrokBotMTGCompanion/issues/35) | Fuller Planeswalker dossiers (personal timelines, spark moments, allegiances, current… | 🟡 Bot cycle 7: 13 dossiers | [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |
+| Phase 2 | [#34](https://github.com/corymstover/GrokBotMTGCompanion/issues/34) | Narrative summaries of major story arcs (key beats, outcomes, lasting consequences)… | ✅ Bot cycle 8: 19 arcs / 135 beats | [Story Arc Summaries](Story%20Arc%20Summaries.md) |
+| Phase 2 | [#35](https://github.com/corymstover/GrokBotMTGCompanion/issues/35) | Fuller Planeswalker dossiers (personal timelines, spark moments, allegiances, current… | ✅ Bot cycle 8: 21 dossiers | [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |
 | Phase 2 | [#36](https://github.com/corymstover/GrokBotMTGCompanion/issues/36) | Explicit Omenpath / Multiverse connection notes | ✅ Bot cycle 7 | [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md) |
-| Phase 2 | [#37](https://github.com/corymstover/GrokBotMTGCompanion/issues/37) | Art & flavor integration tying significant cards back to story moments | ⏳ open | — |
-| Phase 2 | [#38](https://github.com/corymstover/GrokBotMTGCompanion/issues/38) | Side-media index (novels, webcomics, etc.) with relevance notes | ⏳ open | — |
-| Phase 3 | [#39](https://github.com/corymstover/GrokBotMTGCompanion/issues/39) | Keyword & ability encyclopedia (evergreen and set-specific) with examples and ruling links | ⏳ open | — |
+| Phase 2 | [#37](https://github.com/corymstover/GrokBotMTGCompanion/issues/37) | Art & flavor integration tying significant cards back to story moments | ✅ Bot cycle 8 | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) |
+| Phase 2 | [#38](https://github.com/corymstover/GrokBotMTGCompanion/issues/38) | Side-media index (novels, webcomics, etc.) with relevance notes | ✅ Bot cycle 8 | [Side-Media Index](Side-Media%20Index.md) |
+| Phase 3 | [#39](https://github.com/corymstover/GrokBotMTGCompanion/issues/39) | Keyword & ability encyclopedia (evergreen and set-specific) with examples and ruling links | 🟡 Bot cycle 8: first pass (264 entries) | [Keyword Encyclopedia](Keyword%20Encyclopedia.md) |
 | Phase 3 | [#40](https://github.com/corymstover/GrokBotMTGCompanion/issues/40) | Reprint & set-history notes per card where useful | ⏳ open | — |
 | Phase 3 | [#41](https://github.com/corymstover/GrokBotMTGCompanion/issues/41) | Format legality matrix beyond Commander | ⏳ open | — |
 | Phase 3 | [#42](https://github.com/corymstover/GrokBotMTGCompanion/issues/42) | Structured token, emblem, and dungeon/adventure data | ⏳ open | — |

@@ -36,9 +36,11 @@
 | Master Timeline | 🟢 deepened (cycle 3) | 7 era tables (was 6 one-row eras) · **8 AR-dated events** (was 0) · 15 post-Mending steps, 5 invasion phases, 12 Omenpath rows with quoted relative markers · 56 links into Conflicts & Arcs · 23 release-chronology rows |
 | Planes Index | 🟢 complete for named targets (cycle 5) | **23 detailed entries** (was 18). Mercadia and Ulgrotha went from ⚠️ stubs to ✅ sourced (*Known Multiverse*, Wizards 2008). Added Ergamon, ZNR Zendikar, NEO Kamigawa, DMU Dominaria and the Arcavios colleges; Vryn deepened. Only Nauctis remains (no story yet) |
 | Characters Index | 🟢 complete for profiled PWs (cycle 4) | **78 entries** (was 59); **61 ✅ / 10 ❓ / 6 ⚠️ / 1 🚫** (was 54 / 1 / 3 / 1); 0 profiled Planeswalkers left unreviewed (was 19) |
-| Story Arc Summaries | 🟡 started (cycle 7, #34) | **7 arcs and 52 cited beats** (ONE 5, MOM 10, MKM 11, OTJ 8, BLB 5, DSK 6, TDM 7). Remaining: WOE, LCI, DFT, EOE, ECL, SOS, Reality Fracture, pre-2022 |
-| Planeswalker Dossiers | 🟡 started (cycle 7, #35) | **13 dossiers** with cited timelines; spark moments are sourced or ❓ |
+| Story Arc Summaries | ✅ Phase 2 done (cycles 7–8, #34) | **19 arcs and 135 cited beats** (was 7 / 52). Cycle 8 added BFZ/OGW, SOI/EMN, KLD/AER, AKH/HOU, DOM, WAR, WOE, LCI, DFT, EOE, ECL, SOS and RF, and folded ONE+MOM into one Phyrexia arc. Other pre-2022 arcs stay as entries in Conflicts & Arcs |
+| Planeswalker Dossiers | ✅ Phase 2 done (cycles 7–8, #35) | **21 dossiers** (was 13). Cycle 8 newly sourced the spark moments of Gideon, Sorin, Ugin and Bolas, plus Karn's partial (Venser's spark). Still ❓: Teferi, Kaya, Vraska, Tamiyo, Nahiri, Ral, Oko, Tezzeret, and Ajani's ignition scene |
 | Omenpath & Multiverse | 🟢 first pass (cycle 7, #36) | 5 definition facts, 5 known connections, 4 infrastructure items, 4 exceptions, 3 open ❓ |
+| Art & Flavor Story Links | ✅ new (cycle 8, #37) | **269 Story Spotlight cards** in 17 arcs (verbatim Scryfall flavor and artist) · **32** linked to the story page captioning their art · **263** more captioned cards on 53 cited pages · 1,716 captions harvested (`data/story_art_captions.csv`) |
+| Side-Media Index | ✅ new (cycle 8, #38) | **22 items**: 14 novels, novellas and anthologies, 3 e-book collections, 2 comics, 3 other (D&D adventure, 1994 short story, Netflix series), each with an official Wizards citation or a ⚠️/❓ flag |
 | Conflicts & Arcs | 🟢 deepened (cycle 4; cycle 7 fixed an MKM outcome error) | **39 sourced arc entries / 42 headings** (was 36 / 40); ELD, THB and IKO are now sourced (was ⚠️). Cross-arc threads table (5 threads) |
 | Sources crawled | — | 563 magic.wizards.com story pages (79 profiles + 484 Magic Story articles); text kept off-repo |
 
@@ -56,6 +58,7 @@
 | Item | Status |
 |---|---|
 | Story archive index | 🟢 (#14) **612 pages indexed** (was 0 indexed; corpus was 563 sitemap pages): 575 live, 37 🗄️ archived. 104 Wayback candidates unresolved (mostly translated duplicates or date-only listing pages) |
+| Keyword Encyclopedia | 🟡 (#39, Bot cycle 8) **194 keyword abilities (188 matched to cards) + 70 keyword actions (50 matched)**, with verbatim CR 2026-09-25 definitions, card counts, earliest printing and 3 Commander-legal examples each. 20 terms carry ✅ marks from Wizards' Common Keywords page. Remaining: evergreen vs set-specific labels from an official source |
 | Rules-interactions section | 🟢 (#9) **27 topics** (was 17) · 37 official CR examples (was 20) · 139 linked rulings (was 87) |
 | Rulings in card entries | ✅ 78,943 rulings on 19,889 cards; all 33,894 cards processed (#10 closed) |
 
@@ -72,6 +75,6 @@
 | EDH foundation | ✅ closed (Bot cycle 4: #15, #19 done) | v1.2-cycle4-rules-lore-edh |
 | Rules interactions | ✅ closed (Bot cycle 5: #9, 27 topics) | v1.3-cycle5-rules-lore-maintenance |
 | Phase 1 — EDH & Deckbuilding depth | ✅ closed (Bot cycle 6: 7 issues; Bot cycle 7: #30, #33) | `v1.4-cycle6-edh-depth` · `v1.5-cycle7-phase1-complete` |
-| Phase 2 — Lore & Story depth | 🟡 open (Bot cycle 7: #36 done; #34 and #35 in progress; #37 and #38 open) | — |
-| Phase 3 — Card & Rules enrichment | ⏳ open (#39–#43) | — |
+| Phase 2 — Lore & Story depth | ✅ closed (Bot cycle 7: #36; Bot cycle 8: #34, #35, #37, #38) | `v1.6-cycle8-phase2-complete` |
+| Phase 3 — Card & Rules enrichment | 🟡 open (Bot cycle 8: #39 Keyword Encyclopedia, first pass; #40–#43 open) | — |
 | Phase 4 — Structure & usability | ⏳ open (#44–#47) | — |
