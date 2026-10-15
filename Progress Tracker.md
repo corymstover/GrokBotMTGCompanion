@@ -29,6 +29,9 @@
 | Shard files | 684 (≤350 cards each at full coverage) |
 | Category trackers (Grok categories) | 9 categories, 243 cards — all ✅ |
 | Added this cycle | 33,894 (batches b1–b6) |
+| Printing history (#40, cycle 9) | ✅ 33,894 cards, **102,823 paper printings** (`data/printings_summary.csv`): 14,457 single-printing cards, 133 with 26+ printings, 571 Reserved List. Card files unchanged |
+| Tokens, emblems & dungeons (#42, cycle 9) | ✅ 🚫 not cards: **780 creature + 105 noncreature tokens, 89 emblems, 5 dungeons** (`data/tokens.json`), 861 linked to the cards that make them; 159 adventurer cards listed |
+| Artist index (#43, cycle 9) | ✅ **2,440 artists** (`data/artists.csv`): illustrations, printings, active years, best-known cards |
 
 ## Lore
 | File | Status | Count |
@@ -58,7 +61,8 @@
 | Item | Status |
 |---|---|
 | Story archive index | 🟢 (#14) **612 pages indexed** (was 0 indexed; corpus was 563 sitemap pages): 575 live, 37 🗄️ archived. 104 Wayback candidates unresolved (mostly translated duplicates or date-only listing pages) |
-| Keyword Encyclopedia | ✅ (#39, Bot cycles 8–9) **194 keyword abilities (188 matched to cards) + 70 keyword actions (50 matched)** · **44** official status labels (🌲 evergreen / 🍂 deciduous / 🍁 retired, cited from Wizards articles only) · ruling excerpts on **217** entries · ✅ marks from Common Keywords |
+| Keyword Encyclopedia | ✅ (#39, Bot cycles 8–9) **264 entries** (194 CR 702 abilities, 70 CR 701 actions), verbatim definitions, card counts, earliest printing, 3 Commander-legal examples. **44 status labels** (🌲/🍂/🍁), only where an official Wizards article says so (*Evergreen Eggs & Ham* 2015, *Introducing Ward* 2021, *Deciduous* 2022, M21 release notes); others stay unlabeled. **Ruling excerpts on 217 entries** |
+| Format Legality Matrix | ✅ (#41, cycle 9) 33,894 cards × 23 Scryfall formats (`data/legality_matrix.csv`), with **1,390 banned/restricted entries** listed across 21 formats |
 | Printing History | ✅ (#40, Bot cycle 10) **33,894** card rows in `data/printings_summary.csv` · **571** Reserved List · distribution + most-printed / longest-gap / single-printing staples in [Printing History](Printing%20History.md) |
 | Format Legality Matrix | ✅ (#41, Bot cycle 11) **33,894 × 23** formats in `data/legality_matrix.csv` · banned/restricted lists (**1,390** entries across 21 formats) in [Format Legality Matrix](Format%20Legality%20Matrix.md) |
 | Tokens, Emblems & Dungeons | ✅ (#42, Bot cycle 12) **780** creature tokens · **105** noncreature · **89** emblems · **5** dungeons · **159** adventurer cards · `data/tokens.json` |
@@ -80,5 +84,5 @@
 | Rules interactions | ✅ closed (Bot cycle 5: #9, 27 topics) | v1.3-cycle5-rules-lore-maintenance |
 | Phase 1 — EDH & Deckbuilding depth | ✅ closed (Bot cycle 6: 7 issues; Bot cycle 7: #30, #33) | `v1.4-cycle6-edh-depth` · `v1.5-cycle7-phase1-complete` |
 | Phase 2 — Lore & Story depth | ✅ closed (Bot cycle 7: #36; Bot cycle 8: #34, #35, #37, #38) | `v1.6-cycle8-phase2-complete` |
-| Phase 3 — Card & Rules enrichment | ✅ closed (Bot cycles 8–13: #39–#43) | — |
-| Phase 4 — Structure & usability | ⏳ open (#44–#47) | — |
+| Phase 3 — Card & Rules enrichment | ✅ closed (Bot cycle 8: #39 first pass; Bot cycle 9: #39–#43) | `v1.7-cycle9-phase3-complete` |
+| Phase 4 — Structure & usability | 🟡 open (Bot cycle 9: #46 Lookup Guide, first pass; #44, #45, #47 open) | — |

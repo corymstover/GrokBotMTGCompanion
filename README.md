@@ -47,6 +47,8 @@
 | [Card Data Conventions](Card%20Data%20Conventions.md) · [Card Index](Card%20Index.md) | Card entry format & storage · which cards have entries |
 | [EDH Standards](EDH%20Standards.md) · [EDH Archetypes](EDH%20Archetypes.md) · [EDH Staples](EDH%20Staples.md) | Commander rules, color identity, Archidekt format, brackets, synergy notes · 12 archetype guides · data-derived staples by identity and role |
 | [EDH Upgrade Paths](EDH%20Upgrade%20Paths.md) · [EDH Themed Decks](EDH%20Themed%20Decks.md) · [EDH Mana Bases](EDH%20Mana%20Bases.md) · [EDH Packages](EDH%20Packages.md) · [EDH Win Conditions](EDH%20Win%20Conditions.md) · [EDH Interaction](EDH%20Interaction.md) · [EDH Pairings](EDH%20Pairings.md) · [EDH Mulligans](EDH%20Mulligans.md) · [cEDH Primer](cEDH%20Primer.md) | Phase 1 deckbuilding guides (Bot cycles 6–7). The cEDH primer is competitive-only and kept separate |
+| [Lookup Guide](Lookup%20Guide.md) | Fastest path to each kind of fact (commands tested against the data) |
+| [Keyword Encyclopedia](Keyword%20Encyclopedia.md) · [Format Legality Matrix](Format%20Legality%20Matrix.md) · [Printing History](Printing%20History.md) · [Tokens, Emblems & Dungeons](Tokens%2C%20Emblems%20%26%20Dungeons.md) · [Artist Index](Artist%20Index.md) | Phase 3 card & rules enrichment (Bot cycles 8–9) |
 | [ROADMAP](ROADMAP.md) | Refinement sprint brief: 4 phases, each tracked as a GitHub milestone with one issue per item |
 | [Rules Interactions](Rules%20Interactions.md) · [Keyword Encyclopedia](Keyword%20Encyclopedia.md) · [Printing History](Printing%20History.md) · [Format Legality Matrix](Format%20Legality%20Matrix.md) · [Tokens, Emblems & Dungeons](Tokens%2C%20Emblems%20%26%20Dungeons.md) · [Artist Index](Artist%20Index.md) | Phase 3 card & rules enrichment files |
 | [Story Arc Summaries](Story%20Arc%20Summaries.md) · [Planeswalker Dossiers](Planeswalker%20Dossiers.md) · [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md) · [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) · [Side-Media Index](Side-Media%20Index.md) · [Master Timeline](Master%20Timeline.md) · [Planes Index](Planes%20Index.md) · [Characters Index](Characters%20Index.md) · [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) · [Story Archive Index](Story%20Archive%20Index.md) | Lore |
@@ -69,10 +71,11 @@ python3 scripts/build_themed_index.py      # EDH Themed Decks index
 python3 scripts/build_cedh.py [--refresh]   # cEDH Primer (--refresh re-queries Commander Spellbook)
 python3 scripts/crawl_story_index.py enumerate && python3 scripts/crawl_story_index.py fetch && python3 scripts/crawl_story_index.py index   # story archive index
 python3 scripts/resolve_card_links.py "Planes Index.md"   # turn [[Card Name]] placeholders in hand-written pages into card-entry links
+for s in keywords printings legality tokens artists; do python3 scripts/build_$s.py; done   # Phase 3 generators (then resolve_card_links.py on their .md outputs)
 ```
 State: [`data/ingest_state.json`](data/ingest_state.json) · index: [`data/card_index.csv`](data/card_index.csv).
 
 ## 🏷 Releases
-`v0.1-1000-cards` · `v0.2-5000-cards` · `v0.3-10000-cards` · `v0.4-20000-cards` · `v1.0-33894-cards` · `v1.1-cycle3-lore-edh-rules` · `v1.2-cycle4-rules-lore-edh` · `v1.3-cycle5-rules-lore-maintenance` · `v1.4-cycle6-edh-depth` · `v1.5-cycle7-phase1-complete` · `v1.6-cycle8-phase2-complete`
+`v0.1-1000-cards` · `v0.2-5000-cards` · `v0.3-10000-cards` · `v0.4-20000-cards` · `v1.0-33894-cards` · `v1.1-cycle3-lore-edh-rules` · `v1.2-cycle4-rules-lore-edh` · `v1.3-cycle5-rules-lore-maintenance` · `v1.4-cycle6-edh-depth` · `v1.5-cycle7-phase1-complete` · `v1.6-cycle8-phase2-complete` · `v1.7-cycle9-phase3-complete`
 
 *Card data © Wizards of the Coast, via [Scryfall](https://scryfall.com). Lore summaries cite official [magic.wizards.com](https://magic.wizards.com/en/story) pages. Unofficial fan project under the Wizards Fan Content Policy.*
