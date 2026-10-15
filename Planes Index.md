@@ -73,7 +73,7 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 - **The five triomes (✅):** regions where three types of mana mix (per Narset, as reported by Vivien), each with a dominant monster clade and an apex monster:
 
 | Triome | Terrain | Clade | Apex monster | Land card |
-  |---|---|---|---|---|
+|---|---|---|---|---|
 | Savai | Grassy plains, cliffs, subterranean tunnels | Cats | [Snapdax](cards/S/sn.md#snapdax-apex-of-the-hunt) | [Savai Triome](cards/S/sav.md#savai-triome) |
 | Ketria | Rivers and crystalline forests | Elementals | [Illuna](cards/I/il.md#illuna-apex-of-wishes) | [Ketria Triome](cards/K/ke.md#ketria-triome) |
 | Indatha | Swampy lowland pools | Nightmares | [Nethroi](cards/N/ne.md#nethroi-apex-of-death) | [Indatha Triome](cards/I/ind.md#indatha-triome) |
@@ -90,7 +90,7 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 - **The five families (✅):**
 
 | Family | Leader | Base | Tri-land |
-  |---|---|---|---|
+|---|---|---|---|
 | Obscura (information, cons) | [Raffine](cards/R/raf.md#raffine-scheming-seer), sphinx-demon | — | [Raffine's Tower](cards/R/raf.md#raffines-tower) |
 | Maestros (assassins) | [Lord Xander](cards/L/lo.md#lord-xander-the-collector), demon-vampire | Museum of Old Capenna (Park Heights) | [Xander's Lounge](cards/X/xa.md#xanders-lounge) |
 | Riveteers (builders; keep a Halo stockpile) | [Ziatora](cards/Z/zi.md#ziatora-the-incinerator) | The Treza (Caldaia) | [Ziatora's Proving Ground](cards/Z/zi.md#ziatoras-proving-ground) |
