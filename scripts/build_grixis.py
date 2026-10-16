@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the Grixis section (grixis/) from the read-only source repo (Bot cycle 16).
 
-Source: corymstover/grixis-commander-encyclopediaGPT, cloned to /workspace/grixis-src (never modified).
+Source: corymstover/grixis-commander-encyclopediaGPT, archived byte-identically in grixis/source-archive/ (Bot cycle 45; never modified). A clone path may be passed as SRC.
 Steps: run scripts/grixis_eval.py checks → apply logged corrections → write
   grixis/decks/<slug>.md (one page per integrated list: commander block, validation, bracket floor,
       corrections, Archidekt list, card breakdown, source commentary verbatim with attribution,
@@ -23,12 +23,15 @@ from grixis_eval import norm  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 args = [a for a in sys.argv[1:] if not a.startswith("--")]
-SRC = Path(args[0] if args else "/workspace/grixis-src")
+SRC = Path(args[0] if args else ROOT / "grixis/source-archive/grixis-commander-encyclopediaGPT")  # Bot cycle 45: companion archive by default
 REPO = "https://github.com/corymstover/grixis-commander-encyclopediaGPT"
 OUT = ROOT / "grixis"
 DECKS = OUT / "decks"
 TODAY = dt.date.today().isoformat()
-SRC_SHA = subprocess.run(["git", "-C", str(SRC), "rev-parse", "--short", "HEAD"], capture_output=True, text=True).stdout.strip()
+import grixis_archive  # noqa: E402
+# the archive is not its own git repo (git -C would answer with the companion's HEAD), so read its recorded commit
+SRC_SHA = (grixis_archive.source_commit() if SRC.resolve() == grixis_archive.TREE.resolve() else
+           subprocess.run(["git", "-C", str(SRC), "rev-parse", "--short", "HEAD"], capture_output=True, text=True).stdout.strip())
 BLOB = f"{REPO}/blob/{SRC_SHA or 'main'}/"
 
 # ---- corrections that change cards (everything else is mechanical and logged automatically)
@@ -469,6 +472,10 @@ def main():
          "Full text: [Grixis Mission](Grixis%20Mission.md) · progress: [Grixis Refinement Cycle](Grixis%20Refinement%20Cycle.md) · "
          "Archidekt files: [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md).", "",
          f"> **Bot cycle 16 import, refreshed in Bot cycle 37** (all 62 source lists are now APPROVED/LOCKED in the source). This section brings in the user's Grixis Commander work from [grixis-commander-encyclopediaGPT]({REPO}) (commit `{SRC_SHA}`, read-only): the user-approved, refined decklists, each with its commander-first blueprint, swap decisions and approval record quoted verbatim. Each list was re-validated against our card DB, corrected where needed, and given Game Changer counts, bracket floors and Commander Spellbook combos. Source analysis is **the source author's guidance**. Our facts come from Scryfall and Commander Spellbook. Built by `scripts/build_grixis.py`. Related: [EDH Standards](../EDH%20Standards.md) · [EDH Deck Template](../EDH%20Deck%20Template.md) · [EDH Deck Evaluation Checklist](../EDH%20Deck%20Evaluation%20Checklist.md) · [Grixis mana base](../EDH%20Mana%20Bases.md) · [data-derived Nekusar skeleton](../decks/nekusar-the-mindrazer.md)", "",
+         "> 🗄️ **Single source of truth (Bot cycle 45):** the companion now holds the **complete source repository** in "
+         "[source-archive/](source-archive/README.md): every file at commit `" + SRC_SHA + "`, byte-identical (SHA-256 manifest, checked by "
+         "`validate_all`), plus a git bundle with all branches and history. The archive is inert data; generators read it instead of a separate "
+         "clone. The original GitHub repo stays untouched.", "",
          "## Contents", "- [Pages](#pages)", "- [Decks](#decks)", "- [Pending legality](#pending-legality)", "- [What was left out](#what-was-left-out)", "",
          "## Pages", "",
          "| Page | What it holds |", "|---|---|",
@@ -476,6 +483,7 @@ def main():
          "| [Grixis Mission](Grixis%20Mission.md) | Cory's commander-first mission and principles (Bot cycle 39) |",
          "| [Grixis Refinement Cycle](Grixis%20Refinement%20Cycle.md) | Commander-dependence and homogenization metrics for all 62 decks, batch log, per-deck swaps |",
          "| [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md) | Archidekt import file per deck (final list) and ALL-DECKS.txt |",
+         "| [source-archive/](source-archive/README.md) | Full byte-identical archive of the source repo (Bot cycle 45): area map, SHA-256 manifest, history bundle |",
          f"| [Grixis Evaluation](Grixis%20Evaluation.md) | Check results for all {len(evaluation)} source lists, and how each current list was chosen |",
          f"| [Grixis Corrections](Grixis%20Corrections.md) | All {len(corrections)} corrections (deck, issue, fix), the Oracle-text check, source-repo structural findings |",
          f"| [Grixis Packages](Grixis%20Packages.md) | Cross-deck package library (cards shared by 4 or more of the {N} lists, by role) and verified rules insights |",

@@ -1,0 +1,4 @@
+# Bot cycle 45: the archived Grixis source (inert data) is skipped by default so searches do not double-count it.
+# Search it explicitly with: rg --no-ignore-dot PATTERN grixis/source-archive/
+grixis/source-archive/grixis-commander-encyclopediaGPT/
+grixis/source-archive/history/

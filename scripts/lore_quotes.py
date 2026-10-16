@@ -8,7 +8,7 @@ Every double-quoted passage (>= 12 characters) on a lore page is checked against
   3. (cycle 32) cited non-story Wizards pages in .cache/story/articles/ (rules articles, policy pages, the Commander format
      page), the cached Comprehensive Rules text and every Scryfall ruling comment (status "rules"); and
   4. for the two Grixis-derived method pages only, the read-only Grixis source checkout ($GRIXIS_SRC, default
-     /workspace/grixis-src; status "grixis-repo"). Without that checkout the status is carried over from the ledger.
+     grixis/source-archive/grixis-commander-encyclopediaGPT since Bot cycle 45; status "grixis-repo"). Without that checkout the status is carried over from the ledger.
 Normalization: curly quotes/dashes folded, whitespace collapsed, case-folded, markdown emphasis removed; "…" / "..." and
 editorial [brackets] and " / " (between Oracle lines) split a quote into parts that must each appear.
 Results per quote: verified (cited page) · verified-other (another cached official page) · card (card text) ·
@@ -37,7 +37,7 @@ import lore_lib as L  # noqa: E402
 ROOT = L.ROOT
 CACHE = ROOT / ".cache" / "story" / "text22"
 ARTICLES = ROOT / ".cache" / "story" / "articles"  # Bot cycle 32: cited non-story Wizards pages (rules articles, policies), gitignored
-GRIXIS_SRC = Path(os.environ.get("GRIXIS_SRC", "/workspace/grixis-src"))  # read-only Grixis source checkout, if present
+GRIXIS_SRC = Path(os.environ.get("GRIXIS_SRC", str(ROOT / "grixis/source-archive/grixis-commander-encyclopediaGPT")))  # Bot cycle 45: archived Grixis source
 OUT = ROOT / "data" / "lore_quotes.json"
 EXC = ROOT / "data" / "lore_quote_exceptions.json"
 PAGES = ["Planeswalker Dossiers.md", "Planes Index.md", "Items & Artifacts Index.md", "Contradictions & Retcons Log.md",

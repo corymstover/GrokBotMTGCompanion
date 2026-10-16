@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Evaluate every decklist in the read-only Grixis source repo against this repo's card DB (Bot cycle 16).
 
-Source: corymstover/grixis-commander-encyclopediaGPT (cloned read-only, default /workspace/grixis-src).
+Source: corymstover/grixis-commander-encyclopediaGPT (archived in grixis/source-archive/ since Bot cycle 45; a read-only clone path can be passed instead).
 For each of its 62 decks picks the *current* list: the user-approved list named by
 state/current_deck_overrides.json (matched by SHA-256, or by the deck's Card_Verification CSV),
 else the frozen FINAL baseline from source-package/GrixisFINAL_62Decks_CSV_TXT_2026-10-12.tar.gz.
@@ -17,7 +17,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import ingest_scryfall as ing  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = Path(sys.argv[1] if len(sys.argv) > 1 else "/workspace/grixis-src")
+# Bot cycle 45: default is the companion's own byte-identical source archive (single source of truth); a clone path still works.
+SRC = Path(sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("--") else Path(__file__).resolve().parent.parent / "grixis/source-archive/grixis-commander-encyclopediaGPT")
 
 
 from evaluate_decklist import norm, parse, Resolver, check  # noqa: E402  (shared, any-identity evaluator)
