@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
- "pass_id": "audit:crosis-the-purger:c59:bca247583f5e",
+ "pass_id": "audit:crosis-the-purger:c59:0c0c2094bdba",
  "snapshot": {
-  "id": "sha256:bca247583f5eadcc5d67c08580e74eefdcf0b94c46a028879e7f87dcc3223d2a",
-  "graph": "sha256:b0c3aca92b2b60ac929401c5d9d9a974946e3e6728f98e75335beced4a34ead6",
-  "evidence": "sha256:3c6dcfcef95ed84ce506143de4c4dac7502f6259c4a64c736538c22ffb0a1fd9",
+  "id": "sha256:0c0c2094bdbae50a3b204e52e68c5dccbf44bd080d8ca473a34772bfda5785c8",
+  "graph": "sha256:57117a94b962c914c7d60ff725d61b78fa72bd608dd67bbf66e41e3b46539fbc",
+  "evidence": "sha256:08d527f8ff57620439236aed9666c273ea3572d610dd8bffc46eeb4713d151c6",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 185,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:3c6dcfcef95ed84ce506143de4c4dac7502f6259c4a64c736538c22ffb0a1fd9"
+  "snapshot": "sha256:08d527f8ff57620439236aed9666c273ea3572d610dd8bffc46eeb4713d151c6"
  },
  "slots": [
   {"card":"Ancient Tomb","quantity":1,"zone":"main","disposition":"flexible","review_status":"provisional","classifier":"script","roles":["land"],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/crosis-the-purger.json#metrics/Ancient Tomb"],"alternatives":["evidence:data/grixis/evidence/crosis-the-purger.json#Crosis's Catacombs"],"redundancy":35,"reason":"flexible (land, makes C): 35 other lands sharing a colour. Oracle: “{T}: Add {C}{C}”. Land (36 in list). Redundancy 35 (other lands sharing a colour). Best alternative: Crosis's Catacombs (shared key role, EDHREC 35%). EDHREC inclusion 7.2%, synergy -0.05.","evidence":["evidence:data/grixis/evidence/crosis-the-purger.json#Ancient Tomb","graph:data/grixis/graph/crosis-the-purger.json#metrics/Ancient Tomb","oracle:Ancient Tomb"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
- "pass_id": "audit:edea-possessed-sorceress:c59:b872a3472458",
+ "pass_id": "audit:edea-possessed-sorceress:c59:b331373c6e89",
  "snapshot": {
-  "id": "sha256:b872a34724585e82e481c246ed95c9016c07141bf0dcfb8befbfcc0a4ff76c38",
-  "graph": "sha256:4d9ee076e2f6d11a2b999682c515b64e19fc615a8ad9148d519f27cb2201cc3c",
-  "evidence": "sha256:4e4dabc4ec44bbe008d493c2f0ae8ab45b101d469b89ae4038f4f8a0bca04bcc",
+  "id": "sha256:b331373c6e89f399313b389f737735af37f653f1cc294d3b64203ff08ff5882e",
+  "graph": "sha256:1939dec5dbe891221db754b8fba5e3e78f3a1f0e2b9d69c8f3d6c750d99c1205",
+  "evidence": "sha256:80e2ba1c27ba4ed3206a9a711aab53ea7ee17fb795e0955d61546d4161b4c2a4",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -130,7 +130,7 @@
   "screened": 179,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:4e4dabc4ec44bbe008d493c2f0ae8ab45b101d469b89ae4038f4f8a0bca04bcc"
+  "snapshot": "sha256:80e2ba1c27ba4ed3206a9a711aab53ea7ee17fb795e0955d61546d4161b4c2a4"
  },
  "slots": [
   {"card":"An Offer You Can't Refuse","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["counter","ramp"],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/An Offer You Can't Refuse"],"alternatives":["evidence:data/grixis/evidence/edea-possessed-sorceress.json#Invert Polarity"],"redundancy":17,"reason":"functional retain ({U} instant): role counter, ramp. Oracle: “Counter target noncreature spell”. Role counter (5 in list), ramp (14 in list). Redundancy 17 (other cards sharing a key role). Best alternative: Invert Polarity (shared key role, EDHREC 12%). EDHREC inclusion 43.4%, synergy +0.11.","evidence":["evidence:data/grixis/evidence/edea-possessed-sorceress.json#An Offer You Can't Refuse","graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/An Offer You Can't Refuse","oracle:An Offer You Can't Refuse"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":2},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

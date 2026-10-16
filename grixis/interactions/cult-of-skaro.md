@@ -9,13 +9,13 @@ schema: 2
 
 # Cult of Skaro — Interaction Review
 
-> Bot cycle 46 · batch A · reviewed 2026-10-16. Deck: [Cult of Skaro](../decks/cult-of-skaro.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 46 · batch A · reviewed 2026-10-16. Deck: [Cult of Skaro](../decks/cult-of-skaro.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/cult-of-skaro.txt`](../../exports/grixis-archidekt/cult-of-skaro.txt) · SHA-256 `e17919e46769952d0318157693b278c29ba9a39a352105fa76df9abb9a868e7d` |
 | Rulings | **10** (10 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Cult_of_Skaro_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cult_of_skaro_2026-10-14/Cult_of_Skaro_Rules_Attestation.json) (11 interactions, all PASS) |
 
 ## Contents

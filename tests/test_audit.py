@@ -25,9 +25,12 @@ def test_every_deck_audited_and_every_slot_covered():
         assert d["slot_total"] == 100 - sum(1 for x in g["nodes"] if x["kind"] == "commander")
 
 
-def test_nothing_is_authoritative_while_m2_is_not_accepted():
+def test_nothing_is_authoritative_even_after_m2_m4_acceptance():
+    """Bot cycle 63.2: M2/M4 are accepted (t52u) but acceptance approves no disposition; every slot stays provisional/script."""
     reg = ga.load_json(ga.REGISTRY)
-    assert reg["program"]["milestones"]["M2"]["status"] != "accepted"
+    ms = reg["program"]["milestones"]
+    assert ms["M2"]["status"] == "accepted" and ms["M4"]["status"] == "accepted" and ms["M5"]["status"] != "accepted"
+    assert "approves no decklist" in ms["M4"]["scope_note"]
     for f in au.OUT.glob("*.json"):
         d = json.loads(f.read_text(encoding="utf-8"))
         assert d["authority"]["status"] == "provisional"

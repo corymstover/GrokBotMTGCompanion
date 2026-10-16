@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
- "pass_id": "audit:solkanar-the-swamp-king:c59:6b3df8f061ee",
+ "pass_id": "audit:solkanar-the-swamp-king:c59:22f96f19309a",
  "snapshot": {
-  "id": "sha256:6b3df8f061ee567d0fe2dea8113c5140e0ce3fc0cb2d629219d8aea9b2ebab8d",
-  "graph": "sha256:87afbcec0113aae6303fdd6e237cc2e53684eb862f9b597f5df81f09e312e9fb",
-  "evidence": "sha256:8922a3da340a168d518459b3053f6b7f8fbd2c45b2681a90e6d90349d9f2d437",
+  "id": "sha256:22f96f19309a96397f7fcd3ab542dc321e48f5a1115363594e1a000fc08bd04f",
+  "graph": "sha256:64c78a44afcec46bcaf848b235146f093617e6a4521f719f8b4139b7f6d4ee26",
+  "evidence": "sha256:801da8a78705317476449d8081245b0276a536f003b8abc5a97a7d4bfc44f665",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 188,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:8922a3da340a168d518459b3053f6b7f8fbd2c45b2681a90e6d90349d9f2d437"
+  "snapshot": "sha256:801da8a78705317476449d8081245b0276a536f003b8abc5a97a7d4bfc44f665"
  },
  "slots": [
   {"card":"Aetherflux Reservoir","quantity":1,"zone":"main","disposition":"strong_retain","review_status":"provisional","classifier":"script","roles":["removal"],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/top-citadel","blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop","blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir","blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation"],"graph_refs":["graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Aetherflux Reservoir","graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-4740-5078","graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:3966-4740","graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:4740-6191"],"alternatives":["evidence:data/grixis/evidence/solkanar-the-swamp-king.json#Infernal Grasp","graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity","graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest","graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sheoldred, the Apocalypse","graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric","graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose"],"redundancy":5,"reason":"strong retain ({4} artifact): piece of 3 Spellbook combo(s). Oracle: “Whenever you cast a spell, you gain 1 life for each spell you've cast this tu…”. Role removal (8 in list). Removing it breaks 3: combo:2173-4740-5078, combo:3966-4740, combo:4740-6191. Redundancy 5 (interchangeable Spellbook pieces). Interchangeable with Enduring Tenacity, Marauding Blight-Priest, Sheoldred, the Apocalypse. Best alternative: Infernal Grasp (shared key role, EDHREC 22%). EDHREC inclusion 19.1%, synergy +0.18. Blueprint names it in win_conditions/reservoir-activation, win_conditions/citadel-top-reservoir, packages/pkg:life-loop.","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/top-citadel","blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop","blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir","blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation","evidence:data/grixis/evidence/solkanar-the-swamp-king.json#Aetherflux Reservoir","graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Aetherflux Reservoir","oracle:Aetherflux Reservoir","spellbook:2173-4740-5078","spellbook:3966-4740","spellbook:4740-6191"],"structural_necessity":"important","evidence_classes":{"derived_metric":1,"fact":4,"heuristic":1,"strategic_judgment":4},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

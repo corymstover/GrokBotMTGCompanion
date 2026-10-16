@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
- "pass_id": "audit:thraximundar:c59:039231f0fef6",
+ "pass_id": "audit:thraximundar:c59:184de53d3b48",
  "snapshot": {
-  "id": "sha256:039231f0fef628d3ec3801f1a62a671841e147d5a0b9672199becf33f1ccafe6",
-  "graph": "sha256:fe06b0c70644dff2440c93cf1b7ef81b39db3cb9c9e5965a24093a6df6bdf30f",
-  "evidence": "sha256:e16184c2589ffcdd47f7e40a2ed75e0adef4b79cb8849fef27b3328cdc919801",
+  "id": "sha256:184de53d3b48778a02670729d5a0f3656249450aaa5f1b4ff021c191aff2979c",
+  "graph": "sha256:4486a3a3bfe40667bf29b1d41072151f6751ef9e8d1f54701303067c5ace821f",
+  "evidence": "sha256:8c99e250413deb024cbea53209951db1264e1b1592e31aafb9a51f2440c3429c",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -144,7 +144,7 @@
   "screened": 181,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:e16184c2589ffcdd47f7e40a2ed75e0adef4b79cb8849fef27b3328cdc919801"
+  "snapshot": "sha256:8c99e250413deb024cbea53209951db1264e1b1592e31aafb9a51f2440c3429c"
  },
  "slots": [
   {"card":"Accursed Marauder","quantity":1,"zone":"main","disposition":"strong_retain","review_status":"provisional","classifier":"script","roles":[],"packages":["pkg:edicts"],"blueprint_refs":["blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth","blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts","blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"],"graph_refs":["graph:data/grixis/graph/thraximundar.json#metrics/Accursed Marauder"],"alternatives":["evidence:data/grixis/evidence/thraximundar.json#Village Rites"],"redundancy":12,"reason":"strong retain ({1}{B} creature): win piece / enabler. Oracle: “When this creature enters, each player sacrifices a nontoken creature of thei…”. Packages pkg:edicts. Redundancy 12 (other cards in its package(s)). Best alternative: Village Rites (same Oracle hook (sacrifice), EDHREC 37%). EDHREC inclusion 44.6%, synergy +0.43. Blueprint names it in win_conditions/commander-damage, engines/any-sacrifice-growth, packages/pkg:edicts.","evidence":["blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth","blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts","blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage","evidence:data/grixis/evidence/thraximundar.json#Accursed Marauder","graph:data/grixis/graph/thraximundar.json#metrics/Accursed Marauder","oracle:Accursed Marauder"],"structural_necessity":"important","evidence_classes":{"derived_metric":1,"fact":1,"strategic_judgment":3},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

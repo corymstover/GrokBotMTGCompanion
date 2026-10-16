@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
- "pass_id": "audit:nathan-drake-treasure-hunter:c59:5b4cd12e2f69",
+ "pass_id": "audit:nathan-drake-treasure-hunter:c59:54c30b16c6b7",
  "snapshot": {
-  "id": "sha256:5b4cd12e2f697442842b0a6ff1a7cc31157a2a52cc9e57b9ed31365b0778f8f9",
-  "graph": "sha256:62997e10da30806198e286cbd8c5acadcccdae5d43f8e98bcb24d68d20eda0f5",
-  "evidence": "sha256:df5d84d9fd92333cd9d221e8d130250562e5d80aa63de44f5ed9b291b767fc84",
+  "id": "sha256:54c30b16c6b7722ac75103ce88852097aa1afe31cc42813ff33b4efce8ef26a3",
+  "graph": "sha256:fa13924ad70d905229bbfdb3a5897d8464c8c65e9b2729f4feaa0198b1519489",
+  "evidence": "sha256:20fed02752b4c5f2bf0d5746eb56c63cabf095e30835a0d61dbcf62efe72550a",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -130,7 +130,7 @@
   "screened": 184,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:df5d84d9fd92333cd9d221e8d130250562e5d80aa63de44f5ed9b291b767fc84"
+  "snapshot": "sha256:20fed02752b4c5f2bf0d5746eb56c63cabf095e30835a0d61dbcf62efe72550a"
  },
  "slots": [
   {"card":"An Offer You Can't Refuse","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["counter","ramp"],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"],"graph_refs":["graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/An Offer You Can't Refuse"],"alternatives":["evidence:data/grixis/evidence/nathan-drake-treasure-hunter.json#Counterspell"],"redundancy":24,"reason":"functional retain ({U} instant): role counter, ramp. Oracle: “Counter target noncreature spell”. Role counter (5 in list), ramp (21 in list). Redundancy 24 (other cards sharing a key role). Best alternative: Counterspell (shared key role, EDHREC 56%). EDHREC inclusion 48.0%, synergy +0.16. Blueprint names it in requirements/value.","evidence":["blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value","evidence:data/grixis/evidence/nathan-drake-treasure-hunter.json#An Offer You Can't Refuse","graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/An Offer You Can't Refuse","oracle:An Offer You Can't Refuse"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":2,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

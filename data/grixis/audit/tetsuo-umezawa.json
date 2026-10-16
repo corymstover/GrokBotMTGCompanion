@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
- "pass_id": "audit:tetsuo-umezawa:c59:68ec0917a50a",
+ "pass_id": "audit:tetsuo-umezawa:c59:1627d5843470",
  "snapshot": {
-  "id": "sha256:68ec0917a50a85b017d4221440d74e14e6e422c5cb0fa22ebb1c8854f5ab8718",
-  "graph": "sha256:927db50dbe3f51b84547e1a140ece5de391bd2b923e4ae7aefc61e47f0421408",
-  "evidence": "sha256:1edede2110091111418093b5ea57264068b8fdd23d722ba50b569059d54e64e1",
+  "id": "sha256:1627d5843470a0a9786eacbf6997e1713941027bc04b5119ac5e29f7a634a79a",
+  "graph": "sha256:b9737ed0fd1b98808c12b92d5609dd79cf49ffca8f3a30924f219977e5dd363b",
+  "evidence": "sha256:2c7149a69eba00fe98269d49ecd6fcd123a6ecfc891c4ec0994abd886aae0a47",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 204,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:1edede2110091111418093b5ea57264068b8fdd23d722ba50b569059d54e64e1"
+  "snapshot": "sha256:2c7149a69eba00fe98269d49ecd6fcd123a6ecfc891c4ec0994abd886aae0a47"
  },
  "slots": [
   {"card":"Aphetto Alchemist","quantity":1,"zone":"main","disposition":"core","review_status":"provisional","classifier":"script","roles":[],"packages":["pkg:untap"],"blueprint_refs":["blueprint:data/grixis/blueprints/tetsuo-umezawa.json#commander_role/value","blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite","blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap","blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/bracers-alchemist"],"graph_refs":["graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Aphetto Alchemist","graph:data/grixis/graph/tetsuo-umezawa.json#combo:283-4091","graph:data/grixis/graph/tetsuo-umezawa.json#win:bracers-alchemist"],"alternatives":["evidence:data/grixis/evidence/tetsuo-umezawa.json#Backlash"],"redundancy":8,"reason":"core ({1}{U} creature): necessary: win:bracers-alchemist, all-combos. Oracle: “{T}: Untap target artifact or creature”. Packages pkg:untap. Removing it breaks 2: combo:283-4091, win:bracers-alchemist. Redundancy 8 (other cards in its package(s)). Best alternative: Backlash (same Oracle hook (tapping / blocking creatures), EDHREC 27%). EDHREC inclusion 11.1%, synergy +0.11. Blueprint names it in commander_role/value, win_conditions/bracers-alchemist, engines/untap-suite.","evidence":["blueprint:data/grixis/blueprints/tetsuo-umezawa.json#commander_role/value","blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite","blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap","blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/bracers-alchemist","evidence:data/grixis/evidence/tetsuo-umezawa.json#Aphetto Alchemist","graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Aphetto Alchemist","oracle:Aphetto Alchemist","spellbook:283-4091"],"structural_necessity":"necessary","evidence_classes":{"derived_metric":1,"fact":2,"strategic_judgment":4},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

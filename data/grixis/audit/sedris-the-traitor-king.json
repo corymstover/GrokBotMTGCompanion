@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
- "pass_id": "audit:sedris-the-traitor-king:c59:948dd6c7396c",
+ "pass_id": "audit:sedris-the-traitor-king:c59:be861b4e5429",
  "snapshot": {
-  "id": "sha256:948dd6c7396c407101391a70c6971821d958c47ed4825791b7cde960c182a2b8",
-  "graph": "sha256:f338dc958b021c4e5c9d10a892dac049850d80caccd75ffb54c54e0488ba8d3e",
-  "evidence": "sha256:7331978e2e19126c9559d8501bde60c67e985082f0c2e8031c52f21bf79d0d8a",
+  "id": "sha256:be861b4e5429f7c4ab8768474162748d890a26b79e1ac486afacd739c6d5142a",
+  "graph": "sha256:bf7f91e55a38295ca2e6c939909efe5acbd1ae72896fcadc97559ec49592eb2a",
+  "evidence": "sha256:5d122735001bc33367027f83feb53fbd4cb5a443d9fd83b55a5e4e8de45664f5",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -142,7 +142,7 @@
   "screened": 166,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:7331978e2e19126c9559d8501bde60c67e985082f0c2e8031c52f21bf79d0d8a"
+  "snapshot": "sha256:5d122735001bc33367027f83feb53fbd4cb5a443d9fd83b55a5e4e8de45664f5"
  },
  "slots": [
   {"card":"Ancient Tomb","quantity":1,"zone":"main","disposition":"flexible","review_status":"provisional","classifier":"script","roles":["land"],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Ancient Tomb"],"alternatives":["evidence:data/grixis/evidence/sedris-the-traitor-king.json#Thundering Falls"],"redundancy":30,"reason":"flexible (land, makes C): 30 other lands sharing a colour. Oracle: “{T}: Add {C}{C}”. Land (31 in list). Redundancy 30 (other lands sharing a colour). Best alternative: Thundering Falls (shared key role, EDHREC 26%). EDHREC inclusion 9.1%, synergy -0.03.","evidence":["evidence:data/grixis/evidence/sedris-the-traitor-king.json#Ancient Tomb","graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Ancient Tomb","oracle:Ancient Tomb"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
- "pass_id": "audit:the-valeyard:c59:1cabcedfedbb",
+ "pass_id": "audit:the-valeyard:c59:89de8f45ae4c",
  "snapshot": {
-  "id": "sha256:1cabcedfedbb1df9f014fe5ed458b599cc4225837e2a125a7a3bf1b624a5a17c",
-  "graph": "sha256:0e5b8870e0ab3e7394947b954f9efae92abcbafa47e7a0154dd369742a4c741b",
-  "evidence": "sha256:25cb9e25aee3471b3700997d5425f0192ed6f24124b0d303e0dad9b895f406ac",
+  "id": "sha256:89de8f45ae4cbc1bb126738b767a414ce1c841c3932c1316099aa0b817b2e4ad",
+  "graph": "sha256:5914d772e33578e8efe9999f84ce84679c7b54e81cf616f2e9d75e09e00a2391",
+  "evidence": "sha256:a90c067b525bb29883a4d3673f53b63dbb7fb1c50a01de9143de2ec817dee233",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -130,7 +130,7 @@
   "screened": 146,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:25cb9e25aee3471b3700997d5425f0192ed6f24124b0d303e0dad9b895f406ac"
+  "snapshot": "sha256:a90c067b525bb29883a4d3673f53b63dbb7fb1c50a01de9143de2ec817dee233"
  },
  "slots": [
   {"card":"Arcane Denial","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["counter","draw"],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"],"graph_refs":["graph:data/grixis/graph/the-valeyard.json#metrics/Arcane Denial"],"alternatives":["evidence:data/grixis/evidence/the-valeyard.json#Seize the Spotlight"],"redundancy":21,"reason":"functional retain ({1}{U} instant; simulator models draw 1): role counter, draw. Oracle: “Counter target spell”. Role counter (4 in list), draw (19 in list). Redundancy 21 (other cards sharing a key role). Best alternative: Seize the Spotlight (shared key role, EDHREC 58%). EDHREC inclusion 34.0%, synergy +0.05. Blueprint names it in requirements/value.","evidence":["blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value","evidence:data/grixis/evidence/the-valeyard.json#Arcane Denial","graph:data/grixis/graph/the-valeyard.json#metrics/Arcane Denial","oracle:Arcane Denial"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":2,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

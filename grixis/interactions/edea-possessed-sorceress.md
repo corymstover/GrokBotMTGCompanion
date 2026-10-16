@@ -9,13 +9,13 @@ schema: 2
 
 # Edea, Possessed Sorceress — Interaction Review
 
-> Bot cycle 48 · batch B · reviewed 2026-10-16. Deck: [Edea, Possessed Sorceress](../decks/edea-possessed-sorceress.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 48 · batch B · reviewed 2026-10-16. Deck: [Edea, Possessed Sorceress](../decks/edea-possessed-sorceress.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/edea-possessed-sorceress.txt`](../../exports/grixis-archidekt/edea-possessed-sorceress.txt) · SHA-256 `d41924a6b09c4232b438aa863c833a28f67bdd6598c9bba470ae66f23428acd6` |
 | Rulings | **11** (11 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Edea_Possessed_Sorceress_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json) (18 interactions, all PASS) |
 
 ## Contents

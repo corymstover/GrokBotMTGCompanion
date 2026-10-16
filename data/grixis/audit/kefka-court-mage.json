@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
- "pass_id": "audit:kefka-court-mage:c59:042ed7ddb295",
+ "pass_id": "audit:kefka-court-mage:c59:e0eacc639e2f",
  "snapshot": {
-  "id": "sha256:042ed7ddb2951bede65a82b218c389b5ad573655a586b8d8158e0b9b102b6b42",
-  "graph": "sha256:587313aef47786dd16c543f97e97f38ef5641ead277a70e62b3080ecbf5780db",
-  "evidence": "sha256:fc226f7ea16264c5d91804c98f8b75fc75e8def969aff7229855d8e54a341f25",
+  "id": "sha256:e0eacc639e2f8f030ef7b5b9511dd878b2a8e0e392af133ada893c9fe4b7cedd",
+  "graph": "sha256:dcbcce6eb51d429a4047a4716a93ab567bf7455e99f32c95d9140f2fd9fddcc2",
+  "evidence": "sha256:acf3f03958217c19d7a086fdf13d3d5214020680eb5224b98d02d62e43c7f590",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -142,7 +142,7 @@
   "screened": 188,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:fc226f7ea16264c5d91804c98f8b75fc75e8def969aff7229855d8e54a341f25"
+  "snapshot": "sha256:acf3f03958217c19d7a086fdf13d3d5214020680eb5224b98d02d62e43c7f590"
  },
  "slots": [
   {"card":"Ad Nauseam","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/kefka-court-mage.json#metrics/Ad Nauseam"],"alternatives":[],"redundancy":0,"reason":"weak retain ({3}{B}{B} instant): no structure; EDHREC support. Oracle: “Reveal the top card of your library and put that card into your hand”. Redundancy 0 (no shared job). No EDHREC row.","evidence":["graph:data/grixis/graph/kefka-court-mage.json#metrics/Ad Nauseam","oracle:Ad Nauseam"],"structural_necessity":"independent","evidence_classes":{"fact":1},"decision_support":{"ok":false,"why_not":["no evidence"]},"m1_flags":[],"complete_eligible":false},

@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
- "pass_id": "audit:mishra-artificer-prodigy:c59:f7d27aa8a555",
+ "pass_id": "audit:mishra-artificer-prodigy:c59:d908f6e0956f",
  "snapshot": {
-  "id": "sha256:f7d27aa8a5554c5337e19a14c7efd7d6257aa1da3ca0c348baec1081ce8f1935",
-  "graph": "sha256:a05f007b12e481d29c6ff3a36d505ffaf3192972618fca4b13bd52d1ae2ab8bd",
-  "evidence": "sha256:f467703264261e8fc29452b8c7f02abb0dc576836e528386bda8d8cf852ab85f",
+  "id": "sha256:d908f6e0956feec8f70766b085f5a7373c49a05f272df0d65676858f733dc667",
+  "graph": "sha256:f4f25802f7ec1553e737c67f59d3ed4b7e121b3d04d69a15289f2999b5fd9fbf",
+  "evidence": "sha256:b67d056e0fbc912e038451190c93d1748890630a93f4909c1f95419cbf051de6",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -142,7 +142,7 @@
   "screened": 206,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:f467703264261e8fc29452b8c7f02abb0dc576836e528386bda8d8cf852ab85f"
+  "snapshot": "sha256:b67d056e0fbc912e038451190c93d1748890630a93f4909c1f95419cbf051de6"
  },
  "slots": [
   {"card":"Academy Ruins","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["land"],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#recursion/value"],"graph_refs":["graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Academy Ruins"],"alternatives":["evidence:data/grixis/evidence/mishra-artificer-prodigy.json#Buried Ruin"],"redundancy":28,"reason":"functional retain (legendary land, makes C): role land. Oracle: “{T}: Add {C}”. Land (29 in list). Redundancy 28 (other lands sharing a colour). Best alternative: Buried Ruin (shared key role, EDHREC 36%). EDHREC inclusion 54.8%, synergy +0.51. Blueprint names it in recursion/value.","evidence":["blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#recursion/value","evidence:data/grixis/evidence/mishra-artificer-prodigy.json#Academy Ruins","graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Academy Ruins","oracle:Academy Ruins"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

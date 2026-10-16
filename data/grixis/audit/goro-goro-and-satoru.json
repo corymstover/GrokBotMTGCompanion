@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
- "pass_id": "audit:goro-goro-and-satoru:c59:773c921cda7c",
+ "pass_id": "audit:goro-goro-and-satoru:c59:d2c30b9dba09",
  "snapshot": {
-  "id": "sha256:773c921cda7cb16a3d3588f2a279510b301fd6dea9933c4a49e6edd77a63855d",
-  "graph": "sha256:9a75e42ee5fd846a3c2bb97ea0a35bef88c01dcf3e18a80c2257abaae154b7b3",
-  "evidence": "sha256:950555d246f0a406cbd84bde92cddb22e32715d6764ccc7ab41f6ec7b89a9199",
+  "id": "sha256:d2c30b9dba09c88f5ef1444d0bc11b3bcfdf97e7d1d18227ef50fc4bc53a2ce8",
+  "graph": "sha256:e0ec32c5a74065c9b59404049ed5d2ac12e5e2657e7e8e002b199b8211c8fd1f",
+  "evidence": "sha256:c7902c9293e4ed30fb2ec35be896d60a0824988282437c90c31c3bd9f7d17f44",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -142,7 +142,7 @@
   "screened": 169,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:950555d246f0a406cbd84bde92cddb22e32715d6764ccc7ab41f6ec7b89a9199"
+  "snapshot": "sha256:c7902c9293e4ed30fb2ec35be896d60a0824988282437c90c31c3bd9f7d17f44"
  },
  "slots": [
   {"card":"Aggravated Assault","quantity":1,"zone":"main","disposition":"core","review_status":"provisional","classifier":"script","roles":[],"packages":["pkg:extra-combat"],"blueprint_refs":["blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat","blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"],"graph_refs":["graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Aggravated Assault","graph:data/grixis/graph/goro-goro-and-satoru.json#package:extra-combat"],"alternatives":["evidence:data/grixis/evidence/goro-goro-and-satoru.json#Reconnaissance Mission"],"redundancy":3,"reason":"core ({2}{R} enchantment): necessary: package:extra-combat. Oracle: “{3}{R}{R}: Untap all creatures you control”. Packages pkg:extra-combat. Removing it breaks 1: package:extra-combat. Redundancy 3 (other cards in its package(s)). Best alternative: Reconnaissance Mission (same Oracle hook (combat damage / attack triggers), EDHREC 52%). EDHREC inclusion 8.4%, synergy +0.07. Blueprint names it in plan/value, packages/pkg:extra-combat.","evidence":["blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat","blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value","evidence:data/grixis/evidence/goro-goro-and-satoru.json#Aggravated Assault","graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Aggravated Assault","oracle:Aggravated Assault"],"structural_necessity":"necessary","evidence_classes":{"derived_metric":1,"fact":1,"strategic_judgment":2},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

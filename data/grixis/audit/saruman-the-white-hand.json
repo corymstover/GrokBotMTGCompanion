@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
- "pass_id": "audit:saruman-the-white-hand:c59:fc5553c616cb",
+ "pass_id": "audit:saruman-the-white-hand:c59:7a3ce50b78ba",
  "snapshot": {
-  "id": "sha256:fc5553c616cbe7282eb7980955500acdce20ec83c0b76f1b47869352fbcacca7",
-  "graph": "sha256:041bdaf728f4339f75864dd0c23a63ee5576a438650ff9b58bdaf7bfb908aad0",
-  "evidence": "sha256:725e6b0cb3818240dc34163cc17ce0867633e5a5cc0f26f52e9776068face091",
+  "id": "sha256:7a3ce50b78bafb2d7838870c7a321ccc07bc7cbd1d1ba79e3c73054482ea76e1",
+  "graph": "sha256:cd31069dd6b222bcb9f64c8b9386d5fe363a129d0e0804a57bdac950546747eb",
+  "evidence": "sha256:5254525640834defca4390ec52ddf9c39f833e6310ad7466f8c96ecc8c753446",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -142,7 +142,7 @@
   "screened": 216,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:725e6b0cb3818240dc34163cc17ce0867633e5a5cc0f26f52e9776068face091"
+  "snapshot": "sha256:5254525640834defca4390ec52ddf9c39f833e6310ad7466f8c96ecc8c753446"
  },
  "slots": [
   {"card":"All Will Be One","quantity":1,"zone":"main","disposition":"strong_retain","review_status":"provisional","classifier":"script","roles":[],"packages":["pkg:army-payoffs"],"blueprint_refs":["blueprint:data/grixis/blueprints/saruman-the-white-hand.json#anti_goals/value","blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value","blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/counter-events","blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs","blueprint:data/grixis/blueprints/saruman-the-white-hand.json#win_conditions/army-damage"],"graph_refs":["graph:data/grixis/graph/saruman-the-white-hand.json#metrics/All Will Be One"],"alternatives":[],"redundancy":5,"reason":"strong retain ({3}{R}{R} enchantment): win piece / enabler. Oracle: “Whenever you put one or more counters on a permanent or player, this enchantm…”. Packages pkg:army-payoffs. Redundancy 5 (other cards in its package(s)). EDHREC inclusion 14.3%, synergy +0.13. Blueprint names it in commander_role/value, win_conditions/army-damage, packages/pkg:army-payoffs. A blueprint anti-goal also names it (review the line it rules out).","evidence":["blueprint:data/grixis/blueprints/saruman-the-white-hand.json#anti_goals/value","blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value","blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/counter-events","blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs","blueprint:data/grixis/blueprints/saruman-the-white-hand.json#win_conditions/army-damage","evidence:data/grixis/evidence/saruman-the-white-hand.json#All Will Be One","graph:data/grixis/graph/saruman-the-white-hand.json#metrics/All Will Be One","oracle:All Will Be One"],"structural_necessity":"important","evidence_classes":{"derived_metric":1,"fact":1,"strategic_judgment":5},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":false},

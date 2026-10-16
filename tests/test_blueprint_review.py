@@ -9,14 +9,15 @@ EIGHT = {"parnesse-the-subtle-brush", "solkanar-the-swamp-king", "bjorna-nightfa
          "tresserhorns-lord-returned", "the-madcap-jester", "wick-the-whorled-mind", "mairsil-the-pretender"}
 
 
-def test_exactly_the_eight_are_cory_reviewed_and_m2_m4_not_accepted():
+def test_exactly_the_eight_are_cory_reviewed_and_m2_m4_accepted_m5_not():
     bps = gb.load_all()
     assert {s for s, b in bps.items() if b["status"] == "cory_reviewed"} == EIGHT
     reg = ga.load_json(ga.REGISTRY)
     for s in EIGHT:
         assert gb.review_problems(bps[s], reg) == [] and bps[s]["provenance"]["reviewed_by"] == "corymstover"
     ms = reg["program"]["milestones"]
-    assert all(ms[m]["status"] != "accepted" for m in ("M2", "M4", "M5"))
+    assert ms["M2"]["status"] == "accepted" and ms["M4"]["status"] == "accepted" and ms["M5"]["status"] != "accepted"
+    assert all(ms[m]["accepted_by"] == "corymstover" and ms[m].get("scope_verbatim") for m in ("M2", "M4"))
     bad = copy.deepcopy(bps["wick-the-whorled-mind"]); bad["cory_review"]["ceiling"] = "5"
     assert gb.review_problems(bad, reg)
 

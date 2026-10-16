@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:91d82c90078edd06f95a7da5386e8ec9cc42f9e169191827f6c2f87047c6446e",
+  "id": "sha256:7bee1c129ea4bfd5a76e889cb8a94c8e5d0143b0958a093afbf3fc803fecf3a2",
   "inputs": {
    ".cache/edhrec/commanders__sauron-the-dark-lord.json": "sha256:098b3930e8f9bd2b9c2bc9496373da755a6a258a2e4001ec4c3b14c582458d32",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/sauron-the-dark-lord.json": "sha256:159e1cb9b38d82a7a1f506af2e5dd90a86822b98da8d7e607e5dc7bedd685e49",
    "grixis/decks/sauron-the-dark-lord.md": "sha256:5cb7bbf8f16d69da0bb1b520ae4705358c2d9206c18635339197a01611bd6d12",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

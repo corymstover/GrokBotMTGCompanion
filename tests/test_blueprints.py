@@ -186,7 +186,7 @@ def test_m2_status_is_not_met_until_cory():
     _, reg, _ = ctx()
     crit = gb.m2_status(gb.load_all(), reg)
     assert len(crit) == 5
-    assert crit[3][1] and not crit[4][1]  # Bot cycle 62: Cory reviewed his 8-blueprint sample (t50u); M2 not accepted
+    assert crit[3][1] and crit[4][1]  # Bot cycle 63: Cory reviewed his sample (t50u) and accepted M2 (t52u)
     fake = copy.deepcopy(reg)
     fake["program"]["milestones"]["M2"].update(status="accepted", accepted_by="corymstover")
     assert gb.m2_status({}, fake)[4][1]

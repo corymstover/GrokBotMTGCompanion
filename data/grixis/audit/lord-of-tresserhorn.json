@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
- "pass_id": "audit:lord-of-tresserhorn:c59:bf93dedf0a80",
+ "pass_id": "audit:lord-of-tresserhorn:c59:b1a9b01bde70",
  "snapshot": {
-  "id": "sha256:bf93dedf0a80ee703e3a355c783d6aa4ce978f228856ff9cd96f7c9565bdcd46",
-  "graph": "sha256:4d35e4691e81e505154bb87d539a18a992957ec211588f1e2cc3e62a602a258a",
-  "evidence": "sha256:d0d32d927ac242d2de7f998f3b77aecd6c3e697565d14eec811735f5c76a6996",
+  "id": "sha256:b1a9b01bde70e405b97bf57e0f113d78e7483ff53c10c599c25aac61a8fc7a36",
+  "graph": "sha256:9dda5c99ca33c00c88694434b5cd784860c98f96f1ebf8f448a4ff87f8d0e0ae",
+  "evidence": "sha256:c8c8f9cb08c0845f901831b4f4b8bcdae132eea16ef0f4e6f4b512f653a2c4e9",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 210,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:d0d32d927ac242d2de7f998f3b77aecd6c3e697565d14eec811735f5c76a6996"
+  "snapshot": "sha256:c8c8f9cb08c0845f901831b4f4b8bcdae132eea16ef0f4e6f4b512f653a2c4e9"
  },
  "slots": [
   {"card":"Anger","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":[],"packages":["pkg:evasion-haste-protection"],"blueprint_refs":["blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:evasion-haste-protection"],"graph_refs":["graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Anger"],"alternatives":[],"redundancy":12,"reason":"functional retain ({3}{R} creature): required package pkg:evasion-haste-protection. Oracle: “Haste”. Packages pkg:evasion-haste-protection. Redundancy 12 (other cards in its package(s)). EDHREC inclusion 40.4%, synergy +0.29. Blueprint names it in packages/pkg:evasion-haste-protection.","evidence":["blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:evasion-haste-protection","evidence:data/grixis/evidence/lord-of-tresserhorn.json#Anger","graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Anger","oracle:Anger"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":false},

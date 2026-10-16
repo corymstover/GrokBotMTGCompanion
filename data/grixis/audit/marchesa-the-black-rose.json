@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
- "pass_id": "audit:marchesa-the-black-rose:c59:0898c2a9c31e",
+ "pass_id": "audit:marchesa-the-black-rose:c59:4032f18597ab",
  "snapshot": {
-  "id": "sha256:0898c2a9c31eafaad6aa16489fb4b0c8d9fa9c4c0c4ee2091641f967b57436ae",
-  "graph": "sha256:7f054f6a5c8a25347d6a06871f14c065ea8270828eca0cc8955a2e5e2b53afca",
-  "evidence": "sha256:f45df3fc1f0a9df3f4e116f5e023af051e9cb5e72987c04b2be21c865161274d",
+  "id": "sha256:4032f18597abd0186061d84e4ca8246b2182122e7100388f0b313042be85de45",
+  "graph": "sha256:bee4c507e2dc6bdd8441894e36732d9523702ea274db0e91e946555b1fbc0f9f",
+  "evidence": "sha256:840d37ef0a468d90500b4b41c9295c0f6150f0515381eff6806e4147ba3ac259",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -142,7 +142,7 @@
   "screened": 171,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:f45df3fc1f0a9df3f4e116f5e023af051e9cb5e72987c04b2be21c865161274d"
+  "snapshot": "sha256:840d37ef0a468d90500b4b41c9295c0f6150f0515381eff6806e4147ba3ac259"
  },
  "slots": [
   {"card":"Agatha's Soul Cauldron","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Agatha's Soul Cauldron"],"alternatives":["evidence:data/grixis/evidence/marchesa-the-black-rose.json#Umbral Collar Zealot"],"redundancy":0,"reason":"weak retain ({2} legendary artifact): no structure; Oracle hook graveyard as a resource. Oracle: “You may spend mana as though it were mana of any color to activate abilities …”. Redundancy 0 (no shared job). Best alternative: Umbral Collar Zealot (same Oracle hook (graveyard as a resource), EDHREC 14%). EDHREC inclusion 11.1%, synergy +0.10.","evidence":["evidence:data/grixis/evidence/marchesa-the-black-rose.json#Agatha's Soul Cauldron","graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Agatha's Soul Cauldron","oracle:Agatha's Soul Cauldron"],"structural_necessity":"independent","evidence_classes":{"derived_metric":1,"fact":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

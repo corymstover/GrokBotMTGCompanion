@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:7331978e2e19126c9559d8501bde60c67e985082f0c2e8031c52f21bf79d0d8a",
+  "id": "sha256:5d122735001bc33367027f83feb53fbd4cb5a443d9fd83b55a5e4e8de45664f5",
   "inputs": {
    ".cache/edhrec/commanders__sedris-the-traitor-king.json": "sha256:410f834fd209f83fdf677c532cd6d4f4437c883eee5cd737ee31d423007038e1",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/sedris-the-traitor-king.json": "sha256:bd72296bd6fa672a94c84169d005c58115b8d390172ada2bfefefcb3375832d5",
    "grixis/decks/sedris-the-traitor-king.md": "sha256:71cdd3b824fc837ed8c617948bb95a546731d6ec20d8355d4c5484749774d13a",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

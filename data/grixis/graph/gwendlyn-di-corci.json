@@ -19,17 +19,17 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:1a36ac22b948f80830e327712e178db4b147558e17123d6b06e5ea2bef398197",
+  "id": "sha256:48ccd06874d5d00d6cc54796fbe0b2fdea23ba6d3403b40622811c554252908f",
   "inputs": {
    "exports/grixis-archidekt/gwendlyn-di-corci.txt": "sha256:4120c13480a4daa65cfd672e720c9e8a7bc83b7964730aaf342bf1da44589ca4",
    "data/grixis/blueprints/gwendlyn-di-corci.json": "sha256:28d0da293e10b04d494e6eb7843f3345a44158e467a408963000bf7969ae61a0",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
    "data/grixis_interactions/gwendlyn-di-corci.json": "sha256:fdd3d8b868e5cd6187aebeebecb57ac4575d0be992a03bd3bae92e8c3c6b818c",
    "data/grixis_interactions/edges/gwendlyn-di-corci.json": "sha256:269ea2cbd6de6d445683f379a097bcf4d0ec2511d020a378db06cbf0ee028a40",
-   "data/grixis/evidence/gwendlyn-di-corci.json": "sha256:5cc87f42b0c15b4b73ce55a3f074cc3c20c0182408e990725aecd4824aeeb167",
+   "data/grixis/evidence/gwendlyn-di-corci.json": "sha256:61b905ad6df45e78d62a75131ee8e8b73e952528b80bd9cbb8143b34dfaed6a1",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:78386fc6e5ac722cd25b35f37a1b2d2ff0c427ce1aa77578fee7bf459da5c4d4",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "m1": {

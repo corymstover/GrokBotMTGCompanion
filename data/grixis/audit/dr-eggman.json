@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
- "pass_id": "audit:dr-eggman:c59:ea77c943190a",
+ "pass_id": "audit:dr-eggman:c59:a529c246e471",
  "snapshot": {
-  "id": "sha256:ea77c943190ad723754fdeafb43064dbb0ae7e557000051a51573aeebb62b6fa",
-  "graph": "sha256:a4c7ce8d3708fe4f86481830230fbf18f141b8a175399db49660961309b946a3",
-  "evidence": "sha256:53c1a9ad8606d75f3fc3e6e0679404e321ceb97adcdb57f07852edfe4e1a9150",
+  "id": "sha256:a529c246e47115409e24599538ded5603c728be561f4de8a36f3e24c7a75d1d3",
+  "graph": "sha256:af1a43e6469bf5e88bcc031d09095f5f01fe9d91403af543acf36f396d717dfe",
+  "evidence": "sha256:01887a31610b145aa64a5d942a10fcc222df3470907d35851417a474d0b2c3f5",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -130,7 +130,7 @@
   "screened": 195,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:53c1a9ad8606d75f3fc3e6e0679404e321ceb97adcdb57f07852edfe4e1a9150"
+  "snapshot": "sha256:01887a31610b145aa64a5d942a10fcc222df3470907d35851417a474d0b2c3f5"
  },
  "slots": [
   {"card":"Academy Ruins","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["land"],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/dr-eggman.json#recursion/value"],"graph_refs":["graph:data/grixis/graph/dr-eggman.json#metrics/Academy Ruins"],"alternatives":["evidence:data/grixis/evidence/dr-eggman.json#Uthros, Titanic Godcore"],"redundancy":30,"reason":"functional retain (legendary land, makes C): role land. Oracle: “{T}: Add {C}”. Land (31 in list). Redundancy 30 (other lands sharing a colour). Best alternative: Uthros, Titanic Godcore (shared key role, EDHREC 27%). EDHREC inclusion 38.0%, synergy +0.34. Blueprint names it in recursion/value.","evidence":["blueprint:data/grixis/blueprints/dr-eggman.json#recursion/value","evidence:data/grixis/evidence/dr-eggman.json#Academy Ruins","graph:data/grixis/graph/dr-eggman.json#metrics/Academy Ruins","oracle:Academy Ruins"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

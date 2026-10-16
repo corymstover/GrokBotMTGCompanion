@@ -9,13 +9,13 @@ schema: 2
 
 # Crosis, the Purger — Interaction Review
 
-> Bot cycle 46 · batch A · reviewed 2026-10-16. Deck: [Crosis, the Purger](../decks/crosis-the-purger.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 46 · batch A · reviewed 2026-10-16. Deck: [Crosis, the Purger](../decks/crosis-the-purger.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/crosis-the-purger.txt`](../../exports/grixis-archidekt/crosis-the-purger.txt) · SHA-256 `04784e892c930bb5e60f8551ffffa7e9527634359db38378fd1bd7e4c8e3647d` |
 | Rulings | **11** (9 verified · 1 uncertain · 1 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Crosis_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json) (10 interactions, all PASS) |
 
 ## Contents

@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
- "pass_id": "audit:mairsil-the-pretender:c59:be16da7020e8",
+ "pass_id": "audit:mairsil-the-pretender:c59:aee9b7f57081",
  "snapshot": {
-  "id": "sha256:be16da7020e8416029a3c6ab90755ec5199574fb4e2f67e3f2a70301c338de3a",
-  "graph": "sha256:e8853689bcb0fd9c70e055a85cd7f1f2f9c2f23b6f3ea8408d6e963dff30a999",
-  "evidence": "sha256:a371f66459cfbe9a0854d2f09abf618b172ca5e16e0d2457d1605bca961d7b5d",
+  "id": "sha256:aee9b7f57081248a40a56217abdde16a98f2852fed568da9c6402836debe7435",
+  "graph": "sha256:e5e8c10729392af5a6f9b4986daf5c246b49a69a6ed98c5d8e92233c47ecaa5c",
+  "evidence": "sha256:ffbaf4959778cecf23ba007143fe5f662d21ead4a48a49a53058c45205e107e6",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -142,7 +142,7 @@
   "screened": 183,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:a371f66459cfbe9a0854d2f09abf618b172ca5e16e0d2457d1605bca961d7b5d"
+  "snapshot": "sha256:ffbaf4959778cecf23ba007143fe5f662d21ead4a48a49a53058c45205e107e6"
  },
  "slots": [
   {"card":"Aetherling","quantity":1,"zone":"main","disposition":"strong_retain","review_status":"provisional","classifier":"script","roles":[],"packages":["pkg:cage-payloads"],"blueprint_refs":["blueprint:data/grixis/blueprints/mairsil-the-pretender.json#failure_modes/mairsil-removed","blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads","blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value","blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"],"graph_refs":["graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Aetherling","graph:data/grixis/graph/mairsil-the-pretender.json#combo:1050-4068-4439-5112"],"alternatives":[],"redundancy":13,"reason":"strong retain ({4}{U}{U} creature): piece of 1 Spellbook combo(s). Oracle: “{U}: Exile this creature”. Packages pkg:cage-payloads. Removing it breaks 1: combo:1050-4068-4439-5112. Redundancy 13 (other cards in its package(s)). EDHREC inclusion 88.2%, synergy +0.88. Blueprint names it in win_conditions/mairsil-lines, packages/pkg:cage-payloads, requirements/value.","evidence":["blueprint:data/grixis/blueprints/mairsil-the-pretender.json#failure_modes/mairsil-removed","blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads","blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value","blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines","evidence:data/grixis/evidence/mairsil-the-pretender.json#Aetherling","graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Aetherling","oracle:Aetherling","spellbook:1050-4068-4439-5112"],"structural_necessity":"important","evidence_classes":{"derived_metric":1,"fact":2,"strategic_judgment":4},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":false},

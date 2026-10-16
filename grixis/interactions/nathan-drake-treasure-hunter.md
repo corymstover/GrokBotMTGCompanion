@@ -9,13 +9,13 @@ schema: 2
 
 # Nathan Drake, Treasure Hunter — Interaction Review
 
-> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Nathan Drake, Treasure Hunter](../decks/nathan-drake-treasure-hunter.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Nathan Drake, Treasure Hunter](../decks/nathan-drake-treasure-hunter.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/nathan-drake-treasure-hunter.txt`](../../exports/grixis-archidekt/nathan-drake-treasure-hunter.txt) · SHA-256 `112b792ce420b422a35d9d9f301cd826a4ca46b50f5c25736683eb80c6160698` |
 | Rulings | **8** (7 verified · 0 uncertain · 1 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Nathan_Drake_Treasure_Hunter_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Nathan_Drake_Treasure_Hunter_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification; rules sections 5–12 re-checked against Oracle, rulings and CR) |
 
 ## Contents

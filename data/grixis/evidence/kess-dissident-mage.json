@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:65e8f435147f595ded25f2e4ac2290783f74ab835bba2759ce31be24be90e2c9",
+  "id": "sha256:ecb3d388c1c644b2860ebf85b28db18698dc8317ddf92073196dc79e7b233363",
   "inputs": {
    ".cache/edhrec/commanders__kess-dissident-mage.json": "sha256:a3ab75ca2e59f08d6618bb0e3f6ea26a638273371312ec523c38b0fb8f3f3522",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/kess-dissident-mage.json": "sha256:25dc8ba6cd88b90ec89f98b7e48ba9c11adb834c916ce020a26bd61889db1049",
    "grixis/decks/kess-dissident-mage.md": "sha256:770abeb15edb3ac8bc4e3cbe06d37fe8a1054c35f20eff401d9ea1fdc336376c",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

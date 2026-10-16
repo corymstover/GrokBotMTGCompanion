@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
- "pass_id": "audit:lynde-cheerful-tormentor:c59:0a675950ca64",
+ "pass_id": "audit:lynde-cheerful-tormentor:c59:606643a043a2",
  "snapshot": {
-  "id": "sha256:0a675950ca64edb829de8d7d03676eff184401f78557160a4577c647e2204ce5",
-  "graph": "sha256:6c6abd38b1ee4111868b86d51b010569ce17bf05d2af50827833e627939301d3",
-  "evidence": "sha256:4b669a59053a7aeb8efd6a05d17349e9314181806822e1733af2930dc3944f6e",
+  "id": "sha256:606643a043a2ab990fbeaed67539edece3cab4c85e86a5bfbe0e063294516b1b",
+  "graph": "sha256:4005f276386db1c2e7bead270fd5081fc620a797cbbb4f8b8796fb10de419aaf",
+  "evidence": "sha256:eb91c3a7bd6c3b5e4260ccf8d00f2f673e49d3a0f3e066523a4988d39c205031",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -131,7 +131,7 @@
   "screened": 158,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:4b669a59053a7aeb8efd6a05d17349e9314181806822e1733af2930dc3944f6e"
+  "snapshot": "sha256:eb91c3a7bd6c3b5e4260ccf8d00f2f673e49d3a0f3e066523a4988d39c205031"
  },
  "slots": [
   {"card":"Accursed Witch // Infectious Curse","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Accursed Witch // Infectious Curse"],"alternatives":[],"redundancy":0,"reason":"weak retain ({3}{B} creature): no structure; EDHREC support. Oracle: “Spells your opponents cast that target this creature cost {1} less to cast”. Redundancy 0 (no shared job). No EDHREC row.","evidence":["graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Accursed Witch // Infectious Curse","oracle:Accursed Witch // Infectious Curse"],"structural_necessity":"independent","evidence_classes":{"fact":1},"decision_support":{"ok":false,"why_not":["no evidence"]},"m1_flags":[],"complete_eligible":false},

@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
- "pass_id": "audit:nicol-bolas:c59:fc56d054bd42",
+ "pass_id": "audit:nicol-bolas:c59:f8c2eb43b74b",
  "snapshot": {
-  "id": "sha256:fc56d054bd4216e50387372ddd56dc9377aca873e8c8d2bfeb972d885c7663ae",
-  "graph": "sha256:3ad169cbd9336b456cbc5682ea90fd4e4ffa2bd5ab5a230f412c2f8fb7501101",
-  "evidence": "sha256:d3880af718161d71e850124fe58c8235823e7f8c9bc83768a70c69f745010941",
+  "id": "sha256:f8c2eb43b74b311ff30b909c3806f5dcd6e1abacf39689d1aa2b6f248f9da039",
+  "graph": "sha256:498642e016f69c0fc6fe3def087d09280f2f6e65a24d6ebd2a048950b156eb0a",
+  "evidence": "sha256:e3911b0607a156c5f21518430187b9ef1672e6dc0755112f2b24aba5e3763d8b",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -144,7 +144,7 @@
   "screened": 201,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:d3880af718161d71e850124fe58c8235823e7f8c9bc83768a70c69f745010941"
+  "snapshot": "sha256:e3911b0607a156c5f21518430187b9ef1672e6dc0755112f2b24aba5e3763d8b"
  },
  "slots": [
   {"card":"Aggravated Assault","quantity":1,"zone":"main","disposition":"core","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/nicol-bolas.json#commander_role/value","blueprint:data/grixis/blueprints/nicol-bolas.json#plan/value","blueprint:data/grixis/blueprints/nicol-bolas.json#tutor_targets/Aggravated Assault","blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/sword-assault"],"graph_refs":["graph:data/grixis/graph/nicol-bolas.json#metrics/Aggravated Assault","graph:data/grixis/graph/nicol-bolas.json#combo:900-3750","graph:data/grixis/graph/nicol-bolas.json#win:sword-assault"],"alternatives":["evidence:data/grixis/evidence/nicol-bolas.json#Slave of Bolas"],"redundancy":0,"reason":"core ({2}{R} enchantment): necessary: win:sword-assault, all-combos. Oracle: “{3}{R}{R}: Untap all creatures you control”. Removing it breaks 2: combo:900-3750, win:sword-assault. Redundancy 0 (no shared job). Best alternative: Slave of Bolas (same Oracle hook (combat damage / attack triggers), EDHREC 26%). No EDHREC row. Blueprint names it in plan/value, commander_role/value, win_conditions/sword-assault.","evidence":["blueprint:data/grixis/blueprints/nicol-bolas.json#commander_role/value","blueprint:data/grixis/blueprints/nicol-bolas.json#plan/value","blueprint:data/grixis/blueprints/nicol-bolas.json#tutor_targets/Aggravated Assault","blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/sword-assault","graph:data/grixis/graph/nicol-bolas.json#metrics/Aggravated Assault","oracle:Aggravated Assault","spellbook:900-3750"],"structural_necessity":"necessary","evidence_classes":{"fact":2,"strategic_judgment":4},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":false},

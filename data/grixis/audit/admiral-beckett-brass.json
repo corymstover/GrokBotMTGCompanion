@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
- "pass_id": "audit:admiral-beckett-brass:c59:5230072f2d20",
+ "pass_id": "audit:admiral-beckett-brass:c59:8e7207674310",
  "snapshot": {
-  "id": "sha256:5230072f2d2070d0e9cba3cd23706b4fec0e5efb7652943d4e6f15ca5968c144",
-  "graph": "sha256:5569ae03b2adfcf9ab9e32df75a72ac036be5e4f1a1edb138a8fce7b0ba49578",
-  "evidence": "sha256:e0a1e0ee92b9205b4747bb7580a7889f351935ffe62a5c86205ee88fa66b7d85",
+  "id": "sha256:8e7207674310b12c4dc841b9b6bb658525f8c701a8afbf87ae89bfb130a1bd06",
+  "graph": "sha256:862f8cdae29c71eb8b6f47374c06a57d289db29fd1c931e337c2644c08a8b40c",
+  "evidence": "sha256:1062822f7aa21d091bcc50655295f26e641c16eafae270c1200e05e72e6e0310",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -133,7 +133,7 @@
   "screened": 170,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:e0a1e0ee92b9205b4747bb7580a7889f351935ffe62a5c86205ee88fa66b7d85"
+  "snapshot": "sha256:1062822f7aa21d091bcc50655295f26e641c16eafae270c1200e05e72e6e0310"
  },
  "slots": [
   {"card":"Admiral Brass, Unsinkable","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":[],"packages":["pkg:pirate-bodies-and-tokens"],"blueprint_refs":["blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-bodies-and-tokens"],"graph_refs":["graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Admiral Brass, Unsinkable"],"alternatives":["evidence:data/grixis/evidence/admiral-beckett-brass.json#Departed Deckhand"],"redundancy":5,"reason":"functional retain ({2}{U}{B}{R} legendary creature): required package pkg:pirate-bodies-and-tokens. Oracle: “When Admiral Brass enters, mill four cards”. Packages pkg:pirate-bodies-and-tokens. Redundancy 5 (other cards in its package(s)). Best alternative: Departed Deckhand (same Oracle hook (combat damage / attack triggers), EDHREC 50%). EDHREC inclusion 53.6%, synergy +0.51. Blueprint names it in packages/pkg:pirate-bodies-and-tokens.","evidence":["blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-bodies-and-tokens","evidence:data/grixis/evidence/admiral-beckett-brass.json#Admiral Brass, Unsinkable","graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Admiral Brass, Unsinkable","oracle:Admiral Brass, Unsinkable"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

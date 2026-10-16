@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
- "pass_id": "audit:cormela-glamour-thief:c59:7d13e6a66675",
+ "pass_id": "audit:cormela-glamour-thief:c59:fc90622f72d5",
  "snapshot": {
-  "id": "sha256:7d13e6a666756ca9b9ab558c18e018b09916f81722303a4dd9f7e597eb27a872",
-  "graph": "sha256:6943070844e19e7ffeb0bcff409d88d04f29a58591aa8a91b07c0085eb7efbac",
-  "evidence": "sha256:ac677b91b8d08e807228e41d06fdf5fe9ba5c1b2b019878b02d3bbd6fa707b40",
+  "id": "sha256:fc90622f72d54f3ce825ccc33dcc559859217ab6eeb153b8a85c810b7bbae0b5",
+  "graph": "sha256:d1dedc4f7e78f6186bedf801d9a8c7bde4368509da0499518a0399ced00b578a",
+  "evidence": "sha256:898118f3fdae3ccd8e4afbcdf8cc394f616d672f45e6a23124f08f59254aaca9",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 190,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:ac677b91b8d08e807228e41d06fdf5fe9ba5c1b2b019878b02d3bbd6fa707b40"
+  "snapshot": "sha256:898118f3fdae3ccd8e4afbcdf8cc394f616d672f45e6a23124f08f59254aaca9"
  },
  "slots": [
   {"card":"Ad Nauseam","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/cormela-glamour-thief.json#failure_modes/self-damage","blueprint:data/grixis/blueprints/cormela-glamour-thief.json#power/grok_estimated_ceiling"],"graph_refs":["graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Ad Nauseam"],"alternatives":["evidence:data/grixis/evidence/cormela-glamour-thief.json#Dream Harvest"],"redundancy":0,"reason":"weak retain ({3}{B}{B} instant): no structure; Oracle hook instants and sorceries. Oracle: “Reveal the top card of your library and put that card into your hand”. Redundancy 0 (no shared job). Best alternative: Dream Harvest (same Oracle hook (instants and sorceries), EDHREC 34%). No EDHREC row. Blueprint names it in failure_modes/self-damage, power/grok_estimated_ceiling.","evidence":["blueprint:data/grixis/blueprints/cormela-glamour-thief.json#failure_modes/self-damage","blueprint:data/grixis/blueprints/cormela-glamour-thief.json#power/grok_estimated_ceiling","graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Ad Nauseam","oracle:Ad Nauseam"],"structural_necessity":"independent","evidence_classes":{"fact":1,"strategic_judgment":2},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":false},

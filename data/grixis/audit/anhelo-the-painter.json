@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
- "pass_id": "audit:anhelo-the-painter:c59:9eb97c4d6bad",
+ "pass_id": "audit:anhelo-the-painter:c59:67bf34c56f7d",
  "snapshot": {
-  "id": "sha256:9eb97c4d6bad5ae793d6bb6a9ef92d6f613876a54989b421954954f86762f7b7",
-  "graph": "sha256:96ce2b48354a0e0b4c5618d87000733dc0d28dc7d2179a8f41f21902892e73d9",
-  "evidence": "sha256:aafdb2a3ad4da24183ff692f84700b330841f58fedfb14794c6bccee7df108c8",
+  "id": "sha256:67bf34c56f7d8dfbe239d85e919318a19002518d67440cb8c4cbb2176d05a957",
+  "graph": "sha256:264e6315d2349992f261ec112b9ceaf5cf8402bc9ab75b45328dbfad1f1ef9da",
+  "evidence": "sha256:d0ab99061525ee0bd32395d3c6f1fd66c77eed8048b8fb9f83f9269a9be4cf1f",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 184,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:aafdb2a3ad4da24183ff692f84700b330841f58fedfb14794c6bccee7df108c8"
+  "snapshot": "sha256:d0ab99061525ee0bd32395d3c6f1fd66c77eed8048b8fb9f83f9269a9be4cf1f"
  },
  "slots": [
   {"card":"A Little Chat","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":[],"packages":["pkg:copy-worthy-spells"],"blueprint_refs":["blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/double-casualty","blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-worthy-spells"],"graph_refs":["graph:data/grixis/graph/anhelo-the-painter.json#metrics/A Little Chat"],"alternatives":["evidence:data/grixis/evidence/anhelo-the-painter.json#Poppet Stitcher"],"redundancy":7,"reason":"functional retain ({1}{U} instant): required package pkg:copy-worthy-spells. Oracle: “Casualty 1”. Packages pkg:copy-worthy-spells. Redundancy 7 (other cards in its package(s)). Best alternative: Poppet Stitcher (same Oracle hook (sacrifice), EDHREC 53%). EDHREC inclusion 19.0%, synergy +0.19. Blueprint names it in packages/pkg:copy-worthy-spells, key_interactions/double-casualty.","evidence":["blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/double-casualty","blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-worthy-spells","evidence:data/grixis/evidence/anhelo-the-painter.json#A Little Chat","graph:data/grixis/graph/anhelo-the-painter.json#metrics/A Little Chat","oracle:A Little Chat"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"strategic_judgment":2},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

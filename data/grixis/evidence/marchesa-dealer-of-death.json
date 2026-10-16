@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:472f2a2663aa05739b755a0119dc03ebf47259d55f525455ccf104d350e4181a",
+  "id": "sha256:4896852923faa5665c4c02881b9d64c588fdf190d0b334610390606dec11c0ec",
   "inputs": {
    ".cache/edhrec/commanders__marchesa-dealer-of-death.json": "sha256:2d3545ca0f616a3823d38cddd159d7bc68b442f8b64cb762f1a5c79cd3362324",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/marchesa-dealer-of-death.json": "sha256:215f9e7e2ffbce07600dce662b762c0bafe22b5eb80a5a49e96cbdd37134771d",
    "grixis/decks/marchesa-dealer-of-death.md": "sha256:06a868a140df8aaa1e54b8c019a94b2a615d2ccc3b1303ffe2a454540f6f3b5b",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

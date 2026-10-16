@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
- "pass_id": "audit:rograkh-son-of-rohgahh-silas-renn:c59:64338774b040",
+ "pass_id": "audit:rograkh-son-of-rohgahh-silas-renn:c59:6374e777feda",
  "snapshot": {
-  "id": "sha256:64338774b040a4fefaf5aec535640a6532a33c29ae9709380baa9e66ca3241ad",
-  "graph": "sha256:0d3c1693d7ae873660d03527aefadc9f482a5135b3aee060b7669e5d9d04601c",
-  "evidence": "sha256:079756388116e9e4b563bb309d4f1b61f0d72db3a47079833ed55ad6c0ce7531",
+  "id": "sha256:6374e777feda2fb1ce6ee759fee1304f1f3d1ec2a95929a81a38bda5ae0483b4",
+  "graph": "sha256:7118ad79f1f259258c57e855eb004689156a6866ce188f009cbcd24629122ba0",
+  "evidence": "sha256:d9ee2678684c106c4dad19158ffb6358782e2c58f2bb6b5b6b0b0ec2183d2762",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -142,7 +142,7 @@
   "screened": 70,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:079756388116e9e4b563bb309d4f1b61f0d72db3a47079833ed55ad6c0ce7531"
+  "snapshot": "sha256:d9ee2678684c106c4dad19158ffb6358782e2c58f2bb6b5b6b0b0ec2183d2762"
  },
  "slots": [
   {"card":"Ad Nauseam","quantity":1,"zone":"main","disposition":"strong_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#engines/reloads","blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#failure_modes/naus-life","blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#plan/value","blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#power_core/Ad Nauseam","blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#win_conditions/extra-turn-finish"],"graph_refs":["graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Ad Nauseam"],"alternatives":[],"redundancy":0,"reason":"strong retain ({3}{B}{B} instant): win piece / enabler. Oracle: “Reveal the top card of your library and put that card into your hand”. Redundancy 0 (no shared job). EDHREC inclusion 87.2%, synergy +0.83. Blueprint names it in plan/value, win_conditions/extra-turn-finish, engines/reloads.","evidence":["blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#engines/reloads","blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#failure_modes/naus-life","blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#plan/value","blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#power_core/Ad Nauseam","blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#win_conditions/extra-turn-finish","evidence:data/grixis/evidence/rograkh-son-of-rohgahh-silas-renn.json#Ad Nauseam","graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Ad Nauseam","oracle:Ad Nauseam"],"structural_necessity":"important","evidence_classes":{"derived_metric":1,"fact":1,"strategic_judgment":5},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":false},

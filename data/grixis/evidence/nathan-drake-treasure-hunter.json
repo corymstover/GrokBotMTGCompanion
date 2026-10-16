@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:df5d84d9fd92333cd9d221e8d130250562e5d80aa63de44f5ed9b291b767fc84",
+  "id": "sha256:20fed02752b4c5f2bf0d5746eb56c63cabf095e30835a0d61dbcf62efe72550a",
   "inputs": {
    ".cache/edhrec/commanders__nathan-drake-treasure-hunter.json": "sha256:6d1e71604928b8816d11e82b1270dbd820c1e56cd4edf651b6b16a70169e5eef",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/nathan-drake-treasure-hunter.json": "sha256:0a0a6c5b40c38e6026c36adf526af5112f30f9bcab17e73fdfeeb99f48650f64",
    "grixis/decks/nathan-drake-treasure-hunter.md": "sha256:6e3530808356e5fc7230a4b37267a89dd04ed34a9775722705b48d29588a98db",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

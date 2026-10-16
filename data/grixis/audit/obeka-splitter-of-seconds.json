@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
- "pass_id": "audit:obeka-splitter-of-seconds:c59:706401b150c9",
+ "pass_id": "audit:obeka-splitter-of-seconds:c59:b444d01cdd26",
  "snapshot": {
-  "id": "sha256:706401b150c9596d33f2d7fe2d6e046d5db35c8aefc40bf7269c607098d355bf",
-  "graph": "sha256:4da753be8f982a4f5f421030babff025e2bfb07fc9cb21a90453d896f6b1ad3d",
-  "evidence": "sha256:a80228dbd6e81680d3d6ec5c68ed48f8e4b83153dc8f62ec48c3512702024463",
+  "id": "sha256:b444d01cdd26f423dca804d9d6e20f54398f1109141d8fe32d5bce35607fb17a",
+  "graph": "sha256:7be843acb3506b0328ad80cc1bbd467c7cca022aaf65bdbb3011a6f7f8a0b6ba",
+  "evidence": "sha256:53f09cfc6cd04a892691fa251ac92286a7563092f16e344d71edfdb546c0ae62",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -144,7 +144,7 @@
   "screened": 213,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:a80228dbd6e81680d3d6ec5c68ed48f8e4b83153dc8f62ec48c3512702024463"
+  "snapshot": "sha256:53f09cfc6cd04a892691fa251ac92286a7563092f16e344d71edfdb546c0ae62"
  },
  "slots": [
   {"card":"An Offer You Can't Refuse","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["counter","ramp"],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"],"graph_refs":["graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/An Offer You Can't Refuse"],"alternatives":["evidence:data/grixis/evidence/obeka-splitter-of-seconds.json#Negate"],"redundancy":13,"reason":"functional retain ({U} instant): role counter, ramp. Oracle: “Counter target noncreature spell”. Role counter (4 in list), ramp (11 in list). Redundancy 13 (other cards sharing a key role). Best alternative: Negate (shared key role, EDHREC 35%). EDHREC inclusion 38.2%, synergy +0.06. Blueprint names it in requirements/value.","evidence":["blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value","evidence:data/grixis/evidence/obeka-splitter-of-seconds.json#An Offer You Can't Refuse","graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/An Offer You Can't Refuse","oracle:An Offer You Can't Refuse"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":2,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

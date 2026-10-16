@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:725e6b0cb3818240dc34163cc17ce0867633e5a5cc0f26f52e9776068face091",
+  "id": "sha256:5254525640834defca4390ec52ddf9c39f833e6310ad7466f8c96ecc8c753446",
   "inputs": {
    ".cache/edhrec/commanders__saruman-the-white-hand.json": "sha256:611ef740f9ff127b618b0f11830eb57e8bf5f84655e2477f72e4e972d5d4c44d",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/saruman-the-white-hand.json": "sha256:205604bdacb7b50cc7a0990889370af06baae12c83a0623123d0101b7802cbd9",
    "grixis/decks/saruman-the-white-hand.md": "sha256:ccfa7b49fdb472b2e8ed5a9fb2169fbbdb81aec92abe0681b8c95a5371e88d24",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

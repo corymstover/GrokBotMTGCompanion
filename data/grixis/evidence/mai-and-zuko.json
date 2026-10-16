@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:e6fee1d728a6cbe0767955f5406f55e58360165d4fd51979eae6418c8d5d08d1",
+  "id": "sha256:081f7e0f1714236785f8f1ff8c30b176a32c12ead8c56714e3d15cf2d451220b",
   "inputs": {
    ".cache/edhrec/commanders__mai-and-zuko.json": "sha256:a60ac96c745f9df6d71fa50d49c543154f46b6f5703171b1d6e26cda53f4035b",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/mai-and-zuko.json": "sha256:d984749ca189cc58241e8b730a9f5dc2d3645c4d5920523a6d0e7f00c49ba1c7",
    "grixis/decks/mai-and-zuko.md": "sha256:dcdc5946dbee5112ab64d3490616839724b3c09643c043a461f20b0cd1709010",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

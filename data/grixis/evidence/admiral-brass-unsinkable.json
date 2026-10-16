@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:273a7442a063c5077f252ece3679d7794a384dfa7f88a22ebe52492be8a0690f",
+  "id": "sha256:dcfc58c46f45fb555423271ab8317101e3e6b197c37de5db26a64d76fdcc795a",
   "inputs": {
    ".cache/edhrec/commanders__admiral-brass-unsinkable.json": "sha256:e29ce0db2da6eb2f106fb06352ab25022fe360810218b57c0b95eda294b8ad2a",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/admiral-brass-unsinkable.json": "sha256:5cf618006010367be2b71dc975851a90d0054401aafcde62082891a383871b16",
    "grixis/decks/admiral-brass-unsinkable.md": "sha256:ae942a287eab9ddd6fdafc2f272d9cff8e3aef7be9662190c749baff76dec432",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
- "pass_id": "audit:norman-osborn:c59:ebbcbe73a9d3",
+ "pass_id": "audit:norman-osborn:c59:1c727a4dbccb",
  "snapshot": {
-  "id": "sha256:ebbcbe73a9d31ba7d992bd61cdfb5d77dccad43d392c2c5bbc006e5dd78368eb",
-  "graph": "sha256:6fc712abae5c6d6d68891464b48ab19b28b63ea2904ea929f2e260306586e094",
-  "evidence": "sha256:e08b08e1e89e4fa97e9267e2935378f83ea6d1aba970b0d6e7b7d17fe8c69b60",
+  "id": "sha256:1c727a4dbccbe0180f3cb157afa39464977b76c1d15f4f53d279db002ae3176f",
+  "graph": "sha256:0952822b9809b830b26059981208124c1f762359cbaee0064b17d243fdc7a26f",
+  "evidence": "sha256:f16659e1ad7b11def70a97c9b9bc65430631d6e4c8cbcbc5731d92ca9f6035aa",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -144,7 +144,7 @@
   "screened": 208,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:e08b08e1e89e4fa97e9267e2935378f83ea6d1aba970b0d6e7b7d17fe8c69b60"
+  "snapshot": "sha256:f16659e1ad7b11def70a97c9b9bc65430631d6e4c8cbcbc5731d92ca9f6035aa"
  },
  "slots": [
   {"card":"Ad Nauseam","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/norman-osborn.json#metrics/Ad Nauseam"],"alternatives":[],"redundancy":0,"reason":"weak retain ({3}{B}{B} instant): no structure; EDHREC support. Oracle: “Reveal the top card of your library and put that card into your hand”. Redundancy 0 (no shared job). EDHREC inclusion 9.4%, synergy +0.05.","evidence":["evidence:data/grixis/evidence/norman-osborn.json#Ad Nauseam","graph:data/grixis/graph/norman-osborn.json#metrics/Ad Nauseam","oracle:Ad Nauseam"],"structural_necessity":"independent","evidence_classes":{"derived_metric":1,"fact":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

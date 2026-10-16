@@ -9,13 +9,13 @@ schema: 2
 
 # Jeleva, Nephalia's Scourge — Interaction Review
 
-> Bot cycle 49 · batch C · reviewed 2026-10-16. Deck: [Jeleva, Nephalia's Scourge](../decks/jeleva-nephalias-scourge.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 49 · batch C · reviewed 2026-10-16. Deck: [Jeleva, Nephalia's Scourge](../decks/jeleva-nephalias-scourge.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/jeleva-nephalias-scourge.txt`](../../exports/grixis-archidekt/jeleva-nephalias-scourge.txt) · SHA-256 `900a09d494293665662756ef2be07998b9d86af42c2a23ea54900953f9f181af` |
 | Rulings | **10** (10 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Jeleva_Nephalia_s_Scourge_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json) (17 interactions, all PASS) |
 
 ## Contents

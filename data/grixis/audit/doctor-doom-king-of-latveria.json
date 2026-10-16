@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
- "pass_id": "audit:doctor-doom-king-of-latveria:c59:42c090ab1dfd",
+ "pass_id": "audit:doctor-doom-king-of-latveria:c59:dcf5c57168cb",
  "snapshot": {
-  "id": "sha256:42c090ab1dfd268fd3bcb4bb248e4dbf36272343e72121078c9a89813cd1bda6",
-  "graph": "sha256:57730fb0aa40f7b60107e482e482b44bd6254504f84478d7880f28bba9290abe",
-  "evidence": "sha256:2d8e189c82bd365dac434291ece20263bc7adc308ae8d45bc76e7c6eb24e91f2",
+  "id": "sha256:dcf5c57168cb248bd5d4f957ecbba5baeb3ce6730641578c3085d648e751556b",
+  "graph": "sha256:648d59ba1433e8519377c5e605f26db988f0b36609507976de2cd977edaafa1b",
+  "evidence": "sha256:bfbb83d823c22ebbebd3d164200f38659697fe225408f94b2e9eb611e00a66e9",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -144,7 +144,7 @@
   "screened": 138,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:2d8e189c82bd365dac434291ece20263bc7adc308ae8d45bc76e7c6eb24e91f2"
+  "snapshot": "sha256:bfbb83d823c22ebbebd3d164200f38659697fe225408f94b2e9eb611e00a66e9"
  },
  "slots": [
   {"card":"Ancient Tomb","quantity":1,"zone":"main","disposition":"flexible","review_status":"provisional","classifier":"script","roles":["land"],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Ancient Tomb"],"alternatives":["evidence:data/grixis/evidence/doctor-doom-king-of-latveria.json#Coastal Peak"],"redundancy":37,"reason":"flexible (land, makes C): 37 other lands sharing a colour. Oracle: “{T}: Add {C}{C}”. Land (38 in list). Redundancy 37 (other lands sharing a colour). Best alternative: Coastal Peak (shared key role, EDHREC 56%). No EDHREC row.","evidence":["graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Ancient Tomb","oracle:Ancient Tomb"],"structural_necessity":"redundant","evidence_classes":{"fact":1,"heuristic":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

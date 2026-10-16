@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
- "pass_id": "audit:mishra-eminent-one:c59:46b7110bf5a7",
+ "pass_id": "audit:mishra-eminent-one:c59:b9ff11b24c8b",
  "snapshot": {
-  "id": "sha256:46b7110bf5a7fe3e27003f4105dbde10fede38b4187de50f535846e1e99ef580",
-  "graph": "sha256:ba416ab015fb612479e69f0e588fa6438d5f8cef9045c9c37bd9f3fbf19cbbb1",
-  "evidence": "sha256:0a006e65451192cfb25050d282dbaf4bf33cfb8c2c3dfe5f531b69a5c5958977",
+  "id": "sha256:b9ff11b24c8b7c7616d7ccc232087d18c37cf02d3ebbf398b83b95524e1b8cf4",
+  "graph": "sha256:a47c71eb33daef7aa5de7b34d2ec239c5f92afda8cc7098a972192504b5da0c8",
+  "evidence": "sha256:e11d1e0882545626832bf10404559eb2ec4ee2339af6a085a35a6171736f1e00",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -142,7 +142,7 @@
   "screened": 192,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:0a006e65451192cfb25050d282dbaf4bf33cfb8c2c3dfe5f531b69a5c5958977"
+  "snapshot": "sha256:e11d1e0882545626832bf10404559eb2ec4ee2339af6a085a35a6171736f1e00"
  },
  "slots": [
   {"card":"Academy Ruins","quantity":1,"zone":"main","disposition":"strong_retain","review_status":"provisional","classifier":"script","roles":["land"],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"],"graph_refs":["graph:data/grixis/graph/mishra-eminent-one.json#metrics/Academy Ruins","graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1384"],"alternatives":["evidence:data/grixis/evidence/mishra-eminent-one.json#Silverbluff Bridge","graph:data/grixis/graph/mishra-eminent-one.json#card:Emry, Lurker of the Loch","graph:data/grixis/graph/mishra-eminent-one.json#card:Esoteric Duplicator"],"redundancy":2,"reason":"strong retain (legendary land, makes C): piece of 1 Spellbook combo(s). Oracle: “{T}: Add {C}”. Land (34 in list). Removing it breaks 1: combo:1167-1384. Redundancy 2 (interchangeable Spellbook pieces). Interchangeable with Emry, Lurker of the Loch, Esoteric Duplicator. Best alternative: Silverbluff Bridge (shared key role, EDHREC 66%). EDHREC inclusion 33.5%, synergy +0.30. Blueprint names it in recursion/value.","evidence":["blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value","evidence:data/grixis/evidence/mishra-eminent-one.json#Academy Ruins","graph:data/grixis/graph/mishra-eminent-one.json#metrics/Academy Ruins","oracle:Academy Ruins","spellbook:1167-1384"],"structural_necessity":"important","evidence_classes":{"derived_metric":1,"fact":2,"heuristic":1,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

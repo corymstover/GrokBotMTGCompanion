@@ -9,13 +9,13 @@ schema: 2
 
 # Nicol Bolas — Interaction Review
 
-> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Nicol Bolas](../decks/nicol-bolas.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Nicol Bolas](../decks/nicol-bolas.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/source-baseline/nicol-bolas.txt`](../../exports/grixis-archidekt/source-baseline/nicol-bolas.txt) · SHA-256 `1c271131d2cb3f824a292391932dbb111c3eb9653051424c16db76a6c16e91b0` |
 | Rulings | **9** (8 verified · 0 uncertain · 1 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Nicol_Bolas_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Nicol_Bolas_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification sections 5–16) · [`Nicol_Bolas_Whole_List_Audit_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Nicol_Bolas_Whole_List_Audit_2026-10-15.md) (Whole-list audit (Megrim cut rationale)) |
 
 ## Contents

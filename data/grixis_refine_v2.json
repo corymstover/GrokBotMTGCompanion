@@ -1,13 +1,12 @@
 {
- "_doc": "Bot cycle 47+: grixis_refine v2 output. Recommendations only: never a final list, never written to deck pages or exports. Labeled exploratory until M2 and M4 are accepted (Cory constraint 6). Schema: data/grixis/schemas/refine_v2.schema.json.",
+ "_doc": "Bot cycle 47+: grixis_refine v2 output. Recommendations only: never a final list, never written to deck pages or exports. Always exploratory: M2+M4 acceptance opens the M6 gate (Cory constraint 6) but approves no refinement result (t52u); M6 decisions need a judgment_review. Schema: data/grixis/schemas/refine_v2.schema.json.",
  "schema_version": 1,
  "engine": "grixis_refine v2",
  "exploratory": true,
- "generated": "2026-10-16",
  "m6_gate": {
-  "M2": "not_started",
-  "M4": "not_started",
-  "open": false
+  "M2": "accepted",
+  "M4": "accepted",
+  "open": true
  },
  "lift_check": {
   "pages": 62,
@@ -229,7 +228,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 48.0% vs cut 12.6%",
-        "overall EDHREC rank 2011 vs 101"
+        "overall EDHREC rank 2014 vs 101"
        ]
       },
       "role_parity": true,
@@ -530,7 +529,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 5767 vs cut 107 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 5771 vs cut 107 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -568,7 +567,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 10778 vs cut 82 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 10788 vs cut 82 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -617,7 +616,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 11912 vs cut 29 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 11928 vs cut 29 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -712,7 +711,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 23.3% < cut's 31.8% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 5421 vs cut 168 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 5424 vs cut 168 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -1028,7 +1027,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 4365 vs cut 125 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 4367 vs cut 125 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -1123,7 +1122,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 54.0% vs cut 5.3%",
-        "overall EDHREC rank 326 vs 65"
+        "overall EDHREC rank 326 vs 66"
        ]
       },
       "role_parity": true,
@@ -1493,7 +1492,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 10899 vs cut 29 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 10918 vs cut 29 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -1634,7 +1633,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 16.4% < cut's 35.9% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 4287 vs cut 92 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 4295 vs cut 92 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -2222,7 +2221,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 2713 vs cut 29 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 2709 vs cut 29 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -2269,7 +2268,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 55.4% vs cut 27.3%",
-        "overall EDHREC rank 505 vs 17"
+        "overall EDHREC rank 507 vs 17"
        ]
       },
       "role_parity": true,
@@ -2317,7 +2316,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 3239 vs cut 58 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 3236 vs cut 58 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -2587,7 +2586,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 60.0% vs cut 39.3%",
-        "overall EDHREC rank 1969 vs 133"
+        "overall EDHREC rank 1971 vs 133"
        ]
       },
       "role_parity": true,
@@ -2683,7 +2682,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 28.3% < cut's 45.0% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 4287 vs cut 53 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 4295 vs cut 53 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -3038,7 +3037,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 2627 vs cut 159 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 2615 vs cut 159 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -3462,7 +3461,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 24.5% < cut's 84.3% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 3491 vs cut 3 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 3477 vs cut 3 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -3557,7 +3556,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 5173 vs cut 272 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 5176 vs cut 272 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -3807,7 +3806,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 9356 vs cut 29 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 9359 vs cut 29 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -3853,7 +3852,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 5173 vs cut 82 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 5176 vs cut 82 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -3902,7 +3901,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 5448 vs cut 53 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 5453 vs cut 53 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -4255,7 +4254,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 51.6% vs cut 43.7%",
-        "overall EDHREC rank 250 vs 4548"
+        "overall EDHREC rank 250 vs 4555"
        ]
       },
       "role_parity": true,
@@ -4446,7 +4445,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 5117 vs cut 82 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 5122 vs cut 82 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -4765,7 +4764,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 12586 vs cut 395 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 12588 vs cut 395 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -4811,7 +4810,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 9588 vs cut 106 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 9589 vs cut 106 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -5082,7 +5081,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 63.6% vs cut 24.8%",
-        "overall EDHREC rank 265 vs 133"
+        "overall EDHREC rank 264 vs 133"
        ]
       },
       "role_parity": true,
@@ -5128,7 +5127,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 12401 vs cut 17 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 12371 vs cut 17 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -5176,7 +5175,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 7449 vs cut 107 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 7423 vs cut 107 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -5515,7 +5514,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 60.6% vs cut not listed",
-        "overall EDHREC rank 2668 vs 6650"
+        "overall EDHREC rank 2668 vs 6642"
        ]
       },
       "role_parity": true,
@@ -5551,7 +5550,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 4936 vs cut 133 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 4943 vs cut 133 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -5634,7 +5633,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 25.9% < cut's 39.9% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 5323 vs cut 125 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 5324 vs cut 125 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -5934,7 +5933,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 52.5% vs cut not listed",
-        "overall EDHREC rank 793 vs 133"
+        "overall EDHREC rank 794 vs 133"
        ]
       },
       "role_parity": true,
@@ -6019,7 +6018,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 7240 vs cut 119 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 7241 vs cut 119 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -6065,7 +6064,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 7942 vs cut 106 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 7938 vs cut 106 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -6374,7 +6373,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 12136 vs cut 106 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 12124 vs cut 106 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -6680,7 +6679,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 6221 vs cut 106 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 6225 vs cut 106 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -6727,7 +6726,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 5323 vs cut 17 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 5324 vs cut 17 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -7095,7 +7094,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 4713 vs cut 159 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 4716 vs cut 159 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -7141,7 +7140,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 4489 vs cut 101 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 4494 vs cut 101 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -7381,7 +7380,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 60.1% vs cut 20.7%",
-        "overall EDHREC rank 253 vs 46"
+        "overall EDHREC rank 254 vs 46"
        ]
       },
       "role_parity": true,
@@ -7771,7 +7770,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 6491 vs cut 106 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 6490 vs cut 106 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -7809,7 +7808,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 16.3% < cut's 22.5% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 2490 vs cut 29 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 2489 vs cut 29 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -8174,7 +8173,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 4458 vs cut 101 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 4443 vs cut 101 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -8538,7 +8537,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 6728 vs cut 106 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 6730 vs cut 106 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -8824,7 +8823,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 48.9% vs cut not listed",
-        "overall EDHREC rank 453 vs 5445"
+        "overall EDHREC rank 453 vs 5448"
        ]
       },
       "role_parity": true,
@@ -8863,7 +8862,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 44.3% vs cut not listed",
-        "overall EDHREC rank 920 vs 1543"
+        "overall EDHREC rank 921 vs 1545"
        ]
       },
       "role_parity": true,
@@ -8937,7 +8936,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 43.2% vs cut not listed",
-        "overall EDHREC rank 438 vs 2138"
+        "overall EDHREC rank 437 vs 2144"
        ]
       },
       "role_parity": true,
@@ -8974,7 +8973,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 41.4% vs cut not listed",
-        "overall EDHREC rank 646 vs 3418"
+        "overall EDHREC rank 646 vs 3420"
        ]
       },
       "role_parity": true,
@@ -9427,7 +9426,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 64.5% vs cut not listed",
-        "overall EDHREC rank 6024 vs 1531"
+        "overall EDHREC rank 6024 vs 1530"
        ]
       },
       "role_parity": true,
@@ -9464,7 +9463,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 62.6% vs cut 44.7%",
-        "overall EDHREC rank 640 vs 53"
+        "overall EDHREC rank 639 vs 53"
        ]
       },
       "role_parity": true,
@@ -9511,7 +9510,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 52.6% vs cut 7.9%",
-        "overall EDHREC rank 1559 vs 577"
+        "overall EDHREC rank 1560 vs 577"
        ]
       },
       "role_parity": true,
@@ -9848,7 +9847,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 57.9% vs cut 9.2%",
-        "overall EDHREC rank 12 vs 575"
+        "overall EDHREC rank 12 vs 574"
        ]
       },
       "role_parity": true,
@@ -9894,7 +9893,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 6389 vs cut 438 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 6396 vs cut 437 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -9971,7 +9970,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 21.2% vs cut 14.5%",
-        "overall EDHREC rank 1247 vs 46"
+        "overall EDHREC rank 1246 vs 46"
        ]
       },
       "role_parity": true,
@@ -10275,7 +10274,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 39.0% vs cut not listed",
-        "overall EDHREC rank 432 vs 1362"
+        "overall EDHREC rank 431 vs 1363"
        ]
       },
       "role_parity": true,
@@ -10638,7 +10637,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 58.1% vs cut not listed",
-        "overall EDHREC rank 98 vs 2173"
+        "overall EDHREC rank 98 vs 2174"
        ]
       },
       "role_parity": true,
@@ -10729,7 +10728,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 43.3% vs cut 11.6%",
-        "overall EDHREC rank 196 vs 438"
+        "overall EDHREC rank 196 vs 437"
        ]
       },
       "role_parity": true,
@@ -11091,7 +11090,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 46.5% vs cut 41.5%",
-        "overall EDHREC rank 1268 vs 133"
+        "overall EDHREC rank 1266 vs 133"
        ]
       },
       "role_parity": true,
@@ -11183,7 +11182,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 10622 vs cut 53 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 10593 vs cut 53 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -11229,7 +11228,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 11590 vs cut 46 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 11564 vs cut 46 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -11277,7 +11276,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 10296 vs cut 107 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 10281 vs cut 107 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -11541,7 +11540,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 52.6% vs cut 10.0%",
-        "overall EDHREC rank 1616 vs 133"
+        "overall EDHREC rank 1617 vs 133"
        ]
       },
       "role_parity": true,
@@ -11633,7 +11632,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 3530 vs cut 82 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 3536 vs cut 82 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -12406,7 +12405,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 9175 vs cut 65 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 9181 vs cut 66 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -12452,7 +12451,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 14229 vs cut 46 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 14236 vs cut 46 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -12547,7 +12546,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 15352 vs cut 106 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 15368 vs cut 106 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -12595,7 +12594,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 16.9% < cut's 17.5% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 5370 vs cut 58 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 5372 vs cut 58 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -12862,7 +12861,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 6180 vs cut 29 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 6175 vs cut 29 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -12908,7 +12907,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 8042 vs cut 46 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 8039 vs cut 46 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -12956,7 +12955,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 3686 vs cut 119 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 3681 vs cut 119 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -13313,7 +13312,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 22419 vs cut 106 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 22438 vs cut 106 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -13361,7 +13360,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 23.6% vs cut 16.9%",
-        "overall EDHREC rank 1115 vs 101"
+        "overall EDHREC rank 1116 vs 101"
        ]
       },
       "role_parity": true,
@@ -13408,7 +13407,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 17.4% < cut's 18.2% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 14938 vs cut 74 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 14952 vs cut 74 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -13682,7 +13681,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 13121 vs cut 2039 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 13129 vs cut 2038 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -13765,7 +13764,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 10483 vs cut 46 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 10490 vs cut 46 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -13813,7 +13812,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 6357 vs cut 33 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 6362 vs cut 33 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -13862,7 +13861,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 24.8% < cut's 46.7% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 5466 vs cut 125 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 5464 vs cut 125 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -14139,7 +14138,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 44.8% vs cut not listed",
-        "overall EDHREC rank 1547 vs 796"
+        "overall EDHREC rank 1549 vs 795"
        ]
       },
       "role_parity": true,
@@ -14261,7 +14260,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 24.2% < cut's 47.2% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 3388 vs cut 125 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 3393 vs cut 125 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -14529,7 +14528,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 41.5% vs cut 27.7%",
-        "overall EDHREC rank 904 vs 46"
+        "overall EDHREC rank 903 vs 46"
        ]
       },
       "role_parity": true,
@@ -14828,7 +14827,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 68.7% vs cut 11.9%",
-        "overall EDHREC rank 1068 vs 46"
+        "overall EDHREC rank 1069 vs 46"
        ]
       },
       "role_parity": true,
@@ -14876,7 +14875,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 7264 vs cut 58 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 7268 vs cut 58 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -14970,7 +14969,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 7742 vs cut 74 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 7745 vs cut 74 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -15238,7 +15237,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 7619 vs cut 46 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 7622 vs cut 46 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -15287,7 +15286,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 26.0% < cut's 26.8% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 9909 vs cut 29 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 9913 vs cut 29 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -15653,7 +15652,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 38.1% vs cut 27.3%",
-        "overall EDHREC rank 758 vs 53"
+        "overall EDHREC rank 757 vs 53"
        ]
       },
       "role_parity": true,
@@ -15746,7 +15745,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 20.3% < cut's 39.2% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 5955 vs cut 33 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 5959 vs cut 33 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -16067,7 +16066,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 4626 vs cut 46 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 4628 vs cut 46 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -16115,7 +16114,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 4494 vs cut 272 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 4497 vs cut 272 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -16481,7 +16480,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 27.0% vs cut 21.7%",
-        "overall EDHREC rank 1048 vs 46"
+        "overall EDHREC rank 1047 vs 46"
        ]
       },
       "role_parity": true,
@@ -16529,7 +16528,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 17863 vs cut 107 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 17879 vs cut 107 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -16578,7 +16577,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 19.4% < cut's 23.8% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 9356 vs cut 29 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 9359 vs cut 29 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -16625,7 +16624,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 15.7% < cut's 21.6% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 10292 vs cut 58 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 10301 vs cut 58 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -16944,7 +16943,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 17863 vs cut 107 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 17879 vs cut 107 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -16993,7 +16992,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 18.6% < cut's 21.1% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 3533 vs cut 82 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 3535 vs cut 82 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -17402,7 +17401,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 7090 vs cut 58 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 7093 vs cut 58 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -17549,7 +17548,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 16.3% < cut's 22.0% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 11288 vs cut 65 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 11283 vs cut 66 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -17810,7 +17809,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 4003 vs cut 133 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 4006 vs cut 133 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -17999,7 +17998,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 27.5% vs cut 14.5%",
-        "overall EDHREC rank 648 vs 46"
+        "overall EDHREC rank 649 vs 46"
        ]
       },
       "role_parity": true,
@@ -18267,7 +18266,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 2627 vs cut 159 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 2615 vs cut 159 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -18659,7 +18658,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 60.1% vs cut not listed",
-        "overall EDHREC rank 4503 vs 9273"
+        "overall EDHREC rank 4502 vs 9095"
        ]
       },
       "role_parity": true,
@@ -18698,7 +18697,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 43.6% vs cut 38.8%",
-        "overall EDHREC rank 3575 vs 7338"
+        "overall EDHREC rank 3581 vs 7338"
        ]
       },
       "role_parity": true,
@@ -18840,7 +18839,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 29.3% < cut's 78.4% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 2824 vs cut 159 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 2826 vs cut 159 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -19112,7 +19111,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 45.8% vs cut 14.3%",
-        "overall EDHREC rank 1156 vs 1391"
+        "overall EDHREC rank 1155 vs 1389"
        ]
       },
       "role_parity": true,
@@ -19159,7 +19158,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 55.8% vs cut 16.2%",
-        "overall EDHREC rank 1746 vs 46"
+        "overall EDHREC rank 1747 vs 46"
        ]
       },
       "role_parity": true,
@@ -19207,7 +19206,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 2835 vs cut 74 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 2836 vs cut 74 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -19534,7 +19533,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 54.5% vs cut 19.9%",
-        "overall EDHREC rank 571 vs 17"
+        "overall EDHREC rank 572 vs 17"
        ]
       },
       "role_parity": true,
@@ -19974,7 +19973,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 4648 vs cut 74 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 4646 vs cut 74 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -20021,7 +20020,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 6225 vs cut 106 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 6223 vs cut 106 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -20117,7 +20116,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 3892 vs cut 107 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 3900 vs cut 107 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -20791,7 +20790,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 3533 vs cut 119 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 3535 vs cut 119 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -20838,7 +20837,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 21.6% vs cut 9.5%",
-        "overall EDHREC rank 264 vs 58"
+        "overall EDHREC rank 265 vs 58"
        ]
       },
       "role_parity": true,
@@ -21158,7 +21157,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 22.9% < cut's 37.3% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 12714 vs cut 125 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 12716 vs cut 125 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -21755,7 +21754,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 53.9% vs cut 45.7%",
-        "overall EDHREC rank 1488 vs 415"
+        "overall EDHREC rank 1491 vs 415"
        ]
       },
       "role_parity": true,
@@ -21945,7 +21944,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 20.6% < cut's 37.9% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 4132 vs cut 22 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 4115 vs cut 22 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -22220,7 +22219,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 16814 vs cut 46 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 16818 vs cut 46 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -22268,7 +22267,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 4521 vs cut 106 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 4522 vs cut 106 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -22315,7 +22314,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 3408 vs cut 202 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 3400 vs cut 202 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -22412,7 +22411,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 49.0% vs cut 10.9%",
-        "overall EDHREC rank 34 vs 243"
+        "overall EDHREC rank 34 vs 244"
        ]
       },
       "role_parity": true,
@@ -22674,7 +22673,7 @@
        "pass": false,
        "notes": [
         "commander-page inclusion 35.1% < cut's 38.2% (this commander's players keep the cut more often)",
-        "overall EDHREC rank 6658 vs cut 17 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 6660 vs cut 17 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -22722,7 +22721,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 9043 vs cut 53 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 9045 vs cut 53 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -23033,7 +23032,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 58.1% vs cut 34.0%",
-        "overall EDHREC rank 1767 vs 158"
+        "overall EDHREC rank 1766 vs 158"
        ]
       },
       "role_parity": true,
@@ -23081,7 +23080,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 9909 vs cut 106 (more than 4x / +2000 worse)",
+        "overall EDHREC rank 9913 vs cut 106 (more than 4x / +2000 worse)",
         "the cut can be cast for free; the add cannot (tempo downgrade)"
        ]
       },
@@ -23948,7 +23947,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 38.0% vs cut 38.0%",
-        "overall EDHREC rank 773 vs 53"
+        "overall EDHREC rank 774 vs 53"
        ]
       },
       "role_parity": true,
@@ -23995,7 +23994,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 35.7% vs cut not listed",
-        "overall EDHREC rank 1526 vs 632"
+        "overall EDHREC rank 1524 vs 631"
        ]
       },
       "role_parity": true,
@@ -24296,7 +24295,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 2229 vs cut 22 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 2231 vs cut 22 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -24440,7 +24439,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 5663 vs cut 65 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 5665 vs cut 66 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,
@@ -24691,7 +24690,7 @@
        "pass": true,
        "notes": [
         "commander-page inclusion 36.2% vs cut 20.6%",
-        "overall EDHREC rank 2627 vs 1235"
+        "overall EDHREC rank 2615 vs 1238"
        ]
       },
       "role_parity": true,
@@ -24737,7 +24736,7 @@
       "power_guard": {
        "pass": false,
        "notes": [
-        "overall EDHREC rank 4521 vs cut 93 (more than 4x / +2000 worse)"
+        "overall EDHREC rank 4522 vs cut 93 (more than 4x / +2000 worse)"
        ]
       },
       "role_parity": true,

@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
- "pass_id": "audit:bjorna-nightfall-alchemist-cecily:c59:1ad6459b3ff6",
+ "pass_id": "audit:bjorna-nightfall-alchemist-cecily:c59:aaacc7a6a8c6",
  "snapshot": {
-  "id": "sha256:1ad6459b3ff69945f98c36e5f78fa61df1225feedd8f120d98603a8084aaaf5c",
-  "graph": "sha256:a48838c984885063038a062ad58e92c09c5b54f3711e327655e2049d081b5bc8",
-  "evidence": "sha256:0bed340e35a3007ef2d2144e1c36872f6045aae658168d3e8a2c0a6d6cb397ff",
+  "id": "sha256:aaacc7a6a8c6b6765a8689fdb785f61a377b82f728d85f696826e1083c7394e2",
+  "graph": "sha256:e9a070f6d276be303fca17a4f4d6fe40de2a0d2bf6471c9af1c8607badecf8e2",
+  "evidence": "sha256:7848b4dce5d15e7393f7165c76dfd360dddb19b1213daf2713beb11b8d4f4f7b",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -147,7 +147,7 @@
   "screened": 230,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:0bed340e35a3007ef2d2144e1c36872f6045aae658168d3e8a2c0a6d6cb397ff"
+  "snapshot": "sha256:7848b4dce5d15e7393f7165c76dfd360dddb19b1213daf2713beb11b8d4f4f7b"
  },
  "slots": [
   {"card":"Academy Manufactor","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["ramp"],"packages":["pkg:artifact-fodder"],"blueprint_refs":["blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:artifact-fodder"],"graph_refs":["graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Academy Manufactor"],"alternatives":["evidence:data/grixis/evidence/bjorna-nightfall-alchemist-cecily.json#Hit the Mother Lode"],"redundancy":5,"reason":"functional retain ({3} artifact creature): role ramp. Oracle: “If you would create a Clue, Food, or Treasure token, instead create one of ea…”. Role ramp (21 in list). Packages pkg:artifact-fodder. Redundancy 5 (other cards in its package(s)). Best alternative: Hit the Mother Lode (shared key role, EDHREC 18%). EDHREC inclusion 16.0%, synergy +0.15. Blueprint names it in packages/pkg:artifact-fodder.","evidence":["blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:artifact-fodder","evidence:data/grixis/evidence/bjorna-nightfall-alchemist-cecily.json#Academy Manufactor","graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Academy Manufactor","oracle:Academy Manufactor"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

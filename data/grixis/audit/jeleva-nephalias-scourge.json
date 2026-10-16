@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
- "pass_id": "audit:jeleva-nephalias-scourge:c59:3b3c1af6609d",
+ "pass_id": "audit:jeleva-nephalias-scourge:c59:853aab0b028f",
  "snapshot": {
-  "id": "sha256:3b3c1af6609de326dba5fe98a83b918a380906b2c179483d1c8216c4a328d406",
-  "graph": "sha256:03e02507f53a9ae906fffe8f592089fc3a40ac81638470186354d02b4378ba4e",
-  "evidence": "sha256:20e207eb3eea31db825a8e0db8bc2652f6ce28d0edc70f0ae1d14318fb79aa0a",
+  "id": "sha256:853aab0b028fda5770ada04479d46a6eff5d47be14fcd2ea52275e693e017b01",
+  "graph": "sha256:acb1c44d4bbaa30df683c8f391d54b0c69445381b32bd8fe4b9a78be9310259d",
+  "evidence": "sha256:19cfabc2a12b8f49c2cafdc41fb15e480d387a3e54b8fbf578459d15b73ef693",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -142,7 +142,7 @@
   "screened": 224,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:20e207eb3eea31db825a8e0db8bc2652f6ce28d0edc70f0ae1d14318fb79aa0a"
+  "snapshot": "sha256:19cfabc2a12b8f49c2cafdc41fb15e480d387a3e54b8fbf578459d15b73ef693"
  },
  "slots": [
   {"card":"Ad Nauseam","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Ad Nauseam"],"alternatives":["evidence:data/grixis/evidence/jeleva-nephalias-scourge.json#Aminatou's Augury"],"redundancy":0,"reason":"weak retain ({3}{B}{B} instant): no structure; Oracle hook instants and sorceries. Oracle: “Reveal the top card of your library and put that card into your hand”. Redundancy 0 (no shared job). Best alternative: Aminatou's Augury (same Oracle hook (instants and sorceries), EDHREC 52%). No EDHREC row.","evidence":["graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Ad Nauseam","oracle:Ad Nauseam"],"structural_necessity":"independent","evidence_classes":{"fact":1},"decision_support":{"ok":false,"why_not":["no evidence"]},"m1_flags":[],"complete_eligible":false},

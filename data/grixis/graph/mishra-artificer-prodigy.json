@@ -19,17 +19,17 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:a05f007b12e481d29c6ff3a36d505ffaf3192972618fca4b13bd52d1ae2ab8bd",
+  "id": "sha256:f4f25802f7ec1553e737c67f59d3ed4b7e121b3d04d69a15289f2999b5fd9fbf",
   "inputs": {
    "exports/grixis-archidekt/mishra-artificer-prodigy.txt": "sha256:33e1354d2064b12b56108f4cbc4b663e0d1bb51c1449d40588172a2c1a2680b7",
    "data/grixis/blueprints/mishra-artificer-prodigy.json": "sha256:c75a48857ce6679e19b2bb988da9c4216c0215698f4f7d5c509bfd3fdb9469b3",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
    "data/grixis_interactions/mishra-artificer-prodigy.json": "sha256:dfa4a4a51bf3a52d57f55ed8d39c1e897b3e7ea02bfb35874bb2c8c001ef3ef9",
    "data/grixis_interactions/edges/mishra-artificer-prodigy.json": "sha256:0c488a8d574ea4fbac5bf2f1bc5f2d11effa0f515e5e2c404cee9536639d24ba",
-   "data/grixis/evidence/mishra-artificer-prodigy.json": "sha256:d2d1d16c26e64f4672452aac4623366deaf57eb9f5613feec1702e075170b781",
+   "data/grixis/evidence/mishra-artificer-prodigy.json": "sha256:56f13baba1dead10edcbcff3647b923a81d98ea5c9fee321e9ba51aa3918a5cb",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:78386fc6e5ac722cd25b35f37a1b2d2ff0c427ce1aa77578fee7bf459da5c4d4",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "m1": {

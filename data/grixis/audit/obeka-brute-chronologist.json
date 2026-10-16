@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
- "pass_id": "audit:obeka-brute-chronologist:c59:555f155b7320",
+ "pass_id": "audit:obeka-brute-chronologist:c59:6bdfd0b7a4d9",
  "snapshot": {
-  "id": "sha256:555f155b7320830e1c6317bd738e90f0abcda5209f84c87b80af15990a9ab0c3",
-  "graph": "sha256:5356673cd96207e00c3fad5318fc5328a304187a1560349dcd88cccadff47356",
-  "evidence": "sha256:79a86f6eff205ccdca60a936089c23be3d9ad1216df3c52c437530869a48faf9",
+  "id": "sha256:6bdfd0b7a4d9dd8e53d10d8f346b9c7f5f199bbec6eedb7a9aaf7f5711e7f7ce",
+  "graph": "sha256:19d27107e8eb2f1cc25024d32258b1510d273249274ec54a7c8f27f701a66d25",
+  "evidence": "sha256:73681fedd3af4c94f8d53d3b93a057c3c0655ffece2227e9333f670b001f757c",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 172,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:79a86f6eff205ccdca60a936089c23be3d9ad1216df3c52c437530869a48faf9"
+  "snapshot": "sha256:73681fedd3af4c94f8d53d3b93a057c3c0655ffece2227e9333f670b001f757c"
  },
  "slots": [
   {"card":"Alchemist's Gambit","quantity":1,"zone":"main","disposition":"strong_retain","review_status":"provisional","classifier":"script","roles":[],"packages":["pkg:risky-turns"],"blueprint_refs":["blueprint:data/grixis/blueprints/obeka-brute-chronologist.json#packages/pkg:risky-turns","blueprint:data/grixis/blueprints/obeka-brute-chronologist.json#win_conditions/risky-turns"],"graph_refs":["graph:data/grixis/graph/obeka-brute-chronologist.json#metrics/Alchemist's Gambit"],"alternatives":[],"redundancy":5,"reason":"strong retain ({1}{R}{R} sorcery): win piece / enabler. Oracle: “Cleave {4}{U}{U}{R}”. Packages pkg:risky-turns. Redundancy 5 (other cards in its package(s)). EDHREC inclusion 52.8%, synergy +0.52. Blueprint names it in win_conditions/risky-turns, packages/pkg:risky-turns.","evidence":["blueprint:data/grixis/blueprints/obeka-brute-chronologist.json#packages/pkg:risky-turns","blueprint:data/grixis/blueprints/obeka-brute-chronologist.json#win_conditions/risky-turns","evidence:data/grixis/evidence/obeka-brute-chronologist.json#Alchemist's Gambit","graph:data/grixis/graph/obeka-brute-chronologist.json#metrics/Alchemist's Gambit","oracle:Alchemist's Gambit"],"structural_necessity":"important","evidence_classes":{"derived_metric":1,"fact":1,"strategic_judgment":2},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":false},

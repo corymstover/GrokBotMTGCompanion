@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:800543320d260cb96aaa8660aaddc85a43ecf55c96b99229ee61cf1859233e76",
+  "id": "sha256:1bc0cd9b639915d2b815aa9075b742a6851f6214a981d9e30c40a1d6bcbae321",
   "inputs": {
    ".cache/edhrec/commanders__nicol-bolas-the-ravager.json": "sha256:2278203d3351ec0c8cdbf2754be41cbd4c8c797aeb1b60e55dffa11a43d20e59",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/nicol-bolas-the-ravager.json": "sha256:ebc2d8bff48b444be25d094e3ede59e355ede614799cfc843f49d2b30848bf3f",
    "grixis/decks/nicol-bolas-the-ravager.md": "sha256:b6511703f8f7e505bd0e5c3f61edb066f699c75ccd39624a66f6bd2eb9f3aeb3",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

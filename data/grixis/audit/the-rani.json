@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
- "pass_id": "audit:the-rani:c59:7b0f0c0a4874",
+ "pass_id": "audit:the-rani:c59:016f768b949a",
  "snapshot": {
-  "id": "sha256:7b0f0c0a4874f12930501ad8a6205e0ae8e9d74fff275522a0817f0f0537782d",
-  "graph": "sha256:9ec58abc03e0c4286742e1028642325e508a8ff978fd19422184b35ba5326029",
-  "evidence": "sha256:86cb5a737fe754d020404aa483c1e3095ee85f5d0c42418aa238549f9209b53a",
+  "id": "sha256:016f768b949a3a85a97f1e8f194bad8d7d382dfa83ba20b7c593f7c20fe933e0",
+  "graph": "sha256:47894fbdf8608d93d934c205c7a1c4cd4d0eaf31e7c6d814834dbe65bbc39448",
+  "evidence": "sha256:be0650919be0cd5cbd18ddb07b7344677fb2685d5019fefc23b9c43945a58e03",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -130,7 +130,7 @@
   "screened": 189,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:86cb5a737fe754d020404aa483c1e3095ee85f5d0c42418aa238549f9209b53a"
+  "snapshot": "sha256:be0650919be0cd5cbd18ddb07b7344677fb2685d5019fefc23b9c43945a58e03"
  },
  "slots": [
   {"card":"Academy Manufactor","quantity":1,"zone":"main","disposition":"core","review_status":"provisional","classifier":"script","roles":["ramp"],"packages":["pkg:artifact-payoff"],"blueprint_refs":["blueprint:data/grixis/blueprints/the-rani.json#engines/token-multiplier","blueprint:data/grixis/blueprints/the-rani.json#identity_core/Academy Manufactor","blueprint:data/grixis/blueprints/the-rani.json#key_interactions/manufactor-illuminator","blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:artifact-payoff","blueprint:data/grixis/blueprints/the-rani.json#plan/value","blueprint:data/grixis/blueprints/the-rani.json#tutor_targets/Academy Manufactor","blueprint:data/grixis/blueprints/the-rani.json#win_conditions/artifact-payoffs"],"graph_refs":["graph:data/grixis/graph/the-rani.json#metrics/Academy Manufactor"],"alternatives":["evidence:data/grixis/evidence/the-rani.json#Laser Screwdriver"],"redundancy":9,"reason":"core ({3} artifact creature): identity core. Oracle: “If you would create a Clue, Food, or Treasure token, instead create one of ea…”. Role ramp (15 in list). Packages pkg:artifact-payoff. Redundancy 9 (other cards in its package(s)). Best alternative: Laser Screwdriver (shared key role, EDHREC 35%). EDHREC inclusion 55.7%, synergy +0.54. Blueprint names it in plan/value, win_conditions/artifact-payoffs, engines/token-multiplier.","evidence":["blueprint:data/grixis/blueprints/the-rani.json#engines/token-multiplier","blueprint:data/grixis/blueprints/the-rani.json#identity_core/Academy Manufactor","blueprint:data/grixis/blueprints/the-rani.json#key_interactions/manufactor-illuminator","blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:artifact-payoff","blueprint:data/grixis/blueprints/the-rani.json#plan/value","blueprint:data/grixis/blueprints/the-rani.json#tutor_targets/Academy Manufactor","blueprint:data/grixis/blueprints/the-rani.json#win_conditions/artifact-payoffs","evidence:data/grixis/evidence/the-rani.json#Academy Manufactor","graph:data/grixis/graph/the-rani.json#metrics/Academy Manufactor","oracle:Academy Manufactor"],"structural_necessity":"important","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1,"strategic_judgment":7},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

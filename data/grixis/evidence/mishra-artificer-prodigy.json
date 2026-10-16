@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:f467703264261e8fc29452b8c7f02abb0dc576836e528386bda8d8cf852ab85f",
+  "id": "sha256:b67d056e0fbc912e038451190c93d1748890630a93f4909c1f95419cbf051de6",
   "inputs": {
    ".cache/edhrec/commanders__mishra-artificer-prodigy.json": "sha256:623ff8e57000dc1fd6774f385c92d687b4a5b64eef7310a410369a65c9f1cb2f",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/mishra-artificer-prodigy.json": "sha256:c75a48857ce6679e19b2bb988da9c4216c0215698f4f7d5c509bfd3fdb9469b3",
    "grixis/decks/mishra-artificer-prodigy.md": "sha256:d4f6b635d6e65c0aa99cc323bc82fc7b41a596e342452a490bd2f5406217f033",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

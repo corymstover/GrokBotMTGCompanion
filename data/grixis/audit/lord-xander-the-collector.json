@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
- "pass_id": "audit:lord-xander-the-collector:c59:eef34ec2bbb1",
+ "pass_id": "audit:lord-xander-the-collector:c59:f104eb43deb4",
  "snapshot": {
-  "id": "sha256:eef34ec2bbb14a2661da4c2acf002d89b1a42b873f88834250c2aab50eb640ba",
-  "graph": "sha256:1ce0f1e9a10a419426172bd173d73a140d7395fc5bab657be432e2392de73ba9",
-  "evidence": "sha256:62ecb44738a9c4cc855eaeaf6bedd375ea999608b6e8737f8bf241792020a00c",
+  "id": "sha256:f104eb43deb46bd6b48e2f8bdaf734a09bf00bdd8876e561df1134121ae1b2ef",
+  "graph": "sha256:4f20100e09c4abdd353eefc79508a954615097d4f154fd452eef114d1ba2cb83",
+  "evidence": "sha256:f440d3571b3638e55ff64d1100f8705c6bd57d869c43515ec56b7ddd1a1b653c",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 215,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:62ecb44738a9c4cc855eaeaf6bedd375ea999608b6e8737f8bf241792020a00c"
+  "snapshot": "sha256:f440d3571b3638e55ff64d1100f8705c6bd57d869c43515ec56b7ddd1a1b653c"
  },
  "slots": [
   {"card":"Aggravated Assault","quantity":1,"zone":"main","disposition":"strong_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value","blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"],"graph_refs":["graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Aggravated Assault","graph:data/grixis/graph/lord-xander-the-collector.json#combo:900-3750"],"alternatives":["evidence:data/grixis/evidence/lord-xander-the-collector.json#The Mindskinner"],"redundancy":0,"reason":"strong retain ({2}{R} enchantment): piece of 1 Spellbook combo(s). Oracle: “{3}{R}{R}: Untap all creatures you control”. Removing it breaks 1: combo:900-3750. Redundancy 0 (no shared job). Best alternative: The Mindskinner (same Oracle hook (combat damage / attack triggers), EDHREC 37%). No EDHREC row. Blueprint names it in plan/value, win_conditions/assault-breach.","evidence":["blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value","blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach","graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Aggravated Assault","oracle:Aggravated Assault","spellbook:900-3750"],"structural_necessity":"important","evidence_classes":{"fact":2,"strategic_judgment":2},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":false},

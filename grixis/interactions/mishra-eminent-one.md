@@ -9,13 +9,13 @@ schema: 2
 
 # Mishra, Eminent One — Interaction Review
 
-> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Mishra, Eminent One](../decks/mishra-eminent-one.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Mishra, Eminent One](../decks/mishra-eminent-one.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/mishra-eminent-one.txt`](../../exports/grixis-archidekt/mishra-eminent-one.txt) · SHA-256 `13f54e4dd95e420371a70b002cd959c580fcbc9d7f360367288c8784da86caaf` |
 | Rulings | **9** (9 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Mishra_Eminent_One_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Mishra_Eminent_One_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification; rules sections 5–12 re-checked against Oracle, rulings and CR) |
 
 ## Contents
