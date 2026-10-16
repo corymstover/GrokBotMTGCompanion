@@ -288,8 +288,12 @@ def check_one(path, summ, reg, cr_text):
                 p.append(f"key_interactions[{i}]: M1 id {m} not found in data/grixis_interactions/{slug}.json")
     # ceilings: resolved stays null; disagreement consistent with the registry's source ceiling
     src = bp["power"]["source_ceiling"]["value"]["value"]
-    if src != e["ceiling"]["source_ceiling"]["value"]:
-        p.append(f"power.source_ceiling {src} ≠ registry source_ceiling {e['ceiling']['source_ceiling']['value']} (run grixis_authority.py --build)")
+    rsc = e["ceiling"]["source_ceiling"]
+    reff = rsc["value"] if rsc["value"] is not None else (rsc.get("recovered") or {}).get("value")
+    if src != reff:
+        p.append(f"power.source_ceiling {src} ≠ registry source ceiling {reff} (run grixis_authority.py --build)")
+    if rsc["value"] is None and src is not None and not any(r.startswith("source_archive:") and "#L" in r for r in bp["power"]["source_ceiling"]["evidence"]):
+        p.append("power.source_ceiling: a recovered source ceiling must cite source_archive:<file>#L<line>")
     g = bp["power"]["grok_estimated_ceiling"]["value"]["value"]
     want_dis = None if src is None else src != g
     if bp["power"]["disagreement"] != want_dis:

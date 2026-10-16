@@ -1,0 +1,717 @@
+{
+ "schema_version": 2,
+ "deck_id": "Abaddon_the_Despoiler",
+ "slug": "abaddon-the-despoiler",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 50,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+ "commanders": {
+  "value": [
+   {
+    "name": "Abaddon the Despoiler",
+    "oracle_id": "8dedb9a7-0afa-4dff-b124-2344c170f11a",
+    "oracle_text": "Trample\nMark of Chaos Ascendant — During your turn, spells you cast from your hand with mana value X or less have cascade, where X is the total amount of life your opponents have lost this turn.",
+    "oracle_sha256": "sha256:cfd1cc4c43f854a555b2ee82ef01e0d9e1c0339f9460aa393451785e6ada24b9",
+    "type_line": "Legendary Creature — Astartes Warrior"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Abaddon the Despoiler"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Raise the same-turn opponent life-loss total with cheap damage and drain, then cast spells from hand at or under that total so Abaddon grants cascade; chain cascade hits and cast-from-exile payoffs into a large value or damage turn.",
+   "secondary": "Compact Underworld Breach loops (Lion's Eye Diamond or Lotus Petal + Brain Freeze, or Wheel of Fortune) backed by fast mana, tutors and free counters."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md",
+   "interaction:abaddon-the-despoiler#abaddon-01",
+   "interaction:abaddon-the-despoiler#abaddon-02",
+   "interaction:abaddon-the-despoiler#abaddon-28"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Abaddon is the cascade engine: without him, hand-cast spells get no cascade and the exile-cast payoffs (Prosper, Nalfeshnee, Keeper of Secrets, Passionate Archaeologist) mostly go quiet. The Breach line works without him.",
+   "honest_note": "The threshold resets every turn and only counts life opponents actually lost this turn, so the engine is turn-local and five mana; the Breach combo is the faster kill and is commander-independent."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md",
+   "interaction:abaddon-the-despoiler#abaddon-01",
+   "interaction:abaddon-the-despoiler#abaddon-03",
+   "interaction:abaddon-the-despoiler#abaddon-14",
+   "interaction:abaddon-the-despoiler#abaddon-28"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "cascade-value-turn",
+   "kind": "natural",
+   "description": "A turn of chained cascades and exile casts (Prosper Treasures, Nalfeshnee copies, Keeper of Secrets/Lost and the Damned bodies) that overwhelms on cards and damage.",
+   "cards": [
+    "Abaddon the Despoiler",
+    "Prosper, Tome-Bound",
+    "Nalfeshnee",
+    "The Lost and the Damned",
+    "Keeper of Secrets"
+   ],
+   "enablers": [
+    "Boltwave",
+    "Flame Rift",
+    "Thermo-Alchemist"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md",
+    "interaction:abaddon-the-despoiler#abaddon-14",
+    "interaction:abaddon-the-despoiler#abaddon-24"
+   ]
+  },
+  {
+   "id": "amplified-burn",
+   "kind": "natural",
+   "description": "Solphim doubles damage and Bloodletter doubles the resulting life loss, so cheap burn becomes lethal table damage (Boltwave → 12 per opponent).",
+   "cards": [
+    "Solphim, Mayhem Dominus",
+    "Bloodletter of Aclazotz",
+    "Boltwave",
+    "Flame Rift",
+    "Delayed Blast Fireball"
+   ],
+   "enablers": [
+    "Kessig Flamebreather",
+    "Exalted Flamer of Tzeentch"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md",
+    "interaction:abaddon-the-despoiler#abaddon-10"
+   ]
+  },
+  {
+   "id": "breach-brain-freeze",
+   "kind": "combo",
+   "description": "Underworld Breach + Lion's Eye Diamond (or Lotus Petal) + Brain Freeze escape loop; milling alone doesn't win, a Wheel/Windfall finishes opponents.",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "enablers": [
+    "Wheel of Fortune",
+    "Windfall"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-20",
+    "interaction:abaddon-the-despoiler#abaddon-21",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "breach-wheel",
+   "kind": "combo",
+   "description": "Underworld Breach + Wheel of Fortune with Lion's Eye Diamond or Jeska's Will: repeated wheels deck the table.",
+   "cards": [
+    "Underworld Breach",
+    "Wheel of Fortune",
+    "Lion's Eye Diamond",
+    "Jeska's Will"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-22",
+    "spellbook:1368-2706-3518",
+    "spellbook:1368-1878-2706"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "life-loss-threshold",
+   "cards": [
+    "Thermo-Alchemist",
+    "Kessig Flamebreather",
+    "Exalted Flamer of Tzeentch",
+    "Loyal Subordinate",
+    "Noise Marine",
+    "Neheb, the Eternal"
+   ],
+   "online_condition": "At least one opponent has lost life this turn before the key spell is cast from hand; X is the total lost.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-01",
+    "interaction:abaddon-the-despoiler#abaddon-11",
+    "interaction:abaddon-the-despoiler#abaddon-12"
+   ]
+  },
+  {
+   "id": "exile-cast-payoffs",
+   "cards": [
+    "Prosper, Tome-Bound",
+    "Nalfeshnee",
+    "Wild-Magic Sorcerer",
+    "Passionate Archaeologist",
+    "The Lost and the Damned",
+    "Keeper of Secrets"
+   ],
+   "online_condition": "Cascade hits are cast from exile; copies do not trigger them.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-14",
+    "interaction:abaddon-the-despoiler#abaddon-16",
+    "interaction:abaddon-the-despoiler#abaddon-17"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:threshold-enablers",
+   "required": true,
+   "min_count": 8,
+   "role": "Cheap damage/drain to open the cascade threshold early in the turn.",
+   "cards": [
+    "Boltwave",
+    "Flame Rift",
+    "Thermo-Alchemist",
+    "Kessig Flamebreather",
+    "Exalted Flamer of Tzeentch",
+    "Loyal Subordinate",
+    "Noise Marine",
+    "Nightscape Familiar",
+    "Rakdos, Lord of Riots"
+   ],
+   "candidates": [
+    "Poxwalkers"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md"
+   ]
+  },
+  {
+   "id": "pkg:cascade-spells",
+   "required": true,
+   "min_count": 4,
+   "role": "Spells with printed cascade or cheap value that Abaddon's granted cascade stacks with.",
+   "cards": [
+    "Ancestral Vision",
+    "Profane Tutor",
+    "Inevitable Betrayal",
+    "Bituminous Blast",
+    "Call Forth the Tempest"
+   ],
+   "candidates": [
+    "Aurora Phoenix",
+    "Deny Reality"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md"
+   ]
+  },
+  {
+   "id": "pkg:exile-payoffs",
+   "required": true,
+   "min_count": 5,
+   "role": "Turn cascade/exile casts into cards, mana and bodies.",
+   "cards": [
+    "Prosper, Tome-Bound",
+    "Nalfeshnee",
+    "Wild-Magic Sorcerer",
+    "Passionate Archaeologist",
+    "The Lost and the Damned",
+    "Keeper of Secrets",
+    "The Ruinous Powers"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md",
+    "interaction:abaddon-the-despoiler#abaddon-14"
+   ]
+  },
+  {
+   "id": "pkg:breach-combo",
+   "required": false,
+   "min_count": 3,
+   "role": "Commander-independent compact kill.",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "candidates": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-20",
+    "interaction:abaddon-the-despoiler#abaddon-22"
+   ]
+  },
+  {
+   "id": "pkg:free-interaction",
+   "required": true,
+   "min_count": 5,
+   "role": "Protect the combo turn and the engine turn at no mana.",
+   "cards": [
+    "Force of Will",
+    "Force of Negation",
+    "Fierce Guardianship",
+    "Pact of Negation",
+    "Deflecting Swat",
+    "Flusterstorm",
+    "Swan Song",
+    "Pyroblast"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "threshold-timing",
+   "summary": "X counts life opponents lost this turn and is checked as the spell is cast; a spell's own damage can't give it cascade.",
+   "cards": [
+    "Abaddon the Despoiler"
+   ],
+   "m1_refs": [
+    "abaddon-01",
+    "abaddon-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-01",
+    "interaction:abaddon-the-despoiler#abaddon-03"
+   ]
+  },
+  {
+   "id": "hand-only",
+   "summary": "Only spells cast from hand on your turn get cascade; exile, graveyard and command-zone casts never do.",
+   "cards": [
+    "Abaddon the Despoiler",
+    "Underworld Breach"
+   ],
+   "m1_refs": [
+    "abaddon-02",
+    "abaddon-09"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-02",
+    "interaction:abaddon-the-despoiler#abaddon-09"
+   ]
+  },
+  {
+   "id": "zero-mv-randomizes",
+   "summary": "0-MV spells always qualify and their cascade randomizes the library, which can bury a tutored top card.",
+   "cards": [
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Chrome Mox",
+    "Pact of Negation",
+    "Vampiric Tutor",
+    "Mystical Tutor"
+   ],
+   "m1_refs": [
+    "abaddon-06",
+    "abaddon-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-06",
+    "interaction:abaddon-the-despoiler#abaddon-07"
+   ]
+  },
+  {
+   "id": "double-cascade",
+   "summary": "Granted cascade stacks with printed cascade (Bituminous Blast twice).",
+   "cards": [
+    "Bituminous Blast",
+    "Call Forth the Tempest"
+   ],
+   "m1_refs": [
+    "abaddon-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-08"
+   ]
+  },
+  {
+   "id": "solphim-bloodletter",
+   "summary": "Solphim doubles damage, Bloodletter doubles the resulting life loss.",
+   "cards": [
+    "Solphim, Mayhem Dominus",
+    "Bloodletter of Aclazotz"
+   ],
+   "m1_refs": [
+    "abaddon-10"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-10"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Underworld Breach",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Mystical Tutor",
+    "Gamble",
+    "Imperial Seal"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-20",
+    "interaction:abaddon-the-despoiler#abaddon-06"
+   ]
+  },
+  {
+   "target": "Lion's Eye Diamond",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Profane Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-20"
+   ]
+  },
+  {
+   "target": "Solphim, Mayhem Dominus",
+   "via": [
+    "Demonic Tutor",
+    "Profane Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-10"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Underworld Breach",
+   "Mind's Desire"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "interaction:abaddon-the-despoiler#abaddon-20",
+   "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Heavy free/cheap stack interaction (8 counters/pitch spells) to force through the engine or the Breach turn; light board removal.",
+   "protection": "Abaddon has no built-in protection; the free counters double as protection; recasting at 7+ mana is slow.",
+   "mana": "Fast mana and rituals (Mana Vault, Chrome Mox, Dark Ritual, Lotus Petal, Ancient Tomb) to cast a five-drop early and still hold up spells; 30+ lands-equivalent with rocks."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md",
+   "interaction:abaddon-the-despoiler#abaddon-26",
+   "interaction:abaddon-the-despoiler#abaddon-28"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "no-commander",
+   "description": "Abaddon is not on the battlefield, so nothing cascades.",
+   "mitigations": [
+    "Breach combo is commander-independent",
+    "Free counters protect him"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md"
+   ]
+  },
+  {
+   "id": "low-threshold",
+   "description": "Too little life loss this turn leaves high-MV spells without cascade.",
+   "mitigations": [
+    "Cheap pingers and drains before the main spell",
+    "Neheb converts life loss into mana"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md",
+    "interaction:abaddon-the-despoiler#abaddon-03"
+   ]
+  },
+  {
+   "id": "self-randomize",
+   "description": "A 0-MV cascade randomizes the library and can bottom a tutored card.",
+   "mitigations": [
+    "Sequence top-of-library tutors after 0-MV casts"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-07",
+    "interaction:abaddon-the-despoiler#abaddon-06"
+   ]
+  },
+  {
+   "id": "clunky-top-end",
+   "description": "Too many expensive cascade payoffs make hands slow and random.",
+   "mitigations": [
+    "Keep the payoff count near the current 7"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md",
+   "interaction:abaddon-the-despoiler#abaddon-28"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 — Optimized (provisional; compact combo can threaten higher)"
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md#L40"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4, high end: a cEDH-grade card pool (fast mana, free counters, Breach + LED) around a five-mana, turn-local engine. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md#L40",
+    "interaction:abaddon-the-despoiler#abaddon-20",
+    "interaction:abaddon-the-despoiler#abaddon-28",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Abaddon_the_Despoiler"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 21,
+     "2": 759,
+     "3": 547,
+     "4": 163,
+     "5": 35
+    },
+    "decks_with_bracket": 1525,
+    "share_b4_plus": 0.13,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__abaddon-the-despoiler.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Abaddon the Despoiler",
+   "why": "The commander is the cascade source; the deck has no other way to give hand-cast spells cascade.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Abaddon the Despoiler"
+   ]
+  },
+  {
+   "card": "Solphim, Mayhem Dominus",
+   "why": "Doubles every point of noncombat damage, which doubles the threshold and the burn finish.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-10"
+   ]
+  },
+  {
+   "card": "Prosper, Tome-Bound",
+   "why": "Turns every cascade hit into Treasure, paying for the next spell in the chain.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-14"
+   ]
+  },
+  {
+   "card": "Nalfeshnee",
+   "why": "Copies exile casts, adding a second cascade-hit resolution per hit.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-17"
+   ]
+  },
+  {
+   "card": "Thermo-Alchemist",
+   "why": "Repeatable cheap ping that opens the threshold every turn without spending a card.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:abaddon-the-despoiler#abaddon-11"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't turn the list into a generic Grixis turbo-Breach shell that ignores the cascade engine.",
+   "Don't add expensive cascade hits that brick (Blood for the Blood God! deferred by the source).",
+   "Don't label it cEDH just because it contains a cEDH-capable combo."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md#L40",
+   "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md#L51"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Warhammer 40,000 Chaos flavor (Tzeentch, Slaanesh, Khorne pieces) is welcome but not binding."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "low",
+  "evidence": [
+   "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.85c",
+   "note": "Multiple instances of cascade trigger separately (granted + printed).",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.85c"
+   ]
+  },
+  {
+   "rule": "CR 903.8",
+   "note": "Commander tax makes recasting a five-drop expensive; protect the first cast.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:903.8"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "cascade / cheap spells",
+    "opponents losing life"
+   ],
+   "hooked_cards": 15,
+   "role_counts": {
+    "counter": 7,
+    "draw": 7,
+    "protection": 1,
+    "ramp": 16,
+    "removal": 3,
+    "tutor": 6,
+    "wipe": 2
+   },
+   "lands": 34,
+   "edhrec_pages": [
+    "abaddon-the-despoiler"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Abaddon_the_Despoiler_v1.md",
+   "source_archive:refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt",
+   "source_archive:refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
+   "interaction:abaddon-the-despoiler#abaddon-28"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 50)"
+ }
+}
