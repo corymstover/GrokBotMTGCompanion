@@ -220,7 +220,7 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 3. ✅ Every citation is verbatim and machine-checked (Oracle, Scryfall rulings, CR, Spellbook steps, archived sources). One exception: the Gatherer 2026-07-29 ruling in tressret-07 is a URL quote. It is linked, but `--check` doesn't verify the quote.
 4. ✅ Bjorna's review covers Trade Secrets, Yawgmoth's Bargain and the Lutri companion.
 5. ✅ Machine-readable edges for M4: `data/grixis_interactions/edges/<slug>.json`, 62/62, valid against `interaction_edges.schema.json` (Bot cycle 58; rule `edges-v1`, see [Interaction reviews](interactions/README.md#edges-for-m4)). The 518 source rulings: 515 folded in, 3 dispositioned with reasons in `_attestation_dispositions.json`, 0 missing (checked).
-6. ⏳ Cory's acceptance (`program.milestones.M1`).
+6. ✅ **Accepted by Cory** (`program.milestones.M1: accepted`, corymstover, 2026-10-16T17:39Z, in-chat message t48u relayed by MTG Bot; recorded in Bot cycle 62). His scope, verbatim: "M1 interaction reviews are accepted as complete, and M3 evidence/testing tools are accepted as evidence-generating infrastructure within their documented model limitations; M3 results do not independently decide deck changes."
 
 ### M2
 **Commander blueprints v1.** 62 blueprints validate against `blueprint.schema.json`; each names identity core, anti-goals, packages with minimum counts, win conditions, failure modes, tutor targets and construction rules; each has a `grok_estimated_ceiling` with evidence and a `disagreement` flag where it differs from the source; Cory has reviewed the sample he chooses and marked them reviewed.
@@ -229,7 +229,7 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 1. ✅ 62 blueprints validate — 62/62.
 2. ✅ Every required section present (identity core ≥3, anti-goals, required packages with min counts, win conditions, failure modes ≥2, tutor targets, construction rules) — 62/62 complete.
 3. ✅ GrokBot ceiling estimate with evidence and a disagreement flag — 62/62 (0 disagreements; 6 decks have no source ceiling to compare: Admiral Beckett Brass, Admiral Brass, Anhelo, Ashad, Be'lakor, Bjorna + Cecily).
-4. ⏳ Cory's review of a sample he chooses (`status: cory_reviewed`, `provenance.reviewed_by`).
+4. ⏳ Cory's review of a sample he chooses (`status: cory_reviewed`, `provenance.reviewed_by`). *Bot cycle 62:* pending his review of 8 blueprints: Parnesse, Sol'kanar the Swamp King, Bjorna/Cecily, Thraximundar, Tresserhorn's Lord Returned, The Madcap Jester, Wick and Mairsil (`program.milestones.M2.pending_note`). No `cory_reviewed` is set.
 5. ⏳ Cory's acceptance (`program.milestones.M2`).
 
 ### M3
@@ -292,7 +292,8 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 8. ✅ *(57.5)* **Knowledge pages:** [EDH Lift and Synergy](../EDH%20Lift%20and%20Synergy.md) and [EDH Commander-First Deckbuilding](../EDH%20Commander-First%20Deckbuilding.md).
    - **Lift and Synergy:** EDHREC's own definitions (Dec 2025 math article, Oct 2026 changelog, dev interview), with worked examples and the identity check from the cache.
    - **Commander-First:** CR 903 quoted verbatim (6 quotes, verified by `lore-quotes`), Wizards' format page and the Oct 2025 / Feb 2026 bracket updates (cited URLs checked by `citations`), and the companion's pipeline as labelled guidance with a "can it decide?" table.
-9. ⏳ Cory's acceptance (`program.milestones.M3`).
+9. ✅ **Accepted by Cory** (`program.milestones.M3: accepted`, corymstover, 2026-10-16T17:39Z, message t48u, relayed; Bot cycle 62). His scope, verbatim: "M1 interaction reviews are accepted as complete, and M3 evidence/testing tools are accepted as evidence-generating infrastructure within their documented model limitations; M3 results do not independently decide deck changes."
+   - **Enforced:** `decision_support_ok()` refuses evidence whose only decision-class items are `test_result`s (simulator, paired tests, stress): "M3 results do not independently decide deck changes". A fact or strategic judgment is also needed. A decision-bearing swap still needs a `judgment_review` (`decision_review_problems()`, `swap_decision_problems()`), whose evidence passes the same rule. `milestone_problems()` fails an accepted M1 or M3 whose `scope_verbatim` is not this exact text.
 
 ### M4
 **Dependency graph and 99-slot audit.** A graph per deck (Spellbook, interaction edges, hooks, roles, blueprint packages) with structural necessity, breaks-if-removed and redundancy; an audit per deck where every slot is `complete` with blueprint, graph and alternative refs or explicitly `provisional`; no duplicated boilerplate reason beyond a lint threshold; baseline simulator metrics per deck.

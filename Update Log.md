@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 62 (M1 and M3 accepted by Cory)](#2026-10-16--bot-cycle-62-m1-and-m3-accepted-by-cory)
 - [2026-10-16 — Bot cycle 61 (M5 constraint fixes)](#2026-10-16--bot-cycle-61-m5-constraint-fixes)
 - [2026-10-16 — Bot cycle 60 (M5: candidate deep dive)](#2026-10-16--bot-cycle-60-m5-candidate-deep-dive)
 - [2026-10-16 — Bot cycle 59.2 (M4: 99-slot audit)](#2026-10-16--bot-cycle-592-m4-99-slot-audit)
@@ -82,6 +83,11 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 62 (M1 and M3 accepted by Cory)
+- **Accepted:** Cory accepted **M1** and **M3** in chat (2026-10-16T17:39Z, message t48u, relayed by MTG Bot). Both are recorded in `program.milestones` with `accepted_by: corymstover`, the date and time, the evidence and his scope verbatim: "M1 interaction reviews are accepted as complete, and M3 evidence/testing tools are accepted as evidence-generating infrastructure within their documented model limitations; M3 results do not independently decide deck changes."
+- **Scope enforced:** `decision_support_ok()` no longer lets M3 test results alone satisfy a decision, so a fact or strategic judgment is also needed. M6 decisions still need a `judgment_review`. `milestone_problems()` requires the verbatim scope on an accepted M1 or M3. `registry.schema.json` gains `scope_verbatim` and `pending_note`. New `tests/test_milestone_scope.py`.
+- **Not accepted:** M2, M4 and M5 are not accepted, no deck is approved and no `cory_reviewed` is set. M2 waits on Cory's review of 8 blueprints: Parnesse, Sol'kanar the Swamp King, Bjorna/Cecily, Thraximundar, Tresserhorn's Lord Returned, The Madcap Jester, Wick and Mairsil.
 
 ## 2026-10-16 — Bot cycle 61 (M5 constraint fixes)
 - **Constraint 3, no cap:** the 12-per-reason escalation cap is removed (`triage.escalation_cap: null`). Every card meeting a reason is escalated and reviewed: 20,774 escalated, 22,971 reviews.

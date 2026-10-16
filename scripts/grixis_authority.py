@@ -42,6 +42,12 @@ EVIDENCE_CLASSES = ("fact", "derived_metric", "heuristic", "hypothesis", "test_r
 CONFIDENCE = ("verified", "high", "moderate", "low", "test_required", "blocked")
 SOURCE_CONFIDENCE_MAP = {"VERIFIED": "verified", "HIGH_CONFIDENCE": "high", "PROVISIONAL": "moderate", "TEST_REQUIRED": "test_required", "BLOCKED": "blocked"}
 DECISION_CLASSES = {"fact", "test_result", "strategic_judgment", "approved_decision"}  # at least one needed to justify a decision
+# Bot cycle 62: Cory's M1/M3 acceptance scope (2026-10-16T17:39Z, verbatim). M3 tools generate evidence; their test
+# results never decide on their own: a decision also needs a non-test decision-class item and (M6) a judgment_review.
+MILESTONE_SCOPE_VERBATIM = ("M1 interaction reviews are accepted as complete, and M3 evidence/testing tools are accepted as "
+                            "evidence-generating infrastructure within their documented model limitations; M3 results do not "
+                            "independently decide deck changes.")
+NON_TEST_DECISION_CLASSES = DECISION_CLASSES - {"test_result"}
 
 
 def decision_support_ok(items):
@@ -55,6 +61,9 @@ def decision_support_ok(items):
         reasons.append(f"unknown class/confidence: {bad}")
     if not any(i.get("class") in DECISION_CLASSES for i in items):
         reasons.append("only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide")
+    elif not any(i.get("class") in NON_TEST_DECISION_CLASSES for i in items):
+        reasons.append("only M3 test results among the decision-class evidence: per Cory's M3 acceptance scope, M3 results "
+                       "do not independently decide deck changes (add a fact or strategic judgment, and a judgment_review)")
     blk = [i.get("id", "?") for i in items if i.get("confidence") in ("blocked", "test_required")]
     if blk:
         reasons.append(f"unresolved evidence (blocked / test_required): {blk}")
@@ -735,6 +744,8 @@ def milestone_problems(ms, approvers):
     for m, x in ms.items():
         if x["status"] == "accepted" and (x.get("accepted_by") not in approvers or not x.get("accepted_date") or not x.get("acceptance_evidence")):
             p.append(f"program.milestones.{m}: accepted needs accepted_by (a human approver), accepted_date and acceptance_evidence")
+        if m in ("M1", "M3") and x["status"] == "accepted" and x.get("scope_verbatim") != MILESTONE_SCOPE_VERBATIM:
+            p.append(f"program.milestones.{m}: accepted without Cory's verbatim scope (scope_verbatim)")
         if x["status"] != "accepted" and x.get("accepted_by"):
             p.append(f"program.milestones.{m}: accepted_by set but status is {x['status']}")
     return p

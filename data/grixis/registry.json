@@ -44,22 +44,31 @@
     "scope_note": "Milestone acceptance only (M0 authority foundation, PR #120). Approves no decks: every deck keeps its state; APPROVED / CANONICAL_LOCKED still need per-deck records in data/grixis/approvals.json."
    },
    "M1": {
-    "status": "in_progress",
-    "accepted_by": null,
-    "accepted_date": null,
-    "criteria_doc": "grixis/Grixis Authority Model.md#m1"
+    "status": "accepted",
+    "accepted_by": "corymstover",
+    "accepted_date": "2026-10-16",
+    "criteria_doc": "grixis/Grixis Authority Model.md#m1",
+    "accepted_at": "2026-10-16T17:39Z",
+    "acceptance_evidence": "In-chat acceptance by Cory on 2026-10-16 at 17:39 UTC (chat message t48u), relayed to the executor by MTG Bot; recorded in Bot cycle 62.",
+    "scope_verbatim": "M1 interaction reviews are accepted as complete, and M3 evidence/testing tools are accepted as evidence-generating infrastructure within their documented model limitations; M3 results do not independently decide deck changes.",
+    "scope_note": "Milestone acceptance only; approves no decks and sets no cory_reviewed. M1: the interaction reviews (rulings, edges) are complete."
    },
    "M2": {
     "status": "in_progress",
     "accepted_by": null,
     "accepted_date": null,
-    "criteria_doc": "grixis/Grixis Authority Model.md#m2"
+    "criteria_doc": "grixis/Grixis Authority Model.md#m2",
+    "pending_note": "Pending Cory's review of 8 blueprints: Parnesse, Sol'kanar the Swamp King, Bjorna/Cecily, Thraximundar, Tresserhorn's Lord Returned, The Madcap Jester, Wick, Mairsil (noted Bot cycle 62)."
    },
    "M3": {
-    "status": "in_progress",
-    "accepted_by": null,
-    "accepted_date": null,
-    "criteria_doc": "grixis/Grixis Authority Model.md#m3"
+    "status": "accepted",
+    "accepted_by": "corymstover",
+    "accepted_date": "2026-10-16",
+    "criteria_doc": "grixis/Grixis Authority Model.md#m3",
+    "accepted_at": "2026-10-16T17:39Z",
+    "acceptance_evidence": "In-chat acceptance by Cory on 2026-10-16 at 17:39 UTC (chat message t48u), relayed to the executor by MTG Bot; recorded in Bot cycle 62.",
+    "scope_verbatim": "M1 interaction reviews are accepted as complete, and M3 evidence/testing tools are accepted as evidence-generating infrastructure within their documented model limitations; M3 results do not independently decide deck changes.",
+    "scope_note": "Milestone acceptance only; approves no decks and sets no cory_reviewed. M3: evidence layer, simulator v1.1, paired tests and stress scenarios are evidence-generating infrastructure within their documented model limitations; their results never alone satisfy a decision (decision_support_ok needs a non-test decision-class item; M6 also needs a judgment_review)."
    },
    "M4": {
     "status": "in_progress",
