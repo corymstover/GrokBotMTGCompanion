@@ -5,7 +5,7 @@ tags: [grixis, decks, index]
 issues: [59, 60, 61]
 generated_by: scripts/build_grixis.py
 sources: [grixis-repo, scryfall, spellbook]
-related: ["EDH Standards.md", "grixis/Grixis Evaluation.md", "grixis/Grixis Packages.md", "EDH Deck Template.md", "grixis/Grixis Corrections.md", "grixis/Grixis Refinement Cycle.md"]
+related: ["grixis/Grixis Packages.md", "EDH Standards.md", "grixis/Grixis Evaluation.md", "EDH Deck Template.md", "grixis/Grixis Corrections.md", "grixis/Grixis Refinement Cycle.md"]
 schema: 2
 ---
 
@@ -15,11 +15,14 @@ schema: 2
 
 > **Bot cycle 16 import, refreshed in Bot cycle 37** (all 62 source lists are now APPROVED/LOCKED in the source). This section brings in the user's Grixis Commander work from [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) (commit `1836b97`, read-only): the user-approved, refined decklists, each with its commander-first blueprint, swap decisions and approval record quoted verbatim. Each list was re-validated against our card DB, corrected where needed, and given Game Changer counts, bracket floors and Commander Spellbook combos. Source analysis is **the source author's guidance**. Our facts come from Scryfall and Commander Spellbook. Built by `scripts/build_grixis.py`. Related: [EDH Standards](../EDH%20Standards.md) · [EDH Deck Template](../EDH%20Deck%20Template.md) · [EDH Deck Evaluation Checklist](../EDH%20Deck%20Evaluation%20Checklist.md) · [Grixis mana base](../EDH%20Mana%20Bases.md) · [data-derived Nekusar skeleton](../decks/nekusar-the-mindrazer.md)
 
+> 🏛️ **Authority layer (Bot cycle 47, M0):** every deck has **one canonical project list** and a state in the [authority registry](../data/grixis/registry.json). All 62 start at `SOURCE_BASELINE` (2 at `PENDING_RELEASE`); the source's approvals and our cycle 39–44 refinements are evidence and *GrokBot challengers (unapproved)*, not approvals. Nothing becomes APPROVED or CANONICAL_LOCKED without Cory's explicit sign-off. Model and rules: [Grixis Authority Model](Grixis%20Authority%20Model.md).
+
 > 🗄️ **Single source of truth (Bot cycle 45):** the companion now holds the **complete source repository** in [source-archive/](source-archive/README.md): every file at commit `1836b97`, byte-identical (SHA-256 manifest, checked by `validate_all`), plus a git bundle with all branches and history. The archive is inert data; generators read it instead of a separate clone. The original GitHub repo stays untouched.
 
 ## Contents
 - [Pages](#pages)
 - [Decks](#decks)
+- [Project exceptions](#project-exceptions)
 - [Pending legality](#pending-legality)
 - [What was left out](#what-was-left-out)
 
@@ -29,14 +32,15 @@ schema: 2
 |---|---|
 | [Grixis Integration Summary](Grixis%20Integration%20Summary.md) | What was integrated, what was generalized, and follow-ups |
 | [Grixis Mission](Grixis%20Mission.md) | Cory's commander-first mission and principles (Bot cycle 39) |
+| [Grixis Authority Model](Grixis%20Authority%20Model.md) | Bot cycle 47 (M0): authority hierarchy, deck states, evidence classes, legality vs project authorization, Cory's binding rules, milestone acceptance criteria |
+| [Grixis Authority Gap Analysis](Grixis%20Authority%20Gap%20Analysis.md) | The approved gap analysis of Cory's authority brief (24 sections) and the M0–M8 plan |
 | [Grixis Refinement Cycle](Grixis%20Refinement%20Cycle.md) | Commander-dependence and homogenization metrics for all 62 decks, batch log, per-deck swaps |
-| [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md) | Archidekt import file per deck (final list) and ALL-DECKS.txt |
-| [interactions/](interactions/README.md) | Phase 2 (Bot cycle 46+): card-level rules review per deck, with Oracle, Scryfall rulings, CR and (Bot cycle 48) cached Commander Spellbook step citations, flags and open questions; batch status (A–B done, 22/62) |
+| [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md) | Archidekt import files, each labeled: source baseline (canonical) or GrokBot challenger (unapproved); derived compliance projections; `index.json` manifest |
 | [source-archive/](source-archive/README.md) | Full byte-identical archive of the source repo (Bot cycle 45): area map, SHA-256 manifest, history bundle |
 | [Grixis Evaluation](Grixis%20Evaluation.md) | Check results for all 62 source lists, and how each current list was chosen |
 | [Grixis Corrections](Grixis%20Corrections.md) | All 135 corrections (deck, issue, fix), the Oracle-text check, source-repo structural findings |
-| [Grixis Packages](Grixis%20Packages.md) | Cross-deck package library (cards shared by 4 or more of the 60 lists, by role) and verified rules insights |
-| [decks/](decks/) | 62 deck pages: 60 validated (legal) + 2 ⏳ pending legality |
+| [Grixis Packages](Grixis%20Packages.md) | Cross-deck package library (cards shared by 4 or more of the 59 lists, by role) and verified rules insights |
+| [decks/](decks/) | 62 deck pages: 59 validated (legal) + 1 🚩 with project exceptions + 2 ⏳ pending legality |
 
 ## Decks
 
@@ -51,7 +55,6 @@ schema: 2
 | [Ashad, the Lone Cyberman](decks/ashad-the-lone-cyberman.md) | — | 3 | 3 | — | 1 / 0 | 30 | 3.41 | 3 |
 | [Ashnod the Uncaring](decks/ashnod-the-uncaring.md) | — | 6 | 4 | — | 15 / 0 | 33 | 2.21 | 2 |
 | [Be'lakor, the Dark Master](decks/belakor-the-dark-master.md) | — | 5 | 4 | — | 1 / 1 | 36 | 4.08 | 2 |
-| [Bjorna, Nightfall Alchemist + Cecily, Haunted Mage](decks/bjorna-nightfall-alchemist-cecily.md) | — | 10 | 4 | — | 3 / 2 | 33 | 3.26 | 5 |
 | [Cormela, Glamour Thief](decks/cormela-glamour-thief.md) | — | 20 | 4 | — | 23 / 2 | 30 | 1.84 | 2 |
 | [Crosis, the Purger](decks/crosis-the-purger.md) | — | 14 | 4 | 4 — Optimized | 1 / 0 | 36 | 2.29 | 2 |
 | [Cult of Skaro](decks/cult-of-skaro.md) | — | 3 | 3 | 4 — Optimized | 1 / 1 | 34 | 3.35 | 2 |
@@ -105,9 +108,17 @@ schema: 2
 | [Wick, the Whorled Mind](decks/wick-the-whorled-mind.md) | — | 5 | 4 | 4 — Optimized | 13 / 1 | 35 | 2.55 | 2 |
 | [Zevlor, Elturel Exile](decks/zevlor-elturel-exile.md) | — | 11 | 4 | 4 — natural ceiling | 1 / 1 | 34 | 2.74 | 2 |
 
+## Project exceptions
+
+1 deck(s) keep Cory-authorized project exceptions in their canonical project list. They are **not Commander-legal** and are not counted among the 59 legal decks above or in [Grixis Packages](Grixis%20Packages.md). Registry: `data/grixis/exceptions.json`; officially legal version: the deck page's derived compliance projection (not canonical).
+
+| Deck | Exceptions (not Commander-legal) | GC | Floor | Source bracket | Lands |
+|---|---|---|---|---|---|
+| 🚩 [Bjorna, Nightfall Alchemist + Cecily, Haunted Mage](decks/bjorna-nightfall-alchemist-cecily.md) | Lutri, the Spellchaser (banned as companion); Trade Secrets (banned); Yawgmoth's Bargain (banned) | 10 | 4 | — | 33 |
+
 ## Pending legality
 
-2 deck page(s) are published with `legality_status: pending`. They are **not counted** among the 60 legal decks above or in [Grixis Packages](Grixis%20Packages.md). Each lists the cards that are not Commander-legal yet. Activation: `python3 scripts/activate_pending_grixis.py` (Bot cycle 38).
+2 deck page(s) are published with `legality_status: pending`. They are **not counted** among the 59 legal decks above or in [Grixis Packages](Grixis%20Packages.md). Each lists the cards that are not Commander-legal yet. Activation: `python3 scripts/activate_pending_grixis.py` (Bot cycle 38).
 
 | Deck | Not yet legal | Legal from | GC | Floor | Source bracket | Lands |
 |---|---|---|---|---|---|---|

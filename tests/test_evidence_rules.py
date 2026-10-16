@@ -80,3 +80,9 @@ def test_v2_never_cuts_a_project_exception():
     d = load("data/grixis_refine_v2.json")["decks"]["Cecily__Bjorna__Lutri"]
     cut = {r["cut"] for r in d["recommendations"]} | {s["card"] for s in d["weakest_slots"]}
     assert not cut & {"Trade Secrets", "Yawgmoth's Bargain", "Lutri, the Spellchaser"}
+
+
+def test_interaction_evidence_classes_match_the_authority_model():
+    """M1 interaction records (Bot cycle 48 evidence_class) must use the same seven classes."""
+    import grixis_interactions as gi
+    assert set(gi.EVIDENCE) == set(ga.EVIDENCE_CLASSES)
