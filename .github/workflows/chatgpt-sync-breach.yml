@@ -1,0 +1,46 @@
+name: Temporary breach mechanics artifact sync
+
+on:
+  push:
+    branches: [chatgpt-cycle66-11-breach]
+
+permissions:
+  contents: write
+
+jobs:
+  sync-generated-mechanics:
+    if: ${{ !contains(github.event.head_commit.message, 'sync generated breach mechanics artifacts') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SCRYFALL_OFFLINE: "1"
+    steps:
+      - name: Check out working branch
+        uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle66-11-breach
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install build dependencies
+        run: python -m pip install --disable-pip-version-check jsonschema
+
+      - name: Rebuild mechanics registry, coverage and examples
+        run: python scripts/grixis_mechanics.py --build
+
+      - name: Commit generated artifacts if changed
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/mechanics/modules.json data/grixis/mechanics/coverage_legacy_m5.json data/grixis/mechanics/examples.json
+          if git diff --cached --quiet; then
+            echo "Generated mechanics artifacts already current."
+          else
+            git commit -m "ChatGPT: sync generated breach mechanics artifacts"
+            git push origin HEAD:chatgpt-cycle66-11-breach
+          fi
