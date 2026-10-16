@@ -1,0 +1,22 @@
+{
+ "schema_version": 1,
+ "kind": "dev_snapshot_lock",
+ "snapshot": "snap-20261016",
+ "decision": "Cory D6: snap-20261016 is the frozen development snapshot during steps A-F; a fresh Birthday snapshot is taken before M5 acceptance",
+ "recorded": "Bot cycle 66.3b (2026-10-16), after two unintended cache refreshes (Bot cycle 66.3 / 66.2a)",
+ "files": {
+  "oracle-cards": "oracle-cards-20261016090200.jsonl.gz",
+  "rulings": "rulings-20261015090033.jsonl.gz",
+  "default-cards": "default-cards-20261015090541.jsonl.gz"
+ },
+ "sha256": {
+  "oracle-cards": "sha256:ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483",
+  "rulings": "sha256:3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a",
+  "default-cards": "sha256:f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8"
+ },
+ "enforced_by": [
+  "scripts/ingest_scryfall.py get_bulk: while this file exists, no bulk is fetched, replaced or added; every bulk read resolves to the locked file (a missing locked file is an error, never a download)",
+  "scripts/check_dev_snapshot_lock.py (validate_all step dev-snapshot-lock): the cache's newest bulk of each locked kind must be the locked file with the locked sha256"
+ ],
+ "override": "SCRYFALL_BIRTHDAY_SNAPSHOT=1 or scripts/ingest_scryfall.py --birthday-snapshot; reserved for the Birthday snapshot step, which then replaces this lock in the same commit"
+}

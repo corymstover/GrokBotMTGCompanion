@@ -43,6 +43,7 @@ Steps (run in this order; each prints its own summary):
                     candidate/swap/test records, escalations get full review, swaps exploratory and unregistered, exact rebuild)
   7o spellbook-near  scripts/grixis_spellbook_almost.py  Bot cycle 60.1 (M5): Spellbook near-miss snapshot sanity
   7p tournament     scripts/grixis_tournament.py --check  Bot cycle 60.3 (M5): tournament evidence only and always for cEDH-ceiling decks
+  0  dev-snapshot-lock scripts/check_dev_snapshot_lock.py  Bot cycle 66.3b: the cache's active bulk is the locked dev snapshot (data/grixis/dev_snapshot_lock.json)
   7s mechanics       scripts/grixis_mechanics.py --check  Bot cycle 66.1 (step E): mechanic module registry (schema, no win-rate metrics)
   7r saturation      scripts/grixis_saturation.py --check  Bot cycle 65.1 (step A): saturation certificates (schema, universe hash, deterministic re-run)
   7q benchmark       scripts/grixis_benchmark.py --check   Bot cycle 64.1 (G0): sealed benchmark corpus (schema, hashes, no leaks, sources exist)
@@ -181,7 +182,8 @@ def main(argv):
     if not online:
         env["SCRYFALL_OFFLINE"] = "1"
         os.environ["SCRYFALL_OFFLINE"] = "1"
-    steps = [("links", ["scripts/check_links.py", "--all"]), ("schema", ["scripts/front_matter.py", "--check"]),
+    steps = [("dev-snapshot-lock", ["scripts/check_dev_snapshot_lock.py"]),  # Bot cycle 66.3b: cache == frozen dev snapshot (Cory D6)
+             ("links", ["scripts/check_links.py", "--all"]), ("schema", ["scripts/front_matter.py", "--check"]),
              ("index", ["scripts/kb_find.py", "--check"]), ("crossrefs", ["scripts/build_crossrefs.py", "--check"]),
              ("calibration", ["scripts/deck_calibration.py", "--check"]),
              ("lore", ["scripts/build_lore_decks.py", "--check"]),  # Bot cycle 23: kind: lore decks must be >= 85% story-linked
