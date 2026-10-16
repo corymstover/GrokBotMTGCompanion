@@ -217,6 +217,7 @@ Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
 | Date | Cycle | Change | Cards added | Cards removed |
 |---|---|---|---|---|
 | 2026-10-16 | Bot cycle 39 (batch 1) | reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged | — | — |
+| 2026-10-16 | Bot cycle 40 (batch 1 re-check) | power-guard re-check: re-checked: no change | — | — |
 <!-- REFINED:END -->
 
 ## Card breakdown

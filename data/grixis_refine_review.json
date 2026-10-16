@@ -1,0 +1,7 @@
+{
+ "_doc": "Bot cycle 40: manual review of every guard-passing swap (verdict accept/reject + why) and of high-overlap deck pairs. Read by scripts/grixis_refine.py; guidance, written from Oracle text and the cited EDHREC numbers.",
+ "swaps": {
+  "Abaddon_the_Despoiler|Mystic Remora|Stormfist Crusader": {"verdict": "accept", "why": "Abaddon's cascade X is the life opponents lost this turn. Stormfist's upkeep trigger makes each opponent lose 1 before your first main phase, so from that turn on every hand spell up to MV 3 cascades without needing another damage source; it also draws for you every upkeep. Remora draws only off opponents' noncreature spells and never turns on Abaddon. Abaddon decks play Stormfist 48.0% vs Remora 12.6%; rank 2,011 is within the guard."}
+ },
+ "overlap": {}
+}

@@ -14,11 +14,11 @@
 1 Brainstorm
 1 Cabal Ritual
 1 Call Forth the Tempest
-1 Chandra, Torch of Defiance
 1 Chrome Mox
 1 City of Brass
 1 Command Tower
 1 Dark Ritual
+1 Deadly Rollick
 1 Deflecting Swat
 1 Delayed Blast Fireball
 1 Demonic Tutor

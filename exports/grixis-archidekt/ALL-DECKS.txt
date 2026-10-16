@@ -15,11 +15,11 @@
 1 Brainstorm
 1 Cabal Ritual
 1 Call Forth the Tempest
-1 Chandra, Torch of Defiance
 1 Chrome Mox
 1 City of Brass
 1 Command Tower
 1 Dark Ritual
+1 Deadly Rollick
 1 Deflecting Swat
 1 Delayed Blast Fireball
 1 Demonic Tutor
@@ -193,7 +193,7 @@
 1 Zara, Renegade Recruiter
 1 Zephyr Singer
 
-===== 03/62 — Admiral Brass, Unsinkable — refined =====
+===== 03/62 — Admiral Brass, Unsinkable — unchanged (at/near ceiling) =====
 1 Admiral Brass, Unsinkable [Commander]
 1 Admiral Beckett Brass
 1 Amphin Mutineer
@@ -220,6 +220,7 @@
 1 Counterspell
 1 Crumbling Necropolis
 1 Cyclonic Rift
+1 Deadly Rollick
 1 Deflecting Swat
 1 Demonic Tutor
 1 Dimir Signet
@@ -241,7 +242,6 @@
 1 Izzet Signet
 1 Jeska's Will
 1 Kindred Discovery
-1 Lethal Scheme
 1 Lightning Greaves
 1 Living Death
 1 Luxury Suite
@@ -881,7 +881,7 @@
 1 Wishclaw Talisman
 1 Wooded Foothills
 
-===== 10/62 — Crosis, the Purger — refined =====
+===== 10/62 — Crosis, the Purger — unchanged (at/near ceiling) =====
 1 Crosis, the Purger [Commander]
 1 Ancient Tomb
 1 Arcane Signet
@@ -902,6 +902,7 @@
 1 Damnation
 1 Dark Deal
 1 Dark Ritual
+1 Deflecting Swat
 1 Demonic Tutor
 1 Dimir Signet
 1 Dream Salvage
@@ -939,8 +940,8 @@
 1 Painter's Servant
 1 Plaza of Heroes
 1 Polluted Delta
-1 Quest for the Nihil Stone
 1 Rakdos Signet
+1 Reanimate
 1 Recoil
 1 Scalding Tarn
 1 Sedraxis Specter
@@ -971,7 +972,6 @@
 1 Waste Not
 1 Watery Grave
 1 Wheel of Fortune
-1 Whispersilk Cloak
 1 Windfall
 1 Xander's Lounge
 

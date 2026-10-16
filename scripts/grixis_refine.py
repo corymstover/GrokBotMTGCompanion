@@ -69,11 +69,43 @@ HOOKS = [
     ("tokens", r"create [^.]*tokens?", r"tokens?|\bpopulate\b"),
     ("+1/+1 counters", r"\+1/\+1 counters?", r"\+1/\+1 counters?|\bproliferate\b"),
     ("Treasure", r"\bTreasure\b", r"\bTreasure\b"),
-    ("enters triggers", r"whenever (another|a|one or more) [^.]* enters", r"\bflicker|exile [^.]*, then return|return [^.]* to the battlefield|enters[^.]* an additional time"),
+    ("playing cards from exile", r"play (a card|cards|lands and cast spells) from exile|cast [^.]* from exile|exile the top card of each player's library",
+     r"from exile|exile the top|collection counter|cast [^.]* exiled|you may play (that card|it|them|those cards)"),
+    ("flash", r"^Flash$", r"\bflash\b"),
+    ("enters triggers", r"whenever (another|a|one or more|[^.]* or another) [^.]* enters", r"\bflicker|exile [^.]*, then return|return [^.]* to the battlefield|enters[^.]* an additional time"),
     ("casualty / power 2 or greater", r"\bcasualty\b|power 2 or greater", r"\bcasualty\b|creates? [^.]*\d/\d"),
     ("connive / looting", r"\bconniv", r"\bconniv|draw a card, then discard|discard a card, then draw"),
 ]
 CTYPES = None
+REVIEW = ROOT / "data" / "grixis_refine_review.json"
+FREE = re.compile(r"(cast|play) this spell without paying its mana cost|rather than pay this spell's mana cost|rather than pay its mana cost", re.I)
+RANK_X, RANK_PLUS = 4, 2000
+
+
+def guard(k, c, ctx):
+    """Bot cycle 40 power guard: (ok, [reasons]). The add must not be a clear power downgrade of the cut."""
+    why, bad = [], []
+    ks, cs = ctx.syn.get(k["name"]), ctx.syn.get(c["name"])
+    if ks and cs and cs[1] < ks[1]:
+        bad.append(f"commander-page inclusion {cs[1]}% < cut's {ks[1]}% (this commander's players keep the cut more often)")
+    else:
+        why.append(f"commander-page inclusion {cs[1] if cs else '?'}% vs cut {str(ks[1]) + '%' if ks else 'not listed'}")
+    rk, rc = k.get("edhrec_rank"), c.get("edhrec_rank")
+    if rk and (not rc or rc > max(RANK_X * rk, rk + RANK_PLUS)):
+        bad.append(f"overall EDHREC rank {rc or 'none'} vs cut {rk} (more than {RANK_X}x / +{RANK_PLUS} worse)")
+    else:
+        why.append(f"overall EDHREC rank {rc} vs {rk}")
+    if FREE.search(otext(k)) and not FREE.search(otext(c)):
+        bad.append("the cut can be cast for free; the add cannot (tempo downgrade)")
+    return (not bad), (bad or why)
+
+
+def load_review():
+    return json.loads(REVIEW.read_text(encoding="utf-8")) if REVIEW.exists() else {"_doc": "", "swaps": {}, "overlap": {}}
+
+
+def rkey(did, cut, add):
+    return f"{did}|{cut}|{add}"
 
 
 def ctypes():
@@ -292,9 +324,10 @@ def plan(dids, batch, R, summ, plans, cycle):
             if not h:
                 continue
             adds.append((c, s, h))
-        swaps, used = [], set()
+        swaps, used, rejected, needs = [], set(), [], []
+        rv = load_review()["swaps"]
         for c, s, h in adds:
-            if len(swaps) >= MAX_SWAPS:
+            if len(swaps) + len(needs) >= MAX_SWAPS:
                 break
             for k in cuts:
                 if k["name"] in used:
@@ -302,9 +335,17 @@ def plan(dids, batch, R, summ, plans, cycle):
                 rk = roles(k)
                 cap = k.get("cmc", 0) if rk & INTERACTION else k.get("cmc", 0) + 1  # interaction: never slower
                 if rk <= roles(c) and c.get("cmc", 0) <= cap:
+                    ok, reasons = guard(k, c, ctx)
+                    r = rv.get(rkey(did, k["name"], c["name"]))
+                    if not ok or (r and r["verdict"] == "reject"):
+                        if len(rejected) < 8:
+                            rejected.append({"cut": k["name"], "add": c["name"], "by": "power guard" if not ok else "manual review",
+                                             "why": "; ".join(reasons) if not ok else r["why"]})
+                        continue
                     used.add(k["name"])
                     ks = ctx.syn.get(k["name"])
-                    swaps.append({"cut": k["name"], "add": c["name"], "cycle": cycle,
+                    (swaps if r else needs).append({"cut": k["name"], "add": c["name"], "cycle": cycle, "guard": reasons,
+                                  "review": r["why"] if r else None,
                                   "roles": sorted(roles(k)) or ["(no key role)"], "add_roles": sorted(roles(c)),
                                   "hook": h, "add_edhrec": list(s), "cut_edhrec": list(ks) if ks else None,
                                   "cut_freq": freq[k["name"]], "mv": [k.get("cmc", 0), c.get("cmc", 0)]})
@@ -321,7 +362,13 @@ def plan(dids, batch, R, summ, plans, cycle):
                 break
             swaps.pop()
         entry["swaps"] = swaps
+        entry["rejected"] = rejected
+        entry["needs_review"] = needs
+        for w in needs:
+            print(f"  NEEDS REVIEW {rkey(did, w['cut'], w['add'])}: {w['hook']['label']} · {'; '.join(w['guard'])} · add syn {w['add_edhrec']} cut syn {w['cut_edhrec']}", flush=True)
         entry["decision"] = (f"refined: {len(swaps)} swap(s)" if swaps else
+                             f"awaiting manual review of {len(needs)} candidate swap(s)" if needs else
+                             f"at/near ceiling: all {len(rejected)} role-compatible candidate swap(s) failed the power guard or manual review; unchanged" if rejected else
                              "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged")
         plans["decks"][did] = entry
         print(f"  plan {did}: {entry['decision']}", flush=True)
@@ -400,13 +447,13 @@ def block(did, v, info, m, plans):
     if info["pending"]:
         L.append(f"- ⏳ **Pending legality:** {', '.join(info['pending'])} are not Commander-legal before {plans_pending_date(did)}; the export is marked pending.")
     if e["swaps"]:
-        L += ["", "| Cut | Add | Role kept | Why (commander-specific) |", "|---|---|---|---|"]
+        L += ["", "| Cut | Add | Role kept | Why (commander-specific) | Power guard + review (Bot cycle 40) |", "|---|---|---|---|---|"]
         for w in e["swaps"]:
             h = w["hook"]
             why = (f"**{h['label']}**: {h['commander']} reads \"{q(h['commander_text'])}\"; {w['add']} reads \"{q(h['card_text'])}\". "
                    f"EDHREC: {fmt_syn(w['add_edhrec'])}. Cut: no Oracle hook to the commander, EDHREC {fmt_syn(w['cut_edhrec'])}, "
                    f"in {w['cut_freq']}/62 Grixis lists (generic). MV {w['mv'][0]:g} → {w['mv'][1]:g}.")
-            L.append(f"| {w['cut']} | **{w['add']}** | {', '.join(w['roles'])} | {why} |")
+            L.append(f"| {w['cut']} | **{w['add']}** | {', '.join(w['roles'])} | {why} | {q('; '.join(w.get('guard') or ['(cycle 39 swap, not re-checked)']))}. **Review:** {q(w.get('review') or '—')} |")
         res, sb = info["res"], info.get("sb")
         two = sum(1 for co in sb["combos"] if co["infinite"] and len(co["cards"]) == 2) if sb else 0
         fl, gcs, mld = ev.bracket_floor(res["cards"], two)
@@ -415,6 +462,8 @@ def block(did, v, info, m, plans):
               f"Game Changers {v['gcs'].__len__()} → {len(gcs)} · floor Bracket {v['floor']} → **{fl}** (target {target_of(v)}) · "
               f"Commander Spellbook: {len(sb["combos"]) if sb else "?"} combo(s) ({two} two-card infinite), every source combo kept (queried {sb['queried'] if sb else '?'}).",
               "", "```text", info["fin_text"].strip(), "```"]
+    if e.get("rejected"):
+        L += ["", "**Considered and rejected:** " + " · ".join(f"−{x['cut']} +{x['add']} ({x['by']}: {q(x['why'])})" for x in e["rejected"])]
     L += ["", "### Refinement log", "", "| Date | Cycle | Change | Cards added | Cards removed |", "|---|---|---|---|---|"]
     for x in plans["log"].get(did, []):
         L.append(f"| {x['date']} | Bot cycle {x['cycle']} (batch {x['batch']}) | {x['change']} | {', '.join(x['added']) or '—'} | {', '.join(x['removed']) or '—'} |")
@@ -454,7 +503,8 @@ def summary_page(summ, info, metrics, top, plans):
          "EDHREC synergy (community data, cached) and Commander Spellbook. Metrics are facts about the lists; swaps are guidance. "
          "Source lists stay on each deck page, credited to Cory's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT). "
          "Archidekt exports: [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md).", "",
-         "## Contents", "- [Status](#status)", "- [Batch log](#batch-log)", "- [All decks: metrics](#all-decks-metrics)", "- [Homogenization](#homogenization)", "- [Method](#method)", "",
+         f"Grixis source commit used: `{plans.get('source', {}).get('commit', '?')}` ({plans.get('source', {}).get('note', '')}).", "",
+         "## Contents", "- [Status](#status)", "- [Batch log](#batch-log)", "- [Overlap review (manual)](#overlap-review-manual)", "- [All decks: metrics](#all-decks-metrics)", "- [Homogenization](#homogenization)", "- [Method](#method)", "",
          "## Status", "",
          f"- **Reviewed: {len(done)}/62** decks ({sum(1 for d in done if plans['decks'][d]['swaps'])} refined, {sum(1 for d in done if not plans['decks'][d]['swaps'])} at/near ceiling and unchanged). "
          f"{sum(1 for d in summ if info[d]['pending'])} decks are ⏳ pending legality (measured; exports marked pending).",
@@ -473,6 +523,10 @@ def summary_page(summ, info, metrics, top, plans):
             L.append(f"- [{nm}](decks/{v['slug']}.md#refined-list-bot-cycle-39): {e['decision']}. Dependence {m['source']['dependence']:.0%} → {m['final']['dependence']:.0%}." +
                      ("".join(f" Cut **{w['cut']}** → add **{w['add']}** ({w['hook']['label']})." for w in e["swaps"])))
         L.append("")
+    ov = load_review().get("overlap", {})
+    L += ["## Overlap review (manual)", "", "High-overlap pairs judged by hand (Bot cycle 40): is the shared core explained by both commanders' Oracle text, or is it homogenization? Guidance.", ""]
+    for k, x in ov.items():
+        L += [f"### {k}", "", f"- **Shared nonland cards:** {x['shared']}.", f"- **Verdict:** {x['verdict']}", f"- **Proposed identity-driven changes:** {x['proposals']}", ""]
     L += ["## All decks: metrics", "",
           "| Deck | Status | Dependence | Generic share | Mean overlap | Closest list | Thoracle core | Control core | Hooks |", "|---|---|---|---|---|---|---|---|---|"]
     for d, v in sorted(summ.items(), key=lambda kv: metrics[kv[0]]["final"]["dependence"]):
@@ -491,6 +545,7 @@ def summary_page(summ, info, metrics, top, plans):
           f"- **Cuts:** only generic cards (≥ {GENERIC_MIN} lists) with no Oracle hook and EDHREC synergy < {CUT_SYN}%. Never a Game Changer, a piece of a Commander Spellbook combo in the list, or a mana source of MV ≤ 2 (speed serves every commander at its ceiling).",
           f"- **Adds:** EDHREC synergy ≥ {ADD_SYN}% and inclusion ≥ {ADD_INC}% on the commander's page, **and** an Oracle hook to the commander; Commander-legal, inside the color identity, no new Game Changer unless the list already has 4+ and targets Bracket 4+, no mass land denial, no extra-turn card unless the list already plays one.",
           f"- **Pairing:** each add replaces a cut whose key roles ({', '.join(KEY_ROLES)}; Oracle patterns) it covers, at MV at most 1 higher; interaction (removal, wipes, counterspells, protection) is only replaced by interaction at equal or lower MV. At most {MAX_SWAPS} swaps per deck per batch.",
+          f"- **Power guard (Bot cycle 40):** an add must not be a clear power downgrade of its cut: commander-page inclusion at least the cut's (this commander's players choose it at least as often), overall EDHREC rank no worse than {RANK_X}× the cut's or +{RANK_PLUS}, and no free spell (pitch/commander-free) replaced by a non-free one. Every guard-passing swap needs a written manual review (`data/grixis_refine_review.json`) saying why the add does more in *this* deck; unreviewed swaps are not applied and fail `validate_all`.",
           "- **Verification:** the refined list must pass `evaluate_decklist.check` (100 cards, singleton, color identity, Commander-legal), keep every Commander Spellbook combo of the source list (re-queried), and not raise the bracket floor above the source floor or target. A failing swap is dropped.",
           "- **Frozen decisions:** each batch's swaps are stored in `data/grixis_refine_batches.json`; `validate_all` re-verifies them on every run.",
           "- **Limits:** EDHREC synergy measures how often decks of *this* commander play a card versus all decks of its colors: community data, not a quality judgment. The heuristic cannot see multi-card lines the Oracle patterns miss; at-ceiling decks are candidates for a hand review."]
@@ -539,12 +594,33 @@ def main():
     PEND_DATES.update({k: x["legal_from"] for k, x in reg.items()})
     plans = json.loads(PLANS.read_text(encoding="utf-8")) if PLANS.exists() else {"_doc": "Frozen Grixis refinement plans (scripts/grixis_refine.py).", "batches": {}, "decks": {}, "log": {}, "spellbook": {}}
     if a.plan:
+        import subprocess
+        src = ROOT.parent / "grixis-src"
+        if src.exists():
+            sha = subprocess.run(["git", "-C", str(src), "rev-parse", "--short", "HEAD"], capture_output=True, text=True).stdout.strip()
+            prev = plans.get("source", {}).get("commit")
+            plans["source"] = {"commit": sha, "checked": dt.date.today().isoformat(),
+                               "note": f"`git pull` on {dt.date.today().isoformat()}: " + ("no upstream changes since the Bot cycle 37 re-analysis" if sha == "1836b97" else f"moved from {prev}")}
         dids = [d.strip() for d in a.decks.split(",") if d.strip()]
         assert all(d in summ for d in dids), [d for d in dids if d not in summ]
+        old = {d: plans["decks"].get(d, {}) for d in dids}
         plan(dids, a.plan, R, summ, plans, a.cycle)
-        plans["batches"][str(a.plan)] = {"cycle": a.cycle, "date": dt.date.today().isoformat(), "decks": dids}
+        b = plans["batches"].get(str(a.plan), {})
+        plans["batches"][str(a.plan)] = {"cycle": b.get("cycle", a.cycle), "date": b.get("date", dt.date.today().isoformat()), "decks": dids,
+                                         **({"rechecked": {"cycle": a.cycle, "date": dt.date.today().isoformat()}} if b and b.get("cycle") != a.cycle else {})}
         for d in dids:
             e = plans["decks"][d]
+            prev = [x for x in plans["log"].get(d, []) if x["cycle"] != a.cycle]
+            if prev:  # re-check of an earlier batch: log the difference against the previous final list
+                was = {(w["cut"], w["add"]) for w in old.get(d, {}).get("swaps", [])}
+                now = {(w["cut"], w["add"]) for w in e["swaps"]}
+                gone, new = sorted(was - now), sorted(now - was)
+                rej = {(x["cut"], x["add"]): x for x in e.get("rejected", [])}
+                txt = "; ".join([f"reverted −{c} +{ad} ({rej[(c, ad)]['by']}: {rej[(c, ad)]['why']})" if (c, ad) in rej else f"reverted −{c} +{ad}" for c, ad in gone] +
+                                [f"new −{c} +{ad}" for c, ad in new]) or "re-checked: no change"
+                plans["log"][d] = prev + [{"date": e["date"], "cycle": a.cycle, "batch": f"{a.plan} re-check", "change": f"power-guard re-check: {txt}",
+                                           "added": [c for c, _ in gone] + [ad for _, ad in new], "removed": [ad for _, ad in gone] + [c for c, _ in new]}]
+                continue
             plans["log"][d] = [x for x in plans["log"].get(d, []) if x["batch"] != a.plan] + [{
                 "date": e["date"], "cycle": a.cycle, "batch": a.plan,
                 "change": (f"{len(e['swaps'])} commander-first swap(s): " + "; ".join(f"{w['hook']['label']}" for w in e["swaps"])) if e["swaps"] else "reviewed: " + e["decision"],
@@ -581,6 +657,9 @@ def main():
                 problems.append(f"exports/grixis-archidekt/{v['slug']}.txt differs from the deck page's final list")
             if hard(ev.check(ep.read_text(encoding="utf-8"), R), info[did]["pending"]):
                 problems.append(f"exports/grixis-archidekt/{v['slug']}.txt fails the hard checks")
+        for d in summ:
+            for w in (plans["decks"].get(d) or {}).get("needs_review", []):
+                problems.append(f"{d}: swap −{w['cut']} +{w['add']} has no manual review in data/grixis_refine_review.json")
         n_ref = sum(1 for d in summ if info[d]["plan"])
         print(f"grixis refine: {n_ref}/62 reviewed, {len(summ)} exports; {len(problems)} problem(s)")
         for x in problems:

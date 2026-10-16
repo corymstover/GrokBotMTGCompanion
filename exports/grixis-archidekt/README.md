@@ -4,16 +4,16 @@
 
 | # | File | Commander(s) | Status | Changes vs previous version |
 |---|---|---|---|---|
-| 1 | [abaddon-the-despoiler.txt](abaddon-the-despoiler.txt) | Abaddon the Despoiler | refined | −Mystic Remora +Stormfist Crusader (opponents losing life); −Deadly Rollick +Chandra, Torch of Defiance (opponents losing life) |
+| 1 | [abaddon-the-despoiler.txt](abaddon-the-despoiler.txt) | Abaddon the Despoiler | refined | −Mystic Remora +Stormfist Crusader (opponents losing life) |
 | 2 | [admiral-beckett-brass.txt](admiral-beckett-brass.txt) | Admiral Beckett Brass | unchanged (at/near ceiling) | none |
-| 3 | [admiral-brass-unsinkable.txt](admiral-brass-unsinkable.txt) | Admiral Brass, Unsinkable | refined | −Deadly Rollick +Lethal Scheme (graveyard as a resource) |
+| 3 | [admiral-brass-unsinkable.txt](admiral-brass-unsinkable.txt) | Admiral Brass, Unsinkable | unchanged (at/near ceiling) | none |
 | 4 | [anhelo-the-painter.txt](anhelo-the-painter.txt) | Anhelo, the Painter | unchanged (at/near ceiling) | none |
 | 5 | [ashad-the-lone-cyberman.txt](ashad-the-lone-cyberman.txt) | Ashad, the Lone Cyberman | unchanged (at/near ceiling) | none |
 | 6 | [ashnod-the-uncaring.txt](ashnod-the-uncaring.txt) | Ashnod the Uncaring | unchanged (at/near ceiling) | none |
 | 7 | [belakor-the-dark-master.txt](belakor-the-dark-master.txt) | Be'lakor, the Dark Master | unchanged (at/near ceiling) | none |
 | 8 | [bjorna-nightfall-alchemist-cecily.txt](bjorna-nightfall-alchemist-cecily.txt) | Bjorna, Nightfall Alchemist + Cecily, Haunted Mage | unchanged (at/near ceiling) | none |
 | 9 | [cormela-glamour-thief.txt](cormela-glamour-thief.txt) | Cormela, Glamour Thief | unchanged (at/near ceiling) | none |
-| 10 | [crosis-the-purger.txt](crosis-the-purger.txt) | Crosis, the Purger | refined | −Deflecting Swat +Whispersilk Cloak (combat damage / attack triggers); −Reanimate +Quest for the Nihil Stone (discard) |
+| 10 | [crosis-the-purger.txt](crosis-the-purger.txt) | Crosis, the Purger | unchanged (at/near ceiling) | none |
 | 11 | [cult-of-skaro.txt](cult-of-skaro.txt) | Cult of Skaro | unchanged (at/near ceiling) | none |
 | 12 | [davros-dalek-creator.txt](davros-dalek-creator.txt) | Davros, Dalek Creator | unchanged (at/near ceiling) | none |
 | 13 | [doctor-doom-king-of-latveria.txt](doctor-doom-king-of-latveria.txt) | Doctor Doom, King of Latveria | unchanged (not reviewed yet) | none |

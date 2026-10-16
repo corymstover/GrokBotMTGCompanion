@@ -24,6 +24,7 @@
 1 Counterspell
 1 Crumbling Necropolis
 1 Cyclonic Rift
+1 Deadly Rollick
 1 Deflecting Swat
 1 Demonic Tutor
 1 Dimir Signet
@@ -45,7 +46,6 @@
 1 Izzet Signet
 1 Jeska's Will
 1 Kindred Discovery
-1 Lethal Scheme
 1 Lightning Greaves
 1 Living Death
 1 Luxury Suite
