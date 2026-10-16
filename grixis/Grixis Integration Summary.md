@@ -14,6 +14,7 @@ schema: 2
 > **Bot cycle 16 · milestone [Grixis integration](https://github.com/corymstover/GrokBotMTGCompanion/milestone/13) · issues [#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59)–[#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63).** What we took from the user's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) repo (read-only; commit `df1abb9` in Bot cycle 16, **re-analyzed at `1836b97` in Bot cycle 37**), what was fixed, what was generalized for every color identity, and what remains. Back to [Grixis](README.md).
 
 ## Contents
+- [Bot cycle 49 interaction reviews](#bot-cycle-49-interaction-reviews)
 - [Bot cycle 48 interaction reviews](#bot-cycle-48-interaction-reviews)
 - [Bot cycle 46 interaction reviews](#bot-cycle-46-interaction-reviews)
 - [Bot cycle 45 full source archive](#bot-cycle-45-full-source-archive)
@@ -28,6 +29,27 @@ schema: 2
 - [What we did not take](#what-we-did-not-take)
 - [Recommended follow-ups](#recommended-follow-ups)
 - [Reproducing](#reproducing)
+
+## Bot cycle 49 interaction reviews
+Batch C covers the next 10 decks alphabetically: Gwendlyn Di Corci, Inalla, Jeleva, Kefka, Kess, Loki, Lord of Tresserhorn, Lord Xander, Lynde and Mai and Zuko. That's **99 rulings: 94 verified, 1 uncertain, 4 flags**. Overall: 32/62 decks and 375 rulings. No decklist changed.
+- **M0 is on main**, so the interaction reviews now follow it:
+  - Each review hashes the deck's **canonical project list** from `data/grixis/registry.json`. That's the source baseline for 7 decks (Abaddon, Bjorna + Cecily, Kefka, Nicol Bolas, Norman Osborn, Sol'kanar the Swamp King, The Rani); GrokBot's challenger exports are not canonical.
+  - Abaddon and Bjorna + Cecily were re-reviewed. Bjorna's canonical list keeps Trade Secrets, Yawgmoth's Bargain and Lutri (companion) as authorized project exceptions, labeled 🚩 NOT Commander-legal.
+  - Every record now has an `evidence_class`.
+- **Flags** (pilot notes, all anti-synergy):
+  - Lightning Greaves' shroud vs Gwendlyn's targeted untappers.
+  - Chains of Mephistopheles vs Gwendlyn's own wheels.
+  - Greaves vs Lord of Tresserhorn's own-target kill spells (Tainted Strike, Uncaged Fury, Chandra's Ignition, Pain for All, Slip Out the Back).
+  - Lynde's returned Curses sitting on you.
+- **Uncertain:** Inalla's Spellseeker chain (hypothesis).
+- **Rules surprises:**
+  - Single-faced Kefka clones can't transform.
+  - Saw in Half on a commander still makes tokens.
+  - Mox Diamond fails as the Grinding Station artifact.
+  - An end-step Curse sacrifice returns a turn late (CR 513.2).
+  - Urza's Saga can't find Walking Ballista.
+  - Loki's tokens never get attack triggers.
+  - Kediss spreads infect from the 99.
 
 ## Bot cycle 48 interaction reviews
 Batch B of phase 2 (now milestone M1 of Cory's authority program) covers the next 10 decks alphabetically: Doctor Doom through Grixistax. That's **107 rulings: 99 verified, 2 uncertain, 6 flags**. Every deck has a source attestation JSON, re-verified item by item. No decklist changed.

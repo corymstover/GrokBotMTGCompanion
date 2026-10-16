@@ -12,13 +12,13 @@
 
 ## Status
 <!-- INTERACTIONS-STATUS:START -->
-**31/62 decks reviewed · 366 rulings (7 uncertain, 22 flags).**
+**32/62 decks reviewed · 375 rulings (7 uncertain, 22 flags).**
 
 | Batch | Status | Decks |
 |---|---|---|
 | A | done (Bot cycle 46) | [abaddon-the-despoiler](abaddon-the-despoiler.md) (29) · [admiral-beckett-brass](admiral-beckett-brass.md) (17) · [admiral-brass-unsinkable](admiral-brass-unsinkable.md) (15) · [anhelo-the-painter](anhelo-the-painter.md) (14) · [ashad-the-lone-cyberman](ashad-the-lone-cyberman.md) (14) · [ashnod-the-uncaring](ashnod-the-uncaring.md) (12) · [belakor-the-dark-master](belakor-the-dark-master.md) (13) · [bjorna-nightfall-alchemist-cecily](bjorna-nightfall-alchemist-cecily.md) (15) · [cormela-glamour-thief](cormela-glamour-thief.md) (10) · [crosis-the-purger](crosis-the-purger.md) (11) · [cult-of-skaro](cult-of-skaro.md) (10) · [davros-dalek-creator](davros-dalek-creator.md) (9) |
 | B | done (Bot cycle 48) | [doctor-doom-king-of-latveria](doctor-doom-king-of-latveria.md) (11) · [don-andres-the-renegade](don-andres-the-renegade.md) (12) · [dr-eggman](dr-eggman.md) (10) · [edea-possessed-sorceress](edea-possessed-sorceress.md) (11) · [edward-kenway](edward-kenway.md) (11) · [evelyn-the-covetous](evelyn-the-covetous.md) (10) · [fire-lord-azula](fire-lord-azula.md) (11) · [garza-zol-plague-queen](garza-zol-plague-queen.md) (11) · [goro-goro-and-satoru](goro-goro-and-satoru.md) (9) · [grixistax-october-2026](grixistax-october-2026.md) (11) |
-| C | in progress (Bot cycle 49) | [gwendlyn-di-corci](gwendlyn-di-corci.md) (10) · [inalla-archmage-ritualist](inalla-archmage-ritualist.md) (9) · [jeleva-nephalias-scourge](jeleva-nephalias-scourge.md) (10) · [kefka-court-mage](kefka-court-mage.md) (13) · [kess-dissident-mage](kess-dissident-mage.md) (9) · [loki-the-deceiver](loki-the-deceiver.md) (7) · [lord-of-tresserhorn](lord-of-tresserhorn.md) (13) · [lord-xander-the-collector](lord-xander-the-collector.md) (11) · [lynde-cheerful-tormentor](lynde-cheerful-tormentor.md) (8) · mai-and-zuko |
+| C | done (Bot cycle 49) | [gwendlyn-di-corci](gwendlyn-di-corci.md) (10) · [inalla-archmage-ritualist](inalla-archmage-ritualist.md) (9) · [jeleva-nephalias-scourge](jeleva-nephalias-scourge.md) (10) · [kefka-court-mage](kefka-court-mage.md) (13) · [kess-dissident-mage](kess-dissident-mage.md) (9) · [loki-the-deceiver](loki-the-deceiver.md) (7) · [lord-of-tresserhorn](lord-of-tresserhorn.md) (13) · [lord-xander-the-collector](lord-xander-the-collector.md) (11) · [lynde-cheerful-tormentor](lynde-cheerful-tormentor.md) (8) · [mai-and-zuko](mai-and-zuko.md) (9) |
 | D | planned | mairsil-the-pretender · marchesa-dealer-of-death · marchesa-the-black-rose · mishra-artificer-prodigy · mishra-eminent-one · missy · nathan-drake-treasure-hunter · nekusar-the-mindrazer · nicol-bolas-the-ravager · nicol-bolas |
 | E | planned | norman-osborn · obeka-brute-chronologist · obeka-splitter-of-seconds · parnesse-the-subtle-brush · rograkh-son-of-rohgahh-silas-renn · saruman-the-white-hand · sauron-lord-of-the-rings · sauron-the-dark-lord · sedris-the-traitor-king · solkanar-the-swamp-king |
 | F | planned | solkanar-the-tainted · tetsuo-imperial-champion · tetsuo-umezawa · the-madcap-jester · the-rani · the-valeyard · thraximundar · tresserhorns-lord-returned · wick-the-whorled-mind · zevlor-elturel-exile |
@@ -26,7 +26,7 @@
 
 ## Method
 1. **Fix the list.**
-   - The review is of the deck's **current final list**: [`exports/grixis-archidekt/<slug>.txt`](../../exports/grixis-archidekt/README.md), the refined list where a batch changed it.
+   - The review is of the deck's **canonical project list**: the `canonical_project_list.export` in the M0 registry (`data/grixis/registry.json`, read-only here) (Bot cycle 49). That's [`exports/grixis-archidekt/<slug>.txt`](../../exports/grixis-archidekt/README.md) for most decks, and `exports/grixis-archidekt/source-baseline/<slug>.txt` for the 7 decks whose GrokBot refinement is only an unapproved challenger. A `[Companion]` line is recorded in `companion`.
    - Its SHA-256 is recorded. If the list changes, the review goes stale and fails validation until the changed cards are re-reviewed.
 2. **Gather facts (authoring dossier).** `python3 scripts/grixis_interactions.py --dossier <slug>` prints:
    - the commander's Oracle text and rulings;
@@ -79,7 +79,7 @@ The deck page's **Rules notes** block lists the entries marked `key` as one-line
 ```json
 {
  "schema": 1, "deck_id": "Abaddon_the_Despoiler", "slug": "abaddon-the-despoiler", "commanders": ["Abaddon the Despoiler"],
- "deck_sha256": "<sha256 of exports/grixis-archidekt/<slug>.txt>", "list_source": "exports/grixis-archidekt/<slug>.txt",
+ "deck_sha256": "<sha256 of the canonical project list>", "list_source": "<registry canonical_project_list.export>",
  "reviewed": "2026-10-16", "cycle": 46, "batch": "A",
  "cr_version": "2026-09-25", "oracle_bulk": "2026-10-15", "rulings_bulk": "2026-10-15", "sources": ["<url or bulk>", "…"],
  "source_attestations": [{"path": "<path inside the archived source tree>", "note": "…"}],
@@ -92,25 +92,26 @@ The deck page's **Rules notes** block lists the entries marked `key` as one-line
    "key": true,
    "cr": ["702.85a"], "oracle": [{"card": "…", "quote": "verbatim"}], "rulings": [{"card": "…", "quote": "verbatim"}],
    "spellbook": [{"id": "<Spellbook variant id>", "quote": "verbatim step or prerequisite"}],
-   "evidence_class": "optional: fact|derived_metric|heuristic|hypothesis|test_result|strategic_judgment|approved_decision",
+   "evidence_class": "required: fact|derived_metric|heuristic|hypothesis|test_result|strategic_judgment|approved_decision",
    "source": [{"path": "<archived file>", "item": "<attestation interaction name>"} , {"path": "<archived .md>", "quote": "verbatim"}]
  }]
 }
 ```
 
-`spellbook` and `evidence_class` were added in Bot cycle 48. `evidence_class` uses the evidence classes of Cory's authority program (milestone M0). For now it's optional and set only where it adds information. Once M0 is on main, every record gets one: verified rulings `fact`, rebuilt combo lines `hypothesis` until Spellbook-confirmed, strategic calls `strategic_judgment`.
+`spellbook` and `evidence_class` were added in Bot cycle 48. `evidence_class` uses the evidence classes of Cory's authority program (milestone M0). Since Bot cycle 49 (M0 on main) every record has one: verified rulings and rules-derived flags `fact`, rebuilt or unconfirmed lines `hypothesis` until Spellbook-confirmed, table-size arithmetic `derived_metric`, strategic calls `strategic_judgment`, and Cory's authorized project exceptions `approved_decision`. A review redone against a changed canonical list carries `rereview` (cycle, date, reason).
 
 Batches are in `data/grixis_interactions/_batches.json`: A–F, alphabetical by slug, about 10–12 decks each, with status `planned`, `in progress` or `done`.
 
 ## Validation
 `python3 scripts/grixis_interactions.py --check` is the `interactions` step of `validate_all`. It fails if any of these is not true:
-- the deck hash matches the current list;
+- `list_source` is the deck's canonical project list (M0 registry), and the deck hash matches it;
+- a `[Companion]` in that list matches the record's `companion`;
 - every named card is in the list (or listed in `absent`/`companion`);
 - every CR rule exists in the cached CR and the CR version matches;
 - every Oracle quote and ruling quote is verbatim (whitespace and curly quotes normalized);
 - every source reference resolves to an archived file and item;
 - every Spellbook citation names a cached variant, and its quote appears verbatim in that variant's steps or prerequisites (normalized);
-- `evidence_class`, if present, is one of the seven classes;
+- every interaction has an `evidence_class` from the seven classes;
 - every done batch has all its reviews;
 - the rendered pages, deck-page blocks and this status table are current.
 

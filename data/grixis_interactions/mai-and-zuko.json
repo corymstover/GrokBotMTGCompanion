@@ -1,0 +1,426 @@
+{
+ "schema": 1,
+ "deck_id": "Mai_and_Zuko",
+ "slug": "mai-and-zuko",
+ "commanders": [
+  "Mai and Zuko"
+ ],
+ "deck_sha256": "0e399fea73acb804044395007e7bb9d9416863b41e09c9f10cd1c3f4c5b9651e",
+ "list_source": "exports/grixis-archidekt/mai-and-zuko.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 49,
+ "batch": "C",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+   "note": "17 interactions, all PASS"
+  }
+ ],
+ "summary": "Mai and Zuko give Allies and artifacts flash, and firebending 3 makes {R}{R}{R} that lasts all combat. The list leans on flashed artifacts, opponent-turn payoffs (Katara, Unwinding Clock) and artifact combos. This review re-verifies all 17 attestation items. Eight Spellbook lines are confirmed (Monolith + Rings, the Top loops, Breach).\n\nRules surprises: Urza's Saga can't find Walking Ballista; Unwinding Clock untaps Mana Vault on opponents' turns; Mai and Zuko's flash lets Mystic Forge cast Top from the library at instant speed. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "maizuko-01",
+   "category": "commander",
+   "title": "Flash for Allies and artifacts; firebending mana lasts through combat",
+   "cards": [
+    "Mai and Zuko"
+   ],
+   "ruling": "You may cast Ally and artifact spells at instant speed. That changes timing only, not cost. Firebending 3 is an attack trigger, not a mana ability, so it uses the stack. Its {R}{R}{R} lasts until combat ends, so you can spend it on flashed artifacts and Allies at any point in combat, even after damage. Other mana you make in combat still empties between steps.",
+   "short": "Flash Allies/artifacts; firebending's RRR lasts all combat.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.189a",
+    "702.8a",
+    "106.4"
+   ],
+   "oracle": [
+    {
+     "card": "Mai and Zuko",
+     "quote": "You may cast Ally spells and artifact spells as though they had flash."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mai and Zuko",
+     "quote": "Firebending abilities aren't mana abilities. They use the stack and can be responded to."
+    },
+    {
+     "card": "Mai and Zuko",
+     "quote": "Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Mai and Zuko flash permission"
+    },
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Firebending 3 and combat casting"
+    }
+   ]
+  },
+  {
+   "id": "maizuko-02",
+   "category": "engine",
+   "title": "Combat and opponent-turn payoffs: The Blue Spirit, Katara, Uthros Research Craft",
+   "cards": [
+    "Mai and Zuko",
+    "The Blue Spirit",
+    "Katara, Waterbending Master",
+    "Uthros Research Craft"
+   ],
+   "ruling": "The Blue Spirit draws whenever a nontoken creature you control enters during combat, so flash an Ally or artifact creature with firebending mana. Tokens don't count. Katara gives an experience counter for each spell you cast on an opponent's turn, and Mai and Zuko's flash makes those common. To station Uthros Research Craft, tap Mai and Zuko (power 3) at sorcery speed. That reaches 3+ right away, and then every artifact spell, including flashed ones, draws a card.",
+   "status": "verified",
+   "cr": [
+    "702.184a",
+    "721.2",
+    "122.1"
+   ],
+   "oracle": [
+    {
+     "card": "The Blue Spirit",
+     "quote": "Whenever a nontoken creature you control enters during combat, draw a card."
+    },
+    {
+     "card": "Katara, Waterbending Master",
+     "quote": "Whenever you cast a spell during an opponent's turn, you get an experience counter."
+    },
+    {
+     "card": "Uthros Research Craft",
+     "quote": "3+ | Whenever you cast an artifact spell, draw a card. Put a charge counter on this Spacecraft."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Uthros Research Craft",
+     "quote": "The triggered ability granted by Uthros Research Craft’s second ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "The Blue Spirit combat draw"
+    },
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Katara, Waterbending Master experience engine"
+    },
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Uthros Research Craft station threshold"
+    }
+   ]
+  },
+  {
+   "id": "maizuko-03",
+   "category": "timing",
+   "title": "Flash artifacts as interaction: Tundra Tank, The Fire Nation Drill, Thought Monitor",
+   "cards": [
+    "Mai and Zuko",
+    "Tundra Tank",
+    "The Fire Nation Drill",
+    "Thought Monitor"
+   ],
+   "ruling": "With Mai and Zuko out, these become instant-speed plays:\n- **Tundra Tank:** its ETB gives indestructible in response to destroy effects or lethal damage, but not exile, bounce, sacrifice or -X/-X.\n- **The Fire Nation Drill:** its ETB tap (reflexive trigger) kills a creature with power 4 or less, and {1} strips hexproof and indestructible.\n- **Thought Monitor:** affinity reduces only the generic part of its cost.",
+   "status": "verified",
+   "cr": [
+    "702.12b",
+    "603.12",
+    "702.41a"
+   ],
+   "oracle": [
+    {
+     "card": "Tundra Tank",
+     "quote": "When this Vehicle enters, target creature you control gains indestructible until end of turn."
+    },
+    {
+     "card": "The Fire Nation Drill",
+     "quote": "When The Fire Nation Drill enters, you may tap it. When you do, destroy target creature with power 4 or less."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Tundra Tank as commander-enabled protection"
+    },
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "The Fire Nation Drill as flash interaction"
+    },
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Thought Monitor timing and affinity"
+    }
+   ]
+  },
+  {
+   "id": "maizuko-04",
+   "category": "engine",
+   "title": "Unwinding Clock untaps Mana Vault and Basalt Monolith on others' turns",
+   "cards": [
+    "Mai and Zuko",
+    "Unwinding Clock",
+    "Mana Vault",
+    "Basalt Monolith"
+   ],
+   "ruling": "Unwinding Clock untaps all your artifacts during each other player's untap step. 'Doesn't untap during your untap step' (Mana Vault, Basalt Monolith) doesn't stop that, so you get their mana on every opponent's turn for flashed spells. The untap isn't optional.",
+   "status": "verified",
+   "cr": [
+    "502.3"
+   ],
+   "oracle": [
+    {
+     "card": "Unwinding Clock",
+     "quote": "Untap all artifacts you control during each other player's untap step."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Unwinding Clock",
+     "quote": "Some effects, such as the one generated by Rust Tick's ability, state that an artifact doesn't untap during its controller's untap step. These effects won't apply and stop the artifact from untapping during another player's untap step."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Unwinding Clock with artifact mana"
+    }
+   ]
+  },
+  {
+   "id": "maizuko-05",
+   "category": "replacement",
+   "title": "Urza's Saga finds mana cost {0} or {1}, not mana value",
+   "cards": [
+    "Mai and Zuko",
+    "Urza's Saga",
+    "Walking Ballista",
+    "Sensei's Divining Top",
+    "Mana Vault"
+   ],
+   "ruling": "Chapter III needs an artifact whose printed mana cost is exactly {0} or {1}. Sensei's Divining Top and Mana Vault ({1}) qualify. Walking Ballista ({X}{X}) doesn't, even though its mana value is 0.",
+   "short": "Saga III can't find Walking Ballista ({X}{X}).",
+   "status": "verified",
+   "cr": [
+    "202.1",
+    "107.3"
+   ],
+   "oracle": [
+    {
+     "card": "Urza's Saga",
+     "quote": "III — Search your library for an artifact card with mana cost {0} or {1}, put it onto the battlefield, then shuffle."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Urza's Saga",
+     "quote": "While resolving the chapter III ability, you can find only a card with actual mana cost {0} or {1}, not mana value 0 or 1. For example, you couldn't find a card with mana cost {U} or one with mana cost {X}."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Urza's Saga chapter III search restriction"
+    }
+   ]
+  },
+  {
+   "id": "maizuko-06",
+   "category": "engine",
+   "title": "Ally support: Boiling Rock Rioter, Ally Encampment, Roaming Throne",
+   "cards": [
+    "Mai and Zuko",
+    "Boiling Rock Rioter",
+    "Ally Encampment",
+    "Roaming Throne"
+   ],
+   "ruling": "Boiling Rock Rioter taps an Ally to exile a card from a graveyard. On attack it can cast an Ally you own that it exiled. Ally Encampment's restricted mana pays for Mai and Zuko, and it can sacrifice to bounce the commander to hand (cast from hand later, no tax). Roaming Throne on Ally doubles firebending: six {R}.",
+   "status": "verified",
+   "cr": [
+    "603.2",
+    "903.8"
+   ],
+   "oracle": [
+    {
+     "card": "Ally Encampment",
+     "quote": "{1}, {T}, Sacrifice this land: Return target Ally you control to its owner's hand."
+    },
+    {
+     "card": "Roaming Throne",
+     "quote": "If a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mai and Zuko",
+     "quote": "Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Boiling Rock Rioter graveyard and attack permissions"
+    },
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Ally Encampment commander protection"
+    },
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Roaming Throne and Ally triggers"
+    }
+   ]
+  },
+  {
+   "id": "maizuko-07",
+   "category": "combo",
+   "title": "Basalt Monolith + Rings of Brighthearth → Walking Ballista",
+   "cards": [
+    "Mai and Zuko",
+    "Basalt Monolith",
+    "Rings of Brighthearth",
+    "Walking Ballista"
+   ],
+   "ruling": "Tap Monolith for {C}{C}{C}, activate its {3} untap, and pay {2} for Rings to copy the untap. The copy untaps it, you tap again for three, and the original untaps it once more. That nets colorless mana each loop, and Walking Ballista turns it into damage. Rings can't copy mana abilities, but the untap isn't one.",
+   "short": "Monolith + Rings = unbounded colorless; Ballista finishes.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "605.1a",
+    "707.10"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Rings of Brighthearth",
+     "quote": "An activated mana ability is one that produces mana as it resolves, not one that costs mana to activate."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "4131-4235",
+     "quote": "Rings of Brighthearth triggers, causing you to pay {2} to copy Basalt Monolith's last ability."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Basalt Monolith plus Rings of Brighthearth"
+    }
+   ]
+  },
+  {
+   "id": "maizuko-08",
+   "category": "combo",
+   "title": "Sensei's Divining Top loops: Citadel + Aetherflux, or Mystic Forge + a cost reducer",
+   "cards": [
+    "Mai and Zuko",
+    "Sensei's Divining Top",
+    "Bolas's Citadel",
+    "Aetherflux Reservoir",
+    "Mystic Forge",
+    "Foundry Inspector",
+    "Etherium Sculptor",
+    "Enthusiastic Mechanaut",
+    "Longshot, Rebel Bowman"
+   ],
+   "ruling": "Top's draw puts Top back on top of your library. Recast it from there: with Bolas's Citadel it costs 1 life and Aetherflux gains more each time; with Mystic Forge and a {1} reducer (Foundry Inspector, Etherium Sculptor, Enthusiastic Mechanaut, Longshot) it's free. The recast Top is a new, untapped artifact, so it can tap right away. Longshot pings each opponent for 2 per cast. Mai and Zuko's flash lets Top be cast from the library on an opponent's turn too, which Forge alone wouldn't allow.",
+   "short": "Top + Citadel/Aetherflux or Forge + reducer; flash makes it work on opponents' turns.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "400.7",
+    "302.6",
+    "601.2f"
+   ],
+   "oracle": [
+    {
+     "card": "Mystic Forge",
+     "quote": "You may cast artifact spells and colorless spells from the top of your library."
+    },
+    {
+     "card": "Longshot, Rebel Bowman",
+     "quote": "Whenever you cast a noncreature spell, Longshot deals 2 damage to each opponent."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mystic Forge",
+     "quote": "You must follow the normal timing permissions and restrictions of the spells you cast from your library."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "2173-4740-5078",
+     "quote": "Cast Sensei's Divining Top from the top of your library by paying 1 life."
+    },
+    {
+     "id": "985-5078-7356",
+     "quote": "Longshot triggers, dealing 2 damage to each opponent."
+    },
+    {
+     "id": "777-985-5078",
+     "quote": "Cast Sensei's Divining Top from the top of your library by paying {0}."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Bolas's Citadel / Sensei's Divining Top / Aetherflux Reservoir"
+    }
+   ]
+  },
+  {
+   "id": "maizuko-09",
+   "category": "combo",
+   "title": "Breach + LED + Brain Freeze",
+   "cards": [
+    "Mai and Zuko",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze",
+    "Lotus Petal"
+   ],
+   "ruling": "The standard Breach backup. LED is an artifact, so Mai and Zuko let you escape it from the graveyard at instant speed too. It needs six other cards in hand and/or graveyard.",
+   "status": "verified",
+   "cr": [
+    "702.138a"
+   ],
+   "oracle": [],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1368-3518-4856",
+     "quote": "You have at least six other cards in hand and/or graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+     "item": "Underworld Breach / Lion's Eye Diamond / Brain Freeze"
+    }
+   ]
+  }
+ ]
+}
