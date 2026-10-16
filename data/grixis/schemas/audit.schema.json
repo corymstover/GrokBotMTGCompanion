@@ -1,7 +1,7 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/audit.schema.json",
- "title": "99-slot audit (v1 draft)",
+ "title": "99-slot audit (v1, generated in M4 by scripts/grixis_audit.py)",
  "description": "A disposition is 'complete' only with blueprint, dependency-graph and alternative refs plus a redundancy count; anything else is 'provisional' (Cory constraint 2). Enforced by grixis_authority.disposition_status().",
  "type": "object",
  "properties": {
@@ -97,6 +97,59 @@
       "items": {
        "$ref": "common.schema.json#/$defs/evidence_ref"
       }
+     },
+     "quantity": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "structural_necessity": {
+      "enum": [
+       "necessary",
+       "important",
+       "redundant",
+       "independent"
+      ]
+     },
+     "evidence_classes": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "integer"
+      }
+     },
+     "decision_support": {
+      "type": "object",
+      "properties": {
+       "ok": {
+        "type": "boolean"
+       },
+       "why_not": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      },
+      "required": [
+       "ok",
+       "why_not"
+      ],
+      "additionalProperties": false
+     },
+     "m1_flags": {
+      "type": "array",
+      "items": {
+       "type": "object"
+      }
+     },
+     "complete_eligible": {
+      "type": "boolean",
+      "description": "the slot carries what disposition_status() needs for 'complete'; it stays provisional until M2 is accepted and the slot is confirmed (Bot cycle 59.2)"
+     },
+     "zone": {
+      "enum": [
+       "main",
+       "companion"
+      ]
      }
     },
     "required": [
@@ -144,6 +197,108 @@
     "snapshot"
    ],
    "additionalProperties": false
+  },
+  "slug": {
+   "$ref": "common.schema.json#/$defs/slug"
+  },
+  "generated_by": {
+   "type": "string"
+  },
+  "snapshot": {
+   "type": "object",
+   "properties": {
+    "id": {
+     "$ref": "common.schema.json#/$defs/sha256"
+    }
+   },
+   "required": [
+    "id"
+   ],
+   "additionalProperties": true
+  },
+  "authority": {
+   "type": "object",
+   "properties": {
+    "status": {
+     "enum": [
+      "provisional",
+      "authoritative"
+     ]
+    },
+    "reason": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "status",
+    "reason"
+   ],
+   "additionalProperties": true
+  },
+  "rules": {
+   "type": "array",
+   "items": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    },
+    "minItems": 2,
+    "maxItems": 2
+   }
+  },
+  "slot_total": {
+   "type": "integer"
+  },
+  "counts": {
+   "type": "object"
+  },
+  "lint": {
+   "type": "object",
+   "properties": {
+    "ok": {
+     "type": "boolean"
+    },
+    "max_duplicate": {
+     "type": "integer"
+    },
+    "threshold": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "ok",
+    "max_duplicate",
+    "threshold"
+   ],
+   "additionalProperties": true
+  },
+  "baseline_sim": {
+   "type": "object",
+   "properties": {
+    "class": {
+     "const": "test_result"
+    },
+    "simulator": {
+     "type": "object"
+    },
+    "seed": {
+     "type": "integer"
+    },
+    "samples": {
+     "type": "integer"
+    },
+    "metrics": {
+     "type": "object"
+    }
+   },
+   "required": [
+    "class",
+    "simulator",
+    "seed",
+    "samples",
+    "metrics"
+   ],
+   "additionalProperties": true
   }
  },
  "required": [

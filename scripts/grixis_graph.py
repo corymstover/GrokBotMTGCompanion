@@ -149,7 +149,7 @@ def build_deck(did, v, R, combos_all, reg):
     role_of = {}
     for n in sorted(zone):
         c = cards[n]
-        tl = c.get("type_line") or ""
+        tl = c.get("type_line") or " // ".join(f.get("type_line", "") for f in c.get("card_faces", []))
         cm = gs.card_model(c, ci)
         rs = set(gr.roles(c)) if not ("Land" in tl and "//" not in n) else set()
         if "Land" in tl:
@@ -304,7 +304,7 @@ def best_alternative(n, roles, pkgs, bp, slug, R, ci, zone):
             c, _ = R.get(x["card"])
             if not c:
                 continue
-            tl = c.get("type_line") or ""
+            tl = c.get("type_line") or " // ".join(f.get("type_line", "") for f in c.get("card_faces", []))
             rs = set(gr.roles(c)) | ({"land"} if "Land" in tl else set())
             row = dict(zip(cols, x["edhrec"])) if x.get("edhrec") else {}
             cands.append((x["card"], rs, row, (x.get("oracle_hook") or {}).get("label")))
