@@ -114,8 +114,9 @@ schema: 2
 
 ### Yawgmoth's Bargain
 
-[Card entry](../cards/Y/ya.md#yawgmoths-bargain) · **2 pages** (edh guides 1 · card data 1)
+[Card entry](../cards/Y/ya.md#yawgmoths-bargain) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
+- **Decks (1):** [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md)
 - **EDH guides (1):** [EDH Standards → Banned list & legality](../EDH%20Standards.md#banned-list--legality)
 - **Card data (1):** [Format Legality Matrix → legacy](../Format%20Legality%20Matrix.md#legacy) (+4 more)
 

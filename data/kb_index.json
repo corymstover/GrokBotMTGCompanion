@@ -6439,13 +6439,13 @@
 ],
 [
 2,
-"Burn",
-"burn"
+"Sac Outlet",
+"sac-outlet"
 ],
 [
 2,
-"Sac Outlet",
-"sac-outlet"
+"Burn",
+"burn"
 ],
 [
 2,
@@ -6710,6 +6710,11 @@
 ],
 [
 2,
+"Project exceptions",
+"project-exceptions"
+],
+[
+2,
 "Pending legality",
 "pending-legality"
 ],
@@ -6725,9 +6730,9 @@
 "61"
 ],
 "related": [
+"grixis/Grixis Packages.md",
 "EDH Standards.md",
 "grixis/Grixis Evaluation.md",
-"grixis/Grixis Packages.md",
 "EDH Deck Template.md",
 "grixis/Grixis Corrections.md",
 "grixis/Grixis Refinement Cycle.md"
@@ -12021,7 +12026,8 @@
 "grixis",
 "bracket-floor-4",
 "game-changers",
-"two-card-infinite"
+"two-card-infinite",
+"project-exceptions"
 ],
 "headings": [
 [
@@ -12073,6 +12079,11 @@
 2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
+],
+[
+2,
+"Official-legal projection (derived, not canonical)",
+"official-legal-projection-derived-not-canonical"
 ],
 [
 2,

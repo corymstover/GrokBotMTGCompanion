@@ -24,7 +24,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import ingest_scryfall as ing  # noqa: E402
-import evaluate_decklist as ev  # noqa: E402
+import evaluate_decklist as ev
+import grixis_authority as ga  # noqa: E402
 import detect_combos as dc  # noqa: E402
 from deck_calibration import RX  # noqa: E402
 
@@ -269,8 +270,11 @@ def apply_swaps(src_text, swaps):
     return "\n".join(keep + [f"1x {s['add']} [Refined (Bot cycle {s['cycle']})]" for s in swaps]) + "\n"
 
 
-def hard(res, pending_cards=()):
-    return [i for i in res["issues"] if i["type"] in ev.HARD and not (i["type"] == "not Commander-legal" and i["card"] in pending_cards)]
+def hard(res, pending_cards=(), deck_id=None):
+    """Hard failures. Bot cycle 47: registered, Cory-authorized project exceptions (data/grixis/exceptions.json) are
+    accepted for `deck_id` on Commander legality only; callers must still label them NOT Commander-legal."""
+    out = [i for i in res["issues"] if i["type"] in ev.HARD and not (i["type"] == "not Commander-legal" and i["card"] in pending_cards)]
+    return ga.accepted_hard_issues(deck_id, out)[0] if deck_id else out
 
 
 def spellbook(lst, cache, did, fetch):
@@ -420,7 +424,7 @@ def plan(dids, batch, R, summ, plans, cycle):
             sb = spellbook(lines_of(text, R), cache, did, True)
             two = sum(1 for co in sb["combos"] if co["infinite"] and len(co["cards"]) == 2)
             fl, _, _ = ev.bracket_floor(res["cards"], two)
-            if not hard(res, pend) and fl <= max(floor_src, tgt) and src_combo_ids <= {co["id"] for co in sb["combos"]}:
+            if not hard(res, pend, did) and fl <= max(floor_src, tgt) and src_combo_ids <= {co["id"] for co in sb["combos"]}:
                 break
             x = swaps.pop()
             rejected.append({"cut": x["cut"], "add": x["add"], "by": "verification", "why": "dropped: the refined list failed legality, the bracket-floor cap or kept-combo check"})
@@ -475,8 +479,8 @@ def render(R, summ, plans, fetch=False):
         # verification of the final list
         pend = reg.get(did, {}).get("cards", []) if reg.get(did, {}).get("status") == "pending" else []
         res = ev.check(info[did]["fin_text"], R)
-        if hard(res, pend):
-            problems.append(f"{did}: refined list fails {[i['type'] + ' ' + i['card'] for i in hard(res, pend)]}")
+        if hard(res, pend, did):
+            problems.append(f"{did}: refined list fails {[i['type'] + ' ' + i['card'] for i in hard(res, pend, did)]}")
         info[did]["res"] = res
         info[did]["pending"] = pend
         if info[did]["plan"] and info[did]["plan"]["swaps"]:
@@ -521,7 +525,7 @@ def block(did, v, info, m, plans):
         res, sb = info["res"], info.get("sb")
         two = sum(1 for co in sb["combos"] if co["infinite"] and len(co["cards"]) == 2) if sb else 0
         fl, gcs, mld = ev.bracket_floor(res["cards"], two)
-        ok = "✅ 100 cards, singleton, color identity, Commander-legal" if not hard(res, info["pending"]) else "❌ fails"
+        ok = "✅ 100 cards, singleton, color identity, Commander-legal" if not hard(res, info["pending"], did) else "❌ fails"
         L += ["", f"- **Verification (`evaluate_decklist.check`):** {ok}{' (except the ⏳ pending cards)' if info['pending'] else ''}. "
               f"Game Changers {v['gcs'].__len__()} → {len(gcs)} · floor Bracket {v['floor']} → **{fl}** (target {target_of(v)}) · "
               f"Commander Spellbook: {len(sb["combos"]) if sb else "?"} combo(s) ({two} two-card infinite), every source combo kept (queried {sb['queried'] if sb else '?'}).",
@@ -832,7 +836,7 @@ def main():
             fin_l = Counter((c["name"], z) for q_, c, z in lines_of(info[did]["fin_text"], R) for _ in range(q_))
             if exp_l != fin_l:
                 problems.append(f"exports/grixis-archidekt/{v['slug']}.txt differs from the deck page's final list")
-            if hard(ev.check(ep.read_text(encoding="utf-8"), R), info[did]["pending"]):
+            if hard(ev.check(ep.read_text(encoding="utf-8"), R), info[did]["pending"], did):
                 problems.append(f"exports/grixis-archidekt/{v['slug']}.txt fails the hard checks")
             # Bot cycle 43 final export pass: Archidekt line format
             raw = ep.read_text(encoding="utf-8").rstrip("\n").split("\n")

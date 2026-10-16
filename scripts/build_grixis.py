@@ -34,18 +34,14 @@ SRC_SHA = (grixis_archive.source_commit() if SRC.resolve() == grixis_archive.TRE
            subprocess.run(["git", "-C", str(SRC), "rev-parse", "--short", "HEAD"], capture_output=True, text=True).stdout.strip())
 BLOB = f"{REPO}/blob/{SRC_SHA or 'main'}/"
 
-# ---- corrections that change cards (everything else is mechanical and logged automatically)
-CARD_FIXES = {
-    "Cecily__Bjorna__Lutri": [
-        ("Trade Secrets", "Wizard Class", "legality",
-         "Trade Secrets is **banned in Commander** (Scryfall). The source kept it as a *project exception*. Replaced with Wizard Class, which the source's own approval dossier logged as a close alternative (\"hand-size support\"). Its Oracle text says \"You have no maximum hand size\" and level 2 draws two cards, so it serves the same goal: reaching Cecily's eleven-card hand."),
-        ("Yawgmoth's Bargain", "Flame of Anor", "legality",
-         "Yawgmoth's Bargain is **banned in Commander** (Scryfall). Replaced with Flame of Anor, another alternative from the source dossier. Its Oracle text: \"Target player draws two cards\" as one mode, and you may choose two modes if you control a Wizard (Cecily is a Human Wizard). It is draw plus interaction at instant speed."),
-    ],
-}
-COMPANION_NOTE = {
-    "Cecily__Bjorna__Lutri": "The source's approval record designates **Lutri, the Spellchaser** as a companion outside the 100. Commander bans Lutri *as a companion* (B&R 2026-02-09; Lutri is legal in the 99). So the companion is **dropped** here. The source's approved 100-card file does not list Lutri anyway, so no card count changes.",
-}
+# ---- Bot cycle 47 (M0, Cory decision 1): ONE canonical project list per commander. Registered project exceptions
+# (data/grixis/exceptions.json) stay in the canonical list, labeled and never called legal; the officially legal variant
+# is a derived compliance projection (data/grixis/projections.json), never canonical. The Bot cycle 16 import had
+# replaced Trade Secrets / Yawgmoth's Bargain and dropped the Lutri companion; those replacements now live only in the projection.
+import grixis_authority as ga  # noqa: E402
+EXC = ga.load_json(ga.EXCEPTIONS, {"exceptions": []})["exceptions"]
+PROJ = ga.load_json(ga.PROJECTIONS, {"decks": {}})
+EXC_AUTH = {(x["deck_id"], x["card"]): x for x in EXC if x["project_authorization_status"] == "AUTHORIZED_EXCEPTION"}
 # Bot cycle 38: decks published with legality_status: pending (data/grixis_pending.json; flipped by scripts/activate_pending_grixis.py)
 PENDING = {k: v for k, v in json.loads((ROOT / "data" / "grixis_pending.json").read_text(encoding="utf-8"))["decks"].items()
            if v.get("status") == "pending"} if (ROOT / "data" / "grixis_pending.json").exists() else {}
@@ -53,6 +49,16 @@ LEFT_OUT = {}
 # Bot cycle 37 re-import: the 40 lists integrated in Bot cycle 16 (unchanged in the source since then).
 C16 = set(json.loads((ROOT / "data" / "grixis_c16_ids.json").read_text())) if (ROOT / "data" / "grixis_c16_ids.json").exists() else set()
 EVIDENCE_LABELS = ("VERIFIED", "HIGH_CONFIDENCE", "PROVISIONAL", "TEST_REQUIRED", "BLOCKED")
+
+
+_RES = []
+
+
+def resolver_check(text):
+    import evaluate_decklist as ev_
+    if not _RES:
+        _RES.append(ev_.Resolver())
+    return ev_.check(text, _RES[0])
 
 
 def slugify(s):
@@ -170,8 +176,7 @@ def main():
     for did, d in ev["decks"].items():
         approved = d["source_state"]["approval_status"] == "APPROVED"
         hard = [i for i in d["issues"] if i["type"] in ("banned", "not Commander-legal", "color identity", "deck size", "singleton", "unresolved name", "commander eligibility", "commander pairing")]
-        fixable = {f[0] for f in CARD_FIXES.get(did, [])}
-        unfixed = [i for i in hard if i["card"] not in fixable]
+        unfixed, accepted = ga.accepted_hard_issues(did, hard)
         pend = PENDING.get(did)
         if pend:  # Bot cycle 38: only the registered not-yet-legal cards may fail, and only on Commander legality
             unfixed = [i for i in unfixed if not (i["type"] == "not Commander-legal" and i["card"] in pend["cards"])]
@@ -188,18 +193,22 @@ def main():
             continue
         final = [dict(r) for r in d["cards"] if r["zone"] != "companion"]
         fixes = []
-        for old, new, kind, reason in CARD_FIXES.get(did, []):
-            c = by_name[new]
-            assert c["legalities"]["commander"] == "legal" and set(c["color_identity"]) <= set(d["ci"]) and c["oracle_id"] in index
-            for r in final:
-                if r["name"] == old:
-                    r0 = index[c["oracle_id"]]
-                    r.update(name=c["name"], src_name=old, oracle_id=c["oracle_id"], ci="".join(x for x in "WUBRG" if x in c["color_identity"]) or "C",
-                             type=c["type_line"], mv=c.get("cmc", 0), gc=bool(c.get("game_changer")), legal="legal",
-                             shard=r0["shard"], anchor=r0["anchor"], set=None, cn=None, fixed=True)
-            fixes.append((kind, f"{old} → {new}", reason))
-        if did in COMPANION_NOTE:
-            fixes.append(("companion", "Lutri, the Spellchaser (companion) removed", COMPANION_NOTE[did]))
+        mine = [x for (dd, _), x in EXC_AUTH.items() if dd == did]
+        for x in mine:
+            if x["zone"] == "companion" and not any(r["name"] == x["card"] for r in final):
+                row = resolver_check(f"1x {x['card']} [Companion]")["cards"][0]
+                row["tags"] = "Companion"
+                final.append(row)
+        for r in final:
+            x = EXC_AUTH.get((did, r["name"]))
+            if x:
+                r["exception"] = x
+        for x in mine:
+            fixes.append(("project exception (Bot cycle 47)", f"{x['card']}{' (companion)' if x['zone'] == 'companion' else ''} kept in the canonical project list",
+                          f"{x['render_label']}. Authorized: {x['authorized_by']}. Registry: `data/grixis/exceptions.json` ({x['id']}). "
+                          + ("The Bot cycle 16 import had replaced it; since Bot cycle 47 that replacement lives only in the [derived compliance projection](#official-legal-projection-derived-not-canonical)." if x["zone"] != "companion" else
+                             "The source's approval record designates Lutri as companion (its approved 100-card file has no companion line, so the line is added from that record). The Bot cycle 16 import had dropped it.")))
+        d["exceptions"] = mine
         # mechanical normalization log
         restored = [0, 0]
         for r in final:
@@ -254,7 +263,8 @@ def main():
         two_inf = [x for x in co if x["n"] == 2 and x["infinite"]]
         cfloor = max(floor, 3) if two_inf else floor
         d.update(gcs=gcs, floor=floor, cfloor=cfloor, n_combos=len(co), n_two=len(two_inf))
-        total = sum(r["qty"] for r in final)
+        total = sum(r["qty"] for r in final if r["zone"] != "companion")
+        n_comp = sum(1 for r in final if r["zone"] == "companion")
         lands = sum(r["qty"] for r in final if type_tag(r["type"]) == "Land")
         basics = sum(r["qty"] for r in final if "Basic" in r["type"])
         avg = sum(r["mv"] * r["qty"] for r in final if type_tag(r["type"]) != "Land" and r["zone"] == "main") / max(1, sum(r["qty"] for r in final if type_tag(r["type"]) != "Land" and r["zone"] == "main"))
@@ -286,12 +296,20 @@ def main():
                   "but it is **excluded from every legal-deck count** (Grixis index, packages, summaries). `validate_all` accepts these cards only while "
                   "`legality_status: pending` and the date is still ahead. Activation: `python3 scripts/activate_pending_grixis.py` "
                   "(refreshes the Scryfall bulk, re-checks the cards, flips the deck to active once they are legal).", ""]
+        exc = d.get("exceptions") or []
+        if exc:
+            L += [f"> 🚩 **PROJECT EXCEPTIONS — not Commander-legal.** This deck's canonical project list carries {len(exc)} project-authorized exception(s): "
+                  + "; ".join(f"**{x['card']}**{' (companion)' if x['zone'] == 'companion' else ''} ({x['render_label'].split(': ', 1)[-1]})" for x in exc)
+                  + ". Official Commander compliance: **not compliant**. They are authorized by Cory for this project (registry `data/grixis/exceptions.json`, "
+                  "[Grixis Authority Model](../Grixis%20Authority%20Model.md#legality-model)); they are never reported as legal. "
+                  "An officially legal version is shown below as a [derived compliance projection (not canonical)](#official-legal-projection-derived-not-canonical).", ""]
         L += [
              f"> **From [grixis-commander-encyclopediaGPT]({REPO}), path [`{d['source_path']}`]({BLOB}{d['source_path'].split(' → ')[0]})** "
              f"({d['source_state'].get('approval_status')} / {d['source_state'].get('lock_status')} in the source, user approval {d['source_state'].get('user_approval_date')}; source commit `{SRC_SHA}`). "
              f"{'Imported in Bot cycle 16; re-validated in Bot cycle 37' if did in C16 else 'Imported in Bot cycle 38 as a pending-legality page' if pend else 'Imported in Bot cycle 37 (newly approved in the source)'} against Scryfall Oracle bulk {bulk[:10]}. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).", "",
              "## Contents", "- [Commander](#commander)", "- [Validation](#validation)", "- [Bracket assessment](#bracket-assessment)",
-             "- [Corrections applied](#corrections-applied)", "- [Decklist (Archidekt import)](#decklist-archidekt-import)", "- [Card breakdown](#card-breakdown)",
+             "- [Corrections applied](#corrections-applied)", "- [Decklist (Archidekt import)](#decklist-archidekt-import)"] + (
+             ["- [Official-legal projection (derived, not canonical)](#official-legal-projection-derived-not-canonical)"] if exc else []) + ["- [Card breakdown](#card-breakdown)",
              "- [Source commentary (verbatim)](#source-commentary-verbatim)", "- [Combos (Commander Spellbook)](#combos-commander-spellbook)", "",
              "## Commander", ""]
         for r in cmdrs:
@@ -303,7 +321,9 @@ def main():
             pn = ing.pairing_notes(c) if c else []
             L.append(f"- Eligibility ({r['name']}): {ing.commander_eligibility(c)}" + (f" · pairing: {', '.join(pn)}" if pn else ""))
         L += ["", "## Validation", "",
-              f"- Total cards: **{total}** ({len(cmdrs)} commander(s) + {total - len(cmdrs) - lands} nonland + {lands - basics} nonbasic lands + {basics} basics) · average nonland MV {avg:.2f}",
+              f"- Total cards: **{total}** ({len(cmdrs)} commander(s) + {total - len(cmdrs) - lands} nonland + {lands - basics} nonbasic lands + {basics} basics)" + (f" + {n_comp} companion outside the 100" if n_comp else "") + f" · average nonland MV {avg:.2f}",
+              (f"- Strict color identity (CR 903.5c), singleton (903.5b), size (903.5a): pass. **Official Commander compliance: ❌ not compliant** — {len(exc)} project-authorized exception(s), not Commander-legal: "
+               + "; ".join(f"{x['card']} ({x['official_commander_legality'].replace('_', ' ')})" for x in exc) + ". `validate_all` accepts them only because they are registered project exceptions; every other card is Commander-legal.") if exc else
               ("- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**" + (" (after the corrections below)" if any(f[0] == "legality" for f in d["fixes"]) else "")) if not pend else
               (f"- Strict color identity (CR 903.5c), singleton (903.5b), size (903.5a): pass. **Commander legality: ⏳ pending.** {', '.join(pend['cards'])} "
                f"{'is' if len(pend['cards']) == 1 else 'are'} `not_legal` on Scryfall until their official Commander-legal date ({pend['legal_from']}, per Wizards); every other card is Commander-legal."),
@@ -333,14 +353,27 @@ def main():
             for r in final:
                 if r["name"] in pend["cards"]:
                     r["pending_mark"] = True
-        L += ["```", "", "## Card breakdown", "",
+        L += ["```", ""]
+        if exc:
+            pt = ga.projection_text(did, "\n".join(L[L.index("## Decklist (Archidekt import)") + 3:-2]) + "\n", PROJ)
+            pj = PROJ["decks"][did]
+            L += ["## Official-legal projection (derived, not canonical)", "",
+                  f"> **{ga.PROJECTION_LABEL}.** Derived from the canonical project list above by the substitutions below, so the deck can be played under official Commander rules. "
+                  "It never competes for authority: it is not canonical, never enters an approval state, and changes whenever the canonical list changes. "
+                  f"Registry: `data/grixis/projections.json`; export: `exports/grixis-archidekt/projections/{slug}.official-legal-projection.txt`.", "",
+                  "| Canonical card | Projection | Why |", "|---|---|---|"]
+            L += [f"| {x['from']} | {x['to']} | {x['why']} |" for x in pj["substitutions"]]
+            if pj.get("drop_companion"):
+                L.append(f"| {pj['drop_companion']} (companion) | — (no companion) | {pj['drop_companion_why']} |")
+            L += ["", "```text", pt.strip(), "```", ""]
+        L += ["## Card breakdown", "",
               "Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.", "",
               "| Card | Role (source tag) | Type | MV | Identity | GC | Printing |", "|---|---|---|---|---|---|---|"]
         for r in sorted(final, key=lambda r: (r["zone"] != "commander", (r["tags"] or type_tag(r["type"])).lower(), r["name"])):
             role = "Commander" if r["zone"] == "commander" else (r["tags"] or type_tag(r["type"]))
-            L.append(f"| {('**' + rel_link(r) + '**') if r.get('fixed') else rel_link(r)}{' (×' + str(r['qty']) + ')' if r['qty'] > 1 else ''} | {role}{' · ⏳ not legal until ' + pend['legal_from'] if r.get('pending_mark') else ''} | {r['type']} | {int(r['mv'])} | {r['ci']} | {'✅' if r['gc'] else ''} | {(r['set'] or '') + (' ' + r['cn'] if r.get('cn') else '') if r.get('set') else '—'} |")
+            L.append(f"| {('**' + rel_link(r) + '**') if r.get('fixed') else rel_link(r)}{' (×' + str(r['qty']) + ')' if r['qty'] > 1 else ''} | {role}{' · ⏳ not legal until ' + pend['legal_from'] if r.get('pending_mark') else ''}{' · ' + r['exception']['render_label'] if r.get('exception') else ''} | {r['type']} | {int(r['mv'])} | {r['ci']} | {'✅' if r['gc'] else ''} | {(r['set'] or '') + (' ' + r['cn'] if r.get('cn') else '') if r.get('set') else '—'} |")
         L += ["", "## Source commentary (verbatim)", "",
-              f"> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `{REPO.split('/')[-1]}`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.", ""]
+              f"> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `{REPO.split('/')[-1]}`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions: since Bot cycle 47 the canonical project list above carries them as labeled project exceptions (not Commander-legal); the officially legal version is the derived compliance projection.", ""]
         shown = 0
         for k in ("blueprints", "decisions", "approvals", "evidence"):
             for p in fl.get(k, []):
@@ -372,11 +405,12 @@ def main():
          f"> Bot cycle 16; re-run in Bot cycle 37. Every decklist in [grixis-commander-encyclopediaGPT]({REPO}) (commit `{SRC_SHA}`), checked by `scripts/grixis_eval.py` against Scryfall Oracle bulk {bulk[:10]}. Checks: name resolution, commander eligibility and pairing, 100 cards, singleton (with Oracle copy exceptions such as Nazgûl), color identity, Commander legality and bans, companion, Game Changers. Oracle text recorded in the source's audit CSVs is compared with current Oracle. Back to [Grixis](README.md).", "",
          "## Contents", "- [Summary](#summary)", "- [Per-list results](#per-list-results)", "- [How the current list was chosen](#how-the-current-list-was-chosen)", "",
          "## Summary", ""]
-    legal = {k: v for k, v in integrated.items() if not v.get("pending")}
+    legal = {k: v for k, v in integrated.items() if not v.get("pending") and not v.get("exceptions")}
     pending = {k: v for k, v in integrated.items() if v.get("pending")}
+    excd = {k: v for k, v in integrated.items() if v.get("exceptions")}
     n_int = len(legal)
     E += [f"- Source lists: **{len(evaluation)}** (62 baseline FINAL lists; {sum(1 for _, d, _, _ in evaluation if d['source_state']['approval_status'] == 'APPROVED')} have a newer user-approved list).",
-          f"- **Deck pages: {len(integrated)}/{len(evaluation)}** ({n_int} legal + {len(pending)} ⏳ pending legality). **Integrated as legal: {n_int}**, i.e. every approved list that passes or could be corrected to pass. **Pending legality: {len(pending)}** (" + (", ".join(f"{' + '.join(v['commanders'])}, legal from {v['pending']['legal_from']}" for v in pending.values()) or "none") + f"). **Left out: {len(evaluation) - len(integrated)}**.",
+          f"- **Deck pages: {len(integrated)}/{len(evaluation)}** ({n_int} legal + {len(excd)} 🚩 with project exceptions + {len(pending)} ⏳ pending legality). **Integrated as legal: {n_int}**, i.e. every approved list that passes or could be corrected to pass. **With project exceptions: {len(excd)}** (" + (", ".join(' + '.join(v['commanders']) for v in excd.values()) or "none") + "; canonical project list keeps Cory-authorized exceptions, not Commander-legal, see [Grixis Authority Model](Grixis%20Authority%20Model.md#legality-model)). **Pending legality: {len(pending)}** (" + (", ".join(f"{' + '.join(v['commanders'])}, legal from {v['pending']['legal_from']}" for v in pending.values()) or "none") + f"). **Left out: {len(evaluation) - len(integrated)}**.",
           f"- Hard problems found across all 62: " + (", ".join(f"{v}× {k}" for k, v in Counter(i['type'] for _, _, h, _ in evaluation for i in h).most_common()) or "none") + ".",
           f"- Oracle check: {ev['oracle_check']['rows_checked']:,} Oracle-text rows in {ev['oracle_check']['files']} source audit files; **{len(ev['oracle_check']['stale'])} differ** from current Oracle.", "",
           "## Per-list results", "",
@@ -384,6 +418,7 @@ def main():
     for i, (did, d, hard, why) in enumerate(evaluation, 1):
         gc = sum(1 for r in d["cards"] if r["gc"])
         res = (f"⏳ [pending legality](decks/{names_ix[did]}.md) (legal from {integrated[did]['pending']['legal_from']})" if did in pending
+               else f"🚩 [integrated with project exceptions](decks/{names_ix[did]}.md) (not Commander-legal: {', '.join(x['card'] for x in integrated[did]['exceptions'])})" if did in excd
                else f"✅ [integrated](decks/{names_ix[did]}.md)" if did in integrated else "⏸ " + why)
         E.append(f"| {i} | `{did}` | {' + '.join(d['commanders'])} | {d['source_state']['approval_status']} | {d['total']} | {'; '.join(x['type'] + ': ' + x['card'] for x in hard) or '—'} | {gc} | {res} |")
     E += ["", "## How the current list was chosen", "",
@@ -414,7 +449,7 @@ def main():
           "- One state artifact path does not exist: Thraximundar's `whole_list_audit_artifact` points to `refinement/decisions/Thraximundar_Whole_List_Audit_v2_2026-10-15.csv`, but the file in the repo is `refinement/audits/Thraximundar_Whole_List_Audit_2026-10-15.csv` (linked from the deck page).",
           "- ⚠️ The Tresserhorn's Lord, Returned approval record (2026-10-15) reports \"current official Commander legality PASS, no project exception required\". Scryfall lists the card as `not_legal`, and Wizards says new MBC cards are Commander-legal on 2026-11-13 (\"New-to-Magic MBC cards will be legal in Commander on November 13, 2026.\", [What's Inside Mystery Booster Commander Edition?](https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition)), so the deck page is published as ⏳ *pending legality* (Bot cycle 38; date corrected in Bot cycle 44).",
           "- Decklist files use mixed formats: some lines have `(set) number` printings and role tags, some only `Nx Name`. Commanders are tagged `[Commander]` or `[Commander{top}]`.",
-          "- The Lutri companion is recorded in the approval record but missing from the approved 100-card file. The two disagree. The source's Archidekt export README still says to set \"the intended commanders/companion manually\" for this deck, and its retrospective gate keeps Trade Secrets, Yawgmoth's Bargain (banned) and Lutri (banned as a companion) as *project exceptions*. Our corrected list keeps the cycle 16 replacements.",
+          "- The Lutri companion is recorded in the approval record but missing from the approved 100-card file. The two disagree. The source's Archidekt export README still says to set \"the intended commanders/companion manually\" for this deck, and its retrospective gate keeps Trade Secrets, Yawgmoth's Bargain (banned) and Lutri (banned as a companion) as *project exceptions*. **Bot cycle 47 (Cory decision 1):** the canonical project list carries all three as labeled project exceptions (not Commander-legal; registry `data/grixis/exceptions.json`); the cycle 16 replacements live on only as the derived compliance projection.",
           "- Per-deck evidence is spread across 5–8 folders (blueprints, decisions, approvals, evidence, verification, rules, tests), and one blueprint exists twice (`Be_lakor__the_Dark_Master_v1.md` / `Belakor_the_Dark_Master_v1.md`). On import, each deck's records are gathered into a single page.",
           "- The approval record for deck #8 says `state/current_deck_overrides.json` was stale at that time. In Bot cycle 16 the state file listed 40 decks. By commit `" + SRC_SHA + "` (Bot cycle 37) it lists all 62 as APPROVED/LOCKED, and it now records per-deck artifact paths (approved list, whole-list audit, decision closeout, verification, approval record).",
           "- New in the source since Bot cycle 16: a mandatory **99-slot whole-list audit** per deck (KEEP/CUT for every non-commander slot), *approval-ready verification* and *candidate decision closeout* records, a \"zero-new-material-improvement\" closure before approval, and one-shot GitHub Actions finalizers that write the approval and lock. We adopted the audit and closure steps as guidance in the [EDH Deck Evaluation Checklist](../EDH%20Deck%20Evaluation%20Checklist.md).", ""]
@@ -472,27 +507,38 @@ def main():
          "Full text: [Grixis Mission](Grixis%20Mission.md) · progress: [Grixis Refinement Cycle](Grixis%20Refinement%20Cycle.md) · "
          "Archidekt files: [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md).", "",
          f"> **Bot cycle 16 import, refreshed in Bot cycle 37** (all 62 source lists are now APPROVED/LOCKED in the source). This section brings in the user's Grixis Commander work from [grixis-commander-encyclopediaGPT]({REPO}) (commit `{SRC_SHA}`, read-only): the user-approved, refined decklists, each with its commander-first blueprint, swap decisions and approval record quoted verbatim. Each list was re-validated against our card DB, corrected where needed, and given Game Changer counts, bracket floors and Commander Spellbook combos. Source analysis is **the source author's guidance**. Our facts come from Scryfall and Commander Spellbook. Built by `scripts/build_grixis.py`. Related: [EDH Standards](../EDH%20Standards.md) · [EDH Deck Template](../EDH%20Deck%20Template.md) · [EDH Deck Evaluation Checklist](../EDH%20Deck%20Evaluation%20Checklist.md) · [Grixis mana base](../EDH%20Mana%20Bases.md) · [data-derived Nekusar skeleton](../decks/nekusar-the-mindrazer.md)", "",
+         "> 🏛️ **Authority layer (Bot cycle 47, M0):** every deck has **one canonical project list** and a state in the "
+         "[authority registry](../data/grixis/registry.json). All 62 start at `SOURCE_BASELINE` (2 at `PENDING_RELEASE`); the source's approvals and our "
+         "cycle 39–44 refinements are evidence and *GrokBot challengers (unapproved)*, not approvals. Nothing becomes APPROVED or CANONICAL_LOCKED without "
+         "Cory's explicit sign-off. Model and rules: [Grixis Authority Model](Grixis%20Authority%20Model.md).", "",
          "> 🗄️ **Single source of truth (Bot cycle 45):** the companion now holds the **complete source repository** in "
          "[source-archive/](source-archive/README.md): every file at commit `" + SRC_SHA + "`, byte-identical (SHA-256 manifest, checked by "
          "`validate_all`), plus a git bundle with all branches and history. The archive is inert data; generators read it instead of a separate "
          "clone. The original GitHub repo stays untouched.", "",
-         "## Contents", "- [Pages](#pages)", "- [Decks](#decks)", "- [Pending legality](#pending-legality)", "- [What was left out](#what-was-left-out)", "",
+         "## Contents", "- [Pages](#pages)", "- [Decks](#decks)", "- [Project exceptions](#project-exceptions)", "- [Pending legality](#pending-legality)", "- [What was left out](#what-was-left-out)", "",
          "## Pages", "",
          "| Page | What it holds |", "|---|---|",
          "| [Grixis Integration Summary](Grixis%20Integration%20Summary.md) | What was integrated, what was generalized, and follow-ups |",
          "| [Grixis Mission](Grixis%20Mission.md) | Cory's commander-first mission and principles (Bot cycle 39) |",
+         "| [Grixis Authority Model](Grixis%20Authority%20Model.md) | Bot cycle 47 (M0): authority hierarchy, deck states, evidence classes, legality vs project authorization, Cory's binding rules, milestone acceptance criteria |",
+         "| [Grixis Authority Gap Analysis](Grixis%20Authority%20Gap%20Analysis.md) | The approved gap analysis of Cory's authority brief (24 sections) and the M0–M8 plan |",
          "| [Grixis Refinement Cycle](Grixis%20Refinement%20Cycle.md) | Commander-dependence and homogenization metrics for all 62 decks, batch log, per-deck swaps |",
-         "| [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md) | Archidekt import file per deck (final list) and ALL-DECKS.txt |",
+         "| [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md) | Archidekt import files, each labeled: source baseline (canonical) or GrokBot challenger (unapproved); derived compliance projections; `index.json` manifest |",
          "| [source-archive/](source-archive/README.md) | Full byte-identical archive of the source repo (Bot cycle 45): area map, SHA-256 manifest, history bundle |",
          f"| [Grixis Evaluation](Grixis%20Evaluation.md) | Check results for all {len(evaluation)} source lists, and how each current list was chosen |",
          f"| [Grixis Corrections](Grixis%20Corrections.md) | All {len(corrections)} corrections (deck, issue, fix), the Oracle-text check, source-repo structural findings |",
          f"| [Grixis Packages](Grixis%20Packages.md) | Cross-deck package library (cards shared by 4 or more of the {N} lists, by role) and verified rules insights |",
-         f"| [decks/](decks/) | {len(integrated)} deck pages: {N} validated (legal) + {len(pending)} ⏳ pending legality |", "",
+         f"| [decks/](decks/) | {len(integrated)} deck pages: {N} validated (legal) + {len(excd)} 🚩 with project exceptions + {len(pending)} ⏳ pending legality |", "",
          "## Decks", "",
          "*Themes* are the source's Archidekt tags where it recorded them. *Source bracket* is the source author's stated target (guidance). *Floor* is the minimum by the official barometers (Game Changers, mass land denial, two-card infinites).", "",
          "| Deck | Themes (source) | GC | Floor | Source bracket | Spellbook combos / 2-card ∞ | Lands | Avg MV | Fixes |", "|---|---|---|---|---|---|---|---|---|"]
     for did, d in sorted(legal.items(), key=lambda kv: kv[1]["commanders"][0]):
         R.append(f"| [{' + '.join(d['commanders'])}](decks/{d['slug']}.md) | {d['themes'] or '—'} | {len(d['gcs'])} | {d['cfloor']} | {d['src_claim'] or '—'} | {d['n_combos']} / {d['n_two']} | {d['lands']} | {d['avg_mv']:.2f} | {len(d['fixes'])} |")
+    R += ["", "## Project exceptions", "",
+          f"{len(excd)} deck(s) keep Cory-authorized project exceptions in their canonical project list. They are **not Commander-legal** and are not counted among the {N} legal decks above or in [Grixis Packages](Grixis%20Packages.md). Registry: `data/grixis/exceptions.json`; officially legal version: the deck page's derived compliance projection (not canonical).", "",
+          "| Deck | Exceptions (not Commander-legal) | GC | Floor | Source bracket | Lands |", "|---|---|---|---|---|---|"]
+    for did, d in sorted(excd.items(), key=lambda kv: kv[1]["commanders"][0]):
+        R.append(f"| 🚩 [{' + '.join(d['commanders'])}](decks/{d['slug']}.md) | {'; '.join(x['card'] + ' (' + x['official_commander_legality'].replace('_', ' ') + ')' for x in d['exceptions'])} | {len(d['gcs'])} | {d['cfloor']} | {d['src_claim'] or '—'} | {d['lands']} |")
     R += ["", "## Pending legality", "",
           f"{len(pending)} deck page(s) are published with `legality_status: pending`. They are **not counted** among the {N} legal decks above or in [Grixis Packages](Grixis%20Packages.md). Each lists the cards that are not Commander-legal yet. Activation: `python3 scripts/activate_pending_grixis.py` (Bot cycle 38).", "",
           "| Deck | Not yet legal | Legal from | GC | Floor | Source bracket | Lands |", "|---|---|---|---|---|---|---|"]
@@ -506,7 +552,7 @@ def main():
     R.append("")
     (OUT / "README.md").write_text("\n".join(R) + "\n", encoding="utf-8")
     with atomic_io.atomic_open(ROOT / "data/grixis_summary.json", "w") as fh:
-        json.dump({did: {k: d[k] for k in ("slug", "themes", "commanders", "ci", "gcs", "floor", "cfloor", "n_combos", "n_two", "src_claim", "lands", "avg_mv", "source_path")} | {"fixes": len(d["fixes"]), "legality_status": "pending" if d.get("pending") else "legal"}
+        json.dump({did: {k: d[k] for k in ("slug", "themes", "commanders", "ci", "gcs", "floor", "cfloor", "n_combos", "n_two", "src_claim", "lands", "avg_mv", "source_path")} | {"fixes": len(d["fixes"]), "legality_status": "pending" if d.get("pending") else "project_exception" if d.get("exceptions") else "legal"}
                    for did, d in integrated.items()}, fh, indent=1, ensure_ascii=False)
     print(json.dumps({"pages": len(integrated), "legal": len(legal), "pending": len(pending), "integrated": len(integrated), "left_out": len(evaluation) - len(integrated), "corrections": len(corrections), "kinds": kinds}, default=str))
 

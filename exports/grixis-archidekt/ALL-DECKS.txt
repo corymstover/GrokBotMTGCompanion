@@ -711,7 +711,6 @@
 1 Fabled Passage
 1 Feed the Swarm
 1 Fierce Guardianship
-1 Flame of Anor
 1 Frantic Search
 1 Goblin Electromancer
 1 Goblin Engineer
@@ -766,6 +765,7 @@
 1 Third Path Iconoclast
 1 Thought Vessel
 1 Toxic Deluge
+1 Trade Secrets
 1 Training Center
 1 Triskaidekaphile
 1 Underground River
@@ -776,8 +776,8 @@
 1 Wheel of Misfortune
 1 Whispering Madness
 1 Windfall
-1 Wizard Class
 1 Xander's Lounge
+1 Yawgmoth's Bargain
 
 ===== 09/62 — Cormela, Glamour Thief — unchanged (at/near ceiling) =====
 1 Cormela, Glamour Thief [Commander]

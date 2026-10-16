@@ -1093,7 +1093,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — Because targets are chosen for activated abilities before costs (such as "Sacrifice an artifact") are paid, Goblin Engineer's second ability can't target the artifact that will be sacrificed to pay its cost.
   - *2021-03-19* — If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0.
-- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 card data) → [reverse index](../../references/G.md#goblin-engineer)
+- **Referenced in:** 6 pages (4 decks · 1 edh guides · 1 card data) → [reverse index](../../references/G.md#goblin-engineer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/128/goblin-engineer) · oracle_id `c1d6cce8-085f-42cb-8b0c-b6fbbf88b16a` · printing: MH1 #128 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Festival

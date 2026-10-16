@@ -1304,9 +1304,9 @@ schema: 2
 
 ### Flame of Anor
 
-[Card entry](../cards/F/fl.md#flame-of-anor) · **4 pages** (decks 4)
+[Card entry](../cards/F/fl.md#flame-of-anor) · **3 pages** (decks 3)
 
-- **Decks (4):** [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Kykar, Wind's Fury](../decks/kykar-winds-fury.md) · [Niv-Mizzet, Parun](../decks/niv-mizzet-parun.md) · [Saruman, the White Hand (Grixis)](../grixis/decks/saruman-the-white-hand.md)
+- **Decks (3):** [Kykar, Wind's Fury](../decks/kykar-winds-fury.md) · [Niv-Mizzet, Parun](../decks/niv-mizzet-parun.md) · [Saruman, the White Hand (Grixis)](../grixis/decks/saruman-the-white-hand.md)
 
 ### Flame Rift
 

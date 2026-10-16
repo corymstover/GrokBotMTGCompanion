@@ -60,7 +60,8 @@ def deck_text(path):
 def decks_step():
     import evaluate_decklist as ev
     R = ev.Resolver()
-    bad, n, pending_n = [], 0, 0
+    import grixis_authority as ga
+    bad, n, pending_n, exc_n = [], 0, 0, 0
     pf = ROOT / "data" / "grixis_pending.json"
     pend_reg = json.loads(pf.read_text(encoding="utf-8"))["decks"] if pf.exists() else {}
     slugs = json.loads((ROOT / "data" / "grixis_summary.json").read_text(encoding="utf-8")) if (ROOT / "data" / "grixis_summary.json").exists() else {}
@@ -94,12 +95,31 @@ def decks_step():
                             bad.append(f"{rel}: pending card {n_} is already Commander-legal on Scryfall — run python3 scripts/activate_pending_grixis.py")
                 if did_of(p) and pend_reg.get(did_of(p), {}).get("status") != "pending":
                     bad.append(f"{rel}: page is pending but data/grixis_pending.json is not")
+            # Bot cycle 47 (M0): registered, Cory-authorized project exceptions are accepted on Commander legality only,
+            # never reported as legal: the page must carry the PROJECT EXCEPTIONS banner and must not claim "all checks pass".
+            did = did_of(p)
+            if did:
+                hard, acc = ga.accepted_hard_issues(did, hard)
+                comp_ban = [i for i in res["issues"] if i["type"] == "companion" and "banned as a companion" in i["detail"]]
+                ix = ga.exception_index()
+                for i in comp_ban:
+                    x = ix.get((did, i["card"]))
+                    if x and x["project_authorization_status"] == "AUTHORIZED_EXCEPTION" and x["zone"] == "companion":
+                        acc.append(i)
+                    else:
+                        bad.append(f"{rel}: [companion] {i['card']}: {i['detail']} (not a registered project exception)")
+                if acc:
+                    exc_n += len(acc)
+                    if "🚩 **PROJECT EXCEPTIONS — not Commander-legal.**" not in text or "Commander-legal, size (903.5a): ✅ **all checks pass**" in text:
+                        bad.append(f"{rel}: carries project exceptions ({', '.join(i['card'] for i in acc)}) but the page does not label them as not Commander-legal")
+                    if not re.search(r"^official_commander_compliance: not_compliant_project_exceptions$", text, re.M):
+                        bad.append(f"{rel}: project exceptions need front matter official_commander_compliance: not_compliant_project_exceptions")
             bad += [f"{rel}: [{i['type']}] {i['card']}: {i['detail']}" for i in hard]
             gcs = [r["name"] for r in res["cards"] if r["gc"] and r["zone"] != "companion"]
             fm = re.search(r"^game_changers: (\d+)", p.read_text(encoding="utf-8"), re.M)
             if fm and int(fm.group(1)) != len(gcs):
                 bad.append(f"{rel}: Game Changer drift — page says {fm.group(1)}, Scryfall flags now {len(gcs)} ({', '.join(gcs) or 'none'})")
-    return (1 if bad else 0), [f"decks: {n} lists re-checked against Scryfall bulk {R.bulk[:10]} ({pending_n} pending legality, accepted until legal_from); {len(bad)} problems"] + ["  - " + b for b in bad[:30]]
+    return (1 if bad else 0), [f"decks: {n} lists re-checked against Scryfall bulk {R.bulk[:10]} ({pending_n} pending legality, accepted until legal_from; {exc_n} registered project-exception card(s) accepted, labeled NOT Commander-legal); {len(bad)} problems"] + ["  - " + b for b in bad[:30]]
 
 
 def freshness_step(online, strict):

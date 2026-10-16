@@ -64,6 +64,8 @@ Every entry starts with a YAML block between `---` lines. Values are flat: strin
 | `lore_score` | float 0–100 | when applicable | Lore decks only (Bot cycle 23): % of non-basic cards (commander + non-lands + non-basic lands) that are story-linked. |
 | `lore_standard_met` | bool | when applicable | Lore decks only: lore_score ≥ 85 (the Lore-Themed Deckbuilding standard; enforced by `build_lore_decks.py --check`). |
 | `source_repo` | string | when applicable | Grixis decks only: the read-only source repository. |
+| `official_commander_compliance` | enum: not_compliant_project_exceptions | when applicable | Bot cycle 47 (M0): present only on decks whose canonical project list keeps Cory-authorized project exceptions (data/grixis/exceptions.json). Such a deck is never reported as legal; `validated` is false. Official Commander legality and project authorization are separate fields everywhere. |
+| `project_exceptions` | list of card names | when applicable | Bot cycle 47: the registered project-exception cards in this deck (not Commander-legal; companion bans included). |
 | `legality_status` | enum: pending | when applicable | Bot cycle 38: present only on decks published before some cards are Commander-legal (data/grixis_pending.json). validate_all accepts the listed cards only while legal_from is in the future. |
 | `legal_from` | date YYYY-MM-DD | when applicable | Pending decks only: the official date the not-yet-legal cards become Commander-legal (data/grixis_pending.json → legal_from_source; Bot cycle 44: Wizards' MBC announcement, 2026-11-13). |
 | `pending_cards` | list of card names | when applicable | Pending decks only: the cards that are not Commander-legal yet. |
@@ -307,6 +309,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `plane-tarkir` | 1 |
 | `plane-theros` | 1 |
 | `plane-zendikar` | 1 |
+| `project-exceptions` | 1 |
 | `rakdos` | 1 |
 | `selesnya` | 1 |
 | `simic` | 2 |

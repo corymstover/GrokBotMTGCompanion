@@ -133,6 +133,8 @@ SCHEMA = {
         "lore_score": ("float 0–100", False, "Lore decks only (Bot cycle 23): % of non-basic cards (commander + non-lands + non-basic lands) that are story-linked."),
         "lore_standard_met": ("bool", False, "Lore decks only: lore_score ≥ 85 (the Lore-Themed Deckbuilding standard; enforced by `build_lore_decks.py --check`)."),
         "source_repo": ("string", False, "Grixis decks only: the read-only source repository."),
+        "official_commander_compliance": ("enum: not_compliant_project_exceptions", False, "Bot cycle 47 (M0): present only on decks whose canonical project list keeps Cory-authorized project exceptions (data/grixis/exceptions.json). Such a deck is never reported as legal; `validated` is false. Official Commander legality and project authorization are separate fields everywhere."),
+        "project_exceptions": ("list of card names", False, "Bot cycle 47: the registered project-exception cards in this deck (not Commander-legal; companion bans included)."),
         "legality_status": ("enum: pending", False, "Bot cycle 38: present only on decks published before some cards are Commander-legal (data/grixis_pending.json). validate_all accepts the listed cards only while legal_from is in the future."),
         "legal_from": ("date YYYY-MM-DD", False, "Pending decks only: the official date the not-yet-legal cards become Commander-legal (data/grixis_pending.json → legal_from_source; Bot cycle 44: Wizards' MBC announcement, 2026-11-13)."),
         "pending_cards": ("list of card names", False, "Pending decks only: the cards that are not Commander-legal yet."),
@@ -280,6 +282,11 @@ def deck_fields(path, body):
     if pend:  # Bot cycle 38: pending-legality banner written by scripts/build_grixis.py
         f.update(legality_status="pending", legal_from=pend.group(1), pending_cards=re.findall(r"\*\*(.+?)\*\*", pend.group(2)))
         tags.append("pending-legality")
+    exc = re.search(r"PROJECT EXCEPTIONS — not Commander-legal\.\*\* .*?exception\(s\): (.*?)\. Official Commander compliance", body)
+    if exc:  # Bot cycle 47 (M0): project-exception banner written by scripts/build_grixis.py; never "legal"
+        f.update(official_commander_compliance="not_compliant_project_exceptions", project_exceptions=re.findall(r"\*\*(.+?)\*\*", exc.group(1)))
+        f["validated"] = False
+        tags.append("project-exceptions")
     if f.get("plane"):
         tags.append(f"plane-{f['plane']}")
     if f.get("theme"):
@@ -305,6 +312,8 @@ def deck_fm(path, body):
         lines.append(f"lore_standard_met: {'true' if (f['lore_score'] or 0) >= 85 else 'false'}")
     if f["kind"] == "grixis":
         lines.append("source_repo: corymstover/grixis-commander-encyclopediaGPT")
+    if f.get("official_commander_compliance"):
+        lines += [f"official_commander_compliance: {f['official_commander_compliance']}", f"project_exceptions: {ylist([q(c) for c in f['project_exceptions']])}"]
     if f.get("legality_status"):
         lines += [f"legality_status: {f['legality_status']}", f"legal_from: {f['legal_from']}", f"pending_cards: {ylist([q(c) for c in f['pending_cards']])}"]
     lines += [f"schema: {SCHEMA_VERSION}", "---", ""]

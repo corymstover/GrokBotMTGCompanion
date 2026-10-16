@@ -21,7 +21,7 @@ schema: 2
 ## Summary
 
 - Source lists: **62** (62 baseline FINAL lists; 62 have a newer user-approved list).
-- **Deck pages: 62/62** (60 legal + 2 ⏳ pending legality). **Integrated as legal: 60**, i.e. every approved list that passes or could be corrected to pass. **Pending legality: 2** (The Madcap Jester, legal from 2026-11-13, Tresserhorn's Lord, Returned, legal from 2026-11-13). **Left out: 0**.
+- **Deck pages: 62/62** (59 legal + 1 🚩 with project exceptions + 2 ⏳ pending legality). **Integrated as legal: 59**, i.e. every approved list that passes or could be corrected to pass. **With project exceptions: 1** (Bjorna, Nightfall Alchemist + Cecily, Haunted Mage; canonical project list keeps Cory-authorized exceptions, not Commander-legal, see [Grixis Authority Model](Grixis%20Authority%20Model.md#legality-model)). **Pending legality: {len(pending)}** (The Madcap Jester, legal from 2026-11-13, Tresserhorn's Lord, Returned, legal from 2026-11-13). **Left out: 0**.
 - Hard problems found across all 62: 3× not Commander-legal, 2× banned.
 - Oracle check: 17,683 Oracle-text rows in 46 source audit files; **0 differ** from current Oracle.
 
@@ -36,7 +36,7 @@ schema: 2
 | 5 | `Ashad__the_Lone_Cyberman` | Ashad, the Lone Cyberman | APPROVED | 100 | — | 3 | ✅ [integrated](decks/ashad-the-lone-cyberman.md) |
 | 6 | `Ashnod_the_Uncaring` | Ashnod the Uncaring | APPROVED | 100 | — | 6 | ✅ [integrated](decks/ashnod-the-uncaring.md) |
 | 7 | `Be_lakor__the_Dark_Master` | Be'lakor, the Dark Master | APPROVED | 100 | — | 5 | ✅ [integrated](decks/belakor-the-dark-master.md) |
-| 8 | `Cecily__Bjorna__Lutri` | Bjorna, Nightfall Alchemist + Cecily, Haunted Mage | APPROVED | 100 | banned: Trade Secrets; banned: Yawgmoth's Bargain | 10 | ✅ [integrated](decks/bjorna-nightfall-alchemist-cecily.md) |
+| 8 | `Cecily__Bjorna__Lutri` | Bjorna, Nightfall Alchemist + Cecily, Haunted Mage | APPROVED | 100 | banned: Trade Secrets; banned: Yawgmoth's Bargain | 10 | 🚩 [integrated with project exceptions](decks/bjorna-nightfall-alchemist-cecily.md) (not Commander-legal: Lutri, the Spellchaser, Trade Secrets, Yawgmoth's Bargain) |
 | 9 | `Cormela__Glamour_Thief` | Cormela, Glamour Thief | APPROVED | 100 | — | 20 | ✅ [integrated](decks/cormela-glamour-thief.md) |
 | 10 | `Crosis__the_Purger` | Crosis, the Purger | APPROVED | 100 | — | 14 | ✅ [integrated](decks/crosis-the-purger.md) |
 | 11 | `Cult_of_Skaro` | Cult of Skaro | APPROVED | 100 | — | 3 | ✅ [integrated](decks/cult-of-skaro.md) |

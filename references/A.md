@@ -2643,10 +2643,10 @@ schema: 2
 
 ### Arena of Glory
 
-[Card entry](../cards/A/are.md#arena-of-glory) · **13 pages** (decks 10 · edh guides 1 · rules 1 · card data 1)
+[Card entry](../cards/A/are.md#arena-of-glory) · **14 pages** (decks 10 · edh guides 2 · rules 1 · card data 1)
 
 - **Decks (10):** [Cult of Skaro (Grixis)](../grixis/decks/cult-of-skaro.md) · [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md) · [Jeleva, Nephalia's Scourge (Grixis)](../grixis/decks/jeleva-nephalias-scourge.md) · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../grixis/decks/kefka-court-mage.md) · [Krenko, Mob Boss](../decks/krenko-mob-boss.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md) · [Nicol Bolas (Grixis)](../grixis/decks/nicol-bolas.md) · [Obeka, Brute Chronologist (Grixis)](../grixis/decks/obeka-brute-chronologist.md) · [Obeka, Splitter of Seconds (Grixis)](../grixis/decks/obeka-splitter-of-seconds.md)
-- **EDH guides (1):** [EDH Mana Bases → Red R](../EDH%20Mana%20Bases.md#red-r)
+- **EDH guides (2):** [EDH Mana Bases → Red R](../EDH%20Mana%20Bases.md#red-r) · [Grixis Packages → Land](../grixis/Grixis%20Packages.md#land)
 - **Rules (1):** [Keyword Encyclopedia → Exert](../Keyword%20Encyclopedia.md#exert)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j)
 

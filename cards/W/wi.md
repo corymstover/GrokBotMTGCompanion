@@ -5549,7 +5549,7 @@ schema: 2
   - *2021-07-23* — Some Class cards have an effect that increases when more are under your control. For example, if you have multiple Barbarian Class cards, you roll that many additional dice and ignore that many of the lowest rolls.
   - *2021-07-23* — You can multiclass or even control multiple Class enchantments of the same class. Each Class permanent tracks its own level separately.
   - *2021-07-23* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
-- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/W.md#wizard-class)
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/W.md#wizard-class)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/81/wizard-class) · oracle_id `36f68aa3-9955-46f1-bc87-497f16ef5222` · printing: AFR #81 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wizard from Beyond
