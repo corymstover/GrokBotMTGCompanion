@@ -30,7 +30,7 @@ def test_every_deck_has_a_valid_graph_covering_its_list():
 
 def test_combo_pieces_break_their_combos_and_substitutes_are_detected():
     d = load("wick-the-whorled-mind")
-    combos = {x["name"]: x for x in d["nodes"] if x["kind"] == "combo" and ":" not in x["name"]}
+    combos = {x["name"]: x for x in d["nodes"] if x["kind"] == "combo" and x.get("layer") != "m1"}  # Spellbook, not M1 hubs
     pieces = {}
     for e in d["edges"]:
         if e["layer"] == "spellbook" and e["kind"] == "piece_of":
