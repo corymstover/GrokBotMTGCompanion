@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -404,6 +405,19 @@ This deck is frozen for the current cycle and must not be modified unless the us
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 51 interaction review: **11 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Mairsil, the Pretender — Interaction Review](../interactions/mairsil-the-pretender.md).
+
+- **Cage from hand or graveyard; one activation per caged ability instance per turn** — Gains caged cards' activated abilities only; self-references mean Mairsil; once per instance per turn. ([mairsil-01](../interactions/mairsil-the-pretender.md#mairsil-01-cage-from-hand-or-graveyard-one-activation-per-caged-ability-instance-per-turn))
+- **Quicksilver Elemental + Gilded Lotus + Morphling / Horseshoe Crab / Staff of Domination** — QE re-grants Mairsil its own abilities: Lotus + untapper = infinite blue mana. ([mairsil-02](../interactions/mairsil-the-pretender.md#mairsil-02-quicksilver-elemental--gilded-lotus--morphling--horseshoe-crab--staff-of-domination))
+- **Tree of Perdition + Hateflayer: swap life, then {Q} for power** — Tree swaps opponent to Mairsil's toughness; Hateflayer {Q} deals its power. ([mairsil-03](../interactions/mairsil-the-pretender.md#mairsil-03-tree-of-perdition--hateflayer-swap-life-then-q-for-power))
+
+**Flags for later refinement** (no list change in this phase):
+- ⚠️ uncertain Marvin, Murderous Mimic copies Mairsil's acquired abilities — without the once-per-turn limit?: No official ruling on whether Mairsil's once-each-turn restriction applies to Marvin's instances; this list's Marvin line depends on it. ([mairsil-10](../interactions/mairsil-the-pretender.md#mairsil-10-marvin-murderous-mimic-copies-mairsils-acquired-abilities--without-the-once-per-turn-limit))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

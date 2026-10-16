@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 51 (phase 2 / M1: batch D)](#2026-10-16--bot-cycle-51-phase-2--m1-batch-d)
 - [2026-10-16 — Bot cycle 49 (phase 2 / M1: batch C; M0 follow-ups)](#2026-10-16--bot-cycle-49-phase-2--m1-batch-c-m0-follow-ups)
 - [2026-10-16 — Bot cycle 48 (phase 2 / M1: Spellbook step cache, batch B)](#2026-10-16--bot-cycle-48-phase-2--m1-spellbook-step-cache-batch-b)
 - [2026-10-16 — Bot cycle 47 (M0: Grixis authority foundation)](#2026-10-16--bot-cycle-47-m0-grixis-authority-foundation)
@@ -64,6 +65,32 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 51 (phase 2 / M1: batch D)
+- **Batch D is done** (the next 10 decks alphabetically, Mairsil through Nicol Bolas): **92 rulings** (86 verified, 1 uncertain, 5 flags). Overall: 42/62 decks and 467 rulings. Each review hashes the deck's canonical project list from the M0 registry (read-only). Nicol Bolas uses its source baseline (No Mercy kept; the challenger's No Mercy → Megrim swap isn't canonical). Every record carries an `evidence_class`. No decklist changed.
+- **Flags** (pilot notes, not list errors):
+  - Mishra, Artificer Prodigy: your own stax (Blood Funnel, Nether Void, Nullstone Gargoyle, Planar Chaos, Possibility Storm) hits your own instants and sorceries. Possibility Storm stops overloaded Vandalblast. (anti-synergy)
+  - Mishra, Artificer Prodigy: Void Mirror and Vexing Bauble break the Top/KCI loops when Mishra is gone. (dependency-risk)
+  - Nathan Drake: Dauthi Voidwalker starves Tinybones. (anti-synergy)
+  - Nekusar: Krang doubles Spiteful Visions and Phyrexian Tyranny on your own draws. (dependency-risk)
+  - Nicol Bolas: Chandra's Ignition off Nicol also wipes your own creature payoffs. (anti-synergy)
+- **Uncertain:** mairsil-10, Marvin's unrestricted copies of caged abilities (no official ruling). **Hypothesis:** bolasrav-04, the Rings + Chain Veil + Teferi, Temporal Archmage variant (rules-derived; Spellbook 787-1124 covers only the base Veil + Teferi line).
+- **Rules surprises:**
+  - A caged Asmodeus draws seven for real, and a caged Wishclaw can't be activated.
+  - Spellskite is a crime for Marchesa, Dealer of Death even with no target to change. Brain Freeze's storm copies aren't crimes.
+  - Uncivil Unrest doubles only the first Murderous Redcap shot.
+  - A Chalice that Mishra returns enters at X=0.
+  - Helm copies of a Warform keep the 4/4 body but lose haste.
+  - Face-down Cybermen don't loop until turned face up.
+  - Nathan's own top card is exiled for good if you don't cast it.
+  - Krang doesn't add to Nekusar's draw-step trigger.
+  - Kitten on the Arisen returns the front-face Ravager and strips its Talents.
+  - Copied loyalty abilities don't move loyalty.
+  - Kediss's spread damage is noncombat (no commander damage, no retrigger).
+  - Pain for All triggers once for several blockers.
+- **Coordination:** Bot cycle 50 belongs to the parallel M2 blueprints work. This cycle didn't touch `refinement/blueprints/*`, `data/grixis/registry*`, schemas, `grixis_refine.py` or the exception data. The registry was only read.
+- **Files:** `data/grixis_interactions/` (10 new reviews), `_batches.json` (D done), the rendered pages, deck-page Rules notes, `grixis/interactions/README.md`, `README.md`, `grixis/Grixis Integration Summary.md`.
+- **Next:** batches E–F (20 decks; Norman Osborn, Sol'kanar the Swamp King and The Rani are on source baselines).
 
 ## 2026-10-16 — Bot cycle 49 (phase 2 / M1: batch C; M0 follow-ups)
 - **Batch C is done** (the next 10 decks alphabetically, Gwendlyn Di Corci through Mai and Zuko): **99 rulings** (94 verified, 1 uncertain, 4 flags). Overall: 32/62 decks and 375 rulings. Every batch-C deck's source attestation JSON is re-verified item by item. No decklist changed.

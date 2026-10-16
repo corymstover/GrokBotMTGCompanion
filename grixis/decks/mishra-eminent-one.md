@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -476,6 +477,16 @@ This deck is now locked. Do not revise, reopen, or replace it unless the user ex
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Mishra_Eminent_One_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Mishra_Eminent_One_Approval_Ready_Verification_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 51 interaction review: **9 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Mishra, Eminent One — Interaction Review](../interactions/mishra-eminent-one.md).
+
+- **Mishra's Warform: a hasty 4/4 copy of a noncreature artifact, sacrificed at end step** — Hasty 4/4 token copy (renamed Mishra's Warform) keeps abilities and mana value; sacrificed at end step. ([mishraeo-01](../interactions/mishra-eminent-one.md#mishraeo-01-mishras-warform-a-hasty-44-copy-of-a-noncreature-artifact-sacrificed-at-end-step))
+- **Gonti's Aether Heart infinite turns: Determined Iteration / Strionic Resonator / Lithoform Engine / Worldwalker Helm / Brudiclad** — Warform Heart + one more artifact ETB = 8 energy → exile the Warform for an extra turn, every turn. ([mishraeo-02](../interactions/mishra-eminent-one.md#mishraeo-02-gontis-aether-heart-infinite-turns-determined-iteration--strionic-resonator--lithoform-engine--worldwalker-helm--brudiclad))
+- **Worldwalker Helm + Urza + Thousand-Year Elixir: infinite Warforms, Maps and {U}** — Warform Helm copies itself; Urza taps the Maps for {U}; Elixir lets copies tap = infinite. ([mishraeo-03](../interactions/mishra-eminent-one.md#mishraeo-03-worldwalker-helm--urza--thousand-year-elixir-infinite-warforms-maps-and-u))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

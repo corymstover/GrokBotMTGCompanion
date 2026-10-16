@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -550,6 +551,16 @@ This approval freezes `refinement/decklists/Nicol_Bolas_the_Ravager_Approved_202
 
 - [refinement/verification/Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Nicol_Bolas_the_Ravager_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nicol_Bolas_the_Ravager_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 51 interaction review: **8 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen — Interaction Review](../interactions/nicol-bolas-the-ravager.md).
+
+- **Transform by exile-and-return: the Arisen is a new object and can use loyalty right away** — Exile + return transformed = fresh Arisen that can activate loyalty at once; Training Grounds makes it 5 mana. ([bolasrav-01](../interactions/nicol-bolas-the-ravager.md#bolasrav-01-transform-by-exile-and-return-the-arisen-is-a-new-object-and-can-use-loyalty-right-away))
+- **Copied loyalty abilities don't cost loyalty: Rowan's Talent, Rings of Brighthearth, Jaya's Phoenix** — Copies of loyalty abilities add or remove no loyalty: +2 draws 4, −3 hits twice, −4 reanimates two. ([bolasrav-03](../interactions/nicol-bolas-the-ravager.md#bolasrav-03-copied-loyalty-abilities-dont-cost-loyalty-rowans-talent-rings-of-brighthearth-jayas-phoenix))
+- **Teferi, Temporal Archmage + The Chain Veil (+ Rings)** — Chain Veil + Teferi −1 untap loop; with Rings, two Veil resolutions per {6} keep Teferi's loyalty level. ([bolasrav-04](../interactions/nicol-bolas-the-ravager.md#bolasrav-04-teferi-temporal-archmage--the-chain-veil--rings))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

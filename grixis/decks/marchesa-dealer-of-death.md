@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -433,6 +434,16 @@ This deck is now locked. Do not revise, reopen, or replace it unless the user ex
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 51 interaction review: **8 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Marchesa, Dealer of Death — Interaction Review](../interactions/marchesa-dealer-of-death.md).
+
+- **Crimes: one per spell or ability, on cast or activation, before it resolves** — Any opposing target = one crime; {1} for top-two selection, resolving before the crime. ([marchdod-01](../interactions/marchesa-dealer-of-death.md#marchdod-01-crimes-one-per-spell-or-ability-on-cast-or-activation-before-it-resolves))
+- **Free repeatable crimes: Spatial Binding, Hex Parasite (X=0), Spellskite** — Spatial Binding (1 life), Hex Parasite X=0 / Spellskite (2 life) = repeatable crimes. ([marchdod-02](../interactions/marchesa-dealer-of-death.md#marchdod-02-free-repeatable-crimes-spatial-binding-hex-parasite-x0-spellskite))
+- **Aphetto Alchemist + Hawkeye's Bow: infinite pings** — Bow on Alchemist, Alchemist untaps itself = infinite pings; not crimes. ([marchdod-04](../interactions/marchesa-dealer-of-death.md#marchdod-04-aphetto-alchemist--hawkeyes-bow-infinite-pings))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

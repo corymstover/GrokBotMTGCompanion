@@ -1,0 +1,420 @@
+{
+ "schema": 1,
+ "deck_id": "Nicol_Bolas",
+ "slug": "nicol-bolas",
+ "commanders": [
+  "Nicol Bolas"
+ ],
+ "deck_sha256": "1c271131d2cb3f824a292391932dbb111c3eb9653051424c16db76a6c16e91b0",
+ "list_source": "exports/grixis-archidekt/source-baseline/nicol-bolas.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 51,
+ "batch": "D",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/Nicol_Bolas_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification sections 5–16"
+  },
+  {
+   "path": "refinement/verification/Nicol_Bolas_Whole_List_Audit_2026-10-15.md",
+   "note": "Whole-list audit (Megrim cut rationale)"
+  }
+ ],
+ "summary": "Nicol Bolas's trigger works on any damage he deals to an opponent, so the list makes him the source of non-combat, table-wide damage. That damage comes from Ingris, Kediss, Dragon Tempest, Chandra's Ignition, Pain for All, Dagger and Longbow. The list then pays off each discarded card (Sangromancer, Waste Not, Geth's Grimoire, Raiders' Wake, Tinybones). The one Spellbook combo is Sword of Feast and Famine + Aggravated Assault.\n\nRules surprises: Kediss's extra damage is noncombat (no commander damage, no retrigger); Pain for All triggers once for several blockers, even on lethal damage; Sangromancer still triggers for opponents' creatures that die alongside it. Flag: Ignition also wipes your own creature payoffs. The canonical list keeps No Mercy, not the challenger's Megrim.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "bolas-01",
+   "category": "commander",
+   "title": "Nicol Bolas: any damage to an opponent empties that hand; the upkeep tax and Command Beacon",
+   "cards": [
+    "Nicol Bolas",
+    "Command Beacon"
+   ],
+   "ruling": "Nicol's discard trigger works on any damage he deals to an opponent, not just combat damage. Each opponent he damages gets a separate trigger. Each upkeep you either pay {U}{B}{R} or sacrifice him. If you sacrifice him, you may put him in the command zone, and recasting him then costs {2} more each time. Command Beacon puts him in your hand. A cast from hand has no commander tax and doesn't add to it.",
+   "short": "Any Nicol-sourced damage to an opponent = discard hand; Command Beacon dodges commander tax.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2c",
+    "903.8",
+    "903.9a"
+   ],
+   "oracle": [
+    {
+     "card": "Nicol Bolas",
+     "quote": "Whenever Nicol Bolas deals damage to an opponent, that player discards their hand."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Nicol Bolas",
+     "quote": "Nicol Bolas's third ability triggers whenever it deals damage to an opponent for any reason. It's not limited to combat damage."
+    },
+    {
+     "card": "Command Beacon",
+     "quote": "If you cast a commander from your hand, the additional cost based on the number of times you've cast it from your command zone (sometimes referred to as the \"commander tax\") doesn't apply. Additionally, that casting won't add to the tax if you later cast the commander from the command zone."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Nicol Bolas's discard ability triggers whenever **Nicol Bolas deals damage to an opponent for any reason**, not only combat damage."
+    }
+   ]
+  },
+  {
+   "id": "bolas-02",
+   "category": "trigger-order",
+   "title": "Ingris, Kediss and Dragon Tempest make Nicol the source of table-wide damage",
+   "cards": [
+    "Nicol Bolas",
+    "Ingris Stingerquill",
+    "Kediss, Emberclaw Familiar",
+    "Dragon Tempest",
+    "Cavern of Souls"
+   ],
+   "ruling": "Here's how each card makes Nicol deal damage:\n- **Ingris:** when Nicol attacks, he deals 1 damage to each opponent. That happens before blockers, so the whole table discards even if he's later blocked.\n- **Kediss:** when Nicol deals combat damage to one opponent, he deals the same amount to each other opponent. That extra damage is noncombat, so it doesn't count as commander damage and doesn't retrigger Kediss. It still makes every opponent discard.\n- **Dragon Tempest:** gives Nicol haste when he enters and has him deal X damage to any target. X is counted when the trigger resolves, and the damage happens even if Nicol has left by then.\n\nIngris is an Elder Sphinx, so Cavern of Souls naming Elder covers both Ingris and Nicol.",
+   "short": "Ingris (on attack), Kediss (combat→each other opponent) and Dragon Tempest (on ETB) all make Nicol the damage source.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "508.1m",
+    "510.2",
+    "603.2c"
+   ],
+   "oracle": [
+    {
+     "card": "Ingris Stingerquill",
+     "quote": "Whenever a creature you control attacks, that creature deals 1 damage to each opponent."
+    },
+    {
+     "card": "Kediss, Emberclaw Familiar",
+     "quote": "Whenever a commander you control deals combat damage to an opponent, it deals that much damage to each other opponent."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Kediss, Emberclaw Familiar",
+     "quote": "The damage the commander deals as a result of Kediss's triggered ability isn't combat damage. It isn't tracked with combat damage dealt by commanders and won't cause Kediss's ability to trigger again."
+    },
+    {
+     "card": "Dragon Tempest",
+     "quote": "If a Dragon entering the battlefield causes Dragon Tempest’s second ability to trigger but leaves the battlefield before that ability resolves, that Dragon still deals damage."
+    },
+    {
+     "card": "Dragon Tempest",
+     "quote": "The two abilities aren’t mutually exclusive. If a Dragon with flying (which is most of them) enters the battlefield under your control, both abilities will trigger."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Ingris is also an Elder creature, so Cavern of Souls naming Elder can cast both Nicol Bolas and Ingris with uncounterable colored mana."
+    }
+   ]
+  },
+  {
+   "id": "bolas-03",
+   "category": "engine",
+   "title": "Chandra's Ignition, Pain for All, Quicksilver Dagger, Viridian Longbow and Curiosity: the creature is the source",
+   "cards": [
+    "Nicol Bolas",
+    "Chandra's Ignition",
+    "Pain for All",
+    "Quicksilver Dagger",
+    "Viridian Longbow",
+    "Curiosity"
+   ],
+   "ruling": "Each of these has the enchanted, equipped or targeted creature deal the damage, so Nicol's trigger applies:\n- **Chandra's Ignition:** Nicol deals 7 to each opponent, using his power when it resolves.\n- **Pain for All:** its ETB damage makes Nicol deal 7. After that, whenever Nicol is dealt damage, he deals that much to each opponent. Damage from several sources at once, like multiple blockers, triggers it only once with the total. It still triggers if the damage is lethal.\n- **Quicksilver Dagger and Viridian Longbow:** tap to ping for 1 without attacking.\n- **Curiosity:** draws one card per damage event to an opponent, combat or not. It doesn't trigger on damage to planeswalkers.",
+   "short": "All five make Nicol the source; Pain for All reflects once per damage event, even lethal.",
+   "status": "verified",
+   "cr": [
+    "120.2",
+    "603.2c"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Chandra's Ignition",
+     "quote": "The creature is the source of the damage, not Chandra's Ignition. For example, Chandra's Ignition can have a white creature deal damage to a creature with protection from red."
+    },
+    {
+     "card": "Quicksilver Dagger",
+     "quote": "The enchanted creature is the source of both the damage ability and the resulting damage, not Quicksilver Dagger."
+    },
+    {
+     "card": "Pain for All",
+     "quote": "If lethal damage is dealt to the enchanted creature, Pain for All’s last ability still triggers."
+    },
+    {
+     "card": "Pain for All",
+     "quote": "If the enchanted creature is dealt damage by multiple sources at once, such as by two creatures blocking it, Pain for All’s last ability triggers only once. When that triggered ability resolves, the enchanted creature deals damage equal to the total amount of damage dealt to it to each opponent."
+    },
+    {
+     "card": "Curiosity",
+     "quote": "Any damage dealt by the enchanted creature to an opponent will cause Curiosity to trigger, not just combat damage."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "The creature, not the sorcery, is the damage source."
+    }
+   ]
+  },
+  {
+   "id": "bolas-04",
+   "category": "dependency",
+   "title": "Chandra's Ignition also hits your own creatures",
+   "cards": [
+    "Nicol Bolas",
+    "Chandra's Ignition",
+    "Ingris Stingerquill",
+    "Kediss, Emberclaw Familiar",
+    "Sangromancer",
+    "Tinybones, Bauble Burglar",
+    "Tinybones, Trinket Thief",
+    "Notion Thief",
+    "Hypnotic Specter"
+   ],
+   "ruling": "Ignition has Nicol deal 7 damage to each other creature, yours included. It kills Ingris, Kediss, Sangromancer, both Tinybones, Notion Thief and Hypnotic Specter along with the opponents' board. There's one upside: Sangromancer's dies trigger looks back in time, so it still triggers for each opponent's creature that dies alongside it. Cast Ignition as a reset when your own payoffs aren't needed, not as a free hand wipe.",
+   "short": "Ignition with Nicol is a one-sided hand wipe but a symmetric creature wipe.",
+   "status": "flag",
+   "flag": {
+    "kind": "anti-synergy",
+    "note": "Chandra's Ignition with Nicol (7 power) kills every one of your own creature payoffs (Ingris, Kediss, Sangromancer, both Tinybones, Notion Thief, Hypnotic Specter). It's a sequencing cost to document, not a list error."
+   },
+   "cr": [
+    "603.10a"
+   ],
+   "oracle": [
+    {
+     "card": "Chandra's Ignition",
+     "quote": "Target creature you control deals damage equal to its power to each other creature and each opponent."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Sangromancer",
+     "quote": "If one or more creatures an opponent controls are put into the graveyard at the same time as Sangromancer, Sangromancer's first ability will trigger that many times."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "This simultaneously acts as a commander-native table hand wipe and a broad creature sweeper."
+    }
+   ]
+  },
+  {
+   "id": "bolas-05",
+   "category": "trigger-order",
+   "title": "Whole-hand discard sets off per-card payoffs",
+   "cards": [
+    "Nicol Bolas",
+    "Sangromancer",
+    "Waste Not",
+    "Geth's Grimoire",
+    "Raiders' Wake",
+    "Tinybones, Bauble Burglar",
+    "Tinybones, Trinket Thief"
+   ],
+   "ruling": "\"Discards their hand\" is one event made of many discards. Each \"whenever an opponent discards a card\" ability triggers once per card. A five-card hand gives five Sangromancer triggers (3 life each), five Geth's Grimoire draws, five Raiders' Wake losses of 2 life, and five Tinybones exiles. Waste Not triggers once per card too, by card type. Tinybones, Trinket Thief checks only once, at the end step, whether anyone discarded.",
+   "short": "One hand wipe = one trigger per discarded card for every per-card payoff.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "oracle": [
+    {
+     "card": "Sangromancer",
+     "quote": "Whenever an opponent discards a card, you may gain 3 life."
+    },
+    {
+     "card": "Raiders' Wake",
+     "quote": "Whenever an opponent discards a card, that player loses 2 life."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "A five-card hand discarded through Nicol therefore creates five separate Sangromancer triggers for that opponent."
+    }
+   ]
+  },
+  {
+   "id": "bolas-06",
+   "category": "trigger-order",
+   "title": "Tinybones, Bauble Burglar vs Tergrid on the same discarded permanent",
+   "cards": [
+    "Nicol Bolas",
+    "Tinybones, Bauble Burglar",
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "ruling": "When an opponent discards a permanent card, both Tinybones (exile it) and Tergrid (put it onto the battlefield) trigger. You control both, so you choose their order on the stack, and the one that resolves first gets the card. Use Tergrid for permanents you want right away. Use Tinybones for spells, or permanents you'd rather cast later on your turn, paying their costs and following timing rules.",
+   "short": "Both trigger; you order them and only the first gets the card.",
+   "status": "verified",
+   "cr": [
+    "603.3b"
+   ],
+   "oracle": [
+    {
+     "card": "Tinybones, Bauble Burglar",
+     "quote": "Whenever an opponent discards a card, exile it from their graveyard with a stash counter on it."
+    },
+    {
+     "card": "Tergrid, God of Fright // Tergrid's Lantern",
+     "quote": "Whenever an opponent sacrifices a nontoken permanent or discards a permanent card, you may put that card from a graveyard onto the battlefield under your control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Tinybones, Bauble Burglar",
+     "quote": "You pay all costs and follow all normal timing rules for cards played with the permission granted by Tinybones's second ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "If Tergrid moves the permanent first, Tinybones can no longer exile that card from the graveyard; if Tinybones exiles it first, Tergrid can no longer return it from the graveyard."
+    }
+   ]
+  },
+  {
+   "id": "bolas-07",
+   "category": "combo",
+   "title": "Sword of Feast and Famine + Aggravated Assault: infinite combats",
+   "cards": [
+    "Nicol Bolas",
+    "Sword of Feast and Famine",
+    "Aggravated Assault"
+   ],
+   "ruling": "When the Sword-equipped attacker deals combat damage to a player, the Sword untaps all your lands. That happens even if the player has no cards to discard, which is usually the case after Nicol's own trigger. In the postcombat main phase, tap at least {3}{R}{R} from lands for Aggravated Assault. That untaps your creatures and adds another combat and main phase. Repeat as long as the attacker keeps connecting. Mana from lands tapped while the Sword trigger is on the stack is lost at the end of the combat damage step, so tap for Assault in the main phase. Pro-black and the Sword's +2/+2 on Nicol (9/9) help him connect.",
+   "short": "Spellbook 900-3750: Sword untaps lands, Assault adds combats; repeat while you connect.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "506.1",
+    "500.8"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Sword of Feast and Famine",
+     "quote": "You'll untap all lands you control even if the player can't discard a card."
+    },
+    {
+     "card": "Sword of Feast and Famine",
+     "quote": "You can tap your lands for mana while the triggered ability is on the stack. However, you'll lose any mana you produce this way if you don't spend it before the end of the current combat damage step."
+    },
+    {
+     "card": "Aggravated Assault",
+     "quote": "If you have enough mana, the ability may be activated more than once in a turn."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "900-3750",
+     "quote": "Activate Aggravated Assault by paying {3}{R}{R}, untapping all creatures you control and causing you to get an additional combat and main phase after this phase."
+    },
+    {
+     "id": "900-3750",
+     "quote": "Lands you control can tap to produce at least {3}{R}{R}."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "If the equipped attacker connects and the untapped lands can produce at least five usable mana in the following main phase, Aggravated Assault can create another combat."
+    }
+   ]
+  },
+  {
+   "id": "bolas-08",
+   "category": "timing",
+   "title": "Haste for an eight-drop: Arena of Glory, Dragon Tempest, Greaves/Boots, Hall of the Bandit Lord",
+   "cards": [
+    "Nicol Bolas",
+    "Arena of Glory",
+    "Dragon Tempest",
+    "Lightning Greaves",
+    "Swiftfoot Boots",
+    "Hall of the Bandit Lord"
+   ],
+   "ruling": "Arena of Glory's exert mana gives haste to a creature spell it helps pay for, including any part of an additional cost. The mana itself can be spent on anything. Exert means Arena stays tapped during your next untap step. Arena enters untapped only if you already control a Mountain; one entering at the same time doesn't count. Dragon Tempest gives Nicol haste as he enters because he has flying.",
+   "status": "verified",
+   "cr": [
+    "702.10"
+   ],
+   "oracle": [
+    {
+     "card": "Arena of Glory",
+     "quote": "{R}, {T}, Exert this land: Add {R}{R}. If any of that mana is spent on a creature spell, it gains haste until end of turn. (An exerted permanent won't untap during your next untap step.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Arena of Glory",
+     "quote": "If mana generated with Arena of Glory's last ability is spent to pay any part of a creature spell's cost, including an alternative or additional cost, that creature spell (and the resulting creature) will gain haste until end of turn."
+    },
+    {
+     "card": "Arena of Glory",
+     "quote": "You must already control a Mountain as Arena of Glory enters the battlefield for it to enter untapped. If it enters the battlefield at the same time as a Mountain when you control no other Mountains, it will enter tapped."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Arena of Glory can grant Nicol haste when its exerted mana is spent on his creature spell."
+    }
+   ]
+  },
+  {
+   "id": "bolas-09",
+   "category": "dependency",
+   "title": "No Mercy is symmetric toward your own creatures (canonical list keeps No Mercy, not Megrim)",
+   "cards": [
+    "Nicol Bolas",
+    "No Mercy"
+   ],
+   "ruling": "No Mercy destroys any creature that deals damage to you, including your own creatures. Nothing in this list makes your own creatures damage you, so in practice it only punishes attackers. The canonical source-baseline list keeps No Mercy, and Megrim was cut for Sangromancer. The later challenger swap (No Mercy → Megrim) is not in the canonical list, so this review covers No Mercy.",
+   "short": "No Mercy also hits your own creatures, but nothing here makes them damage you.",
+   "status": "verified",
+   "cr": [],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "No Mercy",
+     "quote": "No Mercy’s ability triggers whenever any creature, including creatures you control, deals damage to you, not only combat damage."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_Whole_List_Audit_2026-10-15.md",
+     "quote": "| Megrim | Redundant three-mana version of retained Liliana's Caress; Sangromancer adds a distinct discard payoff instead. |"
+    }
+   ]
+  }
+ ]
+}

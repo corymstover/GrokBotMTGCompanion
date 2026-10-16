@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -492,6 +493,16 @@ This approval freezes `refinement/decklists/Missy_Approved_2026-10-15.txt` as th
 
 - [refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Missy_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Missy_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 51 interaction review: **9 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Missy — Interaction Review](../interactions/missy.md).
+
+- **Any nonartifact creature that dies returns to you face down as a 2/2 Cyberman artifact** — Nonartifact deaths return to you as face-down 2/2 artifact Cybermen; face-down Cybermen don't loop until turned face up. ([missy-01](../interactions/missy.md#missy-01-any-nonartifact-creature-that-dies-returns-to-you-face-down-as-a-22-cyberman-artifact))
+- **Free morph loops: Ruthless Ripper / Dragon's Eye Savants / Horde Ambusher + free sac outlet** — Sac → Missy returns face down → reveal-cost morph face up for free → repeat. ([missy-02](../interactions/missy.md#missy-02-free-morph-loops-ruthless-ripper--dragons-eye-savants--horde-ambusher--free-sac-outlet))
+- **Wipes and edicts become theft: Delete, Their Name Is Death, Doomsday Confluence, Grave Pact, Accursed Marauder** — Nonartifact wipes/edicts spare your Cybermen and hand you their creatures; Missy sees simultaneous deaths. ([missy-05](../interactions/missy.md#missy-05-wipes-and-edicts-become-theft-delete-their-name-is-death-doomsday-confluence-grave-pact-accursed-marauder))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

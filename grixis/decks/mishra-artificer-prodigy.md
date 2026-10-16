@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -462,6 +463,20 @@ This deck is now locked. Do not revise, reopen, or replace it unless the user ex
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Mishra_Artificer_Prodigy_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Mishra_Artificer_Prodigy_Approval_Ready_Verification_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 51 interaction review: **10 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Mishra, Artificer Prodigy — Interaction Review](../interactions/mishra-artificer-prodigy.md).
+
+- **In singleton, Mishra only finds the spell itself after it's countered or moved** — Singleton: Mishra hits only once your own trigger counters or tucks the spell; order Mishra below it. ([mishraap-01](../interactions/mishra-artificer-prodigy.md#mishraap-01-in-singleton-mishra-only-finds-the-spell-itself-after-its-countered-or-moved))
+- **Self-counters as parity breakers: Blood Funnel, Nether Void, Nullstone Gargoyle, Chalice, Void Mirror, Vexing Bauble, Planar Chaos** — Own counter trigger above Mishra's → artifact countered into graveyard → Mishra puts it onto the battlefield. ([mishraap-02](../interactions/mishra-artificer-prodigy.md#mishraap-02-self-counters-as-parity-breakers-blood-funnel-nether-void-nullstone-gargoyle-chalice-void-mirror-vexing-bauble-planar-chaos))
+- **Possibility Storm + Void Mirror / Vexing Bauble lock; Mishra recovers the tucked artifact** — Storm + Mirror/Bauble counters all hand-cast spells; Mishra still lands your artifacts. ([mishraap-03](../interactions/mishra-artificer-prodigy.md#mishraap-03-possibility-storm--void-mirror--vexing-bauble-lock-mishra-recovers-the-tucked-artifact))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Your own stax hits your non-artifact spells, and Possibility Storm breaks overloaded Vandalblast: Blood Funnel, Nether Void, Nullstone Gargoyle, Planar Chaos and Possibility Storm counter or replace your own instants and sorceries (Mishra saves only artifacts), and Possibility Storm stops the Lattice + overloaded Vandalblast kill. ([mishraap-04](../interactions/mishra-artificer-prodigy.md#mishraap-04-your-own-stax-hits-your-non-artifact-spells-and-possibility-storm-breaks-overloaded-vandalblast))
+- 🚩 list flag Without Mishra, Void Mirror and Vexing Bauble break your own Top and KCI loops: With Void Mirror or Vexing Bauble out, the Top/Forge/Citadel/Reality Chip and KCI loops only continue while Mishra is on the battlefield. ([mishraap-05](../interactions/mishra-artificer-prodigy.md#mishraap-05-without-mishra-void-mirror-and-vexing-bauble-break-your-own-top-and-kci-loops))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
