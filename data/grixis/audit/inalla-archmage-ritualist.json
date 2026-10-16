@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
- "pass_id": "audit:inalla-archmage-ritualist:c59:48ef710d1941",
+ "pass_id": "audit:inalla-archmage-ritualist:c59:43a07a09d645",
  "snapshot": {
-  "id": "sha256:48ef710d19416d749135def0209ea07854529faee3c505380eea24849c75f2d6",
-  "graph": "sha256:654428a27138e1c7560d025808e804a5c4786d5fdece017fbd627956884fd431",
-  "evidence": "sha256:27409a5d94b54d912da6c095c6448afd309852a1ff259bb5aa33e7a747c82044",
-  "m1": "absent"
+  "id": "sha256:43a07a09d6451d005629030eebf9049dd4f05b28b75e590a14f41b2f7fa5a82f",
+  "graph": "sha256:a48e240aeccbaa6885dc9510a56a76fec452c3cdf9417aa168292c5dcea4e442",
+  "evidence": "sha256:ce9a53a1af4d876530f6b0c1839d775a289391eb87e505c847570ffeab9701e1",
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
@@ -141,7 +141,7 @@
   "screened": 183,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:27409a5d94b54d912da6c095c6448afd309852a1ff259bb5aa33e7a747c82044"
+  "snapshot": "sha256:ce9a53a1af4d876530f6b0c1839d775a289391eb87e505c847570ffeab9701e1"
  },
  "slots": [
   {"card":"Ad Nauseam","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Ad Nauseam"],"alternatives":[],"redundancy":0,"reason":"weak retain ({3}{B}{B} instant): no structure; EDHREC support. Oracle: “Reveal the top card of your library and put that card into your hand”. Redundancy 0 (no shared job). No EDHREC row.","evidence":["graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Ad Nauseam","oracle:Ad Nauseam"],"structural_necessity":"independent","evidence_classes":{"fact":1},"decision_support":{"ok":false,"why_not":["no evidence"]},"m1_flags":[],"complete_eligible":false},

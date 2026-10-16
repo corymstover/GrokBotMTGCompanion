@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
- "pass_id": "audit:crosis-the-purger:c59:f67ec335b5df",
+ "pass_id": "audit:crosis-the-purger:c59:adb954c9267a",
  "snapshot": {
-  "id": "sha256:f67ec335b5df7a9447ae53d187e3c17217fb4fc7b0cddf42bdb5cbb0a98058cd",
-  "graph": "sha256:640994f9ab416fc87828b962d2762567086ced1c888ba1e06476a17ca4622dcb",
+  "id": "sha256:adb954c9267a5bafeaf5c28c2320b73623fe481afb006966fa3d64f257fcabd6",
+  "graph": "sha256:91c0fbbff9b3d11e4cf841e5724b3d940177f43899d5830c29ad2cb931df4043",
   "evidence": "sha256:3c6dcfcef95ed84ce506143de4c4dac7502f6259c4a64c736538c22ffb0a1fd9",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

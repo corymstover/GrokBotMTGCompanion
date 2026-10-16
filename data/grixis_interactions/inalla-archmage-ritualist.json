@@ -423,6 +423,52 @@
      "item": "Underworld Breach plus Lion's Eye Diamond plus Brain Freeze"
     }
    ]
+  },
+  {
+   "id": "inalla-10",
+   "category": "trigger-order",
+   "title": "Kefka token copy: both enters triggers happen, then the legend rule",
+   "cards": [
+    "Inalla, Archmage Ritualist",
+    "Kefka, Court Mage"
+   ],
+   "ruling": "Kefka is a nontoken legendary Wizard, so when it enters, Inalla's eminence triggers along with Kefka's own enters ability. If you pay {1}, the token copy enters and its copy of Kefka's enters ability triggers too. The legend rule then makes you keep only one Kefka. The token's trigger was already waiting, so it goes on the stack after the legend rule is applied. Triggers already on the stack, like the original's, stay there (they exist independently of their source). So you get two Kefka triggers: each makes every player discard a card, then you draw for each card type discarded. The token is a double-faced copy of Kefka. The deck doesn't need both Kefkas to stay.",
+   "short": "Copying Kefka with Inalla gives two Kefka enters triggers; then the legend rule keeps one.",
+   "status": "verified",
+   "key": false,
+   "cr": [
+    "704.5j",
+    "113.7a",
+    "603.3"
+   ],
+   "oracle": [
+    {
+     "card": "Kefka, Court Mage",
+     "quote": "Whenever Kefka enters or attacks, each player discards a card. Then you draw a card for each card type among cards discarded this way."
+    },
+    {
+     "card": "Inalla, Archmage Ritualist",
+     "quote": "Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Inalla, Archmage Ritualist",
+     "quote": "If a copied creature is legendary, any triggered abilities it has will trigger if appropriate before the \"legend rule\" causes one of those legendary creatures to be put into its owner's graveyard. Those abilities will be put on the stack after the \"legend rule\" is applied."
+    },
+    {
+     "card": "Kefka, Court Mage",
+     "quote": "A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token."
+    }
+   ],
+   "evidence_class": "fact",
+   "added_cycle": 58,
+   "source": [
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Kefka legendary-copy handling"
+    }
+   ]
   }
  ]
 }

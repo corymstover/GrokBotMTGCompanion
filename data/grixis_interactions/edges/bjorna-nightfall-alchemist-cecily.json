@@ -1,0 +1,2515 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Cecily__Bjorna__Lutri",
+ "slug": "bjorna-nightfall-alchemist-cecily",
+ "deck_sha256": "745885c96c41ba3b00c4e7bab3fe677c333cfb225927ea914ecc3212a9a0d871",
+ "review": "data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json",
+ "review_sha256": "b7e2f03d5c4ff3d431a781cf66f3a1e2fd5a91ba368792042863dcba35086bbe",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 15,
+  "nodes": 41,
+  "membership_edges": 54,
+  "pair_edges": 39
+ },
+ "nodes": [
+  {
+   "id": "commander:Bjorna, Nightfall Alchemist",
+   "kind": "commander",
+   "name": "Bjorna, Nightfall Alchemist",
+   "in_list": true
+  },
+  {
+   "id": "card:Academy Manufactor",
+   "kind": "card",
+   "name": "Academy Manufactor",
+   "in_list": true
+  },
+  {
+   "id": "card:Lightning Greaves",
+   "kind": "card",
+   "name": "Lightning Greaves",
+   "in_list": true
+  },
+  {
+   "id": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-01",
+   "kind": "interaction",
+   "interaction": "bjorna-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "commander:Cecily, Haunted Mage",
+   "kind": "commander",
+   "name": "Cecily, Haunted Mage",
+   "in_list": true
+  },
+  {
+   "id": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-02",
+   "kind": "interaction",
+   "interaction": "bjorna-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Harmonic Prodigy",
+   "kind": "card",
+   "name": "Harmonic Prodigy",
+   "in_list": true
+  },
+  {
+   "id": "card:Niv-Mizzet, Parun",
+   "kind": "card",
+   "name": "Niv-Mizzet, Parun",
+   "in_list": true
+  },
+  {
+   "id": "card:Archmage Emeritus",
+   "kind": "card",
+   "name": "Archmage Emeritus",
+   "in_list": true
+  },
+  {
+   "id": "card:Storm-Kiln Artist",
+   "kind": "card",
+   "name": "Storm-Kiln Artist",
+   "in_list": true
+  },
+  {
+   "id": "card:Emry, Lurker of the Loch",
+   "kind": "card",
+   "name": "Emry, Lurker of the Loch",
+   "in_list": true
+  },
+  {
+   "id": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-03",
+   "kind": "interaction",
+   "interaction": "bjorna-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Robe of the Archmagi",
+   "kind": "card",
+   "name": "Robe of the Archmagi",
+   "in_list": true
+  },
+  {
+   "id": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-04",
+   "kind": "interaction",
+   "interaction": "bjorna-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Peer into the Abyss",
+   "kind": "card",
+   "name": "Peer into the Abyss",
+   "in_list": true
+  },
+  {
+   "id": "card:Teferi's Ageless Insight",
+   "kind": "card",
+   "name": "Teferi's Ageless Insight",
+   "in_list": true
+  },
+  {
+   "id": "combo:bjorna-nightfall-alchemist-cecily/bjorna-05",
+   "kind": "combo",
+   "interaction": "bjorna-05",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Psychosis Crawler",
+   "kind": "card",
+   "name": "Psychosis Crawler",
+   "in_list": true
+  },
+  {
+   "id": "combo:bjorna-nightfall-alchemist-cecily/bjorna-06",
+   "kind": "combo",
+   "interaction": "bjorna-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "card:Wheel of Fortune",
+   "kind": "card",
+   "name": "Wheel of Fortune",
+   "in_list": true
+  },
+  {
+   "id": "card:Jeska's Will",
+   "kind": "card",
+   "name": "Jeska's Will",
+   "in_list": true
+  },
+  {
+   "id": "card:Notion Thief",
+   "kind": "card",
+   "name": "Notion Thief",
+   "in_list": true
+  },
+  {
+   "id": "combo:bjorna-nightfall-alchemist-cecily/bjorna-07",
+   "kind": "combo",
+   "interaction": "bjorna-07",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Windfall",
+   "kind": "card",
+   "name": "Windfall",
+   "in_list": true
+  },
+  {
+   "id": "card:Whispering Madness",
+   "kind": "card",
+   "name": "Whispering Madness",
+   "in_list": true
+  },
+  {
+   "id": "card:Reforge the Soul",
+   "kind": "card",
+   "name": "Reforge the Soul",
+   "in_list": true
+  },
+  {
+   "id": "card:Echo of Eons",
+   "kind": "card",
+   "name": "Echo of Eons",
+   "in_list": true
+  },
+  {
+   "id": "card:Dark Deal",
+   "kind": "card",
+   "name": "Dark Deal",
+   "in_list": true
+  },
+  {
+   "id": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-08",
+   "kind": "interaction",
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Triskaidekaphile",
+   "kind": "card",
+   "name": "Triskaidekaphile",
+   "in_list": true
+  },
+  {
+   "id": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-09",
+   "kind": "interaction",
+   "interaction": "bjorna-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Lutri, the Spellchaser",
+   "kind": "card",
+   "name": "Lutri, the Spellchaser",
+   "in_list": true
+  },
+  {
+   "id": "card:Trade Secrets",
+   "kind": "card",
+   "name": "Trade Secrets",
+   "in_list": true
+  },
+  {
+   "id": "card:Yawgmoth's Bargain",
+   "kind": "card",
+   "name": "Yawgmoth's Bargain",
+   "in_list": true
+  },
+  {
+   "id": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-11",
+   "kind": "interaction",
+   "interaction": "bjorna-11",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "approved_decision"
+  },
+  {
+   "id": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-12",
+   "kind": "interaction",
+   "interaction": "bjorna-12",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-13",
+   "kind": "interaction",
+   "interaction": "bjorna-13",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-14",
+   "kind": "interaction",
+   "interaction": "bjorna-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-15",
+   "kind": "interaction",
+   "interaction": "bjorna-15",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-16",
+   "kind": "interaction",
+   "interaction": "bjorna-16",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "bjorna-01:m1",
+   "from": "commander:Bjorna, Nightfall Alchemist",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.15a",
+    "701.15b",
+    "602.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-01",
+    "cr:701.15a",
+    "cr:701.15b",
+    "cr:602.2"
+   ]
+  },
+  {
+   "id": "bjorna-01:m2",
+   "from": "card:Academy Manufactor",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.15a",
+    "701.15b",
+    "602.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-01",
+    "cr:701.15a",
+    "cr:701.15b",
+    "cr:602.2"
+   ]
+  },
+  {
+   "id": "bjorna-01:m3",
+   "from": "card:Lightning Greaves",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.15a",
+    "701.15b",
+    "602.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-01",
+    "cr:701.15a",
+    "cr:701.15b",
+    "cr:602.2"
+   ]
+  },
+  {
+   "id": "bjorna-01:p1",
+   "from": "card:Academy Manufactor",
+   "to": "commander:Bjorna, Nightfall Alchemist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.15a",
+    "701.15b",
+    "602.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-01",
+    "cr:701.15a",
+    "cr:701.15b",
+    "cr:602.2"
+   ]
+  },
+  {
+   "id": "bjorna-01:p2",
+   "from": "card:Lightning Greaves",
+   "to": "commander:Bjorna, Nightfall Alchemist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.15a",
+    "701.15b",
+    "602.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-01",
+    "cr:701.15a",
+    "cr:701.15b",
+    "cr:602.2"
+   ]
+  },
+  {
+   "id": "bjorna-02:m1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2g",
+    "601.2b",
+    "402.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-02",
+    "cr:608.2g",
+    "cr:601.2b",
+    "cr:402.2"
+   ]
+  },
+  {
+   "id": "bjorna-03:m1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-03",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bjorna-03:m2",
+   "from": "card:Harmonic Prodigy",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-03",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bjorna-03:m3",
+   "from": "card:Niv-Mizzet, Parun",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-03",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bjorna-03:m4",
+   "from": "card:Archmage Emeritus",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-03",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bjorna-03:m5",
+   "from": "card:Storm-Kiln Artist",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-03",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bjorna-03:m6",
+   "from": "card:Emry, Lurker of the Loch",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-03",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bjorna-03:p1",
+   "from": "card:Harmonic Prodigy",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-03",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bjorna-03:p2",
+   "from": "card:Niv-Mizzet, Parun",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-03",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bjorna-03:p3",
+   "from": "card:Archmage Emeritus",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-03",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bjorna-03:p4",
+   "from": "card:Storm-Kiln Artist",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-03",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bjorna-03:p5",
+   "from": "card:Emry, Lurker of the Loch",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-03",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bjorna-04:m1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.2",
+    "508.1m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-04",
+    "cr:510.2",
+    "cr:508.1m"
+   ]
+  },
+  {
+   "id": "bjorna-04:m2",
+   "from": "card:Robe of the Archmagi",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.2",
+    "508.1m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-04",
+    "cr:510.2",
+    "cr:508.1m"
+   ]
+  },
+  {
+   "id": "bjorna-04:p1",
+   "from": "card:Robe of the Archmagi",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "510.2",
+    "508.1m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-04",
+    "cr:510.2",
+    "cr:508.1m"
+   ]
+  },
+  {
+   "id": "bjorna-05:m1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "combo:bjorna-nightfall-alchemist-cecily/bjorna-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-05",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "704.5b",
+    "117.5",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-05",
+    "cr:121.4",
+    "cr:704.5b",
+    "cr:117.5",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-05:m2",
+   "from": "card:Peer into the Abyss",
+   "to": "combo:bjorna-nightfall-alchemist-cecily/bjorna-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-05",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "704.5b",
+    "117.5",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-05",
+    "cr:121.4",
+    "cr:704.5b",
+    "cr:117.5",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-05:m3",
+   "from": "card:Teferi's Ageless Insight",
+   "to": "combo:bjorna-nightfall-alchemist-cecily/bjorna-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-05",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "704.5b",
+    "117.5",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-05",
+    "cr:121.4",
+    "cr:704.5b",
+    "cr:117.5",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-05:p1",
+   "from": "card:Peer into the Abyss",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-05",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "704.5b",
+    "117.5",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-05",
+    "cr:121.4",
+    "cr:704.5b",
+    "cr:117.5",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-05:p2",
+   "from": "card:Teferi's Ageless Insight",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-05",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "704.5b",
+    "117.5",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-05",
+    "cr:121.4",
+    "cr:704.5b",
+    "cr:117.5",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-06:m1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "combo:bjorna-nightfall-alchemist-cecily/bjorna-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "121.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-06",
+    "cr:603.2",
+    "cr:121.2"
+   ]
+  },
+  {
+   "id": "bjorna-06:m2",
+   "from": "card:Peer into the Abyss",
+   "to": "combo:bjorna-nightfall-alchemist-cecily/bjorna-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "121.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-06",
+    "cr:603.2",
+    "cr:121.2"
+   ]
+  },
+  {
+   "id": "bjorna-06:m3",
+   "from": "card:Psychosis Crawler",
+   "to": "combo:bjorna-nightfall-alchemist-cecily/bjorna-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "121.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-06",
+    "cr:603.2",
+    "cr:121.2"
+   ]
+  },
+  {
+   "id": "bjorna-06:m4",
+   "from": "card:Niv-Mizzet, Parun",
+   "to": "combo:bjorna-nightfall-alchemist-cecily/bjorna-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "121.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-06",
+    "cr:603.2",
+    "cr:121.2"
+   ]
+  },
+  {
+   "id": "bjorna-06:p1",
+   "from": "card:Peer into the Abyss",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "121.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-06",
+    "cr:603.2",
+    "cr:121.2"
+   ]
+  },
+  {
+   "id": "bjorna-06:p2",
+   "from": "card:Psychosis Crawler",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "121.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-06",
+    "cr:603.2",
+    "cr:121.2"
+   ]
+  },
+  {
+   "id": "bjorna-06:p3",
+   "from": "card:Niv-Mizzet, Parun",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "121.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-06",
+    "cr:603.2",
+    "cr:121.2"
+   ]
+  },
+  {
+   "id": "bjorna-07:m1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "combo:bjorna-nightfall-alchemist-cecily/bjorna-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-07",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-07",
+    "cr:702.138a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-07:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:bjorna-nightfall-alchemist-cecily/bjorna-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-07",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-07",
+    "cr:702.138a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-07:m3",
+   "from": "card:Wheel of Fortune",
+   "to": "combo:bjorna-nightfall-alchemist-cecily/bjorna-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-07",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-07",
+    "cr:702.138a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-07:m4",
+   "from": "card:Jeska's Will",
+   "to": "combo:bjorna-nightfall-alchemist-cecily/bjorna-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-07",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-07",
+    "cr:702.138a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-07:m5",
+   "from": "card:Notion Thief",
+   "to": "combo:bjorna-nightfall-alchemist-cecily/bjorna-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-07",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-07",
+    "cr:702.138a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-07:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-07",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-07",
+    "cr:702.138a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-07:p2",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-07",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-07",
+    "cr:702.138a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-07:p3",
+   "from": "card:Jeska's Will",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-07",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-07",
+    "cr:702.138a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-07:p4",
+   "from": "card:Notion Thief",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-07",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-07",
+    "cr:702.138a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "bjorna-08:m1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:m2",
+   "from": "card:Notion Thief",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:m3",
+   "from": "card:Teferi's Ageless Insight",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:m4",
+   "from": "card:Windfall",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:m5",
+   "from": "card:Whispering Madness",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:m6",
+   "from": "card:Reforge the Soul",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:m7",
+   "from": "card:Echo of Eons",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:m8",
+   "from": "card:Dark Deal",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:p1",
+   "from": "card:Notion Thief",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:p2",
+   "from": "card:Teferi's Ageless Insight",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:p3",
+   "from": "card:Windfall",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:p4",
+   "from": "card:Whispering Madness",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:p5",
+   "from": "card:Reforge the Soul",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:p6",
+   "from": "card:Echo of Eons",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-08:p7",
+   "from": "card:Dark Deal",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-08",
+    "cr:614.1a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "bjorna-09:m1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-09",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "bjorna-09:m2",
+   "from": "card:Triskaidekaphile",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-09",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "bjorna-09:p1",
+   "from": "card:Triskaidekaphile",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-09",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "bjorna-11:m1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-11",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "approved_decision",
+   "cr": [
+    "903.3",
+    "702.139a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-11",
+    "cr:903.3",
+    "cr:702.139a"
+   ]
+  },
+  {
+   "id": "bjorna-11:m2",
+   "from": "commander:Bjorna, Nightfall Alchemist",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-11",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "approved_decision",
+   "cr": [
+    "903.3",
+    "702.139a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-11",
+    "cr:903.3",
+    "cr:702.139a"
+   ]
+  },
+  {
+   "id": "bjorna-11:m3",
+   "from": "card:Lutri, the Spellchaser",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-11",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "approved_decision",
+   "cr": [
+    "903.3",
+    "702.139a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-11",
+    "cr:903.3",
+    "cr:702.139a"
+   ]
+  },
+  {
+   "id": "bjorna-11:m4",
+   "from": "card:Trade Secrets",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-11",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "approved_decision",
+   "cr": [
+    "903.3",
+    "702.139a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-11",
+    "cr:903.3",
+    "cr:702.139a"
+   ]
+  },
+  {
+   "id": "bjorna-11:m5",
+   "from": "card:Yawgmoth's Bargain",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-11",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "approved_decision",
+   "cr": [
+    "903.3",
+    "702.139a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-11",
+    "cr:903.3",
+    "cr:702.139a"
+   ]
+  },
+  {
+   "id": "bjorna-11:p1",
+   "from": "commander:Bjorna, Nightfall Alchemist",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-11",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.3",
+    "702.139a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-11",
+    "cr:903.3",
+    "cr:702.139a"
+   ]
+  },
+  {
+   "id": "bjorna-11:p2",
+   "from": "card:Lutri, the Spellchaser",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-11",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.3",
+    "702.139a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-11",
+    "cr:903.3",
+    "cr:702.139a"
+   ]
+  },
+  {
+   "id": "bjorna-11:p3",
+   "from": "card:Trade Secrets",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-11",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.3",
+    "702.139a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-11",
+    "cr:903.3",
+    "cr:702.139a"
+   ]
+  },
+  {
+   "id": "bjorna-11:p4",
+   "from": "card:Yawgmoth's Bargain",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-11",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.3",
+    "702.139a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-11",
+    "cr:903.3",
+    "cr:702.139a"
+   ]
+  },
+  {
+   "id": "bjorna-12:m1",
+   "from": "commander:Bjorna, Nightfall Alchemist",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-12",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "108.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-12",
+    "cr:108.1"
+   ]
+  },
+  {
+   "id": "bjorna-12:m2",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-12",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "108.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-12",
+    "cr:108.1"
+   ]
+  },
+  {
+   "id": "bjorna-12:p1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "commander:Bjorna, Nightfall Alchemist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-12",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-12",
+    "cr:108.1"
+   ]
+  },
+  {
+   "id": "bjorna-13:m1",
+   "from": "commander:Bjorna, Nightfall Alchemist",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-13",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.124i",
+    "903.8",
+    "903.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-13",
+    "cr:702.124i",
+    "cr:903.8",
+    "cr:903.10a"
+   ]
+  },
+  {
+   "id": "bjorna-13:m2",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-13",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.124i",
+    "903.8",
+    "903.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-13",
+    "cr:702.124i",
+    "cr:903.8",
+    "cr:903.10a"
+   ]
+  },
+  {
+   "id": "bjorna-13:p1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "commander:Bjorna, Nightfall Alchemist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-13",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.124i",
+    "903.8",
+    "903.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-13",
+    "cr:702.124i",
+    "cr:903.8",
+    "cr:903.10a"
+   ]
+  },
+  {
+   "id": "bjorna-14:m1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "116.2g",
+    "702.139c",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-14",
+    "cr:116.2g",
+    "cr:702.139c",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "bjorna-14:m2",
+   "from": "card:Lutri, the Spellchaser",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "116.2g",
+    "702.139c",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-14",
+    "cr:116.2g",
+    "cr:702.139c",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "bjorna-14:p1",
+   "from": "card:Lutri, the Spellchaser",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "116.2g",
+    "702.139c",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-14",
+    "cr:116.2g",
+    "cr:702.139c",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "bjorna-15:m1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-15",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "616.1f",
+    "614.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-15",
+    "cr:614.1a",
+    "cr:616.1f",
+    "cr:614.5"
+   ]
+  },
+  {
+   "id": "bjorna-15:m2",
+   "from": "card:Trade Secrets",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-15",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "616.1f",
+    "614.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-15",
+    "cr:614.1a",
+    "cr:616.1f",
+    "cr:614.5"
+   ]
+  },
+  {
+   "id": "bjorna-15:m3",
+   "from": "card:Notion Thief",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-15",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "616.1f",
+    "614.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-15",
+    "cr:614.1a",
+    "cr:616.1f",
+    "cr:614.5"
+   ]
+  },
+  {
+   "id": "bjorna-15:m4",
+   "from": "card:Teferi's Ageless Insight",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-15",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "616.1f",
+    "614.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-15",
+    "cr:614.1a",
+    "cr:616.1f",
+    "cr:614.5"
+   ]
+  },
+  {
+   "id": "bjorna-15:p1",
+   "from": "card:Trade Secrets",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-15",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "616.1f",
+    "614.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-15",
+    "cr:614.1a",
+    "cr:616.1f",
+    "cr:614.5"
+   ]
+  },
+  {
+   "id": "bjorna-15:p2",
+   "from": "card:Notion Thief",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-15",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "616.1f",
+    "614.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-15",
+    "cr:614.1a",
+    "cr:616.1f",
+    "cr:614.5"
+   ]
+  },
+  {
+   "id": "bjorna-15:p3",
+   "from": "card:Teferi's Ageless Insight",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-15",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "616.1f",
+    "614.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-15",
+    "cr:614.1a",
+    "cr:616.1f",
+    "cr:614.5"
+   ]
+  },
+  {
+   "id": "bjorna-16:m1",
+   "from": "commander:Cecily, Haunted Mage",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-16",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-16",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1b",
+    "614.1a",
+    "119.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-16",
+    "cr:614.1b",
+    "cr:614.1a",
+    "cr:119.4"
+   ]
+  },
+  {
+   "id": "bjorna-16:m2",
+   "from": "card:Yawgmoth's Bargain",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-16",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-16",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1b",
+    "614.1a",
+    "119.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-16",
+    "cr:614.1b",
+    "cr:614.1a",
+    "cr:119.4"
+   ]
+  },
+  {
+   "id": "bjorna-16:m3",
+   "from": "card:Teferi's Ageless Insight",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-16",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-16",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1b",
+    "614.1a",
+    "119.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-16",
+    "cr:614.1b",
+    "cr:614.1a",
+    "cr:119.4"
+   ]
+  },
+  {
+   "id": "bjorna-16:m4",
+   "from": "card:Psychosis Crawler",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-16",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-16",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1b",
+    "614.1a",
+    "119.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-16",
+    "cr:614.1b",
+    "cr:614.1a",
+    "cr:119.4"
+   ]
+  },
+  {
+   "id": "bjorna-16:m5",
+   "from": "card:Triskaidekaphile",
+   "to": "interaction:bjorna-nightfall-alchemist-cecily/bjorna-16",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bjorna-16",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1b",
+    "614.1a",
+    "119.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-16",
+    "cr:614.1b",
+    "cr:614.1a",
+    "cr:119.4"
+   ]
+  },
+  {
+   "id": "bjorna-16:p1",
+   "from": "card:Yawgmoth's Bargain",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-16",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1b",
+    "614.1a",
+    "119.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-16",
+    "cr:614.1b",
+    "cr:614.1a",
+    "cr:119.4"
+   ]
+  },
+  {
+   "id": "bjorna-16:p2",
+   "from": "card:Teferi's Ageless Insight",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-16",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1b",
+    "614.1a",
+    "119.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-16",
+    "cr:614.1b",
+    "cr:614.1a",
+    "cr:119.4"
+   ]
+  },
+  {
+   "id": "bjorna-16:p3",
+   "from": "card:Psychosis Crawler",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-16",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1b",
+    "614.1a",
+    "119.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-16",
+    "cr:614.1b",
+    "cr:614.1a",
+    "cr:119.4"
+   ]
+  },
+  {
+   "id": "bjorna-16:p4",
+   "from": "card:Triskaidekaphile",
+   "to": "commander:Cecily, Haunted Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bjorna-16",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1b",
+    "614.1a",
+    "119.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json#bjorna-16",
+    "cr:614.1b",
+    "cr:614.1a",
+    "cr:119.4"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2511 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Missy",
+ "slug": "missy",
+ "deck_sha256": "6127c9e74e6e7cc22f9d98b5f93038b7cd957dd70c6bf12efb1285a8d5ac129e",
+ "review": "data/grixis_interactions/missy.json",
+ "review_sha256": "5edabf64faece9eec7f98aea54524fe1cf2a36021b4e62380b3dc2f84cb484c9",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 9,
+  "nodes": 45,
+  "membership_edges": 48,
+  "pair_edges": 39
+ },
+ "nodes": [
+  {
+   "id": "commander:Missy",
+   "kind": "commander",
+   "name": "Missy",
+   "in_list": true
+  },
+  {
+   "id": "interaction:missy/missy-01",
+   "kind": "interaction",
+   "interaction": "missy-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Ruthless Ripper",
+   "kind": "card",
+   "name": "Ruthless Ripper",
+   "in_list": true
+  },
+  {
+   "id": "card:Dragon's Eye Savants",
+   "kind": "card",
+   "name": "Dragon's Eye Savants",
+   "in_list": true
+  },
+  {
+   "id": "card:Horde Ambusher",
+   "kind": "card",
+   "name": "Horde Ambusher",
+   "in_list": true
+  },
+  {
+   "id": "card:Ashnod's Altar",
+   "kind": "card",
+   "name": "Ashnod's Altar",
+   "in_list": true
+  },
+  {
+   "id": "card:Phyrexian Altar",
+   "kind": "card",
+   "name": "Phyrexian Altar",
+   "in_list": true
+  },
+  {
+   "id": "card:Goblin Bombardment",
+   "kind": "card",
+   "name": "Goblin Bombardment",
+   "in_list": true
+  },
+  {
+   "id": "card:Viscera Seer",
+   "kind": "card",
+   "name": "Viscera Seer",
+   "in_list": true
+  },
+  {
+   "id": "card:Altar of Dementia",
+   "kind": "card",
+   "name": "Altar of Dementia",
+   "in_list": true
+  },
+  {
+   "id": "combo:missy/missy-02",
+   "kind": "combo",
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1794-2034-4424",
+    "3565-4050-4424",
+    "1045-4424-5147"
+   ]
+  },
+  {
+   "id": "card:Grim Haruspex",
+   "kind": "card",
+   "name": "Grim Haruspex",
+   "in_list": true
+  },
+  {
+   "id": "card:Ixidor, Reality Sculptor",
+   "kind": "card",
+   "name": "Ixidor, Reality Sculptor",
+   "in_list": true
+  },
+  {
+   "id": "card:Pitiless Plunderer",
+   "kind": "card",
+   "name": "Pitiless Plunderer",
+   "in_list": true
+  },
+  {
+   "id": "combo:missy/missy-03",
+   "kind": "combo",
+   "interaction": "missy-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "631-4050-4424",
+    "419-2034-4424-4871"
+   ]
+  },
+  {
+   "id": "card:Panoptic Projektor",
+   "kind": "card",
+   "name": "Panoptic Projektor",
+   "in_list": true
+  },
+  {
+   "id": "card:Pyrotechnic Performer",
+   "kind": "card",
+   "name": "Pyrotechnic Performer",
+   "in_list": true
+  },
+  {
+   "id": "card:Aphetto Runecaster",
+   "kind": "card",
+   "name": "Aphetto Runecaster",
+   "in_list": true
+  },
+  {
+   "id": "interaction:missy/missy-04",
+   "kind": "interaction",
+   "interaction": "missy-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Delete",
+   "kind": "card",
+   "name": "Delete",
+   "in_list": true
+  },
+  {
+   "id": "card:Their Name Is Death",
+   "kind": "card",
+   "name": "Their Name Is Death",
+   "in_list": true
+  },
+  {
+   "id": "card:Doomsday Confluence",
+   "kind": "card",
+   "name": "Doomsday Confluence",
+   "in_list": true
+  },
+  {
+   "id": "card:Grave Pact",
+   "kind": "card",
+   "name": "Grave Pact",
+   "in_list": true
+  },
+  {
+   "id": "card:Accursed Marauder",
+   "kind": "card",
+   "name": "Accursed Marauder",
+   "in_list": true
+  },
+  {
+   "id": "card:Toxic Deluge",
+   "kind": "card",
+   "name": "Toxic Deluge",
+   "in_list": true
+  },
+  {
+   "id": "interaction:missy/missy-05",
+   "kind": "interaction",
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:The Valeyard",
+   "kind": "card",
+   "name": "The Valeyard",
+   "in_list": true
+  },
+  {
+   "id": "card:The Master, Gallifrey's End",
+   "kind": "card",
+   "name": "The Master, Gallifrey's End",
+   "in_list": true
+  },
+  {
+   "id": "card:Cyberman Patrol",
+   "kind": "card",
+   "name": "Cyberman Patrol",
+   "in_list": true
+  },
+  {
+   "id": "card:Cybermen Squadron",
+   "kind": "card",
+   "name": "Cybermen Squadron",
+   "in_list": true
+  },
+  {
+   "id": "interaction:missy/missy-06",
+   "kind": "interaction",
+   "interaction": "missy-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Etrata, Deadly Fugitive",
+   "kind": "card",
+   "name": "Etrata, Deadly Fugitive",
+   "in_list": true
+  },
+  {
+   "id": "card:Skirk Alarmist",
+   "kind": "card",
+   "name": "Skirk Alarmist",
+   "in_list": true
+  },
+  {
+   "id": "card:Ugin's Mastery",
+   "kind": "card",
+   "name": "Ugin's Mastery",
+   "in_list": true
+  },
+  {
+   "id": "interaction:missy/missy-07",
+   "kind": "interaction",
+   "interaction": "missy-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Willbender",
+   "kind": "card",
+   "name": "Willbender",
+   "in_list": true
+  },
+  {
+   "id": "card:Boltbender",
+   "kind": "card",
+   "name": "Boltbender",
+   "in_list": true
+  },
+  {
+   "id": "card:Stratus Dancer",
+   "kind": "card",
+   "name": "Stratus Dancer",
+   "in_list": true
+  },
+  {
+   "id": "card:Kadena's Silencer",
+   "kind": "card",
+   "name": "Kadena's Silencer",
+   "in_list": true
+  },
+  {
+   "id": "interaction:missy/missy-08",
+   "kind": "interaction",
+   "interaction": "missy-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:They Came from the Pipes",
+   "kind": "card",
+   "name": "They Came from the Pipes",
+   "in_list": true
+  },
+  {
+   "id": "card:Cybership",
+   "kind": "card",
+   "name": "Cybership",
+   "in_list": true
+  },
+  {
+   "id": "card:The Cyber-Controller",
+   "kind": "card",
+   "name": "The Cyber-Controller",
+   "in_list": true
+  },
+  {
+   "id": "card:Death in Heaven",
+   "kind": "card",
+   "name": "Death in Heaven",
+   "in_list": true
+  },
+  {
+   "id": "interaction:missy/missy-09",
+   "kind": "interaction",
+   "interaction": "missy-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "missy-01:m1",
+   "from": "commander:Missy",
+   "to": "interaction:missy/missy-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.2",
+    "708.8",
+    "111.7",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-01",
+    "cr:708.2",
+    "cr:708.8",
+    "cr:111.7",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "missy-02:m1",
+   "from": "commander:Missy",
+   "to": "combo:missy/missy-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:m2",
+   "from": "card:Ruthless Ripper",
+   "to": "combo:missy/missy-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:m3",
+   "from": "card:Dragon's Eye Savants",
+   "to": "combo:missy/missy-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:m4",
+   "from": "card:Horde Ambusher",
+   "to": "combo:missy/missy-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:m5",
+   "from": "card:Ashnod's Altar",
+   "to": "combo:missy/missy-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:m6",
+   "from": "card:Phyrexian Altar",
+   "to": "combo:missy/missy-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:m7",
+   "from": "card:Goblin Bombardment",
+   "to": "combo:missy/missy-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:m8",
+   "from": "card:Viscera Seer",
+   "to": "combo:missy/missy-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:m9",
+   "from": "card:Altar of Dementia",
+   "to": "combo:missy/missy-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:p1",
+   "from": "card:Ruthless Ripper",
+   "to": "commander:Missy",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:p2",
+   "from": "card:Dragon's Eye Savants",
+   "to": "commander:Missy",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:p3",
+   "from": "card:Horde Ambusher",
+   "to": "commander:Missy",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:p4",
+   "from": "card:Ashnod's Altar",
+   "to": "commander:Missy",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:p5",
+   "from": "card:Phyrexian Altar",
+   "to": "commander:Missy",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:p6",
+   "from": "card:Goblin Bombardment",
+   "to": "commander:Missy",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:p7",
+   "from": "card:Viscera Seer",
+   "to": "commander:Missy",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-02:p8",
+   "from": "card:Altar of Dementia",
+   "to": "commander:Missy",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-02",
+    "cr:702.37e",
+    "cr:116.2b",
+    "cr:708.8",
+    "spellbook:1794-2034-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:1045-4424-5147"
+   ]
+  },
+  {
+   "id": "missy-03:m1",
+   "from": "commander:Missy",
+   "to": "combo:missy/missy-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-03",
+    "cr:708.8",
+    "cr:116.2b",
+    "spellbook:631-4050-4424",
+    "spellbook:419-2034-4424-4871"
+   ]
+  },
+  {
+   "id": "missy-03:m2",
+   "from": "card:Grim Haruspex",
+   "to": "combo:missy/missy-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-03",
+    "cr:708.8",
+    "cr:116.2b",
+    "spellbook:631-4050-4424",
+    "spellbook:419-2034-4424-4871"
+   ]
+  },
+  {
+   "id": "missy-03:m3",
+   "from": "card:Phyrexian Altar",
+   "to": "combo:missy/missy-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-03",
+    "cr:708.8",
+    "cr:116.2b",
+    "spellbook:631-4050-4424",
+    "spellbook:419-2034-4424-4871"
+   ]
+  },
+  {
+   "id": "missy-03:m4",
+   "from": "card:Ixidor, Reality Sculptor",
+   "to": "combo:missy/missy-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-03",
+    "cr:708.8",
+    "cr:116.2b",
+    "spellbook:631-4050-4424",
+    "spellbook:419-2034-4424-4871"
+   ]
+  },
+  {
+   "id": "missy-03:m5",
+   "from": "card:Pitiless Plunderer",
+   "to": "combo:missy/missy-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-03",
+    "cr:708.8",
+    "cr:116.2b",
+    "spellbook:631-4050-4424",
+    "spellbook:419-2034-4424-4871"
+   ]
+  },
+  {
+   "id": "missy-03:m6",
+   "from": "card:Ashnod's Altar",
+   "to": "combo:missy/missy-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-03",
+    "cr:708.8",
+    "cr:116.2b",
+    "spellbook:631-4050-4424",
+    "spellbook:419-2034-4424-4871"
+   ]
+  },
+  {
+   "id": "missy-03:p1",
+   "from": "card:Grim Haruspex",
+   "to": "commander:Missy",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-03",
+    "cr:708.8",
+    "cr:116.2b",
+    "spellbook:631-4050-4424",
+    "spellbook:419-2034-4424-4871"
+   ]
+  },
+  {
+   "id": "missy-03:p2",
+   "from": "card:Phyrexian Altar",
+   "to": "commander:Missy",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-03",
+    "cr:708.8",
+    "cr:116.2b",
+    "spellbook:631-4050-4424",
+    "spellbook:419-2034-4424-4871"
+   ]
+  },
+  {
+   "id": "missy-03:p3",
+   "from": "card:Ixidor, Reality Sculptor",
+   "to": "commander:Missy",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-03",
+    "cr:708.8",
+    "cr:116.2b",
+    "spellbook:631-4050-4424",
+    "spellbook:419-2034-4424-4871"
+   ]
+  },
+  {
+   "id": "missy-03:p4",
+   "from": "card:Pitiless Plunderer",
+   "to": "commander:Missy",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-03",
+    "cr:708.8",
+    "cr:116.2b",
+    "spellbook:631-4050-4424",
+    "spellbook:419-2034-4424-4871"
+   ]
+  },
+  {
+   "id": "missy-03:p5",
+   "from": "card:Ashnod's Altar",
+   "to": "commander:Missy",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-03",
+    "cr:708.8",
+    "cr:116.2b",
+    "spellbook:631-4050-4424",
+    "spellbook:419-2034-4424-4871"
+   ]
+  },
+  {
+   "id": "missy-04:m1",
+   "from": "commander:Missy",
+   "to": "interaction:missy/missy-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-04",
+    "cr:603.2",
+    "cr:708.8"
+   ]
+  },
+  {
+   "id": "missy-04:m2",
+   "from": "card:Panoptic Projektor",
+   "to": "interaction:missy/missy-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-04",
+    "cr:603.2",
+    "cr:708.8"
+   ]
+  },
+  {
+   "id": "missy-04:m3",
+   "from": "card:Pyrotechnic Performer",
+   "to": "interaction:missy/missy-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-04",
+    "cr:603.2",
+    "cr:708.8"
+   ]
+  },
+  {
+   "id": "missy-04:m4",
+   "from": "card:Aphetto Runecaster",
+   "to": "interaction:missy/missy-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-04",
+    "cr:603.2",
+    "cr:708.8"
+   ]
+  },
+  {
+   "id": "missy-04:m5",
+   "from": "card:Ruthless Ripper",
+   "to": "interaction:missy/missy-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-04",
+    "cr:603.2",
+    "cr:708.8"
+   ]
+  },
+  {
+   "id": "missy-04:p1",
+   "from": "card:Panoptic Projektor",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-04",
+    "cr:603.2",
+    "cr:708.8"
+   ]
+  },
+  {
+   "id": "missy-04:p2",
+   "from": "card:Pyrotechnic Performer",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-04",
+    "cr:603.2",
+    "cr:708.8"
+   ]
+  },
+  {
+   "id": "missy-04:p3",
+   "from": "card:Aphetto Runecaster",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-04",
+    "cr:603.2",
+    "cr:708.8"
+   ]
+  },
+  {
+   "id": "missy-04:p4",
+   "from": "card:Ruthless Ripper",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "708.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-04",
+    "cr:603.2",
+    "cr:708.8"
+   ]
+  },
+  {
+   "id": "missy-05:m1",
+   "from": "commander:Missy",
+   "to": "interaction:missy/missy-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-05",
+    "cr:603.10a",
+    "cr:603.6c"
+   ]
+  },
+  {
+   "id": "missy-05:m2",
+   "from": "card:Delete",
+   "to": "interaction:missy/missy-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-05",
+    "cr:603.10a",
+    "cr:603.6c"
+   ]
+  },
+  {
+   "id": "missy-05:m3",
+   "from": "card:Their Name Is Death",
+   "to": "interaction:missy/missy-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-05",
+    "cr:603.10a",
+    "cr:603.6c"
+   ]
+  },
+  {
+   "id": "missy-05:m4",
+   "from": "card:Doomsday Confluence",
+   "to": "interaction:missy/missy-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-05",
+    "cr:603.10a",
+    "cr:603.6c"
+   ]
+  },
+  {
+   "id": "missy-05:m5",
+   "from": "card:Grave Pact",
+   "to": "interaction:missy/missy-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-05",
+    "cr:603.10a",
+    "cr:603.6c"
+   ]
+  },
+  {
+   "id": "missy-05:m6",
+   "from": "card:Accursed Marauder",
+   "to": "interaction:missy/missy-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-05",
+    "cr:603.10a",
+    "cr:603.6c"
+   ]
+  },
+  {
+   "id": "missy-05:m7",
+   "from": "card:Toxic Deluge",
+   "to": "interaction:missy/missy-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-05",
+    "cr:603.10a",
+    "cr:603.6c"
+   ]
+  },
+  {
+   "id": "missy-05:p1",
+   "from": "card:Delete",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-05",
+    "cr:603.10a",
+    "cr:603.6c"
+   ]
+  },
+  {
+   "id": "missy-05:p2",
+   "from": "card:Their Name Is Death",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-05",
+    "cr:603.10a",
+    "cr:603.6c"
+   ]
+  },
+  {
+   "id": "missy-05:p3",
+   "from": "card:Doomsday Confluence",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-05",
+    "cr:603.10a",
+    "cr:603.6c"
+   ]
+  },
+  {
+   "id": "missy-05:p4",
+   "from": "card:Grave Pact",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-05",
+    "cr:603.10a",
+    "cr:603.6c"
+   ]
+  },
+  {
+   "id": "missy-05:p5",
+   "from": "card:Accursed Marauder",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-05",
+    "cr:603.10a",
+    "cr:603.6c"
+   ]
+  },
+  {
+   "id": "missy-05:p6",
+   "from": "card:Toxic Deluge",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-05",
+    "cr:603.10a",
+    "cr:603.6c"
+   ]
+  },
+  {
+   "id": "missy-06:m1",
+   "from": "commander:Missy",
+   "to": "interaction:missy/missy-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55b",
+    "701.55c",
+    "701.55d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-06",
+    "cr:701.55a",
+    "cr:701.55b",
+    "cr:701.55c",
+    "cr:701.55d"
+   ]
+  },
+  {
+   "id": "missy-06:m2",
+   "from": "card:The Valeyard",
+   "to": "interaction:missy/missy-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55b",
+    "701.55c",
+    "701.55d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-06",
+    "cr:701.55a",
+    "cr:701.55b",
+    "cr:701.55c",
+    "cr:701.55d"
+   ]
+  },
+  {
+   "id": "missy-06:m3",
+   "from": "card:The Master, Gallifrey's End",
+   "to": "interaction:missy/missy-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55b",
+    "701.55c",
+    "701.55d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-06",
+    "cr:701.55a",
+    "cr:701.55b",
+    "cr:701.55c",
+    "cr:701.55d"
+   ]
+  },
+  {
+   "id": "missy-06:m4",
+   "from": "card:Cyberman Patrol",
+   "to": "interaction:missy/missy-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55b",
+    "701.55c",
+    "701.55d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-06",
+    "cr:701.55a",
+    "cr:701.55b",
+    "cr:701.55c",
+    "cr:701.55d"
+   ]
+  },
+  {
+   "id": "missy-06:m5",
+   "from": "card:Cybermen Squadron",
+   "to": "interaction:missy/missy-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55b",
+    "701.55c",
+    "701.55d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-06",
+    "cr:701.55a",
+    "cr:701.55b",
+    "cr:701.55c",
+    "cr:701.55d"
+   ]
+  },
+  {
+   "id": "missy-06:p1",
+   "from": "card:The Valeyard",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "701.55b",
+    "701.55c",
+    "701.55d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-06",
+    "cr:701.55a",
+    "cr:701.55b",
+    "cr:701.55c",
+    "cr:701.55d"
+   ]
+  },
+  {
+   "id": "missy-06:p2",
+   "from": "card:The Master, Gallifrey's End",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "701.55b",
+    "701.55c",
+    "701.55d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-06",
+    "cr:701.55a",
+    "cr:701.55b",
+    "cr:701.55c",
+    "cr:701.55d"
+   ]
+  },
+  {
+   "id": "missy-06:p3",
+   "from": "card:Cyberman Patrol",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "701.55b",
+    "701.55c",
+    "701.55d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-06",
+    "cr:701.55a",
+    "cr:701.55b",
+    "cr:701.55c",
+    "cr:701.55d"
+   ]
+  },
+  {
+   "id": "missy-06:p4",
+   "from": "card:Cybermen Squadron",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "701.55b",
+    "701.55c",
+    "701.55d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-06",
+    "cr:701.55a",
+    "cr:701.55b",
+    "cr:701.55c",
+    "cr:701.55d"
+   ]
+  },
+  {
+   "id": "missy-07:m1",
+   "from": "commander:Missy",
+   "to": "interaction:missy/missy-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-07",
+    "cr:708.8",
+    "cr:116.2b"
+   ]
+  },
+  {
+   "id": "missy-07:m2",
+   "from": "card:Etrata, Deadly Fugitive",
+   "to": "interaction:missy/missy-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-07",
+    "cr:708.8",
+    "cr:116.2b"
+   ]
+  },
+  {
+   "id": "missy-07:m3",
+   "from": "card:Skirk Alarmist",
+   "to": "interaction:missy/missy-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-07",
+    "cr:708.8",
+    "cr:116.2b"
+   ]
+  },
+  {
+   "id": "missy-07:m4",
+   "from": "card:Ugin's Mastery",
+   "to": "interaction:missy/missy-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-07",
+    "cr:708.8",
+    "cr:116.2b"
+   ]
+  },
+  {
+   "id": "missy-07:m5",
+   "from": "card:Ixidor, Reality Sculptor",
+   "to": "interaction:missy/missy-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-07",
+    "cr:708.8",
+    "cr:116.2b"
+   ]
+  },
+  {
+   "id": "missy-07:p1",
+   "from": "card:Etrata, Deadly Fugitive",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-07",
+    "cr:708.8",
+    "cr:116.2b"
+   ]
+  },
+  {
+   "id": "missy-07:p2",
+   "from": "card:Skirk Alarmist",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-07",
+    "cr:708.8",
+    "cr:116.2b"
+   ]
+  },
+  {
+   "id": "missy-07:p3",
+   "from": "card:Ugin's Mastery",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-07",
+    "cr:708.8",
+    "cr:116.2b"
+   ]
+  },
+  {
+   "id": "missy-07:p4",
+   "from": "card:Ixidor, Reality Sculptor",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-07",
+    "cr:708.8",
+    "cr:116.2b"
+   ]
+  },
+  {
+   "id": "missy-08:m1",
+   "from": "commander:Missy",
+   "to": "interaction:missy/missy-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "702.37b",
+    "702.168a",
+    "702.168d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-08",
+    "cr:702.37e",
+    "cr:702.37b",
+    "cr:702.168a",
+    "cr:702.168d"
+   ]
+  },
+  {
+   "id": "missy-08:m2",
+   "from": "card:Willbender",
+   "to": "interaction:missy/missy-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "702.37b",
+    "702.168a",
+    "702.168d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-08",
+    "cr:702.37e",
+    "cr:702.37b",
+    "cr:702.168a",
+    "cr:702.168d"
+   ]
+  },
+  {
+   "id": "missy-08:m3",
+   "from": "card:Boltbender",
+   "to": "interaction:missy/missy-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "702.37b",
+    "702.168a",
+    "702.168d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-08",
+    "cr:702.37e",
+    "cr:702.37b",
+    "cr:702.168a",
+    "cr:702.168d"
+   ]
+  },
+  {
+   "id": "missy-08:m4",
+   "from": "card:Stratus Dancer",
+   "to": "interaction:missy/missy-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "702.37b",
+    "702.168a",
+    "702.168d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-08",
+    "cr:702.37e",
+    "cr:702.37b",
+    "cr:702.168a",
+    "cr:702.168d"
+   ]
+  },
+  {
+   "id": "missy-08:m5",
+   "from": "card:Kadena's Silencer",
+   "to": "interaction:missy/missy-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.37e",
+    "702.37b",
+    "702.168a",
+    "702.168d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-08",
+    "cr:702.37e",
+    "cr:702.37b",
+    "cr:702.168a",
+    "cr:702.168d"
+   ]
+  },
+  {
+   "id": "missy-08:p1",
+   "from": "card:Willbender",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.37e",
+    "702.37b",
+    "702.168a",
+    "702.168d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-08",
+    "cr:702.37e",
+    "cr:702.37b",
+    "cr:702.168a",
+    "cr:702.168d"
+   ]
+  },
+  {
+   "id": "missy-08:p2",
+   "from": "card:Boltbender",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.37e",
+    "702.37b",
+    "702.168a",
+    "702.168d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-08",
+    "cr:702.37e",
+    "cr:702.37b",
+    "cr:702.168a",
+    "cr:702.168d"
+   ]
+  },
+  {
+   "id": "missy-08:p3",
+   "from": "card:Stratus Dancer",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.37e",
+    "702.37b",
+    "702.168a",
+    "702.168d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-08",
+    "cr:702.37e",
+    "cr:702.37b",
+    "cr:702.168a",
+    "cr:702.168d"
+   ]
+  },
+  {
+   "id": "missy-08:p4",
+   "from": "card:Kadena's Silencer",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.37e",
+    "702.37b",
+    "702.168a",
+    "702.168d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-08",
+    "cr:702.37e",
+    "cr:702.37b",
+    "cr:702.168a",
+    "cr:702.168d"
+   ]
+  },
+  {
+   "id": "missy-09:m1",
+   "from": "commander:Missy",
+   "to": "interaction:missy/missy-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.2",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-09",
+    "cr:708.2",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "missy-09:m2",
+   "from": "card:They Came from the Pipes",
+   "to": "interaction:missy/missy-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.2",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-09",
+    "cr:708.2",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "missy-09:m3",
+   "from": "card:Cybership",
+   "to": "interaction:missy/missy-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.2",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-09",
+    "cr:708.2",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "missy-09:m4",
+   "from": "card:The Cyber-Controller",
+   "to": "interaction:missy/missy-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.2",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-09",
+    "cr:708.2",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "missy-09:m5",
+   "from": "card:Death in Heaven",
+   "to": "interaction:missy/missy-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "missy-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "708.2",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-09",
+    "cr:708.2",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "missy-09:p1",
+   "from": "card:They Came from the Pipes",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "708.2",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-09",
+    "cr:708.2",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "missy-09:p2",
+   "from": "card:Cybership",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "708.2",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-09",
+    "cr:708.2",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "missy-09:p3",
+   "from": "card:The Cyber-Controller",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "708.2",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-09",
+    "cr:708.2",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "missy-09:p4",
+   "from": "card:Death in Heaven",
+   "to": "commander:Missy",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "missy-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "708.2",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/missy.json#missy-09",
+    "cr:708.2",
+    "cr:121.4"
+   ]
+  }
+ ]
+}

@@ -101,16 +101,18 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 **Status:** ✅ verified · **Evidence:** fact · **Cards:** Gwendlyn Di Corci, Tinybones, Pocket Nuisance, Liliana's Caress, Geth's Grimoire, Mind Twist
 
-**Ruling.** Liliana's Caress (2 life) and Geth's Grimoire (may draw) trigger for each card an opponent discards. Tinybones uses 'one or more cards' and triggers once per player per discard event: it deals 1 to each opponent, and any player's discard counts, yours included. Mind Twist for X is one event of X cards: X Caress triggers, one Tinybones trigger. Each Gwendlyn activation is its own event.
+**Ruling.** Liliana's Caress (2 life) and Geth's Grimoire (may draw) trigger for each card an opponent discards. Tinybones uses 'one or more cards' and triggers once per player per discard event: it deals 1 to each opponent, and any player's discard counts, yours included. Mind Twist for X is one event of X cards: X Caress triggers, one Tinybones trigger. Each Gwendlyn activation is its own event. Tinybones's enters trigger makes each opponent discard a card. Those discards count for the per-card payoffs, and Tinybones is already on the battlefield, so its own discard trigger sees them too.
 
 **Citations**
 
 - Oracle, *Tinybones, Pocket Nuisance*: “Whenever a player discards one or more cards, Tinybones deals 1 damage to each opponent.”
 - Oracle, *Liliana's Caress*: “Whenever an opponent discards a card, that player loses 2 life.”
+- Oracle, *Tinybones, Pocket Nuisance*: “When Tinybones enters, each opponent discards a card.”
 - [CR 603.2c](#cr-6032c), [CR 701.9a](#cr-7019a)
 - Source (re-verified): [`Gwendlyn_Di_Corci_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json) → “Tinybones, Pocket Nuisance discard trigger”
 - Source (re-verified): [`Gwendlyn_Di_Corci_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json) → “Discard payoff granularity”
 - Source (re-verified): [`Gwendlyn_Di_Corci_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json) → “Mind Twist random discard”
+- Source (re-verified): [`Gwendlyn_Di_Corci_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json) → “Tinybones ETB”
 
 ## Key card-pair interactions
 

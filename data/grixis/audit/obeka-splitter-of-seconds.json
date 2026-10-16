@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
- "pass_id": "audit:obeka-splitter-of-seconds:c59:24997e8f2813",
+ "pass_id": "audit:obeka-splitter-of-seconds:c59:65b289dbe10b",
  "snapshot": {
-  "id": "sha256:24997e8f2813d71ae11149fa895a4a280fb14d09a9296bfe42d65959a89ba2ff",
-  "graph": "sha256:d612e33ebbd751896db3726321b77b176e71bf16f2ae9e02bb696dc53c8cb7ad",
+  "id": "sha256:65b289dbe10b1fdb88feead49b6743390e193e2f6a8399d370eb08987be6fb4b",
+  "graph": "sha256:bbb08513948f6f18f974d23d58cb7697f6fefaafede844d6196c74a685cdca77",
   "evidence": "sha256:a80228dbd6e81680d3d6ec5c68ed48f8e4b83153dc8f62ec48c3512702024463",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

@@ -1,0 +1,1733 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Kefka__Court_Mage",
+ "slug": "kefka-court-mage",
+ "deck_sha256": "1bf9bb268230bdf1978b734b906a2d5ff44f0dd06ce8f400fc694f0f90348391",
+ "review": "data/grixis_interactions/kefka-court-mage.json",
+ "review_sha256": "f666fcea12266a0c68cfdf9ce31abf1c578326d1b59c09b6a6b602cfb704740d",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 13,
+  "nodes": 37,
+  "membership_edges": 36,
+  "pair_edges": 23
+ },
+ "nodes": [
+  {
+   "id": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "commander",
+   "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kefka-court-mage/kefka-01",
+   "kind": "interaction",
+   "interaction": "kefka-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:kefka-court-mage/kefka-02",
+   "kind": "interaction",
+   "interaction": "kefka-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Harmonic Prodigy",
+   "kind": "card",
+   "name": "Harmonic Prodigy",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kefka-court-mage/kefka-03",
+   "kind": "interaction",
+   "interaction": "kefka-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Anger",
+   "kind": "card",
+   "name": "Anger",
+   "in_list": true
+  },
+  {
+   "id": "card:Arena of Glory",
+   "kind": "card",
+   "name": "Arena of Glory",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kefka-court-mage/kefka-04",
+   "kind": "interaction",
+   "interaction": "kefka-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Gogo, Mysterious Mime",
+   "kind": "card",
+   "name": "Gogo, Mysterious Mime",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kefka-court-mage/kefka-05",
+   "kind": "interaction",
+   "interaction": "kefka-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Phantasmal Image",
+   "kind": "card",
+   "name": "Phantasmal Image",
+   "in_list": true
+  },
+  {
+   "id": "card:Phyrexian Metamorph",
+   "kind": "card",
+   "name": "Phyrexian Metamorph",
+   "in_list": true
+  },
+  {
+   "id": "card:Molten Duplication",
+   "kind": "card",
+   "name": "Molten Duplication",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kefka-court-mage/kefka-06",
+   "kind": "interaction",
+   "interaction": "kefka-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Saw in Half",
+   "kind": "card",
+   "name": "Saw in Half",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kefka-court-mage/kefka-07",
+   "kind": "interaction",
+   "interaction": "kefka-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Essence Flux",
+   "kind": "card",
+   "name": "Essence Flux",
+   "in_list": true
+  },
+  {
+   "id": "card:Displacer Kitten",
+   "kind": "card",
+   "name": "Displacer Kitten",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kefka-court-mage/kefka-08",
+   "kind": "interaction",
+   "interaction": "kefka-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Tinybones, Bauble Burglar",
+   "kind": "card",
+   "name": "Tinybones, Bauble Burglar",
+   "in_list": true
+  },
+  {
+   "id": "card:Waste Not",
+   "kind": "card",
+   "name": "Waste Not",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kefka-court-mage/kefka-09",
+   "kind": "interaction",
+   "interaction": "kefka-09",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Demonic Counsel",
+   "kind": "card",
+   "name": "Demonic Counsel",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kefka-court-mage/kefka-10",
+   "kind": "interaction",
+   "interaction": "kefka-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thassa's Oracle",
+   "kind": "card",
+   "name": "Thassa's Oracle",
+   "in_list": true
+  },
+  {
+   "id": "card:Demonic Consultation",
+   "kind": "card",
+   "name": "Demonic Consultation",
+   "in_list": true
+  },
+  {
+   "id": "card:Tainted Pact",
+   "kind": "card",
+   "name": "Tainted Pact",
+   "in_list": true
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "card:Lion's Eye Diamond",
+   "kind": "card",
+   "name": "Lion's Eye Diamond",
+   "in_list": true
+  },
+  {
+   "id": "card:Brain Freeze",
+   "kind": "card",
+   "name": "Brain Freeze",
+   "in_list": true
+  },
+  {
+   "id": "card:Hexing Squelcher",
+   "kind": "card",
+   "name": "Hexing Squelcher",
+   "in_list": true
+  },
+  {
+   "id": "card:Beseech the Mirror",
+   "kind": "card",
+   "name": "Beseech the Mirror",
+   "in_list": true
+  },
+  {
+   "id": "combo:kefka-court-mage/kefka-11",
+   "kind": "combo",
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "742-1295",
+    "1368-3518-4856"
+   ]
+  },
+  {
+   "id": "card:Valley Floodcaller",
+   "kind": "card",
+   "name": "Valley Floodcaller",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kefka-court-mage/kefka-12",
+   "kind": "interaction",
+   "interaction": "kefka-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Final Fortune",
+   "kind": "card",
+   "name": "Final Fortune",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kefka-court-mage/kefka-13",
+   "kind": "interaction",
+   "interaction": "kefka-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "kefka-01:m1",
+   "from": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "interaction:kefka-court-mage/kefka-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.2a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-01",
+    "cr:205.2a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "kefka-02:m1",
+   "from": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "interaction:kefka-court-mage/kefka-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.27a",
+    "101.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-02",
+    "cr:701.27a",
+    "cr:101.4"
+   ]
+  },
+  {
+   "id": "kefka-03:m1",
+   "from": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "interaction:kefka-court-mage/kefka-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-03",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "kefka-03:m2",
+   "from": "card:Harmonic Prodigy",
+   "to": "interaction:kefka-court-mage/kefka-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-03",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "kefka-03:p1",
+   "from": "card:Harmonic Prodigy",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-03",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "kefka-04:m1",
+   "from": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "interaction:kefka-court-mage/kefka-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10a",
+    "205.3i"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-04",
+    "cr:702.10a",
+    "cr:205.3i"
+   ]
+  },
+  {
+   "id": "kefka-04:m2",
+   "from": "card:Anger",
+   "to": "interaction:kefka-court-mage/kefka-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10a",
+    "205.3i"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-04",
+    "cr:702.10a",
+    "cr:205.3i"
+   ]
+  },
+  {
+   "id": "kefka-04:m3",
+   "from": "card:Arena of Glory",
+   "to": "interaction:kefka-court-mage/kefka-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10a",
+    "205.3i"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-04",
+    "cr:702.10a",
+    "cr:205.3i"
+   ]
+  },
+  {
+   "id": "kefka-04:p1",
+   "from": "card:Anger",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10a",
+    "205.3i"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-04",
+    "cr:702.10a",
+    "cr:205.3i"
+   ]
+  },
+  {
+   "id": "kefka-04:p2",
+   "from": "card:Arena of Glory",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10a",
+    "205.3i"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-04",
+    "cr:702.10a",
+    "cr:205.3i"
+   ]
+  },
+  {
+   "id": "kefka-05:m1",
+   "from": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "interaction:kefka-court-mage/kefka-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.9b",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-05",
+    "cr:707.9b",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "kefka-05:m2",
+   "from": "card:Gogo, Mysterious Mime",
+   "to": "interaction:kefka-court-mage/kefka-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.9b",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-05",
+    "cr:707.9b",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "kefka-05:p1",
+   "from": "card:Gogo, Mysterious Mime",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.9b",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-05",
+    "cr:707.9b",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "kefka-06:m1",
+   "from": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "interaction:kefka-court-mage/kefka-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.8",
+    "707.8a",
+    "701.27c",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-06",
+    "cr:707.8",
+    "cr:707.8a",
+    "cr:701.27c",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "kefka-06:m2",
+   "from": "card:Phantasmal Image",
+   "to": "interaction:kefka-court-mage/kefka-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.8",
+    "707.8a",
+    "701.27c",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-06",
+    "cr:707.8",
+    "cr:707.8a",
+    "cr:701.27c",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "kefka-06:m3",
+   "from": "card:Phyrexian Metamorph",
+   "to": "interaction:kefka-court-mage/kefka-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.8",
+    "707.8a",
+    "701.27c",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-06",
+    "cr:707.8",
+    "cr:707.8a",
+    "cr:701.27c",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "kefka-06:m4",
+   "from": "card:Molten Duplication",
+   "to": "interaction:kefka-court-mage/kefka-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.8",
+    "707.8a",
+    "701.27c",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-06",
+    "cr:707.8",
+    "cr:707.8a",
+    "cr:701.27c",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "kefka-06:p1",
+   "from": "card:Phantasmal Image",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.8",
+    "707.8a",
+    "701.27c",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-06",
+    "cr:707.8",
+    "cr:707.8a",
+    "cr:701.27c",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "kefka-06:p2",
+   "from": "card:Phyrexian Metamorph",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.8",
+    "707.8a",
+    "701.27c",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-06",
+    "cr:707.8",
+    "cr:707.8a",
+    "cr:701.27c",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "kefka-06:p3",
+   "from": "card:Molten Duplication",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.8",
+    "707.8a",
+    "701.27c",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-06",
+    "cr:707.8",
+    "cr:707.8a",
+    "cr:701.27c",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "kefka-07:m1",
+   "from": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "interaction:kefka-court-mage/kefka-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.9a",
+    "704.5j",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-07",
+    "cr:903.9a",
+    "cr:704.5j",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kefka-07:m2",
+   "from": "card:Saw in Half",
+   "to": "interaction:kefka-court-mage/kefka-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.9a",
+    "704.5j",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-07",
+    "cr:903.9a",
+    "cr:704.5j",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kefka-07:p1",
+   "from": "card:Saw in Half",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-07",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.9a",
+    "704.5j",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-07",
+    "cr:903.9a",
+    "cr:704.5j",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kefka-08:m1",
+   "from": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "interaction:kefka-court-mage/kefka-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "712.14"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-08",
+    "cr:400.7",
+    "cr:712.14"
+   ]
+  },
+  {
+   "id": "kefka-08:m2",
+   "from": "card:Essence Flux",
+   "to": "interaction:kefka-court-mage/kefka-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "712.14"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-08",
+    "cr:400.7",
+    "cr:712.14"
+   ]
+  },
+  {
+   "id": "kefka-08:m3",
+   "from": "card:Displacer Kitten",
+   "to": "interaction:kefka-court-mage/kefka-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "712.14"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-08",
+    "cr:400.7",
+    "cr:712.14"
+   ]
+  },
+  {
+   "id": "kefka-08:p1",
+   "from": "card:Essence Flux",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "712.14"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-08",
+    "cr:400.7",
+    "cr:712.14"
+   ]
+  },
+  {
+   "id": "kefka-08:p2",
+   "from": "card:Displacer Kitten",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "712.14"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-08",
+    "cr:400.7",
+    "cr:712.14"
+   ]
+  },
+  {
+   "id": "kefka-09:m1",
+   "from": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "interaction:kefka-court-mage/kefka-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-09",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3",
+    "608.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-09",
+    "cr:603.3",
+    "cr:608.2"
+   ]
+  },
+  {
+   "id": "kefka-09:m2",
+   "from": "card:Tinybones, Bauble Burglar",
+   "to": "interaction:kefka-court-mage/kefka-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-09",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3",
+    "608.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-09",
+    "cr:603.3",
+    "cr:608.2"
+   ]
+  },
+  {
+   "id": "kefka-09:m3",
+   "from": "card:Waste Not",
+   "to": "interaction:kefka-court-mage/kefka-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-09",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3",
+    "608.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-09",
+    "cr:603.3",
+    "cr:608.2"
+   ]
+  },
+  {
+   "id": "kefka-09:p1",
+   "from": "card:Tinybones, Bauble Burglar",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-09",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3",
+    "608.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-09",
+    "cr:603.3",
+    "cr:608.2"
+   ]
+  },
+  {
+   "id": "kefka-09:p2",
+   "from": "card:Waste Not",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-09",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3",
+    "608.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-09",
+    "cr:603.3",
+    "cr:608.2"
+   ]
+  },
+  {
+   "id": "kefka-10:m1",
+   "from": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "interaction:kefka-court-mage/kefka-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "207.2c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-10",
+    "cr:207.2c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "kefka-10:m2",
+   "from": "card:Demonic Counsel",
+   "to": "interaction:kefka-court-mage/kefka-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "207.2c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-10",
+    "cr:207.2c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "kefka-10:p1",
+   "from": "card:Demonic Counsel",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "207.2c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-10",
+    "cr:207.2c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "kefka-11:m1",
+   "from": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "combo:kefka-court-mage/kefka-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:m2",
+   "from": "card:Thassa's Oracle",
+   "to": "combo:kefka-court-mage/kefka-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:m3",
+   "from": "card:Demonic Consultation",
+   "to": "combo:kefka-court-mage/kefka-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:m4",
+   "from": "card:Tainted Pact",
+   "to": "combo:kefka-court-mage/kefka-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:m5",
+   "from": "card:Underworld Breach",
+   "to": "combo:kefka-court-mage/kefka-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:m6",
+   "from": "card:Lion's Eye Diamond",
+   "to": "combo:kefka-court-mage/kefka-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:m7",
+   "from": "card:Brain Freeze",
+   "to": "combo:kefka-court-mage/kefka-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:m8",
+   "from": "card:Hexing Squelcher",
+   "to": "combo:kefka-court-mage/kefka-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:m9",
+   "from": "card:Beseech the Mirror",
+   "to": "combo:kefka-court-mage/kefka-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:p1",
+   "from": "card:Thassa's Oracle",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:p2",
+   "from": "card:Demonic Consultation",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:p3",
+   "from": "card:Tainted Pact",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:p4",
+   "from": "card:Underworld Breach",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:p5",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:p6",
+   "from": "card:Brain Freeze",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:p7",
+   "from": "card:Hexing Squelcher",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-11:p8",
+   "from": "card:Beseech the Mirror",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-11",
+    "cr:121.4",
+    "cr:702.138a",
+    "cr:608.2g",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "kefka-12:m1",
+   "from": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "interaction:kefka-court-mage/kefka-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.8a",
+    "602.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-12",
+    "cr:702.8a",
+    "cr:602.5d"
+   ]
+  },
+  {
+   "id": "kefka-12:m2",
+   "from": "card:Valley Floodcaller",
+   "to": "interaction:kefka-court-mage/kefka-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.8a",
+    "602.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-12",
+    "cr:702.8a",
+    "cr:602.5d"
+   ]
+  },
+  {
+   "id": "kefka-12:p1",
+   "from": "card:Valley Floodcaller",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.8a",
+    "602.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-12",
+    "cr:702.8a",
+    "cr:602.5d"
+   ]
+  },
+  {
+   "id": "kefka-13:m1",
+   "from": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "interaction:kefka-court-mage/kefka-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-13",
+    "cr:500.7"
+   ]
+  },
+  {
+   "id": "kefka-13:m2",
+   "from": "card:Final Fortune",
+   "to": "interaction:kefka-court-mage/kefka-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kefka-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-13",
+    "cr:500.7"
+   ]
+  },
+  {
+   "id": "kefka-13:p1",
+   "from": "card:Final Fortune",
+   "to": "commander:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kefka-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kefka-court-mage.json#kefka-13",
+    "cr:500.7"
+   ]
+  }
+ ]
+}

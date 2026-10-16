@@ -1,0 +1,1837 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Admiral_Brass__Unsinkable",
+ "slug": "admiral-brass-unsinkable",
+ "deck_sha256": "e29dc5ed5ec6cc85863cf82408f7ecb29128e6668b5adf6ac60ea2c2b4deb2b5",
+ "review": "data/grixis_interactions/admiral-brass-unsinkable.json",
+ "review_sha256": "83b18042b5f374756769a5410154b365a91bb564e678200b26ed6e1355623f9b",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 15,
+  "nodes": 37,
+  "membership_edges": 43,
+  "pair_edges": 28
+ },
+ "nodes": [
+  {
+   "id": "commander:Admiral Brass, Unsinkable",
+   "kind": "commander",
+   "name": "Admiral Brass, Unsinkable",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-01",
+   "kind": "interaction",
+   "interaction": "brass-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Pitiless Plunderer",
+   "kind": "card",
+   "name": "Pitiless Plunderer",
+   "in_list": true
+  },
+  {
+   "id": "card:Victimize",
+   "kind": "card",
+   "name": "Victimize",
+   "in_list": true
+  },
+  {
+   "id": "card:Living Death",
+   "kind": "card",
+   "name": "Living Death",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-02",
+   "kind": "interaction",
+   "interaction": "brass-02",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Power Conduit",
+   "kind": "card",
+   "name": "Power Conduit",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-03",
+   "kind": "interaction",
+   "interaction": "brass-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Roaming Throne",
+   "kind": "card",
+   "name": "Roaming Throne",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-04",
+   "kind": "interaction",
+   "interaction": "brass-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Changeling Outcast",
+   "kind": "card",
+   "name": "Changeling Outcast",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-05",
+   "kind": "interaction",
+   "interaction": "brass-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Admiral Beckett Brass",
+   "kind": "card",
+   "name": "Admiral Beckett Brass",
+   "in_list": true
+  },
+  {
+   "id": "card:Corsair Captain",
+   "kind": "card",
+   "name": "Corsair Captain",
+   "in_list": true
+  },
+  {
+   "id": "card:Skeleton Crew",
+   "kind": "card",
+   "name": "Skeleton Crew",
+   "in_list": true
+  },
+  {
+   "id": "card:Animate Dead",
+   "kind": "card",
+   "name": "Animate Dead",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-06",
+   "kind": "interaction",
+   "interaction": "brass-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Amphin Mutineer",
+   "kind": "card",
+   "name": "Amphin Mutineer",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-07",
+   "kind": "interaction",
+   "interaction": "brass-07",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Enterprising Scallywag",
+   "kind": "card",
+   "name": "Enterprising Scallywag",
+   "in_list": true
+  },
+  {
+   "id": "card:Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
+   "kind": "card",
+   "name": "Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-08",
+   "kind": "interaction",
+   "interaction": "brass-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Wonder",
+   "kind": "card",
+   "name": "Wonder",
+   "in_list": true
+  },
+  {
+   "id": "card:Entomb",
+   "kind": "card",
+   "name": "Entomb",
+   "in_list": true
+  },
+  {
+   "id": "card:Buried Alive",
+   "kind": "card",
+   "name": "Buried Alive",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-09",
+   "kind": "interaction",
+   "interaction": "brass-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Patriarch's Bidding",
+   "kind": "card",
+   "name": "Patriarch's Bidding",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-10",
+   "kind": "interaction",
+   "interaction": "brass-10",
+   "topic": "pair",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "strategic_judgment"
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-11",
+   "kind": "interaction",
+   "interaction": "brass-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Angrath's Marauders",
+   "kind": "card",
+   "name": "Angrath's Marauders",
+   "in_list": true
+  },
+  {
+   "id": "card:Broadside Bombardiers",
+   "kind": "card",
+   "name": "Broadside Bombardiers",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-12",
+   "kind": "interaction",
+   "interaction": "brass-12",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Gemcutter Buccaneer",
+   "kind": "card",
+   "name": "Gemcutter Buccaneer",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-13",
+   "kind": "interaction",
+   "interaction": "brass-13",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-14",
+   "kind": "interaction",
+   "interaction": "brass-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Reanimate",
+   "kind": "card",
+   "name": "Reanimate",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-brass-unsinkable/brass-15",
+   "kind": "interaction",
+   "interaction": "brass-15",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "brass-01:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "122.1h",
+    "613.4b",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-01",
+    "cr:122.1h",
+    "cr:613.4b",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "brass-02:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-02",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "122.1h",
+    "700.4",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-02",
+    "cr:122.1h",
+    "cr:700.4",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "brass-02:m2",
+   "from": "card:Pitiless Plunderer",
+   "to": "interaction:admiral-brass-unsinkable/brass-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-02",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "122.1h",
+    "700.4",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-02",
+    "cr:122.1h",
+    "cr:700.4",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "brass-02:m3",
+   "from": "card:Victimize",
+   "to": "interaction:admiral-brass-unsinkable/brass-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-02",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "122.1h",
+    "700.4",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-02",
+    "cr:122.1h",
+    "cr:700.4",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "brass-02:m4",
+   "from": "card:Living Death",
+   "to": "interaction:admiral-brass-unsinkable/brass-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-02",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "122.1h",
+    "700.4",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-02",
+    "cr:122.1h",
+    "cr:700.4",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "brass-02:p1",
+   "from": "card:Pitiless Plunderer",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-02",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "122.1h",
+    "700.4",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-02",
+    "cr:122.1h",
+    "cr:700.4",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "brass-02:p2",
+   "from": "card:Victimize",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-02",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "122.1h",
+    "700.4",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-02",
+    "cr:122.1h",
+    "cr:700.4",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "brass-02:p3",
+   "from": "card:Living Death",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-02",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "122.1h",
+    "700.4",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-02",
+    "cr:122.1h",
+    "cr:700.4",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "brass-03:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "122.1h",
+    "602.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-03",
+    "cr:122.1h",
+    "cr:602.2"
+   ]
+  },
+  {
+   "id": "brass-03:m2",
+   "from": "card:Power Conduit",
+   "to": "interaction:admiral-brass-unsinkable/brass-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "122.1h",
+    "602.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-03",
+    "cr:122.1h",
+    "cr:602.2"
+   ]
+  },
+  {
+   "id": "brass-03:p1",
+   "from": "card:Power Conduit",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "122.1h",
+    "602.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-03",
+    "cr:122.1h",
+    "cr:602.2"
+   ]
+  },
+  {
+   "id": "brass-04:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-04",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "brass-04:m2",
+   "from": "card:Roaming Throne",
+   "to": "interaction:admiral-brass-unsinkable/brass-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-04",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "brass-04:p1",
+   "from": "card:Roaming Throne",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-04",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "brass-05:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.73a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-05",
+    "cr:702.73a"
+   ]
+  },
+  {
+   "id": "brass-05:m2",
+   "from": "card:Changeling Outcast",
+   "to": "interaction:admiral-brass-unsinkable/brass-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.73a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-05",
+    "cr:702.73a"
+   ]
+  },
+  {
+   "id": "brass-05:p1",
+   "from": "card:Changeling Outcast",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.73a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-05",
+    "cr:702.73a"
+   ]
+  },
+  {
+   "id": "brass-06:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-06",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "brass-06:m2",
+   "from": "card:Admiral Beckett Brass",
+   "to": "interaction:admiral-brass-unsinkable/brass-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-06",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "brass-06:m3",
+   "from": "card:Corsair Captain",
+   "to": "interaction:admiral-brass-unsinkable/brass-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-06",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "brass-06:m4",
+   "from": "card:Skeleton Crew",
+   "to": "interaction:admiral-brass-unsinkable/brass-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-06",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "brass-06:m5",
+   "from": "card:Animate Dead",
+   "to": "interaction:admiral-brass-unsinkable/brass-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-06",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "brass-06:p1",
+   "from": "card:Admiral Beckett Brass",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-06",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "brass-06:p2",
+   "from": "card:Corsair Captain",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-06",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "brass-06:p3",
+   "from": "card:Skeleton Crew",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-06",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "brass-06:p4",
+   "from": "card:Animate Dead",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-06",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "brass-07:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-07",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-07",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "brass-07:m2",
+   "from": "card:Skeleton Crew",
+   "to": "interaction:admiral-brass-unsinkable/brass-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-07",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-07",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "brass-07:m3",
+   "from": "card:Amphin Mutineer",
+   "to": "interaction:admiral-brass-unsinkable/brass-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-07",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-07",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "brass-07:m4",
+   "from": "card:Living Death",
+   "to": "interaction:admiral-brass-unsinkable/brass-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-07",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-07",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "brass-07:p1",
+   "from": "card:Skeleton Crew",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-07",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-07",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "brass-07:p2",
+   "from": "card:Amphin Mutineer",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-07",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-07",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "brass-07:p3",
+   "from": "card:Living Death",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-07",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-07",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "brass-08:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.11"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-08",
+    "cr:700.11"
+   ]
+  },
+  {
+   "id": "brass-08:m2",
+   "from": "card:Enterprising Scallywag",
+   "to": "interaction:admiral-brass-unsinkable/brass-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.11"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-08",
+    "cr:700.11"
+   ]
+  },
+  {
+   "id": "brass-08:m3",
+   "from": "card:Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
+   "to": "interaction:admiral-brass-unsinkable/brass-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.11"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-08",
+    "cr:700.11"
+   ]
+  },
+  {
+   "id": "brass-08:p1",
+   "from": "card:Enterprising Scallywag",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.11"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-08",
+    "cr:700.11"
+   ]
+  },
+  {
+   "id": "brass-08:p2",
+   "from": "card:Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.11"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-08",
+    "cr:700.11"
+   ]
+  },
+  {
+   "id": "brass-09:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-09",
+    "cr:113.6"
+   ]
+  },
+  {
+   "id": "brass-09:m2",
+   "from": "card:Wonder",
+   "to": "interaction:admiral-brass-unsinkable/brass-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-09",
+    "cr:113.6"
+   ]
+  },
+  {
+   "id": "brass-09:m3",
+   "from": "card:Entomb",
+   "to": "interaction:admiral-brass-unsinkable/brass-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-09",
+    "cr:113.6"
+   ]
+  },
+  {
+   "id": "brass-09:m4",
+   "from": "card:Buried Alive",
+   "to": "interaction:admiral-brass-unsinkable/brass-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-09",
+    "cr:113.6"
+   ]
+  },
+  {
+   "id": "brass-09:p1",
+   "from": "card:Wonder",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-09",
+    "cr:113.6"
+   ]
+  },
+  {
+   "id": "brass-09:p2",
+   "from": "card:Entomb",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-09",
+    "cr:113.6"
+   ]
+  },
+  {
+   "id": "brass-09:p3",
+   "from": "card:Buried Alive",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-09",
+    "cr:113.6"
+   ]
+  },
+  {
+   "id": "brass-10:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-10",
+   "topic": "pair",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "strategic_judgment",
+   "cr": [
+    "101.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-10",
+    "cr:101.4"
+   ]
+  },
+  {
+   "id": "brass-10:m2",
+   "from": "card:Patriarch's Bidding",
+   "to": "interaction:admiral-brass-unsinkable/brass-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-10",
+   "topic": "pair",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "strategic_judgment",
+   "cr": [
+    "101.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-10",
+    "cr:101.4"
+   ]
+  },
+  {
+   "id": "brass-10:m3",
+   "from": "card:Living Death",
+   "to": "interaction:admiral-brass-unsinkable/brass-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-10",
+   "topic": "pair",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "strategic_judgment",
+   "cr": [
+    "101.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-10",
+    "cr:101.4"
+   ]
+  },
+  {
+   "id": "brass-10:p1",
+   "from": "card:Patriarch's Bidding",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-10",
+   "topic": "pair",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "101.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-10",
+    "cr:101.4"
+   ]
+  },
+  {
+   "id": "brass-10:p2",
+   "from": "card:Living Death",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-10",
+   "topic": "pair",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "101.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-10",
+    "cr:101.4"
+   ]
+  },
+  {
+   "id": "brass-11:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-11",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "brass-11:m2",
+   "from": "card:Victimize",
+   "to": "interaction:admiral-brass-unsinkable/brass-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-11",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "brass-11:p1",
+   "from": "card:Victimize",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-11",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "brass-12:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-12",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-12",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "brass-12:m2",
+   "from": "card:Angrath's Marauders",
+   "to": "interaction:admiral-brass-unsinkable/brass-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-12",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-12",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "brass-12:m3",
+   "from": "card:Broadside Bombardiers",
+   "to": "interaction:admiral-brass-unsinkable/brass-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-12",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-12",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "brass-12:p1",
+   "from": "card:Angrath's Marauders",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-12",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-12",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "brass-12:p2",
+   "from": "card:Broadside Bombardiers",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-12",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-12",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "brass-13:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-13",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "301.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-13",
+    "cr:301.5"
+   ]
+  },
+  {
+   "id": "brass-13:m2",
+   "from": "card:Gemcutter Buccaneer",
+   "to": "interaction:admiral-brass-unsinkable/brass-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-13",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "301.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-13",
+    "cr:301.5"
+   ]
+  },
+  {
+   "id": "brass-13:p1",
+   "from": "card:Gemcutter Buccaneer",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-13",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "301.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-13",
+    "cr:301.5"
+   ]
+  },
+  {
+   "id": "brass-14:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-14",
+    "cr:903.8",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "brass-15:m1",
+   "from": "commander:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-brass-unsinkable/brass-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-15",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-15",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "brass-15:m2",
+   "from": "card:Buried Alive",
+   "to": "interaction:admiral-brass-unsinkable/brass-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-15",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-15",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "brass-15:m3",
+   "from": "card:Entomb",
+   "to": "interaction:admiral-brass-unsinkable/brass-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-15",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-15",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "brass-15:m4",
+   "from": "card:Reanimate",
+   "to": "interaction:admiral-brass-unsinkable/brass-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-15",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-15",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "brass-15:m5",
+   "from": "card:Animate Dead",
+   "to": "interaction:admiral-brass-unsinkable/brass-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "brass-15",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-15",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "brass-15:p1",
+   "from": "card:Buried Alive",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-15",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-15",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "brass-15:p2",
+   "from": "card:Entomb",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-15",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-15",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "brass-15:p3",
+   "from": "card:Reanimate",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-15",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-15",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "brass-15:p4",
+   "from": "card:Animate Dead",
+   "to": "commander:Admiral Brass, Unsinkable",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "brass-15",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-brass-unsinkable.json#brass-15",
+    "cr:603.4"
+   ]
+  }
+ ]
+}

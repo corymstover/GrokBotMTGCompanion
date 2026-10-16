@@ -1,0 +1,1959 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Cormela__Glamour_Thief",
+ "slug": "cormela-glamour-thief",
+ "deck_sha256": "29dad7ed42b4c5b81bb507f96d3638c6dbe8f509f6d8e8f935f25df484930578",
+ "review": "data/grixis_interactions/cormela-glamour-thief.json",
+ "review_sha256": "85793391b5cf8ea8c453967e9f1bdac383cfadf03a5584ee713c3b5659732856",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 10,
+  "nodes": 34,
+  "membership_edges": 41,
+  "pair_edges": 31
+ },
+ "nodes": [
+  {
+   "id": "commander:Cormela, Glamour Thief",
+   "kind": "commander",
+   "name": "Cormela, Glamour Thief",
+   "in_list": true
+  },
+  {
+   "id": "interaction:cormela-glamour-thief/cormela-01",
+   "kind": "interaction",
+   "interaction": "cormela-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Goryo's Vengeance",
+   "kind": "card",
+   "name": "Goryo's Vengeance",
+   "in_list": true
+  },
+  {
+   "id": "card:Shallow Grave",
+   "kind": "card",
+   "name": "Shallow Grave",
+   "in_list": true
+  },
+  {
+   "id": "interaction:cormela-glamour-thief/cormela-02",
+   "kind": "interaction",
+   "interaction": "cormela-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Saw in Half",
+   "kind": "card",
+   "name": "Saw in Half",
+   "in_list": true
+  },
+  {
+   "id": "card:Dark Ritual",
+   "kind": "card",
+   "name": "Dark Ritual",
+   "in_list": true
+  },
+  {
+   "id": "card:Cabal Ritual",
+   "kind": "card",
+   "name": "Cabal Ritual",
+   "in_list": true
+  },
+  {
+   "id": "card:Seething Song",
+   "kind": "card",
+   "name": "Seething Song",
+   "in_list": true
+  },
+  {
+   "id": "card:Jeska's Will",
+   "kind": "card",
+   "name": "Jeska's Will",
+   "in_list": true
+  },
+  {
+   "id": "combo:cormela-glamour-thief/cormela-03",
+   "kind": "combo",
+   "interaction": "cormela-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Ashnod's Altar",
+   "kind": "card",
+   "name": "Ashnod's Altar",
+   "in_list": true
+  },
+  {
+   "id": "card:Phyrexian Altar",
+   "kind": "card",
+   "name": "Phyrexian Altar",
+   "in_list": true
+  },
+  {
+   "id": "combo:cormela-glamour-thief/cormela-04",
+   "kind": "combo",
+   "interaction": "cormela-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Demonic Gifts",
+   "kind": "card",
+   "name": "Demonic Gifts",
+   "in_list": true
+  },
+  {
+   "id": "card:Dualcaster Mage",
+   "kind": "card",
+   "name": "Dualcaster Mage",
+   "in_list": true
+  },
+  {
+   "id": "combo:cormela-glamour-thief/cormela-05",
+   "kind": "combo",
+   "interaction": "cormela-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "kind": "card",
+   "name": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "in_list": true
+  },
+  {
+   "id": "card:Molten Duplication",
+   "kind": "card",
+   "name": "Molten Duplication",
+   "in_list": true
+  },
+  {
+   "id": "combo:cormela-glamour-thief/cormela-06",
+   "kind": "combo",
+   "interaction": "cormela-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thassa's Oracle",
+   "kind": "card",
+   "name": "Thassa's Oracle",
+   "in_list": true
+  },
+  {
+   "id": "card:Demonic Consultation",
+   "kind": "card",
+   "name": "Demonic Consultation",
+   "in_list": true
+  },
+  {
+   "id": "card:Tainted Pact",
+   "kind": "card",
+   "name": "Tainted Pact",
+   "in_list": true
+  },
+  {
+   "id": "combo:cormela-glamour-thief/cormela-07",
+   "kind": "combo",
+   "interaction": "cormela-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "card:Lion's Eye Diamond",
+   "kind": "card",
+   "name": "Lion's Eye Diamond",
+   "in_list": true
+  },
+  {
+   "id": "card:Lotus Petal",
+   "kind": "card",
+   "name": "Lotus Petal",
+   "in_list": true
+  },
+  {
+   "id": "card:Brain Freeze",
+   "kind": "card",
+   "name": "Brain Freeze",
+   "in_list": true
+  },
+  {
+   "id": "card:Wheel of Fortune",
+   "kind": "card",
+   "name": "Wheel of Fortune",
+   "in_list": true
+  },
+  {
+   "id": "combo:cormela-glamour-thief/cormela-08",
+   "kind": "combo",
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Orcish Bowmasters",
+   "kind": "card",
+   "name": "Orcish Bowmasters",
+   "in_list": true
+  },
+  {
+   "id": "card:Windfall",
+   "kind": "card",
+   "name": "Windfall",
+   "in_list": true
+  },
+  {
+   "id": "interaction:cormela-glamour-thief/cormela-09",
+   "kind": "interaction",
+   "interaction": "cormela-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:cormela-glamour-thief/cormela-10",
+   "kind": "interaction",
+   "interaction": "cormela-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "cormela-01:m1",
+   "from": "commander:Cormela, Glamour Thief",
+   "to": "interaction:cormela-glamour-thief/cormela-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "106.6",
+    "608.2n",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-01",
+    "cr:106.6",
+    "cr:608.2n",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "cormela-02:m1",
+   "from": "commander:Cormela, Glamour Thief",
+   "to": "interaction:cormela-glamour-thief/cormela-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.9a",
+    "704.6d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-02",
+    "cr:903.9a",
+    "cr:704.6d"
+   ]
+  },
+  {
+   "id": "cormela-02:m2",
+   "from": "card:Goryo's Vengeance",
+   "to": "interaction:cormela-glamour-thief/cormela-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.9a",
+    "704.6d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-02",
+    "cr:903.9a",
+    "cr:704.6d"
+   ]
+  },
+  {
+   "id": "cormela-02:m3",
+   "from": "card:Shallow Grave",
+   "to": "interaction:cormela-glamour-thief/cormela-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.9a",
+    "704.6d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-02",
+    "cr:903.9a",
+    "cr:704.6d"
+   ]
+  },
+  {
+   "id": "cormela-02:p1",
+   "from": "card:Goryo's Vengeance",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.9a",
+    "704.6d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-02",
+    "cr:903.9a",
+    "cr:704.6d"
+   ]
+  },
+  {
+   "id": "cormela-02:p2",
+   "from": "card:Shallow Grave",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.9a",
+    "704.6d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-02",
+    "cr:903.9a",
+    "cr:704.6d"
+   ]
+  },
+  {
+   "id": "cormela-03:m1",
+   "from": "commander:Cormela, Glamour Thief",
+   "to": "combo:cormela-glamour-thief/cormela-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "608.2n",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-03",
+    "cr:704.5j",
+    "cr:608.2n",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "cormela-03:m2",
+   "from": "card:Saw in Half",
+   "to": "combo:cormela-glamour-thief/cormela-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "608.2n",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-03",
+    "cr:704.5j",
+    "cr:608.2n",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "cormela-03:m3",
+   "from": "card:Dark Ritual",
+   "to": "combo:cormela-glamour-thief/cormela-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "608.2n",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-03",
+    "cr:704.5j",
+    "cr:608.2n",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "cormela-03:m4",
+   "from": "card:Cabal Ritual",
+   "to": "combo:cormela-glamour-thief/cormela-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "608.2n",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-03",
+    "cr:704.5j",
+    "cr:608.2n",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "cormela-03:m5",
+   "from": "card:Seething Song",
+   "to": "combo:cormela-glamour-thief/cormela-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "608.2n",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-03",
+    "cr:704.5j",
+    "cr:608.2n",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "cormela-03:m6",
+   "from": "card:Jeska's Will",
+   "to": "combo:cormela-glamour-thief/cormela-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "608.2n",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-03",
+    "cr:704.5j",
+    "cr:608.2n",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "cormela-03:p1",
+   "from": "card:Saw in Half",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "608.2n",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-03",
+    "cr:704.5j",
+    "cr:608.2n",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "cormela-03:p2",
+   "from": "card:Dark Ritual",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "608.2n",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-03",
+    "cr:704.5j",
+    "cr:608.2n",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "cormela-03:p3",
+   "from": "card:Cabal Ritual",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "608.2n",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-03",
+    "cr:704.5j",
+    "cr:608.2n",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "cormela-03:p4",
+   "from": "card:Seething Song",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "608.2n",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-03",
+    "cr:704.5j",
+    "cr:608.2n",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "cormela-03:p5",
+   "from": "card:Jeska's Will",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "608.2n",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-03",
+    "cr:704.5j",
+    "cr:608.2n",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "cormela-04:m1",
+   "from": "commander:Cormela, Glamour Thief",
+   "to": "combo:cormela-glamour-thief/cormela-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-04",
+    "cr:605.1a",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "cormela-04:m2",
+   "from": "card:Goryo's Vengeance",
+   "to": "combo:cormela-glamour-thief/cormela-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-04",
+    "cr:605.1a",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "cormela-04:m3",
+   "from": "card:Shallow Grave",
+   "to": "combo:cormela-glamour-thief/cormela-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-04",
+    "cr:605.1a",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "cormela-04:m4",
+   "from": "card:Ashnod's Altar",
+   "to": "combo:cormela-glamour-thief/cormela-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-04",
+    "cr:605.1a",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "cormela-04:m5",
+   "from": "card:Phyrexian Altar",
+   "to": "combo:cormela-glamour-thief/cormela-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-04",
+    "cr:605.1a",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "cormela-04:p1",
+   "from": "card:Goryo's Vengeance",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-04",
+    "cr:605.1a",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "cormela-04:p2",
+   "from": "card:Shallow Grave",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-04",
+    "cr:605.1a",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "cormela-04:p3",
+   "from": "card:Ashnod's Altar",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-04",
+    "cr:605.1a",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "cormela-04:p4",
+   "from": "card:Phyrexian Altar",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-04",
+    "cr:605.1a",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "cormela-05:m1",
+   "from": "commander:Cormela, Glamour Thief",
+   "to": "combo:cormela-glamour-thief/cormela-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-05",
+    "cr:400.7",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-05:m2",
+   "from": "card:Demonic Gifts",
+   "to": "combo:cormela-glamour-thief/cormela-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-05",
+    "cr:400.7",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-05:m3",
+   "from": "card:Dualcaster Mage",
+   "to": "combo:cormela-glamour-thief/cormela-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-05",
+    "cr:400.7",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-05:m4",
+   "from": "card:Ashnod's Altar",
+   "to": "combo:cormela-glamour-thief/cormela-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-05",
+    "cr:400.7",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-05:m5",
+   "from": "card:Phyrexian Altar",
+   "to": "combo:cormela-glamour-thief/cormela-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-05",
+    "cr:400.7",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-05:p1",
+   "from": "card:Demonic Gifts",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-05",
+    "cr:400.7",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-05:p2",
+   "from": "card:Dualcaster Mage",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-05",
+    "cr:400.7",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-05:p3",
+   "from": "card:Ashnod's Altar",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-05",
+    "cr:400.7",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-05:p4",
+   "from": "card:Phyrexian Altar",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-05",
+    "cr:400.7",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-06:m1",
+   "from": "commander:Cormela, Glamour Thief",
+   "to": "combo:cormela-glamour-thief/cormela-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-06",
+    "cr:704.5j",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-06:m2",
+   "from": "card:Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "to": "combo:cormela-glamour-thief/cormela-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-06",
+    "cr:704.5j",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-06:m3",
+   "from": "card:Molten Duplication",
+   "to": "combo:cormela-glamour-thief/cormela-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-06",
+    "cr:704.5j",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-06:m4",
+   "from": "card:Dualcaster Mage",
+   "to": "combo:cormela-glamour-thief/cormela-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-06",
+    "cr:704.5j",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-06:m5",
+   "from": "card:Saw in Half",
+   "to": "combo:cormela-glamour-thief/cormela-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-06",
+    "cr:704.5j",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-06:p1",
+   "from": "card:Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-06",
+    "cr:704.5j",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-06:p2",
+   "from": "card:Molten Duplication",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-06",
+    "cr:704.5j",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-06:p3",
+   "from": "card:Dualcaster Mage",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-06",
+    "cr:704.5j",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-06:p4",
+   "from": "card:Saw in Half",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-06",
+    "cr:704.5j",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "cormela-07:m1",
+   "from": "commander:Cormela, Glamour Thief",
+   "to": "combo:cormela-glamour-thief/cormela-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5b",
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-07",
+    "cr:704.5b",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "cormela-07:m2",
+   "from": "card:Thassa's Oracle",
+   "to": "combo:cormela-glamour-thief/cormela-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5b",
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-07",
+    "cr:704.5b",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "cormela-07:m3",
+   "from": "card:Demonic Consultation",
+   "to": "combo:cormela-glamour-thief/cormela-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5b",
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-07",
+    "cr:704.5b",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "cormela-07:m4",
+   "from": "card:Tainted Pact",
+   "to": "combo:cormela-glamour-thief/cormela-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5b",
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-07",
+    "cr:704.5b",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "cormela-07:p1",
+   "from": "card:Thassa's Oracle",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5b",
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-07",
+    "cr:704.5b",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "cormela-07:p2",
+   "from": "card:Demonic Consultation",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5b",
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-07",
+    "cr:704.5b",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "cormela-07:p3",
+   "from": "card:Tainted Pact",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5b",
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-07",
+    "cr:704.5b",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "cormela-08:m1",
+   "from": "commander:Cormela, Glamour Thief",
+   "to": "combo:cormela-glamour-thief/cormela-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-08",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "cormela-08:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:cormela-glamour-thief/cormela-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-08",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "cormela-08:m3",
+   "from": "card:Lion's Eye Diamond",
+   "to": "combo:cormela-glamour-thief/cormela-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-08",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "cormela-08:m4",
+   "from": "card:Lotus Petal",
+   "to": "combo:cormela-glamour-thief/cormela-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-08",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "cormela-08:m5",
+   "from": "card:Brain Freeze",
+   "to": "combo:cormela-glamour-thief/cormela-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-08",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "cormela-08:m6",
+   "from": "card:Wheel of Fortune",
+   "to": "combo:cormela-glamour-thief/cormela-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-08",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "cormela-08:m7",
+   "from": "card:Jeska's Will",
+   "to": "combo:cormela-glamour-thief/cormela-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-08",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "cormela-08:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-08",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "cormela-08:p2",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-08",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "cormela-08:p3",
+   "from": "card:Lotus Petal",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-08",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "cormela-08:p4",
+   "from": "card:Brain Freeze",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-08",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "cormela-08:p5",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-08",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "cormela-08:p6",
+   "from": "card:Jeska's Will",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-08",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "cormela-09:m1",
+   "from": "commander:Cormela, Glamour Thief",
+   "to": "interaction:cormela-glamour-thief/cormela-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-09",
+    "cr:121.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "cormela-09:m2",
+   "from": "card:Orcish Bowmasters",
+   "to": "interaction:cormela-glamour-thief/cormela-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-09",
+    "cr:121.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "cormela-09:m3",
+   "from": "card:Wheel of Fortune",
+   "to": "interaction:cormela-glamour-thief/cormela-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-09",
+    "cr:121.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "cormela-09:m4",
+   "from": "card:Windfall",
+   "to": "interaction:cormela-glamour-thief/cormela-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-09",
+    "cr:121.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "cormela-09:p1",
+   "from": "card:Orcish Bowmasters",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-09",
+    "cr:121.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "cormela-09:p2",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-09",
+    "cr:121.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "cormela-09:p3",
+   "from": "card:Windfall",
+   "to": "commander:Cormela, Glamour Thief",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "cormela-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-09",
+    "cr:121.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "cormela-10:m1",
+   "from": "commander:Cormela, Glamour Thief",
+   "to": "interaction:cormela-glamour-thief/cormela-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "cormela-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cormela-glamour-thief.json#cormela-10",
+    "cr:903.8"
+   ]
+  }
+ ]
+}

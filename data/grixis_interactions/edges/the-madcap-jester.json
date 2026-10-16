@@ -1,0 +1,1714 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "The_Madcap_Jester",
+ "slug": "the-madcap-jester",
+ "deck_sha256": "1ce93f38a1dc81a07c3f499beb168ba2ac0512da1718ea02ab4204cefb0d8f03",
+ "review": "data/grixis_interactions/the-madcap-jester.json",
+ "review_sha256": "2477e51dcbed7fbd815559a1a9a59ca4b9b35f16be1c55392aff6a6aa6af19d1",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 7,
+  "nodes": 32,
+  "membership_edges": 34,
+  "pair_edges": 27
+ },
+ "nodes": [
+  {
+   "id": "commander:The Madcap Jester",
+   "kind": "commander",
+   "name": "The Madcap Jester",
+   "in_list": true
+  },
+  {
+   "id": "card:Ashiok, Nightmare Weaver",
+   "kind": "card",
+   "name": "Ashiok, Nightmare Weaver",
+   "in_list": true
+  },
+  {
+   "id": "card:Circu, Dimir Lobotomist",
+   "kind": "card",
+   "name": "Circu, Dimir Lobotomist",
+   "in_list": true
+  },
+  {
+   "id": "card:Extract",
+   "kind": "card",
+   "name": "Extract",
+   "in_list": true
+  },
+  {
+   "id": "card:Sadistic Sacrament",
+   "kind": "card",
+   "name": "Sadistic Sacrament",
+   "in_list": true
+  },
+  {
+   "id": "card:Bitter Ordeal",
+   "kind": "card",
+   "name": "Bitter Ordeal",
+   "in_list": true
+  },
+  {
+   "id": "card:Tasha's Hideous Laughter",
+   "kind": "card",
+   "name": "Tasha's Hideous Laughter",
+   "in_list": true
+  },
+  {
+   "id": "card:Jester's Cap",
+   "kind": "card",
+   "name": "Jester's Cap",
+   "in_list": true
+  },
+  {
+   "id": "card:Psychic Surgery",
+   "kind": "card",
+   "name": "Psychic Surgery",
+   "in_list": true
+  },
+  {
+   "id": "card:Inside Information",
+   "kind": "card",
+   "name": "Inside Information",
+   "in_list": true
+  },
+  {
+   "id": "interaction:the-madcap-jester/jester-01",
+   "kind": "interaction",
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Dauthi Voidwalker",
+   "kind": "card",
+   "name": "Dauthi Voidwalker",
+   "in_list": true
+  },
+  {
+   "id": "card:Brain Freeze",
+   "kind": "card",
+   "name": "Brain Freeze",
+   "in_list": true
+  },
+  {
+   "id": "interaction:the-madcap-jester/jester-02",
+   "kind": "interaction",
+   "interaction": "jester-02",
+   "topic": "replacement",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis"
+  },
+  {
+   "id": "card:Jester's Scepter",
+   "kind": "card",
+   "name": "Jester's Scepter",
+   "in_list": true
+  },
+  {
+   "id": "interaction:the-madcap-jester/jester-03",
+   "kind": "interaction",
+   "interaction": "jester-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thassa's Oracle",
+   "kind": "card",
+   "name": "Thassa's Oracle",
+   "in_list": true
+  },
+  {
+   "id": "card:Demonic Consultation",
+   "kind": "card",
+   "name": "Demonic Consultation",
+   "in_list": true
+  },
+  {
+   "id": "card:Tainted Pact",
+   "kind": "card",
+   "name": "Tainted Pact",
+   "in_list": true
+  },
+  {
+   "id": "combo:the-madcap-jester/jester-04",
+   "kind": "combo",
+   "interaction": "jester-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1295-3093",
+    "742-1295"
+   ]
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "card:Lion's Eye Diamond",
+   "kind": "card",
+   "name": "Lion's Eye Diamond",
+   "in_list": true
+  },
+  {
+   "id": "card:Lotus Petal",
+   "kind": "card",
+   "name": "Lotus Petal",
+   "in_list": true
+  },
+  {
+   "id": "combo:the-madcap-jester/jester-05",
+   "kind": "combo",
+   "interaction": "jester-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1368-3518-4856"
+   ]
+  },
+  {
+   "id": "card:Dragon's Smile",
+   "kind": "card",
+   "name": "Dragon's Smile",
+   "in_list": true
+  },
+  {
+   "id": "card:Bilbo, Thief in the Night",
+   "kind": "card",
+   "name": "Bilbo, Thief in the Night",
+   "in_list": true
+  },
+  {
+   "id": "card:Passionate Archaeologist",
+   "kind": "card",
+   "name": "Passionate Archaeologist",
+   "in_list": true
+  },
+  {
+   "id": "card:Nalfeshnee",
+   "kind": "card",
+   "name": "Nalfeshnee",
+   "in_list": true
+  },
+  {
+   "id": "card:Prosper, Tome-Bound",
+   "kind": "card",
+   "name": "Prosper, Tome-Bound",
+   "in_list": true
+  },
+  {
+   "id": "card:Wild-Magic Sorcerer",
+   "kind": "card",
+   "name": "Wild-Magic Sorcerer",
+   "in_list": true
+  },
+  {
+   "id": "interaction:the-madcap-jester/jester-06",
+   "kind": "interaction",
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:the-madcap-jester/jester-07",
+   "kind": "interaction",
+   "interaction": "jester-07",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "jester-01:m1",
+   "from": "commander:The Madcap Jester",
+   "to": "interaction:the-madcap-jester/jester-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:m2",
+   "from": "card:Ashiok, Nightmare Weaver",
+   "to": "interaction:the-madcap-jester/jester-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:m3",
+   "from": "card:Circu, Dimir Lobotomist",
+   "to": "interaction:the-madcap-jester/jester-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:m4",
+   "from": "card:Extract",
+   "to": "interaction:the-madcap-jester/jester-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:m5",
+   "from": "card:Sadistic Sacrament",
+   "to": "interaction:the-madcap-jester/jester-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:m6",
+   "from": "card:Bitter Ordeal",
+   "to": "interaction:the-madcap-jester/jester-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:m7",
+   "from": "card:Tasha's Hideous Laughter",
+   "to": "interaction:the-madcap-jester/jester-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:m8",
+   "from": "card:Jester's Cap",
+   "to": "interaction:the-madcap-jester/jester-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:m9",
+   "from": "card:Psychic Surgery",
+   "to": "interaction:the-madcap-jester/jester-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:m10",
+   "from": "card:Inside Information",
+   "to": "interaction:the-madcap-jester/jester-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:p1",
+   "from": "card:Ashiok, Nightmare Weaver",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:p2",
+   "from": "card:Circu, Dimir Lobotomist",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:p3",
+   "from": "card:Extract",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:p4",
+   "from": "card:Sadistic Sacrament",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:p5",
+   "from": "card:Bitter Ordeal",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:p6",
+   "from": "card:Tasha's Hideous Laughter",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:p7",
+   "from": "card:Jester's Cap",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:p8",
+   "from": "card:Psychic Surgery",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-01:p9",
+   "from": "card:Inside Information",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-01",
+    "cr:603.2",
+    "cr:109.4",
+    "cr:707.10",
+    "cr:305.2"
+   ]
+  },
+  {
+   "id": "jester-02:m1",
+   "from": "commander:The Madcap Jester",
+   "to": "interaction:the-madcap-jester/jester-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-02",
+   "topic": "replacement",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "614.6",
+    "701.17c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-02",
+    "cr:614.6",
+    "cr:701.17c"
+   ]
+  },
+  {
+   "id": "jester-02:m2",
+   "from": "card:Dauthi Voidwalker",
+   "to": "interaction:the-madcap-jester/jester-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-02",
+   "topic": "replacement",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "614.6",
+    "701.17c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-02",
+    "cr:614.6",
+    "cr:701.17c"
+   ]
+  },
+  {
+   "id": "jester-02:m3",
+   "from": "card:Brain Freeze",
+   "to": "interaction:the-madcap-jester/jester-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-02",
+   "topic": "replacement",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "614.6",
+    "701.17c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-02",
+    "cr:614.6",
+    "cr:701.17c"
+   ]
+  },
+  {
+   "id": "jester-02:m4",
+   "from": "card:Bitter Ordeal",
+   "to": "interaction:the-madcap-jester/jester-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-02",
+   "topic": "replacement",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "614.6",
+    "701.17c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-02",
+    "cr:614.6",
+    "cr:701.17c"
+   ]
+  },
+  {
+   "id": "jester-02:p1",
+   "from": "card:Dauthi Voidwalker",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-02",
+   "topic": "replacement",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.6",
+    "701.17c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-02",
+    "cr:614.6",
+    "cr:701.17c"
+   ]
+  },
+  {
+   "id": "jester-02:p2",
+   "from": "card:Brain Freeze",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-02",
+   "topic": "replacement",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.6",
+    "701.17c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-02",
+    "cr:614.6",
+    "cr:701.17c"
+   ]
+  },
+  {
+   "id": "jester-02:p3",
+   "from": "card:Bitter Ordeal",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-02",
+   "topic": "replacement",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.6",
+    "701.17c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-02",
+    "cr:614.6",
+    "cr:701.17c"
+   ]
+  },
+  {
+   "id": "jester-03:m1",
+   "from": "commander:The Madcap Jester",
+   "to": "interaction:the-madcap-jester/jester-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "406.3a",
+    "601.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-03",
+    "cr:406.3a",
+    "cr:601.3f"
+   ]
+  },
+  {
+   "id": "jester-03:m2",
+   "from": "card:Jester's Scepter",
+   "to": "interaction:the-madcap-jester/jester-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "406.3a",
+    "601.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-03",
+    "cr:406.3a",
+    "cr:601.3f"
+   ]
+  },
+  {
+   "id": "jester-03:p1",
+   "from": "card:Jester's Scepter",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "406.3a",
+    "601.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-03",
+    "cr:406.3a",
+    "cr:601.3f"
+   ]
+  },
+  {
+   "id": "jester-04:m1",
+   "from": "commander:The Madcap Jester",
+   "to": "combo:the-madcap-jester/jester-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-04",
+    "cr:104.2b",
+    "spellbook:1295-3093",
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "id": "jester-04:m2",
+   "from": "card:Thassa's Oracle",
+   "to": "combo:the-madcap-jester/jester-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-04",
+    "cr:104.2b",
+    "spellbook:1295-3093",
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "id": "jester-04:m3",
+   "from": "card:Demonic Consultation",
+   "to": "combo:the-madcap-jester/jester-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-04",
+    "cr:104.2b",
+    "spellbook:1295-3093",
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "id": "jester-04:m4",
+   "from": "card:Tainted Pact",
+   "to": "combo:the-madcap-jester/jester-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-04",
+    "cr:104.2b",
+    "spellbook:1295-3093",
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "id": "jester-04:p1",
+   "from": "card:Thassa's Oracle",
+   "to": "commander:The Madcap Jester",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-04",
+    "cr:104.2b",
+    "spellbook:1295-3093",
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "id": "jester-04:p2",
+   "from": "card:Demonic Consultation",
+   "to": "commander:The Madcap Jester",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-04",
+    "cr:104.2b",
+    "spellbook:1295-3093",
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "id": "jester-04:p3",
+   "from": "card:Tainted Pact",
+   "to": "commander:The Madcap Jester",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-04",
+    "cr:104.2b",
+    "spellbook:1295-3093",
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "id": "jester-05:m1",
+   "from": "commander:The Madcap Jester",
+   "to": "combo:the-madcap-jester/jester-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jester-05:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:the-madcap-jester/jester-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jester-05:m3",
+   "from": "card:Lion's Eye Diamond",
+   "to": "combo:the-madcap-jester/jester-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jester-05:m4",
+   "from": "card:Lotus Petal",
+   "to": "combo:the-madcap-jester/jester-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jester-05:m5",
+   "from": "card:Brain Freeze",
+   "to": "combo:the-madcap-jester/jester-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jester-05:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:The Madcap Jester",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jester-05:p2",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:The Madcap Jester",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jester-05:p3",
+   "from": "card:Lotus Petal",
+   "to": "commander:The Madcap Jester",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jester-05:p4",
+   "from": "card:Brain Freeze",
+   "to": "commander:The Madcap Jester",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jester-06:m1",
+   "from": "commander:The Madcap Jester",
+   "to": "interaction:the-madcap-jester/jester-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-06",
+    "cr:118.9",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "jester-06:m2",
+   "from": "card:Dragon's Smile",
+   "to": "interaction:the-madcap-jester/jester-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-06",
+    "cr:118.9",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "jester-06:m3",
+   "from": "card:Bilbo, Thief in the Night",
+   "to": "interaction:the-madcap-jester/jester-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-06",
+    "cr:118.9",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "jester-06:m4",
+   "from": "card:Passionate Archaeologist",
+   "to": "interaction:the-madcap-jester/jester-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-06",
+    "cr:118.9",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "jester-06:m5",
+   "from": "card:Nalfeshnee",
+   "to": "interaction:the-madcap-jester/jester-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-06",
+    "cr:118.9",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "jester-06:m6",
+   "from": "card:Prosper, Tome-Bound",
+   "to": "interaction:the-madcap-jester/jester-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-06",
+    "cr:118.9",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "jester-06:m7",
+   "from": "card:Wild-Magic Sorcerer",
+   "to": "interaction:the-madcap-jester/jester-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-06",
+    "cr:118.9",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "jester-06:p1",
+   "from": "card:Dragon's Smile",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-06",
+    "cr:118.9",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "jester-06:p2",
+   "from": "card:Bilbo, Thief in the Night",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-06",
+    "cr:118.9",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "jester-06:p3",
+   "from": "card:Passionate Archaeologist",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-06",
+    "cr:118.9",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "jester-06:p4",
+   "from": "card:Nalfeshnee",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-06",
+    "cr:118.9",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "jester-06:p5",
+   "from": "card:Prosper, Tome-Bound",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-06",
+    "cr:118.9",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "jester-06:p6",
+   "from": "card:Wild-Magic Sorcerer",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-06",
+    "cr:118.9",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "jester-07:m1",
+   "from": "commander:The Madcap Jester",
+   "to": "interaction:the-madcap-jester/jester-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-07",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-07"
+   ]
+  },
+  {
+   "id": "jester-07:m2",
+   "from": "card:Dragon's Smile",
+   "to": "interaction:the-madcap-jester/jester-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jester-07",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-07"
+   ]
+  },
+  {
+   "id": "jester-07:p1",
+   "from": "card:Dragon's Smile",
+   "to": "commander:The Madcap Jester",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jester-07",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [],
+   "evidence": [
+    "review:data/grixis_interactions/the-madcap-jester.json#jester-07"
+   ]
+  }
+ ]
+}

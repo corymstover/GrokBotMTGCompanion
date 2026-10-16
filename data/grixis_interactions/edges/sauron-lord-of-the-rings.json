@@ -1,0 +1,957 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Sauron__Lord_of_the_Rings",
+ "slug": "sauron-lord-of-the-rings",
+ "deck_sha256": "0db8b7c1b7a77f9964a14812dffb9d58f37e40a91c6152fc20e33b3917077c90",
+ "review": "data/grixis_interactions/sauron-lord-of-the-rings.json",
+ "review_sha256": "4bd2f2721075ae5a85177d9b18ac1467026cf230bbe2b65ed4e1719e698becf5",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 5,
+  "nodes": 21,
+  "membership_edges": 20,
+  "pair_edges": 15
+ },
+ "nodes": [
+  {
+   "id": "commander:Sauron, Lord of the Rings",
+   "kind": "commander",
+   "name": "Sauron, Lord of the Rings",
+   "in_list": true
+  },
+  {
+   "id": "card:Command Beacon",
+   "kind": "card",
+   "name": "Command Beacon",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sauron-lord-of-the-rings/sauronlotr-01",
+   "kind": "interaction",
+   "interaction": "sauronlotr-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Metamorphosis Fanatic",
+   "kind": "card",
+   "name": "Metamorphosis Fanatic",
+   "in_list": true
+  },
+  {
+   "id": "card:Dance of the Dead",
+   "kind": "card",
+   "name": "Dance of the Dead",
+   "in_list": true
+  },
+  {
+   "id": "card:Animate Dead",
+   "kind": "card",
+   "name": "Animate Dead",
+   "in_list": true
+  },
+  {
+   "id": "card:Necromancy",
+   "kind": "card",
+   "name": "Necromancy",
+   "in_list": true
+  },
+  {
+   "id": "card:Reanimate",
+   "kind": "card",
+   "name": "Reanimate",
+   "in_list": true
+  },
+  {
+   "id": "card:Entomb",
+   "kind": "card",
+   "name": "Entomb",
+   "in_list": true
+  },
+  {
+   "id": "card:Buried Alive",
+   "kind": "card",
+   "name": "Buried Alive",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sauron-lord-of-the-rings/sauronlotr-02",
+   "kind": "interaction",
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Living Death",
+   "kind": "card",
+   "name": "Living Death",
+   "in_list": true
+  },
+  {
+   "id": "card:Phyrexian Tower",
+   "kind": "card",
+   "name": "Phyrexian Tower",
+   "in_list": true
+  },
+  {
+   "id": "card:Sneak Attack",
+   "kind": "card",
+   "name": "Sneak Attack",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sauron-lord-of-the-rings/sauronlotr-03",
+   "kind": "interaction",
+   "interaction": "sauronlotr-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Nazgûl",
+   "kind": "card",
+   "name": "Nazgûl",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sauron-lord-of-the-rings/sauronlotr-04",
+   "kind": "interaction",
+   "interaction": "sauronlotr-04",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Anger",
+   "kind": "card",
+   "name": "Anger",
+   "in_list": true
+  },
+  {
+   "id": "card:Wonder",
+   "kind": "card",
+   "name": "Wonder",
+   "in_list": true
+  },
+  {
+   "id": "card:The Mouth of Sauron",
+   "kind": "card",
+   "name": "The Mouth of Sauron",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sauron-lord-of-the-rings/sauronlotr-05",
+   "kind": "interaction",
+   "interaction": "sauronlotr-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "sauronlotr-01:m1",
+   "from": "commander:Sauron, Lord of the Rings",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "113.7a",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-01",
+    "cr:603.2",
+    "cr:113.7a",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "sauronlotr-01:m2",
+   "from": "card:Command Beacon",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "113.7a",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-01",
+    "cr:603.2",
+    "cr:113.7a",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "sauronlotr-01:p1",
+   "from": "card:Command Beacon",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "113.7a",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-01",
+    "cr:603.2",
+    "cr:113.7a",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:m1",
+   "from": "commander:Sauron, Lord of the Rings",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:m2",
+   "from": "card:Metamorphosis Fanatic",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:m3",
+   "from": "card:Dance of the Dead",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:m4",
+   "from": "card:Animate Dead",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:m5",
+   "from": "card:Necromancy",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:m6",
+   "from": "card:Reanimate",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:m7",
+   "from": "card:Entomb",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:m8",
+   "from": "card:Buried Alive",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:p1",
+   "from": "card:Metamorphosis Fanatic",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:p2",
+   "from": "card:Dance of the Dead",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:p3",
+   "from": "card:Animate Dead",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:p4",
+   "from": "card:Necromancy",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:p5",
+   "from": "card:Reanimate",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:p6",
+   "from": "card:Entomb",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-02:p7",
+   "from": "card:Buried Alive",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-02",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "sauronlotr-03:m1",
+   "from": "commander:Sauron, Lord of the Rings",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2c",
+    "111.7",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-03",
+    "cr:608.2c",
+    "cr:111.7",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "sauronlotr-03:m2",
+   "from": "card:Living Death",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2c",
+    "111.7",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-03",
+    "cr:608.2c",
+    "cr:111.7",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "sauronlotr-03:m3",
+   "from": "card:Phyrexian Tower",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2c",
+    "111.7",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-03",
+    "cr:608.2c",
+    "cr:111.7",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "sauronlotr-03:m4",
+   "from": "card:Sneak Attack",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2c",
+    "111.7",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-03",
+    "cr:608.2c",
+    "cr:111.7",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "sauronlotr-03:p1",
+   "from": "card:Living Death",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2c",
+    "111.7",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-03",
+    "cr:608.2c",
+    "cr:111.7",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "sauronlotr-03:p2",
+   "from": "card:Phyrexian Tower",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2c",
+    "111.7",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-03",
+    "cr:608.2c",
+    "cr:111.7",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "sauronlotr-03:p3",
+   "from": "card:Sneak Attack",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2c",
+    "111.7",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-03",
+    "cr:608.2c",
+    "cr:111.7",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "sauronlotr-04:m1",
+   "from": "commander:Sauron, Lord of the Rings",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-04",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.5b",
+    "701.54a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-04",
+    "cr:903.5b",
+    "cr:701.54a"
+   ]
+  },
+  {
+   "id": "sauronlotr-04:m2",
+   "from": "card:Nazgûl",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-04",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.5b",
+    "701.54a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-04",
+    "cr:903.5b",
+    "cr:701.54a"
+   ]
+  },
+  {
+   "id": "sauronlotr-04:p1",
+   "from": "card:Nazgûl",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-04",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.5b",
+    "701.54a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-04",
+    "cr:903.5b",
+    "cr:701.54a"
+   ]
+  },
+  {
+   "id": "sauronlotr-05:m1",
+   "from": "commander:Sauron, Lord of the Rings",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.6",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-05",
+    "cr:113.6",
+    "cr:305.6"
+   ]
+  },
+  {
+   "id": "sauronlotr-05:m2",
+   "from": "card:Anger",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.6",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-05",
+    "cr:113.6",
+    "cr:305.6"
+   ]
+  },
+  {
+   "id": "sauronlotr-05:m3",
+   "from": "card:Wonder",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.6",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-05",
+    "cr:113.6",
+    "cr:305.6"
+   ]
+  },
+  {
+   "id": "sauronlotr-05:m4",
+   "from": "card:The Mouth of Sauron",
+   "to": "interaction:sauron-lord-of-the-rings/sauronlotr-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sauronlotr-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.6",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-05",
+    "cr:113.6",
+    "cr:305.6"
+   ]
+  },
+  {
+   "id": "sauronlotr-05:p1",
+   "from": "card:Anger",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.6",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-05",
+    "cr:113.6",
+    "cr:305.6"
+   ]
+  },
+  {
+   "id": "sauronlotr-05:p2",
+   "from": "card:Wonder",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.6",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-05",
+    "cr:113.6",
+    "cr:305.6"
+   ]
+  },
+  {
+   "id": "sauronlotr-05:p3",
+   "from": "card:The Mouth of Sauron",
+   "to": "commander:Sauron, Lord of the Rings",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sauronlotr-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.6",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-lord-of-the-rings.json#sauronlotr-05",
+    "cr:113.6",
+    "cr:305.6"
+   ]
+  }
+ ]
+}

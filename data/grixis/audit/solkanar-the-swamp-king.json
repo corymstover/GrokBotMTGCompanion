@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
- "pass_id": "audit:solkanar-the-swamp-king:c59:771b39403501",
+ "pass_id": "audit:solkanar-the-swamp-king:c59:cd12c4a4be0d",
  "snapshot": {
-  "id": "sha256:771b394035018ee829ad904e4f23c5b6c1c27a27d957a6ad9aca65710412d3ff",
-  "graph": "sha256:20e5591efd0e76ed9c16bcc1c27fde2fabad254644233a4d2623a4a629e78e73",
+  "id": "sha256:cd12c4a4be0de985e946d73c064177b9384ecb1382fcaf8fdeb10614433885dc",
+  "graph": "sha256:82d9e68208a68314769efd60df13f9d3b2a6f637f8ee764b5d77b855ec88a301",
   "evidence": "sha256:b4a892a076c51e212368cb89d00db57cf7daf841e6df52c1731a799a3135531c",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

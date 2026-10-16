@@ -1,0 +1,1547 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Cult_of_Skaro",
+ "slug": "cult-of-skaro",
+ "deck_sha256": "e17919e46769952d0318157693b278c29ba9a39a352105fa76df9abb9a868e7d",
+ "review": "data/grixis_interactions/cult-of-skaro.json",
+ "review_sha256": "30e2258ee494fb75bf3ca4ebc5101509525dfce8e543a4d31029edba6cfa0da6",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 10,
+  "nodes": 33,
+  "membership_edges": 33,
+  "pair_edges": 23
+ },
+ "nodes": [
+  {
+   "id": "commander:Cult of Skaro",
+   "kind": "commander",
+   "name": "Cult of Skaro",
+   "in_list": true
+  },
+  {
+   "id": "interaction:cult-of-skaro/skaro-01",
+   "kind": "interaction",
+   "interaction": "skaro-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Strionic Resonator",
+   "kind": "card",
+   "name": "Strionic Resonator",
+   "in_list": true
+  },
+  {
+   "id": "card:Scientist Supreme of A.I.M.",
+   "kind": "card",
+   "name": "Scientist Supreme of A.I.M.",
+   "in_list": true
+  },
+  {
+   "id": "card:Roaming Throne",
+   "kind": "card",
+   "name": "Roaming Throne",
+   "in_list": true
+  },
+  {
+   "id": "interaction:cult-of-skaro/skaro-02",
+   "kind": "interaction",
+   "interaction": "skaro-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Helm of the Host",
+   "kind": "card",
+   "name": "Helm of the Host",
+   "in_list": true
+  },
+  {
+   "id": "card:Spark Double",
+   "kind": "card",
+   "name": "Spark Double",
+   "in_list": true
+  },
+  {
+   "id": "card:Sakashima of a Thousand Faces",
+   "kind": "card",
+   "name": "Sakashima of a Thousand Faces",
+   "in_list": true
+  },
+  {
+   "id": "card:Auton Soldier",
+   "kind": "card",
+   "name": "Auton Soldier",
+   "in_list": true
+  },
+  {
+   "id": "interaction:cult-of-skaro/skaro-03",
+   "kind": "interaction",
+   "interaction": "skaro-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:The Master, Multiplied",
+   "kind": "card",
+   "name": "The Master, Multiplied",
+   "in_list": true
+  },
+  {
+   "id": "card:Dalek Squadron",
+   "kind": "card",
+   "name": "Dalek Squadron",
+   "in_list": true
+  },
+  {
+   "id": "card:Cybermen Squadron",
+   "kind": "card",
+   "name": "Cybermen Squadron",
+   "in_list": true
+  },
+  {
+   "id": "interaction:cult-of-skaro/skaro-04",
+   "kind": "interaction",
+   "interaction": "skaro-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Sword of Feast and Famine",
+   "kind": "card",
+   "name": "Sword of Feast and Famine",
+   "in_list": true
+  },
+  {
+   "id": "card:Aggravated Assault",
+   "kind": "card",
+   "name": "Aggravated Assault",
+   "in_list": true
+  },
+  {
+   "id": "combo:cult-of-skaro/skaro-05",
+   "kind": "combo",
+   "interaction": "skaro-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Full Throttle",
+   "kind": "card",
+   "name": "Full Throttle",
+   "in_list": true
+  },
+  {
+   "id": "card:Great Train Heist",
+   "kind": "card",
+   "name": "Great Train Heist",
+   "in_list": true
+  },
+  {
+   "id": "interaction:cult-of-skaro/skaro-06",
+   "kind": "interaction",
+   "interaction": "skaro-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Arena of Glory",
+   "kind": "card",
+   "name": "Arena of Glory",
+   "in_list": true
+  },
+  {
+   "id": "card:Plaza of Heroes",
+   "kind": "card",
+   "name": "Plaza of Heroes",
+   "in_list": true
+  },
+  {
+   "id": "interaction:cult-of-skaro/skaro-07",
+   "kind": "interaction",
+   "interaction": "skaro-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Exterminate!",
+   "kind": "card",
+   "name": "Exterminate!",
+   "in_list": true
+  },
+  {
+   "id": "card:Davros, Dalek Creator",
+   "kind": "card",
+   "name": "Davros, Dalek Creator",
+   "in_list": true
+  },
+  {
+   "id": "interaction:cult-of-skaro/skaro-08",
+   "kind": "interaction",
+   "interaction": "skaro-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Biotransference",
+   "kind": "card",
+   "name": "Biotransference",
+   "in_list": true
+  },
+  {
+   "id": "card:Their Name Is Death",
+   "kind": "card",
+   "name": "Their Name Is Death",
+   "in_list": true
+  },
+  {
+   "id": "card:Delete",
+   "kind": "card",
+   "name": "Delete",
+   "in_list": true
+  },
+  {
+   "id": "interaction:cult-of-skaro/skaro-09",
+   "kind": "interaction",
+   "interaction": "skaro-09",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Academy Ruins",
+   "kind": "card",
+   "name": "Academy Ruins",
+   "in_list": true
+  },
+  {
+   "id": "interaction:cult-of-skaro/skaro-10",
+   "kind": "interaction",
+   "interaction": "skaro-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "skaro-01:m1",
+   "from": "commander:Cult of Skaro",
+   "to": "interaction:cult-of-skaro/skaro-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3c",
+    "700.2",
+    "508.1m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-01",
+    "cr:603.3c",
+    "cr:700.2",
+    "cr:508.1m"
+   ]
+  },
+  {
+   "id": "skaro-02:m1",
+   "from": "commander:Cult of Skaro",
+   "to": "interaction:cult-of-skaro/skaro-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "603.3c",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-02",
+    "cr:707.10",
+    "cr:603.3c",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "skaro-02:m2",
+   "from": "card:Strionic Resonator",
+   "to": "interaction:cult-of-skaro/skaro-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "603.3c",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-02",
+    "cr:707.10",
+    "cr:603.3c",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "skaro-02:m3",
+   "from": "card:Scientist Supreme of A.I.M.",
+   "to": "interaction:cult-of-skaro/skaro-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "603.3c",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-02",
+    "cr:707.10",
+    "cr:603.3c",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "skaro-02:m4",
+   "from": "card:Roaming Throne",
+   "to": "interaction:cult-of-skaro/skaro-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "603.3c",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-02",
+    "cr:707.10",
+    "cr:603.3c",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "skaro-02:p1",
+   "from": "card:Strionic Resonator",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "603.3c",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-02",
+    "cr:707.10",
+    "cr:603.3c",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "skaro-02:p2",
+   "from": "card:Scientist Supreme of A.I.M.",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "603.3c",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-02",
+    "cr:707.10",
+    "cr:603.3c",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "skaro-02:p3",
+   "from": "card:Roaming Throne",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "603.3c",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-02",
+    "cr:707.10",
+    "cr:603.3c",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "skaro-03:m1",
+   "from": "commander:Cult of Skaro",
+   "to": "interaction:cult-of-skaro/skaro-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.9b",
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-03",
+    "cr:707.9b",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "skaro-03:m2",
+   "from": "card:Helm of the Host",
+   "to": "interaction:cult-of-skaro/skaro-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.9b",
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-03",
+    "cr:707.9b",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "skaro-03:m3",
+   "from": "card:Spark Double",
+   "to": "interaction:cult-of-skaro/skaro-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.9b",
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-03",
+    "cr:707.9b",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "skaro-03:m4",
+   "from": "card:Sakashima of a Thousand Faces",
+   "to": "interaction:cult-of-skaro/skaro-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.9b",
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-03",
+    "cr:707.9b",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "skaro-03:m5",
+   "from": "card:Auton Soldier",
+   "to": "interaction:cult-of-skaro/skaro-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.9b",
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-03",
+    "cr:707.9b",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "skaro-03:p1",
+   "from": "card:Helm of the Host",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.9b",
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-03",
+    "cr:707.9b",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "skaro-03:p2",
+   "from": "card:Spark Double",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.9b",
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-03",
+    "cr:707.9b",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "skaro-03:p3",
+   "from": "card:Sakashima of a Thousand Faces",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.9b",
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-03",
+    "cr:707.9b",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "skaro-03:p4",
+   "from": "card:Auton Soldier",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.9b",
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-03",
+    "cr:707.9b",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "skaro-04:m1",
+   "from": "commander:Cult of Skaro",
+   "to": "interaction:cult-of-skaro/skaro-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.116a",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-04",
+    "cr:702.116a",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "skaro-04:m2",
+   "from": "card:The Master, Multiplied",
+   "to": "interaction:cult-of-skaro/skaro-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.116a",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-04",
+    "cr:702.116a",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "skaro-04:m3",
+   "from": "card:Dalek Squadron",
+   "to": "interaction:cult-of-skaro/skaro-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.116a",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-04",
+    "cr:702.116a",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "skaro-04:m4",
+   "from": "card:Auton Soldier",
+   "to": "interaction:cult-of-skaro/skaro-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.116a",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-04",
+    "cr:702.116a",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "skaro-04:m5",
+   "from": "card:Cybermen Squadron",
+   "to": "interaction:cult-of-skaro/skaro-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.116a",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-04",
+    "cr:702.116a",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "skaro-04:p1",
+   "from": "card:The Master, Multiplied",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.116a",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-04",
+    "cr:702.116a",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "skaro-04:p2",
+   "from": "card:Dalek Squadron",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.116a",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-04",
+    "cr:702.116a",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "skaro-04:p3",
+   "from": "card:Auton Soldier",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.116a",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-04",
+    "cr:702.116a",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "skaro-04:p4",
+   "from": "card:Cybermen Squadron",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.116a",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-04",
+    "cr:702.116a",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "skaro-05:m1",
+   "from": "commander:Cult of Skaro",
+   "to": "combo:cult-of-skaro/skaro-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "505.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-05",
+    "cr:500.8",
+    "cr:505.1a"
+   ]
+  },
+  {
+   "id": "skaro-05:m2",
+   "from": "card:Sword of Feast and Famine",
+   "to": "combo:cult-of-skaro/skaro-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "505.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-05",
+    "cr:500.8",
+    "cr:505.1a"
+   ]
+  },
+  {
+   "id": "skaro-05:m3",
+   "from": "card:Aggravated Assault",
+   "to": "combo:cult-of-skaro/skaro-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "505.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-05",
+    "cr:500.8",
+    "cr:505.1a"
+   ]
+  },
+  {
+   "id": "skaro-05:p1",
+   "from": "card:Sword of Feast and Famine",
+   "to": "commander:Cult of Skaro",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "505.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-05",
+    "cr:500.8",
+    "cr:505.1a"
+   ]
+  },
+  {
+   "id": "skaro-05:p2",
+   "from": "card:Aggravated Assault",
+   "to": "commander:Cult of Skaro",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "505.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-05",
+    "cr:500.8",
+    "cr:505.1a"
+   ]
+  },
+  {
+   "id": "skaro-06:m1",
+   "from": "commander:Cult of Skaro",
+   "to": "interaction:cult-of-skaro/skaro-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "702.172a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-06",
+    "cr:500.8",
+    "cr:702.172a"
+   ]
+  },
+  {
+   "id": "skaro-06:m2",
+   "from": "card:Full Throttle",
+   "to": "interaction:cult-of-skaro/skaro-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "702.172a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-06",
+    "cr:500.8",
+    "cr:702.172a"
+   ]
+  },
+  {
+   "id": "skaro-06:m3",
+   "from": "card:Great Train Heist",
+   "to": "interaction:cult-of-skaro/skaro-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "702.172a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-06",
+    "cr:500.8",
+    "cr:702.172a"
+   ]
+  },
+  {
+   "id": "skaro-06:p1",
+   "from": "card:Full Throttle",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "702.172a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-06",
+    "cr:500.8",
+    "cr:702.172a"
+   ]
+  },
+  {
+   "id": "skaro-06:p2",
+   "from": "card:Great Train Heist",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "702.172a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-06",
+    "cr:500.8",
+    "cr:702.172a"
+   ]
+  },
+  {
+   "id": "skaro-07:m1",
+   "from": "commander:Cult of Skaro",
+   "to": "interaction:cult-of-skaro/skaro-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.43a",
+    "702.12b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-07",
+    "cr:701.43a",
+    "cr:702.12b"
+   ]
+  },
+  {
+   "id": "skaro-07:m2",
+   "from": "card:Arena of Glory",
+   "to": "interaction:cult-of-skaro/skaro-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.43a",
+    "702.12b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-07",
+    "cr:701.43a",
+    "cr:702.12b"
+   ]
+  },
+  {
+   "id": "skaro-07:m3",
+   "from": "card:Plaza of Heroes",
+   "to": "interaction:cult-of-skaro/skaro-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.43a",
+    "702.12b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-07",
+    "cr:701.43a",
+    "cr:702.12b"
+   ]
+  },
+  {
+   "id": "skaro-07:p1",
+   "from": "card:Arena of Glory",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.43a",
+    "702.12b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-07",
+    "cr:701.43a",
+    "cr:702.12b"
+   ]
+  },
+  {
+   "id": "skaro-07:p2",
+   "from": "card:Plaza of Heroes",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.43a",
+    "702.12b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-07",
+    "cr:701.43a",
+    "cr:702.12b"
+   ]
+  },
+  {
+   "id": "skaro-08:m1",
+   "from": "commander:Cult of Skaro",
+   "to": "interaction:cult-of-skaro/skaro-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.56a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-08",
+    "cr:702.56a"
+   ]
+  },
+  {
+   "id": "skaro-08:m2",
+   "from": "card:Exterminate!",
+   "to": "interaction:cult-of-skaro/skaro-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.56a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-08",
+    "cr:702.56a"
+   ]
+  },
+  {
+   "id": "skaro-08:m3",
+   "from": "card:Davros, Dalek Creator",
+   "to": "interaction:cult-of-skaro/skaro-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.56a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-08",
+    "cr:702.56a"
+   ]
+  },
+  {
+   "id": "skaro-08:p1",
+   "from": "card:Exterminate!",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.56a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-08",
+    "cr:702.56a"
+   ]
+  },
+  {
+   "id": "skaro-08:p2",
+   "from": "card:Davros, Dalek Creator",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.56a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-08",
+    "cr:702.56a"
+   ]
+  },
+  {
+   "id": "skaro-09:m1",
+   "from": "commander:Cult of Skaro",
+   "to": "interaction:cult-of-skaro/skaro-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-09",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-09",
+    "cr:613.1d"
+   ]
+  },
+  {
+   "id": "skaro-09:m2",
+   "from": "card:Biotransference",
+   "to": "interaction:cult-of-skaro/skaro-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-09",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-09",
+    "cr:613.1d"
+   ]
+  },
+  {
+   "id": "skaro-09:m3",
+   "from": "card:Their Name Is Death",
+   "to": "interaction:cult-of-skaro/skaro-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-09",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-09",
+    "cr:613.1d"
+   ]
+  },
+  {
+   "id": "skaro-09:m4",
+   "from": "card:Delete",
+   "to": "interaction:cult-of-skaro/skaro-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-09",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-09",
+    "cr:613.1d"
+   ]
+  },
+  {
+   "id": "skaro-09:p1",
+   "from": "card:Biotransference",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-09",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-09",
+    "cr:613.1d"
+   ]
+  },
+  {
+   "id": "skaro-09:p2",
+   "from": "card:Their Name Is Death",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-09",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-09",
+    "cr:613.1d"
+   ]
+  },
+  {
+   "id": "skaro-09:p3",
+   "from": "card:Delete",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-09",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-09",
+    "cr:613.1d"
+   ]
+  },
+  {
+   "id": "skaro-10:m1",
+   "from": "commander:Cult of Skaro",
+   "to": "interaction:cult-of-skaro/skaro-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-10",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "skaro-10:m2",
+   "from": "card:Academy Ruins",
+   "to": "interaction:cult-of-skaro/skaro-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "skaro-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-10",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "skaro-10:p1",
+   "from": "card:Academy Ruins",
+   "to": "commander:Cult of Skaro",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "skaro-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/cult-of-skaro.json#skaro-10",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  }
+ ]
+}

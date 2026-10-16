@@ -1,0 +1,645 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Sauron__the_Dark_Lord",
+ "slug": "sauron-the-dark-lord",
+ "deck_sha256": "1d553979b827147118b5262797ae38dea83be27e2f5f045b371046a33076b11d",
+ "review": "data/grixis_interactions/sauron-the-dark-lord.json",
+ "review_sha256": "f68e6b32bef9bd0e0cd6e2f39e64488dd0907bd6b0df4aa5c020e1c08ef6428c",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 5,
+  "nodes": 13,
+  "membership_edges": 14,
+  "pair_edges": 9
+ },
+ "nodes": [
+  {
+   "id": "commander:Sauron, the Dark Lord",
+   "kind": "commander",
+   "name": "Sauron, the Dark Lord",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sauron-the-dark-lord/saurondl-01",
+   "kind": "interaction",
+   "interaction": "saurondl-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Nazgûl",
+   "kind": "card",
+   "name": "Nazgûl",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sauron-the-dark-lord/saurondl-02",
+   "kind": "interaction",
+   "interaction": "saurondl-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Minas Morgul, Dark Fortress",
+   "kind": "card",
+   "name": "Minas Morgul, Dark Fortress",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sauron-the-dark-lord/saurondl-03",
+   "kind": "interaction",
+   "interaction": "saurondl-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Roaming Throne",
+   "kind": "card",
+   "name": "Roaming Throne",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sauron-the-dark-lord/saurondl-04",
+   "kind": "interaction",
+   "interaction": "saurondl-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Mauhúr, Uruk-hai Captain",
+   "kind": "card",
+   "name": "Mauhúr, Uruk-hai Captain",
+   "in_list": true
+  },
+  {
+   "id": "card:The Great Goblin",
+   "kind": "card",
+   "name": "The Great Goblin",
+   "in_list": true
+  },
+  {
+   "id": "card:Great Goblin, Foul-Hearted",
+   "kind": "card",
+   "name": "Great Goblin, Foul-Hearted",
+   "in_list": true
+  },
+  {
+   "id": "card:Widespread Brutality",
+   "kind": "card",
+   "name": "Widespread Brutality",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sauron-the-dark-lord/saurondl-05",
+   "kind": "interaction",
+   "interaction": "saurondl-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "saurondl-01:m1",
+   "from": "commander:Sauron, the Dark Lord",
+   "to": "interaction:sauron-the-dark-lord/saurondl-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.21a",
+    "701.54a",
+    "113.7a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-01",
+    "cr:702.21a",
+    "cr:701.54a",
+    "cr:113.7a"
+   ]
+  },
+  {
+   "id": "saurondl-02:m1",
+   "from": "commander:Sauron, the Dark Lord",
+   "to": "interaction:sauron-the-dark-lord/saurondl-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.5b",
+    "701.54a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-02",
+    "cr:903.5b",
+    "cr:701.54a"
+   ]
+  },
+  {
+   "id": "saurondl-02:m2",
+   "from": "card:Nazgûl",
+   "to": "interaction:sauron-the-dark-lord/saurondl-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.5b",
+    "701.54a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-02",
+    "cr:903.5b",
+    "cr:701.54a"
+   ]
+  },
+  {
+   "id": "saurondl-02:p1",
+   "from": "card:Nazgûl",
+   "to": "commander:Sauron, the Dark Lord",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saurondl-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.5b",
+    "701.54a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-02",
+    "cr:903.5b",
+    "cr:701.54a"
+   ]
+  },
+  {
+   "id": "saurondl-03:m1",
+   "from": "commander:Sauron, the Dark Lord",
+   "to": "interaction:sauron-the-dark-lord/saurondl-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "122.1b",
+    "702.28b",
+    "205.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-03",
+    "cr:122.1b",
+    "cr:702.28b",
+    "cr:205.1b"
+   ]
+  },
+  {
+   "id": "saurondl-03:m2",
+   "from": "card:Minas Morgul, Dark Fortress",
+   "to": "interaction:sauron-the-dark-lord/saurondl-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "122.1b",
+    "702.28b",
+    "205.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-03",
+    "cr:122.1b",
+    "cr:702.28b",
+    "cr:205.1b"
+   ]
+  },
+  {
+   "id": "saurondl-03:m3",
+   "from": "card:Nazgûl",
+   "to": "interaction:sauron-the-dark-lord/saurondl-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "122.1b",
+    "702.28b",
+    "205.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-03",
+    "cr:122.1b",
+    "cr:702.28b",
+    "cr:205.1b"
+   ]
+  },
+  {
+   "id": "saurondl-03:p1",
+   "from": "card:Minas Morgul, Dark Fortress",
+   "to": "commander:Sauron, the Dark Lord",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saurondl-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "122.1b",
+    "702.28b",
+    "205.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-03",
+    "cr:122.1b",
+    "cr:702.28b",
+    "cr:205.1b"
+   ]
+  },
+  {
+   "id": "saurondl-03:p2",
+   "from": "card:Nazgûl",
+   "to": "commander:Sauron, the Dark Lord",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saurondl-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "122.1b",
+    "702.28b",
+    "205.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-03",
+    "cr:122.1b",
+    "cr:702.28b",
+    "cr:205.1b"
+   ]
+  },
+  {
+   "id": "saurondl-04:m1",
+   "from": "commander:Sauron, the Dark Lord",
+   "to": "interaction:sauron-the-dark-lord/saurondl-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-04",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "saurondl-04:m2",
+   "from": "card:Roaming Throne",
+   "to": "interaction:sauron-the-dark-lord/saurondl-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-04",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "saurondl-04:m3",
+   "from": "card:Nazgûl",
+   "to": "interaction:sauron-the-dark-lord/saurondl-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-04",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "saurondl-04:p1",
+   "from": "card:Roaming Throne",
+   "to": "commander:Sauron, the Dark Lord",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saurondl-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-04",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "saurondl-04:p2",
+   "from": "card:Nazgûl",
+   "to": "commander:Sauron, the Dark Lord",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saurondl-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-04",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "saurondl-05:m1",
+   "from": "commander:Sauron, the Dark Lord",
+   "to": "interaction:sauron-the-dark-lord/saurondl-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-05",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saurondl-05:m2",
+   "from": "card:Mauhúr, Uruk-hai Captain",
+   "to": "interaction:sauron-the-dark-lord/saurondl-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-05",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saurondl-05:m3",
+   "from": "card:The Great Goblin",
+   "to": "interaction:sauron-the-dark-lord/saurondl-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-05",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saurondl-05:m4",
+   "from": "card:Great Goblin, Foul-Hearted",
+   "to": "interaction:sauron-the-dark-lord/saurondl-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-05",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saurondl-05:m5",
+   "from": "card:Widespread Brutality",
+   "to": "interaction:sauron-the-dark-lord/saurondl-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saurondl-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-05",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saurondl-05:p1",
+   "from": "card:Mauhúr, Uruk-hai Captain",
+   "to": "commander:Sauron, the Dark Lord",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saurondl-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-05",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saurondl-05:p2",
+   "from": "card:The Great Goblin",
+   "to": "commander:Sauron, the Dark Lord",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saurondl-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-05",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saurondl-05:p3",
+   "from": "card:Great Goblin, Foul-Hearted",
+   "to": "commander:Sauron, the Dark Lord",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saurondl-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-05",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saurondl-05:p4",
+   "from": "card:Widespread Brutality",
+   "to": "commander:Sauron, the Dark Lord",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saurondl-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sauron-the-dark-lord.json#saurondl-05",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  }
+ ]
+}

@@ -8,17 +8,19 @@
 - [Template](#template)
 - [Data format](#data-format)
 - [Validation](#validation)
+- [Edges for M4](#edges-for-m4)
+- [Source attestation coverage](#source-attestation-coverage)
 - [Statuses and flags](#statuses-and-flags)
 
 ## Status
 <!-- INTERACTIONS-STATUS:START -->
-**62/62 decks reviewed · 592 rulings (10 uncertain, 36 flags).**
+**62/62 decks reviewed · 594 rulings (10 uncertain, 36 flags).**
 
 | Batch | Status | Decks |
 |---|---|---|
 | A | done (Bot cycle 46) | [abaddon-the-despoiler](abaddon-the-despoiler.md) (29) · [admiral-beckett-brass](admiral-beckett-brass.md) (17) · [admiral-brass-unsinkable](admiral-brass-unsinkable.md) (15) · [anhelo-the-painter](anhelo-the-painter.md) (14) · [ashad-the-lone-cyberman](ashad-the-lone-cyberman.md) (14) · [ashnod-the-uncaring](ashnod-the-uncaring.md) (12) · [belakor-the-dark-master](belakor-the-dark-master.md) (13) · [bjorna-nightfall-alchemist-cecily](bjorna-nightfall-alchemist-cecily.md) (15) · [cormela-glamour-thief](cormela-glamour-thief.md) (10) · [crosis-the-purger](crosis-the-purger.md) (11) · [cult-of-skaro](cult-of-skaro.md) (10) · [davros-dalek-creator](davros-dalek-creator.md) (9) |
-| B | done (Bot cycle 48) | [doctor-doom-king-of-latveria](doctor-doom-king-of-latveria.md) (11) · [don-andres-the-renegade](don-andres-the-renegade.md) (12) · [dr-eggman](dr-eggman.md) (10) · [edea-possessed-sorceress](edea-possessed-sorceress.md) (11) · [edward-kenway](edward-kenway.md) (11) · [evelyn-the-covetous](evelyn-the-covetous.md) (10) · [fire-lord-azula](fire-lord-azula.md) (11) · [garza-zol-plague-queen](garza-zol-plague-queen.md) (11) · [goro-goro-and-satoru](goro-goro-and-satoru.md) (9) · [grixistax-october-2026](grixistax-october-2026.md) (11) |
-| C | done (Bot cycle 49) | [gwendlyn-di-corci](gwendlyn-di-corci.md) (10) · [inalla-archmage-ritualist](inalla-archmage-ritualist.md) (9) · [jeleva-nephalias-scourge](jeleva-nephalias-scourge.md) (10) · [kefka-court-mage](kefka-court-mage.md) (13) · [kess-dissident-mage](kess-dissident-mage.md) (9) · [loki-the-deceiver](loki-the-deceiver.md) (7) · [lord-of-tresserhorn](lord-of-tresserhorn.md) (13) · [lord-xander-the-collector](lord-xander-the-collector.md) (11) · [lynde-cheerful-tormentor](lynde-cheerful-tormentor.md) (8) · [mai-and-zuko](mai-and-zuko.md) (9) |
+| B | done (Bot cycle 48) | [doctor-doom-king-of-latveria](doctor-doom-king-of-latveria.md) (11) · [don-andres-the-renegade](don-andres-the-renegade.md) (12) · [dr-eggman](dr-eggman.md) (10) · [edea-possessed-sorceress](edea-possessed-sorceress.md) (11) · [edward-kenway](edward-kenway.md) (11) · [evelyn-the-covetous](evelyn-the-covetous.md) (10) · [fire-lord-azula](fire-lord-azula.md) (12) · [garza-zol-plague-queen](garza-zol-plague-queen.md) (11) · [goro-goro-and-satoru](goro-goro-and-satoru.md) (9) · [grixistax-october-2026](grixistax-october-2026.md) (11) |
+| C | done (Bot cycle 49) | [gwendlyn-di-corci](gwendlyn-di-corci.md) (10) · [inalla-archmage-ritualist](inalla-archmage-ritualist.md) (10) · [jeleva-nephalias-scourge](jeleva-nephalias-scourge.md) (10) · [kefka-court-mage](kefka-court-mage.md) (13) · [kess-dissident-mage](kess-dissident-mage.md) (9) · [loki-the-deceiver](loki-the-deceiver.md) (7) · [lord-of-tresserhorn](lord-of-tresserhorn.md) (13) · [lord-xander-the-collector](lord-xander-the-collector.md) (11) · [lynde-cheerful-tormentor](lynde-cheerful-tormentor.md) (8) · [mai-and-zuko](mai-and-zuko.md) (9) |
 | D | done (Bot cycle 51) | [mairsil-the-pretender](mairsil-the-pretender.md) (11) · [marchesa-dealer-of-death](marchesa-dealer-of-death.md) (8) · [marchesa-the-black-rose](marchesa-the-black-rose.md) (11) · [mishra-artificer-prodigy](mishra-artificer-prodigy.md) (10) · [mishra-eminent-one](mishra-eminent-one.md) (9) · [missy](missy.md) (9) · [nathan-drake-treasure-hunter](nathan-drake-treasure-hunter.md) (8) · [nekusar-the-mindrazer](nekusar-the-mindrazer.md) (9) · [nicol-bolas-the-ravager](nicol-bolas-the-ravager.md) (8) · [nicol-bolas](nicol-bolas.md) (9) |
 | E | done (Bot cycle 54) | [norman-osborn](norman-osborn.md) (9) · [obeka-brute-chronologist](obeka-brute-chronologist.md) (5) · [obeka-splitter-of-seconds](obeka-splitter-of-seconds.md) (5) · [parnesse-the-subtle-brush](parnesse-the-subtle-brush.md) (10) · [rograkh-son-of-rohgahh-silas-renn](rograkh-son-of-rohgahh-silas-renn.md) (8) · [saruman-the-white-hand](saruman-the-white-hand.md) (7) · [sauron-lord-of-the-rings](sauron-lord-of-the-rings.md) (5) · [sauron-the-dark-lord](sauron-the-dark-lord.md) (5) · [sedris-the-traitor-king](sedris-the-traitor-king.md) (6) · [solkanar-the-swamp-king](solkanar-the-swamp-king.md) (6) |
 | F | done (Bot cycle 56) | [solkanar-the-tainted](solkanar-the-tainted.md) (8) · [tetsuo-imperial-champion](tetsuo-imperial-champion.md) (6) · [tetsuo-umezawa](tetsuo-umezawa.md) (5) · [the-madcap-jester](the-madcap-jester.md) (7) · [the-rani](the-rani.md) (6) · [the-valeyard](the-valeyard.md) (5) · [thraximundar](thraximundar.md) (5) · [tresserhorns-lord-returned](tresserhorns-lord-returned.md) (7) · [wick-the-whorled-mind](wick-the-whorled-mind.md) (6) · [zevlor-elturel-exile](zevlor-elturel-exile.md) (4) |
@@ -113,7 +115,25 @@ Batches are in `data/grixis_interactions/_batches.json`: A–F, alphabetical by 
 - every Spellbook citation names a cached variant, and its quote appears verbatim in that variant's steps or prerequisites (normalized);
 - every interaction has an `evidence_class` from the seven classes;
 - every done batch has all its reviews;
-- the rendered pages, deck-page blocks and this status table are current.
+- the rendered pages, deck-page blocks and this status table are current;
+- (Bot cycle 58) each review's edge file is current and valid against `interaction_edges.schema.json`, has a hub node per ruling and at least one pair edge, and any authored edges name the ruling's own cards and a known kind;
+- (Bot cycle 58) every item in the archived `*_Rules_Attestation.json` files is cited by a review or dispositioned with a reason.
+
+## Edges for M4
+Bot cycle 58 (M1 gap closure). For every review, `scripts/grixis_interactions.py` writes `data/grixis_interactions/edges/<slug>.json`, valid against [`interaction_edges.schema.json`](../../data/grixis/schemas/interaction_edges.schema.json). The file is generated, not hand-edited: `--check` fails if it doesn't match a fresh build. It records `deck_sha256` and the `review_sha256` it was built from. M4 can therefore tell which list and which review an edge belongs to.
+
+Rule `edges-v1`:
+- **Nodes:** `commander:<name>` and `card:<name>`, spelled as in the canonical list (a front-face name maps to its `A // B` entry; `in_list: false` for a card from `absent`). Each ruling also gets one hub node: `combo:<slug>/<id>` for combo rulings, `interaction:<slug>/<id>` otherwise. A hub carries the ruling's topic, status, flag kind, `evidence_class` and Spellbook ids.
+- **Membership edges:** each card a ruling names gets an edge to that ruling's hub. Combo hubs use `piece_of`, other hubs `member_of`. These are [graph.schema.json](../../data/grixis/schemas/graph.schema.json) edge kinds, so M4 can use them as is. Their `evidence_class` is the ruling's own. The hub is the lossless form of the ruling: nothing about which cards take part is dropped.
+- **Pair edges** (card → card/commander): every other card in a ruling gets an edge to the ruling's *anchor*. The anchor is the commander if the ruling names one, else the ruling's first card. The kind is `conflicts_with` for an `anti-synergy` flag, else `combo_with` for a combo, else `interacts_with`. Pair edges are symmetric and `derived_metric`, because the projection is a rule, not a ruling. They have `graph_kind: null`: M4 keeps them as annotations or as evidence on its own structural edges.
+- **Authored edges:** a ruling may carry `edges: [{from, to, kind}]` (card names). These replace its pair edges, with `layer: authored`. The kinds are the graph kinds (`enables`, `tutors_for`, `protects`, `recurs`, `fuels`, `payoff_of`, `fixes`, `redundant_with`, …) plus the three review kinds. Use them where a ruling settles a direction (A enables B). No ruling uses them yet.
+- **Every edge** carries `interaction`, `topic`, `status`, `flag_kind`, `cr` (the ruling's CR rules) and `evidence` refs (`review:…#<id>`, `cr:<rule>`, `spellbook:<id>`). Verbatim Oracle text, ruling and source quotes are reached through the review ref.
+
+## Source attestation coverage
+The M1 criterion asks for all 518 source rulings to be folded in or dispositioned. `--check` lists every interaction in the archived `*_Rules_Attestation.json` files. Each one must be cited by a review (`source` → `item`, i.e. folded in) or have an entry in `data/grixis_interactions/_attestation_dispositions.json` with `disposition` (`not_applicable` or `covered_elsewhere`) and a `reason`. An item may not be both. Status: **515 folded in, 3 dispositioned, 0 missing.** Bot cycle 58 folded in 3: Azula + Samut split second (azula-12), Tinybones ETB (gwendlyn-05) and Kefka legendary copy (inalla-10). It dispositioned 3:
+- Final Fortune exclusion (not in Azula's list);
+- Lynde's color identity (checked by the `decks` step);
+- Mai and Zuko's color identity (checked by the `decks` step).
 
 ## Statuses and flags
 | Status | Meaning |

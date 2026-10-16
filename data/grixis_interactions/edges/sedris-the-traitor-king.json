@@ -1,0 +1,917 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Sedris__the_Traitor_King",
+ "slug": "sedris-the-traitor-king",
+ "deck_sha256": "ddcd18ab4826834cde491cd21b8f9697c77677dc8890a696b3ad6bd5f4e96aa0",
+ "review": "data/grixis_interactions/sedris-the-traitor-king.json",
+ "review_sha256": "2cd4c054f35e6a577ef809fedd38e41a0e4cb80832b7ba25d05515ee7c1b87ad",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 6,
+  "nodes": 19,
+  "membership_edges": 19,
+  "pair_edges": 13
+ },
+ "nodes": [
+  {
+   "id": "commander:Sedris, the Traitor King",
+   "kind": "commander",
+   "name": "Sedris, the Traitor King",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sedris-the-traitor-king/sedris-01",
+   "kind": "interaction",
+   "interaction": "sedris-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Convergence of Dominion",
+   "kind": "card",
+   "name": "Convergence of Dominion",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sedris-the-traitor-king/sedris-02",
+   "kind": "interaction",
+   "interaction": "sedris-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Obeka, Brute Chronologist",
+   "kind": "card",
+   "name": "Obeka, Brute Chronologist",
+   "in_list": true
+  },
+  {
+   "id": "card:Sundial of the Infinite",
+   "kind": "card",
+   "name": "Sundial of the Infinite",
+   "in_list": true
+  },
+  {
+   "id": "card:Teferi's Veil",
+   "kind": "card",
+   "name": "Teferi's Veil",
+   "in_list": true
+  },
+  {
+   "id": "card:Deadeye Navigator",
+   "kind": "card",
+   "name": "Deadeye Navigator",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sedris-the-traitor-king/sedris-03",
+   "kind": "interaction",
+   "interaction": "sedris-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:River Kelpie",
+   "kind": "card",
+   "name": "River Kelpie",
+   "in_list": true
+  },
+  {
+   "id": "card:Twilight Diviner",
+   "kind": "card",
+   "name": "Twilight Diviner",
+   "in_list": true
+  },
+  {
+   "id": "card:Panharmonicon",
+   "kind": "card",
+   "name": "Panharmonicon",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sedris-the-traitor-king/sedris-04",
+   "kind": "interaction",
+   "interaction": "sedris-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Peregrine Drake",
+   "kind": "card",
+   "name": "Peregrine Drake",
+   "in_list": true
+  },
+  {
+   "id": "combo:sedris-the-traitor-king/sedris-05",
+   "kind": "combo",
+   "interaction": "sedris-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1409-3821"
+   ]
+  },
+  {
+   "id": "card:Ripples of Undeath",
+   "kind": "card",
+   "name": "Ripples of Undeath",
+   "in_list": true
+  },
+  {
+   "id": "card:Undercity Sewers",
+   "kind": "card",
+   "name": "Undercity Sewers",
+   "in_list": true
+  },
+  {
+   "id": "card:Grim Monolith",
+   "kind": "card",
+   "name": "Grim Monolith",
+   "in_list": true
+  },
+  {
+   "id": "interaction:sedris-the-traitor-king/sedris-06",
+   "kind": "interaction",
+   "interaction": "sedris-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "sedris-01:m1",
+   "from": "commander:Sedris, the Traitor King",
+   "to": "interaction:sedris-the-traitor-king/sedris-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.84a",
+    "602.5d",
+    "603.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-01",
+    "cr:702.84a",
+    "cr:602.5d",
+    "cr:603.7"
+   ]
+  },
+  {
+   "id": "sedris-02:m1",
+   "from": "commander:Sedris, the Traitor King",
+   "to": "interaction:sedris-the-traitor-king/sedris-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "602.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-02",
+    "cr:601.2f",
+    "cr:602.2b"
+   ]
+  },
+  {
+   "id": "sedris-02:m2",
+   "from": "card:Convergence of Dominion",
+   "to": "interaction:sedris-the-traitor-king/sedris-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "602.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-02",
+    "cr:601.2f",
+    "cr:602.2b"
+   ]
+  },
+  {
+   "id": "sedris-02:p1",
+   "from": "card:Convergence of Dominion",
+   "to": "commander:Sedris, the Traitor King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sedris-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "602.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-02",
+    "cr:601.2f",
+    "cr:602.2b"
+   ]
+  },
+  {
+   "id": "sedris-03:m1",
+   "from": "commander:Sedris, the Traitor King",
+   "to": "interaction:sedris-the-traitor-king/sedris-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "724.1b",
+    "702.26b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-03",
+    "cr:724.1b",
+    "cr:702.26b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "sedris-03:m2",
+   "from": "card:Obeka, Brute Chronologist",
+   "to": "interaction:sedris-the-traitor-king/sedris-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "724.1b",
+    "702.26b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-03",
+    "cr:724.1b",
+    "cr:702.26b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "sedris-03:m3",
+   "from": "card:Sundial of the Infinite",
+   "to": "interaction:sedris-the-traitor-king/sedris-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "724.1b",
+    "702.26b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-03",
+    "cr:724.1b",
+    "cr:702.26b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "sedris-03:m4",
+   "from": "card:Teferi's Veil",
+   "to": "interaction:sedris-the-traitor-king/sedris-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "724.1b",
+    "702.26b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-03",
+    "cr:724.1b",
+    "cr:702.26b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "sedris-03:m5",
+   "from": "card:Deadeye Navigator",
+   "to": "interaction:sedris-the-traitor-king/sedris-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "724.1b",
+    "702.26b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-03",
+    "cr:724.1b",
+    "cr:702.26b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "sedris-03:p1",
+   "from": "card:Obeka, Brute Chronologist",
+   "to": "commander:Sedris, the Traitor King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sedris-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "724.1b",
+    "702.26b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-03",
+    "cr:724.1b",
+    "cr:702.26b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "sedris-03:p2",
+   "from": "card:Sundial of the Infinite",
+   "to": "commander:Sedris, the Traitor King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sedris-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "724.1b",
+    "702.26b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-03",
+    "cr:724.1b",
+    "cr:702.26b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "sedris-03:p3",
+   "from": "card:Teferi's Veil",
+   "to": "commander:Sedris, the Traitor King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sedris-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "724.1b",
+    "702.26b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-03",
+    "cr:724.1b",
+    "cr:702.26b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "sedris-03:p4",
+   "from": "card:Deadeye Navigator",
+   "to": "commander:Sedris, the Traitor King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sedris-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "724.1b",
+    "702.26b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-03",
+    "cr:724.1b",
+    "cr:702.26b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "sedris-04:m1",
+   "from": "commander:Sedris, the Traitor King",
+   "to": "interaction:sedris-the-traitor-king/sedris-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a",
+    "111.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-04",
+    "cr:603.6a",
+    "cr:111.1"
+   ]
+  },
+  {
+   "id": "sedris-04:m2",
+   "from": "card:River Kelpie",
+   "to": "interaction:sedris-the-traitor-king/sedris-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a",
+    "111.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-04",
+    "cr:603.6a",
+    "cr:111.1"
+   ]
+  },
+  {
+   "id": "sedris-04:m3",
+   "from": "card:Twilight Diviner",
+   "to": "interaction:sedris-the-traitor-king/sedris-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a",
+    "111.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-04",
+    "cr:603.6a",
+    "cr:111.1"
+   ]
+  },
+  {
+   "id": "sedris-04:m4",
+   "from": "card:Panharmonicon",
+   "to": "interaction:sedris-the-traitor-king/sedris-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a",
+    "111.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-04",
+    "cr:603.6a",
+    "cr:111.1"
+   ]
+  },
+  {
+   "id": "sedris-04:p1",
+   "from": "card:River Kelpie",
+   "to": "commander:Sedris, the Traitor King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sedris-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6a",
+    "111.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-04",
+    "cr:603.6a",
+    "cr:111.1"
+   ]
+  },
+  {
+   "id": "sedris-04:p2",
+   "from": "card:Twilight Diviner",
+   "to": "commander:Sedris, the Traitor King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sedris-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6a",
+    "111.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-04",
+    "cr:603.6a",
+    "cr:111.1"
+   ]
+  },
+  {
+   "id": "sedris-04:p3",
+   "from": "card:Panharmonicon",
+   "to": "commander:Sedris, the Traitor King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sedris-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6a",
+    "111.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-04",
+    "cr:603.6a",
+    "cr:111.1"
+   ]
+  },
+  {
+   "id": "sedris-05:m1",
+   "from": "commander:Sedris, the Traitor King",
+   "to": "combo:sedris-the-traitor-king/sedris-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.95a",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-05",
+    "cr:702.95a",
+    "cr:400.7",
+    "spellbook:1409-3821"
+   ]
+  },
+  {
+   "id": "sedris-05:m2",
+   "from": "card:Peregrine Drake",
+   "to": "combo:sedris-the-traitor-king/sedris-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.95a",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-05",
+    "cr:702.95a",
+    "cr:400.7",
+    "spellbook:1409-3821"
+   ]
+  },
+  {
+   "id": "sedris-05:m3",
+   "from": "card:Deadeye Navigator",
+   "to": "combo:sedris-the-traitor-king/sedris-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.95a",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-05",
+    "cr:702.95a",
+    "cr:400.7",
+    "spellbook:1409-3821"
+   ]
+  },
+  {
+   "id": "sedris-05:p1",
+   "from": "card:Peregrine Drake",
+   "to": "commander:Sedris, the Traitor King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sedris-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.95a",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-05",
+    "cr:702.95a",
+    "cr:400.7",
+    "spellbook:1409-3821"
+   ]
+  },
+  {
+   "id": "sedris-05:p2",
+   "from": "card:Deadeye Navigator",
+   "to": "commander:Sedris, the Traitor King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sedris-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.95a",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-05",
+    "cr:702.95a",
+    "cr:400.7",
+    "spellbook:1409-3821"
+   ]
+  },
+  {
+   "id": "sedris-06:m1",
+   "from": "commander:Sedris, the Traitor King",
+   "to": "interaction:sedris-the-traitor-king/sedris-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.17a",
+    "701.25a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-06",
+    "cr:701.17a",
+    "cr:701.25a"
+   ]
+  },
+  {
+   "id": "sedris-06:m2",
+   "from": "card:Ripples of Undeath",
+   "to": "interaction:sedris-the-traitor-king/sedris-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.17a",
+    "701.25a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-06",
+    "cr:701.17a",
+    "cr:701.25a"
+   ]
+  },
+  {
+   "id": "sedris-06:m3",
+   "from": "card:Undercity Sewers",
+   "to": "interaction:sedris-the-traitor-king/sedris-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.17a",
+    "701.25a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-06",
+    "cr:701.17a",
+    "cr:701.25a"
+   ]
+  },
+  {
+   "id": "sedris-06:m4",
+   "from": "card:Grim Monolith",
+   "to": "interaction:sedris-the-traitor-king/sedris-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "sedris-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.17a",
+    "701.25a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-06",
+    "cr:701.17a",
+    "cr:701.25a"
+   ]
+  },
+  {
+   "id": "sedris-06:p1",
+   "from": "card:Ripples of Undeath",
+   "to": "commander:Sedris, the Traitor King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sedris-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.17a",
+    "701.25a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-06",
+    "cr:701.17a",
+    "cr:701.25a"
+   ]
+  },
+  {
+   "id": "sedris-06:p2",
+   "from": "card:Undercity Sewers",
+   "to": "commander:Sedris, the Traitor King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sedris-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.17a",
+    "701.25a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-06",
+    "cr:701.17a",
+    "cr:701.25a"
+   ]
+  },
+  {
+   "id": "sedris-06:p3",
+   "from": "card:Grim Monolith",
+   "to": "commander:Sedris, the Traitor King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "sedris-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.17a",
+    "701.25a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/sedris-the-traitor-king.json#sedris-06",
+    "cr:701.17a",
+    "cr:701.25a"
+   ]
+  }
+ ]
+}

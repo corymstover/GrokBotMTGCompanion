@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
- "pass_id": "audit:tetsuo-imperial-champion:c59:b64702141b38",
+ "pass_id": "audit:tetsuo-imperial-champion:c59:49e403a7920c",
  "snapshot": {
-  "id": "sha256:b64702141b3836d8923ccb45caa50bce1da8781d55289d10ef997b134e429f20",
-  "graph": "sha256:bf54d5414a95f98acfa316826d7f2ab806f499fa11aad7fcd4f72b1f1316416c",
+  "id": "sha256:49e403a7920c25b312879e90da220a0396ddc61d6b7d3827ac684552bfeb9906",
+  "graph": "sha256:66f124dd55c1628838bfff6015eb84c7f8afbf856bd6e7a6749f034d8a004f75",
   "evidence": "sha256:9c47636b391d9241d1c54323ca49c870659fe47bb67aaead3863d23589d73f65",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

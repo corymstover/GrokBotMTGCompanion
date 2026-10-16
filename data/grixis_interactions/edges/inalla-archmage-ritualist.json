@@ -1,0 +1,2033 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "slug": "inalla-archmage-ritualist",
+ "deck_sha256": "45924e0eabb7a253004d5cdf69c32f7ab82d1e0e7406938a033a8f8b39026598",
+ "review": "data/grixis_interactions/inalla-archmage-ritualist.json",
+ "review_sha256": "ad1cdafbdc6ca3f996ff1b8c55dbf2b764962df18ad0c89d2abc8c2dbbba05d7",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 10,
+  "nodes": 35,
+  "membership_edges": 40,
+  "pair_edges": 30
+ },
+ "nodes": [
+  {
+   "id": "commander:Inalla, Archmage Ritualist",
+   "kind": "commander",
+   "name": "Inalla, Archmage Ritualist",
+   "in_list": true
+  },
+  {
+   "id": "interaction:inalla-archmage-ritualist/inalla-01",
+   "kind": "interaction",
+   "interaction": "inalla-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:inalla-archmage-ritualist/inalla-02",
+   "kind": "interaction",
+   "interaction": "inalla-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Bloodline Necromancer",
+   "kind": "card",
+   "name": "Bloodline Necromancer",
+   "in_list": true
+  },
+  {
+   "id": "card:Ruthless Technomancer",
+   "kind": "card",
+   "name": "Ruthless Technomancer",
+   "in_list": true
+  },
+  {
+   "id": "combo:inalla-archmage-ritualist/inalla-03",
+   "kind": "combo",
+   "interaction": "inalla-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1869-2721-3719",
+    "1869-2721-3719",
+    "1869-2721-3719"
+   ]
+  },
+  {
+   "id": "card:Scholar of the Ages",
+   "kind": "card",
+   "name": "Scholar of the Ages",
+   "in_list": true
+  },
+  {
+   "id": "card:Sacrifice",
+   "kind": "card",
+   "name": "Sacrifice",
+   "in_list": true
+  },
+  {
+   "id": "card:Burnt Offering",
+   "kind": "card",
+   "name": "Burnt Offering",
+   "in_list": true
+  },
+  {
+   "id": "card:Culling the Weak",
+   "kind": "card",
+   "name": "Culling the Weak",
+   "in_list": true
+  },
+  {
+   "id": "card:Shallow Grave",
+   "kind": "card",
+   "name": "Shallow Grave",
+   "in_list": true
+  },
+  {
+   "id": "card:Persist",
+   "kind": "card",
+   "name": "Persist",
+   "in_list": true
+  },
+  {
+   "id": "combo:inalla-archmage-ritualist/inalla-04",
+   "kind": "combo",
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "813-1181-2171",
+    "813-1777-1893",
+    "813-1893-2081"
+   ]
+  },
+  {
+   "id": "card:Saw in Half",
+   "kind": "card",
+   "name": "Saw in Half",
+   "in_list": true
+  },
+  {
+   "id": "combo:inalla-archmage-ritualist/inalla-05",
+   "kind": "combo",
+   "interaction": "inalla-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "500-813-1181"
+   ]
+  },
+  {
+   "id": "card:Spellseeker",
+   "kind": "card",
+   "name": "Spellseeker",
+   "in_list": true
+  },
+  {
+   "id": "card:Unearth",
+   "kind": "card",
+   "name": "Unearth",
+   "in_list": true
+  },
+  {
+   "id": "card:Finale of Promise",
+   "kind": "card",
+   "name": "Finale of Promise",
+   "in_list": true
+  },
+  {
+   "id": "card:Entomb",
+   "kind": "card",
+   "name": "Entomb",
+   "in_list": true
+  },
+  {
+   "id": "card:Reanimate",
+   "kind": "card",
+   "name": "Reanimate",
+   "in_list": true
+  },
+  {
+   "id": "combo:inalla-archmage-ritualist/inalla-06",
+   "kind": "combo",
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis"
+  },
+  {
+   "id": "card:Beseech the Mirror",
+   "kind": "card",
+   "name": "Beseech the Mirror",
+   "in_list": true
+  },
+  {
+   "id": "interaction:inalla-archmage-ritualist/inalla-07",
+   "kind": "interaction",
+   "interaction": "inalla-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Apprentice Necromancer",
+   "kind": "card",
+   "name": "Apprentice Necromancer",
+   "in_list": true
+  },
+  {
+   "id": "card:Thundertrap Trainer",
+   "kind": "card",
+   "name": "Thundertrap Trainer",
+   "in_list": true
+  },
+  {
+   "id": "interaction:inalla-archmage-ritualist/inalla-08",
+   "kind": "interaction",
+   "interaction": "inalla-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thassa's Oracle",
+   "kind": "card",
+   "name": "Thassa's Oracle",
+   "in_list": true
+  },
+  {
+   "id": "card:Demonic Consultation",
+   "kind": "card",
+   "name": "Demonic Consultation",
+   "in_list": true
+  },
+  {
+   "id": "card:Tainted Pact",
+   "kind": "card",
+   "name": "Tainted Pact",
+   "in_list": true
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "card:Lion's Eye Diamond",
+   "kind": "card",
+   "name": "Lion's Eye Diamond",
+   "in_list": true
+  },
+  {
+   "id": "card:Brain Freeze",
+   "kind": "card",
+   "name": "Brain Freeze",
+   "in_list": true
+  },
+  {
+   "id": "combo:inalla-archmage-ritualist/inalla-09",
+   "kind": "combo",
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "742-1295",
+    "1295-3093",
+    "1368-3518-4856"
+   ]
+  },
+  {
+   "id": "card:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "kind": "card",
+   "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "in_list": true
+  },
+  {
+   "id": "interaction:inalla-archmage-ritualist/inalla-10",
+   "kind": "interaction",
+   "interaction": "inalla-10",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "inalla-01:m1",
+   "from": "commander:Inalla, Archmage Ritualist",
+   "to": "interaction:inalla-archmage-ritualist/inalla-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "207.2c",
+    "400.7",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-01",
+    "cr:207.2c",
+    "cr:400.7",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "inalla-02:m1",
+   "from": "commander:Inalla, Archmage Ritualist",
+   "to": "interaction:inalla-archmage-ritualist/inalla-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-02",
+    "cr:302.6",
+    "cr:602.2"
+   ]
+  },
+  {
+   "id": "inalla-03:m1",
+   "from": "commander:Inalla, Archmage Ritualist",
+   "to": "combo:inalla-archmage-ritualist/inalla-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-03",
+    "cr:603.3b",
+    "cr:707.2",
+    "spellbook:1869-2721-3719",
+    "spellbook:1869-2721-3719",
+    "spellbook:1869-2721-3719"
+   ]
+  },
+  {
+   "id": "inalla-03:m2",
+   "from": "card:Bloodline Necromancer",
+   "to": "combo:inalla-archmage-ritualist/inalla-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-03",
+    "cr:603.3b",
+    "cr:707.2",
+    "spellbook:1869-2721-3719",
+    "spellbook:1869-2721-3719",
+    "spellbook:1869-2721-3719"
+   ]
+  },
+  {
+   "id": "inalla-03:m3",
+   "from": "card:Ruthless Technomancer",
+   "to": "combo:inalla-archmage-ritualist/inalla-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-03",
+    "cr:603.3b",
+    "cr:707.2",
+    "spellbook:1869-2721-3719",
+    "spellbook:1869-2721-3719",
+    "spellbook:1869-2721-3719"
+   ]
+  },
+  {
+   "id": "inalla-03:p1",
+   "from": "card:Bloodline Necromancer",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-03",
+    "cr:603.3b",
+    "cr:707.2",
+    "spellbook:1869-2721-3719",
+    "spellbook:1869-2721-3719",
+    "spellbook:1869-2721-3719"
+   ]
+  },
+  {
+   "id": "inalla-03:p2",
+   "from": "card:Ruthless Technomancer",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-03",
+    "cr:603.3b",
+    "cr:707.2",
+    "spellbook:1869-2721-3719",
+    "spellbook:1869-2721-3719",
+    "spellbook:1869-2721-3719"
+   ]
+  },
+  {
+   "id": "inalla-04:m1",
+   "from": "commander:Inalla, Archmage Ritualist",
+   "to": "combo:inalla-archmage-ritualist/inalla-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-04",
+    "cr:202.3",
+    "cr:404.2",
+    "cr:601.2f",
+    "spellbook:813-1181-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-1893-2081"
+   ]
+  },
+  {
+   "id": "inalla-04:m2",
+   "from": "card:Scholar of the Ages",
+   "to": "combo:inalla-archmage-ritualist/inalla-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-04",
+    "cr:202.3",
+    "cr:404.2",
+    "cr:601.2f",
+    "spellbook:813-1181-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-1893-2081"
+   ]
+  },
+  {
+   "id": "inalla-04:m3",
+   "from": "card:Sacrifice",
+   "to": "combo:inalla-archmage-ritualist/inalla-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-04",
+    "cr:202.3",
+    "cr:404.2",
+    "cr:601.2f",
+    "spellbook:813-1181-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-1893-2081"
+   ]
+  },
+  {
+   "id": "inalla-04:m4",
+   "from": "card:Burnt Offering",
+   "to": "combo:inalla-archmage-ritualist/inalla-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-04",
+    "cr:202.3",
+    "cr:404.2",
+    "cr:601.2f",
+    "spellbook:813-1181-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-1893-2081"
+   ]
+  },
+  {
+   "id": "inalla-04:m5",
+   "from": "card:Culling the Weak",
+   "to": "combo:inalla-archmage-ritualist/inalla-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-04",
+    "cr:202.3",
+    "cr:404.2",
+    "cr:601.2f",
+    "spellbook:813-1181-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-1893-2081"
+   ]
+  },
+  {
+   "id": "inalla-04:m6",
+   "from": "card:Shallow Grave",
+   "to": "combo:inalla-archmage-ritualist/inalla-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-04",
+    "cr:202.3",
+    "cr:404.2",
+    "cr:601.2f",
+    "spellbook:813-1181-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-1893-2081"
+   ]
+  },
+  {
+   "id": "inalla-04:m7",
+   "from": "card:Persist",
+   "to": "combo:inalla-archmage-ritualist/inalla-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-04",
+    "cr:202.3",
+    "cr:404.2",
+    "cr:601.2f",
+    "spellbook:813-1181-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-1893-2081"
+   ]
+  },
+  {
+   "id": "inalla-04:p1",
+   "from": "card:Scholar of the Ages",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-04",
+    "cr:202.3",
+    "cr:404.2",
+    "cr:601.2f",
+    "spellbook:813-1181-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-1893-2081"
+   ]
+  },
+  {
+   "id": "inalla-04:p2",
+   "from": "card:Sacrifice",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-04",
+    "cr:202.3",
+    "cr:404.2",
+    "cr:601.2f",
+    "spellbook:813-1181-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-1893-2081"
+   ]
+  },
+  {
+   "id": "inalla-04:p3",
+   "from": "card:Burnt Offering",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-04",
+    "cr:202.3",
+    "cr:404.2",
+    "cr:601.2f",
+    "spellbook:813-1181-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-1893-2081"
+   ]
+  },
+  {
+   "id": "inalla-04:p4",
+   "from": "card:Culling the Weak",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-04",
+    "cr:202.3",
+    "cr:404.2",
+    "cr:601.2f",
+    "spellbook:813-1181-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-1893-2081"
+   ]
+  },
+  {
+   "id": "inalla-04:p5",
+   "from": "card:Shallow Grave",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-04",
+    "cr:202.3",
+    "cr:404.2",
+    "cr:601.2f",
+    "spellbook:813-1181-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-1893-2081"
+   ]
+  },
+  {
+   "id": "inalla-04:p6",
+   "from": "card:Persist",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-04",
+    "cr:202.3",
+    "cr:404.2",
+    "cr:601.2f",
+    "spellbook:813-1181-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-1893-2081"
+   ]
+  },
+  {
+   "id": "inalla-05:m1",
+   "from": "commander:Inalla, Archmage Ritualist",
+   "to": "combo:inalla-archmage-ritualist/inalla-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-05",
+    "cr:707.2",
+    "cr:202.3",
+    "spellbook:500-813-1181"
+   ]
+  },
+  {
+   "id": "inalla-05:m2",
+   "from": "card:Saw in Half",
+   "to": "combo:inalla-archmage-ritualist/inalla-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-05",
+    "cr:707.2",
+    "cr:202.3",
+    "spellbook:500-813-1181"
+   ]
+  },
+  {
+   "id": "inalla-05:m3",
+   "from": "card:Scholar of the Ages",
+   "to": "combo:inalla-archmage-ritualist/inalla-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-05",
+    "cr:707.2",
+    "cr:202.3",
+    "spellbook:500-813-1181"
+   ]
+  },
+  {
+   "id": "inalla-05:m4",
+   "from": "card:Sacrifice",
+   "to": "combo:inalla-archmage-ritualist/inalla-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-05",
+    "cr:707.2",
+    "cr:202.3",
+    "spellbook:500-813-1181"
+   ]
+  },
+  {
+   "id": "inalla-05:p1",
+   "from": "card:Saw in Half",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-05",
+    "cr:707.2",
+    "cr:202.3",
+    "spellbook:500-813-1181"
+   ]
+  },
+  {
+   "id": "inalla-05:p2",
+   "from": "card:Scholar of the Ages",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-05",
+    "cr:707.2",
+    "cr:202.3",
+    "spellbook:500-813-1181"
+   ]
+  },
+  {
+   "id": "inalla-05:p3",
+   "from": "card:Sacrifice",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-05",
+    "cr:707.2",
+    "cr:202.3",
+    "spellbook:500-813-1181"
+   ]
+  },
+  {
+   "id": "inalla-06:m1",
+   "from": "commander:Inalla, Archmage Ritualist",
+   "to": "combo:inalla-archmage-ritualist/inalla-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:m2",
+   "from": "card:Spellseeker",
+   "to": "combo:inalla-archmage-ritualist/inalla-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:m3",
+   "from": "card:Culling the Weak",
+   "to": "combo:inalla-archmage-ritualist/inalla-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:m4",
+   "from": "card:Unearth",
+   "to": "combo:inalla-archmage-ritualist/inalla-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:m5",
+   "from": "card:Burnt Offering",
+   "to": "combo:inalla-archmage-ritualist/inalla-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:m6",
+   "from": "card:Finale of Promise",
+   "to": "combo:inalla-archmage-ritualist/inalla-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:m7",
+   "from": "card:Entomb",
+   "to": "combo:inalla-archmage-ritualist/inalla-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:m8",
+   "from": "card:Reanimate",
+   "to": "combo:inalla-archmage-ritualist/inalla-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:m9",
+   "from": "card:Scholar of the Ages",
+   "to": "combo:inalla-archmage-ritualist/inalla-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:p1",
+   "from": "card:Spellseeker",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:p2",
+   "from": "card:Culling the Weak",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:p3",
+   "from": "card:Unearth",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:p4",
+   "from": "card:Burnt Offering",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:p5",
+   "from": "card:Finale of Promise",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:p6",
+   "from": "card:Entomb",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:p7",
+   "from": "card:Reanimate",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-06:p8",
+   "from": "card:Scholar of the Ages",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-06",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-06",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "inalla-07:m1",
+   "from": "commander:Inalla, Archmage Ritualist",
+   "to": "interaction:inalla-archmage-ritualist/inalla-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.61a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-07",
+    "cr:702.61a",
+    "cr:608.2g"
+   ]
+  },
+  {
+   "id": "inalla-07:m2",
+   "from": "card:Finale of Promise",
+   "to": "interaction:inalla-archmage-ritualist/inalla-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.61a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-07",
+    "cr:702.61a",
+    "cr:608.2g"
+   ]
+  },
+  {
+   "id": "inalla-07:m3",
+   "from": "card:Beseech the Mirror",
+   "to": "interaction:inalla-archmage-ritualist/inalla-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.61a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-07",
+    "cr:702.61a",
+    "cr:608.2g"
+   ]
+  },
+  {
+   "id": "inalla-07:p1",
+   "from": "card:Finale of Promise",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.61a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-07",
+    "cr:702.61a",
+    "cr:608.2g"
+   ]
+  },
+  {
+   "id": "inalla-07:p2",
+   "from": "card:Beseech the Mirror",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.61a",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-07",
+    "cr:702.61a",
+    "cr:608.2g"
+   ]
+  },
+  {
+   "id": "inalla-08:m1",
+   "from": "commander:Inalla, Archmage Ritualist",
+   "to": "interaction:inalla-archmage-ritualist/inalla-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.2",
+    "601.2c",
+    "702.175a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-08",
+    "cr:602.2",
+    "cr:601.2c",
+    "cr:702.175a"
+   ]
+  },
+  {
+   "id": "inalla-08:m2",
+   "from": "card:Apprentice Necromancer",
+   "to": "interaction:inalla-archmage-ritualist/inalla-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.2",
+    "601.2c",
+    "702.175a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-08",
+    "cr:602.2",
+    "cr:601.2c",
+    "cr:702.175a"
+   ]
+  },
+  {
+   "id": "inalla-08:m3",
+   "from": "card:Thundertrap Trainer",
+   "to": "interaction:inalla-archmage-ritualist/inalla-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.2",
+    "601.2c",
+    "702.175a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-08",
+    "cr:602.2",
+    "cr:601.2c",
+    "cr:702.175a"
+   ]
+  },
+  {
+   "id": "inalla-08:p1",
+   "from": "card:Apprentice Necromancer",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.2",
+    "601.2c",
+    "702.175a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-08",
+    "cr:602.2",
+    "cr:601.2c",
+    "cr:702.175a"
+   ]
+  },
+  {
+   "id": "inalla-08:p2",
+   "from": "card:Thundertrap Trainer",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.2",
+    "601.2c",
+    "702.175a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-08",
+    "cr:602.2",
+    "cr:601.2c",
+    "cr:702.175a"
+   ]
+  },
+  {
+   "id": "inalla-09:m1",
+   "from": "commander:Inalla, Archmage Ritualist",
+   "to": "combo:inalla-archmage-ritualist/inalla-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-09",
+    "cr:121.4",
+    "cr:702.138a",
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "inalla-09:m2",
+   "from": "card:Thassa's Oracle",
+   "to": "combo:inalla-archmage-ritualist/inalla-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-09",
+    "cr:121.4",
+    "cr:702.138a",
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "inalla-09:m3",
+   "from": "card:Demonic Consultation",
+   "to": "combo:inalla-archmage-ritualist/inalla-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-09",
+    "cr:121.4",
+    "cr:702.138a",
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "inalla-09:m4",
+   "from": "card:Tainted Pact",
+   "to": "combo:inalla-archmage-ritualist/inalla-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-09",
+    "cr:121.4",
+    "cr:702.138a",
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "inalla-09:m5",
+   "from": "card:Underworld Breach",
+   "to": "combo:inalla-archmage-ritualist/inalla-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-09",
+    "cr:121.4",
+    "cr:702.138a",
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "inalla-09:m6",
+   "from": "card:Lion's Eye Diamond",
+   "to": "combo:inalla-archmage-ritualist/inalla-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-09",
+    "cr:121.4",
+    "cr:702.138a",
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "inalla-09:m7",
+   "from": "card:Brain Freeze",
+   "to": "combo:inalla-archmage-ritualist/inalla-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-09",
+    "cr:121.4",
+    "cr:702.138a",
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "inalla-09:p1",
+   "from": "card:Thassa's Oracle",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-09",
+    "cr:121.4",
+    "cr:702.138a",
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "inalla-09:p2",
+   "from": "card:Demonic Consultation",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-09",
+    "cr:121.4",
+    "cr:702.138a",
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "inalla-09:p3",
+   "from": "card:Tainted Pact",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-09",
+    "cr:121.4",
+    "cr:702.138a",
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "inalla-09:p4",
+   "from": "card:Underworld Breach",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-09",
+    "cr:121.4",
+    "cr:702.138a",
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "inalla-09:p5",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-09",
+    "cr:121.4",
+    "cr:702.138a",
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "inalla-09:p6",
+   "from": "card:Brain Freeze",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-09",
+    "cr:121.4",
+    "cr:702.138a",
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "inalla-10:m1",
+   "from": "commander:Inalla, Archmage Ritualist",
+   "to": "interaction:inalla-archmage-ritualist/inalla-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-10",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "113.7a",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-10",
+    "cr:704.5j",
+    "cr:113.7a",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "inalla-10:m2",
+   "from": "card:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "interaction:inalla-archmage-ritualist/inalla-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "inalla-10",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "113.7a",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-10",
+    "cr:704.5j",
+    "cr:113.7a",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "inalla-10:p1",
+   "from": "card:Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "to": "commander:Inalla, Archmage Ritualist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "inalla-10",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "113.7a",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/inalla-archmage-ritualist.json#inalla-10",
+    "cr:704.5j",
+    "cr:113.7a",
+    "cr:603.3"
+   ]
+  }
+ ]
+}

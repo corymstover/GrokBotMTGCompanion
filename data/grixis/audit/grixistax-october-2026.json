@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
- "pass_id": "audit:grixistax-october-2026:c59:b452696458c3",
+ "pass_id": "audit:grixistax-october-2026:c59:0418def47dc9",
  "snapshot": {
-  "id": "sha256:b452696458c3e0bf49068e25ae74b9bf36ae001621574a2cf96e9912bcf66abb",
-  "graph": "sha256:a748b9817d55122dabf9ab6c96de406f88d2ae322f09393670af8eee890b7c8f",
+  "id": "sha256:0418def47dc9b60028920aa82058ab0e40ffadf4b61a6f1421b658bfda0f2bbb",
+  "graph": "sha256:75cffc152206209cdeb05a65168392684d064c89e2c35f5b1e7cc73f486b02a8",
   "evidence": "sha256:789ecca63e600425c92fd28fd22f00c562cb17c9c56a930cb13321841f038870",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

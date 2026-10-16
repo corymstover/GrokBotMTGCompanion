@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
- "pass_id": "audit:cormela-glamour-thief:c59:eeeb6a475142",
+ "pass_id": "audit:cormela-glamour-thief:c59:31122e3b3e24",
  "snapshot": {
-  "id": "sha256:eeeb6a475142d1a13ccdeb27dd93067b8f667a39cb737b35da05fa091f6d90fd",
-  "graph": "sha256:4bb6445cfcfcdde38db9e5f3b9a76926e051afe4e7af656804dbd7763b8017e0",
+  "id": "sha256:31122e3b3e240abd0cc70ae4b4977289e42de138bba43c788340f023137918e6",
+  "graph": "sha256:4286c770d020a67def36e0e6011eaa8a7641787e7fc503d298bef48d78a95c21",
   "evidence": "sha256:8dfe882d6e8c85b4c93a31e3d57e568885ff95ccd40fd94ce6dcb5e5c7b70892",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

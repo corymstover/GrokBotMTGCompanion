@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
- "pass_id": "audit:fire-lord-azula:c59:4a6dd51a6cb5",
+ "pass_id": "audit:fire-lord-azula:c59:08dc4ada87d4",
  "snapshot": {
-  "id": "sha256:4a6dd51a6cb51e245f6eadc7e2bf2b3524c405f9e5256ca6b171839603a537a9",
-  "graph": "sha256:ea4ff8612cab5c29f17a5ced92abed8c63e3e3dcfafe46de70edfc8f87a0fcb5",
-  "evidence": "sha256:14242d4c01b1a7f96dba69567010bf826e23ab6f2e73e79f258435f2f7fb0f0e",
-  "m1": "absent"
+  "id": "sha256:08dc4ada87d461a258b834160799a82f5907f77df5164642bf575796608ef79a",
+  "graph": "sha256:47cea6df7fbc11a4cfd07fe71a659a504127c2f89b83404c268039b943427c81",
+  "evidence": "sha256:3d74c78485e4994331113cd5fa2ea25f63130ea753ddc0ea45c114478295bcad",
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
@@ -143,7 +143,7 @@
   "screened": 204,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:14242d4c01b1a7f96dba69567010bf826e23ab6f2e73e79f258435f2f7fb0f0e"
+  "snapshot": "sha256:3d74c78485e4994331113cd5fa2ea25f63130ea753ddc0ea45c114478295bcad"
  },
  "slots": [
   {"card":"Ad Nauseam","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/fire-lord-azula.json#plan/value"],"graph_refs":["graph:data/grixis/graph/fire-lord-azula.json#metrics/Ad Nauseam"],"alternatives":[],"redundancy":0,"reason":"weak retain ({3}{B}{B} instant): no structure; blueprint mention. Oracle: “Reveal the top card of your library and put that card into your hand”. Redundancy 0 (no shared job). No EDHREC row. Blueprint names it in plan/value.","evidence":["blueprint:data/grixis/blueprints/fire-lord-azula.json#plan/value","graph:data/grixis/graph/fire-lord-azula.json#metrics/Ad Nauseam","oracle:Ad Nauseam"],"structural_necessity":"independent","evidence_classes":{"fact":1,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":false},

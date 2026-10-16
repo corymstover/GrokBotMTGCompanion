@@ -1,0 +1,1992 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Nicol_Bolas",
+ "slug": "nicol-bolas",
+ "deck_sha256": "1c271131d2cb3f824a292391932dbb111c3eb9653051424c16db76a6c16e91b0",
+ "review": "data/grixis_interactions/nicol-bolas.json",
+ "review_sha256": "d3047fac1251403725f02a1931505be8773f05cf14ff3569f3ba665fcae87d98",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 9,
+  "nodes": 36,
+  "membership_edges": 43,
+  "pair_edges": 34
+ },
+ "nodes": [
+  {
+   "id": "commander:Nicol Bolas",
+   "kind": "commander",
+   "name": "Nicol Bolas",
+   "in_list": true
+  },
+  {
+   "id": "card:Command Beacon",
+   "kind": "card",
+   "name": "Command Beacon",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas/bolas-01",
+   "kind": "interaction",
+   "interaction": "bolas-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Ingris Stingerquill",
+   "kind": "card",
+   "name": "Ingris Stingerquill",
+   "in_list": true
+  },
+  {
+   "id": "card:Kediss, Emberclaw Familiar",
+   "kind": "card",
+   "name": "Kediss, Emberclaw Familiar",
+   "in_list": true
+  },
+  {
+   "id": "card:Dragon Tempest",
+   "kind": "card",
+   "name": "Dragon Tempest",
+   "in_list": true
+  },
+  {
+   "id": "card:Cavern of Souls",
+   "kind": "card",
+   "name": "Cavern of Souls",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas/bolas-02",
+   "kind": "interaction",
+   "interaction": "bolas-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Chandra's Ignition",
+   "kind": "card",
+   "name": "Chandra's Ignition",
+   "in_list": true
+  },
+  {
+   "id": "card:Pain for All",
+   "kind": "card",
+   "name": "Pain for All",
+   "in_list": true
+  },
+  {
+   "id": "card:Quicksilver Dagger",
+   "kind": "card",
+   "name": "Quicksilver Dagger",
+   "in_list": true
+  },
+  {
+   "id": "card:Viridian Longbow",
+   "kind": "card",
+   "name": "Viridian Longbow",
+   "in_list": true
+  },
+  {
+   "id": "card:Curiosity",
+   "kind": "card",
+   "name": "Curiosity",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas/bolas-03",
+   "kind": "interaction",
+   "interaction": "bolas-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Sangromancer",
+   "kind": "card",
+   "name": "Sangromancer",
+   "in_list": true
+  },
+  {
+   "id": "card:Tinybones, Bauble Burglar",
+   "kind": "card",
+   "name": "Tinybones, Bauble Burglar",
+   "in_list": true
+  },
+  {
+   "id": "card:Tinybones, Trinket Thief",
+   "kind": "card",
+   "name": "Tinybones, Trinket Thief",
+   "in_list": true
+  },
+  {
+   "id": "card:Notion Thief",
+   "kind": "card",
+   "name": "Notion Thief",
+   "in_list": true
+  },
+  {
+   "id": "card:Hypnotic Specter",
+   "kind": "card",
+   "name": "Hypnotic Specter",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas/bolas-04",
+   "kind": "interaction",
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Waste Not",
+   "kind": "card",
+   "name": "Waste Not",
+   "in_list": true
+  },
+  {
+   "id": "card:Geth's Grimoire",
+   "kind": "card",
+   "name": "Geth's Grimoire",
+   "in_list": true
+  },
+  {
+   "id": "card:Raiders' Wake",
+   "kind": "card",
+   "name": "Raiders' Wake",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas/bolas-05",
+   "kind": "interaction",
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Tergrid, God of Fright // Tergrid's Lantern",
+   "kind": "card",
+   "name": "Tergrid, God of Fright // Tergrid's Lantern",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas/bolas-06",
+   "kind": "interaction",
+   "interaction": "bolas-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Sword of Feast and Famine",
+   "kind": "card",
+   "name": "Sword of Feast and Famine",
+   "in_list": true
+  },
+  {
+   "id": "card:Aggravated Assault",
+   "kind": "card",
+   "name": "Aggravated Assault",
+   "in_list": true
+  },
+  {
+   "id": "combo:nicol-bolas/bolas-07",
+   "kind": "combo",
+   "interaction": "bolas-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "900-3750",
+    "900-3750"
+   ]
+  },
+  {
+   "id": "card:Arena of Glory",
+   "kind": "card",
+   "name": "Arena of Glory",
+   "in_list": true
+  },
+  {
+   "id": "card:Lightning Greaves",
+   "kind": "card",
+   "name": "Lightning Greaves",
+   "in_list": true
+  },
+  {
+   "id": "card:Swiftfoot Boots",
+   "kind": "card",
+   "name": "Swiftfoot Boots",
+   "in_list": true
+  },
+  {
+   "id": "card:Hall of the Bandit Lord",
+   "kind": "card",
+   "name": "Hall of the Bandit Lord",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas/bolas-08",
+   "kind": "interaction",
+   "interaction": "bolas-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:No Mercy",
+   "kind": "card",
+   "name": "No Mercy",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas/bolas-09",
+   "kind": "interaction",
+   "interaction": "bolas-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "bolas-01:m1",
+   "from": "commander:Nicol Bolas",
+   "to": "interaction:nicol-bolas/bolas-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-01",
+    "cr:603.2c",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "bolas-01:m2",
+   "from": "card:Command Beacon",
+   "to": "interaction:nicol-bolas/bolas-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-01",
+    "cr:603.2c",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "bolas-01:p1",
+   "from": "card:Command Beacon",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-01",
+    "cr:603.2c",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "bolas-02:m1",
+   "from": "commander:Nicol Bolas",
+   "to": "interaction:nicol-bolas/bolas-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "508.1m",
+    "510.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-02",
+    "cr:508.1m",
+    "cr:510.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-02:m2",
+   "from": "card:Ingris Stingerquill",
+   "to": "interaction:nicol-bolas/bolas-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "508.1m",
+    "510.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-02",
+    "cr:508.1m",
+    "cr:510.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-02:m3",
+   "from": "card:Kediss, Emberclaw Familiar",
+   "to": "interaction:nicol-bolas/bolas-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "508.1m",
+    "510.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-02",
+    "cr:508.1m",
+    "cr:510.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-02:m4",
+   "from": "card:Dragon Tempest",
+   "to": "interaction:nicol-bolas/bolas-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "508.1m",
+    "510.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-02",
+    "cr:508.1m",
+    "cr:510.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-02:m5",
+   "from": "card:Cavern of Souls",
+   "to": "interaction:nicol-bolas/bolas-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "508.1m",
+    "510.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-02",
+    "cr:508.1m",
+    "cr:510.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-02:p1",
+   "from": "card:Ingris Stingerquill",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "508.1m",
+    "510.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-02",
+    "cr:508.1m",
+    "cr:510.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-02:p2",
+   "from": "card:Kediss, Emberclaw Familiar",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "508.1m",
+    "510.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-02",
+    "cr:508.1m",
+    "cr:510.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-02:p3",
+   "from": "card:Dragon Tempest",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "508.1m",
+    "510.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-02",
+    "cr:508.1m",
+    "cr:510.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-02:p4",
+   "from": "card:Cavern of Souls",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "508.1m",
+    "510.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-02",
+    "cr:508.1m",
+    "cr:510.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-03:m1",
+   "from": "commander:Nicol Bolas",
+   "to": "interaction:nicol-bolas/bolas-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-03",
+    "cr:120.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-03:m2",
+   "from": "card:Chandra's Ignition",
+   "to": "interaction:nicol-bolas/bolas-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-03",
+    "cr:120.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-03:m3",
+   "from": "card:Pain for All",
+   "to": "interaction:nicol-bolas/bolas-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-03",
+    "cr:120.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-03:m4",
+   "from": "card:Quicksilver Dagger",
+   "to": "interaction:nicol-bolas/bolas-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-03",
+    "cr:120.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-03:m5",
+   "from": "card:Viridian Longbow",
+   "to": "interaction:nicol-bolas/bolas-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-03",
+    "cr:120.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-03:m6",
+   "from": "card:Curiosity",
+   "to": "interaction:nicol-bolas/bolas-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-03",
+    "cr:120.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-03:p1",
+   "from": "card:Chandra's Ignition",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-03",
+    "cr:120.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-03:p2",
+   "from": "card:Pain for All",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-03",
+    "cr:120.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-03:p3",
+   "from": "card:Quicksilver Dagger",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-03",
+    "cr:120.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-03:p4",
+   "from": "card:Viridian Longbow",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-03",
+    "cr:120.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-03:p5",
+   "from": "card:Curiosity",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.2",
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-03",
+    "cr:120.2",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "bolas-04:m1",
+   "from": "commander:Nicol Bolas",
+   "to": "interaction:nicol-bolas/bolas-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:m2",
+   "from": "card:Chandra's Ignition",
+   "to": "interaction:nicol-bolas/bolas-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:m3",
+   "from": "card:Ingris Stingerquill",
+   "to": "interaction:nicol-bolas/bolas-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:m4",
+   "from": "card:Kediss, Emberclaw Familiar",
+   "to": "interaction:nicol-bolas/bolas-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:m5",
+   "from": "card:Sangromancer",
+   "to": "interaction:nicol-bolas/bolas-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:m6",
+   "from": "card:Tinybones, Bauble Burglar",
+   "to": "interaction:nicol-bolas/bolas-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:m7",
+   "from": "card:Tinybones, Trinket Thief",
+   "to": "interaction:nicol-bolas/bolas-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:m8",
+   "from": "card:Notion Thief",
+   "to": "interaction:nicol-bolas/bolas-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:m9",
+   "from": "card:Hypnotic Specter",
+   "to": "interaction:nicol-bolas/bolas-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:p1",
+   "from": "card:Chandra's Ignition",
+   "to": "commander:Nicol Bolas",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:p2",
+   "from": "card:Ingris Stingerquill",
+   "to": "commander:Nicol Bolas",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:p3",
+   "from": "card:Kediss, Emberclaw Familiar",
+   "to": "commander:Nicol Bolas",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:p4",
+   "from": "card:Sangromancer",
+   "to": "commander:Nicol Bolas",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:p5",
+   "from": "card:Tinybones, Bauble Burglar",
+   "to": "commander:Nicol Bolas",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:p6",
+   "from": "card:Tinybones, Trinket Thief",
+   "to": "commander:Nicol Bolas",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:p7",
+   "from": "card:Notion Thief",
+   "to": "commander:Nicol Bolas",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-04:p8",
+   "from": "card:Hypnotic Specter",
+   "to": "commander:Nicol Bolas",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-04",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "bolas-05:m1",
+   "from": "commander:Nicol Bolas",
+   "to": "interaction:nicol-bolas/bolas-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "bolas-05:m2",
+   "from": "card:Sangromancer",
+   "to": "interaction:nicol-bolas/bolas-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "bolas-05:m3",
+   "from": "card:Waste Not",
+   "to": "interaction:nicol-bolas/bolas-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "bolas-05:m4",
+   "from": "card:Geth's Grimoire",
+   "to": "interaction:nicol-bolas/bolas-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "bolas-05:m5",
+   "from": "card:Raiders' Wake",
+   "to": "interaction:nicol-bolas/bolas-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "bolas-05:m6",
+   "from": "card:Tinybones, Bauble Burglar",
+   "to": "interaction:nicol-bolas/bolas-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "bolas-05:m7",
+   "from": "card:Tinybones, Trinket Thief",
+   "to": "interaction:nicol-bolas/bolas-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "bolas-05:p1",
+   "from": "card:Sangromancer",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "bolas-05:p2",
+   "from": "card:Waste Not",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "bolas-05:p3",
+   "from": "card:Geth's Grimoire",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "bolas-05:p4",
+   "from": "card:Raiders' Wake",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "bolas-05:p5",
+   "from": "card:Tinybones, Bauble Burglar",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "bolas-05:p6",
+   "from": "card:Tinybones, Trinket Thief",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "bolas-06:m1",
+   "from": "commander:Nicol Bolas",
+   "to": "interaction:nicol-bolas/bolas-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-06",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bolas-06:m2",
+   "from": "card:Tinybones, Bauble Burglar",
+   "to": "interaction:nicol-bolas/bolas-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-06",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bolas-06:m3",
+   "from": "card:Tergrid, God of Fright // Tergrid's Lantern",
+   "to": "interaction:nicol-bolas/bolas-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-06",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bolas-06:p1",
+   "from": "card:Tinybones, Bauble Burglar",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-06",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bolas-06:p2",
+   "from": "card:Tergrid, God of Fright // Tergrid's Lantern",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-06",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "bolas-07:m1",
+   "from": "commander:Nicol Bolas",
+   "to": "combo:nicol-bolas/bolas-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "506.1",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-07",
+    "cr:506.1",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:900-3750"
+   ]
+  },
+  {
+   "id": "bolas-07:m2",
+   "from": "card:Sword of Feast and Famine",
+   "to": "combo:nicol-bolas/bolas-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "506.1",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-07",
+    "cr:506.1",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:900-3750"
+   ]
+  },
+  {
+   "id": "bolas-07:m3",
+   "from": "card:Aggravated Assault",
+   "to": "combo:nicol-bolas/bolas-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "506.1",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-07",
+    "cr:506.1",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:900-3750"
+   ]
+  },
+  {
+   "id": "bolas-07:p1",
+   "from": "card:Sword of Feast and Famine",
+   "to": "commander:Nicol Bolas",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "506.1",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-07",
+    "cr:506.1",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:900-3750"
+   ]
+  },
+  {
+   "id": "bolas-07:p2",
+   "from": "card:Aggravated Assault",
+   "to": "commander:Nicol Bolas",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "506.1",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-07",
+    "cr:506.1",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:900-3750"
+   ]
+  },
+  {
+   "id": "bolas-08:m1",
+   "from": "commander:Nicol Bolas",
+   "to": "interaction:nicol-bolas/bolas-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-08",
+    "cr:702.10"
+   ]
+  },
+  {
+   "id": "bolas-08:m2",
+   "from": "card:Arena of Glory",
+   "to": "interaction:nicol-bolas/bolas-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-08",
+    "cr:702.10"
+   ]
+  },
+  {
+   "id": "bolas-08:m3",
+   "from": "card:Dragon Tempest",
+   "to": "interaction:nicol-bolas/bolas-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-08",
+    "cr:702.10"
+   ]
+  },
+  {
+   "id": "bolas-08:m4",
+   "from": "card:Lightning Greaves",
+   "to": "interaction:nicol-bolas/bolas-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-08",
+    "cr:702.10"
+   ]
+  },
+  {
+   "id": "bolas-08:m5",
+   "from": "card:Swiftfoot Boots",
+   "to": "interaction:nicol-bolas/bolas-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-08",
+    "cr:702.10"
+   ]
+  },
+  {
+   "id": "bolas-08:m6",
+   "from": "card:Hall of the Bandit Lord",
+   "to": "interaction:nicol-bolas/bolas-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-08",
+    "cr:702.10"
+   ]
+  },
+  {
+   "id": "bolas-08:p1",
+   "from": "card:Arena of Glory",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-08",
+    "cr:702.10"
+   ]
+  },
+  {
+   "id": "bolas-08:p2",
+   "from": "card:Dragon Tempest",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-08",
+    "cr:702.10"
+   ]
+  },
+  {
+   "id": "bolas-08:p3",
+   "from": "card:Lightning Greaves",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-08",
+    "cr:702.10"
+   ]
+  },
+  {
+   "id": "bolas-08:p4",
+   "from": "card:Swiftfoot Boots",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-08",
+    "cr:702.10"
+   ]
+  },
+  {
+   "id": "bolas-08:p5",
+   "from": "card:Hall of the Bandit Lord",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-08",
+    "cr:702.10"
+   ]
+  },
+  {
+   "id": "bolas-09:m1",
+   "from": "commander:Nicol Bolas",
+   "to": "interaction:nicol-bolas/bolas-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-09"
+   ]
+  },
+  {
+   "id": "bolas-09:m2",
+   "from": "card:No Mercy",
+   "to": "interaction:nicol-bolas/bolas-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolas-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-09"
+   ]
+  },
+  {
+   "id": "bolas-09:p1",
+   "from": "card:No Mercy",
+   "to": "commander:Nicol Bolas",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolas-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas.json#bolas-09"
+   ]
+  }
+ ]
+}

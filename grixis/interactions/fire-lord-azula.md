@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/fire-lord-azula.txt`](../../exports/grixis-archidekt/fire-lord-azula.txt) · SHA-256 `e52f1cbbf1b17f3e3cef0ef9d466e93bdf5e85bc4d32ac5f2856b4bd2b36fda4` |
-| Rulings | **11** (11 verified · 0 uncertain · 0 flags) |
+| Rulings | **12** (12 verified · 0 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Fire_Lord_Azula_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json) (15 interactions, all PASS (Samut and Final Fortune items refer to cards not in the current list)) |
 
@@ -167,6 +167,21 @@ Rules surprise: copying a sorcery (Beseech the Mirror, Wheel, Jeska's Will) with
 - Scryfall ruling, *Fire Lord Azula*: “Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.”
 - [CR 506.1](#cr-5061), [CR 307.1](#cr-3071), [CR 508.1](#cr-5081)
 
+### azula-12: Samut's split second doesn't stop Azula's copy
+
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Fire Lord Azula, Samut, Tyrant of Naktamun
+
+**Ruling.** With Samut out, your instants and sorceries have split second. If you cast one while Azula is attacking, Azula's ability still triggers and goes on the stack: split second doesn't stop triggered abilities. The copy is put on the stack by the ability, not cast, so split second doesn't prevent it either. The copy is an instant or sorcery spell you control, so it has split second from Samut too. The flip side: while either is on the stack, nobody, you included, can cast spells or activate abilities other than mana abilities.
+
+**Citations**
+
+- Oracle, *Samut, Tyrant of Naktamun*: “Instant and sorcery spells you control have split second.”
+- Oracle, *Fire Lord Azula*: “Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell.”
+- Scryfall ruling, *Samut, Tyrant of Naktamun*: “Split second doesn't stop triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.”
+- Scryfall ruling, *Fire Lord Azula*: “The copy is created on the stack, so it's not "cast."”
+- [CR 702.61a](#cr-70261a), [CR 702.61b](#cr-70261b), [CR 707.10](#cr-70710)
+- Source (re-verified): [`Fire_Lord_Azula_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json) → “Samut split second with Azula trigger”
+
 ## Zones, commander tax and the command zone
 
 ### azula-10: Copied permanent spells become tokens, but aren't 'created'
@@ -238,6 +253,14 @@ If a creature has haste, it can attack even if it hasn’t been controlled by it
 #### CR 702.40a
 
 Storm is a triggered ability that functions on the stack. “Storm” means “When you cast this spell, copy it for each other spell that was cast before it this turn. If the spell has any targets, you may choose new targets for any of the copies.”
+
+#### CR 702.61a
+
+Split second is a static ability that functions only while the spell with split second is on the stack. “Split second” means “As long as this spell is on the stack, players can’t cast other spells or activate abilities that aren’t mana abilities.”
+
+#### CR 702.61b
+
+Players may activate mana abilities and take special actions while a spell with split second is on the stack. Triggered abilities trigger and are put on the stack as normal while a spell with split second is on the stack.
 
 #### CR 702.138a
 

@@ -1,0 +1,1375 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Edward_Kenway",
+ "slug": "edward-kenway",
+ "deck_sha256": "1e8b8ea5e52e2ea499f07f0d72cbc4305b81cfbf370a163d1378dacc01690b9b",
+ "review": "data/grixis_interactions/edward-kenway.json",
+ "review_sha256": "14fe8f93f6f2becf3c3b6efee558123d44d27a98b7c2449524a50005114661aa",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 11,
+  "nodes": 24,
+  "membership_edges": 30,
+  "pair_edges": 19
+ },
+ "nodes": [
+  {
+   "id": "commander:Edward Kenway",
+   "kind": "commander",
+   "name": "Edward Kenway",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edward-kenway/edward-01",
+   "kind": "interaction",
+   "interaction": "edward-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Ramirez DePietro, Pillager",
+   "kind": "card",
+   "name": "Ramirez DePietro, Pillager",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edward-kenway/edward-02",
+   "kind": "interaction",
+   "interaction": "edward-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Time Sieve",
+   "kind": "card",
+   "name": "Time Sieve",
+   "in_list": true
+  },
+  {
+   "id": "combo:edward-kenway/edward-03",
+   "kind": "combo",
+   "interaction": "edward-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1558-5736",
+    "1558-5736"
+   ]
+  },
+  {
+   "id": "card:Luxurious Locomotive",
+   "kind": "card",
+   "name": "Luxurious Locomotive",
+   "in_list": true
+  },
+  {
+   "id": "combo:edward-kenway/edward-04",
+   "kind": "combo",
+   "interaction": "edward-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1558-6307"
+   ]
+  },
+  {
+   "id": "card:The Reaver Cleaver",
+   "kind": "card",
+   "name": "The Reaver Cleaver",
+   "in_list": true
+  },
+  {
+   "id": "card:Hoard Hauler",
+   "kind": "card",
+   "name": "Hoard Hauler",
+   "in_list": true
+  },
+  {
+   "id": "combo:edward-kenway/edward-05",
+   "kind": "combo",
+   "interaction": "edward-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1558-5039",
+    "451-1558"
+   ]
+  },
+  {
+   "id": "card:Malcolm, Keen-Eyed Navigator",
+   "kind": "card",
+   "name": "Malcolm, Keen-Eyed Navigator",
+   "in_list": true
+  },
+  {
+   "id": "card:Glint-Horn Buccaneer",
+   "kind": "card",
+   "name": "Glint-Horn Buccaneer",
+   "in_list": true
+  },
+  {
+   "id": "combo:edward-kenway/edward-06",
+   "kind": "combo",
+   "interaction": "edward-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "4508-4869",
+    "4508-4869"
+   ]
+  },
+  {
+   "id": "card:Academy Manufactor",
+   "kind": "card",
+   "name": "Academy Manufactor",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edward-kenway/edward-07",
+   "kind": "interaction",
+   "interaction": "edward-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1558-4231-4508"
+   ]
+  },
+  {
+   "id": "card:Fateful Discovery",
+   "kind": "card",
+   "name": "Fateful Discovery",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edward-kenway/edward-08",
+   "kind": "interaction",
+   "interaction": "edward-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:RMS Titanic",
+   "kind": "card",
+   "name": "RMS Titanic",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edward-kenway/edward-09",
+   "kind": "interaction",
+   "interaction": "edward-09",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Roaming Throne",
+   "kind": "card",
+   "name": "Roaming Throne",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edward-kenway/edward-10",
+   "kind": "interaction",
+   "interaction": "edward-10",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Don Andres, the Renegade",
+   "kind": "card",
+   "name": "Don Andres, the Renegade",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edward-kenway/edward-11",
+   "kind": "interaction",
+   "interaction": "edward-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "edward-01:m1",
+   "from": "commander:Edward Kenway",
+   "to": "interaction:edward-kenway/edward-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2h",
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-01",
+    "cr:608.2h",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "edward-02:m1",
+   "from": "commander:Edward Kenway",
+   "to": "interaction:edward-kenway/edward-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "305.2",
+    "305.3",
+    "406.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-02",
+    "cr:305.2",
+    "cr:305.3",
+    "cr:406.3"
+   ]
+  },
+  {
+   "id": "edward-02:m2",
+   "from": "card:Ramirez DePietro, Pillager",
+   "to": "interaction:edward-kenway/edward-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "305.2",
+    "305.3",
+    "406.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-02",
+    "cr:305.2",
+    "cr:305.3",
+    "cr:406.3"
+   ]
+  },
+  {
+   "id": "edward-02:p1",
+   "from": "card:Ramirez DePietro, Pillager",
+   "to": "commander:Edward Kenway",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "305.2",
+    "305.3",
+    "406.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-02",
+    "cr:305.2",
+    "cr:305.3",
+    "cr:406.3"
+   ]
+  },
+  {
+   "id": "edward-03:m1",
+   "from": "commander:Edward Kenway",
+   "to": "combo:edward-kenway/edward-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7",
+    "602.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-03",
+    "cr:500.7",
+    "cr:602.2",
+    "spellbook:1558-5736",
+    "spellbook:1558-5736"
+   ]
+  },
+  {
+   "id": "edward-03:m2",
+   "from": "card:Time Sieve",
+   "to": "combo:edward-kenway/edward-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7",
+    "602.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-03",
+    "cr:500.7",
+    "cr:602.2",
+    "spellbook:1558-5736",
+    "spellbook:1558-5736"
+   ]
+  },
+  {
+   "id": "edward-03:p1",
+   "from": "card:Time Sieve",
+   "to": "commander:Edward Kenway",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.7",
+    "602.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-03",
+    "cr:500.7",
+    "cr:602.2",
+    "spellbook:1558-5736",
+    "spellbook:1558-5736"
+   ]
+  },
+  {
+   "id": "edward-04:m1",
+   "from": "commander:Edward Kenway",
+   "to": "combo:edward-kenway/edward-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.122a",
+    "702.122c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-04",
+    "cr:702.122a",
+    "cr:702.122c",
+    "spellbook:1558-6307"
+   ]
+  },
+  {
+   "id": "edward-04:m2",
+   "from": "card:Luxurious Locomotive",
+   "to": "combo:edward-kenway/edward-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.122a",
+    "702.122c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-04",
+    "cr:702.122a",
+    "cr:702.122c",
+    "spellbook:1558-6307"
+   ]
+  },
+  {
+   "id": "edward-04:m3",
+   "from": "card:Time Sieve",
+   "to": "combo:edward-kenway/edward-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.122a",
+    "702.122c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-04",
+    "cr:702.122a",
+    "cr:702.122c",
+    "spellbook:1558-6307"
+   ]
+  },
+  {
+   "id": "edward-04:p1",
+   "from": "card:Luxurious Locomotive",
+   "to": "commander:Edward Kenway",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.122a",
+    "702.122c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-04",
+    "cr:702.122a",
+    "cr:702.122c",
+    "spellbook:1558-6307"
+   ]
+  },
+  {
+   "id": "edward-04:p2",
+   "from": "card:Time Sieve",
+   "to": "commander:Edward Kenway",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.122a",
+    "702.122c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-04",
+    "cr:702.122a",
+    "cr:702.122c",
+    "spellbook:1558-6307"
+   ]
+  },
+  {
+   "id": "edward-05:m1",
+   "from": "commander:Edward Kenway",
+   "to": "combo:edward-kenway/edward-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.2",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-05",
+    "cr:510.2",
+    "cr:702.19b",
+    "spellbook:1558-5039",
+    "spellbook:451-1558"
+   ]
+  },
+  {
+   "id": "edward-05:m2",
+   "from": "card:The Reaver Cleaver",
+   "to": "combo:edward-kenway/edward-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.2",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-05",
+    "cr:510.2",
+    "cr:702.19b",
+    "spellbook:1558-5039",
+    "spellbook:451-1558"
+   ]
+  },
+  {
+   "id": "edward-05:m3",
+   "from": "card:Hoard Hauler",
+   "to": "combo:edward-kenway/edward-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.2",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-05",
+    "cr:510.2",
+    "cr:702.19b",
+    "spellbook:1558-5039",
+    "spellbook:451-1558"
+   ]
+  },
+  {
+   "id": "edward-05:m4",
+   "from": "card:Time Sieve",
+   "to": "combo:edward-kenway/edward-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.2",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-05",
+    "cr:510.2",
+    "cr:702.19b",
+    "spellbook:1558-5039",
+    "spellbook:451-1558"
+   ]
+  },
+  {
+   "id": "edward-05:p1",
+   "from": "card:The Reaver Cleaver",
+   "to": "commander:Edward Kenway",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "510.2",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-05",
+    "cr:510.2",
+    "cr:702.19b",
+    "spellbook:1558-5039",
+    "spellbook:451-1558"
+   ]
+  },
+  {
+   "id": "edward-05:p2",
+   "from": "card:Hoard Hauler",
+   "to": "commander:Edward Kenway",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "510.2",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-05",
+    "cr:510.2",
+    "cr:702.19b",
+    "spellbook:1558-5039",
+    "spellbook:451-1558"
+   ]
+  },
+  {
+   "id": "edward-05:p3",
+   "from": "card:Time Sieve",
+   "to": "commander:Edward Kenway",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "510.2",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-05",
+    "cr:510.2",
+    "cr:702.19b",
+    "spellbook:1558-5039",
+    "spellbook:451-1558"
+   ]
+  },
+  {
+   "id": "edward-06:m1",
+   "from": "commander:Edward Kenway",
+   "to": "combo:edward-kenway/edward-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-06",
+    "cr:120.3",
+    "cr:603.2",
+    "spellbook:4508-4869",
+    "spellbook:4508-4869"
+   ]
+  },
+  {
+   "id": "edward-06:m2",
+   "from": "card:Malcolm, Keen-Eyed Navigator",
+   "to": "combo:edward-kenway/edward-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-06",
+    "cr:120.3",
+    "cr:603.2",
+    "spellbook:4508-4869",
+    "spellbook:4508-4869"
+   ]
+  },
+  {
+   "id": "edward-06:m3",
+   "from": "card:Glint-Horn Buccaneer",
+   "to": "combo:edward-kenway/edward-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-06",
+    "cr:120.3",
+    "cr:603.2",
+    "spellbook:4508-4869",
+    "spellbook:4508-4869"
+   ]
+  },
+  {
+   "id": "edward-06:p1",
+   "from": "card:Malcolm, Keen-Eyed Navigator",
+   "to": "commander:Edward Kenway",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-06",
+    "cr:120.3",
+    "cr:603.2",
+    "spellbook:4508-4869",
+    "spellbook:4508-4869"
+   ]
+  },
+  {
+   "id": "edward-06:p2",
+   "from": "card:Glint-Horn Buccaneer",
+   "to": "commander:Edward Kenway",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-06",
+    "cr:120.3",
+    "cr:603.2",
+    "spellbook:4508-4869",
+    "spellbook:4508-4869"
+   ]
+  },
+  {
+   "id": "edward-07:m1",
+   "from": "commander:Edward Kenway",
+   "to": "interaction:edward-kenway/edward-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "111.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-07",
+    "cr:614.1a",
+    "cr:111.10",
+    "spellbook:1558-4231-4508"
+   ]
+  },
+  {
+   "id": "edward-07:m2",
+   "from": "card:Academy Manufactor",
+   "to": "interaction:edward-kenway/edward-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "111.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-07",
+    "cr:614.1a",
+    "cr:111.10",
+    "spellbook:1558-4231-4508"
+   ]
+  },
+  {
+   "id": "edward-07:m3",
+   "from": "card:Malcolm, Keen-Eyed Navigator",
+   "to": "interaction:edward-kenway/edward-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "111.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-07",
+    "cr:614.1a",
+    "cr:111.10",
+    "spellbook:1558-4231-4508"
+   ]
+  },
+  {
+   "id": "edward-07:m4",
+   "from": "card:Time Sieve",
+   "to": "interaction:edward-kenway/edward-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "111.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-07",
+    "cr:614.1a",
+    "cr:111.10",
+    "spellbook:1558-4231-4508"
+   ]
+  },
+  {
+   "id": "edward-07:p1",
+   "from": "card:Academy Manufactor",
+   "to": "commander:Edward Kenway",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "111.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-07",
+    "cr:614.1a",
+    "cr:111.10",
+    "spellbook:1558-4231-4508"
+   ]
+  },
+  {
+   "id": "edward-07:p2",
+   "from": "card:Malcolm, Keen-Eyed Navigator",
+   "to": "commander:Edward Kenway",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "111.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-07",
+    "cr:614.1a",
+    "cr:111.10",
+    "spellbook:1558-4231-4508"
+   ]
+  },
+  {
+   "id": "edward-07:p3",
+   "from": "card:Time Sieve",
+   "to": "commander:Edward Kenway",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "111.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-07",
+    "cr:614.1a",
+    "cr:111.10",
+    "spellbook:1558-4231-4508"
+   ]
+  },
+  {
+   "id": "edward-08:m1",
+   "from": "commander:Edward Kenway",
+   "to": "interaction:edward-kenway/edward-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "704.5b",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-08",
+    "cr:704.5b",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "edward-08:m2",
+   "from": "card:Fateful Discovery",
+   "to": "interaction:edward-kenway/edward-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "704.5b",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-08",
+    "cr:704.5b",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "edward-08:m3",
+   "from": "card:Academy Manufactor",
+   "to": "interaction:edward-kenway/edward-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "704.5b",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-08",
+    "cr:704.5b",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "edward-08:m4",
+   "from": "card:Time Sieve",
+   "to": "interaction:edward-kenway/edward-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "704.5b",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-08",
+    "cr:704.5b",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "edward-08:p1",
+   "from": "card:Fateful Discovery",
+   "to": "commander:Edward Kenway",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5b",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-08",
+    "cr:704.5b",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "edward-08:p2",
+   "from": "card:Academy Manufactor",
+   "to": "commander:Edward Kenway",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5b",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-08",
+    "cr:704.5b",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "edward-08:p3",
+   "from": "card:Time Sieve",
+   "to": "commander:Edward Kenway",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5b",
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-08",
+    "cr:704.5b",
+    "cr:121.4"
+   ]
+  },
+  {
+   "id": "edward-09:m1",
+   "from": "commander:Edward Kenway",
+   "to": "interaction:edward-kenway/edward-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-09",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-09",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "edward-09:m2",
+   "from": "card:RMS Titanic",
+   "to": "interaction:edward-kenway/edward-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-09",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-09",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "edward-09:p1",
+   "from": "card:RMS Titanic",
+   "to": "commander:Edward Kenway",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-09",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-09",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "edward-10:m1",
+   "from": "commander:Edward Kenway",
+   "to": "interaction:edward-kenway/edward-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-10",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-10",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "edward-10:m2",
+   "from": "card:Roaming Throne",
+   "to": "interaction:edward-kenway/edward-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-10",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-10",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "edward-10:p1",
+   "from": "card:Roaming Throne",
+   "to": "commander:Edward Kenway",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-10",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-10",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "edward-11:m1",
+   "from": "commander:Edward Kenway",
+   "to": "interaction:edward-kenway/edward-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-11",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "edward-11:m2",
+   "from": "card:Ramirez DePietro, Pillager",
+   "to": "interaction:edward-kenway/edward-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-11",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "edward-11:m3",
+   "from": "card:Don Andres, the Renegade",
+   "to": "interaction:edward-kenway/edward-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edward-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-11",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "edward-11:p1",
+   "from": "card:Ramirez DePietro, Pillager",
+   "to": "commander:Edward Kenway",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-11",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "edward-11:p2",
+   "from": "card:Don Andres, the Renegade",
+   "to": "commander:Edward Kenway",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edward-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edward-kenway.json#edward-11",
+    "cr:108.3"
+   ]
+  }
+ ]
+}

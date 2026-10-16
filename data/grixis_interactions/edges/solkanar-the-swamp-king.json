@@ -1,0 +1,2021 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Sol_kanar_the_Swamp_King",
+ "slug": "solkanar-the-swamp-king",
+ "deck_sha256": "bf475d9c7048874d439972282b85de5684e0fde03095a2257e9249cdb7661ccd",
+ "review": "data/grixis_interactions/solkanar-the-swamp-king.json",
+ "review_sha256": "b51264ae8001bf709ebde46c4c3990d5b38093f24eda21926dbb3fcca87c9fd6",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 6,
+  "nodes": 36,
+  "membership_edges": 40,
+  "pair_edges": 34
+ },
+ "nodes": [
+  {
+   "id": "commander:Sol'kanar the Swamp King",
+   "kind": "commander",
+   "name": "Sol'kanar the Swamp King",
+   "in_list": true
+  },
+  {
+   "id": "card:Demon's Horn",
+   "kind": "card",
+   "name": "Demon's Horn",
+   "in_list": true
+  },
+  {
+   "id": "card:The Soul Stone",
+   "kind": "card",
+   "name": "The Soul Stone",
+   "in_list": true
+  },
+  {
+   "id": "card:Withering Torment",
+   "kind": "card",
+   "name": "Withering Torment",
+   "in_list": true
+  },
+  {
+   "id": "card:Fell the Profane // Fell Mire",
+   "kind": "card",
+   "name": "Fell the Profane // Fell Mire",
+   "in_list": true
+  },
+  {
+   "id": "interaction:solkanar-the-swamp-king/solkanar-01",
+   "kind": "interaction",
+   "interaction": "solkanar-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Painter's Servant",
+   "kind": "card",
+   "name": "Painter's Servant",
+   "in_list": true
+  },
+  {
+   "id": "card:Grindstone",
+   "kind": "card",
+   "name": "Grindstone",
+   "in_list": true
+  },
+  {
+   "id": "card:Sensei's Divining Top",
+   "kind": "card",
+   "name": "Sensei's Divining Top",
+   "in_list": true
+  },
+  {
+   "id": "interaction:solkanar-the-swamp-king/solkanar-02",
+   "kind": "interaction",
+   "interaction": "solkanar-02",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1078-2302"
+   ]
+  },
+  {
+   "id": "card:Exquisite Blood",
+   "kind": "card",
+   "name": "Exquisite Blood",
+   "in_list": true
+  },
+  {
+   "id": "card:Bloodthirsty Conqueror",
+   "kind": "card",
+   "name": "Bloodthirsty Conqueror",
+   "in_list": true
+  },
+  {
+   "id": "card:Vito, Thorn of the Dusk Rose",
+   "kind": "card",
+   "name": "Vito, Thorn of the Dusk Rose",
+   "in_list": true
+  },
+  {
+   "id": "card:Starscape Cleric",
+   "kind": "card",
+   "name": "Starscape Cleric",
+   "in_list": true
+  },
+  {
+   "id": "card:Marauding Blight-Priest",
+   "kind": "card",
+   "name": "Marauding Blight-Priest",
+   "in_list": true
+  },
+  {
+   "id": "card:Enduring Tenacity",
+   "kind": "card",
+   "name": "Enduring Tenacity",
+   "in_list": true
+  },
+  {
+   "id": "card:Aetherflux Reservoir",
+   "kind": "card",
+   "name": "Aetherflux Reservoir",
+   "in_list": true
+  },
+  {
+   "id": "combo:solkanar-the-swamp-king/solkanar-03",
+   "kind": "combo",
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "314-3966",
+    "5867-6191"
+   ]
+  },
+  {
+   "id": "card:Bolas's Citadel",
+   "kind": "card",
+   "name": "Bolas's Citadel",
+   "in_list": true
+  },
+  {
+   "id": "card:Sheoldred, the Apocalypse",
+   "kind": "card",
+   "name": "Sheoldred, the Apocalypse",
+   "in_list": true
+  },
+  {
+   "id": "card:K'rrik, Son of Yawgmoth",
+   "kind": "card",
+   "name": "K'rrik, Son of Yawgmoth",
+   "in_list": true
+  },
+  {
+   "id": "combo:solkanar-the-swamp-king/solkanar-04",
+   "kind": "combo",
+   "interaction": "solkanar-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "2173-2498-5078",
+    "2173-4740-5078"
+   ]
+  },
+  {
+   "id": "card:Blanket of Night",
+   "kind": "card",
+   "name": "Blanket of Night",
+   "in_list": true
+  },
+  {
+   "id": "card:Urborg, Tomb of Yawgmoth",
+   "kind": "card",
+   "name": "Urborg, Tomb of Yawgmoth",
+   "in_list": true
+  },
+  {
+   "id": "card:Cabal Coffers",
+   "kind": "card",
+   "name": "Cabal Coffers",
+   "in_list": true
+  },
+  {
+   "id": "card:Crypt Ghast",
+   "kind": "card",
+   "name": "Crypt Ghast",
+   "in_list": true
+  },
+  {
+   "id": "card:Consuming Corruption",
+   "kind": "card",
+   "name": "Consuming Corruption",
+   "in_list": true
+  },
+  {
+   "id": "card:Raucous Theater",
+   "kind": "card",
+   "name": "Raucous Theater",
+   "in_list": true
+  },
+  {
+   "id": "card:Undercity Sewers",
+   "kind": "card",
+   "name": "Undercity Sewers",
+   "in_list": true
+  },
+  {
+   "id": "card:Dread Presence",
+   "kind": "card",
+   "name": "Dread Presence",
+   "in_list": true
+  },
+  {
+   "id": "interaction:solkanar-the-swamp-king/solkanar-05",
+   "kind": "interaction",
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Bontu's Monument",
+   "kind": "card",
+   "name": "Bontu's Monument",
+   "in_list": true
+  },
+  {
+   "id": "card:Wheel of Fortune",
+   "kind": "card",
+   "name": "Wheel of Fortune",
+   "in_list": true
+  },
+  {
+   "id": "card:Windfall",
+   "kind": "card",
+   "name": "Windfall",
+   "in_list": true
+  },
+  {
+   "id": "card:Underworld Dreams",
+   "kind": "card",
+   "name": "Underworld Dreams",
+   "in_list": true
+  },
+  {
+   "id": "interaction:solkanar-the-swamp-king/solkanar-06",
+   "kind": "interaction",
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "solkanar-01:m1",
+   "from": "commander:Sol'kanar the Swamp King",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "105.2",
+    "113.7a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-01",
+    "cr:105.2",
+    "cr:113.7a",
+    "cr:712.12"
+   ]
+  },
+  {
+   "id": "solkanar-01:m2",
+   "from": "card:Demon's Horn",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "105.2",
+    "113.7a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-01",
+    "cr:105.2",
+    "cr:113.7a",
+    "cr:712.12"
+   ]
+  },
+  {
+   "id": "solkanar-01:m3",
+   "from": "card:The Soul Stone",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "105.2",
+    "113.7a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-01",
+    "cr:105.2",
+    "cr:113.7a",
+    "cr:712.12"
+   ]
+  },
+  {
+   "id": "solkanar-01:m4",
+   "from": "card:Withering Torment",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "105.2",
+    "113.7a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-01",
+    "cr:105.2",
+    "cr:113.7a",
+    "cr:712.12"
+   ]
+  },
+  {
+   "id": "solkanar-01:m5",
+   "from": "card:Fell the Profane // Fell Mire",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "105.2",
+    "113.7a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-01",
+    "cr:105.2",
+    "cr:113.7a",
+    "cr:712.12"
+   ]
+  },
+  {
+   "id": "solkanar-01:p1",
+   "from": "card:Demon's Horn",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "105.2",
+    "113.7a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-01",
+    "cr:105.2",
+    "cr:113.7a",
+    "cr:712.12"
+   ]
+  },
+  {
+   "id": "solkanar-01:p2",
+   "from": "card:The Soul Stone",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "105.2",
+    "113.7a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-01",
+    "cr:105.2",
+    "cr:113.7a",
+    "cr:712.12"
+   ]
+  },
+  {
+   "id": "solkanar-01:p3",
+   "from": "card:Withering Torment",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "105.2",
+    "113.7a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-01",
+    "cr:105.2",
+    "cr:113.7a",
+    "cr:712.12"
+   ]
+  },
+  {
+   "id": "solkanar-01:p4",
+   "from": "card:Fell the Profane // Fell Mire",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "105.2",
+    "113.7a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-01",
+    "cr:105.2",
+    "cr:113.7a",
+    "cr:712.12"
+   ]
+  },
+  {
+   "id": "solkanar-02:m1",
+   "from": "commander:Sol'kanar the Swamp King",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-02",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1e",
+    "105.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-02",
+    "cr:613.1e",
+    "cr:105.3",
+    "spellbook:1078-2302"
+   ]
+  },
+  {
+   "id": "solkanar-02:m2",
+   "from": "card:Painter's Servant",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-02",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1e",
+    "105.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-02",
+    "cr:613.1e",
+    "cr:105.3",
+    "spellbook:1078-2302"
+   ]
+  },
+  {
+   "id": "solkanar-02:m3",
+   "from": "card:Grindstone",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-02",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1e",
+    "105.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-02",
+    "cr:613.1e",
+    "cr:105.3",
+    "spellbook:1078-2302"
+   ]
+  },
+  {
+   "id": "solkanar-02:m4",
+   "from": "card:Demon's Horn",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-02",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1e",
+    "105.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-02",
+    "cr:613.1e",
+    "cr:105.3",
+    "spellbook:1078-2302"
+   ]
+  },
+  {
+   "id": "solkanar-02:m5",
+   "from": "card:Sensei's Divining Top",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-02",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1e",
+    "105.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-02",
+    "cr:613.1e",
+    "cr:105.3",
+    "spellbook:1078-2302"
+   ]
+  },
+  {
+   "id": "solkanar-02:p1",
+   "from": "card:Painter's Servant",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-02",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1e",
+    "105.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-02",
+    "cr:613.1e",
+    "cr:105.3",
+    "spellbook:1078-2302"
+   ]
+  },
+  {
+   "id": "solkanar-02:p2",
+   "from": "card:Grindstone",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-02",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1e",
+    "105.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-02",
+    "cr:613.1e",
+    "cr:105.3",
+    "spellbook:1078-2302"
+   ]
+  },
+  {
+   "id": "solkanar-02:p3",
+   "from": "card:Demon's Horn",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-02",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1e",
+    "105.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-02",
+    "cr:613.1e",
+    "cr:105.3",
+    "spellbook:1078-2302"
+   ]
+  },
+  {
+   "id": "solkanar-02:p4",
+   "from": "card:Sensei's Divining Top",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-02",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1e",
+    "105.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-02",
+    "cr:613.1e",
+    "cr:105.3",
+    "spellbook:1078-2302"
+   ]
+  },
+  {
+   "id": "solkanar-03:m1",
+   "from": "commander:Sol'kanar the Swamp King",
+   "to": "combo:solkanar-the-swamp-king/solkanar-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:m2",
+   "from": "card:Exquisite Blood",
+   "to": "combo:solkanar-the-swamp-king/solkanar-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:m3",
+   "from": "card:Bloodthirsty Conqueror",
+   "to": "combo:solkanar-the-swamp-king/solkanar-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:m4",
+   "from": "card:Vito, Thorn of the Dusk Rose",
+   "to": "combo:solkanar-the-swamp-king/solkanar-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:m5",
+   "from": "card:Starscape Cleric",
+   "to": "combo:solkanar-the-swamp-king/solkanar-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:m6",
+   "from": "card:Marauding Blight-Priest",
+   "to": "combo:solkanar-the-swamp-king/solkanar-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:m7",
+   "from": "card:Enduring Tenacity",
+   "to": "combo:solkanar-the-swamp-king/solkanar-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:m8",
+   "from": "card:Aetherflux Reservoir",
+   "to": "combo:solkanar-the-swamp-king/solkanar-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:p1",
+   "from": "card:Exquisite Blood",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:p2",
+   "from": "card:Bloodthirsty Conqueror",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:p3",
+   "from": "card:Vito, Thorn of the Dusk Rose",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:p4",
+   "from": "card:Starscape Cleric",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:p5",
+   "from": "card:Marauding Blight-Priest",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:p6",
+   "from": "card:Enduring Tenacity",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-03:p7",
+   "from": "card:Aetherflux Reservoir",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-03",
+    "cr:119.3",
+    "cr:603.2",
+    "spellbook:314-3966",
+    "spellbook:5867-6191"
+   ]
+  },
+  {
+   "id": "solkanar-04:m1",
+   "from": "commander:Sol'kanar the Swamp King",
+   "to": "combo:solkanar-the-swamp-king/solkanar-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-04",
+    "cr:601.2f",
+    "cr:118.9",
+    "spellbook:2173-2498-5078",
+    "spellbook:2173-4740-5078"
+   ]
+  },
+  {
+   "id": "solkanar-04:m2",
+   "from": "card:Sensei's Divining Top",
+   "to": "combo:solkanar-the-swamp-king/solkanar-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-04",
+    "cr:601.2f",
+    "cr:118.9",
+    "spellbook:2173-2498-5078",
+    "spellbook:2173-4740-5078"
+   ]
+  },
+  {
+   "id": "solkanar-04:m3",
+   "from": "card:Bolas's Citadel",
+   "to": "combo:solkanar-the-swamp-king/solkanar-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-04",
+    "cr:601.2f",
+    "cr:118.9",
+    "spellbook:2173-2498-5078",
+    "spellbook:2173-4740-5078"
+   ]
+  },
+  {
+   "id": "solkanar-04:m4",
+   "from": "card:Sheoldred, the Apocalypse",
+   "to": "combo:solkanar-the-swamp-king/solkanar-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-04",
+    "cr:601.2f",
+    "cr:118.9",
+    "spellbook:2173-2498-5078",
+    "spellbook:2173-4740-5078"
+   ]
+  },
+  {
+   "id": "solkanar-04:m5",
+   "from": "card:Aetherflux Reservoir",
+   "to": "combo:solkanar-the-swamp-king/solkanar-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-04",
+    "cr:601.2f",
+    "cr:118.9",
+    "spellbook:2173-2498-5078",
+    "spellbook:2173-4740-5078"
+   ]
+  },
+  {
+   "id": "solkanar-04:m6",
+   "from": "card:K'rrik, Son of Yawgmoth",
+   "to": "combo:solkanar-the-swamp-king/solkanar-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-04",
+    "cr:601.2f",
+    "cr:118.9",
+    "spellbook:2173-2498-5078",
+    "spellbook:2173-4740-5078"
+   ]
+  },
+  {
+   "id": "solkanar-04:p1",
+   "from": "card:Sensei's Divining Top",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-04",
+    "cr:601.2f",
+    "cr:118.9",
+    "spellbook:2173-2498-5078",
+    "spellbook:2173-4740-5078"
+   ]
+  },
+  {
+   "id": "solkanar-04:p2",
+   "from": "card:Bolas's Citadel",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-04",
+    "cr:601.2f",
+    "cr:118.9",
+    "spellbook:2173-2498-5078",
+    "spellbook:2173-4740-5078"
+   ]
+  },
+  {
+   "id": "solkanar-04:p3",
+   "from": "card:Sheoldred, the Apocalypse",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-04",
+    "cr:601.2f",
+    "cr:118.9",
+    "spellbook:2173-2498-5078",
+    "spellbook:2173-4740-5078"
+   ]
+  },
+  {
+   "id": "solkanar-04:p4",
+   "from": "card:Aetherflux Reservoir",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-04",
+    "cr:601.2f",
+    "cr:118.9",
+    "spellbook:2173-2498-5078",
+    "spellbook:2173-4740-5078"
+   ]
+  },
+  {
+   "id": "solkanar-04:p5",
+   "from": "card:K'rrik, Son of Yawgmoth",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-04",
+    "cr:601.2f",
+    "cr:118.9",
+    "spellbook:2173-2498-5078",
+    "spellbook:2173-4740-5078"
+   ]
+  },
+  {
+   "id": "solkanar-05:m1",
+   "from": "commander:Sol'kanar the Swamp King",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:m2",
+   "from": "card:Blanket of Night",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:m3",
+   "from": "card:Urborg, Tomb of Yawgmoth",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:m4",
+   "from": "card:Cabal Coffers",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:m5",
+   "from": "card:Crypt Ghast",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:m6",
+   "from": "card:Consuming Corruption",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:m7",
+   "from": "card:Raucous Theater",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:m8",
+   "from": "card:Undercity Sewers",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:m9",
+   "from": "card:Dread Presence",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:p1",
+   "from": "card:Blanket of Night",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:p2",
+   "from": "card:Urborg, Tomb of Yawgmoth",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:p3",
+   "from": "card:Cabal Coffers",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:p4",
+   "from": "card:Crypt Ghast",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:p5",
+   "from": "card:Consuming Corruption",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:p6",
+   "from": "card:Raucous Theater",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:p7",
+   "from": "card:Undercity Sewers",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-05:p8",
+   "from": "card:Dread Presence",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-05",
+    "cr:205.1b",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "solkanar-06:m1",
+   "from": "commander:Sol'kanar the Swamp King",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.64a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-06",
+    "cr:701.64a"
+   ]
+  },
+  {
+   "id": "solkanar-06:m2",
+   "from": "card:Bontu's Monument",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.64a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-06",
+    "cr:701.64a"
+   ]
+  },
+  {
+   "id": "solkanar-06:m3",
+   "from": "card:The Soul Stone",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.64a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-06",
+    "cr:701.64a"
+   ]
+  },
+  {
+   "id": "solkanar-06:m4",
+   "from": "card:Wheel of Fortune",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.64a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-06",
+    "cr:701.64a"
+   ]
+  },
+  {
+   "id": "solkanar-06:m5",
+   "from": "card:Windfall",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.64a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-06",
+    "cr:701.64a"
+   ]
+  },
+  {
+   "id": "solkanar-06:m6",
+   "from": "card:Sheoldred, the Apocalypse",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.64a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-06",
+    "cr:701.64a"
+   ]
+  },
+  {
+   "id": "solkanar-06:m7",
+   "from": "card:Underworld Dreams",
+   "to": "interaction:solkanar-the-swamp-king/solkanar-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.64a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-06",
+    "cr:701.64a"
+   ]
+  },
+  {
+   "id": "solkanar-06:p1",
+   "from": "card:Bontu's Monument",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.64a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-06",
+    "cr:701.64a"
+   ]
+  },
+  {
+   "id": "solkanar-06:p2",
+   "from": "card:The Soul Stone",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.64a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-06",
+    "cr:701.64a"
+   ]
+  },
+  {
+   "id": "solkanar-06:p3",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.64a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-06",
+    "cr:701.64a"
+   ]
+  },
+  {
+   "id": "solkanar-06:p4",
+   "from": "card:Windfall",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.64a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-06",
+    "cr:701.64a"
+   ]
+  },
+  {
+   "id": "solkanar-06:p5",
+   "from": "card:Sheoldred, the Apocalypse",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.64a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-06",
+    "cr:701.64a"
+   ]
+  },
+  {
+   "id": "solkanar-06:p6",
+   "from": "card:Underworld Dreams",
+   "to": "commander:Sol'kanar the Swamp King",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "solkanar-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.64a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-swamp-king.json#solkanar-06",
+    "cr:701.64a"
+   ]
+  }
+ ]
+}

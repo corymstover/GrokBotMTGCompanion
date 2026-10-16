@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
- "pass_id": "audit:marchesa-dealer-of-death:c59:f5acb7e9c9ec",
+ "pass_id": "audit:marchesa-dealer-of-death:c59:eb48382a64b2",
  "snapshot": {
-  "id": "sha256:f5acb7e9c9ec99b44eb17d028f5f1c5a2f9f5136177af75553d2dca3fb05f8e4",
-  "graph": "sha256:7eda8493102c4ea9cb52f61709b27e2a9222f2127f5789581f8b0f90804685d0",
+  "id": "sha256:eb48382a64b2d1c5f8a5e10b26a224322d9d6f39597bff07cfe609c62f095739",
+  "graph": "sha256:dae6b24713a7287718eb02045da72bd119f9ad54bd193242661d07bcf9821c8d",
   "evidence": "sha256:472f2a2663aa05739b755a0119dc03ebf47259d55f525455ccf104d350e4181a",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

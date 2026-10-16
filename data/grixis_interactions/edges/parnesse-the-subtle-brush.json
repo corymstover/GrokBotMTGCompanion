@@ -1,0 +1,2455 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Parnesse__the_Subtle_Brush",
+ "slug": "parnesse-the-subtle-brush",
+ "deck_sha256": "8c32a449aa6ee96ff110e1813f40a6797b0dea722a57acdd91e0ac93e78fd93b",
+ "review": "data/grixis_interactions/parnesse-the-subtle-brush.json",
+ "review_sha256": "f0888e92cff701455bc0416b7640654afc6bf37c0ed68fe3bf54d23c5f81580c",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 10,
+  "nodes": 38,
+  "membership_edges": 49,
+  "pair_edges": 39
+ },
+ "nodes": [
+  {
+   "id": "commander:Parnesse, the Subtle Brush",
+   "kind": "commander",
+   "name": "Parnesse, the Subtle Brush",
+   "in_list": true
+  },
+  {
+   "id": "card:Mizzix's Mastery",
+   "kind": "card",
+   "name": "Mizzix's Mastery",
+   "in_list": true
+  },
+  {
+   "id": "card:Reiterate",
+   "kind": "card",
+   "name": "Reiterate",
+   "in_list": true
+  },
+  {
+   "id": "card:Narset's Reversal",
+   "kind": "card",
+   "name": "Narset's Reversal",
+   "in_list": true
+  },
+  {
+   "id": "card:Prismari, the Inspiration",
+   "kind": "card",
+   "name": "Prismari, the Inspiration",
+   "in_list": true
+  },
+  {
+   "id": "card:Thunderclap Drake",
+   "kind": "card",
+   "name": "Thunderclap Drake",
+   "in_list": true
+  },
+  {
+   "id": "interaction:parnesse-the-subtle-brush/parnesse-01",
+   "kind": "interaction",
+   "interaction": "parnesse-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:parnesse-the-subtle-brush/parnesse-02",
+   "kind": "interaction",
+   "interaction": "parnesse-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Wizard's Staff",
+   "kind": "card",
+   "name": "Wizard's Staff",
+   "in_list": true
+  },
+  {
+   "id": "card:Harmonic Prodigy",
+   "kind": "card",
+   "name": "Harmonic Prodigy",
+   "in_list": true
+  },
+  {
+   "id": "card:Veyran, Voice of Duality",
+   "kind": "card",
+   "name": "Veyran, Voice of Duality",
+   "in_list": true
+  },
+  {
+   "id": "card:Storm-Kiln Artist",
+   "kind": "card",
+   "name": "Storm-Kiln Artist",
+   "in_list": true
+  },
+  {
+   "id": "card:Ral, Storm Conduit",
+   "kind": "card",
+   "name": "Ral, Storm Conduit",
+   "in_list": true
+  },
+  {
+   "id": "card:Professor Onyx",
+   "kind": "card",
+   "name": "Professor Onyx",
+   "in_list": true
+  },
+  {
+   "id": "interaction:parnesse-the-subtle-brush/parnesse-03",
+   "kind": "interaction",
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Reverberate",
+   "kind": "card",
+   "name": "Reverberate",
+   "in_list": true
+  },
+  {
+   "id": "card:Increasing Vengeance",
+   "kind": "card",
+   "name": "Increasing Vengeance",
+   "in_list": true
+  },
+  {
+   "id": "card:Return the Favor",
+   "kind": "card",
+   "name": "Return the Favor",
+   "in_list": true
+  },
+  {
+   "id": "card:Pyromancer's Goggles",
+   "kind": "card",
+   "name": "Pyromancer's Goggles",
+   "in_list": true
+  },
+  {
+   "id": "card:Alania, Divergent Storm",
+   "kind": "card",
+   "name": "Alania, Divergent Storm",
+   "in_list": true
+  },
+  {
+   "id": "card:Thousand-Year Storm",
+   "kind": "card",
+   "name": "Thousand-Year Storm",
+   "in_list": true
+  },
+  {
+   "id": "combo:parnesse-the-subtle-brush/parnesse-04",
+   "kind": "combo",
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "3368-7683",
+    "3368-6790",
+    "11-3368",
+    "3368-5959"
+   ]
+  },
+  {
+   "id": "card:Mana Geyser",
+   "kind": "card",
+   "name": "Mana Geyser",
+   "in_list": true
+  },
+  {
+   "id": "card:Jeska's Will",
+   "kind": "card",
+   "name": "Jeska's Will",
+   "in_list": true
+  },
+  {
+   "id": "combo:parnesse-the-subtle-brush/parnesse-05",
+   "kind": "combo",
+   "interaction": "parnesse-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "2091-3368",
+    "1878-3368"
+   ]
+  },
+  {
+   "id": "card:Bonus Round",
+   "kind": "card",
+   "name": "Bonus Round",
+   "in_list": true
+  },
+  {
+   "id": "combo:parnesse-the-subtle-brush/parnesse-06",
+   "kind": "combo",
+   "interaction": "parnesse-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "11-2492-5195",
+    "11-3584-5195"
+   ]
+  },
+  {
+   "id": "interaction:parnesse-the-subtle-brush/parnesse-07",
+   "kind": "interaction",
+   "interaction": "parnesse-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Twinning Staff",
+   "kind": "card",
+   "name": "Twinning Staff",
+   "in_list": true
+  },
+  {
+   "id": "card:Tempt with Mayhem",
+   "kind": "card",
+   "name": "Tempt with Mayhem",
+   "in_list": true
+  },
+  {
+   "id": "card:Replication Technique",
+   "kind": "card",
+   "name": "Replication Technique",
+   "in_list": true
+  },
+  {
+   "id": "card:Dualcaster Mage",
+   "kind": "card",
+   "name": "Dualcaster Mage",
+   "in_list": true
+  },
+  {
+   "id": "card:Sunken Palace",
+   "kind": "card",
+   "name": "Sunken Palace",
+   "in_list": true
+  },
+  {
+   "id": "interaction:parnesse-the-subtle-brush/parnesse-08",
+   "kind": "interaction",
+   "interaction": "parnesse-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "147-1883"
+   ]
+  },
+  {
+   "id": "card:Primal Amulet // Primal Wellspring",
+   "kind": "card",
+   "name": "Primal Amulet // Primal Wellspring",
+   "in_list": true
+  },
+  {
+   "id": "card:Frantic Search",
+   "kind": "card",
+   "name": "Frantic Search",
+   "in_list": true
+  },
+  {
+   "id": "combo:parnesse-the-subtle-brush/parnesse-09",
+   "kind": "combo",
+   "interaction": "parnesse-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1484-2196-3368",
+    "11-1484-2196"
+   ]
+  },
+  {
+   "id": "interaction:parnesse-the-subtle-brush/parnesse-10",
+   "kind": "interaction",
+   "interaction": "parnesse-10",
+   "topic": "trigger-order",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis"
+  }
+ ],
+ "edges": [
+  {
+   "id": "parnesse-01:m1",
+   "from": "commander:Parnesse, the Subtle Brush",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-01",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "parnesse-01:m2",
+   "from": "card:Mizzix's Mastery",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-01",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "parnesse-01:m3",
+   "from": "card:Reiterate",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-01",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "parnesse-01:m4",
+   "from": "card:Narset's Reversal",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-01",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "parnesse-01:m5",
+   "from": "card:Prismari, the Inspiration",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-01",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "parnesse-01:m6",
+   "from": "card:Thunderclap Drake",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-01",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "parnesse-01:p1",
+   "from": "card:Mizzix's Mastery",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-01",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "parnesse-01:p2",
+   "from": "card:Reiterate",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-01",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "parnesse-01:p3",
+   "from": "card:Narset's Reversal",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-01",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "parnesse-01:p4",
+   "from": "card:Prismari, the Inspiration",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-01",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "parnesse-01:p5",
+   "from": "card:Thunderclap Drake",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-01",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "parnesse-02:m1",
+   "from": "commander:Parnesse, the Subtle Brush",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.21a",
+    "115.1",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-02",
+    "cr:702.21a",
+    "cr:115.1",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "parnesse-03:m1",
+   "from": "commander:Parnesse, the Subtle Brush",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "parnesse-03:m2",
+   "from": "card:Wizard's Staff",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "parnesse-03:m3",
+   "from": "card:Harmonic Prodigy",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "parnesse-03:m4",
+   "from": "card:Veyran, Voice of Duality",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "parnesse-03:m5",
+   "from": "card:Storm-Kiln Artist",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "parnesse-03:m6",
+   "from": "card:Ral, Storm Conduit",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "parnesse-03:m7",
+   "from": "card:Professor Onyx",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "parnesse-03:p1",
+   "from": "card:Wizard's Staff",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "parnesse-03:p2",
+   "from": "card:Harmonic Prodigy",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "parnesse-03:p3",
+   "from": "card:Veyran, Voice of Duality",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "parnesse-03:p4",
+   "from": "card:Storm-Kiln Artist",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "parnesse-03:p5",
+   "from": "card:Ral, Storm Conduit",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "parnesse-03:p6",
+   "from": "card:Professor Onyx",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "parnesse-04:m1",
+   "from": "commander:Parnesse, the Subtle Brush",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:m2",
+   "from": "card:Reiterate",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:m3",
+   "from": "card:Reverberate",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:m4",
+   "from": "card:Increasing Vengeance",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:m5",
+   "from": "card:Return the Favor",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:m6",
+   "from": "card:Narset's Reversal",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:m7",
+   "from": "card:Prismari, the Inspiration",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:m8",
+   "from": "card:Pyromancer's Goggles",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:m9",
+   "from": "card:Alania, Divergent Storm",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:m10",
+   "from": "card:Thousand-Year Storm",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:m11",
+   "from": "card:Ral, Storm Conduit",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:m12",
+   "from": "card:Professor Onyx",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:p1",
+   "from": "card:Reiterate",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:p2",
+   "from": "card:Reverberate",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:p3",
+   "from": "card:Increasing Vengeance",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:p4",
+   "from": "card:Return the Favor",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:p5",
+   "from": "card:Narset's Reversal",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:p6",
+   "from": "card:Prismari, the Inspiration",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:p7",
+   "from": "card:Pyromancer's Goggles",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:p8",
+   "from": "card:Alania, Divergent Storm",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:p9",
+   "from": "card:Thousand-Year Storm",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:p10",
+   "from": "card:Ral, Storm Conduit",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-04:p11",
+   "from": "card:Professor Onyx",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-04",
+    "cr:707.10",
+    "cr:707.10c",
+    "spellbook:3368-7683",
+    "spellbook:3368-6790",
+    "spellbook:11-3368",
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "id": "parnesse-05:m1",
+   "from": "commander:Parnesse, the Subtle Brush",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "702.27a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-05",
+    "cr:707.10",
+    "cr:702.27a",
+    "spellbook:2091-3368",
+    "spellbook:1878-3368"
+   ]
+  },
+  {
+   "id": "parnesse-05:m2",
+   "from": "card:Reiterate",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "702.27a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-05",
+    "cr:707.10",
+    "cr:702.27a",
+    "spellbook:2091-3368",
+    "spellbook:1878-3368"
+   ]
+  },
+  {
+   "id": "parnesse-05:m3",
+   "from": "card:Mana Geyser",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "702.27a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-05",
+    "cr:707.10",
+    "cr:702.27a",
+    "spellbook:2091-3368",
+    "spellbook:1878-3368"
+   ]
+  },
+  {
+   "id": "parnesse-05:m4",
+   "from": "card:Jeska's Will",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "702.27a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-05",
+    "cr:707.10",
+    "cr:702.27a",
+    "spellbook:2091-3368",
+    "spellbook:1878-3368"
+   ]
+  },
+  {
+   "id": "parnesse-05:p1",
+   "from": "card:Reiterate",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "702.27a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-05",
+    "cr:707.10",
+    "cr:702.27a",
+    "spellbook:2091-3368",
+    "spellbook:1878-3368"
+   ]
+  },
+  {
+   "id": "parnesse-05:p2",
+   "from": "card:Mana Geyser",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "702.27a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-05",
+    "cr:707.10",
+    "cr:702.27a",
+    "spellbook:2091-3368",
+    "spellbook:1878-3368"
+   ]
+  },
+  {
+   "id": "parnesse-05:p3",
+   "from": "card:Jeska's Will",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "702.27a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-05",
+    "cr:707.10",
+    "cr:702.27a",
+    "spellbook:2091-3368",
+    "spellbook:1878-3368"
+   ]
+  },
+  {
+   "id": "parnesse-06:m1",
+   "from": "commander:Parnesse, the Subtle Brush",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-06",
+    "cr:707.10",
+    "spellbook:11-2492-5195",
+    "spellbook:11-3584-5195"
+   ]
+  },
+  {
+   "id": "parnesse-06:m2",
+   "from": "card:Storm-Kiln Artist",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-06",
+    "cr:707.10",
+    "spellbook:11-2492-5195",
+    "spellbook:11-3584-5195"
+   ]
+  },
+  {
+   "id": "parnesse-06:m3",
+   "from": "card:Bonus Round",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-06",
+    "cr:707.10",
+    "spellbook:11-2492-5195",
+    "spellbook:11-3584-5195"
+   ]
+  },
+  {
+   "id": "parnesse-06:m4",
+   "from": "card:Thousand-Year Storm",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-06",
+    "cr:707.10",
+    "spellbook:11-2492-5195",
+    "spellbook:11-3584-5195"
+   ]
+  },
+  {
+   "id": "parnesse-06:m5",
+   "from": "card:Narset's Reversal",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-06",
+    "cr:707.10",
+    "spellbook:11-2492-5195",
+    "spellbook:11-3584-5195"
+   ]
+  },
+  {
+   "id": "parnesse-06:p1",
+   "from": "card:Storm-Kiln Artist",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-06",
+    "cr:707.10",
+    "spellbook:11-2492-5195",
+    "spellbook:11-3584-5195"
+   ]
+  },
+  {
+   "id": "parnesse-06:p2",
+   "from": "card:Bonus Round",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-06",
+    "cr:707.10",
+    "spellbook:11-2492-5195",
+    "spellbook:11-3584-5195"
+   ]
+  },
+  {
+   "id": "parnesse-06:p3",
+   "from": "card:Thousand-Year Storm",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-06",
+    "cr:707.10",
+    "spellbook:11-2492-5195",
+    "spellbook:11-3584-5195"
+   ]
+  },
+  {
+   "id": "parnesse-06:p4",
+   "from": "card:Narset's Reversal",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-06",
+    "cr:707.10",
+    "spellbook:11-2492-5195",
+    "spellbook:11-3584-5195"
+   ]
+  },
+  {
+   "id": "parnesse-07:m1",
+   "from": "commander:Parnesse, the Subtle Brush",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-07",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "parnesse-07:m2",
+   "from": "card:Bonus Round",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-07",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "parnesse-07:p1",
+   "from": "card:Bonus Round",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-07",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "parnesse-08:m1",
+   "from": "commander:Parnesse, the Subtle Brush",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "702.144a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-08",
+    "cr:614.1a",
+    "cr:702.144a",
+    "cr:707.10",
+    "spellbook:147-1883"
+   ]
+  },
+  {
+   "id": "parnesse-08:m2",
+   "from": "card:Twinning Staff",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "702.144a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-08",
+    "cr:614.1a",
+    "cr:702.144a",
+    "cr:707.10",
+    "spellbook:147-1883"
+   ]
+  },
+  {
+   "id": "parnesse-08:m3",
+   "from": "card:Tempt with Mayhem",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "702.144a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-08",
+    "cr:614.1a",
+    "cr:702.144a",
+    "cr:707.10",
+    "spellbook:147-1883"
+   ]
+  },
+  {
+   "id": "parnesse-08:m4",
+   "from": "card:Replication Technique",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "702.144a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-08",
+    "cr:614.1a",
+    "cr:702.144a",
+    "cr:707.10",
+    "spellbook:147-1883"
+   ]
+  },
+  {
+   "id": "parnesse-08:m5",
+   "from": "card:Dualcaster Mage",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "702.144a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-08",
+    "cr:614.1a",
+    "cr:702.144a",
+    "cr:707.10",
+    "spellbook:147-1883"
+   ]
+  },
+  {
+   "id": "parnesse-08:m6",
+   "from": "card:Sunken Palace",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "702.144a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-08",
+    "cr:614.1a",
+    "cr:702.144a",
+    "cr:707.10",
+    "spellbook:147-1883"
+   ]
+  },
+  {
+   "id": "parnesse-08:p1",
+   "from": "card:Twinning Staff",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "702.144a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-08",
+    "cr:614.1a",
+    "cr:702.144a",
+    "cr:707.10",
+    "spellbook:147-1883"
+   ]
+  },
+  {
+   "id": "parnesse-08:p2",
+   "from": "card:Tempt with Mayhem",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "702.144a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-08",
+    "cr:614.1a",
+    "cr:702.144a",
+    "cr:707.10",
+    "spellbook:147-1883"
+   ]
+  },
+  {
+   "id": "parnesse-08:p3",
+   "from": "card:Replication Technique",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "702.144a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-08",
+    "cr:614.1a",
+    "cr:702.144a",
+    "cr:707.10",
+    "spellbook:147-1883"
+   ]
+  },
+  {
+   "id": "parnesse-08:p4",
+   "from": "card:Dualcaster Mage",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "702.144a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-08",
+    "cr:614.1a",
+    "cr:702.144a",
+    "cr:707.10",
+    "spellbook:147-1883"
+   ]
+  },
+  {
+   "id": "parnesse-08:p5",
+   "from": "card:Sunken Palace",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "702.144a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-08",
+    "cr:614.1a",
+    "cr:702.144a",
+    "cr:707.10",
+    "spellbook:147-1883"
+   ]
+  },
+  {
+   "id": "parnesse-09:m1",
+   "from": "commander:Parnesse, the Subtle Brush",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-09",
+    "cr:707.10",
+    "spellbook:1484-2196-3368",
+    "spellbook:11-1484-2196"
+   ]
+  },
+  {
+   "id": "parnesse-09:m2",
+   "from": "card:Primal Amulet // Primal Wellspring",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-09",
+    "cr:707.10",
+    "spellbook:1484-2196-3368",
+    "spellbook:11-1484-2196"
+   ]
+  },
+  {
+   "id": "parnesse-09:m3",
+   "from": "card:Frantic Search",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-09",
+    "cr:707.10",
+    "spellbook:1484-2196-3368",
+    "spellbook:11-1484-2196"
+   ]
+  },
+  {
+   "id": "parnesse-09:m4",
+   "from": "card:Reiterate",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-09",
+    "cr:707.10",
+    "spellbook:1484-2196-3368",
+    "spellbook:11-1484-2196"
+   ]
+  },
+  {
+   "id": "parnesse-09:m5",
+   "from": "card:Narset's Reversal",
+   "to": "combo:parnesse-the-subtle-brush/parnesse-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-09",
+    "cr:707.10",
+    "spellbook:1484-2196-3368",
+    "spellbook:11-1484-2196"
+   ]
+  },
+  {
+   "id": "parnesse-09:p1",
+   "from": "card:Primal Amulet // Primal Wellspring",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-09",
+    "cr:707.10",
+    "spellbook:1484-2196-3368",
+    "spellbook:11-1484-2196"
+   ]
+  },
+  {
+   "id": "parnesse-09:p2",
+   "from": "card:Frantic Search",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-09",
+    "cr:707.10",
+    "spellbook:1484-2196-3368",
+    "spellbook:11-1484-2196"
+   ]
+  },
+  {
+   "id": "parnesse-09:p3",
+   "from": "card:Reiterate",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-09",
+    "cr:707.10",
+    "spellbook:1484-2196-3368",
+    "spellbook:11-1484-2196"
+   ]
+  },
+  {
+   "id": "parnesse-09:p4",
+   "from": "card:Narset's Reversal",
+   "to": "commander:Parnesse, the Subtle Brush",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "parnesse-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-09",
+    "cr:707.10",
+    "spellbook:1484-2196-3368",
+    "spellbook:11-1484-2196"
+   ]
+  },
+  {
+   "id": "parnesse-10:m1",
+   "from": "commander:Parnesse, the Subtle Brush",
+   "to": "interaction:parnesse-the-subtle-brush/parnesse-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "parnesse-10",
+   "topic": "trigger-order",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "707.10c",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/parnesse-the-subtle-brush.json#parnesse-10",
+    "cr:707.10c",
+    "cr:702.21a"
+   ]
+  }
+ ]
+}

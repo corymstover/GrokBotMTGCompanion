@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
- "pass_id": "audit:the-madcap-jester:c59:094025321102",
+ "pass_id": "audit:the-madcap-jester:c59:c157ce2f7b33",
  "snapshot": {
-  "id": "sha256:09402532110214cf7ee718d92653046afc870c94390301b8e2cbbeac84171bd5",
-  "graph": "sha256:b4fa5cdce039e9e76dec5747c9004753e074dd8b81f80f1b85b6c7a01744a328",
+  "id": "sha256:c157ce2f7b339b39f570b4c35b440f3517b765795212b99d721abb6436e4e144",
+  "graph": "sha256:97c5e706882639851854b9d8fca5534ebd934551128683b2e44b3cbaf5cc0780",
   "evidence": "sha256:8f0288cdacb92a474b6b3b65044b0fca57001ab4f366b89e95d454ea9e521ff5",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

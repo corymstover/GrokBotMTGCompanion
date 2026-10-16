@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
- "pass_id": "audit:mairsil-the-pretender:c59:5cd39e1061e0",
+ "pass_id": "audit:mairsil-the-pretender:c59:9a21b2fb4feb",
  "snapshot": {
-  "id": "sha256:5cd39e1061e05841bb1b4b4939e5477f0432c3e639122005f377e9f96e326064",
-  "graph": "sha256:e2e1f3d615c08e52d9e254484b12acf049307be337365f5c68590d83a67990ae",
+  "id": "sha256:9a21b2fb4febcde12bd040db17497ac8912c84cc662058180042e897f919caad",
+  "graph": "sha256:7ba756da485d44793f0c7c40629ff48c38d9302d697a77042436136fe02693d4",
   "evidence": "sha256:444713fc4b32458649084cc4e1e6e0d570263e0bfe5d8b65469c690f997677d2",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

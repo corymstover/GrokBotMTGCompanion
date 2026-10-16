@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
- "pass_id": "audit:the-valeyard:c59:458e0709fbe0",
+ "pass_id": "audit:the-valeyard:c59:aa0493604f23",
  "snapshot": {
-  "id": "sha256:458e0709fbe03910175465219e257c18e275243d1ba477188a583c11a8c09cdc",
-  "graph": "sha256:f6775db2f95f8f977f6f9f96eb9e3fd9d23f01cc3b53a00cf67a5301ea987ee8",
+  "id": "sha256:aa0493604f239a331335085db921a02c617715a1c0468523539628b923e9e015",
+  "graph": "sha256:7926c85e615d3803bc11f5b92d1b99a01551896b69c16fa562a014931641669d",
   "evidence": "sha256:25cb9e25aee3471b3700997d5425f0192ed6f24124b0d303e0dad9b895f406ac",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

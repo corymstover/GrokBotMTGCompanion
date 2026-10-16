@@ -1,0 +1,1233 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Tetsuo_Umezawa",
+ "slug": "tetsuo-umezawa",
+ "deck_sha256": "73a45c0240c9b5a86dfdc417d805eadbb171bec3b37e05316e3944bc58656a8f",
+ "review": "data/grixis_interactions/tetsuo-umezawa.json",
+ "review_sha256": "5892fa1bdac4053daa59df098aa918d3135d2fd6199debee298456de17089842",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 5,
+  "nodes": 23,
+  "membership_edges": 24,
+  "pair_edges": 19
+ },
+ "nodes": [
+  {
+   "id": "commander:Tetsuo Umezawa",
+   "kind": "commander",
+   "name": "Tetsuo Umezawa",
+   "in_list": true
+  },
+  {
+   "id": "card:Bloodthirsty Blade",
+   "kind": "card",
+   "name": "Bloodthirsty Blade",
+   "in_list": true
+  },
+  {
+   "id": "card:Frozen Aether",
+   "kind": "card",
+   "name": "Frozen Aether",
+   "in_list": true
+  },
+  {
+   "id": "card:Propaganda",
+   "kind": "card",
+   "name": "Propaganda",
+   "in_list": true
+  },
+  {
+   "id": "interaction:tetsuo-umezawa/tetsuou-01",
+   "kind": "interaction",
+   "interaction": "tetsuou-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Rings of Brighthearth",
+   "kind": "card",
+   "name": "Rings of Brighthearth",
+   "in_list": true
+  },
+  {
+   "id": "card:Illusionist's Bracers",
+   "kind": "card",
+   "name": "Illusionist's Bracers",
+   "in_list": true
+  },
+  {
+   "id": "interaction:tetsuo-umezawa/tetsuou-02",
+   "kind": "interaction",
+   "interaction": "tetsuou-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Aphetto Alchemist",
+   "kind": "card",
+   "name": "Aphetto Alchemist",
+   "in_list": true
+  },
+  {
+   "id": "card:Arcane Signet",
+   "kind": "card",
+   "name": "Arcane Signet",
+   "in_list": true
+  },
+  {
+   "id": "card:Flood",
+   "kind": "card",
+   "name": "Flood",
+   "in_list": true
+  },
+  {
+   "id": "card:Puppeteer",
+   "kind": "card",
+   "name": "Puppeteer",
+   "in_list": true
+  },
+  {
+   "id": "combo:tetsuo-umezawa/tetsuou-03",
+   "kind": "combo",
+   "interaction": "tetsuou-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "283-4091",
+    "283-4091"
+   ]
+  },
+  {
+   "id": "card:Sting, the Glinting Dagger",
+   "kind": "card",
+   "name": "Sting, the Glinting Dagger",
+   "in_list": true
+  },
+  {
+   "id": "card:Patriar's Seal",
+   "kind": "card",
+   "name": "Patriar's Seal",
+   "in_list": true
+  },
+  {
+   "id": "card:Minamo, School at Water's Edge",
+   "kind": "card",
+   "name": "Minamo, School at Water's Edge",
+   "in_list": true
+  },
+  {
+   "id": "card:Retreat to Coralhelm",
+   "kind": "card",
+   "name": "Retreat to Coralhelm",
+   "in_list": true
+  },
+  {
+   "id": "card:Lightning Greaves",
+   "kind": "card",
+   "name": "Lightning Greaves",
+   "in_list": true
+  },
+  {
+   "id": "card:Swiftfoot Boots",
+   "kind": "card",
+   "name": "Swiftfoot Boots",
+   "in_list": true
+  },
+  {
+   "id": "interaction:tetsuo-umezawa/tetsuou-04",
+   "kind": "interaction",
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Blustersquall",
+   "kind": "card",
+   "name": "Blustersquall",
+   "in_list": true
+  },
+  {
+   "id": "card:Sink into Stupor // Soporific Springs",
+   "kind": "card",
+   "name": "Sink into Stupor // Soporific Springs",
+   "in_list": true
+  },
+  {
+   "id": "interaction:tetsuo-umezawa/tetsuou-05",
+   "kind": "interaction",
+   "interaction": "tetsuou-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "tetsuou-01:m1",
+   "from": "commander:Tetsuo Umezawa",
+   "to": "interaction:tetsuo-umezawa/tetsuou-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "115.1",
+    "608.2b",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-01",
+    "cr:115.1",
+    "cr:608.2b",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "tetsuou-01:m2",
+   "from": "card:Bloodthirsty Blade",
+   "to": "interaction:tetsuo-umezawa/tetsuou-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "115.1",
+    "608.2b",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-01",
+    "cr:115.1",
+    "cr:608.2b",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "tetsuou-01:m3",
+   "from": "card:Frozen Aether",
+   "to": "interaction:tetsuo-umezawa/tetsuou-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "115.1",
+    "608.2b",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-01",
+    "cr:115.1",
+    "cr:608.2b",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "tetsuou-01:m4",
+   "from": "card:Propaganda",
+   "to": "interaction:tetsuo-umezawa/tetsuou-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "115.1",
+    "608.2b",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-01",
+    "cr:115.1",
+    "cr:608.2b",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "tetsuou-01:p1",
+   "from": "card:Bloodthirsty Blade",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "115.1",
+    "608.2b",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-01",
+    "cr:115.1",
+    "cr:608.2b",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "tetsuou-01:p2",
+   "from": "card:Frozen Aether",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "115.1",
+    "608.2b",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-01",
+    "cr:115.1",
+    "cr:608.2b",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "tetsuou-01:p3",
+   "from": "card:Propaganda",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "115.1",
+    "608.2b",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-01",
+    "cr:115.1",
+    "cr:608.2b",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "tetsuou-02:m1",
+   "from": "commander:Tetsuo Umezawa",
+   "to": "interaction:tetsuo-umezawa/tetsuou-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "602.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-02",
+    "cr:707.10",
+    "cr:602.1"
+   ]
+  },
+  {
+   "id": "tetsuou-02:m2",
+   "from": "card:Rings of Brighthearth",
+   "to": "interaction:tetsuo-umezawa/tetsuou-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "602.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-02",
+    "cr:707.10",
+    "cr:602.1"
+   ]
+  },
+  {
+   "id": "tetsuou-02:m3",
+   "from": "card:Illusionist's Bracers",
+   "to": "interaction:tetsuo-umezawa/tetsuou-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "602.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-02",
+    "cr:707.10",
+    "cr:602.1"
+   ]
+  },
+  {
+   "id": "tetsuou-02:p1",
+   "from": "card:Rings of Brighthearth",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "602.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-02",
+    "cr:707.10",
+    "cr:602.1"
+   ]
+  },
+  {
+   "id": "tetsuou-02:p2",
+   "from": "card:Illusionist's Bracers",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "602.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-02",
+    "cr:707.10",
+    "cr:602.1"
+   ]
+  },
+  {
+   "id": "tetsuou-03:m1",
+   "from": "commander:Tetsuo Umezawa",
+   "to": "combo:tetsuo-umezawa/tetsuou-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-03",
+    "cr:707.10",
+    "cr:605.1a",
+    "spellbook:283-4091",
+    "spellbook:283-4091"
+   ]
+  },
+  {
+   "id": "tetsuou-03:m2",
+   "from": "card:Illusionist's Bracers",
+   "to": "combo:tetsuo-umezawa/tetsuou-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-03",
+    "cr:707.10",
+    "cr:605.1a",
+    "spellbook:283-4091",
+    "spellbook:283-4091"
+   ]
+  },
+  {
+   "id": "tetsuou-03:m3",
+   "from": "card:Aphetto Alchemist",
+   "to": "combo:tetsuo-umezawa/tetsuou-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-03",
+    "cr:707.10",
+    "cr:605.1a",
+    "spellbook:283-4091",
+    "spellbook:283-4091"
+   ]
+  },
+  {
+   "id": "tetsuou-03:m4",
+   "from": "card:Arcane Signet",
+   "to": "combo:tetsuo-umezawa/tetsuou-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-03",
+    "cr:707.10",
+    "cr:605.1a",
+    "spellbook:283-4091",
+    "spellbook:283-4091"
+   ]
+  },
+  {
+   "id": "tetsuou-03:m5",
+   "from": "card:Flood",
+   "to": "combo:tetsuo-umezawa/tetsuou-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-03",
+    "cr:707.10",
+    "cr:605.1a",
+    "spellbook:283-4091",
+    "spellbook:283-4091"
+   ]
+  },
+  {
+   "id": "tetsuou-03:m6",
+   "from": "card:Puppeteer",
+   "to": "combo:tetsuo-umezawa/tetsuou-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-03",
+    "cr:707.10",
+    "cr:605.1a",
+    "spellbook:283-4091",
+    "spellbook:283-4091"
+   ]
+  },
+  {
+   "id": "tetsuou-03:p1",
+   "from": "card:Illusionist's Bracers",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-03",
+    "cr:707.10",
+    "cr:605.1a",
+    "spellbook:283-4091",
+    "spellbook:283-4091"
+   ]
+  },
+  {
+   "id": "tetsuou-03:p2",
+   "from": "card:Aphetto Alchemist",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-03",
+    "cr:707.10",
+    "cr:605.1a",
+    "spellbook:283-4091",
+    "spellbook:283-4091"
+   ]
+  },
+  {
+   "id": "tetsuou-03:p3",
+   "from": "card:Arcane Signet",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-03",
+    "cr:707.10",
+    "cr:605.1a",
+    "spellbook:283-4091",
+    "spellbook:283-4091"
+   ]
+  },
+  {
+   "id": "tetsuou-03:p4",
+   "from": "card:Flood",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-03",
+    "cr:707.10",
+    "cr:605.1a",
+    "spellbook:283-4091",
+    "spellbook:283-4091"
+   ]
+  },
+  {
+   "id": "tetsuou-03:p5",
+   "from": "card:Puppeteer",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-03",
+    "cr:707.10",
+    "cr:605.1a",
+    "spellbook:283-4091",
+    "spellbook:283-4091"
+   ]
+  },
+  {
+   "id": "tetsuou-04:m1",
+   "from": "commander:Tetsuo Umezawa",
+   "to": "interaction:tetsuo-umezawa/tetsuou-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:m2",
+   "from": "card:Sting, the Glinting Dagger",
+   "to": "interaction:tetsuo-umezawa/tetsuou-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:m3",
+   "from": "card:Patriar's Seal",
+   "to": "interaction:tetsuo-umezawa/tetsuou-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:m4",
+   "from": "card:Minamo, School at Water's Edge",
+   "to": "interaction:tetsuo-umezawa/tetsuou-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:m5",
+   "from": "card:Puppeteer",
+   "to": "interaction:tetsuo-umezawa/tetsuou-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:m6",
+   "from": "card:Retreat to Coralhelm",
+   "to": "interaction:tetsuo-umezawa/tetsuou-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:m7",
+   "from": "card:Lightning Greaves",
+   "to": "interaction:tetsuo-umezawa/tetsuou-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:m8",
+   "from": "card:Swiftfoot Boots",
+   "to": "interaction:tetsuo-umezawa/tetsuou-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:p1",
+   "from": "card:Sting, the Glinting Dagger",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:p2",
+   "from": "card:Patriar's Seal",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:p3",
+   "from": "card:Minamo, School at Water's Edge",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:p4",
+   "from": "card:Puppeteer",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:p5",
+   "from": "card:Retreat to Coralhelm",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:p6",
+   "from": "card:Lightning Greaves",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-04:p7",
+   "from": "card:Swiftfoot Boots",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-04",
+    "cr:302.6",
+    "cr:702.10b",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "tetsuou-05:m1",
+   "from": "commander:Tetsuo Umezawa",
+   "to": "interaction:tetsuo-umezawa/tetsuou-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.96a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-05",
+    "cr:702.96a",
+    "cr:712.12"
+   ]
+  },
+  {
+   "id": "tetsuou-05:m2",
+   "from": "card:Blustersquall",
+   "to": "interaction:tetsuo-umezawa/tetsuou-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.96a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-05",
+    "cr:702.96a",
+    "cr:712.12"
+   ]
+  },
+  {
+   "id": "tetsuou-05:m3",
+   "from": "card:Sink into Stupor // Soporific Springs",
+   "to": "interaction:tetsuo-umezawa/tetsuou-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuou-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.96a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-05",
+    "cr:702.96a",
+    "cr:712.12"
+   ]
+  },
+  {
+   "id": "tetsuou-05:p1",
+   "from": "card:Blustersquall",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.96a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-05",
+    "cr:702.96a",
+    "cr:712.12"
+   ]
+  },
+  {
+   "id": "tetsuou-05:p2",
+   "from": "card:Sink into Stupor // Soporific Springs",
+   "to": "commander:Tetsuo Umezawa",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuou-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.96a",
+    "712.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-umezawa.json#tetsuou-05",
+    "cr:702.96a",
+    "cr:712.12"
+   ]
+  }
+ ]
+}

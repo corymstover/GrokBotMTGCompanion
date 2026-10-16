@@ -1,0 +1,2097 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Nicol_Bolas__the_Ravager",
+ "slug": "nicol-bolas-the-ravager",
+ "deck_sha256": "ff0f90a467b05c94bdf58371d37a848946877ec707115ac5e47c2260bc40c1f4",
+ "review": "data/grixis_interactions/nicol-bolas-the-ravager.json",
+ "review_sha256": "7dcc5ec9b522dc587358a7983f0d3371cb7a5437316032705ad9f876599239bf",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 8,
+  "nodes": 37,
+  "membership_edges": 41,
+  "pair_edges": 33
+ },
+ "nodes": [
+  {
+   "id": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "commander",
+   "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "in_list": true
+  },
+  {
+   "id": "card:Training Grounds",
+   "kind": "card",
+   "name": "Training Grounds",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas-the-ravager/bolasrav-01",
+   "kind": "interaction",
+   "interaction": "bolasrav-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Displacer Kitten",
+   "kind": "card",
+   "name": "Displacer Kitten",
+   "in_list": true
+  },
+  {
+   "id": "card:Rowan's Talent",
+   "kind": "card",
+   "name": "Rowan's Talent",
+   "in_list": true
+  },
+  {
+   "id": "card:Liliana's Talent",
+   "kind": "card",
+   "name": "Liliana's Talent",
+   "in_list": true
+  },
+  {
+   "id": "card:Tergrid, God of Fright // Tergrid's Lantern",
+   "kind": "card",
+   "name": "Tergrid, God of Fright // Tergrid's Lantern",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas-the-ravager/bolasrav-02",
+   "kind": "interaction",
+   "interaction": "bolasrav-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Rings of Brighthearth",
+   "kind": "card",
+   "name": "Rings of Brighthearth",
+   "in_list": true
+  },
+  {
+   "id": "card:Jaya's Phoenix",
+   "kind": "card",
+   "name": "Jaya's Phoenix",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas-the-ravager/bolasrav-03",
+   "kind": "interaction",
+   "interaction": "bolasrav-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Teferi, Temporal Archmage",
+   "kind": "card",
+   "name": "Teferi, Temporal Archmage",
+   "in_list": true
+  },
+  {
+   "id": "card:The Chain Veil",
+   "kind": "card",
+   "name": "The Chain Veil",
+   "in_list": true
+  },
+  {
+   "id": "card:Mana Vault",
+   "kind": "card",
+   "name": "Mana Vault",
+   "in_list": true
+  },
+  {
+   "id": "card:Sol Ring",
+   "kind": "card",
+   "name": "Sol Ring",
+   "in_list": true
+  },
+  {
+   "id": "combo:nicol-bolas-the-ravager/bolasrav-04",
+   "kind": "combo",
+   "interaction": "bolasrav-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "spellbook": [
+    "787-1124"
+   ]
+  },
+  {
+   "id": "card:Teferi, Master of Time",
+   "kind": "card",
+   "name": "Teferi, Master of Time",
+   "in_list": true
+  },
+  {
+   "id": "card:Ichormoon Gauntlet",
+   "kind": "card",
+   "name": "Ichormoon Gauntlet",
+   "in_list": true
+  },
+  {
+   "id": "combo:nicol-bolas-the-ravager/bolasrav-05",
+   "kind": "combo",
+   "interaction": "bolasrav-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1124-1543-2247",
+    "652-1543-2247"
+   ]
+  },
+  {
+   "id": "card:Deliver Unto Evil",
+   "kind": "card",
+   "name": "Deliver Unto Evil",
+   "in_list": true
+  },
+  {
+   "id": "card:Dark Intimations",
+   "kind": "card",
+   "name": "Dark Intimations",
+   "in_list": true
+  },
+  {
+   "id": "card:Nicol Bolas, Dragon-God",
+   "kind": "card",
+   "name": "Nicol Bolas, Dragon-God",
+   "in_list": true
+  },
+  {
+   "id": "card:Nicol Bolas, God-Pharaoh",
+   "kind": "card",
+   "name": "Nicol Bolas, God-Pharaoh",
+   "in_list": true
+  },
+  {
+   "id": "card:Nicol Bolas, Planeswalker",
+   "kind": "card",
+   "name": "Nicol Bolas, Planeswalker",
+   "in_list": true
+  },
+  {
+   "id": "card:Nicol Bolas, the Deceiver",
+   "kind": "card",
+   "name": "Nicol Bolas, the Deceiver",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas-the-ravager/bolasrav-06",
+   "kind": "interaction",
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Spark Double",
+   "kind": "card",
+   "name": "Spark Double",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas-the-ravager/bolasrav-07",
+   "kind": "interaction",
+   "interaction": "bolasrav-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Sanctum Lurker",
+   "kind": "card",
+   "name": "Sanctum Lurker",
+   "in_list": true
+  },
+  {
+   "id": "card:Ripples of Potential",
+   "kind": "card",
+   "name": "Ripples of Potential",
+   "in_list": true
+  },
+  {
+   "id": "card:Dreamtide Whale",
+   "kind": "card",
+   "name": "Dreamtide Whale",
+   "in_list": true
+  },
+  {
+   "id": "card:Tekuthal, Inquiry Dominus",
+   "kind": "card",
+   "name": "Tekuthal, Inquiry Dominus",
+   "in_list": true
+  },
+  {
+   "id": "card:Flux Channeler",
+   "kind": "card",
+   "name": "Flux Channeler",
+   "in_list": true
+  },
+  {
+   "id": "card:Inexorable Tide",
+   "kind": "card",
+   "name": "Inexorable Tide",
+   "in_list": true
+  },
+  {
+   "id": "card:Karn's Bastion",
+   "kind": "card",
+   "name": "Karn's Bastion",
+   "in_list": true
+  },
+  {
+   "id": "card:Vraska, Betrayal's Sting",
+   "kind": "card",
+   "name": "Vraska, Betrayal's Sting",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nicol-bolas-the-ravager/bolasrav-08",
+   "kind": "interaction",
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "bolasrav-01:m1",
+   "from": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "712.14a",
+    "400.7",
+    "606.3",
+    "306.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-01",
+    "cr:712.14a",
+    "cr:400.7",
+    "cr:606.3",
+    "cr:306.5b"
+   ]
+  },
+  {
+   "id": "bolasrav-01:m2",
+   "from": "card:Training Grounds",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "712.14a",
+    "400.7",
+    "606.3",
+    "306.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-01",
+    "cr:712.14a",
+    "cr:400.7",
+    "cr:606.3",
+    "cr:306.5b"
+   ]
+  },
+  {
+   "id": "bolasrav-01:p1",
+   "from": "card:Training Grounds",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "712.14a",
+    "400.7",
+    "606.3",
+    "306.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-01",
+    "cr:712.14a",
+    "cr:400.7",
+    "cr:606.3",
+    "cr:306.5b"
+   ]
+  },
+  {
+   "id": "bolasrav-02:m1",
+   "from": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "712.14",
+    "400.7",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-02",
+    "cr:712.14",
+    "cr:400.7",
+    "cr:704.5m"
+   ]
+  },
+  {
+   "id": "bolasrav-02:m2",
+   "from": "card:Displacer Kitten",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "712.14",
+    "400.7",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-02",
+    "cr:712.14",
+    "cr:400.7",
+    "cr:704.5m"
+   ]
+  },
+  {
+   "id": "bolasrav-02:m3",
+   "from": "card:Rowan's Talent",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "712.14",
+    "400.7",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-02",
+    "cr:712.14",
+    "cr:400.7",
+    "cr:704.5m"
+   ]
+  },
+  {
+   "id": "bolasrav-02:m4",
+   "from": "card:Liliana's Talent",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "712.14",
+    "400.7",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-02",
+    "cr:712.14",
+    "cr:400.7",
+    "cr:704.5m"
+   ]
+  },
+  {
+   "id": "bolasrav-02:m5",
+   "from": "card:Tergrid, God of Fright // Tergrid's Lantern",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "712.14",
+    "400.7",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-02",
+    "cr:712.14",
+    "cr:400.7",
+    "cr:704.5m"
+   ]
+  },
+  {
+   "id": "bolasrav-02:p1",
+   "from": "card:Displacer Kitten",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "712.14",
+    "400.7",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-02",
+    "cr:712.14",
+    "cr:400.7",
+    "cr:704.5m"
+   ]
+  },
+  {
+   "id": "bolasrav-02:p2",
+   "from": "card:Rowan's Talent",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "712.14",
+    "400.7",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-02",
+    "cr:712.14",
+    "cr:400.7",
+    "cr:704.5m"
+   ]
+  },
+  {
+   "id": "bolasrav-02:p3",
+   "from": "card:Liliana's Talent",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "712.14",
+    "400.7",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-02",
+    "cr:712.14",
+    "cr:400.7",
+    "cr:704.5m"
+   ]
+  },
+  {
+   "id": "bolasrav-02:p4",
+   "from": "card:Tergrid, God of Fright // Tergrid's Lantern",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "712.14",
+    "400.7",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-02",
+    "cr:712.14",
+    "cr:400.7",
+    "cr:704.5m"
+   ]
+  },
+  {
+   "id": "bolasrav-03:m1",
+   "from": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "606.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-03",
+    "cr:707.10",
+    "cr:606.4"
+   ]
+  },
+  {
+   "id": "bolasrav-03:m2",
+   "from": "card:Rowan's Talent",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "606.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-03",
+    "cr:707.10",
+    "cr:606.4"
+   ]
+  },
+  {
+   "id": "bolasrav-03:m3",
+   "from": "card:Rings of Brighthearth",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "606.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-03",
+    "cr:707.10",
+    "cr:606.4"
+   ]
+  },
+  {
+   "id": "bolasrav-03:m4",
+   "from": "card:Jaya's Phoenix",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "606.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-03",
+    "cr:707.10",
+    "cr:606.4"
+   ]
+  },
+  {
+   "id": "bolasrav-03:p1",
+   "from": "card:Rowan's Talent",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "606.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-03",
+    "cr:707.10",
+    "cr:606.4"
+   ]
+  },
+  {
+   "id": "bolasrav-03:p2",
+   "from": "card:Rings of Brighthearth",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "606.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-03",
+    "cr:707.10",
+    "cr:606.4"
+   ]
+  },
+  {
+   "id": "bolasrav-03:p3",
+   "from": "card:Jaya's Phoenix",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "606.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-03",
+    "cr:707.10",
+    "cr:606.4"
+   ]
+  },
+  {
+   "id": "bolasrav-04:m1",
+   "from": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "to": "combo:nicol-bolas-the-ravager/bolasrav-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "606.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-04",
+    "cr:606.3",
+    "cr:707.10",
+    "spellbook:787-1124"
+   ]
+  },
+  {
+   "id": "bolasrav-04:m2",
+   "from": "card:Teferi, Temporal Archmage",
+   "to": "combo:nicol-bolas-the-ravager/bolasrav-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "606.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-04",
+    "cr:606.3",
+    "cr:707.10",
+    "spellbook:787-1124"
+   ]
+  },
+  {
+   "id": "bolasrav-04:m3",
+   "from": "card:The Chain Veil",
+   "to": "combo:nicol-bolas-the-ravager/bolasrav-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "606.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-04",
+    "cr:606.3",
+    "cr:707.10",
+    "spellbook:787-1124"
+   ]
+  },
+  {
+   "id": "bolasrav-04:m4",
+   "from": "card:Rings of Brighthearth",
+   "to": "combo:nicol-bolas-the-ravager/bolasrav-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "606.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-04",
+    "cr:606.3",
+    "cr:707.10",
+    "spellbook:787-1124"
+   ]
+  },
+  {
+   "id": "bolasrav-04:m5",
+   "from": "card:Mana Vault",
+   "to": "combo:nicol-bolas-the-ravager/bolasrav-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "606.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-04",
+    "cr:606.3",
+    "cr:707.10",
+    "spellbook:787-1124"
+   ]
+  },
+  {
+   "id": "bolasrav-04:m6",
+   "from": "card:Sol Ring",
+   "to": "combo:nicol-bolas-the-ravager/bolasrav-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "606.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-04",
+    "cr:606.3",
+    "cr:707.10",
+    "spellbook:787-1124"
+   ]
+  },
+  {
+   "id": "bolasrav-04:p1",
+   "from": "card:Teferi, Temporal Archmage",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "606.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-04",
+    "cr:606.3",
+    "cr:707.10",
+    "spellbook:787-1124"
+   ]
+  },
+  {
+   "id": "bolasrav-04:p2",
+   "from": "card:The Chain Veil",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "606.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-04",
+    "cr:606.3",
+    "cr:707.10",
+    "spellbook:787-1124"
+   ]
+  },
+  {
+   "id": "bolasrav-04:p3",
+   "from": "card:Rings of Brighthearth",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "606.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-04",
+    "cr:606.3",
+    "cr:707.10",
+    "spellbook:787-1124"
+   ]
+  },
+  {
+   "id": "bolasrav-04:p4",
+   "from": "card:Mana Vault",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "606.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-04",
+    "cr:606.3",
+    "cr:707.10",
+    "spellbook:787-1124"
+   ]
+  },
+  {
+   "id": "bolasrav-04:p5",
+   "from": "card:Sol Ring",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "606.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-04",
+    "cr:606.3",
+    "cr:707.10",
+    "spellbook:787-1124"
+   ]
+  },
+  {
+   "id": "bolasrav-05:m1",
+   "from": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "to": "combo:nicol-bolas-the-ravager/bolasrav-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "606.3",
+    "500.7",
+    "701.34a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-05",
+    "cr:606.3",
+    "cr:500.7",
+    "cr:701.34a",
+    "spellbook:1124-1543-2247",
+    "spellbook:652-1543-2247"
+   ]
+  },
+  {
+   "id": "bolasrav-05:m2",
+   "from": "card:Teferi, Master of Time",
+   "to": "combo:nicol-bolas-the-ravager/bolasrav-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "606.3",
+    "500.7",
+    "701.34a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-05",
+    "cr:606.3",
+    "cr:500.7",
+    "cr:701.34a",
+    "spellbook:1124-1543-2247",
+    "spellbook:652-1543-2247"
+   ]
+  },
+  {
+   "id": "bolasrav-05:m3",
+   "from": "card:Ichormoon Gauntlet",
+   "to": "combo:nicol-bolas-the-ravager/bolasrav-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "606.3",
+    "500.7",
+    "701.34a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-05",
+    "cr:606.3",
+    "cr:500.7",
+    "cr:701.34a",
+    "spellbook:1124-1543-2247",
+    "spellbook:652-1543-2247"
+   ]
+  },
+  {
+   "id": "bolasrav-05:m4",
+   "from": "card:The Chain Veil",
+   "to": "combo:nicol-bolas-the-ravager/bolasrav-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "606.3",
+    "500.7",
+    "701.34a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-05",
+    "cr:606.3",
+    "cr:500.7",
+    "cr:701.34a",
+    "spellbook:1124-1543-2247",
+    "spellbook:652-1543-2247"
+   ]
+  },
+  {
+   "id": "bolasrav-05:m5",
+   "from": "card:Rowan's Talent",
+   "to": "combo:nicol-bolas-the-ravager/bolasrav-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "606.3",
+    "500.7",
+    "701.34a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-05",
+    "cr:606.3",
+    "cr:500.7",
+    "cr:701.34a",
+    "spellbook:1124-1543-2247",
+    "spellbook:652-1543-2247"
+   ]
+  },
+  {
+   "id": "bolasrav-05:p1",
+   "from": "card:Teferi, Master of Time",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "606.3",
+    "500.7",
+    "701.34a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-05",
+    "cr:606.3",
+    "cr:500.7",
+    "cr:701.34a",
+    "spellbook:1124-1543-2247",
+    "spellbook:652-1543-2247"
+   ]
+  },
+  {
+   "id": "bolasrav-05:p2",
+   "from": "card:Ichormoon Gauntlet",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "606.3",
+    "500.7",
+    "701.34a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-05",
+    "cr:606.3",
+    "cr:500.7",
+    "cr:701.34a",
+    "spellbook:1124-1543-2247",
+    "spellbook:652-1543-2247"
+   ]
+  },
+  {
+   "id": "bolasrav-05:p3",
+   "from": "card:The Chain Veil",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "606.3",
+    "500.7",
+    "701.34a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-05",
+    "cr:606.3",
+    "cr:500.7",
+    "cr:701.34a",
+    "spellbook:1124-1543-2247",
+    "spellbook:652-1543-2247"
+   ]
+  },
+  {
+   "id": "bolasrav-05:p4",
+   "from": "card:Rowan's Talent",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "606.3",
+    "500.7",
+    "701.34a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-05",
+    "cr:606.3",
+    "cr:500.7",
+    "cr:701.34a",
+    "spellbook:1124-1543-2247",
+    "spellbook:652-1543-2247"
+   ]
+  },
+  {
+   "id": "bolasrav-06:m1",
+   "from": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-06",
+    "cr:205.3j",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "bolasrav-06:m2",
+   "from": "card:Deliver Unto Evil",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-06",
+    "cr:205.3j",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "bolasrav-06:m3",
+   "from": "card:Dark Intimations",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-06",
+    "cr:205.3j",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "bolasrav-06:m4",
+   "from": "card:Nicol Bolas, Dragon-God",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-06",
+    "cr:205.3j",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "bolasrav-06:m5",
+   "from": "card:Nicol Bolas, God-Pharaoh",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-06",
+    "cr:205.3j",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "bolasrav-06:m6",
+   "from": "card:Nicol Bolas, Planeswalker",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-06",
+    "cr:205.3j",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "bolasrav-06:m7",
+   "from": "card:Nicol Bolas, the Deceiver",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-06",
+    "cr:205.3j",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "bolasrav-06:p1",
+   "from": "card:Deliver Unto Evil",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-06",
+    "cr:205.3j",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "bolasrav-06:p2",
+   "from": "card:Dark Intimations",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-06",
+    "cr:205.3j",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "bolasrav-06:p3",
+   "from": "card:Nicol Bolas, Dragon-God",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-06",
+    "cr:205.3j",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "bolasrav-06:p4",
+   "from": "card:Nicol Bolas, God-Pharaoh",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-06",
+    "cr:205.3j",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "bolasrav-06:p5",
+   "from": "card:Nicol Bolas, Planeswalker",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-06",
+    "cr:205.3j",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "bolasrav-06:p6",
+   "from": "card:Nicol Bolas, the Deceiver",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-06",
+    "cr:205.3j",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "bolasrav-07:m1",
+   "from": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "707.9b",
+    "606.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-07",
+    "cr:707.2",
+    "cr:707.9b",
+    "cr:606.3"
+   ]
+  },
+  {
+   "id": "bolasrav-07:m2",
+   "from": "card:Spark Double",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "707.9b",
+    "606.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-07",
+    "cr:707.2",
+    "cr:707.9b",
+    "cr:606.3"
+   ]
+  },
+  {
+   "id": "bolasrav-07:m3",
+   "from": "card:Nicol Bolas, Dragon-God",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "707.9b",
+    "606.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-07",
+    "cr:707.2",
+    "cr:707.9b",
+    "cr:606.3"
+   ]
+  },
+  {
+   "id": "bolasrav-07:p1",
+   "from": "card:Spark Double",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "707.9b",
+    "606.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-07",
+    "cr:707.2",
+    "cr:707.9b",
+    "cr:606.3"
+   ]
+  },
+  {
+   "id": "bolasrav-07:p2",
+   "from": "card:Nicol Bolas, Dragon-God",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "707.9b",
+    "606.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-07",
+    "cr:707.2",
+    "cr:707.9b",
+    "cr:606.3"
+   ]
+  },
+  {
+   "id": "bolasrav-08:m1",
+   "from": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:m2",
+   "from": "card:Sanctum Lurker",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:m3",
+   "from": "card:Ripples of Potential",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:m4",
+   "from": "card:Dreamtide Whale",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:m5",
+   "from": "card:Tekuthal, Inquiry Dominus",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:m6",
+   "from": "card:Flux Channeler",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:m7",
+   "from": "card:Inexorable Tide",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:m8",
+   "from": "card:Karn's Bastion",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:m9",
+   "from": "card:Vraska, Betrayal's Sting",
+   "to": "interaction:nicol-bolas-the-ravager/bolasrav-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:p1",
+   "from": "card:Sanctum Lurker",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:p2",
+   "from": "card:Ripples of Potential",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:p3",
+   "from": "card:Dreamtide Whale",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:p4",
+   "from": "card:Tekuthal, Inquiry Dominus",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:p5",
+   "from": "card:Flux Channeler",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:p6",
+   "from": "card:Inexorable Tide",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:p7",
+   "from": "card:Karn's Bastion",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  },
+  {
+   "id": "bolasrav-08:p8",
+   "from": "card:Vraska, Betrayal's Sting",
+   "to": "commander:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "bolasrav-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nicol-bolas-the-ravager.json#bolasrav-08",
+    "cr:701.34a",
+    "cr:704.5i",
+    "cr:702.26b"
+   ]
+  }
+ ]
+}

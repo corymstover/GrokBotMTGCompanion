@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
- "pass_id": "audit:marchesa-the-black-rose:c59:204faea1c102",
+ "pass_id": "audit:marchesa-the-black-rose:c59:43ae98493441",
  "snapshot": {
-  "id": "sha256:204faea1c1028035b2630a53052156906df115da79a46112e871e19ce0aab6e2",
-  "graph": "sha256:c633aca4678aa314f5c428221e900c04ef01a79ed5153d78af81ccf6c2bd1721",
+  "id": "sha256:43ae984934418cfb0be6d1119ab78cd0a6d4d95ecf0437411625eea4b06efe6c",
+  "graph": "sha256:68e412485b1bed2eeb13277298366a2955770e8e8b14562aedf80211b7d6e1ed",
   "evidence": "sha256:f45df3fc1f0a9df3f4e116f5e023af051e9cb5e72987c04b2be21c865161274d",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

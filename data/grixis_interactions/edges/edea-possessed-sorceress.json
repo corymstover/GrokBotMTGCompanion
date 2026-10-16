@@ -1,0 +1,1409 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Edea__Possessed_Sorceress",
+ "slug": "edea-possessed-sorceress",
+ "deck_sha256": "d41924a6b09c4232b438aa863c833a28f67bdd6598c9bba470ae66f23428acd6",
+ "review": "data/grixis_interactions/edea-possessed-sorceress.json",
+ "review_sha256": "0b66f9cee886aa2974baaef2c586a35960db3c22d8e5d3c9d5f7dd4bd7f08c31",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 11,
+  "nodes": 30,
+  "membership_edges": 29,
+  "pair_edges": 18
+ },
+ "nodes": [
+  {
+   "id": "commander:Edea, Possessed Sorceress",
+   "kind": "commander",
+   "name": "Edea, Possessed Sorceress",
+   "in_list": true
+  },
+  {
+   "id": "card:Arcane Lighthouse",
+   "kind": "card",
+   "name": "Arcane Lighthouse",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edea-possessed-sorceress/edea-01",
+   "kind": "interaction",
+   "interaction": "edea-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Viscera Seer",
+   "kind": "card",
+   "name": "Viscera Seer",
+   "in_list": true
+  },
+  {
+   "id": "card:Phyrexian Altar",
+   "kind": "card",
+   "name": "Phyrexian Altar",
+   "in_list": true
+  },
+  {
+   "id": "card:Pitiless Plunderer",
+   "kind": "card",
+   "name": "Pitiless Plunderer",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edea-possessed-sorceress/edea-02",
+   "kind": "interaction",
+   "interaction": "edea-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Roaming Throne",
+   "kind": "card",
+   "name": "Roaming Throne",
+   "in_list": true
+  },
+  {
+   "id": "card:Strionic Resonator",
+   "kind": "card",
+   "name": "Strionic Resonator",
+   "in_list": true
+  },
+  {
+   "id": "card:Gogo, Master of Mimicry",
+   "kind": "card",
+   "name": "Gogo, Master of Mimicry",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edea-possessed-sorceress/edea-03",
+   "kind": "interaction",
+   "interaction": "edea-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Spark Double",
+   "kind": "card",
+   "name": "Spark Double",
+   "in_list": true
+  },
+  {
+   "id": "card:Sakashima of a Thousand Faces",
+   "kind": "card",
+   "name": "Sakashima of a Thousand Faces",
+   "in_list": true
+  },
+  {
+   "id": "card:Irma, Part-Time Mutant",
+   "kind": "card",
+   "name": "Irma, Part-Time Mutant",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edea-possessed-sorceress/edea-04",
+   "kind": "interaction",
+   "interaction": "edea-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Full Throttle",
+   "kind": "card",
+   "name": "Full Throttle",
+   "in_list": true
+  },
+  {
+   "id": "card:Karlach, Fury of Avernus",
+   "kind": "card",
+   "name": "Karlach, Fury of Avernus",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edea-possessed-sorceress/edea-05",
+   "kind": "interaction",
+   "interaction": "edea-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thassa, Deep-Dwelling",
+   "kind": "card",
+   "name": "Thassa, Deep-Dwelling",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edea-possessed-sorceress/edea-06",
+   "kind": "interaction",
+   "interaction": "edea-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Chaos Shrine's Black Crystal",
+   "kind": "card",
+   "name": "Chaos Shrine's Black Crystal",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edea-possessed-sorceress/edea-07",
+   "kind": "interaction",
+   "interaction": "edea-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Nightmare Shepherd",
+   "kind": "card",
+   "name": "Nightmare Shepherd",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edea-possessed-sorceress/edea-08",
+   "kind": "interaction",
+   "interaction": "edea-08",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Saw in Half",
+   "kind": "card",
+   "name": "Saw in Half",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edea-possessed-sorceress/edea-09",
+   "kind": "interaction",
+   "interaction": "edea-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Mass Mutiny",
+   "kind": "card",
+   "name": "Mass Mutiny",
+   "in_list": true
+  },
+  {
+   "id": "card:Captivating Crew",
+   "kind": "card",
+   "name": "Captivating Crew",
+   "in_list": true
+  },
+  {
+   "id": "interaction:edea-possessed-sorceress/edea-10",
+   "kind": "interaction",
+   "interaction": "edea-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:edea-possessed-sorceress/edea-11",
+   "kind": "interaction",
+   "interaction": "edea-11",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "edea-01:m1",
+   "from": "commander:Edea, Possessed Sorceress",
+   "to": "interaction:edea-possessed-sorceress/edea-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "115.1",
+    "608.2b",
+    "702.11a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-01",
+    "cr:115.1",
+    "cr:608.2b",
+    "cr:702.11a"
+   ]
+  },
+  {
+   "id": "edea-01:m2",
+   "from": "card:Arcane Lighthouse",
+   "to": "interaction:edea-possessed-sorceress/edea-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "115.1",
+    "608.2b",
+    "702.11a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-01",
+    "cr:115.1",
+    "cr:608.2b",
+    "cr:702.11a"
+   ]
+  },
+  {
+   "id": "edea-01:p1",
+   "from": "card:Arcane Lighthouse",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "115.1",
+    "608.2b",
+    "702.11a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-01",
+    "cr:115.1",
+    "cr:608.2b",
+    "cr:702.11a"
+   ]
+  },
+  {
+   "id": "edea-02:m1",
+   "from": "commander:Edea, Possessed Sorceress",
+   "to": "interaction:edea-possessed-sorceress/edea-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "603.3a",
+    "400.7",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-02",
+    "cr:700.4",
+    "cr:603.3a",
+    "cr:400.7",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "edea-02:m2",
+   "from": "card:Viscera Seer",
+   "to": "interaction:edea-possessed-sorceress/edea-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "603.3a",
+    "400.7",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-02",
+    "cr:700.4",
+    "cr:603.3a",
+    "cr:400.7",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "edea-02:m3",
+   "from": "card:Phyrexian Altar",
+   "to": "interaction:edea-possessed-sorceress/edea-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "603.3a",
+    "400.7",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-02",
+    "cr:700.4",
+    "cr:603.3a",
+    "cr:400.7",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "edea-02:m4",
+   "from": "card:Pitiless Plunderer",
+   "to": "interaction:edea-possessed-sorceress/edea-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "603.3a",
+    "400.7",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-02",
+    "cr:700.4",
+    "cr:603.3a",
+    "cr:400.7",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "edea-02:p1",
+   "from": "card:Viscera Seer",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "603.3a",
+    "400.7",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-02",
+    "cr:700.4",
+    "cr:603.3a",
+    "cr:400.7",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "edea-02:p2",
+   "from": "card:Phyrexian Altar",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "603.3a",
+    "400.7",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-02",
+    "cr:700.4",
+    "cr:603.3a",
+    "cr:400.7",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "edea-02:p3",
+   "from": "card:Pitiless Plunderer",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "603.3a",
+    "400.7",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-02",
+    "cr:700.4",
+    "cr:603.3a",
+    "cr:400.7",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "edea-03:m1",
+   "from": "commander:Edea, Possessed Sorceress",
+   "to": "interaction:edea-possessed-sorceress/edea-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "707.10",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-03",
+    "cr:400.7",
+    "cr:707.10",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "edea-03:m2",
+   "from": "card:Roaming Throne",
+   "to": "interaction:edea-possessed-sorceress/edea-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "707.10",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-03",
+    "cr:400.7",
+    "cr:707.10",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "edea-03:m3",
+   "from": "card:Strionic Resonator",
+   "to": "interaction:edea-possessed-sorceress/edea-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "707.10",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-03",
+    "cr:400.7",
+    "cr:707.10",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "edea-03:m4",
+   "from": "card:Gogo, Master of Mimicry",
+   "to": "interaction:edea-possessed-sorceress/edea-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "707.10",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-03",
+    "cr:400.7",
+    "cr:707.10",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "edea-03:p1",
+   "from": "card:Roaming Throne",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "707.10",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-03",
+    "cr:400.7",
+    "cr:707.10",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "edea-03:p2",
+   "from": "card:Strionic Resonator",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "707.10",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-03",
+    "cr:400.7",
+    "cr:707.10",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "edea-03:p3",
+   "from": "card:Gogo, Master of Mimicry",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "707.10",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-03",
+    "cr:400.7",
+    "cr:707.10",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "edea-04:m1",
+   "from": "commander:Edea, Possessed Sorceress",
+   "to": "interaction:edea-possessed-sorceress/edea-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "603.2",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:603.2",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "edea-04:m2",
+   "from": "card:Spark Double",
+   "to": "interaction:edea-possessed-sorceress/edea-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "603.2",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:603.2",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "edea-04:m3",
+   "from": "card:Sakashima of a Thousand Faces",
+   "to": "interaction:edea-possessed-sorceress/edea-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "603.2",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:603.2",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "edea-04:m4",
+   "from": "card:Irma, Part-Time Mutant",
+   "to": "interaction:edea-possessed-sorceress/edea-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "603.2",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:603.2",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "edea-04:p1",
+   "from": "card:Spark Double",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "603.2",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:603.2",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "edea-04:p2",
+   "from": "card:Sakashima of a Thousand Faces",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "603.2",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:603.2",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "edea-04:p3",
+   "from": "card:Irma, Part-Time Mutant",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "603.2",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:603.2",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "edea-05:m1",
+   "from": "commander:Edea, Possessed Sorceress",
+   "to": "interaction:edea-possessed-sorceress/edea-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-05",
+    "cr:500.8",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "edea-05:m2",
+   "from": "card:Full Throttle",
+   "to": "interaction:edea-possessed-sorceress/edea-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-05",
+    "cr:500.8",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "edea-05:m3",
+   "from": "card:Karlach, Fury of Avernus",
+   "to": "interaction:edea-possessed-sorceress/edea-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-05",
+    "cr:500.8",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "edea-05:p1",
+   "from": "card:Full Throttle",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-05",
+    "cr:500.8",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "edea-05:p2",
+   "from": "card:Karlach, Fury of Avernus",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "507.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-05",
+    "cr:500.8",
+    "cr:507.1"
+   ]
+  },
+  {
+   "id": "edea-06:m1",
+   "from": "commander:Edea, Possessed Sorceress",
+   "to": "interaction:edea-possessed-sorceress/edea-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "514.2",
+    "400.7",
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-06",
+    "cr:514.2",
+    "cr:400.7",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "edea-06:m2",
+   "from": "card:Thassa, Deep-Dwelling",
+   "to": "interaction:edea-possessed-sorceress/edea-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "514.2",
+    "400.7",
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-06",
+    "cr:514.2",
+    "cr:400.7",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "edea-06:p1",
+   "from": "card:Thassa, Deep-Dwelling",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "514.2",
+    "400.7",
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-06",
+    "cr:514.2",
+    "cr:400.7",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "edea-07:m1",
+   "from": "commander:Edea, Possessed Sorceress",
+   "to": "interaction:edea-possessed-sorceress/edea-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "400.7",
+    "122.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-07",
+    "cr:603.3b",
+    "cr:400.7",
+    "cr:122.1"
+   ]
+  },
+  {
+   "id": "edea-07:m2",
+   "from": "card:Chaos Shrine's Black Crystal",
+   "to": "interaction:edea-possessed-sorceress/edea-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "400.7",
+    "122.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-07",
+    "cr:603.3b",
+    "cr:400.7",
+    "cr:122.1"
+   ]
+  },
+  {
+   "id": "edea-07:p1",
+   "from": "card:Chaos Shrine's Black Crystal",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "400.7",
+    "122.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-07",
+    "cr:603.3b",
+    "cr:400.7",
+    "cr:122.1"
+   ]
+  },
+  {
+   "id": "edea-08:m1",
+   "from": "commander:Edea, Possessed Sorceress",
+   "to": "interaction:edea-possessed-sorceress/edea-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-08",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "111.2",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-08",
+    "cr:603.3b",
+    "cr:111.2",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "edea-08:m2",
+   "from": "card:Nightmare Shepherd",
+   "to": "interaction:edea-possessed-sorceress/edea-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-08",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "111.2",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-08",
+    "cr:603.3b",
+    "cr:111.2",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "edea-08:p1",
+   "from": "card:Nightmare Shepherd",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-08",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "111.2",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-08",
+    "cr:603.3b",
+    "cr:111.2",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "edea-09:m1",
+   "from": "commander:Edea, Possessed Sorceress",
+   "to": "interaction:edea-possessed-sorceress/edea-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.8a",
+    "700.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-09",
+    "cr:701.8a",
+    "cr:700.4"
+   ]
+  },
+  {
+   "id": "edea-09:m2",
+   "from": "card:Saw in Half",
+   "to": "interaction:edea-possessed-sorceress/edea-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.8a",
+    "700.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-09",
+    "cr:701.8a",
+    "cr:700.4"
+   ]
+  },
+  {
+   "id": "edea-09:p1",
+   "from": "card:Saw in Half",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.8a",
+    "700.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-09",
+    "cr:701.8a",
+    "cr:700.4"
+   ]
+  },
+  {
+   "id": "edea-10:m1",
+   "from": "commander:Edea, Possessed Sorceress",
+   "to": "interaction:edea-possessed-sorceress/edea-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "307.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-10",
+    "cr:108.3",
+    "cr:307.1"
+   ]
+  },
+  {
+   "id": "edea-10:m2",
+   "from": "card:Mass Mutiny",
+   "to": "interaction:edea-possessed-sorceress/edea-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "307.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-10",
+    "cr:108.3",
+    "cr:307.1"
+   ]
+  },
+  {
+   "id": "edea-10:m3",
+   "from": "card:Captivating Crew",
+   "to": "interaction:edea-possessed-sorceress/edea-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "307.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-10",
+    "cr:108.3",
+    "cr:307.1"
+   ]
+  },
+  {
+   "id": "edea-10:p1",
+   "from": "card:Mass Mutiny",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "307.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-10",
+    "cr:108.3",
+    "cr:307.1"
+   ]
+  },
+  {
+   "id": "edea-10:p2",
+   "from": "card:Captivating Crew",
+   "to": "commander:Edea, Possessed Sorceress",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "edea-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "307.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-10",
+    "cr:108.3",
+    "cr:307.1"
+   ]
+  },
+  {
+   "id": "edea-11:m1",
+   "from": "commander:Edea, Possessed Sorceress",
+   "to": "interaction:edea-possessed-sorceress/edea-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "edea-11",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.21a",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/edea-possessed-sorceress.json#edea-11",
+    "cr:701.21a",
+    "cr:400.7"
+   ]
+  }
+ ]
+}

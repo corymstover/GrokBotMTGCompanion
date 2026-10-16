@@ -1,0 +1,1825 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Sol_kanar_the_Tainted",
+ "slug": "solkanar-the-tainted",
+ "deck_sha256": "b1e622ad8c0a49e626d9df8cc87c0def392bb9c13e907216a8b212b790f3fc24",
+ "review": "data/grixis_interactions/solkanar-the-tainted.json",
+ "review_sha256": "81befa0509a06a9bdad562d9fe107d733db452ec57ed0e6c6c79711be2a01493",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 8,
+  "nodes": 31,
+  "membership_edges": 39,
+  "pair_edges": 31
+ },
+ "nodes": [
+  {
+   "id": "commander:Sol'Kanar the Tainted",
+   "kind": "commander",
+   "name": "Sol'Kanar the Tainted",
+   "in_list": true
+  },
+  {
+   "id": "interaction:solkanar-the-tainted/tainted-01",
+   "kind": "interaction",
+   "interaction": "tainted-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thassa, Deep-Dwelling",
+   "kind": "card",
+   "name": "Thassa, Deep-Dwelling",
+   "in_list": true
+  },
+  {
+   "id": "card:Conjurer's Closet",
+   "kind": "card",
+   "name": "Conjurer's Closet",
+   "in_list": true
+  },
+  {
+   "id": "card:Planar Incision",
+   "kind": "card",
+   "name": "Planar Incision",
+   "in_list": true
+  },
+  {
+   "id": "interaction:solkanar-the-tainted/tainted-02",
+   "kind": "interaction",
+   "interaction": "tainted-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Demonic Pact",
+   "kind": "card",
+   "name": "Demonic Pact",
+   "in_list": true
+  },
+  {
+   "id": "card:Donate",
+   "kind": "card",
+   "name": "Donate",
+   "in_list": true
+  },
+  {
+   "id": "card:Harmless Offering",
+   "kind": "card",
+   "name": "Harmless Offering",
+   "in_list": true
+  },
+  {
+   "id": "card:Blim, Comedic Genius",
+   "kind": "card",
+   "name": "Blim, Comedic Genius",
+   "in_list": true
+  },
+  {
+   "id": "card:Coveted Falcon",
+   "kind": "card",
+   "name": "Coveted Falcon",
+   "in_list": true
+  },
+  {
+   "id": "combo:solkanar-the-tainted/tainted-03",
+   "kind": "combo",
+   "interaction": "tainted-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "2770-6676",
+    "2770-6676"
+   ]
+  },
+  {
+   "id": "card:Immortal Coil",
+   "kind": "card",
+   "name": "Immortal Coil",
+   "in_list": true
+  },
+  {
+   "id": "card:Fateful Handoff",
+   "kind": "card",
+   "name": "Fateful Handoff",
+   "in_list": true
+  },
+  {
+   "id": "card:Bojuka Bog",
+   "kind": "card",
+   "name": "Bojuka Bog",
+   "in_list": true
+  },
+  {
+   "id": "card:Rakdos Charm",
+   "kind": "card",
+   "name": "Rakdos Charm",
+   "in_list": true
+  },
+  {
+   "id": "combo:solkanar-the-tainted/tainted-04",
+   "kind": "combo",
+   "interaction": "tainted-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Captive Audience",
+   "kind": "card",
+   "name": "Captive Audience",
+   "in_list": true
+  },
+  {
+   "id": "card:Xantcha, Sleeper Agent",
+   "kind": "card",
+   "name": "Xantcha, Sleeper Agent",
+   "in_list": true
+  },
+  {
+   "id": "card:Khârn the Betrayer",
+   "kind": "card",
+   "name": "Khârn the Betrayer",
+   "in_list": true
+  },
+  {
+   "id": "card:Kain, Traitorous Dragoon",
+   "kind": "card",
+   "name": "Kain, Traitorous Dragoon",
+   "in_list": true
+  },
+  {
+   "id": "card:Jon Irenicus, Shattered One",
+   "kind": "card",
+   "name": "Jon Irenicus, Shattered One",
+   "in_list": true
+  },
+  {
+   "id": "interaction:solkanar-the-tainted/tainted-05",
+   "kind": "interaction",
+   "interaction": "tainted-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Archfiend of the Dross",
+   "kind": "card",
+   "name": "Archfiend of the Dross",
+   "in_list": true
+  },
+  {
+   "id": "card:Greed's Gambit",
+   "kind": "card",
+   "name": "Greed's Gambit",
+   "in_list": true
+  },
+  {
+   "id": "interaction:solkanar-the-tainted/tainted-06",
+   "kind": "interaction",
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:solkanar-the-tainted/tainted-07",
+   "kind": "interaction",
+   "interaction": "tainted-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Mana Vault",
+   "kind": "card",
+   "name": "Mana Vault",
+   "in_list": true
+  },
+  {
+   "id": "card:Withering Torment",
+   "kind": "card",
+   "name": "Withering Torment",
+   "in_list": true
+  },
+  {
+   "id": "card:Deflecting Swat",
+   "kind": "card",
+   "name": "Deflecting Swat",
+   "in_list": true
+  },
+  {
+   "id": "interaction:solkanar-the-tainted/tainted-08",
+   "kind": "interaction",
+   "interaction": "tainted-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "tainted-01:m1",
+   "from": "commander:Sol'Kanar the Tainted",
+   "to": "interaction:solkanar-the-tainted/tainted-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.2",
+    "400.7",
+    "603.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-01",
+    "cr:700.2",
+    "cr:400.7",
+    "cr:603.3c"
+   ]
+  },
+  {
+   "id": "tainted-02:m1",
+   "from": "commander:Sol'Kanar the Tainted",
+   "to": "interaction:solkanar-the-tainted/tainted-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "400.7",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-02",
+    "cr:603.3b",
+    "cr:400.7",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "tainted-02:m2",
+   "from": "card:Thassa, Deep-Dwelling",
+   "to": "interaction:solkanar-the-tainted/tainted-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "400.7",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-02",
+    "cr:603.3b",
+    "cr:400.7",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "tainted-02:m3",
+   "from": "card:Conjurer's Closet",
+   "to": "interaction:solkanar-the-tainted/tainted-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "400.7",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-02",
+    "cr:603.3b",
+    "cr:400.7",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "tainted-02:m4",
+   "from": "card:Planar Incision",
+   "to": "interaction:solkanar-the-tainted/tainted-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "400.7",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-02",
+    "cr:603.3b",
+    "cr:400.7",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "tainted-02:p1",
+   "from": "card:Thassa, Deep-Dwelling",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "400.7",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-02",
+    "cr:603.3b",
+    "cr:400.7",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "tainted-02:p2",
+   "from": "card:Conjurer's Closet",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "400.7",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-02",
+    "cr:603.3b",
+    "cr:400.7",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "tainted-02:p3",
+   "from": "card:Planar Incision",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "400.7",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-02",
+    "cr:603.3b",
+    "cr:400.7",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "tainted-03:m1",
+   "from": "commander:Sol'Kanar the Tainted",
+   "to": "combo:solkanar-the-tainted/tainted-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.2",
+    "613.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-03",
+    "cr:700.2",
+    "cr:613.1b",
+    "spellbook:2770-6676",
+    "spellbook:2770-6676"
+   ]
+  },
+  {
+   "id": "tainted-03:m2",
+   "from": "card:Demonic Pact",
+   "to": "combo:solkanar-the-tainted/tainted-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.2",
+    "613.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-03",
+    "cr:700.2",
+    "cr:613.1b",
+    "spellbook:2770-6676",
+    "spellbook:2770-6676"
+   ]
+  },
+  {
+   "id": "tainted-03:m3",
+   "from": "card:Donate",
+   "to": "combo:solkanar-the-tainted/tainted-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.2",
+    "613.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-03",
+    "cr:700.2",
+    "cr:613.1b",
+    "spellbook:2770-6676",
+    "spellbook:2770-6676"
+   ]
+  },
+  {
+   "id": "tainted-03:m4",
+   "from": "card:Harmless Offering",
+   "to": "combo:solkanar-the-tainted/tainted-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.2",
+    "613.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-03",
+    "cr:700.2",
+    "cr:613.1b",
+    "spellbook:2770-6676",
+    "spellbook:2770-6676"
+   ]
+  },
+  {
+   "id": "tainted-03:m5",
+   "from": "card:Blim, Comedic Genius",
+   "to": "combo:solkanar-the-tainted/tainted-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.2",
+    "613.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-03",
+    "cr:700.2",
+    "cr:613.1b",
+    "spellbook:2770-6676",
+    "spellbook:2770-6676"
+   ]
+  },
+  {
+   "id": "tainted-03:m6",
+   "from": "card:Coveted Falcon",
+   "to": "combo:solkanar-the-tainted/tainted-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.2",
+    "613.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-03",
+    "cr:700.2",
+    "cr:613.1b",
+    "spellbook:2770-6676",
+    "spellbook:2770-6676"
+   ]
+  },
+  {
+   "id": "tainted-03:p1",
+   "from": "card:Demonic Pact",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.2",
+    "613.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-03",
+    "cr:700.2",
+    "cr:613.1b",
+    "spellbook:2770-6676",
+    "spellbook:2770-6676"
+   ]
+  },
+  {
+   "id": "tainted-03:p2",
+   "from": "card:Donate",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.2",
+    "613.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-03",
+    "cr:700.2",
+    "cr:613.1b",
+    "spellbook:2770-6676",
+    "spellbook:2770-6676"
+   ]
+  },
+  {
+   "id": "tainted-03:p3",
+   "from": "card:Harmless Offering",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.2",
+    "613.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-03",
+    "cr:700.2",
+    "cr:613.1b",
+    "spellbook:2770-6676",
+    "spellbook:2770-6676"
+   ]
+  },
+  {
+   "id": "tainted-03:p4",
+   "from": "card:Blim, Comedic Genius",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.2",
+    "613.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-03",
+    "cr:700.2",
+    "cr:613.1b",
+    "spellbook:2770-6676",
+    "spellbook:2770-6676"
+   ]
+  },
+  {
+   "id": "tainted-03:p5",
+   "from": "card:Coveted Falcon",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.2",
+    "613.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-03",
+    "cr:700.2",
+    "cr:613.1b",
+    "spellbook:2770-6676",
+    "spellbook:2770-6676"
+   ]
+  },
+  {
+   "id": "tainted-04:m1",
+   "from": "commander:Sol'Kanar the Tainted",
+   "to": "combo:solkanar-the-tainted/tainted-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.8",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-04",
+    "cr:603.8",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tainted-04:m2",
+   "from": "card:Immortal Coil",
+   "to": "combo:solkanar-the-tainted/tainted-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.8",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-04",
+    "cr:603.8",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tainted-04:m3",
+   "from": "card:Fateful Handoff",
+   "to": "combo:solkanar-the-tainted/tainted-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.8",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-04",
+    "cr:603.8",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tainted-04:m4",
+   "from": "card:Bojuka Bog",
+   "to": "combo:solkanar-the-tainted/tainted-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.8",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-04",
+    "cr:603.8",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tainted-04:m5",
+   "from": "card:Rakdos Charm",
+   "to": "combo:solkanar-the-tainted/tainted-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.8",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-04",
+    "cr:603.8",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tainted-04:m6",
+   "from": "card:Donate",
+   "to": "combo:solkanar-the-tainted/tainted-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.8",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-04",
+    "cr:603.8",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tainted-04:p1",
+   "from": "card:Immortal Coil",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.8",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-04",
+    "cr:603.8",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tainted-04:p2",
+   "from": "card:Fateful Handoff",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.8",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-04",
+    "cr:603.8",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tainted-04:p3",
+   "from": "card:Bojuka Bog",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.8",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-04",
+    "cr:603.8",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tainted-04:p4",
+   "from": "card:Rakdos Charm",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.8",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-04",
+    "cr:603.8",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tainted-04:p5",
+   "from": "card:Donate",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.8",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-04",
+    "cr:603.8",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tainted-05:m1",
+   "from": "commander:Sol'Kanar the Tainted",
+   "to": "interaction:solkanar-the-tainted/tainted-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.12",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-05",
+    "cr:614.12",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "tainted-05:m2",
+   "from": "card:Captive Audience",
+   "to": "interaction:solkanar-the-tainted/tainted-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.12",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-05",
+    "cr:614.12",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "tainted-05:m3",
+   "from": "card:Xantcha, Sleeper Agent",
+   "to": "interaction:solkanar-the-tainted/tainted-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.12",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-05",
+    "cr:614.12",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "tainted-05:m4",
+   "from": "card:Khârn the Betrayer",
+   "to": "interaction:solkanar-the-tainted/tainted-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.12",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-05",
+    "cr:614.12",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "tainted-05:m5",
+   "from": "card:Kain, Traitorous Dragoon",
+   "to": "interaction:solkanar-the-tainted/tainted-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.12",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-05",
+    "cr:614.12",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "tainted-05:m6",
+   "from": "card:Jon Irenicus, Shattered One",
+   "to": "interaction:solkanar-the-tainted/tainted-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.12",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-05",
+    "cr:614.12",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "tainted-05:p1",
+   "from": "card:Captive Audience",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.12",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-05",
+    "cr:614.12",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "tainted-05:p2",
+   "from": "card:Xantcha, Sleeper Agent",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.12",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-05",
+    "cr:614.12",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "tainted-05:p3",
+   "from": "card:Khârn the Betrayer",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.12",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-05",
+    "cr:614.12",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "tainted-05:p4",
+   "from": "card:Kain, Traitorous Dragoon",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.12",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-05",
+    "cr:614.12",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "tainted-05:p5",
+   "from": "card:Jon Irenicus, Shattered One",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.12",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-05",
+    "cr:614.12",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "tainted-06:m1",
+   "from": "commander:Sol'Kanar the Tainted",
+   "to": "interaction:solkanar-the-tainted/tainted-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:m2",
+   "from": "card:Demonic Pact",
+   "to": "interaction:solkanar-the-tainted/tainted-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:m3",
+   "from": "card:Immortal Coil",
+   "to": "interaction:solkanar-the-tainted/tainted-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:m4",
+   "from": "card:Archfiend of the Dross",
+   "to": "interaction:solkanar-the-tainted/tainted-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:m5",
+   "from": "card:Greed's Gambit",
+   "to": "interaction:solkanar-the-tainted/tainted-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:m6",
+   "from": "card:Donate",
+   "to": "interaction:solkanar-the-tainted/tainted-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:m7",
+   "from": "card:Harmless Offering",
+   "to": "interaction:solkanar-the-tainted/tainted-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:m8",
+   "from": "card:Blim, Comedic Genius",
+   "to": "interaction:solkanar-the-tainted/tainted-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:p1",
+   "from": "card:Demonic Pact",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:p2",
+   "from": "card:Immortal Coil",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:p3",
+   "from": "card:Archfiend of the Dross",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:p4",
+   "from": "card:Greed's Gambit",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:p5",
+   "from": "card:Donate",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:p6",
+   "from": "card:Harmless Offering",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-06:p7",
+   "from": "card:Blim, Comedic Genius",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-06",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-06",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "tainted-07:m1",
+   "from": "commander:Sol'Kanar the Tainted",
+   "to": "interaction:solkanar-the-tainted/tainted-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "109.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-07",
+    "cr:109.5"
+   ]
+  },
+  {
+   "id": "tainted-07:m2",
+   "from": "card:Greed's Gambit",
+   "to": "interaction:solkanar-the-tainted/tainted-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "109.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-07",
+    "cr:109.5"
+   ]
+  },
+  {
+   "id": "tainted-07:m3",
+   "from": "card:Fateful Handoff",
+   "to": "interaction:solkanar-the-tainted/tainted-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "109.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-07",
+    "cr:109.5"
+   ]
+  },
+  {
+   "id": "tainted-07:m4",
+   "from": "card:Donate",
+   "to": "interaction:solkanar-the-tainted/tainted-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "109.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-07",
+    "cr:109.5"
+   ]
+  },
+  {
+   "id": "tainted-07:p1",
+   "from": "card:Greed's Gambit",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "109.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-07",
+    "cr:109.5"
+   ]
+  },
+  {
+   "id": "tainted-07:p2",
+   "from": "card:Fateful Handoff",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "109.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-07",
+    "cr:109.5"
+   ]
+  },
+  {
+   "id": "tainted-07:p3",
+   "from": "card:Donate",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "109.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-07",
+    "cr:109.5"
+   ]
+  },
+  {
+   "id": "tainted-08:m1",
+   "from": "commander:Sol'Kanar the Tainted",
+   "to": "interaction:solkanar-the-tainted/tainted-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-08",
+    "cr:118.9"
+   ]
+  },
+  {
+   "id": "tainted-08:m2",
+   "from": "card:Mana Vault",
+   "to": "interaction:solkanar-the-tainted/tainted-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-08",
+    "cr:118.9"
+   ]
+  },
+  {
+   "id": "tainted-08:m3",
+   "from": "card:Withering Torment",
+   "to": "interaction:solkanar-the-tainted/tainted-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-08",
+    "cr:118.9"
+   ]
+  },
+  {
+   "id": "tainted-08:m4",
+   "from": "card:Deflecting Swat",
+   "to": "interaction:solkanar-the-tainted/tainted-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tainted-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-08",
+    "cr:118.9"
+   ]
+  },
+  {
+   "id": "tainted-08:p1",
+   "from": "card:Mana Vault",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-08",
+    "cr:118.9"
+   ]
+  },
+  {
+   "id": "tainted-08:p2",
+   "from": "card:Withering Torment",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-08",
+    "cr:118.9"
+   ]
+  },
+  {
+   "id": "tainted-08:p3",
+   "from": "card:Deflecting Swat",
+   "to": "commander:Sol'Kanar the Tainted",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tainted-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/solkanar-the-tainted.json#tainted-08",
+    "cr:118.9"
+   ]
+  }
+ ]
+}

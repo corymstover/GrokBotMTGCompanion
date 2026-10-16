@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
- "pass_id": "audit:gwendlyn-di-corci:c59:3d82ebbd267f",
+ "pass_id": "audit:gwendlyn-di-corci:c59:26f44405eb84",
  "snapshot": {
-  "id": "sha256:3d82ebbd267fed666a485a7bd1bfd9daec7d27757e39c81c98b90471827a031f",
-  "graph": "sha256:7a73ac58f6d9c3dec4e675c02a182e4da3785dbbc7afc7f050d7a32e298dae37",
-  "evidence": "sha256:6176b9d4bd25256e984055dc205854315c4f1d158a8d059748e456a9527c1378",
-  "m1": "absent"
+  "id": "sha256:26f44405eb84883d0b17115645738e03758fa75a1ea15d9ca7adca163a3a7397",
+  "graph": "sha256:29156d9a57881d793c69b405b58a6ae5fb548f4c7c93479cd37e741b5e675010",
+  "evidence": "sha256:e9adb528d30d58d00281f8626ca564f105ec978a2b7f16152d6ee5a39a00dcb2",
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
@@ -143,7 +143,7 @@
   "screened": 199,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:6176b9d4bd25256e984055dc205854315c4f1d158a8d059748e456a9527c1378"
+  "snapshot": "sha256:e9adb528d30d58d00281f8626ca564f105ec978a2b7f16152d6ee5a39a00dcb2"
  },
  "slots": [
   {"card":"An Offer You Can't Refuse","quantity":1,"zone":"main","disposition":"flexible","review_status":"provisional","classifier":"script","roles":["counter","ramp"],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/An Offer You Can't Refuse"],"alternatives":["evidence:data/grixis/evidence/gwendlyn-di-corci.json#Drown in the Loch"],"redundancy":14,"reason":"flexible ({U} instant): 14 other cards sharing a key role. Oracle: “Counter target noncreature spell”. Role counter (6 in list), ramp (10 in list). Redundancy 14 (other cards sharing a key role). Best alternative: Drown in the Loch (shared key role, EDHREC 16%). EDHREC inclusion 23.7%, synergy -0.08.","evidence":["evidence:data/grixis/evidence/gwendlyn-di-corci.json#An Offer You Can't Refuse","graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/An Offer You Can't Refuse","oracle:An Offer You Can't Refuse"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":2},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

@@ -1,0 +1,1325 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Zevlor__Elturel_Exile",
+ "slug": "zevlor-elturel-exile",
+ "deck_sha256": "6a8966fca69ad99c1796104a14f6aae186446c80db5cc2e2744ee283aad5e022",
+ "review": "data/grixis_interactions/zevlor-elturel-exile.json",
+ "review_sha256": "aca51955051050d7e4a2aa4b2069106a2acd2dadb5452796eccb59a7faf95cbb",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 4,
+  "nodes": 26,
+  "membership_edges": 25,
+  "pair_edges": 21
+ },
+ "nodes": [
+  {
+   "id": "commander:Zevlor, Elturel Exile",
+   "kind": "commander",
+   "name": "Zevlor, Elturel Exile",
+   "in_list": true
+  },
+  {
+   "id": "card:Rakdos Charm",
+   "kind": "card",
+   "name": "Rakdos Charm",
+   "in_list": true
+  },
+  {
+   "id": "card:Cyclonic Rift",
+   "kind": "card",
+   "name": "Cyclonic Rift",
+   "in_list": true
+  },
+  {
+   "id": "card:Jeska's Will",
+   "kind": "card",
+   "name": "Jeska's Will",
+   "in_list": true
+  },
+  {
+   "id": "interaction:zevlor-elturel-exile/zevlor-01",
+   "kind": "interaction",
+   "interaction": "zevlor-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Illusionist's Bracers",
+   "kind": "card",
+   "name": "Illusionist's Bracers",
+   "in_list": true
+  },
+  {
+   "id": "card:Twinning Staff",
+   "kind": "card",
+   "name": "Twinning Staff",
+   "in_list": true
+  },
+  {
+   "id": "card:Exterminator Magmarch",
+   "kind": "card",
+   "name": "Exterminator Magmarch",
+   "in_list": true
+  },
+  {
+   "id": "card:Archmage Emeritus",
+   "kind": "card",
+   "name": "Archmage Emeritus",
+   "in_list": true
+  },
+  {
+   "id": "card:Storm-Kiln Artist",
+   "kind": "card",
+   "name": "Storm-Kiln Artist",
+   "in_list": true
+  },
+  {
+   "id": "interaction:zevlor-elturel-exile/zevlor-02",
+   "kind": "interaction",
+   "interaction": "zevlor-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Training Grounds",
+   "kind": "card",
+   "name": "Training Grounds",
+   "in_list": true
+  },
+  {
+   "id": "card:Omen Hawker",
+   "kind": "card",
+   "name": "Omen Hawker",
+   "in_list": true
+  },
+  {
+   "id": "card:Pemmin's Aura",
+   "kind": "card",
+   "name": "Pemmin's Aura",
+   "in_list": true
+  },
+  {
+   "id": "card:Minamo, School at Water's Edge",
+   "kind": "card",
+   "name": "Minamo, School at Water's Edge",
+   "in_list": true
+  },
+  {
+   "id": "card:Patriar's Seal",
+   "kind": "card",
+   "name": "Patriar's Seal",
+   "in_list": true
+  },
+  {
+   "id": "card:Swiftfoot Boots",
+   "kind": "card",
+   "name": "Swiftfoot Boots",
+   "in_list": true
+  },
+  {
+   "id": "interaction:zevlor-elturel-exile/zevlor-03",
+   "kind": "interaction",
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "3525-3772"
+   ]
+  },
+  {
+   "id": "card:Cruel Ultimatum",
+   "kind": "card",
+   "name": "Cruel Ultimatum",
+   "in_list": true
+  },
+  {
+   "id": "card:Great Intelligence's Plan",
+   "kind": "card",
+   "name": "Great Intelligence's Plan",
+   "in_list": true
+  },
+  {
+   "id": "card:River's Rebuke",
+   "kind": "card",
+   "name": "River's Rebuke",
+   "in_list": true
+  },
+  {
+   "id": "card:Acquire",
+   "kind": "card",
+   "name": "Acquire",
+   "in_list": true
+  },
+  {
+   "id": "card:Portent",
+   "kind": "card",
+   "name": "Portent",
+   "in_list": true
+  },
+  {
+   "id": "card:Worst Fears",
+   "kind": "card",
+   "name": "Worst Fears",
+   "in_list": true
+  },
+  {
+   "id": "card:Blue Sun's Twilight",
+   "kind": "card",
+   "name": "Blue Sun's Twilight",
+   "in_list": true
+  },
+  {
+   "id": "interaction:zevlor-elturel-exile/zevlor-04",
+   "kind": "interaction",
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "zevlor-01:m1",
+   "from": "commander:Zevlor, Elturel Exile",
+   "to": "interaction:zevlor-elturel-exile/zevlor-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a",
+    "707.10",
+    "702.96b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-01",
+    "cr:603.7a",
+    "cr:707.10",
+    "cr:702.96b"
+   ]
+  },
+  {
+   "id": "zevlor-01:m2",
+   "from": "card:Rakdos Charm",
+   "to": "interaction:zevlor-elturel-exile/zevlor-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a",
+    "707.10",
+    "702.96b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-01",
+    "cr:603.7a",
+    "cr:707.10",
+    "cr:702.96b"
+   ]
+  },
+  {
+   "id": "zevlor-01:m3",
+   "from": "card:Cyclonic Rift",
+   "to": "interaction:zevlor-elturel-exile/zevlor-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a",
+    "707.10",
+    "702.96b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-01",
+    "cr:603.7a",
+    "cr:707.10",
+    "cr:702.96b"
+   ]
+  },
+  {
+   "id": "zevlor-01:m4",
+   "from": "card:Jeska's Will",
+   "to": "interaction:zevlor-elturel-exile/zevlor-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a",
+    "707.10",
+    "702.96b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-01",
+    "cr:603.7a",
+    "cr:707.10",
+    "cr:702.96b"
+   ]
+  },
+  {
+   "id": "zevlor-01:p1",
+   "from": "card:Rakdos Charm",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7a",
+    "707.10",
+    "702.96b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-01",
+    "cr:603.7a",
+    "cr:707.10",
+    "cr:702.96b"
+   ]
+  },
+  {
+   "id": "zevlor-01:p2",
+   "from": "card:Cyclonic Rift",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7a",
+    "707.10",
+    "702.96b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-01",
+    "cr:603.7a",
+    "cr:707.10",
+    "cr:702.96b"
+   ]
+  },
+  {
+   "id": "zevlor-01:p3",
+   "from": "card:Jeska's Will",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7a",
+    "707.10",
+    "702.96b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-01",
+    "cr:603.7a",
+    "cr:707.10",
+    "cr:702.96b"
+   ]
+  },
+  {
+   "id": "zevlor-02:m1",
+   "from": "commander:Zevlor, Elturel Exile",
+   "to": "interaction:zevlor-elturel-exile/zevlor-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7b",
+    "707.10",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-02",
+    "cr:603.7b",
+    "cr:707.10",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "zevlor-02:m2",
+   "from": "card:Illusionist's Bracers",
+   "to": "interaction:zevlor-elturel-exile/zevlor-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7b",
+    "707.10",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-02",
+    "cr:603.7b",
+    "cr:707.10",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "zevlor-02:m3",
+   "from": "card:Twinning Staff",
+   "to": "interaction:zevlor-elturel-exile/zevlor-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7b",
+    "707.10",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-02",
+    "cr:603.7b",
+    "cr:707.10",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "zevlor-02:m4",
+   "from": "card:Exterminator Magmarch",
+   "to": "interaction:zevlor-elturel-exile/zevlor-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7b",
+    "707.10",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-02",
+    "cr:603.7b",
+    "cr:707.10",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "zevlor-02:m5",
+   "from": "card:Archmage Emeritus",
+   "to": "interaction:zevlor-elturel-exile/zevlor-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7b",
+    "707.10",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-02",
+    "cr:603.7b",
+    "cr:707.10",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "zevlor-02:m6",
+   "from": "card:Storm-Kiln Artist",
+   "to": "interaction:zevlor-elturel-exile/zevlor-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7b",
+    "707.10",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-02",
+    "cr:603.7b",
+    "cr:707.10",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "zevlor-02:p1",
+   "from": "card:Illusionist's Bracers",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7b",
+    "707.10",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-02",
+    "cr:603.7b",
+    "cr:707.10",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "zevlor-02:p2",
+   "from": "card:Twinning Staff",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7b",
+    "707.10",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-02",
+    "cr:603.7b",
+    "cr:707.10",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "zevlor-02:p3",
+   "from": "card:Exterminator Magmarch",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7b",
+    "707.10",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-02",
+    "cr:603.7b",
+    "cr:707.10",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "zevlor-02:p4",
+   "from": "card:Archmage Emeritus",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7b",
+    "707.10",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-02",
+    "cr:603.7b",
+    "cr:707.10",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "zevlor-02:p5",
+   "from": "card:Storm-Kiln Artist",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7b",
+    "707.10",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-02",
+    "cr:603.7b",
+    "cr:707.10",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "zevlor-03:m1",
+   "from": "commander:Zevlor, Elturel Exile",
+   "to": "interaction:zevlor-elturel-exile/zevlor-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.1",
+    "702.11b",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-03",
+    "cr:602.1",
+    "cr:702.11b",
+    "cr:702.18a",
+    "spellbook:3525-3772"
+   ]
+  },
+  {
+   "id": "zevlor-03:m2",
+   "from": "card:Training Grounds",
+   "to": "interaction:zevlor-elturel-exile/zevlor-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.1",
+    "702.11b",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-03",
+    "cr:602.1",
+    "cr:702.11b",
+    "cr:702.18a",
+    "spellbook:3525-3772"
+   ]
+  },
+  {
+   "id": "zevlor-03:m3",
+   "from": "card:Omen Hawker",
+   "to": "interaction:zevlor-elturel-exile/zevlor-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.1",
+    "702.11b",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-03",
+    "cr:602.1",
+    "cr:702.11b",
+    "cr:702.18a",
+    "spellbook:3525-3772"
+   ]
+  },
+  {
+   "id": "zevlor-03:m4",
+   "from": "card:Pemmin's Aura",
+   "to": "interaction:zevlor-elturel-exile/zevlor-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.1",
+    "702.11b",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-03",
+    "cr:602.1",
+    "cr:702.11b",
+    "cr:702.18a",
+    "spellbook:3525-3772"
+   ]
+  },
+  {
+   "id": "zevlor-03:m5",
+   "from": "card:Minamo, School at Water's Edge",
+   "to": "interaction:zevlor-elturel-exile/zevlor-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.1",
+    "702.11b",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-03",
+    "cr:602.1",
+    "cr:702.11b",
+    "cr:702.18a",
+    "spellbook:3525-3772"
+   ]
+  },
+  {
+   "id": "zevlor-03:m6",
+   "from": "card:Patriar's Seal",
+   "to": "interaction:zevlor-elturel-exile/zevlor-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.1",
+    "702.11b",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-03",
+    "cr:602.1",
+    "cr:702.11b",
+    "cr:702.18a",
+    "spellbook:3525-3772"
+   ]
+  },
+  {
+   "id": "zevlor-03:m7",
+   "from": "card:Swiftfoot Boots",
+   "to": "interaction:zevlor-elturel-exile/zevlor-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.1",
+    "702.11b",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-03",
+    "cr:602.1",
+    "cr:702.11b",
+    "cr:702.18a",
+    "spellbook:3525-3772"
+   ]
+  },
+  {
+   "id": "zevlor-03:p1",
+   "from": "card:Training Grounds",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.1",
+    "702.11b",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-03",
+    "cr:602.1",
+    "cr:702.11b",
+    "cr:702.18a",
+    "spellbook:3525-3772"
+   ]
+  },
+  {
+   "id": "zevlor-03:p2",
+   "from": "card:Omen Hawker",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.1",
+    "702.11b",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-03",
+    "cr:602.1",
+    "cr:702.11b",
+    "cr:702.18a",
+    "spellbook:3525-3772"
+   ]
+  },
+  {
+   "id": "zevlor-03:p3",
+   "from": "card:Pemmin's Aura",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.1",
+    "702.11b",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-03",
+    "cr:602.1",
+    "cr:702.11b",
+    "cr:702.18a",
+    "spellbook:3525-3772"
+   ]
+  },
+  {
+   "id": "zevlor-03:p4",
+   "from": "card:Minamo, School at Water's Edge",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.1",
+    "702.11b",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-03",
+    "cr:602.1",
+    "cr:702.11b",
+    "cr:702.18a",
+    "spellbook:3525-3772"
+   ]
+  },
+  {
+   "id": "zevlor-03:p5",
+   "from": "card:Patriar's Seal",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.1",
+    "702.11b",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-03",
+    "cr:602.1",
+    "cr:702.11b",
+    "cr:702.18a",
+    "spellbook:3525-3772"
+   ]
+  },
+  {
+   "id": "zevlor-03:p6",
+   "from": "card:Swiftfoot Boots",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.1",
+    "702.11b",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-03",
+    "cr:602.1",
+    "cr:702.11b",
+    "cr:702.18a",
+    "spellbook:3525-3772"
+   ]
+  },
+  {
+   "id": "zevlor-04:m1",
+   "from": "commander:Zevlor, Elturel Exile",
+   "to": "interaction:zevlor-elturel-exile/zevlor-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:m2",
+   "from": "card:Cruel Ultimatum",
+   "to": "interaction:zevlor-elturel-exile/zevlor-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:m3",
+   "from": "card:Great Intelligence's Plan",
+   "to": "interaction:zevlor-elturel-exile/zevlor-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:m4",
+   "from": "card:River's Rebuke",
+   "to": "interaction:zevlor-elturel-exile/zevlor-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:m5",
+   "from": "card:Acquire",
+   "to": "interaction:zevlor-elturel-exile/zevlor-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:m6",
+   "from": "card:Portent",
+   "to": "interaction:zevlor-elturel-exile/zevlor-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:m7",
+   "from": "card:Worst Fears",
+   "to": "interaction:zevlor-elturel-exile/zevlor-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:m8",
+   "from": "card:Blue Sun's Twilight",
+   "to": "interaction:zevlor-elturel-exile/zevlor-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:p1",
+   "from": "card:Cruel Ultimatum",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:p2",
+   "from": "card:Great Intelligence's Plan",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:p3",
+   "from": "card:River's Rebuke",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:p4",
+   "from": "card:Acquire",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:p5",
+   "from": "card:Portent",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:p6",
+   "from": "card:Worst Fears",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  },
+  {
+   "id": "zevlor-04:p7",
+   "from": "card:Blue Sun's Twilight",
+   "to": "commander:Zevlor, Elturel Exile",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "zevlor-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "723.5"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/zevlor-elturel-exile.json#zevlor-04",
+    "cr:707.10",
+    "cr:723.5"
+   ]
+  }
+ ]
+}

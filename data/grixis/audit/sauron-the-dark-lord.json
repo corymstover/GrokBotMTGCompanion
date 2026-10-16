@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
- "pass_id": "audit:sauron-the-dark-lord:c59:379ab1646741",
+ "pass_id": "audit:sauron-the-dark-lord:c59:4da05a481133",
  "snapshot": {
-  "id": "sha256:379ab164674196da1706adf1604b995c5115dfd418350d4b8e07c3d775c22301",
-  "graph": "sha256:389f682a82839d7e49196d1752a9c9b80a02dac827c3cbfa1f9e92a8c4438467",
+  "id": "sha256:4da05a48113337d3f50cb1b1c1efb95e710a397d4032defa81b2d645171573d9",
+  "graph": "sha256:e5c30c6cb592a6590bb64777362c1db1cbf6dfe6de8b46547a04a2e87c2cc4ec",
   "evidence": "sha256:91d82c90078edd06f95a7da5386e8ec9cc42f9e169191827f6c2f87047c6446e",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

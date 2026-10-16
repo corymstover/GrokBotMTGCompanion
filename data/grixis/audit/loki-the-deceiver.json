@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
- "pass_id": "audit:loki-the-deceiver:c59:040bb1d37f29",
+ "pass_id": "audit:loki-the-deceiver:c59:2f92c546db79",
  "snapshot": {
-  "id": "sha256:040bb1d37f2991ce4245ffde937e1f7be730437df200b929a91c8873d36fdc25",
-  "graph": "sha256:0dddac236161426737c570d7b36bc4e01d34bc3374a5756a78b721cbf949037b",
+  "id": "sha256:2f92c546db79f9709b10e302647601e6188e892987642d87ec02b53e37433da3",
+  "graph": "sha256:adbf59298ebd2130a8ae25a04ef6f2ec484da98cb98f4fe9bc3ca9bfd7e0c8e8",
   "evidence": "sha256:ac3026dd01fb3e0722cccdc682f3549ccade00f3f8c2c2f032b6270824137f40",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

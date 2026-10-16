@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
- "pass_id": "audit:nicol-bolas:c59:dea063c422fe",
+ "pass_id": "audit:nicol-bolas:c59:9765a90ac363",
  "snapshot": {
-  "id": "sha256:dea063c422fe0a110ae74c52b5db263bc7273011418466e0998932fc204717c9",
-  "graph": "sha256:ff6eee1d5b3b77ca300c9446f61102e57e9130af0488a8b48fd69b3cb139ad34",
+  "id": "sha256:9765a90ac363bd266d63e5d7571d0a88f3025c53c949c926980a5fde1afd9e83",
+  "graph": "sha256:476180a9c32b245fdce176643e4c14a147aad635f75820d8f74404e609d8f2fb",
   "evidence": "sha256:d3880af718161d71e850124fe58c8235823e7f8c9bc83768a70c69f745010941",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

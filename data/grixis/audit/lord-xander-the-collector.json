@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
- "pass_id": "audit:lord-xander-the-collector:c59:c260811deb6b",
+ "pass_id": "audit:lord-xander-the-collector:c59:2a5ce31cd9d1",
  "snapshot": {
-  "id": "sha256:c260811deb6bcf180114e5e71ae6d09769eb78a254b8f3d3905c63c5e7709127",
-  "graph": "sha256:0460323df009b084a91170ac9023578617dd845e83072d6721b043691260d55a",
+  "id": "sha256:2a5ce31cd9d122625b60fb0948fc573de630405e6597757f11a14bed972b969c",
+  "graph": "sha256:04ec5f7a614692e228ff9bb7a8e311ddf5e575c77b68436eb241db556710cedd",
   "evidence": "sha256:62ecb44738a9c4cc855eaeaf6bedd375ea999608b6e8737f8bf241792020a00c",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

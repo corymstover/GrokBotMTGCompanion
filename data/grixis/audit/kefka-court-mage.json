@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
- "pass_id": "audit:kefka-court-mage:c59:03c2a2c75eed",
+ "pass_id": "audit:kefka-court-mage:c59:bdb66657fac7",
  "snapshot": {
-  "id": "sha256:03c2a2c75eed2d9bf62e06c970bbc2b2ea8195d3d5b2721c5ed71a964a169774",
-  "graph": "sha256:8da0d97cdd37a0a07c4357df43e07d2aff0488b89760a9b4f579d9393edf3809",
+  "id": "sha256:bdb66657fac7a4cc1e631d3c0a4796b63a97e886de23ba7072284e351616b856",
+  "graph": "sha256:75cd0d73e0cc677a0d3087c6193d702b7cf9738b01b2ce15e6426d6afb3e5ce7",
   "evidence": "sha256:fc226f7ea16264c5d91804c98f8b75fc75e8def969aff7229855d8e54a341f25",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
- "pass_id": "audit:ashnod-the-uncaring:c59:d3d2599be104",
+ "pass_id": "audit:ashnod-the-uncaring:c59:259627273d31",
  "snapshot": {
-  "id": "sha256:d3d2599be10412e2e7e06a4f52d68a19fe2b4f30181783673fd5becb665fa7d5",
-  "graph": "sha256:2954f9c2cee27e7ec8bd35681a20d4a26477d5cb3e3363580970e6720a78cde6",
+  "id": "sha256:259627273d31e10a6c5bf87e392492b447870be032f6b2d2b9c81fe16bf3da92",
+  "graph": "sha256:0504f99b1195935565b220c9f31027e2448b26670000d092313de9ab29ac9063",
   "evidence": "sha256:806b112c8bbef6ae93365d7b5d30e51974fe5704494f4e953e56045e37579818",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
- "pass_id": "audit:doctor-doom-king-of-latveria:c59:917fee6adaec",
+ "pass_id": "audit:doctor-doom-king-of-latveria:c59:b2ef55251016",
  "snapshot": {
-  "id": "sha256:917fee6adaec584d5450ae0b3dd693f323a7c8b4dd9756bfaa263b44167dd010",
-  "graph": "sha256:00a0896aa4c776377b3a23ce00c32977e1882e28a520ccbd07add6556439213d",
+  "id": "sha256:b2ef55251016dffe74338d8fd5a31334a41f26af0c989767a28792147d44b4c6",
+  "graph": "sha256:6a51bd25f0750dcbda123dacb13f5a5262498ed839b3ad2d1e34dc51df32ef83",
   "evidence": "sha256:2d8e189c82bd365dac434291ece20263bc7adc308ae8d45bc76e7c6eb24e91f2",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

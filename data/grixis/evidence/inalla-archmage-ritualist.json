@@ -29,13 +29,13 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:27409a5d94b54d912da6c095c6448afd309852a1ff259bb5aa33e7a747c82044",
+  "id": "sha256:ce9a53a1af4d876530f6b0c1839d775a289391eb87e505c847570ffeab9701e1",
   "inputs": {
    ".cache/edhrec/commanders__inalla-archmage-ritualist.json": "sha256:ecd88caaf2c1a1c186f0c3198412926b24e7828cf9c1a02e9353c26174fa5255",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
-   "data/grixis_interactions/inalla-archmage-ritualist.json": "sha256:4b7b8f4516bf3758ca26dc046ff10fe0f72dc466ecb8eb8d74214f1db4c2a409",
+   "data/grixis_interactions/inalla-archmage-ritualist.json": "sha256:ad1cdafbdc6ca3f996ff1b8c55dbf2b764962df18ad0c89d2abc8c2dbbba05d7",
    "data/grixis/blueprints/inalla-archmage-ritualist.json": "sha256:03385927bc30542d1ae4ee2fa6102019a940e6566e5388b4c08596462820d995",
-   "grixis/decks/inalla-archmage-ritualist.md": "sha256:5fd2b51151eba09243a84a7e25d9690725352e672ad03f972e943e023b7e1f47",
+   "grixis/decks/inalla-archmage-ritualist.md": "sha256:d25e3dd6c8b56c9ae06c08e165edc728a4e76a5516137dd9fcb9cb8b19fb0fd6",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
    "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
   }
@@ -88,7 +88,7 @@
   {"card":"Hexing Squelcher","status":"incumbent","zone":"main","edhrec":[1.455,0.05023,0.16064,1182,7358,0.556,"moderate",[]]},
   {"card":"Hoarding Broodlord","status":"incumbent","zone":"main","edhrec":null},
   {"card":"Imperial Seal","status":"incumbent","zone":"main","edhrec":[1.896,0.06074,0.12851,1888,14692,0.463,"moderate",[]]},
-  {"card":"Inalla, Archmage Ritualist","status":"commander","edhrec":null,"graph":{"spellbook":{"ids":["1869-2721-3719"],"class":"fact","confidence":"verified"},"m1":{"ids":["inalla-01","inalla-02","inalla-03","inalla-04","inalla-05","inalla-06","inalla-07","inalla-08","inalla-09"],"class":"fact","confidence":"test_required","flags":["inalla-06"]},"blueprint":{"packages":[],"identity_core":true,"version":1,"class":"strategic_judgment","confidence":"high"}}},
+  {"card":"Inalla, Archmage Ritualist","status":"commander","edhrec":null,"graph":{"spellbook":{"ids":["1869-2721-3719"],"class":"fact","confidence":"verified"},"m1":{"ids":["inalla-01","inalla-02","inalla-03","inalla-04","inalla-05","inalla-06","inalla-07","inalla-08","inalla-09","inalla-10"],"class":"fact","confidence":"test_required","flags":["inalla-06"]},"blueprint":{"packages":[],"identity_core":true,"version":1,"class":"strategic_judgment","confidence":"high"}}},
   {"card":"Intuition","status":"incumbent","zone":"main","edhrec":[5.497,0.07272,0.08889,1306,14692,0.417,"moderate",[]]},
   {"card":"Island","status":"incumbent","zone":"main","edhrec":[0.955,-0.04161,0.88899,13061,14692,0.0,"moderate",[]]},
   {"card":"Kefka, Court Mage // Kefka, Ruler of Ruin","status":"incumbent","zone":"main","edhrec":null,"oracle_hook":{"label":"Wizard synergy","commander":"Inalla, Archmage Ritualist","class":"heuristic","confidence":"moderate"},"graph":{"blueprint":{"packages":["pkg:wizards"],"identity_core":false,"version":1,"class":"strategic_judgment","confidence":"moderate"}}},
@@ -218,7 +218,7 @@
   {"card":"Jeska's Will","status":"candidate","edhrec":[0.402,-0.09683,0.065,955,14692,-0.099,"moderate",[]]},
   {"card":"Jeweled Amulet","status":"candidate","edhrec":[11.549,0.04961,0.05432,798,14692,0.0,"moderate",[]]},
   {"card":"Kasmina, Enigmatic Mentor","status":"candidate","edhrec":[12.331,0.0541,0.05888,865,14692,-0.335,"moderate",[]],"oracle_hook":{"label":"tokens","commander":"Inalla, Archmage Ritualist","class":"heuristic","confidence":"moderate"}},
-  {"card":"Kefka, Court Mage","status":"candidate","edhrec":[5.81,0.24975,0.30168,3641,12069,0.089,"moderate",[]],"oracle_hook":{"label":"Wizard synergy","commander":"Inalla, Archmage Ritualist","class":"heuristic","confidence":"moderate"}},
+  {"card":"Kefka, Court Mage","status":"candidate","edhrec":[5.81,0.24975,0.30168,3641,12069,0.089,"moderate",[]],"oracle_hook":{"label":"Wizard synergy","commander":"Inalla, Archmage Ritualist","class":"heuristic","confidence":"moderate"},"graph":{"m1":{"ids":["inalla-10"],"class":"fact","confidence":"verified","flags":[]}}},
   {"card":"Kess, Dissident Mage","status":"candidate","edhrec":[3.585,0.21849,0.30302,4452,14692,-0.689,"moderate",[]],"oracle_hook":{"label":"Wizard synergy","commander":"Inalla, Archmage Ritualist","class":"heuristic","confidence":"moderate"}},
   {"card":"Kindred Discovery","status":"candidate","edhrec":[5.292,0.20017,0.2468,3626,14692,-0.478,"moderate",[]]},
   {"card":"Kindred Dominance","status":"candidate","edhrec":[4.812,0.20269,0.25585,3759,14692,-0.163,"moderate",[]]},

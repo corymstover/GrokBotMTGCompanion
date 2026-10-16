@@ -1,0 +1,2685 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Ashnod_the_Uncaring",
+ "slug": "ashnod-the-uncaring",
+ "deck_sha256": "b96f2d08a8659c3e51611c2203ca4599c4c606f927280f1b7515abb96385ce39",
+ "review": "data/grixis_interactions/ashnod-the-uncaring.json",
+ "review_sha256": "702b43b9ec970485b264ac20c5d7b035fa39336b2c766e1925a9228d42d5f03c",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 12,
+  "nodes": 49,
+  "membership_edges": 55,
+  "pair_edges": 43
+ },
+ "nodes": [
+  {
+   "id": "commander:Ashnod the Uncaring",
+   "kind": "commander",
+   "name": "Ashnod the Uncaring",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashnod-the-uncaring/ashnod-01",
+   "kind": "interaction",
+   "interaction": "ashnod-01",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Ashnod's Altar",
+   "kind": "card",
+   "name": "Ashnod's Altar",
+   "in_list": true
+  },
+  {
+   "id": "card:Krark-Clan Ironworks",
+   "kind": "card",
+   "name": "Krark-Clan Ironworks",
+   "in_list": true
+  },
+  {
+   "id": "card:Lotus Petal",
+   "kind": "card",
+   "name": "Lotus Petal",
+   "in_list": true
+  },
+  {
+   "id": "card:Goblin Welder",
+   "kind": "card",
+   "name": "Goblin Welder",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashnod-the-uncaring/ashnod-02",
+   "kind": "interaction",
+   "interaction": "ashnod-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Mishra's Bauble",
+   "kind": "card",
+   "name": "Mishra's Bauble",
+   "in_list": true
+  },
+  {
+   "id": "card:Wayfarer's Bauble",
+   "kind": "card",
+   "name": "Wayfarer's Bauble",
+   "in_list": true
+  },
+  {
+   "id": "card:Moonsilver Key",
+   "kind": "card",
+   "name": "Moonsilver Key",
+   "in_list": true
+  },
+  {
+   "id": "card:Pyrite Spellbomb",
+   "kind": "card",
+   "name": "Pyrite Spellbomb",
+   "in_list": true
+  },
+  {
+   "id": "card:Executioner's Capsule",
+   "kind": "card",
+   "name": "Executioner's Capsule",
+   "in_list": true
+  },
+  {
+   "id": "card:Mind Stone",
+   "kind": "card",
+   "name": "Mind Stone",
+   "in_list": true
+  },
+  {
+   "id": "card:Mnemonic Sphere",
+   "kind": "card",
+   "name": "Mnemonic Sphere",
+   "in_list": true
+  },
+  {
+   "id": "card:Dross Skullbomb",
+   "kind": "card",
+   "name": "Dross Skullbomb",
+   "in_list": true
+  },
+  {
+   "id": "card:Dockside Chef",
+   "kind": "card",
+   "name": "Dockside Chef",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashnod-the-uncaring/ashnod-03",
+   "kind": "interaction",
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Time Sieve",
+   "kind": "card",
+   "name": "Time Sieve",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashnod-the-uncaring/ashnod-04",
+   "kind": "interaction",
+   "interaction": "ashnod-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Repurposing Bay",
+   "kind": "card",
+   "name": "Repurposing Bay",
+   "in_list": true
+  },
+  {
+   "id": "card:Altar of Dementia",
+   "kind": "card",
+   "name": "Altar of Dementia",
+   "in_list": true
+  },
+  {
+   "id": "card:Kuldotha Forgemaster",
+   "kind": "card",
+   "name": "Kuldotha Forgemaster",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashnod-the-uncaring/ashnod-05",
+   "kind": "interaction",
+   "interaction": "ashnod-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Rings of Brighthearth",
+   "kind": "card",
+   "name": "Rings of Brighthearth",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashnod-the-uncaring/ashnod-06",
+   "kind": "interaction",
+   "interaction": "ashnod-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Clan Crafter",
+   "kind": "card",
+   "name": "Clan Crafter",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashnod-the-uncaring/ashnod-07",
+   "kind": "interaction",
+   "interaction": "ashnod-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Scrap Trawler",
+   "kind": "card",
+   "name": "Scrap Trawler",
+   "in_list": true
+  },
+  {
+   "id": "card:Myr Retriever",
+   "kind": "card",
+   "name": "Myr Retriever",
+   "in_list": true
+  },
+  {
+   "id": "card:Etherium Sculptor",
+   "kind": "card",
+   "name": "Etherium Sculptor",
+   "in_list": true
+  },
+  {
+   "id": "card:Enthusiastic Mechanaut",
+   "kind": "card",
+   "name": "Enthusiastic Mechanaut",
+   "in_list": true
+  },
+  {
+   "id": "card:Foundry Inspector",
+   "kind": "card",
+   "name": "Foundry Inspector",
+   "in_list": true
+  },
+  {
+   "id": "combo:ashnod-the-uncaring/ashnod-08",
+   "kind": "combo",
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "spellbook": [
+    "1020-1976-2034-2866",
+    "1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "card:Nim Deathmantle",
+   "kind": "card",
+   "name": "Nim Deathmantle",
+   "in_list": true
+  },
+  {
+   "id": "card:Marionette Apprentice",
+   "kind": "card",
+   "name": "Marionette Apprentice",
+   "in_list": true
+  },
+  {
+   "id": "card:Urza, Lord High Artificer",
+   "kind": "card",
+   "name": "Urza, Lord High Artificer",
+   "in_list": true
+  },
+  {
+   "id": "card:Farid, Enterprising Salvager",
+   "kind": "card",
+   "name": "Farid, Enterprising Salvager",
+   "in_list": true
+  },
+  {
+   "id": "combo:ashnod-the-uncaring/ashnod-09",
+   "kind": "combo",
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "2034-5003-6199",
+    "4659-5003-5272"
+   ]
+  },
+  {
+   "id": "card:Dross Scorpion",
+   "kind": "card",
+   "name": "Dross Scorpion",
+   "in_list": true
+  },
+  {
+   "id": "card:Retrofitter Foundry",
+   "kind": "card",
+   "name": "Retrofitter Foundry",
+   "in_list": true
+  },
+  {
+   "id": "combo:ashnod-the-uncaring/ashnod-10",
+   "kind": "combo",
+   "interaction": "ashnod-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Oni-Cult Anvil",
+   "kind": "card",
+   "name": "Oni-Cult Anvil",
+   "in_list": true
+  },
+  {
+   "id": "card:Disciple of the Vault",
+   "kind": "card",
+   "name": "Disciple of the Vault",
+   "in_list": true
+  },
+  {
+   "id": "card:Mayhem Devil",
+   "kind": "card",
+   "name": "Mayhem Devil",
+   "in_list": true
+  },
+  {
+   "id": "card:Esoteric Duplicator",
+   "kind": "card",
+   "name": "Esoteric Duplicator",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashnod-the-uncaring/ashnod-11",
+   "kind": "interaction",
+   "interaction": "ashnod-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Blasting Station",
+   "kind": "card",
+   "name": "Blasting Station",
+   "in_list": true
+  },
+  {
+   "id": "card:Walking Ballista",
+   "kind": "card",
+   "name": "Walking Ballista",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashnod-the-uncaring/ashnod-12",
+   "kind": "interaction",
+   "interaction": "ashnod-12",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "ashnod-01:m1",
+   "from": "commander:Ashnod the Uncaring",
+   "to": "interaction:ashnod-the-uncaring/ashnod-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-01",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "602.2b",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-01",
+    "cr:602.2b",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashnod-02:m1",
+   "from": "commander:Ashnod the Uncaring",
+   "to": "interaction:ashnod-the-uncaring/ashnod-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "605.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-02",
+    "cr:605.1a",
+    "cr:605.3a"
+   ]
+  },
+  {
+   "id": "ashnod-02:m2",
+   "from": "card:Ashnod's Altar",
+   "to": "interaction:ashnod-the-uncaring/ashnod-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "605.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-02",
+    "cr:605.1a",
+    "cr:605.3a"
+   ]
+  },
+  {
+   "id": "ashnod-02:m3",
+   "from": "card:Krark-Clan Ironworks",
+   "to": "interaction:ashnod-the-uncaring/ashnod-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "605.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-02",
+    "cr:605.1a",
+    "cr:605.3a"
+   ]
+  },
+  {
+   "id": "ashnod-02:m4",
+   "from": "card:Lotus Petal",
+   "to": "interaction:ashnod-the-uncaring/ashnod-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "605.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-02",
+    "cr:605.1a",
+    "cr:605.3a"
+   ]
+  },
+  {
+   "id": "ashnod-02:m5",
+   "from": "card:Goblin Welder",
+   "to": "interaction:ashnod-the-uncaring/ashnod-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "605.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-02",
+    "cr:605.1a",
+    "cr:605.3a"
+   ]
+  },
+  {
+   "id": "ashnod-02:p1",
+   "from": "card:Ashnod's Altar",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "605.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-02",
+    "cr:605.1a",
+    "cr:605.3a"
+   ]
+  },
+  {
+   "id": "ashnod-02:p2",
+   "from": "card:Krark-Clan Ironworks",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "605.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-02",
+    "cr:605.1a",
+    "cr:605.3a"
+   ]
+  },
+  {
+   "id": "ashnod-02:p3",
+   "from": "card:Lotus Petal",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "605.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-02",
+    "cr:605.1a",
+    "cr:605.3a"
+   ]
+  },
+  {
+   "id": "ashnod-02:p4",
+   "from": "card:Goblin Welder",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "605.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-02",
+    "cr:605.1a",
+    "cr:605.3a"
+   ]
+  },
+  {
+   "id": "ashnod-03:m1",
+   "from": "commander:Ashnod the Uncaring",
+   "to": "interaction:ashnod-the-uncaring/ashnod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:m2",
+   "from": "card:Mishra's Bauble",
+   "to": "interaction:ashnod-the-uncaring/ashnod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:m3",
+   "from": "card:Wayfarer's Bauble",
+   "to": "interaction:ashnod-the-uncaring/ashnod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:m4",
+   "from": "card:Moonsilver Key",
+   "to": "interaction:ashnod-the-uncaring/ashnod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:m5",
+   "from": "card:Pyrite Spellbomb",
+   "to": "interaction:ashnod-the-uncaring/ashnod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:m6",
+   "from": "card:Executioner's Capsule",
+   "to": "interaction:ashnod-the-uncaring/ashnod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:m7",
+   "from": "card:Mind Stone",
+   "to": "interaction:ashnod-the-uncaring/ashnod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:m8",
+   "from": "card:Mnemonic Sphere",
+   "to": "interaction:ashnod-the-uncaring/ashnod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:m9",
+   "from": "card:Dross Skullbomb",
+   "to": "interaction:ashnod-the-uncaring/ashnod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:m10",
+   "from": "card:Dockside Chef",
+   "to": "interaction:ashnod-the-uncaring/ashnod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:p1",
+   "from": "card:Mishra's Bauble",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:p2",
+   "from": "card:Wayfarer's Bauble",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:p3",
+   "from": "card:Moonsilver Key",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:p4",
+   "from": "card:Pyrite Spellbomb",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:p5",
+   "from": "card:Executioner's Capsule",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:p6",
+   "from": "card:Mind Stone",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:p7",
+   "from": "card:Mnemonic Sphere",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:p8",
+   "from": "card:Dross Skullbomb",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-03:p9",
+   "from": "card:Dockside Chef",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-03",
+    "cr:707.10",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "ashnod-04:m1",
+   "from": "commander:Ashnod the Uncaring",
+   "to": "interaction:ashnod-the-uncaring/ashnod-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.7a",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-04",
+    "cr:113.7a",
+    "cr:500.7"
+   ]
+  },
+  {
+   "id": "ashnod-04:m2",
+   "from": "card:Time Sieve",
+   "to": "interaction:ashnod-the-uncaring/ashnod-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.7a",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-04",
+    "cr:113.7a",
+    "cr:500.7"
+   ]
+  },
+  {
+   "id": "ashnod-04:p1",
+   "from": "card:Time Sieve",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.7a",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-04",
+    "cr:113.7a",
+    "cr:500.7"
+   ]
+  },
+  {
+   "id": "ashnod-05:m1",
+   "from": "commander:Ashnod the Uncaring",
+   "to": "interaction:ashnod-the-uncaring/ashnod-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-05",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashnod-05:m2",
+   "from": "card:Repurposing Bay",
+   "to": "interaction:ashnod-the-uncaring/ashnod-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-05",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashnod-05:m3",
+   "from": "card:Altar of Dementia",
+   "to": "interaction:ashnod-the-uncaring/ashnod-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-05",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashnod-05:m4",
+   "from": "card:Kuldotha Forgemaster",
+   "to": "interaction:ashnod-the-uncaring/ashnod-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-05",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashnod-05:p1",
+   "from": "card:Repurposing Bay",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-05",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashnod-05:p2",
+   "from": "card:Altar of Dementia",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-05",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashnod-05:p3",
+   "from": "card:Kuldotha Forgemaster",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-05",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashnod-06:m1",
+   "from": "commander:Ashnod the Uncaring",
+   "to": "interaction:ashnod-the-uncaring/ashnod-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-06",
+    "cr:603.3b",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashnod-06:m2",
+   "from": "card:Rings of Brighthearth",
+   "to": "interaction:ashnod-the-uncaring/ashnod-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-06",
+    "cr:603.3b",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashnod-06:p1",
+   "from": "card:Rings of Brighthearth",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-06",
+    "cr:603.3b",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashnod-07:m1",
+   "from": "commander:Ashnod the Uncaring",
+   "to": "interaction:ashnod-the-uncaring/ashnod-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.124a",
+    "113.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-07",
+    "cr:702.124a",
+    "cr:113.10"
+   ]
+  },
+  {
+   "id": "ashnod-07:m2",
+   "from": "card:Clan Crafter",
+   "to": "interaction:ashnod-the-uncaring/ashnod-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.124a",
+    "113.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-07",
+    "cr:702.124a",
+    "cr:113.10"
+   ]
+  },
+  {
+   "id": "ashnod-07:p1",
+   "from": "card:Clan Crafter",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.124a",
+    "113.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-07",
+    "cr:702.124a",
+    "cr:113.10"
+   ]
+  },
+  {
+   "id": "ashnod-08:m1",
+   "from": "commander:Ashnod the Uncaring",
+   "to": "combo:ashnod-the-uncaring/ashnod-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:m2",
+   "from": "card:Scrap Trawler",
+   "to": "combo:ashnod-the-uncaring/ashnod-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:m3",
+   "from": "card:Myr Retriever",
+   "to": "combo:ashnod-the-uncaring/ashnod-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:m4",
+   "from": "card:Ashnod's Altar",
+   "to": "combo:ashnod-the-uncaring/ashnod-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:m5",
+   "from": "card:Krark-Clan Ironworks",
+   "to": "combo:ashnod-the-uncaring/ashnod-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:m6",
+   "from": "card:Etherium Sculptor",
+   "to": "combo:ashnod-the-uncaring/ashnod-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:m7",
+   "from": "card:Enthusiastic Mechanaut",
+   "to": "combo:ashnod-the-uncaring/ashnod-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:m8",
+   "from": "card:Foundry Inspector",
+   "to": "combo:ashnod-the-uncaring/ashnod-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:p1",
+   "from": "card:Scrap Trawler",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:p2",
+   "from": "card:Myr Retriever",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:p3",
+   "from": "card:Ashnod's Altar",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:p4",
+   "from": "card:Krark-Clan Ironworks",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:p5",
+   "from": "card:Etherium Sculptor",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:p6",
+   "from": "card:Enthusiastic Mechanaut",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-08:p7",
+   "from": "card:Foundry Inspector",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-08",
+   "topic": "combo",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "603.10a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-08",
+    "cr:605.1a",
+    "cr:603.10a",
+    "cr:601.2f",
+    "spellbook:1020-1976-2034-2866",
+    "spellbook:1020-2034-2866-5346"
+   ]
+  },
+  {
+   "id": "ashnod-09:m1",
+   "from": "commander:Ashnod the Uncaring",
+   "to": "combo:ashnod-the-uncaring/ashnod-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-09",
+    "cr:605.1a",
+    "cr:603.10a",
+    "spellbook:2034-5003-6199",
+    "spellbook:4659-5003-5272"
+   ]
+  },
+  {
+   "id": "ashnod-09:m2",
+   "from": "card:Nim Deathmantle",
+   "to": "combo:ashnod-the-uncaring/ashnod-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-09",
+    "cr:605.1a",
+    "cr:603.10a",
+    "spellbook:2034-5003-6199",
+    "spellbook:4659-5003-5272"
+   ]
+  },
+  {
+   "id": "ashnod-09:m3",
+   "from": "card:Ashnod's Altar",
+   "to": "combo:ashnod-the-uncaring/ashnod-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-09",
+    "cr:605.1a",
+    "cr:603.10a",
+    "spellbook:2034-5003-6199",
+    "spellbook:4659-5003-5272"
+   ]
+  },
+  {
+   "id": "ashnod-09:m4",
+   "from": "card:Marionette Apprentice",
+   "to": "combo:ashnod-the-uncaring/ashnod-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-09",
+    "cr:605.1a",
+    "cr:603.10a",
+    "spellbook:2034-5003-6199",
+    "spellbook:4659-5003-5272"
+   ]
+  },
+  {
+   "id": "ashnod-09:m5",
+   "from": "card:Urza, Lord High Artificer",
+   "to": "combo:ashnod-the-uncaring/ashnod-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-09",
+    "cr:605.1a",
+    "cr:603.10a",
+    "spellbook:2034-5003-6199",
+    "spellbook:4659-5003-5272"
+   ]
+  },
+  {
+   "id": "ashnod-09:m6",
+   "from": "card:Farid, Enterprising Salvager",
+   "to": "combo:ashnod-the-uncaring/ashnod-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-09",
+    "cr:605.1a",
+    "cr:603.10a",
+    "spellbook:2034-5003-6199",
+    "spellbook:4659-5003-5272"
+   ]
+  },
+  {
+   "id": "ashnod-09:m7",
+   "from": "card:Krark-Clan Ironworks",
+   "to": "combo:ashnod-the-uncaring/ashnod-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-09",
+    "cr:605.1a",
+    "cr:603.10a",
+    "spellbook:2034-5003-6199",
+    "spellbook:4659-5003-5272"
+   ]
+  },
+  {
+   "id": "ashnod-09:p1",
+   "from": "card:Nim Deathmantle",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-09",
+    "cr:605.1a",
+    "cr:603.10a",
+    "spellbook:2034-5003-6199",
+    "spellbook:4659-5003-5272"
+   ]
+  },
+  {
+   "id": "ashnod-09:p2",
+   "from": "card:Ashnod's Altar",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-09",
+    "cr:605.1a",
+    "cr:603.10a",
+    "spellbook:2034-5003-6199",
+    "spellbook:4659-5003-5272"
+   ]
+  },
+  {
+   "id": "ashnod-09:p3",
+   "from": "card:Marionette Apprentice",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-09",
+    "cr:605.1a",
+    "cr:603.10a",
+    "spellbook:2034-5003-6199",
+    "spellbook:4659-5003-5272"
+   ]
+  },
+  {
+   "id": "ashnod-09:p4",
+   "from": "card:Urza, Lord High Artificer",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-09",
+    "cr:605.1a",
+    "cr:603.10a",
+    "spellbook:2034-5003-6199",
+    "spellbook:4659-5003-5272"
+   ]
+  },
+  {
+   "id": "ashnod-09:p5",
+   "from": "card:Farid, Enterprising Salvager",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-09",
+    "cr:605.1a",
+    "cr:603.10a",
+    "spellbook:2034-5003-6199",
+    "spellbook:4659-5003-5272"
+   ]
+  },
+  {
+   "id": "ashnod-09:p6",
+   "from": "card:Krark-Clan Ironworks",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-09",
+    "cr:605.1a",
+    "cr:603.10a",
+    "spellbook:2034-5003-6199",
+    "spellbook:4659-5003-5272"
+   ]
+  },
+  {
+   "id": "ashnod-10:m1",
+   "from": "commander:Ashnod the Uncaring",
+   "to": "combo:ashnod-the-uncaring/ashnod-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-10",
+    "cr:700.4",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "ashnod-10:m2",
+   "from": "card:Dross Scorpion",
+   "to": "combo:ashnod-the-uncaring/ashnod-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-10",
+    "cr:700.4",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "ashnod-10:m3",
+   "from": "card:Retrofitter Foundry",
+   "to": "combo:ashnod-the-uncaring/ashnod-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-10",
+    "cr:700.4",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "ashnod-10:m4",
+   "from": "card:Ashnod's Altar",
+   "to": "combo:ashnod-the-uncaring/ashnod-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-10",
+    "cr:700.4",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "ashnod-10:m5",
+   "from": "card:Krark-Clan Ironworks",
+   "to": "combo:ashnod-the-uncaring/ashnod-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-10",
+    "cr:700.4",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "ashnod-10:p1",
+   "from": "card:Dross Scorpion",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-10",
+    "cr:700.4",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "ashnod-10:p2",
+   "from": "card:Retrofitter Foundry",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-10",
+    "cr:700.4",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "ashnod-10:p3",
+   "from": "card:Ashnod's Altar",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-10",
+    "cr:700.4",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "ashnod-10:p4",
+   "from": "card:Krark-Clan Ironworks",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-10",
+    "cr:700.4",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "ashnod-11:m1",
+   "from": "commander:Ashnod the Uncaring",
+   "to": "interaction:ashnod-the-uncaring/ashnod-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-11",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashnod-11:m2",
+   "from": "card:Oni-Cult Anvil",
+   "to": "interaction:ashnod-the-uncaring/ashnod-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-11",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashnod-11:m3",
+   "from": "card:Disciple of the Vault",
+   "to": "interaction:ashnod-the-uncaring/ashnod-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-11",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashnod-11:m4",
+   "from": "card:Marionette Apprentice",
+   "to": "interaction:ashnod-the-uncaring/ashnod-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-11",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashnod-11:m5",
+   "from": "card:Mayhem Devil",
+   "to": "interaction:ashnod-the-uncaring/ashnod-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-11",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashnod-11:m6",
+   "from": "card:Esoteric Duplicator",
+   "to": "interaction:ashnod-the-uncaring/ashnod-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-11",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashnod-11:p1",
+   "from": "card:Oni-Cult Anvil",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-11",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashnod-11:p2",
+   "from": "card:Disciple of the Vault",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-11",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashnod-11:p3",
+   "from": "card:Marionette Apprentice",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-11",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashnod-11:p4",
+   "from": "card:Mayhem Devil",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-11",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashnod-11:p5",
+   "from": "card:Esoteric Duplicator",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-11",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashnod-12:m1",
+   "from": "commander:Ashnod the Uncaring",
+   "to": "interaction:ashnod-the-uncaring/ashnod-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-12",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-12",
+    "cr:903.8",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "ashnod-12:m2",
+   "from": "card:Blasting Station",
+   "to": "interaction:ashnod-the-uncaring/ashnod-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-12",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-12",
+    "cr:903.8",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "ashnod-12:m3",
+   "from": "card:Walking Ballista",
+   "to": "interaction:ashnod-the-uncaring/ashnod-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashnod-12",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-12",
+    "cr:903.8",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "ashnod-12:p1",
+   "from": "card:Blasting Station",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-12",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-12",
+    "cr:903.8",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "ashnod-12:p2",
+   "from": "card:Walking Ballista",
+   "to": "commander:Ashnod the Uncaring",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashnod-12",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashnod-the-uncaring.json#ashnod-12",
+    "cr:903.8",
+    "cr:702.2b"
+   ]
+  }
+ ]
+}

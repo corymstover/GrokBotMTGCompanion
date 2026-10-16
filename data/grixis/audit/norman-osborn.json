@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
- "pass_id": "audit:norman-osborn:c59:aa9ef2b4078c",
+ "pass_id": "audit:norman-osborn:c59:40bda8fba10f",
  "snapshot": {
-  "id": "sha256:aa9ef2b4078c98cf6c334c65a53f24e4103ac4fe7c96bcc4722317a72a404c8b",
-  "graph": "sha256:bf031fe46ed7ecda3f1e76d218c94ded00d1501b2dd5427bafa8ecd4a11df62e",
+  "id": "sha256:40bda8fba10f477ed58fcfb12e2351a2b62e255ecc7cfabd8ab9f9a9295db1c7",
+  "graph": "sha256:f5757b2781466908bec9351e8d615c433756bf6ea7dcff5666f909597a022401",
   "evidence": "sha256:0b7e2f95ed6e0850e375ef76cad7cf357186e066e7ce32a6d77dfd86fe2fec8c",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

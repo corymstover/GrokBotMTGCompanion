@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "generated_by": "Bot cycle 58 (M1 gap closure); hand-maintained, checked by scripts/grixis_interactions.py --check",
+ "note": "Archived source Rules_Attestation items not folded into an M1 interaction review (cited as a review `source` item), each with an explicit reason. Every other item is cited by its deck's review.",
+ "dispositions": [
+  {
+   "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+   "item": "Final Fortune exclusion",
+   "deck": "fire-lord-azula",
+   "disposition": "not_applicable",
+   "cycle": 58,
+   "reason": "A record of a card the source chose not to play. Final Fortune isn't in Fire Lord Azula's canonical list, so the review has nothing to rule on. The rules point it relies on (an Azula copy of an extra-turn spell is its own spell with its own extra turn and delayed trigger) is the general copy behaviour already ruled in azula-01 / azula-03 (CR 707.10)."
+  },
+  {
+   "path": "refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json",
+   "item": "Color identity and commander structure",
+   "deck": "lynde-cheerful-tormentor",
+   "disposition": "covered_elsewhere",
+   "cycle": 58,
+   "reason": "A deck-construction fact, not an interaction ruling. Color identity (CR 903.5c) is checked for every card of every Grixis deck page on each run by the `decks` step of validate_all (scripts/evaluate_decklist.py, current Scryfall identities). The deck passes, so the review doesn't repeat it.",
+   "covered_by": "scripts/validate_all.py#decks_step"
+  },
+  {
+   "path": "refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json",
+   "item": "Color identity and commander structure",
+   "deck": "mai-and-zuko",
+   "disposition": "covered_elsewhere",
+   "cycle": 58,
+   "reason": "A deck-construction fact, not an interaction ruling. Color identity (CR 903.5c) is checked for every card of every Grixis deck page on each run by the `decks` step of validate_all (scripts/evaluate_decklist.py, current Scryfall identities). The deck passes, so the review doesn't repeat it.",
+   "covered_by": "scripts/validate_all.py#decks_step"
+  }
+ ]
+}

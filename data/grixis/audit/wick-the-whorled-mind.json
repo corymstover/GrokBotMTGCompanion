@@ -5,12 +5,12 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
- "pass_id": "audit:wick-the-whorled-mind:c59:827186e4745d",
+ "pass_id": "audit:wick-the-whorled-mind:c59:8611fab6e5b1",
  "snapshot": {
-  "id": "sha256:827186e4745db3c83bbba5348414907443dfd3d98ae7b78bf5f4951553ba07bf",
-  "graph": "sha256:70075426a3ef756a889d80f4a4435b8914b179aba6bb9cc99e060d0393969ee2",
+  "id": "sha256:8611fab6e5b1dd98172445177ac5b9879e4f762d35528f24eb8e3ccd562005cf",
+  "graph": "sha256:462a36ca0973dad56110e1f35794b0cc0610f898948045d554e60595a5eab592",
   "evidence": "sha256:f2aad99b15c05525b359fa6812cc64033af5313f823058ad8212adee100bdfc3",
-  "m1": "absent"
+  "m1": "ingested"
  },
  "authority": {
   "status": "provisional",

@@ -1,0 +1,3139 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Lord_of_Tresserhorn",
+ "slug": "lord-of-tresserhorn",
+ "deck_sha256": "ce42932da71b7ae64899536b586fe031cd51f6a639074fd94590d1d66a79379b",
+ "review": "data/grixis_interactions/lord-of-tresserhorn.json",
+ "review_sha256": "e42d9cea746fa658dc7ea07cd9e235b99de0d7d58119c20fa86e05b240a77173",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 13,
+  "nodes": 47,
+  "membership_edges": 63,
+  "pair_edges": 50
+ },
+ "nodes": [
+  {
+   "id": "commander:Lord of Tresserhorn",
+   "kind": "commander",
+   "name": "Lord of Tresserhorn",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lord-of-tresserhorn/tresserhorn-01",
+   "kind": "interaction",
+   "interaction": "tresserhorn-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Torpor Orb",
+   "kind": "card",
+   "name": "Torpor Orb",
+   "in_list": true
+  },
+  {
+   "id": "card:Karn, Argent Defender",
+   "kind": "card",
+   "name": "Karn, Argent Defender",
+   "in_list": true
+  },
+  {
+   "id": "card:Dress Down",
+   "kind": "card",
+   "name": "Dress Down",
+   "in_list": true
+  },
+  {
+   "id": "card:Stifle",
+   "kind": "card",
+   "name": "Stifle",
+   "in_list": true
+  },
+  {
+   "id": "card:Tale's End",
+   "kind": "card",
+   "name": "Tale's End",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lord-of-tresserhorn/tresserhorn-02",
+   "kind": "interaction",
+   "interaction": "tresserhorn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Toxic Deluge",
+   "kind": "card",
+   "name": "Toxic Deluge",
+   "in_list": true
+  },
+  {
+   "id": "card:Blasphemous Act",
+   "kind": "card",
+   "name": "Blasphemous Act",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lord-of-tresserhorn/tresserhorn-03",
+   "kind": "interaction",
+   "interaction": "tresserhorn-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Anger",
+   "kind": "card",
+   "name": "Anger",
+   "in_list": true
+  },
+  {
+   "id": "card:Arena of Glory",
+   "kind": "card",
+   "name": "Arena of Glory",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lord-of-tresserhorn/tresserhorn-04",
+   "kind": "interaction",
+   "interaction": "tresserhorn-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Tainted Strike",
+   "kind": "card",
+   "name": "Tainted Strike",
+   "in_list": true
+  },
+  {
+   "id": "card:Phyresis",
+   "kind": "card",
+   "name": "Phyresis",
+   "in_list": true
+  },
+  {
+   "id": "card:Kediss, Emberclaw Familiar",
+   "kind": "card",
+   "name": "Kediss, Emberclaw Familiar",
+   "in_list": true
+  },
+  {
+   "id": "combo:lord-of-tresserhorn/tresserhorn-05",
+   "kind": "combo",
+   "interaction": "tresserhorn-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "264-1218",
+    "2822-4651"
+   ]
+  },
+  {
+   "id": "card:Chandra's Ignition",
+   "kind": "card",
+   "name": "Chandra's Ignition",
+   "in_list": true
+  },
+  {
+   "id": "card:Pain for All",
+   "kind": "card",
+   "name": "Pain for All",
+   "in_list": true
+  },
+  {
+   "id": "combo:lord-of-tresserhorn/tresserhorn-06",
+   "kind": "combo",
+   "interaction": "tresserhorn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Uncaged Fury",
+   "kind": "card",
+   "name": "Uncaged Fury",
+   "in_list": true
+  },
+  {
+   "id": "combo:lord-of-tresserhorn/tresserhorn-07",
+   "kind": "combo",
+   "interaction": "tresserhorn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric"
+  },
+  {
+   "id": "card:Lightning Greaves",
+   "kind": "card",
+   "name": "Lightning Greaves",
+   "in_list": true
+  },
+  {
+   "id": "card:Swiftfoot Boots",
+   "kind": "card",
+   "name": "Swiftfoot Boots",
+   "in_list": true
+  },
+  {
+   "id": "card:Brotherhood Regalia",
+   "kind": "card",
+   "name": "Brotherhood Regalia",
+   "in_list": true
+  },
+  {
+   "id": "card:Slip Out the Back",
+   "kind": "card",
+   "name": "Slip Out the Back",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lord-of-tresserhorn/tresserhorn-08",
+   "kind": "interaction",
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Not of This World",
+   "kind": "card",
+   "name": "Not of This World",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lord-of-tresserhorn/tresserhorn-09",
+   "kind": "interaction",
+   "interaction": "tresserhorn-09",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Rooftop Storm",
+   "kind": "card",
+   "name": "Rooftop Storm",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lord-of-tresserhorn/tresserhorn-10",
+   "kind": "interaction",
+   "interaction": "tresserhorn-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Gravecrawler",
+   "kind": "card",
+   "name": "Gravecrawler",
+   "in_list": true
+  },
+  {
+   "id": "card:Phyrexian Altar",
+   "kind": "card",
+   "name": "Phyrexian Altar",
+   "in_list": true
+  },
+  {
+   "id": "card:Ashnod's Altar",
+   "kind": "card",
+   "name": "Ashnod's Altar",
+   "in_list": true
+  },
+  {
+   "id": "card:Pitiless Plunderer",
+   "kind": "card",
+   "name": "Pitiless Plunderer",
+   "in_list": true
+  },
+  {
+   "id": "card:Viscera Seer",
+   "kind": "card",
+   "name": "Viscera Seer",
+   "in_list": true
+  },
+  {
+   "id": "card:Carrion Feeder",
+   "kind": "card",
+   "name": "Carrion Feeder",
+   "in_list": true
+  },
+  {
+   "id": "card:Goblin Bombardment",
+   "kind": "card",
+   "name": "Goblin Bombardment",
+   "in_list": true
+  },
+  {
+   "id": "card:Warren Soultrader",
+   "kind": "card",
+   "name": "Warren Soultrader",
+   "in_list": true
+  },
+  {
+   "id": "card:Blood Artist",
+   "kind": "card",
+   "name": "Blood Artist",
+   "in_list": true
+  },
+  {
+   "id": "card:Zulaport Cutthroat",
+   "kind": "card",
+   "name": "Zulaport Cutthroat",
+   "in_list": true
+  },
+  {
+   "id": "combo:lord-of-tresserhorn/tresserhorn-11",
+   "kind": "combo",
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "2452-2577-5147",
+    "2577-4871-5147",
+    "2577-2842-5670",
+    "2577-4050"
+   ]
+  },
+  {
+   "id": "card:Reassembling Skeleton",
+   "kind": "card",
+   "name": "Reassembling Skeleton",
+   "in_list": true
+  },
+  {
+   "id": "combo:lord-of-tresserhorn/tresserhorn-12",
+   "kind": "combo",
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1580-2034-4871",
+    "1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "card:Muddle the Mixture",
+   "kind": "card",
+   "name": "Muddle the Mixture",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lord-of-tresserhorn/tresserhorn-13",
+   "kind": "interaction",
+   "interaction": "tresserhorn-13",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "tresserhorn-01:m1",
+   "from": "commander:Lord of Tresserhorn",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.21a",
+    "701.19a",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-01",
+    "cr:701.21a",
+    "cr:701.19a",
+    "cr:119.3"
+   ]
+  },
+  {
+   "id": "tresserhorn-02:m1",
+   "from": "commander:Lord of Tresserhorn",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "613.1f",
+    "701.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-02",
+    "cr:603.2",
+    "cr:613.1f",
+    "cr:701.6a"
+   ]
+  },
+  {
+   "id": "tresserhorn-02:m2",
+   "from": "card:Torpor Orb",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "613.1f",
+    "701.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-02",
+    "cr:603.2",
+    "cr:613.1f",
+    "cr:701.6a"
+   ]
+  },
+  {
+   "id": "tresserhorn-02:m3",
+   "from": "card:Karn, Argent Defender",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "613.1f",
+    "701.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-02",
+    "cr:603.2",
+    "cr:613.1f",
+    "cr:701.6a"
+   ]
+  },
+  {
+   "id": "tresserhorn-02:m4",
+   "from": "card:Dress Down",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "613.1f",
+    "701.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-02",
+    "cr:603.2",
+    "cr:613.1f",
+    "cr:701.6a"
+   ]
+  },
+  {
+   "id": "tresserhorn-02:m5",
+   "from": "card:Stifle",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "613.1f",
+    "701.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-02",
+    "cr:603.2",
+    "cr:613.1f",
+    "cr:701.6a"
+   ]
+  },
+  {
+   "id": "tresserhorn-02:m6",
+   "from": "card:Tale's End",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "613.1f",
+    "701.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-02",
+    "cr:603.2",
+    "cr:613.1f",
+    "cr:701.6a"
+   ]
+  },
+  {
+   "id": "tresserhorn-02:p1",
+   "from": "card:Torpor Orb",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "613.1f",
+    "701.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-02",
+    "cr:603.2",
+    "cr:613.1f",
+    "cr:701.6a"
+   ]
+  },
+  {
+   "id": "tresserhorn-02:p2",
+   "from": "card:Karn, Argent Defender",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "613.1f",
+    "701.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-02",
+    "cr:603.2",
+    "cr:613.1f",
+    "cr:701.6a"
+   ]
+  },
+  {
+   "id": "tresserhorn-02:p3",
+   "from": "card:Dress Down",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "613.1f",
+    "701.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-02",
+    "cr:603.2",
+    "cr:613.1f",
+    "cr:701.6a"
+   ]
+  },
+  {
+   "id": "tresserhorn-02:p4",
+   "from": "card:Stifle",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "613.1f",
+    "701.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-02",
+    "cr:603.2",
+    "cr:613.1f",
+    "cr:701.6a"
+   ]
+  },
+  {
+   "id": "tresserhorn-02:p5",
+   "from": "card:Tale's End",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "613.1f",
+    "701.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-02",
+    "cr:603.2",
+    "cr:613.1f",
+    "cr:701.6a"
+   ]
+  },
+  {
+   "id": "tresserhorn-03:m1",
+   "from": "commander:Lord of Tresserhorn",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.19a",
+    "704.5f",
+    "704.5g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-03",
+    "cr:701.19a",
+    "cr:704.5f",
+    "cr:704.5g"
+   ]
+  },
+  {
+   "id": "tresserhorn-03:m2",
+   "from": "card:Toxic Deluge",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.19a",
+    "704.5f",
+    "704.5g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-03",
+    "cr:701.19a",
+    "cr:704.5f",
+    "cr:704.5g"
+   ]
+  },
+  {
+   "id": "tresserhorn-03:m3",
+   "from": "card:Blasphemous Act",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.19a",
+    "704.5f",
+    "704.5g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-03",
+    "cr:701.19a",
+    "cr:704.5f",
+    "cr:704.5g"
+   ]
+  },
+  {
+   "id": "tresserhorn-03:p1",
+   "from": "card:Toxic Deluge",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.19a",
+    "704.5f",
+    "704.5g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-03",
+    "cr:701.19a",
+    "cr:704.5f",
+    "cr:704.5g"
+   ]
+  },
+  {
+   "id": "tresserhorn-03:p2",
+   "from": "card:Blasphemous Act",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.19a",
+    "704.5f",
+    "704.5g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-03",
+    "cr:701.19a",
+    "cr:704.5f",
+    "cr:704.5g"
+   ]
+  },
+  {
+   "id": "tresserhorn-04:m1",
+   "from": "commander:Lord of Tresserhorn",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10a",
+    "205.3i"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-04",
+    "cr:702.10a",
+    "cr:205.3i"
+   ]
+  },
+  {
+   "id": "tresserhorn-04:m2",
+   "from": "card:Anger",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10a",
+    "205.3i"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-04",
+    "cr:702.10a",
+    "cr:205.3i"
+   ]
+  },
+  {
+   "id": "tresserhorn-04:m3",
+   "from": "card:Arena of Glory",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10a",
+    "205.3i"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-04",
+    "cr:702.10a",
+    "cr:205.3i"
+   ]
+  },
+  {
+   "id": "tresserhorn-04:p1",
+   "from": "card:Anger",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10a",
+    "205.3i"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-04",
+    "cr:702.10a",
+    "cr:205.3i"
+   ]
+  },
+  {
+   "id": "tresserhorn-04:p2",
+   "from": "card:Arena of Glory",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10a",
+    "205.3i"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-04",
+    "cr:702.10a",
+    "cr:205.3i"
+   ]
+  },
+  {
+   "id": "tresserhorn-05:m1",
+   "from": "commander:Lord of Tresserhorn",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.90b",
+    "704.5c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-05",
+    "cr:702.90b",
+    "cr:704.5c",
+    "spellbook:264-1218",
+    "spellbook:2822-4651"
+   ]
+  },
+  {
+   "id": "tresserhorn-05:m2",
+   "from": "card:Tainted Strike",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.90b",
+    "704.5c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-05",
+    "cr:702.90b",
+    "cr:704.5c",
+    "spellbook:264-1218",
+    "spellbook:2822-4651"
+   ]
+  },
+  {
+   "id": "tresserhorn-05:m3",
+   "from": "card:Phyresis",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.90b",
+    "704.5c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-05",
+    "cr:702.90b",
+    "cr:704.5c",
+    "spellbook:264-1218",
+    "spellbook:2822-4651"
+   ]
+  },
+  {
+   "id": "tresserhorn-05:m4",
+   "from": "card:Kediss, Emberclaw Familiar",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.90b",
+    "704.5c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-05",
+    "cr:702.90b",
+    "cr:704.5c",
+    "spellbook:264-1218",
+    "spellbook:2822-4651"
+   ]
+  },
+  {
+   "id": "tresserhorn-05:p1",
+   "from": "card:Tainted Strike",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.90b",
+    "704.5c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-05",
+    "cr:702.90b",
+    "cr:704.5c",
+    "spellbook:264-1218",
+    "spellbook:2822-4651"
+   ]
+  },
+  {
+   "id": "tresserhorn-05:p2",
+   "from": "card:Phyresis",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.90b",
+    "704.5c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-05",
+    "cr:702.90b",
+    "cr:704.5c",
+    "spellbook:264-1218",
+    "spellbook:2822-4651"
+   ]
+  },
+  {
+   "id": "tresserhorn-05:p3",
+   "from": "card:Kediss, Emberclaw Familiar",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.90b",
+    "704.5c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-05",
+    "cr:702.90b",
+    "cr:704.5c",
+    "spellbook:264-1218",
+    "spellbook:2822-4651"
+   ]
+  },
+  {
+   "id": "tresserhorn-06:m1",
+   "from": "commander:Lord of Tresserhorn",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.90b",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-06",
+    "cr:702.90b",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "tresserhorn-06:m2",
+   "from": "card:Chandra's Ignition",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.90b",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-06",
+    "cr:702.90b",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "tresserhorn-06:m3",
+   "from": "card:Pain for All",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.90b",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-06",
+    "cr:702.90b",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "tresserhorn-06:m4",
+   "from": "card:Phyresis",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.90b",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-06",
+    "cr:702.90b",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "tresserhorn-06:m5",
+   "from": "card:Tainted Strike",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.90b",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-06",
+    "cr:702.90b",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "tresserhorn-06:m6",
+   "from": "card:Blasphemous Act",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.90b",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-06",
+    "cr:702.90b",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "tresserhorn-06:p1",
+   "from": "card:Chandra's Ignition",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.90b",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-06",
+    "cr:702.90b",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "tresserhorn-06:p2",
+   "from": "card:Pain for All",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.90b",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-06",
+    "cr:702.90b",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "tresserhorn-06:p3",
+   "from": "card:Phyresis",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.90b",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-06",
+    "cr:702.90b",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "tresserhorn-06:p4",
+   "from": "card:Tainted Strike",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.90b",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-06",
+    "cr:702.90b",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "tresserhorn-06:p5",
+   "from": "card:Blasphemous Act",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.90b",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-06",
+    "cr:702.90b",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "tresserhorn-07:m1",
+   "from": "commander:Lord of Tresserhorn",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.4b",
+    "903.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-07",
+    "cr:702.4b",
+    "cr:903.10a"
+   ]
+  },
+  {
+   "id": "tresserhorn-07:m2",
+   "from": "card:Uncaged Fury",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.4b",
+    "903.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-07",
+    "cr:702.4b",
+    "cr:903.10a"
+   ]
+  },
+  {
+   "id": "tresserhorn-07:p1",
+   "from": "card:Uncaged Fury",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.4b",
+    "903.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-07",
+    "cr:702.4b",
+    "cr:903.10a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:m1",
+   "from": "commander:Lord of Tresserhorn",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:m2",
+   "from": "card:Lightning Greaves",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:m3",
+   "from": "card:Swiftfoot Boots",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:m4",
+   "from": "card:Brotherhood Regalia",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:m5",
+   "from": "card:Tainted Strike",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:m6",
+   "from": "card:Chandra's Ignition",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:m7",
+   "from": "card:Pain for All",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:m8",
+   "from": "card:Slip Out the Back",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:m9",
+   "from": "card:Uncaged Fury",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:p1",
+   "from": "card:Lightning Greaves",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:p2",
+   "from": "card:Swiftfoot Boots",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:p3",
+   "from": "card:Brotherhood Regalia",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:p4",
+   "from": "card:Tainted Strike",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:p5",
+   "from": "card:Chandra's Ignition",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:p6",
+   "from": "card:Pain for All",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:p7",
+   "from": "card:Slip Out the Back",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-08:p8",
+   "from": "card:Uncaged Fury",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-08",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "tresserhorn-09:m1",
+   "from": "commander:Lord of Tresserhorn",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-09",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.26b",
+    "702.26d",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-09",
+    "cr:702.26b",
+    "cr:702.26d",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "tresserhorn-09:m2",
+   "from": "card:Not of This World",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-09",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.26b",
+    "702.26d",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-09",
+    "cr:702.26b",
+    "cr:702.26d",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "tresserhorn-09:m3",
+   "from": "card:Slip Out the Back",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-09",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.26b",
+    "702.26d",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-09",
+    "cr:702.26b",
+    "cr:702.26d",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "tresserhorn-09:p1",
+   "from": "card:Not of This World",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-09",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.26b",
+    "702.26d",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-09",
+    "cr:702.26b",
+    "cr:702.26d",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "tresserhorn-09:p2",
+   "from": "card:Slip Out the Back",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-09",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.26b",
+    "702.26d",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-09",
+    "cr:702.26b",
+    "cr:702.26d",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "tresserhorn-10:m1",
+   "from": "commander:Lord of Tresserhorn",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9d",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-10",
+    "cr:118.9d",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "tresserhorn-10:m2",
+   "from": "card:Rooftop Storm",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9d",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-10",
+    "cr:118.9d",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "tresserhorn-10:p1",
+   "from": "card:Rooftop Storm",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9d",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-10",
+    "cr:118.9d",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:m1",
+   "from": "commander:Lord of Tresserhorn",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:m2",
+   "from": "card:Gravecrawler",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:m3",
+   "from": "card:Rooftop Storm",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:m4",
+   "from": "card:Phyrexian Altar",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:m5",
+   "from": "card:Ashnod's Altar",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:m6",
+   "from": "card:Pitiless Plunderer",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:m7",
+   "from": "card:Viscera Seer",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:m8",
+   "from": "card:Carrion Feeder",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:m9",
+   "from": "card:Goblin Bombardment",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:m10",
+   "from": "card:Warren Soultrader",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:m11",
+   "from": "card:Blood Artist",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:m12",
+   "from": "card:Zulaport Cutthroat",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:p1",
+   "from": "card:Gravecrawler",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:p2",
+   "from": "card:Rooftop Storm",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:p3",
+   "from": "card:Phyrexian Altar",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:p4",
+   "from": "card:Ashnod's Altar",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:p5",
+   "from": "card:Pitiless Plunderer",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:p6",
+   "from": "card:Viscera Seer",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:p7",
+   "from": "card:Carrion Feeder",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:p8",
+   "from": "card:Goblin Bombardment",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:p9",
+   "from": "card:Warren Soultrader",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:p10",
+   "from": "card:Blood Artist",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-11:p11",
+   "from": "card:Zulaport Cutthroat",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.3",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-11",
+    "cr:601.3",
+    "cr:118.9",
+    "spellbook:2452-2577-5147",
+    "spellbook:2577-4871-5147",
+    "spellbook:2577-2842-5670",
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:m1",
+   "from": "commander:Lord of Tresserhorn",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-12",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:m2",
+   "from": "card:Reassembling Skeleton",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-12",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:m3",
+   "from": "card:Pitiless Plunderer",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-12",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:m4",
+   "from": "card:Ashnod's Altar",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-12",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:m5",
+   "from": "card:Phyrexian Altar",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-12",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:m6",
+   "from": "card:Warren Soultrader",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-12",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:m7",
+   "from": "card:Zulaport Cutthroat",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-12",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:m8",
+   "from": "card:Blood Artist",
+   "to": "combo:lord-of-tresserhorn/tresserhorn-12",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:p1",
+   "from": "card:Reassembling Skeleton",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:p2",
+   "from": "card:Pitiless Plunderer",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:p3",
+   "from": "card:Ashnod's Altar",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:p4",
+   "from": "card:Phyrexian Altar",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:p5",
+   "from": "card:Warren Soultrader",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:p6",
+   "from": "card:Zulaport Cutthroat",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-12:p7",
+   "from": "card:Blood Artist",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-12",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-12",
+    "cr:603.10a",
+    "spellbook:1580-2034-4871",
+    "spellbook:1385-1580-4871-5670"
+   ]
+  },
+  {
+   "id": "tresserhorn-13:m1",
+   "from": "commander:Lord of Tresserhorn",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-13",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a",
+    "702.53a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-13",
+    "cr:603.6a",
+    "cr:702.53a"
+   ]
+  },
+  {
+   "id": "tresserhorn-13:m2",
+   "from": "card:Torpor Orb",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-13",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a",
+    "702.53a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-13",
+    "cr:603.6a",
+    "cr:702.53a"
+   ]
+  },
+  {
+   "id": "tresserhorn-13:m3",
+   "from": "card:Karn, Argent Defender",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-13",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a",
+    "702.53a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-13",
+    "cr:603.6a",
+    "cr:702.53a"
+   ]
+  },
+  {
+   "id": "tresserhorn-13:m4",
+   "from": "card:Muddle the Mixture",
+   "to": "interaction:lord-of-tresserhorn/tresserhorn-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tresserhorn-13",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6a",
+    "702.53a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-13",
+    "cr:603.6a",
+    "cr:702.53a"
+   ]
+  },
+  {
+   "id": "tresserhorn-13:p1",
+   "from": "card:Torpor Orb",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-13",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6a",
+    "702.53a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-13",
+    "cr:603.6a",
+    "cr:702.53a"
+   ]
+  },
+  {
+   "id": "tresserhorn-13:p2",
+   "from": "card:Karn, Argent Defender",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-13",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6a",
+    "702.53a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-13",
+    "cr:603.6a",
+    "cr:702.53a"
+   ]
+  },
+  {
+   "id": "tresserhorn-13:p3",
+   "from": "card:Muddle the Mixture",
+   "to": "commander:Lord of Tresserhorn",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tresserhorn-13",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6a",
+    "702.53a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lord-of-tresserhorn.json#tresserhorn-13",
+    "cr:603.6a",
+    "cr:702.53a"
+   ]
+  }
+ ]
+}

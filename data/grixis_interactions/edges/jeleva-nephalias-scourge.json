@@ -1,0 +1,1749 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "slug": "jeleva-nephalias-scourge",
+ "deck_sha256": "900a09d494293665662756ef2be07998b9d86af42c2a23ea54900953f9f181af",
+ "review": "data/grixis_interactions/jeleva-nephalias-scourge.json",
+ "review_sha256": "65355355a32054d2d741352be03e830c40c3203404c4a1e29697c02e8ff3f7c2",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 10,
+  "nodes": 37,
+  "membership_edges": 36,
+  "pair_edges": 26
+ },
+ "nodes": [
+  {
+   "id": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "commander",
+   "name": "Jeleva, Nephalia's Scourge",
+   "in_list": true
+  },
+  {
+   "id": "interaction:jeleva-nephalias-scourge/jeleva-01",
+   "kind": "interaction",
+   "interaction": "jeleva-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:jeleva-nephalias-scourge/jeleva-02",
+   "kind": "interaction",
+   "interaction": "jeleva-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:jeleva-nephalias-scourge/jeleva-03",
+   "kind": "interaction",
+   "interaction": "jeleva-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Harmonic Prodigy",
+   "kind": "card",
+   "name": "Harmonic Prodigy",
+   "in_list": true
+  },
+  {
+   "id": "interaction:jeleva-nephalias-scourge/jeleva-04",
+   "kind": "interaction",
+   "interaction": "jeleva-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Vampiric Tutor",
+   "kind": "card",
+   "name": "Vampiric Tutor",
+   "in_list": true
+  },
+  {
+   "id": "card:Imperial Seal",
+   "kind": "card",
+   "name": "Imperial Seal",
+   "in_list": true
+  },
+  {
+   "id": "card:Mystical Tutor",
+   "kind": "card",
+   "name": "Mystical Tutor",
+   "in_list": true
+  },
+  {
+   "id": "card:Personal Tutor",
+   "kind": "card",
+   "name": "Personal Tutor",
+   "in_list": true
+  },
+  {
+   "id": "card:Long-Term Plans",
+   "kind": "card",
+   "name": "Long-Term Plans",
+   "in_list": true
+  },
+  {
+   "id": "card:Scheming Symmetry",
+   "kind": "card",
+   "name": "Scheming Symmetry",
+   "in_list": true
+  },
+  {
+   "id": "card:Brainstorm",
+   "kind": "card",
+   "name": "Brainstorm",
+   "in_list": true
+  },
+  {
+   "id": "card:Scroll Rack",
+   "kind": "card",
+   "name": "Scroll Rack",
+   "in_list": true
+  },
+  {
+   "id": "interaction:jeleva-nephalias-scourge/jeleva-05",
+   "kind": "interaction",
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Arena of Glory",
+   "kind": "card",
+   "name": "Arena of Glory",
+   "in_list": true
+  },
+  {
+   "id": "card:Torch Courier",
+   "kind": "card",
+   "name": "Torch Courier",
+   "in_list": true
+  },
+  {
+   "id": "card:Lightning Greaves",
+   "kind": "card",
+   "name": "Lightning Greaves",
+   "in_list": true
+  },
+  {
+   "id": "interaction:jeleva-nephalias-scourge/jeleva-06",
+   "kind": "interaction",
+   "interaction": "jeleva-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Mind's Desire",
+   "kind": "card",
+   "name": "Mind's Desire",
+   "in_list": true
+  },
+  {
+   "id": "card:Final Fortune",
+   "kind": "card",
+   "name": "Final Fortune",
+   "in_list": true
+  },
+  {
+   "id": "card:Peer into the Abyss",
+   "kind": "card",
+   "name": "Peer into the Abyss",
+   "in_list": true
+  },
+  {
+   "id": "interaction:jeleva-nephalias-scourge/jeleva-07",
+   "kind": "interaction",
+   "interaction": "jeleva-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thassa's Oracle",
+   "kind": "card",
+   "name": "Thassa's Oracle",
+   "in_list": true
+  },
+  {
+   "id": "card:Demonic Consultation",
+   "kind": "card",
+   "name": "Demonic Consultation",
+   "in_list": true
+  },
+  {
+   "id": "card:Tainted Pact",
+   "kind": "card",
+   "name": "Tainted Pact",
+   "in_list": true
+  },
+  {
+   "id": "card:Doomsday",
+   "kind": "card",
+   "name": "Doomsday",
+   "in_list": true
+  },
+  {
+   "id": "combo:jeleva-nephalias-scourge/jeleva-08",
+   "kind": "combo",
+   "interaction": "jeleva-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1295-3189",
+    "742-1295",
+    "1295-3093"
+   ]
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "card:Lion's Eye Diamond",
+   "kind": "card",
+   "name": "Lion's Eye Diamond",
+   "in_list": true
+  },
+  {
+   "id": "card:Brain Freeze",
+   "kind": "card",
+   "name": "Brain Freeze",
+   "in_list": true
+  },
+  {
+   "id": "card:Wheel of Fortune",
+   "kind": "card",
+   "name": "Wheel of Fortune",
+   "in_list": true
+  },
+  {
+   "id": "card:Jeska's Will",
+   "kind": "card",
+   "name": "Jeska's Will",
+   "in_list": true
+  },
+  {
+   "id": "card:Lotus Petal",
+   "kind": "card",
+   "name": "Lotus Petal",
+   "in_list": true
+  },
+  {
+   "id": "combo:jeleva-nephalias-scourge/jeleva-09",
+   "kind": "combo",
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1368-1878-2706",
+    "1368-3518-4856"
+   ]
+  },
+  {
+   "id": "card:Hexing Squelcher",
+   "kind": "card",
+   "name": "Hexing Squelcher",
+   "in_list": true
+  },
+  {
+   "id": "interaction:jeleva-nephalias-scourge/jeleva-10",
+   "kind": "interaction",
+   "interaction": "jeleva-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "jeleva-01:m1",
+   "from": "commander:Jeleva, Nephalia's Scourge",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-01",
+    "cr:903.8",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "jeleva-02:m1",
+   "from": "commander:Jeleva, Nephalia's Scourge",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "607.2a",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-02",
+    "cr:607.2a",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "jeleva-03:m1",
+   "from": "commander:Jeleva, Nephalia's Scourge",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2g",
+    "118.9"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-03",
+    "cr:608.2g",
+    "cr:118.9"
+   ]
+  },
+  {
+   "id": "jeleva-04:m1",
+   "from": "commander:Jeleva, Nephalia's Scourge",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-04",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "jeleva-04:m2",
+   "from": "card:Harmonic Prodigy",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-04",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "jeleva-04:p1",
+   "from": "card:Harmonic Prodigy",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-04",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "jeleva-05:m1",
+   "from": "commander:Jeleva, Nephalia's Scourge",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:m2",
+   "from": "card:Vampiric Tutor",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:m3",
+   "from": "card:Imperial Seal",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:m4",
+   "from": "card:Mystical Tutor",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:m5",
+   "from": "card:Personal Tutor",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:m6",
+   "from": "card:Long-Term Plans",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:m7",
+   "from": "card:Scheming Symmetry",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:m8",
+   "from": "card:Brainstorm",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:m9",
+   "from": "card:Scroll Rack",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:p1",
+   "from": "card:Vampiric Tutor",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:p2",
+   "from": "card:Imperial Seal",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:p3",
+   "from": "card:Mystical Tutor",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:p4",
+   "from": "card:Personal Tutor",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:p5",
+   "from": "card:Long-Term Plans",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:p6",
+   "from": "card:Scheming Symmetry",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:p7",
+   "from": "card:Brainstorm",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-05:p8",
+   "from": "card:Scroll Rack",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-05",
+    "cr:401.2",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "jeleva-06:m1",
+   "from": "commander:Jeleva, Nephalia's Scourge",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10a",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-06",
+    "cr:702.10a",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "jeleva-06:m2",
+   "from": "card:Arena of Glory",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10a",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-06",
+    "cr:702.10a",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "jeleva-06:m3",
+   "from": "card:Torch Courier",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10a",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-06",
+    "cr:702.10a",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "jeleva-06:m4",
+   "from": "card:Lightning Greaves",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10a",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-06",
+    "cr:702.10a",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "jeleva-06:p1",
+   "from": "card:Arena of Glory",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10a",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-06",
+    "cr:702.10a",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "jeleva-06:p2",
+   "from": "card:Torch Courier",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10a",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-06",
+    "cr:702.10a",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "jeleva-06:p3",
+   "from": "card:Lightning Greaves",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10a",
+    "702.18a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-06",
+    "cr:702.10a",
+    "cr:702.18a"
+   ]
+  },
+  {
+   "id": "jeleva-07:m1",
+   "from": "commander:Jeleva, Nephalia's Scourge",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.40a",
+    "500.7",
+    "107.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-07",
+    "cr:702.40a",
+    "cr:500.7",
+    "cr:107.1a"
+   ]
+  },
+  {
+   "id": "jeleva-07:m2",
+   "from": "card:Mind's Desire",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.40a",
+    "500.7",
+    "107.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-07",
+    "cr:702.40a",
+    "cr:500.7",
+    "cr:107.1a"
+   ]
+  },
+  {
+   "id": "jeleva-07:m3",
+   "from": "card:Final Fortune",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.40a",
+    "500.7",
+    "107.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-07",
+    "cr:702.40a",
+    "cr:500.7",
+    "cr:107.1a"
+   ]
+  },
+  {
+   "id": "jeleva-07:m4",
+   "from": "card:Peer into the Abyss",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.40a",
+    "500.7",
+    "107.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-07",
+    "cr:702.40a",
+    "cr:500.7",
+    "cr:107.1a"
+   ]
+  },
+  {
+   "id": "jeleva-07:p1",
+   "from": "card:Mind's Desire",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.40a",
+    "500.7",
+    "107.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-07",
+    "cr:702.40a",
+    "cr:500.7",
+    "cr:107.1a"
+   ]
+  },
+  {
+   "id": "jeleva-07:p2",
+   "from": "card:Final Fortune",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.40a",
+    "500.7",
+    "107.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-07",
+    "cr:702.40a",
+    "cr:500.7",
+    "cr:107.1a"
+   ]
+  },
+  {
+   "id": "jeleva-07:p3",
+   "from": "card:Peer into the Abyss",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.40a",
+    "500.7",
+    "107.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-07",
+    "cr:702.40a",
+    "cr:500.7",
+    "cr:107.1a"
+   ]
+  },
+  {
+   "id": "jeleva-08:m1",
+   "from": "commander:Jeleva, Nephalia's Scourge",
+   "to": "combo:jeleva-nephalias-scourge/jeleva-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-08",
+    "cr:121.4",
+    "cr:608.2g",
+    "spellbook:1295-3189",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "jeleva-08:m2",
+   "from": "card:Thassa's Oracle",
+   "to": "combo:jeleva-nephalias-scourge/jeleva-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-08",
+    "cr:121.4",
+    "cr:608.2g",
+    "spellbook:1295-3189",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "jeleva-08:m3",
+   "from": "card:Demonic Consultation",
+   "to": "combo:jeleva-nephalias-scourge/jeleva-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-08",
+    "cr:121.4",
+    "cr:608.2g",
+    "spellbook:1295-3189",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "jeleva-08:m4",
+   "from": "card:Tainted Pact",
+   "to": "combo:jeleva-nephalias-scourge/jeleva-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-08",
+    "cr:121.4",
+    "cr:608.2g",
+    "spellbook:1295-3189",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "jeleva-08:m5",
+   "from": "card:Doomsday",
+   "to": "combo:jeleva-nephalias-scourge/jeleva-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-08",
+    "cr:121.4",
+    "cr:608.2g",
+    "spellbook:1295-3189",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "jeleva-08:p1",
+   "from": "card:Thassa's Oracle",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-08",
+    "cr:121.4",
+    "cr:608.2g",
+    "spellbook:1295-3189",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "jeleva-08:p2",
+   "from": "card:Demonic Consultation",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-08",
+    "cr:121.4",
+    "cr:608.2g",
+    "spellbook:1295-3189",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "jeleva-08:p3",
+   "from": "card:Tainted Pact",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-08",
+    "cr:121.4",
+    "cr:608.2g",
+    "spellbook:1295-3189",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "jeleva-08:p4",
+   "from": "card:Doomsday",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "608.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-08",
+    "cr:121.4",
+    "cr:608.2g",
+    "spellbook:1295-3189",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "jeleva-09:m1",
+   "from": "commander:Jeleva, Nephalia's Scourge",
+   "to": "combo:jeleva-nephalias-scourge/jeleva-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jeleva-09:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:jeleva-nephalias-scourge/jeleva-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jeleva-09:m3",
+   "from": "card:Lion's Eye Diamond",
+   "to": "combo:jeleva-nephalias-scourge/jeleva-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jeleva-09:m4",
+   "from": "card:Brain Freeze",
+   "to": "combo:jeleva-nephalias-scourge/jeleva-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jeleva-09:m5",
+   "from": "card:Wheel of Fortune",
+   "to": "combo:jeleva-nephalias-scourge/jeleva-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jeleva-09:m6",
+   "from": "card:Jeska's Will",
+   "to": "combo:jeleva-nephalias-scourge/jeleva-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jeleva-09:m7",
+   "from": "card:Lotus Petal",
+   "to": "combo:jeleva-nephalias-scourge/jeleva-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jeleva-09:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jeleva-09:p2",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jeleva-09:p3",
+   "from": "card:Brain Freeze",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jeleva-09:p4",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jeleva-09:p5",
+   "from": "card:Jeska's Will",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jeleva-09:p6",
+   "from": "card:Lotus Petal",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "jeleva-10:m1",
+   "from": "commander:Jeleva, Nephalia's Scourge",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.21a",
+    "101.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-10",
+    "cr:702.21a",
+    "cr:101.2"
+   ]
+  },
+  {
+   "id": "jeleva-10:m2",
+   "from": "card:Hexing Squelcher",
+   "to": "interaction:jeleva-nephalias-scourge/jeleva-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "jeleva-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.21a",
+    "101.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-10",
+    "cr:702.21a",
+    "cr:101.2"
+   ]
+  },
+  {
+   "id": "jeleva-10:p1",
+   "from": "card:Hexing Squelcher",
+   "to": "commander:Jeleva, Nephalia's Scourge",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "jeleva-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.21a",
+    "101.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/jeleva-nephalias-scourge.json#jeleva-10",
+    "cr:702.21a",
+    "cr:101.2"
+   ]
+  }
+ ]
+}
