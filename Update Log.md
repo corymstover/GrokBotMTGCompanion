@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Contradictions & Retcons Log.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md", "Lore Primary Sources.md", "Planes Index.md", "EDH Deck Evaluation Checklist.md"]
+related: ["Contradictions & Retcons Log.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md", "Lore Primary Sources.md", "Planes Index.md", "grixis/Grixis Authority Model.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 57.6 (M3: simulator model v1.1)](#2026-10-16--bot-cycle-576-m3-simulator-model-v11)
 - [2026-10-16 — Bot cycle 57.5 (M3: knowledge pages on lift, synergy, commander-first)](#2026-10-16--bot-cycle-575-m3-knowledge-pages-on-lift-synergy-commander-first)
 - [2026-10-16 — Bot cycle 57.4 (M3: scripted stress scenarios)](#2026-10-16--bot-cycle-574-m3-scripted-stress-scenarios)
 - [2026-10-16 — Bot cycle 57.3 (M3: paired champion-vs-challenger tests)](#2026-10-16--bot-cycle-573-m3-paired-champion-vs-challenger-tests)
@@ -76,6 +77,13 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 57.6 (M3: simulator model v1.1)
+- **`scripts/grixis_sim.py` v1.1:** card draw (resolution / enters, wheels, loot, upkeep and draw-step triggers, suspend), tutors to blueprint targets (closest combo's missing piece → blueprint `tutor_targets` → identity core → highest MV), rituals (only when they enable a card), one-shot mana (Lotus Petal, Mana Vault, Grim Monolith, Jeweled Lotus for the commander) and treasures, and the conditions of Chrome Mox, Mox Diamond, Mox Opal, Mox Amber, Springleaf Drum and Paradise Mantle. `model="1.0"` stays runnable and bit-identical.
+- **Exact-math checks:** `tests/test_sim_v11.py` (8 tests) and two new self-test checks (upkeep-draw seen count exact in 200/200 games; free-tutor probability vs hypergeometric).
+- **Versioned paired records:** the 6 v1.0 records are kept unchanged; 6 v1.1 records (new ids, keyed by model version) added next to them. `--check` re-runs each record under its own version. v1.1: 5 `inconclusive`, 1 `no_detectable_difference`; the detectable secondaries come from model asymmetries (Mystic Remora is still unmodelled), recorded per swap.
+- **Stress** rebuilt at v1.1 (558 records). The v1.0 set stays in git history.
+- See [the Authority Model](grixis/Grixis%20Authority%20Model.md#m3), criteria 4–7.
 
 ## 2026-10-16 — Bot cycle 57.5 (M3: knowledge pages on lift, synergy, commander-first)
 - **[EDH Lift and Synergy](EDH%20Lift%20and%20Synergy.md):**

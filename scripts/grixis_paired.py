@@ -19,7 +19,9 @@ Goldfish results are about this deck's own development (mana, curve, commander, 
 say nothing about opponents, interaction or card draw the model doesn't simulate (see LIMITATIONS).
 
 Records: data/grixis/tests/<slug>.json ({"records": [...]}, each valid against test.schema.json). The id is keyed by the
-snapshot (both list hashes, the simulator version, seed, samples, PREREG). --check fails when a list or the registry
+snapshot (both list hashes, the simulator model version, seed, samples, PREREG). Since Bot cycle 57.6 a file holds one
+record per (challenger, model version): v1.0 records are kept and --check re-runs each under its own version, and every
+registered challenger needs a record for the current version. --check fails when a list or the registry
 changed (stale), the simulator version differs, or a re-run doesn't reproduce the stored results exactly; a behaviour
 change therefore needs a version bump (model_sha256 records the code that produced the record).
 
@@ -63,6 +65,17 @@ LIMITATIONS = [
     "Combo pieces are 'assembled' when drawn; Commander Spellbook 'requires' conditions and the combo's own mana needs beyond the cards' mana values are ignored.",
     "Fixed policy: commander first, then mana sources, then highest mana value; keep/bottom rule as recorded in 'mulligan'.",
 ]
+# Bot cycle 57.6: one limitations list per simulator model version; v1.0 records keep the list above verbatim.
+LIMITATIONS_BY_MODEL = {
+    "1.0": LIMITATIONS,
+    "1.1": [LIMITATIONS[0]] + gs.MODEL_NOTES["1.1"] + [
+        "'Enters tapped unless ...' lands as untapped.",
+        LIMITATIONS[3],
+        "Fixed policy: commander first, then mana sources (conditions met), then tutors and draw spells (cheapest "
+        "first), then highest mana value, then a ritual only if it enables an otherwise uncastable card; keep/bottom "
+        "rule as recorded in 'mulligan'.",
+    ],
+}
 
 
 def metrics_of(rec, keys):
@@ -97,15 +110,15 @@ def align(a, b, pairs=None):
     return a2, b2, list(zip(only_a, only_b))
 
 
-def paired(a, b, samples, seed, turns=TURNS, pairs=None):
+def paired(a, b, samples, seed, turns=TURNS, pairs=None, model=gs.VERSION):
     a2, b2, swaps = align(a, b, pairs)
     N = a2.N
     ra, rb = [], []
     for i in range(samples):
         s = gs.seed_for(seed, i)
         perm = random.Random(s ^ 0x5EED).sample(range(N), N)
-        ra.append(gs.play_game(a2, random.Random(s), turns, perm=perm))
-        rb.append(gs.play_game(b2, random.Random(s), turns, perm=perm))
+        ra.append(gs.play_game(a2, random.Random(s), turns, perm=perm, model=model))
+        rb.append(gs.play_game(b2, random.Random(s), turns, perm=perm, model=model))
     keys = sorted(a2.key_sets)
     ma = [metrics_of(r, keys) for r in ra]
     mb = [metrics_of(r, keys) for r in rb]
@@ -135,16 +148,33 @@ def verdict(results):
     return "inconclusive"
 
 
-def record(slug, did, champ_hash, chal, samples, seed, results, swaps):
-    key = json.dumps({"b": champ_hash, "c": chal["hash"], "v": gs.VERSION, "s": seed, "n": samples, "p": PREREG}, sort_keys=True)
+def coverage(a, b, swaps, model):
+    """v1.1+: what the model simulates of each swapped card (a swap between an unmodelled and a modelled effect is a
+    model asymmetry, not evidence about the cards)."""
+    if model == "1.0":
+        return []
+    by = {c["name"]: c for c in a.library + b.library}
+    out = []
+    for x, y in swaps:
+        def f(n):
+            c = by.get(n)
+            ft = sorted(k for k, v in (c or {}).get("v11", {}).items() if v) if c else []
+            src = c and c.get("source")
+            return f"{n} [{', '.join(ft + (['mana source'] if src else [])) or 'no effect modelled beyond being a castable card'}]"
+        out.append(f"{f(x)} → {f(y)}")
+    return [f"Model v{model} coverage of the swapped cards: " + "; ".join(out) + "."]
+
+
+def record(slug, did, champ_hash, chal, samples, seed, results, swaps, model=gs.VERSION, cov=None):
+    key = json.dumps({"b": champ_hash, "c": chal["hash"], "v": model, "s": seed, "n": samples, "p": PREREG}, sort_keys=True)
     tid = "test:" + slug + ":goldfish:" + hashlib.sha256(key.encode()).hexdigest()[:16]
     return {"schema_version": 1, "id": tid, "deck_id": ga.registry_id(did), "kind": "goldfish_mc", "baseline_hash": champ_hash,
-            "challenger_hash": chal["hash"], "simulator": {"name": gs.NAME, "version": gs.VERSION, "model_sha256": gs.model_sha256()},
+            "challenger_hash": chal["hash"], "simulator": {"name": gs.NAME, "version": model, "model_sha256": gs.model_sha256()},
             "seed": seed, "paired": True, "samples": samples, "mulligan": gs.KEEP_RULE,
             "seat": "multiplayer, seat-agnostic (no turn-1 draw skip, CR 103.8c); first mulligan free (CR 103.5c)", "scenario": None,
             "preregistered": {"metric": PREREG["primary"]["metric"], "threshold": PREREG["primary"]["threshold"], "registered": REGISTERED},
             "results": results, "verdict": verdict(results),
-            "limitations": LIMITATIONS + [f"Challenger {chal['id']} ({chal['label']}); swaps tested: " + "; ".join(f"{x} → {y}" for x, y in swaps) + "."]}
+            "limitations": LIMITATIONS_BY_MODEL[model] + [f"Challenger {chal['id']} ({chal['label']}); swaps tested: " + "; ".join(f"{x} → {y}" for x, y in swaps) + "."] + (cov or [])}
 
 
 def registered_pairs():
@@ -156,7 +186,9 @@ def registered_pairs():
             yield by_rid.get(rid, rid), e, ch
 
 
-def run_registered(samples, seed, force=False, verbose=True):
+def run_registered(samples, seed, force=False, verbose=True, model=gs.VERSION):
+    """Run every registered challenger under `model` and add the records; records of other model versions are kept
+    (Bot cycle 57.6: old records are preserved, keyed by version)."""
     import evaluate_decklist as ev
     R = ev.Resolver()
     OUT.mkdir(parents=True, exist_ok=True)
@@ -172,13 +204,16 @@ def run_registered(samples, seed, force=False, verbose=True):
         old = json.loads(f.read_text(encoding="utf-8")) if f.exists() else {"records": []}
         a = gs.load_deck(slug, R)
         b = gs.load_deck(slug, R, text=text)
-        res, swaps = paired(a, b, samples, seed, pairs=[(x["cut"], x["add"]) for x in ch.get("swaps", [])])
-        rec = record(slug, did, champ_hash, ch, samples, seed, res, swaps)
-        if not force and any(r["id"] == rec["id"] for r in old["records"]):
-            files.setdefault(slug, old)
+        res, swaps = paired(a, b, samples, seed, pairs=[(x["cut"], x["add"]) for x in ch.get("swaps", [])], model=model)
+        rec = record(slug, did, champ_hash, ch, samples, seed, res, swaps, model, coverage(a, b, swaps, model))
+        doc = files.setdefault(slug, old)
+        doc["_doc"] = ("Bot cycle 57.3 (M3): paired goldfish test records; built by scripts/grixis_paired.py; schema "
+                       "test.schema.json. One record per (challenger, simulator model version); records of older model "
+                       "versions are kept and re-checked under their own version (Bot cycle 57.6).")
+        if not force and any(r["id"] == rec["id"] for r in doc["records"]):
             continue
-        files.setdefault(slug, {"_doc": "Bot cycle 57.3 (M3): paired goldfish test records; built by scripts/grixis_paired.py; schema test.schema.json.", "records": []})
-        files[slug]["records"] = [r for r in files[slug]["records"] if r.get("challenger_hash") != ch["hash"]] + [rec]
+        doc["records"] = [r for r in doc["records"] if not (r.get("challenger_hash") == ch["hash"] and r["simulator"]["version"] == model)] + [rec]
+        doc["records"].sort(key=lambda r: (r["challenger_hash"], r["simulator"]["version"]))
         if verbose:
             p = next(x for x in res if x["metric"] == PREREG["primary"]["metric"])
             print(f"{slug}: {rec['verdict']} (primary {p['metric']} diff {p['diff']:+.3f}, CI95 {p['ci95']}); swaps {swaps}")
@@ -202,30 +237,32 @@ def check(verbose=True):
                 p.append(f"{f.name}: {r.get('id')}: {e}")
             slug = f.stem
             k = (slug, r["challenger_hash"])
-            seen.add(k)
+            ver = r["simulator"]["version"]
+            seen.add(k + (ver,))
             if k not in want:
                 p.append(f"{f.name}: {r['id']}: challenger {r['challenger_hash']} is not a registered challenger")
                 continue
             did, e, ch = want[k]
             if r["baseline_hash"] != e["canonical_project_list"]["hash"]:
                 p.append(f"{f.name}: {r['id']}: baseline hash is not the canonical list hash (stale)")
-            if r["simulator"]["version"] != gs.VERSION:
-                p.append(f"{f.name}: {r['id']}: simulator v{r['simulator']['version']} != current v{gs.VERSION} (rerun --run-registered)")
+            if ver not in gs.MODELS:
+                p.append(f"{f.name}: {r['id']}: simulator model v{ver} is not runnable (known: {gs.MODELS})")
+                continue
             if r["preregistered"]["metric"] != PREREG["primary"]["metric"] or r["preregistered"]["threshold"] != PREREG["primary"]["threshold"]:
                 p.append(f"{f.name}: {r['id']}: pre-registered metric/threshold differs from PREREG")
             if r["verdict"] != verdict(r["results"]):
                 p.append(f"{f.name}: {r['id']}: verdict {r['verdict']} doesn't follow the rule ({verdict(r['results'])})")
-            if have_cache and not p:
+            if have_cache and not any(x.startswith(f"{f.name}: {r['id']}") for x in p):
                 if R is None:
                     import evaluate_decklist as ev
                     R = ev.Resolver()
                 text = (ROOT / ch["export_path"]).read_text(encoding="utf-8")
                 res, _ = paired(gs.load_deck(slug, R), gs.load_deck(slug, R, text=text), r["samples"], r["seed"],
-                                pairs=[(x["cut"], x["add"]) for x in ch.get("swaps", [])])
+                                pairs=[(x["cut"], x["add"]) for x in ch.get("swaps", [])], model=ver)
                 if res != r["results"]:
                     p.append(f"{f.name}: {r['id']}: re-run does not reproduce the stored results")
-    for k in set(want) - seen:
-        p.append(f"{k[0]}: registered challenger {k[1]} has no paired test record (run --run-registered)")
+    for k in sorted(set(want) - {x[:2] for x in seen if x[2] == gs.VERSION}):
+        p.append(f"{k[0]}: registered challenger {k[1]} has no paired test record for the current model v{gs.VERSION} (run --run-registered)")
     if verbose:
         print(f"paired tests: {n} record(s) for {len(want)} registered challenger(s); {len(p)} problem(s)" + ("" if have_cache else " (no .cache: re-runs skipped)"))
         for x in p[:30]:
@@ -245,7 +282,7 @@ def adhoc(slug, swaps, samples, seed):
     a = gs.load_deck(slug, R)
     b = gs.load_deck(slug, R, text="\n".join(lines) + "\n")
     res, sw = paired(a, b, samples, seed)
-    print(json.dumps({"deck": slug, "swaps": sw, "verdict": verdict(res), "results": res}, indent=1, ensure_ascii=False))
+    print(json.dumps({"deck": slug, "model": gs.VERSION, "swaps": sw, "verdict": verdict(res), "results": res}, indent=1, ensure_ascii=False))
 
 
 def main():
