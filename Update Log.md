@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 57.1 (M3: evidence layer)](#2026-10-16--bot-cycle-571-m3-evidence-layer)
 - [2026-10-16 — Bot cycle 56 (phase 2 / M1: batch F)](#2026-10-16--bot-cycle-56-phase-2--m1-batch-f)
 - [2026-10-16 — Bot cycle 55 (M2: commander blueprints, batch 4; Norman Osborn registry id)](#2026-10-16--bot-cycle-55-m2-commander-blueprints-batch-4-norman-osborn-registry-id)
 - [2026-10-16 — Bot cycle 54 (phase 2 / M1: batch E)](#2026-10-16--bot-cycle-54-phase-2--m1-batch-e)
@@ -72,6 +73,23 @@ schema: 2
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
 
+## 2026-10-16 — Bot cycle 57.1 (M3: evidence layer)
+- **M3 started** (`program.milestones.M3: in_progress`). The plan is five checkpointed sub-cycles: 57.1 evidence layer, 57.2 simulator core, 57.3 paired test records, 57.4 stress scenarios, 57.5 knowledge pages. The 9 numbered criteria are in [the Authority Model](grixis/Grixis%20Authority%20Model.md#m3).
+- **Evidence vectors** (`scripts/grixis_evidence.py`, `data/grixis/evidence/<slug>.json`, schema `evidence_vector.schema.json`): 62 decks, 17,712 vectors. That is every canonical-list card plus every EDHREC candidate on the deck's page that fits the colour identity and isn't a basic land. They expand to 27,986 schema-valid evidence items: 16,824 `derived_metric`, 7,293 `heuristic`, 1,569 `strategic_judgment`, 1,376 `fact`.
+- **EDHREC handling:**
+  - EDHREC is never above `moderate`. It is `low` for small samples (549 rows), for pooled partner pages and for lift/synergy-inconsistent rows. 202 rows are `rising` and 71 `falling` (|trend z| ≥ 2).
+  - Partner decks use the combined page (3 decks). Otherwise the commander pages are pooled; no deck needs that today, so it is unit-tested only.
+  - Every row is checked against lift = inclusion / (inclusion − synergy). It holds to 0.1% on 51 pages and fails on 1,851 rows across 11 pages; those rows are flagged and kept `low`.
+  - The retrieval date is the cache file's mtime, because the payload has no fetch time. The newest deck-save date is recorded too.
+- **Snapshot-keyed caching:** each file records the sha256 of every input; `--build` skips unchanged snapshots; the new `validate_all` step `evidence` fails on stale or invalid files (21 steps). 9 new tests are in `tests/test_evidence_layer.py`: aggregation, flags, confidence cap, items vs schema, the decision rule and schema negatives.
+- **Tresserhorn's Lord, Returned stays `PENDING_RELEASE`.** The Wizards date for its set, **2026-11-13**, is authoritative (confirmed by the user, relayed by MTG Bot). Two sources conflict with it:
+  - the source repo's verification record (L48, L67) and approval record call it legal now;
+  - the Scryfall cache shows `not_legal`, but with a set release date of 2026-10-19.
+  - Neither changes the state. The exception row already records the source error.
+- **M2 unchanged:** criteria 1–3 met, 4–5 wait for Cory. No blueprint is marked `cory_reviewed` and M2 is not accepted.
+- **Not touched:** `grixis/interactions/`, `data/grixis_interactions/` and `scripts/grixis_interactions.py` (read only; batch F, cycle 56, runs on the other executor). No decklist changed.
+- **Files:** `scripts/grixis_evidence.py`, `data/grixis/evidence/` (62), `data/grixis/schemas/evidence_vector.schema.json`, `tests/test_evidence_layer.py`, `scripts/validate_all.py`, `data/grixis/registry.json` (M3 status), `grixis/Grixis Authority Model.md`, `README.md`, this log, `data/kb_index.json`.
+
 ## 2026-10-16 — Bot cycle 56 (phase 2 / M1: batch F)
 - **Batch F is done** (the last 10 decks alphabetically, Sol'Kanar the Tainted through Zevlor): **59 rulings** (52 verified, 1 uncertain, 6 flags). Overall: **62/62 decks and 592 rulings; all 6 batches are done.** Each review hashes the deck's canonical project list from the M0 registry (read-only). The Rani uses its source baseline. Every record carries an `evidence_class` (batch F: 58 fact, 1 hypothesis). No decklist changed.
 - **Pending decks:** The Madcap Jester and Tresserhorn's Lord (Returned) were reviewed against their lists. Both stay `PENDING_RELEASE` (legal from 2026-11-13).
@@ -97,7 +115,7 @@ schema: 2
   - Zevlor's errata adds "only". The copies happen even if the original spell is countered. An overloaded Rift doesn't count.
 - **Fixes:** Several CR citations were corrected against the 2026-09-25 CR before saving (for example 301.5c → 702.6a, 603.7c → 603.7b, 722.1 → 723.5). Spellbook step quotes now match the stored text exactly. The Norman Osborn review now uses the registry id `Norman_Osborn_Green_Goblin` that cycle 55 corrected (the review content is unchanged).
 - **M1 status:** reviews 62/62, hashes match canonical 62/62, citations verbatim (the checker passes), and Bjorna's review covers Trade Secrets, Yawgmoth's Bargain and Lutri. **Open:** none of the reviews emits machine-readable `edges` for M4 yet. 512 of the 518 source attestation items are cited; 6 are not yet folded in or dispositioned (Azula ×2, Gwendlyn, Inalla, Lynde, Mai and Zuko). M1 acceptance belongs to Cory.
-- **Coordination:** Bot cycle 55 (M2 blueprints batch 4, Norman's registry id) belongs to the other executor and was merged from main. This cycle didn't touch blueprints, `data/grixis/registry*`, schemas, `grixis_refine.py` or the exception data.
+- **Coordination:** Bot cycle 55 (M2 blueprints batch 4, Norman's registry id) belongs to the other executor and was merged from main. Bot cycle 57.1 (M3 evidence layer) was merged from main too. Its `grixis_evidence.py --build` was re-run for the 11 decks whose M1 reviews changed, so their snapshots are current again (no code or schema change). This cycle didn't touch blueprints, `data/grixis/registry*`, schemas, `grixis_refine.py` or the exception data.
 - **Files:** `data/grixis_interactions/` (10 new reviews, plus the Norman id), `_batches.json` (F done), the rendered pages, deck-page Rules notes, `grixis/interactions/README.md`, `README.md`, `grixis/Grixis Integration Summary.md`, `data/kb_index.json`.
 - **Next:** the M1 gaps (review `edges`, the 6 attestation items), then Cory's M1 acceptance.
 

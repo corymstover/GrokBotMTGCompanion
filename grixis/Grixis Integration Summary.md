@@ -15,6 +15,7 @@ schema: 2
 
 ## Contents
 - [Bot cycle 56 interaction reviews](#bot-cycle-56-interaction-reviews)
+- [Bot cycle 56 interaction reviews](#bot-cycle-56-interaction-reviews)
 - [Bot cycle 54 interaction reviews](#bot-cycle-54-interaction-reviews)
 - [Bot cycle 51 interaction reviews](#bot-cycle-51-interaction-reviews)
 - [Bot cycle 49 interaction reviews](#bot-cycle-49-interaction-reviews)
@@ -32,6 +33,18 @@ schema: 2
 - [What we did not take](#what-we-did-not-take)
 - [Recommended follow-ups](#recommended-follow-ups)
 - [Reproducing](#reproducing)
+
+## Bot cycle 56 interaction reviews
+Batch F covers the last 10 decks: Sol'Kanar the Tainted, Tetsuo (Imperial Champion), Tetsuo Umezawa, The Madcap Jester, The Rani, The Valeyard, Thraximundar, Tresserhorn's Lord (Returned), Wick and Zevlor. That's **59 rulings: 52 verified, 1 uncertain, 6 flags**. **All 62 decks are now reviewed (592 rulings).** No decklist changed. The two pending decks stay pending.
+- **Flags** (pilot notes):
+  - Sol'Kanar the Tainted: donated cards come back if the holder leaves the game.
+  - Sol'Kanar the Tainted: the source has Greed's Gambit's trigger timing wrong.
+  - The Rani: the Force of Will pitch count is 23, not 28.
+  - Thraximundar: Cultist's upkeep sacrifice.
+  - Tresserhorn's Lord: Blasphemous Edict takes the commander.
+  - Tresserhorn's Lord: the source's "legal now" claim is wrong.
+- **Uncertain:** whether Dauthi-replaced mill counts for the Jester.
+- **M1 gaps:** no review emits `edges` yet, and 6 of the 518 source attestation items are still uncited.
 
 ## Bot cycle 56 interaction reviews
 Batch F covers the last 10 decks: Sol'Kanar the Tainted, Tetsuo (Imperial Champion), Tetsuo Umezawa, The Madcap Jester, The Rani, The Valeyard, Thraximundar, Tresserhorn's Lord (Returned), Wick and Zevlor. That's **59 rulings: 52 verified, 1 uncertain, 6 flags**. **All 62 decks are now reviewed (592 rulings).** No decklist changed. The two pending decks stay pending.
