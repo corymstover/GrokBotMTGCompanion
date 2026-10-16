@@ -69,7 +69,7 @@
 
 - **Interaction:** Graveyard hate is the main threat; keep stack interaction to protect the reanimation turn.
 - **Protection:** Greaves, Stormtamer and free protection for the commander.
-- **Mana:** Four-mana commander; 34 lands plus rocks.
+- **Mana:** Five-mana commander; 34 lands plus rocks.
 - *strategic_judgment · moderate* — [Admiral_Brass_Unsinkable_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Brass_Unsinkable_v1.md)
 
 ## Failure modes

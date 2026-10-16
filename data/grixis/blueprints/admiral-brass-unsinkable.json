@@ -358,7 +358,7 @@
   "value": {
    "interaction": "Graveyard hate is the main threat; keep stack interaction to protect the reanimation turn.",
    "protection": "Greaves, Stormtamer and free protection for the commander.",
-   "mana": "Four-mana commander; 34 lands plus rocks."
+   "mana": "Five-mana commander; 34 lands plus rocks."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "moderate",
@@ -603,6 +603,14 @@
    "interaction:admiral-brass-unsinkable#brass-15"
   ],
   "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 50)"
+  "author": "GrokBot (Bot cycle 50)",
+  "corrections": [
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "requirements.mana 'Four-mana commander'",
+    "correction": "Admiral Brass, Unsinkable {2}{U}{B}{R} is mana value 5 (cache cmc 5); found by the cycle-62 MV rule.",
+    "requested_by": "corymstover (chat t49u, relayed)"
+   }
+  ]
  }
 }

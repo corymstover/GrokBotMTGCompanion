@@ -70,7 +70,7 @@
 
 - **Interaction:** Free counters and one-mana stack interaction.
 - **Protection:** Defense Grid, Spellskite, the counter suite.
-- **Mana:** Premium fast mana and rituals; 3-mana flash commander.
+- **Mana:** Premium fast mana and rituals; 5-mana flash commander.
 - *strategic_judgment · high* — [Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md)
 
 ## Failure modes

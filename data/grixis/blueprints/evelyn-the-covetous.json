@@ -364,7 +364,7 @@
   "value": {
    "interaction": "Free counters and one-mana stack interaction.",
    "protection": "Defense Grid, Spellskite, the counter suite.",
-   "mana": "Premium fast mana and rituals; 3-mana flash commander."
+   "mana": "Premium fast mana and rituals; 5-mana flash commander."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -609,6 +609,14 @@
    "source_archive:refinement/decklists/Evelyn_the_Covetous_Approved_2026-10-14.txt"
   ],
   "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 52)"
+  "author": "GrokBot (Bot cycle 52)",
+  "corrections": [
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "requirements.mana '3-mana flash commander'",
+    "correction": "Evelyn, the Covetous {2}{U/B}{B}{B/R} is mana value 5 (cache cmc 5); found by the cycle-62 MV rule.",
+    "requested_by": "corymstover (chat t49u, relayed)"
+   }
+  ]
  }
 }

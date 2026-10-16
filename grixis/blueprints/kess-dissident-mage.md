@@ -87,7 +87,7 @@
 
 ## Anti-goals and thematic constraints
 
-- ✗ Six-mana storm engines and storm payoffs (Thousand-Year Storm, Talrand, Guttersnipe) rejected (decisions L137).
+- ✗ Six-mana storm engines (Thousand-Year Storm) and storm payoffs (Talrand, Sky Summoner; Guttersnipe) rejected (decisions L137).
 - ✗ Keep 100 distinct names so Tainted Pact never stops early.
   - *strategic_judgment · high* — [Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md#L137](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md)
 - Theme: Dissident Wizard: spells recast from the graveyard; theme subordinate to cEDH.

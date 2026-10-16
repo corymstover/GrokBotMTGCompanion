@@ -990,6 +990,33 @@
     },
     "author": {
      "type": "string"
+    },
+    "corrections": {
+     "type": "array",
+     "description": "Bot cycle 62: recorded retractions/corrections of GrokBot claims (cycle, what, why).",
+     "items": {
+      "type": "object",
+      "properties": {
+       "cycle": {
+        "type": "string"
+       },
+       "retracted": {
+        "type": "string"
+       },
+       "correction": {
+        "type": "string"
+       },
+       "requested_by": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "cycle",
+       "retracted",
+       "correction"
+      ],
+      "additionalProperties": false
+     }
     }
    },
    "required": [
