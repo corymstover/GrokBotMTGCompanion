@@ -12,11 +12,11 @@
 
 ## Status
 <!-- INTERACTIONS-STATUS:START -->
-**5/62 decks reviewed · 86 rulings (8 uncertain, 5 list flags).**
+**8/62 decks reviewed · 124 rulings (10 uncertain, 10 list flags).**
 
 | Batch | Status | Decks |
 |---|---|---|
-| A | in progress (Bot cycle 46) | [abaddon-the-despoiler](abaddon-the-despoiler.md) (28) · [admiral-beckett-brass](admiral-beckett-brass.md) (16) · [admiral-brass-unsinkable](admiral-brass-unsinkable.md) (15) · [anhelo-the-painter](anhelo-the-painter.md) (14) · [ashad-the-lone-cyberman](ashad-the-lone-cyberman.md) (13) · ashnod-the-uncaring · belakor-the-dark-master · bjorna-nightfall-alchemist-cecily · cormela-glamour-thief · crosis-the-purger · cult-of-skaro · davros-dalek-creator |
+| A | in progress (Bot cycle 46) | [abaddon-the-despoiler](abaddon-the-despoiler.md) (28) · [admiral-beckett-brass](admiral-beckett-brass.md) (16) · [admiral-brass-unsinkable](admiral-brass-unsinkable.md) (15) · [anhelo-the-painter](anhelo-the-painter.md) (14) · [ashad-the-lone-cyberman](ashad-the-lone-cyberman.md) (13) · [ashnod-the-uncaring](ashnod-the-uncaring.md) (12) · [belakor-the-dark-master](belakor-the-dark-master.md) (13) · [bjorna-nightfall-alchemist-cecily](bjorna-nightfall-alchemist-cecily.md) (13) · cormela-glamour-thief · crosis-the-purger · cult-of-skaro · davros-dalek-creator |
 | B | planned | doctor-doom-king-of-latveria · don-andres-the-renegade · dr-eggman · edea-possessed-sorceress · edward-kenway · evelyn-the-covetous · fire-lord-azula · garza-zol-plague-queen · goro-goro-and-satoru · grixistax-october-2026 |
 | C | planned | gwendlyn-di-corci · inalla-archmage-ritualist · jeleva-nephalias-scourge · kefka-court-mage · kess-dissident-mage · loki-the-deceiver · lord-of-tresserhorn · lord-xander-the-collector · lynde-cheerful-tormentor · mai-and-zuko |
 | D | planned | mairsil-the-pretender · marchesa-dealer-of-death · marchesa-the-black-rose · mishra-artificer-prodigy · mishra-eminent-one · missy · nathan-drake-treasure-hunter · nekusar-the-mindrazer · nicol-bolas-the-ravager · nicol-bolas |
