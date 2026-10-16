@@ -5,11 +5,11 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
- "pass_id": "audit:kess-dissident-mage:c59:f56e1748463c",
+ "pass_id": "audit:kess-dissident-mage:c59:aaa7911ccc37",
  "snapshot": {
-  "id": "sha256:f56e1748463c13fcddb8c85d3b4a06fdbd5fa612fef97288b54a46756076ae64",
-  "graph": "sha256:93eea29de3341855c0800b968462d35c9758d987a6d271c1d94877a626c8812d",
-  "evidence": "sha256:9e6d6398d025dd977d30e692c6141959a2c054fd00bb317e892367bf71ce436d",
+  "id": "sha256:aaa7911ccc370cf871329513841a7455c0e6065ce058594c7f1513b8923c3b4d",
+  "graph": "sha256:331283c5fc7e8a2fdcaedaa6415240b19ab8c04b65fc84aadfaefa5bc06e4f04",
+  "evidence": "sha256:65e8f435147f595ded25f2e4ac2290783f74ab835bba2759ce31be24be90e2c9",
   "m1": "ingested"
  },
  "authority": {
@@ -142,7 +142,7 @@
   "screened": 202,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:9e6d6398d025dd977d30e692c6141959a2c054fd00bb317e892367bf71ce436d"
+  "snapshot": "sha256:65e8f435147f595ded25f2e4ac2290783f74ab835bba2759ce31be24be90e2c9"
  },
  "slots": [
   {"card":"Ad Nauseam","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/kess-dissident-mage.json#metrics/Ad Nauseam"],"alternatives":["evidence:data/grixis/evidence/kess-dissident-mage.json#Preordain"],"redundancy":0,"reason":"weak retain ({3}{B}{B} instant): no structure; Oracle hook instants and sorceries. Oracle: “Reveal the top card of your library and put that card into your hand”. Redundancy 0 (no shared job). Best alternative: Preordain (same Oracle hook (instants and sorceries), EDHREC 41%). EDHREC inclusion 11.8%, synergy +0.07.","evidence":["evidence:data/grixis/evidence/kess-dissident-mage.json#Ad Nauseam","graph:data/grixis/graph/kess-dissident-mage.json#metrics/Ad Nauseam","oracle:Ad Nauseam"],"structural_necessity":"independent","evidence_classes":{"derived_metric":1,"fact":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

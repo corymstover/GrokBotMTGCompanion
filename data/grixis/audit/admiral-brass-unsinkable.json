@@ -5,11 +5,11 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
- "pass_id": "audit:admiral-brass-unsinkable:c59:0d8b3cea9d27",
+ "pass_id": "audit:admiral-brass-unsinkable:c59:8d6a030225ca",
  "snapshot": {
-  "id": "sha256:0d8b3cea9d270141fa169b9919e4ecbfdabe91b67dbe13bf837908a51844ddec",
-  "graph": "sha256:c87515e583cfa3d0be8d4ec8d118671372d60104d259e91ffe6f91c721912c56",
-  "evidence": "sha256:fc76193b42ea6f063def45a609743949284230f9c4c3c442fac8c6510554d562",
+  "id": "sha256:8d6a030225ca8f0c439a5ad16e8f9d8378eeb2321d04a3b238f3d897ea73640e",
+  "graph": "sha256:773f1ab1097d8bf618e7596648f02fa62286b0a63ba0edff5dd3e044ccfe0410",
+  "evidence": "sha256:273a7442a063c5077f252ece3679d7794a384dfa7f88a22ebe52492be8a0690f",
   "m1": "ingested"
  },
  "authority": {
@@ -132,7 +132,7 @@
   "screened": 140,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:fc76193b42ea6f063def45a609743949284230f9c4c3c442fac8c6510554d562"
+  "snapshot": "sha256:273a7442a063c5077f252ece3679d7794a384dfa7f88a22ebe52492be8a0690f"
  },
  "slots": [
   {"card":"Admiral Beckett Brass","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["removal"],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Admiral Beckett Brass"],"alternatives":["evidence:data/grixis/evidence/admiral-brass-unsinkable.json#Prismari Command"],"redundancy":6,"reason":"functional retain ({1}{U}{B}{R} legendary creature): role removal. Oracle: “Other Pirates you control get +1/+1”. Role removal (7 in list). Redundancy 6 (other cards sharing a key role). Best alternative: Prismari Command (shared key role, EDHREC 58%). EDHREC inclusion 85.1%, synergy +0.81.","evidence":["evidence:data/grixis/evidence/admiral-brass-unsinkable.json#Admiral Beckett Brass","graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Admiral Beckett Brass","oracle:Admiral Beckett Brass"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

@@ -29,12 +29,12 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:8dfe882d6e8c85b4c93a31e3d57e568885ff95ccd40fd94ce6dcb5e5c7b70892",
+  "id": "sha256:ac677b91b8d08e807228e41d06fdf5fe9ba5c1b2b019878b02d3bbd6fa707b40",
   "inputs": {
    ".cache/edhrec/commanders__cormela-glamour-thief.json": "sha256:ad8b2263fc5a14d01804428b5214b3c5e4bf6abae53781f67e9390a9052018e5",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
    "data/grixis_interactions/cormela-glamour-thief.json": "sha256:85793391b5cf8ea8c453967e9f1bdac383cfadf03a5584ee713c3b5659732856",
-   "data/grixis/blueprints/cormela-glamour-thief.json": "sha256:c989a45e5fef590203002e5553003ec5d0816211ebca279fb4312b928591e4f1",
+   "data/grixis/blueprints/cormela-glamour-thief.json": "sha256:3f627bca9265b8ed889bf52cd6a9487c7340a94fc38db99dfc5a960dfa744fec",
    "grixis/decks/cormela-glamour-thief.md": "sha256:b70795fb0a1fd29c5518c9202b4820fa140fe87fd6eb655c3b2c1e0b949dbf76",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
    "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
@@ -134,7 +134,7 @@
   {"card":"Talisman of Dominance","status":"incumbent","zone":"main","edhrec":[1.1,0.05083,0.55682,2151,3863,0.0,"moderate",[]]},
   {"card":"Talisman of Indulgence","status":"incumbent","zone":"main","edhrec":[1.035,0.01555,0.46415,1793,3863,0.0,"moderate",[]]},
   {"card":"Tendrils of Agony","status":"incumbent","zone":"main","edhrec":null,"oracle_hook":{"label":"instants and sorceries","commander":"Cormela, Glamour Thief","class":"heuristic","confidence":"moderate"},"graph":{"blueprint":{"packages":["pkg:cedh-failover"],"identity_core":false,"version":1,"class":"strategic_judgment","confidence":"moderate"}}},
-  {"card":"Thassa's Oracle","status":"incumbent","zone":"main","edhrec":[1.342,0.02773,0.10872,420,3863,-0.785,"moderate",[]],"graph":{"spellbook":{"ids":["1295-3093","742-1295"],"class":"fact","confidence":"verified"},"m1":{"ids":["cormela-07"],"class":"fact","confidence":"verified","flags":[]},"blueprint":{"packages":["pkg:cedh-failover"],"identity_core":true,"version":1,"class":"strategic_judgment","confidence":"high"}}},
+  {"card":"Thassa's Oracle","status":"incumbent","zone":"main","edhrec":[1.342,0.02773,0.10872,420,3863,-0.785,"moderate",[]],"graph":{"spellbook":{"ids":["1295-3093","742-1295"],"class":"fact","confidence":"verified"},"m1":{"ids":["cormela-07"],"class":"fact","confidence":"verified","flags":[]},"blueprint":{"packages":["pkg:cedh-failover"],"identity_core":false,"version":1,"class":"strategic_judgment","confidence":"moderate"}}},
   {"card":"Training Center","status":"incumbent","zone":"main","edhrec":[1.076,0.02366,0.33575,1297,3863,0.0,"moderate",[]]},
   {"card":"Undercity Sewers","status":"incumbent","zone":"main","edhrec":[1.316,0.03987,0.16619,642,3863,0.0,"moderate",[]],"oracle_hook":{"label":"graveyard as a resource","commander":"Cormela, Glamour Thief","class":"heuristic","confidence":"moderate"}},
   {"card":"Underground Sea","status":"incumbent","zone":"main","edhrec":[1.085,0.01299,0.16593,641,3863,0.0,"moderate",[]]},

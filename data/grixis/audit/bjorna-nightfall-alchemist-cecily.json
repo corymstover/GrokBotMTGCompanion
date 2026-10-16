@@ -5,11 +5,11 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
- "pass_id": "audit:bjorna-nightfall-alchemist-cecily:c59:c82bc2872fa8",
+ "pass_id": "audit:bjorna-nightfall-alchemist-cecily:c59:1ad6459b3ff6",
  "snapshot": {
-  "id": "sha256:c82bc2872fa82c0fb020f3397307c784f2f5a90f3a308b5ee4fa89aed5d37ae1",
-  "graph": "sha256:0b88e995d6c17099d0a0005b7bb51a93024288211d461035319761080eee72c9",
-  "evidence": "sha256:65eef4d8a10b9fe846b0c7a3af42ce10981da38d6bdbab09ff0ebfd2c76cce57",
+  "id": "sha256:1ad6459b3ff69945f98c36e5f78fa61df1225feedd8f120d98603a8084aaaf5c",
+  "graph": "sha256:a48838c984885063038a062ad58e92c09c5b54f3711e327655e2049d081b5bc8",
+  "evidence": "sha256:0bed340e35a3007ef2d2144e1c36872f6045aae658168d3e8a2c0a6d6cb397ff",
   "m1": "ingested"
  },
  "authority": {
@@ -147,7 +147,7 @@
   "screened": 230,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:65eef4d8a10b9fe846b0c7a3af42ce10981da38d6bdbab09ff0ebfd2c76cce57"
+  "snapshot": "sha256:0bed340e35a3007ef2d2144e1c36872f6045aae658168d3e8a2c0a6d6cb397ff"
  },
  "slots": [
   {"card":"Academy Manufactor","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["ramp"],"packages":["pkg:artifact-fodder"],"blueprint_refs":["blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:artifact-fodder"],"graph_refs":["graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Academy Manufactor"],"alternatives":["evidence:data/grixis/evidence/bjorna-nightfall-alchemist-cecily.json#Hit the Mother Lode"],"redundancy":5,"reason":"functional retain ({3} artifact creature): role ramp. Oracle: “If you would create a Clue, Food, or Treasure token, instead create one of ea…”. Role ramp (21 in list). Packages pkg:artifact-fodder. Redundancy 5 (other cards in its package(s)). Best alternative: Hit the Mother Lode (shared key role, EDHREC 18%). EDHREC inclusion 16.0%, synergy +0.15. Blueprint names it in packages/pkg:artifact-fodder.","evidence":["blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:artifact-fodder","evidence:data/grixis/evidence/bjorna-nightfall-alchemist-cecily.json#Academy Manufactor","graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Academy Manufactor","oracle:Academy Manufactor"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

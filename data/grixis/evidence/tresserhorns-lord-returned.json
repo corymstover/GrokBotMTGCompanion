@@ -29,12 +29,12 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:50fdd9dd457cbce9ce40210aee254fb51dd98fd2c63d8155d604d1c40b8a8bdc",
+  "id": "sha256:f859946fdcacb7bea8010e9af0c06804f177c4a02bc610b6ad2d263b48e7cd03",
   "inputs": {
    ".cache/edhrec/commanders__tresserhorns-lord-returned.json": "sha256:3fbbbf097b6dec0d10b234fda2f46d64f515c30a73c45867eedfc8b2a8a2524f",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
    "data/grixis_interactions/tresserhorns-lord-returned.json": "sha256:505ad449887f819547be17a8349e5e5ea4796fc9b1a03f7a949ec28d7be87afa",
-   "data/grixis/blueprints/tresserhorns-lord-returned.json": "sha256:22b1ede0c06b6aa884b2edab808a0de61af6986ce8c03c6ff228119838d585ea",
+   "data/grixis/blueprints/tresserhorns-lord-returned.json": "sha256:90cd3f4523d34a0b81ab2dd4df1f893ce687e30d49c1b75d807996dd0423a21a",
    "grixis/decks/tresserhorns-lord-returned.md": "sha256:f0d1da83080599d84410d99b5dd0b3ecd3e60597306ff4b6ec424714830dfa17",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
    "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"

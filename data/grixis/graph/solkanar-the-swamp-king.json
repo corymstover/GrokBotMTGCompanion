@@ -19,15 +19,15 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:82d9e68208a68314769efd60df13f9d3b2a6f637f8ee764b5d77b855ec88a301",
+  "id": "sha256:87afbcec0113aae6303fdd6e237cc2e53684eb862f9b597f5df81f09e312e9fb",
   "inputs": {
    "exports/grixis-archidekt/source-baseline/solkanar-the-swamp-king.txt": "sha256:bf475d9c7048874d439972282b85de5684e0fde03095a2257e9249cdb7661ccd",
-   "data/grixis/blueprints/solkanar-the-swamp-king.json": "sha256:43511521b91d8ce9eee4f41b1bfbcbd7457702712bc70c4242bf3c3e08c2722a",
+   "data/grixis/blueprints/solkanar-the-swamp-king.json": "sha256:7873c574fc0991983ba666614654727c3dafd20d318bbf0adb4510933f367de9",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
    "data/grixis_interactions/solkanar-the-swamp-king.json": "sha256:b51264ae8001bf709ebde46c4c3990d5b38093f24eda21926dbb3fcca87c9fd6",
    "data/grixis_interactions/edges/solkanar-the-swamp-king.json": "sha256:0a81d221eb0688d9d647927e3bdcf9be302c2310293858017212f37808edea3f",
-   "data/grixis/evidence/solkanar-the-swamp-king.json": "sha256:20b1f760906a783d0bf151c34ec8d0fee7616f536bcff939a52f692d067cbfb4",
-   "scripts/grixis_graph.py": "sha256:df64c8aeb91d9adb592e59cbfe7dff28878e6c317de20227312e06ccc08af84e",
+   "data/grixis/evidence/solkanar-the-swamp-king.json": "sha256:24950240af810e622846828177d193ff1020d611373573c6311cbef483649854",
+   "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
    "scripts/grixis_refine.py": "sha256:78386fc6e5ac722cd25b35f37a1b2d2ff0c427ce1aa77578fee7bf459da5c4d4",
    "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
   }
@@ -48,19 +48,19 @@
  "warnings": [],
  "counts": {
   "cards": 95,
-  "nodes": 131,
-  "edges": 240,
+  "nodes": 132,
+  "edges": 243,
   "annotations": 34,
   "combos": 13,
   "by_layer": {
-   "blueprint": 55,
+   "blueprint": 58,
    "m1_edges": 40,
    "role": 105,
    "spellbook": 40
   }
  },
  "nodes": [
-  {"id":"card:Aetherflux Reservoir","kind":"card","name":"Aetherflux Reservoir","qty":1,"zone":"main","mv":4,"type_line":"Artifact","roles":["removal"],"packages":["pkg:life-loop"],"identity_core":false,"tutor_target":false,"recursion":false},
+  {"id":"card:Aetherflux Reservoir","kind":"card","name":"Aetherflux Reservoir","qty":1,"zone":"main","mv":4,"type_line":"Artifact","roles":["removal"],"packages":[],"identity_core":false,"tutor_target":false,"recursion":false},
   {"id":"card:Alhammarret's Archive","kind":"card","name":"Alhammarret's Archive","qty":1,"zone":"main","mv":5,"type_line":"Legendary Artifact","roles":["draw"],"packages":[],"identity_core":false,"tutor_target":false,"recursion":false},
   {"id":"card:Ancient Tomb","kind":"card","name":"Ancient Tomb","qty":1,"zone":"main","mv":0,"type_line":"Land","roles":["land"],"packages":[],"identity_core":false,"tutor_target":false,"recursion":false},
   {"id":"card:Arcane Signet","kind":"card","name":"Arcane Signet","qty":1,"zone":"main","mv":2,"type_line":"Artifact","roles":["ramp"],"packages":[],"identity_core":false,"tutor_target":false,"recursion":false},
@@ -177,7 +177,7 @@
   {"id":"interaction:solkanar-the-swamp-king/solkanar-05","kind":"interaction","name":"solkanar-05","topic":"layers","status":"verified","flag_kind":null,"class":"fact","spellbook":[],"layer":"m1"},
   {"id":"interaction:solkanar-the-swamp-king/solkanar-06","kind":"interaction","name":"solkanar-06","topic":"engine","status":"verified","flag_kind":null,"class":"fact","spellbook":[],"layer":"m1"},
   {"id":"package:black-spells","kind":"package","name":"pkg:black-spells","required":false,"min_count":4,"count_in_list":5,"role":"Black versions of removal and ramp.","candidates":[],"class":"strategic_judgment"},
-  {"id":"package:life-loop","kind":"package","name":"pkg:life-loop","required":true,"min_count":5,"count_in_list":7,"role":"Redundant two-card loops.","candidates":[],"class":"strategic_judgment"},
+  {"id":"package:life-loop","kind":"package","name":"pkg:life-loop","required":true,"min_count":5,"count_in_list":6,"role":"Redundant two-card drain-on-gain loops (Aetherflux Reservoir is modelled separately as an enabler/payoff).","candidates":[],"class":"strategic_judgment"},
   {"id":"package:swamp","kind":"package","name":"pkg:swamp","required":true,"min_count":5,"count_in_list":6,"role":"Swamp infrastructure.","candidates":[],"class":"strategic_judgment"},
   {"id":"role:counter","kind":"role","name":"counter","class":"heuristic"},
   {"id":"role:draw","kind":"role","name":"draw","class":"heuristic"},
@@ -188,15 +188,17 @@
   {"id":"role:tutor","kind":"role","name":"tutor","class":"heuristic"},
   {"id":"role:wipe","kind":"role","name":"wipe","class":"heuristic"},
   {"id":"win:citadel-top-reservoir","kind":"win","name":"citadel-top-reservoir","win_kind":"combo","pieces_in_list":3,"class":"strategic_judgment"},
-  {"id":"win:life-loops","kind":"win","name":"life-loops","win_kind":"combo","pieces_in_list":7,"class":"strategic_judgment"},
+  {"id":"win:life-loops","kind":"win","name":"life-loops","win_kind":"combo","pieces_in_list":6,"class":"strategic_judgment"},
   {"id":"win:painter-grindstone","kind":"win","name":"painter-grindstone","win_kind":"combo","pieces_in_list":2,"class":"strategic_judgment"},
+  {"id":"win:reservoir-activation","kind":"win","name":"reservoir-activation","win_kind":"combo","pieces_in_list":3,"class":"strategic_judgment"},
   {"id":"win:wheel-pressure","kind":"win","name":"wheel-pressure","win_kind":"natural","pieces_in_list":6,"class":"strategic_judgment"}
  ],
  "edges": [
   {"from":"card:Demon's Horn","to":"win:life-loops","kind":"enables","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops/enablers"],"evidence_class":"strategic_judgment","layer":"blueprint"},
+  {"from":"card:Demon's Horn","to":"win:reservoir-activation","kind":"enables","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation/enablers"],"evidence_class":"strategic_judgment","layer":"blueprint"},
   {"from":"card:Demonic Tutor","to":"win:painter-grindstone","kind":"enables","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone/enablers"],"evidence_class":"strategic_judgment","layer":"blueprint"},
   {"from":"commander:Sol'kanar the Swamp King","to":"win:life-loops","kind":"enables","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops/enablers"],"evidence_class":"strategic_judgment","layer":"blueprint"},
-  {"from":"card:Aetherflux Reservoir","to":"package:life-loop","kind":"member_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop"],"evidence_class":"strategic_judgment","layer":"blueprint"},
+  {"from":"commander:Sol'kanar the Swamp King","to":"win:reservoir-activation","kind":"enables","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation/enablers"],"evidence_class":"strategic_judgment","layer":"blueprint"},
   {"from":"card:Blanket of Night","to":"engine:swamp-mana","kind":"member_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/swamp-mana","source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L18","source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L24"],"evidence_class":"strategic_judgment","layer":"blueprint"},
   {"from":"card:Blanket of Night","to":"package:swamp","kind":"member_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:swamp"],"evidence_class":"strategic_judgment","layer":"blueprint"},
   {"from":"card:Bloodthirsty Conqueror","to":"package:life-loop","kind":"member_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop"],"evidence_class":"strategic_judgment","layer":"blueprint"},
@@ -227,11 +229,13 @@
   {"from":"card:Withering Torment","to":"package:black-spells","kind":"member_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:black-spells"],"evidence_class":"strategic_judgment","layer":"blueprint"},
   {"from":"commander:Sol'kanar the Swamp King","to":"engine:black-spell-gain","kind":"member_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain","oracle:Sol'kanar the Swamp King","source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L22"],"evidence_class":"fact","layer":"blueprint"},
   {"from":"card:Aetherflux Reservoir","to":"win:citadel-top-reservoir","kind":"piece_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"],"evidence_class":"strategic_judgment","layer":"blueprint"},
-  {"from":"card:Aetherflux Reservoir","to":"win:life-loops","kind":"piece_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"],"evidence_class":"strategic_judgment","layer":"blueprint"},
+  {"from":"card:Aetherflux Reservoir","to":"win:reservoir-activation","kind":"piece_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation"],"evidence_class":"strategic_judgment","layer":"blueprint"},
   {"from":"card:Bloodthirsty Conqueror","to":"win:life-loops","kind":"piece_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"],"evidence_class":"strategic_judgment","layer":"blueprint"},
+  {"from":"card:Bloodthirsty Conqueror","to":"win:reservoir-activation","kind":"piece_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation"],"evidence_class":"strategic_judgment","layer":"blueprint"},
   {"from":"card:Bolas's Citadel","to":"win:citadel-top-reservoir","kind":"piece_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"],"evidence_class":"strategic_judgment","layer":"blueprint"},
   {"from":"card:Enduring Tenacity","to":"win:life-loops","kind":"piece_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"],"evidence_class":"strategic_judgment","layer":"blueprint"},
   {"from":"card:Exquisite Blood","to":"win:life-loops","kind":"piece_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"],"evidence_class":"strategic_judgment","layer":"blueprint"},
+  {"from":"card:Exquisite Blood","to":"win:reservoir-activation","kind":"piece_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation"],"evidence_class":"strategic_judgment","layer":"blueprint"},
   {"from":"card:Exsanguinate","to":"win:wheel-pressure","kind":"piece_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"],"evidence_class":"strategic_judgment","layer":"blueprint"},
   {"from":"card:Gray Merchant of Asphodel","to":"win:wheel-pressure","kind":"piece_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"],"evidence_class":"strategic_judgment","layer":"blueprint"},
   {"from":"card:Grindstone","to":"win:painter-grindstone","kind":"piece_of","evidence":["blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone"],"evidence_class":"strategic_judgment","layer":"blueprint"},

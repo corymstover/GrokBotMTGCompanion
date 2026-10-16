@@ -5,10 +5,10 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
- "pass_id": "audit:inalla-archmage-ritualist:c59:43a07a09d645",
+ "pass_id": "audit:inalla-archmage-ritualist:c59:cfbd4aedaf76",
  "snapshot": {
-  "id": "sha256:43a07a09d6451d005629030eebf9049dd4f05b28b75e590a14f41b2f7fa5a82f",
-  "graph": "sha256:a48e240aeccbaa6885dc9510a56a76fec452c3cdf9417aa168292c5dcea4e442",
+  "id": "sha256:cfbd4aedaf7628fbc33519e7cac112d08e8ec6be8ed6bb67f60a82848ea3f8b9",
+  "graph": "sha256:987706d46e101b8c2719d933a70df2b4d5f546ed98e800aa22005df327ace4ce",
   "evidence": "sha256:ce9a53a1af4d876530f6b0c1839d775a289391eb87e505c847570ffeab9701e1",
   "m1": "ingested"
  },

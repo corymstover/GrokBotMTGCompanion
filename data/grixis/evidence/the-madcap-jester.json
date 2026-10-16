@@ -29,12 +29,12 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:8f0288cdacb92a474b6b3b65044b0fca57001ab4f366b89e95d454ea9e521ff5",
+  "id": "sha256:e6eb368247f71c1b228d468cf0d92860ef8fcf8bbc09c0d23a61da9576501983",
   "inputs": {
    ".cache/edhrec/commanders__the-madcap-jester.json": "sha256:7a8331edd6c967e3cb5543a3a932fc7ac2d1ba7280c136bfed3697820bbb3811",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
    "data/grixis_interactions/the-madcap-jester.json": "sha256:2477e51dcbed7fbd815559a1a9a59ca4b9b35f16be1c55392aff6a6aa6af19d1",
-   "data/grixis/blueprints/the-madcap-jester.json": "sha256:7ee977c1593797f76f1453a1e5082a36bc4a0bc73c63bf234ae42009f5746241",
+   "data/grixis/blueprints/the-madcap-jester.json": "sha256:826defcf59d42fa5022c90107db000064b1e2edd72eeb9f909059b6a4796f408",
    "grixis/decks/the-madcap-jester.md": "sha256:58088b9ff1f1440437cd7449773ae1a47d700eea66db9c9fc8f753f9d36b2733",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
    "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
@@ -131,14 +131,14 @@
   {"card":"Talisman of Dominance","status":"incumbent","zone":"main","edhrec":[1.204,0.13678,0.64276,995,1548,0.0,"low",["lift_synergy_inconsistent"]]},
   {"card":"Talisman of Indulgence","status":"incumbent","zone":"main","edhrec":[1.288,0.17091,0.61951,959,1548,0.0,"low",["lift_synergy_inconsistent"]]},
   {"card":"Tasha's Hideous Laughter","status":"incumbent","zone":"main","edhrec":[47.362,0.89825,0.90633,1403,1548,3.889,"low",["rising","lift_synergy_inconsistent"]],"graph":{"m1":{"ids":["jester-01"],"class":"fact","confidence":"verified","flags":[]},"blueprint":{"packages":["pkg:library-exile"],"identity_core":true,"version":1,"class":"strategic_judgment","confidence":"high"}}},
-  {"card":"Thassa's Oracle","status":"incumbent","zone":"main","edhrec":[1.414,0.02559,0.10659,165,1548,0.071,"low",["lift_synergy_inconsistent"]],"graph":{"spellbook":{"ids":["1295-3093","742-1295"],"class":"fact","confidence":"verified"},"m1":{"ids":["jester-04"],"class":"fact","confidence":"verified","flags":[]},"blueprint":{"packages":["pkg:compact-wins"],"identity_core":true,"version":1,"class":"strategic_judgment","confidence":"high"}}},
+  {"card":"Thassa's Oracle","status":"incumbent","zone":"main","edhrec":[1.414,0.02559,0.10659,165,1548,0.071,"low",["lift_synergy_inconsistent"]],"graph":{"spellbook":{"ids":["1295-3093","742-1295"],"class":"fact","confidence":"verified"},"m1":{"ids":["jester-04"],"class":"fact","confidence":"verified","flags":[]},"blueprint":{"packages":["pkg:compact-wins"],"identity_core":false,"version":1,"class":"strategic_judgment","confidence":"moderate"}}},
   {"card":"The Madcap Jester","status":"commander","legal":"not_legal","edhrec":null,"graph":{"m1":{"ids":["jester-01","jester-02","jester-03","jester-04","jester-05","jester-06","jester-07"],"class":"fact","confidence":"test_required","flags":["jester-02"]},"blueprint":{"packages":[],"identity_core":true,"version":1,"class":"strategic_judgment","confidence":"high"}}},
   {"card":"Thieving Varmint","status":"incumbent","zone":"main","edhrec":[32.394,0.57788,0.58979,913,1548,1.964,"low",["lift_synergy_inconsistent"]]},
   {"card":"Toxic Deluge","status":"incumbent","zone":"main","edhrec":[1.183,0.08616,0.30426,471,1548,0.501,"low",["lift_synergy_inconsistent"]]},
   {"card":"Training Center","status":"incumbent","zone":"main","edhrec":[1.722,0.19696,0.50904,788,1548,0.0,"low",["lift_synergy_inconsistent"]]},
   {"card":"Undercity Sewers","status":"incumbent","zone":"main","edhrec":[2.028,0.1282,0.25452,394,1548,0.0,"moderate",[]]},
   {"card":"Underground Sea","status":"incumbent","zone":"main","edhrec":[1.99,0.14421,0.29716,460,1548,0.0,"low",["lift_synergy_inconsistent"]]},
-  {"card":"Underworld Breach","status":"incumbent","zone":"main","edhrec":[1.077,0.0078,0.11951,185,1548,0.242,"moderate",[]],"graph":{"spellbook":{"ids":["1368-1414-4856","1368-3518-4856"],"class":"fact","confidence":"verified"},"m1":{"ids":["jester-05"],"class":"fact","confidence":"verified","flags":[]},"blueprint":{"packages":["pkg:compact-wins"],"identity_core":true,"version":1,"class":"strategic_judgment","confidence":"high"}}},
+  {"card":"Underworld Breach","status":"incumbent","zone":"main","edhrec":[1.077,0.0078,0.11951,185,1548,0.242,"moderate",[]],"graph":{"spellbook":{"ids":["1368-1414-4856","1368-3518-4856"],"class":"fact","confidence":"verified"},"m1":{"ids":["jester-05"],"class":"fact","confidence":"verified","flags":[]},"blueprint":{"packages":["pkg:compact-wins"],"identity_core":false,"version":1,"class":"strategic_judgment","confidence":"moderate"}}},
   {"card":"Vampiric Tutor","status":"incumbent","zone":"main","edhrec":[1.118,0.01175,0.16473,255,1548,0.166,"low",["lift_synergy_inconsistent"]]},
   {"card":"Verdant Catacombs","status":"incumbent","zone":"main","edhrec":[1.64,0.05509,0.14793,229,1548,0.0,"low",["lift_synergy_inconsistent"]]},
   {"card":"Volcanic Island","status":"incumbent","zone":"main","edhrec":[1.959,0.13828,0.2907,450,1548,0.0,"low",["lift_synergy_inconsistent"]]},

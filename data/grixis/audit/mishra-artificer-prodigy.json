@@ -5,10 +5,10 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
- "pass_id": "audit:mishra-artificer-prodigy:c59:a6cff09976f0",
+ "pass_id": "audit:mishra-artificer-prodigy:c59:f7d27aa8a555",
  "snapshot": {
-  "id": "sha256:a6cff09976f027d0e1c9e2ab8c1af0131912322477446f2e5583f62dccdc233d",
-  "graph": "sha256:bf477422aac4bdb85160913c562c35713f1eccff847787f82cd3cac0b2d7738b",
+  "id": "sha256:f7d27aa8a5554c5337e19a14c7efd7d6257aa1da3ca0c348baec1081ce8f1935",
+  "graph": "sha256:a05f007b12e481d29c6ff3a36d505ffaf3192972618fca4b13bd52d1ae2ab8bd",
   "evidence": "sha256:f467703264261e8fc29452b8c7f02abb0dc576836e528386bda8d8cf852ab85f",
   "m1": "ingested"
  },

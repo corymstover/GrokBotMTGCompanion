@@ -29,12 +29,12 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:8f92748f32fa63c7d553157d1c6d4ec4f7f75985189a2135ac6029b114372e3b",
+  "id": "sha256:50dab2695e15ec50767a84d954798d1379edf22c5bd664897503ccfc0693ab2b",
   "inputs": {
    ".cache/edhrec/commanders__parnesse-the-subtle-brush.json": "sha256:d42f09480325a2e6d4473bf608fb74156640e397122b6af31d9846058fa73e55",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
    "data/grixis_interactions/parnesse-the-subtle-brush.json": "sha256:f0888e92cff701455bc0416b7640654afc6bf37c0ed68fe3bf54d23c5f81580c",
-   "data/grixis/blueprints/parnesse-the-subtle-brush.json": "sha256:ca2c3b663f394817d734989a39d9043bac684ec58be7b3f3ce512719170fcbca",
+   "data/grixis/blueprints/parnesse-the-subtle-brush.json": "sha256:e899accca8a366dfbd606922b2e655c7e75d1a8af77db935dbdcc2b07c5f6ab3",
    "grixis/decks/parnesse-the-subtle-brush.md": "sha256:a56f8ea5f040b82834a1f876f1bace7ad0d69e472f1be97e13123274bc3b7ce6",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
    "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
