@@ -20,7 +20,8 @@ Steps (run in this order; each prints its own summary):
   6 oracle       scripts/verify_cards.py                 every card entry matches the Scryfall Oracle/rulings bulk verbatim
   7 decks        (built in)                              every deck list still resolves, is legal, fits identity, 100 cards, singleton,
                                                          and its stored Game Changer count matches the current Scryfall flags
-  7b source-archive scripts/grixis_archive.py --check  archived Grixis source tree matches SHA256SUMS + source.json (count, hashes, bundle)
+  7b interactions  scripts/grixis_interactions.py --check  Grixis interaction reviews: deck hash, CR/Oracle/ruling citations verbatim, pages current
+  7c source-archive scripts/grixis_archive.py --check  archived Grixis source tree matches SHA256SUMS + source.json (count, hashes, bundle)
   8 freshness    (built in)                              generated pages built from an older bulk than the cache (warning);
                                                          with --online, a newer Scryfall bulk than the cache (warning; --strict fails)
 Default is offline (SCRYFALL_OFFLINE=1: newest cached bulk in .cache/, recorded citation results).
@@ -145,6 +146,7 @@ def main(argv):
              ("citations", ["scripts/check_citations.py"] + (["--online"] if online else [])),
              ("oracle", ["scripts/verify_cards.py"]), ("decks", None),
              ("grixis-refine", ["scripts/grixis_refine.py", "--check"]),  # Bot cycle 39: refined lists verified, exports match deck pages
+             ("interactions", ["scripts/grixis_interactions.py", "--check"]),  # Bot cycle 46: per-deck interaction reviews cited + current
              ("source-archive", ["scripts/grixis_archive.py", "--check"]),  # Bot cycle 45: archived Grixis source byte-identical to its manifest
              ("freshness", None)]
     results = []
