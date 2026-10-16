@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 37 (Grixis re-analysis)](#2026-10-16--bot-cycle-37-grixis-re-analysis)
 - [2026-10-16 — Bot cycle 36 (Phase 8: Legends evidence, audit pass 2, batch 4 partial)](#2026-10-16--bot-cycle-36-phase-8-legends-evidence-audit-pass-2-batch-4-partial)
 - [2026-10-15 — Bot cycle 35 (Phase 8: story cache, name-match audit, batch 3)](#2026-10-15--bot-cycle-35-phase-8-story-cache-name-match-audit-batch-3)
 - [2026-10-15 — Bot cycle 34 (Phase 8: batch 2, package back-links, atomic writes)](#2026-10-15--bot-cycle-34-phase-8-batch-2-package-back-links-atomic-writes)
@@ -50,6 +51,32 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 37 (Grixis re-analysis)
+Cory resumed the Grixis work. The read-only source [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) moved from `df1abb9` (v1.9) to `1836b97`: 275 commits and 400 files. The clone was only fast-forwarded.
+
+- **Source changes:**
+  - All 62 lists are now APPROVED / LOCKED; 22 were UNREFINED before. No list was removed.
+  - The 40 lists imported in cycle 16 are byte-identical.
+  - New: a 62-deck Archidekt export with `manifest.csv`, per-deck 99-slot whole-list audits and approval-ready verifications, artifact paths in the state file, and one-shot finalizers.
+- **Re-evaluation ([#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59), [#60](https://github.com/corymstover/GrokBotMTGCompanion/issues/60)):**
+  - All 62 lists checked with `grixis_eval.py` against the card DB. The only hard issues are Bjorna + Cecily's 2 banned cards (already corrected) and the 3 `mbc` cards.
+  - `mbc` releases 2026-10-19. The Scryfall API and bulk still say `not_legal` on 2026-10-16.
+  - 17,683 source Oracle rows: 0 outdated.
+  - The newer Scryfall bulk (2026-10-15 21:01) changes no Oracle text, legality, Game Changer flag or identity, so the KB stays on the 09:02 bulk (its EDHREC ranks drive the Phase 8 batches).
+- **Integrated:** 20 newly approved lists, **60 decks** in total. They include Norman Osborn // Green Goblin (deck id `Goben__…`), both Nicol Bolases, both Obekas, Parnesse, Rograkh + Silas Renn, Saruman, both Saurons, Sedris, both Sol'kanars, both Tetsuos, The Rani, The Valeyard, Thraximundar, Wick and Zevlor. The Madcap Jester and Tresserhorn's Lord, Returned wait for `mbc` legality.
+- **Corrections:** 129 (+42): 60 format, 60 bracket, 2 legality, 2 provenance, 1 companion, 4 low-land flags (Ashad and Dr. Eggman unchanged; Saruman and Sedris new). No source bracket target is below its floor. The Lutri companion is still dropped.
+- **Source structural findings** ([Grixis Corrections](grixis/Grixis%20Corrections.md#source-repo-structural-findings)):
+  - The Tresserhorn approval claims official legality before release.
+  - One state artifact path is missing (Thraximundar's audit).
+  - Deck id `Goben__Gene_Splice_Savant` holds Norman Osborn.
+  - The export README confirms the Admiral Brass and Anhelo digest explanation.
+- **Tooling:**
+  - `build_grixis.py` now finds deck records through the state's `*_artifact` paths, labels cycle 16 vs cycle 37 imports (`data/grixis_c16_ids.json`) and links `refinement/audits/`.
+  - `grixis_eval.py` writes indented JSON again.
+- **Standards:** new [Checklist Gate F](EDH%20Deck%20Evaluation%20Checklist.md#gate-f--approval-ready-candidate-and-lock): an approval-ready candidate approved by its SHA-256, a 99-slot audit tally, a dated legality checkpoint, and an export manifest. Also a [Template §6](EDH%20Deck%20Template.md#6-finalization-record) addition and an [EDH Standards](EDH%20Standards.md#deck-evaluation-method-from-the-grixis-repo) note, all credited to the source. The Lore-Themed guide needed no change.
+- **Downstream:** bracket calibration now covers 108 decks (B2 12, B3 31, B4 65). Cross-references, card enrichment (KB-deck synergy) and package back-links were rebuilt.
+- `validate_all` PASS (13 steps).
 
 ## 2026-10-16 — Bot cycle 36 (Phase 8: Legends evidence, audit pass 2, batch 4 partial)
 Last Phase 8 cycle for now (Cory: stop after cycle 36). Slices 3–10 were not run.

@@ -5787,6 +5787,11 @@
 "headings": [
 [
 2,
+"2026-10-16 — Bot cycle 37 (Grixis re-analysis)",
+"2026-10-16--bot-cycle-37-grixis-re-analysis"
+],
+[
+2,
 "2026-10-16 — Bot cycle 36 (Phase 8: Legends evidence, audit pass 2, batch 4 partial)",
 "2026-10-16--bot-cycle-36-phase-8-legends-evidence-audit-pass-2-batch-4-partial"
 ],
@@ -6174,6 +6179,11 @@
 "headings": [
 [
 2,
+"Bot cycle 37 re-analysis",
+"bot-cycle-37-re-analysis"
+],
+[
+2,
 "Source repo inventory",
 "source-repo-inventory"
 ],
@@ -6223,9 +6233,9 @@
 "related": [
 "Front-Matter Schema.md",
 "grixis/Grixis Corrections.md",
-"grixis/README.md",
 "EDH Deck Evaluation Checklist.md",
 "EDH Deck Template.md",
+"grixis/README.md",
 "EDH Standards.md"
 ]
 },

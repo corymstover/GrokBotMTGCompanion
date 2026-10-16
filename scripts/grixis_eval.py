@@ -102,7 +102,7 @@ def main():
                 stale.setdefault(c["name"], {"files": set(), "old": ot, "new": cur})["files"].add(str(Path(f).relative_to(SRC)))
     out["oracle_check"] = {"rows_checked": checked, "files": len(vfiles),
                            "stale": {k: {"files": sorted(v["files"]), "old": v["old"], "new": v["new"]} for k, v in sorted(stale.items())}}
-    (ROOT / "data" / "grixis_eval.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")))
+    (ROOT / "data" / "grixis_eval.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
     for did, d in out["decks"].items():
         print(f"{did:38s} {d['source_state']['approval_status'][:10]:10s} total={d['total']} issues={[(i['type'], i['card']) for i in d['issues']]}")
     print("oracle rows checked", checked, "stale cards", len(stale), list(stale)[:20])

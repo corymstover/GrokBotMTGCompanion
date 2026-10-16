@@ -5,15 +5,16 @@ tags: [grixis, summary, follow-ups]
 issues: [59, 60, 61, 62, 63]
 generated_by: hand-written
 sources: [grixis-repo]
-related: ["Front-Matter Schema.md", "grixis/Grixis Corrections.md", "grixis/README.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "EDH Standards.md"]
+related: ["Front-Matter Schema.md", "grixis/Grixis Corrections.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "grixis/README.md", "EDH Standards.md"]
 schema: 2
 ---
 
 # Grixis Integration Summary
 
-> **Bot cycle 16 · milestone [Grixis integration](https://github.com/corymstover/GrokBotMTGCompanion/milestone/13) · issues [#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59)–[#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63).** What we took from the user's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) repo (read-only; commit `df1abb9`), what was fixed, what was generalized for every color identity, and what remains. Back to [Grixis](README.md).
+> **Bot cycle 16 · milestone [Grixis integration](https://github.com/corymstover/GrokBotMTGCompanion/milestone/13) · issues [#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59)–[#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63).** What we took from the user's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) repo (read-only; commit `df1abb9` in Bot cycle 16, **re-analyzed at `1836b97` in Bot cycle 37**), what was fixed, what was generalized for every color identity, and what remains. Back to [Grixis](README.md).
 
 ## Contents
+- [Bot cycle 37 re-analysis](#bot-cycle-37-re-analysis)
 - [Source repo inventory](#source-repo-inventory)
 - [What was integrated](#what-was-integrated)
 - [What was left out and why](#what-was-left-out-and-why)
@@ -23,7 +24,31 @@ schema: 2
 - [Recommended follow-ups](#recommended-follow-ups)
 - [Reproducing](#reproducing)
 
+## Bot cycle 37 re-analysis
+Source moved from `df1abb9` to `1836b97`: 275 commits, 400 files changed (2026-10-15 to 2026-10-16). The clone at `/workspace/grixis-src` was only fast-forwarded and never modified.
+- **Status changes:** the 22 lists that were UNREFINED in Bot cycle 16 are now **APPROVED / LOCKED** (user approval 2026-10-15). All 62 are approved. **No list was removed.** The 40 lists imported in cycle 16 are byte-identical (same approved SHA-256). Only their retrospective gate files were regenerated, with new timestamps.
+- **New in the source:**
+  - `exports/archidekt_2026-10-15/`: a 62-deck Archidekt import package with `manifest.csv`. All 62 lists we selected match it card for card.
+  - Per-deck *approval-ready verification*, *candidate decision* and mandatory *99-slot whole-list audit* records.
+  - Per-deck artifact paths in `state/current_deck_overrides.json`.
+  - One-shot finalizer scripts and workflows.
+- **Integrated:** the **20 newly approved, currently legal lists**, so 60 decks are integrated now. These are Norman Osborn // Green Goblin (deck id `Goben__Gene_Splice_Savant`), Nicol Bolas, Nicol Bolas the Ravager, both Obekas, Parnesse, Rograkh + Silas Renn, Saruman, both Saurons, Sedris, both Sol'kanars, both Tetsuos, The Rani, The Valeyard, Thraximundar, Wick and Zevlor. All 20 pass Gate A. Commander Spellbook finds 105 more complete combos (46 two-card infinite).
+- **Still left out (awaiting legality):** The Madcap Jester (with Dragon's Smile) and Tresserhorn's Lord, Returned. Set `mbc` releases 2026-10-19. On 2026-10-16 both the Scryfall API and the bulk list them as `not_legal`. The source approved both lists. Madcap is under its future-release exception. ⚠️ Tresserhorn's record already claims official legality ([finding](Grixis%20Corrections.md#source-repo-structural-findings)).
+- **Re-evaluation of all 62 lists** (`grixis_eval.py`, Scryfall bulk 2026-10-15 09:02):
+  - The only hard issues are the known ones: Bjorna + Cecily's 2 banned cards (already corrected) and the 3 `mbc` cards.
+  - 17,683 Oracle rows in 46 source audit files: 0 outdated.
+  - The newer bulk (2026-10-15 21:01) changes **no** Oracle text, Commander legality, Game Changer flag or color identity for any card, so the KB stays on the 09:02 bulk. Its EDHREC ranks drive the Phase 8 batches.
+- **Bracket floors:**
+  - Game Changers + combos: 54 decks at Bracket 4 and 6 at Bracket 3. No source target is below its floor.
+  - 5 decks target Bracket 4 on a Game Changer floor of 3: Cult of Skaro, Dr. Eggman, Edea, Lord of Tresserhorn and Parnesse. Parnesse has 21 two-card infinites.
+  - The 11 Bracket-5 (cEDH) targets all sit at floor 4 with 15–22 Game Changers. Bracket 5 is intent, not a barometer.
+- **Land-count flags (guidance):** fewer than 32 lands with an average nonland MV above 3.0. **Ashad** (30 / 3.41) and **Dr. Eggman** (31 / 4.21) are unchanged in the source and stay flagged. **Saruman** (31 / 3.35) and **Sedris** (31 / 3.43) are new flags.
+- **Lutri:** unchanged. The source still keeps Lutri (banned as a companion), Trade Secrets and Yawgmoth's Bargain as project exceptions. Our corrected list keeps the cycle 16 fixes.
+- **Corrections:** 129 in total (cycle 16: 87). Format 60, bracket 60, legality 2, provenance 2, companion 1, structure flags 4.
+- **Standards:** new [Checklist Gate F](../EDH%20Deck%20Evaluation%20Checklist.md#gate-f--approval-ready-candidate-and-lock) (approval-ready candidate by hash, audit tally, dated legality checkpoint, export manifest), with a matching [Template §6](../EDH%20Deck%20Template.md#6-finalization-record) addition, credited to the source.
+
 ## Source repo inventory
+*(Bot cycle 16, commit `df1abb9`. At `1836b97`: 968 commits, 1,017 tracked files, 151 refined list files, 62 workflows, 96 scripts, 62/62 approved.)*
 | Item | Count |
 |---|---|
 | Commits / remote branches / tracked files | 693 / 49 / 645 |
@@ -76,9 +101,9 @@ The source's process machinery is specific to running a 62-deck campaign: the co
 
 ## Recommended follow-ups
 Tracked in [#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63). None of these were started.
-1. Import the remaining 20 lists as the source approves them: re-run `python3 scripts/build_grixis.py` (it picks up new approvals from the source state file), then `front_matter.py`.
-2. Re-check the three `mbc` cards after 2026-10-19 for Commander legality.
-3. Optional optimization pass (guidance): the two low-land flags, and the 5 decks whose source target (Bracket 4) is above their Game Changer floor of 3 (Ashad, Cult of Skaro, Dr. Eggman, Edea, Lord of Tresserhorn). These are not errors, but they are worth a Rule 0 note.
+1. ✅ *Done in Bot cycle 37:* imported the 20 lists the source approved on 2026-10-15. Earlier text: import the remaining 20 lists as the source approves them: re-run `python3 scripts/build_grixis.py` (it picks up new approvals from the source state file), then `front_matter.py`.
+2. Re-check the three `mbc` cards after 2026-10-19 for Commander legality (still `not_legal` on 2026-10-16). Then re-run `build_grixis.py` to import The Madcap Jester and Tresserhorn's Lord, Returned.
+3. Optional optimization pass (guidance): the low-land flags (Bot cycle 37: Ashad, Dr. Eggman, Saruman, Sedris), and the 5 decks whose source target (Bracket 4) is above their Game Changer floor of 3 (Bot cycle 37: Cult of Skaro, Dr. Eggman, Edea, Lord of Tresserhorn, Parnesse). These are not errors, but they are worth a Rule 0 note.
 4. Re-run Spellbook (`build_grixis.py --refresh-combos`) during the regular maintenance cycle ([#17](https://github.com/corymstover/GrokBotMTGCompanion/issues/17)).
 5. Use the new template and checklist when upgrading the 46 EDHREC-derived [decks/](../decks/) skeletons, starting with a blueprint for each.
 
