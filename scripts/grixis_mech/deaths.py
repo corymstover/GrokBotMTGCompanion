@@ -7,6 +7,8 @@ v1.1 never has a creature die. This layer overlays deterministic expectations on
   * own sacrifice outlets actually used: while a sacrifice outlet you control is on the battlefield and you have
     other creatures, you sacrifice one creature's worth of expected mass per turn (`sac` on/off), never the outlet,
     never a tracked card while other fodder exists, never the commander.
+Each turn's deaths are also emitted as death EVENTS (Bot cycle 66.2a): one per removed creature, one simultaneous event
+per wipe, one per sacrifice; with each victim's death probability and the alive probabilities before the step.
 A creature that dies goes to the graveyard, except commanders (command zone).
 The grid point removal=0, wipe=None, sac=off is v1.1's no-death world (the lower bound).
 """
@@ -41,28 +43,36 @@ def profile(trace, creatures, outlets, commanders, tracked, removal, wipe, sac):
         for n in s["battlefield"]:
             if n in creatures and n not in alive:
                 alive[n] = 1.0
-        died = {}
+        before = dict(alive)
+        died, evs = {}, []
         if wipe is not None and t == wipe:
             died = dict(alive)
+            evs.append({"kind": "wipe", "victims": {n: a for n, a in alive.items() if a > 0}})  # one simultaneous event
         else:
             for n, a in alive.items():
                 died[n] = a * removal
+                if a * removal > 0:
+                    evs.append({"kind": "removal", "victims": {n: a * removal}})  # one event per removed creature
         for n, d in died.items():
             alive[n] -= d
         if sac and any(o in s["battlefield"] and alive.get(o, 1.0) > 0 for o in outlets if o in s["battlefield"]):
             fod = sorted((n for n in alive if n not in outlets and n not in commanders and alive[n] > 0),
                          key=lambda n: (n in tracked, n))
-            need = 1.0
+            need, vic = 1.0, {}
             for n in fod:
                 take = min(need, alive[n])
                 alive[n] -= take
                 died[n] = died.get(n, 0.0) + take
+                vic[n] = take
                 need -= take
                 if need <= 0:
                     break
+            if vic:
+                evs.append({"kind": "sacrifice", "victims": vic})  # one creature's worth, one event
         step = sum(died.values())
         cum += step
         gy += sum(d for n, d in died.items() if n not in commanders)
         out.append({"turn": t, "deaths": cum, "step": step, "gy_creatures": gy,
-                    "p_dead": {n: 1.0 - alive[n] for n in tracked if n in alive}, "alive": dict(alive)})
+                    "p_dead": {n: 1.0 - alive[n] for n in tracked if n in alive}, "alive": dict(alive),
+                    "alive_before": before, "events": evs})
     return out

@@ -114,7 +114,8 @@
       "name": "mechanic test modules (sim v1.2)",
       "batches": [
         "66.1 framework, router, attack + recursion",
-        "66.2 death layer, death triggers, sacrifice, self-recursion split, 9,044/9,040 reconciliation"
+        "66.2 death layer, death triggers, sacrifice, self-recursion split, 9,044/9,040 reconciliation",
+        "66.2a death-trigger semantics correction (Cory t56u): death_triggers v2, death events in the shared layer"
       ],
       "status": "in_progress",
       "depends_on": [
@@ -134,13 +135,55 @@
         "sacrifice_costs"
       ],
       "legacy_not_modelable_routed": {
-        "routed": 2412,
-        "planned_module": 6048,
+        "routed": 2374,
+        "planned_module": 6086,
         "not_modelable": 580,
         "total": 9040
       },
       "shared_layers": [
         "deaths (bounded removal/wipe/sacrifice grid; lower bound = v1.1 no-death)"
+      ],
+      "corrections": [
+        {
+          "batch": "66.2a",
+          "caught_by": "Cory (t56u)",
+          "module": "death_triggers",
+          "from_version": "1",
+          "to_version": "2",
+          "errors": [
+            "'another creature' counted the watcher's own death",
+            "'one or more creatures die' counted creatures, not events",
+            "watchers got full triggers on later turns while the unperturbed trace still listed a dead watcher",
+            "no Oracle-parsed semantics; unknown wording fell back to a generic watcher"
+          ],
+          "example_syr_konrad_T8": {
+            "old": {
+              "range": [
+                0.0,
+                0.45
+              ],
+              "mid": 0.0818
+            },
+            "new": {
+              "range": [
+                0.0,
+                0.3367
+              ],
+              "mid": 0.0452
+            }
+          },
+          "coverage": {
+            "death_triggers_routed": {
+              "old": 171,
+              "new": 129
+            },
+            "routed_total": {
+              "old": 2412,
+              "new": 2374
+            }
+          },
+          "holdout": "not added: the correction was seen by the evaluated system before any item could be sealed (holdout rule 1)"
+        }
       ]
     },
     {
@@ -363,5 +406,106 @@
     "grixis/Grixis Evaluation.md built from the 2026-10-15 bulk (regenerating rewrites deck pages and cascades); clear at the Birthday snapshot refresh",
     "rulings bulk 2026-10-16 exists in /tmp/c64-cache-partial-backup while validation uses 2026-10-15; clear at the Birthday snapshot refresh"
   ],
-  "m5_candidate_files": "capped legacy, superseded at M5 regeneration"
+  "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
+  "launch_tracker": {
+    "updated": "Bot cycle 66.2a (2026-10-16)",
+    "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
+    "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
+    "stages": [
+      {
+        "id": "G0",
+        "estimated_batches": 4,
+        "batches_done": 4,
+        "status": "complete",
+        "note": "took 4 (64.1-64.4)"
+      },
+      {
+        "id": "A",
+        "estimated_batches": 3,
+        "batches_done": 3,
+        "status": "complete_pending_m5_regeneration",
+        "note": "took 3 (65.1-65.3); plan est 6-8"
+      },
+      {
+        "id": "E",
+        "estimated_batches": 12,
+        "batches_done": 3,
+        "status": "in_progress",
+        "note": "est 10-14; done 66.1, 66.2, 66.2a; 66.3 WIP on PR #146 (not counted)"
+      },
+      {
+        "id": "B",
+        "estimated_batches": 5,
+        "batches_done": 0,
+        "status": "not_started",
+        "note": "est 4-6"
+      },
+      {
+        "id": "C",
+        "estimated_batches": 6,
+        "batches_done": 0,
+        "status": "not_started",
+        "note": "est 5-7"
+      },
+      {
+        "id": "D",
+        "estimated_batches": 3.5,
+        "batches_done": 0,
+        "status": "not_started",
+        "note": "est 3-4"
+      },
+      {
+        "id": "F",
+        "estimated_batches": 4.5,
+        "batches_done": 0,
+        "status": "not_started",
+        "note": "est 4-5"
+      },
+      {
+        "id": "H",
+        "estimated_batches": 2.5,
+        "batches_done": 0,
+        "status": "not_started",
+        "note": "est 2-3"
+      },
+      {
+        "id": "rebuild_m5",
+        "estimated_batches": 2.5,
+        "batches_done": 0,
+        "status": "not_started",
+        "note": "est 2-3"
+      },
+      {
+        "id": "birthday_snapshot",
+        "estimated_batches": 2.5,
+        "batches_done": 0,
+        "status": "not_started",
+        "note": "est 2-3"
+      },
+      {
+        "id": "cory_m5_acceptance",
+        "estimated_batches": 1,
+        "batches_done": 0,
+        "status": "not_started",
+        "note": "Cory review; weighted as 1 batch"
+      },
+      {
+        "id": "I_J",
+        "estimated_batches": 4.5,
+        "batches_done": 0,
+        "status": "not_started",
+        "note": "est 4-5"
+      },
+      {
+        "id": "K",
+        "estimated_batches": 7.5,
+        "batches_done": 0,
+        "status": "not_started",
+        "note": "est 6-9"
+      }
+    ],
+    "total_estimated_batches": 58.5,
+    "batches_done": 10,
+    "percent_complete": 17.1
+  }
 }

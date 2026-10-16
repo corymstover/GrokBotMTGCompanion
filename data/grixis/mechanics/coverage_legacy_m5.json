@@ -1,14 +1,20 @@
 {
  "by_status": {
   "not_modelable": 580,
-  "planned_module": 6048,
-  "routed": 2412
+  "planned_module": 6086,
+  "routed": 2374
+ },
+ "death_triggers_not_modelable_card_occurrences": {
+  "unrecognised death-trigger wording (e.g. a creature-type filter)": 275,
+  "watcher counts opponents' creatures ('an opponent controls'), which the death layer does not model": 25,
+  "watcher counts opponents' creatures ('you don't control'), which the death layer does not model": 1,
+  "watcher counts opponents' creatures ('your opponents control'), which the death layer does not model": 25
  },
  "evidence_class": "derived_metric",
  "not_modelable_swaps": 9040,
  "note": "a swap can route to several families; routing is eligibility to be tested by a module, not a test result",
- "now_routed_share": 0.2668,
- "now_routed_to_implemented_module": 2412,
+ "now_routed_share": 0.2626,
+ "now_routed_to_implemented_module": 2374,
  "per_module_family": {
   "activated_engines": 1562,
   "alternate_costs": 925,
@@ -16,7 +22,7 @@
   "cast_triggers": 1300,
   "counterspell_density": 474,
   "death_other": 649,
-  "death_triggers": 171,
+  "death_triggers": 129,
   "discard": 2267,
   "graveyard_recursion": 492,
   "graveyard_tutoring": 976,

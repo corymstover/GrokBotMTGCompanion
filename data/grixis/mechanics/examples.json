@@ -68,37 +68,49 @@
      "evidence_class": "test_result",
      "metrics": {
       "10": {
-       "add_kind": "watcher",
+       "add_kind": "another",
        "cut_kind": null,
        "diff_lower_bound": 0.0,
-       "diff_mid": 0.1658,
+       "diff_mid": 0.0913,
        "diff_range": [
         0.0,
-        0.45
+        0.3367
        ]
       },
       "6": {
-       "add_kind": "watcher",
+       "add_kind": "another",
        "cut_kind": null,
        "diff_lower_bound": 0.0,
-       "diff_mid": 0.0264,
+       "diff_mid": 0.0132,
        "diff_range": [
         0.0,
-        0.1667
+        0.11
        ]
       },
       "8": {
-       "add_kind": "watcher",
+       "add_kind": "another",
        "cut_kind": null,
        "diff_lower_bound": 0.0,
-       "diff_mid": 0.0818,
+       "diff_mid": 0.0452,
        "diff_range": [
         0.0,
-        0.45
+        0.3367
        ]
       }
      },
-     "module": "death_triggers"
+     "module": "death_triggers",
+     "semantics": {
+      "add": [
+       {
+        "controller": "any",
+        "nontoken": false,
+        "scope": "another"
+       }
+      ],
+      "cut": [],
+      "not_modelable": {}
+     },
+     "version": "2"
     }
    ],
    "route": {
