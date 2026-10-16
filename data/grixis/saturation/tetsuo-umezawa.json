@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Tetsuo_Umezawa",
  "slug": "tetsuo-umezawa",
  "list_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
@@ -92,8 +92,8 @@
    "first_signal": 63,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "oracle_bulk",
     "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
@@ -125,8 +125,8 @@
    "first_signal": 78,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 14,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/tetsuo-umezawa.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "data/grixis/audit/tetsuo-umezawa.json",
     "roles: wipe,counter,protection,tutor"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 4,
+   "new_escalated": 3,
    "material": true,
    "inputs": [
     "data/grixis/audit/tetsuo-umezawa.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 584,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis/graph/tetsuo-umezawa.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 1071,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/tetsuo-umezawa.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 587,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 193,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 84,
@@ -339,8 +339,8 @@
    "C": 18401
   },
   "by_test_tier": {
-   "paired_test": 42,
-   "screen_only": 18427
+   "paired_test": 76,
+   "screen_only": 18393
   },
   "per_signal": {
    "archetype_tech": 305,
@@ -357,10 +357,11 @@
    "spellbook_near_miss": 26,
    "tutor_target": 1110
   },
-  "escalated": 42,
+  "escalated": 76,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 8,
    "dependency_graph_alternative": 8,
+   "multi_source_corroboration": 42,
    "spellbook_near_miss_completion": 22,
    "tier_a_score": 11
   },
@@ -370,7 +371,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/tetsuo-umezawa.universe.json.gz",
-  "sha256": "sha256:81febf38fa210f6be359fb633e7bc88013988a7cbcab35eeea5cc72fbf27b9a7"
+  "sha256": "sha256:8d2aaa71a1329a8556c7707c31ced44cb50181f0d76df7eae24cf300c7ce3167"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

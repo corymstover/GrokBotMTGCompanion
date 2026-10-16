@@ -85,9 +85,10 @@
       "name": "adaptive candidate saturation",
       "batches": [
         "65.1 engine + 3 certificates",
-        "65.2 full-pool sweep, signal passes, specificity, calibrated escalation + queue, all 62 certificates"
+        "65.2 full-pool sweep, signal passes, specificity, calibrated escalation + queue, all 62 certificates",
+        "65.3 multi_source_corroboration, compact universes, grixis_candidates.py consumes the saturated universe (caps removed), 3-deck scratch smoke test"
       ],
-      "status": "in_progress",
+      "status": "complete_pending_m5_regeneration",
       "depends_on": [
         "G0"
       ],
@@ -104,7 +105,8 @@
       "schema": "data/grixis/schemas/saturation_certificate.schema.json",
       "paired_test_target": 250,
       "full_pool_sweep": true,
-      "next": "Wire grixis_candidates.py to consume the saturated universe; plan tiered paired-test runs in batches (paired_test first, then escalated_untested_queue by priority)."
+      "next": "M5 regeneration after A-F (simulator v1.2 modules, combo quality, mana base, marginal value, bracket suites): grixis_candidates.py --build --out, then paired_test cards first and escalated_queued by priority.",
+      "stored_m5_files": "capped legacy, superseded at M5 regeneration (data/grixis/candidates/*.json.gz kept as-is)"
     },
     {
       "order": 3,
@@ -341,5 +343,6 @@
   "deferred_staleness": [
     "grixis/Grixis Evaluation.md built from the 2026-10-15 bulk (regenerating rewrites deck pages and cascades); clear at the Birthday snapshot refresh",
     "rulings bulk 2026-10-16 exists in /tmp/c64-cache-partial-backup while validation uses 2026-10-15; clear at the Birthday snapshot refresh"
-  ]
+  ],
+  "m5_candidate_files": "capped legacy, superseded at M5 regeneration"
 }

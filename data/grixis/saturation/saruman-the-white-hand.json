@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Saruman__the_White_Hand",
  "slug": "saruman-the-white-hand",
  "list_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
@@ -92,8 +92,8 @@
    "first_signal": 528,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 1,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 15,
+   "material": true,
    "inputs": [
     "oracle_bulk",
     "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
@@ -125,8 +125,8 @@
    "first_signal": 303,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 16,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/saruman-the-white-hand.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "data/grixis/audit/saruman-the-white-hand.json",
     "roles: wipe,protection,tutor"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 2,
+   "new_escalated": 1,
    "material": true,
    "inputs": [
     "data/grixis/audit/saruman-the-white-hand.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 1596,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 15,
+   "material": true,
    "inputs": [
     "data/grixis/graph/saruman-the-white-hand.json"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 267,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 158,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 94,
@@ -339,8 +339,8 @@
    "C": 18279
   },
   "by_test_tier": {
-   "paired_test": 92,
-   "screen_only": 18367
+   "paired_test": 154,
+   "screen_only": 18305
   },
   "per_signal": {
    "archetype_tech": 294,
@@ -357,9 +357,10 @@
    "spellbook_near_miss": 49,
    "tutor_target": 190
   },
-  "escalated": 92,
+  "escalated": 154,
   "by_escalation_reason": {
    "dependency_graph_alternative": 11,
+   "multi_source_corroboration": 79,
    "new_card": 17,
    "spellbook_near_miss_completion": 24,
    "tier_a_score": 54
@@ -371,7 +372,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/saruman-the-white-hand.universe.json.gz",
-  "sha256": "sha256:bd26b31e225dab728ecdfcf8914caa4877582ff062be58cd18cbecfe91a4ea1c"
+  "sha256": "sha256:c255c7cd2517685a0ace664e704890fa9b9a89672ccdedb9338720cfd59d249f"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "The_Madcap_Jester",
  "slug": "the-madcap-jester",
  "list_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
@@ -62,7 +62,7 @@
    "first_signal": 30,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 2,
-   "new_escalated": 17,
+   "new_escalated": 18,
    "material": true,
    "inputs": [
     "data/grixis/candidates/spellbook_almost.json"
@@ -92,7 +92,7 @@
    "first_signal": 96,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 1,
-   "new_escalated": 4,
+   "new_escalated": 11,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 159,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/the-madcap-jester.json"
    ]
@@ -140,8 +140,8 @@
    "first_signal": 770,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "default_bulk (earliest printing)"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 14,
+   "material": true,
    "inputs": [
     "data/grixis/audit/the-madcap-jester.json",
     "roles: draw,removal,wipe,protection"
@@ -186,8 +186,8 @@
    "first_signal": 429,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "data/grixis/graph/the-madcap-jester.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 6512,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/the-madcap-jester.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 372,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 7,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 136,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -339,8 +339,8 @@
    "C": 18341
   },
   "by_test_tier": {
-   "paired_test": 73,
-   "screen_only": 18383
+   "paired_test": 123,
+   "screen_only": 18333
   },
   "per_signal": {
    "archetype_tech": 277,
@@ -358,11 +358,12 @@
    "spellbook_near_miss": 32,
    "tutor_target": 6754
   },
-  "escalated": 73,
+  "escalated": 123,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 15,
    "dependency_graph_alternative": 7,
    "human_evidence": 1,
+   "multi_source_corroboration": 57,
    "new_card": 2,
    "spellbook_near_miss_completion": 18,
    "tier_a_score": 44,
@@ -375,7 +376,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/the-madcap-jester.universe.json.gz",
-  "sha256": "sha256:af82418e3f3d65f82a9d51e5a1b65fb9371ef5337db5247cd7eb572f40fd2d14"
+  "sha256": "sha256:cb8a24b544d88df3f87955c402adb0fd8017247e21f1741af5ced89de2147a28"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

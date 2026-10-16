@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Sedris__the_Traitor_King",
  "slug": "sedris-the-traitor-king",
  "list_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
@@ -62,7 +62,7 @@
    "first_signal": 76,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 41,
-   "new_escalated": 76,
+   "new_escalated": 77,
    "material": true,
    "inputs": [
     "data/grixis/candidates/spellbook_almost.json"
@@ -125,8 +125,8 @@
    "first_signal": 116,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/sedris-the-traitor-king.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "data/grixis/audit/sedris-the-traitor-king.json",
     "roles: wipe,counter,protection"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 4,
+   "new_escalated": 2,
    "material": true,
    "inputs": [
     "data/grixis/audit/sedris-the-traitor-king.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 930,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 21,
+   "material": true,
    "inputs": [
     "data/grixis/graph/sedris-the-traitor-king.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 530,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/sedris-the-traitor-king.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 226,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 189,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 96,
@@ -339,8 +339,8 @@
    "C": 18319
   },
   "by_test_tier": {
-   "paired_test": 114,
-   "screen_only": 18343
+   "paired_test": 152,
+   "screen_only": 18305
   },
   "per_signal": {
    "archetype_tech": 291,
@@ -356,10 +356,11 @@
    "spellbook_near_miss": 77,
    "tutor_target": 565
   },
-  "escalated": 114,
+  "escalated": 152,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 12,
    "dependency_graph_alternative": 8,
+   "multi_source_corroboration": 49,
    "spellbook_near_miss_completion": 76,
    "tier_a_score": 28
   },
@@ -368,7 +369,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/sedris-the-traitor-king.universe.json.gz",
-  "sha256": "sha256:ef2f205879a864b0f9cccd957aa0671ad98e1ba214722468818fd94866618cef"
+  "sha256": "sha256:02ebf6feee71c9904aa6127b0ad651a26ecd254d96bdca890729296b4a8b65d0"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

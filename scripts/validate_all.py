@@ -39,7 +39,7 @@ Steps (run in this order; each prints its own summary):
                     hash, snapshot, node/edge integrity, metrics cover the list, M1 edges ingest status, exact rebuild of 2 decks)
   7m audit          scripts/grixis_audit.py --check  Bot cycle 59.2 (M4): 99-slot audits (audit.schema.json, slot coverage, provisional
                     while M2 is unaccepted, complete-eligibility vs disposition_status, boilerplate lint, baseline, exact rebuild)
-  7n candidates     scripts/grixis_candidates.py --check  Bot cycle 60 (M5): candidate universes 200-500 (schema, canonical hash,
+  7n candidates     scripts/grixis_candidates.py --check  Bot cycle 60 (M5): candidate universes (stored files: capped legacy; builder: saturated) (schema, canonical hash,
                     candidate/swap/test records, escalations get full review, swaps exploratory and unregistered, exact rebuild)
   7o spellbook-near  scripts/grixis_spellbook_almost.py  Bot cycle 60.1 (M5): Spellbook near-miss snapshot sanity
   7p tournament     scripts/grixis_tournament.py --check  Bot cycle 60.3 (M5): tournament evidence only and always for cEDH-ceiling decks

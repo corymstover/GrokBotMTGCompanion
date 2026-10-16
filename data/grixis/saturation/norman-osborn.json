@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Norman_Osborn_Green_Goblin",
  "slug": "norman-osborn",
  "list_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
@@ -92,7 +92,7 @@
    "first_signal": 1155,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 5,
-   "new_escalated": 3,
+   "new_escalated": 25,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 1299,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 7,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/norman-osborn.json"
    ]
@@ -140,8 +140,8 @@
    "first_signal": 574,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "default_bulk (earliest printing)"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 12,
+   "material": true,
    "inputs": [
     "data/grixis/audit/norman-osborn.json",
     "roles: removal,wipe,protection"
@@ -186,8 +186,8 @@
    "first_signal": 251,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis/graph/norman-osborn.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 5716,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/norman-osborn.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 622,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 15,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 113,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -246,7 +246,7 @@
    "first_signal": 1,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 32,
+   "new_escalated": 30,
    "material": true,
    "inputs": [
     "data/grixis/candidates/tournament/norman-osborn.json"
@@ -339,8 +339,8 @@
    "C": 18287
   },
   "by_test_tier": {
-   "paired_test": 152,
-   "screen_only": 18301
+   "paired_test": 211,
+   "screen_only": 18242
   },
   "per_signal": {
    "archetype_tech": 271,
@@ -358,10 +358,11 @@
    "tournament": 85,
    "tutor_target": 6628
   },
-  "escalated": 152,
+  "escalated": 211,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 6,
    "dependency_graph_alternative": 8,
+   "multi_source_corroboration": 90,
    "new_card": 26,
    "spellbook_near_miss_completion": 34,
    "tier_a_score": 66,
@@ -373,7 +374,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/norman-osborn.universe.json.gz",
-  "sha256": "sha256:bd7453dd6a2921095f466aba831029f6d764f1113deaebed10be805017dccde0"
+  "sha256": "sha256:b9327ec0423d7f3fc43829c17c65296dda2440ba3f30d49b3cd1a92a4b5c3c68"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

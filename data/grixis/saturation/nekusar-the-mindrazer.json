@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Nekusar__the_Mindrazer",
  "slug": "nekusar-the-mindrazer",
  "list_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
@@ -62,7 +62,7 @@
    "first_signal": 42,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 2,
-   "new_escalated": 36,
+   "new_escalated": 38,
    "material": true,
    "inputs": [
     "data/grixis/candidates/spellbook_almost.json"
@@ -92,7 +92,7 @@
    "first_signal": 139,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 1,
-   "new_escalated": 133,
+   "new_escalated": 149,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "data/grixis/audit/nekusar-the-mindrazer.json",
     "roles: wipe,protection,tutor"
@@ -186,8 +186,8 @@
    "first_signal": 1063,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 12,
+   "material": true,
    "inputs": [
     "data/grixis/graph/nekusar-the-mindrazer.json"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 342,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 180,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 94,
@@ -339,8 +339,9 @@
    "C": 18362
   },
   "by_test_tier": {
-   "paired_test": 214,
-   "screen_only": 18245
+   "escalated_queued": 5,
+   "paired_test": 250,
+   "screen_only": 18204
   },
   "per_signal": {
    "archetype_tech": 292,
@@ -356,10 +357,11 @@
    "spellbook_near_miss": 55,
    "tutor_target": 1532
   },
-  "escalated": 214,
+  "escalated": 255,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 9,
    "dependency_graph_alternative": 8,
+   "multi_source_corroboration": 53,
    "new_card": 1,
    "spellbook_near_miss_completion": 43,
    "tier_a_score": 34,
@@ -370,9 +372,50 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/nekusar-the-mindrazer.universe.json.gz",
-  "sha256": "sha256:ac4200185136f08dbb92c1a86848caff34b8ab055b2f5ca6f60a752538d41a0a"
+  "sha256": "sha256:0e721af76974fdcddb1866369f7cbbadf904d67850756d8c3445589750c6b432"
  },
- "escalated_untested_queue": [],
+ "escalated_untested_queue": [
+  {
+   "card": "Saltwater Stalwart",
+   "priority": 251,
+   "score": 16.23,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Roiling Waters",
+   "priority": 252,
+   "score": 16.19,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Drastic Revelation",
+   "priority": 253,
+   "score": 16.18,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Lumengrid Augur",
+   "priority": 254,
+   "score": 16.15,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Limestone Golem",
+   "priority": 255,
+   "score": 16.03,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  }
+ ],
  "blind_spots": [
   {
    "kind": "unreleased_not_yet_legal",

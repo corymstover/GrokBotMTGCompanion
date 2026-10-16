@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Lynde__Cheerful_Tormentor",
  "slug": "lynde-cheerful-tormentor",
  "list_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "data/grixis/audit/lynde-cheerful-tormentor.json",
     "roles: wipe,counter,protection"
@@ -186,8 +186,8 @@
    "first_signal": 197,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "data/grixis/graph/lynde-cheerful-tormentor.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 1169,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/lynde-cheerful-tormentor.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 605,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 215,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 90,
@@ -339,8 +339,8 @@
    "C": 18380
   },
   "by_test_tier": {
-   "paired_test": 61,
-   "screen_only": 18402
+   "paired_test": 79,
+   "screen_only": 18384
   },
   "per_signal": {
    "archetype_tech": 309,
@@ -356,10 +356,11 @@
    "spellbook_near_miss": 16,
    "tutor_target": 1223
   },
-  "escalated": 61,
+  "escalated": 79,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 26,
    "dependency_graph_alternative": 7,
+   "multi_source_corroboration": 26,
    "spellbook_near_miss_completion": 14,
    "tier_a_score": 38
   },
@@ -368,7 +369,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/lynde-cheerful-tormentor.universe.json.gz",
-  "sha256": "sha256:69d863f4191dfcb93cc9d44c3a7e43852339a40463b94b0139b685d53b5a63d1"
+  "sha256": "sha256:0bba96aca7d6b1e9433baafa1c84aca18be627dd19abd5883fec00ef62d3fc86"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

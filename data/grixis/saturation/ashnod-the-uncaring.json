@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Ashnod_the_Uncaring",
  "slug": "ashnod-the-uncaring",
  "list_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
@@ -92,7 +92,7 @@
    "first_signal": 1189,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 7,
-   "new_escalated": 27,
+   "new_escalated": 41,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 215,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/ashnod-the-uncaring.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 11,
+   "material": true,
    "inputs": [
     "data/grixis/audit/ashnod-the-uncaring.json",
     "roles: wipe,counter,protection"
@@ -186,8 +186,8 @@
    "first_signal": 476,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 28,
+   "material": true,
    "inputs": [
     "data/grixis/graph/ashnod-the-uncaring.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 1677,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 13,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/ashnod-the-uncaring.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 221,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 132,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 4,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 92,
@@ -339,9 +339,9 @@
    "C": 17932
   },
   "by_test_tier": {
-   "escalated_queued": 242,
+   "escalated_queued": 319,
    "paired_test": 250,
-   "screen_only": 17969
+   "screen_only": 17892
   },
   "per_signal": {
    "archetype_tech": 296,
@@ -360,9 +360,10 @@
    "tutor_target": 1829,
    "type_search": 2093
   },
-  "escalated": 492,
+  "escalated": 569,
   "by_escalation_reason": {
    "dependency_graph_alternative": 7,
+   "multi_source_corroboration": 375,
    "new_card": 95,
    "package_gap": 236,
    "spellbook_near_miss_completion": 196,
@@ -376,96 +377,103 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/ashnod-the-uncaring.universe.json.gz",
-  "sha256": "sha256:53e95a33a1a73154cb28142a29891c098d8a2ee92c758970ddec68e96222e25c"
+  "sha256": "sha256:844cb22aea6a5e65ef5f11de6478d79d6426102b6769bdb09481985b64b8f1f6"
  },
  "escalated_untested_queue": [
   {
-   "card": "Pili-Pala",
+   "card": "Animation Module",
    "priority": 251,
+   "score": 30.85,
+   "escalation": [
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "RMS Titanic",
+   "priority": 252,
+   "score": 30.79,
+   "escalation": [
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Tezzeret, Master of the Bridge",
+   "priority": 253,
+   "score": 35.71,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Bojuka Bog",
+   "priority": 254,
+   "score": 35.69,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Hoard Hauler",
+   "priority": 255,
+   "score": 30.61,
+   "escalation": [
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Necrogen Spellbomb",
+   "priority": 256,
+   "score": 35.6,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Illuminor Szeras",
+   "priority": 257,
+   "score": 30.57,
+   "escalation": [
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Thopter Assembly",
+   "priority": 258,
+   "score": 30.53,
+   "escalation": [
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Pili-Pala",
+   "priority": 259,
    "score": 30.51,
    "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Sling-Gang Lieutenant",
-   "priority": 252,
-   "score": 30.43,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Abhorrent Overlord",
-   "priority": 253,
-   "score": 30.42,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Chakram Retriever",
-   "priority": 254,
-   "score": 30.39,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Shadow Puppeteers",
-   "priority": 255,
-   "score": 30.37,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Voracious Vermin",
-   "priority": 256,
-   "score": 30.36,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Ballad of the Black Flag",
-   "priority": 257,
-   "score": 30.26,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Irma, Part-Time Mutant",
-   "priority": 258,
+   "priority": 260,
    "score": 25.22,
    "escalation": [
     "package_gap",
-    "unusual_oracle_interaction"
+    "unusual_oracle_interaction",
+    "multi_source_corroboration"
    ]
   },
   {
-   "card": "Exsanguinator Cavalry",
-   "priority": 259,
-   "score": 30.21,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Voldaren Bloodcaster // Bloodbat Summoner",
-   "priority": 260,
-   "score": 30.21,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Myr Turbine",
+   "card": "Thirst for Knowledge",
    "priority": 261,
-   "score": 30.19,
+   "score": 35.13,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "multi_source_corroboration"
    ]
   },
   {
@@ -474,7 +482,8 @@
    "score": 25.12,
    "escalation": [
     "package_gap",
-    "unusual_oracle_interaction"
+    "unusual_oracle_interaction",
+    "multi_source_corroboration"
    ]
   },
   {
@@ -483,999 +492,1089 @@
    "score": 25.1,
    "escalation": [
     "package_gap",
-    "unusual_oracle_interaction"
-   ]
-  },
-  {
-   "card": "Ugin's Nexus",
-   "priority": 264,
-   "score": 30.1,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "unusual_oracle_interaction",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Magmatic Galleon",
-   "priority": 265,
+   "priority": 264,
    "score": 30.08,
    "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Palinchron",
-   "priority": 266,
-   "score": 30.04,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Emrakul's Hatcher",
-   "priority": 267,
-   "score": 30.03,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Hellspur Posse Boss",
-   "priority": 268,
-   "score": 30.02,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Drowner of Hope",
-   "priority": 269,
-   "score": 29.98,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Luxurious Locomotive",
-   "priority": 270,
+   "priority": 265,
    "score": 29.94,
    "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Redcap Gutter-Dweller",
-   "priority": 271,
-   "score": 29.89,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Mirran Spy",
-   "priority": 272,
-   "score": 29.87,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Olivia's Attendants",
-   "priority": 273,
-   "score": 29.87,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Malevolent Hermit // Benevolent Geist",
-   "priority": 274,
+   "priority": 266,
    "score": 29.86,
    "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "The Sibsig Ceremony",
-   "priority": 275,
-   "score": 29.83,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Corridor Monitor",
-   "priority": 276,
+   "priority": 267,
    "score": 29.81,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Prototype Portal",
-   "priority": 277,
+   "priority": 268,
    "score": 29.81,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Darkwater Catacombs",
+   "priority": 269,
+   "score": 34.76,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Cathodion",
-   "priority": 278,
+   "priority": 270,
    "score": 29.73,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Su-Chi Cave Guard",
-   "priority": 279,
+   "priority": 271,
    "score": 29.72,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Faerie Artisans",
-   "priority": 280,
+   "priority": 272,
    "score": 29.7,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Worldwalker Helm",
+   "priority": 273,
+   "score": 34.67,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Royal Warden",
-   "priority": 281,
+   "priority": 274,
    "score": 29.59,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Deathrender",
-   "priority": 282,
+   "priority": 275,
    "score": 29.56,
    "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Pink Horror",
-   "priority": 283,
-   "score": 29.56,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Oathkeeper, Takeno's Daisho",
-   "priority": 284,
-   "score": 29.54,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Lazotep Reaver",
-   "priority": 285,
-   "score": 29.51,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Pentavus",
-   "priority": 286,
+   "priority": 276,
    "score": 29.51,
    "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Great Whale",
-   "priority": 287,
-   "score": 29.44,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Spawnsire of Ulamog",
-   "priority": 288,
-   "score": 29.44,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Nadier, Agent of the Duskenel",
-   "priority": 289,
-   "score": 29.43,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Rekindling Phoenix",
-   "priority": 290,
-   "score": 29.41,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Precursor Golem",
-   "priority": 291,
+   "priority": 277,
    "score": 29.36,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Farmstead Gleaner",
-   "priority": 292,
+   "priority": 278,
    "score": 29.35,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
-   "card": "Eldrazi Skyspawner",
-   "priority": 293,
-   "score": 29.31,
+   "card": "Dreamstone Hedron",
+   "priority": 279,
+   "score": 34.32,
    "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Ogre Chitterlord",
-   "priority": 294,
-   "score": 29.28,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Professional Face-Breaker",
-   "priority": 295,
+   "priority": 280,
    "score": 29.28,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Underground River",
+   "priority": 281,
+   "score": 34.27,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Filigree Sages",
-   "priority": 296,
+   "priority": 282,
    "score": 29.27,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Workhorse",
-   "priority": 297,
+   "priority": 283,
    "score": 29.25,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Shaun, Father of Synths",
-   "priority": 298,
+   "priority": 284,
    "score": 29.22,
    "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Raptor Hatchling",
-   "priority": 299,
-   "score": 29.19,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Magic Pot",
-   "priority": 300,
+   "priority": 285,
    "score": 29.18,
    "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Goblin Goliath",
-   "priority": 301,
-   "score": 29.17,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Elder Auntie",
-   "priority": 302,
-   "score": 29.12,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Zulaport Cutthroat",
-   "priority": 303,
+   "priority": 286,
    "score": 29.09,
    "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Tuktuk the Explorer",
-   "priority": 304,
-   "score": 29.05,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Slobad, Goblin Tinkerer",
-   "priority": 305,
+   "priority": 287,
    "score": 29.04,
    "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Eyeblight Cullers",
-   "priority": 306,
-   "score": 28.98,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Adric, Mathematical Genius",
-   "priority": 307,
+   "priority": 288,
    "score": 28.97,
    "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Silvergill Mentor",
-   "priority": 308,
-   "score": 28.97,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Bridge from Below",
-   "priority": 309,
-   "score": 28.96,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Prickly Pair",
-   "priority": 310,
-   "score": 28.96,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Thopter Squadron",
-   "priority": 311,
+   "priority": 289,
    "score": 28.95,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Syr Konrad, the Grim",
-   "priority": 312,
+   "priority": 290,
    "score": 28.94,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
-   "card": "Sethron, Hurloon General",
-   "priority": 313,
-   "score": 28.89,
+   "card": "Shadowblood Ridge",
+   "priority": 291,
+   "score": 33.9,
    "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Dread Drone",
-   "priority": 314,
-   "score": 28.85,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Diregraf Horde",
-   "priority": 315,
-   "score": 28.77,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Scampering Scorcher",
-   "priority": 316,
-   "score": 28.77,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Magnetic Snuffler",
-   "priority": 317,
+   "priority": 292,
    "score": 28.76,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Stone Retrieval Unit",
-   "priority": 318,
+   "priority": 293,
    "score": 28.75,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Galvanic Key",
-   "priority": 319,
+   "priority": 294,
    "score": 28.68,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Ravenous Amulet",
+   "priority": 295,
+   "score": 33.67,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Accomplished Automaton",
-   "priority": 320,
+   "priority": 296,
    "score": 28.65,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Stone Calendar",
-   "priority": 321,
+   "priority": 297,
    "score": 28.63,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Sengir Autocrat",
-   "priority": 322,
+   "priority": 298,
    "score": 28.62,
    "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Charforger",
-   "priority": 323,
-   "score": 28.6,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Frost Fair Lure Fish",
-   "priority": 324,
+   "priority": 299,
    "score": 28.6,
    "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Incubator Drone",
-   "priority": 325,
-   "score": 28.6,
-   "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Edgewall Pack",
-   "priority": 326,
-   "score": 28.59,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "My Precious // Allure of Power",
-   "priority": 327,
+   "priority": 300,
    "score": 28.56,
    "escalation": [
-    "new_card"
+    "new_card",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Planar Gate",
-   "priority": 328,
+   "priority": 301,
    "score": 28.56,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Su-Chi",
-   "priority": 329,
+   "priority": 302,
    "score": 28.49,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Turtle Blimp",
-   "priority": 330,
+   "priority": 303,
    "score": 28.46,
    "escalation": [
-    "spellbook_near_miss_completion"
-   ]
-  },
-  {
-   "card": "Specimen Collector",
-   "priority": 331,
-   "score": 28.45,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Iron League Steed",
-   "priority": 332,
+   "priority": 304,
    "score": 28.37,
    "escalation": [
-    "spellbook_near_miss_completion"
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Popular Egotist",
-   "priority": 333,
+   "priority": 305,
    "score": 28.35,
    "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Debtors' Transport",
-   "priority": 334,
-   "score": 28.25,
-   "escalation": [
-    "spellbook_near_miss_completion"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Voidmage Prodigy",
-   "priority": 335,
+   "priority": 306,
    "score": 28.17,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
-   "card": "Arco-Flagellant",
-   "priority": 336,
-   "score": 28.08,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Rimewind Cryomancer",
-   "priority": 337,
-   "score": 27.89,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Daring Apprentice",
-   "priority": 338,
-   "score": 27.88,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Divining Witch",
-   "priority": 339,
-   "score": 27.88,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Jaya Ballard, Task Mage",
-   "priority": 340,
-   "score": 27.88,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Disciple of the Ring",
-   "priority": 341,
-   "score": 27.86,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Disruptive Pitmage",
-   "priority": 342,
-   "score": 27.82,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Ertai, Wizard Adept",
-   "priority": 343,
-   "score": 27.76,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Arcane Artisan",
-   "priority": 344,
-   "score": 27.72,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Diplomatic Escort",
-   "priority": 345,
-   "score": 27.71,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Ophiomancer",
-   "priority": 346,
-   "score": 27.67,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Ajani Unrelenting",
-   "priority": 347,
-   "score": 27.65,
-   "escalation": [
-    "new_card"
-   ]
-  },
-  {
-   "card": "Plaguecrafter",
-   "priority": 348,
-   "score": 27.65,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Stromgald Cabal",
-   "priority": 349,
-   "score": 27.65,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Silumgar Sorcerer",
-   "priority": 350,
-   "score": 27.63,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Disruptive Student",
-   "priority": 351,
-   "score": 27.61,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Stronghold Machinist",
-   "priority": 352,
-   "score": 27.55,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Martyr of Frost",
-   "priority": 353,
-   "score": 27.54,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Hammer Mage",
-   "priority": 354,
-   "score": 27.45,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Loyal Apprentice",
-   "priority": 355,
-   "score": 27.42,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Stronghold Biologist",
-   "priority": 356,
-   "score": 27.37,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Mundungu",
-   "priority": 357,
-   "score": 27.36,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Goblin Artisans",
-   "priority": 358,
-   "score": 27.33,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Brine Seer",
-   "priority": 359,
-   "score": 27.28,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Brine Shaman",
-   "priority": 360,
-   "score": 27.28,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Yawgmoth, Thran Physician",
-   "priority": 361,
-   "score": 27.26,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Baneblade Scoundrel // Baneclaw Marauder",
-   "priority": 362,
-   "score": 27.24,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Young Pyromancer",
-   "priority": 363,
-   "score": 27.24,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Hakim, Loreweaver",
-   "priority": 364,
-   "score": 27.23,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Martyr of Ashes",
-   "priority": 365,
-   "score": 27.11,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Mindreaver",
-   "priority": 366,
-   "score": 27.02,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Combat Celebrant",
-   "priority": 367,
-   "score": 26.99,
-   "escalation": [
-    "package_gap"
-   ]
-  },
-  {
-   "card": "Orcish Bowmasters",
-   "priority": 368,
-   "score": 26.94,
+   "card": "Peregrine Drake",
+   "priority": 307,
+   "score": 33.09,
    "escalation": [
     "spellbook_near_miss_completion"
    ]
   },
   {
+   "card": "Arco-Flagellant",
+   "priority": 308,
+   "score": 28.08,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Culling Dais",
+   "priority": 309,
+   "score": 32.92,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Lathliss, Dragon Queen",
+   "priority": 310,
+   "score": 32.9,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Rimewind Cryomancer",
+   "priority": 311,
+   "score": 27.89,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Daring Apprentice",
+   "priority": 312,
+   "score": 27.88,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Divining Witch",
+   "priority": 313,
+   "score": 27.88,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Jaya Ballard, Task Mage",
+   "priority": 314,
+   "score": 27.88,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Ugin, the Ineffable",
+   "priority": 315,
+   "score": 32.87,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Disciple of the Ring",
+   "priority": 316,
+   "score": 27.86,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Disruptive Pitmage",
+   "priority": 317,
+   "score": 27.82,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Ertai, Wizard Adept",
+   "priority": 318,
+   "score": 27.76,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Glaring Fleshraker",
+   "priority": 319,
+   "score": 32.74,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Arcane Artisan",
+   "priority": 320,
+   "score": 27.72,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Diplomatic Escort",
+   "priority": 321,
+   "score": 27.71,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Mycosynth Wellspring",
+   "priority": 322,
+   "score": 32.69,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Ophiomancer",
+   "priority": 323,
+   "score": 27.67,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Ajani Unrelenting",
+   "priority": 324,
+   "score": 27.65,
+   "escalation": [
+    "new_card",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Plaguecrafter",
+   "priority": 325,
+   "score": 27.65,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Stromgald Cabal",
+   "priority": 326,
+   "score": 27.65,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Silumgar Sorcerer",
+   "priority": 327,
+   "score": 27.63,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Disruptive Student",
+   "priority": 328,
+   "score": 27.61,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Mikaeus, the Unhallowed",
+   "priority": 329,
+   "score": 32.59,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Stronghold Machinist",
+   "priority": 330,
+   "score": 27.55,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Martyr of Frost",
+   "priority": 331,
+   "score": 27.54,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Hammer Mage",
+   "priority": 332,
+   "score": 27.45,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Loyal Apprentice",
+   "priority": 333,
+   "score": 27.42,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "The One Ring",
+   "priority": 334,
+   "score": 32.39,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Stronghold Biologist",
+   "priority": 335,
+   "score": 27.37,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Mundungu",
+   "priority": 336,
+   "score": 27.36,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Sulfurous Springs",
+   "priority": 337,
+   "score": 32.36,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Freed from the Real",
+   "priority": 338,
+   "score": 32.34,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Goblin Artisans",
+   "priority": 339,
+   "score": 27.33,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Brine Seer",
+   "priority": 340,
+   "score": 27.28,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Brine Shaman",
+   "priority": 341,
+   "score": 27.28,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Yawgmoth, Thran Physician",
+   "priority": 342,
+   "score": 27.26,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Woe Strider",
+   "priority": 343,
+   "score": 32.25,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Baneblade Scoundrel // Baneclaw Marauder",
+   "priority": 344,
+   "score": 27.24,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Young Pyromancer",
+   "priority": 345,
+   "score": 27.24,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Hakim, Loreweaver",
+   "priority": 346,
+   "score": 27.23,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Intruder Alarm",
+   "priority": 347,
+   "score": 32.21,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Retreat to Coralhelm",
+   "priority": 348,
+   "score": 32.19,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Machine God's Effigy",
+   "priority": 349,
+   "score": 32.11,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Martyr of Ashes",
+   "priority": 350,
+   "score": 27.11,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Mindreaver",
+   "priority": 351,
+   "score": 27.02,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Combat Celebrant",
+   "priority": 352,
+   "score": 26.99,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Ogre Slumlord",
+   "priority": 353,
+   "score": 31.99,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Path of Ancestry",
+   "priority": 354,
+   "score": 31.98,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Orcish Bowmasters",
+   "priority": 355,
+   "score": 26.94,
+   "escalation": [
+    "spellbook_near_miss_completion",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Liquimetal Coating",
+   "priority": 356,
+   "score": 31.93,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
    "card": "Old Fat Spider Can't See Me",
-   "priority": 369,
+   "priority": 357,
    "score": 26.88,
    "escalation": [
-    "new_card"
+    "new_card",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Disruption Protocol",
+   "priority": 358,
+   "score": 31.86,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Grim Haruspex",
-   "priority": 370,
+   "priority": 359,
    "score": 26.8,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Magus of the Wheel",
-   "priority": 371,
+   "priority": 360,
    "score": 26.76,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "The Echoverse Fulcrum",
-   "priority": 372,
+   "priority": 361,
    "score": 26.75,
    "escalation": [
-    "new_card"
+    "new_card",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Captain Lannery Storm",
-   "priority": 373,
+   "priority": 362,
    "score": 26.74,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Molten Echoes",
+   "priority": 363,
+   "score": 31.69,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
-   "priority": 374,
+   "priority": 364,
    "score": 26.69,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Alexios, Deimos of Kosmos",
-   "priority": 375,
+   "priority": 365,
    "score": 26.63,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Sculpting Steel",
+   "priority": 366,
+   "score": 31.63,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Thornbite Staff",
+   "priority": 367,
+   "score": 31.6,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "The Immortal Sun",
+   "priority": 368,
+   "score": 31.59,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Jadar, Ghoulcaller of Nephalia",
-   "priority": 376,
+   "priority": 369,
    "score": 26.58,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Headless Rider",
+   "priority": 370,
+   "score": 31.53,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Candy Trail",
+   "priority": 371,
+   "score": 31.43,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Chromatic Sphere",
+   "priority": 372,
+   "score": 31.43,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Disciple of Bolas",
-   "priority": 377,
+   "priority": 373,
    "score": 26.41,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "priority": 374,
+   "score": 31.39,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Dragonmaster Outcast",
-   "priority": 378,
+   "priority": 375,
    "score": 26.37,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Feldon of the Third Path",
-   "priority": 379,
+   "priority": 376,
    "score": 26.35,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Izzet Signet",
+   "priority": 377,
+   "score": 31.24,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Massacre Girl, Known Killer",
-   "priority": 380,
+   "priority": 378,
    "score": 26.23,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Jaxis, the Troublemaker",
-   "priority": 381,
+   "priority": 379,
    "score": 26.21,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Ingenious Artillerist",
-   "priority": 382,
+   "priority": 380,
    "score": 26.2,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Thermo-Alchemist",
-   "priority": 383,
+   "priority": 381,
    "score": 26.19,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Humble Defector",
-   "priority": 384,
+   "priority": 382,
    "score": 26.15,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Beetleback Chief",
+   "priority": 383,
+   "score": 31.13,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Juri, Master of the Revue",
-   "priority": 385,
+   "priority": 384,
    "score": 26.13,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Murmuring Mystic",
-   "priority": 386,
+   "priority": 385,
    "score": 26.12,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Hostage Taker",
-   "priority": 387,
+   "priority": 386,
    "score": 26.05,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Slagstone Refinery",
+   "priority": 387,
+   "score": 31.0,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
@@ -1483,7 +1582,8 @@
    "priority": 388,
    "score": 25.96,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
@@ -1491,372 +1591,1034 @@
    "priority": 389,
    "score": 25.96,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Nested Shambler",
+   "priority": 390,
+   "score": 30.94,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Ruthless Technomancer",
-   "priority": 390,
+   "priority": 391,
    "score": 25.93,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Tribute Mage",
-   "priority": 391,
+   "priority": 392,
    "score": 25.87,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Demon's Disciple",
-   "priority": 392,
+   "priority": 393,
    "score": 25.84,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Rev, Tithe Extractor",
-   "priority": 393,
+   "priority": 394,
    "score": 25.8,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Royal Assassin",
-   "priority": 394,
+   "priority": 395,
    "score": 25.8,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Orthion, Hero of Lavabrink",
-   "priority": 395,
+   "priority": 396,
    "score": 25.77,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Trophy Mage",
-   "priority": 396,
+   "priority": 397,
    "score": 25.77,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Greedy Freebooter",
-   "priority": 397,
+   "priority": 398,
    "score": 25.76,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Sedgemoor Witch",
-   "priority": 398,
+   "priority": 399,
    "score": 25.76,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Master Transmuter",
-   "priority": 399,
+   "priority": 400,
    "score": 25.73,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Ghoulcaller Gisa",
-   "priority": 400,
+   "priority": 401,
    "score": 25.72,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Ioreth of the Healing House",
-   "priority": 401,
+   "priority": 402,
    "score": 25.72,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Zealous Conscripts",
-   "priority": 402,
+   "priority": 403,
    "score": 25.7,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Imotekh the Stormlord",
+   "priority": 404,
+   "score": 30.68,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Harsh Mentor",
-   "priority": 403,
+   "priority": 405,
    "score": 25.67,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Kellogg, Dangerous Mind",
-   "priority": 404,
+   "priority": 406,
    "score": 25.64,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Witch of the Moors",
-   "priority": 405,
+   "priority": 407,
    "score": 25.64,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Prosperous Thief",
-   "priority": 406,
+   "priority": 408,
    "score": 25.63,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "priority": 409,
+   "score": 30.61,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Mischievous Mystic",
-   "priority": 407,
+   "priority": 410,
    "score": 25.58,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Splinter Twin",
+   "priority": 411,
+   "score": 30.57,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Silverclad Ferocidons",
+   "priority": 412,
+   "score": 30.56,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Thousand-Faced Shadow",
-   "priority": 408,
+   "priority": 413,
    "score": 25.56,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Gleeful Arsonist",
-   "priority": 409,
+   "priority": 414,
    "score": 25.54,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Rionya, Fire Dancer",
-   "priority": 410,
+   "priority": 415,
    "score": 25.51,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Gisa, Glorious Resurrector",
-   "priority": 411,
+   "priority": 416,
    "score": 25.47,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Kefka, Court Mage // Kefka, Ruler of Ruin",
-   "priority": 412,
+   "priority": 417,
    "score": 25.47,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Sling-Gang Lieutenant",
+   "priority": 418,
+   "score": 30.43,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Abhorrent Overlord",
+   "priority": 419,
+   "score": 30.42,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Chakram Retriever",
+   "priority": 420,
+   "score": 30.39,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
-   "priority": 413,
+   "priority": 421,
    "score": 25.39,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Lagomos, Hand of Hatred",
-   "priority": 414,
+   "priority": 422,
    "score": 25.38,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Shadow Puppeteers",
+   "priority": 423,
+   "score": 30.37,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Servo Schematic",
+   "priority": 424,
+   "score": 30.36,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Voracious Vermin",
+   "priority": 425,
+   "score": 30.36,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Piper of the Swarm",
-   "priority": 415,
+   "priority": 426,
    "score": 25.35,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Otepec Huntmaster",
-   "priority": 416,
+   "priority": 427,
    "score": 25.34,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Temple of Deceit",
+   "priority": 428,
+   "score": 30.33,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Basim Ibn Ishaq",
-   "priority": 417,
+   "priority": 429,
    "score": 25.32,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Endrek Sahr, Master Breeder",
-   "priority": 418,
+   "priority": 430,
    "score": 25.31,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Haunted Ridge",
+   "priority": 431,
+   "score": 30.28,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Gisa, the Hellraiser",
-   "priority": 419,
+   "priority": 432,
    "score": 25.27,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Ardyn, the Usurper",
-   "priority": 420,
+   "priority": 433,
    "score": 25.26,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Ballad of the Black Flag",
+   "priority": 434,
+   "score": 30.26,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
-   "priority": 421,
+   "priority": 435,
    "score": 25.26,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Godo, Bandit Warlord",
-   "priority": 422,
+   "priority": 436,
    "score": 25.26,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "O'aka, Traveling Merchant",
-   "priority": 423,
+   "priority": 437,
    "score": 25.25,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Vizier of Tumbling Sands",
-   "priority": 424,
+   "priority": 438,
    "score": 25.22,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Dragonskull Summit",
+   "priority": 439,
+   "score": 30.21,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Exsanguinator Cavalry",
+   "priority": 440,
+   "score": 30.21,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Voldaren Bloodcaster // Bloodbat Summoner",
+   "priority": 441,
+   "score": 30.21,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Charming Scoundrel",
-   "priority": 425,
+   "priority": 442,
    "score": 25.2,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Myr Turbine",
+   "priority": 443,
+   "score": 30.19,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Shadowheart, Dark Justiciar",
-   "priority": 426,
+   "priority": 444,
    "score": 25.19,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Golgari Thug",
-   "priority": 427,
+   "priority": 445,
    "score": 25.18,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Rona, Herald of Invasion // Rona, Tolarian Obliterator",
-   "priority": 428,
+   "priority": 446,
    "score": 25.18,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Species Specialist",
-   "priority": 429,
+   "priority": 447,
    "score": 25.18,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Vat of Rebirth",
+   "priority": 448,
+   "score": 30.18,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Captivating Crew",
-   "priority": 430,
+   "priority": 449,
    "score": 25.15,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Cursed Mirror",
+   "priority": 450,
+   "score": 30.15,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Garna, Bloodfist of Keld",
-   "priority": 431,
+   "priority": 451,
    "score": 25.15,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Ugin's Nexus",
+   "priority": 452,
+   "score": 30.1,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Rikku, Resourceful Guardian",
-   "priority": 432,
+   "priority": 453,
    "score": 25.08,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Palinchron",
+   "priority": 454,
+   "score": 30.04,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Emrakul's Hatcher",
+   "priority": 455,
+   "score": 30.03,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Experimental Confectioner",
-   "priority": 433,
+   "priority": 456,
    "score": 25.03,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Avenger of the Fallen",
-   "priority": 434,
+   "priority": 457,
    "score": 25.02,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Hellspur Posse Boss",
+   "priority": 458,
+   "score": 30.02,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Drowner of Hope",
+   "priority": 459,
+   "score": 29.98,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Divert Disaster",
+   "priority": 460,
+   "score": 29.9,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Redcap Gutter-Dweller",
+   "priority": 461,
+   "score": 29.89,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Mirran Spy",
+   "priority": 462,
+   "score": 29.87,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Olivia's Attendants",
+   "priority": 463,
+   "score": 29.87,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Blood Fountain",
+   "priority": 464,
+   "score": 29.83,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "The Sibsig Ceremony",
+   "priority": 465,
+   "score": 29.83,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Pink Horror",
+   "priority": 466,
+   "score": 29.56,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Oathkeeper, Takeno's Daisho",
+   "priority": 467,
+   "score": 29.54,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Lazotep Reaver",
+   "priority": 468,
+   "score": 29.51,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Temple of Malice",
+   "priority": 469,
+   "score": 29.47,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Great Whale",
+   "priority": 470,
+   "score": 29.44,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Spawnsire of Ulamog",
+   "priority": 471,
+   "score": 29.44,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Nadier, Agent of the Duskenel",
+   "priority": 472,
+   "score": 29.43,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Clock of Omens",
+   "priority": 473,
+   "score": 29.42,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Rekindling Phoenix",
+   "priority": 474,
+   "score": 29.41,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Eldrazi Skyspawner",
+   "priority": 475,
+   "score": 29.31,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Ogre Chitterlord",
+   "priority": 476,
+   "score": 29.28,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Negate",
+   "priority": 477,
+   "score": 29.2,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Raptor Hatchling",
+   "priority": 478,
+   "score": 29.19,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Goblin Goliath",
+   "priority": 479,
+   "score": 29.17,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Temple of Epiphany",
+   "priority": 480,
+   "score": 29.14,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Elder Auntie",
+   "priority": 481,
+   "score": 29.12,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Thran Dynamo",
+   "priority": 482,
+   "score": 29.05,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Tuktuk the Explorer",
+   "priority": 483,
+   "score": 29.05,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Stormcarved Coast",
+   "priority": 484,
+   "score": 29.0,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Dimir Aqueduct",
+   "priority": 485,
+   "score": 28.99,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Eyeblight Cullers",
+   "priority": 486,
+   "score": 28.98,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Silvergill Mentor",
+   "priority": 487,
+   "score": 28.97,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Bridge from Below",
+   "priority": 488,
+   "score": 28.96,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Prickly Pair",
+   "priority": 489,
+   "score": 28.96,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Sethron, Hurloon General",
+   "priority": 490,
+   "score": 28.89,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Dread Drone",
+   "priority": 491,
+   "score": 28.85,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Diregraf Horde",
+   "priority": 492,
+   "score": 28.77,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Scampering Scorcher",
+   "priority": 493,
+   "score": 28.77,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Izzet Boilerworks",
+   "priority": 494,
+   "score": 28.74,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Charforger",
+   "priority": 495,
+   "score": 28.6,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Incubator Drone",
+   "priority": 496,
+   "score": 28.6,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Edgewall Pack",
+   "priority": 497,
+   "score": 28.59,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Fomori Vault",
+   "priority": 498,
+   "score": 28.55,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Specimen Collector",
+   "priority": 499,
+   "score": 28.45,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Rakdos Carnarium",
+   "priority": 500,
+   "score": 28.38,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Sulfur Falls",
+   "priority": 501,
+   "score": 28.3,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Debtors' Transport",
+   "priority": 502,
+   "score": 28.25,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Arcane Denial",
+   "priority": 503,
+   "score": 28.16,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Drowned Catacomb",
+   "priority": 504,
+   "score": 27.18,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Raucous Theater",
+   "priority": 505,
+   "score": 26.76,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Thundering Falls",
+   "priority": 506,
+   "score": 26.18,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Three Steps Ahead",
+   "priority": 507,
+   "score": 25.9,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Sword of Fire and Ice",
+   "priority": 508,
+   "score": 25.58,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Undercity Sewers",
+   "priority": 509,
+   "score": 25.54,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Swan Song",
+   "priority": 510,
+   "score": 25.52,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Sublime Epiphany",
+   "priority": 511,
+   "score": 25.24,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Taigam, Master Opportunist",
-   "priority": 435,
+   "priority": 512,
    "score": 24.73,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1864,7 +2626,7 @@
   },
   {
    "card": "Callidus Assassin",
-   "priority": 436,
+   "priority": 513,
    "score": 24.39,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1872,7 +2634,7 @@
   },
   {
    "card": "Naru Meha, Master Wizard",
-   "priority": 437,
+   "priority": 514,
    "score": 24.35,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1880,7 +2642,7 @@
   },
   {
    "card": "Kaervek, the Punisher",
-   "priority": 438,
+   "priority": 515,
    "score": 24.27,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1888,7 +2650,7 @@
   },
   {
    "card": "Decorum Dissertation",
-   "priority": 439,
+   "priority": 516,
    "score": 24.25,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1896,7 +2658,7 @@
   },
   {
    "card": "Superior Spider-Man",
-   "priority": 440,
+   "priority": 517,
    "score": 24.19,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1904,7 +2666,7 @@
   },
   {
    "card": "Scheming Silvertongue // Sign in Blood",
-   "priority": 441,
+   "priority": 518,
    "score": 24.13,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1912,7 +2674,7 @@
   },
   {
    "card": "Jacob Frye",
-   "priority": 442,
+   "priority": 519,
    "score": 23.95,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1920,7 +2682,7 @@
   },
   {
    "card": "Crackling Spellslinger",
-   "priority": 443,
+   "priority": 520,
    "score": 23.78,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1928,7 +2690,7 @@
   },
   {
    "card": "Mysterious Stranger",
-   "priority": 444,
+   "priority": 521,
    "score": 23.77,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1936,7 +2698,7 @@
   },
   {
    "card": "Donal, Herald of Wings",
-   "priority": 445,
+   "priority": 522,
    "score": 23.64,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1944,7 +2706,7 @@
   },
   {
    "card": "Protean Thaumaturge",
-   "priority": 446,
+   "priority": 523,
    "score": 23.58,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1952,7 +2714,7 @@
   },
   {
    "card": "Jeong Jeong, the Deserter",
-   "priority": 447,
+   "priority": 524,
    "score": 23.57,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1960,7 +2722,7 @@
   },
   {
    "card": "Radiant Performer",
-   "priority": 448,
+   "priority": 525,
    "score": 23.5,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1968,7 +2730,7 @@
   },
   {
    "card": "Mathise, Surge Channeler",
-   "priority": 449,
+   "priority": 526,
    "score": 23.28,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1976,7 +2738,7 @@
   },
   {
    "card": "Naktamun Lorespinner // Wheel of Fortune",
-   "priority": 450,
+   "priority": 527,
    "score": 22.99,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1984,7 +2746,7 @@
   },
   {
    "card": "Nivix Guildmage",
-   "priority": 451,
+   "priority": 528,
    "score": 22.93,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1992,7 +2754,7 @@
   },
   {
    "card": "Artisan of Forms",
-   "priority": 452,
+   "priority": 529,
    "score": 22.89,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2000,7 +2762,7 @@
   },
   {
    "card": "Hullbreaker Horror",
-   "priority": 453,
+   "priority": 530,
    "score": 22.85,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -2008,7 +2770,7 @@
   },
   {
    "card": "Izzet Guildmage",
-   "priority": 454,
+   "priority": 531,
    "score": 22.73,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2016,7 +2778,7 @@
   },
   {
    "card": "Sea Gate Stormcaller",
-   "priority": 455,
+   "priority": 532,
    "score": 22.72,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2024,7 +2786,7 @@
   },
   {
    "card": "Ominous Harvest",
-   "priority": 456,
+   "priority": 533,
    "score": 22.63,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2032,7 +2794,7 @@
   },
   {
    "card": "Ludevic, Necrogenius // Olag, Ludevic's Hubris",
-   "priority": 457,
+   "priority": 534,
    "score": 22.57,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2040,7 +2802,7 @@
   },
   {
    "card": "Prismari Apprentice",
-   "priority": 458,
+   "priority": 535,
    "score": 22.5,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2048,7 +2810,7 @@
   },
   {
    "card": "Bill Potts",
-   "priority": 459,
+   "priority": 536,
    "score": 22.45,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2056,7 +2818,7 @@
   },
   {
    "card": "Tilonalli's Skinshifter",
-   "priority": 460,
+   "priority": 537,
    "score": 22.42,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2064,7 +2826,7 @@
   },
   {
    "card": "Symmetry Sage",
-   "priority": 461,
+   "priority": 538,
    "score": 22.29,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2072,7 +2834,7 @@
   },
   {
    "card": "Bloodline Recollector // Ancestral Craving",
-   "priority": 462,
+   "priority": 539,
    "score": 22.27,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2080,7 +2842,7 @@
   },
   {
    "card": "Arcane Savant",
-   "priority": 463,
+   "priority": 540,
    "score": 22.04,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2088,7 +2850,7 @@
   },
   {
    "card": "Spellbook Seeker // Careful Study",
-   "priority": 464,
+   "priority": 541,
    "score": 21.94,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2096,7 +2858,7 @@
   },
   {
    "card": "Mephidross Vampire",
-   "priority": 465,
+   "priority": 542,
    "score": 21.87,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -2104,7 +2866,7 @@
   },
   {
    "card": "Landscape Painter // Vibrant Idea",
-   "priority": 466,
+   "priority": 543,
    "score": 21.81,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2112,7 +2874,7 @@
   },
   {
    "card": "Pompous Battlemage // Improvised Act",
-   "priority": 467,
+   "priority": 544,
    "score": 21.62,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2120,7 +2882,7 @@
   },
   {
    "card": "Words of Wind",
-   "priority": 468,
+   "priority": 545,
    "score": 21.01,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -2128,7 +2890,7 @@
   },
   {
    "card": "Vivi Ornitier",
-   "priority": 469,
+   "priority": 546,
    "score": 20.87,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -2136,7 +2898,7 @@
   },
   {
    "card": "Famished Foragers",
-   "priority": 470,
+   "priority": 547,
    "score": 20.59,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -2144,7 +2906,7 @@
   },
   {
    "card": "Silent Hallcreeper",
-   "priority": 471,
+   "priority": 548,
    "score": 20.47,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2152,7 +2914,7 @@
   },
   {
    "card": "Deadeye Navigator",
-   "priority": 472,
+   "priority": 549,
    "score": 20.42,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -2160,7 +2922,7 @@
   },
   {
    "card": "Ashling, Flame Dancer",
-   "priority": 473,
+   "priority": 550,
    "score": 20.35,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2168,7 +2930,7 @@
   },
   {
    "card": "Drivnod, Carnage Dominus",
-   "priority": 474,
+   "priority": 551,
    "score": 20.08,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -2176,7 +2938,7 @@
   },
   {
    "card": "Rakdos, Lord of Riots",
-   "priority": 475,
+   "priority": 552,
    "score": 19.59,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -2184,7 +2946,7 @@
   },
   {
    "card": "Whispering Madness",
-   "priority": 476,
+   "priority": 553,
    "score": 19.32,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2192,7 +2954,7 @@
   },
   {
    "card": "Expansion // Explosion",
-   "priority": 477,
+   "priority": 554,
    "score": 19.03,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2200,7 +2962,7 @@
   },
   {
    "card": "Tidespout Tyrant",
-   "priority": 478,
+   "priority": 555,
    "score": 19.02,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -2208,7 +2970,7 @@
   },
   {
    "card": "Mana Echoes",
-   "priority": 479,
+   "priority": 556,
    "score": 18.98,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -2216,7 +2978,7 @@
   },
   {
    "card": "Alania, Divergent Storm",
-   "priority": 480,
+   "priority": 557,
    "score": 18.97,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2224,7 +2986,7 @@
   },
   {
    "card": "Herald of Kozilek",
-   "priority": 481,
+   "priority": 558,
    "score": 18.32,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -2232,7 +2994,7 @@
   },
   {
    "card": "Jace Reawakened",
-   "priority": 482,
+   "priority": 559,
    "score": 18.14,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2240,7 +3002,7 @@
   },
   {
    "card": "Pirated Copy",
-   "priority": 483,
+   "priority": 560,
    "score": 17.96,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2248,7 +3010,7 @@
   },
   {
    "card": "Invasion of Amonkhet // Lazotep Convert",
-   "priority": 484,
+   "priority": 561,
    "score": 17.9,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2256,7 +3018,7 @@
   },
   {
    "card": "Will Kenrith",
-   "priority": 485,
+   "priority": 562,
    "score": 17.33,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2264,7 +3026,7 @@
   },
   {
    "card": "Mortuary",
-   "priority": 486,
+   "priority": 563,
    "score": 17.27,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -2272,7 +3034,7 @@
   },
   {
    "card": "Mentor's Guidance",
-   "priority": 487,
+   "priority": 564,
    "score": 16.93,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2280,7 +3042,7 @@
   },
   {
    "card": "Fiery Encore",
-   "priority": 488,
+   "priority": 565,
    "score": 16.91,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2288,7 +3050,7 @@
   },
   {
    "card": "Last Thoughts",
-   "priority": 489,
+   "priority": 566,
    "score": 16.87,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2296,7 +3058,7 @@
   },
   {
    "card": "Train of Thought",
-   "priority": 490,
+   "priority": 567,
    "score": 16.54,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2304,7 +3066,7 @@
   },
   {
    "card": "Ghastly Discovery",
-   "priority": 491,
+   "priority": 568,
    "score": 16.32,
    "escalation": [
     "unusual_oracle_interaction"
@@ -2312,7 +3074,7 @@
   },
   {
    "card": "Snazzy Aether Homunculus",
-   "priority": 492,
+   "priority": 569,
    "score": 16,
    "escalation": [
     "unusual_oracle_interaction"

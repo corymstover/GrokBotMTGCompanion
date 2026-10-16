@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Cecily__Bjorna__Lutri",
  "slug": "bjorna-nightfall-alchemist-cecily",
  "list_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
@@ -62,7 +62,7 @@
    "first_signal": 82,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 43,
-   "new_escalated": 41,
+   "new_escalated": 42,
    "material": true,
    "inputs": [
     "data/grixis/candidates/spellbook_almost.json"
@@ -92,7 +92,7 @@
    "first_signal": 3199,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 26,
-   "new_escalated": 20,
+   "new_escalated": 97,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 1101,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 9,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 26,
+   "material": true,
    "inputs": [
     "data/grixis/audit/bjorna-nightfall-alchemist-cecily.json",
     "roles: wipe,counter,protection"
@@ -216,8 +216,8 @@
    "first_signal": 184,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 123,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 9,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 4,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 97,
@@ -339,8 +339,8 @@
    "C": 18207
   },
   "by_test_tier": {
-   "paired_test": 106,
-   "screen_only": 18352
+   "paired_test": 236,
+   "screen_only": 18222
   },
   "per_signal": {
    "archetype_tech": 283,
@@ -357,9 +357,10 @@
    "spellbook_near_miss": 92,
    "tutor_target": 356
   },
-  "escalated": 106,
+  "escalated": 236,
   "by_escalation_reason": {
    "dependency_graph_alternative": 8,
+   "multi_source_corroboration": 173,
    "new_card": 24,
    "spellbook_near_miss_completion": 49,
    "tier_a_score": 32,
@@ -372,7 +373,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/bjorna-nightfall-alchemist-cecily.universe.json.gz",
-  "sha256": "sha256:5c93aeca4c221975c33e2f9f50ea35de634ece9257479f57934dc5b8c948192a"
+  "sha256": "sha256:2947edf73644b7ed1e418a4257363555db63a0160721e71f2ab51941714b4619"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

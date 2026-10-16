@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Edea__Possessed_Sorceress",
  "slug": "edea-possessed-sorceress",
  "list_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
@@ -92,8 +92,8 @@
    "first_signal": 288,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 14,
+   "material": true,
    "inputs": [
     "oracle_bulk",
     "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
@@ -125,8 +125,8 @@
    "first_signal": 46,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/edea-possessed-sorceress.json"
    ]
@@ -140,8 +140,8 @@
    "first_signal": 779,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "default_bulk (earliest printing)"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "data/grixis/audit/edea-possessed-sorceress.json",
     "roles: wipe,protection,tutor"
@@ -171,8 +171,8 @@
    "first_signal": 0,
    "unresolved_names": 2,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 4,
-   "material": true,
+   "new_escalated": 0,
+   "material": false,
    "inputs": [
     "data/grixis/audit/edea-possessed-sorceress.json#slots/*/alternatives"
    ]
@@ -186,8 +186,8 @@
    "first_signal": 890,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 9,
+   "material": true,
    "inputs": [
     "data/grixis/graph/edea-possessed-sorceress.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 1110,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/edea-possessed-sorceress.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 396,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 180,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 7,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 91,
@@ -339,8 +339,8 @@
    "C": 18343
   },
   "by_test_tier": {
-   "paired_test": 106,
-   "screen_only": 18356
+   "paired_test": 153,
+   "screen_only": 18309
   },
   "per_signal": {
    "archetype_tech": 292,
@@ -357,10 +357,11 @@
    "spellbook_near_miss": 72,
    "tutor_target": 1238
   },
-  "escalated": 106,
+  "escalated": 153,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 17,
    "dependency_graph_alternative": 7,
+   "multi_source_corroboration": 58,
    "new_card": 2,
    "spellbook_near_miss_completion": 68,
    "tier_a_score": 27
@@ -371,7 +372,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/edea-possessed-sorceress.universe.json.gz",
-  "sha256": "sha256:e9e0449e36f3b1b8cdf942424c50905b1f8f7ca93ceab9b57a57a08a08af416f"
+  "sha256": "sha256:496cd52fe2f4ec39682b99145c3d2b4e89bb2634edfe467df9040e0351335b53"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

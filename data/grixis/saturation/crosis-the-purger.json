@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Crosis__the_Purger",
  "slug": "crosis-the-purger",
  "list_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
@@ -62,7 +62,7 @@
    "first_signal": 17,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 2,
-   "new_escalated": 10,
+   "new_escalated": 11,
    "material": true,
    "inputs": [
     "data/grixis/candidates/spellbook_almost.json"
@@ -92,7 +92,7 @@
    "first_signal": 929,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 3,
-   "new_escalated": 2,
+   "new_escalated": 10,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 636,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/crosis-the-purger.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "data/grixis/audit/crosis-the-purger.json",
     "roles: wipe,protection,tutor"
@@ -171,8 +171,8 @@
    "first_signal": 0,
    "unresolved_names": 1,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 1,
-   "material": true,
+   "new_escalated": 0,
+   "material": false,
    "inputs": [
     "data/grixis/audit/crosis-the-purger.json#slots/*/alternatives"
    ]
@@ -186,8 +186,8 @@
    "first_signal": 567,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "data/grixis/graph/crosis-the-purger.json"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 327,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 167,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 89,
@@ -339,8 +339,8 @@
    "C": 18352
   },
   "by_test_tier": {
-   "paired_test": 64,
-   "screen_only": 18400
+   "paired_test": 94,
+   "screen_only": 18370
   },
   "per_signal": {
    "archetype_tech": 290,
@@ -357,10 +357,11 @@
    "spellbook_near_miss": 18,
    "tutor_target": 1841
   },
-  "escalated": 64,
+  "escalated": 94,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 14,
    "dependency_graph_alternative": 8,
+   "multi_source_corroboration": 40,
    "new_card": 2,
    "spellbook_near_miss_completion": 10,
    "tier_a_score": 45
@@ -371,7 +372,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/crosis-the-purger.universe.json.gz",
-  "sha256": "sha256:d74d75695f4c8de4af2f1e5411a1183620c1c8a193309d7b6c926017bf542da1"
+  "sha256": "sha256:ea2d496ce6cfde15f240ef7704f72a608968cda56374095d96e47cb320debdb5"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

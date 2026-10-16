@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Nicol_Bolas",
  "slug": "nicol-bolas",
  "list_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
@@ -92,7 +92,7 @@
    "first_signal": 683,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 9,
-   "new_escalated": 1,
+   "new_escalated": 12,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 1232,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 7,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/nicol-bolas.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 1,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 1,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 18,
+   "material": true,
    "inputs": [
     "data/grixis/audit/nicol-bolas.json",
     "roles: wipe,counter,protection,tutor"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 2,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 3,
+   "new_escalated": 1,
    "material": true,
    "inputs": [
     "data/grixis/audit/nicol-bolas.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 740,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 16,
+   "material": true,
    "inputs": [
     "data/grixis/graph/nicol-bolas.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 1295,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/nicol-bolas.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 205,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 161,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 96,
@@ -339,8 +339,8 @@
    "C": 18320
   },
   "by_test_tier": {
-   "paired_test": 66,
-   "screen_only": 18391
+   "paired_test": 134,
+   "screen_only": 18323
   },
   "per_signal": {
    "archetype_tech": 277,
@@ -357,10 +357,11 @@
    "spellbook_near_miss": 46,
    "tutor_target": 1346
   },
-  "escalated": 66,
+  "escalated": 134,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 5,
    "dependency_graph_alternative": 7,
+   "multi_source_corroboration": 88,
    "new_card": 2,
    "spellbook_near_miss_completion": 36,
    "tier_a_score": 22
@@ -371,7 +372,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/nicol-bolas.universe.json.gz",
-  "sha256": "sha256:c34625e37070e02198dd85f09fddfa2099ad46f9d1c7ddcc53d9ffdb383eef46"
+  "sha256": "sha256:8d2d5e54f7e5f892bfd92fb37b63ab4d8b1aec069b32bff7e12b272cd72e92b4"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

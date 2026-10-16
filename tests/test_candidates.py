@@ -20,13 +20,16 @@ def load(slug):
     return gc.load(slug)
 
 
-def test_every_deck_has_a_bounded_recorded_universe():
+def test_every_deck_has_a_recorded_universe():
+    """Stored files are capped legacy (Bot cycle 61), checked against the bound each recorded; superseded at M5 regeneration."""
     summ = ga.summary()
     assert set(files()) == {v["slug"] for v in summ.values()}
     for f in files():
         d = load(f)
         u = d["universe"]
-        assert gc.UNIVERSE_MIN <= u["size"] == len(d["candidates"]) <= gc.UNIVERSE_MAX
+        lo, hi = u["bounds"]
+        assert lo <= u["size"] == len(d["candidates"]) <= hi
+        assert not hasattr(gc, "UNIVERSE_MIN") and not hasattr(gc, "UNIVERSE_MAX")  # no bound in the builder (step A)
         assert u["definition"] and u["sources"] and u["sources_kept"] and d["snapshot"]["id"].startswith("sha256:")
         assert [c["rank"] for c in d["candidates"]] == list(range(1, len(d["candidates"]) + 1))
 

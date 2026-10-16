@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "RogSi",
  "slug": "rograkh-son-of-rohgahh-silas-renn",
  "list_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
@@ -92,7 +92,7 @@
    "first_signal": 795,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 6,
-   "new_escalated": 0,
+   "new_escalated": 6,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -140,8 +140,8 @@
    "first_signal": 734,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "default_bulk (earliest printing)"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 2,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 2,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "data/grixis/audit/rograkh-son-of-rohgahh-silas-renn.json",
     "roles: removal,wipe,protection"
@@ -186,8 +186,8 @@
    "first_signal": 405,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 51,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 130,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -246,7 +246,7 @@
    "first_signal": 1,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 32,
+   "new_escalated": 25,
    "material": true,
    "inputs": [
     "data/grixis/candidates/tournament/rograkh-son-of-rohgahh-silas-renn.json"
@@ -339,8 +339,8 @@
    "C": 18404
   },
   "by_test_tier": {
-   "paired_test": 77,
-   "screen_only": 18376
+   "paired_test": 92,
+   "screen_only": 18361
   },
   "per_signal": {
    "archetype_tech": 271,
@@ -358,10 +358,11 @@
    "tournament": 59,
    "tutor_target": 6628
   },
-  "escalated": 77,
+  "escalated": 92,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 6,
    "dependency_graph_alternative": 7,
+   "multi_source_corroboration": 33,
    "spellbook_near_miss_completion": 30,
    "tier_a_score": 11,
    "tournament_evidence": 59
@@ -372,7 +373,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/rograkh-son-of-rohgahh-silas-renn.universe.json.gz",
-  "sha256": "sha256:0abf5c9cfe8901376a3b5e6dc1b53b8924317a20b0dec58ca8b7ed6e1f3f53c2"
+  "sha256": "sha256:f42b3cc3ace10be125639f4ef8f05f7478a29f837a952bdfb55eab86e3732017"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

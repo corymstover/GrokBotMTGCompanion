@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Nicol_Bolas__the_Ravager",
  "slug": "nicol-bolas-the-ravager",
  "list_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
@@ -92,7 +92,7 @@
    "first_signal": 642,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 3,
-   "new_escalated": 2,
+   "new_escalated": 13,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "data/grixis/audit/nicol-bolas-the-ravager.json",
     "roles: wipe,counter,protection,tutor"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 3,
+   "new_escalated": 1,
    "material": true,
    "inputs": [
     "data/grixis/audit/nicol-bolas-the-ravager.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 580,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 9,
+   "material": true,
    "inputs": [
     "data/grixis/graph/nicol-bolas-the-ravager.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 115,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/nicol-bolas-the-ravager.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 298,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 188,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 95,
@@ -339,8 +339,8 @@
    "C": 18354
   },
   "by_test_tier": {
-   "paired_test": 68,
-   "screen_only": 18390
+   "paired_test": 111,
+   "screen_only": 18347
   },
   "per_signal": {
    "archetype_tech": 295,
@@ -357,10 +357,11 @@
    "spellbook_near_miss": 30,
    "tutor_target": 131
   },
-  "escalated": 68,
+  "escalated": 111,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 18,
    "dependency_graph_alternative": 8,
+   "multi_source_corroboration": 57,
    "new_card": 3,
    "spellbook_near_miss_completion": 29,
    "tier_a_score": 25
@@ -371,7 +372,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/nicol-bolas-the-ravager.universe.json.gz",
-  "sha256": "sha256:40f758c04a8f39e1876efd57d5ad732787a43ef448f3da794cba2dae191790c7"
+  "sha256": "sha256:71e6000174088f57ed00049611f2b81a13eaf9eda3a2095bb631e43ac745172f"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

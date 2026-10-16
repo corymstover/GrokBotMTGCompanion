@@ -34,7 +34,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import grixis_authority as ga  # noqa: E402
 import grixis_candidates as gc  # noqa: E402
 
-VERSION = "2"
+VERSION = "3"
 OUT = ROOT / "data" / "grixis" / "saturation"
 SCHEMA = ROOT / "data" / "grixis" / "schemas" / "saturation_certificate.schema.json"
 MATERIAL_K = 3                 # k: new candidates at or above MATERIAL_SCORE that make a pass material
@@ -43,6 +43,11 @@ STOP_N = 2                     # N: consecutive non-material expansion rounds be
 SNAPSHOT_DATE = "2026-10-16"   # development snapshot (Cory D6); later first printings are unreleased
 SPECIFIC_FRAC = 0.02           # an Oracle hook label is commander_specific if it matches <= 2% of the eligible pool
 ANOMALY_GAP = 30.0             # anomaly: EDHREC part vs structural part disagree by this much
+FAMILY = {  # independent signal families for multi_source_corroboration (passes reading the same source count once)
+    "edhrec": "edhrec", "spellbook_near_miss": "spellbook", "blueprint_package": "blueprint", "tutor_target": "blueprint",
+    "oracle_text": "oracle", "type_search": "oracle", "rules_interaction": "m1_interactions", "new_card": "printing",
+    "role_gap": "audit_graph", "graph_alternative_ref": "audit_graph", "graph_alternative": "audit_graph",
+    "mana_base": "mana", "archetype_tech": "other_lists", "tournament": "tournament", "human_evidence": "human"}
 PAIRED_TARGET = 250            # paired-test target per batch (not a cap: overflow is queued, never dropped)
 SIGNAL_WEIGHT = 5.0            # queue priority = score + this x number of escalation reasons
 ARCHETYPE_MIN_LISTS = 3        # archetype_tech: in >= this many other Grixis canonical lists and shares the deck's hook label
@@ -65,6 +70,14 @@ def rel(p):
 
 def is_material(n_at_or_above_score, n_escalated):
     return n_at_or_above_score >= MATERIAL_K or n_escalated > 0
+
+
+def load_universe(path):
+    """Expand a stored universe file to a list of full rows (score-descending)."""
+    d = json.loads(gzip.decompress(Path(path).read_bytes()))
+    rows = list(d["signalled"]) + [{"card": c, "score": sc, "tier": t, "signals": ["full_pool_sweep"], "oracle_hook_specificity": None,
+                                    "escalation": [], "test_tier": "screen_only"} for c, sc, t in d["sweep_only"]]
+    return sorted(rows, key=lambda x: (-x["score"], x["card"]))
 
 
 def name_index(names):
@@ -182,6 +195,8 @@ class Run:
             r.append("human_evidence")
         if "tournament" in s:
             r.append("tournament_evidence")
+        if gc.tier(sc) == "B" and len({FAMILY.get(x, x) for x in s if not x.startswith("expansion_")}) >= 2:
+            r.append("multi_source_corroboration")
         return r
 
 
@@ -285,7 +300,10 @@ def certificate(D, R, inputs, runtime):
         x["test_tier"] = "paired_test" if i < PAIRED_TARGET else "escalated_queued"
     for x in uni:
         x.setdefault("test_tier", "screen_only")
-    body = json.dumps(uni, sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode()
+    compact = {"format": "v2-compact: `signalled` rows are full; `sweep_only` rows are [card, score, tier] (signals = [full_pool_sweep], no escalation, screen_only)",
+               "signalled": [x for x in uni if x["signals"] != ["full_pool_sweep"] or x["escalation"]],
+               "sweep_only": [[x["card"], x["score"], x["tier"]] for x in uni if x["signals"] == ["full_pool_sweep"] and not x["escalation"]]}
+    body = json.dumps(compact, sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode()
     gz = gzip.compress(body, compresslevel=9, mtime=0)
     sig_passes = [p for p in R.passes if p["kind"] != "sweep"]
     last_mat = max((p["index"] for p in sig_passes if p["material"]), default=None)
@@ -294,7 +312,7 @@ def certificate(D, R, inputs, runtime):
              for x in escd if x["test_tier"] == "escalated_queued"]
     cert = {
         "schema_version": 2, "kind": "saturation_certificate", "generated_by": f"scripts/grixis_saturation.py v{VERSION}",
-        "cycle": "Bot cycle 65.2", "deck_id": D.rid, "slug": D.slug, "list_hash": D.e["canonical_project_list"]["hash"],
+        "cycle": "Bot cycle 65.3", "deck_id": D.rid, "slug": D.slug, "list_hash": D.e["canonical_project_list"]["hash"],
         "snapshot": {"id": "snap-20261016 (development snapshot, Cory D6)", "inputs": inputs},
         "evidence_class": "derived_metric",
         "authority": {"exploratory": True, "can_decide": False, "note": "Discovery coverage evidence only; screening tiers order work and never exclude or decide. M5 stays unaccepted (Cory)."},

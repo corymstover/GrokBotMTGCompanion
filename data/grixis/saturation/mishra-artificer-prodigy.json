@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Mishra__Artificer_Prodigy",
  "slug": "mishra-artificer-prodigy",
  "list_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
@@ -62,7 +62,7 @@
    "first_signal": 144,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 57,
-   "new_escalated": 108,
+   "new_escalated": 112,
    "material": true,
    "inputs": [
     "data/grixis/candidates/spellbook_almost.json"
@@ -92,8 +92,8 @@
    "first_signal": 76,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 11,
+   "material": true,
    "inputs": [
     "oracle_bulk",
     "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 11,
+   "material": true,
    "inputs": [
     "data/grixis/audit/mishra-artificer-prodigy.json",
     "roles: removal,wipe,protection"
@@ -186,8 +186,8 @@
    "first_signal": 390,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "data/grixis/graph/mishra-artificer-prodigy.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 207,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/mishra-artificer-prodigy.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 370,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 11,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 186,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 97,
@@ -339,8 +339,8 @@
    "C": 18261
   },
   "by_test_tier": {
-   "paired_test": 162,
-   "screen_only": 18294
+   "paired_test": 214,
+   "screen_only": 18242
   },
   "per_signal": {
    "archetype_tech": 284,
@@ -357,10 +357,11 @@
    "spellbook_near_miss": 165,
    "tutor_target": 236
   },
-  "escalated": 162,
+  "escalated": 214,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 2,
    "dependency_graph_alternative": 6,
+   "multi_source_corroboration": 71,
    "new_card": 8,
    "spellbook_near_miss_completion": 123,
    "tier_a_score": 49
@@ -371,7 +372,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/mishra-artificer-prodigy.universe.json.gz",
-  "sha256": "sha256:cacfdd2360396d878387fa24718d12f7e54b9eec0f64c520fb29813822a7155d"
+  "sha256": "sha256:82964e4595632ed0af8df5b7d3b41a0de4f3c56a6913a6fc12a8968b070ffab6"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

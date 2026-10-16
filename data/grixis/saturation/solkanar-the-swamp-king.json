@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Sol_kanar_the_Swamp_King",
  "slug": "solkanar-the-swamp-king",
  "list_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
@@ -92,7 +92,7 @@
    "first_signal": 178,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 13,
+   "new_escalated": 40,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "data/grixis/audit/solkanar-the-swamp-king.json",
     "roles: wipe,counter,protection,tutor"
@@ -171,8 +171,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 2,
-   "material": true,
+   "new_escalated": 0,
+   "material": false,
    "inputs": [
     "data/grixis/audit/solkanar-the-swamp-king.json#slots/*/alternatives"
    ]
@@ -186,8 +186,8 @@
    "first_signal": 640,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "data/grixis/graph/solkanar-the-swamp-king.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 1187,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 294,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 191,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 94,
@@ -339,8 +339,8 @@
    "C": 18321
   },
   "by_test_tier": {
-   "paired_test": 132,
-   "screen_only": 18327
+   "paired_test": 175,
+   "screen_only": 18284
   },
   "per_signal": {
    "archetype_tech": 290,
@@ -359,10 +359,11 @@
    "tutor_target": 1240,
    "type_search": 482
   },
-  "escalated": 132,
+  "escalated": 175,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 7,
    "dependency_graph_alternative": 9,
+   "multi_source_corroboration": 75,
    "new_card": 6,
    "package_gap": 31,
    "spellbook_near_miss_completion": 59,
@@ -376,7 +377,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/solkanar-the-swamp-king.universe.json.gz",
-  "sha256": "sha256:7a00ff0340b289cfda023eb242395814f0a4ab4d4851a294e70c1024d7dfd26a"
+  "sha256": "sha256:0aef7d58dee2e33e1d3d4c7c7f467fef62612089b671643c25e4834d34ebc78d"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

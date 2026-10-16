@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Gwendlyn_Di_Corci",
  "slug": "gwendlyn-di-corci",
  "list_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
@@ -62,7 +62,7 @@
    "first_signal": 36,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 5,
-   "new_escalated": 27,
+   "new_escalated": 28,
    "material": true,
    "inputs": [
     "data/grixis/candidates/spellbook_almost.json"
@@ -92,7 +92,7 @@
    "first_signal": 629,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 3,
-   "new_escalated": 2,
+   "new_escalated": 15,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 55,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/gwendlyn-di-corci.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "data/grixis/audit/gwendlyn-di-corci.json",
     "roles: removal,wipe,protection"
@@ -186,8 +186,8 @@
    "first_signal": 118,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis/graph/gwendlyn-di-corci.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 2246,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/gwendlyn-di-corci.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 618,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 160,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 91,
@@ -339,8 +339,8 @@
    "C": 18365
   },
   "by_test_tier": {
-   "paired_test": 59,
-   "screen_only": 18403
+   "paired_test": 98,
+   "screen_only": 18364
   },
   "per_signal": {
    "archetype_tech": 283,
@@ -357,10 +357,11 @@
    "spellbook_near_miss": 41,
    "tutor_target": 2348
   },
-  "escalated": 59,
+  "escalated": 98,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 4,
    "dependency_graph_alternative": 5,
+   "multi_source_corroboration": 52,
    "new_card": 2,
    "spellbook_near_miss_completion": 31,
    "tier_a_score": 22
@@ -371,7 +372,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/gwendlyn-di-corci.universe.json.gz",
-  "sha256": "sha256:0f9263fef8f4dc67b16042b6ae06b47854eef2c8a423a2597ccc47bbda37048b"
+  "sha256": "sha256:9de0059d054868071754c9bcc9e1796b4593161a46b58c141966651b6babdb85"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

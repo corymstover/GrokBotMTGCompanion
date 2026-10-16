@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Marchesa__the_Black_Rose",
  "slug": "marchesa-the-black-rose",
  "list_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
@@ -125,8 +125,8 @@
    "first_signal": 844,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/marchesa-the-black-rose.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "data/grixis/audit/marchesa-the-black-rose.json",
     "roles: wipe,counter,protection,tutor"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 4,
+   "new_escalated": 1,
    "material": true,
    "inputs": [
     "data/grixis/audit/marchesa-the-black-rose.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 598,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 14,
+   "material": true,
    "inputs": [
     "data/grixis/graph/marchesa-the-black-rose.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 6089,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/marchesa-the-black-rose.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 312,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 156,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 95,
@@ -339,8 +339,8 @@
    "C": 18304
   },
   "by_test_tier": {
-   "paired_test": 153,
-   "screen_only": 18305
+   "paired_test": 186,
+   "screen_only": 18272
   },
   "per_signal": {
    "archetype_tech": 291,
@@ -356,10 +356,11 @@
    "spellbook_near_miss": 130,
    "tutor_target": 6745
   },
-  "escalated": 153,
+  "escalated": 186,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 6,
    "dependency_graph_alternative": 10,
+   "multi_source_corroboration": 78,
    "new_card": 2,
    "spellbook_near_miss_completion": 128,
    "tier_a_score": 19
@@ -369,7 +370,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/marchesa-the-black-rose.universe.json.gz",
-  "sha256": "sha256:eab9938044cafee1e1ca3962ad7eb0bc0ae6505e7884e873b5ad8c1a6a0dbac4"
+  "sha256": "sha256:4c76c54e20b40c352081c75ee5ebf743e7eb491240e9fbbcb95e24537070ff88"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

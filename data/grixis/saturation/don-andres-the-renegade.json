@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Don_Andres__the_Renegade",
  "slug": "don-andres-the-renegade",
  "list_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
@@ -92,7 +92,7 @@
    "first_signal": 692,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 5,
-   "new_escalated": 14,
+   "new_escalated": 35,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 98,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/don-andres-the-renegade.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "data/grixis/audit/don-andres-the-renegade.json",
     "roles: wipe,counter,protection,tutor"
@@ -171,8 +171,8 @@
    "first_signal": 0,
    "unresolved_names": 2,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 1,
-   "material": true,
+   "new_escalated": 0,
+   "material": false,
    "inputs": [
     "data/grixis/audit/don-andres-the-renegade.json#slots/*/alternatives"
    ]
@@ -186,8 +186,8 @@
    "first_signal": 495,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "data/grixis/graph/don-andres-the-renegade.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 1694,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/don-andres-the-renegade.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 271,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 160,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 96,
@@ -339,8 +339,9 @@
    "C": 18303
   },
   "by_test_tier": {
-   "paired_test": 209,
-   "screen_only": 18248
+   "escalated_queued": 12,
+   "paired_test": 250,
+   "screen_only": 18195
   },
   "per_signal": {
    "archetype_tech": 281,
@@ -359,10 +360,11 @@
    "tutor_target": 1857,
    "type_search": 156
   },
-  "escalated": 209,
+  "escalated": 262,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 6,
    "dependency_graph_alternative": 8,
+   "multi_source_corroboration": 72,
    "new_card": 6,
    "package_gap": 25,
    "spellbook_near_miss_completion": 18,
@@ -376,9 +378,106 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/don-andres-the-renegade.universe.json.gz",
-  "sha256": "sha256:714e7db48dfca81e5272fa4f7c3639c31e0e996dee9803f3ad7f737f00f58d88"
+  "sha256": "sha256:a0e32530ea320c742af3c19f25d90df0ae954c9886bdc29486320d2305e0ab5e"
  },
- "escalated_untested_queue": [],
+ "escalated_untested_queue": [
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "priority": 251,
+   "score": 18.7,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Song-Mad Treachery // Song-Mad Ruins",
+   "priority": 252,
+   "score": 18.42,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Involuntary Employment",
+   "priority": 253,
+   "score": 18.36,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Discreet Retreat",
+   "priority": 254,
+   "score": 17.51,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Korvold and the Noble Thief",
+   "priority": 255,
+   "score": 17.38,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Buried Treasure",
+   "priority": 256,
+   "score": 17.19,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Crackdown Construct",
+   "priority": 257,
+   "score": 17.13,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "priority": 258,
+   "score": 16.92,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Mimic",
+   "priority": 259,
+   "score": 16.74,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Dire Mimic",
+   "priority": 260,
+   "score": 16.62,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Ice Cauldron",
+   "priority": 261,
+   "score": 16.33,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "priority": 262,
+   "score": 16.19,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  }
+ ],
  "blind_spots": [
   {
    "kind": "unreleased_not_yet_legal",

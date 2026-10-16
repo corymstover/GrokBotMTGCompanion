@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Sauron__the_Dark_Lord",
  "slug": "sauron-the-dark-lord",
  "list_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
@@ -92,7 +92,7 @@
    "first_signal": 941,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 5,
-   "new_escalated": 0,
+   "new_escalated": 21,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 364,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/sauron-the-dark-lord.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 14,
+   "material": true,
    "inputs": [
     "data/grixis/audit/sauron-the-dark-lord.json",
     "roles: removal,wipe,counter,protection,tutor"
@@ -171,8 +171,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 1,
-   "material": true,
+   "new_escalated": 0,
+   "material": false,
    "inputs": [
     "data/grixis/audit/sauron-the-dark-lord.json#slots/*/alternatives"
    ]
@@ -186,8 +186,8 @@
    "first_signal": 977,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 7,
+   "material": true,
    "inputs": [
     "data/grixis/graph/sauron-the-dark-lord.json"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 29,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 150,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 88,
@@ -339,8 +339,8 @@
    "C": 18316
   },
   "by_test_tier": {
-   "paired_test": 87,
-   "screen_only": 18378
+   "paired_test": 142,
+   "screen_only": 18323
   },
   "per_signal": {
    "archetype_tech": 292,
@@ -359,10 +359,11 @@
    "tutor_target": 728,
    "type_search": 10
   },
-  "escalated": 87,
+  "escalated": 142,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 4,
    "dependency_graph_alternative": 9,
+   "multi_source_corroboration": 67,
    "new_card": 12,
    "package_gap": 4,
    "spellbook_near_miss_completion": 15,
@@ -375,7 +376,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/sauron-the-dark-lord.universe.json.gz",
-  "sha256": "sha256:2323bd42b4122e3ba12bbcdf4635e0b7365ac09f898dc2a00967f11558681402"
+  "sha256": "sha256:b7d9956139d714ad465dc032a5b9f5cd544fbcf57c3da2ffdb51266682e40579"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

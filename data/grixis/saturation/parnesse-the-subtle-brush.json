@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Parnesse__the_Subtle_Brush",
  "slug": "parnesse-the-subtle-brush",
  "list_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
@@ -92,8 +92,8 @@
    "first_signal": 51,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "oracle_bulk",
     "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
@@ -125,8 +125,8 @@
    "first_signal": 48,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/parnesse-the-subtle-brush.json"
    ]
@@ -140,7 +140,7 @@
    "first_signal": 739,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 1,
-   "new_escalated": 1,
+   "new_escalated": 2,
    "material": true,
    "inputs": [
     "default_bulk (earliest printing)"
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "data/grixis/audit/parnesse-the-subtle-brush.json",
     "roles: wipe,protection,tutor"
@@ -171,8 +171,8 @@
    "first_signal": 0,
    "unresolved_names": 2,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 1,
-   "material": true,
+   "new_escalated": 0,
+   "material": false,
    "inputs": [
     "data/grixis/audit/parnesse-the-subtle-brush.json#slots/*/alternatives"
    ]
@@ -186,8 +186,8 @@
    "first_signal": 199,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis/graph/parnesse-the-subtle-brush.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 769,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/parnesse-the-subtle-brush.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 595,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 11,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 196,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 93,
@@ -339,8 +339,8 @@
    "C": 18294
   },
   "by_test_tier": {
-   "paired_test": 144,
-   "screen_only": 18316
+   "paired_test": 171,
+   "screen_only": 18289
   },
   "per_signal": {
    "archetype_tech": 294,
@@ -359,10 +359,11 @@
    "tutor_target": 825,
    "type_search": 879
   },
-  "escalated": 144,
+  "escalated": 171,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 5,
    "dependency_graph_alternative": 6,
+   "multi_source_corroboration": 78,
    "new_card": 18,
    "package_gap": 32,
    "spellbook_near_miss_completion": 87,
@@ -374,7 +375,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/parnesse-the-subtle-brush.universe.json.gz",
-  "sha256": "sha256:40baf3126910f445c5f5814a9e1240998b0d99af1fa44e78e5ea045b091284d3"
+  "sha256": "sha256:1aeced0806ddf5846dfd045b3ff5cdc64b50c675d0a832dbf62bccd487e259e8"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

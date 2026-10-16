@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Mairsil__the_Pretender",
  "slug": "mairsil-the-pretender",
  "list_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
@@ -92,8 +92,8 @@
    "first_signal": 54,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "oracle_bulk",
     "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 7,
+   "material": true,
    "inputs": [
     "data/grixis/audit/mairsil-the-pretender.json",
     "roles: wipe,counter,protection"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 3,
+   "new_escalated": 2,
    "material": true,
    "inputs": [
     "data/grixis/audit/mairsil-the-pretender.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 488,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "data/grixis/graph/mairsil-the-pretender.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 5459,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 7,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/mairsil-the-pretender.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 193,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 12,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 171,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -339,8 +339,8 @@
    "C": 18330
   },
   "by_test_tier": {
-   "paired_test": 101,
-   "screen_only": 18355
+   "paired_test": 143,
+   "screen_only": 18313
   },
   "per_signal": {
    "archetype_tech": 285,
@@ -358,11 +358,12 @@
    "spellbook_near_miss": 79,
    "tutor_target": 5683
   },
-  "escalated": 101,
+  "escalated": 143,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 13,
    "dependency_graph_alternative": 7,
    "human_evidence": 1,
+   "multi_source_corroboration": 56,
    "new_card": 3,
    "spellbook_near_miss_completion": 64,
    "tier_a_score": 32
@@ -373,7 +374,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/mairsil-the-pretender.universe.json.gz",
-  "sha256": "sha256:7387df0c336e3e08d5628ff6a867ace305ba26e51a3f2c9e478812fbb6747c47"
+  "sha256": "sha256:12620640d61198292e80d4910f1565a0d2ee7912ea0e0a172fae50235e7651d8"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

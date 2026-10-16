@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Sol_kanar_the_Tainted",
  "slug": "solkanar-the-tainted",
  "list_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
@@ -62,7 +62,7 @@
    "first_signal": 41,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 3,
-   "new_escalated": 14,
+   "new_escalated": 15,
    "material": true,
    "inputs": [
     "data/grixis/candidates/spellbook_almost.json"
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis/audit/solkanar-the-tainted.json",
     "roles: wipe,protection,tutor"
@@ -186,8 +186,8 @@
    "first_signal": 239,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "data/grixis/graph/solkanar-the-tainted.json"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 595,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 7,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 212,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 90,
@@ -339,8 +339,8 @@
    "C": 18388
   },
   "by_test_tier": {
-   "paired_test": 42,
-   "screen_only": 18421
+   "paired_test": 60,
+   "screen_only": 18403
   },
   "per_signal": {
    "archetype_tech": 306,
@@ -357,10 +357,11 @@
    "spellbook_near_miss": 42,
    "tutor_target": 4
   },
-  "escalated": 42,
+  "escalated": 60,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 10,
    "dependency_graph_alternative": 10,
+   "multi_source_corroboration": 24,
    "spellbook_near_miss_completion": 14,
    "tier_a_score": 19
   },
@@ -370,7 +371,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/solkanar-the-tainted.universe.json.gz",
-  "sha256": "sha256:7becfa79c19c160ad0d9211da34e87cca3e638481b1112a4976fc87d4a61ab1d"
+  "sha256": "sha256:5eff5955f64213309599bdc010d3dd2727ac7afdcc4729f9291d468c546214b9"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

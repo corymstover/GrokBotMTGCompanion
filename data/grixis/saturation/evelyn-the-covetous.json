@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Evelyn__the_Covetous",
  "slug": "evelyn-the-covetous",
  "list_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
@@ -92,7 +92,7 @@
    "first_signal": 324,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 2,
+   "new_escalated": 20,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 37,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/evelyn-the-covetous.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 12,
+   "material": true,
    "inputs": [
     "data/grixis/audit/evelyn-the-covetous.json",
     "roles: removal,wipe,protection"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 3,
+   "new_escalated": 2,
    "material": true,
    "inputs": [
     "data/grixis/audit/evelyn-the-covetous.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 1354,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "data/grixis/graph/evelyn-the-covetous.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 6361,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/evelyn-the-covetous.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 386,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 9,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 123,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -339,8 +339,8 @@
    "C": 18317
   },
   "by_test_tier": {
-   "paired_test": 116,
-   "screen_only": 18339
+   "paired_test": 176,
+   "screen_only": 18279
   },
   "per_signal": {
    "archetype_tech": 273,
@@ -358,10 +358,11 @@
    "tournament": 22,
    "tutor_target": 6829
   },
-  "escalated": 116,
+  "escalated": 176,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 6,
    "dependency_graph_alternative": 10,
+   "multi_source_corroboration": 67,
    "spellbook_near_miss_completion": 45,
    "tier_a_score": 56,
    "tournament_evidence": 22,
@@ -374,7 +375,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/evelyn-the-covetous.universe.json.gz",
-  "sha256": "sha256:f0417ea092c74b514061d47ca61f4bc6dbf7f97d71afb22c94b2cc4b51247036"
+  "sha256": "sha256:f3d69e2cfbe10fc8cf80c0e3db2ec0cef7223336e47500f41c6315abd725af0f"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Mai_and_Zuko",
  "slug": "mai-and-zuko",
  "list_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
@@ -62,7 +62,7 @@
    "first_signal": 121,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 52,
-   "new_escalated": 93,
+   "new_escalated": 94,
    "material": true,
    "inputs": [
     "data/grixis/candidates/spellbook_almost.json"
@@ -92,7 +92,7 @@
    "first_signal": 975,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 6,
-   "new_escalated": 3,
+   "new_escalated": 37,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 141,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/mai-and-zuko.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "data/grixis/audit/mai-and-zuko.json",
     "roles: wipe,protection,tutor"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 2,
+   "new_escalated": 1,
    "material": true,
    "inputs": [
     "data/grixis/audit/mai-and-zuko.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 582,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "data/grixis/graph/mai-and-zuko.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 1005,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 14,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/mai-and-zuko.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 43,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 131,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 100,
@@ -339,9 +339,9 @@
    "C": 18174
   },
   "by_test_tier": {
-   "escalated_queued": 16,
+   "escalated_queued": 95,
    "paired_test": 250,
-   "screen_only": 18187
+   "screen_only": 18108
   },
   "per_signal": {
    "archetype_tech": 278,
@@ -360,10 +360,11 @@
    "tutor_target": 1316,
    "type_search": 2055
   },
-  "escalated": 266,
+  "escalated": 345,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 4,
    "dependency_graph_alternative": 8,
+   "multi_source_corroboration": 183,
    "new_card": 46,
    "package_gap": 109,
    "spellbook_near_miss_completion": 101,
@@ -377,12 +378,644 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/mai-and-zuko.universe.json.gz",
-  "sha256": "sha256:35fef1437d109f93fedef78ef6343e44bfaeab73caea8013bde2ae43e6df4e69"
+  "sha256": "sha256:7492ad6245242753c312369f5ed27a1157d137bfea621ee270d276664d1f91a8"
  },
  "escalated_untested_queue": [
   {
-   "card": "Chakram Retriever",
+   "card": "Octopus Form",
    "priority": 251,
+   "score": 26.94,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Kindred Discovery",
+   "priority": 252,
+   "score": 26.93,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Manifold Key",
+   "priority": 253,
+   "score": 26.88,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Serpent's Pass",
+   "priority": 254,
+   "score": 26.41,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Demonic Junker",
+   "priority": 255,
+   "score": 26.4,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Phyrexia's Core",
+   "priority": 256,
+   "score": 26.25,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Padeem, Consul of Innovation",
+   "priority": 257,
+   "score": 26.15,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Commander's Sphere",
+   "priority": 258,
+   "score": 25.94,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Invasion Submersible",
+   "priority": 259,
+   "score": 25.73,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "priority": 260,
+   "score": 25.71,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Skullclamp",
+   "priority": 261,
+   "score": 25.7,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Icon of Ancestry",
+   "priority": 262,
+   "score": 25.64,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Sword of Fire and Ice",
+   "priority": 263,
+   "score": 25.58,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Blood Money",
+   "priority": 264,
+   "score": 25.26,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Isochron Scepter",
+   "priority": 265,
+   "score": 25.19,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Glaring Fleshraker",
+   "priority": 266,
+   "score": 24.74,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Pemmin's Aura",
+   "priority": 267,
+   "score": 24.58,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Artist's Talent",
+   "priority": 268,
+   "score": 24.36,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Treasonous Ogre",
+   "priority": 269,
+   "score": 23.82,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Skirge Familiar",
+   "priority": 270,
+   "score": 23.45,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Master Pakku",
+   "priority": 271,
+   "score": 23.41,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Princess Yue",
+   "priority": 272,
+   "score": 23.31,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Bloodbond Vampire",
+   "priority": 273,
+   "score": 23.22,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Geist of Saint Thalia",
+   "priority": 274,
+   "score": 23.21,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Halimar Excavator",
+   "priority": 275,
+   "score": 23.15,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Chasm Guide",
+   "priority": 276,
+   "score": 23.04,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Reckless Bushwhacker",
+   "priority": 277,
+   "score": 22.98,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Deserter's Disciple",
+   "priority": 278,
+   "score": 22.91,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Halimar Tidecaller",
+   "priority": 279,
+   "score": 22.9,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "priority": 280,
+   "score": 22.85,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Advanced Reconstruction",
+   "priority": 281,
+   "score": 22.81,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Teo, Spirited Glider",
+   "priority": 282,
+   "score": 22.8,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Umara Raptor",
+   "priority": 283,
+   "score": 22.8,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Foggy Swamp Spirit Keeper",
+   "priority": 284,
+   "score": 22.79,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "First-Time Flyer",
+   "priority": 285,
+   "score": 22.77,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Vampire Envoy",
+   "priority": 286,
+   "score": 22.72,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Merchant of Many Hats",
+   "priority": 287,
+   "score": 22.7,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Bala Ged Thief",
+   "priority": 288,
+   "score": 22.67,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Chong and Lily, Nomads",
+   "priority": 289,
+   "score": 22.59,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Freedom Fighter Recruit",
+   "priority": 290,
+   "score": 22.56,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Goblin Freerunner",
+   "priority": 291,
+   "score": 22.45,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Moku, Meandering Drummer",
+   "priority": 292,
+   "score": 22.44,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Coralhelm Guide",
+   "priority": 293,
+   "score": 22.42,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Foggy Swamp Hunters",
+   "priority": 294,
+   "score": 22.38,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Nirkana Assassin",
+   "priority": 295,
+   "score": 22.38,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Bojuka Brigand",
+   "priority": 296,
+   "score": 22.33,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Zada's Commando",
+   "priority": 297,
+   "score": 22.32,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Malakir Soothsayer",
+   "priority": 298,
+   "score": 22.29,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Kalastria Nightwatch",
+   "priority": 299,
+   "score": 22.27,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Drana's Chosen",
+   "priority": 300,
+   "score": 22.24,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Umara Entangler",
+   "priority": 301,
+   "score": 22.24,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Akoum Flameseeker",
+   "priority": 302,
+   "score": 22.23,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "priority": 303,
+   "score": 22.2,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Tuktuk Grunts",
+   "priority": 304,
+   "score": 22.19,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Nimana Sell-Sword",
+   "priority": 305,
+   "score": 22.12,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Shatterskull Recruit",
+   "priority": 306,
+   "score": 22.1,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Starving Revenant",
+   "priority": 307,
+   "score": 22.09,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Zulaport Chainmage",
+   "priority": 308,
+   "score": 22.09,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Hagra Sharpshooter",
+   "priority": 309,
+   "score": 22.07,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Reckless Cohort",
+   "priority": 310,
+   "score": 22.07,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Exquisite Blood",
+   "priority": 311,
+   "score": 21.96,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Displacer Kitten",
+   "priority": 312,
+   "score": 21.87,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Mephidross Vampire",
+   "priority": 313,
+   "score": 21.87,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Brash Taunter",
+   "priority": 314,
+   "score": 21.31,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Bloodthirsty Conqueror",
+   "priority": 315,
+   "score": 21.29,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Words of Wind",
+   "priority": 316,
+   "score": 21.01,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Ugin, the Ineffable",
+   "priority": 317,
+   "score": 20.87,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Echoes of Eternity",
+   "priority": 318,
+   "score": 20.45,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Deadeye Navigator",
+   "priority": 319,
+   "score": 20.42,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Freed from the Real",
+   "priority": 320,
+   "score": 20.34,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Intruder Alarm",
+   "priority": 321,
+   "score": 20.21,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "One with the Multiverse",
+   "priority": 322,
+   "score": 19.99,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Hellkite Charger",
+   "priority": 323,
+   "score": 19.9,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Gwenom, Remorseless",
+   "priority": 324,
+   "score": 19.55,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Bladewing the Risen",
+   "priority": 325,
+   "score": 19.08,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Fortune Teller's Talent",
+   "priority": 326,
+   "score": 19.06,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "priority": 327,
+   "score": 19.02,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Sage of the Beyond",
+   "priority": 328,
+   "score": 18.69,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "priority": 329,
+   "score": 18.65,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Chakram Retriever",
+   "priority": 330,
    "score": 18.39,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -390,7 +1023,7 @@
   },
   {
    "card": "Herald of Kozilek",
-   "priority": 252,
+   "priority": 331,
    "score": 18.32,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -398,7 +1031,7 @@
   },
   {
    "card": "Mizzix of the Izmagnus",
-   "priority": 253,
+   "priority": 332,
    "score": 18.31,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -406,7 +1039,7 @@
   },
   {
    "card": "Future Sight",
-   "priority": 254,
+   "priority": 333,
    "score": 18.09,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -414,7 +1047,7 @@
   },
   {
    "card": "Madame Web, Clairvoyant",
-   "priority": 255,
+   "priority": 334,
    "score": 17.38,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -422,7 +1055,7 @@
   },
   {
    "card": "Mortuary",
-   "priority": 256,
+   "priority": 335,
    "score": 17.27,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -430,7 +1063,7 @@
   },
   {
    "card": "Experimental Frenzy",
-   "priority": 257,
+   "priority": 336,
    "score": 17.14,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -438,7 +1071,7 @@
   },
   {
    "card": "Mirror-Mad Phantasm",
-   "priority": 258,
+   "priority": 337,
    "score": 17.11,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -446,7 +1079,7 @@
   },
   {
    "card": "Wake Thrasher",
-   "priority": 259,
+   "priority": 338,
    "score": 16.93,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -454,7 +1087,7 @@
   },
   {
    "card": "Cephalid Illusionist",
-   "priority": 260,
+   "priority": 339,
    "score": 16.92,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -462,7 +1095,7 @@
   },
   {
    "card": "Ambassador Laquatus",
-   "priority": 261,
+   "priority": 340,
    "score": 16.75,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -470,7 +1103,7 @@
   },
   {
    "card": "Cheering Fanatic",
-   "priority": 262,
+   "priority": 341,
    "score": 16.65,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -478,7 +1111,7 @@
   },
   {
    "card": "Breaking // Entering",
-   "priority": 263,
+   "priority": 342,
    "score": 16.51,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -486,7 +1119,7 @@
   },
   {
    "card": "Founding of Omashu",
-   "priority": 264,
+   "priority": 343,
    "score": 16.51,
    "escalation": [
     "unusual_oracle_interaction"
@@ -494,7 +1127,7 @@
   },
   {
    "card": "False Memories",
-   "priority": 265,
+   "priority": 344,
    "score": 16.22,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -502,7 +1135,7 @@
   },
   {
    "card": "Cephalid Aristocrat",
-   "priority": 266,
+   "priority": 345,
    "score": 16.19,
    "escalation": [
     "spellbook_near_miss_completion"

@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Obeka__Brute_Chronologist",
  "slug": "obeka-brute-chronologist",
  "list_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "data/grixis/audit/obeka-brute-chronologist.json",
     "roles: removal,wipe,counter,protection,tutor"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 4,
+   "new_escalated": 2,
    "material": true,
    "inputs": [
     "data/grixis/audit/obeka-brute-chronologist.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 497,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "data/grixis/graph/obeka-brute-chronologist.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 1856,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/obeka-brute-chronologist.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 321,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 176,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 97,
@@ -339,8 +339,8 @@
    "C": 18339
   },
   "by_test_tier": {
-   "paired_test": 171,
-   "screen_only": 18285
+   "paired_test": 196,
+   "screen_only": 18260
   },
   "per_signal": {
    "archetype_tech": 291,
@@ -356,10 +356,11 @@
    "spellbook_near_miss": 126,
    "tutor_target": 1941
   },
-  "escalated": 171,
+  "escalated": 196,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 21,
    "dependency_graph_alternative": 7,
+   "multi_source_corroboration": 44,
    "spellbook_near_miss_completion": 125,
    "tier_a_score": 36
   },
@@ -368,7 +369,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/obeka-brute-chronologist.universe.json.gz",
-  "sha256": "sha256:a4b4e74413566a47fb7915db466123b6ec60b79fd579cf1df5879a03df2d7b4d"
+  "sha256": "sha256:e136ba683a4e6c37d54f1b2fa9ae84af52b1aad7496746aa3977182aad9cbed7"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

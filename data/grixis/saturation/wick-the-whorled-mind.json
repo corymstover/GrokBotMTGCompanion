@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Wick__the_Whorled_Mind",
  "slug": "wick-the-whorled-mind",
  "list_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
@@ -92,8 +92,8 @@
    "first_signal": 332,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "oracle_bulk",
     "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
@@ -155,7 +155,7 @@
    "first_signal": 7,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 7,
-   "new_escalated": 0,
+   "new_escalated": 4,
    "material": true,
    "inputs": [
     "data/grixis/audit/wick-the-whorled-mind.json",
@@ -171,8 +171,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 1,
-   "material": true,
+   "new_escalated": 0,
+   "material": false,
    "inputs": [
     "data/grixis/audit/wick-the-whorled-mind.json#slots/*/alternatives"
    ]
@@ -186,8 +186,8 @@
    "first_signal": 630,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "data/grixis/graph/wick-the-whorled-mind.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 1165,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/wick-the-whorled-mind.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 320,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 185,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 7,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 96,
@@ -339,8 +339,9 @@
    "C": 18256
   },
   "by_test_tier": {
-   "paired_test": 239,
-   "screen_only": 18218
+   "escalated_queued": 15,
+   "paired_test": 250,
+   "screen_only": 18192
   },
   "per_signal": {
    "archetype_tech": 297,
@@ -359,10 +360,11 @@
    "tutor_target": 1239,
    "type_search": 89
   },
-  "escalated": 239,
+  "escalated": 265,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 16,
    "dependency_graph_alternative": 10,
+   "multi_source_corroboration": 61,
    "new_card": 2,
    "package_gap": 36,
    "spellbook_near_miss_completion": 115,
@@ -376,9 +378,130 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/wick-the-whorled-mind.universe.json.gz",
-  "sha256": "sha256:3b585ec2bec2a0b1dda5bb76e750dfed0b5058fd50b2f4fbdc1969f183f3d5ba"
+  "sha256": "sha256:c8d4a45a8709bdbdffb28c7dd9625c7509a2c8f14902e3a892c7793fe48e288f"
  },
- "escalated_untested_queue": [],
+ "escalated_untested_queue": [
+  {
+   "card": "Myr Welder",
+   "priority": 251,
+   "score": 18.06,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Gravespawn Sovereign",
+   "priority": 252,
+   "score": 18.0,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Man-o'-War",
+   "priority": 253,
+   "score": 17.96,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Glitch Interpreter",
+   "priority": 254,
+   "score": 17.61,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Karn, Silver Golem",
+   "priority": 255,
+   "score": 17.41,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Marang River Prowler",
+   "priority": 256,
+   "score": 17.21,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Dream Stalker",
+   "priority": 257,
+   "score": 17.19,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Xenograft",
+   "priority": 258,
+   "score": 17.13,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "March of the Machines",
+   "priority": 259,
+   "score": 17.12,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Living Brain, Mechanical Marvel",
+   "priority": 260,
+   "score": 16.98,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Vedalken Mastermind",
+   "priority": 261,
+   "score": 16.82,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Ensoul Artifact",
+   "priority": 262,
+   "score": 16.77,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Toymaker",
+   "priority": 263,
+   "score": 16.65,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Xenic Poltergeist",
+   "priority": 264,
+   "score": 16.63,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Panharmonicon",
+   "priority": 265,
+   "score": 15.86,
+   "escalation": [
+    "anomaly_source_disagreement"
+   ]
+  }
+ ],
  "blind_spots": [
   {
    "kind": "unreleased_not_yet_legal",

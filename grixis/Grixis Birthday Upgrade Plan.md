@@ -175,3 +175,21 @@ Implements decision D1. Code: `scripts/grixis_saturation.py`. Certificates: `dat
 - Escalated 42–492 (median 135.5). paired_test 42–250 (median 135.5; 34 decks below 150). 1,248 queued across 16 decks.
 - Every deck saturated, sweep coverage 1.0.
 - Runtime about 0.7–8 s per deck; 33 s wall with 6 workers.
+
+### Step A wiring (Bot cycle 65.3)
+
+- **Escalation:** one justified signal added, `multi_source_corroboration`: a tier-B card signalled by at least 2 independent signal families. Passes that read the same source count once: blueprint_package + tutor_target; oracle_text + type_search; role_gap + graph_alternative(_ref). Low counts are not padded.
+  - All 62 decks: escalated 60–569 (median 186). paired_test 60–250 (median 186; 20 decks below 150, 21 at the 250 target). 2,002 queued across 21 decks.
+- **Compact storage:** universe files keep full rows for signalled or escalated cards; sweep-only cards are stored as `[card, score, tier]`.
+- **`scripts/grixis_candidates.py` consumes the saturated universe:**
+  - `build_universe` reads the certificate and universe, and refuses a certificate built for another list hash.
+  - Full screening reviews are the certificate's `paired_test` cards; `escalated_queued` cards are listed in `triage.escalated_queued`.
+  - `--build` requires `--out DIR` until M5 regeneration, so the stored files are never overwritten.
+- **Caps removed:** `UNIVERSE_MIN/MAX` (200/500), `NICHE_RESERVE` (60), `DEFAULT_RANGE` [15, 40] (clamp of default full reviews), and the `rank_fill` top-up.
+- **Truncations kept, each justified:** all are display or evidence-reference truncations that never change membership, score, tier or escalation:
+  - `facts.spellbook[:8]` (the score uses all variants);
+  - `esc_refs` / `evidence` `[:3]` and `[:4]` (cited refs);
+  - `mates[:3]`, `breaks[:4]` and `reason[:160]` in swap text;
+  - check output `p[:30]`.
+  - The saturation `PAIRED_TARGET` (250) is a per-batch ordering target with an overflow queue, not a cap.
+- **Stored M5 files:** `data/grixis/candidates/*.json.gz` are kept as-is and marked **capped legacy, superseded at M5 regeneration**. `--check` validates them against the bounds each file recorded. The byte-identical rebuild check is retired for legacy files, since the builder no longer produces capped universes.

@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Tresserhorn_s_Lord__Returned",
  "slug": "tresserhorns-lord-returned",
  "list_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
@@ -125,8 +125,8 @@
    "first_signal": 371,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/tresserhorns-lord-returned.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 11,
+   "material": true,
    "inputs": [
     "data/grixis/audit/tresserhorns-lord-returned.json",
     "roles: wipe,counter,protection"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 2,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 3,
+   "new_escalated": 2,
    "material": true,
    "inputs": [
     "data/grixis/audit/tresserhorns-lord-returned.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 166,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "data/grixis/graph/tresserhorns-lord-returned.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 70,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/tresserhorns-lord-returned.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 541,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 14,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 167,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 90,
@@ -339,9 +339,9 @@
    "C": 18179
   },
   "by_test_tier": {
-   "escalated_queued": 11,
+   "escalated_queued": 48,
    "paired_test": 250,
-   "screen_only": 18203
+   "screen_only": 18166
   },
   "per_signal": {
    "archetype_tech": 296,
@@ -360,10 +360,11 @@
    "tutor_target": 235,
    "type_search": 2033
   },
-  "escalated": 261,
+  "escalated": 298,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 9,
    "dependency_graph_alternative": 6,
+   "multi_source_corroboration": 173,
    "new_card": 39,
    "package_gap": 123,
    "spellbook_near_miss_completion": 129,
@@ -375,12 +376,308 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/tresserhorns-lord-returned.universe.json.gz",
-  "sha256": "sha256:4a14fadd76eb00681bce341ea552af200e87497f370189350f12a47a3678feaf"
+  "sha256": "sha256:6ac677316cc8c51205f22343e9380453a00882f1152702de30dd9ef852f04060"
  },
  "escalated_untested_queue": [
   {
-   "card": "Stonework Packbeast",
+   "card": "Night of Souls' Betrayal",
    "priority": 251,
+   "score": 22.55,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Draconic Visitor",
+   "priority": 252,
+   "score": 22.49,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Aetherflux Reservoir",
+   "priority": 253,
+   "score": 22.46,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Sheoldred, the Apocalypse",
+   "priority": 254,
+   "score": 22.12,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Bontu's Monument",
+   "priority": 255,
+   "score": 21.58,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Aggravated Assault",
+   "priority": 256,
+   "score": 21.53,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Nadier's Nightblade",
+   "priority": 257,
+   "score": 21.22,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Chromatic Orrery",
+   "priority": 258,
+   "score": 20.67,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Stridehangar Automaton",
+   "priority": 259,
+   "score": 20.34,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Mycosynth Lattice",
+   "priority": 260,
+   "score": 19.96,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Hellkite Charger",
+   "priority": 261,
+   "score": 19.9,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Niv-Mizzet, Visionary",
+   "priority": 262,
+   "score": 19.88,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Forsaken Miner",
+   "priority": 263,
+   "score": 19.71,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Heartless Summoning",
+   "priority": 264,
+   "score": 19.57,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Skirge Familiar",
+   "priority": 265,
+   "score": 19.45,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Repercussion",
+   "priority": 266,
+   "score": 19.41,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Nim Deathmantle",
+   "priority": 267,
+   "score": 19.17,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "priority": 268,
+   "score": 19.02,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "priority": 269,
+   "score": 18.7,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Oathsworn Vampire",
+   "priority": 270,
+   "score": 18.36,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Ebondeath, Dracolich",
+   "priority": 271,
+   "score": 18.2,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Ancestral Statue",
+   "priority": 272,
+   "score": 18.18,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Liliana, Untouched by Death",
+   "priority": 273,
+   "score": 18.15,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Starving Revenant",
+   "priority": 274,
+   "score": 18.09,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Cult Conscript",
+   "priority": 275,
+   "score": 18.06,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Symmetry Matrix",
+   "priority": 276,
+   "score": 18.05,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Mind Over Matter",
+   "priority": 277,
+   "score": 18.01,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Haunt of the Dead Marshes",
+   "priority": 278,
+   "score": 17.74,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Eligeth, Crossroads Augur",
+   "priority": 279,
+   "score": 17.46,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Razorlash Transmogrant",
+   "priority": 280,
+   "score": 17.41,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Carnival of Souls",
+   "priority": 281,
+   "score": 17.35,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Undead Sprinter",
+   "priority": 282,
+   "score": 17.28,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Gemstone Array",
+   "priority": 283,
+   "score": 17.22,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Prismite",
+   "priority": 284,
+   "score": 17.14,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Crackdown Construct",
+   "priority": 285,
+   "score": 17.13,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "March of the Machines",
+   "priority": 286,
+   "score": 17.12,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Dire Undercurrents",
+   "priority": 287,
+   "score": 17.11,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Stonework Packbeast",
+   "priority": 288,
    "score": 17.11,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -388,7 +685,7 @@
   },
   {
    "card": "Sage of the Falls",
-   "priority": 252,
+   "priority": 289,
    "score": 17.08,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -396,7 +693,7 @@
   },
   {
    "card": "Unfulfilled Desires",
-   "priority": 253,
+   "priority": 290,
    "score": 16.98,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -404,7 +701,7 @@
   },
   {
    "card": "Cephalid Illusionist",
-   "priority": 254,
+   "priority": 291,
    "score": 16.92,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -412,7 +709,7 @@
   },
   {
    "card": "Crossroads Candleguide",
-   "priority": 255,
+   "priority": 292,
    "score": 16.82,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -420,7 +717,7 @@
   },
   {
    "card": "Signpost Scarecrow",
-   "priority": 256,
+   "priority": 293,
    "score": 16.73,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -428,7 +725,7 @@
   },
   {
    "card": "Geth, Thane of Contracts",
-   "priority": 257,
+   "priority": 294,
    "score": 16.61,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -436,7 +733,7 @@
   },
   {
    "card": "Engineered Plague",
-   "priority": 258,
+   "priority": 295,
    "score": 16.54,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -444,7 +741,7 @@
   },
   {
    "card": "Cephalid Aristocrat",
-   "priority": 259,
+   "priority": 296,
    "score": 16.19,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -452,7 +749,7 @@
   },
   {
    "card": "Torpor Orb",
-   "priority": 260,
+   "priority": 297,
    "score": 15.51,
    "escalation": [
     "anomaly_source_disagreement"
@@ -460,7 +757,7 @@
   },
   {
    "card": "Entomb",
-   "priority": 261,
+   "priority": 298,
    "score": 13.3,
    "escalation": [
     "dependency_graph_alternative"

@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Obeka__Splitter_of_Seconds",
  "slug": "obeka-splitter-of-seconds",
  "list_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
@@ -125,8 +125,8 @@
    "first_signal": 283,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/obeka-splitter-of-seconds.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "data/grixis/audit/obeka-splitter-of-seconds.json",
     "roles: removal,wipe,counter,tutor"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 2,
+   "new_escalated": 1,
    "material": true,
    "inputs": [
     "data/grixis/audit/obeka-splitter-of-seconds.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 584,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 7,
+   "material": true,
    "inputs": [
     "data/grixis/graph/obeka-splitter-of-seconds.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 976,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/obeka-splitter-of-seconds.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 330,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 197,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 93,
@@ -339,8 +339,8 @@
    "C": 18335
   },
   "by_test_tier": {
-   "paired_test": 83,
-   "screen_only": 18377
+   "paired_test": 108,
+   "screen_only": 18352
   },
   "per_signal": {
    "archetype_tech": 302,
@@ -356,10 +356,11 @@
    "spellbook_near_miss": 33,
    "tutor_target": 1109
   },
-  "escalated": 83,
+  "escalated": 108,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 20,
    "dependency_graph_alternative": 7,
+   "multi_source_corroboration": 43,
    "new_card": 4,
    "spellbook_near_miss_completion": 29,
    "tier_a_score": 45
@@ -369,7 +370,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/obeka-splitter-of-seconds.universe.json.gz",
-  "sha256": "sha256:af7d7700c6914f496886744faf20d0527f4d18a265e14011b787cda42d25283d"
+  "sha256": "sha256:5bae3fb06f788d52fc1f1295caf7cde5551a7076aa40478a6c5df5fa0f6c37d4"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

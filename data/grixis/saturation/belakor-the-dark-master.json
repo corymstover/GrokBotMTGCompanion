@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Be_lakor__the_Dark_Master",
  "slug": "belakor-the-dark-master",
  "list_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
@@ -92,8 +92,8 @@
    "first_signal": 37,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "oracle_bulk",
     "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "data/grixis/audit/belakor-the-dark-master.json",
     "roles: wipe,counter,protection"
@@ -186,8 +186,8 @@
    "first_signal": 386,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "data/grixis/graph/belakor-the-dark-master.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 2268,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/belakor-the-dark-master.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 397,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 196,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 91,
@@ -339,8 +339,9 @@
    "C": 18348
   },
   "by_test_tier": {
-   "paired_test": 238,
-   "screen_only": 18224
+   "escalated_queued": 19,
+   "paired_test": 250,
+   "screen_only": 18193
   },
   "per_signal": {
    "archetype_tech": 306,
@@ -359,10 +360,11 @@
    "tutor_target": 2368,
    "type_search": 164
   },
-  "escalated": 238,
+  "escalated": 269,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 10,
    "dependency_graph_alternative": 11,
+   "multi_source_corroboration": 58,
    "new_card": 3,
    "package_gap": 50,
    "spellbook_near_miss_completion": 57,
@@ -376,9 +378,162 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/belakor-the-dark-master.universe.json.gz",
-  "sha256": "sha256:5a901a6dde9042cf40ed6e1b5fcd707de915fe0786465819189fcffe0fb46cf5"
+  "sha256": "sha256:55d193cd8738085276a8dc0c936a2abfb164a97eb5fdbfcfc84c7edbef114ab5"
  },
- "escalated_untested_queue": [],
+ "escalated_untested_queue": [
+  {
+   "card": "Havoc Festival",
+   "priority": 251,
+   "score": 17.86,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Omarthis, Ghostfire Initiate",
+   "priority": 252,
+   "score": 17.86,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Fraying Omnipotence",
+   "priority": 253,
+   "score": 17.84,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Koh, the Face Stealer",
+   "priority": 254,
+   "score": 17.75,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Wanderwine Prophets",
+   "priority": 255,
+   "score": 17.73,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Ebonblade Reaper",
+   "priority": 256,
+   "score": 17.67,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Mistbind Clique",
+   "priority": 257,
+   "score": 17.62,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Alpharael, Stonechosen",
+   "priority": 258,
+   "score": 17.58,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Torgaar, Famine Incarnate",
+   "priority": 259,
+   "score": 17.39,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Changeling Berserker",
+   "priority": 260,
+   "score": 17.21,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Raptor Hatchling",
+   "priority": 261,
+   "score": 17.19,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Lightning Crafter",
+   "priority": 262,
+   "score": 17.18,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Boggart Mob",
+   "priority": 263,
+   "score": 17.13,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "priority": 264,
+   "score": 17.11,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Volcano Hellion",
+   "priority": 265,
+   "score": 16.96,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Raving Dead",
+   "priority": 266,
+   "score": 16.93,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Nova Chaser",
+   "priority": 267,
+   "score": 16.66,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Supreme Exemplar",
+   "priority": 268,
+   "score": 16.38,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Nested Ghoul",
+   "priority": 269,
+   "score": 16.28,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  }
+ ],
  "blind_spots": [
   {
    "kind": "unreleased_not_yet_legal",

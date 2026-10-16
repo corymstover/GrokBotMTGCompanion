@@ -36,7 +36,7 @@ def test_screening_never_excludes():
     for f in gs.OUT.glob("*.json"):
         c = json.loads(f.read_text())
         assert set(c["hard_exclusions"]) <= set(c["hard_exclusion_kinds"])
-        u = json.loads(gzip.decompress((gs.ROOT / c["universe"]["file"]).read_bytes()))
+        u = gs.load_universe(gs.ROOT / c["universe"]["file"])
         assert len(u) == c["universe"]["size"]
         assert any(x["tier"] == "C" for x in u)  # low-scoring cards stay in the universe
         assert {x["test_tier"] for x in u} <= {"paired_test", "escalated_queued", "screen_only"}
@@ -56,7 +56,7 @@ def test_full_pool_sweep_covers_every_eligible_card():
     D = gc.DeckCtx(did, v, R0, reg, pool, first, almost)
     want = {n for n, x in pool.items() if (x.get("legalities") or {}).get("commander") == "legal"
             and set(x.get("color_identity", [])) <= D.ci and n not in D.names and "Basic Land" not in gc.tline(x)}
-    u = {x["card"] for x in json.loads(gzip.decompress((gs.ROOT / c["universe"]["file"]).read_bytes()))}
+    u = {x["card"] for x in gs.load_universe(gs.ROOT / c["universe"]["file"])}
     assert want <= u
 
 

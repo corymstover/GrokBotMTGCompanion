@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Kess__Dissident_Mage",
  "slug": "kess-dissident-mage",
  "list_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
@@ -62,7 +62,7 @@
    "first_signal": 51,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 18,
-   "new_escalated": 34,
+   "new_escalated": 36,
    "material": true,
    "inputs": [
     "data/grixis/candidates/spellbook_almost.json"
@@ -92,7 +92,7 @@
    "first_signal": 1520,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 6,
-   "new_escalated": 5,
+   "new_escalated": 24,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 373,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/kess-dissident-mage.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "data/grixis/audit/kess-dissident-mage.json",
     "roles: removal,wipe,protection"
@@ -186,8 +186,8 @@
    "first_signal": 648,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "data/grixis/graph/kess-dissident-mage.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 6460,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 13,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/kess-dissident-mage.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 376,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 110,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 9,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -246,7 +246,7 @@
    "first_signal": 3,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 14,
+   "new_escalated": 13,
    "material": true,
    "inputs": [
     "data/grixis/candidates/tournament/kess-dissident-mage.json"
@@ -339,8 +339,8 @@
    "C": 18285
   },
   "by_test_tier": {
-   "paired_test": 110,
-   "screen_only": 18343
+   "paired_test": 182,
+   "screen_only": 18271
   },
   "per_signal": {
    "archetype_tech": 267,
@@ -358,10 +358,11 @@
    "tournament": 60,
    "tutor_target": 6754
   },
-  "escalated": 110,
+  "escalated": 182,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 8,
    "dependency_graph_alternative": 9,
+   "multi_source_corroboration": 102,
    "new_card": 11,
    "spellbook_near_miss_completion": 38,
    "tier_a_score": 42,
@@ -373,7 +374,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/kess-dissident-mage.universe.json.gz",
-  "sha256": "sha256:bd6b86c2a6c0d2a6805112b474021cd988a49681d062511e0970bb736a50944e"
+  "sha256": "sha256:eb42a0cc23ec6aeff5c56f12203bf5357a776af1587f97ddf0b34e6939afbe7b"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

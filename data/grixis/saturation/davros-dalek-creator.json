@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Davros__Dalek_Creator",
  "slug": "davros-dalek-creator",
  "list_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
@@ -92,7 +92,7 @@
    "first_signal": 1375,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 2,
-   "new_escalated": 3,
+   "new_escalated": 8,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 195,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/davros-dalek-creator.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "data/grixis/audit/davros-dalek-creator.json",
     "roles: wipe,counter,protection,tutor"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 4,
+   "new_escalated": 1,
    "material": true,
    "inputs": [
     "data/grixis/audit/davros-dalek-creator.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 478,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "data/grixis/graph/davros-dalek-creator.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 1744,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/davros-dalek-creator.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 264,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 130,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 92,
@@ -339,8 +339,8 @@
    "C": 18323
   },
   "by_test_tier": {
-   "paired_test": 98,
-   "screen_only": 18363
+   "paired_test": 131,
+   "screen_only": 18330
   },
   "per_signal": {
    "archetype_tech": 286,
@@ -357,10 +357,11 @@
    "spellbook_near_miss": 38,
    "tutor_target": 2005
   },
-  "escalated": 98,
+  "escalated": 131,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 12,
    "dependency_graph_alternative": 9,
+   "multi_source_corroboration": 48,
    "new_card": 5,
    "spellbook_near_miss_completion": 32,
    "tier_a_score": 53,
@@ -373,7 +374,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/davros-dalek-creator.universe.json.gz",
-  "sha256": "sha256:74059d7f2d819453d41b318ce8d18d1c16ed033ddd4e96340ab64c0a77f8a766"
+  "sha256": "sha256:7c2ed0e0c20084fe905ff51ca6dff90c1435bd054b6af1174ba28a50a25d4f4b"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "The_Rani",
  "slug": "the-rani",
  "list_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
@@ -92,8 +92,8 @@
    "first_signal": 107,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "oracle_bulk",
     "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
@@ -125,8 +125,8 @@
    "first_signal": 648,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/the-rani.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 1,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 1,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "data/grixis/audit/the-rani.json",
     "roles: wipe,protection,tutor"
@@ -171,8 +171,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 2,
-   "material": true,
+   "new_escalated": 0,
+   "material": false,
    "inputs": [
     "data/grixis/audit/the-rani.json#slots/*/alternatives"
    ]
@@ -186,8 +186,8 @@
    "first_signal": 194,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis/graph/the-rani.json"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 517,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 13,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 200,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 91,
@@ -339,8 +339,8 @@
    "C": 18316
   },
   "by_test_tier": {
-   "paired_test": 92,
-   "screen_only": 18370
+   "paired_test": 131,
+   "screen_only": 18331
   },
   "per_signal": {
    "archetype_tech": 302,
@@ -357,10 +357,11 @@
    "spellbook_near_miss": 56,
    "tutor_target": 46
   },
-  "escalated": 92,
+  "escalated": 131,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 16,
    "dependency_graph_alternative": 9,
+   "multi_source_corroboration": 72,
    "new_card": 7,
    "spellbook_near_miss_completion": 38,
    "tier_a_score": 39
@@ -371,7 +372,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/the-rani.universe.json.gz",
-  "sha256": "sha256:115c2ccdc979b66e687397946be4d62913572b757c354332ee4d95dbace14ba2"
+  "sha256": "sha256:2914aa2765e659a0b365d95c47f8b0cf2d6bd28282cd0d13384fd0ac4b7eee2e"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

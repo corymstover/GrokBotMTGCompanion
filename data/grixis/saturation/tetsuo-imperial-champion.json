@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Tetsuo__Imperial_Champion",
  "slug": "tetsuo-imperial-champion",
  "list_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
@@ -62,7 +62,7 @@
    "first_signal": 41,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 16,
-   "new_escalated": 32,
+   "new_escalated": 33,
    "material": true,
    "inputs": [
     "data/grixis/candidates/spellbook_almost.json"
@@ -92,8 +92,8 @@
    "first_signal": 79,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "oracle_bulk",
     "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 11,
+   "material": true,
    "inputs": [
     "data/grixis/audit/tetsuo-imperial-champion.json",
     "roles: wipe,counter,tutor"
@@ -186,8 +186,8 @@
    "first_signal": 425,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "data/grixis/graph/tetsuo-imperial-champion.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 83,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/tetsuo-imperial-champion.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 589,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 199,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 7,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 88,
@@ -339,8 +339,8 @@
    "C": 18318
   },
   "by_test_tier": {
-   "paired_test": 85,
-   "screen_only": 18380
+   "paired_test": 123,
+   "screen_only": 18342
   },
   "per_signal": {
    "archetype_tech": 304,
@@ -357,10 +357,11 @@
    "spellbook_near_miss": 45,
    "tutor_target": 100
   },
-  "escalated": 85,
+  "escalated": 123,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 13,
    "dependency_graph_alternative": 9,
+   "multi_source_corroboration": 46,
    "new_card": 3,
    "spellbook_near_miss_completion": 34,
    "tier_a_score": 46
@@ -371,7 +372,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/tetsuo-imperial-champion.universe.json.gz",
-  "sha256": "sha256:b1ed83e5e7034454550531ed632df69a0171c97a8c676c094c78921fdba82993"
+  "sha256": "sha256:678f0de4cfe083b133d69655923d46f2fcb9cd12221a8c9977c06b139e95cde0"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

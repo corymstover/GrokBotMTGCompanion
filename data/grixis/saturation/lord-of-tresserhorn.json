@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Lord_of_Tresserhorn",
  "slug": "lord-of-tresserhorn",
  "list_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
@@ -62,7 +62,7 @@
    "first_signal": 126,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 73,
-   "new_escalated": 120,
+   "new_escalated": 121,
    "material": true,
    "inputs": [
     "data/grixis/candidates/spellbook_almost.json"
@@ -125,8 +125,8 @@
    "first_signal": 463,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/lord-of-tresserhorn.json"
    ]
@@ -155,7 +155,7 @@
    "first_signal": 5,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 5,
-   "new_escalated": 0,
+   "new_escalated": 21,
    "material": true,
    "inputs": [
     "data/grixis/audit/lord-of-tresserhorn.json",
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 4,
+   "new_escalated": 1,
    "material": true,
    "inputs": [
     "data/grixis/audit/lord-of-tresserhorn.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 470,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 14,
+   "material": true,
    "inputs": [
     "data/grixis/graph/lord-of-tresserhorn.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 1849,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/lord-of-tresserhorn.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 283,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 153,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 9,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 95,
@@ -339,8 +339,8 @@
    "C": 18276
   },
   "by_test_tier": {
-   "paired_test": 151,
-   "screen_only": 18307
+   "paired_test": 204,
+   "screen_only": 18254
   },
   "per_signal": {
    "archetype_tech": 288,
@@ -356,10 +356,11 @@
    "spellbook_near_miss": 130,
    "tutor_target": 1940
   },
-  "escalated": 151,
+  "escalated": 204,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 14,
    "dependency_graph_alternative": 9,
+   "multi_source_corroboration": 83,
    "new_card": 3,
    "spellbook_near_miss_completion": 121,
    "tier_a_score": 20
@@ -369,7 +370,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/lord-of-tresserhorn.universe.json.gz",
-  "sha256": "sha256:ebdf7209be6b5f5f45fb46c77a71739fd431f915393c0654e54d0bdf7c835f63"
+  "sha256": "sha256:5fbf304d5077ca0263043b031b8a77b6c226c9e5454a4ee1e767be44a15aaf7f"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

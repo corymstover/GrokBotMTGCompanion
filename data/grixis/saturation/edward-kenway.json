@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Edward_Kenway",
  "slug": "edward-kenway",
  "list_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
@@ -92,7 +92,7 @@
    "first_signal": 93,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 4,
-   "new_escalated": 3,
+   "new_escalated": 9,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 633,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 21,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/edward-kenway.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 9,
+   "material": true,
    "inputs": [
     "data/grixis/audit/edward-kenway.json",
     "roles: wipe,protection,tutor"
@@ -171,8 +171,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 2,
-   "material": true,
+   "new_escalated": 0,
+   "material": false,
    "inputs": [
     "data/grixis/audit/edward-kenway.json#slots/*/alternatives"
    ]
@@ -186,8 +186,8 @@
    "first_signal": 449,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 11,
+   "material": true,
    "inputs": [
     "data/grixis/graph/edward-kenway.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 1011,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 2,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/edward-kenway.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 309,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 156,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 95,
@@ -339,9 +339,9 @@
    "C": 18116
   },
   "by_test_tier": {
-   "escalated_queued": 146,
+   "escalated_queued": 199,
    "paired_test": 250,
-   "screen_only": 18062
+   "screen_only": 18009
   },
   "per_signal": {
    "archetype_tech": 288,
@@ -360,10 +360,11 @@
    "tutor_target": 1110,
    "type_search": 2096
   },
-  "escalated": 396,
+  "escalated": 449,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 16,
    "dependency_graph_alternative": 9,
+   "multi_source_corroboration": 265,
    "new_card": 96,
    "package_gap": 217,
    "spellbook_near_miss_completion": 35,
@@ -377,252 +378,730 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/edward-kenway.universe.json.gz",
-  "sha256": "sha256:27385baebefcda7f87e9d7e4ac02468c7a252c506bacb86cc35e5c3ef905b2ef"
+  "sha256": "sha256:dee35a14dfa8d7fb691b8215727a8e3629bc86df703aea339f457fdd9c14385d"
  },
  "escalated_untested_queue": [
   {
-   "card": "Mischievous Mystic",
+   "card": "Aether Channeler",
    "priority": 251,
+   "score": 26.36,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Feldon of the Third Path",
+   "priority": 252,
+   "score": 26.35,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Marionette Master",
+   "priority": 253,
+   "score": 26.33,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Chainer, Nightmare Adept",
+   "priority": 254,
+   "score": 26.29,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Petty Larceny",
+   "priority": 255,
+   "score": 31.27,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Tetsuko Umezawa, Fugitive",
+   "priority": 256,
+   "score": 26.26,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Alesha, Who Laughs at Fate",
+   "priority": 257,
+   "score": 26.24,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Massacre Girl, Known Killer",
+   "priority": 258,
+   "score": 26.23,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Impulsive Pilferer",
+   "priority": 259,
+   "score": 26.21,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Jaxis, the Troublemaker",
+   "priority": 260,
+   "score": 26.21,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Murmuring Mystic",
+   "priority": 261,
+   "score": 26.12,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Stormfist Crusader",
+   "priority": 262,
+   "score": 25.99,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Careening Mine Cart",
+   "priority": 263,
+   "score": 30.97,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Generous Plunderer",
+   "priority": 264,
+   "score": 25.96,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Ruthless Technomancer",
+   "priority": 265,
+   "score": 25.93,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Whirler Rogue",
+   "priority": 266,
+   "score": 25.83,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Rev, Tithe Extractor",
+   "priority": 267,
+   "score": 25.8,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Orthion, Hero of Lavabrink",
+   "priority": 268,
+   "score": 25.77,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Greedy Freebooter",
+   "priority": 269,
+   "score": 25.76,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Sedgemoor Witch",
+   "priority": 270,
+   "score": 25.76,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Foreboding Ruins",
+   "priority": 271,
+   "score": 30.73,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Ghoulcaller Gisa",
+   "priority": 272,
+   "score": 25.72,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Zealous Conscripts",
+   "priority": 273,
+   "score": 25.7,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "The Lord of Pain",
+   "priority": 274,
+   "score": 25.69,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Yuriko, the Tiger's Shadow",
+   "priority": 275,
+   "score": 25.65,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Kellogg, Dangerous Mind",
+   "priority": 276,
+   "score": 25.64,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Prosperous Thief",
+   "priority": 277,
+   "score": 25.63,
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Mischievous Mystic",
+   "priority": 278,
    "score": 25.58,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Splinter Twin",
+   "priority": 279,
+   "score": 30.57,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Invisible Stalker",
-   "priority": 252,
+   "priority": 280,
    "score": 25.56,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Thousand-Faced Shadow",
-   "priority": 253,
+   "priority": 281,
    "score": 25.56,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Danny Pink",
-   "priority": 254,
+   "priority": 282,
    "score": 25.55,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Thopter Assembly",
+   "priority": 283,
+   "score": 30.53,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
-   "priority": 255,
+   "priority": 284,
    "score": 25.39,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Blighted Agent",
-   "priority": 256,
+   "priority": 285,
    "score": 25.35,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Firebending Student",
-   "priority": 257,
+   "priority": 286,
    "score": 25.35,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Piper of the Swarm",
-   "priority": 258,
+   "priority": 287,
    "score": 25.35,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Otepec Huntmaster",
-   "priority": 259,
+   "priority": 288,
    "score": 25.34,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Frontier Warmonger",
-   "priority": 260,
+   "priority": 289,
    "score": 25.32,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Gríma, Saruman's Footman",
-   "priority": 261,
+   "priority": 290,
    "score": 25.32,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Endrek Sahr, Master Breeder",
-   "priority": 262,
+   "priority": 291,
    "score": 25.31,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Ingenious Prodigy",
-   "priority": 263,
+   "priority": 292,
    "score": 25.3,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Calamity, Galloping Inferno",
+   "priority": 293,
+   "score": 30.29,
+   "escalation": [
+    "spellbook_near_miss_completion"
    ]
   },
   {
    "card": "Archpriest of Shadows",
-   "priority": 264,
+   "priority": 294,
    "score": 25.28,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Gisa, the Hellraiser",
-   "priority": 265,
+   "priority": 295,
    "score": 25.27,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Mistblade Shinobi",
-   "priority": 266,
+   "priority": 296,
    "score": 25.27,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Satoru, the Infiltrator",
-   "priority": 267,
+   "priority": 297,
    "score": 25.27,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Ardyn, the Usurper",
-   "priority": 268,
+   "priority": 298,
    "score": 25.26,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Chittering Witch",
-   "priority": 269,
+   "priority": 299,
    "score": 25.23,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Fain, the Broker",
-   "priority": 270,
+   "priority": 300,
    "score": 25.23,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Lulu, Stern Guardian",
-   "priority": 271,
+   "priority": 301,
    "score": 25.22,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Charming Scoundrel",
-   "priority": 272,
+   "priority": 302,
    "score": 25.2,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Herald's Horn",
+   "priority": 303,
+   "score": 30.17,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Spider-Punk",
-   "priority": 273,
+   "priority": 304,
    "score": 25.17,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Ninja of the Deep Hours",
-   "priority": 274,
+   "priority": 305,
    "score": 25.13,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Fire Lord Azula",
-   "priority": 275,
+   "priority": 306,
    "score": 25.12,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Moon-Circuit Hacker",
-   "priority": 276,
+   "priority": 307,
    "score": 25.12,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Rikku, Resourceful Guardian",
-   "priority": 277,
+   "priority": 308,
    "score": 25.08,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Abstergo Entertainment",
+   "priority": 309,
+   "score": 30.07,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Ozai, the Phoenix King",
-   "priority": 278,
+   "priority": 310,
    "score": 25.06,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Experimental Confectioner",
-   "priority": 279,
+   "priority": 311,
    "score": 25.03,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Avenger of the Fallen",
-   "priority": 280,
+   "priority": 312,
    "score": 25.02,
    "escalation": [
-    "package_gap"
+    "package_gap",
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "The Falcon, Airship Restored",
+   "priority": 313,
+   "score": 30.02,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Prismari Command",
+   "priority": 314,
+   "score": 29.82,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Koh, the Face Stealer",
+   "priority": 315,
+   "score": 29.75,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Phantom Steed",
+   "priority": 316,
+   "score": 29.45,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Rakdos Charm",
+   "priority": 317,
+   "score": 29.42,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "priority": 318,
+   "score": 29.38,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Chain Assassination",
+   "priority": 319,
+   "score": 29.17,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "priority": 320,
+   "score": 28.91,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Brass's Bounty",
+   "priority": 321,
+   "score": 28.63,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Academy Ruins",
+   "priority": 322,
+   "score": 28.57,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "priority": 323,
+   "score": 28.39,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Raise the Palisade",
+   "priority": 324,
+   "score": 26.9,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Dimir Signet",
+   "priority": 325,
+   "score": 26.84,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Inventors' Fair",
+   "priority": 326,
+   "score": 26.74,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Fiery Cannonade",
+   "priority": 327,
+   "score": 26.36,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Beseech the Mirror",
+   "priority": 328,
+   "score": 26.2,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Magda, Brazen Outlaw",
+   "priority": 329,
+   "score": 25.71,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Laughing Jasper Flint",
+   "priority": 330,
+   "score": 25.53,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Propaganda",
+   "priority": 331,
+   "score": 25.46,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Adventurer's Airship",
+   "priority": 332,
+   "score": 25.32,
+   "escalation": [
+    "multi_source_corroboration"
+   ]
+  },
+  {
+   "card": "Uthros, Titanic Godcore",
+   "priority": 333,
+   "score": 25.3,
+   "escalation": [
+    "multi_source_corroboration"
    ]
   },
   {
    "card": "Big Game Hunter",
-   "priority": 281,
+   "priority": 334,
    "score": 24.93,
    "escalation": [
     "unusual_oracle_interaction"
@@ -630,7 +1109,7 @@
   },
   {
    "card": "Marauding Mako",
-   "priority": 282,
+   "priority": 335,
    "score": 24.64,
    "escalation": [
     "unusual_oracle_interaction"
@@ -638,7 +1117,7 @@
   },
   {
    "card": "Ramses, Assassin Lord",
-   "priority": 283,
+   "priority": 336,
    "score": 24.41,
    "escalation": [
     "unusual_oracle_interaction"
@@ -646,7 +1125,7 @@
   },
   {
    "card": "Callidus Assassin",
-   "priority": 284,
+   "priority": 337,
    "score": 24.39,
    "escalation": [
     "unusual_oracle_interaction"
@@ -654,7 +1133,7 @@
   },
   {
    "card": "Assassin Initiate",
-   "priority": 285,
+   "priority": 338,
    "score": 24.29,
    "escalation": [
     "unusual_oracle_interaction"
@@ -662,7 +1141,7 @@
   },
   {
    "card": "Scrounging Skyray",
-   "priority": 286,
+   "priority": 339,
    "score": 24.13,
    "escalation": [
     "unusual_oracle_interaction"
@@ -670,7 +1149,7 @@
   },
   {
    "card": "Dargo, the Shipwrecker",
-   "priority": 287,
+   "priority": 340,
    "score": 23.94,
    "escalation": [
     "unusual_oracle_interaction"
@@ -678,7 +1157,7 @@
   },
   {
    "card": "Lightning-Rig Crew",
-   "priority": 288,
+   "priority": 341,
    "score": 23.77,
    "escalation": [
     "unusual_oracle_interaction"
@@ -686,7 +1165,7 @@
   },
   {
    "card": "Termination Facilitator",
-   "priority": 289,
+   "priority": 342,
    "score": 23.74,
    "escalation": [
     "unusual_oracle_interaction"
@@ -694,7 +1173,7 @@
   },
   {
    "card": "Thorn of the Black Rose",
-   "priority": 290,
+   "priority": 343,
    "score": 23.69,
    "escalation": [
     "unusual_oracle_interaction"
@@ -702,7 +1181,7 @@
   },
   {
    "card": "Brineborn Cutthroat",
-   "priority": 291,
+   "priority": 344,
    "score": 23.61,
    "escalation": [
     "unusual_oracle_interaction"
@@ -710,7 +1189,7 @@
   },
   {
    "card": "Zephyr Singer",
-   "priority": 292,
+   "priority": 345,
    "score": 23.6,
    "escalation": [
     "unusual_oracle_interaction"
@@ -718,7 +1197,7 @@
   },
   {
    "card": "Oaken Siren",
-   "priority": 293,
+   "priority": 346,
    "score": 23.54,
    "escalation": [
     "unusual_oracle_interaction"
@@ -726,7 +1205,7 @@
   },
   {
    "card": "Silumgar Assassin",
-   "priority": 294,
+   "priority": 347,
    "score": 23.48,
    "escalation": [
     "unusual_oracle_interaction"
@@ -734,7 +1213,7 @@
   },
   {
    "card": "Nekrataal",
-   "priority": 295,
+   "priority": 348,
    "score": 23.47,
    "escalation": [
     "unusual_oracle_interaction"
@@ -742,7 +1221,7 @@
   },
   {
    "card": "Hired Poisoner",
-   "priority": 296,
+   "priority": 349,
    "score": 23.41,
    "escalation": [
     "unusual_oracle_interaction"
@@ -750,7 +1229,7 @@
   },
   {
    "card": "Gutless Plunderer",
-   "priority": 297,
+   "priority": 350,
    "score": 23.36,
    "escalation": [
     "unusual_oracle_interaction"
@@ -758,7 +1237,7 @@
   },
   {
    "card": "Merciless Harlequin",
-   "priority": 298,
+   "priority": 351,
    "score": 23.32,
    "escalation": [
     "unusual_oracle_interaction"
@@ -766,7 +1245,7 @@
   },
   {
    "card": "Unscrupulous Contractor",
-   "priority": 299,
+   "priority": 352,
    "score": 23.31,
    "escalation": [
     "unusual_oracle_interaction"
@@ -774,7 +1253,7 @@
   },
   {
    "card": "Kitesail Freebooter",
-   "priority": 300,
+   "priority": 353,
    "score": 23.22,
    "escalation": [
     "unusual_oracle_interaction"
@@ -782,7 +1261,7 @@
   },
   {
    "card": "Ruthless Ripper",
-   "priority": 301,
+   "priority": 354,
    "score": 23.21,
    "escalation": [
     "unusual_oracle_interaction"
@@ -790,7 +1269,7 @@
   },
   {
    "card": "Nightshade Assassin",
-   "priority": 302,
+   "priority": 355,
    "score": 23.2,
    "escalation": [
     "unusual_oracle_interaction"
@@ -798,7 +1277,7 @@
   },
   {
    "card": "Protean Raider",
-   "priority": 303,
+   "priority": 356,
    "score": 23.2,
    "escalation": [
     "unusual_oracle_interaction"
@@ -806,7 +1285,7 @@
   },
   {
    "card": "Deadeye Tracker",
-   "priority": 304,
+   "priority": 357,
    "score": 23.19,
    "escalation": [
     "unusual_oracle_interaction"
@@ -814,7 +1293,7 @@
   },
   {
    "card": "Dire Fleet Poisoner",
-   "priority": 305,
+   "priority": 358,
    "score": 23.17,
    "escalation": [
     "unusual_oracle_interaction"
@@ -822,7 +1301,7 @@
   },
   {
    "card": "Bigfin Bouncer",
-   "priority": 306,
+   "priority": 359,
    "score": 23.16,
    "escalation": [
     "unusual_oracle_interaction"
@@ -830,7 +1309,7 @@
   },
   {
    "card": "Dire Fleet Neckbreaker",
-   "priority": 307,
+   "priority": 360,
    "score": 23.15,
    "escalation": [
     "unusual_oracle_interaction"
@@ -838,7 +1317,7 @@
   },
   {
    "card": "Crimson Fleet Commodore",
-   "priority": 308,
+   "priority": 361,
    "score": 23.12,
    "escalation": [
     "unusual_oracle_interaction"
@@ -846,7 +1325,7 @@
   },
   {
    "card": "Pirate Peddlers",
-   "priority": 309,
+   "priority": 362,
    "score": 23.11,
    "escalation": [
     "unusual_oracle_interaction"
@@ -854,7 +1333,7 @@
   },
   {
    "card": "Agent of the Fates",
-   "priority": 310,
+   "priority": 363,
    "score": 23.08,
    "escalation": [
     "unusual_oracle_interaction"
@@ -862,7 +1341,7 @@
   },
   {
    "card": "Thunderhead Gunner",
-   "priority": 311,
+   "priority": 364,
    "score": 23.02,
    "escalation": [
     "unusual_oracle_interaction"
@@ -870,7 +1349,7 @@
   },
   {
    "card": "Brotherhood Patriarch",
-   "priority": 312,
+   "priority": 365,
    "score": 22.98,
    "escalation": [
     "unusual_oracle_interaction"
@@ -878,7 +1357,7 @@
   },
   {
    "card": "Brotherhood Ambushers",
-   "priority": 313,
+   "priority": 366,
    "score": 22.96,
    "escalation": [
     "unusual_oracle_interaction"
@@ -886,7 +1365,7 @@
   },
   {
    "card": "Goblin Boarders",
-   "priority": 314,
+   "priority": 367,
    "score": 22.96,
    "escalation": [
     "unusual_oracle_interaction"
@@ -894,7 +1373,7 @@
   },
   {
    "card": "Iguana Parrot",
-   "priority": 315,
+   "priority": 368,
    "score": 22.94,
    "escalation": [
     "unusual_oracle_interaction"
@@ -902,7 +1381,7 @@
   },
   {
    "card": "Captain Ripley Vance",
-   "priority": 316,
+   "priority": 369,
    "score": 22.92,
    "escalation": [
     "unusual_oracle_interaction"
@@ -910,7 +1389,7 @@
   },
   {
    "card": "Deadeye Duelist",
-   "priority": 317,
+   "priority": 370,
    "score": 22.92,
    "escalation": [
     "unusual_oracle_interaction"
@@ -918,7 +1397,7 @@
   },
   {
    "card": "Cloud Pirates",
-   "priority": 318,
+   "priority": 371,
    "score": 22.9,
    "escalation": [
     "unusual_oracle_interaction"
@@ -926,7 +1405,7 @@
   },
   {
    "card": "Thrill-Kill Assassin",
-   "priority": 319,
+   "priority": 372,
    "score": 22.89,
    "escalation": [
     "unusual_oracle_interaction"
@@ -934,7 +1413,7 @@
   },
   {
    "card": "Kiku, Night's Flower",
-   "priority": 320,
+   "priority": 373,
    "score": 22.88,
    "escalation": [
     "unusual_oracle_interaction"
@@ -942,7 +1421,7 @@
   },
   {
    "card": "Raffine's Silencer",
-   "priority": 321,
+   "priority": 374,
    "score": 22.88,
    "escalation": [
     "unusual_oracle_interaction"
@@ -950,7 +1429,7 @@
   },
   {
    "card": "Captain of Umbar",
-   "priority": 322,
+   "priority": 375,
    "score": 22.87,
    "escalation": [
     "unusual_oracle_interaction"
@@ -958,7 +1437,7 @@
   },
   {
    "card": "Hullbreaker Horror",
-   "priority": 323,
+   "priority": 376,
    "score": 22.85,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -966,7 +1445,7 @@
   },
   {
    "card": "Ruin Raider",
-   "priority": 324,
+   "priority": 377,
    "score": 22.8,
    "escalation": [
     "unusual_oracle_interaction"
@@ -974,7 +1453,7 @@
   },
   {
    "card": "Kitesail Corsair",
-   "priority": 325,
+   "priority": 378,
    "score": 22.76,
    "escalation": [
     "unusual_oracle_interaction"
@@ -982,7 +1461,7 @@
   },
   {
    "card": "Rigging Runner",
-   "priority": 326,
+   "priority": 379,
    "score": 22.76,
    "escalation": [
     "unusual_oracle_interaction"
@@ -990,7 +1469,7 @@
   },
   {
    "card": "Garza's Assassin",
-   "priority": 327,
+   "priority": 380,
    "score": 22.72,
    "escalation": [
     "unusual_oracle_interaction"
@@ -998,7 +1477,7 @@
   },
   {
    "card": "Rishadan Cutpurse",
-   "priority": 328,
+   "priority": 381,
    "score": 22.72,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1006,7 +1485,7 @@
   },
   {
    "card": "Gixian Skullflayer",
-   "priority": 329,
+   "priority": 382,
    "score": 22.69,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1014,7 +1493,7 @@
   },
   {
    "card": "Keen Buccaneer",
-   "priority": 330,
+   "priority": 383,
    "score": 22.67,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1022,7 +1501,7 @@
   },
   {
    "card": "Rishadan Footpad",
-   "priority": 331,
+   "priority": 384,
    "score": 22.67,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1030,7 +1509,7 @@
   },
   {
    "card": "Hired Blade",
-   "priority": 332,
+   "priority": 385,
    "score": 22.66,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1038,7 +1517,7 @@
   },
   {
    "card": "Cackling Slasher",
-   "priority": 333,
+   "priority": 386,
    "score": 22.65,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1046,7 +1525,7 @@
   },
   {
    "card": "Cruel Sadist",
-   "priority": 334,
+   "priority": 387,
    "score": 22.65,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1054,7 +1533,7 @@
   },
   {
    "card": "Dreamcaller Siren",
-   "priority": 335,
+   "priority": 388,
    "score": 22.64,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1062,7 +1541,7 @@
   },
   {
    "card": "Grasping Scoundrel",
-   "priority": 336,
+   "priority": 389,
    "score": 22.61,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1070,7 +1549,7 @@
   },
   {
    "card": "Siren Lookout",
-   "priority": 337,
+   "priority": 390,
    "score": 22.58,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1078,7 +1557,7 @@
   },
   {
    "card": "Storm Fleet Aerialist",
-   "priority": 338,
+   "priority": 391,
    "score": 22.58,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1086,7 +1565,7 @@
   },
   {
    "card": "Strongbox Raider",
-   "priority": 339,
+   "priority": 392,
    "score": 22.58,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1094,7 +1573,7 @@
   },
   {
    "card": "Waylaying Pirates",
-   "priority": 340,
+   "priority": 393,
    "score": 22.58,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1102,7 +1581,7 @@
   },
   {
    "card": "King's Assassin",
-   "priority": 341,
+   "priority": 394,
    "score": 22.55,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1110,7 +1589,7 @@
   },
   {
    "card": "Marauding Looter",
-   "priority": 342,
+   "priority": 395,
    "score": 22.54,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1118,7 +1597,7 @@
   },
   {
    "card": "Pirate Ship",
-   "priority": 343,
+   "priority": 396,
    "score": 22.53,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1126,7 +1605,7 @@
   },
   {
    "card": "Rishadan Brigand",
-   "priority": 344,
+   "priority": 397,
    "score": 22.53,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1134,7 +1613,7 @@
   },
   {
    "card": "Howler's Heavy",
-   "priority": 345,
+   "priority": 398,
    "score": 22.51,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1142,7 +1621,7 @@
   },
   {
    "card": "Boilerbilges Ripper",
-   "priority": 346,
+   "priority": 399,
    "score": 22.5,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1150,7 +1629,7 @@
   },
   {
    "card": "Hooded Assassin",
-   "priority": 347,
+   "priority": 400,
    "score": 22.49,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1158,7 +1637,7 @@
   },
   {
    "card": "Skyship Buccaneer",
-   "priority": 348,
+   "priority": 401,
    "score": 22.49,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1166,7 +1645,7 @@
   },
   {
    "card": "Gorehorn Raider",
-   "priority": 349,
+   "priority": 402,
    "score": 22.48,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1174,7 +1653,7 @@
   },
   {
    "card": "Daring Buccaneer",
-   "priority": 350,
+   "priority": 403,
    "score": 22.47,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1182,7 +1661,7 @@
   },
   {
    "card": "Rowdy Crew",
-   "priority": 351,
+   "priority": 404,
    "score": 22.45,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1190,7 +1669,7 @@
   },
   {
    "card": "Lurking Deadeye",
-   "priority": 352,
+   "priority": 405,
    "score": 22.39,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1198,7 +1677,7 @@
   },
   {
    "card": "Shipwreck Looter",
-   "priority": 353,
+   "priority": 406,
    "score": 22.38,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1206,7 +1685,7 @@
   },
   {
    "card": "Storm Fleet Arsonist",
-   "priority": 354,
+   "priority": 407,
    "score": 22.37,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1214,7 +1693,7 @@
   },
   {
    "card": "Storm Fleet Spy",
-   "priority": 355,
+   "priority": 408,
    "score": 22.37,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1222,7 +1701,7 @@
   },
   {
    "card": "Shipwreck Sentry",
-   "priority": 356,
+   "priority": 409,
    "score": 22.34,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1230,7 +1709,7 @@
   },
   {
    "card": "Deadeye Tormentor",
-   "priority": 357,
+   "priority": 410,
    "score": 22.33,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1238,7 +1717,7 @@
   },
   {
    "card": "Talas Explorer",
-   "priority": 358,
+   "priority": 411,
    "score": 22.33,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1246,7 +1725,7 @@
   },
   {
    "card": "Deadeye Rig-Hauler",
-   "priority": 359,
+   "priority": 412,
    "score": 22.32,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1254,7 +1733,7 @@
   },
   {
    "card": "Swab Goblin",
-   "priority": 360,
+   "priority": 413,
    "score": 22.32,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1262,7 +1741,7 @@
   },
   {
    "card": "Abyssal Hunter",
-   "priority": 361,
+   "priority": 414,
    "score": 22.31,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1270,7 +1749,7 @@
   },
   {
    "card": "Notorious Assassin",
-   "priority": 362,
+   "priority": 415,
    "score": 22.31,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1278,7 +1757,7 @@
   },
   {
    "card": "Storm Fleet Pyromancer",
-   "priority": 363,
+   "priority": 416,
    "score": 22.3,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1286,7 +1765,7 @@
   },
   {
    "card": "Fathom Fleet Cutthroat",
-   "priority": 364,
+   "priority": 417,
    "score": 22.29,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1294,7 +1773,7 @@
   },
   {
    "card": "Dire Fleet Warmonger",
-   "priority": 365,
+   "priority": 418,
    "score": 22.27,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1302,7 +1781,7 @@
   },
   {
    "card": "Silent Assassin",
-   "priority": 366,
+   "priority": 419,
    "score": 22.27,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1310,7 +1789,7 @@
   },
   {
    "card": "Xathrid Slyblade",
-   "priority": 367,
+   "priority": 420,
    "score": 22.27,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1318,7 +1797,7 @@
   },
   {
    "card": "Orzhov Euthanist",
-   "priority": 368,
+   "priority": 421,
    "score": 22.26,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1326,7 +1805,7 @@
   },
   {
    "card": "Talas Lookout",
-   "priority": 369,
+   "priority": 422,
    "score": 22.26,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1334,7 +1813,7 @@
   },
   {
    "card": "Swaggering Corsair",
-   "priority": 370,
+   "priority": 423,
    "score": 22.22,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1342,7 +1821,7 @@
   },
   {
    "card": "Fathom Fleet Firebrand",
-   "priority": 371,
+   "priority": 424,
    "score": 22.21,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1350,7 +1829,7 @@
   },
   {
    "card": "Talas Scout",
-   "priority": 372,
+   "priority": 425,
    "score": 22.21,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1358,7 +1837,7 @@
   },
   {
    "card": "Wei Assassins",
-   "priority": 373,
+   "priority": 426,
    "score": 22.21,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1366,7 +1845,7 @@
   },
   {
    "card": "Reef Pirates",
-   "priority": 374,
+   "priority": 427,
    "score": 22.19,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1374,7 +1853,7 @@
   },
   {
    "card": "Ramses Overdark",
-   "priority": 375,
+   "priority": 428,
    "score": 22.18,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1382,7 +1861,7 @@
   },
   {
    "card": "Rishadan Airship",
-   "priority": 376,
+   "priority": 429,
    "score": 22.17,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1390,7 +1869,7 @@
   },
   {
    "card": "Siren Reaver",
-   "priority": 377,
+   "priority": 430,
    "score": 22.17,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1398,7 +1877,7 @@
   },
   {
    "card": "Desperate Castaways",
-   "priority": 378,
+   "priority": 431,
    "score": 22.15,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1406,7 +1885,7 @@
   },
   {
    "card": "Fathom Fleet Boarder",
-   "priority": 379,
+   "priority": 432,
    "score": 22.14,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1414,7 +1893,7 @@
   },
   {
    "card": "Ramirez DePietro",
-   "priority": 380,
+   "priority": 433,
    "score": 22.14,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1422,7 +1901,7 @@
   },
   {
    "card": "Stalking Assassin",
-   "priority": 381,
+   "priority": 434,
    "score": 22.13,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1430,7 +1909,7 @@
   },
   {
    "card": "Talas Researcher",
-   "priority": 382,
+   "priority": 435,
    "score": 22.09,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1438,7 +1917,7 @@
   },
   {
    "card": "Armored Galleon",
-   "priority": 383,
+   "priority": 436,
    "score": 22.07,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1446,7 +1925,7 @@
   },
   {
    "card": "Hagra Sharpshooter",
-   "priority": 384,
+   "priority": 437,
    "score": 22.07,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1454,7 +1933,7 @@
   },
   {
    "card": "Dinosaur Hunter",
-   "priority": 385,
+   "priority": 438,
    "score": 22.04,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1462,7 +1941,7 @@
   },
   {
    "card": "Steam Frigate",
-   "priority": 386,
+   "priority": 439,
    "score": 22.03,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1470,7 +1949,7 @@
   },
   {
    "card": "Talas Air Ship",
-   "priority": 387,
+   "priority": 440,
    "score": 22.03,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1478,7 +1957,7 @@
   },
   {
    "card": "Angrath's Ambusher",
-   "priority": 388,
+   "priority": 441,
    "score": 22.02,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1486,7 +1965,7 @@
   },
   {
    "card": "Talas Merchant",
-   "priority": 389,
+   "priority": 442,
    "score": 22.0,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1494,7 +1973,7 @@
   },
   {
    "card": "Curiosity",
-   "priority": 390,
+   "priority": 443,
    "score": 21.79,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -1502,7 +1981,7 @@
   },
   {
    "card": "Emry, Lurker of the Loch",
-   "priority": 391,
+   "priority": 444,
    "score": 21.73,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -1510,7 +1989,7 @@
   },
   {
    "card": "Rathi Assassin",
-   "priority": 392,
+   "priority": 445,
    "score": 21.33,
    "escalation": [
     "unusual_oracle_interaction"
@@ -1518,7 +1997,7 @@
   },
   {
    "card": "Ophidian Eye",
-   "priority": 393,
+   "priority": 446,
    "score": 20.31,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -1526,7 +2005,7 @@
   },
   {
    "card": "Reiterate",
-   "priority": 394,
+   "priority": 447,
    "score": 19.64,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -1534,7 +2013,7 @@
   },
   {
    "card": "Tidespout Tyrant",
-   "priority": 395,
+   "priority": 448,
    "score": 19.02,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -1542,7 +2021,7 @@
   },
   {
    "card": "Street Urchin",
-   "priority": 396,
+   "priority": 449,
    "score": 17.27,
    "escalation": [
     "spellbook_near_miss_completion"

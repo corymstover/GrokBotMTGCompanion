@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Kefka__Court_Mage",
  "slug": "kefka-court-mage",
  "list_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
@@ -125,8 +125,8 @@
    "first_signal": 772,
    "unresolved_names": 1,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/kefka-court-mage.json"
    ]
@@ -140,8 +140,8 @@
    "first_signal": 739,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 3,
+   "material": true,
    "inputs": [
     "default_bulk (earliest printing)"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 22,
+   "material": true,
    "inputs": [
     "data/grixis/audit/kefka-court-mage.json",
     "roles: draw,removal,wipe,protection"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 2,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 4,
+   "new_escalated": 2,
    "material": true,
    "inputs": [
     "data/grixis/audit/kefka-court-mage.json#slots/*/alternatives"
@@ -186,8 +186,8 @@
    "first_signal": 614,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 14,
+   "material": true,
    "inputs": [
     "data/grixis/graph/kefka-court-mage.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 6178,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 8,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/kefka-court-mage.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 328,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 110,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 4,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -246,7 +246,7 @@
    "first_signal": 5,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 33,
+   "new_escalated": 32,
    "material": true,
    "inputs": [
     "data/grixis/candidates/tournament/kefka-court-mage.json"
@@ -339,8 +339,8 @@
    "C": 18324
   },
   "by_test_tier": {
-   "paired_test": 139,
-   "screen_only": 18315
+   "paired_test": 194,
+   "screen_only": 18260
   },
   "per_signal": {
    "archetype_tech": 264,
@@ -358,10 +358,11 @@
    "tournament": 93,
    "tutor_target": 6753
   },
-  "escalated": 139,
+  "escalated": 194,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 16,
    "dependency_graph_alternative": 8,
+   "multi_source_corroboration": 81,
    "new_card": 1,
    "spellbook_near_miss_completion": 65,
    "tier_a_score": 33,
@@ -373,7 +374,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/kefka-court-mage.universe.json.gz",
-  "sha256": "sha256:21c318cc0da51d4c2e8b02dac53b0823a4704679d2fdaa0c9a0efc88825cd591"
+  "sha256": "sha256:9fdef2a17070935dfb3d640b7192d01fd7651a2af9f57e54d83fe8b401a961e5"
  },
  "escalated_untested_queue": [],
  "blind_spots": [

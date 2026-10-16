@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Admiral_Brass__Unsinkable",
  "slug": "admiral-brass-unsinkable",
  "list_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
@@ -92,7 +92,7 @@
    "first_signal": 621,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 3,
-   "new_escalated": 4,
+   "new_escalated": 16,
    "material": true,
    "inputs": [
     "oracle_bulk",
@@ -125,8 +125,8 @@
    "first_signal": 509,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/admiral-brass-unsinkable.json"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "data/grixis/audit/admiral-brass-unsinkable.json",
     "roles: wipe,counter,protection"
@@ -171,7 +171,7 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 3,
+   "new_escalated": 1,
    "material": true,
    "inputs": [
     "data/grixis/audit/admiral-brass-unsinkable.json#slots/*/alternatives"
@@ -201,8 +201,8 @@
    "first_signal": 5161,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/admiral-brass-unsinkable.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 326,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 5,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 153,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -316,7 +316,7 @@
    ]
   }
  ],
- "last_material_pass": 9,
+ "last_material_pass": 13,
  "saturated": true,
  "hard_exclusions": {
   "already_in_list": 94,
@@ -339,9 +339,9 @@
    "C": 18260
   },
   "by_test_tier": {
-   "escalated_queued": 33,
+   "escalated_queued": 56,
    "paired_test": 250,
-   "screen_only": 18176
+   "screen_only": 18153
   },
   "per_signal": {
    "archetype_tech": 285,
@@ -360,10 +360,11 @@
    "tutor_target": 6638,
    "type_search": 2090
   },
-  "escalated": 283,
+  "escalated": 306,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 11,
    "dependency_graph_alternative": 11,
+   "multi_source_corroboration": 133,
    "new_card": 57,
    "package_gap": 130,
    "spellbook_near_miss_completion": 28,
@@ -377,12 +378,196 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/admiral-brass-unsinkable.universe.json.gz",
-  "sha256": "sha256:def3ff3995b4a5a16c5c55234f8606dd4617f6731fb7d3f6380bf0b62557c363"
+  "sha256": "sha256:f56861e7cf0561e2a358936585e10403208e1f6487f383d033e8a4695e16b8ff"
  },
  "escalated_untested_queue": [
   {
-   "card": "Reef Pirates",
+   "card": "Rishadan Brigand",
    "priority": 251,
+   "score": 22.53,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Skyship Buccaneer",
+   "priority": 252,
+   "score": 22.49,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "The Watcher in the Water",
+   "priority": 253,
+   "score": 22.49,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Gorehorn Raider",
+   "priority": 254,
+   "score": 22.48,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Daring Buccaneer",
+   "priority": 255,
+   "score": 22.47,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Storm Fleet Swashbuckler",
+   "priority": 256,
+   "score": 22.47,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Kukemssa Pirates",
+   "priority": 257,
+   "score": 22.46,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Storm Fleet Arsonist",
+   "priority": 258,
+   "score": 22.37,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Storm Fleet Spy",
+   "priority": 259,
+   "score": 22.37,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Helm of the Host",
+   "priority": 260,
+   "score": 22.35,
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ]
+  },
+  {
+   "card": "Shipwreck Sentry",
+   "priority": 261,
+   "score": 22.34,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Deadeye Tormentor",
+   "priority": 262,
+   "score": 22.33,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Headstrong Brute",
+   "priority": 263,
+   "score": 22.33,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Talas Explorer",
+   "priority": 264,
+   "score": 22.33,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Deadeye Rig-Hauler",
+   "priority": 265,
+   "score": 22.32,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Swab Goblin",
+   "priority": 266,
+   "score": 22.32,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Storm Fleet Pyromancer",
+   "priority": 267,
+   "score": 22.3,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Fathom Fleet Cutthroat",
+   "priority": 268,
+   "score": 22.29,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Talas Warrior",
+   "priority": 269,
+   "score": 22.28,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Dire Fleet Warmonger",
+   "priority": 270,
+   "score": 22.27,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Swaggering Corsair",
+   "priority": 271,
+   "score": 22.22,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Fathom Fleet Firebrand",
+   "priority": 272,
+   "score": 22.21,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Talas Scout",
+   "priority": 273,
+   "score": 22.21,
+   "escalation": [
+    "unusual_oracle_interaction"
+   ]
+  },
+  {
+   "card": "Reef Pirates",
+   "priority": 274,
    "score": 22.19,
    "escalation": [
     "unusual_oracle_interaction"
@@ -390,7 +575,7 @@
   },
   {
    "card": "Rishadan Airship",
-   "priority": 252,
+   "priority": 275,
    "score": 22.17,
    "escalation": [
     "unusual_oracle_interaction"
@@ -398,7 +583,7 @@
   },
   {
    "card": "Siren Reaver",
-   "priority": 253,
+   "priority": 276,
    "score": 22.17,
    "escalation": [
     "unusual_oracle_interaction"
@@ -406,7 +591,7 @@
   },
   {
    "card": "Desperate Castaways",
-   "priority": 254,
+   "priority": 277,
    "score": 22.15,
    "escalation": [
     "unusual_oracle_interaction"
@@ -414,7 +599,7 @@
   },
   {
    "card": "Fathom Fleet Boarder",
-   "priority": 255,
+   "priority": 278,
    "score": 22.14,
    "escalation": [
     "unusual_oracle_interaction"
@@ -422,7 +607,7 @@
   },
   {
    "card": "Ramirez DePietro",
-   "priority": 256,
+   "priority": 279,
    "score": 22.14,
    "escalation": [
     "unusual_oracle_interaction"
@@ -430,7 +615,7 @@
   },
   {
    "card": "Talas Researcher",
-   "priority": 257,
+   "priority": 280,
    "score": 22.09,
    "escalation": [
     "unusual_oracle_interaction"
@@ -438,7 +623,7 @@
   },
   {
    "card": "Armored Galleon",
-   "priority": 258,
+   "priority": 281,
    "score": 22.07,
    "escalation": [
     "unusual_oracle_interaction"
@@ -446,7 +631,7 @@
   },
   {
    "card": "Dinosaur Hunter",
-   "priority": 259,
+   "priority": 282,
    "score": 22.04,
    "escalation": [
     "unusual_oracle_interaction"
@@ -454,7 +639,7 @@
   },
   {
    "card": "Steam Frigate",
-   "priority": 260,
+   "priority": 283,
    "score": 22.03,
    "escalation": [
     "unusual_oracle_interaction"
@@ -462,7 +647,7 @@
   },
   {
    "card": "Talas Air Ship",
-   "priority": 261,
+   "priority": 284,
    "score": 22.03,
    "escalation": [
     "unusual_oracle_interaction"
@@ -470,7 +655,7 @@
   },
   {
    "card": "Angrath's Ambusher",
-   "priority": 262,
+   "priority": 285,
    "score": 22.02,
    "escalation": [
     "unusual_oracle_interaction"
@@ -478,7 +663,7 @@
   },
   {
    "card": "Smuggler Captain",
-   "priority": 263,
+   "priority": 286,
    "score": 22.0,
    "escalation": [
     "unusual_oracle_interaction"
@@ -486,7 +671,7 @@
   },
   {
    "card": "Talas Merchant",
-   "priority": 264,
+   "priority": 287,
    "score": 22.0,
    "escalation": [
     "unusual_oracle_interaction"
@@ -494,7 +679,7 @@
   },
   {
    "card": "Kiki-Jiki, Mirror Breaker",
-   "priority": 265,
+   "priority": 288,
    "score": 20.63,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -502,7 +687,7 @@
   },
   {
    "card": "Delina, Wild Mage",
-   "priority": 266,
+   "priority": 289,
    "score": 20.2,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -510,7 +695,7 @@
   },
   {
    "card": "Reiterate",
-   "priority": 267,
+   "priority": 290,
    "score": 19.64,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -518,7 +703,7 @@
   },
   {
    "card": "Time Sieve",
-   "priority": 268,
+   "priority": 291,
    "score": 19.5,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -526,7 +711,7 @@
   },
   {
    "card": "Tidespout Tyrant",
-   "priority": 269,
+   "priority": 292,
    "score": 19.02,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -534,7 +719,7 @@
   },
   {
    "card": "Revel in Riches",
-   "priority": 270,
+   "priority": 293,
    "score": 18.81,
    "escalation": [
     "anomaly_source_disagreement"
@@ -542,7 +727,7 @@
   },
   {
    "card": "Splinter Twin",
-   "priority": 271,
+   "priority": 294,
    "score": 18.57,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -550,7 +735,7 @@
   },
   {
    "card": "Calamity, Galloping Inferno",
-   "priority": 272,
+   "priority": 295,
    "score": 18.29,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -558,7 +743,7 @@
   },
   {
    "card": "Koh, the Face Stealer",
-   "priority": 273,
+   "priority": 296,
    "score": 17.75,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -566,7 +751,7 @@
   },
   {
    "card": "Discreet Retreat",
-   "priority": 274,
+   "priority": 297,
    "score": 17.51,
    "escalation": [
     "unusual_oracle_interaction"
@@ -574,7 +759,7 @@
   },
   {
    "card": "Phantom Steed",
-   "priority": 275,
+   "priority": 298,
    "score": 17.45,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -582,7 +767,7 @@
   },
   {
    "card": "Spawnsire of Ulamog",
-   "priority": 276,
+   "priority": 299,
    "score": 17.44,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -590,7 +775,7 @@
   },
   {
    "card": "Sandstorm Crasher",
-   "priority": 277,
+   "priority": 300,
    "score": 17.14,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -598,7 +783,7 @@
   },
   {
    "card": "Crackdown Construct",
-   "priority": 278,
+   "priority": 301,
    "score": 17.13,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -606,7 +791,7 @@
   },
   {
    "card": "March of the Machines",
-   "priority": 279,
+   "priority": 302,
    "score": 17.12,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -614,7 +799,7 @@
   },
   {
    "card": "Take the Fall",
-   "priority": 280,
+   "priority": 303,
    "score": 17.05,
    "escalation": [
     "unusual_oracle_interaction"
@@ -622,7 +807,7 @@
   },
   {
    "card": "Goblin Warrens",
-   "priority": 281,
+   "priority": 304,
    "score": 17.01,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -630,7 +815,7 @@
   },
   {
    "card": "Slick Imitator",
-   "priority": 282,
+   "priority": 305,
    "score": 16.97,
    "escalation": [
     "spellbook_near_miss_completion"
@@ -638,7 +823,7 @@
   },
   {
    "card": "Swiftfoot Boots",
-   "priority": 283,
+   "priority": 306,
    "score": 5.16,
    "escalation": [
     "dependency_graph_alternative"

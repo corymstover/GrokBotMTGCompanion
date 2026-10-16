@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v2",
- "cycle": "Bot cycle 65.2",
+ "generated_by": "scripts/grixis_saturation.py v3",
+ "cycle": "Bot cycle 65.3",
  "deck_id": "Marchesa__Dealer_of_Death",
  "slug": "marchesa-dealer-of-death",
  "list_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
@@ -92,8 +92,8 @@
    "first_signal": 420,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 10,
+   "material": true,
    "inputs": [
     "oracle_bulk",
     "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
@@ -125,8 +125,8 @@
    "first_signal": 751,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 7,
+   "material": true,
    "inputs": [
     "data/grixis_interactions/marchesa-dealer-of-death.json"
    ]
@@ -140,8 +140,8 @@
    "first_signal": 734,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
     "default_bulk (earliest printing)"
    ]
@@ -155,8 +155,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 17,
+   "material": true,
    "inputs": [
     "data/grixis/audit/marchesa-dealer-of-death.json",
     "roles: draw,wipe,protection,tutor"
@@ -171,8 +171,8 @@
    "first_signal": 0,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 1,
-   "material": true,
+   "new_escalated": 0,
+   "material": false,
    "inputs": [
     "data/grixis/audit/marchesa-dealer-of-death.json#slots/*/alternatives"
    ]
@@ -186,8 +186,8 @@
    "first_signal": 716,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 18,
+   "material": true,
    "inputs": [
     "data/grixis/graph/marchesa-dealer-of-death.json"
    ]
@@ -201,8 +201,8 @@
    "first_signal": 6424,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 12,
+   "material": true,
    "inputs": [
     "data/grixis/blueprints/marchesa-dealer-of-death.json#tutor_targets"
    ]
@@ -216,8 +216,8 @@
    "first_signal": 213,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "oracle_bulk produced_mana"
    ]
@@ -231,8 +231,8 @@
    "first_signal": 118,
    "unresolved_names": 0,
    "first_signal_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "new_escalated": 6,
+   "material": true,
    "inputs": [
     "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
@@ -339,8 +339,8 @@
    "C": 18270
   },
   "by_test_tier": {
-   "paired_test": 117,
-   "screen_only": 18336
+   "paired_test": 193,
+   "screen_only": 18260
   },
   "per_signal": {
    "archetype_tech": 281,
@@ -358,10 +358,11 @@
    "tournament": 38,
    "tutor_target": 6755
   },
-  "escalated": 117,
+  "escalated": 193,
   "by_escalation_reason": {
    "anomaly_source_disagreement": 4,
    "dependency_graph_alternative": 7,
+   "multi_source_corroboration": 100,
    "new_card": 3,
    "spellbook_near_miss_completion": 53,
    "tier_a_score": 51,
@@ -373,7 +374,7 @@
   },
   "paired_test_target": 250,
   "file": "data/grixis/saturation/marchesa-dealer-of-death.universe.json.gz",
-  "sha256": "sha256:a6084f5607059150ece765620a3b031aa53a2c1860ca3ba73535072bbfb751d7"
+  "sha256": "sha256:2c1a60962ba4e8f5db9069bcc38cd82fbe6ee0807fded2a276d6c7b41a80f33b"
  },
  "escalated_untested_queue": [],
  "blind_spots": [
