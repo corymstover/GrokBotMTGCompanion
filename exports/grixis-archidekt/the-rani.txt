@@ -1,0 +1,94 @@
+1 The Rani [Commander]
+1 Academy Manufactor
+1 Arcane Signet
+1 Badlands
+1 Baeloth Barrityl, Entertainer
+1 Bjorna, Nightfall Alchemist
+1 Blasphemous Act
+1 Blood Crypt
+1 Bloodstained Mire
+1 Bloodthirsty Blade
+1 Bothersome Quasit
+1 Chaos Warp
+1 City of Brass
+1 Coercive Impetus
+1 Command Tower
+1 Curse of Opulence
+1 Cyclonic Rift
+1 Deadly Rollick
+1 Death Kiss
+1 Deflecting Swat
+1 Demonic Tutor
+1 Dimir Signet
+1 Displacer Kitten
+1 Disrupt Decorum
+1 Entity Tracker
+1 Erdwal Illuminator
+1 Exotic Orchard
+1 Eye of Nidhogg
+1 Fellwar Stone
+1 Fierce Guardianship
+1 Firkraag, Cunning Instigator
+1 Five Hundred Year Diary
+1 Flooded Strand
+1 Force of Will
+1 Forensic Gadgeteer
+1 Ghoulish Impetus
+1 Grenzo, Havoc Raiser
+1 Hateful Eidolon
+1 Haunted Ridge
+1 Hot Pursuit
+1 Incriminating Impetus
+1 Inspiring Statuary
+3 Island
+1 Izzet Signet
+1 Karazikar, the Eye Tyrant
+1 Kardur, Doomscourge
+1 Lightning Greaves
+1 Luxury Suite
+1 Maestros Confluence
+1 Mana Confluence
+1 Mana Drain
+1 Mocking Doppelganger
+1 Morphic Pool
+3 Mountain
+1 Mystic Remora
+1 Mystical Tutor
+1 Otawara, Soaring City
+1 Polluted Delta
+1 Psychic Impetus
+1 Puppet Master, String Puller
+1 Rakdos Charm
+1 Reanimate
+1 Red Death, Shipwrecker
+1 Reflecting Pool
+1 Rhystic Study
+1 Scalding Tarn
+1 Shiny Impetus
+1 Shipwreck Marsh
+1 Slicer, Hired Muscle // Slicer, High-Speed Antagonist
+1 Sol Ring
+1 Spectacular Showdown
+1 Steam Vents
+1 Stormcarved Coast
+3 Swamp
+1 Swan Song
+1 Talisman of Creativity
+1 Talisman of Dominance
+1 Talisman of Indulgence
+1 Tangletrove Kelp
+1 Thassa, Deep-Dwelling
+1 The Master, Mesmerist
+1 The One Ring
+1 The Sound of Drums
+1 Time Sieve
+1 Toxic Deluge
+1 Training Center
+1 Underground Sea
+1 Urborg, Tomb of Yawgmoth
+1 Urza, Lord High Artificer
+1 Vampiric Tutor
+1 Vengeful Ancestor
+1 Volcanic Island
+1 Watery Grave
+1 Xander's Lounge

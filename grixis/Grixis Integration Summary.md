@@ -14,6 +14,7 @@ schema: 2
 > **Bot cycle 16 · milestone [Grixis integration](https://github.com/corymstover/GrokBotMTGCompanion/milestone/13) · issues [#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59)–[#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63).** What we took from the user's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) repo (read-only; commit `df1abb9` in Bot cycle 16, **re-analyzed at `1836b97` in Bot cycle 37**), what was fixed, what was generalized for every color identity, and what remains. Back to [Grixis](README.md).
 
 ## Contents
+- [Bot cycle 39 commander-first refinement](#bot-cycle-39-commander-first-refinement)
 - [Bot cycle 38 pending-legality pages](#bot-cycle-38-pending-legality-pages)
 - [Bot cycle 37 re-analysis](#bot-cycle-37-re-analysis)
 - [Source repo inventory](#source-repo-inventory)
@@ -24,6 +25,9 @@ schema: 2
 - [What we did not take](#what-we-did-not-take)
 - [Recommended follow-ups](#recommended-follow-ups)
 - [Reproducing](#reproducing)
+
+## Bot cycle 39 commander-first refinement
+Cory set a new [mission](Grixis%20Mission.md): each deck must be the definitive, maximally optimized version of *its commander's* deck. Batch progress, metrics for all 62 decks and the method are on the [Grixis Refinement Cycle](Grixis%20Refinement%20Cycle.md) page. Refined lists appear as a *Refined list* section on the deck pages; the source list stays credited. Final lists are exported for Archidekt in [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md).
 
 ## Bot cycle 38 pending-legality pages
 Cory asked for all 62 Grixis decks in the companion. **62/62 deck pages: 60 legal + 2 ⏳ pending legality.**

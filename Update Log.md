@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Contradictions & Retcons Log.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md", "Lore Primary Sources.md", "Planes Index.md", "Front-Matter Schema.md"]
+related: ["Contradictions & Retcons Log.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md", "Lore Primary Sources.md", "Planes Index.md", "EDH Deck Evaluation Checklist.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 39 (Grixis commander-first refinement, batch 1)](#2026-10-16--bot-cycle-39-grixis-commander-first-refinement-batch-1)
 - [2026-10-16 — Bot cycle 38 (Grixis: 62/62 pages, 2 pending legality)](#2026-10-16--bot-cycle-38-grixis-6262-pages-2-pending-legality)
 - [2026-10-16 — Bot cycle 37 (Grixis re-analysis)](#2026-10-16--bot-cycle-37-grixis-re-analysis)
 - [2026-10-16 — Bot cycle 36 (Phase 8: Legends evidence, audit pass 2, batch 4 partial)](#2026-10-16--bot-cycle-36-phase-8-legends-evidence-audit-pass-2-batch-4-partial)
@@ -52,6 +53,21 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 39 (Grixis commander-first refinement, batch 1)
+Cory's mission: every Grixis deck must be the definitive, maximally optimized version of its commander's deck, not a Grixis shell ([Grixis Mission](grixis/Grixis%20Mission.md), also at the top of the [Grixis index](grixis/README.md)).
+- **Measurement:** new `scripts/grixis_refine.py` scores all 62 decks; the 2 pending ones are included and noted. It measures:
+  - commander dependence: Oracle hooks from the commander's own text, plus EDHREC synergy ≥ 15%;
+  - generic share, pairwise overlap, and Thoracle-core and control-core counts.
+  - Results are on the [Grixis Refinement Cycle](grixis/Grixis%20Refinement%20Cycle.md) page and in `data/grixis_refinement.json`.
+- **Batch 1 (12 decks: Abaddon through Davros):**
+  - 3 refined: Abaddon, Admiral Brass Unsinkable and Crosis, with 5 swaps.
+  - 9 flagged at/near their ceiling and left unchanged.
+  - Every swap quotes both Oracle texts and cites EDHREC data. Every refined list passes `evaluate_decklist.check`, keeps every Commander Spellbook combo, and does not raise the bracket floor.
+  - Swaps are frozen in `data/grixis_refine_batches.json`. Each deck page has a per-deck *Refinement log*.
+- **Exports:** `exports/grixis-archidekt/` has one Archidekt import file per deck (`1 Card Name`, with the commander as `[Commander]`), `ALL-DECKS.txt` and a README noting status and changes. The format was checked against the source repo's `exports/archidekt_2026-10-15/` package.
+- **Method:** new [Checklist Gate G — commander identity](EDH%20Deck%20Evaluation%20Checklist.md#gate-g--commander-identity) and a measured-dependence row in the [EDH Deck Template](EDH%20Deck%20Template.md) blueprint.
+- **Validation:** new `grixis-refine` step in `validate_all`: refined lists are re-verified and every export must match its deck page's final list (100 cards, singleton, color identity).
 
 ## 2026-10-16 — Bot cycle 38 (Grixis: 62/62 pages, 2 pending legality)
 Cory wants all 62 Grixis decks in the companion. **62/62 deck pages: 60 legal + 2 ⏳ pending legality** ([#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63)).
