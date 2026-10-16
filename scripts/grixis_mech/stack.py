@@ -41,7 +41,7 @@ FREE_COMMANDER = re.compile(r"if you control a commander, you may cast (?:~|this
 
 
 def counter_parse(name, text, type_line):
-    """(rule, reason). rule: {mode, scope, normal_cost_only}."""
+    """(rule, reason). rule: {mode, scope, free_with_commander}."""
     t = semantics.clean(name, text)
     why = None
     for sent in semantics.sentences(t):
@@ -58,7 +58,7 @@ def counter_parse(name, text, type_line):
             why = "unrecognised counter wording"
             continue
         w = m.group("what").lower().strip()
-        if re.search(r"\b(?:spell|activated ability|triggered ability)\b", w) is None:
+        if re.search(r"\b(?:spell|activated ability|triggered ability|activated or triggered ability)\b", w) is None:
             why = "counter effect does not target a spell/ability"
             continue
         if re.search(r"\b(?:with mana value|unless|if|that targets|you don't control|an opponent controls|controller)\b", w):
@@ -74,13 +74,13 @@ def counter_parse(name, text, type_line):
                 scopes.append("instant_or_sorcery_spell")
             else:
                 scopes.append("spell")
-        if "activated ability" in w:
+        if re.search(r"\bactivated(?: or triggered)? ability\b", w):
             scopes.append("activated_ability")
-        if "triggered ability" in w:
+        if re.search(r"\btriggered ability\b|\bactivated or triggered ability\b", w):
             scopes.append("triggered_ability")
         mode = "spell" if ("Instant" in type_line or "Sorcery" in type_line) else None
         if mode is None:
-            # Only support a clearly activated counter ability on a permanent. Triggered counter text is not optional/readiness.
+            # Only support a clearly activated counter ability on a permanent. Triggered counter text is not readiness.
             before = sent[:m.start()]
             if ":" in before:
                 mode = "activated"
@@ -108,9 +108,10 @@ def counter_ready(games, n, ctx, T, _pt=None):
             if s["turn"] > T:
                 break
             if rule["mode"] == "spell":
-                ready = n in s.get("hand", []) and (_unspent(s) >= need or (rule["free_with_commander"] and _commander_present(s, ctx)))
+                ready = n in s.get("hand", []) and (_unspent(s) >= need or
+                        (rule["free_with_commander"] and _commander_present(s, ctx)))
             else:
-                # Mana cost of activated counter abilities is not reconstructed here; report battlefield availability only.
+                # Activation cost is deliberately not reconstructed here; report battlefield availability only.
                 ready = n in s.get("battlefield", [])
             live += 1 if ready else 0
         tot += live
@@ -161,8 +162,11 @@ REACTIVE = re.compile(
     r"(?:target|up to (?:one|two) target) [^.]{0,50}? (?:you control )?(?:gains?|gain) "
     r"(?P<kw>hexproof|indestructible)(?: until end of turn)?|"
     r"(?P<phase>(?:target|up to (?:one|two) target) [^.]{0,50}? phases? out)", re.I)
-STATIC_TEAM = re.compile(r"(?:spells you control can't be countered|other [^.]{0,40}? you control (?:have|has) (?:hexproof|ward|indestructible))", re.I)
-SELF_STATIC = re.compile(r"(?:^|\n)(?:hexproof|indestructible|ward(?:\s|—|-|$)|this spell can't be countered)\b", re.I)
+STATIC_TEAM = re.compile(
+    r"(?:spells you control can't be countered|(?:other )?[^.]{0,40}? you control (?:have|has) (?:hexproof|ward|indestructible))",
+    re.I)
+SELF_STATIC = re.compile(
+    r"(?:^|\n)(?:hexproof\b|indestructible\b|ward(?:\s|—|-|$)|this spell can't be countered\b)", re.I)
 
 
 def protection_parse(name, text, type_line):
@@ -172,9 +176,10 @@ def protection_parse(name, text, type_line):
         if semantics.intervening_if(sent) and re.search(r"hexproof|indestructible|phase", sent, re.I):
             why = "conditional protection effect is not modelled"
             continue
-        if REACTIVE.search(sent):
+        rm = REACTIVE.search(sent)
+        if rm:
             if "Instant" not in type_line and "Sorcery" not in type_line:
-                before = sent[:REACTIVE.search(sent).start()]
+                before = sent[:rm.start()]
                 if ":" not in before:
                     why = "reactive protection on a permanent is not a supported activated ability"
                     continue
