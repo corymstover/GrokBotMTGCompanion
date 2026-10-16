@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -475,6 +476,15 @@ This approval freezes `refinement/decklists/Tetsuo_Umezawa_Approved_2026-10-15.t
 
 - [refinement/verification/Tetsuo_Umezawa_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Tetsuo_Umezawa_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Tetsuo_Umezawa_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Tetsuo_Umezawa_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 56 interaction review: **5 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Tetsuo Umezawa — Interaction Review](../interactions/tetsuo-umezawa.md).
+
+- **Tetsuo's target: tapped OR blocking, checked again on resolution; only Aura spells can't target him** — Tapped or blocking, rechecked on resolution; only Aura spells are shut out. ([tetsuou-01](../interactions/tetsuo-umezawa.md#tetsuou-01-tetsuos-target-tapped-or-blocking-checked-again-on-resolution-only-aura-spells-cant-target-him))
+- **Illusionist's Bracers + Aphetto Alchemist: infinite untaps, so Tetsuo kills every creature you can tap** — Bracers on Alchemist = infinite mana + infinite Tetsuo untaps; Flood supplies tapped targets. ([tetsuou-03](../interactions/tetsuo-umezawa.md#tetsuou-03-illusionists-bracers--aphetto-alchemist-infinite-untaps-so-tetsuo-kills-every-creature-you-can-tap))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

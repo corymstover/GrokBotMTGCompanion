@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -463,6 +464,22 @@ This approval freezes `refinement/decklists/Solkanar_the_Tainted_Approved_2026-1
 
 - [refinement/verification/Solkanar_the_Tainted_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Solkanar_the_Tainted_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Solkanar_the_Tainted_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Solkanar_the_Tainted_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 56 interaction review: **8 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Sol'Kanar the Tainted — Interaction Review](../interactions/solkanar-the-tainted.md).
+
+- **Sol'Kanar's "hasn't been chosen" modes belong to the object; whoever controls it makes the choices** — Mode history is per object; a blink resets it, a control change doesn't. ([tainted-01](../interactions/solkanar-the-tainted.md#tainted-01-solkanars-hasnt-been-chosen-modes-belong-to-the-object-whoever-controls-it-makes-the-choices))
+- **Thassa / Conjurer's Closet: order the blink below Sol'Kanar to repeat the first three modes, or above it to dodge mode 4** — Blink under the trigger = repeat good modes; blink over mode 4 = it fizzles on the new object. ([tainted-02](../interactions/solkanar-the-tainted.md#tainted-02-thassa--conjurers-closet-order-the-blink-below-solkanar-to-repeat-the-first-three-modes-or-above-it-to-dodge-mode-4))
+- **Demonic Pact donation: the recipient inherits the mode history and must take "You lose the game"** — Three safe modes, then give Pact away; the new controller must pick mode 4. ([tainted-03](../interactions/solkanar-the-tainted.md#tainted-03-demonic-pact-donation-the-recipient-inherits-the-mode-history-and-must-take-you-lose-the-game))
+- **Immortal Coil gift: give it away, exile their graveyard, and the state trigger can't be undone** — Donated Coil + graveyard hate = state-triggered loss that refilling the yard can't stop. ([tainted-04](../interactions/solkanar-the-tainted.md#tainted-04-immortal-coil-gift-give-it-away-exile-their-graveyard-and-the-state-trigger-cant-be-undone))
+- **Donated liabilities come home if the holder leaves the game** — Kill the holder some other way and Pact / Archfiend / Coil / Gambit return to you. ([tainted-06](../interactions/solkanar-the-tainted.md#tainted-06-donated-liabilities-come-home-if-the-holder-leaves-the-game))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Donated liabilities come home if the holder leaves the game: In multiplayer, killing a Pact / Archfiend / Coil / Gambit holder some other way returns the liability to you (CR 800.4a). Sequence the kills or have removal ready. ([tainted-06](../interactions/solkanar-the-tainted.md#tainted-06-donated-liabilities-come-home-if-the-holder-leaves-the-game))
+- 🚩 list flag Greed's Gambit: the liabilities follow the controller, and they're at the end step, not upkeep: Source attestation says Greed's Gambit's recurring liability is at upkeep; Oracle says end step. ([tainted-07](../interactions/solkanar-the-tainted.md#tainted-07-greeds-gambit-the-liabilities-follow-the-controller-and-theyre-at-the-end-step-not-upkeep))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

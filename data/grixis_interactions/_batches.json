@@ -84,7 +84,7 @@
    "cycle": 54
   },
   "F": {
-   "status": "planned",
+   "status": "in progress",
    "decks": [
     "solkanar-the-tainted",
     "tetsuo-imperial-champion",
@@ -96,7 +96,8 @@
     "tresserhorns-lord-returned",
     "wick-the-whorled-mind",
     "zevlor-elturel-exile"
-   ]
+   ],
+   "cycle": 56
   }
  }
 }

@@ -1,0 +1,286 @@
+{
+ "schema": 1,
+ "deck_id": "Tetsuo_Umezawa",
+ "slug": "tetsuo-umezawa",
+ "commanders": [
+  "Tetsuo Umezawa"
+ ],
+ "deck_sha256": "73a45c0240c9b5a86dfdc417d805eadbb171bec3b37e05316e3944bc58656a8f",
+ "list_source": "exports/grixis-archidekt/tetsuo-umezawa.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 56,
+ "batch": "F",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+   "note": "Rules attestation (13 items, all PASS) re-verified"
+  },
+  {
+   "path": "refinement/verification/Tetsuo_Umezawa_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification"
+  }
+ ],
+ "summary": "Tetsuo Umezawa is a removal engine. {U}{B}{B}{R}, {T} destroys a tapped or blocking creature. The deck makes targets (Flood, Puppeteer, Blustersquall, Frozen Aether, goad), untaps Tetsuo (Sting, Patriar's Seal, Minamo, Retreat to Coralhelm) and copies activations (Rings, Bracers). Illusionist's Bracers + Aphetto Alchemist gives unlimited untaps and mana. All 13 attestation items and the one Spellbook line are re-verified against the canonical list.\n\nRules surprises: tapped OR blocking is enough; only Aura spells can't target Tetsuo; Sting untaps him in every player's combat; overloaded Blustersquall ignores hexproof. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "tetsuou-01",
+   "category": "commander",
+   "title": "Tetsuo's target: tapped OR blocking, checked again on resolution; only Aura spells can't target him",
+   "cards": [
+    "Tetsuo Umezawa",
+    "Bloodthirsty Blade",
+    "Frozen Aether",
+    "Propaganda"
+   ],
+   "ruling": "Tetsuo can target a creature that's either tapped or blocking; it doesn't need to be both. The target must still qualify when the ability resolves, so an opponent can untap a tapped target to save it.\n\nWays to get targets:\n- Attackers without vigilance tap when declared, and untapped blockers qualify once blocks are declared.\n- Frozen Aether makes opponents' creatures enter tapped.\n- Bloodthirsty Blade's goad forces attacks, which taps attackers.\n- Propaganda doesn't force anyone to pay, so it creates no targets by itself.\n\n\"Can't be the target of Aura spells\" applies only while casting Auras. Auras can still be moved onto Tetsuo, abilities of Auras can target him, and Equipment and other abilities are unaffected.",
+   "short": "Tapped or blocking, rechecked on resolution; only Aura spells are shut out.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "115.1",
+    "608.2b",
+    "303.4a"
+   ],
+   "oracle": [
+    {
+     "card": "Tetsuo Umezawa",
+     "quote": "{U}{B}{B}{R}, {T}: Destroy target tapped or blocking creature."
+    },
+    {
+     "card": "Frozen Aether",
+     "quote": "Artifacts, creatures, and lands your opponents control enter tapped."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Tetsuo Umezawa",
+     "quote": "This card can be enchanted by moving Auras onto it. The “can’t be the target” text is different from “can’t be enchanted” in that it only applies to Aura spells when they are being cast."
+    },
+    {
+     "card": "Tetsuo Umezawa",
+     "quote": "Tetsuo Umezawa can be targeted by abilities from Auras."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+     "item": "Tetsuo target condition"
+    },
+    {
+     "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+     "item": "Combat windows"
+    },
+    {
+     "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+     "item": "Aura restriction"
+    },
+    {
+     "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+     "item": "Frozen Aether and forced combat"
+    }
+   ]
+  },
+  {
+   "id": "tetsuou-02",
+   "category": "engine",
+   "title": "Copying the activation: Rings of Brighthearth and Illusionist's Bracers",
+   "cards": [
+    "Tetsuo Umezawa",
+    "Rings of Brighthearth",
+    "Illusionist's Bracers"
+   ],
+   "ruling": "Illusionist's Bracers on Tetsuo copies every activation for free. Rings of Brighthearth copies it for {2}, once per activation. Both copies can choose new targets, so one {U}{B}{B}{R} activation can destroy up to three tapped or blocking creatures. The copies resolve before the original, and resolve even if the original is countered.",
+   "short": "One activation, up to three kills.",
+   "status": "verified",
+   "cr": [
+    "707.10",
+    "602.1"
+   ],
+   "oracle": [
+    {
+     "card": "Illusionist's Bracers",
+     "quote": "Whenever an ability of equipped creature is activated, if it isn't a mana ability, copy that ability. You may choose new targets for the copy."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Rings of Brighthearth",
+     "quote": "The triggered ability of Rings of Brighthearth and the copy it creates both resolve before the ability that caused it to trigger. They resolve even if that ability is countered."
+    },
+    {
+     "card": "Rings of Brighthearth",
+     "quote": "You can't pay {2} more than once for each time the triggered ability of Rings of Brighthearth resolves."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+     "item": "Rings plus Bracers"
+    }
+   ]
+  },
+  {
+   "id": "tetsuou-03",
+   "category": "combo",
+   "title": "Illusionist's Bracers + Aphetto Alchemist: infinite untaps, so Tetsuo kills every creature you can tap",
+   "cards": [
+    "Tetsuo Umezawa",
+    "Illusionist's Bracers",
+    "Aphetto Alchemist",
+    "Arcane Signet",
+    "Flood",
+    "Puppeteer"
+   ],
+   "ruling": "Put Bracers on an Aphetto Alchemist that can tap, then tap Alchemist targeting itself. Bracers copies the ability, and the copy untaps a second target. That gives unlimited untaps of Alchemist and one other artifact or creature each loop (Spellbook 283-4091). Untapping Arcane Signet over and over gives unlimited mana of any color. Untapping Tetsuo lets him activate again and again. Flood ({U}{U}) taps every creature without flying, so with the mana and untaps Tetsuo destroys every non-flying creature. Puppeteer taps flyers too, but only once per untap of itself.",
+   "short": "Bracers on Alchemist = infinite mana + infinite Tetsuo untaps; Flood supplies tapped targets.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Aphetto Alchemist",
+     "quote": "{T}: Untap target artifact or creature."
+    },
+    {
+     "card": "Flood",
+     "quote": "{U}{U}: Tap target creature without flying."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "283-4091",
+     "quote": "Illusionist's Bracers triggers, copying Aphetto Alchemist's ability targeting any other artifact or creature."
+    },
+    {
+     "id": "283-4091",
+     "quote": "Resolve both Aphetto Alchemist abilities, untapping it and the second target."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+     "item": "Puppeteer and Flood"
+    }
+   ]
+  },
+  {
+   "id": "tetsuou-04",
+   "category": "timing",
+   "title": "Untap engines: Sting each combat, Patriar's Seal, Minamo, Puppeteer, Retreat to Coralhelm",
+   "cards": [
+    "Tetsuo Umezawa",
+    "Sting, the Glinting Dagger",
+    "Patriar's Seal",
+    "Minamo, School at Water's Edge",
+    "Puppeteer",
+    "Retreat to Coralhelm",
+    "Lightning Greaves",
+    "Swiftfoot Boots"
+   ],
+   "ruling": "Untap engines:\n- **Sting** untaps Tetsuo at the beginning of every combat, including opponents' combats. You get priority before attackers are declared, so in multiplayer that's a fresh activation each turn if you have {U}{B}{B}{R}.\n- **Patriar's Seal** ({1}, {T}) and **Minamo** ({U}, {T}) untap legendary Tetsuo. One Seal can't both make mana and untap, since both need {T}.\n- **Puppeteer** untaps Tetsuo, or taps a target.\n- **Retreat to Coralhelm** triggers on each land entering, so a fetchland and the land it finds give two triggers.\n\nUntapping Tetsuo doesn't affect an activation already on the stack. Sting, Lightning Greaves and Swiftfoot Boots give haste, so he can use his {T} ability the turn you gain control of him.",
+   "status": "verified",
+   "cr": [
+    "302.6",
+    "702.10b",
+    "507.1"
+   ],
+   "oracle": [
+    {
+     "card": "Sting, the Glinting Dagger",
+     "quote": "At the beginning of each combat, untap equipped creature."
+    },
+    {
+     "card": "Patriar's Seal",
+     "quote": "{1}, {T}: Untap target legendary creature you control."
+    },
+    {
+     "card": "Retreat to Coralhelm",
+     "quote": "Landfall — Whenever a land you control enters, choose one —"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Retreat to Coralhelm",
+     "quote": "A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+     "item": "Sting the Glinting Dagger"
+    },
+    {
+     "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+     "item": "Untap after activation"
+    },
+    {
+     "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+     "item": "Patriars Seal"
+    },
+    {
+     "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+     "item": "Retreat plus fetchlands"
+    },
+    {
+     "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+     "item": "Haste package"
+    }
+   ]
+  },
+  {
+   "id": "tetsuou-05",
+   "category": "zone",
+   "title": "Blustersquall overload and Sink into Stupor",
+   "cards": [
+    "Tetsuo Umezawa",
+    "Blustersquall",
+    "Sink into Stupor // Soporific Springs"
+   ],
+   "ruling": "Blustersquall's normal cast taps one target creature. Overloaded, it taps every creature you don't control without targeting, so hexproof and protection don't stop it. That makes the whole table legal Tetsuo targets. Cast without paying its mana cost, it can't be overloaded. Sink into Stupor bounces a spell or nonland permanent rather than countering it, and the MDFC can be played as Soporific Springs instead.",
+   "status": "verified",
+   "cr": [
+    "702.96a",
+    "712.12"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Blustersquall",
+     "quote": "Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color."
+    },
+    {
+     "card": "Blustersquall",
+     "quote": "If you are instructed to cast a spell with overload \"without paying its mana cost,\" you can't choose to pay its overload cost instead."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+     "item": "Blustersquall"
+    },
+    {
+     "path": "refinement/verification/tetsuo_umezawa_2026-10-15/gate_output/Tetsuo_Umezawa_Rules_Attestation.json",
+     "item": "Sink into Stupor MDFC"
+    }
+   ]
+  }
+ ]
+}

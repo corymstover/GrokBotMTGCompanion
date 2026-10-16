@@ -12,7 +12,7 @@
 
 ## Status
 <!-- INTERACTIONS-STATUS:START -->
-**52/62 decks reviewed · 533 rulings (9 uncertain, 30 flags).**
+**55/62 decks reviewed · 552 rulings (9 uncertain, 32 flags).**
 
 | Batch | Status | Decks |
 |---|---|---|
@@ -21,7 +21,7 @@
 | C | done (Bot cycle 49) | [gwendlyn-di-corci](gwendlyn-di-corci.md) (10) · [inalla-archmage-ritualist](inalla-archmage-ritualist.md) (9) · [jeleva-nephalias-scourge](jeleva-nephalias-scourge.md) (10) · [kefka-court-mage](kefka-court-mage.md) (13) · [kess-dissident-mage](kess-dissident-mage.md) (9) · [loki-the-deceiver](loki-the-deceiver.md) (7) · [lord-of-tresserhorn](lord-of-tresserhorn.md) (13) · [lord-xander-the-collector](lord-xander-the-collector.md) (11) · [lynde-cheerful-tormentor](lynde-cheerful-tormentor.md) (8) · [mai-and-zuko](mai-and-zuko.md) (9) |
 | D | done (Bot cycle 51) | [mairsil-the-pretender](mairsil-the-pretender.md) (11) · [marchesa-dealer-of-death](marchesa-dealer-of-death.md) (8) · [marchesa-the-black-rose](marchesa-the-black-rose.md) (11) · [mishra-artificer-prodigy](mishra-artificer-prodigy.md) (10) · [mishra-eminent-one](mishra-eminent-one.md) (9) · [missy](missy.md) (9) · [nathan-drake-treasure-hunter](nathan-drake-treasure-hunter.md) (8) · [nekusar-the-mindrazer](nekusar-the-mindrazer.md) (9) · [nicol-bolas-the-ravager](nicol-bolas-the-ravager.md) (8) · [nicol-bolas](nicol-bolas.md) (9) |
 | E | done (Bot cycle 54) | [norman-osborn](norman-osborn.md) (9) · [obeka-brute-chronologist](obeka-brute-chronologist.md) (5) · [obeka-splitter-of-seconds](obeka-splitter-of-seconds.md) (5) · [parnesse-the-subtle-brush](parnesse-the-subtle-brush.md) (10) · [rograkh-son-of-rohgahh-silas-renn](rograkh-son-of-rohgahh-silas-renn.md) (8) · [saruman-the-white-hand](saruman-the-white-hand.md) (7) · [sauron-lord-of-the-rings](sauron-lord-of-the-rings.md) (5) · [sauron-the-dark-lord](sauron-the-dark-lord.md) (5) · [sedris-the-traitor-king](sedris-the-traitor-king.md) (6) · [solkanar-the-swamp-king](solkanar-the-swamp-king.md) (6) |
-| F | planned | solkanar-the-tainted · tetsuo-imperial-champion · tetsuo-umezawa · the-madcap-jester · the-rani · the-valeyard · thraximundar · tresserhorns-lord-returned · wick-the-whorled-mind · zevlor-elturel-exile |
+| F | in progress (Bot cycle 56) | [solkanar-the-tainted](solkanar-the-tainted.md) (8) · [tetsuo-imperial-champion](tetsuo-imperial-champion.md) (6) · [tetsuo-umezawa](tetsuo-umezawa.md) (5) · the-madcap-jester · the-rani · the-valeyard · thraximundar · tresserhorns-lord-returned · wick-the-whorled-mind · zevlor-elturel-exile |
 <!-- INTERACTIONS-STATUS:END -->
 
 ## Method

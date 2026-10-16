@@ -1,0 +1,348 @@
+{
+ "schema": 1,
+ "deck_id": "Tetsuo__Imperial_Champion",
+ "slug": "tetsuo-imperial-champion",
+ "commanders": [
+  "Tetsuo, Imperial Champion"
+ ],
+ "deck_sha256": "1e551bc95c4918b340539539ed8ba1275f791d4f19330eb6141f84a48927a0d4",
+ "list_source": "exports/grixis-archidekt/tetsuo-imperial-champion.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 56,
+ "batch": "F",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+   "note": "Rules attestation (19 items, all PASS) re-verified"
+  },
+  {
+   "path": "refinement/verification/Tetsuo_Imperial_Champion_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification"
+  }
+ ],
+ "summary": "Tetsuo, Imperial Champion is Voltron with free spells. If he's equipped when he attacks, he either deals damage equal to his biggest Equipment's MV or free-casts an instant or sorcery up to that MV. Extra combats (Savage Beating, World at War, Genji Glove, Hexplate Wallbreaker, Godo, Aggravated Assault + Sword of Feast and Famine or Reaver Cleaver) retrigger him. All 2 Spellbook lines and all 19 attestation items are re-verified against the canonical list. The cut Relentless Assault and Seize the Day are absent.\n\nRules surprises: Excalibur's mana value stays 12 even when it's nearly free; no-mana-cost suspend cards (MV 0) always fit his cap; Savage Beating's extra combat comes with no main phase between; casting World at War in combat still works and still rebounds. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "tetsuoic-01",
+   "category": "commander",
+   "title": "Intervening-if attack trigger; ceiling = greatest Equipment MV on resolution",
+   "cards": [
+    "Tetsuo, Imperial Champion",
+    "Excalibur, Sword of Eden",
+    "Kaldra Compleat",
+    "Argentum Armor",
+    "Embercleave",
+    "Leyline Axe",
+    "Basilisk Collar"
+   ],
+   "ruling": "Tetsuo triggers only if he's equipped when he attacks, and does nothing if he's unequipped when the trigger resolves. The mode and any target are chosen as it goes on the stack. The number used is the greatest mana value among Equipment attached when it resolves. Cost reductions don't lower mana value, so Excalibur counts as 12 however little you paid. Kaldra Compleat counts 7, Argentum Armor and Embercleave 6, and Leyline Axe 4. In the damage mode Tetsuo is the source. With Basilisk Collar that damage has deathtouch and lifelink, even though it isn't combat damage.",
+   "short": "Equipped on attack + on resolution; Excalibur sets a 12 ceiling.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "oracle": [
+    {
+     "card": "Tetsuo, Imperial Champion",
+     "quote": "Whenever Tetsuo attacks, if it's equipped, choose one —"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Tetsuo, Imperial Champion",
+     "quote": "If Tetsuo isn't equipped when it's declared as an attacking creature, the ability won't trigger. If Tetsuo isn't equipped when the ability resolves, the ability won't do anything."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Tetsuo attack trigger and equipped condition"
+    },
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Greatest Equipment mana value"
+    },
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Leyline Axe"
+    },
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Basilisk Collar and Tetsuo damage mode"
+    }
+   ]
+  },
+  {
+   "id": "tetsuoic-02",
+   "category": "timing",
+   "title": "Free cast during resolution: sorceries in combat, no-mana-cost suspend cards, entwine",
+   "cards": [
+    "Tetsuo, Imperial Champion",
+    "Ancestral Vision",
+    "Profane Tutor",
+    "Wheel of Fate",
+    "Inevitable Betrayal",
+    "Savage Beating"
+   ],
+   "ruling": "Tetsuo lets you cast a spell while his trigger resolves, so sorcery timing doesn't matter, but other restrictions still apply. Casting without paying the mana cost rules out alternative costs, but you may pay additional costs. Savage Beating's entwine {1}{R} can be paid on top of the free cast.\n\nAncestral Vision, Profane Tutor, Wheel of Fate and Inevitable Betrayal have no mana cost, so their MV is 0. They can't be cast normally, but casting them free is exactly what's needed. Any equipped Tetsuo can cast them.",
+   "short": "Sorceries mid-combat; MV 0 suspend cards always fit; entwine payable.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "601.2f",
+    "702.42a",
+    "202.3"
+   ],
+   "oracle": [
+    {
+     "card": "Savage Beating",
+     "quote": "Cast this spell only during combat on your turn."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Profane Tutor",
+     "quote": "A card with no mana cost can't be cast normally; you'll need a way to cast it for an alternative cost or without paying its mana cost, such as by suspending it."
+    },
+    {
+     "card": "Ancestral Vision",
+     "quote": "If you cast a card \"without paying its mana cost,\" such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Casting during trigger resolution"
+    },
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "No-mana-cost suspend spells"
+    },
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Savage Beating"
+    }
+   ]
+  },
+  {
+   "id": "tetsuoic-03",
+   "category": "timing",
+   "title": "Extra combats: Savage Beating vs World at War vs the cut Relentless Assault",
+   "cards": [
+    "Tetsuo, Imperial Champion",
+    "Savage Beating",
+    "World at War",
+    "Genji Glove",
+    "Hexplate Wallbreaker",
+    "Godo, Bandit Warlord",
+    "Akki Battle Squad"
+   ],
+   "ruling": "Extra-combat cards and when their combat happens:\n- **Savage Beating:** the extra combat comes right after the current one, with no main phase between. Tetsuo attacks again and triggers again.\n- **World at War:** works if it resolves before the first postcombat main phase ends, so casting it in the first combat is fine. The new combat comes after the second main phase and untaps everything that attacked. Cast from hand, even free, it rebounds for another free cast next upkeep.\n- **Relentless Assault and Seize the Day:** both make their combat \"after this main phase\", so they do nothing when cast in combat. They're correctly out of the list.\n- **Genji Glove, Hexplate Wallbreaker and Godo:** add a combat only on the first combat or first attack each turn. Glove and Wallbreaker are MV 5, enough for Savage Beating or World at War.\n- **Akki Battle Squad:** triggers once a turn.\n\nTetsuo's own trigger has no turn limit.",
+   "short": "Beating = combat now; World at War = combat after main 2 (rebound); Relentless Assault would fizzle in combat.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "oracle": [
+    {
+     "card": "World at War",
+     "quote": "After the second main phase this turn, there's an additional combat phase followed by an additional main phase. At the beginning of that combat, untap all creatures that attacked this turn."
+    },
+    {
+     "card": "Genji Glove",
+     "quote": "Whenever equipped creature attacks, if it's the first combat phase of the turn, untap it. After this phase, there is an additional combat phase."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Savage Beating",
+     "quote": "The additional combat phase is directly after the combat phase in which Savage Beating is cast. There isn't a main phase between the two combat phases."
+    },
+    {
+     "card": "World at War",
+     "quote": "As long as World at War resolves before the first postcombat main phase of a turn ends, it will have its full effect. That will happen in most cases, since it’s a sorcery (meaning it’s probably cast during the first or second main phase of a turn), and it has rebound (meaning it’ll be cast during your upkeep). If, however, it’s cast later than that, it won’t create any new phases."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "World at War"
+    },
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Historical Relentless Assault / Seize the Day correction"
+    },
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Repeated Tetsuo attacks"
+    },
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Genji Glove / Hexplate Wallbreaker"
+    },
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Godo and Samurai typing"
+    }
+   ]
+  },
+  {
+   "id": "tetsuoic-04",
+   "category": "combo",
+   "title": "Aggravated Assault + Sword of Feast and Famine or The Reaver Cleaver: infinite combats",
+   "cards": [
+    "Tetsuo, Imperial Champion",
+    "Aggravated Assault",
+    "Sword of Feast and Famine",
+    "The Reaver Cleaver",
+    "Buster Sword"
+   ],
+   "ruling": "Connect with Sword of Feast and Famine to untap your lands, or with The Reaver Cleaver on a creature with 5+ power for at least six Treasures. Then, in the postcombat main phase, pay {3}{R}{R} for Aggravated Assault: another combat and main phase, with your creatures untapped. That's Spellbook 900-3750 and 3750-5039. Each new combat retriggers Tetsuo. Assault is sorcery speed, so it only works in a main phase. Buster Sword adds a draw and a free cast up to the damage dealt; the cast must happen as its trigger resolves.",
+   "short": "Sword/Cleaver pays Assault each main phase; every combat retriggers Tetsuo.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "602.5d",
+    "500.8"
+   ],
+   "oracle": [
+    {
+     "card": "Aggravated Assault",
+     "quote": "{3}{R}{R}: Untap all creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate only as a sorcery."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Buster Sword",
+     "quote": "You choose whether to cast a spell from among the cards in your hand as Buster Sword's middle ability resolves. You can't wait to cast one later in the turn. Timing restrictions based on the card's types are ignored."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "900-3750",
+     "quote": "Sword of Feast and Famine triggers, causing that opponent to discard a card, and you to untap all lands you control."
+    },
+    {
+     "id": "3750-5039",
+     "quote": "The creature triggers, creating at least six Treasure tokens."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Aggravated Assault plus Sword of Feast and Famine"
+    },
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Buster Sword"
+    }
+   ]
+  },
+  {
+   "id": "tetsuoic-05",
+   "category": "zone",
+   "title": "Oathkeeper: return the Samurai card, or let the commander rule take it",
+   "cards": [
+    "Tetsuo, Imperial Champion",
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "ruling": "If an equipped Tetsuo dies, Oathkeeper returns him, because it checks whether the card is a Samurai, and Tetsuo is a Human Samurai. Leave him in the graveyard when state-based actions offer the command zone, or the trigger can't find him. If Oathkeeper itself goes to the graveyard while attached, it exiles Tetsuo. You can then move him to the command zone as a state-based action.",
+   "status": "verified",
+   "cr": [
+    "903.9a",
+    "400.7"
+   ],
+   "oracle": [
+    {
+     "card": "Oathkeeper, Takeno's Daisho",
+     "quote": "Whenever equipped creature dies, return that card to the battlefield under your control if it's a Samurai card."
+    },
+    {
+     "card": "Oathkeeper, Takeno's Daisho",
+     "quote": "When Oathkeeper is put into a graveyard from the battlefield, exile equipped creature."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Oathkeeper, Takeno's Daisho",
+     "quote": "Oathkeeper's second ability checks whether the card's creature type is Samurai, not whether the creature was a Samurai when it left the battlefield."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Oathkeeper, Takenos Daisho"
+    }
+   ]
+  },
+  {
+   "id": "tetsuoic-06",
+   "category": "engine",
+   "title": "Attaching and protecting: Hammer of Nazahn, Brass Squire, Blacksmith's Talent, Swiftfoot Boots, Chandra's Ignition",
+   "cards": [
+    "Tetsuo, Imperial Champion",
+    "Hammer of Nazahn",
+    "Brass Squire",
+    "Blacksmith's Talent",
+    "Swiftfoot Boots",
+    "Chandra's Ignition"
+   ],
+   "ruling": "Getting equipped and finishing:\n- Hammer of Nazahn attaches Equipment as it enters, and Brass Squire attaches at instant speed.\n- Blacksmith's Talent level 2 attaches at the beginning of combat, so Tetsuo is equipped before he attacks.\n- Swiftfoot Boots gives hexproof without shroud, so your own effects can still target him.\n- Chandra's Ignition makes a large equipped Tetsuo the damage source, hitting each other creature and each opponent for his power. That's why Sword of Wealth and Power, with protection from sorceries, was cut. Ignition does nothing if its target is illegal.",
+   "status": "verified",
+   "cr": [
+    "702.11b",
+    "702.6a"
+   ],
+   "oracle": [
+    {
+     "card": "Chandra's Ignition",
+     "quote": "Target creature you control deals damage equal to its power to each other creature and each opponent."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Chandra's Ignition",
+     "quote": "The creature is the source of the damage, not Chandra's Ignition. For example, Chandra's Ignition can have a white creature deal damage to a creature with protection from red."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Attachment engines"
+    },
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Swiftfoot Boots"
+    },
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Chandras Ignition"
+    },
+    {
+     "path": "refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json",
+     "item": "Mana-base revision"
+    }
+   ]
+  }
+ ]
+}

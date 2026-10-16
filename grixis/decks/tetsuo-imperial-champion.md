@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -443,6 +444,17 @@ This approval freezes `refinement/decklists/Tetsuo_Imperial_Champion_Approved_20
 
 - [refinement/verification/Tetsuo_Imperial_Champion_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Tetsuo_Imperial_Champion_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Tetsuo_Imperial_Champion_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Tetsuo_Imperial_Champion_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 56 interaction review: **6 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Tetsuo, Imperial Champion — Interaction Review](../interactions/tetsuo-imperial-champion.md).
+
+- **Intervening-if attack trigger; ceiling = greatest Equipment MV on resolution** — Equipped on attack + on resolution; Excalibur sets a 12 ceiling. ([tetsuoic-01](../interactions/tetsuo-imperial-champion.md#tetsuoic-01-intervening-if-attack-trigger-ceiling--greatest-equipment-mv-on-resolution))
+- **Free cast during resolution: sorceries in combat, no-mana-cost suspend cards, entwine** — Sorceries mid-combat; MV 0 suspend cards always fit; entwine payable. ([tetsuoic-02](../interactions/tetsuo-imperial-champion.md#tetsuoic-02-free-cast-during-resolution-sorceries-in-combat-no-mana-cost-suspend-cards-entwine))
+- **Extra combats: Savage Beating vs World at War vs the cut Relentless Assault** — Beating = combat now; World at War = combat after main 2 (rebound); Relentless Assault would fizzle in combat. ([tetsuoic-03](../interactions/tetsuo-imperial-champion.md#tetsuoic-03-extra-combats-savage-beating-vs-world-at-war-vs-the-cut-relentless-assault))
+- **Aggravated Assault + Sword of Feast and Famine or The Reaver Cleaver: infinite combats** — Sword/Cleaver pays Assault each main phase; every combat retriggers Tetsuo. ([tetsuoic-04](../interactions/tetsuo-imperial-champion.md#tetsuoic-04-aggravated-assault--sword-of-feast-and-famine-or-the-reaver-cleaver-infinite-combats))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
