@@ -1,0 +1,573 @@
+{
+ "schema_version": 2,
+ "deck_id": "Tetsuo_Umezawa",
+ "slug": "tetsuo-umezawa",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+ "commanders": {
+  "value": [
+   {
+    "name": "Tetsuo Umezawa",
+    "oracle_id": "ff132d04-c3a9-4949-83ba-d80bcbcd7b9b",
+    "oracle_text": "Tetsuo Umezawa can't be the target of Aura spells.\n{U}{B}{B}{R}, {T}: Destroy target tapped or blocking creature.",
+    "oracle_sha256": "sha256:71dd348e5476148ad62b3b1a120fd5ac574d043e02de526a4af2b58a99ba46fd",
+    "type_line": "Legendary Creature — Human Archer"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Tetsuo Umezawa"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Tap/untap creature control: make targets with goad, forced attacks and tap effects, then use Tetsuo's {U}{B}{B}{R}, {T} to destroy tapped or blocking creatures, untapping him again and again (Minamo, Magewright's Stone, Thousand-Year Elixir, Alchemist, Fatestitcher, Puppeteer, Patriar's Seal, Retreat, Sting).",
+   "secondary": "Turn the tapped board into cards and pressure with Verity Circle, Borrowing 100,000 Arrows, Firkraag, Karazikar and Grenzo; Rings of Brighthearth and Illusionist's Bracers copy activations."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L15",
+   "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L16",
+   "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L17",
+   "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L18",
+   "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L19"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Tetsuo's activation is the deck's repeatable removal, and the untap suite exists to reuse it.",
+   "honest_note": "Commander-native control. The one Spellbook combo (283-4091, Illusionist's Bracers + Aphetto Alchemist) gives infinite untaps but no mana, so Tetsuo still pays {U}{B}{B}{R} per activation. There is no compact kill; the deck wins by grinding and combat. The source calls Tetsuo mana-intensive and board-dependent (blueprint L43)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L43",
+   "spellbook:283-4091"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "grind-and-goad",
+   "kind": "natural",
+   "description": "Repeated removal plus goad and forced combat until opponents are out of creatures; Kardur, Firkraag and Karazikar push damage.",
+   "cards": [
+    "Tetsuo Umezawa",
+    "Kardur, Doomscourge",
+    "Firkraag, Cunning Instigator",
+    "Karazikar, the Eye Tyrant",
+    "Red Death, Shipwrecker"
+   ],
+   "enablers": [
+    "Flood",
+    "Blustersquall",
+    "Puppeteer",
+    "Disrupt Decorum"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L19"
+   ]
+  },
+  {
+   "id": "bracers-alchemist",
+   "kind": "combo",
+   "description": "Illusionist's Bracers + Aphetto Alchemist gives infinite untaps; with enough mana it gives repeated Tetsuo activations.",
+   "cards": [
+    "Illusionist's Bracers",
+    "Aphetto Alchemist"
+   ],
+   "enablers": [
+    "Tetsuo Umezawa"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:283-4091"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "destroy-tapped-or-blocking",
+   "cards": [
+    "Tetsuo Umezawa"
+   ],
+   "online_condition": "{U}{B}{B}{R}; target tapped or blocking.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Tetsuo Umezawa",
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L11"
+   ]
+  },
+  {
+   "id": "untap-suite",
+   "cards": [
+    "Minamo, School at Water's Edge",
+    "Magewright's Stone",
+    "Thousand-Year Elixir",
+    "Aphetto Alchemist",
+    "Fatestitcher",
+    "Puppeteer",
+    "Patriar's Seal",
+    "Retreat to Coralhelm",
+    "Sting, the Glinting Dagger"
+   ],
+   "online_condition": "Tetsuo tapped after an activation.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L17",
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L35"
+   ]
+  },
+  {
+   "id": "copy-activation",
+   "cards": [
+    "Rings of Brighthearth",
+    "Illusionist's Bracers"
+   ],
+   "online_condition": "Extra mana for the copy.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L18"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:untap",
+   "required": true,
+   "min_count": 7,
+   "role": "Reuse Tetsuo.",
+   "cards": [
+    "Minamo, School at Water's Edge",
+    "Magewright's Stone",
+    "Thousand-Year Elixir",
+    "Aphetto Alchemist",
+    "Fatestitcher",
+    "Puppeteer",
+    "Patriar's Seal",
+    "Retreat to Coralhelm",
+    "Sting, the Glinting Dagger"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L17",
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L35"
+   ]
+  },
+  {
+   "id": "pkg:target-makers",
+   "required": true,
+   "min_count": 8,
+   "role": "Make tapped or blocking targets.",
+   "cards": [
+    "Flood",
+    "Blustersquall",
+    "Puppeteer",
+    "Disrupt Decorum",
+    "Fumiko the Lowblood",
+    "Kardur, Doomscourge",
+    "Firkraag, Cunning Instigator",
+    "Karazikar, the Eye Tyrant",
+    "Bloodthirsty Blade",
+    "Shiny Impetus",
+    "Sly Instigator",
+    "Grenzo, Havoc Raiser"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L16",
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L37"
+   ]
+  },
+  {
+   "id": "pkg:payoffs",
+   "required": false,
+   "min_count": 3,
+   "role": "Convert the tapped board.",
+   "cards": [
+    "Verity Circle",
+    "Borrowing 100,000 Arrows",
+    "Firkraag, Cunning Instigator",
+    "Karazikar, the Eye Tyrant",
+    "Grenzo, Havoc Raiser"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L19"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "two-conditions",
+   "summary": "Tapped or blocking are independent: an untapped blocker is still a legal target.",
+   "cards": [
+    "Tetsuo Umezawa"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Tetsuo Umezawa",
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L11"
+   ]
+  },
+  {
+   "id": "sting-reset",
+   "summary": "Sting untaps Tetsuo at the beginning of each combat, every player's turn.",
+   "cards": [
+    "Sting, the Glinting Dagger",
+    "Tetsuo Umezawa"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Tetsuo_Umezawa_Candidate_Decisions_2026-10-15.md#L29",
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L23"
+   ]
+  },
+  {
+   "id": "no-mana-vault",
+   "summary": "Mana Vault was rejected: Tetsuo's cost and activation have no generic mana.",
+   "cards": [
+    "Patriar's Seal"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Tetsuo_Umezawa_Candidate_Decisions_2026-10-15.md#L60"
+   ]
+  },
+  {
+   "id": "retreat-fetch",
+   "summary": "A fetchland gives Retreat to Coralhelm two landfall triggers.",
+   "cards": [
+    "Retreat to Coralhelm"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Tetsuo_Umezawa_Candidate_Decisions_2026-10-15.md#L44"
+   ]
+  },
+  {
+   "id": "goad-targets",
+   "summary": "Goaded creatures must attack, so they become tapped targets.",
+   "cards": [
+    "Disrupt Decorum",
+    "Bloodthirsty Blade",
+    "Shiny Impetus"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "cr:701.15a"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Illusionist's Bracers",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:283-4091"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Mana Drain, Counterspell, Terminate, Withering Torment, Chaos Warp, Damnation, Blasphemous Act, Cyclonic Rift, Vandalblast.",
+   "protection": "Lightning Greaves, Swiftfoot Boots, Force of Will.",
+   "mana": "36 land-capable slots with heavy colored sources for {U}{B}{B}{R}."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L29",
+   "source_archive:refinement/decisions/Tetsuo_Umezawa_Candidate_Decisions_2026-10-15.md#L53"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "colored-mana-hungry",
+   "description": "Each activation costs four colored mana.",
+   "mitigations": [
+    "Patriar's Seal",
+    "Premium duals"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L43"
+   ]
+  },
+  {
+   "id": "creatureless-opponents",
+   "description": "Spell-based combo opponents give no targets.",
+   "mitigations": [
+    "Force of Will",
+    "Mana Drain"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Tetsuo Umezawa"
+   ]
+  },
+  {
+   "id": "removal-on-tetsuo",
+   "description": "Removal on Tetsuo shuts off the deck.",
+   "mitigations": [
+    "Greaves",
+    "Boots"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "oracle:Tetsuo Umezawa"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L43"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L41"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Low-to-mid Bracket 4: tuned and well protected, but no compact kill and a narrow commander. Agrees with the source; it plays below most batch-4 decks."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L43",
+    "source_archive:refinement/verification/Tetsuo_Umezawa_Whole_List_Audit_2026-10-15.md#L64"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Tetsuo_Umezawa"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 4,
+     "2": 13,
+     "3": 10,
+     "4": 4
+    },
+    "decks_with_bracket": 31,
+    "share_b4_plus": 0.129,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__tetsuo-umezawa.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Tetsuo Umezawa",
+   "why": "Repeatable destroy-tapped-or-blocking.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Tetsuo Umezawa"
+   ]
+  },
+  {
+   "card": "Sting, the Glinting Dagger",
+   "why": "Untaps Tetsuo each combat.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L23"
+   ]
+  },
+  {
+   "card": "Minamo, School at Water's Edge",
+   "why": "Land that untaps Tetsuo.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L35"
+   ]
+  },
+  {
+   "card": "Illusionist's Bracers",
+   "why": "Copies activations.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:283-4091"
+   ]
+  },
+  {
+   "card": "Flood",
+   "why": "Repeatable target maker.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic cEDH packages (decisions L68).",
+   "No Mana Vault (L60)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Tetsuo_Umezawa_Candidate_Decisions_2026-10-15.md#L68",
+   "source_archive:refinement/decisions/Tetsuo_Umezawa_Candidate_Decisions_2026-10-15.md#L60"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Tap/untap / forced combat / activated abilities (blueprint L45)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L45"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 701.15a",
+   "note": "Goad.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.15a"
+   ]
+  },
+  {
+   "rule": "CR 602.2",
+   "note": "Activating abilities.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:602.2"
+   ]
+  },
+  {
+   "rule": "CR 509.1a",
+   "note": "Declaring blockers.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:509.1a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "tapping / blocking creatures"
+   ],
+   "hooked_cards": 24,
+   "role_counts": {
+    "counter": 3,
+    "draw": 10,
+    "protection": 2,
+    "ramp": 14,
+    "removal": 9,
+    "tutor": 2,
+    "wipe": 3
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "tetsuo-umezawa"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/Tetsuo_Umezawa_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Tetsuo_Umezawa_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Tetsuo_Umezawa_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Tetsuo_Umezawa_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Tetsuo_Umezawa_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}

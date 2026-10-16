@@ -1,0 +1,610 @@
+{
+ "schema_version": 2,
+ "deck_id": "Tetsuo__Imperial_Champion",
+ "slug": "tetsuo-imperial-champion",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+ "commanders": {
+  "value": [
+   {
+    "name": "Tetsuo, Imperial Champion",
+    "oracle_id": "1111e042-0bce-4819-ab42-9912aed4d930",
+    "oracle_text": "Whenever Tetsuo attacks, if it's equipped, choose one —\n• Tetsuo deals damage equal to the greatest mana value among Equipment attached to it to any target.\n• You may cast an instant or sorcery spell from your hand with mana value less than or equal to the greatest mana value among Equipment attached to Tetsuo without paying its mana cost.",
+    "oracle_sha256": "sha256:141239032083d8c61f4164859934df0269cfa06d114bbcc92ca07a4b09d138f0",
+    "type_line": "Legendary Creature — Human Samurai"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Tetsuo, Imperial Champion"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Equipment free-cast: keep high-mana-value Equipment on Tetsuo, then each equipped attack either deals damage equal to the highest Equipment MV or casts an instant/sorcery from hand for free, ideally an extra combat (Savage Beating, World at War) or a suspend card (Ancestral Vision, Profane Tutor, Wheel of Fate).",
+   "secondary": "Voltron damage as a real second win, with the extra-combat package (Genji Glove, Hexplate Wallbreaker, Akki Battle Squad, Godo, Aggravated Assault + Sword of Feast and Famine)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L9",
+   "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L13",
+   "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L15",
+   "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L17"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Tetsuo's attack trigger is the deck's spell engine and burn.",
+   "honest_note": "Commander-native. Both Spellbook combos (900-3750, Sword of Feast and Famine + Aggravated Assault; 3750-5039, The Reaver Cleaver + Aggravated Assault) need an attacking creature, but not Tetsuo; he is the natural carrier. The source corrected a false Relentless Assault / Seize the Day interaction (blueprint L33)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L9",
+   "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L33",
+   "spellbook:900-3750"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "assault-loop",
+   "kind": "combo",
+   "description": "Aggravated Assault with Sword of Feast and Famine's untap or The Reaver Cleaver's Treasure for infinite combats.",
+   "cards": [
+    "Aggravated Assault",
+    "Sword of Feast and Famine",
+    "The Reaver Cleaver"
+   ],
+   "enablers": [
+    "Tetsuo, Imperial Champion"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:900-3750",
+    "spellbook:3750-5039",
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L28"
+   ]
+  },
+  {
+   "id": "voltron",
+   "kind": "natural",
+   "description": "Equipped Tetsuo with double strike/extra combats, plus trigger damage at any target.",
+   "cards": [
+    "Tetsuo, Imperial Champion",
+    "Embercleave",
+    "Leyline Axe",
+    "Kaldra Compleat",
+    "Basilisk Collar"
+   ],
+   "enablers": [
+    "Savage Beating",
+    "World at War"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L17",
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L29"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "attack-trigger",
+   "cards": [
+    "Tetsuo, Imperial Champion",
+    "Excalibur, Sword of Eden",
+    "Kaldra Compleat",
+    "Argentum Armor",
+    "Embercleave",
+    "Genji Glove",
+    "Hexplate Wallbreaker"
+   ],
+   "online_condition": "Tetsuo attacks while equipped.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Tetsuo, Imperial Champion",
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L9"
+   ]
+  },
+  {
+   "id": "attach-cheat",
+   "cards": [
+    "Brass Squire",
+    "Hammer of Nazahn",
+    "Blacksmith's Talent",
+    "Dalakos, Crafter of Wonders",
+    "Fabricate",
+    "Sword of the Animist",
+    "Enthusiastic Mechanaut"
+   ],
+   "online_condition": "Equipment in play or hand.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:high-mv-equipment",
+   "required": true,
+   "min_count": 6,
+   "role": "Raise the trigger's ceiling.",
+   "cards": [
+    "Excalibur, Sword of Eden",
+    "Kaldra Compleat",
+    "Argentum Armor",
+    "Embercleave",
+    "Genji Glove",
+    "Hexplate Wallbreaker",
+    "Leyline Axe",
+    "Buster Sword",
+    "The Reaver Cleaver"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L25",
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L13"
+   ]
+  },
+  {
+   "id": "pkg:attach",
+   "required": true,
+   "min_count": 4,
+   "role": "Cheap attaching and Equipment tutors.",
+   "cards": [
+    "Brass Squire",
+    "Hammer of Nazahn",
+    "Blacksmith's Talent",
+    "Dalakos, Crafter of Wonders",
+    "Fabricate",
+    "Sword of the Animist",
+    "Enthusiastic Mechanaut"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L14",
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  },
+  {
+   "id": "pkg:free-cast",
+   "required": true,
+   "min_count": 5,
+   "role": "Spells worth casting free.",
+   "cards": [
+    "Ancestral Vision",
+    "Profane Tutor",
+    "Wheel of Fate",
+    "Inevitable Betrayal",
+    "Savage Beating",
+    "World at War",
+    "Chandra's Ignition"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L27",
+    "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L31",
+    "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L32"
+   ]
+  },
+  {
+   "id": "pkg:protection",
+   "required": true,
+   "min_count": 3,
+   "role": "Haste and protection.",
+   "cards": [
+    "Swiftfoot Boots",
+    "Oathkeeper, Takeno's Daisho",
+    "Mithril Coat",
+    "Winged Boots",
+    "Deflecting Swat",
+    "Fierce Guardianship"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L16",
+    "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L29",
+    "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L30"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "main-phase-only",
+   "summary": "Relentless Assault / Seize the Day only add combats if cast in a main phase; Tetsuo casts in combat, so they were cut.",
+   "cards": [
+    "Savage Beating",
+    "World at War"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L33",
+    "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L46",
+    "cr:505.1"
+   ]
+  },
+  {
+   "id": "savage-beating",
+   "summary": "Savage Beating works at combat timing when the Equipment ceiling is at least five.",
+   "cards": [
+    "Savage Beating"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L31",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "world-at-war-rebound",
+   "summary": "World at War cast in combat still adds a later combat, and rebound works because it was cast from hand.",
+   "cards": [
+    "World at War"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L32"
+   ]
+  },
+  {
+   "id": "suspend-free-cast",
+   "summary": "Suspend cards with no mana cost can be cast through Tetsuo because his ability supplies the alternative cost.",
+   "cards": [
+    "Ancestral Vision",
+    "Profane Tutor",
+    "Wheel of Fate"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L27",
+    "cr:118.9"
+   ]
+  },
+  {
+   "id": "collar-damage",
+   "summary": "Tetsuo deals the trigger damage himself, so Basilisk Collar gives it deathtouch and lifelink.",
+   "cards": [
+    "Basilisk Collar"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L29"
+   ]
+  },
+  {
+   "id": "no-wealth-power",
+   "summary": "Sword of Wealth and Power was rejected: protection from instants/sorceries blocks Tetsuo's own targeted spells.",
+   "cards": [
+    "Chandra's Ignition"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L37"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Embercleave",
+   "via": [
+    "Fabricate",
+    "Sword of the Animist",
+    "Enthusiastic Mechanaut",
+    "Profane Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Academy Ruins",
+   "Oathkeeper, Takeno's Daisho"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L30"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Fierce Guardianship, Terminate, Withering Torment, Chaos Warp, Blasphemous Act, Cyclonic Rift.",
+   "protection": "Swiftfoot Boots, Oathkeeper, Mithril Coat, Deflecting Swat.",
+   "mana": "35 lands with Sol Ring, Ancient Tomb, Signets and Talismans."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L33",
+   "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L26"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "equipment-hate",
+   "description": "Artifact removal or an unequipped Tetsuo turns the trigger off.",
+   "mitigations": [
+    "Equipment density",
+    "Academy Ruins"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Tetsuo, Imperial Champion"
+   ]
+  },
+  {
+   "id": "blockers-and-removal",
+   "description": "Tetsuo has to attack and survive.",
+   "mitigations": [
+    "Boots",
+    "Oathkeeper",
+    "Winged Boots"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L16"
+   ]
+  },
+  {
+   "id": "empty-hand",
+   "description": "The free-cast mode needs a good spell in hand.",
+   "mitigations": [
+    "Rhystic Study",
+    "Mystic Remora",
+    "Wheel of Fate"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "oracle:Tetsuo, Imperial Champion"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L9"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L19"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4: two-card infinite combat lines and fast Equipment tutoring, but a combat-dependent commander. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:900-3750",
+    "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L42"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Tetsuo__Imperial_Champion"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 9,
+     "2": 227,
+     "3": 228,
+     "4": 93,
+     "5": 5
+    },
+    "decks_with_bracket": 562,
+    "share_b4_plus": 0.174,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__tetsuo-imperial-champion.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Tetsuo, Imperial Champion",
+   "why": "Equipped attack: burn or free spell.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Tetsuo, Imperial Champion"
+   ]
+  },
+  {
+   "card": "Aggravated Assault",
+   "why": "Infinite-combat outlet.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:900-3750"
+   ]
+  },
+  {
+   "card": "Sword of Feast and Famine",
+   "why": "Untaps lands for Assault.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:900-3750"
+   ]
+  },
+  {
+   "card": "Excalibur, Sword of Eden",
+   "why": "Very high MV for the trigger.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L25"
+   ]
+  },
+  {
+   "card": "Brass Squire",
+   "why": "Free attaching.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic cEDH conversion (decisions L42).",
+   "No Time Warp effects over extra combats (L38)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L42",
+   "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md#L38"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Equipment / free-cast spells / extra combats (blueprint L21)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L21"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 118.9",
+   "note": "Alternative costs.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:118.9"
+   ]
+  },
+  {
+   "rule": "CR 500.8",
+   "note": "Extra phases.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:500.8"
+   ]
+  },
+  {
+   "rule": "CR 702.6a",
+   "note": "Equip.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.6a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "combat damage / attack triggers",
+    "instants and sorceries"
+   ],
+   "hooked_cards": 41,
+   "role_counts": {
+    "counter": 2,
+    "draw": 11,
+    "protection": 7,
+    "ramp": 11,
+    "removal": 6,
+    "tutor": 4,
+    "wipe": 1
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "tetsuo-imperial-champion"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Tetsuo_Imperial_Champion_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Tetsuo_Imperial_Champion_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Tetsuo_Imperial_Champion_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Tetsuo_Imperial_Champion_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}

@@ -4,7 +4,7 @@
  "slug": "obeka-splitter-of-seconds",
  "version": 1,
  "status": "seeded",
- "cycle": 53,
+ "cycle": 55,
  "date": "2026-10-16",
  "canonical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
  "commanders": {
@@ -40,7 +40,7 @@
   "value": {
    "level": "central",
    "advances_plan": "Obeka's combat-damage trigger is the deck's resource multiplier, and she's in all 5 Spellbook combos in the list.",
-   "honest_note": "Strongly commander-native: every combo includes Obeka (Time Sieve + Court of Vantress/Thopter Spy Network/Replicating Ring/Smaug; Mechanized Production). She has to connect in combat first, so a 2/5 menace attacker is the bottleneck, and the extra upkeeps arrive after combat. No M1 interaction review exists yet for this deck."
+   "honest_note": "Strongly commander-native: every combo includes Obeka (Time Sieve + Court of Vantress/Thopter Spy Network/Replicating Ring/Smaug; Mechanized Production). She has to connect in combat first, so a 2/5 menace attacker is the bottleneck, and the extra upkeeps arrive after combat. M1 review (obekass-01..05, all verified) confirms the extra-upkeep rules; Roaming Throne + Wizard's Staff gives three triggers, not four (obekass-03)."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -257,10 +257,13 @@
    "cards": [
     "Obeka, Splitter of Seconds"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "obekass-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:obeka-splitter-of-seconds#obekass-01",
     "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L13",
     "cr:500.9"
    ]
@@ -272,10 +275,13 @@
     "Mjölnir, Hammer of Thor",
     "Obeka, Splitter of Seconds"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "obekass-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:obeka-splitter-of-seconds#obekass-02",
     "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L26"
    ]
   },
@@ -286,10 +292,13 @@
     "Wizard's Staff",
     "Obeka, Splitter of Seconds"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "obekass-03"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:obeka-splitter-of-seconds#obekass-03",
     "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L30"
    ]
   },
@@ -300,11 +309,47 @@
     "Roaming Throne",
     "Obeka, Splitter of Seconds"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "obekass-03"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:obeka-splitter-of-seconds#obekass-03",
     "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L29"
+   ]
+  },
+  {
+   "id": "sieve-upkeep-artifacts",
+   "summary": "Time Sieve fed by upkeep artifact makers (Thopter Spy Network, Smaug, Court of Vantress) is the extra-turn engine.",
+   "cards": [
+    "Time Sieve",
+    "Thopter Spy Network",
+    "Smaug the Magnificent"
+   ],
+   "m1_refs": [
+    "obekass-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:obeka-splitter-of-seconds#obekass-04"
+   ]
+  },
+  {
+   "id": "upkeep-wincons",
+   "summary": "Mechanized Production and Darksteel Reactor count upkeeps as wins.",
+   "cards": [
+    "Mechanized Production",
+    "Darksteel Reactor"
+   ],
+   "m1_refs": [
+    "obekass-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:obeka-splitter-of-seconds#obekass-05"
    ]
   }
  ],
@@ -584,6 +629,6 @@
    "source_archive:refinement/decklists/Obeka_Splitter_of_Seconds_Approved_2026-10-15.txt"
   ],
   "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 53)"
+  "author": "GrokBot (Bot cycle 55)"
  }
 }

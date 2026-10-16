@@ -1,0 +1,624 @@
+{
+ "schema_version": 2,
+ "deck_id": "Sol_kanar_the_Tainted",
+ "slug": "solkanar-the-tainted",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+ "commanders": {
+  "value": [
+   {
+    "name": "Sol'Kanar the Tainted",
+    "oracle_id": "4efcdefc-e49d-4bce-8581-69037bb48c0a",
+    "oracle_text": "At the beginning of your end step, choose one that hasn't been chosen —\n• Draw a card.\n• Each opponent loses 2 life and you gain 2 life.\n• Sol'Kanar deals 3 damage to up to one other target creature or planeswalker.\n• Exile Sol'Kanar, then return it to the battlefield under an opponent's control.",
+    "oracle_sha256": "sha256:b0f48f5efdc08d93cf7905276a38a1c9732b1356d703f5275e33ef14df69d6c7",
+    "type_line": "Legendary Creature — Elemental Demon"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Sol'Kanar the Tainted"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Political control with cursed gifts: take value from Demonic Pact, Greed's Gambit or Illusions of Grandeur, then give the liability to an opponent with Donate-style effects; Demonic Pact + a donate effect is the compact kill.",
+   "secondary": "Recycle Sol'Kanar's once-per-object end-step modes (draw, drain 2, 3 damage, give him away) by blinking him with Thassa, Conjurer's Closet or Planar Incision; Homeward Path and Coveted Falcon recover ownership."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L13",
+   "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L14",
+   "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L15",
+   "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L16"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Sol'Kanar is repeatable end-step value, and his fourth mode is a political gift.",
+   "honest_note": "Honest call: significant, not central. All four Spellbook combos (Demonic Pact + Donate / Harmless Offering / Blim / Coveted Falcon) work without him. He adds value through blink resets but the kills are the cursed-gift package. The source calls the plan slower and more board-dependent than cEDH (blueprint L22)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L22",
+   "spellbook:2770-6676"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "pact-donate",
+   "kind": "combo",
+   "description": "After safe Demonic Pact modes, transfer it; the recipient loses on the lose-the-game mode.",
+   "cards": [
+    "Demonic Pact",
+    "Donate",
+    "Harmless Offering",
+    "Blim, Comedic Genius",
+    "Coveted Falcon"
+   ],
+   "enablers": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2770-6676",
+    "spellbook:3090-6676",
+    "spellbook:3769-6676",
+    "spellbook:6676-6922",
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L37"
+   ]
+  },
+  {
+   "id": "coil-bog",
+   "kind": "combo",
+   "description": "Give Immortal Coil away, then empty that player's graveyard with Bojuka Bog or Rakdos Charm.",
+   "cards": [
+    "Immortal Coil",
+    "Bojuka Bog",
+    "Rakdos Charm"
+   ],
+   "enablers": [
+    "Donate",
+    "Harmless Offering",
+    "Bazaar Trader"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L18",
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L36"
+   ]
+  },
+  {
+   "id": "audience-and-drain",
+   "kind": "alternate",
+   "description": "Captive Audience enters under an opponent's control; Sol'Kanar drains and Goblin Bombardment finishes.",
+   "cards": [
+    "Captive Audience",
+    "Sol'Kanar the Tainted",
+    "Goblin Bombardment"
+   ],
+   "enablers": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L19",
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L38"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "mode-reset",
+   "cards": [
+    "Sol'Kanar the Tainted",
+    "Thassa, Deep-Dwelling",
+    "Conjurer's Closet",
+    "Planar Incision"
+   ],
+   "online_condition": "Sol'Kanar plus a blink effect.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Sol'Kanar the Tainted",
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L32",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "cursed-gift",
+   "cards": [
+    "Donate",
+    "Harmless Offering",
+    "Bazaar Trader",
+    "Blim, Comedic Genius",
+    "Coveted Falcon",
+    "Role Reversal",
+    "Shifting Grift",
+    "Puca's Mischief",
+    "Fateful Handoff",
+    "Sudden Substitution",
+    "Demonic Pact",
+    "Archfiend of the Dross",
+    "Greed's Gambit",
+    "Illusions of Grandeur",
+    "Plague Reaver",
+    "Immortal Coil",
+    "Captive Audience"
+   ],
+   "online_condition": "A liability permanent plus a transfer effect.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L14",
+    "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L15"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:transfer",
+   "required": true,
+   "min_count": 7,
+   "role": "Control-transfer effects.",
+   "cards": [
+    "Donate",
+    "Harmless Offering",
+    "Bazaar Trader",
+    "Blim, Comedic Genius",
+    "Coveted Falcon",
+    "Role Reversal",
+    "Shifting Grift",
+    "Puca's Mischief",
+    "Fateful Handoff",
+    "Sudden Substitution"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L14"
+   ]
+  },
+  {
+   "id": "pkg:curses",
+   "required": true,
+   "min_count": 5,
+   "role": "Giftable liabilities.",
+   "cards": [
+    "Demonic Pact",
+    "Archfiend of the Dross",
+    "Greed's Gambit",
+    "Illusions of Grandeur",
+    "Plague Reaver",
+    "Immortal Coil",
+    "Captive Audience"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L15",
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L18",
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L19"
+   ]
+  },
+  {
+   "id": "pkg:reset",
+   "required": true,
+   "min_count": 3,
+   "role": "Reset Sol'Kanar's modes.",
+   "cards": [
+    "Thassa, Deep-Dwelling",
+    "Conjurer's Closet",
+    "Planar Incision"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L13",
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L20"
+   ]
+  },
+  {
+   "id": "pkg:ownership",
+   "required": false,
+   "min_count": 2,
+   "role": "Recover owned permanents.",
+   "cards": [
+    "Homeward Path",
+    "Coveted Falcon",
+    "Planar Incision"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L16",
+    "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L31"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "object-modes",
+   "summary": "Mode history belongs to the battlefield object; blinking creates a new object and resets it.",
+   "cards": [
+    "Sol'Kanar the Tainted"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Sol'Kanar the Tainted",
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L32",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "stack-before-blink",
+   "summary": "Order Thassa/Closet with the end-step trigger so a mode resolves before the reset.",
+   "cards": [
+    "Thassa, Deep-Dwelling",
+    "Conjurer's Closet",
+    "Sol'Kanar the Tainted"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L33",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "incision-owner",
+   "summary": "Planar Incision returns Sol'Kanar under its owner's control.",
+   "cards": [
+    "Planar Incision",
+    "Sol'Kanar the Tainted"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L34"
+   ]
+  },
+  {
+   "id": "pact-modes-follow",
+   "summary": "Demonic Pact's chosen modes stay with the permanent through control changes.",
+   "cards": [
+    "Demonic Pact"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L37"
+   ]
+  },
+  {
+   "id": "coil-controller",
+   "summary": "Immortal Coil's empty-graveyard loss applies to its current controller.",
+   "cards": [
+    "Immortal Coil"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L36"
+   ]
+  },
+  {
+   "id": "no-greaves",
+   "summary": "Lightning Greaves was cut because shroud blocks the blink targets.",
+   "cards": [
+    "Deflecting Swat"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L17"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Demonic Pact",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2770-6676"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Withering Torment, Deadly Rollick, Chaos Warp, Toxic Deluge, Blasphemous Act, Cyclonic Rift, Vandalblast.",
+   "protection": "Deflecting Swat.",
+   "mana": "35 lands including Forbidden Orchard and Homeward Path; Sol Ring, Mana Vault, Signets, Talismans."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L29",
+   "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L30",
+   "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L31"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "slow-board",
+   "description": "Sequence-dependent; fast combo outpaces it.",
+   "mitigations": [
+    "Force of Will",
+    "Fierce Guardianship"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L22"
+   ]
+  },
+  {
+   "id": "pact-removed",
+   "description": "Opponents remove a gifted Demonic Pact or Coil before it kills.",
+   "mitigations": [
+    "Redundant curses",
+    "Tutors"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L37"
+   ]
+  },
+  {
+   "id": "mode-four-loss",
+   "description": "Mode four gives Sol'Kanar away.",
+   "mitigations": [
+    "Homeward Path",
+    "Planar Incision",
+    "Coveted Falcon"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "oracle:Sol'Kanar the Tainted"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "spellbook:2770-6676"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L20"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4: compact two-card Pact kills and premium interaction, but a slower political shell. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L22",
+    "spellbook:2770-6676"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Sol_kanar_the_Tainted"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 5,
+     "2": 101,
+     "3": 21,
+     "4": 2
+    },
+    "decks_with_bracket": 129,
+    "share_b4_plus": 0.016,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__solkanar-the-tainted.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Sol'Kanar the Tainted",
+   "why": "Four once-per-object end-step modes.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Sol'Kanar the Tainted"
+   ]
+  },
+  {
+   "card": "Demonic Pact",
+   "why": "Main cursed gift.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2770-6676"
+   ]
+  },
+  {
+   "card": "Harmless Offering",
+   "why": "Transfers the Pact.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:3090-6676"
+   ]
+  },
+  {
+   "card": "Thassa, Deep-Dwelling",
+   "why": "Resets Sol'Kanar every end step.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L13"
+   ]
+  },
+  {
+   "card": "Immortal Coil",
+   "why": "Second giftable kill.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L18"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic Thoracle/Breach (decisions L54).",
+   "No Alicia Masters: her reset would undo intentional gifts (L47)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L54",
+   "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L47"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Donate / blink / giftable curses (blueprint L35)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L35"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 400.7",
+   "note": "A new object after a zone change.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:400.7"
+   ]
+  },
+  {
+   "rule": "CR 603.3b",
+   "note": "Ordering triggers.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:603.3b"
+   ]
+  },
+  {
+   "rule": "CR 700.2",
+   "note": "Modal choices.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:700.2"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "life gain",
+    "opponents losing life"
+   ],
+   "hooked_cards": 12,
+   "role_counts": {
+    "counter": 5,
+    "draw": 13,
+    "protection": 1,
+    "ramp": 12,
+    "removal": 12,
+    "tutor": 2,
+    "wipe": 4
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "solkanar-the-tainted"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Solkanar_the_Tainted_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Solkanar_the_Tainted_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Solkanar_the_Tainted_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Solkanar_the_Tainted_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}

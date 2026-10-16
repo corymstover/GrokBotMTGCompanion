@@ -391,6 +391,34 @@ def check_reconciliation(pass_a, pass_b):
 
 
 # ---------------------------------------------------------------- build helpers
+# Bot cycle 55: registry deck-id corrections. The source keys some decks by a stale tracker id; the registry uses the
+# corrected id and keeps the source id plus a provenance note. Every source-keyed lookup (data/grixis_summary.json,
+# grixis_combos.json, current_deck_overrides.json, pending, plans, projections, exceptions) still uses the source id.
+DECK_ID_CORRECTIONS = {
+    "Goben__Gene_Splice_Savant": {
+        "deck_id": "Norman_Osborn_Green_Goblin",
+        "corrected_cycle": 55, "corrected_date": "2026-10-16",
+        "note": ("The source keys this deck by the stale tracker id Goben__Gene_Splice_Savant (deck #21), already so in the frozen "
+                 "FINAL baseline. The list, approval record and every refinement artifact are Norman Osborn // Green Goblin "
+                 "(files Norman_Osborn_Green_Goblin_*), so the registry uses the corrected id. The source id is kept as "
+                 "source_deck_id; nothing in the source archive was changed."),
+        "evidence": ["source_archive:state/current_deck_overrides.json#Goben__Gene_Splice_Savant",
+                     "source_archive:refinement/approvals/Norman_Osborn_Green_Goblin_Approved_2026-10-15.md",
+                     "companion:grixis/Grixis Corrections.md#L178"]},
+}
+_SOURCE_OF = {v["deck_id"]: k for k, v in DECK_ID_CORRECTIONS.items()}
+
+
+def registry_id(source_deck_id):
+    """Registry deck id for a source deck id (identity unless corrected)."""
+    return DECK_ID_CORRECTIONS.get(source_deck_id, {}).get("deck_id", source_deck_id)
+
+
+def source_deck_id(deck_id):
+    """Source deck id for a registry deck id (identity unless corrected)."""
+    return _SOURCE_OF.get(deck_id, deck_id)
+
+
 def summary():
     return json.loads((ROOT / "data" / "grixis_summary.json").read_text(encoding="utf-8"))
 
@@ -586,7 +614,8 @@ def build_registry(R=None):
         sval = (claim.split(" ")[0] if claim and claim[0] in "12345" else None)
         if sval == "5":
             sval = "5"
-        o = old["decks"].get(did, {})
+        rid = registry_id(did)
+        o = old["decks"].get(rid) or old["decks"].get(did, {})
         initial = "PENDING_RELEASE" if comp["status"] == "pending_release" else "SOURCE_BASELINE"
         hist = o.get("state_history") or [{"state": initial, "date": M0_DATE, "cycle": CYCLE,
                                            "reason": "M0 import: source list as baseline; prior source approval kept as evidence (Cory decision 2)" + ("; cards not Commander-legal before " + pend[did]["legal_from"] if initial == "PENDING_RELEASE" else "")}]
@@ -610,8 +639,8 @@ def build_registry(R=None):
                 src_ceiling["recovered"] = {"value": eff, "label": bsc["value"]["label"], "evidence": bsc["evidence"], "cycle": bp["cycle"],
                                             "note": "build_grixis.py parsed no claim; recovered from the cited source file by the M2 blueprint (recovery, not an overwrite)"}
         dis = None if eff is None or g["value"] is None else eff != g["value"]
-        decks[did] = {
-            "deck_id": did, "slug": slug, "commanders": v["commanders"], "state": state, "state_history": hist,
+        decks[rid] = {
+            "deck_id": rid, "slug": slug, "commanders": v["commanders"], "state": state, "state_history": hist,
             "approval": o.get("approval") or {"state": None, "cycle": None, "date": None, "by": None, "record_id": None},
             "baseline_hash": bh,
             "source": {"repository": SOURCE_REPO, "commit": sha, "path": v["source_path"], "raw_sha256": raw_hash(raw),
@@ -635,6 +664,10 @@ def build_registry(R=None):
             "finalization_certificate": o.get("finalization_certificate"),
             "reopen_triggers": list(TRIGGER_KINDS), "open_triggers": o.get("open_triggers", []),
             "source_repository": SOURCE_REPO, "source_commit": sha}
+        if rid != did:
+            c = DECK_ID_CORRECTIONS[did]
+            decks[rid]["deck_id_provenance"] = {"source_deck_id": did, "corrected_cycle": c["corrected_cycle"],
+                                                "corrected_date": c["corrected_date"], "note": c["note"], "evidence": list(c["evidence"])}
     prog = (old.get("program") or {}).get("milestones") or {}
     ms = {}
     for m, s0 in (("M0", "complete_pending_acceptance"), ("M1", "in_progress")) + tuple((f"M{i}", "not_started") for i in range(2, 9)):
@@ -704,7 +737,7 @@ def check(R=None):
             continue
         for k in ("baseline_hash", "current_canonical_hash", "canonical_project_list", "challengers", "official_legal_projection",
                   "official_commander_compliance", "project_authorization_status", "project_exceptions", "source", "heuristic_v1_verdict",
-                  "blueprint_version", "ceiling"):
+                  "blueprint_version", "ceiling", "deck_id_provenance"):
             if e.get(k) != f.get(k):
                 if k == "current_canonical_hash" and e["state"] in HUMAN_STATES | {"APPROVAL_READY"}:
                     problems.append(f"{did}: canonical list changed after {e['state']} — set REOPEN_REQUIRED (trigger audit_error/user_instruction) and re-review")
@@ -737,7 +770,7 @@ def check(R=None):
             problems.append(f"exceptions.json {x['id']}: render_label must come from legality_label()")
         if x["official_commander_legality"] != "legal" and re.search(r"(?<!NOT )Commander-legal(?! yet)", x["render_label"]) and "NOT" not in x["render_label"]:
             problems.append(f"exceptions.json {x['id']}: label reports an exception as legal")
-        slug = reg["decks"][x["deck_id"]]["slug"]
+        slug = reg["decks"][registry_id(x["deck_id"])]["slug"]
         canon = deck_block_text(slug)
         tag = "Companion" if x["zone"] == "companion" else None
         hit = re.search(r"^\d+x? " + re.escape(x["card"]) + r"( \[([^\]]*)\])?$", canon, re.M)

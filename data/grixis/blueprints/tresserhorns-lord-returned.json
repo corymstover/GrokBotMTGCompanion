@@ -1,0 +1,624 @@
+{
+ "schema_version": 2,
+ "deck_id": "Tresserhorn_s_Lord__Returned",
+ "slug": "tresserhorns-lord-returned",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+ "commanders": {
+  "value": [
+   {
+    "name": "Tresserhorn's Lord, Returned",
+    "oracle_id": "11cc638c-b1c5-4b73-8eac-00cac6ae32b6",
+    "oracle_text": "Trample, indestructible\nWhen Tresserhorn's Lord enters, sacrifice him unless you sacrifice three creatures, pay 3 life, and have target opponent draw three cards.\nWhenever you sacrifice a creature, draw a card.",
+    "oracle_sha256": "sha256:e6798911d6eeff8cabcd95b563bd9f442cd411c25e237e0def5b5840d53ccd11",
+    "type_line": "Legendary Creature — Zombie Noble"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Tresserhorn's Lord, Returned"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Sacrifice card-draw aristocrats: build cheap repeatable fodder, resolve Tresserhorn while paying his three-creature ETB (three draw triggers), then turn every sacrifice into a card and close with drain payoffs or loops (The Locust God + a free outlet, Gravecrawler + Phyrexian Altar or Plunderer).",
+   "secondary": "The 10/4 trample, indestructible commander as a combat threat with Infantry Shield, Wand of Orcus, My Precious and Chandra's Ignition."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L13",
+   "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L50",
+   "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L54",
+   "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L60"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Tresserhorn is the card-draw engine for every sacrifice, a Zombie for Gravecrawler, and a 10-power threat.",
+   "honest_note": "Commander-native: 6 of the 21 Spellbook combos need him (The Locust God + an outlet + Tresserhorn), and he is the Zombie that lets Gravecrawler loop. The ETB gives an opponent three cards. Legality conflict for Cory: the source says the future-release exception is stale and the card is legal now (verification L48, L67; approvals L18), but the Scryfall cache used by the registry shows it not_legal (mbc, released 2026-10-19), and the Madcap Jester source gives 2026-11-13 for the same set. The registry keeps PENDING_RELEASE and the exception row; this blueprint changes neither."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L54",
+   "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L48",
+   "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L67",
+   "source_archive:refinement/approvals/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.md#L18",
+   "spellbook:1339-2292-7920"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "locust-loop",
+   "kind": "combo",
+   "description": "The Locust God + Tresserhorn + a free outlet: each draw makes an Insect, and sacrificing it draws again; Goblin Bombardment or a drain payoff kills.",
+   "cards": [
+    "The Locust God",
+    "Tresserhorn's Lord, Returned",
+    "Viscera Seer",
+    "Carrion Feeder",
+    "Phyrexian Altar",
+    "Ashnod's Altar",
+    "Goblin Bombardment"
+   ],
+   "enablers": [
+    "Diabolic Intent",
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1339-2292-7920",
+    "spellbook:1339-4050-7920",
+    "spellbook:1339-5147-7920",
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L54"
+   ]
+  },
+  {
+   "id": "gravecrawler-loops",
+   "kind": "combo",
+   "description": "Gravecrawler with Phyrexian Altar, Pitiless Plunderer + outlet, or Warren Soultrader + Blood Artist / Zulaport / Bastion.",
+   "cards": [
+    "Gravecrawler",
+    "Phyrexian Altar",
+    "Pitiless Plunderer",
+    "Warren Soultrader",
+    "Blood Artist",
+    "Zulaport Cutthroat",
+    "Bastion of Remembrance"
+   ],
+   "enablers": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2577-4050",
+    "spellbook:2034-2577-4871",
+    "spellbook:2577-2842-5670",
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L51",
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L52",
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L53"
+   ]
+  },
+  {
+   "id": "commander-combat",
+   "kind": "natural",
+   "description": "10-power trample, indestructible Tresserhorn with Infantry Shield or Wand of Orcus.",
+   "cards": [
+    "Tresserhorn's Lord, Returned",
+    "Infantry Shield",
+    "Wand of Orcus",
+    "My Precious // Allure of Power"
+   ],
+   "enablers": [
+    "Lightning Greaves"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L60",
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L61"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "sacrifice-draw",
+   "cards": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "online_condition": "Tresserhorn on the battlefield.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Tresserhorn's Lord, Returned",
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L49",
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L50"
+   ]
+  },
+  {
+   "id": "fodder",
+   "cards": [
+    "Bitterblossom",
+    "Bitterbloom Bearer",
+    "Chittering Witch",
+    "Mogg War Marshal",
+    "Weaponcraft Enthusiast",
+    "Endrek Sahr, Master Breeder",
+    "Jadar, Ghoulcaller of Nephalia",
+    "Lagomos, Hand of Hatred",
+    "Ophiomancer",
+    "Marionette Apprentice",
+    "Tempt with Vengeance",
+    "Chasm Skulker",
+    "Woe Strider",
+    "Bloodghast"
+   ],
+   "online_condition": "Cheap repeatable bodies.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L13"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:fodder",
+   "required": true,
+   "min_count": 10,
+   "role": "Bodies for the ETB and outlets.",
+   "cards": [
+    "Bitterblossom",
+    "Bitterbloom Bearer",
+    "Chittering Witch",
+    "Mogg War Marshal",
+    "Weaponcraft Enthusiast",
+    "Endrek Sahr, Master Breeder",
+    "Jadar, Ghoulcaller of Nephalia",
+    "Lagomos, Hand of Hatred",
+    "Ophiomancer",
+    "Marionette Apprentice",
+    "Tempt with Vengeance",
+    "Chasm Skulker",
+    "Woe Strider",
+    "Bloodghast"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L13",
+    "source_archive:refinement/decisions/Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md#L50"
+   ]
+  },
+  {
+   "id": "pkg:outlets",
+   "required": true,
+   "min_count": 6,
+   "role": "Free sacrifice outlets.",
+   "cards": [
+    "Viscera Seer",
+    "Carrion Feeder",
+    "Phyrexian Altar",
+    "Ashnod's Altar",
+    "Goblin Bombardment",
+    "Yawgmoth, Thran Physician",
+    "Phyrexian Tower",
+    "High Market",
+    "Warren Soultrader"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L54"
+   ]
+  },
+  {
+   "id": "pkg:drain",
+   "required": true,
+   "min_count": 4,
+   "role": "Drain payoffs that also offset life costs.",
+   "cards": [
+    "Blood Artist",
+    "Zulaport Cutthroat",
+    "Bastion of Remembrance",
+    "Marionette Apprentice",
+    "Mayhem Devil"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L53"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "etb-three-draws",
+   "summary": "Paying the ETB by sacrificing three creatures gives three draws while Tresserhorn is on the battlefield; he also triggers for his own sacrifice.",
+   "cards": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L49",
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L50",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "plumb-math",
+   "summary": "Plumb the Forbidden with N creatures draws 2N+1.",
+   "cards": [
+    "Plumb the Forbidden",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L55"
+   ]
+  },
+  {
+   "id": "familiar-generic-only",
+   "summary": "Nightscape Familiar reduces only the generic part: {1}{U}{B}{R}, no lower.",
+   "cards": [
+    "Nightscape Familiar",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L56"
+   ]
+  },
+  {
+   "id": "not-of-this-world",
+   "summary": "Not of This World is free only against things targeting him, not sweepers or edicts.",
+   "cards": [
+    "Not of This World",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L57"
+   ]
+  },
+  {
+   "id": "edict-indestructible",
+   "summary": "Blasphemous Edict gets around indestructible; keep Tresserhorn out of the chosen set.",
+   "cards": [
+    "Blasphemous Edict",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L59"
+   ]
+  },
+  {
+   "id": "no-etb-hosers",
+   "summary": "Torpor Orb and Karn, Argent Defender were rejected: they shut off his ETB.",
+   "cards": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md#L23",
+    "source_archive:refinement/decisions/Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md#L27"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "The Locust God",
+   "via": [
+    "Diabolic Intent",
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1339-2292-7920"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Gravecrawler",
+   "Bloodghast",
+   "Reanimate",
+   "Victimize",
+   "Living Death",
+   "Wilhelt, the Rotcleaver"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md#L34"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Stubborn Denial, Not of This World, Swan Song, Feed the Swarm, Chaos Warp, Blasphemous Edict, Blasphemous Act.",
+   "protection": "Lightning Greaves, Not of This World, indestructible.",
+   "mana": "34 land-capable slots with Cavern of Souls and Kher Keep; Sol Ring, Talismans, Nightscape Familiar."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L57",
+   "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L56"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "etb-cost",
+   "description": "The ETB needs three creatures, 3 life and gives an opponent three cards; without fodder he is sacrificed.",
+   "mitigations": [
+    "Fodder density",
+    "Draw triggers"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Tresserhorn's Lord, Returned"
+   ]
+  },
+  {
+   "id": "edicts-exile",
+   "description": "Edicts, exile and bounce get around indestructible.",
+   "mitigations": [
+    "Not of This World",
+    "Fodder"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L59"
+   ]
+  },
+  {
+   "id": "self-deck",
+   "description": "Optional loops can deck you; stop before it happens.",
+   "mitigations": [
+    "Drain outlet first"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L54"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "spellbook:1339-2292-7920"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (recovered from the verification record; the registry's extractor found none)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L15"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4: many deterministic loops and high card throughput, but the ETB cost and the cards it gives away keep it below cEDH. Agrees with the recovered source ceiling. The registry bracket floor is 3 (fewer Game Changers); the expected bracket is 4."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L15",
+    "spellbook:1339-2292-7920"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 3
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Tresserhorn_s_Lord__Returned"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "2": 19,
+     "3": 45,
+     "4": 10,
+     "5": 2
+    },
+    "decks_with_bracket": 76,
+    "share_b4_plus": 0.158,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__tresserhorns-lord-returned.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Tresserhorn's Lord, Returned",
+   "why": "Draws on every sacrifice.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Tresserhorn's Lord, Returned"
+   ]
+  },
+  {
+   "card": "The Locust God",
+   "why": "Loops with Tresserhorn.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1339-2292-7920"
+   ]
+  },
+  {
+   "card": "Gravecrawler",
+   "why": "Recursive Zombie loop body.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "card": "Plumb the Forbidden",
+   "why": "Burst sacrifice draw.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L55"
+   ]
+  },
+  {
+   "card": "Weaponcraft Enthusiast",
+   "why": "Three bodies for the ETB.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md#L50"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No Torpor Orb / Karn, Argent Defender (decisions L23, L27).",
+   "No Zombie tribal or Voltron drift (L22, L26, L60)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md#L23",
+   "source_archive:refinement/decisions/Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md#L27",
+   "source_archive:refinement/decisions/Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md#L22",
+   "source_archive:refinement/decisions/Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md#L60"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Aristocrats / sacrifice / tokens (verification L17)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L17"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 701.21a",
+   "note": "Sacrifice.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.21a"
+   ]
+  },
+  {
+   "rule": "CR 603.10a",
+   "note": "Look-back triggers.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:603.10a"
+   ]
+  },
+  {
+   "rule": "CR 702.12b",
+   "note": "Indestructible.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.12b"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "sacrifice"
+   ],
+   "hooked_cards": 45,
+   "role_counts": {
+    "counter": 3,
+    "draw": 12,
+    "protection": 3,
+    "ramp": 14,
+    "removal": 4,
+    "tutor": 4,
+    "wipe": 1
+   },
+   "lands": 33,
+   "edhrec_pages": [
+    "tresserhorns-lord-returned"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/decklists/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}
