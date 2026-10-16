@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -476,6 +477,14 @@ This approval freezes `refinement/decklists/Sauron_Lord_of_the_Rings_Approved_20
 
 - [refinement/verification/Sauron_Lord_of_the_Rings_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Sauron_Lord_of_the_Rings_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Sauron_Lord_of_the_Rings_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Sauron_Lord_of_the_Rings_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 54 interaction review: **5 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Sauron, Lord of the Rings — Interaction Review](../interactions/sauron-lord-of-the-rings.md).
+
+- **Cast trigger: amass 5, mill 5, then reanimate (resolves even if Sauron is countered)** — Cast trigger is independent of the spell; the reanimation picks from the whole graveyard after the mill. ([sauronlotr-01](../interactions/sauron-lord-of-the-rings.md#sauronlotr-01-cast-trigger-amass-5-mill-5-then-reanimate-resolves-even-if-sauron-is-countered))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

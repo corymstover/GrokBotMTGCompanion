@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -619,6 +620,16 @@ This approval freezes `refinement/decklists/Norman_Osborn_Green_Goblin_Approved_
 
 - [refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Norman_Osborn_Green_Goblin_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Norman_Osborn_Green_Goblin_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 54 interaction review: **9 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Norman Osborn // Green Goblin — Interaction Review](../interactions/norman-osborn.md).
+
+- **A modal DFC that transforms: Norman front face, Green Goblin back face** — MDFC that transforms; Goblin's own characteristics apply only while he's face up on the battlefield. ([norman-01](../interactions/norman-osborn.md#norman-01-a-modal-dfc-that-transforms-norman-front-face-green-goblin-back-face))
+- **Goblin Formula: mayhem needs only a discard this turn, and still follows timing rules** — Discard any time this turn, transform, then mayhem-cast; flash enablers needed for off-timing sorceries. ([norman-02](../interactions/norman-osborn.md#norman-02-goblin-formula-mayhem-needs-only-a-discard-this-turn-and-still-follows-timing-rules))
+- **Cost stacking: Goblin's {2} plus Artist's Talent's {1}, generic only, on top of mayhem or escape** — Goblin −{2} and Talent −{1} stack on mayhem/escape costs; colored mana and additional costs remain. ([norman-03](../interactions/norman-osborn.md#norman-03-cost-stacking-goblins-2-plus-artists-talents-1-generic-only-on-top-of-mayhem-or-escape))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

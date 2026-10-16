@@ -1,0 +1,415 @@
+{
+ "schema": 1,
+ "deck_id": "RogSi",
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "commanders": [
+  "Rograkh, Son of Rohgahh",
+  "Silas Renn, Seeker Adept"
+ ],
+ "deck_sha256": "74b8f96561a79946547da9f34f1926dc4bab81b65fab224e8edb1b7198cbb57a",
+ "list_source": "exports/grixis-archidekt/rograkh-son-of-rohgahh-silas-renn.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 54,
+ "batch": "E",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+   "note": "Rules attestation (14 items, all PASS) re-verified"
+  },
+  {
+   "path": "refinement/verification/RogSi_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification"
+  }
+ ],
+ "summary": "RogSi pairs the free red legendary Rograkh (fuel for Mox Amber, Drum, Mantle, Culling, Plunge and Flare, and a commander for free spells) with Silas Renn's artifact recursion. It's a cEDH Breach + Oracle shell. All 7 Spellbook lines and all 14 attestation items are re-verified against the canonical list.\n\nRules surprises: Samut's split second locks you out too, though triggers still happen; Demonic Counsel finds nothing before delirium, since there are no Demons; Mnemonic Betrayal can't play lands. One flag: your own Vexing Bauble counters your free spells and {0} escapes unless Hexing Squelcher is out.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "rogsi-01",
+   "category": "commander",
+   "title": "Partners: U/B/R identity, separate commander tax, a free red legendary body",
+   "cards": [
+    "Rograkh, Son of Rohgahh",
+    "Silas Renn, Seeker Adept"
+   ],
+   "ruling": "Rograkh (mana cost {0}, red) and Silas Renn (blue-black) are both partners. Together they give U/B/R color identity. Each commander's tax is tracked separately, so Rograkh stays free on his first cast and costs {2} after that. Effects that check whether you control a commander are happy with either one, which covers Fierce Guardianship, Deflecting Swat and both modes of Jeska's Will.",
+   "short": "Separate taxes; first Rograkh cast is free; either partner turns on commander-presence free spells.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.124a",
+    "903.8",
+    "204.1"
+   ],
+   "oracle": [
+    {
+     "card": "Fierce Guardianship",
+     "quote": "If you control a commander, you may cast this spell without paying its mana cost."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Rograkh, Son of Rohgahh",
+     "quote": "Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined."
+    },
+    {
+     "card": "Rograkh, Son of Rohgahh",
+     "quote": "An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Partner color identity"
+    },
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Rograkh zero-mana resource engine"
+    }
+   ]
+  },
+  {
+   "id": "rogsi-02",
+   "category": "engine",
+   "title": "Rograkh as a resource: Mox Amber, Springleaf Drum, Paradise Mantle, Culling the Weak, Infernal Plunge, Flare of Duplication",
+   "cards": [
+    "Rograkh, Son of Rohgahh",
+    "Mox Amber",
+    "Springleaf Drum",
+    "Paradise Mantle",
+    "Culling the Weak",
+    "Infernal Plunge",
+    "Diabolic Intent",
+    "Flare of Duplication"
+   ],
+   "ruling": "A free legendary red creature fuels several cards:\n- **Mox Amber:** taps for red, and blue or black once Silas is out too.\n- **Springleaf Drum:** taps him for mana.\n- **Paradise Mantle:** makes him tap for any color, though only once he no longer has summoning sickness.\n- **Sacrifice outlets:** Culling the Weak ({B}{B}{B}{B}), Infernal Plunge ({R}{R}{R}) and Diabolic Intent all sacrifice him as an additional cost.\n- **Flare of Duplication:** a free copy spell if you sacrifice him, since he's a nontoken red creature.\n\nAfter he's sacrificed he can go to the command zone and come back for {2}.",
+   "status": "verified",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "oracle": [
+    {
+     "card": "Flare of Duplication",
+     "quote": "You may sacrifice a nontoken red creature rather than pay this spell's mana cost."
+    },
+    {
+     "card": "Mox Amber",
+     "quote": "{T}: Add one mana of any color among legendary creatures and planeswalkers you control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Culling the Weak",
+     "quote": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Rograkh zero-mana resource engine"
+    }
+   ]
+  },
+  {
+   "id": "rogsi-03",
+   "category": "zone",
+   "title": "Silas Renn: cast one artifact card from your graveyard this turn, at normal timing",
+   "cards": [
+    "Silas Renn, Seeker Adept",
+    "Lion's Eye Diamond",
+    "Grinding Station",
+    "Mox Amber"
+   ],
+   "ruling": "When Silas deals combat damage to a player, his trigger targets an artifact card in your graveyard, and you may cast it that turn. That holds even if Silas has left the battlefield. You pay its costs, and alternative costs are allowed. The trigger doesn't change timing, so a non-flash artifact still needs your main phase with an empty stack. Once cast, the card is a new object, so you can't cast it twice. It doesn't work on lands.",
+   "status": "verified",
+   "cr": [
+    "601.2",
+    "400.7"
+   ],
+   "oracle": [
+    {
+     "card": "Silas Renn, Seeker Adept",
+     "quote": "Whenever Silas Renn deals combat damage to a player, choose target artifact card in your graveyard. You may cast that card this turn."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Silas Renn, Seeker Adept",
+     "quote": "Silas Renn doesn't change when you can cast the target artifact card. For example, if you target an artifact card without flash, you can cast it only during your main phase when the stack is empty."
+    },
+    {
+     "card": "Silas Renn, Seeker Adept",
+     "quote": "Casting the card causes it to leave your graveyard and become a new object. You can't cast it multiple times."
+    },
+    {
+     "card": "Silas Renn, Seeker Adept",
+     "quote": "You may cast that card this turn even if Silas Renn leaves the battlefield."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Silas Renn artifact recursion"
+    }
+   ]
+  },
+  {
+   "id": "rogsi-04",
+   "category": "dependency",
+   "title": "Vexing Bauble counters your own free spells (Rograkh, Moxen, LED, Fierce Guardianship, Flare, Breach escapes for {0})",
+   "cards": [
+    "Rograkh, Son of Rohgahh",
+    "Vexing Bauble",
+    "Hexing Squelcher",
+    "Fierce Guardianship",
+    "Deflecting Swat",
+    "Flare of Duplication",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mox Amber",
+    "Underworld Breach"
+   ],
+   "ruling": "Vexing Bauble counters any spell cast with no mana spent, including yours. That covers:\n- the first Rograkh cast;\n- {0} artifacts (LED, Lotus Petal, Mox Amber);\n- Fierce Guardianship, Deflecting Swat and Flare of Duplication cast for free;\n- {0} Breach escapes, such as the Mox Amber + Grinding Station loop.\n\nPaying any mana, like a Rograkh recast with {2} of tax, or a kicker, gets past it. Hexing Squelcher makes your spells uncounterable, so Bauble still triggers but does nothing. Otherwise, sacrifice Bauble ({1}, draw) before going off.",
+   "short": "Own Bauble hits own free spells; Squelcher or a pre-combo sac solves it.",
+   "status": "flag",
+   "flag": {
+    "kind": "dependency-risk",
+    "note": "Vexing Bauble counters the deck's own free spells and {0} escapes (Rograkh, Moxen, LED, Petal, Fierce Guardianship, Flare, Breach + Grinding Station). Have Hexing Squelcher out, or sacrifice Bauble first."
+   },
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "oracle": [
+    {
+     "card": "Vexing Bauble",
+     "quote": "Whenever a player casts a spell, if no mana was spent to cast it, counter that spell."
+    },
+    {
+     "card": "Hexing Squelcher",
+     "quote": "Spells you control can't be countered."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Vexing Bauble",
+     "quote": "If a spell is cast with an alternative cost that includes mana (such as flashback), Vexing Bauble's first ability won't trigger and won't counter that spell. Similarly, if a spell is cast without paying its mana cost, but the player did pay mana for additional costs such as from kicker or from Thorn of Amethyst, Vexing Bauble's first ability won't trigger and won't counter that spell."
+    },
+    {
+     "card": "Hexing Squelcher",
+     "quote": "A spell or ability that counters spells can still target any spell that can't be countered. When that spell or ability resolves, the spell that can't be countered won't be countered, but any additional effects of the countering spell or ability will still happen."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Vexing Bauble symmetry"
+    },
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Vexing Bauble + Hexing Squelcher"
+    }
+   ]
+  },
+  {
+   "id": "rogsi-05",
+   "category": "timing",
+   "title": "Samut gives your instants and sorceries split second, but triggers still happen",
+   "cards": [
+    "Rograkh, Son of Rohgahh",
+    "Samut, Tyrant of Naktamun",
+    "Vexing Bauble",
+    "Brain Freeze",
+    "Flare of Duplication",
+    "Deflecting Swat"
+   ],
+   "ruling": "While one of your Samut-boosted spells is on the stack, no one can cast spells or activate non-mana abilities. That includes you: you can't Flare, Swat or Guardianship on top of your own split-second spell. Mana abilities like LED and Lotus Petal still work. Triggers still happen: storm copies Brain Freeze, and Vexing Bauble still counters a free split-second spell. Once the split-second spell leaves the stack, everyone can act again.",
+   "status": "verified",
+   "cr": [
+    "702.61a",
+    "702.61b"
+   ],
+   "oracle": [
+    {
+     "card": "Samut, Tyrant of Naktamun",
+     "quote": "Instant and sorcery spells you control have split second. (As long as a spell with split second is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Samut, Tyrant of Naktamun",
+     "quote": "Split second doesn't stop triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal."
+    },
+    {
+     "card": "Samut, Tyrant of Naktamun",
+     "quote": "If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Samut, Tyrant of Naktamun split second"
+    },
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Vexing Bauble + Samut"
+    }
+   ]
+  },
+  {
+   "id": "rogsi-06",
+   "category": "combo",
+   "title": "Thassa's Oracle + Consultation / Tainted Pact; Breach lines (LED + Brain Freeze, LED + Wheel, Wheel + Jeska's Will, Petal + Brain Freeze, Grinding Station + Mox Amber)",
+   "cards": [
+    "Rograkh, Son of Rohgahh",
+    "Silas Renn, Seeker Adept",
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze",
+    "Wheel of Fortune",
+    "Jeska's Will",
+    "Lotus Petal",
+    "Grinding Station",
+    "Mox Amber"
+   ],
+   "ruling": "**Oracle wins:** exile your library with Consultation or Tainted Pact (100 distinct names), then Oracle's ETB wins.\n\n**Breach loops:** LED escapes for {0} to fuel repeated Brain Freezes or Wheels. Jeska's Will counts the hand of an opponent who has just wheeled. The Grinding Station + Mox Amber loop mills three per cycle, and Amber taps for red from Rograkh.\n\nAll seven Spellbook lines are present. Vexing Bauble stops the {0} escapes (see rogsi-04).",
+   "status": "verified",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "oracle": [],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "742-1295",
+     "quote": "Cast Demonic Consultation by paying {B}, naming Thassa's Oracle and thus exiling your library due to you not having a card named Thassa's Oracle in your library."
+    },
+    {
+     "id": "1368-3518-4856",
+     "quote": "Cast Lion's Eye Diamond from your graveyard for its escape cost by exiling three cards besides Brain Freeze from your graveyard."
+    },
+    {
+     "id": "1368-3698--44",
+     "quote": "Cast the artifact from your graveyard for its escape cost by paying {0} and exiling three cards from your graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Thassa's Oracle + Demonic Consultation / Tainted Pact"
+    },
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Underworld Breach + Lion's Eye Diamond + Brain Freeze"
+    },
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Underworld Breach + Grinding Station + zero-mana artifact"
+    }
+   ]
+  },
+  {
+   "id": "rogsi-07",
+   "category": "trigger-order",
+   "title": "Final Fortune / Warrior's Oath: the lose trigger is real here",
+   "cards": [
+    "Rograkh, Son of Rohgahh",
+    "Final Fortune",
+    "Warrior's Oath"
+   ],
+   "ruling": "Both give an extra turn with a delayed \"you lose the game\" trigger at that turn's end step. This list has no Obeka or Sundial, so the extra turn must win or the trigger has to be answered some other way. If the extra turn is skipped, you don't lose.",
+   "status": "verified",
+   "cr": [
+    "500.7",
+    "603.7"
+   ],
+   "oracle": [
+    {
+     "card": "Warrior's Oath",
+     "quote": "Take an extra turn after this one. At the beginning of that turn's end step, you lose the game."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Final Fortune",
+     "quote": "If you end up skipping the extra turn that is gained, you do not lose the game."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Final Fortune / Warrior's Oath"
+    }
+   ]
+  },
+  {
+   "id": "rogsi-08",
+   "category": "legality",
+   "title": "Demonic Counsel needs delirium; Mnemonic Betrayal casts but never plays lands; Undercity Sewers is fetchable",
+   "cards": [
+    "Rograkh, Son of Rohgahh",
+    "Demonic Counsel",
+    "Mnemonic Betrayal",
+    "Undercity Sewers"
+   ],
+   "ruling": "**Demonic Counsel:** without delirium it finds only a Demon, and the canonical list has none. With four or more card types in your graveyard, it finds any card.\n\n**Mnemonic Betrayal:** lets you cast spells from opponents' exiled graveyards this turn, with any mana, at normal timing. You can't play their lands. Cards you don't cast go back at the next end step, and a permanent you cast stays.\n\n**Undercity Sewers:** an Island Swamp, so your fetchlands can find it.",
+   "status": "verified",
+   "cr": [
+    "207.2c",
+    "305.6"
+   ],
+   "oracle": [
+    {
+     "card": "Demonic Counsel",
+     "quote": "Delirium — If there are four or more card types among cards in your graveyard, instead search your library for any card, put it into your hand, then shuffle."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mnemonic Betrayal",
+     "quote": "You can’t play land cards exiled this way."
+    },
+    {
+     "card": "Mnemonic Betrayal",
+     "quote": "Only the cards that remain in exile are returned to their owners’ graveyards. For example, a permanent spell cast this way will remain on the battlefield."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Demonic Counsel"
+    },
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Mnemonic Betrayal"
+    },
+    {
+     "path": "refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json",
+     "item": "Undercity Sewers"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,259 @@
+{
+ "schema": 1,
+ "deck_id": "Obeka__Brute_Chronologist",
+ "slug": "obeka-brute-chronologist",
+ "commanders": [
+  "Obeka, Brute Chronologist"
+ ],
+ "deck_sha256": "76fc5a3f9a098d4999c8ce85f8226a0ceef9a5077822b0335e01b8a594b5ea4d",
+ "list_source": "exports/grixis-archidekt/obeka-brute-chronologist.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 54,
+ "batch": "E",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/Obeka_Brute_Chronologist_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification sections 5–6"
+  }
+ ],
+ "summary": "Obeka ends the turn, so the deck plays cards that undo themselves at the next end step and keeps the benefit: Final Fortune and Last Chance extra turns, Identity Thief, Come Back Wrong, Hate Mirage, Sneak Attack, Kiki-Jiki and Venser. Scepter + Final Fortune (with Obeka or Sundial) is the infinite-turn lock. Hellkite Courser is the tax-free way to get Obeka out. All 4 Spellbook lines are in the canonical list.\n\nRules surprises: ending the turn before the end step only delays a 'next end step' trigger; you must let it trigger first. On an opponent's turn, they decide whether the turn ends. Courser's return trigger can't get Obeka if she ends the turn over it. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "obekabc-01",
+   "category": "commander",
+   "title": "Obeka ends the turn: timing the activation against end-step triggers",
+   "cards": [
+    "Obeka, Brute Chronologist"
+   ],
+   "ruling": "Obeka's ability uses the stack. When it resolves, the player whose turn it is chooses whether to end the turn, so on an opponent's turn they can just decline. Ending the turn exiles everything on the stack, including uncounterable spells. It removes creatures from combat, checks state-based actions without putting triggers on the stack, and skips to cleanup. Triggers that were waiting to go on the stack cease to exist.\n\nTiming matters for \"at the beginning of the next end step\" triggers:\n- **End the turn before the end step:** the trigger hasn't happened yet, so it waits and triggers at the next turn's end step.\n- **Let it trigger, then activate Obeka with it on the stack:** it's exiled and never comes back.\n\nAnything said to last \"until end of turn\" still ends in cleanup.",
+   "short": "Let the 'next end step' trigger go on the stack, then end the turn with Obeka on top; ending earlier only postpones it.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "724.1a",
+    "724.1b",
+    "724.1c",
+    "724.1d",
+    "603.7b"
+   ],
+   "oracle": [
+    {
+     "card": "Obeka, Brute Chronologist",
+     "quote": "{T}: The player whose turn it is may end the turn. (Exile all spells and abilities from the stack. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Obeka, Brute Chronologist",
+     "quote": "If the turn ends during the end step after \"At the beginning of the next end step\" abilities have triggered but before they've resolved, those abilities won't trigger again next turn."
+    },
+    {
+     "card": "Obeka, Brute Chronologist",
+     "quote": "If the turn ends before the end step, any \"At the beginning of the next end step\" triggered abilities won't get the chance to trigger that turn because the end step has been skipped. Those abilities will trigger next turn at the beginning of the end step."
+    },
+    {
+     "card": "Obeka, Brute Chronologist",
+     "quote": "If any triggered abilities do trigger during this process, they're put onto the stack during the cleanup step. If this happens, players will have a chance to cast spells and activate abilities, then there will be another cleanup step before the turn is over."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Obeka_Brute_Chronologist_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "The correct Obeka pattern is normally to let the delayed `next end step` ability trigger on our end step and then end the turn with that ability on the stack."
+    }
+   ]
+  },
+  {
+   "id": "obekabc-02",
+   "category": "combo",
+   "title": "Isochron Scepter + Final Fortune + Obeka (or Sundial of the Infinite): infinite turns",
+   "cards": [
+    "Obeka, Brute Chronologist",
+    "Isochron Scepter",
+    "Final Fortune",
+    "Sundial of the Infinite",
+    "Last Chance"
+   ],
+   "ruling": "Imprint Final Fortune (an instant, MV 2) on Isochron Scepter. Each turn, the Scepter copy gives you another extra turn. At each extra turn's end step, the lose-the-game trigger goes on the stack. Respond with Obeka or Sundial (Sundial only on your own turn) to end the turn, and the trigger is exiled. Obeka and Scepter untap in each extra turn's untap step. Last Chance is a one-shot backup. A Stifle effect on the Obeka or Sundial activation leaves the lose trigger to resolve.",
+   "short": "Spellbook 126-1173-5261 / 1173-2160-5261: Scepter gives extra turns; Obeka or Sundial exiles the lose trigger.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "500.7",
+    "724.1b",
+    "603.7b"
+   ],
+   "oracle": [
+    {
+     "card": "Final Fortune",
+     "quote": "Take an extra turn after this one. At the beginning of that turn's end step, you lose the game."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Isochron Scepter",
+     "quote": "You cast the copy while the ability is resolving and still on the stack. You can't wait to cast it later in the turn."
+    },
+    {
+     "card": "Sundial of the Infinite",
+     "quote": "Though spells and abilities that are exiled won't get a chance to resolve, they don't count as being \"countered.\""
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "126-1173-5261",
+     "quote": "In response, activate Obeka by tapping it, choosing to end the turn and exiling the stack in the process."
+    },
+    {
+     "id": "1173-2160-5261",
+     "quote": "Holding priority, activate Sundial of the Infinite by paying {1} and tapping it, ending the turn."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Obeka_Brute_Chronologist_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Scepter repeatedly casts Final Fortune; on each extra turn, Final Fortune's lose-the-game trigger is put on the stack during the end step; Obeka ends the turn and removes that trigger."
+    }
+   ]
+  },
+  {
+   "id": "obekabc-03",
+   "category": "trigger-order",
+   "title": "Delayed liabilities become permanent: Identity Thief, Come Back Wrong, Hate Mirage, Apprentice Necromancer, Venser, Sneak Attack",
+   "cards": [
+    "Obeka, Brute Chronologist",
+    "Identity Thief",
+    "Come Back Wrong",
+    "Hate Mirage",
+    "Apprentice Necromancer",
+    "Venser, Fervent Forger",
+    "Sneak Attack",
+    "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "ruling": "Several cards here undo themselves at the next end step:\n- Identity Thief returns the creature it exiled.\n- Come Back Wrong sacrifices the stolen creature.\n- Hate Mirage exiles its hasty copies.\n- Apprentice Necromancer, Sneak Attack, Venser's permanent mode and Kiki-Jiki or Reflection tokens get sacrificed.\n\nEnd the turn with those triggers on the stack and the effects stick. Identity Thief's target stays exiled forever. Copy effects that last \"until end of turn\" still end; Identity Thief stops being a copy in cleanup.",
+   "short": "End the turn over the 'next end step' trigger and theft, tokens and Sneak Attack bodies stay.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "oracle": [
+    {
+     "card": "Identity Thief",
+     "quote": "Whenever this creature attacks, you may exile another target nontoken creature. If you do, this creature becomes a copy of that creature until end of turn. Return the exiled card to the battlefield under its owner's control at the beginning of the next end step."
+    },
+    {
+     "card": "Come Back Wrong",
+     "quote": "Destroy target creature. If a creature card is put into a graveyard this way, return it to the battlefield under your control. Sacrifice it at the beginning of your next end step."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Sneak Attack",
+     "quote": "You sacrifice the creature only if you still control it. If that creature has left the battlefield, even if it came back, you don't sacrifice it."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Obeka_Brute_Chronologist_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "If that delayed return ability is on the stack during our end step, Obeka may end the turn and exile that ability."
+    }
+   ]
+  },
+  {
+   "id": "obekabc-04",
+   "category": "zone",
+   "title": "Hellkite Courser puts Obeka in play hasty and tax-free; Obeka keeps herself there",
+   "cards": [
+    "Obeka, Brute Chronologist",
+    "Hellkite Courser",
+    "Thousand-Year Elixir",
+    "Arena of Glory"
+   ],
+   "ruling": "Hellkite Courser's ETB puts Obeka onto the battlefield from the command zone with haste. That isn't a cast, so commander tax doesn't go up. At the next end step Courser's return trigger fires, and Obeka can tap and end the turn over it, so she stays. Thousand-Year Elixir lets a freshly arrived Obeka tap without real haste. Arena of Glory's exert mana gives haste to the Obeka spell.",
+   "status": "verified",
+   "cr": [
+    "903.8",
+    "724.1b"
+   ],
+   "oracle": [
+    {
+     "card": "Hellkite Courser",
+     "quote": "When this creature enters, you may put a commander you own from the command zone onto the battlefield. It gains haste. Return it to the command zone at the beginning of the next end step."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Hellkite Courser",
+     "quote": "Putting your commander onto the battlefield this way isn't the same as casting that commander. The \"commander tax\" won't increase."
+    },
+    {
+     "card": "Thousand-Year Elixir",
+     "quote": "Thousand-Year Elixir doesn’t actually grant haste to creatures you control, nor does it let you attack with them as though they had haste."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Obeka_Brute_Chronologist_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "It bypasses commander tax, puts Obeka directly onto the battlefield, gives her haste, and creates a delayed return liability Obeka is built to manage."
+    }
+   ]
+  },
+  {
+   "id": "obekabc-05",
+   "category": "combo",
+   "title": "Kiki-Jiki + Delina, and Dualcaster Mage + Twinflame: infinite hasty tokens",
+   "cards": [
+    "Obeka, Brute Chronologist",
+    "Kiki-Jiki, Mirror Breaker",
+    "Delina, Wild Mage",
+    "Dualcaster Mage",
+    "Twinflame"
+   ],
+   "ruling": "**Delina + Kiki-Jiki:** Delina's attack trigger makes a nonlegendary, tapped-and-attacking token of Kiki-Jiki. That token copies the real Kiki-Jiki, and each new copy copies the last, for unlimited hasty tokens. The Delina token is exiled at end of combat, but the Kiki copies stay.\n\n**Dualcaster + Twinflame:** Dualcaster Mage copies Twinflame targeting itself. The token Mage copies the Twinflame copy again, without end.\n\nBoth leave \"exile/sacrifice at the next end step\" triggers, which Obeka can exile so the tokens stay. Delina's tokens were never declared as attackers.",
+   "status": "verified",
+   "cr": [
+    "707.2",
+    "724.1b"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Delina, Wild Mage",
+     "quote": "Although the token is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example)."
+    },
+    {
+     "card": "Twinflame",
+     "quote": "If another creature becomes or enters the battlefield as a copy of the token, that creature will have haste, but you won't exile it. However, if Twinflame creates multiple tokens copying a single creature due to a replacement effect (like the one Doubling Season creates), you'll exile each of them."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "282-618",
+     "quote": "Delina triggers, creating at least one nonlegendary token copy of Kiki-Jiki."
+    },
+    {
+     "id": "147-1235",
+     "quote": "When Dualcaster Mage enters the battlefield, it triggers, copying Twinflame, targeting Dualcaster Mage."
+    }
+   ],
+   "evidence_class": "fact"
+  }
+ ]
+}

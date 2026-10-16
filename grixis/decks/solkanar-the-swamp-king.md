@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -575,6 +576,16 @@ This approval freezes `refinement/decklists/Solkanar_the_Swamp_King_Approved_202
 
 - [refinement/verification/Solkanar_the_Swamp_King_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Solkanar_the_Swamp_King_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Solkanar_the_Swamp_King_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Solkanar_the_Swamp_King_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 54 interaction review: **6 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Sol'kanar the Swamp King — Interaction Review](../interactions/solkanar-the-swamp-king.md).
+
+- **Sol'kanar and Demon's Horn: any player's black spell gains life, one event per spell** — Every black spell, from anyone, is a 1-life gain event (two with Horn); Sol'kanar ignores his own cast. ([solkanar-01](../interactions/solkanar-the-swamp-king.md#solkanar-01-solkanar-and-demons-horn-any-players-black-spell-gains-life-one-event-per-spell))
+- **Painter's Servant naming black: every spell is black, and Grindstone mills forever** — Black Painter's = all spells black (Sol'kanar on everything) + Grindstone infinite mill. ([solkanar-02](../interactions/solkanar-the-swamp-king.md#solkanar-02-painters-servant-naming-black-every-spell-is-black-and-grindstone-mills-forever))
+- **Exquisite Blood / Bloodthirsty Conqueror + a lifegain-to-loss payoff: infinite drain** — Sol'kanar's 1 life starts any Blood/Conqueror + drain loop. ([solkanar-03](../interactions/solkanar-the-swamp-king.md#solkanar-03-exquisite-blood--bloodthirsty-conqueror--a-lifegain-to-loss-payoff-infinite-drain))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

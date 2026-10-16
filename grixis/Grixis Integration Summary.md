@@ -14,6 +14,7 @@ schema: 2
 > **Bot cycle 16 · milestone [Grixis integration](https://github.com/corymstover/GrokBotMTGCompanion/milestone/13) · issues [#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59)–[#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63).** What we took from the user's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) repo (read-only; commit `df1abb9` in Bot cycle 16, **re-analyzed at `1836b97` in Bot cycle 37**), what was fixed, what was generalized for every color identity, and what remains. Back to [Grixis](README.md).
 
 ## Contents
+- [Bot cycle 54 interaction reviews](#bot-cycle-54-interaction-reviews)
 - [Bot cycle 51 interaction reviews](#bot-cycle-51-interaction-reviews)
 - [Bot cycle 49 interaction reviews](#bot-cycle-49-interaction-reviews)
 - [Bot cycle 48 interaction reviews](#bot-cycle-48-interaction-reviews)
@@ -30,6 +31,25 @@ schema: 2
 - [What we did not take](#what-we-did-not-take)
 - [Recommended follow-ups](#recommended-follow-ups)
 - [Reproducing](#reproducing)
+
+## Bot cycle 54 interaction reviews
+Batch E covers the next 10 decks alphabetically: Norman Osborn, Obeka (Brute Chronologist), Obeka (Splitter of Seconds), Parnesse, Rograkh + Silas Renn, Saruman, Sauron (Lord of the Rings), Sauron (the Dark Lord), Sedris and Sol'kanar the Swamp King. That's **66 rulings: 62 verified, 1 uncertain, 3 flags**. Overall: 52/62 decks and 533 rulings. No decklist changed.
+- Every review hashes the deck's canonical project list from the M0 registry. Norman Osborn and Sol'kanar use their source baselines.
+- **Flags** (pilot notes):
+  - Parnesse: Bonus Round copies opponents' spells too.
+  - Rograkh + Silas: Vexing Bauble without Hexing Squelcher.
+  - Saruman: the source's Black Gate targeting wording is wrong.
+- **Uncertain:** the Parnesse tax on an opponent's retargeted copy (no official ruling).
+- **Rules surprises:**
+  - Mayhem works before the transform.
+  - Green Goblin's Mox Amber makes black and red.
+  - Ending the turn only delays end-step triggers that have already triggered.
+  - Throne + Staff = 3 upkeep triggers.
+  - Samut's split second locks you out too.
+  - X=0 when cast free off Summons.
+  - Sauron reanimates even if countered.
+  - Teferi's Veil dodges Sedris's unearth exile.
+  - Sol'kanar ignores his own cast.
 
 ## Bot cycle 51 interaction reviews
 Batch D covers the next 10 decks alphabetically: Mairsil, Marchesa (Dealer of Death), Marchesa (the Black Rose), Mishra (Artificer Prodigy), Mishra (Eminent One), Missy, Nathan Drake, Nekusar, Nicol Bolas the Ravager and Nicol Bolas. That's **92 rulings: 86 verified, 1 uncertain, 5 flags**. Overall: 42/62 decks and 467 rulings. No decklist changed.

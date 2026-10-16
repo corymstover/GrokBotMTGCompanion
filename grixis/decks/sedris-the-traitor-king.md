@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -434,6 +435,15 @@ This approval freezes `refinement/decklists/Sedris_the_Traitor_King_Approved_202
 
 - [refinement/verification/Sedris_the_Traitor_King_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Sedris_the_Traitor_King_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Sedris_the_Traitor_King_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Sedris_the_Traitor_King_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 54 interaction review: **6 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Sedris, the Traitor King — Interaction Review](../interactions/sedris-the-traitor-king.md).
+
+- **Sedris-granted unearth: an activated ability of each card, sorcery speed, with two exile clauses** — Unearth = card's own ability; delayed exile trigger can be dodged, the leave-the-battlefield replacement can't. ([sedris-01](../interactions/sedris-the-traitor-king.md#sedris-01-sedris-granted-unearth-an-activated-ability-of-each-card-sorcery-speed-with-two-exile-clauses))
+- **Keeping unearthed creatures: Obeka / Sundial on the exile trigger, Teferi's Veil phase-out, Deadeye blink** — End the turn over the trigger, phase out past it, or blink into a fresh object. ([sedris-03](../interactions/sedris-the-traitor-king.md#sedris-03-keeping-unearthed-creatures-obeka--sundial-on-the-exile-trigger-teferis-veil-phase-out-deadeye-blink))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
