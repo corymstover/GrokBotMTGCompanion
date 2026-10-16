@@ -340,7 +340,9 @@ schema: 2
   - *2024-07-26* — You choose {R} or {G} for each Raccoon you control. You aren’t limited to only one color of mana.
   - *2024-07-26* — You may play the exiled cards even if Muerra is no longer on the battlefield or under your control.
   - *2024-07-26* — You pay all costs and follow all timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#muerra-trash-tactician)
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Bloomburrow](https://magic.wizards.com/en/news/feature/the-legends-of-bloomburrow) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,459 decks; highest synergy [Scrapshooter](../../cards/S/sc.md#scrapshooter) (+89%), [Wandertale Mentor](../../cards/W/wan.md#wandertale-mentor) (+89%), [Brambleguard Veteran](../../cards/B/br.md#brambleguard-veteran) (+86%) · EDHREC: in 8,307 decks; most often under [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (13.1% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (2.1% of its decks), [Hugs, Grisly Guardian](../../cards/H/hu.md#hugs-grisly-guardian) (25.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/M.md#muerra-trash-tactician)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/227/muerra-trash-tactician) · oracle_id `c115159c-6991-4812-b3b6-6ed80221cab4` · printing: BLB #227 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mugato

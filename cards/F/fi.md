@@ -1271,6 +1271,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9647 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 112 decks; highest synergy [The Misty Mountains Cold](../../cards/T/them.md#the-misty-mountains-cold) (+87%), [There and Back Again](../../cards/T/ther.md#there-and-back-again) (+85%), [Burn, Burn, Tree and Fern](../../cards/B/bu.md#burn-burn-tree-and-fern) (+84%) · EDHREC: in 13,306 decks; most often under [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (87.3% of its decks), [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (82.8% of its decks), [Magda, Brazen Outlaw](../../cards/M/mag.md#magda-brazen-outlaw) (30.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/1/f%C3%ADli-and-k%C3%ADli-joyous) · oracle_id `392f6cd3-3895-42b3-8bb9-6b0c6a689a29` · printing: HOC #1 (2026-08-14) · [rulings](https://api.scryfall.com/cards/e1d12200-ae0b-4155-9853-3ffaf490c84c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Filigree Angel

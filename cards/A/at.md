@@ -247,6 +247,8 @@ schema: 2
   - *2019-07-12* — If a card in your hand has {X} in its mana cost, the value of X is considered to be 0. 
   - *2019-07-12* — If an effect causes you to play with your hand revealed, you can still reveal your hand as Atemsis's last ability resolves. The ability works as normal. 
   - *2019-07-12* — The mana value of a split card is determined by combining its two halves. For example, the mana value of Fire//Ice in your hand is 4.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 11 combos; most popular [Atemsis, All-Seeing + Black Mage's Rod](https://commanderspellbook.com/combo/3846-7951/) (Each opponent loses the game) · EDHREC as commander: 1,483 decks; highest synergy [Hermetic Study](../../cards/H/he.md#hermetic-study) (+60%), [Sorcerer's Wand](../../cards/S/so.md#sorcerers-wand) (+57%), [Treasure Cruise](../../cards/T/tre.md#treasure-cruise) (+54%) · EDHREC: in 12,648 decks; most often under [Unesh, Criosphinx Sovereign](../../cards/U/un.md#unesh-criosphinx-sovereign) (72.6% of its decks), [Eligeth, Crossroads Augur // Siani, Eye of the Storm](../../cards/E/el.md#eligeth-crossroads-augur) (37.0% of its decks), [Minn, Wily Illusionist](../../cards/M/min.md#minn-wily-illusionist) (5.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/46/atemsis-all-seeing) · oracle_id `f557aa26-8b79-4116-9249-a067b21b88ef` · printing: M20 #46 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ate-o'-Clock
@@ -696,6 +698,8 @@ schema: 2
 - **Keywords:** Reach, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8227 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Atreus, Impulsive Son + Mind Over Matter](https://commanderspellbook.com/combo/4067-6969/) (Infinite self-discard triggers, Infinite draw triggers) · EDHREC as commander: 7 decks; highest synergy [Training Grounds](../../cards/T/tra.md#training-grounds) (+56%), [Elder Auntie](../../cards/E/el.md#elder-auntie) (+50%), [Gristle Glutton](../../cards/G/gri.md#gristle-glutton) (+50%) · EDHREC: in 3,151 decks; most often under [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (23.3% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (2.1% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#atreus-impulsive-son)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2212/atreus-impulsive-son) · oracle_id `f6a4298c-3d9d-43e1-b32c-b168c02ad503` · printing: SLD #2212 (2025-10-27) · [rulings](https://api.scryfall.com/cards/2e53b0b2-dba1-4a95-80c4-622ab1a547a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

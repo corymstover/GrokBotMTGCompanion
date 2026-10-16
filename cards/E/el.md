@@ -302,6 +302,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8803 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2008-04-01* — This card only gives forestwalk to other Elf creatures. It gives shroud to all other Elf permanents, including non-creatures like Prowess of the Fair.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 895 decks; highest synergy [Elvish Archdruid](../../cards/E/el.md#elvish-archdruid) (+79%), [Priest of Titania](../../cards/P/pr.md#priest-of-titania) (+78%), [Imperious Perfect](../../cards/I/im.md#imperious-perfect) (+74%) · EDHREC: in 14,409 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (11.2% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (6.9% of its decks), [Marwyn, the Nurturer](../../cards/M/mar.md#marwyn-the-nurturer) (11.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eladamri-lord-of-leaves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/224/eladamri-lord-of-leaves) · oracle_id `dcbb6b0e-2219-4ba4-9720-3e58b59b4328` · printing: TMP #224 (1997-10-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -453,6 +455,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-03-08* — A creature’s training ability triggers only when both that creature and a creature with greater power are declared as attackers. Increasing a creature’s power after attackers are declared won’t cause a training ability to trigger.
   - *2024-03-08* — Once a creature’s training ability has triggered, destroying the other attacking creature or reducing its power won’t stop the creature with training from getting a +1/+1 counter.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 310 decks; highest synergy [Martial Coup](../../cards/M/mar.md#martial-coup) (+59%), [Secure the Wastes](../../cards/S/sec.md#secure-the-wastes) (+55%), [Intangible Virtue](../../cards/I/int.md#intangible-virtue) (+53%) · EDHREC: in 14,228 decks; most often under [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (38.6% of its decks), [Ratadrabik of Urborg](../../cards/R/rat.md#ratadrabik-of-urborg) (8.2% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/102/elder-arthur-maxson) · oracle_id `d95cd013-6f32-4a8b-9c46-a28695eea4f1` · printing: PIP #102 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elder Auntie
@@ -2757,6 +2761,8 @@ schema: 2
   - *2023-06-16* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
   - *2023-06-16* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
   - *2023-06-16* — To secretly vote, each player writes down their chosen option without showing it to anyone else. Each player then keeps their vote secret until all players simultaneously reveal their votes.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 516 decks; highest synergy [Arwen, Weaver of Hope](../../cards/A/arw.md#arwen-weaver-of-hope) (+74%), [Elvish Archdruid](../../cards/E/el.md#elvish-archdruid) (+71%), [Elvish Warmaster](../../cards/E/el.md#elvish-warmaster) (+68%) · EDHREC: in 12,764 decks; most often under [Círdan the Shipwright](../../cards/C/ci.md#círdan-the-shipwright) (64.9% of its decks), [Galadriel, Elven-Queen](../../cards/G/ga.md#galadriel-elven-queen) (87.0% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (4.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/51/elrond-of-the-white-council) · oracle_id `5ae4a172-b846-4ec2-8178-a8b762134bfe` · printing: LTC #51 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elsewhere Flask

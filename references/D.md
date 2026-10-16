@@ -28,7 +28,7 @@ schema: 2
 [Card entry](../cards/D/da.md#dack-fayden-helping-hand) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dack Fayden](../Characters%20Index.md#dack-fayden) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dack Fayden](../Characters%20Index.md#dack-fayden) (depicts)
 
 ### Dáin Ironfoot
 
@@ -60,7 +60,7 @@ schema: 2
 [Card entry](../cards/D/da.md#dakkon-shadow-slayer) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dakkon Blackblade](../Characters%20Index.md#dakkon-blackblade) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dakkon Blackblade](../Characters%20Index.md#dakkon-blackblade) (depicts)
 
 ### Dakmor Salvage
 
@@ -1879,8 +1879,9 @@ schema: 2
 
 ### Dogmeat, Ever Loyal
 
-[Card entry](../cards/D/do.md#dogmeat-ever-loyal) · **1 pages** (card data 1)
+[Card entry](../cards/D/do.md#dogmeat-ever-loyal) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Card advantage: Impulse / exile-to-play](../EDH%20Packages.md#card-advantage-impulse--exile-to-play) (+1 more)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Noncreature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#noncreature-tokens)
 
 ### Dokuchi Silencer
@@ -2640,9 +2641,10 @@ schema: 2
 
 ### Dr. Eggman
 
-[Card entry](../cards/D/dre.md#dr-eggman) · **2 pages** (decks 1 · card data 1)
+[Card entry](../cards/D/dre.md#dr-eggman) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
 - **Decks (1):** [Dr. Eggman (Grixis)](../grixis/decks/dr-eggman.md)
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Card data (1):** [Artist Index → Artists N](../Artist%20Index.md#artists-n)
 
 ### Dress Down

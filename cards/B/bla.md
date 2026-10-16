@@ -547,6 +547,8 @@ schema: 2
 - **Keywords:** Mine Vibranium, First strike, Survey the Realm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8604 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Black Panther, Wakandan King + Ashaya, Soul of the Wild + Basking Broodscale](https://commanderspellbook.com/combo/539-5641-6081/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 6,048 decks; highest synergy [Karn's Bastion](../../cards/K/ka.md#karns-bastion) (+62%), [Secure the Wastes](../../cards/S/sec.md#secure-the-wastes) (+62%), [Primal Vigor](../../cards/P/pr.md#primal-vigor) (+53%) · EDHREC: in 9,754 decks; most often under [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (7.4% of its decks), [T'Challa, the Black Panther](../../cards/T/tc.md#tchalla-the-black-panther) (17.9% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#black-panther-wakandan-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mar/87/black-panther-wakandan-king) · oracle_id `48deff27-b421-430b-a484-55b4a593010a` · printing: MAR #87 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a1b11ef2-2285-40eb-b11c-223c159e3d1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

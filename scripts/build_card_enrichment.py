@@ -106,7 +106,7 @@ PW35 = True
 RANK35 = 6915
 # Bot cycle 36: the remaining legendary creatures by EDHREC rank (same bulk) in ~250-card slices; UNRANKED36 then adds
 # the ones with no EDHREC rank (not Commander-legal or too new to rank).
-RANK36 = 8205
+RANK36 = 9647
 UNRANKED36 = False
 BATCHES = [(33, "legendary cards and planeswalkers already linked from lore entries",
             lambda c, tiers: "entry-linked" in tiers and is_legend_or_pw(c)),

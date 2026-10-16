@@ -257,6 +257,8 @@ schema: 2
   > *At odds as brothers, perfectly in sync as fighters.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8586 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 389 decks; highest synergy [Raphael, the Nightwatcher](../../cards/R/rap.md#raphael-the-nightwatcher) (+60%), [Agent Bishop, Man in Black](../../cards/A/ag.md#agent-bishop-man-in-black) (+42%), [Leader's Talent](../../cards/L/le.md#leaders-talent) (+38%) · EDHREC: in 15,563 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (24.7% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (47.4% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (13.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/166/raph-&-leo-sibling-rivals) · oracle_id `57f39ce2-ecbb-4262-8140-03aba5c4303f` · printing: TMT #166 (2026-03-06) · [rulings](https://api.scryfall.com/cards/49293f77-5d7b-4106-b485-db6ce0ed37e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raph & Mikey, Troublemakers

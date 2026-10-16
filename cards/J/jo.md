@@ -892,6 +892,9 @@ schema: 2
 - **Keywords:** Metalcraft, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9246 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 321 decks; highest synergy [Darksteel Citadel](../../cards/D/da.md#darksteel-citadel) (+51%), [Ancient Den](../../cards/A/an.md#ancient-den) (+49%), [Great Furnace](../../cards/G/gre.md#great-furnace) (+48%) · EDHREC: in 13,849 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (65.2% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (8.1% of its decks), [Pia Nalaar, Consul of Revival](../../cards/P/pi.md#pia-nalaar-consul-of-revival) (25.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/J.md#jor-kadeen-the-prevailer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/220/jor-kadeen-the-prevailer) · oracle_id `7c4dbaa8-e24f-4126-81fe-3f218f520d8c` · printing: C21 #220 (2021-04-23) · [rulings](https://api.scryfall.com/cards/576d86b5-2541-4ebc-8992-73248af7c805/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jorn, God of Winter // Kaldring, the Rimestaff

@@ -1002,7 +1002,9 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9404 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#iron-man-bleeding-edge)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Ashad, the Lone Cyberman (Grixis)](../../grixis/decks/ashad-the-lone-cyberman.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 388 decks; highest synergy [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+62%), [Simulacrum Synthesizer](../../cards/S/si.md#simulacrum-synthesizer) (+62%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+60%) · EDHREC: in 13,521 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (64.2% of its decks), [Iron Man, Titan of Innovation](../../cards/I/ir.md#iron-man-titan-of-innovation) (34.3% of its decks), [Aloy, Savior of Meridian](../../cards/A/al.md#aloy-savior-of-meridian) (17.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/I.md#iron-man-bleeding-edge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/626/iron-man-bleeding-edge) · oracle_id `fc6e170c-820c-48bb-95c7-ee79fba634de` · printing: MSC #626 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b14b6721-6491-41a4-afb4-93bd76f21173/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Man, Futurist Paragon
@@ -1109,6 +1111,8 @@ schema: 2
 - **Keywords:** Flying, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9283 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Doctor Doom, King of Latveria (Grixis)](../../grixis/decks/doctor-doom-king-of-latveria.md) · [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 29 decks; highest synergy [Baron Strucker, HYDRA Overlord](../../cards/B/bar.md#baron-strucker-hydra-overlord) (+96%), [Baron Helmut Zemo](../../cards/B/bar.md#baron-helmut-zemo) (+95%), [Lethal Scheme](../../cards/L/le.md#lethal-scheme) (+94%) · EDHREC: in 14,152 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (78.3% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (21.9% of its decks), [Ultron, Unlimited](../../cards/U/ul.md#ultron-unlimited) (82.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/I.md#iron-monger-sadistic-tycoon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/45/iron-monger-sadistic-tycoon) · oracle_id `7324d8c0-3a30-452b-b05d-ec7b6a98666c` · printing: MSC #45 (2026-06-26) · [rulings](https://api.scryfall.com/cards/799554d1-d1fb-4206-af9a-80d3582bedc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

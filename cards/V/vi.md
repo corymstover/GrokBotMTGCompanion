@@ -3882,6 +3882,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — If you sacrifice Vito at the same time you sacrifice other permanents, Vito's ability will trigger for each of those other permanents.
   - *2023-11-10* — Vito's triggered ability has no effect each time beyond the third it resolves in a turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 986 decks; highest synergy [Bartolomé del Presidio](../../cards/B/bar.md#bartolomé-del-presidio) (+55%), [Carmen, Cruel Skymarcher](../../cards/C/car.md#carmen-cruel-skymarcher) (+42%), [Baron Bertram Graywater](../../cards/B/bar.md#baron-bertram-graywater) (+39%) · EDHREC: in 13,347 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (4.3% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (20.0% of its decks), [Carmen, Cruel Skymarcher](../../cards/C/car.md#carmen-cruel-skymarcher) (22.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/243/vito-fanatic-of-aclazotz) · oracle_id `9768d43b-8b3f-4d03-ac1b-e603af832875` · printing: LCI #243 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vito's Inquisitor

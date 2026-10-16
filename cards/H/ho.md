@@ -577,6 +577,8 @@ schema: 2
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8773 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 210 decks; highest synergy [Cathartic Reunion](../../cards/C/cat.md#cathartic-reunion) (+67%), [Change of Fortune](../../cards/C/cha.md#change-of-fortune) (+61%), [Magmakin Artillerist](../../cards/M/mag.md#magmakin-artillerist) (+60%) · EDHREC: in 15,182 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (31.0% of its decks), [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (27.0% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (12.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hobgoblin-mantled-marauder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/805/hobgoblin-mantled-marauder) · oracle_id `1d453331-6b8e-4d3d-b658-683eab2760da` · printing: MSC #805 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a4dafd5a-e9eb-48b3-b3ec-8d6a9fd92116/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

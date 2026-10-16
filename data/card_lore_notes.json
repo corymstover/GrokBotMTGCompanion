@@ -161,5 +161,40 @@
   "sources": [
    "https://magic.wizards.com/en/news/card-preview/story-spotlight-cards-for-the-lost-caverns-of-ixalan"
   ]
+ },
+ "Warleader's Call": {
+  "relation": "depicts",
+  "text": "Story Spotlight for Murders at Karlov Manor: Aurelia is \"fed up waiting for the Agency and is ready to declare war on Rakdos.\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/card-preview/story-spotlight-cards-for-murders-at-karlov-manor"
+  ]
+ },
+ "Audience with Trostani": {
+  "relation": "depicts",
+  "text": "Story Spotlight for Murders at Karlov Manor: Kaya and Kellan \"visit Vitu-Ghazi, and speak with Trostani, so that she can read the original Guildpact of Rakdos.\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/card-preview/story-spotlight-cards-for-murders-at-karlov-manor"
+  ]
+ },
+ "Expose the Culprit": {
+  "relation": "depicts",
+  "text": "Story Spotlight for Murders at Karlov Manor: the card represents \"Etrata being revealed as a Dimir spy in Selesnya clothing.\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/card-preview/story-spotlight-cards-for-murders-at-karlov-manor"
+  ]
+ },
+ "Bitter Triumph": {
+  "relation": "depicts",
+  "text": "Story Spotlight for The Lost Caverns of Ixalan Episode 5: Caparocti \"impales Clavileño, piercing the vampire's tainted heart.\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/card-preview/story-spotlight-cards-for-the-lost-caverns-of-ixalan"
+  ]
+ },
+ "Canonized in Blood": {
+  "relation": "depicts",
+  "text": "Story Spotlight for The Lost Caverns of Ixalan: Vito meets his god, and \"Vito is transformed into a big bat-like vampire creature\".",
+  "sources": [
+   "https://magic.wizards.com/en/news/card-preview/story-spotlight-cards-for-the-lost-caverns-of-ixalan"
+  ]
  }
 }

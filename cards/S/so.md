@@ -2387,6 +2387,8 @@ schema: 2
 - **Keywords:** Gotta Go Fast, Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8910 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 18 combos; most popular [Sonic the Hedgehog + Amulet of Vigor + Pyrohemia](https://commanderspellbook.com/combo/654-4629-6712/) (Near-infinite artifact ETB, Near-infinite artifact LTB) · EDHREC as commander: 12,458 decks; highest synergy [Knuckles the Echidna](../../cards/K/kn.md#knuckles-the-echidna) (+79%), [Super State](../../cards/S/sup.md#super-state) (+65%), [Enduring Curiosity](../../cards/E/en.md#enduring-curiosity) (+60%) · EDHREC: in 2,607 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (4.0% of its decks), [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (1.8% of its decks), [Zinnia, Valley's Voice](../../cards/Z/zi.md#zinnia-valleys-voice) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2087/sonic-the-hedgehog) · oracle_id `b07a7b00-9394-48a9-a597-17f391495909` · printing: SLD #2087 (2025-07-14) · [rulings](https://api.scryfall.com/cards/072a0e6f-e636-4ce1-a253-580ab956410e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sonorous Howlbonder

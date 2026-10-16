@@ -272,8 +272,9 @@ schema: 2
 
 ### Zidane, Tantalus Thief
 
-[Card entry](../cards/Z/zi.md#zidane-tantalus-thief) · **1 pages** (card data 1)
+[Card entry](../cards/Z/zi.md#zidane-tantalus-thief) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Treasure: Repeatable Treasure makers](../EDH%20Packages.md#treasure-repeatable-treasure-makers)
 - **Card data (1):** [Artist Index → Artists E](../Artist%20Index.md#artists-e)
 
 ### Zilortha, Strength Incarnate

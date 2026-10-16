@@ -315,6 +315,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8648 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — Groundchuck & Dirtbag's last ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 44 combos; most popular [Ashaya, Soul of the Wild + Magus of the Candelabra + Groundchuck & Dirtbag](https://commanderspellbook.com/combo/539-4657-7288/) (Infinite green mana, Infinite mana lands you control can produce) · EDHREC as commander: 168 decks; highest synergy [Skyshroud Claim](../../cards/S/sk.md#skyshroud-claim) (+39%), [Shared Roots](../../cards/S/sha.md#shared-roots) (+36%), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+33%) · EDHREC: in 15,582 decks; most often under [Raph & Mikey, Troublemakers](../../cards/R/rap.md#raph--mikey-troublemakers) (30.9% of its decks), [Omnath, Locus of Mana](../../cards/O/om.md#omnath-locus-of-mana) (10.5% of its decks), [Kona, Rescue Beastie](../../cards/K/ko.md#kona-rescue-beastie) (8.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/115/groundchuck-&-dirtbag) · oracle_id `da344e46-6bdf-4032-8590-bac850d5713d` · printing: TMT #115 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grounded

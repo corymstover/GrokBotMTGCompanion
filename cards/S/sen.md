@@ -632,6 +632,8 @@ schema: 2
   - *2020-08-07* — The target opponent can't activate any abilities, including mana abilities.
   - *2020-08-07* — Triggered abilities use the word “when,” “whenever,” or “at.” They're often written as “[Trigger condition], [effect].” Triggered abilities are unaffected by Sen Triplets.
   - *2020-08-07* — You can't activate abilities of cards in the target opponent's hand.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8,140 decks; highest synergy [Telepathy](../../cards/T/te.md#telepathy) (+55%), [Chromatic Lantern](../../cards/C/chr.md#chromatic-lantern) (+47%), [Vega, the Watcher](../../cards/V/ve.md#vega-the-watcher) (+45%) · EDHREC: in 5,598 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.1% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (1.4% of its decks), [Merieke Ri Berit](../../cards/M/me.md#merieke-ri-berit) (10.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sen-triplets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/218/sen-triplets) · oracle_id `f0c5864f-83c3-4d99-8f97-0ab92608fff3` · printing: 2XM #218 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

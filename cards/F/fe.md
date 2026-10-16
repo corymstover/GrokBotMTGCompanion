@@ -1979,6 +1979,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9003 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Tarkir: Dragonstorms](https://magic.wizards.com/en/news/feature/the-legends-of-tarkir-dragonstorm) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 15 combos; most popular [Felothar, Dawn of the Abzan + Cryptic Trilobite + Crystalline Crawler + Eldrazi Displacer + Basking Broodscale](https://commanderspellbook.com/combo/2060-4013-4929-5641-6457/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 6,705 decks; highest synergy [Inspiring Call](../../cards/I/ins.md#inspiring-call) (+54%), [Hardened Scales](../../cards/H/ha.md#hardened-scales) (+50%), [Abzan Falconer](../../cards/A/ab.md#abzan-falconer) (+48%) · EDHREC: in 8,079 decks; most often under [Tayam, Luminous Enigma](../../cards/T/ta.md#tayam-luminous-enigma) (27.5% of its decks), [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (6.4% of its decks), [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (3.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/184/felothar-dawn-of-the-abzan) · oracle_id `fd666669-ad23-4e41-b78c-1cd7b82eb8b4` · printing: TDM #184 (2025-04-11) · [rulings](https://api.scryfall.com/cards/83e11f20-6524-4fba-9603-0b97e2d69aac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Felothar the Steadfast
@@ -2696,6 +2698,9 @@ schema: 2
 - **Rulings** (2):
   - *2025-11-17* — To double the number of each kind of counter on a creature, put another counter on it for each counter it already has. Effects that interact with counters being put onto creatures apply as appropriate.
   - *2025-11-17* — Use the number of counters among creatures the target player controls when Ferrafor's first ability resolves to determine how many Saprolings are created.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Nim Deathmantle + Ashnod's Altar + Ferrafor, Young Yew](https://commanderspellbook.com/combo/2034-5003-7184/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 275 decks; highest synergy [Forgotten Ancient](../../cards/F/fo.md#forgotten-ancient) (+56%), [Mycoloth](../../cards/M/my.md#mycoloth) (+50%), [Utopia Mycon](../../cards/U/ut.md#utopia-mycon) (+49%) · EDHREC: in 16,102 decks; most often under [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (26.9% of its decks), [The Reaper, King No More](../../cards/T/ther.md#the-reaper-king-no-more) (22.4% of its decks), [Shroofus Sproutsire](../../cards/S/shr.md#shroofus-sproutsire) (11.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/F.md#ferrafor-young-yew)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/16/ferrafor-young-yew) · oracle_id `a46f9136-b904-403e-b263-e99c9a2fe2ec` · printing: ECC #16 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ferris Wheel

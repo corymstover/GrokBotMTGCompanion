@@ -1407,6 +1407,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9597 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-07-05* — You lose only 2 life when Cleopatra’s last ability resolves regardless of how many counters the legendary creature that died had on it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,989 decks; highest synergy [Rishkar, Peema Renegade](../../cards/R/ri.md#rishkar-peema-renegade) (+70%), [Vraska Joins Up](../../cards/V/vr.md#vraska-joins-up) (+64%), [Arwen, Weaver of Hope](../../cards/A/arw.md#arwen-weaver-of-hope) (+61%) · EDHREC: in 11,365 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (4.1% of its decks), [Reyhan, Last of the Abzan // Yoshimaru, Ever Faithful](../../cards/R/rey.md#reyhan-last-of-the-abzan) (60.0% of its decks), [Skullbriar, the Walking Grave](../../cards/S/sk.md#skullbriar-the-walking-grave) (11.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#cleopatra-exiled-pharaoh)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/52/cleopatra-exiled-pharaoh) · oracle_id `e7a80464-1522-48d7-bf82-f9894f5c3ae0` · printing: ACR #52 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clergy en-Vec

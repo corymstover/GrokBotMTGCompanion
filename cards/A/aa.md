@@ -99,6 +99,9 @@ schema: 2
   > Whenever Aang and Katara enter or attack, create X 1/1 white Ally creature tokens, where X is the number of tapped artifacts and/or creatures you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9237 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,599 decks; highest synergy [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (+75%), [Great Divide Guide](../../cards/G/gre.md#great-divide-guide) (+70%), [Katara, Water Tribe's Hope](../../cards/K/ka.md#katara-water-tribes-hope) (+66%) · EDHREC: in 12,628 decks; most often under [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (58.2% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (24.9% of its decks), [General Tazri](../../cards/G/ge.md#general-tazri) (31.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#aang-and-katara)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/69/aang-and-katara) · oracle_id `481c3e14-b670-4fab-aa9f-6ce5b514096d` · printing: TLE #69 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f333ea01-124f-4125-87ab-609be40e774c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang, at the Crossroads // Aang, Destined Savior

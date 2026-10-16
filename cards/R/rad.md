@@ -143,6 +143,8 @@ schema: 2
   > {4}{R}{G}: Radha gets +X/+X until end of turn, where X is the number of lands you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8348 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 913 decks; highest synergy [Mina and Denn, Wildborn](../../cards/M/min.md#mina-and-denn-wildborn) (+62%), [Azusa, Lost but Seeking](../../cards/A/az.md#azusa-lost-but-seeking) (+51%), [Omnath, Locus of Rage](../../cards/O/om.md#omnath-locus-of-rage) (+42%) · EDHREC: in 15,641 decks; most often under [Agatha of the Vile Cauldron](../../cards/A/ag.md#agatha-of-the-vile-cauldron) (38.2% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (6.5% of its decks), [Omnath, Locus of Rage](../../cards/O/om.md#omnath-locus-of-rage) (7.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/224/radha-heart-of-keld) · oracle_id `927fb139-0493-48be-8cc4-2c7d854d6a55` · printing: M21 #224 (2020-07-03) · [rulings](https://api.scryfall.com/cards/2bbd37b1-49cb-4295-9a1f-fb85368a8f12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radha, Heir to Keld

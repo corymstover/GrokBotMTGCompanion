@@ -189,6 +189,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8806 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — Plagon's last ability doesn't actually change the target creature's power. It changes only the amount of combat damage the creature assigns. All other rules and effects that check power or toughness use the real values, even if they cause damage "equal to a creature's power" to be dealt.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,087 decks; highest synergy [Ephemerate](../../cards/E/ep.md#ephemerate) (+69%), [Cloudshift](../../cards/C/cl.md#cloudshift) (+68%), [Essence Flux](../../cards/E/es.md#essence-flux) (+66%) · EDHREC: in 10,232 decks; most often under [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (24.7% of its decks), [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (8.0% of its decks), [Brago, King Eternal](../../cards/B/br.md#brago-king-eternal) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#plagon-lord-of-the-beach)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-37/plagon-lord-of-the-beach) · oracle_id `1c95b7cf-be4d-4961-9073-3e39487492c8` · printing: PLST #J25-37 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

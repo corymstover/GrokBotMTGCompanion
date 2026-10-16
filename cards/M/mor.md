@@ -684,6 +684,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9349 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 224 decks; highest synergy [Nirkana Revenant](../../cards/N/ni.md#nirkana-revenant) (+59%), [Magus of the Coffers](../../cards/M/mag.md#magus-of-the-coffers) (+52%), [Exsanguinate](../../cards/E/ex.md#exsanguinate) (+51%) · EDHREC: in 13,753 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (6.0% of its decks), [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) (55.7% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/59/morlun-devourer-of-spiders) · oracle_id `273ad15c-366a-4691-978b-d6028b57005a` · printing: SPM #59 (2025-09-26) · [rulings](https://api.scryfall.com/cards/1beb2eb9-90b5-43ba-8b04-cfce7dcb744b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morningtide
@@ -844,6 +846,8 @@ schema: 2
   - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Lore:** ✅ Presented with an official backstory on [The Legends (and Characters) of Murders at Karlov Manor](https://magic.wizards.com/en/news/feature/the-legends-and-characters-of-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,998 decks; highest synergy [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+76%), [Erdwal Illuminator](../../cards/E/er.md#erdwal-illuminator) (+72%), [Tireless Tracker](../../cards/T/ti.md#tireless-tracker) (+72%) · EDHREC: in 6,836 decks; most often under [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (4.2% of its decks), [Sophia, Dogged Detective](../../cards/S/so.md#sophia-dogged-detective) (14.5% of its decks), [Cecily, Haunted Mage // Othelm, Sigardian Outcast](../../cards/C/ce.md#cecily-haunted-mage) (15.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/3/morska-undersea-sleuth) · oracle_id `80ea3e65-946d-42c3-a26f-3d74e81d70b4` · printing: MKC #3 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortal Combat

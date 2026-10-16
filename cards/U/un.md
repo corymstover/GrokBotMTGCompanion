@@ -796,6 +796,9 @@ schema: 2
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
   - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 112 decks; highest synergy [Iroh's Demonstration](../../cards/I/ir.md#irohs-demonstration) (+84%), [Combustion Technique](../../cards/C/com.md#combustion-technique) (+80%), [Price of Freedom](../../cards/P/pr.md#price-of-freedom) (+78%) · EDHREC: in 16,105 decks; most often under [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (69.3% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (17.9% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (1.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/U.md#uncle-iroh)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/248/uncle-iroh) · oracle_id `8a98ddac-7341-4118-b188-51d8d03afd1d` · printing: TLA #248 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uncle Istvan
@@ -2301,7 +2304,9 @@ schema: 2
   - *2017-07-14* — To determine the total cost of a Sphinx spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the creature remains unchanged, no matter what the total cost to cast it was.
   - *2017-07-14* — Unesh's cost-reduction ability doesn't reduce the cost to cast itself.
   - *2017-07-14* — You (not your opponent) choose which pile to put into your hand and which to put into your graveyard.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#unesh-criosphinx-sovereign)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,013 decks; highest synergy [Sphinx of Foresight](../../cards/S/sph.md#sphinx-of-foresight) (+80%), [Defiler of Dreams](../../cards/D/def.md#defiler-of-dreams) (+78%), [Dream Eater](../../cards/D/dre.md#dream-eater) (+72%) · EDHREC: in 12,493 decks; most often under [The Celestial Toymaker](../../cards/T/thec.md#the-celestial-toymaker) (69.9% of its decks), [Yennett, Cryptic Sovereign](../../cards/Y/ye.md#yennett-cryptic-sovereign) (10.6% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (1.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/U.md#unesh-criosphinx-sovereign)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/52/unesh-criosphinx-sovereign) · oracle_id `7492ea06-24d5-4a1f-a6ac-c33743e91aa7` · printing: HOU #52 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unexpected Assistance

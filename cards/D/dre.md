@@ -1572,7 +1572,9 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8574 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#dr-eggman)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Dr. Eggman (Grixis)](../../grixis/decks/dr-eggman.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 13,442 decks; highest synergy [Noxious Gearhulk](../../cards/N/no.md#noxious-gearhulk) (+79%), [Combustible Gearhulk](../../cards/C/com.md#combustible-gearhulk) (+75%), [Myr Battlesphere](../../cards/M/my.md#myr-battlesphere) (+73%) · EDHREC: in 2,496 decks; most often under [The Valeyard](../../cards/T/thev.md#the-valeyard) (32.6% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.4% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (3.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/D.md#dr-eggman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2084/dr-eggman) · oracle_id `fb68c1ae-a129-4c17-81fa-be5da2c32ec5` · printing: SLD #2084 (2025-07-14) · [rulings](https://api.scryfall.com/cards/18602e92-69be-4626-a28a-463913108f42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreg Mangler

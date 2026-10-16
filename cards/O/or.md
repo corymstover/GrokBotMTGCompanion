@@ -1110,6 +1110,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8665 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-07-23* — You may cast Orcus, Prince of Undeath with X equal to 0. If you do, the triggered ability will do nothing as it resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Be'lakor, the Dark Master (Grixis)](../../grixis/decks/belakor-the-dark-master.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 283 decks; highest synergy [Songs of the Damned](../../cards/S/so.md#songs-of-the-damned) (+32%), [Wand of Orcus](../../cards/W/wan.md#wand-of-orcus) (+31%), [Victimize](../../cards/V/vi.md#victimize) (+27%) · EDHREC: in 15,305 decks; most often under [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (39.0% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (21.3% of its decks), [Raphael, Fiendish Savior](../../cards/R/rap.md#raphael-fiendish-savior) (40.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#orcus-prince-of-undeath)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/229/orcus-prince-of-undeath) · oracle_id `9d02b5e1-bd29-45ad-b11d-f2cd21c48979` · printing: AFR #229 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -514,6 +514,8 @@ schema: 2
 - **Keywords:** Haste, Trample, Share Intelligence
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8609 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,999 decks; highest synergy [Invigorate](../../cards/I/inv.md#invigorate) (+78%), [Groundswell](../../cards/G/gro.md#groundswell) (+70%), [Giant Growth](../../cards/G/gi.md#giant-growth) (+69%) · EDHREC: in 10,749 decks; most often under [Gluntch, the Bestower](../../cards/G/gl.md#gluntch-the-bestower) (34.1% of its decks), [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (1.8% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/157/sergeant-john-benton) · oracle_id `987a0b61-2ce4-47bd-8f5e-1e7bf01d0869` · printing: WHO #157 (2023-10-13) · [rulings](https://api.scryfall.com/cards/01f40e07-f565-4b9e-87a5-5b28b4e9fb0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serpent Assassin

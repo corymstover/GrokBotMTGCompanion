@@ -1550,6 +1550,8 @@ schema: 2
   - *2018-12-07* — Shirei's ability can't return any creatures that died before Shirei entered the battlefield.
   - *2018-12-07* — Shirei's ability only triggers if the creature's power immediately before leaving the battlefield is 1 or less, regardless of its power in your graveyard.
   - *2018-12-07* — Shirei's ability triggers if a creature you own with power 1 or less dies under another player's control.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Shirei, Shizo's Caretaker + Coretapper + Magistrate's Scepter](https://commanderspellbook.com/combo/1696-3492-3609/) (Infinite turns, Lock) · EDHREC as commander: 7,921 decks; highest synergy [Serrated Scorpion](../../cards/S/ser.md#serrated-scorpion) (+65%), [Dusk Legion Zealot](../../cards/D/du.md#dusk-legion-zealot) (+64%), [Bone Shredder](../../cards/B/bo.md#bone-shredder) (+62%) · EDHREC: in 6,687 decks; most often under [Taborax, Hope's Demise](../../cards/T/ta.md#taborax-hopes-demise) (26.0% of its decks), [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (2.2% of its decks), [Athreos, God of Passage](../../cards/A/at.md#athreos-god-of-passage) (4.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/186/shirei-shizos-caretaker) · oracle_id `7b5c3d28-6d8b-488b-b088-567b24faadc7` · printing: CMM #186 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shire Scarecrow

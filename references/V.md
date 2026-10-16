@@ -230,8 +230,9 @@ schema: 2
 
 ### Vanille, Cheerful l'Cie
 
-[Card entry](../cards/V/va.md#vanille-cheerful-lcie) · **1 pages** (rules 1)
+[Card entry](../cards/V/va.md#vanille-cheerful-lcie) · **2 pages** (edh guides 1 · rules 1)
 
+- **EDH guides (1):** [EDH Packages → Graveyard: Self-mill](../EDH%20Packages.md#graveyard-self-mill)
 - **Rules (1):** [Keyword Encyclopedia → Meld](../Keyword%20Encyclopedia.md#meld)
 
 ### Vanish from Sight
@@ -482,7 +483,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Spellslinger: Spell copiers](../EDH%20Packages.md#spellslinger-spell-copiers)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Venser](../Characters%20Index.md#venser) (depicts) · [Venser](../Planeswalker%20Dossiers.md#venser) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Venser](../Characters%20Index.md#venser) (depicts) · [Venser](../Planeswalker%20Dossiers.md#venser) (depicts)
 
 ### Venser, Shaper Savant
 
@@ -580,8 +581,9 @@ schema: 2
 
 ### Veronica, Dissident Scribe
 
-[Card entry](../cards/V/ve.md#veronica-dissident-scribe) · **1 pages** (card data 1)
+[Card entry](../cards/V/ve.md#veronica-dissident-scribe) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Card advantage: Impulse / exile-to-play](../EDH%20Packages.md#card-advantage-impulse--exile-to-play)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Noncreature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#noncreature-tokens)
 
 ### Very Cryptic Command (UST #49f)

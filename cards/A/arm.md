@@ -149,6 +149,8 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9599 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 73 decks; highest synergy [Feign Death](../../cards/F/fe.md#feign-death) (+57%), [Thran Dynamo](../../cards/T/thr.md#thran-dynamo) (+46%), [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+43%) · EDHREC: in 13,402 decks; most often under [Satoru Umezawa](../../cards/S/sat.md#satoru-umezawa) (17.7% of its decks), [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (5.2% of its decks), [Marvo, Deep Operative](../../cards/M/mar.md#marvo-deep-operative) (8.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/58/armaggon-future-shark) · oracle_id `e2a35850-92c5-40ab-8697-2e995819d7ac` · printing: TMT #58 (2026-03-06) · [rulings](https://api.scryfall.com/cards/5989378b-0eac-43cf-bc83-8f7765536789/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armament Corps
@@ -389,7 +391,7 @@ schema: 2
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — While resolving Armix's ability, you can't discard more than one card to give more than one creature -X/-X.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 2](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-2-2020-11-06) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 25 decks; highest synergy [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+85%), [Vault of Whispers](../../cards/V/va.md#vault-of-whispers) (+63%), [Cranial Plating](../../cards/C/cr.md#cranial-plating) (+61%) · EDHREC: in 22,394 decks; most often under [Golbez, Crystal Collector](../../cards/G/gol.md#golbez-crystal-collector) (30.9% of its decks), [Imotekh the Stormlord](../../cards/I/im.md#imotekh-the-stormlord) (40.4% of its decks), [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (17.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/108/armix-filigree-thrasher) · oracle_id `a1464164-fbda-43b5-988e-6e1da9bd9eef` · printing: CMR #108 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

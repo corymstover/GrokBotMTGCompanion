@@ -930,6 +930,8 @@ schema: 2
   - *2022-06-10* — You can look at the top card of your library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
   - *2022-06-10* — You have a "full party" if the number of creatures in your party is four (that is, you control a Cleric, a Rogue, a Warrior, and a Wizard, and they are four different creatures).
   - *2022-06-10* — You'll still pay all costs for the spell, including additional costs. You may also pay alternative costs if any are available.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Nalia de'Arnise + Mortuary + Phyrexian Altar](https://commanderspellbook.com/combo/3974-4050-5220/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 2,816 decks; highest synergy [Burakos, Party Leader](../../cards/B/bu.md#burakos-party-leader) (+87%), [Squad Commander](../../cards/S/sq.md#squad-commander) (+82%), [Harper Recruiter](../../cards/H/ha.md#harper-recruiter) (+80%) · EDHREC: in 13,557 decks; most often under [The Destined Warrior](../../cards/T/thed.md#the-destined-warrior) (91.2% of its decks), [Burakos, Party Leader // Folk Hero](../../cards/B/bu.md#burakos-party-leader) (94.5% of its decks), [Tazri, Beacon of Unity](../../cards/T/ta.md#tazri-beacon-of-unity) (72.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/649/nalia-dearnise) · oracle_id `1bf6248c-658c-4540-8bee-81af79d349be` · printing: CLB #649 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Namazu Trader
@@ -1814,6 +1816,9 @@ schema: 2
 - **Keywords:** Menace, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9354 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Duskmourn: House of Horror](https://magic.wizards.com/en/news/feature/the-legends-of-duskmourn-house-of-horror) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,613 decks; highest synergy [Combat Research](../../cards/C/com.md#combat-research) (+58%), [Aqueous Form](../../cards/A/aq.md#aqueous-form) (+50%), [Unable to Scream](../../cards/U/un.md#unable-to-scream) (+50%) · EDHREC: in 12,227 decks; most often under [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (4.8% of its decks), [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (9.5% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (3.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/N.md#nashi-searcher-in-the-dark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/223/nashi-searcher-in-the-dark) · oracle_id `ade8fc6f-efaa-4a24-96d8-99ef5026cd74` · printing: DSK #223 (2024-09-27) · [rulings](https://api.scryfall.com/cards/0fbf9e1e-43f2-499e-844d-22fc10dbad06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nasty End

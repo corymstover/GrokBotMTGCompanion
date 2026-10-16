@@ -306,6 +306,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9276 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Viscera Seer + Reassembling Skeleton + Pitiless Plunderer + Rat King, Pale Piper](https://commanderspellbook.com/combo/1580-2292-4871-7316/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 110 decks; highest synergy [Ogre Slumlord](../../cards/O/og.md#ogre-slumlord) (+66%), [Piper of the Swarm](../../cards/P/pi.md#piper-of-the-swarm) (+58%), [Voracious Vermin](../../cards/V/vo.md#voracious-vermin) (+56%) · EDHREC: in 14,051 decks; most often under [Rat King, Verminister](../../cards/R/rat.md#rat-king-verminister) (53.4% of its decks), [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (26.7% of its decks), [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (24.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/19/rat-king-pale-piper) · oracle_id `da359f85-7a11-4575-848d-642d1ae0ddbb` · printing: TMC #19 (2026-03-06) · [rulings](https://api.scryfall.com/cards/9b215ce4-a085-4627-99b1-f4f1344ad41b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rat King, Verminister
@@ -348,6 +350,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-05* — You don't choose a target for Ratonhnhaké:ton's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you create an Assassin token this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
   - *2024-07-05* — You may target an Equipment card with the reflexive triggered ability that can't legally be attached to the Assassin token. If you do, it will enter the battlefield unattached.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,213 decks; highest synergy [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+68%), [Assassin Gauntlet](../../cards/A/as.md#assassin-gauntlet) (+58%), [Excalibur, Sword of Eden](../../cards/E/ex.md#excalibur-sword-of-eden) (+57%) · EDHREC: in 14,161 decks; most often under [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (62.5% of its decks), [Arna Kennerüd, Skycaptain](../../cards/A/arn.md#arna-kennerüd-skycaptain) (14.7% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#ratonhnhakéton)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/62/ratonhnhak%C3%A9%EA%9E%89ton) · oracle_id `a37f8381-83a4-4b6b-8176-c90f6a61da74` · printing: ACR #62 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

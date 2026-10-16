@@ -103,6 +103,9 @@ schema: 2
   - *2020-06-23* — Once Subira's last ability resolves, check to see if the delayed triggered ability should trigger based on the power of the creatures immediately after damage is dealt, not based on their power as the ability resolves.
   - *2020-06-23* — Once a creature with power 2 or less has been blocked, Subira's middle ability won't cause it to become unblocked.
   - *2020-06-23* — You can activate Subira's last ability if your hand is empty. You simply discard zero cards.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 589 decks; highest synergy [Loyal Apprentice](../../cards/L/lo.md#loyal-apprentice) (+67%), [Grenzo, Havoc Raiser](../../cards/G/gre.md#grenzo-havoc-raiser) (+59%), [Raid Bombardment](../../cards/R/rai.md#raid-bombardment) (+59%) · EDHREC: in 16,026 decks; most often under [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (36.9% of its decks), [Alesha, Who Smiles at Death](../../cards/A/al.md#alesha-who-smiles-at-death) (14.6% of its decks), [Zurzoth, Chaos Rider](../../cards/Z/zu.md#zurzoth-chaos-rider) (14.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#subira-tulzidi-caravanner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/261/subira-tulzidi-caravanner) · oracle_id `9e2e3272-d4e1-4329-b1d2-f393b3511b82` · printing: CMM #261 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subjugate the Hobbits

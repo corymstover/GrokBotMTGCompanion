@@ -50,6 +50,8 @@ schema: 2
   > When Mabel enters, create Cragflame, a legendary colorless Equipment artifact token with "Equipped creature gets +1/+1 and has vigilance, trample, and haste" and equip {2}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9065 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Bloomburrow](https://magic.wizards.com/en/news/feature/the-legends-of-bloomburrow) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,307 decks; highest synergy [Manifold Mouse](../../cards/M/man.md#manifold-mouse) (+89%), [Heartfire Hero](../../cards/H/he.md#heartfire-hero) (+87%), [Seedglaive Mentor](../../cards/S/see.md#seedglaive-mentor) (+87%) · EDHREC: in 7,309 decks; most often under [Arthur, Marigold Knight](../../cards/A/art.md#arthur-marigold-knight) (25.0% of its decks), [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (1.9% of its decks), [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mabel-heir-to-cragflame)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/224/mabel-heir-to-cragflame) · oracle_id `4b11e435-5888-4e3b-a255-db817392163f` · printing: BLB #224 (2024-08-02) · [rulings](https://api.scryfall.com/cards/be6627fd-729d-44f2-b6bf-5299f49d1e3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

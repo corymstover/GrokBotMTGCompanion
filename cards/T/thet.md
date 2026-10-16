@@ -203,7 +203,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6460 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-08-21* — Your opponent will draw the card they normally draw in their draw step before you draw a card from Jace's first ability.
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 25,180 decks; most often under [Bard, King of Dale](../../cards/B/bar.md#bard-king-of-dale) (12.5% of its decks), [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (67.0% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (5.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/T.md#the-theorist-jace-beleren)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/43/the-theorist-jace-beleren) · oracle_id `89a6e876-0b00-4671-9652-766fd7ef9bf2` · printing: FRA #43 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

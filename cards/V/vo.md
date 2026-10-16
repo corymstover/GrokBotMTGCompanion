@@ -1813,6 +1813,8 @@ schema: 2
   > *"The beholder told me I had a good eye for details. Who was I to argue?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8878 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 20 combos; most popular [Volo, Guide to Monsters + Temur Sabertooth + Peregrine Drake](https://commanderspellbook.com/combo/215-3821-4115/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 10,439 decks; highest synergy [End-Raze Forerunners](../../cards/E/en.md#end-raze-forerunners) (+59%), [Ornithopter of Paradise](../../cards/O/or.md#ornithopter-of-paradise) (+59%), [Maraleaf Pixie](../../cards/M/mar.md#maraleaf-pixie) (+56%) · EDHREC: in 4,661 decks; most often under [Volo, Itinerant Scholar // Master Chef](../../cards/V/vo.md#volo-itinerant-scholar) (39.7% of its decks), [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (1.2% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/238/volo-guide-to-monsters) · oracle_id `f105960e-6609-4192-afc0-e243013b7cc1` · printing: AFR #238 (2021-07-23) · [rulings](https://api.scryfall.com/cards/c9ae01f9-7461-47b4-aa1e-93bd6ff1bf9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volo, Itinerant Scholar

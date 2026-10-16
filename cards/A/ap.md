@@ -210,6 +210,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9460 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — The triggered ability created by Aphelia's last ability triggers and resolves after combat damage is dealt. For example, if Gorgons and/or Snakes you control deal a total of 3 combat damage to a player with 12 life, combat damage will reduce that player's life total to 9. Then the triggered ability will cause the player to lose 5 life, leaving the player at 4.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Aphelia, Viper Whisperer + Wound Reflection](https://commanderspellbook.com/combo/4475-6109/) (Target opponent loses the game, Infinite lifeloss for target opponent) · EDHREC as commander: 5,767 decks; highest synergy [Hooded Blightfang](../../cards/H/ho.md#hooded-blightfang) (+84%), [Ohran Frostfang](../../cards/O/oh.md#ohran-frostfang) (+73%), [Tower Winder](../../cards/T/to.md#tower-winder) (+72%) · EDHREC: in 7,944 decks; most often under [The Serpent Society](../../cards/T/thes.md#the-serpent-society) (55.2% of its decks), [Hapatra, Vizier of Poisons](../../cards/H/ha.md#hapatra-vizier-of-poisons) (13.3% of its decks), [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aphelia-viper-whisperer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/40/aphelia-viper-whisperer) · oracle_id `191e003f-1a78-4d85-9c70-2ae132a5f9cc` · printing: J25 #40 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -599,6 +601,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8558 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 63 decks; highest synergy [Hakoda, Selfless Commander](../../cards/H/ha.md#hakoda-selfless-commander) (+82%), [Avatar Enthusiasts](../../cards/A/av.md#avatar-enthusiasts) (+80%), [Gather the White Lotus](../../cards/G/ga.md#gather-the-white-lotus) (+80%) · EDHREC: in 15,946 decks; most often under [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (42.4% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (18.0% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (24.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/62/appa-the-vigilant) · oracle_id `72994a7a-7c0d-4f28-8cc0-28161d098d7f` · printing: TLE #62 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e5ead59f-4c09-4b56-913e-4ff5d6d48ac2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Appeal // Authority

@@ -221,6 +221,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9202 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-04-12* — Yuma must be on the battlefield for its last ability to trigger. If it is put into your graveyard at the same time as a Desert card you own, its ability won't trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,642 decks; highest synergy [Dune Chanter](../../cards/D/du.md#dune-chanter) (+92%), [Cactus Preserve](../../cards/C/cac.md#cactus-preserve) (+91%), [Desert of the Indomitable](../../cards/D/des.md#desert-of-the-indomitable) (+91%) · EDHREC: in 6,610 decks; most often under [Hazezon, Shaper of Sand](../../cards/H/ha.md#hazezon-shaper-of-sand) (55.0% of its decks), [Kirri, Talented Sprout](../../cards/K/ki.md#kirri-talented-sprout) (37.7% of its decks), [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#yuma-proud-protector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/4/yuma-proud-protector) · oracle_id `b8a0b967-3b5b-46f5-830b-5c8f1037784a` · printing: OTC #4 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -364,6 +366,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Multiple Yurloks on the battlefield won't cause additional life loss. For example, if two players each control a Yurlok and a player still has three unspent mana as a step or phase ends, that player will lose only 3 life.
   - *2020-11-10* — Yurlok's middle ability is similar to the "mana burn" rule from years past. The loss of life happens at the same time the mana is lost. This loss of life doesn't use the stack and can't be responded to.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 1](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 31 combos; most popular [Yurlok of Scorch Thrash + Leyline of Abundance + Umbral Mantle](https://commanderspellbook.com/combo/962-2816-3099/) (Infinite black mana for opponents, Infinite green mana for opponents) · EDHREC as commander: 12,841 decks; highest synergy [Mana Flare](../../cards/M/man.md#mana-flare) (+74%), [Citadel of Pain](../../cards/C/ci.md#citadel-of-pain) (+73%), [Heartbeat of Spring](../../cards/H/he.md#heartbeat-of-spring) (+71%) · EDHREC: in 3,499 decks; most often under [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (8.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.6% of its decks), [Thantis, the Warweaver](../../cards/T/tha.md#thantis-the-warweaver) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/293/yurlok-of-scorch-thrash) · oracle_id `7baaf462-b0e6-4e21-86a7-73a883c4c9f7` · printing: CMR #293 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yusri, Fortune's Flame
@@ -379,7 +383,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-06-18* — If an effect allows you to cast a spell with {X} in its cost without paying its mana cost, you must choose 0 for the value of X.
   - *2021-06-18* — When you cast a spell without paying its mana cost, you may still pay additional costs. If any additional costs are required, you must pay them.
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Presented with an official backstory on [The New Legends of Modern Horizons 2](https://magic.wizards.com/en/news/feature/new-legends-modern-horizons-2-2021-06-11) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,891 decks; highest synergy [Tavern Scoundrel](../../cards/T/ta.md#tavern-scoundrel) (+87%), [Krark's Thumb](../../cards/K/kr.md#krarks-thumb) (+85%), [Chance Encounter](../../cards/C/cha.md#chance-encounter) (+79%) · EDHREC: in 16,014 decks; most often under [Okaun, Eye of Chaos // Zndrsplt, Eye of Wisdom](../../cards/O/ok.md#okaun-eye-of-chaos) (91.0% of its decks), [Krark, the Thumbless // Sakashima of a Thousand Faces](../../cards/K/kr.md#krark-the-thumbless) (19.4% of its decks), [Kediss, Emberclaw Familiar // Malcolm, Keen-Eyed Navigator](../../cards/K/ke.md#kediss-emberclaw-familiar) (5.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/218/yusri-fortunes-flame) · oracle_id `2c0a0a7d-b12f-47c8-a6a6-d046f999ec6b` · printing: MH2 #218 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

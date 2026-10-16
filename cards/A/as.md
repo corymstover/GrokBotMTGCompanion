@@ -670,6 +670,8 @@ schema: 2
   > *"I am simply myself. No more and no less. And I want only to be free."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9525 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 148 decks; highest synergy [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+51%), [Ancient Den](../../cards/A/an.md#ancient-den) (+50%), [White Auracite](../../cards/W/wh.md#white-auracite) (+48%) · EDHREC: in 13,407 decks; most often under [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (4.9% of its decks), [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (8.5% of its decks), [Cloud, Midgar Mercenary](../../cards/C/cl.md#cloud-midgar-mercenary) (13.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/7/ashe-princess-of-dalmasca) · oracle_id `db75577d-1001-4088-999f-40684218a07f` · printing: FIN #7 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ffe0596f-ef99-4862-9386-0fe455259995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashes of the Abhorrent

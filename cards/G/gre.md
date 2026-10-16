@@ -1509,6 +1509,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8732 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-07-23* — Putting a land onto the battlefield this way doesn't count as playing a land and can be done even if you've played a land this turn or if it isn't your turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 39 combos; most popular [Gretchen Titchwillow + Oboro Breezecaller + Simic Growth Chamber + Biomancer's Familiar](https://commanderspellbook.com/combo/1174-1671-1912-3869/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 1,972 decks; highest synergy [Biomancer's Familiar](../../cards/B/bi.md#biomancers-familiar) (+62%), [Training Grounds](../../cards/T/tra.md#training-grounds) (+58%), [Stone-Seeder Hierophant](../../cards/S/sto.md#stone-seeder-hierophant) (+40%) · EDHREC: in 13,473 decks; most often under [Nine-Fingers Keene](../../cards/N/ni.md#nine-fingers-keene) (20.0% of its decks), [Tazri, Stalwart Survivor](../../cards/T/ta.md#tazri-stalwart-survivor) (42.9% of its decks), [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/223/gretchen-titchwillow) · oracle_id `cedeea30-b580-4ea7-bbc3-7358fed8ae61` · printing: AFR #223 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Greven, Predator Captain

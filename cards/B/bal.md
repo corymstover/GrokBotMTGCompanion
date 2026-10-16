@@ -1184,6 +1184,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9367 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-07-01* — You can only activate this ability if Balthor the Defiled is on the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Dual Nature + Balthor the Defiled + Basal Sliver](https://commanderspellbook.com/combo/1082-3087-4465/) (Infinite black mana, Infinite death triggers) · EDHREC as commander: 983 decks; highest synergy [Buried Alive](../../cards/B/bu.md#buried-alive) (+59%), [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+59%), [Songs of the Damned](../../cards/S/so.md#songs-of-the-damned) (+56%) · EDHREC: in 12,886 decks; most often under [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (28.3% of its decks), [Grenzo, Dungeon Warden](../../cards/G/gre.md#grenzo-dungeon-warden) (8.5% of its decks), [Syr Konrad, the Grim](../../cards/S/sy.md#syr-konrad-the-grim) (7.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/61/balthor-the-defiled) · oracle_id `dfd8e6c2-e425-41fa-af55-985271f771b3` · printing: JUD #61 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balthor the Stout

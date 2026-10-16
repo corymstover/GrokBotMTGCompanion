@@ -85,6 +85,8 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8304 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 89 decks; highest synergy [Mirkwood Bats](../../cards/M/mir.md#mirkwood-bats) (+65%), [Nadier's Nightblade](../../cards/N/na.md#nadiers-nightblade) (+59%), [Greedy Freebooter](../../cards/G/gre.md#greedy-freebooter) (+57%) · EDHREC: in 16,851 decks; most often under [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (37.9% of its decks), [Smaug the Impenetrable](../../cards/S/sm.md#smaug-the-impenetrable) (36.4% of its decks), [Smaug, Wicked Worm](../../cards/S/sm.md#smaug-wicked-worm) (50.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/83/the-sackville-bagginses) · oracle_id `e3a665f9-6e51-4e0d-923b-e9552d5978a4` · printing: HOB #83 (2026-08-14) · [rulings](https://api.scryfall.com/cards/ed87b471-79f9-45ec-9188-69e970f6121e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Sad Creaturez

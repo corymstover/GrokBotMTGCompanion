@@ -1208,9 +1208,10 @@ schema: 2
 
 ### Iron Man, Bleeding Edge
 
-[Card entry](../cards/I/ir.md#iron-man-bleeding-edge) · **1 pages** (decks 1)
+[Card entry](../cards/I/ir.md#iron-man-bleeding-edge) · **2 pages** (decks 1 · edh guides 1)
 
 - **Decks (1):** [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md)
+- **EDH guides (1):** [EDH Packages → Artifacts: Artifact payoffs](../EDH%20Packages.md#artifacts-artifact-payoffs)
 
 ### Iron Man, Titan of Innovation
 

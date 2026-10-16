@@ -243,6 +243,8 @@ schema: 2
 - **Keywords:** Flying, Lifelink, First strike, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8211 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14,373 decks; highest synergy [Spider-Punk](../../cards/S/spi.md#spider-punk) (+81%), [Radioactive Spider](../../cards/R/rad.md#radioactive-spider) (+80%), [Aunt May](../../cards/A/au.md#aunt-may) (+72%) · EDHREC: in 2,661 decks; most often under [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (6.3% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (1.1% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/127/cosmic-spider-man) · oracle_id `0334a2f8-a74a-44c9-ba64-d9b7fabe160c` · printing: SPM #127 (2025-09-26) · [rulings](https://api.scryfall.com/cards/f82f4013-7308-4917-9042-19a5909f2134/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmium Blast
