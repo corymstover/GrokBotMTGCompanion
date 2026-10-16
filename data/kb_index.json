@@ -5782,6 +5782,11 @@
 "headings": [
 [
 2,
+"2026-10-15 — Bot cycle 35 (Phase 8: story cache, name-match audit, batch 3)",
+"2026-10-15--bot-cycle-35-phase-8-story-cache-name-match-audit-batch-3"
+],
+[
+2,
 "2026-10-15 — Bot cycle 34 (Phase 8: batch 2, package back-links, atomic writes)",
 "2026-10-15--bot-cycle-34-phase-8-batch-2-package-back-links-atomic-writes"
 ],

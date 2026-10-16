@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 35 (Phase 8: story cache, name-match audit, batch 3)](#2026-10-15--bot-cycle-35-phase-8-story-cache-name-match-audit-batch-3)
 - [2026-10-15 — Bot cycle 34 (Phase 8: batch 2, package back-links, atomic writes)](#2026-10-15--bot-cycle-34-phase-8-batch-2-package-back-links-atomic-writes)
 - [2026-10-15 — Bot cycle 33 (Phase 8: card enrichment format + batch 1)](#2026-10-15--bot-cycle-33-phase-8-card-enrichment-format--batch-1)
 - [2026-10-15 — Bot cycle 32 (Phase 7 complete: lore cross-refs, story maps, rules quote checks)](#2026-10-15--bot-cycle-32-phase-7-complete-lore-cross-refs-story-maps-rules-quote-checks)
@@ -48,6 +49,33 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 35 (Phase 8: story cache, name-match audit, batch 3)
+- **Story-page cache:**
+  - New `scripts/fetch_story_pages.py` rebuilds `.cache/story/` from `data/primary_sources.csv` (626 pages) plus the 8 cited articles. It is rate-limited (1 s), resumable, retries, and writes atomically.
+  - Inline markup is merged before extraction, so sentences are not split. 463 of the 626 pages reproduce the recorded word counts exactly.
+  - `lore_quotes` is back to full verification: all 2,719 quotes, 0 misses. All 19 kept flavor-text matches were re-verified.
+- **Name-match audit ([#100](https://github.com/corymstover/GrokBotMTGCompanion/issues/100)):** all 702 links that rested only on a name match were tested against the cached pages, the entries' citations and the cards' printings.
+  - 293 confirmed as *depicts*, with the evidence on the card's line:
+    - 156: an official page names the card (e.g. the "Legends of …" articles);
+    - 131: the card's art is captioned on a page that names the character;
+    - 4: the flavor text names the character;
+    - 2: Story Spotlight printings.
+  - A name the entry itself uses for the character (e.g. "Rowan Kenrith") does not count as evidence.
+  - 401 kept as ⚠️ name match only. 6 of these links sit on Un-/playtest cards and are now flagged 🚫 (Urza, Academy Headmaster; Chandra, Gremlin Wrangler; Kaya, Ghost Haunter; Tibalt the Chaotic).
+  - 8 removed: Niv-Mizzet cards repeated under the Duskmourn support-team group heading. Group headings no longer repeat cards that sit under a character's own heading.
+  - The new [Card Enrichment → Name-match audit](Card%20Enrichment.md#name-match-audit) table records the results, and a validation check covers the confirmation evidence.
+- **Curated notes:** 8 Story Spotlight notes (Settle the Score, In Bolas's Clutches, Vraska's Contempt, Deadlock Trap, Oath of Kaya, Unlikely Aid, Gideon's Intervention, Mastermind's Acquisition), 20 in total. Each quotes the scene captioned with the card verbatim.
+- **Batch 3 ([#101](https://github.com/corymstover/GrokBotMTGCompanion/issues/101)):** 1,047 cards: every remaining planeswalker (46) and the top 1,000 not-yet-enriched legendary creatures by EDHREC rank (≤ 6,915; 1,001 cards).
+  - Enriched in four checkpointed slices of about 250 cards, each pushed with `validate_all` PASS.
+  - Synergy: Spellbook combos 611, EDHREC 1,033, as-commander 1,017, KB decks 289, package guidance 334.
+  - Lore: 1,045 cards have no lore link yet and carry a ❓ line. 217 are flagged 🚫 Universes Beyond.
+- **Tooling:**
+  - `scripts/rebuild_enrichment.sh` runs the Phase 8 chain.
+  - Flags now apply to every printing: 🚫 when every printing is Un-/playtest, ⚠️ for digital-only cards.
+  - `--fetch` now only fetches cards that have no stored synergy.
+- **Coverage:** planeswalkers 338/338; legendary creatures 1,322/3,786; priority pool 2,897/5,361 (54.0%).
+- `validate_all` PASS (13 steps).
 
 ## 2026-10-15 — Bot cycle 34 (Phase 8: batch 2, package back-links, atomic writes)
 Batch 2 of [Phase 8](https://github.com/corymstover/GrokBotMTGCompanion/milestone/17). The first run was interrupted by a box reset, so this cycle also covers the recovery.
