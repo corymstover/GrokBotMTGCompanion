@@ -6,7 +6,7 @@ v1.1 never has a creature die. This layer overlays deterministic expectations on
   * opponent wipe: at the end of turn `wipe` every creature you control dies (None = no wipe);
   * own sacrifice outlets actually used: while a sacrifice outlet you control is on the battlefield and you have
     other creatures, you sacrifice one creature's worth of expected mass per turn (`sac` on/off), never the outlet,
-    never a tracked card while other fodder exists, never the commander.
+    never a tracked card while other fodder exists, never the commander; tokens (events.with_tokens) are fodder first.
 Each turn's deaths are also emitted as death EVENTS (Bot cycle 66.2a): one per removed creature, one simultaneous event
 per wipe, one per sacrifice; with each victim's death probability and the alive probabilities before the step.
 A creature that dies goes to the graveyard, except commanders (command zone).
@@ -14,13 +14,15 @@ The grid point removal=0, wipe=None, sac=off is v1.1's no-death world (the lower
 """
 import re
 
+TOKEN = "token:"  # synthetic creature tokens added by events.with_tokens(); they die like creatures but never reach the graveyard
 GRID = {"removal": [0.0, 0.1, 0.25], "wipe": [None, 6, 8], "sac": [False, True]}
 LOWER_BOUND = (0.0, None, False)
 ASSUMPTIONS = [
     "opponent removal hits each of your creatures independently with probability `removal` per opponent turn cycle",
     "an opponent wipe at the end of turn `wipe` kills every creature you control",
     "a sacrifice outlet you control is used once per turn when it has fodder (not itself, not the commander, tracked cards last)",
-    "dead non-commander creatures go to your graveyard and stay there (no exile, no graveyard hate)",
+    "dead non-commander, non-token creatures go to your graveyard and stay there (no exile, no graveyard hate)",
+    "creature tokens come only from token makers the events layer recognises (see token_makers); they are death-event victims like creatures",
     "no regeneration, indestructible, protection or recursion of the dead creature inside the layer"]
 OUTLET_RX = re.compile(r"sacrifice (?:a|another|an?) (?:creature|[a-z]+ creature|artifact or creature|creature or artifact|nontoken creature)[^:]{0,40}:", re.I)
 
@@ -41,7 +43,7 @@ def profile(trace, creatures, outlets, commanders, tracked, removal, wipe, sac):
     for s in trace:
         t = s["turn"]
         for n in s["battlefield"]:
-            if n in creatures and n not in alive:
+            if (n in creatures or n.startswith(TOKEN)) and n not in alive:
                 alive[n] = 1.0
         before = dict(alive)
         died, evs = {}, []
@@ -57,7 +59,7 @@ def profile(trace, creatures, outlets, commanders, tracked, removal, wipe, sac):
             alive[n] -= d
         if sac and any(o in s["battlefield"] and alive.get(o, 1.0) > 0 for o in outlets if o in s["battlefield"]):
             fod = sorted((n for n in alive if n not in outlets and n not in commanders and alive[n] > 0),
-                         key=lambda n: (n in tracked, n))
+                         key=lambda n: (n in tracked, not n.startswith(TOKEN), n))
             need, vic = 1.0, {}
             for n in fod:
                 take = min(need, alive[n])
@@ -71,7 +73,7 @@ def profile(trace, creatures, outlets, commanders, tracked, removal, wipe, sac):
                 evs.append({"kind": "sacrifice", "victims": vic})  # one creature's worth, one event
         step = sum(died.values())
         cum += step
-        gy += sum(d for n, d in died.items() if n not in commanders)
+        gy += sum(d for n, d in died.items() if n not in commanders and not n.startswith(TOKEN))
         out.append({"turn": t, "deaths": cum, "step": step, "gy_creatures": gy,
                     "p_dead": {n: 1.0 - alive[n] for n in tracked if n in alive}, "alive": dict(alive),
                     "alive_before": before, "events": evs})

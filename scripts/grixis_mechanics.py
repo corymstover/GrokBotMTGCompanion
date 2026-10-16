@@ -6,7 +6,7 @@
 """
 import argparse, glob, gzip, json, os, sys, time
 
-os.environ.setdefault("SCRYFALL_OFFLINE", "1")  # never refresh the shared bulk cache (snap-20261016 is frozen, Cory D6)
+os.environ.setdefault("SCRYFALL_OFFLINE", "1")  # Bot cycle 66.3: never refresh the shared bulk cache (snap-20261016 is frozen, Cory D6)
 from collections import Counter
 from pathlib import Path
 
@@ -80,15 +80,22 @@ def example(slug, cut, add, cards):
     from grixis_mech import deaths
     ctx = {"creatures": {n for n, x in models.items() if x.get("creature")}, "commanders": {x["name"] for x in base.commanders},
            "outlets": {n for n in models if n in cards and deaths.is_outlet(cards[n]["text"])}}
+    from grixis_mech import events
+    ctx.update(cards=cards, models=models, token_makers={})
+    makers = {n: events.token_rule(n, cards[n]["text"]) for n in models if n in cards and events.token_rule(n, cards[n]["text"])[0]}
+    bgT = [(r_, events.with_tokens(tr, models, makers)) for r_, tr in bg]   # tokens as death-layer fodder (66.3)
+    cgT = [(r_, events.with_tokens(tr, models, makers)) for r_, tr in cg]
     r = router.route_swap(cut, add, cards)
     res = []
     for k in r["modules"]:
         m = gm.MODULES[k]
         if k == "graveyard_recursion":
-            res.append(m.evaluate(bg, cg, cut, add, cards, models))          # no-death lower bound
-            res.append(m.evaluate_grid(bg, cg, cut, add, cards, models, ctx))  # shared death layer grid
+            res.append(m.evaluate(bg, cg, cut, add, cards, models))             # no-death lower bound
+            res.append(m.evaluate_grid(bgT, cgT, cut, add, cards, models, ctx))  # shared death layer grid (+ tokens)
         elif k == "attack_trigger_proxy":
             res.append(m.evaluate(bg, cg, cut, add, cards))
+        elif k in ("death_triggers", "sacrifice_costs", "self_recursion", "sacrifice_additional_cost", "repeatable_draw"):
+            res.append(m.evaluate(bgT, cgT, cut, add, cards, ctx))
         else:
             res.append(m.evaluate(bg, cg, cut, add, cards, ctx))
     return {"deck": slug, "cut": cut, "add": add, "route": r, "samples": SAMPLES, "seed": SEED, "results": res,

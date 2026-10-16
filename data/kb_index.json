@@ -6684,6 +6684,16 @@
 3,
 "Step E batch 66.2a: death-trigger semantics correction (Cory t56u)",
 "step-e-batch-662a-death-trigger-semantics-correction-cory-t56u"
+],
+[
+3,
+"Step E batch 66.3: cast triggers, repeatable draw, activated engines, tokens, sacrifice as an additional cost",
+"step-e-batch-663-cast-triggers-repeatable-draw-activated-engines-tokens-sacrifice-as-an-additional-cost"
+],
+[
+3,
+"Dev snapshot lock (Bot cycle 66.3b)",
+"dev-snapshot-lock-bot-cycle-663b"
 ]
 ],
 "issues": [],

@@ -12,9 +12,11 @@ PLANNED = {  # step E family -> Oracle feature regex (module ids not in MODULES 
     "death_triggers": None,
     "sacrifice_other": r", sacrifice |sacrifice (?:a|an|another|two|X) [^:]{0,40}:|as an additional cost to cast [^,]{0,40}, sacrifice",
     "death_other": r"\bdies\b",
-    "cast_triggers": r"whenever you cast",
-    "activated_engines": r"\{T\}(?:, [^:]{0,40})?: (?!add )|^\{[^}]+\}(?:\{[^}]+\})*: ",
-    "repeatable_draw": r"(?:at the beginning of|whenever)[^.]{0,80}draw (?:a|one|two|\w+) cards?",
+    "cast_triggers": None,
+    "activated_engines": None,
+    "repeatable_draw": None,
+    "token_makers": None,
+    "sacrifice_additional_cost": None,
     "repeatable_tutors": r"(?:at the beginning of|whenever|\{T\}[^:]*:)[^.]{0,80}search your library",
     "stax_tax": r"(?:spells? (?:your opponents|each opponent) casts? cost|can't cast|players can't|don't untap|costs? \{\d\} more)",
     "stack_protection": r"(?:can't be countered|hexproof|indestructible|phase out|ward)",
@@ -24,7 +26,7 @@ PLANNED = {  # step E family -> Oracle feature regex (module ids not in MODULES 
     "x_spells": r"\{X\}",
     "alternate_costs": r"(?:rather than pay|without paying its mana cost|you may pay [^.]{0,30} rather|evoke|flash ?back|delve|convoke)",
     "commander_specific": None,  # matched against the commander's own hook (grixis_refine HOOKS) by the caller
-    "tokens": r"create (?:a|an|one|two|three|X|\w+) [^.]{0,60}tokens?",
+    "tokens_other": r"create (?:a|an|one|two|three|X|\w+) [^.]{0,60}tokens?",
     "life_loss": r"(?:loses? \d+ life|lose X life|each opponent loses)",
     "discard": r"(?:discards?|discard a card)",
 }

@@ -99,6 +99,38 @@ def test_no_win_rates_anywhere():
     assert "win_rate" not in txt and "win_probability" not in txt
 
 
+# ---- Bot cycle 66.3: events, cast triggers, repeatable draw, activated engines, tokens, sacrifice as a cost
+from grixis_mech import events, engines  # noqa: E402
+
+_M = {"S": {"types": ["sorcery"]}, "C": {"types": ["creature"], "creature": True}, "L": {"types": ["land"], "land": True},
+      "E": {"types": ["enchantment"], "permanent": True}}
+_TR2 = [{"turn": 1, "battlefield": ["L"], "graveyard": [], "hand": ["S", "C", "E"], "mana": 1, "spent": 0},
+        {"turn": 2, "battlefield": ["L", "E"], "graveyard": [], "hand": ["S", "C"], "mana": 2, "spent": 2},
+        {"turn": 3, "battlefield": ["L", "E", "C"], "graveyard": ["S"], "hand": [], "mana": 5, "spent": 3}]
+
+
+def test_events_casts_and_tokens():
+    assert events.casts(_TR2, _M) == [(1, []), (2, ["E"]), (3, ["C", "S"])]
+    assert events.token_rule("E", "When ~ enters, create two 1/1 black Rat creature tokens.") == ("etb", 2)
+    assert events.token_rule("E", "At the beginning of your upkeep, create a 1/1 creature token.") == ("upkeep", 1)
+    aug = events.with_tokens(_TR2, _M, {"E": ("cast", 1)})
+    assert sum(x.startswith(deaths.TOKEN) for x in aug[-1]["battlefield"]) == 2
+
+
+def test_engine_modules():
+    ctx = {"cards": {"E": {"text": "Whenever you cast a creature spell, draw a card.", "type_line": "Enchantment"}},
+           "models": _M, "creatures": {"C"}, "outlets": set(), "commanders": set()}
+    g = [(None, _TR2)]
+    assert engines.cast_count(g, "E", ctx, 3, deaths.LOWER_BOUND) == 1
+    assert engines.draw_count(g, "E", ctx, 3, deaths.LOWER_BOUND) == 1
+    assert engines.act_cost("{2}, {T}: Draw a card.") == {"mana": 2, "tap": True} and engines.act_cost("{T}: Add {B}.") is None
+    ctx["cards"]["E"] = {"text": "{2}: Scry 1.", "type_line": "Enchantment"}
+    assert engines.act_count(g, "E", ctx, 3, deaths.LOWER_BOUND) == 1  # T3: 5 - 3 >= 2 (T2: 0 left)
+    assert engines.sac_kind("F", "As an additional cost to cast this spell, sacrifice a creature.") == "spell_cost"
+    assert engines.sac_kind("F", "Sacrifice a creature: Scry 1.") is None  # a free outlet is sacrifice_costs
+    for m in (engines.CastTriggers, engines.RepeatableDraw, engines.ActivatedEngines, engines.TokenMakers, engines.SacrificeAdditionalCost):
+        assert m.SPEC["evidence_class"] == "test_result" and any("win rate" in x for x in m.SPEC["does_not_model"])
+
 # ---- Bot cycle 66.2a: death-trigger semantics correction (Cory t56u)
 DT = death_triggers
 A_ = {"scope": "a", "controller": "any", "nontoken": False}
@@ -156,3 +188,14 @@ def test_nontoken_and_unmodelable_wording():
     assert DT.parse("K", "Whenever one or more other creatures you control die, draw a card.")[0] == [
         {"scope": "one_or_more_other", "controller": "you", "nontoken": False}]
     assert DT.parse("Blood Artist", "Whenever Blood Artist or another creature dies, drain 1.")[0][0]["scope"] == "a"
+
+
+def test_death_events_count_tokens():
+    """66.3b: tokens are death-event victims (wipe/sacrifice/removal) and count for watchers unless 'nontoken'."""
+    tr = [{"turn": t, "battlefield": ["W", "token:M#1", "token:M#2"], "graveyard": [], "hand": []} for t in range(1, 8)]
+    ctx = {"creatures": {"W"}, "outlets": set(), "commanders": set()}
+    an = {"scope": "another", "controller": "any", "nontoken": False}
+    assert death_triggers.side([(None, tr)], "W", [an], ctx, 6, (0.0, 6, False)) == 2.0
+    assert death_triggers.side([(None, tr)], "W", [dict(an, nontoken=True)], ctx, 6, (0.0, 6, False)) == 0.0
+    pr = deaths.profile(tr, {"W"}, set(), set(), set(), 0.0, 6, False)
+    assert pr[5]["gy_creatures"] == 1.0  # only W reaches the graveyard; tokens cease to exist
