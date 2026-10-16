@@ -1,8 +1,8 @@
 {
- "schema_version": 1,
+ "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v1",
- "cycle": "Bot cycle 65.1",
+ "generated_by": "scripts/grixis_saturation.py v2",
+ "cycle": "Bot cycle 65.2",
  "deck_id": "Wick__the_Whorled_Mind",
  "slug": "wick-the-whorled-mind",
  "list_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
@@ -27,20 +27,27 @@
   "material_k": 3,
   "material_score": 25.0,
   "stop_after_non_material": 2,
-  "definition": "a pass is material if it adds >= 3 new candidates with screening score >= 25.0 or any new escalated candidate; expansion stops after 2 consecutive non-material rounds",
-  "relevance_predicate": "broad passes nominate cards with EDHREC rank <= 8000, an Oracle hook or a package creature type",
-  "test_tier_rule": "paired_test if screening tier A or escalated; otherwise screen_only (workload order, never exclusion)"
+  "definition": "a signal pass is material if it gives a first signal to >= 3 eligible cards with screening score >= 25.0, or newly escalates any card; expansion stops after 2 consecutive non-material rounds; the full-pool sweep then admits every eligible card",
+  "test_tier_rule": "escalated cards ranked by score + 5 x reasons; the first PAIRED_TARGET are paired_test, the rest escalated_queued (kept, run in later batches); others screen_only. Workload order, never exclusion"
+ },
+ "pool": {
+  "oracle_cards": 34880,
+  "eligible": 18457,
+  "sweep_coverage": 1.0,
+  "added_by_sweep_without_signal": 9107,
+  "project_exceptions_admitted": []
  },
  "passes": [
   {
    "index": 1,
    "pass": "edhrec",
-   "kind": "source",
+   "kind": "signal",
    "nominated": 185,
-   "new": 180,
-   "duplicates": 0,
-   "new_at_or_above_score": 112,
-   "new_escalated": 2,
+   "eligible_signalled": 180,
+   "first_signal": 180,
+   "unresolved_names": 5,
+   "first_signal_at_or_above_score": 112,
+   "new_escalated": 74,
    "material": true,
    "inputs": [
     "data/grixis/evidence/wick-the-whorled-mind.json"
@@ -49,11 +56,12 @@
   {
    "index": 2,
    "pass": "spellbook_near_miss",
-   "kind": "source",
+   "kind": "signal",
    "nominated": 123,
-   "new": 121,
-   "duplicates": 2,
-   "new_at_or_above_score": 78,
+   "eligible_signalled": 123,
+   "first_signal": 121,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 78,
    "new_escalated": 113,
    "material": true,
    "inputs": [
@@ -63,55 +71,60 @@
   {
    "index": 3,
    "pass": "blueprint_package",
-   "kind": "source",
-   "nominated": 0,
-   "new": 0,
-   "duplicates": 0,
-   "new_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "kind": "signal",
+   "nominated": 121,
+   "eligible_signalled": 89,
+   "first_signal": 57,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 4,
+   "new_escalated": 51,
+   "material": true,
    "inputs": [
-    "data/grixis/blueprints/wick-the-whorled-mind.json"
+    "data/grixis/blueprints/wick-the-whorled-mind.json#packages (members not in list, candidates, package-type matches)"
    ]
   },
   {
    "index": 4,
    "pass": "oracle_text",
-   "kind": "source",
-   "nominated": 5924,
-   "new": 5762,
-   "duplicates": 162,
-   "new_at_or_above_score": 11,
-   "new_escalated": 338,
-   "material": true,
+   "kind": "signal",
+   "nominated": 444,
+   "eligible_signalled": 444,
+   "first_signal": 332,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
    "inputs": [
     "oracle_bulk",
-    "grixis_refine.HOOKS"
+    "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
    ]
   },
   {
    "index": 5,
    "pass": "type_search",
-   "kind": "source",
+   "kind": "signal",
    "nominated": 89,
-   "new": 0,
-   "duplicates": 89,
-   "new_at_or_above_score": 0,
+   "eligible_signalled": 89,
+   "first_signal": 0,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
     "oracle_bulk",
-    "data/grixis/blueprints/wick-the-whorled-mind.json"
+    "data/grixis/blueprints/wick-the-whorled-mind.json",
+    "package types: Rat"
    ]
   },
   {
    "index": 6,
    "pass": "rules_interaction",
-   "kind": "source",
-   "nominated": 100,
-   "new": 32,
-   "duplicates": 43,
-   "new_at_or_above_score": 0,
+   "kind": "signal",
+   "nominated": 67,
+   "eligible_signalled": 42,
+   "first_signal": 38,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
@@ -121,11 +134,12 @@
   {
    "index": 7,
    "pass": "new_card",
-   "kind": "source",
+   "kind": "signal",
    "nominated": 801,
-   "new": 463,
-   "duplicates": 338,
-   "new_at_or_above_score": 0,
+   "eligible_signalled": 801,
+   "first_signal": 774,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
@@ -135,54 +149,73 @@
   {
    "index": 8,
    "pass": "role_gap",
-   "kind": "source",
-   "nominated": 482,
-   "new": 194,
-   "duplicates": 288,
-   "new_at_or_above_score": 0,
+   "kind": "signal",
+   "nominated": 17,
+   "eligible_signalled": 17,
+   "first_signal": 7,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 7,
    "new_escalated": 0,
-   "material": false,
+   "material": true,
    "inputs": [
-    "data/grixis/audit/wick-the-whorled-mind.json"
+    "data/grixis/audit/wick-the-whorled-mind.json",
+    "roles: wipe,protection,tutor"
    ]
   },
   {
    "index": 9,
-   "pass": "graph_alternative",
-   "kind": "source",
-   "nominated": 577,
-   "new": 248,
-   "duplicates": 329,
-   "new_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "pass": "graph_alternative_ref",
+   "kind": "signal",
+   "nominated": 10,
+   "eligible_signalled": 10,
+   "first_signal": 0,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
+   "new_escalated": 1,
+   "material": true,
    "inputs": [
-    "data/grixis/audit/wick-the-whorled-mind.json",
-    "data/grixis/graph/wick-the-whorled-mind.json"
+    "data/grixis/audit/wick-the-whorled-mind.json#slots/*/alternatives"
    ]
   },
   {
    "index": 10,
-   "pass": "tutor_target",
-   "kind": "source",
-   "nominated": 564,
-   "new": 165,
-   "duplicates": 398,
-   "new_at_or_above_score": 0,
+   "pass": "graph_alternative",
+   "kind": "signal",
+   "nominated": 711,
+   "eligible_signalled": 711,
+   "first_signal": 630,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
-    "data/grixis/blueprints/wick-the-whorled-mind.json"
+    "data/grixis/graph/wick-the-whorled-mind.json"
    ]
   },
   {
    "index": 11,
+   "pass": "tutor_target",
+   "kind": "signal",
+   "nominated": 1240,
+   "eligible_signalled": 1239,
+   "first_signal": 1165,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/blueprints/wick-the-whorled-mind.json#tutor_targets"
+   ]
+  },
+  {
+   "index": 12,
    "pass": "mana_base",
-   "kind": "source",
-   "nominated": 568,
-   "new": 111,
-   "duplicates": 457,
-   "new_at_or_above_score": 0,
+   "kind": "signal",
+   "nominated": 731,
+   "eligible_signalled": 731,
+   "first_signal": 320,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
@@ -190,39 +223,61 @@
    ]
   },
   {
-   "index": 12,
+   "index": 13,
    "pass": "archetype_tech",
-   "kind": "source",
-   "nominated": 104,
-   "new": 0,
-   "duplicates": 104,
-   "new_at_or_above_score": 0,
+   "kind": "signal",
+   "nominated": 297,
+   "eligible_signalled": 297,
+   "first_signal": 185,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
-    "exports/grixis-archidekt/*.txt (other canonical lists)"
+    "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
   },
   {
-   "index": 13,
+   "index": 14,
    "pass": "tournament",
-   "kind": "source",
+   "kind": "signal",
    "nominated": 0,
-   "new": 0,
-   "duplicates": 0,
-   "new_at_or_above_score": 0,
+   "eligible_signalled": 0,
+   "first_signal": 0,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
-   "inputs": []
+   "inputs": [
+    "none: no tournament evidence file for this deck"
+   ]
   },
   {
-   "index": 14,
+   "index": 15,
+   "pass": "human_evidence",
+   "kind": "signal",
+   "nominated": 0,
+   "eligible_signalled": 0,
+   "first_signal": 0,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/blueprint_reviews.json",
+    "data/grixis/m1_corrections.json",
+    "data/grixis/audit/wick-the-whorled-mind.json#lint,m1_flags"
+   ]
+  },
+  {
+   "index": 16,
    "pass": "expansion_1",
    "kind": "expansion",
-   "nominated": 3281,
-   "new": 591,
-   "duplicates": 2690,
-   "new_at_or_above_score": 0,
+   "nominated": 6667,
+   "eligible_signalled": 6667,
+   "first_signal": 5541,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
@@ -230,25 +285,43 @@
    ]
   },
   {
-   "index": 15,
+   "index": 17,
    "pass": "expansion_2",
    "kind": "expansion",
    "nominated": 0,
-   "new": 0,
-   "duplicates": 0,
-   "new_at_or_above_score": 0,
+   "eligible_signalled": 0,
+   "first_signal": 0,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
     "0 tier-A seeds"
    ]
+  },
+  {
+   "index": 18,
+   "pass": "full_pool_sweep",
+   "kind": "sweep",
+   "nominated": 18457,
+   "eligible_signalled": 18457,
+   "first_signal": 0,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "added_without_signal": 9107,
+   "inputs": [
+    "oracle_bulk: every card Commander-legal (or authorized project exception), in colour identity, not in the list"
+   ]
   }
  ],
- "last_material_pass": 4,
+ "last_material_pass": 9,
  "saturated": true,
  "hard_exclusions": {
-  "already_in_list": 26,
-  "unresolved_name": 5
+  "already_in_list": 96,
+  "not_commander_legal": 1742,
+  "outside_colour_identity": 14585
  },
  "hard_exclusion_kinds": [
   "not_commander_legal",
@@ -258,42 +331,457 @@
   "unresolved_name"
  ],
  "universe": {
-  "size": 7867,
+  "size": 18457,
   "previous_m5_bound": 500,
   "by_tier": {
    "A": 67,
    "B": 134,
-   "C": 7666
+   "C": 18256
   },
   "by_test_tier": {
-   "paired_test": 519,
-   "screen_only": 7348
+   "paired_test": 239,
+   "screen_only": 18218
   },
-  "per_source": {
-   "archetype_tech": 104,
+  "per_signal": {
+   "archetype_tech": 297,
+   "blueprint_package": 89,
    "edhrec": 180,
-   "expansion_1": 3281,
-   "graph_alternative": 577,
-   "mana_base": 568,
+   "expansion_1": 6667,
+   "full_pool_sweep": 9107,
+   "graph_alternative": 711,
+   "graph_alternative_ref": 10,
+   "mana_base": 731,
    "new_card": 801,
-   "oracle_text": 5924,
-   "role_gap": 482,
-   "rules_interaction": 75,
+   "oracle_text": 444,
+   "role_gap": 17,
+   "rules_interaction": 42,
    "spellbook_near_miss": 123,
-   "tutor_target": 563,
+   "tutor_target": 1239,
    "type_search": 89
   },
-  "escalated": 453,
+  "escalated": 239,
+  "by_escalation_reason": {
+   "anomaly_source_disagreement": 16,
+   "dependency_graph_alternative": 10,
+   "new_card": 2,
+   "package_gap": 36,
+   "spellbook_near_miss_completion": 115,
+   "tier_a_score": 67,
+   "unusual_oracle_interaction": 45
+  },
+  "oracle_hook_specificity": {
+   "blueprint_package": 21,
+   "commander_specific": 423,
+   "generic": 5480
+  },
+  "paired_test_target": 250,
   "file": "data/grixis/saturation/wick-the-whorled-mind.universe.json.gz",
-  "sha256": "sha256:8ab33309ae20ea9f66090af19746da2a2e0dbc79bbcd1ceeae01e0287c80debf"
+  "sha256": "sha256:3b585ec2bec2a0b1dda5bb76e750dfed0b5058fd50b2f4fbdc1969f183f3d5ba"
  },
+ "escalated_untested_queue": [],
  "blind_spots": [
-  "Cards no pass nominates (outside every source, below the relevance predicate) are undiscovered, not excluded.",
-  "Commander Spellbook near-misses come from the cached almostIncluded snapshot (one missing piece only).",
-  "EDHREC rows exist only for the commander page(s) in the evidence layer; partner/background pages may be thin.",
-  "Tournament evidence exists only for cEDH-ceiling decks and is sparse.",
-  "Oracle hooks use grixis_refine HOOKS regexes; mechanics they do not name are found only via type, keyword or role passes.",
-  "Not-yet-legal cards (pending release) are hard-excluded until legal; they are re-discovered at the Birthday snapshot."
+  {
+   "kind": "unreleased_not_yet_legal",
+   "note": "Excluded from candidates until legal; picked up at the Birthday snapshot.",
+   "cards": [
+    {
+     "card": "Auspicious Aquarium",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Balefang the Unslayable",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Boss Uramon, Shadow's Reach",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Chira, All In",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Dragon's Smile",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Dyfed, the Guiding Hand",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Flitwing, Lyev Detective",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Grandmother Goby",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Gustha Ebbasdotter",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Istvan, Butcher of Eln",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Itazura, Lingering Wick",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Jabs, Mistress of Mockery",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Kuroki, Thief of Talents",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Matoc, Lavamancer",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Miss Highwater",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Olinda the Oblivious",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Sahir, Visitor in Darkness",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Sash and Waistcoat, Unmen",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Sifa Grent",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "The Everforger",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "The Madcap Jester",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "The Unluckiest Planeswalker",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "The Weaver King",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Thomil, the Destroyer",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Tolabow, Loch Rascal",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Tresserhorn's Lord, Returned",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Valko Indorian",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "A Good Day to Die",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Assault Drone",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Automated Warfare System",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Badgey, Malicious Glitch",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Bat'leth",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Battle-Scarred Survivalist",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Beckett Mariner, Impetuous Ensign",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Bio-Asset Allocator",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cantankerous Captain",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Captain James T. Kirk",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Captain's Tutelage",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Ceti Eel",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cha'DIch Investigator",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cloistered Telepath",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Collective Drone",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Consider the Prime Directive",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cryogenic Stasis",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Crystalline Entity",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cybernetic Specialist",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Defense Force Aggressor",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Direct Hit",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Disruptor Pistol",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Dominion Saboteur",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Eject the Warp Core",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Exocomp",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Federation Probe",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "General Chang, Cold Warrior",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Gin'tak Charge",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Guidance Failure",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "He's Dead, Jim",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Highly Illogical",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Hive Mind Coprocessor",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Horta",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Hoshi Sato, Exolinguist",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Humpback Whales",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "In the Pale Moonlight",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Khaaaaaaaaaaaannn!",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Klingon Strike Force",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Kolinahr Priest",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Kruge, Genesis Seeker",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "La Forge, Perceptive Engineer",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "La'An Noonien-Singh, Security",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Marooned",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Mek'leth Berserker",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Munitions Enthusiast",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Open Communications",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Organic Avulsion Unit",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Pelia, Immortal Innovator",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Perils of the Past",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Planetary Patrol",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Plasma Cascade",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Relentless Drednok",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Resistance Is Futile",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Rogue Artificial Intelligence",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Salt Vampire",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Seven of Nine",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Silicate Surveyor",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "T'Pol, Vulcan Representative",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Trelane, Squire of Gothos",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "U.S.S. Enterprise-D, Galaxy-Class",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "V'Ger, the Intruder",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Warship Flight Crew",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Hela's Arcanum",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "Hela, Mistress of Darkness // Dark Tutor",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "Magik, Illyana Rasputin // Darkchild, Demon Uncaged",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "Rise from the Nether",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "Spirit Sorcerer Token",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "The Darkhold",
+     "legal_from": "2027-04-09"
+    }
+   ]
+  },
+  {
+   "kind": "spellbook_snapshot",
+   "note": "Commander Spellbook near-misses come from the cached almostIncluded snapshot (one missing piece only)."
+  },
+  {
+   "kind": "edhrec_pages",
+   "note": "EDHREC rows exist only for the commander page(s) in the evidence layer; partner/background pages may be thin."
+  },
+  {
+   "kind": "tournament",
+   "note": "Tournament evidence exists only for cEDH-ceiling decks and is sparse; an empty tournament pass is recorded, not an error."
+  },
+  {
+   "kind": "screening_model",
+   "note": "Sweep-only cards are scored by the M5 screening function; a card whose value it does not model can sit low in tier C (still in the universe)."
+  }
  ],
  "runtime_seconds": null
 }

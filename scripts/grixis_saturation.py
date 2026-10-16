@@ -34,15 +34,19 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import grixis_authority as ga  # noqa: E402
 import grixis_candidates as gc  # noqa: E402
 
-VERSION = "1"
+VERSION = "2"
 OUT = ROOT / "data" / "grixis" / "saturation"
 SCHEMA = ROOT / "data" / "grixis" / "schemas" / "saturation_certificate.schema.json"
 MATERIAL_K = 3                 # k: new candidates at or above MATERIAL_SCORE that make a pass material
 MATERIAL_SCORE = gc.TIER_B     # X: screening score threshold (tier B = 25.0)
 STOP_N = 2                     # N: consecutive non-material expansion rounds before stopping
-RELEVANCE_RANK = 8000          # broad-pass nomination: EDHREC overall rank <= this, or an Oracle hook, or a package type
+SNAPSHOT_DATE = "2026-10-16"   # development snapshot (Cory D6); later first printings are unreleased
+SPECIFIC_FRAC = 0.02           # an Oracle hook label is commander_specific if it matches <= 2% of the eligible pool
+ANOMALY_GAP = 30.0             # anomaly: EDHREC part vs structural part disagree by this much
+PAIRED_TARGET = 250            # paired-test target per batch (not a cap: overflow is queued, never dropped)
+SIGNAL_WEIGHT = 5.0            # queue priority = score + this x number of escalation reasons
 ARCHETYPE_MIN_LISTS = 3        # archetype_tech: in >= this many other Grixis canonical lists and shares the deck's hook label
-TEST_TIER_RULE = "paired_test if screening tier A or escalated; otherwise screen_only (workload order, never exclusion)"
+TEST_TIER_RULE = "escalated cards ranked by score + 5 x reasons; the first PAIRED_TARGET are paired_test, the rest escalated_queued (kept, run in later batches); others screen_only. Workload order, never exclusion"
 SOURCE_PASSES = ["edhrec", "spellbook_near_miss", "blueprint_package", "oracle_text", "type_search", "rules_interaction",
                  "new_card", "role_gap", "graph_alternative", "tutor_target", "mana_base", "archetype_tech", "tournament"]
 
@@ -63,68 +67,122 @@ def is_material(n_at_or_above_score, n_escalated):
     return n_at_or_above_score >= MATERIAL_K or n_escalated > 0
 
 
-def escalation(D, n, c, f, srcs):
-    r = []
-    if f.get("spellbook_infinite"):
-        r.append("dependency_evidence")
-    if f.get("blueprint_candidate_of"):
-        r.append("package_gap")
-    if (f.get("first_printed") or "") >= gc.NEW_SINCE and (f.get("oracle_hook") or f.get("packages")):
-        r.append("new_card")
-    if f.get("oracle_hook") and n not in D.edh and f.get("packages") and \
-            (f.get("scarce_roles") or f.get("blueprint_candidate_of") or f.get("spellbook")):
-        r.append("unusual_oracle_interaction")  # hook outside EDHREC that also meets a package and a role/blueprint/combo need
-    if "tournament" in srcs:
-        r.append("tournament_evidence")
-    return r
+def name_index(names):
+    idx = {}
+    for n in names:
+        if len(n) > 4:
+            idx.setdefault(n.split()[0], []).append(n)
+    return idx
+
+
+def mentions(blob, idx):
+    """Card names that occur in `blob` (first-word index, then exact substring at that position)."""
+    out = set()
+    for m in re.finditer(r"[A-Z][\w'\-]*,?", blob):
+        w = m.group(0)
+        for n in list(idx.get(w, [])) + (list(idx.get(w.rstrip(","), [])) if w.endswith(",") else []):
+            if blob.startswith(n, m.start()):
+                out.add(n)
+    return out
+
+
+def human_blobs(D):
+    """Text of human-review / correction / audit-flag records that can mention a card for this deck."""
+    bl = []
+    br = json.loads((ROOT / "data/grixis/blueprint_reviews.json").read_text())
+    bl.append(json.dumps([v for k, v in (br.get("reviews") or br).items() if D.slug in str(k)] if isinstance(br.get("reviews") or br, dict) else
+                         [x for x in br.get("reviews", []) if D.slug in json.dumps(x)], ensure_ascii=False))
+    m1 = json.loads((ROOT / "data/grixis/m1_corrections.json").read_text())
+    bl.append(json.dumps([x for x in m1.get("corrections", []) if D.slug in json.dumps(x) or D.rid in json.dumps(x)], ensure_ascii=False))
+    au = json.loads((gc.AUDIT / f"{D.slug}.json").read_text())
+    bl.append(json.dumps([au.get("lint")] + [s.get("m1_flags") for s in au.get("slots", []) if s.get("m1_flags")], ensure_ascii=False))
+    return "\n".join(bl)
 
 
 class Run:
+    """Every eligible card is screened once (full-pool sweep); source passes attach signals."""
+
     def __init__(self, D, pool):
         self.D, self.pool = D, pool
-        self.cand, self.scored, self.passes = {}, {}, []
-        self.excl = Counter()
-
-    def ok(self, n):
-        c = self.pool.get(n)
-        if c is None:
-            self.excl["unresolved_name"] += 1
-            return None
-        if n in self.D.names:
-            self.excl["already_in_list"] += 1
-            return None
-        if "Basic Land" in gc.tline(c):
-            self.excl["basic_land"] += 1
-            return None
-        if not set(c.get("color_identity", [])) <= self.D.ci:
-            self.excl["outside_colour_identity"] += 1
-            return None
-        if (c.get("legalities") or {}).get("commander") != "legal":
-            self.excl["not_commander_legal"] += 1
-            return None
-        return c
-
-    def run_pass(self, name, names, kind="source", inputs=None):
-        new, dup = [], 0
-        for n in sorted(set(names)):
-            c = self.ok(n)
-            if c is None:
+        self.excl, self.unreleased = Counter(), []
+        self.exc = {n for n, x in (getattr(D, "exc", None) or {}).items() if n in pool and str(x.get("project_authorization_status", "")).startswith("AUTHORIZED")}
+        self.elig = {}
+        for n, c in sorted(pool.items()):
+            if n in D.names:
+                self.excl["already_in_list"] += 1
+            elif "Basic Land" in gc.tline(c):
+                self.excl["basic_land"] += 1
+            elif not set(c.get("color_identity", [])) <= D.ci:
+                self.excl["outside_colour_identity"] += 1
+            elif (c.get("legalities") or {}).get("commander") != "legal" and n not in self.exc:
+                self.excl["not_commander_legal"] += 1
+                fr = D.first.get(c.get("oracle_id")) or c.get("released_at") or ""
+                if fr > SNAPSHOT_DATE:
+                    self.unreleased.append({"card": n, "legal_from": fr})
+            else:
+                self.elig[n] = c
+        self.scored = {n: gc.screen(D, n, c, set()) for n, c in self.elig.items()}
+        self.sig = {n: set() for n in self.elig}
+        self.passes, self.esc_seen = [], set()
+        self.hooks = {n: D.ctx.hook(c) for n, c in self.elig.items()}
+        lab = Counter(h["label"] for h in self.hooks.values() if h)
+        self.spec = {}
+        for n, h in self.hooks.items():
+            if not h:
                 continue
-            if n in self.cand:
-                self.cand[n].add(name)
-                dup += 1
+            if lab[h["label"]] <= SPECIFIC_FRAC * len(self.elig):
+                self.spec[n] = "commander_specific"
+            elif self.scored[n][2].get("package_basis"):
+                self.spec[n] = "blueprint_package"
+            else:
+                self.spec[n] = "generic"
+
+    def run_pass(self, name, names, kind="signal", inputs=None):
+        names = sorted(set(names))
+        hit, unres, fresh = [], 0, []
+        for n in names:
+            if n not in self.elig:
+                if n not in self.pool:
+                    unres += 1
                 continue
-            self.cand[n] = {name}
-            new.append(n)
-        for n in new:
-            self.scored[n] = gc.screen(self.D, n, self.pool[n], self.cand[n])
-        mat_hits = [n for n in new if self.scored[n][0] >= MATERIAL_SCORE]
-        esc = [n for n in new if escalation(self.D, n, self.pool[n], self.scored[n][2], self.cand[n])]
-        material = is_material(len(mat_hits), len(esc))
-        self.passes.append({"index": len(self.passes) + 1, "pass": name, "kind": kind, "nominated": len(set(names)),
-                            "new": len(new), "duplicates": dup, "new_at_or_above_score": len(mat_hits),
-                            "new_escalated": len(esc), "material": material, "inputs": inputs or []})
-        return new, material
+            hit.append(n)
+            if not self.sig[n]:
+                fresh.append(n)
+            self.sig[n].add(name)
+        mat = [n for n in fresh if self.scored[n][0] >= MATERIAL_SCORE]
+        newesc = [n for n in hit if n not in self.esc_seen and self.escalation(n)]
+        self.esc_seen |= set(newesc)
+        material = is_material(len(mat), len(newesc))
+        self.passes.append({"index": len(self.passes) + 1, "pass": name, "kind": kind, "nominated": len(names),
+                            "eligible_signalled": len(hit), "first_signal": len(fresh), "unresolved_names": unres,
+                            "first_signal_at_or_above_score": len(mat), "new_escalated": len(newesc), "material": material,
+                            "inputs": inputs or []})
+        return fresh, material
+
+    def escalation(self, n):
+        D, (sc, parts, f), s = self.D, self.scored[n], self.sig[n]
+        r = []
+        if gc.tier(sc) == "A":
+            r.append("tier_a_score")
+        if "graph_alternative_ref" in s:
+            r.append("dependency_graph_alternative")
+        if f.get("spellbook_infinite"):
+            r.append("spellbook_near_miss_completion")
+        if f.get("blueprint_candidate_of") or ("blueprint_package" in s and sc >= MATERIAL_SCORE):
+            r.append("package_gap")
+        if (f.get("first_printed") or "") >= gc.NEW_SINCE and f.get("oracle_hook") and sc >= MATERIAL_SCORE:
+            r.append("new_card")
+        if self.spec.get(n) == "commander_specific" and n not in D.edh and f.get("packages"):
+            r.append("unusual_oracle_interaction")
+        e = parts.get("edhrec", 0)
+        rest = sc - e - parts.get("rank", 0)
+        if (e >= ANOMALY_GAP and rest <= 0) or (rest >= ANOMALY_GAP and e < 0):
+            r.append("anomaly_source_disagreement")
+        if "human_evidence" in s:
+            r.append("human_evidence")
+        if "tournament" in s:
+            r.append("tournament_evidence")
+        return r
 
 
 def other_lists(reg):
@@ -136,36 +194,37 @@ def other_lists(reg):
     return out
 
 
-def saturate(D, pool, lists):
+def saturate(D, pool, lists, idx):
     R = Run(D, pool)
-    edh_ref = rel(gc.EVID / f"{D.slug}.json")
-    R.run_pass("edhrec", D.ev_cands, inputs=[edh_ref])
+    legal = sorted(R.elig.items())
+    hooks = R.hooks
+    R.run_pass("edhrec", D.ev_cands, inputs=[rel(gc.EVID / f"{D.slug}.json")])
     R.run_pass("spellbook_near_miss", list(D.almost), inputs=[rel(gc.ALMOST)])
-    R.run_pass("blueprint_package", [n for x in D.pk.values() for n in x["candidates"]], inputs=[rel(D.bpf)])
-    legal = [(n, c) for n, c in sorted(pool.items()) if set(c.get("color_identity", [])) <= D.ci
-             and (c.get("legalities") or {}).get("commander") == "legal" and n not in D.names]
-    hooks = {n: D.ctx.hook(c) for n, c in legal}
-    R.run_pass("oracle_text", [n for n, _ in legal if hooks[n]], inputs=["oracle_bulk", "grixis_refine.HOOKS"])
+    members = [n for p in D.bp.get("packages", []) for n in (p.get("cards") or []) + (p.get("candidates") or [])]
+    R.run_pass("blueprint_package", members + [n for n, c in legal if R.scored[n][2].get("package_basis", {}) and
+                                               "type" in R.scored[n][2]["package_basis"].values()],
+               inputs=[rel(D.bpf) + "#packages (members not in list, candidates, package-type matches)"])
+    R.run_pass("oracle_text", [n for n, _ in legal if R.spec.get(n) in ("commander_specific", "blueprint_package")],
+               inputs=["oracle_bulk", "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"])
     pkt = set().union(*[x["types"] for x in D.pk.values()]) if D.pk else set()
-    R.run_pass("type_search", [n for n, c in legal if gc.subtypes(c) & pkt], inputs=["oracle_bulk", rel(D.bpf)])
+    R.run_pass("type_search", [n for n, c in legal if gc.subtypes(c) & pkt],
+               inputs=["oracle_bulk", rel(D.bpf), "package types: " + ",".join(sorted(pkt))])
     ip = ROOT / "data" / "grixis_interactions" / f"{D.slug}.json"
-    kws = set()
+    kws, named = set(), []
     if ip.is_file():
         it = json.loads(ip.read_text())
         txt = " ".join((x.get("title", "") + " " + x.get("ruling", "")) for x in it.get("interactions", [])).lower()
         allk = {k for _, c in legal for k in (c.get("keywords") or [])}
         kws = {k for k in allk if len(k) > 3 and re.search(r"\b" + re.escape(k.lower()) + r"\b", txt)}
         named = [n for x in it.get("interactions", []) for n in x.get("cards", [])]
-    else:
-        named = []
-    R.run_pass("rules_interaction", named + [n for n, c in legal if set(c.get("keywords") or []) & kws and (hooks[n] or (c.get("edhrec_rank") or 10**9) <= RELEVANCE_RANK)],
+    R.run_pass("rules_interaction", named + [n for n, c in legal if set(c.get("keywords") or []) & kws and hooks[n]],
                inputs=[rel(ip)] if ip.is_file() else [])
     R.run_pass("new_card", [n for n, c in legal if (D.first.get(c.get("oracle_id")) or "") >= gc.NEW_SINCE], inputs=["default_bulk (earliest printing)"])
-    rel_ok = lambda n, c: (c.get("edhrec_rank") or 10 ** 9) <= RELEVANCE_RANK or hooks.get(n) or (gc.subtypes(c) & pkt)
-    need = sorted(D.role_count, key=lambda r: (D.role_count[r], r))
     gaps = [r for r in gc.KEY_ROLES if D.role_count[r] <= sorted(D.role_count[x] for x in gc.KEY_ROLES)[2]]
-    R.run_pass("role_gap", [n for n, c in legal if set(gc.roles_of(c)) & set(gaps) and rel_ok(n, c)], inputs=[rel(gc.AUDIT / f"{D.slug}.json")])
+    R.run_pass("role_gap", [n for n, c in legal if set(gc.roles_of(c)) & set(gaps) and R.scored[n][0] >= MATERIAL_SCORE],
+               inputs=[rel(gc.AUDIT / f"{D.slug}.json"), "roles: " + ",".join(gaps)])
     alts = [a.split("#", 1)[1] for s in D.slots.values() for a in s.get("alternatives", []) if a.startswith("evidence:")]
+    R.run_pass("graph_alternative_ref", alts, inputs=[rel(gc.AUDIT / f"{D.slug}.json") + "#slots/*/alternatives"])
     weak = [s for s in D.slots.values() if s["disposition"] in gc.CUT_ORDER[:3] and s["zone"] == "main"]
     def sig(c):
         return (tuple(sorted(r for r in gc.roles_of(c) if r != "land")), gc.tline(c).split(" — ")[0].split(" // ")[0])
@@ -174,26 +233,25 @@ def saturate(D, pool, lists):
         c = D.cards.get(s["card"])
         if c and sig(c)[0]:
             wsig.setdefault(sig(c), []).append(c.get("cmc") or 0)
-    R.run_pass("graph_alternative", alts + [n for n, c in legal if sig(c) in wsig and (c.get("cmc") or 0) <= max(wsig[sig(c)]) and rel_ok(n, c)],
-               inputs=[rel(gc.AUDIT / f"{D.slug}.json"), rel(gc.GRAPH / f"{D.slug}.json")])
+    R.run_pass("graph_alternative", [n for n, c in legal if sig(c) in wsig and (c.get("cmc") or 0) <= max(wsig[sig(c)])],
+               inputs=[rel(gc.GRAPH / f"{D.slug}.json")])
     tt = [t["target"] for t in (D.bp.get("tutor_targets") or [])] if isinstance(D.bp.get("tutor_targets"), list) else []
     tsig = {sig(pool[t]) for t in tt if t in pool}
-    R.run_pass("tutor_target", tt + [n for n, c in legal if sig(c) in tsig and rel_ok(n, c)], inputs=[rel(D.bpf)])
+    R.run_pass("tutor_target", tt + [n for n, c in legal if sig(c) in tsig], inputs=[rel(D.bpf) + "#tutor_targets"])
     def mana_ok(c):
         if gc.is_land(c):
-            prod = set(c.get("produced_mana") or [])
-            return bool(prod & D.ci)
+            return bool(set(c.get("produced_mana") or []) & D.ci)
         return "ramp" in gc.roles_of(c) and "Artifact" in gc.tline(c)
-    R.run_pass("mana_base", [n for n, c in legal if mana_ok(c) and rel_ok(n, c)], inputs=["oracle_bulk produced_mana"])
-    mine = D.ctx.hook
+    R.run_pass("mana_base", [n for n, c in legal if mana_ok(c)], inputs=["oracle_bulk produced_mana"])
     cnt = Counter(n for s, L in lists.items() if s != D.slug for n in L)
-    R.run_pass("archetype_tech", [n for n, c in legal if cnt[n] >= ARCHETYPE_MIN_LISTS and (hooks[n] or gc.subtypes(c) & pkt)],
-               inputs=["exports/grixis-archidekt/*.txt (other canonical lists)"])
+    R.run_pass("archetype_tech", [n for n, _ in legal if cnt[n] >= ARCHETYPE_MIN_LISTS],
+               inputs=[f"exports/grixis-archidekt (other canonical lists, >= {ARCHETYPE_MIN_LISTS})"])
     tour = D.tour or {}
     tc = [n for n, x in (tour.get("cards") or {}).items() if (x.get("withCard") or {}).get("entries", 0) > 0]
-    R.run_pass("tournament", tc, inputs=[rel(gc.OUT / "tournament" / f"{D.slug}.json")] if D.tour else [])
-    # expansion rounds from tier-A frontier
-    frontier = sorted(n for n in R.cand if R.scored[n][0] >= gc.TIER_A)
+    R.run_pass("tournament", tc, inputs=[rel(gc.OUT / "tournament" / f"{D.slug}.json")] if D.tour else ["none: no tournament evidence file for this deck"])
+    R.run_pass("human_evidence", mentions(human_blobs(D), idx),
+               inputs=["data/grixis/blueprint_reviews.json", "data/grixis/m1_corrections.json", rel(gc.AUDIT / f"{D.slug}.json") + "#lint,m1_flags"])
+    frontier = sorted(n for n in R.elig if R.sig[n] and R.scored[n][0] >= gc.TIER_A)
     seen_seed, quiet, rnd = set(), 0, 0
     while quiet < STOP_N:
         rnd += 1
@@ -201,73 +259,102 @@ def saturate(D, pool, lists):
         seen_seed |= set(seeds)
         kw = {k for n in seeds for k in (pool[n].get("keywords") or [])}
         st = {t for n in seeds for t in gc.subtypes(pool[n])}
-        noms = [n for n, c in legal if ((set(c.get("keywords") or []) & kw) or (gc.subtypes(c) & st)) and rel_ok(n, c)] if seeds else []
+        noms = [n for n, c in legal if ((set(c.get("keywords") or []) & kw) or (gc.subtypes(c) & st))] if seeds else []
         new, material = R.run_pass(f"expansion_{rnd}", noms, kind="expansion", inputs=[f"{len(seeds)} tier-A seeds"])
         frontier = sorted(n for n in new if R.scored[n][0] >= gc.TIER_A)
         quiet = 0 if material else quiet + 1
+    # mandatory final full-pool sweep: every eligible card enters the universe
+    R.sweep = sum(1 for n in R.elig if not R.sig[n])
+    R.passes.append({"index": len(R.passes) + 1, "pass": "full_pool_sweep", "kind": "sweep", "nominated": len(R.elig),
+                     "eligible_signalled": len(R.elig), "first_signal": 0, "unresolved_names": 0, "first_signal_at_or_above_score": 0,
+                     "new_escalated": 0, "material": False, "added_without_signal": R.sweep,
+                     "inputs": ["oracle_bulk: every card Commander-legal (or authorized project exception), in colour identity, not in the list"]})
     return R
 
 
 def certificate(D, R, inputs, runtime):
     uni = []
-    for n in sorted(R.cand, key=lambda n: (-R.scored[n][0], n)):
+    for n in sorted(R.elig, key=lambda n: (-R.scored[n][0], n)):
         sc, parts, f = R.scored[n]
-        esc = escalation(D, n, R.pool[n], f, R.cand[n])
-        uni.append({"card": n, "score": sc, "tier": gc.tier(sc), "sources": sorted(R.cand[n]), "escalation": esc,
-                    "test_tier": "paired_test" if gc.tier(sc) == "A" or esc else "screen_only"})
+        esc = R.escalation(n)
+        uni.append({"card": n, "score": sc, "tier": gc.tier(sc), "signals": sorted(R.sig[n]) or ["full_pool_sweep"],
+                    "oracle_hook_specificity": R.spec.get(n), "escalation": esc})
+    escd = sorted((x for x in uni if x["escalation"]), key=lambda x: (-(x["score"] + SIGNAL_WEIGHT * len(x["escalation"])), x["card"]))
+    for i, x in enumerate(escd):
+        x["priority"] = i + 1
+        x["test_tier"] = "paired_test" if i < PAIRED_TARGET else "escalated_queued"
+    for x in uni:
+        x.setdefault("test_tier", "screen_only")
     body = json.dumps(uni, sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode()
     gz = gzip.compress(body, compresslevel=9, mtime=0)
-    last_mat = max((p["index"] for p in R.passes if p["material"]), default=None)
-    per_src = Counter(s for x in uni for s in x["sources"])
+    sig_passes = [p for p in R.passes if p["kind"] != "sweep"]
+    last_mat = max((p["index"] for p in sig_passes if p["material"]), default=None)
+    per_sig = Counter(s for x in uni for s in x["signals"])
+    queue = [{"card": x["card"], "priority": x["priority"], "score": x["score"], "escalation": x["escalation"]}
+             for x in escd if x["test_tier"] == "escalated_queued"]
     cert = {
-        "schema_version": 1, "kind": "saturation_certificate", "generated_by": f"scripts/grixis_saturation.py v{VERSION}",
-        "cycle": "Bot cycle 65.1", "deck_id": D.rid, "slug": D.slug, "list_hash": D.e["canonical_project_list"]["hash"],
+        "schema_version": 2, "kind": "saturation_certificate", "generated_by": f"scripts/grixis_saturation.py v{VERSION}",
+        "cycle": "Bot cycle 65.2", "deck_id": D.rid, "slug": D.slug, "list_hash": D.e["canonical_project_list"]["hash"],
         "snapshot": {"id": "snap-20261016 (development snapshot, Cory D6)", "inputs": inputs},
         "evidence_class": "derived_metric",
         "authority": {"exploratory": True, "can_decide": False, "note": "Discovery coverage evidence only; screening tiers order work and never exclude or decide. M5 stays unaccepted (Cory)."},
         "stopping_rule": {"material_k": MATERIAL_K, "material_score": MATERIAL_SCORE, "stop_after_non_material": STOP_N,
-                          "definition": f"a pass is material if it adds >= {MATERIAL_K} new candidates with screening score >= {MATERIAL_SCORE} or any new escalated candidate; expansion stops after {STOP_N} consecutive non-material rounds",
-                          "relevance_predicate": f"broad passes nominate cards with EDHREC rank <= {RELEVANCE_RANK}, an Oracle hook or a package creature type",
+                          "definition": f"a signal pass is material if it gives a first signal to >= {MATERIAL_K} eligible cards with screening score >= {MATERIAL_SCORE}, or newly escalates any card; expansion stops after {STOP_N} consecutive non-material rounds; the full-pool sweep then admits every eligible card",
                           "test_tier_rule": TEST_TIER_RULE},
-        "passes": R.passes, "last_material_pass": last_mat, "saturated": R.passes[-1]["kind"] == "expansion" and not R.passes[-1]["material"],
+        "pool": {"oracle_cards": len(R.pool), "eligible": len(R.elig), "sweep_coverage": 1.0 if len(uni) == len(R.elig) else len(uni) / max(1, len(R.elig)),
+                 "added_by_sweep_without_signal": R.sweep, "project_exceptions_admitted": sorted(R.exc & set(R.elig))},
+        "passes": R.passes, "last_material_pass": last_mat,
+        "saturated": bool(sig_passes) and sig_passes[-1]["kind"] == "expansion" and not sig_passes[-1]["material"] and len(uni) == len(R.elig),
         "hard_exclusions": dict(sorted(R.excl.items())),
         "hard_exclusion_kinds": ["not_commander_legal", "outside_colour_identity", "already_in_list", "basic_land", "unresolved_name"],
         "universe": {"size": len(uni), "previous_m5_bound": 500, "by_tier": dict(sorted(Counter(x["tier"] for x in uni).items())),
-                     "by_test_tier": dict(sorted(Counter(x["test_tier"] for x in uni).items())), "per_source": dict(sorted(per_src.items())),
-                     "escalated": sum(1 for x in uni if x["escalation"]), "file": rel(OUT / f"{D.slug}.universe.json.gz"),
+                     "by_test_tier": dict(sorted(Counter(x["test_tier"] for x in uni).items())), "per_signal": dict(sorted(per_sig.items())),
+                     "escalated": len(escd), "by_escalation_reason": dict(sorted(Counter(r for x in escd for r in x["escalation"]).items())),
+                     "oracle_hook_specificity": dict(sorted(Counter(v for v in R.spec.values()).items())),
+                     "paired_test_target": PAIRED_TARGET, "file": rel(OUT / f"{D.slug}.universe.json.gz"),
                      "sha256": "sha256:" + hashlib.sha256(body).hexdigest()},
+        "escalated_untested_queue": queue,
         "blind_spots": [
-            "Cards no pass nominates (outside every source, below the relevance predicate) are undiscovered, not excluded.",
-            "Commander Spellbook near-misses come from the cached almostIncluded snapshot (one missing piece only).",
-            "EDHREC rows exist only for the commander page(s) in the evidence layer; partner/background pages may be thin.",
-            "Tournament evidence exists only for cEDH-ceiling decks and is sparse.",
-            "Oracle hooks use grixis_refine HOOKS regexes; mechanics they do not name are found only via type, keyword or role passes.",
-            "Not-yet-legal cards (pending release) are hard-excluded until legal; they are re-discovered at the Birthday snapshot."],
+            {"kind": "unreleased_not_yet_legal", "note": "Excluded from candidates until legal; picked up at the Birthday snapshot.",
+             "cards": sorted(R.unreleased, key=lambda x: (x["legal_from"], x["card"]))},
+            {"kind": "spellbook_snapshot", "note": "Commander Spellbook near-misses come from the cached almostIncluded snapshot (one missing piece only)."},
+            {"kind": "edhrec_pages", "note": "EDHREC rows exist only for the commander page(s) in the evidence layer; partner/background pages may be thin."},
+            {"kind": "tournament", "note": "Tournament evidence exists only for cEDH-ceiling decks and is sparse; an empty tournament pass is recorded, not an error."},
+            {"kind": "screening_model", "note": "Sweep-only cards are scored by the M5 screening function; a card whose value it does not model can sit low in tier C (still in the universe)."}],
         "runtime_seconds": None,
     }
     return cert, gz, round(runtime, 1)
 
 
-def build(slugs):
+_G = {}
+
+
+def _one(slug):
+    g = _G
+    t0 = time.time()
+    did, v = next((k, v) for k, v in g["summary"].items() if v["slug"] == slug)
+    D = gc.DeckCtx(did, v, g["R0"], g["reg"], g["pool"], g["first"], g["almost"])
+    R = saturate(D, g["pool"], g["lists"], g["idx"])
+    ins = dict(g["inputs"], blueprint=sha_file(D.bpf), evidence=sha_file(gc.EVID / f"{slug}.json"), audit=sha_file(gc.AUDIT / f"{slug}.json"))
+    cert, gz, rt = certificate(D, R, ins, time.time() - t0)
+    (OUT / f"{slug}.universe.json.gz").write_bytes(gz)
+    (OUT / f"{slug}.json").write_text(json.dumps(cert, indent=1, ensure_ascii=False) + "\n")
+    u = cert["universe"]
+    print(slug, u["size"], "eligible;", len(R.passes), "passes; last material", cert["last_material_pass"], u["by_tier"], u["by_test_tier"], f"{rt}s", flush=True)
+    return slug, u["size"], u["by_tier"], u["by_test_tier"], u["escalated"], cert["last_material_pass"], rt
+
+
+def build(slugs, jobs=1):
     R0, reg, pool, first, almost = gc._ctx()
     o, d = gc.bulk_files()
-    inputs = {"oracle_bulk": o.name, "default_bulk": d.name, "spellbook_almost": sha_file(gc.ALMOST)}
-    lists = other_lists(reg)
+    _G.update(R0=R0, reg=reg, pool=pool, first=first, almost=almost, lists=other_lists(reg), idx=name_index(pool),
+              summary=ga.summary(), inputs={"oracle_bulk": o.name, "default_bulk": d.name, "spellbook_almost": sha_file(gc.ALMOST)})
     OUT.mkdir(parents=True, exist_ok=True)
-    rep = []
-    for slug in slugs:
-        t0 = time.time()
-        did, v = next((k, v) for k, v in ga.summary().items() if v["slug"] == slug)
-        D = gc.DeckCtx(did, v, R0, reg, pool, first, almost)
-        R = saturate(D, pool, lists)
-        ins = dict(inputs, blueprint=sha_file(D.bpf), evidence=sha_file(gc.EVID / f"{slug}.json"), audit=sha_file(gc.AUDIT / f"{slug}.json"))
-        cert, gz, rt = certificate(D, R, ins, time.time() - t0)
-        (OUT / f"{slug}.universe.json.gz").write_bytes(gz)
-        (OUT / f"{slug}.json").write_text(json.dumps(cert, indent=1, ensure_ascii=False) + "\n")
-        rep.append((slug, cert["universe"]["size"], len(R.passes), cert["last_material_pass"], cert["universe"]["by_test_tier"], rt))
-        print(slug, cert["universe"]["size"], "candidates;", len(R.passes), "passes; last material", cert["last_material_pass"],
-              cert["universe"]["by_test_tier"], f"{rt}s", flush=True)
-    return rep
+    if jobs > 1:
+        import multiprocessing as mp
+        with mp.get_context("fork").Pool(jobs) as P:
+            return P.map(_one, slugs, chunksize=1)
+    return [_one(s) for s in slugs]
 
 
 def problems(slugs=None, rerun=True):
@@ -297,11 +384,15 @@ def problems(slugs=None, rerun=True):
 def main():
     a = argparse.ArgumentParser()
     a.add_argument("--decks")
+    a.add_argument("--all", action="store_true")
+    a.add_argument("--jobs", type=int, default=1)
     a.add_argument("--check", action="store_true")
     a.add_argument("--no-rerun", action="store_true")
     x = a.parse_args()
-    if x.decks:
-        build(x.decks.split(","))
+    if x.all:
+        build(sorted(v["slug"] for v in ga.summary().values()), x.jobs)
+    elif x.decks:
+        build(x.decks.split(","), x.jobs)
     if x.check:
         p = problems(rerun=not x.no_rerun)
         for e in p:

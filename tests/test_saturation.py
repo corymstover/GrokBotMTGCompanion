@@ -25,8 +25,11 @@ def test_certificates_valid_and_saturated():
         assert c["saturated"] and c["authority"]["can_decide"] is False
         r = c["stopping_rule"]
         assert (r["material_k"], r["material_score"], r["stop_after_non_material"]) == (gs.MATERIAL_K, gs.MATERIAL_SCORE, gs.STOP_N)
-        tail = c["passes"][-r["stop_after_non_material"]:]
+        assert c["passes"][-1]["pass"] == "full_pool_sweep"
+        tail = [p for p in c["passes"] if p["kind"] != "sweep"][-r["stop_after_non_material"]:]
         assert all(p["kind"] == "expansion" and not p["material"] for p in tail)
+        assert c["pool"]["sweep_coverage"] == 1.0 and c["universe"]["size"] == c["pool"]["eligible"]
+        assert c["blind_spots"][0]["kind"] == "unreleased_not_yet_legal"
 
 
 def test_screening_never_excludes():
@@ -36,8 +39,25 @@ def test_screening_never_excludes():
         u = json.loads(gzip.decompress((gs.ROOT / c["universe"]["file"]).read_bytes()))
         assert len(u) == c["universe"]["size"]
         assert any(x["tier"] == "C" for x in u)  # low-scoring cards stay in the universe
-        assert {x["test_tier"] for x in u} <= {"paired_test", "screen_only"}
-        assert all(x["test_tier"] == "paired_test" for x in u if x["tier"] == "A" or x["escalation"])
+        assert {x["test_tier"] for x in u} <= {"paired_test", "escalated_queued", "screen_only"}
+        assert all(x["test_tier"] != "screen_only" for x in u if x["tier"] == "A" or x["escalation"])
+        q = [x["card"] for x in u if x["test_tier"] == "escalated_queued"]
+        assert sorted(q) == sorted(x["card"] for x in c["escalated_untested_queue"])  # overflow is queued, never dropped
+        assert sum(x["test_tier"] == "paired_test" for x in u) <= c["universe"]["paired_test_target"]
+
+
+def test_full_pool_sweep_covers_every_eligible_card():
+    import grixis_candidates as gc
+    import grixis_authority as ga
+    R0, reg, pool, first, almost = gc._ctx()
+    slug = "the-valeyard"
+    c = json.loads((gs.OUT / f"{slug}.json").read_text())
+    did, v = next((k, v) for k, v in ga.summary().items() if v["slug"] == slug)
+    D = gc.DeckCtx(did, v, R0, reg, pool, first, almost)
+    want = {n for n, x in pool.items() if (x.get("legalities") or {}).get("commander") == "legal"
+            and set(x.get("color_identity", [])) <= D.ci and n not in D.names and "Basic Land" not in gc.tline(x)}
+    u = {x["card"] for x in json.loads(gzip.decompress((gs.ROOT / c["universe"]["file"]).read_bytes()))}
+    assert want <= u
 
 
 def test_materiality_rule():

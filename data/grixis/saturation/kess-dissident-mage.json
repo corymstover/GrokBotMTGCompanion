@@ -1,8 +1,8 @@
 {
- "schema_version": 1,
+ "schema_version": 2,
  "kind": "saturation_certificate",
- "generated_by": "scripts/grixis_saturation.py v1",
- "cycle": "Bot cycle 65.1",
+ "generated_by": "scripts/grixis_saturation.py v2",
+ "cycle": "Bot cycle 65.2",
  "deck_id": "Kess__Dissident_Mage",
  "slug": "kess-dissident-mage",
  "list_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
@@ -27,20 +27,27 @@
   "material_k": 3,
   "material_score": 25.0,
   "stop_after_non_material": 2,
-  "definition": "a pass is material if it adds >= 3 new candidates with screening score >= 25.0 or any new escalated candidate; expansion stops after 2 consecutive non-material rounds",
-  "relevance_predicate": "broad passes nominate cards with EDHREC rank <= 8000, an Oracle hook or a package creature type",
-  "test_tier_rule": "paired_test if screening tier A or escalated; otherwise screen_only (workload order, never exclusion)"
+  "definition": "a signal pass is material if it gives a first signal to >= 3 eligible cards with screening score >= 25.0, or newly escalates any card; expansion stops after 2 consecutive non-material rounds; the full-pool sweep then admits every eligible card",
+  "test_tier_rule": "escalated cards ranked by score + 5 x reasons; the first PAIRED_TARGET are paired_test, the rest escalated_queued (kept, run in later batches); others screen_only. Workload order, never exclusion"
+ },
+ "pool": {
+  "oracle_cards": 34880,
+  "eligible": 18453,
+  "sweep_coverage": 1.0,
+  "added_by_sweep_without_signal": 6552,
+  "project_exceptions_admitted": []
  },
  "passes": [
   {
    "index": 1,
    "pass": "edhrec",
-   "kind": "source",
+   "kind": "signal",
    "nominated": 202,
-   "new": 191,
-   "duplicates": 0,
-   "new_at_or_above_score": 144,
-   "new_escalated": 11,
+   "eligible_signalled": 191,
+   "first_signal": 191,
+   "unresolved_names": 11,
+   "first_signal_at_or_above_score": 144,
+   "new_escalated": 55,
    "material": true,
    "inputs": [
     "data/grixis/evidence/kess-dissident-mage.json"
@@ -49,12 +56,13 @@
   {
    "index": 2,
    "pass": "spellbook_near_miss",
-   "kind": "source",
+   "kind": "signal",
    "nominated": 60,
-   "new": 51,
-   "duplicates": 6,
-   "new_at_or_above_score": 18,
-   "new_escalated": 35,
+   "eligible_signalled": 57,
+   "first_signal": 51,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 18,
+   "new_escalated": 34,
    "material": true,
    "inputs": [
     "data/grixis/candidates/spellbook_almost.json"
@@ -63,55 +71,60 @@
   {
    "index": 3,
    "pass": "blueprint_package",
-   "kind": "source",
-   "nominated": 0,
-   "new": 0,
-   "duplicates": 0,
-   "new_at_or_above_score": 0,
+   "kind": "signal",
+   "nominated": 24,
+   "eligible_signalled": 0,
+   "first_signal": 0,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
-    "data/grixis/blueprints/kess-dissident-mage.json"
+    "data/grixis/blueprints/kess-dissident-mage.json#packages (members not in list, candidates, package-type matches)"
    ]
   },
   {
    "index": 4,
    "pass": "oracle_text",
-   "kind": "source",
-   "nominated": 6920,
-   "new": 6768,
-   "duplicates": 152,
-   "new_at_or_above_score": 6,
-   "new_escalated": 408,
+   "kind": "signal",
+   "nominated": 1560,
+   "eligible_signalled": 1560,
+   "first_signal": 1520,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 6,
+   "new_escalated": 5,
    "material": true,
    "inputs": [
     "oracle_bulk",
-    "grixis_refine.HOOKS"
+    "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
    ]
   },
   {
    "index": 5,
    "pass": "type_search",
-   "kind": "source",
+   "kind": "signal",
    "nominated": 0,
-   "new": 0,
-   "duplicates": 0,
-   "new_at_or_above_score": 0,
+   "eligible_signalled": 0,
+   "first_signal": 0,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
     "oracle_bulk",
-    "data/grixis/blueprints/kess-dissident-mage.json"
+    "data/grixis/blueprints/kess-dissident-mage.json",
+    "package types: "
    ]
   },
   {
    "index": 6,
    "pass": "rules_interaction",
-   "kind": "source",
-   "nominated": 613,
-   "new": 120,
-   "duplicates": 472,
-   "new_at_or_above_score": 0,
+   "kind": "signal",
+   "nominated": 486,
+   "eligible_signalled": 465,
+   "first_signal": 373,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
@@ -121,13 +134,14 @@
   {
    "index": 7,
    "pass": "new_card",
-   "kind": "source",
+   "kind": "signal",
    "nominated": 802,
-   "new": 411,
-   "duplicates": 391,
-   "new_at_or_above_score": 0,
-   "new_escalated": 73,
-   "material": true,
+   "eligible_signalled": 802,
+   "first_signal": 675,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
    "inputs": [
     "default_bulk (earliest printing)"
    ]
@@ -135,54 +149,73 @@
   {
    "index": 8,
    "pass": "role_gap",
-   "kind": "source",
-   "nominated": 1770,
-   "new": 231,
-   "duplicates": 1539,
-   "new_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
-   "inputs": [
-    "data/grixis/audit/kess-dissident-mage.json"
-   ]
-  },
-  {
-   "index": 9,
-   "pass": "graph_alternative",
-   "kind": "source",
-   "nominated": 626,
-   "new": 322,
-   "duplicates": 304,
-   "new_at_or_above_score": 0,
+   "kind": "signal",
+   "nominated": 29,
+   "eligible_signalled": 29,
+   "first_signal": 0,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
     "data/grixis/audit/kess-dissident-mage.json",
-    "data/grixis/graph/kess-dissident-mage.json"
+    "roles: removal,wipe,protection"
+   ]
+  },
+  {
+   "index": 9,
+   "pass": "graph_alternative_ref",
+   "kind": "signal",
+   "nominated": 9,
+   "eligible_signalled": 9,
+   "first_signal": 0,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
+   "new_escalated": 2,
+   "material": true,
+   "inputs": [
+    "data/grixis/audit/kess-dissident-mage.json#slots/*/alternatives"
    ]
   },
   {
    "index": 10,
-   "pass": "tutor_target",
-   "kind": "source",
-   "nominated": 1936,
-   "new": 702,
-   "duplicates": 1232,
-   "new_at_or_above_score": 0,
+   "pass": "graph_alternative",
+   "kind": "signal",
+   "nominated": 880,
+   "eligible_signalled": 880,
+   "first_signal": 648,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
-    "data/grixis/blueprints/kess-dissident-mage.json"
+    "data/grixis/graph/kess-dissident-mage.json"
    ]
   },
   {
    "index": 11,
+   "pass": "tutor_target",
+   "kind": "signal",
+   "nominated": 6756,
+   "eligible_signalled": 6754,
+   "first_signal": 6460,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/blueprints/kess-dissident-mage.json#tutor_targets"
+   ]
+  },
+  {
+   "index": 12,
    "pass": "mana_base",
-   "kind": "source",
-   "nominated": 498,
-   "new": 194,
-   "duplicates": 304,
-   "new_at_or_above_score": 0,
+   "kind": "signal",
+   "nominated": 736,
+   "eligible_signalled": 736,
+   "first_signal": 376,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
@@ -190,41 +223,61 @@
    ]
   },
   {
-   "index": 12,
+   "index": 13,
    "pass": "archetype_tech",
-   "kind": "source",
-   "nominated": 87,
-   "new": 0,
-   "duplicates": 87,
-   "new_at_or_above_score": 0,
+   "kind": "signal",
+   "nominated": 267,
+   "eligible_signalled": 267,
+   "first_signal": 110,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
-    "exports/grixis-archidekt/*.txt (other canonical lists)"
+    "exports/grixis-archidekt (other canonical lists, >= 3)"
    ]
   },
   {
-   "index": 13,
+   "index": 14,
    "pass": "tournament",
-   "kind": "source",
+   "kind": "signal",
    "nominated": 69,
-   "new": 0,
-   "duplicates": 60,
-   "new_at_or_above_score": 0,
-   "new_escalated": 0,
-   "material": false,
+   "eligible_signalled": 60,
+   "first_signal": 3,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
+   "new_escalated": 14,
+   "material": true,
    "inputs": [
     "data/grixis/candidates/tournament/kess-dissident-mage.json"
    ]
   },
   {
-   "index": 14,
+   "index": 15,
+   "pass": "human_evidence",
+   "kind": "signal",
+   "nominated": 0,
+   "eligible_signalled": 0,
+   "first_signal": 0,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/blueprint_reviews.json",
+    "data/grixis/m1_corrections.json",
+    "data/grixis/audit/kess-dissident-mage.json#lint,m1_flags"
+   ]
+  },
+  {
+   "index": 16,
    "pass": "expansion_1",
    "kind": "expansion",
-   "nominated": 2375,
-   "new": 275,
-   "duplicates": 2100,
-   "new_at_or_above_score": 0,
+   "nominated": 4851,
+   "eligible_signalled": 4851,
+   "first_signal": 1494,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
@@ -232,26 +285,43 @@
    ]
   },
   {
-   "index": 15,
+   "index": 17,
    "pass": "expansion_2",
    "kind": "expansion",
    "nominated": 0,
-   "new": 0,
-   "duplicates": 0,
-   "new_at_or_above_score": 0,
+   "eligible_signalled": 0,
+   "first_signal": 0,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
    "new_escalated": 0,
    "material": false,
    "inputs": [
     "0 tier-A seeds"
    ]
+  },
+  {
+   "index": 18,
+   "pass": "full_pool_sweep",
+   "kind": "sweep",
+   "nominated": 18453,
+   "eligible_signalled": 18453,
+   "first_signal": 0,
+   "unresolved_names": 0,
+   "first_signal_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "added_without_signal": 6552,
+   "inputs": [
+    "oracle_bulk: every card Commander-legal (or authorized project exception), in colour identity, not in the list"
+   ]
   }
  ],
- "last_material_pass": 7,
+ "last_material_pass": 14,
  "saturated": true,
  "hard_exclusions": {
-  "already_in_list": 32,
-  "not_commander_legal": 3,
-  "unresolved_name": 11
+  "already_in_list": 100,
+  "not_commander_legal": 1742,
+  "outside_colour_identity": 14585
  },
  "hard_exclusion_kinds": [
   "not_commander_legal",
@@ -261,42 +331,454 @@
   "unresolved_name"
  ],
  "universe": {
-  "size": 9265,
+  "size": 18453,
   "previous_m5_bound": 500,
   "by_tier": {
    "A": 42,
    "B": 126,
-   "C": 9097
+   "C": 18285
   },
   "by_test_tier": {
-   "paired_test": 575,
-   "screen_only": 8690
+   "paired_test": 110,
+   "screen_only": 18343
   },
-  "per_source": {
-   "archetype_tech": 87,
+  "per_signal": {
+   "archetype_tech": 267,
    "edhrec": 191,
-   "expansion_1": 2375,
-   "graph_alternative": 626,
-   "mana_base": 498,
+   "expansion_1": 4851,
+   "full_pool_sweep": 6552,
+   "graph_alternative": 880,
+   "graph_alternative_ref": 9,
+   "mana_base": 736,
    "new_card": 802,
-   "oracle_text": 6920,
-   "role_gap": 1770,
-   "rules_interaction": 592,
+   "oracle_text": 1560,
+   "role_gap": 29,
+   "rules_interaction": 465,
    "spellbook_near_miss": 57,
    "tournament": 60,
-   "tutor_target": 1934
+   "tutor_target": 6754
   },
-  "escalated": 571,
+  "escalated": 110,
+  "by_escalation_reason": {
+   "anomaly_source_disagreement": 8,
+   "dependency_graph_alternative": 9,
+   "new_card": 11,
+   "spellbook_near_miss_completion": 38,
+   "tier_a_score": 42,
+   "tournament_evidence": 60
+  },
+  "oracle_hook_specificity": {
+   "blueprint_package": 1560,
+   "generic": 5360
+  },
+  "paired_test_target": 250,
   "file": "data/grixis/saturation/kess-dissident-mage.universe.json.gz",
-  "sha256": "sha256:5221a9123e9ac66b060ca7f23f7160a89fc80b4e7faa3d283d5ed8959eaa478b"
+  "sha256": "sha256:bd6b86c2a6c0d2a6805112b474021cd988a49681d062511e0970bb736a50944e"
  },
+ "escalated_untested_queue": [],
  "blind_spots": [
-  "Cards no pass nominates (outside every source, below the relevance predicate) are undiscovered, not excluded.",
-  "Commander Spellbook near-misses come from the cached almostIncluded snapshot (one missing piece only).",
-  "EDHREC rows exist only for the commander page(s) in the evidence layer; partner/background pages may be thin.",
-  "Tournament evidence exists only for cEDH-ceiling decks and is sparse.",
-  "Oracle hooks use grixis_refine HOOKS regexes; mechanics they do not name are found only via type, keyword or role passes.",
-  "Not-yet-legal cards (pending release) are hard-excluded until legal; they are re-discovered at the Birthday snapshot."
+  {
+   "kind": "unreleased_not_yet_legal",
+   "note": "Excluded from candidates until legal; picked up at the Birthday snapshot.",
+   "cards": [
+    {
+     "card": "Auspicious Aquarium",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Balefang the Unslayable",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Boss Uramon, Shadow's Reach",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Chira, All In",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Dragon's Smile",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Dyfed, the Guiding Hand",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Flitwing, Lyev Detective",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Grandmother Goby",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Gustha Ebbasdotter",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Istvan, Butcher of Eln",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Itazura, Lingering Wick",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Jabs, Mistress of Mockery",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Kuroki, Thief of Talents",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Matoc, Lavamancer",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Miss Highwater",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Olinda the Oblivious",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Sahir, Visitor in Darkness",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Sash and Waistcoat, Unmen",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Sifa Grent",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "The Everforger",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "The Madcap Jester",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "The Unluckiest Planeswalker",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "The Weaver King",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Thomil, the Destroyer",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Tolabow, Loch Rascal",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Tresserhorn's Lord, Returned",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Valko Indorian",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "A Good Day to Die",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Assault Drone",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Automated Warfare System",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Badgey, Malicious Glitch",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Bat'leth",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Battle-Scarred Survivalist",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Beckett Mariner, Impetuous Ensign",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Bio-Asset Allocator",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cantankerous Captain",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Captain James T. Kirk",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Captain's Tutelage",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Ceti Eel",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cha'DIch Investigator",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cloistered Telepath",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Collective Drone",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Consider the Prime Directive",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cryogenic Stasis",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Crystalline Entity",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cybernetic Specialist",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Defense Force Aggressor",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Direct Hit",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Disruptor Pistol",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Dominion Saboteur",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Eject the Warp Core",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Exocomp",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Federation Probe",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "General Chang, Cold Warrior",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Gin'tak Charge",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Guidance Failure",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "He's Dead, Jim",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Highly Illogical",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Hive Mind Coprocessor",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Horta",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Hoshi Sato, Exolinguist",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Humpback Whales",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "In the Pale Moonlight",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Khaaaaaaaaaaaannn!",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Klingon Strike Force",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Kolinahr Priest",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Kruge, Genesis Seeker",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "La Forge, Perceptive Engineer",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "La'An Noonien-Singh, Security",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Marooned",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Mek'leth Berserker",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Munitions Enthusiast",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Open Communications",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Organic Avulsion Unit",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Pelia, Immortal Innovator",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Perils of the Past",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Planetary Patrol",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Plasma Cascade",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Relentless Drednok",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Resistance Is Futile",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Rogue Artificial Intelligence",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Salt Vampire",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Seven of Nine",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Silicate Surveyor",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "T'Pol, Vulcan Representative",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Trelane, Squire of Gothos",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "U.S.S. Enterprise-D, Galaxy-Class",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "V'Ger, the Intruder",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Warship Flight Crew",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Hela's Arcanum",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "Hela, Mistress of Darkness // Dark Tutor",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "Magik, Illyana Rasputin // Darkchild, Demon Uncaged",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "Rise from the Nether",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "Spirit Sorcerer Token",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "The Darkhold",
+     "legal_from": "2027-04-09"
+    }
+   ]
+  },
+  {
+   "kind": "spellbook_snapshot",
+   "note": "Commander Spellbook near-misses come from the cached almostIncluded snapshot (one missing piece only)."
+  },
+  {
+   "kind": "edhrec_pages",
+   "note": "EDHREC rows exist only for the commander page(s) in the evidence layer; partner/background pages may be thin."
+  },
+  {
+   "kind": "tournament",
+   "note": "Tournament evidence exists only for cEDH-ceiling decks and is sparse; an empty tournament pass is recorded, not an error."
+  },
+  {
+   "kind": "screening_model",
+   "note": "Sweep-only cards are scored by the M5 screening function; a card whose value it does not model can sit low in tier C (still in the universe)."
+  }
  ],
  "runtime_seconds": null
 }

@@ -84,8 +84,8 @@
       "id": "A",
       "name": "adaptive candidate saturation",
       "batches": [
-        6,
-        8
+        "65.1 engine + 3 certificates",
+        "65.2 full-pool sweep, signal passes, specificity, calibrated escalation + queue, all 62 certificates"
       ],
       "status": "in_progress",
       "depends_on": [
@@ -101,7 +101,10 @@
         "stop_after_non_material": 2
       },
       "code": "scripts/grixis_saturation.py",
-      "schema": "data/grixis/schemas/saturation_certificate.schema.json"
+      "schema": "data/grixis/schemas/saturation_certificate.schema.json",
+      "paired_test_target": 250,
+      "full_pool_sweep": true,
+      "next": "Wire grixis_candidates.py to consume the saturated universe; plan tiered paired-test runs in batches (paired_test first, then escalated_untested_queue by priority)."
     },
     {
       "order": 3,

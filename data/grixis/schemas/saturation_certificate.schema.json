@@ -1,38 +1,271 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/saturation_certificate.schema.json",
-  "title": "Per-deck candidate saturation certificate (step A, Bot cycle 65.1; Cory decision D1)",
-  "type": "object",
-  "properties": {
-    "schema_version": {"const": 1},
-    "kind": {"const": "saturation_certificate"},
-    "generated_by": {"type": "string"}, "cycle": {"type": "string"},
-    "deck_id": {"type": "string"}, "slug": {"type": "string"},
-    "list_hash": {"type": "string", "pattern": "^lh1:[0-9a-f]{64}$"},
-    "snapshot": {"type": "object", "properties": {"id": {"type": "string"}, "inputs": {"type": "object", "additionalProperties": {"type": "string"}}}, "required": ["id", "inputs"]},
-    "evidence_class": {"const": "derived_metric"},
-    "authority": {"type": "object", "properties": {"exploratory": {"const": true}, "can_decide": {"const": false}, "note": {"type": "string"}}, "required": ["exploratory", "can_decide", "note"]},
-    "stopping_rule": {"type": "object", "properties": {
-      "material_k": {"type": "integer", "minimum": 1}, "material_score": {"type": "number"}, "stop_after_non_material": {"type": "integer", "minimum": 1},
-      "definition": {"type": "string"}, "relevance_predicate": {"type": "string"}, "test_tier_rule": {"type": "string"}},
-      "required": ["material_k", "material_score", "stop_after_non_material", "definition", "relevance_predicate", "test_tier_rule"]},
-    "passes": {"type": "array", "minItems": 1, "items": {"type": "object", "properties": {
-      "index": {"type": "integer"}, "pass": {"type": "string"}, "kind": {"enum": ["source", "expansion"]},
-      "nominated": {"type": "integer"}, "new": {"type": "integer"}, "duplicates": {"type": "integer"},
-      "new_at_or_above_score": {"type": "integer"}, "new_escalated": {"type": "integer"}, "material": {"type": "boolean"},
-      "inputs": {"type": "array", "items": {"type": "string"}}},
-      "required": ["index", "pass", "kind", "nominated", "new", "duplicates", "new_at_or_above_score", "new_escalated", "material", "inputs"], "additionalProperties": false}},
-    "last_material_pass": {"type": ["integer", "null"]},
-    "saturated": {"type": "boolean"},
-    "hard_exclusions": {"type": "object", "propertyNames": {"enum": ["not_commander_legal", "outside_colour_identity", "already_in_list", "basic_land", "unresolved_name"]}, "additionalProperties": {"type": "integer"}},
-    "hard_exclusion_kinds": {"type": "array", "items": {"enum": ["not_commander_legal", "outside_colour_identity", "already_in_list", "basic_land", "unresolved_name"]}},
-    "universe": {"type": "object", "properties": {
-      "size": {"type": "integer"}, "previous_m5_bound": {"const": 500}, "by_tier": {"type": "object"}, "by_test_tier": {"type": "object"},
-      "per_source": {"type": "object"}, "escalated": {"type": "integer"}, "file": {"type": "string"}, "sha256": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}},
-      "required": ["size", "previous_m5_bound", "by_tier", "by_test_tier", "per_source", "escalated", "file", "sha256"]},
-    "blind_spots": {"type": "array", "items": {"type": "string"}, "minItems": 1},
-    "runtime_seconds": {"type": ["number", "null"]}
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "saturation_certificate.schema.json",
+ "title": "Grixis step A saturation certificate (v2, Bot cycle 65.2)",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "schema_version",
+  "kind",
+  "generated_by",
+  "cycle",
+  "deck_id",
+  "slug",
+  "list_hash",
+  "snapshot",
+  "evidence_class",
+  "authority",
+  "stopping_rule",
+  "pool",
+  "passes",
+  "last_material_pass",
+  "saturated",
+  "hard_exclusions",
+  "hard_exclusion_kinds",
+  "universe",
+  "escalated_untested_queue",
+  "blind_spots",
+  "runtime_seconds"
+ ],
+ "properties": {
+  "schema_version": {
+   "const": 2
   },
-  "required": ["schema_version", "kind", "generated_by", "cycle", "deck_id", "slug", "list_hash", "snapshot", "evidence_class", "authority", "stopping_rule", "passes", "last_material_pass", "saturated", "hard_exclusions", "hard_exclusion_kinds", "universe", "blind_spots", "runtime_seconds"],
-  "additionalProperties": false
+  "kind": {
+   "const": "saturation_certificate"
+  },
+  "generated_by": {
+   "type": "string"
+  },
+  "cycle": {
+   "type": "string"
+  },
+  "deck_id": {
+   "type": "string"
+  },
+  "slug": {
+   "type": "string"
+  },
+  "list_hash": {
+   "type": "string",
+   "pattern": "^lh1:"
+  },
+  "snapshot": {
+   "type": "object",
+   "required": [
+    "id",
+    "inputs"
+   ]
+  },
+  "evidence_class": {
+   "const": "derived_metric"
+  },
+  "authority": {
+   "type": "object",
+   "required": [
+    "exploratory",
+    "can_decide"
+   ],
+   "properties": {
+    "exploratory": {
+     "const": true
+    },
+    "can_decide": {
+     "const": false
+    }
+   }
+  },
+  "stopping_rule": {
+   "type": "object",
+   "required": [
+    "material_k",
+    "material_score",
+    "stop_after_non_material",
+    "definition",
+    "test_tier_rule"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "material_k": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "material_score": {
+     "type": "number"
+    },
+    "stop_after_non_material": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "definition": {
+     "type": "string"
+    },
+    "test_tier_rule": {
+     "type": "string"
+    }
+   }
+  },
+  "pool": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "oracle_cards",
+    "eligible",
+    "sweep_coverage",
+    "added_by_sweep_without_signal",
+    "project_exceptions_admitted"
+   ],
+   "properties": {
+    "oracle_cards": {
+     "type": "integer"
+    },
+    "eligible": {
+     "type": "integer"
+    },
+    "sweep_coverage": {
+     "const": 1.0
+    },
+    "added_by_sweep_without_signal": {
+     "type": "integer"
+    },
+    "project_exceptions_admitted": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "passes": {
+   "type": "array",
+   "minItems": 2,
+   "items": {
+    "type": "object",
+    "required": [
+     "index",
+     "pass",
+     "kind",
+     "nominated",
+     "eligible_signalled",
+     "first_signal",
+     "first_signal_at_or_above_score",
+     "new_escalated",
+     "material",
+     "inputs"
+    ],
+    "properties": {
+     "kind": {
+      "enum": [
+       "signal",
+       "expansion",
+       "sweep"
+      ]
+     }
+    }
+   }
+  },
+  "last_material_pass": {
+   "type": [
+    "integer",
+    "null"
+   ]
+  },
+  "saturated": {
+   "const": true
+  },
+  "hard_exclusions": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "not_commander_legal": {
+     "type": "integer"
+    },
+    "outside_colour_identity": {
+     "type": "integer"
+    },
+    "already_in_list": {
+     "type": "integer"
+    },
+    "basic_land": {
+     "type": "integer"
+    },
+    "unresolved_name": {
+     "type": "integer"
+    }
+   }
+  },
+  "hard_exclusion_kinds": {
+   "type": "array",
+   "items": {
+    "enum": [
+     "not_commander_legal",
+     "outside_colour_identity",
+     "already_in_list",
+     "basic_land",
+     "unresolved_name"
+    ]
+   }
+  },
+  "universe": {
+   "type": "object",
+   "required": [
+    "size",
+    "previous_m5_bound",
+    "by_tier",
+    "by_test_tier",
+    "per_signal",
+    "escalated",
+    "by_escalation_reason",
+    "oracle_hook_specificity",
+    "paired_test_target",
+    "file",
+    "sha256"
+   ],
+   "properties": {
+    "previous_m5_bound": {
+     "const": 500
+    },
+    "sha256": {
+     "type": "string",
+     "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "by_test_tier": {
+     "type": "object",
+     "propertyNames": {
+      "enum": [
+       "paired_test",
+       "escalated_queued",
+       "screen_only"
+      ]
+     }
+    }
+   }
+  },
+  "escalated_untested_queue": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "card",
+     "priority",
+     "score",
+     "escalation"
+    ]
+   }
+  },
+  "blind_spots": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": [
+     "kind",
+     "note"
+    ]
+   }
+  },
+  "runtime_seconds": {
+   "type": "null"
+  }
+ }
 }

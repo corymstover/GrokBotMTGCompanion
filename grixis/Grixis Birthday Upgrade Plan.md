@@ -137,3 +137,41 @@ Implements decision D1. Code: `scripts/grixis_saturation.py`. Certificates: `dat
 - The paired-test budget at full scale is roughly 50–600 per deck.
 - Human-evidence and anomaly escalation are not wired in yet.
 - Integration into `grixis_candidates.py` (regenerating M5) is a later A batch.
+
+### Step A revision (Bot cycle 65.2, rulings on 65.1 open questions)
+
+- **No hidden discovery gate:**
+  - The 65.1 relevance filter (EDHREC rank ≤ 8000, hook or package type) is removed as a gate.
+  - A mandatory final **full-pool sweep** screens every eligible card and admits it to the universe. Eligible means Commander-legal or an authorized project exception, in colour identity, not in the list, and not a basic land.
+  - Earlier passes are **signal sources**: they attach provenance signals and escalation.
+  - Certificates record the pool size, sweep coverage (1.0) and per-signal counts.
+  - A signal pass is material if it gives a *first* signal to ≥ 3 cards scoring ≥ 25.0, or newly escalates a card. Stop after 2 non-material expansion rounds.
+- **Oracle hook specificity:**
+  - `commander_specific`: the hook label matches ≤ 2% of the eligible pool.
+  - `blueprint_package`: the card also fits a package.
+  - `generic`: everything else.
+  - Only the first two produce the oracle_text signal and the unusual-interaction escalation. Generic hooks still score.
+- **Passes fixed:**
+  - blueprint_package now uses package members not in the list, candidates and package-type matches.
+  - archetype_tech no longer requires a hook (≥ 3 other canonical lists).
+  - type_search is genuinely empty for 40 decks: package creature types are derived from members (≥ 40% sharing a subtype), and non-tribal packages have none.
+  - Tournament is empty for 51 decks, which is genuine; it is recorded in the pass inputs.
+- **Escalation reasons:**
+  - tier-A score
+  - dependency-graph alternative (audit alternative refs)
+  - Spellbook near-miss completion (infinite)
+  - package gap
+  - new card (hook and score ≥ 25)
+  - unusual Oracle interaction (commander-specific hook, no EDHREC row, package fit)
+  - anomaly (EDHREC part vs structural part disagree by ≥ 30)
+  - human evidence (card named in `blueprint_reviews.json`, `m1_corrections.json`, or the audit lint/M1 flags for the deck)
+  - tournament evidence
+- **Test tiers:** escalated cards are ranked by score + 5 × reasons. The first 250 (target, not cap) are `paired_test`; the overflow is `escalated_queued` and listed in `escalated_untested_queue` for later batches, never dropped.
+- **Unreleased cards** (first printing after 2026-10-16, not yet legal) stay excluded but are listed per deck as a blind spot with `legal_from` (93–95 per deck).
+
+**All 62 decks (65.2):**
+- Universe 18,453–18,469 eligible per deck (old bound: 500); 5,449–14,597 of those enter only through the sweep.
+- Tier A 11–97 (median 45); tier B 36–456 (median 112.5).
+- Escalated 42–492 (median 135.5). paired_test 42–250 (median 135.5; 34 decks below 150). 1,248 queued across 16 decks.
+- Every deck saturated, sweep coverage 1.0.
+- Runtime about 0.7–8 s per deck; 33 s wall with 6 workers.
