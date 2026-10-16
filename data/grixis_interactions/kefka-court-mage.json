@@ -1,0 +1,479 @@
+{
+ "schema": 1,
+ "deck_id": "Kefka__Court_Mage",
+ "slug": "kefka-court-mage",
+ "commanders": [
+  "Kefka, Court Mage // Kefka, Ruler of Ruin"
+ ],
+ "deck_sha256": "1bf9bb268230bdf1978b734b906a2d5ff44f0dd06ce8f400fc694f0f90348391",
+ "list_source": "exports/grixis-archidekt/source-baseline/kefka-court-mage.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 49,
+ "batch": "C",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+   "note": "17 interactions, all PASS (the Cursed Totem and Samut items refer to cards deliberately left out)"
+  }
+ ],
+ "summary": "Kefka, Court Mage makes everyone discard on enter and attack, and draws for each card type discarded. For {8} he transforms into Ruler of Ruin, which draws you a card for each point of life opponents lose on your turn. This review re-verifies the attestation. Six Spellbook lines (Oracle, Breach) are confirmed.\n\nRules surprises: single-faced clones can't transform (CR 701.27c), but Molten Duplication's token can; Saw in Half on your commander still makes tokens; discarding Anger to Kefka's own trigger gives same-turn haste. Re-reviewed in the same cycle against the M0 canonical project list (the source baseline: Final Fortune and Valley Floodcaller, not GrokBot's unapproved challenger swaps Liliana's Caress and Dauthi Voidwalker). No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "kefka-01",
+   "category": "commander",
+   "title": "Discard trigger counts card types, per trigger",
+   "cards": [
+    "Kefka, Court Mage"
+   ],
+   "ruling": "Each enter or attack trigger makes every player discard one card. Then you draw one card for each card type among the cards discarded by that trigger. Separate triggers count separately. Legendary, basic and snow are supertypes and don't count. Kindred and battle are card types.",
+   "short": "Draw = number of card types among that trigger's discards (supertypes don't count).",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "205.2a",
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Kefka, Court Mage",
+     "quote": "Whenever Kefka enters or attacks, each player discards a card. Then you draw a card for each card type among cards discarded this way."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Kefka, Court Mage",
+     "quote": "The card types in Magic include artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Hero and Saga are subtypes, not card types."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Kefka front-face enters/attacks trigger"
+    }
+   ]
+  },
+  {
+   "id": "kefka-02",
+   "category": "commander",
+   "title": "{8}: opponents' sacrifice is simultaneous, then Kefka transforms",
+   "cards": [
+    "Kefka, Court Mage"
+   ],
+   "ruling": "Sorcery speed only. In turn order, each opponent chooses a permanent, then all of them are sacrificed at once and Kefka transforms. Ruler of Ruin draws you as many cards as an opponent loses life during your turn. That turns combat damage and Orcish Bowmasters pings into card draw.",
+   "status": "verified",
+   "cr": [
+    "701.27a",
+    "101.4"
+   ],
+   "oracle": [
+    {
+     "card": "Kefka, Ruler of Ruin",
+     "quote": "Whenever an opponent loses life during your turn, you draw that many cards."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Kefka, Court Mage",
+     "quote": "While resolving Kefka, Court Mage's last ability, the next opponent in turn order chooses a permanent they control, then each other opponent in turn order does the same. Then each of the chosen permanents are sacrificed simultaneously."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Ruler of Ruin transformation and life-loss engine"
+    }
+   ]
+  },
+  {
+   "id": "kefka-03",
+   "category": "trigger-order",
+   "title": "Harmonic Prodigy doubles both faces",
+   "cards": [
+    "Kefka, Court Mage",
+    "Harmonic Prodigy"
+   ],
+   "ruling": "Both faces are Wizards, so Harmonic Prodigy doubles the front face's enter/attack trigger and Ruler of Ruin's draw trigger.",
+   "status": "verified",
+   "cr": [
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Harmonic Prodigy",
+     "quote": "If a triggered ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Harmonic Prodigy doubles both Kefka faces"
+    }
+   ]
+  },
+  {
+   "id": "kefka-04",
+   "category": "timing",
+   "title": "Haste: discard Anger to Kefka's own trigger, or use Arena of Glory",
+   "cards": [
+    "Kefka, Court Mage",
+    "Anger",
+    "Arena of Glory"
+   ],
+   "ruling": "If you discard Anger to Kefka's enter trigger and control a Mountain-typed land (Badlands, Blood Crypt, Steam Vents, Volcanic Island), Kefka has haste right away and can attack for a second trigger. Exerted Arena of Glory mana spent on Kefka also gives haste.",
+   "short": "Discard Anger to the ETB, then attack the same turn.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.10a",
+    "205.3i"
+   ],
+   "oracle": [
+    {
+     "card": "Anger",
+     "quote": "As long as this card is in your graveyard and you control a Mountain, creatures you control have haste."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Anger",
+     "quote": "The timestamp for the \"in your graveyard\" ability is set at the time that this card goes to your graveyard, regardless of whether you control a Mountain at that time."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Anger discarded to Kefka grants same-turn haste"
+    },
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Arena of Glory grants Kefka haste"
+    }
+   ]
+  },
+  {
+   "id": "kefka-05",
+   "category": "layers",
+   "title": "Gogo copies Kefka without the legend rule",
+   "cards": [
+    "Kefka, Court Mage",
+    "Gogo, Mysterious Mime"
+   ],
+   "ruling": "Gogo becomes a copy of Kefka but keeps its own name, so the legend rule doesn't apply. Both get +2/+0 and haste and must attack, so you get two attack triggers. Becoming a copy isn't entering, so no enter trigger. Gogo is single-faced, so it can't transform (see kefka-06).",
+   "status": "verified",
+   "cr": [
+    "707.9b",
+    "704.5j"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Gogo, Mysterious Mime",
+     "quote": "If Gogo copies a legendary creature, Gogo will also be legendary, but because its name remains Gogo, Mysterious Mime, the \"legend rule\" won't cause either of them to be put into the graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Gogo copying Kefka at beginning of combat"
+    }
+   ]
+  },
+  {
+   "id": "kefka-06",
+   "category": "layers",
+   "title": "Clones of Kefka: Image and Metamorph vs. Molten Duplication",
+   "cards": [
+    "Kefka, Court Mage",
+    "Phantasmal Image",
+    "Phyrexian Metamorph",
+    "Molten Duplication"
+   ],
+   "ruling": "Copying a double-faced permanent copies the face that's up. Phantasmal Image or Phyrexian Metamorph as Kefka gets an enter trigger, then the legend rule leaves one Kefka; the trigger still resolves. A single-faced clone told to transform does nothing. So a clone kept as Kefka can pay {8} for the opponents' sacrifice but stays front-face, and could repeat that on a later turn. A Molten Duplication token of Kefka is a double-faced token, so it could transform. It has haste, so you can keep it over the original, attack with it, and lose it at end step.",
+   "short": "Single-faced clones can't transform (701.27c); Molten Duplication's token is double-faced.",
+   "status": "verified",
+   "cr": [
+    "707.8",
+    "707.8a",
+    "701.27c",
+    "704.5j"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Kefka, Court Mage",
+     "quote": "A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Phantasmal Image and Phyrexian Metamorph copying Kefka"
+    },
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Molten Duplication on Kefka"
+    }
+   ]
+  },
+  {
+   "id": "kefka-07",
+   "category": "zone",
+   "title": "Saw in Half on your commander Kefka",
+   "cards": [
+    "Kefka, Court Mage",
+    "Saw in Half"
+   ],
+   "ruling": "Kefka really dies; the move to the command zone is a state-based action after Saw in Half resolves. So the dies-this-way condition holds and you get two token Kefkas. Both enter triggers fire, then the legend rule leaves one token. If you use a replacement that sends Kefka elsewhere instead of the graveyard, there are no tokens.",
+   "short": "Commander dies first, then optionally goes to the command zone, so Saw in Half still makes the tokens.",
+   "status": "verified",
+   "cr": [
+    "903.9a",
+    "704.5j",
+    "603.3"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Saw in Half",
+     "quote": "If the creature isn't destroyed (perhaps because it has indestructible), its controller doesn't create any tokens. The same is true if the creature is destroyed but instead of going to its owner's graveyard, a replacement effect moves it elsewhere, such as"
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Saw in Half on commander Kefka"
+    }
+   ]
+  },
+  {
+   "id": "kefka-08",
+   "category": "zone",
+   "title": "Blink re-triggers: Essence Flux and Displacer Kitten",
+   "cards": [
+    "Kefka, Court Mage",
+    "Essence Flux",
+    "Displacer Kitten"
+   ],
+   "ruling": "Exile-and-return makes a new front-face Kefka with a new enter trigger. Kitten does this on every noncreature spell. A transformed Kefka comes back front-face up.",
+   "status": "verified",
+   "cr": [
+    "400.7",
+    "712.14"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Displacer Kitten",
+     "quote": "When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Essence Flux and Displacer Kitten blink Kefka"
+    }
+   ]
+  },
+  {
+   "id": "kefka-09",
+   "category": "trigger-order",
+   "title": "Tinybones and Waste Not off Kefka's discards",
+   "cards": [
+    "Kefka, Court Mage",
+    "Tinybones, Bauble Burglar",
+    "Waste Not"
+   ],
+   "ruling": "Opponents' discards trigger Tinybones (exile with stash) and Waste Not. Those triggers go on the stack after Kefka's trigger finishes. Kefka has already counted the card types, so Tinybones exiling the cards changes nothing.",
+   "status": "verified",
+   "cr": [
+    "603.3",
+    "608.2"
+   ],
+   "oracle": [
+    {
+     "card": "Waste Not",
+     "quote": "Whenever an opponent discards a noncreature, nonland card, draw a card."
+    },
+    {
+     "card": "Tinybones, Bauble Burglar",
+     "quote": "Whenever an opponent discards a card, exile it from their graveyard with a stash counter on it."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Tinybones and Waste Not with Kefka discard"
+    }
+   ]
+  },
+  {
+   "id": "kefka-10",
+   "category": "replacement",
+   "title": "Demonic Counsel needs delirium to be a full tutor",
+   "cards": [
+    "Kefka, Court Mage",
+    "Demonic Counsel"
+   ],
+   "ruling": "Without delirium it only finds a Demon. With four or more card types in your graveyard, it finds any card, with no reveal. Kefka's discards help reach delirium.",
+   "status": "verified",
+   "cr": [
+    "207.2c",
+    "614.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Demonic Counsel",
+     "quote": "Delirium — If there are four or more card types among cards in your graveyard, instead search your library for any card, put it into your hand, then shuffle."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Demonic Counsel",
+     "quote": "In the case where Demonic Counsel's delirium ability allows you to search your library for any card, you won't have to reveal that card. (You could, but as your demonic counsel, I wouldn't advise it.)"
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Demonic Counsel delirium restriction"
+    }
+   ]
+  },
+  {
+   "id": "kefka-11",
+   "category": "combo",
+   "title": "Oracle and Breach finishes; protection notes",
+   "cards": [
+    "Kefka, Court Mage",
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze",
+    "Hexing Squelcher",
+    "Beseech the Mirror"
+   ],
+   "ruling": "Standard Oracle lines (100 distinct names) and Breach + LED + Brain Freeze. Hexing Squelcher makes your spells uncounterable but doesn't stop removal. Bargained Beseech casts during its own resolution. That's why Samut, whose split second would block it, isn't in the list.",
+   "status": "verified",
+   "cr": [
+    "121.4",
+    "702.138a",
+    "608.2g"
+   ],
+   "oracle": [],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "742-1295",
+     "quote": "Cast Demonic Consultation by paying {B}, naming Thassa's Oracle and thus exiling your library due to you not having a card named Thassa's Oracle in your library."
+    },
+    {
+     "id": "1368-3518-4856",
+     "quote": "You have at least six other cards in hand and/or graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Thassa's Oracle plus Demonic Consultation/Tainted Pact"
+    },
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Underworld Breach plus Lion's Eye Diamond plus Brain Freeze"
+    },
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Hexing Squelcher protection"
+    },
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Beseech the Mirror and rejected Samut split-second anti-synergy"
+    }
+   ]
+  },
+  {
+   "id": "kefka-12",
+   "category": "timing",
+   "title": "Valley Floodcaller: flash for noncreature spells, but no Kefka untap",
+   "cards": [
+    "Kefka, Court Mage",
+    "Valley Floodcaller"
+   ],
+   "ruling": "Floodcaller lets you cast noncreature spells at instant speed, including from other zones when something lets you cast them there. Its cast trigger only pumps and untaps Birds, Frogs, Otters and Rats. Kefka isn't one of those, so there's no untap or haste for him, and Floodcaller doesn't make the {8} sorcery-speed ability instant-speed. There's no Floodcaller infinite in this list.",
+   "status": "verified",
+   "cr": [
+    "702.8a",
+    "602.5d"
+   ],
+   "oracle": [
+    {
+     "card": "Valley Floodcaller",
+     "quote": "Whenever you cast a noncreature spell, Birds, Frogs, Otters, and Rats you control get +1/+1 until end of turn. Untap them."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Valley Floodcaller",
+     "quote": "Valley Floodcaller’s second ability has no effect on abilities that you can activate “any time you could cast a sorcery.”"
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Valley Floodcaller role and limits"
+    }
+   ]
+  },
+  {
+   "id": "kefka-13",
+   "category": "trigger-order",
+   "title": "Final Fortune: an extra Kefka turn that you must win",
+   "cards": [
+    "Kefka, Court Mage",
+    "Final Fortune"
+   ],
+   "ruling": "Final Fortune gives you an extra turn: another Kefka attack trigger, and with Ruler of Ruin, another turn of life-loss draws. You lose at that turn's end step unless you win first. The loss only applies if you actually take the extra turn.",
+   "status": "verified",
+   "cr": [
+    "500.7"
+   ],
+   "oracle": [
+    {
+     "card": "Final Fortune",
+     "quote": "Take an extra turn after this one. At the beginning of that turn's end step, you lose the game."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Final Fortune",
+     "quote": "If you end up skipping the extra turn that is gained, you do not lose the game."
+    }
+   ],
+   "evidence_class": "fact"
+  }
+ ]
+}

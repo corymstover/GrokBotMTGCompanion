@@ -53,7 +53,8 @@
      "card": "Be'lakor, the Dark Master",
      "quote": "The number of Demons you control is counted only as Be'lakor, the Dark Master's ability resolves."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "belakor-02",
@@ -88,7 +89,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "Be'lakor entering does not trigger its own Lord of Torment because that ability requires another Demon."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "belakor-03",
@@ -128,7 +130,8 @@
      "card": "Rite of Replication",
      "quote": "Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "belakor-04",
@@ -156,7 +159,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "`Spark Double` may enter as a copy of Be'lakor you control; its modification makes the copy nonlegendary and gives it an additional +1/+1 counter."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "belakor-05",
@@ -190,7 +194,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "`Roaming Throne` choosing Demon causes triggered abilities of another Demon creature you control to trigger an additional time"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "belakor-06",
@@ -223,7 +228,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "token / copy quantity alone does not bypass the different-name condition."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "belakor-07",
@@ -250,7 +256,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "`Heartless Summoning` power reduction is a real interaction cost because Be'lakor's Lord trigger uses the entering Demon's power"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "belakor-08",
@@ -278,7 +285,8 @@
      "card": "Sower of Discord",
      "quote": "Sower of Discord’s triggered ability causes the second player to lose life. This isn’t damage and it’s not caused by the source that dealt damage to the first player."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "belakor-09",
@@ -306,7 +314,8 @@
      "card": "Vilis, Broker of Blood",
      "quote": "If you pay life to cast a spell or activate an ability, you don't draw cards until after you've finished casting that spell or activating that ability."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "belakor-10",
@@ -335,7 +344,8 @@
      "card": "Reflections of Littjara",
      "quote": "The token that a resolving copy of a permanent spell becomes isn't \"created.\""
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "belakor-11",
@@ -361,7 +371,8 @@
      "quote": "{R}: You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice the creature at the beginning of the next end step."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "belakor-12",
@@ -382,7 +393,8 @@
      "quote": "Companion — Your starting deck contains only cards with even mana values."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "belakor-13",
@@ -406,7 +418,8 @@
      "quote": "Locus of Slaanesh — Demon spells you cast cost {2} less to cast."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   }
  ]
 }

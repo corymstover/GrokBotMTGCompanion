@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -483,6 +484,19 @@ The approved artifact is byte-identical to the exact SHA-bound candidate explici
 **Refinement summary**
 
 The current-cycle approval is a 49-card cEDH rebuild of the authoritative FINAL60 baseline. It restores the commander-specific Spellseeker / Scholar of the Ages line, retains the Bloodline Necromancer / Ruthless Technomancer Eminence loop and Apprentice Necromancer package, adds cEDH-grade turbo/tutor/reanimation infrastructure, and rebuilds the mana base for 100 unique names and Tainted Pact compatibility. Final red-team review removed Samut, Tyrant of Naktamun because its split-second static ability conflicts with Finale of Promise and bargained Beseech the Mirror casting during resolution; Thundertrap Trainer is the approved replacement.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 49 interaction review: **9 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Inalla, Archmage Ritualist — Interaction Review](../interactions/inalla-archmage-ritualist.md).
+
+- **Eminence works from the command zone, once per trigger** — Copies from the command zone too; one {1} per trigger; a zone change mid-trigger fizzles it. ([inalla-01](../interactions/inalla-archmage-ritualist.md#inalla-01-eminence-works-from-the-command-zone-once-per-trigger))
+- **Inalla + Bloodline Necromancer + Ruthless Technomancer** — Bloodline ↔ Ruthless with Inalla copies: unbounded Treasures and Wizards, then 7-life taps. ([inalla-03](../interactions/inalla-archmage-ritualist.md#inalla-03-inalla--bloodline-necromancer--ruthless-technomancer))
+- **Scholar of the Ages + a sacrifice ritual + Shallow Grave or Persist** — Scholar (MV 7) + Sacrifice/Burnt Offering/Culling + Persist/Shallow Grave = unbounded mana. ([inalla-04](../interactions/inalla-archmage-ritualist.md#inalla-04-scholar-of-the-ages--a-sacrifice-ritual--shallow-grave-or-persist))
+
+**Flags for later refinement** (no list change in this phase):
+- ⚠️ uncertain Spellseeker one-card line: Rebuilt multi-step line from the source attestation; no cached Spellbook variant confirms the whole sequence, so it stays a hypothesis. ([inalla-06](../interactions/inalla-archmage-ritualist.md#inalla-06-spellseeker-one-card-line))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

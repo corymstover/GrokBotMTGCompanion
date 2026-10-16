@@ -53,7 +53,8 @@
      "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
      "item": "Garza damage-and-death trigger scope"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "garza-02",
@@ -85,7 +86,8 @@
      "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
      "item": "Basilisk Collar plus Thornbite Staff"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "garza-03",
@@ -133,7 +135,8 @@
      "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
      "item": "Blade of the Bloodchief counter stacking"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "garza-04",
@@ -170,7 +173,8 @@
      "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
      "item": "Scythe of the Wretched with Garza-sourced mass damage"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "garza-05",
@@ -259,7 +263,8 @@
      "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
      "item": "Slip Out the Back and attached permanents"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "garza-07",
@@ -308,7 +313,8 @@
      "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
      "item": "Grafted Exoskeleton infect multipliers"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "garza-08",
@@ -436,7 +442,8 @@
      "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
      "item": "Curiosity retained over redundant combat-only draw"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "garza-11",
@@ -469,7 +476,8 @@
      "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
      "item": "The Ozolith and commander zone changes"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   }
  ]
 }

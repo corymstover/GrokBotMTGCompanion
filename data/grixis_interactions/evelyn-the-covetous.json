@@ -58,7 +58,8 @@
      "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
      "item": "Evelyn collection-counter permission across Evelyn objects"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "evelyn-02",
@@ -106,7 +107,8 @@
      "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
      "item": "Borne Upon a Wind and Valley Floodcaller timing"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "evelyn-03",
@@ -198,7 +200,8 @@
      "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
      "item": "Mandatory Worldgorger loop safety condition"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "evelyn-05",
@@ -455,7 +458,8 @@
      "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
      "item": "Party Thrasher with Evelyn exile casting"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   }
  ]
 }

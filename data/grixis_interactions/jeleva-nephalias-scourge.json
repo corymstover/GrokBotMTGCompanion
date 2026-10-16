@@ -1,0 +1,413 @@
+{
+ "schema": 1,
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "slug": "jeleva-nephalias-scourge",
+ "commanders": [
+  "Jeleva, Nephalia's Scourge"
+ ],
+ "deck_sha256": "900a09d494293665662756ef2be07998b9d86af42c2a23ea54900953f9f181af",
+ "list_source": "exports/grixis-archidekt/jeleva-nephalias-scourge.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 49,
+ "batch": "C",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+   "note": "17 interactions, all PASS"
+  }
+ ],
+ "summary": "Jeleva, Nephalia's Scourge exiles the top X cards of every library (X = mana spent, tax included). When she attacks, she casts an instant or sorcery from that pile for free. This review re-verifies all 17 attestation items. Seven Spellbook lines are confirmed (the Oracle, Doomsday and Breach lines).\n\nThe main rules surprises: the commander tax raises X; Greaves' shroud blocks Torch Courier; casting Jeleva after Doomsday exiles your own pile. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "jeleva-01",
+   "category": "commander",
+   "title": "X counts the mana actually spent, including commander tax",
+   "cards": [
+    "Jeleva, Nephalia's Scourge"
+   ],
+   "ruling": "Jeleva exiles X cards from each library, where X is the mana spent to cast her. Commander tax counts, so the first cast is X = 4, the second is X = 6, and so on. You can't overpay on purpose. If she enters without being cast, X = 0.",
+   "short": "X = mana spent including tax (4, 6, 8 …); not cast = X 0.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "903.8",
+    "601.2f"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Jeleva, Nephalia's Scourge",
+     "quote": "The amount of mana you spent to cast this creature is usually equal to its mana value. However, you also include any additional costs you pay, including the cost imposed for casting your commander from the command zone."
+    },
+    {
+     "card": "Jeleva, Nephalia's Scourge",
+     "quote": "If Jeleva enters the battlefield without being cast, then no mana was spent to cast it. This means X will be 0, so no cards will be exiled."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Jeleva ETB uses actual mana spent including commander tax"
+    }
+   ]
+  },
+  {
+   "id": "jeleva-02",
+   "category": "zone",
+   "title": "Each Jeleva object only knows its own exiled cards",
+   "cards": [
+    "Jeleva, Nephalia's Scourge"
+   ],
+   "ruling": "If Jeleva leaves the battlefield, the cards she exiled stay exiled for good. A re-cast Jeleva is a new object, so she can only cast from her own new exile pile.",
+   "status": "verified",
+   "cr": [
+    "607.2a",
+    "400.7"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Jeleva, Nephalia's Scourge",
+     "quote": "If Jeleva leaves the battlefield, the exiled cards will remain exiled indefinitely. If Jeleva enters the battlefield again, it won't be associated with the cards the \"other\" Jeleva exiled. The new Jeleva will exile a new set of cards. Only those cards can be cast using Jeleva's last ability."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Each Jeleva object tracks only its own exiled cards"
+    }
+   ]
+  },
+  {
+   "id": "jeleva-03",
+   "category": "timing",
+   "title": "The attack-trigger cast happens during resolution, before blockers",
+   "cards": [
+    "Jeleva, Nephalia's Scourge"
+   ],
+   "ruling": "You cast the spell while the attack trigger resolves, or you lose the chance. Type-based timing is ignored, so sorceries are fine, but you can't pick alternative costs like overload. You can pay additional costs, and X is 0.",
+   "status": "verified",
+   "cr": [
+    "608.2g",
+    "118.9"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Jeleva, Nephalia's Scourge",
+     "quote": "If you cast an instant or sorcery card using Jeleva's last ability, you do so while that ability is resolving. If you choose not to (or you can't), you won't get a chance to cast it later unless the ability triggers again."
+    },
+    {
+     "card": "Jeleva, Nephalia's Scourge",
+     "quote": "When casting an instant or sorcery card this way, ignore all timing restrictions based on the card's type. Other timing restrictions, such as \"Cast [this spell] only during combat,\" must be followed."
+    },
+    {
+     "card": "Jeleva, Nephalia's Scourge",
+     "quote": "The card is cast before blocking creatures are declared."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Jeleva casts during attack-trigger resolution"
+    }
+   ]
+  },
+  {
+   "id": "jeleva-04",
+   "category": "trigger-order",
+   "title": "Harmonic Prodigy doubles both Jeleva triggers",
+   "cards": [
+    "Jeleva, Nephalia's Scourge",
+    "Harmonic Prodigy"
+   ],
+   "ruling": "Jeleva is a Wizard, so Harmonic Prodigy makes her ETB trigger twice (two exiles of X each) and her attack trigger twice (two free casts). The same card can't be cast twice, because the first cast takes it out of exile.",
+   "short": "Prodigy: two exiles, two free casts.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "oracle": [
+    {
+     "card": "Harmonic Prodigy",
+     "quote": "If a triggered ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Harmonic Prodigy doubles Jeleva ETB and attack triggers"
+    }
+   ]
+  },
+  {
+   "id": "jeleva-05",
+   "category": "engine",
+   "title": "Staging the top of the library for Jeleva's exile",
+   "cards": [
+    "Jeleva, Nephalia's Scourge",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Mystical Tutor",
+    "Personal Tutor",
+    "Long-Term Plans",
+    "Scheming Symmetry",
+    "Brainstorm",
+    "Scroll Rack"
+   ],
+   "ruling": "Top-deck tutors, Brainstorm and Scroll Rack put a chosen spell on top. Long-Term Plans puts it third, which X = 4 still reaches. Then Jeleva's ETB exiles it for a free cast on attack. Scheming Symmetry also stages a card on an opponent's library, and Jeleva exiles that one too. This is setup, not protected: a shuffle, draw or mill before the ETB resolves breaks it.",
+   "status": "verified",
+   "cr": [
+    "401.2",
+    "701.24a"
+   ],
+   "oracle": [
+    {
+     "card": "Long-Term Plans",
+     "quote": "Search your library for a card, then shuffle and put that card third from the top."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Top-deck tutors deliberately stage Jeleva exile targets"
+    },
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Long-Term Plans third-from-top setup"
+    },
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Scheming Symmetry becomes Jeleva setup and potential denial"
+    },
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Brainstorm and Scroll Rack convert hand cards into Jeleva targets"
+    }
+   ]
+  },
+  {
+   "id": "jeleva-06",
+   "category": "timing",
+   "title": "Haste package; Greaves' shroud blocks Torch Courier",
+   "cards": [
+    "Jeleva, Nephalia's Scourge",
+    "Arena of Glory",
+    "Torch Courier",
+    "Lightning Greaves"
+   ],
+   "ruling": "Exerted Arena of Glory mana spent on Jeleva gives her haste. Torch Courier can sacrifice to give her haste, and so can equipping Lightning Greaves. Sequence these: once Greaves gives Jeleva shroud, Torch Courier can't target her.",
+   "status": "verified",
+   "cr": [
+    "702.10a",
+    "702.18a"
+   ],
+   "oracle": [
+    {
+     "card": "Arena of Glory",
+     "quote": "{R}, {T}, Exert this land: Add {R}{R}. If any of that mana is spent on a creature spell, it gains haste until end of turn."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Arena of Glory",
+     "quote": "If mana generated with Arena of Glory's last ability is spent to pay any part of a creature spell's cost, including an alternative or additional cost, that creature spell (and the resulting creature) will gain haste until end of turn."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Immediate-attack package: Arena of Glory, Torch Courier, Lightning Greaves"
+    }
+   ]
+  },
+  {
+   "id": "jeleva-07",
+   "category": "trigger-order",
+   "title": "Free-cast payoffs: Mind's Desire storm, Final Fortune, Peer into the Abyss",
+   "cards": [
+    "Jeleva, Nephalia's Scourge",
+    "Mind's Desire",
+    "Final Fortune",
+    "Peer into the Abyss"
+   ],
+   "ruling": "Casting through Jeleva is still casting, so Mind's Desire's storm triggers and counts every spell cast earlier that turn. Final Fortune's extra turn still ends with you losing unless you win first. A skipped extra turn doesn't cause the loss. Peer into the Abyss is a seven-mana spell you cast for free.",
+   "status": "verified",
+   "cr": [
+    "702.40a",
+    "500.7",
+    "107.1a"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Mind's Desire",
+     "quote": "Spells cast from zones other than a player's hand and spells that were countered are counted by the storm ability."
+    },
+    {
+     "card": "Final Fortune",
+     "quote": "If you end up skipping the extra turn that is gained, you do not lose the game."
+    },
+    {
+     "card": "Peer into the Abyss",
+     "quote": "The life lost is rounded up, not the remaining life total. For example, if the target player has 7 life, they lose 4 life and end up with 3. Similarly, the number of cards drawn is rounded up, not the number of cards remaining in the library."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Mind's Desire cast through Jeleva still has storm"
+    },
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Final Fortune extra-turn risk"
+    },
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Peer into the Abyss free-cast target"
+    }
+   ]
+  },
+  {
+   "id": "jeleva-08",
+   "category": "combo",
+   "title": "Oracle lines and Doomsday; don't cast Jeleva onto your own pile",
+   "cards": [
+    "Jeleva, Nephalia's Scourge",
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact",
+    "Doomsday"
+   ],
+   "ruling": "Consultation or Tainted Pact with Oracle works: the list has 100 distinct names. Doomsday + Oracle needs at least 2 life and devotion to blue of at least three. Sequencing trap: once a Doomsday pile is built, casting Jeleva exiles X cards (4+) of it from the top of your own library. Jeleva can cast Doomsday from her exile, though.",
+   "status": "verified",
+   "cr": [
+    "121.4",
+    "608.2g"
+   ],
+   "oracle": [],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1295-3189",
+     "quote": "You have at least three devotion to blue."
+    },
+    {
+     "id": "742-1295",
+     "quote": "Cast Demonic Consultation by paying {B}, naming Thassa's Oracle and thus exiling your library due to you not having a card named Thassa's Oracle in your library."
+    },
+    {
+     "id": "1295-3093",
+     "quote": "No two cards in library share a name."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Thassa's Oracle plus Demonic Consultation"
+    },
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Thassa's Oracle plus Tainted Pact and singleton structure"
+    },
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Doomsday role is supported without asserting an undocumented fixed pile"
+    }
+   ]
+  },
+  {
+   "id": "jeleva-09",
+   "category": "combo",
+   "title": "Breach lines: LED + Brain Freeze, Wheel + Jeska's Will",
+   "cards": [
+    "Jeleva, Nephalia's Scourge",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze",
+    "Wheel of Fortune",
+    "Jeska's Will",
+    "Lotus Petal"
+   ],
+   "ruling": "Breach escapes LED and Brain Freeze to mill yourself into an Oracle finish. Jeska's Will + Wheel loops off an opponent's six-card hand. Jeska's Will gets both modes because you control Jeleva, or any commander.",
+   "status": "verified",
+   "cr": [
+    "702.138a"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Jeska's Will",
+     "quote": "Even though the card is named after a specific character, controlling any commander will satisfy its condition."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1368-1878-2706",
+     "quote": "An opponent has at least six cards in hand."
+    },
+    {
+     "id": "1368-3518-4856",
+     "quote": "You have at least six other cards in hand and/or graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Underworld Breach plus Lion's Eye Diamond plus Brain Freeze"
+    }
+   ]
+  },
+  {
+   "id": "jeleva-10",
+   "category": "replacement",
+   "title": "Hexing Squelcher's protection scope",
+   "cards": [
+    "Jeleva, Nephalia's Scourge",
+    "Hexing Squelcher"
+   ],
+   "ruling": "Hexing Squelcher makes your spells uncounterable and gives your other creatures ward (pay 2 life). It doesn't protect Jeleva's triggered abilities, or stop removal that isn't a counterspell (though removal targeting Jeleva costs that player 2 life).",
+   "status": "verified",
+   "cr": [
+    "702.21a",
+    "101.2"
+   ],
+   "oracle": [
+    {
+     "card": "Hexing Squelcher",
+     "quote": "Spells you control can't be countered."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json",
+     "item": "Hexing Squelcher protection scope"
+    }
+   ]
+  }
+ ]
+}

@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -539,6 +540,16 @@ The mandatory whole-list audit, contemporary cEDH ceiling review, candidate exha
 - Complete gate: `refinement/verification/kess_dissident_mage_2026-10-14/gate_output/Kess_Dissident_Mage_2026-10-14_Complete_Gate.json`
 
 The approved list is the exact candidate bound to SHA-256 `93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb` and must remain locked unless the user explicitly reopens it.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 49 interaction review: **9 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Kess, Dissident Mage — Interaction Review](../interactions/kess-dissident-mage.md).
+
+- **One graveyard cast per your turn, at normal timing** — Once per own turn; normal timing; flashback doesn't use it up. ([kess-01](../interactions/kess-dissident-mage.md#kess-01-one-graveyard-cast-per-your-turn-at-normal-timing))
+- **A new Kess object resets the permission (Displacer Kitten)** — Kitten blink = another graveyard cast this turn. ([kess-02](../interactions/kess-dissident-mage.md#kess-02-a-new-kess-object-resets-the-permission-displacer-kitten))
+- **Kess turns one tutor into both halves of the Oracle combo** — Consultation/Pact twice: once to find Oracle, once via Kess to win. ([kess-03](../interactions/kess-dissident-mage.md#kess-03-kess-turns-one-tutor-into-both-halves-of-the-oracle-combo))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

@@ -59,7 +59,8 @@
      "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
      "item": "Cormela restricted mana"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "cormela-02",
@@ -84,7 +85,8 @@
      "quote": "Return the top creature card of your graveyard to the battlefield."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "cormela-03",
@@ -124,7 +126,8 @@
      "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
      "item": "Cormela + Saw in Half recursion engine"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "cormela-04",
@@ -164,7 +167,8 @@
      "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
      "item": "Cormela + Shallow Grave + Ashnod's Altar / Phyrexian Altar"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "cormela-05",
@@ -194,7 +198,8 @@
      "card": "Demonic Gifts",
      "quote": "The reanimating effect of Demonic Gifts works only once. Once the creature dies and returns to the battlefield, it’s a new object with no relation to the creature it was."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "cormela-06",
@@ -229,7 +234,8 @@
      "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
      "item": "Dualcaster Mage + Molten Duplication"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "cormela-07",
@@ -270,7 +276,8 @@
      "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
      "item": "Thassa's Oracle + Tainted Pact"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "cormela-08",
@@ -307,7 +314,8 @@
      "card": "Brain Freeze",
      "quote": "Spells cast from zones other than a player's hand and spells that were countered are counted by the storm ability."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "cormela-09",
@@ -336,7 +344,8 @@
      "card": "Orcish Bowmasters",
      "quote": "If a spell or ability causes an opponent to put cards into their hand without specifically using the word \"draw,\" it's not a card drawn."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "cormela-10",
@@ -356,7 +365,8 @@
      "quote": "Haste"
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   }
  ]
 }

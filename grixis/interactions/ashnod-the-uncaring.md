@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/ashnod-the-uncaring.txt`](../../exports/grixis-archidekt/ashnod-the-uncaring.txt) · SHA-256 `b96f2d08a8659c3e51611c2203ca4599c4c606f927280f1b7515abb96385ce39` |
+| Canonical project list | [`exports/grixis-archidekt/ashnod-the-uncaring.txt`](../../exports/grixis-archidekt/ashnod-the-uncaring.txt) · SHA-256 `b96f2d08a8659c3e51611c2203ca4599c4c606f927280f1b7515abb96385ce39` |
 | Rulings | **12** (10 verified · 0 uncertain · 2 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (Ashnod the Uncaring — RULES PASS WITH DOCUMENTATION CORRECTION) · [`Ashnod_Oracle_Correction_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Ashnod_Oracle_Correction_2026-10-14.md) () |
@@ -48,7 +48,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### ashnod-01: Current Oracle: no once-per-turn limit, tokens count
 
-**Status:** 🚩 list flag · **Cards:** Ashnod the Uncaring
+**Status:** 🚩 list flag · **Evidence:** fact · **Cards:** Ashnod the Uncaring
 
 **Ruling.** Ashnod copies any non-mana activated ability of an artifact or creature whose cost included sacrificing one or more permanents. The copy is free and may get new targets. There is no once-per-turn limit. The sacrificed permanent can be a token (Clue, Treasure, Servo). The source repo's older notes assumed a once-per-turn, nontoken version; the retrospective corrected that.
 
@@ -62,7 +62,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### ashnod-02: Mana abilities and resolution-time sacrifices don't count
 
-**Status:** ✅ verified · **Cards:** Ashnod the Uncaring, Ashnod's Altar, Krark-Clan Ironworks, Lotus Petal, Goblin Welder
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashnod the Uncaring, Ashnod's Altar, Krark-Clan Ironworks, Lotus Petal, Goblin Welder
 
 **Ruling.** Ashnod's Altar, Krark-Clan Ironworks, Lotus Petal and Treasures are mana abilities, so they're never copied. Sacrificing a Treasure *for the mana* to pay a cost doesn't count either. Goblin Welder's sacrifice happens on resolution, not as a cost, so Ashnod doesn't copy it.
 
@@ -77,7 +77,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### ashnod-08: Scrap Trawler + Myr Retriever + Altar or KCI + a cost reducer
 
-**Status:** 🚩 list flag · **Cards:** Ashnod the Uncaring, Scrap Trawler, Myr Retriever, Ashnod's Altar, Krark-Clan Ironworks, Etherium Sculptor, Enthusiastic Mechanaut, Foundry Inspector
+**Status:** 🚩 list flag · **Evidence:** fact · **Cards:** Ashnod the Uncaring, Scrap Trawler, Myr Retriever, Ashnod's Altar, Krark-Clan Ironworks, Etherium Sculptor, Enthusiastic Mechanaut, Foundry Inspector
 
 **Ruling.** Spellbook's line (for example 1020-1976-2034-2866, cached) is *sequential*. It starts with one artifact creature on the battlefield and the other in the graveyard:
 1. Sacrifice Myr Retriever for {C}{C}; its trigger returns Scrap Trawler to hand. Cast Trawler (reduced).
@@ -99,7 +99,7 @@ Correction: the batch-A version of this entry said both had to be sacrificed dur
 
 ### ashnod-09: Nim Deathmantle loops (Apprentice, Urza, Farid)
 
-**Status:** ✅ verified · **Cards:** Ashnod the Uncaring, Nim Deathmantle, Ashnod's Altar, Marionette Apprentice, Urza, Lord High Artificer, Farid, Enterprising Salvager, Krark-Clan Ironworks
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashnod the Uncaring, Nim Deathmantle, Ashnod's Altar, Marionette Apprentice, Urza, Lord High Artificer, Farid, Enterprising Salvager, Krark-Clan Ironworks
 
 **Ruling.** Spellbook's lines (cached) all pay {4} to Nim Deathmantle from altar mana. The Altar is a mana ability, so Ashnod doesn't copy it.
 - **Marionette Apprentice (2034-5003-6199):** sacrifice Apprentice ({C}{C}), return it with Deathmantle, sacrifice the Servo from its fabricate ({C}{C}). Each death drains opponents.
@@ -115,7 +115,7 @@ Correction: the batch-A version of this entry said both had to be sacrificed dur
 
 ### ashnod-10: Dross Scorpion + Retrofitter Foundry + Altar or KCI
 
-**Status:** ✅ verified · **Cards:** Ashnod the Uncaring, Dross Scorpion, Retrofitter Foundry, Ashnod's Altar, Krark-Clan Ironworks
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashnod the Uncaring, Dross Scorpion, Retrofitter Foundry, Ashnod's Altar, Krark-Clan Ironworks
 
 **Ruling.** Retrofitter Foundry makes a Servo for {2}, {T}. Sacrificing that Servo (an artifact creature) to the Altar gives {C}{C}, and Dross Scorpion untaps Foundry. Repeating this is mana-neutral and gives unlimited death and enter/leave triggers (Marionette Apprentice, Disciple of the Vault drains). Foundry's Thopter and Construct modes sacrifice tokens to activate, so Ashnod copies those (a second Thopter or Construct).
 
@@ -129,7 +129,7 @@ Correction: the batch-A version of this entry said both had to be sacrificed dur
 
 ### ashnod-03: Sacrifice-cost artifacts become two-for-one
 
-**Status:** ✅ verified · **Cards:** Ashnod the Uncaring, Mishra's Bauble, Wayfarer's Bauble, Moonsilver Key, Pyrite Spellbomb, Executioner's Capsule, Mind Stone, Mnemonic Sphere, Dross Skullbomb, Dockside Chef
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashnod the Uncaring, Mishra's Bauble, Wayfarer's Bauble, Moonsilver Key, Pyrite Spellbomb, Executioner's Capsule, Mind Stone, Mnemonic Sphere, Dross Skullbomb, Dockside Chef
 
 **Ruling.** Each of these sacrifices itself (or another permanent) as a cost, so Ashnod copies the ability:
 - Bauble: two delayed draws.
@@ -147,7 +147,7 @@ The copy keeps the original's targets unless you change them.
 
 ### ashnod-11: Leave-the-battlefield payoffs
 
-**Status:** ✅ verified · **Cards:** Ashnod the Uncaring, Oni-Cult Anvil, Disciple of the Vault, Marionette Apprentice, Mayhem Devil, Esoteric Duplicator
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashnod the Uncaring, Oni-Cult Anvil, Disciple of the Vault, Marionette Apprentice, Mayhem Devil, Esoteric Duplicator
 
 **Ruling.** - **Oni-Cult Anvil:** its {T}, sacrifice ability is copied by Ashnod. Its Construct trigger happens once per turn, on your turn only.
 - **Disciple of the Vault and Marionette Apprentice:** trigger on artifacts (tokens included) going to the graveyard.
@@ -163,7 +163,7 @@ The copy keeps the original's targets unless you change them.
 
 ### ashnod-04: Time Sieve copied: two extra turns
 
-**Status:** ✅ verified · **Cards:** Ashnod the Uncaring, Time Sieve
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashnod the Uncaring, Time Sieve
 
 **Ruling.** Time Sieve's ability sacrifices five artifacts (it can be one of them), so Ashnod copies it: you take two extra turns. If Time Sieve itself was sacrificed, the copy still resolves. Abilities exist independently of their source.
 
@@ -176,7 +176,7 @@ The copy keeps the original's targets unless you change them.
 
 ### ashnod-05: Copies use the original's sacrificed-object information
 
-**Status:** ✅ verified · **Cards:** Ashnod the Uncaring, Repurposing Bay, Altar of Dementia, Kuldotha Forgemaster
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashnod the Uncaring, Repurposing Bay, Altar of Dementia, Kuldotha Forgemaster
 
 **Ruling.** A copied ability copies the decisions made for it, including costs paid. The copy of Repurposing Bay looks for MV 1 + the sacrificed artifact's MV, and the copy of Altar of Dementia mills equal to the sacrificed creature's power, without a new sacrifice. Kuldotha Forgemaster's copy fetches a second artifact. A mana value with X counts X as 0.
 
@@ -188,7 +188,7 @@ The copy keeps the original's targets unless you change them.
 
 ### ashnod-07: Clan Crafter on Ashnod
 
-**Status:** ✅ verified · **Cards:** Ashnod the Uncaring, Clan Crafter
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashnod the Uncaring, Clan Crafter
 
 **Ruling.** Clan Crafter is a Background in the 99, cast as a normal enchantment. Ashnod has no Choose a Background, so it isn't a second commander. It gives commander creatures you own '{2}, Sacrifice an artifact: +1/+1 counter and draw'. That's an activated ability of a creature with a sacrifice cost, so Ashnod copies it: two counters, two cards.
 
@@ -201,7 +201,7 @@ The copy keeps the original's targets unless you change them.
 
 ### ashnod-06: Rings of Brighthearth and Ashnod both copy
 
-**Status:** ✅ verified · **Cards:** Ashnod the Uncaring, Rings of Brighthearth
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashnod the Uncaring, Rings of Brighthearth
 
 **Ruling.** Rings ({2} for any non-mana ability) and Ashnod trigger separately on the same activation, and you order the triggers. Each makes one copy. Copies aren't activated, so they don't retrigger either card. If Rings was sacrificed to pay the cost, its trigger doesn't happen.
 
@@ -215,7 +215,7 @@ The copy keeps the original's targets unless you change them.
 
 ### ashnod-12: Commander tax and Ashnod's deathtouch
 
-**Status:** ✅ verified · **Cards:** Ashnod the Uncaring, Blasting Station, Walking Ballista
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashnod the Uncaring, Blasting Station, Walking Ballista
 
 **Ruling.** Ashnod costs {2}{U}{B}{R}, then 7, then 9. Deathtouch applies only to damage Ashnod deals itself. Blasting Station's and Walking Ballista's pings come from those sources. Walking Ballista's counter removal isn't a sacrifice, so Ashnod doesn't copy it. Blasting Station's sacrifice ability is copied (an extra point of damage).
 

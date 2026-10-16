@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/dr-eggman.txt`](../../exports/grixis-archidekt/dr-eggman.txt) · SHA-256 `7110223f41570f87c3e5aa879cb46f2727ab94c43f96163cd861f2561882744a` |
+| Canonical project list | [`exports/grixis-archidekt/dr-eggman.txt`](../../exports/grixis-archidekt/dr-eggman.txt) · SHA-256 `7110223f41570f87c3e5aa879cb46f2727ab94c43f96163cd861f2561882744a` |
 | Rulings | **10** (10 verified · 0 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Dr_Eggman_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json) (17 interactions, all PASS) |
@@ -38,7 +38,7 @@ Key rules: empty-handed opponents can choose 'discard' at no cost, Eggman's plac
 
 ### eggman-01: Opponents choose one at a time, in turn order
 
-**Status:** ✅ verified · **Cards:** Dr. Eggman
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Dr. Eggman
 
 **Ruling.** Eggman's trigger draws you a card first. Then each opponent, one at a time in APNAP order, picks an option and it's carried out before the next opponent chooses. Later opponents see any Construct, Robot or Vehicle already put onto the battlefield.
 
@@ -50,7 +50,7 @@ Key rules: empty-handed opponents can choose 'discard' at no cost, Eggman's plac
 
 ### eggman-02: An empty-handed opponent can choose to discard and lose nothing
 
-**Status:** ✅ verified · **Cards:** Dr. Eggman, Tinybones, Bauble Burglar
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Dr. Eggman, Tinybones, Bauble Burglar
 
 **Ruling.** A player facing a villainous choice may pick an impossible option and do as much as possible. An opponent with no cards in hand can choose 'discard' and nothing happens. There's no fallback that forces the other option. Eggman's own placement is also a 'may'. Tinybones only triggers on an actual discard, so it gets nothing from an empty-handed 'discard' choice.
 
@@ -65,7 +65,7 @@ Key rules: empty-handed opponents can choose 'discard' at no cost, Eggman's plac
 
 ### eggman-09: Construct, Robot and Vehicle supply
 
-**Status:** ✅ verified · **Cards:** Dr. Eggman, Scrapyard Recombiner, Master Transmuter, Ultron, Artificial Malevolence
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Dr. Eggman, Scrapyard Recombiner, Master Transmuter, Ultron, Artificial Malevolence
 
 **Ruling.** Scrapyard Recombiner is a Construct (a legal Eggman placement) and tutors Constructs to hand; it can sacrifice itself to pay its own cost. Master Transmuter returns an artifact to pay its cost and puts one from hand onto the battlefield; it can be the same card, which returns as a new object. Ultron, Artificial Malevolence can copy any nontoken artifact that enters, including one Eggman placed, for {2}; a noncreature copy becomes a 2/2 Robot.
 
@@ -82,7 +82,7 @@ Key rules: empty-handed opponents can choose 'discard' at no cost, Eggman's plac
 
 ### eggman-10: One with the Machine counts on resolution
 
-**Status:** ✅ verified · **Cards:** Dr. Eggman, One with the Machine
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Dr. Eggman, One with the Machine
 
 **Ruling.** One with the Machine draws equal to the highest mana value among your artifacts, checked as it resolves. A big artifact Eggman put out raises it. {X} in a permanent's mana cost counts as 0.
 
@@ -97,7 +97,7 @@ Key rules: empty-handed opponents can choose 'discard' at no cost, Eggman's plac
 
 ### eggman-06: Y'shtola Rhul's extra end step retriggers Eggman
 
-**Status:** ✅ verified · **Cards:** Dr. Eggman, Y'shtola Rhul
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Dr. Eggman, Y'shtola Rhul
 
 **Ruling.** If Y'shtola's ability resolves during the first end step, there's an additional end step and every 'beginning of your end step' trigger fires again. If its only target is illegal on resolution, nothing happens, so there's no extra step. Several Y'shtola triggers in the first end step (including a Spark Double copy) each add an extra step. Ones triggering in the extra steps don't, because it's no longer the first end step. Damage and 'until end of turn' effects last until cleanup, after the last end step.
 
@@ -115,7 +115,7 @@ Key rules: empty-handed opponents can choose 'discard' at no cost, Eggman's plac
 
 ### eggman-04: The Valeyard makes each opponent choose twice
 
-**Status:** ✅ verified · **Cards:** Dr. Eggman, The Valeyard, Davros, Dalek Creator
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Dr. Eggman, The Valeyard, Davros, Dalek Creator
 
 **Ruling.** The Valeyard replaces 'face a villainous choice' with facing it an additional time. Each instance is chosen and performed separately, and the choices can differ. This works for Davros's end-step villainous choice too.
 
@@ -129,7 +129,7 @@ Key rules: empty-handed opponents can choose 'discard' at no cost, Eggman's plac
 
 ### eggman-05: Extra Eggman triggers: Roaming Throne, Spark Double, Strionic Resonator
 
-**Status:** ✅ verified · **Cards:** Dr. Eggman, Roaming Throne, Spark Double, Strionic Resonator
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Dr. Eggman, Roaming Throne, Spark Double, Strionic Resonator
 
 **Ruling.** Eggman is a Human Scientist. Roaming Throne naming Scientist makes his trigger trigger again; that's not a copy, and Davros (also a Scientist) benefits too. Spark Double copies him as a nonlegendary creature with its own trigger. Strionic Resonator copies the trigger on the stack. Each instance resolves fully: one draw and a new round of choices.
 
@@ -144,7 +144,7 @@ Key rules: empty-handed opponents can choose 'discard' at no cost, Eggman's plac
 
 ### eggman-08: Thopter Fabricator triggers only on the second draw
 
-**Status:** ✅ verified · **Cards:** Dr. Eggman, Thopter Fabricator
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Dr. Eggman, Thopter Fabricator
 
 **Ruling.** On a normal turn your draw step is the first card, and Eggman's end-step draw is the second, so it makes one Thopter. Extra Eggman draws later that turn are the third and beyond and don't trigger Fabricator.
 
@@ -158,7 +158,7 @@ Key rules: empty-handed opponents can choose 'discard' at no cost, Eggman's plac
 
 ### eggman-03: Eggman's placement isn't a cast
 
-**Status:** ✅ verified · **Cards:** Dr. Eggman, Vision, Spectral Synthezoid, Mechan Assembler, Weapons Manufacturing, Simulacrum Synthesizer
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Dr. Eggman, Vision, Spectral Synthezoid, Mechan Assembler, Weapons Manufacturing, Simulacrum Synthesizer
 
 **Ruling.** The card goes from hand directly to the battlefield, so cast triggers don't happen, but every 'enters' trigger does: Mechan Assembler (once per turn), Weapons Manufacturing (nontoken artifact), Simulacrum Synthesizer (artifact with MV 3+). Vision's free spell is a real cast, so cast triggers apply to it.
 
@@ -172,7 +172,7 @@ Key rules: empty-handed opponents can choose 'discard' at no cost, Eggman's plac
 
 ### eggman-07: Blinking Eggman with Y'shtola doesn't cancel the trigger already on the stack
 
-**Status:** ✅ verified · **Cards:** Dr. Eggman, Y'shtola Rhul
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Dr. Eggman, Y'shtola Rhul
 
 **Ruling.** Triggered abilities exist independently of their source. Blink Eggman in response to his end-step trigger and that trigger still resolves. The returned Eggman is a new object, and it triggers again in the extra end step.
 

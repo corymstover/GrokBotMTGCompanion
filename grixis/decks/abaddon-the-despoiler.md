@@ -642,7 +642,7 @@ Because the global restart explicitly revoked all historical approvals, the prio
 <!-- INTERACTIONS:START -->
 ## Rules notes
 
-> Bot cycle 46 interaction review: **28 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Abaddon the Despoiler — Interaction Review](../interactions/abaddon-the-despoiler.md).
+> Bot cycle 46 interaction review: **29 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Abaddon the Despoiler — Interaction Review](../interactions/abaddon-the-despoiler.md).
 
 - **Abaddon's threshold counts life opponents actually lost this turn** — X = total life opponents lost this turn (damage counts; your own life payments don't). ([abaddon-01](../interactions/abaddon-the-despoiler.md#abaddon-01-abaddons-threshold-counts-life-opponents-actually-lost-this-turn))
 - **Only spells cast from your hand, during your turn, get cascade** — Hand-cast spells on your turn only; exile, graveyard and command-zone casts never get the grant. ([abaddon-02](../interactions/abaddon-the-despoiler.md#abaddon-02-only-spells-cast-from-your-hand-during-your-turn-get-cascade))
@@ -659,7 +659,6 @@ Because the global restart explicitly revoked all historical approvals, the prio
 - 🚩 list flag A stacked top card is exposed to every later cascade on your turn: Sequencing hazard, not a list error. Top-of-library tutors and Abaddon's mandatory cascade compete on your own turn. Pilot note: draw the tutored card first, or tutor on an opponent's end step. ([abaddon-06](../interactions/abaddon-the-despoiler.md#abaddon-06-a-stacked-top-card-is-exposed-to-every-later-cascade-on-your-turn))
 - 🚩 list flag Mana value 0 spells always qualify, and their cascade randomizes your library: Pilot note: casting a 0-drop artifact or Pact from hand on your turn with Abaddon out effectively shuffles your library. Cast them before stacking the top, or on another turn. No list change: the cards are core fast mana. ([abaddon-07](../interactions/abaddon-the-despoiler.md#abaddon-07-mana-value-0-spells-always-qualify-and-their-cascade-randomizes-your-library))
 - 🚩 list flag Granted cascade stacks with printed cascade: The source review's Call Forth the Tempest mana value (11) is wrong; current Oracle is MV 8, so the third instance needs X ≥ 8, not 11. No list change. ([abaddon-08](../interactions/abaddon-the-despoiler.md#abaddon-08-granted-cascade-stacks-with-printed-cascade))
-- ⚠️ uncertain Upkeep and combat life loss open the threshold early: The exact X depends on table size (three opponents assumed) and on Stormfist also feeding opponents a card each turn; this is a strategic cost, not a rules question. ([abaddon-11](../interactions/abaddon-the-despoiler.md#abaddon-11-upkeep-and-combat-life-loss-open-the-threshold-early))
 <!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->

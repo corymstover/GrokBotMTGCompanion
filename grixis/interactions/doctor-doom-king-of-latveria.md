@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/doctor-doom-king-of-latveria.txt`](../../exports/grixis-archidekt/doctor-doom-king-of-latveria.txt) · SHA-256 `3505f9a465a8ed61f9689d7a38c67b47d68b487001565b9ccc08de82a62f1574` |
+| Canonical project list | [`exports/grixis-archidekt/doctor-doom-king-of-latveria.txt`](../../exports/grixis-archidekt/doctor-doom-king-of-latveria.txt) · SHA-256 `3505f9a465a8ed61f9689d7a38c67b47d68b487001565b9ccc08de82a62f1574` |
 | Rulings | **11** (10 verified · 1 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Doctor_Doom_King_of_Latveria_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json) (13 interactions, all PASS) |
@@ -48,7 +48,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### doom-01: One trigger per discard event, not per land
 
-**Status:** ✅ verified · **Cards:** Doctor Doom, King of Latveria, Wheel of Fortune, Windfall, Cool but Rude
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Doctor Doom, King of Latveria, Wheel of Fortune, Windfall, Cool but Rude
 
 **Ruling.** Doom says 'one or more land cards', so one discard event triggers him once however many lands are in it. Wheel of Fortune or Windfall discarding three lands drains each opponent 2, not 6. Separate discards (cycling, Psychic Frog activations, Trade Routes) each trigger him. Cool but Rude level 2 says 'Whenever you discard a card', so it triggers once for each card, including in a wheel.
 
@@ -63,7 +63,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### doom-02: Combat connive targets a Villain and fails if it's gone
 
-**Status:** ✅ verified · **Cards:** Doctor Doom, King of Latveria
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Doctor Doom, King of Latveria
 
 **Ruling.** At beginning of combat Doom targets a Villain you control (Doom himself qualifies). If that target is illegal on resolution, the whole ability does nothing: no menace, no draw, no discard. Connive is draw then discard; a nonland discard gives a +1/+1 counter, while a land discard instead triggers Doom's drain.
 
@@ -112,7 +112,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### doom-05: Glorious Purpose counts each connive
 
-**Status:** ✅ verified · **Cards:** Doctor Doom, King of Latveria, Glorious Purpose, Ultron, Unlimited, Villainous Hideout
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Doctor Doom, King of Latveria, Glorious Purpose, Ultron, Unlimited, Villainous Hideout
 
 **Ruling.** Each connive by a creature you control adds a +1/+1 counter to it and a plan counter. At six, sacrifice it, exile your top four and cast any number of them free. Spells with {X} are cast with X = 0. Connive sources in the list: Doom's combat trigger, Ultron attacking, Villainous Hideout, Baron Strucker.
 
@@ -124,7 +124,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### doom-06: Psychic Frog: a free, repeatable land outlet
 
-**Status:** ✅ verified · **Cards:** Doctor Doom, King of Latveria, Psychic Frog
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Doctor Doom, King of Latveria, Psychic Frog
 
 **Ruling.** 'Discard a card' is Frog's whole cost, so each activation is a separate discard event and each land triggers Doom. Doom's trigger goes on the stack above the Frog ability and resolves first.
 
@@ -136,7 +136,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### doom-11: Archfiend of Ifnir punishes every cycle and discard
 
-**Status:** ✅ verified · **Cards:** Doctor Doom, King of Latveria, Archfiend of Ifnir, Tectonic Reformation
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Doctor Doom, King of Latveria, Archfiend of Ifnir, Tectonic Reformation
 
 **Ruling.** Archfiend of Ifnir puts a -1/-1 counter on each opponent's creature whenever you cycle or discard another card. Cycling a land with Tectonic Reformation is both a cycle and a discard, but it's one event, so Archfiend triggers once. In the Dakmor loop it wipes out small creatures alongside Doom's drain.
 
@@ -150,7 +150,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### doom-03: Chameleon copy keeps its own name, so no legend rule
 
-**Status:** ✅ verified · **Cards:** Doctor Doom, King of Latveria, Chameleon, Master of Disguise, Spark Double
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Doctor Doom, King of Latveria, Chameleon, Master of Disguise, Spark Double
 
 **Ruling.** Chameleon can enter as a copy of Doom except its name is Chameleon, Master of Disguise. It is a legendary Doom with a different name, so the legend rule doesn't apply. Spark Double's copy isn't legendary and enters with an extra +1/+1 counter. Both give an independent land-discard trigger and combat connive. Mayhem lets you cast Chameleon from the graveyard if you discarded it this turn, at normal timing.
 
@@ -167,7 +167,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### doom-07: Dakmor Salvage is renewable, bounded by the library
 
-**Status:** ✅ verified · **Cards:** Doctor Doom, King of Latveria, Dakmor Salvage
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Doctor Doom, King of Latveria, Dakmor Salvage
 
 **Ruling.** Dredge 2 replaces any draw, not just the draw step. You can't use it with fewer than two cards in your library. Every Dakmor loop below therefore mills two per iteration and stops when the library runs out. It's lethal with enough cards, not infinite. Effects that put cards into hand without 'draw' can't be replaced.
 
@@ -182,7 +182,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### doom-04: Roaming Throne on Villain doubles both Doom triggers
 
-**Status:** ✅ verified · **Cards:** Doctor Doom, King of Latveria, Roaming Throne
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Doctor Doom, King of Latveria, Roaming Throne
 
 **Ruling.** With Villain named, Doom's land-discard drain and combat connive each trigger an additional time. Each combat instance picks its own target. That is two connives, which also means two Glorious Purpose counters.
 
@@ -197,7 +197,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### doom-10: Crucible of Worlds doesn't let you cycle lands from the graveyard
 
-**Status:** ✅ verified · **Cards:** Doctor Doom, King of Latveria, Crucible of Worlds, Dakmor Salvage
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Doctor Doom, King of Latveria, Crucible of Worlds, Dakmor Salvage
 
 **Ruling.** Crucible lets you play lands from your graveyard, still one land drop per turn at sorcery timing. It doesn't let you activate cycling or other abilities of lands there. Its role is replaying discarded lands, not extra Doom triggers.
 

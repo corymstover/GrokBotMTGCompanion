@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -424,6 +425,17 @@ The user explicitly approved the exact SHA-bound Lord Xander candidate after the
 - Canonical approved SHA-256: `92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787`
 
 Do not revise or reopen this deck unless the user explicitly requests it.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 49 interaction review: **11 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Lord Xander, the Collector — Interaction Review](../interactions/lord-xander-the-collector.md).
+
+- **Three separate triggers: enter, attack, dies** — ETB: discard half · attack: mill half · dies: sacrifice half (all rounded down). ([xander-01](../interactions/lord-xander-the-collector.md#xander-01-three-separate-triggers-enter-attack-dies))
+- **Clones and the legend rule: Phantasmal Image, Molten Duplication, Saw in Half** — Each legendary Xander copy = enter trigger + a dies trigger via the legend rule. ([xander-02](../interactions/lord-xander-the-collector.md#xander-02-clones-and-the-legend-rule-phantasmal-image-molten-duplication-saw-in-half))
+- **Myriad copies: Blade of Selves vs. Auton Soldier** — Blade: ETB + dies per token (legend rule); Auton: ETB only (tokens exiled). ([xander-03](../interactions/lord-xander-the-collector.md#xander-03-myriad-copies-blade-of-selves-vs-auton-soldier))
+- **Finishing the mill: Bruvac, Riverchurn Monument, Fraying Sanity, Maddening Cacophony** — Xander's half + Bruvac/Monument/Fraying Sanity mills out; odd-library edge leaves 1. ([xander-05](../interactions/lord-xander-the-collector.md#xander-05-finishing-the-mill-bruvac-riverchurn-monument-fraying-sanity-maddening-cacophony))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

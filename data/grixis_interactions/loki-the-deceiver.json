@@ -1,0 +1,286 @@
+{
+ "schema": 1,
+ "deck_id": "Loki__the_Deceiver",
+ "slug": "loki-the-deceiver",
+ "commanders": [
+  "Loki, the Deceiver"
+ ],
+ "deck_sha256": "a46c0474940b72ac3ae843bd8e6fdcdd9dd10988222dbe0a23a42daeb96cfd53",
+ "list_source": "exports/grixis-archidekt/loki-the-deceiver.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 49,
+ "batch": "C",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/loki_the_deceiver_2026-10-14/Loki_the_Deceiver_Rules_Attestation.json",
+   "note": "10 interactions, all PASS (Vulture and Puppet Master are only named in the red-team item and aren't in the list)"
+  }
+ ],
+ "summary": "Loki, the Deceiver attacks and makes a hasty, non-legendary Illusion copy of another Villain, and draws whenever Villains connect. This review re-verifies all 10 attestation items. There are no Spellbook combos for this list; it's a value and combat engine.\n\nRules surprises: Loki's tokens enter attacking, so the copied creature's own attack triggers never fire; Sundial only saves the token if the sacrifice trigger is already on the stack; the Scepter's temporary Villain type isn't copied. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "loki-01",
+   "category": "commander",
+   "title": "The token enters attacking, so its own attack triggers don't fire",
+   "cards": [
+    "Loki, the Deceiver",
+    "Ultron, Unlimited",
+    "Killmonger, Ruthless Usurper"
+   ],
+   "ruling": "Loki's token enters tapped and attacking but was never declared as an attacker. 'Whenever this attacks' abilities of the copied Villain don't trigger: Ultron's connive, Killmonger's +1/+0. Enter triggers, static abilities and combat-damage triggers all work, including Killmonger's artifact sacrifice + Treasure. The token isn't legendary, so the legend rule never applies. You choose which player it attacks.",
+   "short": "Copy token enters attacking: no attack triggers, but ETB, statics and combat-damage triggers work.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "508.3a",
+    "508.4",
+    "707.9b"
+   ],
+   "oracle": [
+    {
+     "card": "Loki, the Deceiver",
+     "quote": "Whenever Loki attacks, create a tapped and attacking token that's a copy of another target Villain you control, except it isn't legendary and it's an Illusion in addition to its other types. Sacrifice that token at the beginning of the next end step."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/loki_the_deceiver_2026-10-14/Loki_the_Deceiver_Rules_Attestation.json",
+     "item": "Loki attack token and enters-attacking timing"
+    },
+    {
+     "path": "refinement/verification/loki_the_deceiver_2026-10-14/Loki_the_Deceiver_Rules_Attestation.json",
+     "item": "Attack-trigger copy-target red-team"
+    }
+   ]
+  },
+  {
+   "id": "loki-02",
+   "category": "commander",
+   "title": "Villain combat damage draws once per batch",
+   "cards": [
+    "Loki, the Deceiver",
+    "Red Ghost, Intangible Genius"
+   ],
+   "ruling": "'Whenever one or more Villains you control deal combat damage to a player' triggers once per player dealt damage at once, not once per Villain. Red Ghost is an unblockable Villain, so it reliably connects. If Loki's draw is your second card of the turn, Red Ghost makes a hasty 3/3 Ape Villain, though only after combat damage.",
+   "status": "verified",
+   "cr": [
+    "603.2c",
+    "510.2"
+   ],
+   "oracle": [
+    {
+     "card": "Loki, the Deceiver",
+     "quote": "Whenever one or more Villains you control deal combat damage to a player, draw a card."
+    },
+    {
+     "card": "Red Ghost, Intangible Genius",
+     "quote": "Whenever you draw your second card each turn, create a 3/3 red Ape Villain creature token with haste."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/loki_the_deceiver_2026-10-14/Loki_the_Deceiver_Rules_Attestation.json",
+     "item": "Loki plus Red Ghost, Intangible Genius"
+    }
+   ]
+  },
+  {
+   "id": "loki-03",
+   "category": "layers",
+   "title": "Titan of Littjara and Roaming Throne choose Villain",
+   "cards": [
+    "Loki, the Deceiver",
+    "Titan of Littjara",
+    "Roaming Throne"
+   ],
+   "ruling": "A Titan or Throne that chose Villain is a Villain and a legal Loki target. A Loki token of Titan makes its own as-enters choice (choose Villain again) and gets its enter draw. A Throne on Villain makes triggers of other Villains trigger again. That includes Loki (a God Sorcerer Villain): two attack triggers and two copies. A Throne token made by Loki arrives too late to double the trigger that created it.",
+   "short": "Throne on Villain doubles Loki's attack trigger; Titan/Throne copies re-choose Villain.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "614.12",
+    "603.2",
+    "707.2"
+   ],
+   "oracle": [
+    {
+     "card": "Roaming Throne",
+     "quote": "If a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Titan of Littjara",
+     "quote": "The choice of creature type is made as Titan of Littjara enters the battlefield. Players can't respond to this choice. Titan of Littjara's second ability starts applying immediately."
+    },
+    {
+     "card": "Roaming Throne",
+     "quote": "Roaming Throne's last ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/loki_the_deceiver_2026-10-14/Loki_the_Deceiver_Rules_Attestation.json",
+     "item": "Loki plus Titan of Littjara"
+    },
+    {
+     "path": "refinement/verification/loki_the_deceiver_2026-10-14/Loki_the_Deceiver_Rules_Attestation.json",
+     "item": "Roaming Throne choosing Villain"
+    }
+   ]
+  },
+  {
+   "id": "loki-04",
+   "category": "layers",
+   "title": "Hall of Echoes as a second Loki",
+   "cards": [
+    "Loki, the Deceiver",
+    "Hall of Echoes"
+   ],
+   "ruling": "For {5}, Hall of Echoes becomes a copy of Loki and turns off the legend rule for your permanents that turn. If you've controlled Hall since your turn began, it isn't summoning sick and can attack: two Loki attack triggers. Becoming a copy isn't entering. Both effects end together at end of turn, so there's never a legend-rule moment while Hall is still Loki.",
+   "status": "verified",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "302.6"
+   ],
+   "oracle": [
+    {
+     "card": "Hall of Echoes",
+     "quote": "{5}: This land becomes a copy of target creature you control until end of turn. The \"legend rule\" doesn't apply to permanents you control this turn."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Hall of Echoes",
+     "quote": "Both effects of Hall of Echoes's last ability have the same duration, and they'll wear off at exactly the same time. As such, there's no moment at which Hall of Echoes is still a copy of the target creature after the \"legend rule\" begins to apply again."
+    },
+    {
+     "card": "Hall of Echoes",
+     "quote": "Because Hall of Echoes isn't entering the battlefield when it becomes a copy of the creature, any \"When [this creature] enters\" or \"[This creature] enters with\" abilities of the copied creature won't apply."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/loki_the_deceiver_2026-10-14/Loki_the_Deceiver_Rules_Attestation.json",
+     "item": "Hall of Echoes copying Loki before combat"
+    }
+   ]
+  },
+  {
+   "id": "loki-05",
+   "category": "trigger-order",
+   "title": "Keeping the token: The Master, Multiplied and Sundial",
+   "cards": [
+    "Loki, the Deceiver",
+    "The Master, Multiplied",
+    "Sundial of the Infinite"
+   ],
+   "ruling": "Loki's end-step sacrifice is a delayed trigger you control, so The Master, Multiplied stops it and the token stays. With Sundial, let the sacrifice trigger go on the stack, then end the turn: the trigger is exiled and won't come back. If you activate Sundial earlier, the end step is skipped and 'next end step' triggers wait for the next turn's end step, so the token isn't saved.",
+   "short": "Master stops the sacrifice; Sundial only works with the trigger already on the stack.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.7a",
+    "724.1"
+   ],
+   "oracle": [
+    {
+     "card": "The Master, Multiplied",
+     "quote": "Triggered abilities you control can't cause you to sacrifice or exile creature tokens you control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Sundial of the Infinite",
+     "quote": "If Sundial of the Infinite's ability is activated before the end step, any \"at the beginning of the end step\"-triggered abilities won't get the chance to trigger that turn because the end step is skipped."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/loki_the_deceiver_2026-10-14/Loki_the_Deceiver_Rules_Attestation.json",
+     "item": "The Master, Multiplied and Loki's delayed sacrifice"
+    },
+    {
+     "path": "refinement/verification/loki_the_deceiver_2026-10-14/Loki_the_Deceiver_Rules_Attestation.json",
+     "item": "Sundial of the Infinite and Loki's delayed sacrifice"
+    }
+   ]
+  },
+  {
+   "id": "loki-06",
+   "category": "trigger-order",
+   "title": "Doctor Octopus token: anthem now, draw before the sacrifice",
+   "cards": [
+    "Loki, the Deceiver",
+    "Doctor Octopus, Master Planner"
+   ],
+   "ruling": "A Loki copy of Doctor Octopus gives other Villains +2/+2 for the rest of combat. At your end step, its refill-to-eight trigger and Loki's delayed sacrifice trigger together. You order them so the draw resolves first. The refill checks your hand size when it resolves.",
+   "status": "verified",
+   "cr": [
+    "603.3b",
+    "613.4c"
+   ],
+   "oracle": [
+    {
+     "card": "Doctor Octopus, Master Planner",
+     "quote": "At the beginning of your end step, if you have fewer than eight cards in hand, draw cards equal to the difference."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/loki_the_deceiver_2026-10-14/Loki_the_Deceiver_Rules_Attestation.json",
+     "item": "Doctor Octopus copy token during combat and end step"
+    }
+   ]
+  },
+  {
+   "id": "loki-07",
+   "category": "layers",
+   "title": "Loki's Scepter: a temporary Villain copies as a non-Villain",
+   "cards": [
+    "Loki, the Deceiver",
+    "Loki's Scepter"
+   ],
+   "ruling": "Loki's Scepter steals a creature until end of turn and makes it a Villain with haste, so it can attack and be Loki's copy target. The token copies only the copiable values, though. The Scepter's Villain type isn't copiable, so a non-Villain creature's token is only an Illusion, not a Villain. It doesn't count for Loki's draw or Doctor Octopus's anthem.",
+   "short": "The Scepter's Villain type doesn't carry onto Loki's copy.",
+   "status": "verified",
+   "cr": [
+    "707.2",
+    "613.1d"
+   ],
+   "oracle": [
+    {
+     "card": "Loki's Scepter",
+     "quote": "When Loki's Scepter enters, gain control of target creature until end of turn. Untap that creature. Until end of turn, it becomes a Villain in addition to its other types and gains haste."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/loki_the_deceiver_2026-10-14/Loki_the_Deceiver_Rules_Attestation.json",
+     "item": "Loki's Scepter temporary Villain type and Loki copying"
+    }
+   ]
+  }
+ ]
+}

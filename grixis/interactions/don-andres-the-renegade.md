@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/don-andres-the-renegade.txt`](../../exports/grixis-archidekt/don-andres-the-renegade.txt) · SHA-256 `3c5a31e6cf23e2b81d7d4e85d28426231de10d714aae769da886aeff384c7e03` |
+| Canonical project list | [`exports/grixis-archidekt/don-andres-the-renegade.txt`](../../exports/grixis-archidekt/don-andres-the-renegade.txt) · SHA-256 `3c5a31e6cf23e2b81d7d4e85d28426231de10d714aae769da886aeff384c7e03` |
 | Rulings | **12** (11 verified · 0 uncertain · 1 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Don_Andres_the_Renegade_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json) (13 interactions, all PASS) |
@@ -48,7 +48,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### donandres-01: Ownership, not control, decides both of Don's abilities
 
-**Status:** ✅ verified · **Cards:** Don Andres, the Renegade
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Don Andres, the Renegade
 
 **Ruling.** Don's static bonus applies to every creature you control whose card (or token) belongs to someone else. That covers creatures you steal, opponents' creature cards you cast, creatures you reanimate from opponents' graveyards, and opponent-owned cards put directly onto the battlefield under your control. Ownership never changes: the owner is whoever started the game with the card, and the owner of a token is the player who created it. So a stolen opponent token (for example from Coercive Recruiter or Insurrection) gets the bonus too.
 
@@ -61,7 +61,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### donandres-02: The Treasure trigger needs a noncreature spell that someone else owns
 
-**Status:** ✅ verified · **Cards:** Don Andres, the Renegade, Court of Locthwain, Praetor's Grasp, Outrageous Robbery
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Don Andres, the Renegade, Court of Locthwain, Praetor's Grasp, Outrageous Robbery
 
 **Ruling.** Don triggers when you cast a noncreature spell whose card belongs to another player: an opponent's instant, sorcery, artifact, enchantment or planeswalker cast from exile (Court of Locthwain, Praetor's Grasp, Outrageous Robbery) or from their graveyard. The spell that steals (Praetor's Grasp, Outrageous Robbery) is your own card and doesn't trigger Don. Opponent-owned creature spells don't trigger him either; they get the static bonus once they're on the battlefield.
 
@@ -76,7 +76,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### donandres-11: Cast-a-spell-you-don't-own payoffs stack with Don
 
-**Status:** ✅ verified · **Cards:** Don Andres, the Renegade, Gonti, Night Minister, Tasha, the Witch Queen, Thieving Varmint
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Don Andres, the Renegade, Gonti, Night Minister, Tasha, the Witch Queen, Thieving Varmint
 
 **Ruling.** Gonti gives a Treasure to any player who casts a spell they don't own, Tasha makes a 3/3 Demon whenever you cast a spell you don't own, and Thieving Varmint's mana can only be spent on such spells. Unlike Don's trigger, Gonti and Tasha also count opponent-owned creature spells. A stolen noncreature spell with all three out makes three Treasures and a Demon.
 
@@ -92,7 +92,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### donandres-08: Each Wand of Wonder spell is a separate trigger
 
-**Status:** ✅ verified · **Cards:** Don Andres, the Renegade, Wand of Wonder
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Don Andres, the Renegade, Wand of Wonder
 
 **Ruling.** Wand of Wonder lets you cast up to X instants and sorceries exiled from opponents' libraries, X from 1 to 3 by the d20 roll. Each is a separate noncreature spell you don't own, so each triggers Don separately.
 
@@ -104,7 +104,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### donandres-09: Exiled-face-down theft keeps the owner
 
-**Status:** ✅ verified · **Cards:** Don Andres, the Renegade, Decadent Dragon // Expensive Taste, Black Cat, Cunning Thief, Siphon Insight
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Don Andres, the Renegade, Decadent Dragon // Expensive Taste, Black Cat, Cunning Thief, Siphon Insight
 
 **Ruling.** Expensive Taste, Black Cat and Siphon Insight exile opponents' cards face down for you to play. Exile doesn't change ownership. Noncreature spells cast from them trigger Don, and creature spells cast from them get his bonus. Black Cat's permission lasts as long as the cards stay exiled, and mana of any type can be spent. Normal timing rules still apply.
 
@@ -120,7 +120,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### donandres-10: Don makes stolen creatures Pirates for Pirate payoffs
 
-**Status:** ✅ verified · **Cards:** Don Andres, the Renegade, Admiral Beckett Brass, Kindred Discovery, Coercive Recruiter
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Don Andres, the Renegade, Admiral Beckett Brass, Kindred Discovery, Coercive Recruiter
 
 **Ruling.** Opponent-owned creatures you control are Pirates while Don is out. They count for Beckett's three-Pirate damage check and for Kindred Discovery naming Pirate, and their arrival triggers Coercive Recruiter. Beckett's check looks back at which Pirates dealt combat damage, so it doesn't matter if Don leaves later in the turn.
 
@@ -137,7 +137,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### donandres-05: Manifested opponent cards are 2/2s that get the bonus
 
-**Status:** ✅ verified · **Cards:** Don Andres, the Renegade, Thieving Amalgam
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Don Andres, the Renegade, Thieving Amalgam
 
 **Ruling.** Thieving Amalgam manifests the top card of each opponent's library at their upkeep. The face-down 2/2 is a creature you control and that opponent owns, so with Don out it's a 4/4 menace, deathtouch Pirate. The opponent can't look at the face-down card. It can only be turned face up for its mana cost if it's a creature card.
 
@@ -170,7 +170,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### donandres-07: Roaming Throne on Pirate doubles the Treasure trigger, not the static
 
-**Status:** ✅ verified · **Cards:** Don Andres, the Renegade, Roaming Throne
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Don Andres, the Renegade, Roaming Throne
 
 **Ruling.** Don is a Pirate. With Roaming Throne naming Pirate, his Treasure ability triggers an additional time, so each qualifying spell makes four tapped Treasures. Throne only affects triggered abilities; the +2/+2, menace and deathtouch are static and aren't doubled. Throne doesn't copy the ability, it triggers again.
 
@@ -185,7 +185,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### donandres-03: Copies you make are spells you own
 
-**Status:** ✅ verified · **Cards:** Don Andres, the Renegade, Arcane Heist
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Don Andres, the Renegade, Arcane Heist
 
 **Ruling.** The owner of a copy of a spell is the player who put it on the stack. A cipher copy of Arcane Heist is therefore yours, and casting it doesn't trigger Don. The opponent's instant or sorcery that Arcane Heist lets you cast from their graveyard is theirs, so that cast does trigger Don. If that spell would go to their graveyard afterwards, Arcane Heist exiles it instead.
 
@@ -199,7 +199,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### donandres-04: Putting a card onto the battlefield isn't casting it
 
-**Status:** ✅ verified · **Cards:** Don Andres, the Renegade, Jhoira, Weatherlight Corsair, Animate Dead, Reanimate
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Don Andres, the Renegade, Jhoira, Weatherlight Corsair, Animate Dead, Reanimate
 
 **Ruling.** Jhoira puts an opponent's historic permanent card onto the battlefield under your control, and Animate Dead and Reanimate can return an opponent's creature card. None of those is a cast, so a noncreature historic permanent from Jhoira doesn't trigger Don's Treasures. Any creature that arrives this way is still opponent-owned, so it gets +2/+2, menace, deathtouch and the Pirate type.
 
@@ -213,7 +213,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### donandres-12: Stolen permanents leave with their owner
 
-**Status:** ✅ verified · **Cards:** Don Andres, the Renegade, Hostage Taker, Admiral Beckett Brass
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Don Andres, the Renegade, Hostage Taker, Admiral Beckett Brass
 
 **Ruling.** If an opponent leaves the game, every object they own leaves too, including creatures you stole (Beckett, Gilded Drake, Hostage Taker casts). If you leave, cards you control from Hostage Taker are exiled. Hostage Taker's exiled card returns at once if Taker leaves before you cast it; once you begin casting it, it's a new object you keep.
 

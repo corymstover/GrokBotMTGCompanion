@@ -60,7 +60,8 @@
      "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
      "item": "Crosis combat-damage trigger"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "crosis-02",
@@ -95,7 +96,8 @@
      "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
      "item": "Crosis + Painter's Servant"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "crosis-03",
@@ -128,7 +130,8 @@
      "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
      "item": "Painter's Servant + Sword of Feast and Famine protection caveat"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "crosis-04",
@@ -156,7 +159,8 @@
      "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
      "item": "Sword of Feast and Famine + Crosis trigger ordering"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "crosis-05",
@@ -184,7 +188,8 @@
      "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
      "item": "Brotherhood Regalia + Crosis"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "crosis-06",
@@ -213,7 +218,8 @@
      "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
      "item": "Tergrid + Tinybones, Bauble Burglar discard triggers"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "crosis-07",
@@ -249,7 +255,8 @@
      "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
      "item": "Notion Thief + Teferi's Puzzle Box"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "crosis-08",
@@ -279,7 +286,8 @@
      "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
      "item": "Notion Thief + Wheel of Fortune / Windfall / Dark Deal"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "crosis-09",
@@ -315,7 +323,8 @@
      "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
      "item": "Dream Salvage after Crosis or mass discard"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "crosis-10",
@@ -337,7 +346,8 @@
      "quote": "Whenever a player casts a spell, that player discards a card."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "strategic_judgment"
   },
   {
    "id": "crosis-11",
@@ -361,7 +371,8 @@
      "quote": "Equipped creature has haste and shroud."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   }
  ]
 }

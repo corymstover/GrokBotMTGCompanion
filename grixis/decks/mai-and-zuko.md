@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -482,6 +483,16 @@ Decision closeout: `refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_20
 **Status**
 
 **APPROVED / LOCKED** once the authoritative state transaction verifies the exact approved SHA against the complete gate and commits the state/tracker lock.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 49 interaction review: **9 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Mai and Zuko — Interaction Review](../interactions/mai-and-zuko.md).
+
+- **Flash for Allies and artifacts; firebending mana lasts through combat** — Flash Allies/artifacts; firebending's RRR lasts all combat. ([maizuko-01](../interactions/mai-and-zuko.md#maizuko-01-flash-for-allies-and-artifacts-firebending-mana-lasts-through-combat))
+- **Basalt Monolith + Rings of Brighthearth → Walking Ballista** — Monolith + Rings = unbounded colorless; Ballista finishes. ([maizuko-07](../interactions/mai-and-zuko.md#maizuko-07-basalt-monolith--rings-of-brighthearth--walking-ballista))
+- **Sensei's Divining Top loops: Citadel + Aetherflux, or Mystic Forge + a cost reducer** — Top + Citadel/Aetherflux or Forge + reducer; flash makes it work on opponents' turns. ([maizuko-08](../interactions/mai-and-zuko.md#maizuko-08-senseis-divining-top-loops-citadel--aetherflux-or-mystic-forge--a-cost-reducer))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

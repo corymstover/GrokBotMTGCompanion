@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/belakor-the-dark-master.txt`](../../exports/grixis-archidekt/belakor-the-dark-master.txt) · SHA-256 `75543f31a16d5398fabe73ce29a2ca2999ea9e1c33f2f62b11a33b3ad7f21eb0` |
+| Canonical project list | [`exports/grixis-archidekt/belakor-the-dark-master.txt`](../../exports/grixis-archidekt/belakor-the-dark-master.txt) · SHA-256 `75543f31a16d5398fabe73ce29a2ca2999ea9e1c33f2f62b11a33b3ad7f21eb0` |
 | Rulings | **13** (12 verified · 0 uncertain · 1 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #7: RULES PASS) |
@@ -49,7 +49,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### belakor-01: Prince of Chaos counts Demons on resolution
 
-**Status:** ✅ verified · **Cards:** Be'lakor, the Dark Master
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Be'lakor, the Dark Master
 
 **Ruling.** X is counted as the trigger resolves, including Be'lakor itself if it's still on the battlefield. You both draw and lose X life. A large X late in the game can be lethal to you, so check your life total. Vilis turns that life loss into more cards.
 
@@ -61,7 +61,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### belakor-02: Lord of Torment: another Demon, its own power, last known information
 
-**Status:** ✅ verified · **Cards:** Be'lakor, the Dark Master, Warstorm Surge
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Be'lakor, the Dark Master, Warstorm Surge
 
 **Ruling.** Lord of Torment triggers only for *another* Demon entering, so Be'lakor doesn't trigger itself. The entering Demon is the damage source and deals damage equal to its power when the trigger resolves. If it has left, its last known power is used (compare Warstorm Surge's ruling). Warstorm Surge adds a second, separate trigger.
 
@@ -76,7 +76,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### belakor-03: Rite of Replication on Be'lakor: legend rule, then the damage
 
-**Status:** 🚩 list flag · **Cards:** Be'lakor, the Dark Master, Rite of Replication
+**Status:** 🚩 list flag · **Evidence:** fact · **Cards:** Be'lakor, the Dark Master, Rite of Replication
 
 **Ruling.** Kicked Rite makes five token Be'lakors at once. They see each other enter. The original's Lord triggers five times and each token's triggers four times: 25 Lord triggers, each 6 damage by last known information, about 150 damage. There are also five Prince triggers.
 
@@ -95,7 +95,7 @@ Before any trigger goes on the stack, the legend rule leaves you one Be'lakor; t
 
 ### belakor-04: Spark Double copies Be'lakor without the legend rule
 
-**Status:** ✅ verified · **Cards:** Be'lakor, the Dark Master, Spark Double
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Be'lakor, the Dark Master, Spark Double
 
 **Ruling.** Spark Double copying Be'lakor isn't legendary and enters with an extra +1/+1 counter (7/6). It triggers its own Prince of Chaos (counting both Be'lakors), and the original's Lord sees another Demon enter. Spark Double can't copy something that enters at the same time as it.
 
@@ -107,7 +107,7 @@ Before any trigger goes on the stack, the legend rule leaves you one Be'lakor; t
 
 ### belakor-06: Liliana's Contract needs four different names
 
-**Status:** ✅ verified · **Cards:** Be'lakor, the Dark Master, Liliana's Contract, Molten Echoes
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Be'lakor, the Dark Master, Liliana's Contract, Molten Echoes
 
 **Ruling.** Liliana's Contract wins only with four or more Demons with *different names* at the start of your upkeep and again on resolution. Molten Echoes tokens (exiled at end step anyway), Rite tokens and Spark Double copies share names. Count distinct Demons, not total Demons.
 
@@ -120,7 +120,7 @@ Before any trigger goes on the stack, the legend rule leaves you one Be'lakor; t
 
 ### belakor-07: Heartless Summoning shrinks Lord damage
 
-**Status:** ✅ verified · **Cards:** Be'lakor, the Dark Master, Heartless Summoning
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Be'lakor, the Dark Master, Heartless Summoning
 
 **Ruling.** Heartless Summoning's −1/−1 lowers each entering Demon's power, so each Lord trigger deals 1 less. It reduces only generic mana costs. It also kills your own 1-toughness creatures.
 
@@ -132,7 +132,7 @@ Before any trigger goes on the stack, the legend rule leaves you one Be'lakor; t
 
 ### belakor-09: Vilis draws for Be'lakor's life loss
 
-**Status:** ✅ verified · **Cards:** Be'lakor, the Dark Master, Vilis, Broker of Blood, Doom Whisperer
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Be'lakor, the Dark Master, Vilis, Broker of Blood, Doom Whisperer
 
 **Ruling.** Vilis draws a card for each life you lose: Prince of Chaos's X, Doom Whisperer's 2 life per activation, and damage dealt to you. Life paid as a cost draws after you finish activating.
 
@@ -144,7 +144,7 @@ Before any trigger goes on the stack, the legend rule leaves you one Be'lakor; t
 
 ### belakor-10: Copy enablers: Molten Echoes and Reflections of Littjara
 
-**Status:** ✅ verified · **Cards:** Be'lakor, the Dark Master, Molten Echoes, Reflections of Littjara
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Be'lakor, the Dark Master, Molten Echoes, Reflections of Littjara
 
 **Ruling.** - **Molten Echoes (Demon):** copies each nontoken Demon that enters as a hasty token, exiled at the next end step. The token is another Demon entering, so it causes another Lord trigger.
 - **Reflections of Littjara (Demon):** copies Demon *spells*. The copy becomes a token, which still enters (Lord, Prince) but isn't 'created'.
@@ -161,7 +161,7 @@ Copying Be'lakor itself (a cast from the command zone with Reflections, or Molte
 
 ### belakor-11: Cheat-in Demons still trigger Lord
 
-**Status:** ✅ verified · **Cards:** Be'lakor, the Dark Master, Sneak Attack, Whip of Erebos, Patriarch's Bidding, Reanimate, Ghostly Flicker
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Be'lakor, the Dark Master, Sneak Attack, Whip of Erebos, Patriarch's Bidding, Reanimate, Ghostly Flicker
 
 **Ruling.** Lord of Torment triggers however the Demon enters. Sneak Attack (sacrificed at end step), Whip of Erebos (exiled at end step), Reanimate, Patriarch's Bidding (each player picks a type) and Ghostly Flicker on Be'lakor plus a Demon (both re-enter at once, so both Prince and Lord trigger) all count. Whip also gives lifelink to your creatures, and the Lord damage is dealt by your creature.
 
@@ -174,7 +174,7 @@ Copying Be'lakor itself (a cast from the command zone with Reflections, or Molte
 
 ### belakor-08: Bloodletter doubles life loss; Sower of Discord passes it on
 
-**Status:** ✅ verified · **Cards:** Be'lakor, the Dark Master, Bloodletter of Aclazotz, Sower of Discord, Archfiend of Despair
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Be'lakor, the Dark Master, Bloodletter of Aclazotz, Sower of Discord, Archfiend of Despair
 
 **Ruling.** - **Bloodletter of Aclazotz:** opponents' life loss on your turn is doubled. The damage dealt isn't doubled, so lifelink gains are unchanged.
 - **Sower of Discord:** when one chosen player is dealt damage, the other chosen player loses that much life. That's loss, not damage, from no source.
@@ -192,7 +192,7 @@ A Lord trigger on your turn can therefore cost opponents several times its power
 
 ### belakor-05: Roaming Throne and Panharmonicon stack
 
-**Status:** ✅ verified · **Cards:** Be'lakor, the Dark Master, Roaming Throne, Panharmonicon
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Be'lakor, the Dark Master, Roaming Throne, Panharmonicon
 
 **Ruling.** Roaming Throne (Demon) and Panharmonicon each add one extra trigger for Be'lakor's two abilities. Throne covers triggered abilities of other Demon creatures; Panharmonicon covers triggers caused by an artifact or creature entering. With both, each Prince and Lord trigger happens three times. Each instance picks its own target.
 
@@ -207,7 +207,7 @@ A Lord trigger on your turn can therefore cost opponents several times its power
 
 ### belakor-13: Commander tax at six mana
 
-**Status:** ✅ verified · **Cards:** Be'lakor, the Dark Master, Herald of Slaanesh, Urza's Incubator, Ancient Cellarspawn
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Be'lakor, the Dark Master, Herald of Slaanesh, Urza's Incubator, Ancient Cellarspawn
 
 **Ruling.** Be'lakor costs {3}{U}{B}{R} (6), then 8, then 10. Demon cost reducers (Herald of Slaanesh −2, Urza's Incubator −2 on Demon creature spells, Ancient Cellarspawn −1) apply to Be'lakor because it's a Demon. Reductions reduce only generic mana, tax included.
 
@@ -220,7 +220,7 @@ A Lord trigger on your turn can therefore cost opponents several times its power
 
 ### belakor-12: Gyruda in the 99, not as companion
 
-**Status:** ✅ verified · **Cards:** Be'lakor, the Dark Master, Gyruda, Doom of Depths
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Be'lakor, the Dark Master, Gyruda, Doom of Depths
 
 **Ruling.** Gyruda is played in the main deck, so its companion condition (even mana values only) doesn't apply. It's a Demon Kraken, so it triggers Lord on entering.
 

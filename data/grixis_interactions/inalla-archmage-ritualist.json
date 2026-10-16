@@ -1,0 +1,428 @@
+{
+ "schema": 1,
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "slug": "inalla-archmage-ritualist",
+ "commanders": [
+  "Inalla, Archmage Ritualist"
+ ],
+ "deck_sha256": "45924e0eabb7a253004d5cdf69c32f7ab82d1e0e7406938a033a8f8b39026598",
+ "list_source": "exports/grixis-archidekt/inalla-archmage-ritualist.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 49,
+ "batch": "C",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+   "note": "15 interactions, all PASS (the Kefka and Samut items refer to cards not in the current list)"
+  }
+ ],
+ "summary": "Inalla, Archmage Ritualist copies each nontoken Wizard that enters, even from the command zone, and taps five Wizards to drain 7. This review re-verifies the deck's rules attestation, and confirms fifteen combo lines (Bloodline/Ruthless, the Scholar of the Ages loops, the Oracle and Breach lines) against cached Commander Spellbook steps.\n\nThe source's Spellseeker chain stays an uncertain hypothesis. The attestation's Kefka item is about a card that isn't in the current list. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "inalla-01",
+   "category": "commander",
+   "title": "Eminence works from the command zone, once per trigger",
+   "cards": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "ruling": "Inalla's copy ability works while she's in the command zone or on the battlefield. She has to be in one of those zones both when the Wizard enters and when the trigger resolves. If she moves between them in between (say she dies and goes to the command zone), the trigger does nothing, because she's a new object. You can pay {1} only once per trigger. The hasty token is exiled at the next end step. If the Wizard has already left when the trigger resolves, you can still pay and copy its last-known version.",
+   "short": "Copies from the command zone too; one {1} per trigger; a zone change mid-trigger fizzles it.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "207.2c",
+    "400.7",
+    "707.2"
+   ],
+   "oracle": [
+    {
+     "card": "Inalla, Archmage Ritualist",
+     "quote": "Eminence — Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Inalla, Archmage Ritualist",
+     "quote": "You can pay {1} only once each time Inalla's first ability resolves. You can't pay more to get more than one token."
+    },
+    {
+     "card": "Inalla, Archmage Ritualist",
+     "quote": "Notably, if your commander is on the battlefield and its eminence ability triggers, but it's put into the command zone before that ability resolves, that ability won't do anything as it resolves. This is because an object that changes zones is considered a new object."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Inalla Eminence functions from the command zone"
+    }
+   ]
+  },
+  {
+   "id": "inalla-02",
+   "category": "commander",
+   "title": "The five-Wizard tap ignores summoning sickness",
+   "cards": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "ruling": "'Tap five untapped Wizards you control' isn't a {T} cost of those Wizards, so new tokens and Inalla herself can be tapped for it the turn they arrive. Inalla must be on the battlefield to activate it. Target player loses 7.",
+   "status": "verified",
+   "cr": [
+    "302.6",
+    "602.2"
+   ],
+   "oracle": [
+    {
+     "card": "Inalla, Archmage Ritualist",
+     "quote": "Tap five untapped Wizards you control: Target player loses 7 life."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Inalla, Archmage Ritualist",
+     "quote": "To activate Inalla's last ability, you may tap any untapped Wizards you control, including ones you haven't controlled continuously since the beginning of your most recent turn, such as Inalla itself."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Inalla five-Wizard activation and new tokens"
+    }
+   ]
+  },
+  {
+   "id": "inalla-03",
+   "category": "combo",
+   "title": "Inalla + Bloodline Necromancer + Ruthless Technomancer",
+   "cards": [
+    "Inalla, Archmage Ritualist",
+    "Bloodline Necromancer",
+    "Ruthless Technomancer"
+   ],
+   "ruling": "Both are Wizards. Bloodline Necromancer (3/2) returns Ruthless Technomancer, which sacrifices Bloodline for three Treasures. Order the pending Inalla triggers: pay {1} for a Ruthless token, which sacrifices the nontoken Ruthless (power 2) for two Treasures. Then pay {1} for a Bloodline token, which returns the nontoken Bloodline, and repeat. Each loop nets Treasures and hasty Wizard tokens. Finish by casting Inalla if needed and tapping five Wizards for 7 life at a time.",
+   "short": "Bloodline ↔ Ruthless with Inalla copies: unbounded Treasures and Wizards, then 7-life taps.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.3b",
+    "707.2"
+   ],
+   "oracle": [
+    {
+     "card": "Ruthless Technomancer",
+     "quote": "When this creature enters, you may sacrifice another creature you control. If you do, create a number of Treasure tokens equal to that creature's power."
+    },
+    {
+     "card": "Bloodline Necromancer",
+     "quote": "When this creature enters, you may return target Vampire or Wizard creature card from your graveyard to the battlefield."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1869-2721-3719",
+     "quote": "Resolve the Ruthless Technomancer trigger, causing you to sacrifice Bloodline Necromancer and create three Treasure tokens."
+    },
+    {
+     "id": "1869-2721-3719",
+     "quote": "Resolve the Inalla trigger from step 4, causing you to pay {1} to create a token copy of Ruthless Technomancer with haste."
+    },
+    {
+     "id": "1869-2721-3719",
+     "quote": "Activate Inalla by tapping five untapped Wizards you control, causing target player to lose 7 life."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Bloodline Necromancer plus Ruthless Technomancer loop"
+    }
+   ]
+  },
+  {
+   "id": "inalla-04",
+   "category": "combo",
+   "title": "Scholar of the Ages + a sacrifice ritual + Shallow Grave or Persist",
+   "cards": [
+    "Inalla, Archmage Ritualist",
+    "Scholar of the Ages",
+    "Sacrifice",
+    "Burnt Offering",
+    "Culling the Weak",
+    "Shallow Grave",
+    "Persist"
+   ],
+   "ruling": "Sacrifice Scholar (mana value 7) to Sacrifice for seven {B}, Burnt Offering for seven {B}/{R}, or Culling the Weak for four {B}. Return it with Persist ({1}{B}, nonlegendary, -1/-1 counter) or Shallow Grave ({1}{B}). Its ETB returns both spells. Each loop nets mana and an ETB. Shallow Grave takes the top creature card of your graveyard, and you can't reorder a graveyard, so Scholar must be the last creature card put there. Each nontoken Scholar entering also triggers Inalla.",
+   "short": "Scholar (MV 7) + Sacrifice/Burnt Offering/Culling + Persist/Shallow Grave = unbounded mana.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "202.3",
+    "404.2",
+    "601.2f"
+   ],
+   "oracle": [
+    {
+     "card": "Scholar of the Ages",
+     "quote": "When this creature enters, return up to two target instant and/or sorcery cards from your graveyard to your hand."
+    },
+    {
+     "card": "Sacrifice",
+     "quote": "Add an amount of {B} equal to the sacrificed creature's mana value."
+    },
+    {
+     "card": "Shallow Grave",
+     "quote": "Return the top creature card of your graveyard to the battlefield."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Scholar of the Ages",
+     "quote": "The triggered ability of Scholar of the Ages can return at most two cards, not two instant cards plus two sorcery cards."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "813-1181-2171",
+     "quote": "Cast Persist by paying its mana cost, returning Scholar of the Ages from your graveyard to the battlefield."
+    },
+    {
+     "id": "813-1777-1893",
+     "quote": "Cast Burnt Offering by paying {B} and sacrificing Scholar of the Ages, adding seven mana in any combination of {B} and/or {R}."
+    },
+    {
+     "id": "813-1893-2081",
+     "quote": "Cast Culling the Weak by paying {B} and sacrificing Scholar of the Ages, adding {B}{B}{B}{B}."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "inalla-05",
+   "category": "combo",
+   "title": "Saw in Half + Scholar: the tokens keep mana value 7",
+   "cards": [
+    "Inalla, Archmage Ritualist",
+    "Saw in Half",
+    "Scholar of the Ages",
+    "Sacrifice"
+   ],
+   "ruling": "Saw in Half's tokens are copies with halved power and toughness, but they copy the mana cost, so each has mana value 7. Both tokens' ETBs return Saw in Half and the ritual (and up to two more spells). Sacrificing a token to Sacrifice adds seven {B}, which pays for the next Saw in Half on the other token.",
+   "status": "verified",
+   "cr": [
+    "707.2",
+    "202.3"
+   ],
+   "oracle": [
+    {
+     "card": "Saw in Half",
+     "quote": "its controller creates two tokens that are copies of that creature, except their power is half that creature's power and their toughness is half that creature's toughness"
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "500-813-1181",
+     "quote": "Cast Sacrifice by paying {B} and sacrificing a Scholar of the Ages token, adding seven {B}."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Hoarding Broodlord plus Saw in Half"
+    }
+   ]
+  },
+  {
+   "id": "inalla-06",
+   "category": "combo",
+   "title": "Spellseeker one-card line",
+   "cards": [
+    "Inalla, Archmage Ritualist",
+    "Spellseeker",
+    "Culling the Weak",
+    "Unearth",
+    "Burnt Offering",
+    "Finale of Promise",
+    "Entomb",
+    "Reanimate",
+    "Scholar of the Ages"
+   ],
+   "ruling": "The source's chain: Spellseeker and its Inalla copy each tutor an instant or sorcery with mana value 2 or less, in sequence (Culling the Weak, Unearth, Burnt Offering, Finale of Promise, Entomb, Reanimate). It recurs Spellseeker and assembles a Scholar of the Ages mana loop. Each step is rules-legal: Finale X = 1 casts Culling and Unearth from the graveyard during its resolution. But there's no Spellbook variant for the whole chain, and it depends on mana, life and library contents.",
+   "status": "uncertain",
+   "uncertainty": "Rebuilt multi-step line from the source attestation; no cached Spellbook variant confirms the whole sequence, so it stays a hypothesis.",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "oracle": [
+    {
+     "card": "Spellseeker",
+     "quote": "When this creature enters, you may search your library for an instant or sorcery card with mana value 2 or less, reveal it, put it into your hand, then shuffle."
+    },
+    {
+     "card": "Finale of Promise",
+     "quote": "You may cast up to one target instant card and/or up to one target sorcery card from your graveyard each with mana value X or less without paying their mana costs."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Finale of Promise",
+     "quote": "As Finale of Promise resolves, first you cast the target instant card and/or the target sorcery card in either order."
+    }
+   ],
+   "evidence_class": "hypothesis",
+   "source": [
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Spellseeker plus Scholar of the Ages one-card Inalla line"
+    },
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Finale of Promise casting during resolution"
+    }
+   ]
+  },
+  {
+   "id": "inalla-07",
+   "category": "timing",
+   "title": "Finale and Beseech cast during resolution; split second would stop them",
+   "cards": [
+    "Inalla, Archmage Ritualist",
+    "Finale of Promise",
+    "Beseech the Mirror"
+   ],
+   "ruling": "Finale of Promise and a bargained Beseech the Mirror cast cards while they're still resolving on the stack. Split second (for example from Samut, Tyrant of Naktamun) would forbid those casts, which is why the source cut Samut. Nothing in the current list gives split second. A spell cast free with {X} has X = 0.",
+   "status": "verified",
+   "cr": [
+    "702.61a",
+    "608.2g"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Finale of Promise",
+     "quote": "If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost."
+    },
+    {
+     "card": "Beseech the Mirror",
+     "quote": "Bargain represents an optional additional cost. A spell cast with that additional cost paid is \"bargained.\""
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Samut red-team exclusion"
+    },
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Beseech the Mirror bargain casting"
+    }
+   ]
+  },
+  {
+   "id": "inalla-08",
+   "category": "engine",
+   "title": "Hasty Wizard copies: Apprentice Necromancer and Thundertrap Trainer",
+   "cards": [
+    "Inalla, Archmage Ritualist",
+    "Apprentice Necromancer",
+    "Thundertrap Trainer"
+   ],
+   "ruling": "An Inalla copy of Apprentice Necromancer has haste, so it can use its {B}, {T}, sacrifice ability at once to reanimate a creature with haste. It can't target itself, because targets are chosen before the sacrifice. A Thundertrap Trainer copy gets its own top-four ETB. It wasn't cast, so there's no offspring.",
+   "status": "verified",
+   "cr": [
+    "602.2",
+    "601.2c",
+    "702.175a"
+   ],
+   "oracle": [
+    {
+     "card": "Apprentice Necromancer",
+     "quote": "{B}, {T}, Sacrifice this creature: Return target creature card from your graveyard to the battlefield. That creature gains haste. At the beginning of the next end step, sacrifice it."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Apprentice Necromancer",
+     "quote": "Apprentice Necromancer can’t be the target of its own ability. This is because targets are chosen for activated abilities before costs (such as “Sacrifice Apprentice Necromancer”) are paid."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Apprentice Necromancer plus Inalla haste"
+    },
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Thundertrap Trainer duplicated ETB"
+    }
+   ]
+  },
+  {
+   "id": "inalla-09",
+   "category": "combo",
+   "title": "Thassa's Oracle and Breach lines",
+   "cards": [
+    "Inalla, Archmage Ritualist",
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "ruling": "The standard cEDH finishes are all in the list: Consultation or Tainted Pact with Oracle (100 distinct names), and Breach + LED + Brain Freeze, which needs six other cards in hand and/or graveyard.",
+   "status": "verified",
+   "cr": [
+    "121.4",
+    "702.138a"
+   ],
+   "oracle": [],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "742-1295",
+     "quote": "Cast Demonic Consultation by paying {B}, naming Thassa's Oracle and thus exiling your library due to you not having a card named Thassa's Oracle in your library."
+    },
+    {
+     "id": "1295-3093",
+     "quote": "No two cards in library share a name."
+    },
+    {
+     "id": "1368-3518-4856",
+     "quote": "You have at least six other cards in hand and/or graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Thassa's Oracle plus Demonic Consultation"
+    },
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Thassa's Oracle plus Tainted Pact and singleton structure"
+    },
+    {
+     "path": "refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json",
+     "item": "Underworld Breach plus Lion's Eye Diamond plus Brain Freeze"
+    }
+   ]
+  }
+ ]
+}

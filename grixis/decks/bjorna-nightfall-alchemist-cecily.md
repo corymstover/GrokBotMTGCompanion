@@ -552,12 +552,13 @@ Request explicit approval for the single Reckless Fireweaver -> Robe of the Arch
 <!-- INTERACTIONS:START -->
 ## Rules notes
 
-> Bot cycle 46 interaction review: **13 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Bjorna, Nightfall Alchemist + Cecily, Haunted Mage — Interaction Review](../interactions/bjorna-nightfall-alchemist-cecily.md).
+> Bot cycle 46 interaction review: **15 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Bjorna, Nightfall Alchemist + Cecily, Haunted Mage — Interaction Review](../interactions/bjorna-nightfall-alchemist-cecily.md).
 
 - **Bjorna: sacrifice an artifact, ping and goad a creature** — {T}, sacrifice an artifact: 1 damage to a creature and goad it. ([bjorna-01](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-01-bjorna-sacrifice-an-artifact-ping-and-goad-a-creature))
 - **Cecily: draw, lose 1, *then* check eleven cards** — Attack: draw, lose 1; then with 11+ cards in hand cast an instant or sorcery free. ([bjorna-02](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-02-cecily-draw-lose-1-then-check-eleven-cards))
 - **Harmonic Prodigy doubles Wizard and Shaman triggers** — Prodigy doubles Cecily, Niv-Mizzet, Archmage Emeritus, Storm-Kiln and Emry triggers. ([bjorna-03](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-03-harmonic-prodigy-doubles-wizard-and-shaman-triggers))
 - **Peer into the Abyss + Teferi's Ageless Insight: an odd library loses** — Peer on yourself with Ageless Insight draws the whole library; an odd library size makes you lose. ([bjorna-05](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-05-peer-into-the-abyss--teferis-ageless-insight-an-odd-library-loses))
+- **Canonical list keeps three authorized project exceptions** — 🚩 Project exceptions (authorized, NOT Commander-legal): Lutri companion, Trade Secrets, Yawgmoth's Bargain. ([bjorna-11](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-11-canonical-list-keeps-three-authorized-project-exceptions))
 
 **Flags for later refinement** (no list change in this phase):
 - 🚩 list flag Peer into the Abyss + Teferi's Ageless Insight: an odd library loses: With an odd number of cards in library, Peer + Teferi's Ageless Insight makes you draw from an empty library and lose before any drain or damage trigger resolves. Count the library first (a cantrip or one fetch changes parity), or win through Psychosis Crawler/Niv-Mizzet only when the parity is safe. ([bjorna-05](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-05-peer-into-the-abyss--teferis-ageless-insight-an-odd-library-loses))

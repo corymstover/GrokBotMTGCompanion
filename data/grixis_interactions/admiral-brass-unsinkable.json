@@ -60,7 +60,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "may return a Pirate creature card from your graveyard with a finality counter, base P/T 4/4, and haste until end of turn."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "brass-02",
@@ -100,7 +101,8 @@
      "card": "Living Death",
      "quote": "Only cards exiled by Living Death's first instruction are put onto the battlefield."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "brass-03",
@@ -130,7 +132,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "removing the finality counter before the creature would be put into a graveyard means that counter no longer supplies the exile replacement for that later event."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "brass-04",
@@ -157,7 +160,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "`Roaming Throne` choosing Pirate causes Brass's beginning-of-combat triggered ability to trigger an additional time"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "brass-05",
@@ -178,7 +182,8 @@
      "quote": "Changeling (This card is every creature type.)"
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "brass-06",
@@ -203,7 +208,8 @@
      "card": "Admiral Brass, Unsinkable",
      "quote": "Admiral Brass, Unsinkable's effect will overwrite any previous effects that set the returned creature's power and toughness to specific numbers."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "brass-07",
@@ -235,7 +241,8 @@
      "card": "Skeleton Crew",
      "quote": "Resolving Skeleton Crew's last ability won't cause its second ability to trigger."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "brass-08",
@@ -262,7 +269,8 @@
      "card": "Enterprising Scallywag",
      "quote": "Tokens are not cards, and while tokens are put into the graveyard before ceasing to exist, that action doesn't count as a player having descended."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "brass-09",
@@ -285,7 +293,8 @@
      "quote": "As long as this card is in your graveyard and you control an Island, creatures you control have flying."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "brass-10",
@@ -312,7 +321,8 @@
      "card": "Living Death",
      "quote": "Then all players sacrifice all creatures they control at the same time."
     }
-   ]
+   ],
+   "evidence_class": "strategic_judgment"
   },
   {
    "id": "brass-11",
@@ -337,7 +347,8 @@
      "card": "Victimize",
      "quote": "The creature you sacrifice isn't chosen until Victimize resolves."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "brass-12",
@@ -364,7 +375,8 @@
      "card": "Angrath's Marauders",
      "quote": "If a creature with trample you control would deal combat damage to a blocking creature while you control Angrath's Marauders, you must assign its unmodified damage."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "brass-13",
@@ -385,7 +397,8 @@
      "quote": "Treasures you control are Equipment in addition to their other types and have \"Equipped creature gets +2/+0,\" equip Pirate {1}, and equip {3}."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "brass-14",
@@ -406,7 +419,8 @@
      "quote": "When Admiral Brass enters, mill four cards."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "brass-15",
@@ -434,7 +448,8 @@
      "quote": "When this Aura leaves the battlefield, that creature's controller sacrifices it."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   }
  ]
 }

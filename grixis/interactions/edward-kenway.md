@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/edward-kenway.txt`](../../exports/grixis-archidekt/edward-kenway.txt) · SHA-256 `1e8b8ea5e52e2ea499f07f0d72cbc4305b81cfbf370a163d1378dacc01690b9b` |
+| Canonical project list | [`exports/grixis-archidekt/edward-kenway.txt`](../../exports/grixis-archidekt/edward-kenway.txt) · SHA-256 `1e8b8ea5e52e2ea499f07f0d72cbc4305b81cfbf370a163d1378dacc01690b9b` |
 | Rulings | **11** (10 verified · 0 uncertain · 1 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Edward_Kenway_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/edward_kenway_2026-10-14/Edward_Kenway_Rules_Attestation.json) (11 interactions, all PASS) |
@@ -47,7 +47,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### edward-01: Each tapped permanent counts once
 
-**Status:** ✅ verified · **Cards:** Edward Kenway
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edward Kenway
 
 **Ruling.** Edward's end-step trigger counts tapped permanents you control that are Assassins, Pirates and/or Vehicles. A permanent with several of those types (Edward himself is an Assassin Pirate) still makes one Treasure. The count is taken when the trigger resolves, so whatever is still tapped then counts. Attackers without vigilance stay tapped until your next untap step.
 
@@ -60,7 +60,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### edward-02: Vehicle damage exiles a card you may play, lands included
 
-**Status:** ✅ verified · **Cards:** Edward Kenway, Ramirez DePietro, Pillager
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edward Kenway, Ramirez DePietro, Pillager
 
 **Ruling.** Each Vehicle that deals combat damage to a player triggers Edward separately. The exiled card can be played, so a land can be your land drop for the turn, at normal timing. Ramirez DePietro only lets you cast the card, so lands exiled with Ramirez can't be played. Cards exiled by Edward stay exiled face down if you leave the game.
 
@@ -142,7 +142,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### edward-11: Ramirez and Don Andres
 
-**Status:** ✅ verified · **Cards:** Edward Kenway, Ramirez DePietro, Pillager, Don Andres, the Renegade
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edward Kenway, Ramirez DePietro, Pillager, Don Andres, the Renegade
 
 **Ruling.** A noncreature spell cast from Ramirez's exile is a spell you don't own, so Don Andres makes two tapped Treasures. Stolen creature spells don't trigger Don, but once on the battlefield they're +2/+2 menace deathtouch Pirates under him. That also makes them count for Edward's end-step Treasures when tapped.
 
@@ -172,7 +172,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### edward-09: RMS Titanic: the Edward trigger survives Titanic's sacrifice
 
-**Status:** ✅ verified · **Cards:** Edward Kenway, RMS Titanic
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edward Kenway, RMS Titanic
 
 **Ruling.** When Titanic deals combat damage to a player, its own trigger (sacrifice it, make that many Treasures) and Edward's exile trigger both fire. Edward's trigger resolves independently of Titanic. Titanic is gone by the end step, so Edward doesn't count it.
 
@@ -185,7 +185,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### edward-10: Roaming Throne on Assassin or Pirate
 
-**Status:** ✅ verified · **Cards:** Edward Kenway, Roaming Throne
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edward Kenway, Roaming Throne
 
 **Ruling.** Edward is an Assassin and a Pirate, so Roaming Throne naming either type doubles both of his triggers. Each end-step instance counts the tapped permanents again: twice the Treasures. Roaming Throne itself is the chosen type; if it's tapped at end step, Edward counts it too.
 
