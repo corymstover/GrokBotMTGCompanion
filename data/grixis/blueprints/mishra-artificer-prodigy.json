@@ -1,0 +1,605 @@
+{
+ "schema_version": 2,
+ "deck_id": "Mishra__Artificer_Prodigy",
+ "slug": "mishra-artificer-prodigy",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+ "commanders": {
+  "value": [
+   {
+    "name": "Mishra, Artificer Prodigy",
+    "oracle_id": "b38adaac-3714-4348-9fec-cb2e2ad518b1",
+    "oracle_text": "Whenever you cast an artifact spell, you may search your graveyard, hand, and/or library for a card with the same name as that spell and put it onto the battlefield. If you search your library this way, shuffle.",
+    "oracle_sha256": "sha256:51a3638b137c55ac39f6d73ea389b303b58586463daa43aa701e11653f45e30b",
+    "type_line": "Legendary Creature — Human Artificer"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Mishra, Artificer Prodigy"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Artifact stax-combo: run symmetrical artifact-spell counters (Void Mirror, Chalice of the Void, Blood Funnel, Nether Void, Nullstone Gargoyle, Possibility Storm, Vexing Bauble, Planar Chaos) that only Mishra breaks. His cast trigger can put the countered or exiled card back onto the battlefield from graveyard or library, so the stax hurts opponents only.",
+   "secondary": "Fast artifact mana and tutors assemble commander-free artifact kills: Sensei's Divining Top with Mystic Forge or The Reality Chip, KCI + Scrap Trawler + Myr Retriever, Karn + Aetherflux, or the Karn/Vandalblast + Mycosynth Lattice lock."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L16",
+   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L18"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Mishra turns the deck's own symmetrical counters into one-sided stax: with both triggers ordered, a countered artifact still reaches the battlefield from the graveyard (or from the library after Possibility Storm).",
+   "honest_note": "Mishra is central to the stax half, but none of the 20 Spellbook combos in the list uses him. The kills are generic artifact engines, so without Mishra the deck is a weaker, self-locking artifact pile. His trigger finds only same-name cards; in singleton that means the spell he just cast, after it has left the stack. No M1 interaction review exists yet for this deck."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L18",
+   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L40"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "top-loops",
+   "kind": "combo",
+   "description": "Sensei's Divining Top with a cost reducer or untapper (Etherium Sculptor, Foundry Inspector, Cloud Key, Enthusiastic Mechanaut) plus The Reality Chip or Mystic Forge draws the library.",
+   "cards": [
+    "Sensei's Divining Top",
+    "The Reality Chip",
+    "Mystic Forge",
+    "Etherium Sculptor",
+    "Foundry Inspector",
+    "Cloud Key",
+    "Enthusiastic Mechanaut"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1976-5078-5243",
+    "spellbook:2146-5078-5243",
+    "spellbook:777-5078-5243",
+    "spellbook:4908-5078-5243",
+    "spellbook:777-985-5078",
+    "spellbook:985-1976-5078",
+    "spellbook:985-2146-5078",
+    "spellbook:985-4908-5078"
+   ]
+  },
+  {
+   "id": "aetherflux",
+   "kind": "combo",
+   "description": "Aetherflux Reservoir with Top + Bolas's Citadel, or with Karn, the Great Creator.",
+   "cards": [
+    "Aetherflux Reservoir",
+    "Sensei's Divining Top",
+    "Bolas's Citadel",
+    "Karn, the Great Creator"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:2173-4740-5078",
+    "spellbook:4740-5089"
+   ]
+  },
+  {
+   "id": "kci-loop",
+   "kind": "combo",
+   "description": "Krark-Clan Ironworks + Scrap Trawler + Myr Retriever with a cost reducer or untapper.",
+   "cards": [
+    "Krark-Clan Ironworks",
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Etherium Sculptor",
+    "Foundry Inspector",
+    "Cloud Key",
+    "Enthusiastic Mechanaut"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1020-1976-2866-4659",
+    "spellbook:1020-2146-2866-4659",
+    "spellbook:777-1020-2866-4659",
+    "spellbook:1020-2866-4659-4908"
+   ]
+  },
+  {
+   "id": "lattice-lock",
+   "kind": "alternate",
+   "description": "Lock rather than kill: Mycosynth Lattice with Karn, the Great Creator (lock) or Vandalblast (wipe), then win at leisure.",
+   "cards": [
+    "Mycosynth Lattice",
+    "Karn, the Great Creator",
+    "Vandalblast"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:3263-5089",
+    "spellbook:2552-3263"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "self-counter-recovery",
+   "cards": [
+    "Mishra, Artificer Prodigy",
+    "Void Mirror",
+    "Chalice of the Void",
+    "Blood Funnel",
+    "Nether Void",
+    "Nullstone Gargoyle",
+    "Possibility Storm"
+   ],
+   "online_condition": "Mishra in play, an artifact spell cast, and the counter trigger ordered to resolve before Mishra's.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Mishra, Artificer Prodigy",
+    "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L40"
+   ]
+  },
+  {
+   "id": "artifact-mana",
+   "cards": [
+    "Mishra's Workshop",
+    "Mana Vault",
+    "Grim Monolith",
+    "Sol Ring",
+    "Chrome Mox",
+    "Mox Opal",
+    "Mox Amber",
+    "Mox Diamond",
+    "Metalworker",
+    "Urza, Lord High Artificer"
+   ],
+   "online_condition": "Opening hand.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:parity-stax",
+   "required": true,
+   "min_count": 6,
+   "role": "Symmetrical counters that Mishra breaks.",
+   "cards": [
+    "Void Mirror",
+    "Chalice of the Void",
+    "Blood Funnel",
+    "Nether Void",
+    "Nullstone Gargoyle",
+    "Possibility Storm",
+    "Vexing Bauble",
+    "Planar Chaos"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L18"
+   ]
+  },
+  {
+   "id": "pkg:artifact-tutors",
+   "required": true,
+   "min_count": 6,
+   "role": "Find engine pieces.",
+   "cards": [
+    "Fabricate",
+    "Whir of Invention",
+    "Transmute Artifact",
+    "Tezzeret the Seeker",
+    "Goblin Engineer",
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Praetor's Grasp",
+    "Gamble",
+    "Wishclaw Talisman",
+    "Urza's Saga",
+    "Inventors' Fair"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  },
+  {
+   "id": "pkg:stack-protection",
+   "required": true,
+   "min_count": 4,
+   "role": "Protect the combo turn.",
+   "cards": [
+    "Force of Will",
+    "Force of Negation",
+    "Fierce Guardianship",
+    "Swan Song",
+    "Mana Drain"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L43"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "trigger-ordering",
+   "summary": "Mishra's cast trigger and the counter trigger from my own Void Mirror, Chalice, Blood Funnel or Nether Void are both mine, so I order them. If the counter resolves first, the card is in the graveyard when Mishra searches.",
+   "cards": [
+    "Mishra, Artificer Prodigy",
+    "Void Mirror",
+    "Chalice of the Void",
+    "Blood Funnel",
+    "Nether Void"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Mishra, Artificer Prodigy",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "possibility-storm",
+   "summary": "Possibility Storm can move the original card through exile to the bottom of the library; Mishra's trigger then finds it there.",
+   "cards": [
+    "Mishra, Artificer Prodigy",
+    "Possibility Storm"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L40"
+   ]
+  },
+  {
+   "id": "bauble-mirror-lock",
+   "summary": "Vexing Bauble/Void Mirror + Possibility Storm is a lock on opponents' spells from hand, not an unconditional lock.",
+   "cards": [
+    "Vexing Bauble",
+    "Void Mirror",
+    "Possibility Storm"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L41"
+   ]
+  },
+  {
+   "id": "same-name-only",
+   "summary": "Mishra only finds a card with the same name; in singleton that's the original spell once it has left the stack.",
+   "cards": [
+    "Mishra, Artificer Prodigy"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Mishra, Artificer Prodigy"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Sensei's Divining Top",
+   "via": [
+    "Whir of Invention",
+    "Fabricate",
+    "Tezzeret the Seeker",
+    "Goblin Engineer"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1976-5078-5243"
+   ]
+  },
+  {
+   "target": "Karn, the Great Creator",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:4740-5089"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Academy Ruins",
+   "Goblin Welder",
+   "Emry, Lurker of the Loch",
+   "Scrap Trawler",
+   "Myr Retriever",
+   "Junk Diver",
+   "Mishra, Artificer Prodigy"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Force of Negation, Mana Drain, Swan Song, Cyclonic Rift, Toxic Deluge, Vandalblast.",
+   "protection": "Fierce Guardianship, Lightning Greaves.",
+   "mana": "Workshop, Monoliths, Moxen, Signets."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "mishra-removed",
+   "description": "Without Mishra, the parity stax locks the pilot too.",
+   "mitigations": [
+    "Lightning Greaves",
+    "commander tax affordable with fast mana"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Mishra, Artificer Prodigy"
+   ]
+  },
+  {
+   "id": "artifact-hate",
+   "description": "Artifact removal or stax (Collector Ouphe, Stony Silence) shuts off engines and kills.",
+   "mitigations": [
+    "Counterspells",
+    "Karn lock"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  },
+  {
+   "id": "lock-gaps",
+   "description": "The lock doesn't stop uncounterable effects, abilities or spells not cast from hand.",
+   "mitigations": [
+    "Fast combo"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L41"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L18"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Power Bracket 5 — cEDH (fringe / commander-centric artifact stax-combo)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L20"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Bracket 5 ceiling, fringe: Workshop/Moxen speed, Force suite, Lattice lock and several compact artifact infinites, with a commander-specific stax edge. Agrees with the source; expect it to sit at the low end of cEDH."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L20",
+    "spellbook:1976-5078-5243"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "5",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Mishra__Artificer_Prodigy"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 6,
+     "2": 29,
+     "3": 70,
+     "4": 63,
+     "5": 15
+    },
+    "decks_with_bracket": 183,
+    "share_b4_plus": 0.426,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__mishra-artificer-prodigy.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Mishra, Artificer Prodigy",
+   "why": "Turns countered artifact spells into free permanents.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Mishra, Artificer Prodigy"
+   ]
+  },
+  {
+   "card": "Void Mirror",
+   "why": "Counters opponents' colorless spells; Mishra recovers his own.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L18"
+   ]
+  },
+  {
+   "card": "Possibility Storm",
+   "why": "The strongest identity card according to the source.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L40"
+   ]
+  },
+  {
+   "card": "Sensei's Divining Top",
+   "why": "Hub of the main kill.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1976-5078-5243"
+   ]
+  },
+  {
+   "card": "Karn, the Great Creator",
+   "why": "Lattice lock and Aetherflux access.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:4740-5089"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't replace the stax package with generic Grixis Oracle/Breach; the asymmetry is the identity (decisions L18).",
+   "Slower value artifacts (Darksteel Forge, Sai, Padeem) were cut at this ceiling (decisions L48)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L18",
+   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L48"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Mishra breaks the artifact counter effects that also hit opponents."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L18"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 603.3b",
+   "note": "APNAP ordering of simultaneous triggers.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:603.3b"
+   ]
+  },
+  {
+   "rule": "CR 601.2i",
+   "note": "Cast triggers trigger when the spell becomes cast.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:601.2i"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "artifacts"
+   ],
+   "hooked_cards": 53,
+   "role_counts": {
+    "counter": 12,
+    "draw": 8,
+    "protection": 1,
+    "ramp": 17,
+    "removal": 3,
+    "tutor": 10,
+    "wipe": 1
+   },
+   "lands": 29,
+   "edhrec_pages": [
+    "mishra-artificer-prodigy"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Mishra_Artificer_Prodigy_Approved_2026-10-15.md",
+   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Whole_List_Audit_2026-10-15.csv",
+   "source_archive:refinement/decklists/Mishra_Artificer_Prodigy_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}
