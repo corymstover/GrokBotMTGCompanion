@@ -59,7 +59,6 @@
 1 Mox Amber
 1 Mox Diamond
 1 Mox Opal
-1 Mystic Remora
 1 Mystical Tutor
 1 Orcish Bowmasters
 1 Otawara, Soaring City
@@ -83,6 +82,7 @@
 1 Talisman of Dominance
 1 Talisman of Indulgence
 1 Thassa's Oracle
+1 Thrill of Possibility
 1 Tolarian Winds
 1 Underground Sea
 1 Underworld Breach

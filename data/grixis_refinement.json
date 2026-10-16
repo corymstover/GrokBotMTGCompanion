@@ -434,7 +434,7 @@
     "nonland": 69,
     "dependence": 0.783,
     "generic_share": 0.159,
-    "mean_overlap": 0.208,
+    "mean_overlap": 0.207,
     "max_overlap": [
      0.621,
      "Kess__Dissident_Mage"
@@ -971,10 +971,10 @@
     "nonland": 73,
     "dependence": 0.247,
     "generic_share": 0.397,
-    "mean_overlap": 0.201,
+    "mean_overlap": 0.2,
     "max_overlap": [
-     0.585,
-     "Goben__Gene_Splice_Savant"
+     0.582,
+     "Kefka__Court_Mage"
     ],
     "thoracle_core": [
      "Demonic Consultation",
@@ -1088,11 +1088,11 @@
    },
    "final": {
     "nonland": 76,
-    "dependence": 0.316,
-    "generic_share": 0.303,
-    "mean_overlap": 0.196,
+    "dependence": 0.329,
+    "generic_share": 0.289,
+    "mean_overlap": 0.19,
     "max_overlap": [
-     0.613,
+     0.596,
      "RogSi"
     ],
     "thoracle_core": [
@@ -1107,7 +1107,6 @@
      "Force of Will",
      "Mental Misstep",
      "Mindbreak Trap",
-     "Mystic Remora",
      "Pact of Negation",
      "Rhystic Study",
      "Swan Song"
@@ -1406,7 +1405,7 @@
     "nonland": 72,
     "dependence": 0.708,
     "generic_share": 0.181,
-    "mean_overlap": 0.208,
+    "mean_overlap": 0.207,
     "max_overlap": [
      0.618,
      "Kess__Dissident_Mage"
@@ -1546,7 +1545,7 @@
     "nonland": 72,
     "dependence": 0.75,
     "generic_share": 0.167,
-    "mean_overlap": 0.223,
+    "mean_overlap": 0.222,
     "max_overlap": [
      0.644,
      "Kefka__Court_Mage"
@@ -1820,7 +1819,7 @@
     "nonland": 68,
     "dependence": 0.765,
     "generic_share": 0.221,
-    "mean_overlap": 0.185,
+    "mean_overlap": 0.184,
     "max_overlap": [
      0.353,
      "Mishra__Artificer_Prodigy"
@@ -2361,7 +2360,7 @@
     "nonland": 65,
     "dependence": 0.538,
     "generic_share": 0.354,
-    "mean_overlap": 0.168,
+    "mean_overlap": 0.167,
     "max_overlap": [
      0.294,
      "Mairsil__the_Pretender"
@@ -2571,10 +2570,10 @@
     "nonland": 74,
     "dependence": 0.986,
     "generic_share": 0.0,
-    "mean_overlap": 0.189,
+    "mean_overlap": 0.188,
     "max_overlap": [
-     0.613,
-     "Goben__Gene_Splice_Savant"
+     0.611,
+     "Kefka__Court_Mage"
     ],
     "thoracle_core": [
      "Demonic Consultation",
@@ -2634,7 +2633,7 @@
     "nonland": 68,
     "dependence": 0.868,
     "generic_share": 0.103,
-    "mean_overlap": 0.157,
+    "mean_overlap": 0.156,
     "max_overlap": [
      0.337,
      "Sauron__the_Dark_Lord"
@@ -2747,7 +2746,7 @@
     "nonland": 59,
     "dependence": 0.746,
     "generic_share": 0.22,
-    "mean_overlap": 0.181,
+    "mean_overlap": 0.18,
     "max_overlap": [
      0.43,
      "Sauron__Lord_of_the_Rings"
@@ -2856,7 +2855,7 @@
     "nonland": 64,
     "dependence": 0.344,
     "generic_share": 0.422,
-    "mean_overlap": 0.169,
+    "mean_overlap": 0.168,
     "max_overlap": [
      0.245,
      "Crosis__the_Purger"

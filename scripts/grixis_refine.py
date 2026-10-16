@@ -303,10 +303,15 @@ def plan(dids, batch, R, summ, plans, cycle):
             continue
         pieces = {n for co in combos.get(did, {}).get("combos", []) for n in co["cards"]}
         cuts = []
+        keep = set(load_review().get("protect", {}).get(did, {}).get("cards", []))  # manual review: deck core, never cut
         for c in nl:
+            if c["name"] in keep:
+                continue
             s = ctx.syn.get(c["name"])
             if ctx.hook(c) or (s and s[0] >= CUT_SYN) or freq[c["name"]] < GENERIC_MIN or c.get("game_changer") or c["name"] in pieces:
                 continue
+            if re.search(r"triggers an additional time", otext(c)) and any("triggers" in otext(x) or re.search(r"^(When|Whenever|At)\b", otext(x), re.M) for x in ctx.cmds):
+                continue  # trigger doublers (e.g. Roaming Throne naming the commander's type) serve a triggered commander
             if "ramp" in roles(c) and c.get("cmc", 0) <= 2:
                 continue  # fast mana / cheap rocks: speed serves every commander at its ceiling
             cuts.append(c)
