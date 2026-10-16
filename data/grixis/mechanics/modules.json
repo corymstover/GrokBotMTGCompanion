@@ -1,0 +1,113 @@
+{
+ "framework_version": "1.2-mech.1",
+ "modules": [
+  {
+   "assumptions": [
+    "the creature attacks every turn it is untapped and not summoning-sick",
+    "blocker perturbation: each attack's trigger is lost with probability `block` (deterministic expectation)",
+    "removal perturbation: the creature survives each opponent turn cycle with probability `survive`, compounded from the turn it lands (deterministic expectation)"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); perturbations are closed-form expectations (no rng)",
+   "does_not_model": [
+    "trigger payloads (damage, tokens, cards): counted as triggers only",
+    "actual opponents, blockers, combat math or politics",
+    "attack restrictions, tapping for other costs, vigilance trade-offs",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "attack/combat triggers",
+   "id": "attack_trigger_proxy",
+   "limitations": [
+    "Proxy only: ranks how often a trigger can happen, not what it is worth.",
+    "Opponent behaviour is a fixed perturbation grid, reported as a sensitivity range."
+   ],
+   "metrics": [
+    "attack_triggers_by_turn",
+    "attack_triggers_by_turn_sensitivity"
+   ],
+   "models": [
+    "turn a creature with a 'whenever ~ attacks' / 'whenever you attack' trigger is on your battlefield (zone trace)",
+    "summoning sickness (haste attacks the turn it lands)",
+    "expected attack-trigger count by turns 6/8/10 under a bounded blocker/removal perturbation grid"
+   ],
+   "parameters": {
+    "block": [
+     0.0,
+     0.25,
+     0.5
+    ],
+    "survive": [
+     1.0,
+     0.85,
+     0.7
+    ],
+    "turns": [
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech.py",
+   "version": "1"
+  },
+  {
+   "assumptions": [
+    "a target is legal if its card model has the type the recursion text names (creature/artifact/instant/sorcery/permanent/any card)",
+    "no opponent interaction with the graveyard"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); no extra rng",
+   "does_not_model": [
+    "self-mill, discard outlets, opponents' removal filling the graveyard (the v1.1 graveyard is thin, so this under-counts)",
+    "the value of the returned card",
+    "graveyard hate from opponents (see stress scenario graveyard_exiled)",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "graveyard recursion",
+   "id": "graveyard_recursion",
+   "limitations": [
+    "v1.1 sends few cards to the graveyard (no creature deaths), so live rates are lower bounds."
+   ],
+   "metrics": [
+    "recursion_live_by_turn",
+    "legal_targets_when_live"
+   ],
+   "models": [
+    "graveyard contents by turn from the v1.1 zone trace (cards the model already puts there: spent spells, sacrificed/used one-shots, scenario events)",
+    "turn a recursion card is available (on battlefield or in hand) while your graveyard holds a legal target of the type it names",
+    "P(recursion live by turn 4/6/8) and mean legal targets when live"
+   ],
+   "parameters": {
+    "turns": [
+     4,
+     6,
+     8
+    ]
+   },
+   "test_file": "tests/test_mech.py",
+   "version": "1"
+  }
+ ],
+ "planned_families": [
+  "activated_engines",
+  "alternate_costs",
+  "cast_triggers",
+  "commander_specific",
+  "counterspell_density",
+  "death_triggers",
+  "discard",
+  "graveyard_tutoring",
+  "led_breach_sequences",
+  "life_loss",
+  "opponent_dependent_draw",
+  "repeatable_draw",
+  "repeatable_tutors",
+  "sacrifice_costs",
+  "stack_protection",
+  "stax_tax",
+  "tokens",
+  "x_spells"
+ ]
+}

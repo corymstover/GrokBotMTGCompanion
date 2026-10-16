@@ -1,0 +1,97 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/mechanic_module.schema.json",
+ "title": "Step E mechanic module declaration (simulator v1.2 framework, Bot cycle 66.1)",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "version",
+  "family",
+  "evidence_class",
+  "models",
+  "does_not_model",
+  "assumptions",
+  "parameters",
+  "confidence",
+  "limitations",
+  "metrics",
+  "determinism",
+  "test_file"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z_]+$"
+  },
+  "version": {
+   "type": "string"
+  },
+  "family": {
+   "type": "string"
+  },
+  "evidence_class": {
+   "const": "test_result"
+  },
+  "models": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "string"
+   }
+  },
+  "does_not_model": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "string"
+   },
+   "contains": {
+    "type": "string",
+    "pattern": "win rate"
+   }
+  },
+  "assumptions": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "string"
+   }
+  },
+  "parameters": {
+   "type": "object"
+  },
+  "confidence": {
+   "enum": [
+    "low",
+    "moderate",
+    "high"
+   ]
+  },
+  "limitations": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "string"
+   }
+  },
+  "metrics": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "string",
+    "not": {
+     "pattern": "win_rate|win_probability"
+    }
+   }
+  },
+  "determinism": {
+   "type": "string",
+   "minLength": 10
+  },
+  "test_file": {
+   "type": "string",
+   "pattern": "^tests/test_.*\\.py$"
+  }
+ }
+}

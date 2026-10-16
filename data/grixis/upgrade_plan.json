@@ -116,13 +116,25 @@
         10,
         14
       ],
-      "status": "not_started",
+      "status": "in_progress",
       "depends_on": [
         "A"
       ],
       "decisions": [
         "D4"
-      ]
+      ],
+      "started": "Bot cycle 66.1",
+      "framework": "scripts/grixis_mech/",
+      "schema": "data/grixis/schemas/mechanic_module.schema.json",
+      "implemented_modules": [
+        "attack_trigger_proxy",
+        "graveyard_recursion"
+      ],
+      "legacy_not_modelable_routed": {
+        "not_modelable": 582,
+        "planned_module": 6300,
+        "routed": 2158
+      }
     },
     {
       "order": 4,
