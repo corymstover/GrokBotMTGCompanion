@@ -82,7 +82,7 @@ schema: 2
 - **Exports:**
   - The export README now carries per-deck key notes: dependence, hooks, hand-review verdict, flags, protected cards. It also has an import-notes section.
   - Final export pass in `validate_all`: every file has well-formed `N Name` lines, the commander line(s) first as `1 Name [Commander]`, exactly 100 cards, and no repeated lines.
-- **Batch 4 miscount fixed:** 7 verdicts covering 6 cards (Consider twice). The merged PR #113 body was left as is.
+- **Batch 4 miscount fixed:** 7 verdicts covering 6 cards (Consider twice). The merged PR #113 body was corrected the same way (one `gh api` PATCH; `gh pr edit` fails on the Projects-classic deprecation).
 - **Source:** pulled again, still at `1836b97`.
 - Tagged `v2.5-grixis-refinement` after merge. `validate_all` PASS.
 

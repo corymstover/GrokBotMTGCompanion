@@ -5,7 +5,7 @@ tags: [grixis, summary, follow-ups]
 issues: [59, 60, 61, 62, 63]
 generated_by: hand-written
 sources: [grixis-repo]
-related: ["grixis/Grixis Corrections.md", "Front-Matter Schema.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "grixis/Grixis Evaluation.md", "grixis/Grixis Packages.md"]
+related: ["grixis/Grixis Corrections.md", "Front-Matter Schema.md", "grixis/Grixis Refinement Cycle.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "grixis/Grixis Evaluation.md"]
 schema: 2
 ---
 
