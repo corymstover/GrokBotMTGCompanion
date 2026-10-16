@@ -267,7 +267,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists T](../Artist%20Index.md#artists-t) · [Tokens, Emblems & Dungeons → Noncreature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#noncreature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tamiyo](../Characters%20Index.md#tamiyo) (name-match) · [Tamiyo](../Planeswalker%20Dossiers.md#tamiyo) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tamiyo](../Characters%20Index.md#tamiyo) (depicts) · [Tamiyo](../Planeswalker%20Dossiers.md#tamiyo) (depicts)
 
 ### Tamiyo, Field Researcher
 
@@ -1303,7 +1303,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Lore & story (3):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists L](../Artist%20Index.md#artists-l) (+1 more) · [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Tezzeret](../Characters%20Index.md#tezzeret) (name-match) · [Tezzeret](../Planeswalker%20Dossiers.md#tezzeret) (name-match)
+- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Tezzeret](../Characters%20Index.md#tezzeret) (depicts) · [Tezzeret](../Planeswalker%20Dossiers.md#tezzeret) (depicts)
 
 ### Tezzeret, Cruel Captain
 
@@ -4860,4 +4860,4 @@ schema: 2
 [Card entry](../cards/T/ty.md#tyvar-the-pummeler) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tyvar Kell](../Characters%20Index.md#tyvar-kell) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tyvar Kell](../Characters%20Index.md#tyvar-kell) (depicts)

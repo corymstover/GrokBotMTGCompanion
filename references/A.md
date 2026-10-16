@@ -874,7 +874,7 @@ schema: 2
 - **Rules (1):** [Keyword Encyclopedia → Compleated](../Keyword%20Encyclopedia.md#compleated)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ajani Goldmane](../Characters%20Index.md#ajani-goldmane) (name-match) · [Ajani Goldmane](../Planeswalker%20Dossiers.md#ajani-goldmane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ajani Goldmane](../Characters%20Index.md#ajani-goldmane) (depicts) · [Ajani Goldmane](../Planeswalker%20Dossiers.md#ajani-goldmane) (depicts)
 
 ### Ajani's Response
 
@@ -1358,7 +1358,7 @@ schema: 2
 [Card entry](../cards/A/am.md#aminatou-veil-piercer) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (depicts)
 
 ### Ammit Eternal
 

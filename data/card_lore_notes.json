@@ -1,5 +1,5 @@
 {
- "_doc": "Curated card lore notes for scripts/build_card_enrichment.py (Bot cycles 33–35, Phase 8, #100). Key = exact card name. relation: depicts | references | echoes (echoes = mechanics mirror a cited moment; guidance). Every note cites official (wizards.com) pages; every double-quoted passage must be verbatim in a cited cached page (checked by build_card_enrichment.py --check). flag: optional ⚠️ / 🚫.",
+ "_doc": "Curated card lore notes for scripts/build_card_enrichment.py (Bot cycles 33–36, Phase 8, #100). Key = exact card name. relation: depicts | references | echoes (echoes = mechanics mirror a cited moment; guidance). Every note cites official (wizards.com) pages; every double-quoted passage must be verbatim in a cited cached page (checked by build_card_enrichment.py --check). flag: optional ⚠️ / 🚫.",
  "Godsend": {
   "relation": "depicts",
   "text": "Heliod \"reforged the sword into the spear Godsend\"; Elspeth later \"stabbed Xenagos with Godsend, destroying him once and for all\"",
@@ -139,6 +139,27 @@
   "text": "Vraska follows the thaumatic compass in the scene captioned with the card: \"She pulled out the thaumatic compass and, sure enough, the needle pointed upward.\"",
   "sources": [
    "https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31"
+  ]
+ },
+ "Assemble the Players": {
+  "relation": "depicts",
+  "text": "Story Spotlight for Murders at Karlov Manor Episode 8: \"Proft calls a meeting of the guild leaders, and one by one, they arrive at Vitu-Ghazi.\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/card-preview/story-spotlight-cards-for-murders-at-karlov-manor"
+  ]
+ },
+ "Matzalantli, the Great Door // The Core": {
+  "relation": "depicts",
+  "text": "Story Spotlight for The Lost Caverns of Ixalan Episode 4: the Sun Empire team and the vampire expedition \"now stand before Matzalantli, the great door.\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/card-preview/story-spotlight-cards-for-the-lost-caverns-of-ixalan"
+  ]
+ },
+ "Huatli's Final Strike": {
+  "relation": "depicts",
+  "text": "Story Spotlight for The Lost Caverns of Ixalan Episode 6: \"Huatli took up the lance wrested from Vito and stabbed him through the heart, pinning him to the ground.\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/card-preview/story-spotlight-cards-for-the-lost-caverns-of-ixalan"
   ]
  }
 }

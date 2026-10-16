@@ -160,7 +160,7 @@ schema: 2
 
 - **Rules (1):** [Keyword Encyclopedia → Casualty](../Keyword%20Encyclopedia.md#casualty)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ob Nixilis](../Characters%20Index.md#ob-nixilis) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ob Nixilis](../Characters%20Index.md#ob-nixilis) (depicts)
 
 ### Ob Nixilis, the Ascended
 

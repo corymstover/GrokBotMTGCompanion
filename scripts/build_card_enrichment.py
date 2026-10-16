@@ -419,6 +419,37 @@ def pool(rows_by_key, by_id, prints, links, cc, caps, prev=None):
     return tiers
 
 
+# ------------------------------------------------------------------ official "Legends of …" / Story Spotlight pages (Bot cycle 36)
+_EXTRA = None
+
+
+def extra_pages():
+    """{url: {"title", "lines" (normalized text lines), "kind"}} from .cache/story/extra/ (scripts/fetch_story_pages.py,
+    data/story_extra_sources.csv). These articles give each legend a heading line (the card name) and a backstory."""
+    global _EXTRA
+    if _EXTRA is None:
+        import lore_quotes as Q
+        _EXTRA = {}
+        kinds = {r["url"].rstrip("/"): r["kind"] for r in csv.DictReader((ROOT / "data" / "story_extra_sources.csv").open(encoding="utf-8"))} \
+            if (ROOT / "data" / "story_extra_sources.csv").exists() else {}
+        for f in sorted((ROOT / ".cache" / "story" / "extra").glob("*.txt")):
+            t = f.read_text(encoding="utf-8")
+            head, _, body = t.partition("\n\n")
+            url = head.split("\n", 1)[0][4:].strip().rstrip("/")
+            title = re.sub(r"\s*\|\s*MAGIC: THE GATHERING\s*$", "", (re.search(r"^TITLE: (.*)$", head, re.M) or [None, ""])[1], flags=re.I)
+            _EXTRA[url] = {"title": title.strip(), "kind": kinds.get(url, "legends"),
+                           "lines": {Q.norm(l).strip(" .") for l in body.splitlines() if l.strip()}, "text": Q.norm(body)}
+    return _EXTRA
+
+
+def presented_on(card_name, norm):
+    """Official pages whose own heading line is the card's (front-face) name: [[title, url, kind]]."""
+    fr = norm(front(card_name)).strip(" .")
+    if len(fr.split()) < 2:
+        return []
+    return [[v["title"], u, v["kind"]] for u, v in sorted(extra_pages().items()) if fr in v["lines"]]
+
+
 # ------------------------------------------------------------------ name-match audit (Bot cycle 35, #100)
 OFFICIAL_URL = re.compile(r"https?://magic\.wizards\.com/en/[^\s)\]>\"]+")
 
@@ -481,6 +512,12 @@ def audit_name_match(x, c, e, p, caps, S, norm):
             if _has(S.get(u, ""), fr) and any(_has(S.get(u, ""), norm(n)) for n in names):
                 hit = {"by": "page", "source": u, "detail": "official page names the card" + (" (cited by the entry)" if u in ent_urls else "")}
                 break
+    if not hit:
+        for t, u, kind in presented_on(c["name"], norm):
+            if not any(_has(extra_pages()[u]["text"], norm(n)) for n in names):
+                continue
+            hit = {"by": "legends", "source": u, "detail": f"card presented on {t}"}
+            break
     if not hit:
         for fl in p.get("flavors", []):
             if any(_has(norm(fl), norm(n)) for n in names):
@@ -547,6 +584,7 @@ def lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev_lore
     sec = afs.get(k)
     out = {"relations": rel, "spotlight": sorted(set(p["spotlight"]))[:3], "flavor_on": sorted(flav)[:3],
            "art_on": sorted(art, key=lambda x: x[1])[:3], "art_flavor": list(sec) if sec else None,
+           "presented_on": presented_on(c["name"], norm)[:3],
            "flags": (["🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon"] if p["stamps"] and p["stamps"] <= {"triangle"} else []) +
                     (["🚫 Un-/playtest card (every printing in a `funny` set): outside story canon"] if p.get("set_types") and p["set_types"] <= {"funny"} else []) +
                     (["⚠️ digital-only card (no paper printing)"] if not p.get("sets") else [])}
@@ -615,6 +653,8 @@ def render(r, card, lore, syn, rows_by_name):
                      (f" — [Art & Flavor → {sec[1]}](../../Art%20%26%20Flavor%20Story%20Links.md#{sec[0]})" if sec else ""))
     if lore.get("art_on"):
         parts.append("✅ Card art shown on " + ", ".join(f"[{t}]({u})" for t, u in lore["art_on"]) + " (caption names the card and its artist)")
+    for t, u, kind in lore.get("presented_on", []):
+        parts.append(f"✅ {'Listed on' if kind == 'spotlight' else 'Presented with an official backstory on'} [{t}]({u})")
     if lore["flavor_on"]:
         parts.append("✅ Flavor text verbatim on " + ", ".join(f"[official page {i + 1}]({u})" for i, u in enumerate(lore["flavor_on"])))
     if lore.get("note"):
@@ -623,7 +663,7 @@ def render(r, card, lore, syn, rows_by_name):
     if by_rel["name-match"]:
         parts.append("⚠️ Name match only (not a canon claim): " + " · ".join(by_rel["name-match"]))
     parts += lore["flags"]
-    if not (lore["relations"] or lore["spotlight"] or lore.get("art_on") or lore["flavor_on"] or lore.get("note")):
+    if not (lore["relations"] or lore["spotlight"] or lore.get("art_on") or lore["flavor_on"] or lore.get("note") or lore.get("presented_on")):
         parts.insert(0, NO_LORE)
     lore_line = f"{LORE_P} " + " — ".join(p.strip() for p in parts) + " · [format](../../Card%20Enrichment.md#lore-line)"
     pv, gd = syn["proven"], syn["guidance"]
@@ -746,9 +786,10 @@ def write_page(d):
           "| **Featured in** | the entry's text links the card in another context: a plane's notable cards, an arc beat, a retcon | same |",
           "| ✅ **Story Spotlight** | a printing Wizards marked as depicting a story moment (Scryfall `story_spotlight`) | Scryfall default-cards bulk |",
           "| ✅ **Flavor text verbatim on** | a printed flavor text that appears word for word on a cached official page | `.cache/story/` (Wizards pages) |",
+          "| ✅ **Presented with an official backstory on** / **Listed on** | the card's (front-face) name is a heading line on an official *Legends of …* article (each legend with its backstory) or a *Story Spotlight Cards* preview article (Bot cycle 36) | `data/story_extra_sources.csv` → `.cache/story/extra/` (Wizards pages) |",
           "| *Depicts / References / Echoes:* note | curated note (`data/card_lore_notes.json`). *Echoes* = the card's mechanics mirror a cited story moment (guidance) | official sources listed in the note |",
           "| (the entry line carries ⚠️/❓/🚫) | the lore-entry line that links the card has an uncertainty flag; read the entry before relying on the link | the entry |",
-          "| **Depicts — name match confirmed** | a name-matched character card (below) tied to the character by official evidence (Bot cycle 35 audit): its art captioned on an official story page that names the character · an official page (preferably one the entry cites) naming the card · its flavor text naming the character · a Story Spotlight printing | the page linked on the line; for flavor/Spotlight the entry's own citations |",
+          "| **Depicts — name match confirmed** | a name-matched character card (below) tied to the character by official evidence (Bot cycle 35 audit): its art captioned on an official story page that names the character · an official page (preferably one the entry cites) naming the card · the card presented as a legend on an official *Legends of …* / Story Spotlight article that names the character (cycle 36, second pass) · its flavor text naming the character · a Story Spotlight printing | the page linked on the line; for flavor/Spotlight the entry's own citations |",
           "| ⚠️ **Name match only** | the card's name matches a character entry (the generated *Character cards (name-matched)* tables). Not a claim about canon, timing or which version | Scryfall names |",
           "| 🚫 | every paper printing is Universes Beyond (triangle security stamp), or every paper printing is in an Un-/playtest (`funny`) set: outside the Multiverse story | Scryfall `security_stamp`, `set_type` |",
           "| ⚠️ digital-only | the card has no paper printing | Scryfall `digital` |",
@@ -774,9 +815,9 @@ def write_page(d):
                     au["of which ⚠️ digital-only card"] += 1
     lab = {"art": "confirmed: art captioned on an official page naming the character", "page": "confirmed: official page names the card",
            "flavor": "confirmed: flavor text names the character", "flavor-page": "confirmed: flavor text verbatim on an official page naming the character",
-           "spotlight": "confirmed: Story Spotlight printing"}
+           "spotlight": "confirmed: Story Spotlight printing", "legends": "confirmed: card presented on an official Legends / Story Spotlight article naming the character (cycle 36)"}
     L_ += ["", "## Name-match audit",
-           "Bot cycle 35 ([#100](" + ISS + "100)): every link that rested only on a name match (*Character cards (name-matched)* tables) was tested against the cached official story pages (`scripts/fetch_story_pages.py`), the entry's citations and the card's printings. Confirmed links render as *Depicts — name match confirmed* with the evidence; the rest stay ⚠️. Group headings no longer repeat cards that sit under the character's own heading (those links were removed in `scripts/build_crossrefs.py`).", "",
+           "Bot cycle 35 ([#100](" + ISS + "100)): every link that rested only on a name match (*Character cards (name-matched)* tables) was tested against the cached official story pages (`scripts/fetch_story_pages.py`), the entry's citations and the card's printings. Confirmed links render as *Depicts — name match confirmed* with the evidence; the rest stay ⚠️. Bot cycle 36 ran a second pass over the remaining ⚠️ links with the official *Legends of …* and *Story Spotlight Cards* articles (`data/story_extra_sources.csv`); Planeswalker's Guide card galleries are images, so they are not used as evidence. Group headings no longer repeat cards that sit under the character's own heading (those links were removed in `scripts/build_crossrefs.py`).", "",
            "| Result | Links |", "|---|---|"] + [f"| {lab.get(k, k)} | {n:,} |" for k, n in sorted(au.items(), key=lambda kv: (kv[0].startswith("of which"), kv[0].startswith("kept"), -kv[1]))]
     L_ += ["", "Batches: " + "; ".join(f"Bot cycle {b['cycle']} — {b['rule']}" for b in d["batches"]) + ".", "",
            "## Enriched cards", "Every enriched card, by type and batch. The full per-card record is `data/card_enrichment.json`; the card's own entry shows the two lines.", "",
@@ -849,7 +890,7 @@ def pkg_sections():
 
 def S_all():
     import lore_quotes as Q
-    return Q.story()
+    return set(Q.story()) | set(extra_pages())
 
 
 def check(d):
@@ -857,7 +898,7 @@ def check(d):
     keys = {f"{e['page']}#{e['anchor']}": e for e in L.all_entries()}
     for oid, v in d["cards"].items():
         lo = v["lore"]
-        if not (lo["relations"] or lo.get("note") or lo["spotlight"] or lo["flavor_on"] or lo.get("art_on")):
+        if not (lo["relations"] or lo.get("note") or lo["spotlight"] or lo["flavor_on"] or lo.get("art_on") or lo.get("presented_on")):
             if v["batch"] < 35:
                 bad.append(f"{v['name']}: no lore relation or official evidence")
             elif NO_LORE not in v["lines"][0]:
@@ -876,9 +917,9 @@ def check(d):
             if x["relation"] != "name-match" and not x["sources"]:
                 bad.append(f"{v['name']}: {x['entry']} relation has no official citation")
             target = (v["shard"], v["anchor"])
-            if x.get("confirmed") and x["confirmed"]["by"] not in ("art", "page", "flavor", "flavor-page", "spotlight"):
+            if x.get("confirmed") and x["confirmed"]["by"] not in ("art", "page", "legends", "flavor", "flavor-page", "spotlight"):
                 bad.append(f"{v['name']}: unknown name-match confirmation {x['confirmed']['by']}")
-            if x.get("confirmed") and x["confirmed"]["source"] and S_all() and x["confirmed"]["by"] in ("page", "flavor-page", "art") \
+            if x.get("confirmed") and x["confirmed"]["source"] and S_all() and x["confirmed"]["by"] in ("page", "legends", "flavor-page", "art") \
                     and x["confirmed"]["source"].rstrip("/") not in S_all():
                 bad.append(f"{v['name']}: name-match confirmation cites an uncached page {x['confirmed']['source']}")
             if x["relation"] == "name-match" or x["via"].startswith("name"):
@@ -898,7 +939,7 @@ def check(d):
             import lore_quotes as Q
             S = Q.story()
             if S:
-                pages = [S.get(u.rstrip("/"), "") for u in nt.get("sources", [])]
+                pages = [S.get(u.rstrip("/"), "") or extra_pages().get(u.rstrip("/"), {}).get("text", "") for u in nt.get("sources", [])]
                 for q in Q.pair_quotes(nt["text"]):
                     if not all(any(pp in pg for pg in pages) for pp in Q.parts(q)):
                         bad.append(f"{v['name']}: note quote not verbatim in its cited page: \"{q[:60]}\"")

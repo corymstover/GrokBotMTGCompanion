@@ -1208,7 +1208,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Artifacts: Artifact payoffs](../EDH%20Packages.md#artifacts-artifact-payoffs)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists D](../Artist%20Index.md#artists-d) (+1 more) · [Tokens, Emblems & Dungeons → Noncreature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#noncreature-tokens) (+1 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (name-match) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (depicts) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (depicts)
 
 ### Chandra, the Firebrand
 

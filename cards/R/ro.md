@@ -968,7 +968,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6067 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-04-29* — If an effect allows you to cast Rocco without paying its mana cost, X is 0.
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Streets of New Capenna](https://magic.wizards.com/en/news/feature/the-legends-youll-find-in-streets-of-new-capenna) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 9,999 decks; highest synergy [Wirewood Symbiote](../../cards/W/wi.md#wirewood-symbiote) (+50%), [Eternal Witness](../../cards/E/et.md#eternal-witness) (+45%), [Norin the Wary](../../cards/N/no.md#norin-the-wary) (+37%) · EDHREC: in 15,792 decks; most often under [Voja, Jaws of the Conclave](../../cards/V/vo.md#voja-jaws-of-the-conclave) (22.1% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (19.0% of its decks), [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (8.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/218/rocco-cabaretti-caterer) · oracle_id `41c765a4-a9c9-4169-a9f1-74ededeb793c` · printing: SNC #218 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

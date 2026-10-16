@@ -473,7 +473,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → +1/+1 counters: Proliferate](../EDH%20Packages.md#11-counters-proliferate)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Venser](../Characters%20Index.md#venser) (name-match) · [Venser](../Planeswalker%20Dossiers.md#venser) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Venser](../Characters%20Index.md#venser) (depicts) · [Venser](../Planeswalker%20Dossiers.md#venser) (depicts)
 
 ### Venser, Fervent Forger
 
@@ -973,7 +973,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Graveyard: Self-mill](../EDH%20Packages.md#graveyard-self-mill)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vivien Reid](../Characters%20Index.md#vivien-reid) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vivien Reid](../Characters%20Index.md#vivien-reid) (depicts)
 
 ### Vivien Reid
 

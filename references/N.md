@@ -217,7 +217,7 @@ schema: 2
 [Card entry](../cards/N/na.md#narset-jeskai-waymaster) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Narset](../Characters%20Index.md#narset) (name-match) · [Narset](../Planeswalker%20Dossiers.md#narset) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Narset](../Characters%20Index.md#narset) (depicts) · [Narset](../Planeswalker%20Dossiers.md#narset) (depicts)
 
 ### Narset of the Ancient Way
 
@@ -761,7 +761,7 @@ schema: 2
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Noncreature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#noncreature-tokens)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Niko Aris](../Characters%20Index.md#niko-aris) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Niko Aris](../Characters%20Index.md#niko-aris) (depicts)
 
 ### Nimble Obstructionist
 
@@ -969,7 +969,7 @@ schema: 2
 [Card entry](../cards/N/ni.md#niv-mizzet-guildpact) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (depicts)
 
 ### Niv-Mizzet, Parun
 

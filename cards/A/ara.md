@@ -76,7 +76,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2282 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-09-20* — The value of X is determined only once, as Arabella's ability resolves.
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Duskmourn: House of Horror](https://magic.wizards.com/en/news/feature/the-legends-of-duskmourn-house-of-horror) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Arabella, Abandoned Doll + Storm Herd](https://commanderspellbook.com/combo/2067-5960/) (Near-infinite damage, Near-infinite lifegain) · EDHREC as commander: 21,630 decks; highest synergy [Dusk // Dawn](../../cards/D/du.md#dusk--dawn) (+54%), [Welcoming Vampire](../../cards/W/we.md#welcoming-vampire) (+52%), [Enduring Innocence](../../cards/E/en.md#enduring-innocence) (+51%) · EDHREC: in 50,459 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (23.2% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (23.3% of its decks), [Zinnia, Valley's Voice](../../cards/Z/zi.md#zinnia-valleys-voice) (26.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/208/arabella-abandoned-doll) · oracle_id `7c4bbb1b-29c4-4e06-aed0-b361293a585b` · printing: DSK #208 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

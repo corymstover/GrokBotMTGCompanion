@@ -52,7 +52,7 @@ schema: 2
 - **Decks (2):** [Goro-Goro and Satoru (Grixis)](../grixis/decks/goro-goro-and-satoru.md) · [Yuriko, the Tiger's Shadow](../decks/yuriko-the-tigers-shadow.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaito Shizuki](../Characters%20Index.md#kaito-shizuki) (name-match) · [Kaito Shizuki](../Planeswalker%20Dossiers.md#kaito-shizuki) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaito Shizuki](../Characters%20Index.md#kaito-shizuki) (depicts) · [Kaito Shizuki](../Planeswalker%20Dossiers.md#kaito-shizuki) (depicts)
 
 ### Kaito, Cunning Infiltrator
 
@@ -76,7 +76,7 @@ schema: 2
 
 - **Lore & story (3):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Kamigawa (Neon Dynasty era)](../Planes%20Index.md#kamigawa-neon-dynasty-era) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists T](../Artist%20Index.md#artists-t) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
-- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kamigawa (Neon Dynasty era)](../Planes%20Index.md#kamigawa-neon-dynasty-era) (featured) · [Kaito Shizuki](../Characters%20Index.md#kaito-shizuki) (name-match) · [Kaito Shizuki](../Planeswalker%20Dossiers.md#kaito-shizuki) (name-match)
+- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kamigawa (Neon Dynasty era)](../Planes%20Index.md#kamigawa-neon-dynasty-era) (featured) · [Kaito Shizuki](../Characters%20Index.md#kaito-shizuki) (depicts) · [Kaito Shizuki](../Planeswalker%20Dossiers.md#kaito-shizuki) (depicts)
 
 ### Kalain, Reclusive Painter
 
@@ -284,7 +284,7 @@ schema: 2
 - **Decks (2):** [Braids, Arisen Nightmare (Dominaria-only)](../decks/plane-dominaria-braids-arisen-nightmare.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Noncreature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#noncreature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Karn](../Characters%20Index.md#karn) (name-match) · [Karn](../Planeswalker%20Dossiers.md#karn) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Karn](../Characters%20Index.md#karn) (depicts) · [Karn](../Planeswalker%20Dossiers.md#karn) (depicts)
 
 ### Karn's Bastion
 
@@ -519,7 +519,7 @@ schema: 2
 [Card entry](../cards/K/ka.md#kaya-spirits-justice) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaya](../Characters%20Index.md#kaya) (name-match) · [Kaya](../Planeswalker%20Dossiers.md#kaya) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaya](../Characters%20Index.md#kaya) (depicts) · [Kaya](../Planeswalker%20Dossiers.md#kaya) (depicts)
 
 ### Kaya the Inexorable
 
@@ -641,7 +641,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Lands / landfall: Extra land drops](../EDH%20Packages.md#lands--landfall-extra-land-drops)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Adventurer cards (real cards)](../Tokens%2C%20Emblems%20%26%20Dungeons.md#adventurer-cards-real-cards)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kellan](../Characters%20Index.md#kellan) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kellan](../Characters%20Index.md#kellan) (depicts)
 
 ### Kellan Joins Up
 

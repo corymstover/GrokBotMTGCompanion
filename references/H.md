@@ -745,7 +745,7 @@ schema: 2
 
 - **EDH guides (2):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [EDH Staples → Bant (WUG)](../EDH%20Staples.md#bant-wug)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Helga](../Characters%20Index.md#helga) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Helga](../Characters%20Index.md#helga) (depicts)
 
 ### Heliod, God of the Sun
 

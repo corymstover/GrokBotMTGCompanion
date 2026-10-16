@@ -633,7 +633,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists T](../Artist%20Index.md#artists-t) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Elspeth Tirel](../Characters%20Index.md#elspeth-tirel) (name-match) · [Elspeth Tirel](../Planeswalker%20Dossiers.md#elspeth-tirel) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Elspeth Tirel](../Characters%20Index.md#elspeth-tirel) (depicts) · [Elspeth Tirel](../Planeswalker%20Dossiers.md#elspeth-tirel) (depicts)
 
 ### Elspeth's Smite
 
@@ -1669,7 +1669,7 @@ schema: 2
 - **Rules (1):** [Keyword Encyclopedia → Cloak](../Keyword%20Encyclopedia.md#cloak)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists I](../Artist%20Index.md#artists-i)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (depicts)
 
 ### Etrata, the Silencer
 

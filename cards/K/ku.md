@@ -484,7 +484,7 @@ schema: 2
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4523 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 851 decks; highest synergy [Thespian's Stage](../../cards/T/thes.md#thespians-stage) (+79%), [Dark Depths](../../cards/D/da.md#dark-depths) (+74%), [High Market](../../cards/H/hi.md#high-market) (+69%) · EDHREC: in 35,144 decks; most often under [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (17.2% of its decks), [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (11.3% of its decks), [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (14.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/K.md#kura-the-boundless-sky)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/200/kura-the-boundless-sky) · oracle_id `6426e73a-7e11-48ab-ac5c-15647c6cf9ba` · printing: NEO #200 (2022-02-18) · [rulings](https://api.scryfall.com/cards/06b25752-26be-4189-bc8b-828db6f0e612/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
