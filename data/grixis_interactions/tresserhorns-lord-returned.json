@@ -1,0 +1,305 @@
+{
+ "schema": 1,
+ "deck_id": "Tresserhorn_s_Lord__Returned",
+ "slug": "tresserhorns-lord-returned",
+ "commanders": [
+  "Tresserhorn's Lord, Returned"
+ ],
+ "deck_sha256": "d30533e2a9574c55552115353ba2c16fc36aacf11be3c4b700d52bc9cddbcd3e",
+ "list_source": "exports/grixis-archidekt/tresserhorns-lord-returned.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 56,
+ "batch": "F",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification (no rules attestation JSON in source)"
+  }
+ ],
+ "summary": "Tresserhorn's Lord, Returned is a 10/4 trample, indestructible Zombie. When he enters you must sacrifice three creatures (three draws) or sacrifice him (one draw), and he draws on every creature sacrifice after that. The deck loops The Locust God with a free outlet, loops Gravecrawler, and spikes draws with Plumb the Forbidden, Allure of Power and Infantry Shield. All 21 Spellbook lines have every piece in the list. The source has no rules attestation JSON, so this review uses the approval-ready verification, and the canonical list matches its 19-card delta. The commander's one official ruling (Gatherer, 7/29/2026) is quoted verbatim. The deck stays PENDING_RELEASE until 2026-11-13.\n\nRules surprises: declining the enter cost still draws 1; three sacrifices = three draws; Blasphemous Edict takes Tresserhorn unless you have 13+ other creatures; Nightscape Familiar saves only {1}. Flags: anti-synergy (Edict) and documentation (the source's premature legality claim). No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "tressret-01",
+   "category": "commander",
+   "title": "The enter trigger: pay all of it (three sacrifices = three draws) or he's sacrificed (one draw)",
+   "cards": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "ruling": "When Tresserhorn's Lord enters, you either do all of it or none: sacrifice three creatures, pay 3 life and have an opponent draw three. You can't pay part of it.\n- **If you pay,** he's on the battlefield when the three sacrifices happen, so his draw ability triggers three times, once per creature.\n- **If you don't or can't,** he's sacrificed. His own sacrifice triggers his draw ability once, by looking back in time, and he can then go to the command zone.\n\nHis indestructibility doesn't stop either sacrifice.\n\nOfficial Gatherer ruling (7/29/2026, Mystery Booster Commander Edition release notes; https://gatherer.wizards.com/MBC/en-us/52/tresserhorns-lord-returned): \"If you sacrifice Tresserhorn's Lord for any reason (including as part of the effect of his first triggered ability), his last triggered ability will trigger. If you sacrifice him at the same time as one or more other creatures, his last ability will trigger for each of those creatures, including himself.\" That ruling isn't in the 2026-10-15 rulings bulk yet; it was quoted from Gatherer on 2026-10-16.",
+   "short": "Pay all three sacrifices = 3 draws; decline = he's sacrificed and still draws 1.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "118.12",
+    "603.10a",
+    "603.2c",
+    "701.21a"
+   ],
+   "oracle": [
+    {
+     "card": "Tresserhorn's Lord, Returned",
+     "quote": "When Tresserhorn's Lord enters, sacrifice him unless you sacrifice three creatures, pay 3 life, and have target opponent draw three cards."
+    },
+    {
+     "card": "Tresserhorn's Lord, Returned",
+     "quote": "Whenever you sacrifice a creature, draw a card."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "The same release notes state that if Tresserhorn is sacrificed, including to its own ETB trigger, its sacrifice-draw ability triggers"
+    }
+   ]
+  },
+  {
+   "id": "tressret-02",
+   "category": "combo",
+   "title": "The Locust God + any free sacrifice outlet: endless draw-and-Insect loop",
+   "cards": [
+    "Tresserhorn's Lord, Returned",
+    "The Locust God",
+    "Ashnod's Altar",
+    "Phyrexian Altar",
+    "Viscera Seer",
+    "Carrion Feeder",
+    "Goblin Bombardment",
+    "Woe Strider",
+    "Skullclamp",
+    "Yawgmoth, Thran Physician"
+   ],
+   "ruling": "Sacrifice a creature to a free outlet. Tresserhorn draws a card, which makes a hasty Insect from The Locust God, and you sacrifice that Insect next. That's Spellbook 1339-2034-7920, 1339-2292-7920, 1339-2438-7920, 1339-5147-7920 and 997-1339-7920. Skullclamp and Yawgmoth versions work even without Tresserhorn. Tresserhorn's draw is mandatory, but each sacrifice is your choice, so stop before you deck yourself. Goblin Bombardment or a drain payoff ends the game.",
+   "short": "Sacrifice → Tresserhorn draw → Locust Insect → sacrifice; stop by choosing not to sacrifice.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "oracle": [
+    {
+     "card": "The Locust God",
+     "quote": "Whenever you draw a card, create a 1/1 blue and red Insect creature token with flying and haste."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "The Locust God",
+     "quote": "If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” The Locust God's first triggered ability won't trigger."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1339-2034-7920",
+     "quote": "When the creature dies, Tresserhorn's Lord triggers, causing you to draw a card."
+    },
+    {
+     "id": "1339-2034-7920",
+     "quote": "The Locust God triggers, creating a 1/1 Insect creature token with flying and haste."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "The Locust God + Tresserhorn + a free sacrifice outlet loops once a creature sacrifice/draw seeds the process"
+    }
+   ]
+  },
+  {
+   "id": "tressret-03",
+   "category": "combo",
+   "title": "Gravecrawler loops: the Zombie commander enables them and draws on each",
+   "cards": [
+    "Tresserhorn's Lord, Returned",
+    "Gravecrawler",
+    "Phyrexian Altar",
+    "Pitiless Plunderer",
+    "Warren Soultrader",
+    "Blood Artist",
+    "Zulaport Cutthroat",
+    "Bastion of Remembrance",
+    "Marionette Apprentice"
+   ],
+   "ruling": "Tresserhorn is a Zombie, so Gravecrawler can be cast from your graveyard while he's out. Phyrexian Altar or a Pitiless Plunderer Treasure pays its {B}, and each loop draws a card. Warren Soultrader costs 1 life per loop, so it needs a payoff that gains life: Blood Artist, Zulaport Cutthroat or Bastion of Remembrance. Marionette Apprentice drains opponents but doesn't give you life back.",
+   "status": "verified",
+   "cr": [
+    "601.2"
+   ],
+   "oracle": [
+    {
+     "card": "Gravecrawler",
+     "quote": "You may cast this card from your graveyard as long as you control a Zombie."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "2577-4050",
+     "quote": "Cast Gravecrawler from your graveyard by paying {B}."
+    },
+    {
+     "id": "2577-3025-5670",
+     "quote": "When Gravecrawler dies, Bastion of Remembrance triggers, causing you to gain 1 life and target opponent to lose 1 life."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Gravecrawler + Phyrexian Altar: Tresserhorn is a Zombie"
+    }
+   ]
+  },
+  {
+   "id": "tressret-04",
+   "category": "engine",
+   "title": "Sacrifice-as-cost draw spikes: Plumb the Forbidden, Allure of Power, Infantry Shield",
+   "cards": [
+    "Tresserhorn's Lord, Returned",
+    "Plumb the Forbidden",
+    "My Precious // Allure of Power",
+    "Infantry Shield",
+    "Wand of Orcus"
+   ],
+   "ruling": "Big draw turns:\n- **Plumb the Forbidden** sacrificing N creatures gives N Tresserhorn draws plus N+1 Plumb draws, so 2N+1 cards for N+1 life.\n- **Allure of Power's** sacrifice is an additional cost, so it's a Tresserhorn draw on top of its two. Later, My Precious gives hexproof and unblockable.\n- **Infantry Shield** on the 10-power Tresserhorn makes 10 attacking Warriors. They're sacrificed at the next end step, which is 10 draws.\n- **Wand of Orcus** gives Tresserhorn deathtouch, so with trample he only needs to assign 1 damage to each blocker. Each damage he deals to a player is a Zombie.",
+   "status": "verified",
+   "cr": [
+    "702.181a",
+    "702.2c",
+    "702.19b"
+   ],
+   "oracle": [
+    {
+     "card": "Plumb the Forbidden",
+     "quote": "As an additional cost to cast this spell, you may sacrifice one or more creatures. When you do, copy this spell for each creature sacrificed this way."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Infantry Shield",
+     "quote": "Although the Warrior tokens enter as attacking creatures, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won’t trigger when the tokens enter attacking."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Plumb the Forbidden with N creatures sacrificed generates N Tresserhorn triggers plus N+1 spell/copy draws: 2N+1 cards total"
+    }
+   ]
+  },
+  {
+   "id": "tressret-05",
+   "category": "dependency",
+   "title": "Blasphemous Edict sacrifices Tresserhorn unless you have 13+ other creatures",
+   "cards": [
+    "Tresserhorn's Lord, Returned",
+    "Blasphemous Edict"
+   ],
+   "ruling": "Blasphemous Edict makes each player sacrifice thirteen creatures. That gets around indestructible. All sacrifices happen at once, so Tresserhorn draws for each creature you lose, himself included. If you control fewer than thirteen creatures, you must sacrifice all of them, Tresserhorn too. To keep him, you need at least 13 other creatures. Otherwise plan to recast him, with tax.",
+   "short": "Under 13 other creatures, Edict takes your commander too.",
+   "status": "flag",
+   "flag": {
+    "kind": "anti-synergy",
+    "note": "Blasphemous Edict sacrifices Tresserhorn too unless you control 13+ other creatures (the cards still draw)."
+   },
+   "key": true,
+   "cr": [
+    "701.21a"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Blasphemous Edict",
+     "quote": "If a player controls fewer than thirteen creatures when Blasphemous Edict resolves, they will sacrifice all of their creatures."
+    },
+    {
+     "card": "Blasphemous Edict",
+     "quote": "Starting with the player whose turn it is, each player in turn order chooses which creatures they will sacrifice, then all the creatures chosen by all players are sacrificed at the same time. Players get to know the choices made by players who chose before them."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Blasphemous Edict's chosen creatures are sacrificed simultaneously."
+    }
+   ]
+  },
+  {
+   "id": "tressret-06",
+   "category": "engine",
+   "title": "Cost and protection: Nightscape Familiar ({1} off), Not of This World ({0} for a 10-power target), Cavern",
+   "cards": [
+    "Tresserhorn's Lord, Returned",
+    "Nightscape Familiar",
+    "Not of This World",
+    "Cavern of Souls"
+   ],
+   "ruling": "Support pieces:\n- **Nightscape Familiar:** Tresserhorn is blue and red, but it still reduces his cost by only {1}, to {1}{U}{B}{R}.\n- **Not of This World:** costs {0} against a spell or ability targeting the 10-power Tresserhorn. It doesn't help against untargeted sweepers or edicts.\n- **Cavern of Souls** naming Zombie makes Tresserhorn, Gravecrawler and other Zombies uncounterable.",
+   "status": "verified",
+   "cr": [
+    "601.2f"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Nightscape Familiar",
+     "quote": "A spell you cast that’s blue and red costs {1} less, not {2} less."
+    },
+    {
+     "card": "Not of This World",
+     "quote": "Not of This World's second ability checks the current state of the targets of the spell or ability it's targeting to determine whether one of them is a creature you control with power 7 or greater. This check is made as you cast Not of This World, before you activate mana abilities."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Nightscape Familiar reduces only generic mana"
+    }
+   ]
+  },
+  {
+   "id": "tressret-07",
+   "category": "legality",
+   "title": "Pending release: the source says it's legal now, but official sources say 2026-11-13",
+   "cards": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "ruling": "The approval-ready note says the Mystery Booster Commander release notes make Tresserhorn's Lord, Returned (MBC #52) Commander-legal now, and that the project exception is stale. Official sources disagree for now. Gatherer lists Commander under \"Not Legal Formats\", and Wizards' \"What's Inside Mystery Booster Commander Edition?\" (editor's note) says: \"New-to-Magic MBC cards will be legal in Commander on November 13, 2026.\" Scryfall 2026-10-15 bulk agrees. The deck stays PENDING_RELEASE with its registered exception. This review checks interactions only, and the legality claim is the source's documentation error.",
+   "status": "flag",
+   "flag": {
+    "kind": "documentation",
+    "note": "Source claims current Commander legality; Gatherer/Wizards/Scryfall: not legal until 2026-11-13. Pending state kept."
+   },
+   "cr": [],
+   "oracle": [
+    {
+     "card": "Tresserhorn's Lord, Returned",
+     "quote": "Trample, indestructible"
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Current official release-note legality supersedes the stale project future-release exception for Tresserhorn's Lord, Returned."
+    }
+   ]
+  }
+ ]
+}
