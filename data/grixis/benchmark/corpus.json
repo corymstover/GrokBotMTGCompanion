@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "cycle": "Bot cycle 64.3",
+  "cycle": "Bot cycle 64.4",
   "frozen_from_commit": "6ccc5b0",
   "items": [
     {
@@ -11601,7 +11601,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Abrade, add Chain of Vapor / Into the Flood Maw. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Abrade, add Chain of Vapor and Into the Flood Maw (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -11625,7 +11625,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-dc725eb0",
@@ -11729,7 +11729,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Chaos Warp, add Chain of Vapor / Into the Flood Maw. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Chaos Warp, add Chain of Vapor and Into the Flood Maw (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -11753,7 +11753,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-4953c6e9",
@@ -11761,7 +11761,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Counterspell, add Mana Drain / Dispel. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Counterspell, add Mana Drain and Dispel (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -11785,7 +11785,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-eb646a47",
@@ -11825,7 +11825,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Demonic Consultation, add Underworld Breach / Brain Freeze package. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Demonic Consultation, add Underworld Breach and Brain Freeze package (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -11857,7 +11857,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Drown in the Loch, add Mindbreak Trap / Mana Drain. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Drown in the Loch, add Mindbreak Trap and Mana Drain (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -11881,7 +11881,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-c0bd4dd6",
@@ -11889,7 +11889,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Entomb, add Ad Nauseam / Breach resource engine. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Entomb, add Ad Nauseam and Breach resource engine (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -11921,7 +11921,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Fatal Push, add Into the Flood Maw / Chain of Vapor. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Fatal Push, add Into the Flood Maw and Chain of Vapor (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -11945,7 +11945,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-34b21d51",
@@ -12017,7 +12017,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Ghost Vacuum, add Spatial Binding / Spellskite. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Ghost Vacuum, add Spatial Binding and Spellskite (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -12041,7 +12041,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-743aff24",
@@ -12145,7 +12145,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Island, add Tolaria / Hammerheim / Urborg utility-land package. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Island, add Tolaria and Hammerheim and Urborg utility-land package (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -12273,7 +12273,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Lightning Bolt, add Stifle / Into the Flood Maw. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Lightning Bolt, add Stifle and Into the Flood Maw (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -12297,7 +12297,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-ffcea1dc",
@@ -12305,7 +12305,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Long Goodbye, add Dispel / Minor Misstep. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Long Goodbye, add Dispel and Minor Misstep (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -12329,7 +12329,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-a7305d62",
@@ -12401,7 +12401,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Opposition Agent, add Counterbalance / Wan Shi Tong, Librarian. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Opposition Agent, add Counterbalance and Wan Shi Tong, Librarian (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -12425,7 +12425,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-1e6d44ff",
@@ -12497,7 +12497,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Pongify, add Into the Flood Maw / Chain of Vapor. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Pongify, add Into the Flood Maw and Chain of Vapor (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -12521,7 +12521,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-0ac8beb0",
@@ -12561,7 +12561,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Rakdos Charm, add Borne Upon a Wind / Stifle. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Rakdos Charm, add Borne Upon a Wind and Stifle (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -12585,7 +12585,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-0690b579",
@@ -12593,7 +12593,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Raven of Fell Omens, add Hex Parasite / Spatial Binding. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Raven of Fell Omens, add Hex Parasite and Spatial Binding (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -12617,7 +12617,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-f7cdb0f1",
@@ -12753,7 +12753,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Sink into Stupor // Soporific Springs, add Great Hall / utility-land suite. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Sink into Stupor // Soporific Springs, add Great Hall and utility-land suite (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -12849,7 +12849,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Snuff Out, add Mindbreak Trap / Chain of Vapor. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Snuff Out, add Mindbreak Trap and Chain of Vapor (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -12873,7 +12873,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-0b300a10",
@@ -12881,7 +12881,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Spell Pierce, add Minor Misstep / Mental Misstep. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Spell Pierce, add Minor Misstep and Mental Misstep (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -12905,7 +12905,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-9facb654",
@@ -12977,7 +12977,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Terminate, add Chain of Vapor / Into the Flood Maw. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Terminate, add Chain of Vapor and Into the Flood Maw (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -13001,7 +13001,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-bb951d76",
@@ -13009,7 +13009,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Thoughtseize, add Imperial Seal / stack-interaction density. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Thoughtseize, add Imperial Seal and stack-interaction density (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -13073,7 +13073,7 @@
       "deck": "Marchesa__Dealer_of_Death",
       "originated_by": "original_encyclopedia",
       "caught_by": "original_encyclopedia",
-      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Vadmir, New Blood, add Storm-Kiln Artist / Hex Parasite. Should the change be made? Give the decisive reason.",
+      "prompt": "Deck: Marchesa, Dealer of Death (source baseline, see deck_snapshot). Candidate: cut Vadmir, New Blood, add Storm-Kiln Artist and Hex Parasite (the source pairs them as one replacement package). Should the change be made? Give the decisive reason.",
       "sources": [
         {
           "kind": "file",
@@ -13097,7 +13097,7 @@
         "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
         "registry_commit": "6ccc5b0"
       },
-      "evaluation_role": "judgment_calibration"
+      "evaluation_role": "regression_guard"
     },
     {
       "id": "g0-aud-marchesadealerofdeat-f214d4d1",
@@ -18957,6 +18957,743 @@
         "registry_commit": "6ccc5b0"
       },
       "evaluation_role": "detection"
+    },
+    {
+      "id": "g0-ci-ancestralvision",
+      "category": "color_identity",
+      "deck": "Abaddon_the_Despoiler",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Ancestral Vision (mana cost 'none')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly colorless?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Abaddon_the_Despoiler,Ancestral Vision,",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Abaddon_the_Despoiler",
+        "commanders": [
+          "Abaddon the Despoiler"
+        ],
+        "canonical_lh1": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+        "baseline_lh1": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+        "source_raw_sha256": "sha256:2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+        "source_path": "refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-inevitablebetrayal",
+      "category": "color_identity",
+      "deck": "Abaddon_the_Despoiler",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Inevitable Betrayal (mana cost 'none')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly colorless?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Abaddon_the_Despoiler,Inevitable Betrayal,",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Abaddon_the_Despoiler",
+        "commanders": [
+          "Abaddon the Despoiler"
+        ],
+        "canonical_lh1": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+        "baseline_lh1": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+        "source_raw_sha256": "sha256:2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+        "source_path": "refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-pactofnegation",
+      "category": "color_identity",
+      "deck": "Abaddon_the_Despoiler",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Pact of Negation (mana cost '{0}')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly colorless?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Abaddon_the_Despoiler,Pact of Negation,",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Abaddon_the_Despoiler",
+        "commanders": [
+          "Abaddon the Despoiler"
+        ],
+        "canonical_lh1": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+        "baseline_lh1": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+        "source_raw_sha256": "sha256:2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+        "source_path": "refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-profanetutor",
+      "category": "color_identity",
+      "deck": "Abaddon_the_Despoiler",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Profane Tutor (mana cost 'none')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly colorless?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Abaddon_the_Despoiler,Profane Tutor,",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Abaddon_the_Despoiler",
+        "commanders": [
+          "Abaddon the Despoiler"
+        ],
+        "canonical_lh1": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+        "baseline_lh1": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+        "source_raw_sha256": "sha256:2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+        "source_path": "refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-talismanofindulgence",
+      "category": "color_identity",
+      "deck": "Abaddon_the_Despoiler",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Talisman of Indulgence (mana cost '{2}')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly colorless?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Abaddon_the_Despoiler,Talisman of Indulgence,",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Abaddon_the_Despoiler",
+        "commanders": [
+          "Abaddon the Despoiler"
+        ],
+        "canonical_lh1": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+        "baseline_lh1": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+        "source_raw_sha256": "sha256:2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+        "source_path": "refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-dimirsignet",
+      "category": "color_identity",
+      "deck": "Admiral_Beckett_Brass",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Dimir Signet (mana cost '{2}')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly colorless?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Admiral_Beckett_Brass,Dimir Signet,",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Admiral_Beckett_Brass",
+        "commanders": [
+          "Admiral Beckett Brass"
+        ],
+        "canonical_lh1": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+        "baseline_lh1": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+        "source_raw_sha256": "sha256:4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+        "source_path": "refinement/decklists/Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-drossskullbomb",
+      "category": "color_identity",
+      "deck": "Ashnod_the_Uncaring",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Dross Skullbomb (mana cost '{1}')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly colorless?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Ashnod_the_Uncaring,Dross Skullbomb,",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Ashnod_the_Uncaring",
+        "commanders": [
+          "Ashnod the Uncaring"
+        ],
+        "canonical_lh1": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+        "baseline_lh1": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+        "source_raw_sha256": "sha256:f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+        "source_path": "refinement/decklists/Ashnod_the_Uncaring_Approved_2026-10-13.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-everethviceroyofplunder",
+      "category": "color_identity",
+      "deck": "Edea__Possessed_Sorceress",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Evereth, Viceroy of Plunder (mana cost '{2}{B}')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly mono-black?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Edea__Possessed_Sorceress,\"Evereth, Viceroy of Plunder\",",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Edea__Possessed_Sorceress",
+        "commanders": [
+          "Edea, Possessed Sorceress"
+        ],
+        "canonical_lh1": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+        "baseline_lh1": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+        "source_raw_sha256": "sha256:fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4",
+        "source_path": "refinement/decklists/Edea_Possessed_Sorceress_Approved_2026-10-14.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-burntoffering",
+      "category": "color_identity",
+      "deck": "Inalla__Archmage_Ritualist",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Burnt Offering (mana cost '{B}')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly mono-black?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Inalla__Archmage_Ritualist,Burnt Offering,",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Inalla__Archmage_Ritualist",
+        "commanders": [
+          "Inalla, Archmage Ritualist"
+        ],
+        "canonical_lh1": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+        "baseline_lh1": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+        "source_raw_sha256": "sha256:81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
+        "source_path": "refinement/decklists/Inalla_Archmage_Ritualist_Approved_2026-10-14.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-alchemistsgambit",
+      "category": "color_identity",
+      "deck": "Obeka__Brute_Chronologist",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Alchemist's Gambit (mana cost '{1}{R}{R}')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly mono-red?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Obeka__Brute_Chronologist,Alchemist's Gambit,",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Obeka__Brute_Chronologist",
+        "commanders": [
+          "Obeka, Brute Chronologist"
+        ],
+        "canonical_lh1": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+        "baseline_lh1": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+        "source_raw_sha256": "sha256:31b6ff7f23effa78512c2a409a21440bccf457e6faece51d8db38b74102169a8",
+        "source_path": "refinement/decklists/Obeka_Brute_Chronologist_Approved_2026-10-15.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-pyromancersgoggles",
+      "category": "color_identity",
+      "deck": "Parnesse__the_Subtle_Brush",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Pyromancer's Goggles (mana cost '{5}')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly colorless?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Parnesse__the_Subtle_Brush,Pyromancer's Goggles,",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Parnesse__the_Subtle_Brush",
+        "commanders": [
+          "Parnesse, the Subtle Brush"
+        ],
+        "canonical_lh1": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+        "baseline_lh1": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+        "source_raw_sha256": "sha256:8ff8c101d98e7de997c1de29973db2dd6a51ffdd7b44e4f34145bb1abf2d9e7c",
+        "source_path": "refinement/decklists/Parnesse_the_Subtle_Brush_Approved_2026-10-15.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-rograkhsonofrohgahh",
+      "category": "color_identity",
+      "deck": "RogSi",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Rograkh, Son of Rohgahh (mana cost '{0}')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly colorless?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "RogSi,\"Rograkh, Son of Rohgahh\",",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "RogSi",
+        "commanders": [
+          "Rograkh, Son of Rohgahh",
+          "Silas Renn, Seeker Adept"
+        ],
+        "canonical_lh1": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+        "baseline_lh1": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+        "source_raw_sha256": "sha256:06c9e22b5afc46bd58bbbfdef5c42a796d2a986a2972456107c29aee1b5f905c",
+        "source_path": "refinement/decklists/RogSi_Approved_2026-10-15.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-forbiddenalchemy",
+      "category": "color_identity",
+      "deck": "Sauron__Lord_of_the_Rings",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Forbidden Alchemy (mana cost '{2}{U}')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly mono-blue?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Sauron__Lord_of_the_Rings,Forbidden Alchemy,",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Sauron__Lord_of_the_Rings",
+        "commanders": [
+          "Sauron, Lord of the Rings"
+        ],
+        "canonical_lh1": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+        "baseline_lh1": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+        "source_raw_sha256": "sha256:72a814e6ae1153507c9c1469a7792043b2e5c055d9e5fcd9f6cfcf7781e287b0",
+        "source_path": "refinement/decklists/Sauron_Lord_of_the_Rings_Approved_2026-10-15.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-relicofsauron",
+      "category": "color_identity",
+      "deck": "Sauron__Lord_of_the_Rings",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Relic of Sauron (mana cost '{4}')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly colorless?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Sauron__Lord_of_the_Rings,Relic of Sauron,",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Sauron__Lord_of_the_Rings",
+        "commanders": [
+          "Sauron, Lord of the Rings"
+        ],
+        "canonical_lh1": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+        "baseline_lh1": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+        "source_raw_sha256": "sha256:72a814e6ae1153507c9c1469a7792043b2e5c055d9e5fcd9f6cfcf7781e287b0",
+        "source_path": "refinement/decklists/Sauron_Lord_of_the_Rings_Approved_2026-10-15.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-wheeloffate",
+      "category": "color_identity",
+      "deck": "Tetsuo__Imperial_Champion",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Wheel of Fate (mana cost 'none')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly colorless?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Tetsuo__Imperial_Champion,Wheel of Fate,",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Tetsuo__Imperial_Champion",
+        "commanders": [
+          "Tetsuo, Imperial Champion"
+        ],
+        "canonical_lh1": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+        "baseline_lh1": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+        "source_raw_sha256": "sha256:d6d7561f00cb56cfb86cd79024975130d718ddc7f3a1bddf0c62f61dc422822e",
+        "source_path": "refinement/decklists/Tetsuo_Imperial_Champion_Approved_2026-10-15.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-ci-wickthewhorledmind",
+      "category": "color_identity",
+      "deck": "Wick__the_Whorled_Mind",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "What is the colour identity of Wick, the Whorled Mind (mana cost '{3}{B}')? Could it be in the 99 of a Commander deck whose commander's colour identity is exactly mono-black?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/metadata_audit/Current_Scryfall_Metadata_Overlay.csv",
+          "quote": "Wick__the_Whorled_Mind,\"Wick, the Whorled Mind\",",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Colour identity is in the Scryfall bulk cache the new system reads and in the archived overlay."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Wick__the_Whorled_Mind",
+        "commanders": [
+          "Wick, the Whorled Mind"
+        ],
+        "canonical_lh1": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+        "baseline_lh1": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+        "source_raw_sha256": "sha256:f4556840dc8f7a8e1d532b73652d0035592b52b86adbbad6ed8fbe4270341e98",
+        "source_path": "refinement/decklists/Wick_the_Whorled_Mind_Approved_2026-10-15.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-leg-manavault",
+      "category": "legality",
+      "deck": "Cult_of_Skaro",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "Is Mana Vault banned in Commander (as of 2026-10-14)? It is restricted in another format.",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cult_of_skaro_2026-10-14/Cult_of_Skaro_Official_Legality_Attestation.json",
+          "quote": "Mana Vault is restricted in Vintage",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Commander legality is in the Scryfall bulk cache, the exceptions registry and the archived attestations the new system reads."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Cult_of_Skaro",
+        "commanders": [
+          "Cult of Skaro"
+        ],
+        "canonical_lh1": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+        "baseline_lh1": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+        "source_raw_sha256": "sha256:4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b",
+        "source_path": "refinement/decklists/Cult_of_Skaro_Approval_Candidate_2026-10-14.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-leg-manadrain",
+      "category": "legality",
+      "deck": "Cult_of_Skaro",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "Is Mana Drain banned in Commander (as of 2026-10-14)? It is banned in another format.",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cult_of_skaro_2026-10-14/Cult_of_Skaro_Official_Legality_Attestation.json",
+          "quote": "Mana Drain is banned in Brawl",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Commander legality is in the Scryfall bulk cache, the exceptions registry and the archived attestations the new system reads."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Cult_of_Skaro",
+        "commanders": [
+          "Cult of Skaro"
+        ],
+        "canonical_lh1": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+        "baseline_lh1": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+        "source_raw_sha256": "sha256:4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b",
+        "source_path": "refinement/decklists/Cult_of_Skaro_Approval_Candidate_2026-10-14.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-leg-gifts",
+      "category": "legality",
+      "deck": "Kess__Dissident_Mage",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "Is Gifts Ungiven legal in Commander (as of 2026-10-14)?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Official_Legality_Attestation.json",
+          "quote": "which unbanned Gifts Ungiven",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Commander legality is in the Scryfall bulk cache, the exceptions registry and the archived attestations the new system reads."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Kess__Dissident_Mage",
+        "commanders": [
+          "Kess, Dissident Mage"
+        ],
+        "canonical_lh1": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+        "baseline_lh1": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+        "source_raw_sha256": "sha256:93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb",
+        "source_path": "refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-leg-cryptlotusdock",
+      "category": "legality",
+      "deck": "Kess__Dissident_Mage",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "Are Mana Crypt, Jeweled Lotus and Dockside Extortionist legal in a Commander deck (as of 2026-10-14)?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Official_Legality_Attestation.json",
+          "quote": "currently Commander-banned Mana Crypt, Jeweled Lotus, Dockside Extortionist",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Commander legality is in the Scryfall bulk cache, the exceptions registry and the archived attestations the new system reads."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Kess__Dissident_Mage",
+        "commanders": [
+          "Kess, Dissident Mage"
+        ],
+        "canonical_lh1": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+        "baseline_lh1": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+        "source_raw_sha256": "sha256:93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb",
+        "source_path": "refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-leg-oct12",
+      "category": "legality",
+      "deck": "Cult_of_Skaro",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "Did the 2026-10-12 Wizards Banned and Restricted announcement change the Commander banned list?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cult_of_skaro_2026-10-14/Cult_of_Skaro_Official_Legality_Attestation.json",
+          "quote": "The October 12, 2026 announcement made no Commander-format banned-list changes",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Commander legality is in the Scryfall bulk cache, the exceptions registry and the archived attestations the new system reads."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "Cult_of_Skaro",
+        "commanders": [
+          "Cult of Skaro"
+        ],
+        "canonical_lh1": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+        "baseline_lh1": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+        "source_raw_sha256": "sha256:4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b",
+        "source_path": "refinement/decklists/Cult_of_Skaro_Approval_Candidate_2026-10-14.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-leg-dragonssmile",
+      "category": "legality",
+      "deck": "The_Madcap_Jester",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "Is Dragon's Smile Commander-legal on 2026-10-16, and how should the project list record it?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis/exceptions.json",
+          "quote": "exc:the-madcap-jester:dragon-s-smile",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Commander legality is in the Scryfall bulk cache, the exceptions registry and the archived attestations the new system reads."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "The_Madcap_Jester",
+        "commanders": [
+          "The Madcap Jester"
+        ],
+        "canonical_lh1": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+        "baseline_lh1": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+        "source_raw_sha256": "sha256:caeffc07503581cd3ecba798ebc4e09d48f07310f1f117ce3b90a04b5ca6bfa7",
+        "source_path": "refinement/decklists/The_Madcap_Jester_Approved_2026-10-15.txt",
+        "registry_commit": "6ccc5b0"
+      }
+    },
+    {
+      "id": "g0-leg-themadcapjester",
+      "category": "legality",
+      "deck": "The_Madcap_Jester",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "Is The Madcap Jester Commander-legal on 2026-10-16, and how should the project list record it?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis/exceptions.json",
+          "quote": "exc:the-madcap-jester:the-madcap-jester",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Commander legality is in the Scryfall bulk cache, the exceptions registry and the archived attestations the new system reads."
+      },
+      "evaluation_role": "detection",
+      "deck_snapshot": {
+        "registry_deck_id": "The_Madcap_Jester",
+        "commanders": [
+          "The Madcap Jester"
+        ],
+        "canonical_lh1": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+        "baseline_lh1": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+        "source_raw_sha256": "sha256:caeffc07503581cd3ecba798ebc4e09d48f07310f1f117ce3b90a04b5ca6bfa7",
+        "source_path": "refinement/decklists/The_Madcap_Jester_Approved_2026-10-15.txt",
+        "registry_commit": "6ccc5b0"
+      }
     }
   ],
   "dedup_note": "Bot cycle 64.3: mana_decision items with the same (cut, add) pair in several decks keep only the first deck's item (48 near-identical fixing-land upgrades dropped); exact (deck, cut, add) duplicates are dropped."

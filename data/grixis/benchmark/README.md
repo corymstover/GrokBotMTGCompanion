@@ -52,3 +52,12 @@ Every item has an `evaluation_role`:
 | `judgment_calibration` | The label is an unvalidated GrokBot v1 judgment or a source-process decision no human validated. | Agreement or calibration against that judgment; never reported as accuracy. |
 
 **Reporting rule** (in `manifest.json` `reporting_rule`, enforced by `--check`): every benchmark report gives results per stratum of `evaluation_role` × `originated_by` × `contamination.level`, with counts, and **never one pooled score**. The prospective holdout is reported separately.
+
+## Cycle 64.4: final G0 batch (corpus frozen)
+
+- **KEEP rows excluded (Cory's decision, cycle 64.4):** the 1,141 KEEP rows of the whole-list audits are not itemised. The corpus already has 374 regression guards, and KEEP rows mostly test inertia.
+- **Thin categories filled from real sources:**
+  - 16 colour-identity items from the archived Scryfall metadata overlay (`metadata_audit/Current_Scryfall_Metadata_Overlay.csv`). Each is a card whose identity comes from rules text or a colour indicator rather than its mana cost (CR 903.4).
+  - 7 legality items: Mana Vault, Mana Drain, Gifts Ungiven, Mana Crypt/Jeweled Lotus/Dockside, and the 2026-10-12 announcement from the Cult of Skaro and Kess legality attestations; Dragon's Smile and The Madcap Jester from `data/grixis/exceptions.json`.
+- **Role spot-check:** `role_spotcheck.json` covers 25 items (seed 6440; 9 detection, 8 regression guards, 8 calibration). It is an **agent check, not a human validation**. Result: 20 correct, 1 correct with a note, 1 minor defect left as is, 3 fixed. The fixes reworded 43 empty-rationale outcomes and split 21 compound-add prompts; 16 Marchesa items moved to regression guards.
+- **Frozen:** `manifest.json` `status: immutable` with `frozen_at` and the corpus, sealed and spot-check hashes. `--check` fails on any change to `corpus.json`, a sealed file or the spot-check; `--freeze` and `--freeze-final` are refused. Only `prospective_holdout.json` may grow.

@@ -71,9 +71,13 @@
         3,
         4
       ],
-      "status": "in_progress",
+      "status": "complete_pending_merge",
       "started": "Bot cycle 64.1",
-      "freeze_rule": "corpus immutable once step A begins; only the prospective holdout grows afterwards"
+      "freeze_rule": "corpus immutable once step A begins; only the prospective holdout grows afterwards",
+      "completed": "Bot cycle 64.4",
+      "pr": 142,
+      "items": 612,
+      "note": "Corpus immutable (manifest frozen_at); only the prospective holdout grows. Becomes effective on merge of PR #142."
     },
     {
       "order": 2,
@@ -83,7 +87,7 @@
         6,
         8
       ],
-      "status": "not_started",
+      "status": "next",
       "depends_on": [
         "G0"
       ],

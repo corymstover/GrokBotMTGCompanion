@@ -1,6 +1,6 @@
 {
   "id": "g0-aud-mishraeminentone-bcd1c987",
-  "expected_outcome": "Make the change (user-approved list): ",
+  "expected_outcome": "Make the change (user-approved list; the source audit row records no rationale).",
   "label_authority": "source_process_decision (user-approved list)",
   "leak_terms": []
 }

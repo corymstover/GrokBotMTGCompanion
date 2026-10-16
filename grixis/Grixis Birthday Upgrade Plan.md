@@ -41,8 +41,8 @@ Batch = one 20–35 minute bot batch. Estimates are estimates (standing rule 5),
 
 | # | Step | Batches | Depends on | Snapshot | Notes |
 |---|---|---|---|---|---|
-| 1 | **G0** benchmark corpus freeze | 3–4 | — | snap-20261016 | Started in Bot cycle 64.1. Corpus becomes immutable once A begins. |
-| 2 | **A** adaptive candidate saturation | 6–8 | G0 frozen | snap-20261016 (dev) | Removes `UNIVERSE_MAX = 500` (61/62 decks hit it). Multi-pass discovery, yield-based stop rule, per-deck saturation certificate, tiered testing (decision 1). |
+| 1 | **G0** benchmark corpus freeze | 3–4 (took 4: 64.1–64.4) | — | snap-20261016 | **Complete pending merge of PR #142.** 612 items, frozen in Bot cycle 64.4. Only the prospective holdout grows. |
+| 2 | **A** adaptive candidate saturation (**next**) | 6–8 | G0 frozen | snap-20261016 (dev) | Removes `UNIVERSE_MAX = 500` (61/62 decks hit it). Multi-pass discovery, yield-based stop rule, per-deck saturation certificate, tiered testing (decision 1). |
 | 3 | **E** mechanic test modules (sim v1.2) | 10–14 | A | dev | Priority by `not_modelable` counts (9,044 / 25,940 swaps). Opponent-facing parts as bounded proxies (decision 4). v1.0/v1.1 stay runnable. |
 | 4 | **B** combo quality model + `power_core` backfill overlay | 4–6 | E | dev | Backfill follows decision 5 (overlay + materiality gate). |
 | 4 | **C** mana-base optimizer | 5–7 | E (parallel with B) | dev | Lands evaluated like spells; MDFC back faces. |

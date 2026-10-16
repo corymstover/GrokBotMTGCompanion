@@ -90,6 +90,14 @@ def build_manifest(corpus_path=None):
             "holdout_sha256": sha(B / "prospective_holdout.json")}
 
 
+def freeze_final(ts):
+    m = build_manifest()
+    m.update({"status": "immutable", "frozen_at": ts, "frozen_cycle": "Bot cycle 64.4",
+              "holdout_sha256": None, "holdout_note": "prospective_holdout.json may grow after the freeze; it is not hashed here.",
+              "role_spotcheck_sha256": sha(B / "role_spotcheck.json")})
+    (B / "manifest.json").write_text(json.dumps(m, indent=2) + "\n")
+
+
 def problems():
     p = []
     corpus, man = load(B / "corpus.json"), load(B / "manifest.json")
@@ -103,6 +111,12 @@ def problems():
         p.append("duplicate item ids")
     if man["corpus_sha256"] != sha(B / "corpus.json"):
         p.append("corpus.json changed since the manifest was written (re-freeze, or the corpus is immutable)")
+    if man["status"] == "immutable":
+        for k in ("frozen_at", "corpus_sha256", "sealed"):
+            if not man.get(k):
+                p.append(f"immutable manifest lacks {k}")
+        if man.get("role_spotcheck_sha256") != sha(B / "role_spotcheck.json"):
+            p.append("role_spotcheck.json changed after the freeze")
     if man["holdout_sha256"] != sha(B / "prospective_holdout.json") and man["status"] == "growing":
         p.append("prospective_holdout.json changed without a manifest update")
     if set(man["sealed"]) != set(ids):
@@ -158,6 +172,7 @@ def main():
     a.add_argument("--check", action="store_true")
     a.add_argument("--freeze", action="store_true")
     a.add_argument("--summary", action="store_true")
+    a.add_argument("--freeze-final", metavar="UTC_TIMESTAMP", help="one-time: mark the corpus immutable (Bot cycle 64.4)")
     x = a.parse_args()
     if x.freeze:
         mp = B / "manifest.json"
@@ -165,6 +180,11 @@ def main():
             sys.exit("corpus is immutable (step A has begun); add to the prospective holdout instead")
         mp.write_text(json.dumps(build_manifest(), indent=2) + "\n")
         print("manifest written")
+    if x.freeze_final:
+        if load(B / "manifest.json").get("status") == "immutable":
+            sys.exit("already immutable")
+        freeze_final(x.freeze_final)
+        print("corpus frozen")
     if x.summary:
         summary()
     if x.check:

@@ -1,0 +1,10 @@
+{
+  "id": "g0-leg-themadcapjester",
+  "expected_outcome": "Not yet legal (Mystery Booster Commander card, legal from 2026-11-13); recorded as an authorized future-release project exception, kept apart from official legality; the deck stays PENDING_RELEASE.",
+  "label_authority": "official_source (Scryfall/Wizards) + exceptions registry",
+  "leak_terms": [
+    "2026-11-13",
+    "future_release",
+    "future-release"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "g0-ci-everethviceroyofplunder",
+  "expected_outcome": "Colour identity {B,R} (CR 903.4: mana symbols in rules text and colour indicators count); so it could NOT be in a mono-black deck.",
+  "label_authority": "oracle_fact (Scryfall color_identity, archived overlay)",
+  "leak_terms": []
+}

@@ -42,6 +42,19 @@ def test_manifest_records_freeze_rule():
     assert "immutable" in m["freeze_rule"] and m["immutable_from"] == "first commit of step A"
 
 
+def test_corpus_frozen_and_any_change_detected():
+    m = gb.load(gb.B / "manifest.json")
+    assert m["status"] == "immutable" and m["frozen_at"] and m["corpus_sha256"].startswith("sha256:")
+    p = gb.B / "corpus.json"
+    orig = p.read_bytes()
+    try:
+        p.write_bytes(orig.replace(b'"prompt": "', b'"prompt": "X', 1))
+        assert any("corpus.json changed" in x for x in gb.problems())
+    finally:
+        p.write_bytes(orig)
+    assert gb.problems() == []
+
+
 def test_v1_labels_marked_unvalidated_and_snapshots_present():
     c = gb.load(gb.B / "corpus.json")["items"]
     for it in c:
@@ -76,3 +89,8 @@ def test_deck_snapshot_ids_exist_in_registry():
     for it in gb.load(gb.B / "corpus.json")["items"]:
         if "deck_snapshot" in it:
             assert it["deck_snapshot"]["registry_deck_id"] in ids
+
+
+def test_spotcheck_is_agent_check_not_human():
+    s = gb.load(gb.B / "role_spotcheck.json")
+    assert s["kind"] == "agent_check" and "NOT a human validation" in s["note"] and len(s["sample"]) == 25 and s["seed"] == 6440

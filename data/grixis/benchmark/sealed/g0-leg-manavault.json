@@ -1,0 +1,8 @@
+{
+  "id": "g0-leg-manavault",
+  "expected_outcome": "Not banned in Commander; it is restricted in Vintage, which does not affect Commander.",
+  "label_authority": "official_source (Wizards B&R, source attestation)",
+  "leak_terms": [
+    "restricted in vintage"
+  ]
+}

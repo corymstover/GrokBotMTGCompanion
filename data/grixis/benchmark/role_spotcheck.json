@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "cycle": "Bot cycle 64.4",
+  "kind": "agent_check",
+  "note": "Agent spot-check by GrokBot (executor) against the cited sources and the canonical project lists at commit 6ccc5b0. This is NOT a human validation and confers no label authority.",
+  "seed": 6440,
+  "method": "random.Random(6440).sample per role over items sorted by id: 9 detection, 8 regression_guard, 8 judgment_calibration (roles as assigned before this check). For each: read the cited quote in context, check the sealed outcome against it, and for swap items check add/cut membership in the canonical export.",
+  "sample": [
+    {
+      "id": "g0-ci-drossskullbomb",
+      "verdict": "correct",
+      "note": "Dross Skullbomb's {B} activation gives identity {B}; overlay row confirms."
+    },
+    {
+      "id": "g0-prov-admiralbrassunsinkable",
+      "verdict": "correct",
+      "note": "Corrections table: recorded SHA matches no file; list located by content."
+    },
+    {
+      "id": "g0-gc-gwendlyndicorci",
+      "verdict": "correct",
+      "note": "17 GC, floor 4 per Corrections row."
+    },
+    {
+      "id": "g0-leg-cryptlotusdock",
+      "verdict": "correct",
+      "note": "Kess attestation names all three as currently Commander-banned."
+    },
+    {
+      "id": "g0-gc-ashnodtheuncaring",
+      "verdict": "correct",
+      "note": "6 GC, floor 4."
+    },
+    {
+      "id": "g0-gc-mairsilthepretender",
+      "verdict": "correct",
+      "note": "13 GC, floor 4."
+    },
+    {
+      "id": "g0-leg-tradesecrets",
+      "verdict": "correct",
+      "note": "Corrections row: kept as Cory-authorized project exception; detection role appropriate (cycle-16 error)."
+    },
+    {
+      "id": "g0-gc-nathandraketreasurehunte",
+      "verdict": "correct",
+      "note": "9 GC, floor 4."
+    },
+    {
+      "id": "g0-gc-lordoftresserhorn",
+      "verdict": "correct",
+      "note": "2 GC, floor 3 (1-3 Game Changers imply bracket 3)."
+    },
+    {
+      "id": "g0-ccd-crosisthepurger-5e6afba7",
+      "verdict": "correct",
+      "note": "Approved bullet; Sword of Feast and Famine in canonical, Painful Quandary not."
+    },
+    {
+      "id": "g0-src-nekusarthemindrazer-0b9a9bd1",
+      "verdict": "correct",
+      "note": "Delta table row; Verdant Catacombs in canonical, Sulfur Falls not."
+    },
+    {
+      "id": "g0-aud-mishraartificerprodi-696a5531",
+      "verdict": "fixed",
+      "note": "Role correct (add in list, cut not) but the sealed outcome had an empty rationale; reworded to say the audit row records none (43 such items fixed)."
+    },
+    {
+      "id": "g0-src-sarumanthewhitehand-1083e86c",
+      "verdict": "correct",
+      "note": "ADOPT row; Marsh Flats in canonical, Sulfurous Springs not."
+    },
+    {
+      "id": "g0-aud-mishraartificerprodi-8fa11505",
+      "verdict": "fixed",
+      "note": "Same empty-rationale fix."
+    },
+    {
+      "id": "g0-aud-tresserhornslordretu-35120f59",
+      "verdict": "correct",
+      "note": "Audit CUT row; Blasphemous Edict in canonical."
+    },
+    {
+      "id": "g0-aud-tresserhornslordretu-ffb815da",
+      "verdict": "correct",
+      "note": "Audit CUT row; Bastion of Remembrance in canonical."
+    },
+    {
+      "id": "g0-aud-tresserhornslordretu-ac858835",
+      "verdict": "correct",
+      "note": "Audit CUT row; Weaponcraft Enthusiast in canonical."
+    },
+    {
+      "id": "g0-v1hr-14",
+      "verdict": "correct",
+      "note": "v1 reject; Wheel of Fortune still in canonical, Ayara not; unvalidated v1 label -> calibration."
+    },
+    {
+      "id": "g0-v1hr-02",
+      "verdict": "correct",
+      "note": "v1 reject; Roaming Throne in canonical."
+    },
+    {
+      "id": "g0-src-anh004",
+      "verdict": "correct",
+      "note": "REVIEWED/hold with no cut; source judgment not human-validated."
+    },
+    {
+      "id": "g0-src-ash001",
+      "verdict": "correct_with_note",
+      "note": "Labelled user-approved (auto-approved under a standing instruction) but Trading Post is not in the current canonical list (later global restart), so it cannot be a regression guard; calibration is right."
+    },
+    {
+      "id": "g0-src-abaddon052",
+      "verdict": "correct_minor_defect",
+      "note": "Role right; sealed outcome quotes the source status truncated at 120 characters. Verdict unaffected; left as is (frozen)."
+    },
+    {
+      "id": "g0-src-abu004",
+      "verdict": "correct",
+      "note": "REVIEWED not selected; not human-validated."
+    },
+    {
+      "id": "g0-v1hr-12",
+      "verdict": "correct",
+      "note": "v1 reject; Windfall in canonical."
+    },
+    {
+      "id": "g0-aud-marchesadealerofdeat-44cdcd09",
+      "verdict": "fixed",
+      "note": "Compound add 'Chain of Vapor / Into the Flood Maw' was parsed as one card name so it fell to calibration; split into a package, both cards are in the canonical list and Abrade is not -> regression_guard (16 Marchesa items reclassified, 21 compound prompts reworded)."
+    }
+  ],
+  "summary": {
+    "checked": 25,
+    "correct": 20,
+    "correct_with_note": 1,
+    "correct_minor_defect": 1,
+    "fixed": 3
+  },
+  "fixes_applied": [
+    "43 regression-guard outcomes with an empty source rationale reworded",
+    "21 compound-add prompts split into packages; 16 Marchesa items reclassified judgment_calibration -> regression_guard"
+  ]
+}
