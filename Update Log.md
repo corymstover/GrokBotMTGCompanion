@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 44 (Grixis refinement batch 6: the 2 pending decks)](#2026-10-16--bot-cycle-44-grixis-refinement-batch-6-the-2-pending-decks)
 - [2026-10-16 — Bot cycle 43 (Grixis refinement batch 5, end-of-cycle summary, v2.5-grixis-refinement)](#2026-10-16--bot-cycle-43-grixis-refinement-batch-5-end-of-cycle-summary-v25-grixis-refinement)
 - [2026-10-16 — Bot cycle 42 (Grixis refinement batch 4)](#2026-10-16--bot-cycle-42-grixis-refinement-batch-4)
 - [2026-10-16 — Bot cycle 41 (Grixis refinement batch 3, hand-picked swaps, hand reviews)](#2026-10-16--bot-cycle-41-grixis-refinement-batch-3-hand-picked-swaps-hand-reviews)
@@ -57,6 +58,24 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 44 (Grixis refinement batch 6: the 2 pending decks)
+- **Batch 6:** The Madcap Jester and Tresserhorn's Lord, Returned, both still ⏳ pending legality. Same method and gates as batches 1–5. The not-yet-legal cards (The Madcap Jester, Dragon's Smile, Tresserhorn's Lord, Returned) are treated as the known pending exception; every other card is judged normally.
+  - **The Madcap Jester** (52%): at ceiling, unchanged.
+    - Hand review: the list is built on the Jester's line, "causes one or more cards to be exiled from an opponent's library, you may play those cards". Library-exile effects include Praetor's Grasp, Extract, Bitter Ordeal and Jester's Cap; payoffs include Dragon's Smile, Bilbo and Gonti. Around that sits a cEDH Thassa's Oracle / Breach core.
+    - Every generic card is a Game Changer, a combo piece or fast mana. The on-theme adds would replace free counterspells and fail the gates.
+    - New hook: exiling and playing opponents' library cards.
+  - **Tresserhorn's Lord, Returned** (74%): at ceiling, unchanged.
+    - Hand review: a sacrifice-draw engine with free outlets, token fodder for the enter cost, and Gravecrawler / Locust God loops.
+    - The few cards with no hook protect the 10-power body (Not of This World, Stubborn Denial).
+- **Source legality claim re-verified and still flagged.** The source says Tresserhorn's Lord, Returned has "current official Commander legality PASS". Against that:
+  - Scryfall (live, 2026-10-16) still lists all three `mbc` cards as `not_legal`.
+  - Wizards' "What's Inside Mystery Booster Commander Edition?" article (updated legality dates) says "New-to-Magic MBC cards will be legal in Commander on November 13, 2026."
+  - The source's own Madcap Jester verification gives the same 2026-11-13 date.
+- ⚠️ **Registry date is not the legal date.** `data/grixis_pending.json` uses Scryfall's release date 2026-10-19 as `legal_from`. The pending markers were left intact as instructed, but from 2026-10-19 `validate_all` fails both decks ("pending legality expired"), and `activate_pending_grixis.py` will exit 2 until Scryfall flips them. Moving `legal_from` to 2026-11-13 is left for Cory to decide.
+- **Activation check:** `activate_pending_grixis.py --check` passes (both decks not legal yet). A worktree simulation with the pending cards forced to legal ran the rebuild (`build_grixis.py`, then `grixis_refine.py`). It gave 62 legal pages, banners removed, both refinement blocks and hand reviews kept, exports no longer marked pending, and `--check` with 0 problems. The summary page no longer crashes if a deck drops out of the build.
+- **Grixis Refinement Cycle.md:** the summary now covers all 62 decks, with the 2 pending decks marked refined but pending. New flags cover the Tresserhorn legality claim and the MBC date. The export README notes the official date.
+- **Source:** pulled again, still at `1836b97`. Tagged `v2.5.1-grixis-refinement-pending` after merge. `validate_all` PASS.
 
 ## 2026-10-16 — Bot cycle 43 (Grixis refinement batch 5, end-of-cycle summary, v2.5-grixis-refinement)
 - **Batch 5 (10 decks):** Sedris, Sol'kanar the Swamp King, Sol'kanar the Tainted, Tetsuo Umezawa, Tetsuo Imperial Champion, The Rani, The Valeyard, Thraximundar, Wick, Zevlor.

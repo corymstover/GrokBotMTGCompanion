@@ -79,7 +79,7 @@ No qualifying swap passed the gates, guard and review, so these lists are left a
 ### Homogenization and overlap findings
 
 - All 62 lists, source → final: mean commander dependence 65.7% → **65.9%** · mean generic share 24.6% → **24.5%** · mean pairwise overlap 15.8% → **15.7%**.
-- Most shared cards: Sol Ring (62), Arcane Signet (61), Talisman of Dominance (61), Demonic Tutor (57), Talisman of Indulgence (56), Talisman of Creativity (56), Vampiric Tutor (54), Fierce Guardianship (54), Deflecting Swat (53), Cyclonic Rift (46) (lists out of 62).
+- Most shared cards: Sol Ring (62), Arcane Signet (61), Talisman of Dominance (61), Demonic Tutor (57), Talisman of Indulgence (56), Talisman of Creativity (56), Fierce Guardianship (54), Vampiric Tutor (54), Deflecting Swat (53), Cyclonic Rift (46) (lists out of 62).
 - Measured on the final lists. Most shared cards are fast mana, tutors and free interaction (see the table): the Game Changer-era ceiling cards any Grixis list at Bracket 4+ plays. That is principle 2 (no artificial weakening), not homogenization, so none of them was cut for being shared. Where overlap was high (the Kess pairs below), the hand review found the shared core explained by each commander's text except for part of Kefka's list, and Kefka was refined in batch 3. The refinement cut only generic cards with no hook to their commander. Every add carries an Oracle hook, so each changed list moved away from the shared core, not toward it.
 - **Kess, Dissident Mage / Kefka, Court Mage (64% overlap):** Partly homogenization.
 - **Cormela, Glamour Thief / Kess, Dissident Mage (62%):** Identity-justified.
@@ -299,8 +299,8 @@ Most-shared nonland cards across the 62 source lists (count of lists):
 | Demonic Tutor | 57 |
 | Talisman of Indulgence | 56 |
 | Talisman of Creativity | 56 |
-| Vampiric Tutor | 54 |
 | Fierce Guardianship | 54 |
+| Vampiric Tutor | 54 |
 | Deflecting Swat | 53 |
 | Cyclonic Rift | 46 |
 | Toxic Deluge | 45 |
@@ -309,10 +309,10 @@ Most-shared nonland cards across the 62 source lists (count of lists):
 | Fellwar Stone | 40 |
 | Swan Song | 39 |
 | Chaos Warp | 37 |
-| Deadly Rollick | 36 |
 | Mystic Remora | 36 |
-| Force of Will | 35 |
+| Deadly Rollick | 36 |
 | Jeska's Will | 35 |
+| Force of Will | 35 |
 | Mana Vault | 34 |
 | Dark Ritual | 33 |
 | Lightning Greaves | 33 |
