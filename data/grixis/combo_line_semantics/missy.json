@@ -1,0 +1,1134 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+ "deck_id": "Missy",
+ "lines": [
+  {
+   "cards": [
+    "Missy",
+    "Ashnod's Altar",
+    "Horde Ambusher"
+   ],
+   "combo_id": "1045-2034-4424",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1045-2034-4424",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1045-2034-4424"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one red card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Horde Ambusher, adding {C}{C}.\nWhen Horde Ambusher dies, Missy's first ability triggers, returning Horde Ambusher from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nActivate Horde Ambusher's morph ability by revealing a red card from your hand, turning it face up.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Viscera Seer",
+    "Horde Ambusher"
+   ],
+   "combo_id": "1045-2292-4424",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1045-2292-4424",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1045-2292-4424"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one red card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite scry 1"
+    ],
+    "steps": "Activate Viscera Seer by sacrificing Horde Ambusher.\nWhen Horde Ambusher dies, Missy's first ability triggers, returning Horde Ambusher from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nResolve the Viscera Seer ability, causing you to scry 1.\nActivate Horde Ambusher's morph ability by revealing a red card from your hand, turning it face up.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Phyrexian Altar",
+    "Horde Ambusher"
+   ],
+   "combo_id": "1045-4050-4424",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1045-4050-4424",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1045-4050-4424"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one red card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite colored mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Phyrexian Altar by sacrificing Horde Ambusher, adding one mana of any color.\nWhen Horde Ambusher dies, Missy's first ability triggers, returning Horde Ambusher from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nActivate Horde Ambusher's morph ability by revealing a red card from your hand, turning it face up.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Goblin Bombardment",
+    "Horde Ambusher"
+   ],
+   "combo_id": "1045-4424-5147",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1045-4424-5147",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1045-4424-5147"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one red card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite damage",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Goblin Bombardment by sacrificing Horde Ambusher.\nWhen Horde Ambusher dies, Missy's first ability triggers, returning Horde Ambusher from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nResolve the Goblin Bombardment ability, dealing 1 damage to any target.\nActivate Horde Ambusher's morph ability by revealing a red card from your hand, turning it face up.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Altar of Dementia",
+    "Horde Ambusher"
+   ],
+   "combo_id": "1045-4424-5256",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1045-4424-5256",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1045-4424-5256"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one red card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mill",
+     "Infinite creature sacrifice triggers",
+     "Infinite self-mill"
+    ],
+    "steps": "Activate Altar of Dementia by sacrificing Horde Ambusher.\nWhen Horde Ambusher dies, Missy's first ability triggers, returning Horde Ambusher from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nResolve the Altar of Dementia ability, causing target player to mill cards equal to Horde Ambusher's power.\nActivate Horde Ambusher's morph ability by revealing a red card from your hand, turning it face up.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Ashnod's Altar",
+    "Ruthless Ripper"
+   ],
+   "combo_id": "1794-2034-4424",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1794-2034-4424",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1794-2034-4424"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one black card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite lifeloss",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Ruthless Ripper, adding {C}{C}.\nWhen Ruthless Ripper dies, Missy's first ability triggers, returning Ruthless Ripper from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nActivate Ruthless Ripper's morph ability by revealing a black card from your hand, turning it face up.\nRuthless Ripper triggers, causing target player to lose 2 life.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Viscera Seer",
+    "Ruthless Ripper"
+   ],
+   "combo_id": "1794-2292-4424",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1794-2292-4424",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1794-2292-4424"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one black card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite lifeloss",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite scry 1"
+    ],
+    "steps": "Activate Viscera Seer by sacrificing Ruthless Ripper.\nWhen Ruthless Ripper dies, Missy's first ability triggers, returning Ruthless Ripper from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nResolve the Viscera Seer ability, causing you to scry 1.\nActivate Ruthless Ripper's morph ability by revealing a black card from your hand, turning it face up.\nRuthless Ripper triggers, causing target player to lose 2 life.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Phyrexian Altar",
+    "Ruthless Ripper"
+   ],
+   "combo_id": "1794-4050-4424",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1794-4050-4424",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1794-4050-4424"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one black card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite colored mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite lifeloss",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Phyrexian Altar by sacrificing Ruthless Ripper, adding one mana of any color.\nWhen Ruthless Ripper dies, Missy's first ability triggers, returning Ruthless Ripper from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nActivate Ruthless Ripper's morph ability by revealing a black card from your hand, turning it face up.\nRuthless Ripper triggers, causing target player to lose 2 life.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Goblin Bombardment",
+    "Ruthless Ripper"
+   ],
+   "combo_id": "1794-4424-5147",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1794-4424-5147",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1794-4424-5147"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one black card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite damage",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite lifeloss",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Goblin Bombardment by sacrificing Ruthless Ripper.\nWhen Ruthless Ripper dies, Missy's first ability triggers, returning Ruthless Ripper from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nResolve the Goblin Bombardment ability, dealing 1 damage to any target.\nActivate Ruthless Ripper's morph ability by revealing a black card from your hand, turning it face up.\nRuthless Ripper triggers, causing target player to lose 2 life.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Altar of Dementia",
+    "Ruthless Ripper"
+   ],
+   "combo_id": "1794-4424-5256",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1794-4424-5256",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1794-4424-5256"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one black card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite lifeloss",
+     "Infinite creature LTB",
+     "Infinite mill",
+     "Infinite creature sacrifice triggers",
+     "Infinite self-mill"
+    ],
+    "steps": "Activate Altar of Dementia by sacrificing Ruthless Ripper.\nWhen Ruthless Ripper dies, Missy's first ability triggers, returning Ruthless Ripper from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nResolve the Altar of Dementia ability, causing target player to mill cards equal to Ruthless Ripper's power.\nActivate Ruthless Ripper's morph ability by revealing a black card from your hand, turning it face up.\nRuthless Ripper triggers, causing target player to lose 2 life.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Ashnod's Altar",
+    "Dragon's Eye Savants"
+   ],
+   "combo_id": "2034-3565-4424",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2034-3565-4424",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2034-3565-4424"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one blue card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Dragon's Eye Savants, adding {C}{C}.\nWhen Dragon's Eye Savants dies, Missy's first ability triggers, returning Dragon's Eye Savants from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nActivate Dragon's Eye Savants's morph ability by revealing a blue card from your hand, turning it face up.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Viscera Seer",
+    "Dragon's Eye Savants"
+   ],
+   "combo_id": "2292-3565-4424",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2292-3565-4424",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2292-3565-4424"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one blue card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite scry 1"
+    ],
+    "steps": "Activate Viscera Seer by sacrificing Dragon's Eye Savants.\nWhen Dragon's Eye Savants dies, Missy's first ability triggers, returning Dragon's Eye Savants from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nResolve the Viscera Seer ability, causing you to scry 1.\nActivate Dragon's Eye Savants's morph ability by revealing a blue card from your hand, turning it face up.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Phyrexian Altar",
+    "Dragon's Eye Savants"
+   ],
+   "combo_id": "3565-4050-4424",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3565-4050-4424",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3565-4050-4424"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one blue card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite colored mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Phyrexian Altar by sacrificing Dragon's Eye Savants, adding one mana of any color.\nWhen Dragon's Eye Savants dies, Missy's first ability triggers, returning Dragon's Eye Savants from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nActivate Dragon's Eye Savants's morph ability by revealing a blue card from your hand, turning it face up.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Goblin Bombardment",
+    "Dragon's Eye Savants"
+   ],
+   "combo_id": "3565-4424-5147",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3565-4424-5147",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3565-4424-5147"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one blue card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite damage",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Goblin Bombardment by sacrificing Dragon's Eye Savants.\nWhen Dragon's Eye Savants dies, Missy's first ability triggers, returning Dragon's Eye Savants from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nResolve the Goblin Bombardment ability, dealing 1 damage to any target.\nActivate Dragon's Eye Savants's morph ability by revealing a blue card from your hand, turning it face up.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Altar of Dementia",
+    "Dragon's Eye Savants"
+   ],
+   "combo_id": "3565-4424-5256",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3565-4424-5256",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3565-4424-5256"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least one blue card in hand.",
+    "notes": "In order to get infinite mill and self-mill, you will need an anthem effect that boosts Dragon's Eye Savant's power by 1 or more. Otherwise, those results will not be given.",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mill",
+     "Infinite creature sacrifice triggers",
+     "Infinite self-mill"
+    ],
+    "steps": "Activate Altar of Dementia by sacrificing Dragon's Eye Savants.\nWhen Dragon's Eye Savants dies, Missy's first ability triggers, returning Dragon's Eye Savants from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nResolve the Altar of Dementia ability, causing target player to mill cards equal to Dragon's Eye Savants's power.\nActivate Dragon's Eye Savants's morph ability by revealing a blue card from your hand, turning it face up.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Phyrexian Altar",
+    "Grim Haruspex"
+   ],
+   "combo_id": "631-4050-4424",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:631-4050-4424",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/631-4050-4424"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Phyrexian Altar by sacrificing Grim Haruspex, adding {B}.\nWhen Grim Haruspex dies, Missy's first ability triggers, returning Grim Haruspex from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nActivate Grim Haruspex's morph ability by paying {B}, turning it face up.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Missy",
+    "Ixidor, Reality Sculptor",
+    "Pitiless Plunderer",
+    "Ashnod's Altar"
+   ],
+   "combo_id": "419-2034-4424-4871",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 3,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 2,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 8
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:419-2034-4424-4871",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/419-2034-4424-4871"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You control another nontoken nonartifact creature.",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing another nontoken nonartifact creature, adding {C}{C}.\nWhen the creature dies, Missy's first ability and Pitiless Plunderer trigger.\nResolve the Missy trigger, returning the creature from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.\nResolve the Pitiless Plunderer trigger, creating a Treasure artifact token.\nActivate the Treasure by tapping and sacrificing it, adding {U}.\nActivate Ixidor by paying {2}{U}, turning the creature face up.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "missy",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 17,
+  "direct_endpoint_hint_count": 6,
+  "mana_needed_declared_count": 0,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 17,
+  "zone_mention_count": 64
+ }
+}

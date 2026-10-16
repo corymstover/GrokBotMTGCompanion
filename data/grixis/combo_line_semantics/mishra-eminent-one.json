@@ -1,0 +1,1241 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+ "deck_id": "Mishra__Eminent_One",
+ "lines": [
+  {
+   "cards": [
+    "Emry, Lurker of the Loch",
+    "Mindslaver"
+   ],
+   "combo_id": "1167-1329",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "10"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1167-1329",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1167-1329"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{10} each turn",
+    "notable_prerequisites": "Emry does not have summoning sickness.",
+    "notes": "",
+    "produces": [
+     "You control one opponent on each of their turns",
+     "Lock"
+    ],
+    "steps": "Activate Mindslaver by paying {4}, tapping and sacrificing it, gaining control of target player's next turn.\nActivate Emry by tapping it, allowing you to cast Mindslaver from your graveyard this turn.\nCast Mindslaver from your graveyard by paying {6}.\nPass the turn.\nEnd the controlled opponent turn.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mindslaver",
+    "Academy Ruins"
+   ],
+   "combo_id": "1167-1384",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 1
+    },
+    "mana_symbols_declared": [
+     "11",
+     "U"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1167-1384",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1167-1384"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{11}{U} each turn",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "You control one opponent on each of their turns",
+     "Lock"
+    ],
+    "steps": "Use Mindslaver's ability targeting an opponent.\nActivate Academy Ruins's ability targeting Mindslaver in graveyard.\nPass to opponent's turn.\nPass to your turn and draw Mindslaver.\nPlay Mindslaver, use it, and target it with Academy Ruins."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Esoteric Duplicator",
+    "Mindslaver"
+   ],
+   "combo_id": "1167-5483",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "6"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1167-5483",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1167-5483"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{6} for each opponent you have each turn",
+    "notable_prerequisites": "",
+    "notes": "You can use this combo to control as many opponents as mana will allow, at a cost of {6} per opponent per turn cycle.",
+    "produces": [
+     "You control your opponents on each of their turns",
+     "Lock"
+    ],
+    "steps": "Activate Mindslaver by paying {4}, tapping and sacrificing it, targeting the next opponent in turn order.\nEsoteric Duplicator triggers, causing you to pay {2} to create a copy of Mindslaver at the beginning of the next end step.\nResolve the Mindslaver ability, causing you to control the targeted opponent during their next turn.\nAt the beginning of the next end step, Esoteric Duplicator triggers, creating a token copy of Mindslaver.\nRepeat during each turn, including your opponents' turns, unless you are the next player in turn order."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "The One Ring",
+    "Master Transmuter"
+   ],
+   "combo_id": "1999-3363",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [
+     "damage"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "4",
+     "U"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1999-3363",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1999-3363"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{4}{U} each turn",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Lock",
+     "Prevent all damage that would be dealt to you",
+     "You have protection from everything"
+    ],
+    "steps": "Cast The One Ring by paying {4}.\nThe One Ring triggers, giving you protection from everything until your next turn.\nReturn The One Ring to your hand using Master Transmuter.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mishra, Eminent One",
+    "Aetherflux Reservoir"
+   ],
+   "combo_id": "4740-5159",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:4740-5159",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/4740-5159"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Your life total is at least 51.\nYou have a way to give lifelink to a creature.",
+    "notes": "",
+    "produces": [
+     "Infinite damage",
+     "Infinite lifegain triggers"
+    ],
+    "steps": "At the beginning of your combat phase, Mishra triggers, creating a token copy of Aetherflux Reservoir that is a 4/4 Construct artifact creature named Mishra's Warform with haste.\nGive Mishra's Warform lifelink.\nActivate Mishra's Warform by paying 50 life, dealing 50 damage to any target and causing you to gain 50 life.\nRepeat step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Emry, Lurker of the Loch",
+    "The One Ring",
+    "Krark-Clan Ironworks"
+   ],
+   "combo_id": "1329-3363-4659",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "2"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1329-3363-4659",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1329-3363-4659"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2} during each of your turns",
+    "notable_prerequisites": "Emry does not have summoning sickness.",
+    "notes": "",
+    "produces": [
+     "Prevent all damage that would be dealt to you",
+     "You have protection from everything",
+     "Lock"
+    ],
+    "steps": "Activate Krark-Clan Ironworks by sacrificing The One Ring, adding {C}{C}.\nActivate Emry by tapping it, allowing you to cast The One Ring from your graveyard this turn.\nCast The One Ring by paying {4}.\nThe One Ring triggers, giving you protection from everything until your next turn.\nRepeat during each of your turns."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mishra, Eminent One",
+    "Gonti's Aether Heart",
+    "Brudiclad, Telchor Engineer"
+   ],
+   "combo_id": "1953-4636-5159",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 0,
+     "trigger": 5
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 8
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1953-4636-5159",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1953-4636-5159"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "At the beginning of your combat phase, Mishra and Brudiclad trigger.\nResolve the Mishra trigger, creating a 4/4 artifact creature token copy of Gonti's Aether Heart named Mishra's Warform.\nWhen Mishra's Warform enters the battlefield, it and Gonti's Aether Heart trigger, causing you to get four energy counters.\nResolve the Brudiclad trigger, creating a 2/1 Phyrexian Myr artifact creature token.\nWhen the Phyrexian Myr enters the battlefield, Mishra's Warform and Gonti's Aether Heart trigger, causing you to get four energy counters.\nActivate Mishra's Warform by paying eight energy counters and exiling it, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mishra, Eminent One",
+    "Gonti's Aether Heart",
+    "Strionic Resonator"
+   ],
+   "combo_id": "2751-4636-5159",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 0,
+     "trigger": 6
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 10
+    },
+    "mana_symbols_declared": [
+     "2"
+    ],
+    "step_count": 9,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2751-4636-5159",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2751-4636-5159"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2} each turn",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "At the beginning of your combat phase, Mishra triggers.\nHolding priority, activate Strionic Resonator by paying {2} and tapping it, copying Mishra's trigger.\nResolve the first Mishra trigger, creating a 4/4 artifact creature token copy of Gonti's Aether Heart named Mishra's Warform.\nWhen Mishra's Warform enters the battlefield, it and Gonti's Aether Heart trigger, causing you to get four energy counters.\nResolve the second Mishra trigger from step 1,  creating a 4/4 artifact creature token copy of Gonti's Aether Heart named Mishra's Warform.\nPut either Mishra's Warform into your graveyard due to the legend rule.\nWhen the second Mishra's Warform enters the battlefield, both Mishra's Warforms and Gonti's Aether Heart trigger, causing you to get six energy counters.\nActivate the remaining Mishra's Warform by paying eight energy counters and exiling it, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mishra, Eminent One",
+    "Strionic Resonator",
+    "Krark-Clan Ironworks"
+   ],
+   "combo_id": "2751-4659-5159",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 3,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "4"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2751-4659-5159",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2751-4659-5159"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{4}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "At the beginning of your combat phase, Mishra triggers, targeting any artifact.\nHolding priority, activate Strionic Resonator's first ability by paying {2} and tapping it, copying Mishra's ability, targeting Strionic Resonator.\nResolve the copy of Mishra's ability, creating a token copy of Strionic Resonator that is a 4/4 creature with haste named Mishra's Warform in addition to its other types.\nActivate Mishra's Warform's first ability by paying {2}, and tapping it, copying Mishra's ability, targeting Strionic Resonator.\nHolding priority, activate Krark-Clan Ironworks by sacrificing Mishra's Warform, adding {C}{C}.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mishra, Eminent One",
+    "Gonti's Aether Heart",
+    "Lithoform Engine"
+   ],
+   "combo_id": "3094-4636-5159",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 0,
+     "trigger": 6
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 10
+    },
+    "mana_symbols_declared": [
+     "2"
+    ],
+    "step_count": 9,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3094-4636-5159",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3094-4636-5159"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2} each turn",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "At the beginning of your combat phase, Mishra triggers.\nHolding priority, activate Lithoform Engine's first ability by paying {2} and tapping it, copying Mishra's trigger.\nResolve the first Mishra trigger, creating a 4/4 artifact creature token copy of Gonti's Aether Heart named Mishra's Warform.\nWhen Mishra's Warform enters the battlefield, it and Gonti's Aether Heart trigger, causing you to get four energy counters.\nResolve the second Mishra trigger from step 1,  creating a 4/4 artifact creature token copy of Gonti's Aether Heart named Mishra's Warform.\nPut either Mishra's Warform into your graveyard due to the legend rule.\nWhen the second Mishra's Warform enters the battlefield, both Mishra's Warforms and Gonti's Aether Heart trigger, causing you to get six energy counters.\nActivate the remaining Mishra's Warform by paying eight energy counters and exiling it, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mishra, Eminent One",
+    "Lithoform Engine",
+    "Krark-Clan Ironworks"
+   ],
+   "combo_id": "3094-4659-5159",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 3,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "4"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3094-4659-5159",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3094-4659-5159"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{4}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "At the beginning of your combat phase, Mishra triggers, targeting any artifact.\nHolding priority, activate Lithoform Engine's first ability by paying {2} and tapping it, copying Mishra's ability, targeting Lithoform Engine.\nResolve the copy of Mishra's ability, creating a token copy of Lithoform Engine that is a 4/4 creature with haste named Mishra's Warform in addition to its other types.\nActivate Mishra's Warform's first ability by paying {2}, and tapping it, copying Mishra's ability, targeting Lithoform Engine.\nHolding priority, activate Krark-Clan Ironworks by sacrificing Mishra's Warform, adding {C}{C}.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mishra, Eminent One",
+    "Gonti's Aether Heart",
+    "Determined Iteration"
+   ],
+   "combo_id": "3934-4636-5159",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 0,
+     "trigger": 5
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 8
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3934-4636-5159",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3934-4636-5159"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "At the beginning of your combat phase, Mishra and Determined Iteration trigger.\nResolve the Mishra trigger, creating a 4/4 artifact creature token copy of Gonti's Aether Heart named Mishra's Warform.\nWhen Mishra's Warform enters the battlefield, it and Gonti's Aether Heart trigger, causing you to get four {E}.\nResolve the Determined iteration trigger, creating a token copy of the Mishra's Warform token.\nWhen the copy of the Mishra's Warform token enters the battlefield, it, Mishra's Warform and Gonti's Aether Heart trigger, causing you to get six {E}.\nActivate Mishra's Warform by paying eight {E} and exiling it, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mishra, Eminent One",
+    "Gonti's Aether Heart",
+    "Worldwalker Helm"
+   ],
+   "combo_id": "4636-5159-5491",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:4636-5159-5491",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/4636-5159-5491"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "At the beginning of your combat phase, Mishra triggers, creating a 4/4 artifact creature token copy of Gonti's Aether Heart named Mishra's Warform and a Map token.\nWhen the Map and Mishra's Warform enters the battlefield, Mishra's Warform and Gonti's Aether Heart trigger twice each, causing you to get eight {E}.\nActivate Mishra's Warform by paying eight {E} and exiling it, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Sensei's Divining Top",
+    "Mystic Forge",
+    "Etherium Sculptor"
+   ],
+   "combo_id": "985-1976-5078",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "draw",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:985-1976-5078",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/985-1976-5078"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite storm count",
+     "Infinite draw triggers"
+    ],
+    "steps": "Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.\nCast Sensei's Divining Top from the top of your library by paying {0}.\nRepeat"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Sensei's Divining Top",
+    "Mystic Forge",
+    "Enthusiastic Mechanaut"
+   ],
+   "combo_id": "985-4908-5078",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "draw",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:985-4908-5078",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/985-4908-5078"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite storm count"
+    ],
+    "steps": "Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.\nCast Sensei's Divining Top from the top of your library by paying {0}.\nRepeat"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Krark-Clan Ironworks",
+    "Etherium Sculptor"
+   ],
+   "combo_id": "1020-1976-2866-4659",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1020-1976-2866-4659",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1020-1976-2866-4659"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Krark-Clan Ironworks by sacrificing Myr Retriever, adding {C}{C}.\nWhen Myr Retriever dies, it triggers, returning Scrap Trawler from your graveyard to your hand.\nCast Scrap Trawler by paying its mana cost, which is reduced by Etherium Sculptor.\nActivate Krark-Clan Ironworks by sacrificing Scrap Trawler, adding {C}{C}.\nWhen Scrap Trawler dies, it triggers, returning Myr Retriever from your graveyard to your hand.\nCast Myr Retriever by paying its mana cost, which is reduced by Etherium Sculptor.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Krark-Clan Ironworks",
+    "Enthusiastic Mechanaut"
+   ],
+   "combo_id": "1020-2866-4659-4908",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1020-2866-4659-4908",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1020-2866-4659-4908"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Krark-Clan Ironworks by sacrificing Myr Retriever, adding {C}{C}.\nWhen Myr Retriever dies, it triggers, returning Scrap Trawler from your graveyard to your hand.\nCast Scrap Trawler by paying its mana cost, which is reduced by Enthusiastic Mechanaut.\nActivate Krark-Clan Ironworks by sacrificing Scrap Trawler, adding {C}{C}.\nWhen Scrap Trawler dies, it triggers, returning Myr Retriever from your graveyard to your hand.\nCast Myr Retriever by paying its mana cost, which is reduced by Enthusiastic Mechanaut.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mishra, Eminent One",
+    "Mindslaver",
+    "Lithoform Engine",
+    "Strionic Resonator"
+   ],
+   "combo_id": "1167-2751-3094-5159",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 4,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 3,
+     "sacrifice": 2,
+     "trigger": 4
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 11
+    },
+    "mana_symbols_declared": [
+     "12"
+    ],
+    "step_count": 9,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1167-2751-3094-5159",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1167-2751-3094-5159"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{12} each turn",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "You control up to three opponents on each of their turns",
+     "Lock"
+    ],
+    "steps": "At the beginning of your combat phase, Mishra triggers.\nHolding priority, activate Strionic Resonator by paying {2} and tapping it, copying Mishra's trigger.\nResolve the first Mishra trigger, creating a token copy of Mindslaver that is a 4/4 artifact creature named Mishra's Warform in addition to it's other types.\nActivate Mishra's Warform by paying {4}, tapping and sacrificing it, targeting an opponent.\nHolding priority, activate Lithoform Engine's first ability by paying {2} and tapping it, copying Mishra's Warform's ability, targeting any other opponent.\nResolve both Mishra's Warform abilities, causing you to gain control of the targeted opponents during their next turns.\nResolve the second Mishra trigger from step 1, creating a token copy of Mindslaver that is a 4/4 artifact creature named Mishra's Warform in addition to it's other types.\nActivate Mishra's Warform by paying {4}, tapping and sacrificing it, causing you to gain control of an opponent during their next turn.\nRepeat during each of your turns."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mishra, Eminent One",
+    "Urza, Lord High Artificer",
+    "Worldwalker Helm",
+    "Thousand-Year Elixir"
+   ],
+   "combo_id": "457-5159-5295-5491",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 3,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "mana",
+     "tokens",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "1"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:457-5159-5295-5491",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/457-5159-5295-5491"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}",
+    "notable_prerequisites": "",
+    "notes": "Once you have infinite mana, you may use it to activate Urza's ability.",
+    "produces": [
+     "Infinite artifact tokens",
+     "Infinite creature ETB",
+     "Infinite blue mana",
+     "Infinite tapped creature tokens",
+     "Exile your library",
+     "Cast all spells in your library",
+     "Infinite Map tokens"
+    ],
+    "steps": "At the beginning of your combat phase, Mishra triggers, creating a token copy of Worldwalker Helm that is a 4/4 Construct artifact creature with haste named Mishra's Warform, and a Map token.\nActivate Urza's first ability by tapping a Map, adding {U}.\nActivate Mishra's Warform by paying {1}{U} and tapping it, creating a token copy of it and a Map token for each Mishra's Warform and/or Worldwalker Helm you control.\nActivate Urza's first ability twice by tapping two Maps, adding {U}{U}.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "mishra-eminent-one",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 19,
+  "direct_endpoint_hint_count": 4,
+  "mana_needed_declared_count": 11,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 19,
+  "zone_mention_count": 28
+ }
+}

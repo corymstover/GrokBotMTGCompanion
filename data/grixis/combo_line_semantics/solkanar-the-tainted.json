@@ -1,0 +1,270 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+ "deck_id": "Sol_kanar_the_Tainted",
+ "lines": [
+  {
+   "cards": [
+    "Demonic Pact",
+    "Donate"
+   ],
+   "combo_id": "2770-6676",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "2",
+     "U"
+    ],
+    "step_count": 2,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2770-6676",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2770-6676"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{U}",
+    "notable_prerequisites": "The first three modes of Demonic Pact have been selected.",
+    "notes": "",
+    "produces": [
+     "Target opponent loses the game at the beginning of their next upkeep"
+    ],
+    "steps": "Cast Donate by paying {2}{U}, giving control of Demonic Pact to an opponent.\nAt the beginning of the opponent's upkeep, Demonic Pact triggers, causing them to select the fourth mode and lose the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Demonic Pact",
+    "Harmless Offering"
+   ],
+   "combo_id": "3090-6676",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "2",
+     "R"
+    ],
+    "step_count": 2,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3090-6676",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3090-6676"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{R}",
+    "notable_prerequisites": "The first three modes of Demonic Pact have been selected.",
+    "notes": "",
+    "produces": [
+     "Target opponent loses the game at the beginning of their next upkeep"
+    ],
+    "steps": "Cast Harmless Offering by paying {2}{R}, giving control of Demonic Pact to an opponent.\nAt the beginning of the opponent's upkeep, Demonic Pact triggers, causing them to select the fourth mode and lose the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Demonic Pact",
+    "Blim, Comedic Genius"
+   ],
+   "combo_id": "3769-6676",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 0,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 2,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3769-6676",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3769-6676"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "The first three modes of Demonic Pact have been selected.",
+    "notes": "",
+    "produces": [
+     "Target opponent loses the game at the beginning of their next upkeep"
+    ],
+    "steps": "Deal combat damage to an opponent using Blim, triggering its ability, giving control of Demonic Pact to an opponent.\nAt the beginning of the opponent's upkeep, Demonic Pact triggers, causing them to select the fourth mode and lose the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Demonic Pact",
+    "Coveted Falcon"
+   ],
+   "combo_id": "6676-6922",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "1",
+     "U"
+    ],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:6676-6922",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/6676-6922"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "Your deck size is at least 2.",
+    "mana_needed": "{1}{U}",
+    "notable_prerequisites": "The first three modes of Demonic Pact have been selected.",
+    "notes": "",
+    "produces": [
+     "Target opponent loses the game at the beginning of their next upkeep"
+    ],
+    "steps": "Activate Coveted Falcon by paying {1}{U}, turning it face up.\nCoveted Falcon triggers, causing an opponent to gain control of Demonic Pact and causing you to draw a card.\nAt the beginning of the opponent's upkeep, Demonic Pact triggers, causing them to select the fourth mode and lose the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "solkanar-the-tainted",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 4,
+  "direct_endpoint_hint_count": 0,
+  "mana_needed_declared_count": 3,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 4,
+  "zone_mention_count": 0
+ }
+}

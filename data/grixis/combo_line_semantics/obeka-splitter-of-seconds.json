@@ -1,0 +1,328 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "lines": [
+  {
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Mechanized Production"
+   ],
+   "combo_id": "2047-5471",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2047-5471",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2047-5471"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Obeka's power is greater than or equal to 8 minus the number of artifacts you control that share a name with the artifact that has Mechanized Production attached.\nAn opponent cannot block Obeka.",
+    "notes": "",
+    "produces": [
+     "Win the game"
+    ],
+    "steps": "Deal combat damage using Obeka, triggering Obeka, causing you to get that many upkeep steps after this phase.\nMove to your next upkeep step. At the beginning of that step, Mechanized Production triggers, causing you to create a token copy of the artifact it's attached to, and win the game if you control eight or more artifacts that share a name.\nRepeat step 2 as necessary for the remaining upkeep steps until you win the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Time Sieve",
+    "Court of Vantress"
+   ],
+   "combo_id": "1469-1558-5471",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 2,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1469-1558-5471",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1469-1558-5471"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Obeka has power 4 or greater and cannot be blocked by an opponent.\nYou are the monarch.",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "At the beginning of your upkeep, Court of Vantress triggers, creating a token copy of Time Sieve.\nDeal combat damage using Obeka.\nObeka triggers, causing you to get at least four upkeep steps after this phase.\nRepeat step 1 during each of the additional upkeep steps.\nActivate the nontoken Time Sieve by tapping it and sacrificing five Time Sieve tokens, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Time Sieve",
+    "Thopter Spy Network"
+   ],
+   "combo_id": "1558-5085-5471",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 2,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1558-5085-5471",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1558-5085-5471"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Obeka has power 4 or greater and cannot be blocked by an opponent.",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "At the beginning of your upkeep, Thopter Spy Network's first ability triggers, creating a 1/1 Thopter artifact creature token.\nDeal combat damage using Obeka.\nObeka triggers, causing you to get at least four upkeep steps after this phase.\nRepeat step 1 during each of the additional upkeep steps.\nActivate Time Sieve by tapping it and sacrificing five Thopters, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Time Sieve",
+    "Replicating Ring"
+   ],
+   "combo_id": "1558-5471-7348",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 2,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1558-5471-7348",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1558-5471-7348"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Obeka has power 7 or greater and cannot be blocked by an opponent.",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "At the beginning of your upkeep, Replicating Ring triggers, putting a night counter on it. Then, if it has eight or more night counters, remove all of them and create eight Replicating Ring tokens.\nDeal combat damage using Obeka. Obeka triggers, causing you to get at least seven upkeep steps after this phase.\nRepeat step 1 for each of the additional upkeep steps.\nActivate Time Sieve by tapping it and sacrificing five Replicating Ring tokens, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Smaug the Magnificent",
+    "Time Sieve"
+   ],
+   "combo_id": "1558-5471-7651",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 2,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1558-5471-7651",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1558-5471-7651"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "An opponent cannot block Obeka.",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "At the beginning of your upkeep, Smaug triggers, creating a Treasure token.\nDeal combat damage using Obeka, triggering its ability, causing you to get at least four extra upkeep steps.\nRepeat step 1 during each extra upkeep step, creating at least four additional Treasures.\nActivate Time Sieve by tapping it and sacrificing five Treasures, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "obeka-splitter-of-seconds",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 5,
+  "direct_endpoint_hint_count": 0,
+  "mana_needed_declared_count": 0,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 5,
+  "zone_mention_count": 0
+ }
+}

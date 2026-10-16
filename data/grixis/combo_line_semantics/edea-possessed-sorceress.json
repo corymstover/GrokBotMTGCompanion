@@ -1,0 +1,26 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+ "deck_id": "Edea__Possessed_Sorceress",
+ "lines": [],
+ "schema_version": 1,
+ "slug": "edea-possessed-sorceress",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 0,
+  "direct_endpoint_hint_count": 0,
+  "mana_needed_declared_count": 0,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 0,
+  "zone_mention_count": 0
+ }
+}

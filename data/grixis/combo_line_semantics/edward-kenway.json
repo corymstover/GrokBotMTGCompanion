@@ -1,0 +1,395 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+ "deck_id": "Edward_Kenway",
+ "lines": [
+  {
+   "cards": [
+    "The Reaver Cleaver",
+    "Time Sieve"
+   ],
+   "combo_id": "1558-5039",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1558-5039",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1558-5039"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "The Reaver Cleaver attached to a creature with power four or greater that can attack this turn.\nAn opponent is unable to block the creature with The Reaver Cleaver attached.",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "Deal combat damage to a player with the creature that has The Reaver Cleaver attached.\nThe creature triggers, creating at least five Treasure tokens.\nActivate Time Sieve by tapping it and sacrificing five Treasure tokens, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Edward Kenway",
+    "Time Sieve"
+   ],
+   "combo_id": "1558-5736",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1558-5736",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1558-5736"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You control at least five in any combination of Assassins, Pirates and/or Vehicles.\nYou are able to tap at least five Assassins, Pirates and/or Vehicles you control each turn.",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "Tap at least five Assassins, Pirates and/or Vehicles you control, either by declaring them as attackers if they don't have vigilance or by using any other method.\nAt the beginning of your end step, Edward Kenway's first ability triggers, creating at least five Treasure tokens.\nActivate Time Sieve by tapping it and sacrificing five Treasures, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Time Sieve",
+    "Luxurious Locomotive"
+   ],
+   "combo_id": "1558-6307",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1558-6307",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1558-6307"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You control at least five creatures with total power 1 or greater.\nAn opponent cannot block and kill Luxurious Locomotive.",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "Activate Luxurious Locomotive's crew ability by tapping five creatures you control with total power 1 or greater, causing Luxurious Locomotive to become an artifact creature until end of turn.\nDeclare Luxurious Locomotive as an attacker.\nLuxurious Locomotive triggers, creating at least five Treasure tokens.\nActivate Time Sieve by tapping it and sacrificing five Treasures, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Malcolm, Keen-Eyed Navigator",
+    "Glint-Horn Buccaneer"
+   ],
+   "combo_id": "4508-4869",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "damage",
+     "draw"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "1",
+     "R"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 1
+    }
+   },
+   "evidence": [
+    "spellbook:4508-4869",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/4508-4869"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You have a card in hand.\nYou have at least two opponents.",
+    "mana_needed": "{1}{R}",
+    "notable_prerequisites": "",
+    "notes": "The combo stops creating enough Treasures once you have one opponent remaining. If you start the combo with three or more opponents, you will make additional Treasures each iteration, which you could use for extra iterations while you only have one opponent. Depending on the life totals of your opponents and your deck size, the combo may also stop once your library is empty.",
+    "produces": [
+     "Near-infinite damage",
+     "Near-infinite self-discard triggers",
+     "Near-infinite draw triggers"
+    ],
+    "steps": "Declare Glint-Horn Buccaneer as an attacker.\nHolding priority, activate Glint-Horn Buccaneer by paying {1}{R} and discarding a card.\nGlint-Horn Buccaneer triggers, dealing 1 damage to each opponent.\nMalcolm triggers, creating a Treasure token for each opponent dealt damage this way.\nResolve the Glint-Horn Buccaneer ability, causing you to draw a card.\nActivate two Treasures by tapping and sacrificing them, adding {1}{R}.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Hoard Hauler",
+    "Time Sieve"
+   ],
+   "combo_id": "451-1558",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:451-1558",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/451-1558"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Hoard Hauler does not have summoning sickness.\nAn opponent cannot block Hoard Hauler and controls at least five artifacts.\nYou control a creature with power three or greater.",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "Activate Hoard Hauler by tapping a creature with power three or greater, causing it to become an artifact creature until end of turn.\nDeal combat damage to an opponent who controls five or more artifacts using Hoard Hauler.\nHoard Hauler triggers, creating at least five Treasure artifact tokens.\nActivate Time Sieve by tapping it and sacrificing five Treasures, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Malcolm, Keen-Eyed Navigator",
+    "Time Sieve",
+    "Academy Manufactor"
+   ],
+   "combo_id": "1558-4231-4508",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1558-4231-4508",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1558-4231-4508"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You control at least two Pirates that do not have summoning sickness and that cannot be blocked by at least two opponents.",
+    "notes": "Once you only have one opponent remaining, this combo will no longer make the necessary resources to sustain itself.",
+    "produces": [
+     "Near-infinite turns",
+     "Lock"
+    ],
+    "steps": "Deal combat damage to two opponents using at least two Pirates.\nMalcolm triggers, creating at least two Treasure, Food and Clue tokens.\nActivate TIme Sieve by tapping it and sacrificing five of the tokens, causing you to take an extra turn after this one.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "edward-kenway",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 6,
+  "direct_endpoint_hint_count": 1,
+  "mana_needed_declared_count": 1,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 6,
+  "zone_mention_count": 2
+ }
+}

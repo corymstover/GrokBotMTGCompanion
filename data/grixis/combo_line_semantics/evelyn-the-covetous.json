@@ -1,0 +1,501 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+ "deck_id": "Evelyn__the_Covetous",
+ "lines": [
+  {
+   "cards": [
+    "Tainted Pact",
+    "Thassa's Oracle"
+   ],
+   "combo_id": "1295-3093",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "B",
+     "U"
+    ],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "1",
+     "U",
+     "U",
+     "B"
+    ],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:1295-3093",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1295-3093"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "No two cards in library share a name.",
+    "mana_needed": "{1}{U}{U}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Win the game"
+    ],
+    "steps": "Cast Tainted Pact by paying {1}{B}, exiling your library.\nCast Thassa's Oracle by paying {U}{U}.\nThassa's Oracle enters the battlefield, causing you to win the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Worldgorger Dragon",
+    "Necromancy"
+   ],
+   "combo_id": "2896-4846",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "2",
+     "B"
+    ],
+    "step_count": 8,
+    "zone_mentions": {
+     "battlefield": 7,
+     "command_zone": 0,
+     "exile": 1,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2896-4846",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2896-4846"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite blinking of permanents",
+     "Infinite colored mana",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Cast Necromancy by paying {2}{B}.\nNecromancy enters the battlefield, returning Worldgorger Dragon from your graveyard to the battlefield attached with Necromancy.\nWorldgorger Dragon enters the battlefield, exiling all other permanents you control.\nNecromancy triggers, sacrificing Worldgorger Dragon.\nWorldgorger Dragon leaves the battlefield, returning all permanents exiled by it to the battlefield.\nNecromancy enters the battlefield, returning Worldgorger Dragon from your graveyard to the battlefield attached with Necromancy.\nHolding priority, activate all lands you control by tapping those, adding manas of any colors those lands can produce.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Worldgorger Dragon",
+    "Dance of the Dead"
+   ],
+   "combo_id": "3605-4846",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "1",
+     "B"
+    ],
+    "step_count": 8,
+    "zone_mentions": {
+     "battlefield": 7,
+     "command_zone": 0,
+     "exile": 1,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3605-4846",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3605-4846"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite blinking of permanents",
+     "Infinite colored mana",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Cast Dance of the Dead by paying {1}{B}.\nAnimate Dead enters the battlefield, returning Worldgorger Dragon from your graveyard to the battlefield attached with Dance of the Dead.\nWorldgorger Dragon enters the battlefield, exiling all other permanents you control.\nDance of the Dead triggers, sacrificing Worldgorger Dragon.\nWorldgorger Dragon leaves the battlefield, returning all permanents exiled by it to the battlefield.\nDance of the Dead enters the battlefield, returning Worldgorger Dragon from your graveyard to the battlefield attached with Dance of the Dead.\nHolding priority, activate all lands you control by tapping those, adding manas of any colors those lands can produce.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Worldgorger Dragon",
+    "Animate Dead"
+   ],
+   "combo_id": "4812-4846",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "1",
+     "B"
+    ],
+    "step_count": 8,
+    "zone_mentions": {
+     "battlefield": 7,
+     "command_zone": 0,
+     "exile": 1,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:4812-4846",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/4812-4846"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite blinking of permanents",
+     "Infinite colored mana",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Cast Animate Dead by paying {1}{B}.\nAnimate Dead enters the battlefield, returning Worldgorger Dragon from your graveyard to the battlefield attached with Animate Dead.\nWorldgorger Dragon enters the battlefield, exiling all other permanents you control.\nAnimate Dead triggers, sacrificing Worldgorger Dragon.\nWorldgorger Dragon leaves the battlefield, returning all permanents exiled by it to the battlefield.\nAnimate Dead enters the battlefield, returning Worldgorger Dragon from your graveyard to the battlefield attached with Animate Dead.\nHolding priority, activate all lands you control by tapping those, adding manas of any colors those lands can produce.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Demonic Consultation",
+    "Thassa's Oracle"
+   ],
+   "combo_id": "742-1295",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "B",
+     "U"
+    ],
+    "endpoint_hints": [
+     "mill"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "U",
+     "U",
+     "B"
+    ],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:742-1295",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/742-1295"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{U}{U}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ],
+    "steps": "Cast Demonic Consultation by paying {B}, naming Thassa's Oracle and thus exiling your library due to you not having a card named Thassa's Oracle in your library.\nCast Thassa's Oracle by paying {U}{U}.\nThassa's Oracle enters the battlefield, causing you to win the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "combo_id": "1368-1414-4856",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 6,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-1414-4856",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-1414-4856"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least six other cards in your graveyard, plus an additional four cards if Brain Freeze is in your graveyard.",
+    "notes": "",
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ],
+    "steps": "Activate Lotus Petal by tapping and sacrificing it, adding {U}.\nCast Lotus Petal from your graveyard for its escape cost by exiling three cards besides Brain Freeze from your graveyard.\nRepeat from step 1 one additional time.\nCast Brain Freeze either from your hand by paying {1}{U}, or from your graveyard for its escape cost by paying {1}{U} and exiling three cards from your graveyard.\nBrain Freeze's storm ability triggers, creating at least two copies of Brain Freeze targeting yourself, and any remaining copies targeting an opponent.\nResolve each Brain Freeze, causing yourself to mill nine cards and, if applicable, an opponent to mill three cards for each Brain Freeze remaining.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "combo_id": "1368-3518-4856",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "mana",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 5,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-3518-4856"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least six other cards in hand and/or graveyard.",
+    "notes": "",
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ],
+    "steps": "Activate Lion's Eye Diamond by discarding your hand and sacrificing it, adding {U}{U}{U}.\nCast Lion's Eye Diamond from your graveyard for its escape cost by exiling three cards besides Brain Freeze from your graveyard.\nCast Brain Freeze from your graveyard for its escape cost by paying {1}{U} and exiling three cards from your graveyard.\nBrain Freeze's storm ability triggers, creating at least one copy of Brain Freeze targeting yourself, and any remaining copies targeting an opponent.\nResolve each Brain Freeze, causing yourself to mill six cards and, if applicable, an opponent to mill three cards for each Brain Freeze remaining.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "evelyn-the-covetous",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 7,
+  "direct_endpoint_hint_count": 3,
+  "mana_needed_declared_count": 5,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 7,
+  "zone_mention_count": 50
+ }
+}

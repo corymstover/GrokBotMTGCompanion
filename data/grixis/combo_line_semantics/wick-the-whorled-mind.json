@@ -1,0 +1,938 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+ "deck_id": "Wick__the_Whorled_Mind",
+ "lines": [
+  {
+   "cards": [
+    "Marrow-Gnawer",
+    "Intruder Alarm"
+   ],
+   "combo_id": "1636-3126",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "tokens",
+     "untap"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1636-3126",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1636-3126"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You control at least two additional Rats.",
+    "notes": "",
+    "produces": [
+     "Infinite creature tokens",
+     "Infinite mana creatures you control can produce",
+     "Infinite untap of creatures"
+    ],
+    "steps": "Activate Marrow-Gnawer by tapping it and sacrificing another Rat, creating at least two 1/1 Rat tokens.\nIntruder Alarm triggers once for each creature token created, untapping all creatures that many times.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Ashnod's Altar",
+    "Leyline of Transformation"
+   ],
+   "combo_id": "2034-5853-5929",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "3",
+     "B"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 1,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2034-5853-5929",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2034-5853-5929"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "\"Rat\" chosen with Leyline of Transformation.",
+    "mana_needed": "{3}{B} plus enough mana to pay for commander tax, if applicable",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite colorless mana"
+    ],
+    "steps": "Cast Wick either from your hand or from the command zone by paying {3}{B} plus commander tax, if applicable.\nWhen Wick enters the battlefield, it triggers.\nHolding priority, if you control a Snail, activate Ashnod's Altar by sacrificing the Snail, adding {C}{C}.\nIf needed, repeat step 3 until you do not control a Snail.\nResolve the Wick trigger, creating a 1/1 Snail creature token.\nWhen the Snail enters the battlefield as a Rat due to Leyline of Transformation, Wick triggers.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Viscera Seer",
+    "Leyline of Transformation"
+   ],
+   "combo_id": "2292-5853-5929",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "3",
+     "B"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 1,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2292-5853-5929",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2292-5853-5929"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "\"Rat\" chosen with Leyline of Transformation.",
+    "mana_needed": "{3}{B} plus enough mana to pay for commander tax, if applicable",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite scry 1"
+    ],
+    "steps": "Cast Wick either from your hand or from the command zone by paying {3}{B} plus commander tax, if applicable.\nWhen Wick enters the battlefield, it triggers.\nHolding priority, if you control a Snail, activate Viscera Seer by sacrificing the Snail, causing you to scry 1.\nIf needed, repeat step 3 until you do not control a Snail.\nResolve the Wick trigger, creating a 1/1 Snail creature token.\nWhen the Snail enters the battlefield as a Rat due to Leyline of Transformation, Wick triggers.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Carrion Feeder",
+    "Leyline of Transformation"
+   ],
+   "combo_id": "2438-5853-5929",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "3",
+     "B"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 1,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2438-5853-5929",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2438-5853-5929"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "\"Rat\" chosen with Leyline of Transformation.",
+    "mana_needed": "{3}{B} plus enough mana to pay for commander tax, if applicable",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite +1/+1 counters on a creature"
+    ],
+    "steps": "Cast Wick either from your hand or from the command zone by paying {3}{B} plus commander tax, if applicable.\nWhen Wick enters the battlefield, it triggers.\nHolding priority, if you control a Snail, activate Carrion Feeder by sacrificing the Snail, putting a +1/+1 counter on Carrion Feeder.\nIf needed, repeat step 3 until you do not control a Snail.\nResolve the Wick trigger, creating a 1/1 Snail creature token.\nWhen the Snail enters the battlefield as a Rat due to Leyline of Transformation, Wick triggers.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Phyrexian Altar",
+    "Leyline of Transformation"
+   ],
+   "combo_id": "4050-5853-5929",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "damage",
+     "mana",
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "3",
+     "B"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 1,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:4050-5853-5929",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/4050-5853-5929"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "\"Rat\" chosen with Leyline of Transformation.",
+    "mana_needed": "{3}{B} plus enough mana to pay for commander tax, if applicable",
+    "notable_prerequisites": "",
+    "notes": "If you have mana available, you may instead sacrifice the Snails to Wick's ability.",
+    "produces": [
+     "Near-infinite damage",
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite colored mana",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite card draw",
+     "Infinite draw triggers"
+    ],
+    "steps": "Cast Wick either from your hand or from the command zone by paying {3}{B} plus commander tax, if applicable.\nWhen Wick enters the battlefield, it triggers.\nHolding priority, if you control a Snail, activate Phyrexian Altar by sacrificing the Snail, adding one mana of any color.\nIf needed, repeat step 3 until you do not control a Snail.\nResolve the Wick trigger, creating a 1/1 Snail creature token.\nWhen the Snail enters the battlefield as a Rat due to Leyline of Transformation, Wick triggers.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Goblin Bombardment",
+    "Leyline of Transformation"
+   ],
+   "combo_id": "5147-5853-5929",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "damage",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "3",
+     "B"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 1,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5147-5853-5929",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5147-5853-5929"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "\"Rat\" chosen with Leyline of Transformation.",
+    "mana_needed": "{3}{B} plus enough mana to pay for commander tax, if applicable",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite damage"
+    ],
+    "steps": "Cast Wick either from your hand or from the command zone by paying {3}{B} plus commander tax, if applicable.\nWhen Wick enters the battlefield, it triggers.\nHolding priority, if you control a Snail, activate Goblin Bombardment by sacrificing the Snail, dealing 1 damage to any target.\nIf needed, repeat step 3 until you do not control a Snail.\nResolve the Wick trigger, creating a 1/1 Snail creature token.\nWhen the Snail enters the battlefield as a Rat due to Leyline of Transformation, Wick triggers.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Altar of Dementia",
+    "Leyline of Transformation"
+   ],
+   "combo_id": "5256-5853-5929",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mill",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "3",
+     "B"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 1,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5256-5853-5929",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5256-5853-5929"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "\"Rat\" chosen with Leyline of Transformation.",
+    "mana_needed": "{3}{B} plus enough mana to pay for commander tax, if applicable",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite mill",
+     "Infinite self-mill"
+    ],
+    "steps": "Cast Wick either from your hand or from the command zone by paying {3}{B} plus commander tax, if applicable.\nWhen Wick enters the battlefield, it triggers.\nHolding priority, if you control a Snail, activate Altar of Dementia by sacrificing the Snail, causing target player to mill cards equal to the Snail's power.\nIf needed, repeat step 3 until you do not control a Snail.\nResolve the Wick trigger, creating a 1/1 Snail creature token.\nWhen the Snail enters the battlefield as a Rat due to Leyline of Transformation, Wick triggers.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Ashnod's Altar",
+    "Arcane Adaptation"
+   ],
+   "combo_id": "803-2034-5853",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "3",
+     "B"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 3,
+     "command_zone": 1,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:803-2034-5853",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/803-2034-5853"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{3}{B} plus enough mana to pay for commander tax, if applicable",
+    "notable_prerequisites": "Arcane Adaptation on the battlefield with \"Rat\" chosen.",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite colorless mana"
+    ],
+    "steps": "Cast Wick either from your hand or from the command zone by paying {3}{B} plus commander tax, if applicable.\nWhen Wick enters the battlefield, it triggers.\nHolding priority, if you control a Snail, activate Ashnod's Altar by sacrificing the Snail, adding {C}{C}.\nIf needed, repeat step 3 until you do not control a Snail.\nResolve the Wick trigger, creating a 1/1 Snail creature token.\nWhen the Snail enters the battlefield as a Rat due to Arcane Adaptation, Wick triggers.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Viscera Seer",
+    "Arcane Adaptation"
+   ],
+   "combo_id": "803-2292-5853",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "3",
+     "B"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 3,
+     "command_zone": 1,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:803-2292-5853",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/803-2292-5853"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{3}{B} plus enough mana to pay for commander tax, if applicable",
+    "notable_prerequisites": "Arcane Adaptation on the battlefield with \"Rat\" chosen.",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite scry 1"
+    ],
+    "steps": "Cast Wick either from your hand or from the command zone by paying {3}{B} plus commander tax, if applicable.\nWhen Wick enters the battlefield, it triggers.\nHolding priority, if you control a Snail, activate Viscera Seer by sacrificing the Snail, causing you to scry 1.\nIf needed, repeat step 3 until you do not control a Snail.\nResolve the Wick trigger, creating a 1/1 Snail creature token.\nWhen the Snail enters the battlefield as a Rat due to Arcane Adaptation, Wick triggers.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Arcane Adaptation",
+    "Carrion Feeder"
+   ],
+   "combo_id": "803-2438-5853",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "3",
+     "B"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 3,
+     "command_zone": 1,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:803-2438-5853",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/803-2438-5853"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{3}{B} plus enough mana to pay for commander tax, if applicable",
+    "notable_prerequisites": "Arcane Adaptation on the battlefield with \"Rat\" chosen.",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite +1/+1 counters on a creature"
+    ],
+    "steps": "Cast Wick either from your hand or from the command zone by paying {3}{B} plus commander tax, if applicable.\nWhen Wick enters the battlefield, it triggers.\nHolding priority, if you control a Snail, activate Carrion Feeder by sacrificing the Snail, putting a +1/+1 counter on Carrion Feeder.\nIf needed, repeat step 3 until you do not control a Snail.\nResolve the Wick trigger, creating a 1/1 Snail creature token.\nWhen the Snail enters the battlefield as a Rat due to Arcane Adaptation, Wick triggers.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Phyrexian Altar",
+    "Arcane Adaptation"
+   ],
+   "combo_id": "803-4050-5853",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "damage",
+     "mana",
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "3",
+     "B"
+    ],
+    "step_count": 8,
+    "zone_mentions": {
+     "battlefield": 3,
+     "command_zone": 1,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:803-4050-5853",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/803-4050-5853"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{3}{B} plus enough mana to pay for commander tax, if applicable",
+    "notable_prerequisites": "Arcane Adaptation on the battlefield with \"Rat\" chosen.",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite colored mana",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Near-infinite damage",
+     "Infinite card draw",
+     "Infinite draw triggers"
+    ],
+    "steps": "Cast Wick either from your hand or from the command zone by paying {3}{B} plus commander tax, if applicable.\nWhen Wick enters the battlefield, it triggers.\nHolding priority, if you control a Snail, activate Phyrexian Altar by sacrificing the Snail, adding one mana of any color.\nIf needed, repeat step 3 until you do not control a Snail.\nResolve the Wick trigger, creating a 1/1 Snail creature token.\nWhen the Snail enters the battlefield as a Rat due to Arcane Adaptation, Wick triggers.\nRepeat from step 3.\nOnce you have infinite colored mana, you may instead sacrifce the Snails to Wick's ability."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Goblin Bombardment",
+    "Arcane Adaptation"
+   ],
+   "combo_id": "803-5147-5853",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "damage",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "3",
+     "B"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 3,
+     "command_zone": 1,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:803-5147-5853",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/803-5147-5853"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{3}{B} plus enough mana to pay for commander tax, if applicable",
+    "notable_prerequisites": "Arcane Adaptation on the battlefield with \"Rat\" chosen.",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite damage"
+    ],
+    "steps": "Cast Wick either from your hand or from the command zone by paying {3}{B} plus commander tax, if applicable.\nWhen Wick enters the battlefield, it triggers.\nHolding priority, if you control a Snail, activate Goblin Bombardment by sacrificing the Snail, dealing 1 damage to any target.\nIf needed, repeat step 3 until you do not control a Snail.\nResolve the Wick trigger, creating a 1/1 Snail creature token.\nWhen the Snail enters the battlefield as a Rat due to Arcane Adaptation, Wick triggers.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Altar of Dementia",
+    "Arcane Adaptation"
+   ],
+   "combo_id": "803-5256-5853",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mill",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "3",
+     "B"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 3,
+     "command_zone": 1,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:803-5256-5853",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/803-5256-5853"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{3}{B} plus enough mana to pay for commander tax, if applicable",
+    "notable_prerequisites": "Arcane Adaptation on the battlefield with \"Rat\" chosen.",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite mill",
+     "Infinite self-mill"
+    ],
+    "steps": "Cast Wick either from your hand or from the command zone by paying {3}{B} plus commander tax, if applicable.\nWhen Wick enters the battlefield, it triggers.\nHolding priority, if you control a Snail, activate Altar of Dementia by sacrificing the Snail, causing target player to mill cards equal to the Snail's power.\nIf needed, repeat step 3 until you do not control a Snail.\nResolve the Wick trigger, creating a 1/1 Snail creature token.\nWhen the Snail enters the battlefield as a Rat due to Arcane Adaptation, Wick triggers.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "wick-the-whorled-mind",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 13,
+  "direct_endpoint_hint_count": 6,
+  "mana_needed_declared_count": 12,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 13,
+  "zone_mention_count": 54
+ }
+}

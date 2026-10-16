@@ -1,0 +1,502 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+ "deck_id": "Nekusar__the_Mindrazer",
+ "lines": [
+  {
+   "cards": [
+    "Curiosity",
+    "Niv-Mizzet, Parun"
+   ],
+   "combo_id": "1089-2353",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "draw"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 1
+    }
+   },
+   "evidence": [
+    "spellbook:1089-2353",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1089-2353"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Curiosity attached to Niv-Mizzet.\nYou have a way to draw a card.\nYour library is greater than opponent life total.",
+    "notes": "",
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite card draw",
+     "Near-infinite damage"
+    ],
+    "steps": "Draw a card.\nNiv-Mizzet trigger, dealing 1 damage to any target opponent.\nCuriosity triggers, allowing you to draw a card.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Peer into the Abyss"
+   ],
+   "combo_id": "1561-1972",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "damage",
+     "draw"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "4",
+     "B",
+     "B",
+     "B"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 1
+    }
+   },
+   "evidence": [
+    "spellbook:1561-1972",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1561-1972"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{4}{B}{B}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage to one opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ],
+    "steps": "Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing an opponent to draw cards equal to half their library and causing them to lose half their life total, rounded up.\nNekusar triggers for each card drawn this way.\nResolve the first trigger, dealing 1 damage to the opponent.\nIf the opponent has 0 or less life, the opponent loses the game due to having zero or less life.\nRepeat from step 3 for each remaining trigger and/or until the opponent loses the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Sheoldred, the Apocalypse",
+    "Peer into the Abyss"
+   ],
+   "combo_id": "1561-2498",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "draw"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "4",
+     "B",
+     "B",
+     "B"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:1561-2498",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1561-2498"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{4}{B}{B}{B}",
+    "notable_prerequisites": "An opponent has a library size that is at least half their life total.",
+    "notes": "",
+    "produces": [
+     "Near-infinite card draw for target opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Near-infinite lifeloss for target opponent",
+     "Target opponent loses the game"
+    ],
+    "steps": "Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing an opponent to draw cards equal to half their library size and lose half their life total, rounded up.\nSheoldred's second ability triggers for each card drawn this way.\nResolve the first Sheoldred trigger, causing the opponent to lose 2 life.\nRepeat step 3 until the opponent loses the game due to having zero or less life."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Peer into the Abyss",
+    "Underworld Dreams"
+   ],
+   "combo_id": "1561-2720",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 1
+    },
+    "mana_symbols_declared": [
+     "4",
+     "B",
+     "B",
+     "B"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:1561-2720",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1561-2720"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{4}{B}{B}{B}",
+    "notable_prerequisites": "An opponent has cards in their library greater than their life total.",
+    "notes": "",
+    "produces": [
+     "Target opponent loses the game"
+    ],
+    "steps": "Cast Peer Into the Abyss targeting an opponent.\nThat player loses half their life and draws half their library.\nThey are then dealt damage by Underworld Dreams equal to the amount of cards they drew.\nThat player loses the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Orcish Bowmasters",
+    "Peer into the Abyss"
+   ],
+   "combo_id": "1561-3862",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 0,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "damage",
+     "draw"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "4",
+     "B",
+     "B",
+     "B"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 3
+    }
+   },
+   "evidence": [
+    "spellbook:1561-3862",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1561-3862"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{4}{B}{B}{B}",
+    "notable_prerequisites": "An opponent has a library size which is larger than or equal to their life total.",
+    "notes": "",
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ],
+    "steps": "Cast Peer into the Abyss by paying {4}{B}{B}{B}, targeting an opponent whose library size is larger than or equal to their life total.\nResolve Peer into the Abyss, causing that opponent to draw cards equal to half their library size and causing them to lose half their life total, rounded up.\nOrcish Bowmasters triggers for each card drawn, dealing 1 damage to the opponent for each card drawn this way and putting that many +1/+1 counters on an Army you control.\nThe opponent loses the game due to having zero or less life.\n"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Razorkin Needlehead",
+    "Peer into the Abyss"
+   ],
+   "combo_id": "1561-5919",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "damage",
+     "draw"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "4",
+     "B",
+     "B",
+     "B"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 1
+    }
+   },
+   "evidence": [
+    "spellbook:1561-5919",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1561-5919"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{4}{B}{B}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Near-infinite damage to one opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite lifeloss for target opponent"
+    ],
+    "steps": "Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing an opponent to draw cards equal to half their library and causing them to lose half their life total, rounded up.\nRazorkin Needlehead triggers for each card drawn this way.\nResolve the first trigger, dealing 1 damage to the opponent.\nIf the opponent has 0 or less life, the opponent loses the game due to having zero or less life.\nRepeat from step 3 for each remaining trigger and/or until the opponent loses the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "combo_id": "1368-1878-2706",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "draw",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "2",
+     "R"
+    ],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 6,
+     "hand": 3,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-1878-2706",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-1878-2706"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{R}",
+    "notable_prerequisites": "You have at least six additional cards in your graveyard, plus an additional six cards between your hand and/or graveyard.\nAn opponent has at least six cards in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ],
+    "steps": "Cast Jeska's Will from your graveyard for its escape cost by paying {2}{R} and exiling three other cards from your graveyard, adding at least six {R}.\nCast Wheel of Fortune from your graveyard for its escape cost by paying {2}{R} and exiling three other cards from your graveyard, causing each player to discard their hand and draw seven cards.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "nekusar-the-mindrazer",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 7,
+  "direct_endpoint_hint_count": 4,
+  "mana_needed_declared_count": 6,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 7,
+  "zone_mention_count": 19
+ }
+}

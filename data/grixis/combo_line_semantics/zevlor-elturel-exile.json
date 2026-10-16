@@ -1,0 +1,86 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+ "deck_id": "Zevlor__Elturel_Exile",
+ "lines": [
+  {
+   "cards": [
+    "Omen Hawker",
+    "Pemmin's Aura"
+   ],
+   "combo_id": "3525-3772",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 3,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3525-3772",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3525-3772"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Pemmin's Aura attached to Omen Hawker.\nOmen Hawker does not have summoning sickness.",
+    "notes": "",
+    "produces": [
+     "Infinite colorless mana that can only be spent to activate abilities"
+    ],
+    "steps": "Activate Omen Hawker by tapping it, adding {C}{U} that can only be spent to activate abilities.\nActivate Pemmin's Aura's first ability by paying {U}, untapping Omen Hawker.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "zevlor-elturel-exile",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 1,
+  "direct_endpoint_hint_count": 0,
+  "mana_needed_declared_count": 0,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 1,
+  "zone_mention_count": 0
+ }
+}

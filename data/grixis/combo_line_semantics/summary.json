@@ -1,0 +1,634 @@
+{
+ "decks": [
+  {
+   "combo_count": 4,
+   "deck_id": "Abaddon_the_Despoiler",
+   "direct_endpoint_hint_count": 2,
+   "mana_needed_declared_count": 1,
+   "missing_step_record_count": 0,
+   "slug": "abaddon-the-despoiler",
+   "step_record_found_count": 4,
+   "zone_mention_count": 31
+  },
+  {
+   "combo_count": 0,
+   "deck_id": "Admiral_Beckett_Brass",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "admiral-beckett-brass",
+   "step_record_found_count": 0,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 0,
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "admiral-brass-unsinkable",
+   "step_record_found_count": 0,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 8,
+   "deck_id": "Anhelo__the_Painter",
+   "direct_endpoint_hint_count": 1,
+   "mana_needed_declared_count": 8,
+   "missing_step_record_count": 0,
+   "slug": "anhelo-the-painter",
+   "step_record_found_count": 8,
+   "zone_mention_count": 14
+  },
+  {
+   "combo_count": 1,
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "direct_endpoint_hint_count": 1,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "ashad-the-lone-cyberman",
+   "step_record_found_count": 1,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 15,
+   "deck_id": "Ashnod_the_Uncaring",
+   "direct_endpoint_hint_count": 1,
+   "mana_needed_declared_count": 4,
+   "missing_step_record_count": 0,
+   "slug": "ashnod-the-uncaring",
+   "step_record_found_count": 15,
+   "zone_mention_count": 48
+  },
+  {
+   "combo_count": 1,
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "direct_endpoint_hint_count": 1,
+   "mana_needed_declared_count": 1,
+   "missing_step_record_count": 0,
+   "slug": "belakor-the-dark-master",
+   "step_record_found_count": 1,
+   "zone_mention_count": 1
+  },
+  {
+   "combo_count": 3,
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 3,
+   "missing_step_record_count": 0,
+   "slug": "bjorna-nightfall-alchemist-cecily",
+   "step_record_found_count": 3,
+   "zone_mention_count": 11
+  },
+  {
+   "combo_count": 23,
+   "deck_id": "Cormela__Glamour_Thief",
+   "direct_endpoint_hint_count": 4,
+   "mana_needed_declared_count": 20,
+   "missing_step_record_count": 0,
+   "slug": "cormela-glamour-thief",
+   "step_record_found_count": 23,
+   "zone_mention_count": 91
+  },
+  {
+   "combo_count": 1,
+   "deck_id": "Crosis__the_Purger",
+   "direct_endpoint_hint_count": 1,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "crosis-the-purger",
+   "step_record_found_count": 1,
+   "zone_mention_count": 2
+  },
+  {
+   "combo_count": 1,
+   "deck_id": "Cult_of_Skaro",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "cult-of-skaro",
+   "step_record_found_count": 1,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 0,
+   "deck_id": "Davros__Dalek_Creator",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "davros-dalek-creator",
+   "step_record_found_count": 0,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 1,
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "direct_endpoint_hint_count": 1,
+   "mana_needed_declared_count": 1,
+   "missing_step_record_count": 0,
+   "slug": "doctor-doom-king-of-latveria",
+   "step_record_found_count": 1,
+   "zone_mention_count": 2
+  },
+  {
+   "combo_count": 0,
+   "deck_id": "Don_Andres__the_Renegade",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "don-andres-the-renegade",
+   "step_record_found_count": 0,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 0,
+   "deck_id": "Dr__Eggman",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "dr-eggman",
+   "step_record_found_count": 0,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 0,
+   "deck_id": "Edea__Possessed_Sorceress",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "edea-possessed-sorceress",
+   "step_record_found_count": 0,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 6,
+   "deck_id": "Edward_Kenway",
+   "direct_endpoint_hint_count": 1,
+   "mana_needed_declared_count": 1,
+   "missing_step_record_count": 0,
+   "slug": "edward-kenway",
+   "step_record_found_count": 6,
+   "zone_mention_count": 2
+  },
+  {
+   "combo_count": 7,
+   "deck_id": "Evelyn__the_Covetous",
+   "direct_endpoint_hint_count": 3,
+   "mana_needed_declared_count": 5,
+   "missing_step_record_count": 0,
+   "slug": "evelyn-the-covetous",
+   "step_record_found_count": 7,
+   "zone_mention_count": 50
+  },
+  {
+   "combo_count": 9,
+   "deck_id": "Fire_Lord_Azula",
+   "direct_endpoint_hint_count": 4,
+   "mana_needed_declared_count": 3,
+   "missing_step_record_count": 0,
+   "slug": "fire-lord-azula",
+   "step_record_found_count": 9,
+   "zone_mention_count": 47
+  },
+  {
+   "combo_count": 3,
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "direct_endpoint_hint_count": 1,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "garza-zol-plague-queen",
+   "step_record_found_count": 3,
+   "zone_mention_count": 1
+  },
+  {
+   "combo_count": 5,
+   "deck_id": "Goro_Goro_and_Satoru",
+   "direct_endpoint_hint_count": 5,
+   "mana_needed_declared_count": 1,
+   "missing_step_record_count": 0,
+   "slug": "goro-goro-and-satoru",
+   "step_record_found_count": 5,
+   "zone_mention_count": 3
+  },
+  {
+   "combo_count": 6,
+   "deck_id": "Grixistax___October_2026",
+   "direct_endpoint_hint_count": 4,
+   "mana_needed_declared_count": 3,
+   "missing_step_record_count": 0,
+   "slug": "grixistax-october-2026",
+   "step_record_found_count": 6,
+   "zone_mention_count": 37
+  },
+  {
+   "combo_count": 1,
+   "deck_id": "Gwendlyn_Di_Corci",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "gwendlyn-di-corci",
+   "step_record_found_count": 1,
+   "zone_mention_count": 8
+  },
+  {
+   "combo_count": 15,
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "direct_endpoint_hint_count": 3,
+   "mana_needed_declared_count": 12,
+   "missing_step_record_count": 0,
+   "slug": "inalla-archmage-ritualist",
+   "step_record_found_count": 15,
+   "zone_mention_count": 72
+  },
+  {
+   "combo_count": 7,
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "direct_endpoint_hint_count": 3,
+   "mana_needed_declared_count": 4,
+   "missing_step_record_count": 0,
+   "slug": "jeleva-nephalias-scourge",
+   "step_record_found_count": 7,
+   "zone_mention_count": 43
+  },
+  {
+   "combo_count": 6,
+   "deck_id": "Kefka__Court_Mage",
+   "direct_endpoint_hint_count": 3,
+   "mana_needed_declared_count": 3,
+   "missing_step_record_count": 0,
+   "slug": "kefka-court-mage",
+   "step_record_found_count": 6,
+   "zone_mention_count": 37
+  },
+  {
+   "combo_count": 6,
+   "deck_id": "Kess__Dissident_Mage",
+   "direct_endpoint_hint_count": 4,
+   "mana_needed_declared_count": 2,
+   "missing_step_record_count": 0,
+   "slug": "kess-dissident-mage",
+   "step_record_found_count": 6,
+   "zone_mention_count": 31
+  },
+  {
+   "combo_count": 0,
+   "deck_id": "Loki__the_Deceiver",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "loki-the-deceiver",
+   "step_record_found_count": 0,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 19,
+   "deck_id": "Lord_of_Tresserhorn",
+   "direct_endpoint_hint_count": 2,
+   "mana_needed_declared_count": 2,
+   "missing_step_record_count": 0,
+   "slug": "lord-of-tresserhorn",
+   "step_record_found_count": 19,
+   "zone_mention_count": 21
+  },
+  {
+   "combo_count": 11,
+   "deck_id": "Lord_Xander__the_Collector",
+   "direct_endpoint_hint_count": 8,
+   "mana_needed_declared_count": 6,
+   "missing_step_record_count": 0,
+   "slug": "lord-xander-the-collector",
+   "step_record_found_count": 11,
+   "zone_mention_count": 43
+  },
+  {
+   "combo_count": 0,
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "lynde-cheerful-tormentor",
+   "step_record_found_count": 0,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 8,
+   "deck_id": "Mai_and_Zuko",
+   "direct_endpoint_hint_count": 4,
+   "mana_needed_declared_count": 1,
+   "missing_step_record_count": 0,
+   "slug": "mai-and-zuko",
+   "step_record_found_count": 8,
+   "zone_mention_count": 24
+  },
+  {
+   "combo_count": 6,
+   "deck_id": "Mairsil__the_Pretender",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 2,
+   "missing_step_record_count": 0,
+   "slug": "mairsil-the-pretender",
+   "step_record_found_count": 6,
+   "zone_mention_count": 1
+  },
+  {
+   "combo_count": 4,
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "direct_endpoint_hint_count": 3,
+   "mana_needed_declared_count": 1,
+   "missing_step_record_count": 0,
+   "slug": "marchesa-dealer-of-death",
+   "step_record_found_count": 4,
+   "zone_mention_count": 17
+  },
+  {
+   "combo_count": 48,
+   "deck_id": "Marchesa__the_Black_Rose",
+   "direct_endpoint_hint_count": 15,
+   "mana_needed_declared_count": 5,
+   "missing_step_record_count": 0,
+   "slug": "marchesa-the-black-rose",
+   "step_record_found_count": 48,
+   "zone_mention_count": 111
+  },
+  {
+   "combo_count": 20,
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "direct_endpoint_hint_count": 3,
+   "mana_needed_declared_count": 2,
+   "missing_step_record_count": 0,
+   "slug": "mishra-artificer-prodigy",
+   "step_record_found_count": 20,
+   "zone_mention_count": 50
+  },
+  {
+   "combo_count": 19,
+   "deck_id": "Mishra__Eminent_One",
+   "direct_endpoint_hint_count": 4,
+   "mana_needed_declared_count": 11,
+   "missing_step_record_count": 0,
+   "slug": "mishra-eminent-one",
+   "step_record_found_count": 19,
+   "zone_mention_count": 28
+  },
+  {
+   "combo_count": 17,
+   "deck_id": "Missy",
+   "direct_endpoint_hint_count": 6,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "missy",
+   "step_record_found_count": 17,
+   "zone_mention_count": 64
+  },
+  {
+   "combo_count": 0,
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "nathan-drake-treasure-hunter",
+   "step_record_found_count": 0,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 7,
+   "deck_id": "Nekusar__the_Mindrazer",
+   "direct_endpoint_hint_count": 4,
+   "mana_needed_declared_count": 6,
+   "missing_step_record_count": 0,
+   "slug": "nekusar-the-mindrazer",
+   "step_record_found_count": 7,
+   "zone_mention_count": 19
+  },
+  {
+   "combo_count": 1,
+   "deck_id": "Nicol_Bolas",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "nicol-bolas",
+   "step_record_found_count": 1,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 3,
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 1,
+   "missing_step_record_count": 0,
+   "slug": "nicol-bolas-the-ravager",
+   "step_record_found_count": 3,
+   "zone_mention_count": 7
+  },
+  {
+   "combo_count": 7,
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "direct_endpoint_hint_count": 4,
+   "mana_needed_declared_count": 3,
+   "missing_step_record_count": 0,
+   "slug": "norman-osborn",
+   "step_record_found_count": 7,
+   "zone_mention_count": 40
+  },
+  {
+   "combo_count": 4,
+   "deck_id": "Obeka__Brute_Chronologist",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 3,
+   "missing_step_record_count": 0,
+   "slug": "obeka-brute-chronologist",
+   "step_record_found_count": 4,
+   "zone_mention_count": 1
+  },
+  {
+   "combo_count": 5,
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "obeka-splitter-of-seconds",
+   "step_record_found_count": 5,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 25,
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "direct_endpoint_hint_count": 1,
+   "mana_needed_declared_count": 24,
+   "missing_step_record_count": 0,
+   "slug": "parnesse-the-subtle-brush",
+   "step_record_found_count": 25,
+   "zone_mention_count": 37
+  },
+  {
+   "combo_count": 7,
+   "deck_id": "RogSi",
+   "direct_endpoint_hint_count": 4,
+   "mana_needed_declared_count": 3,
+   "missing_step_record_count": 0,
+   "slug": "rograkh-son-of-rohgahh-silas-renn",
+   "step_record_found_count": 7,
+   "zone_mention_count": 40
+  },
+  {
+   "combo_count": 1,
+   "deck_id": "Saruman__the_White_Hand",
+   "direct_endpoint_hint_count": 1,
+   "mana_needed_declared_count": 1,
+   "missing_step_record_count": 0,
+   "slug": "saruman-the-white-hand",
+   "step_record_found_count": 1,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 0,
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "sauron-lord-of-the-rings",
+   "step_record_found_count": 0,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 0,
+   "deck_id": "Sauron__the_Dark_Lord",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "sauron-the-dark-lord",
+   "step_record_found_count": 0,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 1,
+   "deck_id": "Sedris__the_Traitor_King",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 1,
+   "missing_step_record_count": 0,
+   "slug": "sedris-the-traitor-king",
+   "step_record_found_count": 1,
+   "zone_mention_count": 1
+  },
+  {
+   "combo_count": 13,
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "direct_endpoint_hint_count": 4,
+   "mana_needed_declared_count": 1,
+   "missing_step_record_count": 0,
+   "slug": "solkanar-the-swamp-king",
+   "step_record_found_count": 13,
+   "zone_mention_count": 6
+  },
+  {
+   "combo_count": 4,
+   "deck_id": "Sol_kanar_the_Tainted",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 3,
+   "missing_step_record_count": 0,
+   "slug": "solkanar-the-tainted",
+   "step_record_found_count": 4,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 2,
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "direct_endpoint_hint_count": 1,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "tetsuo-imperial-champion",
+   "step_record_found_count": 2,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 1,
+   "deck_id": "Tetsuo_Umezawa",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "tetsuo-umezawa",
+   "step_record_found_count": 1,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 4,
+   "deck_id": "The_Madcap_Jester",
+   "direct_endpoint_hint_count": 3,
+   "mana_needed_declared_count": 2,
+   "missing_step_record_count": 0,
+   "slug": "the-madcap-jester",
+   "step_record_found_count": 4,
+   "zone_mention_count": 20
+  },
+  {
+   "combo_count": 0,
+   "deck_id": "The_Rani",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "the-rani",
+   "step_record_found_count": 0,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 0,
+   "deck_id": "The_Valeyard",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "the-valeyard",
+   "step_record_found_count": 0,
+   "zone_mention_count": 0
+  },
+  {
+   "combo_count": 17,
+   "deck_id": "Thraximundar",
+   "direct_endpoint_hint_count": 4,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "thraximundar",
+   "step_record_found_count": 17,
+   "zone_mention_count": 21
+  },
+  {
+   "combo_count": 21,
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "direct_endpoint_hint_count": 1,
+   "mana_needed_declared_count": 3,
+   "missing_step_record_count": 0,
+   "slug": "tresserhorns-lord-returned",
+   "step_record_found_count": 21,
+   "zone_mention_count": 12
+  },
+  {
+   "combo_count": 13,
+   "deck_id": "Wick__the_Whorled_Mind",
+   "direct_endpoint_hint_count": 6,
+   "mana_needed_declared_count": 12,
+   "missing_step_record_count": 0,
+   "slug": "wick-the-whorled-mind",
+   "step_record_found_count": 13,
+   "zone_mention_count": 54
+  },
+  {
+   "combo_count": 1,
+   "deck_id": "Zevlor__Elturel_Exile",
+   "direct_endpoint_hint_count": 0,
+   "mana_needed_declared_count": 0,
+   "missing_step_record_count": 0,
+   "slug": "zevlor-elturel-exile",
+   "step_record_found_count": 1,
+   "zone_mention_count": 0
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_steps_quality.py v1",
+ "schema_version": 1,
+ "totals": {
+  "combo_count": 418,
+  "direct_endpoint_hint_count": 121,
+  "mana_needed_declared_count": 165,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 418,
+  "zone_mention_count": 1148
+ }
+}

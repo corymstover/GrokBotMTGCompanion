@@ -1,0 +1,1091 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "lines": [
+  {
+   "cards": [
+    "Tainted Pact",
+    "Thassa's Oracle"
+   ],
+   "combo_id": "1295-3093",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "B",
+     "U"
+    ],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "1",
+     "U",
+     "U",
+     "B"
+    ],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:1295-3093",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1295-3093"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "No two cards in library share a name.",
+    "mana_needed": "{1}{U}{U}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Win the game"
+    ],
+    "steps": "Cast Tainted Pact by paying {1}{B}, exiling your library.\nCast Thassa's Oracle by paying {U}{U}.\nThassa's Oracle enters the battlefield, causing you to win the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Demonic Consultation",
+    "Thassa's Oracle"
+   ],
+   "combo_id": "742-1295",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "B",
+     "U"
+    ],
+    "endpoint_hints": [
+     "mill"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "U",
+     "U",
+     "B"
+    ],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:742-1295",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/742-1295"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{U}{U}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ],
+    "steps": "Cast Demonic Consultation by paying {B}, naming Thassa's Oracle and thus exiling your library due to you not having a card named Thassa's Oracle in your library.\nCast Thassa's Oracle by paying {U}{U}.\nThassa's Oracle enters the battlefield, causing you to win the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "combo_id": "1368-1414-4856",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 6,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-1414-4856",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-1414-4856"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least six other cards in your graveyard, plus an additional four cards if Brain Freeze is in your graveyard.",
+    "notes": "",
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ],
+    "steps": "Activate Lotus Petal by tapping and sacrificing it, adding {U}.\nCast Lotus Petal from your graveyard for its escape cost by exiling three cards besides Brain Freeze from your graveyard.\nRepeat from step 1 one additional time.\nCast Brain Freeze either from your hand by paying {1}{U}, or from your graveyard for its escape cost by paying {1}{U} and exiling three cards from your graveyard.\nBrain Freeze's storm ability triggers, creating at least two copies of Brain Freeze targeting yourself, and any remaining copies targeting an opponent.\nResolve each Brain Freeze, causing yourself to mill nine cards and, if applicable, an opponent to mill three cards for each Brain Freeze remaining.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Wheel of Fortune"
+   ],
+   "combo_id": "1368-2706-3518",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "draw",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 5,
+     "hand": 3,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-2706-3518",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-2706-3518"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least six other cards in hand and/or graveyard.",
+    "notes": "",
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ],
+    "steps": "Activate Lion's Eye Diamond by discarding your hand and sacrificing it, adding {R}{R}{R}.\nCast Wheel of Fortune from your graveyard for its escape cost by paying {2}{R} and exiling 3 cards from your graveyard.\nResolve Wheel of Fortune, causing each player to discard their hand and draw seven cards.\nCast Lion's Eye Diamond from your graveyard for its escape cost by exiling 3 cards from your graveyard.\n Repeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "combo_id": "1368-3518-4856",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "mana",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 5,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-3518-4856"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least six other cards in hand and/or graveyard.",
+    "notes": "",
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ],
+    "steps": "Activate Lion's Eye Diamond by discarding your hand and sacrificing it, adding {U}{U}{U}.\nCast Lion's Eye Diamond from your graveyard for its escape cost by exiling three cards besides Brain Freeze from your graveyard.\nCast Brain Freeze from your graveyard for its escape cost by paying {1}{U} and exiling three cards from your graveyard.\nBrain Freeze's storm ability triggers, creating at least one copy of Brain Freeze targeting yourself, and any remaining copies targeting an opponent.\nResolve each Brain Freeze, causing yourself to mill six cards and, if applicable, an opponent to mill three cards for each Brain Freeze remaining.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Inalla, Archmage Ritualist",
+    "Bloodline Necromancer",
+    "Ruthless Technomancer"
+   ],
+   "combo_id": "1869-2721-3719",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 3,
+     "cast": 3,
+     "repeat": 2,
+     "resolve": 4,
+     "sacrifice": 4,
+     "trigger": 6
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "tokens",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 16
+    },
+    "mana_symbols_declared": [
+     "4",
+     "B"
+    ],
+    "step_count": 15,
+    "zone_mentions": {
+     "battlefield": 7,
+     "command_zone": 2,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1869-2721-3719",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1869-2721-3719"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{4}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite colored mana",
+     "Infinite creature tokens with haste",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite lifeloss",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite Treasure tokens",
+     "Return all creature cards from your graveyard to the battlefield"
+    ],
+    "steps": "Cast Bloodline Necromancer by paying {4}{B}.\nBloodline Necromancer enters the battlefield, triggering itself and Inalla.\nResolve the Bloodline Necromancer trigger, returning Ruthless Technomancer from your graveyard to the battlefield.\nRuthless Technomancer enters the battlefield, triggering itself and Inalla.\nResolve the Ruthless Technomancer trigger, causing you to sacrifice Bloodline Necromancer and create three Treasure tokens.\nActivate two Treasure tokens by tapping and sacrificing them, adding {2}.\nResolve the Inalla trigger from step 4, causing you to pay {1} to create a token copy of Ruthless Technomancer with haste.\nThe Ruthless Technomancer token enters the battlefield, causing you to sacrifice the nontoken Ruthless Technomancer and create two Treasure tokens.\nResolve the Inalla trigger from step 2, causing you to pay {1} to create a token copy of Bloodline Necromancer with haste.\nThe Bloodline Necromancer token enters the battlefield, returning Bloodline Necromancer from your graveyard to the battlefield.\nRepeat from step 2 an arbitrarily large number of times.\nIf Inalla is not on the battlefield, activate an appropriate number of Treasure tokens by tapping and sacrificing them, adding enough mana to cast Inalla from the command zone.\nIf needed, cast Inalla from the command zone by paying {2}{U}{B}{R} and commander tax, if applicable.\nActivate Inalla by tapping five untapped Wizards you control, causing target player to lose 7 life.\nRepeat step 14."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Saw in Half",
+    "Sacrifice",
+    "Scholar of the Ages"
+   ],
+   "combo_id": "500-813-1181",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 3,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "2",
+     "B",
+     "B"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:500-813-1181",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/500-813-1181"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{B}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite black mana",
+     "Cast a subset of spells in your graveyard",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ],
+    "steps": "Cast Saw in Half by paying {2}{B}, destroying Scholar of the Ages and creating two token copies of it with base power equal to half the destroyed creature's power and base toughness equal to half the destroyed creature's toughness, rounding up each time.\nThe two Scholar of the Ages tokens enter the battlefield, returning Sacrifice, if applicable, and Saw in Half from your graveyard to your hand.\nCast Sacrifice by paying {B} and sacrificing a Scholar of the Ages token, adding seven {B}.\nRepeat.\nYou may also return up to two other instants and/or sorceries using the Scholar of the Ages tokens if they can be cast using black mana to get infinite casts of those instants and/or sorceries."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Saw in Half",
+    "Burnt Offering",
+    "Scholar of the Ages"
+   ],
+   "combo_id": "500-813-1777",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "2",
+     "B",
+     "B"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:500-813-1777",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/500-813-1777"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{B}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite storm count",
+     "Infinite red mana",
+     "Infinite magecraft triggers",
+     "Infinite black mana",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ],
+    "steps": "Cast Saw in Half by paying {2}{B}, destroying Scholar of the Ages and creating two token copies of it with base power equal to half the destroyed creature's power and base toughness equal to half the destroyed creature's toughness, rounding up each time.\nWhen the Scholar of the Ages tokens enter the battlefield, they trigger, returning Saw in Half and Burnt Offering from your graveyard to your hand along with up to two other instants and/or sorceries.\nCast Burnt Offering by paying {B} and sacrificing a Scholar of the Ages token, adding {B}{B} plus an additional amount of {B} and/or {R} equal to its mana value minus 2. \nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Saw in Half",
+    "Culling the Weak",
+    "Scholar of the Ages"
+   ],
+   "combo_id": "500-813-2081",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "B"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:500-813-2081",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/500-813-2081"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{B}",
+    "notable_prerequisites": "You control an additional creature.",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite death triggers",
+     "Infinite storm count",
+     "Infinite magecraft triggers",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ],
+    "steps": "Cast Culling the Weak by paying {B} and sacrificing another creature, adding {B}{B}{B}{B}.\nCast Saw in Half by paying {2}{B}, destroying Scholar of the Ages and creating two token copies of it with base power equal to half the destroyed creature's power and base toughness equal to half the destroyed creature's toughness, rounding up each time.\nWhen the Scholar of the Ages tokens enter the battlefield, they trigger, returning Saw in Half and Culling the Weak from your graveyard to your hand, as well as up to two additional instants or sorceries.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scholar of the Ages",
+    "Sacrifice",
+    "Shallow Grave"
+   ],
+   "combo_id": "813-1181-1893",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 3,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "B"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:813-1181-1893",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/813-1181-1893"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite black mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ],
+    "steps": "Cast Sacrifice by paying {B} and sacrificing Scholar of the Ages, adding seven {B}.\nCast Shallow Grave by paying {1}{B}, returning Scholar of the Ages from your graveyard to the battlefield.\nScholar of the Ages triggers, returning Sacrifice and Shallow Grave from your graveyard to your hand.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scholar of the Ages",
+    "Sacrifice",
+    "Persist"
+   ],
+   "combo_id": "813-1181-2171",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 3,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "B"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:813-1181-2171",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/813-1181-2171"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ],
+    "steps": "Cast Sacrifice by paying {B} and sacrificing Scholar of the Ages, adding seven {B}.\nCast Persist by paying its mana cost, returning Scholar of the Ages from your graveyard to the battlefield.\nWhen Scholar of the Ages enters, it triggers, returning Sacrifice and Persist from your graveyard to your hand.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scholar of the Ages",
+    "Burnt Offering",
+    "Shallow Grave"
+   ],
+   "combo_id": "813-1777-1893",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "B"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:813-1777-1893",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/813-1777-1893"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature sacrifice triggers",
+     "Infinite black mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ],
+    "steps": "Cast Burnt Offering by paying {B} and sacrificing Scholar of the Ages, adding seven mana in any combination of {B} and/or {R}.\nCast Shallow Grave by paying {1}{B}, returning Scholar of the Ages from your graveyard to the battlefield.\nScholar of the Ages triggers, returning Burnt Offering and Shallow Grave from your graveyard to your hand.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scholar of the Ages",
+    "Burnt Offering",
+    "Persist"
+   ],
+   "combo_id": "813-1777-2171",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "B"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:813-1777-2171",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/813-1777-2171"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ],
+    "steps": "Cast Burnt Offering by paying {B} and sacrificing Scholar of the Ages, adding seven {B}.\nCast Persist by paying its mana cost, returning Scholar of the Ages from your graveyard to the battlefield.\nWhen Scholar of the Ages enters, it triggers, returning Burnt Offering and Persist from your graveyard to your hand.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scholar of the Ages",
+    "Shallow Grave",
+    "Culling the Weak"
+   ],
+   "combo_id": "813-1893-2081",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "B"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:813-1893-2081",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/813-1893-2081"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ],
+    "steps": "Cast Culling the Weak by paying {B} and sacrificing Scholar of the Ages, adding {B}{B}{B}{B}.\nCast Shallow Grave by paying its mana cost, returning Scholar of the Ages from your graveyard to the battlefield.\nWhen Scholar of the Ages enters, it triggers, returning Culling the Weak and Shallow Grave from your graveyard to your hand.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scholar of the Ages",
+    "Culling the Weak",
+    "Persist"
+   ],
+   "combo_id": "813-2081-2171",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "B"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:813-2081-2171",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/813-2081-2171"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ],
+    "steps": "Cast Culling the Weak by paying {B} and sacrificing Scholar of the Ages, adding {B}{B}{B}{B}.\nCast Persist by paying its mana cost, returning Scholar of the Ages from your graveyard to the battlefield.\nWhen Scholar of the Ages enters, it triggers, returning Culling the Weak and Persist from your graveyard to your hand.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "inalla-archmage-ritualist",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 15,
+  "direct_endpoint_hint_count": 3,
+  "mana_needed_declared_count": 12,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 15,
+  "zone_mention_count": 72
+ }
+}

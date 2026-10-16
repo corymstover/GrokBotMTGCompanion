@@ -1,0 +1,745 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+ "deck_id": "Lord_Xander__the_Collector",
+ "lines": [
+  {
+   "cards": [
+    "Riverchurn Monument",
+    "Lord Xander, the Collector"
+   ],
+   "combo_id": "1022-6285",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [
+     "mill"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "2",
+     "U",
+     "U"
+    ],
+    "step_count": 2,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 1
+    }
+   },
+   "evidence": [
+    "spellbook:1022-6285",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1022-6285"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{U}{U}",
+    "notable_prerequisites": "Lord Xander does not have summoning sickness.\nYou have not activated Riverchurn Monument's exhaust ability.",
+    "notes": "",
+    "produces": [
+     "Infinite mill for target opponent"
+    ],
+    "steps": "Declare Lord Xander as an attacker, triggering its ability, causing an opponent to mill half their library, rounded down.\nActivate Riverchurn Monument's exhaust ability by paying {2}{U}{U} and tapping it, causing each player to mill cards equal to the number of cards in their graveyard."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Duskmantle Guildmage",
+    "Maddening Cacophony"
+   ],
+   "combo_id": "5069-5080",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "B",
+     "U"
+    ],
+    "endpoint_hints": [
+     "mill"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "5",
+     "U",
+     "U",
+     "U",
+     "B"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:5069-5080",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5069-5080"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{5}{U}{U}{U}{B}",
+    "notable_prerequisites": "Each opponent has a life total that is less than or equal to half their library size, rounded up.",
+    "notes": "",
+    "produces": [
+     "Each opponent loses the game",
+     "Near-infinite lifeloss",
+     "Near-infinite mill"
+    ],
+    "steps": "Activate Duskmantle Guildmage's first ability by paying {1}{U}{B}.\nCast Maddening Cacophony with kicker by paying {4}{U}{U}, causing each opponent to mill half their library, rounded up.\nDuskmantle Guildmage triggers for each card milled this way.\nResolve the first Duskmantle Guildmage trigger, causing the opponent to lose 1 life.\nRepeat step 4 until the opponent loses the game due to having zero or less life.\nRepeat from step 4 for each remaining trigger."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Riverchurn Monument",
+    "Maddening Cacophony"
+   ],
+   "combo_id": "5080-6285",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [
+     "mill"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "6",
+     "U",
+     "U",
+     "U",
+     "U"
+    ],
+    "step_count": 2,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:5080-6285",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5080-6285"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{6}{U}{U}{U}{U}",
+    "notable_prerequisites": "You have not activated Riverchurn Monument's exhaust ability.",
+    "notes": "",
+    "produces": [
+     "Infinite mill"
+    ],
+    "steps": "Cast Maddening Cacophony with kicker by paying {4}{U}{U}, causing each opponent to mill half their library, rounded up.\nActivate Riverchurn Monument's exhaust ability by paying {2}{U}{U} and tapping it, causing each opponent to mill the remainder of their library."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Sword of Feast and Famine",
+    "Aggravated Assault"
+   ],
+   "combo_id": "900-3750",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:900-3750",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/900-3750"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Sword of Feast and Famine attached to a creature that can attack this turn.\nAn opponent is unable to block and kill the creature with Sword of Feast and Famine attached.\nLands you control can tap to produce at least {3}{R}{R}.",
+    "notes": "",
+    "produces": [
+     "Infinite combat phases"
+    ],
+    "steps": "Deal combat damage to an opponent with the creature that has Sword of Feast and Famine attached.\nSword of Feast and Famine triggers, causing that opponent to discard a card, and you to untap all lands you control.\nProceed to your postcombat main phase.\nActivate all mana producing lands you control by tapping them, adding at least {3}{R}{R}.\nActivate Aggravated Assault by paying {3}{R}{R}, untapping all creatures you control and causing you to get an additional combat and main phase after this phase.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Duskmantle Guildmage",
+    "Mindcrank"
+   ],
+   "combo_id": "936-5069",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 4
+    },
+    "colored_symbols_declared": [
+     "B",
+     "U"
+    ],
+    "endpoint_hints": [
+     "mill"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 7
+    },
+    "mana_symbols_declared": [
+     "1",
+     "U",
+     "B",
+     "2",
+     "U",
+     "B"
+    ],
+    "step_count": 8,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 1
+    }
+   },
+   "evidence": [
+    "spellbook:936-5069",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/936-5069"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{U}{B} plus an additional {2}{U}{B} for each opponent you have",
+    "notable_prerequisites": "Each opponent has a life total that is less than or equal to their library size.",
+    "notes": "",
+    "produces": [
+     "Each opponent loses the game",
+     "Infinite mill",
+     "Near-infinite lifeloss"
+    ],
+    "steps": "Activate Duskmantle Guildmage's first ability by paying {1}{U}{B}, causing your opponent to lose life whenever a card is put into their graveyard this turn.\nActivate Duskmantle Guildmage's second ability by paying {2}{U}{B}, causing an opponent to mill two cards.\nDuskmantle Guildmage triggers twice.\nResolve the first trigger, causing the opponent to lose 1 life.\nMindcrank triggers, causing the opponent to mill a card.\nDuskmantle Guildmage triggers, causing the opponent to lose 1 life.\nRepeat from step 5 until the opponent has a life total of zero, causing them to lose the game.\nRepeat from step 2 for each other opponent."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Bruvac the Grandiloquent",
+    "Lord Xander, the Collector"
+   ],
+   "combo_id": "95-1022",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 0,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 1
+    },
+    "mana_symbols_declared": [],
+    "step_count": 1,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 3
+    }
+   },
+   "evidence": [
+    "spellbook:95-1022",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/95-1022"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "If the targeted opponent has an odd number of cards in their library, they will have one card remaining. If they have an even number, they will mill their entire library.",
+    "produces": [
+     "Infinite mill for target opponent"
+    ],
+    "steps": "Declare Lord Xander as an attacker, triggering its ability, causing an opponent to mill a number of cards equal to half their library, rounded down, times two due to Bruvac."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Bruvac the Grandiloquent",
+    "Maddening Cacophony"
+   ],
+   "combo_id": "95-5080",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [
+     "mill"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 1
+    },
+    "mana_symbols_declared": [
+     "4",
+     "U",
+     "U"
+    ],
+    "step_count": 1,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 1
+    }
+   },
+   "evidence": [
+    "spellbook:95-5080",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/95-5080"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{4}{U}{U}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite mill"
+    ],
+    "steps": "Cast Maddening Cacophony with kicker by paying {4}{U}{U}, causing each opponent to mill their library due to Bruvac."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "combo_id": "1368-1414-4856",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 6,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-1414-4856",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-1414-4856"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least six other cards in your graveyard, plus an additional four cards if Brain Freeze is in your graveyard.",
+    "notes": "",
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ],
+    "steps": "Activate Lotus Petal by tapping and sacrificing it, adding {U}.\nCast Lotus Petal from your graveyard for its escape cost by exiling three cards besides Brain Freeze from your graveyard.\nRepeat from step 1 one additional time.\nCast Brain Freeze either from your hand by paying {1}{U}, or from your graveyard for its escape cost by paying {1}{U} and exiling three cards from your graveyard.\nBrain Freeze's storm ability triggers, creating at least two copies of Brain Freeze targeting yourself, and any remaining copies targeting an opponent.\nResolve each Brain Freeze, causing yourself to mill nine cards and, if applicable, an opponent to mill three cards for each Brain Freeze remaining.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "combo_id": "1368-1878-2706",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "draw",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "2",
+     "R"
+    ],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 6,
+     "hand": 3,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-1878-2706",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-1878-2706"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{R}",
+    "notable_prerequisites": "You have at least six additional cards in your graveyard, plus an additional six cards between your hand and/or graveyard.\nAn opponent has at least six cards in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ],
+    "steps": "Cast Jeska's Will from your graveyard for its escape cost by paying {2}{R} and exiling three other cards from your graveyard, adding at least six {R}.\nCast Wheel of Fortune from your graveyard for its escape cost by paying {2}{R} and exiling three other cards from your graveyard, causing each player to discard their hand and draw seven cards.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Wheel of Fortune"
+   ],
+   "combo_id": "1368-2706-3518",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "draw",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 5,
+     "hand": 3,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-2706-3518",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-2706-3518"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least six other cards in hand and/or graveyard.",
+    "notes": "",
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ],
+    "steps": "Activate Lion's Eye Diamond by discarding your hand and sacrificing it, adding {R}{R}{R}.\nCast Wheel of Fortune from your graveyard for its escape cost by paying {2}{R} and exiling 3 cards from your graveyard.\nResolve Wheel of Fortune, causing each player to discard their hand and draw seven cards.\nCast Lion's Eye Diamond from your graveyard for its escape cost by exiling 3 cards from your graveyard.\n Repeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "combo_id": "1368-3518-4856",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "mana",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 5,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-3518-4856"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least six other cards in hand and/or graveyard.",
+    "notes": "",
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ],
+    "steps": "Activate Lion's Eye Diamond by discarding your hand and sacrificing it, adding {U}{U}{U}.\nCast Lion's Eye Diamond from your graveyard for its escape cost by exiling three cards besides Brain Freeze from your graveyard.\nCast Brain Freeze from your graveyard for its escape cost by paying {1}{U} and exiling three cards from your graveyard.\nBrain Freeze's storm ability triggers, creating at least one copy of Brain Freeze targeting yourself, and any remaining copies targeting an opponent.\nResolve each Brain Freeze, causing yourself to mill six cards and, if applicable, an opponent to mill three cards for each Brain Freeze remaining.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "lord-xander-the-collector",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 11,
+  "direct_endpoint_hint_count": 8,
+  "mana_needed_declared_count": 6,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 11,
+  "zone_mention_count": 43
+ }
+}
