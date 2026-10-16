@@ -1,0 +1,154 @@
+{
+ "authority": {
+  "can_decide_deck": false,
+  "can_reopen_m2": false,
+  "can_rewrite_blueprint": false
+ },
+ "blueprint_version": 1,
+ "candidates": [
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "The Reaver Cleaver",
+    "Time Sieve"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1558-5039",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role",
+    "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/other-time-sieve",
+    "spellbook:1558-5039"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Time Sieve",
+    "Luxurious Locomotive"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1558-6307",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role",
+    "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/other-time-sieve",
+    "spellbook:1558-6307"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Malcolm, Keen-Eyed Navigator",
+    "Glint-Horn Buccaneer"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "4508-4869",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role",
+    "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/malcolm-glint-horn",
+    "spellbook:4508-4869"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Hoard Hauler",
+    "Time Sieve"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "451-1558",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role",
+    "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/other-time-sieve",
+    "spellbook:451-1558"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  }
+ ],
+ "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+ "deck_id": "Edward_Kenway",
+ "materiality_policy": {
+  "material_fields": [
+   "commander_role",
+   "dependency_level",
+   "power",
+   "anti_goals",
+   "packages",
+   "requirements",
+   "win_conditions",
+   "construction_rules"
+  ],
+  "rule": "Classification-only overlays do not reopen M2. Any proposed correction touching a material field requires targeted Cory review/reopen before application; downstream artifacts regenerate either way."
+ },
+ "schema_version": 1,
+ "slug": "edward-kenway",
+ "status": "provisional_overlay",
+ "summary": {
+  "candidate_count": 4,
+  "compact_candidate_count": 4,
+  "m2_reopen_requested": false,
+  "material_blueprint_changes_proposed": 0
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "authority": {
+  "can_decide_deck": false,
+  "can_reopen_m2": false,
+  "can_rewrite_blueprint": false
+ },
+ "blueprint_version": 1,
+ "candidates": [
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Demonic Pact",
+    "Donate"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2770-6676",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role",
+    "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+    "spellbook:2770-6676"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance.",
+    "The Blueprint names external payoff/enabler cards; compactness alone therefore does not make the line self-contained."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Demonic Pact",
+    "Harmless Offering"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "3090-6676",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role",
+    "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+    "spellbook:3090-6676"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance.",
+    "The Blueprint names external payoff/enabler cards; compactness alone therefore does not make the line self-contained."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Demonic Pact",
+    "Blim, Comedic Genius"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "3769-6676",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role",
+    "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+    "spellbook:3769-6676"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance.",
+    "The Blueprint names external payoff/enabler cards; compactness alone therefore does not make the line self-contained."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Demonic Pact",
+    "Coveted Falcon"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "6676-6922",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role",
+    "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+    "spellbook:6676-6922"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance.",
+    "The Blueprint names external payoff/enabler cards; compactness alone therefore does not make the line self-contained."
+   ]
+  }
+ ],
+ "canonical_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+ "deck_id": "Sol_kanar_the_Tainted",
+ "materiality_policy": {
+  "material_fields": [
+   "commander_role",
+   "dependency_level",
+   "power",
+   "anti_goals",
+   "packages",
+   "requirements",
+   "win_conditions",
+   "construction_rules"
+  ],
+  "rule": "Classification-only overlays do not reopen M2. Any proposed correction touching a material field requires targeted Cory review/reopen before application; downstream artifacts regenerate either way."
+ },
+ "schema_version": 1,
+ "slug": "solkanar-the-tainted",
+ "status": "provisional_overlay",
+ "summary": {
+  "candidate_count": 4,
+  "compact_candidate_count": 4,
+  "m2_reopen_requested": false,
+  "material_blueprint_changes_proposed": 0
+ }
+}

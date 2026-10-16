@@ -1,0 +1,33 @@
+{
+ "authority": {
+  "can_decide_deck": false,
+  "can_reopen_m2": false,
+  "can_rewrite_blueprint": false
+ },
+ "blueprint_version": 1,
+ "candidates": [],
+ "canonical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "materiality_policy": {
+  "material_fields": [
+   "commander_role",
+   "dependency_level",
+   "power",
+   "anti_goals",
+   "packages",
+   "requirements",
+   "win_conditions",
+   "construction_rules"
+  ],
+  "rule": "Classification-only overlays do not reopen M2. Any proposed correction touching a material field requires targeted Cory review/reopen before application; downstream artifacts regenerate either way."
+ },
+ "schema_version": 1,
+ "slug": "obeka-splitter-of-seconds",
+ "status": "provisional_overlay",
+ "summary": {
+  "candidate_count": 0,
+  "compact_candidate_count": 0,
+  "m2_reopen_requested": false,
+  "material_blueprint_changes_proposed": 0
+ }
+}

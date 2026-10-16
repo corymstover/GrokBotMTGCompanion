@@ -1,0 +1,508 @@
+{
+ "decks": [
+  {
+   "candidate_count": 4,
+   "compact_candidate_count": 4,
+   "deck_id": "Abaddon_the_Despoiler",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "abaddon-the-despoiler"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Admiral_Beckett_Brass",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "admiral-beckett-brass"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "admiral-brass-unsinkable"
+  },
+  {
+   "candidate_count": 5,
+   "compact_candidate_count": 5,
+   "deck_id": "Anhelo__the_Painter",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "anhelo-the-painter"
+  },
+  {
+   "candidate_count": 1,
+   "compact_candidate_count": 1,
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "ashad-the-lone-cyberman"
+  },
+  {
+   "candidate_count": 5,
+   "compact_candidate_count": 3,
+   "deck_id": "Ashnod_the_Uncaring",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "ashnod-the-uncaring"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "belakor-the-dark-master"
+  },
+  {
+   "candidate_count": 2,
+   "compact_candidate_count": 2,
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "bjorna-nightfall-alchemist-cecily"
+  },
+  {
+   "candidate_count": 6,
+   "compact_candidate_count": 6,
+   "deck_id": "Cormela__Glamour_Thief",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "cormela-glamour-thief"
+  },
+  {
+   "candidate_count": 1,
+   "compact_candidate_count": 1,
+   "deck_id": "Crosis__the_Purger",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "crosis-the-purger"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Cult_of_Skaro",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "cult-of-skaro"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Davros__Dalek_Creator",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "davros-dalek-creator"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "doctor-doom-king-of-latveria"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Don_Andres__the_Renegade",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "don-andres-the-renegade"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Dr__Eggman",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "dr-eggman"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Edea__Possessed_Sorceress",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "edea-possessed-sorceress"
+  },
+  {
+   "candidate_count": 4,
+   "compact_candidate_count": 4,
+   "deck_id": "Edward_Kenway",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "edward-kenway"
+  },
+  {
+   "candidate_count": 4,
+   "compact_candidate_count": 4,
+   "deck_id": "Evelyn__the_Covetous",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "evelyn-the-covetous"
+  },
+  {
+   "candidate_count": 7,
+   "compact_candidate_count": 7,
+   "deck_id": "Fire_Lord_Azula",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "fire-lord-azula"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "garza-zol-plague-queen"
+  },
+  {
+   "candidate_count": 4,
+   "compact_candidate_count": 4,
+   "deck_id": "Goro_Goro_and_Satoru",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "goro-goro-and-satoru"
+  },
+  {
+   "candidate_count": 6,
+   "compact_candidate_count": 6,
+   "deck_id": "Grixistax___October_2026",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "grixistax-october-2026"
+  },
+  {
+   "candidate_count": 1,
+   "compact_candidate_count": 1,
+   "deck_id": "Gwendlyn_Di_Corci",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "gwendlyn-di-corci"
+  },
+  {
+   "candidate_count": 5,
+   "compact_candidate_count": 5,
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "inalla-archmage-ritualist"
+  },
+  {
+   "candidate_count": 7,
+   "compact_candidate_count": 7,
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "jeleva-nephalias-scourge"
+  },
+  {
+   "candidate_count": 6,
+   "compact_candidate_count": 6,
+   "deck_id": "Kefka__Court_Mage",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "kefka-court-mage"
+  },
+  {
+   "candidate_count": 4,
+   "compact_candidate_count": 4,
+   "deck_id": "Kess__Dissident_Mage",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "kess-dissident-mage"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Loki__the_Deceiver",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "loki-the-deceiver"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Lord_of_Tresserhorn",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "lord-of-tresserhorn"
+  },
+  {
+   "candidate_count": 4,
+   "compact_candidate_count": 4,
+   "deck_id": "Lord_Xander__the_Collector",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "lord-xander-the-collector"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "lynde-cheerful-tormentor"
+  },
+  {
+   "candidate_count": 3,
+   "compact_candidate_count": 3,
+   "deck_id": "Mai_and_Zuko",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "mai-and-zuko"
+  },
+  {
+   "candidate_count": 1,
+   "compact_candidate_count": 1,
+   "deck_id": "Mairsil__the_Pretender",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "mairsil-the-pretender"
+  },
+  {
+   "candidate_count": 4,
+   "compact_candidate_count": 4,
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "marchesa-dealer-of-death"
+  },
+  {
+   "candidate_count": 35,
+   "compact_candidate_count": 35,
+   "deck_id": "Marchesa__the_Black_Rose",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "marchesa-the-black-rose"
+  },
+  {
+   "candidate_count": 14,
+   "compact_candidate_count": 10,
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "mishra-artificer-prodigy"
+  },
+  {
+   "candidate_count": 4,
+   "compact_candidate_count": 2,
+   "deck_id": "Mishra__Eminent_One",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "mishra-eminent-one"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Missy",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "missy"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "nathan-drake-treasure-hunter"
+  },
+  {
+   "candidate_count": 2,
+   "compact_candidate_count": 2,
+   "deck_id": "Nekusar__the_Mindrazer",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "nekusar-the-mindrazer"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Nicol_Bolas",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "nicol-bolas"
+  },
+  {
+   "candidate_count": 3,
+   "compact_candidate_count": 3,
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "nicol-bolas-the-ravager"
+  },
+  {
+   "candidate_count": 6,
+   "compact_candidate_count": 6,
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "norman-osborn"
+  },
+  {
+   "candidate_count": 2,
+   "compact_candidate_count": 2,
+   "deck_id": "Obeka__Brute_Chronologist",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "obeka-brute-chronologist"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "obeka-splitter-of-seconds"
+  },
+  {
+   "candidate_count": 25,
+   "compact_candidate_count": 25,
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "parnesse-the-subtle-brush"
+  },
+  {
+   "candidate_count": 7,
+   "compact_candidate_count": 7,
+   "deck_id": "RogSi",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "rograkh-son-of-rohgahh-silas-renn"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Saruman__the_White_Hand",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "saruman-the-white-hand"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "sauron-lord-of-the-rings"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Sauron__the_Dark_Lord",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "sauron-the-dark-lord"
+  },
+  {
+   "candidate_count": 1,
+   "compact_candidate_count": 1,
+   "deck_id": "Sedris__the_Traitor_King",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "sedris-the-traitor-king"
+  },
+  {
+   "candidate_count": 2,
+   "compact_candidate_count": 2,
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "solkanar-the-swamp-king"
+  },
+  {
+   "candidate_count": 4,
+   "compact_candidate_count": 4,
+   "deck_id": "Sol_kanar_the_Tainted",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "solkanar-the-tainted"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "tetsuo-imperial-champion"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Tetsuo_Umezawa",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "tetsuo-umezawa"
+  },
+  {
+   "candidate_count": 4,
+   "compact_candidate_count": 4,
+   "deck_id": "The_Madcap_Jester",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "the-madcap-jester"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "The_Rani",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "the-rani"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "The_Valeyard",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "the-valeyard"
+  },
+  {
+   "candidate_count": 11,
+   "compact_candidate_count": 9,
+   "deck_id": "Thraximundar",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "thraximundar"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "tresserhorns-lord-returned"
+  },
+  {
+   "candidate_count": 0,
+   "compact_candidate_count": 0,
+   "deck_id": "Wick__the_Whorled_Mind",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "wick-the-whorled-mind"
+  },
+  {
+   "candidate_count": 1,
+   "compact_candidate_count": 1,
+   "deck_id": "Zevlor__Elturel_Exile",
+   "m2_reopen_requested": false,
+   "material_blueprint_changes_proposed": 0,
+   "slug": "zevlor-elturel-exile"
+  }
+ ],
+ "generated_by": "scripts/grixis_power_core.py v1",
+ "schema_version": 1,
+ "totals": {
+  "candidate_count": 205,
+  "compact_candidate_count": 195,
+  "m2_reopen_requested": false,
+  "material_blueprint_changes_proposed": 0
+ }
+}

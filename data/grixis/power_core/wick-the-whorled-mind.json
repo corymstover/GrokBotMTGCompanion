@@ -1,0 +1,33 @@
+{
+ "authority": {
+  "can_decide_deck": false,
+  "can_reopen_m2": false,
+  "can_rewrite_blueprint": false
+ },
+ "blueprint_version": 1,
+ "candidates": [],
+ "canonical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+ "deck_id": "Wick__the_Whorled_Mind",
+ "materiality_policy": {
+  "material_fields": [
+   "commander_role",
+   "dependency_level",
+   "power",
+   "anti_goals",
+   "packages",
+   "requirements",
+   "win_conditions",
+   "construction_rules"
+  ],
+  "rule": "Classification-only overlays do not reopen M2. Any proposed correction touching a material field requires targeted Cory review/reopen before application; downstream artifacts regenerate either way."
+ },
+ "schema_version": 1,
+ "slug": "wick-the-whorled-mind",
+ "status": "provisional_overlay",
+ "summary": {
+  "candidate_count": 0,
+  "compact_candidate_count": 0,
+  "m2_reopen_requested": false,
+  "material_blueprint_changes_proposed": 0
+ }
+}

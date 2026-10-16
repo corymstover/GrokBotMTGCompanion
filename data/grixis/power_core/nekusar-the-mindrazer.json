@@ -1,0 +1,96 @@
+{
+ "authority": {
+  "can_decide_deck": false,
+  "can_reopen_m2": false,
+  "can_rewrite_blueprint": false
+ },
+ "blueprint_version": 1,
+ "candidates": [
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Curiosity",
+    "Niv-Mizzet, Parun"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1089-2353",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#commander_role",
+    "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/curiosity-niv",
+    "spellbook:1089-2353"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Underworld Breach",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1368-1878-2706",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#commander_role",
+    "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/breach-wheel",
+    "spellbook:1368-1878-2706"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance.",
+    "The Blueprint names external payoff/enabler cards; compactness alone therefore does not make the line self-contained."
+   ]
+  }
+ ],
+ "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+ "deck_id": "Nekusar__the_Mindrazer",
+ "materiality_policy": {
+  "material_fields": [
+   "commander_role",
+   "dependency_level",
+   "power",
+   "anti_goals",
+   "packages",
+   "requirements",
+   "win_conditions",
+   "construction_rules"
+  ],
+  "rule": "Classification-only overlays do not reopen M2. Any proposed correction touching a material field requires targeted Cory review/reopen before application; downstream artifacts regenerate either way."
+ },
+ "schema_version": 1,
+ "slug": "nekusar-the-mindrazer",
+ "status": "provisional_overlay",
+ "summary": {
+  "candidate_count": 2,
+  "compact_candidate_count": 2,
+  "m2_reopen_requested": false,
+  "material_blueprint_changes_proposed": 0
+ }
+}

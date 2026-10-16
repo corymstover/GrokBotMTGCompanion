@@ -1,0 +1,96 @@
+{
+ "authority": {
+  "can_decide_deck": false,
+  "can_reopen_m2": false,
+  "can_rewrite_blueprint": false
+ },
+ "blueprint_version": 1,
+ "candidates": [
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Painter's Servant",
+    "Grindstone"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1078-2302",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+    "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone",
+    "spellbook:1078-2302"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance.",
+    "The Blueprint names external payoff/enabler cards; compactness alone therefore does not make the line self-contained."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Sensei's Divining Top",
+    "Aetherflux Reservoir",
+    "Bolas's Citadel"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2173-4740-5078",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+    "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir",
+    "spellbook:2173-4740-5078"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  }
+ ],
+ "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+ "deck_id": "Sol_kanar_the_Swamp_King",
+ "materiality_policy": {
+  "material_fields": [
+   "commander_role",
+   "dependency_level",
+   "power",
+   "anti_goals",
+   "packages",
+   "requirements",
+   "win_conditions",
+   "construction_rules"
+  ],
+  "rule": "Classification-only overlays do not reopen M2. Any proposed correction touching a material field requires targeted Cory review/reopen before application; downstream artifacts regenerate either way."
+ },
+ "schema_version": 1,
+ "slug": "solkanar-the-swamp-king",
+ "status": "provisional_overlay",
+ "summary": {
+  "candidate_count": 2,
+  "compact_candidate_count": 2,
+  "m2_reopen_requested": false,
+  "material_blueprint_changes_proposed": 0
+ }
+}

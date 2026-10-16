@@ -1,0 +1,154 @@
+{
+ "authority": {
+  "can_decide_deck": false,
+  "can_reopen_m2": false,
+  "can_rewrite_blueprint": false
+ },
+ "blueprint_version": 1,
+ "candidates": [
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Breath of Fury",
+    "Urabrask's Forge"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1347-3259",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#commander_role",
+    "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers",
+    "spellbook:1347-3259"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Breath of Fury",
+    "Daring Piracy"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1674-3259",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#commander_role",
+    "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers",
+    "spellbook:1674-3259"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Breath of Fury",
+    "Determined Iteration"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "3259-3934",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#commander_role",
+    "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers",
+    "spellbook:3259-3934"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Breath of Fury",
+    "Loyal Apprentice"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "33-3259",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#commander_role",
+    "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers",
+    "spellbook:33-3259"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  }
+ ],
+ "canonical_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+ "deck_id": "Goro_Goro_and_Satoru",
+ "materiality_policy": {
+  "material_fields": [
+   "commander_role",
+   "dependency_level",
+   "power",
+   "anti_goals",
+   "packages",
+   "requirements",
+   "win_conditions",
+   "construction_rules"
+  ],
+  "rule": "Classification-only overlays do not reopen M2. Any proposed correction touching a material field requires targeted Cory review/reopen before application; downstream artifacts regenerate either way."
+ },
+ "schema_version": 1,
+ "slug": "goro-goro-and-satoru",
+ "status": "provisional_overlay",
+ "summary": {
+  "candidate_count": 4,
+  "compact_candidate_count": 4,
+  "m2_reopen_requested": false,
+  "material_blueprint_changes_proposed": 0
+ }
+}
