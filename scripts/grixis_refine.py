@@ -612,7 +612,8 @@ def final_summary(summ, info, metrics, top, plans):
             L.append(f"- **Batch {b}:** " + " · ".join(f"{lk(d)} ({metrics[d]['final']['dependence']:.0%}{' 🔎' if d in rv.get('hand_review', {}) else ''}{' ⏳ pending' if info[d]['pending'] else ''})" for d in un))
     L += ["", "### Flagged items", ""]
     for x in fin.get("flags", []):
-        L.append(f"- ⚠️ " + (f"**{nm(x['deck'])}:** " if x.get("deck") else "**Archidekt exports:** ") + x["item"])
+        lab = nm(x["deck"]) if x.get("deck") in summ else x.get("label") or x.get("deck") or "General"
+        L.append(f"- ⚠️ **{lab}:** " + x["item"])
     legal = list(summ)  # homogenization is measured on all 62 lists
     srcm = sum(metrics[d]["source"]["dependence"] for d in legal) / len(legal)
     finm = sum(metrics[d]["final"]["dependence"] for d in legal) / len(legal)
@@ -653,7 +654,7 @@ def summary_page(summ, info, metrics, top, plans):
          f"{sorted(len(metrics[d]['final']['control_core']) for d in summ)[31]}.", ""] + final_summary(summ, info, metrics, top, plans) + ["## Batch log", ""]
     for b, bv in sorted(plans["batches"].items(), key=lambda kv: int(kv[0])):
         L += [f"### Batch {b} — Bot cycle {bv['cycle']}, {bv['date']}", ""]
-        for d in bv["decks"]:
+        for d in (d for d in bv["decks"] if d in summ):
             e = plans["decks"][d]
             v = summ[d]
             nm = " + ".join(v["commanders"])
@@ -670,7 +671,7 @@ def summary_page(summ, info, metrics, top, plans):
     hrs = load_review().get("hand_review", {})
     if hrs:
         L += ["## Hand reviews", "", "Decks given a commander-first hand look (guidance; principle 2: no artificial weakening).", ""]
-        for d, x in hrs.items():
+        for d, x in ((d, x) for d, x in hrs.items() if d in summ):  # a deck dropped from the build (e.g. legality) is skipped, not a crash
             L += [f"- **[{' + '.join(summ[d]['commanders'])}](decks/{summ[d]['slug']}.md#refined-list-bot-cycle-39)** (Bot cycle {x['cycle']}): **{x['verdict']}.** {x['tradeoff']}"]
         L.append("")
     ov = load_review().get("overlap", {})

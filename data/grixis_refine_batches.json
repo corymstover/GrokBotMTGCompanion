@@ -2346,7 +2346,7 @@
     "date": "2026-10-16",
     "cycle": 44,
     "batch": 6,
-    "change": "hand review (identity confirmed; at ceiling; unchanged (⏳ pending legality)); reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "change": "hand review (identity confirmed; at ceiling; unchanged); reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
     "added": [],
     "removed": []
    }
@@ -2356,7 +2356,7 @@
     "date": "2026-10-16",
     "cycle": 44,
     "batch": 6,
-    "change": "hand review (identity confirmed; at ceiling; unchanged (⏳ pending legality, source legality claim flagged)); reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "change": "hand review (identity confirmed; at ceiling; unchanged; source legality claim flagged); reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
     "added": [],
     "removed": []
    }
