@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon001",
+  "expected_outcome": "Do not make the change (source status: CLOSED_INCONCLUSIVE_KEEP_BASELINE). Aurora's text/rules interaction with Abaddon is valid in principle; one auxiliary passive-Obeka smoke run cast Aurora and resolved its printed cascade once, but did not resolve the graveyard-return ability. The registered three-game per-list comparison never cast either candidate. These data cannot establish superiority. Mind's Desire remains because its high-ceiling storm line is not displaced by",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_inconclusive_keep_"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon033",
+  "expected_outcome": "Do not make the change (source status: CLOSE_ALTERNATIVE). This is a metagame call, not a universally material upgrade. No recurring opposing-graveyard threat has been documented, so reserve the slot unless the target pod warrants dedicated graveyard hate.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "close_alternative"
+  ]
+}

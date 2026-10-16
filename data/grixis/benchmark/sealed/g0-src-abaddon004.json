@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon004",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_CUT_IDENTIFIED). The spell can cost less as creatures die, then discards the hand, draws eight and deals eight to each opponent before exiling itself. Its mana value 11 and creature-death discount do not reliably solve the Abaddon threshold/castability problem. The existing wheels, Mind's Desire and burn engines already cover substantial refill/closing roles. No cut is justified; close candidate, no list change.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_cut_identified"
+  ]
+}

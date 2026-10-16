@@ -1,6 +1,6 @@
 {
   "id": "g0-v1hr-14",
   "expected_outcome": "Reject (v1 hand review): Wheel of Fortune is the deck's remaining wheel. With Underworld Dreams it hits each opponent for 7, and that life loss feeds Exquisite Blood and Vito. Ayara only triggers on black creatures entering, and the list runs about 12 creatures. Not clearly more. Wheel of Fortune is now protected.",
-  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "label_authority": "unvalidated_v1_judgment: grokbot_v1_hand_review (not Cory-validated)",
   "leak_terms": []
 }

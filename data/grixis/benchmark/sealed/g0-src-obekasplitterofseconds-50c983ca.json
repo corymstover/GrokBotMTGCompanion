@@ -1,0 +1,6 @@
+{
+  "id": "g0-src-obekasplitterofseconds-50c983ca",
+  "expected_outcome": "Make the change (user-approved list): Plunderer gives an opponent a tapped Treasure every time its multiplied upkeep trigger makes one for us. Smaug creates one-sided Treasures at each of our upkeeps, has flying/haste, and converts Treasure count into attack damage.",
+  "label_authority": "source_process_decision (user-approved list)",
+  "leak_terms": []
+}

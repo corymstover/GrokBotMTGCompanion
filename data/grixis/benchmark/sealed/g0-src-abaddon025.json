@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon025",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). Warstorm Surge can convert creature entries (including some cascade hits, Nalfeshnee token copies and The Lost and the Damned Spawn) into damage, but costs six mana and does nothing immediately without a subsequent entry. No weaker damage engine or creature slot has been identified. Close without adding.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

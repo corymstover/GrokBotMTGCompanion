@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon020",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). Useful text in a creature-heavy cascade shell, but the sacrifice and mana requirements are a poor fit for this spell-first build. No clear cut; Dark Apostle and Sloppity Bilepiper are both too slow for the current threshold plan.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

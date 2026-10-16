@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon014",
+  "expected_outcome": "Do not make the change (source status: CLOSE_ALTERNATIVE). High Lift is association, not proof. The card has a real but variance-heavy fit; deterministic cascades and the current burn/combo plan have stronger role coverage.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "close_alternative"
+  ]
+}

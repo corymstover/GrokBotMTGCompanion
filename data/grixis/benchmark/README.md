@@ -24,3 +24,12 @@ Step G0 of the [Grixis Birthday Upgrade Plan](../../../grixis/Grixis%20Birthday%
 - 11 new-architecture errors caught by Cory (t49u/t50u) or the MV checker (PR #140).
 
 The one-off harvest script is kept outside the repository because it holds answers next to prompts.
+
+**Harvest (cycle 64.2, +318 → 366 items):**
+- 76 rows from the 10 source candidate-decision CSV ledgers.
+- 233 rows from the `| Cut | Add |` final-delta tables in the 28 Markdown candidate-decision files. A row is classed `mana_decision` when either card is a land (Scryfall type line).
+- 9 legality, project-exception, colour-identity and mana items from cycles 16, 44 and 47 and the source verification files.
+- Every item now carries a `deck_snapshot` (registry deck id, commanders, canonical and baseline `lh1`, source raw sha256 at commit 6ccc5b0).
+- v1 prompts are self-contained.
+- v1 labels are prefixed `unvalidated_v1_judgment`.
+- Source labels say whether the list was user-approved (`source_process_decision (user-approved list)`) or not human-validated.

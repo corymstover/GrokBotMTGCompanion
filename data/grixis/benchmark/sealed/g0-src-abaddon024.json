@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon024",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). No lifegain-oriented metagame requirement is established. It is not a cascade, cast-from-exile, combo, or damage-engine upgrade for this list; do not add solely on rank.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

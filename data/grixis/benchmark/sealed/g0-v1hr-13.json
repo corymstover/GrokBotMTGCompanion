@@ -1,6 +1,6 @@
 {
   "id": "g0-v1hr-13",
   "expected_outcome": "Reject (v1 hand review): Windfall is now protected as part of the discard-to-graveyard reanimation core. Palantír of Orthanc mills and draws slowly each end step, which does not do more than a one-shot hand refill that also stocks the graveyard.",
-  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "label_authority": "unvalidated_v1_judgment: grokbot_v1_hand_review (not Cory-validated)",
   "leak_terms": []
 }

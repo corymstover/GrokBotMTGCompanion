@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon010",
+  "expected_outcome": "Do not make the change (source status: CLOSE_ALTERNATIVE). The spell-count synergy is real, but its cost and single-target distribution do not beat the baseline's cheaper all-opponent/persistent damage engines on the current commander-first plan.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "close_alternative"
+  ]
+}

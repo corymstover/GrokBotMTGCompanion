@@ -1,7 +1,7 @@
 {
   "id": "g0-v1ceil-02",
   "expected_outcome": "No: an identity-first rebuild would be clearly weaker; leave the list and flag the identity-vs-ceiling tradeoff for Cory.",
-  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "label_authority": "unvalidated_v1_judgment: grokbot_v1_hand_review (not Cory-validated)",
   "leak_terms": [
     "weaker",
     "flag"

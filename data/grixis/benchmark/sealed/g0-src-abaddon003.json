@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon003",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). Poxwalkers returns tapped from the graveyard when its controller casts a spell from a zone other than hand, including a cascade cast from exile. That is a genuine resilience synergy, but Thermo-Alchemist is a cheap repeatable all-opponent threshold enabler and spell-cast pinger. Without evidence the current pinger package is redundant, the trade is not an upgrade. Close with no cut; no list change",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

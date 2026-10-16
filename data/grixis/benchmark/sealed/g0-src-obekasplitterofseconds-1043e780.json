@@ -1,0 +1,6 @@
+{
+  "id": "g0-src-obekasplitterofseconds-1043e780",
+  "expected_outcome": "Make the change (user-approved list): Redundant flying/ward becomes `{1}` equip on three-color Obeka for +2/+2 and hexproof from monocolored, directly raising the number of added upkeeps on connection.",
+  "label_authority": "source_process_decision (user-approved list)",
+  "leak_terms": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon016",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). Genuine Abaddon interaction, but the baseline already runs three broad sweepers and this does not hit other permanent types or larger creatures. No underperforming removal slot has been established; keep current removal package.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

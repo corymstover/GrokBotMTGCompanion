@@ -1,6 +1,6 @@
 {
   "id": "g0-v1hr-12",
   "expected_outcome": "Reject (v1 hand review): Windfall discards hands, which fills the graveyard with targets for the list's Entomb / Animate Dead / Necromancy / Reanimate package and Sauron's own return. Deep Analysis only draws (flashback after a mill is minor). Windfall is the reanimator-relevant card.",
-  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "label_authority": "unvalidated_v1_judgment: grokbot_v1_hand_review (not Cory-validated)",
   "leak_terms": []
 }

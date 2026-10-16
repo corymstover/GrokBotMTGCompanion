@@ -1,0 +1,9 @@
+{
+  "id": "g0-mana-ashadthelone",
+  "expected_outcome": "Flagged for mana-base review as guidance (low land count for the curve); the list was left unchanged pending review.",
+  "label_authority": "unvalidated_v1_judgment: grokbot_cycle16_flag",
+  "leak_terms": [
+    "flag",
+    "guidance"
+  ]
+}

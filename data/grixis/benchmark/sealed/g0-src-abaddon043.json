@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon043",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). The project's optimization target and current manabase do not support downgrading to a conditional dual land. No inclusion justified.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

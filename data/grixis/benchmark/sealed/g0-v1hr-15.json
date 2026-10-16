@@ -1,6 +1,6 @@
 {
   "id": "g0-v1hr-15",
   "expected_outcome": "Accept (v1 hand review): Sol'kanar's \"Whenever a player casts a black spell, you gain 1 life.\" fires on every player's black spell, and the list adds Exquisite Blood, Vito, Sheoldred, the Apocalypse, Bloodthirsty Conqueror and Enduring Tenacity. Well of Lost Dreams (\"Whenever you gain life, you may pay {X}… draw X cards\") turns that life into a repeatable draw engine. Windfall is a one-shot refill and the weaker of the two wheels. Wheel of Fortune stays and still pairs with Underworld Dreams. 31.7% vs 7.6% of Sol'kanar decks; MV 3→4 (draw for draw, within +1).",
-  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "label_authority": "unvalidated_v1_judgment: grokbot_v1_hand_review (not Cory-validated)",
   "leak_terms": []
 }

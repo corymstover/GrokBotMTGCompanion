@@ -1,0 +1,8 @@
+{
+  "id": "g0-ci-missy",
+  "expected_outcome": "No. Missy is U/B/R and every addition is colorless, B, U, R, a two-colour pair of those, or a land with no identity outside U/B/R.",
+  "label_authority": "source_process_check (oracle-verifiable)",
+  "leak_terms": [
+    "no incoming card"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "id": "g0-v1hr-01",
   "expected_outcome": "Accept (v1 hand review): Abaddon's cascade X is the life opponents lost this turn. Stormfist's upkeep trigger makes each opponent lose 1 before your first main phase, so from that turn on every hand spell up to MV 3 cascades without needing another damage source; it also draws for you every upkeep. Remora draws only off opponents' noncreature spells and never turns on Abaddon. Abaddon decks play Stormfist 48.0% vs Remora 12.6%; rank 2,011 is within the guard.",
-  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "label_authority": "unvalidated_v1_judgment: grokbot_v1_hand_review (not Cory-validated)",
   "leak_terms": []
 }

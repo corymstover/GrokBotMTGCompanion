@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon018",
+  "expected_outcome": "Do not make the change (source status: CLOSE_ALTERNATIVE). The +1 interaction with the threshold is rules-functional but inefficient relative to Boltwave, Flame Rift, Loyal Subordinate, and the existing damage engines. No cut or need for a slower threshold package identified.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "close_alternative"
+  ]
+}

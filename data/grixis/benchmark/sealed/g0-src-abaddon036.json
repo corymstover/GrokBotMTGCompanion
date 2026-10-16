@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon036",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). Chaos Warp would answer any permanent and therefore remains a reasonable meta-trigger alternative if a resolved hate permanent repeatedly blocks the plan. No target-meta gap is documented; the existing deck has strong stack protection, Deadly Rollick, wipes and Otawara. Close for the current assumed environment; reopen only against a specified permanent-based problem.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

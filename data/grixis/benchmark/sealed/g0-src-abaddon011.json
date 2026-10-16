@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon011",
+  "expected_outcome": "Do not make the change (source status: CLOSE_ALTERNATIVE). High association does not overcome the tempo cost. The list already has better color fixing and more efficient threshold enablers; no slot improves by exchanging a faster mana source for this.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "close_alternative"
+  ]
+}

@@ -40,3 +40,13 @@ def test_historical_corpus_not_claimed_blind():
 def test_manifest_records_freeze_rule():
     m = gb.load(gb.B / "manifest.json")
     assert "immutable" in m["freeze_rule"] and m["immutable_from"] == "first commit of step A"
+
+
+def test_v1_labels_marked_unvalidated_and_snapshots_present():
+    c = gb.load(gb.B / "corpus.json")["items"]
+    for it in c:
+        s = gb.load(gb.B / "sealed" / f"{it['id']}.json")
+        if it["originated_by"] == "grokbot_v1" and s["label_authority"].startswith(("grokbot_v1", "unvalidated")):
+            assert s["label_authority"].startswith("unvalidated_v1_judgment")
+        if it["deck"] != "multi":
+            assert it.get("deck_snapshot", {}).get("canonical_lh1", "").startswith("lh1:")

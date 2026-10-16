@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-beckett001",
+  "expected_outcome": "Make the change (source status: APPROVED_BY_USER — exact revised 100-card list approved and locked on 2026-10-13.). This is a role-for-role comparison rather than a popularity-only addition. The Indomitable's graveyard permission checks only for three tapped Pirates/Vehicles as casting begins; it does not reduce the {2}{U}{U} cost and does not change normal timing. Current list's combat plan regularly taps Pirates to attack, making the condition plausible. Main concern is mandatory draw causing unwanted deck de",
+  "label_authority": "source_process_decision (user-approved list)",
+  "leak_terms": [
+    "approved_by_user — exact "
+  ]
+}

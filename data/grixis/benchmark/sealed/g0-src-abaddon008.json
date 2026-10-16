@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon008",
+  "expected_outcome": "Do not make the change (source status: CLOSE_ALTERNATIVE). Flexible text is attractive, but the deck's five-mana interaction slot already has a role-committed cascade instant. No replacement evidence justifies giving up printed cascade.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "close_alternative"
+  ]
+}

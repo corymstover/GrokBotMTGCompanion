@@ -1,6 +1,6 @@
 {
   "id": "g0-v1hr-03",
   "expected_outcome": "Reject (v1 hand review): Same as Cordial Vampire: Reanimate is part of the reanimator core (now protected); Blood Artist is a drain payoff the list has no sacrifice engine for.",
-  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "label_authority": "unvalidated_v1_judgment: grokbot_v1_hand_review (not Cory-validated)",
   "leak_terms": []
 }

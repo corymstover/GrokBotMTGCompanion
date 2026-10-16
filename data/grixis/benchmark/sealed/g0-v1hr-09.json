@@ -1,6 +1,6 @@
 {
   "id": "g0-v1hr-09",
   "expected_outcome": "Reject (v1 hand review): Lavaspur Boots' haste lets Obeka connect the turn she lands, which helps her combat-damage upkeep trigger. But Mana Drain is real stack interaction, and ward {1} only taxes a removal spell; the guard read Boots' ward as a counterspell, and that role match is now excluded. Losing a hard counter is a downgrade.",
-  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "label_authority": "unvalidated_v1_judgment: grokbot_v1_hand_review (not Cory-validated)",
   "leak_terms": []
 }

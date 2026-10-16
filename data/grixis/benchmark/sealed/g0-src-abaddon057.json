@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon057",
+  "expected_outcome": "Do not make the change (source status: A separate token/combat package would distort the commander-first spell/exile plan; no need for more creature-combat fin). ",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "a separate token/combat p"
+  ]
+}

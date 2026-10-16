@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon045",
+  "expected_outcome": "Do not make the change (source status: Genuine backup line, but no slot is demonstrably weaker than the existing Breach/LED/Brain Freeze package or the core in). ",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "genuine backup line, but "
+  ]
+}

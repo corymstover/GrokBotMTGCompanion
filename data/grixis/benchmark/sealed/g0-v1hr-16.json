@@ -1,6 +1,6 @@
 {
   "id": "g0-v1hr-16",
   "expected_outcome": "Accept (v1 hand review): The Rani creates a Mark of the Rani Aura token each time she enters or attacks (\"create a red Aura enchantment token named Mark of the Rani\"), and her goad trigger investigates (Clue tokens). The list adds Academy Manufactor, Erdwal Illuminator and Forensic Gadgeteer, so Idol of Oblivion (\"{T}: Draw a card. Activate only if you created a token this turn.\") draws on most of her turns and becomes a 10/10 late. Mystic Remora is a turn-1 tax engine that has to be dropped after a few upkeeps, and The Rani's own players run it in 7.1% of decks vs 16.6% for Idol. Ranks 191 vs 101 are within the guard; MV 1→2, draw for draw.",
-  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "label_authority": "unvalidated_v1_judgment: grokbot_v1_hand_review (not Cory-validated)",
   "leak_terms": []
 }

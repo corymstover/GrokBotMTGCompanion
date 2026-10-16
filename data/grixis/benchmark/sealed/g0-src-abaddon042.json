@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon042",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). Volcanic Torrent is a five-mana cascade sweeper scaling with spells cast, but the current deck already uses Delayed Blast Fireball (a particularly strong cascade hit from exile), Blasphemous Act and Call Forth the Tempest. No board-control gap or inferior wipe slot is established. Close no material upgrade.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

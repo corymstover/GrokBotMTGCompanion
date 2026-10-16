@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon022",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). Rules synergy with high-value spells is real, but access is combat-dependent and the copy does not reproduce cast-trigger benefits. No cut justified over existing cascade/exile engines and combo density.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

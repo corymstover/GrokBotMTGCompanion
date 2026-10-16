@@ -1,0 +1,6 @@
+{
+  "id": "g0-src-missy-2648249b",
+  "expected_outcome": "Make the change (user-approved list): Replaces attack-only artifact value with the best commander-native free-turn-up loop body. Ripper's reveal-black morph cost is mana-free and its face-up trigger drains 2.",
+  "label_authority": "source_process_decision (user-approved list)",
+  "leak_terms": []
+}

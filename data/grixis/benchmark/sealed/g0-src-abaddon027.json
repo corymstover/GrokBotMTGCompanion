@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon027",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). Be'lakor offers a more commander-specific high-end draw/demon payoff, while Lord of Change is mostly a seven-mana standalone draw body. No cut is justified for the weaker fit.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

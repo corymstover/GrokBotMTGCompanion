@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abu002",
+  "expected_outcome": "Do not make the change (source status: REVIEWED — alternative not selected for initial proposal). No automatic inclusion. The card’s upside is drawing a card; the reason it is not the lead proposal is activation timing.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "reviewed — alternative no"
+  ]
+}

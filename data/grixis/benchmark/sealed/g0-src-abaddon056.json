@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon056",
+  "expected_outcome": "Do not make the change (source status: No cut for a fourth similar pinger has been established; keep lower-cost, more efficient triggers.). ",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "no cut for a fourth simil"
+  ]
+}

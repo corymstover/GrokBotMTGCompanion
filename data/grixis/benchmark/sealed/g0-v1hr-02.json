@@ -1,6 +1,6 @@
 {
   "id": "g0-v1hr-02",
   "expected_outcome": "Reject (v1 hand review): Roaming Throne naming Human or Scientist makes Dr. Eggman's end-step trigger (draw, then each opponent faces a villainous choice) trigger twice. That is the commander's own engine, so it is not generic filler. Steel Overseer only pumps artifact creatures. The cut rule now protects trigger doublers.",
-  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "label_authority": "unvalidated_v1_judgment: grokbot_v1_hand_review (not Cory-validated)",
   "leak_terms": []
 }

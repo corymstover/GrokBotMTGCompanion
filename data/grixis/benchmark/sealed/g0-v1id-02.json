@@ -1,7 +1,7 @@
 {
   "id": "g0-v1id-02",
   "expected_outcome": "The scoring was wrong (the hook model missed the commander's trigger); the list's identity was confirmed on hand review.",
-  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "label_authority": "unvalidated_v1_judgment: grokbot_v1_hand_review (not Cory-validated)",
   "leak_terms": [
     "our gap",
     "scoring fix"
