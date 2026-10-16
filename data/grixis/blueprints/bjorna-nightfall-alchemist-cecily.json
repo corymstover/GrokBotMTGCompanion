@@ -1,0 +1,641 @@
+{
+ "schema_version": 2,
+ "deck_id": "Cecily__Bjorna__Lutri",
+ "slug": "bjorna-nightfall-alchemist-cecily",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 50,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+ "commanders": {
+  "value": [
+   {
+    "name": "Bjorna, Nightfall Alchemist",
+    "oracle_id": "c880fbdc-bdd9-4f80-81d4-e3e1124f76ca",
+    "oracle_text": "{T}, Sacrifice an artifact: Bjorna, Nightfall Alchemist deals 1 damage to target creature. Goad that creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)\nPartner—Friends forever (You can have two commanders if both have this ability.)",
+    "oracle_sha256": "sha256:7b3b6148b660f14e9a96f46ae1fed158b44a976d295cf31a61565130e936aa91",
+    "type_line": "Legendary Creature — Human"
+   },
+   {
+    "name": "Cecily, Haunted Mage",
+    "oracle_id": "a726c27d-2955-4d41-b8a6-fca654c020a2",
+    "oracle_text": "Your maximum hand size is eleven.\nWhenever Cecily, Haunted Mage attacks, you draw a card and you lose 1 life. Then if you have eleven or more cards in your hand, you may cast an instant or sorcery spell from your hand without paying its mana cost.\nPartner—Friends forever (You can have two commanders if both have this ability.)",
+    "oracle_sha256": "sha256:58808b6dd2c1128c41ceb11308a0850dcd63f8bfa5a96727df50ddf44575b345",
+    "type_line": "Legendary Creature — Human Wizard"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Bjorna, Nightfall Alchemist",
+   "oracle:Cecily, Haunted Mage"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Big-hand spells: draw to eleven-plus cards with Rhystic Study, The One Ring, wheels and Trade Secrets/Yawgmoth's Bargain, attack with Cecily to draw and cast an instant or sorcery free, and win with draw-based combos (Peer into the Abyss + Psychosis Crawler or Teferi's Ageless Insight, Underworld Breach + Wheel of Fortune + Jeska's Will).",
+   "secondary": "Bjorna sacrifices spare artifacts (Treasures, Thopters, Clues) to ping and goad an opposing creature each turn, keeping attackers pointed away and clearing Cecily's way."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md",
+   "interaction:bjorna-nightfall-alchemist-cecily#bjorna-01",
+   "interaction:bjorna-nightfall-alchemist-cecily#bjorna-02",
+   "interaction:bjorna-nightfall-alchemist-cecily#bjorna-05",
+   "interaction:bjorna-nightfall-alchemist-cecily#bjorna-07"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "supporting",
+   "advances_plan": "Cecily turns attacks into a card and, with 11+ cards, a free spell; Bjorna is a small repeatable goad/ping that uses artifact tokens. Together they help, but the deck wins with draw-and-wheel combos that don't need either commander.",
+   "honest_note": "The source blueprint misdescribes both commanders (Bjorna does not grant haste on noncreature spells; Cecily triggers on attacking, not combat damage; M1 bjorna-12). On current Oracle Bjorna is close to incidental and Cecily is a significant but combat-exposed engine. The approval dossier calls the pair the 'strategic center'; GrokBot's reading is that the draw/wheel/Peer package is."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "interaction:bjorna-nightfall-alchemist-cecily#bjorna-12",
+   "interaction:bjorna-nightfall-alchemist-cecily#bjorna-01",
+   "interaction:bjorna-nightfall-alchemist-cecily#bjorna-02",
+   "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md#L23"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "peer-crawler",
+   "kind": "combo",
+   "description": "Peer into the Abyss on yourself with Psychosis Crawler out: each card drawn deals 1 to each opponent.",
+   "cards": [
+    "Peer into the Abyss",
+    "Psychosis Crawler"
+   ],
+   "enablers": [
+    "Cecily, Haunted Mage"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-06",
+    "spellbook:1561-2384"
+   ]
+  },
+  {
+   "id": "peer-ageless-insight",
+   "kind": "combo",
+   "description": "Peer into the Abyss + Teferi's Ageless Insight: an odd library loses (flagged parity in M1).",
+   "cards": [
+    "Peer into the Abyss",
+    "Teferi's Ageless Insight"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-05",
+    "spellbook:1561-5042"
+   ]
+  },
+  {
+   "id": "breach-wheel",
+   "kind": "combo",
+   "description": "Underworld Breach + Wheel of Fortune + Jeska's Will.",
+   "cards": [
+    "Underworld Breach",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-07",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "wizard-damage",
+   "kind": "natural",
+   "description": "Niv-Mizzet, Parun and Psychosis Crawler punish the deck's huge draw volume.",
+   "cards": [
+    "Niv-Mizzet, Parun",
+    "Psychosis Crawler"
+   ],
+   "enablers": [
+    "Harmonic Prodigy"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "cecily-attack",
+   "cards": [
+    "Cecily, Haunted Mage",
+    "Harmonic Prodigy",
+    "Robe of the Archmagi"
+   ],
+   "online_condition": "Cecily attacks; with 11+ cards in hand after the draw, cast an instant or sorcery free.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-02",
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-03",
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-04"
+   ]
+  },
+  {
+   "id": "hand-size",
+   "cards": [
+    "The One Ring",
+    "Rhystic Study",
+    "Mystic Remora",
+    "Trade Secrets",
+    "Yawgmoth's Bargain",
+    "Notion Thief"
+   ],
+   "online_condition": "Draw engines running to reach eleven.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:draw-engines",
+   "required": true,
+   "min_count": 6,
+   "role": "Reach and hold an eleven-card hand.",
+   "cards": [
+    "The One Ring",
+    "Rhystic Study",
+    "Mystic Remora",
+    "Trade Secrets",
+    "Yawgmoth's Bargain",
+    "Archmage Emeritus",
+    "Niv-Mizzet, Parun",
+    "Robe of the Archmagi"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md"
+   ]
+  },
+  {
+   "id": "pkg:wheels",
+   "required": true,
+   "min_count": 5,
+   "role": "Refill, fuel Peer/Breach lines, punish with Notion Thief.",
+   "cards": [
+    "Wheel of Fortune",
+    "Wheel of Misfortune",
+    "Windfall",
+    "Echo of Eons",
+    "Reforge the Soul",
+    "Whispering Madness",
+    "Notion Thief"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md",
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-08"
+   ]
+  },
+  {
+   "id": "pkg:combo",
+   "required": true,
+   "min_count": 3,
+   "role": "Draw-based kills.",
+   "cards": [
+    "Peer into the Abyss",
+    "Psychosis Crawler",
+    "Teferi's Ageless Insight",
+    "Underworld Breach",
+    "Jeska's Will"
+   ],
+   "candidates": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-05",
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-06",
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-07"
+   ]
+  },
+  {
+   "id": "pkg:artifact-fodder",
+   "required": false,
+   "min_count": 4,
+   "role": "Artifacts and tokens for Bjorna to sacrifice.",
+   "cards": [
+    "Big Score",
+    "Deadly Dispute",
+    "Sai, Master Thopterist",
+    "Ichor Wellspring",
+    "Academy Manufactor",
+    "Brass's Bounty"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-01"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "bjorna-goad",
+   "summary": "{T}, sacrifice an artifact: 1 damage to a creature and goad it.",
+   "cards": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "m1_refs": [
+    "bjorna-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-01"
+   ]
+  },
+  {
+   "id": "cecily-order",
+   "summary": "Draw and lose 1 first, then check eleven cards; free cast from hand.",
+   "cards": [
+    "Cecily, Haunted Mage"
+   ],
+   "m1_refs": [
+    "bjorna-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-02"
+   ]
+  },
+  {
+   "id": "prodigy-doubles",
+   "summary": "Harmonic Prodigy doubles Cecily, Niv-Mizzet and Archmage triggers.",
+   "cards": [
+    "Harmonic Prodigy"
+   ],
+   "m1_refs": [
+    "bjorna-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-03"
+   ]
+  },
+  {
+   "id": "triskaidekaphile",
+   "summary": "Triskaidekaphile wins with exactly thirteen cards at upkeep.",
+   "cards": [
+    "Triskaidekaphile"
+   ],
+   "m1_refs": [
+    "bjorna-09"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-09"
+   ]
+  },
+  {
+   "id": "exceptions",
+   "summary": "Lutri companion, Trade Secrets and Yawgmoth's Bargain are project exceptions, not Commander-legal.",
+   "cards": [
+    "Trade Secrets",
+    "Yawgmoth's Bargain",
+    "Lutri, the Spellchaser"
+   ],
+   "m1_refs": [
+    "bjorna-11"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-11"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Peer into the Abyss",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Mystical Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-06"
+   ]
+  },
+  {
+   "target": "Psychosis Crawler",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-06"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Underworld Breach",
+   "Kess, Dissident Mage",
+   "Emry, Lurker of the Loch",
+   "Goblin Engineer"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Counters to protect combo turns; Toxic Deluge and Cyclonic Rift as resets.",
+   "protection": "Lightning Greaves for Cecily's attack; Fierce Guardianship.",
+   "mana": "Rituals (Seething Song, Mana Geyser, Jeska's Will) and rocks."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "cecily-cant-attack",
+   "description": "Cecily dies in combat or can't attack safely; free casts never happen.",
+   "mitigations": [
+    "Bjorna goads blockers",
+    "Greaves"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md"
+   ]
+  },
+  {
+   "id": "wheel-shrinks-hand",
+   "description": "Wheels replace the hand and can drop below eleven.",
+   "mitigations": [
+    "Sequence wheels before draw engines"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-08"
+   ]
+  },
+  {
+   "id": "legality",
+   "description": "Outside the project the list is not Commander-legal (three exceptions); the official projection swaps them out and loses power.",
+   "mitigations": [
+    "Projection is labeled and never canonical"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-11"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "low",
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "interaction:bjorna-nightfall-alchemist-cecily#bjorna-05",
+   "interaction:bjorna-nightfall-alchemist-cecily#bjorna-07",
+   "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": null,
+    "label": "No source ceiling stated in the blueprint, approval or approval-gate dossier (checked Bot cycle 50)."
+   },
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Cecily__Bjorna__Lutri_v1.md",
+    "source_archive:refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md",
+    "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 (project list with three banned-card exceptions): draw/wheel combo power, but the commanders add little speed; the official projection is weaker."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-05",
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-11",
+    "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Cecily__Bjorna__Lutri"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": null,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 1,
+     "2": 8,
+     "3": 10,
+     "4": 4,
+     "5": 3
+    },
+    "decks_with_bracket": 26,
+    "share_b4_plus": 0.269,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__bjorna-nightfall-alchemist-cecily-haunted-mage.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [
+   "Lutri, the Spellchaser",
+   "Trade Secrets",
+   "Yawgmoth's Bargain"
+  ],
+  "evidence_class": "approved_decision",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Cecily, Haunted Mage",
+   "why": "Attack draw and free spell at eleven cards: the pair's real engine.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Cecily, Haunted Mage"
+   ]
+  },
+  {
+   "card": "Bjorna, Nightfall Alchemist",
+   "why": "Required commander; goads one blocker or attacker per turn using spare artifacts.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Bjorna, Nightfall Alchemist"
+   ]
+  },
+  {
+   "card": "Peer into the Abyss",
+   "why": "Central combo piece and the biggest single hand-size swing.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-06"
+   ]
+  },
+  {
+   "card": "The One Ring",
+   "why": "Protection plus escalating draw toward eleven.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md"
+   ]
+  },
+  {
+   "card": "Trade Secrets",
+   "why": "Project-authorized exception that fuels the hand-size plan.",
+   "evidence_class": "approved_decision",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-11",
+    "source_archive:refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't homogenize into generic Grixis storm (source guardrail).",
+   "Don't claim the three exception cards are Commander-legal.",
+   "Don't build around the misdescribed source text for Bjorna/Cecily."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Cecily__Bjorna__Lutri_v1.md",
+   "interaction:bjorna-nightfall-alchemist-cecily#bjorna-12"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Friends forever pair; Lutri companion is a project exception kept from the source."
+  ],
+  "evidence_class": "approved_decision",
+  "confidence": "verified",
+  "evidence": [
+   "source_archive:refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.124i",
+   "note": "Partner—Friends forever: both commanders' identities combine; each has its own tax.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.124i"
+   ]
+  },
+  {
+   "rule": "CR 702.139",
+   "note": "Companion rules; Lutri is banned as a companion in Commander and kept only as a project exception.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.139"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "artifacts",
+    "card draw / hand size",
+    "combat damage / attack triggers",
+    "goad / forced attacks",
+    "instants and sorceries",
+    "sacrifice"
+   ],
+   "hooked_cards": 64,
+   "role_counts": {
+    "counter": 2,
+    "draw": 27,
+    "protection": 1,
+    "ramp": 18,
+    "removal": 4,
+    "tutor": 4,
+    "wipe": 2
+   },
+   "lands": 33,
+   "edhrec_pages": [
+    "bjorna-nightfall-alchemist-cecily-haunted-mage"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Cecily__Bjorna__Lutri_v1.md",
+   "source_archive:refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md",
+   "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md",
+   "source_archive:refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt",
+   "interaction:bjorna-nightfall-alchemist-cecily#bjorna-12"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 50)"
+ }
+}

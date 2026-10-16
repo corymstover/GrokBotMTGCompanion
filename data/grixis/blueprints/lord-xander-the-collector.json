@@ -1,0 +1,611 @@
+{
+ "schema_version": 2,
+ "deck_id": "Lord_Xander__the_Collector",
+ "slug": "lord-xander-the-collector",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 52,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+ "commanders": {
+  "value": [
+   {
+    "name": "Lord Xander, the Collector",
+    "oracle_id": "d17bfa94-5046-46ae-80af-be5d1d35af13",
+    "oracle_text": "When Lord Xander enters, target opponent discards half the cards in their hand, rounded down.\nWhenever Lord Xander attacks, defending player mills half their library, rounded down.\nWhen Lord Xander dies, target opponent sacrifices half the nonland permanents they control of their choice, rounded down.",
+    "oracle_sha256": "sha256:3248acaf70b0cecf0789b9ca16ee550f2f82722191b974696a60b2ba75cc65b5",
+    "type_line": "Legendary Creature — Vampire Demon Noble"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Lord Xander, the Collector"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Xander trigger multiplication: reanimate or cheat out a seven-mana commander (Entomb + Reanimate/Animate Dead/Persist/Feign Death), copy him (Phantasmal Image, Spark Double, Sakashima, Blade of Selves, Helm of the Host, Hall of Echoes, Auton Soldier) and stack his discard-half, mill-half and sacrifice-half triggers.",
+   "secondary": "Finish the mill with Bruvac, Riverchurn Monument, Fraying Sanity or Maddening Cacophony; compact backups are Duskmantle Guildmage + Mindcrank, Sword of Feast and Famine + Aggravated Assault, and Breach lines."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md#L13",
+   "interaction:lord-xander-the-collector#xander-01",
+   "interaction:lord-xander-the-collector#xander-05"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Every copy, reanimation and mill-doubler exists to multiply Xander's three triggers, and his attack is half of two Spellbook infinites.",
+   "honest_note": "Seven mana, so the deck relies on reanimation and clones to make him realistic. Halving rounds down, so an odd library leaves one card (M1 xander-05). Guildmage + Mindcrank, Monument/Bruvac + Cacophony, Sword + Assault and Breach all win without him."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md#L15",
+   "interaction:lord-xander-the-collector#xander-05",
+   "interaction:lord-xander-the-collector#xander-11"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "xander-mill",
+   "kind": "combo",
+   "description": "Xander's half-library mill with Bruvac or Riverchurn Monument (or Fraying Sanity) mills a player out.",
+   "cards": [
+    "Lord Xander, the Collector",
+    "Bruvac the Grandiloquent",
+    "Riverchurn Monument",
+    "Fraying Sanity"
+   ],
+   "enablers": [
+    "Hall of Echoes",
+    "Roaming Throne"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:95-1022",
+    "spellbook:1022-6285",
+    "interaction:lord-xander-the-collector#xander-05"
+   ]
+  },
+  {
+   "id": "mill-combos",
+   "kind": "combo",
+   "description": "Duskmantle Guildmage + Mindcrank or Maddening Cacophony; Monument/Bruvac + Cacophony.",
+   "cards": [
+    "Duskmantle Guildmage",
+    "Mindcrank",
+    "Maddening Cacophony",
+    "Riverchurn Monument",
+    "Bruvac the Grandiloquent"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:936-5069",
+    "spellbook:5069-5080",
+    "spellbook:5080-6285",
+    "spellbook:95-5080",
+    "interaction:lord-xander-the-collector#xander-11"
+   ]
+  },
+  {
+   "id": "assault-breach",
+   "kind": "combo",
+   "description": "Sword of Feast and Famine + Aggravated Assault (each combat another Xander mill), or Breach lines.",
+   "cards": [
+    "Sword of Feast and Famine",
+    "Aggravated Assault",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze",
+    "Wheel of Fortune"
+   ],
+   "enablers": [
+    "Lord Xander, the Collector"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:900-3750",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-2706-3518",
+    "interaction:lord-xander-the-collector#xander-10",
+    "interaction:lord-xander-the-collector#xander-11"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "xander-copies",
+   "cards": [
+    "Phantasmal Image",
+    "Spark Double",
+    "Sakashima of a Thousand Faces",
+    "Molten Duplication",
+    "Saw in Half",
+    "Blade of Selves",
+    "Helm of the Host",
+    "Hall of Echoes",
+    "Auton Soldier",
+    "Roaming Throne",
+    "Strionic Resonator"
+   ],
+   "online_condition": "Xander in play or a copy target available.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lord-xander-the-collector#xander-02",
+    "interaction:lord-xander-the-collector#xander-03",
+    "interaction:lord-xander-the-collector#xander-04",
+    "interaction:lord-xander-the-collector#xander-07"
+   ]
+  },
+  {
+   "id": "reanimation",
+   "cards": [
+    "Entomb",
+    "Reanimate",
+    "Animate Dead",
+    "Persist",
+    "Feign Death"
+   ],
+   "online_condition": "Xander in the graveyard.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lord-xander-the-collector#xander-08"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:copy-trigger",
+   "required": true,
+   "min_count": 8,
+   "role": "Multiply Xander's own triggers.",
+   "cards": [
+    "Phantasmal Image",
+    "Spark Double",
+    "Sakashima of a Thousand Faces",
+    "Molten Duplication",
+    "Saw in Half",
+    "Blade of Selves",
+    "Helm of the Host",
+    "Hall of Echoes",
+    "Auton Soldier",
+    "Roaming Throne",
+    "Strionic Resonator"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:reanimation",
+   "required": true,
+   "min_count": 4,
+   "role": "Make a seven-mana commander realistic.",
+   "cards": [
+    "Entomb",
+    "Reanimate",
+    "Animate Dead",
+    "Persist",
+    "Feign Death"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:lord-xander-the-collector#xander-08"
+   ]
+  },
+  {
+   "id": "pkg:mill-finish",
+   "required": true,
+   "min_count": 3,
+   "role": "Turn half a library into all of it.",
+   "cards": [
+    "Bruvac the Grandiloquent",
+    "Riverchurn Monument",
+    "Fraying Sanity",
+    "Maddening Cacophony",
+    "Cruel Calculations"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:lord-xander-the-collector#xander-05"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "three-triggers",
+   "summary": "Enter: discard half; attack: mill half; dies: sacrifice half (all rounded down).",
+   "cards": [
+    "Lord Xander, the Collector"
+   ],
+   "m1_refs": [
+    "xander-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lord-xander-the-collector#xander-01"
+   ]
+  },
+  {
+   "id": "legend-rule-deaths",
+   "summary": "Each legendary Xander copy gives an enter trigger and a dies trigger via the legend rule.",
+   "cards": [
+    "Phantasmal Image",
+    "Molten Duplication",
+    "Saw in Half"
+   ],
+   "m1_refs": [
+    "xander-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lord-xander-the-collector#xander-02"
+   ]
+  },
+  {
+   "id": "blade-vs-auton",
+   "summary": "Blade of Selves tokens give ETB + dies; Auton Soldier tokens only ETB.",
+   "cards": [
+    "Blade of Selves",
+    "Auton Soldier"
+   ],
+   "m1_refs": [
+    "xander-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lord-xander-the-collector#xander-03"
+   ]
+  },
+  {
+   "id": "feign-death",
+   "summary": "Feign Death only works if Xander stays in the graveyard.",
+   "cards": [
+    "Feign Death",
+    "Lord Xander, the Collector"
+   ],
+   "m1_refs": [
+    "xander-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lord-xander-the-collector#xander-08"
+   ]
+  },
+  {
+   "id": "tergrid",
+   "summary": "Tergrid steals Xander's discarded and sacrificed permanents.",
+   "cards": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "m1_refs": [
+    "xander-09"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lord-xander-the-collector#xander-09"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Lord Xander, the Collector",
+   "via": [
+    "Entomb",
+    "Gamble"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:lord-xander-the-collector#xander-08"
+   ]
+  },
+  {
+   "target": "Bruvac the Grandiloquent",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:95-1022"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Reanimate",
+   "Animate Dead",
+   "Persist",
+   "Feign Death",
+   "Underworld Breach"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Free counters (Force of Will, Force of Negation, Pact of Negation, Fierce Guardianship), Mana Drain, Toxic Deluge, Cyclonic Rift.",
+   "protection": "Lightning Greaves, Deflecting Swat.",
+   "mana": "Fast mana (Mana Vault, Grim Monolith, Ancient Tomb, Lotus Petal, Dark Ritual) or the reanimation route."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate stops the reanimation route to a seven-mana commander.",
+   "mitigations": [
+    "Clones",
+    "Fast mana hard-cast"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "odd-library",
+   "description": "Rounding down can leave a card in a library.",
+   "mitigations": [
+    "Bruvac/Monument",
+    "Second mill source"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:lord-xander-the-collector#xander-05"
+   ]
+  },
+  {
+   "id": "xander-removed",
+   "description": "Removal before attacking costs the mill trigger (though the dies trigger still hurts).",
+   "mitigations": [
+    "Copies",
+    "Protection"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md#L17"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling, high end: premium fast mana and free counters with compact mill infinites, but a seven-mana commander and little cEDH evidence per the source. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md#L17",
+    "spellbook:95-1022"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Lord_Xander__the_Collector"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 8,
+     "2": 200,
+     "3": 253,
+     "4": 185,
+     "5": 14
+    },
+    "decks_with_bracket": 660,
+    "share_b4_plus": 0.302,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__lord-xander-the-collector.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Lord Xander, the Collector",
+   "why": "Discard half, mill half, sacrifice half.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Lord Xander, the Collector"
+   ]
+  },
+  {
+   "card": "Bruvac the Grandiloquent",
+   "why": "Doubles Xander's mill into a full library.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:lord-xander-the-collector#xander-05"
+   ]
+  },
+  {
+   "card": "Phantasmal Image",
+   "why": "Two-mana Xander copy: ETB plus a legend-rule death.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:lord-xander-the-collector#xander-02"
+   ]
+  },
+  {
+   "card": "Blade of Selves",
+   "why": "Myriad Xander tokens: enter and dies triggers per opponent.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:lord-xander-the-collector#xander-03"
+   ]
+  },
+  {
+   "card": "Cruel Calculations",
+   "why": "Draws off the cards Xander milled.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:lord-xander-the-collector#xander-06"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Commander-independent mill (Painter's Servant/Grindstone) cut for Xander copies (decisions).",
+   "No generic Grixis cEDH replacement of the commander-first shell (decisions L17)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md#L17"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Vampire Demon collector of Fiora: discard, mill and sacrifice, halving everything."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.116a",
+   "note": "Myriad.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.116a"
+   ]
+  },
+  {
+   "rule": "CR 704.5j",
+   "note": "Legend rule puts copies into the graveyard (dies triggers).",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:704.5j"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "combat damage / attack triggers",
+    "discard",
+    "graveyard as a resource",
+    "sacrifice"
+   ],
+   "hooked_cards": 27,
+   "role_counts": {
+    "counter": 7,
+    "draw": 8,
+    "protection": 3,
+    "ramp": 11,
+    "removal": 6,
+    "tutor": 6,
+    "wipe": 1
+   },
+   "lands": 33,
+   "edhrec_pages": [
+    "lord-xander-the-collector"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Lord_Xander_the_Collector_Approved_2026-10-14.md",
+   "source_archive:refinement/decisions/Lord_Xander_the_Collector_Whole_List_Audit_2026-10-14.csv",
+   "source_archive:refinement/decklists/Lord_Xander_the_Collector_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 52)"
+ }
+}

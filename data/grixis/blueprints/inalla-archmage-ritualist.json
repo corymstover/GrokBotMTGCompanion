@@ -1,0 +1,629 @@
+{
+ "schema_version": 2,
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "slug": "inalla-archmage-ritualist",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 52,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+ "commanders": {
+  "value": [
+   {
+    "name": "Inalla, Archmage Ritualist",
+    "oracle_id": "21bdba6e-3f9d-4ead-8212-0cbb0ce7f8cc",
+    "oracle_text": "Eminence — Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.\nTap five untapped Wizards you control: Target player loses 7 life.",
+    "oracle_sha256": "sha256:22d92a0bb6f6f1788c701f9d2b11b58f77c9df0b5a201bce891c21b8fdfd349f",
+    "type_line": "Legendary Creature — Human Wizard"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Inalla, Archmage Ritualist"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "cEDH Wizard combo from the command zone: Inalla's Eminence copies each Wizard ETB (Spellseeker, Scholar of the Ages, Bloodline Necromancer, Ruthless Technomancer) for {1}, turning tutors and reanimation into Scholar sacrifice loops or the Bloodline/Technomancer loop for unbounded mana and Wizards.",
+   "secondary": "Commander-free backups: Thassa's Oracle + Consultation/Tainted Pact and Underworld Breach + LED + Brain Freeze/Wheel of Fortune."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md#L16",
+   "interaction:inalla-archmage-ritualist#inalla-01",
+   "interaction:inalla-archmage-ritualist#inalla-03"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Eminence doubles every Wizard ETB without Inalla being cast; she's needed for the Bloodline + Technomancer loop and her five-Wizard tap closes it.",
+   "honest_note": "The deck mostly doesn't cast her (decisions L16). The nine Scholar + sacrifice-ritual loops, Oracle and Breach all win without Inalla, and the one-card Spellseeker line is rated uncertain in M1 (inalla-06)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md#L16",
+   "interaction:inalla-archmage-ritualist#inalla-06",
+   "interaction:inalla-archmage-ritualist#inalla-04"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "bloodline-technomancer",
+   "kind": "combo",
+   "description": "Inalla + Bloodline Necromancer + Ruthless Technomancer: unbounded Treasures and Wizards, then Inalla's five-Wizard tap drains 7 at a time.",
+   "cards": [
+    "Inalla, Archmage Ritualist",
+    "Bloodline Necromancer",
+    "Ruthless Technomancer"
+   ],
+   "enablers": [
+    "Apprentice Necromancer"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1869-2721-3719",
+    "interaction:inalla-archmage-ritualist#inalla-03"
+   ]
+  },
+  {
+   "id": "scholar-loops",
+   "kind": "combo",
+   "description": "Scholar of the Ages + Sacrifice/Burnt Offering/Culling the Weak + Persist, Shallow Grave or Saw in Half: unbounded mana.",
+   "cards": [
+    "Scholar of the Ages",
+    "Sacrifice",
+    "Burnt Offering",
+    "Culling the Weak",
+    "Persist",
+    "Shallow Grave",
+    "Saw in Half"
+   ],
+   "enablers": [
+    "Spellseeker",
+    "Inalla, Archmage Ritualist"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:813-1181-2171",
+    "spellbook:813-1181-1893",
+    "spellbook:813-1777-2171",
+    "spellbook:813-1777-1893",
+    "spellbook:813-2081-2171",
+    "spellbook:813-1893-2081",
+    "spellbook:500-813-1181",
+    "spellbook:500-813-1777",
+    "spellbook:500-813-2081",
+    "interaction:inalla-archmage-ritualist#inalla-04",
+    "interaction:inalla-archmage-ritualist#inalla-05"
+   ]
+  },
+  {
+   "id": "oracle-breach",
+   "kind": "combo",
+   "description": "Thassa's Oracle + Consultation/Tainted Pact, or Breach + LED/Petal + Brain Freeze/Wheel.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856",
+    "spellbook:1368-2706-3518",
+    "interaction:inalla-archmage-ritualist#inalla-09"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "eminence-copies",
+   "cards": [
+    "Inalla, Archmage Ritualist",
+    "Spellseeker",
+    "Thundertrap Trainer",
+    "Apprentice Necromancer",
+    "Vedalken Aethermage",
+    "Scholar of the Ages"
+   ],
+   "online_condition": "A nontoken Wizard enters and you have {1}.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:inalla-archmage-ritualist#inalla-01",
+    "interaction:inalla-archmage-ritualist#inalla-08"
+   ]
+  },
+  {
+   "id": "fast-mana-tutors",
+   "cards": [
+    "Mana Vault",
+    "Grim Monolith",
+    "Chrome Mox",
+    "Mox Diamond",
+    "Lotus Petal",
+    "Dark Ritual",
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Entomb"
+   ],
+   "online_condition": "Opening hand.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:wizards",
+   "required": true,
+   "min_count": 8,
+   "role": "Wizards whose ETBs Inalla copies.",
+   "cards": [
+    "Spellseeker",
+    "Scholar of the Ages",
+    "Bloodline Necromancer",
+    "Ruthless Technomancer",
+    "Apprentice Necromancer",
+    "Thundertrap Trainer",
+    "Vedalken Aethermage",
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:sac-reanimate",
+   "required": true,
+   "min_count": 8,
+   "role": "Sacrifice rituals and reanimation for Scholar loops.",
+   "cards": [
+    "Sacrifice",
+    "Burnt Offering",
+    "Culling the Weak",
+    "Persist",
+    "Shallow Grave",
+    "Saw in Half",
+    "Reanimate",
+    "Animate Dead",
+    "Unearth",
+    "Entomb",
+    "Lively Dirge"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:inalla-archmage-ritualist#inalla-04"
+   ]
+  },
+  {
+   "id": "pkg:interaction",
+   "required": true,
+   "min_count": 6,
+   "role": "cEDH stack protection.",
+   "cards": [
+    "Force of Will",
+    "Pact of Negation",
+    "Mental Misstep",
+    "Flusterstorm",
+    "Swan Song",
+    "Red Elemental Blast",
+    "An Offer You Can't Refuse"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "eminence",
+   "summary": "Eminence works from the command zone, one {1} per trigger; a zone change mid-trigger fizzles the copy.",
+   "cards": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "m1_refs": [
+    "inalla-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:inalla-archmage-ritualist#inalla-01"
+   ]
+  },
+  {
+   "id": "tap-sick",
+   "summary": "Tapping five Wizards ignores summoning sickness.",
+   "cards": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "m1_refs": [
+    "inalla-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:inalla-archmage-ritualist#inalla-02"
+   ]
+  },
+  {
+   "id": "saw-scholar",
+   "summary": "Saw in Half's Scholar tokens keep mana value 7.",
+   "cards": [
+    "Saw in Half",
+    "Scholar of the Ages"
+   ],
+   "m1_refs": [
+    "inalla-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:inalla-archmage-ritualist#inalla-05"
+   ]
+  },
+  {
+   "id": "spellseeker-uncertain",
+   "summary": "The one-card Spellseeker line is uncertain; don't rely on it as deterministic.",
+   "cards": [
+    "Spellseeker"
+   ],
+   "m1_refs": [
+    "inalla-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:inalla-archmage-ritualist#inalla-06"
+   ]
+  },
+  {
+   "id": "finale-timing",
+   "summary": "Finale of Promise and Beseech cast during resolution; split second stops them.",
+   "cards": [
+    "Finale of Promise",
+    "Beseech the Mirror"
+   ],
+   "m1_refs": [
+    "inalla-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:inalla-archmage-ritualist#inalla-07"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Bloodline Necromancer",
+   "via": [
+    "Spellseeker",
+    "Vedalken Aethermage",
+    "Step Through"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1869-2721-3719"
+   ]
+  },
+  {
+   "target": "Scholar of the Ages",
+   "via": [
+    "Entomb",
+    "Demonic Tutor",
+    "Intuition"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:813-1181-2171"
+   ]
+  },
+  {
+   "target": "Thassa's Oracle",
+   "via": [
+    "Vampiric Tutor",
+    "Mystical Tutor",
+    "Wishclaw Talisman"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:742-1295"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Reanimate",
+   "Animate Dead",
+   "Unearth",
+   "Shallow Grave",
+   "Persist",
+   "Underworld Breach",
+   "Apprentice Necromancer"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Free counters and one-mana stack interaction.",
+   "protection": "Cavern of Souls, counters.",
+   "mana": "Fast mana and rituals; {1} spare per Eminence copy."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate cuts Scholar loops and Breach.",
+   "mitigations": [
+    "Bloodline/Technomancer loop",
+    "Oracle + Consultation"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "eminence-fizzle",
+   "description": "A Wizard leaving mid-trigger stops the copy.",
+   "mitigations": [
+    "Protect key ETBs"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:inalla-archmage-ritualist#inalla-01"
+   ]
+  },
+  {
+   "id": "split-second",
+   "description": "Split second stops Finale/Beseech casts mid-resolution.",
+   "mitigations": [
+    "Alternate tutors"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:inalla-archmage-ritualist#inalla-07"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md",
+   "interaction:inalla-archmage-ritualist#inalla-04"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Power Bracket 5 — cEDH (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md#L103"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Bracket 5 ceiling: dense cEDH combo with 15 Spellbook infinites/compact wins and current tournament top cuts per the source. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md#L17",
+    "spellbook:1869-2721-3719"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "5",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Inalla__Archmage_Ritualist"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 26,
+     "2": 582,
+     "3": 1036,
+     "4": 832,
+     "5": 815
+    },
+    "decks_with_bracket": 3291,
+    "share_b4_plus": 0.5,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__inalla-archmage-ritualist.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Inalla, Archmage Ritualist",
+   "why": "Eminence copies of every Wizard ETB, plus a 7-life five-Wizard tap.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Inalla, Archmage Ritualist"
+   ]
+  },
+  {
+   "card": "Scholar of the Ages",
+   "why": "Mana-value-7 Wizard at the centre of the sacrifice loops.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:inalla-archmage-ritualist#inalla-04"
+   ]
+  },
+  {
+   "card": "Bloodline Necromancer",
+   "why": "Half of the commander loop and Wizard reanimation.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:inalla-archmage-ritualist#inalla-03"
+   ]
+  },
+  {
+   "card": "Spellseeker",
+   "why": "Wizard tutor for the combo instants and sorceries, doubled by Eminence.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Apprentice Necromancer",
+   "why": "Hasty token copy reanimates immediately.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:inalla-archmage-ritualist#inalla-08"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Generic cEDH staples that don't exploit Inalla (e.g. Orcish Bowmasters) were rejected (decisions L77).",
+   "Don't build around casting Inalla routinely; she works from the command zone."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md#L77"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Wizard ritualists; theme follows the Eminence engine."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.79a",
+   "note": "Persist.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.79a"
+   ]
+  },
+  {
+   "rule": "CR 702.10c",
+   "note": "Haste lets token copies use tap abilities immediately (Apprentice Necromancer).",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.10c"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Wizard synergy",
+    "copying",
+    "enters triggers",
+    "tokens"
+   ],
+   "hooked_cards": 25,
+   "role_counts": {
+    "counter": 7,
+    "draw": 5,
+    "ramp": 20,
+    "removal": 4,
+    "tutor": 12,
+    "wipe": 1
+   },
+   "lands": 27,
+   "edhrec_pages": [
+    "inalla-archmage-ritualist"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Inalla_Archmage_Ritualist_Approved_2026-10-14.md",
+   "source_archive:refinement/decklists/Inalla_Archmage_Ritualist_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 52)"
+ }
+}

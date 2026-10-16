@@ -1,0 +1,660 @@
+{
+ "schema_version": 2,
+ "deck_id": "Cormela__Glamour_Thief",
+ "slug": "cormela-glamour-thief",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 50,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+ "commanders": {
+  "value": [
+   {
+    "name": "Cormela, Glamour Thief",
+    "oracle_id": "3cd9bac9-0abc-43d8-9f84-94f965f7a2e0",
+    "oracle_text": "Haste\n{1}, {T}: Add {U}{B}{R}. Spend this mana only to cast instant and/or sorcery spells.\nWhen Cormela dies, return up to one target instant or sorcery card from your graveyard to your hand.",
+    "oracle_sha256": "sha256:e10fa3fb863d7d9bae0e8c58973378b25d4fa14d36933c43cf922c0417ee6598",
+    "type_line": "Legendary Creature — Vampire Rogue"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Cormela, Glamour Thief"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "cEDH instant/sorcery combo: Cormela's hasty restricted UBR mana pays for spell chains, and her death trigger loops with sacrifice outlets plus reanimation/cloning (Saw in Half, Goryo's Vengeance, Shallow Grave, Demonic Gifts, Molten Duplication + Birgi).",
+   "secondary": "Commander-independent cEDH failovers: Thassa's Oracle + Demonic Consultation/Tainted Pact, Underworld Breach + LED/Petal + Brain Freeze or Wheel, Tendrils of Agony storm."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md",
+   "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Glamour_Thief_Finalization_Certificate_2026-10-14.md",
+   "interaction:cormela-glamour-thief#cormela-03",
+   "interaction:cormela-glamour-thief#cormela-07"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Cormela is a ritual on a hasty body and the recursion piece of a dozen Spellbook loops; most of the deck's infinites name her.",
+   "honest_note": "The compact Thassa's Oracle and Breach wins don't need her, which is correct for cEDH resilience; the ledger keeps them as failovers, not the identity."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md",
+   "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Glamour_Thief_Finalization_Certificate_2026-10-14.md",
+   "spellbook:500-2701-4867"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "saw-in-half",
+   "kind": "combo",
+   "description": "Saw in Half on Cormela with a mana-positive ritual or Jeska's Will: legend rule + death trigger loop.",
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Saw in Half",
+    "Dark Ritual",
+    "Cabal Ritual",
+    "Seething Song",
+    "Jeska's Will"
+   ],
+   "enablers": [
+    "Tendrils of Agony"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-03",
+    "spellbook:500-2701-4867",
+    "spellbook:500-1878-4867"
+   ]
+  },
+  {
+   "id": "reanimate-altar",
+   "kind": "combo",
+   "description": "Cormela + Goryo's Vengeance or Shallow Grave + Ashnod's Altar or Phyrexian Altar.",
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Goryo's Vengeance",
+    "Shallow Grave",
+    "Ashnod's Altar",
+    "Phyrexian Altar"
+   ],
+   "enablers": [
+    "Entomb"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-04",
+    "spellbook:1893-2034-4867",
+    "spellbook:2034-3599-4867"
+   ]
+  },
+  {
+   "id": "molten-duplication",
+   "kind": "combo",
+   "description": "Cormela + Birgi + Molten Duplication; Dualcaster Mage + Molten Duplication or Saw in Half.",
+   "cards": [
+    "Molten Duplication",
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "Dualcaster Mage"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-06",
+    "spellbook:392-4867-5487",
+    "spellbook:147-5487"
+   ]
+  },
+  {
+   "id": "thoracle",
+   "kind": "combo",
+   "description": "Thassa's Oracle + Demonic Consultation or Tainted Pact.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-07",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "breach",
+   "kind": "combo",
+   "description": "Underworld Breach + LED/Petal + Brain Freeze or Wheel of Fortune.",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze",
+    "Wheel of Fortune"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-08",
+    "spellbook:1368-3518-4856"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "restricted-mana",
+   "cards": [
+    "Cormela, Glamour Thief"
+   ],
+   "online_condition": "{1},{T}: UBR for instants/sorceries; haste means it's usable the turn she lands.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-01"
+   ]
+  },
+  {
+   "id": "death-recursion",
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Ashnod's Altar",
+    "Phyrexian Altar",
+    "Phyrexian Tower",
+    "Demonic Gifts"
+   ],
+   "online_condition": "Cormela dies: return an instant or sorcery; leave her in the graveyard for reanimation loops.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-02",
+    "interaction:cormela-glamour-thief#cormela-05"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:cormela-loops",
+   "required": true,
+   "min_count": 6,
+   "role": "Commander recursion loop pieces.",
+   "cards": [
+    "Saw in Half",
+    "Goryo's Vengeance",
+    "Shallow Grave",
+    "Demonic Gifts",
+    "Molten Duplication",
+    "Ashnod's Altar",
+    "Phyrexian Altar",
+    "Phyrexian Tower",
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
+   ]
+  },
+  {
+   "id": "pkg:cedh-failover",
+   "required": true,
+   "min_count": 3,
+   "role": "Compact commander-independent wins.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact",
+    "Underworld Breach",
+    "Brain Freeze",
+    "Tendrils of Agony"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
+   ]
+  },
+  {
+   "id": "pkg:fast-mana",
+   "required": true,
+   "min_count": 12,
+   "role": "cEDH-speed acceleration.",
+   "cards": [
+    "Sol Ring",
+    "Mana Vault",
+    "Chrome Mox",
+    "Mox Diamond",
+    "Mox Opal",
+    "Lotus Petal",
+    "Lion's Eye Diamond",
+    "Dark Ritual",
+    "Cabal Ritual",
+    "Rite of Flame",
+    "Seething Song",
+    "Simian Spirit Guide",
+    "Ancient Tomb",
+    "Gemstone Caverns"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
+   ]
+  },
+  {
+   "id": "pkg:stack-interaction",
+   "required": true,
+   "min_count": 10,
+   "role": "Win counter wars and protect the combo turn.",
+   "cards": [
+    "Force of Will",
+    "Force of Negation",
+    "Fierce Guardianship",
+    "Pact of Negation",
+    "Mindbreak Trap",
+    "Flusterstorm",
+    "Swan Song",
+    "Mental Misstep",
+    "Pyroblast",
+    "Red Elemental Blast",
+    "Deflecting Swat",
+    "Orcish Bowmasters"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "restricted-mana-death",
+   "summary": "Hasty UBR for instants/sorceries; when she dies, return an instant or sorcery.",
+   "cards": [
+    "Cormela, Glamour Thief"
+   ],
+   "m1_refs": [
+    "cormela-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-01"
+   ]
+  },
+  {
+   "id": "decline-command-zone",
+   "summary": "Decline the command-zone move to keep her in the graveyard for reanimation loops.",
+   "cards": [
+    "Cormela, Glamour Thief"
+   ],
+   "m1_refs": [
+    "cormela-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-02"
+   ]
+  },
+  {
+   "id": "saw-in-half-legend",
+   "summary": "Saw in Half on Cormela: the legend rule gives a death trigger while one copy stays.",
+   "cards": [
+    "Saw in Half"
+   ],
+   "m1_refs": [
+    "cormela-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-03"
+   ]
+  },
+  {
+   "id": "bowmasters-wheels",
+   "summary": "Orcish Bowmasters punishes your own wheels too.",
+   "cards": [
+    "Orcish Bowmasters",
+    "Wheel of Fortune",
+    "Windfall"
+   ],
+   "m1_refs": [
+    "cormela-09"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-09"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Thassa's Oracle",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Wishclaw Talisman",
+    "Intuition"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-07"
+   ]
+  },
+  {
+   "target": "Saw in Half",
+   "via": [
+    "Mystical Tutor",
+    "Demonic Tutor",
+    "Gamble",
+    "Diabolic Intent"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-03"
+   ]
+  },
+  {
+   "target": "Underworld Breach",
+   "via": [
+    "Mystical Tutor",
+    "Gamble",
+    "Imperial Seal"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-08"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Underworld Breach",
+   "Reanimate",
+   "Goryo's Vengeance",
+   "Shallow Grave",
+   "Entomb"
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "cEDH-level stack interaction (12+ free/cheap counters) plus Bowmasters.",
+   "protection": "Counters protect the combo; Cormela is cheap to recast and can stay in the graveyard on purpose.",
+   "mana": "14+ fast-mana pieces, ~28 lands, untapped fetch/dual base (Xander's Lounge cut for Flooded Strand)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "stack-war-lost",
+   "description": "Losing the counter war on the combo turn.",
+   "mitigations": [
+    "Free counters",
+    "Multiple distinct lines"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
+   ]
+  },
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate stops reanimation/Breach lines.",
+   "mitigations": [
+    "Saw in Half and Thassa's Oracle don't use the graveyard"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-02"
+   ]
+  },
+  {
+   "id": "self-damage",
+   "description": "Ad Nauseam, Necropotence, City of Brass and Mana Confluence cost life.",
+   "mitigations": [
+    "Fast kill"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "cEDH — 'Cormela is treated at her natural cEDH ceiling' (optimization decision ledger)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md#L12"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "cEDH (Bracket 5): Thassa's Oracle failover, Breach/LED, Necropotence/Ad Nauseam and 14 fast-mana pieces; the commander-specific loops are real. Agrees with the recovered source claim."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md#L12",
+    "interaction:cormela-glamour-thief#cormela-07",
+    "spellbook:742-1295",
+    "interaction:cormela-glamour-thief#cormela-03"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "5",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Cormela__Glamour_Thief"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 16,
+     "2": 295,
+     "3": 337,
+     "4": 169,
+     "5": 128
+    },
+    "decks_with_bracket": 945,
+    "share_b4_plus": 0.314,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__cormela-glamour-thief.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Cormela, Glamour Thief",
+   "why": "Hasty spell ritual and the death-trigger half of most loops.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Cormela, Glamour Thief"
+   ]
+  },
+  {
+   "card": "Saw in Half",
+   "why": "Two-card commander loop with any mana-positive ritual.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-03"
+   ]
+  },
+  {
+   "card": "Molten Duplication",
+   "why": "Copies Cormela for the Birgi loop and Dualcaster for the token loop.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
+   ]
+  },
+  {
+   "card": "Goryo's Vengeance",
+   "why": "Instant-speed reanimation half of the altar loop.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:cormela-glamour-thief#cormela-04"
+   ]
+  },
+  {
+   "card": "Thassa's Oracle",
+   "why": "Compact failover that raises resilience.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't let the generic Grixis cEDH failovers replace the Cormela loops as the identity.",
+   "Don't keep slow, exposed cost reducers (Electromancer, Storm-Kiln Artist cut in the ledger)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md",
+   "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Glamour_Thief_Finalization_Certificate_2026-10-14.md"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Thief/glamour flavor is incidental; the identity is mechanical."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "low",
+  "evidence": [
+   "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 903.9a",
+   "note": "Choosing not to move Cormela to the command zone keeps her in the graveyard for loops.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:903.9a"
+   ]
+  },
+  {
+   "rule": "CR 704.5j",
+   "note": "Saw in Half copies of Cormela hit the legend rule: one goes to the graveyard and triggers.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:704.5j"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "graveyard as a resource",
+    "instants and sorceries"
+   ],
+   "hooked_cards": 53,
+   "role_counts": {
+    "counter": 10,
+    "draw": 11,
+    "protection": 1,
+    "ramp": 20,
+    "removal": 5,
+    "tutor": 8,
+    "wipe": 1
+   },
+   "lands": 30,
+   "edhrec_pages": [
+    "cormela-glamour-thief"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Cormela_Glamour_Thief_v1.md",
+   "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md",
+   "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Glamour_Thief_Finalization_Certificate_2026-10-14.md",
+   "source_archive:refinement/evidence/Cormela_Glamour_Thief_Current_Cycle_Approval_Gate_2026-10-14.md"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 50)"
+ }
+}

@@ -179,13 +179,20 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 8. ✅ Exports labeled per file with state; challengers vs source baseline; v1 "at ceiling" relabeled.
 9. ✅ Test suite in `validate_all`; this page, the gap analysis, the index, README, Refinement Cycle notes and Update Log updated.
 10. ✅ `validate_all` green.
-11. ⏳ Cory's acceptance (`program.milestones.M0.accepted_by`).
+11. ✅ Cory's acceptance (`program.milestones.M0.accepted_by`): **accepted by corymstover on 2026-10-16 at 10:52 UTC** ("I accept M0", an in-chat approval relayed by MTG Bot; recorded in Bot cycle 50). This accepts the milestone only and approves no decks.
 
 ### M1
 **Interaction reviews, all 62.** Every deck has a current interaction review whose hash equals the deck's **canonical** list hash (`canonical_project_list.export`), every citation verbatim; Bjorna's review covers Trade Secrets, Yawgmoth's Bargain and the Lutri companion; reviews emit machine-readable edges for M4; the 518 source rulings are folded in or explicitly dispositioned.
 
 ### M2
 **Commander blueprints v1.** 62 blueprints validate against `blueprint.schema.json`; each names identity core, anti-goals, packages with minimum counts, win conditions, failure modes, tutor targets and construction rules; each has a `grok_estimated_ceiling` with evidence and a `disagreement` flag where it differs from the source; Cory has reviewed the sample he chooses and marked them reviewed.
+
+*Status (Bot cycles 50–52, in progress):* the schema is v2 (every field is a claim with `evidence_class`, `confidence` and resolvable evidence refs); tooling `scripts/grixis_blueprints.py` (`--scaffold`, `--check` = `validate_all` step `blueprints`, `--render`, `--m2-status`); **30/62 blueprints** (batch 1, cycle 50: Abaddon … Dr. Eggman; batch 2, cycle 52: Edea … Lord Xander) in `data/grixis/blueprints/`, rendered in [blueprints/](blueprints/README.md). The registry takes `blueprint_version` and `grok_estimated_ceiling` from the blueprint, computes `disagreement`, and records a source ceiling the original parse missed as `source_ceiling.recovered` (cited `path#Lline`; the parsed claim is never overwritten). Criteria, live: `python3 scripts/grixis_blueprints.py --m2-status`.
+1. ⏳ 62 blueprints validate — 30/62.
+2. ⏳ Every required section present (identity core ≥3, anti-goals, required packages with min counts, win conditions, failure modes ≥2, tutor targets, construction rules) — 30/30 written ones complete.
+3. ⏳ GrokBot ceiling estimate with evidence and a disagreement flag — 30/62 (0 disagreements so far; 6 written decks have no source ceiling to compare).
+4. ⏳ Cory's review of a sample he chooses (`status: cory_reviewed`, `provenance.reviewed_by`).
+5. ⏳ Cory's acceptance (`program.milestones.M2`).
 
 ### M3
 **Evidence layer and simulator.** Evidence vectors per candidate (lift, sample size, retrieval date, trend, Oracle hooks, graph facts) with classes and confidence; deterministic paired-seed goldfish simulator with a hypergeometric layer, London mulligan, mana/colors, commander turn and package assembly, unit-tested against exact math; stress scenarios scripted (below); every test record carries pre-registered metrics, CIs and limitations; snapshot-keyed caching.

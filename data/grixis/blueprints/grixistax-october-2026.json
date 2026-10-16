@@ -1,0 +1,624 @@
+{
+ "schema_version": 2,
+ "deck_id": "Grixistax___October_2026",
+ "slug": "grixistax-october-2026",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 52,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+ "commanders": {
+  "value": [
+   {
+    "name": "Kraum, Ludevic's Opus",
+    "oracle_id": "5f694f2d-9349-4988-b2b4-788136d4293e",
+    "oracle_text": "Flying, haste\nWhenever an opponent casts their second spell each turn, draw a card.\nPartner (You can have two commanders if both have partner.)",
+    "oracle_sha256": "sha256:577110bb03b24fcd7f236116988d3e1e602a480bc935b3a81383e8792d3d60be",
+    "type_line": "Legendary Creature — Zombie Horror"
+   },
+   {
+    "name": "Tevesh Szat, Doom of Fools",
+    "oracle_id": "79a1783f-ea7e-4cdf-95f5-53b383d38c66",
+    "oracle_text": "+2: Create two 0/1 black Thrull creature tokens.\n+1: You may sacrifice another creature or planeswalker. If you do, draw two cards, then draw another card if the sacrificed permanent was a commander.\n−10: Gain control of all commanders. Put all commanders from the command zone onto the battlefield under your control.\nTevesh Szat, Doom of Fools can be your commander.\nPartner",
+    "oracle_sha256": "sha256:b4b4a9233bdeab87519d248136c614fde04621c477aece5867f58d9c94e9e1cd",
+    "type_line": "Legendary Planeswalker — Szat"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Kraum, Ludevic's Opus",
+   "oracle:Tevesh Szat, Doom of Fools"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Grixis stax: constrict mana, untaps, searches and graveyards (Winter Orb, Static Orb, Blood Moon, Back to Basics, Contamination, Tangle Wire, Trinisphere) while artifact mana and Tevesh's Thrulls break parity, then win with Helm of Obedience + Leyline of the Void/Dauthi Voidwalker or an Underworld Breach finish.",
+   "secondary": "Taxes over hard one-spell caps keep Kraum's second-spell draw live; Necropotence, Rhystic Study and Mystic Remora refill under the lock."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md#L20",
+   "interaction:grixistax-october-2026#grixistax-03",
+   "interaction:grixistax-october-2026#grixistax-09"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Tevesh Szat is the parity engine (Thrulls pay Contamination, feed Skullclamp, Phyrexian Tower and Culling the Weak); Kraum is evasive pressure and a draw trigger.",
+   "honest_note": "Both win lines (Helm + Leyline/Dauthi, Breach) are commander-independent, and Kraum is close to incidental: he only draws when an opponent casts a second spell, which this deck's own taxes suppress. The pair is chosen for parity breaking, not as an engine the deck can't run without (source: decisions L28)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md#L24",
+   "interaction:grixistax-october-2026#grixistax-01",
+   "interaction:grixistax-october-2026#grixistax-02"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "helm-leyline",
+   "kind": "combo",
+   "description": "Helm of Obedience with Leyline of the Void or Dauthi Voidwalker exiles an opponent's whole library for {1}.",
+   "cards": [
+    "Helm of Obedience",
+    "Leyline of the Void",
+    "Dauthi Voidwalker"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:2163-5065",
+    "spellbook:2581-5065",
+    "interaction:grixistax-october-2026#grixistax-09"
+   ]
+  },
+  {
+   "id": "breach",
+   "kind": "combo",
+   "description": "Underworld Breach with LED/Petal + Brain Freeze or Wheel of Fortune + Jeska's Will/LED; needs your own prison pieces out of the way.",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-2706-3518",
+    "interaction:grixistax-october-2026#grixistax-10"
+   ]
+  },
+  {
+   "id": "lock-beatdown",
+   "kind": "natural",
+   "description": "Under a full lock, Kraum, Sheoldred and Ragavan attack opponents who can't develop.",
+   "cards": [
+    "Sheoldred, the Apocalypse",
+    "Ragavan, Nimble Pilferer"
+   ],
+   "enablers": [
+    "Kraum, Ludevic's Opus"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "thrull-parity",
+   "cards": [
+    "Tevesh Szat, Doom of Fools",
+    "Contamination",
+    "Skullclamp",
+    "Phyrexian Tower",
+    "Culling the Weak",
+    "Diabolic Intent",
+    "Tangle Wire",
+    "Overburden"
+   ],
+   "online_condition": "Tevesh in play making Thrulls.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:grixistax-october-2026#grixistax-03",
+    "interaction:grixistax-october-2026#grixistax-06"
+   ]
+  },
+  {
+   "id": "mana-lock",
+   "cards": [
+    "Winter Orb",
+    "Static Orb",
+    "Blood Moon",
+    "Magus of the Moon",
+    "Back to Basics",
+    "Contamination",
+    "Damping Sphere",
+    "Trinisphere",
+    "Chalice of the Void"
+   ],
+   "online_condition": "Artifact mana and Thrulls deployed before the lock.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:grixistax-october-2026#grixistax-04",
+    "interaction:grixistax-october-2026#grixistax-07"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:prison",
+   "required": true,
+   "min_count": 12,
+   "role": "Resource denial pieces.",
+   "cards": [
+    "Winter Orb",
+    "Static Orb",
+    "Blood Moon",
+    "Magus of the Moon",
+    "Back to Basics",
+    "Contamination",
+    "Damping Sphere",
+    "Trinisphere",
+    "Chalice of the Void",
+    "Tangle Wire",
+    "Torpor Orb",
+    "Cursed Totem",
+    "Overburden",
+    "Narset, Parter of Veils",
+    "Ashiok, Dream Render",
+    "Notion Thief",
+    "Opposition Agent",
+    "Leyline of the Void"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:artifact-mana",
+   "required": true,
+   "min_count": 8,
+   "role": "Parity breakers that ignore land locks.",
+   "cards": [
+    "Sol Ring",
+    "Mana Vault",
+    "Grim Monolith",
+    "Chrome Mox",
+    "Mox Diamond",
+    "Mox Opal",
+    "Mox Amber",
+    "Lotus Petal",
+    "Lion's Eye Diamond",
+    "Talisman of Creativity",
+    "Talisman of Dominance"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:free-interaction",
+   "required": true,
+   "min_count": 8,
+   "role": "Protect the lock and the win.",
+   "cards": [
+    "Force of Will",
+    "Force of Negation",
+    "Pact of Negation",
+    "Fierce Guardianship",
+    "Mental Misstep",
+    "Mindbreak Trap",
+    "Flusterstorm",
+    "Swan Song",
+    "Pyroblast",
+    "Red Elemental Blast",
+    "An Offer You Can't Refuse",
+    "Deflecting Swat"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "kraum-trigger",
+   "summary": "Kraum draws once per opponent per turn, still under Damping Sphere.",
+   "cards": [
+    "Kraum, Ludevic's Opus",
+    "Damping Sphere"
+   ],
+   "m1_refs": [
+    "grixistax-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:grixistax-october-2026#grixistax-02"
+   ]
+  },
+  {
+   "id": "blood-moon-self",
+   "summary": "Blood Moon turns your own Phyrexian Tower into a Mountain.",
+   "cards": [
+    "Blood Moon",
+    "Phyrexian Tower",
+    "Back to Basics"
+   ],
+   "m1_refs": [
+    "grixistax-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:grixistax-october-2026#grixistax-05"
+   ]
+  },
+  {
+   "id": "self-tax",
+   "summary": "Trinisphere and Chalice tax your own free spells and fast mana.",
+   "cards": [
+    "Trinisphere",
+    "Chalice of the Void"
+   ],
+   "m1_refs": [
+    "grixistax-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:grixistax-october-2026#grixistax-07"
+   ]
+  },
+  {
+   "id": "karn-wishclaw",
+   "summary": "Karn turns off the Wishclaw you hand an opponent.",
+   "cards": [
+    "Karn, the Great Creator",
+    "Wishclaw Talisman"
+   ],
+   "m1_refs": [
+    "grixistax-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:grixistax-october-2026#grixistax-08"
+   ]
+  },
+  {
+   "id": "breach-needs-clear",
+   "summary": "The Breach finish needs your own prison pieces gone.",
+   "cards": [
+    "Underworld Breach",
+    "Damping Sphere"
+   ],
+   "m1_refs": [
+    "grixistax-10"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:grixistax-october-2026#grixistax-10"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Helm of Obedience",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Tainted Pact"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2163-5065"
+   ]
+  },
+  {
+   "target": "Winter Orb",
+   "via": [
+    "Karn, the Great Creator",
+    "Diabolic Intent"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Underworld Breach",
+   "Jeska's Will"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "low",
+  "evidence": [
+   "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Free counters, Toxic Deluge, Cyclonic Rift, Deadly Rollick.",
+   "protection": "Fierce Guardianship, Deflecting Swat, counters.",
+   "mana": "Heavy artifact fast mana to break the land locks; 26 lands."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "self-lock",
+   "description": "The prison suite taxes your own mana, spells and utility lands.",
+   "mitigations": [
+    "Sequence artifact mana first",
+    "Thrulls for Contamination"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:grixistax-october-2026#grixistax-07",
+    "interaction:grixistax-october-2026#grixistax-05"
+   ]
+  },
+  {
+   "id": "artifact-removal",
+   "description": "Artifact wipes break parity against you.",
+   "mitigations": [
+    "Counters",
+    "Land-based enchantment locks"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "breach-blocked",
+   "description": "Your own Damping Sphere/Trinisphere stop the Breach finish.",
+   "mitigations": [
+    "Helm win",
+    "Remove own pieces first"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:grixistax-october-2026#grixistax-10"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Power Bracket 5 — fringe / rogue cEDH (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md#L28"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Bracket 5 ceiling (fringe): full cEDH interaction, tutors and fast mana with compact wins; the pair converts less than leading partner shells, per the source. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md#L28",
+    "spellbook:2163-5065"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "5",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Grixistax___October_2026"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 2,
+     "2": 15,
+     "3": 19,
+     "4": 19,
+     "5": 80
+    },
+    "decks_with_bracket": 135,
+    "share_b4_plus": 0.733,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__kraum-ludevics-opus-tevesh-szat-doom-of-fools.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Tevesh Szat, Doom of Fools",
+   "why": "Thrulls and card draw that break the deck's own parity.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Tevesh Szat, Doom of Fools"
+   ]
+  },
+  {
+   "card": "Kraum, Ludevic's Opus",
+   "why": "Hasty flier and a draw when opponents cast a second spell.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Kraum, Ludevic's Opus"
+   ]
+  },
+  {
+   "card": "Contamination",
+   "why": "Thrull-fed lock that turns lands into black mana only.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:grixistax-october-2026#grixistax-03"
+   ]
+  },
+  {
+   "card": "Helm of Obedience",
+   "why": "Compact win with Leyline or Dauthi.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:grixistax-october-2026#grixistax-09"
+   ]
+  },
+  {
+   "card": "Winter Orb",
+   "why": "Core untap lock broken by artifact mana.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't rebuild into stock Kraum/Tevesh turbo-combo (decisions L20).",
+   "No hard one-spell caps (Arcane Laboratory) that make Kraum's trigger dead and block Breach (decisions L35)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md#L20"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Stax/prison resource deception; the deck is named for its archetype, not its commanders."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.124a",
+   "note": "Partner.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.124a"
+   ]
+  },
+  {
+   "rule": "CR 613.1d",
+   "note": "Blood Moon type-changing applies in layer 4.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:613.1d"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Thrull synergy",
+    "sacrifice",
+    "stealing / casting opponents' cards",
+    "tokens"
+   ],
+   "hooked_cards": 17,
+   "role_counts": {
+    "counter": 12,
+    "draw": 8,
+    "protection": 1,
+    "ramp": 15,
+    "removal": 6,
+    "tutor": 8,
+    "wipe": 1
+   },
+   "lands": 26,
+   "edhrec_pages": [
+    "kraum-ludevics-opus-tevesh-szat-doom-of-fools"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Grixistax_October_2026_Approved_2026-10-14.md",
+   "source_archive:refinement/decklists/Grixistax_October_2026_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 52)"
+ }
+}

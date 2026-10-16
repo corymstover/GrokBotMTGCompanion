@@ -1,0 +1,601 @@
+{
+ "schema_version": 2,
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "slug": "doctor-doom-king-of-latveria",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 50,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+ "commanders": {
+  "value": [
+   {
+    "name": "Doctor Doom, King of Latveria",
+    "oracle_id": "9c9cd0fd-bfe9-409c-a9a9-146f5f4a2ef4",
+    "oracle_text": "Whenever you discard one or more land cards, each opponent loses 2 life.\nAt the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)",
+    "oracle_sha256": "sha256:adfa9e418a2c773cb29eed451a1600a7499b580b23151f7ae22290f0be123fdd",
+    "type_line": "Legendary Creature — Human Noble Villain"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Doctor Doom, King of Latveria"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Lands as discard ammunition: discard land cards in separate events (cycling, Trade Routes, Seismic Assault, Psychic Frog, rummaging) so each event drains every opponent for 2, then recover the lands (Crucible, Moonstone, Containment Construct) and repeat.",
+   "secondary": "Villain/connive shell: Doom's combat connive on a Villain plus Lethal Scheme, Kang, Ultron, Glorious Purpose; Doom trigger copies (Chameleon, Spark Double, Roaming Throne) and the Tectonic Reformation + Surly Badgersaur + Dakmor Salvage infinite."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md",
+   "interaction:doctor-doom-king-of-latveria#doom-01",
+   "interaction:doctor-doom-king-of-latveria#doom-08"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Doom is the drain: every separate land-discard event is 2 from each opponent, and his combat connive filters toward more lands and Villain value.",
+   "honest_note": "One trigger per discard event, not per land: mass discards (wheels) give one trigger. The kill is multi-piece and resource-dependent."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md",
+   "interaction:doctor-doom-king-of-latveria#doom-01",
+   "interaction:doctor-doom-king-of-latveria#doom-02"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "badgersaur-reformation-dakmor",
+   "kind": "combo",
+   "description": "Tectonic Reformation + Surly Badgersaur + Dakmor Salvage: cycle Dakmor for {R}, Badgersaur makes Treasure, dredge it back; each cycle is a Doom drain.",
+   "cards": [
+    "Tectonic Reformation",
+    "Surly Badgersaur",
+    "Dakmor Salvage"
+   ],
+   "enablers": [
+    "Doctor Doom, King of Latveria"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-08",
+    "spellbook:779-2546-4467"
+   ]
+  },
+  {
+   "id": "trade-routes-engine",
+   "kind": "natural",
+   "description": "Trade Routes + Bone Miser or Badgersaur + Dakmor: repeated land discards fund the next activation.",
+   "cards": [
+    "Trade Routes",
+    "Bone Miser",
+    "Surly Badgersaur",
+    "Dakmor Salvage"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-09"
+   ]
+  },
+  {
+   "id": "repeated-drain",
+   "kind": "natural",
+   "description": "Seismic Assault, Psychic Frog and cycling lands drain 2 per event; Archfiend of Ifnir and Cool but Rude add more.",
+   "cards": [
+    "Seismic Assault",
+    "Psychic Frog",
+    "Archfiend of Ifnir",
+    "Cool but Rude",
+    "Monument to Endurance"
+   ],
+   "enablers": [
+    "Crucible of Worlds"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "land-discard-drain",
+   "cards": [
+    "Doctor Doom, King of Latveria",
+    "Psychic Frog",
+    "Seismic Assault",
+    "Trade Routes",
+    "Archfiend of Ifnir"
+   ],
+   "online_condition": "Separate land-discard events.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-01",
+    "interaction:doctor-doom-king-of-latveria#doom-06",
+    "interaction:doctor-doom-king-of-latveria#doom-11"
+   ]
+  },
+  {
+   "id": "land-recursion",
+   "cards": [
+    "Crucible of Worlds",
+    "Moonstone, Harsh Mistress",
+    "Containment Construct",
+    "Shadow of the Grave",
+    "Dakmor Salvage"
+   ],
+   "online_condition": "Lands in the graveyard to replay or redraw.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-07",
+    "interaction:doctor-doom-king-of-latveria#doom-10"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:land-discard-outlets",
+   "required": true,
+   "min_count": 6,
+   "role": "Discard lands one event at a time.",
+   "cards": [
+    "Psychic Frog",
+    "Seismic Assault",
+    "Trade Routes",
+    "Faithless Looting",
+    "Frantic Search",
+    "Tectonic Reformation",
+    "Desolate Lighthouse",
+    "Geier Reach Sanitarium"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:land-recursion",
+   "required": true,
+   "min_count": 4,
+   "role": "Recover discarded lands.",
+   "cards": [
+    "Crucible of Worlds",
+    "Moonstone, Harsh Mistress",
+    "Containment Construct",
+    "Shadow of the Grave",
+    "Dakmor Salvage"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:doom-copies",
+   "required": true,
+   "min_count": 3,
+   "role": "Copy Doom's triggers.",
+   "cards": [
+    "Chameleon, Master of Disguise",
+    "Spark Double",
+    "Roaming Throne"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md",
+    "interaction:doctor-doom-king-of-latveria#doom-03",
+    "interaction:doctor-doom-king-of-latveria#doom-04"
+   ]
+  },
+  {
+   "id": "pkg:villains-connive",
+   "required": false,
+   "min_count": 6,
+   "role": "Villains for the combat connive and connive payoffs.",
+   "cards": [
+    "Lethal Scheme",
+    "Kang, Temporal Tyrant",
+    "Ultron, Unlimited",
+    "Villainous Hideout",
+    "Glorious Purpose",
+    "Norman Osborn // Green Goblin",
+    "Prowler, Clawed Thief",
+    "Tombstone, Career Criminal",
+    "Leader, Super-Genius"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "per-event",
+   "summary": "One Doom trigger per discard event, not per land; Cool but Rude counts per card.",
+   "cards": [
+    "Doctor Doom, King of Latveria",
+    "Cool but Rude"
+   ],
+   "m1_refs": [
+    "doom-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-01"
+   ]
+  },
+  {
+   "id": "connive-target",
+   "summary": "The combat connive targets a Villain; with no legal target, no connive.",
+   "cards": [
+    "Doctor Doom, King of Latveria"
+   ],
+   "m1_refs": [
+    "doom-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-02"
+   ]
+  },
+  {
+   "id": "chameleon",
+   "summary": "Chameleon copy keeps its own name: no legend rule.",
+   "cards": [
+    "Chameleon, Master of Disguise"
+   ],
+   "m1_refs": [
+    "doom-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-03"
+   ]
+  },
+  {
+   "id": "dakmor",
+   "summary": "Dakmor Salvage dredge is renewable, bounded by library size.",
+   "cards": [
+    "Dakmor Salvage"
+   ],
+   "m1_refs": [
+    "doom-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-07"
+   ]
+  },
+  {
+   "id": "crucible-cycling",
+   "summary": "Crucible doesn't let you cycle lands from the graveyard.",
+   "cards": [
+    "Crucible of Worlds"
+   ],
+   "m1_refs": [
+    "doom-10"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-10"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Tectonic Reformation",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-08"
+   ]
+  },
+  {
+   "target": "Seismic Assault",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Crucible of Worlds",
+   "Moonstone, Harsh Mistress",
+   "Containment Construct",
+   "Shadow of the Grave",
+   "Reanimate"
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Counters (Swan Song, Fierce Guardianship) and removal; graveyard hate is a real threat.",
+   "protection": "Free protection; Doom is four mana.",
+   "mana": "Many lands (fuel and mana); Treasure from Badgersaur/Bone Miser."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "mass-discard",
+   "description": "Discarding many lands at once is only one trigger.",
+   "mitigations": [
+    "Prefer per-card outlets (Frog, cycling)"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-01"
+   ]
+  },
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard exile stops land recursion and Dakmor.",
+   "mitigations": [
+    "Crucible still replays from hand discard cycles"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "no-villain",
+   "description": "No Villain on board: no combat connive.",
+   "mitigations": [
+    "Villain density"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-02"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 — Optimized (current-cycle blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md#L29"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4: one three-card infinite and repeatable table drain; multi-piece, resource-dependent kill. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md#L29",
+    "interaction:doctor-doom-king-of-latveria#doom-08"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Doctor_Doom__King_of_Latveria"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 16,
+     "2": 751,
+     "3": 912,
+     "4": 210,
+     "5": 23
+    },
+    "decks_with_bracket": 1912,
+    "share_b4_plus": 0.122,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__doctor-doom-king-of-latveria.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Doctor Doom, King of Latveria",
+   "why": "2-life table drain per land-discard event.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Doctor Doom, King of Latveria"
+   ]
+  },
+  {
+   "card": "Psychic Frog",
+   "why": "Free, repeatable land-discard outlet: one Doom trigger per activation.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-06"
+   ]
+  },
+  {
+   "card": "Seismic Assault",
+   "why": "Each land discard is a separate event: Doom drain plus 2 damage.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Crucible of Worlds",
+   "why": "Replays discarded lands so the ammunition doesn't run out.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Dakmor Salvage",
+   "why": "Renewable land to discard; centre of the infinite.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:doctor-doom-king-of-latveria#doom-08"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't add generic Thassa's Oracle/Consultation cEDH packages (source blueprint).",
+   "Don't treat it as generic Villain tribal or generic discard."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Marvel villains."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 701.50a",
+   "note": "Connive: draw, then discard; a nonland discard adds a +1/+1 counter.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.50a"
+   ]
+  },
+  {
+   "rule": "CR 702.52",
+   "note": "Dredge replaces a draw (Dakmor Salvage).",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.52"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "+1/+1 counters",
+    "Villain synergy",
+    "connive / looting",
+    "discard",
+    "opponents losing life"
+   ],
+   "hooked_cards": 41,
+   "role_counts": {
+    "counter": 2,
+    "draw": 19,
+    "protection": 1,
+    "ramp": 16,
+    "removal": 6,
+    "tutor": 3,
+    "wipe": 1
+   },
+   "lands": 38,
+   "edhrec_pages": [
+    "doctor-doom-king-of-latveria"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md",
+   "source_archive:refinement/approvals/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.md",
+   "source_archive:refinement/decklists/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 50)"
+ }
+}

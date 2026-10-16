@@ -1,0 +1,595 @@
+{
+ "schema_version": 2,
+ "deck_id": "Edea__Possessed_Sorceress",
+ "slug": "edea-possessed-sorceress",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 52,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+ "commanders": {
+  "value": [
+   {
+    "name": "Edea, Possessed Sorceress",
+    "oracle_id": "7beb7505-b765-486d-a205-78325922a10f",
+    "oracle_text": "Ward {2}\nAt the beginning of combat on your turn, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn.\nWhenever a creature you control but don't own dies, return it to the battlefield under its owner's control and you draw a card.",
+    "oracle_sha256": "sha256:203cb7e1db52cad722d9d186d8bff776175866b8d14321e1b8a90d05677fb33e",
+    "type_line": "Legendary Creature — Human Warlock"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Edea, Possessed Sorceress"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Borrow an opponent's best creature every combat, swing with it, then sacrifice it before cleanup: Edea returns it to its owner and draws you a card while your sacrifice payoffs (Goblin Bombardment, Mayhem Devil, Grave Pact) fire.",
+   "secondary": "Multiply the theft (Mass Mutiny, Insurrection, Captivating Crew, extra combats, Edea copies) and convert temporary theft into permanent value (Thassa, Nightmare Shepherd, Black Crystal, Saw in Half, Impostor Syndrome)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md#L10",
+   "interaction:edea-possessed-sorceress#edea-02",
+   "interaction:edea-possessed-sorceress#edea-06"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Edea is the only repeatable source of free theft and the card-draw half of every sacrifice.",
+   "honest_note": "She steals at beginning of combat on your turn only, needs a worthwhile target on an opposing board, and her draw clause needs the borrowed creature to die while you control it. Against creature-light tables the engine is weak."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md#L21",
+   "interaction:edea-possessed-sorceress#edea-01",
+   "interaction:edea-possessed-sorceress#edea-02"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "sac-drain",
+   "kind": "natural",
+   "description": "Sacrifice outlets plus damage payoffs turn every borrowed body, token and Treasure into damage while Edea refills.",
+   "cards": [
+    "Goblin Bombardment",
+    "Mayhem Devil",
+    "Grave Pact",
+    "Pitiless Plunderer"
+   ],
+   "enablers": [
+    "Edea, Possessed Sorceress",
+    "Viscera Seer",
+    "Phyrexian Altar",
+    "Ashnod's Altar"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "mass-theft-swing",
+   "kind": "natural",
+   "description": "Mass theft (Insurrection, Mass Mutiny, Mob Rule) swings opposing boards at their owners, then everything is sacrificed for value.",
+   "cards": [
+    "Insurrection",
+    "Mass Mutiny",
+    "Mob Rule",
+    "Seize the Spotlight"
+   ],
+   "enablers": [
+    "Goblin Bombardment",
+    "Ashnod's Altar"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:edea-possessed-sorceress#edea-10"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "borrow-and-sacrifice",
+   "cards": [
+    "Edea, Possessed Sorceress",
+    "Viscera Seer",
+    "Phyrexian Altar",
+    "Ashnod's Altar",
+    "Goblin Bombardment",
+    "Phyrexian Tower"
+   ],
+   "online_condition": "Edea in play with an opposing creature to borrow and a sacrifice outlet.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:edea-possessed-sorceress#edea-02",
+    "interaction:edea-possessed-sorceress#edea-03"
+   ]
+  },
+  {
+   "id": "extra-steals",
+   "cards": [
+    "Spark Double",
+    "Sakashima of a Thousand Faces",
+    "Irma, Part-Time Mutant",
+    "Karlach, Fury of Avernus",
+    "Full Throttle",
+    "Roaming Throne",
+    "Strionic Resonator"
+   ],
+   "online_condition": "A copy of Edea, an extra combat, or a beginning-of-combat trigger copier.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:edea-possessed-sorceress#edea-04",
+    "interaction:edea-possessed-sorceress#edea-05"
+   ]
+  },
+  {
+   "id": "keep-the-steal",
+   "cards": [
+    "Thassa, Deep-Dwelling",
+    "Chaos Shrine's Black Crystal",
+    "Nightmare Shepherd",
+    "Saw in Half",
+    "Impostor Syndrome"
+   ],
+   "online_condition": "A borrowed creature in play when the retention effect resolves.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:edea-possessed-sorceress#edea-06",
+    "interaction:edea-possessed-sorceress#edea-07",
+    "interaction:edea-possessed-sorceress#edea-08",
+    "interaction:edea-possessed-sorceress#edea-09"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:extra-theft",
+   "required": true,
+   "min_count": 6,
+   "role": "More non-owned bodies than Edea alone provides.",
+   "cards": [
+    "Insurrection",
+    "Mass Mutiny",
+    "Mob Rule",
+    "Captivating Crew",
+    "Dominus of Fealty",
+    "Seize the Spotlight",
+    "Zara, Renegade Recruiter"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:edea-possessed-sorceress#edea-10"
+   ]
+  },
+  {
+   "id": "pkg:sac-outlets",
+   "required": true,
+   "min_count": 6,
+   "role": "Free or cheap sacrifice before cleanup returns the creature.",
+   "cards": [
+    "Viscera Seer",
+    "Phyrexian Altar",
+    "Ashnod's Altar",
+    "Goblin Bombardment",
+    "Phyrexian Tower",
+    "Village Rites",
+    "Deadly Dispute",
+    "Warren Soultrader",
+    "Braids, Arisen Nightmare",
+    "Evereth, Viceroy of Plunder"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:multipliers",
+   "required": true,
+   "min_count": 5,
+   "role": "Copies of Edea, her trigger, or extra combats.",
+   "cards": [
+    "Spark Double",
+    "Sakashima of a Thousand Faces",
+    "Irma, Part-Time Mutant",
+    "Karlach, Fury of Avernus",
+    "Full Throttle",
+    "Roaming Throne",
+    "Strionic Resonator"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:edea-possessed-sorceress#edea-04",
+    "interaction:edea-possessed-sorceress#edea-05"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "targeted-steal",
+   "summary": "The steal targets; Arcane Lighthouse answers hexproof/shroud.",
+   "cards": [
+    "Edea, Possessed Sorceress",
+    "Arcane Lighthouse"
+   ],
+   "m1_refs": [
+    "edea-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:edea-possessed-sorceress#edea-01"
+   ]
+  },
+  {
+   "id": "return-and-draw",
+   "summary": "A borrowed creature dying returns to its owner and you draw; the owner gets its enter triggers.",
+   "cards": [
+    "Edea, Possessed Sorceress"
+   ],
+   "m1_refs": [
+    "edea-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:edea-possessed-sorceress#edea-02"
+   ]
+  },
+  {
+   "id": "extra-triggers-draw",
+   "summary": "Extra Edea death triggers only draw; just one return happens.",
+   "cards": [
+    "Spark Double",
+    "Sakashima of a Thousand Faces"
+   ],
+   "m1_refs": [
+    "edea-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:edea-possessed-sorceress#edea-03"
+   ]
+  },
+  {
+   "id": "thassa-keep",
+   "summary": "Thassa's end-step blink returns the borrowed creature under your control permanently.",
+   "cards": [
+    "Thassa, Deep-Dwelling"
+   ],
+   "m1_refs": [
+    "edea-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:edea-possessed-sorceress#edea-06"
+   ]
+  },
+  {
+   "id": "black-crystal-order",
+   "summary": "Order Black Crystal's trigger first to keep the stolen card; Edea still draws.",
+   "cards": [
+    "Chaos Shrine's Black Crystal",
+    "Edea, Possessed Sorceress"
+   ],
+   "m1_refs": [
+    "edea-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:edea-possessed-sorceress#edea-07"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Goblin Bombardment",
+   "via": [
+    "Demonic Tutor",
+    "Diabolic Intent"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "target": "Insurrection",
+   "via": [
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Reanimate",
+   "Victimize",
+   "Nightmare Shepherd"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Counters (Mana Drain, Fierce Guardianship, Swan Song, Arcane Denial) and resets (Toxic Deluge, Blasphemous Act).",
+   "protection": "Ward {2}, Lightning Greaves, Deflecting Swat, Fierce Guardianship.",
+   "mana": "Five-mana commander: Sol Ring, Ancient Tomb, Talismans, Arcane Signet."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "no-targets",
+   "description": "Creature-light opponents leave nothing worth stealing.",
+   "mitigations": [
+    "Treasure/token sacrifice still feeds payoffs",
+    "Seize the Spotlight"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:edea-possessed-sorceress#edea-01"
+   ]
+  },
+  {
+   "id": "edea-removed",
+   "description": "Five-mana commander removed: theft and draw stop.",
+   "mitigations": [
+    "Ward {2}",
+    "Greaves",
+    "Counters"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "gift-etb",
+   "description": "Returning the creature gives its owner its enter triggers again.",
+   "mitigations": [
+    "Choose targets without strong ETBs",
+    "Thassa/Black Crystal to keep instead"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:edea-possessed-sorceress#edea-02"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 — Optimized (decisions natural ceiling)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md#L21"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling: strong multiplayer value and tempo engine with no compact two-card win; five-mana, board-dependent commander. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md#L21",
+    "interaction:edea-possessed-sorceress#edea-02"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 3
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Edea__Possessed_Sorceress"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 5,
+     "2": 276,
+     "3": 448,
+     "4": 71,
+     "5": 3
+    },
+    "decks_with_bracket": 803,
+    "share_b4_plus": 0.092,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__edea-possessed-sorceress.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Edea, Possessed Sorceress",
+   "why": "Free combat theft plus a card whenever the borrowed creature dies.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Edea, Possessed Sorceress"
+   ]
+  },
+  {
+   "card": "Thassa, Deep-Dwelling",
+   "why": "Turns a one-turn steal into a permanent one.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:edea-possessed-sorceress#edea-06"
+   ]
+  },
+  {
+   "card": "Goblin Bombardment",
+   "why": "Free outlet that also turns each borrowed body into damage.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Mass Mutiny",
+   "why": "Steals one creature from every opponent at once.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:edea-possessed-sorceress#edea-10"
+   ]
+  },
+  {
+   "card": "Chaos Shrine's Black Crystal",
+   "why": "Keeps the stolen creature's card for later.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:edea-possessed-sorceress#edea-07"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't drift into a generic aristocrats deck that only sacrifices its own creatures (source).",
+   "No compact cEDH combo package; the source sets a commander-first B4 shell."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Final Fantasy VIII sorceress possessing others: theft, control and sacrifice."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 108.3",
+   "note": "Owner versus controller: Edea's return goes to the owner.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:108.3"
+   ]
+  },
+  {
+   "rule": "CR 702.21a",
+   "note": "Ward {2}.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.21a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "graveyard as a resource",
+    "stealing / casting opponents' cards"
+   ],
+   "hooked_cards": 9,
+   "role_counts": {
+    "counter": 5,
+    "draw": 9,
+    "protection": 2,
+    "ramp": 14,
+    "removal": 6,
+    "tutor": 2,
+    "wipe": 2
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "edea-possessed-sorceress"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Edea_Possessed_Sorceress_Approved_2026-10-14.md",
+   "source_archive:refinement/decklists/Edea_Possessed_Sorceress_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 52)"
+ }
+}

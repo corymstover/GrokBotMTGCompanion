@@ -1,0 +1,607 @@
+{
+ "schema_version": 2,
+ "deck_id": "Don_Andres__the_Renegade",
+ "slug": "don-andres-the-renegade",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 50,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+ "commanders": {
+  "value": [
+   {
+    "name": "Don Andres, the Renegade",
+    "oracle_id": "060ef981-db05-436b-b1c1-f55071375344",
+    "oracle_text": "Each creature you control but don't own gets +2/+2, has menace and deathtouch, and is a Pirate in addition to its other types.\nWhenever you cast a noncreature spell you don't own, create two tapped Treasure tokens.",
+    "oracle_sha256": "sha256:e93b7d5de3822f651162d1be8fd484051a3537c40e1c51b51033db64e7c919f8",
+    "type_line": "Legendary Creature — Vampire Pirate"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Don Andres, the Renegade"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Play opponents' cards: steal creatures (they become +2/+2 menace deathtouch Pirates) and cast opponents' noncreature spells for two Treasures each, snowballing mana and board from Ragavan, Breeches, Grenzo, Thief of Sanity, Gonti, Hostage Taker and friends.",
+   "secondary": "Pirate payoffs for the stolen Pirates (Admiral Beckett Brass, Kindred Discovery, Malcolm, Coercive Recruiter) and Insurrection as the mass-theft finisher."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md",
+   "interaction:don-andres-the-renegade#donandres-01",
+   "interaction:don-andres-the-renegade#donandres-02"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Both theft axes pay off only through Don: stolen creatures become threats and stolen noncreature casts become Treasure.",
+   "honest_note": "Power depends on what opponents play; casting from your own copies or putting cards onto the battlefield (Jhoira, Reanimate) gives no Treasure."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md#L34",
+   "interaction:don-andres-the-renegade#donandres-03",
+   "interaction:don-andres-the-renegade#donandres-04"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "stolen-board",
+   "kind": "natural",
+   "description": "A board of opponents' creatures as 2/2-bigger menace deathtouch Pirates.",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Hostage Taker",
+    "Coercive Recruiter",
+    "Thieving Amalgam",
+    "Gonti, Night Minister"
+   ],
+   "enablers": [
+    "Roaming Throne",
+    "Kindred Discovery"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "insurrection",
+   "kind": "natural",
+   "description": "Insurrection steals every creature for a lethal swing, all buffed by Don.",
+   "cards": [
+    "Insurrection"
+   ],
+   "enablers": [
+    "Don Andres, the Renegade"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "beckett-theft",
+   "kind": "natural",
+   "description": "Admiral Beckett Brass counts Don-made Pirates and permanently steals each end step.",
+   "cards": [
+    "Admiral Beckett Brass"
+   ],
+   "enablers": [
+    "Don Andres, the Renegade"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md",
+    "interaction:don-andres-the-renegade#donandres-10"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "stolen-spell-treasure",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Roaming Throne",
+    "Gonti, Night Minister",
+    "Tasha, the Witch Queen",
+    "Thief of Sanity",
+    "Grenzo, Havoc Raiser"
+   ],
+   "online_condition": "Cast a noncreature spell you don't own.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:don-andres-the-renegade#donandres-02",
+    "interaction:don-andres-the-renegade#donandres-07",
+    "interaction:don-andres-the-renegade#donandres-11"
+   ]
+  },
+  {
+   "id": "stolen-creature-buff",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Thieving Amalgam",
+    "Hostage Taker",
+    "Gilded Drake"
+   ],
+   "online_condition": "Control a creature you don't own.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:don-andres-the-renegade#donandres-01",
+    "interaction:don-andres-the-renegade#donandres-05"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:card-theft",
+   "required": true,
+   "min_count": 10,
+   "role": "Access opponents' libraries, hands and graveyards.",
+   "cards": [
+    "Ragavan, Nimble Pilferer",
+    "Breeches, Brazen Plunderer",
+    "Grenzo, Havoc Raiser",
+    "Vaan, Street Thief",
+    "Locke, Treasure Hunter",
+    "Thief of Sanity",
+    "Laughing Jasper Flint",
+    "Praetor's Grasp",
+    "Siphon Insight",
+    "Outrageous Robbery",
+    "Gonti, Night Minister",
+    "Court of Locthwain",
+    "Black Cat, Cunning Thief",
+    "Arcane Heist"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:creature-theft",
+   "required": true,
+   "min_count": 6,
+   "role": "Take creatures for Don's buff.",
+   "cards": [
+    "Hostage Taker",
+    "Gilded Drake",
+    "Coercive Recruiter",
+    "Thieving Amalgam",
+    "Insurrection",
+    "Brainstealer Dragon",
+    "Seize the Spotlight"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:pirate-payoffs",
+   "required": false,
+   "min_count": 4,
+   "role": "Reward Don-made Pirates.",
+   "cards": [
+    "Admiral Beckett Brass",
+    "Kindred Discovery",
+    "Malcolm, Keen-Eyed Navigator",
+    "Breeches, Eager Pillager",
+    "Ramirez DePietro, Pillager",
+    "Roaming Throne"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:interaction-protection",
+   "required": true,
+   "min_count": 8,
+   "role": "Interaction and commander protection.",
+   "cards": [
+    "Fierce Guardianship",
+    "Deflecting Swat",
+    "Mana Drain",
+    "Chaos Warp",
+    "Deadly Rollick",
+    "Feed the Swarm",
+    "Toxic Deluge",
+    "Cyclonic Rift",
+    "Blasphemous Act",
+    "Lightning Greaves"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/approvals/Don_Andres_the_Renegade_Approved_2026-10-14.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "ownership",
+   "summary": "Ownership, not control, decides both abilities.",
+   "cards": [
+    "Don Andres, the Renegade"
+   ],
+   "m1_refs": [
+    "donandres-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:don-andres-the-renegade#donandres-01"
+   ]
+  },
+  {
+   "id": "copies-and-put",
+   "summary": "Copies you make are spells you own; putting onto the battlefield isn't casting.",
+   "cards": [
+    "Arcane Heist",
+    "Jhoira, Weatherlight Corsair",
+    "Reanimate",
+    "Animate Dead"
+   ],
+   "m1_refs": [
+    "donandres-03",
+    "donandres-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:don-andres-the-renegade#donandres-03",
+    "interaction:don-andres-the-renegade#donandres-04"
+   ]
+  },
+  {
+   "id": "amalgam-manifests",
+   "summary": "Thieving Amalgam manifests are 4/4 menace deathtouch with Don.",
+   "cards": [
+    "Thieving Amalgam"
+   ],
+   "m1_refs": [
+    "donandres-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:don-andres-the-renegade#donandres-05"
+   ]
+  },
+  {
+   "id": "voidwalker-nonbo",
+   "summary": "Dauthi Voidwalker turns off Thieving Amalgam's drain.",
+   "cards": [
+    "Dauthi Voidwalker",
+    "Thieving Amalgam"
+   ],
+   "m1_refs": [
+    "donandres-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:don-andres-the-renegade#donandres-06"
+   ]
+  },
+  {
+   "id": "throne",
+   "summary": "Roaming Throne (Pirate) doubles the Treasure trigger, not the static.",
+   "cards": [
+    "Roaming Throne"
+   ],
+   "m1_refs": [
+    "donandres-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:don-andres-the-renegade#donandres-07"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Insurrection",
+   "via": [
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "target": "Roaming Throne",
+   "via": [
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Animate Dead",
+   "Reanimate"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Moderate; theft doubles as removal.",
+   "protection": "Greaves, free protection; Don's static vanishes with him.",
+   "mana": "Treasure snowball plus rocks; ~33 lands."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "weak-opponent-cards",
+   "description": "Opponents' cards are weak or off-color for what you need.",
+   "mitigations": [
+    "Many theft angles"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "don-removed",
+   "description": "Without Don stolen creatures shrink and Treasures stop.",
+   "mitigations": [
+    "Protection package"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "owner-leaves",
+   "description": "Stolen permanents leave when their owner leaves the game.",
+   "mitigations": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:don-andres-the-renegade#donandres-12"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 — Optimized (current-cycle blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md#L34"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Low-to-mid Bracket 4: strong theft value, no compact win, opponent-dependent. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md#L34",
+    "interaction:don-andres-the-renegade#donandres-02"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Don_Andres__the_Renegade"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 23,
+     "2": 872,
+     "3": 477,
+     "4": 67,
+     "5": 5
+    },
+    "decks_with_bracket": 1444,
+    "share_b4_plus": 0.05,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__don-andres-the-renegade.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Don Andres, the Renegade",
+   "why": "Turns stolen cards into Pirates and Treasure.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Don Andres, the Renegade"
+   ]
+  },
+  {
+   "card": "Thief of Sanity",
+   "why": "Repeatable access to opponents' best spells for Treasure.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Thieving Amalgam",
+   "why": "Every opponent's turn makes a Don-buffed manifest.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:don-andres-the-renegade#donandres-05"
+   ]
+  },
+  {
+   "card": "Insurrection",
+   "why": "The dedicated mass-theft finisher.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Gonti, Night Minister",
+   "why": "Another cast-what-you-don't-own engine that stacks with Don.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:don-andres-the-renegade#donandres-11"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't drift into generic Treasure or self-recursion value.",
+   "Don't rely on put-onto-battlefield effects for Treasure (they aren't casts)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Thieves, pirates and heists."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 111.10a",
+   "note": "Treasure token definition.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:111.10a"
+   ]
+  },
+  {
+   "rule": "CR 707.10",
+   "note": "Copies you create are owned by you, so they don't trigger Don.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:707.10"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Pirate synergy",
+    "Treasure",
+    "instants and sorceries",
+    "stealing / casting opponents' cards",
+    "tokens"
+   ],
+   "hooked_cards": 46,
+   "role_counts": {
+    "counter": 2,
+    "draw": 4,
+    "protection": 2,
+    "ramp": 21,
+    "removal": 8,
+    "tutor": 1,
+    "wipe": 2
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "don-andres-the-renegade"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md",
+   "source_archive:refinement/approvals/Don_Andres_the_Renegade_Approved_2026-10-14.md",
+   "source_archive:refinement/decklists/Don_Andres_the_Renegade_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 50)"
+ }
+}

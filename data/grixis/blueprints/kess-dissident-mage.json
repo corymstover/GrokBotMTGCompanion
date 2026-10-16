@@ -1,0 +1,598 @@
+{
+ "schema_version": 2,
+ "deck_id": "Kess__Dissident_Mage",
+ "slug": "kess-dissident-mage",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 52,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+ "commanders": {
+  "value": [
+   {
+    "name": "Kess, Dissident Mage",
+    "oracle_id": "f5092c14-eec4-472c-999c-ba96c36b2fbb",
+    "oracle_text": "Flying\nOnce during each of your turns, you may cast an instant or sorcery spell from your graveyard. If a spell cast this way would be put into your graveyard, exile it instead.",
+    "oracle_sha256": "sha256:0befe724041fad71087ab5db08450b8647487db581f9ef0ccf555a0b08aaefdd",
+    "type_line": "Legendary Creature — Human Wizard"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Kess, Dissident Mage"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "cEDH graveyard replay: Kess recasts one instant or sorcery from the graveyard each turn, so one Demonic Consultation or Tainted Pact finds Thassa's Oracle and is replayed to win, and Intuition/Gifts Ungiven piles win on any split.",
+   "secondary": "Underworld Breach finishes (Grinding Station with a zero-cost artifact, LED + Brain Freeze/Wheel), with loot and self-mill (Faithless Looting, Dragon's Rage Channeler, Entomb) stocking the yard."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md#L19",
+   "interaction:kess-dissident-mage#kess-03",
+   "interaction:kess-dissident-mage#kess-04"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Kess turns single tutors into complete Oracle wins and makes the Gifts/Intuition piles deterministic.",
+   "honest_note": "Her permission is once per your own turn at normal timing (M1 kess-01), so it doesn't help on opponents' turns. Oracle + Consultation and the Breach lines still win without her, just less efficiently."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md#L19",
+   "interaction:kess-dissident-mage#kess-01",
+   "interaction:kess-dissident-mage#kess-03"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "kess-oracle",
+   "kind": "combo",
+   "description": "Consultation/Pact finds Oracle; Kess replays it from the graveyard to win. Intuition/Gifts piles are deterministic with her.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact",
+    "Intuition",
+    "Gifts Ungiven",
+    "Reanimate"
+   ],
+   "enablers": [
+    "Kess, Dissident Mage"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "interaction:kess-dissident-mage#kess-03",
+    "interaction:kess-dissident-mage#kess-04"
+   ]
+  },
+  {
+   "id": "breach-station",
+   "kind": "combo",
+   "description": "Underworld Breach + Grinding Station with Lotus Petal, Mox Opal or Chrome Mox: unbounded self-mill (Mox Diamond doesn't work).",
+   "cards": [
+    "Underworld Breach",
+    "Grinding Station",
+    "Lotus Petal",
+    "Mox Opal",
+    "Chrome Mox"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-3698--44",
+    "interaction:kess-dissident-mage#kess-06"
+   ]
+  },
+  {
+   "id": "breach-led",
+   "kind": "combo",
+   "description": "Breach + LED/Petal + Brain Freeze, or LED + Wheel of Fortune.",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze",
+    "Wheel of Fortune"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856",
+    "spellbook:1368-2706-3518",
+    "interaction:kess-dissident-mage#kess-07"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "graveyard-replay",
+   "cards": [
+    "Kess, Dissident Mage",
+    "Displacer Kitten",
+    "Snapcaster Mage",
+    "Entomb",
+    "Faithless Looting"
+   ],
+   "online_condition": "Kess in play on your turn with a spell in the graveyard.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:kess-dissident-mage#kess-01",
+    "interaction:kess-dissident-mage#kess-02",
+    "interaction:kess-dissident-mage#kess-05"
+   ]
+  },
+  {
+   "id": "fast-mana-tutors",
+   "cards": [
+    "Mana Vault",
+    "Grim Monolith",
+    "Chrome Mox",
+    "Mox Diamond",
+    "Lotus Petal",
+    "Dark Ritual",
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Necropotence"
+   ],
+   "online_condition": "Opening hand.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:oracle-piles",
+   "required": true,
+   "min_count": 6,
+   "role": "Pieces that turn Kess into deterministic wins.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact",
+    "Intuition",
+    "Gifts Ungiven",
+    "Reanimate"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:kess-dissident-mage#kess-04"
+   ]
+  },
+  {
+   "id": "pkg:yard-stock",
+   "required": true,
+   "min_count": 5,
+   "role": "Fill the graveyard cheaply.",
+   "cards": [
+    "Faithless Looting",
+    "Dragon's Rage Channeler",
+    "Ledger Shredder",
+    "Entomb",
+    "Gitaxian Probe",
+    "Brainstorm",
+    "Ponder"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:free-interaction",
+   "required": true,
+   "min_count": 8,
+   "role": "cEDH stack protection.",
+   "cards": [
+    "Force of Will",
+    "Force of Negation",
+    "Pact of Negation",
+    "Fierce Guardianship",
+    "Mental Misstep",
+    "Mindbreak Trap",
+    "Flusterstorm",
+    "Swan Song",
+    "Pyroblast",
+    "Red Elemental Blast",
+    "Into the Flood Maw"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "once-own-turn",
+   "summary": "One graveyard cast per your turn at normal timing; flashback doesn't use it.",
+   "cards": [
+    "Kess, Dissident Mage"
+   ],
+   "m1_refs": [
+    "kess-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:kess-dissident-mage#kess-01"
+   ]
+  },
+  {
+   "id": "kitten-reset",
+   "summary": "Displacer Kitten's blink makes a new Kess with a fresh permission.",
+   "cards": [
+    "Displacer Kitten",
+    "Kess, Dissident Mage"
+   ],
+   "m1_refs": [
+    "kess-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:kess-dissident-mage#kess-02"
+   ]
+  },
+  {
+   "id": "station-moxen",
+   "summary": "Grinding Station loops need a zero-cost artifact; Mox Diamond doesn't work.",
+   "cards": [
+    "Grinding Station",
+    "Mox Diamond"
+   ],
+   "m1_refs": [
+    "kess-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:kess-dissident-mage#kess-06"
+   ]
+  },
+  {
+   "id": "counsel-delirium",
+   "summary": "Demonic Counsel is only a tutor with delirium.",
+   "cards": [
+    "Demonic Counsel"
+   ],
+   "m1_refs": [
+    "kess-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:kess-dissident-mage#kess-08"
+   ]
+  },
+  {
+   "id": "beseech",
+   "summary": "A bargained Beseech the Mirror casts the found card free.",
+   "cards": [
+    "Beseech the Mirror"
+   ],
+   "m1_refs": [
+    "kess-09"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:kess-dissident-mage#kess-09"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Thassa's Oracle",
+   "via": [
+    "Demonic Consultation",
+    "Tainted Pact",
+    "Vampiric Tutor",
+    "Imperial Seal"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "target": "Underworld Breach",
+   "via": [
+    "Demonic Tutor",
+    "Gamble",
+    "Personal Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-3698--44"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Kess, Dissident Mage",
+   "Snapcaster Mage",
+   "Reanimate",
+   "Underworld Breach"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Free counters and one-mana interaction.",
+   "protection": "Fierce Guardianship, Deflecting Swat.",
+   "mana": "Fast mana and rituals; 27 lands with no repeated names for Tainted Pact."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate turns off Kess and Breach.",
+   "mitigations": [
+    "Oracle + Consultation from hand"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "own-turn-only",
+   "description": "Kess can't replay on opponents' turns.",
+   "mitigations": [
+    "Snapcaster Mage",
+    "Flash protection"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:kess-dissident-mage#kess-01"
+   ]
+  },
+  {
+   "id": "counsel",
+   "description": "Demonic Counsel without delirium only finds a Demon.",
+   "mitigations": [
+    "Stock the yard first"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:kess-dissident-mage#kess-08"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Power Bracket 5 — fringe cEDH (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md#L21"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Bracket 5 ceiling (fringe): genuine cEDH commander with 2026 results but lower conversion than leading commanders, per the source. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md#L21",
+    "spellbook:742-1295"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "5",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Kess__Dissident_Mage"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 34,
+     "2": 415,
+     "3": 731,
+     "4": 657,
+     "5": 391
+    },
+    "decks_with_bracket": 2228,
+    "share_b4_plus": 0.47,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__kess-dissident-mage.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Kess, Dissident Mage",
+   "why": "Once-per-turn instant/sorcery replay from the graveyard.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Kess, Dissident Mage"
+   ]
+  },
+  {
+   "card": "Demonic Consultation",
+   "why": "Cast twice with Kess: find Oracle, then win.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:kess-dissident-mage#kess-03"
+   ]
+  },
+  {
+   "card": "Intuition",
+   "why": "Deterministic Oracle pile with Kess.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:kess-dissident-mage#kess-04"
+   ]
+  },
+  {
+   "card": "Gifts Ungiven",
+   "why": "Every split wins with Kess's permission unused.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:kess-dissident-mage#kess-04"
+   ]
+  },
+  {
+   "card": "Displacer Kitten",
+   "why": "Resets Kess for another graveyard cast.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:kess-dissident-mage#kess-02"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Six-mana storm engines and storm payoffs (Thousand-Year Storm, Talrand, Guttersnipe) rejected (decisions L137).",
+   "Keep 100 distinct names so Tainted Pact never stops early."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md#L137"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Dissident Wizard: spells recast from the graveyard; theme subordinate to cEDH."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 400.7",
+   "note": "A blinked Kess is a new object with a fresh permission.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:400.7"
+   ]
+  },
+  {
+   "rule": "CR 601.2",
+   "note": "Casting from the graveyard follows normal timing.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:601.2"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "graveyard as a resource",
+    "instants and sorceries"
+   ],
+   "hooked_cards": 54,
+   "role_counts": {
+    "counter": 10,
+    "draw": 10,
+    "protection": 1,
+    "ramp": 18,
+    "removal": 6,
+    "tutor": 11,
+    "wipe": 2
+   },
+   "lands": 27,
+   "edhrec_pages": [
+    "kess-dissident-mage"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Kess_Dissident_Mage_Approved_2026-10-14.md",
+   "source_archive:refinement/decisions/Kess_Dissident_Mage_Baseline_SHA_Correction_2026-10-14.md",
+   "source_archive:refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 52)"
+ }
+}

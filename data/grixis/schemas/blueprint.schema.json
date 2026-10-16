@@ -1,14 +1,18 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/blueprint.schema.json",
- "title": "Commander Blueprint (v1 draft, populated in M2)",
+ "title": "Commander Blueprint v2 (Bot cycle 50, M2)",
+ "description": "Machine-readable commander blueprint (brief §3). Every field is a claim with evidence_class, confidence and at least one evidence ref (Cory constraint: evidence on every field). Oracle text is fact; plans and ceilings are strategic_judgment; EDHREC data is derived_metric or heuristic; regex hooks are supporting features only (heuristic), never identity. Checked by scripts/grixis_blueprints.py --check.",
  "type": "object",
  "properties": {
   "schema_version": {
-   "const": 1
+   "const": 2
   },
   "deck_id": {
    "$ref": "common.schema.json#/$defs/deck_id"
+  },
+  "slug": {
+   "type": "string"
   },
   "version": {
    "type": "integer",
@@ -19,54 +23,172 @@
     "draft",
     "seeded",
     "cory_reviewed"
-   ]
+   ],
+   "description": "seeded = written by GrokBot from evidence; cory_reviewed only via Cory (reviewed_by)."
+  },
+  "cycle": {
+   "type": "integer"
+  },
+  "date": {
+   "$ref": "common.schema.json#/$defs/date"
+  },
+  "canonical_hash": {
+   "$ref": "common.schema.json#/$defs/list_hash"
   },
   "commanders": {
-   "type": "array",
-   "items": {
-    "type": "object",
-    "properties": {
-     "name": {
-      "type": "string"
-     },
-     "oracle_id": {
-      "type": "string"
-     },
-     "oracle_sha256": {
-      "$ref": "common.schema.json#/$defs/sha256"
+   "type": "object",
+   "properties": {
+    "value": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "oracle_id": {
+        "type": "string"
+       },
+       "oracle_text": {
+        "type": "string"
+       },
+       "oracle_sha256": {
+        "$ref": "common.schema.json#/$defs/sha256"
+       },
+       "type_line": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "name",
+       "oracle_id",
+       "oracle_text",
+       "oracle_sha256",
+       "type_line"
+      ],
+      "additionalProperties": false
      }
     },
-    "required": [
-     "name",
-     "oracle_id",
-     "oracle_sha256"
-    ],
-    "additionalProperties": false
+    "evidence_class": {
+     "$ref": "common.schema.json#/$defs/evidence_class"
+    },
+    "confidence": {
+     "$ref": "common.schema.json#/$defs/confidence"
+    },
+    "evidence": {
+     "type": "array",
+     "items": {
+      "$ref": "common.schema.json#/$defs/evidence_ref"
+     },
+     "minItems": 1
+    }
    },
-   "minItems": 1
+   "required": [
+    "value",
+    "evidence_class",
+    "confidence",
+    "evidence"
+   ],
+   "additionalProperties": false
   },
   "plan": {
    "type": "object",
    "properties": {
-    "primary": {
-     "type": "string"
+    "value": {
+     "type": "object",
+     "properties": {
+      "primary": {
+       "type": "string"
+      },
+      "secondary": {
+       "type": [
+        "string",
+        "null"
+       ]
+      }
+     },
+     "required": [
+      "primary",
+      "secondary"
+     ],
+     "additionalProperties": false
     },
-    "secondary": {
-     "type": [
-      "string",
-      "null"
-     ]
+    "evidence_class": {
+     "$ref": "common.schema.json#/$defs/evidence_class"
     },
-    "commander_advances_plan": {
-     "type": "string"
+    "confidence": {
+     "$ref": "common.schema.json#/$defs/confidence"
+    },
+    "evidence": {
+     "type": "array",
+     "items": {
+      "$ref": "common.schema.json#/$defs/evidence_ref"
+     },
+     "minItems": 1
     }
    },
    "required": [
-    "primary",
-    "secondary",
-    "commander_advances_plan"
+    "value",
+    "evidence_class",
+    "confidence",
+    "evidence"
    ],
    "additionalProperties": false
+  },
+  "commander_role": {
+   "type": "object",
+   "properties": {
+    "value": {
+     "type": "object",
+     "properties": {
+      "level": {
+       "enum": [
+        "central",
+        "significant",
+        "supporting",
+        "incidental"
+       ]
+      },
+      "advances_plan": {
+       "type": "string"
+      },
+      "honest_note": {
+       "type": [
+        "string",
+        "null"
+       ]
+      }
+     },
+     "required": [
+      "level",
+      "advances_plan",
+      "honest_note"
+     ],
+     "additionalProperties": false
+    },
+    "evidence_class": {
+     "$ref": "common.schema.json#/$defs/evidence_class"
+    },
+    "confidence": {
+     "$ref": "common.schema.json#/$defs/confidence"
+    },
+    "evidence": {
+     "type": "array",
+     "items": {
+      "$ref": "common.schema.json#/$defs/evidence_ref"
+     },
+     "minItems": 1
+    }
+   },
+   "required": [
+    "value",
+    "evidence_class",
+    "confidence",
+    "evidence"
+   ],
+   "additionalProperties": false,
+   "description": "How much the commander itself drives the deck. 'supporting'/'incidental' is said plainly when true (e.g. a cEDH shell around a weak commander)."
   },
   "win_conditions": {
    "type": "array",
@@ -83,6 +205,9 @@
        "combo"
       ]
      },
+     "description": {
+      "type": "string"
+     },
      "cards": {
       "type": "array",
       "items": {
@@ -94,13 +219,30 @@
       "items": {
        "type": "string"
       }
+     },
+     "evidence_class": {
+      "$ref": "common.schema.json#/$defs/evidence_class"
+     },
+     "confidence": {
+      "$ref": "common.schema.json#/$defs/confidence"
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      },
+      "minItems": 1
      }
     },
     "required": [
      "id",
      "kind",
+     "description",
      "cards",
-     "enablers"
+     "enablers",
+     "evidence_class",
+     "confidence",
+     "evidence"
     ],
     "additionalProperties": false
    }
@@ -121,12 +263,28 @@
      },
      "online_condition": {
       "type": "string"
+     },
+     "evidence_class": {
+      "$ref": "common.schema.json#/$defs/evidence_class"
+     },
+     "confidence": {
+      "$ref": "common.schema.json#/$defs/confidence"
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      },
+      "minItems": 1
      }
     },
     "required": [
      "id",
      "cards",
-     "online_condition"
+     "online_condition",
+     "evidence_class",
+     "confidence",
+     "evidence"
     ],
     "additionalProperties": false
    }
@@ -144,7 +302,8 @@
       "type": "boolean"
      },
      "min_count": {
-      "type": "integer"
+      "type": "integer",
+      "minimum": 0
      },
      "role": {
       "type": "string"
@@ -154,6 +313,25 @@
       "items": {
        "type": "string"
       }
+     },
+     "candidates": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "evidence_class": {
+      "$ref": "common.schema.json#/$defs/evidence_class"
+     },
+     "confidence": {
+      "$ref": "common.schema.json#/$defs/confidence"
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      },
+      "minItems": 1
      }
     },
     "required": [
@@ -161,7 +339,11 @@
      "required",
      "min_count",
      "role",
-     "cards"
+     "cards",
+     "candidates",
+     "evidence_class",
+     "confidence",
+     "evidence"
     ],
     "additionalProperties": false
    }
@@ -169,7 +351,50 @@
   "key_interactions": {
    "type": "array",
    "items": {
-    "$ref": "common.schema.json#/$defs/evidence_ref"
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "summary": {
+      "type": "string"
+     },
+     "cards": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "m1_refs": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "evidence_class": {
+      "$ref": "common.schema.json#/$defs/evidence_class"
+     },
+     "confidence": {
+      "$ref": "common.schema.json#/$defs/confidence"
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      },
+      "minItems": 1
+     }
+    },
+    "required": [
+     "id",
+     "summary",
+     "cards",
+     "m1_refs",
+     "evidence_class",
+     "confidence",
+     "evidence"
+    ],
+    "additionalProperties": false
    }
   },
   "tutor_targets": {
@@ -185,40 +410,106 @@
       "items": {
        "type": "string"
       }
+     },
+     "evidence_class": {
+      "$ref": "common.schema.json#/$defs/evidence_class"
+     },
+     "confidence": {
+      "$ref": "common.schema.json#/$defs/confidence"
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      },
+      "minItems": 1
      }
     },
     "required": [
      "target",
-     "via"
+     "via",
+     "evidence_class",
+     "confidence",
+     "evidence"
     ],
     "additionalProperties": false
    }
   },
   "recursion": {
-   "type": "array",
-   "items": {
-    "type": "string"
-   }
+   "type": "object",
+   "properties": {
+    "value": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "evidence_class": {
+     "$ref": "common.schema.json#/$defs/evidence_class"
+    },
+    "confidence": {
+     "$ref": "common.schema.json#/$defs/confidence"
+    },
+    "evidence": {
+     "type": "array",
+     "items": {
+      "$ref": "common.schema.json#/$defs/evidence_ref"
+     },
+     "minItems": 1
+    }
+   },
+   "required": [
+    "value",
+    "evidence_class",
+    "confidence",
+    "evidence"
+   ],
+   "additionalProperties": false
   },
   "requirements": {
    "type": "object",
    "properties": {
-    "interaction": {
-     "type": "string"
+    "value": {
+     "type": "object",
+     "properties": {
+      "interaction": {
+       "type": "string"
+      },
+      "protection": {
+       "type": "string"
+      },
+      "mana": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "interaction",
+      "protection",
+      "mana"
+     ],
+     "additionalProperties": false
     },
-    "protection": {
-     "type": "string"
+    "evidence_class": {
+     "$ref": "common.schema.json#/$defs/evidence_class"
     },
-    "mana": {
-     "type": "string"
+    "confidence": {
+     "$ref": "common.schema.json#/$defs/confidence"
+    },
+    "evidence": {
+     "type": "array",
+     "items": {
+      "$ref": "common.schema.json#/$defs/evidence_ref"
+     },
+     "minItems": 1
     }
    },
    "required": [
-    "interaction",
-    "protection",
-    "mana"
+    "value",
+    "evidence_class",
+    "confidence",
+    "evidence"
    ],
-   "additionalProperties": true
+   "additionalProperties": false
   },
   "failure_modes": {
    "type": "array",
@@ -236,56 +527,290 @@
       "items": {
        "type": "string"
       }
+     },
+     "evidence_class": {
+      "$ref": "common.schema.json#/$defs/evidence_class"
+     },
+     "confidence": {
+      "$ref": "common.schema.json#/$defs/confidence"
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      },
+      "minItems": 1
      }
     },
     "required": [
      "id",
      "description",
-     "mitigations"
+     "mitigations",
+     "evidence_class",
+     "confidence",
+     "evidence"
     ],
     "additionalProperties": false
    }
   },
   "dependency_level": {
-   "enum": [
-    "low",
-    "medium",
-    "high",
-    "total"
-   ]
-  },
-  "power": {
    "type": "object",
    "properties": {
-    "source_ceiling": {
-     "$ref": "common.schema.json#/$defs/bracket"
+    "value": {
+     "enum": [
+      "low",
+      "medium",
+      "high",
+      "total"
+     ]
     },
-    "grok_estimated_ceiling": {
-     "$ref": "common.schema.json#/$defs/bracket"
+    "evidence_class": {
+     "$ref": "common.schema.json#/$defs/evidence_class"
     },
-    "resolved_ceiling": {
-     "$ref": "common.schema.json#/$defs/bracket"
+    "confidence": {
+     "$ref": "common.schema.json#/$defs/confidence"
     },
     "evidence": {
      "type": "array",
      "items": {
       "$ref": "common.schema.json#/$defs/evidence_ref"
-     }
+     },
+     "minItems": 1
+    }
+   },
+   "required": [
+    "value",
+    "evidence_class",
+    "confidence",
+    "evidence"
+   ],
+   "additionalProperties": false,
+   "description": "How badly the deck degrades without its commander."
+  },
+  "power": {
+   "type": "object",
+   "properties": {
+    "source_ceiling": {
+     "type": "object",
+     "properties": {
+      "value": {
+       "type": "object",
+       "properties": {
+        "value": {
+         "anyOf": [
+          {
+           "$ref": "common.schema.json#/$defs/bracket"
+          },
+          {
+           "type": "null"
+          }
+         ]
+        },
+        "label": {
+         "type": [
+          "string",
+          "null"
+         ]
+        }
+       },
+       "required": [
+        "value",
+        "label"
+       ],
+       "additionalProperties": false
+      },
+      "evidence_class": {
+       "$ref": "common.schema.json#/$defs/evidence_class"
+      },
+      "confidence": {
+       "$ref": "common.schema.json#/$defs/confidence"
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "$ref": "common.schema.json#/$defs/evidence_ref"
+       },
+       "minItems": 1
+      }
+     },
+     "required": [
+      "value",
+      "evidence_class",
+      "confidence",
+      "evidence"
+     ],
+     "additionalProperties": false,
+     "description": "What the source repo stated (class fact: a fact about the source's claim)."
+    },
+    "grok_estimated_ceiling": {
+     "type": "object",
+     "properties": {
+      "value": {
+       "type": "object",
+       "properties": {
+        "value": {
+         "$ref": "common.schema.json#/$defs/bracket"
+        },
+        "label": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "value",
+        "label"
+       ],
+       "additionalProperties": false
+      },
+      "evidence_class": {
+       "$ref": "common.schema.json#/$defs/evidence_class"
+      },
+      "confidence": {
+       "$ref": "common.schema.json#/$defs/confidence"
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "$ref": "common.schema.json#/$defs/evidence_ref"
+       },
+       "minItems": 1
+      }
+     },
+     "required": [
+      "value",
+      "evidence_class",
+      "confidence",
+      "evidence"
+     ],
+     "additionalProperties": false
+    },
+    "expected_bracket": {
+     "type": "object",
+     "properties": {
+      "value": {
+       "type": "object",
+       "properties": {
+        "value": {
+         "$ref": "common.schema.json#/$defs/bracket"
+        },
+        "floor": {
+         "type": "integer"
+        }
+       },
+       "required": [
+        "value",
+        "floor"
+       ],
+       "additionalProperties": false
+      },
+      "evidence_class": {
+       "$ref": "common.schema.json#/$defs/evidence_class"
+      },
+      "confidence": {
+       "$ref": "common.schema.json#/$defs/confidence"
+      },
+      "evidence": {
+       "type": "array",
+       "items": {
+        "$ref": "common.schema.json#/$defs/evidence_ref"
+       },
+       "minItems": 1
+      }
+     },
+     "required": [
+      "value",
+      "evidence_class",
+      "confidence",
+      "evidence"
+     ],
+     "additionalProperties": false,
+     "description": "Bracket the canonical list plays at today (Game Changers / combos floor plus judgment)."
+    },
+    "resolved_ceiling": {
+     "type": "null",
+     "description": "Only Cory resolves a ceiling (registry ceiling.resolved_ceiling)."
+    },
+    "disagreement": {
+     "type": [
+      "boolean",
+      "null"
+     ]
+    },
+    "edhrec": {
+     "anyOf": [
+      {
+       "type": "null"
+      },
+      {
+       "type": "object",
+       "properties": {
+        "value": {
+         "type": "object"
+        },
+        "evidence_class": {
+         "$ref": "common.schema.json#/$defs/evidence_class"
+        },
+        "confidence": {
+         "$ref": "common.schema.json#/$defs/confidence"
+        },
+        "evidence": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/evidence_ref"
+         },
+         "minItems": 1
+        }
+       },
+       "required": [
+        "value",
+        "evidence_class",
+        "confidence",
+        "evidence"
+       ],
+       "additionalProperties": false
+      }
+     ]
     }
    },
    "required": [
     "source_ceiling",
     "grok_estimated_ceiling",
+    "expected_bracket",
     "resolved_ceiling",
-    "evidence"
+    "disagreement",
+    "edhrec"
    ],
    "additionalProperties": false
   },
   "project_exceptions": {
-   "type": "array",
-   "items": {
-    "type": "string"
-   }
+   "type": "object",
+   "properties": {
+    "value": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "evidence_class": {
+     "$ref": "common.schema.json#/$defs/evidence_class"
+    },
+    "confidence": {
+     "$ref": "common.schema.json#/$defs/confidence"
+    },
+    "evidence": {
+     "type": "array",
+     "items": {
+      "$ref": "common.schema.json#/$defs/evidence_ref"
+     },
+     "minItems": 1
+    }
+   },
+   "required": [
+    "value",
+    "evidence_class",
+    "confidence",
+    "evidence"
+   ],
+   "additionalProperties": false
   },
   "identity_core": {
    "type": "array",
@@ -297,26 +822,92 @@
      },
      "why": {
       "type": "string"
+     },
+     "evidence_class": {
+      "$ref": "common.schema.json#/$defs/evidence_class"
+     },
+     "confidence": {
+      "$ref": "common.schema.json#/$defs/confidence"
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      },
+      "minItems": 1
      }
     },
     "required": [
      "card",
-     "why"
+     "why",
+     "evidence_class",
+     "confidence",
+     "evidence"
     ],
     "additionalProperties": false
    }
   },
   "anti_goals": {
-   "type": "array",
-   "items": {
-    "type": "string"
-   }
+   "type": "object",
+   "properties": {
+    "value": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "evidence_class": {
+     "$ref": "common.schema.json#/$defs/evidence_class"
+    },
+    "confidence": {
+     "$ref": "common.schema.json#/$defs/confidence"
+    },
+    "evidence": {
+     "type": "array",
+     "items": {
+      "$ref": "common.schema.json#/$defs/evidence_ref"
+     },
+     "minItems": 1
+    }
+   },
+   "required": [
+    "value",
+    "evidence_class",
+    "confidence",
+    "evidence"
+   ],
+   "additionalProperties": false
   },
   "thematic_constraints": {
-   "type": "array",
-   "items": {
-    "type": "string"
-   }
+   "type": "object",
+   "properties": {
+    "value": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "evidence_class": {
+     "$ref": "common.schema.json#/$defs/evidence_class"
+    },
+    "confidence": {
+     "$ref": "common.schema.json#/$defs/confidence"
+    },
+    "evidence": {
+     "type": "array",
+     "items": {
+      "$ref": "common.schema.json#/$defs/evidence_ref"
+     },
+     "minItems": 1
+    }
+   },
+   "required": [
+    "value",
+    "evidence_class",
+    "confidence",
+    "evidence"
+   ],
+   "additionalProperties": false
   },
   "construction_rules": {
    "type": "array",
@@ -328,14 +919,59 @@
      },
      "note": {
       "type": "string"
+     },
+     "evidence_class": {
+      "$ref": "common.schema.json#/$defs/evidence_class"
+     },
+     "confidence": {
+      "$ref": "common.schema.json#/$defs/confidence"
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      },
+      "minItems": 1
      }
     },
     "required": [
      "rule",
-     "note"
+     "note",
+     "evidence_class",
+     "confidence",
+     "evidence"
     ],
     "additionalProperties": false
    }
+  },
+  "supporting_features": {
+   "type": "object",
+   "properties": {
+    "value": {
+     "type": "object"
+    },
+    "evidence_class": {
+     "$ref": "common.schema.json#/$defs/evidence_class"
+    },
+    "confidence": {
+     "$ref": "common.schema.json#/$defs/confidence"
+    },
+    "evidence": {
+     "type": "array",
+     "items": {
+      "$ref": "common.schema.json#/$defs/evidence_ref"
+     },
+     "minItems": 1
+    }
+   },
+   "required": [
+    "value",
+    "evidence_class",
+    "confidence",
+    "evidence"
+   ],
+   "additionalProperties": false,
+   "description": "Regex hook matches and role counts from scripts/grixis_refine.py: supporting features only (heuristic), never the deck's identity."
   },
   "provenance": {
    "type": "object",
@@ -343,7 +979,7 @@
     "seeded_from": {
      "type": "array",
      "items": {
-      "type": "string"
+      "$ref": "common.schema.json#/$defs/evidence_ref"
      }
     },
     "reviewed_by": {
@@ -351,11 +987,15 @@
       "string",
       "null"
      ]
+    },
+    "author": {
+     "type": "string"
     }
    },
    "required": [
     "seeded_from",
-    "reviewed_by"
+    "reviewed_by",
+    "author"
    ],
    "additionalProperties": false
   }
@@ -363,10 +1003,15 @@
  "required": [
   "schema_version",
   "deck_id",
+  "slug",
   "version",
   "status",
+  "cycle",
+  "date",
+  "canonical_hash",
   "commanders",
   "plan",
+  "commander_role",
   "win_conditions",
   "engines",
   "packages",
@@ -382,6 +1027,7 @@
   "anti_goals",
   "thematic_constraints",
   "construction_rules",
+  "supporting_features",
   "provenance"
  ],
  "additionalProperties": false

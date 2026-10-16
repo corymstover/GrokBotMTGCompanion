@@ -1,0 +1,622 @@
+{
+ "schema_version": 2,
+ "deck_id": "Admiral_Beckett_Brass",
+ "slug": "admiral-beckett-brass",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 50,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+ "commanders": {
+  "value": [
+   {
+    "name": "Admiral Beckett Brass",
+    "oracle_id": "43b5e462-d860-473d-828f-6c513fc7768a",
+    "oracle_text": "Other Pirates you control get +1/+1.\nAt the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn.",
+    "oracle_sha256": "sha256:f5b422781279a6140605a6a53aa2080dd3b1e1e2dd7fe5548bc7b3110903c132",
+    "type_line": "Legendary Creature — Human Pirate"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Admiral Beckett Brass"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Pirate aggro: develop several evasive Pirates and token makers, connect with three different Pirates against one opponent, and steal their best nonland permanent at every end step while Beckett's anthem grows the team.",
+   "secondary": "Combat-damage card draw and Treasure ramp (Malcolm, Breeches, Coastal-style draw) plus a creature-theft package (Hostage Taker, Coercive Recruiter, Don Andres) that turns stolen creatures into Pirates."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+   "interaction:admiral-beckett-brass#beckett-01",
+   "interaction:admiral-beckett-brass#beckett-16"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Beckett is both the anthem and the theft engine; the deck's evasion, token and Pirate-density choices exist to meet his three-Pirate condition.",
+   "honest_note": "The three-different-Pirates-to-the-same-player condition is genuinely hard to meet through blockers, and the payoff is one steal per end step (two with Roaming Throne). Without evasion the deck is ordinary tribal aggro."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+   "interaction:admiral-beckett-brass#beckett-01",
+   "interaction:admiral-beckett-brass#beckett-02",
+   "interaction:admiral-beckett-brass#beckett-11"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "pirate-beats-and-theft",
+   "kind": "natural",
+   "description": "Wide evasive Pirate attacks pumped by lords and Beckett, stealing a blocker, rock or threat each end step until the table falls behind.",
+   "cards": [
+    "Admiral Beckett Brass",
+    "Fathom Fleet Captain",
+    "Dire Fleet Captain",
+    "Corsair Captain",
+    "Port Razer"
+   ],
+   "enablers": [
+    "Cover of Darkness",
+    "Open into Wonder",
+    "Siren Stormtamer"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+    "interaction:admiral-beckett-brass#beckett-01"
+   ]
+  },
+  {
+   "id": "port-razer-combats",
+   "kind": "natural",
+   "description": "Port Razer's extra combats let the same Pirates connect again; Beckett's tally counts damage across all combats this turn.",
+   "cards": [
+    "Port Razer"
+   ],
+   "enablers": [
+    "Lightning Greaves"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:admiral-beckett-brass#beckett-10"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "end-step-theft",
+   "cards": [
+    "Admiral Beckett Brass",
+    "Roaming Throne"
+   ],
+   "online_condition": "Three or more different Pirates dealt combat damage to one player this turn.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:admiral-beckett-brass#beckett-01",
+    "interaction:admiral-beckett-brass#beckett-02"
+   ]
+  },
+  {
+   "id": "combat-draw-and-treasure",
+   "cards": [
+    "Bident of Thassa",
+    "Kindred Discovery",
+    "Malcolm, Keen-Eyed Navigator",
+    "Breeches, Brazen Plunderer",
+    "Ramirez DePietro, Pillager",
+    "Captain Lannery Storm"
+   ],
+   "online_condition": "Pirates connect.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:evasion",
+   "required": true,
+   "min_count": 6,
+   "role": "Make three Pirates connect with the same opponent.",
+   "cards": [
+    "Changeling Outcast",
+    "Cover of Darkness",
+    "Daring Saboteur",
+    "Siren Stormtamer",
+    "Storm Fleet Sprinter",
+    "Warkite Marauder",
+    "Open into Wonder",
+    "Spectral Sailor",
+    "Spyglass Siren",
+    "Kitesail Freebooter"
+   ],
+   "candidates": [
+    "Slippery Scoundrel"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+    "interaction:admiral-beckett-brass#beckett-11"
+   ]
+  },
+  {
+   "id": "pkg:pirate-bodies-and-tokens",
+   "required": true,
+   "min_count": 5,
+   "role": "Keep enough Pirates on board to re-trigger Beckett after removal.",
+   "cards": [
+    "Fathom Fleet Captain",
+    "Daring Piracy",
+    "Kari Zev, Skyship Raider",
+    "Black Market Connections",
+    "Admiral Brass, Unsinkable",
+    "Merchant Raiders"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md"
+   ]
+  },
+  {
+   "id": "pkg:pirate-lords",
+   "required": true,
+   "min_count": 3,
+   "role": "Tribal pumps that win combats.",
+   "cards": [
+    "Admiral Beckett Brass",
+    "Dire Fleet Captain",
+    "Corsair Captain",
+    "Francisco, Fowl Marauder"
+   ],
+   "candidates": [
+    "Fell Flagship"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+    "interaction:admiral-beckett-brass#beckett-14"
+   ]
+  },
+  {
+   "id": "pkg:creature-theft",
+   "required": false,
+   "min_count": 3,
+   "role": "Steal creatures and make them Pirates (they count for Beckett).",
+   "cards": [
+    "Hostage Taker",
+    "Coercive Recruiter",
+    "Don Andres, the Renegade",
+    "Zara, Renegade Recruiter"
+   ],
+   "candidates": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:admiral-beckett-brass#beckett-04",
+    "interaction:admiral-beckett-brass#beckett-05"
+   ]
+  },
+  {
+   "id": "pkg:interaction-protection",
+   "required": true,
+   "min_count": 8,
+   "role": "Clear blockers, survive sweepers, protect the attack.",
+   "cards": [
+    "Fierce Guardianship",
+    "Deflecting Swat",
+    "Counterspell",
+    "Mana Drain",
+    "Chaos Warp",
+    "Toxic Deluge",
+    "Cyclonic Rift",
+    "Fiery Cannonade",
+    "Raise the Palisade",
+    "Lightning Greaves",
+    "Feed the Swarm"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+    "interaction:admiral-beckett-brass#beckett-07"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "three-pirates",
+   "summary": "Three different Pirates must deal combat damage to the same player this turn; theft is permanent.",
+   "cards": [
+    "Admiral Beckett Brass"
+   ],
+   "m1_refs": [
+    "beckett-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:admiral-beckett-brass#beckett-01"
+   ]
+  },
+  {
+   "id": "throne-doubles",
+   "summary": "Roaming Throne naming Pirate doubles Beckett's end-step steal (separate targets).",
+   "cards": [
+    "Roaming Throne",
+    "Admiral Beckett Brass"
+   ],
+   "m1_refs": [
+    "beckett-02",
+    "beckett-09"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:admiral-beckett-brass#beckett-02",
+    "interaction:admiral-beckett-brass#beckett-09"
+   ]
+  },
+  {
+   "id": "kari-monkey",
+   "summary": "Kari Zev's Ragavan token is a Monkey, not a Pirate: it doesn't count.",
+   "cards": [
+    "Kari Zev, Skyship Raider"
+   ],
+   "m1_refs": [
+    "beckett-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:admiral-beckett-brass#beckett-03"
+   ]
+  },
+  {
+   "id": "changelings",
+   "summary": "Changelings count as Pirates.",
+   "cards": [
+    "Changeling Outcast"
+   ],
+   "m1_refs": [
+    "beckett-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:admiral-beckett-brass#beckett-06"
+   ]
+  },
+  {
+   "id": "one-sided-sweepers",
+   "summary": "Fiery Cannonade spares Pirates; Raise the Palisade spares the chosen type.",
+   "cards": [
+    "Fiery Cannonade",
+    "Raise the Palisade"
+   ],
+   "m1_refs": [
+    "beckett-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:admiral-beckett-brass#beckett-07"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Roaming Throne",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md"
+   ]
+  },
+  {
+   "target": "Open into Wonder",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "The Indomitable"
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "interaction:admiral-beckett-brass#beckett-12"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Blocker removal and one-sided sweepers matter more than counters; keep ~8-11 interaction pieces.",
+   "protection": "Greaves plus free protection (Fierce Guardianship, Deflecting Swat); the anthem dies with Beckett.",
+   "mana": "Four-mana commander; Treasure makers and rocks; 33 lands."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+   "source_archive:refinement/verification/Admiral_Beckett_Brass_Approval_Ready_Closeout_2026-10-13.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "blocked-out",
+   "description": "Blockers or fog effects stop the third Pirate from connecting, so no steal.",
+   "mitigations": [
+    "Evasion package",
+    "Open into Wonder",
+    "Cyclonic Rift on a key turn"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+    "interaction:admiral-beckett-brass#beckett-01"
+   ]
+  },
+  {
+   "id": "sweeper-reset",
+   "description": "A board wipe removes the Pirate density the condition needs.",
+   "mitigations": [
+    "Token makers",
+    "Raise the Palisade/Cannonade are one-sided",
+    "Admiral Brass reanimates Pirates"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md"
+   ]
+  },
+  {
+   "id": "commander-removal",
+   "description": "Beckett removed repeatedly: the theft engine and anthem are gone.",
+   "mitigations": [
+    "Lightning Greaves",
+    "Free protection"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:admiral-beckett-brass#beckett-15"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+   "interaction:admiral-beckett-brass#beckett-16"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": null,
+    "label": "No source ceiling stated in the source blueprint, closeout or reconciliation records (checked Bot cycle 50)."
+   },
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+    "source_archive:refinement/verification/Admiral_Beckett_Brass_Approval_Ready_Closeout_2026-10-13.md"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 by card pool (premium tutors, free counters, fast mana) around a fair, combat-dependent commander with no compact win; low-end B4."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+    "interaction:admiral-beckett-brass#beckett-16",
+    "deck:admiral-beckett-brass"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Admiral_Beckett_Brass"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": null,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 31,
+     "2": 659,
+     "3": 281,
+     "4": 74,
+     "5": 8
+    },
+    "decks_with_bracket": 1053,
+    "share_b4_plus": 0.078,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__admiral-beckett-brass.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Admiral Beckett Brass",
+   "why": "Anthem plus the end-step theft that defines the deck.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Admiral Beckett Brass"
+   ]
+  },
+  {
+   "card": "Roaming Throne",
+   "why": "Naming Pirate doubles both Beckett's theft and the Pirate ETB/attack triggers.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:admiral-beckett-brass#beckett-09"
+   ]
+  },
+  {
+   "card": "Fathom Fleet Captain",
+   "why": "Each attack makes another Pirate token, refilling the three-Pirate count.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md"
+   ]
+  },
+  {
+   "card": "Cover of Darkness",
+   "why": "Naming Pirate gives the whole crew fear: the most direct answer to blockers.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+    "interaction:admiral-beckett-brass#beckett-11"
+   ]
+  },
+  {
+   "card": "Coercive Recruiter",
+   "why": "Every Pirate ETB steals a creature and makes it a Pirate that can attack for the count.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:admiral-beckett-brass#beckett-04"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't dilute Pirate density for generic Grixis value creatures.",
+   "Don't trim blocker removal/protection just to add more Pirates.",
+   "Don't add one-shot effects unless they convert a key combat into theft or a kill."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Pirate tribal; non-Pirate creatures need a reason (theft, protection, draw)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 704.5j",
+   "note": "Double Down copies of legendary Pirates hit the legend rule; both ETBs still happen.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:704.5j",
+    "interaction:admiral-beckett-brass#beckett-08"
+   ]
+  },
+  {
+   "rule": "CR 903.8",
+   "note": "Commander tax on a four-mana commander that is a removal magnet.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:903.8"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Pirate synergy",
+    "combat damage / attack triggers",
+    "stealing / casting opponents' cards"
+   ],
+   "hooked_cards": 42,
+   "role_counts": {
+    "counter": 4,
+    "draw": 8,
+    "protection": 2,
+    "ramp": 19,
+    "removal": 4,
+    "tutor": 3,
+    "wipe": 2
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "admiral-beckett-brass"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+   "source_archive:refinement/verification/Admiral_Beckett_Brass_Approval_Ready_Closeout_2026-10-13.md",
+   "source_archive:refinement/decklists/Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt",
+   "interaction:admiral-beckett-brass#beckett-16"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 50)"
+ }
+}
