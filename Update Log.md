@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 54 (phase 2 / M1: batch E)](#2026-10-16--bot-cycle-54-phase-2--m1-batch-e)
 - [2026-10-16 — Bot cycle 53 (M2: commander blueprints, batch 3; EDH Packages deck labels)](#2026-10-16--bot-cycle-53-m2-commander-blueprints-batch-3-edh-packages-deck-labels)
 - [2026-10-16 — Bot cycle 52 (M2: commander blueprints, batch 2)](#2026-10-16--bot-cycle-52-m2-commander-blueprints-batch-2)
 - [2026-10-16 — Bot cycle 51 (phase 2 / M1: batch D)](#2026-10-16--bot-cycle-51-phase-2--m1-batch-d)
@@ -68,6 +69,30 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 54 (phase 2 / M1: batch E)
+- **Batch E is done** (the next 10 decks alphabetically, Norman Osborn through Sol'kanar the Swamp King): **66 rulings** (62 verified, 1 uncertain, 3 flags). Overall: 52/62 decks and 533 rulings. Each review hashes the deck's canonical project list from the M0 registry (read-only). Norman Osborn and Sol'kanar the Swamp King use their source baselines. Every record carries an `evidence_class`. No decklist changed.
+- **Flags** (pilot notes, not list errors):
+  - Parnesse: Bonus Round also copies opponents' instants and sorceries cast that turn. (anti-synergy)
+  - Rograkh + Silas Renn: your own Vexing Bauble counters your free spells and {0} escapes unless Hexing Squelcher is out. (dependency-risk)
+  - Saruman: the source attestation says The Black Gate targets a player. It doesn't. (documentation)
+- **Uncertain:** parnesse-10. When an opponent retargets a shared Parnesse copy at you, the 4-life tax probably applies, but there's no official ruling.
+- **Rules surprises:**
+  - Mayhem only needs a discard earlier in the turn.
+  - Green Goblin makes Mox Amber tap for black and red.
+  - Ending the turn early only delays a "next end step" trigger that has already triggered.
+  - Throne + Staff give three upkeep triggers, not four.
+  - Samut's split second locks you out too.
+  - An X spell cast free off Summons has X=0.
+  - Countering Sauron doesn't stop his reanimation.
+  - Four Nazgûl are legal in Commander.
+  - Teferi's Veil skips Sedris's unearth exile.
+  - Sol'kanar ignores his own cast.
+  - Blanket of Night gives swampwalk against every opponent.
+- **Fixes:** Mizzix's Mastery MV corrected (4). Several CR citations were checked against the 2026-09-25 CR and corrected before saving. `lib.save` now writes atomically.
+- **Coordination:** Bot cycle 53 (M2 blueprints batch 3) belongs to the other executor. This cycle didn't touch `grixis/blueprints/*`, `data/grixis/blueprints/*`, `refinement/blueprints/*`, `data/grixis/registry*`, schemas, `grixis_refine.py` or the exception data. The registry was only read.
+- **Files:** `data/grixis_interactions/` (10 new reviews), `_batches.json` (E done), the rendered pages, deck-page Rules notes, `grixis/interactions/README.md`, `README.md`, `grixis/Grixis Integration Summary.md`, `data/kb_index.json`.
+- **Next:** batch F (10 decks, Sol'kanar the Tainted through Zevlor; The Rani is on its source baseline), then phases 3–6.
 
 ## 2026-10-16 — Bot cycle 53 (M2: commander blueprints, batch 3; EDH Packages deck labels)
 - **Batch 3: 16 decks**, Lynde, Cheerful Tormentor … Parnesse, the Subtle Brush alphabetically (Lynde, Mai and Zuko, Mairsil, Marchesa (Dealer of Death), Marchesa (the Black Rose), Mishra (Artificer Prodigy), Mishra (Eminent One), Missy, Nathan Drake, Nekusar, Nicol Bolas, Nicol Bolas (the Ravager), Norman Osborn, Obeka (Brute Chronologist), Obeka (Splitter of Seconds), Parnesse). **46/62 blueprints** in total. Same standard as batches 1–2: every field carries an `evidence_class`, a `confidence` and resolvable evidence. `resolved_ceiling` stays null and every blueprint is `seeded`. Twelve of the 16 cite M1 rulings, including the cycle 51 batch D reviews merged mid-cycle; Mishra (Artificer Prodigy) gets two M1 flags as key interactions. Mairsil's Marvin line is `test_required` because M1 marks it uncertain (mairsil-10). The four decks without an M1 review (Norman Osborn, both Obekas, Parnesse) cite source verification, Oracle text and the CR.
