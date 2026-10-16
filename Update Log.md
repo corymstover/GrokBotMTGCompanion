@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 63 (M2 and M4 accepted)](#2026-10-16--bot-cycle-63-m2-and-m4-accepted)
 - [2026-10-16 — Bot cycle 62 (M1 and M3 accepted; Cory's blueprint review and corrections)](#2026-10-16--bot-cycle-62-m1-and-m3-accepted-corys-blueprint-review-and-corrections)
 - [2026-10-16 — Bot cycle 61 (M5 constraint fixes)](#2026-10-16--bot-cycle-61-m5-constraint-fixes)
 - [2026-10-16 — Bot cycle 60 (M5: candidate deep dive)](#2026-10-16--bot-cycle-60-m5-candidate-deep-dive)
@@ -83,6 +84,12 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 63 (M2 and M4 accepted)
+
+- **Summary:** recorded Cory's acceptance of M2 (Commander Blueprints) and M4 (dependency graphs and 99-slot audits), chat t52u, 2026-10-16T19:02Z, with his scope verbatim in `data/grixis/registry.json` (`program.milestones.M2`, `.M4`). Milestone acceptance only: it approves no decklist, challenger, swap, M5 conclusion or refinement result; no deck may move to APPROVED or CANONICAL_LOCKED without Cory's per-deck sign-off. M5 stays exploratory pending his freshness review; sequence: M5 review/acceptance, final clean validation and freeze snapshot, then M6.
+- **Files:** `data/grixis/registry.json`, `grixis/Grixis Authority Model.md`, `Update Log.md`.
+- **Reason:** Cory's explicit acceptance after the cycle-62 correction pass (PR #140, validate_all 29/29 PASS).
 
 ## 2026-10-16 — Bot cycle 62 (M1 and M3 accepted; Cory's blueprint review and corrections)
 - **62.1, Thraximundar retraction (Cory t49u):** Thraximundar {4}{U}{B}{R} is **mana value 7**. GrokBot's cycle-55 claim `mana-value-six` and its "source error flagged" note were **our error**, and the source's "seven-mana" was correct.

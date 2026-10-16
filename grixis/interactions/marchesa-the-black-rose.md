@@ -9,13 +9,13 @@ schema: 2
 
 # Marchesa, the Black Rose — Interaction Review
 
-> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Marchesa, the Black Rose](../decks/marchesa-the-black-rose.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Marchesa, the Black Rose](../decks/marchesa-the-black-rose.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/marchesa-the-black-rose.txt`](../../exports/grixis-archidekt/marchesa-the-black-rose.txt) · SHA-256 `cbea04a72dd309e4d99dcbffc8d4c8674a6c0d5ba4533a668a28e2dcd564131a` |
 | Rulings | **11** (11 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Marchesa_the_Black_Rose_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/marchesa_the_black_rose_2026-10-15/Marchesa_the_Black_Rose_Rules_Attestation.json) (13 interactions, all PASS) |
 
 ## Contents

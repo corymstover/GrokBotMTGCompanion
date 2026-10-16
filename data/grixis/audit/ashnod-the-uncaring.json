@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
- "pass_id": "audit:ashnod-the-uncaring:c59:f4ead277bc7d",
+ "pass_id": "audit:ashnod-the-uncaring:c59:b5413030989f",
  "snapshot": {
-  "id": "sha256:f4ead277bc7dd1c88ea365c20575c13922cdca6838d54b9de16045efd19bbcc5",
-  "graph": "sha256:de4af2b4c4804fbffc37f8b95f3a95bf079f8b2678b4bb5e372af83bd096de2c",
-  "evidence": "sha256:806b112c8bbef6ae93365d7b5d30e51974fe5704494f4e953e56045e37579818",
+  "id": "sha256:b5413030989f012a2fe6a4f66daf4947daed6946a85c048b430d601e82a41eea",
+  "graph": "sha256:16cba243d97256e0a76340cc99b1d65d894bcaaafe8a6d70d93a837808420e1d",
+  "evidence": "sha256:03880f66738abdb0282cb9af9149b64f2606df9724d72edcafa634b04213585e",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 187,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:806b112c8bbef6ae93365d7b5d30e51974fe5704494f4e953e56045e37579818"
+  "snapshot": "sha256:03880f66738abdb0282cb9af9149b64f2606df9724d72edcafa634b04213585e"
  },
  "slots": [
   {"card":"Academy Ruins","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["land"],"packages":["pkg:artifact-recursion"],"blueprint_refs":["blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion","blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value"],"graph_refs":["graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Academy Ruins"],"alternatives":["evidence:data/grixis/evidence/ashnod-the-uncaring.json#Mistvault Bridge"],"redundancy":9,"reason":"functional retain (legendary land, makes C): required package pkg:artifact-recursion. Oracle: “{T}: Add {C}”. Land (33 in list). Packages pkg:artifact-recursion. Redundancy 9 (other cards in its package(s)). Best alternative: Mistvault Bridge (shared key role, EDHREC 42%). EDHREC inclusion 35.3%, synergy +0.31. Blueprint names it in packages/pkg:artifact-recursion, recursion/value.","evidence":["blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion","blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value","evidence:data/grixis/evidence/ashnod-the-uncaring.json#Academy Ruins","graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Academy Ruins","oracle:Academy Ruins"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1,"strategic_judgment":2},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

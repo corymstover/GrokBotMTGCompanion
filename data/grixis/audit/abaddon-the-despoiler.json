@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
- "pass_id": "audit:abaddon-the-despoiler:c59:55d0cb2ad07e",
+ "pass_id": "audit:abaddon-the-despoiler:c59:e7d80a7780ff",
  "snapshot": {
-  "id": "sha256:55d0cb2ad07e88f9fa6320a835784b1f80a72c462cc67d4d6f3f6c4ba3ba8db9",
-  "graph": "sha256:b877affb0d6039e018cb598bba7fb91fa0e134fb26d205587204fa79cf8e9f81",
-  "evidence": "sha256:97ed555e9efe79de95c2c4a64ef354aba262642e00f6a5da9e3999b81254708b",
+  "id": "sha256:e7d80a7780ffea0be66d273bcbae605aa69847d22fd910a10131924e41aac0ee",
+  "graph": "sha256:402d5cf284efa8b9a591345a6d858bd0ef3a861b7b0d50c19062c4457c95022e",
+  "evidence": "sha256:0fc4f87a143232a8b30c8d138613e438af918da3f2bc077fb4968c31b41b75a0",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -144,7 +144,7 @@
   "screened": 192,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:97ed555e9efe79de95c2c4a64ef354aba262642e00f6a5da9e3999b81254708b"
+  "snapshot": "sha256:0fc4f87a143232a8b30c8d138613e438af918da3f2bc077fb4968c31b41b75a0"
  },
  "slots": [
   {"card":"Ancestral Vision","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["draw"],"packages":["pkg:cascade-spells"],"blueprint_refs":["blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:cascade-spells"],"graph_refs":["graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Ancestral Vision"],"alternatives":["evidence:data/grixis/evidence/abaddon-the-despoiler.json#Deny Reality"],"redundancy":4,"reason":"functional retain (MV 0 sorcery; simulator models draw 3, suspend): required package pkg:cascade-spells. Oracle: “Suspend 4—{U}”. Role draw (7 in list). Packages pkg:cascade-spells. Redundancy 4 (other cards in its package(s)). Best alternative: Deny Reality (blueprint package candidate, EDHREC 38%). EDHREC inclusion 49.5%, synergy +0.47. Blueprint names it in packages/pkg:cascade-spells.","evidence":["blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:cascade-spells","evidence:data/grixis/evidence/abaddon-the-despoiler.json#Ancestral Vision","graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Ancestral Vision","oracle:Ancestral Vision"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

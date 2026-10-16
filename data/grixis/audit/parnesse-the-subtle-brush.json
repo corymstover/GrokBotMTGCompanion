@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
- "pass_id": "audit:parnesse-the-subtle-brush:c59:4cc5ca1d2cdb",
+ "pass_id": "audit:parnesse-the-subtle-brush:c59:d63a6b7a80f3",
  "snapshot": {
-  "id": "sha256:4cc5ca1d2cdb24e7f6ec709f32d36de8ccb6a698c71a41bf7d620291fb1e65e4",
-  "graph": "sha256:e9a2ecab06709efaacf04619c6d4857aba02429135472bc3f0eeecab18979e54",
-  "evidence": "sha256:50dab2695e15ec50767a84d954798d1379edf22c5bd664897503ccfc0693ab2b",
+  "id": "sha256:d63a6b7a80f33a5d968749b85a914d250c6028645ec4cf80a84c9606b16ecb20",
+  "graph": "sha256:81c37a91df3444ca19604ea4b7c8a06febaf40d046acea660df9605efaaaffc9",
+  "evidence": "sha256:279f28defbe816c9c3248d631142b44d6640f7184b58491abb02fd132bacb9cc",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 194,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:50dab2695e15ec50767a84d954798d1379edf22c5bd664897503ccfc0693ab2b"
+  "snapshot": "sha256:279f28defbe816c9c3248d631142b44d6640f7184b58491abb02fd132bacb9cc"
  },
  "slots": [
   {"card":"Alania, Divergent Storm","quantity":1,"zone":"main","disposition":"strong_retain","review_status":"provisional","classifier":"script","roles":["draw"],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"],"graph_refs":["graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Alania, Divergent Storm","graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:3368-5959","graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-5959","graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:5026-5959","graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:5940-5959"],"alternatives":["evidence:data/grixis/evidence/parnesse-the-subtle-brush.json#Resonating Lute","graph:data/grixis/graph/parnesse-the-subtle-brush.json#card:Jeska's Will","graph:data/grixis/graph/parnesse-the-subtle-brush.json#card:Mana Geyser","graph:data/grixis/graph/parnesse-the-subtle-brush.json#card:Narset's Reversal","graph:data/grixis/graph/parnesse-the-subtle-brush.json#card:Prismari, the Inspiration","graph:data/grixis/graph/parnesse-the-subtle-brush.json#card:Pyromancer's Goggles","graph:data/grixis/graph/parnesse-the-subtle-brush.json#card:Thousand-Year Storm"],"redundancy":6,"reason":"strong retain ({3}{U}{R} legendary creature): piece of 4 Spellbook combo(s). Oracle: “Whenever you cast a spell, if it's the first instant spell, the first sorcery…”. Role draw (9 in list). Removing it breaks 4: combo:3368-5959, combo:4285-5959, combo:5026-5959…. Redundancy 6 (interchangeable Spellbook pieces). Interchangeable with Jeska's Will, Mana Geyser, Narset's Reversal. Best alternative: Resonating Lute (shared key role, EDHREC 28%). EDHREC inclusion 41.1%, synergy +0.40. Blueprint names it in win_conditions/copy-mana-loops.","evidence":["blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops","evidence:data/grixis/evidence/parnesse-the-subtle-brush.json#Alania, Divergent Storm","graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Alania, Divergent Storm","oracle:Alania, Divergent Storm","spellbook:3368-5959","spellbook:4285-5959","spellbook:5026-5959","spellbook:5940-5959"],"structural_necessity":"important","evidence_classes":{"derived_metric":1,"fact":5,"heuristic":1,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

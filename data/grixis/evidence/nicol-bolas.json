@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:d3880af718161d71e850124fe58c8235823e7f8c9bc83768a70c69f745010941",
+  "id": "sha256:e3911b0607a156c5f21518430187b9ef1672e6dc0755112f2b24aba5e3763d8b",
   "inputs": {
    ".cache/edhrec/commanders__nicol-bolas.json": "sha256:4f1a1d289cb52ff16392a3ed23009d39cfff8d30246a8ec48919ed87441ae613",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/nicol-bolas.json": "sha256:29659d4f3923c8e34201efccf8764b6dcfc8da51b1a8357253d92c7333b689f2",
    "grixis/decks/nicol-bolas.md": "sha256:1b11d9ed8c1c87701e7272433e015a11c36fc656a6b7eff7584ae22b018f12ae",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

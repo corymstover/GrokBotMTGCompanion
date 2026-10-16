@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
- "pass_id": "audit:don-andres-the-renegade:c59:e18749d40e68",
+ "pass_id": "audit:don-andres-the-renegade:c59:bbc605113151",
  "snapshot": {
-  "id": "sha256:e18749d40e681b402f000976684abaa3def156f03c2c649afe2c531bdebab6c5",
-  "graph": "sha256:8224a054505a2f340a3a53e29cd2af89d3202a9d17bd6eb1238b4556f438030c",
-  "evidence": "sha256:729092bc7a7bc38dd82a2f643343a7222884aead5ac810a7a8009c1ab4cf6ce8",
+  "id": "sha256:bbc605113151cdd61ef1cce075bb2642172144b53497938b78de4c3468be7310",
+  "graph": "sha256:577d7518ca0fc842cd0ab76fe16f49aa8011435964ce4ff7d49590916c7c6f06",
+  "evidence": "sha256:d462950e95e6250b48b4733f684d44c9ffb537a07c56142cfec9326310bfccf1",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -131,7 +131,7 @@
   "screened": 191,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:729092bc7a7bc38dd82a2f643343a7222884aead5ac810a7a8009c1ab4cf6ce8"
+  "snapshot": "sha256:d462950e95e6250b48b4733f684d44c9ffb537a07c56142cfec9326310bfccf1"
  },
  "slots": [
   {"card":"Admiral Beckett Brass","quantity":1,"zone":"main","disposition":"core","review_status":"provisional","classifier":"script","roles":["removal"],"packages":["pkg:pirate-payoffs"],"blueprint_refs":["blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs","blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value","blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/beckett-theft"],"graph_refs":["graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Admiral Beckett Brass","graph:data/grixis/graph/don-andres-the-renegade.json#win:beckett-theft"],"alternatives":["evidence:data/grixis/evidence/don-andres-the-renegade.json#Agent of Treachery"],"redundancy":5,"reason":"core ({1}{U}{B}{R} legendary creature): necessary: win:beckett-theft. Oracle: “Other Pirates you control get +1/+1”. Role removal (8 in list). Packages pkg:pirate-payoffs. Removing it breaks 1: win:beckett-theft. Redundancy 5 (other cards in its package(s)). Best alternative: Agent of Treachery (shared key role, EDHREC 30%). EDHREC inclusion 58.8%, synergy +0.55. Blueprint names it in plan/value, win_conditions/beckett-theft, packages/pkg:pirate-payoffs.","evidence":["blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs","blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value","blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/beckett-theft","evidence:data/grixis/evidence/don-andres-the-renegade.json#Admiral Beckett Brass","graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Admiral Beckett Brass","oracle:Admiral Beckett Brass"],"structural_necessity":"necessary","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1,"strategic_judgment":3},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

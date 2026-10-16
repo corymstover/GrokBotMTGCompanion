@@ -9,13 +9,13 @@ schema: 2
 
 # Sol'Kanar the Tainted — Interaction Review
 
-> Bot cycle 56 · batch F · reviewed 2026-10-16. Deck: [Sol'Kanar the Tainted](../decks/solkanar-the-tainted.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 56 · batch F · reviewed 2026-10-16. Deck: [Sol'Kanar the Tainted](../decks/solkanar-the-tainted.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/solkanar-the-tainted.txt`](../../exports/grixis-archidekt/solkanar-the-tainted.txt) · SHA-256 `b1e622ad8c0a49e626d9df8cc87c0def392bb9c13e907216a8b212b790f3fc24` |
 | Rulings | **8** (6 verified · 0 uncertain · 2 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Solkanar_the_Tainted_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/solkanar_tainted_2026-10-15/gate_output/Solkanar_the_Tainted_Rules_Attestation.json) (Rules attestation (14 items, all PASS) re-verified) · [`Solkanar_the_Tainted_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Solkanar_the_Tainted_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification) |
 
 ## Contents

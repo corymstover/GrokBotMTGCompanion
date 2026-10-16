@@ -16,7 +16,7 @@
 - ✅ each names identity core (≥3), anti-goals, required packages with min counts, win conditions, failure modes (≥2), tutor targets, construction rules — 62/62 complete
 - ✅ each has grok_estimated_ceiling with evidence and a disagreement flag where it differs from the source — 62/62 estimated
 - ✅ Cory has reviewed the sample he chooses (status cory_reviewed) — 8 reviewed
-- ⏳ Cory accepted M2 (registry program.milestones.M2) — in_progress
+- ✅ Cory accepted M2 (registry program.milestones.M2) — accepted
 
 ## Blueprints
 

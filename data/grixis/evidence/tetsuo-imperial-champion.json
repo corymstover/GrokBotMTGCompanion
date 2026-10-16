@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:9c47636b391d9241d1c54323ca49c870659fe47bb67aaead3863d23589d73f65",
+  "id": "sha256:a158681323abe8f06f443b7ad2d1c58f7061a136c454fdbcdd9a3eebbfd93c0e",
   "inputs": {
    ".cache/edhrec/commanders__tetsuo-imperial-champion.json": "sha256:9e23d7b2305948ea0c57abc3ecb2577244b16a9337a94fe23bf228b170822ae5",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/tetsuo-imperial-champion.json": "sha256:f494a6670222f87657d10c3b7de4b7b3b852aaf2e7eee38ae8dd5d1e0b851a95",
    "grixis/decks/tetsuo-imperial-champion.md": "sha256:d915f271d8592cb7e441aefea5d75f987a6a9ad5616a6c25e67eaca65746d51b",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

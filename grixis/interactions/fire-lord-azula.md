@@ -9,13 +9,13 @@ schema: 2
 
 # Fire Lord Azula — Interaction Review
 
-> Bot cycle 48 · batch B · reviewed 2026-10-16. Deck: [Fire Lord Azula](../decks/fire-lord-azula.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 48 · batch B · reviewed 2026-10-16. Deck: [Fire Lord Azula](../decks/fire-lord-azula.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/fire-lord-azula.txt`](../../exports/grixis-archidekt/fire-lord-azula.txt) · SHA-256 `e52f1cbbf1b17f3e3cef0ef9d466e93bdf5e85bc4d32ac5f2856b4bd2b36fda4` |
 | Rulings | **12** (12 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Fire_Lord_Azula_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json) (15 interactions, all PASS (Samut and Final Fortune items refer to cards not in the current list)) |
 
 ## Contents

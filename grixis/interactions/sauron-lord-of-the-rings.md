@@ -9,13 +9,13 @@ schema: 2
 
 # Sauron, Lord of the Rings — Interaction Review
 
-> Bot cycle 54 · batch E · reviewed 2026-10-16. Deck: [Sauron, Lord of the Rings](../decks/sauron-lord-of-the-rings.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 54 · batch E · reviewed 2026-10-16. Deck: [Sauron, Lord of the Rings](../decks/sauron-lord-of-the-rings.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/sauron-lord-of-the-rings.txt`](../../exports/grixis-archidekt/sauron-lord-of-the-rings.txt) · SHA-256 `0db8b7c1b7a77f9964a14812dffb9d58f37e40a91c6152fc20e33b3917077c90` |
 | Rulings | **5** (5 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Sauron_Lord_of_the_Rings_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json) (Rules attestation (14 items, all PASS) re-verified) · [`Sauron_Lord_of_the_Rings_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Sauron_Lord_of_the_Rings_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification) |
 
 ## Contents

@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:c51028803f02c57555b1a7d3fafd5d250aac5f3fd489ab94761056b9f069708a",
+  "id": "sha256:150a81a662f7e16d0915be050bfe48d01f18d23ad4f12e09b7dbae1d7e6bc883",
   "inputs": {
    ".cache/edhrec/commanders__cult-of-skaro.json": "sha256:e0bb924b85ea31888e6aa158827e6e20db6e32cadda385248b397dbf6d33ff36",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/cult-of-skaro.json": "sha256:b0388a33dddfa0a8da595f74e2f97c1119a4c010043503507a15774064e1de2c",
    "grixis/decks/cult-of-skaro.md": "sha256:67dfb4bce10af5480dfb643bf01869b6f5a3a313dba9bd2a6defab453bb071de",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

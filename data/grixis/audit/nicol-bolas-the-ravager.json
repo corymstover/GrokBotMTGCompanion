@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
- "pass_id": "audit:nicol-bolas-the-ravager:c59:66fc2d2c716b",
+ "pass_id": "audit:nicol-bolas-the-ravager:c59:f3fe7d30ff10",
  "snapshot": {
-  "id": "sha256:66fc2d2c716bfaf027ceacff96e0de5b23de060a56f532bb91f3044dd8a535a1",
-  "graph": "sha256:3e83c0bb102523245db109cafb75fe0c2e1960de45cf9216627784b5e3d0376d",
-  "evidence": "sha256:800543320d260cb96aaa8660aaddc85a43ecf55c96b99229ee61cf1859233e76",
+  "id": "sha256:f3fe7d30ff10800a889c5e2b89513fe33ba4a0d45a6f82c3db969a11733abcfe",
+  "graph": "sha256:f3ace94f7893233b97967100967df23e7df718d98e595f07ed0f0c6f2f8f5901",
+  "evidence": "sha256:1bc0cd9b639915d2b815aa9075b742a6851f6214a981d9e30c40a1d6bcbae321",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 214,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:800543320d260cb96aaa8660aaddc85a43ecf55c96b99229ee61cf1859233e76"
+  "snapshot": "sha256:1bc0cd9b639915d2b815aa9075b742a6851f6214a981d9e30c40a1d6bcbae321"
  },
  "slots": [
   {"card":"An Offer You Can't Refuse","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["counter","ramp"],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"],"graph_refs":["graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/An Offer You Can't Refuse"],"alternatives":["evidence:data/grixis/evidence/nicol-bolas-the-ravager.json#Countersquall"],"redundancy":20,"reason":"functional retain ({U} instant): role counter, ramp. Oracle: “Counter target noncreature spell”. Role counter (5 in list), ramp (17 in list). Redundancy 20 (other cards sharing a key role). Best alternative: Countersquall (shared key role, EDHREC 19%). EDHREC inclusion 22.3%, synergy -0.10. Blueprint names it in requirements/value.","evidence":["blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value","evidence:data/grixis/evidence/nicol-bolas-the-ravager.json#An Offer You Can't Refuse","graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/An Offer You Can't Refuse","oracle:An Offer You Can't Refuse"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":2,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

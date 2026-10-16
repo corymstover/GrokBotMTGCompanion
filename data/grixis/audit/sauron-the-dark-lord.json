@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
- "pass_id": "audit:sauron-the-dark-lord:c59:a19bf07e20de",
+ "pass_id": "audit:sauron-the-dark-lord:c59:1a44db8d91c5",
  "snapshot": {
-  "id": "sha256:a19bf07e20dea5846447d8f01c5ecebca7c15e8ce2b6350c940d9d04aea7c6fd",
-  "graph": "sha256:bbb6dc181c20f7cde2c23161dbb1372ebb85ab4dfcdba66becc4cc3c202336a5",
-  "evidence": "sha256:91d82c90078edd06f95a7da5386e8ec9cc42f9e169191827f6c2f87047c6446e",
+  "id": "sha256:1a44db8d91c55f437992e473d5ca28e31521cedbaf50f648cbdc6c3b75146a7b",
+  "graph": "sha256:df5187e48c964ea115e3a295e9fd1c6c8e02f2485b99cad233b9a838d000a9b0",
+  "evidence": "sha256:7bee1c129ea4bfd5a76e889cb8a94c8e5d0143b0958a093afbf3fc803fecf3a2",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -131,7 +131,7 @@
   "screened": 204,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:91d82c90078edd06f95a7da5386e8ec9cc42f9e169191827f6c2f87047c6446e"
+  "snapshot": "sha256:7bee1c129ea4bfd5a76e889cb8a94c8e5d0143b0958a093afbf3fc803fecf3a2"
  },
  "slots": [
   {"card":"Ancient Tomb","quantity":1,"zone":"main","disposition":"flexible","review_status":"provisional","classifier":"script","roles":["land"],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/sauron-the-dark-lord.json#metrics/Ancient Tomb"],"alternatives":["evidence:data/grixis/evidence/sauron-the-dark-lord.json#Sulfurous Springs"],"redundancy":33,"reason":"flexible (land, makes C): 33 other lands sharing a colour. Oracle: “{T}: Add {C}{C}”. Land (34 in list). Redundancy 33 (other lands sharing a colour). Best alternative: Sulfurous Springs (shared key role, EDHREC 51%). EDHREC inclusion 14.5%, synergy +0.02.","evidence":["evidence:data/grixis/evidence/sauron-the-dark-lord.json#Ancient Tomb","graph:data/grixis/graph/sauron-the-dark-lord.json#metrics/Ancient Tomb","oracle:Ancient Tomb"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

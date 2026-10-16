@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
- "pass_id": "audit:the-madcap-jester:c59:d8c34bb61855",
+ "pass_id": "audit:the-madcap-jester:c59:ebeb1fd38768",
  "snapshot": {
-  "id": "sha256:d8c34bb6185512849b5db9e04e684c8177dd331138262fe1f7b7dc4f334c42ef",
-  "graph": "sha256:957b719da140326ad2db43497c123db9fdd05ef71e3ce123793c6b8052500014",
-  "evidence": "sha256:e6eb368247f71c1b228d468cf0d92860ef8fcf8bbc09c0d23a61da9576501983",
+  "id": "sha256:ebeb1fd38768edd5f60906542c275d16d87ce8223290b30c89aa6a42cde655a7",
+  "graph": "sha256:c70e845149b175f2c880b2383812ae91b1a54c0e488c84d8347e8b16306f025d",
+  "evidence": "sha256:89066758936d0f23973b487393dc510c46f743e184551340c8cee2e726bd3385",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -144,7 +144,7 @@
   "screened": 192,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:e6eb368247f71c1b228d468cf0d92860ef8fcf8bbc09c0d23a61da9576501983"
+  "snapshot": "sha256:89066758936d0f23973b487393dc510c46f743e184551340c8cee2e726bd3385"
  },
  "slots": [
   {"card":"Ancient Tomb","quantity":1,"zone":"main","disposition":"flexible","review_status":"provisional","classifier":"script","roles":["land"],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/the-madcap-jester.json#metrics/Ancient Tomb"],"alternatives":["evidence:data/grixis/evidence/the-madcap-jester.json#Urborg, Tomb of Yawgmoth"],"redundancy":33,"reason":"flexible (land, makes C): 33 other lands sharing a colour. Oracle: “{T}: Add {C}{C}”. Land (34 in list). Redundancy 33 (other lands sharing a colour). Best alternative: Urborg, Tomb of Yawgmoth (shared key role, EDHREC 32%). EDHREC inclusion 17.6%, synergy +0.05.","evidence":["evidence:data/grixis/evidence/the-madcap-jester.json#Ancient Tomb","graph:data/grixis/graph/the-madcap-jester.json#metrics/Ancient Tomb","oracle:Ancient Tomb"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

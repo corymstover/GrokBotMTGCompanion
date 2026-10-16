@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
- "pass_id": "audit:tetsuo-imperial-champion:c59:149ef3ee99d5",
+ "pass_id": "audit:tetsuo-imperial-champion:c59:3705770c592e",
  "snapshot": {
-  "id": "sha256:149ef3ee99d51ca8f6b18905e4d899f87a2f7d3fd8d56a61400b7b9c086bb886",
-  "graph": "sha256:0b4b33fd42455597d839bfc2bf18e63127a906902dccfd6fea7c04bc6aa46bc8",
-  "evidence": "sha256:9c47636b391d9241d1c54323ca49c870659fe47bb67aaead3863d23589d73f65",
+  "id": "sha256:3705770c592ec820c9ec30a79b875abd5213f9255e1bbcc6407c1d81408ee731",
+  "graph": "sha256:aa0962e0f1d19b277619e534b5fd9802768c28b9e4e59ec781b953ff857c35d2",
+  "evidence": "sha256:a158681323abe8f06f443b7ad2d1c58f7061a136c454fdbcdd9a3eebbfd93c0e",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -144,7 +144,7 @@
   "screened": 211,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:9c47636b391d9241d1c54323ca49c870659fe47bb67aaead3863d23589d73f65"
+  "snapshot": "sha256:a158681323abe8f06f443b7ad2d1c58f7061a136c454fdbcdd9a3eebbfd93c0e"
  },
  "slots": [
   {"card":"Academy Ruins","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["land"],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#failure_modes/equipment-hate","blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#recursion/value"],"graph_refs":["graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Academy Ruins"],"alternatives":["evidence:data/grixis/evidence/tetsuo-imperial-champion.json#Rogue's Passage"],"redundancy":34,"reason":"functional retain (legendary land, makes C): role land. Oracle: “{T}: Add {C}”. Land (35 in list). Redundancy 34 (other lands sharing a colour). Best alternative: Rogue's Passage (shared key role, EDHREC 56%). EDHREC inclusion 33.5%, synergy +0.30. Blueprint names it in recursion/value, failure_modes/equipment-hate.","evidence":["blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#failure_modes/equipment-hate","blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#recursion/value","evidence:data/grixis/evidence/tetsuo-imperial-champion.json#Academy Ruins","graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Academy Ruins","oracle:Academy Ruins"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1,"strategic_judgment":2},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

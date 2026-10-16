@@ -9,13 +9,13 @@ schema: 2
 
 # Nicol Bolas, the Ravager // Nicol Bolas, the Arisen — Interaction Review
 
-> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen](../decks/nicol-bolas-the-ravager.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen](../decks/nicol-bolas-the-ravager.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/nicol-bolas-the-ravager.txt`](../../exports/grixis-archidekt/nicol-bolas-the-ravager.txt) · SHA-256 `ff0f90a467b05c94bdf58371d37a848946877ec707115ac5e47c2260bc40c1f4` |
 | Rulings | **8** (8 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification; rules sections 5–16 re-checked against Oracle, rulings and CR) |
 
 ## Contents

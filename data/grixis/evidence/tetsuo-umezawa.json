@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:1edede2110091111418093b5ea57264068b8fdd23d722ba50b569059d54e64e1",
+  "id": "sha256:2c7149a69eba00fe98269d49ecd6fcd123a6ecfc891c4ec0994abd886aae0a47",
   "inputs": {
    ".cache/edhrec/commanders__tetsuo-umezawa.json": "sha256:0f769aca53d28d2eda94125b6179ee036a7bd55c27f60c0d5147646cb7b65162",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/tetsuo-umezawa.json": "sha256:8df2799bce1a0e0a914e3a9f4018aea6bbae361d636a0be92e9017424c6b3165",
    "grixis/decks/tetsuo-umezawa.md": "sha256:df09ab880fe05d3a9b43c42f5aff1c587a2f89a8df8916abc7159aad769c379e",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

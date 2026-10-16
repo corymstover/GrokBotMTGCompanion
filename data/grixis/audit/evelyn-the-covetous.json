@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
- "pass_id": "audit:evelyn-the-covetous:c59:4d0b9b7aecaa",
+ "pass_id": "audit:evelyn-the-covetous:c59:539aa773eb6e",
  "snapshot": {
-  "id": "sha256:4d0b9b7aecaa768e9d16293a5756f8fe0668e56b2e981304b0186b6acfc840a0",
-  "graph": "sha256:8ebbdc0431bbb42bd604f2f0b47e61e9fac831e43c7a78eaee5554b200f00755",
-  "evidence": "sha256:11d8e5491763ff5064562ba460f5ec396159c35be9fca5068abbeb4414efb086",
+  "id": "sha256:539aa773eb6ecba0a768d390bc3401034673fe3ba964b479c9271001c06c8827",
+  "graph": "sha256:76caf04d632a61d4a31cbe8fbe043d89928594bc1ff888459440c459f9698ae7",
+  "evidence": "sha256:d3f87e70806741824e0c525a4833bf24dd0988ac946257b3c8947fc52779b0ea",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 231,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:11d8e5491763ff5064562ba460f5ec396159c35be9fca5068abbeb4414efb086"
+  "snapshot": "sha256:d3f87e70806741824e0c525a4833bf24dd0988ac946257b3c8947fc52779b0ea"
  },
  "slots": [
   {"card":"Ad Nauseam","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/evelyn-the-covetous.json#engines/fast-mana-tutors"],"graph_refs":["graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Ad Nauseam"],"alternatives":[],"redundancy":0,"reason":"weak retain ({3}{B}{B} instant): no structure; blueprint mention. Oracle: “Reveal the top card of your library and put that card into your hand”. Redundancy 0 (no shared job). No EDHREC row. Blueprint names it in engines/fast-mana-tutors.","evidence":["blueprint:data/grixis/blueprints/evelyn-the-covetous.json#engines/fast-mana-tutors","graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Ad Nauseam","oracle:Ad Nauseam"],"structural_necessity":"independent","evidence_classes":{"fact":1,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":false},

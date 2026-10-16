@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
- "pass_id": "audit:edward-kenway:c59:5a328044f1b8",
+ "pass_id": "audit:edward-kenway:c59:ce451fe6b582",
  "snapshot": {
-  "id": "sha256:5a328044f1b8995a4cc11d07ffcdcd9b98c7f05a8b8a691cabb7305a62725d99",
-  "graph": "sha256:26440c418177059a291c517d39a46f8ee31b5798b4616db4ca4c35d77045f78a",
-  "evidence": "sha256:a49c71bdf22ba97c209bd75e56ae77373c08ffc9d6afdbcc215f1b5c28a6df4c",
+  "id": "sha256:ce451fe6b58259134e5df087e0d8c7bb689a0a6f72380a3a39ea617455038810",
+  "graph": "sha256:82f239fdf87709756eba4a108e9c87abf3deecb942db05b815129c2e9a5c96d7",
+  "evidence": "sha256:2d2b3c53f1feb93ee187ab6da09fe4f22d7309cd3bdb9194c631ac260754d63b",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -142,7 +142,7 @@
   "screened": 208,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:a49c71bdf22ba97c209bd75e56ae77373c08ffc9d6afdbcc215f1b5c28a6df4c"
+  "snapshot": "sha256:2d2b3c53f1feb93ee187ab6da09fe4f22d7309cd3bdb9194c631ac260754d63b"
  },
  "slots": [
   {"card":"Academy Manufactor","quantity":1,"zone":"main","disposition":"core","review_status":"provisional","classifier":"script","roles":["ramp"],"packages":["pkg:time-sieve"],"blueprint_refs":["blueprint:data/grixis/blueprints/edward-kenway.json#engines/end-step-treasure","blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Academy Manufactor","blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/fateful-deck-out","blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/manufactor","blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:time-sieve","blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/edward-time-sieve"],"graph_refs":["graph:data/grixis/graph/edward-kenway.json#metrics/Academy Manufactor","graph:data/grixis/graph/edward-kenway.json#combo:1558-4231-4508"],"alternatives":["evidence:data/grixis/evidence/edward-kenway.json#Corsair Captain"],"redundancy":3,"reason":"core ({3} artifact creature): identity core. Oracle: “If you would create a Clue, Food, or Treasure token, instead create one of ea…”. Role ramp (30 in list). Packages pkg:time-sieve. Removing it breaks 1: combo:1558-4231-4508. Redundancy 3 (other cards in its package(s)). Best alternative: Corsair Captain (shared key role, EDHREC 57%). EDHREC inclusion 21.4%, synergy +0.20. Blueprint names it in win_conditions/edward-time-sieve, engines/end-step-treasure, packages/pkg:time-sieve. M1: edward-08 (dependency-risk) (recorded, not applied).","evidence":["blueprint:data/grixis/blueprints/edward-kenway.json#engines/end-step-treasure","blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Academy Manufactor","blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/fateful-deck-out","blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/manufactor","blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:time-sieve","blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/edward-time-sieve","evidence:data/grixis/evidence/edward-kenway.json#Academy Manufactor","graph:data/grixis/graph/edward-kenway.json#metrics/Academy Manufactor","oracle:Academy Manufactor","review:data/grixis_interactions/edward-kenway.json#edward-08","spellbook:1558-4231-4508"],"structural_necessity":"important","evidence_classes":{"derived_metric":1,"fact":3,"heuristic":1,"strategic_judgment":6},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[{"interaction":"edward-08","status":"flag","kind":"dependency-risk","ref":"review:data/grixis_interactions/edward-kenway.json#edward-08"}],"complete_eligible":true},

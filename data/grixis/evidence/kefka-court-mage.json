@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:fc226f7ea16264c5d91804c98f8b75fc75e8def969aff7229855d8e54a341f25",
+  "id": "sha256:acf3f03958217c19d7a086fdf13d3d5214020680eb5224b98d02d62e43c7f590",
   "inputs": {
    ".cache/edhrec/commanders__kefka-court-mage.json": "sha256:3d96e92514a37a61657e30ce14a75abb7d5a863fbf71be1b2ccb73b5d6313232",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/kefka-court-mage.json": "sha256:01a9f213a4afda97be2e833d3a809b2c15de639751a32a884344f1178b6f20e4",
    "grixis/decks/kefka-court-mage.md": "sha256:de2d3f1aafe600d63843eb7855cee6de1879b77b8dc5777ac44dc09582a59b04",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

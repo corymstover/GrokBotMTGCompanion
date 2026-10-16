@@ -9,13 +9,13 @@ schema: 2
 
 # Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools — Interaction Review
 
-> Bot cycle 48 · batch B · reviewed 2026-10-16. Deck: [Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools](../decks/grixistax-october-2026.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 48 · batch B · reviewed 2026-10-16. Deck: [Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools](../decks/grixistax-october-2026.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/grixistax-october-2026.txt`](../../exports/grixis-archidekt/grixistax-october-2026.txt) · SHA-256 `f0a28f936c03705df0e215738e4ad314d337bb3e713dcf7b2c50beba5a2f9a08` |
 | Rulings | **11** (10 verified · 0 uncertain · 1 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Grixistax_October_2026_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json) (18 interactions, all PASS) |
 
 ## Contents

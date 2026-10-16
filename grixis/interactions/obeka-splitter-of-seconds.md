@@ -9,13 +9,13 @@ schema: 2
 
 # Obeka, Splitter of Seconds — Interaction Review
 
-> Bot cycle 54 · batch E · reviewed 2026-10-16. Deck: [Obeka, Splitter of Seconds](../decks/obeka-splitter-of-seconds.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 54 · batch E · reviewed 2026-10-16. Deck: [Obeka, Splitter of Seconds](../decks/obeka-splitter-of-seconds.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/obeka-splitter-of-seconds.txt`](../../exports/grixis-archidekt/obeka-splitter-of-seconds.txt) · SHA-256 `671cdee3418a74c1d67c164c1c5fcc58359d705724024fd12638d2403cac9a4d` |
 | Rulings | **5** (5 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Obeka_Splitter_of_Seconds_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Obeka_Splitter_of_Seconds_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification section 6 (rules / interaction gate)) |
 
 ## Contents

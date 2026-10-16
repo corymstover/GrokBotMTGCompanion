@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:79a86f6eff205ccdca60a936089c23be3d9ad1216df3c52c437530869a48faf9",
+  "id": "sha256:73681fedd3af4c94f8d53d3b93a057c3c0655ffece2227e9333f670b001f757c",
   "inputs": {
    ".cache/edhrec/commanders__obeka-brute-chronologist.json": "sha256:562b673c7c10b9913979e004605aa2642227c1bbcaba730fde821bf22ce90228",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/obeka-brute-chronologist.json": "sha256:9dbfa6c6860bea203fff9d727f453872f6d878377a3a750d3fd2f8d51df24b7e",
    "grixis/decks/obeka-brute-chronologist.md": "sha256:a40cbb343ee5057f4dd7364d0f2359cbf8be261d069a208d691c30eb5533ff10",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
- "pass_id": "audit:gwendlyn-di-corci:c59:3898f718ed35",
+ "pass_id": "audit:gwendlyn-di-corci:c59:bc1e71826d5f",
  "snapshot": {
-  "id": "sha256:3898f718ed353422cb8f8893d767b0a70decbbc77d354be42d09d2d528e58424",
-  "graph": "sha256:1a36ac22b948f80830e327712e178db4b147558e17123d6b06e5ea2bef398197",
-  "evidence": "sha256:e9adb528d30d58d00281f8626ca564f105ec978a2b7f16152d6ee5a39a00dcb2",
+  "id": "sha256:bc1e71826d5f807a332a5694d3f9e05cd7fe590e9e041404d969f9c8d5588f6e",
+  "graph": "sha256:70bad1bf6cbfee0081e823b5208221540f5713a8943a7671495378a91d385419",
+  "evidence": "sha256:3cddbf239f89396a43b4ae9dc3e666311bc5068fa707ccdef6cf2c71c9f274b0",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 199,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:e9adb528d30d58d00281f8626ca564f105ec978a2b7f16152d6ee5a39a00dcb2"
+  "snapshot": "sha256:3cddbf239f89396a43b4ae9dc3e666311bc5068fa707ccdef6cf2c71c9f274b0"
  },
  "slots": [
   {"card":"An Offer You Can't Refuse","quantity":1,"zone":"main","disposition":"flexible","review_status":"provisional","classifier":"script","roles":["counter","ramp"],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/An Offer You Can't Refuse"],"alternatives":["evidence:data/grixis/evidence/gwendlyn-di-corci.json#Drown in the Loch"],"redundancy":14,"reason":"flexible ({U} instant): 14 other cards sharing a key role. Oracle: “Counter target noncreature spell”. Role counter (6 in list), ramp (10 in list). Redundancy 14 (other cards sharing a key role). Best alternative: Drown in the Loch (shared key role, EDHREC 16%). EDHREC inclusion 23.7%, synergy -0.08.","evidence":["evidence:data/grixis/evidence/gwendlyn-di-corci.json#An Offer You Can't Refuse","graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/An Offer You Can't Refuse","oracle:An Offer You Can't Refuse"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":2},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

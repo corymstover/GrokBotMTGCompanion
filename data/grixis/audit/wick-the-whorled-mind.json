@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
- "pass_id": "audit:wick-the-whorled-mind:c59:05721aa91569",
+ "pass_id": "audit:wick-the-whorled-mind:c59:d2c7664ecad4",
  "snapshot": {
-  "id": "sha256:05721aa915694d97c51a8753ad385fb49c8ca45b11644f646d714842214d8844",
-  "graph": "sha256:f86b0dcb36c00f90c4d709fe09952c74eba58af2e2c866c4ebe27f57897963dc",
-  "evidence": "sha256:6273cccd55aee8c4a380c4354e400f1d1b5234e019657c2abb3349762d5ad9c1",
+  "id": "sha256:d2c7664ecad4d1548440d04bc65eb7923662b724074ff9ff6583733b57260835",
+  "graph": "sha256:f195d53b7f814d5b128359003ab4d9206e1677a897559710ac614d7995478b76",
+  "evidence": "sha256:6a40f86b01b182cdd3221d9f26096ab486e5b6e441ef4e5225c14d1988e02e5c",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -144,7 +144,7 @@
   "screened": 185,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:6273cccd55aee8c4a380c4354e400f1d1b5234e019657c2abb3349762d5ad9c1"
+  "snapshot": "sha256:6a40f86b01b182cdd3221d9f26096ab486e5b6e441ef4e5225c14d1988e02e5c"
  },
  "slots": [
   {"card":"Altar of Dementia","quantity":1,"zone":"main","disposition":"strong_retain","review_status":"provisional","classifier":"script","roles":[],"packages":["pkg:outlets"],"blueprint_refs":["blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets","blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"],"graph_refs":["graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Altar of Dementia","graph:data/grixis/graph/wick-the-whorled-mind.json#combo:5256-5853-5929","graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-5256-5853"],"alternatives":["evidence:data/grixis/evidence/wick-the-whorled-mind.json#Ogre Slumlord","graph:data/grixis/graph/wick-the-whorled-mind.json#card:Ashnod's Altar","graph:data/grixis/graph/wick-the-whorled-mind.json#card:Carrion Feeder","graph:data/grixis/graph/wick-the-whorled-mind.json#card:Goblin Bombardment","graph:data/grixis/graph/wick-the-whorled-mind.json#card:Phyrexian Altar","graph:data/grixis/graph/wick-the-whorled-mind.json#card:Viscera Seer"],"redundancy":5,"reason":"strong retain ({2} artifact): piece of 2 Spellbook combo(s). Oracle: “Sacrifice a creature: Target player mills cards equal to the sacrificed creat…”. Packages pkg:outlets. Removing it breaks 2: combo:5256-5853-5929, combo:803-5256-5853. Redundancy 5 (interchangeable Spellbook pieces). Interchangeable with Ashnod's Altar, Carrion Feeder, Goblin Bombardment. Best alternative: Ogre Slumlord (same Oracle hook (sacrifice), EDHREC 72%). No EDHREC row. Blueprint names it in win_conditions/snail-rat-loop, packages/pkg:outlets.","evidence":["blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets","blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop","graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Altar of Dementia","oracle:Altar of Dementia","spellbook:5256-5853-5929","spellbook:803-5256-5853"],"structural_necessity":"important","evidence_classes":{"fact":3,"strategic_judgment":2},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

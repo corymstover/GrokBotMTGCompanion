@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:1edc819dc32eccb46bd40b1bc89f3214258c1b0988407b4d7cf8396596a28493",
+  "id": "sha256:60389af39b3402da142251a2746a6b4ab5013865c9e7508c33ea7579b7bf266b",
   "inputs": {
    ".cache/edhrec/commanders__nekusar-the-mindrazer.json": "sha256:b508e3d0d30ae46f80af567232e1a6968f6bff4196cdece2123257f5118b343a",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/nekusar-the-mindrazer.json": "sha256:d7e62da12ac3dae3380651546772229fda0623a5ea02980f712930fc065505dd",
    "grixis/decks/nekusar-the-mindrazer.md": "sha256:9f08e3495f4367f9b8ed18e7dcd994e48546f7675f9d678484cd88dc1ed0e945",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

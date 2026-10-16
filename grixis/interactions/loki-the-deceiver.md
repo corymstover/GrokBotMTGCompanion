@@ -9,13 +9,13 @@ schema: 2
 
 # Loki, the Deceiver — Interaction Review
 
-> Bot cycle 49 · batch C · reviewed 2026-10-16. Deck: [Loki, the Deceiver](../decks/loki-the-deceiver.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 49 · batch C · reviewed 2026-10-16. Deck: [Loki, the Deceiver](../decks/loki-the-deceiver.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/loki-the-deceiver.txt`](../../exports/grixis-archidekt/loki-the-deceiver.txt) · SHA-256 `a46c0474940b72ac3ae843bd8e6fdcdd9dd10988222dbe0a23a42daeb96cfd53` |
 | Rulings | **7** (7 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Loki_the_Deceiver_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/loki_the_deceiver_2026-10-14/Loki_the_Deceiver_Rules_Attestation.json) (10 interactions, all PASS (Vulture and Puppet Master are only named in the red-team item and aren't in the list)) |
 
 ## Contents

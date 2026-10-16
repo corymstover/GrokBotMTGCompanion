@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:4e4dabc4ec44bbe008d493c2f0ae8ab45b101d469b89ae4038f4f8a0bca04bcc",
+  "id": "sha256:80e2ba1c27ba4ed3206a9a711aab53ea7ee17fb795e0955d61546d4161b4c2a4",
   "inputs": {
    ".cache/edhrec/commanders__edea-possessed-sorceress.json": "sha256:8ef4337b34de089b7c0e9524ae64ce7fc372a93483e25410ef9d1d13d5bfeb63",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/edea-possessed-sorceress.json": "sha256:bb379e667300503b9a328eb37630cf0e9f690d5e96d10340c6465403e16a23df",
    "grixis/decks/edea-possessed-sorceress.md": "sha256:9a08cf999564160299a1662dfac1563593ef3911cfa01b53ae427e3dc8855fd2",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

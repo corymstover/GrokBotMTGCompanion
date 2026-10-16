@@ -9,13 +9,13 @@ schema: 2
 
 # Gwendlyn Di Corci — Interaction Review
 
-> Bot cycle 49 · batch C · reviewed 2026-10-16. Deck: [Gwendlyn Di Corci](../decks/gwendlyn-di-corci.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 49 · batch C · reviewed 2026-10-16. Deck: [Gwendlyn Di Corci](../decks/gwendlyn-di-corci.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/gwendlyn-di-corci.txt`](../../exports/grixis-archidekt/gwendlyn-di-corci.txt) · SHA-256 `4120c13480a4daa65cfd672e720c9e8a7bc83b7964730aaf342bf1da44589ca4` |
 | Rulings | **10** (8 verified · 0 uncertain · 2 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Gwendlyn_Di_Corci_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json) (15 interactions, all PASS) |
 
 ## Contents

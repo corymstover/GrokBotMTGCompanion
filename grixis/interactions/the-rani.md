@@ -9,13 +9,13 @@ schema: 2
 
 # The Rani — Interaction Review
 
-> Bot cycle 56 · batch F · reviewed 2026-10-16. Deck: [The Rani](../decks/the-rani.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 56 · batch F · reviewed 2026-10-16. Deck: [The Rani](../decks/the-rani.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/source-baseline/the-rani.txt`](../../exports/grixis-archidekt/source-baseline/the-rani.txt) · SHA-256 `4f0bccdd5201b57b7a57ced76afbd62d97bc3db7ca2bac08694b37abf25b98c7` |
 | Rulings | **6** (5 verified · 0 uncertain · 1 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`The_Rani_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/the_rani_2026-10-15/gate_output/The_Rani_Rules_Attestation.json) (Rules attestation (11 items, all PASS) re-verified) · [`The_Rani_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/The_Rani_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification (delta already in canonical baseline)) |
 
 ## Contents

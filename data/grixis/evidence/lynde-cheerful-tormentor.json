@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:4b669a59053a7aeb8efd6a05d17349e9314181806822e1733af2930dc3944f6e",
+  "id": "sha256:eb91c3a7bd6c3b5e4260ccf8d00f2f673e49d3a0f3e066523a4988d39c205031",
   "inputs": {
    ".cache/edhrec/commanders__lynde-cheerful-tormentor.json": "sha256:1795929637661b7ab429c774ccc34b764aed38dec0bcd3628261746190bb4e55",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/lynde-cheerful-tormentor.json": "sha256:ade914e41a982e1d214d0518d9ccf2d0919e7113261113dff59a77d906d5a91a",
    "grixis/decks/lynde-cheerful-tormentor.md": "sha256:3de3e21365374c46ff43c040c68603fedfa6ab8cb58e8a48f8f3d299cd501627",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

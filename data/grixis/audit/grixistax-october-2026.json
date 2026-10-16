@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
- "pass_id": "audit:grixistax-october-2026:c59:e1bb234d8eea",
+ "pass_id": "audit:grixistax-october-2026:c59:1cfc58ac9a7b",
  "snapshot": {
-  "id": "sha256:e1bb234d8eea6492cecab330e70444b35c63d79f4bf205988235cfd87b505d9f",
-  "graph": "sha256:0953937aa0876c552c90a38121fc964d7586ec9bbd1f5049f2712eac07586182",
-  "evidence": "sha256:789ecca63e600425c92fd28fd22f00c562cb17c9c56a930cb13321841f038870",
+  "id": "sha256:1cfc58ac9a7bf8eed7068499085aedeb53ca836a1067aa8f1925b8e486ab6c5f",
+  "graph": "sha256:4657a8689c39d83c69738b02bd07611842ad353985202442bbed3c5a8a09cf50",
+  "evidence": "sha256:b5d5e2cd206625cefa498a3b4390f1771a7dc6c1f0b1fc9e2ff8bce380b01123",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 196,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:789ecca63e600425c92fd28fd22f00c562cb17c9c56a930cb13321841f038870"
+  "snapshot": "sha256:b5d5e2cd206625cefa498a3b4390f1771a7dc6c1f0b1fc9e2ff8bce380b01123"
  },
  "slots": [
   {"card":"An Offer You Can't Refuse","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["counter","ramp"],"packages":["pkg:free-interaction"],"blueprint_refs":["blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:free-interaction"],"graph_refs":["graph:data/grixis/graph/grixistax-october-2026.json#metrics/An Offer You Can't Refuse"],"alternatives":["evidence:data/grixis/evidence/grixistax-october-2026.json#Dispel"],"redundancy":11,"reason":"functional retain ({U} instant): required package pkg:free-interaction. Oracle: “Counter target noncreature spell”. Role counter (12 in list), ramp (15 in list). Packages pkg:free-interaction. Redundancy 11 (other cards in its package(s)). Best alternative: Dispel (shared key role, EDHREC 21%). EDHREC inclusion 57.5%, synergy +0.25. Blueprint names it in packages/pkg:free-interaction.","evidence":["blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:free-interaction","evidence:data/grixis/evidence/grixistax-october-2026.json#An Offer You Can't Refuse","graph:data/grixis/graph/grixistax-october-2026.json#metrics/An Offer You Can't Refuse","oracle:An Offer You Can't Refuse"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":2,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

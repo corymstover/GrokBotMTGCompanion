@@ -9,13 +9,13 @@ schema: 2
 
 # Cormela, Glamour Thief — Interaction Review
 
-> Bot cycle 46 · batch A · reviewed 2026-10-16. Deck: [Cormela, Glamour Thief](../decks/cormela-glamour-thief.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 46 · batch A · reviewed 2026-10-16. Deck: [Cormela, Glamour Thief](../decks/cormela-glamour-thief.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/cormela-glamour-thief.txt`](../../exports/grixis-archidekt/cormela-glamour-thief.txt) · SHA-256 `29dad7ed42b4c5b81bb507f96d3638c6dbe8f509f6d8e8f935f25df484930578` |
 | Rulings | **10** (10 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Cormela_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json) (8 interactions, all PASS) |
 
 ## Contents

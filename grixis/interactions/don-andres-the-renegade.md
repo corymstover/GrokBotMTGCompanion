@@ -9,13 +9,13 @@ schema: 2
 
 # Don Andres, the Renegade — Interaction Review
 
-> Bot cycle 48 · batch B · reviewed 2026-10-16. Deck: [Don Andres, the Renegade](../decks/don-andres-the-renegade.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 48 · batch B · reviewed 2026-10-16. Deck: [Don Andres, the Renegade](../decks/don-andres-the-renegade.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/don-andres-the-renegade.txt`](../../exports/grixis-archidekt/don-andres-the-renegade.txt) · SHA-256 `3c5a31e6cf23e2b81d7d4e85d28426231de10d714aae769da886aeff384c7e03` |
 | Rulings | **12** (11 verified · 0 uncertain · 1 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Don_Andres_the_Renegade_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json) (13 interactions, all PASS) |
 
 ## Contents

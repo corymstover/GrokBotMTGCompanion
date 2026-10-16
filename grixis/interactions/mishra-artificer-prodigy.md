@@ -9,13 +9,13 @@ schema: 2
 
 # Mishra, Artificer Prodigy — Interaction Review
 
-> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Mishra, Artificer Prodigy](../decks/mishra-artificer-prodigy.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Mishra, Artificer Prodigy](../decks/mishra-artificer-prodigy.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/mishra-artificer-prodigy.txt`](../../exports/grixis-archidekt/mishra-artificer-prodigy.txt) · SHA-256 `33e1354d2064b12b56108f4cbc4b663e0d1bb51c1449d40588172a2c1a2680b7` |
 | Rulings | **10** (8 verified · 0 uncertain · 2 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Mishra_Artificer_Prodigy_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Mishra_Artificer_Prodigy_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification; rules sections 5–8 re-checked against Oracle, rulings and CR) |
 
 ## Contents

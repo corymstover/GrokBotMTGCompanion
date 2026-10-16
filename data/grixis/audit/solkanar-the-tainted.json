@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
- "pass_id": "audit:solkanar-the-tainted:c59:7b88079d4947",
+ "pass_id": "audit:solkanar-the-tainted:c59:182109ff0a19",
  "snapshot": {
-  "id": "sha256:7b88079d49474270097c5ced2621595e1b14d16540bed4be3d7c7d9691ca4252",
-  "graph": "sha256:eb61a7f3fa871266aa1896769429b52d160f0ea8911968ccd2d1dbc898008d7f",
-  "evidence": "sha256:74cc05a1d472eeec908dca8e22305f973b1d3abcbc404a3e7be7257289a8a692",
+  "id": "sha256:182109ff0a19169731b571d05572f6326773340c8deea76c36de9e43cadf2233",
+  "graph": "sha256:5547d471358046fabcfcb98ecf277f1311758ff5a1cf85837372c7c45d033694",
+  "evidence": "sha256:fdf4b87f6e3f814fc61761ef7d82fa7ec4a61b8a8e7c5584b5ec63e1bc14a59f",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -144,7 +144,7 @@
   "screened": 188,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:74cc05a1d472eeec908dca8e22305f973b1d3abcbc404a3e7be7257289a8a692"
+  "snapshot": "sha256:fdf4b87f6e3f814fc61761ef7d82fa7ec4a61b8a8e7c5584b5ec63e1bc14a59f"
  },
  "slots": [
   {"card":"Arcane Signet","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["ramp"],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Arcane Signet"],"alternatives":["evidence:data/grixis/evidence/solkanar-the-tainted.json#Hithlain Rope"],"redundancy":11,"reason":"functional retain ({2} artifact): role ramp. Oracle: “{T}: Add one mana of any color in your commander's color identity”. Role ramp (12 in list). Redundancy 11 (other cards sharing a key role). Best alternative: Hithlain Rope (shared key role, EDHREC 23%). EDHREC inclusion 79.0%, synergy -0.09.","evidence":["evidence:data/grixis/evidence/solkanar-the-tainted.json#Arcane Signet","graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Arcane Signet","oracle:Arcane Signet"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},
