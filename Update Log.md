@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 50 (M2: commander blueprints, batch 1; M0 accepted)](#2026-10-16--bot-cycle-50-m2-commander-blueprints-batch-1-m0-accepted)
 - [2026-10-16 — Bot cycle 49 (phase 2 / M1: batch C; M0 follow-ups)](#2026-10-16--bot-cycle-49-phase-2--m1-batch-c-m0-follow-ups)
 - [2026-10-16 — Bot cycle 48 (phase 2 / M1: Spellbook step cache, batch B)](#2026-10-16--bot-cycle-48-phase-2--m1-spellbook-step-cache-batch-b)
 - [2026-10-16 — Bot cycle 47 (M0: Grixis authority foundation)](#2026-10-16--bot-cycle-47-m0-grixis-authority-foundation)
@@ -65,6 +66,25 @@ schema: 2
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
 
+## 2026-10-16 — Bot cycle 50 (M2: commander blueprints, batch 1; M0 accepted)
+- **M0 accepted.** Cory accepted M0 in chat on 2026-10-16 at 10:52 UTC ("I accept M0"), relayed by MTG Bot. It is recorded in `data/grixis/registry.json → program.milestones.M0` (`accepted_by` corymstover, `accepted_at` 2026-10-16T10:52Z, `acceptance_evidence`, `scope_note`). This is milestone acceptance only: **no deck is approved**, and all 62 keep their states. `grixis_authority.py --check` now requires an accepted milestone to have a human `accepted_by`, a date and evidence. M0 criterion 11 is ✅. M2 is `in_progress`.
+- **M2 started: commander blueprints.**
+  - **Schema v2** (`data/grixis/schemas/blueprint.schema.json`): every field is a claim with `evidence_class`, `confidence` and at least one evidence ref. It covers all brief §3 fields: Oracle facts, plan, the commander's real role (`central` / `significant` / `supporting` / `incidental` + an honest note), win conditions, engines, packages with min counts and out-of-list candidates, key interactions linked to M1 ids, tutors, recursion, requirements, failure modes, dependency level, power (source ceiling, GrokBot estimate, expected bracket, `resolved_ceiling` always null, disagreement, EDHREC brackets), project exceptions, identity core, anti-goals, theme, construction rules, heuristic supporting features, provenance.
+  - **Tool** `scripts/grixis_blueprints.py`:
+    - `--scaffold SLUG` gathers the evidence.
+    - `--check` is the new `validate_all` step `blueprints`. It checks the schema; Oracle text, type, id and sha against the Scryfall cache; that card refs are in the canonical list or are declared candidates that are legal and in identity; that every evidence ref resolves (`oracle:`, `source_archive:path#Lline`, `interaction:`, `spellbook:`, `cr:`, `edhrec:`, …); the class rules; the canonical hash; the ceilings vs the registry; boilerplate reasons; and that pages are current.
+    - `--render` writes the pages in [grixis/blueprints/](grixis/blueprints/README.md).
+    - `--m2-status` reports the acceptance criteria.
+  - **Registry:** `blueprint_version` and `grok_estimated_ceiling` now come from the blueprint, and `disagreement` is computed. A source ceiling the original parse missed is stored as `source_ceiling.recovered`, with a `path#Lline` citation (recovery, not an overwrite).
+- **Batch 1: 15 decks**, Abaddon … Dr. Eggman alphabetically.
+  - Recovered source ceilings:
+    - Ashnod: Bracket 4 (approval-gate dossier L41).
+    - Cormela: cEDH / 5 (decision ledger L12).
+  - Still no source ceiling: Admiral Beckett Brass, Admiral Brass, Anhelo, Ashad, Be'lakor, Bjorna/Cecily. Their source files state none.
+  - **0 ceiling disagreements** in this batch: every estimate where the source states a ceiling agrees with it.
+  - Honest roles: Bjorna/Cecily is `supporting`. Bjorna is near-incidental, and the source misdescribes both commanders. Anhelo and Ashad are `significant`, not `central`, because their decks' infinites run without them. Crosis and Davros are low-end Bracket 4 because of their card pools, not their engines.
+- **Tests:** `tests/test_blueprints.py` adds 17 tests (63 in total): schema, Oracle mismatch, card refs and candidates, min counts, class rules, ref resolution, ceilings, review status, boilerplate, exceptions, M2 status, milestone acceptance.
+- **Not touched:** `grixis/interactions/`, `data/grixis_interactions/`, `scripts/grixis_interactions.py` (the M1 executor's area; read only). No decklist changed.
 ## 2026-10-16 — Bot cycle 49 (phase 2 / M1: batch C; M0 follow-ups)
 - **Batch C is done** (the next 10 decks alphabetically, Gwendlyn Di Corci through Mai and Zuko): **99 rulings** (94 verified, 1 uncertain, 4 flags). Overall: 32/62 decks and 375 rulings. Every batch-C deck's source attestation JSON is re-verified item by item. No decklist changed.
 - **M0 landed on main during the cycle** (PR #120). The pending follow-ups are done:

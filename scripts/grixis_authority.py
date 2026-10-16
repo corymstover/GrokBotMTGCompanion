@@ -137,7 +137,9 @@ def approval_problems(deck_id, entry, approvals, approvers, milestones):
     rc = ce.get("resolved_ceiling") or {}
     if rc.get("value") is not None and (not rc.get("resolved_by") or rc.get("resolved_by") not in approvers):
         p.append(f"{deck_id}: resolved_ceiling needs resolved_by (a human approver); grok estimates never resolve themselves")
-    s, g = (ce.get("source_ceiling") or {}).get("value"), (ce.get("grok_estimated_ceiling") or {}).get("value")
+    sc = ce.get("source_ceiling") or {}
+    s = sc.get("value") if sc.get("value") is not None else (sc.get("recovered") or {}).get("value")  # Bot cycle 50: recovered claim
+    g = (ce.get("grok_estimated_ceiling") or {}).get("value")
     want = None if s is None or g is None else (s != g)
     if ce.get("disagreement") != want:
         p.append(f"{deck_id}: ceiling.disagreement must be {want} (source {s}, grok estimate {g})")
@@ -592,7 +594,22 @@ def build_registry(R=None):
         oc = o.get("ceiling", {})
         g = oc.get("grok_estimated_ceiling") or {"value": None, "evidence": [], "cycle": None}
         rc = oc.get("resolved_ceiling") or {"value": None, "resolved_by": None, "date": None, "evidence": []}
-        dis = None if sval is None or g["value"] is None else sval != g["value"]
+        # Bot cycle 50 (M2): the commander blueprint supplies blueprint_version and the GrokBot ceiling estimate, and may
+        # recover a source ceiling the parse missed (cited per file); the parsed claim is never overwritten.
+        bpf = DATA / "blueprints" / f"{slug}.json"
+        bp = json.loads(bpf.read_text(encoding="utf-8")) if bpf.exists() else None
+        bp_version = bp["version"] if bp else o.get("blueprint_version")
+        src_ceiling = {"value": sval, "label": claim, "evidence": [f"source_archive:{v['source_path']} (approval/blueprint records, parsed by build_grixis.py)"] if claim else []}
+        eff = sval
+        if bp:
+            g = {"value": bp["power"]["grok_estimated_ceiling"]["value"]["value"],
+                 "evidence": [f"companion:data/grixis/blueprints/{slug}.json#power.grok_estimated_ceiling"], "cycle": bp["cycle"]}
+            bsc = bp["power"]["source_ceiling"]
+            if sval is None and bsc["value"]["value"] is not None:
+                eff = bsc["value"]["value"]
+                src_ceiling["recovered"] = {"value": eff, "label": bsc["value"]["label"], "evidence": bsc["evidence"], "cycle": bp["cycle"],
+                                            "note": "build_grixis.py parsed no claim; recovered from the cited source file by the M2 blueprint (recovery, not an overwrite)"}
+        dis = None if eff is None or g["value"] is None else eff != g["value"]
         decks[did] = {
             "deck_id": did, "slug": slug, "commanders": v["commanders"], "state": state, "state_history": hist,
             "approval": o.get("approval") or {"state": None, "cycle": None, "date": None, "by": None, "record_id": None},
@@ -609,11 +626,11 @@ def build_registry(R=None):
             "historical_approvals": [{"origin": "source", "state": f"{(st_src.get(did) or {}).get('approval_status')}/{(st_src.get(did) or {}).get('lock_status')}",
                                       "date": (st_src.get(did) or {}).get("user_approval_date"), "hash_recorded": rec, "counts_as": "evidence",
                                       "ref": f"source_archive:state/current_deck_overrides.json#{did}"}],
-            "ceiling": {"source_ceiling": {"value": sval, "label": claim, "evidence": [f"source_archive:{v['source_path']} (approval/blueprint records, parsed by build_grixis.py)"] if claim else []},
+            "ceiling": {"source_ceiling": src_ceiling,
                         "bracket_floor": {"value": v["cfloor"], "evidence": ["companion:data/grixis_summary.json cfloor (Game Changers, mass land denial, two-card infinites)"]},
                         "grok_estimated_ceiling": g, "resolved_ceiling": rc, "disagreement": dis,
-                        "floor_above_source_claim": bool(sval and sval.isdigit() and v["cfloor"] > int(sval))},
-            "blueprint_version": o.get("blueprint_version"), "snapshots": snap_id,
+                        "floor_above_source_claim": bool(eff and eff.isdigit() and v["cfloor"] > int(eff))},
+            "blueprint_version": bp_version, "snapshots": snap_id,
             "test_suite_version": o.get("test_suite_version"), "test_result_hash": o.get("test_result_hash"),
             "finalization_certificate": o.get("finalization_certificate"),
             "reopen_triggers": list(TRIGGER_KINDS), "open_triggers": o.get("open_triggers", []),
@@ -634,6 +651,17 @@ def build_registry(R=None):
 
 
 # ---------------------------------------------------------------- check
+def milestone_problems(ms, approvers):
+    """Bot cycle 50: only a human approver accepts a milestone, with a date and recorded evidence."""
+    p = []
+    for m, x in ms.items():
+        if x["status"] == "accepted" and (x.get("accepted_by") not in approvers or not x.get("accepted_date") or not x.get("acceptance_evidence")):
+            p.append(f"program.milestones.{m}: accepted needs accepted_by (a human approver), accepted_date and acceptance_evidence")
+        if x["status"] != "accepted" and x.get("accepted_by"):
+            p.append(f"program.milestones.{m}: accepted_by set but status is {x['status']}")
+    return p
+
+
 def check(R=None):
     problems, warnings = [], []
     reg, exc, appr = load_json(REGISTRY), load_json(EXCEPTIONS), load_json(APPROVALS)
@@ -658,6 +686,7 @@ def check(R=None):
     if v2 is not None and not v2.get("exploratory") and not all((ms.get(m) or {}).get("status") == "accepted" for m in ("M2", "M4")):
         problems.append("grixis_refine_v2.json: recommendations must be labeled exploratory until M2 and M4 are accepted")
     approvers = set(reg["human_approvers"])
+    problems += milestone_problems(ms, approvers)
     recs = appr["records"]
     for r in recs:
         if r["approved_by"] not in approvers:
@@ -674,7 +703,8 @@ def check(R=None):
         if not f:
             continue
         for k in ("baseline_hash", "current_canonical_hash", "canonical_project_list", "challengers", "official_legal_projection",
-                  "official_commander_compliance", "project_authorization_status", "project_exceptions", "source", "heuristic_v1_verdict"):
+                  "official_commander_compliance", "project_authorization_status", "project_exceptions", "source", "heuristic_v1_verdict",
+                  "blueprint_version", "ceiling"):
             if e.get(k) != f.get(k):
                 if k == "current_canonical_hash" and e["state"] in HUMAN_STATES | {"APPROVAL_READY"}:
                     problems.append(f"{did}: canonical list changed after {e['state']} — set REOPEN_REQUIRED (trigger audit_error/user_instruction) and re-review")

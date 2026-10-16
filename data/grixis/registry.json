@@ -35,10 +35,13 @@
  "program": {
   "milestones": {
    "M0": {
-    "status": "complete_pending_acceptance",
-    "accepted_by": null,
-    "accepted_date": null,
-    "criteria_doc": "grixis/Grixis Authority Model.md#m0"
+    "status": "accepted",
+    "accepted_by": "corymstover",
+    "accepted_date": "2026-10-16",
+    "criteria_doc": "grixis/Grixis Authority Model.md#m0",
+    "accepted_at": "2026-10-16T10:52Z",
+    "acceptance_evidence": "In-chat approval by Cory on 2026-10-16 at 10:52 UTC ('I accept M0'), relayed to the executor by MTG Bot; recorded in Bot cycle 50.",
+    "scope_note": "Milestone acceptance only (M0 authority foundation, PR #120). Approves no decks: every deck keeps its state; APPROVED / CANONICAL_LOCKED still need per-deck records in data/grixis/approvals.json."
    },
    "M1": {
     "status": "in_progress",
@@ -47,7 +50,7 @@
     "criteria_doc": "grixis/Grixis Authority Model.md#m1"
    },
    "M2": {
-    "status": "not_started",
+    "status": "in_progress",
     "accepted_by": null,
     "accepted_date": null,
     "criteria_doc": "grixis/Grixis Authority Model.md#m2"
@@ -184,9 +187,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/abaddon-the-despoiler.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -194,10 +199,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -291,9 +296,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/admiral-beckett-brass.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -304,7 +311,7 @@
     "disagreement": null,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -398,9 +405,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/admiral-brass-unsinkable.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -411,7 +420,7 @@
     "disagreement": null,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -505,9 +514,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/anhelo-the-painter.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -518,7 +529,7 @@
     "disagreement": null,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -612,9 +623,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/ashad-the-lone-cyberman.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -625,7 +638,7 @@
     "disagreement": null,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -710,7 +723,16 @@
     "source_ceiling": {
      "value": null,
      "label": null,
-     "evidence": []
+     "evidence": [],
+     "recovered": {
+      "value": "4",
+      "label": "Proposed natural ceiling: optimized/high-power Bracket 4, not claimed established cEDH (approval gate dossier).",
+      "evidence": [
+       "source_archive:refinement/evidence/Ashnod_the_Uncaring_Approval_Gate_Dossier_2026-10-13.md#L41"
+      ],
+      "cycle": 50,
+      "note": "build_grixis.py parsed no claim; recovered from the cited source file by the M2 blueprint (recovery, not an overwrite)"
+     }
     },
     "bracket_floor": {
      "value": 4,
@@ -719,9 +741,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/ashnod-the-uncaring.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -729,10 +753,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -826,9 +850,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/belakor-the-dark-master.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -839,7 +865,7 @@
     "disagreement": null,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -958,9 +984,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -971,7 +999,7 @@
     "disagreement": null,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -1056,7 +1084,16 @@
     "source_ceiling": {
      "value": null,
      "label": null,
-     "evidence": []
+     "evidence": [],
+     "recovered": {
+      "value": "5",
+      "label": "cEDH — 'Cormela is treated at her natural cEDH ceiling' (optimization decision ledger).",
+      "evidence": [
+       "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md#L12"
+      ],
+      "cycle": 50,
+      "note": "build_grixis.py parsed no claim; recovered from the cited source file by the M2 blueprint (recovery, not an overwrite)"
+     }
     },
     "bracket_floor": {
      "value": 4,
@@ -1065,9 +1102,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "5",
+     "evidence": [
+      "companion:data/grixis/blueprints/cormela-glamour-thief.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -1075,10 +1114,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -1174,9 +1213,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/crosis-the-purger.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -1184,10 +1225,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -1283,9 +1324,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/cult-of-skaro.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -1293,10 +1336,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -1392,9 +1435,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/davros-dalek-creator.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -1402,10 +1447,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -1501,9 +1546,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/doctor-doom-king-of-latveria.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -1511,10 +1558,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -1610,9 +1657,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/don-andres-the-renegade.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -1620,10 +1669,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -1719,9 +1768,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/dr-eggman.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 50
     },
     "resolved_ceiling": {
      "value": null,
@@ -1729,10 +1780,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,

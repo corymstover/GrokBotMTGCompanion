@@ -1,0 +1,578 @@
+{
+ "schema_version": 2,
+ "deck_id": "Dr__Eggman",
+ "slug": "dr-eggman",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 50,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+ "commanders": {
+  "value": [
+   {
+    "name": "Dr. Eggman",
+    "oracle_id": "fb68c1ae-a129-4c17-81fa-be5da2c32ec5",
+    "oracle_text": "Flying\nAt the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield.",
+    "oracle_sha256": "sha256:097f984b2db32b4607bc88c0a5b0cfc8ed77903a2e007ee2316560481dfc7929",
+    "type_line": "Legendary Creature — Human Scientist"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Dr. Eggman"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Villainous-choice artifact cheat: hold big Constructs, Robots and Vehicles so each opponent either discards or lets you put one onto the battlefield free at your end step; punish discards and multiply Eggman's trigger.",
+   "secondary": "Artifact ETB payoffs over cast payoffs (Eggman doesn't cast), Gearhulks and Myr Battlesphere, discard punishers (Liliana's Caress, Waste Not, Tinybones) and The Valeyard/Y'shtola extra choices."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md",
+   "interaction:dr-eggman#eggman-01",
+   "interaction:dr-eggman#eggman-03"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Eggman draws every end step and forces a discard or a free deployment from each opponent.",
+   "honest_note": "Opponents choose: an empty-handed opponent can 'discard' for free, and late in the game the choice gets cheap. The deck needs a dense hand of real threats to make the fork bite."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md#L45",
+   "interaction:dr-eggman#eggman-01",
+   "interaction:dr-eggman#eggman-02"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "free-artifact-army",
+   "kind": "natural",
+   "description": "Repeated free Gearhulks, Myr Battlesphere, Metalwork Colossus and Vehicles overwhelm the table.",
+   "cards": [
+    "Myr Battlesphere",
+    "Metalwork Colossus",
+    "Noxious Gearhulk",
+    "Combustible Gearhulk",
+    "Cityscape Leveler",
+    "Thunderhawk Gunship"
+   ],
+   "enablers": [
+    "Dr. Eggman"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "discard-attrition",
+   "kind": "natural",
+   "description": "Discard punishers turn the discard branch into damage and value.",
+   "cards": [
+    "Liliana's Caress",
+    "Waste Not",
+    "Tinybones, Bauble Burglar",
+    "Geth's Grimoire",
+    "Withering Torment"
+   ],
+   "enablers": [
+    "The Valeyard"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "end-step-fork",
+   "cards": [
+    "Dr. Eggman",
+    "The Valeyard",
+    "Roaming Throne",
+    "Strionic Resonator",
+    "Spark Double",
+    "Y'shtola Rhul"
+   ],
+   "online_condition": "Your end step with Eggman in play.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:dr-eggman#eggman-01",
+    "interaction:dr-eggman#eggman-04",
+    "interaction:dr-eggman#eggman-05",
+    "interaction:dr-eggman#eggman-06"
+   ]
+  },
+  {
+   "id": "robot-construct-supply",
+   "cards": [
+    "Master Transmuter",
+    "Mechan Assembler",
+    "Simulacrum Synthesizer",
+    "One with the Machine",
+    "Scrap Trawler"
+   ],
+   "online_condition": "Artifacts entering.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:dr-eggman#eggman-09",
+    "interaction:dr-eggman#eggman-10"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:eggman-targets",
+   "required": true,
+   "min_count": 20,
+   "role": "Construct/Robot/Vehicle cards worth putting in free (the source counts 28).",
+   "cards": [
+    "Myr Battlesphere",
+    "Metalwork Colossus",
+    "Noxious Gearhulk",
+    "Combustible Gearhulk",
+    "Coalstoke Gearhulk",
+    "Oildeep Gearhulk",
+    "Cityscape Leveler",
+    "Thunderhawk Gunship",
+    "Depthshaker Titan",
+    "Krang, Utrom Warlord",
+    "Vision, Spectral Synthezoid",
+    "Ultron, Machine Overlord",
+    "Ultron, Artificial Malevolence",
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "Cyberdrive Awakener",
+    "Scrap Trawler",
+    "Foundry Inspector",
+    "Thought Monitor",
+    "Scrapyard Recombiner",
+    "The Regalia",
+    "Nautiloid Ship",
+    "Curie, Emergent Intelligence"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md",
+    "interaction:dr-eggman#eggman-09"
+   ]
+  },
+  {
+   "id": "pkg:trigger-multipliers",
+   "required": true,
+   "min_count": 4,
+   "role": "More Eggman triggers or end steps.",
+   "cards": [
+    "The Valeyard",
+    "Roaming Throne",
+    "Strionic Resonator",
+    "Spark Double",
+    "Y'shtola Rhul"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:discard-punishers",
+   "required": true,
+   "min_count": 4,
+   "role": "Make the discard branch costly.",
+   "cards": [
+    "Liliana's Caress",
+    "Waste Not",
+    "Tinybones, Bauble Burglar",
+    "Geth's Grimoire",
+    "Entropic Battlecruiser"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "turn-order",
+   "summary": "Draw, then each opponent chooses in turn order.",
+   "cards": [
+    "Dr. Eggman"
+   ],
+   "m1_refs": [
+    "eggman-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:dr-eggman#eggman-01"
+   ]
+  },
+  {
+   "id": "empty-hand",
+   "summary": "An empty-handed opponent can choose discard and lose nothing.",
+   "cards": [
+    "Dr. Eggman"
+   ],
+   "m1_refs": [
+    "eggman-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:dr-eggman#eggman-02"
+   ]
+  },
+  {
+   "id": "not-cast",
+   "summary": "Eggman's placement isn't a cast: ETB triggers yes, cast triggers no.",
+   "cards": [
+    "Dr. Eggman",
+    "Vision, Spectral Synthezoid"
+   ],
+   "m1_refs": [
+    "eggman-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:dr-eggman#eggman-03"
+   ]
+  },
+  {
+   "id": "valeyard",
+   "summary": "The Valeyard makes each opponent choose twice.",
+   "cards": [
+    "The Valeyard"
+   ],
+   "m1_refs": [
+    "eggman-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:dr-eggman#eggman-04"
+   ]
+  },
+  {
+   "id": "yshtola",
+   "summary": "Y'shtola Rhul's extra end step retriggers Eggman.",
+   "cards": [
+    "Y'shtola Rhul"
+   ],
+   "m1_refs": [
+    "eggman-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:dr-eggman#eggman-06"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Myr Battlesphere",
+   "via": [
+    "Fabricate"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "target": "Roaming Throne",
+   "via": [
+    "Fabricate"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Academy Ruins",
+   "Scrap Trawler",
+   "Scrapyard Recombiner"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Direct interaction for when Eggman is removed (Toxic Deluge, Blasphemous Act, Cyclonic Rift, counters).",
+   "protection": "Greaves, Padeem, Cryptothrall, free protection.",
+   "mana": "Five-mana commander; artifact mana (Mox Opal, Sol Ring, Urza's Saga)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "cheap-choice",
+   "description": "Opponents with empty hands choose discard for free.",
+   "mitigations": [
+    "Discard punishers still trigger only on real discards",
+    "Valeyard"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:dr-eggman#eggman-02"
+   ]
+  },
+  {
+   "id": "eggman-removed",
+   "description": "Five-mana commander removed: no fork.",
+   "mitigations": [
+    "Protection",
+    "Artifact infrastructure works alone"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "empty-own-hand",
+   "description": "No good targets in hand makes the deployment branch harmless.",
+   "mitigations": [
+    "Eggman's own draw",
+    "Keep threats in hand"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 — Optimized (current-cycle blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md#L43"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling: strong free-deployment value with trigger multipliers; no compact win; the list sits at its computed floor of 3. Agrees with the source ceiling."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md#L43",
+    "interaction:dr-eggman#eggman-05"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "3",
+    "floor": 3
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Dr__Eggman"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 30,
+     "2": 756,
+     "3": 1047,
+     "4": 255,
+     "5": 15
+    },
+    "decks_with_bracket": 2103,
+    "share_b4_plus": 0.128,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__dr-eggman.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Dr. Eggman",
+   "why": "End-step draw and the discard-or-deploy fork.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Dr. Eggman"
+   ]
+  },
+  {
+   "card": "The Valeyard",
+   "why": "Doubles every opponent's villainous choice.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:dr-eggman#eggman-04"
+   ]
+  },
+  {
+   "card": "Y'shtola Rhul",
+   "why": "Extra end step: another full Eggman trigger.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:dr-eggman#eggman-06"
+   ]
+  },
+  {
+   "card": "Myr Battlesphere",
+   "why": "Premium free Construct deployment.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Liliana's Caress",
+   "why": "Each discard costs 2 life, so the discard branch hurts.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't force a cEDH shell that makes Eggman incidental (source).",
+   "Prefer artifact-enter payoffs over cast-only payoffs."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Sonic villain building robots: Constructs, Robots and Vehicles."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 701.55b",
+   "note": "A player may choose an impossible option (discard with no cards).",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.55b"
+   ]
+  },
+  {
+   "rule": "CR 702.184",
+   "note": "Station on Entropic Battlecruiser.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.184"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Construct synergy",
+    "Robot synergy",
+    "discard",
+    "villainous choices / voting"
+   ],
+   "hooked_cards": 31,
+   "role_counts": {
+    "counter": 2,
+    "draw": 10,
+    "protection": 4,
+    "ramp": 8,
+    "removal": 8,
+    "tutor": 3,
+    "wipe": 3
+   },
+   "lands": 31,
+   "edhrec_pages": [
+    "dr-eggman"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md",
+   "source_archive:refinement/approvals/Dr_Eggman_Approved_2026-10-14.md",
+   "source_archive:refinement/decklists/Dr_Eggman_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 50)"
+ }
+}

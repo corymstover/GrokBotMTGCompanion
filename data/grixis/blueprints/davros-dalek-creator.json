@@ -1,0 +1,589 @@
+{
+ "schema_version": 2,
+ "deck_id": "Davros__Dalek_Creator",
+ "slug": "davros-dalek-creator",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 50,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+ "commanders": {
+  "value": [
+   {
+    "name": "Davros, Dalek Creator",
+    "oracle_id": "25c0bbc8-b0c3-4166-967f-e8b096487a6c",
+    "oracle_text": "Menace\nAt the beginning of your end step, create a 3/3 black Dalek artifact creature token with menace if an opponent lost 3 or more life this turn. Then each opponent who lost 3 or more life this turn faces a villainous choice — You draw a card, or that player discards a card.",
+    "oracle_sha256": "sha256:9d5a2c56cd4fe50fd99045cee0c32c44f56df6d3ead6dd47633c3a354e9119fe",
+    "type_line": "Legendary Artifact Creature — Alien Scientist"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Davros, Dalek Creator"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Make every opponent lose 3+ life on your turn (Maestros Charm, Boltwave, Court of Ambition, Loyal Subordinate, Torment of Hailfire), so Davros's end-step trigger makes a 3/3 menace Dalek and forces a draw-or-discard villainous choice on each of them; multiply the trigger with Auton Soldier, Strionic Resonator, Scientist Supreme and The Valeyard.",
+   "secondary": "Punish the discard branch (Entropic Battlecruiser, Waste Not, Tinybones) and turn menace Daleks into a clock with Labyrinth Raptor and Dalek lords."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md",
+   "interaction:davros-dalek-creator#davros-01",
+   "interaction:davros-dalek-creator#davros-05"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Davros is the repeatable value engine: Dalek every turn plus a card or a discard per qualifying opponent.",
+   "honest_note": "Value-only engine with delayed payoff and opponent choice; no Spellbook combos. The deck is Bracket 4 mainly because of its Game Changers and premium interaction, not because Davros threatens fast wins."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md#L45",
+   "interaction:davros-dalek-creator#davros-01",
+   "interaction:davros-dalek-creator#davros-02"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "dalek-army",
+   "kind": "natural",
+   "description": "Menace Dalek tokens every turn, pumped and protected, with Labyrinth Raptor forcing bad blocks.",
+   "cards": [
+    "Davros, Dalek Creator",
+    "Labyrinth Raptor",
+    "The Dalek Emperor",
+    "Genesis of the Daleks",
+    "Dalek Squadron"
+   ],
+   "enablers": [
+    "Loyal Subordinate"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "drain-and-discard",
+   "kind": "natural",
+   "description": "Entropic Battlecruiser and Court of Ambition make each discard cost 3 life; Torment of Hailfire and Exterminate! close.",
+   "cards": [
+    "Entropic Battlecruiser",
+    "Court of Ambition",
+    "Torment of Hailfire",
+    "Exterminate!",
+    "Wound Reflection"
+   ],
+   "enablers": [
+    "Geier Reach Sanitarium"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:davros-dalek-creator#davros-06"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "end-step-davros",
+   "cards": [
+    "Davros, Dalek Creator",
+    "Auton Soldier",
+    "Strionic Resonator",
+    "Scientist Supreme of A.I.M.",
+    "Roaming Throne",
+    "The Valeyard"
+   ],
+   "online_condition": "At least one opponent lost 3+ life this turn when the trigger resolves.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:davros-dalek-creator#davros-01",
+    "interaction:davros-dalek-creator#davros-04",
+    "interaction:davros-dalek-creator#davros-05"
+   ]
+  },
+  {
+   "id": "three-life-enablers",
+   "cards": [
+    "Maestros Charm",
+    "Boltwave",
+    "Court of Ambition",
+    "Loyal Subordinate",
+    "Sygg, River Cutthroat"
+   ],
+   "online_condition": "Fixed 3-life loss to each opponent during your turn.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:davros-dalek-creator#davros-07"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:three-life-enablers",
+   "required": true,
+   "min_count": 6,
+   "role": "Turn on Davros for the whole table.",
+   "cards": [
+    "Maestros Charm",
+    "Boltwave",
+    "Court of Ambition",
+    "Loyal Subordinate",
+    "Torment of Hailfire",
+    "Exterminate!",
+    "Perforating Artist",
+    "Wound Reflection"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:davros-dalek-creator#davros-07"
+   ]
+  },
+  {
+   "id": "pkg:trigger-multipliers",
+   "required": true,
+   "min_count": 4,
+   "role": "More Davros triggers or choices.",
+   "cards": [
+    "Auton Soldier",
+    "Strionic Resonator",
+    "Scientist Supreme of A.I.M.",
+    "Roaming Throne",
+    "The Valeyard"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:davros-dalek-creator#davros-04"
+   ]
+  },
+  {
+   "id": "pkg:discard-punishers",
+   "required": true,
+   "min_count": 3,
+   "role": "Make the discard branch hurt.",
+   "cards": [
+    "Entropic Battlecruiser",
+    "Waste Not",
+    "Tinybones, Trinket Thief",
+    "Geth's Grimoire",
+    "Sycorax Commander"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:interaction-protection",
+   "required": true,
+   "min_count": 10,
+   "role": "Bracket 4 interaction and commander protection.",
+   "cards": [
+    "Counterspell",
+    "Mana Drain",
+    "Swan Song",
+    "Fierce Guardianship",
+    "Deflecting Swat",
+    "Snuff Out",
+    "Deadly Rollick",
+    "Delete",
+    "Toxic Deluge",
+    "Cyclonic Rift",
+    "Lightning Greaves",
+    "Swiftfoot Boots",
+    "Padeem, Consul of Innovation"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Whole_List_Audit_Closeout_2026-10-14.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "check-on-resolution",
+   "summary": "Always triggers; the 3-life check is on resolution, not an intervening if.",
+   "cards": [
+    "Davros, Dalek Creator"
+   ],
+   "m1_refs": [
+    "davros-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:davros-dalek-creator#davros-01"
+   ]
+  },
+  {
+   "id": "order-drains",
+   "summary": "Put Davros's trigger on the stack first so end-step drains resolve before it.",
+   "cards": [
+    "Davros, Dalek Creator"
+   ],
+   "m1_refs": [
+    "davros-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:davros-dalek-creator#davros-03"
+   ]
+  },
+  {
+   "id": "valeyard",
+   "summary": "The Valeyard doubles every villainous choice.",
+   "cards": [
+    "The Valeyard"
+   ],
+   "m1_refs": [
+    "davros-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:davros-dalek-creator#davros-05"
+   ]
+  },
+  {
+   "id": "battlecruiser",
+   "summary": "Entropic Battlecruiser at station 1+ makes each discard cost 3 life.",
+   "cards": [
+    "Entropic Battlecruiser"
+   ],
+   "m1_refs": [
+    "davros-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:davros-dalek-creator#davros-06"
+   ]
+  },
+  {
+   "id": "raptor",
+   "summary": "Labyrinth Raptor punishes blocks on menace Daleks.",
+   "cards": [
+    "Labyrinth Raptor"
+   ],
+   "m1_refs": [
+    "davros-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:davros-dalek-creator#davros-08"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "The Valeyard",
+   "via": [
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "target": "Entropic Battlecruiser",
+   "via": [
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Geth's Grimoire"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "low",
+  "evidence": [
+   "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Strong: 13 interaction pieces including free counters and sweepers.",
+   "protection": "Greaves, Boots, Padeem (artifact), Plaza of Heroes.",
+   "mana": "Four-mana commander; fixing upgrades (City of Brass, Mana Confluence)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Whole_List_Audit_Closeout_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "threshold-missed",
+   "description": "No opponent at 3 life lost this turn: the trigger does nothing.",
+   "mitigations": [
+    "Fixed 3-life enablers"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:davros-dalek-creator#davros-01"
+   ]
+  },
+  {
+   "id": "opponents-choose",
+   "description": "Opponents pick the cheaper branch every time.",
+   "mitigations": [
+    "Discard punishers make both branches cost something"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:davros-dalek-creator#davros-02"
+   ]
+  },
+  {
+   "id": "slow-clock",
+   "description": "Value without a kill: games go long.",
+   "mitigations": [
+    "Torment of Hailfire",
+    "Labyrinth Raptor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 — Optimized (current-cycle decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md#L45",
+    "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md#L94"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Low-end Bracket 4: forced there by Game Changers and premium interaction; the engine itself is fair value with no combo. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md#L45",
+    "interaction:davros-dalek-creator#davros-01"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Davros__Dalek_Creator"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 22,
+     "2": 818,
+     "3": 611,
+     "4": 100,
+     "5": 9
+    },
+    "decks_with_bracket": 1560,
+    "share_b4_plus": 0.07,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__davros-dalek-creator.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Davros, Dalek Creator",
+   "why": "Dalek and villainous choice every end step.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Davros, Dalek Creator"
+   ]
+  },
+  {
+   "card": "Maestros Charm",
+   "why": "Instant 3 life from every opponent: turns Davros on for the full table.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Court of Ambition",
+   "why": "Upkeep 3-life-or-discard for each opponent; both branches feed Davros.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Entropic Battlecruiser",
+   "why": "Converts discard choices into 3-life losses.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:davros-dalek-creator#davros-06"
+   ]
+  },
+  {
+   "card": "The Valeyard",
+   "why": "Doubles every villainous choice.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:davros-dalek-creator#davros-05"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't drift into generic Grixis artifacts or generic discard.",
+   "Don't add opponent-upkeep effects (The Rack, Bottomless Pit) that don't help on your turn (source cuts)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Doctor Who Daleks."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 701.55a",
+   "note": "Villainous choice: the opponent chooses, then all of that option happens.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.55a"
+   ]
+  },
+  {
+   "rule": "CR 603.4",
+   "note": "Davros has no intervening if: it always triggers and checks on resolution.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:603.4"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "artifacts",
+    "discard",
+    "opponents losing life",
+    "tokens",
+    "villainous choices / voting"
+   ],
+   "hooked_cards": 50,
+   "role_counts": {
+    "counter": 4,
+    "draw": 8,
+    "protection": 4,
+    "ramp": 9,
+    "removal": 8,
+    "tutor": 1,
+    "wipe": 4
+   },
+   "lands": 34,
+   "edhrec_pages": [
+    "davros-dalek-creator"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Davros_Dalek_Creator_Approved_2026-10-14.md",
+   "source_archive:refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Whole_List_Audit_Closeout_2026-10-14.md",
+   "source_archive:refinement/decklists/Davros_Dalek_Creator_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 50)"
+ }
+}

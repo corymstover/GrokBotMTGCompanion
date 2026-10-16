@@ -34,6 +34,7 @@ schema: 2
 | [Grixis Mission](Grixis%20Mission.md) | Cory's commander-first mission and principles (Bot cycle 39) |
 | [Grixis Authority Model](Grixis%20Authority%20Model.md) | Bot cycle 47 (M0): authority hierarchy, deck states, evidence classes, legality vs project authorization, Cory's binding rules, milestone acceptance criteria |
 | [Grixis Authority Gap Analysis](Grixis%20Authority%20Gap%20Analysis.md) | The approved gap analysis of Cory's authority brief (24 sections) and the M0–M8 plan |
+| [blueprints/](blueprints/README.md) | Bot cycle 50+ (M2): machine-readable commander blueprints (plan, the commander's real role, packages, win conditions, failure modes, ceilings with evidence and disagreement flags) |
 | [Grixis Refinement Cycle](Grixis%20Refinement%20Cycle.md) | Commander-dependence and homogenization metrics for all 62 decks, batch log, per-deck swaps |
 | [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md) | Archidekt import files, each labeled: source baseline (canonical) or GrokBot challenger (unapproved); derived compliance projections; `index.json` manifest |
 | [source-archive/](source-archive/README.md) | Full byte-identical archive of the source repo (Bot cycle 45): area map, SHA-256 manifest, history bundle |

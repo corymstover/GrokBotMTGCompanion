@@ -1,0 +1,618 @@
+{
+ "schema_version": 2,
+ "deck_id": "Be_lakor__the_Dark_Master",
+ "slug": "belakor-the-dark-master",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 50,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+ "commanders": {
+  "value": [
+   {
+    "name": "Be'lakor, the Dark Master",
+    "oracle_id": "3690ca72-c925-42ab-acc2-7cc1fda05789",
+    "oracle_text": "Flying\nPrince of Chaos — When Be'lakor enters, you draw X cards and you lose X life, where X is the number of Demons you control.\nLord of Torment — Whenever another Demon you control enters, it deals damage equal to its power to any target.",
+    "oracle_sha256": "sha256:bf46ce8fe53a020536888db0dc263d20e152f54e35cd01cdcb5a0ab8b5457f1a",
+    "type_line": "Legendary Creature — Demon Noble"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Be'lakor, the Dark Master"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Demon tribal: assemble a board of high-power Demons, turn each Demon arrival into direct damage equal to its power, and refill with Be'lakor's ETB draw; multiply arrivals with Panharmonicon, Roaming Throne and copy effects.",
+   "secondary": "Cheat and reanimate big Demons (Sneak Attack, Reanimate, Patriarch's Bidding, Whip of Erebos) and the Liliana's Contract alternate win."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md",
+   "interaction:belakor-the-dark-master#belakor-01",
+   "interaction:belakor-the-dark-master#belakor-02"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Lord of Torment converts every Demon ETB into removal or face damage, and Prince of Chaos refuels; copies of Be'lakor (Spark Double, Rite of Replication) are the biggest turns.",
+   "honest_note": "Six mana and needs other Demons; the draw costs life equal to cards drawn. Slow without ramp."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md",
+   "interaction:belakor-the-dark-master#belakor-01",
+   "interaction:belakor-the-dark-master#belakor-13"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "rite-on-belakor",
+   "kind": "combo",
+   "description": "Kicked Rite of Replication on Be'lakor: five copies each trigger Lord of Torment for the others (≈150 damage).",
+   "cards": [
+    "Rite of Replication",
+    "Be'lakor, the Dark Master"
+   ],
+   "enablers": [
+    "Molten Echoes"
+   ],
+   "evidence_class": "fact",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-03",
+    "spellbook:1744-4071"
+   ]
+  },
+  {
+   "id": "demon-etb-burn",
+   "kind": "natural",
+   "description": "Demon arrivals deal damage equal to power; doubled by Panharmonicon/Roaming Throne and amplified by Archfiend of Despair/Bloodletter.",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Panharmonicon",
+    "Roaming Throne",
+    "Archfiend of Despair",
+    "Bloodletter of Aclazotz"
+   ],
+   "enablers": [
+    "Sneak Attack",
+    "Patriarch's Bidding"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md",
+    "interaction:belakor-the-dark-master#belakor-02"
+   ]
+  },
+  {
+   "id": "lilianas-contract",
+   "kind": "alternate",
+   "description": "Liliana's Contract with four differently named Demons at upkeep.",
+   "cards": [
+    "Liliana's Contract"
+   ],
+   "enablers": [
+    "Kindred Discovery"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-06"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "lord-of-torment",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Panharmonicon",
+    "Roaming Throne",
+    "Spark Double"
+   ],
+   "online_condition": "Another Demon enters under your control.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-02",
+    "interaction:belakor-the-dark-master#belakor-05"
+   ]
+  },
+  {
+   "id": "cheat-and-copy",
+   "cards": [
+    "Sneak Attack",
+    "Molten Echoes",
+    "Reflections of Littjara",
+    "Whip of Erebos",
+    "Kardur, Doomscourge"
+   ],
+   "online_condition": "Demons in hand or graveyard.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-10",
+    "interaction:belakor-the-dark-master#belakor-11"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:high-power-demons",
+   "required": true,
+   "min_count": 15,
+   "role": "Demons whose power makes Lord of Torment lethal.",
+   "cards": [
+    "Archfiend of Depravity",
+    "Archfiend of Despair",
+    "Balor",
+    "Bloodthirster",
+    "Burning-Rune Demon",
+    "Chaos Defiler",
+    "Doom Whisperer",
+    "Great Unclean One",
+    "Lord of Change",
+    "Orcus, Prince of Undeath",
+    "Rakdos, Lord of Riots",
+    "Rakdos, the Showstopper",
+    "Rune-Scarred Demon",
+    "Valgavoth, Terror Eater",
+    "Vilis, Broker of Blood",
+    "Kardur, Doomscourge",
+    "Dream Devourer",
+    "Abyssal Harvester"
+   ],
+   "candidates": [
+    "Varragoth, Bloodsky Sire"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md"
+   ]
+  },
+  {
+   "id": "pkg:etb-multipliers",
+   "required": true,
+   "min_count": 5,
+   "role": "Double or copy Demon arrivals.",
+   "cards": [
+    "Panharmonicon",
+    "Roaming Throne",
+    "Molten Echoes",
+    "Reflections of Littjara",
+    "Rite of Replication",
+    "Spark Double"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md"
+   ]
+  },
+  {
+   "id": "pkg:cheat-reanimate",
+   "required": true,
+   "min_count": 5,
+   "role": "Put six- to eight-drop Demons into play cheaply.",
+   "cards": [
+    "Sneak Attack",
+    "Reanimate",
+    "Patriarch's Bidding",
+    "Whip of Erebos",
+    "Herald of Slaanesh",
+    "Heartless Summoning",
+    "Dark Ritual"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md"
+   ]
+  },
+  {
+   "id": "pkg:damage-amplifiers",
+   "required": false,
+   "min_count": 2,
+   "role": "Turn Lord damage into bigger life loss.",
+   "cards": [
+    "Archfiend of Despair",
+    "Bloodletter of Aclazotz",
+    "Sower of Discord"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md",
+    "interaction:belakor-the-dark-master#belakor-08"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "prince-on-resolution",
+   "summary": "Draw/lose X counts Demons on resolution (Be'lakor counts himself).",
+   "cards": [
+    "Be'lakor, the Dark Master"
+   ],
+   "m1_refs": [
+    "belakor-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-01"
+   ]
+  },
+  {
+   "id": "lord-lki",
+   "summary": "Another Demon entering deals damage equal to its power (last known information).",
+   "cards": [
+    "Be'lakor, the Dark Master"
+   ],
+   "m1_refs": [
+    "belakor-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-02"
+   ]
+  },
+  {
+   "id": "spark-double",
+   "summary": "Spark Double copies Be'lakor without the legend rule.",
+   "cards": [
+    "Spark Double"
+   ],
+   "m1_refs": [
+    "belakor-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-04"
+   ]
+  },
+  {
+   "id": "heartless-shrinks",
+   "summary": "Heartless Summoning shrinks Lord damage by one per Demon.",
+   "cards": [
+    "Heartless Summoning"
+   ],
+   "m1_refs": [
+    "belakor-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-07"
+   ]
+  },
+  {
+   "id": "life-loss-doubling",
+   "summary": "Bloodletter doubles life loss; Sower of Discord passes damage on; Vilis draws off Be'lakor's own life loss.",
+   "cards": [
+    "Bloodletter of Aclazotz",
+    "Sower of Discord",
+    "Vilis, Broker of Blood"
+   ],
+   "m1_refs": [
+    "belakor-08",
+    "belakor-09"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-08",
+    "interaction:belakor-the-dark-master#belakor-09"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Rite of Replication",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-03"
+   ]
+  },
+  {
+   "target": "Sneak Attack",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Reanimate",
+   "Patriarch's Bidding",
+   "Whip of Erebos",
+   "Unholy Annex // Ritual Chamber"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Counters for the big turn plus sweepers (Blasphemous Act, Toxic Deluge) to buy time.",
+   "protection": "Fierce Guardianship, Deflecting Swat; Be'lakor is six mana so recasting is costly.",
+   "mana": "Rituals and rocks to reach six; 33-35 lands."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md",
+   "source_archive:refinement/evidence/Be_lakor_the_Dark_Master_Approval_Gate_Dossier_2026-10-13.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "clunky-curve",
+   "description": "Too many six- to eight-mana Demons: slow, dead hands.",
+   "mitigations": [
+    "Sneak Attack",
+    "Dream Devourer",
+    "Rituals"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md"
+   ]
+  },
+  {
+   "id": "self-life-loss",
+   "description": "Prince of Chaos and Demon drawbacks drain your own life.",
+   "mitigations": [
+    "Whip of Erebos lifelink"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-01"
+   ]
+  },
+  {
+   "id": "commander-tax",
+   "description": "Removal on a six-drop commander quickly becomes prohibitive.",
+   "mitigations": [
+    "Spark Double and copies as backups"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-13"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md",
+   "interaction:belakor-the-dark-master#belakor-02"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": null,
+    "label": "No source ceiling stated in the working blueprint, approval or approval-gate dossier (checked Bot cycle 50)."
+   },
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md",
+    "source_archive:refinement/approvals/Be_lakor_the_Dark_Master_Approved_2026-10-13.md",
+    "source_archive:refinement/evidence/Be_lakor_the_Dark_Master_Approval_Gate_Dossier_2026-10-13.md"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4: a two-card Spellbook kill (Rite on Be'lakor) and Sneak Attack/reanimation, but a six-mana tribal engine with no cEDH speed."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-03",
+    "spellbook:1744-4071",
+    "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Be_lakor__the_Dark_Master"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": null,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 19,
+     "2": 1338,
+     "3": 1610,
+     "4": 542,
+     "5": 35
+    },
+    "decks_with_bracket": 3544,
+    "share_b4_plus": 0.163,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__belakor-the-dark-master.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Be'lakor, the Dark Master",
+   "why": "Only source of Demon-ETB damage and the tribal draw.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Be'lakor, the Dark Master"
+   ]
+  },
+  {
+   "card": "Rite of Replication",
+   "why": "Kicked on Be'lakor it is a one-card table kill.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-03"
+   ]
+  },
+  {
+   "card": "Panharmonicon",
+   "why": "Doubles every Lord of Torment trigger.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:belakor-the-dark-master#belakor-05"
+   ]
+  },
+  {
+   "card": "Spark Double",
+   "why": "Approved swap: a second Be'lakor without the legend rule.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/approvals/Be_lakor_the_Dark_Master_Approved_2026-10-13.md",
+    "interaction:belakor-the-dark-master#belakor-04"
+   ]
+  },
+  {
+   "card": "Sneak Attack",
+   "why": "Puts the eight-drops in for one red and triggers Lord.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't convert into generic Grixis reanimator/control.",
+   "Don't force a cEDH shell; the plan is Demon density and power."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Demon tribal; Warhammer daemons (Lord of Change, Great Unclean One, Bloodthirster) are on-theme."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 704.5j",
+   "note": "Copies of Be'lakor hit the legend rule unless renamed (Spark Double).",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:704.5j"
+   ]
+  },
+  {
+   "rule": "CR 702.139",
+   "note": "Gyruda is in the 99, not a companion; the deck doesn't meet Gyruda's companion restriction.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.139",
+    "interaction:belakor-the-dark-master#belakor-12"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Demon synergy",
+    "enters triggers"
+   ],
+   "hooked_cards": 30,
+   "role_counts": {
+    "counter": 2,
+    "draw": 7,
+    "protection": 1,
+    "ramp": 8,
+    "removal": 5,
+    "tutor": 4,
+    "wipe": 3
+   },
+   "lands": 36,
+   "edhrec_pages": [
+    "belakor-the-dark-master"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Be_lakor__the_Dark_Master_v1.md",
+   "source_archive:refinement/approvals/Be_lakor_the_Dark_Master_Approved_2026-10-13.md",
+   "source_archive:refinement/evidence/Be_lakor_the_Dark_Master_Approval_Gate_Dossier_2026-10-13.md",
+   "source_archive:refinement/decklists/Be_lakor_the_Dark_Master_Approved_2026-10-13.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 50)"
+ }
+}

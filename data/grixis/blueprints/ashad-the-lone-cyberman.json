@@ -1,0 +1,611 @@
+{
+ "schema_version": 2,
+ "deck_id": "Ashad__the_Lone_Cyberman",
+ "slug": "ashad-the-lone-cyberman",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 50,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+ "commanders": {
+  "value": [
+   {
+    "name": "Ashad, the Lone Cyberman",
+    "oracle_id": "f3902dfd-6d09-425f-8446-a68cae2eea50",
+    "oracle_text": "The first nonlegendary artifact spell you cast each turn has casualty 2. (As you cast it, you may sacrifice a creature with power 2 or greater. When you do, copy it. A copy of an artifact spell becomes a token.)\nWhenever you sacrifice another creature, put a +1/+1 counter on Ashad.",
+    "oracle_sha256": "sha256:3e1cfc2fba82600bc35826c1bfdba38b261253658565d4c496608d29b0b0fabf",
+    "type_line": "Legendary Artifact Creature — Cyberman"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Ashad, the Lone Cyberman"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Artifact-copy value: make the first nonlegendary artifact spell each turn a two-for-one by sacrificing a power-2+ creature (often an artifact creature or token), growing Ashad with every sacrifice; flash artifacts extend 'first each turn' to opponents' turns.",
+   "secondary": "Artifact-sacrifice drains and recursion (Disciple of the Vault, Mayhem Devil, KCI, altars, Scrap Trawler, Goblin Welder), and the Urza + Worldwalker Helm + Artificer Class infinite."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Ashad_the_Lone_Cyberman_v1.md",
+   "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md",
+   "interaction:ashad-the-lone-cyberman#ashad-01",
+   "interaction:ashad-the-lone-cyberman#ashad-05"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Ashad copies one artifact spell per turn into a token and turns every sacrifice into a counter on himself.",
+   "honest_note": "Once per turn and only nonlegendary artifact spells; the deck's artifact-sacrifice core (KCI, altars, Urza) would run under any Grixis artifact commander. Ashad is a strong value engine, not the deck's sole win source."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md",
+   "interaction:ashad-the-lone-cyberman#ashad-01",
+   "interaction:ashad-the-lone-cyberman#ashad-02",
+   "interaction:ashad-the-lone-cyberman#ashad-08"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "urza-helm-class",
+   "kind": "combo",
+   "description": "Urza, Lord High Artificer + Worldwalker Helm + Artificer Class (Spellbook infinite).",
+   "cards": [
+    "Urza, Lord High Artificer",
+    "Worldwalker Helm",
+    "Artificer Class"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-05",
+    "spellbook:66-457-5491"
+   ]
+  },
+  {
+   "id": "sacrifice-drain",
+   "kind": "natural",
+   "description": "Disciple of the Vault / Mayhem Devil / Reckless Fireweaver drain as artifacts are sacrificed to KCI and altars.",
+   "cards": [
+    "Disciple of the Vault",
+    "Mayhem Devil",
+    "Reckless Fireweaver",
+    "Krark-Clan Ironworks",
+    "Ashnod's Altar"
+   ],
+   "enablers": [
+    "Marionette Master"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-09",
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md"
+   ]
+  },
+  {
+   "id": "copied-bombs",
+   "kind": "natural",
+   "description": "Casualty-copied Wurmcoil Engine, Portal to Phyrexia or Noxious Gearhulk overwhelm the board.",
+   "cards": [
+    "Wurmcoil Engine",
+    "Portal to Phyrexia",
+    "Noxious Gearhulk"
+   ],
+   "enablers": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md",
+    "interaction:ashad-the-lone-cyberman#ashad-12"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "artifact-casualty",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Twinning Staff",
+    "Poetic Ingenuity",
+    "Biotransference"
+   ],
+   "online_condition": "A power-2+ creature to sacrifice when casting the turn's first nonlegendary artifact spell.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-01",
+    "interaction:ashad-the-lone-cyberman#ashad-04"
+   ]
+  },
+  {
+   "id": "flash-artifacts",
+   "cards": [
+    "Shimmer Myr",
+    "Unwinding Clock"
+   ],
+   "online_condition": "Artifact spells cast on opponents' turns reuse 'first each turn'.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-08"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:copy-targets",
+   "required": true,
+   "min_count": 8,
+   "role": "Nonlegendary artifacts that are much better copied.",
+   "cards": [
+    "Solemn Simulacrum",
+    "Ichor Wellspring",
+    "Wurmcoil Engine",
+    "Portal to Phyrexia",
+    "Noxious Gearhulk",
+    "Phyrexian Metamorph",
+    "Sculpting Steel",
+    "Simulacrum Synthesizer",
+    "Worldwalker Helm",
+    "Thopter Spy Network"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md"
+   ]
+  },
+  {
+   "id": "pkg:power-2-fodder",
+   "required": true,
+   "min_count": 6,
+   "role": "Artifact creatures/tokens with power 2+ for casualty.",
+   "cards": [
+    "Cybermen Squadron",
+    "Solemn Simulacrum",
+    "Kappa Cannoneer",
+    "Scrap Trawler",
+    "Thought Monitor",
+    "Enthusiastic Mechanaut",
+    "Foundry Inspector",
+    "Cyberdrive Awakener"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md",
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_99_Slot_Audit_Working_2026-10-13.md"
+   ]
+  },
+  {
+   "id": "pkg:sac-outlets-and-payoffs",
+   "required": true,
+   "min_count": 5,
+   "role": "Convert artifacts into mana, cards and drain.",
+   "cards": [
+    "Krark-Clan Ironworks",
+    "Ashnod's Altar",
+    "Phyrexian Altar",
+    "Disciple of the Vault",
+    "Mayhem Devil",
+    "Pitiless Plunderer",
+    "Marionette Master"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md"
+   ]
+  },
+  {
+   "id": "pkg:artifact-recursion",
+   "required": true,
+   "min_count": 4,
+   "role": "Rebuy sacrificed artifacts.",
+   "cards": [
+    "Scrap Trawler",
+    "Emry, Lurker of the Loch",
+    "Goblin Welder",
+    "Academy Ruins",
+    "Esoteric Duplicator"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "casualty-artifact",
+   "summary": "First nonlegendary artifact spell each turn: sacrifice power 2+ to copy it into a token.",
+   "cards": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "m1_refs": [
+    "ashad-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-01"
+   ]
+  },
+  {
+   "id": "not-created",
+   "summary": "Casualty copies enter as tokens but aren't 'created': Worldwalker Helm makes no Map.",
+   "cards": [
+    "Worldwalker Helm"
+   ],
+   "m1_refs": [
+    "ashad-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-03"
+   ]
+  },
+  {
+   "id": "staff-applies",
+   "summary": "Twinning Staff applies to artifact spell copies.",
+   "cards": [
+    "Twinning Staff"
+   ],
+   "m1_refs": [
+    "ashad-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-04"
+   ]
+  },
+  {
+   "id": "biotransference",
+   "summary": "Biotransference makes creature spells artifact spells, so they get casualty.",
+   "cards": [
+    "Biotransference"
+   ],
+   "m1_refs": [
+    "ashad-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-06"
+   ]
+  },
+  {
+   "id": "iron-man-legendary",
+   "summary": "Iron Man copies legendary artifacts as nonlegendary.",
+   "cards": [
+    "Iron Man, Bleeding Edge"
+   ],
+   "m1_refs": [
+    "ashad-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-07"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Urza, Lord High Artificer",
+   "via": [
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-05"
+   ]
+  },
+  {
+   "target": "Worldwalker Helm",
+   "via": [
+    "Fabricate",
+    "Inventors' Fair",
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-05"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Scrap Trawler",
+   "Emry, Lurker of the Loch",
+   "Goblin Welder",
+   "Academy Ruins",
+   "Esoteric Duplicator"
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md",
+   "interaction:ashad-the-lone-cyberman#ashad-11"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Artifact hate is the main threat; keep counters (Mana Drain, Arcane Denial) and flexible removal.",
+   "protection": "Greaves, Fierce Guardianship, Deflecting Swat, Padeem for artifacts.",
+   "mana": "Artifact mana (Mox Opal, Urza's Saga, KCI) and 30+ lands."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "artifact-wipe",
+   "description": "Vandalblast/Bane of Progress resets the board and the copy targets.",
+   "mitigations": [
+    "Recursion package",
+    "Padeem",
+    "Counters"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md"
+   ]
+  },
+  {
+   "id": "no-fodder",
+   "description": "No power-2+ creature to sacrifice: no copy.",
+   "mitigations": [
+    "Poetic Ingenuity Dinosaurs",
+    "Biotransference Necrons"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-01"
+   ]
+  },
+  {
+   "id": "legendary-clog",
+   "description": "Legendary artifacts don't get casualty.",
+   "mitigations": [
+    "Iron Man copies legendary artifacts as nonlegendary"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-02"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md",
+   "interaction:ashad-the-lone-cyberman#ashad-05"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": null,
+    "label": "No source ceiling stated in the blueprint, slot audit, closeout or final verification (checked Bot cycle 50)."
+   },
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Ashad_the_Lone_Cyberman_v1.md",
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling for an artifact-copy engine with a Spellbook infinite and KCI/altar density; the list as built sits at its computed floor of 3."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:ashad-the-lone-cyberman#ashad-05",
+    "spellbook:66-457-5491",
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "3",
+    "floor": 3
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Ashad__the_Lone_Cyberman"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": null,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 2,
+     "2": 198,
+     "3": 90,
+     "4": 18,
+     "5": 4
+    },
+    "decks_with_bracket": 312,
+    "share_b4_plus": 0.071,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__ashad-the-lone-cyberman.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Ashad, the Lone Cyberman",
+   "why": "Turns the first artifact spell each turn into a free token copy.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Ashad, the Lone Cyberman"
+   ]
+  },
+  {
+   "card": "Twinning Staff",
+   "why": "Core multiplier: each casualty copy becomes two.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md",
+    "interaction:ashad-the-lone-cyberman#ashad-04"
+   ]
+  },
+  {
+   "card": "Shimmer Myr",
+   "why": "Flash for artifacts uses 'first each turn' on every opponent's turn too.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md",
+    "interaction:ashad-the-lone-cyberman#ashad-08"
+   ]
+  },
+  {
+   "card": "Poetic Ingenuity",
+   "why": "Artifact casts make 3/1 Dinosaurs: casualty fodder that also makes Treasure.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md"
+   ]
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "why": "Both fodder and copy target; each copy ramps and later draws.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't reduce the deck to generic artifact combo without copy targets.",
+   "Don't add legendary artifacts that Ashad can't copy without a reason."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Doctor Who Cybermen flavor (Cyber-Controller, Cybermen Squadron, Cyber Conversion) is part of the identity."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Ashad_the_Lone_Cyberman_v1.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.153a",
+   "note": "Casualty is paid while casting; the sacrificed creature is gone before opponents can respond.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.153a"
+   ]
+  },
+  {
+   "rule": "CR 707.10",
+   "note": "A copy of a permanent spell becomes a token as it resolves.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:707.10"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "+1/+1 counters",
+    "artifacts",
+    "casualty / power 2 or greater",
+    "copying",
+    "sacrifice"
+   ],
+   "hooked_cards": 62,
+   "role_counts": {
+    "counter": 3,
+    "draw": 11,
+    "protection": 3,
+    "ramp": 15,
+    "removal": 4,
+    "tutor": 2,
+    "wipe": 1
+   },
+   "lands": 30,
+   "edhrec_pages": [
+    "ashad-the-lone-cyberman"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Ashad_the_Lone_Cyberman_v1.md",
+   "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md",
+   "source_archive:refinement/verification/Ashad_the_Lone_Cyberman_99_Slot_Audit_Working_2026-10-13.md",
+   "source_archive:refinement/decklists/Ashad_the_Lone_Cyberman_Approval_Ready_2026-10-13.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 50)"
+ }
+}

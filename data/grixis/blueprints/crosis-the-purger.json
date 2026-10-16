@@ -1,0 +1,607 @@
+{
+ "schema_version": 2,
+ "deck_id": "Crosis__the_Purger",
+ "slug": "crosis-the-purger",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 50,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+ "commanders": {
+  "value": [
+   {
+    "name": "Crosis, the Purger",
+    "oracle_id": "f1ae1dcd-76cd-4714-9df2-1ab0ebd2ca41",
+    "oracle_text": "Flying\nWhenever Crosis deals combat damage to a player, you may pay {2}{B}. If you do, choose a color, then that player reveals their hand and discards all cards of that color.",
+    "oracle_sha256": "sha256:103b3fae49069667f0a20cda29126f249ba4fa0f297c1cd0dcb8a5eb6ad72a04",
+    "type_line": "Legendary Creature — Dragon"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Crosis, the Purger"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Discard control: make Crosis connect (evasion, haste, protection), pay {2}{B} to strip a color from the hand, and with Painter's Servant strip the whole hand; punish and harvest discards with Liliana's Caress, Waste Not, Tinybones, Bandit's Talent and Geth's Grimoire.",
+   "secondary": "Symmetric hand attack (Mind Twist, Hymn to Tourach, wheels under Notion Thief) and the Notion Thief + Teferi's Puzzle Box lock."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md",
+   "interaction:crosis-the-purger#crosis-01",
+   "interaction:crosis-the-purger#crosis-02"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Crosis's combat trigger is the deck's largest discard event; equipment, Painter and haste pieces exist to make it land.",
+   "honest_note": "Six mana, needs combat damage and another {2}{B}; the deck has no compact kill. It wins by attrition, discard punishment and combat, so the B4 rating comes more from the card pool (fast mana, Force of Will, Mind Twist) than from a fast win."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md#L16",
+   "interaction:crosis-the-purger#crosis-01",
+   "interaction:crosis-the-purger#crosis-11"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "discard-punishment",
+   "kind": "natural",
+   "description": "Empty hands under Liliana's Caress, Bottomless Pit, Bandit's Talent and Tinybones drain plus Specter/Kroxa beats.",
+   "cards": [
+    "Liliana's Caress",
+    "Bottomless Pit",
+    "Bandit's Talent",
+    "Tinybones, Trinket Thief",
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "enablers": [
+    "Crosis, the Purger",
+    "Painter's Servant"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "commander-damage",
+   "kind": "natural",
+   "description": "Crosis with Sword of Feast and Famine / Brotherhood Regalia as a flying commander-damage clock against a discarded-out table.",
+   "cards": [
+    "Crosis, the Purger",
+    "Sword of Feast and Famine",
+    "Brotherhood Regalia"
+   ],
+   "enablers": [
+    "Swiftfoot Boots",
+    "Lightning Greaves"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "notion-puzzle-lock",
+   "kind": "combo",
+   "description": "Notion Thief + Teferi's Puzzle Box: opponents' draws become yours (a lock, not a kill).",
+   "cards": [
+    "Notion Thief",
+    "Teferi's Puzzle Box"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:crosis-the-purger#crosis-07",
+    "spellbook:2286-3221"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "purge",
+   "cards": [
+    "Crosis, the Purger",
+    "Painter's Servant",
+    "Brotherhood Regalia",
+    "Shizo, Death's Storehouse"
+   ],
+   "online_condition": "Crosis deals combat damage and {2}{B} is available on resolution.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:crosis-the-purger#crosis-01",
+    "interaction:crosis-the-purger#crosis-02"
+   ]
+  },
+  {
+   "id": "discard-harvest",
+   "cards": [
+    "Waste Not",
+    "Tinybones, Bauble Burglar",
+    "Geth's Grimoire",
+    "Tergrid, God of Fright // Tergrid's Lantern",
+    "Liliana's Caress"
+   ],
+   "online_condition": "Opponents discard.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:connect",
+   "required": true,
+   "min_count": 6,
+   "role": "Haste, evasion and protection so Crosis connects.",
+   "cards": [
+    "Brotherhood Regalia",
+    "Sword of Feast and Famine",
+    "Swiftfoot Boots",
+    "Lightning Greaves",
+    "Shizo, Death's Storehouse",
+    "Plaza of Heroes",
+    "Cavern of Souls",
+    "Deflecting Swat",
+    "Fierce Guardianship"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:discard-payoffs",
+   "required": true,
+   "min_count": 6,
+   "role": "Make discards hurt or pay.",
+   "cards": [
+    "Liliana's Caress",
+    "Waste Not",
+    "Bottomless Pit",
+    "Bandit's Talent",
+    "Tinybones, Bauble Burglar",
+    "Tinybones, Trinket Thief",
+    "Tinybones, Pocket Nuisance",
+    "Geth's Grimoire",
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:discard-sources",
+   "required": true,
+   "min_count": 8,
+   "role": "Additional discard so the payoffs fire without Crosis.",
+   "cards": [
+    "Hymn to Tourach",
+    "Mind Twist",
+    "Blizzard Specter",
+    "Sedraxis Specter",
+    "Fell Specter",
+    "Tourach, Dread Cantor",
+    "The Raven Man",
+    "Oppression",
+    "Syphon Mind",
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:notion-wheels",
+   "required": false,
+   "min_count": 3,
+   "role": "One-sided wheels and the Puzzle Box lock.",
+   "cards": [
+    "Notion Thief",
+    "Teferi's Puzzle Box",
+    "Wheel of Fortune",
+    "Windfall"
+   ],
+   "candidates": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:crosis-the-purger#crosis-07",
+    "interaction:crosis-the-purger#crosis-08"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "pay-on-resolution",
+   "summary": "Pay {2}{B} on resolution, then choose the color.",
+   "cards": [
+    "Crosis, the Purger"
+   ],
+   "m1_refs": [
+    "crosis-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:crosis-the-purger#crosis-01"
+   ]
+  },
+  {
+   "id": "painter",
+   "summary": "Painter's Servant: name its color with Crosis for a full-hand discard.",
+   "cards": [
+    "Painter's Servant"
+   ],
+   "m1_refs": [
+    "crosis-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:crosis-the-purger#crosis-02"
+   ]
+  },
+  {
+   "id": "sword-painter",
+   "summary": "Sword trigger above Crosis untaps lands for the payment; Painter's color can knock the Sword's protection off.",
+   "cards": [
+    "Sword of Feast and Famine",
+    "Painter's Servant"
+   ],
+   "m1_refs": [
+    "crosis-03",
+    "crosis-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:crosis-the-purger#crosis-03",
+    "interaction:crosis-the-purger#crosis-04"
+   ]
+  },
+  {
+   "id": "tergrid-order",
+   "summary": "Order Tergrid's trigger on top of Tinybones'.",
+   "cards": [
+    "Tergrid, God of Fright // Tergrid's Lantern",
+    "Tinybones, Trinket Thief"
+   ],
+   "m1_refs": [
+    "crosis-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:crosis-the-purger#crosis-06"
+   ]
+  },
+  {
+   "id": "oppression-symmetric",
+   "summary": "Oppression is symmetric.",
+   "cards": [
+    "Oppression"
+   ],
+   "m1_refs": [
+    "crosis-10"
+   ],
+   "evidence_class": "fact",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:crosis-the-purger#crosis-10"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Painter's Servant",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Gamble"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:crosis-the-purger#crosis-02"
+   ]
+  },
+  {
+   "target": "Brotherhood Regalia",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Reanimate",
+   "Dream Salvage",
+   "Kroxa, Titan of Death's Hunger"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md",
+   "interaction:crosis-the-purger#crosis-09"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Counters (Force of Will, Mana Drain, Swan Song) plus Toxic Deluge/Damnation for blockers.",
+   "protection": "Two haste/protection equipment, Plaza, Regalia ward, free protection.",
+   "mana": "Fast mana (Mana Vault, Chrome Mox, Mox Diamond, Dark Ritual) to land a six-drop early."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "no-connection",
+   "description": "Crosis can't connect (flying blockers, removal).",
+   "mitigations": [
+    "Regalia unblockable",
+    "Shizo fear",
+    "Sword pro-black/green"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "tapped-out",
+   "description": "No {2}{B} on resolution: the trigger does nothing.",
+   "mitigations": [
+    "Sword untaps lands"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:crosis-the-purger#crosis-01"
+   ]
+  },
+  {
+   "id": "no-finisher",
+   "description": "Opponents stuck on empty hands but the deck lacks a fast kill.",
+   "mitigations": [
+    "Bottomless Pit/Caress drain",
+    "Commander damage"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 — Optimized, not cEDH (current-cycle decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md#L16",
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md#L47"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Low-end Bracket 4: premium card pool, slow six-mana combat engine, no compact win. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md#L16",
+    "interaction:crosis-the-purger#crosis-11"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Crosis__the_Purger"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 6,
+     "2": 90,
+     "3": 77,
+     "4": 23,
+     "5": 1
+    },
+    "decks_with_bracket": 197,
+    "share_b4_plus": 0.122,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__crosis-the-purger.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Crosis, the Purger",
+   "why": "Combat-triggered color purge: the deck's defining discard event.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Crosis, the Purger"
+   ]
+  },
+  {
+   "card": "Painter's Servant",
+   "why": "Makes every purge a full-hand discard.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:crosis-the-purger#crosis-02"
+   ]
+  },
+  {
+   "card": "Brotherhood Regalia",
+   "why": "Unblockable for {1} plus ward: the most direct connect enabler.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Tinybones, Bauble Burglar",
+   "why": "Turns discarded cards into stolen plays.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Waste Not",
+   "why": "Every discard type pays you mana, cards or Zombies.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't add generic cEDH win packages or Painter + Grindstone combos (source decision).",
+   "Don't drop the connect/protection count for more discard."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Dragon-legend control; Specters and discard creatures fit the theme."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 701.9",
+   "note": "Discard rules; Painter's color-setting makes all cards one color.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.9"
+   ]
+  },
+  {
+   "rule": "CR 903.8",
+   "note": "Commander tax on a six-drop that must survive combat.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:903.8"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "combat damage / attack triggers",
+    "discard"
+   ],
+   "hooked_cards": 30,
+   "role_counts": {
+    "counter": 5,
+    "draw": 12,
+    "protection": 4,
+    "ramp": 15,
+    "removal": 6,
+    "tutor": 4,
+    "wipe": 2
+   },
+   "lands": 36,
+   "edhrec_pages": [
+    "crosis-the-purger"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/decklists/Crosis_the_Purger_Approval_Candidate_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 50)"
+ }
+}

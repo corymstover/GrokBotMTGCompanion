@@ -123,6 +123,28 @@
        },
        "criteria_doc": {
         "type": "string"
+       },
+       "accepted_at": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?Z$",
+        "description": "UTC time of the acceptance (Bot cycle 50)."
+       },
+       "acceptance_evidence": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "description": "Where the acceptance is recorded (e.g. an in-chat approval relayed by MTG Bot)."
+       },
+       "scope_note": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "description": "What the acceptance does and does not cover."
        }
       },
       "required": [
