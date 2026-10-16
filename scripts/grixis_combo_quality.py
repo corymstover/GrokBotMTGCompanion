@@ -309,7 +309,10 @@ def check():
         print("combo-quality: jsonschema is required for --check")
         return 1
     schema = load(SCHEMA)
-    resolver = jsonschema.RefResolver(base_uri=SCHEMA.resolve().as_uri(), referrer=schema)
+    common_path = SCHEMA.parent / "common.schema.json"
+    common = load(common_path)
+    store = {schema["$id"]: schema, common["$id"]: common}
+    resolver = jsonschema.RefResolver(base_uri=schema["$id"], referrer=schema, store=store)
     validator = jsonschema.Draft202012Validator(schema, resolver=resolver)
     reg, combos, summary = load(REGISTRY), load(COMBOS), load(SUMMARY)
     problems = []

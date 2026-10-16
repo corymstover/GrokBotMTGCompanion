@@ -1,0 +1,1425 @@
+{
+ "authority": {
+  "can_decide": false,
+  "exploratory": true,
+  "note": "Step B evidence only. Structural/outcome labels are provisional hints; M6 judgment decides priority and deck changes."
+ },
+ "canonical_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+ "combos": [
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:2770-6676"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:2770-6676"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Sol'Kanar the Tainted"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:2770-6676"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Donate"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:2770-6676"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Donate"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Demonic Pact": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:curses"
+       ],
+       "recursion": false,
+       "roles": [
+        "draw",
+        "removal"
+       ],
+       "signal_count": 5,
+       "tutor_target": true
+      },
+      "Donate": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:transfer"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Donate"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Demonic Pact",
+       "Donate"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Donate"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 7,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-tainted"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 3,
+      "near_variant_ids": [
+       "3090-6676",
+       "3769-6676",
+       "6676-6922"
+      ],
+      "piece_spellbook_occurrences": {
+       "Demonic Pact": 4,
+       "Donate": 1
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:2770-6676"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Donate",
+      "spellbook:2770-6676"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 3,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Donate"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:2770-6676"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Donate"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Demonic Pact"
+       ],
+       "sorcery": [
+        "Donate"
+       ],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Demonic Pact"
+      ],
+      "piece_count": 2,
+      "targeted_piece_count": 1,
+      "via": {
+       "Demonic Pact": [
+        "Demonic Tutor",
+        "Vampiric Tutor"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Donate",
+      "spellbook:2770-6676"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Demonic Pact"
+       ],
+       "sorcery": [
+        "Donate"
+       ],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Demonic Pact",
+    "Donate"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_independent_power_package"
+   },
+   "id": "2770-6676",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 5,
+     "mv": 4,
+     "name": "Demonic Pact",
+     "packages": [
+      "pkg:curses"
+     ],
+     "recursion": false,
+     "roles": [
+      "draw",
+      "removal"
+     ],
+     "tutor_target": true,
+     "type_line": "Enchantment"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 3,
+     "name": "Donate",
+     "packages": [
+      "pkg:transfer"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Sorcery"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:2770-6676"
+    ],
+    "evidence_class": "fact",
+    "infinite": false,
+    "produces": [
+     "Target opponent loses the game at the beginning of their next upkeep"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:3090-6676"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:3090-6676"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Sol'Kanar the Tainted"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:3090-6676"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Harmless Offering"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:3090-6676"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Harmless Offering"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Demonic Pact": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:curses"
+       ],
+       "recursion": false,
+       "roles": [
+        "draw",
+        "removal"
+       ],
+       "signal_count": 5,
+       "tutor_target": true
+      },
+      "Harmless Offering": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:transfer"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Harmless Offering"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Demonic Pact",
+       "Harmless Offering"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Harmless Offering"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 7,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-tainted"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 3,
+      "near_variant_ids": [
+       "2770-6676",
+       "3769-6676",
+       "6676-6922"
+      ],
+      "piece_spellbook_occurrences": {
+       "Demonic Pact": 4,
+       "Harmless Offering": 1
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:3090-6676"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Harmless Offering",
+      "spellbook:3090-6676"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 3,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Harmless Offering"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:3090-6676"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Harmless Offering"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Demonic Pact"
+       ],
+       "sorcery": [
+        "Harmless Offering"
+       ],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Demonic Pact"
+      ],
+      "piece_count": 2,
+      "targeted_piece_count": 1,
+      "via": {
+       "Demonic Pact": [
+        "Demonic Tutor",
+        "Vampiric Tutor"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Harmless Offering",
+      "spellbook:3090-6676"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Demonic Pact"
+       ],
+       "sorcery": [
+        "Harmless Offering"
+       ],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Demonic Pact",
+    "Harmless Offering"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_independent_power_package"
+   },
+   "id": "3090-6676",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 5,
+     "mv": 4,
+     "name": "Demonic Pact",
+     "packages": [
+      "pkg:curses"
+     ],
+     "recursion": false,
+     "roles": [
+      "draw",
+      "removal"
+     ],
+     "tutor_target": true,
+     "type_line": "Enchantment"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 2,
+     "mv": 3,
+     "name": "Harmless Offering",
+     "packages": [
+      "pkg:transfer"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Sorcery"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:3090-6676"
+    ],
+    "evidence_class": "fact",
+    "infinite": false,
+    "produces": [
+     "Target opponent loses the game at the beginning of their next upkeep"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:3769-6676"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:3769-6676"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Sol'Kanar the Tainted"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:3769-6676"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Blim, Comedic Genius",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:3769-6676"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Blim, Comedic Genius",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Blim, Comedic Genius": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:transfer"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Demonic Pact": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:curses"
+       ],
+       "recursion": false,
+       "roles": [
+        "draw",
+        "removal"
+       ],
+       "signal_count": 5,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Blim, Comedic Genius",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Blim, Comedic Genius",
+       "Demonic Pact"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Blim, Comedic Genius",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 8,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-tainted"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 3,
+      "near_variant_ids": [
+       "2770-6676",
+       "3090-6676",
+       "6676-6922"
+      ],
+      "piece_spellbook_occurrences": {
+       "Blim, Comedic Genius": 1,
+       "Demonic Pact": 4
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:3769-6676"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Blim, Comedic Genius",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "spellbook:3769-6676"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 3,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Blim, Comedic Genius"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:3769-6676"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Blim, Comedic Genius",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Blim, Comedic Genius",
+        "Demonic Pact"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Demonic Pact"
+      ],
+      "piece_count": 2,
+      "targeted_piece_count": 1,
+      "via": {
+       "Demonic Pact": [
+        "Demonic Tutor",
+        "Vampiric Tutor"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Blim, Comedic Genius",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "spellbook:3769-6676"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Blim, Comedic Genius",
+        "Demonic Pact"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Demonic Pact",
+    "Blim, Comedic Genius"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_independent_power_package"
+   },
+   "id": "3769-6676",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 5,
+     "mv": 4,
+     "name": "Demonic Pact",
+     "packages": [
+      "pkg:curses"
+     ],
+     "recursion": false,
+     "roles": [
+      "draw",
+      "removal"
+     ],
+     "tutor_target": true,
+     "type_line": "Enchantment"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 4,
+     "name": "Blim, Comedic Genius",
+     "packages": [
+      "pkg:transfer"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Legendary Creature — Imp"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:3769-6676"
+    ],
+    "evidence_class": "fact",
+    "infinite": false,
+    "produces": [
+     "Target opponent loses the game at the beginning of their next upkeep"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:6676-6922"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:6676-6922"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Sol'Kanar the Tainted"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:6676-6922"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Coveted Falcon",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:6676-6922"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Coveted Falcon",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Coveted Falcon": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:ownership",
+        "pkg:transfer"
+       ],
+       "recursion": false,
+       "roles": [
+        "draw",
+        "removal"
+       ],
+       "signal_count": 4,
+       "tutor_target": false
+      },
+      "Demonic Pact": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:curses"
+       ],
+       "recursion": false,
+       "roles": [
+        "draw",
+        "removal"
+       ],
+       "signal_count": 5,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Coveted Falcon",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Coveted Falcon",
+       "Demonic Pact"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Coveted Falcon",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 7,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-tainted"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 3,
+      "near_variant_ids": [
+       "2770-6676",
+       "3090-6676",
+       "3769-6676"
+      ],
+      "piece_spellbook_occurrences": {
+       "Coveted Falcon": 1,
+       "Demonic Pact": 4
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:6676-6922"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Coveted Falcon",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "spellbook:6676-6922"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 3,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Coveted Falcon"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate",
+      "spellbook:6676-6922"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Coveted Falcon",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Coveted Falcon",
+        "Demonic Pact"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Demonic Pact"
+      ],
+      "piece_count": 2,
+      "targeted_piece_count": 1,
+      "via": {
+       "Demonic Pact": [
+        "Demonic Tutor",
+        "Vampiric Tutor"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Coveted Falcon",
+      "graph:data/grixis/graph/solkanar-the-tainted.json#card:Demonic Pact",
+      "spellbook:6676-6922"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Coveted Falcon",
+        "Demonic Pact"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Demonic Pact",
+    "Coveted Falcon"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_independent_power_package"
+   },
+   "id": "6676-6922",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 5,
+     "mv": 4,
+     "name": "Demonic Pact",
+     "packages": [
+      "pkg:curses"
+     ],
+     "recursion": false,
+     "roles": [
+      "draw",
+      "removal"
+     ],
+     "tutor_target": true,
+     "type_line": "Enchantment"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 4,
+     "mv": 3,
+     "name": "Coveted Falcon",
+     "packages": [
+      "pkg:ownership",
+      "pkg:transfer"
+     ],
+     "recursion": false,
+     "roles": [
+      "draw",
+      "removal"
+     ],
+     "tutor_target": false,
+     "type_line": "Artifact Creature — Bird"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:6676-6922"
+    ],
+    "evidence_class": "fact",
+    "infinite": false,
+    "produces": [
+     "Target opponent loses the game at the beginning of their next upkeep"
+    ],
+    "requires": []
+   }
+  }
+ ],
+ "deck_id": "Sol_kanar_the_Tainted",
+ "generated_by": "scripts/grixis_combo_quality.py v1",
+ "inputs": {
+  "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+  "graph": "data/grixis/graph/solkanar-the-tainted.json",
+  "registry": "data/grixis/registry.json",
+  "spellbook": "data/grixis_combos.json"
+ },
+ "schema_version": 1,
+ "slug": "solkanar-the-tainted",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_win_linked_count": 4,
+  "combo_count": 4,
+  "commander_independent_win_hint_count": 4,
+  "commander_piece_count": 0,
+  "infinite_count": 0,
+  "unresolved_classification_count": 4
+ }
+}

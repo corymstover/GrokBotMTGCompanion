@@ -1,0 +1,2422 @@
+{
+ "authority": {
+  "can_decide": false,
+  "exploratory": true,
+  "note": "Step B evidence only. Structural/outcome labels are provisional hints; M6 judgment decides priority and deck changes."
+ },
+ "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+ "combos": [
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:2615-4449-5112"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role",
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines",
+      "spellbook:2615-4449-5112"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Mairsil, the Pretender"
+      ],
+      "direct_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role",
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines",
+      "spellbook:2615-4449-5112"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Hateflayer",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Tree of Perdition"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines",
+      "spellbook:2615-4449-5112"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "unverified"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Hateflayer",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Tree of Perdition"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Hateflayer": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:cage-payloads"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Mairsil, the Pretender": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Tree of Perdition": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:cage-payloads"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Hateflayer",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Tree of Perdition"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Hateflayer",
+       "Tree of Perdition"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Hateflayer",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Tree of Perdition"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": null,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/mairsil-the-pretender"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 0,
+      "near_variant_ids": [],
+      "piece_spellbook_occurrences": {
+       "Hateflayer": 1,
+       "Mairsil, the Pretender": 5,
+       "Tree of Perdition": 1
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines",
+      "spellbook:2615-4449-5112"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [],
+      "status": "none_declared_but_not_proven_unnecessary"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Hateflayer",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Tree of Perdition",
+      "spellbook:2615-4449-5112"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 0,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Hateflayer",
+       "Tree of Perdition"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines",
+      "spellbook:2615-4449-5112"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Hateflayer",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Tree of Perdition"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Hateflayer",
+        "Tree of Perdition"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Mairsil, the Pretender"
+       ]
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 3,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Hateflayer",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Tree of Perdition",
+      "spellbook:2615-4449-5112"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Hateflayer",
+        "Tree of Perdition"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Mairsil, the Pretender"
+       ]
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Mairsil, the Pretender",
+    "Hateflayer",
+    "Tree of Perdition"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_designated_win_line",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_native_combo"
+   },
+   "id": "2615-4449-5112",
+   "piece_facts": [
+    {
+     "graph_present": false,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": null,
+     "name": "Mairsil, the Pretender",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": null
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 7,
+     "name": "Hateflayer",
+     "packages": [
+      "pkg:cage-payloads"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Elemental"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 4,
+     "name": "Tree of Perdition",
+     "packages": [
+      "pkg:cage-payloads"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Plant"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:2615-4449-5112"
+    ],
+    "evidence_class": "fact",
+    "infinite": false,
+    "produces": [
+     "Target opponent loses the game"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:4091-4235-5116"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role",
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/rings-alchemist",
+      "spellbook:4091-4235-5116"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Mairsil, the Pretender"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role",
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/rings-alchemist",
+      "spellbook:4091-4235-5116"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aphetto Alchemist",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Rings of Brighthearth"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 1,
+      "low_independent_signal_pieces": [
+       "Rings of Brighthearth"
+      ]
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/rings-alchemist",
+      "spellbook:4091-4235-5116"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "unverified"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aphetto Alchemist",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Rings of Brighthearth"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Aphetto Alchemist": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:cage-payloads"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Gilded Lotus": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "ramp"
+       ],
+       "signal_count": 2,
+       "tutor_target": true
+      },
+      "Rings of Brighthearth": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aphetto Alchemist",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Rings of Brighthearth"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Aphetto Alchemist",
+       "Gilded Lotus",
+       "Rings of Brighthearth"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aphetto Alchemist",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Rings of Brighthearth"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 10,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/mairsil-the-pretender"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 0,
+      "near_variant_ids": [],
+      "piece_spellbook_occurrences": {
+       "Aphetto Alchemist": 1,
+       "Gilded Lotus": 4,
+       "Rings of Brighthearth": 1
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/rings-alchemist",
+      "spellbook:4091-4235-5116"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [],
+      "status": "none_declared_but_not_proven_unnecessary"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aphetto Alchemist",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Rings of Brighthearth",
+      "spellbook:4091-4235-5116"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 0,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Aphetto Alchemist",
+       "Rings of Brighthearth"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/rings-alchemist",
+      "spellbook:4091-4235-5116"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aphetto Alchemist",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Rings of Brighthearth"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Aphetto Alchemist",
+        "Gilded Lotus",
+        "Rings of Brighthearth"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Gilded Lotus"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Gilded Lotus": [
+        "Vampiric Tutor",
+        "Wishclaw Talisman"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aphetto Alchemist",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Rings of Brighthearth",
+      "spellbook:4091-4235-5116"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Aphetto Alchemist",
+        "Gilded Lotus",
+        "Rings of Brighthearth"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Rings of Brighthearth",
+    "Aphetto Alchemist",
+    "Gilded Lotus"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/rings-alchemist"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_designated_win_line",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_independent_power_package"
+   },
+   "id": "4091-4235-5116",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": 3,
+     "name": "Rings of Brighthearth",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 2,
+     "name": "Aphetto Alchemist",
+     "packages": [
+      "pkg:cage-payloads"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Human Wizard"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 5,
+     "name": "Gilded Lotus",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "ramp"
+     ],
+     "tutor_target": true,
+     "type_line": "Artifact"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:4091-4235-5116"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite colored mana",
+     "Infinite untap of artifacts and creatures"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1050-4068-4439-5112"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 4
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role",
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines",
+      "spellbook:1050-4068-4439-5112"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Mairsil, the Pretender"
+      ],
+      "direct_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role",
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines",
+      "spellbook:1050-4068-4439-5112"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aetherling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Anger",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Nevinyrral's Disk"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 1,
+      "low_independent_signal_pieces": [
+       "Anger"
+      ]
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines",
+      "spellbook:1050-4068-4439-5112"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "unverified"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aetherling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Anger",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Nevinyrral's Disk"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Aetherling": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:cage-payloads"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Anger": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Mairsil, the Pretender": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Nevinyrral's Disk": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "wipe"
+       ],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aetherling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Anger",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Nevinyrral's Disk"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Aetherling",
+       "Anger",
+       "Nevinyrral's Disk"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aetherling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Anger",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Nevinyrral's Disk"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": null,
+      "piece_count": 4
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/mairsil-the-pretender"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 0,
+      "near_variant_ids": [],
+      "piece_spellbook_occurrences": {
+       "Aetherling": 1,
+       "Anger": 1,
+       "Mairsil, the Pretender": 5,
+       "Nevinyrral's Disk": 1
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines",
+      "spellbook:1050-4068-4439-5112"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [],
+      "status": "none_declared_but_not_proven_unnecessary"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aetherling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Anger",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Nevinyrral's Disk",
+      "spellbook:1050-4068-4439-5112"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 0,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Aetherling",
+       "Anger",
+       "Nevinyrral's Disk"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines",
+      "spellbook:1050-4068-4439-5112"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aetherling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Anger",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Nevinyrral's Disk"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Aetherling",
+        "Anger",
+        "Nevinyrral's Disk"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Mairsil, the Pretender"
+       ]
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 4,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Aetherling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Anger",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Nevinyrral's Disk",
+      "spellbook:1050-4068-4439-5112"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Aetherling",
+        "Anger",
+        "Nevinyrral's Disk"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Mairsil, the Pretender"
+       ]
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Mairsil, the Pretender",
+    "Aetherling",
+    "Anger",
+    "Nevinyrral's Disk"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_designated_win_line",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_native_combo"
+   },
+   "id": "1050-4068-4439-5112",
+   "piece_facts": [
+    {
+     "graph_present": false,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": null,
+     "name": "Mairsil, the Pretender",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": null
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 6,
+     "name": "Aetherling",
+     "packages": [
+      "pkg:cage-payloads"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Shapeshifter"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": 4,
+     "name": "Anger",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Incarnation"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 4,
+     "name": "Nevinyrral's Disk",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "wipe"
+     ],
+     "tutor_target": false,
+     "type_line": "Artifact"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:1050-4068-4439-5112"
+    ],
+    "evidence_class": "fact",
+    "infinite": false,
+    "produces": [
+     "Destroy all creatures, artifacts, and enchantments on each player's turn",
+     "Lock"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1369-2645-5112-5116"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 4
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role",
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-2645-5112-5116"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Mairsil, the Pretender"
+      ],
+      "direct_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role",
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-2645-5112-5116"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Staff of Domination"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-2645-5112-5116"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Staff of Domination"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Gilded Lotus": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "ramp"
+       ],
+       "signal_count": 2,
+       "tutor_target": true
+      },
+      "Mairsil, the Pretender": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Quicksilver Elemental": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:cage-payloads"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      },
+      "Staff of Domination": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:cage-payloads"
+       ],
+       "recursion": false,
+       "roles": [
+        "draw"
+       ],
+       "signal_count": 2,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Staff of Domination"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Gilded Lotus",
+       "Quicksilver Elemental",
+       "Staff of Domination"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Staff of Domination"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": null,
+      "piece_count": 4
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/mairsil-the-pretender"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 2,
+      "near_variant_ids": [
+       "1369-3995-5112-5116",
+       "1369-5112-5116-5137"
+      ],
+      "piece_spellbook_occurrences": {
+       "Gilded Lotus": 4,
+       "Mairsil, the Pretender": 5,
+       "Quicksilver Elemental": 3,
+       "Staff of Domination": 1
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-2645-5112-5116"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Walking Ballista"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Staff of Domination",
+      "spellbook:1369-2645-5112-5116"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 2,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Staff of Domination"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-2645-5112-5116"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Walking Ballista"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Staff of Domination"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Gilded Lotus",
+        "Quicksilver Elemental",
+        "Staff of Domination"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Mairsil, the Pretender"
+       ]
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Gilded Lotus",
+       "Quicksilver Elemental"
+      ],
+      "piece_count": 4,
+      "targeted_piece_count": 2,
+      "via": {
+       "Gilded Lotus": [
+        "Vampiric Tutor",
+        "Wishclaw Talisman"
+       ],
+       "Quicksilver Elemental": [
+        "Buried Alive",
+        "Demonic Tutor",
+        "Entomb"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Staff of Domination",
+      "spellbook:1369-2645-5112-5116"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Gilded Lotus",
+        "Quicksilver Elemental",
+        "Staff of Domination"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Mairsil, the Pretender"
+       ]
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Mairsil, the Pretender",
+    "Quicksilver Elemental",
+    "Gilded Lotus",
+    "Staff of Domination"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_native_combo"
+   },
+   "id": "1369-2645-5112-5116",
+   "piece_facts": [
+    {
+     "graph_present": false,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": null,
+     "name": "Mairsil, the Pretender",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": null
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 5,
+     "name": "Quicksilver Elemental",
+     "packages": [
+      "pkg:cage-payloads"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Elemental"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 5,
+     "name": "Gilded Lotus",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "ramp"
+     ],
+     "tutor_target": true,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 3,
+     "name": "Staff of Domination",
+     "packages": [
+      "pkg:cage-payloads"
+     ],
+     "recursion": false,
+     "roles": [
+      "draw"
+     ],
+     "tutor_target": false,
+     "type_line": "Artifact"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:1369-2645-5112-5116"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite card draw",
+     "Infinite colored mana",
+     "Infinite draw triggers",
+     "Infinite lifegain"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1369-3995-5112-5116"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 4
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role",
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-3995-5112-5116"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Mairsil, the Pretender"
+      ],
+      "direct_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role",
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-3995-5112-5116"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Horseshoe Crab",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-3995-5112-5116"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Horseshoe Crab",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Gilded Lotus": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "ramp"
+       ],
+       "signal_count": 2,
+       "tutor_target": true
+      },
+      "Horseshoe Crab": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:cage-payloads"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Mairsil, the Pretender": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Quicksilver Elemental": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:cage-payloads"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Horseshoe Crab",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Gilded Lotus",
+       "Horseshoe Crab",
+       "Quicksilver Elemental"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Horseshoe Crab",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": null,
+      "piece_count": 4
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/mairsil-the-pretender"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 2,
+      "near_variant_ids": [
+       "1369-2645-5112-5116",
+       "1369-5112-5116-5137"
+      ],
+      "piece_spellbook_occurrences": {
+       "Gilded Lotus": 4,
+       "Horseshoe Crab": 1,
+       "Mairsil, the Pretender": 5,
+       "Quicksilver Elemental": 3
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-3995-5112-5116"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Walking Ballista"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Horseshoe Crab",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental",
+      "spellbook:1369-3995-5112-5116"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 2,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Horseshoe Crab"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-3995-5112-5116"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Walking Ballista"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Horseshoe Crab",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Gilded Lotus",
+        "Horseshoe Crab",
+        "Quicksilver Elemental"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Mairsil, the Pretender"
+       ]
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Gilded Lotus",
+       "Quicksilver Elemental"
+      ],
+      "piece_count": 4,
+      "targeted_piece_count": 2,
+      "via": {
+       "Gilded Lotus": [
+        "Vampiric Tutor",
+        "Wishclaw Talisman"
+       ],
+       "Quicksilver Elemental": [
+        "Buried Alive",
+        "Demonic Tutor",
+        "Entomb"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Horseshoe Crab",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental",
+      "spellbook:1369-3995-5112-5116"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Gilded Lotus",
+        "Horseshoe Crab",
+        "Quicksilver Elemental"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Mairsil, the Pretender"
+       ]
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Mairsil, the Pretender",
+    "Quicksilver Elemental",
+    "Gilded Lotus",
+    "Horseshoe Crab"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_native_combo"
+   },
+   "id": "1369-3995-5112-5116",
+   "piece_facts": [
+    {
+     "graph_present": false,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": null,
+     "name": "Mairsil, the Pretender",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": null
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 5,
+     "name": "Quicksilver Elemental",
+     "packages": [
+      "pkg:cage-payloads"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Elemental"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 5,
+     "name": "Gilded Lotus",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "ramp"
+     ],
+     "tutor_target": true,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 3,
+     "name": "Horseshoe Crab",
+     "packages": [
+      "pkg:cage-payloads"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Crab"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:1369-3995-5112-5116"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite colored mana"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1369-5112-5116-5137"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 4
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role",
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-5112-5116-5137"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Mairsil, the Pretender"
+      ],
+      "direct_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role",
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-5112-5116-5137"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Morphling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-5112-5116-5137"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Morphling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Gilded Lotus": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "ramp"
+       ],
+       "signal_count": 2,
+       "tutor_target": true
+      },
+      "Mairsil, the Pretender": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Morphling": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:cage-payloads"
+       ],
+       "recursion": false,
+       "roles": [
+        "protection"
+       ],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Quicksilver Elemental": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:cage-payloads"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Morphling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Gilded Lotus",
+       "Morphling",
+       "Quicksilver Elemental"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Morphling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": null,
+      "piece_count": 4
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Mairsil, the Pretender"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/mairsil-the-pretender"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 2,
+      "near_variant_ids": [
+       "1369-2645-5112-5116",
+       "1369-3995-5112-5116"
+      ],
+      "piece_spellbook_occurrences": {
+       "Gilded Lotus": 4,
+       "Mairsil, the Pretender": 5,
+       "Morphling": 1,
+       "Quicksilver Elemental": 3
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-5112-5116-5137"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Walking Ballista"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Morphling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental",
+      "spellbook:1369-5112-5116-5137"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 2,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Morphling"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus",
+      "spellbook:1369-5112-5116-5137"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Walking Ballista"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Morphling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Gilded Lotus",
+        "Morphling",
+        "Quicksilver Elemental"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Mairsil, the Pretender"
+       ]
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Gilded Lotus",
+       "Quicksilver Elemental"
+      ],
+      "piece_count": 4,
+      "targeted_piece_count": 2,
+      "via": {
+       "Gilded Lotus": [
+        "Vampiric Tutor",
+        "Wishclaw Talisman"
+       ],
+       "Quicksilver Elemental": [
+        "Buried Alive",
+        "Demonic Tutor",
+        "Entomb"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Gilded Lotus",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Mairsil, the Pretender",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Morphling",
+      "graph:data/grixis/graph/mairsil-the-pretender.json#card:Quicksilver Elemental",
+      "spellbook:1369-5112-5116-5137"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Gilded Lotus",
+        "Morphling",
+        "Quicksilver Elemental"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Mairsil, the Pretender"
+       ]
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Mairsil, the Pretender",
+    "Morphling",
+    "Gilded Lotus",
+    "Quicksilver Elemental"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_native_combo"
+   },
+   "id": "1369-5112-5116-5137",
+   "piece_facts": [
+    {
+     "graph_present": false,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": null,
+     "name": "Mairsil, the Pretender",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": null
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 5,
+     "name": "Morphling",
+     "packages": [
+      "pkg:cage-payloads"
+     ],
+     "recursion": false,
+     "roles": [
+      "protection"
+     ],
+     "tutor_target": false,
+     "type_line": "Creature — Shapeshifter"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 5,
+     "name": "Gilded Lotus",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "ramp"
+     ],
+     "tutor_target": true,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 5,
+     "name": "Quicksilver Elemental",
+     "packages": [
+      "pkg:cage-payloads"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Elemental"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:1369-5112-5116-5137"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite colored mana"
+    ],
+    "requires": []
+   }
+  }
+ ],
+ "deck_id": "Mairsil__the_Pretender",
+ "generated_by": "scripts/grixis_combo_quality.py v1",
+ "inputs": {
+  "blueprint": "data/grixis/blueprints/mairsil-the-pretender.json",
+  "graph": "data/grixis/graph/mairsil-the-pretender.json",
+  "registry": "data/grixis/registry.json",
+  "spellbook": "data/grixis_combos.json"
+ },
+ "schema_version": 1,
+ "slug": "mairsil-the-pretender",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_win_linked_count": 6,
+  "combo_count": 6,
+  "commander_independent_win_hint_count": 1,
+  "commander_piece_count": 5,
+  "infinite_count": 4,
+  "unresolved_classification_count": 6
+ }
+}

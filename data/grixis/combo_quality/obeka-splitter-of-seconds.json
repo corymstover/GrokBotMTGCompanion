@@ -1,0 +1,1869 @@
+{
+ "authority": {
+  "can_decide": false,
+  "exploratory": true,
+  "note": "Step B evidence only. Structural/outcome labels are provisional hints; M6 judgment decides priority and deck changes."
+ },
+ "canonical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+ "combos": [
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:2047-5471"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role",
+      "spellbook:2047-5471"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "direct_pieces": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role",
+      "spellbook:2047-5471"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Mechanized Production",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "spellbook:2047-5471"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": false,
+      "status": "unverified"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Mechanized Production",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Mechanized Production": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:upkeep-engines"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Obeka, Splitter of Seconds": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Mechanized Production",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Mechanized Production"
+      ],
+      "count_proxy": 1
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Mechanized Production",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 1,
+      "mv_sum_proxy": null,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/obeka-splitter-of-seconds"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "1469-1558-5471",
+       "1558-5085-5471",
+       "1558-5471-7348",
+       "1558-5471-7651"
+      ],
+      "piece_spellbook_occurrences": {
+       "Mechanized Production": 1,
+       "Obeka, Splitter of Seconds": 5
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "low",
+     "evidence": [
+      "spellbook:2047-5471"
+     ],
+     "evidence_class": "heuristic",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [],
+      "status": "none_declared_but_not_proven_unnecessary"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Mechanized Production",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "spellbook:2047-5471"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Mechanized Production"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "moderate",
+     "evidence": [
+      "spellbook:2047-5471"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Mechanized Production",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Mechanized Production"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Obeka, Splitter of Seconds"
+       ]
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 2,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Mechanized Production",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "spellbook:2047-5471"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Mechanized Production"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Obeka, Splitter of Seconds"
+       ]
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Mechanized Production"
+   ],
+   "classification": {
+    "confidence": "low",
+    "evidence": [
+     "spellbook:2047-5471"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "noninfinite_combo_requires_judgment",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_native_combo"
+   },
+   "id": "2047-5471",
+   "piece_facts": [
+    {
+     "graph_present": false,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": null,
+     "name": "Obeka, Splitter of Seconds",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": null
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 4,
+     "name": "Mechanized Production",
+     "packages": [
+      "pkg:upkeep-engines"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Enchantment — Aura"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:2047-5471"
+    ],
+    "evidence_class": "fact",
+    "infinite": false,
+    "produces": [
+     "Win the game"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1469-1558-5471"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role",
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1469-1558-5471"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "direct_pieces": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role",
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1469-1558-5471"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Court of Vantress",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1469-1558-5471"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Court of Vantress",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Court of Vantress": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:upkeep-engines"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Obeka, Splitter of Seconds": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Time Sieve": {
+       "identity_core": true,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Court of Vantress",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Court of Vantress",
+       "Time Sieve"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Court of Vantress",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": null,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/obeka-splitter-of-seconds"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "1558-5085-5471",
+       "1558-5471-7348",
+       "1558-5471-7651",
+       "2047-5471"
+      ],
+      "piece_spellbook_occurrences": {
+       "Court of Vantress": 1,
+       "Obeka, Splitter of Seconds": 5,
+       "Time Sieve": 4
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1469-1558-5471"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Mjölnir, Hammer of Thor",
+       "Roaming Throne"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Court of Vantress",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve",
+      "spellbook:1469-1558-5471"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Court of Vantress"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1469-1558-5471"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Mjölnir, Hammer of Thor",
+       "Roaming Throne"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Court of Vantress",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Court of Vantress",
+        "Time Sieve"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Obeka, Splitter of Seconds"
+       ]
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Time Sieve"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Time Sieve": [
+        "Demonic Tutor",
+        "Profane Tutor",
+        "Vampiric Tutor"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Court of Vantress",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve",
+      "spellbook:1469-1558-5471"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Court of Vantress",
+        "Time Sieve"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Obeka, Splitter of Seconds"
+       ]
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Time Sieve",
+    "Court of Vantress"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_native_combo"
+   },
+   "id": "1469-1558-5471",
+   "piece_facts": [
+    {
+     "graph_present": false,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": null,
+     "name": "Obeka, Splitter of Seconds",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": null
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 2,
+     "mv": 2,
+     "name": "Time Sieve",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 4,
+     "name": "Court of Vantress",
+     "packages": [
+      "pkg:upkeep-engines"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Enchantment"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "R",
+    "evidence": [
+     "spellbook:1469-1558-5471"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1558-5085-5471"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role",
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5085-5471"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "direct_pieces": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role",
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5085-5471"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Thopter Spy Network",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5085-5471"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Thopter Spy Network",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Obeka, Splitter of Seconds": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Thopter Spy Network": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:upkeep-engines"
+       ],
+       "recursion": false,
+       "roles": [
+        "draw"
+       ],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Time Sieve": {
+       "identity_core": true,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Thopter Spy Network",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Thopter Spy Network",
+       "Time Sieve"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Thopter Spy Network",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": null,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/obeka-splitter-of-seconds"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "1469-1558-5471",
+       "1558-5471-7348",
+       "1558-5471-7651",
+       "2047-5471"
+      ],
+      "piece_spellbook_occurrences": {
+       "Obeka, Splitter of Seconds": 5,
+       "Thopter Spy Network": 1,
+       "Time Sieve": 4
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5085-5471"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Mjölnir, Hammer of Thor",
+       "Roaming Throne"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Thopter Spy Network",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve",
+      "spellbook:1558-5085-5471"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Thopter Spy Network"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5085-5471"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Mjölnir, Hammer of Thor",
+       "Roaming Throne"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Thopter Spy Network",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Thopter Spy Network",
+        "Time Sieve"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Obeka, Splitter of Seconds"
+       ]
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Time Sieve"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Time Sieve": [
+        "Demonic Tutor",
+        "Profane Tutor",
+        "Vampiric Tutor"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Thopter Spy Network",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve",
+      "spellbook:1558-5085-5471"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Thopter Spy Network",
+        "Time Sieve"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Obeka, Splitter of Seconds"
+       ]
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Time Sieve",
+    "Thopter Spy Network"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_native_combo"
+   },
+   "id": "1558-5085-5471",
+   "piece_facts": [
+    {
+     "graph_present": false,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": null,
+     "name": "Obeka, Splitter of Seconds",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": null
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 2,
+     "mv": 2,
+     "name": "Time Sieve",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 4,
+     "name": "Thopter Spy Network",
+     "packages": [
+      "pkg:upkeep-engines"
+     ],
+     "recursion": false,
+     "roles": [
+      "draw"
+     ],
+     "tutor_target": false,
+     "type_line": "Enchantment"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "R",
+    "evidence": [
+     "spellbook:1558-5085-5471"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1558-5471-7348"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role",
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5471-7348"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "direct_pieces": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role",
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5471-7348"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Replicating Ring",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5471-7348"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Replicating Ring",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Obeka, Splitter of Seconds": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Replicating Ring": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:upkeep-engines"
+       ],
+       "recursion": false,
+       "roles": [
+        "ramp"
+       ],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Time Sieve": {
+       "identity_core": true,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Replicating Ring",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Replicating Ring",
+       "Time Sieve"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Replicating Ring",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": null,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/obeka-splitter-of-seconds"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "1469-1558-5471",
+       "1558-5085-5471",
+       "1558-5471-7651",
+       "2047-5471"
+      ],
+      "piece_spellbook_occurrences": {
+       "Obeka, Splitter of Seconds": 5,
+       "Replicating Ring": 1,
+       "Time Sieve": 4
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5471-7348"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Mjölnir, Hammer of Thor",
+       "Roaming Throne"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Replicating Ring",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve",
+      "spellbook:1558-5471-7348"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Replicating Ring"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5471-7348"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Mjölnir, Hammer of Thor",
+       "Roaming Throne"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Replicating Ring",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Replicating Ring",
+        "Time Sieve"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Obeka, Splitter of Seconds"
+       ]
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Time Sieve"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Time Sieve": [
+        "Demonic Tutor",
+        "Profane Tutor",
+        "Vampiric Tutor"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Replicating Ring",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve",
+      "spellbook:1558-5471-7348"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Replicating Ring",
+        "Time Sieve"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Obeka, Splitter of Seconds"
+       ]
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Time Sieve",
+    "Replicating Ring"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_native_combo"
+   },
+   "id": "1558-5471-7348",
+   "piece_facts": [
+    {
+     "graph_present": false,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": null,
+     "name": "Obeka, Splitter of Seconds",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": null
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 2,
+     "mv": 2,
+     "name": "Time Sieve",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 3,
+     "name": "Replicating Ring",
+     "packages": [
+      "pkg:upkeep-engines"
+     ],
+     "recursion": false,
+     "roles": [
+      "ramp"
+     ],
+     "tutor_target": false,
+     "type_line": "Snow Artifact"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "R",
+    "evidence": [
+     "spellbook:1558-5471-7348"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1558-5471-7651"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role",
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5471-7651"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "direct_pieces": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role",
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5471-7651"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [
+       "Obeka, Splitter of Seconds"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Smaug the Magnificent",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5471-7651"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Smaug the Magnificent",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Obeka, Splitter of Seconds": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Smaug the Magnificent": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:upkeep-engines"
+       ],
+       "recursion": false,
+       "roles": [
+        "ramp"
+       ],
+       "signal_count": 3,
+       "tutor_target": false
+      },
+      "Time Sieve": {
+       "identity_core": true,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Smaug the Magnificent",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Smaug the Magnificent",
+       "Time Sieve"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Smaug the Magnificent",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": null,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/obeka-splitter-of-seconds"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "1469-1558-5471",
+       "1558-5085-5471",
+       "1558-5471-7348",
+       "2047-5471"
+      ],
+      "piece_spellbook_occurrences": {
+       "Obeka, Splitter of Seconds": 5,
+       "Smaug the Magnificent": 1,
+       "Time Sieve": 4
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5471-7651"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Mjölnir, Hammer of Thor",
+       "Roaming Throne"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Smaug the Magnificent",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve",
+      "spellbook:1558-5471-7651"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Smaug the Magnificent"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns",
+      "spellbook:1558-5471-7651"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Mjölnir, Hammer of Thor",
+       "Roaming Throne"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Smaug the Magnificent",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Smaug the Magnificent",
+        "Time Sieve"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Obeka, Splitter of Seconds"
+       ]
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Time Sieve"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Time Sieve": [
+        "Demonic Tutor",
+        "Profane Tutor",
+        "Vampiric Tutor"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Obeka, Splitter of Seconds",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Smaug the Magnificent",
+      "graph:data/grixis/graph/obeka-splitter-of-seconds.json#card:Time Sieve",
+      "spellbook:1558-5471-7651"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Smaug the Magnificent",
+        "Time Sieve"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Obeka, Splitter of Seconds"
+       ]
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Smaug the Magnificent",
+    "Time Sieve"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_native_combo"
+   },
+   "id": "1558-5471-7651",
+   "piece_facts": [
+    {
+     "graph_present": false,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": null,
+     "name": "Obeka, Splitter of Seconds",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": null
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 4,
+     "name": "Smaug the Magnificent",
+     "packages": [
+      "pkg:upkeep-engines"
+     ],
+     "recursion": false,
+     "roles": [
+      "ramp"
+     ],
+     "tutor_target": false,
+     "type_line": "Legendary Creature — Dragon"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 2,
+     "mv": 2,
+     "name": "Time Sieve",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Artifact"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "R",
+    "evidence": [
+     "spellbook:1558-5471-7651"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "requires": []
+   }
+  }
+ ],
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "generated_by": "scripts/grixis_combo_quality.py v1",
+ "inputs": {
+  "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+  "graph": "data/grixis/graph/obeka-splitter-of-seconds.json",
+  "registry": "data/grixis/registry.json",
+  "spellbook": "data/grixis_combos.json"
+ },
+ "schema_version": 1,
+ "slug": "obeka-splitter-of-seconds",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_win_linked_count": 4,
+  "combo_count": 5,
+  "commander_independent_win_hint_count": 0,
+  "commander_piece_count": 5,
+  "infinite_count": 4,
+  "unresolved_classification_count": 5
+ }
+}

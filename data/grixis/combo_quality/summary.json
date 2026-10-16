@@ -1,0 +1,634 @@
+{
+ "decks": [
+  {
+   "blueprint_win_linked_count": 4,
+   "combo_count": 4,
+   "commander_independent_win_hint_count": 4,
+   "commander_piece_count": 0,
+   "deck_id": "Abaddon_the_Despoiler",
+   "infinite_count": 4,
+   "slug": "abaddon-the-despoiler",
+   "unresolved_classification_count": 4
+  },
+  {
+   "blueprint_win_linked_count": 0,
+   "combo_count": 0,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Admiral_Beckett_Brass",
+   "infinite_count": 0,
+   "slug": "admiral-beckett-brass",
+   "unresolved_classification_count": 0
+  },
+  {
+   "blueprint_win_linked_count": 0,
+   "combo_count": 0,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "infinite_count": 0,
+   "slug": "admiral-brass-unsinkable",
+   "unresolved_classification_count": 0
+  },
+  {
+   "blueprint_win_linked_count": 5,
+   "combo_count": 8,
+   "commander_independent_win_hint_count": 5,
+   "commander_piece_count": 0,
+   "deck_id": "Anhelo__the_Painter",
+   "infinite_count": 8,
+   "slug": "anhelo-the-painter",
+   "unresolved_classification_count": 8
+  },
+  {
+   "blueprint_win_linked_count": 1,
+   "combo_count": 1,
+   "commander_independent_win_hint_count": 1,
+   "commander_piece_count": 0,
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "infinite_count": 1,
+   "slug": "ashad-the-lone-cyberman",
+   "unresolved_classification_count": 1
+  },
+  {
+   "blueprint_win_linked_count": 5,
+   "combo_count": 15,
+   "commander_independent_win_hint_count": 5,
+   "commander_piece_count": 0,
+   "deck_id": "Ashnod_the_Uncaring",
+   "infinite_count": 15,
+   "slug": "ashnod-the-uncaring",
+   "unresolved_classification_count": 15
+  },
+  {
+   "blueprint_win_linked_count": 1,
+   "combo_count": 1,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 1,
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "infinite_count": 1,
+   "slug": "belakor-the-dark-master",
+   "unresolved_classification_count": 1
+  },
+  {
+   "blueprint_win_linked_count": 3,
+   "combo_count": 3,
+   "commander_independent_win_hint_count": 2,
+   "commander_piece_count": 0,
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "infinite_count": 3,
+   "slug": "bjorna-nightfall-alchemist-cecily",
+   "unresolved_classification_count": 3
+  },
+  {
+   "blueprint_win_linked_count": 15,
+   "combo_count": 23,
+   "commander_independent_win_hint_count": 6,
+   "commander_piece_count": 11,
+   "deck_id": "Cormela__Glamour_Thief",
+   "infinite_count": 21,
+   "slug": "cormela-glamour-thief",
+   "unresolved_classification_count": 23
+  },
+  {
+   "blueprint_win_linked_count": 1,
+   "combo_count": 1,
+   "commander_independent_win_hint_count": 1,
+   "commander_piece_count": 0,
+   "deck_id": "Crosis__the_Purger",
+   "infinite_count": 0,
+   "slug": "crosis-the-purger",
+   "unresolved_classification_count": 1
+  },
+  {
+   "blueprint_win_linked_count": 1,
+   "combo_count": 1,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Cult_of_Skaro",
+   "infinite_count": 1,
+   "slug": "cult-of-skaro",
+   "unresolved_classification_count": 1
+  },
+  {
+   "blueprint_win_linked_count": 0,
+   "combo_count": 0,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Davros__Dalek_Creator",
+   "infinite_count": 0,
+   "slug": "davros-dalek-creator",
+   "unresolved_classification_count": 0
+  },
+  {
+   "blueprint_win_linked_count": 1,
+   "combo_count": 1,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "infinite_count": 1,
+   "slug": "doctor-doom-king-of-latveria",
+   "unresolved_classification_count": 1
+  },
+  {
+   "blueprint_win_linked_count": 0,
+   "combo_count": 0,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Don_Andres__the_Renegade",
+   "infinite_count": 0,
+   "slug": "don-andres-the-renegade",
+   "unresolved_classification_count": 0
+  },
+  {
+   "blueprint_win_linked_count": 0,
+   "combo_count": 0,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Dr__Eggman",
+   "infinite_count": 0,
+   "slug": "dr-eggman",
+   "unresolved_classification_count": 0
+  },
+  {
+   "blueprint_win_linked_count": 0,
+   "combo_count": 0,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Edea__Possessed_Sorceress",
+   "infinite_count": 0,
+   "slug": "edea-possessed-sorceress",
+   "unresolved_classification_count": 0
+  },
+  {
+   "blueprint_win_linked_count": 5,
+   "combo_count": 6,
+   "commander_independent_win_hint_count": 4,
+   "commander_piece_count": 1,
+   "deck_id": "Edward_Kenway",
+   "infinite_count": 6,
+   "slug": "edward-kenway",
+   "unresolved_classification_count": 6
+  },
+  {
+   "blueprint_win_linked_count": 7,
+   "combo_count": 7,
+   "commander_independent_win_hint_count": 4,
+   "commander_piece_count": 0,
+   "deck_id": "Evelyn__the_Covetous",
+   "infinite_count": 5,
+   "slug": "evelyn-the-covetous",
+   "unresolved_classification_count": 7
+  },
+  {
+   "blueprint_win_linked_count": 9,
+   "combo_count": 9,
+   "commander_independent_win_hint_count": 7,
+   "commander_piece_count": 2,
+   "deck_id": "Fire_Lord_Azula",
+   "infinite_count": 7,
+   "slug": "fire-lord-azula",
+   "unresolved_classification_count": 9
+  },
+  {
+   "blueprint_win_linked_count": 3,
+   "combo_count": 3,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "infinite_count": 2,
+   "slug": "garza-zol-plague-queen",
+   "unresolved_classification_count": 3
+  },
+  {
+   "blueprint_win_linked_count": 5,
+   "combo_count": 5,
+   "commander_independent_win_hint_count": 4,
+   "commander_piece_count": 1,
+   "deck_id": "Goro_Goro_and_Satoru",
+   "infinite_count": 5,
+   "slug": "goro-goro-and-satoru",
+   "unresolved_classification_count": 5
+  },
+  {
+   "blueprint_win_linked_count": 6,
+   "combo_count": 6,
+   "commander_independent_win_hint_count": 6,
+   "commander_piece_count": 0,
+   "deck_id": "Grixistax___October_2026",
+   "infinite_count": 4,
+   "slug": "grixistax-october-2026",
+   "unresolved_classification_count": 6
+  },
+  {
+   "blueprint_win_linked_count": 1,
+   "combo_count": 1,
+   "commander_independent_win_hint_count": 1,
+   "commander_piece_count": 0,
+   "deck_id": "Gwendlyn_Di_Corci",
+   "infinite_count": 1,
+   "slug": "gwendlyn-di-corci",
+   "unresolved_classification_count": 1
+  },
+  {
+   "blueprint_win_linked_count": 15,
+   "combo_count": 15,
+   "commander_independent_win_hint_count": 5,
+   "commander_piece_count": 1,
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "infinite_count": 13,
+   "slug": "inalla-archmage-ritualist",
+   "unresolved_classification_count": 15
+  },
+  {
+   "blueprint_win_linked_count": 7,
+   "combo_count": 7,
+   "commander_independent_win_hint_count": 7,
+   "commander_piece_count": 0,
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "infinite_count": 4,
+   "slug": "jeleva-nephalias-scourge",
+   "unresolved_classification_count": 7
+  },
+  {
+   "blueprint_win_linked_count": 6,
+   "combo_count": 6,
+   "commander_independent_win_hint_count": 6,
+   "commander_piece_count": 0,
+   "deck_id": "Kefka__Court_Mage",
+   "infinite_count": 4,
+   "slug": "kefka-court-mage",
+   "unresolved_classification_count": 6
+  },
+  {
+   "blueprint_win_linked_count": 6,
+   "combo_count": 6,
+   "commander_independent_win_hint_count": 4,
+   "commander_piece_count": 0,
+   "deck_id": "Kess__Dissident_Mage",
+   "infinite_count": 4,
+   "slug": "kess-dissident-mage",
+   "unresolved_classification_count": 6
+  },
+  {
+   "blueprint_win_linked_count": 0,
+   "combo_count": 0,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Loki__the_Deceiver",
+   "infinite_count": 0,
+   "slug": "loki-the-deceiver",
+   "unresolved_classification_count": 0
+  },
+  {
+   "blueprint_win_linked_count": 16,
+   "combo_count": 19,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 2,
+   "deck_id": "Lord_of_Tresserhorn",
+   "infinite_count": 15,
+   "slug": "lord-of-tresserhorn",
+   "unresolved_classification_count": 19
+  },
+  {
+   "blueprint_win_linked_count": 11,
+   "combo_count": 11,
+   "commander_independent_win_hint_count": 4,
+   "commander_piece_count": 2,
+   "deck_id": "Lord_Xander__the_Collector",
+   "infinite_count": 11,
+   "slug": "lord-xander-the-collector",
+   "unresolved_classification_count": 11
+  },
+  {
+   "blueprint_win_linked_count": 0,
+   "combo_count": 0,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "infinite_count": 0,
+   "slug": "lynde-cheerful-tormentor",
+   "unresolved_classification_count": 0
+  },
+  {
+   "blueprint_win_linked_count": 8,
+   "combo_count": 8,
+   "commander_independent_win_hint_count": 3,
+   "commander_piece_count": 0,
+   "deck_id": "Mai_and_Zuko",
+   "infinite_count": 8,
+   "slug": "mai-and-zuko",
+   "unresolved_classification_count": 8
+  },
+  {
+   "blueprint_win_linked_count": 6,
+   "combo_count": 6,
+   "commander_independent_win_hint_count": 1,
+   "commander_piece_count": 5,
+   "deck_id": "Mairsil__the_Pretender",
+   "infinite_count": 4,
+   "slug": "mairsil-the-pretender",
+   "unresolved_classification_count": 6
+  },
+  {
+   "blueprint_win_linked_count": 4,
+   "combo_count": 4,
+   "commander_independent_win_hint_count": 4,
+   "commander_piece_count": 0,
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "infinite_count": 3,
+   "slug": "marchesa-dealer-of-death",
+   "unresolved_classification_count": 4
+  },
+  {
+   "blueprint_win_linked_count": 35,
+   "combo_count": 48,
+   "commander_independent_win_hint_count": 35,
+   "commander_piece_count": 0,
+   "deck_id": "Marchesa__the_Black_Rose",
+   "infinite_count": 48,
+   "slug": "marchesa-the-black-rose",
+   "unresolved_classification_count": 48
+  },
+  {
+   "blueprint_win_linked_count": 14,
+   "combo_count": 20,
+   "commander_independent_win_hint_count": 14,
+   "commander_piece_count": 0,
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "infinite_count": 15,
+   "slug": "mishra-artificer-prodigy",
+   "unresolved_classification_count": 20
+  },
+  {
+   "blueprint_win_linked_count": 13,
+   "combo_count": 19,
+   "commander_independent_win_hint_count": 4,
+   "commander_piece_count": 10,
+   "deck_id": "Mishra__Eminent_One",
+   "infinite_count": 13,
+   "slug": "mishra-eminent-one",
+   "unresolved_classification_count": 19
+  },
+  {
+   "blueprint_win_linked_count": 17,
+   "combo_count": 17,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 17,
+   "deck_id": "Missy",
+   "infinite_count": 17,
+   "slug": "missy",
+   "unresolved_classification_count": 17
+  },
+  {
+   "blueprint_win_linked_count": 0,
+   "combo_count": 0,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "infinite_count": 0,
+   "slug": "nathan-drake-treasure-hunter",
+   "unresolved_classification_count": 0
+  },
+  {
+   "blueprint_win_linked_count": 7,
+   "combo_count": 7,
+   "commander_independent_win_hint_count": 2,
+   "commander_piece_count": 1,
+   "deck_id": "Nekusar__the_Mindrazer",
+   "infinite_count": 6,
+   "slug": "nekusar-the-mindrazer",
+   "unresolved_classification_count": 7
+  },
+  {
+   "blueprint_win_linked_count": 1,
+   "combo_count": 1,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Nicol_Bolas",
+   "infinite_count": 1,
+   "slug": "nicol-bolas",
+   "unresolved_classification_count": 1
+  },
+  {
+   "blueprint_win_linked_count": 3,
+   "combo_count": 3,
+   "commander_independent_win_hint_count": 3,
+   "commander_piece_count": 0,
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "infinite_count": 3,
+   "slug": "nicol-bolas-the-ravager",
+   "unresolved_classification_count": 3
+  },
+  {
+   "blueprint_win_linked_count": 7,
+   "combo_count": 7,
+   "commander_independent_win_hint_count": 6,
+   "commander_piece_count": 0,
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "infinite_count": 5,
+   "slug": "norman-osborn",
+   "unresolved_classification_count": 7
+  },
+  {
+   "blueprint_win_linked_count": 4,
+   "combo_count": 4,
+   "commander_independent_win_hint_count": 2,
+   "commander_piece_count": 1,
+   "deck_id": "Obeka__Brute_Chronologist",
+   "infinite_count": 4,
+   "slug": "obeka-brute-chronologist",
+   "unresolved_classification_count": 4
+  },
+  {
+   "blueprint_win_linked_count": 4,
+   "combo_count": 5,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 5,
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "infinite_count": 4,
+   "slug": "obeka-splitter-of-seconds",
+   "unresolved_classification_count": 5
+  },
+  {
+   "blueprint_win_linked_count": 25,
+   "combo_count": 25,
+   "commander_independent_win_hint_count": 25,
+   "commander_piece_count": 0,
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "infinite_count": 25,
+   "slug": "parnesse-the-subtle-brush",
+   "unresolved_classification_count": 25
+  },
+  {
+   "blueprint_win_linked_count": 7,
+   "combo_count": 7,
+   "commander_independent_win_hint_count": 7,
+   "commander_piece_count": 0,
+   "deck_id": "RogSi",
+   "infinite_count": 5,
+   "slug": "rograkh-son-of-rohgahh-silas-renn",
+   "unresolved_classification_count": 7
+  },
+  {
+   "blueprint_win_linked_count": 1,
+   "combo_count": 1,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Saruman__the_White_Hand",
+   "infinite_count": 1,
+   "slug": "saruman-the-white-hand",
+   "unresolved_classification_count": 1
+  },
+  {
+   "blueprint_win_linked_count": 0,
+   "combo_count": 0,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "infinite_count": 0,
+   "slug": "sauron-lord-of-the-rings",
+   "unresolved_classification_count": 0
+  },
+  {
+   "blueprint_win_linked_count": 0,
+   "combo_count": 0,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Sauron__the_Dark_Lord",
+   "infinite_count": 0,
+   "slug": "sauron-the-dark-lord",
+   "unresolved_classification_count": 0
+  },
+  {
+   "blueprint_win_linked_count": 1,
+   "combo_count": 1,
+   "commander_independent_win_hint_count": 1,
+   "commander_piece_count": 0,
+   "deck_id": "Sedris__the_Traitor_King",
+   "infinite_count": 1,
+   "slug": "sedris-the-traitor-king",
+   "unresolved_classification_count": 1
+  },
+  {
+   "blueprint_win_linked_count": 12,
+   "combo_count": 13,
+   "commander_independent_win_hint_count": 2,
+   "commander_piece_count": 0,
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "infinite_count": 13,
+   "slug": "solkanar-the-swamp-king",
+   "unresolved_classification_count": 13
+  },
+  {
+   "blueprint_win_linked_count": 4,
+   "combo_count": 4,
+   "commander_independent_win_hint_count": 4,
+   "commander_piece_count": 0,
+   "deck_id": "Sol_kanar_the_Tainted",
+   "infinite_count": 0,
+   "slug": "solkanar-the-tainted",
+   "unresolved_classification_count": 4
+  },
+  {
+   "blueprint_win_linked_count": 2,
+   "combo_count": 2,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "infinite_count": 2,
+   "slug": "tetsuo-imperial-champion",
+   "unresolved_classification_count": 2
+  },
+  {
+   "blueprint_win_linked_count": 1,
+   "combo_count": 1,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "Tetsuo_Umezawa",
+   "infinite_count": 1,
+   "slug": "tetsuo-umezawa",
+   "unresolved_classification_count": 1
+  },
+  {
+   "blueprint_win_linked_count": 4,
+   "combo_count": 4,
+   "commander_independent_win_hint_count": 4,
+   "commander_piece_count": 0,
+   "deck_id": "The_Madcap_Jester",
+   "infinite_count": 2,
+   "slug": "the-madcap-jester",
+   "unresolved_classification_count": 4
+  },
+  {
+   "blueprint_win_linked_count": 0,
+   "combo_count": 0,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "The_Rani",
+   "infinite_count": 0,
+   "slug": "the-rani",
+   "unresolved_classification_count": 0
+  },
+  {
+   "blueprint_win_linked_count": 0,
+   "combo_count": 0,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 0,
+   "deck_id": "The_Valeyard",
+   "infinite_count": 0,
+   "slug": "the-valeyard",
+   "unresolved_classification_count": 0
+  },
+  {
+   "blueprint_win_linked_count": 11,
+   "combo_count": 17,
+   "commander_independent_win_hint_count": 11,
+   "commander_piece_count": 0,
+   "deck_id": "Thraximundar",
+   "infinite_count": 17,
+   "slug": "thraximundar",
+   "unresolved_classification_count": 17
+  },
+  {
+   "blueprint_win_linked_count": 10,
+   "combo_count": 21,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 6,
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "infinite_count": 21,
+   "slug": "tresserhorns-lord-returned",
+   "unresolved_classification_count": 21
+  },
+  {
+   "blueprint_win_linked_count": 13,
+   "combo_count": 13,
+   "commander_independent_win_hint_count": 0,
+   "commander_piece_count": 12,
+   "deck_id": "Wick__the_Whorled_Mind",
+   "infinite_count": 13,
+   "slug": "wick-the-whorled-mind",
+   "unresolved_classification_count": 13
+  },
+  {
+   "blueprint_win_linked_count": 1,
+   "combo_count": 1,
+   "commander_independent_win_hint_count": 1,
+   "commander_piece_count": 0,
+   "deck_id": "Zevlor__Elturel_Exile",
+   "infinite_count": 1,
+   "slug": "zevlor-elturel-exile",
+   "unresolved_classification_count": 1
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_quality.py v1",
+ "schema_version": 1,
+ "totals": {
+  "blueprint_win_linked_count": 349,
+  "combo_count": 418,
+  "commander_independent_win_hint_count": 205,
+  "commander_piece_count": 78,
+  "infinite_count": 369,
+  "unresolved_classification_count": 418
+ }
+}
