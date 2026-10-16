@@ -1,0 +1,426 @@
+{
+ "schema": 1,
+ "deck_id": "Gwendlyn_Di_Corci",
+ "slug": "gwendlyn-di-corci",
+ "commanders": [
+  "Gwendlyn Di Corci"
+ ],
+ "deck_sha256": "4120c13480a4daa65cfd672e720c9e8a7bc83b7964730aaf342bf1da44589ca4",
+ "list_source": "exports/grixis-archidekt/gwendlyn-di-corci.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 49,
+ "batch": "C",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+   "note": "15 interactions, all PASS"
+  }
+ ],
+ "summary": "Gwendlyn Di Corci taps on your turn to make a player discard at random. The deck stacks untappers, Illusionist's Bracers and discard payoffs. This review re-verifies the fifteen items of the deck's rules attestation and confirms its one Spellbook combo.\n\nRules surprises (pilot notes, no list change):\n- Lightning Greaves' shroud blocks the deck's own targeted untappers and Bracers' equip.\n- Chains of Mephistopheles turns your own wheels into self-mill.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "gwendlyn-01",
+   "category": "commander",
+   "title": "Tap ability: your turn only, and summoning sickness applies",
+   "cards": [
+    "Gwendlyn Di Corci",
+    "Lightning Greaves",
+    "Thousand-Year Elixir"
+   ],
+   "ruling": "Gwendlyn's ability has {T} in its cost, so she needs haste or to have been under your control since your turn began. Lightning Greaves gives haste. Thousand-Year Elixir lets creature abilities be activated as though they had haste, but doesn't actually grant haste, so she still can't attack. The ability targets a player, so Gwendlyn having shroud doesn't stop it.",
+   "short": "Needs haste (Greaves) or Elixir the turn she lands; targets a player, so her own shroud is fine.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "302.6",
+    "602.5",
+    "115.1"
+   ],
+   "oracle": [
+    {
+     "card": "Gwendlyn Di Corci",
+     "quote": "{T}: Target player discards a card at random. Activate only during your turn."
+    },
+    {
+     "card": "Thousand-Year Elixir",
+     "quote": "You may activate abilities of creatures you control as though those creatures had haste."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Thousand-Year Elixir",
+     "quote": "Thousand-Year Elixir doesn’t actually grant haste to creatures you control, nor does it let you attack with them as though they had haste."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Gwendlyn activation timing and summoning sickness"
+    }
+   ]
+  },
+  {
+   "id": "gwendlyn-02",
+   "category": "trigger-order",
+   "title": "Illusionist's Bracers copies each activation",
+   "cards": [
+    "Gwendlyn Di Corci",
+    "Illusionist's Bracers"
+   ],
+   "ruling": "Gwendlyn's ability isn't a mana ability, so Bracers copies it: two random discards per tap, and the copy may target a different player. The copy isn't activated, so the 'only during your turn' restriction doesn't apply to it. If the cost required sacrificing Gwendlyn or the Bracers, nothing would be copied (not relevant here).",
+   "status": "verified",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Illusionist's Bracers",
+     "quote": "Whenever an ability of equipped creature is activated, if it isn't a mana ability, copy that ability. You may choose new targets for the copy."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Illusionist's Bracers",
+     "quote": "The copy will have the same targets as the ability it's copying unless you choose new ones."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Illusionist's Bracers copies Gwendlyn"
+    }
+   ]
+  },
+  {
+   "id": "gwendlyn-03",
+   "category": "engine",
+   "title": "Untappers: Pemmin's Aura, Minamo, Magewright's Stone, Patriar's Seal",
+   "cards": [
+    "Gwendlyn Di Corci",
+    "Pemmin's Aura",
+    "Minamo, School at Water's Edge",
+    "Magewright's Stone",
+    "Patriar's Seal"
+   ],
+   "ruling": "Each untap gives another activation that turn. Pemmin's Aura: {U}, doesn't target. Minamo: {U} and tap, targets a legendary permanent; it can't also tap for the {U}, so that needs another blue source. Magewright's Stone: {1}, targets a creature with a {T} ability. Patriar's Seal: {1}, targets a legendary creature you control; it can't tap for mana and untap in the same activation. None of them is a loop by itself: each untap costs mana.",
+   "short": "Every untap = one more random discard; each costs {U} or {1}.",
+   "status": "verified",
+   "cr": [
+    "602.2",
+    "115.1"
+   ],
+   "oracle": [
+    {
+     "card": "Pemmin's Aura",
+     "quote": "{U}: Untap enchanted creature."
+    },
+    {
+     "card": "Minamo, School at Water's Edge",
+     "quote": "{U}, {T}: Untap target legendary permanent."
+    },
+    {
+     "card": "Magewright's Stone",
+     "quote": "{1}, {T}: Untap target creature that has an activated ability with {T} in its cost."
+    },
+    {
+     "card": "Patriar's Seal",
+     "quote": "{1}, {T}: Untap target legendary creature you control."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Pemmin's Aura repeatable untap"
+    },
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Minamo commander untap"
+    },
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Magewright's Stone and Patriar's Seal"
+    }
+   ]
+  },
+  {
+   "id": "gwendlyn-04",
+   "category": "pair",
+   "title": "Shroud on Gwendlyn turns off the targeted untappers, but not Pemmin's own untap",
+   "cards": [
+    "Gwendlyn Di Corci",
+    "Pemmin's Aura",
+    "Lightning Greaves",
+    "Minamo, School at Water's Edge",
+    "Illusionist's Bracers"
+   ],
+   "ruling": "Shroud means nothing can target her, your own effects included. With Pemmin's shroud mode or Lightning Greaves, Minamo, Magewright's Stone and Patriar's Seal can't untap her, and you can't equip Illusionist's Bracers (equip targets). Pemmin's Aura stays attached (it only targeted as a spell), and its {U} untap doesn't target, so it still works through shroud. Greaves can be moved off for {0}, at sorcery speed.",
+   "short": "Greaves/Pemmin shroud blocks Minamo, Stone, Seal and Bracers' equip; Pemmin's untap still works.",
+   "status": "flag",
+   "flag": {
+    "kind": "anti-synergy",
+    "note": "Pilot note, not a list error: Lightning Greaves (the haste piece) shrouds Gwendlyn against the deck's own targeted untappers and Bracers. Equip Bracers first, or move Greaves away ({0}, sorcery speed) before untapping her with Minamo, Magewright's Stone or Patriar's Seal. The source notes this for Pemmin's shroud only."
+   },
+   "key": true,
+   "cr": [
+    "702.18a",
+    "702.6a",
+    "303.4a"
+   ],
+   "oracle": [
+    {
+     "card": "Lightning Greaves",
+     "quote": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)"
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Pemmin shroud and friendly targeting"
+    }
+   ]
+  },
+  {
+   "id": "gwendlyn-05",
+   "category": "engine",
+   "title": "Discard payoffs: per card vs per event",
+   "cards": [
+    "Gwendlyn Di Corci",
+    "Tinybones, Pocket Nuisance",
+    "Liliana's Caress",
+    "Geth's Grimoire",
+    "Mind Twist"
+   ],
+   "ruling": "Liliana's Caress (2 life) and Geth's Grimoire (may draw) trigger for each card an opponent discards. Tinybones uses 'one or more cards' and triggers once per player per discard event: it deals 1 to each opponent, and any player's discard counts, yours included. Mind Twist for X is one event of X cards: X Caress triggers, one Tinybones trigger. Each Gwendlyn activation is its own event.",
+   "short": "Caress/Grimoire per card; Tinybones once per discard event (any player).",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "oracle": [
+    {
+     "card": "Tinybones, Pocket Nuisance",
+     "quote": "Whenever a player discards one or more cards, Tinybones deals 1 damage to each opponent."
+    },
+    {
+     "card": "Liliana's Caress",
+     "quote": "Whenever an opponent discards a card, that player loses 2 life."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Tinybones, Pocket Nuisance discard trigger"
+    },
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Discard payoff granularity"
+    },
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Mind Twist random discard"
+    }
+   ]
+  },
+  {
+   "id": "gwendlyn-06",
+   "category": "replacement",
+   "title": "Chains of Mephistopheles hits wheels, yours included",
+   "cards": [
+    "Gwendlyn Di Corci",
+    "Chains of Mephistopheles",
+    "Wheel of Fortune",
+    "Windfall",
+    "Underworld Breach",
+    "Lion's Eye Diamond"
+   ],
+   "ruling": "Chains replaces every draw except the first in a draw step: discard a card, then draw; with an empty hand, mill instead. After a wheel empties hands, every one of the seven draws becomes a mill. That's the plan against opponents, but it applies to you too. With Chains out, the Breach + LED + Wheel line mills you seven per Wheel instead of drawing, so Spellbook's 'infinite draw' result doesn't happen. Mill still feeds Breach escapes. Geth's Grimoire draws are also replaced by Chains.",
+   "short": "With Chains out, every wheel draw after an empty hand becomes a mill, for you too.",
+   "status": "flag",
+   "flag": {
+    "kind": "anti-synergy",
+    "note": "Pilot note, not a list error: Chains of Mephistopheles is symmetric. Don't run the Breach + LED + Wheel draw engine with Chains on the battlefield unless milling is the goal."
+   },
+   "key": true,
+   "cr": [
+    "614.11",
+    "121.2",
+    "616.1"
+   ],
+   "oracle": [
+    {
+     "card": "Chains of Mephistopheles",
+     "quote": "If a player would draw a card except the first one they draw in each of their draw steps, that player discards a card instead. If the player discards a card this way, they draw a card. If the player doesn't discard a card this way, they mill a card."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Chains of Mephistopheles",
+     "quote": "If a spell or ability would cause a player to draw multiple cards, this is treated as a number of individual “draw one card” actions. Apply the effect of Chains of Mephistopheles to each one."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1368-2706-3518",
+     "quote": "Resolve Wheel of Fortune, causing each player to discard their hand and draw seven cards."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Chains of Mephistopheles and wheels"
+    }
+   ]
+  },
+  {
+   "id": "gwendlyn-07",
+   "category": "replacement",
+   "title": "Chains vs Notion Thief: the drawing player chooses",
+   "cards": [
+    "Gwendlyn Di Corci",
+    "Chains of Mephistopheles",
+    "Notion Thief"
+   ],
+   "ruling": "Notion Thief replaces an opponent's extra draws with draws for you. If Chains also applies, the affected player (the opponent who'd draw) picks which replacement to apply first, then checks again. If they pick Notion Thief, you draw instead, and Chains may then replace your draw. There's no fixed order to rely on. Notion Thief doesn't cancel the rest of an instruction, so a 'draw then discard' still discards.",
+   "status": "verified",
+   "cr": [
+    "616.1",
+    "616.1e"
+   ],
+   "oracle": [
+    {
+     "card": "Notion Thief",
+     "quote": "If an opponent would draw a card except the first one they draw in each of their draw steps, instead that player skips that draw and you draw a card."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Notion Thief",
+     "quote": "If an opponent is instructed to draw a card then discard a card, and Notion Thief causes you to draw a card instead, that opponent still discards a card."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Notion Thief and wheels"
+    },
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Chains and Notion Thief replacement-effect ordering"
+    }
+   ]
+  },
+  {
+   "id": "gwendlyn-08",
+   "category": "zone",
+   "title": "Tergrid takes discarded permanent cards",
+   "cards": [
+    "Gwendlyn Di Corci",
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "ruling": "Tergrid triggers when an opponent discards a permanent card (artifact, creature, enchantment, land, planeswalker) or sacrifices a nontoken permanent. You may put that card onto the battlefield under your control, if it's still in the graveyard when the trigger resolves. Instants and sorceries discarded to Gwendlyn don't qualify. Discards made to pay a cost trigger it above the spell.",
+   "status": "verified",
+   "cr": [
+    "603.2",
+    "400.7"
+   ],
+   "oracle": [
+    {
+     "card": "Tergrid, God of Fright // Tergrid's Lantern",
+     "quote": "Whenever an opponent sacrifices a nontoken permanent or discards a permanent card, you may put that card from a graveyard onto the battlefield under your control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Tergrid, God of Fright // Tergrid's Lantern",
+     "quote": "If the card leaves the graveyard before Tergrid's ability resolves, you can't put it onto the battlefield, even if it returns to the graveyard before the ability resolves."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Tergrid discard recovery"
+    }
+   ]
+  },
+  {
+   "id": "gwendlyn-09",
+   "category": "dependency",
+   "title": "Bloodchief Ascension has no Mindcrank loop here",
+   "cards": [
+    "Gwendlyn Di Corci",
+    "Bloodchief Ascension"
+   ],
+   "ruling": "Ascension needs three quest counters (end steps where an opponent lost 2+ life). Then each card put into an opponent's graveyard drains 2. Mindcrank, the famous loop partner, isn't in the list, so it's an attrition payoff only: each discard to Gwendlyn drains 2 more.",
+   "status": "verified",
+   "cr": [
+    "603.4"
+   ],
+   "oracle": [
+    {
+     "card": "Bloodchief Ascension",
+     "quote": "Whenever a card is put into an opponent's graveyard from anywhere, if this enchantment has three or more quest counters on it, you may have that player lose 2 life. If you do, you gain 2 life."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Bloodchief Ascension remains noncombo here"
+    }
+   ]
+  },
+  {
+   "id": "gwendlyn-10",
+   "category": "combo",
+   "title": "Underworld Breach + LED + Wheel of Fortune",
+   "cards": [
+    "Gwendlyn Di Corci",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Wheel of Fortune"
+   ],
+   "ruling": "LED discards your hand for {R}{R}{R}. Escape Wheel ({2}{R} plus three cards) to refill hands, escape LED for three more cards, and repeat. It needs six other cards in hand and/or graveyard. It's a draw and storm engine, not a kill. Each player discarding their hand to Wheel also triggers Liliana's Caress per card and Tinybones per player.",
+   "status": "verified",
+   "cr": [
+    "702.138a"
+   ],
+   "oracle": [],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1368-2706-3518",
+     "quote": "You have at least six other cards in hand and/or graveyard."
+    },
+    {
+     "id": "1368-2706-3518",
+     "quote": "Activate Lion's Eye Diamond by discarding your hand and sacrificing it, adding {R}{R}{R}."
+    }
+   ],
+   "evidence_class": "fact"
+  }
+ ]
+}
