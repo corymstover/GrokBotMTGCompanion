@@ -1,0 +1,196 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/exception.schema.json",
+ "title": "Project-exception registry (v1)",
+ "description": "official_commander_legality and project_authorization_status are separate fields; a project exception is never officially legal.",
+ "type": "object",
+ "properties": {
+  "_doc": {
+   "type": "string"
+  },
+  "schema_version": {
+   "const": 1
+  },
+  "verified": {
+   "type": "object",
+   "properties": {
+    "date": {
+     "$ref": "common.schema.json#/$defs/date"
+    },
+    "scryfall_bulk": {
+     "type": "string"
+    },
+    "wizards_source": {
+     "type": "string"
+    },
+    "by": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "date",
+    "scryfall_bulk",
+    "wizards_source",
+    "by"
+   ],
+   "additionalProperties": false
+  },
+  "source": {
+   "type": "object",
+   "properties": {
+    "path": {
+     "type": "string"
+    },
+    "commit": {
+     "type": "string"
+    },
+    "rows": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "path",
+    "commit",
+    "rows"
+   ],
+   "additionalProperties": false
+  },
+  "exceptions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^exc:[a-z0-9-]+:[a-z0-9-]+$"
+     },
+     "deck_id": {
+      "$ref": "common.schema.json#/$defs/deck_id"
+     },
+     "card": {
+      "type": "string"
+     },
+     "oracle_id": {
+      "type": "string"
+     },
+     "zone": {
+      "enum": [
+       "main",
+       "commander",
+       "companion"
+      ]
+     },
+     "exception_type": {
+      "enum": [
+       "banned_card",
+       "banned_as_companion",
+       "future_release",
+       "official_card_rule"
+      ]
+     },
+     "official_commander_legality": {
+      "$ref": "common.schema.json#/$defs/official_legality"
+     },
+     "official_evidence": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      },
+      "minItems": 1
+     },
+     "legal_from": {
+      "$ref": "common.schema.json#/$defs/date_or_null"
+     },
+     "project_authorization_status": {
+      "$ref": "common.schema.json#/$defs/project_authorization"
+     },
+     "authorized_by": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_row": {
+      "type": "object",
+      "properties": {
+       "index": {
+        "type": "integer"
+       },
+       "exception_type": {
+        "type": "string"
+       },
+       "project_status": {
+        "type": "string"
+       },
+       "project_rule": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "index",
+       "exception_type",
+       "project_status",
+       "project_rule"
+      ],
+      "additionalProperties": false
+     },
+     "in_canonical_project_list": {
+      "type": "boolean"
+     },
+     "verification": {
+      "type": "object",
+      "properties": {
+       "status": {
+        "enum": [
+         "verified",
+         "corrected"
+        ]
+       },
+       "notes": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      },
+      "required": [
+       "status",
+       "notes"
+      ],
+      "additionalProperties": false
+     },
+     "render_label": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "id",
+     "deck_id",
+     "card",
+     "oracle_id",
+     "zone",
+     "exception_type",
+     "official_commander_legality",
+     "official_evidence",
+     "legal_from",
+     "project_authorization_status",
+     "authorized_by",
+     "source_row",
+     "in_canonical_project_list",
+     "verification",
+     "render_label"
+    ],
+    "additionalProperties": false
+   },
+   "minItems": 1
+  }
+ },
+ "required": [
+  "_doc",
+  "schema_version",
+  "verified",
+  "source",
+  "exceptions"
+ ],
+ "additionalProperties": false
+}

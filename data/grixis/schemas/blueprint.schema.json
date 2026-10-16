@@ -1,0 +1,388 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/blueprint.schema.json",
+ "title": "Commander Blueprint (v1 draft, populated in M2)",
+ "type": "object",
+ "properties": {
+  "schema_version": {
+   "const": 1
+  },
+  "deck_id": {
+   "$ref": "common.schema.json#/$defs/deck_id"
+  },
+  "version": {
+   "type": "integer",
+   "minimum": 1
+  },
+  "status": {
+   "enum": [
+    "draft",
+    "seeded",
+    "cory_reviewed"
+   ]
+  },
+  "commanders": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "oracle_id": {
+      "type": "string"
+     },
+     "oracle_sha256": {
+      "$ref": "common.schema.json#/$defs/sha256"
+     }
+    },
+    "required": [
+     "name",
+     "oracle_id",
+     "oracle_sha256"
+    ],
+    "additionalProperties": false
+   },
+   "minItems": 1
+  },
+  "plan": {
+   "type": "object",
+   "properties": {
+    "primary": {
+     "type": "string"
+    },
+    "secondary": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "commander_advances_plan": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "primary",
+    "secondary",
+    "commander_advances_plan"
+   ],
+   "additionalProperties": false
+  },
+  "win_conditions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "kind": {
+      "enum": [
+       "natural",
+       "alternate",
+       "combo"
+      ]
+     },
+     "cards": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "enablers": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": [
+     "id",
+     "kind",
+     "cards",
+     "enablers"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "engines": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "cards": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "online_condition": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "id",
+     "cards",
+     "online_condition"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "packages": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^pkg:"
+     },
+     "required": {
+      "type": "boolean"
+     },
+     "min_count": {
+      "type": "integer"
+     },
+     "role": {
+      "type": "string"
+     },
+     "cards": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": [
+     "id",
+     "required",
+     "min_count",
+     "role",
+     "cards"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "key_interactions": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/evidence_ref"
+   }
+  },
+  "tutor_targets": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "target": {
+      "type": "string"
+     },
+     "via": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": [
+     "target",
+     "via"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "recursion": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "requirements": {
+   "type": "object",
+   "properties": {
+    "interaction": {
+     "type": "string"
+    },
+    "protection": {
+     "type": "string"
+    },
+    "mana": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "interaction",
+    "protection",
+    "mana"
+   ],
+   "additionalProperties": true
+  },
+  "failure_modes": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "description": {
+      "type": "string"
+     },
+     "mitigations": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": [
+     "id",
+     "description",
+     "mitigations"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "dependency_level": {
+   "enum": [
+    "low",
+    "medium",
+    "high",
+    "total"
+   ]
+  },
+  "power": {
+   "type": "object",
+   "properties": {
+    "source_ceiling": {
+     "$ref": "common.schema.json#/$defs/bracket"
+    },
+    "grok_estimated_ceiling": {
+     "$ref": "common.schema.json#/$defs/bracket"
+    },
+    "resolved_ceiling": {
+     "$ref": "common.schema.json#/$defs/bracket"
+    },
+    "evidence": {
+     "type": "array",
+     "items": {
+      "$ref": "common.schema.json#/$defs/evidence_ref"
+     }
+    }
+   },
+   "required": [
+    "source_ceiling",
+    "grok_estimated_ceiling",
+    "resolved_ceiling",
+    "evidence"
+   ],
+   "additionalProperties": false
+  },
+  "project_exceptions": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "identity_core": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "card": {
+      "type": "string"
+     },
+     "why": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "card",
+     "why"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "anti_goals": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "thematic_constraints": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "construction_rules": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "rule": {
+      "type": "string"
+     },
+     "note": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "rule",
+     "note"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "provenance": {
+   "type": "object",
+   "properties": {
+    "seeded_from": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "reviewed_by": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "seeded_from",
+    "reviewed_by"
+   ],
+   "additionalProperties": false
+  }
+ },
+ "required": [
+  "schema_version",
+  "deck_id",
+  "version",
+  "status",
+  "commanders",
+  "plan",
+  "win_conditions",
+  "engines",
+  "packages",
+  "key_interactions",
+  "tutor_targets",
+  "recursion",
+  "requirements",
+  "failure_modes",
+  "dependency_level",
+  "power",
+  "project_exceptions",
+  "identity_core",
+  "anti_goals",
+  "thematic_constraints",
+  "construction_rules",
+  "provenance"
+ ],
+ "additionalProperties": false
+}

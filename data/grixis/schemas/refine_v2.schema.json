@@ -1,0 +1,177 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/refine_v2.schema.json",
+ "title": "grixis_refine v2 output (exploratory recommendations)",
+ "description": "v2 never publishes a final list. Until M2 and M4 are accepted every recommendation is exploratory (Cory constraint 6).",
+ "type": "object",
+ "properties": {
+  "_doc": {
+   "type": "string"
+  },
+  "schema_version": {
+   "const": 1
+  },
+  "engine": {
+   "const": "grixis_refine v2"
+  },
+  "exploratory": {
+   "type": "boolean"
+  },
+  "generated": {
+   "$ref": "common.schema.json#/$defs/date"
+  },
+  "lift_check": {
+   "type": "object",
+   "properties": {
+    "pages": {
+     "type": "integer"
+    },
+    "cardviews": {
+     "type": "integer"
+    },
+    "with_lift": {
+     "type": "integer"
+    },
+    "with_trend": {
+     "type": "integer"
+    },
+    "note": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "pages",
+    "cardviews",
+    "with_lift",
+    "with_trend",
+    "note"
+   ],
+   "additionalProperties": false
+  },
+  "decks": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "deck_id": {
+      "$ref": "common.schema.json#/$defs/deck_id"
+     },
+     "base_hash": {
+      "$ref": "common.schema.json#/$defs/list_hash"
+     },
+     "label": {
+      "type": "string"
+     },
+     "state": {
+      "const": "CHALLENGER"
+     },
+     "edhrec": {
+      "type": "object",
+      "properties": {
+       "pages": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "retrieved": {
+        "type": [
+         "string",
+         "null"
+        ]
+       }
+      },
+      "required": [
+       "pages",
+       "retrieved"
+      ],
+      "additionalProperties": false
+     },
+     "weakest_slots": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "card": {
+         "type": "string"
+        },
+        "diagnostics": {
+         "type": "object"
+        },
+        "priors": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        }
+       },
+       "required": [
+        "card",
+        "diagnostics",
+        "priors"
+       ],
+       "additionalProperties": false
+      }
+     },
+     "recommendations": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "cut": {
+         "type": "string"
+        },
+        "add": {
+         "type": "string"
+        },
+        "diagnostics": {
+         "type": "object"
+        },
+        "priors": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "evidence": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/evidence_ref"
+         }
+        }
+       },
+       "required": [
+        "cut",
+        "add",
+        "diagnostics",
+        "priors",
+        "evidence"
+       ],
+       "additionalProperties": false
+      }
+     }
+    },
+    "required": [
+     "deck_id",
+     "base_hash",
+     "label",
+     "state",
+     "edhrec",
+     "weakest_slots",
+     "recommendations"
+    ],
+    "additionalProperties": false
+   }
+  }
+ },
+ "required": [
+  "_doc",
+  "schema_version",
+  "engine",
+  "exploratory",
+  "generated",
+  "lift_check",
+  "decks"
+ ],
+ "additionalProperties": false
+}

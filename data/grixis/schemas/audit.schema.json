@@ -1,0 +1,159 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/audit.schema.json",
+ "title": "99-slot audit (v1 draft)",
+ "description": "A disposition is 'complete' only with blueprint, dependency-graph and alternative refs plus a redundancy count; anything else is 'provisional' (Cory constraint 2). Enforced by grixis_authority.disposition_status().",
+ "type": "object",
+ "properties": {
+  "schema_version": {
+   "const": 1
+  },
+  "deck_id": {
+   "$ref": "common.schema.json#/$defs/deck_id"
+  },
+  "cycle": {
+   "type": "integer"
+  },
+  "list_hash": {
+   "$ref": "common.schema.json#/$defs/list_hash"
+  },
+  "pass_id": {
+   "type": "string"
+  },
+  "slots": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "card": {
+      "type": "string"
+     },
+     "disposition": {
+      "enum": [
+       "core",
+       "strong_retain",
+       "functional_retain",
+       "flexible",
+       "weak_retain",
+       "active_cut_candidate",
+       "package_dependent",
+       "meta_dependent",
+       "project_requirement"
+      ]
+     },
+     "review_status": {
+      "enum": [
+       "provisional",
+       "complete"
+      ]
+     },
+     "classifier": {
+      "enum": [
+       "script",
+       "review"
+      ]
+     },
+     "roles": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "packages": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "blueprint_refs": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      }
+     },
+     "graph_refs": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      }
+     },
+     "alternatives": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      }
+     },
+     "redundancy": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "reason": {
+      "type": "string"
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      }
+     }
+    },
+    "required": [
+     "card",
+     "disposition",
+     "review_status",
+     "classifier",
+     "roles",
+     "packages",
+     "blueprint_refs",
+     "graph_refs",
+     "alternatives",
+     "redundancy",
+     "reason",
+     "evidence"
+    ],
+    "additionalProperties": false
+   },
+   "minItems": 1
+  },
+  "candidate_universe": {
+   "type": "object",
+   "properties": {
+    "definition": {
+     "type": "string"
+    },
+    "screened": {
+     "type": "integer"
+    },
+    "full_review": {
+     "type": "integer"
+    },
+    "escalated": {
+     "type": "integer"
+    },
+    "snapshot": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "definition",
+    "screened",
+    "full_review",
+    "escalated",
+    "snapshot"
+   ],
+   "additionalProperties": false
+  }
+ },
+ "required": [
+  "schema_version",
+  "deck_id",
+  "cycle",
+  "list_hash",
+  "pass_id",
+  "slots",
+  "candidate_universe"
+ ],
+ "additionalProperties": false
+}

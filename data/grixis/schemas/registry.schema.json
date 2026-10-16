@@ -1,0 +1,736 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/registry.schema.json",
+ "title": "Canonical authority registry (v1)",
+ "type": "object",
+ "properties": {
+  "_doc": {
+   "type": "string"
+  },
+  "schema_version": {
+   "const": 1
+  },
+  "generated_by": {
+   "type": "string"
+  },
+  "source_repository": {
+   "type": "string"
+  },
+  "source_commit": {
+   "type": "string"
+  },
+  "hash_definition": {
+   "type": "object",
+   "properties": {
+    "logical": {
+     "type": "string"
+    },
+    "raw": {
+     "type": "string"
+    },
+    "note": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "logical",
+    "raw",
+    "note"
+   ],
+   "additionalProperties": false
+  },
+  "snapshots": {
+   "type": "object",
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "oracle_bulk": {
+     "type": "string"
+    },
+    "rulings_bulk": {
+     "type": "string"
+    },
+    "comprehensive_rules": {
+     "type": "string"
+    },
+    "edhrec_cache": {
+     "type": "string"
+    },
+    "spellbook": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "id",
+    "oracle_bulk",
+    "rulings_bulk",
+    "comprehensive_rules",
+    "edhrec_cache",
+    "spellbook"
+   ],
+   "additionalProperties": true
+  },
+  "reopen_trigger_kinds": {
+   "type": "array",
+   "items": {
+    "enum": [
+     "new_card",
+     "oracle_change",
+     "rules_change",
+     "legality_change",
+     "new_exception",
+     "test_failure",
+     "new_interaction",
+     "meta_shift",
+     "audit_error",
+     "user_instruction"
+    ]
+   },
+   "minItems": 10
+  },
+  "human_approvers": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/human_id"
+   },
+   "minItems": 1
+  },
+  "program": {
+   "type": "object",
+   "properties": {
+    "milestones": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "object",
+      "properties": {
+       "status": {
+        "enum": [
+         "not_started",
+         "in_progress",
+         "complete_pending_acceptance",
+         "accepted"
+        ]
+       },
+       "accepted_by": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "accepted_date": {
+        "$ref": "common.schema.json#/$defs/date_or_null"
+       },
+       "criteria_doc": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "status",
+       "accepted_by",
+       "accepted_date",
+       "criteria_doc"
+      ],
+      "additionalProperties": false
+     }
+    }
+   },
+   "required": [
+    "milestones"
+   ],
+   "additionalProperties": false
+  },
+  "decks": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "deck_id": {
+      "$ref": "common.schema.json#/$defs/deck_id"
+     },
+     "slug": {
+      "$ref": "common.schema.json#/$defs/slug"
+     },
+     "commanders": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1
+     },
+     "state": {
+      "$ref": "common.schema.json#/$defs/state"
+     },
+     "state_history": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "state": {
+         "$ref": "common.schema.json#/$defs/state"
+        },
+        "date": {
+         "$ref": "common.schema.json#/$defs/date"
+        },
+        "cycle": {
+         "type": "integer"
+        },
+        "reason": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "state",
+        "date",
+        "cycle",
+        "reason"
+       ],
+       "additionalProperties": false
+      },
+      "minItems": 1
+     },
+     "approval": {
+      "type": "object",
+      "properties": {
+       "state": {
+        "$ref": "common.schema.json#/$defs/state_or_null"
+       },
+       "cycle": {
+        "type": [
+         "integer",
+         "null"
+        ]
+       },
+       "date": {
+        "$ref": "common.schema.json#/$defs/date_or_null"
+       },
+       "by": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "record_id": {
+        "type": [
+         "string",
+         "null"
+        ]
+       }
+      },
+      "required": [
+       "state",
+       "cycle",
+       "date",
+       "by",
+       "record_id"
+      ],
+      "additionalProperties": false
+     },
+     "baseline_hash": {
+      "$ref": "common.schema.json#/$defs/list_hash"
+     },
+     "source": {
+      "type": "object",
+      "properties": {
+       "repository": {
+        "type": "string"
+       },
+       "commit": {
+        "type": "string"
+       },
+       "path": {
+        "type": "string"
+       },
+       "raw_sha256": {
+        "$ref": "common.schema.json#/$defs/sha256"
+       },
+       "recorded_sha256": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "recorded_matches_raw": {
+        "type": [
+         "boolean",
+         "null"
+        ]
+       }
+      },
+      "required": [
+       "repository",
+       "commit",
+       "path",
+       "raw_sha256",
+       "recorded_sha256",
+       "recorded_matches_raw"
+      ],
+      "additionalProperties": false
+     },
+     "canonical_project_list": {
+      "type": "object",
+      "properties": {
+       "hash": {
+        "$ref": "common.schema.json#/$defs/list_hash"
+       },
+       "path": {
+        "type": "string"
+       },
+       "companion": {
+        "type": [
+         "string",
+         "null"
+        ]
+       }
+      },
+      "required": [
+       "hash",
+       "path"
+      ],
+      "additionalProperties": true
+     },
+     "current_canonical_hash": {
+      "$ref": "common.schema.json#/$defs/list_hash"
+     },
+     "canonical_differs_from_source": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "supersedes_hash": {
+      "$ref": "common.schema.json#/$defs/list_hash_or_null"
+     },
+     "official_commander_compliance": {
+      "type": "object",
+      "properties": {
+       "status": {
+        "enum": [
+         "compliant",
+         "not_compliant_project_exceptions",
+         "pending_release"
+        ]
+       },
+       "cards": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "checked": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "status",
+       "cards",
+       "checked"
+      ],
+      "additionalProperties": false
+     },
+     "project_authorization_status": {
+      "enum": [
+       "none",
+       "authorized_exceptions",
+       "authorized_future_release"
+      ]
+     },
+     "project_exceptions": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "official_legal_projection": {
+      "anyOf": [
+       {
+        "type": "null"
+       },
+       {
+        "type": "object",
+        "properties": {
+         "label": {
+          "const": "derived compliance projection (not canonical)"
+         },
+         "canonical": {
+          "const": false
+         },
+         "approval_state": {
+          "type": "null"
+         },
+         "hash": {
+          "$ref": "common.schema.json#/$defs/list_hash"
+         },
+         "path": {
+          "type": "string"
+         },
+         "derived_from": {
+          "$ref": "common.schema.json#/$defs/list_hash"
+         },
+         "substitutions": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "official_commander_compliance": {
+          "const": "compliant"
+         }
+        },
+        "required": [
+         "label",
+         "canonical",
+         "approval_state",
+         "hash",
+         "path",
+         "derived_from",
+         "substitutions",
+         "official_commander_compliance"
+        ],
+        "additionalProperties": false
+       }
+      ]
+     },
+     "challengers": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "id": {
+         "type": "string"
+        },
+        "label": {
+         "const": "GrokBot challenger (unapproved)"
+        },
+        "origin": {
+         "type": "string"
+        },
+        "engine": {
+         "type": "string"
+        },
+        "state": {
+         "const": "CHALLENGER"
+        },
+        "hash": {
+         "$ref": "common.schema.json#/$defs/list_hash"
+        },
+        "export_path": {
+         "type": "string"
+        },
+        "swaps": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "properties": {
+           "cut": {
+            "type": "string"
+           },
+           "add": {
+            "type": "string"
+           },
+           "cycle": {
+            "type": "integer"
+           }
+          },
+          "required": [
+           "cut",
+           "add",
+           "cycle"
+          ],
+          "additionalProperties": false
+         }
+        }
+       },
+       "required": [
+        "id",
+        "label",
+        "origin",
+        "engine",
+        "state",
+        "hash",
+        "export_path",
+        "swaps"
+       ],
+       "additionalProperties": false
+      }
+     },
+     "heuristic_v1_verdict": {
+      "type": "string"
+     },
+     "historical_approvals": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "origin": {
+         "const": "source"
+        },
+        "state": {
+         "type": "string"
+        },
+        "date": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "hash_recorded": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "counts_as": {
+         "const": "evidence"
+        },
+        "ref": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "origin",
+        "state",
+        "date",
+        "hash_recorded",
+        "counts_as",
+        "ref"
+       ],
+       "additionalProperties": false
+      }
+     },
+     "ceiling": {
+      "type": "object",
+      "properties": {
+       "source_ceiling": {
+        "type": "object",
+        "properties": {
+         "value": {
+          "$ref": "common.schema.json#/$defs/bracket"
+         },
+         "label": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "$ref": "common.schema.json#/$defs/evidence_ref"
+          }
+         }
+        },
+        "required": [
+         "value",
+         "evidence"
+        ],
+        "additionalProperties": true
+       },
+       "bracket_floor": {
+        "type": "object",
+        "properties": {
+         "value": {
+          "type": "integer"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "$ref": "common.schema.json#/$defs/evidence_ref"
+          }
+         }
+        },
+        "required": [
+         "value",
+         "evidence"
+        ],
+        "additionalProperties": false
+       },
+       "grok_estimated_ceiling": {
+        "type": "object",
+        "properties": {
+         "value": {
+          "$ref": "common.schema.json#/$defs/bracket"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "$ref": "common.schema.json#/$defs/evidence_ref"
+          }
+         },
+         "cycle": {
+          "type": [
+           "integer",
+           "null"
+          ]
+         }
+        },
+        "required": [
+         "value",
+         "evidence",
+         "cycle"
+        ],
+        "additionalProperties": false
+       },
+       "resolved_ceiling": {
+        "type": "object",
+        "properties": {
+         "value": {
+          "$ref": "common.schema.json#/$defs/bracket"
+         },
+         "resolved_by": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "date": {
+          "$ref": "common.schema.json#/$defs/date_or_null"
+         },
+         "evidence": {
+          "type": "array",
+          "items": {
+           "$ref": "common.schema.json#/$defs/evidence_ref"
+          }
+         }
+        },
+        "required": [
+         "value",
+         "resolved_by",
+         "date",
+         "evidence"
+        ],
+        "additionalProperties": false
+       },
+       "disagreement": {
+        "type": [
+         "boolean",
+         "null"
+        ]
+       },
+       "floor_above_source_claim": {
+        "type": "boolean"
+       }
+      },
+      "required": [
+       "source_ceiling",
+       "bracket_floor",
+       "grok_estimated_ceiling",
+       "resolved_ceiling",
+       "disagreement",
+       "floor_above_source_claim"
+      ],
+      "additionalProperties": false
+     },
+     "blueprint_version": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "snapshots": {
+      "type": "string"
+     },
+     "test_suite_version": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "test_result_hash": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "finalization_certificate": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "reopen_triggers": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "open_triggers": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "kind": {
+         "type": "string"
+        },
+        "date": {
+         "$ref": "common.schema.json#/$defs/date"
+        },
+        "detail": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "kind",
+        "date",
+        "detail"
+       ],
+       "additionalProperties": false
+      }
+     },
+     "source_repository": {
+      "type": "string"
+     },
+     "source_commit": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "deck_id",
+     "slug",
+     "commanders",
+     "state",
+     "state_history",
+     "approval",
+     "baseline_hash",
+     "source",
+     "canonical_project_list",
+     "current_canonical_hash",
+     "canonical_differs_from_source",
+     "supersedes_hash",
+     "official_commander_compliance",
+     "project_authorization_status",
+     "project_exceptions",
+     "official_legal_projection",
+     "challengers",
+     "heuristic_v1_verdict",
+     "historical_approvals",
+     "ceiling",
+     "blueprint_version",
+     "snapshots",
+     "test_suite_version",
+     "test_result_hash",
+     "finalization_certificate",
+     "reopen_triggers",
+     "open_triggers",
+     "source_repository",
+     "source_commit"
+    ],
+    "additionalProperties": false
+   }
+  }
+ },
+ "required": [
+  "_doc",
+  "schema_version",
+  "generated_by",
+  "source_repository",
+  "source_commit",
+  "hash_definition",
+  "snapshots",
+  "reopen_trigger_kinds",
+  "human_approvers",
+  "program",
+  "decks"
+ ],
+ "additionalProperties": false
+}

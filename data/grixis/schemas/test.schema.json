@@ -1,0 +1,173 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/test.schema.json",
+ "title": "Test record (v1 draft)",
+ "description": "Exact math or deterministic paired-seed goldfish/stress tests; no multiplayer win-rate simulation.",
+ "type": "object",
+ "properties": {
+  "schema_version": {
+   "const": 1
+  },
+  "id": {
+   "type": "string",
+   "pattern": "^test:"
+  },
+  "deck_id": {
+   "$ref": "common.schema.json#/$defs/deck_id"
+  },
+  "kind": {
+   "enum": [
+    "exact",
+    "goldfish_mc",
+    "stress_scenario"
+   ]
+  },
+  "baseline_hash": {
+   "$ref": "common.schema.json#/$defs/list_hash"
+  },
+  "challenger_hash": {
+   "$ref": "common.schema.json#/$defs/list_hash_or_null"
+  },
+  "simulator": {
+   "type": "object",
+   "properties": {
+    "name": {
+     "type": "string"
+    },
+    "version": {
+     "type": "string"
+    },
+    "model_sha256": {
+     "$ref": "common.schema.json#/$defs/sha256"
+    }
+   },
+   "required": [
+    "name",
+    "version",
+    "model_sha256"
+   ],
+   "additionalProperties": false
+  },
+  "seed": {
+   "type": "integer"
+  },
+  "paired": {
+   "type": "boolean"
+  },
+  "samples": {
+   "type": "integer",
+   "minimum": 1
+  },
+  "mulligan": {
+   "type": "string"
+  },
+  "seat": {
+   "type": "string"
+  },
+  "scenario": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "preregistered": {
+   "type": "object",
+   "properties": {
+    "metric": {
+     "type": "string"
+    },
+    "threshold": {
+     "type": "number"
+    },
+    "registered": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "metric",
+    "threshold",
+    "registered"
+   ],
+   "additionalProperties": false
+  },
+  "results": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "metric": {
+      "type": "string"
+     },
+     "baseline": {
+      "type": "number"
+     },
+     "challenger": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "diff": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "ci95": {
+      "type": [
+       "array",
+       "null"
+      ]
+     },
+     "method": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "metric",
+     "baseline",
+     "challenger",
+     "diff",
+     "ci95",
+     "method"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "verdict": {
+   "enum": [
+    "pass",
+    "fail",
+    "inconclusive",
+    "no_detectable_difference"
+   ]
+  },
+  "limitations": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "minItems": 1
+  }
+ },
+ "required": [
+  "schema_version",
+  "id",
+  "deck_id",
+  "kind",
+  "baseline_hash",
+  "challenger_hash",
+  "simulator",
+  "seed",
+  "paired",
+  "samples",
+  "mulligan",
+  "seat",
+  "scenario",
+  "preregistered",
+  "results",
+  "verdict",
+  "limitations"
+ ],
+ "additionalProperties": false
+}

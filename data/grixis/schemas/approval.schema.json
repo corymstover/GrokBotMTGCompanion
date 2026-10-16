@@ -1,0 +1,96 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/approval.schema.json",
+ "title": "Human approval records (v1)",
+ "description": "The only way a deck reaches APPROVED or CANONICAL_LOCKED. approved_by must be listed in registry.human_approvers; bots never write approvals on their own initiative.",
+ "type": "object",
+ "properties": {
+  "_doc": {
+   "type": "string"
+  },
+  "schema_version": {
+   "const": 1
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^appr:"
+     },
+     "deck_id": {
+      "$ref": "common.schema.json#/$defs/deck_id"
+     },
+     "list_hash": {
+      "$ref": "common.schema.json#/$defs/list_hash"
+     },
+     "decision": {
+      "enum": [
+       "APPROVED",
+       "CANONICAL_LOCKED",
+       "REJECTED"
+      ]
+     },
+     "approved_by": {
+      "$ref": "common.schema.json#/$defs/human_id"
+     },
+     "date": {
+      "$ref": "common.schema.json#/$defs/date"
+     },
+     "instruction": {
+      "type": "object",
+      "properties": {
+       "kind": {
+        "enum": [
+         "github_comment",
+         "github_review",
+         "chat_relay",
+         "signed_file"
+        ]
+       },
+       "ref": {
+        "type": "string"
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 5
+       }
+      },
+      "required": [
+       "kind",
+       "ref",
+       "quote"
+      ],
+      "additionalProperties": false
+     },
+     "recorded_by": {
+      "type": "string"
+     },
+     "recorded_cycle": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "id",
+     "deck_id",
+     "list_hash",
+     "decision",
+     "approved_by",
+     "date",
+     "instruction",
+     "recorded_by",
+     "recorded_cycle"
+    ],
+    "additionalProperties": false
+   }
+  }
+ },
+ "required": [
+  "_doc",
+  "schema_version",
+  "records"
+ ],
+ "additionalProperties": false
+}

@@ -1,0 +1,122 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/candidate.schema.json",
+ "title": "Candidate record with escalation (v1 draft)",
+ "description": "The 15–40 full-review range is a default workload, not a gate. Escalated candidates get full review regardless of rank (Cory constraint 3).",
+ "type": "object",
+ "properties": {
+  "schema_version": {
+   "const": 1
+  },
+  "deck_id": {
+   "$ref": "common.schema.json#/$defs/deck_id"
+  },
+  "card": {
+   "type": "string"
+  },
+  "oracle_id": {
+   "type": "string"
+  },
+  "rank": {
+   "type": [
+    "integer",
+    "null"
+   ]
+  },
+  "tier": {
+   "enum": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  "full_review": {
+   "type": "boolean"
+  },
+  "escalation": {
+   "type": "object",
+   "properties": {
+    "escalated": {
+     "type": "boolean"
+    },
+    "reasons": {
+     "type": "array",
+     "items": {
+      "enum": [
+       "dependency_analysis",
+       "new_card",
+       "unusual_oracle_interaction",
+       "package_gap",
+       "reviewer_evidence",
+       "rank_miss_suspected"
+      ]
+     }
+    },
+    "evidence_refs": {
+     "type": "array",
+     "items": {
+      "$ref": "common.schema.json#/$defs/evidence_ref"
+     }
+    },
+    "by": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "note": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "escalated",
+    "reasons",
+    "evidence_refs",
+    "by",
+    "note"
+   ],
+   "additionalProperties": false
+  },
+  "evidence": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/evidence_ref"
+   }
+  },
+  "workload": {
+   "type": "object",
+   "properties": {
+    "default_full_review_range": {
+     "const": [
+      15,
+      40
+     ]
+    },
+    "is_gate": {
+     "const": false
+    }
+   },
+   "required": [
+    "default_full_review_range",
+    "is_gate"
+   ],
+   "additionalProperties": false
+  }
+ },
+ "required": [
+  "schema_version",
+  "deck_id",
+  "card",
+  "oracle_id",
+  "rank",
+  "tier",
+  "full_review",
+  "escalation",
+  "evidence",
+  "workload"
+ ],
+ "additionalProperties": false
+}

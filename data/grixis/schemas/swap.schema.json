@@ -1,0 +1,289 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/swap.schema.json",
+ "title": "Swap / challenger record (v1 draft)",
+ "type": "object",
+ "properties": {
+  "schema_version": {
+   "const": 1
+  },
+  "id": {
+   "type": "string",
+   "pattern": "^swap:"
+  },
+  "deck_id": {
+   "$ref": "common.schema.json#/$defs/deck_id"
+  },
+  "challenger_class": {
+   "enum": [
+    "identity_max",
+    "raw_efficiency",
+    "resilience",
+    "meta",
+    "new_card",
+    "alt_win",
+    "legacy_v1"
+   ]
+  },
+  "base_hash": {
+   "$ref": "common.schema.json#/$defs/list_hash"
+  },
+  "result_hash": {
+   "$ref": "common.schema.json#/$defs/list_hash"
+  },
+  "adds": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "cuts": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "role_package": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "hypothesis": {
+   "type": "string"
+  },
+  "expected_benefit": {
+   "type": "string"
+  },
+  "expected_cost": {
+   "type": "string"
+  },
+  "rules_interactions": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/evidence_ref"
+   }
+  },
+  "legality": {
+   "type": "object",
+   "properties": {
+    "official": {
+     "$ref": "common.schema.json#/$defs/official_legality"
+    },
+    "project_authorization": {
+     "$ref": "common.schema.json#/$defs/project_authorization"
+    }
+   },
+   "required": [
+    "official",
+    "project_authorization"
+   ],
+   "additionalProperties": false
+  },
+  "impacts": {
+   "type": "object",
+   "properties": {
+    "identity": {
+     "enum": [
+      "+",
+      "0",
+      "-",
+      "?"
+     ]
+    },
+    "power": {
+     "enum": [
+      "+",
+      "0",
+      "-",
+      "?"
+     ]
+    },
+    "speed": {
+     "enum": [
+      "+",
+      "0",
+      "-",
+      "?"
+     ]
+    },
+    "consistency": {
+     "enum": [
+      "+",
+      "0",
+      "-",
+      "?"
+     ]
+    },
+    "resilience": {
+     "enum": [
+      "+",
+      "0",
+      "-",
+      "?"
+     ]
+    },
+    "interaction": {
+     "enum": [
+      "+",
+      "0",
+      "-",
+      "?"
+     ]
+    },
+    "distinctiveness": {
+     "enum": [
+      "+",
+      "0",
+      "-",
+      "?"
+     ]
+    },
+    "commander_dependence": {
+     "enum": [
+      "+",
+      "0",
+      "-",
+      "?"
+     ]
+    },
+    "homogenization": {
+     "enum": [
+      "+",
+      "0",
+      "-",
+      "?"
+     ]
+    },
+    "complexity": {
+     "enum": [
+      "+",
+      "0",
+      "-",
+      "?"
+     ]
+    }
+   },
+   "required": [
+    "identity",
+    "power",
+    "speed",
+    "consistency",
+    "resilience",
+    "interaction",
+    "distinctiveness",
+    "commander_dependence",
+    "homogenization",
+    "complexity"
+   ],
+   "additionalProperties": false
+  },
+  "priors_overridden": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "prior": {
+      "type": "string"
+     },
+     "reason": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "prior",
+     "reason"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "evidence": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/evidence_ref"
+   }
+  },
+  "tests": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "state": {
+   "enum": [
+    "CHALLENGER",
+    "TESTING",
+    "REVIEW_REQUIRED",
+    "APPROVAL_READY",
+    "APPROVED",
+    "REJECTED"
+   ]
+  },
+  "exploratory": {
+   "type": "boolean"
+  },
+  "decision": {
+   "type": "object",
+   "properties": {
+    "verdict": {
+     "enum": [
+      "accept",
+      "reject",
+      "hold",
+      null
+     ]
+    },
+    "confidence": {
+     "$ref": "common.schema.json#/$defs/confidence"
+    },
+    "reason": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "by": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "date": {
+     "$ref": "common.schema.json#/$defs/date_or_null"
+    }
+   },
+   "required": [
+    "verdict",
+    "confidence",
+    "reason",
+    "by",
+    "date"
+   ],
+   "additionalProperties": false
+  }
+ },
+ "required": [
+  "schema_version",
+  "id",
+  "deck_id",
+  "challenger_class",
+  "base_hash",
+  "result_hash",
+  "adds",
+  "cuts",
+  "role_package",
+  "hypothesis",
+  "expected_benefit",
+  "expected_cost",
+  "rules_interactions",
+  "legality",
+  "impacts",
+  "priors_overridden",
+  "evidence",
+  "tests",
+  "state",
+  "exploratory",
+  "decision"
+ ],
+ "additionalProperties": false
+}
