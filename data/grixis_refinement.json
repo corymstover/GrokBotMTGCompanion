@@ -27,15 +27,16 @@
    },
    "final": {
     "nonland": 65,
-    "dependence": 0.538,
-    "generic_share": 0.292,
-    "mean_overlap": 0.156,
+    "dependence": 0.523,
+    "generic_share": 0.308,
+    "mean_overlap": 0.162,
     "max_overlap": [
      0.34,
      "Cormela__Glamour_Thief"
     ],
     "thoracle_core": [],
     "control_core": [
+     "Deadly Rollick",
      "Deflecting Swat",
      "Fierce Guardianship",
      "Flusterstorm",
@@ -125,9 +126,9 @@
    },
    "final": {
     "nonland": 65,
-    "dependence": 0.692,
-    "generic_share": 0.215,
-    "mean_overlap": 0.144,
+    "dependence": 0.677,
+    "generic_share": 0.231,
+    "mean_overlap": 0.15,
     "max_overlap": [
      0.483,
      "Admiral_Beckett_Brass"
@@ -136,6 +137,7 @@
     "control_core": [
      "Counterspell",
      "Cyclonic Rift",
+     "Deadly Rollick",
      "Deflecting Swat",
      "Fierce Guardianship",
      "Mana Drain",
@@ -226,7 +228,7 @@
     "nonland": 69,
     "dependence": 0.899,
     "generic_share": 0.087,
-    "mean_overlap": 0.116,
+    "mean_overlap": 0.117,
     "max_overlap": [
      0.276,
      "Cult_of_Skaro"
@@ -324,7 +326,7 @@
     "nonland": 63,
     "dependence": 0.746,
     "generic_share": 0.222,
-    "mean_overlap": 0.133,
+    "mean_overlap": 0.134,
     "max_overlap": [
      0.187,
      "Don_Andres__the_Renegade"
@@ -488,16 +490,17 @@
    },
    "final": {
     "nonland": 63,
-    "dependence": 0.524,
-    "generic_share": 0.381,
-    "mean_overlap": 0.169,
+    "dependence": 0.492,
+    "generic_share": 0.413,
+    "mean_overlap": 0.182,
     "max_overlap": [
-     0.396,
+     0.411,
      "Gwendlyn_Di_Corci"
     ],
     "thoracle_core": [],
     "control_core": [
      "Cyclonic Rift",
+     "Deflecting Swat",
      "Fierce Guardianship",
      "Force of Will",
      "Mana Drain",
@@ -789,7 +792,7 @@
     "nonland": 64,
     "dependence": 0.625,
     "generic_share": 0.281,
-    "mean_overlap": 0.136,
+    "mean_overlap": 0.137,
     "max_overlap": [
      0.29,
      "Marchesa__the_Black_Rose"
@@ -841,7 +844,7 @@
     "nonland": 64,
     "dependence": 0.641,
     "generic_share": 0.344,
-    "mean_overlap": 0.147,
+    "mean_overlap": 0.148,
     "max_overlap": [
      0.267,
      "Admiral_Beckett_Brass"
@@ -873,7 +876,7 @@
   "Evelyn__the_Covetous": {
    "source": {
     "nonland": 73,
-    "dependence": 0.014,
+    "dependence": 0.151,
     "generic_share": 0.37,
     "mean_overlap": 0.178,
     "max_overlap": [
@@ -900,7 +903,7 @@
    },
    "final": {
     "nonland": 73,
-    "dependence": 0.014,
+    "dependence": 0.151,
     "generic_share": 0.37,
     "mean_overlap": 0.178,
     "max_overlap": [
@@ -926,7 +929,9 @@
     ]
    },
    "hooks": [
-    "Vampire synergy"
+    "Vampire synergy",
+    "enters triggers",
+    "playing cards from exile"
    ],
    "edhrec_pages": [
     "evelyn-the-covetous"
@@ -966,10 +971,10 @@
     "nonland": 73,
     "dependence": 0.247,
     "generic_share": 0.397,
-    "mean_overlap": 0.201,
+    "mean_overlap": 0.2,
     "max_overlap": [
-     0.585,
-     "Goben__Gene_Splice_Savant"
+     0.582,
+     "Kefka__Court_Mage"
     ],
     "thoracle_core": [
      "Demonic Consultation",
@@ -1026,7 +1031,7 @@
     "nonland": 61,
     "dependence": 0.311,
     "generic_share": 0.377,
-    "mean_overlap": 0.159,
+    "mean_overlap": 0.16,
     "max_overlap": [
      0.337,
      "Nicol_Bolas"
@@ -1083,11 +1088,11 @@
    },
    "final": {
     "nonland": 76,
-    "dependence": 0.316,
-    "generic_share": 0.303,
-    "mean_overlap": 0.196,
+    "dependence": 0.329,
+    "generic_share": 0.289,
+    "mean_overlap": 0.19,
     "max_overlap": [
-     0.613,
+     0.596,
      "RogSi"
     ],
     "thoracle_core": [
@@ -1102,7 +1107,6 @@
      "Force of Will",
      "Mental Misstep",
      "Mindbreak Trap",
-     "Mystic Remora",
      "Pact of Negation",
      "Rhystic Study",
      "Swan Song"
@@ -1212,7 +1216,7 @@
     "nonland": 72,
     "dependence": 0.764,
     "generic_share": 0.028,
-    "mean_overlap": 0.188,
+    "mean_overlap": 0.189,
     "max_overlap": [
      0.444,
      "Kefka__Court_Mage"
@@ -1278,9 +1282,9 @@
     "nonland": 64,
     "dependence": 0.516,
     "generic_share": 0.359,
-    "mean_overlap": 0.169,
+    "mean_overlap": 0.17,
     "max_overlap": [
-     0.396,
+     0.411,
      "Crosis__the_Purger"
     ],
     "thoracle_core": [],
@@ -1401,7 +1405,7 @@
     "nonland": 72,
     "dependence": 0.708,
     "generic_share": 0.181,
-    "mean_overlap": 0.208,
+    "mean_overlap": 0.207,
     "max_overlap": [
      0.618,
      "Kess__Dissident_Mage"
@@ -1602,7 +1606,7 @@
     "nonland": 65,
     "dependence": 0.785,
     "generic_share": 0.215,
-    "mean_overlap": 0.136,
+    "mean_overlap": 0.137,
     "max_overlap": [
      0.312,
      "Doctor_Doom__King_of_Latveria"
@@ -1662,7 +1666,7 @@
     "nonland": 66,
     "dependence": 0.53,
     "generic_share": 0.364,
-    "mean_overlap": 0.206,
+    "mean_overlap": 0.207,
     "max_overlap": [
      0.324,
      "Cormela__Glamour_Thief"
@@ -1932,7 +1936,7 @@
     "nonland": 70,
     "dependence": 0.143,
     "generic_share": 0.357,
-    "mean_overlap": 0.189,
+    "mean_overlap": 0.19,
     "max_overlap": [
      0.5,
      "RogSi"
@@ -1987,7 +1991,7 @@
     "nonland": 65,
     "dependence": 0.646,
     "generic_share": 0.215,
-    "mean_overlap": 0.126,
+    "mean_overlap": 0.127,
     "max_overlap": [
      0.31,
      "Tresserhorn_s_Lord__Returned"
@@ -2168,8 +2172,8 @@
   "Nathan_Drake__Treasure_Hunter": {
    "source": {
     "nonland": 65,
-    "dependence": 0.6,
-    "generic_share": 0.369,
+    "dependence": 0.615,
+    "generic_share": 0.354,
     "mean_overlap": 0.172,
     "max_overlap": [
      0.433,
@@ -2191,9 +2195,9 @@
    },
    "final": {
     "nonland": 65,
-    "dependence": 0.6,
-    "generic_share": 0.369,
-    "mean_overlap": 0.171,
+    "dependence": 0.615,
+    "generic_share": 0.354,
+    "mean_overlap": 0.172,
     "max_overlap": [
      0.433,
      "Don_Andres__the_Renegade"
@@ -2214,6 +2218,7 @@
    },
    "hooks": [
     "combat damage / attack triggers",
+    "playing cards from exile",
     "stealing / casting opponents' cards"
    ],
    "edhrec_pages": [
@@ -2303,7 +2308,7 @@
     "generic_share": 0.387,
     "mean_overlap": 0.183,
     "max_overlap": [
-     0.344,
+     0.359,
      "Crosis__the_Purger"
     ],
     "thoracle_core": [],
@@ -2461,7 +2466,7 @@
     "nonland": 64,
     "dependence": 0.641,
     "generic_share": 0.281,
-    "mean_overlap": 0.13,
+    "mean_overlap": 0.131,
     "max_overlap": [
      0.206,
      "Nathan_Drake__Treasure_Hunter"
@@ -2509,7 +2514,7 @@
     "nonland": 64,
     "dependence": 0.688,
     "generic_share": 0.281,
-    "mean_overlap": 0.124,
+    "mean_overlap": 0.125,
     "max_overlap": [
      0.372,
      "Anhelo__the_Painter"
@@ -2567,8 +2572,8 @@
     "generic_share": 0.0,
     "mean_overlap": 0.188,
     "max_overlap": [
-     0.613,
-     "Goben__Gene_Splice_Savant"
+     0.611,
+     "Kefka__Court_Mage"
     ],
     "thoracle_core": [
      "Demonic Consultation",
@@ -2852,8 +2857,8 @@
     "generic_share": 0.422,
     "mean_overlap": 0.168,
     "max_overlap": [
-     0.242,
-     "Sauron__the_Dark_Lord"
+     0.245,
+     "Crosis__the_Purger"
     ],
     "thoracle_core": [],
     "control_core": [
@@ -3314,6 +3319,7 @@
     "+1/+1 counters",
     "Rat synergy",
     "Snail synergy",
+    "enters triggers",
     "sacrifice",
     "tokens"
    ],
@@ -3349,7 +3355,7 @@
     "nonland": 65,
     "dependence": 0.908,
     "generic_share": 0.062,
-    "mean_overlap": 0.135,
+    "mean_overlap": 0.136,
     "max_overlap": [
      0.215,
      "Anhelo__the_Painter"

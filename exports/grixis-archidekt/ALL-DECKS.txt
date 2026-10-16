@@ -15,11 +15,11 @@
 1 Brainstorm
 1 Cabal Ritual
 1 Call Forth the Tempest
-1 Chandra, Torch of Defiance
 1 Chrome Mox
 1 City of Brass
 1 Command Tower
 1 Dark Ritual
+1 Deadly Rollick
 1 Deflecting Swat
 1 Delayed Blast Fireball
 1 Demonic Tutor
@@ -193,7 +193,7 @@
 1 Zara, Renegade Recruiter
 1 Zephyr Singer
 
-===== 03/62 — Admiral Brass, Unsinkable — refined =====
+===== 03/62 — Admiral Brass, Unsinkable — unchanged (at/near ceiling) =====
 1 Admiral Brass, Unsinkable [Commander]
 1 Admiral Beckett Brass
 1 Amphin Mutineer
@@ -220,6 +220,7 @@
 1 Counterspell
 1 Crumbling Necropolis
 1 Cyclonic Rift
+1 Deadly Rollick
 1 Deflecting Swat
 1 Demonic Tutor
 1 Dimir Signet
@@ -241,7 +242,6 @@
 1 Izzet Signet
 1 Jeska's Will
 1 Kindred Discovery
-1 Lethal Scheme
 1 Lightning Greaves
 1 Living Death
 1 Luxury Suite
@@ -881,7 +881,7 @@
 1 Wishclaw Talisman
 1 Wooded Foothills
 
-===== 10/62 — Crosis, the Purger — refined =====
+===== 10/62 — Crosis, the Purger — unchanged (at/near ceiling) =====
 1 Crosis, the Purger [Commander]
 1 Ancient Tomb
 1 Arcane Signet
@@ -902,6 +902,7 @@
 1 Damnation
 1 Dark Deal
 1 Dark Ritual
+1 Deflecting Swat
 1 Demonic Tutor
 1 Dimir Signet
 1 Dream Salvage
@@ -939,8 +940,8 @@
 1 Painter's Servant
 1 Plaza of Heroes
 1 Polluted Delta
-1 Quest for the Nihil Stone
 1 Rakdos Signet
+1 Reanimate
 1 Recoil
 1 Scalding Tarn
 1 Sedraxis Specter
@@ -971,7 +972,6 @@
 1 Waste Not
 1 Watery Grave
 1 Wheel of Fortune
-1 Whispersilk Cloak
 1 Windfall
 1 Xander's Lounge
 
@@ -1168,7 +1168,7 @@
 1 Wound Reflection
 1 Xander's Lounge
 
-===== 13/62 — Doctor Doom, King of Latveria — unchanged (not reviewed yet) =====
+===== 13/62 — Doctor Doom, King of Latveria — unchanged (at/near ceiling) =====
 1 Doctor Doom, King of Latveria [Commander]
 1 Ancient Tomb
 1 Arcane Signet
@@ -1270,7 +1270,7 @@
 1 Windfall
 1 Xander's Lounge
 
-===== 14/62 — Don Andres, the Renegade — unchanged (not reviewed yet) =====
+===== 14/62 — Don Andres, the Renegade — unchanged (at/near ceiling) =====
 1 Don Andres, the Renegade [Commander]
 1 Admiral Beckett Brass
 1 Ancient Tomb
@@ -1371,7 +1371,7 @@
 1 Xander's Lounge
 1 You Find Some Prisoners
 
-===== 15/62 — Dr. Eggman — unchanged (not reviewed yet) =====
+===== 15/62 — Dr. Eggman — unchanged (at/near ceiling) =====
 1 Dr. Eggman [Commander]
 1 Academy Ruins
 1 Ancient Tomb
@@ -1470,7 +1470,7 @@
 1 Xander's Lounge
 1 Y'shtola Rhul
 
-===== 16/62 — Edea, Possessed Sorceress — unchanged (not reviewed yet) =====
+===== 16/62 — Edea, Possessed Sorceress — unchanged (at/near ceiling) =====
 1 Edea, Possessed Sorceress [Commander]
 1 An Offer You Can't Refuse
 1 Ancient Tomb
@@ -1566,7 +1566,7 @@
 1 Xander's Lounge
 1 Zara, Renegade Recruiter
 
-===== 17/62 — Edward Kenway — unchanged (not reviewed yet) =====
+===== 17/62 — Edward Kenway — unchanged (at/near ceiling) =====
 1 Edward Kenway [Commander]
 1 Academy Manufactor
 1 Admiral Brass, Unsinkable
@@ -1666,7 +1666,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 18/62 — Evelyn, the Covetous — unchanged (not reviewed yet) =====
+===== 18/62 — Evelyn, the Covetous — unchanged (at/near ceiling) =====
 1 Evelyn, the Covetous [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -1768,7 +1768,7 @@
 1 Wooded Foothills
 1 Worldgorger Dragon
 
-===== 19/62 — Fire Lord Azula — unchanged (not reviewed yet) =====
+===== 19/62 — Fire Lord Azula — unchanged (at/near ceiling) =====
 1 Fire Lord Azula [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -1870,7 +1870,7 @@
 1 Wishclaw Talisman
 1 Wooded Foothills
 
-===== 20/62 — Garza Zol, Plague Queen — unchanged (not reviewed yet) =====
+===== 20/62 — Garza Zol, Plague Queen — unchanged (at/near ceiling) =====
 1 Garza Zol, Plague Queen [Commander]
 1 Aggravated Assault
 1 An Offer You Can't Refuse
@@ -1972,7 +1972,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 21/62 — Norman Osborn // Green Goblin — unchanged (not reviewed yet) =====
+===== 21/62 — Norman Osborn // Green Goblin — refined =====
 1 Norman Osborn // Green Goblin [Commander]
 1 Ad Nauseam
 1 Ancient Tomb
@@ -2034,7 +2034,6 @@
 1 Mox Amber
 1 Mox Diamond
 1 Mox Opal
-1 Mystic Remora
 1 Mystical Tutor
 1 Orcish Bowmasters
 1 Otawara, Soaring City
@@ -2058,6 +2057,7 @@
 1 Talisman of Dominance
 1 Talisman of Indulgence
 1 Thassa's Oracle
+1 Thrill of Possibility
 1 Tolarian Winds
 1 Underground Sea
 1 Underworld Breach
@@ -2074,7 +2074,7 @@
 1 Wooded Foothills
 1 Yawgmoth's Will
 
-===== 22/62 — Goro-Goro and Satoru — unchanged (not reviewed yet) =====
+===== 22/62 — Goro-Goro and Satoru — unchanged (at/near ceiling) =====
 1 Goro-Goro and Satoru [Commander]
 1 Aggravated Assault
 1 An Offer You Can't Refuse
@@ -2175,7 +2175,7 @@
 1 Xander's Lounge
 1 Yuriko, the Tiger's Shadow
 
-===== 23/62 — Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools — unchanged (not reviewed yet) =====
+===== 23/62 — Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools — unchanged (at/near ceiling) =====
 1 Kraum, Ludevic's Opus [Commander]
 1 Tevesh Szat, Doom of Fools [Commander]
 1 An Offer You Can't Refuse
@@ -2277,7 +2277,7 @@
 1 Wishclaw Talisman
 1 Wooded Foothills
 
-===== 24/62 — Gwendlyn Di Corci — unchanged (not reviewed yet) =====
+===== 24/62 — Gwendlyn Di Corci — unchanged (at/near ceiling) =====
 1 Gwendlyn Di Corci [Commander]
 1 An Offer You Can't Refuse
 1 Ancient Tomb
@@ -2373,7 +2373,7 @@
 1 Xander's Lounge
 1 Yawgmoth's Will
 
-===== 25/62 — Inalla, Archmage Ritualist — unchanged (not reviewed yet) =====
+===== 25/62 — Inalla, Archmage Ritualist — unchanged (at/near ceiling) =====
 1 Inalla, Archmage Ritualist [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse

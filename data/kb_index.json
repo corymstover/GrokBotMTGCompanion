@@ -5792,6 +5792,11 @@
 "headings": [
 [
 2,
+"2026-10-16 — Bot cycle 40 (Grixis refinement: power guard, batch-1 re-check, batch 2)",
+"2026-10-16--bot-cycle-40-grixis-refinement-power-guard-batch-1-re-check-batch-2"
+],
+[
+2,
 "2026-10-16 — Bot cycle 39 (Grixis commander-first refinement, batch 1)",
 "2026-10-16--bot-cycle-39-grixis-commander-first-refinement-batch-1"
 ],
@@ -6529,6 +6534,31 @@
 3,
 "Batch 1 — Bot cycle 39, 2026-10-16",
 "batch-1--bot-cycle-39-2026-10-16"
+],
+[
+3,
+"Batch 2 — Bot cycle 40, 2026-10-16",
+"batch-2--bot-cycle-40-2026-10-16"
+],
+[
+2,
+"Overlap review (manual)",
+"overlap-review-manual"
+],
+[
+3,
+"Kess, Dissident Mage / Kefka, Court Mage (64% overlap)",
+"kess-dissident-mage--kefka-court-mage-64-overlap"
+],
+[
+3,
+"Cormela, Glamour Thief / Kess, Dissident Mage (62%)",
+"cormela-glamour-thief--kess-dissident-mage-62"
+],
+[
+3,
+"Jeleva, Nephalia's Scourge / Kess, Dissident Mage (62%)",
+"jeleva-nephalias-scourge--kess-dissident-mage-62"
 ],
 [
 2,
@@ -12495,6 +12525,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -12597,6 +12637,16 @@
 2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
+],
+[
+2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
 ],
 [
 2,
@@ -12705,6 +12755,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -12810,6 +12870,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -12908,6 +12978,16 @@
 2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
+],
+[
+2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
 ],
 [
 2,
@@ -13012,6 +13092,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -13113,6 +13203,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -13211,6 +13311,16 @@
 2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
+],
+[
+2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
 ],
 [
 2,
@@ -13320,6 +13430,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -13418,6 +13538,16 @@
 2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
+],
+[
+2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
 ],
 [
 2,
@@ -13522,6 +13652,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -13620,6 +13760,16 @@
 2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
+],
+[
+2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
 ],
 [
 2,
@@ -15631,6 +15781,16 @@
 2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
+],
+[
+2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
 ],
 [
 2,

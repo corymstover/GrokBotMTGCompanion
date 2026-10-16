@@ -17,6 +17,29 @@
     "Crosis__the_Purger",
     "Cult_of_Skaro",
     "Davros__Dalek_Creator"
+   ],
+   "rechecked": {
+    "cycle": 40,
+    "date": "2026-10-16"
+   }
+  },
+  "2": {
+   "cycle": 40,
+   "date": "2026-10-16",
+   "decks": [
+    "Doctor_Doom__King_of_Latveria",
+    "Don_Andres__the_Renegade",
+    "Dr__Eggman",
+    "Edea__Possessed_Sorceress",
+    "Edward_Kenway",
+    "Evelyn__the_Covetous",
+    "Fire_Lord_Azula",
+    "Garza_Zol__Plague_Queen",
+    "Goben__Gene_Splice_Savant",
+    "Goro_Goro_and_Satoru",
+    "Grixistax___October_2026",
+    "Gwendlyn_Di_Corci",
+    "Inalla__Archmage_Ritualist"
    ]
   }
  },
@@ -24,13 +47,18 @@
   "Abaddon_the_Despoiler": {
    "deck": "Abaddon_the_Despoiler",
    "batch": 1,
-   "cycle": 39,
+   "cycle": 40,
    "date": "2026-10-16",
    "swaps": [
     {
      "cut": "Mystic Remora",
      "add": "Stormfist Crusader",
-     "cycle": 39,
+     "cycle": 40,
+     "guard": [
+      "commander-page inclusion 48.0% vs cut 12.6%",
+      "overall EDHREC rank 2011 vs 101"
+     ],
+     "review": "Abaddon's cascade X is the life opponents lost this turn. Stormfist's upkeep trigger makes each opponent lose 1 before your first main phase, so from that turn on every hand spell up to MV 3 cascades without needing another damage source; it also draws for you every upkeep. Remora draws only off opponents' noncreature spells and never turns on Abaddon. Abaddon decks play Stormfist 48.0% vs Remora 12.6%; rank 2,011 is within the guard.",
      "roles": [
       "draw"
      ],
@@ -60,110 +88,59 @@
       1.0,
       2.0
      ]
-    },
+    }
+   ],
+   "decision": "refined: 1 swap(s)",
+   "edhrec_pages": [
+    "abaddon-the-despoiler"
+   ],
+   "rejected": [
     {
      "cut": "Deadly Rollick",
      "add": "Chandra, Torch of Defiance",
-     "cycle": 39,
-     "roles": [
-      "removal"
-     ],
-     "add_roles": [
-      "ramp",
-      "removal"
-     ],
-     "hook": {
-      "label": "opponents losing life",
-      "commander": "Abaddon the Despoiler",
-      "commander_text": "Mark of Chaos Ascendant — During your turn, spells you cast from your hand with mana value X or less have cascade, where X is the total amount of life your opponents have lost this turn.",
-      "card_text": "If you don't, Chandra deals 2 damage to each opponent."
-     },
-     "add_edhrec": [
-      15,
-      15.9,
-      1072,
-      6744
-     ],
-     "cut_edhrec": [
-      0,
-      18.2,
-      1228,
-      6744
-     ],
-     "cut_freq": 36,
-     "mv": [
-      4.0,
-      4.0
-     ]
+     "by": "power guard",
+     "why": "commander-page inclusion 15.9% < cut's 18.2% (this commander's players keep the cut more often); the cut can be cast for free; the add cannot (tempo downgrade)"
     }
    ],
-   "decision": "refined: 2 swap(s)",
-   "edhrec_pages": [
-    "abaddon-the-despoiler"
-   ]
+   "needs_review": []
   },
   "Admiral_Beckett_Brass": {
    "deck": "Admiral_Beckett_Brass",
    "batch": 1,
-   "cycle": 39,
+   "cycle": 40,
    "date": "2026-10-16",
    "swaps": [],
    "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
    "edhrec_pages": [
     "admiral-beckett-brass"
-   ]
+   ],
+   "rejected": [],
+   "needs_review": []
   },
   "Admiral_Brass__Unsinkable": {
    "deck": "Admiral_Brass__Unsinkable",
    "batch": 1,
-   "cycle": 39,
+   "cycle": 40,
    "date": "2026-10-16",
-   "swaps": [
+   "swaps": [],
+   "decision": "at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "admiral-brass-unsinkable"
+   ],
+   "rejected": [
     {
      "cut": "Deadly Rollick",
      "add": "Lethal Scheme",
-     "cycle": 39,
-     "roles": [
-      "removal"
-     ],
-     "add_roles": [
-      "draw",
-      "removal"
-     ],
-     "hook": {
-      "label": "graveyard as a resource",
-      "commander": "Admiral Brass, Unsinkable",
-      "commander_text": "When Admiral Brass enters, mill four cards.",
-      "card_text": "(Draw a card, then discard a card"
-     },
-     "add_edhrec": [
-      42,
-      46.7,
-      3654,
-      7820
-     ],
-     "cut_edhrec": [
-      -12,
-      6.5,
-      512,
-      7820
-     ],
-     "cut_freq": 36,
-     "mv": [
-      4.0,
-      4.0
-     ]
+     "by": "power guard",
+     "why": "the cut can be cast for free; the add cannot (tempo downgrade)"
     }
    ],
-   "decision": "refined: 1 swap(s)",
-   "edhrec_pages": [
-    "admiral-brass-unsinkable"
-   ]
+   "needs_review": []
   },
   "Anhelo__the_Painter": {
    "deck": "Anhelo__the_Painter",
    "batch": 1,
-   "cycle": 39,
+   "cycle": 40,
    "date": "2026-10-16",
    "swaps": [],
    "decision": "at/near ceiling: commander dependence 89% ≥ 60% and generic share 11% ≤ 15%; unchanged",
@@ -174,7 +151,7 @@
   "Ashad__the_Lone_Cyberman": {
    "deck": "Ashad__the_Lone_Cyberman",
    "batch": 1,
-   "cycle": 39,
+   "cycle": 40,
    "date": "2026-10-16",
    "swaps": [],
    "decision": "at/near ceiling: commander dependence 90% ≥ 60% and generic share 9% ≤ 15%; unchanged",
@@ -185,7 +162,7 @@
   "Ashnod_the_Uncaring": {
    "deck": "Ashnod_the_Uncaring",
    "batch": 1,
-   "cycle": 39,
+   "cycle": 40,
    "date": "2026-10-16",
    "swaps": [],
    "decision": "at/near ceiling: commander dependence 88% ≥ 60% and generic share 12% ≤ 15%; unchanged",
@@ -196,18 +173,20 @@
   "Be_lakor__the_Dark_Master": {
    "deck": "Be_lakor__the_Dark_Master",
    "batch": 1,
-   "cycle": 39,
+   "cycle": 40,
    "date": "2026-10-16",
    "swaps": [],
    "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
    "edhrec_pages": [
     "belakor-the-dark-master"
-   ]
+   ],
+   "rejected": [],
+   "needs_review": []
   },
   "Cecily__Bjorna__Lutri": {
    "deck": "Cecily__Bjorna__Lutri",
    "batch": 1,
-   "cycle": 39,
+   "cycle": 40,
    "date": "2026-10-16",
    "swaps": [],
    "decision": "at/near ceiling: commander dependence 98% ≥ 60% and generic share 0% ≤ 15%; unchanged",
@@ -218,96 +197,58 @@
   "Cormela__Glamour_Thief": {
    "deck": "Cormela__Glamour_Thief",
    "batch": 1,
-   "cycle": 39,
+   "cycle": 40,
    "date": "2026-10-16",
    "swaps": [],
    "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
    "edhrec_pages": [
     "cormela-glamour-thief"
-   ]
+   ],
+   "rejected": [],
+   "needs_review": []
   },
   "Crosis__the_Purger": {
    "deck": "Crosis__the_Purger",
    "batch": 1,
-   "cycle": 39,
+   "cycle": 40,
    "date": "2026-10-16",
-   "swaps": [
+   "swaps": [],
+   "decision": "at/near ceiling: all 4 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "crosis-the-purger"
+   ],
+   "rejected": [
     {
      "cut": "Deflecting Swat",
      "add": "Whispersilk Cloak",
-     "cycle": 39,
-     "roles": [
-      "protection"
-     ],
-     "add_roles": [
-      "protection"
-     ],
-     "hook": {
-      "label": "combat damage / attack triggers",
-      "commander": "Crosis, the Purger",
-      "commander_text": "Whenever Crosis deals combat damage to a player, you may pay {2}{B}",
-      "card_text": "Equipped creature can't be blocked and has shroud"
-     },
-     "add_edhrec": [
-      29,
-      34.0,
-      383,
-      1128
-     ],
-     "cut_edhrec": [
-      -10,
-      9.4,
-      106,
-      1128
-     ],
-     "cut_freq": 53,
-     "mv": [
-      3.0,
-      3.0
-     ]
+     "by": "power guard",
+     "why": "the cut can be cast for free; the add cannot (tempo downgrade)"
     },
     {
      "cut": "Reanimate",
      "add": "Quest for the Nihil Stone",
-     "cycle": 39,
-     "roles": [
-      "(no key role)"
-     ],
-     "add_roles": [],
-     "hook": {
-      "label": "discard",
-      "commander": "Crosis, the Purger",
-      "commander_text": "If you do, choose a color, then that player reveals their hand and discards all cards of that color.",
-      "card_text": "Whenever an opponent discards a card, you may put a quest counter on this enchantment."
-     },
-     "add_edhrec": [
-      25,
-      25.9,
-      292,
-      1128
-     ],
-     "cut_edhrec": [
-      0,
-      26.4,
-      298,
-      1128
-     ],
-     "cut_freq": 22,
-     "mv": [
-      1.0,
-      1.0
-     ]
+     "by": "power guard",
+     "why": "commander-page inclusion 25.9% < cut's 26.4% (this commander's players keep the cut more often); overall EDHREC rank 10497 vs cut 53 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "Duress",
+     "by": "power guard",
+     "why": "commander-page inclusion 19.3% < cut's 26.4% (this commander's players keep the cut more often); overall EDHREC rank 3258 vs cut 53 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "Specter's Shroud",
+     "by": "power guard",
+     "why": "commander-page inclusion 16.1% < cut's 26.4% (this commander's players keep the cut more often); overall EDHREC rank 21273 vs cut 53 (more than 4x / +2000 worse)"
     }
    ],
-   "decision": "refined: 2 swap(s)",
-   "edhrec_pages": [
-    "crosis-the-purger"
-   ]
+   "needs_review": []
   },
   "Cult_of_Skaro": {
    "deck": "Cult_of_Skaro",
    "batch": 1,
-   "cycle": 39,
+   "cycle": 40,
    "date": "2026-10-16",
    "swaps": [],
    "decision": "at/near ceiling: commander dependence 91% ≥ 60% and generic share 9% ≤ 15%; unchanged",
@@ -318,13 +259,327 @@
   "Davros__Dalek_Creator": {
    "deck": "Davros__Dalek_Creator",
    "batch": 1,
-   "cycle": 39,
+   "cycle": 40,
    "date": "2026-10-16",
    "swaps": [],
    "decision": "at/near ceiling: commander dependence 85% ≥ 60% and generic share 12% ≤ 15%; unchanged",
    "edhrec_pages": [
     "davros-dalek-creator"
    ]
+  },
+  "Doctor_Doom__King_of_Latveria": {
+   "deck": "Doctor_Doom__King_of_Latveria",
+   "batch": 2,
+   "cycle": 40,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "doctor-doom-king-of-latveria"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Don_Andres__the_Renegade": {
+   "deck": "Don_Andres__the_Renegade",
+   "batch": 2,
+   "cycle": 40,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: commander dependence 81% ≥ 60% and generic share 12% ≤ 15%; unchanged",
+   "edhrec_pages": [
+    "don-andres-the-renegade"
+   ]
+  },
+  "Dr__Eggman": {
+   "deck": "Dr__Eggman",
+   "batch": 2,
+   "cycle": 40,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "dr-eggman"
+   ],
+   "rejected": [
+    {
+     "cut": "Mana Drain",
+     "add": "Diversion Unit",
+     "by": "power guard",
+     "why": "overall EDHREC rank 7240 vs cut 119 (more than 4x / +2000 worse)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Edea__Possessed_Sorceress": {
+   "deck": "Edea__Possessed_Sorceress",
+   "batch": 2,
+   "cycle": 40,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "edea-possessed-sorceress"
+   ],
+   "rejected": [
+    {
+     "cut": "Deadly Rollick",
+     "add": "Garland, Royal Kidnapper",
+     "by": "power guard",
+     "why": "overall EDHREC rank 12136 vs cut 106 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Edward_Kenway": {
+   "deck": "Edward_Kenway",
+   "batch": 2,
+   "cycle": 40,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 2 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "edward-kenway"
+   ],
+   "rejected": [
+    {
+     "cut": "Deadly Rollick",
+     "add": "Admiral Beckett Brass",
+     "by": "power guard",
+     "why": "overall EDHREC rank 6221 vs cut 106 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade)"
+    },
+    {
+     "cut": "Deadly Rollick",
+     "add": "Chandra, Spark Hunter",
+     "by": "power guard",
+     "why": "overall EDHREC rank 6359 vs cut 106 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Evelyn__the_Covetous": {
+   "deck": "Evelyn__the_Covetous",
+   "batch": 2,
+   "cycle": 40,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 8 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "evelyn-the-covetous"
+   ],
+   "rejected": [
+    {
+     "cut": "Windfall",
+     "add": "Glass-Cast Heart",
+     "by": "power guard",
+     "why": "overall EDHREC rank 4928 vs cut 159 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Windfall",
+     "add": "Preacher of the Schism",
+     "by": "power guard",
+     "why": "overall EDHREC rank 4713 vs cut 159 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Mystic Remora",
+     "add": "Dusk Legion Zealot",
+     "by": "power guard",
+     "why": "overall EDHREC rank 4489 vs cut 101 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Windfall",
+     "add": "Dusk Legion Zealot",
+     "by": "power guard",
+     "why": "overall EDHREC rank 4489 vs cut 159 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Mystic Remora",
+     "add": "Voldaren Epicure",
+     "by": "power guard",
+     "why": "overall EDHREC rank 5228 vs cut 101 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Windfall",
+     "add": "Voldaren Epicure",
+     "by": "power guard",
+     "why": "overall EDHREC rank 5228 vs cut 159 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Windfall",
+     "add": "Anje, Maid of Dishonor",
+     "by": "power guard",
+     "why": "overall EDHREC rank 7567 vs cut 159 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Mystic Remora",
+     "add": "Bloodtithe Harvester",
+     "by": "power guard",
+     "why": "overall EDHREC rank 7973 vs cut 101 (more than 4x / +2000 worse)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Fire_Lord_Azula": {
+   "deck": "Fire_Lord_Azula",
+   "batch": 2,
+   "cycle": 40,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "fire-lord-azula"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Garza_Zol__Plague_Queen": {
+   "deck": "Garza_Zol__Plague_Queen",
+   "batch": 2,
+   "cycle": 40,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "garza-zol-plague-queen"
+   ],
+   "rejected": [
+    {
+     "cut": "Deadly Rollick",
+     "add": "Olivia Voldaren",
+     "by": "power guard",
+     "why": "overall EDHREC rank 6491 vs cut 106 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Goben__Gene_Splice_Savant": {
+   "deck": "Goben__Gene_Splice_Savant",
+   "batch": 2,
+   "cycle": 40,
+   "date": "2026-10-16",
+   "swaps": [
+    {
+     "cut": "Mystic Remora",
+     "add": "Thrill of Possibility",
+     "cycle": 40,
+     "guard": [
+      "commander-page inclusion 37.6% vs cut 19.2%",
+      "overall EDHREC rank 212 vs 101"
+     ],
+     "review": "Green Goblin gives every nonland card in the graveyard mayhem and makes graveyard casts cost {2} less. Thrill of Possibility's discard is a cost, so the discarded card becomes castable from the graveyard at a discount the same turn: it draws two and turns the commander on, at instant speed. Mystic Remora only draws off opponents' noncreature spells and never interacts with the commander. Norman Osborn decks play Thrill 37.6% vs Remora 19.2%; overall ranks 212 vs 101 (both staple tier).",
+     "roles": [
+      "draw"
+     ],
+     "add_roles": [
+      "draw"
+     ],
+     "hook": {
+      "label": "graveyard as a resource",
+      "commander": "Norman Osborn // Green Goblin",
+      "commander_text": "Spells you cast from your graveyard cost {2} less to cast.",
+      "card_text": "As an additional cost to cast this spell, discard a card."
+     },
+     "add_edhrec": [
+      26,
+      37.6,
+      7205,
+      19157
+     ],
+     "cut_edhrec": [
+      4,
+      19.2,
+      3674,
+      19157
+     ],
+     "cut_freq": 36,
+     "mv": [
+      1.0,
+      2.0
+     ]
+    }
+   ],
+   "decision": "refined: 1 swap(s)",
+   "edhrec_pages": [
+    "norman-osborn"
+   ],
+   "rejected": [
+    {
+     "cut": "Mystic Remora",
+     "add": "Cool but Rude",
+     "by": "power guard",
+     "why": "overall EDHREC rank 4458 vs cut 101 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Mystic Remora",
+     "add": "Pumpkin Bombs",
+     "by": "power guard",
+     "why": "overall EDHREC rank 8366 vs cut 101 (more than 4x / +2000 worse)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Goro_Goro_and_Satoru": {
+   "deck": "Goro_Goro_and_Satoru",
+   "batch": 2,
+   "cycle": 40,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 2 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "goro-goro-and-satoru"
+   ],
+   "rejected": [
+    {
+     "cut": "Deadly Rollick",
+     "add": "Dokuchi Silencer",
+     "by": "power guard",
+     "why": "overall EDHREC rank 6728 vs cut 106 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade)"
+    },
+    {
+     "cut": "Deadly Rollick",
+     "add": "Maestros Diabolist",
+     "by": "power guard",
+     "why": "commander-page inclusion 15.2% < cut's 17.9% (this commander's players keep the cut more often); overall EDHREC rank 19717 vs cut 106 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Grixistax___October_2026": {
+   "deck": "Grixistax___October_2026",
+   "batch": 2,
+   "cycle": 40,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: commander dependence 76% ≥ 60% and generic share 3% ≤ 15%; unchanged",
+   "edhrec_pages": [
+    "kraum-ludevics-opus-tevesh-szat-doom-of-fools"
+   ]
+  },
+  "Gwendlyn_Di_Corci": {
+   "deck": "Gwendlyn_Di_Corci",
+   "batch": 2,
+   "cycle": 40,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "gwendlyn-di-corci"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Inalla__Archmage_Ritualist": {
+   "deck": "Inalla__Archmage_Ritualist",
+   "batch": 2,
+   "cycle": 40,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "inalla-archmage-ritualist"
+   ],
+   "rejected": [],
+   "needs_review": []
   }
  },
  "log": {
@@ -342,6 +597,18 @@
      "Mystic Remora",
      "Deadly Rollick"
     ]
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": "1 re-check",
+    "change": "power-guard re-check: reverted −Deadly Rollick +Chandra, Torch of Defiance (power guard: commander-page inclusion 15.9% < cut's 18.2% (this commander's players keep the cut more often); the cut can be cast for free; the add cannot (tempo downgrade))",
+    "added": [
+     "Deadly Rollick"
+    ],
+    "removed": [
+     "Chandra, Torch of Defiance"
+    ]
    }
   ],
   "Admiral_Beckett_Brass": [
@@ -350,6 +617,14 @@
     "cycle": 39,
     "batch": 1,
     "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": "1 re-check",
+    "change": "power-guard re-check: re-checked: no change",
     "added": [],
     "removed": []
    }
@@ -366,6 +641,18 @@
     "removed": [
      "Deadly Rollick"
     ]
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": "1 re-check",
+    "change": "power-guard re-check: reverted −Deadly Rollick +Lethal Scheme (power guard: the cut can be cast for free; the add cannot (tempo downgrade))",
+    "added": [
+     "Deadly Rollick"
+    ],
+    "removed": [
+     "Lethal Scheme"
+    ]
    }
   ],
   "Anhelo__the_Painter": [
@@ -374,6 +661,14 @@
     "cycle": 39,
     "batch": 1,
     "change": "reviewed: at/near ceiling: commander dependence 89% ≥ 60% and generic share 11% ≤ 15%; unchanged",
+    "added": [],
+    "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": "1 re-check",
+    "change": "power-guard re-check: re-checked: no change",
     "added": [],
     "removed": []
    }
@@ -386,6 +681,14 @@
     "change": "reviewed: at/near ceiling: commander dependence 90% ≥ 60% and generic share 9% ≤ 15%; unchanged",
     "added": [],
     "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": "1 re-check",
+    "change": "power-guard re-check: re-checked: no change",
+    "added": [],
+    "removed": []
    }
   ],
   "Ashnod_the_Uncaring": [
@@ -394,6 +697,14 @@
     "cycle": 39,
     "batch": 1,
     "change": "reviewed: at/near ceiling: commander dependence 88% ≥ 60% and generic share 12% ≤ 15%; unchanged",
+    "added": [],
+    "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": "1 re-check",
+    "change": "power-guard re-check: re-checked: no change",
     "added": [],
     "removed": []
    }
@@ -406,6 +717,14 @@
     "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
     "added": [],
     "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": "1 re-check",
+    "change": "power-guard re-check: re-checked: no change",
+    "added": [],
+    "removed": []
    }
   ],
   "Cecily__Bjorna__Lutri": [
@@ -416,6 +735,14 @@
     "change": "reviewed: at/near ceiling: commander dependence 98% ≥ 60% and generic share 0% ≤ 15%; unchanged",
     "added": [],
     "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": "1 re-check",
+    "change": "power-guard re-check: re-checked: no change",
+    "added": [],
+    "removed": []
    }
   ],
   "Cormela__Glamour_Thief": [
@@ -424,6 +751,14 @@
     "cycle": 39,
     "batch": 1,
     "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": "1 re-check",
+    "change": "power-guard re-check: re-checked: no change",
     "added": [],
     "removed": []
    }
@@ -442,6 +777,20 @@
      "Deflecting Swat",
      "Reanimate"
     ]
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": "1 re-check",
+    "change": "power-guard re-check: reverted −Deflecting Swat +Whispersilk Cloak (power guard: the cut can be cast for free; the add cannot (tempo downgrade)); reverted −Reanimate +Quest for the Nihil Stone (power guard: commander-page inclusion 25.9% < cut's 26.4% (this commander's players keep the cut more often); overall EDHREC rank 10497 vs cut 53 (more than 4x / +2000 worse))",
+    "added": [
+     "Deflecting Swat",
+     "Reanimate"
+    ],
+    "removed": [
+     "Whispersilk Cloak",
+     "Quest for the Nihil Stone"
+    ]
    }
   ],
   "Cult_of_Skaro": [
@@ -452,6 +801,14 @@
     "change": "reviewed: at/near ceiling: commander dependence 91% ≥ 60% and generic share 9% ≤ 15%; unchanged",
     "added": [],
     "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": "1 re-check",
+    "change": "power-guard re-check: re-checked: no change",
+    "added": [],
+    "removed": []
    }
   ],
   "Davros__Dalek_Creator": [
@@ -460,6 +817,148 @@
     "cycle": 39,
     "batch": 1,
     "change": "reviewed: at/near ceiling: commander dependence 85% ≥ 60% and generic share 12% ≤ 15%; unchanged",
+    "added": [],
+    "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": "1 re-check",
+    "change": "power-guard re-check: re-checked: no change",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Doctor_Doom__King_of_Latveria": [
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": 2,
+    "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Don_Andres__the_Renegade": [
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": 2,
+    "change": "reviewed: at/near ceiling: commander dependence 81% ≥ 60% and generic share 12% ≤ 15%; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Dr__Eggman": [
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": 2,
+    "change": "reviewed: at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Edea__Possessed_Sorceress": [
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": 2,
+    "change": "reviewed: at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Edward_Kenway": [
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": 2,
+    "change": "reviewed: at/near ceiling: all 2 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Evelyn__the_Covetous": [
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": 2,
+    "change": "reviewed: at/near ceiling: all 8 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Fire_Lord_Azula": [
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": 2,
+    "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Garza_Zol__Plague_Queen": [
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": 2,
+    "change": "reviewed: at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Goben__Gene_Splice_Savant": [
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": 2,
+    "change": "1 commander-first swap(s): graveyard as a resource",
+    "added": [
+     "Thrill of Possibility"
+    ],
+    "removed": [
+     "Mystic Remora"
+    ]
+   }
+  ],
+  "Goro_Goro_and_Satoru": [
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": 2,
+    "change": "reviewed: at/near ceiling: all 2 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Grixistax___October_2026": [
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": 2,
+    "change": "reviewed: at/near ceiling: commander dependence 76% ≥ 60% and generic share 3% ≤ 15%; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Gwendlyn_Di_Corci": [
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": 2,
+    "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Inalla__Archmage_Ritualist": [
+   {
+    "date": "2026-10-16",
+    "cycle": 40,
+    "batch": 2,
+    "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
     "added": [],
     "removed": []
    }
@@ -484,11 +983,11 @@
     "Brainstorm",
     "Cabal Ritual",
     "Call Forth the Tempest",
-    "Chandra, Torch of Defiance",
     "Chrome Mox",
     "City of Brass",
     "Command Tower",
     "Dark Ritual",
+    "Deadly Rollick",
     "Deflecting Swat",
     "Delayed Blast Fireball",
     "Demonic Tutor",
@@ -812,6 +1311,178 @@
     }
    ],
    "queried": "2026-10-16"
+  },
+  "Goben__Gene_Splice_Savant": {
+   "sig": [
+    "Ad Nauseam",
+    "Ancient Tomb",
+    "Arcane Signet",
+    "Arid Mesa",
+    "Artist's Talent",
+    "Attunement",
+    "Badlands",
+    "Beseech the Mirror",
+    "Big Score",
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "Blood Crypt",
+    "Bloodstained Mire",
+    "Borne Upon a Wind",
+    "Brain Freeze",
+    "Breakthrough",
+    "Cabal Ritual",
+    "Careful Study",
+    "Cavern of Souls",
+    "Chain of Vapor",
+    "Chrome Mox",
+    "City of Brass",
+    "City of Traitors",
+    "Command Tower",
+    "Culling the Weak",
+    "Dark Deal",
+    "Dark Ritual",
+    "Defense Grid",
+    "Deflecting Swat",
+    "Demonic Consultation",
+    "Demonic Counsel",
+    "Demonic Tutor",
+    "Faithless Looting",
+    "Fellwar Stone",
+    "Fierce Guardianship",
+    "Final Fortune",
+    "Flooded Strand",
+    "Flusterstorm",
+    "Force of Will",
+    "Frantic Search",
+    "Gamble",
+    "Gemstone Caverns",
+    "Ghostly Pilferer",
+    "Gitaxian Probe",
+    "Grim Monolith",
+    "Grinding Station",
+    "Hexing Squelcher",
+    "Imperial Seal",
+    "Into the Flood Maw",
+    "Jeska's Will",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Confluence",
+    "Mana Vault",
+    "Marsh Flats",
+    "Mental Misstep",
+    "Mindbreak Trap",
+    "Misty Rainforest",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Mystical Tutor",
+    "Norman Osborn // Green Goblin",
+    "Orcish Bowmasters",
+    "Otawara, Soaring City",
+    "Pact of Negation",
+    "Polluted Delta",
+    "Psychic Frog",
+    "Pyroblast",
+    "Ragavan, Nimble Pilferer",
+    "Reckless Handling",
+    "Red Elemental Blast",
+    "Rhystic Study",
+    "Rite of Flame",
+    "Scalding Tarn",
+    "Shadow of the Goblin",
+    "Simian Spirit Guide",
+    "Sol Ring",
+    "Steam Vents",
+    "Swan Song",
+    "Tainted Pact",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Thassa's Oracle",
+    "Thrill of Possibility",
+    "Tolarian Winds",
+    "Underground Sea",
+    "Underworld Breach",
+    "Unstable Experiment",
+    "Valley Floodcaller",
+    "Vampiric Tutor",
+    "Verdant Catacombs",
+    "Volcanic Island",
+    "Watery Grave",
+    "Wheel of Fortune",
+    "Will of the Jeskai",
+    "Windfall",
+    "Wishclaw Talisman",
+    "Wooded Foothills",
+    "Yawgmoth's Will"
+   ],
+   "combos": [
+    {
+     "id": "742-1295",
+     "cards": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "infinite": false
+    },
+    {
+     "id": "1295-3093",
+     "cards": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "infinite": false
+    },
+    {
+     "id": "1368-1414-4856",
+     "cards": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "1368-3518-4856",
+     "cards": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "1368-1878-2706",
+     "cards": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "1368-2706-3518",
+     "cards": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "1368-3698--44",
+     "cards": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "infinite": true
+    }
+   ],
+   "queried": "2026-10-16"
   }
+ },
+ "source": {
+  "commit": "1836b97",
+  "checked": "2026-10-16",
+  "note": "`git pull` on 2026-10-16: no upstream changes since the Bot cycle 37 re-analysis"
  }
 }

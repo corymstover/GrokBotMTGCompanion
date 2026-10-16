@@ -1,0 +1,50 @@
+{
+ "_doc": "Bot cycle 40: manual review of every guard-passing swap (verdict accept/reject + why) and of high-overlap deck pairs. Read by scripts/grixis_refine.py; guidance, written from Oracle text and the cited EDHREC numbers.",
+ "swaps": {
+  "Abaddon_the_Despoiler|Mystic Remora|Stormfist Crusader": {
+   "verdict": "accept",
+   "why": "Abaddon's cascade X is the life opponents lost this turn. Stormfist's upkeep trigger makes each opponent lose 1 before your first main phase, so from that turn on every hand spell up to MV 3 cascades without needing another damage source; it also draws for you every upkeep. Remora draws only off opponents' noncreature spells and never turns on Abaddon. Abaddon decks play Stormfist 48.0% vs Remora 12.6%; rank 2,011 is within the guard."
+  },
+  "Goben__Gene_Splice_Savant|Mystic Remora|Thrill of Possibility": {
+   "verdict": "accept",
+   "why": "Green Goblin gives every nonland card in the graveyard mayhem and makes graveyard casts cost {2} less. Thrill of Possibility's discard is a cost, so the discarded card becomes castable from the graveyard at a discount the same turn: it draws two and turns the commander on, at instant speed. Mystic Remora only draws off opponents' noncreature spells and never interacts with the commander. Norman Osborn decks play Thrill 37.6% vs Remora 19.2%; overall ranks 212 vs 101 (both staple tier)."
+  },
+  "Evelyn__the_Covetous|Reanimate|Cordial Vampire": {
+   "verdict": "reject",
+   "why": "This Evelyn list is a cEDH reanimator/Thoracle build (Entomb, Unmarked Grave, Animate Dead, Necromancy, Worldgorger Dragon). Reanimate is a 1-mana piece of that core. Cordial Vampire is one more Vampire trigger for Evelyn but a 2-mana +1/+1-counter body that does not advance any win line: a power downgrade at this ceiling despite its synergy."
+  },
+  "Dr__Eggman|Roaming Throne|Steel Overseer": {
+   "verdict": "reject",
+   "why": "Roaming Throne naming Human or Scientist makes Dr. Eggman's end-step trigger (draw, then each opponent faces a villainous choice) trigger twice. That is the commander's own engine, so it is not generic filler. Steel Overseer only pumps artifact creatures. The cut rule now protects trigger doublers."
+  },
+  "Evelyn__the_Covetous|Reanimate|Blood Artist": {
+   "verdict": "reject",
+   "why": "Same as Cordial Vampire: Reanimate is part of the reanimator core (now protected); Blood Artist is a drain payoff the list has no sacrifice engine for."
+  }
+ },
+ "overlap": {
+  "Kess, Dissident Mage / Kefka, Court Mage (64% overlap)": {
+   "shared": "56 nonland cards: 8 fast-mana pieces, the cEDH free-interaction/tutor core (Fierce Guardianship, Pact of Negation, Mindbreak Trap, Deflecting Swat, Demonic/Vampiric/Mystical Tutor, Imperial Seal) and the Ad Nauseam / Tainted Pact / Thassa's Oracle / Brain Freeze win package; 22 shared cards match both commanders' Oracle hooks",
+   "verdict": "Partly homogenization. For Kess (\"Once during each of your turns, you may cast an instant or sorcery spell from your graveyard\") the instant/sorcery-heavy cEDH core is identity-driven: every shared spell is a second use from the graveyard. For Kefka the same spells are generic: his Oracle text (\"each player discards a card\" on enter/attack; \"Whenever an opponent loses life during your turn, you draw that many cards\") is served only by the Kefka-only cards (Waste Not, Tinybones, Bauble Burglar, Culling the Weak), not by the shared win package (Brain Freeze 22.0%, Borne Upon a Wind 17.9%, Final Fortune 11.1% on Kefka's EDHREC page).",
+   "proposals": "For Kefka's batch (guidance; each goes through the power guard and a written review): Final Fortune → Liliana's Caress (Kefka's discard makes each opponent lose 2, and on your turn Kefka then draws that many; 33.4% of Kefka decks), Borne Upon a Wind → Monument to Endurance (every discard from Kefka's trigger draws or makes Treasure; 37.8%), Brain Freeze → Dauthi Voidwalker (discarded cards are exiled with void counters for you to cast; 33.1%). Kess: no change; the overlap is her identity."
+  },
+  "Cormela, Glamour Thief / Kess, Dissident Mage (62%)": {
+   "shared": "54 nonland cards; 40 of them match both commanders' instant/sorcery hooks, 13 are fast mana plus Rhystic Study and Thassa's Oracle",
+   "verdict": "Identity-justified. Both commanders are instant/sorcery engines: Cormela's mana is \"Spend this mana only to cast instant and/or sorcery spells\" and she returns an instant or sorcery when she dies; Kess recasts them from the graveyard. Each keeps its own line: Cormela has storm and copy (Tendrils of Agony, Dualcaster Mage, Birgi, Seething Song) and altars, Kess has graveyard setup (Snapcaster Mage, Gifts Ungiven, Intuition, Dragon's Rage Channeler). The shared fast mana is ceiling-appropriate for two cEDH lists.",
+   "proposals": "None. Re-check Cormela's Rhystic Study slot in her batch only if the guard finds a stronger instant/sorcery payoff."
+  },
+  "Jeleva, Nephalia's Scourge / Kess, Dissident Mage (62%)": {
+   "shared": "55 nonland cards; 36 match both commanders' instant/sorcery hooks, 14 are fast mana plus Rhystic Study and Thassa's Oracle",
+   "verdict": "Identity-justified. Jeleva casts \"an instant or sorcery spell from among cards exiled with Jeleva without paying its mana cost\", so the same dense spell suite is her engine too. Her unique cards are Jeleva-specific: library manipulation for her exile (Scroll Rack, Sensei's Divining Top, Lim-Dûl's Vault, Long-Term Plans) and big free spells (Mind's Desire, Doomsday, Peer into the Abyss).",
+   "proposals": "None. The overlap is the shared spellslinger identity, not a generic shell."
+  }
+ },
+ "protect": {
+  "Evelyn__the_Covetous": {
+   "cards": [
+    "Reanimate"
+   ],
+   "why": "1-mana piece of the list's Entomb / Unmarked Grave reanimator core; replacing it with a Vampire is a downgrade at this cEDH ceiling."
+  }
+ }
+}

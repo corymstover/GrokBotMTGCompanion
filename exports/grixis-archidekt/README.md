@@ -4,31 +4,31 @@
 
 | # | File | Commander(s) | Status | Changes vs previous version |
 |---|---|---|---|---|
-| 1 | [abaddon-the-despoiler.txt](abaddon-the-despoiler.txt) | Abaddon the Despoiler | refined | −Mystic Remora +Stormfist Crusader (opponents losing life); −Deadly Rollick +Chandra, Torch of Defiance (opponents losing life) |
+| 1 | [abaddon-the-despoiler.txt](abaddon-the-despoiler.txt) | Abaddon the Despoiler | refined | −Mystic Remora +Stormfist Crusader (opponents losing life) |
 | 2 | [admiral-beckett-brass.txt](admiral-beckett-brass.txt) | Admiral Beckett Brass | unchanged (at/near ceiling) | none |
-| 3 | [admiral-brass-unsinkable.txt](admiral-brass-unsinkable.txt) | Admiral Brass, Unsinkable | refined | −Deadly Rollick +Lethal Scheme (graveyard as a resource) |
+| 3 | [admiral-brass-unsinkable.txt](admiral-brass-unsinkable.txt) | Admiral Brass, Unsinkable | unchanged (at/near ceiling) | none |
 | 4 | [anhelo-the-painter.txt](anhelo-the-painter.txt) | Anhelo, the Painter | unchanged (at/near ceiling) | none |
 | 5 | [ashad-the-lone-cyberman.txt](ashad-the-lone-cyberman.txt) | Ashad, the Lone Cyberman | unchanged (at/near ceiling) | none |
 | 6 | [ashnod-the-uncaring.txt](ashnod-the-uncaring.txt) | Ashnod the Uncaring | unchanged (at/near ceiling) | none |
 | 7 | [belakor-the-dark-master.txt](belakor-the-dark-master.txt) | Be'lakor, the Dark Master | unchanged (at/near ceiling) | none |
 | 8 | [bjorna-nightfall-alchemist-cecily.txt](bjorna-nightfall-alchemist-cecily.txt) | Bjorna, Nightfall Alchemist + Cecily, Haunted Mage | unchanged (at/near ceiling) | none |
 | 9 | [cormela-glamour-thief.txt](cormela-glamour-thief.txt) | Cormela, Glamour Thief | unchanged (at/near ceiling) | none |
-| 10 | [crosis-the-purger.txt](crosis-the-purger.txt) | Crosis, the Purger | refined | −Deflecting Swat +Whispersilk Cloak (combat damage / attack triggers); −Reanimate +Quest for the Nihil Stone (discard) |
+| 10 | [crosis-the-purger.txt](crosis-the-purger.txt) | Crosis, the Purger | unchanged (at/near ceiling) | none |
 | 11 | [cult-of-skaro.txt](cult-of-skaro.txt) | Cult of Skaro | unchanged (at/near ceiling) | none |
 | 12 | [davros-dalek-creator.txt](davros-dalek-creator.txt) | Davros, Dalek Creator | unchanged (at/near ceiling) | none |
-| 13 | [doctor-doom-king-of-latveria.txt](doctor-doom-king-of-latveria.txt) | Doctor Doom, King of Latveria | unchanged (not reviewed yet) | none |
-| 14 | [don-andres-the-renegade.txt](don-andres-the-renegade.txt) | Don Andres, the Renegade | unchanged (not reviewed yet) | none |
-| 15 | [dr-eggman.txt](dr-eggman.txt) | Dr. Eggman | unchanged (not reviewed yet) | none |
-| 16 | [edea-possessed-sorceress.txt](edea-possessed-sorceress.txt) | Edea, Possessed Sorceress | unchanged (not reviewed yet) | none |
-| 17 | [edward-kenway.txt](edward-kenway.txt) | Edward Kenway | unchanged (not reviewed yet) | none |
-| 18 | [evelyn-the-covetous.txt](evelyn-the-covetous.txt) | Evelyn, the Covetous | unchanged (not reviewed yet) | none |
-| 19 | [fire-lord-azula.txt](fire-lord-azula.txt) | Fire Lord Azula | unchanged (not reviewed yet) | none |
-| 20 | [garza-zol-plague-queen.txt](garza-zol-plague-queen.txt) | Garza Zol, Plague Queen | unchanged (not reviewed yet) | none |
-| 21 | [norman-osborn.txt](norman-osborn.txt) | Norman Osborn // Green Goblin | unchanged (not reviewed yet) | none |
-| 22 | [goro-goro-and-satoru.txt](goro-goro-and-satoru.txt) | Goro-Goro and Satoru | unchanged (not reviewed yet) | none |
-| 23 | [grixistax-october-2026.txt](grixistax-october-2026.txt) | Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools | unchanged (not reviewed yet) | none |
-| 24 | [gwendlyn-di-corci.txt](gwendlyn-di-corci.txt) | Gwendlyn Di Corci | unchanged (not reviewed yet) | none |
-| 25 | [inalla-archmage-ritualist.txt](inalla-archmage-ritualist.txt) | Inalla, Archmage Ritualist | unchanged (not reviewed yet) | none |
+| 13 | [doctor-doom-king-of-latveria.txt](doctor-doom-king-of-latveria.txt) | Doctor Doom, King of Latveria | unchanged (at/near ceiling) | none |
+| 14 | [don-andres-the-renegade.txt](don-andres-the-renegade.txt) | Don Andres, the Renegade | unchanged (at/near ceiling) | none |
+| 15 | [dr-eggman.txt](dr-eggman.txt) | Dr. Eggman | unchanged (at/near ceiling) | none |
+| 16 | [edea-possessed-sorceress.txt](edea-possessed-sorceress.txt) | Edea, Possessed Sorceress | unchanged (at/near ceiling) | none |
+| 17 | [edward-kenway.txt](edward-kenway.txt) | Edward Kenway | unchanged (at/near ceiling) | none |
+| 18 | [evelyn-the-covetous.txt](evelyn-the-covetous.txt) | Evelyn, the Covetous | unchanged (at/near ceiling) | none |
+| 19 | [fire-lord-azula.txt](fire-lord-azula.txt) | Fire Lord Azula | unchanged (at/near ceiling) | none |
+| 20 | [garza-zol-plague-queen.txt](garza-zol-plague-queen.txt) | Garza Zol, Plague Queen | unchanged (at/near ceiling) | none |
+| 21 | [norman-osborn.txt](norman-osborn.txt) | Norman Osborn // Green Goblin | refined | −Mystic Remora +Thrill of Possibility (graveyard as a resource) |
+| 22 | [goro-goro-and-satoru.txt](goro-goro-and-satoru.txt) | Goro-Goro and Satoru | unchanged (at/near ceiling) | none |
+| 23 | [grixistax-october-2026.txt](grixistax-october-2026.txt) | Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools | unchanged (at/near ceiling) | none |
+| 24 | [gwendlyn-di-corci.txt](gwendlyn-di-corci.txt) | Gwendlyn Di Corci | unchanged (at/near ceiling) | none |
+| 25 | [inalla-archmage-ritualist.txt](inalla-archmage-ritualist.txt) | Inalla, Archmage Ritualist | unchanged (at/near ceiling) | none |
 | 26 | [jeleva-nephalias-scourge.txt](jeleva-nephalias-scourge.txt) | Jeleva, Nephalia's Scourge | unchanged (not reviewed yet) | none |
 | 27 | [kefka-court-mage.txt](kefka-court-mage.txt) | Kefka, Court Mage // Kefka, Ruler of Ruin | unchanged (not reviewed yet) | none |
 | 28 | [kess-dissident-mage.txt](kess-dissident-mage.txt) | Kess, Dissident Mage | unchanged (not reviewed yet) | none |
