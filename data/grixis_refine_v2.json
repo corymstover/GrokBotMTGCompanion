@@ -3,6 +3,7 @@
  "schema_version": 1,
  "engine": "grixis_refine v2",
  "exploratory": true,
+ "generated": "2026-10-16",
  "m6_gate": {
   "M2": "accepted",
   "M4": "accepted",
