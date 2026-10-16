@@ -1,0 +1,555 @@
+{
+ "schema_version": 2,
+ "deck_id": "Sauron__the_Dark_Lord",
+ "slug": "sauron-the-dark-lord",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+ "commanders": {
+  "value": [
+   {
+    "name": "Sauron, the Dark Lord",
+    "oracle_id": "9f8f29ba-7e64-455d-be05-ec7973f2bd0a",
+    "oracle_text": "Ward—Sacrifice a legendary artifact or legendary creature.\nWhenever an opponent casts a spell, amass Orcs 1.\nWhenever an Army you control deals combat damage to a player, the Ring tempts you.\nWhenever the Ring tempts you, you may discard your hand. If you do, draw four cards.",
+    "oracle_sha256": "sha256:abb4b6c504190925b75d131161e88c4bd27da7f0c9f4f01b0336785c109620bd",
+    "type_line": "Legendary Creature — Avatar Horror"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Sauron, the Dark Lord"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Amass and the Ring: every opponent spell amasses Orcs 1, the Army's combat damage makes the Ring tempt you, and each temptation offers Sauron's discard-hand/draw-four and pumps every Nazgûl (7 copies).",
+   "secondary": "Army support (Great Goblin, Foul-Hearted; Mauhúr; The Great Goblin; Widespread Brutality), evasion (Minas Morgul, Rogue's Passage, The Black Gate, Orcish Siegemaster) and Roaming Throne to double Sauron or Nazgûl triggers."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L39",
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L40",
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L41",
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L46"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Sauron makes the Army, turns its hits into Ring temptations and card draw, and is protected by a legendary-sacrifice ward.",
+   "honest_note": "Commander-native, with no compact win: Spellbook finds no combos, and the source rejected Oracle/Breach conversion (decisions L34). The deck wins by Army/Nazgûl combat and card flow. This is the only batch-4 deck without a source blueprint file; the closeout and verification are the evidence."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L34",
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L60"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "army-nazgul-combat",
+   "kind": "natural",
+   "description": "A growing Orc Army plus seven Nazgûl that each get a counter whenever the Ring tempts you.",
+   "cards": [
+    "Sauron, the Dark Lord",
+    "Nazgûl",
+    "Great Goblin, Foul-Hearted",
+    "Mauhúr, Uruk-hai Captain",
+    "Minas Morgul, Dark Fortress"
+   ],
+   "enablers": [
+    "Roaming Throne",
+    "Call of the Ring"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L40",
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L41"
+   ]
+  },
+  {
+   "id": "great-goblin-pings",
+   "kind": "natural",
+   "description": "The Great Goblin and Widespread Brutality turn counter events into damage.",
+   "cards": [
+    "The Great Goblin",
+    "Widespread Brutality"
+   ],
+   "enablers": [
+    "Sauron, the Dark Lord"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L43"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "opponent-spell-amass",
+   "cards": [
+    "Sauron, the Dark Lord"
+   ],
+   "online_condition": "Opponents cast spells.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Sauron, the Dark Lord",
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L39"
+   ]
+  },
+  {
+   "id": "ring-draw",
+   "cards": [
+    "Sauron, the Dark Lord",
+    "Call of the Ring",
+    "Nazgûl",
+    "Ringsight",
+    "Claim the Precious"
+   ],
+   "online_condition": "Army connects or the Ring tempts you another way.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Sauron, the Dark Lord",
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L40",
+    "cr:701.54a"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:nazgul",
+   "required": true,
+   "min_count": 3,
+   "role": "Wraiths that grow on each temptation (Nazgûl counts as one name with 7 copies).",
+   "cards": [
+    "Nazgûl",
+    "Witch-king of Angmar",
+    "Minas Morgul, Dark Fortress"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L41"
+   ]
+  },
+  {
+   "id": "pkg:army-support",
+   "required": true,
+   "min_count": 5,
+   "role": "Grow and arm the Army.",
+   "cards": [
+    "Great Goblin, Foul-Hearted",
+    "Mauhúr, Uruk-hai Captain",
+    "The Great Goblin",
+    "Saruman, the White Hand",
+    "March from the Black Gate",
+    "Orcish Siegemaster",
+    "The Ozolith"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L14",
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L42",
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L43"
+   ]
+  },
+  {
+   "id": "pkg:evasion",
+   "required": true,
+   "min_count": 4,
+   "role": "Army connection.",
+   "cards": [
+    "Minas Morgul, Dark Fortress",
+    "Rogue's Passage",
+    "The Black Gate",
+    "Orcish Siegemaster",
+    "Wonder"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L29",
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L33"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "ward-legendary",
+   "summary": "Sauron's ward cost is sacrificing a legendary artifact or creature.",
+   "cards": [
+    "Sauron, the Dark Lord"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Sauron, the Dark Lord",
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L38",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "amass-on-cast",
+   "summary": "Each opponent spell triggers separately; countering it doesn't remove the trigger.",
+   "cards": [
+    "Sauron, the Dark Lord"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L39"
+   ]
+  },
+  {
+   "id": "mauhur-per-event",
+   "summary": "Mauhúr adds one counter per event, not per counter.",
+   "cards": [
+    "Mauhúr, Uruk-hai Captain"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L42"
+   ]
+  },
+  {
+   "id": "great-goblin-per-event",
+   "summary": "The Great Goblin triggers once per counter event.",
+   "cards": [
+    "The Great Goblin"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L43"
+   ]
+  },
+  {
+   "id": "throne-avatar-wraith",
+   "summary": "Roaming Throne naming Avatar doubles Sauron's triggers; Wraith doubles each Nazgûl's.",
+   "cards": [
+    "Roaming Throne",
+    "Sauron, the Dark Lord",
+    "Nazgûl"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L46"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Roaming Throne",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Mystical Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Reanimate",
+   "Animate Dead",
+   "Victimize",
+   "Living Death",
+   "Summons of Saruman",
+   "Jeska's Will"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Mana Drain, Swan Song, Deadly Rollick, Feed the Swarm, Cyclonic Rift, Toxic Deluge, Blasphemous Act.",
+   "protection": "Ward, Fierce Guardianship, Deflecting Swat.",
+   "mana": "34 lands, Sol Ring, Mana Vault, Talismans."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L16",
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L54"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "no-compact-win",
+   "description": "No compact kill; fast combo tables outrace it.",
+   "mitigations": [
+    "Counterspells"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L34"
+   ]
+  },
+  {
+   "id": "quiet-opponents",
+   "description": "Opponents who cast few spells starve the amass engine.",
+   "mitigations": [
+    "Nazgûl and other Army sources"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Sauron, the Dark Lord"
+   ]
+  },
+  {
+   "id": "sweepers",
+   "description": "Sweepers reset the Army and Nazgûl.",
+   "mitigations": [
+    "The Ozolith",
+    "Reanimation"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "oracle:Sauron, the Dark Lord"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L40"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L59"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4: strong typal/Ring engine with premium staples, no compact combo. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Sauron_the_Dark_Lord_Approval_Ready_Verification_2026-10-15.md#L25",
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L34"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Sauron__the_Dark_Lord"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 79,
+     "2": 2024,
+     "3": 5123,
+     "4": 1955,
+     "5": 215
+    },
+    "decks_with_bracket": 9396,
+    "share_b4_plus": 0.231,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__sauron-the-dark-lord.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Sauron, the Dark Lord",
+   "why": "Amass on opponent spells; Ring temptations draw four.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Sauron, the Dark Lord"
+   ]
+  },
+  {
+   "card": "Nazgûl",
+   "why": "Seven Wraiths that grow on each temptation.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L41"
+   ]
+  },
+  {
+   "card": "Great Goblin, Foul-Hearted",
+   "why": "Amass, repeat amass and Army trample.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L14"
+   ]
+  },
+  {
+   "card": "Minas Morgul, Dark Fortress",
+   "why": "Shadow for the Army and Wraith synergy.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L18"
+   ]
+  },
+  {
+   "card": "Roaming Throne",
+   "why": "Doubles Sauron or the Nazgûl.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L15"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic Oracle/Breach/turbo conversion (decisions L34).",
+   "No Chandra's Ignition / All Will Be One drift (L32)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L34",
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L32"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Amass Orcs / Ring temptation / Wraiths (decisions L60)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L60"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 701.54a",
+   "note": "The Ring tempts you.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.54a"
+   ]
+  },
+  {
+   "rule": "CR 701.47a",
+   "note": "Amass.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.47a"
+   ]
+  },
+  {
+   "rule": "CR 702.21a",
+   "note": "Ward.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.21a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Army synergy",
+    "Orc synergy",
+    "artifacts",
+    "combat damage / attack triggers",
+    "discard",
+    "sacrifice"
+   ],
+   "hooked_cards": 35,
+   "role_counts": {
+    "counter": 5,
+    "draw": 11,
+    "protection": 1,
+    "ramp": 11,
+    "removal": 5,
+    "tutor": 5,
+    "wipe": 2
+   },
+   "lands": 34,
+   "edhrec_pages": [
+    "sauron-the-dark-lord"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Sauron_the_Dark_Lord_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Sauron_the_Dark_Lord_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Sauron_the_Dark_Lord_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Sauron_the_Dark_Lord_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}

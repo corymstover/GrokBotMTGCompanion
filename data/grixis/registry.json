@@ -5392,9 +5392,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "5",
+     "evidence": [
+      "companion:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 55
     },
     "resolved_ceiling": {
      "value": null,
@@ -5402,10 +5404,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -5501,9 +5503,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/saruman-the-white-hand.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 55
     },
     "resolved_ceiling": {
      "value": null,
@@ -5511,10 +5515,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -5612,9 +5616,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/sauron-lord-of-the-rings.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 55
     },
     "resolved_ceiling": {
      "value": null,
@@ -5622,10 +5628,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -5723,9 +5729,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/sauron-the-dark-lord.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 55
     },
     "resolved_ceiling": {
      "value": null,
@@ -5733,10 +5741,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,

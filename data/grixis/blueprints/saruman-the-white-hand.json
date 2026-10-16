@@ -1,0 +1,582 @@
+{
+ "schema_version": 2,
+ "deck_id": "Saruman__the_White_Hand",
+ "slug": "saruman-the-white-hand",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+ "commanders": {
+  "value": [
+   {
+    "name": "Saruman, the White Hand",
+    "oracle_id": "2bade11e-04e0-42a2-8861-9257c99a7c08",
+    "oracle_text": "Whenever you cast a noncreature spell, amass Orcs X, where X is that spell's mana value. (Put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)\nGoblins and Orcs you control have ward {2}.",
+    "oracle_sha256": "sha256:393ec5a85c8f3108faeb5d5196b6972ed36c08d0ea326367a0c9c2317b47a3be",
+    "type_line": "Legendary Creature — Avatar Wizard"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Saruman, the White Hand"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Spellslinger amass: each noncreature spell amasses Orcs equal to its mana value. Cost reducers, delve, alternate and free costs don't lower mana value, so cheap high-MV spells (Blasphemous Act, Dig Through Time, Blood for the Blood God!, Volcanic Salvo, Treasure Cruise, free spells) grow a huge Orc Army.",
+   "secondary": "Trigger multipliers (Harmonic Prodigy, Wizard's Staff, Veyran), Mauhúr and The Ozolith, and payoffs that turn the Army or its counters into damage (The Great Goblin, Soul's Fire, Chandra's Ignition, Widespread Brutality, Fall of Cair Andros)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L11",
+   "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L12",
+   "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L13",
+   "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L39"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Saruman is the Army engine and gives Goblins and Orcs ward {2}.",
+   "honest_note": "Commander-native identity, but the only Spellbook combo in the list is Fall of Cair Andros + Blasphemous Act, which doesn't need him. He's a four-mana engine with no compact win; the source rejected commander-independent All Will Be One loops (decisions L40). Expect a mid Bracket 4 value/burn deck."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L19",
+   "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L21",
+   "spellbook:1823-2484"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "cair-andros-act",
+   "kind": "combo",
+   "description": "Fall of Cair Andros + Blasphemous Act: excess damage amasses, which triggers more.",
+   "cards": [
+    "Fall of Cair Andros",
+    "Blasphemous Act"
+   ],
+   "enablers": [
+    "Saruman, the White Hand"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1823-2484"
+   ]
+  },
+  {
+   "id": "army-damage",
+   "kind": "natural",
+   "description": "A huge Orc Army attacks or is fired through Soul's Fire/Chandra's Ignition; The Great Goblin and All Will Be One ping per counter event.",
+   "cards": [
+    "Saruman, the White Hand",
+    "Soul's Fire",
+    "Chandra's Ignition",
+    "The Great Goblin",
+    "All Will Be One",
+    "Widespread Brutality"
+   ],
+   "enablers": [
+    "Mauhúr, Uruk-hai Captain",
+    "Harmonic Prodigy",
+    "Wizard's Staff",
+    "Veyran, Voice of Duality"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L41",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L42",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L43"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "mv-amass",
+   "cards": [
+    "Saruman, the White Hand",
+    "Blasphemous Act",
+    "Dig Through Time",
+    "Blood for the Blood God!",
+    "Deadly Rollick",
+    "Fierce Guardianship",
+    "Deflecting Swat",
+    "Volcanic Salvo",
+    "Treasure Cruise",
+    "Force of Will"
+   ],
+   "online_condition": "Saruman in play; noncreature spells cast (copies don't trigger).",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Saruman, the White Hand",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L23"
+   ]
+  },
+  {
+   "id": "trigger-and-counter-multipliers",
+   "cards": [
+    "Harmonic Prodigy",
+    "Wizard's Staff",
+    "Veyran, Voice of Duality",
+    "Mauhúr, Uruk-hai Captain",
+    "The Ozolith"
+   ],
+   "online_condition": "Saruman in play.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L39",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L40"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:high-mv-cheap",
+   "required": true,
+   "min_count": 7,
+   "role": "High printed mana value for a low real cost.",
+   "cards": [
+    "Blasphemous Act",
+    "Dig Through Time",
+    "Blood for the Blood God!",
+    "Deadly Rollick",
+    "Fierce Guardianship",
+    "Deflecting Swat",
+    "Volcanic Salvo",
+    "Treasure Cruise",
+    "Force of Will"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L27",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L28",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L29",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L31",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L32"
+   ]
+  },
+  {
+   "id": "pkg:army-payoffs",
+   "required": true,
+   "min_count": 5,
+   "role": "Turn the Army or counter events into damage.",
+   "cards": [
+    "The Great Goblin",
+    "All Will Be One",
+    "Soul's Fire",
+    "Chandra's Ignition",
+    "Widespread Brutality",
+    "Fall of Cair Andros"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L41",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L42",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L43"
+   ]
+  },
+  {
+   "id": "pkg:mdfc-spells",
+   "required": false,
+   "min_count": 3,
+   "role": "Land-capable slots that are also noncreature spells.",
+   "cards": [
+    "Kazuul's Fury // Kazuul's Cliffs",
+    "Sea Gate Restoration // Sea Gate, Reborn",
+    "Shatterskull Smashing // Shatterskull, the Hammer Pass",
+    "Sink into Stupor // Soporific Springs"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L50",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L51",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L52",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L53"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "alt-cost-keeps-mv",
+   "summary": "Alternative costs, delve and cost reductions don't change mana value, so a pitched Force of Will still amasses 5.",
+   "cards": [
+    "Saruman, the White Hand",
+    "Force of Will",
+    "Dig Through Time",
+    "Treasure Cruise"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Saruman, the White Hand",
+    "cr:118.9c",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L33"
+   ]
+  },
+  {
+   "id": "x-on-stack",
+   "summary": "On the stack, an X spell's mana value includes the chosen X.",
+   "cards": [
+    "Saruman, the White Hand",
+    "Shatterskull Smashing // Shatterskull, the Hammer Pass"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "cr:202.3e",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L35"
+   ]
+  },
+  {
+   "id": "fling-rejected",
+   "summary": "Sacrificing the Army as an additional cost (Fling) happens before Saruman's trigger resolves; Soul's Fire keeps the Army.",
+   "cards": [
+    "Soul's Fire",
+    "Saruman, the White Hand"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Saruman_the_White_Hand_Candidate_Decisions_2026-10-15.md#L30"
+   ]
+  },
+  {
+   "id": "copies-not-cast",
+   "summary": "Copied spells aren't cast, so they don't trigger Saruman (why Storm of Saruman was cut).",
+   "cards": [
+    "Saruman, the White Hand"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Saruman_the_White_Hand_Candidate_Decisions_2026-10-15.md#L33"
+   ]
+  },
+  {
+   "id": "mdfc-land-face",
+   "summary": "Playing an MDFC's land face doesn't trigger Saruman; casting the spell face does.",
+   "cards": [
+    "Saruman, the White Hand",
+    "Kazuul's Fury // Kazuul's Cliffs"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L55"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Blasphemous Act",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Mystical Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:1823-2484"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Mizzix's Mastery",
+   "Jeska's Will",
+   "Summons of Saruman"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Mana Drain, Counterspell, Swan Song, Deadly Rollick, Cyclonic Rift, Toxic Deluge, Feed the Swarm.",
+   "protection": "Fierce Guardianship, Deflecting Swat; ward {2} on Orcs and Goblins.",
+   "mana": "35 land-capable slots including 4 MDFCs."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L46"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "no-compact-win",
+   "description": "No compact win; the deck needs several spells after Saruman lands.",
+   "mitigations": [
+    "Card draw and cost reduction"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L21"
+   ]
+  },
+  {
+   "id": "army-removal",
+   "description": "One removal spell on the Army resets most of the board.",
+   "mitigations": [
+    "Ward {2}",
+    "The Ozolith"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Saruman, the White Hand"
+   ]
+  },
+  {
+   "id": "saruman-removed",
+   "description": "Without Saruman the high-MV discount plan is just card quality.",
+   "mitigations": [
+    "Fierce Guardianship",
+    "Deflecting Swat"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "oracle:Saruman, the White Hand"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L21"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L19"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4: explosive Army turns and premium staples, no compact win. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L21"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Saruman__the_White_Hand"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 42,
+     "2": 1022,
+     "3": 1252,
+     "4": 305,
+     "5": 22
+    },
+    "decks_with_bracket": 2643,
+    "share_b4_plus": 0.124,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__saruman-the-white-hand.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Saruman, the White Hand",
+   "why": "Amass by mana value on every noncreature spell.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Saruman, the White Hand"
+   ]
+  },
+  {
+   "card": "Blasphemous Act",
+   "why": "MV 9 for one mana.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L27"
+   ]
+  },
+  {
+   "card": "Volcanic Salvo",
+   "why": "MV 12 with a power-based reduction.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L31"
+   ]
+  },
+  {
+   "card": "Soul's Fire",
+   "why": "Fires the grown Army without sacrificing it.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L42"
+   ]
+  },
+  {
+   "card": "Mauhúr, Uruk-hai Captain",
+   "why": "An extra counter per placement event.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L40"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No commander-independent All Will Be One/Red Terror loops (decisions L40).",
+   "No extra creatures that dilute noncreature density (decisions L37).",
+   "No mana-spent payoffs like Uncover the Moon-Letters (L35)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Saruman_the_White_Hand_Candidate_Decisions_2026-10-15.md#L40",
+   "source_archive:refinement/decisions/Saruman_the_White_Hand_Candidate_Decisions_2026-10-15.md#L37",
+   "source_archive:refinement/decisions/Saruman_the_White_Hand_Candidate_Decisions_2026-10-15.md#L35"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Spellslinger / amass / Orc Army (blueprint L59)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L59"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 701.47a",
+   "note": "Amass.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.47a"
+   ]
+  },
+  {
+   "rule": "CR 118.9c",
+   "note": "Alternative costs don't change mana cost.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:118.9c"
+   ]
+  },
+  {
+   "rule": "CR 202.3e",
+   "note": "X in mana value on the stack.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:202.3e"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "+1/+1 counters",
+    "Army synergy",
+    "Goblin synergy",
+    "Orc synergy",
+    "instants and sorceries",
+    "tokens"
+   ],
+   "hooked_cards": 58,
+   "role_counts": {
+    "counter": 6,
+    "draw": 16,
+    "protection": 2,
+    "ramp": 14,
+    "removal": 8,
+    "tutor": 4,
+    "wipe": 2
+   },
+   "lands": 31,
+   "edhrec_pages": [
+    "saruman-the-white-hand"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/Saruman_the_White_Hand_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Saruman_the_White_Hand_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Saruman_the_White_Hand_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Saruman_the_White_Hand_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Saruman_the_White_Hand_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}

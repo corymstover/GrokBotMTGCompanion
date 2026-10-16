@@ -1,0 +1,624 @@
+{
+ "schema_version": 2,
+ "deck_id": "Sauron__Lord_of_the_Rings",
+ "slug": "sauron-lord-of-the-rings",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+ "commanders": {
+  "value": [
+   {
+    "name": "Sauron, Lord of the Rings",
+    "oracle_id": "69c674c7-48a5-49c8-b0be-3f2b5c6a548c",
+    "oracle_text": "When you cast this spell, amass Orcs 5, mill five cards, then return a creature card from your graveyard to the battlefield.\nTrample\nWhenever a commander an opponent controls dies, the Ring tempts you.",
+    "oracle_sha256": "sha256:7c318c08a51178df942c839c683609d7e1ff48d6e5ae3509623eeaa32d92ed3f",
+    "type_line": "Legendary Creature — Avatar Horror"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Sauron, Lord of the Rings"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Cast-trigger reanimator: put premium creatures in the graveyard early (Entomb, Buried Alive, loots), accelerate the eight-mana commander, and cast Sauron to amass 5, mill 5 and return the best creature, even if Sauron is countered.",
+   "secondary": "Cheap secondary reanimation when Sauron isn't available, Anger/Wonder for haste and flying from the graveyard, and the Nazgûl/Ring/Orc package for pressure."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L25",
+   "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L26",
+   "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L27",
+   "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L28"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Sauron's cast trigger is the deck's best reanimation spell, and Command Beacon recasts it without tax.",
+   "honest_note": "Commander-native but expensive: eight mana, and Spellbook finds no combos. The source calls the engine value/reanimation rather than a compact win (blueprint L21). The deck can win without him through cheap reanimation of Archon, Valgavoth or Jin-Gitaxias. Expect mid Bracket 4."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L21",
+   "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L14"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "reanimated-threats",
+   "kind": "natural",
+   "description": "Reanimated Archon of Cruelty, Valgavoth, Jin-Gitaxias or Sheoldred plus the Orc Army, with haste/flying from Anger and Wonder.",
+   "cards": [
+    "Sauron, Lord of the Rings",
+    "Archon of Cruelty",
+    "Valgavoth, Terror Eater",
+    "Jin-Gitaxias, Core Augur",
+    "Sheoldred, Whispering One",
+    "Anger",
+    "Wonder"
+   ],
+   "enablers": [
+    "Reanimate",
+    "Animate Dead",
+    "Necromancy",
+    "Dance of the Dead",
+    "Victimize"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L28"
+   ]
+  },
+  {
+   "id": "ring-orcs",
+   "kind": "natural",
+   "description": "Nazgûl, Call of the Ring and Army growth as pressure.",
+   "cards": [
+    "Nazgûl",
+    "Call of the Ring",
+    "The Black Gate"
+   ],
+   "enablers": [
+    "Sauron, Lord of the Rings"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L15"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "cast-trigger",
+   "cards": [
+    "Sauron, Lord of the Rings",
+    "Command Beacon"
+   ],
+   "online_condition": "Eight mana (less tax with Command Beacon); the trigger survives a counter.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Sauron, Lord of the Rings",
+    "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L43",
+    "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L44"
+   ]
+  },
+  {
+   "id": "setup-and-reanimate",
+   "cards": [
+    "Entomb",
+    "Buried Alive",
+    "Faithless Looting",
+    "Frantic Search",
+    "Forbidden Alchemy",
+    "Thrill of Possibility",
+    "Reanimate",
+    "Animate Dead",
+    "Necromancy",
+    "Dance of the Dead",
+    "Victimize"
+   ],
+   "online_condition": "A target in the graveyard.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L12",
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L14"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:targets",
+   "required": true,
+   "min_count": 7,
+   "role": "High-impact ETB/static creatures.",
+   "cards": [
+    "Archon of Cruelty",
+    "Valgavoth, Terror Eater",
+    "Jin-Gitaxias, Core Augur",
+    "Sheoldred, Whispering One",
+    "Ancient Brass Dragon",
+    "Cavern-Hoard Dragon",
+    "The Balrog of Moria",
+    "Metamorphosis Fanatic",
+    "Troll of Khazad-dûm",
+    "Voracious Fell Beast"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L13"
+   ]
+  },
+  {
+   "id": "pkg:reanimation",
+   "required": true,
+   "min_count": 8,
+   "role": "Secondary reanimation so the deck works without Sauron.",
+   "cards": [
+    "Reanimate",
+    "Animate Dead",
+    "Necromancy",
+    "Dance of the Dead",
+    "Victimize",
+    "Living Death",
+    "Persist",
+    "Grave Researcher // Reanimate",
+    "Too Greedily, Too Deep",
+    "Ripples of Undeath",
+    "Sneak Attack"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L14",
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L33"
+   ]
+  },
+  {
+   "id": "pkg:fast-mana",
+   "required": true,
+   "min_count": 8,
+   "role": "Solve the eight-mana bottleneck.",
+   "cards": [
+    "Sol Ring",
+    "Mana Vault",
+    "Grim Monolith",
+    "Ancient Tomb",
+    "Dark Ritual",
+    "Arcane Signet",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Relic of Sauron",
+    "Phyrexian Tower",
+    "Command Beacon"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L32"
+   ]
+  },
+  {
+   "id": "pkg:ring-orc",
+   "required": false,
+   "min_count": 3,
+   "role": "LOTR/Ring/Orc identity.",
+   "cards": [
+    "Nazgûl",
+    "Call of the Ring",
+    "The Mouth of Sauron",
+    "Sauron, the Dark Lord",
+    "Saruman, the White Hand",
+    "Barad-dûr",
+    "Mount Doom"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L15",
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L37"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "cast-not-enter",
+   "summary": "The trigger is on cast; countering Sauron doesn't stop it.",
+   "cards": [
+    "Sauron, Lord of the Rings"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Sauron, Lord of the Rings",
+    "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L43"
+   ]
+  },
+  {
+   "id": "mill-then-return",
+   "summary": "Amass 5, mill five, then return: the five milled cards can be the target.",
+   "cards": [
+    "Sauron, Lord of the Rings"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L44"
+   ]
+  },
+  {
+   "id": "beacon-tax",
+   "summary": "Command Beacon puts Sauron in hand, so the next cast avoids commander tax and still triggers.",
+   "cards": [
+    "Command Beacon",
+    "Sauron, Lord of the Rings"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L45",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "fanatic-chain",
+   "summary": "A Metamorphosis Fanatic returned by Sauron triggers its own reanimation for a second creature.",
+   "cards": [
+    "Metamorphosis Fanatic",
+    "Sauron, Lord of the Rings"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L46"
+   ]
+  },
+  {
+   "id": "nazgul-nine",
+   "summary": "Nazgûl allows up to nine copies; four is legal (registry exception row is official_card_rule, NOT_REQUIRED).",
+   "cards": [
+    "Nazgûl"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L49"
+   ]
+  },
+  {
+   "id": "anger-wonder-types",
+   "summary": "Anger needs a Mountain and Wonder an Island while in the graveyard; the mana base keeps both types.",
+   "cards": [
+    "Anger",
+    "Wonder"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L50"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Archon of Cruelty",
+   "via": [
+    "Entomb",
+    "Buried Alive",
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L12"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Reanimate",
+   "Animate Dead",
+   "Necromancy",
+   "Dance of the Dead",
+   "Victimize",
+   "Living Death",
+   "Persist",
+   "Grave Researcher // Reanimate",
+   "Too Greedily, Too Deep",
+   "Ripples of Undeath",
+   "Sneak Attack",
+   "Sauron, Lord of the Rings"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L14"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Mana Drain, Swan Song, Deadly Rollick, Feed the Swarm, Cyclonic Rift, Toxic Deluge, Blasphemous Act.",
+   "protection": "Deflecting Swat, Lightning Greaves, Force of Will.",
+   "mana": "32 lands with Mountain and Island types for Anger/Wonder; fast mana."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L35",
+   "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L36"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "eight-drop",
+   "description": "Sauron costs eight; slow without fast mana.",
+   "mitigations": [
+    "Mana Vault",
+    "Grim Monolith",
+    "Command Beacon"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L32"
+   ]
+  },
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate stops the trigger's best mode and the backup reanimation.",
+   "mitigations": [
+    "Sneak Attack",
+    "Hard-casting"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md"
+   ]
+  },
+  {
+   "id": "living-death-symmetry",
+   "description": "Living Death is symmetric.",
+   "mitigations": [
+    "Set up the graveyard first"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L51"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L14"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L19"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4: strong reanimator with fast mana and free protection, but no compact combo and an eight-mana commander. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L21"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Sauron__Lord_of_the_Rings"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 15,
+     "2": 469,
+     "3": 588,
+     "4": 107,
+     "5": 3
+    },
+    "decks_with_bracket": 1182,
+    "share_b4_plus": 0.093,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__sauron-lord-of-the-rings.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Sauron, Lord of the Rings",
+   "why": "Cast trigger: amass, mill, reanimate.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Sauron, Lord of the Rings"
+   ]
+  },
+  {
+   "card": "Command Beacon",
+   "why": "Avoids commander tax on an eight-drop.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L45"
+   ]
+  },
+  {
+   "card": "Metamorphosis Fanatic",
+   "why": "Second reanimation off the trigger.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L46"
+   ]
+  },
+  {
+   "card": "Entomb",
+   "why": "Sets up a target for one mana.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md#L12"
+   ]
+  },
+  {
+   "card": "Anger",
+   "why": "Haste from the graveyard.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L50"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic Oracle/Breach conversion (decisions L39).",
+   "No Heartless Summoning (L38) or slow recursion engines (L36)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L39",
+   "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L38"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Reanimator / graveyard setup / amass Orcs (decisions L66)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L66"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 601.2i",
+   "note": "Cast triggers.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:601.2i"
+   ]
+  },
+  {
+   "rule": "CR 903.8",
+   "note": "Commander tax.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:903.8"
+   ]
+  },
+  {
+   "rule": "CR 701.54a",
+   "note": "The Ring tempts you.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.54a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Orc synergy",
+    "graveyard as a resource"
+   ],
+   "hooked_cards": 23,
+   "role_counts": {
+    "counter": 3,
+    "draw": 14,
+    "protection": 2,
+    "ramp": 13,
+    "removal": 5,
+    "tutor": 4,
+    "wipe": 2
+   },
+   "lands": 32,
+   "edhrec_pages": [
+    "sauron-lord-of-the-rings"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Sauron_Lord_of_the_Rings_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Sauron_Lord_of_the_Rings_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Sauron_Lord_of_the_Rings_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Sauron_Lord_of_the_Rings_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}
