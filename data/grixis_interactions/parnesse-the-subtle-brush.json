@@ -1,0 +1,461 @@
+{
+ "schema": 1,
+ "deck_id": "Parnesse__the_Subtle_Brush",
+ "slug": "parnesse-the-subtle-brush",
+ "commanders": [
+  "Parnesse, the Subtle Brush"
+ ],
+ "deck_sha256": "8c32a449aa6ee96ff110e1813f40a6797b0dea722a57acdd91e0ac93e78fd93b",
+ "list_source": "exports/grixis-archidekt/parnesse-the-subtle-brush.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 54,
+ "batch": "E",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+   "note": "Rules attestation (12 items, all PASS) re-verified"
+  },
+  {
+   "path": "refinement/verification/Parnesse_the_Subtle_Brush_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification"
+  }
+ ],
+ "summary": "Parnesse taxes anything an opponent aims at you 4 life, and lets an opponent share your spell copies, which is always optional. The list is a copy-spell storm deck: Reiterate, Reverberate, Increasing Vengeance and Return the Favor loop with Prismari, Goggles, Alania, Thousand-Year Storm or Narset's Reversal, and Ral or Professor Onyx turns the unlimited magecraft into a win. Mana comes from Reiterate + Mana Geyser or Jeska's Will, and Storm-Kiln Artist with Bonus Round. All 25 Spellbook lines and all 12 attestation items are checked against the canonical list.\n\nRules surprises: Mizzix's Mastery's 'cast a copy of the card' isn't 'copying a spell'; Harmonic Prodigy also doubles Storm-Kiln (a Shaman); Bonus Round copies opponents' responses too.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "parnesse-01",
+   "category": "commander",
+   "title": "What counts as 'you copy a spell': stack copies yes, cast-a-copy-of-a-card no",
+   "cards": [
+    "Parnesse, the Subtle Brush",
+    "Mizzix's Mastery",
+    "Reiterate",
+    "Narset's Reversal",
+    "Prismari, the Inspiration",
+    "Thunderclap Drake"
+   ],
+   "ruling": "Parnesse triggers when you put a copy of a spell onto the stack. Reiterate, Narset's Reversal, Increasing Vengeance, Reverberate, Return the Favor, storm (Prismari), Pyromancer's Goggles, Alania, Bonus Round, Thunderclap Drake, Twinning Staff and Ral's −2 all do that. Mizzix's Mastery doesn't. It copies a card in exile and lets you cast that copy, which is casting, not copying a spell. That's why the source cut Arcane Bombardment. Cast copies still set off magecraft.",
+   "short": "Spell copies on the stack trigger Parnesse; Mizzix's Mastery-style 'copy the card, cast the copy' doesn't.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.40a"
+   ],
+   "oracle": [
+    {
+     "card": "Parnesse, the Subtle Brush",
+     "quote": "Whenever you copy a spell, up to one target opponent may also copy that spell. They may choose new targets for that copy."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Veyran, Voice of Duality",
+     "quote": "Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+     "item": "Parnesse spell-copy boundary"
+    },
+    {
+     "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+     "item": "Arcane Bombardment exclusion"
+    },
+    {
+     "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+     "item": "Mizzix's Mastery classification"
+    }
+   ]
+  },
+  {
+   "id": "parnesse-02",
+   "category": "commander",
+   "title": "Parnesse's protection is a ward-like trigger worth 4 life; her gift is optional",
+   "cards": [
+    "Parnesse, the Subtle Brush"
+   ],
+   "ruling": "Parnesse's first ability triggers when you or your permanents become the target of an opponent's spell or ability. It counters that spell or ability unless they pay 4 life. It's a triggered ability like ward, so it uses the stack and can be Stifled. It also covers you as a player, not just your permanents. Her second ability targets \"up to one\" opponent, so you can always choose no one. Every extra Parnesse trigger from Wizard's Staff, Harmonic Prodigy or Veyran is also optional to aim.",
+   "short": "Targeting you or your stuff costs opponents 4 life; giving opponents copies is always optional.",
+   "status": "verified",
+   "cr": [
+    "702.21a",
+    "115.1",
+    "603.3d"
+   ],
+   "oracle": [
+    {
+     "card": "Parnesse, the Subtle Brush",
+     "quote": "Whenever you or a permanent you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless that player pays 4 life."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+     "item": "Reiterate + Mana Geyser"
+    }
+   ]
+  },
+  {
+   "id": "parnesse-03",
+   "category": "trigger-order",
+   "title": "Trigger doublers: Wizard's Staff, Harmonic Prodigy, Veyran double magecraft and Treasures",
+   "cards": [
+    "Parnesse, the Subtle Brush",
+    "Wizard's Staff",
+    "Harmonic Prodigy",
+    "Veyran, Voice of Duality",
+    "Storm-Kiln Artist",
+    "Ral, Storm Conduit",
+    "Professor Onyx"
+   ],
+   "ruling": "Parnesse is a Vampire Wizard, so Wizard's Staff costs {1} to equip and Harmonic Prodigy doubles her triggers. The real payoff is elsewhere:\n- Prodigy also doubles Storm-Kiln Artist (a Dwarf Shaman) and the other Wizards (Veyran, Alania, Dualcaster).\n- Veyran makes every cast-or-copy trigger fire again, including Ral's ping, Professor Onyx's drain and Storm-Kiln's Treasure.\n\nThese stack by adding, and each copy from a single effect triggers magecraft separately.",
+   "short": "Prodigy hits Wizards + Shamans (Storm-Kiln); Veyran hits every cast/copy trigger (Ral, Onyx).",
+   "status": "verified",
+   "cr": [
+    "603.2d"
+   ],
+   "oracle": [
+    {
+     "card": "Harmonic Prodigy",
+     "quote": "If a triggered ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time."
+    },
+    {
+     "card": "Veyran, Voice of Duality",
+     "quote": "If you casting or copying an instant or sorcery spell causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Veyran, Voice of Duality",
+     "quote": "If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+     "item": "Wizard's Staff"
+    },
+    {
+     "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+     "item": "Harmonic Prodigy"
+    },
+    {
+     "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+     "item": "Veyran, Voice of Duality"
+    }
+   ]
+  },
+  {
+   "id": "parnesse-04",
+   "category": "combo",
+   "title": "Copy-the-copier loops: Reiterate / Reverberate / Increasing Vengeance / Return the Favor with storm, Goggles, Alania, Thousand-Year Storm or Narset's Reversal",
+   "cards": [
+    "Parnesse, the Subtle Brush",
+    "Reiterate",
+    "Reverberate",
+    "Increasing Vengeance",
+    "Return the Favor",
+    "Narset's Reversal",
+    "Prismari, the Inspiration",
+    "Pyromancer's Goggles",
+    "Alania, Divergent Storm",
+    "Thousand-Year Storm",
+    "Ral, Storm Conduit",
+    "Professor Onyx"
+   ],
+   "ruling": "The copy spell targets some spell. A second copy source (storm from Prismari, Goggles' mana, Alania's first-sorcery trigger, Thousand-Year Storm, or Narset's Reversal) then copies the copy spell, and that copy targets the original copy spell. Each resolution copies it again, giving unlimited copies and magecraft triggers. Ral's 1 damage or Onyx's drain per copy finishes the game. Parnesse triggers on every copy, but her gift is optional, so the loop is unaffected.",
+   "short": "20 Spellbook loops all present; magecraft finishers Ral/Onyx win.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "707.10",
+    "707.10c"
+   ],
+   "oracle": [
+    {
+     "card": "Ral, Storm Conduit",
+     "quote": "Whenever you cast or copy an instant or sorcery spell, Ral deals 1 damage to target opponent or planeswalker."
+    },
+    {
+     "card": "Professor Onyx",
+     "quote": "Magecraft — Whenever you cast or copy an instant or sorcery spell, each opponent loses 2 life and you gain 2 life."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Narset's Reversal",
+     "quote": "If a copy of a spell is returned to its owner’s hand, it’s moved there, then it will cease to exist as a state-based action."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "3368-7683",
+     "quote": "Reiterate's storm ability triggers, creating at least one copy of Reiterate targeting the original Reiterate."
+    },
+    {
+     "id": "3368-6790",
+     "quote": "Pyromancer's Goggles triggers, copying Reiterate, with the copy targeting the original Reiterate."
+    },
+    {
+     "id": "11-3368",
+     "quote": "Cast Narset's Reversal by paying {U}{U}, copying Reiterate targeting the spell cast in step 1 and returning the original Reiterate to your hand."
+    },
+    {
+     "id": "3368-5959",
+     "quote": "Alania triggers, causing an opponent to draw a card and you to copy Reiterate, with the copy targeting the original Reiterate."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+     "item": "Prismari, the Inspiration / storm"
+    }
+   ]
+  },
+  {
+   "id": "parnesse-05",
+   "category": "combo",
+   "title": "Reiterate with buyback + Mana Geyser or Jeska's Will: infinite red mana",
+   "cards": [
+    "Parnesse, the Subtle Brush",
+    "Reiterate",
+    "Mana Geyser",
+    "Jeska's Will"
+   ],
+   "ruling": "Cast Mana Geyser, or Jeska's Will on an opponent with a big hand. Holding priority, cast Reiterate with buyback for {4}{R}{R} to copy it. If the copy makes six or more {R}, you can repeat for unlimited copies and magecraft. Seven or more nets mana each loop. Jeska's Will copies keep the modes chosen for the original, both modes if you controlled a commander when you cast it, and its target opponent's hand size sets the mana.",
+   "status": "verified",
+   "cr": [
+    "707.10",
+    "702.27a"
+   ],
+   "oracle": [
+    {
+     "card": "Mana Geyser",
+     "quote": "Add {R} for each tapped land your opponents control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Reiterate",
+     "quote": "If the spell that's copied is modal (that is, it says \"Choose one —\" or the like), the copy will have the same mode. A different mode can't be chosen."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "2091-3368",
+     "quote": "Holding priority, cast Reiterate with buyback by paying {4}{R}{R}, creating a copy of Mana Geyser and returning Reiterate to your hand."
+    },
+    {
+     "id": "1878-3368",
+     "quote": "Holding priority, cast Reiterate with buyback by paying {4}{R}{R}, creating a copy of Jeska's Will and returning Reiterate to your hand."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+     "item": "Reiterate + Mana Geyser"
+    }
+   ]
+  },
+  {
+   "id": "parnesse-06",
+   "category": "combo",
+   "title": "Storm-Kiln Artist Treasure engines: Bonus Round or Thousand-Year Storm + Narset's Reversal",
+   "cards": [
+    "Parnesse, the Subtle Brush",
+    "Storm-Kiln Artist",
+    "Bonus Round",
+    "Thousand-Year Storm",
+    "Narset's Reversal"
+   ],
+   "ruling": "Storm-Kiln makes a Treasure each time you cast or copy an instant or sorcery. With Bonus Round copying each spell, Narset's Reversal copies the spell and bounces it to recast. That nets Treasures each loop, so you get unlimited Treasures and magecraft. Harmonic Prodigy doubles Storm-Kiln's Treasures.",
+   "status": "verified",
+   "cr": [
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Bonus Round",
+     "quote": "Until end of turn, whenever a player casts an instant or sorcery spell, that player copies it and may choose new targets for the copy."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Storm-Kiln Artist",
+     "quote": "If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "11-2492-5195",
+     "quote": "Resolve the Bonus Round trigger, copying the instant or sorcery."
+    },
+    {
+     "id": "11-3584-5195",
+     "quote": "Resolve the Storm-Kiln Artist trigger, creating a Treasure artifact token."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "parnesse-07",
+   "category": "dependency",
+   "title": "Bonus Round is symmetric: opponents' responses get copied too",
+   "cards": [
+    "Parnesse, the Subtle Brush",
+    "Bonus Round"
+   ],
+   "ruling": "Bonus Round works for every player until end of turn, not just you. On your combo turn, an opponent's instant cast in response gets copied as well, so a counterspell or removal spell comes in twice. Copies of their spells that target you or your permanents still run into Parnesse's 4-life tax. Cast Bonus Round when the table is tapped out, or with protection backup.",
+   "short": "Bonus Round copies opponents' instants too.",
+   "status": "flag",
+   "flag": {
+    "kind": "anti-synergy",
+    "note": "Bonus Round copies opponents' instant or sorcery responses during your combo turn (a doubled counterspell or removal). It's a sequencing risk, not a list error."
+   },
+   "cr": [
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Bonus Round",
+     "quote": "Until end of turn, whenever a player casts an instant or sorcery spell, that player copies it and may choose new targets for the copy."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "parnesse-08",
+   "category": "replacement",
+   "title": "Twinning Staff, Tempt with Mayhem, demonstrate (Replication Technique), Sunken Palace",
+   "cards": [
+    "Parnesse, the Subtle Brush",
+    "Twinning Staff",
+    "Tempt with Mayhem",
+    "Replication Technique",
+    "Dualcaster Mage",
+    "Sunken Palace"
+   ],
+   "ruling": "Each of these interacts with Parnesse differently:\n- **Twinning Staff:** each copy event makes one more copy, and that extra copy is another Parnesse trigger. A Mizzix's Mastery card copy gets no extra copy.\n- **Tempt with Mayhem:** you make at least one copy, plus one for each opponent who copies. Only your copies trigger Parnesse.\n- **Demonstrate:** your Replication Technique copy triggers Parnesse; the chosen opponent's copy doesn't. With Dualcaster Mage, Technique gives unlimited Mage tokens (Spellbook 147-1883).\n- **Sunken Palace:** its mana copies the spell or ability it pays for. Parnesse triggers only when that's a spell.",
+   "status": "verified",
+   "cr": [
+    "614.1a",
+    "702.144a",
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Twinning Staff",
+     "quote": "If you would copy a spell one or more times, instead copy it that many times plus an additional time. You may choose new targets for the additional copy."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Twinning Staff",
+     "quote": "If an effect copies a card rather than a spell (such as that of God-Eternal Kefnet), this doesn't cause an additional copy to be created."
+    },
+    {
+     "card": "Replication Technique",
+     "quote": "If you cast the spell and choose not to copy it, no opponent will get to copy it either."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "147-1883",
+     "quote": "When Dualcaster Mage enters the battlefield, it triggers, copying Replication Technique, targeting Dualcaster Mage."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+     "item": "Twinning Staff"
+    },
+    {
+     "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+     "item": "Tempt with Mayhem"
+    },
+    {
+     "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+     "item": "Replication Technique / demonstrate"
+    },
+    {
+     "path": "refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json",
+     "item": "Sunken Palace"
+    }
+   ]
+  },
+  {
+   "id": "parnesse-09",
+   "category": "combo",
+   "title": "Primal Wellspring + Frantic Search + Reiterate / Narset's Reversal",
+   "cards": [
+    "Parnesse, the Subtle Brush",
+    "Primal Amulet // Primal Wellspring",
+    "Frantic Search",
+    "Reiterate",
+    "Narset's Reversal"
+   ],
+   "ruling": "Wellspring mana spent on Frantic Search copies it. The copy untaps Wellspring and two other lands, which pays for Frantic Search again. Reiterate or Narset's Reversal re-buys the original to keep looting through the deck. Each copy is a Parnesse trigger and a magecraft trigger.",
+   "status": "verified",
+   "cr": [
+    "707.10"
+   ],
+   "oracle": [],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1484-2196-3368",
+     "quote": "Primal Wellspring triggers, copying Frantic Search."
+    },
+    {
+     "id": "11-1484-2196",
+     "quote": "Resolve the copy of Frantic Search, looting twice and untapping Primal Wellspring and the two other lands."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "parnesse-10",
+   "category": "trigger-order",
+   "title": "Do opponents' retargeted Parnesse copies hit her own 4-life tax?",
+   "cards": [
+    "Parnesse, the Subtle Brush"
+   ],
+   "ruling": "When you give an opponent a Parnesse copy, they may choose new targets for it. If they aim it at you or your permanents, the copy goes on the stack with those targets, and it's a spell that opponent controls. That suggests Parnesse's first ability triggers on it, the same way ward does on retargeted copies. No official ruling on Parnesse confirms this.",
+   "short": "Probably taxed 4 life by Parnesse's first ability; unconfirmed.",
+   "status": "uncertain",
+   "uncertainty": "No Parnesse ruling addresses copies created with new targets; derived from 707.10c only.",
+   "cr": [
+    "707.10c",
+    "702.21a"
+   ],
+   "oracle": [
+    {
+     "card": "Parnesse, the Subtle Brush",
+     "quote": "Whenever you or a permanent you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless that player pays 4 life."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "hypothesis"
+  }
+ ]
+}
