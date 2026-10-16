@@ -1,0 +1,166 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/optimizer_pass.schema.json",
+ "title": "Independent optimizer pass + reconciliation (v1 draft)",
+ "description": "Commander-first and performance passes must be independent first passes with different objective functions (not two weightings of one score); reconciled afterwards (Cory constraint 7). Enforced by grixis_authority.check_reconciliation().",
+ "$defs": {
+  "pass": {
+   "type": "object",
+   "properties": {
+    "pass_id": {
+     "type": "string"
+    },
+    "deck_id": {
+     "$ref": "common.schema.json#/$defs/deck_id"
+    },
+    "list_hash": {
+     "$ref": "common.schema.json#/$defs/list_hash"
+    },
+    "optimizer": {
+     "enum": [
+      "commander_first",
+      "performance"
+     ]
+    },
+    "objective_function": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "family": {
+       "enum": [
+        "blueprint_fidelity",
+        "measured_performance"
+       ]
+      },
+      "inputs": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       },
+       "minItems": 1
+      },
+      "formula_sha256": {
+       "$ref": "common.schema.json#/$defs/sha256"
+      }
+     },
+     "required": [
+      "id",
+      "family",
+      "inputs",
+      "formula_sha256"
+     ],
+     "additionalProperties": false
+    },
+    "informed_by": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "blind_to": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "recommendations": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "properties": {
+       "cut": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "add": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "evidence": {
+        "type": "array",
+        "items": {
+         "$ref": "common.schema.json#/$defs/evidence_ref"
+        }
+       }
+      },
+      "required": [
+       "cut",
+       "add",
+       "evidence"
+      ],
+      "additionalProperties": false
+     }
+    }
+   },
+   "required": [
+    "pass_id",
+    "deck_id",
+    "list_hash",
+    "optimizer",
+    "objective_function",
+    "informed_by",
+    "blind_to",
+    "recommendations"
+   ],
+   "additionalProperties": false
+  }
+ },
+ "type": "object",
+ "properties": {
+  "schema_version": {
+   "const": 1
+  },
+  "pass_a": {
+   "$ref": "#/$defs/pass"
+  },
+  "pass_b": {
+   "$ref": "#/$defs/pass"
+  },
+  "reconciliation": {
+   "type": "object",
+   "properties": {
+    "agreements": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "disagreements": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "deep_review": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "date": {
+     "$ref": "common.schema.json#/$defs/date"
+    }
+   },
+   "required": [
+    "agreements",
+    "disagreements",
+    "deep_review",
+    "date"
+   ],
+   "additionalProperties": false
+  }
+ },
+ "required": [
+  "schema_version",
+  "pass_a",
+  "pass_b",
+  "reconciliation"
+ ],
+ "additionalProperties": false
+}

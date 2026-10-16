@@ -2837,10 +2837,10 @@ schema: 2
 
 ### Cormela, Glamour Thief
 
-[Card entry](../cards/C/cor.md#cormela-glamour-thief) · **7 pages** (decks 5 · edh guides 2)
+[Card entry](../cards/C/cor.md#cormela-glamour-thief) · **6 pages** (decks 5 · edh guides 1)
 
 - **Decks (5):** [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md) · [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Cormela, Glamour Thief (Grixis)](../grixis/decks/cormela-glamour-thief.md) · [Parnesse, the Subtle Brush (Grixis)](../grixis/decks/parnesse-the-subtle-brush.md) · [Zevlor, Elturel Exile (Grixis)](../grixis/decks/zevlor-elturel-exile.md)
-- **EDH guides (2):** [EDH Packages → Graveyard: Recursion to hand](../EDH%20Packages.md#graveyard-recursion-to-hand) · [Grixis Packages → Ramp](../grixis/Grixis%20Packages.md#ramp)
+- **EDH guides (1):** [EDH Packages → Graveyard: Recursion to hand](../EDH%20Packages.md#graveyard-recursion-to-hand)
 
 ### Cornered by Black Mages
 

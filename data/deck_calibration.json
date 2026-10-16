@@ -2531,19 +2531,19 @@
     ]
    ],
    "lands": 33,
-   "avg_mv": 3.26,
+   "avg_mv": 3.34,
    "roles": {
     "ramp": 18,
     "draw": 25,
     "counter": 2,
-    "removal": 5,
+    "removal": 4,
     "wipe": 1,
     "protection": 1,
     "tutor": 4
    },
    "target": null,
    "edhrec": null,
-   "one_card_away": "108"
+   "one_card_away": "106"
   },
   {
    "path": "grixis/decks/cormela-glamour-thief.md",

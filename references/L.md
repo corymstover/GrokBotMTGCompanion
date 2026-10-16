@@ -1658,8 +1658,9 @@ schema: 2
 
 ### Lutri, the Spellchaser
 
-[Card entry](../cards/L/lu.md#lutri-the-spellchaser) · **1 pages** (card data 1)
+[Card entry](../cards/L/lu.md#lutri-the-spellchaser) · **2 pages** (decks 1 · card data 1)
 
+- **Decks (1):** [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md)
 - **Card data (1):** [Format Legality Matrix → brawl](../Format%20Legality%20Matrix.md#brawl) (+1 more)
 
 ### Luxior, Ignited

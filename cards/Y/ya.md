@@ -781,7 +781,7 @@ schema: 2
   > *He craves only one commodity.*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/Y.md#yawgmoths-bargain)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/Y.md#yawgmoths-bargain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/147/yawgmoths-bargain) · oracle_id `f7f76f39-a0de-4bda-86b6-0f291892fcec` · printing: VMA #147 (2014-06-16) · [rulings](https://api.scryfall.com/cards/eef31b59-45bb-4208-8957-1564902c8507/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawgmoth's Day Planner

@@ -1,0 +1,186 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/certificate.schema.json",
+ "title": "Zero-Improvement / finalization certificate (v1 draft)",
+ "type": "object",
+ "properties": {
+  "schema_version": {
+   "const": 1
+  },
+  "deck_id": {
+   "$ref": "common.schema.json#/$defs/deck_id"
+  },
+  "final_hash": {
+   "$ref": "common.schema.json#/$defs/list_hash"
+  },
+  "baseline_hash": {
+   "$ref": "common.schema.json#/$defs/list_hash"
+  },
+  "cycle": {
+   "type": "integer"
+  },
+  "blueprint_version": {
+   "type": "integer"
+  },
+  "audit_ref": {
+   "type": "string"
+  },
+  "all_99_complete": {
+   "type": "boolean"
+  },
+  "weakest_slots": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "card": {
+      "type": "string"
+     },
+     "why_retained": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "card",
+     "why_retained"
+    ],
+    "additionalProperties": false
+   },
+   "minItems": 1
+  },
+  "best_challengers": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "swap": {
+      "type": "string"
+     },
+     "why_failed": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "swap",
+     "why_failed"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "reviews": {
+   "type": "object",
+   "properties": {
+    "package": {
+     "type": "string"
+    },
+    "mana": {
+     "type": "string"
+    },
+    "curve": {
+     "type": "string"
+    },
+    "interaction": {
+     "type": "string"
+    },
+    "win": {
+     "type": "string"
+    },
+    "combo": {
+     "type": "string"
+    },
+    "resilience": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "package",
+    "mana",
+    "curve",
+    "interaction",
+    "win",
+    "combo",
+    "resilience"
+   ],
+   "additionalProperties": false
+  },
+  "passes": {
+   "type": "object",
+   "properties": {
+    "commander_first": {
+     "type": "string"
+    },
+    "performance": {
+     "type": "string"
+    },
+    "reconciliation": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "commander_first",
+    "performance",
+    "reconciliation"
+   ],
+   "additionalProperties": false
+  },
+  "tests": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "stress_scenarios": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "red_team": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "uncertainties": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "snapshots": {
+   "type": "string"
+  },
+  "unresolved_material_candidates": {
+   "const": 0
+  },
+  "state_requested": {
+   "const": "APPROVAL_READY"
+  },
+  "generated": {
+   "$ref": "common.schema.json#/$defs/date"
+  }
+ },
+ "required": [
+  "schema_version",
+  "deck_id",
+  "final_hash",
+  "baseline_hash",
+  "cycle",
+  "blueprint_version",
+  "audit_ref",
+  "all_99_complete",
+  "weakest_slots",
+  "best_challengers",
+  "reviews",
+  "passes",
+  "tests",
+  "stress_scenarios",
+  "red_team",
+  "uncertainties",
+  "snapshots",
+  "unresolved_material_candidates",
+  "state_requested",
+  "generated"
+ ],
+ "additionalProperties": false
+}

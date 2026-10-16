@@ -697,11 +697,6 @@
     "cards": 7
    },
    {
-    "deck": "grixis/decks/bjorna-nightfall-alchemist-cecily.md",
-    "label": "Bjorna, Nightfall Alchemist (Grixis)",
-    "cards": 7
-   },
-   {
     "deck": "decks/plane-theros-uro-titan-of-natures-wrath.md",
     "label": "Uro, Titan of Nature's Wrath (Theros-only)",
     "cards": 6
@@ -709,6 +704,11 @@
    {
     "deck": "decks/theme-muldrotha-the-gravetide-self-mill.md",
     "label": "Muldrotha, the Gravetide (self mill theme)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/bjorna-nightfall-alchemist-cecily.md",
+    "label": "Bjorna, Nightfall Alchemist (Grixis)",
     "cards": 6
    },
    {

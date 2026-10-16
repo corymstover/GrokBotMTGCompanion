@@ -1,0 +1,90 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/evidence.schema.json",
+ "title": "Evidence item (v1)",
+ "description": "Every claim the authority layer relies on is one evidence item. heuristic and derived_metric items alone never justify a decision (enforced by scripts/grixis_authority.py::decision_support_ok).",
+ "type": "object",
+ "properties": {
+  "id": {
+   "$ref": "common.schema.json#/$defs/evidence_ref"
+  },
+  "class": {
+   "$ref": "common.schema.json#/$defs/evidence_class"
+  },
+  "confidence": {
+   "$ref": "common.schema.json#/$defs/confidence"
+  },
+  "claim": {
+   "type": "string",
+   "minLength": 3
+  },
+  "value": {},
+  "source": {
+   "type": "object",
+   "properties": {
+    "kind": {
+     "enum": [
+      "scryfall",
+      "wizards",
+      "cr",
+      "edhrec",
+      "spellbook",
+      "tournament",
+      "public_list",
+      "simulator",
+      "review",
+      "source_archive",
+      "cory",
+      "companion"
+     ]
+    },
+    "ref": {
+     "type": "string"
+    },
+    "snapshot": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "retrieved": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "kind",
+    "ref"
+   ],
+   "additionalProperties": false
+  },
+  "author": {
+   "enum": [
+    "bot",
+    "cory",
+    "source"
+   ]
+  },
+  "created": {
+   "$ref": "common.schema.json#/$defs/date"
+  },
+  "supersedes": {
+   "type": [
+    "string",
+    "null"
+   ]
+  }
+ },
+ "required": [
+  "id",
+  "class",
+  "confidence",
+  "claim",
+  "source",
+  "author",
+  "created"
+ ],
+ "additionalProperties": false
+}

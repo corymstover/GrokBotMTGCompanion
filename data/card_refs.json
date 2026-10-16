@@ -6760,8 +6760,9 @@
 },
 "158a6225-a246-4fd6-aa57-0df8067b4383": {
 "name": "Lutri, the Spellchaser",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/L.md#lutri-the-spellchaser"
@@ -16911,9 +16912,8 @@
 },
 "36f68aa3-9955-46f1-bc87-497f16ef5222": {
 "name": "Wizard Class",
-"n": 3,
+"n": 2,
 "kinds": {
-"deck": 1,
 "rules": 1,
 "cards": 1
 },
@@ -18830,10 +18830,10 @@
 },
 "3cd9bac9-0abc-43d8-9f84-94f965f7a2e0": {
 "name": "Cormela, Glamour Thief",
-"n": 7,
+"n": 6,
 "kinds": {
 "deck": 5,
-"edh": 2
+"edh": 1
 },
 "index": "references/C.md#cormela-glamour-thief"
 },
@@ -24439,8 +24439,9 @@
 },
 "50885640-cdf1-4c62-b3bc-f37db6ab38b5": {
 "name": "Trade Secrets",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -24901,10 +24902,10 @@
 },
 "52241b9c-7a69-4176-9234-8bdab09d8e64": {
 "name": "Sai, Master Thopterist",
-"n": 11,
+"n": 10,
 "kinds": {
 "deck": 6,
-"edh": 3,
+"edh": 2,
 "cards": 2
 },
 "index": "references/S.md#sai-master-thopterist"
@@ -30057,10 +30058,10 @@
 },
 "63dfe794-5f56-41ec-9883-5523b41cc3e0": {
 "name": "Arena of Glory",
-"n": 13,
+"n": 14,
 "kinds": {
 "deck": 10,
-"edh": 1,
+"edh": 2,
 "rules": 1,
 "cards": 1
 },
@@ -49690,10 +49691,10 @@
 },
 "a66f8b44-0163-4456-b152-4acefab896a4": {
 "name": "Malcolm, Keen-Eyed Navigator",
-"n": 6,
+"n": 7,
 "kinds": {
 "deck": 4,
-"edh": 2
+"edh": 3
 },
 "index": "references/M.md#malcolm-keen-eyed-navigator"
 },
@@ -57341,10 +57342,10 @@
 },
 "c1d6cce8-085f-42cb-8b0c-b6fbbf88b16a": {
 "name": "Goblin Engineer",
-"n": 7,
+"n": 6,
 "kinds": {
 "deck": 4,
-"edh": 2,
+"edh": 1,
 "cards": 1
 },
 "index": "references/G.md#goblin-engineer"
@@ -67366,10 +67367,10 @@
 },
 "e2a37967-4212-4553-9f77-bcb613405807": {
 "name": "Haunted Ridge",
-"n": 16,
+"n": 15,
 "kinds": {
 "deck": 11,
-"edh": 4,
+"edh": 3,
 "cards": 1
 },
 "index": "references/H.md#haunted-ridge"
@@ -70295,9 +70296,9 @@
 },
 "ecd49d85-9c8c-4cc9-9a83-072ecd433677": {
 "name": "Flame of Anor",
-"n": 4,
+"n": 3,
 "kinds": {
-"deck": 4
+"deck": 3
 },
 "index": "references/F.md#flame-of-anor"
 },
@@ -73729,8 +73730,9 @@
 },
 "f7f76f39-a0de-4bda-86b6-0f291892fcec": {
 "name": "Yawgmoth's Bargain",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },

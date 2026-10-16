@@ -1,0 +1,15 @@
+{
+ "_doc": "Bot cycle 47 (M0): derived official-legal compliance projections. A projection is DERIVED from a deck's one canonical project list by the substitutions below; it is labeled 'derived compliance projection (not canonical)', never canonical, never in an approval state, and never competes for authority (Cory constraint 1). Read by scripts/build_grixis.py (deck page section), scripts/grixis_refine.py (export file) and scripts/grixis_authority.py (registry + checks).",
+ "schema_version": 1,
+ "label": "derived compliance projection (not canonical)",
+ "decks": {
+  "Cecily__Bjorna__Lutri": {
+   "substitutions": [
+    {"from": "Trade Secrets", "to": "Wizard Class", "why": "Trade Secrets is banned in Commander. Wizard Class was logged as a close alternative (\"hand-size support\") in the source's approval dossier: \"You have no maximum hand size\", and level 2 draws two cards, serving Cecily's eleven-card hand. This was the Bot cycle 16 import correction; since Bot cycle 47 it lives only in this projection."},
+    {"from": "Yawgmoth's Bargain", "to": "Flame of Anor", "why": "Yawgmoth's Bargain is banned in Commander. Flame of Anor (\"Target player draws two cards\" as one mode; two modes if you control a Wizard, and Cecily is a Human Wizard) is another alternative from the source dossier. Bot cycle 16 import correction; since Bot cycle 47 projection only."}
+   ],
+   "drop_companion": "Lutri, the Spellchaser",
+   "drop_companion_why": "Commander bans Lutri, the Spellchaser only as a companion (Wizards banned & restricted list); Lutri stays legal in the 99. The projection plays without a companion."
+  }
+ }
+}

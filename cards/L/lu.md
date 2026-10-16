@@ -1673,7 +1673,7 @@ schema: 2
   - *2020-04-17* — Your companion begins the game outside the game. In tournament play, this means your sideboard. In casual play, it's simply a card you own that's not in your starting deck.
   - *2020-06-01* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discarded, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
   - *2020-06-01* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lutri-the-spellchaser)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#lutri-the-spellchaser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/227/lutri-the-spellchaser) · oracle_id `158a6225-a246-4fd6-aa57-0df8067b4383` · printing: IKO #227 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Luxa River Shrine

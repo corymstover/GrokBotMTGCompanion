@@ -8,13 +8,17 @@ bracket_floor: 4
 game_changers: 10
 combos: 3
 two_card_infinites: 2
-validated: true
-tags: [grixis, grixis, bracket-floor-4, game-changers, two-card-infinite]
+validated: false
+tags: [grixis, grixis, bracket-floor-4, game-changers, two-card-infinite, project-exceptions]
 source_repo: corymstover/grixis-commander-encyclopediaGPT
+official_commander_compliance: not_compliant_project_exceptions
+project_exceptions: ["Lutri, the Spellchaser", "Trade Secrets", "Yawgmoth's Bargain"]
 schema: 2
 ---
 
 # Grixis Deck — Bjorna, Nightfall Alchemist + Cecily, Haunted Mage
+
+> 🚩 **PROJECT EXCEPTIONS — not Commander-legal.** This deck's canonical project list carries 3 project-authorized exception(s): **Lutri, the Spellchaser** (companion) (banned as a companion in Commander (legal in the 99)); **Trade Secrets** (banned in Commander); **Yawgmoth's Bargain** (banned in Commander). Official Commander compliance: **not compliant**. They are authorized by Cory for this project (registry `data/grixis/exceptions.json`, [Grixis Authority Model](../Grixis%20Authority%20Model.md#legality-model)); they are never reported as legal. An officially legal version is shown below as a [derived compliance projection (not canonical)](#official-legal-projection-derived-not-canonical).
 
 > **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
@@ -25,6 +29,7 @@ schema: 2
 - [Bracket calibration & pilot notes](#bracket-calibration--pilot-notes)
 - [Corrections applied](#corrections-applied)
 - [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Official-legal projection (derived, not canonical)](#official-legal-projection-derived-not-canonical)
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
@@ -42,9 +47,9 @@ schema: 2
 
 ## Validation
 
-- Total cards: **100** (2 commander(s) + 65 nonland + 29 nonbasic lands + 4 basics) · average nonland MV 3.26
-- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass** (after the corrections below)
-- Every card resolves to an entry in our card DB (99/99 lines linked).
+- Total cards: **100** (2 commander(s) + 65 nonland + 29 nonbasic lands + 4 basics) + 1 companion outside the 100 · average nonland MV 3.34
+- Strict color identity (CR 903.5c), singleton (903.5b), size (903.5a): pass. **Official Commander compliance: ❌ not compliant** — 3 project-authorized exception(s), not Commander-legal: Lutri, the Spellchaser (banned as companion); Trade Secrets (banned); Yawgmoth's Bargain (banned). `validate_all` accepts them only because they are registered project exceptions; every other card is Commander-legal.
+- Every card resolves to an entry in our card DB (100/100 lines linked).
 
 ## Bracket assessment
 
@@ -75,7 +80,7 @@ schema: 2
 
 ### Calibration context
 
-- Spellbook also lists 108 combos one card away (not counted): adding a single card can raise the floor.
+- Spellbook also lists 106 combos one card away (not counted): adding a single card can raise the floor.
 
 ### Playing at a lower bracket (guidance)
 
@@ -85,8 +90,8 @@ schema: 2
 
 ### Pilot notes (guidance)
 
-- **Mana (fact):** 33 lands, 18 ramp pieces, average nonland mana value 3.26. A 7-card opening hand has 3–5 lands 42% of the time and at least 2 lands 75%; it has no ramp piece 23% of the time. **Guidance:** keep 3–4 landers, or 2 lands plus ramp; see [EDH Mulligans](../../EDH%20Mulligans.md#keep-or-mulligan-guidance).
-- **Interaction budget (fact):** 5 spot removal · 1 board wipes · 2 counterspells · 1 protection · 25 card draw. **Guidance:** hold protection or a counterspell on the turn you commit the commander or a combo.
+- **Mana (fact):** 33 lands, 18 ramp pieces, average nonland mana value 3.34. A 7-card opening hand has 3–5 lands 42% of the time and at least 2 lands 75%; it has no ramp piece 23% of the time. **Guidance:** keep 3–4 landers, or 2 lands plus ramp; see [EDH Mulligans](../../EDH%20Mulligans.md#keep-or-mulligan-guidance).
+- **Interaction budget (fact):** 4 spot removal · 1 board wipes · 2 counterspells · 1 protection · 25 card draw. **Guidance:** hold protection or a counterspell on the turn you commit the commander or a combo.
 - **Combo lines (fact, Spellbook):** [Psychosis Crawler + Peer into the Abyss](https://commanderspellbook.com/combo/1561-2384/) → Near-infinite lifeloss; [Peer into the Abyss + Teferi's Ageless Insight](https://commanderspellbook.com/combo/1561-5042/) → Infinite card draw (+1 more in the Combos block). **Guidance:** the 4 tutors (Demonic Tutor, Goblin Engineer, Mystical Tutor, Vampiric Tutor) can fetch a missing piece; announce the combo in the pregame talk.
 - **Pregame talk (guidance):** say the floor (Bracket 4), the Game Changers (10), and any two-card infinite or extra-turn cards before the game, as the Brackets intend.
 - **Source author's own pilot reasoning:** see [Source commentary (verbatim)](#source-commentary-verbatim) below (guidance from the Grixis repo).
@@ -96,15 +101,128 @@ schema: 2
 
 | Type | Change | Reason |
 |---|---|---|
-| legality | Trade Secrets → Wizard Class | Trade Secrets is **banned in Commander** (Scryfall). The source kept it as a *project exception*. Replaced with Wizard Class, which the source's own approval dossier logged as a close alternative ("hand-size support"). Its Oracle text says "You have no maximum hand size" and level 2 draws two cards, so it serves the same goal: reaching Cecily's eleven-card hand. |
-| legality | Yawgmoth's Bargain → Flame of Anor | Yawgmoth's Bargain is **banned in Commander** (Scryfall). Replaced with Flame of Anor, another alternative from the source dossier. Its Oracle text: "Target player draws two cards" as one mode, and you may choose two modes if you control a Wizard (Cecily is a Human Wizard). It is draw plus interaction at instant speed. |
-| companion | Lutri, the Spellchaser (companion) removed | The source's approval record designates **Lutri, the Spellchaser** as a companion outside the 100. Commander bans Lutri *as a companion* (B&R 2026-02-09; Lutri is legal in the 99). So the companion is **dropped** here. The source's approved 100-card file does not list Lutri anyway, so no card count changes. |
+| project exception (Bot cycle 47) | Lutri, the Spellchaser (companion) kept in the canonical project list | 🚩 project exception, NOT Commander-legal: banned as a companion in Commander (legal in the 99). Authorized: Cory (source registry v8.1.4: 'User explicitly permits Lutri as companion'; re-confirmed in the Bot cycle 47 brief, decision 1). Registry: `data/grixis/exceptions.json` (exc:bjorna-nightfall-alchemist-cecily:lutri-the-spellchaser). The source's approval record designates Lutri as companion (its approved 100-card file has no companion line, so the line is added from that record). The Bot cycle 16 import had dropped it. |
+| project exception (Bot cycle 47) | Trade Secrets kept in the canonical project list | 🚩 project exception, NOT Commander-legal: banned in Commander. Authorized: Cory (source registry v8.1.4: 'User explicitly permits Trade Secrets in this project deck'; re-confirmed in the Bot cycle 47 brief, decision 1). Registry: `data/grixis/exceptions.json` (exc:bjorna-nightfall-alchemist-cecily:trade-secrets). The Bot cycle 16 import had replaced it; since Bot cycle 47 that replacement lives only in the deck page's derived compliance projection (not canonical). |
+| project exception (Bot cycle 47) | Yawgmoth's Bargain kept in the canonical project list | 🚩 project exception, NOT Commander-legal: banned in Commander. Authorized: Cory (source registry v8.1.4: 'User explicitly permits Yawgmoth's Bargain in this project deck'; re-confirmed in the Bot cycle 47 brief, decision 1). Registry: `data/grixis/exceptions.json` (exc:bjorna-nightfall-alchemist-cecily:yawgmoth-s-bargain). The Bot cycle 16 import had replaced it; since Bot cycle 47 that replacement lives only in the deck page's derived compliance projection (not canonical). |
 | format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (2 line(s)); role tags restored on 96 untagged line(s): 96 from this deck's FINAL baseline, 0 from the tag the source uses most for that card in other decks; 1 untagged line(s) given a type tag (e.g. `[Land]`). |
 | bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **10 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 3 complete combos (2 two-card infinite). |
 
 Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
 
 ## Decklist (Archidekt import)
+
+```text
+1x Bjorna, Nightfall Alchemist [Commander{top}]
+1x Cecily, Haunted Mage [Commander{top}]
+1x Academy Manufactor [Tokens]
+1x Apex of Power [Draw]
+1x Arcane Signet [Ramp]
+1x Archmage Emeritus [Draw]
+1x Big Score [Draw]
+1x Blightstep Pathway // Searstep Pathway [Land]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Bojuka Bog [Land]
+1x Brainstorm [Draw]
+1x Brass's Bounty [Ramp]
+1x Chaos Warp [Removal]
+1x Clearwater Pathway // Murkwater Pathway [Land]
+1x Command Tower [Land]
+1x Cormela, Glamour Thief [Ramp]
+1x Counterspell [Removal]
+1x Cruel Ultimatum [Draw]
+1x Crumbling Necropolis [Land]
+1x Cyclonic Rift [Removal]
+1x Dark Deal [Discard]
+1x Deadly Dispute [Draw]
+1x Demonic Tutor [Tutor]
+1x Dimir Signet [Ramp]
+1x Dragonskull Summit [Land]
+1x Drowned Catacomb [Land]
+1x Echo of Eons [Draw]
+1x Emry, Lurker of the Loch [Recursion]
+1x Fabled Passage [Land]
+1x Feed the Swarm [Removal]
+1x Fierce Guardianship [Removal]
+1x Frantic Search [Draw]
+1x Goblin Electromancer [Ramp]
+1x Goblin Engineer [Tutor]
+1x Harmonic Prodigy [Copy]
+1x Haunted Ridge [Land]
+1x Hexing Squelcher [Protection]
+1x Ichor Wellspring [Draw]
+1x In Garruk's Wake [Removal]
+2x Island [Land]
+1x Izzet Signet [Ramp]
+1x Jeska's Will [Ramp]
+1x Kess, Dissident Mage [Recursion]
+1x Lightning Greaves [Protection]
+1x Luxury Suite [Land]
+1x Mana Geyser [Ramp]
+1x Mnemonic Deluge [Recursion]
+1x Morphic Pool [Land]
+1x Mountain [Land]
+1x Mystic Remora [Draw]
+1x Mystical Tutor [Tutor]
+1x Niv-Mizzet, Parun [Draw]
+1x Notion Thief [Draw]
+1x Oni-Cult Anvil [Tokens]
+1x Otawara, Soaring City [Land]
+1x Peer into the Abyss [Draw]
+1x Polluted Delta [Land]
+1x Psychosis Crawler [Burn]
+1x Rakdos Signet [Ramp]
+1x Reforge the Soul [Draw]
+1x Rhystic Study [Draw]
+1x Riverglide Pathway // Lavaglide Pathway [Land]
+1x Robe of the Archmagi [Artifact]
+1x Sai, Master Thopterist [Tokens]
+1x Scalding Tarn [Land]
+1x Seething Song [Ramp]
+1x Shipwreck Marsh [Land]
+1x Shivan Reef [Land]
+1x Sokenzan, Crucible of Defiance [Land]
+1x Sol Ring [Ramp]
+1x Steam Vents [Land]
+1x Storm-Kiln Artist [Ramp]
+1x Stormcarved Coast [Land]
+1x Sulfur Falls [Land]
+1x Sulfurous Springs [Land]
+1x Swamp [Land]
+1x Takenuma, Abandoned Mire [Land]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Teferi's Ageless Insight [Draw]
+1x The One Ring [Draw]
+1x Third Path Iconoclast [Tokens]
+1x Thought Vessel [Ramp]
+1x Toxic Deluge [Removal]
+1x Trade Secrets [Draw]
+1x Training Center [Land]
+1x Triskaidekaphile [Draw]
+1x Underground River [Land]
+1x Underworld Breach [Recursion]
+1x Vampiric Tutor [Tutor]
+1x Watery Grave [Land]
+1x Wheel of Fortune [Draw]
+1x Wheel of Misfortune [Draw]
+1x Whispering Madness [Draw]
+1x Windfall [Draw]
+1x Xander's Lounge [Land]
+1x Yawgmoth's Bargain [Draw]
+1x Lutri, the Spellchaser [Companion]
+```
+
+## Official-legal projection (derived, not canonical)
+
+> **derived compliance projection (not canonical).** Derived from the canonical project list above by the substitutions below, so the deck can be played under official Commander rules. It never competes for authority: it is not canonical, never enters an approval state, and changes whenever the canonical list changes. Registry: `data/grixis/projections.json`; export: `exports/grixis-archidekt/projections/bjorna-nightfall-alchemist-cecily.official-legal-projection.txt`.
+
+| Canonical card | Projection | Why |
+|---|---|---|
+| Trade Secrets | Wizard Class | Trade Secrets is banned in Commander. Wizard Class was logged as a close alternative ("hand-size support") in the source's approval dossier: "You have no maximum hand size", and level 2 draws two cards, serving Cecily's eleven-card hand. This was the Bot cycle 16 import correction; since Bot cycle 47 it lives only in this projection. |
+| Yawgmoth's Bargain | Flame of Anor | Yawgmoth's Bargain is banned in Commander. Flame of Anor ("Target player draws two cards" as one mode; two modes if you control a Wizard, and Cecily is a Human Wizard) is another alternative from the source dossier. Bot cycle 16 import correction; since Bot cycle 47 projection only. |
+| Lutri, the Spellchaser (companion) | — (no companion) | Commander bans Lutri, the Spellchaser only as a companion (Wizards banned & restricted list); Lutri stays legal in the 99. The projection plays without a companion. |
 
 ```text
 1x Bjorna, Nightfall Alchemist [Commander{top}]
@@ -211,11 +329,11 @@ Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
 <!-- REFINED:START -->
 ## Refined list (Bot cycle 39)
 
-> **Commander-first refinement** ([Grixis Mission](../Grixis%20Mission.md), Cory's principles; log: [Grixis Refinement Cycle](../Grixis%20Refinement%20Cycle.md)). The [source list](#decklist-archidekt-import) above stays as integrated, credited to Cory's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT). This section is **our recommendation (guidance)**. Facts behind it: Scryfall Oracle text, legality and Game Changer flags; EDHREC synergy (community data, cached); Commander Spellbook combos. Generated by `scripts/grixis_refine.py`.
+> 🧪 **v1 review record (heuristic: no candidate passed v1 gates (not a certificate)).** Bot cycles 39–44 commander-first refinement ([Grixis Mission](../Grixis%20Mission.md); log: [Grixis Refinement Cycle](../Grixis%20Refinement%20Cycle.md)), engine `grixis_refine v1` (frozen). The canonical list is the [source list](#decklist-archidekt-import) above (state `SOURCE_BASELINE` in the [authority registry](../../data/grixis/registry.json)), credited to Cory's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT). v1's gates found no qualifying swap. That is a heuristic result, **not a certificate** that the list is at its ceiling. Facts behind it: Scryfall Oracle text, legality and Game Changer flags; EDHREC synergy (community data, cached); Commander Spellbook combos. Generated by `scripts/grixis_refine.py`.
 
 - **Commander hooks (from Oracle text):** artifacts, card draw / hand size, combat damage / attack triggers, goad / forced attacks, instants and sorceries, sacrifice.
 - **Commander dependence:** 98% → **98%** · generic share 0% → **0%** · mean overlap with the other 61 lists 15% → **15%**.
-- **Decision:** at/near ceiling: commander dependence 98% ≥ 60% and generic share 0% ≤ 15%; unchanged.
+- **v1 decision (historical record):** at/near ceiling: commander dependence 98% ≥ 60% and generic share 0% ≤ 15%; unchanged. Bot cycle 47 reading: *heuristic: no candidate passed v1 gates (not a certificate)*.
 
 ### Refinement log
 
@@ -235,6 +353,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 | [Cecily, Haunted Mage](../../cards/C/ce.md#cecily-haunted-mage) | Commander | Legendary Creature — Human Wizard | 4 | UBR |  | — |
 | [Robe of the Archmagi](../../cards/R/ro.md#robe-of-the-archmagi) | Artifact | Artifact — Equipment | 3 | U |  | — |
 | [Psychosis Crawler](../../cards/P/ps.md#psychosis-crawler) | Burn | Artifact Creature — Phyrexian Horror | 5 | C |  | — |
+| [Lutri, the Spellchaser](../../cards/L/lu.md#lutri-the-spellchaser) | Companion · 🚩 project exception, NOT Commander-legal: banned as a companion in Commander (legal in the 99) | Legendary Creature — Elemental Otter | 3 | UR |  | — |
 | [Harmonic Prodigy](../../cards/H/ha.md#harmonic-prodigy) | Copy | Creature — Human Wizard | 2 | R |  | — |
 | [Dark Deal](../../cards/D/da.md#dark-deal) | Discard | Sorcery | 3 | B |  | — |
 | [Apex of Power](../../cards/A/ap.md#apex-of-power) | Draw | Sorcery | 10 | R |  | — |
@@ -244,7 +363,6 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 | [Cruel Ultimatum](../../cards/C/cr.md#cruel-ultimatum) | Draw | Sorcery | 7 | UBR |  | — |
 | [Deadly Dispute](../../cards/D/dea.md#deadly-dispute) | Draw | Instant | 2 | B |  | — |
 | [Echo of Eons](../../cards/E/ec.md#echo-of-eons) | Draw | Sorcery | 6 | U |  | — |
-| **[Flame of Anor](../../cards/F/fl.md#flame-of-anor)** | Draw | Instant | 3 | UR |  | — |
 | [Frantic Search](../../cards/F/fr.md#frantic-search) | Draw | Instant | 3 | U |  | — |
 | [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) | Draw | Artifact | 2 | C |  | — |
 | [Mystic Remora](../../cards/M/my.md#mystic-remora) | Draw | Enchantment | 1 | U |  | — |
@@ -255,12 +373,13 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 | [Rhystic Study](../../cards/R/rh.md#rhystic-study) | Draw | Enchantment | 3 | U | ✅ | — |
 | [Teferi's Ageless Insight](../../cards/T/te.md#teferis-ageless-insight) | Draw | Legendary Enchantment | 4 | U |  | — |
 | [The One Ring](../../cards/T/theo.md#the-one-ring) | Draw | Legendary Artifact | 4 | C | ✅ | — |
+| [Trade Secrets](../../cards/T/tra.md#trade-secrets) | Draw · 🚩 project exception, NOT Commander-legal: banned in Commander | Sorcery | 3 | U |  | — |
 | [Triskaidekaphile](../../cards/T/tri.md#triskaidekaphile) | Draw | Creature — Human Wizard | 2 | U |  | — |
 | [Wheel of Fortune](../../cards/W/wh.md#wheel-of-fortune) | Draw | Sorcery | 3 | R |  | — |
 | [Wheel of Misfortune](../../cards/W/wh.md#wheel-of-misfortune) | Draw | Sorcery | 3 | R |  | — |
 | [Whispering Madness](../../cards/W/wh.md#whispering-madness) | Draw | Sorcery | 4 | UB |  | — |
 | [Windfall](../../cards/W/wi.md#windfall) | Draw | Sorcery | 3 | U |  | — |
-| **[Wizard Class](../../cards/W/wi.md#wizard-class)** | Draw | Enchantment — Class | 1 | U |  | — |
+| [Yawgmoth's Bargain](../../cards/Y/ya.md#yawgmoths-bargain) | Draw · 🚩 project exception, NOT Commander-legal: banned in Commander | Enchantment | 6 | B |  | — |
 | [Blightstep Pathway // Searstep Pathway](../../cards/B/bli.md#blightstep-pathway--searstep-pathway) | Land | Land // Land | 0 | BR |  | — |
 | [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
 | [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
@@ -333,7 +452,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ## Source commentary (verbatim)
 
-> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions: since Bot cycle 47 the canonical project list above carries them as labeled project exceptions (not Commander-legal); the officially legal version is the derived compliance projection.
 
 ### From `refinement/blueprints/Cecily__Bjorna__Lutri_v1.md`
 
@@ -449,9 +568,9 @@ Request explicit approval for the single Reckless Fireweaver -> Robe of the Arch
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
 
-> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+> Generated 2026-10-16 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
 
-**3 complete combo(s); 2 two-card infinite.** 108 more are one card away (not listed).
+**3 complete combo(s); 2 two-card infinite.** 106 more are one card away (not listed).
 
 | Cards | Produces (Spellbook) | Extra requirements | Link |
 |---|---|---|---|
@@ -465,10 +584,10 @@ Request explicit approval for the single Reckless Fireweaver -> Robe of the Arch
 
 > Generated by `scripts/build_crossrefs.py` (Bot cycle 18, [#66](https://github.com/corymstover/GrokBotMTGCompanion/issues/66)) from this list. Package counts are Oracle-text pattern matches using the [EDH Packages](../../EDH%20Packages.md) patterns, so a card can fit loosely or count in several packages. Facts, not advice. Every card entry also lists where else it is cited (*Referenced in* → the [reverse card index](../../references/README.md)).
 
-- **EDH packages in this list:** [Ramp: Mana rocks (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-rocks-mv--2) 9 · [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) 7 · [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) 5 · [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) 4 · [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) 2 · [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) 1 · [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) 1 · [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) 1 · [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) 1 · [Spellslinger: Instant/sorcery cost reducers](../../EDH%20Packages.md#spellslinger-instantsorcery-cost-reducers) 1 · [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) 1
+- **EDH packages in this list:** [Ramp: Mana rocks (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-rocks-mv--2) 9 · [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) 6 · [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) 5 · [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) 4 · [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) 2 · [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) 1 · [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) 1 · [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) 1 · [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) 1 · [Spellslinger: Instant/sorcery cost reducers](../../EDH%20Packages.md#spellslinger-instantsorcery-cost-reducers) 1 · [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) 1
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Equip](../../Keyword%20Encyclopedia.md#equip) 2 · [Flying](../../Keyword%20Encyclopedia.md#flying) 2 · [Mill](../../Keyword%20Encyclopedia.md#mill) 2 · [Partner](../../Keyword%20Encyclopedia.md#partner) 2 · [Affinity](../../Keyword%20Encyclopedia.md#affinity) 1 · [Cipher](../../Keyword%20Encyclopedia.md#cipher) 1 · [Cumulative upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) 1 · [Cycling](../../Keyword%20Encyclopedia.md#cycling) 1 · [Flash](../../Keyword%20Encyclopedia.md#flash) 1 · [Flashback](../../Keyword%20Encyclopedia.md#flashback) 1 · [Goad](../../Keyword%20Encyclopedia.md#goad) 1 · [Haste](../../Keyword%20Encyclopedia.md#haste) 1
-- **Rules sections citing cards in this list:** [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Rules Interactions → Protection](../../Rules%20Interactions.md#protection) (Cyclonic Rift, The One Ring) · [Keyword Encyclopedia → Affinity](../../Keyword%20Encyclopedia.md#affinity) (Emry, Lurker of the Loch) · [Keyword Encyclopedia → Cipher](../../Keyword%20Encyclopedia.md#cipher) (Whispering Madness) · [Keyword Encyclopedia → Cumulative Upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) (Mystic Remora) · [Keyword Encyclopedia → Equip](../../Keyword%20Encyclopedia.md#equip) (Lightning Greaves) · [Keyword Encyclopedia → Indestructible](../../Keyword%20Encyclopedia.md#indestructible) (The One Ring) · [Keyword Encyclopedia → Mill](../../Keyword%20Encyclopedia.md#mill) (Takenuma, Abandoned Mire) · …6 more sections
+- **Rules sections citing cards in this list:** [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Rules Interactions → Protection](../../Rules%20Interactions.md#protection) (Cyclonic Rift, The One Ring) · [Keyword Encyclopedia → Affinity](../../Keyword%20Encyclopedia.md#affinity) (Emry, Lurker of the Loch) · [Keyword Encyclopedia → Cipher](../../Keyword%20Encyclopedia.md#cipher) (Whispering Madness) · [Keyword Encyclopedia → Cumulative Upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) (Mystic Remora) · [Keyword Encyclopedia → Equip](../../Keyword%20Encyclopedia.md#equip) (Lightning Greaves) · [Keyword Encyclopedia → Indestructible](../../Keyword%20Encyclopedia.md#indestructible) (The One Ring) · [Keyword Encyclopedia → Mill](../../Keyword%20Encyclopedia.md#mill) (Takenuma, Abandoned Mire) · …5 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Command Tower, Sulfur Falls) · [Planes Index → New Capenna](../../Planes%20Index.md#new-capenna) (Xander's Lounge) · [Planeswalker Dossiers → Character cards (name-matched)](../../Planeswalker%20Dossiers.md#character-cards-name-matched) (Niv-Mizzet, Parun)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Blood Crypt, Bloodstained Mire, Bojuka Bog +19) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Cormela, Glamour Thief, Dimir Signet +9) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Cyclonic Rift, Demonic Tutor, Fierce Guardianship +7) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (Fierce Guardianship, Goblin Electromancer, Mystic Remora +7) · [Grixis Packages → Draw](../../grixis/Grixis%20Packages.md#draw) (Archmage Emeritus, Big Score, Brainstorm +7) · [EDH Archetypes → Spellslinger (instants & sorceries)](../../EDH%20Archetypes.md#spellslinger-instants--sorceries) (Archmage Emeritus, Fierce Guardianship, Goblin Electromancer +6) · …89 more sections
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Blood Crypt, Bloodstained Mire, Bojuka Bog +18) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Dimir Signet, Goblin Electromancer +8) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Cyclonic Rift, Demonic Tutor, Fierce Guardianship +7) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (Fierce Guardianship, Goblin Electromancer, Mystic Remora +7) · [Grixis Packages → Draw](../../grixis/Grixis%20Packages.md#draw) (Archmage Emeritus, Big Score, Brainstorm +7) · [EDH Archetypes → Spellslinger (instants & sorceries)](../../EDH%20Archetypes.md#spellslinger-instants--sorceries) (Archmage Emeritus, Fierce Guardianship, Goblin Electromancer +6) · …89 more sections
 - **Decks sharing the most cards:** [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) 47 · [Mairsil, the Pretender (Grixis)](../../grixis/decks/mairsil-the-pretender.md) 44 · [Parnesse, the Subtle Brush (Grixis)](../../grixis/decks/parnesse-the-subtle-brush.md) 42 · [Gwendlyn Di Corci (Grixis)](../../grixis/decks/gwendlyn-di-corci.md) 41
 <!-- CROSSREFS:END -->

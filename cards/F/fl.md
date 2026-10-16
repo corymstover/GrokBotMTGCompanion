@@ -867,7 +867,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1722 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — Once you cast Flame of Anor and choose two modes, it doesn't matter what happens to the Wizard you control in response. Flame of Anor will still have two modes chosen.
-- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/F.md#flame-of-anor)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/F.md#flame-of-anor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/203/flame-of-anor) · oracle_id `ecd49d85-9c8c-4cc9-9a83-072ecd433677` · printing: LTR #203 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flame On!

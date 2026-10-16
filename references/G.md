@@ -1523,10 +1523,10 @@ schema: 2
 
 ### Goblin Engineer
 
-[Card entry](../cards/G/gob.md#goblin-engineer) · **7 pages** (decks 4 · edh guides 2 · card data 1)
+[Card entry](../cards/G/gob.md#goblin-engineer) · **6 pages** (decks 4 · edh guides 1 · card data 1)
 
 - **Decks (4):** [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md) · [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md)
-- **EDH guides (2):** [cEDH Primer → Tutors, MV ≤ 2](../cEDH%20Primer.md#tutors-mv--2) · [Grixis Packages → Tutor](../grixis/Grixis%20Packages.md#tutor)
+- **EDH guides (1):** [cEDH Primer → Tutors, MV ≤ 2](../cEDH%20Primer.md#tutors-mv--2)
 - **Card data (1):** [Artist Index → Artists D](../Artist%20Index.md#artists-d)
 
 ### Goblin Firebomb

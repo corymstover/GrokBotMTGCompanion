@@ -468,10 +468,10 @@ schema: 2
 
 ### Haunted Ridge
 
-[Card entry](../cards/H/ha.md#haunted-ridge) · **16 pages** (decks 11 · edh guides 4 · card data 1)
+[Card entry](../cards/H/ha.md#haunted-ridge) · **15 pages** (decks 11 · edh guides 3 · card data 1)
 
 - **Decks (11):** [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md) · [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Doctor Doom, King of Latveria (Grixis)](../grixis/decks/doctor-doom-king-of-latveria.md) · [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Lord Xander, the Collector (Grixis)](../grixis/decks/lord-xander-the-collector.md) · [Mairsil, the Pretender (Grixis)](../grixis/decks/mairsil-the-pretender.md) · [Missy (Grixis)](../grixis/decks/missy.md) · [Prosper, Tome-Bound](../decks/prosper-tome-bound.md) · [The Rani (Grixis)](../grixis/decks/the-rani.md) · [The Valeyard (Grixis)](../grixis/decks/the-valeyard.md) · [Wick, the Whorled Mind (Grixis)](../grixis/decks/wick-the-whorled-mind.md)
-- **EDH guides (4):** [EDH Mana Bases → Rakdos BR](../EDH%20Mana%20Bases.md#rakdos-br) · [EDH Staples → Rakdos (BR)](../EDH%20Staples.md#rakdos-br) · [EDH Upgrade Paths → Prosper, Tome-Bound](../EDH%20Upgrade%20Paths.md#prosper-tome-bound) · [Grixis Packages → Land](../grixis/Grixis%20Packages.md#land)
+- **EDH guides (3):** [EDH Mana Bases → Rakdos BR](../EDH%20Mana%20Bases.md#rakdos-br) · [EDH Staples → Rakdos (BR)](../EDH%20Staples.md#rakdos-br) · [EDH Upgrade Paths → Prosper, Tome-Bound](../EDH%20Upgrade%20Paths.md#prosper-tome-bound)
 - **Card data (1):** [Artist Index → Artists V](../Artist%20Index.md#artists-v) (+1 more)
 
 ### Haunt the Network

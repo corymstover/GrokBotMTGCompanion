@@ -1448,9 +1448,8 @@ schema: 2
 
 ### Wizard Class
 
-[Card entry](../cards/W/wi.md#wizard-class) · **3 pages** (decks 1 · rules 1 · card data 1)
+[Card entry](../cards/W/wi.md#wizard-class) · **2 pages** (rules 1 · card data 1)
 
-- **Decks (1):** [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md)
 - **Rules (1):** [Rules Interactions → Classes](../Rules%20Interactions.md#classes)
 - **Card data (1):** [Artist Index → Artists M](../Artist%20Index.md#artists-m)
 

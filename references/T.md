@@ -4160,8 +4160,9 @@ schema: 2
 
 ### Trade Secrets
 
-[Card entry](../cards/T/tra.md#trade-secrets) · **2 pages** (edh guides 1 · card data 1)
+[Card entry](../cards/T/tra.md#trade-secrets) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
+- **Decks (1):** [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md)
 - **EDH guides (1):** [EDH Standards → Banned list & legality](../EDH%20Standards.md#banned-list--legality)
 - **Card data (1):** [Format Legality Matrix → commander](../Format%20Legality%20Matrix.md#commander) (+2 more)
 

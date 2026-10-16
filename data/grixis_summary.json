@@ -212,10 +212,10 @@
   "n_two": 2,
   "src_claim": null,
   "lands": 33,
-  "avg_mv": 3.2615384615384615,
+  "avg_mv": 3.3384615384615386,
   "source_path": "refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt",
   "fixes": 5,
-  "legality_status": "legal"
+  "legality_status": "project_exception"
  },
  "Cormela__Glamour_Thief": {
   "slug": "cormela-glamour-thief",

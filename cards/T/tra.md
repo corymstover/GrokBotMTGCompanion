@@ -269,7 +269,7 @@ schema: 2
   > Target opponent draws two cards, then you draw up to four cards. That opponent may repeat this process as many times as they choose.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#trade-secrets)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#trade-secrets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/64/trade-secrets) · oracle_id `50885640-cdf1-4c62-b3bc-f37db6ab38b5` · printing: CMD #64 (2011-06-17) · [rulings](https://api.scryfall.com/cards/58dadc78-fe87-40ac-94cb-128716d89d74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trade the Helm

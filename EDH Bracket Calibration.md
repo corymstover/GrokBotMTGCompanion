@@ -47,7 +47,7 @@ schema: 2
 | [Anhelo, the Painter](grixis/decks/anhelo-the-painter.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 7 | 5 | 0 | 1 | 4 | 34 | 2.83 | — | — |
 | [Ashnod the Uncaring](grixis/decks/ashnod-the-uncaring.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 6 | 0 | 0 | 1 | 5 | 33 | 2.21 | — | — |
 | [Be'lakor, the Dark Master](grixis/decks/belakor-the-dark-master.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 5 | 1 | 0 | 0 | 4 | 36 | 4.08 | — | — |
-| [Bjorna, Nightfall Alchemist + Cecily, Haunted Mage](grixis/decks/bjorna-nightfall-alchemist-cecily.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 10 | 2 | 0 | 0 | 4 | 33 | 3.26 | — | — |
+| [Bjorna, Nightfall Alchemist + Cecily, Haunted Mage](grixis/decks/bjorna-nightfall-alchemist-cecily.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 10 | 2 | 0 | 0 | 4 | 33 | 3.34 | — | — |
 | [Cormela, Glamour Thief](grixis/decks/cormela-glamour-thief.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 20 | 2 | 0 | 0 | 8 | 30 | 1.84 | — | — |
 | [Crosis, the Purger](grixis/decks/crosis-the-purger.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 14 | 0 | 0 | 0 | 4 | 36 | 2.29 | 4 | — |
 | [Davros, Dalek Creator](grixis/decks/davros-dalek-creator.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 5 | 0 | 0 | 0 | 1 | 34 | 3.18 | 4 | — |

@@ -1,0 +1,266 @@
+{
+ "_doc": "Bot cycle 47 (M0): project-exception registry, imported from the source's 8-row CSV and verified against Scryfall and the official Wizards banned list. official_commander_legality and project_authorization_status are separate; an exception never counts as Commander-legal. Built by scripts/grixis_authority.py --build-exceptions; schema data/grixis/schemas/exception.schema.json.",
+ "schema_version": 1,
+ "verified": {
+  "date": "2026-10-16",
+  "scryfall_bulk": "2026-10-15T09:02:01",
+  "wizards_source": "https://magic.wizards.com/en/banned-restricted-list",
+  "by": "GrokBot (Bot cycle 47)"
+ },
+ "source": {
+  "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/source-package/research/Project_Exceptions_Current_2026-10-12.csv",
+  "commit": "1836b97",
+  "rows": 8
+ },
+ "exceptions": [
+  {
+   "id": "exc:bjorna-nightfall-alchemist-cecily:lutri-the-spellchaser",
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "card": "Lutri, the Spellchaser",
+   "oracle_id": "158a6225-a246-4fd6-aa57-0df8067b4383",
+   "zone": "companion",
+   "exception_type": "banned_as_companion",
+   "official_commander_legality": "banned_as_companion",
+   "official_evidence": [
+    "wizards:https://magic.wizards.com/en/banned-restricted-list (Commander section, fetched 2026-10-16): 'Lutri, the Spellchaser - only banned as a companion'",
+    "scryfall:2026-10-15 legalities.commander=legal (Scryfall cannot express a companion-only ban)"
+   ],
+   "legal_from": null,
+   "project_authorization_status": "AUTHORIZED_EXCEPTION",
+   "authorized_by": "Cory (source registry v8.1.4: 'User explicitly permits Lutri as companion'; re-confirmed in the Bot cycle 47 brief, decision 1)",
+   "source_row": {
+    "index": 1,
+    "exception_type": "project companion exception",
+    "project_status": "INTENTIONAL — ACCEPTED",
+    "project_rule": "User explicitly permits Lutri as companion in this project despite the official Commander restriction. Preserve it in this deck and do not treat this as an unresolved review item."
+   },
+   "in_canonical_project_list": true,
+   "verification": {
+    "status": "corrected",
+    "notes": [
+     "Scryfall oracle bulk 2026-10-15: legalities.commander = legal.",
+     "Correction: the source row says present_in_current_final_exports = YES, but the source's approved 100-card file (refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt) has no Lutri line; the companion designation lives only in the approval record. Bot cycle 47 adds `1x Lutri, the Spellchaser [Companion]` to the canonical project list from that record.",
+     "Correction: the companion ban is not visible in Scryfall's legality field (Lutri is legal in the 99), so it is verified against the Wizards list, not Scryfall."
+    ]
+   },
+   "render_label": "🚩 project exception, NOT Commander-legal: banned as a companion in Commander (legal in the 99)"
+  },
+  {
+   "id": "exc:bjorna-nightfall-alchemist-cecily:trade-secrets",
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "card": "Trade Secrets",
+   "oracle_id": "50885640-cdf1-4c62-b3bc-f37db6ab38b5",
+   "zone": "main",
+   "exception_type": "banned_card",
+   "official_commander_legality": "banned",
+   "official_evidence": [
+    "wizards:https://magic.wizards.com/en/banned-restricted-list (Commander section, fetched 2026-10-16): 'Trade Secrets' listed under Commander Banned Cards",
+    "scryfall:2026-10-15 legalities.commander=banned"
+   ],
+   "legal_from": null,
+   "project_authorization_status": "AUTHORIZED_EXCEPTION",
+   "authorized_by": "Cory (source registry v8.1.4: 'User explicitly permits Trade Secrets in this project deck'; re-confirmed in the Bot cycle 47 brief, decision 1)",
+   "source_row": {
+    "index": 2,
+    "exception_type": "project banned-card exception",
+    "project_status": "INTENTIONAL — ACCEPTED",
+    "project_rule": "User explicitly permits Trade Secrets in this project deck. Preserve unless the user requests a change."
+   },
+   "in_canonical_project_list": true,
+   "verification": {
+    "status": "verified",
+    "notes": [
+     "Scryfall oracle bulk 2026-10-15: legalities.commander = banned.",
+     "Bot cycle 16 had replaced this card on import (projection substitution since Bot cycle 47); the canonical project list restores it."
+    ]
+   },
+   "render_label": "🚩 project exception, NOT Commander-legal: banned in Commander"
+  },
+  {
+   "id": "exc:bjorna-nightfall-alchemist-cecily:yawgmoth-s-bargain",
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "card": "Yawgmoth's Bargain",
+   "oracle_id": "f7f76f39-a0de-4bda-86b6-0f291892fcec",
+   "zone": "main",
+   "exception_type": "banned_card",
+   "official_commander_legality": "banned",
+   "official_evidence": [
+    "wizards:https://magic.wizards.com/en/banned-restricted-list (Commander section, fetched 2026-10-16): 'Yawgmoth's Bargain' listed under Commander Banned Cards",
+    "scryfall:2026-10-15 legalities.commander=banned"
+   ],
+   "legal_from": null,
+   "project_authorization_status": "AUTHORIZED_EXCEPTION",
+   "authorized_by": "Cory (source registry v8.1.4: 'User explicitly permits Yawgmoth's Bargain in this project deck'; re-confirmed in the Bot cycle 47 brief, decision 1)",
+   "source_row": {
+    "index": 3,
+    "exception_type": "project banned-card exception",
+    "project_status": "INTENTIONAL — ACCEPTED",
+    "project_rule": "User explicitly permits Yawgmoth's Bargain in this project deck. Preserve unless the user requests a change."
+   },
+   "in_canonical_project_list": true,
+   "verification": {
+    "status": "verified",
+    "notes": [
+     "Scryfall oracle bulk 2026-10-15: legalities.commander = banned.",
+     "Bot cycle 16 had replaced this card on import (projection substitution since Bot cycle 47); the canonical project list restores it."
+    ]
+   },
+   "render_label": "🚩 project exception, NOT Commander-legal: banned in Commander"
+  },
+  {
+   "id": "exc:sauron-lord-of-the-rings:nazgul",
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "card": "Nazgûl",
+   "oracle_id": "48a62778-7c11-486f-a0e1-020c283a7ef9",
+   "zone": "main",
+   "exception_type": "official_card_rule",
+   "official_commander_legality": "legal",
+   "official_evidence": [
+    "scryfall:2026-10-15 Oracle text: 'A deck can have up to nine cards named Nazgûl.'",
+    "cr:903.5b"
+   ],
+   "legal_from": null,
+   "project_authorization_status": "NOT_REQUIRED",
+   "authorized_by": null,
+   "source_row": {
+    "index": 4,
+    "exception_type": "card-specific singleton rule",
+    "project_status": "INTENTIONAL — RULE-BASED",
+    "project_rule": "Nazgûl has card-specific rules text permitting multiple copies; do not flag its permitted multiple-copy count as a singleton violation."
+   },
+   "in_canonical_project_list": true,
+   "verification": {
+    "status": "corrected",
+    "notes": [
+     "Scryfall oracle bulk 2026-10-15: legalities.commander = legal.",
+     "Correction: not a project exception. Multiple copies are allowed by the card's own Oracle text (CR 903.5b), so this is official Commander legality, not a project authorization. This list runs 4 (limit nine).",
+     "Kept in the registry as a documented copy rule so validators and readers see why the singleton check passes."
+    ]
+   },
+   "render_label": "Commander-legal"
+  },
+  {
+   "id": "exc:sauron-the-dark-lord:nazgul",
+   "deck_id": "Sauron__the_Dark_Lord",
+   "card": "Nazgûl",
+   "oracle_id": "48a62778-7c11-486f-a0e1-020c283a7ef9",
+   "zone": "main",
+   "exception_type": "official_card_rule",
+   "official_commander_legality": "legal",
+   "official_evidence": [
+    "scryfall:2026-10-15 Oracle text: 'A deck can have up to nine cards named Nazgûl.'",
+    "cr:903.5b"
+   ],
+   "legal_from": null,
+   "project_authorization_status": "NOT_REQUIRED",
+   "authorized_by": null,
+   "source_row": {
+    "index": 5,
+    "exception_type": "card-specific singleton rule",
+    "project_status": "INTENTIONAL — RULE-BASED",
+    "project_rule": "Nazgûl has card-specific rules text permitting multiple copies; do not flag its permitted multiple-copy count as a singleton violation."
+   },
+   "in_canonical_project_list": true,
+   "verification": {
+    "status": "corrected",
+    "notes": [
+     "Scryfall oracle bulk 2026-10-15: legalities.commander = legal.",
+     "Correction: not a project exception. Multiple copies are allowed by the card's own Oracle text (CR 903.5b), so this is official Commander legality, not a project authorization. This list runs 7 (limit nine).",
+     "Kept in the registry as a documented copy rule so validators and readers see why the singleton check passes."
+    ]
+   },
+   "render_label": "Commander-legal"
+  },
+  {
+   "id": "exc:the-madcap-jester:the-madcap-jester",
+   "deck_id": "The_Madcap_Jester",
+   "card": "The Madcap Jester",
+   "oracle_id": "60f3857d-2dcd-427e-aa0f-e2028bbc5acc",
+   "zone": "main",
+   "exception_type": "future_release",
+   "official_commander_legality": "not_legal_until_release",
+   "official_evidence": [
+    "wizards:https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition: 'New-to-Magic MBC cards will be legal in Commander on November 13, 2026.'",
+    "scryfall:2026-10-15 legalities.commander=not_legal, set mbc, released 2026-10-19"
+   ],
+   "legal_from": "2026-11-13",
+   "project_authorization_status": "AUTHORIZED_FUTURE_RELEASE",
+   "authorized_by": "Cory (source registry v8.1.4: future-release deck planning; re-confirmed in the Bot cycle 47 brief)",
+   "source_row": {
+    "index": 6,
+    "exception_type": "future-release commander",
+    "project_status": "INTENTIONAL — FUTURE RELEASE",
+    "project_rule": "User confirmed this commander is not released yet and is intentionally included for future deck planning. Do not treat its current release/legality status as an unresolved project issue."
+   },
+   "in_canonical_project_list": true,
+   "verification": {
+    "status": "verified",
+    "notes": [
+     "Scryfall oracle bulk 2026-10-15: legalities.commander = not_legal."
+    ]
+   },
+   "render_label": "⏳ authorized future release, NOT Commander-legal yet (legal from 2026-11-13)"
+  },
+  {
+   "id": "exc:the-madcap-jester:dragon-s-smile",
+   "deck_id": "The_Madcap_Jester",
+   "card": "Dragon's Smile",
+   "oracle_id": "e7611ef9-e5fc-45eb-bc3f-4358a27107fd",
+   "zone": "main",
+   "exception_type": "future_release",
+   "official_commander_legality": "not_legal_until_release",
+   "official_evidence": [
+    "wizards:https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition: 'New-to-Magic MBC cards will be legal in Commander on November 13, 2026.'",
+    "scryfall:2026-10-15 legalities.commander=not_legal, set mbc, released 2026-10-19"
+   ],
+   "legal_from": "2026-11-13",
+   "project_authorization_status": "AUTHORIZED_FUTURE_RELEASE",
+   "authorized_by": "Cory (source registry v8.1.4: future-release deck planning; re-confirmed in the Bot cycle 47 brief)",
+   "source_row": {
+    "index": 7,
+    "exception_type": "future-release or project card",
+    "project_status": "INTENTIONAL — ACCEPTED FOR PROJECT",
+    "project_rule": "User confirmed this deck is intentionally being built around unreleased material. Preserve the card as part of that future-planning list unless the user says otherwise."
+   },
+   "in_canonical_project_list": true,
+   "verification": {
+    "status": "verified",
+    "notes": [
+     "Scryfall oracle bulk 2026-10-15: legalities.commander = not_legal."
+    ]
+   },
+   "render_label": "⏳ authorized future release, NOT Commander-legal yet (legal from 2026-11-13)"
+  },
+  {
+   "id": "exc:tresserhorns-lord-returned:tresserhorn-s-lord-returned",
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "card": "Tresserhorn's Lord, Returned",
+   "oracle_id": "11cc638c-b1c5-4b73-8eac-00cac6ae32b6",
+   "zone": "main",
+   "exception_type": "future_release",
+   "official_commander_legality": "not_legal_until_release",
+   "official_evidence": [
+    "wizards:https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition: 'New-to-Magic MBC cards will be legal in Commander on November 13, 2026.'",
+    "scryfall:2026-10-15 legalities.commander=not_legal, set mbc, released 2026-10-19"
+   ],
+   "legal_from": "2026-11-13",
+   "project_authorization_status": "AUTHORIZED_FUTURE_RELEASE",
+   "authorized_by": "Cory (source registry v8.1.4: future-release deck planning; re-confirmed in the Bot cycle 47 brief)",
+   "source_row": {
+    "index": 8,
+    "exception_type": "future-release commander",
+    "project_status": "INTENTIONAL — FUTURE RELEASE",
+    "project_rule": "User confirmed this commander is not released yet and is intentionally included for future deck planning. Do not treat its current release/legality status as an unresolved project issue."
+   },
+   "in_canonical_project_list": true,
+   "verification": {
+    "status": "corrected",
+    "notes": [
+     "Scryfall oracle bulk 2026-10-15: legalities.commander = not_legal.",
+     "Correction: the source's 2026-10-15 approval record reports 'current official Commander legality PASS, no project exception required'. That is wrong today: the card is not_legal until 2026-11-13. Its own registry row (future-release commander) is the correct classification."
+    ]
+   },
+   "render_label": "⏳ authorized future release, NOT Commander-legal yet (legal from 2026-11-13)"
+  }
+ ]
+}

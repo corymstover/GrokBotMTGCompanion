@@ -1272,7 +1272,6 @@
     "Fabled Passage",
     "Feed the Swarm",
     "Fierce Guardianship",
-    "Flame of Anor",
     "Frantic Search",
     "Goblin Electromancer",
     "Goblin Engineer",
@@ -1286,6 +1285,7 @@
     "Jeska's Will",
     "Kess, Dissident Mage",
     "Lightning Greaves",
+    "Lutri, the Spellchaser",
     "Luxury Suite",
     "Mana Geyser",
     "Mnemonic Deluge",
@@ -1327,6 +1327,7 @@
     "Third Path Iconoclast",
     "Thought Vessel",
     "Toxic Deluge",
+    "Trade Secrets",
     "Training Center",
     "Triskaidekaphile",
     "Underground River",
@@ -1337,8 +1338,8 @@
     "Wheel of Misfortune",
     "Whispering Madness",
     "Windfall",
-    "Wizard Class",
-    "Xander's Lounge"
+    "Xander's Lounge",
+    "Yawgmoth's Bargain"
    ],
    "combos": [
     {
@@ -1391,8 +1392,8 @@
      "csb_bracket_tag": "P"
     }
    ],
-   "almost": 108,
-   "queried": "2026-10-15"
+   "almost": 106,
+   "queried": "2026-10-16"
   },
   "Cormela__Glamour_Thief": {
    "sig": [

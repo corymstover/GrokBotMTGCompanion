@@ -15,6 +15,7 @@ schema: 2
 
 ## Contents
 - [2026-10-16 — Bot cycle 48 (phase 2 / M1: Spellbook step cache, batch B)](#2026-10-16--bot-cycle-48-phase-2--m1-spellbook-step-cache-batch-b)
+- [2026-10-16 — Bot cycle 47 (M0: Grixis authority foundation)](#2026-10-16--bot-cycle-47-m0-grixis-authority-foundation)
 - [2026-10-16 — Bot cycle 46 (phase 2: interaction reviews, tooling + batch A)](#2026-10-16--bot-cycle-46-phase-2-interaction-reviews-tooling--batch-a)
 - [2026-10-16 — Bot cycle 45 (full Grixis source archive, single source of truth)](#2026-10-16--bot-cycle-45-full-grixis-source-archive-single-source-of-truth)
 - [2026-10-16 — Bot cycle 44 follow-up (pending legality date → 2026-11-13)](#2026-10-16--bot-cycle-44-follow-up-pending-legality-date--2026-11-13)
@@ -84,6 +85,20 @@ schema: 2
   - re-review Bjorna/Cecily against the restored canonical project list.
 
   Registry, schemas, `grixis_refine.py` and the exception data weren't touched.
+
+## 2026-10-16 — Bot cycle 47 (M0: Grixis authority foundation)
+- **Summary:** milestone M0 of Cory's authority program, after his approval of the [gap analysis](grixis/Grixis%20Authority%20Gap%20Analysis.md) and his eight binding constraints. Model and rules: [Grixis Authority Model](grixis/Grixis%20Authority%20Model.md).
+  - **Registry** `data/grixis/registry.json`: all 62 decks with the §19 fields. 60 start at `SOURCE_BASELINE` and 2 at `PENDING_RELEASE`; nothing is approved. The 62/62 source approvals and the cycle 39–44 refinements are now evidence: 6 *GrokBot challengers (unapproved)*, plus 56 verdicts relabeled "heuristic: no candidate passed v1 gates (not a certificate)". Logical list hash `lh1` is authoritative; the raw hash is recorded.
+  - **Approvals** `data/grixis/approvals.json` (empty). Only Cory can move a deck to APPROVED or CANONICAL_LOCKED, per exact hash. APPROVAL_READY and above also need M2 + M4 accepted and a certificate.
+  - **Legality vs authorization:** separate fields everywhere. `data/grixis/exceptions.json` imports the source's 8-row registry, verified against Scryfall and Wizards; **4 rows corrected** (Lutri's companion ban, Lutri missing from the source's approved file, Nazgûl ×2 are official card rules, Tresserhorn's Lord recorded as legal while it is legal only from 2026-11-13).
+  - **Bjorna + Cecily:** the canonical project list restores Trade Secrets, Yawgmoth's Bargain and Lutri (companion), labeled 🚩 NOT Commander-legal. The Bot cycle 16 replacements are now only the *derived compliance projection (not canonical)*.
+  - **Schemas:** 14 JSON Schemas in `data/grixis/schemas/` (evidence classes, registry, exceptions, approvals, refine v2; v1 drafts for blueprint, graph, audit, candidate, optimizer pass, swap, test, certificate). Cory's constraints are encoded there: provisional dispositions, workload not a gate, independent optimizer passes.
+  - **grixis_refine.py:** v1 is frozen (`--engine v1`). v2 (`--engine v2`) gives exploratory recommendations with gates as diagnostics and protections as priors, analyzes every slot, and reads EDHREC lift, trend, sample size and retrieval date. It never publishes a final list.
+  - **Exports:** every file is labeled (`index.json` manifest). New `source-baseline/` (6 challenger decks + Bjorna) and `projections/`.
+  - **Tests:** a new `tests/` suite (46 tests, including a check that M1 interaction `evidence_class` values match the seven authority classes) and `scripts/run_tests.py`. `validate_all` gained the steps `authority` and `unit-tests`.
+- **Files:** `data/grixis/` (new), `data/grixis_refine_v2.json` (new), `scripts/grixis_authority.py` (new), `scripts/run_tests.py` (new), `tests/` (new), `grixis/Grixis Authority Model.md` (new), `grixis/Grixis Authority Gap Analysis.md` (new), `scripts/build_grixis.py`, `scripts/grixis_refine.py`, `scripts/front_matter.py`, `scripts/validate_all.py`, `scripts/evaluate_decklist.py` (Lutri message: dropped an unverified B&R date), `pytest.ini`, the Bjorna deck page, all 62 refinement blocks (relabeled), `exports/grixis-archidekt/`, `grixis/README.md`, `grixis/Grixis Refinement Cycle.md`, `grixis/Grixis Corrections.md`, the generated indexes.
+- **Reason:** Cory's brief. Heuristics had been acting as authority, a bot-written review had been promoting "final" lists, and a user-authorized exception had been silently replaced. M0 makes authority explicit and machine-checked before any further refinement.
+- **Follow-up for M1:** the interaction reviews hash the legacy export files. For the 6 challenger decks and Bjorna, those files are not the canonical list. M1 should hash `canonical_project_list.export` and review the canonical deltas, including Bjorna's 3 exceptions.
 
 ## 2026-10-16 — Bot cycle 46 (phase 2: interaction reviews, tooling + batch A)
 - **Phase 2 of Cory's program:** an Abaddon-style, card-level rules review per deck, in [grixis/interactions/](grixis/interactions/README.md). Batch A (the first 12 decks alphabetically) is done: **164 rulings** (142 verified, 11 uncertain, 11 flags).

@@ -365,10 +365,10 @@ schema: 2
 
 ### Malcolm, Keen-Eyed Navigator
 
-[Card entry](../cards/M/mal.md#malcolm-keen-eyed-navigator) · **6 pages** (decks 4 · edh guides 2)
+[Card entry](../cards/M/mal.md#malcolm-keen-eyed-navigator) · **7 pages** (decks 4 · edh guides 3)
 
 - **Decks (4):** [Admiral Beckett Brass (Grixis)](../grixis/decks/admiral-beckett-brass.md) · [Admiral Brass, Unsinkable (Grixis)](../grixis/decks/admiral-brass-unsinkable.md) · [Don Andres, the Renegade (Grixis)](../grixis/decks/don-andres-the-renegade.md) · [Edward Kenway (Grixis)](../grixis/decks/edward-kenway.md)
-- **EDH guides (2):** [EDH Packages → Treasure: Repeatable Treasure makers](../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Partner](../EDH%20Pairings.md#partner)
+- **EDH guides (3):** [EDH Packages → Treasure: Repeatable Treasure makers](../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Partner](../EDH%20Pairings.md#partner) · [Grixis Packages → Ramp](../grixis/Grixis%20Packages.md#ramp)
 
 ### Malevolent Hermit // Benevolent Geist
 

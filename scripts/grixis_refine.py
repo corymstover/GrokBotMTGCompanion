@@ -11,8 +11,12 @@ Plans card-level swaps for one batch (--plan N --decks id,id,...). A plan is fro
 Renders: the <!-- REFINED --> block on each planned deck page (refined list + per-deck refinement log),
 grixis/Grixis Refinement Cycle.md, data/grixis_refinement.json, and exports/grixis-archidekt/ (one Archidekt
 import .txt per deck, ALL-DECKS.txt, README.md).
+Bot cycle 47 (M0, authority model): v1 is frozen and kept reproducible (`--engine v1 --plan N`); its outputs are
+GrokBot challengers (unapproved) or "heuristic: no candidate passed v1 gates (not a certificate)". v2 (`--engine v2`)
+writes exploratory recommendations to data/grixis_refine_v2.json and never publishes a final list.
 Usage:
-  python3 scripts/grixis_refine.py --plan 1 --decks A,B,...   # freeze batch 1 swaps (queries Commander Spellbook)
+  python3 scripts/grixis_refine.py --engine v1 --plan 1 --decks A,B,...   # reproduce a v1 batch (queries Commander Spellbook)
+  python3 scripts/grixis_refine.py --engine v2 [--decks A,B]              # exploratory v2 recommendations (offline)
   python3 scripts/grixis_refine.py                             # render everything from frozen plans
   python3 scripts/grixis_refine.py --check                     # validate_all: outputs current + exports match pages
 """
@@ -24,7 +28,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import ingest_scryfall as ing  # noqa: E402
-import evaluate_decklist as ev  # noqa: E402
+import evaluate_decklist as ev
+import grixis_authority as ga  # noqa: E402
 import detect_combos as dc  # noqa: E402
 from deck_calibration import RX  # noqa: E402
 
@@ -269,8 +274,11 @@ def apply_swaps(src_text, swaps):
     return "\n".join(keep + [f"1x {s['add']} [Refined (Bot cycle {s['cycle']})]" for s in swaps]) + "\n"
 
 
-def hard(res, pending_cards=()):
-    return [i for i in res["issues"] if i["type"] in ev.HARD and not (i["type"] == "not Commander-legal" and i["card"] in pending_cards)]
+def hard(res, pending_cards=(), deck_id=None):
+    """Hard failures. Bot cycle 47: registered, Cory-authorized project exceptions (data/grixis/exceptions.json) are
+    accepted for `deck_id` on Commander legality only; callers must still label them NOT Commander-legal."""
+    out = [i for i in res["issues"] if i["type"] in ev.HARD and not (i["type"] == "not Commander-legal" and i["card"] in pending_cards)]
+    return ga.accepted_hard_issues(deck_id, out)[0] if deck_id else out
 
 
 def spellbook(lst, cache, did, fetch):
@@ -295,13 +303,13 @@ def target_of(v):
 
 def plan(dids, batch, R, summ, plans, cycle):
     combos = json.loads(COMBOS.read_text(encoding="utf-8"))["decks"]
-    lists = {d: lines_of(deck_block(ROOT / "grixis" / "decks" / f"{v['slug']}.md"), R) for d, v in summ.items()}
+    lists = {d: lines_of(ga.challenger_base(d, deck_block(ROOT / "grixis" / "decks" / f"{v['slug']}.md"))[0], R) for d, v in summ.items()}
     freq = Counter(n for l in lists.values() for n in nonland_names(l))
     cache = plans.setdefault("spellbook", {})
     reg = json.loads((ROOT / "data" / "grixis_pending.json").read_text(encoding="utf-8"))["decks"]
     for did in dids:
         v = summ[did]
-        src = deck_block(ROOT / "grixis" / "decks" / f"{v['slug']}.md")
+        src = ga.challenger_base(did, deck_block(ROOT / "grixis" / "decks" / f"{v['slug']}.md"))[0]
         lst = lists[did]
         ctx = Ctx([c for q, c, z in lst if z == "commander"])
         have = {c["name"] for q, c, z in lst}
@@ -420,7 +428,7 @@ def plan(dids, batch, R, summ, plans, cycle):
             sb = spellbook(lines_of(text, R), cache, did, True)
             two = sum(1 for co in sb["combos"] if co["infinite"] and len(co["cards"]) == 2)
             fl, _, _ = ev.bracket_floor(res["cards"], two)
-            if not hard(res, pend) and fl <= max(floor_src, tgt) and src_combo_ids <= {co["id"] for co in sb["combos"]}:
+            if not hard(res, pend, did) and fl <= max(floor_src, tgt) and src_combo_ids <= {co["id"] for co in sb["combos"]}:
                 break
             x = swaps.pop()
             rejected.append({"cut": x["cut"], "add": x["add"], "by": "verification", "why": "dropped: the refined list failed legality, the bracket-floor cap or kept-combo check"})
@@ -449,9 +457,11 @@ def render(R, summ, plans, fetch=False):
         p = ROOT / "grixis" / "decks" / f"{v['slug']}.md"
         src = deck_block(p)
         e = plans["decks"].get(did)
-        fin = apply_swaps(src, e["swaps"]) if e and e["swaps"] else src
+        base_text, base = ga.challenger_base(did, src)
+        fin = apply_swaps(base_text, e["swaps"]) if e and e["swaps"] else src
         src_lists[did], fin_lists[did] = lines_of(src, R), lines_of(fin, R)
-        info[did] = {"src_text": src, "fin_text": fin, "plan": e, "page": p}
+        info[did] = {"src_text": src, "fin_text": fin, "plan": e, "page": p, "base": base if e and e["swaps"] else "canonical_project_list",
+                     "challenger": bool(e and e["swaps"])}
     freq = Counter(n for l in src_lists.values() for n in nonland_names(l))
     sets_src = {d: nonland_names(l) for d, l in src_lists.items()}
     sets_fin = {d: nonland_names(l) for d, l in fin_lists.items()}
@@ -475,8 +485,8 @@ def render(R, summ, plans, fetch=False):
         # verification of the final list
         pend = reg.get(did, {}).get("cards", []) if reg.get(did, {}).get("status") == "pending" else []
         res = ev.check(info[did]["fin_text"], R)
-        if hard(res, pend):
-            problems.append(f"{did}: refined list fails {[i['type'] + ' ' + i['card'] for i in hard(res, pend)]}")
+        if hard(res, pend, did):
+            problems.append(f"{did}: refined list fails {[i['type'] + ' ' + i['card'] for i in hard(res, pend, did)]}")
         info[did]["res"] = res
         info[did]["pending"] = pend
         if info[did]["plan"] and info[did]["plan"]["swaps"]:
@@ -497,17 +507,21 @@ def fmt_syn(s):
 
 def block(did, v, info, m, plans):
     e = info["plan"]
-    L = [START, "## Refined list (Bot cycle 39)", "",
-         f"> **Commander-first refinement** ([Grixis Mission](../Grixis%20Mission.md), Cory's principles; log: [Grixis Refinement Cycle](../Grixis%20Refinement%20Cycle.md)). "
-         "The [source list](#decklist-archidekt-import) above stays as integrated, credited to Cory's "
-         "[grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT). This section is **our recommendation (guidance)**. "
-         "Facts behind it: Scryfall Oracle text, legality and Game Changer flags; EDHREC synergy (community data, cached); Commander Spellbook combos. "
-         "Generated by `scripts/grixis_refine.py`.", ""]
+    ch = bool(e["swaps"])
+    L = [START, "## Refined list (Bot cycle 39)", "",  # heading kept as a stable anchor; the content is relabeled (Bot cycle 47)
+         (f"> 🧪 **{ga.CHALLENGER_LABEL}** — evidence, not an approval. " if ch else f"> 🧪 **v1 review record ({ga.V1_HEURISTIC_LABEL}).** ")
+         + "Bot cycles 39–44 commander-first refinement ([Grixis Mission](../Grixis%20Mission.md); log: [Grixis Refinement Cycle](../Grixis%20Refinement%20Cycle.md)), engine `grixis_refine v1` (frozen). "
+         f"The canonical list is the [{'source baseline' if ch else 'source list'}](#decklist-archidekt-import) above (state `{STATE.get(did, 'SOURCE_BASELINE')}` in the "
+         "[authority registry](../../data/grixis/registry.json)), credited to Cory's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT). "
+         + ("This challenger competes with it but has **no approval**: v1's gates are diagnostic evidence ([Grixis Authority Model](../Grixis%20Authority%20Model.md#deck-states)). " if ch else
+            "v1's gates found no qualifying swap. That is a heuristic result, **not a certificate** that the list is at its ceiling. ")
+         + ("Its swaps were computed on the Bot cycle 16 legal list, which is now this deck's derived compliance projection, so the challenger is officially legal. " if info.get("base") == "official_legal_projection" else "")
+         + "Facts behind it: Scryfall Oracle text, legality and Game Changer flags; EDHREC synergy (community data, cached); Commander Spellbook combos. Generated by `scripts/grixis_refine.py`.", ""]
     s, f = m["source"], m["final"]
     L += [f"- **Commander hooks (from Oracle text):** {', '.join(m['hooks']) or '—'}.",
           f"- **Commander dependence:** {s['dependence']:.0%} → **{f['dependence']:.0%}** · generic share {s['generic_share']:.0%} → **{f['generic_share']:.0%}** · "
           f"mean overlap with the other 61 lists {s['mean_overlap']:.0%} → **{f['mean_overlap']:.0%}**.",
-          f"- **Decision:** {e['decision']}."]
+          f"- **v1 decision (historical record):** {e['decision']}." + ("" if ch else f" Bot cycle 47 reading: *{ga.V1_HEURISTIC_LABEL}*.")]
     if info["pending"]:
         L.append(f"- ⏳ **Pending legality:** {', '.join(info['pending'])} are not Commander-legal before {plans_pending_date(did)}; the export is marked pending.")
     if e["swaps"]:
@@ -521,10 +535,11 @@ def block(did, v, info, m, plans):
         res, sb = info["res"], info.get("sb")
         two = sum(1 for co in sb["combos"] if co["infinite"] and len(co["cards"]) == 2) if sb else 0
         fl, gcs, mld = ev.bracket_floor(res["cards"], two)
-        ok = "✅ 100 cards, singleton, color identity, Commander-legal" if not hard(res, info["pending"]) else "❌ fails"
+        ok = ("✅ 100 cards, singleton, color identity, Commander-legal" if not hard(res, info["pending"]) else
+              "✅ 100 cards, singleton, color identity; ❌ not Commander-legal (registered project exceptions)" if not hard(res, info["pending"], did) else "❌ fails")
         L += ["", f"- **Verification (`evaluate_decklist.check`):** {ok}{' (except the ⏳ pending cards)' if info['pending'] else ''}. "
               f"Game Changers {v['gcs'].__len__()} → {len(gcs)} · floor Bracket {v['floor']} → **{fl}** (target {target_of(v)}) · "
-              f"Commander Spellbook: {len(sb["combos"]) if sb else "?"} combo(s) ({two} two-card infinite), every source combo kept (queried {sb['queried'] if sb else '?'}).",
+              f"Commander Spellbook: {len(sb["combos"]) if sb else "?"} combo(s) ({two} two-card infinite), every source combo kept — a v1 gate, kept as diagnostic evidence (queried {sb['queried'] if sb else '?'}).",
               "", "```text", info["fin_text"].strip(), "```"]
     hr = load_review().get("hand_review", {}).get(did)
     if hr:
@@ -539,6 +554,7 @@ def block(did, v, info, m, plans):
 
 
 PEND_DATES = {}
+STATE = {}  # deck_id -> authority state (data/grixis/registry.json), filled in main()
 
 
 def plans_pending_date(did):
@@ -558,6 +574,7 @@ def inject(text, blk):
 
 def export_txt(lst):
     cmd = [f"1 {c['name']} [Commander]" for q_, c, z in lst if z == "commander"]
+    cmd += [f"1 {c['name']} [Companion]" for q_, c, z in lst if z == "companion"]  # Bot cycle 47: outside the 100
     rest = sorted(f"{q_} {c['name']}" for q_, c, z in lst if z == "main")
     rest.sort(key=lambda l: l.split(" ", 1)[1].lower())
     return "\n".join(cmd + rest) + "\n"
@@ -580,7 +597,7 @@ def final_summary(summ, info, metrics, top, plans):
     L = ["## End-of-cycle summary (all 62 decks)", "",
          f"Bot cycles 39–{max(b['cycle'] for b in plans['batches'].values())}, batches 1–{len(plans['batches'])}. "
          f"**{len(done)}/{len(summ)} decks reviewed ({len([d for d in legal if d in done])}/{len(legal)} legal + {len(pdone)}/{len(pend)} ⏳ pending legality): "
-         f"{len(ch)} changed ({nsw} swaps, {nman} hand-picked), {len(done) - len(ch)} at/near ceiling and unchanged.** "
+         f"{len(ch)} produced a GrokBot challenger (unapproved; {nsw} swaps, {nman} hand-picked), {len(done) - len(ch)} with no candidate passing the v1 gates (heuristic, not a certificate).** "
          + (f"The {len(pdone)} pending decks are refined but pending: their refinement pass is done (batch 6), and they stay ⏳ pending until their cards are Commander-legal. " if pdone else "") +
          f"{len(ver)} written verdicts on guard-passing automatic candidates ({sum(1 for x in ver.values() if x['verdict'] == 'accept')} accepted, "
          f"{sum(1 for x in ver.values() if x['verdict'] == 'reject')} rejected); {len(rv.get('hand_review', {}))} hand reviews; "
@@ -598,15 +615,16 @@ def final_summary(summ, info, metrics, top, plans):
          "- **Scoring fixes found by hand review:** Evelyn's exile-play hook (cycle 40); the crimes hook for Marchesa (cycle 41); the wheels / punishers hook (Nekusar), "
          "\"deals damage to an opponent\" (Nicol Bolas), ward no longer counted as a counterspell (cycle 42); unearth (Sedris), life gain and black spells (Sol'kanar), "
          "tapping / blocking creatures (Tetsuo Umezawa), villainous choice / voting (The Valeyard), and reminder text ignored for roles (cycle 43).",
-         "- **Verification:** each changed list passes `evaluate_decklist.check`, keeps every Spellbook combo of the source list, and does not raise the bracket floor.", "",
-         "### Decks that changed", "", "| Deck | Batch | Swaps | Identity impact (commander dependence) | Why |", "|---|---|---|---|---|"]
+         "- **Verification:** each challenger passes `evaluate_decklist.check`, keeps every Spellbook combo of the source list, and does not raise the bracket floor.", "",
+         "### Decks with a GrokBot challenger (unapproved)", "", "Bot cycle 47: these lists are challengers to the canonical source baseline, not approvals ([Grixis Authority Model](Grixis%20Authority%20Model.md#deck-states)).", "", "| Deck | Batch | Swaps | Identity impact (commander dependence) | Why |", "|---|---|---|---|---|"]
     for d in ch:
         e, m = plans["decks"][d], metrics[d]
         why = " ".join((w.get("review") or "").split(". ")[0].rstrip(".") + "." for w in e["swaps"])
         L.append(f"| {lk(d)} | {e['batch']} | " + "; ".join(f"−{w['cut']} +**{w['add']}**{' (hand-picked)' if w.get('manual') else ''}" for w in e["swaps"]) +
                  f" | {', '.join(sorted({w['hook']['label'] for w in e['swaps']}))}: {m['source']['dependence']:.0%} → **{m['final']['dependence']:.0%}** | {q(why)} |")
-    L += ["", "### Decks at their ceiling (unchanged)", "",
-          "No qualifying swap passed the gates, guard and review, so these lists are left as the source built them (principle 2). Hand-reviewed decks are marked 🔎.", ""]
+    L += ["", f"### {ga.V1_HEURISTIC_LABEL[0].upper() + ga.V1_HEURISTIC_LABEL[1:]}", "",
+          "No qualifying swap passed the v1 gates, guard and review, so these lists stay as the source built them (principle 2). "
+          "Bot cycle 47: this is a heuristic outcome of one engine, **not a certificate that a list is at its ceiling**; v1's ceiling shortcut and its \"all candidates failed\" fallback are retired in v2. Hand-reviewed decks are marked 🔎.", ""]
     for b, bv in sorted(plans["batches"].items(), key=lambda kv: int(kv[0])):
         un = [d for d in bv["decks"] if d in done and not plans["decks"][d]["swaps"]]
         if un:
@@ -645,8 +663,12 @@ def summary_page(summ, info, metrics, top, plans):
          "Archidekt exports: [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md).", "",
          f"Grixis source commit used: `{plans.get('source', {}).get('commit', '?')}` ({plans.get('source', {}).get('note', '')}).", "",
          "## Contents", "- [Status](#status)", "- [End-of-cycle summary (all 62 decks)](#end-of-cycle-summary-all-62-decks)", "- [Batch log](#batch-log)", "- [Hand reviews](#hand-reviews)", "- [Overlap review (manual)](#overlap-review-manual)", "- [All decks: metrics](#all-decks-metrics)", "- [Homogenization](#homogenization)", "- [Method](#method)", "",
+         "> 🏛️ **Bot cycle 47 (M0) authority reading.** Every list produced here is a **GrokBot challenger (unapproved)** or a v1 review record. "
+         "The canonical list of each deck is its source baseline (state in [data/grixis/registry.json](../data/grixis/registry.json)). v1 is frozen for reproduction "
+         "(`--engine v1`); v2 (`--engine v2`) writes exploratory recommendations to `data/grixis_refine_v2.json` and never publishes a final list. "
+         "Model: [Grixis Authority Model](Grixis%20Authority%20Model.md).", "",
          "## Status", "",
-         f"- **Reviewed: {len(done)}/62** decks ({sum(1 for d in done if plans['decks'][d]['swaps'])} refined, {sum(1 for d in done if not plans['decks'][d]['swaps'])} at/near ceiling and unchanged). "
+         f"- **Reviewed by v1: {len(done)}/62** decks ({sum(1 for d in done if plans['decks'][d]['swaps'])} GrokBot challengers (unapproved), {sum(1 for d in done if not plans['decks'][d]['swaps'])} heuristic: no candidate passed v1 gates (not a certificate)). "
          f"{sum(1 for d in summ if info[d]['pending'])} decks are ⏳ pending legality (measured; exports marked pending).",
          f"- Mean commander dependence, all 62 (final lists): **{sum(metrics[d]['final']['dependence'] for d in summ) / len(summ):.0%}** · "
          f"mean generic share: **{sum(metrics[d]['final']['generic_share'] for d in summ) / len(summ):.0%}** · "
@@ -684,7 +706,7 @@ def summary_page(summ, info, metrics, top, plans):
     for d, v in sorted(summ.items(), key=lambda kv: metrics[kv[0]]["final"]["dependence"]):
         m, f = metrics[d], metrics[d]["final"]
         e = plans["decks"].get(d)
-        st = ("⏳ pending · " if info[d]["pending"] else "") + ("refined" if e and e["swaps"] else "unchanged (ceiling)" if e else "not reviewed yet")
+        st = ("⏳ pending · " if info[d]["pending"] else "") + ("challenger (unapproved)" if e and e["swaps"] else "no v1 candidate (heuristic)" if e else "not reviewed yet")
         cl = summ[f["max_overlap"][1]]["commanders"][0]
         L.append(f"| [{' + '.join(v['commanders'])}](decks/{v['slug']}.md) | {st} | {m['source']['dependence']:.0%}" + (f" → **{f['dependence']:.0%}**" if e and e["swaps"] else "") +
                  f" | {f['generic_share']:.0%} | {f['mean_overlap']:.0%} | {cl} ({f['max_overlap'][0]:.0%}) | {len(f['thoracle_core'])} | {len(f['control_core'])} | {', '.join(m['hooks'][:4])}{' …' if len(m['hooks']) > 4 else ''} |")
@@ -693,57 +715,256 @@ def summary_page(summ, info, metrics, top, plans):
     L += ["", "## Method", "",
           f"- **Commander dependence (fact-based heuristic):** a nonland, non-commander card counts if (a) its Oracle text or type line matches a *hook* taken from the commander's own Oracle text (mechanic patterns in `HOOKS`, plus creature types named in the commander's text, from CR 205.3m), or (b) its EDHREC synergy on the commander's page is ≥ {DEP_SYN}%. Score = counted / nonland cards. Patterns are loose by design; the score ranks decks, it is not a rules statement.",
           f"- **Generic share:** cards with no commander link that appear in ≥ {GENERIC_MIN} of the 62 source lists. **Overlap:** Jaccard index of nonland card sets. **Thoracle core:** {', '.join(sorted(THORACLE))}. **Control core:** {', '.join(sorted(CONTROL))}.",
-          f"- **Ceiling:** a deck with dependence ≥ {CEIL_DEP:.0%} and generic share ≤ {CEIL_GEN:.0%}, or with no qualifying swap, is flagged at/near its ceiling and left unchanged.",
+          f"- **Ceiling (v1, retired in v2):** v1 flagged a deck with dependence ≥ {CEIL_DEP:.0%} and generic share ≤ {CEIL_GEN:.0%}, or with no qualifying swap, as at/near its ceiling and left it unchanged. Since Bot cycle 47 that is read as *{ga.V1_HEURISTIC_LABEL}*.",
           f"- **Cuts:** only generic cards (≥ {GENERIC_MIN} lists) with no Oracle hook and EDHREC synergy < {CUT_SYN}%. Never a Game Changer, a piece of a Commander Spellbook combo in the list, or a mana source of MV ≤ 2 (speed serves every commander at its ceiling).",
           f"- **Adds:** EDHREC synergy ≥ {ADD_SYN}% and inclusion ≥ {ADD_INC}% on the commander's page, **and** an Oracle hook to the commander; Commander-legal, inside the color identity, no new Game Changer unless the list already has 4+ and targets Bracket 4+, no mass land denial, no extra-turn card unless the list already plays one.",
           f"- **Pairing:** each add replaces a cut whose key roles ({', '.join(KEY_ROLES)}; Oracle patterns) it covers, at MV at most 1 higher; interaction (removal, wipes, counterspells, protection) is only replaced by interaction at equal or lower MV. At most {MAX_SWAPS} swaps per deck per batch.",
           f"- **Power guard (Bot cycle 40):** an add must not be a clear power downgrade of its cut: commander-page inclusion at least the cut's (this commander's players choose it at least as often), overall EDHREC rank no worse than {RANK_X}× the cut's or +{RANK_PLUS}, and no free spell (pitch/commander-free) replaced by a non-free one. Every guard-passing swap needs a written manual review (`data/grixis_refine_review.json`) saying why the add does more in *this* deck; unreviewed swaps are not applied and fail `validate_all`.",
           "- **Verification:** the refined list must pass `evaluate_decklist.check` (100 cards, singleton, color identity, Commander-legal), keep every Commander Spellbook combo of the source list (re-queried), and not raise the bracket floor above the source floor or target. A failing swap is dropped.",
           "- **Frozen decisions:** each batch's swaps are stored in `data/grixis_refine_batches.json`; `validate_all` re-verifies them on every run.",
+          "- **v2 (Bot cycle 47, exploratory):** gates become diagnostics, protections become priors (only explicit project/user constraints veto), combo preservation is reported per candidate instead of required, every nonland slot of every deck is analyzed (no ceiling shortcut), and EDHREC lift, trend z-score, sample size (num_decks / potential_decks) and cache retrieval date are recorded. Output: `data/grixis_refine_v2.json`, recommendations only, labeled exploratory until M2 and M4 are accepted.",
           "- **Limits:** EDHREC synergy measures how often decks of *this* commander play a card versus all decks of its colors: community data, not a quality judgment. The heuristic cannot see multi-card lines the Oracle patterns miss; at-ceiling decks are candidates for a hand review."]
     return "\n".join(L) + "\n"
 
 
 def exports(summ, info, plans):
-    files = {}
+    """Bot cycle 47: every file is labeled. `<slug>.txt` keeps its pre-cycle-47 content (M1 interaction reviews hash it):
+    the GrokBot challenger (unapproved) where v1 produced one, the derived compliance projection where the canonical list
+    keeps project exceptions (Bjorna), otherwise the source baseline (canonical project list).
+    Decks with a challenger also get `source-baseline/<slug>.txt`; decks with a projection get
+    `projections/<slug>.official-legal-projection.txt`. `index.json` lists label, state and hashes per file."""
+    files, manifest = {}, []
     idx = ["# Grixis Archidekt exports", "",
-           "> Generated by `scripts/grixis_refine.py` (Bot cycle 39+). One Archidekt import file per deck: the deck page's **final** list "
-           "(the refined list where a batch changed it, otherwise the source list). Format checked against the source repo's Archidekt package "
-           "(`exports/archidekt_2026-10-15/`: one `1x Card Name` line per card, commander first, no set codes); here lines read `1 Card Name` and the "
-           "commander line carries Archidekt's `[Commander]` category so Archidekt sets it as commander on import. Paste one file into one deck. "
-           "`ALL-DECKS.txt` is for reference only (do not paste it into one deck). `validate_all` checks every file against its deck page.", "",
-           "| # | File | Commander(s) | Status | Changes vs previous version | Key notes (final list) |", "|---|---|---|---|---|---|"]
+           "> Generated by `scripts/grixis_refine.py` (Bot cycle 39+; labels and authority states since Bot cycle 47). **Every file is labeled.** "
+           f"**{ga.BASELINE_LABEL}** is the deck's one canonical project list. **{ga.CHALLENGER_LABEL}** is a GrokBot cycle 39–44 refinement that competes with it and has no approval. "
+           f"**{ga.PROJECTION_LABEL}** is an officially legal version derived from a canonical list that keeps project exceptions; it never competes for authority. "
+           "Deck states come from the [authority registry](../../data/grixis/registry.json); nothing here is APPROVED or CANONICAL_LOCKED until Cory signs off "
+           "([Grixis Authority Model](../../grixis/Grixis%20Authority%20Model.md)). Machine-readable manifest: [`index.json`](index.json).", "",
+           "> Format checked against the source repo's Archidekt package (`exports/archidekt_2026-10-15/`: one `1x Card Name` line per card, commander first, no set codes); "
+           "here lines read `1 Card Name`, commander lines carry Archidekt's `[Commander]` category and a companion line carries `[Companion]` (outside the 100). "
+           "Paste one file into one deck. `ALL-DECKS.txt` is for reference only (do not paste it into one deck). `validate_all` checks every file against its deck page.", "",
+           "| # | File | Label | State | Commander(s) | Legality | Changes vs canonical | Key notes |", "|---|---|---|---|---|---|---|---|"]
     rv = load_review()
     flags = {x["deck"]: x["item"].split(". ")[0] for x in rv.get("final", {}).get("flags", []) if x.get("deck")}
+    exc_decks = {x["deck_id"] for x in ga.load_json(ga.EXCEPTIONS, {"exceptions": []})["exceptions"] if x["project_authorization_status"] == "AUTHORIZED_EXCEPTION"}
     master = []
+
+    def add(path, txt, did, role, label, legality):
+        files[path] = txt
+        manifest.append({"file": str(path.relative_to(EXP)), "deck_id": did, "commanders": summ[did]["commanders"], "role": role, "label": label,
+                         "state": STATE.get(did, "SOURCE_BASELINE") if role == "canonical" else "CHALLENGER" if role == "challenger" else None,
+                         "official_commander_compliance": legality, "list_hash": ga.text_hash(txt, ev_R), "raw_sha256": ga.raw_hash(txt.encode("utf-8"))})
+
     for i, (did, v) in enumerate(summ.items(), 1):
-        lst = lines_of(info[did]["fin_text"], ev_R)
-        txt = export_txt(lst)
-        files[EXP / f"{v['slug']}.txt"] = txt
         e = info[did]["plan"]
-        st = ("⏳ PENDING LEGALITY (not Commander-legal before " + plans_pending_date(did) + ") · " if info[did]["pending"] else "") + \
-             ("refined" if e and e["swaps"] else "unchanged (at/near ceiling)" if e else "unchanged (not reviewed yet)")
-        ch = "; ".join(f"−{w['cut']} +{w['add']} ({w['hook']['label']})" for w in e["swaps"]) if e and e["swaps"] else "none"
+        pend = info[did]["pending"]
+        leg_c = "pending_release" if pend else "not_compliant_project_exceptions" if did in exc_decks else "compliant"
+        leg_txt = {"pending_release": f"⏳ not Commander-legal before {plans_pending_date(did)}", "not_compliant_project_exceptions": "🚩 NOT Commander-legal (project exceptions)", "compliant": "✅ Commander-legal"}
+        canon = export_txt(lines_of(info[did]["src_text"], ev_R))
+        st = STATE.get(did, "SOURCE_BASELINE")
         m = info[did].get("metrics")
         hr = rv.get("hand_review", {}).get(did)
         note = ([f"dependence {m['source']['dependence']:.0%}" + (f" → {m['final']['dependence']:.0%}" if e and e["swaps"] else "") + (f"; hooks: {', '.join(m['hooks'][:3])}{' …' if len(m['hooks']) > 3 else ''}" if m['hooks'] else "")] if m else []) + \
                ([f"hand review: {hr['verdict']}"] if hr else []) + ([f"⚠️ {flags[did]}"] if did in flags else []) + \
-               ([f"protected core: {', '.join(rv['protect'][did]['cards'])}"] if did in rv.get("protect", {}) else [])
-        idx.append(f"| {i} | [{v['slug']}.txt]({v['slug']}.txt) | {' + '.join(v['commanders'])} | {st} | {ch} | {q('; '.join(note)) or '—'} |")
-        master += [f"===== {i:02d}/62 — {' + '.join(v['commanders'])} — {st} =====", txt.rstrip(), ""]
+               ([f"protected core (v1 prior): {', '.join(rv['protect'][did]['cards'])}"] if did in rv.get("protect", {}) else [])
+        if info[did]["challenger"]:
+            txt = export_txt(lines_of(info[did]["fin_text"], ev_R))
+            ch = "; ".join(f"−{w['cut']} +{w['add']} ({w['hook']['label']})" for w in e["swaps"])
+            if info[did]["base"] == "official_legal_projection":
+                ch = "on the derived compliance projection: " + ch
+            add(EXP / f"{v['slug']}.txt", txt, did, "challenger", ga.CHALLENGER_LABEL, "pending_release" if pend else "compliant")
+            add(EXP / "source-baseline" / f"{v['slug']}.txt", canon, did, "canonical", ga.BASELINE_LABEL, leg_c)
+            idx.append(f"| {i} | [{v['slug']}.txt]({v['slug']}.txt) | 🧪 {ga.CHALLENGER_LABEL} | CHALLENGER | {' + '.join(v['commanders'])} | {leg_txt['pending_release' if pend else 'compliant']} | {ch} | {q('; '.join(note)) or '—'} |")
+            idx.append(f"| {i} | [source-baseline/{v['slug']}.txt](source-baseline/{v['slug']}.txt) | {ga.BASELINE_LABEL} | {st} | {' + '.join(v['commanders'])} | {leg_txt[leg_c]} | — (canonical) | v1 verdict: challenger produced |")
+            lab = ga.CHALLENGER_LABEL
+        elif ga.projection_text(did, info[did]["src_text"]):
+            # the deck's canonical list keeps project exceptions: the legacy path keeps its pre-cycle-47 bytes (the officially
+            # legal list that M1 interaction reviews hashed) and is labeled as the projection; the canonical file is source-baseline/
+            txt = export_txt(lines_of(ga.projection_text(did, info[did]["src_text"]), ev_R))
+            add(EXP / f"{v['slug']}.txt", txt, did, "projection", ga.PROJECTION_LABEL, "compliant")
+            add(EXP / "source-baseline" / f"{v['slug']}.txt", canon, did, "canonical", ga.BASELINE_LABEL, leg_c)
+            idx.append(f"| {i} | [{v['slug']}.txt]({v['slug']}.txt) | {ga.PROJECTION_LABEL} (legacy path, byte-stable for M1 interaction hashes) | — (never in an approval state) | {' + '.join(v['commanders'])} | ✅ Commander-legal | derived from the canonical list | same list as projections/ |")
+            idx.append(f"| {i} | [source-baseline/{v['slug']}.txt](source-baseline/{v['slug']}.txt) | {ga.BASELINE_LABEL} | {st} | {' + '.join(v['commanders'])} | {leg_txt[leg_c]} | — (canonical) | v1 verdict: {ga.V1_HEURISTIC_LABEL if e else 'not reviewed by v1'}; {q('; '.join(note)) or '—'} |")
+            lab = ga.PROJECTION_LABEL
+        else:
+            txt = canon
+            add(EXP / f"{v['slug']}.txt", txt, did, "canonical", ga.BASELINE_LABEL, leg_c)
+            vv = ga.V1_HEURISTIC_LABEL if e else "not reviewed by v1"
+            idx.append(f"| {i} | [{v['slug']}.txt]({v['slug']}.txt) | {ga.BASELINE_LABEL} | {st} | {' + '.join(v['commanders'])} | {leg_txt[leg_c]} | — (canonical) | v1 verdict: {vv}; {q('; '.join(note)) or '—'} |")
+            lab = ga.BASELINE_LABEL
+        pt = ga.projection_text(did, info[did]["src_text"])
+        if pt:
+            ptxt = export_txt(lines_of(pt, ev_R))
+            add(EXP / "projections" / f"{v['slug']}.official-legal-projection.txt", ptxt, did, "projection", ga.PROJECTION_LABEL, "compliant")
+            idx.append(f"| {i} | [projections/{v['slug']}.official-legal-projection.txt](projections/{v['slug']}.official-legal-projection.txt) | {ga.PROJECTION_LABEL} | — (never in an approval state) | {' + '.join(v['commanders'])} | ✅ Commander-legal | derived from the canonical list | substitutions on the deck page |")
+        master += [f"===== {i:02d}/62 — {' + '.join(v['commanders'])} — {lab} · {'CHALLENGER' if info[did]['challenger'] else st}{' · ' + leg_txt['pending_release'] if pend else ''} =====", txt.rstrip(), ""]
     files[EXP / "ALL-DECKS.txt"] = "\n".join(master)
+    files[EXP / "index.json"] = json.dumps({"_doc": "Bot cycle 47: manifest of exports/grixis-archidekt (scripts/grixis_refine.py). role canonical = source baseline (the deck's one canonical project list); challenger = GrokBot challenger (unapproved); projection = derived compliance projection (not canonical, never in an approval state). list_hash is the logical lh1 hash (data/grixis/registry.json hash_definition); raw_sha256 hashes the file bytes.",
+                                            "schema_version": 1, "files": manifest}, indent=1, ensure_ascii=False) + "\n"
     fu = rv.get("final", {}).get("pending_followup", "")
     idx += ["", "## Import notes", "",
             "- ⚠️ **Not tested in Archidekt itself.** The files are checked offline on every `validate_all` run. Each matches its deck page card for card. "
-            "Each is 100 cards, with the commander line(s) first and tagged `[Commander]`, no duplicate lines and no blank lines inside the list, and each passes "
-            "`evaluate_decklist.check` (singleton, color identity, Commander legality). Paste one deck into Archidekt and confirm the commander category before relying on it.",
-            "- ⏳ The two pending decks are exported for completeness, but they are not Commander-legal yet. Both have had their refinement pass (batch 6). "
-            "The status column shows the registry's `legal_from`, Wizards' official Commander date for new MBC cards: 2026-11-13 "
+            "Each is 100 cards plus at most one `[Companion]` line, with the commander line(s) first and tagged `[Commander]`, no duplicate lines and no blank lines inside the list. "
+            "Each passes `evaluate_decklist.check` (singleton, color identity, Commander legality), except that registered project exceptions are accepted and labeled 🚩 NOT Commander-legal. "
+            "Paste one deck into Archidekt and confirm the commander category before relying on it.",
+            "- 🚩 **Project exceptions:** a canonical list may keep Cory-authorized exceptions (registry `data/grixis/exceptions.json`). Such a file is never Commander-legal; "
+            "its officially legal version is the matching file in `projections/`.",
+            "- ⏳ The two pending decks are exported for completeness, but they are not Commander-legal yet. "
+            "The legality column shows the registry's `legal_from`, Wizards' official Commander date for new MBC cards: 2026-11-13 "
             "([What's Inside Mystery Booster Commander Edition?](https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition)). " + fu,
-            "- Full method, every change with its written review, flagged items and homogenization findings: "
+            "- Full method, every challenger swap with its written review, flagged items and homogenization findings: "
             "[Grixis Refinement Cycle](../../grixis/Grixis%20Refinement%20Cycle.md#end-of-cycle-summary-all-62-decks)."]
     files[EXP / "README.md"] = "\n".join(idx) + "\n"
     return files
+
+
+# ---------------------------------------------------------------- v2 (Bot cycle 47, M0): exploratory, diagnostic, never final
+REFINE_V2 = ROOT / "data" / "grixis_refine_v2.json"
+V2_LABEL = "GrokBot challenger (unapproved) — exploratory v2 recommendations"
+V2_OBJECTIVE = ("commander-identity heuristic v2: one heuristic pass ranking weak slots and commander-linked adds. Not an optimizer certificate. "
+                "M6 runs two independent optimizer passes (commander-first / blueprint fidelity vs measured performance) with different objective functions, "
+                "reconciled afterwards (data/grixis/schemas/optimizer_pass.schema.json).")
+SMALL_SAMPLE = 50  # potential_decks below this: EDHREC numbers are low-confidence
+
+
+def edhrec_full(cmds):
+    """EDHREC cardview stats confirmed in the cache: synergy, lift, num_decks, potential_decks, trend_zscore.
+    The payload carries no fetch timestamp, so the retrieval date is the cache file's mtime; savedate_counts gives the newest deck save."""
+    slugs = ["-".join(sorted(eslug(c) for c in cmds))] if len(cmds) > 1 else []
+    slugs += [eslug(c) for c in cmds]
+    out, used, dates, stats = {}, [], [], Counter()
+    for s in slugs:
+        p = EDH / f"commanders__{s}.json"
+        if not p.exists():
+            continue
+        d = json.loads(p.read_text(encoding="utf-8"))
+        if "container" not in d:
+            continue
+        used.append(s)
+        dates.append(dt.datetime.fromtimestamp(p.stat().st_mtime, dt.timezone.utc).date().isoformat())
+        sv = sorted((d.get("savedate_counts") or {}).keys())
+        for cl in d["container"]["json_dict"].get("cardlists", []):
+            if cl.get("tag") in ("newcards", "topcommanders", "newcommanders"):
+                continue
+            for v in cl.get("cardviews", []):
+                stats["cardviews"] += 1
+                stats["with_lift"] += v.get("lift") is not None
+                stats["with_trend"] += v.get("trend_zscore") is not None
+                if v.get("synergy") is None or not v.get("potential_decks"):
+                    continue
+                out.setdefault(v["name"], {"synergy": round(100 * v["synergy"]), "lift": None if v.get("lift") is None else round(v["lift"], 3),
+                                           "inclusion": round(100 * v["num_decks"] / v["potential_decks"], 1), "num_decks": v["num_decks"],
+                                           "potential_decks": v["potential_decks"], "trend_zscore": v.get("trend_zscore"),
+                                           "small_sample": v["potential_decks"] < SMALL_SAMPLE, "page": s, "newest_deck_save": sv[-1] if sv else None})
+        if len(cmds) > 1 and s == slugs[0]:
+            break
+    return out, used, (max(dates) if dates else None), stats
+
+
+def plan_v2(dids, R, summ):
+    """Exploratory recommendations for every nonland slot of every listed deck. Differences from v1 (Cory decision, M0):
+    no at-ceiling shortcut and no "all candidates failed, so ceiling" fallback; gates (power guard, role parity, combo
+    preservation, bracket) are recorded as diagnostics, not vetoes; reviewer protections, Game Changers, combo pieces and
+    cheap mana are priors; only explicit project/user constraints (registered project exceptions, the commanders) are hard."""
+    combos = json.loads(COMBOS.read_text(encoding="utf-8"))["decks"]
+    lists = {d: lines_of(deck_block(ROOT / "grixis" / "decks" / f"{v['slug']}.md"), R) for d, v in summ.items()}
+    freq = Counter(n for l in lists.values() for n in nonland_names(l))
+    prot = load_review().get("protect", {})
+    exc = ga.load_json(ga.EXCEPTIONS, {"exceptions": []})["exceptions"]
+    lift = Counter()
+    out = {}
+    for did in dids:
+        v = summ[did]
+        text = deck_block(ROOT / "grixis" / "decks" / f"{v['slug']}.md")
+        lst = lists[did]
+        cmds = [c for q_, c, z in lst if z == "commander"]
+        ctx = Ctx(cmds)
+        st, pages, retrieved, stats = edhrec_full([c["name"] for c in cmds])
+        lift.update(stats)
+        lift["pages"] += len(pages)
+        have = {c["name"] for q_, c, z in lst}
+        ci = set().union(*(set(c.get("color_identity", [])) for c in cmds))
+        tgt = target_of(v)
+        constraint = {x["card"]: x for x in exc if x["deck_id"] == did and x["project_authorization_status"] == "AUTHORIZED_EXCEPTION"}
+        pieces = {}
+        for co in combos.get(did, {}).get("combos", []):
+            for n in co["cards"]:
+                pieces.setdefault(n, []).append(co["id"])
+        slots = []
+        for c in (c for q_, c, z in lst if z == "main" and not is_land(c)):
+            if c["name"] in constraint:
+                continue
+            h, s = ctx.hook(c), st.get(c["name"])
+            pri = []
+            if c["name"] in prot.get(did, {}).get("cards", []):
+                pri.append("reviewer-protected core (v1 review, data/grixis_refine_review.json): prior, not a veto")
+            if c.get("game_changer"):
+                pri.append("Game Changer: power prior")
+            if c["name"] in pieces:
+                pri.append(f"piece of {len(pieces[c['name']])} Commander Spellbook combo(s): prior; a cut would break them (reported)")
+            if "ramp" in roles(c) and c.get("cmc", 0) <= 2:
+                pri.append("cheap mana (MV <= 2): speed prior")
+            diag = {"oracle_hook": h["label"] if h else None, "edhrec": s, "lists_of_62": freq[c["name"]], "roles": sorted(roles(c)), "mv": c.get("cmc", 0)}
+            w = (0 if h else 2) + (1 if not s or s["synergy"] < CUT_SYN else 0) + (1 if freq[c["name"]] >= GENERIC_MIN else 0) \
+                - (0.5 if s and s["inclusion"] >= 50 and not s["small_sample"] else 0) - 0.75 * len(pri)
+            diag["weakness_score"] = round(w, 2)
+            slots.append((w, c, diag, pri))
+        slots.sort(key=lambda x: (-x[0], x[1]["name"]))
+        adds = []
+        for n, s in sorted(st.items(), key=lambda kv: (-kv[1]["synergy"], -kv[1]["inclusion"], kv[0])):
+            c, _ = R.get(n)
+            if not c or c["name"] in have or is_land(c) or s["synergy"] < ADD_SYN:
+                continue
+            if c.get("legalities", {}).get("commander") != "legal" or not set(c.get("color_identity", [])) <= ci:
+                continue  # official legality and color identity are rules, not heuristics
+            adds.append((c, s, ctx.hook(c)))
+        recs, used = [], set()
+        for c, s, h in adds[:40]:
+            if len(recs) >= MAX_SWAPS:
+                break
+            opts = []
+            for w, k, kd, kp in slots[:12]:
+                if k["name"] in used:
+                    continue
+                rk = roles(k)
+                cap = k.get("cmc", 0) if rk & INTERACTION else k.get("cmc", 0) + 1
+                if not (rk <= roles(c) and c.get("cmc", 0) <= cap):
+                    continue  # pairing needs a role match to be a coherent swap; still only a recommendation
+                ok, reasons = guard(k, c, ctx)
+                opts.append((not ok, len(opts), k, kd, kp, ok, reasons))
+            # the guard is a diagnostic, not a veto: a guard-passing pairing is preferred, a failing one is still reported as such
+            for _, _, k, kd, kp, ok, reasons in sorted(opts, key=lambda o: o[:2])[:1]:
+                parity = True
+                used.add(k["name"])
+                diag = {"power_guard": {"pass": ok, "notes": reasons}, "role_parity": parity, "add_oracle_hook": h["label"] if h else None,
+                        "add_edhrec": s, "cut_edhrec": st.get(k["name"]), "cut_weakness": kd["weakness_score"],
+                        "breaks_source_combos": pieces.get(k["name"], []),
+                        "bracket_signals": [x for x, f in (("Game Changer", c.get("game_changer")), ("mass land denial", ev.MLD.search(otext(c))),
+                                                           ("extra turn", "extra turn" in otext(c).lower())) if f], "target_bracket": tgt}
+                ev_refs = [f"oracle:{k['name']}", f"oracle:{c['name']}", f"edhrec:.cache/edhrec/commanders__{s['page']}.json#{c['name']}"] + \
+                          ([f"spellbook:data/grixis_combos.json#{did}"] if pieces.get(k["name"]) else [])
+                recs.append({"cut": k["name"], "add": c["name"], "diagnostics": diag, "priors": kp, "evidence": ev_refs})
+                break
+        out[did] = {"deck_id": did, "base_hash": ga.text_hash(text, R), "label": V2_LABEL, "state": "CHALLENGER",
+                    "edhrec": {"pages": pages, "retrieved": retrieved}, "objective": V2_OBJECTIVE,
+                    "hard_constraints": [f"{x['card']}: registered project exception ({x['id']}); an automated engine never cuts it" for x in constraint.values()]
+                                        + ["commanders are fixed; lands are outside v2's scope (M2 blueprint work)"],
+                    "weakest_slots": [{"card": c["name"], "diagnostics": d, "priors": pr} for w, c, d, pr in slots[:8]],
+                    "recommendations": recs,
+                    "verdict": (f"{len(recs)} exploratory recommendation(s); not a final list and not approved — promotion needs an M2 blueprint and M4 tests" if recs else
+                                "no candidate identified by v2 heuristics; this is NOT evidence that the list is at its ceiling")}
+        print(f"  v2 {did}: {len(recs)} recommendation(s)", flush=True)
+    ms = ga.load_json(ga.REGISTRY, {"program": {"milestones": {}}})["program"]["milestones"]
+    st2, st4 = (ms.get("M2") or {}).get("status", "not_started"), (ms.get("M4") or {}).get("status", "not_started")
+    gate_open = st2 == "accepted" and st4 == "accepted"
+    return {"_doc": "Bot cycle 47+: grixis_refine v2 output. Recommendations only: never a final list, never written to deck pages or exports. "
+                    "Labeled exploratory until M2 and M4 are accepted (Cory constraint 6). Schema: data/grixis/schemas/refine_v2.schema.json.",
+            "schema_version": 1, "engine": "grixis_refine v2", "exploratory": not gate_open, "generated": dt.date.today().isoformat(),
+            "m6_gate": {"M2": st2, "M4": st4, "open": gate_open},
+            "lift_check": {"pages": lift["pages"], "cardviews": lift["cardviews"], "with_lift": lift["with_lift"], "with_trend": lift["with_trend"],
+                           "note": "Confirmed in the cached EDHREC commander JSON: each cardview carries synergy, lift, num_decks, potential_decks and trend_zscore. "
+                                   "No fetch timestamp in the payload, so retrieval date = cache file mtime (UTC date)."},
+            "decks": out}
 
 
 ev_R = None
@@ -756,12 +977,26 @@ def main():
     ap.add_argument("--decks", default="")
     ap.add_argument("--cycle", type=int, default=39)
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--engine", choices=("v1", "v2"), help="v1: frozen Bot cycle 39-44 planner, for reproduction only (--plan needs --engine v1); "
+                    "v2: exploratory recommendations -> data/grixis_refine_v2.json (Bot cycle 47)")
     a = ap.parse_args()
+    if a.plan and a.engine != "v1":
+        ap.error("--plan runs the frozen v1 planner; pass --engine v1 explicitly to reproduce it (new work: --engine v2)")
     R = ev_R = ev.Resolver()
     summ = json.loads(SUM.read_text(encoding="utf-8"))
     reg = json.loads((ROOT / "data" / "grixis_pending.json").read_text(encoding="utf-8"))["decks"]
     PEND_DATES.update({k: x["legal_from"] for k, x in reg.items()})
+    STATE.update({k: x["state"] for k, x in (ga.load_json(ga.REGISTRY, {"decks": {}})["decks"]).items()})
     plans = json.loads(PLANS.read_text(encoding="utf-8")) if PLANS.exists() else {"_doc": "Frozen Grixis refinement plans (scripts/grixis_refine.py).", "batches": {}, "decks": {}, "log": {}, "spellbook": {}}
+    if a.engine == "v2" and not a.check:
+        dids = [d.strip() for d in a.decks.split(",") if d.strip()] or list(summ)
+        old = ga.load_json(REFINE_V2) or {}
+        doc = plan_v2(dids, R, summ)
+        if a.decks and old.get("decks"):
+            doc["decks"] = {**old["decks"], **doc["decks"]}
+        REFINE_V2.write_text(json.dumps(doc, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+        print(f"grixis refine v2: {len(doc['decks'])} decks, {sum(len(x['recommendations']) for x in doc['decks'].values())} exploratory recommendation(s) -> {REFINE_V2.relative_to(ROOT)}")
+        return 0
     if a.plan:
         import subprocess
         import grixis_archive  # Bot cycle 45: the companion's source archive is the source of truth
@@ -823,29 +1058,53 @@ def main():
             cur = p.read_text(encoding="utf-8") if p.exists() else None
             if cur != t:
                 problems.append(f"{p.relative_to(ROOT)} is stale (run scripts/grixis_refine.py)")
-        # each export matches its deck page's final list and passes the hard checks
+        # each export matches its deck page list and passes the hard checks (Bot cycle 47: challenger, source baseline and projection files)
+        exc_ok = {x["deck_id"] for x in ga.load_json(ga.EXCEPTIONS, {"exceptions": []})["exceptions"] if x["project_authorization_status"] == "AUTHORIZED_EXCEPTION"}
         for did, v in summ.items():
-            ep = EXP / f"{v['slug']}.txt"
-            if not ep.exists():
-                problems.append(f"exports/grixis-archidekt/{v['slug']}.txt missing"); continue
-            exp_l = Counter((c["name"] if c else None, z) for q_, c, z in lines_of(ep.read_text(encoding="utf-8"), R) for _ in range(q_))
-            fin_l = Counter((c["name"], z) for q_, c, z in lines_of(info[did]["fin_text"], R) for _ in range(q_))
-            if exp_l != fin_l:
-                problems.append(f"exports/grixis-archidekt/{v['slug']}.txt differs from the deck page's final list")
-            if hard(ev.check(ep.read_text(encoding="utf-8"), R), info[did]["pending"]):
-                problems.append(f"exports/grixis-archidekt/{v['slug']}.txt fails the hard checks")
-            # Bot cycle 43 final export pass: Archidekt line format
-            raw = ep.read_text(encoding="utf-8").rstrip("\n").split("\n")
-            bad = [l for l in raw if not re.fullmatch(r"\d+ [^\s].*[^\s]", l)]
-            if bad or not raw:
-                problems.append(f"exports/grixis-archidekt/{v['slug']}.txt has malformed line(s): {bad[:3]}")
-            cmdl = [l for l in raw if l.endswith(" [Commander]")]
-            if not cmdl or raw[:len(cmdl)] != cmdl or not all(l.startswith("1 ") for l in cmdl):
-                problems.append(f"exports/grixis-archidekt/{v['slug']}.txt: commander line(s) must come first as `1 Name [Commander]`")
-            if sum(int(l.split(" ", 1)[0]) for l in raw if not bad) != 100:
-                problems.append(f"exports/grixis-archidekt/{v['slug']}.txt is not 100 cards")
-            if len({l.split(" ", 1)[1] for l in raw}) != len(raw):
-                problems.append(f"exports/grixis-archidekt/{v['slug']}.txt repeats a card line")
+            pt = ga.projection_text(did, info[did]["src_text"])
+            want = {EXP / f"{v['slug']}.txt": (info[did]["fin_text"], "challenger") if info[did]["challenger"] else (pt, "projection") if pt else (info[did]["src_text"], "canonical")}
+            if info[did]["challenger"] or pt:
+                want[EXP / "source-baseline" / f"{v['slug']}.txt"] = (info[did]["src_text"], "canonical")
+            if pt:
+                want[EXP / "projections" / f"{v['slug']}.official-legal-projection.txt"] = (pt, "projection")
+            for ep, (ref, role) in want.items():
+                rel = ep.relative_to(ROOT)
+                if not ep.exists():
+                    problems.append(f"{rel} missing"); continue
+                exp_l = Counter((c["name"] if c else None, z) for q_, c, z in lines_of(ep.read_text(encoding="utf-8"), R) for _ in range(q_))
+                fin_l = Counter((c["name"], z) for q_, c, z in lines_of(ref, R) for _ in range(q_))
+                if exp_l != fin_l:
+                    problems.append(f"{rel} differs from the deck page's {role} list")
+                res_e = ev.check(ep.read_text(encoding="utf-8"), R)
+                if hard(res_e, info[did]["pending"], did if role == "canonical" else None):
+                    problems.append(f"{rel} fails the hard checks")
+                if role == "canonical" and did in exc_ok and hard(res_e, info[did]["pending"]) == []:
+                    problems.append(f"{rel}: deck has registered project exceptions but the file passes plain legality (exception registry stale?)")
+                comp_ban = [i for i in res_e["issues"] if i["type"] == "companion" and "banned as a companion" in i["detail"]]
+                if comp_ban and (role != "canonical" or did not in exc_ok):
+                    problems.append(f"{rel}: carries a companion banned as a companion outside a registered project exception")
+                raw = ep.read_text(encoding="utf-8").rstrip("\n").split("\n")
+                bad = [l for l in raw if not re.fullmatch(r"\d+ [^\s].*[^\s]", l)]
+                if bad or not raw:
+                    problems.append(f"{rel} has malformed line(s): {bad[:3]}")
+                cmdl = [l for l in raw if l.endswith(" [Commander]")]
+                compl = [l for l in raw if l.endswith(" [Companion]")]
+                if not cmdl or raw[:len(cmdl)] != cmdl or not all(l.startswith("1 ") for l in cmdl):
+                    problems.append(f"{rel}: commander line(s) must come first as `1 Name [Commander]`")
+                if len(compl) > 1 or (compl and raw[len(cmdl)] != compl[0]):
+                    problems.append(f"{rel}: at most one `1 Name [Companion]` line, right after the commander line(s)")
+                if sum(int(l.split(" ", 1)[0]) for l in raw if not bad and l not in compl) != 100:
+                    problems.append(f"{rel} is not 100 cards (companion excluded)")
+                if len({l.split(" ", 1)[1] for l in raw}) != len(raw):
+                    problems.append(f"{rel} repeats a card line")
+        man = json.loads((EXP / "index.json").read_text(encoding="utf-8")) if (EXP / "index.json").exists() else {"files": []}
+        for x in man["files"]:
+            if x["role"] == "projection" and (x["state"] is not None or x["label"] != ga.PROJECTION_LABEL):
+                problems.append(f"index.json {x['file']}: a projection is never canonical or in a state")
+            if x["role"] == "challenger" and x["label"] != ga.CHALLENGER_LABEL:
+                problems.append(f"index.json {x['file']}: challenger must be labeled '{ga.CHALLENGER_LABEL}'")
+            if x["role"] != "canonical" and x["state"] in ga.GATED_STATES:
+                problems.append(f"index.json {x['file']}: only a canonical list can carry an approval state")
         for d in summ:
             for w in (plans["decks"].get(d) or {}).get("needs_review", []):
                 problems.append(f"{d}: swap −{w['cut']} +{w['add']} has no manual review in data/grixis_refine_review.json")

@@ -158,10 +158,10 @@ schema: 2
 
 ### Sai, Master Thopterist
 
-[Card entry](../cards/S/sai.md#sai-master-thopterist) · **11 pages** (decks 6 · edh guides 3 · card data 2)
+[Card entry](../cards/S/sai.md#sai-master-thopterist) · **10 pages** (decks 6 · edh guides 2 · card data 2)
 
 - **Decks (6):** [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Breya, Etherium Shaper](../decks/breya-etherium-shaper.md) · [Cult of Skaro (Grixis)](../grixis/decks/cult-of-skaro.md) · [Mai and Zuko (Grixis)](../grixis/decks/mai-and-zuko.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
-- **EDH guides (3):** [EDH Packages → Artifacts: Artifact payoffs](../EDH%20Packages.md#artifacts-artifact-payoffs) · [EDH Standards → Artifacts as ammunition — Breya, Etherium Shaper (WUBR, artifacts)](../EDH%20Standards.md#artifacts-as-ammunition--breya-etherium-shaper-wubr-artifacts) · [Grixis Packages → Tokens](../grixis/Grixis%20Packages.md#tokens)
+- **EDH guides (2):** [EDH Packages → Artifacts: Artifact payoffs](../EDH%20Packages.md#artifacts-artifact-payoffs) · [EDH Standards → Artifacts as ammunition — Breya, Etherium Shaper (WUBR, artifacts)](../EDH%20Standards.md#artifacts-as-ammunition--breya-etherium-shaper-wubr-artifacts)
 - **Card data (2):** [Artist Index → Artists B](../Artist%20Index.md#artists-b) (+1 more) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Saint Traft and Rem Karolus

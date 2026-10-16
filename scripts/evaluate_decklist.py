@@ -124,7 +124,7 @@ def check(text, R):
         zone = "commander" if e in cmdrs else "companion" if e in comp else "main"
         if zone == "companion":
             issues.append({"type": "companion", "card": c["name"], "detail": f"companion outside the 100; Scryfall commander legality {leg}" +
-                           ("; Lutri is banned as a companion in Commander (B&R 2026-02-09)" if c["name"].startswith("Lutri") else "")})
+                           ("; Lutri is banned as a companion in Commander (Wizards banned & restricted list; legal in the 99)" if c["name"].startswith("Lutri") else "")})
         elif leg != "legal":
             issues.append({"type": "banned" if leg == "banned" else "not Commander-legal", "card": c["name"], "detail": f"Scryfall commander legality: {leg}"})
         if not set(c.get("color_identity", [])) <= ci:

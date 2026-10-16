@@ -1,0 +1,921 @@
+{
+ "_doc": "Bot cycle 47: manifest of exports/grixis-archidekt (scripts/grixis_refine.py). role canonical = source baseline (the deck's one canonical project list); challenger = GrokBot challenger (unapproved); projection = derived compliance projection (not canonical, never in an approval state). list_hash is the logical lh1 hash (data/grixis/registry.json hash_definition); raw_sha256 hashes the file bytes.",
+ "schema_version": 1,
+ "files": [
+  {
+   "file": "abaddon-the-despoiler.txt",
+   "deck_id": "Abaddon_the_Despoiler",
+   "commanders": [
+    "Abaddon the Despoiler"
+   ],
+   "role": "challenger",
+   "label": "GrokBot challenger (unapproved)",
+   "state": "CHALLENGER",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:9733dbea8028e5f5ae4199e4ac3deb4dbef23836b3fa68e24bb25a3a388f664d",
+   "raw_sha256": "sha256:848b3bdcf8dac911ccaa9a448cd9c943b1d7a10dd135dd690ee935d005ce0b44"
+  },
+  {
+   "file": "source-baseline/abaddon-the-despoiler.txt",
+   "deck_id": "Abaddon_the_Despoiler",
+   "commanders": [
+    "Abaddon the Despoiler"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+   "raw_sha256": "sha256:5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff"
+  },
+  {
+   "file": "admiral-beckett-brass.txt",
+   "deck_id": "Admiral_Beckett_Brass",
+   "commanders": [
+    "Admiral Beckett Brass"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+   "raw_sha256": "sha256:dbc2ce511a88eb94d70357edbf0088cf26110c3052bd2230eeb6a583b4437808"
+  },
+  {
+   "file": "admiral-brass-unsinkable.txt",
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "commanders": [
+    "Admiral Brass, Unsinkable"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+   "raw_sha256": "sha256:e29dc5ed5ec6cc85863cf82408f7ecb29128e6668b5adf6ac60ea2c2b4deb2b5"
+  },
+  {
+   "file": "anhelo-the-painter.txt",
+   "deck_id": "Anhelo__the_Painter",
+   "commanders": [
+    "Anhelo, the Painter"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+   "raw_sha256": "sha256:29ad395f939b5b7cbd2f2b72c4a7db6e0fb8c3e6458dec77ebb2dc009696a0a2"
+  },
+  {
+   "file": "ashad-the-lone-cyberman.txt",
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "commanders": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+   "raw_sha256": "sha256:13fa3b590700b08a41783ab763a1055f9f82103db01a3757a3662be7a092637c"
+  },
+  {
+   "file": "ashnod-the-uncaring.txt",
+   "deck_id": "Ashnod_the_Uncaring",
+   "commanders": [
+    "Ashnod the Uncaring"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+   "raw_sha256": "sha256:b96f2d08a8659c3e51611c2203ca4599c4c606f927280f1b7515abb96385ce39"
+  },
+  {
+   "file": "belakor-the-dark-master.txt",
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "commanders": [
+    "Be'lakor, the Dark Master"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+   "raw_sha256": "sha256:75543f31a16d5398fabe73ce29a2ca2999ea9e1c33f2f62b11a33b3ad7f21eb0"
+  },
+  {
+   "file": "bjorna-nightfall-alchemist-cecily.txt",
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "commanders": [
+    "Bjorna, Nightfall Alchemist",
+    "Cecily, Haunted Mage"
+   ],
+   "role": "projection",
+   "label": "derived compliance projection (not canonical)",
+   "state": null,
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:09811b33dd57c63ad2e58a256ddaf2eebc7e80a6a0c6d2c09e72dc3cc1b87e81",
+   "raw_sha256": "sha256:31f7fae30dcee31b0c92d8baf2c943f396061b2cb51b7771e4e260e55b9aadc8"
+  },
+  {
+   "file": "source-baseline/bjorna-nightfall-alchemist-cecily.txt",
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "commanders": [
+    "Bjorna, Nightfall Alchemist",
+    "Cecily, Haunted Mage"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "not_compliant_project_exceptions",
+   "list_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+   "raw_sha256": "sha256:745885c96c41ba3b00c4e7bab3fe677c333cfb225927ea914ecc3212a9a0d871"
+  },
+  {
+   "file": "projections/bjorna-nightfall-alchemist-cecily.official-legal-projection.txt",
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "commanders": [
+    "Bjorna, Nightfall Alchemist",
+    "Cecily, Haunted Mage"
+   ],
+   "role": "projection",
+   "label": "derived compliance projection (not canonical)",
+   "state": null,
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:09811b33dd57c63ad2e58a256ddaf2eebc7e80a6a0c6d2c09e72dc3cc1b87e81",
+   "raw_sha256": "sha256:31f7fae30dcee31b0c92d8baf2c943f396061b2cb51b7771e4e260e55b9aadc8"
+  },
+  {
+   "file": "cormela-glamour-thief.txt",
+   "deck_id": "Cormela__Glamour_Thief",
+   "commanders": [
+    "Cormela, Glamour Thief"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+   "raw_sha256": "sha256:29dad7ed42b4c5b81bb507f96d3638c6dbe8f509f6d8e8f935f25df484930578"
+  },
+  {
+   "file": "crosis-the-purger.txt",
+   "deck_id": "Crosis__the_Purger",
+   "commanders": [
+    "Crosis, the Purger"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "raw_sha256": "sha256:04784e892c930bb5e60f8551ffffa7e9527634359db38378fd1bd7e4c8e3647d"
+  },
+  {
+   "file": "cult-of-skaro.txt",
+   "deck_id": "Cult_of_Skaro",
+   "commanders": [
+    "Cult of Skaro"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+   "raw_sha256": "sha256:e17919e46769952d0318157693b278c29ba9a39a352105fa76df9abb9a868e7d"
+  },
+  {
+   "file": "davros-dalek-creator.txt",
+   "deck_id": "Davros__Dalek_Creator",
+   "commanders": [
+    "Davros, Dalek Creator"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+   "raw_sha256": "sha256:c4d7cc547b742cc562c33e9ab3debca5d2c51fdeaad0b81a9f01e0a2c4f5bf30"
+  },
+  {
+   "file": "doctor-doom-king-of-latveria.txt",
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "commanders": [
+    "Doctor Doom, King of Latveria"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+   "raw_sha256": "sha256:3505f9a465a8ed61f9689d7a38c67b47d68b487001565b9ccc08de82a62f1574"
+  },
+  {
+   "file": "don-andres-the-renegade.txt",
+   "deck_id": "Don_Andres__the_Renegade",
+   "commanders": [
+    "Don Andres, the Renegade"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+   "raw_sha256": "sha256:3c5a31e6cf23e2b81d7d4e85d28426231de10d714aae769da886aeff384c7e03"
+  },
+  {
+   "file": "dr-eggman.txt",
+   "deck_id": "Dr__Eggman",
+   "commanders": [
+    "Dr. Eggman"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+   "raw_sha256": "sha256:7110223f41570f87c3e5aa879cb46f2727ab94c43f96163cd861f2561882744a"
+  },
+  {
+   "file": "edea-possessed-sorceress.txt",
+   "deck_id": "Edea__Possessed_Sorceress",
+   "commanders": [
+    "Edea, Possessed Sorceress"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+   "raw_sha256": "sha256:d41924a6b09c4232b438aa863c833a28f67bdd6598c9bba470ae66f23428acd6"
+  },
+  {
+   "file": "edward-kenway.txt",
+   "deck_id": "Edward_Kenway",
+   "commanders": [
+    "Edward Kenway"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+   "raw_sha256": "sha256:1e8b8ea5e52e2ea499f07f0d72cbc4305b81cfbf370a163d1378dacc01690b9b"
+  },
+  {
+   "file": "evelyn-the-covetous.txt",
+   "deck_id": "Evelyn__the_Covetous",
+   "commanders": [
+    "Evelyn, the Covetous"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+   "raw_sha256": "sha256:e230c85b8254f533b0a8d6e2e5699e9eac000010f594a822892c3d74cd76390f"
+  },
+  {
+   "file": "fire-lord-azula.txt",
+   "deck_id": "Fire_Lord_Azula",
+   "commanders": [
+    "Fire Lord Azula"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+   "raw_sha256": "sha256:e52f1cbbf1b17f3e3cef0ef9d466e93bdf5e85bc4d32ac5f2856b4bd2b36fda4"
+  },
+  {
+   "file": "garza-zol-plague-queen.txt",
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "commanders": [
+    "Garza Zol, Plague Queen"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "raw_sha256": "sha256:b0dfe1fc5ad19d3d8b3eeb350b1abc42f0de3e32526032a558b5717df32e5fda"
+  },
+  {
+   "file": "norman-osborn.txt",
+   "deck_id": "Goben__Gene_Splice_Savant",
+   "commanders": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "role": "challenger",
+   "label": "GrokBot challenger (unapproved)",
+   "state": "CHALLENGER",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:f18a9fa5dbf3b029a97ae9aa61501b21e4d4e04c362284dc4e41c567d315c83e",
+   "raw_sha256": "sha256:8e7e4781227a0c516f4a40efdf2ea36c2f96ab7199f39589e5bbea267816275d"
+  },
+  {
+   "file": "source-baseline/norman-osborn.txt",
+   "deck_id": "Goben__Gene_Splice_Savant",
+   "commanders": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+   "raw_sha256": "sha256:6017ff8c9557b58ede769d4a467093fb84f780b3e3fe09cd580880cd7c91382f"
+  },
+  {
+   "file": "goro-goro-and-satoru.txt",
+   "deck_id": "Goro_Goro_and_Satoru",
+   "commanders": [
+    "Goro-Goro and Satoru"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+   "raw_sha256": "sha256:bdc129bcd94c00b293ddaabb4585ac3130fb4eca7ca8646177335900e7aedfec"
+  },
+  {
+   "file": "grixistax-october-2026.txt",
+   "deck_id": "Grixistax___October_2026",
+   "commanders": [
+    "Kraum, Ludevic's Opus",
+    "Tevesh Szat, Doom of Fools"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "raw_sha256": "sha256:f0a28f936c03705df0e215738e4ad314d337bb3e713dcf7b2c50beba5a2f9a08"
+  },
+  {
+   "file": "gwendlyn-di-corci.txt",
+   "deck_id": "Gwendlyn_Di_Corci",
+   "commanders": [
+    "Gwendlyn Di Corci"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+   "raw_sha256": "sha256:4120c13480a4daa65cfd672e720c9e8a7bc83b7964730aaf342bf1da44589ca4"
+  },
+  {
+   "file": "inalla-archmage-ritualist.txt",
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "commanders": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+   "raw_sha256": "sha256:45924e0eabb7a253004d5cdf69c32f7ab82d1e0e7406938a033a8f8b39026598"
+  },
+  {
+   "file": "jeleva-nephalias-scourge.txt",
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "commanders": [
+    "Jeleva, Nephalia's Scourge"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+   "raw_sha256": "sha256:900a09d494293665662756ef2be07998b9d86af42c2a23ea54900953f9f181af"
+  },
+  {
+   "file": "kefka-court-mage.txt",
+   "deck_id": "Kefka__Court_Mage",
+   "commanders": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "role": "challenger",
+   "label": "GrokBot challenger (unapproved)",
+   "state": "CHALLENGER",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:fd8516d4ccbe5fba254caae877d316dfdc2f4fc23eb7ea0d285bdc19725aa33e",
+   "raw_sha256": "sha256:9388bb55da7655d18604837675e4fcb72ced74414fd184841f2074b7e31d1de0"
+  },
+  {
+   "file": "source-baseline/kefka-court-mage.txt",
+   "deck_id": "Kefka__Court_Mage",
+   "commanders": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+   "raw_sha256": "sha256:1bf9bb268230bdf1978b734b906a2d5ff44f0dd06ce8f400fc694f0f90348391"
+  },
+  {
+   "file": "kess-dissident-mage.txt",
+   "deck_id": "Kess__Dissident_Mage",
+   "commanders": [
+    "Kess, Dissident Mage"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+   "raw_sha256": "sha256:94dee35afe9fdb9871ee84abc0ac616ab23e133198d7d5d0ddba090b6942f2bd"
+  },
+  {
+   "file": "loki-the-deceiver.txt",
+   "deck_id": "Loki__the_Deceiver",
+   "commanders": [
+    "Loki, the Deceiver"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+   "raw_sha256": "sha256:a46c0474940b72ac3ae843bd8e6fdcdd9dd10988222dbe0a23a42daeb96cfd53"
+  },
+  {
+   "file": "lord-xander-the-collector.txt",
+   "deck_id": "Lord_Xander__the_Collector",
+   "commanders": [
+    "Lord Xander, the Collector"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+   "raw_sha256": "sha256:26b1674fef88552f6e5f2eaff5c85bcefb05ac1a4afb90b728ae8218f24fab63"
+  },
+  {
+   "file": "lord-of-tresserhorn.txt",
+   "deck_id": "Lord_of_Tresserhorn",
+   "commanders": [
+    "Lord of Tresserhorn"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+   "raw_sha256": "sha256:ce42932da71b7ae64899536b586fe031cd51f6a639074fd94590d1d66a79379b"
+  },
+  {
+   "file": "lynde-cheerful-tormentor.txt",
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "commanders": [
+    "Lynde, Cheerful Tormentor"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "raw_sha256": "sha256:f1d4ed17411a4229260f39f4e79f6f014bffb29f3c601fedf3488d03676abf82"
+  },
+  {
+   "file": "mai-and-zuko.txt",
+   "deck_id": "Mai_and_Zuko",
+   "commanders": [
+    "Mai and Zuko"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+   "raw_sha256": "sha256:0e399fea73acb804044395007e7bb9d9416863b41e09c9f10cd1c3f4c5b9651e"
+  },
+  {
+   "file": "mairsil-the-pretender.txt",
+   "deck_id": "Mairsil__the_Pretender",
+   "commanders": [
+    "Mairsil, the Pretender"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+   "raw_sha256": "sha256:843c09811f41b7bcdf5d7e4aec1c27de69d48dfa071cd3cc905541618bf10e94"
+  },
+  {
+   "file": "marchesa-dealer-of-death.txt",
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "commanders": [
+    "Marchesa, Dealer of Death"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+   "raw_sha256": "sha256:0f07ba66bdbfb883b3513098988621df7b83092eb5cc08cf01669416b961d4cb"
+  },
+  {
+   "file": "marchesa-the-black-rose.txt",
+   "deck_id": "Marchesa__the_Black_Rose",
+   "commanders": [
+    "Marchesa, the Black Rose"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+   "raw_sha256": "sha256:cbea04a72dd309e4d99dcbffc8d4c8674a6c0d5ba4533a668a28e2dcd564131a"
+  },
+  {
+   "file": "mishra-artificer-prodigy.txt",
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "commanders": [
+    "Mishra, Artificer Prodigy"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+   "raw_sha256": "sha256:33e1354d2064b12b56108f4cbc4b663e0d1bb51c1449d40588172a2c1a2680b7"
+  },
+  {
+   "file": "mishra-eminent-one.txt",
+   "deck_id": "Mishra__Eminent_One",
+   "commanders": [
+    "Mishra, Eminent One"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+   "raw_sha256": "sha256:13f54e4dd95e420371a70b002cd959c580fcbc9d7f360367288c8784da86caaf"
+  },
+  {
+   "file": "missy.txt",
+   "deck_id": "Missy",
+   "commanders": [
+    "Missy"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+   "raw_sha256": "sha256:6127c9e74e6e7cc22f9d98b5f93038b7cd957dd70c6bf12efb1285a8d5ac129e"
+  },
+  {
+   "file": "nathan-drake-treasure-hunter.txt",
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "commanders": [
+    "Nathan Drake, Treasure Hunter"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+   "raw_sha256": "sha256:112b792ce420b422a35d9d9f301cd826a4ca46b50f5c25736683eb80c6160698"
+  },
+  {
+   "file": "nekusar-the-mindrazer.txt",
+   "deck_id": "Nekusar__the_Mindrazer",
+   "commanders": [
+    "Nekusar, the Mindrazer"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+   "raw_sha256": "sha256:485e4aa8caea97c607374dde3e15c052ee87e15502ee2161a37cc0ecfbe2cf5f"
+  },
+  {
+   "file": "nicol-bolas.txt",
+   "deck_id": "Nicol_Bolas",
+   "commanders": [
+    "Nicol Bolas"
+   ],
+   "role": "challenger",
+   "label": "GrokBot challenger (unapproved)",
+   "state": "CHALLENGER",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:f3ce7004631abc8beff7fd50afccfc7f5ac8e4a04f80ad63e542f5b1f310edb5",
+   "raw_sha256": "sha256:9d2f109997c68597b70284fc641521690de8ed3340d405e28ec366dfb813684d"
+  },
+  {
+   "file": "source-baseline/nicol-bolas.txt",
+   "deck_id": "Nicol_Bolas",
+   "commanders": [
+    "Nicol Bolas"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+   "raw_sha256": "sha256:1c271131d2cb3f824a292391932dbb111c3eb9653051424c16db76a6c16e91b0"
+  },
+  {
+   "file": "nicol-bolas-the-ravager.txt",
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "commanders": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+   "raw_sha256": "sha256:ff0f90a467b05c94bdf58371d37a848946877ec707115ac5e47c2260bc40c1f4"
+  },
+  {
+   "file": "obeka-brute-chronologist.txt",
+   "deck_id": "Obeka__Brute_Chronologist",
+   "commanders": [
+    "Obeka, Brute Chronologist"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+   "raw_sha256": "sha256:76fc5a3f9a098d4999c8ce85f8226a0ceef9a5077822b0335e01b8a594b5ea4d"
+  },
+  {
+   "file": "obeka-splitter-of-seconds.txt",
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "commanders": [
+    "Obeka, Splitter of Seconds"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "raw_sha256": "sha256:671cdee3418a74c1d67c164c1c5fcc58359d705724024fd12638d2403cac9a4d"
+  },
+  {
+   "file": "parnesse-the-subtle-brush.txt",
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "commanders": [
+    "Parnesse, the Subtle Brush"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+   "raw_sha256": "sha256:8c32a449aa6ee96ff110e1813f40a6797b0dea722a57acdd91e0ac93e78fd93b"
+  },
+  {
+   "file": "rograkh-son-of-rohgahh-silas-renn.txt",
+   "deck_id": "RogSi",
+   "commanders": [
+    "Rograkh, Son of Rohgahh",
+    "Silas Renn, Seeker Adept"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+   "raw_sha256": "sha256:74b8f96561a79946547da9f34f1926dc4bab81b65fab224e8edb1b7198cbb57a"
+  },
+  {
+   "file": "saruman-the-white-hand.txt",
+   "deck_id": "Saruman__the_White_Hand",
+   "commanders": [
+    "Saruman, the White Hand"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+   "raw_sha256": "sha256:d08e2578f1193c283ea882e9d8565f4c5d00bedb3bc2b625bf3760403a9cfa30"
+  },
+  {
+   "file": "sauron-lord-of-the-rings.txt",
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "commanders": [
+    "Sauron, Lord of the Rings"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "raw_sha256": "sha256:0db8b7c1b7a77f9964a14812dffb9d58f37e40a91c6152fc20e33b3917077c90"
+  },
+  {
+   "file": "sauron-the-dark-lord.txt",
+   "deck_id": "Sauron__the_Dark_Lord",
+   "commanders": [
+    "Sauron, the Dark Lord"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "raw_sha256": "sha256:1d553979b827147118b5262797ae38dea83be27e2f5f045b371046a33076b11d"
+  },
+  {
+   "file": "sedris-the-traitor-king.txt",
+   "deck_id": "Sedris__the_Traitor_King",
+   "commanders": [
+    "Sedris, the Traitor King"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+   "raw_sha256": "sha256:ddcd18ab4826834cde491cd21b8f9697c77677dc8890a696b3ad6bd5f4e96aa0"
+  },
+  {
+   "file": "solkanar-the-swamp-king.txt",
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "commanders": [
+    "Sol'kanar the Swamp King"
+   ],
+   "role": "challenger",
+   "label": "GrokBot challenger (unapproved)",
+   "state": "CHALLENGER",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:8dc092033f64a65a9c2484240c23046e567e8511b5f130f96e06201335b8eb0b",
+   "raw_sha256": "sha256:7c77a2f282ef0cfeb0174b0d9cd4cc9f5f89f35de8bfd3bbbb04727b3e7b0bc3"
+  },
+  {
+   "file": "source-baseline/solkanar-the-swamp-king.txt",
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "commanders": [
+    "Sol'kanar the Swamp King"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+   "raw_sha256": "sha256:bf475d9c7048874d439972282b85de5684e0fde03095a2257e9249cdb7661ccd"
+  },
+  {
+   "file": "solkanar-the-tainted.txt",
+   "deck_id": "Sol_kanar_the_Tainted",
+   "commanders": [
+    "Sol'Kanar the Tainted"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "raw_sha256": "sha256:b1e622ad8c0a49e626d9df8cc87c0def392bb9c13e907216a8b212b790f3fc24"
+  },
+  {
+   "file": "tetsuo-umezawa.txt",
+   "deck_id": "Tetsuo_Umezawa",
+   "commanders": [
+    "Tetsuo Umezawa"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "raw_sha256": "sha256:73a45c0240c9b5a86dfdc417d805eadbb171bec3b37e05316e3944bc58656a8f"
+  },
+  {
+   "file": "tetsuo-imperial-champion.txt",
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "commanders": [
+    "Tetsuo, Imperial Champion"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "raw_sha256": "sha256:1e551bc95c4918b340539539ed8ba1275f791d4f19330eb6141f84a48927a0d4"
+  },
+  {
+   "file": "the-madcap-jester.txt",
+   "deck_id": "The_Madcap_Jester",
+   "commanders": [
+    "The Madcap Jester"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "PENDING_RELEASE",
+   "official_commander_compliance": "pending_release",
+   "list_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "raw_sha256": "sha256:1ce93f38a1dc81a07c3f499beb168ba2ac0512da1718ea02ab4204cefb0d8f03"
+  },
+  {
+   "file": "the-rani.txt",
+   "deck_id": "The_Rani",
+   "commanders": [
+    "The Rani"
+   ],
+   "role": "challenger",
+   "label": "GrokBot challenger (unapproved)",
+   "state": "CHALLENGER",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:b58f43a8cb1349cbf2d31b872f21443c4c58d118be8c1a03e77ae8d68f4f4de0",
+   "raw_sha256": "sha256:d7c1f021f0be912342a3275185b1fc10011cc4fcf8f8ddd0afe93f9cb9294649"
+  },
+  {
+   "file": "source-baseline/the-rani.txt",
+   "deck_id": "The_Rani",
+   "commanders": [
+    "The Rani"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+   "raw_sha256": "sha256:4f0bccdd5201b57b7a57ced76afbd62d97bc3db7ca2bac08694b37abf25b98c7"
+  },
+  {
+   "file": "the-valeyard.txt",
+   "deck_id": "The_Valeyard",
+   "commanders": [
+    "The Valeyard"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "raw_sha256": "sha256:f68cb26275da3a765e1009fc62fd6de4bb834cab57770dc6ed4f3f74578dc404"
+  },
+  {
+   "file": "thraximundar.txt",
+   "deck_id": "Thraximundar",
+   "commanders": [
+    "Thraximundar"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+   "raw_sha256": "sha256:e5cf53533e1e71adce8e404d00cbad9a31c5ad68b9ac79632319ffc9b26e133e"
+  },
+  {
+   "file": "tresserhorns-lord-returned.txt",
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "commanders": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "PENDING_RELEASE",
+   "official_commander_compliance": "pending_release",
+   "list_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+   "raw_sha256": "sha256:d30533e2a9574c55552115353ba2c16fc36aacf11be3c4b700d52bc9cddbcd3e"
+  },
+  {
+   "file": "wick-the-whorled-mind.txt",
+   "deck_id": "Wick__the_Whorled_Mind",
+   "commanders": [
+    "Wick, the Whorled Mind"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+   "raw_sha256": "sha256:0d784f93911618a7f6698ad8f1ad0799399ed2305df5c9568dbdbfb75b31f8e5"
+  },
+  {
+   "file": "zevlor-elturel-exile.txt",
+   "deck_id": "Zevlor__Elturel_Exile",
+   "commanders": [
+    "Zevlor, Elturel Exile"
+   ],
+   "role": "canonical",
+   "label": "source baseline (canonical project list, SOURCE_BASELINE)",
+   "state": "SOURCE_BASELINE",
+   "official_commander_compliance": "compliant",
+   "list_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+   "raw_sha256": "sha256:6a8966fca69ad99c1796104a14f6aae186446c80db5cc2e2744ee283aad5e022"
+  }
+ ]
+}

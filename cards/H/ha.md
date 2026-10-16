@@ -4679,7 +4679,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #270 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
-- **Referenced in:** 16 pages (11 decks · 4 edh guides · 1 card data) → [reverse index](../../references/H.md#haunted-ridge)
+- **Referenced in:** 15 pages (11 decks · 3 edh guides · 1 card data) → [reverse index](../../references/H.md#haunted-ridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/180/haunted-ridge) · oracle_id `e2a37967-4212-4553-9f77-bcb613405807` · printing: FRA #180 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Haunted Screen

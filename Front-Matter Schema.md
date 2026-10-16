@@ -5,14 +5,14 @@ tags: [schema, front-matter, tags, retrieval]
 issues: [65]
 generated_by: scripts/front_matter.py
 sources: []
-related: ["EDH Bracket Calibration.md", "Knowledge Index.md", "Lore Primary Sources.md", "Art & Flavor Story Links.md", "Card Data Conventions.md", "Characters Index.md"]
+related: ["EDH Bracket Calibration.md", "Knowledge Index.md", "Lore Primary Sources.md", "grixis/Grixis Authority Model.md", "Art & Flavor Story Links.md", "Card Data Conventions.md"]
 schema: 2
 ---
 
 # Front-Matter Schema
 
 > **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **2**. Do not hand-edit.
-> Coverage: **54** registered pages (README.md and GOAL.md are exempt), **110** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
+> Coverage: **56** registered pages (README.md and GOAL.md are exempt), **110** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
 
 ## Contents
 - [Format](#format)
@@ -64,6 +64,8 @@ Every entry starts with a YAML block between `---` lines. Values are flat: strin
 | `lore_score` | float 0–100 | when applicable | Lore decks only (Bot cycle 23): % of non-basic cards (commander + non-lands + non-basic lands) that are story-linked. |
 | `lore_standard_met` | bool | when applicable | Lore decks only: lore_score ≥ 85 (the Lore-Themed Deckbuilding standard; enforced by `build_lore_decks.py --check`). |
 | `source_repo` | string | when applicable | Grixis decks only: the read-only source repository. |
+| `official_commander_compliance` | enum: not_compliant_project_exceptions | when applicable | Bot cycle 47 (M0): present only on decks whose canonical project list keeps Cory-authorized project exceptions (data/grixis/exceptions.json). Such a deck is never reported as legal; `validated` is false. Official Commander legality and project authorization are separate fields everywhere. |
+| `project_exceptions` | list of card names | when applicable | Bot cycle 47: the registered project-exception cards in this deck (not Commander-legal; companion bans included). |
 | `legality_status` | enum: pending | when applicable | Bot cycle 38: present only on decks published before some cards are Commander-legal (data/grixis_pending.json). validate_all accepts the listed cards only while legal_from is in the future. |
 | `legal_from` | date YYYY-MM-DD | when applicable | Pending decks only: the official date the not-yet-legal cards become Commander-legal (data/grixis_pending.json → legal_from_source; Bot cycle 44: Wizards' MBC announcement, 2026-11-13). |
 | `pending_cards` | list of card names | when applicable | Pending decks only: the cards that are not Commander-legal yet. |
@@ -136,12 +138,14 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 
 | Tag | Pages |
 |---|---|
+| `approvals` | [Grixis Authority Model](grixis/Grixis%20Authority%20Model.md) |
 | `archetypes` | [EDH Archetypes](EDH%20Archetypes.md) |
 | `arcs` | [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) · [Story Arc Summaries](Story%20Arc%20Summaries.md) |
 | `art` | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) |
 | `art-credits` | [Artist Index](Artist%20Index.md) |
 | `artifacts` | [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) |
 | `artists` | [Artist Index](Artist%20Index.md) |
+| `authority` | [Grixis Authority Gap Analysis](grixis/Grixis%20Authority%20Gap%20Analysis.md) · [Grixis Authority Model](grixis/Grixis%20Authority%20Model.md) |
 | `background` | [EDH Pairings](EDH%20Pairings.md) |
 | `banned-restricted` | [Format Legality Matrix](Format%20Legality%20Matrix.md) |
 | `blueprint` | [EDH Deck Template](EDH%20Deck%20Template.md) |
@@ -182,7 +186,8 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `formats` | [Format Legality Matrix](Format%20Legality%20Matrix.md) |
 | `front-matter` | [Front-Matter Schema](Front-Matter%20Schema.md) |
 | `game-changers` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) |
-| `grixis` | [Grixis Corrections](grixis/Grixis%20Corrections.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) · [Grixis Integration Summary](grixis/Grixis%20Integration%20Summary.md) · [Grixis Mission](grixis/Grixis%20Mission.md) · [Grixis Packages](grixis/Grixis%20Packages.md) · [Grixis Refinement Cycle](grixis/Grixis%20Refinement%20Cycle.md) · [README](grixis/README.md) |
+| `governance` | [Grixis Authority Gap Analysis](grixis/Grixis%20Authority%20Gap%20Analysis.md) · [Grixis Authority Model](grixis/Grixis%20Authority%20Model.md) |
+| `grixis` | [Grixis Authority Gap Analysis](grixis/Grixis%20Authority%20Gap%20Analysis.md) · [Grixis Authority Model](grixis/Grixis%20Authority%20Model.md) · [Grixis Corrections](grixis/Grixis%20Corrections.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) · [Grixis Integration Summary](grixis/Grixis%20Integration%20Summary.md) · [Grixis Mission](grixis/Grixis%20Mission.md) · [Grixis Packages](grixis/Grixis%20Packages.md) · [Grixis Refinement Cycle](grixis/Grixis%20Refinement%20Cycle.md) · [README](grixis/README.md) |
 | `homogenization` | [Grixis Refinement Cycle](grixis/Grixis%20Refinement%20Cycle.md) |
 | `index` | [Card Index](Card%20Index.md) · [Knowledge Index](Knowledge%20Index.md) · [Lore Entry Index](Lore%20Entry%20Index.md) · [README](grixis/README.md) |
 | `interaction` | [EDH Interaction](EDH%20Interaction.md) |
@@ -190,7 +195,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `items` | [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) |
 | `keywords` | [Keyword Encyclopedia](Keyword%20Encyclopedia.md) |
 | `lands` | [EDH Mana Bases](EDH%20Mana%20Bases.md) |
-| `legality` | [Format Legality Matrix](Format%20Legality%20Matrix.md) · [Grixis Corrections](grixis/Grixis%20Corrections.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) |
+| `legality` | [Format Legality Matrix](Format%20Legality%20Matrix.md) · [Grixis Authority Model](grixis/Grixis%20Authority%20Model.md) · [Grixis Corrections](grixis/Grixis%20Corrections.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) |
 | `lookup` | [Lookup Guide](Lookup%20Guide.md) |
 | `lore` | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) · [Card Enrichment](Card%20Enrichment.md) · [Characters Index](Characters%20Index.md) · [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) · [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) · [FAQ](FAQ.md) · [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) · [Lore Entry Index](Lore%20Entry%20Index.md) · [Lore Primary Sources](Lore%20Primary%20Sources.md) · [Master Timeline](Master%20Timeline.md) · [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md) · [Planes Index](Planes%20Index.md) · [Planeswalker Dossiers](Planeswalker%20Dossiers.md) · [Side-Media Index](Side-Media%20Index.md) · [Story Arc Summaries](Story%20Arc%20Summaries.md) · [Story Archive Index](Story%20Archive%20Index.md) |
 | `lore-decks` | [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) |
@@ -211,6 +216,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `partner` | [EDH Pairings](EDH%20Pairings.md) |
 | `phase-8` | [Card Enrichment](Card%20Enrichment.md) |
 | `pilot-notes` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) |
+| `plan` | [Grixis Authority Gap Analysis](grixis/Grixis%20Authority%20Gap%20Analysis.md) |
 | `plane-restricted` | [EDH Themed Decks](EDH%20Themed%20Decks.md) |
 | `planes` | [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md) · [Planes Index](Planes%20Index.md) |
 | `planeswalkers` | [Characters Index](Characters%20Index.md) · [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |
@@ -307,6 +313,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `plane-tarkir` | 1 |
 | `plane-theros` | 1 |
 | `plane-zendikar` | 1 |
+| `project-exceptions` | 1 |
 | `rakdos` | 1 |
 | `selesnya` | 1 |
 | `simic` | 2 |
