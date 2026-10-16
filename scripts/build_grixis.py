@@ -206,7 +206,7 @@ def main():
         for x in mine:
             fixes.append(("project exception (Bot cycle 47)", f"{x['card']}{' (companion)' if x['zone'] == 'companion' else ''} kept in the canonical project list",
                           f"{x['render_label']}. Authorized: {x['authorized_by']}. Registry: `data/grixis/exceptions.json` ({x['id']}). "
-                          + ("The Bot cycle 16 import had replaced it; since Bot cycle 47 that replacement lives only in the [derived compliance projection](#official-legal-projection-derived-not-canonical)." if x["zone"] != "companion" else
+                          + ("The Bot cycle 16 import had replaced it; since Bot cycle 47 that replacement lives only in the deck page's derived compliance projection (not canonical)." if x["zone"] != "companion" else
                              "The source's approval record designates Lutri as companion (its approved 100-card file has no companion line, so the line is added from that record). The Bot cycle 16 import had dropped it.")))
         d["exceptions"] = mine
         # mechanical normalization log
