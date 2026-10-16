@@ -33,6 +33,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -447,6 +448,18 @@ This approval freezes `refinement/decklists/The_Madcap_Jester_Approved_2026-10-1
 
 - [refinement/verification/The_Madcap_Jester_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/The_Madcap_Jester_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/The_Madcap_Jester_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/The_Madcap_Jester_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 56 interaction review: **7 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [The Madcap Jester — Interaction Review](../interactions/the-madcap-jester.md).
+
+- **Jester's access trigger: any library exile caused by a spell or ability you control** — Any library exile your spells or abilities cause (even when the opponent performs it) = play until end of next turn, any mana. ([jester-01](../interactions/the-madcap-jester.md#jester-01-jesters-access-trigger-any-library-exile-caused-by-a-spell-or-ability-you-control))
+- **Dauthi Voidwalker turns your mill into exile: does Jester see it?** — Probably qualifies (614.6), but unruled — hypothesis. ([jester-02](../interactions/the-madcap-jester.md#jester-02-dauthi-voidwalker-turns-your-mill-into-exile-does-jester-see-it))
+
+**Flags for later refinement** (no list change in this phase):
+- ⚠️ uncertain Dauthi Voidwalker turns your mill into exile: does Jester see it?: No official ruling (Jester unreleased) on whether a mill replaced by Dauthi counts as your spell "causing" cards to be exiled from an opponent's library; rules-derived from CR 614.6. ([jester-02](../interactions/the-madcap-jester.md#jester-02-dauthi-voidwalker-turns-your-mill-into-exile-does-jester-see-it))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

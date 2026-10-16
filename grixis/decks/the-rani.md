@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -539,6 +540,17 @@ The approved list is frozen and must not be revised unless the user explicitly r
 
 - [refinement/verification/The_Rani_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/The_Rani_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/The_Rani_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/The_Rani_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 56 interaction review: **6 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [The Rani — Interaction Review](../interactions/the-rani.md).
+
+- **Mark of the Rani: a targeted trigger makes an Aura token; investigate on ANY goaded creature hitting your opponents** — Any goaded creature hitting any of your opponents = a Clue. ([rani-01](../interactions/the-rani.md#rani-01-mark-of-the-rani-a-targeted-trigger-makes-an-aura-token-investigate-on-any-goaded-creature-hitting-your-opponents))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Force of Will pitch pool is 23 blue nonland cards, not 28: Source says 28 other blue nonland cards for Force of Will; the canonical list has 23. ([rani-06](../interactions/the-rani.md#rani-06-force-of-will-pitch-pool-is-23-blue-nonland-cards-not-28))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
