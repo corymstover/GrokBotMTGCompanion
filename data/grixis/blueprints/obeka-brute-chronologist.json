@@ -1,0 +1,581 @@
+{
+ "schema_version": 2,
+ "deck_id": "Obeka__Brute_Chronologist",
+ "slug": "obeka-brute-chronologist",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+ "commanders": {
+  "value": [
+   {
+    "name": "Obeka, Brute Chronologist",
+    "oracle_id": "21b76a94-d9f3-4c34-ab24-7e89321b04f0",
+    "oracle_text": "{T}: The player whose turn it is may end the turn. (Exile all spells and abilities from the stack. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)",
+    "oracle_sha256": "sha256:aac7d30f0c9b94ae7d6fba7b052fcbc05ee98285fcfd127c0207aae111883651",
+    "type_line": "Legendary Creature — Ogre Wizard"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Obeka, Brute Chronologist"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Delayed-trigger abuse: on your own turn, let the 'at the beginning of the next end step' liability (lose the game, sacrifice, exile) go on the stack, then tap Obeka to end the turn and exile it. Risky extra turns become free extra turns, and temporary tokens, clones and reanimations become permanent.",
+   "secondary": "Kiki-Jiki/Twinflame clone infinites and Isochron Scepter + Final Fortune (+ Obeka or Sundial) infinite turns."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L13",
+   "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L35",
+   "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L54"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Obeka's end-the-turn is what makes the risky extra turns and temporary effects profitable.",
+   "honest_note": "Commander-native identity with one commander combo (Scepter + Final Fortune + Obeka). Sundial of the Infinite does the same job without her, and the Kiki/Dualcaster infinites are commander-free. On opponents' turns the active player decides whether to end the turn, so she can't erase liabilities then (blueprint L17). No M1 interaction review exists yet for this deck."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L17",
+   "spellbook:126-1173-5261",
+   "spellbook:1173-2160-5261"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "scepter-fortune",
+   "kind": "combo",
+   "description": "Isochron Scepter imprinting Final Fortune + Obeka or Sundial of the Infinite: infinite turns.",
+   "cards": [
+    "Isochron Scepter",
+    "Final Fortune",
+    "Obeka, Brute Chronologist",
+    "Sundial of the Infinite"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:126-1173-5261",
+    "spellbook:1173-2160-5261",
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L35"
+   ]
+  },
+  {
+   "id": "clone-loops",
+   "kind": "combo",
+   "description": "Kiki-Jiki + Delina, Wild Mage; Dualcaster Mage + Twinflame: infinite hasty tokens.",
+   "cards": [
+    "Kiki-Jiki, Mirror Breaker",
+    "Delina, Wild Mage",
+    "Dualcaster Mage",
+    "Twinflame"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:282-618",
+    "spellbook:147-1235"
+   ]
+  },
+  {
+   "id": "risky-turns",
+   "kind": "natural",
+   "description": "Free extra turns from Last Chance/Warrior's Oath/Glorious End/Alchemist's Gambit, with permanent tokens beating down.",
+   "cards": [
+    "Obeka, Brute Chronologist",
+    "Final Fortune",
+    "Last Chance",
+    "Warrior's Oath",
+    "Alchemist's Gambit",
+    "Glorious End"
+   ],
+   "enablers": [
+    "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+    "Flameshadow Conjuring",
+    "Delina, Wild Mage",
+    "Jaxis, the Troublemaker"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "end-the-turn",
+   "cards": [
+    "Obeka, Brute Chronologist",
+    "Sundial of the Infinite"
+   ],
+   "online_condition": "Obeka untapped on your turn after the delayed trigger is on the stack.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Obeka, Brute Chronologist",
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L18",
+    "cr:724.1"
+   ]
+  },
+  {
+   "id": "temporary-to-permanent",
+   "cards": [
+    "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+    "Flameshadow Conjuring",
+    "Delina, Wild Mage",
+    "Jaxis, the Troublemaker",
+    "Rionya, Fire Dancer",
+    "Saheeli, the Sun's Brilliance",
+    "Hate Mirage",
+    "Venser, Fervent Forger",
+    "Identity Thief",
+    "Come Back Wrong",
+    "Apprentice Necromancer",
+    "Feldon of the Third Path",
+    "Puppeteer Clique",
+    "Sneak Attack"
+   ],
+   "online_condition": "Obeka can end the turn before the end-step sacrifice/exile resolves.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L37",
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L54"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:risky-turns",
+   "required": true,
+   "min_count": 5,
+   "role": "Extra turns with delayed liabilities.",
+   "cards": [
+    "Final Fortune",
+    "Last Chance",
+    "Warrior's Oath",
+    "Alchemist's Gambit",
+    "Glorious End",
+    "Isochron Scepter"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  },
+  {
+   "id": "pkg:temporary-effects",
+   "required": true,
+   "min_count": 8,
+   "role": "Temporary tokens, clones and reanimation made permanent.",
+   "cards": [
+    "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+    "Flameshadow Conjuring",
+    "Delina, Wild Mage",
+    "Jaxis, the Troublemaker",
+    "Rionya, Fire Dancer",
+    "Saheeli, the Sun's Brilliance",
+    "Hate Mirage",
+    "Venser, Fervent Forger",
+    "Identity Thief",
+    "Come Back Wrong",
+    "Apprentice Necromancer",
+    "Feldon of the Third Path",
+    "Puppeteer Clique",
+    "Sneak Attack"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L37"
+   ]
+  },
+  {
+   "id": "pkg:deploy-activate",
+   "required": true,
+   "min_count": 5,
+   "role": "Deploy and activate Obeka immediately.",
+   "cards": [
+    "Lightning Greaves",
+    "Swiftfoot Boots",
+    "Thousand-Year Elixir",
+    "Arena of Glory",
+    "Minamo, School at Water's Edge",
+    "Hellkite Courser"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L56"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "active-player-chooses",
+   "summary": "The player whose turn it is decides whether to end it; opponents can decline on their turns.",
+   "cards": [
+    "Obeka, Brute Chronologist"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L17"
+   ]
+  },
+  {
+   "id": "respond-to-end-step-trigger",
+   "summary": "Let the next-end-step liability trigger in your own end step, then end the turn in response. Ending the turn earlier only pushes the trigger to the next player's end step.",
+   "cards": [
+    "Obeka, Brute Chronologist"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L18",
+    "cr:724.1a"
+   ]
+  },
+  {
+   "id": "next-occurrence-only",
+   "summary": "A delayed trigger for the next end step doesn't trigger again once it has triggered and been exiled.",
+   "cards": [
+    "Obeka, Brute Chronologist"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L20"
+   ]
+  },
+  {
+   "id": "courser-return",
+   "summary": "Hellkite Courser's return-to-command-zone delayed trigger can be erased, keeping the commander on the battlefield.",
+   "cards": [
+    "Hellkite Courser",
+    "Obeka, Brute Chronologist"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L65"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Isochron Scepter",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Gamble"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:126-1173-5261"
+   ]
+  },
+  {
+   "target": "Final Fortune",
+   "via": [
+    "Mystical Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:126-1173-5261"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Underworld Breach",
+   "Jeska's Will",
+   "Animate Dead",
+   "Necromancy",
+   "Reanimate"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L76"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Mana Drain, Counterspell, Chaos Warp, Cyclonic Rift, Toxic Deluge.",
+   "protection": "Fierce Guardianship, Deflecting Swat, Greaves, Boots.",
+   "mana": "34 lands, Sol Ring, Mana Vault, Chrome Mox, Lotus Petal, Talismans."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "obeka-removed-with-liability",
+   "description": "Losing Obeka with a Final Fortune trigger pending loses the game.",
+   "mitigations": [
+    "Sundial redundancy",
+    "Protection before going for it"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L21"
+   ]
+  },
+  {
+   "id": "sequencing-errors",
+   "description": "Ending the turn too early pushes the liability into an opponent's end step.",
+   "mitigations": [
+    "Explicit sequencing"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L79"
+   ]
+  },
+  {
+   "id": "summoning-sick",
+   "description": "The tap ability needs haste the turn she comes down.",
+   "mitigations": [
+    "Greaves",
+    "Boots",
+    "Thousand-Year Elixir"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "oracle:Obeka, Brute Chronologist"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L13"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L9"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling: commander-native infinite turns and clone loops, but sequencing-heavy and fragile to removal at the key moment. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L69",
+    "spellbook:126-1173-5261"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Obeka__Brute_Chronologist"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 17,
+     "2": 340,
+     "3": 781,
+     "4": 474,
+     "5": 44
+    },
+    "decks_with_bracket": 1656,
+    "share_b4_plus": 0.313,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__obeka-brute-chronologist.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Obeka, Brute Chronologist",
+   "why": "Ends the turn to erase delayed liabilities.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Obeka, Brute Chronologist"
+   ]
+  },
+  {
+   "card": "Isochron Scepter",
+   "why": "Repeats Final Fortune each turn.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:126-1173-5261"
+   ]
+  },
+  {
+   "card": "Final Fortune",
+   "why": "Extra turn whose loss trigger Obeka erases.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:126-1173-5261"
+   ]
+  },
+  {
+   "card": "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+   "why": "Reflection copies kept permanently.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L39"
+   ]
+  },
+  {
+   "card": "Hellkite Courser",
+   "why": "Tax-free commander redeploy with haste.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L65"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic Oracle/Breach packages (blueprint L75); Breach stays only as recursion (L76).",
+   "Don't overuse The Master, Multiplied-style independent fixes (L78).",
+   "Don't end the turn prematurely (L79)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L75",
+   "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L76",
+   "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L78"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Delayed triggers / extra turns / clones (blueprint L11)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L11"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 724.1",
+   "note": "Ending the turn.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:724.1"
+   ]
+  },
+  {
+   "rule": "CR 603.7c",
+   "note": "Delayed triggered abilities.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:603.7c"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "card draw / hand size",
+    "discard"
+   ],
+   "hooked_cards": 13,
+   "role_counts": {
+    "counter": 4,
+    "draw": 8,
+    "protection": 3,
+    "ramp": 12,
+    "removal": 4,
+    "tutor": 4,
+    "wipe": 1
+   },
+   "lands": 34,
+   "edhrec_pages": [
+    "obeka-brute-chronologist"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/Obeka_Brute_Chronologist_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Obeka_Brute_Chronologist_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Obeka_Brute_Chronologist_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Obeka_Brute_Chronologist_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Obeka_Brute_Chronologist_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}

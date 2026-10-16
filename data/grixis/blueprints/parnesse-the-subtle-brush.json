@@ -1,0 +1,596 @@
+{
+ "schema_version": 2,
+ "deck_id": "Parnesse__the_Subtle_Brush",
+ "slug": "parnesse-the-subtle-brush",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+ "commanders": {
+  "value": [
+   {
+    "name": "Parnesse, the Subtle Brush",
+    "oracle_id": "c6040e8d-dac3-4bed-8d1d-d7d44aa10c86",
+    "oracle_text": "Whenever you or a permanent you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless that player pays 4 life.\nWhenever you copy a spell, up to one target opponent may also copy that spell. They may choose new targets for that copy.",
+    "oracle_sha256": "sha256:e65164b6ccf589eab16783fc4b7163f061a77309868f188599b7c077b7897ad4",
+    "type_line": "Legendary Creature — Vampire Wizard"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Parnesse, the Subtle Brush"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Spellslinger copy: cast efficient instants and sorceries, copy them, and use Parnesse to hand selected opponents optional copies as political leverage. Her first ability taxes opposing targeting by 4 life.",
+   "secondary": "Commander-free copy infinites: Narset's Reversal or Reiterate/Reverberate/Increasing Vengeance/Return the Favor with a ritual/copy-mana engine (Alania, Pyromancer's Goggles, Prismari, Thousand-Year Storm, Storm-Kiln Artist, Mana Geyser, Jeska's Will)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L12",
+   "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L18",
+   "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L19"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "supporting",
+   "advances_plan": "Parnesse protects herself and your permanents with a 4-life targeting tax, and her copy-sharing is a political tool.",
+   "honest_note": "None of the 25 Spellbook infinites in the list uses Parnesse; all are copy-spell pairs that work in any Grixis spellslinger deck. Her second ability gives opponents copies, which is optional politics and can be a liability. The source frames the deck as political conversion (blueprint L12), but mechanically she's a five-mana protection/politics commander on top of a strong generic copy-combo shell. The calibration floor is 3, below the source's 4; the 25 two-card infinites support 4. No M1 interaction review exists yet for this deck."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L12",
+   "spellbook:11-3368",
+   "spellbook:3368-5959"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "narset-reversal-loops",
+   "kind": "combo",
+   "description": "Narset's Reversal with Twinning Staff, Reiterate, Increasing Vengeance, Reverberate or Return the Favor; or with Primal Wellspring + Frantic Search, or Storm-Kiln Artist + Bonus Round/Thousand-Year Storm.",
+   "cards": [
+    "Narset's Reversal",
+    "Twinning Staff",
+    "Reiterate",
+    "Increasing Vengeance",
+    "Reverberate",
+    "Return the Favor",
+    "Primal Amulet // Primal Wellspring",
+    "Frantic Search",
+    "Storm-Kiln Artist",
+    "Bonus Round",
+    "Thousand-Year Storm"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:11-2539",
+    "spellbook:11-3368",
+    "spellbook:11-4285",
+    "spellbook:11-5026",
+    "spellbook:11-5940",
+    "spellbook:11-1484-2196",
+    "spellbook:11-2492-5195",
+    "spellbook:11-3584-5195"
+   ]
+  },
+  {
+   "id": "copy-mana-loops",
+   "kind": "combo",
+   "description": "Reiterate/Increasing Vengeance/Reverberate/Return the Favor with Alania, Pyromancer's Goggles, Prismari, Thousand-Year Storm, Mana Geyser or Jeska's Will: infinite mana/storm, finished with Grapeshot.",
+   "cards": [
+    "Reiterate",
+    "Increasing Vengeance",
+    "Reverberate",
+    "Return the Favor",
+    "Alania, Divergent Storm",
+    "Pyromancer's Goggles",
+    "Prismari, the Inspiration",
+    "Thousand-Year Storm",
+    "Mana Geyser",
+    "Jeska's Will",
+    "Grapeshot"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1878-3368",
+    "spellbook:2091-3368",
+    "spellbook:3368-3584",
+    "spellbook:3368-5959",
+    "spellbook:3368-6790",
+    "spellbook:3368-7683",
+    "spellbook:4285-5959",
+    "spellbook:4285-6790",
+    "spellbook:4285-7683",
+    "spellbook:5026-5959",
+    "spellbook:5026-6790",
+    "spellbook:5026-7683",
+    "spellbook:5940-5959",
+    "spellbook:5940-6790",
+    "spellbook:5940-7683",
+    "spellbook:1484-2196-3368"
+   ]
+  },
+  {
+   "id": "dualcaster-tech",
+   "kind": "combo",
+   "description": "Dualcaster Mage + Replication Technique: infinite hasty tokens.",
+   "cards": [
+    "Dualcaster Mage",
+    "Replication Technique"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:147-1883"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "copy-politics",
+   "cards": [
+    "Parnesse, the Subtle Brush",
+    "Harmonic Prodigy",
+    "Veyran, Voice of Duality",
+    "Wizard's Staff"
+   ],
+   "online_condition": "You copy a spell on the stack.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Parnesse, the Subtle Brush",
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L19",
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L20"
+   ]
+  },
+  {
+   "id": "cast-copy-payoffs",
+   "cards": [
+    "Archmage Emeritus",
+    "Storm-Kiln Artist",
+    "Sedgemoor Witch",
+    "Ral, Storm Conduit",
+    "Professor Onyx",
+    "Grapeshot",
+    "Goblin Electromancer"
+   ],
+   "online_condition": "High spell volume.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L21"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:spell-copy",
+   "required": true,
+   "min_count": 10,
+   "role": "Actual spell copies, each triggering Parnesse.",
+   "cards": [
+    "Reverberate",
+    "Galvanic Iteration",
+    "Increasing Vengeance",
+    "Reiterate",
+    "Double Vision",
+    "Pyromancer's Goggles",
+    "Primal Amulet // Primal Wellspring",
+    "Twinning Staff",
+    "Zevlor, Elturel Exile",
+    "Thunderclap Drake",
+    "Bonus Round",
+    "Narset's Reversal",
+    "Return the Favor",
+    "Tempt with Mayhem",
+    "Replication Technique",
+    "Dualcaster Mage",
+    "Sunken Palace"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L18"
+   ]
+  },
+  {
+   "id": "pkg:trigger-multipliers",
+   "required": false,
+   "min_count": 2,
+   "role": "Multiply Parnesse's triggers.",
+   "cards": [
+    "Harmonic Prodigy",
+    "Veyran, Voice of Duality",
+    "Wizard's Staff"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L20"
+   ]
+  },
+  {
+   "id": "pkg:cantrips-rituals",
+   "required": true,
+   "min_count": 6,
+   "role": "Spell volume and mana.",
+   "cards": [
+    "Brainstorm",
+    "Ponder",
+    "Preordain",
+    "Frantic Search",
+    "Dark Ritual",
+    "Big Score",
+    "Windfall",
+    "Mana Geyser",
+    "Jeska's Will"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L55"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "copy-not-cast-copy",
+   "summary": "Parnesse only triggers on copying a spell. Arcane Bombardment/Mizzix's Mastery copy cards in other zones and cast them, a different event.",
+   "cards": [
+    "Parnesse, the Subtle Brush",
+    "Mizzix's Mastery"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Parnesse, the Subtle Brush",
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L25",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "opponent-copy",
+   "summary": "Opponents' copies may choose new targets; pick a recipient whose copy helps you or is harmless.",
+   "cards": [
+    "Parnesse, the Subtle Brush"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Parnesse, the Subtle Brush",
+    "cr:707.10c"
+   ]
+  },
+  {
+   "id": "targeting-tax",
+   "summary": "Opposing spells and abilities that target you or your permanents are countered unless they pay 4 life.",
+   "cards": [
+    "Parnesse, the Subtle Brush"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Parnesse, the Subtle Brush"
+   ]
+  },
+  {
+   "id": "tempt-copies",
+   "summary": "Tempt with Mayhem copies an instant or sorcery at least once under your control, plus more if opponents accept.",
+   "cards": [
+    "Tempt with Mayhem",
+    "Parnesse, the Subtle Brush"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L33"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Narset's Reversal",
+   "via": [
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:11-3368"
+   ]
+  },
+  {
+   "target": "Reiterate",
+   "via": [
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:3368-5959"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Mizzix's Mastery",
+   "Jeska's Will",
+   "Sedgemoor Witch"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L25"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Counterspell, Mana Drain, Narset's Reversal, An Offer You Can't Refuse, Chaos Warp, Feed the Swarm, Blasphemous Act.",
+   "protection": "Parnesse's tax, Deflecting Swat.",
+   "mana": "35 lands, nine fetches, Sol Ring, Dark Ritual, Signets/Talismans."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L49",
+   "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L55"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "gifted-copies",
+   "description": "Opponents' copies can backfire, e.g. a copied tutor or wipe.",
+   "mitigations": [
+    "Choose copy recipients carefully",
+    "'up to one' lets you give none"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Parnesse, the Subtle Brush"
+   ]
+  },
+  {
+   "id": "expensive-engines",
+   "description": "Five-mana commander plus five- to seven-mana copy engines.",
+   "mitigations": [
+    "Rituals and cantrips"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L55"
+   ]
+  },
+  {
+   "id": "stack-interaction",
+   "description": "Counters on the key copy spell break the combos.",
+   "mitigations": [
+    "Redundant copy pairs"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "low",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "spellbook:11-3368"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L8"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling: 25 commander-free two- and three-card copy infinites support B4 despite the calibration floor of 3. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L53",
+    "spellbook:11-3368"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 3
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Parnesse__the_Subtle_Brush"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 9,
+     "2": 142,
+     "3": 78,
+     "4": 23
+    },
+    "decks_with_bracket": 252,
+    "share_b4_plus": 0.091,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__parnesse-the-subtle-brush.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Parnesse, the Subtle Brush",
+   "why": "Targeting tax and copy politics.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Parnesse, the Subtle Brush"
+   ]
+  },
+  {
+   "card": "Narset's Reversal",
+   "why": "Hub of the copy infinites.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:11-3368"
+   ]
+  },
+  {
+   "card": "Reiterate",
+   "why": "Buyback copy for mana loops.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:3368-5959"
+   ]
+  },
+  {
+   "card": "Tempt with Mayhem",
+   "why": "Copy spell with political upside.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L33"
+   ]
+  },
+  {
+   "card": "Veyran, Voice of Duality",
+   "why": "Doubles Parnesse's triggers.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L20"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No Oracle/Consultation or Breach cEDH shell (blueprint L53).",
+   "Don't overfill two-mana copy spells (L54)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L53",
+   "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L54"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Spell copy / politics / spellslinger (blueprint L10)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L10"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 707.10",
+   "note": "Copying a spell.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:707.10"
+   ]
+  },
+  {
+   "rule": "CR 707.10c",
+   "note": "New targets for copies.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:707.10c"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "copying"
+   ],
+   "hooked_cards": 31,
+   "role_counts": {
+    "counter": 3,
+    "draw": 9,
+    "protection": 2,
+    "ramp": 17,
+    "removal": 4,
+    "tutor": 1,
+    "wipe": 1
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "parnesse-the-subtle-brush"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/Parnesse_the_Subtle_Brush_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Parnesse_the_Subtle_Brush_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Parnesse_the_Subtle_Brush_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Parnesse_the_Subtle_Brush_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Parnesse_the_Subtle_Brush_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}
