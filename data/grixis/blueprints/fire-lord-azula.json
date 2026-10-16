@@ -1,0 +1,609 @@
+{
+ "schema_version": 2,
+ "deck_id": "Fire_Lord_Azula",
+ "slug": "fire-lord-azula",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 52,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+ "commanders": {
+  "value": [
+   {
+    "name": "Fire Lord Azula",
+    "oracle_id": "2631130e-63e2-43a3-914a-648e76722203",
+    "oracle_text": "Firebending 2 (Whenever this creature attacks, add {R}{R}. This mana lasts until end of combat.)\nWhenever you cast a spell while Fire Lord Azula is attacking, copy that spell. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",
+    "oracle_sha256": "sha256:1b16ed8855aa2e2b7095dde2b7ead9d9b60d5194a78b84582afed365694e965d",
+    "type_line": "Legendary Creature — Human Noble"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Fire Lord Azula"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "cEDH spell-copy: land Azula fast, attack, and cast rituals, untaps, draw and combo pieces while she's attacking so each resolves twice; win with Azula + Narset's Reversal/Underworld Breach + Frantic Search, Breach + LED/Petal + Brain Freeze, or Thassa's Oracle.",
+   "secondary": "Generic Grixis cEDH shell (fast mana, free counters, tutors, Necropotence/Ad Nauseam) wins without Azula when she can't attack."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md#L21",
+   "interaction:fire-lord-azula#azula-05",
+   "interaction:fire-lord-azula#azula-06"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Copies every spell cast while she attacks; two of the deck's infinites need her.",
+   "honest_note": "Her copy only works during combat on an attack, so sorceries need flash enablers and she has to survive to attack. The Breach and Oracle lines (M1 azula-07, azula-08) win without her, and the list is built like a generic Grixis cEDH deck around her."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md",
+   "interaction:fire-lord-azula#azula-02",
+   "interaction:fire-lord-azula#azula-07"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "azula-frantic",
+   "kind": "combo",
+   "description": "Attacking Azula copies Frantic Search alongside Narset's Reversal or Underworld Breach for unbounded untaps, draw and storm.",
+   "cards": [
+    "Fire Lord Azula",
+    "Frantic Search",
+    "Narset's Reversal",
+    "Underworld Breach"
+   ],
+   "enablers": [
+    "Arena of Glory",
+    "Borne Upon a Wind"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:11-2196-7089",
+    "spellbook:1368-2196-7089",
+    "interaction:fire-lord-azula#azula-05",
+    "interaction:fire-lord-azula#azula-06"
+   ]
+  },
+  {
+   "id": "breach",
+   "kind": "combo",
+   "description": "Underworld Breach with LED/Petal + Brain Freeze, Wheel of Fortune + Jeska's Will/LED, or Grinding Station.",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze",
+    "Wheel of Fortune",
+    "Jeska's Will",
+    "Grinding Station"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-2706-3518",
+    "spellbook:1368-3698--44",
+    "interaction:fire-lord-azula#azula-07"
+   ]
+  },
+  {
+   "id": "oracle",
+   "kind": "combo",
+   "description": "Thassa's Oracle with Demonic Consultation or Tainted Pact.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "interaction:fire-lord-azula#azula-08"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "attack-copy",
+   "cards": [
+    "Fire Lord Azula",
+    "Big Score",
+    "Dark Ritual",
+    "Cabal Ritual",
+    "Snap",
+    "Frantic Search",
+    "Beseech the Mirror"
+   ],
+   "online_condition": "Azula attacking.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:fire-lord-azula#azula-01",
+    "interaction:fire-lord-azula#azula-03"
+   ]
+  },
+  {
+   "id": "combat-timing",
+   "cards": [
+    "Borne Upon a Wind",
+    "Quicken",
+    "Emergence Zone",
+    "Valley Floodcaller",
+    "Arena of Glory",
+    "Expedite"
+   ],
+   "online_condition": "Flash or haste enabler available.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:fire-lord-azula#azula-02",
+    "interaction:fire-lord-azula#azula-09"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:combat-timing",
+   "required": true,
+   "min_count": 5,
+   "role": "Move sorceries into combat and give Azula haste.",
+   "cards": [
+    "Borne Upon a Wind",
+    "Quicken",
+    "Emergence Zone",
+    "Valley Floodcaller",
+    "Arena of Glory",
+    "Expedite",
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:fire-lord-azula#azula-02"
+   ]
+  },
+  {
+   "id": "pkg:free-interaction",
+   "required": true,
+   "min_count": 8,
+   "role": "Protect the combat turn.",
+   "cards": [
+    "Force of Will",
+    "Force of Negation",
+    "Pact of Negation",
+    "Fierce Guardianship",
+    "Mental Misstep",
+    "Mindbreak Trap",
+    "Flusterstorm",
+    "Swan Song",
+    "Pyroblast",
+    "Red Elemental Blast",
+    "Deflecting Swat",
+    "An Offer You Can't Refuse"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:copy-payoffs",
+   "required": true,
+   "min_count": 5,
+   "role": "Spells that double well under Azula.",
+   "cards": [
+    "Big Score",
+    "Frantic Search",
+    "Snap",
+    "Dark Ritual",
+    "Cabal Ritual",
+    "Beseech the Mirror",
+    "Demand Answers",
+    "Redirect Lightning"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "copy-first",
+   "summary": "The copy resolves first and isn't cast: no storm, no cast triggers.",
+   "cards": [
+    "Fire Lord Azula"
+   ],
+   "m1_refs": [
+    "azula-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:fire-lord-azula#azula-01"
+   ]
+  },
+  {
+   "id": "while-attacking",
+   "summary": "Copies happen only during combat, so sorceries need flash enablers.",
+   "cards": [
+    "Fire Lord Azula",
+    "Borne Upon a Wind"
+   ],
+   "m1_refs": [
+    "azula-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:fire-lord-azula#azula-02"
+   ]
+  },
+  {
+   "id": "additional-costs",
+   "summary": "Additional costs are paid once but count for the copy (Big Score: 4 cards + 4 Treasures).",
+   "cards": [
+    "Big Score"
+   ],
+   "m1_refs": [
+    "azula-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:fire-lord-azula#azula-03"
+   ]
+  },
+  {
+   "id": "bargain-copy",
+   "summary": "A bargained Beseech the Mirror copy is bargained too.",
+   "cards": [
+    "Beseech the Mirror"
+   ],
+   "m1_refs": [
+    "azula-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:fire-lord-azula#azula-04"
+   ]
+  },
+  {
+   "id": "permanent-copies",
+   "summary": "Copied permanent spells become tokens without being 'created'.",
+   "cards": [
+    "Fire Lord Azula"
+   ],
+   "m1_refs": [
+    "azula-10"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:fire-lord-azula#azula-10"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Underworld Breach",
+   "via": [
+    "Demonic Tutor",
+    "Gamble",
+    "Imperial Seal"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "target": "Thassa's Oracle",
+   "via": [
+    "Vampiric Tutor",
+    "Mystical Tutor",
+    "Wishclaw Talisman"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "target": "Narset's Reversal",
+   "via": [
+    "Mystical Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:11-2196-7089"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Underworld Breach",
+   "Jeska's Will"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Dense free counters and one-mana interaction.",
+   "protection": "Deflecting Swat, Fierce Guardianship, Cavern of Souls.",
+   "mana": "Fast mana and rituals; Azula must be cast and attack quickly."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "no-combat",
+   "description": "Azula removed or unable to attack: no copies.",
+   "mitigations": [
+    "Commander-free Breach/Oracle lines",
+    "Haste from Arena of Glory"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:fire-lord-azula#azula-02"
+   ]
+  },
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate stops Breach.",
+   "mitigations": [
+    "Thassa's Oracle + Consultation"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "metalcraft",
+   "description": "Low artifact density can leave Mox Opal dead.",
+   "mitigations": [
+    "Accepted by the source as a flex risk"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:fire-lord-azula#azula-11"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md",
+   "interaction:fire-lord-azula#azula-07"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Power Bracket 5 — cEDH (decisions header)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md#L16"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Bracket 5 ceiling: full cEDH shell with commander-dependent and commander-free infinites, backed by current tournament results per the source. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md#L23",
+    "spellbook:11-2196-7089"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "5",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Fire_Lord_Azula"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 72,
+     "2": 1265,
+     "3": 3519,
+     "4": 2030,
+     "5": 562
+    },
+    "decks_with_bracket": 7448,
+    "share_b4_plus": 0.348,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__fire-lord-azula.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Fire Lord Azula",
+   "why": "Copies each spell cast while she attacks.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Fire Lord Azula"
+   ]
+  },
+  {
+   "card": "Narset's Reversal",
+   "why": "With Frantic Search under Azula, an infinite loop.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:fire-lord-azula#azula-05"
+   ]
+  },
+  {
+   "card": "Frantic Search",
+   "why": "Free untap-draw spell that loops under Azula.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:fire-lord-azula#azula-05"
+   ]
+  },
+  {
+   "card": "Borne Upon a Wind",
+   "why": "Flash so sorceries can be copied in combat.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:fire-lord-azula#azula-02"
+   ]
+  },
+  {
+   "card": "Big Score",
+   "why": "One discard, double Treasure and cards.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:fire-lord-azula#azula-03"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Thematic Fire Nation cards that lose to cEDH efficiency stay out (e.g. Fire Nation Palace, Fists of Flame; decisions L48, L51).",
+   "Slow setup engines (Archmage Emeritus, Veyran) are cut."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md#L48"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Theme subordinate to cEDH; Avatar flavour comes mainly from the commander."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 707.10",
+   "note": "Copies of spells aren't cast.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:707.10"
+   ]
+  },
+  {
+   "rule": "CR 506.1",
+   "note": "The combat phase and its steps: Azula copies only during combat.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:506.1"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "combat damage / attack triggers",
+    "copying"
+   ],
+   "hooked_cards": 7,
+   "role_counts": {
+    "counter": 11,
+    "draw": 14,
+    "protection": 2,
+    "ramp": 21,
+    "removal": 7,
+    "tutor": 7,
+    "wipe": 1
+   },
+   "lands": 26,
+   "edhrec_pages": [
+    "fire-lord-azula"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Fire_Lord_Azula_Approved_2026-10-14.md",
+   "source_archive:refinement/decklists/Fire_Lord_Azula_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 52)"
+ }
+}

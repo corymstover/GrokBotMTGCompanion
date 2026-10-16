@@ -10,11 +10,11 @@
 
 ## Status
 
-**15/62 blueprints written.** M2 acceptance criteria ([definition](../Grixis%20Authority%20Model.md#m2)):
+**30/62 blueprints written.** M2 acceptance criteria ([definition](../Grixis%20Authority%20Model.md#m2)):
 
-- ⏳ 62 blueprints validate against blueprint.schema.json and --check — 15/62 written
-- ⏳ each names identity core (≥3), anti-goals, required packages with min counts, win conditions, failure modes (≥2), tutor targets, construction rules — 15/62 complete
-- ⏳ each has grok_estimated_ceiling with evidence and a disagreement flag where it differs from the source — 15/62 estimated
+- ⏳ 62 blueprints validate against blueprint.schema.json and --check — 30/62 written
+- ⏳ each names identity core (≥3), anti-goals, required packages with min counts, win conditions, failure modes (≥2), tutor targets, construction rules — 30/62 complete
+- ⏳ each has grok_estimated_ceiling with evidence and a disagreement flag where it differs from the source — 30/62 estimated
 - ⏳ Cory has reviewed the sample he chooses (status cory_reviewed) — 0 reviewed
 - ⏳ Cory accepted M2 (registry program.milestones.M2) — in_progress
 
@@ -37,8 +37,23 @@
 | [Doctor Doom, King of Latveria](doctor-doom-king-of-latveria.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Don Andres, the Renegade](don-andres-the-renegade.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Dr. Eggman](dr-eggman.md) | central | high | 4 | 4 | 3 | no | v1 seeded |
+| [Edea, Possessed Sorceress](edea-possessed-sorceress.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Edward Kenway](edward-kenway.md) | central | medium | 4 | 4 | 4 | no | v1 seeded |
+| [Evelyn, the Covetous](evelyn-the-covetous.md) | significant | low | 5 | 5 | 5 | no | v1 seeded |
+| [Fire Lord Azula](fire-lord-azula.md) | significant | medium | 5 | 5 | 5 | no | v1 seeded |
+| [Garza Zol, Plague Queen](garza-zol-plague-queen.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Goro-Goro and Satoru](goro-goro-and-satoru.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools](grixistax-october-2026.md) | significant | medium | 5 | 5 | 5 | no | v1 seeded |
+| [Gwendlyn Di Corci](gwendlyn-di-corci.md) | central | medium | 4 | 4 | 4 | no | v1 seeded |
+| [Inalla, Archmage Ritualist](inalla-archmage-ritualist.md) | central | medium | 5 | 5 | 5 | no | v1 seeded |
+| [Jeleva, Nephalia's Scourge](jeleva-nephalias-scourge.md) | significant | medium | 5 | 5 | 5 | no | v1 seeded |
+| [Kefka, Court Mage // Kefka, Ruler of Ruin](kefka-court-mage.md) | central | medium | 5 | 5 | 5 | no | v1 seeded |
+| [Kess, Dissident Mage](kess-dissident-mage.md) | central | medium | 5 | 5 | 5 | no | v1 seeded |
+| [Loki, the Deceiver](loki-the-deceiver.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Lord of Tresserhorn](lord-of-tresserhorn.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Lord Xander, the Collector](lord-xander-the-collector.md) | central | medium | 4 | 4 | 4 | no | v1 seeded |
 
-Not written yet (47): [edea-possessed-sorceress](../decks/edea-possessed-sorceress.md), [edward-kenway](../decks/edward-kenway.md), [evelyn-the-covetous](../decks/evelyn-the-covetous.md), [fire-lord-azula](../decks/fire-lord-azula.md), [garza-zol-plague-queen](../decks/garza-zol-plague-queen.md), [goro-goro-and-satoru](../decks/goro-goro-and-satoru.md), [grixistax-october-2026](../decks/grixistax-october-2026.md), [gwendlyn-di-corci](../decks/gwendlyn-di-corci.md), [inalla-archmage-ritualist](../decks/inalla-archmage-ritualist.md), [jeleva-nephalias-scourge](../decks/jeleva-nephalias-scourge.md), [kefka-court-mage](../decks/kefka-court-mage.md), [kess-dissident-mage](../decks/kess-dissident-mage.md), [loki-the-deceiver](../decks/loki-the-deceiver.md), [lord-of-tresserhorn](../decks/lord-of-tresserhorn.md), [lord-xander-the-collector](../decks/lord-xander-the-collector.md), [lynde-cheerful-tormentor](../decks/lynde-cheerful-tormentor.md), [mai-and-zuko](../decks/mai-and-zuko.md), [mairsil-the-pretender](../decks/mairsil-the-pretender.md), [marchesa-dealer-of-death](../decks/marchesa-dealer-of-death.md), [marchesa-the-black-rose](../decks/marchesa-the-black-rose.md), [mishra-artificer-prodigy](../decks/mishra-artificer-prodigy.md), [mishra-eminent-one](../decks/mishra-eminent-one.md), [missy](../decks/missy.md), [nathan-drake-treasure-hunter](../decks/nathan-drake-treasure-hunter.md), [nekusar-the-mindrazer](../decks/nekusar-the-mindrazer.md), [nicol-bolas](../decks/nicol-bolas.md), [nicol-bolas-the-ravager](../decks/nicol-bolas-the-ravager.md), [norman-osborn](../decks/norman-osborn.md), [obeka-brute-chronologist](../decks/obeka-brute-chronologist.md), [obeka-splitter-of-seconds](../decks/obeka-splitter-of-seconds.md), [parnesse-the-subtle-brush](../decks/parnesse-the-subtle-brush.md), [rograkh-son-of-rohgahh-silas-renn](../decks/rograkh-son-of-rohgahh-silas-renn.md), [saruman-the-white-hand](../decks/saruman-the-white-hand.md), [sauron-lord-of-the-rings](../decks/sauron-lord-of-the-rings.md), [sauron-the-dark-lord](../decks/sauron-the-dark-lord.md), [sedris-the-traitor-king](../decks/sedris-the-traitor-king.md), [solkanar-the-swamp-king](../decks/solkanar-the-swamp-king.md), [solkanar-the-tainted](../decks/solkanar-the-tainted.md), [tetsuo-imperial-champion](../decks/tetsuo-imperial-champion.md), [tetsuo-umezawa](../decks/tetsuo-umezawa.md), [the-madcap-jester](../decks/the-madcap-jester.md), [the-rani](../decks/the-rani.md), [the-valeyard](../decks/the-valeyard.md), [thraximundar](../decks/thraximundar.md), [tresserhorns-lord-returned](../decks/tresserhorns-lord-returned.md), [wick-the-whorled-mind](../decks/wick-the-whorled-mind.md), [zevlor-elturel-exile](../decks/zevlor-elturel-exile.md).
+Not written yet (32): [lynde-cheerful-tormentor](../decks/lynde-cheerful-tormentor.md), [mai-and-zuko](../decks/mai-and-zuko.md), [mairsil-the-pretender](../decks/mairsil-the-pretender.md), [marchesa-dealer-of-death](../decks/marchesa-dealer-of-death.md), [marchesa-the-black-rose](../decks/marchesa-the-black-rose.md), [mishra-artificer-prodigy](../decks/mishra-artificer-prodigy.md), [mishra-eminent-one](../decks/mishra-eminent-one.md), [missy](../decks/missy.md), [nathan-drake-treasure-hunter](../decks/nathan-drake-treasure-hunter.md), [nekusar-the-mindrazer](../decks/nekusar-the-mindrazer.md), [nicol-bolas](../decks/nicol-bolas.md), [nicol-bolas-the-ravager](../decks/nicol-bolas-the-ravager.md), [norman-osborn](../decks/norman-osborn.md), [obeka-brute-chronologist](../decks/obeka-brute-chronologist.md), [obeka-splitter-of-seconds](../decks/obeka-splitter-of-seconds.md), [parnesse-the-subtle-brush](../decks/parnesse-the-subtle-brush.md), [rograkh-son-of-rohgahh-silas-renn](../decks/rograkh-son-of-rohgahh-silas-renn.md), [saruman-the-white-hand](../decks/saruman-the-white-hand.md), [sauron-lord-of-the-rings](../decks/sauron-lord-of-the-rings.md), [sauron-the-dark-lord](../decks/sauron-the-dark-lord.md), [sedris-the-traitor-king](../decks/sedris-the-traitor-king.md), [solkanar-the-swamp-king](../decks/solkanar-the-swamp-king.md), [solkanar-the-tainted](../decks/solkanar-the-tainted.md), [tetsuo-imperial-champion](../decks/tetsuo-imperial-champion.md), [tetsuo-umezawa](../decks/tetsuo-umezawa.md), [the-madcap-jester](../decks/the-madcap-jester.md), [the-rani](../decks/the-rani.md), [the-valeyard](../decks/the-valeyard.md), [thraximundar](../decks/thraximundar.md), [tresserhorns-lord-returned](../decks/tresserhorns-lord-returned.md), [wick-the-whorled-mind](../decks/wick-the-whorled-mind.md), [zevlor-elturel-exile](../decks/zevlor-elturel-exile.md).
 
 ## Ceiling disagreements
 

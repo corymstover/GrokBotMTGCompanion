@@ -1,0 +1,589 @@
+{
+ "schema_version": 2,
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "slug": "jeleva-nephalias-scourge",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 52,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+ "commanders": {
+  "value": [
+   {
+    "name": "Jeleva, Nephalia's Scourge",
+    "oracle_id": "a014f283-c531-415c-ac00-e6773ea5d64d",
+    "oracle_text": "Flying\nWhen Jeleva enters, each player exiles the top X cards of their library, where X is the amount of mana spent to cast Jeleva.\nWhenever Jeleva attacks, you may cast an instant or sorcery spell from among cards exiled with Jeleva without paying its mana cost.",
+    "oracle_sha256": "sha256:f6e8c7f43271fef125f28b39f16a9d5d32a4cdc832adc10d42ad1d96616b07be",
+    "type_line": "Legendary Creature — Vampire Wizard"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Jeleva, Nephalia's Scourge"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Stage a big instant or sorcery on top (Mystical/Vampiric Tutor, Imperial Seal, Personal Tutor, Scheming Symmetry, Long-Term Plans), cast Jeleva to exile it, give her haste and attack to cast it free: Mind's Desire, Peer into the Abyss, Mnemonic Betrayal, Doomsday, Yawgmoth's Will.",
+   "secondary": "Fringe-cEDH turbo backups: Thassa's Oracle + Consultation/Tainted Pact/Doomsday, Underworld Breach + LED/Petal + Brain Freeze or Wheel + Jeska's Will."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md#L19",
+   "interaction:jeleva-nephalias-scourge#jeleva-05",
+   "interaction:jeleva-nephalias-scourge#jeleva-07"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Jeleva is the spell-cheating card-advantage engine the top-deck setup is built for.",
+   "honest_note": "She has to resolve, gain haste and survive to attack before she does anything, and all the compact wins (Oracle, Doomsday, Breach) are commander-independent. She's a strong value engine, not the deck's kill."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md#L19",
+   "interaction:jeleva-nephalias-scourge#jeleva-03",
+   "interaction:jeleva-nephalias-scourge#jeleva-08"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "oracle-doomsday",
+   "kind": "combo",
+   "description": "Thassa's Oracle with Demonic Consultation, Tainted Pact or Doomsday; don't cast Jeleva onto your own Doomsday pile.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact",
+    "Doomsday"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "spellbook:1295-3189",
+    "interaction:jeleva-nephalias-scourge#jeleva-08"
+   ]
+  },
+  {
+   "id": "breach",
+   "kind": "combo",
+   "description": "Underworld Breach + LED/Petal + Brain Freeze, or Wheel of Fortune + Jeska's Will/LED.",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-2706-3518",
+    "interaction:jeleva-nephalias-scourge#jeleva-09"
+   ]
+  },
+  {
+   "id": "free-haymaker",
+   "kind": "natural",
+   "description": "A free Mind's Desire or Peer into the Abyss off Jeleva's attack snowballs into a combo turn.",
+   "cards": [
+    "Mind's Desire",
+    "Peer into the Abyss",
+    "Mnemonic Betrayal",
+    "Yawgmoth's Will",
+    "Final Fortune"
+   ],
+   "enablers": [
+    "Jeleva, Nephalia's Scourge"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:jeleva-nephalias-scourge#jeleva-07"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "exile-and-cast",
+   "cards": [
+    "Jeleva, Nephalia's Scourge",
+    "Harmonic Prodigy",
+    "Lightning Greaves",
+    "Torch Courier",
+    "Arena of Glory"
+   ],
+   "online_condition": "Jeleva enters with a staged spell in range and attacks.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:jeleva-nephalias-scourge#jeleva-01",
+    "interaction:jeleva-nephalias-scourge#jeleva-03",
+    "interaction:jeleva-nephalias-scourge#jeleva-04"
+   ]
+  },
+  {
+   "id": "top-staging",
+   "cards": [
+    "Mystical Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Personal Tutor",
+    "Scheming Symmetry",
+    "Long-Term Plans",
+    "Brainstorm",
+    "Scroll Rack",
+    "Sensei's Divining Top"
+   ],
+   "online_condition": "Before casting Jeleva.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:jeleva-nephalias-scourge#jeleva-05"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:top-tutors",
+   "required": true,
+   "min_count": 6,
+   "role": "Put the target where Jeleva exiles it.",
+   "cards": [
+    "Mystical Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Personal Tutor",
+    "Scheming Symmetry",
+    "Long-Term Plans",
+    "Scroll Rack",
+    "Sensei's Divining Top",
+    "Brainstorm"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:jeleva-nephalias-scourge#jeleva-05"
+   ]
+  },
+  {
+   "id": "pkg:haste",
+   "required": true,
+   "min_count": 3,
+   "role": "Attack the turn she lands.",
+   "cards": [
+    "Lightning Greaves",
+    "Torch Courier",
+    "Arena of Glory"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:jeleva-nephalias-scourge#jeleva-06"
+   ]
+  },
+  {
+   "id": "pkg:free-cast-targets",
+   "required": true,
+   "min_count": 5,
+   "role": "High-leverage spells worth casting free.",
+   "cards": [
+    "Mind's Desire",
+    "Peer into the Abyss",
+    "Mnemonic Betrayal",
+    "Doomsday",
+    "Yawgmoth's Will",
+    "Final Fortune"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:jeleva-nephalias-scourge#jeleva-07"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "x-includes-tax",
+   "summary": "X is the mana actually spent, commander tax included; not cast means X = 0.",
+   "cards": [
+    "Jeleva, Nephalia's Scourge"
+   ],
+   "m1_refs": [
+    "jeleva-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:jeleva-nephalias-scourge#jeleva-01"
+   ]
+  },
+  {
+   "id": "own-exile",
+   "summary": "Each Jeleva object only knows the cards it exiled.",
+   "cards": [
+    "Jeleva, Nephalia's Scourge"
+   ],
+   "m1_refs": [
+    "jeleva-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:jeleva-nephalias-scourge#jeleva-02"
+   ]
+  },
+  {
+   "id": "prodigy",
+   "summary": "Harmonic Prodigy doubles both triggers: two exiles, two free casts.",
+   "cards": [
+    "Harmonic Prodigy"
+   ],
+   "m1_refs": [
+    "jeleva-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:jeleva-nephalias-scourge#jeleva-04"
+   ]
+  },
+  {
+   "id": "greaves-courier",
+   "summary": "Greaves' shroud blocks Torch Courier's targeting.",
+   "cards": [
+    "Lightning Greaves",
+    "Torch Courier"
+   ],
+   "m1_refs": [
+    "jeleva-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:jeleva-nephalias-scourge#jeleva-06"
+   ]
+  },
+  {
+   "id": "doomsday-pile",
+   "summary": "Don't cast Jeleva onto your own Doomsday pile.",
+   "cards": [
+    "Doomsday",
+    "Jeleva, Nephalia's Scourge"
+   ],
+   "m1_refs": [
+    "jeleva-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:jeleva-nephalias-scourge#jeleva-08"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Thassa's Oracle",
+   "via": [
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Wishclaw Talisman"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "target": "Mind's Desire",
+   "via": [
+    "Mystical Tutor",
+    "Personal Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Yawgmoth's Will",
+   "Underworld Breach",
+   "Jeska's Will"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Free counters and one-mana interaction; Toxic Deluge.",
+   "protection": "Fierce Guardianship, Deflecting Swat, haste to minimise exposure.",
+   "mana": "Fast mana and rituals to raise Jeleva's X."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "no-attack",
+   "description": "Jeleva removed before attacking: no free cast.",
+   "mitigations": [
+    "Haste package",
+    "Commander-free Oracle/Breach"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:jeleva-nephalias-scourge#jeleva-03"
+   ]
+  },
+  {
+   "id": "top-disrupted",
+   "description": "Top-of-library changes before the ETB miss the staged card.",
+   "mitigations": [
+    "Cast Jeleva in response windows"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:jeleva-nephalias-scourge#jeleva-05"
+   ]
+  },
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate stops Breach and Yawgmoth's Will.",
+   "mitigations": [
+    "Oracle/Doomsday lines"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Power Bracket 5 — fringe cEDH (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md#L21"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Bracket 5 ceiling (fringe): full cEDH turbo shell; the commander converts less well than top shells per the source's tournament note. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md#L21",
+    "spellbook:1295-3189"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "5",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Jeleva__Nephalia_s_Scourge"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 19,
+     "2": 259,
+     "3": 282,
+     "4": 114,
+     "5": 29
+    },
+    "decks_with_bracket": 703,
+    "share_b4_plus": 0.203,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__jeleva-nephalias-scourge.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Jeleva, Nephalia's Scourge",
+   "why": "Exiles the top X of every library and casts an instant or sorcery free on attack.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Jeleva, Nephalia's Scourge"
+   ]
+  },
+  {
+   "card": "Harmonic Prodigy",
+   "why": "Doubles both Jeleva triggers.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:jeleva-nephalias-scourge#jeleva-04"
+   ]
+  },
+  {
+   "card": "Scheming Symmetry",
+   "why": "Two staged cards for one Jeleva exile.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Mind's Desire",
+   "why": "Premier free-cast target.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:jeleva-nephalias-scourge#jeleva-07"
+   ]
+  },
+  {
+   "card": "Torch Courier",
+   "why": "Cheap haste for the same-turn attack.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:jeleva-nephalias-scourge#jeleva-06"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "The 7–10-mana battlecruiser exile-value shell was retired as too slow (decisions).",
+   "Generic slow value (The One Ring, Roaming Throne, Strionic Resonator) rejected (decisions L69, L73)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md#L69"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Vampire Wizard pirate of Nephalia: plundering libraries; theme subordinate to cEDH."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 107.3m",
+   "note": "X determined by mana spent on an ETB-referencing permanent.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:107.3m"
+   ]
+  },
+  {
+   "rule": "CR 903.8",
+   "note": "Commander tax.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:903.8"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "combat damage / attack triggers",
+    "instants and sorceries"
+   ],
+   "hooked_cards": 50,
+   "role_counts": {
+    "counter": 10,
+    "draw": 11,
+    "protection": 2,
+    "ramp": 18,
+    "removal": 4,
+    "tutor": 8,
+    "wipe": 3
+   },
+   "lands": 27,
+   "edhrec_pages": [
+    "jeleva-nephalias-scourge"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.md",
+   "source_archive:refinement/decklists/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 52)"
+ }
+}

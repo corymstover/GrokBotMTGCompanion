@@ -1,0 +1,596 @@
+{
+ "schema_version": 2,
+ "deck_id": "Gwendlyn_Di_Corci",
+ "slug": "gwendlyn-di-corci",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 52,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+ "commanders": {
+  "value": [
+   {
+    "name": "Gwendlyn Di Corci",
+    "oracle_id": "de44e7c8-01f9-44f9-9716-9e8a5b82b1ff",
+    "oracle_text": "{T}: Target player discards a card at random. Activate only during your turn.",
+    "oracle_sha256": "sha256:a6cb43974d127c10c33d19d96022fd3a7953044bd3302d279e4926c478b83611",
+    "type_line": "Legendary Creature — Human Rogue"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Gwendlyn Di Corci"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Make Gwendlyn a repeatable random-discard engine: haste her, then untap her (Pemmin's Aura, Minamo, Magewright's Stone, Patriar's Seal) and copy her ability (Illusionist's Bracers) to strip hands while discard punishers (Waste Not, Liliana's Caress, Geth's Grimoire, Tinybones) pay off.",
+   "secondary": "Wheels refill opposing hands to strip again and punish draws (Sheoldred, Bowmasters, Underworld Dreams); Chains, Notion Thief and Opposition Agent deny resources; Breach + LED + Wheel of Fortune as a compact finish."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md#L15",
+   "interaction:gwendlyn-di-corci#gwendlyn-03",
+   "interaction:gwendlyn-di-corci#gwendlyn-05"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Every untapper and Bracers exists only to multiply Gwendlyn's activation.",
+   "honest_note": "She is a four-mana tap ability that discards one random card, on your turn only and with summoning sickness (M1 gwendlyn-01). Without haste and untappers she's slow, and most of the damage comes from wheels plus punishers, which work without her."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md#L28",
+   "interaction:gwendlyn-di-corci#gwendlyn-01"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "punisher-wheels",
+   "kind": "natural",
+   "description": "Wheels and repeated discards trigger Waste Not, Caress, Tinybones, Sheoldred, Bowmasters and Underworld Dreams.",
+   "cards": [
+    "Wheel of Fortune",
+    "Windfall",
+    "Timetwister",
+    "Waste Not",
+    "Liliana's Caress",
+    "Sheoldred, the Apocalypse",
+    "Underworld Dreams",
+    "Tinybones, Bauble Burglar"
+   ],
+   "enablers": [
+    "Gwendlyn Di Corci"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:gwendlyn-di-corci#gwendlyn-05"
+   ]
+  },
+  {
+   "id": "breach-led-wheel",
+   "kind": "combo",
+   "description": "Underworld Breach + Lion's Eye Diamond + Wheel of Fortune.",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Wheel of Fortune"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-2706-3518",
+    "interaction:gwendlyn-di-corci#gwendlyn-10"
+   ]
+  },
+  {
+   "id": "empty-hand-lock",
+   "kind": "natural",
+   "description": "Hellbent opponents locked by Oppression, Bottomless Pit and Chains lose to any pressure.",
+   "cards": [
+    "Oppression",
+    "Bottomless Pit",
+    "Chains of Mephistopheles",
+    "Notion Thief"
+   ],
+   "enablers": [
+    "Gwendlyn Di Corci"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "untap-discard",
+   "cards": [
+    "Gwendlyn Di Corci",
+    "Illusionist's Bracers",
+    "Pemmin's Aura",
+    "Minamo, School at Water's Edge",
+    "Magewright's Stone",
+    "Patriar's Seal",
+    "Thousand-Year Elixir"
+   ],
+   "online_condition": "Gwendlyn untapped, not summoning sick, on your turn.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:gwendlyn-di-corci#gwendlyn-02",
+    "interaction:gwendlyn-di-corci#gwendlyn-03"
+   ]
+  },
+  {
+   "id": "discard-payoffs",
+   "cards": [
+    "Waste Not",
+    "Liliana's Caress",
+    "Geth's Grimoire",
+    "Tinybones, Pocket Nuisance",
+    "Tinybones, Bauble Burglar",
+    "Tinybones, Trinket Thief",
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "online_condition": "Opponents discard.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:gwendlyn-di-corci#gwendlyn-05",
+    "interaction:gwendlyn-di-corci#gwendlyn-08"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:untap-copy",
+   "required": true,
+   "min_count": 6,
+   "role": "More activations per turn.",
+   "cards": [
+    "Illusionist's Bracers",
+    "Pemmin's Aura",
+    "Minamo, School at Water's Edge",
+    "Magewright's Stone",
+    "Patriar's Seal",
+    "Thousand-Year Elixir",
+    "Lightning Greaves"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:gwendlyn-di-corci#gwendlyn-03"
+   ]
+  },
+  {
+   "id": "pkg:wheels",
+   "required": true,
+   "min_count": 6,
+   "role": "Refill and strip opposing hands.",
+   "cards": [
+    "Wheel of Fortune",
+    "Wheel of Misfortune",
+    "Windfall",
+    "Timetwister",
+    "Dark Deal",
+    "Reforge the Soul",
+    "Jace's Archivist",
+    "Magus of the Wheel"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:punishers",
+   "required": true,
+   "min_count": 6,
+   "role": "Turn discards and draws into damage and value.",
+   "cards": [
+    "Waste Not",
+    "Liliana's Caress",
+    "Geth's Grimoire",
+    "Tinybones, Pocket Nuisance",
+    "Tinybones, Bauble Burglar",
+    "Sheoldred, the Apocalypse",
+    "Orcish Bowmasters",
+    "Underworld Dreams",
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:gwendlyn-di-corci#gwendlyn-05"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "your-turn-sick",
+   "summary": "Her tap ability is your turn only and needs haste the turn she lands.",
+   "cards": [
+    "Gwendlyn Di Corci",
+    "Lightning Greaves",
+    "Thousand-Year Elixir"
+   ],
+   "m1_refs": [
+    "gwendlyn-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:gwendlyn-di-corci#gwendlyn-01"
+   ]
+  },
+  {
+   "id": "shroud-untappers",
+   "summary": "Shroud on Gwendlyn blocks Minamo, Stone, Seal and Bracers' equip, but not Pemmin's own untap.",
+   "cards": [
+    "Lightning Greaves",
+    "Pemmin's Aura",
+    "Minamo, School at Water's Edge"
+   ],
+   "m1_refs": [
+    "gwendlyn-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:gwendlyn-di-corci#gwendlyn-04"
+   ]
+  },
+  {
+   "id": "per-card-vs-event",
+   "summary": "Caress and Grimoire trigger per card; Tinybones once per discard event.",
+   "cards": [
+    "Liliana's Caress",
+    "Geth's Grimoire",
+    "Tinybones, Pocket Nuisance"
+   ],
+   "m1_refs": [
+    "gwendlyn-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:gwendlyn-di-corci#gwendlyn-05"
+   ]
+  },
+  {
+   "id": "chains-wheels",
+   "summary": "Chains turns wheel draws after an empty hand into mills, for you too.",
+   "cards": [
+    "Chains of Mephistopheles",
+    "Wheel of Fortune"
+   ],
+   "m1_refs": [
+    "gwendlyn-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:gwendlyn-di-corci#gwendlyn-06"
+   ]
+  },
+  {
+   "id": "no-mindcrank",
+   "summary": "Bloodchief Ascension has no Mindcrank loop in this list.",
+   "cards": [
+    "Bloodchief Ascension"
+   ],
+   "m1_refs": [
+    "gwendlyn-09"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:gwendlyn-di-corci#gwendlyn-09"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Illusionist's Bracers",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "target": "Underworld Breach",
+   "via": [
+    "Demonic Tutor",
+    "Gamble",
+    "Imperial Seal"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:1368-2706-3518"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Kess, Dissident Mage",
+   "Underworld Breach",
+   "Yawgmoth's Will",
+   "Dream Salvage"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Free counters (Force of Will, Force of Negation, Fierce Guardianship), Mana Drain, Toxic Deluge, Cyclonic Rift.",
+   "protection": "Lightning Greaves, Pemmin's Aura shroud, Deflecting Swat.",
+   "mana": "Fast mana (Sol Ring, Chrome Mox, Lotus Petal, Ancient Tomb, Dark Ritual) for a four-mana commander."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "slow-engine",
+   "description": "One random discard per tap is slow without untappers.",
+   "mitigations": [
+    "Untap package",
+    "Wheels and punishers"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:gwendlyn-di-corci#gwendlyn-01"
+   ]
+  },
+  {
+   "id": "chains-self",
+   "description": "Chains mills you on your own wheels.",
+   "mitigations": [
+    "Sequence wheels with Chains off"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:gwendlyn-di-corci#gwendlyn-06"
+   ]
+  },
+  {
+   "id": "empty-hands",
+   "description": "Opponents empty their hands fast, leaving Gwendlyn nothing to hit.",
+   "mitigations": [
+    "Wheels refill",
+    "Oppression/Bottomless Pit lock"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 — Optimized (decisions natural ceiling)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md#L28"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling: oppressive discard-control with a premium card pool, but a four-mana one-card-per-tap commander and one compact combo. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md#L28",
+    "interaction:gwendlyn-di-corci#gwendlyn-01"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Gwendlyn_Di_Corci"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 15,
+     "2": 20,
+     "3": 25,
+     "4": 31,
+     "5": 3
+    },
+    "decks_with_bracket": 94,
+    "share_b4_plus": 0.362,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__gwendlyn-di-corci.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Gwendlyn Di Corci",
+   "why": "Repeatable random discard on your turn.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Gwendlyn Di Corci"
+   ]
+  },
+  {
+   "card": "Illusionist's Bracers",
+   "why": "Copies each activation: two discards per tap.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:gwendlyn-di-corci#gwendlyn-02"
+   ]
+  },
+  {
+   "card": "Pemmin's Aura",
+   "why": "Untap per blue mana, plus shroud.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:gwendlyn-di-corci#gwendlyn-03"
+   ]
+  },
+  {
+   "card": "Waste Not",
+   "why": "Turns every discard into mana, Zombies or cards.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:gwendlyn-di-corci#gwendlyn-05"
+   ]
+  },
+  {
+   "card": "Mind Twist",
+   "why": "Scalable random discard that mirrors the commander.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic Grixis Thoracle/Breach turbo conversion (decisions L28).",
+   "Prefer cards that raise Gwendlyn's activation rate over generic discard bodies (decisions swaps)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md#L28"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Random discard and hand denial: the Rogue who empties hands."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 302.6",
+   "note": "Summoning sickness stops a creature's {T} abilities.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:302.6"
+   ]
+  },
+  {
+   "rule": "CR 701.9b",
+   "note": "Random discard.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.9b"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "discard"
+   ],
+   "hooked_cards": 24,
+   "role_counts": {
+    "counter": 6,
+    "draw": 19,
+    "protection": 3,
+    "ramp": 10,
+    "removal": 4,
+    "tutor": 5,
+    "wipe": 1
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "gwendlyn-di-corci"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Gwendlyn_Di_Corci_Approved_2026-10-14.md",
+   "source_archive:refinement/decklists/Gwendlyn_Di_Corci_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 52)"
+ }
+}

@@ -1,0 +1,545 @@
+{
+ "schema_version": 2,
+ "deck_id": "Loki__the_Deceiver",
+ "slug": "loki-the-deceiver",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 52,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+ "commanders": {
+  "value": [
+   {
+    "name": "Loki, the Deceiver",
+    "oracle_id": "17e45fd8-c924-4b42-87ad-189469a8dd18",
+    "oracle_text": "Whenever Loki attacks, create a tapped and attacking token that's a copy of another target Villain you control, except it isn't legendary and it's an Illusion in addition to its other types. Sacrifice that token at the beginning of the next end step.\nWhenever one or more Villains you control deal combat damage to a player, draw a card.",
+    "oracle_sha256": "sha256:457ae3d6b4cf341be9a067ee84936d9e29d8057893c8923e86279d21e02a724b",
+    "type_line": "Legendary Creature — God Sorcerer Villain"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Loki, the Deceiver"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Villain-copy combat value: Loki attacks safely, copies the best Villain for the combat (enters, static and combat-damage text, not attack triggers), and connecting Villains draw cards.",
+   "secondary": "Keep the temporary copies (The Master, Multiplied; Sundial of the Infinite), double Loki's trigger (Roaming Throne, Hall of Echoes, Titan of Littjara), and grind with Villain tribal draw (Kindred Discovery) and premium Grixis interaction."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md#L15",
+   "interaction:loki-the-deceiver#loki-01",
+   "interaction:loki-the-deceiver#loki-02"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Loki's attack copy and Villain combat draw are the deck's main engine.",
+   "honest_note": "There is no compact win: Commander Spellbook finds no combos in the list. The copy enters attacking, so attack-trigger Villains do nothing as targets (M1 loki-01). Loki has to attack and survive combat to generate value."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md#L17",
+   "interaction:loki-the-deceiver#loki-01"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "villain-combat",
+   "kind": "natural",
+   "description": "A wide, anthem-boosted Villain board with copied bodies attacks every turn while Loki draws.",
+   "cards": [
+    "Avengers: Under Siege",
+    "Doctor Octopus, Master Planner",
+    "Red Ghost, Intangible Genius",
+    "Titan of Littjara",
+    "The Master, Multiplied"
+   ],
+   "enablers": [
+    "Loki, the Deceiver"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:loki-the-deceiver#loki-06"
+   ]
+  },
+  {
+   "id": "card-advantage-grind",
+   "kind": "natural",
+   "description": "Villain card draw (Loki, Kindred Discovery, Rhystic Study) out-grinds the table behind counters and wipes.",
+   "cards": [
+    "Kindred Discovery",
+    "Rhystic Study",
+    "Black Market Connections"
+   ],
+   "enablers": [
+    "Loki, the Deceiver"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "attack-copy",
+   "cards": [
+    "Loki, the Deceiver",
+    "Roaming Throne",
+    "Hall of Echoes",
+    "Titan of Littjara",
+    "Spark Double"
+   ],
+   "online_condition": "Loki attacks with another Villain in play.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:loki-the-deceiver#loki-01",
+    "interaction:loki-the-deceiver#loki-03",
+    "interaction:loki-the-deceiver#loki-04"
+   ]
+  },
+  {
+   "id": "keep-copies",
+   "cards": [
+    "The Master, Multiplied",
+    "Sundial of the Infinite",
+    "Doctor Octopus, Master Planner"
+   ],
+   "online_condition": "A Loki token in play before end step.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:loki-the-deceiver#loki-05",
+    "interaction:loki-the-deceiver#loki-06"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:villains",
+   "required": true,
+   "min_count": 20,
+   "role": "Villains with enters, static or combat-damage text worth copying.",
+   "cards": [
+    "Baron Strucker, HYDRA Overlord",
+    "Black Cat, Cunning Thief",
+    "Carnage, Crimson Chaos",
+    "Crimson Cowl, Master of Evil",
+    "Crossbones, Malicious Mercenary",
+    "Doctor Doom, King of Latveria",
+    "Doctor Octopus, Master Planner",
+    "Iron Monger, Sadistic Tycoon",
+    "Kang Prime",
+    "Kang, Temporal Tyrant",
+    "Killmonger, Ruthless Usurper",
+    "Leader, Super-Genius",
+    "M.O.D.O.K.",
+    "Madame Hydra",
+    "Norman Osborn // Green Goblin",
+    "Prowler, Clawed Thief",
+    "Red Ghost, Intangible Genius",
+    "Stilt-Man, Towering Terror",
+    "Tombstone, Career Criminal",
+    "Ultron, Unlimited",
+    "Venom, Eddie Brock",
+    "Mysterio, Master of Illusion"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md",
+    "source_archive:refinement/decisions/Loki_the_Deceiver_Whole_List_Audit_2026-10-14.csv"
+   ]
+  },
+  {
+   "id": "pkg:copy",
+   "required": true,
+   "min_count": 5,
+   "role": "More copies of Loki or his targets.",
+   "cards": [
+    "Spark Double",
+    "Taskmaster, Mercenary Mimic",
+    "Mysterio, Master of Illusion",
+    "Chameleon, Master of Disguise",
+    "Loki, Lord of Misrule",
+    "Hall of Echoes",
+    "Titan of Littjara"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "enters-attacking",
+   "summary": "The copy enters attacking: no attack triggers, but ETB, statics and combat-damage triggers work.",
+   "cards": [
+    "Loki, the Deceiver"
+   ],
+   "m1_refs": [
+    "loki-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:loki-the-deceiver#loki-01"
+   ]
+  },
+  {
+   "id": "batch-draw",
+   "summary": "Villain combat damage draws once per batch.",
+   "cards": [
+    "Loki, the Deceiver"
+   ],
+   "m1_refs": [
+    "loki-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:loki-the-deceiver#loki-02"
+   ]
+  },
+  {
+   "id": "throne-villain",
+   "summary": "Roaming Throne naming Villain doubles Loki's attack trigger.",
+   "cards": [
+    "Roaming Throne",
+    "Titan of Littjara"
+   ],
+   "m1_refs": [
+    "loki-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:loki-the-deceiver#loki-03"
+   ]
+  },
+  {
+   "id": "keep-token",
+   "summary": "The Master stops the sacrifice; Sundial only with the trigger on the stack.",
+   "cards": [
+    "The Master, Multiplied",
+    "Sundial of the Infinite"
+   ],
+   "m1_refs": [
+    "loki-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:loki-the-deceiver#loki-05"
+   ]
+  },
+  {
+   "id": "scepter",
+   "summary": "Loki's Scepter's temporary Villain type doesn't carry onto Loki's copy.",
+   "cards": [
+    "Loki's Scepter"
+   ],
+   "m1_refs": [
+    "loki-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:loki-the-deceiver#loki-07"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "The Master, Multiplied",
+   "via": [
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Reanimate",
+   "Jeska's Will"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "low",
+  "evidence": [
+   "source_archive:refinement/decisions/Loki_the_Deceiver_Whole_List_Audit_2026-10-14.csv"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Mana Drain, Fierce Guardianship, An Offer You Can't Refuse, Deadly Rollick, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+   "protection": "Swiftfoot Boots, Lightning Greaves, Deflecting Swat.",
+   "mana": "34 lands, Sol Ring, Talismans, Dark Ritual; Cavern of Souls and Path of Ancestry for Villains."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "no-combo",
+   "description": "No compact win; the deck has to win through combat.",
+   "mitigations": [
+    "Card advantage",
+    "Interaction suite"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "attack-trigger-targets",
+   "description": "Attack-trigger Villains are poor copy targets.",
+   "mitigations": [
+    "Source cut most of them"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:loki-the-deceiver#loki-01"
+   ]
+  },
+  {
+   "id": "loki-removed",
+   "description": "Loki removed or unable to attack safely.",
+   "mitigations": [
+    "Boots, Greaves",
+    "Copy redundancy"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md#L21"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling, low end: premium Grixis interaction and Game Changers put the list in B4, but there's no compact win and the commander is a combat-value engine. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md#L21",
+    "interaction:loki-the-deceiver#loki-01"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Loki__the_Deceiver"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 7,
+     "2": 140,
+     "3": 169,
+     "4": 26,
+     "5": 2
+    },
+    "decks_with_bracket": 344,
+    "share_b4_plus": 0.081,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__loki-the-deceiver.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Loki, the Deceiver",
+   "why": "Attack-time Villain copy plus Villain combat draw.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Loki, the Deceiver"
+   ]
+  },
+  {
+   "card": "The Master, Multiplied",
+   "why": "Keeps Loki's temporary copies.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:loki-the-deceiver#loki-05"
+   ]
+  },
+  {
+   "card": "Roaming Throne",
+   "why": "Doubles Loki's attack trigger.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:loki-the-deceiver#loki-03"
+   ]
+  },
+  {
+   "card": "Hall of Echoes",
+   "why": "Becomes a second Loki without the legend rule.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:loki-the-deceiver#loki-04"
+   ]
+  },
+  {
+   "card": "Red Ghost, Intangible Genius",
+   "why": "Unblockable warded Villain that makes hasty Apes.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic Thassa's Oracle/Consultation or fast-combo packages (decisions, rejected under no-forced-homogenization).",
+   "Avoid attack-trigger-only Villains as copy targets."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Marvel's Loki and his Villains: deception, copies and illusions."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 508.4",
+   "note": "Creatures put onto the battlefield attacking were never declared as attackers.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:508.4"
+   ]
+  },
+  {
+   "rule": "CR 707.9b",
+   "note": "Copy exceptions (not legendary, Illusion) become copiable values.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:707.9b"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Illusion synergy",
+    "Villain synergy",
+    "combat damage / attack triggers",
+    "copying",
+    "sacrifice",
+    "tokens"
+   ],
+   "hooked_cards": 41,
+   "role_counts": {
+    "counter": 3,
+    "draw": 9,
+    "protection": 3,
+    "ramp": 14,
+    "removal": 5,
+    "tutor": 1,
+    "wipe": 2
+   },
+   "lands": 34,
+   "edhrec_pages": [
+    "loki-the-deceiver"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Loki_the_Deceiver_Approved_2026-10-14.md",
+   "source_archive:refinement/decisions/Loki_the_Deceiver_Whole_List_Audit_2026-10-14.csv",
+   "source_archive:refinement/decklists/Loki_the_Deceiver_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 52)"
+ }
+}

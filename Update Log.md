@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 52 (M2: commander blueprints, batch 2)](#2026-10-16--bot-cycle-52-m2-commander-blueprints-batch-2)
 - [2026-10-16 — Bot cycle 50 (M2: commander blueprints, batch 1; M0 accepted)](#2026-10-16--bot-cycle-50-m2-commander-blueprints-batch-1-m0-accepted)
 - [2026-10-16 — Bot cycle 49 (phase 2 / M1: batch C; M0 follow-ups)](#2026-10-16--bot-cycle-49-phase-2--m1-batch-c-m0-follow-ups)
 - [2026-10-16 — Bot cycle 48 (phase 2 / M1: Spellbook step cache, batch B)](#2026-10-16--bot-cycle-48-phase-2--m1-spellbook-step-cache-batch-b)
@@ -66,6 +67,14 @@ schema: 2
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
 
+## 2026-10-16 — Bot cycle 52 (M2: commander blueprints, batch 2)
+- **Batch 2: 15 decks**, Edea, Possessed Sorceress … Lord Xander, the Collector alphabetically (Edea, Edward Kenway, Evelyn, Fire Lord Azula, Garza Zol, Goro-Goro and Satoru, Grixistax (Kraum + Tevesh Szat), Gwendlyn Di Corci, Inalla, Jeleva, Kefka, Kess, Loki, Lord of Tresserhorn, Lord Xander). **30/62 blueprints** in total. Same standard as batch 1: every field carries an `evidence_class`, a `confidence` and resolvable evidence (source decisions/approvals with line numbers, M1 rulings, Spellbook combo ids, CR rules, Oracle text). `resolved_ceiling` stays null and every blueprint is `seeded` (not reviewed by Cory).
+- **Ceilings:** all 15 have a source ceiling; **0 disagreements**. Bracket 5 for Evelyn, Fire Lord Azula, Grixistax, Inalla, Jeleva, Kefka and Kess; Bracket 4 for the other 8.
+- **Honest commander roles:**
+  - `significant`, not `central`: Evelyn (all three proven wins work without her; she is the deck's only Vampire, so her "another Vampire" clause is dead text), Fire Lord Azula (copies only while attacking; Breach and Oracle wins don't need her), Jeleva (a value engine; the kills are generic), Grixistax (Tevesh is the parity engine; Kraum is close to incidental because the deck's own taxes suppress his trigger).
+  - `central` with caveats: Loki has no compact win at all (Spellbook finds no combos; low-end B4 by card pool); Garza is a seven-mana single threat; Inalla, Kefka, Kess and Lord Xander drive their decks, but several of their win lines also run without them; Lord of Tresserhorn's enter trigger is a real cost.
+- **Checks caught:** non-Villain, non-Wizard cards in typal packages (The Master, Multiplied; Hoarding Broodlord; Hexing Squelcher), Evereth listed as theft (it's a sacrifice outlet), and CR citations that didn't match their notes; all fixed before commit.
+- **Not touched:** `grixis/interactions/`, `data/grixis_interactions/`, `scripts/grixis_interactions.py`. No decklist changed. Tooling unchanged from cycle 50.
 ## 2026-10-16 — Bot cycle 50 (M2: commander blueprints, batch 1; M0 accepted)
 - **M0 accepted.** Cory accepted M0 in chat on 2026-10-16 at 10:52 UTC ("I accept M0"), relayed by MTG Bot. It is recorded in `data/grixis/registry.json → program.milestones.M0` (`accepted_by` corymstover, `accepted_at` 2026-10-16T10:52Z, `acceptance_evidence`, `scope_note`). This is milestone acceptance only: **no deck is approved**, and all 62 keep their states. `grixis_authority.py --check` now requires an accepted milestone to have a human `accepted_by`, a date and evidence. M0 criterion 11 is ✅. M2 is `in_progress`.
 - **M2 started: commander blueprints.**

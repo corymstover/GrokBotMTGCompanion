@@ -1,0 +1,614 @@
+{
+ "schema_version": 2,
+ "deck_id": "Evelyn__the_Covetous",
+ "slug": "evelyn-the-covetous",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 52,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+ "commanders": {
+  "value": [
+   {
+    "name": "Evelyn, the Covetous",
+    "oracle_id": "4ab6f615-1f04-4ed2-88b2-49faa8356dd0",
+    "oracle_text": "Flash\nWhenever Evelyn or another Vampire you control enters, exile the top card of each player's library with a collection counter on it.\nOnce each turn, you may play a card from exile with a collection counter on it if it was exiled by an ability you controlled, and you may spend mana as though it were mana of any color to cast it.",
+    "oracle_sha256": "sha256:2896e8dee37527bcaf0735d8076df963c98220be38de203120b8d2c46503a16a",
+    "type_line": "Legendary Creature — Vampire Rogue"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Evelyn, the Covetous"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "cEDH turbo/midrange: fast mana, tutors and dense free interaction toward Worldgorger Dragon + a reanimation Aura (unbounded mana, repeated Evelyn exile triggers), Thassa's Oracle + Consultation/Tainted Pact, or Underworld Breach + LED/Petal + Brain Freeze.",
+   "secondary": "Evelyn as a flash value engine: each entry exiles the top card of every library and she plays one per turn, with Leyline of Anticipation and Valley Floodcaller letting her work on opponents' turns."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md#L33",
+   "interaction:evelyn-the-covetous#evelyn-03",
+   "interaction:evelyn-the-covetous#evelyn-06",
+   "interaction:evelyn-the-covetous#evelyn-07"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Flash card advantage, and a Worldgorger loop that repeatedly re-triggers her exile.",
+   "honest_note": "All three proven win lines (Worldgorger + Aura for mana, Oracle + Consultation/Pact, Breach + LED + Brain Freeze) work without Evelyn; the Evelyn-specific Worldgorger-into-Oracle line is rated uncertain in M1 (evelyn-05). Evelyn is the only Vampire left, so her 'another Vampire' clause is dead text: the source traded the Vampire identity for a generic Grixis cEDH shell."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md",
+   "interaction:evelyn-the-covetous#evelyn-05",
+   "interaction:evelyn-the-covetous#evelyn-03"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "worldgorger",
+   "kind": "combo",
+   "description": "Worldgorger Dragon + Animate Dead/Dance of the Dead/Necromancy: unbounded mana, with a creature in a graveyard as the exit into a win.",
+   "cards": [
+    "Worldgorger Dragon",
+    "Animate Dead",
+    "Dance of the Dead",
+    "Necromancy"
+   ],
+   "enablers": [
+    "Entomb",
+    "Unmarked Grave",
+    "Faithless Looting",
+    "Evelyn, the Covetous"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:4812-4846",
+    "spellbook:3605-4846",
+    "spellbook:2896-4846",
+    "interaction:evelyn-the-covetous#evelyn-03",
+    "interaction:evelyn-the-covetous#evelyn-04"
+   ]
+  },
+  {
+   "id": "oracle",
+   "kind": "combo",
+   "description": "Thassa's Oracle with Demonic Consultation or Tainted Pact.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "interaction:evelyn-the-covetous#evelyn-06"
+   ]
+  },
+  {
+   "id": "breach-brain-freeze",
+   "kind": "combo",
+   "description": "Underworld Breach with Lion's Eye Diamond or Lotus Petal loops Brain Freeze to mill the table.",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856",
+    "interaction:evelyn-the-covetous#evelyn-07"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "collection-exile",
+   "cards": [
+    "Evelyn, the Covetous",
+    "Leyline of Anticipation",
+    "Valley Floodcaller",
+    "Party Thrasher"
+   ],
+   "online_condition": "Evelyn enters; one play from exile each turn.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:evelyn-the-covetous#evelyn-01",
+    "interaction:evelyn-the-covetous#evelyn-02"
+   ]
+  },
+  {
+   "id": "fast-mana-tutors",
+   "cards": [
+    "Mana Vault",
+    "Chrome Mox",
+    "Mox Diamond",
+    "Lotus Petal",
+    "Dark Ritual",
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Necropotence",
+    "Ad Nauseam"
+   ],
+   "online_condition": "Opening hand.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:worldgorger",
+   "required": true,
+   "min_count": 5,
+   "role": "Dragon, Auras and discard/entomb setup.",
+   "cards": [
+    "Worldgorger Dragon",
+    "Animate Dead",
+    "Dance of the Dead",
+    "Necromancy",
+    "Entomb",
+    "Unmarked Grave",
+    "Faithless Looting"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:evelyn-the-covetous#evelyn-03"
+   ]
+  },
+  {
+   "id": "pkg:free-interaction",
+   "required": true,
+   "min_count": 8,
+   "role": "Stack protection at cEDH speed.",
+   "cards": [
+    "Force of Will",
+    "Force of Negation",
+    "Pact of Negation",
+    "Mental Misstep",
+    "Mindbreak Trap",
+    "Flusterstorm",
+    "Swan Song",
+    "An Offer You Can't Refuse",
+    "Pyroblast",
+    "Red Elemental Blast",
+    "Stifle"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:tutors",
+   "required": true,
+   "min_count": 6,
+   "role": "Find a combo half.",
+   "cards": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Mystical Tutor",
+    "Wishclaw Talisman",
+    "Gamble",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "one-play",
+   "summary": "One collection-counter play per turn across all Evelyns.",
+   "cards": [
+    "Evelyn, the Covetous"
+   ],
+   "m1_refs": [
+    "evelyn-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:evelyn-the-covetous#evelyn-01"
+   ]
+  },
+  {
+   "id": "mandatory-loop",
+   "summary": "The Worldgorger loop is mandatory: without an exit it's a draw.",
+   "cards": [
+    "Worldgorger Dragon"
+   ],
+   "m1_refs": [
+    "evelyn-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:evelyn-the-covetous#evelyn-04"
+   ]
+  },
+  {
+   "id": "evelyn-oracle",
+   "summary": "Worldgorger + Evelyn into Thassa's Oracle from exile is plausible but rated uncertain.",
+   "cards": [
+    "Worldgorger Dragon",
+    "Evelyn, the Covetous",
+    "Thassa's Oracle"
+   ],
+   "m1_refs": [
+    "evelyn-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:evelyn-the-covetous#evelyn-05"
+   ]
+  },
+  {
+   "id": "bauble-self",
+   "summary": "Vexing Bauble also counters your own free LED/Petal escapes.",
+   "cards": [
+    "Vexing Bauble",
+    "Lion's Eye Diamond"
+   ],
+   "m1_refs": [
+    "evelyn-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:evelyn-the-covetous#evelyn-08"
+   ]
+  },
+  {
+   "id": "saw-commander",
+   "summary": "Saw in Half on Evelyn: she dies, you get two token copies and their triggers.",
+   "cards": [
+    "Saw in Half",
+    "Evelyn, the Covetous"
+   ],
+   "m1_refs": [
+    "evelyn-09"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:evelyn-the-covetous#evelyn-09"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Worldgorger Dragon",
+   "via": [
+    "Entomb",
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:4812-4846"
+   ]
+  },
+  {
+   "target": "Thassa's Oracle",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "target": "Underworld Breach",
+   "via": [
+    "Demonic Tutor",
+    "Gamble"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:1368-3518-4856"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Animate Dead",
+   "Necromancy",
+   "Dance of the Dead",
+   "Reanimate",
+   "Underworld Breach"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Free counters and one-mana stack interaction.",
+   "protection": "Defense Grid, Spellskite, the counter suite.",
+   "mana": "Premium fast mana and rituals; 3-mana flash commander."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "no-exit",
+   "description": "Worldgorger loop with no creature to break it is a forced draw.",
+   "mitigations": [
+    "Keep a second creature in the yard",
+    "Thassa's Oracle exit"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:evelyn-the-covetous#evelyn-04"
+   ]
+  },
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate stops Worldgorger and Breach.",
+   "mitigations": [
+    "Thassa's Oracle + Consultation",
+    "Bounce/remove hate"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "own-bauble",
+   "description": "Your own Vexing Bauble blocks free combo spells.",
+   "mitigations": [
+    "Crack it first"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:evelyn-the-covetous#evelyn-08"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "low",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md",
+   "interaction:evelyn-the-covetous#evelyn-03"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Bracket 5 — cEDH / fringe-competitive (decisions §2)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md#L33"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Bracket 5 ceiling: proven cEDH win packages and tournament results (48 entries, 10 top cuts per the source). Agrees with the source; note the power comes mostly from generic packages, not from Evelyn."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md#L35",
+    "spellbook:4812-4846"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "5",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Evelyn__the_Covetous"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 20,
+     "2": 522,
+     "3": 305,
+     "4": 108,
+     "5": 100
+    },
+    "decks_with_bracket": 1055,
+    "share_b4_plus": 0.197,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__evelyn-the-covetous.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Evelyn, the Covetous",
+   "why": "Flash exile engine with one play per turn.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Evelyn, the Covetous"
+   ]
+  },
+  {
+   "card": "Worldgorger Dragon",
+   "why": "The commander-flavoured combo: loops re-trigger Evelyn.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:evelyn-the-covetous#evelyn-03"
+   ]
+  },
+  {
+   "card": "Leyline of Anticipation",
+   "why": "Flash for everything, so Evelyn plays on opponents' turns.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:evelyn-the-covetous#evelyn-02"
+   ]
+  },
+  {
+   "card": "Saw in Half",
+   "why": "Kills Evelyn into two token copies and four triggers.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:evelyn-the-covetous#evelyn-09"
+   ]
+  },
+  {
+   "card": "Party Thrasher",
+   "why": "Gives Evelyn's casts convoke and loots.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:evelyn-the-covetous#evelyn-10"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't rebuild the Vampire/ETB value shell; the source judged it below the commander's ceiling (decisions §2).",
+   "Keep combo exits in the list: the Worldgorger loop can't be left unbroken."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Theme subordinate to cEDH: the Vampire identity is gone (Evelyn is the only Vampire)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 104.4b",
+   "note": "An unbreakable mandatory loop is a draw.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:104.4b"
+   ]
+  },
+  {
+   "rule": "CR 702.8a",
+   "note": "Flash.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.8a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Vampire synergy",
+    "enters triggers",
+    "playing cards from exile"
+   ],
+   "hooked_cards": 10,
+   "role_counts": {
+    "counter": 11,
+    "draw": 11,
+    "protection": 1,
+    "ramp": 17,
+    "removal": 5,
+    "tutor": 8,
+    "wipe": 2
+   },
+   "lands": 26,
+   "edhrec_pages": [
+    "evelyn-the-covetous"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Evelyn_the_Covetous_Approved_2026-10-14.md",
+   "source_archive:refinement/decklists/Evelyn_the_Covetous_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 52)"
+ }
+}
