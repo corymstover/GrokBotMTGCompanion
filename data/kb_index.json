@@ -5208,8 +5208,8 @@
 ],
 "issues": [],
 "related": [
-"Front-Matter Schema.md",
 "ROADMAP.md",
+"Front-Matter Schema.md",
 "EDH Lore-Themed Deckbuilding.md",
 "Knowledge Index.md",
 "Update Log.md",
@@ -5264,8 +5264,8 @@
 ],
 "issues": [],
 "related": [
-"Front-Matter Schema.md",
 "Progress Tracker.md",
+"Front-Matter Schema.md",
 "EDH Bracket Calibration.md",
 "EDH Lore-Themed Deckbuilding.md",
 "Items & Artifacts Index.md",
@@ -5780,6 +5780,11 @@
 "changelog"
 ],
 "headings": [
+[
+2,
+"2026-10-16 — Bot cycle 36 (Phase 8: Legends evidence, audit pass 2, batch 4 partial)",
+"2026-10-16--bot-cycle-36-phase-8-legends-evidence-audit-pass-2-batch-4-partial"
+],
 [
 2,
 "2026-10-15 — Bot cycle 35 (Phase 8: story cache, name-match audit, batch 3)",
