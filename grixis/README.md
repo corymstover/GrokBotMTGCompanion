@@ -5,11 +5,13 @@ tags: [grixis, decks, index]
 issues: [59, 60, 61]
 generated_by: scripts/build_grixis.py
 sources: [grixis-repo, scryfall, spellbook]
-related: ["EDH Standards.md", "grixis/Grixis Evaluation.md", "grixis/Grixis Packages.md", "EDH Deck Template.md", "grixis/Grixis Corrections.md", "EDH Bracket Calibration.md"]
+related: ["EDH Standards.md", "grixis/Grixis Evaluation.md", "grixis/Grixis Packages.md", "EDH Deck Template.md", "grixis/Grixis Corrections.md", "grixis/Grixis Refinement Cycle.md"]
 schema: 2
 ---
 
 # Grixis (U/B/R) Commander
+
+> 🎯 **Mission (Cory, Bot cycle 39):** every one of the 62 decks must be the definitive, maximally optimized version of *that commander's* deck, not a strong Grixis shell. Commander identity first, optimization up to the commander's natural ceiling, no homogenization, complete verification. Full text: [Grixis Mission](Grixis%20Mission.md) · progress: [Grixis Refinement Cycle](Grixis%20Refinement%20Cycle.md) · Archidekt files: [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md).
 
 > **Bot cycle 16 import, refreshed in Bot cycle 37** (all 62 source lists are now APPROVED/LOCKED in the source). This section brings in the user's Grixis Commander work from [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) (commit `1836b97`, read-only): the user-approved, refined decklists, each with its commander-first blueprint, swap decisions and approval record quoted verbatim. Each list was re-validated against our card DB, corrected where needed, and given Game Changer counts, bracket floors and Commander Spellbook combos. Source analysis is **the source author's guidance**. Our facts come from Scryfall and Commander Spellbook. Built by `scripts/build_grixis.py`. Related: [EDH Standards](../EDH%20Standards.md) · [EDH Deck Template](../EDH%20Deck%20Template.md) · [EDH Deck Evaluation Checklist](../EDH%20Deck%20Evaluation%20Checklist.md) · [Grixis mana base](../EDH%20Mana%20Bases.md) · [data-derived Nekusar skeleton](../decks/nekusar-the-mindrazer.md)
 
@@ -24,6 +26,9 @@ schema: 2
 | Page | What it holds |
 |---|---|
 | [Grixis Integration Summary](Grixis%20Integration%20Summary.md) | What was integrated, what was generalized, and follow-ups |
+| [Grixis Mission](Grixis%20Mission.md) | Cory's commander-first mission and principles (Bot cycle 39) |
+| [Grixis Refinement Cycle](Grixis%20Refinement%20Cycle.md) | Commander-dependence and homogenization metrics for all 62 decks, batch log, per-deck swaps |
+| [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md) | Archidekt import file per deck (final list) and ALL-DECKS.txt |
 | [Grixis Evaluation](Grixis%20Evaluation.md) | Check results for all 62 source lists, and how each current list was chosen |
 | [Grixis Corrections](Grixis%20Corrections.md) | All 135 corrections (deck, issue, fix), the Oracle-text check, source-repo structural findings |
 | [Grixis Packages](Grixis%20Packages.md) | Cross-deck package library (cards shared by 4 or more of the 60 lists, by role) and verified rules insights |

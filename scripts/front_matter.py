@@ -93,6 +93,8 @@ PAGES = {
     # Bot cycle 31 — Phase 7 lore optimization pass (#92–#96)
     "Lore Entry Index.md": ("lore", ["lore", "index", "entries", "retrieval"], [92, 94], "scripts/build_lore_index.py", ["wizards-story"]),
     "grixis/Grixis Integration Summary.md": ("meta", ["grixis", "summary", "follow-ups"], [59, 60, 61, 62, 63], None, ["grixis-repo"]),
+    "grixis/Grixis Mission.md": ("meta", ["grixis", "mission", "commander-first"], [], None, ["grixis-repo"]),
+    "grixis/Grixis Refinement Cycle.md": ("edh", ["grixis", "refinement", "commander-first", "homogenization"], [], "scripts/grixis_refine.py", ["scryfall", "edhrec", "spellbook"]),
 }
 INDEX_ONLY = {"Lore Entry Index.md", "Card Enrichment.md"}  # generated hub that links every lore page; never counted as another page's "related"
 SUBDIRS = ["grixis"]  # sub-folders whose .md pages must be registered (decks/ folders are handled as decks)

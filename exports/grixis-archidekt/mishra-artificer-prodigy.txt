@@ -1,0 +1,100 @@
+1 Mishra, Artificer Prodigy [Commander]
+1 Academy Ruins
+1 Aetherflux Reservoir
+1 Ancient Tomb
+1 Arcane Signet
+1 Badlands
+1 Blood Crypt
+1 Blood Funnel
+1 Bloodstained Mire
+1 Bolas's Citadel
+1 Chalice of the Void
+1 Chrome Mox
+1 City of Brass
+1 Cloud Key
+1 Command Tower
+1 Cyclonic Rift
+1 Demonic Tutor
+1 Dimir Signet
+1 Emry, Lurker of the Loch
+1 Encroaching Mycosynth
+1 Enthusiastic Mechanaut
+1 Etherium Sculptor
+1 Exotic Orchard
+1 Fabricate
+1 Fellwar Stone
+1 Fierce Guardianship
+1 Force of Negation
+1 Force of Will
+1 Foundry Inspector
+1 Gamble
+1 Goblin Engineer
+1 Goblin Welder
+1 Great Furnace
+1 Grim Monolith
+1 Inventors' Fair
+1 Island
+1 Izzet Signet
+1 Jhoira, Weatherlight Captain
+1 Junk Diver
+1 Karn, the Great Creator
+1 Krark-Clan Ironworks
+1 Lightning Greaves
+1 Luxury Suite
+1 Mana Confluence
+1 Mana Drain
+1 Mana Vault
+1 Metalworker
+1 Mishra's Workshop
+1 Morphic Pool
+1 Mountain
+1 Mox Amber
+1 Mox Diamond
+1 Mox Opal
+1 Mycosynth Lattice
+1 Myr Retriever
+1 Mystic Forge
+1 Mystic Remora
+1 Nether Void
+1 Nullstone Gargoyle
+1 Phyrexian Metamorph
+1 Planar Chaos
+1 Polluted Delta
+1 Possibility Storm
+1 Praetor's Grasp
+1 Rhystic Study
+1 Scalding Tarn
+1 Scrap Trawler
+1 Sculpting Steel
+1 Seat of the Synod
+1 Sensei's Divining Top
+1 Shivan Reef
+1 Sol Ring
+1 Spire of Industry
+1 Steam Vents
+1 Swamp
+1 Swan Song
+1 Talisman of Creativity
+1 Talisman of Dominance
+1 Talisman of Indulgence
+1 Tezzeret the Seeker
+1 Tezzeret, Cruel Captain
+1 The One Ring
+1 The Reality Chip
+1 Thought Monitor
+1 Toxic Deluge
+1 Training Center
+1 Transmute Artifact
+1 Underground Sea
+1 Urza's Saga
+1 Urza, Lord High Artificer
+1 Uthros Research Craft
+1 Vampiric Tutor
+1 Vandalblast
+1 Vault of Whispers
+1 Vexing Bauble
+1 Void Mirror
+1 Volcanic Island
+1 Watery Grave
+1 Whir of Invention
+1 Wishclaw Talisman

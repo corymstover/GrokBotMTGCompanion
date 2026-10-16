@@ -1,0 +1,87 @@
+1 Tetsuo Umezawa [Commander]
+1 Aphetto Alchemist
+1 Arcane Signet
+1 Badlands
+1 Baleful Strix
+1 Bedevil
+1 Blasphemous Act
+1 Blood Crypt
+1 Bloodstained Mire
+1 Bloodthirsty Blade
+1 Blustersquall
+1 Bojuka Bog
+1 Borrowing 100,000 Arrows
+1 Bothersome Quasit
+1 Brainstorm
+1 Chaos Warp
+1 Command Tower
+1 Counterspell
+1 Cyclonic Rift
+1 Damnation
+1 Dark Ritual
+1 Demonic Tutor
+1 Dimir Signet
+1 Disrupt Decorum
+1 Exotic Orchard
+1 Fatestitcher
+1 Fellwar Stone
+1 Firkraag, Cunning Instigator
+1 Flood
+1 Flooded Strand
+1 Force of Will
+1 Frozen Aether
+1 Fumiko the Lowblood
+1 Geode Rager
+1 Grenzo, Havoc Raiser
+1 Hylda's Crown of Winter
+1 Illusionist's Bracers
+5 Island
+1 Izzet Signet
+1 Karazikar, the Eye Tyrant
+1 Kardur, Doomscourge
+1 Lightning Greaves
+1 Luxury Suite
+1 Magewright's Stone
+1 Mana Drain
+1 Marsh Flats
+1 Maze of Ith
+1 Minamo, School at Water's Edge
+1 Misty Rainforest
+5 Mountain
+1 Mystic Remora
+1 Patriar's Seal
+1 Polluted Delta
+1 Propaganda
+1 Puppeteer
+1 Rakdos Charm
+1 Rakdos Signet
+1 Rathi Trapper
+1 Red Death, Shipwrecker
+1 Retreat to Coralhelm
+1 Rings of Brighthearth
+1 Royal Assassin
+1 Shiny Impetus
+1 Sink into Stupor // Soporific Springs
+1 Sly Instigator
+1 Sol Ring
+1 Steam Vents
+1 Sting, the Glinting Dagger
+1 Sulfur Falls
+6 Swamp
+1 Swiftfoot Boots
+1 Talisman of Creativity
+1 Talisman of Dominance
+1 Talisman of Indulgence
+1 Terminate
+1 Thousand-Year Elixir
+1 Underground Sea
+1 Urabrask the Hidden
+1 Vampiric Tutor
+1 Vandalblast
+1 Vengeful Ancestor
+1 Verity Circle
+1 Volcanic Island
+1 Watery Grave
+1 Withering Torment
+1 Xander's Lounge
+1 Xantcha, Sleeper Agent

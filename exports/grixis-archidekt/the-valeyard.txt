@@ -1,0 +1,96 @@
+1 The Valeyard [Commander]
+1 Arcane Denial
+1 Arcane Signet
+1 Arid Mesa
+1 Auton Soldier
+1 Badlands
+1 Bite of the Black Rose
+1 Blasphemous Act
+1 Blood Crypt
+1 Bloodstained Mire
+1 Brainstorm
+1 Capital Punishment
+1 Chaos Warp
+1 City of Brass
+1 Coercive Portal
+1 Command Tower
+1 Cult of Skaro
+1 Cyclonic Rift
+1 Damocles Base, Sword of Kang
+1 Dark Ritual
+1 Davros, Dalek Creator
+1 Deadly Rollick
+1 Deflecting Swat
+1 Demonic Tutor
+1 Dimir Signet
+1 Dr. Eggman
+1 Ensnared by the Mara
+1 Exotic Orchard
+1 Expropriate
+1 Fateful Tempest
+1 Feed the Swarm
+1 Fellwar Stone
+1 Fierce Guardianship
+1 Flooded Strand
+1 Force of Will
+1 Gallifrey Council Chamber
+1 Genesis of the Daleks
+1 Great Intelligence's Plan
+1 Grudge Keeper
+1 Haunted Ridge
+1 Hunted by The Family
+1 Illusion of Choice
+2 Island
+1 Izzet Signet
+1 Kess, Dissident Mage
+1 Lightning Greaves
+1 Luxury Suite
+1 Mana Confluence
+1 Mana Drain
+1 Marsh Flats
+1 Messenger Jays
+1 Midnight Crusader Shuttle
+1 Missy
+1 Misty Rainforest
+1 Mob Verdict
+1 Model of Unity
+1 Morphic Pool
+2 Mountain
+1 Mystic Remora
+1 Otawara, Soaring City
+1 Path of the Enigma
+1 Path of the Pyromancer
+1 Path of the Schemer
+1 Plea for Power
+1 Polluted Delta
+1 Quantum Misalignment
+1 Rakdos Signet
+1 Rhystic Study
+1 Sakashima of a Thousand Faces
+1 Scalding Tarn
+1 Shipwreck Marsh
+1 Sol Ring
+1 Spark Double
+1 Split Decision
+1 Steam Vents
+1 Stormcarved Coast
+1 Sulfur Falls
+3 Swamp
+1 Sycorax Commander
+1 Talisman of Creativity
+1 Talisman of Dominance
+1 Talisman of Indulgence
+1 The Dalek Emperor
+1 The Master, Gallifrey's End
+1 This Is How It Ends
+1 Training Center
+1 Trap the Trespassers
+1 Truth or Consequences
+1 Tyrant's Choice
+1 Underground Sea
+1 Vampiric Tutor
+1 Verdant Catacombs
+1 Volcanic Island
+1 Watery Grave
+1 Wooded Foothills
+1 Xander's Lounge

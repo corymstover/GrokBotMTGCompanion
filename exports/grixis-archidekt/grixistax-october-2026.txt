@@ -1,0 +1,100 @@
+1 Kraum, Ludevic's Opus [Commander]
+1 Tevesh Szat, Doom of Fools [Commander]
+1 An Offer You Can't Refuse
+1 Ancient Tomb
+1 Arid Mesa
+1 Ashiok, Dream Render
+1 Back to Basics
+1 Badlands
+1 Beseech the Mirror
+1 Blood Crypt
+1 Blood Moon
+1 Bloodstained Mire
+1 Brain Freeze
+1 Chain of Vapor
+1 Chalice of the Void
+1 Chrome Mox
+1 City of Brass
+1 Command Tower
+1 Contamination
+1 Culling the Weak
+1 Cursed Totem
+1 Cyclonic Rift
+1 Damping Sphere
+1 Dark Ritual
+1 Dauthi Voidwalker
+1 Deadly Rollick
+1 Deflecting Swat
+1 Demonic Tutor
+1 Diabolic Intent
+1 Fierce Guardianship
+1 Flooded Strand
+1 Flusterstorm
+1 Force of Negation
+1 Force of Will
+1 Gamble
+1 Gemstone Caverns
+1 Grim Monolith
+1 Helm of Obedience
+1 Imperial Seal
+1 Island
+1 Jeska's Will
+1 Karn, the Great Creator
+1 Leyline of the Void
+1 Lion's Eye Diamond
+1 Lotus Petal
+1 Magus of the Moon
+1 Mana Confluence
+1 Mana Drain
+1 Mana Vault
+1 Marsh Flats
+1 Mental Misstep
+1 Mindbreak Trap
+1 Misty Rainforest
+1 Morphic Pool
+1 Mountain
+1 Mox Amber
+1 Mox Diamond
+1 Mox Opal
+1 Mystic Remora
+1 Mystical Tutor
+1 Narset, Parter of Veils
+1 Necropotence
+1 Notion Thief
+1 Opposition Agent
+1 Orcish Bowmasters
+1 Otawara, Soaring City
+1 Overburden
+1 Pact of Negation
+1 Phyrexian Tower
+1 Polluted Delta
+1 Pyroblast
+1 Ragavan, Nimble Pilferer
+1 Red Elemental Blast
+1 Rhystic Study
+1 Scalding Tarn
+1 Sheoldred, the Apocalypse
+1 Skullclamp
+1 Sol Ring
+1 Static Orb
+1 Steam Vents
+1 Swamp
+1 Swan Song
+1 Tainted Pact
+1 Talisman of Creativity
+1 Talisman of Dominance
+1 Tangle Wire
+1 Torpor Orb
+1 Toxic Deluge
+1 Trinisphere
+1 Underground Sea
+1 Underworld Breach
+1 Vampiric Tutor
+1 Verdant Catacombs
+1 Volcanic Island
+1 Watery Grave
+1 Wheel of Fortune
+1 Windfall
+1 Winter Orb
+1 Wishclaw Talisman
+1 Wooded Foothills

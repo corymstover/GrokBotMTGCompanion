@@ -1,0 +1,100 @@
+1 Mishra, Eminent One [Commander]
+1 Academy Ruins
+1 Aetherflux Reservoir
+1 An Offer You Can't Refuse
+1 Ancient Tomb
+1 Arcane Signet
+1 Arcum Dagsson
+1 Badlands
+1 Blood Crypt
+1 Bloodstained Mire
+1 Brudiclad, Telchor Engineer
+1 Chaos Warp
+1 Chrome Mox
+1 City of Brass
+1 Command Tower
+1 Coveted Jewel
+1 Cryogen Relic
+1 Cyclonic Rift
+1 Darksteel Citadel
+1 Deflecting Swat
+1 Demonic Tutor
+1 Determined Iteration
+1 Emry, Lurker of the Loch
+1 Enthusiastic Mechanaut
+1 Esoteric Duplicator
+1 Etherium Sculptor
+1 Fierce Guardianship
+1 Flooded Strand
+1 Force of Will
+1 Gamble
+1 Goblin Engineer
+1 Goblin Welder
+1 Gonti's Aether Heart
+1 Great Furnace
+1 Ichor Wellspring
+1 Imperial Seal
+1 Inventors' Fair
+1 Island
+1 Krark-Clan Ironworks
+1 Lich's Relic
+1 Lithoform Engine
+1 Lotus Petal
+1 Luxury Suite
+1 Machine God's Effigy
+1 Mana Confluence
+1 Mana Drain
+1 Mana Vault
+1 Master Transmuter
+1 Mindslaver
+1 Mishra's Workshop
+1 Misty Rainforest
+1 Morphic Pool
+1 Mountain
+1 Mox Diamond
+1 Mox Opal
+1 Myr Retriever
+1 Mystic Forge
+1 Mystic Remora
+1 Nihil Spellbomb
+1 Otawara, Soaring City
+1 Padeem, Consul of Innovation
+1 Polluted Delta
+1 Portal to Phyrexia
+1 Prized Statue
+1 Repurposing Bay
+1 Rhystic Study
+1 Scalding Tarn
+1 Scrap Trawler
+1 Seat of the Synod
+1 Sensei's Divining Top
+1 Simulacrum Synthesizer
+1 Smelting Vat
+1 Sol Ring
+1 Spine of Ish Sah
+1 Spire of Industry
+1 Steam Vents
+1 Strionic Resonator
+1 Swamp
+1 Takenuma, Abandoned Mire
+1 Talisman of Creativity
+1 Talisman of Dominance
+1 Talisman of Indulgence
+1 The Mightstone and Weakstone
+1 The One Ring
+1 Thousand-Year Elixir
+1 Toxic Deluge
+1 Training Center
+1 Transmute Artifact
+1 Underground Sea
+1 Urza's Saga
+1 Urza, Lord High Artificer
+1 Uthros Research Craft
+1 Vampiric Tutor
+1 Vault of Whispers
+1 Verdant Catacombs
+1 Volcanic Island
+1 Watery Grave
+1 Whir of Invention
+1 Worldwalker Helm
+1 Xander's Lounge

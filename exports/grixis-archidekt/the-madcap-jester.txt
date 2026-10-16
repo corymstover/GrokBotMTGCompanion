@@ -1,0 +1,100 @@
+1 The Madcap Jester [Commander]
+1 Ancient Tomb
+1 Arcane Signet
+1 Arid Mesa
+1 Ashiok, Nightmare Weaver
+1 Badlands
+1 Beseech the Mirror
+1 Bilbo, Thief in the Night
+1 Bitter Ordeal
+1 Blazemire Verge
+1 Blood Crypt
+1 Bloodstained Mire
+1 Brain Freeze
+1 Cabal Ritual
+1 Chrome Mox
+1 Circu, Dimir Lobotomist
+1 City of Brass
+1 City of Traitors
+1 Command Tower
+1 Dark Ritual
+1 Dauthi Voidwalker
+1 Deadly Rollick
+1 Deflecting Swat
+1 Demonic Consultation
+1 Demonic Tutor
+1 Don Andres, the Renegade
+1 Dragon's Smile
+1 Drowned Catacomb
+1 Ensnared by the Mara
+1 Exotic Orchard
+1 Extract
+1 Fierce Guardianship
+1 Flooded Strand
+1 Force of Negation
+1 Force of Will
+1 Gamble
+1 Gemstone Caverns
+1 Gonti, Night Minister
+1 Imperial Seal
+1 Inside Information
+1 Island
+1 Jeska's Will
+1 Jester's Cap
+1 Jester's Scepter
+1 Laughing Jasper Flint
+1 Lightning Greaves
+1 Lion's Eye Diamond
+1 Lotus Petal
+1 Luxury Suite
+1 Mana Confluence
+1 Mana Drain
+1 Mana Vault
+1 Marsh Flats
+1 Misty Rainforest
+1 Morphic Pool
+1 Mox Diamond
+1 Mox Opal
+1 Mystic Remora
+1 Mystical Tutor
+1 Nalfeshnee
+1 Necropotence
+1 Otawara, Soaring City
+1 Pact of Negation
+1 Party Thrasher
+1 Passionate Archaeologist
+1 Plargg and Nassari
+1 Polluted Delta
+1 Praetor's Grasp
+1 Prosper, Tome-Bound
+1 Psychic Surgery
+1 Ragavan, Nimble Pilferer
+1 Rhystic Study
+1 Rite of Flame
+1 Sadistic Sacrament
+1 Scalding Tarn
+1 Shivan Reef
+1 Sire of Stagnation
+1 Sol Ring
+1 Starting Town
+1 Steam Vents
+1 Sulfurous Springs
+1 Swan Song
+1 Tainted Pact
+1 Talisman of Dominance
+1 Talisman of Indulgence
+1 Tasha's Hideous Laughter
+1 Thassa's Oracle
+1 Thieving Varmint
+1 Toxic Deluge
+1 Training Center
+1 Undercity Sewers
+1 Underground Sea
+1 Underworld Breach
+1 Vampiric Tutor
+1 Verdant Catacombs
+1 Volcanic Island
+1 Watery Grave
+1 Wild-Magic Sorcerer
+1 Wooded Foothills
+1 Xander's Lounge

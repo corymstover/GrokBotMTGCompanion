@@ -1,7 +1,7 @@
 {
 "schema": 2,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 470,
+"entries": 472,
 "note": "Pages, decks and lore entries (Bot cycle 31); card entries are indexed by data/card_index.csv.",
 "items": [
 {
@@ -1672,6 +1672,11 @@
 2,
 "Gate F — approval-ready candidate and lock",
 "gate-f--approval-ready-candidate-and-lock"
+],
+[
+2,
+"Gate G — commander identity",
+"gate-g--commander-identity"
 ],
 [
 2,
@@ -5787,6 +5792,11 @@
 "headings": [
 [
 2,
+"2026-10-16 — Bot cycle 39 (Grixis commander-first refinement, batch 1)",
+"2026-10-16--bot-cycle-39-grixis-commander-first-refinement-batch-1"
+],
+[
+2,
 "2026-10-16 — Bot cycle 38 (Grixis: 62/62 pages, 2 pending legality)",
 "2026-10-16--bot-cycle-38-grixis-6262-pages-2-pending-legality"
 ],
@@ -5983,7 +5993,7 @@
 "Items & Artifacts Index.md",
 "Lore Primary Sources.md",
 "Planes Index.md",
-"Front-Matter Schema.md"
+"EDH Deck Evaluation Checklist.md"
 ]
 },
 {
@@ -6184,6 +6194,11 @@
 "headings": [
 [
 2,
+"Bot cycle 39 commander-first refinement",
+"bot-cycle-39-commander-first-refinement"
+],
+[
+2,
 "Bot cycle 38 pending-legality pages",
 "bot-cycle-38-pending-legality-pages"
 ],
@@ -6247,6 +6262,43 @@
 "EDH Deck Template.md",
 "grixis/Grixis Evaluation.md",
 "grixis/Grixis Packages.md"
+]
+},
+{
+"path": "grixis/Grixis Mission.md",
+"kind": "page",
+"title": "Grixis Mission",
+"category": "meta",
+"tags": [
+"grixis",
+"mission",
+"commander-first"
+],
+"headings": [
+[
+2,
+"Mission",
+"mission"
+],
+[
+2,
+"Principles",
+"principles"
+],
+[
+2,
+"How we apply it",
+"how-we-apply-it"
+]
+],
+"issues": [],
+"related": [
+"Front-Matter Schema.md",
+"grixis/Grixis Refinement Cycle.md",
+"EDH Deck Evaluation Checklist.md",
+"grixis/README.md",
+"EDH Deck Template.md",
+"ROADMAP.md"
 ]
 },
 {
@@ -6452,6 +6504,55 @@
 ]
 },
 {
+"path": "grixis/Grixis Refinement Cycle.md",
+"kind": "page",
+"title": "Grixis Refinement Cycle",
+"category": "edh",
+"tags": [
+"grixis",
+"refinement",
+"commander-first",
+"homogenization"
+],
+"headings": [
+[
+2,
+"Status",
+"status"
+],
+[
+2,
+"Batch log",
+"batch-log"
+],
+[
+3,
+"Batch 1 — Bot cycle 39, 2026-10-16",
+"batch-1--bot-cycle-39-2026-10-16"
+],
+[
+2,
+"All decks: metrics",
+"all-decks-metrics"
+],
+[
+2,
+"Homogenization",
+"homogenization"
+],
+[
+2,
+"Method",
+"method"
+]
+],
+"issues": [],
+"related": [
+"grixis/README.md",
+"EDH Deck Evaluation Checklist.md"
+]
+},
+{
 "path": "grixis/README.md",
 "kind": "page",
 "title": "Grixis (U/B/R) Commander",
@@ -6494,7 +6595,7 @@
 "grixis/Grixis Packages.md",
 "EDH Deck Template.md",
 "grixis/Grixis Corrections.md",
-"EDH Bracket Calibration.md"
+"grixis/Grixis Refinement Cycle.md"
 ]
 },
 {
@@ -10950,6 +11051,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -11060,6 +11171,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -11162,6 +11283,16 @@
 2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
+],
+[
+2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
 ],
 [
 2,
@@ -11271,6 +11402,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -11377,6 +11518,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -11480,6 +11631,16 @@
 2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
+],
+[
+2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
 ],
 [
 2,
@@ -11609,6 +11770,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -11735,6 +11906,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -11838,6 +12019,16 @@
 2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
+],
+[
+2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
 ],
 [
 2,
@@ -11952,6 +12143,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -12058,6 +12259,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -12160,6 +12371,16 @@
 2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
+],
+[
+2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
 ],
 [
 2,

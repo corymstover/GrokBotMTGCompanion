@@ -142,7 +142,9 @@ def main(argv):
              ("lore-quotes", ["scripts/lore_quotes.py", "--check"]),  # Bot cycle 31 (#94): verbatim quote verification
              ("card-enrichment", ["scripts/build_card_enrichment.py", "--check"]),  # Bot cycle 33 (#102): card Lore/Synergy lines
              ("citations", ["scripts/check_citations.py"] + (["--online"] if online else [])),
-             ("oracle", ["scripts/verify_cards.py"]), ("decks", None), ("freshness", None)]
+             ("oracle", ["scripts/verify_cards.py"]), ("decks", None),
+             ("grixis-refine", ["scripts/grixis_refine.py", "--check"]),  # Bot cycle 39: refined lists verified, exports match deck pages
+             ("freshness", None)]
     results = []
     for name, cmd in steps:
         if name in skip or (only and name not in only):
