@@ -10,11 +10,11 @@
 
 ## Status
 
-**55/62 blueprints written.** M2 acceptance criteria ([definition](../Grixis%20Authority%20Model.md#m2)):
+**62/62 blueprints written.** M2 acceptance criteria ([definition](../Grixis%20Authority%20Model.md#m2)):
 
-- ⏳ 62 blueprints validate against blueprint.schema.json and --check — 55/62 written
-- ⏳ each names identity core (≥3), anti-goals, required packages with min counts, win conditions, failure modes (≥2), tutor targets, construction rules — 55/62 complete
-- ⏳ each has grok_estimated_ceiling with evidence and a disagreement flag where it differs from the source — 55/62 estimated
+- ✅ 62 blueprints validate against blueprint.schema.json and --check — 62/62 written
+- ✅ each names identity core (≥3), anti-goals, required packages with min counts, win conditions, failure modes (≥2), tutor targets, construction rules — 62/62 complete
+- ✅ each has grok_estimated_ceiling with evidence and a disagreement flag where it differs from the source — 62/62 estimated
 - ⏳ Cory has reviewed the sample he chooses (status cory_reviewed) — 0 reviewed
 - ⏳ Cory accepted M2 (registry program.milestones.M2) — in_progress
 
@@ -77,8 +77,15 @@
 | [Sol'Kanar the Tainted](solkanar-the-tainted.md) | significant | medium | 4 | 4 | 4 | no | v1 seeded |
 | [Tetsuo, Imperial Champion](tetsuo-imperial-champion.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Tetsuo Umezawa](tetsuo-umezawa.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [The Madcap Jester](the-madcap-jester.md) | significant | low | 5 | 5 | 5 | no | v1 seeded |
+| [The Rani](the-rani.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [The Valeyard](the-valeyard.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Thraximundar](thraximundar.md) | significant | medium | 4 | 4 | 4 | no | v1 seeded |
+| [Tresserhorn's Lord, Returned](tresserhorns-lord-returned.md) | central | high | 4 (recovered) | 4 | 4 | no | v1 seeded |
+| [Wick, the Whorled Mind](wick-the-whorled-mind.md) | central | total | 4 | 4 | 4 | no | v1 seeded |
+| [Zevlor, Elturel Exile](zevlor-elturel-exile.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 
-Not written yet (7): [the-madcap-jester](../decks/the-madcap-jester.md), [the-rani](../decks/the-rani.md), [the-valeyard](../decks/the-valeyard.md), [thraximundar](../decks/thraximundar.md), [tresserhorns-lord-returned](../decks/tresserhorns-lord-returned.md), [wick-the-whorled-mind](../decks/wick-the-whorled-mind.md), [zevlor-elturel-exile](../decks/zevlor-elturel-exile.md).
+Not written yet (0): none.
 
 ## Ceiling disagreements
 

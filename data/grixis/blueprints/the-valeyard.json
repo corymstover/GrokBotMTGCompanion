@@ -1,0 +1,611 @@
+{
+ "schema_version": 2,
+ "deck_id": "The_Valeyard",
+ "slug": "the-valeyard",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+ "commanders": {
+  "value": [
+   {
+    "name": "The Valeyard",
+    "oracle_id": "ed202f1d-3511-45f4-bfbc-e6b76d4311d1",
+    "oracle_text": "If an opponent would face a villainous choice, they face that choice an additional time. (They can make the same or different choices.)\nWhile voting, you may vote an additional time.",
+    "oracle_sha256": "sha256:16b9d30b328dd7ef0eecb9fd3c4b53bd80dfba9b96b9854f6d1139c8b6f4665c",
+    "type_line": "Legendary Creature — Time Lord Noble"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:The Valeyard"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Villainous Choice and voting: The Valeyard makes opponents face each Villainous Choice twice and gives you an extra vote, so the deck runs Villainous Choice sources and real vote cards (Capital Punishment, Plea for Power, Split Decision, Tyrant's Choice, Messenger Jays) and copies the Valeyard to stack the effects.",
+   "secondary": "Premium protection, tutors and interaction around a five-mana commander; Doctor Who villain support."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L11",
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L57",
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L59"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "The Valeyard doubles every Villainous Choice and adds a vote; nonlegendary copies add more.",
+   "honest_note": "Commander-native but narrow: two static modifiers, no body-based engine, and no Spellbook combos; the source asserts no infinite (decisions L76). Copies stack additively, not exponentially (L74). The source rejected Prisoner's Dilemma and Seize the Spotlight because 'choose' isn't 'vote' (CR 701.38c). The deck's power comes from its staples more than the commander; expect low Bracket 4."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L13",
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L74",
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L76"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "political-attrition",
+   "kind": "natural",
+   "description": "Doubled Villainous Choices and weighted votes grind opponents out of resources and life.",
+   "cards": [
+    "The Valeyard",
+    "Damocles Base, Sword of Kang",
+    "Davros, Dalek Creator",
+    "Dr. Eggman",
+    "Ensnared by the Mara",
+    "Genesis of the Daleks",
+    "Messenger Jays",
+    "Capital Punishment",
+    "Plea for Power"
+   ],
+   "enablers": [
+    "Spark Double",
+    "Quantum Misalignment",
+    "Sakashima of a Thousand Faces",
+    "Auton Soldier"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L57",
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L59"
+   ]
+  },
+  {
+   "id": "villain-beats",
+   "kind": "natural",
+   "description": "Doctor Who villain threats (Davros, The Dalek Emperor, Cult of Skaro) close the game.",
+   "cards": [
+    "Davros, Dalek Creator",
+    "The Dalek Emperor",
+    "Cult of Skaro"
+   ],
+   "enablers": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L57"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "double-villainous",
+   "cards": [
+    "The Valeyard",
+    "Damocles Base, Sword of Kang",
+    "Davros, Dalek Creator",
+    "Dr. Eggman",
+    "Ensnared by the Mara",
+    "Genesis of the Daleks",
+    "Great Intelligence's Plan",
+    "Hunted by The Family",
+    "Midnight Crusader Shuttle",
+    "Missy",
+    "Sycorax Commander",
+    "The Dalek Emperor",
+    "The Master, Gallifrey's End",
+    "This Is How It Ends"
+   ],
+   "online_condition": "An opponent faces a Villainous Choice.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:The Valeyard",
+    "cr:701.55c"
+   ]
+  },
+  {
+   "id": "extra-vote",
+   "cards": [
+    "The Valeyard",
+    "Messenger Jays",
+    "Capital Punishment",
+    "Plea for Power",
+    "Split Decision",
+    "Truth or Consequences",
+    "Tyrant's Choice",
+    "Coercive Portal",
+    "Model of Unity",
+    "Illusion of Choice",
+    "Grudge Keeper",
+    "Expropriate",
+    "Fateful Tempest",
+    "Mob Verdict",
+    "Trap the Trespassers",
+    "Path of the Enigma",
+    "Path of the Pyromancer",
+    "Path of the Schemer"
+   ],
+   "online_condition": "A vote happens.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:The Valeyard",
+    "cr:701.38a"
+   ]
+  },
+  {
+   "id": "valeyard-copies",
+   "cards": [
+    "Spark Double",
+    "Quantum Misalignment",
+    "Sakashima of a Thousand Faces",
+    "Auton Soldier"
+   ],
+   "online_condition": "The Valeyard on the battlefield.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L31",
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L32",
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L33",
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L34"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:villainous",
+   "required": true,
+   "min_count": 10,
+   "role": "Villainous Choice sources.",
+   "cards": [
+    "Damocles Base, Sword of Kang",
+    "Davros, Dalek Creator",
+    "Dr. Eggman",
+    "Ensnared by the Mara",
+    "Genesis of the Daleks",
+    "Great Intelligence's Plan",
+    "Hunted by The Family",
+    "Midnight Crusader Shuttle",
+    "Missy",
+    "Sycorax Commander",
+    "The Dalek Emperor",
+    "The Master, Gallifrey's End",
+    "This Is How It Ends"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L57"
+   ]
+  },
+  {
+   "id": "pkg:vote",
+   "required": true,
+   "min_count": 6,
+   "role": "Actual vote cards.",
+   "cards": [
+    "Messenger Jays",
+    "Capital Punishment",
+    "Plea for Power",
+    "Split Decision",
+    "Truth or Consequences",
+    "Tyrant's Choice",
+    "Coercive Portal",
+    "Model of Unity",
+    "Illusion of Choice",
+    "Grudge Keeper",
+    "Expropriate",
+    "Fateful Tempest",
+    "Mob Verdict",
+    "Trap the Trespassers",
+    "Path of the Enigma",
+    "Path of the Pyromancer",
+    "Path of the Schemer"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L59",
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L30"
+   ]
+  },
+  {
+   "id": "pkg:copy",
+   "required": true,
+   "min_count": 3,
+   "role": "Nonlegendary Valeyard copies.",
+   "cards": [
+    "Spark Double",
+    "Quantum Misalignment",
+    "Sakashima of a Thousand Faces",
+    "Auton Soldier"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L31",
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L34"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "vote-means-vote",
+   "summary": "Only cards that say 'vote' use the extra vote; Prisoner's Dilemma and Seize the Spotlight don't.",
+   "cards": [
+    "The Valeyard"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L72",
+    "cr:701.38c"
+   ]
+  },
+  {
+   "id": "one-at-a-time",
+   "summary": "Extra Villainous Choices resolve one at a time.",
+   "cards": [
+    "The Valeyard"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L73",
+    "cr:701.55c"
+   ]
+  },
+  {
+   "id": "additive",
+   "summary": "Each extra Valeyard adds one more choice and one more vote; additive, not exponential.",
+   "cards": [
+    "Spark Double",
+    "Quantum Misalignment",
+    "Sakashima of a Thousand Faces",
+    "Auton Soldier"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L74"
+   ]
+  },
+  {
+   "id": "auton-myriad",
+   "summary": "Auton Soldier as a Valeyard copy makes nonlegendary myriad Valeyard tokens.",
+   "cards": [
+    "Auton Soldier"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L75"
+   ]
+  },
+  {
+   "id": "paradox-haze-no",
+   "summary": "Paradox Haze adds an upkeep, not a copy of either ability; cut.",
+   "cards": [
+    "The Valeyard"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L42"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Spark Double",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Arcane Denial, Deadly Rollick, Feed the Swarm, Chaos Warp, Cyclonic Rift, Blasphemous Act.",
+   "protection": "Deflecting Swat, Lightning Greaves, Force of Will.",
+   "mana": "36 lands; Arid Mesa replaced a dead Windswept Heath."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L29",
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L35",
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L36"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "five-mana-static",
+   "description": "Five mana for two static modifiers; little happens without the cards they modify.",
+   "mitigations": [
+    "Copies",
+    "Tutors"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L13"
+   ]
+  },
+  {
+   "id": "opponent-choice",
+   "description": "Villainous Choices and votes let opponents pick the least bad option.",
+   "mitigations": [
+    "Doubled choices",
+    "Extra votes"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:The Valeyard"
+   ]
+  },
+  {
+   "id": "no-compact-win",
+   "description": "No compact kill.",
+   "mitigations": [
+    "Villain threats"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L76"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L11"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L86"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Low Bracket 4: premium staples set the floor, but the commander's mechanic is slow and opponent-chosen. Agrees with the source on the bracket; it likely plays below most Bracket 4 decks."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L13",
+    "source_archive:refinement/verification/The_Valeyard_Approval_Ready_Verification_2026-10-15.md#L25"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#The_Valeyard"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 14,
+     "2": 130,
+     "3": 124,
+     "4": 20,
+     "5": 1
+    },
+    "decks_with_bracket": 289,
+    "share_b4_plus": 0.073,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__the-valeyard.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "The Valeyard",
+   "why": "Double Villainous Choices; an extra vote.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:The Valeyard"
+   ]
+  },
+  {
+   "card": "Spark Double",
+   "why": "Permanent nonlegendary Valeyard.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L31"
+   ]
+  },
+  {
+   "card": "Sakashima of a Thousand Faces",
+   "why": "Copy without the legend rule.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L33"
+   ]
+  },
+  {
+   "card": "Messenger Jays",
+   "why": "Vote card with direct commander text.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L30"
+   ]
+  },
+  {
+   "card": "Davros, Dalek Creator",
+   "why": "Villainous Choice threat.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L57"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No 'choose' cards that aren't votes (decisions L43, L45).",
+   "No Tempt with Reflections without a legend-rule workaround (L65)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L43",
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L45",
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L65"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Villainous Choice / voting / political control (decisions L88)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md#L88"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 701.38c",
+   "note": "Voting means an actual vote.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.38c"
+   ]
+  },
+  {
+   "rule": "CR 701.55c",
+   "note": "Extra Villainous Choices.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.55c"
+   ]
+  },
+  {
+   "rule": "CR 701.38a",
+   "note": "Voting.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.38a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "villainous choices / voting"
+   ],
+   "hooked_cards": 30,
+   "role_counts": {
+    "counter": 4,
+    "draw": 19,
+    "protection": 2,
+    "ramp": 12,
+    "removal": 4,
+    "tutor": 2,
+    "wipe": 3
+   },
+   "lands": 36,
+   "edhrec_pages": [
+    "the-valeyard"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/The_Valeyard_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/The_Valeyard_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/decklists/The_Valeyard_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}

@@ -1,0 +1,635 @@
+{
+ "schema_version": 2,
+ "deck_id": "Wick__the_Whorled_Mind",
+ "slug": "wick-the-whorled-mind",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+ "commanders": {
+  "value": [
+   {
+    "name": "Wick, the Whorled Mind",
+    "oracle_id": "5af729e8-8a40-4991-8270-612e377451de",
+    "oracle_text": "Whenever Wick or another Rat you control enters, create a 1/1 black Snail creature token if you don't control a Snail. Otherwise, put a +1/+1 counter on a Snail you control.\n{U}{B}{R}, Sacrifice a Snail: Wick deals damage equal to the sacrificed creature's power to each opponent. Then draw cards equal to the sacrificed creature's power.",
+    "oracle_sha256": "sha256:fab7ab46725f750f76a81d8e212166f02115f39c3b730f62eb98f4140d77ced7",
+    "type_line": "Legendary Creature — Rat Warlock"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Wick, the Whorled Mind"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Rats into a Snail: every Rat entering creates or grows one Snail, and Wick's {U}{B}{R}, sacrifice a Snail deals its power to each opponent and draws that many. Type-changers (Arcane Adaptation, Leyline of Transformation, Maskwood Nexus) make the Snail a Rat, so it loops with free outlets.",
+   "secondary": "Grow the Snail with Bulk Up, Lich's Relic and Blade of the Bloodchief, keep counters with The Ozolith, and run Marrow-Gnawer + Intruder Alarm; Tainted Strike turns Wick's damage into poison."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L9",
+   "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L14",
+   "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L54",
+   "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L56",
+   "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L57"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Wick is the Snail factory and the damage-and-draw outlet.",
+   "honest_note": "Commander-native combo: 12 of the 13 Spellbook combos name Wick (Wick + a type-changer + a free outlet); the 13th (1636-3126, Marrow-Gnawer + Intruder Alarm) doesn't. Wick costs {3}{B}, but the activation needs {U}{B}{R}, and Cavern of Souls mana can't pay it (verification L64)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L56",
+   "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L64",
+   "spellbook:4050-5853-5929"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "snail-rat-loop",
+   "kind": "combo",
+   "description": "Wick + Arcane Adaptation or Leyline of Transformation (Rat) + a free outlet: the Snail-Rat re-enters as the next Snail, and with Goblin Bombardment, Altar of Dementia or Phyrexian Altar the loop wins.",
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Arcane Adaptation",
+    "Leyline of Transformation",
+    "Viscera Seer",
+    "Carrion Feeder",
+    "Phyrexian Altar",
+    "Ashnod's Altar",
+    "Altar of Dementia",
+    "Goblin Bombardment"
+   ],
+   "enablers": [
+    "Diabolic Intent",
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:4050-5853-5929",
+    "spellbook:803-4050-5853",
+    "spellbook:803-5147-5853",
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L56"
+   ]
+  },
+  {
+   "id": "gnawer-alarm",
+   "kind": "combo",
+   "description": "Marrow-Gnawer + Intruder Alarm makes unbounded Rats; each one grows the Snail through Wick.",
+   "cards": [
+    "Marrow-Gnawer",
+    "Intruder Alarm"
+   ],
+   "enablers": [
+    "Wick, the Whorled Mind"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1636-3126",
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L57"
+   ]
+  },
+  {
+   "id": "big-snail",
+   "kind": "natural",
+   "description": "Grow one Snail, then sacrifice it to hit every opponent and draw the same amount.",
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Bulk Up",
+    "Lich's Relic",
+    "Blade of the Bloodchief",
+    "Song of Totentanz"
+   ],
+   "enablers": [
+    "Pack Rat",
+    "Marrow-Gnawer",
+    "Lord Skitter, Sewer King",
+    "Lord Skitter's Butcher",
+    "Karumonix, the Rat King"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L53",
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L59"
+   ]
+  },
+  {
+   "id": "tainted-strike",
+   "kind": "alternate",
+   "description": "Tainted Strike on Wick turns the activation damage into poison counters.",
+   "cards": [
+    "Tainted Strike",
+    "Wick, the Whorled Mind"
+   ],
+   "enablers": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L58"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "snail-engine",
+   "cards": [
+    "Wick, the Whorled Mind"
+   ],
+   "online_condition": "Rats entering; {U}{B}{R} to cash in.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Wick, the Whorled Mind",
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L53"
+   ]
+  },
+  {
+   "id": "type-change",
+   "cards": [
+    "Arcane Adaptation",
+    "Leyline of Transformation",
+    "Maskwood Nexus"
+   ],
+   "online_condition": "A type-changer naming Rat.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L54",
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L56"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:rats",
+   "required": true,
+   "min_count": 12,
+   "role": "Cheap and multi-body Rat entries.",
+   "cards": [
+    "Pack Rat",
+    "Marrow-Gnawer",
+    "Lord Skitter, Sewer King",
+    "Lord Skitter's Butcher",
+    "Karumonix, the Rat King",
+    "Rat King, Pale Piper",
+    "Rat King, Verminister",
+    "Piper of the Swarm",
+    "Persistent Marshstalker",
+    "Redcap Gutter-Dweller",
+    "Tangled Colony",
+    "Voracious Vermin",
+    "Vren, the Relentless",
+    "Totentanz, Swarm Piper",
+    "Valley Rotcaller",
+    "Song of Totentanz",
+    "Ashcoat of the Shadow Swarm",
+    "Roaming Throne"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L9"
+   ]
+  },
+  {
+   "id": "pkg:type-changers",
+   "required": true,
+   "min_count": 3,
+   "role": "Make the Snail a Rat without losing Snail.",
+   "cards": [
+    "Arcane Adaptation",
+    "Leyline of Transformation",
+    "Maskwood Nexus"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L54"
+   ]
+  },
+  {
+   "id": "pkg:outlets",
+   "required": true,
+   "min_count": 5,
+   "role": "Free sacrifice outlets.",
+   "cards": [
+    "Viscera Seer",
+    "Carrion Feeder",
+    "Phyrexian Altar",
+    "Ashnod's Altar",
+    "Altar of Dementia",
+    "Goblin Bombardment",
+    "Phyrexian Tower"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L56"
+   ]
+  },
+  {
+   "id": "pkg:snail-growth",
+   "required": true,
+   "min_count": 4,
+   "role": "Grow and keep Snail power.",
+   "cards": [
+    "Bulk Up",
+    "Blade of the Bloodchief",
+    "The Ozolith",
+    "Lich's Relic"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L59",
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L60",
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L61",
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L62"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "last-known-power",
+   "summary": "Damage and cards use the Snail's power as it last existed on the battlefield.",
+   "cards": [
+    "Wick, the Whorled Mind"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L53",
+    "cr:608.2h"
+   ]
+  },
+  {
+   "id": "add-not-replace",
+   "summary": "Arcane Adaptation, Leyline and Maskwood add Rat and keep Snail; Conspiracy replaces types and was rejected.",
+   "cards": [
+    "Arcane Adaptation",
+    "Leyline of Transformation",
+    "Maskwood Nexus"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L54",
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L55",
+    "cr:205.1b"
+   ]
+  },
+  {
+   "id": "wick-is-source",
+   "summary": "Wick, not the Snail, is the damage source, so Tainted Strike on Wick makes it poison.",
+   "cards": [
+    "Tainted Strike",
+    "Wick, the Whorled Mind"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L58"
+   ]
+  },
+  {
+   "id": "cavern-mana",
+   "summary": "Cavern of Souls' restricted mana can't pay Wick's activation.",
+   "cards": [
+    "Cavern of Souls",
+    "Wick, the Whorled Mind"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L64"
+   ]
+  },
+  {
+   "id": "ozolith-keep",
+   "summary": "The Ozolith stores a sacrificed Snail's counters for later.",
+   "cards": [
+    "The Ozolith"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L61"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Arcane Adaptation",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Diabolic Intent"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:803-4050-5853"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Persistent Marshstalker",
+   "Pack Rat",
+   "The Ozolith"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L61"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Mana Drain, Fierce Guardianship, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Feed the Swarm, Chaos Warp, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+   "protection": "Deflecting Swat, Fierce Guardianship, An Offer You Can't Refuse, Cavern of Souls.",
+   "mana": "U/B/R sources for the activation; Mana Confluence and fetches; Cavern is restricted."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L25",
+   "source_archive:refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L26"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "three-color-activation",
+   "description": "The activation needs all three colors.",
+   "mitigations": [
+    "Mana Confluence",
+    "Typed duals"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L64"
+   ]
+  },
+  {
+   "id": "snail-removal",
+   "description": "Removing the Snail in response wastes the stored power.",
+   "mitigations": [
+    "The Ozolith",
+    "Instant-speed activation"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Wick, the Whorled Mind"
+   ]
+  },
+  {
+   "id": "enchantment-hate",
+   "description": "Enchantment removal on the type-changer breaks the loop.",
+   "mitigations": [
+    "Three type-changers",
+    "Tutors"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:803-4050-5853"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "total",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "spellbook:4050-5853-5929"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L11"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "High Bracket 4: 12 commander-native three-card loops and tutors, but they're three-card enchantment lines with a three-color activation, and protection is moderate. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L139",
+    "spellbook:803-4050-5853"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Wick__the_Whorled_Mind"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 46,
+     "2": 1770,
+     "3": 805,
+     "4": 167,
+     "5": 29
+    },
+    "decks_with_bracket": 2817,
+    "share_b4_plus": 0.07,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__wick-the-whorled-mind.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Wick, the Whorled Mind",
+   "why": "Snail factory and damage-draw outlet.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Wick, the Whorled Mind"
+   ]
+  },
+  {
+   "card": "Arcane Adaptation",
+   "why": "Makes the Snail a Rat.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:803-4050-5853"
+   ]
+  },
+  {
+   "card": "Leyline of Transformation",
+   "why": "Second type-changer, free from the opening hand.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:4050-5853-5929"
+   ]
+  },
+  {
+   "card": "Intruder Alarm",
+   "why": "Unbounded Rats with Marrow-Gnawer.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1636-3126"
+   ]
+  },
+  {
+   "card": "Bulk Up",
+   "why": "Doubles the Snail's payload.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L59"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic Oracle/Consultation/Breach (decisions L139).",
+   "No Conspiracy (L138) or Panharmonicon (L133)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L139",
+   "source_archive:refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L138",
+   "source_archive:refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L133"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Rats / Snail counters / combo (decisions L12)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L12"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 608.2h",
+   "note": "Last known information.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:608.2h"
+   ]
+  },
+  {
+   "rule": "CR 205.1b",
+   "note": "Adding types versus replacing them.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:205.1b"
+   ]
+  },
+  {
+   "rule": "CR 701.21a",
+   "note": "Sacrifice.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.21a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "+1/+1 counters",
+    "Rat synergy",
+    "Snail synergy",
+    "enters triggers",
+    "sacrifice",
+    "tokens"
+   ],
+   "hooked_cards": 35,
+   "role_counts": {
+    "counter": 4,
+    "draw": 5,
+    "protection": 1,
+    "ramp": 13,
+    "removal": 7,
+    "tutor": 3,
+    "wipe": 2
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "wick-the-whorled-mind"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Wick_the_Whorled_Mind_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/decklists/Wick_the_Whorled_Mind_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}
