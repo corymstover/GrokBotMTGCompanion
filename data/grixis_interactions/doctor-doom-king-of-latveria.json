@@ -1,0 +1,424 @@
+{
+ "schema": 1,
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "slug": "doctor-doom-king-of-latveria",
+ "commanders": [
+  "Doctor Doom, King of Latveria"
+ ],
+ "deck_sha256": "3505f9a465a8ed61f9689d7a38c67b47d68b487001565b9ccc08de82a62f1574",
+ "list_source": "exports/grixis-archidekt/doctor-doom-king-of-latveria.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 48,
+ "batch": "B",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+   "note": "13 interactions, all PASS"
+  }
+ ],
+ "summary": "Doctor Doom, King of Latveria drains 2 from each opponent whenever you discard one or more lands, and connives a Villain each combat. This review re-verifies the thirteen items of the deck's rules attestation, and checks the Dakmor Salvage loops against cached Commander Spellbook steps.\n\nKey rules: Doom triggers once per discard event (wheels give one trigger), dredge loops are library-bounded, and Bone Miser's mana can't pay the cost that caused it. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "doom-01",
+   "category": "commander",
+   "title": "One trigger per discard event, not per land",
+   "cards": [
+    "Doctor Doom, King of Latveria",
+    "Wheel of Fortune",
+    "Windfall",
+    "Cool but Rude"
+   ],
+   "ruling": "Doom says 'one or more land cards', so one discard event triggers him once however many lands are in it. Wheel of Fortune or Windfall discarding three lands drains each opponent 2, not 6. Separate discards (cycling, Psychic Frog activations, Trade Routes) each trigger him. Cool but Rude level 2 says 'Whenever you discard a card', so it triggers once for each card, including in a wheel.",
+   "short": "Doom: 2 per discard event; Cool but Rude: 2 per card. Wheels give Doom one trigger.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "oracle": [
+    {
+     "card": "Doctor Doom, King of Latveria",
+     "quote": "Whenever you discard one or more land cards, each opponent loses 2 life."
+    },
+    {
+     "card": "Cool but Rude",
+     "quote": "Whenever you discard a card, this Class deals 2 damage to each opponent."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+     "item": "Doctor Doom land-discard trigger event granularity"
+    },
+    {
+     "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+     "item": "Cool but Rude versus Doctor Doom discard granularity"
+    },
+    {
+     "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+     "item": "Wheel of Fortune and Windfall retained role"
+    }
+   ]
+  },
+  {
+   "id": "doom-02",
+   "category": "commander",
+   "title": "Combat connive targets a Villain and fails if it's gone",
+   "cards": [
+    "Doctor Doom, King of Latveria"
+   ],
+   "ruling": "At beginning of combat Doom targets a Villain you control (Doom himself qualifies). If that target is illegal on resolution, the whole ability does nothing: no menace, no draw, no discard. Connive is draw then discard; a nonland discard gives a +1/+1 counter, while a land discard instead triggers Doom's drain.",
+   "short": "Illegal target = no connive at all. Discarding a land to the connive triggers Doom's drain.",
+   "status": "verified",
+   "cr": [
+    "608.2b",
+    "701.50a"
+   ],
+   "oracle": [
+    {
+     "card": "Doctor Doom, King of Latveria",
+     "quote": "At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+     "item": "Doctor Doom beginning-of-combat target legality"
+    }
+   ]
+  },
+  {
+   "id": "doom-03",
+   "category": "layers",
+   "title": "Chameleon copy keeps its own name, so no legend rule",
+   "cards": [
+    "Doctor Doom, King of Latveria",
+    "Chameleon, Master of Disguise",
+    "Spark Double"
+   ],
+   "ruling": "Chameleon can enter as a copy of Doom except its name is Chameleon, Master of Disguise. It is a legendary Doom with a different name, so the legend rule doesn't apply. Spark Double's copy isn't legendary and enters with an extra +1/+1 counter. Both give an independent land-discard trigger and combat connive. Mayhem lets you cast Chameleon from the graveyard if you discarded it this turn, at normal timing.",
+   "short": "Chameleon (different name) and Spark Double (nonlegendary) both copy Doom without the legend rule.",
+   "status": "verified",
+   "cr": [
+    "707.9b",
+    "704.5j",
+    "707.2"
+   ],
+   "oracle": [
+    {
+     "card": "Chameleon, Master of Disguise",
+     "quote": "You may have Chameleon enter as a copy of a creature you control, except his name is Chameleon, Master of Disguise."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Spark Double",
+     "quote": "Spark Double isn’t legendary if it copies a legendary permanent, and this exception is copiable."
+    },
+    {
+     "card": "Chameleon, Master of Disguise",
+     "quote": "You must follow all normal timing rules when casting a spell with mayhem."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+     "item": "Chameleon, Master of Disguise entering as Doctor Doom"
+    },
+    {
+     "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+     "item": "Spark Double entering as Doctor Doom"
+    }
+   ]
+  },
+  {
+   "id": "doom-04",
+   "category": "trigger-order",
+   "title": "Roaming Throne on Villain doubles both Doom triggers",
+   "cards": [
+    "Doctor Doom, King of Latveria",
+    "Roaming Throne"
+   ],
+   "ruling": "With Villain named, Doom's land-discard drain and combat connive each trigger an additional time. Each combat instance picks its own target. That is two connives, which also means two Glorious Purpose counters.",
+   "status": "verified",
+   "cr": [
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Roaming Throne",
+     "quote": "If a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Roaming Throne",
+     "quote": "Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+     "item": "Roaming Throne choosing Villain"
+    }
+   ]
+  },
+  {
+   "id": "doom-05",
+   "category": "engine",
+   "title": "Glorious Purpose counts each connive",
+   "cards": [
+    "Doctor Doom, King of Latveria",
+    "Glorious Purpose",
+    "Ultron, Unlimited",
+    "Villainous Hideout"
+   ],
+   "ruling": "Each connive by a creature you control adds a +1/+1 counter to it and a plan counter. At six, sacrifice it, exile your top four and cast any number of them free. Spells with {X} are cast with X = 0. Connive sources in the list: Doom's combat trigger, Ultron attacking, Villainous Hideout, Baron Strucker.",
+   "status": "verified",
+   "cr": [
+    "701.50a",
+    "601.2b"
+   ],
+   "oracle": [
+    {
+     "card": "Glorious Purpose",
+     "quote": "Whenever a creature you control connives, put a +1/+1 counter on that creature and a plan counter on this enchantment."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+     "item": "Glorious Purpose with repeated connive"
+    }
+   ]
+  },
+  {
+   "id": "doom-06",
+   "category": "engine",
+   "title": "Psychic Frog: a free, repeatable land outlet",
+   "cards": [
+    "Doctor Doom, King of Latveria",
+    "Psychic Frog"
+   ],
+   "ruling": "'Discard a card' is Frog's whole cost, so each activation is a separate discard event and each land triggers Doom. Doom's trigger goes on the stack above the Frog ability and resolves first.",
+   "short": "Each Frog activation discarding a land = one Doom trigger (2 per opponent).",
+   "status": "verified",
+   "cr": [
+    "602.2",
+    "603.3"
+   ],
+   "oracle": [
+    {
+     "card": "Psychic Frog",
+     "quote": "Discard a card: Put a +1/+1 counter on this creature."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+     "item": "Psychic Frog as separable land-discard outlet"
+    }
+   ]
+  },
+  {
+   "id": "doom-07",
+   "category": "replacement",
+   "title": "Dakmor Salvage is renewable, bounded by the library",
+   "cards": [
+    "Doctor Doom, King of Latveria",
+    "Dakmor Salvage"
+   ],
+   "ruling": "Dredge 2 replaces any draw, not just the draw step. You can't use it with fewer than two cards in your library. Every Dakmor loop below therefore mills two per iteration and stops when the library runs out. It's lethal with enough cards, not infinite. Effects that put cards into hand without 'draw' can't be replaced.",
+   "short": "Dredge replaces any draw; with fewer than 2 cards left in library it can't be used.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.52a",
+    "702.52b"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Dakmor Salvage",
+     "quote": "Dredge can replace any card draw, not only the one during your draw step."
+    },
+    {
+     "card": "Dakmor Salvage",
+     "quote": "You can't attempt to use a dredge ability if you don't have enough cards in your library."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+     "item": "Dakmor Salvage dredge replacement"
+    }
+   ]
+  },
+  {
+   "id": "doom-08",
+   "category": "combo",
+   "title": "Tectonic Reformation + Surly Badgersaur + Dakmor Salvage",
+   "cards": [
+    "Doctor Doom, King of Latveria",
+    "Tectonic Reformation",
+    "Surly Badgersaur",
+    "Dakmor Salvage"
+   ],
+   "ruling": "Tectonic Reformation gives Dakmor cycling {R}. Cycling discards it as a cost: Badgersaur makes a Treasure and Doom triggers, both resolving before the cycling draw. Replace the draw with dredge 2 to return Dakmor, then crack the Treasure for {R} and repeat. Each cycle drains each opponent 2. With three opponents at 40 life, 20 cycles kill, which mills 40 cards.",
+   "short": "Cycle Dakmor for {R}, Badgersaur Treasure pays the next cycle, dredge returns it: 2 per opponent per loop.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.29a",
+    "702.52a",
+    "603.3"
+   ],
+   "oracle": [
+    {
+     "card": "Tectonic Reformation",
+     "quote": "Each land card in your hand has cycling {R}."
+    },
+    {
+     "card": "Surly Badgersaur",
+     "quote": "Whenever you discard a land card, create a Treasure token."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Surly Badgersaur",
+     "quote": "If you discard a card as a cost to cast a spell or activate an ability, Surly Badgersaur's triggered ability resolves before that spell or ability but after you've chosen targets for it."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "779-2546-4467",
+     "quote": "Activate Dakmor Salvage's cycling ability by paying {R} and discarding it."
+    },
+    {
+     "id": "779-2546-4467",
+     "quote": "Resolve the Dakmor Salvage ability, causing you to mill two cards and return Dakmor Salvage from your graveyard to your hand."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+     "item": "Tectonic Reformation + Surly Badgersaur + Dakmor Salvage + Doctor Doom"
+    }
+   ]
+  },
+  {
+   "id": "doom-09",
+   "category": "combo",
+   "title": "Trade Routes + Bone Miser or Badgersaur + Dakmor",
+   "cards": [
+    "Doctor Doom, King of Latveria",
+    "Trade Routes",
+    "Bone Miser",
+    "Surly Badgersaur",
+    "Dakmor Salvage"
+   ],
+   "ruling": "Trade Routes: {1}, discard a land, draw. Discarding Dakmor triggers Doom and Bone Miser ({B}{B}) or Badgersaur (a Treasure); they resolve before the draw, which dredges Dakmor back. The mana can pay the next activation, not the current one: Bone Miser's mana trigger uses the stack, so it can't pay the cost that caused it. Each loop is one Doom trigger and mills two. Bone Miser nets {B} per loop.",
+   "short": "Bone Miser/Badgersaur fund the next Trade Routes activation, not the current one. Library-bounded.",
+   "status": "uncertain",
+   "uncertainty": "Rebuilt from the source attestation; Spellbook has no cached variant with Trade Routes for this list, so the line is checked against Oracle and rulings only.",
+   "cr": [
+    "602.2",
+    "605.1a",
+    "702.52a"
+   ],
+   "oracle": [
+    {
+     "card": "Trade Routes",
+     "quote": "{1}, Discard a land card: Draw a card."
+    },
+    {
+     "card": "Bone Miser",
+     "quote": "Whenever you discard a land card, add {B}{B}."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Bone Miser",
+     "quote": "Notably, this means that you can’t pay a cost of “{2}, Discard a card” by discarding a land card and using the {B}{B} produced to pay for the {2}."
+    }
+   ],
+   "evidence_class": "hypothesis",
+   "source": [
+    {
+     "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+     "item": "Trade Routes + Bone Miser + Dakmor Salvage + Doctor Doom"
+    },
+    {
+     "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
+     "item": "Trade Routes + Surly Badgersaur + Dakmor Salvage + Doctor Doom"
+    }
+   ]
+  },
+  {
+   "id": "doom-10",
+   "category": "zone",
+   "title": "Crucible of Worlds doesn't let you cycle lands from the graveyard",
+   "cards": [
+    "Doctor Doom, King of Latveria",
+    "Crucible of Worlds",
+    "Dakmor Salvage"
+   ],
+   "ruling": "Crucible lets you play lands from your graveyard, still one land drop per turn at sorcery timing. It doesn't let you activate cycling or other abilities of lands there. Its role is replaying discarded lands, not extra Doom triggers.",
+   "status": "verified",
+   "cr": [
+    "305.2",
+    "702.29a"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Crucible of Worlds",
+     "quote": "Crucible of Worlds doesn't allow you to activate abilities (such as cycling) of land cards in your graveyard."
+    }
+   ]
+  },
+  {
+   "id": "doom-11",
+   "category": "engine",
+   "title": "Archfiend of Ifnir punishes every cycle and discard",
+   "cards": [
+    "Doctor Doom, King of Latveria",
+    "Archfiend of Ifnir",
+    "Tectonic Reformation"
+   ],
+   "ruling": "Archfiend of Ifnir puts a -1/-1 counter on each opponent's creature whenever you cycle or discard another card. Cycling a land with Tectonic Reformation is both a cycle and a discard, but it's one event, so Archfiend triggers once. In the Dakmor loop it wipes out small creatures alongside Doom's drain.",
+   "status": "verified",
+   "cr": [
+    "603.2c",
+    "702.29a"
+   ],
+   "oracle": [
+    {
+     "card": "Archfiend of Ifnir",
+     "quote": "Whenever you cycle or discard another card, put a -1/-1 counter on each creature your opponents control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Archfiend of Ifnir",
+     "quote": "An ability that triggers whenever you \"cycle or discard\" a card triggers only once if you cycle a card."
+    }
+   ]
+  }
+ ]
+}

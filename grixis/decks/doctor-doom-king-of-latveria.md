@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -469,6 +470,19 @@ The user explicitly approved the exact SHA-bound approval candidate after the ma
 - Approval candidate: `refinement/decklists/Doctor_Doom_King_of_Latveria_Approval_Candidate_2026-10-14.txt`
 - Whole-list audit / decisions: `refinement/decisions/Doctor_Doom_King_of_Latveria_Current_Cycle_Decisions_2026-10-14.md`
 - Complete gate: `refinement/verification/doctor_doom_king_of_latveria_2026-10-14/gate_output/Doctor_Doom_King_of_Latveria_2026-10-14_Complete_Gate.json`
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 48 interaction review: **11 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Doctor Doom, King of Latveria — Interaction Review](../interactions/doctor-doom-king-of-latveria.md).
+
+- **One trigger per discard event, not per land** — Doom: 2 per discard event; Cool but Rude: 2 per card. Wheels give Doom one trigger. ([doom-01](../interactions/doctor-doom-king-of-latveria.md#doom-01-one-trigger-per-discard-event-not-per-land))
+- **Dakmor Salvage is renewable, bounded by the library** — Dredge replaces any draw; with fewer than 2 cards left in library it can't be used. ([doom-07](../interactions/doctor-doom-king-of-latveria.md#doom-07-dakmor-salvage-is-renewable-bounded-by-the-library))
+- **Tectonic Reformation + Surly Badgersaur + Dakmor Salvage** — Cycle Dakmor for {R}, Badgersaur Treasure pays the next cycle, dredge returns it: 2 per opponent per loop. ([doom-08](../interactions/doctor-doom-king-of-latveria.md#doom-08-tectonic-reformation--surly-badgersaur--dakmor-salvage))
+
+**Flags for later refinement** (no list change in this phase):
+- ⚠️ uncertain Trade Routes + Bone Miser or Badgersaur + Dakmor: Rebuilt from the source attestation; Spellbook has no cached variant with Trade Routes for this list, so the line is checked against Oracle and rulings only. ([doom-09](../interactions/doctor-doom-king-of-latveria.md#doom-09-trade-routes--bone-miser-or-badgersaur--dakmor))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

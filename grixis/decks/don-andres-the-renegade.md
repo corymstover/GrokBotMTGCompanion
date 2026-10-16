@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -484,6 +485,19 @@ The user explicitly approved the exact SHA-bound approval candidate after the ma
 - Complete gate: `refinement/verification/don_andres_the_renegade_2026-10-14/gate_output/Don_Andres_the_Renegade_2026-10-14_Complete_Gate.json`
 
 No future deck refinement may modify this approved list unless the user explicitly reopens Don Andres.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 48 interaction review: **12 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Don Andres, the Renegade — Interaction Review](../interactions/don-andres-the-renegade.md).
+
+- **Ownership, not control, decides both of Don's abilities** — 'Don't own' = started in another player's deck, or a token another player created. ([donandres-01](../interactions/don-andres-the-renegade.md#donandres-01-ownership-not-control-decides-both-of-dons-abilities))
+- **The Treasure trigger needs a noncreature spell that someone else owns** — Stolen instants/sorceries/artifacts/enchantments trigger; your steal spell and stolen creatures don't. ([donandres-02](../interactions/don-andres-the-renegade.md#donandres-02-the-treasure-trigger-needs-a-noncreature-spell-that-someone-else-owns))
+- **Dauthi Voidwalker turns off Thieving Amalgam's drain** — With Voidwalker out, opponent-owned creatures are exiled instead of dying, so Amalgam doesn't drain. ([donandres-06](../interactions/don-andres-the-renegade.md#donandres-06-dauthi-voidwalker-turns-off-thieving-amalgams-drain))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Dauthi Voidwalker turns off Thieving Amalgam's drain: Pilot note, not a list error: the two cards pull in different directions for opponent-owned nontoken creatures. Voidwalker gives free replays; Amalgam gives the 2-life drain. Choose which one you want before chump-attacking or sacrificing stolen creatures. ([donandres-06](../interactions/don-andres-the-renegade.md#donandres-06-dauthi-voidwalker-turns-off-thieving-amalgams-drain))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

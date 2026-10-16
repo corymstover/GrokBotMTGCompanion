@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -594,6 +595,17 @@ Complete gate result:
 **Archidekt tags:** Theft / Sacrifice / Extra Combats
 
 The frozen source-package CSV/TXT exports remain preserved as historical baseline evidence. The current-cycle approved artifact above is now canonical.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 48 interaction review: **11 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Edea, Possessed Sorceress — Interaction Review](../interactions/edea-possessed-sorceress.md).
+
+- **A borrowed creature that dies goes back to its owner, and you draw** — Sacrifice the borrowed creature: you draw and get your death triggers; its owner gets it back, enters triggers included. ([edea-02](../interactions/edea-possessed-sorceress.md#edea-02-a-borrowed-creature-that-dies-goes-back-to-its-owner-and-you-draw))
+- **Edea copies: Spark Double, Sakashima, Irma** — Irma-Edea misses the combat she copies in, but steals in each later combat. ([edea-04](../interactions/edea-possessed-sorceress.md#edea-04-edea-copies-spark-double-sakashima-irma))
+- **Thassa turns a temporary steal into a permanent one** — Thassa at end step blinks the borrowed creature: you keep it permanently. ([edea-06](../interactions/edea-possessed-sorceress.md#edea-06-thassa-turns-a-temporary-steal-into-a-permanent-one))
+- **Black Crystal vs Edea: order the triggers to keep the card** — Resolve Black Crystal first to keep the opponent's creature for later; Edea still draws. ([edea-07](../interactions/edea-possessed-sorceress.md#edea-07-black-crystal-vs-edea-order-the-triggers-to-keep-the-card))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
