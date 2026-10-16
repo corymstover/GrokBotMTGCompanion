@@ -1,0 +1,1743 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Garza_Zol__Plague_Queen",
+ "slug": "garza-zol-plague-queen",
+ "deck_sha256": "b0dfe1fc5ad19d3d8b3eeb350b1abc42f0de3e32526032a558b5717df32e5fda",
+ "review": "data/grixis_interactions/garza-zol-plague-queen.json",
+ "review_sha256": "592d3d080042e464e9df4d513efa41b7870aaee8802e398fac72b34f7501c00f",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 11,
+  "nodes": 32,
+  "membership_edges": 36,
+  "pair_edges": 25
+ },
+ "nodes": [
+  {
+   "id": "commander:Garza Zol, Plague Queen",
+   "kind": "commander",
+   "name": "Garza Zol, Plague Queen",
+   "in_list": true
+  },
+  {
+   "id": "interaction:garza-zol-plague-queen/garza-01",
+   "kind": "interaction",
+   "interaction": "garza-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Basilisk Collar",
+   "kind": "card",
+   "name": "Basilisk Collar",
+   "in_list": true
+  },
+  {
+   "id": "card:Thornbite Staff",
+   "kind": "card",
+   "name": "Thornbite Staff",
+   "in_list": true
+  },
+  {
+   "id": "interaction:garza-zol-plague-queen/garza-02",
+   "kind": "interaction",
+   "interaction": "garza-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Chandra's Ignition",
+   "kind": "card",
+   "name": "Chandra's Ignition",
+   "in_list": true
+  },
+  {
+   "id": "card:Nova Flame",
+   "kind": "card",
+   "name": "Nova Flame",
+   "in_list": true
+  },
+  {
+   "id": "card:Blade of the Bloodchief",
+   "kind": "card",
+   "name": "Blade of the Bloodchief",
+   "in_list": true
+  },
+  {
+   "id": "card:Curiosity",
+   "kind": "card",
+   "name": "Curiosity",
+   "in_list": true
+  },
+  {
+   "id": "interaction:garza-zol-plague-queen/garza-03",
+   "kind": "interaction",
+   "interaction": "garza-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Scythe of the Wretched",
+   "kind": "card",
+   "name": "Scythe of the Wretched",
+   "in_list": true
+  },
+  {
+   "id": "interaction:garza-zol-plague-queen/garza-04",
+   "kind": "interaction",
+   "interaction": "garza-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Kediss, Emberclaw Familiar",
+   "kind": "card",
+   "name": "Kediss, Emberclaw Familiar",
+   "in_list": true
+  },
+  {
+   "id": "card:Grafted Exoskeleton",
+   "kind": "card",
+   "name": "Grafted Exoskeleton",
+   "in_list": true
+  },
+  {
+   "id": "combo:garza-zol-plague-queen/garza-05",
+   "kind": "combo",
+   "interaction": "garza-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "2822-3681",
+    "2822-3681"
+   ]
+  },
+  {
+   "id": "card:Slip Out the Back",
+   "kind": "card",
+   "name": "Slip Out the Back",
+   "in_list": true
+  },
+  {
+   "id": "interaction:garza-zol-plague-queen/garza-06",
+   "kind": "interaction",
+   "interaction": "garza-06",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Hatred",
+   "kind": "card",
+   "name": "Hatred",
+   "in_list": true
+  },
+  {
+   "id": "card:Jeska, Thrice Reborn",
+   "kind": "card",
+   "name": "Jeska, Thrice Reborn",
+   "in_list": true
+  },
+  {
+   "id": "card:Inquisitor's Flail",
+   "kind": "card",
+   "name": "Inquisitor's Flail",
+   "in_list": true
+  },
+  {
+   "id": "card:Psychotic Fury",
+   "kind": "card",
+   "name": "Psychotic Fury",
+   "in_list": true
+  },
+  {
+   "id": "interaction:garza-zol-plague-queen/garza-07",
+   "kind": "interaction",
+   "interaction": "garza-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Command Beacon",
+   "kind": "card",
+   "name": "Command Beacon",
+   "in_list": true
+  },
+  {
+   "id": "interaction:garza-zol-plague-queen/garza-08",
+   "kind": "interaction",
+   "interaction": "garza-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Sword of Feast and Famine",
+   "kind": "card",
+   "name": "Sword of Feast and Famine",
+   "in_list": true
+  },
+  {
+   "id": "card:The Reaver Cleaver",
+   "kind": "card",
+   "name": "The Reaver Cleaver",
+   "in_list": true
+  },
+  {
+   "id": "card:Aggravated Assault",
+   "kind": "card",
+   "name": "Aggravated Assault",
+   "in_list": true
+  },
+  {
+   "id": "combo:garza-zol-plague-queen/garza-09",
+   "kind": "combo",
+   "interaction": "garza-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "900-3750",
+    "3750-5039"
+   ]
+  },
+  {
+   "id": "card:Robe of the Archmagi",
+   "kind": "card",
+   "name": "Robe of the Archmagi",
+   "in_list": true
+  },
+  {
+   "id": "interaction:garza-zol-plague-queen/garza-10",
+   "kind": "interaction",
+   "interaction": "garza-10",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:The Ozolith",
+   "kind": "card",
+   "name": "The Ozolith",
+   "in_list": true
+  },
+  {
+   "id": "interaction:garza-zol-plague-queen/garza-11",
+   "kind": "interaction",
+   "interaction": "garza-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "garza-01:m1",
+   "from": "commander:Garza Zol, Plague Queen",
+   "to": "interaction:garza-zol-plague-queen/garza-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.1",
+    "603.10a",
+    "700.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-01",
+    "cr:120.1",
+    "cr:603.10a",
+    "cr:700.4"
+   ]
+  },
+  {
+   "id": "garza-02:m1",
+   "from": "commander:Garza Zol, Plague Queen",
+   "to": "interaction:garza-zol-plague-queen/garza-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.2b",
+    "704.5h",
+    "702.15b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-02",
+    "cr:702.2b",
+    "cr:704.5h",
+    "cr:702.15b"
+   ]
+  },
+  {
+   "id": "garza-02:m2",
+   "from": "card:Basilisk Collar",
+   "to": "interaction:garza-zol-plague-queen/garza-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.2b",
+    "704.5h",
+    "702.15b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-02",
+    "cr:702.2b",
+    "cr:704.5h",
+    "cr:702.15b"
+   ]
+  },
+  {
+   "id": "garza-02:m3",
+   "from": "card:Thornbite Staff",
+   "to": "interaction:garza-zol-plague-queen/garza-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.2b",
+    "704.5h",
+    "702.15b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-02",
+    "cr:702.2b",
+    "cr:704.5h",
+    "cr:702.15b"
+   ]
+  },
+  {
+   "id": "garza-02:p1",
+   "from": "card:Basilisk Collar",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.2b",
+    "704.5h",
+    "702.15b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-02",
+    "cr:702.2b",
+    "cr:704.5h",
+    "cr:702.15b"
+   ]
+  },
+  {
+   "id": "garza-02:p2",
+   "from": "card:Thornbite Staff",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.2b",
+    "704.5h",
+    "702.15b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-02",
+    "cr:702.2b",
+    "cr:704.5h",
+    "cr:702.15b"
+   ]
+  },
+  {
+   "id": "garza-03:m1",
+   "from": "commander:Garza Zol, Plague Queen",
+   "to": "interaction:garza-zol-plague-queen/garza-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.1",
+    "702.2b",
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-03",
+    "cr:120.1",
+    "cr:702.2b",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "garza-03:m2",
+   "from": "card:Chandra's Ignition",
+   "to": "interaction:garza-zol-plague-queen/garza-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.1",
+    "702.2b",
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-03",
+    "cr:120.1",
+    "cr:702.2b",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "garza-03:m3",
+   "from": "card:Nova Flame",
+   "to": "interaction:garza-zol-plague-queen/garza-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.1",
+    "702.2b",
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-03",
+    "cr:120.1",
+    "cr:702.2b",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "garza-03:m4",
+   "from": "card:Basilisk Collar",
+   "to": "interaction:garza-zol-plague-queen/garza-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.1",
+    "702.2b",
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-03",
+    "cr:120.1",
+    "cr:702.2b",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "garza-03:m5",
+   "from": "card:Blade of the Bloodchief",
+   "to": "interaction:garza-zol-plague-queen/garza-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.1",
+    "702.2b",
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-03",
+    "cr:120.1",
+    "cr:702.2b",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "garza-03:m6",
+   "from": "card:Curiosity",
+   "to": "interaction:garza-zol-plague-queen/garza-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.1",
+    "702.2b",
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-03",
+    "cr:120.1",
+    "cr:702.2b",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "garza-03:p1",
+   "from": "card:Chandra's Ignition",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.1",
+    "702.2b",
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-03",
+    "cr:120.1",
+    "cr:702.2b",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "garza-03:p2",
+   "from": "card:Nova Flame",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.1",
+    "702.2b",
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-03",
+    "cr:120.1",
+    "cr:702.2b",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "garza-03:p3",
+   "from": "card:Basilisk Collar",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.1",
+    "702.2b",
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-03",
+    "cr:120.1",
+    "cr:702.2b",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "garza-03:p4",
+   "from": "card:Blade of the Bloodchief",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.1",
+    "702.2b",
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-03",
+    "cr:120.1",
+    "cr:702.2b",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "garza-03:p5",
+   "from": "card:Curiosity",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.1",
+    "702.2b",
+    "608.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-03",
+    "cr:120.1",
+    "cr:702.2b",
+    "cr:608.2b"
+   ]
+  },
+  {
+   "id": "garza-04:m1",
+   "from": "commander:Garza Zol, Plague Queen",
+   "to": "interaction:garza-zol-plague-queen/garza-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "701.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-04",
+    "cr:603.2",
+    "cr:701.3a"
+   ]
+  },
+  {
+   "id": "garza-04:m2",
+   "from": "card:Scythe of the Wretched",
+   "to": "interaction:garza-zol-plague-queen/garza-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "701.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-04",
+    "cr:603.2",
+    "cr:701.3a"
+   ]
+  },
+  {
+   "id": "garza-04:p1",
+   "from": "card:Scythe of the Wretched",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "701.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-04",
+    "cr:603.2",
+    "cr:701.3a"
+   ]
+  },
+  {
+   "id": "garza-05:m1",
+   "from": "commander:Garza Zol, Plague Queen",
+   "to": "combo:garza-zol-plague-queen/garza-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.90b",
+    "704.5c",
+    "903.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-05",
+    "cr:702.90b",
+    "cr:704.5c",
+    "cr:903.10a",
+    "spellbook:2822-3681",
+    "spellbook:2822-3681"
+   ]
+  },
+  {
+   "id": "garza-05:m2",
+   "from": "card:Kediss, Emberclaw Familiar",
+   "to": "combo:garza-zol-plague-queen/garza-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.90b",
+    "704.5c",
+    "903.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-05",
+    "cr:702.90b",
+    "cr:704.5c",
+    "cr:903.10a",
+    "spellbook:2822-3681",
+    "spellbook:2822-3681"
+   ]
+  },
+  {
+   "id": "garza-05:m3",
+   "from": "card:Grafted Exoskeleton",
+   "to": "combo:garza-zol-plague-queen/garza-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.90b",
+    "704.5c",
+    "903.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-05",
+    "cr:702.90b",
+    "cr:704.5c",
+    "cr:903.10a",
+    "spellbook:2822-3681",
+    "spellbook:2822-3681"
+   ]
+  },
+  {
+   "id": "garza-05:p1",
+   "from": "card:Kediss, Emberclaw Familiar",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.90b",
+    "704.5c",
+    "903.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-05",
+    "cr:702.90b",
+    "cr:704.5c",
+    "cr:903.10a",
+    "spellbook:2822-3681",
+    "spellbook:2822-3681"
+   ]
+  },
+  {
+   "id": "garza-05:p2",
+   "from": "card:Grafted Exoskeleton",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.90b",
+    "704.5c",
+    "903.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-05",
+    "cr:702.90b",
+    "cr:704.5c",
+    "cr:903.10a",
+    "spellbook:2822-3681",
+    "spellbook:2822-3681"
+   ]
+  },
+  {
+   "id": "garza-06:m1",
+   "from": "commander:Garza Zol, Plague Queen",
+   "to": "interaction:garza-zol-plague-queen/garza-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-06",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.26g",
+    "701.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-06",
+    "cr:702.26g",
+    "cr:701.3a"
+   ]
+  },
+  {
+   "id": "garza-06:m2",
+   "from": "card:Grafted Exoskeleton",
+   "to": "interaction:garza-zol-plague-queen/garza-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-06",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.26g",
+    "701.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-06",
+    "cr:702.26g",
+    "cr:701.3a"
+   ]
+  },
+  {
+   "id": "garza-06:m3",
+   "from": "card:Slip Out the Back",
+   "to": "interaction:garza-zol-plague-queen/garza-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-06",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.26g",
+    "701.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-06",
+    "cr:702.26g",
+    "cr:701.3a"
+   ]
+  },
+  {
+   "id": "garza-06:p1",
+   "from": "card:Grafted Exoskeleton",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-06",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.26g",
+    "701.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-06",
+    "cr:702.26g",
+    "cr:701.3a"
+   ]
+  },
+  {
+   "id": "garza-06:p2",
+   "from": "card:Slip Out the Back",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-06",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.26g",
+    "701.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-06",
+    "cr:702.26g",
+    "cr:701.3a"
+   ]
+  },
+  {
+   "id": "garza-07:m1",
+   "from": "commander:Garza Zol, Plague Queen",
+   "to": "interaction:garza-zol-plague-queen/garza-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.10a",
+    "614.1a",
+    "702.4b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-07",
+    "cr:903.10a",
+    "cr:614.1a",
+    "cr:702.4b"
+   ]
+  },
+  {
+   "id": "garza-07:m2",
+   "from": "card:Hatred",
+   "to": "interaction:garza-zol-plague-queen/garza-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.10a",
+    "614.1a",
+    "702.4b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-07",
+    "cr:903.10a",
+    "cr:614.1a",
+    "cr:702.4b"
+   ]
+  },
+  {
+   "id": "garza-07:m3",
+   "from": "card:Jeska, Thrice Reborn",
+   "to": "interaction:garza-zol-plague-queen/garza-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.10a",
+    "614.1a",
+    "702.4b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-07",
+    "cr:903.10a",
+    "cr:614.1a",
+    "cr:702.4b"
+   ]
+  },
+  {
+   "id": "garza-07:m4",
+   "from": "card:Inquisitor's Flail",
+   "to": "interaction:garza-zol-plague-queen/garza-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.10a",
+    "614.1a",
+    "702.4b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-07",
+    "cr:903.10a",
+    "cr:614.1a",
+    "cr:702.4b"
+   ]
+  },
+  {
+   "id": "garza-07:m5",
+   "from": "card:Psychotic Fury",
+   "to": "interaction:garza-zol-plague-queen/garza-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.10a",
+    "614.1a",
+    "702.4b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-07",
+    "cr:903.10a",
+    "cr:614.1a",
+    "cr:702.4b"
+   ]
+  },
+  {
+   "id": "garza-07:p1",
+   "from": "card:Hatred",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.10a",
+    "614.1a",
+    "702.4b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-07",
+    "cr:903.10a",
+    "cr:614.1a",
+    "cr:702.4b"
+   ]
+  },
+  {
+   "id": "garza-07:p2",
+   "from": "card:Jeska, Thrice Reborn",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.10a",
+    "614.1a",
+    "702.4b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-07",
+    "cr:903.10a",
+    "cr:614.1a",
+    "cr:702.4b"
+   ]
+  },
+  {
+   "id": "garza-07:p3",
+   "from": "card:Inquisitor's Flail",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.10a",
+    "614.1a",
+    "702.4b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-07",
+    "cr:903.10a",
+    "cr:614.1a",
+    "cr:702.4b"
+   ]
+  },
+  {
+   "id": "garza-07:p4",
+   "from": "card:Psychotic Fury",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.10a",
+    "614.1a",
+    "702.4b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-07",
+    "cr:903.10a",
+    "cr:614.1a",
+    "cr:702.4b"
+   ]
+  },
+  {
+   "id": "garza-08:m1",
+   "from": "commander:Garza Zol, Plague Queen",
+   "to": "interaction:garza-zol-plague-queen/garza-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "704.5i",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-08",
+    "cr:704.5i",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "garza-08:m2",
+   "from": "card:Jeska, Thrice Reborn",
+   "to": "interaction:garza-zol-plague-queen/garza-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "704.5i",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-08",
+    "cr:704.5i",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "garza-08:m3",
+   "from": "card:Command Beacon",
+   "to": "interaction:garza-zol-plague-queen/garza-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "704.5i",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-08",
+    "cr:704.5i",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "garza-08:p1",
+   "from": "card:Jeska, Thrice Reborn",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5i",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-08",
+    "cr:704.5i",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "garza-08:p2",
+   "from": "card:Command Beacon",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-08",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5i",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-08",
+    "cr:704.5i",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "garza-09:m1",
+   "from": "commander:Garza Zol, Plague Queen",
+   "to": "combo:garza-zol-plague-queen/garza-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "602.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-09",
+    "cr:500.8",
+    "cr:602.5d",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "garza-09:m2",
+   "from": "card:Sword of Feast and Famine",
+   "to": "combo:garza-zol-plague-queen/garza-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "602.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-09",
+    "cr:500.8",
+    "cr:602.5d",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "garza-09:m3",
+   "from": "card:The Reaver Cleaver",
+   "to": "combo:garza-zol-plague-queen/garza-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "602.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-09",
+    "cr:500.8",
+    "cr:602.5d",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "garza-09:m4",
+   "from": "card:Aggravated Assault",
+   "to": "combo:garza-zol-plague-queen/garza-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "602.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-09",
+    "cr:500.8",
+    "cr:602.5d",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "garza-09:p1",
+   "from": "card:Sword of Feast and Famine",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "602.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-09",
+    "cr:500.8",
+    "cr:602.5d",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "garza-09:p2",
+   "from": "card:The Reaver Cleaver",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "602.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-09",
+    "cr:500.8",
+    "cr:602.5d",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "garza-09:p3",
+   "from": "card:Aggravated Assault",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "602.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-09",
+    "cr:500.8",
+    "cr:602.5d",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "garza-10:m1",
+   "from": "commander:Garza Zol, Plague Queen",
+   "to": "interaction:garza-zol-plague-queen/garza-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-10",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-10",
+    "cr:120.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "garza-10:m2",
+   "from": "card:Robe of the Archmagi",
+   "to": "interaction:garza-zol-plague-queen/garza-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-10",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-10",
+    "cr:120.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "garza-10:m3",
+   "from": "card:Curiosity",
+   "to": "interaction:garza-zol-plague-queen/garza-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-10",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-10",
+    "cr:120.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "garza-10:m4",
+   "from": "card:Kediss, Emberclaw Familiar",
+   "to": "interaction:garza-zol-plague-queen/garza-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-10",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-10",
+    "cr:120.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "garza-10:p1",
+   "from": "card:Robe of the Archmagi",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-10",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-10",
+    "cr:120.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "garza-10:p2",
+   "from": "card:Curiosity",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-10",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-10",
+    "cr:120.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "garza-10:p3",
+   "from": "card:Kediss, Emberclaw Familiar",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-10",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.1",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-10",
+    "cr:120.1",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "garza-11:m1",
+   "from": "commander:Garza Zol, Plague Queen",
+   "to": "interaction:garza-zol-plague-queen/garza-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-11",
+    "cr:603.10a",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "garza-11:m2",
+   "from": "card:The Ozolith",
+   "to": "interaction:garza-zol-plague-queen/garza-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "garza-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.10a",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-11",
+    "cr:603.10a",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "garza-11:p1",
+   "from": "card:The Ozolith",
+   "to": "commander:Garza Zol, Plague Queen",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "garza-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.10a",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/garza-zol-plague-queen.json#garza-11",
+    "cr:603.10a",
+    "cr:903.9a"
+   ]
+  }
+ ]
+}

@@ -515,7 +515,7 @@ The approved decklist is the exact frozen candidate. No card substitutions or po
 <!-- INTERACTIONS:START -->
 ## Rules notes
 
-> Bot cycle 48 interaction review: **11 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Fire Lord Azula — Interaction Review](../interactions/fire-lord-azula.md).
+> Bot cycle 48 interaction review: **12 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Fire Lord Azula — Interaction Review](../interactions/fire-lord-azula.md).
 
 - **The copy resolves first, even if the original is countered** — Copy resolves above the original; it isn't cast (no storm, no cast triggers). ([azula-01](../interactions/fire-lord-azula.md#azula-01-the-copy-resolves-first-even-if-the-original-is-countered))
 - **'While attacking' means during combat: sorceries need a flash enabler** — Sorceries copied by Azula need Borne Upon a Wind, Quicken, Emergence Zone or Floodcaller. ([azula-02](../interactions/fire-lord-azula.md#azula-02-while-attacking-means-during-combat-sorceries-need-a-flash-enabler))

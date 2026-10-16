@@ -1,0 +1,1623 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Saruman__the_White_Hand",
+ "slug": "saruman-the-white-hand",
+ "deck_sha256": "d08e2578f1193c283ea882e9d8565f4c5d00bedb3bc2b625bf3760403a9cfa30",
+ "review": "data/grixis_interactions/saruman-the-white-hand.json",
+ "review_sha256": "f185ad53c60d00a8d4f18e0d133a72ddcd27e501f937a9008dba8329948b0e1a",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 7,
+  "nodes": 33,
+  "membership_edges": 33,
+  "pair_edges": 26
+ },
+ "nodes": [
+  {
+   "id": "commander:Saruman, the White Hand",
+   "kind": "commander",
+   "name": "Saruman, the White Hand",
+   "in_list": true
+  },
+  {
+   "id": "card:Volcanic Salvo",
+   "kind": "card",
+   "name": "Volcanic Salvo",
+   "in_list": true
+  },
+  {
+   "id": "card:Treasure Cruise",
+   "kind": "card",
+   "name": "Treasure Cruise",
+   "in_list": true
+  },
+  {
+   "id": "card:Force of Will",
+   "kind": "card",
+   "name": "Force of Will",
+   "in_list": true
+  },
+  {
+   "id": "card:Blasphemous Act",
+   "kind": "card",
+   "name": "Blasphemous Act",
+   "in_list": true
+  },
+  {
+   "id": "card:Dig Through Time",
+   "kind": "card",
+   "name": "Dig Through Time",
+   "in_list": true
+  },
+  {
+   "id": "card:Blood for the Blood God!",
+   "kind": "card",
+   "name": "Blood for the Blood God!",
+   "in_list": true
+  },
+  {
+   "id": "interaction:saruman-the-white-hand/saruman-01",
+   "kind": "interaction",
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Assault on Osgiliath",
+   "kind": "card",
+   "name": "Assault on Osgiliath",
+   "in_list": true
+  },
+  {
+   "id": "card:Summons of Saruman",
+   "kind": "card",
+   "name": "Summons of Saruman",
+   "in_list": true
+  },
+  {
+   "id": "card:Shatterskull Smashing // Shatterskull, the Hammer Pass",
+   "kind": "card",
+   "name": "Shatterskull Smashing // Shatterskull, the Hammer Pass",
+   "in_list": true
+  },
+  {
+   "id": "card:Kazuul's Fury // Kazuul's Cliffs",
+   "kind": "card",
+   "name": "Kazuul's Fury // Kazuul's Cliffs",
+   "in_list": true
+  },
+  {
+   "id": "card:Sea Gate Restoration // Sea Gate, Reborn",
+   "kind": "card",
+   "name": "Sea Gate Restoration // Sea Gate, Reborn",
+   "in_list": true
+  },
+  {
+   "id": "card:Sink into Stupor // Soporific Springs",
+   "kind": "card",
+   "name": "Sink into Stupor // Soporific Springs",
+   "in_list": true
+  },
+  {
+   "id": "interaction:saruman-the-white-hand/saruman-02",
+   "kind": "interaction",
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Harmonic Prodigy",
+   "kind": "card",
+   "name": "Harmonic Prodigy",
+   "in_list": true
+  },
+  {
+   "id": "card:Wizard's Staff",
+   "kind": "card",
+   "name": "Wizard's Staff",
+   "in_list": true
+  },
+  {
+   "id": "card:Veyran, Voice of Duality",
+   "kind": "card",
+   "name": "Veyran, Voice of Duality",
+   "in_list": true
+  },
+  {
+   "id": "interaction:saruman-the-white-hand/saruman-03",
+   "kind": "interaction",
+   "interaction": "saruman-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Mauhúr, Uruk-hai Captain",
+   "kind": "card",
+   "name": "Mauhúr, Uruk-hai Captain",
+   "in_list": true
+  },
+  {
+   "id": "card:The Great Goblin",
+   "kind": "card",
+   "name": "The Great Goblin",
+   "in_list": true
+  },
+  {
+   "id": "card:All Will Be One",
+   "kind": "card",
+   "name": "All Will Be One",
+   "in_list": true
+  },
+  {
+   "id": "card:Bothersome Noisemaker",
+   "kind": "card",
+   "name": "Bothersome Noisemaker",
+   "in_list": true
+  },
+  {
+   "id": "interaction:saruman-the-white-hand/saruman-04",
+   "kind": "interaction",
+   "interaction": "saruman-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Fall of Cair Andros",
+   "kind": "card",
+   "name": "Fall of Cair Andros",
+   "in_list": true
+  },
+  {
+   "id": "card:Widespread Brutality",
+   "kind": "card",
+   "name": "Widespread Brutality",
+   "in_list": true
+  },
+  {
+   "id": "card:Chandra's Ignition",
+   "kind": "card",
+   "name": "Chandra's Ignition",
+   "in_list": true
+  },
+  {
+   "id": "card:Soul's Fire",
+   "kind": "card",
+   "name": "Soul's Fire",
+   "in_list": true
+  },
+  {
+   "id": "combo:saruman-the-white-hand/saruman-05",
+   "kind": "combo",
+   "interaction": "saruman-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1823-2484"
+   ]
+  },
+  {
+   "id": "card:Mizzix's Mastery",
+   "kind": "card",
+   "name": "Mizzix's Mastery",
+   "in_list": true
+  },
+  {
+   "id": "interaction:saruman-the-white-hand/saruman-06",
+   "kind": "interaction",
+   "interaction": "saruman-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:The Black Gate",
+   "kind": "card",
+   "name": "The Black Gate",
+   "in_list": true
+  },
+  {
+   "id": "interaction:saruman-the-white-hand/saruman-07",
+   "kind": "interaction",
+   "interaction": "saruman-07",
+   "topic": "legality",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "saruman-01:m1",
+   "from": "commander:Saruman, the White Hand",
+   "to": "interaction:saruman-the-white-hand/saruman-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-01",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "saruman-01:m2",
+   "from": "card:Volcanic Salvo",
+   "to": "interaction:saruman-the-white-hand/saruman-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-01",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "saruman-01:m3",
+   "from": "card:Treasure Cruise",
+   "to": "interaction:saruman-the-white-hand/saruman-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-01",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "saruman-01:m4",
+   "from": "card:Force of Will",
+   "to": "interaction:saruman-the-white-hand/saruman-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-01",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "saruman-01:m5",
+   "from": "card:Blasphemous Act",
+   "to": "interaction:saruman-the-white-hand/saruman-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-01",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "saruman-01:m6",
+   "from": "card:Dig Through Time",
+   "to": "interaction:saruman-the-white-hand/saruman-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-01",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "saruman-01:m7",
+   "from": "card:Blood for the Blood God!",
+   "to": "interaction:saruman-the-white-hand/saruman-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-01",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "saruman-01:p1",
+   "from": "card:Volcanic Salvo",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-01",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "saruman-01:p2",
+   "from": "card:Treasure Cruise",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-01",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "saruman-01:p3",
+   "from": "card:Force of Will",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-01",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "saruman-01:p4",
+   "from": "card:Blasphemous Act",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-01",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "saruman-01:p5",
+   "from": "card:Dig Through Time",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-01",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "saruman-01:p6",
+   "from": "card:Blood for the Blood God!",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-01",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "saruman-02:m1",
+   "from": "commander:Saruman, the White Hand",
+   "to": "interaction:saruman-the-white-hand/saruman-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-02",
+    "cr:202.3e",
+    "cr:107.3b",
+    "cr:712.11b"
+   ]
+  },
+  {
+   "id": "saruman-02:m2",
+   "from": "card:Assault on Osgiliath",
+   "to": "interaction:saruman-the-white-hand/saruman-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-02",
+    "cr:202.3e",
+    "cr:107.3b",
+    "cr:712.11b"
+   ]
+  },
+  {
+   "id": "saruman-02:m3",
+   "from": "card:Summons of Saruman",
+   "to": "interaction:saruman-the-white-hand/saruman-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-02",
+    "cr:202.3e",
+    "cr:107.3b",
+    "cr:712.11b"
+   ]
+  },
+  {
+   "id": "saruman-02:m4",
+   "from": "card:Shatterskull Smashing // Shatterskull, the Hammer Pass",
+   "to": "interaction:saruman-the-white-hand/saruman-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-02",
+    "cr:202.3e",
+    "cr:107.3b",
+    "cr:712.11b"
+   ]
+  },
+  {
+   "id": "saruman-02:m5",
+   "from": "card:Kazuul's Fury // Kazuul's Cliffs",
+   "to": "interaction:saruman-the-white-hand/saruman-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-02",
+    "cr:202.3e",
+    "cr:107.3b",
+    "cr:712.11b"
+   ]
+  },
+  {
+   "id": "saruman-02:m6",
+   "from": "card:Sea Gate Restoration // Sea Gate, Reborn",
+   "to": "interaction:saruman-the-white-hand/saruman-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-02",
+    "cr:202.3e",
+    "cr:107.3b",
+    "cr:712.11b"
+   ]
+  },
+  {
+   "id": "saruman-02:m7",
+   "from": "card:Sink into Stupor // Soporific Springs",
+   "to": "interaction:saruman-the-white-hand/saruman-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-02",
+    "cr:202.3e",
+    "cr:107.3b",
+    "cr:712.11b"
+   ]
+  },
+  {
+   "id": "saruman-02:p1",
+   "from": "card:Assault on Osgiliath",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-02",
+    "cr:202.3e",
+    "cr:107.3b",
+    "cr:712.11b"
+   ]
+  },
+  {
+   "id": "saruman-02:p2",
+   "from": "card:Summons of Saruman",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-02",
+    "cr:202.3e",
+    "cr:107.3b",
+    "cr:712.11b"
+   ]
+  },
+  {
+   "id": "saruman-02:p3",
+   "from": "card:Shatterskull Smashing // Shatterskull, the Hammer Pass",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-02",
+    "cr:202.3e",
+    "cr:107.3b",
+    "cr:712.11b"
+   ]
+  },
+  {
+   "id": "saruman-02:p4",
+   "from": "card:Kazuul's Fury // Kazuul's Cliffs",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-02",
+    "cr:202.3e",
+    "cr:107.3b",
+    "cr:712.11b"
+   ]
+  },
+  {
+   "id": "saruman-02:p5",
+   "from": "card:Sea Gate Restoration // Sea Gate, Reborn",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-02",
+    "cr:202.3e",
+    "cr:107.3b",
+    "cr:712.11b"
+   ]
+  },
+  {
+   "id": "saruman-02:p6",
+   "from": "card:Sink into Stupor // Soporific Springs",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-02",
+    "cr:202.3e",
+    "cr:107.3b",
+    "cr:712.11b"
+   ]
+  },
+  {
+   "id": "saruman-03:m1",
+   "from": "commander:Saruman, the White Hand",
+   "to": "interaction:saruman-the-white-hand/saruman-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "saruman-03:m2",
+   "from": "card:Harmonic Prodigy",
+   "to": "interaction:saruman-the-white-hand/saruman-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "saruman-03:m3",
+   "from": "card:Wizard's Staff",
+   "to": "interaction:saruman-the-white-hand/saruman-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "saruman-03:m4",
+   "from": "card:Veyran, Voice of Duality",
+   "to": "interaction:saruman-the-white-hand/saruman-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "saruman-03:p1",
+   "from": "card:Harmonic Prodigy",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "saruman-03:p2",
+   "from": "card:Wizard's Staff",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "saruman-03:p3",
+   "from": "card:Veyran, Voice of Duality",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "saruman-04:m1",
+   "from": "commander:Saruman, the White Hand",
+   "to": "interaction:saruman-the-white-hand/saruman-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-04",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saruman-04:m2",
+   "from": "card:Mauhúr, Uruk-hai Captain",
+   "to": "interaction:saruman-the-white-hand/saruman-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-04",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saruman-04:m3",
+   "from": "card:The Great Goblin",
+   "to": "interaction:saruman-the-white-hand/saruman-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-04",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saruman-04:m4",
+   "from": "card:All Will Be One",
+   "to": "interaction:saruman-the-white-hand/saruman-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-04",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saruman-04:m5",
+   "from": "card:Bothersome Noisemaker",
+   "to": "interaction:saruman-the-white-hand/saruman-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-04",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saruman-04:p1",
+   "from": "card:Mauhúr, Uruk-hai Captain",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-04",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saruman-04:p2",
+   "from": "card:The Great Goblin",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-04",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saruman-04:p3",
+   "from": "card:All Will Be One",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-04",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saruman-04:p4",
+   "from": "card:Bothersome Noisemaker",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-04",
+    "cr:614.1a",
+    "cr:701.47a"
+   ]
+  },
+  {
+   "id": "saruman-05:m1",
+   "from": "commander:Saruman, the White Hand",
+   "to": "combo:saruman-the-white-hand/saruman-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.10",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-05",
+    "cr:120.10",
+    "cr:701.47a",
+    "spellbook:1823-2484"
+   ]
+  },
+  {
+   "id": "saruman-05:m2",
+   "from": "card:Fall of Cair Andros",
+   "to": "combo:saruman-the-white-hand/saruman-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.10",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-05",
+    "cr:120.10",
+    "cr:701.47a",
+    "spellbook:1823-2484"
+   ]
+  },
+  {
+   "id": "saruman-05:m3",
+   "from": "card:Blasphemous Act",
+   "to": "combo:saruman-the-white-hand/saruman-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.10",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-05",
+    "cr:120.10",
+    "cr:701.47a",
+    "spellbook:1823-2484"
+   ]
+  },
+  {
+   "id": "saruman-05:m4",
+   "from": "card:Widespread Brutality",
+   "to": "combo:saruman-the-white-hand/saruman-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.10",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-05",
+    "cr:120.10",
+    "cr:701.47a",
+    "spellbook:1823-2484"
+   ]
+  },
+  {
+   "id": "saruman-05:m5",
+   "from": "card:Chandra's Ignition",
+   "to": "combo:saruman-the-white-hand/saruman-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.10",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-05",
+    "cr:120.10",
+    "cr:701.47a",
+    "spellbook:1823-2484"
+   ]
+  },
+  {
+   "id": "saruman-05:m6",
+   "from": "card:Soul's Fire",
+   "to": "combo:saruman-the-white-hand/saruman-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.10",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-05",
+    "cr:120.10",
+    "cr:701.47a",
+    "spellbook:1823-2484"
+   ]
+  },
+  {
+   "id": "saruman-05:p1",
+   "from": "card:Fall of Cair Andros",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.10",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-05",
+    "cr:120.10",
+    "cr:701.47a",
+    "spellbook:1823-2484"
+   ]
+  },
+  {
+   "id": "saruman-05:p2",
+   "from": "card:Blasphemous Act",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.10",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-05",
+    "cr:120.10",
+    "cr:701.47a",
+    "spellbook:1823-2484"
+   ]
+  },
+  {
+   "id": "saruman-05:p3",
+   "from": "card:Widespread Brutality",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.10",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-05",
+    "cr:120.10",
+    "cr:701.47a",
+    "spellbook:1823-2484"
+   ]
+  },
+  {
+   "id": "saruman-05:p4",
+   "from": "card:Chandra's Ignition",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.10",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-05",
+    "cr:120.10",
+    "cr:701.47a",
+    "spellbook:1823-2484"
+   ]
+  },
+  {
+   "id": "saruman-05:p5",
+   "from": "card:Soul's Fire",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.10",
+    "701.47a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-05",
+    "cr:120.10",
+    "cr:701.47a",
+    "spellbook:1823-2484"
+   ]
+  },
+  {
+   "id": "saruman-06:m1",
+   "from": "commander:Saruman, the White Hand",
+   "to": "interaction:saruman-the-white-hand/saruman-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.12",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-06",
+    "cr:707.12",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "saruman-06:m2",
+   "from": "card:Mizzix's Mastery",
+   "to": "interaction:saruman-the-white-hand/saruman-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.12",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-06",
+    "cr:707.12",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "saruman-06:p1",
+   "from": "card:Mizzix's Mastery",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-06",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.12",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-06",
+    "cr:707.12",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "saruman-07:m1",
+   "from": "commander:Saruman, the White Hand",
+   "to": "interaction:saruman-the-white-hand/saruman-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-07",
+   "topic": "legality",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "115.1",
+    "608.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-07",
+    "cr:115.1",
+    "cr:608.2c"
+   ]
+  },
+  {
+   "id": "saruman-07:m2",
+   "from": "card:The Black Gate",
+   "to": "interaction:saruman-the-white-hand/saruman-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "saruman-07",
+   "topic": "legality",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "115.1",
+    "608.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-07",
+    "cr:115.1",
+    "cr:608.2c"
+   ]
+  },
+  {
+   "id": "saruman-07:p1",
+   "from": "card:The Black Gate",
+   "to": "commander:Saruman, the White Hand",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "saruman-07",
+   "topic": "legality",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "115.1",
+    "608.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/saruman-the-white-hand.json#saruman-07",
+    "cr:115.1",
+    "cr:608.2c"
+   ]
+  }
+ ]
+}

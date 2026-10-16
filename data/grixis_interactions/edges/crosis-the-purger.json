@@ -1,0 +1,1275 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Crosis__the_Purger",
+ "slug": "crosis-the-purger",
+ "deck_sha256": "04784e892c930bb5e60f8551ffffa7e9527634359db38378fd1bd7e4c8e3647d",
+ "review": "data/grixis_interactions/crosis-the-purger.json",
+ "review_sha256": "232c3175901d52c636d160d17e6a9de56d6a155df5c76e97c85611229dec8d9e",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 11,
+  "nodes": 27,
+  "membership_edges": 29,
+  "pair_edges": 18
+ },
+ "nodes": [
+  {
+   "id": "commander:Crosis, the Purger",
+   "kind": "commander",
+   "name": "Crosis, the Purger",
+   "in_list": true
+  },
+  {
+   "id": "interaction:crosis-the-purger/crosis-01",
+   "kind": "interaction",
+   "interaction": "crosis-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Painter's Servant",
+   "kind": "card",
+   "name": "Painter's Servant",
+   "in_list": true
+  },
+  {
+   "id": "combo:crosis-the-purger/crosis-02",
+   "kind": "combo",
+   "interaction": "crosis-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Sword of Feast and Famine",
+   "kind": "card",
+   "name": "Sword of Feast and Famine",
+   "in_list": true
+  },
+  {
+   "id": "interaction:crosis-the-purger/crosis-03",
+   "kind": "interaction",
+   "interaction": "crosis-03",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:crosis-the-purger/crosis-04",
+   "kind": "interaction",
+   "interaction": "crosis-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Brotherhood Regalia",
+   "kind": "card",
+   "name": "Brotherhood Regalia",
+   "in_list": true
+  },
+  {
+   "id": "interaction:crosis-the-purger/crosis-05",
+   "kind": "interaction",
+   "interaction": "crosis-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Tergrid, God of Fright // Tergrid's Lantern",
+   "kind": "card",
+   "name": "Tergrid, God of Fright // Tergrid's Lantern",
+   "in_list": true
+  },
+  {
+   "id": "card:Tinybones, Bauble Burglar",
+   "kind": "card",
+   "name": "Tinybones, Bauble Burglar",
+   "in_list": true
+  },
+  {
+   "id": "interaction:crosis-the-purger/crosis-06",
+   "kind": "interaction",
+   "interaction": "crosis-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Notion Thief",
+   "kind": "card",
+   "name": "Notion Thief",
+   "in_list": true
+  },
+  {
+   "id": "card:Teferi's Puzzle Box",
+   "kind": "card",
+   "name": "Teferi's Puzzle Box",
+   "in_list": true
+  },
+  {
+   "id": "combo:crosis-the-purger/crosis-07",
+   "kind": "combo",
+   "interaction": "crosis-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Wheel of Fortune",
+   "kind": "card",
+   "name": "Wheel of Fortune",
+   "in_list": true
+  },
+  {
+   "id": "card:Windfall",
+   "kind": "card",
+   "name": "Windfall",
+   "in_list": true
+  },
+  {
+   "id": "card:Dark Deal",
+   "kind": "card",
+   "name": "Dark Deal",
+   "in_list": true
+  },
+  {
+   "id": "interaction:crosis-the-purger/crosis-08",
+   "kind": "interaction",
+   "interaction": "crosis-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Recoil",
+   "kind": "card",
+   "name": "Recoil",
+   "in_list": true
+  },
+  {
+   "id": "card:Dream Salvage",
+   "kind": "card",
+   "name": "Dream Salvage",
+   "in_list": true
+  },
+  {
+   "id": "interaction:crosis-the-purger/crosis-09",
+   "kind": "interaction",
+   "interaction": "crosis-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Oppression",
+   "kind": "card",
+   "name": "Oppression",
+   "in_list": true
+  },
+  {
+   "id": "interaction:crosis-the-purger/crosis-10",
+   "kind": "interaction",
+   "interaction": "crosis-10",
+   "topic": "pair",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "strategic_judgment"
+  },
+  {
+   "id": "card:Lightning Greaves",
+   "kind": "card",
+   "name": "Lightning Greaves",
+   "in_list": true
+  },
+  {
+   "id": "card:Swiftfoot Boots",
+   "kind": "card",
+   "name": "Swiftfoot Boots",
+   "in_list": true
+  },
+  {
+   "id": "interaction:crosis-the-purger/crosis-11",
+   "kind": "interaction",
+   "interaction": "crosis-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "crosis-01:m1",
+   "from": "commander:Crosis, the Purger",
+   "to": "interaction:crosis-the-purger/crosis-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "608.2b",
+    "105.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-01",
+    "cr:603.2",
+    "cr:608.2b",
+    "cr:105.2c"
+   ]
+  },
+  {
+   "id": "crosis-02:m1",
+   "from": "commander:Crosis, the Purger",
+   "to": "combo:crosis-the-purger/crosis-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "105.3",
+    "613.1e"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-02",
+    "cr:105.3",
+    "cr:613.1e"
+   ]
+  },
+  {
+   "id": "crosis-02:m2",
+   "from": "card:Painter's Servant",
+   "to": "combo:crosis-the-purger/crosis-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "105.3",
+    "613.1e"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-02",
+    "cr:105.3",
+    "cr:613.1e"
+   ]
+  },
+  {
+   "id": "crosis-02:p1",
+   "from": "card:Painter's Servant",
+   "to": "commander:Crosis, the Purger",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "105.3",
+    "613.1e"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-02",
+    "cr:105.3",
+    "cr:613.1e"
+   ]
+  },
+  {
+   "id": "crosis-03:m1",
+   "from": "commander:Crosis, the Purger",
+   "to": "interaction:crosis-the-purger/crosis-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-03",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.16d",
+    "704.5n"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-03",
+    "cr:702.16d",
+    "cr:704.5n"
+   ]
+  },
+  {
+   "id": "crosis-03:m2",
+   "from": "card:Painter's Servant",
+   "to": "interaction:crosis-the-purger/crosis-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-03",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.16d",
+    "704.5n"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-03",
+    "cr:702.16d",
+    "cr:704.5n"
+   ]
+  },
+  {
+   "id": "crosis-03:m3",
+   "from": "card:Sword of Feast and Famine",
+   "to": "interaction:crosis-the-purger/crosis-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-03",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.16d",
+    "704.5n"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-03",
+    "cr:702.16d",
+    "cr:704.5n"
+   ]
+  },
+  {
+   "id": "crosis-03:p1",
+   "from": "card:Painter's Servant",
+   "to": "commander:Crosis, the Purger",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-03",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.16d",
+    "704.5n"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-03",
+    "cr:702.16d",
+    "cr:704.5n"
+   ]
+  },
+  {
+   "id": "crosis-03:p2",
+   "from": "card:Sword of Feast and Famine",
+   "to": "commander:Crosis, the Purger",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-03",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.16d",
+    "704.5n"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-03",
+    "cr:702.16d",
+    "cr:704.5n"
+   ]
+  },
+  {
+   "id": "crosis-04:m1",
+   "from": "commander:Crosis, the Purger",
+   "to": "interaction:crosis-the-purger/crosis-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "106.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-04",
+    "cr:603.3b",
+    "cr:106.4"
+   ]
+  },
+  {
+   "id": "crosis-04:m2",
+   "from": "card:Sword of Feast and Famine",
+   "to": "interaction:crosis-the-purger/crosis-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "106.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-04",
+    "cr:603.3b",
+    "cr:106.4"
+   ]
+  },
+  {
+   "id": "crosis-04:p1",
+   "from": "card:Sword of Feast and Famine",
+   "to": "commander:Crosis, the Purger",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "106.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-04",
+    "cr:603.3b",
+    "cr:106.4"
+   ]
+  },
+  {
+   "id": "crosis-05:m1",
+   "from": "commander:Crosis, the Purger",
+   "to": "interaction:crosis-the-purger/crosis-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.6a",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-05",
+    "cr:702.6a",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "crosis-05:m2",
+   "from": "card:Brotherhood Regalia",
+   "to": "interaction:crosis-the-purger/crosis-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.6a",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-05",
+    "cr:702.6a",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "crosis-05:p1",
+   "from": "card:Brotherhood Regalia",
+   "to": "commander:Crosis, the Purger",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.6a",
+    "702.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-05",
+    "cr:702.6a",
+    "cr:702.21a"
+   ]
+  },
+  {
+   "id": "crosis-06:m1",
+   "from": "commander:Crosis, the Purger",
+   "to": "interaction:crosis-the-purger/crosis-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-06",
+    "cr:603.3b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "crosis-06:m2",
+   "from": "card:Tergrid, God of Fright // Tergrid's Lantern",
+   "to": "interaction:crosis-the-purger/crosis-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-06",
+    "cr:603.3b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "crosis-06:m3",
+   "from": "card:Tinybones, Bauble Burglar",
+   "to": "interaction:crosis-the-purger/crosis-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-06",
+    "cr:603.3b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "crosis-06:p1",
+   "from": "card:Tergrid, God of Fright // Tergrid's Lantern",
+   "to": "commander:Crosis, the Purger",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-06",
+    "cr:603.3b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "crosis-06:p2",
+   "from": "card:Tinybones, Bauble Burglar",
+   "to": "commander:Crosis, the Purger",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-06",
+    "cr:603.3b",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "crosis-07:m1",
+   "from": "commander:Crosis, the Purger",
+   "to": "combo:crosis-the-purger/crosis-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "121.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-07",
+    "cr:614.1a",
+    "cr:121.6"
+   ]
+  },
+  {
+   "id": "crosis-07:m2",
+   "from": "card:Notion Thief",
+   "to": "combo:crosis-the-purger/crosis-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "121.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-07",
+    "cr:614.1a",
+    "cr:121.6"
+   ]
+  },
+  {
+   "id": "crosis-07:m3",
+   "from": "card:Teferi's Puzzle Box",
+   "to": "combo:crosis-the-purger/crosis-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "121.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-07",
+    "cr:614.1a",
+    "cr:121.6"
+   ]
+  },
+  {
+   "id": "crosis-07:p1",
+   "from": "card:Notion Thief",
+   "to": "commander:Crosis, the Purger",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "121.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-07",
+    "cr:614.1a",
+    "cr:121.6"
+   ]
+  },
+  {
+   "id": "crosis-07:p2",
+   "from": "card:Teferi's Puzzle Box",
+   "to": "commander:Crosis, the Purger",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "121.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-07",
+    "cr:614.1a",
+    "cr:121.6"
+   ]
+  },
+  {
+   "id": "crosis-08:m1",
+   "from": "commander:Crosis, the Purger",
+   "to": "interaction:crosis-the-purger/crosis-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-08",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "crosis-08:m2",
+   "from": "card:Notion Thief",
+   "to": "interaction:crosis-the-purger/crosis-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-08",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "crosis-08:m3",
+   "from": "card:Wheel of Fortune",
+   "to": "interaction:crosis-the-purger/crosis-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-08",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "crosis-08:m4",
+   "from": "card:Windfall",
+   "to": "interaction:crosis-the-purger/crosis-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-08",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "crosis-08:m5",
+   "from": "card:Dark Deal",
+   "to": "interaction:crosis-the-purger/crosis-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-08",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "crosis-08:p1",
+   "from": "card:Notion Thief",
+   "to": "commander:Crosis, the Purger",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-08",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "crosis-08:p2",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Crosis, the Purger",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-08",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "crosis-08:p3",
+   "from": "card:Windfall",
+   "to": "commander:Crosis, the Purger",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-08",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "crosis-08:p4",
+   "from": "card:Dark Deal",
+   "to": "commander:Crosis, the Purger",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-08",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-08",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "crosis-09:m1",
+   "from": "commander:Crosis, the Purger",
+   "to": "interaction:crosis-the-purger/crosis-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-09",
+    "cr:608.2c"
+   ]
+  },
+  {
+   "id": "crosis-09:m2",
+   "from": "card:Recoil",
+   "to": "interaction:crosis-the-purger/crosis-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-09",
+    "cr:608.2c"
+   ]
+  },
+  {
+   "id": "crosis-09:m3",
+   "from": "card:Dream Salvage",
+   "to": "interaction:crosis-the-purger/crosis-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-09",
+    "cr:608.2c"
+   ]
+  },
+  {
+   "id": "crosis-09:p1",
+   "from": "card:Recoil",
+   "to": "commander:Crosis, the Purger",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-09",
+    "cr:608.2c"
+   ]
+  },
+  {
+   "id": "crosis-09:p2",
+   "from": "card:Dream Salvage",
+   "to": "commander:Crosis, the Purger",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-09",
+    "cr:608.2c"
+   ]
+  },
+  {
+   "id": "crosis-10:m1",
+   "from": "commander:Crosis, the Purger",
+   "to": "interaction:crosis-the-purger/crosis-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-10",
+   "topic": "pair",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "strategic_judgment",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-10",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "crosis-10:m2",
+   "from": "card:Oppression",
+   "to": "interaction:crosis-the-purger/crosis-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-10",
+   "topic": "pair",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "strategic_judgment",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-10",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "crosis-10:p1",
+   "from": "card:Oppression",
+   "to": "commander:Crosis, the Purger",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-10",
+   "topic": "pair",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-10",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "crosis-11:m1",
+   "from": "commander:Crosis, the Purger",
+   "to": "interaction:crosis-the-purger/crosis-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-11",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "crosis-11:m2",
+   "from": "card:Lightning Greaves",
+   "to": "interaction:crosis-the-purger/crosis-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-11",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "crosis-11:m3",
+   "from": "card:Swiftfoot Boots",
+   "to": "interaction:crosis-the-purger/crosis-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "crosis-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-11",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "crosis-11:p1",
+   "from": "card:Lightning Greaves",
+   "to": "commander:Crosis, the Purger",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-11",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "crosis-11:p2",
+   "from": "card:Swiftfoot Boots",
+   "to": "commander:Crosis, the Purger",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "crosis-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/crosis-the-purger.json#crosis-11",
+    "cr:702.18a",
+    "cr:702.11b",
+    "cr:903.8"
+   ]
+  }
+ ]
+}

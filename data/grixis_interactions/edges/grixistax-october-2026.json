@@ -1,0 +1,2133 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Grixistax___October_2026",
+ "slug": "grixistax-october-2026",
+ "deck_sha256": "f0a28f936c03705df0e215738e4ad314d337bb3e713dcf7b2c50beba5a2f9a08",
+ "review": "data/grixis_interactions/grixistax-october-2026.json",
+ "review_sha256": "5ccf0c7637172d8e9a9fea44d6bbd79ee0586d677927e717b753f3ad1c51b7bd",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 11,
+  "nodes": 38,
+  "membership_edges": 44,
+  "pair_edges": 33
+ },
+ "nodes": [
+  {
+   "id": "commander:Kraum, Ludevic's Opus",
+   "kind": "commander",
+   "name": "Kraum, Ludevic's Opus",
+   "in_list": true
+  },
+  {
+   "id": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "commander",
+   "name": "Tevesh Szat, Doom of Fools",
+   "in_list": true
+  },
+  {
+   "id": "interaction:grixistax-october-2026/grixistax-01",
+   "kind": "interaction",
+   "interaction": "grixistax-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Damping Sphere",
+   "kind": "card",
+   "name": "Damping Sphere",
+   "in_list": true
+  },
+  {
+   "id": "interaction:grixistax-october-2026/grixistax-02",
+   "kind": "interaction",
+   "interaction": "grixistax-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Contamination",
+   "kind": "card",
+   "name": "Contamination",
+   "in_list": true
+  },
+  {
+   "id": "card:Skullclamp",
+   "kind": "card",
+   "name": "Skullclamp",
+   "in_list": true
+  },
+  {
+   "id": "card:Phyrexian Tower",
+   "kind": "card",
+   "name": "Phyrexian Tower",
+   "in_list": true
+  },
+  {
+   "id": "card:Culling the Weak",
+   "kind": "card",
+   "name": "Culling the Weak",
+   "in_list": true
+  },
+  {
+   "id": "card:Diabolic Intent",
+   "kind": "card",
+   "name": "Diabolic Intent",
+   "in_list": true
+  },
+  {
+   "id": "interaction:grixistax-october-2026/grixistax-03",
+   "kind": "interaction",
+   "interaction": "grixistax-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Blood Moon",
+   "kind": "card",
+   "name": "Blood Moon",
+   "in_list": true
+  },
+  {
+   "id": "card:Ancient Tomb",
+   "kind": "card",
+   "name": "Ancient Tomb",
+   "in_list": true
+  },
+  {
+   "id": "interaction:grixistax-october-2026/grixistax-04",
+   "kind": "interaction",
+   "interaction": "grixistax-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Back to Basics",
+   "kind": "card",
+   "name": "Back to Basics",
+   "in_list": true
+  },
+  {
+   "id": "interaction:grixistax-october-2026/grixistax-05",
+   "kind": "interaction",
+   "interaction": "grixistax-05",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Overburden",
+   "kind": "card",
+   "name": "Overburden",
+   "in_list": true
+  },
+  {
+   "id": "card:Tangle Wire",
+   "kind": "card",
+   "name": "Tangle Wire",
+   "in_list": true
+  },
+  {
+   "id": "interaction:grixistax-october-2026/grixistax-06",
+   "kind": "interaction",
+   "interaction": "grixistax-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Trinisphere",
+   "kind": "card",
+   "name": "Trinisphere",
+   "in_list": true
+  },
+  {
+   "id": "card:Chalice of the Void",
+   "kind": "card",
+   "name": "Chalice of the Void",
+   "in_list": true
+  },
+  {
+   "id": "card:Force of Will",
+   "kind": "card",
+   "name": "Force of Will",
+   "in_list": true
+  },
+  {
+   "id": "card:Fierce Guardianship",
+   "kind": "card",
+   "name": "Fierce Guardianship",
+   "in_list": true
+  },
+  {
+   "id": "card:Lion's Eye Diamond",
+   "kind": "card",
+   "name": "Lion's Eye Diamond",
+   "in_list": true
+  },
+  {
+   "id": "interaction:grixistax-october-2026/grixistax-07",
+   "kind": "interaction",
+   "interaction": "grixistax-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Karn, the Great Creator",
+   "kind": "card",
+   "name": "Karn, the Great Creator",
+   "in_list": true
+  },
+  {
+   "id": "card:Wishclaw Talisman",
+   "kind": "card",
+   "name": "Wishclaw Talisman",
+   "in_list": true
+  },
+  {
+   "id": "interaction:grixistax-october-2026/grixistax-08",
+   "kind": "interaction",
+   "interaction": "grixistax-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Helm of Obedience",
+   "kind": "card",
+   "name": "Helm of Obedience",
+   "in_list": true
+  },
+  {
+   "id": "card:Leyline of the Void",
+   "kind": "card",
+   "name": "Leyline of the Void",
+   "in_list": true
+  },
+  {
+   "id": "card:Dauthi Voidwalker",
+   "kind": "card",
+   "name": "Dauthi Voidwalker",
+   "in_list": true
+  },
+  {
+   "id": "combo:grixistax-october-2026/grixistax-09",
+   "kind": "combo",
+   "interaction": "grixistax-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "2163-5065",
+    "2581-5065"
+   ]
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "card:Brain Freeze",
+   "kind": "card",
+   "name": "Brain Freeze",
+   "in_list": true
+  },
+  {
+   "id": "card:Necropotence",
+   "kind": "card",
+   "name": "Necropotence",
+   "in_list": true
+  },
+  {
+   "id": "interaction:grixistax-october-2026/grixistax-10",
+   "kind": "interaction",
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1368-3518-4856",
+    "1368-3518-4856"
+   ]
+  },
+  {
+   "id": "card:Tainted Pact",
+   "kind": "card",
+   "name": "Tainted Pact",
+   "in_list": true
+  },
+  {
+   "id": "interaction:grixistax-october-2026/grixistax-11",
+   "kind": "interaction",
+   "interaction": "grixistax-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "grixistax-01:m1",
+   "from": "commander:Kraum, Ludevic's Opus",
+   "to": "interaction:grixistax-october-2026/grixistax-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.124a",
+    "903.4",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-01",
+    "cr:702.124a",
+    "cr:903.4",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "grixistax-01:m2",
+   "from": "commander:Tevesh Szat, Doom of Fools",
+   "to": "interaction:grixistax-october-2026/grixistax-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.124a",
+    "903.4",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-01",
+    "cr:702.124a",
+    "cr:903.4",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "grixistax-01:p1",
+   "from": "commander:Tevesh Szat, Doom of Fools",
+   "to": "commander:Kraum, Ludevic's Opus",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.124a",
+    "903.4",
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-01",
+    "cr:702.124a",
+    "cr:903.4",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "grixistax-02:m1",
+   "from": "commander:Kraum, Ludevic's Opus",
+   "to": "interaction:grixistax-october-2026/grixistax-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-02",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "grixistax-02:m2",
+   "from": "card:Damping Sphere",
+   "to": "interaction:grixistax-october-2026/grixistax-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-02",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "grixistax-02:p1",
+   "from": "card:Damping Sphere",
+   "to": "commander:Kraum, Ludevic's Opus",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-02",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "grixistax-03:m1",
+   "from": "commander:Tevesh Szat, Doom of Fools",
+   "to": "interaction:grixistax-october-2026/grixistax-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5f",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-03",
+    "cr:704.5f",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "grixistax-03:m2",
+   "from": "card:Contamination",
+   "to": "interaction:grixistax-october-2026/grixistax-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5f",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-03",
+    "cr:704.5f",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "grixistax-03:m3",
+   "from": "card:Skullclamp",
+   "to": "interaction:grixistax-october-2026/grixistax-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5f",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-03",
+    "cr:704.5f",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "grixistax-03:m4",
+   "from": "card:Phyrexian Tower",
+   "to": "interaction:grixistax-october-2026/grixistax-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5f",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-03",
+    "cr:704.5f",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "grixistax-03:m5",
+   "from": "card:Culling the Weak",
+   "to": "interaction:grixistax-october-2026/grixistax-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5f",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-03",
+    "cr:704.5f",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "grixistax-03:m6",
+   "from": "card:Diabolic Intent",
+   "to": "interaction:grixistax-october-2026/grixistax-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5f",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-03",
+    "cr:704.5f",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "grixistax-03:p1",
+   "from": "card:Contamination",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5f",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-03",
+    "cr:704.5f",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "grixistax-03:p2",
+   "from": "card:Skullclamp",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5f",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-03",
+    "cr:704.5f",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "grixistax-03:p3",
+   "from": "card:Phyrexian Tower",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5f",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-03",
+    "cr:704.5f",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "grixistax-03:p4",
+   "from": "card:Culling the Weak",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5f",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-03",
+    "cr:704.5f",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "grixistax-03:p5",
+   "from": "card:Diabolic Intent",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5f",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-03",
+    "cr:704.5f",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "grixistax-04:m1",
+   "from": "commander:Tevesh Szat, Doom of Fools",
+   "to": "interaction:grixistax-october-2026/grixistax-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "616.1",
+    "613.1d",
+    "106.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-04",
+    "cr:616.1",
+    "cr:613.1d",
+    "cr:106.12"
+   ]
+  },
+  {
+   "id": "grixistax-04:m2",
+   "from": "card:Contamination",
+   "to": "interaction:grixistax-october-2026/grixistax-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "616.1",
+    "613.1d",
+    "106.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-04",
+    "cr:616.1",
+    "cr:613.1d",
+    "cr:106.12"
+   ]
+  },
+  {
+   "id": "grixistax-04:m3",
+   "from": "card:Damping Sphere",
+   "to": "interaction:grixistax-october-2026/grixistax-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "616.1",
+    "613.1d",
+    "106.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-04",
+    "cr:616.1",
+    "cr:613.1d",
+    "cr:106.12"
+   ]
+  },
+  {
+   "id": "grixistax-04:m4",
+   "from": "card:Blood Moon",
+   "to": "interaction:grixistax-october-2026/grixistax-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "616.1",
+    "613.1d",
+    "106.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-04",
+    "cr:616.1",
+    "cr:613.1d",
+    "cr:106.12"
+   ]
+  },
+  {
+   "id": "grixistax-04:m5",
+   "from": "card:Ancient Tomb",
+   "to": "interaction:grixistax-october-2026/grixistax-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "616.1",
+    "613.1d",
+    "106.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-04",
+    "cr:616.1",
+    "cr:613.1d",
+    "cr:106.12"
+   ]
+  },
+  {
+   "id": "grixistax-04:p1",
+   "from": "card:Contamination",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "616.1",
+    "613.1d",
+    "106.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-04",
+    "cr:616.1",
+    "cr:613.1d",
+    "cr:106.12"
+   ]
+  },
+  {
+   "id": "grixistax-04:p2",
+   "from": "card:Damping Sphere",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "616.1",
+    "613.1d",
+    "106.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-04",
+    "cr:616.1",
+    "cr:613.1d",
+    "cr:106.12"
+   ]
+  },
+  {
+   "id": "grixistax-04:p3",
+   "from": "card:Blood Moon",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "616.1",
+    "613.1d",
+    "106.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-04",
+    "cr:616.1",
+    "cr:613.1d",
+    "cr:106.12"
+   ]
+  },
+  {
+   "id": "grixistax-04:p4",
+   "from": "card:Ancient Tomb",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "616.1",
+    "613.1d",
+    "106.12"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-04",
+    "cr:616.1",
+    "cr:613.1d",
+    "cr:106.12"
+   ]
+  },
+  {
+   "id": "grixistax-05:m1",
+   "from": "commander:Tevesh Szat, Doom of Fools",
+   "to": "interaction:grixistax-october-2026/grixistax-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-05",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "305.7",
+    "613.1d",
+    "205.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-05",
+    "cr:305.7",
+    "cr:613.1d",
+    "cr:205.4a"
+   ]
+  },
+  {
+   "id": "grixistax-05:m2",
+   "from": "card:Blood Moon",
+   "to": "interaction:grixistax-october-2026/grixistax-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-05",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "305.7",
+    "613.1d",
+    "205.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-05",
+    "cr:305.7",
+    "cr:613.1d",
+    "cr:205.4a"
+   ]
+  },
+  {
+   "id": "grixistax-05:m3",
+   "from": "card:Back to Basics",
+   "to": "interaction:grixistax-october-2026/grixistax-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-05",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "305.7",
+    "613.1d",
+    "205.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-05",
+    "cr:305.7",
+    "cr:613.1d",
+    "cr:205.4a"
+   ]
+  },
+  {
+   "id": "grixistax-05:m4",
+   "from": "card:Phyrexian Tower",
+   "to": "interaction:grixistax-october-2026/grixistax-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-05",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "305.7",
+    "613.1d",
+    "205.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-05",
+    "cr:305.7",
+    "cr:613.1d",
+    "cr:205.4a"
+   ]
+  },
+  {
+   "id": "grixistax-05:p1",
+   "from": "card:Blood Moon",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-05",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "305.7",
+    "613.1d",
+    "205.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-05",
+    "cr:305.7",
+    "cr:613.1d",
+    "cr:205.4a"
+   ]
+  },
+  {
+   "id": "grixistax-05:p2",
+   "from": "card:Back to Basics",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-05",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "305.7",
+    "613.1d",
+    "205.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-05",
+    "cr:305.7",
+    "cr:613.1d",
+    "cr:205.4a"
+   ]
+  },
+  {
+   "id": "grixistax-05:p3",
+   "from": "card:Phyrexian Tower",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-05",
+   "topic": "layers",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "305.7",
+    "613.1d",
+    "205.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-05",
+    "cr:305.7",
+    "cr:613.1d",
+    "cr:205.4a"
+   ]
+  },
+  {
+   "id": "grixistax-06:m1",
+   "from": "commander:Tevesh Szat, Doom of Fools",
+   "to": "interaction:grixistax-october-2026/grixistax-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "702.32a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-06",
+    "cr:603.3b",
+    "cr:702.32a"
+   ]
+  },
+  {
+   "id": "grixistax-06:m2",
+   "from": "card:Overburden",
+   "to": "interaction:grixistax-october-2026/grixistax-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "702.32a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-06",
+    "cr:603.3b",
+    "cr:702.32a"
+   ]
+  },
+  {
+   "id": "grixistax-06:m3",
+   "from": "card:Tangle Wire",
+   "to": "interaction:grixistax-october-2026/grixistax-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "702.32a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-06",
+    "cr:603.3b",
+    "cr:702.32a"
+   ]
+  },
+  {
+   "id": "grixistax-06:p1",
+   "from": "card:Overburden",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "702.32a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-06",
+    "cr:603.3b",
+    "cr:702.32a"
+   ]
+  },
+  {
+   "id": "grixistax-06:p2",
+   "from": "card:Tangle Wire",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "702.32a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-06",
+    "cr:603.3b",
+    "cr:702.32a"
+   ]
+  },
+  {
+   "id": "grixistax-07:m1",
+   "from": "commander:Tevesh Szat, Doom of Fools",
+   "to": "interaction:grixistax-october-2026/grixistax-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-07",
+    "cr:601.2f",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "grixistax-07:m2",
+   "from": "card:Trinisphere",
+   "to": "interaction:grixistax-october-2026/grixistax-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-07",
+    "cr:601.2f",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "grixistax-07:m3",
+   "from": "card:Chalice of the Void",
+   "to": "interaction:grixistax-october-2026/grixistax-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-07",
+    "cr:601.2f",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "grixistax-07:m4",
+   "from": "card:Force of Will",
+   "to": "interaction:grixistax-october-2026/grixistax-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-07",
+    "cr:601.2f",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "grixistax-07:m5",
+   "from": "card:Fierce Guardianship",
+   "to": "interaction:grixistax-october-2026/grixistax-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-07",
+    "cr:601.2f",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "grixistax-07:m6",
+   "from": "card:Lion's Eye Diamond",
+   "to": "interaction:grixistax-october-2026/grixistax-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-07",
+    "cr:601.2f",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "grixistax-07:p1",
+   "from": "card:Trinisphere",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-07",
+    "cr:601.2f",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "grixistax-07:p2",
+   "from": "card:Chalice of the Void",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-07",
+    "cr:601.2f",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "grixistax-07:p3",
+   "from": "card:Force of Will",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-07",
+    "cr:601.2f",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "grixistax-07:p4",
+   "from": "card:Fierce Guardianship",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-07",
+    "cr:601.2f",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "grixistax-07:p5",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-07",
+    "cr:601.2f",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "grixistax-08:m1",
+   "from": "commander:Tevesh Szat, Doom of Fools",
+   "to": "interaction:grixistax-october-2026/grixistax-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.5",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-08",
+    "cr:602.5",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "grixistax-08:m2",
+   "from": "card:Karn, the Great Creator",
+   "to": "interaction:grixistax-october-2026/grixistax-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.5",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-08",
+    "cr:602.5",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "grixistax-08:m3",
+   "from": "card:Wishclaw Talisman",
+   "to": "interaction:grixistax-october-2026/grixistax-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.5",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-08",
+    "cr:602.5",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "grixistax-08:p1",
+   "from": "card:Karn, the Great Creator",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.5",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-08",
+    "cr:602.5",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "grixistax-08:p2",
+   "from": "card:Wishclaw Talisman",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.5",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-08",
+    "cr:602.5",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "grixistax-09:m1",
+   "from": "commander:Tevesh Szat, Doom of Fools",
+   "to": "combo:grixistax-october-2026/grixistax-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.6",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-09",
+    "cr:614.6",
+    "cr:701.17a",
+    "spellbook:2163-5065",
+    "spellbook:2581-5065"
+   ]
+  },
+  {
+   "id": "grixistax-09:m2",
+   "from": "card:Helm of Obedience",
+   "to": "combo:grixistax-october-2026/grixistax-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.6",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-09",
+    "cr:614.6",
+    "cr:701.17a",
+    "spellbook:2163-5065",
+    "spellbook:2581-5065"
+   ]
+  },
+  {
+   "id": "grixistax-09:m3",
+   "from": "card:Leyline of the Void",
+   "to": "combo:grixistax-october-2026/grixistax-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.6",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-09",
+    "cr:614.6",
+    "cr:701.17a",
+    "spellbook:2163-5065",
+    "spellbook:2581-5065"
+   ]
+  },
+  {
+   "id": "grixistax-09:m4",
+   "from": "card:Dauthi Voidwalker",
+   "to": "combo:grixistax-october-2026/grixistax-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.6",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-09",
+    "cr:614.6",
+    "cr:701.17a",
+    "spellbook:2163-5065",
+    "spellbook:2581-5065"
+   ]
+  },
+  {
+   "id": "grixistax-09:p1",
+   "from": "card:Helm of Obedience",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.6",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-09",
+    "cr:614.6",
+    "cr:701.17a",
+    "spellbook:2163-5065",
+    "spellbook:2581-5065"
+   ]
+  },
+  {
+   "id": "grixistax-09:p2",
+   "from": "card:Leyline of the Void",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.6",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-09",
+    "cr:614.6",
+    "cr:701.17a",
+    "spellbook:2163-5065",
+    "spellbook:2581-5065"
+   ]
+  },
+  {
+   "id": "grixistax-09:p3",
+   "from": "card:Dauthi Voidwalker",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.6",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-09",
+    "cr:614.6",
+    "cr:701.17a",
+    "spellbook:2163-5065",
+    "spellbook:2581-5065"
+   ]
+  },
+  {
+   "id": "grixistax-10:m1",
+   "from": "commander:Tevesh Szat, Doom of Fools",
+   "to": "interaction:grixistax-october-2026/grixistax-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-10",
+    "cr:702.138a",
+    "cr:601.2f",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "grixistax-10:m2",
+   "from": "card:Underworld Breach",
+   "to": "interaction:grixistax-october-2026/grixistax-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-10",
+    "cr:702.138a",
+    "cr:601.2f",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "grixistax-10:m3",
+   "from": "card:Lion's Eye Diamond",
+   "to": "interaction:grixistax-october-2026/grixistax-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-10",
+    "cr:702.138a",
+    "cr:601.2f",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "grixistax-10:m4",
+   "from": "card:Brain Freeze",
+   "to": "interaction:grixistax-october-2026/grixistax-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-10",
+    "cr:702.138a",
+    "cr:601.2f",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "grixistax-10:m5",
+   "from": "card:Necropotence",
+   "to": "interaction:grixistax-october-2026/grixistax-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-10",
+    "cr:702.138a",
+    "cr:601.2f",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "grixistax-10:m6",
+   "from": "card:Trinisphere",
+   "to": "interaction:grixistax-october-2026/grixistax-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-10",
+    "cr:702.138a",
+    "cr:601.2f",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "grixistax-10:m7",
+   "from": "card:Damping Sphere",
+   "to": "interaction:grixistax-october-2026/grixistax-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-10",
+    "cr:702.138a",
+    "cr:601.2f",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "grixistax-10:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-10",
+    "cr:702.138a",
+    "cr:601.2f",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "grixistax-10:p2",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-10",
+    "cr:702.138a",
+    "cr:601.2f",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "grixistax-10:p3",
+   "from": "card:Brain Freeze",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-10",
+    "cr:702.138a",
+    "cr:601.2f",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "grixistax-10:p4",
+   "from": "card:Necropotence",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-10",
+    "cr:702.138a",
+    "cr:601.2f",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "grixistax-10:p5",
+   "from": "card:Trinisphere",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-10",
+    "cr:702.138a",
+    "cr:601.2f",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "grixistax-10:p6",
+   "from": "card:Damping Sphere",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-10",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-10",
+    "cr:702.138a",
+    "cr:601.2f",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "grixistax-11:m1",
+   "from": "commander:Tevesh Szat, Doom of Fools",
+   "to": "interaction:grixistax-october-2026/grixistax-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.3",
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-11",
+    "cr:903.3",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "grixistax-11:m2",
+   "from": "card:Tainted Pact",
+   "to": "interaction:grixistax-october-2026/grixistax-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "grixistax-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.3",
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-11",
+    "cr:903.3",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "grixistax-11:p1",
+   "from": "card:Tainted Pact",
+   "to": "commander:Tevesh Szat, Doom of Fools",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "grixistax-11",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.3",
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/grixistax-october-2026.json#grixistax-11",
+    "cr:903.3",
+    "cr:800.4a"
+   ]
+  }
+ ]
+}

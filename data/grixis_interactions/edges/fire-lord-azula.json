@@ -1,0 +1,1761 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Fire_Lord_Azula",
+ "slug": "fire-lord-azula",
+ "deck_sha256": "e52f1cbbf1b17f3e3cef0ef9d466e93bdf5e85bc4d32ac5f2856b4bd2b36fda4",
+ "review": "data/grixis_interactions/fire-lord-azula.json",
+ "review_sha256": "860529adfe9d1f89720ca221be4ecb4e69590786976209b235b929281eb55e55",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 12,
+  "nodes": 35,
+  "membership_edges": 37,
+  "pair_edges": 25
+ },
+ "nodes": [
+  {
+   "id": "commander:Fire Lord Azula",
+   "kind": "commander",
+   "name": "Fire Lord Azula",
+   "in_list": true
+  },
+  {
+   "id": "interaction:fire-lord-azula/azula-01",
+   "kind": "interaction",
+   "interaction": "azula-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Beseech the Mirror",
+   "kind": "card",
+   "name": "Beseech the Mirror",
+   "in_list": true
+  },
+  {
+   "id": "card:Borne Upon a Wind",
+   "kind": "card",
+   "name": "Borne Upon a Wind",
+   "in_list": true
+  },
+  {
+   "id": "card:Valley Floodcaller",
+   "kind": "card",
+   "name": "Valley Floodcaller",
+   "in_list": true
+  },
+  {
+   "id": "card:Quicken",
+   "kind": "card",
+   "name": "Quicken",
+   "in_list": true
+  },
+  {
+   "id": "card:Emergence Zone",
+   "kind": "card",
+   "name": "Emergence Zone",
+   "in_list": true
+  },
+  {
+   "id": "interaction:fire-lord-azula/azula-02",
+   "kind": "interaction",
+   "interaction": "azula-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Big Score",
+   "kind": "card",
+   "name": "Big Score",
+   "in_list": true
+  },
+  {
+   "id": "card:Demand Answers",
+   "kind": "card",
+   "name": "Demand Answers",
+   "in_list": true
+  },
+  {
+   "id": "card:Redirect Lightning",
+   "kind": "card",
+   "name": "Redirect Lightning",
+   "in_list": true
+  },
+  {
+   "id": "interaction:fire-lord-azula/azula-03",
+   "kind": "interaction",
+   "interaction": "azula-03",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:fire-lord-azula/azula-04",
+   "kind": "interaction",
+   "interaction": "azula-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Narset's Reversal",
+   "kind": "card",
+   "name": "Narset's Reversal",
+   "in_list": true
+  },
+  {
+   "id": "card:Frantic Search",
+   "kind": "card",
+   "name": "Frantic Search",
+   "in_list": true
+  },
+  {
+   "id": "combo:fire-lord-azula/azula-05",
+   "kind": "combo",
+   "interaction": "azula-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "11-2196-7089",
+    "11-2196-7089",
+    "11-2196-7089"
+   ]
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "combo:fire-lord-azula/azula-06",
+   "kind": "combo",
+   "interaction": "azula-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1368-2196-7089",
+    "1368-2196-7089"
+   ]
+  },
+  {
+   "id": "card:Lion's Eye Diamond",
+   "kind": "card",
+   "name": "Lion's Eye Diamond",
+   "in_list": true
+  },
+  {
+   "id": "card:Brain Freeze",
+   "kind": "card",
+   "name": "Brain Freeze",
+   "in_list": true
+  },
+  {
+   "id": "card:Grinding Station",
+   "kind": "card",
+   "name": "Grinding Station",
+   "in_list": true
+  },
+  {
+   "id": "card:Wheel of Fortune",
+   "kind": "card",
+   "name": "Wheel of Fortune",
+   "in_list": true
+  },
+  {
+   "id": "card:Jeska's Will",
+   "kind": "card",
+   "name": "Jeska's Will",
+   "in_list": true
+  },
+  {
+   "id": "combo:fire-lord-azula/azula-07",
+   "kind": "combo",
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1368-3518-4856",
+    "1368-3698--44",
+    "1368-1878-2706"
+   ]
+  },
+  {
+   "id": "card:Thassa's Oracle",
+   "kind": "card",
+   "name": "Thassa's Oracle",
+   "in_list": true
+  },
+  {
+   "id": "card:Demonic Consultation",
+   "kind": "card",
+   "name": "Demonic Consultation",
+   "in_list": true
+  },
+  {
+   "id": "card:Tainted Pact",
+   "kind": "card",
+   "name": "Tainted Pact",
+   "in_list": true
+  },
+  {
+   "id": "combo:fire-lord-azula/azula-08",
+   "kind": "combo",
+   "interaction": "azula-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "742-1295",
+    "1295-3093"
+   ]
+  },
+  {
+   "id": "card:Arena of Glory",
+   "kind": "card",
+   "name": "Arena of Glory",
+   "in_list": true
+  },
+  {
+   "id": "interaction:fire-lord-azula/azula-09",
+   "kind": "interaction",
+   "interaction": "azula-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:fire-lord-azula/azula-10",
+   "kind": "interaction",
+   "interaction": "azula-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Mox Opal",
+   "kind": "card",
+   "name": "Mox Opal",
+   "in_list": true
+  },
+  {
+   "id": "interaction:fire-lord-azula/azula-11",
+   "kind": "interaction",
+   "interaction": "azula-11",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric"
+  },
+  {
+   "id": "card:Samut, Tyrant of Naktamun",
+   "kind": "card",
+   "name": "Samut, Tyrant of Naktamun",
+   "in_list": true
+  },
+  {
+   "id": "interaction:fire-lord-azula/azula-12",
+   "kind": "interaction",
+   "interaction": "azula-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "azula-01:m1",
+   "from": "commander:Fire Lord Azula",
+   "to": "interaction:fire-lord-azula/azula-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-01",
+    "cr:707.10",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "azula-02:m1",
+   "from": "commander:Fire Lord Azula",
+   "to": "interaction:fire-lord-azula/azula-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "506.1",
+    "307.1",
+    "508.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-02",
+    "cr:506.1",
+    "cr:307.1",
+    "cr:508.1"
+   ]
+  },
+  {
+   "id": "azula-02:m2",
+   "from": "card:Beseech the Mirror",
+   "to": "interaction:fire-lord-azula/azula-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "506.1",
+    "307.1",
+    "508.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-02",
+    "cr:506.1",
+    "cr:307.1",
+    "cr:508.1"
+   ]
+  },
+  {
+   "id": "azula-02:m3",
+   "from": "card:Borne Upon a Wind",
+   "to": "interaction:fire-lord-azula/azula-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "506.1",
+    "307.1",
+    "508.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-02",
+    "cr:506.1",
+    "cr:307.1",
+    "cr:508.1"
+   ]
+  },
+  {
+   "id": "azula-02:m4",
+   "from": "card:Valley Floodcaller",
+   "to": "interaction:fire-lord-azula/azula-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "506.1",
+    "307.1",
+    "508.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-02",
+    "cr:506.1",
+    "cr:307.1",
+    "cr:508.1"
+   ]
+  },
+  {
+   "id": "azula-02:m5",
+   "from": "card:Quicken",
+   "to": "interaction:fire-lord-azula/azula-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "506.1",
+    "307.1",
+    "508.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-02",
+    "cr:506.1",
+    "cr:307.1",
+    "cr:508.1"
+   ]
+  },
+  {
+   "id": "azula-02:m6",
+   "from": "card:Emergence Zone",
+   "to": "interaction:fire-lord-azula/azula-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "506.1",
+    "307.1",
+    "508.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-02",
+    "cr:506.1",
+    "cr:307.1",
+    "cr:508.1"
+   ]
+  },
+  {
+   "id": "azula-02:p1",
+   "from": "card:Beseech the Mirror",
+   "to": "commander:Fire Lord Azula",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "506.1",
+    "307.1",
+    "508.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-02",
+    "cr:506.1",
+    "cr:307.1",
+    "cr:508.1"
+   ]
+  },
+  {
+   "id": "azula-02:p2",
+   "from": "card:Borne Upon a Wind",
+   "to": "commander:Fire Lord Azula",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "506.1",
+    "307.1",
+    "508.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-02",
+    "cr:506.1",
+    "cr:307.1",
+    "cr:508.1"
+   ]
+  },
+  {
+   "id": "azula-02:p3",
+   "from": "card:Valley Floodcaller",
+   "to": "commander:Fire Lord Azula",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "506.1",
+    "307.1",
+    "508.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-02",
+    "cr:506.1",
+    "cr:307.1",
+    "cr:508.1"
+   ]
+  },
+  {
+   "id": "azula-02:p4",
+   "from": "card:Quicken",
+   "to": "commander:Fire Lord Azula",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "506.1",
+    "307.1",
+    "508.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-02",
+    "cr:506.1",
+    "cr:307.1",
+    "cr:508.1"
+   ]
+  },
+  {
+   "id": "azula-02:p5",
+   "from": "card:Emergence Zone",
+   "to": "commander:Fire Lord Azula",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "506.1",
+    "307.1",
+    "508.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-02",
+    "cr:506.1",
+    "cr:307.1",
+    "cr:508.1"
+   ]
+  },
+  {
+   "id": "azula-03:m1",
+   "from": "commander:Fire Lord Azula",
+   "to": "interaction:fire-lord-azula/azula-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-03",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-03",
+    "cr:707.10",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "azula-03:m2",
+   "from": "card:Big Score",
+   "to": "interaction:fire-lord-azula/azula-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-03",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-03",
+    "cr:707.10",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "azula-03:m3",
+   "from": "card:Demand Answers",
+   "to": "interaction:fire-lord-azula/azula-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-03",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-03",
+    "cr:707.10",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "azula-03:m4",
+   "from": "card:Redirect Lightning",
+   "to": "interaction:fire-lord-azula/azula-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-03",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-03",
+    "cr:707.10",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "azula-03:p1",
+   "from": "card:Big Score",
+   "to": "commander:Fire Lord Azula",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-03",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-03",
+    "cr:707.10",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "azula-03:p2",
+   "from": "card:Demand Answers",
+   "to": "commander:Fire Lord Azula",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-03",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-03",
+    "cr:707.10",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "azula-03:p3",
+   "from": "card:Redirect Lightning",
+   "to": "commander:Fire Lord Azula",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-03",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-03",
+    "cr:707.10",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "azula-04:m1",
+   "from": "commander:Fire Lord Azula",
+   "to": "interaction:fire-lord-azula/azula-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.166a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-04",
+    "cr:702.166a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "azula-04:m2",
+   "from": "card:Beseech the Mirror",
+   "to": "interaction:fire-lord-azula/azula-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.166a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-04",
+    "cr:702.166a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "azula-04:p1",
+   "from": "card:Beseech the Mirror",
+   "to": "commander:Fire Lord Azula",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.166a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-04",
+    "cr:702.166a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "azula-05:m1",
+   "from": "commander:Fire Lord Azula",
+   "to": "combo:fire-lord-azula/azula-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-05",
+    "cr:707.10",
+    "cr:702.40a",
+    "spellbook:11-2196-7089",
+    "spellbook:11-2196-7089",
+    "spellbook:11-2196-7089"
+   ]
+  },
+  {
+   "id": "azula-05:m2",
+   "from": "card:Narset's Reversal",
+   "to": "combo:fire-lord-azula/azula-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-05",
+    "cr:707.10",
+    "cr:702.40a",
+    "spellbook:11-2196-7089",
+    "spellbook:11-2196-7089",
+    "spellbook:11-2196-7089"
+   ]
+  },
+  {
+   "id": "azula-05:m3",
+   "from": "card:Frantic Search",
+   "to": "combo:fire-lord-azula/azula-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-05",
+    "cr:707.10",
+    "cr:702.40a",
+    "spellbook:11-2196-7089",
+    "spellbook:11-2196-7089",
+    "spellbook:11-2196-7089"
+   ]
+  },
+  {
+   "id": "azula-05:p1",
+   "from": "card:Narset's Reversal",
+   "to": "commander:Fire Lord Azula",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-05",
+    "cr:707.10",
+    "cr:702.40a",
+    "spellbook:11-2196-7089",
+    "spellbook:11-2196-7089",
+    "spellbook:11-2196-7089"
+   ]
+  },
+  {
+   "id": "azula-05:p2",
+   "from": "card:Frantic Search",
+   "to": "commander:Fire Lord Azula",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-05",
+    "cr:707.10",
+    "cr:702.40a",
+    "spellbook:11-2196-7089",
+    "spellbook:11-2196-7089",
+    "spellbook:11-2196-7089"
+   ]
+  },
+  {
+   "id": "azula-06:m1",
+   "from": "commander:Fire Lord Azula",
+   "to": "combo:fire-lord-azula/azula-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-06",
+    "cr:702.138a",
+    "spellbook:1368-2196-7089",
+    "spellbook:1368-2196-7089"
+   ]
+  },
+  {
+   "id": "azula-06:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:fire-lord-azula/azula-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-06",
+    "cr:702.138a",
+    "spellbook:1368-2196-7089",
+    "spellbook:1368-2196-7089"
+   ]
+  },
+  {
+   "id": "azula-06:m3",
+   "from": "card:Frantic Search",
+   "to": "combo:fire-lord-azula/azula-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-06",
+    "cr:702.138a",
+    "spellbook:1368-2196-7089",
+    "spellbook:1368-2196-7089"
+   ]
+  },
+  {
+   "id": "azula-06:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Fire Lord Azula",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-06",
+    "cr:702.138a",
+    "spellbook:1368-2196-7089",
+    "spellbook:1368-2196-7089"
+   ]
+  },
+  {
+   "id": "azula-06:p2",
+   "from": "card:Frantic Search",
+   "to": "commander:Fire Lord Azula",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-06",
+    "cr:702.138a",
+    "spellbook:1368-2196-7089",
+    "spellbook:1368-2196-7089"
+   ]
+  },
+  {
+   "id": "azula-07:m1",
+   "from": "commander:Fire Lord Azula",
+   "to": "combo:fire-lord-azula/azula-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-07",
+    "cr:702.138a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "azula-07:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:fire-lord-azula/azula-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-07",
+    "cr:702.138a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "azula-07:m3",
+   "from": "card:Lion's Eye Diamond",
+   "to": "combo:fire-lord-azula/azula-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-07",
+    "cr:702.138a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "azula-07:m4",
+   "from": "card:Brain Freeze",
+   "to": "combo:fire-lord-azula/azula-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-07",
+    "cr:702.138a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "azula-07:m5",
+   "from": "card:Grinding Station",
+   "to": "combo:fire-lord-azula/azula-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-07",
+    "cr:702.138a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "azula-07:m6",
+   "from": "card:Wheel of Fortune",
+   "to": "combo:fire-lord-azula/azula-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-07",
+    "cr:702.138a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "azula-07:m7",
+   "from": "card:Jeska's Will",
+   "to": "combo:fire-lord-azula/azula-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-07",
+    "cr:702.138a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "azula-07:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Fire Lord Azula",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-07",
+    "cr:702.138a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "azula-07:p2",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Fire Lord Azula",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-07",
+    "cr:702.138a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "azula-07:p3",
+   "from": "card:Brain Freeze",
+   "to": "commander:Fire Lord Azula",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-07",
+    "cr:702.138a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "azula-07:p4",
+   "from": "card:Grinding Station",
+   "to": "commander:Fire Lord Azula",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-07",
+    "cr:702.138a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "azula-07:p5",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Fire Lord Azula",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-07",
+    "cr:702.138a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "azula-07:p6",
+   "from": "card:Jeska's Will",
+   "to": "commander:Fire Lord Azula",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-07",
+    "cr:702.138a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "azula-08:m1",
+   "from": "commander:Fire Lord Azula",
+   "to": "combo:fire-lord-azula/azula-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-08",
+    "cr:121.4",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "azula-08:m2",
+   "from": "card:Thassa's Oracle",
+   "to": "combo:fire-lord-azula/azula-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-08",
+    "cr:121.4",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "azula-08:m3",
+   "from": "card:Demonic Consultation",
+   "to": "combo:fire-lord-azula/azula-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-08",
+    "cr:121.4",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "azula-08:m4",
+   "from": "card:Tainted Pact",
+   "to": "combo:fire-lord-azula/azula-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-08",
+    "cr:121.4",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "azula-08:p1",
+   "from": "card:Thassa's Oracle",
+   "to": "commander:Fire Lord Azula",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-08",
+    "cr:121.4",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "azula-08:p2",
+   "from": "card:Demonic Consultation",
+   "to": "commander:Fire Lord Azula",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-08",
+    "cr:121.4",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "azula-08:p3",
+   "from": "card:Tainted Pact",
+   "to": "commander:Fire Lord Azula",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-08",
+    "cr:121.4",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "azula-09:m1",
+   "from": "commander:Fire Lord Azula",
+   "to": "interaction:fire-lord-azula/azula-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10b",
+    "701.43a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-09",
+    "cr:702.10b",
+    "cr:701.43a"
+   ]
+  },
+  {
+   "id": "azula-09:m2",
+   "from": "card:Arena of Glory",
+   "to": "interaction:fire-lord-azula/azula-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10b",
+    "701.43a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-09",
+    "cr:702.10b",
+    "cr:701.43a"
+   ]
+  },
+  {
+   "id": "azula-09:p1",
+   "from": "card:Arena of Glory",
+   "to": "commander:Fire Lord Azula",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10b",
+    "701.43a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-09",
+    "cr:702.10b",
+    "cr:701.43a"
+   ]
+  },
+  {
+   "id": "azula-10:m1",
+   "from": "commander:Fire Lord Azula",
+   "to": "interaction:fire-lord-azula/azula-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10f",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-10",
+    "cr:707.10f",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "azula-11:m1",
+   "from": "commander:Fire Lord Azula",
+   "to": "interaction:fire-lord-azula/azula-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-11",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-11",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "azula-11:m2",
+   "from": "card:Mox Opal",
+   "to": "interaction:fire-lord-azula/azula-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-11",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-11",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "azula-11:p1",
+   "from": "card:Mox Opal",
+   "to": "commander:Fire Lord Azula",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-11",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-11",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "azula-12:m1",
+   "from": "commander:Fire Lord Azula",
+   "to": "interaction:fire-lord-azula/azula-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.61a",
+    "702.61b",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-12",
+    "cr:702.61a",
+    "cr:702.61b",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "azula-12:m2",
+   "from": "card:Samut, Tyrant of Naktamun",
+   "to": "interaction:fire-lord-azula/azula-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "azula-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.61a",
+    "702.61b",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-12",
+    "cr:702.61a",
+    "cr:702.61b",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "azula-12:p1",
+   "from": "card:Samut, Tyrant of Naktamun",
+   "to": "commander:Fire Lord Azula",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "azula-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.61a",
+    "702.61b",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/fire-lord-azula.json#azula-12",
+    "cr:702.61a",
+    "cr:702.61b",
+    "cr:707.10"
+   ]
+  }
+ ]
+}

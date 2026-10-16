@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 58 (M1: interaction edges for M4; source attestation coverage)](#2026-10-16--bot-cycle-58-m1-interaction-edges-for-m4-source-attestation-coverage)
 - [2026-10-16 — Bot cycle 57.3 (M3: paired champion-vs-challenger tests)](#2026-10-16--bot-cycle-573-m3-paired-champion-vs-challenger-tests)
 - [2026-10-16 — Bot cycle 57.2 (M3: goldfish simulator core)](#2026-10-16--bot-cycle-572-m3-goldfish-simulator-core)
 - [2026-10-16 — Bot cycle 57.1 (M3: evidence layer)](#2026-10-16--bot-cycle-571-m3-evidence-layer)
@@ -74,6 +75,23 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 58 (M1: interaction edges for M4; source attestation coverage)
+- **Edges:** every M1 review now emits machine-readable edges, in `data/grixis_interactions/edges/<slug>.json` (62/62, 4,086 edges). Schema: `data/grixis/schemas/interaction_edges.schema.json`. Rule `edges-v1`:
+  - each ruling is a hub node (`combo:` / `interaction:`);
+  - each card it names gets a membership edge to the hub (`piece_of` / `member_of`, the same kinds as `graph.schema.json`);
+  - each other card gets a pair edge to the ruling's anchor, which is the commander when the ruling names one (`combo_with` / `interacts_with` / `conflicts_with`, `derived_metric`);
+  - optional authored edges (graph kinds) replace a ruling's pair edges.
+  Every edge carries the ruling id, status, flag kind, CR cites and evidence refs, and the file records the deck and review hashes. `--check` regenerates the files and fails on drift, schema errors, a ruling without a hub or a review without pair edges. 9 new unit tests are in `tests/test_interaction_edges.py`.
+- **Source attestations:** all 518 items in the archived `*_Rules_Attestation.json` files are now accounted for, and `--check` enforces it: 515 folded in, 3 dispositioned, 0 missing. Three were folded in:
+  - new azula-12: Samut's split second doesn't stop Azula's trigger or copy (CR 702.61b, 707.10);
+  - gwendlyn-05 extended: Tinybones's enters discard feeds the payoffs;
+  - new inalla-10: a Kefka token copy gives two enters triggers before the legend rule (CR 704.5j).
+  Three were dispositioned with reasons in `data/grixis_interactions/_attestation_dispositions.json`: Final Fortune exclusion (not in Azula's list), and Lynde's and Mai and Zuko's color identity (checked by the `decks` step). Overall: 594 rulings.
+- **Evidence:** rebuilt only the M3 evidence snapshots made stale by this cycle's review and deck-page changes (derived files only).
+- **M1:** criteria 1–5 are met (status in [Authority Model](grixis/Grixis%20Authority%20Model.md#m1)). M1 acceptance is not recorded; that is Cory's.
+- **Not touched:** `data/grixis/registry*`, blueprints, existing schemas, `grixis_refine.py`, exception data and simulator code. No decklist changed.
+- **Files:** `scripts/grixis_interactions.py`, `data/grixis/schemas/interaction_edges.schema.json` (new), `data/grixis_interactions/edges/` (new), `_attestation_dispositions.json` (new), 3 reviews, rendered pages, `tests/test_interaction_edges.py`, `grixis/interactions/README.md`, `grixis/Grixis Authority Model.md`, `README.md`, `data/grixis/evidence/` (stale snapshots), `data/kb_index.json`.
 
 ## 2026-10-16 — Bot cycle 57.3 (M3: paired champion-vs-challenger tests)
 - **`scripts/grixis_paired.py`:** aligned libraries; both lists get the same shuffles and mulligan reshuffles on identical seeds.

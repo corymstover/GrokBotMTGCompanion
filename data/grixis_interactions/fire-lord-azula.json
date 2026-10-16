@@ -440,6 +440,52 @@
      "item": "Mox Opal metalcraft structural support"
     }
    ]
+  },
+  {
+   "id": "azula-12",
+   "category": "timing",
+   "title": "Samut's split second doesn't stop Azula's copy",
+   "cards": [
+    "Fire Lord Azula",
+    "Samut, Tyrant of Naktamun"
+   ],
+   "ruling": "With Samut out, your instants and sorceries have split second. If you cast one while Azula is attacking, Azula's ability still triggers and goes on the stack: split second doesn't stop triggered abilities. The copy is put on the stack by the ability, not cast, so split second doesn't prevent it either. The copy is an instant or sorcery spell you control, so it has split second from Samut too. The flip side: while either is on the stack, nobody, you included, can cast spells or activate abilities other than mana abilities.",
+   "short": "Split second (Samut) doesn't stop Azula's trigger or copy, but locks you out too.",
+   "status": "verified",
+   "key": false,
+   "cr": [
+    "702.61a",
+    "702.61b",
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Samut, Tyrant of Naktamun",
+     "quote": "Instant and sorcery spells you control have split second."
+    },
+    {
+     "card": "Fire Lord Azula",
+     "quote": "Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Samut, Tyrant of Naktamun",
+     "quote": "Split second doesn't stop triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal."
+    },
+    {
+     "card": "Fire Lord Azula",
+     "quote": "The copy is created on the stack, so it's not \"cast.\""
+    }
+   ],
+   "evidence_class": "fact",
+   "added_cycle": 58,
+   "source": [
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Samut split second with Azula trigger"
+    }
+   ]
   }
  ]
 }

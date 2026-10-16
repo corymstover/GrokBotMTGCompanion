@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/inalla-archmage-ritualist.txt`](../../exports/grixis-archidekt/inalla-archmage-ritualist.txt) · SHA-256 `45924e0eabb7a253004d5cdf69c32f7ab82d1e0e7406938a033a8f8b39026598` |
-| Rulings | **9** (8 verified · 1 uncertain · 0 flags) |
+| Rulings | **10** (9 verified · 1 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Inalla_Archmage_Ritualist_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json) (15 interactions, all PASS (the Kefka and Samut items refer to cards not in the current list)) |
 
@@ -25,6 +25,7 @@ schema: 2
 - [Combos and engine lines](#combos-and-engine-lines)
 - [Engines and payoffs](#engines-and-payoffs)
 - [Timing and priority](#timing-and-priority)
+- [Trigger ordering](#trigger-ordering)
 - [Rules cited](#rules-cited)
 
 ## Summary
@@ -183,9 +184,30 @@ Input for later refinement. **No decklist was changed in this phase.**
 - Source (re-verified): [`Inalla_Archmage_Ritualist_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json) → “Samut red-team exclusion”
 - Source (re-verified): [`Inalla_Archmage_Ritualist_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json) → “Beseech the Mirror bargain casting”
 
+## Trigger ordering
+
+### inalla-10: Kefka token copy: both enters triggers happen, then the legend rule
+
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Inalla, Archmage Ritualist, Kefka, Court Mage
+
+**Ruling.** Kefka is a nontoken legendary Wizard, so when it enters, Inalla's eminence triggers along with Kefka's own enters ability. If you pay {1}, the token copy enters and its copy of Kefka's enters ability triggers too. The legend rule then makes you keep only one Kefka. The token's trigger was already waiting, so it goes on the stack after the legend rule is applied. Triggers already on the stack, like the original's, stay there (they exist independently of their source). So you get two Kefka triggers: each makes every player discard a card, then you draw for each card type discarded. The token is a double-faced copy of Kefka. The deck doesn't need both Kefkas to stay.
+
+**Citations**
+
+- Oracle, *Kefka, Court Mage*: “Whenever Kefka enters or attacks, each player discards a card. Then you draw a card for each card type among cards discarded this way.”
+- Oracle, *Inalla, Archmage Ritualist*: “Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard.”
+- Scryfall ruling, *Inalla, Archmage Ritualist*: “If a copied creature is legendary, any triggered abilities it has will trigger if appropriate before the "legend rule" causes one of those legendary creatures to be put into its owner's graveyard. Those abilities will be put on the stack after the "legend rule" is applied.”
+- Scryfall ruling, *Kefka, Court Mage*: “A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token.”
+- [CR 704.5j](#cr-7045j), [CR 113.7a](#cr-1137a), [CR 603.3](#cr-6033)
+- Source (re-verified): [`Inalla_Archmage_Ritualist_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json) → “Kefka legendary-copy handling”
+
 ## Rules cited
 
 Verbatim from the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25 (long rules shortened with …).
+
+#### CR 113.7a
+
+Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability. Note that some abilities cause a source to do something (for example, “This creature deals 1 damage to any target”) rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source for use while announcing an activated ability or putting a triggered ability on the stack checks that information when the ability is put onto the stack. Otherwise, it …
 
 #### CR 121.4
 
@@ -227,6 +249,10 @@ The player determines the total cost of the spell. Usually this is just the mana
 
 To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. Only an object’s controller (or its owner, if it doesn’t have a controller) can activate its activated ability unless the object specifically says otherwise. Activating an ability follows the steps listed below, in order. If, at any point during the activation of an ability, a player is unable to comply with any of those steps, the activation is illegal; the game returns to the moment before that ability started to be activated (see rule 733, “Handling Illegal …
 
+#### CR 603.3
+
+Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 117, “Timing and Priority.” The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it’s countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+
 #### CR 603.3b
 
 If multiple abilities have triggered since the last time a player received priority, the abilities are placed on the stack in a two-part process. First, each player, in APNAP order, puts each triggered ability they control with a trigger condition that isn’t another ability triggering on the stack in any order they choose. (See rule 101.4.) Second, each player, in APNAP order, puts all remaining triggered abilities they control on the stack in any order they choose. Then the game once again checks for and performs state-based actions until none are performed, then abilities that triggered …
@@ -246,6 +272,10 @@ Escape represents a static ability that functions while the card with escape is 
 #### CR 702.175a
 
 Offspring represents two abilities. “Offspring [cost]” means “You may pay an additional [cost] as you cast this spell” and “When this permanent enters, if its offspring cost was paid, create a token that’s a copy of it, except it’s 1/1.”
+
+#### CR 704.5j
+
+If two or more legendary permanents with the same name are controlled by the same player, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
 
 #### CR 707.2
 

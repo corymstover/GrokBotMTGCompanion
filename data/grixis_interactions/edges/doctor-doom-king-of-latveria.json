@@ -1,0 +1,1547 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "slug": "doctor-doom-king-of-latveria",
+ "deck_sha256": "3505f9a465a8ed61f9689d7a38c67b47d68b487001565b9ccc08de82a62f1574",
+ "review": "data/grixis_interactions/doctor-doom-king-of-latveria.json",
+ "review_sha256": "e8c9625edb89a82097b79a9e418fd5c854163453ae0ca046902349dc7c0ae45c",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 11,
+  "nodes": 29,
+  "membership_edges": 33,
+  "pair_edges": 22
+ },
+ "nodes": [
+  {
+   "id": "commander:Doctor Doom, King of Latveria",
+   "kind": "commander",
+   "name": "Doctor Doom, King of Latveria",
+   "in_list": true
+  },
+  {
+   "id": "card:Wheel of Fortune",
+   "kind": "card",
+   "name": "Wheel of Fortune",
+   "in_list": true
+  },
+  {
+   "id": "card:Windfall",
+   "kind": "card",
+   "name": "Windfall",
+   "in_list": true
+  },
+  {
+   "id": "card:Cool but Rude",
+   "kind": "card",
+   "name": "Cool but Rude",
+   "in_list": true
+  },
+  {
+   "id": "interaction:doctor-doom-king-of-latveria/doom-01",
+   "kind": "interaction",
+   "interaction": "doom-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:doctor-doom-king-of-latveria/doom-02",
+   "kind": "interaction",
+   "interaction": "doom-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Chameleon, Master of Disguise",
+   "kind": "card",
+   "name": "Chameleon, Master of Disguise",
+   "in_list": true
+  },
+  {
+   "id": "card:Spark Double",
+   "kind": "card",
+   "name": "Spark Double",
+   "in_list": true
+  },
+  {
+   "id": "interaction:doctor-doom-king-of-latveria/doom-03",
+   "kind": "interaction",
+   "interaction": "doom-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Roaming Throne",
+   "kind": "card",
+   "name": "Roaming Throne",
+   "in_list": true
+  },
+  {
+   "id": "interaction:doctor-doom-king-of-latveria/doom-04",
+   "kind": "interaction",
+   "interaction": "doom-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Glorious Purpose",
+   "kind": "card",
+   "name": "Glorious Purpose",
+   "in_list": true
+  },
+  {
+   "id": "card:Ultron, Unlimited",
+   "kind": "card",
+   "name": "Ultron, Unlimited",
+   "in_list": true
+  },
+  {
+   "id": "card:Villainous Hideout",
+   "kind": "card",
+   "name": "Villainous Hideout",
+   "in_list": true
+  },
+  {
+   "id": "interaction:doctor-doom-king-of-latveria/doom-05",
+   "kind": "interaction",
+   "interaction": "doom-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Psychic Frog",
+   "kind": "card",
+   "name": "Psychic Frog",
+   "in_list": true
+  },
+  {
+   "id": "interaction:doctor-doom-king-of-latveria/doom-06",
+   "kind": "interaction",
+   "interaction": "doom-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Dakmor Salvage",
+   "kind": "card",
+   "name": "Dakmor Salvage",
+   "in_list": true
+  },
+  {
+   "id": "interaction:doctor-doom-king-of-latveria/doom-07",
+   "kind": "interaction",
+   "interaction": "doom-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Tectonic Reformation",
+   "kind": "card",
+   "name": "Tectonic Reformation",
+   "in_list": true
+  },
+  {
+   "id": "card:Surly Badgersaur",
+   "kind": "card",
+   "name": "Surly Badgersaur",
+   "in_list": true
+  },
+  {
+   "id": "combo:doctor-doom-king-of-latveria/doom-08",
+   "kind": "combo",
+   "interaction": "doom-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "779-2546-4467",
+    "779-2546-4467"
+   ]
+  },
+  {
+   "id": "card:Trade Routes",
+   "kind": "card",
+   "name": "Trade Routes",
+   "in_list": true
+  },
+  {
+   "id": "card:Bone Miser",
+   "kind": "card",
+   "name": "Bone Miser",
+   "in_list": true
+  },
+  {
+   "id": "combo:doctor-doom-king-of-latveria/doom-09",
+   "kind": "combo",
+   "interaction": "doom-09",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis"
+  },
+  {
+   "id": "card:Crucible of Worlds",
+   "kind": "card",
+   "name": "Crucible of Worlds",
+   "in_list": true
+  },
+  {
+   "id": "interaction:doctor-doom-king-of-latveria/doom-10",
+   "kind": "interaction",
+   "interaction": "doom-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Archfiend of Ifnir",
+   "kind": "card",
+   "name": "Archfiend of Ifnir",
+   "in_list": true
+  },
+  {
+   "id": "interaction:doctor-doom-king-of-latveria/doom-11",
+   "kind": "interaction",
+   "interaction": "doom-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "doom-01:m1",
+   "from": "commander:Doctor Doom, King of Latveria",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-01",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "doom-01:m2",
+   "from": "card:Wheel of Fortune",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-01",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "doom-01:m3",
+   "from": "card:Windfall",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-01",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "doom-01:m4",
+   "from": "card:Cool but Rude",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-01",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "doom-01:p1",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-01",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "doom-01:p2",
+   "from": "card:Windfall",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-01",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "doom-01:p3",
+   "from": "card:Cool but Rude",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-01",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "doom-02:m1",
+   "from": "commander:Doctor Doom, King of Latveria",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2b",
+    "701.50a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-02",
+    "cr:608.2b",
+    "cr:701.50a"
+   ]
+  },
+  {
+   "id": "doom-03:m1",
+   "from": "commander:Doctor Doom, King of Latveria",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.9b",
+    "704.5j",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-03",
+    "cr:707.9b",
+    "cr:704.5j",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "doom-03:m2",
+   "from": "card:Chameleon, Master of Disguise",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.9b",
+    "704.5j",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-03",
+    "cr:707.9b",
+    "cr:704.5j",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "doom-03:m3",
+   "from": "card:Spark Double",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.9b",
+    "704.5j",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-03",
+    "cr:707.9b",
+    "cr:704.5j",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "doom-03:p1",
+   "from": "card:Chameleon, Master of Disguise",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.9b",
+    "704.5j",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-03",
+    "cr:707.9b",
+    "cr:704.5j",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "doom-03:p2",
+   "from": "card:Spark Double",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.9b",
+    "704.5j",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-03",
+    "cr:707.9b",
+    "cr:704.5j",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "doom-04:m1",
+   "from": "commander:Doctor Doom, King of Latveria",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-04",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "doom-04:m2",
+   "from": "card:Roaming Throne",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-04",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "doom-04:p1",
+   "from": "card:Roaming Throne",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-04",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "doom-05:m1",
+   "from": "commander:Doctor Doom, King of Latveria",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.50a",
+    "601.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-05",
+    "cr:701.50a",
+    "cr:601.2b"
+   ]
+  },
+  {
+   "id": "doom-05:m2",
+   "from": "card:Glorious Purpose",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.50a",
+    "601.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-05",
+    "cr:701.50a",
+    "cr:601.2b"
+   ]
+  },
+  {
+   "id": "doom-05:m3",
+   "from": "card:Ultron, Unlimited",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.50a",
+    "601.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-05",
+    "cr:701.50a",
+    "cr:601.2b"
+   ]
+  },
+  {
+   "id": "doom-05:m4",
+   "from": "card:Villainous Hideout",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.50a",
+    "601.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-05",
+    "cr:701.50a",
+    "cr:601.2b"
+   ]
+  },
+  {
+   "id": "doom-05:p1",
+   "from": "card:Glorious Purpose",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.50a",
+    "601.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-05",
+    "cr:701.50a",
+    "cr:601.2b"
+   ]
+  },
+  {
+   "id": "doom-05:p2",
+   "from": "card:Ultron, Unlimited",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.50a",
+    "601.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-05",
+    "cr:701.50a",
+    "cr:601.2b"
+   ]
+  },
+  {
+   "id": "doom-05:p3",
+   "from": "card:Villainous Hideout",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.50a",
+    "601.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-05",
+    "cr:701.50a",
+    "cr:601.2b"
+   ]
+  },
+  {
+   "id": "doom-06:m1",
+   "from": "commander:Doctor Doom, King of Latveria",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-06",
+    "cr:602.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "doom-06:m2",
+   "from": "card:Psychic Frog",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-06",
+    "cr:602.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "doom-06:p1",
+   "from": "card:Psychic Frog",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-06",
+    "cr:602.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "doom-07:m1",
+   "from": "commander:Doctor Doom, King of Latveria",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.52a",
+    "702.52b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-07",
+    "cr:702.52a",
+    "cr:702.52b"
+   ]
+  },
+  {
+   "id": "doom-07:m2",
+   "from": "card:Dakmor Salvage",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.52a",
+    "702.52b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-07",
+    "cr:702.52a",
+    "cr:702.52b"
+   ]
+  },
+  {
+   "id": "doom-07:p1",
+   "from": "card:Dakmor Salvage",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.52a",
+    "702.52b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-07",
+    "cr:702.52a",
+    "cr:702.52b"
+   ]
+  },
+  {
+   "id": "doom-08:m1",
+   "from": "commander:Doctor Doom, King of Latveria",
+   "to": "combo:doctor-doom-king-of-latveria/doom-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.29a",
+    "702.52a",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-08",
+    "cr:702.29a",
+    "cr:702.52a",
+    "cr:603.3",
+    "spellbook:779-2546-4467",
+    "spellbook:779-2546-4467"
+   ]
+  },
+  {
+   "id": "doom-08:m2",
+   "from": "card:Tectonic Reformation",
+   "to": "combo:doctor-doom-king-of-latveria/doom-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.29a",
+    "702.52a",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-08",
+    "cr:702.29a",
+    "cr:702.52a",
+    "cr:603.3",
+    "spellbook:779-2546-4467",
+    "spellbook:779-2546-4467"
+   ]
+  },
+  {
+   "id": "doom-08:m3",
+   "from": "card:Surly Badgersaur",
+   "to": "combo:doctor-doom-king-of-latveria/doom-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.29a",
+    "702.52a",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-08",
+    "cr:702.29a",
+    "cr:702.52a",
+    "cr:603.3",
+    "spellbook:779-2546-4467",
+    "spellbook:779-2546-4467"
+   ]
+  },
+  {
+   "id": "doom-08:m4",
+   "from": "card:Dakmor Salvage",
+   "to": "combo:doctor-doom-king-of-latveria/doom-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.29a",
+    "702.52a",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-08",
+    "cr:702.29a",
+    "cr:702.52a",
+    "cr:603.3",
+    "spellbook:779-2546-4467",
+    "spellbook:779-2546-4467"
+   ]
+  },
+  {
+   "id": "doom-08:p1",
+   "from": "card:Tectonic Reformation",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.29a",
+    "702.52a",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-08",
+    "cr:702.29a",
+    "cr:702.52a",
+    "cr:603.3",
+    "spellbook:779-2546-4467",
+    "spellbook:779-2546-4467"
+   ]
+  },
+  {
+   "id": "doom-08:p2",
+   "from": "card:Surly Badgersaur",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.29a",
+    "702.52a",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-08",
+    "cr:702.29a",
+    "cr:702.52a",
+    "cr:603.3",
+    "spellbook:779-2546-4467",
+    "spellbook:779-2546-4467"
+   ]
+  },
+  {
+   "id": "doom-08:p3",
+   "from": "card:Dakmor Salvage",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.29a",
+    "702.52a",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-08",
+    "cr:702.29a",
+    "cr:702.52a",
+    "cr:603.3",
+    "spellbook:779-2546-4467",
+    "spellbook:779-2546-4467"
+   ]
+  },
+  {
+   "id": "doom-09:m1",
+   "from": "commander:Doctor Doom, King of Latveria",
+   "to": "combo:doctor-doom-king-of-latveria/doom-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-09",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "602.2",
+    "605.1a",
+    "702.52a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-09",
+    "cr:602.2",
+    "cr:605.1a",
+    "cr:702.52a"
+   ]
+  },
+  {
+   "id": "doom-09:m2",
+   "from": "card:Trade Routes",
+   "to": "combo:doctor-doom-king-of-latveria/doom-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-09",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "602.2",
+    "605.1a",
+    "702.52a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-09",
+    "cr:602.2",
+    "cr:605.1a",
+    "cr:702.52a"
+   ]
+  },
+  {
+   "id": "doom-09:m3",
+   "from": "card:Bone Miser",
+   "to": "combo:doctor-doom-king-of-latveria/doom-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-09",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "602.2",
+    "605.1a",
+    "702.52a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-09",
+    "cr:602.2",
+    "cr:605.1a",
+    "cr:702.52a"
+   ]
+  },
+  {
+   "id": "doom-09:m4",
+   "from": "card:Surly Badgersaur",
+   "to": "combo:doctor-doom-king-of-latveria/doom-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-09",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "602.2",
+    "605.1a",
+    "702.52a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-09",
+    "cr:602.2",
+    "cr:605.1a",
+    "cr:702.52a"
+   ]
+  },
+  {
+   "id": "doom-09:m5",
+   "from": "card:Dakmor Salvage",
+   "to": "combo:doctor-doom-king-of-latveria/doom-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-09",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "602.2",
+    "605.1a",
+    "702.52a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-09",
+    "cr:602.2",
+    "cr:605.1a",
+    "cr:702.52a"
+   ]
+  },
+  {
+   "id": "doom-09:p1",
+   "from": "card:Trade Routes",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-09",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.2",
+    "605.1a",
+    "702.52a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-09",
+    "cr:602.2",
+    "cr:605.1a",
+    "cr:702.52a"
+   ]
+  },
+  {
+   "id": "doom-09:p2",
+   "from": "card:Bone Miser",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-09",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.2",
+    "605.1a",
+    "702.52a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-09",
+    "cr:602.2",
+    "cr:605.1a",
+    "cr:702.52a"
+   ]
+  },
+  {
+   "id": "doom-09:p3",
+   "from": "card:Surly Badgersaur",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-09",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.2",
+    "605.1a",
+    "702.52a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-09",
+    "cr:602.2",
+    "cr:605.1a",
+    "cr:702.52a"
+   ]
+  },
+  {
+   "id": "doom-09:p4",
+   "from": "card:Dakmor Salvage",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-09",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.2",
+    "605.1a",
+    "702.52a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-09",
+    "cr:602.2",
+    "cr:605.1a",
+    "cr:702.52a"
+   ]
+  },
+  {
+   "id": "doom-10:m1",
+   "from": "commander:Doctor Doom, King of Latveria",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "305.2",
+    "702.29a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-10",
+    "cr:305.2",
+    "cr:702.29a"
+   ]
+  },
+  {
+   "id": "doom-10:m2",
+   "from": "card:Crucible of Worlds",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "305.2",
+    "702.29a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-10",
+    "cr:305.2",
+    "cr:702.29a"
+   ]
+  },
+  {
+   "id": "doom-10:m3",
+   "from": "card:Dakmor Salvage",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "305.2",
+    "702.29a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-10",
+    "cr:305.2",
+    "cr:702.29a"
+   ]
+  },
+  {
+   "id": "doom-10:p1",
+   "from": "card:Crucible of Worlds",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "305.2",
+    "702.29a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-10",
+    "cr:305.2",
+    "cr:702.29a"
+   ]
+  },
+  {
+   "id": "doom-10:p2",
+   "from": "card:Dakmor Salvage",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-10",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "305.2",
+    "702.29a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-10",
+    "cr:305.2",
+    "cr:702.29a"
+   ]
+  },
+  {
+   "id": "doom-11:m1",
+   "from": "commander:Doctor Doom, King of Latveria",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "702.29a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-11",
+    "cr:603.2c",
+    "cr:702.29a"
+   ]
+  },
+  {
+   "id": "doom-11:m2",
+   "from": "card:Archfiend of Ifnir",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "702.29a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-11",
+    "cr:603.2c",
+    "cr:702.29a"
+   ]
+  },
+  {
+   "id": "doom-11:m3",
+   "from": "card:Tectonic Reformation",
+   "to": "interaction:doctor-doom-king-of-latveria/doom-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "doom-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "702.29a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-11",
+    "cr:603.2c",
+    "cr:702.29a"
+   ]
+  },
+  {
+   "id": "doom-11:p1",
+   "from": "card:Archfiend of Ifnir",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "702.29a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-11",
+    "cr:603.2c",
+    "cr:702.29a"
+   ]
+  },
+  {
+   "id": "doom-11:p2",
+   "from": "card:Tectonic Reformation",
+   "to": "commander:Doctor Doom, King of Latveria",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "doom-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "702.29a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/doctor-doom-king-of-latveria.json#doom-11",
+    "cr:603.2c",
+    "cr:702.29a"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1397 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Goro_Goro_and_Satoru",
+ "slug": "goro-goro-and-satoru",
+ "deck_sha256": "bdc129bcd94c00b293ddaabb4585ac3130fb4eca7ca8646177335900e7aedfec",
+ "review": "data/grixis_interactions/goro-goro-and-satoru.json",
+ "review_sha256": "519f470bc6dfb241cfa3d708435c30b4afd4af331e87c57f121890009dd2a3b3",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 9,
+  "nodes": 27,
+  "membership_edges": 29,
+  "pair_edges": 20
+ },
+ "nodes": [
+  {
+   "id": "commander:Goro-Goro and Satoru",
+   "kind": "commander",
+   "name": "Goro-Goro and Satoru",
+   "in_list": true
+  },
+  {
+   "id": "interaction:goro-goro-and-satoru/goro-01",
+   "kind": "interaction",
+   "interaction": "goro-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Samut, Hazoret's Champion",
+   "kind": "card",
+   "name": "Samut, Hazoret's Champion",
+   "in_list": true
+  },
+  {
+   "id": "card:Dragon Tempest",
+   "kind": "card",
+   "name": "Dragon Tempest",
+   "in_list": true
+  },
+  {
+   "id": "interaction:goro-goro-and-satoru/goro-02",
+   "kind": "interaction",
+   "interaction": "goro-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Ninja of the Deep Hours",
+   "kind": "card",
+   "name": "Ninja of the Deep Hours",
+   "in_list": true
+  },
+  {
+   "id": "card:Thousand-Faced Shadow",
+   "kind": "card",
+   "name": "Thousand-Faced Shadow",
+   "in_list": true
+  },
+  {
+   "id": "card:Fire Navy Trebuchet",
+   "kind": "card",
+   "name": "Fire Navy Trebuchet",
+   "in_list": true
+  },
+  {
+   "id": "card:Phoenix Chick",
+   "kind": "card",
+   "name": "Phoenix Chick",
+   "in_list": true
+  },
+  {
+   "id": "interaction:goro-goro-and-satoru/goro-03",
+   "kind": "interaction",
+   "interaction": "goro-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Raphael, the Nightwatcher",
+   "kind": "card",
+   "name": "Raphael, the Nightwatcher",
+   "in_list": true
+  },
+  {
+   "id": "interaction:goro-goro-and-satoru/goro-04",
+   "kind": "interaction",
+   "interaction": "goro-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Breath of Fury",
+   "kind": "card",
+   "name": "Breath of Fury",
+   "in_list": true
+  },
+  {
+   "id": "combo:goro-goro-and-satoru/goro-05",
+   "kind": "combo",
+   "interaction": "goro-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "2237-3259",
+    "2237-3259",
+    "2237-3259"
+   ]
+  },
+  {
+   "id": "card:Urabrask's Forge",
+   "kind": "card",
+   "name": "Urabrask's Forge",
+   "in_list": true
+  },
+  {
+   "id": "card:Daring Piracy",
+   "kind": "card",
+   "name": "Daring Piracy",
+   "in_list": true
+  },
+  {
+   "id": "card:Loyal Apprentice",
+   "kind": "card",
+   "name": "Loyal Apprentice",
+   "in_list": true
+  },
+  {
+   "id": "card:Determined Iteration",
+   "kind": "card",
+   "name": "Determined Iteration",
+   "in_list": true
+  },
+  {
+   "id": "combo:goro-goro-and-satoru/goro-06",
+   "kind": "combo",
+   "interaction": "goro-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1347-3259",
+    "1347-3259",
+    "3259-3934"
+   ]
+  },
+  {
+   "id": "card:Karlach, Fury of Avernus",
+   "kind": "card",
+   "name": "Karlach, Fury of Avernus",
+   "in_list": true
+  },
+  {
+   "id": "card:Great Train Heist",
+   "kind": "card",
+   "name": "Great Train Heist",
+   "in_list": true
+  },
+  {
+   "id": "card:Aggravated Assault",
+   "kind": "card",
+   "name": "Aggravated Assault",
+   "in_list": true
+  },
+  {
+   "id": "interaction:goro-goro-and-satoru/goro-07",
+   "kind": "interaction",
+   "interaction": "goro-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Terror of the Peaks",
+   "kind": "card",
+   "name": "Terror of the Peaks",
+   "in_list": true
+  },
+  {
+   "id": "interaction:goro-goro-and-satoru/goro-08",
+   "kind": "interaction",
+   "interaction": "goro-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Waterbender Ascension",
+   "kind": "card",
+   "name": "Waterbender Ascension",
+   "in_list": true
+  },
+  {
+   "id": "interaction:goro-goro-and-satoru/goro-09",
+   "kind": "interaction",
+   "interaction": "goro-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "goro-01:m1",
+   "from": "commander:Goro-Goro and Satoru",
+   "to": "interaction:goro-goro-and-satoru/goro-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "510.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-01",
+    "cr:603.2c",
+    "cr:510.4"
+   ]
+  },
+  {
+   "id": "goro-02:m1",
+   "from": "commander:Goro-Goro and Satoru",
+   "to": "interaction:goro-goro-and-satoru/goro-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "611.2c",
+    "604.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-02",
+    "cr:611.2c",
+    "cr:604.2"
+   ]
+  },
+  {
+   "id": "goro-02:m2",
+   "from": "card:Samut, Hazoret's Champion",
+   "to": "interaction:goro-goro-and-satoru/goro-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "611.2c",
+    "604.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-02",
+    "cr:611.2c",
+    "cr:604.2"
+   ]
+  },
+  {
+   "id": "goro-02:m3",
+   "from": "card:Dragon Tempest",
+   "to": "interaction:goro-goro-and-satoru/goro-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "611.2c",
+    "604.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-02",
+    "cr:611.2c",
+    "cr:604.2"
+   ]
+  },
+  {
+   "id": "goro-02:p1",
+   "from": "card:Samut, Hazoret's Champion",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "611.2c",
+    "604.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-02",
+    "cr:611.2c",
+    "cr:604.2"
+   ]
+  },
+  {
+   "id": "goro-02:p2",
+   "from": "card:Dragon Tempest",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "611.2c",
+    "604.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-02",
+    "cr:611.2c",
+    "cr:604.2"
+   ]
+  },
+  {
+   "id": "goro-03:m1",
+   "from": "commander:Goro-Goro and Satoru",
+   "to": "interaction:goro-goro-and-satoru/goro-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.49a",
+    "702.49c",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-03",
+    "cr:702.49a",
+    "cr:702.49c",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "goro-03:m2",
+   "from": "card:Ninja of the Deep Hours",
+   "to": "interaction:goro-goro-and-satoru/goro-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.49a",
+    "702.49c",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-03",
+    "cr:702.49a",
+    "cr:702.49c",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "goro-03:m3",
+   "from": "card:Thousand-Faced Shadow",
+   "to": "interaction:goro-goro-and-satoru/goro-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.49a",
+    "702.49c",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-03",
+    "cr:702.49a",
+    "cr:702.49c",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "goro-03:m4",
+   "from": "card:Fire Navy Trebuchet",
+   "to": "interaction:goro-goro-and-satoru/goro-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.49a",
+    "702.49c",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-03",
+    "cr:702.49a",
+    "cr:702.49c",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "goro-03:m5",
+   "from": "card:Phoenix Chick",
+   "to": "interaction:goro-goro-and-satoru/goro-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.49a",
+    "702.49c",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-03",
+    "cr:702.49a",
+    "cr:702.49c",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "goro-03:p1",
+   "from": "card:Ninja of the Deep Hours",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.49a",
+    "702.49c",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-03",
+    "cr:702.49a",
+    "cr:702.49c",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "goro-03:p2",
+   "from": "card:Thousand-Faced Shadow",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.49a",
+    "702.49c",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-03",
+    "cr:702.49a",
+    "cr:702.49c",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "goro-03:p3",
+   "from": "card:Fire Navy Trebuchet",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.49a",
+    "702.49c",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-03",
+    "cr:702.49a",
+    "cr:702.49c",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "goro-03:p4",
+   "from": "card:Phoenix Chick",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.49a",
+    "702.49c",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-03",
+    "cr:702.49a",
+    "cr:702.49c",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "goro-04:m1",
+   "from": "commander:Goro-Goro and Satoru",
+   "to": "interaction:goro-goro-and-satoru/goro-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.190a",
+    "702.4b",
+    "510.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-04",
+    "cr:702.190a",
+    "cr:702.4b",
+    "cr:510.4"
+   ]
+  },
+  {
+   "id": "goro-04:m2",
+   "from": "card:Raphael, the Nightwatcher",
+   "to": "interaction:goro-goro-and-satoru/goro-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.190a",
+    "702.4b",
+    "510.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-04",
+    "cr:702.190a",
+    "cr:702.4b",
+    "cr:510.4"
+   ]
+  },
+  {
+   "id": "goro-04:m3",
+   "from": "card:Fire Navy Trebuchet",
+   "to": "interaction:goro-goro-and-satoru/goro-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.190a",
+    "702.4b",
+    "510.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-04",
+    "cr:702.190a",
+    "cr:702.4b",
+    "cr:510.4"
+   ]
+  },
+  {
+   "id": "goro-04:p1",
+   "from": "card:Raphael, the Nightwatcher",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.190a",
+    "702.4b",
+    "510.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-04",
+    "cr:702.190a",
+    "cr:702.4b",
+    "cr:510.4"
+   ]
+  },
+  {
+   "id": "goro-04:p2",
+   "from": "card:Fire Navy Trebuchet",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-04",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.190a",
+    "702.4b",
+    "510.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-04",
+    "cr:702.190a",
+    "cr:702.4b",
+    "cr:510.4"
+   ]
+  },
+  {
+   "id": "goro-05:m1",
+   "from": "commander:Goro-Goro and Satoru",
+   "to": "combo:goro-goro-and-satoru/goro-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-05",
+    "cr:603.3b",
+    "cr:500.8",
+    "spellbook:2237-3259",
+    "spellbook:2237-3259",
+    "spellbook:2237-3259"
+   ]
+  },
+  {
+   "id": "goro-05:m2",
+   "from": "card:Breath of Fury",
+   "to": "combo:goro-goro-and-satoru/goro-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-05",
+    "cr:603.3b",
+    "cr:500.8",
+    "spellbook:2237-3259",
+    "spellbook:2237-3259",
+    "spellbook:2237-3259"
+   ]
+  },
+  {
+   "id": "goro-05:p1",
+   "from": "card:Breath of Fury",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-05",
+    "cr:603.3b",
+    "cr:500.8",
+    "spellbook:2237-3259",
+    "spellbook:2237-3259",
+    "spellbook:2237-3259"
+   ]
+  },
+  {
+   "id": "goro-06:m1",
+   "from": "commander:Goro-Goro and Satoru",
+   "to": "combo:goro-goro-and-satoru/goro-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "701.36a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-06",
+    "cr:500.8",
+    "cr:701.36a",
+    "spellbook:1347-3259",
+    "spellbook:1347-3259",
+    "spellbook:3259-3934"
+   ]
+  },
+  {
+   "id": "goro-06:m2",
+   "from": "card:Breath of Fury",
+   "to": "combo:goro-goro-and-satoru/goro-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "701.36a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-06",
+    "cr:500.8",
+    "cr:701.36a",
+    "spellbook:1347-3259",
+    "spellbook:1347-3259",
+    "spellbook:3259-3934"
+   ]
+  },
+  {
+   "id": "goro-06:m3",
+   "from": "card:Urabrask's Forge",
+   "to": "combo:goro-goro-and-satoru/goro-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "701.36a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-06",
+    "cr:500.8",
+    "cr:701.36a",
+    "spellbook:1347-3259",
+    "spellbook:1347-3259",
+    "spellbook:3259-3934"
+   ]
+  },
+  {
+   "id": "goro-06:m4",
+   "from": "card:Daring Piracy",
+   "to": "combo:goro-goro-and-satoru/goro-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "701.36a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-06",
+    "cr:500.8",
+    "cr:701.36a",
+    "spellbook:1347-3259",
+    "spellbook:1347-3259",
+    "spellbook:3259-3934"
+   ]
+  },
+  {
+   "id": "goro-06:m5",
+   "from": "card:Loyal Apprentice",
+   "to": "combo:goro-goro-and-satoru/goro-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "701.36a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-06",
+    "cr:500.8",
+    "cr:701.36a",
+    "spellbook:1347-3259",
+    "spellbook:1347-3259",
+    "spellbook:3259-3934"
+   ]
+  },
+  {
+   "id": "goro-06:m6",
+   "from": "card:Determined Iteration",
+   "to": "combo:goro-goro-and-satoru/goro-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "701.36a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-06",
+    "cr:500.8",
+    "cr:701.36a",
+    "spellbook:1347-3259",
+    "spellbook:1347-3259",
+    "spellbook:3259-3934"
+   ]
+  },
+  {
+   "id": "goro-06:p1",
+   "from": "card:Breath of Fury",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "701.36a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-06",
+    "cr:500.8",
+    "cr:701.36a",
+    "spellbook:1347-3259",
+    "spellbook:1347-3259",
+    "spellbook:3259-3934"
+   ]
+  },
+  {
+   "id": "goro-06:p2",
+   "from": "card:Urabrask's Forge",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "701.36a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-06",
+    "cr:500.8",
+    "cr:701.36a",
+    "spellbook:1347-3259",
+    "spellbook:1347-3259",
+    "spellbook:3259-3934"
+   ]
+  },
+  {
+   "id": "goro-06:p3",
+   "from": "card:Daring Piracy",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "701.36a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-06",
+    "cr:500.8",
+    "cr:701.36a",
+    "spellbook:1347-3259",
+    "spellbook:1347-3259",
+    "spellbook:3259-3934"
+   ]
+  },
+  {
+   "id": "goro-06:p4",
+   "from": "card:Loyal Apprentice",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "701.36a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-06",
+    "cr:500.8",
+    "cr:701.36a",
+    "spellbook:1347-3259",
+    "spellbook:1347-3259",
+    "spellbook:3259-3934"
+   ]
+  },
+  {
+   "id": "goro-06:p5",
+   "from": "card:Determined Iteration",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "701.36a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-06",
+    "cr:500.8",
+    "cr:701.36a",
+    "spellbook:1347-3259",
+    "spellbook:1347-3259",
+    "spellbook:3259-3934"
+   ]
+  },
+  {
+   "id": "goro-07:m1",
+   "from": "commander:Goro-Goro and Satoru",
+   "to": "interaction:goro-goro-and-satoru/goro-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-07",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "goro-07:m2",
+   "from": "card:Karlach, Fury of Avernus",
+   "to": "interaction:goro-goro-and-satoru/goro-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-07",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "goro-07:m3",
+   "from": "card:Great Train Heist",
+   "to": "interaction:goro-goro-and-satoru/goro-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-07",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "goro-07:m4",
+   "from": "card:Aggravated Assault",
+   "to": "interaction:goro-goro-and-satoru/goro-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-07",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "goro-07:p1",
+   "from": "card:Karlach, Fury of Avernus",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-07",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "goro-07:p2",
+   "from": "card:Great Train Heist",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-07",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "goro-07:p3",
+   "from": "card:Aggravated Assault",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-07",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "goro-08:m1",
+   "from": "commander:Goro-Goro and Satoru",
+   "to": "interaction:goro-goro-and-satoru/goro-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.2",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-08",
+    "cr:120.2",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "goro-08:m2",
+   "from": "card:Terror of the Peaks",
+   "to": "interaction:goro-goro-and-satoru/goro-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.2",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-08",
+    "cr:120.2",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "goro-08:m3",
+   "from": "card:Dragon Tempest",
+   "to": "interaction:goro-goro-and-satoru/goro-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.2",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-08",
+    "cr:120.2",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "goro-08:p1",
+   "from": "card:Terror of the Peaks",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.2",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-08",
+    "cr:120.2",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "goro-08:p2",
+   "from": "card:Dragon Tempest",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.2",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-08",
+    "cr:120.2",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "goro-09:m1",
+   "from": "commander:Goro-Goro and Satoru",
+   "to": "interaction:goro-goro-and-satoru/goro-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-09",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "goro-09:m2",
+   "from": "card:Waterbender Ascension",
+   "to": "interaction:goro-goro-and-satoru/goro-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "goro-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-09",
+    "cr:603.2c"
+   ]
+  },
+  {
+   "id": "goro-09:p1",
+   "from": "card:Waterbender Ascension",
+   "to": "commander:Goro-Goro and Satoru",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "goro-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/goro-goro-and-satoru.json#goro-09",
+    "cr:603.2c"
+   ]
+  }
+ ]
+}

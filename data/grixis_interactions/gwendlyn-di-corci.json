@@ -206,7 +206,7 @@
     "Geth's Grimoire",
     "Mind Twist"
    ],
-   "ruling": "Liliana's Caress (2 life) and Geth's Grimoire (may draw) trigger for each card an opponent discards. Tinybones uses 'one or more cards' and triggers once per player per discard event: it deals 1 to each opponent, and any player's discard counts, yours included. Mind Twist for X is one event of X cards: X Caress triggers, one Tinybones trigger. Each Gwendlyn activation is its own event.",
+   "ruling": "Liliana's Caress (2 life) and Geth's Grimoire (may draw) trigger for each card an opponent discards. Tinybones uses 'one or more cards' and triggers once per player per discard event: it deals 1 to each opponent, and any player's discard counts, yours included. Mind Twist for X is one event of X cards: X Caress triggers, one Tinybones trigger. Each Gwendlyn activation is its own event. Tinybones's enters trigger makes each opponent discard a card. Those discards count for the per-card payoffs, and Tinybones is already on the battlefield, so its own discard trigger sees them too.",
    "short": "Caress/Grimoire per card; Tinybones once per discard event (any player).",
    "status": "verified",
    "key": true,
@@ -222,6 +222,10 @@
     {
      "card": "Liliana's Caress",
      "quote": "Whenever an opponent discards a card, that player loses 2 life."
+    },
+    {
+     "card": "Tinybones, Pocket Nuisance",
+     "quote": "When Tinybones enters, each opponent discards a card."
     }
    ],
    "rulings": [],
@@ -238,8 +242,13 @@
     {
      "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
      "item": "Mind Twist random discard"
+    },
+    {
+     "path": "refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json",
+     "item": "Tinybones ETB"
     }
-   ]
+   ],
+   "amended_cycle": 58
   },
   {
    "id": "gwendlyn-06",

@@ -1,0 +1,2499 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "RogSi",
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "deck_sha256": "74b8f96561a79946547da9f34f1926dc4bab81b65fab224e8edb1b7198cbb57a",
+ "review": "data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json",
+ "review_sha256": "736aba2d918eca8583d73d4247846194584edbb6e39a1ce83e450b866af86b47",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 8,
+  "nodes": 37,
+  "membership_edges": 50,
+  "pair_edges": 42
+ },
+ "nodes": [
+  {
+   "id": "commander:Rograkh, Son of Rohgahh",
+   "kind": "commander",
+   "name": "Rograkh, Son of Rohgahh",
+   "in_list": true
+  },
+  {
+   "id": "commander:Silas Renn, Seeker Adept",
+   "kind": "commander",
+   "name": "Silas Renn, Seeker Adept",
+   "in_list": true
+  },
+  {
+   "id": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-01",
+   "kind": "interaction",
+   "interaction": "rogsi-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Mox Amber",
+   "kind": "card",
+   "name": "Mox Amber",
+   "in_list": true
+  },
+  {
+   "id": "card:Springleaf Drum",
+   "kind": "card",
+   "name": "Springleaf Drum",
+   "in_list": true
+  },
+  {
+   "id": "card:Paradise Mantle",
+   "kind": "card",
+   "name": "Paradise Mantle",
+   "in_list": true
+  },
+  {
+   "id": "card:Culling the Weak",
+   "kind": "card",
+   "name": "Culling the Weak",
+   "in_list": true
+  },
+  {
+   "id": "card:Infernal Plunge",
+   "kind": "card",
+   "name": "Infernal Plunge",
+   "in_list": true
+  },
+  {
+   "id": "card:Diabolic Intent",
+   "kind": "card",
+   "name": "Diabolic Intent",
+   "in_list": true
+  },
+  {
+   "id": "card:Flare of Duplication",
+   "kind": "card",
+   "name": "Flare of Duplication",
+   "in_list": true
+  },
+  {
+   "id": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-02",
+   "kind": "interaction",
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Lion's Eye Diamond",
+   "kind": "card",
+   "name": "Lion's Eye Diamond",
+   "in_list": true
+  },
+  {
+   "id": "card:Grinding Station",
+   "kind": "card",
+   "name": "Grinding Station",
+   "in_list": true
+  },
+  {
+   "id": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-03",
+   "kind": "interaction",
+   "interaction": "rogsi-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Vexing Bauble",
+   "kind": "card",
+   "name": "Vexing Bauble",
+   "in_list": true
+  },
+  {
+   "id": "card:Hexing Squelcher",
+   "kind": "card",
+   "name": "Hexing Squelcher",
+   "in_list": true
+  },
+  {
+   "id": "card:Fierce Guardianship",
+   "kind": "card",
+   "name": "Fierce Guardianship",
+   "in_list": true
+  },
+  {
+   "id": "card:Deflecting Swat",
+   "kind": "card",
+   "name": "Deflecting Swat",
+   "in_list": true
+  },
+  {
+   "id": "card:Lotus Petal",
+   "kind": "card",
+   "name": "Lotus Petal",
+   "in_list": true
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-04",
+   "kind": "interaction",
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Samut, Tyrant of Naktamun",
+   "kind": "card",
+   "name": "Samut, Tyrant of Naktamun",
+   "in_list": true
+  },
+  {
+   "id": "card:Brain Freeze",
+   "kind": "card",
+   "name": "Brain Freeze",
+   "in_list": true
+  },
+  {
+   "id": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-05",
+   "kind": "interaction",
+   "interaction": "rogsi-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thassa's Oracle",
+   "kind": "card",
+   "name": "Thassa's Oracle",
+   "in_list": true
+  },
+  {
+   "id": "card:Demonic Consultation",
+   "kind": "card",
+   "name": "Demonic Consultation",
+   "in_list": true
+  },
+  {
+   "id": "card:Tainted Pact",
+   "kind": "card",
+   "name": "Tainted Pact",
+   "in_list": true
+  },
+  {
+   "id": "card:Wheel of Fortune",
+   "kind": "card",
+   "name": "Wheel of Fortune",
+   "in_list": true
+  },
+  {
+   "id": "card:Jeska's Will",
+   "kind": "card",
+   "name": "Jeska's Will",
+   "in_list": true
+  },
+  {
+   "id": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "combo",
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "742-1295",
+    "1368-3518-4856",
+    "1368-3698--44"
+   ]
+  },
+  {
+   "id": "card:Final Fortune",
+   "kind": "card",
+   "name": "Final Fortune",
+   "in_list": true
+  },
+  {
+   "id": "card:Warrior's Oath",
+   "kind": "card",
+   "name": "Warrior's Oath",
+   "in_list": true
+  },
+  {
+   "id": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-07",
+   "kind": "interaction",
+   "interaction": "rogsi-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Demonic Counsel",
+   "kind": "card",
+   "name": "Demonic Counsel",
+   "in_list": true
+  },
+  {
+   "id": "card:Mnemonic Betrayal",
+   "kind": "card",
+   "name": "Mnemonic Betrayal",
+   "in_list": true
+  },
+  {
+   "id": "card:Undercity Sewers",
+   "kind": "card",
+   "name": "Undercity Sewers",
+   "in_list": true
+  },
+  {
+   "id": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-08",
+   "kind": "interaction",
+   "interaction": "rogsi-08",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "rogsi-01:m1",
+   "from": "commander:Rograkh, Son of Rohgahh",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.124a",
+    "903.8",
+    "204.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-01",
+    "cr:702.124a",
+    "cr:903.8",
+    "cr:204.1"
+   ]
+  },
+  {
+   "id": "rogsi-01:m2",
+   "from": "commander:Silas Renn, Seeker Adept",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.124a",
+    "903.8",
+    "204.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-01",
+    "cr:702.124a",
+    "cr:903.8",
+    "cr:204.1"
+   ]
+  },
+  {
+   "id": "rogsi-01:p1",
+   "from": "commander:Silas Renn, Seeker Adept",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.124a",
+    "903.8",
+    "204.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-01",
+    "cr:702.124a",
+    "cr:903.8",
+    "cr:204.1"
+   ]
+  },
+  {
+   "id": "rogsi-02:m1",
+   "from": "commander:Rograkh, Son of Rohgahh",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:m2",
+   "from": "card:Mox Amber",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:m3",
+   "from": "card:Springleaf Drum",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:m4",
+   "from": "card:Paradise Mantle",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:m5",
+   "from": "card:Culling the Weak",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:m6",
+   "from": "card:Infernal Plunge",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:m7",
+   "from": "card:Diabolic Intent",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:m8",
+   "from": "card:Flare of Duplication",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:p1",
+   "from": "card:Mox Amber",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:p2",
+   "from": "card:Springleaf Drum",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:p3",
+   "from": "card:Paradise Mantle",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:p4",
+   "from": "card:Culling the Weak",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:p5",
+   "from": "card:Infernal Plunge",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:p6",
+   "from": "card:Diabolic Intent",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-02:p7",
+   "from": "card:Flare of Duplication",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "601.2f",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-02",
+    "cr:302.6",
+    "cr:601.2f",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "rogsi-03:m1",
+   "from": "commander:Silas Renn, Seeker Adept",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-03",
+    "cr:601.2",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "rogsi-03:m2",
+   "from": "card:Lion's Eye Diamond",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-03",
+    "cr:601.2",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "rogsi-03:m3",
+   "from": "card:Grinding Station",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-03",
+    "cr:601.2",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "rogsi-03:m4",
+   "from": "card:Mox Amber",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-03",
+    "cr:601.2",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "rogsi-03:p1",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Silas Renn, Seeker Adept",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-03",
+    "cr:601.2",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "rogsi-03:p2",
+   "from": "card:Grinding Station",
+   "to": "commander:Silas Renn, Seeker Adept",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-03",
+    "cr:601.2",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "rogsi-03:p3",
+   "from": "card:Mox Amber",
+   "to": "commander:Silas Renn, Seeker Adept",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-03",
+    "cr:601.2",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "rogsi-04:m1",
+   "from": "commander:Rograkh, Son of Rohgahh",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:m2",
+   "from": "card:Vexing Bauble",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:m3",
+   "from": "card:Hexing Squelcher",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:m4",
+   "from": "card:Fierce Guardianship",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:m5",
+   "from": "card:Deflecting Swat",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:m6",
+   "from": "card:Flare of Duplication",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:m7",
+   "from": "card:Lion's Eye Diamond",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:m8",
+   "from": "card:Lotus Petal",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:m9",
+   "from": "card:Mox Amber",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:m10",
+   "from": "card:Underworld Breach",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:p1",
+   "from": "card:Vexing Bauble",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:p2",
+   "from": "card:Hexing Squelcher",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:p3",
+   "from": "card:Fierce Guardianship",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:p4",
+   "from": "card:Deflecting Swat",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:p5",
+   "from": "card:Flare of Duplication",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:p6",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:p7",
+   "from": "card:Lotus Petal",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:p8",
+   "from": "card:Mox Amber",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-04:p9",
+   "from": "card:Underworld Breach",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-04",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-04",
+    "cr:603.4",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "rogsi-05:m1",
+   "from": "commander:Rograkh, Son of Rohgahh",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.61a",
+    "702.61b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-05",
+    "cr:702.61a",
+    "cr:702.61b"
+   ]
+  },
+  {
+   "id": "rogsi-05:m2",
+   "from": "card:Samut, Tyrant of Naktamun",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.61a",
+    "702.61b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-05",
+    "cr:702.61a",
+    "cr:702.61b"
+   ]
+  },
+  {
+   "id": "rogsi-05:m3",
+   "from": "card:Vexing Bauble",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.61a",
+    "702.61b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-05",
+    "cr:702.61a",
+    "cr:702.61b"
+   ]
+  },
+  {
+   "id": "rogsi-05:m4",
+   "from": "card:Brain Freeze",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.61a",
+    "702.61b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-05",
+    "cr:702.61a",
+    "cr:702.61b"
+   ]
+  },
+  {
+   "id": "rogsi-05:m5",
+   "from": "card:Flare of Duplication",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.61a",
+    "702.61b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-05",
+    "cr:702.61a",
+    "cr:702.61b"
+   ]
+  },
+  {
+   "id": "rogsi-05:m6",
+   "from": "card:Deflecting Swat",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.61a",
+    "702.61b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-05",
+    "cr:702.61a",
+    "cr:702.61b"
+   ]
+  },
+  {
+   "id": "rogsi-05:p1",
+   "from": "card:Samut, Tyrant of Naktamun",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.61a",
+    "702.61b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-05",
+    "cr:702.61a",
+    "cr:702.61b"
+   ]
+  },
+  {
+   "id": "rogsi-05:p2",
+   "from": "card:Vexing Bauble",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.61a",
+    "702.61b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-05",
+    "cr:702.61a",
+    "cr:702.61b"
+   ]
+  },
+  {
+   "id": "rogsi-05:p3",
+   "from": "card:Brain Freeze",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.61a",
+    "702.61b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-05",
+    "cr:702.61a",
+    "cr:702.61b"
+   ]
+  },
+  {
+   "id": "rogsi-05:p4",
+   "from": "card:Flare of Duplication",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.61a",
+    "702.61b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-05",
+    "cr:702.61a",
+    "cr:702.61b"
+   ]
+  },
+  {
+   "id": "rogsi-05:p5",
+   "from": "card:Deflecting Swat",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-05",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.61a",
+    "702.61b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-05",
+    "cr:702.61a",
+    "cr:702.61b"
+   ]
+  },
+  {
+   "id": "rogsi-06:m1",
+   "from": "commander:Rograkh, Son of Rohgahh",
+   "to": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:m2",
+   "from": "commander:Silas Renn, Seeker Adept",
+   "to": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:m3",
+   "from": "card:Thassa's Oracle",
+   "to": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:m4",
+   "from": "card:Demonic Consultation",
+   "to": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:m5",
+   "from": "card:Tainted Pact",
+   "to": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:m6",
+   "from": "card:Underworld Breach",
+   "to": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:m7",
+   "from": "card:Lion's Eye Diamond",
+   "to": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:m8",
+   "from": "card:Brain Freeze",
+   "to": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:m9",
+   "from": "card:Wheel of Fortune",
+   "to": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:m10",
+   "from": "card:Jeska's Will",
+   "to": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:m11",
+   "from": "card:Lotus Petal",
+   "to": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:m12",
+   "from": "card:Grinding Station",
+   "to": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:m13",
+   "from": "card:Mox Amber",
+   "to": "combo:rograkh-son-of-rohgahh-silas-renn/rogsi-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:p1",
+   "from": "commander:Silas Renn, Seeker Adept",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:p2",
+   "from": "card:Thassa's Oracle",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:p3",
+   "from": "card:Demonic Consultation",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:p4",
+   "from": "card:Tainted Pact",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:p5",
+   "from": "card:Underworld Breach",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:p6",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:p7",
+   "from": "card:Brain Freeze",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:p8",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:p9",
+   "from": "card:Jeska's Will",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:p10",
+   "from": "card:Lotus Petal",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:p11",
+   "from": "card:Grinding Station",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-06:p12",
+   "from": "card:Mox Amber",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-06",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "rogsi-07:m1",
+   "from": "commander:Rograkh, Son of Rohgahh",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7",
+    "603.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-07",
+    "cr:500.7",
+    "cr:603.7"
+   ]
+  },
+  {
+   "id": "rogsi-07:m2",
+   "from": "card:Final Fortune",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7",
+    "603.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-07",
+    "cr:500.7",
+    "cr:603.7"
+   ]
+  },
+  {
+   "id": "rogsi-07:m3",
+   "from": "card:Warrior's Oath",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7",
+    "603.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-07",
+    "cr:500.7",
+    "cr:603.7"
+   ]
+  },
+  {
+   "id": "rogsi-07:p1",
+   "from": "card:Final Fortune",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.7",
+    "603.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-07",
+    "cr:500.7",
+    "cr:603.7"
+   ]
+  },
+  {
+   "id": "rogsi-07:p2",
+   "from": "card:Warrior's Oath",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.7",
+    "603.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-07",
+    "cr:500.7",
+    "cr:603.7"
+   ]
+  },
+  {
+   "id": "rogsi-08:m1",
+   "from": "commander:Rograkh, Son of Rohgahh",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-08",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "207.2c",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-08",
+    "cr:207.2c",
+    "cr:305.6"
+   ]
+  },
+  {
+   "id": "rogsi-08:m2",
+   "from": "card:Demonic Counsel",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-08",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "207.2c",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-08",
+    "cr:207.2c",
+    "cr:305.6"
+   ]
+  },
+  {
+   "id": "rogsi-08:m3",
+   "from": "card:Mnemonic Betrayal",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-08",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "207.2c",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-08",
+    "cr:207.2c",
+    "cr:305.6"
+   ]
+  },
+  {
+   "id": "rogsi-08:m4",
+   "from": "card:Undercity Sewers",
+   "to": "interaction:rograkh-son-of-rohgahh-silas-renn/rogsi-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "rogsi-08",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "207.2c",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-08",
+    "cr:207.2c",
+    "cr:305.6"
+   ]
+  },
+  {
+   "id": "rogsi-08:p1",
+   "from": "card:Demonic Counsel",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-08",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "207.2c",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-08",
+    "cr:207.2c",
+    "cr:305.6"
+   ]
+  },
+  {
+   "id": "rogsi-08:p2",
+   "from": "card:Mnemonic Betrayal",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-08",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "207.2c",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-08",
+    "cr:207.2c",
+    "cr:305.6"
+   ]
+  },
+  {
+   "id": "rogsi-08:p3",
+   "from": "card:Undercity Sewers",
+   "to": "commander:Rograkh, Son of Rohgahh",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "rogsi-08",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "207.2c",
+    "305.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/rograkh-son-of-rohgahh-silas-renn.json#rogsi-08",
+    "cr:207.2c",
+    "cr:305.6"
+   ]
+  }
+ ]
+}

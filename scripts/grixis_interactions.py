@@ -4,6 +4,8 @@
 Data:    data/grixis_interactions/<slug>.json   (schema: grixis/interactions/README.md#data-format)
          data/grixis_interactions/_batches.json  (batch plan: A–F, alphabetical, ~12 decks each; status per batch)
 Renders: grixis/interactions/<slug>.md          (full review)
+         data/grixis_interactions/edges/<slug>.json (machine-readable edges for the M4 graph, Bot cycle 58;
+                                                    schema data/grixis/schemas/interaction_edges.schema.json)
          grixis/decks/<slug>.md                  <!-- INTERACTIONS --> "Rules notes" block (key rulings + flags)
          grixis/interactions/README.md           status table between <!-- INTERACTIONS-STATUS --> markers
 
@@ -18,7 +20,10 @@ Every citation is machine-checked (`--check`, a validate_all step):
   * every ruling quote is verbatim in the card's current Scryfall rulings (rulings bulk);
   * every source reference points at an archived file (grixis/source-archive/...) and, for attestation JSON,
     at an interaction name that exists there; for Markdown sources the quoted text must be in the file;
-  * decks in batches marked done all have a review; rendered pages and deck-page blocks are current.
+  * decks in batches marked done all have a review; rendered pages and deck-page blocks are current;
+  * (Bot cycle 58) each review's edge file is current, schema-valid, has a hub per ruling and >= 1 pair edge;
+  * (Bot cycle 58) every archived Rules_Attestation item is cited by a review or dispositioned with a reason
+    in data/grixis_interactions/_attestation_dispositions.json.
 Usage:
   python3 scripts/grixis_interactions.py                 render all reviews, deck-page blocks, README status
   python3 scripts/grixis_interactions.py --check         validate (no writes)
@@ -255,6 +260,155 @@ def validate(slug, d, ctx):
     return bad
 
 
+# ---------------------------------------------------------------- edges (Bot cycle 58, M1 → M4)
+EDGES = DATA / "edges"
+EDGE_SCHEMA = "interaction_edges.schema.json"
+EDGE_RULE = "edges-v1"
+# Relation kinds. Those that are also graph.schema.json edge kinds map 1:1 (graph_kind); the review-layer relations
+# (combo_with, interacts_with, conflicts_with) have graph_kind null and are kept by M4 as annotations / evidence.
+GRAPH_KINDS = {"piece_of", "member_of", "enables", "tutors_for", "protects", "recurs", "fuels", "payoff_of", "fixes", "redundant_with"}
+REVIEW_KINDS = {"combo_with", "interacts_with", "conflicts_with"}
+SYMMETRIC = {"combo_with", "interacts_with", "conflicts_with", "redundant_with"}
+
+
+def _canon(name, listed):
+    """List spelling of a card the review names (a front-face name maps to its full `A // B` list entry)."""
+    if name in listed:
+        return name, True
+    for x in listed:
+        if x.startswith(name + " //"):
+            return x, True
+    return name, False
+
+
+def build_edges(slug, d, review_bytes):
+    """Deterministic edge document for one review (rule edges-v1; see grixis/interactions/README.md#edges).
+
+    * every ruling → one hub node: combo:<slug>/<id> for combo rulings, interaction:<slug>/<id> otherwise;
+    * membership: each card the ruling names → hub (piece_of for combos, member_of otherwise), graph-native kinds;
+    * pair: each other card → the ruling's anchor (the commander if the ruling names one, else its first card):
+      conflicts_with for anti-synergy flags, else combo_with for combos, else interacts_with (symmetric, derived);
+    * a ruling may carry authored `edges` ([{from, to, kind}], card names) that replace its pair edges.
+    """
+    cmd, main, comp, h = deck_list(slug, with_companion=True)
+    listed = list(cmd) + list(main) + list(comp)
+    cmds = set(cmd)
+    nodes, seen, edges = [], set(), []
+    rel = f"data/grixis_interactions/{slug}.json"
+
+    def nid(name):
+        n, ok = _canon(name, listed)
+        i = ("commander:" if n in cmds else "card:") + n
+        if i not in seen:
+            seen.add(i)
+            nodes.append({"id": i, "kind": "commander" if n in cmds else "card", "name": n, "in_list": ok})
+        return i
+
+    def edge(eid, a, b, kind, layer, x, ev):
+        return {"id": eid, "from": a, "to": b, "kind": kind, "graph_kind": kind if kind in GRAPH_KINDS else None,
+                "layer": layer, "symmetric": kind in SYMMETRIC, "interaction": x["id"], "topic": x["category"],
+                "status": x["status"], "flag_kind": (x.get("flag") or {}).get("kind"),
+                "evidence_class": ev, "cr": list(x.get("cr", [])), "evidence": refs(x)}
+
+    def refs(x):
+        r = [f"review:{rel}#{x['id']}"] + [f"cr:{c}" for c in x.get("cr", [])]
+        r += [f"spellbook:{q['id']}" for q in x.get("spellbook", [])]
+        return r
+
+    for x in d["interactions"]:
+        combo = x["category"] == "combo"
+        names = list(dict.fromkeys(x["cards"]))
+        hub = ("combo:" if combo else "interaction:") + f"{slug}/{x['id']}"
+        ids = [nid(n) for n in names]
+        hn = {"id": hub, "kind": "combo" if combo else "interaction", "interaction": x["id"], "topic": x["category"],
+              "status": x["status"], "flag_kind": (x.get("flag") or {}).get("kind"), "evidence_class": x["evidence_class"]}
+        if x.get("spellbook"):
+            hn["spellbook"] = [q["id"] for q in x["spellbook"]]
+        nodes.append(hn)
+        for k, i in enumerate(ids, 1):
+            edges.append(edge(f"{x['id']}:m{k}", i, hub, "piece_of" if combo else "member_of", "membership", x, x["evidence_class"]))
+        if x.get("edges"):
+            for k, e in enumerate(x["edges"], 1):
+                edges.append(edge(f"{x['id']}:a{k}", nid(e["from"]), nid(e["to"]), e["kind"], "authored", x, x["evidence_class"]))
+            continue
+        if len(ids) < 2:
+            continue
+        anchor = next((i for i in ids if i.startswith("commander:")), ids[0])
+        kind = ("conflicts_with" if (x.get("flag") or {}).get("kind") == "anti-synergy"
+                else "combo_with" if combo else "interacts_with")
+        for k, i in enumerate([i for i in ids if i != anchor], 1):
+            edges.append(edge(f"{x['id']}:p{k}", i, anchor, kind, "pair", x, "derived_metric"))
+    return {"schema_version": 1, "generated_by": "scripts/grixis_interactions.py", "rule_version": EDGE_RULE,
+            "deck_id": d["deck_id"], "slug": slug, "deck_sha256": d["deck_sha256"], "review": rel,
+            "review_sha256": hashlib.sha256(review_bytes).hexdigest(), "cr_version": d["cr_version"],
+            "counts": {"interactions": len(d["interactions"]), "nodes": len(nodes),
+                       "membership_edges": sum(1 for e in edges if e["layer"] == "membership"),
+                       "pair_edges": sum(1 for e in edges if e["layer"] != "membership")},
+            "nodes": nodes, "edges": edges}
+
+
+def edges_text(doc):
+    return json.dumps(doc, indent=1, ensure_ascii=False) + "\n"
+
+
+def validate_edges(slug, d, doc):
+    """Schema + semantic checks of one edge document (the stale check separately enforces regeneration)."""
+    import grixis_authority as ga
+    bad = [f"edges: {e}" for e in ga.validate(doc, ga.load_schema(EDGE_SCHEMA), EDGE_SCHEMA)]
+    ids = {n["id"] for n in doc["nodes"]}
+    ints = {x["id"] for x in d["interactions"]}
+    hubbed = {n["interaction"] for n in doc["nodes"] if n["kind"] in ("combo", "interaction")}
+    if hubbed != ints:
+        bad.append(f"edges: rulings without a hub node: {sorted(ints - hubbed)}")
+    for e in doc["edges"]:
+        if e["from"] not in ids or e["to"] not in ids:
+            bad.append(f"edges: {e['id']} points at an unknown node")
+        if e["interaction"] not in ints:
+            bad.append(f"edges: {e['id']} names unknown ruling {e['interaction']}")
+    for x in d["interactions"]:
+        for e in x.get("edges", []):
+            if e.get("kind") not in GRAPH_KINDS | REVIEW_KINDS:
+                bad.append(f"{x['id']}: authored edge kind {e.get('kind')!r} not in {sorted(GRAPH_KINDS | REVIEW_KINDS)}")
+            for n in (e.get("from"), e.get("to")):
+                if n not in x["cards"]:
+                    bad.append(f"{x['id']}: authored edge card {n!r} is not one of the ruling's cards")
+    if not any(e["layer"] != "membership" for e in doc["edges"]):
+        bad.append("edges: no pair edges (every review needs at least one card → card/commander edge)")
+    return bad
+
+
+# ---------------------------------------------------------------- source attestation coverage (M1 criterion)
+DISPOSITIONS = DATA / "_attestation_dispositions.json"
+DISPOSITION_KINDS = {"not_applicable", "covered_elsewhere"}
+
+
+def attestation_coverage(reviews):
+    """Every interaction in every archived *Rules_Attestation*.json must be cited by a review (`source` → item,
+    i.e. folded in) or carry an explicit disposition with a reason in _attestation_dispositions.json."""
+    items = []
+    for f in sorted(ARCH.rglob("*Rules_Attestation*.json")):
+        rp = str(f.relative_to(ARCH))
+        for it in json.loads(f.read_text(encoding="utf-8")).get("interactions", []):
+            items.append((rp, it["name"]))
+    cited = {(s["path"], s["item"]) for r in reviews.values() for x in r["interactions"] for s in x.get("source", []) if s.get("item")}
+    disp = json.loads(DISPOSITIONS.read_text(encoding="utf-8"))["dispositions"] if DISPOSITIONS.exists() else []
+    dk = {(x["path"], x["item"]): x for x in disp}
+    bad = []
+    for x in disp:
+        k = (x["path"], x["item"])
+        if k not in set(items):
+            bad.append(f"attestations: disposition for unknown item {x['path']} → {x['item']}")
+        if k in cited:
+            bad.append(f"attestations: {x['item']} is both cited and dispositioned ({x['path']})")
+        if x.get("disposition") not in DISPOSITION_KINDS or not x.get("reason"):
+            bad.append(f"attestations: {x['item']} needs disposition in {sorted(DISPOSITION_KINDS)} and a reason")
+    missing = [k for k in items if k not in cited and k not in dk]
+    bad += [f"attestations: not folded in or dispositioned: {p} → {n}" for p, n in missing]
+    n_cited = sum(1 for k in set(items) if k in cited)
+    return {"files": len({p for p, _ in items}), "items": len(items), "cited": n_cited,
+            "dispositioned": sum(1 for k in set(items) if k in dk and k not in cited), "missing": len(missing)}, bad
+
+
 # ---------------------------------------------------------------- rendering
 def eid(x):
     """Heading anchor of an interaction entry (matches check_links.anchor)."""
@@ -394,7 +548,7 @@ def main(argv):
     reviews = load_reviews()
     batches = json.loads((DATA / "_batches.json").read_text(encoding="utf-8"))
     slugs = {v["slug"] for v in summary().values()}
-    problems, writes = [], []
+    problems, writes, n_edges = [], [], 0
     planned = [s for b in batches["batches"].values() for s in b["decks"]]
     if sorted(planned) != sorted(slugs):
         problems.append(f"_batches.json must list each of the {len(slugs)} decks exactly once")
@@ -407,6 +561,18 @@ def main(argv):
             continue
         problems += [f"{slug}: {p}" for p in validate(slug, d, ctx)]
         writes.append((OUT / f"{slug}.md", render(slug, d, ctx)))
+        try:
+            doc = build_edges(slug, d, (DATA / f"{slug}.json").read_bytes())
+            problems += [f"{slug}: {p}" for p in validate_edges(slug, d, doc)]
+            writes.append((EDGES / f"{slug}.json", edges_text(doc)))
+            n_edges += len(doc["edges"])
+        except (KeyError, TypeError) as e:
+            problems.append(f"{slug}: edges could not be built ({e!r})")
+    for p in sorted(EDGES.glob("*.json")) if EDGES.exists() else []:
+        if p.stem not in reviews:
+            problems.append(f"edges/{p.name}: no review with that slug")
+    cov, cbad = attestation_coverage(reviews)
+    problems += cbad
     for slug in sorted(slugs):
         p = DECKS / f"{slug}.md"
         t = p.read_text(encoding="utf-8")
@@ -422,9 +588,12 @@ def main(argv):
     else:
         for p, t in writes:
             if not p.exists() or p.read_text(encoding="utf-8") != t:
+                p.parent.mkdir(parents=True, exist_ok=True)
                 p.write_text(t, encoding="utf-8")
     print(f"grixis interactions: {len(reviews)}/{len(slugs)} decks reviewed, {n} rulings; "
-          f"batches done {sum(1 for x in batches['batches'].values() if x['status'] == 'done')}/{len(batches['batches'])}; {len(problems)} problem(s)")
+          f"batches done {sum(1 for x in batches['batches'].values() if x['status'] == 'done')}/{len(batches['batches'])}; "
+          f"{n_edges} edges; attestations {cov['cited']} folded + {cov['dispositioned']} dispositioned / {cov['items']} "
+          f"({cov['files']} files); {len(problems)} problem(s)")
     for p in problems[:40]:
         print("  - " + p)
     return 1 if problems else 0

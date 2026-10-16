@@ -1,0 +1,1635 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Marchesa__Dealer_of_Death",
+ "slug": "marchesa-dealer-of-death",
+ "deck_sha256": "0f07ba66bdbfb883b3513098988621df7b83092eb5cc08cf01669416b961d4cb",
+ "review": "data/grixis_interactions/marchesa-dealer-of-death.json",
+ "review_sha256": "adc43c684589e8e54fb747924b32d2b16d59c34aecddb5261386b7a768125254",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 8,
+  "nodes": 32,
+  "membership_edges": 32,
+  "pair_edges": 24
+ },
+ "nodes": [
+  {
+   "id": "commander:Marchesa, Dealer of Death",
+   "kind": "commander",
+   "name": "Marchesa, Dealer of Death",
+   "in_list": true
+  },
+  {
+   "id": "interaction:marchesa-dealer-of-death/marchdod-01",
+   "kind": "interaction",
+   "interaction": "marchdod-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Spatial Binding",
+   "kind": "card",
+   "name": "Spatial Binding",
+   "in_list": true
+  },
+  {
+   "id": "card:Hex Parasite",
+   "kind": "card",
+   "name": "Hex Parasite",
+   "in_list": true
+  },
+  {
+   "id": "card:Spellskite",
+   "kind": "card",
+   "name": "Spellskite",
+   "in_list": true
+  },
+  {
+   "id": "interaction:marchesa-dealer-of-death/marchdod-02",
+   "kind": "interaction",
+   "interaction": "marchdod-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Urborg",
+   "kind": "card",
+   "name": "Urborg",
+   "in_list": true
+  },
+  {
+   "id": "card:Hammerheim",
+   "kind": "card",
+   "name": "Hammerheim",
+   "in_list": true
+  },
+  {
+   "id": "card:Talon Gates of Madara",
+   "kind": "card",
+   "name": "Talon Gates of Madara",
+   "in_list": true
+  },
+  {
+   "id": "card:Forbidden Orchard",
+   "kind": "card",
+   "name": "Forbidden Orchard",
+   "in_list": true
+  },
+  {
+   "id": "card:Lapis Lazuli Talisman",
+   "kind": "card",
+   "name": "Lapis Lazuli Talisman",
+   "in_list": true
+  },
+  {
+   "id": "card:Orcish Bowmasters",
+   "kind": "card",
+   "name": "Orcish Bowmasters",
+   "in_list": true
+  },
+  {
+   "id": "interaction:marchesa-dealer-of-death/marchdod-03",
+   "kind": "interaction",
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Aphetto Alchemist",
+   "kind": "card",
+   "name": "Aphetto Alchemist",
+   "in_list": true
+  },
+  {
+   "id": "card:Hawkeye's Bow",
+   "kind": "card",
+   "name": "Hawkeye's Bow",
+   "in_list": true
+  },
+  {
+   "id": "card:Tezzeret, Cruel Captain",
+   "kind": "card",
+   "name": "Tezzeret, Cruel Captain",
+   "in_list": true
+  },
+  {
+   "id": "combo:marchesa-dealer-of-death/marchdod-04",
+   "kind": "combo",
+   "interaction": "marchdod-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "4091-7786"
+   ]
+  },
+  {
+   "id": "card:Tainted Pact",
+   "kind": "card",
+   "name": "Tainted Pact",
+   "in_list": true
+  },
+  {
+   "id": "card:Thassa's Oracle",
+   "kind": "card",
+   "name": "Thassa's Oracle",
+   "in_list": true
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "card:Lion's Eye Diamond",
+   "kind": "card",
+   "name": "Lion's Eye Diamond",
+   "in_list": true
+  },
+  {
+   "id": "card:Lotus Petal",
+   "kind": "card",
+   "name": "Lotus Petal",
+   "in_list": true
+  },
+  {
+   "id": "card:Brain Freeze",
+   "kind": "card",
+   "name": "Brain Freeze",
+   "in_list": true
+  },
+  {
+   "id": "combo:marchesa-dealer-of-death/marchdod-05",
+   "kind": "combo",
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1295-3093",
+    "1368-3518-4856",
+    "1368-1414-4856"
+   ]
+  },
+  {
+   "id": "card:Displacer Kitten",
+   "kind": "card",
+   "name": "Displacer Kitten",
+   "in_list": true
+  },
+  {
+   "id": "interaction:marchesa-dealer-of-death/marchdod-06",
+   "kind": "interaction",
+   "interaction": "marchdod-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Final Fortune",
+   "kind": "card",
+   "name": "Final Fortune",
+   "in_list": true
+  },
+  {
+   "id": "card:Last Chance",
+   "kind": "card",
+   "name": "Last Chance",
+   "in_list": true
+  },
+  {
+   "id": "interaction:marchesa-dealer-of-death/marchdod-07",
+   "kind": "interaction",
+   "interaction": "marchdod-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Magda, the Hoardmaster",
+   "kind": "card",
+   "name": "Magda, the Hoardmaster",
+   "in_list": true
+  },
+  {
+   "id": "card:Mox Amber",
+   "kind": "card",
+   "name": "Mox Amber",
+   "in_list": true
+  },
+  {
+   "id": "interaction:marchesa-dealer-of-death/marchdod-08",
+   "kind": "interaction",
+   "interaction": "marchdod-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "marchdod-01:m1",
+   "from": "commander:Marchesa, Dealer of Death",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "601.2i",
+    "405.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-01",
+    "cr:700.13",
+    "cr:601.2i",
+    "cr:405.2"
+   ]
+  },
+  {
+   "id": "marchdod-02:m1",
+   "from": "commander:Marchesa, Dealer of Death",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "107.4f",
+    "602.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-02",
+    "cr:700.13",
+    "cr:107.4f",
+    "cr:602.2b"
+   ]
+  },
+  {
+   "id": "marchdod-02:m2",
+   "from": "card:Spatial Binding",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "107.4f",
+    "602.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-02",
+    "cr:700.13",
+    "cr:107.4f",
+    "cr:602.2b"
+   ]
+  },
+  {
+   "id": "marchdod-02:m3",
+   "from": "card:Hex Parasite",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "107.4f",
+    "602.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-02",
+    "cr:700.13",
+    "cr:107.4f",
+    "cr:602.2b"
+   ]
+  },
+  {
+   "id": "marchdod-02:m4",
+   "from": "card:Spellskite",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "107.4f",
+    "602.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-02",
+    "cr:700.13",
+    "cr:107.4f",
+    "cr:602.2b"
+   ]
+  },
+  {
+   "id": "marchdod-02:p1",
+   "from": "card:Spatial Binding",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.13",
+    "107.4f",
+    "602.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-02",
+    "cr:700.13",
+    "cr:107.4f",
+    "cr:602.2b"
+   ]
+  },
+  {
+   "id": "marchdod-02:p2",
+   "from": "card:Hex Parasite",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.13",
+    "107.4f",
+    "602.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-02",
+    "cr:700.13",
+    "cr:107.4f",
+    "cr:602.2b"
+   ]
+  },
+  {
+   "id": "marchdod-02:p3",
+   "from": "card:Spellskite",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-02",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.13",
+    "107.4f",
+    "602.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-02",
+    "cr:700.13",
+    "cr:107.4f",
+    "cr:602.2b"
+   ]
+  },
+  {
+   "id": "marchdod-03:m1",
+   "from": "commander:Marchesa, Dealer of Death",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-03",
+    "cr:700.13",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "marchdod-03:m2",
+   "from": "card:Urborg",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-03",
+    "cr:700.13",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "marchdod-03:m3",
+   "from": "card:Hammerheim",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-03",
+    "cr:700.13",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "marchdod-03:m4",
+   "from": "card:Talon Gates of Madara",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-03",
+    "cr:700.13",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "marchdod-03:m5",
+   "from": "card:Forbidden Orchard",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-03",
+    "cr:700.13",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "marchdod-03:m6",
+   "from": "card:Lapis Lazuli Talisman",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-03",
+    "cr:700.13",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "marchdod-03:m7",
+   "from": "card:Orcish Bowmasters",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-03",
+    "cr:700.13",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "marchdod-03:p1",
+   "from": "card:Urborg",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-03",
+    "cr:700.13",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "marchdod-03:p2",
+   "from": "card:Hammerheim",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-03",
+    "cr:700.13",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "marchdod-03:p3",
+   "from": "card:Talon Gates of Madara",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-03",
+    "cr:700.13",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "marchdod-03:p4",
+   "from": "card:Forbidden Orchard",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-03",
+    "cr:700.13",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "marchdod-03:p5",
+   "from": "card:Lapis Lazuli Talisman",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-03",
+    "cr:700.13",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "marchdod-03:p6",
+   "from": "card:Orcish Bowmasters",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-03",
+    "cr:700.13",
+    "cr:603.3d"
+   ]
+  },
+  {
+   "id": "marchdod-04:m1",
+   "from": "commander:Marchesa, Dealer of Death",
+   "to": "combo:marchesa-dealer-of-death/marchdod-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.2b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-04",
+    "cr:302.6",
+    "cr:602.2b",
+    "cr:702.6a",
+    "spellbook:4091-7786"
+   ]
+  },
+  {
+   "id": "marchdod-04:m2",
+   "from": "card:Aphetto Alchemist",
+   "to": "combo:marchesa-dealer-of-death/marchdod-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.2b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-04",
+    "cr:302.6",
+    "cr:602.2b",
+    "cr:702.6a",
+    "spellbook:4091-7786"
+   ]
+  },
+  {
+   "id": "marchdod-04:m3",
+   "from": "card:Hawkeye's Bow",
+   "to": "combo:marchesa-dealer-of-death/marchdod-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.2b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-04",
+    "cr:302.6",
+    "cr:602.2b",
+    "cr:702.6a",
+    "spellbook:4091-7786"
+   ]
+  },
+  {
+   "id": "marchdod-04:m4",
+   "from": "card:Tezzeret, Cruel Captain",
+   "to": "combo:marchesa-dealer-of-death/marchdod-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.2b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-04",
+    "cr:302.6",
+    "cr:602.2b",
+    "cr:702.6a",
+    "spellbook:4091-7786"
+   ]
+  },
+  {
+   "id": "marchdod-04:p1",
+   "from": "card:Aphetto Alchemist",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "602.2b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-04",
+    "cr:302.6",
+    "cr:602.2b",
+    "cr:702.6a",
+    "spellbook:4091-7786"
+   ]
+  },
+  {
+   "id": "marchdod-04:p2",
+   "from": "card:Hawkeye's Bow",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "602.2b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-04",
+    "cr:302.6",
+    "cr:602.2b",
+    "cr:702.6a",
+    "spellbook:4091-7786"
+   ]
+  },
+  {
+   "id": "marchdod-04:p3",
+   "from": "card:Tezzeret, Cruel Captain",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "602.2b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-04",
+    "cr:302.6",
+    "cr:602.2b",
+    "cr:702.6a",
+    "spellbook:4091-7786"
+   ]
+  },
+  {
+   "id": "marchdod-05:m1",
+   "from": "commander:Marchesa, Dealer of Death",
+   "to": "combo:marchesa-dealer-of-death/marchdod-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "marchdod-05:m2",
+   "from": "card:Tainted Pact",
+   "to": "combo:marchesa-dealer-of-death/marchdod-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "marchdod-05:m3",
+   "from": "card:Thassa's Oracle",
+   "to": "combo:marchesa-dealer-of-death/marchdod-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "marchdod-05:m4",
+   "from": "card:Underworld Breach",
+   "to": "combo:marchesa-dealer-of-death/marchdod-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "marchdod-05:m5",
+   "from": "card:Lion's Eye Diamond",
+   "to": "combo:marchesa-dealer-of-death/marchdod-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "marchdod-05:m6",
+   "from": "card:Lotus Petal",
+   "to": "combo:marchesa-dealer-of-death/marchdod-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "marchdod-05:m7",
+   "from": "card:Brain Freeze",
+   "to": "combo:marchesa-dealer-of-death/marchdod-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "marchdod-05:p1",
+   "from": "card:Tainted Pact",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "marchdod-05:p2",
+   "from": "card:Thassa's Oracle",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "marchdod-05:p3",
+   "from": "card:Underworld Breach",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "marchdod-05:p4",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "marchdod-05:p5",
+   "from": "card:Lotus Petal",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "marchdod-05:p6",
+   "from": "card:Brain Freeze",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-05",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "spellbook:1295-3093",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "marchdod-06:m1",
+   "from": "commander:Marchesa, Dealer of Death",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "606.3",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-06",
+    "cr:606.3",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "marchdod-06:m2",
+   "from": "card:Tezzeret, Cruel Captain",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "606.3",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-06",
+    "cr:606.3",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "marchdod-06:m3",
+   "from": "card:Displacer Kitten",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "606.3",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-06",
+    "cr:606.3",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "marchdod-06:p1",
+   "from": "card:Tezzeret, Cruel Captain",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "606.3",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-06",
+    "cr:606.3",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "marchdod-06:p2",
+   "from": "card:Displacer Kitten",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-06",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "606.3",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-06",
+    "cr:606.3",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "marchdod-07:m1",
+   "from": "commander:Marchesa, Dealer of Death",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7",
+    "603.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-07",
+    "cr:500.7",
+    "cr:603.7"
+   ]
+  },
+  {
+   "id": "marchdod-07:m2",
+   "from": "card:Final Fortune",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7",
+    "603.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-07",
+    "cr:500.7",
+    "cr:603.7"
+   ]
+  },
+  {
+   "id": "marchdod-07:m3",
+   "from": "card:Last Chance",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7",
+    "603.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-07",
+    "cr:500.7",
+    "cr:603.7"
+   ]
+  },
+  {
+   "id": "marchdod-07:p1",
+   "from": "card:Final Fortune",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.7",
+    "603.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-07",
+    "cr:500.7",
+    "cr:603.7"
+   ]
+  },
+  {
+   "id": "marchdod-07:p2",
+   "from": "card:Last Chance",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-07",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.7",
+    "603.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-07",
+    "cr:500.7",
+    "cr:603.7"
+   ]
+  },
+  {
+   "id": "marchdod-08:m1",
+   "from": "commander:Marchesa, Dealer of Death",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "106.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-08",
+    "cr:700.13",
+    "cr:106.1b"
+   ]
+  },
+  {
+   "id": "marchdod-08:m2",
+   "from": "card:Magda, the Hoardmaster",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "106.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-08",
+    "cr:700.13",
+    "cr:106.1b"
+   ]
+  },
+  {
+   "id": "marchdod-08:m3",
+   "from": "card:Mox Amber",
+   "to": "interaction:marchesa-dealer-of-death/marchdod-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "marchdod-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.13",
+    "106.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-08",
+    "cr:700.13",
+    "cr:106.1b"
+   ]
+  },
+  {
+   "id": "marchdod-08:p1",
+   "from": "card:Magda, the Hoardmaster",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.13",
+    "106.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-08",
+    "cr:700.13",
+    "cr:106.1b"
+   ]
+  },
+  {
+   "id": "marchdod-08:p2",
+   "from": "card:Mox Amber",
+   "to": "commander:Marchesa, Dealer of Death",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "marchdod-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.13",
+    "106.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/marchesa-dealer-of-death.json#marchdod-08",
+    "cr:700.13",
+    "cr:106.1b"
+   ]
+  }
+ ]
+}

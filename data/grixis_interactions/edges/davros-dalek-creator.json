@@ -1,0 +1,1231 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Davros__Dalek_Creator",
+ "slug": "davros-dalek-creator",
+ "deck_sha256": "c4d7cc547b742cc562c33e9ab3debca5d2c51fdeaad0b81a9f01e0a2c4f5bf30",
+ "review": "data/grixis_interactions/davros-dalek-creator.json",
+ "review_sha256": "ab0754bb29340696eb1f16a0e87d8d0c1b98c977c0d8d8955afa34c266c4f9ea",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 9,
+  "nodes": 26,
+  "membership_edges": 27,
+  "pair_edges": 18
+ },
+ "nodes": [
+  {
+   "id": "commander:Davros, Dalek Creator",
+   "kind": "commander",
+   "name": "Davros, Dalek Creator",
+   "in_list": true
+  },
+  {
+   "id": "interaction:davros-dalek-creator/davros-01",
+   "kind": "interaction",
+   "interaction": "davros-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:davros-dalek-creator/davros-02",
+   "kind": "interaction",
+   "interaction": "davros-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Perforating Artist",
+   "kind": "card",
+   "name": "Perforating Artist",
+   "in_list": true
+  },
+  {
+   "id": "card:Wound Reflection",
+   "kind": "card",
+   "name": "Wound Reflection",
+   "in_list": true
+  },
+  {
+   "id": "card:Missy",
+   "kind": "card",
+   "name": "Missy",
+   "in_list": true
+  },
+  {
+   "id": "interaction:davros-dalek-creator/davros-03",
+   "kind": "interaction",
+   "interaction": "davros-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Scientist Supreme of A.I.M.",
+   "kind": "card",
+   "name": "Scientist Supreme of A.I.M.",
+   "in_list": true
+  },
+  {
+   "id": "card:Strionic Resonator",
+   "kind": "card",
+   "name": "Strionic Resonator",
+   "in_list": true
+  },
+  {
+   "id": "card:Roaming Throne",
+   "kind": "card",
+   "name": "Roaming Throne",
+   "in_list": true
+  },
+  {
+   "id": "card:Auton Soldier",
+   "kind": "card",
+   "name": "Auton Soldier",
+   "in_list": true
+  },
+  {
+   "id": "interaction:davros-dalek-creator/davros-04",
+   "kind": "interaction",
+   "interaction": "davros-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:The Valeyard",
+   "kind": "card",
+   "name": "The Valeyard",
+   "in_list": true
+  },
+  {
+   "id": "card:The Dalek Emperor",
+   "kind": "card",
+   "name": "The Dalek Emperor",
+   "in_list": true
+  },
+  {
+   "id": "card:Genesis of the Daleks",
+   "kind": "card",
+   "name": "Genesis of the Daleks",
+   "in_list": true
+  },
+  {
+   "id": "interaction:davros-dalek-creator/davros-05",
+   "kind": "interaction",
+   "interaction": "davros-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Entropic Battlecruiser",
+   "kind": "card",
+   "name": "Entropic Battlecruiser",
+   "in_list": true
+  },
+  {
+   "id": "card:Court of Ambition",
+   "kind": "card",
+   "name": "Court of Ambition",
+   "in_list": true
+  },
+  {
+   "id": "card:Geier Reach Sanitarium",
+   "kind": "card",
+   "name": "Geier Reach Sanitarium",
+   "in_list": true
+  },
+  {
+   "id": "interaction:davros-dalek-creator/davros-06",
+   "kind": "interaction",
+   "interaction": "davros-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Maestros Charm",
+   "kind": "card",
+   "name": "Maestros Charm",
+   "in_list": true
+  },
+  {
+   "id": "card:Loyal Subordinate",
+   "kind": "card",
+   "name": "Loyal Subordinate",
+   "in_list": true
+  },
+  {
+   "id": "interaction:davros-dalek-creator/davros-07",
+   "kind": "interaction",
+   "interaction": "davros-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Labyrinth Raptor",
+   "kind": "card",
+   "name": "Labyrinth Raptor",
+   "in_list": true
+  },
+  {
+   "id": "interaction:davros-dalek-creator/davros-08",
+   "kind": "interaction",
+   "interaction": "davros-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:davros-dalek-creator/davros-09",
+   "kind": "interaction",
+   "interaction": "davros-09",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "davros-01:m1",
+   "from": "commander:Davros, Dalek Creator",
+   "to": "interaction:davros-dalek-creator/davros-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "608.2h"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-01",
+    "cr:603.4",
+    "cr:608.2h"
+   ]
+  },
+  {
+   "id": "davros-02:m1",
+   "from": "commander:Davros, Dalek Creator",
+   "to": "interaction:davros-dalek-creator/davros-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-02",
+    "cr:701.55a"
+   ]
+  },
+  {
+   "id": "davros-03:m1",
+   "from": "commander:Davros, Dalek Creator",
+   "to": "interaction:davros-dalek-creator/davros-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-03",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "davros-03:m2",
+   "from": "card:Perforating Artist",
+   "to": "interaction:davros-dalek-creator/davros-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-03",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "davros-03:m3",
+   "from": "card:Wound Reflection",
+   "to": "interaction:davros-dalek-creator/davros-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-03",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "davros-03:m4",
+   "from": "card:Missy",
+   "to": "interaction:davros-dalek-creator/davros-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-03",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "davros-03:p1",
+   "from": "card:Perforating Artist",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-03",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "davros-03:p2",
+   "from": "card:Wound Reflection",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-03",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "davros-03:p3",
+   "from": "card:Missy",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-03",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "davros-04:m1",
+   "from": "commander:Davros, Dalek Creator",
+   "to": "interaction:davros-dalek-creator/davros-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "603.2",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-04",
+    "cr:707.10",
+    "cr:603.2",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "davros-04:m2",
+   "from": "card:Scientist Supreme of A.I.M.",
+   "to": "interaction:davros-dalek-creator/davros-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "603.2",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-04",
+    "cr:707.10",
+    "cr:603.2",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "davros-04:m3",
+   "from": "card:Strionic Resonator",
+   "to": "interaction:davros-dalek-creator/davros-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "603.2",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-04",
+    "cr:707.10",
+    "cr:603.2",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "davros-04:m4",
+   "from": "card:Roaming Throne",
+   "to": "interaction:davros-dalek-creator/davros-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "603.2",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-04",
+    "cr:707.10",
+    "cr:603.2",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "davros-04:m5",
+   "from": "card:Auton Soldier",
+   "to": "interaction:davros-dalek-creator/davros-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "603.2",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-04",
+    "cr:707.10",
+    "cr:603.2",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "davros-04:p1",
+   "from": "card:Scientist Supreme of A.I.M.",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "603.2",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-04",
+    "cr:707.10",
+    "cr:603.2",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "davros-04:p2",
+   "from": "card:Strionic Resonator",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "603.2",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-04",
+    "cr:707.10",
+    "cr:603.2",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "davros-04:p3",
+   "from": "card:Roaming Throne",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "603.2",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-04",
+    "cr:707.10",
+    "cr:603.2",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "davros-04:p4",
+   "from": "card:Auton Soldier",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-04",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "603.2",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-04",
+    "cr:707.10",
+    "cr:603.2",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "davros-05:m1",
+   "from": "commander:Davros, Dalek Creator",
+   "to": "interaction:davros-dalek-creator/davros-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-05",
+    "cr:701.55a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "davros-05:m2",
+   "from": "card:The Valeyard",
+   "to": "interaction:davros-dalek-creator/davros-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-05",
+    "cr:701.55a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "davros-05:m3",
+   "from": "card:Missy",
+   "to": "interaction:davros-dalek-creator/davros-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-05",
+    "cr:701.55a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "davros-05:m4",
+   "from": "card:The Dalek Emperor",
+   "to": "interaction:davros-dalek-creator/davros-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-05",
+    "cr:701.55a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "davros-05:m5",
+   "from": "card:Genesis of the Daleks",
+   "to": "interaction:davros-dalek-creator/davros-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-05",
+    "cr:701.55a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "davros-05:p1",
+   "from": "card:The Valeyard",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-05",
+    "cr:701.55a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "davros-05:p2",
+   "from": "card:Missy",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-05",
+    "cr:701.55a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "davros-05:p3",
+   "from": "card:The Dalek Emperor",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-05",
+    "cr:701.55a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "davros-05:p4",
+   "from": "card:Genesis of the Daleks",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-05",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-05",
+    "cr:701.55a",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "davros-06:m1",
+   "from": "commander:Davros, Dalek Creator",
+   "to": "interaction:davros-dalek-creator/davros-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.184a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-06",
+    "cr:702.184a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "davros-06:m2",
+   "from": "card:Entropic Battlecruiser",
+   "to": "interaction:davros-dalek-creator/davros-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.184a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-06",
+    "cr:702.184a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "davros-06:m3",
+   "from": "card:Court of Ambition",
+   "to": "interaction:davros-dalek-creator/davros-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.184a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-06",
+    "cr:702.184a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "davros-06:m4",
+   "from": "card:Geier Reach Sanitarium",
+   "to": "interaction:davros-dalek-creator/davros-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.184a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-06",
+    "cr:702.184a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "davros-06:p1",
+   "from": "card:Entropic Battlecruiser",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.184a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-06",
+    "cr:702.184a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "davros-06:p2",
+   "from": "card:Court of Ambition",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.184a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-06",
+    "cr:702.184a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "davros-06:p3",
+   "from": "card:Geier Reach Sanitarium",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.184a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-06",
+    "cr:702.184a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "davros-07:m1",
+   "from": "commander:Davros, Dalek Creator",
+   "to": "interaction:davros-dalek-creator/davros-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-07",
+    "cr:119.3"
+   ]
+  },
+  {
+   "id": "davros-07:m2",
+   "from": "card:Maestros Charm",
+   "to": "interaction:davros-dalek-creator/davros-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-07",
+    "cr:119.3"
+   ]
+  },
+  {
+   "id": "davros-07:m3",
+   "from": "card:Loyal Subordinate",
+   "to": "interaction:davros-dalek-creator/davros-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-07",
+    "cr:119.3"
+   ]
+  },
+  {
+   "id": "davros-07:p1",
+   "from": "card:Maestros Charm",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-07",
+    "cr:119.3"
+   ]
+  },
+  {
+   "id": "davros-07:p2",
+   "from": "card:Loyal Subordinate",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-07",
+    "cr:119.3"
+   ]
+  },
+  {
+   "id": "davros-08:m1",
+   "from": "commander:Davros, Dalek Creator",
+   "to": "interaction:davros-dalek-creator/davros-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.111b",
+    "509.1h"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-08",
+    "cr:702.111b",
+    "cr:509.1h"
+   ]
+  },
+  {
+   "id": "davros-08:m2",
+   "from": "card:Labyrinth Raptor",
+   "to": "interaction:davros-dalek-creator/davros-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.111b",
+    "509.1h"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-08",
+    "cr:702.111b",
+    "cr:509.1h"
+   ]
+  },
+  {
+   "id": "davros-08:p1",
+   "from": "card:Labyrinth Raptor",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.111b",
+    "509.1h"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-08",
+    "cr:702.111b",
+    "cr:509.1h"
+   ]
+  },
+  {
+   "id": "davros-09:m1",
+   "from": "commander:Davros, Dalek Creator",
+   "to": "interaction:davros-dalek-creator/davros-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-09",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-09",
+    "cr:903.8",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "davros-09:m2",
+   "from": "card:Loyal Subordinate",
+   "to": "interaction:davros-dalek-creator/davros-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "davros-09",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-09",
+    "cr:903.8",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "davros-09:p1",
+   "from": "card:Loyal Subordinate",
+   "to": "commander:Davros, Dalek Creator",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "davros-09",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/davros-dalek-creator.json#davros-09",
+    "cr:903.8",
+    "cr:603.4"
+   ]
+  }
+ ]
+}

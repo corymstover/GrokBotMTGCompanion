@@ -488,7 +488,7 @@ The current-cycle approval is a 49-card cEDH rebuild of the authoritative FINAL6
 <!-- INTERACTIONS:START -->
 ## Rules notes
 
-> Bot cycle 49 interaction review: **9 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Inalla, Archmage Ritualist — Interaction Review](../interactions/inalla-archmage-ritualist.md).
+> Bot cycle 49 interaction review: **10 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Inalla, Archmage Ritualist — Interaction Review](../interactions/inalla-archmage-ritualist.md).
 
 - **Eminence works from the command zone, once per trigger** — Copies from the command zone too; one {1} per trigger; a zone change mid-trigger fizzles it. ([inalla-01](../interactions/inalla-archmage-ritualist.md#inalla-01-eminence-works-from-the-command-zone-once-per-trigger))
 - **Inalla + Bloodline Necromancer + Ruthless Technomancer** — Bloodline ↔ Ruthless with Inalla copies: unbounded Treasures and Wizards, then 7-life taps. ([inalla-03](../interactions/inalla-archmage-ritualist.md#inalla-03-inalla--bloodline-necromancer--ruthless-technomancer))

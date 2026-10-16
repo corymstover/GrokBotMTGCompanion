@@ -1,0 +1,1503 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Lynde__Cheerful_Tormentor",
+ "slug": "lynde-cheerful-tormentor",
+ "deck_sha256": "f1d4ed17411a4229260f39f4e79f6f014bffb29f3c601fedf3488d03676abf82",
+ "review": "data/grixis_interactions/lynde-cheerful-tormentor.json",
+ "review_sha256": "8eb61d03221310b4badec920b74ced235a3b9815c47a3ca825a6272302d8547f",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 8,
+  "nodes": 30,
+  "membership_edges": 31,
+  "pair_edges": 23
+ },
+ "nodes": [
+  {
+   "id": "commander:Lynde, Cheerful Tormentor",
+   "kind": "commander",
+   "name": "Lynde, Cheerful Tormentor",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lynde-cheerful-tormentor/lynde-01",
+   "kind": "interaction",
+   "interaction": "lynde-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:lynde-cheerful-tormentor/lynde-02",
+   "kind": "interaction",
+   "interaction": "lynde-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Despotic Scepter",
+   "kind": "card",
+   "name": "Despotic Scepter",
+   "in_list": true
+  },
+  {
+   "id": "card:Claws of Gix",
+   "kind": "card",
+   "name": "Claws of Gix",
+   "in_list": true
+  },
+  {
+   "id": "card:Braids, Arisen Nightmare",
+   "kind": "card",
+   "name": "Braids, Arisen Nightmare",
+   "in_list": true
+  },
+  {
+   "id": "card:Demon of Fate's Design",
+   "kind": "card",
+   "name": "Demon of Fate's Design",
+   "in_list": true
+  },
+  {
+   "id": "card:Perilous Research",
+   "kind": "card",
+   "name": "Perilous Research",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lynde-cheerful-tormentor/lynde-03",
+   "kind": "interaction",
+   "interaction": "lynde-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Paradox Haze",
+   "kind": "card",
+   "name": "Paradox Haze",
+   "in_list": true
+  },
+  {
+   "id": "card:The Ninth Doctor",
+   "kind": "card",
+   "name": "The Ninth Doctor",
+   "in_list": true
+  },
+  {
+   "id": "card:Obeka, Splitter of Seconds",
+   "kind": "card",
+   "name": "Obeka, Splitter of Seconds",
+   "in_list": true
+  },
+  {
+   "id": "card:Curse of Bloodletting",
+   "kind": "card",
+   "name": "Curse of Bloodletting",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lynde-cheerful-tormentor/lynde-04",
+   "kind": "interaction",
+   "interaction": "lynde-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Curse of Misfortunes",
+   "kind": "card",
+   "name": "Curse of Misfortunes",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lynde-cheerful-tormentor/lynde-05",
+   "kind": "interaction",
+   "interaction": "lynde-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Cruel Reality",
+   "kind": "card",
+   "name": "Cruel Reality",
+   "in_list": true
+  },
+  {
+   "id": "card:Torment of Scarabs",
+   "kind": "card",
+   "name": "Torment of Scarabs",
+   "in_list": true
+  },
+  {
+   "id": "card:Curse of Thirst",
+   "kind": "card",
+   "name": "Curse of Thirst",
+   "in_list": true
+  },
+  {
+   "id": "card:Curse of Death's Hold",
+   "kind": "card",
+   "name": "Curse of Death's Hold",
+   "in_list": true
+  },
+  {
+   "id": "card:Curse of Echoes",
+   "kind": "card",
+   "name": "Curse of Echoes",
+   "in_list": true
+  },
+  {
+   "id": "card:Curse of Shaken Faith",
+   "kind": "card",
+   "name": "Curse of Shaken Faith",
+   "in_list": true
+  },
+  {
+   "id": "card:Maddening Hex",
+   "kind": "card",
+   "name": "Maddening Hex",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lynde-cheerful-tormentor/lynde-06",
+   "kind": "interaction",
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Curse of Fool's Wisdom",
+   "kind": "card",
+   "name": "Curse of Fool's Wisdom",
+   "in_list": true
+  },
+  {
+   "id": "card:Curse of Surveillance",
+   "kind": "card",
+   "name": "Curse of Surveillance",
+   "in_list": true
+  },
+  {
+   "id": "card:Curse of Unbinding",
+   "kind": "card",
+   "name": "Curse of Unbinding",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lynde-cheerful-tormentor/lynde-07",
+   "kind": "interaction",
+   "interaction": "lynde-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Curse of Vengeance",
+   "kind": "card",
+   "name": "Curse of Vengeance",
+   "in_list": true
+  },
+  {
+   "id": "interaction:lynde-cheerful-tormentor/lynde-08",
+   "kind": "interaction",
+   "interaction": "lynde-08",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "lynde-01:m1",
+   "from": "commander:Lynde, Cheerful Tormentor",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a",
+    "603.10a",
+    "303.4f",
+    "303.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-01",
+    "cr:603.7a",
+    "cr:603.10a",
+    "cr:303.4f",
+    "cr:303.4c"
+   ]
+  },
+  {
+   "id": "lynde-02:m1",
+   "from": "commander:Lynde, Cheerful Tormentor",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "303.4e",
+    "115.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-02",
+    "cr:303.4e",
+    "cr:115.10a"
+   ]
+  },
+  {
+   "id": "lynde-03:m1",
+   "from": "commander:Lynde, Cheerful Tormentor",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "513.2",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-03",
+    "cr:108.3",
+    "cr:513.2",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "lynde-03:m2",
+   "from": "card:Despotic Scepter",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "513.2",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-03",
+    "cr:108.3",
+    "cr:513.2",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "lynde-03:m3",
+   "from": "card:Claws of Gix",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "513.2",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-03",
+    "cr:108.3",
+    "cr:513.2",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "lynde-03:m4",
+   "from": "card:Braids, Arisen Nightmare",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "513.2",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-03",
+    "cr:108.3",
+    "cr:513.2",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "lynde-03:m5",
+   "from": "card:Demon of Fate's Design",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "513.2",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-03",
+    "cr:108.3",
+    "cr:513.2",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "lynde-03:m6",
+   "from": "card:Perilous Research",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "513.2",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-03",
+    "cr:108.3",
+    "cr:513.2",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "lynde-03:p1",
+   "from": "card:Despotic Scepter",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "513.2",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-03",
+    "cr:108.3",
+    "cr:513.2",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "lynde-03:p2",
+   "from": "card:Claws of Gix",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "513.2",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-03",
+    "cr:108.3",
+    "cr:513.2",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "lynde-03:p3",
+   "from": "card:Braids, Arisen Nightmare",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "513.2",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-03",
+    "cr:108.3",
+    "cr:513.2",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "lynde-03:p4",
+   "from": "card:Demon of Fate's Design",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "513.2",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-03",
+    "cr:108.3",
+    "cr:513.2",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "lynde-03:p5",
+   "from": "card:Perilous Research",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "513.2",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-03",
+    "cr:108.3",
+    "cr:513.2",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "lynde-04:m1",
+   "from": "commander:Lynde, Cheerful Tormentor",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-04",
+    "cr:500.8",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "lynde-04:m2",
+   "from": "card:Paradox Haze",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-04",
+    "cr:500.8",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "lynde-04:m3",
+   "from": "card:The Ninth Doctor",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-04",
+    "cr:500.8",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "lynde-04:m4",
+   "from": "card:Obeka, Splitter of Seconds",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-04",
+    "cr:500.8",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "lynde-04:m5",
+   "from": "card:Curse of Bloodletting",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-04",
+    "cr:500.8",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "lynde-04:p1",
+   "from": "card:Paradox Haze",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-04",
+    "cr:500.8",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "lynde-04:p2",
+   "from": "card:The Ninth Doctor",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-04",
+    "cr:500.8",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "lynde-04:p3",
+   "from": "card:Obeka, Splitter of Seconds",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-04",
+    "cr:500.8",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "lynde-04:p4",
+   "from": "card:Curse of Bloodletting",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-04",
+    "cr:500.8",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "lynde-05:m1",
+   "from": "commander:Lynde, Cheerful Tormentor",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-05",
+    "cr:603.3b",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "lynde-05:m2",
+   "from": "card:Curse of Misfortunes",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-05",
+    "cr:603.3b",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "lynde-05:p1",
+   "from": "card:Curse of Misfortunes",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-05",
+    "cr:603.3b",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "lynde-06:m1",
+   "from": "commander:Lynde, Cheerful Tormentor",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:m2",
+   "from": "card:Cruel Reality",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:m3",
+   "from": "card:Torment of Scarabs",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:m4",
+   "from": "card:Curse of Thirst",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:m5",
+   "from": "card:Curse of Bloodletting",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:m6",
+   "from": "card:Curse of Death's Hold",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:m7",
+   "from": "card:Curse of Echoes",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:m8",
+   "from": "card:Curse of Shaken Faith",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:m9",
+   "from": "card:Maddening Hex",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:p1",
+   "from": "card:Cruel Reality",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:p2",
+   "from": "card:Torment of Scarabs",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:p3",
+   "from": "card:Curse of Thirst",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:p4",
+   "from": "card:Curse of Bloodletting",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:p5",
+   "from": "card:Curse of Death's Hold",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:p6",
+   "from": "card:Curse of Echoes",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:p7",
+   "from": "card:Curse of Shaken Faith",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-06:p8",
+   "from": "card:Maddening Hex",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-06",
+    "cr:113.7a",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "lynde-07:m1",
+   "from": "commander:Lynde, Cheerful Tormentor",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3",
+    "601.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-07",
+    "cr:119.3",
+    "cr:601.2c"
+   ]
+  },
+  {
+   "id": "lynde-07:m2",
+   "from": "card:Curse of Fool's Wisdom",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3",
+    "601.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-07",
+    "cr:119.3",
+    "cr:601.2c"
+   ]
+  },
+  {
+   "id": "lynde-07:m3",
+   "from": "card:Curse of Surveillance",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3",
+    "601.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-07",
+    "cr:119.3",
+    "cr:601.2c"
+   ]
+  },
+  {
+   "id": "lynde-07:m4",
+   "from": "card:Curse of Unbinding",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "119.3",
+    "601.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-07",
+    "cr:119.3",
+    "cr:601.2c"
+   ]
+  },
+  {
+   "id": "lynde-07:p1",
+   "from": "card:Curse of Fool's Wisdom",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "119.3",
+    "601.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-07",
+    "cr:119.3",
+    "cr:601.2c"
+   ]
+  },
+  {
+   "id": "lynde-07:p2",
+   "from": "card:Curse of Surveillance",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "119.3",
+    "601.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-07",
+    "cr:119.3",
+    "cr:601.2c"
+   ]
+  },
+  {
+   "id": "lynde-07:p3",
+   "from": "card:Curse of Unbinding",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "119.3",
+    "601.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-07",
+    "cr:119.3",
+    "cr:601.2c"
+   ]
+  },
+  {
+   "id": "lynde-08:m1",
+   "from": "commander:Lynde, Cheerful Tormentor",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-08",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "303.4c",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-08",
+    "cr:707.10",
+    "cr:303.4c",
+    "cr:704.5m"
+   ]
+  },
+  {
+   "id": "lynde-08:m2",
+   "from": "card:Curse of Echoes",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-08",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "303.4c",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-08",
+    "cr:707.10",
+    "cr:303.4c",
+    "cr:704.5m"
+   ]
+  },
+  {
+   "id": "lynde-08:m3",
+   "from": "card:Curse of Vengeance",
+   "to": "interaction:lynde-cheerful-tormentor/lynde-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "lynde-08",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "303.4c",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-08",
+    "cr:707.10",
+    "cr:303.4c",
+    "cr:704.5m"
+   ]
+  },
+  {
+   "id": "lynde-08:p1",
+   "from": "card:Curse of Echoes",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-08",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "303.4c",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-08",
+    "cr:707.10",
+    "cr:303.4c",
+    "cr:704.5m"
+   ]
+  },
+  {
+   "id": "lynde-08:p2",
+   "from": "card:Curse of Vengeance",
+   "to": "commander:Lynde, Cheerful Tormentor",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "lynde-08",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "303.4c",
+    "704.5m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/lynde-cheerful-tormentor.json#lynde-08",
+    "cr:707.10",
+    "cr:303.4c",
+    "cr:704.5m"
+   ]
+  }
+ ]
+}

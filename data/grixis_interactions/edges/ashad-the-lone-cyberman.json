@@ -1,0 +1,1987 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Ashad__the_Lone_Cyberman",
+ "slug": "ashad-the-lone-cyberman",
+ "deck_sha256": "13fa3b590700b08a41783ab763a1055f9f82103db01a3757a3662be7a092637c",
+ "review": "data/grixis_interactions/ashad-the-lone-cyberman.json",
+ "review_sha256": "e70eba7432a33c2f803caea56f8b3bf44b3b142fadd5969b5aea0e4974d7a937",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 14,
+  "nodes": 40,
+  "membership_edges": 43,
+  "pair_edges": 29
+ },
+ "nodes": [
+  {
+   "id": "commander:Ashad, the Lone Cyberman",
+   "kind": "commander",
+   "name": "Ashad, the Lone Cyberman",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashad-the-lone-cyberman/ashad-01",
+   "kind": "interaction",
+   "interaction": "ashad-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Ashnod's Altar",
+   "kind": "card",
+   "name": "Ashnod's Altar",
+   "in_list": true
+  },
+  {
+   "id": "card:Phyrexian Altar",
+   "kind": "card",
+   "name": "Phyrexian Altar",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashad-the-lone-cyberman/ashad-02",
+   "kind": "interaction",
+   "interaction": "ashad-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Worldwalker Helm",
+   "kind": "card",
+   "name": "Worldwalker Helm",
+   "in_list": true
+  },
+  {
+   "id": "card:Simulacrum Synthesizer",
+   "kind": "card",
+   "name": "Simulacrum Synthesizer",
+   "in_list": true
+  },
+  {
+   "id": "card:Ichor Wellspring",
+   "kind": "card",
+   "name": "Ichor Wellspring",
+   "in_list": true
+  },
+  {
+   "id": "card:Solemn Simulacrum",
+   "kind": "card",
+   "name": "Solemn Simulacrum",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashad-the-lone-cyberman/ashad-03",
+   "kind": "interaction",
+   "interaction": "ashad-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Twinning Staff",
+   "kind": "card",
+   "name": "Twinning Staff",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashad-the-lone-cyberman/ashad-04",
+   "kind": "interaction",
+   "interaction": "ashad-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Urza, Lord High Artificer",
+   "kind": "card",
+   "name": "Urza, Lord High Artificer",
+   "in_list": true
+  },
+  {
+   "id": "card:Artificer Class",
+   "kind": "card",
+   "name": "Artificer Class",
+   "in_list": true
+  },
+  {
+   "id": "combo:ashad-the-lone-cyberman/ashad-05",
+   "kind": "combo",
+   "interaction": "ashad-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "66-457-5491"
+   ]
+  },
+  {
+   "id": "combo:ashad-the-lone-cyberman/ashad-14",
+   "kind": "combo",
+   "interaction": "ashad-14",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis"
+  },
+  {
+   "id": "card:Biotransference",
+   "kind": "card",
+   "name": "Biotransference",
+   "in_list": true
+  },
+  {
+   "id": "card:Delete",
+   "kind": "card",
+   "name": "Delete",
+   "in_list": true
+  },
+  {
+   "id": "card:Their Name Is Death",
+   "kind": "card",
+   "name": "Their Name Is Death",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashad-the-lone-cyberman/ashad-06",
+   "kind": "interaction",
+   "interaction": "ashad-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Iron Man, Bleeding Edge",
+   "kind": "card",
+   "name": "Iron Man, Bleeding Edge",
+   "in_list": true
+  },
+  {
+   "id": "card:The Cyber-Controller",
+   "kind": "card",
+   "name": "The Cyber-Controller",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashad-the-lone-cyberman/ashad-07",
+   "kind": "interaction",
+   "interaction": "ashad-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Shimmer Myr",
+   "kind": "card",
+   "name": "Shimmer Myr",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashad-the-lone-cyberman/ashad-08",
+   "kind": "interaction",
+   "interaction": "ashad-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Disciple of the Vault",
+   "kind": "card",
+   "name": "Disciple of the Vault",
+   "in_list": true
+  },
+  {
+   "id": "card:Marionette Master",
+   "kind": "card",
+   "name": "Marionette Master",
+   "in_list": true
+  },
+  {
+   "id": "card:Mayhem Devil",
+   "kind": "card",
+   "name": "Mayhem Devil",
+   "in_list": true
+  },
+  {
+   "id": "card:Ingenious Artillerist",
+   "kind": "card",
+   "name": "Ingenious Artillerist",
+   "in_list": true
+  },
+  {
+   "id": "card:Reckless Fireweaver",
+   "kind": "card",
+   "name": "Reckless Fireweaver",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashad-the-lone-cyberman/ashad-09",
+   "kind": "interaction",
+   "interaction": "ashad-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Cybermen Squadron",
+   "kind": "card",
+   "name": "Cybermen Squadron",
+   "in_list": true
+  },
+  {
+   "id": "card:Auton Soldier",
+   "kind": "card",
+   "name": "Auton Soldier",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashad-the-lone-cyberman/ashad-10",
+   "kind": "interaction",
+   "interaction": "ashad-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Esoteric Duplicator",
+   "kind": "card",
+   "name": "Esoteric Duplicator",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashad-the-lone-cyberman/ashad-11",
+   "kind": "interaction",
+   "interaction": "ashad-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Portal to Phyrexia",
+   "kind": "card",
+   "name": "Portal to Phyrexia",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashad-the-lone-cyberman/ashad-12",
+   "kind": "interaction",
+   "interaction": "ashad-12",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Academy Ruins",
+   "kind": "card",
+   "name": "Academy Ruins",
+   "in_list": true
+  },
+  {
+   "id": "interaction:ashad-the-lone-cyberman/ashad-13",
+   "kind": "interaction",
+   "interaction": "ashad-13",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "ashad-01:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.153a",
+    "707.10f",
+    "608.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-01",
+    "cr:702.153a",
+    "cr:707.10f",
+    "cr:608.3f"
+   ]
+  },
+  {
+   "id": "ashad-02:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-02",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "ashad-02:m2",
+   "from": "card:Ashnod's Altar",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-02",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "ashad-02:m3",
+   "from": "card:Phyrexian Altar",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-02",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "ashad-02:p1",
+   "from": "card:Ashnod's Altar",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-02",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "ashad-02:p2",
+   "from": "card:Phyrexian Altar",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-02",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "ashad-03:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "111.13",
+    "608.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-03",
+    "cr:111.13",
+    "cr:608.3f"
+   ]
+  },
+  {
+   "id": "ashad-03:m2",
+   "from": "card:Worldwalker Helm",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "111.13",
+    "608.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-03",
+    "cr:111.13",
+    "cr:608.3f"
+   ]
+  },
+  {
+   "id": "ashad-03:m3",
+   "from": "card:Simulacrum Synthesizer",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "111.13",
+    "608.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-03",
+    "cr:111.13",
+    "cr:608.3f"
+   ]
+  },
+  {
+   "id": "ashad-03:m4",
+   "from": "card:Ichor Wellspring",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "111.13",
+    "608.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-03",
+    "cr:111.13",
+    "cr:608.3f"
+   ]
+  },
+  {
+   "id": "ashad-03:m5",
+   "from": "card:Solemn Simulacrum",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "111.13",
+    "608.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-03",
+    "cr:111.13",
+    "cr:608.3f"
+   ]
+  },
+  {
+   "id": "ashad-03:p1",
+   "from": "card:Worldwalker Helm",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "111.13",
+    "608.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-03",
+    "cr:111.13",
+    "cr:608.3f"
+   ]
+  },
+  {
+   "id": "ashad-03:p2",
+   "from": "card:Simulacrum Synthesizer",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "111.13",
+    "608.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-03",
+    "cr:111.13",
+    "cr:608.3f"
+   ]
+  },
+  {
+   "id": "ashad-03:p3",
+   "from": "card:Ichor Wellspring",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "111.13",
+    "608.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-03",
+    "cr:111.13",
+    "cr:608.3f"
+   ]
+  },
+  {
+   "id": "ashad-03:p4",
+   "from": "card:Solemn Simulacrum",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-03",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "111.13",
+    "608.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-03",
+    "cr:111.13",
+    "cr:608.3f"
+   ]
+  },
+  {
+   "id": "ashad-04:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-04",
+    "cr:614.1a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashad-04:m2",
+   "from": "card:Twinning Staff",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-04",
+    "cr:614.1a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashad-04:p1",
+   "from": "card:Twinning Staff",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-04",
+    "cr:614.1a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "ashad-05:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "combo:ashad-the-lone-cyberman/ashad-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-05",
+    "cr:605.1a",
+    "cr:614.1a",
+    "spellbook:66-457-5491"
+   ]
+  },
+  {
+   "id": "ashad-05:m2",
+   "from": "card:Urza, Lord High Artificer",
+   "to": "combo:ashad-the-lone-cyberman/ashad-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-05",
+    "cr:605.1a",
+    "cr:614.1a",
+    "spellbook:66-457-5491"
+   ]
+  },
+  {
+   "id": "ashad-05:m3",
+   "from": "card:Worldwalker Helm",
+   "to": "combo:ashad-the-lone-cyberman/ashad-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-05",
+    "cr:605.1a",
+    "cr:614.1a",
+    "spellbook:66-457-5491"
+   ]
+  },
+  {
+   "id": "ashad-05:m4",
+   "from": "card:Artificer Class",
+   "to": "combo:ashad-the-lone-cyberman/ashad-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-05",
+    "cr:605.1a",
+    "cr:614.1a",
+    "spellbook:66-457-5491"
+   ]
+  },
+  {
+   "id": "ashad-05:p1",
+   "from": "card:Urza, Lord High Artificer",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-05",
+    "cr:605.1a",
+    "cr:614.1a",
+    "spellbook:66-457-5491"
+   ]
+  },
+  {
+   "id": "ashad-05:p2",
+   "from": "card:Worldwalker Helm",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-05",
+    "cr:605.1a",
+    "cr:614.1a",
+    "spellbook:66-457-5491"
+   ]
+  },
+  {
+   "id": "ashad-05:p3",
+   "from": "card:Artificer Class",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-05",
+    "cr:605.1a",
+    "cr:614.1a",
+    "spellbook:66-457-5491"
+   ]
+  },
+  {
+   "id": "ashad-14:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "combo:ashad-the-lone-cyberman/ashad-14",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-14",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "111.13",
+    "608.3f",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-14",
+    "cr:111.13",
+    "cr:608.3f",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "ashad-14:m2",
+   "from": "card:Urza, Lord High Artificer",
+   "to": "combo:ashad-the-lone-cyberman/ashad-14",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-14",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "111.13",
+    "608.3f",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-14",
+    "cr:111.13",
+    "cr:608.3f",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "ashad-14:m3",
+   "from": "card:Worldwalker Helm",
+   "to": "combo:ashad-the-lone-cyberman/ashad-14",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-14",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "111.13",
+    "608.3f",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-14",
+    "cr:111.13",
+    "cr:608.3f",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "ashad-14:p1",
+   "from": "card:Urza, Lord High Artificer",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-14",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "111.13",
+    "608.3f",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-14",
+    "cr:111.13",
+    "cr:608.3f",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "ashad-14:p2",
+   "from": "card:Worldwalker Helm",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-14",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "111.13",
+    "608.3f",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-14",
+    "cr:111.13",
+    "cr:608.3f",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "ashad-06:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1d",
+    "205.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-06",
+    "cr:613.1d",
+    "cr:205.1b"
+   ]
+  },
+  {
+   "id": "ashad-06:m2",
+   "from": "card:Biotransference",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1d",
+    "205.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-06",
+    "cr:613.1d",
+    "cr:205.1b"
+   ]
+  },
+  {
+   "id": "ashad-06:m3",
+   "from": "card:Delete",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1d",
+    "205.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-06",
+    "cr:613.1d",
+    "cr:205.1b"
+   ]
+  },
+  {
+   "id": "ashad-06:m4",
+   "from": "card:Their Name Is Death",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1d",
+    "205.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-06",
+    "cr:613.1d",
+    "cr:205.1b"
+   ]
+  },
+  {
+   "id": "ashad-06:p1",
+   "from": "card:Biotransference",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1d",
+    "205.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-06",
+    "cr:613.1d",
+    "cr:205.1b"
+   ]
+  },
+  {
+   "id": "ashad-06:p2",
+   "from": "card:Delete",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1d",
+    "205.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-06",
+    "cr:613.1d",
+    "cr:205.1b"
+   ]
+  },
+  {
+   "id": "ashad-06:p3",
+   "from": "card:Their Name Is Death",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-06",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1d",
+    "205.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-06",
+    "cr:613.1d",
+    "cr:205.1b"
+   ]
+  },
+  {
+   "id": "ashad-07:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-07",
+    "cr:707.10",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "ashad-07:m2",
+   "from": "card:Iron Man, Bleeding Edge",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-07",
+    "cr:707.10",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "ashad-07:m3",
+   "from": "card:The Cyber-Controller",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-07",
+    "cr:707.10",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "ashad-07:p1",
+   "from": "card:Iron Man, Bleeding Edge",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-07",
+    "cr:707.10",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "ashad-07:p2",
+   "from": "card:The Cyber-Controller",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-07",
+    "cr:707.10",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "ashad-08:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.8a",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-08",
+    "cr:702.8a",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "ashad-08:m2",
+   "from": "card:Shimmer Myr",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.8a",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-08",
+    "cr:702.8a",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "ashad-08:p1",
+   "from": "card:Shimmer Myr",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.8a",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-08",
+    "cr:702.8a",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "ashad-09:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-09",
+    "cr:700.4",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashad-09:m2",
+   "from": "card:Disciple of the Vault",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-09",
+    "cr:700.4",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashad-09:m3",
+   "from": "card:Marionette Master",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-09",
+    "cr:700.4",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashad-09:m4",
+   "from": "card:Mayhem Devil",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-09",
+    "cr:700.4",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashad-09:m5",
+   "from": "card:Ingenious Artillerist",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-09",
+    "cr:700.4",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashad-09:m6",
+   "from": "card:Reckless Fireweaver",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-09",
+    "cr:700.4",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashad-09:p1",
+   "from": "card:Disciple of the Vault",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-09",
+    "cr:700.4",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashad-09:p2",
+   "from": "card:Marionette Master",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-09",
+    "cr:700.4",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashad-09:p3",
+   "from": "card:Mayhem Devil",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-09",
+    "cr:700.4",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashad-09:p4",
+   "from": "card:Ingenious Artillerist",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-09",
+    "cr:700.4",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashad-09:p5",
+   "from": "card:Reckless Fireweaver",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-09",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "603.10a",
+    "704.5d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-09",
+    "cr:700.4",
+    "cr:603.10a",
+    "cr:704.5d"
+   ]
+  },
+  {
+   "id": "ashad-10:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-10",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "ashad-10:m2",
+   "from": "card:Cybermen Squadron",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-10",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "ashad-10:m3",
+   "from": "card:Auton Soldier",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-10",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "ashad-10:p1",
+   "from": "card:Cybermen Squadron",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-10",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "ashad-10:p2",
+   "from": "card:Auton Soldier",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.116a",
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-10",
+    "cr:702.116a",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "ashad-11:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-11",
+    "cr:707.2",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "ashad-11:m2",
+   "from": "card:Esoteric Duplicator",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-11",
+    "cr:707.2",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "ashad-11:m3",
+   "from": "card:Ashnod's Altar",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-11",
+    "cr:707.2",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "ashad-11:p1",
+   "from": "card:Esoteric Duplicator",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-11",
+    "cr:707.2",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "ashad-11:p2",
+   "from": "card:Ashnod's Altar",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-11",
+    "cr:707.2",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "ashad-12:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-12",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-12",
+    "cr:608.3f"
+   ]
+  },
+  {
+   "id": "ashad-12:m2",
+   "from": "card:Portal to Phyrexia",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-12",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-12",
+    "cr:608.3f"
+   ]
+  },
+  {
+   "id": "ashad-12:p1",
+   "from": "card:Portal to Phyrexia",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-12",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.3f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-12",
+    "cr:608.3f"
+   ]
+  },
+  {
+   "id": "ashad-13:m1",
+   "from": "commander:Ashad, the Lone Cyberman",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-13",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-13",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "ashad-13:m2",
+   "from": "card:Academy Ruins",
+   "to": "interaction:ashad-the-lone-cyberman/ashad-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "ashad-13",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-13",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "ashad-13:p1",
+   "from": "card:Academy Ruins",
+   "to": "commander:Ashad, the Lone Cyberman",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "ashad-13",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/ashad-the-lone-cyberman.json#ashad-13",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  }
+ ]
+}

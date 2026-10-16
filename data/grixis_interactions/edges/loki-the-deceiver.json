@@ -1,0 +1,797 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Loki__the_Deceiver",
+ "slug": "loki-the-deceiver",
+ "deck_sha256": "a46c0474940b72ac3ae843bd8e6fdcdd9dd10988222dbe0a23a42daeb96cfd53",
+ "review": "data/grixis_interactions/loki-the-deceiver.json",
+ "review_sha256": "8c56c007a0993b039b1f011eda7e459f3a97f57a1a6fdd4dfa4ff84e89a8712a",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 7,
+  "nodes": 18,
+  "membership_edges": 17,
+  "pair_edges": 10
+ },
+ "nodes": [
+  {
+   "id": "commander:Loki, the Deceiver",
+   "kind": "commander",
+   "name": "Loki, the Deceiver",
+   "in_list": true
+  },
+  {
+   "id": "card:Ultron, Unlimited",
+   "kind": "card",
+   "name": "Ultron, Unlimited",
+   "in_list": true
+  },
+  {
+   "id": "card:Killmonger, Ruthless Usurper",
+   "kind": "card",
+   "name": "Killmonger, Ruthless Usurper",
+   "in_list": true
+  },
+  {
+   "id": "interaction:loki-the-deceiver/loki-01",
+   "kind": "interaction",
+   "interaction": "loki-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Red Ghost, Intangible Genius",
+   "kind": "card",
+   "name": "Red Ghost, Intangible Genius",
+   "in_list": true
+  },
+  {
+   "id": "interaction:loki-the-deceiver/loki-02",
+   "kind": "interaction",
+   "interaction": "loki-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Titan of Littjara",
+   "kind": "card",
+   "name": "Titan of Littjara",
+   "in_list": true
+  },
+  {
+   "id": "card:Roaming Throne",
+   "kind": "card",
+   "name": "Roaming Throne",
+   "in_list": true
+  },
+  {
+   "id": "interaction:loki-the-deceiver/loki-03",
+   "kind": "interaction",
+   "interaction": "loki-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Hall of Echoes",
+   "kind": "card",
+   "name": "Hall of Echoes",
+   "in_list": true
+  },
+  {
+   "id": "interaction:loki-the-deceiver/loki-04",
+   "kind": "interaction",
+   "interaction": "loki-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:The Master, Multiplied",
+   "kind": "card",
+   "name": "The Master, Multiplied",
+   "in_list": true
+  },
+  {
+   "id": "card:Sundial of the Infinite",
+   "kind": "card",
+   "name": "Sundial of the Infinite",
+   "in_list": true
+  },
+  {
+   "id": "interaction:loki-the-deceiver/loki-05",
+   "kind": "interaction",
+   "interaction": "loki-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Doctor Octopus, Master Planner",
+   "kind": "card",
+   "name": "Doctor Octopus, Master Planner",
+   "in_list": true
+  },
+  {
+   "id": "interaction:loki-the-deceiver/loki-06",
+   "kind": "interaction",
+   "interaction": "loki-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Loki's Scepter",
+   "kind": "card",
+   "name": "Loki's Scepter",
+   "in_list": true
+  },
+  {
+   "id": "interaction:loki-the-deceiver/loki-07",
+   "kind": "interaction",
+   "interaction": "loki-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "loki-01:m1",
+   "from": "commander:Loki, the Deceiver",
+   "to": "interaction:loki-the-deceiver/loki-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "508.3a",
+    "508.4",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-01",
+    "cr:508.3a",
+    "cr:508.4",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "loki-01:m2",
+   "from": "card:Ultron, Unlimited",
+   "to": "interaction:loki-the-deceiver/loki-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "508.3a",
+    "508.4",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-01",
+    "cr:508.3a",
+    "cr:508.4",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "loki-01:m3",
+   "from": "card:Killmonger, Ruthless Usurper",
+   "to": "interaction:loki-the-deceiver/loki-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "508.3a",
+    "508.4",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-01",
+    "cr:508.3a",
+    "cr:508.4",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "loki-01:p1",
+   "from": "card:Ultron, Unlimited",
+   "to": "commander:Loki, the Deceiver",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "loki-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "508.3a",
+    "508.4",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-01",
+    "cr:508.3a",
+    "cr:508.4",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "loki-01:p2",
+   "from": "card:Killmonger, Ruthless Usurper",
+   "to": "commander:Loki, the Deceiver",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "loki-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "508.3a",
+    "508.4",
+    "707.9b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-01",
+    "cr:508.3a",
+    "cr:508.4",
+    "cr:707.9b"
+   ]
+  },
+  {
+   "id": "loki-02:m1",
+   "from": "commander:Loki, the Deceiver",
+   "to": "interaction:loki-the-deceiver/loki-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "510.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-02",
+    "cr:603.2c",
+    "cr:510.2"
+   ]
+  },
+  {
+   "id": "loki-02:m2",
+   "from": "card:Red Ghost, Intangible Genius",
+   "to": "interaction:loki-the-deceiver/loki-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "510.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-02",
+    "cr:603.2c",
+    "cr:510.2"
+   ]
+  },
+  {
+   "id": "loki-02:p1",
+   "from": "card:Red Ghost, Intangible Genius",
+   "to": "commander:Loki, the Deceiver",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "loki-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "510.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-02",
+    "cr:603.2c",
+    "cr:510.2"
+   ]
+  },
+  {
+   "id": "loki-03:m1",
+   "from": "commander:Loki, the Deceiver",
+   "to": "interaction:loki-the-deceiver/loki-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.12",
+    "603.2",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-03",
+    "cr:614.12",
+    "cr:603.2",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "loki-03:m2",
+   "from": "card:Titan of Littjara",
+   "to": "interaction:loki-the-deceiver/loki-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.12",
+    "603.2",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-03",
+    "cr:614.12",
+    "cr:603.2",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "loki-03:m3",
+   "from": "card:Roaming Throne",
+   "to": "interaction:loki-the-deceiver/loki-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.12",
+    "603.2",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-03",
+    "cr:614.12",
+    "cr:603.2",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "loki-03:p1",
+   "from": "card:Titan of Littjara",
+   "to": "commander:Loki, the Deceiver",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "loki-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.12",
+    "603.2",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-03",
+    "cr:614.12",
+    "cr:603.2",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "loki-03:p2",
+   "from": "card:Roaming Throne",
+   "to": "commander:Loki, the Deceiver",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "loki-03",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.12",
+    "603.2",
+    "707.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-03",
+    "cr:614.12",
+    "cr:603.2",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "loki-04:m1",
+   "from": "commander:Loki, the Deceiver",
+   "to": "interaction:loki-the-deceiver/loki-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "loki-04:m2",
+   "from": "card:Hall of Echoes",
+   "to": "interaction:loki-the-deceiver/loki-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "loki-04:p1",
+   "from": "card:Hall of Echoes",
+   "to": "commander:Loki, the Deceiver",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "loki-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "loki-05:m1",
+   "from": "commander:Loki, the Deceiver",
+   "to": "interaction:loki-the-deceiver/loki-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a",
+    "724.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-05",
+    "cr:603.7a",
+    "cr:724.1"
+   ]
+  },
+  {
+   "id": "loki-05:m2",
+   "from": "card:The Master, Multiplied",
+   "to": "interaction:loki-the-deceiver/loki-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a",
+    "724.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-05",
+    "cr:603.7a",
+    "cr:724.1"
+   ]
+  },
+  {
+   "id": "loki-05:m3",
+   "from": "card:Sundial of the Infinite",
+   "to": "interaction:loki-the-deceiver/loki-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a",
+    "724.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-05",
+    "cr:603.7a",
+    "cr:724.1"
+   ]
+  },
+  {
+   "id": "loki-05:p1",
+   "from": "card:The Master, Multiplied",
+   "to": "commander:Loki, the Deceiver",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "loki-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7a",
+    "724.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-05",
+    "cr:603.7a",
+    "cr:724.1"
+   ]
+  },
+  {
+   "id": "loki-05:p2",
+   "from": "card:Sundial of the Infinite",
+   "to": "commander:Loki, the Deceiver",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "loki-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7a",
+    "724.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-05",
+    "cr:603.7a",
+    "cr:724.1"
+   ]
+  },
+  {
+   "id": "loki-06:m1",
+   "from": "commander:Loki, the Deceiver",
+   "to": "interaction:loki-the-deceiver/loki-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-06",
+    "cr:603.3b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "loki-06:m2",
+   "from": "card:Doctor Octopus, Master Planner",
+   "to": "interaction:loki-the-deceiver/loki-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-06",
+    "cr:603.3b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "loki-06:p1",
+   "from": "card:Doctor Octopus, Master Planner",
+   "to": "commander:Loki, the Deceiver",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "loki-06",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-06",
+    "cr:603.3b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "loki-07:m1",
+   "from": "commander:Loki, the Deceiver",
+   "to": "interaction:loki-the-deceiver/loki-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "613.1d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-07",
+    "cr:707.2",
+    "cr:613.1d"
+   ]
+  },
+  {
+   "id": "loki-07:m2",
+   "from": "card:Loki's Scepter",
+   "to": "interaction:loki-the-deceiver/loki-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "loki-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "613.1d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-07",
+    "cr:707.2",
+    "cr:613.1d"
+   ]
+  },
+  {
+   "id": "loki-07:p1",
+   "from": "card:Loki's Scepter",
+   "to": "commander:Loki, the Deceiver",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "loki-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "613.1d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/loki-the-deceiver.json#loki-07",
+    "cr:707.2",
+    "cr:613.1d"
+   ]
+  }
+ ]
+}

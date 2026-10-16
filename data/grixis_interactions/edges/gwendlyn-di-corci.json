@@ -1,0 +1,1765 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Gwendlyn_Di_Corci",
+ "slug": "gwendlyn-di-corci",
+ "deck_sha256": "4120c13480a4daa65cfd672e720c9e8a7bc83b7964730aaf342bf1da44589ca4",
+ "review": "data/grixis_interactions/gwendlyn-di-corci.json",
+ "review_sha256": "fdd3d8b868e5cd6187aebeebecb57ac4575d0be992a03bd3bae92e8c3c6b818c",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 10,
+  "nodes": 30,
+  "membership_edges": 37,
+  "pair_edges": 27
+ },
+ "nodes": [
+  {
+   "id": "commander:Gwendlyn Di Corci",
+   "kind": "commander",
+   "name": "Gwendlyn Di Corci",
+   "in_list": true
+  },
+  {
+   "id": "card:Lightning Greaves",
+   "kind": "card",
+   "name": "Lightning Greaves",
+   "in_list": true
+  },
+  {
+   "id": "card:Thousand-Year Elixir",
+   "kind": "card",
+   "name": "Thousand-Year Elixir",
+   "in_list": true
+  },
+  {
+   "id": "interaction:gwendlyn-di-corci/gwendlyn-01",
+   "kind": "interaction",
+   "interaction": "gwendlyn-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Illusionist's Bracers",
+   "kind": "card",
+   "name": "Illusionist's Bracers",
+   "in_list": true
+  },
+  {
+   "id": "interaction:gwendlyn-di-corci/gwendlyn-02",
+   "kind": "interaction",
+   "interaction": "gwendlyn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Pemmin's Aura",
+   "kind": "card",
+   "name": "Pemmin's Aura",
+   "in_list": true
+  },
+  {
+   "id": "card:Minamo, School at Water's Edge",
+   "kind": "card",
+   "name": "Minamo, School at Water's Edge",
+   "in_list": true
+  },
+  {
+   "id": "card:Magewright's Stone",
+   "kind": "card",
+   "name": "Magewright's Stone",
+   "in_list": true
+  },
+  {
+   "id": "card:Patriar's Seal",
+   "kind": "card",
+   "name": "Patriar's Seal",
+   "in_list": true
+  },
+  {
+   "id": "interaction:gwendlyn-di-corci/gwendlyn-03",
+   "kind": "interaction",
+   "interaction": "gwendlyn-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:gwendlyn-di-corci/gwendlyn-04",
+   "kind": "interaction",
+   "interaction": "gwendlyn-04",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Tinybones, Pocket Nuisance",
+   "kind": "card",
+   "name": "Tinybones, Pocket Nuisance",
+   "in_list": true
+  },
+  {
+   "id": "card:Liliana's Caress",
+   "kind": "card",
+   "name": "Liliana's Caress",
+   "in_list": true
+  },
+  {
+   "id": "card:Geth's Grimoire",
+   "kind": "card",
+   "name": "Geth's Grimoire",
+   "in_list": true
+  },
+  {
+   "id": "card:Mind Twist",
+   "kind": "card",
+   "name": "Mind Twist",
+   "in_list": true
+  },
+  {
+   "id": "interaction:gwendlyn-di-corci/gwendlyn-05",
+   "kind": "interaction",
+   "interaction": "gwendlyn-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Chains of Mephistopheles",
+   "kind": "card",
+   "name": "Chains of Mephistopheles",
+   "in_list": true
+  },
+  {
+   "id": "card:Wheel of Fortune",
+   "kind": "card",
+   "name": "Wheel of Fortune",
+   "in_list": true
+  },
+  {
+   "id": "card:Windfall",
+   "kind": "card",
+   "name": "Windfall",
+   "in_list": true
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "card:Lion's Eye Diamond",
+   "kind": "card",
+   "name": "Lion's Eye Diamond",
+   "in_list": true
+  },
+  {
+   "id": "interaction:gwendlyn-di-corci/gwendlyn-06",
+   "kind": "interaction",
+   "interaction": "gwendlyn-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "spellbook": [
+    "1368-2706-3518"
+   ]
+  },
+  {
+   "id": "card:Notion Thief",
+   "kind": "card",
+   "name": "Notion Thief",
+   "in_list": true
+  },
+  {
+   "id": "interaction:gwendlyn-di-corci/gwendlyn-07",
+   "kind": "interaction",
+   "interaction": "gwendlyn-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Tergrid, God of Fright // Tergrid's Lantern",
+   "kind": "card",
+   "name": "Tergrid, God of Fright // Tergrid's Lantern",
+   "in_list": true
+  },
+  {
+   "id": "interaction:gwendlyn-di-corci/gwendlyn-08",
+   "kind": "interaction",
+   "interaction": "gwendlyn-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Bloodchief Ascension",
+   "kind": "card",
+   "name": "Bloodchief Ascension",
+   "in_list": true
+  },
+  {
+   "id": "interaction:gwendlyn-di-corci/gwendlyn-09",
+   "kind": "interaction",
+   "interaction": "gwendlyn-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "combo:gwendlyn-di-corci/gwendlyn-10",
+   "kind": "combo",
+   "interaction": "gwendlyn-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1368-2706-3518",
+    "1368-2706-3518"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "id": "gwendlyn-01:m1",
+   "from": "commander:Gwendlyn Di Corci",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.5",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-01",
+    "cr:302.6",
+    "cr:602.5",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-01:m2",
+   "from": "card:Lightning Greaves",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.5",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-01",
+    "cr:302.6",
+    "cr:602.5",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-01:m3",
+   "from": "card:Thousand-Year Elixir",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.5",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-01",
+    "cr:302.6",
+    "cr:602.5",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-01:p1",
+   "from": "card:Lightning Greaves",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "602.5",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-01",
+    "cr:302.6",
+    "cr:602.5",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-01:p2",
+   "from": "card:Thousand-Year Elixir",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "602.5",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-01",
+    "cr:302.6",
+    "cr:602.5",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-02:m1",
+   "from": "commander:Gwendlyn Di Corci",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-02",
+    "cr:707.10",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "gwendlyn-02:m2",
+   "from": "card:Illusionist's Bracers",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-02",
+    "cr:707.10",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "gwendlyn-02:p1",
+   "from": "card:Illusionist's Bracers",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "605.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-02",
+    "cr:707.10",
+    "cr:605.1a"
+   ]
+  },
+  {
+   "id": "gwendlyn-03:m1",
+   "from": "commander:Gwendlyn Di Corci",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.2",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-03",
+    "cr:602.2",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-03:m2",
+   "from": "card:Pemmin's Aura",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.2",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-03",
+    "cr:602.2",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-03:m3",
+   "from": "card:Minamo, School at Water's Edge",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.2",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-03",
+    "cr:602.2",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-03:m4",
+   "from": "card:Magewright's Stone",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.2",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-03",
+    "cr:602.2",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-03:m5",
+   "from": "card:Patriar's Seal",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.2",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-03",
+    "cr:602.2",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-03:p1",
+   "from": "card:Pemmin's Aura",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.2",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-03",
+    "cr:602.2",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-03:p2",
+   "from": "card:Minamo, School at Water's Edge",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.2",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-03",
+    "cr:602.2",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-03:p3",
+   "from": "card:Magewright's Stone",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.2",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-03",
+    "cr:602.2",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-03:p4",
+   "from": "card:Patriar's Seal",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-03",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.2",
+    "115.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-03",
+    "cr:602.2",
+    "cr:115.1"
+   ]
+  },
+  {
+   "id": "gwendlyn-04:m1",
+   "from": "commander:Gwendlyn Di Corci",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-04",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.6a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-04",
+    "cr:702.18a",
+    "cr:702.6a",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "gwendlyn-04:m2",
+   "from": "card:Pemmin's Aura",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-04",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.6a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-04",
+    "cr:702.18a",
+    "cr:702.6a",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "gwendlyn-04:m3",
+   "from": "card:Lightning Greaves",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-04",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.6a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-04",
+    "cr:702.18a",
+    "cr:702.6a",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "gwendlyn-04:m4",
+   "from": "card:Minamo, School at Water's Edge",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-04",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.6a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-04",
+    "cr:702.18a",
+    "cr:702.6a",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "gwendlyn-04:m5",
+   "from": "card:Illusionist's Bracers",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-04",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.18a",
+    "702.6a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-04",
+    "cr:702.18a",
+    "cr:702.6a",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "gwendlyn-04:p1",
+   "from": "card:Pemmin's Aura",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-04",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.6a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-04",
+    "cr:702.18a",
+    "cr:702.6a",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "gwendlyn-04:p2",
+   "from": "card:Lightning Greaves",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-04",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.6a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-04",
+    "cr:702.18a",
+    "cr:702.6a",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "gwendlyn-04:p3",
+   "from": "card:Minamo, School at Water's Edge",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-04",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.6a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-04",
+    "cr:702.18a",
+    "cr:702.6a",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "gwendlyn-04:p4",
+   "from": "card:Illusionist's Bracers",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-04",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.18a",
+    "702.6a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-04",
+    "cr:702.18a",
+    "cr:702.6a",
+    "cr:303.4a"
+   ]
+  },
+  {
+   "id": "gwendlyn-05:m1",
+   "from": "commander:Gwendlyn Di Corci",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "gwendlyn-05:m2",
+   "from": "card:Tinybones, Pocket Nuisance",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "gwendlyn-05:m3",
+   "from": "card:Liliana's Caress",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "gwendlyn-05:m4",
+   "from": "card:Geth's Grimoire",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "gwendlyn-05:m5",
+   "from": "card:Mind Twist",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "gwendlyn-05:p1",
+   "from": "card:Tinybones, Pocket Nuisance",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "gwendlyn-05:p2",
+   "from": "card:Liliana's Caress",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "gwendlyn-05:p3",
+   "from": "card:Geth's Grimoire",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "gwendlyn-05:p4",
+   "from": "card:Mind Twist",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2c",
+    "701.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-05",
+    "cr:603.2c",
+    "cr:701.9a"
+   ]
+  },
+  {
+   "id": "gwendlyn-06:m1",
+   "from": "commander:Gwendlyn Di Corci",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "614.11",
+    "121.2",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-06",
+    "cr:614.11",
+    "cr:121.2",
+    "cr:616.1",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-06:m2",
+   "from": "card:Chains of Mephistopheles",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "614.11",
+    "121.2",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-06",
+    "cr:614.11",
+    "cr:121.2",
+    "cr:616.1",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-06:m3",
+   "from": "card:Wheel of Fortune",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "614.11",
+    "121.2",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-06",
+    "cr:614.11",
+    "cr:121.2",
+    "cr:616.1",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-06:m4",
+   "from": "card:Windfall",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "614.11",
+    "121.2",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-06",
+    "cr:614.11",
+    "cr:121.2",
+    "cr:616.1",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-06:m5",
+   "from": "card:Underworld Breach",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "614.11",
+    "121.2",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-06",
+    "cr:614.11",
+    "cr:121.2",
+    "cr:616.1",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-06:m6",
+   "from": "card:Lion's Eye Diamond",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "614.11",
+    "121.2",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-06",
+    "cr:614.11",
+    "cr:121.2",
+    "cr:616.1",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-06:p1",
+   "from": "card:Chains of Mephistopheles",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.11",
+    "121.2",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-06",
+    "cr:614.11",
+    "cr:121.2",
+    "cr:616.1",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-06:p2",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.11",
+    "121.2",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-06",
+    "cr:614.11",
+    "cr:121.2",
+    "cr:616.1",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-06:p3",
+   "from": "card:Windfall",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.11",
+    "121.2",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-06",
+    "cr:614.11",
+    "cr:121.2",
+    "cr:616.1",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-06:p4",
+   "from": "card:Underworld Breach",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.11",
+    "121.2",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-06",
+    "cr:614.11",
+    "cr:121.2",
+    "cr:616.1",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-06:p5",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.11",
+    "121.2",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-06",
+    "cr:614.11",
+    "cr:121.2",
+    "cr:616.1",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-07:m1",
+   "from": "commander:Gwendlyn Di Corci",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "616.1",
+    "616.1e"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-07",
+    "cr:616.1",
+    "cr:616.1e"
+   ]
+  },
+  {
+   "id": "gwendlyn-07:m2",
+   "from": "card:Chains of Mephistopheles",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "616.1",
+    "616.1e"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-07",
+    "cr:616.1",
+    "cr:616.1e"
+   ]
+  },
+  {
+   "id": "gwendlyn-07:m3",
+   "from": "card:Notion Thief",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "616.1",
+    "616.1e"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-07",
+    "cr:616.1",
+    "cr:616.1e"
+   ]
+  },
+  {
+   "id": "gwendlyn-07:p1",
+   "from": "card:Chains of Mephistopheles",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "616.1",
+    "616.1e"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-07",
+    "cr:616.1",
+    "cr:616.1e"
+   ]
+  },
+  {
+   "id": "gwendlyn-07:p2",
+   "from": "card:Notion Thief",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-07",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "616.1",
+    "616.1e"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-07",
+    "cr:616.1",
+    "cr:616.1e"
+   ]
+  },
+  {
+   "id": "gwendlyn-08:m1",
+   "from": "commander:Gwendlyn Di Corci",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-08",
+    "cr:603.2",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "gwendlyn-08:m2",
+   "from": "card:Tergrid, God of Fright // Tergrid's Lantern",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-08",
+    "cr:603.2",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "gwendlyn-08:p1",
+   "from": "card:Tergrid, God of Fright // Tergrid's Lantern",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-08",
+    "cr:603.2",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "gwendlyn-09:m1",
+   "from": "commander:Gwendlyn Di Corci",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-09",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "gwendlyn-09:m2",
+   "from": "card:Bloodchief Ascension",
+   "to": "interaction:gwendlyn-di-corci/gwendlyn-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-09",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "gwendlyn-09:p1",
+   "from": "card:Bloodchief Ascension",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-09",
+    "cr:603.4"
+   ]
+  },
+  {
+   "id": "gwendlyn-10:m1",
+   "from": "commander:Gwendlyn Di Corci",
+   "to": "combo:gwendlyn-di-corci/gwendlyn-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-10",
+    "cr:702.138a",
+    "spellbook:1368-2706-3518",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-10:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:gwendlyn-di-corci/gwendlyn-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-10",
+    "cr:702.138a",
+    "spellbook:1368-2706-3518",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-10:m3",
+   "from": "card:Lion's Eye Diamond",
+   "to": "combo:gwendlyn-di-corci/gwendlyn-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-10",
+    "cr:702.138a",
+    "spellbook:1368-2706-3518",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-10:m4",
+   "from": "card:Wheel of Fortune",
+   "to": "combo:gwendlyn-di-corci/gwendlyn-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "gwendlyn-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-10",
+    "cr:702.138a",
+    "spellbook:1368-2706-3518",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-10:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-10",
+    "cr:702.138a",
+    "spellbook:1368-2706-3518",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-10:p2",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-10",
+    "cr:702.138a",
+    "spellbook:1368-2706-3518",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "gwendlyn-10:p3",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Gwendlyn Di Corci",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "gwendlyn-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/gwendlyn-di-corci.json#gwendlyn-10",
+    "cr:702.138a",
+    "spellbook:1368-2706-3518",
+    "spellbook:1368-2706-3518"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1588 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Tresserhorn_s_Lord__Returned",
+ "slug": "tresserhorns-lord-returned",
+ "deck_sha256": "d30533e2a9574c55552115353ba2c16fc36aacf11be3c4b700d52bc9cddbcd3e",
+ "review": "data/grixis_interactions/tresserhorns-lord-returned.json",
+ "review_sha256": "505ad449887f819547be17a8349e5e5ea4796fc9b1a03f7a949ec28d7be87afa",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 7,
+  "nodes": 32,
+  "membership_edges": 32,
+  "pair_edges": 25
+ },
+ "nodes": [
+  {
+   "id": "commander:Tresserhorn's Lord, Returned",
+   "kind": "commander",
+   "name": "Tresserhorn's Lord, Returned",
+   "in_list": true
+  },
+  {
+   "id": "interaction:tresserhorns-lord-returned/tressret-01",
+   "kind": "interaction",
+   "interaction": "tressret-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:The Locust God",
+   "kind": "card",
+   "name": "The Locust God",
+   "in_list": true
+  },
+  {
+   "id": "card:Ashnod's Altar",
+   "kind": "card",
+   "name": "Ashnod's Altar",
+   "in_list": true
+  },
+  {
+   "id": "card:Phyrexian Altar",
+   "kind": "card",
+   "name": "Phyrexian Altar",
+   "in_list": true
+  },
+  {
+   "id": "card:Viscera Seer",
+   "kind": "card",
+   "name": "Viscera Seer",
+   "in_list": true
+  },
+  {
+   "id": "card:Carrion Feeder",
+   "kind": "card",
+   "name": "Carrion Feeder",
+   "in_list": true
+  },
+  {
+   "id": "card:Goblin Bombardment",
+   "kind": "card",
+   "name": "Goblin Bombardment",
+   "in_list": true
+  },
+  {
+   "id": "card:Woe Strider",
+   "kind": "card",
+   "name": "Woe Strider",
+   "in_list": true
+  },
+  {
+   "id": "card:Skullclamp",
+   "kind": "card",
+   "name": "Skullclamp",
+   "in_list": true
+  },
+  {
+   "id": "card:Yawgmoth, Thran Physician",
+   "kind": "card",
+   "name": "Yawgmoth, Thran Physician",
+   "in_list": true
+  },
+  {
+   "id": "combo:tresserhorns-lord-returned/tressret-02",
+   "kind": "combo",
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1339-2034-7920",
+    "1339-2034-7920"
+   ]
+  },
+  {
+   "id": "card:Gravecrawler",
+   "kind": "card",
+   "name": "Gravecrawler",
+   "in_list": true
+  },
+  {
+   "id": "card:Pitiless Plunderer",
+   "kind": "card",
+   "name": "Pitiless Plunderer",
+   "in_list": true
+  },
+  {
+   "id": "card:Warren Soultrader",
+   "kind": "card",
+   "name": "Warren Soultrader",
+   "in_list": true
+  },
+  {
+   "id": "card:Blood Artist",
+   "kind": "card",
+   "name": "Blood Artist",
+   "in_list": true
+  },
+  {
+   "id": "card:Zulaport Cutthroat",
+   "kind": "card",
+   "name": "Zulaport Cutthroat",
+   "in_list": true
+  },
+  {
+   "id": "card:Bastion of Remembrance",
+   "kind": "card",
+   "name": "Bastion of Remembrance",
+   "in_list": true
+  },
+  {
+   "id": "card:Marionette Apprentice",
+   "kind": "card",
+   "name": "Marionette Apprentice",
+   "in_list": true
+  },
+  {
+   "id": "combo:tresserhorns-lord-returned/tressret-03",
+   "kind": "combo",
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "2577-4050",
+    "2577-3025-5670"
+   ]
+  },
+  {
+   "id": "card:Plumb the Forbidden",
+   "kind": "card",
+   "name": "Plumb the Forbidden",
+   "in_list": true
+  },
+  {
+   "id": "card:My Precious // Allure of Power",
+   "kind": "card",
+   "name": "My Precious // Allure of Power",
+   "in_list": true
+  },
+  {
+   "id": "card:Infantry Shield",
+   "kind": "card",
+   "name": "Infantry Shield",
+   "in_list": true
+  },
+  {
+   "id": "card:Wand of Orcus",
+   "kind": "card",
+   "name": "Wand of Orcus",
+   "in_list": true
+  },
+  {
+   "id": "interaction:tresserhorns-lord-returned/tressret-04",
+   "kind": "interaction",
+   "interaction": "tressret-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Blasphemous Edict",
+   "kind": "card",
+   "name": "Blasphemous Edict",
+   "in_list": true
+  },
+  {
+   "id": "interaction:tresserhorns-lord-returned/tressret-05",
+   "kind": "interaction",
+   "interaction": "tressret-05",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Nightscape Familiar",
+   "kind": "card",
+   "name": "Nightscape Familiar",
+   "in_list": true
+  },
+  {
+   "id": "card:Not of This World",
+   "kind": "card",
+   "name": "Not of This World",
+   "in_list": true
+  },
+  {
+   "id": "card:Cavern of Souls",
+   "kind": "card",
+   "name": "Cavern of Souls",
+   "in_list": true
+  },
+  {
+   "id": "interaction:tresserhorns-lord-returned/tressret-06",
+   "kind": "interaction",
+   "interaction": "tressret-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:tresserhorns-lord-returned/tressret-07",
+   "kind": "interaction",
+   "interaction": "tressret-07",
+   "topic": "legality",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "tressret-01:m1",
+   "from": "commander:Tresserhorn's Lord, Returned",
+   "to": "interaction:tresserhorns-lord-returned/tressret-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.12",
+    "603.10a",
+    "603.2c",
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-01",
+    "cr:118.12",
+    "cr:603.10a",
+    "cr:603.2c",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "tressret-02:m1",
+   "from": "commander:Tresserhorn's Lord, Returned",
+   "to": "combo:tresserhorns-lord-returned/tressret-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:m2",
+   "from": "card:The Locust God",
+   "to": "combo:tresserhorns-lord-returned/tressret-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:m3",
+   "from": "card:Ashnod's Altar",
+   "to": "combo:tresserhorns-lord-returned/tressret-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:m4",
+   "from": "card:Phyrexian Altar",
+   "to": "combo:tresserhorns-lord-returned/tressret-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:m5",
+   "from": "card:Viscera Seer",
+   "to": "combo:tresserhorns-lord-returned/tressret-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:m6",
+   "from": "card:Carrion Feeder",
+   "to": "combo:tresserhorns-lord-returned/tressret-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:m7",
+   "from": "card:Goblin Bombardment",
+   "to": "combo:tresserhorns-lord-returned/tressret-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:m8",
+   "from": "card:Woe Strider",
+   "to": "combo:tresserhorns-lord-returned/tressret-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:m9",
+   "from": "card:Skullclamp",
+   "to": "combo:tresserhorns-lord-returned/tressret-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:m10",
+   "from": "card:Yawgmoth, Thran Physician",
+   "to": "combo:tresserhorns-lord-returned/tressret-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:p1",
+   "from": "card:The Locust God",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:p2",
+   "from": "card:Ashnod's Altar",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:p3",
+   "from": "card:Phyrexian Altar",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:p4",
+   "from": "card:Viscera Seer",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:p5",
+   "from": "card:Carrion Feeder",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:p6",
+   "from": "card:Goblin Bombardment",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:p7",
+   "from": "card:Woe Strider",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:p8",
+   "from": "card:Skullclamp",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-02:p9",
+   "from": "card:Yawgmoth, Thran Physician",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-02",
+    "cr:603.2",
+    "cr:104.3c",
+    "spellbook:1339-2034-7920",
+    "spellbook:1339-2034-7920"
+   ]
+  },
+  {
+   "id": "tressret-03:m1",
+   "from": "commander:Tresserhorn's Lord, Returned",
+   "to": "combo:tresserhorns-lord-returned/tressret-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:m2",
+   "from": "card:Gravecrawler",
+   "to": "combo:tresserhorns-lord-returned/tressret-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:m3",
+   "from": "card:Phyrexian Altar",
+   "to": "combo:tresserhorns-lord-returned/tressret-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:m4",
+   "from": "card:Pitiless Plunderer",
+   "to": "combo:tresserhorns-lord-returned/tressret-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:m5",
+   "from": "card:Warren Soultrader",
+   "to": "combo:tresserhorns-lord-returned/tressret-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:m6",
+   "from": "card:Blood Artist",
+   "to": "combo:tresserhorns-lord-returned/tressret-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:m7",
+   "from": "card:Zulaport Cutthroat",
+   "to": "combo:tresserhorns-lord-returned/tressret-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:m8",
+   "from": "card:Bastion of Remembrance",
+   "to": "combo:tresserhorns-lord-returned/tressret-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:m9",
+   "from": "card:Marionette Apprentice",
+   "to": "combo:tresserhorns-lord-returned/tressret-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:p1",
+   "from": "card:Gravecrawler",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:p2",
+   "from": "card:Phyrexian Altar",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:p3",
+   "from": "card:Pitiless Plunderer",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:p4",
+   "from": "card:Warren Soultrader",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:p5",
+   "from": "card:Blood Artist",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:p6",
+   "from": "card:Zulaport Cutthroat",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:p7",
+   "from": "card:Bastion of Remembrance",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-03:p8",
+   "from": "card:Marionette Apprentice",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-03",
+    "cr:601.2",
+    "spellbook:2577-4050",
+    "spellbook:2577-3025-5670"
+   ]
+  },
+  {
+   "id": "tressret-04:m1",
+   "from": "commander:Tresserhorn's Lord, Returned",
+   "to": "interaction:tresserhorns-lord-returned/tressret-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.181a",
+    "702.2c",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-04",
+    "cr:702.181a",
+    "cr:702.2c",
+    "cr:702.19b"
+   ]
+  },
+  {
+   "id": "tressret-04:m2",
+   "from": "card:Plumb the Forbidden",
+   "to": "interaction:tresserhorns-lord-returned/tressret-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.181a",
+    "702.2c",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-04",
+    "cr:702.181a",
+    "cr:702.2c",
+    "cr:702.19b"
+   ]
+  },
+  {
+   "id": "tressret-04:m3",
+   "from": "card:My Precious // Allure of Power",
+   "to": "interaction:tresserhorns-lord-returned/tressret-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.181a",
+    "702.2c",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-04",
+    "cr:702.181a",
+    "cr:702.2c",
+    "cr:702.19b"
+   ]
+  },
+  {
+   "id": "tressret-04:m4",
+   "from": "card:Infantry Shield",
+   "to": "interaction:tresserhorns-lord-returned/tressret-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.181a",
+    "702.2c",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-04",
+    "cr:702.181a",
+    "cr:702.2c",
+    "cr:702.19b"
+   ]
+  },
+  {
+   "id": "tressret-04:m5",
+   "from": "card:Wand of Orcus",
+   "to": "interaction:tresserhorns-lord-returned/tressret-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.181a",
+    "702.2c",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-04",
+    "cr:702.181a",
+    "cr:702.2c",
+    "cr:702.19b"
+   ]
+  },
+  {
+   "id": "tressret-04:p1",
+   "from": "card:Plumb the Forbidden",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.181a",
+    "702.2c",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-04",
+    "cr:702.181a",
+    "cr:702.2c",
+    "cr:702.19b"
+   ]
+  },
+  {
+   "id": "tressret-04:p2",
+   "from": "card:My Precious // Allure of Power",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.181a",
+    "702.2c",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-04",
+    "cr:702.181a",
+    "cr:702.2c",
+    "cr:702.19b"
+   ]
+  },
+  {
+   "id": "tressret-04:p3",
+   "from": "card:Infantry Shield",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.181a",
+    "702.2c",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-04",
+    "cr:702.181a",
+    "cr:702.2c",
+    "cr:702.19b"
+   ]
+  },
+  {
+   "id": "tressret-04:p4",
+   "from": "card:Wand of Orcus",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.181a",
+    "702.2c",
+    "702.19b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-04",
+    "cr:702.181a",
+    "cr:702.2c",
+    "cr:702.19b"
+   ]
+  },
+  {
+   "id": "tressret-05:m1",
+   "from": "commander:Tresserhorn's Lord, Returned",
+   "to": "interaction:tresserhorns-lord-returned/tressret-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-05",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-05",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "tressret-05:m2",
+   "from": "card:Blasphemous Edict",
+   "to": "interaction:tresserhorns-lord-returned/tressret-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-05",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-05",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "tressret-05:p1",
+   "from": "card:Blasphemous Edict",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-05",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.21a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-05",
+    "cr:701.21a"
+   ]
+  },
+  {
+   "id": "tressret-06:m1",
+   "from": "commander:Tresserhorn's Lord, Returned",
+   "to": "interaction:tresserhorns-lord-returned/tressret-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-06",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "tressret-06:m2",
+   "from": "card:Nightscape Familiar",
+   "to": "interaction:tresserhorns-lord-returned/tressret-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-06",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "tressret-06:m3",
+   "from": "card:Not of This World",
+   "to": "interaction:tresserhorns-lord-returned/tressret-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-06",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "tressret-06:m4",
+   "from": "card:Cavern of Souls",
+   "to": "interaction:tresserhorns-lord-returned/tressret-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-06",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "tressret-06:p1",
+   "from": "card:Nightscape Familiar",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-06",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "tressret-06:p2",
+   "from": "card:Not of This World",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-06",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "tressret-06:p3",
+   "from": "card:Cavern of Souls",
+   "to": "commander:Tresserhorn's Lord, Returned",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tressret-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-06",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "tressret-07:m1",
+   "from": "commander:Tresserhorn's Lord, Returned",
+   "to": "interaction:tresserhorns-lord-returned/tressret-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tressret-07",
+   "topic": "legality",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [],
+   "evidence": [
+    "review:data/grixis_interactions/tresserhorns-lord-returned.json#tressret-07"
+   ]
+  }
+ ]
+}

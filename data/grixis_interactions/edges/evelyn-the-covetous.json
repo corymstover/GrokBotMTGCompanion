@@ -1,0 +1,1787 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Evelyn__the_Covetous",
+ "slug": "evelyn-the-covetous",
+ "deck_sha256": "e230c85b8254f533b0a8d6e2e5699e9eac000010f594a822892c3d74cd76390f",
+ "review": "data/grixis_interactions/evelyn-the-covetous.json",
+ "review_sha256": "dccbbbb809ccad9aa3249019068a0928aec8c701f9953f0448dabe2e01790c4a",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 10,
+  "nodes": 30,
+  "membership_edges": 36,
+  "pair_edges": 26
+ },
+ "nodes": [
+  {
+   "id": "commander:Evelyn, the Covetous",
+   "kind": "commander",
+   "name": "Evelyn, the Covetous",
+   "in_list": true
+  },
+  {
+   "id": "interaction:evelyn-the-covetous/evelyn-01",
+   "kind": "interaction",
+   "interaction": "evelyn-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Leyline of Anticipation",
+   "kind": "card",
+   "name": "Leyline of Anticipation",
+   "in_list": true
+  },
+  {
+   "id": "card:Borne Upon a Wind",
+   "kind": "card",
+   "name": "Borne Upon a Wind",
+   "in_list": true
+  },
+  {
+   "id": "card:Valley Floodcaller",
+   "kind": "card",
+   "name": "Valley Floodcaller",
+   "in_list": true
+  },
+  {
+   "id": "interaction:evelyn-the-covetous/evelyn-02",
+   "kind": "interaction",
+   "interaction": "evelyn-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Worldgorger Dragon",
+   "kind": "card",
+   "name": "Worldgorger Dragon",
+   "in_list": true
+  },
+  {
+   "id": "card:Animate Dead",
+   "kind": "card",
+   "name": "Animate Dead",
+   "in_list": true
+  },
+  {
+   "id": "card:Dance of the Dead",
+   "kind": "card",
+   "name": "Dance of the Dead",
+   "in_list": true
+  },
+  {
+   "id": "card:Necromancy",
+   "kind": "card",
+   "name": "Necromancy",
+   "in_list": true
+  },
+  {
+   "id": "combo:evelyn-the-covetous/evelyn-03",
+   "kind": "combo",
+   "interaction": "evelyn-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "4812-4846",
+    "4812-4846",
+    "3605-4846",
+    "2896-4846"
+   ]
+  },
+  {
+   "id": "interaction:evelyn-the-covetous/evelyn-04",
+   "kind": "interaction",
+   "interaction": "evelyn-04",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thassa's Oracle",
+   "kind": "card",
+   "name": "Thassa's Oracle",
+   "in_list": true
+  },
+  {
+   "id": "combo:evelyn-the-covetous/evelyn-05",
+   "kind": "combo",
+   "interaction": "evelyn-05",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis"
+  },
+  {
+   "id": "card:Demonic Consultation",
+   "kind": "card",
+   "name": "Demonic Consultation",
+   "in_list": true
+  },
+  {
+   "id": "card:Tainted Pact",
+   "kind": "card",
+   "name": "Tainted Pact",
+   "in_list": true
+  },
+  {
+   "id": "combo:evelyn-the-covetous/evelyn-06",
+   "kind": "combo",
+   "interaction": "evelyn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "742-1295",
+    "1295-3093"
+   ]
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "card:Lion's Eye Diamond",
+   "kind": "card",
+   "name": "Lion's Eye Diamond",
+   "in_list": true
+  },
+  {
+   "id": "card:Lotus Petal",
+   "kind": "card",
+   "name": "Lotus Petal",
+   "in_list": true
+  },
+  {
+   "id": "card:Brain Freeze",
+   "kind": "card",
+   "name": "Brain Freeze",
+   "in_list": true
+  },
+  {
+   "id": "combo:evelyn-the-covetous/evelyn-07",
+   "kind": "combo",
+   "interaction": "evelyn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1368-3518-4856",
+    "1368-3518-4856",
+    "1368-1414-4856"
+   ]
+  },
+  {
+   "id": "card:Vexing Bauble",
+   "kind": "card",
+   "name": "Vexing Bauble",
+   "in_list": true
+  },
+  {
+   "id": "card:Force of Will",
+   "kind": "card",
+   "name": "Force of Will",
+   "in_list": true
+  },
+  {
+   "id": "card:Pact of Negation",
+   "kind": "card",
+   "name": "Pact of Negation",
+   "in_list": true
+  },
+  {
+   "id": "interaction:evelyn-the-covetous/evelyn-08",
+   "kind": "interaction",
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Saw in Half",
+   "kind": "card",
+   "name": "Saw in Half",
+   "in_list": true
+  },
+  {
+   "id": "interaction:evelyn-the-covetous/evelyn-09",
+   "kind": "interaction",
+   "interaction": "evelyn-09",
+   "topic": "zone",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Party Thrasher",
+   "kind": "card",
+   "name": "Party Thrasher",
+   "in_list": true
+  },
+  {
+   "id": "interaction:evelyn-the-covetous/evelyn-10",
+   "kind": "interaction",
+   "interaction": "evelyn-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "evelyn-01:m1",
+   "from": "commander:Evelyn, the Covetous",
+   "to": "interaction:evelyn-the-covetous/evelyn-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "601.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-01",
+    "cr:400.7",
+    "cr:601.3"
+   ]
+  },
+  {
+   "id": "evelyn-02:m1",
+   "from": "commander:Evelyn, the Covetous",
+   "to": "interaction:evelyn-the-covetous/evelyn-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "307.1",
+    "305.3",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-02",
+    "cr:307.1",
+    "cr:305.3",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "evelyn-02:m2",
+   "from": "card:Leyline of Anticipation",
+   "to": "interaction:evelyn-the-covetous/evelyn-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "307.1",
+    "305.3",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-02",
+    "cr:307.1",
+    "cr:305.3",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "evelyn-02:m3",
+   "from": "card:Borne Upon a Wind",
+   "to": "interaction:evelyn-the-covetous/evelyn-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "307.1",
+    "305.3",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-02",
+    "cr:307.1",
+    "cr:305.3",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "evelyn-02:m4",
+   "from": "card:Valley Floodcaller",
+   "to": "interaction:evelyn-the-covetous/evelyn-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "307.1",
+    "305.3",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-02",
+    "cr:307.1",
+    "cr:305.3",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "evelyn-02:p1",
+   "from": "card:Leyline of Anticipation",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "307.1",
+    "305.3",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-02",
+    "cr:307.1",
+    "cr:305.3",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "evelyn-02:p2",
+   "from": "card:Borne Upon a Wind",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "307.1",
+    "305.3",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-02",
+    "cr:307.1",
+    "cr:305.3",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "evelyn-02:p3",
+   "from": "card:Valley Floodcaller",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "307.1",
+    "305.3",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-02",
+    "cr:307.1",
+    "cr:305.3",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "evelyn-03:m1",
+   "from": "commander:Evelyn, the Covetous",
+   "to": "combo:evelyn-the-covetous/evelyn-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6c",
+    "603.10a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-03",
+    "cr:603.6c",
+    "cr:603.10a",
+    "cr:303.4a",
+    "spellbook:4812-4846",
+    "spellbook:4812-4846",
+    "spellbook:3605-4846",
+    "spellbook:2896-4846"
+   ]
+  },
+  {
+   "id": "evelyn-03:m2",
+   "from": "card:Worldgorger Dragon",
+   "to": "combo:evelyn-the-covetous/evelyn-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6c",
+    "603.10a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-03",
+    "cr:603.6c",
+    "cr:603.10a",
+    "cr:303.4a",
+    "spellbook:4812-4846",
+    "spellbook:4812-4846",
+    "spellbook:3605-4846",
+    "spellbook:2896-4846"
+   ]
+  },
+  {
+   "id": "evelyn-03:m3",
+   "from": "card:Animate Dead",
+   "to": "combo:evelyn-the-covetous/evelyn-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6c",
+    "603.10a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-03",
+    "cr:603.6c",
+    "cr:603.10a",
+    "cr:303.4a",
+    "spellbook:4812-4846",
+    "spellbook:4812-4846",
+    "spellbook:3605-4846",
+    "spellbook:2896-4846"
+   ]
+  },
+  {
+   "id": "evelyn-03:m4",
+   "from": "card:Dance of the Dead",
+   "to": "combo:evelyn-the-covetous/evelyn-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6c",
+    "603.10a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-03",
+    "cr:603.6c",
+    "cr:603.10a",
+    "cr:303.4a",
+    "spellbook:4812-4846",
+    "spellbook:4812-4846",
+    "spellbook:3605-4846",
+    "spellbook:2896-4846"
+   ]
+  },
+  {
+   "id": "evelyn-03:m5",
+   "from": "card:Necromancy",
+   "to": "combo:evelyn-the-covetous/evelyn-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.6c",
+    "603.10a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-03",
+    "cr:603.6c",
+    "cr:603.10a",
+    "cr:303.4a",
+    "spellbook:4812-4846",
+    "spellbook:4812-4846",
+    "spellbook:3605-4846",
+    "spellbook:2896-4846"
+   ]
+  },
+  {
+   "id": "evelyn-03:p1",
+   "from": "card:Worldgorger Dragon",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6c",
+    "603.10a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-03",
+    "cr:603.6c",
+    "cr:603.10a",
+    "cr:303.4a",
+    "spellbook:4812-4846",
+    "spellbook:4812-4846",
+    "spellbook:3605-4846",
+    "spellbook:2896-4846"
+   ]
+  },
+  {
+   "id": "evelyn-03:p2",
+   "from": "card:Animate Dead",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6c",
+    "603.10a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-03",
+    "cr:603.6c",
+    "cr:603.10a",
+    "cr:303.4a",
+    "spellbook:4812-4846",
+    "spellbook:4812-4846",
+    "spellbook:3605-4846",
+    "spellbook:2896-4846"
+   ]
+  },
+  {
+   "id": "evelyn-03:p3",
+   "from": "card:Dance of the Dead",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6c",
+    "603.10a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-03",
+    "cr:603.6c",
+    "cr:603.10a",
+    "cr:303.4a",
+    "spellbook:4812-4846",
+    "spellbook:4812-4846",
+    "spellbook:3605-4846",
+    "spellbook:2896-4846"
+   ]
+  },
+  {
+   "id": "evelyn-03:p4",
+   "from": "card:Necromancy",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.6c",
+    "603.10a",
+    "303.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-03",
+    "cr:603.6c",
+    "cr:603.10a",
+    "cr:303.4a",
+    "spellbook:4812-4846",
+    "spellbook:4812-4846",
+    "spellbook:3605-4846",
+    "spellbook:2896-4846"
+   ]
+  },
+  {
+   "id": "evelyn-04:m1",
+   "from": "commander:Evelyn, the Covetous",
+   "to": "interaction:evelyn-the-covetous/evelyn-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-04",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "104.4b",
+    "303.4f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-04",
+    "cr:104.4b",
+    "cr:303.4f"
+   ]
+  },
+  {
+   "id": "evelyn-04:m2",
+   "from": "card:Worldgorger Dragon",
+   "to": "interaction:evelyn-the-covetous/evelyn-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-04",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "104.4b",
+    "303.4f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-04",
+    "cr:104.4b",
+    "cr:303.4f"
+   ]
+  },
+  {
+   "id": "evelyn-04:m3",
+   "from": "card:Animate Dead",
+   "to": "interaction:evelyn-the-covetous/evelyn-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-04",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "104.4b",
+    "303.4f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-04",
+    "cr:104.4b",
+    "cr:303.4f"
+   ]
+  },
+  {
+   "id": "evelyn-04:p1",
+   "from": "card:Worldgorger Dragon",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-04",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "104.4b",
+    "303.4f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-04",
+    "cr:104.4b",
+    "cr:303.4f"
+   ]
+  },
+  {
+   "id": "evelyn-04:p2",
+   "from": "card:Animate Dead",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-04",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "104.4b",
+    "303.4f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-04",
+    "cr:104.4b",
+    "cr:303.4f"
+   ]
+  },
+  {
+   "id": "evelyn-05:m1",
+   "from": "commander:Evelyn, the Covetous",
+   "to": "combo:evelyn-the-covetous/evelyn-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-05",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "400.7",
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-05",
+    "cr:400.7",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "evelyn-05:m2",
+   "from": "card:Worldgorger Dragon",
+   "to": "combo:evelyn-the-covetous/evelyn-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-05",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "400.7",
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-05",
+    "cr:400.7",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "evelyn-05:m3",
+   "from": "card:Thassa's Oracle",
+   "to": "combo:evelyn-the-covetous/evelyn-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-05",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "400.7",
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-05",
+    "cr:400.7",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "evelyn-05:p1",
+   "from": "card:Worldgorger Dragon",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-05",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-05",
+    "cr:400.7",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "evelyn-05:p2",
+   "from": "card:Thassa's Oracle",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-05",
+   "topic": "combo",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "603.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-05",
+    "cr:400.7",
+    "cr:603.6a"
+   ]
+  },
+  {
+   "id": "evelyn-06:m1",
+   "from": "commander:Evelyn, the Covetous",
+   "to": "combo:evelyn-the-covetous/evelyn-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "608.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-06",
+    "cr:121.4",
+    "cr:608.2",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "evelyn-06:m2",
+   "from": "card:Thassa's Oracle",
+   "to": "combo:evelyn-the-covetous/evelyn-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "608.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-06",
+    "cr:121.4",
+    "cr:608.2",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "evelyn-06:m3",
+   "from": "card:Demonic Consultation",
+   "to": "combo:evelyn-the-covetous/evelyn-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "608.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-06",
+    "cr:121.4",
+    "cr:608.2",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "evelyn-06:m4",
+   "from": "card:Tainted Pact",
+   "to": "combo:evelyn-the-covetous/evelyn-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "608.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-06",
+    "cr:121.4",
+    "cr:608.2",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "evelyn-06:p1",
+   "from": "card:Thassa's Oracle",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "608.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-06",
+    "cr:121.4",
+    "cr:608.2",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "evelyn-06:p2",
+   "from": "card:Demonic Consultation",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "608.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-06",
+    "cr:121.4",
+    "cr:608.2",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "evelyn-06:p3",
+   "from": "card:Tainted Pact",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "608.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-06",
+    "cr:121.4",
+    "cr:608.2",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "evelyn-07:m1",
+   "from": "commander:Evelyn, the Covetous",
+   "to": "combo:evelyn-the-covetous/evelyn-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "evelyn-07:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:evelyn-the-covetous/evelyn-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "evelyn-07:m3",
+   "from": "card:Lion's Eye Diamond",
+   "to": "combo:evelyn-the-covetous/evelyn-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "evelyn-07:m4",
+   "from": "card:Lotus Petal",
+   "to": "combo:evelyn-the-covetous/evelyn-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "evelyn-07:m5",
+   "from": "card:Brain Freeze",
+   "to": "combo:evelyn-the-covetous/evelyn-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "evelyn-07:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "evelyn-07:p2",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "evelyn-07:p3",
+   "from": "card:Lotus Petal",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "evelyn-07:p4",
+   "from": "card:Brain Freeze",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "evelyn-08:m1",
+   "from": "commander:Evelyn, the Covetous",
+   "to": "interaction:evelyn-the-covetous/evelyn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-08",
+    "cr:601.2h",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "evelyn-08:m2",
+   "from": "card:Vexing Bauble",
+   "to": "interaction:evelyn-the-covetous/evelyn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-08",
+    "cr:601.2h",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "evelyn-08:m3",
+   "from": "card:Lion's Eye Diamond",
+   "to": "interaction:evelyn-the-covetous/evelyn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-08",
+    "cr:601.2h",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "evelyn-08:m4",
+   "from": "card:Lotus Petal",
+   "to": "interaction:evelyn-the-covetous/evelyn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-08",
+    "cr:601.2h",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "evelyn-08:m5",
+   "from": "card:Force of Will",
+   "to": "interaction:evelyn-the-covetous/evelyn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-08",
+    "cr:601.2h",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "evelyn-08:m6",
+   "from": "card:Pact of Negation",
+   "to": "interaction:evelyn-the-covetous/evelyn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-08",
+    "cr:601.2h",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "evelyn-08:m7",
+   "from": "card:Underworld Breach",
+   "to": "interaction:evelyn-the-covetous/evelyn-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-08",
+    "cr:601.2h",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "evelyn-08:p1",
+   "from": "card:Vexing Bauble",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-08",
+    "cr:601.2h",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "evelyn-08:p2",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-08",
+    "cr:601.2h",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "evelyn-08:p3",
+   "from": "card:Lotus Petal",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-08",
+    "cr:601.2h",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "evelyn-08:p4",
+   "from": "card:Force of Will",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-08",
+    "cr:601.2h",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "evelyn-08:p5",
+   "from": "card:Pact of Negation",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-08",
+    "cr:601.2h",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "evelyn-08:p6",
+   "from": "card:Underworld Breach",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-08",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-08",
+    "cr:601.2h",
+    "cr:702.138a"
+   ]
+  },
+  {
+   "id": "evelyn-09:m1",
+   "from": "commander:Evelyn, the Covetous",
+   "to": "interaction:evelyn-the-covetous/evelyn-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-09",
+   "topic": "zone",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "903.9a",
+    "903.9b",
+    "704.5j",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-09",
+    "cr:903.9a",
+    "cr:903.9b",
+    "cr:704.5j",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "evelyn-09:m2",
+   "from": "card:Saw in Half",
+   "to": "interaction:evelyn-the-covetous/evelyn-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-09",
+   "topic": "zone",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "903.9a",
+    "903.9b",
+    "704.5j",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-09",
+    "cr:903.9a",
+    "cr:903.9b",
+    "cr:704.5j",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "evelyn-09:p1",
+   "from": "card:Saw in Half",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-09",
+   "topic": "zone",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.9a",
+    "903.9b",
+    "704.5j",
+    "603.10a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-09",
+    "cr:903.9a",
+    "cr:903.9b",
+    "cr:704.5j",
+    "cr:603.10a"
+   ]
+  },
+  {
+   "id": "evelyn-10:m1",
+   "from": "commander:Evelyn, the Covetous",
+   "to": "interaction:evelyn-the-covetous/evelyn-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.51a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-10",
+    "cr:702.51a"
+   ]
+  },
+  {
+   "id": "evelyn-10:m2",
+   "from": "card:Party Thrasher",
+   "to": "interaction:evelyn-the-covetous/evelyn-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "evelyn-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.51a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-10",
+    "cr:702.51a"
+   ]
+  },
+  {
+   "id": "evelyn-10:p1",
+   "from": "card:Party Thrasher",
+   "to": "commander:Evelyn, the Covetous",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "evelyn-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.51a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/evelyn-the-covetous.json#evelyn-10",
+    "cr:702.51a"
+   ]
+  }
+ ]
+}

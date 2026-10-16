@@ -1,0 +1,1687 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Tetsuo__Imperial_Champion",
+ "slug": "tetsuo-imperial-champion",
+ "deck_sha256": "1e551bc95c4918b340539539ed8ba1275f791d4f19330eb6141f84a48927a0d4",
+ "review": "data/grixis_interactions/tetsuo-imperial-champion.json",
+ "review_sha256": "b25d1db9c71db0bdcd7b1a8595ee7644dd74abbd2906e8a811706f8521438324",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 6,
+  "nodes": 33,
+  "membership_edges": 33,
+  "pair_edges": 27
+ },
+ "nodes": [
+  {
+   "id": "commander:Tetsuo, Imperial Champion",
+   "kind": "commander",
+   "name": "Tetsuo, Imperial Champion",
+   "in_list": true
+  },
+  {
+   "id": "card:Excalibur, Sword of Eden",
+   "kind": "card",
+   "name": "Excalibur, Sword of Eden",
+   "in_list": true
+  },
+  {
+   "id": "card:Kaldra Compleat",
+   "kind": "card",
+   "name": "Kaldra Compleat",
+   "in_list": true
+  },
+  {
+   "id": "card:Argentum Armor",
+   "kind": "card",
+   "name": "Argentum Armor",
+   "in_list": true
+  },
+  {
+   "id": "card:Embercleave",
+   "kind": "card",
+   "name": "Embercleave",
+   "in_list": true
+  },
+  {
+   "id": "card:Leyline Axe",
+   "kind": "card",
+   "name": "Leyline Axe",
+   "in_list": true
+  },
+  {
+   "id": "card:Basilisk Collar",
+   "kind": "card",
+   "name": "Basilisk Collar",
+   "in_list": true
+  },
+  {
+   "id": "interaction:tetsuo-imperial-champion/tetsuoic-01",
+   "kind": "interaction",
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Ancestral Vision",
+   "kind": "card",
+   "name": "Ancestral Vision",
+   "in_list": true
+  },
+  {
+   "id": "card:Profane Tutor",
+   "kind": "card",
+   "name": "Profane Tutor",
+   "in_list": true
+  },
+  {
+   "id": "card:Wheel of Fate",
+   "kind": "card",
+   "name": "Wheel of Fate",
+   "in_list": true
+  },
+  {
+   "id": "card:Inevitable Betrayal",
+   "kind": "card",
+   "name": "Inevitable Betrayal",
+   "in_list": true
+  },
+  {
+   "id": "card:Savage Beating",
+   "kind": "card",
+   "name": "Savage Beating",
+   "in_list": true
+  },
+  {
+   "id": "interaction:tetsuo-imperial-champion/tetsuoic-02",
+   "kind": "interaction",
+   "interaction": "tetsuoic-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:World at War",
+   "kind": "card",
+   "name": "World at War",
+   "in_list": true
+  },
+  {
+   "id": "card:Genji Glove",
+   "kind": "card",
+   "name": "Genji Glove",
+   "in_list": true
+  },
+  {
+   "id": "card:Hexplate Wallbreaker",
+   "kind": "card",
+   "name": "Hexplate Wallbreaker",
+   "in_list": true
+  },
+  {
+   "id": "card:Godo, Bandit Warlord",
+   "kind": "card",
+   "name": "Godo, Bandit Warlord",
+   "in_list": true
+  },
+  {
+   "id": "card:Akki Battle Squad",
+   "kind": "card",
+   "name": "Akki Battle Squad",
+   "in_list": true
+  },
+  {
+   "id": "interaction:tetsuo-imperial-champion/tetsuoic-03",
+   "kind": "interaction",
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Aggravated Assault",
+   "kind": "card",
+   "name": "Aggravated Assault",
+   "in_list": true
+  },
+  {
+   "id": "card:Sword of Feast and Famine",
+   "kind": "card",
+   "name": "Sword of Feast and Famine",
+   "in_list": true
+  },
+  {
+   "id": "card:The Reaver Cleaver",
+   "kind": "card",
+   "name": "The Reaver Cleaver",
+   "in_list": true
+  },
+  {
+   "id": "card:Buster Sword",
+   "kind": "card",
+   "name": "Buster Sword",
+   "in_list": true
+  },
+  {
+   "id": "combo:tetsuo-imperial-champion/tetsuoic-04",
+   "kind": "combo",
+   "interaction": "tetsuoic-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "900-3750",
+    "3750-5039"
+   ]
+  },
+  {
+   "id": "card:Oathkeeper, Takeno's Daisho",
+   "kind": "card",
+   "name": "Oathkeeper, Takeno's Daisho",
+   "in_list": true
+  },
+  {
+   "id": "interaction:tetsuo-imperial-champion/tetsuoic-05",
+   "kind": "interaction",
+   "interaction": "tetsuoic-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Hammer of Nazahn",
+   "kind": "card",
+   "name": "Hammer of Nazahn",
+   "in_list": true
+  },
+  {
+   "id": "card:Brass Squire",
+   "kind": "card",
+   "name": "Brass Squire",
+   "in_list": true
+  },
+  {
+   "id": "card:Blacksmith's Talent",
+   "kind": "card",
+   "name": "Blacksmith's Talent",
+   "in_list": true
+  },
+  {
+   "id": "card:Swiftfoot Boots",
+   "kind": "card",
+   "name": "Swiftfoot Boots",
+   "in_list": true
+  },
+  {
+   "id": "card:Chandra's Ignition",
+   "kind": "card",
+   "name": "Chandra's Ignition",
+   "in_list": true
+  },
+  {
+   "id": "interaction:tetsuo-imperial-champion/tetsuoic-06",
+   "kind": "interaction",
+   "interaction": "tetsuoic-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "tetsuoic-01:m1",
+   "from": "commander:Tetsuo, Imperial Champion",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-01",
+    "cr:603.4",
+    "cr:202.3",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "tetsuoic-01:m2",
+   "from": "card:Excalibur, Sword of Eden",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-01",
+    "cr:603.4",
+    "cr:202.3",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "tetsuoic-01:m3",
+   "from": "card:Kaldra Compleat",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-01",
+    "cr:603.4",
+    "cr:202.3",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "tetsuoic-01:m4",
+   "from": "card:Argentum Armor",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-01",
+    "cr:603.4",
+    "cr:202.3",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "tetsuoic-01:m5",
+   "from": "card:Embercleave",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-01",
+    "cr:603.4",
+    "cr:202.3",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "tetsuoic-01:m6",
+   "from": "card:Leyline Axe",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-01",
+    "cr:603.4",
+    "cr:202.3",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "tetsuoic-01:m7",
+   "from": "card:Basilisk Collar",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-01",
+    "cr:603.4",
+    "cr:202.3",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "tetsuoic-01:p1",
+   "from": "card:Excalibur, Sword of Eden",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-01",
+    "cr:603.4",
+    "cr:202.3",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "tetsuoic-01:p2",
+   "from": "card:Kaldra Compleat",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-01",
+    "cr:603.4",
+    "cr:202.3",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "tetsuoic-01:p3",
+   "from": "card:Argentum Armor",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-01",
+    "cr:603.4",
+    "cr:202.3",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "tetsuoic-01:p4",
+   "from": "card:Embercleave",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-01",
+    "cr:603.4",
+    "cr:202.3",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "tetsuoic-01:p5",
+   "from": "card:Leyline Axe",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-01",
+    "cr:603.4",
+    "cr:202.3",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "tetsuoic-01:p6",
+   "from": "card:Basilisk Collar",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "202.3",
+    "702.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-01",
+    "cr:603.4",
+    "cr:202.3",
+    "cr:702.2b"
+   ]
+  },
+  {
+   "id": "tetsuoic-02:m1",
+   "from": "commander:Tetsuo, Imperial Champion",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "702.42a",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-02",
+    "cr:601.2f",
+    "cr:702.42a",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tetsuoic-02:m2",
+   "from": "card:Ancestral Vision",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "702.42a",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-02",
+    "cr:601.2f",
+    "cr:702.42a",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tetsuoic-02:m3",
+   "from": "card:Profane Tutor",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "702.42a",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-02",
+    "cr:601.2f",
+    "cr:702.42a",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tetsuoic-02:m4",
+   "from": "card:Wheel of Fate",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "702.42a",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-02",
+    "cr:601.2f",
+    "cr:702.42a",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tetsuoic-02:m5",
+   "from": "card:Inevitable Betrayal",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "702.42a",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-02",
+    "cr:601.2f",
+    "cr:702.42a",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tetsuoic-02:m6",
+   "from": "card:Savage Beating",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "702.42a",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-02",
+    "cr:601.2f",
+    "cr:702.42a",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tetsuoic-02:p1",
+   "from": "card:Ancestral Vision",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "702.42a",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-02",
+    "cr:601.2f",
+    "cr:702.42a",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tetsuoic-02:p2",
+   "from": "card:Profane Tutor",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "702.42a",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-02",
+    "cr:601.2f",
+    "cr:702.42a",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tetsuoic-02:p3",
+   "from": "card:Wheel of Fate",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "702.42a",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-02",
+    "cr:601.2f",
+    "cr:702.42a",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tetsuoic-02:p4",
+   "from": "card:Inevitable Betrayal",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "702.42a",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-02",
+    "cr:601.2f",
+    "cr:702.42a",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tetsuoic-02:p5",
+   "from": "card:Savage Beating",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-02",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "702.42a",
+    "202.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-02",
+    "cr:601.2f",
+    "cr:702.42a",
+    "cr:202.3"
+   ]
+  },
+  {
+   "id": "tetsuoic-03:m1",
+   "from": "commander:Tetsuo, Imperial Champion",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-03",
+    "cr:500.8",
+    "cr:702.88a"
+   ]
+  },
+  {
+   "id": "tetsuoic-03:m2",
+   "from": "card:Savage Beating",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-03",
+    "cr:500.8",
+    "cr:702.88a"
+   ]
+  },
+  {
+   "id": "tetsuoic-03:m3",
+   "from": "card:World at War",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-03",
+    "cr:500.8",
+    "cr:702.88a"
+   ]
+  },
+  {
+   "id": "tetsuoic-03:m4",
+   "from": "card:Genji Glove",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-03",
+    "cr:500.8",
+    "cr:702.88a"
+   ]
+  },
+  {
+   "id": "tetsuoic-03:m5",
+   "from": "card:Hexplate Wallbreaker",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-03",
+    "cr:500.8",
+    "cr:702.88a"
+   ]
+  },
+  {
+   "id": "tetsuoic-03:m6",
+   "from": "card:Godo, Bandit Warlord",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-03",
+    "cr:500.8",
+    "cr:702.88a"
+   ]
+  },
+  {
+   "id": "tetsuoic-03:m7",
+   "from": "card:Akki Battle Squad",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-03",
+    "cr:500.8",
+    "cr:702.88a"
+   ]
+  },
+  {
+   "id": "tetsuoic-03:p1",
+   "from": "card:Savage Beating",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-03",
+    "cr:500.8",
+    "cr:702.88a"
+   ]
+  },
+  {
+   "id": "tetsuoic-03:p2",
+   "from": "card:World at War",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-03",
+    "cr:500.8",
+    "cr:702.88a"
+   ]
+  },
+  {
+   "id": "tetsuoic-03:p3",
+   "from": "card:Genji Glove",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-03",
+    "cr:500.8",
+    "cr:702.88a"
+   ]
+  },
+  {
+   "id": "tetsuoic-03:p4",
+   "from": "card:Hexplate Wallbreaker",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-03",
+    "cr:500.8",
+    "cr:702.88a"
+   ]
+  },
+  {
+   "id": "tetsuoic-03:p5",
+   "from": "card:Godo, Bandit Warlord",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-03",
+    "cr:500.8",
+    "cr:702.88a"
+   ]
+  },
+  {
+   "id": "tetsuoic-03:p6",
+   "from": "card:Akki Battle Squad",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "702.88a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-03",
+    "cr:500.8",
+    "cr:702.88a"
+   ]
+  },
+  {
+   "id": "tetsuoic-04:m1",
+   "from": "commander:Tetsuo, Imperial Champion",
+   "to": "combo:tetsuo-imperial-champion/tetsuoic-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.5d",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-04",
+    "cr:602.5d",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "tetsuoic-04:m2",
+   "from": "card:Aggravated Assault",
+   "to": "combo:tetsuo-imperial-champion/tetsuoic-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.5d",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-04",
+    "cr:602.5d",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "tetsuoic-04:m3",
+   "from": "card:Sword of Feast and Famine",
+   "to": "combo:tetsuo-imperial-champion/tetsuoic-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.5d",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-04",
+    "cr:602.5d",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "tetsuoic-04:m4",
+   "from": "card:The Reaver Cleaver",
+   "to": "combo:tetsuo-imperial-champion/tetsuoic-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.5d",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-04",
+    "cr:602.5d",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "tetsuoic-04:m5",
+   "from": "card:Buster Sword",
+   "to": "combo:tetsuo-imperial-champion/tetsuoic-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "602.5d",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-04",
+    "cr:602.5d",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "tetsuoic-04:p1",
+   "from": "card:Aggravated Assault",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.5d",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-04",
+    "cr:602.5d",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "tetsuoic-04:p2",
+   "from": "card:Sword of Feast and Famine",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.5d",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-04",
+    "cr:602.5d",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "tetsuoic-04:p3",
+   "from": "card:The Reaver Cleaver",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.5d",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-04",
+    "cr:602.5d",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "tetsuoic-04:p4",
+   "from": "card:Buster Sword",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "602.5d",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-04",
+    "cr:602.5d",
+    "cr:500.8",
+    "spellbook:900-3750",
+    "spellbook:3750-5039"
+   ]
+  },
+  {
+   "id": "tetsuoic-05:m1",
+   "from": "commander:Tetsuo, Imperial Champion",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.9a",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-05",
+    "cr:903.9a",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "tetsuoic-05:m2",
+   "from": "card:Oathkeeper, Takeno's Daisho",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.9a",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-05",
+    "cr:903.9a",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "tetsuoic-05:p1",
+   "from": "card:Oathkeeper, Takeno's Daisho",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-05",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.9a",
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-05",
+    "cr:903.9a",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "tetsuoic-06:m1",
+   "from": "commander:Tetsuo, Imperial Champion",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.11b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-06",
+    "cr:702.11b",
+    "cr:702.6a"
+   ]
+  },
+  {
+   "id": "tetsuoic-06:m2",
+   "from": "card:Hammer of Nazahn",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.11b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-06",
+    "cr:702.11b",
+    "cr:702.6a"
+   ]
+  },
+  {
+   "id": "tetsuoic-06:m3",
+   "from": "card:Brass Squire",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.11b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-06",
+    "cr:702.11b",
+    "cr:702.6a"
+   ]
+  },
+  {
+   "id": "tetsuoic-06:m4",
+   "from": "card:Blacksmith's Talent",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.11b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-06",
+    "cr:702.11b",
+    "cr:702.6a"
+   ]
+  },
+  {
+   "id": "tetsuoic-06:m5",
+   "from": "card:Swiftfoot Boots",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.11b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-06",
+    "cr:702.11b",
+    "cr:702.6a"
+   ]
+  },
+  {
+   "id": "tetsuoic-06:m6",
+   "from": "card:Chandra's Ignition",
+   "to": "interaction:tetsuo-imperial-champion/tetsuoic-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "tetsuoic-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.11b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-06",
+    "cr:702.11b",
+    "cr:702.6a"
+   ]
+  },
+  {
+   "id": "tetsuoic-06:p1",
+   "from": "card:Hammer of Nazahn",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.11b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-06",
+    "cr:702.11b",
+    "cr:702.6a"
+   ]
+  },
+  {
+   "id": "tetsuoic-06:p2",
+   "from": "card:Brass Squire",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.11b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-06",
+    "cr:702.11b",
+    "cr:702.6a"
+   ]
+  },
+  {
+   "id": "tetsuoic-06:p3",
+   "from": "card:Blacksmith's Talent",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.11b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-06",
+    "cr:702.11b",
+    "cr:702.6a"
+   ]
+  },
+  {
+   "id": "tetsuoic-06:p4",
+   "from": "card:Swiftfoot Boots",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.11b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-06",
+    "cr:702.11b",
+    "cr:702.6a"
+   ]
+  },
+  {
+   "id": "tetsuoic-06:p5",
+   "from": "card:Chandra's Ignition",
+   "to": "commander:Tetsuo, Imperial Champion",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "tetsuoic-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.11b",
+    "702.6a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/tetsuo-imperial-champion.json#tetsuoic-06",
+    "cr:702.11b",
+    "cr:702.6a"
+   ]
+  }
+ ]
+}
