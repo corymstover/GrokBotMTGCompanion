@@ -40,7 +40,7 @@
   "value": {
    "level": "significant",
    "advances_plan": "Nekusar is the best punisher and his draw-step trigger gives every opponent an extra draw to punish.",
-   "honest_note": "The source says outright that without Nekusar the deck still works as a wheel/group-slug deck (blueprint L55) and that the punishers were chosen so it isn't commander-or-bust (L29). Only 1 of 7 Spellbook combos needs him (Nekusar + Peer into the Abyss). He multiplies the plan rather than being required by it. No M1 interaction review exists yet for this deck."
+   "honest_note": "The source says outright that without Nekusar the deck still works as a wheel/group-slug deck (blueprint L55) and that the punishers were chosen so it isn't commander-or-bust (L29). Only 1 of 7 Spellbook combos needs him (Nekusar + Peer into the Abyss). He multiplies the plan rather than being required by it. The cycle 51 M1 review (nekusar-01..09) verifies the engines and flags Krang self-damage (nekusar-03)."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -267,10 +267,13 @@
     "Harmonic Prodigy",
     "Wizard's Staff"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "nekusar-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nekusar-the-mindrazer#nekusar-02",
     "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L34"
    ]
   },
@@ -281,10 +284,13 @@
     "Ghyrson Starn, Kelermorph",
     "Nekusar, the Mindrazer"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "nekusar-04"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nekusar-the-mindrazer#nekusar-04",
     "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L37"
    ]
   },
@@ -294,10 +300,13 @@
    "cards": [
     "Nekusar, the Mindrazer"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "nekusar-07"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nekusar-the-mindrazer#nekusar-07",
     "cr:121.1",
     "cr:504.1"
    ]
@@ -309,11 +318,50 @@
     "Curiosity",
     "Nekusar, the Mindrazer"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "nekusar-06"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nekusar-the-mindrazer#nekusar-06",
     "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L51"
+   ]
+  },
+  {
+   "id": "krang-self-damage",
+   "summary": "M1 flag: Krang also doubles Spiteful Visions and Phyrexian Tyranny on your own draws; wheel with care.",
+   "cards": [
+    "Krang, the All-Powerful",
+    "Spiteful Visions",
+    "Phyrexian Tyranny"
+   ],
+   "m1_refs": [
+    "nekusar-03"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:nekusar-the-mindrazer#nekusar-03"
+   ]
+  },
+  {
+   "id": "discard-vs-shuffle",
+   "summary": "Waste Not and Liliana's Caress need discard wheels; shuffle wheels don't trigger them. Molten Psyche counts all draws.",
+   "cards": [
+    "Wheel of Fortune",
+    "Windfall",
+    "Waste Not",
+    "Liliana's Caress",
+    "Molten Psyche"
+   ],
+   "m1_refs": [
+    "nekusar-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:nekusar-the-mindrazer#nekusar-08"
    ]
   }
  ],

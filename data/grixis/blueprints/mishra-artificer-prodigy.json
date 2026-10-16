@@ -39,7 +39,7 @@
   "value": {
    "level": "central",
    "advances_plan": "Mishra turns the deck's own symmetrical counters into one-sided stax: with both triggers ordered, a countered artifact still reaches the battlefield from the graveyard (or from the library after Possibility Storm).",
-   "honest_note": "Mishra is central to the stax half, but none of the 20 Spellbook combos in the list uses him. The kills are generic artifact engines, so without Mishra the deck is a weaker, self-locking artifact pile. His trigger finds only same-name cards; in singleton that means the spell he just cast, after it has left the stack. No M1 interaction review exists yet for this deck."
+   "honest_note": "Mishra is central to the stax half, but none of the 20 Spellbook combos in the list uses him. The kills are generic artifact engines, so without Mishra the deck is a weaker, self-locking artifact pile. His trigger finds only same-name cards; in singleton that means the spell he just cast, after it has left the stack. The cycle 51 M1 review (mishraap-01..10) flags two anti-synergies: the stax hits your own non-artifact spells (mishraap-04), and Void Mirror/Bauble break your own loops without Mishra (mishraap-05). That raises his real importance to the kills too."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -257,10 +257,13 @@
     "Blood Funnel",
     "Nether Void"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "mishraap-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:mishra-artificer-prodigy#mishraap-02",
     "oracle:Mishra, Artificer Prodigy",
     "cr:603.3b"
    ]
@@ -272,10 +275,13 @@
     "Mishra, Artificer Prodigy",
     "Possibility Storm"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "mishraap-03"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:mishra-artificer-prodigy#mishraap-03",
     "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L40"
    ]
   },
@@ -287,10 +293,13 @@
     "Void Mirror",
     "Possibility Storm"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "mishraap-03"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:mishra-artificer-prodigy#mishraap-03",
     "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L41"
    ]
   },
@@ -300,11 +309,69 @@
    "cards": [
     "Mishra, Artificer Prodigy"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "mishraap-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:mishra-artificer-prodigy#mishraap-01",
     "oracle:Mishra, Artificer Prodigy"
+   ]
+  },
+  {
+   "id": "chalice-x0",
+   "summary": "A Chalice of the Void that Mishra puts onto the battlefield has X = 0.",
+   "cards": [
+    "Chalice of the Void",
+    "Mishra, Artificer Prodigy"
+   ],
+   "m1_refs": [
+    "mishraap-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mishra-artificer-prodigy#mishraap-06"
+   ]
+  },
+  {
+   "id": "own-stax-hits-spells",
+   "summary": "M1 flag: Blood Funnel, Nether Void, Nullstone, Planar Chaos and Possibility Storm also hit your own instants and sorceries, and Possibility Storm stops the Lattice + overloaded Vandalblast kill.",
+   "cards": [
+    "Blood Funnel",
+    "Nether Void",
+    "Nullstone Gargoyle",
+    "Planar Chaos",
+    "Possibility Storm",
+    "Vandalblast"
+   ],
+   "m1_refs": [
+    "mishraap-04"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:mishra-artificer-prodigy#mishraap-04"
+   ]
+  },
+  {
+   "id": "mirror-breaks-own-loops",
+   "summary": "M1 flag: with Void Mirror or Vexing Bauble out, the Top/Forge/Reality Chip and KCI loops only work while Mishra is on the battlefield.",
+   "cards": [
+    "Void Mirror",
+    "Vexing Bauble",
+    "Sensei's Divining Top",
+    "Krark-Clan Ironworks",
+    "Mishra, Artificer Prodigy"
+   ],
+   "m1_refs": [
+    "mishraap-05"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:mishra-artificer-prodigy#mishraap-05"
    ]
   }
  ],
@@ -405,11 +472,12 @@
   }
  ],
  "dependency_level": {
-  "value": "medium",
+  "value": "high",
   "evidence_class": "strategic_judgment",
   "confidence": "high",
   "evidence": [
-   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L18"
+   "source_archive:refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md#L18",
+   "interaction:mishra-artificer-prodigy#mishraap-05"
   ]
  },
  "power": {

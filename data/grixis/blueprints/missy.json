@@ -39,7 +39,7 @@
   "value": {
    "level": "central",
    "advances_plan": "Missy is the recursion engine and a piece in every one of the 17 Spellbook infinites in the list.",
-   "honest_note": "This is genuinely commander-native: Missy + free outlet + Ruthless Ripper/Dragon's Eye Savants/Horde Ambusher is three cards, two of them tutorable. The cost is a six-mana commander, which the source names as the main reason for Bracket 4 (blueprint L42). No M1 interaction review exists yet for this deck."
+   "honest_note": "This is genuinely commander-native: Missy + free outlet + Ruthless Ripper/Dragon's Eye Savants/Horde Ambusher is three cards, two of them tutorable. The cost is a six-mana commander, which the source names as the main reason for Bracket 4 (blueprint L42). The cycle 51 M1 review (missy-01..09, all verified) confirms the loop rules."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -257,10 +257,13 @@
    "cards": [
     "Missy"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "missy-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:missy#missy-01",
     "oracle:Missy",
     "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L15",
     "cr:708.2"
@@ -275,10 +278,15 @@
     "Dragon's Eye Savants",
     "Horde Ambusher"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "missy-01",
+    "missy-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:missy#missy-01",
+    "interaction:missy#missy-02",
     "cr:702.37e",
     "cr:708.8"
    ]
@@ -289,10 +297,13 @@
    "cards": [
     "Missy"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "missy-05"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:missy#missy-05",
     "oracle:Missy",
     "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L22"
    ]
@@ -303,12 +314,65 @@
    "cards": [
     "Missy"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "missy-06"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:missy#missy-06",
     "cr:701.55a",
     "cr:701.55b"
+   ]
+  },
+  {
+   "id": "face-up-multipliers",
+   "summary": "Panoptic Projektor, Pyrotechnic Performer and Aphetto Runecaster pay off each turn-face-up in the loop.",
+   "cards": [
+    "Missy",
+    "Panoptic Projektor",
+    "Pyrotechnic Performer",
+    "Aphetto Runecaster"
+   ],
+   "m1_refs": [
+    "missy-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:missy#missy-04"
+   ]
+  },
+  {
+   "id": "pipes-draw",
+   "summary": "They Came from the Pipes draws on every face-down entry, including each loop iteration.",
+   "cards": [
+    "Missy",
+    "They Came from the Pipes"
+   ],
+   "m1_refs": [
+    "missy-09"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:missy#missy-09"
+   ]
+  },
+  {
+   "id": "no-chaos-payoff",
+   "summary": "The draw option of the villainous choice has no chaos payoff in this list; opponents can pick it to avoid damage.",
+   "cards": [
+    "Missy",
+    "The Valeyard"
+   ],
+   "m1_refs": [
+    "missy-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:missy#missy-06"
    ]
   }
  ],

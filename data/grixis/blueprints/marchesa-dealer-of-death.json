@@ -39,7 +39,7 @@
   "value": {
    "level": "significant",
    "advances_plan": "Marchesa converts the deck's interaction into card selection and graveyard setup.",
-   "honest_note": "All three win packages work without her, and the list is the exact copy of a tournament-winning list (Takeda Ryuhei, 2026-10-11), a 48-card rebuild from the source baseline (decisions L10, L12). She is a selection engine in a generic Grixis cEDH shell, not a kill. No M1 interaction review exists yet for this deck."
+   "honest_note": "All three win packages work without her, and the list is the exact copy of a tournament-winning list (Takeda Ryuhei, 2026-10-11), a 48-card rebuild from the source baseline (decisions L10, L12). She is a selection engine in a generic Grixis cEDH shell, not a kill. The cycle 51 M1 review (marchdod-01..08, all verified) confirms the crime rules and the three wins."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -222,10 +222,13 @@
    "cards": [
     "Marchesa, Dealer of Death"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "marchdod-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:marchesa-dealer-of-death#marchdod-01",
     "oracle:Marchesa, Dealer of Death",
     "cr:700.13"
    ]
@@ -236,10 +239,13 @@
    "cards": [
     "Hex Parasite"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "marchdod-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:marchesa-dealer-of-death#marchdod-02",
     "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L28"
    ]
   },
@@ -249,10 +255,13 @@
    "cards": [
     "Spatial Binding"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "marchdod-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:marchesa-dealer-of-death#marchdod-02",
     "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L27"
    ]
   },
@@ -262,11 +271,63 @@
    "cards": [
     "Lapis Lazuli Talisman"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "marchdod-03"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:marchesa-dealer-of-death#marchdod-03",
     "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L25"
+   ]
+  },
+  {
+   "id": "tezzeret-zero",
+   "summary": "Tezzeret, Cruel Captain's 0 is a crime; Displacer Kitten resets his loyalty.",
+   "cards": [
+    "Tezzeret, Cruel Captain",
+    "Displacer Kitten"
+   ],
+   "m1_refs": [
+    "marchdod-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:marchesa-dealer-of-death#marchdod-06"
+   ]
+  },
+  {
+   "id": "extra-turn-order",
+   "summary": "With Final Fortune/Last Chance, the most recent extra turn is taken first.",
+   "cards": [
+    "Final Fortune",
+    "Last Chance"
+   ],
+   "m1_refs": [
+    "marchdod-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:marchesa-dealer-of-death#marchdod-07"
+   ]
+  },
+  {
+   "id": "mox-amber-marchesa",
+   "summary": "Mox Amber reads Marchesa; Magda makes only one Treasure per turn.",
+   "cards": [
+    "Mox Amber",
+    "Magda, the Hoardmaster",
+    "Marchesa, Dealer of Death"
+   ],
+   "m1_refs": [
+    "marchdod-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:marchesa-dealer-of-death#marchdod-08"
    ]
   }
  ],

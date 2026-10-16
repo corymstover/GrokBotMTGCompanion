@@ -38,7 +38,7 @@
   "value": {
    "level": "central",
    "advances_plan": "Mishra is the copy engine and part of most of the deck's infinites.",
-   "honest_note": "Commander-native: 9 of the 19 Spellbook combos in the list include Mishra, including every infinite-turn line. The engine is a five-mana sorcery-speed combat trigger, which keeps the deck below cEDH speed; the source declined to swap in Oracle/Breach to force Bracket 5. No M1 interaction review exists yet for this deck."
+   "honest_note": "Commander-native: 9 of the 19 Spellbook combos in the list include Mishra, including every infinite-turn line. The engine is a five-mana sorcery-speed combat trigger, which keeps the deck below cEDH speed; the source declined to swap in Oracle/Breach to force Bracket 5. The cycle 51 M1 review (mishraeo-01..09, all verified) confirms the Warform rules and combos."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -248,10 +248,13 @@
     "Mishra, Eminent One",
     "Determined Iteration"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "mishraeo-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:mishra-eminent-one#mishraeo-02",
     "oracle:Mishra, Eminent One",
     "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L44"
    ]
@@ -264,10 +267,13 @@
     "Repurposing Bay",
     "Transmute Artifact"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "mishraeo-07"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:mishra-eminent-one#mishraeo-07",
     "oracle:Mishra, Eminent One",
     "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L52"
    ]
@@ -279,10 +285,13 @@
     "Mishra, Eminent One",
     "Machine God's Effigy"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "mishraeo-08"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:mishra-eminent-one#mishraeo-08",
     "cr:707.2"
    ]
   },
@@ -295,11 +304,47 @@
     "Strionic Resonator",
     "Lithoform Engine"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "mishraeo-04"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:mishra-eminent-one#mishraeo-04",
     "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L63"
+   ]
+  },
+  {
+   "id": "warform-basics",
+   "summary": "The Warform is a hasty 4/4 copy of a noncreature artifact, sacrificed at the next end step.",
+   "cards": [
+    "Mishra, Eminent One"
+   ],
+   "m1_refs": [
+    "mishraeo-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mishra-eminent-one#mishraeo-01"
+   ]
+  },
+  {
+   "id": "helm-urza",
+   "summary": "Worldwalker Helm + Urza + Thousand-Year Elixir: infinite Warforms, Maps and {U}.",
+   "cards": [
+    "Mishra, Eminent One",
+    "Worldwalker Helm",
+    "Urza, Lord High Artificer",
+    "Thousand-Year Elixir"
+   ],
+   "m1_refs": [
+    "mishraeo-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mishra-eminent-one#mishraeo-03"
    ]
   }
  ],

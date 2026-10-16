@@ -39,7 +39,7 @@
   "value": {
    "level": "central",
    "advances_plan": "Nathan is the main card-advantage engine and the reason the list values trigger copies and combat-time mana.",
-   "honest_note": "Commander Spellbook finds no combos in the list, and the source says the deck doesn't run a generic Oracle/Breach finish (blueprint L41). It wins by accumulated advantage and combat damage, so it's a low-to-mid Bracket 4 value deck. Nathan is central to the engine but provides no compact kill. No M1 interaction review exists yet for this deck."
+   "honest_note": "Commander Spellbook finds no combos in the list, and the source says the deck doesn't run a generic Oracle/Breach finish (blueprint L41). It wins by accumulated advantage and combat damage, so it's a low-to-mid Bracket 4 value deck. Nathan is central to the engine but provides no compact kill. The cycle 51 M1 review (nathan-01..08) verifies the engine and flags one anti-synergy (nathan-07)."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -206,10 +206,13 @@
    "cards": [
     "Nathan Drake, Treasure Hunter"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "nathan-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nathan-drake-treasure-hunter#nathan-01",
     "oracle:Nathan Drake, Treasure Hunter",
     "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L52"
    ]
@@ -220,10 +223,13 @@
    "cards": [
     "Nathan Drake, Treasure Hunter"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "nathan-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nathan-drake-treasure-hunter#nathan-02",
     "oracle:Nathan Drake, Treasure Hunter"
    ]
   },
@@ -234,10 +240,13 @@
     "Nathan Drake, Treasure Hunter",
     "Fire Nation Palace"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "nathan-03"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nathan-drake-treasure-hunter#nathan-03",
     "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L28",
     "cr:702.189a"
    ]
@@ -249,11 +258,51 @@
     "Roaming Throne",
     "Nathan Drake, Treasure Hunter"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "nathan-04"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nathan-drake-treasure-hunter#nathan-04",
     "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L24"
+   ]
+  },
+  {
+   "id": "dauthi-tinybones",
+   "summary": "M1 flag: Dauthi Voidwalker exiles opponents' discards and dying cards, starving Tinybones, the Pickpocket of graveyard targets.",
+   "cards": [
+    "Dauthi Voidwalker",
+    "Tinybones, the Pickpocket"
+   ],
+   "m1_refs": [
+    "nathan-07"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:nathan-drake-treasure-hunter#nathan-07"
+   ]
+  },
+  {
+   "id": "exile-and-unowned-payoffs",
+   "summary": "Cast-from-exile payoffs (Wild-Magic Sorcerer, Nalfeshnee, Passionate Archaeologist, Web Watch) and spells-you-don't-own payoffs (Gonti, Tasha, Vaan, Don Andres) both see Nathan's casts.",
+   "cards": [
+    "Nathan Drake, Treasure Hunter",
+    "Wild-Magic Sorcerer",
+    "Nalfeshnee",
+    "Gonti, Night Minister",
+    "Don Andres, the Renegade"
+   ],
+   "m1_refs": [
+    "nathan-05",
+    "nathan-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:nathan-drake-treasure-hunter#nathan-05",
+    "interaction:nathan-drake-treasure-hunter#nathan-06"
    ]
   }
  ],

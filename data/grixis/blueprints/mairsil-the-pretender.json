@@ -39,7 +39,7 @@
   "value": {
    "level": "central",
    "advances_plan": "Mairsil is the engine: every caged ability lives on him, and five of the six Spellbook combos include him.",
-   "honest_note": "Each acquired ability is once per turn per Mairsil object, so the loops need fresh objects (Quicksilver Elemental, blinks, copies). The deck is fragile to graveyard and exile hate on caged cards. This deck has no M1 interaction review yet (batch D is in progress), so the rules notes rest on the source's verification and Oracle text."
+   "honest_note": "Each acquired ability is once per turn per Mairsil object, so the loops need fresh objects (Quicksilver Elemental, blinks, copies). The deck is fragile to graveyard and exile hate on caged cards. The cycle 51 M1 review (mairsil-01..11) verifies the cage rules; mairsil-10 (Marvin, Murderous Mimic without the once-per-turn limit) is uncertain, so that key interaction is test_required."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -230,10 +230,15 @@
     "Essence Flux",
     "Displacer Kitten"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "mairsil-01",
+    "mairsil-08"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:mairsil-the-pretender#mairsil-01",
+    "interaction:mairsil-the-pretender#mairsil-08",
     "oracle:Mairsil, the Pretender",
     "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L27"
    ]
@@ -244,10 +249,13 @@
    "cards": [
     "Asmodeus the Archfiend"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "mairsil-09"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:mairsil-the-pretender#mairsil-09",
     "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L56"
    ]
   },
@@ -258,23 +266,29 @@
     "Rings of Brighthearth",
     "Pack Rat"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "mairsil-06"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:mairsil-the-pretender#mairsil-06",
     "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L58"
    ]
   },
   {
    "id": "marvin",
-   "summary": "Marvin gains Mairsil's acquired activated abilities without the once-per-turn static.",
+   "summary": "Marvin gains Mairsil's acquired activated abilities without the once-per-turn static (M1 marks this uncertain).",
    "cards": [
     "Marvin, Murderous Mimic"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "mairsil-10"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "test_required",
    "evidence": [
+    "interaction:mairsil-the-pretender#mairsil-10",
     "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L59"
    ]
   },
@@ -284,11 +298,48 @@
    "cards": [
     "Spark Double"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "mairsil-07"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:mairsil-the-pretender#mairsil-07",
     "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L53"
+   ]
+  },
+  {
+   "id": "quicksilver-lotus",
+   "summary": "Quicksilver Elemental + Gilded Lotus + Morphling/Horseshoe Crab/Staff of Domination through the cage.",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Quicksilver Elemental",
+    "Gilded Lotus"
+   ],
+   "m1_refs": [
+    "mairsil-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mairsil-the-pretender#mairsil-02"
+   ]
+  },
+  {
+   "id": "elixir-wishclaw",
+   "summary": "Thousand-Year Elixir lets new Mairsils tap but not attack; Wishclaw Talisman can't be used from the cage.",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Thousand-Year Elixir",
+    "Wishclaw Talisman"
+   ],
+   "m1_refs": [
+    "mairsil-11"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mairsil-the-pretender#mairsil-11"
    ]
   }
  ],

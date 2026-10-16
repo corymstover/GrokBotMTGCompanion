@@ -41,7 +41,7 @@
   "value": {
    "level": "central",
    "advances_plan": "Bolas's damage-triggered hand wipe is the engine every damage enabler and discard payoff is built around.",
-   "honest_note": "The identity is real but the commander is weak: 8 mana with UUBBRR, an {U}{B}{R} upkeep tax, and no command-zone combo (blueprint L57). The only Spellbook combo in the list is Sword of Feast and Famine + Aggravated Assault, which doesn't need him. Expect a slow, low-end Bracket 4 control deck. No M1 interaction review exists yet for this deck."
+   "honest_note": "The identity is real but the commander is weak: 8 mana with UUBBRR, an {U}{B}{R} upkeep tax, and no command-zone combo (blueprint L57). The only Spellbook combo in the list is Sword of Feast and Famine + Aggravated Assault, which doesn't need him. Expect a slow, low-end Bracket 4 control deck. The cycle 51 M1 review (bolas-01..09) verifies the damage-source lines and flags Ignition hitting your own creatures (bolas-04)."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -244,10 +244,13 @@
    "cards": [
     "Nicol Bolas"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "bolas-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nicol-bolas#bolas-01",
     "oracle:Nicol Bolas",
     "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L19"
    ]
@@ -259,10 +262,13 @@
     "Ingris Stingerquill",
     "Nicol Bolas"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "bolas-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nicol-bolas#bolas-02",
     "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L32"
    ]
   },
@@ -273,10 +279,13 @@
     "Tergrid, God of Fright // Tergrid's Lantern",
     "Tinybones, Bauble Burglar"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "bolas-06"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nicol-bolas#bolas-06",
     "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L51"
    ]
   },
@@ -286,12 +295,67 @@
    "cards": [
     "Nicol Bolas"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "bolas-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nicol-bolas#bolas-01",
     "oracle:Nicol Bolas",
     "cr:603.3b"
+   ]
+  },
+  {
+   "id": "ignition-self-sweep",
+   "summary": "M1 flag: Chandra's Ignition also hits your own creatures, including Ingris, Kediss and Sangromancer.",
+   "cards": [
+    "Chandra's Ignition",
+    "Ingris Stingerquill",
+    "Kediss, Emberclaw Familiar",
+    "Sangromancer"
+   ],
+   "m1_refs": [
+    "bolas-04"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:nicol-bolas#bolas-04"
+   ]
+  },
+  {
+   "id": "creature-is-source",
+   "summary": "With Ignition, Pain for All, Quicksilver Dagger, Viridian Longbow and Curiosity, Nicol is the damage source, so the discard triggers.",
+   "cards": [
+    "Nicol Bolas",
+    "Chandra's Ignition",
+    "Pain for All",
+    "Quicksilver Dagger",
+    "Viridian Longbow"
+   ],
+   "m1_refs": [
+    "bolas-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:nicol-bolas#bolas-03"
+   ]
+  },
+  {
+   "id": "no-mercy-symmetric",
+   "summary": "No Mercy is symmetric toward your own creatures.",
+   "cards": [
+    "No Mercy"
+   ],
+   "m1_refs": [
+    "bolas-09"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:nicol-bolas#bolas-09"
    ]
   }
  ],

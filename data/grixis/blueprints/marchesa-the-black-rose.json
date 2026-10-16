@@ -38,7 +38,7 @@
   "value": {
    "level": "significant",
    "advances_plan": "Marchesa gives the team dethrone and returns any countered creature that dies, which makes the sacrifice engine resilient.",
-   "honest_note": "The source calls the closes 'commander-native loops' (decisions L16), but none of the 48 Spellbook infinites in the list needs Marchesa: they're persist/undying loops with Thran Vigil, Metallic Mimic, Gev, Uncivil Unrest or Mikaeus plus an outlet. She's a resilience engine, not the kill. No M1 interaction review exists yet for this deck."
+   "honest_note": "The source calls the closes 'commander-native loops' (decisions L16), but none of the 48 Spellbook infinites in the list needs Marchesa: they're persist/undying loops with Thran Vigil, Metallic Mimic, Gev, Uncivil Unrest or Mikaeus plus an outlet. She's a resilience engine, not the kill. The cycle 51 M1 review (marchbr-01..11, all verified) confirms the persist-reset loops."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -244,10 +244,13 @@
    "cards": [
     "Marchesa, the Black Rose"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "marchbr-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-01",
     "oracle:Marchesa, the Black Rose"
    ]
   },
@@ -257,10 +260,13 @@
    "cards": [
     "Marchesa, the Black Rose"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "marchbr-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-01",
     "oracle:Marchesa, the Black Rose",
     "cr:702.105a"
    ]
@@ -273,10 +279,13 @@
     "Metallic Mimic",
     "Murderous Redcap"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "marchbr-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-02",
     "cr:702.79a",
     "spellbook:2131-2292--5"
    ]
@@ -288,11 +297,65 @@
     "Mikaeus, the Unhallowed",
     "Gray Merchant of Asphodel"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "marchbr-05"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-05",
     "spellbook:328-628-4279"
+   ]
+  },
+  {
+   "id": "redcap-no-outlet",
+   "summary": "Murderous Redcap + Gev/Metallic Mimic (Goblin)/Uncivil Unrest loops with no outlet needed.",
+   "cards": [
+    "Murderous Redcap",
+    "Gev, Scaled Scorch",
+    "Metallic Mimic",
+    "Uncivil Unrest"
+   ],
+   "m1_refs": [
+    "marchbr-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-03"
+   ]
+  },
+  {
+   "id": "sneak-attack-return",
+   "summary": "A creature sacrificed by Sneak Attack at end step returns a turn later, permanently, if it has a +1/+1 counter.",
+   "cards": [
+    "Sneak Attack",
+    "Marchesa, the Black Rose"
+   ],
+   "m1_refs": [
+    "marchbr-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-08"
+   ]
+  },
+  {
+   "id": "flare-pitch",
+   "summary": "Flare of Denial can sacrifice a countered blue creature that Marchesa returns.",
+   "cards": [
+    "Flare of Denial",
+    "Glen Elendra Archmage",
+    "River Kelpie"
+   ],
+   "m1_refs": [
+    "marchbr-11"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-11"
    ]
   }
  ],

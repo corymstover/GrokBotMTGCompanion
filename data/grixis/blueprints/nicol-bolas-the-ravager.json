@@ -39,7 +39,7 @@
   "value": {
    "level": "significant",
    "advances_plan": "The Arisen is the centrepiece planeswalker and Ravager's ETB gives discard.",
-   "honest_note": "All three Spellbook infinites (Teferi + Chain Veil, Teferi + Ichormoon Gauntlet + Chain Veil or Rowan's Talent) are commander-free. Bolas's transform costs seven mana at sorcery speed. He is the deck's best planeswalker rather than its engine, and a superfriends shell would work under another Grixis walker commander. No M1 interaction review exists yet for this deck."
+   "honest_note": "All three Spellbook infinites (Teferi + Chain Veil, Teferi + Ichormoon Gauntlet + Chain Veil or Rowan's Talent) are commander-free. Bolas's transform costs seven mana at sorcery speed. He is the deck's best planeswalker rather than its engine, and a superfriends shell would work under another Grixis walker commander. The cycle 51 M1 review (bolasrav-01..08, all verified) confirms the transform and loyalty rules."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -226,10 +226,13 @@
    "cards": [
     "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "bolasrav-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nicol-bolas-the-ravager#bolasrav-01",
     "oracle:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
     "cr:701.27a"
    ]
@@ -242,10 +245,15 @@
     "Ichormoon Gauntlet",
     "Rings of Brighthearth"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "bolasrav-03",
+    "bolasrav-04"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nicol-bolas-the-ravager#bolasrav-03",
+    "interaction:nicol-bolas-the-ravager#bolasrav-04",
     "cr:606.3"
    ]
   },
@@ -257,25 +265,64 @@
     "Flux Channeler",
     "Tekuthal, Inquiry Dominus"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "bolasrav-08"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nicol-bolas-the-ravager#bolasrav-08",
     "cr:701.34a"
    ]
   },
   {
    "id": "kitten-reset",
-   "summary": "Displacer Kitten flickers Ravager on noncreature spells for repeated ETB discard. Flickering the Arisen returns the front face.",
+   "summary": "Displacer Kitten flickers Ravager for repeated ETB discard. Flickering the Arisen returns the front face and strips Talents attached to him.",
    "cards": [
     "Displacer Kitten",
     "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "bolasrav-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:nicol-bolas-the-ravager#bolasrav-02",
     "source_archive:refinement/blueprints/Nicol_Bolas_the_Ravager_Commander_First_Blueprint_2026-10-15.md#L52"
+   ]
+  },
+  {
+   "id": "bolas-walker-checks",
+   "summary": "Deliver Unto Evil sees the Bolas planeswalkers; Dark Intimations' Bolas clause doesn't apply here.",
+   "cards": [
+    "Deliver Unto Evil",
+    "Dark Intimations"
+   ],
+   "m1_refs": [
+    "bolasrav-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:nicol-bolas-the-ravager#bolasrav-06"
+   ]
+  },
+  {
+   "id": "spark-dragon-god",
+   "summary": "Spark Double copies the Arisen; Nicol Bolas, Dragon-God borrows every planeswalker's loyalty abilities.",
+   "cards": [
+    "Spark Double",
+    "Nicol Bolas, Dragon-God",
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "m1_refs": [
+    "bolasrav-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:nicol-bolas-the-ravager#bolasrav-07"
    ]
   }
  ],

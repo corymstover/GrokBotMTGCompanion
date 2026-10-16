@@ -16,7 +16,7 @@
 - **Secondary:** Drain payoffs (Blood Artist, Mayhem Devil, Gray Merchant, Syr Konrad, Grave Pact) and Sneak Attack/Imperial Recruiter to find loop pieces.
   - Evidence: [Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md#L16](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md)
 - **Commander role: significant.** Marchesa gives the team dethrone and returns any countered creature that dies, which makes the sacrifice engine resilient. *strategic_judgment · high*
-- ⚠️ **Honest note:** The source calls the closes 'commander-native loops' (decisions L16), but none of the 48 Spellbook infinites in the list needs Marchesa: they're persist/undying loops with Thran Vigil, Metallic Mimic, Gev, Uncivil Unrest or Mikaeus plus an outlet. She's a resilience engine, not the kill. No M1 interaction review exists yet for this deck.
+- ⚠️ **Honest note:** The source calls the closes 'commander-native loops' (decisions L16), but none of the 48 Spellbook infinites in the list needs Marchesa: they're persist/undying loops with Thran Vigil, Metallic Mimic, Gev, Uncivil Unrest or Mikaeus plus an outlet. She's a resilience engine, not the kill. The cycle 51 M1 review (marchbr-01..11, all verified) confirms the persist-reset loops.
   - Evidence: [Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md#L16](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md) · `spellbook:2131-2292--5` · `spellbook:628-2034--5`
 - **Dependency level:** low *strategic_judgment · high* — `spellbook:2131-2292--5`
 
@@ -53,10 +53,13 @@
 
 ## Key interactions
 
-- **counter-return:** Only creatures with a +1/+1 counter return, at the next end step, under your control. (Marchesa, the Black Rose) *fact · high* — `oracle:Marchesa, the Black Rose`
-- **dethrone-team:** Dethrone on the team only triggers attacking the player with the most life. (Marchesa, the Black Rose) *fact · high* — `oracle:Marchesa, the Black Rose` · `cr:702.105a`
-- **persist-reset:** A +1/+1 counter cancels a -1/-1 counter, so persist can trigger again. (Thran Vigil, Metallic Mimic, Murderous Redcap) *fact · high* — `cr:702.79a` · `spellbook:2131-2292--5`
-- **yawgmoth-gary:** Mikaeus + Yawgmoth + Gray Merchant is an infinite drain. (Mikaeus, the Unhallowed, Gray Merchant of Asphodel) *fact · high* — `spellbook:328-628-4279`
+- **counter-return:** Only creatures with a +1/+1 counter return, at the next end step, under your control. (Marchesa, the Black Rose) *fact · verified* — [marchbr-01](../interactions/marchesa-the-black-rose.md#marchbr-01-dethrone-for-the-team-creatures-with-11-counters-return-at-the-next-end-step) · `oracle:Marchesa, the Black Rose`
+- **dethrone-team:** Dethrone on the team only triggers attacking the player with the most life. (Marchesa, the Black Rose) *fact · verified* — [marchbr-01](../interactions/marchesa-the-black-rose.md#marchbr-01-dethrone-for-the-team-creatures-with-11-counters-return-at-the-next-end-step) · `oracle:Marchesa, the Black Rose` · `cr:702.105a`
+- **persist-reset:** A +1/+1 counter cancels a -1/-1 counter, so persist can trigger again. (Thran Vigil, Metallic Mimic, Murderous Redcap) *fact · verified* — [marchbr-02](../interactions/marchesa-the-black-rose.md#marchbr-02-persist-resets-gev-metallic-mimic-uncivil-unrest-thran-vigil-cancel-the--1-1-counter) · `cr:702.79a` · `spellbook:2131-2292--5`
+- **yawgmoth-gary:** Mikaeus + Yawgmoth + Gray Merchant is an infinite drain. (Mikaeus, the Unhallowed, Gray Merchant of Asphodel) *fact · verified* — [marchbr-05](../interactions/marchesa-the-black-rose.md#marchbr-05-mikaeus-the-unhallowed-undying--persist-alternate-forever) · `spellbook:328-628-4279`
+- **redcap-no-outlet:** Murderous Redcap + Gev/Metallic Mimic (Goblin)/Uncivil Unrest loops with no outlet needed. (Murderous Redcap, Gev, Scaled Scorch, Metallic Mimic, Uncivil Unrest) *fact · verified* — [marchbr-03](../interactions/marchesa-the-black-rose.md#marchbr-03-murderous-redcap-loops-gev--mimic-goblin--uncivil-unrest-no-outlet-needed)
+- **sneak-attack-return:** A creature sacrificed by Sneak Attack at end step returns a turn later, permanently, if it has a +1/+1 counter. (Sneak Attack, Marchesa, the Black Rose) *fact · verified* — [marchbr-08](../interactions/marchesa-the-black-rose.md#marchbr-08-sneak-attack--marchesa-the-end-step-sacrifice-returns-a-turn-later-permanently)
+- **flare-pitch:** Flare of Denial can sacrifice a countered blue creature that Marchesa returns. (Flare of Denial, Glen Elendra Archmage, River Kelpie) *fact · verified* — [marchbr-11](../interactions/marchesa-the-black-rose.md#marchbr-11-flare-of-denial-pitches-a-countered-blue-creature-that-comes-back)
 
 ## Tutors and recursion
 

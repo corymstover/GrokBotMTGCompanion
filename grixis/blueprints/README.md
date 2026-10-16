@@ -57,7 +57,7 @@
 | [Mairsil, the Pretender](mairsil-the-pretender.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Marchesa, Dealer of Death](marchesa-dealer-of-death.md) | significant | low | 5 | 5 | 5 | no | v1 seeded |
 | [Marchesa, the Black Rose](marchesa-the-black-rose.md) | significant | low | 4 | 4 | 4 | no | v1 seeded |
-| [Mishra, Artificer Prodigy](mishra-artificer-prodigy.md) | central | medium | 5 | 5 | 5 | no | v1 seeded |
+| [Mishra, Artificer Prodigy](mishra-artificer-prodigy.md) | central | high | 5 | 5 | 5 | no | v1 seeded |
 | [Mishra, Eminent One](mishra-eminent-one.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Missy](missy.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Nathan Drake, Treasure Hunter](nathan-drake-treasure-hunter.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
