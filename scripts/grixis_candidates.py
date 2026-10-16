@@ -44,12 +44,11 @@ VERSION = "2"
 CYCLE = 61
 TODAY = dt.date(2026, 10, 16)
 NEW_SINCE = "2026-04-16"            # first printed within 183 days of TODAY = a new card
-UNIVERSE_MIN, UNIVERSE_MAX = 200, 500
-NICHE_RESERVE = 60                  # universe slots kept for no-EDHREC-row Oracle/package hits
-DEFAULT_RANGE = [15, 40]
+SATURATION = ROOT / "data" / "grixis" / "saturation"   # step A (Bot cycle 65.3): the universe is the saturated, uncapped pool
 SAMPLES, SEED = 300, 60
 TIER_A, TIER_B = 45.0, 25.0
 OUT = ROOT / "data" / "grixis" / "candidates"
+WRITE_DIR = OUT                     # --out DIR redirects writes (scratch smoke runs never overwrite stored M5 files)
 ALMOST = OUT / "spellbook_almost.json"
 GRAPH, EVID, AUDIT, BPS = (ROOT / "data" / "grixis" / x for x in ("graph", "evidence", "audit", "blueprints"))
 CACHE = ROOT / ".cache"
@@ -78,20 +77,15 @@ AUTHORITY = {"status": "provisional", "exploratory": True,
                      "evidence, never win rates. No list changes, no challenger registered or promoted, no swap decided "
                      "(constraints 2, 6, 8). Cory decides."}
 UNIVERSE_RULES = {
-    "definition": "Commander-legal cards in the deck's colour identity, not basic lands, not in the canonical list, from "
-                  "the sources below; screened, ranked by screening score and bounded to [200, 500] (ties by name).",
-    "bounds": [UNIVERSE_MIN, UNIVERSE_MAX],
-    "sources": {"edhrec": "EDHREC candidate vectors of the M3 evidence layer (commander page(s))",
-                "spellbook": "Commander Spellbook find-my-combos almostIncluded: the single missing piece",
-                "blueprint": "blueprint package `candidates`",
-                "oracle_hook": "Oracle-text search on the bulk: text touches a mechanic named by the commander (grixis_refine HOOKS)",
-                "package": "type search: shares a signature creature type (>= 40% of >= 3 members) of a blueprint package",
-                "new_card": f"earliest Scryfall printing on or after {NEW_SINCE}",
-                "rank_fill": "only when the other sources give < 200: identity cards with a key role, by EDHREC overall rank"},
-    "always_kept": "edhrec, spellbook, blueprint and relevant new cards, then the best niche (no EDHREC row) Oracle/package "
-                   f"hits up to {NICHE_RESERVE}, then the rest by score",
-    "excluded": "not Commander-legal (incl. unreleased / not-yet-legal cards: counted and the best few named in "
-                "`not_legal_watchlist`), outside identity, basic lands, already in the list, tokens and non-game layouts"}
+    "mode": "saturation",
+    "definition": "Step A (Bot cycle 65.3): the deck's saturated universe from data/grixis/saturation/<slug>.json: every "
+                  "Commander-legal card (or authorized project exception) in colour identity, not a basic land, not in the "
+                  "canonical list (full-pool sweep, coverage 1.0). No size bound; screening tiers order work and never exclude.",
+    "sources": "per-card `sources` are the saturation signals (full_pool_sweep when no signal pass named the card)",
+    "full_review_rule": "test_tier paired_test from the saturation certificate (escalated, ranked by score + 5 x reasons, batch "
+                        "target 250); escalated_queued cards are kept, listed and reviewed in later batches",
+    "excluded": "not Commander-legal (unreleased cards listed with legal_from in the certificate's blind_spots), outside "
+                "identity, basic lands, already in the list"}
 SCREEN_RULES = [
     "edhrec: 35 x min(1, inclusion / 0.40) + 25 x clamp(synergy / 0.25, -1, 1) (commander page; derived_metric)",
     "rank: 15 x max(0, 1 - log10(EDHREC overall rank) / 4.5) (Scryfall edhrec_rank; derived_metric)",
@@ -311,74 +305,26 @@ def screen(D, name, c, src):
 
 
 def build_universe(D):
-    pool = D.pool
-    cand = {}  # name -> set(sources)
-
-    def add(n, s):
-        c = pool.get(n)
-        if c is None or not D.legal_in_identity(c):
-            return False
-        cand.setdefault(n, set()).add(s)
-        return True
-
-    excluded = Counter()
-    for n in D.ev_cands:
-        if not add(n, "edhrec"):
-            excluded["edhrec_not_legal_or_unresolved"] += 1
-    for n in D.almost:
-        if not add(n, "spellbook"):
-            excluded["spellbook_not_legal_or_outside_identity"] += 1
-    for x in D.pk.values():
-        for n in x["candidates"]:
-            add(n, "blueprint")
-    watch = []
-    pkt = set().union(*[x["types"] for x in D.pk.values()]) if D.pk else set()
-    for n, c in pool.items():
-        if n in D.names or not set(c.get("color_identity", [])) <= D.ci:
-            continue
-        legal = (c.get("legalities") or {}).get("commander") == "legal"
-        hook = D.ctx.hook(c)
-        typ = bool(subtypes(c) & pkt)
-        fr = D.first.get(c.get("oracle_id")) or ""
-        if not legal:
-            if (hook or typ) and fr >= NEW_SINCE and (c.get("legalities") or {}).get("commander") == "not_legal" and not c.get("digital"):
-                watch.append((fr, n))
-            continue
-        if hook:
-            cand.setdefault(n, set()).add("oracle_hook")
-        if typ:
-            cand.setdefault(n, set()).add("package")
-        if fr >= NEW_SINCE and (hook or typ or set(roles_of(c)) & set(KEY_ROLES)):
-            cand.setdefault(n, set()).add("new_card")
-    scored = {}
-    for n, s in cand.items():
-        scored[n] = screen(D, n, pool[n], s)
-    key = lambda n: (-scored[n][0], n)
-    must = [n for n, s in cand.items() if s & {"edhrec", "spellbook", "blueprint"} or ("new_card" in s and len(s) > 1)]
-    niche = [n for n, s in cand.items() if n not in must and s & {"oracle_hook", "package"} and n not in D.edh]
-    rest = [n for n in cand if n not in must and n not in niche]
-    must.sort(key=key), niche.sort(key=key), rest.sort(key=key)
-    room = UNIVERSE_MAX - min(len(niche), NICHE_RESERVE)
-    keep = must[:room]
-    keep += niche[:UNIVERSE_MAX - len(keep)]
-    left = sorted([n for n in must[room:]] + niche[len(keep) - len(must[:room]):] + rest, key=key)
-    keep += left[:UNIVERSE_MAX - len(keep)]
-    if len(keep) < UNIVERSE_MIN:
-        fill = sorted((c.get("edhrec_rank") or 10 ** 9, n) for n, c in pool.items()
-                      if n not in cand and D.legal_in_identity(c) and set(roles_of(c)) & set(KEY_ROLES))
-        for _, n in fill[:UNIVERSE_MIN - len(keep)]:
-            cand[n] = {"rank_fill"}
-            scored[n] = screen(D, n, pool[n], cand[n])
-            keep.append(n)
-    keep.sort(key=key)
-    src_all = Counter(s for n in cand for s in cand[n])
-    src_kept = Counter(s for n in keep for s in cand[n])
-    watch.sort(key=lambda x: (x[0], x[1]))
-    meta = {"considered": len(cand), "size": len(keep), "sources_considered": dict(sorted(src_all.items())),
-            "sources_kept": dict(sorted(src_kept.items())), "excluded": dict(sorted(excluded.items())),
-            "not_legal_watchlist": {"count": len(watch), "cards": [f"{n} ({fr})" for fr, n in watch[-10:]]},
+    """The saturated universe (step A). Refuses a certificate built for another list hash."""
+    import grixis_saturation as gsat
+    cp = SATURATION / f"{D.slug}.json"
+    cert = json.loads(cp.read_text(encoding="utf-8"))
+    if cert["list_hash"] != D.e["canonical_project_list"]["hash"]:
+        raise SystemExit(f"{D.slug}: saturation certificate is for another list hash (run grixis_saturation.py)")
+    rows = gsat.load_universe(ROOT / cert["universe"]["file"])
+    keep = [x["card"] for x in rows if x["card"] in D.pool]
+    cand = {x["card"]: set(x["signals"]) for x in rows}
+    sat = {x["card"]: x for x in rows}
+    scored = {n: screen(D, n, D.pool[n], cand[n]) for n in keep}
+    keep.sort(key=lambda n: (-scored[n][0], n))
+    meta = {"considered": cert["pool"]["eligible"], "size": len(keep), "sweep_coverage": cert["pool"]["sweep_coverage"],
+            "saturation_certificate": rel(cp), "saturation_sha256": cert["universe"]["sha256"],
+            "sources_considered": dict(sorted(cert["universe"]["per_signal"].items())),
+            "excluded": dict(sorted(cert["hard_exclusions"].items())),
+            "not_legal_watchlist": {"count": len(cert["blind_spots"][0]["cards"]),
+                                    "cards": [f"{x['card']} ({x['legal_from']})" for x in cert["blind_spots"][0]["cards"][-10:]]},
             "spellbook_snapshot_matches_list": D.almost_sig_ok}
-    return keep, cand, scored, meta
+    return keep, cand, scored, meta, sat
 
 
 # ---------------------------------------------------------------- triage
@@ -386,33 +332,12 @@ def tier(score):
     return "A" if score >= TIER_A else "B" if score >= TIER_B else "C"
 
 
-def triage(D, keep, cand, scored):
-    nA = sum(1 for n in keep if tier(scored[n][0]) == "A")
-    k = max(DEFAULT_RANGE[0], min(DEFAULT_RANGE[1], nA))
-    default = keep[:k]
-    esc = {}
-    over = {}
-    reasons = {r: [] for r in ESCALATION_RULES if r != "cap"}
-    for n in keep[k:]:
-        sc, parts, f = scored[n]
-        s = cand[n]
-        if f.get("spellbook_infinite"):
-            reasons["dependency_analysis"].append(n)
-        if "new_card" in parts and (f.get("oracle_hook") or f.get("packages") or f.get("spellbook")):
-            reasons["new_card"].append(n)
-        if (f.get("oracle_hook") or "package_type" in parts) and n not in D.edh:
-            reasons["unusual_oracle_interaction"].append(n)
-        gap = [p for p in f.get("packages", []) if D.pk[p]["required"] and D.pk[p]["min"] and D.pk[p]["in_list"] < D.pk[p]["min"]
-               and f["package_basis"].get(p) == "type"]
-        if gap:
-            reasons["package_gap"].append(n)
-        e = f.get("edhrec") or {}
-        if (e.get("synergy") is not None and e["synergy"] >= 0.15 and e["inclusion"] < 0.10) or "blueprint" in s:
-            reasons["rank_miss_suspected"].append(n)
-    for r, ns in reasons.items():
-        for n in ns:
-            esc.setdefault(n, []).append(r)
-    return default, esc, over, k
+def triage(D, keep, sat):
+    """Full screening reviews = the certificate's paired_test cards; escalated_queued cards are listed for later batches."""
+    esc = {n: sat[n]["escalation"] for n in keep if sat[n]["escalation"]}
+    default = [n for n in keep if sat[n]["test_tier"] == "paired_test"]
+    queued = [n for n in keep if sat[n]["test_tier"] == "escalated_queued"]
+    return default, esc, queued
 
 
 def esc_refs(D, n, rs, f):
@@ -810,9 +735,9 @@ def make_swap(D, n, c, parts, f, rv, cut, items, R, base, base_cm, bd=None):
 def build_deck(did, v, R, reg, pool, first, almost):
     import grixis_sim as gs, grixis_paired as gp
     D = DeckCtx(did, v, R, reg, pool, first, almost)
-    keep, cand, scored, meta = build_universe(D)
-    default, esc, over, k = triage(D, keep, cand, scored)
-    full = set(default) | set(esc)
+    keep, cand, scored, meta, sat = build_universe(D)
+    default, esc, queued = triage(D, keep, sat)
+    full = set(default)
     base = gs.load_deck(D.slug, R)
     base_cm = {x["name"]: x for x in base.library}
     recs, swaps, tests = [], [], []
@@ -827,7 +752,7 @@ def build_deck(did, v, R, reg, pool, first, almost):
                               "note": "triage.escalation_rules" if rs else None},
                "evidence": sorted({f"oracle:{n}"} | ({f"evidence:data/grixis/evidence/{D.slug}.json#{n}"} if f.get("edhrec") else set()) |
                                   {f"spellbook:{x}" for x in f.get("spellbook", [])[:4]}),
-               "workload": {"default_full_review_range": DEFAULT_RANGE, "is_gate": False},
+               "workload": {"test_tier": sat[n]["test_tier"], "is_gate": False},
                "sources": sorted(cand[n]), "screening": {"score": sc, "parts": parts, "facts": f}}
         if n in full:
             rv, cut, items, alt = full_review(D, n, c, sc, parts, f, R)
@@ -862,7 +787,8 @@ def build_deck(did, v, R, reg, pool, first, almost):
                         "date": TODAY.isoformat()},
            "authority": dict(AUTHORITY, m2_status=reg["program"]["milestones"]["M2"]["status"]),
            "universe": dict(UNIVERSE_RULES, **meta, screen_rules=SCREEN_RULES),
-           "triage": {"default_full_reviews": k, "default_rule": f"top clamp(#tier A, {DEFAULT_RANGE[0]}, {DEFAULT_RANGE[1]}) by screening score",
+           "triage": {"default_full_reviews": len(default), "default_rule": UNIVERSE_RULES["full_review_rule"],
+                      "escalated_queued": queued,
                       "tier_A": sum(1 for n in keep if tier(scored[n][0]) == "A"), "escalated": len(esc),
                       "escalation_reasons": dict(sorted(Counter(r for rs in esc.values() for r in rs).items())),
                       "escalation_rules": ESCALATION_RULES, "escalation_cap": None,
@@ -940,8 +866,13 @@ def path_of(slug):
     return OUT / f"{slug}.json.gz"
 
 
+def write_path(slug):
+    return WRITE_DIR / f"{slug}.json.gz"
+
+
 def write_doc(slug, doc):
-    path_of(slug).write_bytes(gzip.compress(dump(doc).encode("utf-8"), compresslevel=9, mtime=0))
+    WRITE_DIR.mkdir(parents=True, exist_ok=True)
+    write_path(slug).write_bytes(gzip.compress(dump(doc).encode("utf-8"), compresslevel=9, mtime=0))
 
 
 def read_text(path):
@@ -1026,8 +957,13 @@ def check(verbose=True, rebuild=True):
         if doc["snapshot"]["audit"] != au["snapshot"]["id"]:
             p.append(f"{s}: built from an older audit (run --build)")
         n = len(doc["candidates"])
-        if not UNIVERSE_MIN <= n <= UNIVERSE_MAX:
-            p.append(f"{s}: universe size {n} outside [{UNIVERSE_MIN}, {UNIVERSE_MAX}]")
+        legacy = doc["universe"].get("mode") != "saturation"
+        if legacy:  # capped legacy file (Bot cycle 61): validated against the bound it recorded, superseded at M5 regeneration
+            lo, hi = doc["universe"]["bounds"]
+            if not lo <= n <= hi:
+                p.append(f"{s}: legacy universe size {n} outside its recorded bounds")
+        elif n != doc["universe"]["considered"]:
+            p.append(f"{s}: saturated universe size {n} != certificate eligible {doc['universe']['considered']}")
         names = {x["card"] for x in doc["candidates"]}
         lst = {x["card"] for x in au["slots"]}
         if names & lst:
@@ -1049,8 +985,10 @@ def check(verbose=True, rebuild=True):
                     p.append(f"{s}: {c['card']}: a script wrote a judgment_review")
             elif not ga.decision_review_problems(c):
                 p.append(f"{s}: {c['card']}: decision-capable without a judgment_review")
-        if nf < DEFAULT_RANGE[0]:
-            p.append(f"{s}: only {nf} screening reviews (default range starts at {DEFAULT_RANGE[0]})")
+        if legacy and nf < doc["triage"]["default_full_reviews"]:
+            p.append(f"{s}: only {nf} screening reviews (< recorded default {doc['triage']['default_full_reviews']})")
+        elif not legacy and nf != doc["triage"]["default_full_reviews"]:
+            p.append(f"{s}: {nf} screening reviews != the certificate's paired_test count {doc['triage']['default_full_reviews']}")
         if doc["counts"]["judgment_reviews"] != sum(1 for c in doc["candidates"] if "judgment_review" in c):
             p.append(f"{s}: counts.judgment_reviews is wrong")
         byc = {c["card"]: c for c in doc["candidates"]}
@@ -1093,7 +1031,7 @@ def check(verbose=True, rebuild=True):
         tot["escalated"] += doc["triage"]["escalated"]
         tot["swaps"] += len(doc["swaps"])
         tot["tests"] += len(doc["tests"])
-        if rebuild and (ROOT / ".cache").exists() and s in CHECK_REBUILD:
+        if rebuild and not legacy and (ROOT / ".cache").exists() and s in CHECK_REBUILD:
             ctx = ctx or _ctx()
             R, reg2, pool, first, almost = ctx
             if dump(build_deck(did, v, R, reg2, pool, first, almost)) != text:
@@ -1128,7 +1066,13 @@ def main():
     ap.add_argument("--summary", action="store_true")
     ap.add_argument("--deck")
     ap.add_argument("--jobs", type=int, default=6)
+    ap.add_argument("--out", help="write built files here instead of data/grixis/candidates (scratch smoke runs)")
     a = ap.parse_args()
+    global WRITE_DIR
+    if a.out:
+        WRITE_DIR = Path(a.out)
+    elif a.build:
+        raise SystemExit("--build without --out would overwrite the stored (capped legacy) M5 files; M5 is regenerated only after steps A-F")
     if a.build:
         build(a.deck, a.jobs)
     if a.summary:
