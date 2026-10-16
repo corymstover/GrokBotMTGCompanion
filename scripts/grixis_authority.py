@@ -137,7 +137,9 @@ def approval_problems(deck_id, entry, approvals, approvers, milestones):
     rc = ce.get("resolved_ceiling") or {}
     if rc.get("value") is not None and (not rc.get("resolved_by") or rc.get("resolved_by") not in approvers):
         p.append(f"{deck_id}: resolved_ceiling needs resolved_by (a human approver); grok estimates never resolve themselves")
-    s, g = (ce.get("source_ceiling") or {}).get("value"), (ce.get("grok_estimated_ceiling") or {}).get("value")
+    sc = ce.get("source_ceiling") or {}
+    s = sc.get("value") if sc.get("value") is not None else (sc.get("recovered") or {}).get("value")  # Bot cycle 50: recovered claim
+    g = (ce.get("grok_estimated_ceiling") or {}).get("value")
     want = None if s is None or g is None else (s != g)
     if ce.get("disagreement") != want:
         p.append(f"{deck_id}: ceiling.disagreement must be {want} (source {s}, grok estimate {g})")
