@@ -84,8 +84,29 @@ def http_get(url: str) -> bytes:
     return data
 
 
+LOCK_FILE = ROOT / "data" / "grixis" / "dev_snapshot_lock.json"  # Bot cycle 66.3b: frozen dev snapshot (Cory D6)
+
+
+def snapshot_lock():
+    """The dev-snapshot lock, or None when absent or overridden for the Birthday snapshot step."""
+    if os.environ.get("SCRYFALL_BIRTHDAY_SNAPSHOT") == "1" or not LOCK_FILE.is_file():
+        return None
+    return json.loads(LOCK_FILE.read_text(encoding="utf-8"))
+
+
 def get_bulk(cache_dir: Path, bulk_file: str | None, kind: str = "oracle-cards") -> tuple[list[dict], str]:
     """Return (objects, bulk_updated_at) for a Scryfall bulk type (oracle-cards, rulings, ...)."""
+    lock = snapshot_lock()
+    if lock and not bulk_file:
+        # Frozen development snapshot: never fetch, replace or add a bulk; always read the locked file.
+        name = lock["files"].get(kind)
+        if not name:
+            raise SystemExit(f"dev snapshot lock ({LOCK_FILE.name}) is active and names no {kind} bulk: refusing to fetch one "
+                             "(set SCRYFALL_BIRTHDAY_SNAPSHOT=1 only for the Birthday snapshot step)")
+        bulk_file = str(cache_dir / name)
+        if not Path(bulk_file).is_file():
+            raise SystemExit(f"dev snapshot lock: locked bulk {name} is missing from {cache_dir}; restore it "
+                             "(refusing to download a newer one; Birthday override: SCRYFALL_BIRTHDAY_SNAPSHOT=1)")
     if not bulk_file and os.environ.get("SCRYFALL_OFFLINE"):
         # Offline mode (Bot cycle 17, scripts/validate_all.py): newest cached bulk of this kind.
         cached = sorted(cache_dir.glob(f"{kind}-*.json*"))
@@ -386,7 +407,11 @@ def main() -> int:
                     help="number of cards (in priority/EDHREC order) to newly add rulings for "
                          "(default: state rulings.next_batch_size; 0 = only refresh cards already done)")
     ap.add_argument("--rulings-file", default=None, help="local Scryfall rulings bulk .jsonl(.gz)")
+    ap.add_argument("--birthday-snapshot", action="store_true",
+                    help="lift the dev snapshot lock (data/grixis/dev_snapshot_lock.json); reserved for the Birthday snapshot step")
     args = ap.parse_args()
+    if args.birthday_snapshot:
+        os.environ["SCRYFALL_BIRTHDAY_SNAPSHOT"] = "1"
 
     state = json.loads(STATE_FILE.read_text()) if STATE_FILE.exists() else {}
     cards, bulk_updated = get_bulk(Path(args.cache_dir), args.bulk_file)
