@@ -2115,6 +2115,8 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
   - *2022-06-10* — You choose the player or planeswalker the Skeleton is attacking.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 22 decks; highest synergy [Mogg War Marshal](../../cards/M/mog.md#mogg-war-marshal) (+41%), [Bloody Betrayal](../../cards/B/blo.md#bloody-betrayal) (+36%), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (+32%) · EDHREC: in 16,758 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (2.7% of its decks), [Ares, God of War](../../cards/A/are.md#ares-god-of-war) (41.3% of its decks), [J. Jonah Jameson](../../cards/J/jj.md#j-jonah-jameson) (62.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/G.md#gut-true-soul-zealot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/180/gut-true-soul-zealot) · oracle_id `60e7130a-d321-4e50-93a4-999013c76054` · printing: CLB #180 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

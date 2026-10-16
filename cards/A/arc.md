@@ -1206,6 +1206,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-04-08* — Archangel Avacyn's delayed triggered ability triggers at the beginning of the next upkeep regardless of whose turn it is.
   - *2016-04-08* — Archangel Avacyn's delayed triggered ability won't cause it to transform back into Archangel Avacyn if it has already transformed into Avacyn, the Purifier, perhaps because several creatures died in one turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,510 decks; highest synergy [Cloudshift](../../cards/C/cl.md#cloudshift) (+55%), [Ephemerate](../../cards/E/ep.md#ephemerate) (+53%), [Selfless Spirit](../../cards/S/sel.md#selfless-spirit) (+41%) · EDHREC: in 17,907 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (11.6% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (22.7% of its decks), [Aurelia, the Warleader](../../cards/A/au.md#aurelia-the-warleader) (14.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/11/archangel-avacyn-avacyn-the-purifier) · oracle_id `432b37a5-d32a-4b78-91ab-860aa026b7cc` · printing: INR #11 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archangel Elspeth

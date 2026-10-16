@@ -336,6 +336,9 @@ schema: 2
 - **Keywords:** Ghost, Standoff
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7279 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 17,232 decks; highest synergy [Unstoppable Slasher](../../cards/U/un.md#unstoppable-slasher) (+54%), [Eiganjo Castle](../../cards/E/ei.md#eiganjo-castle) (+50%), [Buster Sword](../../cards/B/bu.md#buster-sword) (+48%) · EDHREC: in 3,179 decks; most often under [Noctis, Heir Apparent](../../cards/N/no.md#noctis-heir-apparent) (13.6% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (2.2% of its decks), [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (5.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/J.md#jin-sakai-ghost-of-tsushima)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2226/jin-sakai-ghost-of-tsushima) · oracle_id `76c43ac8-a878-4239-b0e3-f0254ef63e50` · printing: SLD #2226 (2025-10-27) · [rulings](https://api.scryfall.com/cards/9f52160b-dcc0-4ab8-b8b2-b576b1688d57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jinx

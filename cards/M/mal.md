@@ -401,6 +401,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7747 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-04-12* — Spells that were cast before Malcolm entered the battlefield count. If Malcolm was the first spell you cast this turn, the next spell you cast this turn is your second spell.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 535 decks; highest synergy [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+51%), [Erdwal Illuminator](../../cards/E/er.md#erdwal-illuminator) (+51%), [Deduce](../../cards/D/ded.md#deduce) (+47%) · EDHREC: in 18,049 decks; most often under [Breeches, Brazen Plunderer // Malcolm, Keen-Eyed Navigator](../../cards/B/br.md#breeches-brazen-plunderer) (42.2% of its decks), [Edward Kenway](../../cards/E/ed.md#edward-kenway) (9.3% of its decks), [Breeches, the Blastmaker](../../cards/B/br.md#breeches-the-blastmaker) (66.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/219/malcolm-the-eyes) · oracle_id `7932ab35-39dc-4500-aa44-2ad7228f0d2a` · printing: OTJ #219 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malefic Scythe

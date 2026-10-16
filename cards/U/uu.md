@@ -50,5 +50,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — If you don't put the card into your graveyard, it stays on top of your library.
   - *2022-09-09* — The ability that defines Uurg, Spawn of Turg's power works in all zones, not just on the battlefield.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Dominaria United](https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 702 decks; highest synergy [The Gitrog Monster](../../cards/T/theg.md#the-gitrog-monster) (+56%), [Harrow](../../cards/H/ha.md#harrow) (+55%), [Zuran Orb](../../cards/Z/zu.md#zuran-orb) (+49%) · EDHREC: in 17,348 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (17.3% of its decks), [Glarb, Calamity's Augur](../../cards/G/gl.md#glarb-calamitys-augur) (8.7% of its decks), [Szarel, Genesis Shepherd](../../cards/S/sz.md#szarel-genesis-shepherd) (20.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#uurg-spawn-of-turg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/127/uurg-spawn-of-turg) · oracle_id `0191a93a-f304-4c20-9af4-7cdea82c07cf` · printing: EOC #127 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

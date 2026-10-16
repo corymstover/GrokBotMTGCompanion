@@ -496,6 +496,8 @@ schema: 2
   - *2020-01-24* — If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
   - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
   - *2020-01-24* — The ability that defines Callaphe’s power works in all zones, not just the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 642 decks; highest synergy [Aqueous Form](../../cards/A/aq.md#aqueous-form) (+66%), [Combat Research](../../cards/C/com.md#combat-research) (+61%), [Eel Umbra](../../cards/E/ee.md#eel-umbra) (+54%) · EDHREC: in 17,927 decks; most often under [Zur the Enchanter](../../cards/Z/zu.md#zur-the-enchanter) (10.9% of its decks), [Lynde, Cheerful Tormentor](../../cards/L/ly.md#lynde-cheerful-tormentor) (21.5% of its decks), [Zur, Eternal Schemer](../../cards/Z/zu.md#zur-eternal-schemer) (15.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/45/callaphe-beloved-of-the-sea) · oracle_id `faf081dc-1fb2-47ac-a9c7-8001b4904120` · printing: THB #45 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call a Surprise Witness

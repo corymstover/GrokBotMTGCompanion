@@ -114,6 +114,9 @@ schema: 2
 - **Keywords:** Density Control, Flying, Vigilance, Technopathy, Solar Beam
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7250 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 611 decks; highest synergy [Adaptive Omnitool](../../cards/A/ad.md#adaptive-omnitool) (+59%), [Shimmer Myr](../../cards/S/shi.md#shimmer-myr) (+57%), [Vedalken Orrery](../../cards/V/ve.md#vedalken-orrery) (+50%) · EDHREC: in 19,984 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (30.8% of its decks), [Ultron, Artificial Malevolence](../../cards/U/ul.md#ultron-artificial-malevolence) (38.4% of its decks), [T'Challa, the Black Panther](../../cards/T/tc.md#tchalla-the-black-panther) (23.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-vision)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/255/the-vision) · oracle_id `32aee76a-e738-4898-985a-801d1cce15ea` · printing: MSH #255 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2961cf20-33c8-4e66-9d0f-6daca8ea7880/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vision and Scarlet Witch

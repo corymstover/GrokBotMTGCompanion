@@ -824,6 +824,8 @@ schema: 2
   - *2025-04-04* — The copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger.
   - *2025-04-04* — The copy will have the same targets unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
   - *2025-04-04* — You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 10,080 decks; highest synergy [Narset's Reversal](../../cards/N/na.md#narsets-reversal) (+64%), [Veyran, Voice of Duality](../../cards/V/ve.md#veyran-voice-of-duality) (+64%), [Archmage Emeritus](../../cards/A/arc.md#archmage-emeritus) (+61%) · EDHREC: in 7,039 decks; most often under [Elsha, Threefold Master](../../cards/E/el.md#elsha-threefold-master) (20.6% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (13.4% of its decks), [Hinata, Dawn-Crowned](../../cards/H/hi.md#hinata-dawn-crowned) (10.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/7/shiko-and-narset-unified) · oracle_id `40ed32a6-ad56-48c7-aecf-b4238c34c212` · printing: TDC #7 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shiko, Paragon of the Way
@@ -865,6 +867,8 @@ schema: 2
   - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
   - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
   - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Solemnity + Shilgengar, Sire of Famine](https://commanderspellbook.com/combo/4053-5686--73/) (Infinite artifact tokens, Infinite creature LTB) · EDHREC as commander: 9,841 decks; highest synergy [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (+78%), [Angel of the Ruins](../../cards/A/an.md#angel-of-the-ruins) (+68%), [Angel of Suffering](../../cards/A/an.md#angel-of-suffering) (+67%) · EDHREC: in 9,370 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (11.4% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.5% of its decks), [Liesa, Shroud of Dusk](../../cards/L/li.md#liesa-shroud-of-dusk) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/109/shilgengar-sire-of-famine) · oracle_id `71ac4d8c-5b58-4ea8-996b-f0289717c4bb` · printing: MH3 #109 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shimatsu the Bloodcloaked

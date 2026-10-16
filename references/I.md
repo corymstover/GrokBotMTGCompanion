@@ -1201,8 +1201,9 @@ schema: 2
 
 ### Iron Man, Armored Avenger
 
-[Card entry](../cards/I/ir.md#iron-man-armored-avenger) · **1 pages** (card data 1)
+[Card entry](../cards/I/ir.md#iron-man-armored-avenger) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Card data (1):** [Artist Index → Artists C](../Artist%20Index.md#artists-c)
 
 ### Iron Man, Bleeding Edge

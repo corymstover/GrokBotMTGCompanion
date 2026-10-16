@@ -1752,7 +1752,9 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — As the last ability resolves, you choose whether to pay 4 life. You can’t pay it more than once to create additional Vampire Knight tokens.
   - *2023-04-14* — You choose the value of X as the first triggered ability resolves.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#elenda-and-azor)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,068 decks; highest synergy [Teferi's Ageless Insight](../../cards/T/te.md#teferis-ageless-insight) (+47%), [Sanctum Seeker](../../cards/S/san.md#sanctum-seeker) (+46%), [Skullclamp](../../cards/S/sk.md#skullclamp) (+46%) · EDHREC: in 17,485 decks; most often under [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (55.6% of its decks), [Raffine, Scheming Seer](../../cards/R/raf.md#raffine-scheming-seer) (23.3% of its decks), [Queza, Augur of Agonies](../../cards/Q/qu.md#queza-augur-of-agonies) (6.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/E.md#elenda-and-azor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/6/elenda-and-azor) · oracle_id `4b9f463f-3786-4374-bf77-739ae162b3ba` · printing: MOC #6 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elenda, Saint of Dusk

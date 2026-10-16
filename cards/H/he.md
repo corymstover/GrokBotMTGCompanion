@@ -3601,6 +3601,8 @@ schema: 2
 - **Keywords:** Deathtouch, Flying, Lifelink, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7702 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Innistrad: Crimson Vow](https://magic.wizards.com/en/news/feature/legends-innistrad-crimson-vow-2021-11-12) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 285 decks; highest synergy [Nighthawk Scavenger](../../cards/N/ni.md#nighthawk-scavenger) (+66%), [Vampire Nighthawk](../../cards/V/va.md#vampire-nighthawk) (+66%), [Drana, Liberator of Malakir](../../cards/D/dra.md#drana-liberator-of-malakir) (+59%) · EDHREC: in 18,465 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (7.6% of its decks), [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (15.2% of its decks), [Olivia, Crimson Bride](../../cards/O/ol.md#olivia-crimson-bride) (39.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/119/henrika-domnathi-henrika-infernal-seer) · oracle_id `0c0845c3-f4b5-444e-8f42-da0c7dbf2841` · printing: VOW #119 (2021-11-19) · [rulings](https://api.scryfall.com/cards/946ca338-5f43-4cff-bd93-1b28449c5fdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Henry Wu, InGen Geneticist
@@ -3638,6 +3640,8 @@ schema: 2
   - *2022-04-29* — If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
   - *2022-04-29* — The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
   - *2022-04-29* — You don't have to attack with the creature with blitz unless another ability says you do.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Streets of New Capenna](https://magic.wizards.com/en/news/feature/the-legends-youll-find-in-streets-of-new-capenna) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 18,829 decks; highest synergy [Junji, the Midnight Sky](../../cards/J/ju.md#junji-the-midnight-sky) (+67%), [Solemn Simulacrum](../../cards/S/so.md#solemn-simulacrum) (+62%), [Etali, Primal Storm](../../cards/E/et.md#etali-primal-storm) (+59%) · EDHREC: in 1,561 decks; most often under [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (3.4% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (1.9% of its decks), [Ognis, the Dragon's Lash](../../cards/O/og.md#ognis-the-dragons-lash) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/H.md#henzie-toolbox-torre)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/2/henzie-toolbox-torre) · oracle_id `5320f5a6-8066-47d4-aa0a-4c879f39d413` · printing: NCC #2 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -3471,7 +3471,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7158 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-07-05* — Once a creature you control has become blocked by a single creature, giving it menace by turning it face down somehow won’t cause it to become unblocked.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#roshan-hidden-magister)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 39 combos; most popular [Altaïr Ibn-La'Ahad + Port Razer + Roshan, Hidden Magister](https://commanderspellbook.com/combo/1548-5703-5744/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 110 decks; highest synergy [Scroll of Fate](../../cards/S/sc.md#scroll-of-fate) (+85%), [Ghastly Conscription](../../cards/G/gh.md#ghastly-conscription) (+78%), [Zoetic Cavern](../../cards/Z/zo.md#zoetic-cavern) (+76%) · EDHREC: in 20,649 decks; most often under [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (32.1% of its decks), [Altaïr Ibn-La'Ahad](../../cards/A/al.md#altaïr-ibn-laahad) (60.4% of its decks), [Etrata, Deadly Fugitive](../../cards/E/et.md#etrata-deadly-fugitive) (89.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/R.md#roshan-hidden-magister)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/32/roshan-hidden-magister) · oracle_id `f60b21c1-d192-4a02-9b1f-a08e9e08a84a` · printing: ACR #32 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rosheen Meanderer

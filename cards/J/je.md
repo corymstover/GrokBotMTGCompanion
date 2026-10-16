@@ -331,6 +331,8 @@ schema: 2
 - **Keywords:** Reach, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7291 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Jennifer Walters // The Sensational She-Hulk + Volcano Hellion](https://commanderspellbook.com/combo/5109-7721/) (Near-infinite damage to target player, Target opponent loses the game) · EDHREC as commander: 1,327 decks; highest synergy [Epic Fight](../../cards/E/ep.md#epic-fight) (+53%), [Bushwhack](../../cards/B/bu.md#bushwhack) (+47%), [Ulvenwald Tracker](../../cards/U/ul.md#ulvenwald-tracker) (+47%) · EDHREC: in 19,202 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (59.4% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (26.8% of its decks), [Crystal, Inhuman Princess](../../cards/C/cr.md#crystal-inhuman-princess) (16.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/J.md#jennifer-walters--the-sensational-she-hulk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/18/jennifer-walters-the-sensational-she-hulk) · oracle_id `c867a778-97ef-4872-b890-b088b96a1281` · printing: MSH #18 (2026-06-26) · [rulings](https://api.scryfall.com/cards/61237530-ad49-469c-a952-67c92315708e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -440,6 +442,9 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7939 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Dominaria United](https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [Jenson Carthalion, Druid Exile + Biomancer's Familiar + Freed from the Real](https://commanderspellbook.com/combo/1912-3068-4222/) (Infinite black mana, Infinite green mana) · EDHREC as commander: 3,134 decks; highest synergy [Maelstrom Archangel](../../cards/M/mae.md#maelstrom-archangel) (+66%), [Maelstrom Nexus](../../cards/M/mae.md#maelstrom-nexus) (+60%), [Fallaji Wayfarer](../../cards/F/fa.md#fallaji-wayfarer) (+58%) · EDHREC: in 14,761 decks; most often under [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (27.1% of its decks), [Jared Carthalion](../../cards/J/ja.md#jared-carthalion) (48.8% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (5.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Mana creatures (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-creatures-mv--2) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/J.md#jenson-carthalion-druid-exile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/3/jenson-carthalion-druid-exile) · oracle_id `68cefb44-afad-4638-8fdc-65a099b51d55` · printing: DMC #3 (2022-09-09) · [rulings](https://api.scryfall.com/cards/6a67f32c-4c9a-4bda-92f4-037b99999777/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeong Jeong's Deserters

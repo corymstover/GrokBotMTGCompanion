@@ -1276,6 +1276,8 @@ schema: 2
   > {T}: Add {G}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7816 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Arwen, Weaver of Hope + Animation Module + Runadi, Behemoth Caller + Rishkar, Peema Renegade](https://commanderspellbook.com/combo/1453-2387-3490-7076/) (Infinite artifact ETB, Infinite creature ETB) · EDHREC as commander: 1,475 decks; highest synergy [Up the Beanstalk](../../cards/U/up.md#up-the-beanstalk) (+52%), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+51%), [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+46%) · EDHREC: in 16,826 decks; most often under [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (6.8% of its decks), [Gargos, Vicious Watcher](../../cards/G/ga.md#gargos-vicious-watcher) (12.5% of its decks), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (10.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/J22-44/runadi-behemoth-caller) · oracle_id `95dc1f55-9dad-4a35-ac5e-abc53d442ffb` · printing: PLST #J22-44 (2026-10-19) · [rulings](https://api.scryfall.com/cards/d874d839-924e-4d1d-98d2-73aea61e004d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Run Afoul
@@ -1959,6 +1961,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7587 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-06-01* — Each Ascendant is legendary in both its unflipped and flipped forms. This means that effects that look for legendary creature cards, such as Time of Need and Captain Sisay, can find an Ascendant.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Rune-Tail, Kitsune Ascendant // Rune-Tail's Essence + Pariah](https://commanderspellbook.com/combo/816-4090/) (Prevent all damage that would be dealt to creatures you control, Prevent all damage that would be dealt to you) · EDHREC as commander: 1,686 decks; highest synergy [Pariah](../../cards/P/pa.md#pariah) (+64%), [Protector of the Crown](../../cards/P/pr.md#protector-of-the-crown) (+64%), [Palace Guard](../../cards/P/pa.md#palace-guard) (+59%) · EDHREC: in 17,442 decks; most often under [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (41.3% of its decks), [Eight-and-a-Half-Tails](../../cards/E/ei.md#eight-and-a-half-tails) (42.1% of its decks), [Keleth, Sunmane Familiar // Yoshimaru, Ever Faithful](../../cards/K/ke.md#keleth-sunmane-familiar) (34.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/27/rune-tail-kitsune-ascendant-rune-tails-essence) · oracle_id `710f1f8a-e5f7-4889-9f12-2611f42d5c73` · printing: SOK #27 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Runewing

@@ -480,8 +480,9 @@ schema: 2
 
 ### Elenda and Azor
 
-[Card entry](../cards/E/el.md#elenda-and-azor) · **1 pages** (card data 1)
+[Card entry](../cards/E/el.md#elenda-and-azor) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Elenda's Hierophant
@@ -1404,9 +1405,9 @@ schema: 2
 
 ### Erinis, Gloom Stalker
 
-[Card entry](../cards/E/er.md#erinis-gloom-stalker) · **1 pages** (edh guides 1)
+[Card entry](../cards/E/er.md#erinis-gloom-stalker) · **2 pages** (edh guides 2)
 
-- **EDH guides (1):** [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Choose a Background](../EDH%20Pairings.md#choose-a-background)
+- **EDH guides (2):** [EDH Packages → Lands / landfall: Lands from graveyard](../EDH%20Packages.md#lands--landfall-lands-from-graveyard) · [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Choose a Background](../EDH%20Pairings.md#choose-a-background)
 
 ### Eris, Roar of the Storm
 

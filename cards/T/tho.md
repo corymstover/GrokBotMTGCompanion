@@ -323,6 +323,9 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8128 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 84+ combos; most popular [Thor, God of Thunder + Time Warp + The Mighty Thor, Jane Foster](https://commanderspellbook.com/combo/4872-7715-7722/) (Infinite turns, Lock) · EDHREC as commander: 1,604 decks; highest synergy [Mjölnir, Hammer of Thor](../../cards/M/mj.md#mjölnir-hammer-of-thor) (+79%), [Electro, Assaulting Battery](../../cards/E/el.md#electro-assaulting-battery) (+49%), [Improvisation Capstone](../../cards/I/im.md#improvisation-capstone) (+47%) · EDHREC: in 15,705 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (26.7% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (15.3% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (18.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#thor-god-of-thunder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/156/thor-god-of-thunder) · oracle_id `2842217a-173e-4879-8b25-fefe2fc1123f` · printing: MSH #156 (2026-06-26) · [rulings](https://api.scryfall.com/cards/cddd314c-c271-475a-b076-01a8599c8015/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thor, Guardian of Midgard

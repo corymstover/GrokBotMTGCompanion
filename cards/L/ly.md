@@ -68,6 +68,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-05* — Once Lydia Frye has been blocked, increasing the blocking creature’s power to 3 or greater won’t cause Lydia Frye to become unblocked.
   - *2024-07-05* — The value of X is calculated only once, as Lydia Frye’s last ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 181 decks; highest synergy [Desmond Miles](../../cards/D/des.md#desmond-miles) (+78%), [Assassin Initiate](../../cards/A/as.md#assassin-initiate) (+74%), [Evie Frye](../../cards/E/ev.md#evie-frye) (+69%) · EDHREC: in 19,345 decks; most often under [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (62.4% of its decks), [Etrata, Deadly Fugitive](../../cards/E/et.md#etrata-deadly-fugitive) (56.4% of its decks), [Edward Kenway](../../cards/E/ed.md#edward-kenway) (9.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/60/lydia-frye) · oracle_id `0315f5e7-2867-428e-8e43-66dda0db57a0` · printing: ACR #60 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyev Decree

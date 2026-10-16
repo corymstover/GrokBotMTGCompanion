@@ -743,7 +743,9 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7947 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#black-widow-agile-avenger)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 341 decks; highest synergy [Howling Mine](../../cards/H/ho.md#howling-mine) (+76%), [Loran of the Third Path](../../cards/L/lo.md#loran-of-the-third-path) (+67%), [Tataru Taru](../../cards/T/ta.md#tataru-taru) (+66%) · EDHREC: in 17,723 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (89.0% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (25.9% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (53.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#black-widow-agile-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/77/black-widow-agile-avenger) · oracle_id `df7abfb0-21df-4359-be81-0f3c09e1425e` · printing: MSC #77 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8c2bf77c-9acf-4e2c-9cad-e74546f26070/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Widow, Daring Operative

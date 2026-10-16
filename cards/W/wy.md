@@ -58,6 +58,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6998 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2020-11-10* — The number of Auras and Equipment attached to Wyleth is determined as its triggered ability resolves. If Wyleth is no longer on the battlefield at that time, its last existence on the battlefield is checked to determine the number of Auras and Equipment attached to it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,691 decks; highest synergy [Sigarda's Aid](../../cards/S/si.md#sigardas-aid) (+74%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+66%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+63%) · EDHREC: in 18,738 decks; most often under [Ardenn, Intrepid Archaeologist // Rograkh, Son of Rohgahh](../../cards/A/ard.md#ardenn-intrepid-archaeologist) (28.8% of its decks), [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (29.2% of its decks), [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (4.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/W.md#wyleth-soul-of-steel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/362/wyleth-soul-of-steel) · oracle_id `35bef4d3-4473-4265-86b0-f1393c82fd1d` · printing: CMR #362 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wylie Duke, Atiin Hero
@@ -73,6 +76,9 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7984 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Cryptolith Rite + Wylie Duke, Atiin Hero + Freed from the Real](https://commanderspellbook.com/combo/4222-4289-5467/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 1,509 decks; highest synergy [Emmara, Soul of the Accord](../../cards/E/em.md#emmara-soul-of-the-accord) (+63%), [Drumbellower](../../cards/D/dru.md#drumbellower) (+55%), [Kona, Rescue Beastie](../../cards/K/ko.md#kona-rescue-beastie) (+55%) · EDHREC: in 16,266 decks; most often under [Ghired, Mirror of the Wilds](../../cards/G/gh.md#ghired-mirror-of-the-wilds) (44.3% of its decks), [Emmara, Soul of the Accord](../../cards/E/em.md#emmara-soul-of-the-accord) (27.4% of its decks), [Caradora, Heart of Alacria](../../cards/C/car.md#caradora-heart-of-alacria) (67.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/W.md#wylie-duke-atiin-hero)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/239/wylie-duke-atiin-hero) · oracle_id `b3ac27d6-7e18-404d-9af2-b03897a5f1d9` · printing: OTJ #239 (2024-04-19) · [rulings](https://api.scryfall.com/cards/bc97ffcf-4f51-44cd-8daa-a7dae4592ee5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wyll, Blade of Frontiers

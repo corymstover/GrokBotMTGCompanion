@@ -2764,6 +2764,9 @@ schema: 2
 - **Keywords:** Clash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7368 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends (and Characters) of Murders at Karlov Manor](https://magic.wizards.com/en/news/feature/the-legends-and-characters-of-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 9,182 decks; highest synergy [One with the Multiverse](../../cards/O/on.md#one-with-the-multiverse) (+82%), [Research the Deep](../../cards/R/res.md#research-the-deep) (+82%), [Revive the Fallen](../../cards/R/rev.md#revive-the-fallen) (+77%) · EDHREC: in 10,960 decks; most often under [Runo Stromkirk](../../cards/R/ru.md#runo-stromkirk--krothuss-lord-of-the-deep) (48.5% of its decks), [Yennett, Cryptic Sovereign](../../cards/Y/ye.md#yennett-cryptic-sovereign) (35.6% of its decks), [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (14.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#marvo-deep-operative)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/7/marvo-deep-operative) · oracle_id `317ab0b3-1163-4893-a881-4c397feb213d` · printing: MKC #7 (2024-02-09) · [rulings](https://api.scryfall.com/cards/8fdb30c1-0551-48b7-8bcb-d7e0dbb6690a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marwyn, the Clearcutter

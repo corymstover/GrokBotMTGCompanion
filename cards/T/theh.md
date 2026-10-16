@@ -61,6 +61,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-01-25* — If The Haunt of Hightower is attacking a planeswalker, the controller of the planeswalker is the defending player.
   - *2019-01-25* — The Haunt of Hightower's last ability won't trigger when a token is put into an opponent's graveyard.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 399 decks; highest synergy [Waste Not](../../cards/W/was.md#waste-not) (+55%), [Vicious Rumors](../../cards/V/vi.md#vicious-rumors) (+53%), [Geth's Grimoire](../../cards/G/ge.md#geths-grimoire) (+50%) · EDHREC: in 20,189 decks; most often under [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (23.0% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (15.1% of its decks), [Tinybones, Trinket Thief](../../cards/T/ti.md#tinybones-trinket-thief) (24.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/RNA-273/the-haunt-of-hightower) · oracle_id `e70f5520-1b9c-4351-8484-30f0dc692e01` · printing: PLST #RNA-273 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Herald of Numot

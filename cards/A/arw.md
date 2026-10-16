@@ -69,6 +69,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7532 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-06-16* — You finish scrying before choosing a target for Arwen's first ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 37 combos; most popular [Arwen Undómiel + Elrond, Lord of Rivendell + Herd Baloth](https://commanderspellbook.com/combo/1920-3197-3891/) (Infinite +1/+1 counters on a creature, Infinite creature tokens) · EDHREC as commander: 869 decks; highest synergy [Elrond, Lord of Rivendell](../../cards/E/el.md#elrond-lord-of-rivendell) (+72%), [Elven Farsight](../../cards/E/el.md#elven-farsight) (+71%), [Elrond, Master of Healing](../../cards/E/el.md#elrond-master-of-healing) (+70%) · EDHREC: in 18,455 decks; most often under [Galadriel, Light of Valinor](../../cards/G/ga.md#galadriel-light-of-valinor) (24.4% of its decks), [Galadriel of Lothlórien](../../cards/G/ga.md#galadriel-of-lothlórien) (80.7% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (15.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/194/arwen-und%C3%B3miel) · oracle_id `5ffbbce1-fe38-40dc-a7c3-2055ae86c6c5` · printing: LTR #194 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arwen, Weaver of Hope

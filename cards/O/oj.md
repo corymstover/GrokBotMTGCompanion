@@ -148,6 +148,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2022-06-10* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 774 decks; highest synergy [Ephemerate](../../cards/E/ep.md#ephemerate) (+52%), [Candlekeep Sage](../../cards/C/can.md#candlekeep-sage) (+48%), [Archaeomancer](../../cards/A/arc.md#archaeomancer) (+47%) · EDHREC: in 18,160 decks; most often under [Abdel Adrian, Gorion's Ward // Candlekeep Sage](../../cards/A/ab.md#abdel-adrian-gorions-ward) (38.4% of its decks), [Brago, King Eternal](../../cards/B/br.md#brago-king-eternal) (10.0% of its decks), [Elminster](../../cards/E/el.md#elminster) (23.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/290/oji-the-exquisite-blade) · oracle_id `7c4c556c-b5e3-493a-a7b0-38c55b7809ac` · printing: CLB #290 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ojutai Exemplars

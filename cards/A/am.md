@@ -1187,6 +1187,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7933 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,215 decks; highest synergy [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+73%), [Hammer of Nazahn](../../cards/H/ha.md#hammer-of-nazahn) (+65%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+64%) · EDHREC: in 14,754 decks; most often under [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (49.3% of its decks), [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (9.9% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (8.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2083/amy-rose) · oracle_id `b2d597b4-f9ba-44b0-a947-0c2ecda2d308` · printing: SLD #2083 (2025-07-14) · [rulings](https://api.scryfall.com/cards/6ac0c02f-6428-4ed0-bd1a-bf9f4af9c3c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amzu, Swarm's Hunger
@@ -1202,4 +1204,6 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7970 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-02-02* — If multiple cards leave your graveyard at the same time, Amzu, Swarm's Hunger's ability will trigger only once.
+- **Lore:** ✅ Presented with an official backstory on [The Legends (and Characters) of Murders at Karlov Manor](https://magic.wizards.com/en/news/feature/the-legends-and-characters-of-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,303 decks; highest synergy [Zask, Skittering Swarmlord](../../cards/Z/za.md#zask-skittering-swarmlord) (+60%), [Aatchik, Emerald Radian](../../cards/A/aa.md#aatchik-emerald-radian) (+55%), [Grist, the Hunger Tide](../../cards/G/gri.md#grist-the-hunger-tide) (+52%) · EDHREC: in 16,476 decks; most often under [Zask, Skittering Swarmlord](../../cards/Z/za.md#zask-skittering-swarmlord) (71.7% of its decks), [Grist, the Hunger Tide](../../cards/G/gri.md#grist-the-hunger-tide) (48.2% of its decks), [Xira, the Golden Sting](../../cards/X/xi.md#xira-the-golden-sting) (33.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/24/amzu-swarms-hunger) · oracle_id `6777863c-e52c-4a7c-b8d2-a16b1438b3d2` · printing: CLU #24 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

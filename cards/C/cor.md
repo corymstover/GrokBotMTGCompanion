@@ -331,6 +331,8 @@ schema: 2
   - *2024-06-07* — Once you begin to cast a spell this way, losing control of Coram won't affect it. You can finish casting it as normal.
   - *2024-06-07* — The value of X will change as the greatest power among creature cards in all graveyards changes.
   - *2024-06-07* — You pay all costs and follow all timing rules for lands played and spells cast this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 9,002 decks; highest synergy [Brawn](../../cards/B/br.md#brawn) (+63%), [Lord of Extinction](../../cards/L/lo.md#lord-of-extinction) (+63%), [Yargle and Multani](../../cards/Y/ya.md#yargle-and-multani) (+60%) · EDHREC: in 10,584 decks; most often under [Disa the Restless](../../cards/D/di.md#disa-the-restless) (49.7% of its decks), [Winter, Misanthropic Guide](../../cards/W/wi.md#winter-misanthropic-guide) (10.6% of its decks), [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (4.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#coram-the-undertaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/7/coram-the-undertaker) · oracle_id `51c511c0-783a-456d-a7e2-959f6e8ddfc8` · printing: M3C #7 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -407,6 +407,8 @@ schema: 2
 - **Keywords:** Vigilance, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7915 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,108 decks; highest synergy [Dr. Madison Li](../../cards/D/drm.md#dr-madison-li) (+81%), [Electrosiphon](../../cards/E/el.md#electrosiphon) (+79%), [HELIOS One](../../cards/H/he.md#helios-one) (+77%) · EDHREC: in 12,834 decks; most often under [Satya, Aetherflux Genius](../../cards/S/sat.md#satya-aetherflux-genius) (36.7% of its decks), [Dr. Madison Li](../../cards/D/drm.md#dr-madison-li) (78.2% of its decks), [Kilo, Apogee Mind](../../cards/K/ki.md#kilo-apogee-mind) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/5/liberty-prime-recharged) · oracle_id `b31026fe-faad-49b3-93b0-1324e32bb816` · printing: PIP #5 (2024-03-08) · [rulings](https://api.scryfall.com/cards/2da11337-ceb2-4744-9696-c06fec2f2daa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Library
@@ -3242,6 +3244,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7080 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-03-08* — To double the number of +1/+1 counters on Lily Bowen, put a number of +1/+1 counters on it equal to the number it already has. Replacement effects that modify the number of counters being placed on creatures you control, such as the effect of Branching Evolution, apply to this ability as normal.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 666 decks; highest synergy [Branching Evolution](../../cards/B/br.md#branching-evolution) (+69%), [Hardened Scales](../../cards/H/ha.md#hardened-scales) (+62%), [Power Fist](../../cards/P/po.md#power-fist) (+62%) · EDHREC: in 20,427 decks; most often under [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (26.3% of its decks), [Jenova, Ancient Calamity](../../cards/J/je.md#jenova-ancient-calamity) (30.4% of its decks), [Cleopatra, Exiled Pharaoh](../../cards/C/cl.md#cleopatra-exiled-pharaoh) (44.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/79/lily-bowen-raging-grandma) · oracle_id `6b2d92f5-b0a1-4f30-9140-da490bf01bda` · printing: PIP #79 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lilypad Village
@@ -3689,6 +3693,8 @@ schema: 2
   - *2020-09-25* — Some cards refer to you having a “full party.” This is true if the number of creatures in your party is four.
   - *2020-09-25* — The nonland permanent remains affected until your next turn even if the number of creatures in your party changes or Linvala leaves the battlefield.
   - *2020-09-25* — To determine “the number of creatures in your party,” check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Zendikar Rising](https://magic.wizards.com/en/news/feature/legends-zendikar-rising-2020-09-15) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Kenrith, the Returned King + Relic of Legends + Agatha of the Vile Cauldron + Linvala, Shield of Sea Gate](https://commanderspellbook.com/combo/2092-4549-5140-6298/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 289 decks; highest synergy [Gift of Immortality](../../cards/G/gi.md#gift-of-immortality) (+44%), [Nimble Trapfinder](../../cards/N/ni.md#nimble-trapfinder) (+39%), [Thieving Skydiver](../../cards/T/thi.md#thieving-skydiver) (+38%) · EDHREC: in 19,979 decks; most often under [The Destined Warrior](../../cards/T/thed.md#the-destined-warrior) (82.2% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (7.6% of its decks), [Tazri, Beacon of Unity](../../cards/T/ta.md#tazri-beacon-of-unity) (66.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/226/linvala-shield-of-sea-gate) · oracle_id `afd8ff3e-1d57-4fc5-91dc-1a8400c98787` · printing: ZNR #226 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Linvala, the Preserver
@@ -3912,6 +3918,8 @@ schema: 2
   - *2026-01-27* — If you somehow control two or more Lita, Little Orphan Amphibians, track which modes have been chosen each turn for each one's ability separately.
   - *2026-01-27* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
   - *2026-01-27* — Whatever you do, don't eat the cards. (Also, don't make the pizzas pictured on the cards. You don't have the digestive system of a Ninja Turtle.)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 48 decks; highest synergy [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+34%), [Cat Collector](../../cards/C/cat.md#cat-collector) (+33%), [Rosie Cotton of South Lane](../../cards/R/ro.md#rosie-cotton-of-south-lane) (+31%) · EDHREC: in 17,351 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (50.2% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (43.5% of its decks), [Dark Leo & Shredder](../../cards/D/da.md#dark-leo--shredder) (46.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/19/lita-little-orphan-amphibian) · oracle_id `212fdb7c-1c7e-4eed-b1ed-bcc14a425da8` · printing: TMT #19 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lita, Mechanical Engineer

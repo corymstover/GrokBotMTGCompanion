@@ -89,6 +89,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — If a token copy of Radagast the Brown enters the battlefield, its own ability will trigger.
   - *2023-06-16* — If the top X cards of your library don't contain a creature card that doesn't share a creature type with a creature you control, you won't get to put a card into your hand. Apologies to Mistform Ultimus fans everywhere.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,342 decks; highest synergy [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+54%), [Ilysian Caryatid](../../cards/I/il.md#ilysian-caryatid) (+49%), [Silverback Elder](../../cards/S/si.md#silverback-elder) (+47%) · EDHREC: in 17,163 decks; most often under [Volo, Guide to Monsters](../../cards/V/vo.md#volo-guide-to-monsters) (28.8% of its decks), [Radagast of Rhosgobel](../../cards/R/rad.md#radagast-of-rhosgobel) (30.6% of its decks), [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (6.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/184/radagast-the-brown) · oracle_id `dfa47d0d-17f0-4a12-89d3-0d3c7f3db8c6` · printing: LTR #184 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radagast, Wizard of Wilds

@@ -4814,6 +4814,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7417 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-06-16* — If the defending player controls two or more creatures tied for the least power among creatures they control, that player chooses one of them to sacrifice.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 41 decks; highest synergy [Call of the Ring](../../cards/C/cal.md#call-of-the-ring) (+73%), [Nazgûl](../../cards/N/na.md#nazgûl) (+73%), [Ringwraiths](../../cards/R/ri.md#ringwraiths) (+68%) · EDHREC: in 19,774 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (16.5% of its decks), [Lord of the Nazgûl](../../cards/L/lo.md#lord-of-the-nazgûl) (43.3% of its decks), [Witch-king, Sky Scourge](../../cards/W/wi.md#witch-king-sky-scourge) (66.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/293/witch-king-bringer-of-ruin) · oracle_id `afcb21bb-aeb3-4024-9ce1-68ba7fb64b2d` · printing: LTR #293 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Witch-king of Angmar

@@ -104,12 +104,18 @@ NO_LORE = "❓ No lore entry or official story evidence linked yet (synergy batc
 # RANK35 the legendary creatures up to that EDHREC rank (2026-10-15 bulk). 6,915 = the 1,000th not-yet-enriched one.
 PW35 = True
 RANK35 = 6915
+# Bot cycle 36: the remaining legendary creatures by EDHREC rank (same bulk) in ~250-card slices; UNRANKED36 then adds
+# the ones with no EDHREC rank (not Commander-legal or too new to rank).
+RANK36 = 8205
+UNRANKED36 = False
 BATCHES = [(33, "legendary cards and planeswalkers already linked from lore entries",
             lambda c, tiers: "entry-linked" in tiers and is_legend_or_pw(c)),
            (34, "every other lore-entry-linked card, every name-matched character card, every story-flavor card",
             lambda c, tiers: bool(tiers & {"entry-linked", "character-card", "story-flavor"})),
            (35, (("every remaining planeswalker; " if PW35 else "") + f"legendary creatures with EDHREC rank ≤ {RANK35:,} (2026-10-15 bulk)"),
-            lambda c, tiers: (PW35 and "planeswalker" in tiers) or ("legendary-creature" in tiers and (c.get("edhrec_rank") or 10**9) <= RANK35))]
+            lambda c, tiers: (PW35 and "planeswalker" in tiers) or ("legendary-creature" in tiers and (c.get("edhrec_rank") or 10**9) <= RANK35)),
+           (36, f"remaining legendary creatures with EDHREC rank ≤ {RANK36:,}" + (", then those with no EDHREC rank" if UNRANKED36 else "") + " (2026-10-15 bulk)",
+            lambda c, tiers: "legendary-creature" in tiers and ((c.get("edhrec_rank") or 10**9) <= RANK36 or (UNRANKED36 and not c.get("edhrec_rank"))))]
 
 
 # ------------------------------------------------------------------ inputs

@@ -558,6 +558,8 @@ schema: 2
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
   - *2025-10-02* — The six types of mana are white, blue, black, red, green, and colorless.
   - *2025-10-02* — You pay the costs for an exiled card if you cast it. You may pay any alternative costs the card has rather than the card's mana cost.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,376 decks; highest synergy [Essence Flux](../../cards/E/es.md#essence-flux) (+70%), [Ghostly Flicker](../../cards/G/gh.md#ghostly-flicker) (+66%), [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+63%) · EDHREC: in 18,917 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (32.4% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (7.1% of its decks), [Nathan Drake, Treasure Hunter](../../cards/N/na.md#nathan-drake-treasure-hunter) (21.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/208/azula-cunning-usurper) · oracle_id `7c9e351d-2e6c-4050-9c3d-b15bb9255a4d` · printing: TLA #208 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azula, On the Hunt

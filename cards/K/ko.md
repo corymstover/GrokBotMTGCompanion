@@ -1550,6 +1550,8 @@ schema: 2
   > Whenever one or more creatures you control enter, if one or more of them entered from a graveyard or was cast from a graveyard, put two +1/+1 counters on Kotis.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7357 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 18 combos; most popular [Kotis, Sibsig Champion + Altar of Dementia + Timeless Witness](https://commanderspellbook.com/combo/4823-5256-6490--88/) (Near-infinite turns, Lock) · EDHREC as commander: 1,188 decks; highest synergy [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+54%), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (+47%), [Gravecrawler](../../cards/G/gra.md#gravecrawler) (+46%) · EDHREC: in 18,922 decks; most often under [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (41.1% of its decks), [Sidisi, Brood Tyrant](../../cards/S/si.md#sidisi-brood-tyrant) (9.0% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/5/kotis-sibsig-champion) · oracle_id `0177b410-b559-491f-b393-ac3ed774653c` · printing: TDC #5 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b9ea2e9c-c1c7-4870-877a-023118909f56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kotis, the Fangkeeper

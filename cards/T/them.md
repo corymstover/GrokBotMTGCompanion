@@ -613,6 +613,8 @@ schema: 2
   - *2011-09-22* — Treat The Mimeoplasm as though it were the creature card it's copying entering the battlefield. Any "As [this card] enters," "[This card] enters with," and "When [this card] enters" abilities of that creature card will work.
   - *2011-09-22* — You can't choose to exile just one creature card.
   - *2011-09-22* — You choose which one The Mimeoplasm is copying and which one determines how many +1/+1 counters are placed on The Mimeoplasm as The Mimeoplasm enters.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,967 decks; highest synergy [Yargle and Multani](../../cards/Y/ya.md#yargle-and-multani) (+48%), [Buried Alive](../../cards/B/bu.md#buried-alive) (+47%), [Lord of Extinction](../../cards/L/lo.md#lord-of-extinction) (+44%) · EDHREC: in 12,698 decks; most often under [Indominus Rex, Alpha](../../cards/I/ind.md#indominus-rex-alpha) (29.6% of its decks), [Gonti, Canny Acquisitor](../../cards/G/gon.md#gonti-canny-acquisitor) (11.1% of its decks), [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/234/the-mimeoplasm) · oracle_id `55123455-d435-46d4-b0cd-0c1614343be2` · printing: OTC #234 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mindskinner

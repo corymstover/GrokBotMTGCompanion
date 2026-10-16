@@ -963,6 +963,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7242 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,529 decks; highest synergy [Sentinel's Eyes](../../cards/S/sen.md#sentinels-eyes) (+51%), [Ring of Thune](../../cards/R/ri.md#ring-of-thune) (+45%), [Brave the Sands](../../cards/B/br.md#brave-the-sands) (+35%) · EDHREC: in 18,937 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (13.4% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (7.0% of its decks), [Kamiz, Obscura Oculus](../../cards/K/ka.md#kamiz-obscura-oculus) (23.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/337/dragonlord-ojutai) · oracle_id `654ff673-4630-4068-9bcf-e88a7877eb58` · printing: NCC #337 (2022-04-29) · [rulings](https://api.scryfall.com/cards/a9f39d28-08eb-4eff-ae55-abd377877a27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonlord Silumgar

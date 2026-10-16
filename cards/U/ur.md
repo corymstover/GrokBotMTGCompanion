@@ -591,6 +591,8 @@ schema: 2
   > Whenever you attack, target attacking creature with a +1/+1 counter on it gains first strike until end of turn. If that creature has two or more +1/+1 counters on it, it gains double strike until end of turn instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7717 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 102 decks; highest synergy [Abzan Falconer](../../cards/A/ab.md#abzan-falconer) (+57%), [Requisition Raid](../../cards/R/req.md#requisition-raid) (+57%), [Luminarch Aspirant](../../cards/L/lu.md#luminarch-aspirant) (+56%) · EDHREC: in 18,639 decks; most often under [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (29.1% of its decks), [Aerith Gainsborough](../../cards/A/ae.md#aerith-gainsborough) (37.9% of its decks), [Brigone, Soldier of Meletis](../../cards/B/br.md#brigone-soldier-of-meletis) (50.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/34/urdnan-dromoka-warrior) · oracle_id `adc1f850-9217-4a90-8e6a-02ed226ef8df` · printing: J25 #34 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f239682a-2b81-4f62-a474-60e8db343200/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ur-Drago
@@ -873,6 +875,8 @@ schema: 2
   > {W}{U}{B}{R}{G}, {T}: Put three +1/+1 counters on each Myr you control. Activate only during your turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7391 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Phyrexia: All Will Be One](https://magic.wizards.com/en/news/feature/the-legends-of-phyrexia-all-will-be-one) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 20 combos; most popular [Urtet, Remnant of Memnarch + Krark-Clan Ironworks + Scrap Trawler + Myr Retriever](https://commanderspellbook.com/combo/1020-2866-4659-5121/) (Infinite artifact ETB, Infinite colorless mana) · EDHREC as commander: 18,688 decks; highest synergy [Gold Myr](../../cards/G/gol.md#gold-myr) (+92%), [Silver Myr](../../cards/S/si.md#silver-myr) (+92%), [Copper Myr](../../cards/C/cop.md#copper-myr) (+91%) · EDHREC: in 1,243 decks; most often under [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (2.4% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.5% of its decks), [Rukarumel, Biologist](../../cards/R/ru.md#rukarumel-biologist) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/28/urtet-remnant-of-memnarch) · oracle_id `6222fccf-fc08-4190-8d40-a56d6d1423df` · printing: ONC #28 (2023-02-10) · [rulings](https://api.scryfall.com/cards/7aa01ab4-26b0-49dc-8514-b3850d355a21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uruk-hai Berserker

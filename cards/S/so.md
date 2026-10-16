@@ -685,6 +685,9 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7474 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 109 decks; highest synergy [It'll Quench Ya!](../../cards/I/it.md#itll-quench-ya) (+48%), [Katara, Bending Prodigy](../../cards/K/ka.md#katara-bending-prodigy) (+42%), [Appa, Loyal Sky Bison](../../cards/A/ap.md#appa-loyal-sky-bison) (+41%) · EDHREC: in 19,537 decks; most often under [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (71.4% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (33.9% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (14.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sokka-lateral-strategist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/241/sokka-lateral-strategist) · oracle_id `427f8ef9-12b3-4fa0-b303-28153566b6dc` · printing: TLA #241 (2025-11-21) · [rulings](https://api.scryfall.com/cards/1326c5db-4615-495f-8e30-376243d91352/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sokka's Charge

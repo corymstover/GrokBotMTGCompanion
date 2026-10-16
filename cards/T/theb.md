@@ -497,7 +497,9 @@ schema: 2
   > *To the Avatar, was the Blue Spirit a friend? A foe? Or something else entirely?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7331 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-blue-spirit)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Mai and Zuko (Grixis)](../../grixis/decks/mai-and-zuko.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 670 decks; highest synergy [Geyser Drake](../../cards/G/ge.md#geyser-drake) (+63%), [Bender's Waterskin](../../cards/B/be.md#benders-waterskin) (+62%), [Shrieking Drake](../../cards/S/shr.md#shrieking-drake) (+61%) · EDHREC: in 19,558 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (15.1% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (25.4% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (9.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/T.md#the-blue-spirit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/90/the-blue-spirit) · oracle_id `497e9c7c-a16d-43e5-a7ec-04153aa2566a` · printing: TLE #90 (2025-11-21) · [rulings](https://api.scryfall.com/cards/d0d1f5b0-f842-40d5-ae51-015eefe68fa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Book of Exalted Deeds

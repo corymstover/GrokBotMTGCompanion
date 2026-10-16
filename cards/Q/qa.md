@@ -47,6 +47,8 @@ schema: 2
   - *2024-11-08* — In a Two-Headed Giant game, life gained by your teammate won't cause Qala's second ability to trigger, even though it caused your team's life total to increase.
   - *2024-11-08* — Qala's second ability triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
   - *2024-11-08* — The value of X is calculated only once, as Qala's first ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Shalai and Hallar + Qala, Ajani's Pridemate](https://commanderspellbook.com/combo/4490-6878--210/) (Infinite +1/+1 counters on a creature, Infinite damage) · EDHREC as commander: 737 decks; highest synergy [Hinterland Sanctifier](../../cards/H/hi.md#hinterland-sanctifier) (+66%), [Ajani's Pridemate](../../cards/A/aj.md#ajanis-pridemate) (+63%), [Daxos, Blessed by the Sun](../../cards/D/da.md#daxos-blessed-by-the-sun) (+60%) · EDHREC: in 19,328 decks; most often under [Arahbo, the First Fang](../../cards/A/ara.md#arahbo-the-first-fang) (54.7% of its decks), [Aerith Gainsborough](../../cards/A/ae.md#aerith-gainsborough) (49.4% of its decks), [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (13.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/32/qala-ajanis-pridemate) · oracle_id `1fc1b0d7-7f15-4d00-bc8f-e06489afd425` · printing: J25 #32 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qal Sisma Behemoth

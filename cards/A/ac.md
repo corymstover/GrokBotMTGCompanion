@@ -698,6 +698,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7272 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-07-05* — Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn’t matter what happens to that Assassin or commander after that.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 132 decks; highest synergy [Brotherhood Spy](../../cards/B/br.md#brotherhood-spy) (+83%), [Assassin Initiate](../../cards/A/as.md#assassin-initiate) (+82%), [Hookblade Veteran](../../cards/H/ho.md#hookblade-veteran) (+82%) · EDHREC: in 20,191 decks; most often under [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (72.0% of its decks), [Etrata, Deadly Fugitive](../../cards/E/et.md#etrata-deadly-fugitive) (51.8% of its decks), [Ramses, Assassin Lord](../../cards/R/ram.md#ramses-assassin-lord) (63.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/294/achilles-davenport) · oracle_id `b921a672-721e-4bd8-a10b-a6de8c13c7d8` · printing: ACR #294 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acidic Dagger

@@ -937,6 +937,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8139 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — You can't use Beatrix's last ability to try to attach an Equipment to a creature if that Equipment can't legally be attached to that creature.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 248 decks; highest synergy [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+69%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+67%), [Adelbert Steiner](../../cards/A/ad.md#adelbert-steiner) (+61%) · EDHREC: in 16,937 decks; most often under [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (11.5% of its decks), [Cloud, Midgar Mercenary](../../cards/C/cl.md#cloud-midgar-mercenary) (29.2% of its decks), [Cloud, Planet's Champion](../../cards/C/cl.md#cloud-planets-champion) (56.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/554/beatrix-loyal-general) · oracle_id `2f24637d-8d8e-49de-b229-4cdb97595ed7` · printing: FIN #554 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bebop & Rocksteady
@@ -1619,6 +1621,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7641 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-07* — The number of Demons you control is counted only as Be'lakor, the Dark Master's ability resolves. If Be'lakor is still on the battlefield, it will count itself.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Be'lakor, the Dark Master (Grixis)](../../grixis/decks/belakor-the-dark-master.md) · Commander Spellbook: 18 combos; most popular [Be'lakor, the Dark Master + Rite of Replication](https://commanderspellbook.com/combo/1744-4071/) (Near-infinite card draw, Near-infinite damage) · EDHREC as commander: 15,635 decks; highest synergy [Herald of Slaanesh](../../cards/H/he.md#herald-of-slaanesh) (+88%), [Bloodthirster](../../cards/B/blo.md#bloodthirster) (+66%), [Kardur, Doomscourge](../../cards/K/ka.md#kardur-doomscourge) (+66%) · EDHREC: in 3,344 decks; most often under [Abaddon the Despoiler](../../cards/A/ab.md#abaddon-the-despoiler) (23.0% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.9% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#belakor-the-dark-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/6/belakor-the-dark-master) · oracle_id `3690ca72-c925-42ab-acc2-7cc1fda05789` · printing: 40K #6 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2963,6 +2967,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8052 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-06-29* — The type-changing effect of the triggered ability lasts indefinitely. It doesn't wear off during the cleanup step or when Beorn the Fierce leaves the battlefield. The creature couldn't bear not being a Bear!
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,641 decks; highest synergy [Ayula, Queen Among Bears](../../cards/A/ay.md#ayula-queen-among-bears) (+83%), [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+73%), [Wilson, Refined Grizzly](../../cards/W/wi.md#wilson-refined-grizzly) (+72%) · EDHREC: in 11,034 decks; most often under [Ayula, Queen Among Bears](../../cards/A/ay.md#ayula-queen-among-bears) (77.1% of its decks), [Radagast of Rhosgobel](../../cards/R/rad.md#radagast-of-rhosgobel) (33.7% of its decks), [Kudo, King Among Bears](../../cards/K/ku.md#kudo-king-among-bears) (61.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#beorn-the-fierce)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/119/beorn-the-fierce) · oracle_id `30ca8e92-5955-46a1-86c1-094a873f518f` · printing: HOB #119 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

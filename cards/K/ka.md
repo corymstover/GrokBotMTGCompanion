@@ -290,6 +290,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7038 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-07-12* — You can put up to three cards into your hand this way: one Angel card, one Demon card, and/or one Dragon card. If a card has more than one of these types, you choose which type it counts as.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 903 decks; highest synergy [Restoration Angel](../../cards/R/res.md#restoration-angel) (+57%), [Ephemerate](../../cards/E/ep.md#ephemerate) (+51%), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (+51%) · EDHREC: in 20,394 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (48.5% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.3% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/210/kaalia-zenith-seeker) · oracle_id `6307ec34-bef6-4ac6-a363-f9bef0d03b3b` · printing: M20 #210 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kabira Crossroads
@@ -690,6 +692,8 @@ schema: 2
 - **Keywords:** Jump, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8004 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,265 decks; highest synergy [Homeward Path](../../cards/H/ho.md#homeward-path) (+76%), [Parasitic Impetus](../../cards/P/pa.md#parasitic-impetus) (+76%), [Bloodthirsty Blade](../../cards/B/blo.md#bloodthirsty-blade) (+74%) · EDHREC: in 16,488 decks; most often under [Cecil, Dark Knight](../../cards/C/ce.md#cecil-dark-knight--cecil-redeemed-paladin) (54.6% of its decks), [Blim, Comedic Genius](../../cards/B/bli.md#blim-comedic-genius) (19.3% of its decks), [Xantcha, Sleeper Agent](../../cards/X/xa.md#xantcha-sleeper-agent) (16.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/105/kain-traitorous-dragoon) · oracle_id `70fbb378-d905-47cf-8c54-cc166a7867b3` · printing: FIN #105 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f8c86be0-e1b3-4a78-9254-238dd936914b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kairi, the Swirling Sky
@@ -705,6 +709,9 @@ schema: 2
 - **Keywords:** Flying, Ward, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7500 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 55 combos; most popular [Kairi, the Swirling Sky + Approach of the Second Sun](https://commanderspellbook.com/combo/553-3191/) (Infinite self-mill, Return all instant and sorcery cards from your graveyard to your hand) · EDHREC as commander: 682 decks; highest synergy [Cackling Counterpart](../../cards/C/cac.md#cackling-counterpart) (+88%), [Quasiduplicate](../../cards/Q/qu.md#quasiduplicate) (+84%), [Fated Infatuation](../../cards/F/fa.md#fated-infatuation) (+81%) · EDHREC: in 18,800 decks; most often under [Sivitri, Dragon Master](../../cards/S/si.md#sivitri-dragon-master) (68.7% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (3.3% of its decks), [Araumi of the Dead Tide](../../cards/A/ara.md#araumi-of-the-dead-tide) (24.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/K.md#kairi-the-swirling-sky)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/60/kairi-the-swirling-sky) · oracle_id `85aa53e8-f062-4d02-bc69-1413f7f0dcf1` · printing: NEO #60 (2022-02-18) · [rulings](https://api.scryfall.com/cards/af7979d8-21f3-40ba-8a2e-7ebad210e48b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kaito, Bane of Nightmares
@@ -837,6 +844,8 @@ schema: 2
   > *Galadak's Scar is full of craters which are home to terrifying predators of immense size and savagery. Yet even among such company, Kalakscion—and her insatiable hunger—eclipses them all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7665 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Aetherdrift](https://magic.wizards.com/en/news/feature/the-legends-of-aetherdrift) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 632 decks; highest synergy [Mask of Griselbrand](../../cards/M/mas.md#mask-of-griselbrand) (+58%), [Fireshrieker](../../cards/F/fi.md#fireshrieker) (+52%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+46%) · EDHREC: in 18,318 decks; most often under [The Gitrog, Ravenous Ride](../../cards/T/theg.md#the-gitrog-ravenous-ride) (55.9% of its decks), [Abigale, Eloquent First-Year](../../cards/A/ab.md#abigale-eloquent-first-year) (80.4% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (10.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/93/kalakscion-hunger-tyrant) · oracle_id `d85f5edb-60a8-4abd-82b0-f9a58f3d4185` · printing: DFT #93 (2025-02-14) · [rulings](https://api.scryfall.com/cards/1214fc6d-ae47-418d-88cc-58633ec2ac7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kalamax, the Stormsire
@@ -1650,6 +1659,8 @@ schema: 2
   - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger “when [that creature] connives” will trigger.
   - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
   - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Streets of New Capenna](https://magic.wizards.com/en/news/feature/the-legends-youll-find-in-streets-of-new-capenna) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,860 decks; highest synergy [Cephalid Facetaker](../../cards/C/ce.md#cephalid-facetaker) (+54%), [Shadowmage Infiltrator](../../cards/S/sha.md#shadowmage-infiltrator) (+54%), [Fallen Shinobi](../../cards/F/fa.md#fallen-shinobi) (+50%) · EDHREC: in 14,323 decks; most often under [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (32.0% of its decks), [The Destined Warrior](../../cards/T/thed.md#the-destined-warrior) (32.4% of its decks), [Raffine, Scheming Seer](../../cards/R/raf.md#raffine-scheming-seer) (17.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/3/kamiz-obscura-oculus) · oracle_id `49da6a78-f3b2-4691-975c-efbb644311f3` · printing: NCC #3 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kang Dynasty
@@ -3024,7 +3035,9 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7726 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kassandra-eagle-bearer)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,313 decks; highest synergy [The Spear of Leonidas](../../cards/T/thes.md#the-spear-of-leonidas) (+96%), [Caduceus, Staff of Hermes](../../cards/C/cad.md#caduceus-staff-of-hermes) (+70%), [Excalibur, Sword of Eden](../../cards/E/ex.md#excalibur-sword-of-eden) (+70%) · EDHREC: in 17,314 decks; most often under [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (26.6% of its decks), [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (14.4% of its decks), [Altaïr Ibn-La'Ahad](../../cards/A/al.md#altaïr-ibn-laahad) (24.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/K.md#kassandra-eagle-bearer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/59/kassandra-eagle-bearer) · oracle_id `745b9a2c-bcd7-4db9-8cd0-d38be2ef6270` · printing: ACR #59 (2024-07-05) · [rulings](https://api.scryfall.com/cards/e127a40c-90c8-4c2d-aff4-daab1c56a4c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kastral, the Windcrested

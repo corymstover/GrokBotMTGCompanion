@@ -1050,6 +1050,8 @@ schema: 2
   - *2021-04-16* — If you choose not to cast a spell this way, all of the cards will be put on the bottom of the library in a random order.
   - *2021-04-16* — If you’re casting a spell with {X} in its cost without paying its mana cost, you must choose 0 for the value of X.
   - *2021-04-16* — When Velomachus Lorehold’s triggered ability resolves, it lets you cast a spell immediately, ignoring timing restrictions. It does not let you cast that spell later in the turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,483 decks; highest synergy [World at War](../../cards/W/wo.md#world-at-war) (+48%), [Invoke Calamity](../../cards/I/inv.md#invoke-calamity) (+47%), [Savage Beating](../../cards/S/sav.md#savage-beating) (+46%) · EDHREC: in 17,815 decks; most often under [Lorehold, the Historian](../../cards/L/lo.md#lorehold-the-historian) (32.8% of its decks), [Shiko and Narset, Unified](../../cards/S/shi.md#shiko-and-narset-unified) (26.0% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/309/velomachus-lorehold) · oracle_id `43832745-5d7d-4957-8e30-2072ad012564` · printing: TDC #309 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Velukan Dragon
@@ -1185,6 +1187,8 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7140 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 243 decks; highest synergy [Riptide Laboratory](../../cards/R/ri.md#riptide-laboratory) (+47%), [Tunnel Vision](../../cards/T/tu.md#tunnel-vision) (+44%), [Glen Elendra Archmage](../../cards/G/gl.md#glen-elendra-archmage) (+37%) · EDHREC: in 20,620 decks; most often under [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (33.1% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (10.8% of its decks), [Alela, Artful Provocateur](../../cards/A/al.md#alela-artful-provocateur) (6.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/76/vendilion-clique) · oracle_id `244d4807-0802-41bc-9460-55ac38a28a72` · printing: A25 #76 (2018-03-16) · [rulings](https://api.scryfall.com/cards/cd702cf1-10ca-4448-9fb1-b6de635e839c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Venerable Knight
@@ -2543,6 +2547,9 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 160 decks; highest synergy [Nemata, Grove Guardian](../../cards/N/ne.md#nemata-grove-guardian) (+59%), [Verdant Force](../../cards/V/ve.md#verdant-force) (+58%), [Tendershoot Dryad](../../cards/T/te.md#tendershoot-dryad) (+50%) · EDHREC: in 18,841 decks; most often under [Shroofus Sproutsire](../../cards/S/shr.md#shroofus-sproutsire) (45.4% of its decks), [Slimefoot, the Stowaway](../../cards/S/sl.md#slimefoot-the-stowaway) (41.1% of its decks), [Fangorn, Tree Shepherd](../../cards/F/fa.md#fangorn-tree-shepherd) (71.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/V.md#verdeloth-the-ancient)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/330/verdeloth-the-ancient) · oracle_id `8222321f-b74d-4f74-9ee7-79455433345a` · printing: CMM #330 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Verdigris

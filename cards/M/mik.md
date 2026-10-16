@@ -92,7 +92,9 @@ schema: 2
   > *Their strength hailed not from what they shared, but from how their differences complemented one another.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7117 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mikey--leo-chaos--order)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 492 decks; highest synergy [Managorger Hydra](../../cards/M/man.md#managorger-hydra) (+57%), [Forgotten Ancient](../../cards/F/fo.md#forgotten-ancient) (+56%), [Michelangelo, Weirdness to 11](../../cards/M/mic.md#michelangelo-weirdness-to-11) (+55%) · EDHREC: in 20,552 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (56.7% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (53.7% of its decks), [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (17.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/M.md#mikey--leo-chaos--order)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/158/mikey-&-leo-chaos-&-order) · oracle_id `a86117c1-b83d-4350-9a10-a23b7e67e1bd` · printing: TMT #158 (2026-03-06) · [rulings](https://api.scryfall.com/cards/9cfeb2b4-937c-4bcc-bb03-467cc0effba2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mikey & Mona, Mutant Sitters

@@ -354,6 +354,8 @@ schema: 2
 - **Keywords:** Alliance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7614 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 43 combos; most popular [Storm Herd + Slash, Reptile Rampager](https://commanderspellbook.com/combo/2067-7278/) (Near-infinite creature ETB, Near-infinite creature tokens) · EDHREC as commander: 449 decks; highest synergy [Raphael, Tough Turtle](../../cards/R/rap.md#raphael-tough-turtle) (+66%), [Molten Gatekeeper](../../cards/M/mol.md#molten-gatekeeper) (+61%), [Impact Tremors](../../cards/I/im.md#impact-tremors) (+59%) · EDHREC: in 18,753 decks; most often under [Norin the Wary](../../cards/N/no.md#norin-the-wary) (49.1% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (3.4% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#slash-reptile-rampager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/108/slash-reptile-rampager) · oracle_id `8abff7b5-fe27-46bd-b951-b5d9f93f3a14` · printing: TMT #108 (2026-03-06) · [rulings](https://api.scryfall.com/cards/025aafbc-5b24-4f5b-9b4a-81f6b9cb5ef3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1972,6 +1974,8 @@ schema: 2
   > *Her children are ever part of her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7502 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Sliver Queen + Basal Sliver](https://commanderspellbook.com/combo/4385-4465/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 2,273 decks; highest synergy [Gemhide Sliver](../../cards/G/ge.md#gemhide-sliver) (+70%), [Manaweft Sliver](../../cards/M/man.md#manaweft-sliver) (+69%), [Cloudshredder Sliver](../../cards/C/cl.md#cloudshredder-sliver) (+67%) · EDHREC: in 17,213 decks; most often under [The First Sliver](../../cards/T/thef.md#the-first-sliver) (35.2% of its decks), [Sliver Overlord](../../cards/S/sl.md#sliver-overlord) (55.4% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (6.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/211/sliver-queen) · oracle_id `b8376cca-ea96-478a-8e98-c4482031300a` · printing: TPR #211 (2015-05-06) · [rulings](https://api.scryfall.com/cards/096cff82-28eb-4096-be1d-a02b9a56e682/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sliversmith
@@ -2029,6 +2033,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7742 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-12-01* — Damage wears off simultaneously with this effect ending, so it does save an artifact creature from lethal damage.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 281 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+81%), [Myr Retriever](../../cards/M/my.md#myr-retriever) (+81%), [Scrap Trawler](../../cards/S/sc.md#scrap-trawler) (+78%) · EDHREC: in 18,296 decks; most often under [Slicer, Hired Muscle](../../cards/S/sl.md#slicer-hired-muscle--slicer-high-speed-antagonist) (46.8% of its decks), [Mishra, Eminent One](../../cards/M/mis.md#mishra-eminent-one) (26.1% of its decks), [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (27.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/133/slobad-goblin-tinkerer) · oracle_id `1f2d6cf4-b8f4-440f-ac08-ca47ada868ac` · printing: C16 #133 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Slobad, Iron Goblin

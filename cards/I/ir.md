@@ -456,6 +456,8 @@ schema: 2
   - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Hellkite Charger + Iroh, Dragon of the West](https://commanderspellbook.com/combo/3398-7389/) (Infinite combat phases, Infinite red mana) · EDHREC as commander: 495 decks; highest synergy [Firebender Ascension](../../cards/F/fi.md#firebender-ascension) (+73%), [Thundering Raiju](../../cards/T/thu.md#thundering-raiju) (+70%), [Leyline Tyrant](../../cards/L/le.md#leyline-tyrant) (+64%) · EDHREC: in 21,333 decks; most often under [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (49.0% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (18.0% of its decks), [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (31.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#iroh-dragon-of-the-west)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/119/iroh-dragon-of-the-west) · oracle_id `98f9b97b-4c15-4d24-895a-a9bebb68e79b` · printing: TLE #119 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -982,7 +984,9 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7431 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#iron-man-armored-avenger)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 84 combos; most popular [Pensive Professor + Iron Man, Armored Avenger](https://commanderspellbook.com/combo/7414-7811/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 102 decks; highest synergy [Lyla, Holographic Assistant](../../cards/L/ly.md#lyla-holographic-assistant) (+65%), [Pensive Professor](../../cards/P/pe.md#pensive-professor) (+65%), [Benthic Biomancer](../../cards/B/be.md#benthic-biomancer) (+45%) · EDHREC: in 19,826 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (92.6% of its decks), [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (31.4% of its decks), [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (38.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/I.md#iron-man-armored-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/33/iron-man-armored-avenger) · oracle_id `c81195d4-19c6-4cac-b312-7f5c33dff962` · printing: MSC #33 (2026-06-26) · [rulings](https://api.scryfall.com/cards/94af0633-59c6-4893-ab44-232d37573dde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Man, Bleeding Edge

@@ -371,6 +371,8 @@ schema: 2
   > *"I now control every molecule in the universe and even beyond!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7583 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,859 decks; highest synergy [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (+55%), [Sensei's Divining Top](../../cards/S/sen.md#senseis-divining-top) (+51%), [Scroll Rack](../../cards/S/sc.md#scroll-rack) (+50%) · EDHREC: in 16,486 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (36.4% of its decks), [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (17.0% of its decks), [Lorehold, the Historian](../../cards/L/lo.md#lorehold-the-historian) (18.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/9/molecule-man) · oracle_id `ba944437-0b55-47cb-92dc-2477ce6726c3` · printing: MSC #9 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ee64d0dd-e3d8-4abc-b9d6-b19c505fbfa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mole Man, Moloid Master

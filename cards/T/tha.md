@@ -454,6 +454,9 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — If Thancred Waters leaves the battlefield or you lose control of it before its triggered ability resolves, the target legendary permanent won't gain indestructible at all.
   - *2025-06-06* — Thancred Waters's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 55 decks; highest synergy [Venat, Heart of Hydaelyn](../../cards/V/ve.md#venat-heart-of-hydaelyn--hydaelyn-the-mothercrystal) (+54%), [Rosa, Resolute White Mage](../../cards/R/ro.md#rosa-resolute-white-mage) (+48%), [Elena, Turk Recruit](../../cards/E/el.md#elena-turk-recruit) (+45%) · EDHREC: in 17,287 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (16.0% of its decks), [Venat, Heart of Hydaelyn](../../cards/V/ve.md#venat-heart-of-hydaelyn--hydaelyn-the-mothercrystal) (50.0% of its decks), [G'raha Tia, Scion Reborn](../../cards/G/gra.md#graha-tia-scion-reborn) (11.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#thancred-waters)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/31/thancred-waters) · oracle_id `dc36f81e-d1b0-44a4-bf82-4cd276bc0812` · printing: FIC #31 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thanos, Death's Consort

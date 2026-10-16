@@ -479,6 +479,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7351 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-03-20* — In the case where Gorma and one or more other creatures enter at the same time, those creatures won't enter with additional +1/+1 counters, even if one or more creatures died under your control this turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 56 combos; most popular [Viscera Seer + Gorma, the Gullet](https://commanderspellbook.com/combo/2292-7430--5/) (Infinite +1/+1 counters on a creature, Infinite creature ETB) · EDHREC as commander: 2,252 decks; highest synergy [Viscera Seer](../../cards/V/vi.md#viscera-seer) (+66%), [Umbral Collar Zealot](../../cards/U/um.md#umbral-collar-zealot) (+65%), [Putrid Goblin](../../cards/P/pu.md#putrid-goblin) (+64%) · EDHREC: in 17,930 decks; most often under [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (52.1% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (60.1% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/3/gorma-the-gullet) · oracle_id `ae5f30cc-a22e-4fbb-9510-e9429de3623c` · printing: SOC #3 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorm the Great

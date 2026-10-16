@@ -302,6 +302,8 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8042 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Breath of Fury + Smellerbee, Rebel Fighter](https://commanderspellbook.com/combo/3259-7060--95/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 262 decks; highest synergy [Marauding Mako](../../cards/M/mar.md#marauding-mako) (+63%), [Ivora, Insatiable Heir](../../cards/I/iv.md#ivora-insatiable-heir) (+57%), [Hobgoblin, Mantled Marauder](../../cards/H/ho.md#hobgoblin-mantled-marauder) (+56%) · EDHREC: in 17,319 decks; most often under [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (23.9% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (4.9% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (6.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#smellerbee-rebel-fighter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/125/smellerbee-rebel-fighter) · oracle_id `127bc05b-2945-434c-bc6a-283a267cc72a` · printing: TLE #125 (2025-11-21) · [rulings](https://api.scryfall.com/cards/5aef6ece-929b-4636-b32e-58f91741b869/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

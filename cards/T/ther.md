@@ -227,6 +227,8 @@ schema: 2
 - **Keywords:** Advanced Species
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7757 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 66 combos; most popular [All Will Be One + The Red Terror](https://commanderspellbook.com/combo/2390-4369/) (Infinite damage) · EDHREC as commander: 630 decks; highest synergy [All Will Be One](../../cards/A/al.md#all-will-be-one) (+60%), [Roiling Vortex](../../cards/R/ro.md#roiling-vortex) (+58%), [Razorkin Needlehead](../../cards/R/raz.md#razorkin-needlehead) (+55%) · EDHREC: in 17,904 decks; most often under [Shalai and Hallar](../../cards/S/sha.md#shalai-and-hallar) (49.7% of its decks), [Magus Lucea Kane](../../cards/M/mag.md#magus-lucea-kane) (12.0% of its decks), [The Swarmlord](../../cards/T/thes.md#the-swarmlord) (48.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/83/the-red-terror) · oracle_id `557bd3c9-1c60-480d-9650-30c317506097` · printing: 40K #83 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1d16f75d-988d-4417-9a5e-549b785f9dc4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Regalia

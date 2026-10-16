@@ -4327,6 +4327,8 @@ schema: 2
   > *The Fang Druids call it the World Tyrant, for it has consumed entire ecosystems that it keeps suspended in its core. To look upon it is to see the world as it was eons ago.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7575 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Aetherdrift](https://magic.wizards.com/en/news/feature/the-legends-of-aetherdrift) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 349 decks; highest synergy [Gigantosaurus](../../cards/G/gi.md#gigantosaurus) (+43%), [Quakestrider Ceratops](../../cards/Q/qu.md#quakestrider-ceratops) (+43%), [Colossal Majesty](../../cards/C/col.md#colossal-majesty) (+26%) · EDHREC: in 18,949 decks; most often under [Jasmine Boreal of the Seven](../../cards/J/ja.md#jasmine-boreal-of-the-seven) (78.8% of its decks), [Ruxa, Patient Professor](../../cards/R/ru.md#ruxa-patient-professor) (73.6% of its decks), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (13.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/182/terrian-world-tyrant) · oracle_id `856245a6-c697-4f03-90be-77d8eb2d274e` · printing: DFT #182 (2025-02-14) · [rulings](https://api.scryfall.com/cards/b44255cf-5264-4ead-9de0-20cc0f7cac6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Terrific Team-Up

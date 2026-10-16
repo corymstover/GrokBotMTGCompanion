@@ -130,6 +130,8 @@ schema: 2
   - *2021-09-24* — Rem Karolus, Stalwart Slayer's last two abilities apply only to damage dealt by spells on the stack. A spell that becomes a permanent and then deals damage won't be affected.
   - *2021-09-24* — Some spells cause other objects to deal damage, such as spells that cause two creatures to fight. Rem Karolus, Stalwart Slayer's last two abilities don't apply to damage from such effects.
   - *2021-09-24* — The additional 1 damage is dealt by the original source of damage. The additional damage isn't dealt by Rem Karolus.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 772 decks; highest synergy [Earthquake](../../cards/E/ea.md#earthquake) (+64%), [Radiant Scrollwielder](../../cards/R/rad.md#radiant-scrollwielder) (+59%), [Chain Reaction](../../cards/C/cha.md#chain-reaction) (+58%) · EDHREC: in 16,751 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (60.8% of its decks), [Firesong and Sunspeaker](../../cards/F/fi.md#firesong-and-sunspeaker) (57.8% of its decks), [Syr Gwyn, Hero of Ashvale](../../cards/S/sy.md#syr-gwyn-hero-of-ashvale) (24.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/235/rem-karolus-stalwart-slayer) · oracle_id `21971c8b-ff9b-40f8-8c9a-93d26c2615b7` · printing: MID #235 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remnant Elemental
