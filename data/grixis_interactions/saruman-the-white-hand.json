@@ -1,0 +1,341 @@
+{
+ "schema": 1,
+ "deck_id": "Saruman__the_White_Hand",
+ "slug": "saruman-the-white-hand",
+ "commanders": [
+  "Saruman, the White Hand"
+ ],
+ "deck_sha256": "d08e2578f1193c283ea882e9d8565f4c5d00bedb3bc2b625bf3760403a9cfa30",
+ "list_source": "exports/grixis-archidekt/saruman-the-white-hand.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 54,
+ "batch": "E",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+   "note": "Rules attestation (14 items, all PASS) re-verified; Black Gate wording flagged"
+  },
+  {
+   "path": "refinement/verification/Saruman_the_White_Hand_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification"
+  }
+ ],
+ "summary": "Saruman amasses Orcs equal to the mana value of each noncreature spell. The list favors high-mana-value spells cast cheaply (Volcanic Salvo, Treasure Cruise, Force of Will, Blasphemous Act), X spells, trigger doublers (Prodigy, Staff, Veyran), counter payoffs (Mauhúr, The Great Goblin, All Will Be One), and excess damage (Fall of Cair Andros + Act / Widespread Brutality). All 14 attestation items and the one Spellbook line are re-verified against the canonical list.\n\nRules surprises: an X spell cast free off Summons has X=0; Blasphemous Act kills your Army, but Fall builds a fresh one; Chandra's Ignition kills your own Saruman; Veyran doubles Saruman only for instants and sorceries. One documentation flag: the source wording on what The Black Gate targets.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "saruman-01",
+   "category": "commander",
+   "title": "Saruman counts mana value, not mana paid",
+   "cards": [
+    "Saruman, the White Hand",
+    "Volcanic Salvo",
+    "Treasure Cruise",
+    "Force of Will",
+    "Blasphemous Act",
+    "Dig Through Time",
+    "Blood for the Blood God!"
+   ],
+   "ruling": "Saruman's amass uses the spell's mana value. Cost reductions, delve and alternative costs don't change it. Volcanic Salvo cast for {R}{R} still amasses 12, Treasure Cruise and Dig Through Time with delve 8, a pitched Force of Will 5, Blasphemous Act 9 and Blood for the Blood God! 8. Saruman's trigger goes on the stack above the spell, so the Army grows first.",
+   "short": "MV, not cost paid: Salvo 12, Cruise 8, pitched Force 5, Act 9.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "202.3",
+    "601.2f"
+   ],
+   "oracle": [
+    {
+     "card": "Saruman, the White Hand",
+     "quote": "Whenever you cast a noncreature spell, amass Orcs X, where X is that spell's mana value. (Put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Volcanic Salvo",
+     "quote": "To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Volcanic Salvo). The mana value of the spell remains unchanged, no matter what the total cost to cast it was."
+    },
+    {
+     "card": "Treasure Cruise",
+     "quote": "Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it."
+    },
+    {
+     "card": "Force of Will",
+     "quote": "To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as the alternative cost of Force of Will), add any cost increases, then apply any cost reductions. Force of Will's mana value is always 5, no matter what you paid to cast it."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "Saruman mana-value engine"
+    },
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "High-MV discounted spells"
+    }
+   ]
+  },
+  {
+   "id": "saruman-02",
+   "category": "timing",
+   "title": "X spells and MDFCs: X counts on the stack, but a free cast sets X to 0",
+   "cards": [
+    "Saruman, the White Hand",
+    "Assault on Osgiliath",
+    "Summons of Saruman",
+    "Shatterskull Smashing // Shatterskull, the Hammer Pass",
+    "Kazuul's Fury // Kazuul's Cliffs",
+    "Sea Gate Restoration // Sea Gate, Reborn",
+    "Sink into Stupor // Soporific Springs"
+   ],
+   "ruling": "**X spells:** on the stack, X adds to mana value, so Assault on Osgiliath, Summons of Saruman (including its flashback) and Shatterskull Smashing scale Saruman's trigger. A spell cast without paying its mana cost has X = 0, so an Assault cast free off Summons gives Saruman nothing.\n\n**Summons' free cast:** it happens during resolution, ignores timing, and is a real cast, so it triggers Saruman for that spell's mana value.\n\n**MDFCs:** casting the spell face triggers Saruman for that face's mana value. Playing the land face is a land play, not a cast.",
+   "short": "X counts on the stack; free casts force X=0; MDFC land drops don't trigger.",
+   "status": "verified",
+   "cr": [
+    "202.3e",
+    "107.3b",
+    "712.11b"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Summons of Saruman",
+     "quote": "If the spell has {X} in its mana cost, you must choose 0 as the value of X."
+    },
+    {
+     "card": "Summons of Saruman",
+     "quote": "If you want to cast one of the milled cards, you cast it as part of the resolution of Summons of Saruman. You can't wait to cast the spell later in the turn. Timing permissions based on the card's type are ignored."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "X spells"
+    },
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "Summons of Saruman"
+    },
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "MDFC spell/land package"
+    }
+   ]
+  },
+  {
+   "id": "saruman-03",
+   "category": "trigger-order",
+   "title": "Trigger doublers: Harmonic Prodigy, Wizard's Staff, Veyran (Saruman is an Avatar Wizard)",
+   "cards": [
+    "Saruman, the White Hand",
+    "Harmonic Prodigy",
+    "Wizard's Staff",
+    "Veyran, Voice of Duality"
+   ],
+   "ruling": "Each of these adds one more Saruman trigger, and they add together:\n- Harmonic Prodigy (Saruman is a Wizard).\n- Wizard's Staff, with equip Wizard {1}.\n- Veyran, but only when the spell is an instant or sorcery, since Veyran cares about casting or copying those. Saruman's trigger on artifact or enchantment spells isn't doubled by Veyran.\n\nWith all three, an instant gives four amass triggers.",
+   "status": "verified",
+   "cr": [
+    "603.2d"
+   ],
+   "oracle": [
+    {
+     "card": "Veyran, Voice of Duality",
+     "quote": "If you casting or copying an instant or sorcery spell causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "Harmonic Prodigy / Wizard's Staff / Veyran"
+    }
+   ]
+  },
+  {
+   "id": "saruman-04",
+   "category": "replacement",
+   "title": "Mauhúr adds +1 per counter event; The Great Goblin and All Will Be One per event",
+   "cards": [
+    "Saruman, the White Hand",
+    "Mauhúr, Uruk-hai Captain",
+    "The Great Goblin",
+    "All Will Be One",
+    "Bothersome Noisemaker"
+   ],
+   "ruling": "Mauhúr turns each event that puts +1/+1 counters on your Army, Goblins or Orcs into that many plus one, so each amass X becomes X+1. The Great Goblin deals 2 to an opponent for each counter event on a Goblin, Orc or Army. All Will Be One deals damage equal to the counters actually placed, after Mauhúr. Bothersome Noisemaker's amass Goblins 1 is a separate trigger and a separate counter event. An Army that is a Goblin or Orc has ward {2} from Saruman.",
+   "short": "Every amass = one Great Goblin ping + All Will Be One for X+1 (with Mauhúr).",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "oracle": [
+    {
+     "card": "Mauhúr, Uruk-hai Captain",
+     "quote": "If one or more +1/+1 counters would be put on an Army, Goblin, or Orc you control, that many plus one +1/+1 counters are put on it instead."
+    },
+    {
+     "card": "All Will Be One",
+     "quote": "Whenever you put one or more counters on a permanent or player, this enchantment deals that much damage to target opponent, creature an opponent controls, or planeswalker an opponent controls."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mauhúr, Uruk-hai Captain",
+     "quote": "Mauhúr's last ability applies to counters placed on Army tokens when you amass Orcs (or Zombies, or anything else.)"
+    },
+    {
+     "card": "Saruman, the White Hand",
+     "quote": "A creature that is both a Goblin and an Orc still only gets one instance of ward {2} from Saruman, the White Hand's last ability."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "Mauhúr replacement"
+    },
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "The Great Goblin / All Will Be One"
+    },
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "Bothersome Noisemaker"
+    }
+   ]
+  },
+  {
+   "id": "saruman-05",
+   "category": "combo",
+   "title": "Fall of Cair Andros + Blasphemous Act (+ Widespread Brutality, Chandra's Ignition, Soul's Fire)",
+   "cards": [
+    "Saruman, the White Hand",
+    "Fall of Cair Andros",
+    "Blasphemous Act",
+    "Widespread Brutality",
+    "Chandra's Ignition",
+    "Soul's Fire"
+   ],
+   "ruling": "Each opposing creature that takes excess noncombat damage triggers Fall of Cair Andros separately, amassing that excess.\n- **Blasphemous Act:** 13 damage to every creature, including your Army, which is 9/9 after Saruman's trigger and dies. Fall's amass then makes a fresh 0/0 Army once the old one is gone and loads it with all the excess.\n- **Widespread Brutality:** the Army deals its power to each non-Army creature, so the Army itself is spared.\n- **Chandra's Ignition:** spares the Army but kills your own Saruman (2/5) once the Army has 5+ power.\n- **Soul's Fire:** a safer single shot that doesn't sacrifice the Army.",
+   "short": "Spellbook 1823-2484: Act's excess damage refills a fresh Army; Ignition kills your own Saruman.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "120.10",
+    "701.47a"
+   ],
+   "oracle": [
+    {
+     "card": "Fall of Cair Andros",
+     "quote": "Whenever a creature an opponent controls is dealt excess noncombat damage, amass Orcs X, where X is that excess damage. (Put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)"
+    },
+    {
+     "card": "Widespread Brutality",
+     "quote": "Amass Zombies 2, then the Army you amassed deals damage equal to its power to each non-Army creature. (To amass Zombies 2, put two +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Fall of Cair Andros",
+     "quote": "Excess damage has been dealt to a creature if the damage dealt to it is greater than lethal damage. Usually, this means damage greater than its toughness, although damage already marked on the creature is taken into account."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1823-2484",
+     "quote": "For each creature opponents control that is dealt excess damage, Fall of Cair Andros triggers, creating a 0/0 Army if you dont control one, and putting a number of +1/+1 counters on an Army you control equal to the excess damage."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "Fall of Cair Andros"
+    },
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "Widespread Brutality"
+    },
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "Soul's Fire / Chandra's Ignition"
+    }
+   ]
+  },
+  {
+   "id": "saruman-06",
+   "category": "zone",
+   "title": "Mizzix's Mastery casts copies, which do trigger Saruman",
+   "cards": [
+    "Saruman, the White Hand",
+    "Mizzix's Mastery"
+   ],
+   "ruling": "Mizzix's Mastery copies instant or sorcery cards in exile and lets you cast them. Each one you cast is a noncreature spell, so Saruman triggers for its mana value. Overloaded, it triggers for every copy you cast, plus 4 for Mastery itself (overload doesn't change its mana value).",
+   "status": "verified",
+   "cr": [
+    "707.12",
+    "202.3"
+   ],
+   "oracle": [
+    {
+     "card": "Mizzix's Mastery",
+     "quote": "Exile target card that's an instant or sorcery from your graveyard. For each card exiled this way, copy it, and you may cast the copy without paying its mana cost. Exile Mizzix's Mastery."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "Mizzix's Mastery"
+    }
+   ]
+  },
+  {
+   "id": "saruman-07",
+   "category": "legality",
+   "title": "The Black Gate chooses a player; only the creature is targeted (source wording off)",
+   "cards": [
+    "Saruman, the White Hand",
+    "The Black Gate"
+   ],
+   "ruling": "The Black Gate's {1}{B}, {T} ability targets only a creature. The player with the most life, or tied for it, is chosen when the ability resolves, not targeted. So hexproof or shroud on that player doesn't stop it, and Saruman's ward isn't involved. That player's creatures can't block your Army this turn. The source attestation says the ability \"targets a creature and a player\". The effect is described correctly, but the targeting wording is wrong.",
+   "status": "flag",
+   "flag": {
+    "kind": "documentation",
+    "note": "The source rules attestation (The Black Gate item) says the ability 'targets a creature and a player'. Per Oracle, the player is chosen and only the creature is targeted. Text fix only; the deck isn't affected."
+   },
+   "cr": [
+    "115.1",
+    "608.2c"
+   ],
+   "oracle": [
+    {
+     "card": "The Black Gate",
+     "quote": "{1}{B}, {T}: Choose a player with the most life or tied for most life. Target creature can't be blocked by creatures that player controls this turn."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/saruman_2026-10-15/gate_output/Saruman_the_White_Hand_Rules_Attestation.json",
+     "item": "The Black Gate"
+    }
+   ]
+  }
+ ]
+}

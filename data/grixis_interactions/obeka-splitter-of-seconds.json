@@ -1,0 +1,266 @@
+{
+ "schema": 1,
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "slug": "obeka-splitter-of-seconds",
+ "commanders": [
+  "Obeka, Splitter of Seconds"
+ ],
+ "deck_sha256": "671cdee3418a74c1d67c164c1c5fcc58359d705724024fd12638d2403cac9a4d",
+ "list_source": "exports/grixis-archidekt/obeka-splitter-of-seconds.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 54,
+ "batch": "E",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/Obeka_Splitter_of_Seconds_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification section 6 (rules / interaction gate)"
+  }
+ ],
+ "summary": "Obeka, Splitter of Seconds turns combat damage into extra beginning phases (upkeep only). The list scales the damage (Mjölnir, Dragonfire Blade, Hatred, Embercleave), adds triggers (Roaming Throne, Wizard's Staff), and cashes in the upkeeps with Time Sieve fed by Thopters, Treasures, Court copies or Replicated Rings, or with Mechanized Production and Darksteel Reactor. All 5 Spellbook lines are in the canonical list.\n\nRules surprises: Throne + Staff give three triggers, not four; Time Sieve can sacrifice itself; eight Thopters satisfy Mechanized Production whatever it enchants; Hatred's life is spent even if countered. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "obekass-01",
+   "category": "commander",
+   "title": "Extra upkeeps come as extra beginning phases after combat; untap and draw are skipped",
+   "cards": [
+    "Obeka, Splitter of Seconds"
+   ],
+   "ruling": "When Obeka deals combat damage, you get that many extra upkeep steps after the current combat phase. Each one is its own extra beginning phase, with its untap and draw steps skipped. \"At the beginning of your upkeep\" abilities trigger in each one. Extra combats made later in the same combat happen first, and then the game goes to the postcombat main phase. That main phase is where you use what the upkeeps produced, such as Time Sieve.",
+   "short": "Combat damage = that many extra beginning phases (upkeep only); upkeep triggers fire each time.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "500.8",
+    "501.1"
+   ],
+   "oracle": [
+    {
+     "card": "Obeka, Splitter of Seconds",
+     "quote": "Whenever Obeka deals combat damage to a player, you get that many additional upkeep steps after this phase."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Obeka, Splitter of Seconds",
+     "quote": "Since the upkeep step can only occur during the beginning phase, getting one or more additional upkeep steps outside of the beginning phase actually means you get an additional beginning phase for each of those upkeeps after this phase. In those beginning phases, the untap and draw steps will be skipped."
+    },
+    {
+     "card": "Obeka, Splitter of Seconds",
+     "quote": "Abilities that trigger \"at the beginning of [your] upkeep\" will trigger at the beginning of each additional upkeep step as well."
+    },
+    {
+     "card": "Obeka, Splitter of Seconds",
+     "quote": "If multiple phases are added to the same point in your turn, the most recently created phase happens first. For example, say Obeka deals combat damage and its ability resolves during your combat damage step, giving you two additional beginning phases each containing an upkeep step after this combat phase. During end of combat, another effect gives you an additional combat phase after this combat phase. The additional combat will happen first, followed by the additional beginning phases containing the two upkeep steps."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Obeka_Splitter_of_Seconds_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Obeka-created upkeeps occur in additional beginning phases after combat; untap/draw are skipped and upkeep-triggered abilities still trigger."
+    }
+   ]
+  },
+  {
+   "id": "obekass-02",
+   "category": "pair",
+   "title": "Scaling the count: Mjölnir doubles, power pumps add, Embercleave hits twice",
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Mjölnir, Hammer of Thor",
+    "Dragonfire Blade",
+    "Hatred",
+    "Combat Research",
+    "Embercleave"
+   ],
+   "ruling": "The upkeep count is the combat damage Obeka actually deals:\n- **Mjölnir:** doubles that damage. Obeka is a legendary, red, non-Villain Ogre Warlock, so its equip worthy {1} applies to her.\n- **Dragonfire Blade:** +2/+2, and equip costs {1} on three-color Obeka.\n- **Combat Research:** +1/+1 because she's legendary.\n- **Hatred:** +X/+0 for X life paid as an additional cost. The life is gone even if Hatred is countered.\n- **Embercleave:** double strike, so two separate damage events and two Obeka triggers.\n\nBase Obeka (2/5) with Mjölnir and Blade deals 8, so 8 upkeeps per trigger.",
+   "short": "Damage dealt, not power, sets the count; Mjölnir doubles, double strike triggers twice.",
+   "status": "verified",
+   "cr": [
+    "510.4",
+    "702.4b",
+    "614.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Mjölnir, Hammer of Thor",
+     "quote": "Double all damage equipped creature would deal."
+    },
+    {
+     "card": "Dragonfire Blade",
+     "quote": "Equip {4}. This ability costs {1} less to activate for each color of the creature it targets."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Hatred",
+     "quote": "The life payment is part of the cost to cast Hatred, so it is lost if this spell is countered."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Obeka_Splitter_of_Seconds_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Obeka is legendary, red, and not a Villain, so she is worthy and may use equip worthy `{1}`."
+    }
+   ]
+  },
+  {
+   "id": "obekass-03",
+   "category": "trigger-order",
+   "title": "Roaming Throne (Ogre/Warlock) + Wizard's Staff: three Obeka triggers, not four",
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Roaming Throne",
+    "Wizard's Staff",
+    "Combat Research"
+   ],
+   "ruling": "Roaming Throne naming Ogre or Warlock, and Wizard's Staff equipped to Obeka, each make her trigger one extra time. Together that's 1 + 1 + 1 = 3 triggers per damage event. Effects that add triggers stack by addition, not multiplication. The Staff uses equip {3}, because Obeka is a Warlock, not a Wizard. Combat Research's draw trigger belongs to Obeka, so it gets the extra triggers too.",
+   "status": "verified",
+   "cr": [
+    "603.2d"
+   ],
+   "oracle": [
+    {
+     "card": "Roaming Throne",
+     "quote": "If a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time."
+    },
+    {
+     "card": "Wizard's Staff",
+     "quote": "If a triggered ability of equipped creature triggers, that ability triggers an additional time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Roaming Throne",
+     "quote": "Roaming Throne's last ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Obeka_Splitter_of_Seconds_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "With both applying, one combat-damage event generates **three total Obeka trigger instances**: original + Throne + Staff, not four."
+    }
+   ]
+  },
+  {
+   "id": "obekass-04",
+   "category": "combo",
+   "title": "Time Sieve fed by upkeep artifacts: Thopter Spy Network, Smaug, Court of Vantress, Replicating Ring",
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Time Sieve",
+    "Thopter Spy Network",
+    "Smaug the Magnificent",
+    "Court of Vantress",
+    "Replicating Ring",
+    "Tamiyo's Journal"
+   ],
+   "ruling": "Time Sieve needs five artifacts sacrificed, and it can count itself. Each upkeep producer makes artifacts:\n- **Thopter Spy Network:** a Thopter per upkeep, if you control an artifact (Sieve counts) both when the trigger would happen and when it resolves.\n- **Smaug:** a Treasure per upkeep.\n- **Court of Vantress:** a Sieve token per upkeep while you're monarch.\n- **Replicating Ring:** eight Replicated Rings after eight counters.\n\nFour or more damage turns the normal upkeep plus four extras into five artifacts, then an extra turn in the postcombat main. It repeats while the board survives and Obeka keeps connecting. Tamiyo's Journal Clues also count, but you can't spend one Clue on both Journal and Sieve.",
+   "short": "Spellbook 1558-5085-5471 etc.: Obeka's upkeeps make 5 artifacts → Time Sieve extra turn.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "oracle": [
+    {
+     "card": "Time Sieve",
+     "quote": "{T}, Sacrifice five artifacts: Take an extra turn after this one."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Time Sieve",
+     "quote": "You may sacrifice Time Sieve as one of the artifacts to pay the cost of its own ability."
+    },
+    {
+     "card": "Thopter Spy Network",
+     "quote": "Thopter Spy Network's first ability has an “intervening ‘if' clause.” That means (1) the ability won't trigger at all unless you control an artifact as your upkeep begins, and (2) the ability will do nothing if you don't control an artifact as it resolves."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1558-5085-5471",
+     "quote": "Activate Time Sieve by tapping it and sacrificing five Thopters, causing you to take an extra turn after this one."
+    },
+    {
+     "id": "1558-5471-7651",
+     "quote": "Activate Time Sieve by tapping it and sacrificing five Treasures, causing you to take an extra turn after this one."
+    },
+    {
+     "id": "1469-1558-5471",
+     "quote": "At the beginning of your upkeep, Court of Vantress triggers, creating a token copy of Time Sieve."
+    },
+    {
+     "id": "1558-5471-7348",
+     "quote": "Activate Time Sieve by tapping it and sacrificing five Replicating Ring tokens, causing you to take an extra turn after this one."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Obeka_Splitter_of_Seconds_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "This is a board-dependent repeatable-turn engine, not an unconditional loop from an empty board."
+    }
+   ]
+  },
+  {
+   "id": "obekass-05",
+   "category": "combo",
+   "title": "Upkeep win cons: Mechanized Production, Darksteel Reactor; Super Intelligence draws",
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Mechanized Production",
+    "Darksteel Reactor",
+    "Super Intelligence"
+   ],
+   "ruling": "Each extra upkeep feeds these:\n- **Mechanized Production:** makes another token copy. You win while its trigger resolves if you control eight artifacts sharing one name, any name. Eight Thopters work even if Production is on something else.\n- **Darksteel Reactor:** gets a charge counter and wins at 20.\n- **Super Intelligence on Obeka:** draws a card each time.",
+   "status": "verified",
+   "cr": [
+    "603.8",
+    "104.2b"
+   ],
+   "oracle": [
+    {
+     "card": "Mechanized Production",
+     "quote": "At the beginning of your upkeep, create a token that's a copy of enchanted artifact. Then if you control eight or more artifacts with the same name as one another, you win the game."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mechanized Production",
+     "quote": "The eight artifacts with the same name don't have to have the same name as the enchanted artifact. For example, you win the game if you control eight Thopter artifact creature tokens as Mechanized Production's ability resolves, even if Mechanized Production isn't attached to a Thopter."
+    },
+    {
+     "card": "Mechanized Production",
+     "quote": "If you control eight or more artifacts that share a name while you control Mechanized Production, you won't win the game yet. You'll win the game while resolving its triggered ability during your upkeep."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "2047-5471",
+     "quote": "Repeat step 2 as necessary for the remaining upkeep steps until you win the game."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Obeka_Splitter_of_Seconds_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Every Obeka-created upkeep supplies another independent Reactor trigger."
+    }
+   ]
+  }
+ ]
+}

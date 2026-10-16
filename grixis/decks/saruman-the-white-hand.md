@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -499,6 +500,19 @@ This approval freezes `refinement/decklists/Saruman_the_White_Hand_Approved_2026
 
 - [refinement/verification/Saruman_the_White_Hand_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Saruman_the_White_Hand_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Saruman_the_White_Hand_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Saruman_the_White_Hand_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 54 interaction review: **7 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Saruman, the White Hand — Interaction Review](../interactions/saruman-the-white-hand.md).
+
+- **Saruman counts mana value, not mana paid** — MV, not cost paid: Salvo 12, Cruise 8, pitched Force 5, Act 9. ([saruman-01](../interactions/saruman-the-white-hand.md#saruman-01-saruman-counts-mana-value-not-mana-paid))
+- **Mauhúr adds +1 per counter event; The Great Goblin and All Will Be One per event** — Every amass = one Great Goblin ping + All Will Be One for X+1 (with Mauhúr). ([saruman-04](../interactions/saruman-the-white-hand.md#saruman-04-mauhúr-adds-1-per-counter-event-the-great-goblin-and-all-will-be-one-per-event))
+- **Fall of Cair Andros + Blasphemous Act (+ Widespread Brutality, Chandra's Ignition, Soul's Fire)** — Spellbook 1823-2484: Act's excess damage refills a fresh Army; Ignition kills your own Saruman. ([saruman-05](../interactions/saruman-the-white-hand.md#saruman-05-fall-of-cair-andros--blasphemous-act--widespread-brutality-chandras-ignition-souls-fire))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag The Black Gate chooses a player; only the creature is targeted (source wording off): The source rules attestation (The Black Gate item) says the ability 'targets a creature and a player'. Per Oracle, the player is chosen and only the creature is targeted. Text fix only; the deck isn't affected. ([saruman-07](../interactions/saruman-the-white-hand.md#saruman-07-the-black-gate-chooses-a-player-only-the-creature-is-targeted-source-wording-off))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

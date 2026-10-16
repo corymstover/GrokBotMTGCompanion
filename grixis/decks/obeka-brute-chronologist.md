@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -622,6 +623,16 @@ This approval freezes `refinement/decklists/Obeka_Brute_Chronologist_Approved_20
 
 - [refinement/verification/Obeka_Brute_Chronologist_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Obeka_Brute_Chronologist_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Obeka_Brute_Chronologist_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Obeka_Brute_Chronologist_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 54 interaction review: **5 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Obeka, Brute Chronologist — Interaction Review](../interactions/obeka-brute-chronologist.md).
+
+- **Obeka ends the turn: timing the activation against end-step triggers** — Let the 'next end step' trigger go on the stack, then end the turn with Obeka on top; ending earlier only postpones it. ([obekabc-01](../interactions/obeka-brute-chronologist.md#obekabc-01-obeka-ends-the-turn-timing-the-activation-against-end-step-triggers))
+- **Isochron Scepter + Final Fortune + Obeka (or Sundial of the Infinite): infinite turns** — Spellbook 126-1173-5261 / 1173-2160-5261: Scepter gives extra turns; Obeka or Sundial exiles the lose trigger. ([obekabc-02](../interactions/obeka-brute-chronologist.md#obekabc-02-isochron-scepter--final-fortune--obeka-or-sundial-of-the-infinite-infinite-turns))
+- **Delayed liabilities become permanent: Identity Thief, Come Back Wrong, Hate Mirage, Apprentice Necromancer, Venser, Sneak Attack** — End the turn over the 'next end step' trigger and theft, tokens and Sneak Attack bodies stay. ([obekabc-03](../interactions/obeka-brute-chronologist.md#obekabc-03-delayed-liabilities-become-permanent-identity-thief-come-back-wrong-hate-mirage-apprentice-necromancer-venser-sneak-attack))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

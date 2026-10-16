@@ -1,0 +1,276 @@
+{
+ "schema": 1,
+ "deck_id": "Sauron__Lord_of_the_Rings",
+ "slug": "sauron-lord-of-the-rings",
+ "commanders": [
+  "Sauron, Lord of the Rings"
+ ],
+ "deck_sha256": "0db8b7c1b7a77f9964a14812dffb9d58f37e40a91c6152fc20e33b3917077c90",
+ "list_source": "exports/grixis-archidekt/sauron-lord-of-the-rings.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 54,
+ "batch": "E",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+   "note": "Rules attestation (14 items, all PASS) re-verified"
+  },
+  {
+   "path": "refinement/verification/Sauron_Lord_of_the_Rings_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification"
+  }
+ ],
+ "summary": "Sauron, Lord of the Rings is an eight-drop whose cast trigger amasses, mills five and reanimates even if he's countered. The list is a reanimator deck (Entomb, Buried Alive, Animate Dead, Reanimate, Metamorphosis Fanatic, Living Death), with Anger and Wonder working from the graveyard, Sneak Attack, and a four-Nazgûl Ring side engine. Fast mana (Mana Vault, Grim Monolith) is there only to cast him sooner. There are no Spellbook lines. All 14 attestation items are re-verified against the canonical list.\n\nRules surprises: countering Sauron doesn't stop the reanimation; the return can pick any creature card in your graveyard and is mandatory; Living Death doesn't bring back your Army token or Sauron; four Nazgûl are legal in Commander. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "sauronlotr-01",
+   "category": "commander",
+   "title": "Cast trigger: amass 5, mill 5, then reanimate (resolves even if Sauron is countered)",
+   "cards": [
+    "Sauron, Lord of the Rings",
+    "Command Beacon"
+   ],
+   "ruling": "Sauron's first ability triggers when he's cast, from the command zone or from hand. It resolves before Sauron himself and works on its own, so countering the Sauron spell doesn't stop it. In order, it amasses Orcs 5, mills five, then returns a creature card from your graveyard to the battlefield. That can be a card already there or one just milled. The return is mandatory if you have a creature card. Command Beacon puts him in hand. Casting him from there has no commander tax, still triggers, and doesn't add to the tax.",
+   "short": "Cast trigger is independent of the spell; the reanimation picks from the whole graveyard after the mill.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2",
+    "113.7a",
+    "903.8"
+   ],
+   "oracle": [
+    {
+     "card": "Sauron, Lord of the Rings",
+     "quote": "When you cast this spell, amass Orcs 5, mill five cards, then return a creature card from your graveyard to the battlefield."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Sauron, Lord of the Rings",
+     "quote": "The creature card you choose doesn't need to be a card you milled. You may choose a creature card that was already in your graveyard before you milled."
+    },
+    {
+     "card": "Command Beacon",
+     "quote": "If you cast a commander from your hand, the additional cost based on the number of times you've cast it from your command zone (sometimes referred to as the \"commander tax\") doesn't apply. Additionally, that casting won't add to the tax if you later cast the commander from the command zone."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "Sauron cast-trigger independence"
+    },
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "Sauron trigger sequencing"
+    },
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "Command Beacon and commander tax"
+    }
+   ]
+  },
+  {
+   "id": "sauronlotr-02",
+   "category": "engine",
+   "title": "Reanimation chains: Metamorphosis Fanatic, Dance of the Dead, Animate Dead, Necromancy, Reanimate",
+   "cards": [
+    "Sauron, Lord of the Rings",
+    "Metamorphosis Fanatic",
+    "Dance of the Dead",
+    "Animate Dead",
+    "Necromancy",
+    "Reanimate",
+    "Entomb",
+    "Buried Alive"
+   ],
+   "ruling": "If Sauron's trigger returns Metamorphosis Fanatic, its ETB returns up to one more creature card with a lifelink counter, so you get two bodies from one cast. Entomb and Buried Alive set up the graveyard. Dance of the Dead returns its creature tapped with +1/+1. That creature doesn't untap normally, but you can pay {1}{B} in your upkeep to untap it. If Dance leaves the battlefield, the creature is sacrificed.",
+   "status": "verified",
+   "cr": [
+    "603.6a"
+   ],
+   "oracle": [
+    {
+     "card": "Metamorphosis Fanatic",
+     "quote": "When this creature enters, return up to one target creature card from your graveyard to the battlefield with a lifelink counter on it."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Dance of the Dead",
+     "quote": "This is a new wording. Dance of the Dead is now an Aura. You target a creature card in a graveyard when you cast it. It enters attached to that card. Then it returns that card to the battlefield, and attaches itself to that card again (since the card is treated as a new object on the battlefield)."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "Metamorphosis Fanatic chain"
+    },
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "Dance of the Dead"
+    }
+   ]
+  },
+  {
+   "id": "sauronlotr-03",
+   "category": "zone",
+   "title": "Living Death: exile, sacrifice, return. Tokens and Sauron don't come back",
+   "cards": [
+    "Sauron, Lord of the Rings",
+    "Living Death",
+    "Phyrexian Tower",
+    "Sneak Attack"
+   ],
+   "ruling": "Living Death resolves in three steps, each happening for all players at once:\n1. Exile every creature card from every graveyard.\n2. Sacrifice every creature on the battlefield.\n3. Put the exiled cards onto the battlefield.\n\nOnly cards exiled in step 1 return. Your Orc Army token and Sauron himself are sacrificed in step 2 and don't return; Sauron can go to the command zone. Sacrifice creatures beforehand with Phyrexian Tower ({B}{B}, a mana ability) so they're in the graveyard for step 1. Sneak Attack's end-step sacrifice also stocks the graveyard.",
+   "short": "Only creature cards already in graveyards return; your Army token and Sauron are just sacrificed.",
+   "status": "verified",
+   "cr": [
+    "608.2c",
+    "111.7",
+    "903.9a"
+   ],
+   "oracle": [
+    {
+     "card": "Living Death",
+     "quote": "Each player exiles all creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Living Death",
+     "quote": "Only cards exiled by Living Death's first instruction are put onto the battlefield. If a replacement effect (such as that of Leyline of the Void) causes any of the sacrificed creatures to be exiled instead of put into a graveyard, those cards aren't returned to the battlefield."
+    },
+    {
+     "card": "Sneak Attack",
+     "quote": "You sacrifice the creature only if you still control it. If that creature has left the battlefield, even if it came back, you don't sacrifice it."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "Living Death sequencing"
+    },
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "Phyrexian Tower"
+    },
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "Sneak Attack graveyard setup"
+    }
+   ]
+  },
+  {
+   "id": "sauronlotr-04",
+   "category": "legality",
+   "title": "Four Nazgûl are legal; each temptation grows every Wraith once per Nazgûl",
+   "cards": [
+    "Sauron, Lord of the Rings",
+    "Nazgûl"
+   ],
+   "ruling": "Nazgûl's own text lets a deck run up to nine copies, overriding the singleton rule. The canonical list runs four. Each Nazgûl's ETB has the Ring tempt you, and each Nazgûl triggers on every temptation. With k Nazgûl out, one temptation puts k counters on each Wraith. Sauron's trigger when an opponent's commander dies is another temptation, and it happens even if that commander goes to the command zone. The Ring can tempt you even if you control no creatures.",
+   "short": "Up to 9 Nazgûl allowed; each temptation = +k counters per Wraith with k Nazgûl.",
+   "status": "verified",
+   "cr": [
+    "903.5b",
+    "701.54a"
+   ],
+   "oracle": [
+    {
+     "card": "Nazgûl",
+     "quote": "A deck can have up to nine cards named Nazgûl."
+    },
+    {
+     "card": "Nazgûl",
+     "quote": "Whenever the Ring tempts you, put a +1/+1 counter on each Wraith you control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Nazgûl",
+     "quote": "The last ability of Nazgûl also lets you ignore the \"singleton\" rule in formats like Commander."
+    },
+    {
+     "card": "Sauron, Lord of the Rings",
+     "quote": "Sauron, Lord of the Rings's last ability will trigger even if the owner of the commander that died chooses to return it to the command zone after it dies."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "Nazgûl deck construction"
+    },
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "Nazgûl and Ring temptation"
+    },
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "Sauron opponent-commander death trigger"
+    }
+   ]
+  },
+  {
+   "id": "sauronlotr-05",
+   "category": "zone",
+   "title": "Anger and Wonder work from the graveyard, if you control a Mountain or Island",
+   "cards": [
+    "Sauron, Lord of the Rings",
+    "Anger",
+    "Wonder",
+    "The Mouth of Sauron"
+   ],
+   "ruling": "Sauron's mill can bin Anger and Wonder. From your graveyard, Anger gives your creatures haste while you control a Mountain, and Wonder gives flying while you control an Island. Typed duals count, and Anger works even if you had no Mountain when it was milled. The Mouth of Sauron can target you: mill three, then amass Orcs equal to the instants and sorceries in your graveyard.",
+   "status": "verified",
+   "cr": [
+    "113.6",
+    "305.6"
+   ],
+   "oracle": [
+    {
+     "card": "Anger",
+     "quote": "As long as this card is in your graveyard and you control a Mountain, creatures you control have haste."
+    },
+    {
+     "card": "The Mouth of Sauron",
+     "quote": "When The Mouth of Sauron enters, target player mills three cards. Then amass Orcs X, where X is the number of instant and sorcery cards in that player's graveyard. (Put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Anger",
+     "quote": "The timestamp for the \"in your graveyard\" ability is set at the time that this card goes to your graveyard, regardless of whether you control a Mountain at that time."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "Anger and Wonder land-type checks"
+    },
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "The Mouth of Sauron self-mill"
+    },
+    {
+     "path": "refinement/verification/sauron_lotr_2026-10-15/gate_output/Sauron_Lord_of_the_Rings_Rules_Attestation.json",
+     "item": "Fast-mana role"
+    }
+   ]
+  }
+ ]
+}

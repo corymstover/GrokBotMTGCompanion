@@ -1,0 +1,414 @@
+{
+ "schema": 1,
+ "deck_id": "Goben__Gene_Splice_Savant",
+ "slug": "norman-osborn",
+ "commanders": [
+  "Norman Osborn // Green Goblin"
+ ],
+ "deck_sha256": "6017ff8c9557b58ede769d4a467093fb84f780b3e3fe09cd580880cd7c91382f",
+ "list_source": "exports/grixis-archidekt/source-baseline/norman-osborn.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 54,
+ "batch": "E",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification sections 5–16"
+  },
+  {
+   "path": "refinement/verification/Norman_Osborn_Green_Goblin_Whole_List_Audit_2026-10-15.md",
+   "note": "Whole-list audit"
+  }
+ ],
+ "summary": "Norman Osborn // Green Goblin is a modal double-faced card that transforms. Norman connives on unblockable hits. Green Goblin gives every nonland card in your graveyard mayhem and discounts graveyard casts by {2}. The canonical list (source baseline) floods the graveyard with discard outlets (LED, Breakthrough, Attunement, Artist's Talent, Dark Deal), uses flash enablers for off-turn mayhem, and closes with Thassa's Oracle and Underworld Breach. All 7 Spellbook lines are present.\n\nRules surprises: mayhem only needs a discard earlier this turn, even before the transform; Yawgmoth's Will exiles that turn's discards; Green Goblin makes Mox Amber tap for black and red, not just blue; Goblin is never cast, so Cavern protects only Norman. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "norman-01",
+   "category": "commander",
+   "title": "A modal DFC that transforms: Norman front face, Green Goblin back face",
+   "cards": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "ruling": "Norman Osborn // Green Goblin is a modal double-faced card. Under the current rules it can still transform: {1}{U}{B}{R}, at sorcery speed, flips Norman (unblockable 1/1, connives on combat damage) into Green Goblin (3/3 flying, menace). On the battlefield, only the face that's up counts, so Green Goblin has his own mana cost ({1}{U}{B}{R}), colors, types and mana value. Everywhere else, including the command zone, only Norman's front face counts. A recast always comes back as Norman, and you pay to transform again. Color identity uses both faces: U/B/R.",
+   "short": "MDFC that transforms; Goblin's own characteristics apply only while he's face up on the battlefield.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "712.8a",
+    "712.8f",
+    "903.4"
+   ],
+   "oracle": [
+    {
+     "card": "Norman Osborn // Green Goblin",
+     "quote": "{1}{U}{B}{R}: Transform Norman Osborn. Activate only as a sorcery."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Norman Osborn // Green Goblin",
+     "quote": "A modal double-faced card can be transformed or be put onto the battlefield transformed. This is a change from previous rules. If an effect instructs you to transform a modal double-faced card on the battlefield, it transforms only if its other face has a permanent type (that is, if its other face isn't an instant or sorcery). If it doesn't, it simply won't transform. Similarly, if an effect attempts to put a modal double-faced card onto the battlefield transformed, it will enter transformed if its back face has a permanent type. If it doesn't, it will simply stay in its current zone."
+    },
+    {
+     "card": "Norman Osborn // Green Goblin",
+     "quote": "The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of other double-faced cards is determined."
+    },
+    {
+     "card": "Norman Osborn // Green Goblin",
+     "quote": "In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Color identity is determined using both faces and is **U/B/R**."
+    }
+   ]
+  },
+  {
+   "id": "norman-02",
+   "category": "timing",
+   "title": "Goblin Formula: mayhem needs only a discard this turn, and still follows timing rules",
+   "cards": [
+    "Norman Osborn // Green Goblin",
+    "Borne Upon a Wind",
+    "Valley Floodcaller",
+    "Faithless Looting"
+   ],
+   "ruling": "Green Goblin gives each nonland card in your graveyard mayhem, with a cost equal to its mana cost. Mayhem is an alternative cost: you may cast the card from your graveyard if you discarded it this turn. Mayhem only checks that you discarded the card this turn, not that Goblin was out at the time. So you can discard on the front face (a Norman connive, or Faithless Looting), transform, then cast. Mayhem doesn't change timing. A sorcery still needs your main phase with an empty stack unless Borne Upon a Wind or Valley Floodcaller gives flash; Floodcaller also works for cards cast from the graveyard. Goblin's {2} reduction never grants permission to cast on its own.",
+   "short": "Discard any time this turn, transform, then mayhem-cast; flash enablers needed for off-timing sorceries.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.187a",
+    "702.187b",
+    "118.9d",
+    "117.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Norman Osborn // Green Goblin",
+     "quote": "Goblin Formula — Each nonland card in your graveyard has mayhem. The mayhem cost is equal to its mana cost. (You may cast a card from your graveyard for its mayhem cost if you discarded it this turn. Timing rules still apply.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Norman Osborn // Green Goblin",
+     "quote": "Green Goblin's cost-reduction ability doesn't itself allow you to cast any spells from your graveyard. It only reduces the cost of spells that another effect (such as that of Green Goblin's last ability) has allowed you to cast."
+    },
+    {
+     "card": "Valley Floodcaller",
+     "quote": "Valley Floodcaller’s second ability applies to noncreature cards in any zone, provided something is allowing you to cast them. For example, you could cast a sorcery with flashback as though it had flash."
+    },
+    {
+     "card": "Borne Upon a Wind",
+     "quote": "This applies only to casting spells. It does not, for example, change when you can activate abilities that can be activated \"only as a sorcery.\""
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Mayhem changes where and for what alternative cost a card may be cast; it does not itself let a sorcery be cast at instant speed."
+    }
+   ]
+  },
+  {
+   "id": "norman-03",
+   "category": "engine",
+   "title": "Cost stacking: Goblin's {2} plus Artist's Talent's {1}, generic only, on top of mayhem or escape",
+   "cards": [
+    "Norman Osborn // Green Goblin",
+    "Artist's Talent",
+    "Big Score",
+    "Dark Deal",
+    "Unstable Experiment",
+    "Brain Freeze",
+    "Underworld Breach"
+   ],
+   "ruling": "Cost reductions apply to whichever alternative cost you pay, mayhem or escape. Only one alternative cost applies per spell, so you pick between them. Goblin takes {2} off and level-2 Artist's Talent takes off {1} more, for noncreature spells. Both reduce only generic mana. Examples:\n- Big Score from the graveyard costs {R}, and you still discard a card.\n- Dark Deal costs {B}.\n- Brain Freeze escaped under Breach costs {U} plus exiling three.\n\nArtist's Talent level 1 is also a discard outlet each time you cast a noncreature spell.",
+   "short": "Goblin −{2} and Talent −{1} stack on mayhem/escape costs; colored mana and additional costs remain.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "118.9a",
+    "118.9d",
+    "601.2f"
+   ],
+   "oracle": [
+    {
+     "card": "Big Score",
+     "quote": "As an additional cost to cast this spell, discard a card."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Norman Osborn // Green Goblin",
+     "quote": "Green Goblin's cost-reduction ability reduces only the generic mana component of a spell's cost. For example, if you cast a spell from your graveyard that would normally cost {1}{B}, you will have to pay {B} to cast it."
+    },
+    {
+     "card": "Artist's Talent",
+     "quote": "The cost reduction applies only to generic mana in the total cost of noncreature spells you cast."
+    },
+    {
+     "card": "Underworld Breach",
+     "quote": "If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "**Big Score:** mayhem cost `{3}{R}` becomes `{1}{R}` with Green Goblin. Its additional discard cost remains mandatory."
+    }
+   ]
+  },
+  {
+   "id": "norman-04",
+   "category": "zone",
+   "title": "Mass discard outlets: Lion's Eye Diamond, Breakthrough, Attunement, Dark Deal, Wheel of Fortune",
+   "cards": [
+    "Norman Osborn // Green Goblin",
+    "Lion's Eye Diamond",
+    "Breakthrough",
+    "Attunement",
+    "Dark Deal",
+    "Wheel of Fortune",
+    "Reckless Handling"
+   ],
+   "ruling": "Each of these discards several cards at once, and all of them become mayhem-eligible for the rest of the turn:\n- **Lion's Eye Diamond:** a mana ability usable only at instant timing. It can be activated mid-cast, so you can discard your hand while paying for a spell, then cast the discards afterward.\n- **Breakthrough:** for X=0 it costs {U}, draws four, then discards the whole hand.\n- **Attunement:** returns itself to hand as its cost, then you draw three and discard four, or your whole hand if you have fewer.\n- **Reckless Handling:** the tutored artifact can be the random discard, and nothing can happen in between. That card can still be mayhem-cast later.",
+   "status": "verified",
+   "cr": [
+    "605.3b",
+    "601.2g",
+    "702.187b"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Lion's Eye Diamond",
+     "quote": "The ability is a mana ability, so it is activated and resolves as a mana ability, but it can only be activated at times when you can cast an instant. Yes, this is a bit weird."
+    },
+    {
+     "card": "Attunement",
+     "quote": "If you have less than 4 cards, discard all you have."
+    },
+    {
+     "card": "Reckless Handling",
+     "quote": "You can't do anything between putting the artifact card you found in your hand and discarding. You may end up discarding that card. But hey, if you do, 2 damage!"
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "**Attunement** can return itself to hand as the cost of its activated ability, then draw three cards and discard four."
+    }
+   ]
+  },
+  {
+   "id": "norman-05",
+   "category": "replacement",
+   "title": "Yawgmoth's Will exiles new discards; Necropotence (not in list) would race mayhem",
+   "cards": [
+    "Norman Osborn // Green Goblin",
+    "Yawgmoth's Will"
+   ],
+   "ruling": "Yawgmoth's Will sends any card that would go to your graveyard this turn to exile instead, discards included. So on a Will turn, newly discarded cards never land in the graveyard and can't use mayhem. Will replays what's already in the graveyard; it doesn't help that turn's discards. The source correctly leaves out Necropotence: its exile is a trigger, so instant-speed or flash mayhem could only answer it in response.",
+   "status": "verified",
+   "cr": [
+    "614.1a",
+    "702.187a"
+   ],
+   "oracle": [
+    {
+     "card": "Yawgmoth's Will",
+     "quote": "If a card would be put into your graveyard from anywhere this turn, exile that card instead."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Yawgmoth's Will",
+     "quote": "The second ability creates a replacement effect. It applies to both costs and effects."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "New cards discarded while its replacement effect applies will not normally remain available in the graveyard for Green Goblin's Mayhem plan."
+    }
+   ]
+  },
+  {
+   "id": "norman-06",
+   "category": "combo",
+   "title": "Thassa's Oracle + Demonic Consultation / Tainted Pact",
+   "cards": [
+    "Norman Osborn // Green Goblin",
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "ruling": "These are the standard two-card wins. Exile your library with Consultation (naming Thassa's Oracle) or with Tainted Pact. The canonical list has 100 distinct names, so Pact never stops early on a duplicate. Then Oracle's ETB wins with zero cards in library. Both work without the commander.",
+   "status": "verified",
+   "cr": [],
+   "oracle": [],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "742-1295",
+     "quote": "Cast Demonic Consultation by paying {B}, naming Thassa's Oracle and thus exiling your library due to you not having a card named Thassa's Oracle in your library."
+    },
+    {
+     "id": "1295-3093",
+     "quote": "Cast Tainted Pact by paying {1}{B}, exiling your library."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "The exact approval-ready list contains **100 distinct card names**, so Tainted Pact has no duplicate-name stopping condition introduced by the decklist itself."
+    }
+   ]
+  },
+  {
+   "id": "norman-07",
+   "category": "combo",
+   "title": "Underworld Breach lines: LED + Brain Freeze, LED + Wheel, Wheel + Jeska's Will, Lotus Petal + Brain Freeze",
+   "cards": [
+    "Norman Osborn // Green Goblin",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze",
+    "Wheel of Fortune",
+    "Jeska's Will",
+    "Lotus Petal"
+   ],
+   "ruling": "With Breach, LED adds three mana and can be escaped again for {0} plus exiling three. That powers repeated Brain Freezes (self-mill for fuel, then mill the opponents) or repeated Wheels of Fortune. Breach can also loop Wheel + Jeska's Will, or Lotus Petal + Brain Freeze. Green Goblin isn't needed, but he cuts each escaped spell's generic cost by {2}. Each escape still exiles three other cards from your graveyard.",
+   "short": "Spellbook Breach loops all present; Goblin only discounts them.",
+   "status": "verified",
+   "cr": [
+    "702.138a"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Underworld Breach",
+     "quote": "If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1368-3518-4856",
+     "quote": "Cast Lion's Eye Diamond from your graveyard for its escape cost by exiling three cards besides Brain Freeze from your graveyard."
+    },
+    {
+     "id": "1368-2706-3518",
+     "quote": "Resolve Wheel of Fortune, causing each player to discard their hand and draw seven cards."
+    },
+    {
+     "id": "1368-1878-2706",
+     "quote": "Cast Jeska's Will from your graveyard for its escape cost by paying {2}{R} and exiling three other cards from your graveyard, adding at least six {R}."
+    },
+    {
+     "id": "1368-1414-4856",
+     "quote": "Activate Lotus Petal by tapping and sacrificing it, adding {U}."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Green Goblin can improve the rate of graveyard-cast spells by reducing generic mana, but the Breach package does not require the commander to function."
+    }
+   ]
+  },
+  {
+   "id": "norman-08",
+   "category": "combo",
+   "title": "Breach + Grinding Station + Mox Amber: Goblin makes Amber tap for any Grixis color",
+   "cards": [
+    "Norman Osborn // Green Goblin",
+    "Underworld Breach",
+    "Grinding Station",
+    "Mox Amber"
+   ],
+   "ruling": "Grinding Station sacrifices Mox Amber to mill three. Escape Amber for {0} plus exiling three, and its entry untaps the Station. Each cycle nets +3 cards milled; it isn't a win on its own. Amber's mana depends on the face up. Front-face Norman is only blue. Green Goblin's face has its own mana cost {1}{U}{B}{R}, so he is blue, black and red, and Amber can tap for any of the three. Amber gives one color of your choice, not one of each.",
+   "status": "verified",
+   "cr": [
+    "105.2",
+    "712.8f"
+   ],
+   "oracle": [
+    {
+     "card": "Mox Amber",
+     "quote": "{T}: Add one mana of any color among legendary creatures and planeswalkers you control."
+    },
+    {
+     "card": "Grinding Station",
+     "quote": "Whenever an artifact enters, you may untap this artifact."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mox Amber",
+     "quote": "Mox Amber's ability adds one mana of the color of your choice from among the colors of legendary creatures and legendary planeswalkers you control. It doesn't add one mana of each of those colors."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1368-3698--44",
+     "quote": "Cast the artifact from your graveyard for its escape cost by paying {0} and exiling three cards from your graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "With Norman Osborn on the battlefield, Mox Amber can produce blue mana before being sacrificed because Norman is a blue legendary permanent."
+    }
+   ]
+  },
+  {
+   "id": "norman-09",
+   "category": "legality",
+   "title": "Cavern of Souls naming Human protects the Norman cast only",
+   "cards": [
+    "Norman Osborn // Green Goblin",
+    "Cavern of Souls"
+   ],
+   "ruling": "Norman Osborn is a Human Scientist Villain, so Cavern naming Human makes him uncounterable and pays a colored mana toward him. Green Goblin is never cast, because he's reached by transforming. The transform ability can still be answered like any activated ability.",
+   "status": "verified",
+   "cr": [
+    "712.11b",
+    "712.8f"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Cavern of Souls",
+     "quote": "You must choose an existing creature type, such as Human or Warrior. Card types such as artifact can't be chosen."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "the back face is reached by transformation and is **not separately cast**."
+    }
+   ]
+  }
+ ]
+}

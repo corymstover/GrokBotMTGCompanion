@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -494,6 +495,19 @@ This approval freezes `refinement/decklists/Parnesse_the_Subtle_Brush_Approved_2
 
 - [refinement/verification/Parnesse_the_Subtle_Brush_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Parnesse_the_Subtle_Brush_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Parnesse_the_Subtle_Brush_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Parnesse_the_Subtle_Brush_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 54 interaction review: **10 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Parnesse, the Subtle Brush — Interaction Review](../interactions/parnesse-the-subtle-brush.md).
+
+- **What counts as 'you copy a spell': stack copies yes, cast-a-copy-of-a-card no** — Spell copies on the stack trigger Parnesse; Mizzix's Mastery-style 'copy the card, cast the copy' doesn't. ([parnesse-01](../interactions/parnesse-the-subtle-brush.md#parnesse-01-what-counts-as-you-copy-a-spell-stack-copies-yes-cast-a-copy-of-a-card-no))
+- **Copy-the-copier loops: Reiterate / Reverberate / Increasing Vengeance / Return the Favor with storm, Goggles, Alania, Thousand-Year Storm or Narset's Reversal** — 20 Spellbook loops all present; magecraft finishers Ral/Onyx win. ([parnesse-04](../interactions/parnesse-the-subtle-brush.md#parnesse-04-copy-the-copier-loops-reiterate--reverberate--increasing-vengeance--return-the-favor-with-storm-goggles-alania-thousand-year-storm-or-narsets-reversal))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Bonus Round is symmetric: opponents' responses get copied too: Bonus Round copies opponents' instant or sorcery responses during your combo turn (a doubled counterspell or removal). It's a sequencing risk, not a list error. ([parnesse-07](../interactions/parnesse-the-subtle-brush.md#parnesse-07-bonus-round-is-symmetric-opponents-responses-get-copied-too))
+- ⚠️ uncertain Do opponents' retargeted Parnesse copies hit her own 4-life tax?: No Parnesse ruling addresses copies created with new targets; derived from 707.10c only. ([parnesse-10](../interactions/parnesse-the-subtle-brush.md#parnesse-10-do-opponents-retargeted-parnesse-copies-hit-her-own-4-life-tax))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

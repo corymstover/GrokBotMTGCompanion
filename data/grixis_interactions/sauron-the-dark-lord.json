@@ -1,0 +1,254 @@
+{
+ "schema": 1,
+ "deck_id": "Sauron__the_Dark_Lord",
+ "slug": "sauron-the-dark-lord",
+ "commanders": [
+  "Sauron, the Dark Lord"
+ ],
+ "deck_sha256": "1d553979b827147118b5262797ae38dea83be27e2f5f045b371046a33076b11d",
+ "list_source": "exports/grixis-archidekt/sauron-the-dark-lord.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 54,
+ "batch": "E",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+   "note": "Rules attestation (13 items, all PASS) re-verified"
+  },
+  {
+   "path": "refinement/verification/Sauron_the_Dark_Lord_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification"
+  }
+ ],
+ "summary": "Sauron, the Dark Lord grows an Orc Army off every opponent spell and turns Army hits into Ring temptations, each one an optional discard-and-draw-four. The list runs seven Nazgûl (legal under their own text) for repeated temptations and Wraith counters, uses Minas Morgul to make the Army an evasive Wraith, Roaming Throne to double Sauron (Avatar) or the Nazgûl (Wraith), and Mauhúr, both Great Goblins and Widespread Brutality on the Army. There are no Spellbook lines. All 13 attestation items are re-verified against the canonical list; the Force of Will pitch count is taken from the source, not re-derived.\n\nRules surprises: a shadow-counter Army is both Wraith and Army; Throne can double only one type; Widespread Brutality spares the Army but hits your own Nazgûl and Sauron. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "saurondl-01",
+   "category": "commander",
+   "title": "Sauron's loop: opponents' spells feed the Army, Army hits tempt the Ring, each temptation offers discard-hand / draw four",
+   "cards": [
+    "Sauron, the Dark Lord"
+   ],
+   "ruling": "Every spell an opponent casts triggers amass Orcs 1, and the trigger resolves even if that spell is countered. When your Army deals combat damage to a player, the Ring tempts you, even if you control no creatures. Each temptation, from any source, triggers Sauron's optional \"discard your hand, draw four\" separately. Sauron's ward costs the opponent a legendary artifact or legendary creature sacrifice, or their spell or ability is countered.",
+   "short": "Opponent spell → amass 1; Army combat hit → tempt → optional wheel-for-four.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.21a",
+    "701.54a",
+    "113.7a"
+   ],
+   "oracle": [
+    {
+     "card": "Sauron, the Dark Lord",
+     "quote": "Whenever an opponent casts a spell, amass Orcs 1."
+    },
+    {
+     "card": "Sauron, the Dark Lord",
+     "quote": "Whenever the Ring tempts you, you may discard your hand. If you do, draw four cards."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Sauron, the Dark Lord",
+     "quote": "The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger \"whenever the Ring tempts you\" will still trigger."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+     "item": "Sauron ward"
+    },
+    {
+     "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+     "item": "Opponent-spell amass trigger"
+    },
+    {
+     "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+     "item": "Army combat into Ring engine"
+    }
+   ]
+  },
+  {
+   "id": "saurondl-02",
+   "category": "engine",
+   "title": "Seven Nazgûl: legal, and every temptation is a counter wave plus a Sauron draw",
+   "cards": [
+    "Sauron, the Dark Lord",
+    "Nazgûl"
+   ],
+   "ruling": "Nazgûl allows up to nine copies, and the canonical list runs seven. Each Nazgûl ETB tempts you, so Sauron offers a wheel each time. Each Nazgûl also triggers on every temptation, putting a counter on each Wraith. With k Nazgûl out, one temptation gives each Wraith k counters.",
+   "status": "verified",
+   "cr": [
+    "903.5b",
+    "701.54a"
+   ],
+   "oracle": [
+    {
+     "card": "Nazgûl",
+     "quote": "A deck can have up to nine cards named Nazgûl."
+    },
+    {
+     "card": "Nazgûl",
+     "quote": "When this creature enters, the Ring tempts you."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Nazgûl",
+     "quote": "The last ability of Nazgûl also lets you ignore the \"singleton\" rule in formats like Commander."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+     "item": "Nazgûl construction and Ring triggers"
+    }
+   ]
+  },
+  {
+   "id": "saurondl-03",
+   "category": "layers",
+   "title": "Minas Morgul turns the Army into a Wraith with shadow, so it stays an Army for Sauron",
+   "cards": [
+    "Sauron, the Dark Lord",
+    "Minas Morgul, Dark Fortress",
+    "Nazgûl"
+   ],
+   "ruling": "Minas Morgul's {3}{B}, {T} ability puts a shadow counter on a creature. While the counter stays, the creature is a Wraith in addition to its other types and has shadow, which is a keyword counter. A shadow Army can be blocked only by creatures with shadow. It remains an Army, so its hits tempt the Ring, and as a Wraith it gets every Nazgûl counter.",
+   "short": "Shadow-counter Army = evasive Wraith Army: grows from Nazgûl and still triggers Sauron.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "122.1b",
+    "702.28b",
+    "205.1b"
+   ],
+   "oracle": [
+    {
+     "card": "Minas Morgul, Dark Fortress",
+     "quote": "{3}{B}, {T}: Put a shadow counter on target creature. For as long as that creature has a shadow counter on it, it's a Wraith in addition to its other types. (A creature with shadow can block or be blocked by only creatures with shadow.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Minas Morgul, Dark Fortress",
+     "quote": "A permanent with a shadow counter on it has shadow."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+     "item": "Minas Morgul Army-Wraith bridge"
+    }
+   ]
+  },
+  {
+   "id": "saurondl-04",
+   "category": "trigger-order",
+   "title": "Roaming Throne: name Avatar to double Sauron, or Wraith to double Nazgûl, not both",
+   "cards": [
+    "Sauron, the Dark Lord",
+    "Roaming Throne",
+    "Nazgûl"
+   ],
+   "ruling": "Roaming Throne doubles triggers of one creature type, so pick:\n- **Avatar:** Sauron is an Avatar Horror, so each of his triggers (amass, tempt, discard/draw) happens twice.\n- **Wraith:** each Nazgûl's tempt and counter triggers happen twice. Throne also becomes a Wraith, so Nazgûl counters land on it too.\n\nThere's only one choice per Throne.",
+   "status": "verified",
+   "cr": [
+    "603.2d"
+   ],
+   "oracle": [
+    {
+     "card": "Roaming Throne",
+     "quote": "If a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Roaming Throne",
+     "quote": "Roaming Throne's last ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+     "item": "Roaming Throne — Avatar mode"
+    },
+    {
+     "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+     "item": "Roaming Throne — Wraith mode"
+    }
+   ]
+  },
+  {
+   "id": "saurondl-05",
+   "category": "replacement",
+   "title": "Army counter support: Mauhúr, The Great Goblin, Great Goblin, Foul-Hearted, Widespread Brutality",
+   "cards": [
+    "Sauron, the Dark Lord",
+    "Mauhúr, Uruk-hai Captain",
+    "The Great Goblin",
+    "Great Goblin, Foul-Hearted",
+    "Widespread Brutality"
+   ],
+   "ruling": "These grow or use the Army:\n- **Mauhúr:** each amass Orcs 1 becomes 2 counters.\n- **The Great Goblin:** deals 2 damage per counter event, not per counter.\n- **Great Goblin, Foul-Hearted:** amasses Goblins 3 on entering and attacking. That makes the Army a Goblin Orc, and he gives Armies trample.\n- **Widespread Brutality:** amasses, then the Army deals its power to each non-Army creature. The Army is spared, but your Nazgûl and Sauron aren't.",
+   "status": "verified",
+   "cr": [
+    "614.1a",
+    "701.47a"
+   ],
+   "oracle": [
+    {
+     "card": "Great Goblin, Foul-Hearted",
+     "quote": "Whenever Great Goblin enters or attacks, amass Goblins 3. (Put three +1/+1 counters on an Army you control. It's also a Goblin. If you don't control an Army, create a 0/0 black Goblin Army creature token first.)\nArmies you control have trample."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mauhúr, Uruk-hai Captain",
+     "quote": "Mauhúr's last ability applies to counters placed on Army tokens when you amass Orcs (or Zombies, or anything else.)"
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+     "item": "Mauhúr replacement"
+    },
+    {
+     "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+     "item": "The Great Goblin counter trigger"
+    },
+    {
+     "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+     "item": "Great Goblin, Foul-Hearted"
+    },
+    {
+     "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+     "item": "Widespread Brutality"
+    },
+    {
+     "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+     "item": "Wonder and Anger"
+    },
+    {
+     "path": "refinement/verification/sauron_dark_lord_2026-10-15/gate_output/Sauron_the_Dark_Lord_Rules_Attestation.json",
+     "item": "Force of Will support"
+    }
+   ]
+  }
+ ]
+}

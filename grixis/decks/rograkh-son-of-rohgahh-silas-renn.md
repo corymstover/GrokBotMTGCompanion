@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -480,6 +481,17 @@ This approval freezes `refinement/decklists/RogSi_Approved_2026-10-15.txt` as th
 
 - [refinement/verification/RogSi_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/RogSi_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/RogSi_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/RogSi_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 54 interaction review: **8 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept — Interaction Review](../interactions/rograkh-son-of-rohgahh-silas-renn.md).
+
+- **Partners: U/B/R identity, separate commander tax, a free red legendary body** — Separate taxes; first Rograkh cast is free; either partner turns on commander-presence free spells. ([rogsi-01](../interactions/rograkh-son-of-rohgahh-silas-renn.md#rogsi-01-partners-ubr-identity-separate-commander-tax-a-free-red-legendary-body))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Vexing Bauble counters your own free spells (Rograkh, Moxen, LED, Fierce Guardianship, Flare, Breach escapes for {0}): Vexing Bauble counters the deck's own free spells and {0} escapes (Rograkh, Moxen, LED, Petal, Fierce Guardianship, Flare, Breach + Grinding Station). Have Hexing Squelcher out, or sacrifice Bauble first. ([rogsi-04](../interactions/rograkh-son-of-rohgahh-silas-renn.md#rogsi-04-vexing-bauble-counters-your-own-free-spells-rograkh-moxen-led-fierce-guardianship-flare-breach-escapes-for-0))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

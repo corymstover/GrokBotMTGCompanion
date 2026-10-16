@@ -1,0 +1,367 @@
+{
+ "schema": 1,
+ "deck_id": "Sol_kanar_the_Swamp_King",
+ "slug": "solkanar-the-swamp-king",
+ "commanders": [
+  "Sol'kanar the Swamp King"
+ ],
+ "deck_sha256": "bf475d9c7048874d439972282b85de5684e0fde03095a2257e9249cdb7661ccd",
+ "list_source": "exports/grixis-archidekt/source-baseline/solkanar-the-swamp-king.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 54,
+ "batch": "E",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+   "note": "Rules attestation (14 items, all PASS) re-verified"
+  },
+  {
+   "path": "refinement/verification/Solkanar_the_Swamp_King_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification (delta already in canonical baseline)"
+  }
+ ],
+ "summary": "Sol'kanar gains 1 life whenever any player casts a black spell, and Demon's Horn copies that. Painter's Servant naming black makes every spell black, and with Grindstone it mills forever. The life gains feed Exquisite Blood / Bloodthirsty Conqueror loops with Vito, Starscape Cleric, Blight-Priest or Tenacity, plus Top + Citadel + Sheoldred or Aetherflux. The canonical list is the source baseline and already contains the approval-ready delta (Withering Torment, The Soul Stone, Fell the Profane, Raucous Theater, Undercity Sewers). All 13 Spellbook lines and all 14 attestation items are re-verified.\n\nRules surprises: Sol'kanar ignores his own cast; black Painter's makes even a Top recast trigger him; Blanket of Night makes opponents' lands Swamps for swampwalk but doesn't double-count real Swamps. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "solkanar-01",
+   "category": "commander",
+   "title": "Sol'kanar and Demon's Horn: any player's black spell gains life, one event per spell",
+   "cards": [
+    "Sol'kanar the Swamp King",
+    "Demon's Horn",
+    "The Soul Stone",
+    "Withering Torment",
+    "Fell the Profane // Fell Mire"
+   ],
+   "ruling": "Sol'kanar and Demon's Horn each trigger on every black spell any player casts. Each trigger resolves before the spell, as a separate 1-life gain, and it still gains life if the spell is countered. Sol'kanar doesn't trigger on his own cast.\n\nOn individual cards:\n- The Soul Stone ({1}{B}) is a black spell when cast.\n- Withering Torment's 2 life loss doesn't happen if its target is gone, but the cast triggers still gained life.\n- Fell the Profane cast as the spell face triggers both. Playing Fell Mire as a land triggers neither.",
+   "short": "Every black spell, from anyone, is a 1-life gain event (two with Horn); Sol'kanar ignores his own cast.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "105.2",
+    "113.7a",
+    "712.12"
+   ],
+   "oracle": [
+    {
+     "card": "Sol'kanar the Swamp King",
+     "quote": "Whenever a player casts a black spell, you gain 1 life."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Sol'kanar the Swamp King",
+     "quote": "Will not trigger off itself being cast."
+    },
+    {
+     "card": "Demon's Horn",
+     "quote": "The ability triggers whenever any player, not just you, casts a black spell."
+    },
+    {
+     "card": "Withering Torment",
+     "quote": "If the target creature or enchantment is an illegal target as Withering Torment tries to resolve, it won't resolve and none of its effects will happen. You won't lose life."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "Sol'kanar black-spell trigger"
+    },
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "Demon's Horn parallel trigger"
+    },
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "The Soul Stone"
+    },
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "Withering Torment"
+    },
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "Fell the Profane // Fell Mire"
+    }
+   ]
+  },
+  {
+   "id": "solkanar-02",
+   "category": "layers",
+   "title": "Painter's Servant naming black: every spell is black, and Grindstone mills forever",
+   "cards": [
+    "Sol'kanar the Swamp King",
+    "Painter's Servant",
+    "Grindstone",
+    "Demon's Horn",
+    "Sensei's Divining Top"
+   ],
+   "ruling": "Painter's Servant naming black makes every card outside the battlefield, every spell and every permanent black in addition to its other colors. Previously colorless things become just black. Two results:\n- Every spell any player casts triggers Sol'kanar and Demon's Horn, including colorless ones like a Sensei's Divining Top recast.\n- Grindstone's two milled cards always share a color, so it repeats until the target's library is empty (Spellbook 1078-2302).\n\nA later effect that sets an object's color overrides the Servant for that object.",
+   "short": "Black Painter's = all spells black (Sol'kanar on everything) + Grindstone infinite mill.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "613.1e",
+    "105.3"
+   ],
+   "oracle": [
+    {
+     "card": "Painter's Servant",
+     "quote": "All cards that aren't on the battlefield, spells, and permanents are the chosen color in addition to their other colors."
+    },
+    {
+     "card": "Grindstone",
+     "quote": "{3}, {T}: Target player mills two cards. If two cards that share a color were milled this way, repeat this process."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Painter's Servant",
+     "quote": "This ability affects every card in every game zone, all tokens on the battlefield, and all spell copies on the stack, regardless of who controls or owns them."
+    },
+    {
+     "card": "Grindstone",
+     "quote": "If the two cards are both colorless, then the effect does not repeat. It only repeats if both cards have at least one color and at least one color is shared between them."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1078-2302",
+     "quote": "Because both cards will share a color due to Painter's Servant, the process in step 1 repeats until the player has milled their entire library."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "Painter's Servant naming black"
+    },
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "Painter's Servant + Grindstone"
+    }
+   ]
+  },
+  {
+   "id": "solkanar-03",
+   "category": "combo",
+   "title": "Exquisite Blood / Bloodthirsty Conqueror + a lifegain-to-loss payoff: infinite drain",
+   "cards": [
+    "Sol'kanar the Swamp King",
+    "Exquisite Blood",
+    "Bloodthirsty Conqueror",
+    "Vito, Thorn of the Dusk Rose",
+    "Starscape Cleric",
+    "Marauding Blight-Priest",
+    "Enduring Tenacity",
+    "Aetherflux Reservoir"
+   ],
+   "ruling": "Exquisite Blood or Bloodthirsty Conqueror gains life when an opponent loses life. Vito, Starscape Cleric, Marauding Blight-Priest or Enduring Tenacity makes an opponent lose life when you gain it. Any single gain or loss, such as one Sol'kanar trigger, then loops until the table is dead or someone breaks it. Aetherflux Reservoir with either enabler turns the gains into a 50-damage shot. All 10 Spellbook pairs are present. One limit: if you and an opponent lose life at the same time and you drop to 0, you lose before Exquisite Blood resolves.",
+   "short": "Sol'kanar's 1 life starts any Blood/Conqueror + drain loop.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Exquisite Blood",
+     "quote": "Whenever an opponent loses life, you gain that much life."
+    },
+    {
+     "card": "Vito, Thorn of the Dusk Rose",
+     "quote": "Whenever you gain life, target opponent loses that much life."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Vito, Thorn of the Dusk Rose",
+     "quote": "If an ability triggers whenever an opponent loses life and causes you to gain life, such as the ability of Exquisite Blood, this will loop until either you win the game or a player takes an action to break the loop."
+    },
+    {
+     "card": "Exquisite Blood",
+     "quote": "If you and an opponent both lose life simultaneously, and this causes your life total to become 0 or less, you'll lose the game before Exquisite Blood's triggered ability can resolve."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "314-3966",
+     "quote": "Vito triggers, causing an opponent to lose 1 life."
+    },
+    {
+     "id": "5867-6191",
+     "quote": "Starscape Cleric triggers, causing each opponent to lose 1 life."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "Exquisite Blood life loop"
+    },
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "Repeated lifegain payoffs"
+    }
+   ]
+  },
+  {
+   "id": "solkanar-04",
+   "category": "combo",
+   "title": "Sensei's Divining Top + Bolas's Citadel + Sheoldred or Aetherflux Reservoir",
+   "cards": [
+    "Sol'kanar the Swamp King",
+    "Sensei's Divining Top",
+    "Bolas's Citadel",
+    "Sheoldred, the Apocalypse",
+    "Aetherflux Reservoir",
+    "K'rrik, Son of Yawgmoth"
+   ],
+   "ruling": "Tap Top to draw and put it back on top of your library, then cast it with Citadel for 1 life.\n- **With Sheoldred:** each draw gains 2, for a net +1 per loop and unlimited draws.\n- **With Aetherflux:** each recast gains life equal to the spells cast this turn, toward the 50-life shot.\n- **With black Painter's Servant:** Sol'kanar and Demon's Horn add more per Top cast.\n\nCitadel still follows normal timing, but Top is an artifact you can recast any time you have priority with an empty stack in your main phase. K'rrik lets you pay 2 life for {B} in any cost, which the lifegain covers.",
+   "status": "verified",
+   "cr": [
+    "601.2f",
+    "118.9"
+   ],
+   "oracle": [
+    {
+     "card": "Bolas's Citadel",
+     "quote": "You may play lands and cast spells from the top of your library. If you cast a spell this way, pay life equal to its mana value rather than pay its mana cost."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Bolas's Citadel",
+     "quote": "You must follow the normal timing permissions and restrictions of the cards you play from your library."
+    },
+    {
+     "card": "K'rrik, Son of Yawgmoth",
+     "quote": "K'rrik's ability lets you pay 2 life for {B} in any cost you pay, including the mana costs of spells, activation costs, and even costs for special actions (such as morph). Any time you pay mana, that's a cost."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "2173-2498-5078",
+     "quote": "Cast Sensei's Divining Top from the top of your library by paying 1 life."
+    },
+    {
+     "id": "2173-4740-5078",
+     "quote": "Cast Sensei's Divining Top from the top of your library by paying 1 life."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "K'rrik and Bolas's Citadel"
+    }
+   ]
+  },
+  {
+   "id": "solkanar-05",
+   "category": "layers",
+   "title": "Blanket of Night / Urborg: every land is a Swamp (swampwalk, Coffers, Crypt Ghast)",
+   "cards": [
+    "Sol'kanar the Swamp King",
+    "Blanket of Night",
+    "Urborg, Tomb of Yawgmoth",
+    "Cabal Coffers",
+    "Crypt Ghast",
+    "Consuming Corruption",
+    "Raucous Theater",
+    "Undercity Sewers",
+    "Dread Presence"
+   ],
+   "ruling": "Blanket of Night makes every land a Swamp, and Urborg makes every land a Swamp too. So opponents control Swamps, and Sol'kanar's swampwalk makes him unblockable. Your Swamp count for Cabal Coffers and Consuming Corruption counts every land, and Crypt Ghast doubles your Swamp mana. The lands don't gain the name Swamp, and real Swamps aren't counted twice. Raucous Theater and Undercity Sewers are real Swamps, so fetchlands can find them and they trigger Dread Presence. The change is symmetric, so opponents' lands also tap for {B}.",
+   "status": "verified",
+   "cr": [
+    "205.1b",
+    "702.14c"
+   ],
+   "oracle": [
+    {
+     "card": "Blanket of Night",
+     "quote": "Each land is a Swamp in addition to its other land types."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Blanket of Night",
+     "quote": "Anything which counts the number of Swamps on the battlefield will not double count an actual Swamp card while Blanket of Night is on the battlefield."
+    },
+    {
+     "card": "Blanket of Night",
+     "quote": "The lands do not get the name “Swamp” in addition to their current name. This is a reversal of older rulings."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "Blanket of Night / Urborg"
+    },
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "Typed surveil Swamps"
+    }
+   ]
+  },
+  {
+   "id": "solkanar-06",
+   "category": "engine",
+   "title": "Secondary engines: Bontu's Monument, The Soul Stone, wheels into Sheoldred / Underworld Dreams",
+   "cards": [
+    "Sol'kanar the Swamp King",
+    "Bontu's Monument",
+    "The Soul Stone",
+    "Wheel of Fortune",
+    "Windfall",
+    "Sheoldred, the Apocalypse",
+    "Underworld Dreams"
+   ],
+   "ruling": "Bontu's Monument makes black creature spells cost {1} less and drains 1 per creature spell. Each drain is a separate gain and loss event for the loops. Harnessing The Soul Stone ({6}{B}, {T}, exile a creature you control) turns on an upkeep reanimation, but only on the battlefield. Wheel of Fortune and Windfall make opponents draw seven, which means seven Sheoldred or Underworld Dreams triggers each.",
+   "status": "verified",
+   "cr": [
+    "701.64a"
+   ],
+   "oracle": [
+    {
+     "card": "The Soul Stone",
+     "quote": "∞ — At the beginning of your upkeep, return target creature card from your graveyard to the battlefield."
+    },
+    {
+     "card": "Bontu's Monument",
+     "quote": "Whenever you cast a creature spell, each opponent loses 1 life and you gain 1 life."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "The Soul Stone",
+     "quote": "Until it is harnessed, The Soul Stone doesn't have the ability listed after the infinity symbol. It also doesn't have that ability in zones other than the battlefield."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "Bontu's Monument"
+    },
+    {
+     "path": "refinement/verification/solkanar_swamp_king_2026-10-15/gate_output/Solkanar_the_Swamp_King_Rules_Attestation.json",
+     "item": "Wheel pressure"
+    }
+   ]
+  }
+ ]
+}
