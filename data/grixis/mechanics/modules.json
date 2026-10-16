@@ -1,5 +1,5 @@
 {
- "framework_version": "1.2-mech.1",
+ "framework_version": "1.2-mech.2",
  "modules": [
   {
    "assumptions": [
@@ -53,6 +53,64 @@
   },
   {
    "assumptions": [
+    "opponent removal hits each of your creatures independently with probability `removal` per opponent turn cycle",
+    "an opponent wipe at the end of turn `wipe` kills every creature you control",
+    "a sacrifice outlet you control is used once per turn when it has fodder (not itself, not the commander, tracked cards last)",
+    "dead non-commander creatures go to your graveyard and stay there (no exile, no graveyard hate)",
+    "no regeneration, indestructible, protection or recursion of the dead creature inside the layer"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); the death layer is closed-form (no rng)",
+   "does_not_model": [
+    "trigger payloads (value of the trigger)",
+    "opponents' creatures dying (watchers that count all creatures are under-counted)",
+    "real removal choices, combat deaths, politics",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "death triggers",
+   "id": "death_triggers",
+   "limitations": [
+    "The death layer is a scripted proxy; results are a sensitivity range, not an estimate of real games.",
+    "Opponents' creature deaths are not modelled."
+   ],
+   "metrics": [
+    "self_p_dead_by_turn",
+    "watcher_expected_triggers_by_turn"
+   ],
+   "models": [
+    "self death triggers: P(the card has died by turn 6/8/10)",
+    "watcher death triggers: expected creature deaths (yours) while the watcher is on the battlefield, by turn 6/8/10",
+    "every metric over the shared death-perturbation grid (deaths.GRID), with the no-death lower bound reported separately"
+   ],
+   "parameters": {
+    "grid": {
+     "removal": [
+      "0.0",
+      "0.1",
+      "0.25"
+     ],
+     "sac": [
+      "False",
+      "True"
+     ],
+     "wipe": [
+      "None",
+      "6",
+      "8"
+     ]
+    },
+    "turns": [
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech.py",
+   "version": "1"
+  },
+  {
+   "assumptions": [
     "a target is legal if its card model has the type the recursion text names (creature/artifact/instant/sorcery/permanent/any card)",
     "no opponent interaction with the graveyard"
    ],
@@ -72,7 +130,8 @@
    ],
    "metrics": [
     "recursion_live_by_turn",
-    "legal_targets_when_live"
+    "legal_targets_when_live",
+    "recursion_live_by_turn_death_grid"
    ],
    "models": [
     "graveyard contents by turn from the v1.1 zone trace (cards the model already puts there: spent spells, sacrificed/used one-shots, scenario events)",
@@ -80,6 +139,133 @@
     "P(recursion live by turn 4/6/8) and mean legal targets when live"
    ],
    "parameters": {
+    "death_grid": {
+     "removal": [
+      "0.0",
+      "0.1",
+      "0.25"
+     ],
+     "sac": [
+      "False",
+      "True"
+     ],
+     "wipe": [
+      "None",
+      "6",
+      "8"
+     ]
+    },
+    "turns": [
+     4,
+     6,
+     8
+    ]
+   },
+   "test_file": "tests/test_mech.py",
+   "version": "1"
+  },
+  {
+   "assumptions": [
+    "opponent removal hits each of your creatures independently with probability `removal` per opponent turn cycle",
+    "an opponent wipe at the end of turn `wipe` kills every creature you control",
+    "a sacrifice outlet you control is used once per turn when it has fodder (not itself, not the commander, tracked cards last)",
+    "dead non-commander creatures go to your graveyard and stay there (no exile, no graveyard hate)",
+    "no regeneration, indestructible, protection or recursion of the dead creature inside the layer",
+    "only creature fodder seen on the battlefield in the v1.1 trace counts"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games; closed-form death layer (no rng)",
+   "does_not_model": [
+    "the outlet's payoff (mana, scry, damage)",
+    "sacrifice as a combo step (Spellbook layer handles combos)",
+    "token fodder from cards v1.1 does not model",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "sacrifice costs",
+   "id": "sacrifice_costs",
+   "limitations": [
+    "Fodder is under-counted: v1.1 does not create most tokens."
+   ],
+   "metrics": [
+    "outlet_uses_by_turn"
+   ],
+   "models": [
+    "turns a sacrifice outlet is on the battlefield with at least one other creature (fodder) alive, by turn 6/8/10",
+    "expected creatures sacrificed through it (one per turn when fodder exists), over the death-perturbation grid"
+   ],
+   "parameters": {
+    "grid": {
+     "removal": [
+      "0.0",
+      "0.1",
+      "0.25"
+     ],
+     "sac": [
+      "False",
+      "True"
+     ],
+     "wipe": [
+      "None",
+      "6",
+      "8"
+     ]
+    },
+    "turns": [
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech.py",
+   "version": "1"
+  },
+  {
+   "assumptions": [
+    "opponent removal hits each of your creatures independently with probability `removal` per opponent turn cycle",
+    "an opponent wipe at the end of turn `wipe` kills every creature you control",
+    "a sacrifice outlet you control is used once per turn when it has fodder (not itself, not the commander, tracked cards last)",
+    "dead non-commander creatures go to your graveyard and stay there (no exile, no graveyard hate)",
+    "no regeneration, indestructible, protection or recursion of the dead creature inside the layer"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games; closed-form death layer (no rng)",
+   "does_not_model": [
+    "the cost or timing of the self-return",
+    "repeated loops (counted once)",
+    "graveyard hate",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "graveyard recursion (self)",
+   "id": "self_recursion",
+   "limitations": [
+    "Without the death layer a self-returning creature never reaches the graveyard (v1.1)."
+   ],
+   "metrics": [
+    "p_in_graveyard_by_turn",
+    "p_in_graveyard_by_turn_death_grid"
+   ],
+   "models": [
+    "P(the card is in your graveyard, so its self-return is available, by turn 4/6/8): from the v1.1 trace (spent spells) and, for creatures, from the shared death layer"
+   ],
+   "parameters": {
+    "death_grid": {
+     "removal": [
+      "0.0",
+      "0.1",
+      "0.25"
+     ],
+     "sac": [
+      "False",
+      "True"
+     ],
+     "wipe": [
+      "None",
+      "6",
+      "8"
+     ]
+    },
     "turns": [
      4,
      6,
@@ -96,7 +282,7 @@
   "cast_triggers",
   "commander_specific",
   "counterspell_density",
-  "death_triggers",
+  "death_other",
   "discard",
   "graveyard_tutoring",
   "led_breach_sequences",
@@ -104,7 +290,7 @@
   "opponent_dependent_draw",
   "repeatable_draw",
   "repeatable_tutors",
-  "sacrifice_costs",
+  "sacrifice_other",
   "stack_protection",
   "stax_tax",
   "tokens",

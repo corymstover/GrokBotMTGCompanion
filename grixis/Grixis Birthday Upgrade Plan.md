@@ -43,7 +43,7 @@ Batch = one 20–35 minute bot batch. Estimates are estimates (standing rule 5),
 |---|---|---|---|---|---|
 | 1 | **G0** benchmark corpus freeze | 3–4 (took 4: 64.1–64.4) | — | snap-20261016 | **Complete pending merge of PR #142.** 612 items, frozen in Bot cycle 64.4. Only the prospective holdout grows. |
 | 2 | **A** adaptive candidate saturation (**next**) | 6–8 | G0 frozen | snap-20261016 (dev) | Removes `UNIVERSE_MAX = 500` (61/62 decks hit it). Multi-pass discovery, yield-based stop rule, per-deck saturation certificate, tiered testing (decision 1). |
-| 3 | **E** mechanic test modules (sim v1.2) | 10–14 | A | dev | Priority by `not_modelable` counts (9,044 / 25,940 swaps). Opponent-facing parts as bounded proxies (decision 4). v1.0/v1.1 stay runnable. |
+| 3 | **E** mechanic test modules (sim v1.2) | 10–14 | A | dev | Priority by `not_modelable` counts (9,040 / 25,940 swaps in the stored files; 9,044 was the cycle-61 figure, see `data/grixis/mechanics/not_modelable_reconciliation.json`). Opponent-facing parts as bounded proxies (decision 4). v1.0/v1.1 stay runnable. |
 | 4 | **B** combo quality model + `power_core` backfill overlay | 4–6 | E | dev | Backfill follows decision 5 (overlay + materiality gate). |
 | 4 | **C** mana-base optimizer | 5–7 | E (parallel with B) | dev | Lands evaluated like spells; MDFC back faces. |
 | 5 | **D** commander marginal value | 3–4 | E | dev | Adds a commander-unavailable simulator mode. |
@@ -215,3 +215,29 @@ This step implements Cory directive item 3 and decision D4. It is **not** a mult
   - 582 match no family (in total, 93.6% route to some family).
   - Per-family counts are in `data/grixis/mechanics/coverage_legacy_m5.json`; real-deck examples are in `examples.json`.
 - **Known gap:** the recursion matcher counts self-recursion (e.g. Poxwalkers) as recursing other cards. It is to be split in 66.2.
+
+### Step E batch 66.2: shared death layer, death triggers, sacrifice, self-recursion split
+
+- **Shared death layer** (`scripts/grixis_mech/deaths.py`): v1.1 never kills a creature, so death and sacrifice need a removal model. The layer is a scripted, deterministic proxy (D4).
+  - Opponent removal per turn cycle: each creature dies with probability `removal` ∈ {0, 0.1, 0.25}.
+  - An opponent wipe at the end of turn `wipe` ∈ {none, 6, 8}.
+  - Own sacrifice outlets actually used (`sac` on/off): one creature per turn while the outlet has fodder; never the outlet itself or the commander; tracked cards are sacrificed last.
+  - Dead non-commander creatures go to the graveyard. Results are closed-form expectations (no rng).
+  - The point (0, none, off) is v1.1's no-death lower bound and is always reported separately from the grid range. All assumptions are listed in each module's declaration.
+- **New modules:**
+  - `death_triggers`: self "when ~ dies" gives P(died by T); a watcher ("whenever a/another creature dies") gives expected deaths while it is on the battlefield.
+  - `sacrifice_costs`: expected outlet uses with live fodder.
+  - `self_recursion`: P(the card is in the graveyard by T).
+- **Recursion split:** `graveyard_recursion` now excludes self-recursion (66.1 counted Poxwalkers as returning other cards) and gains `evaluate_grid` under the death layer.
+- **Re-run recursion examples (by turn 8):**
+  - Edward Kenway → Back in Town (`graveyard_recursion`): live 0.33% at the no-death lower bound; grid 0.33–4.9% (mid point 2.8%).
+  - Birgi → Poxwalkers, now `self_recursion`: 0.67% lower bound; grid 0.67–11.3%. 66.1's 11.3% was a misroute.
+- **Other examples (by turn 8):**
+  - Syr Konrad (`death_triggers`, watcher): 0 at the lower bound, grid 0–0.45 triggers.
+  - Gollum the Abandoned (`sacrifice_costs`): 0.06–0.30 uses.
+- **Coverage over the 9,040 legacy not_modelable swaps:**
+  - 2,412 (26.7%) route to an implemented module (66.1: 2,158 / 23.9%).
+  - 6,048 route only to planned families; 580 match none.
+  - Per family: attack 1,619; graveyard recursion 492; sacrifice outlets 236; death triggers 171; self-recursion 163.
+  - Death/sacrifice text the new modules do not claim (`death_other` 649, `sacrifice_other` 1,228, e.g. sacrifice as a spell cost or "dies" in non-trigger text) stays planned.
+- **Reconciliation of 9,044 vs 9,040:** 9,044 = 25,933 − 16,889 at cycle 61, and still 9,044 at 62.3. The cycle 63.2 regeneration (42157ff) moved 11 swaps out of the not_modelable set and 7 in (net −4) across 12 decks. The ids are listed in `not_modelable_reconciliation.json`.

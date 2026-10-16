@@ -61,3 +61,39 @@ def test_graveyard_live():
     assert graveyard.live(games, "R", "creature", models, 1) == (0.0, 0.0)
     assert graveyard.live(games, "R", "creature", models, 2) == (1.0, 1.0)
     assert graveyard.target_kind("Return target creature card from your graveyard to the battlefield.") == "creature"
+
+
+# ---- Bot cycle 66.2: shared death layer, death triggers, sacrifice, self-recursion split
+from grixis_mech import deaths, death_triggers, sacrifice, self_recursion  # noqa: E402
+
+_TR = [{"turn": t, "battlefield": (["A", "B"] if t >= 2 else []) + (["O"] if t >= 3 else []), "graveyard": [], "hand": []} for t in range(1, 9)]
+
+
+def test_death_layer_lower_bound_is_v11_and_grid_bounded():
+    lb = deaths.profile(_TR, {"A", "B", "O"}, {"O"}, set(), {"A"}, *deaths.LOWER_BOUND)
+    assert all(r["deaths"] == 0 and r["gy_creatures"] == 0 for r in lb)
+    w = deaths.profile(_TR, {"A", "B"}, set(), set(), {"A"}, 0.0, 6, False)
+    assert next(r for r in w if r["turn"] == 6)["p_dead"]["A"] == 1.0 and next(r for r in w if r["turn"] == 5)["deaths"] == 0
+    s = deaths.profile(_TR, {"A", "B", "O"}, {"O"}, {"B"}, {"A"}, 0.0, None, True)
+    assert next(r for r in s if r["turn"] == 3)["deaths"] == 1.0  # outlet on T3 sacrifices A (B is the commander, O the outlet)
+    assert next(r for r in s if r["turn"] == 3)["gy_creatures"] == 1.0
+    assert deaths.profile(_TR, {"A", "B"}, set(), set(), set(), 0.25, None, False) == deaths.profile(_TR, {"A", "B"}, set(), set(), set(), 0.25, None, False)
+
+
+def test_self_recursion_split():
+    t = "Whenever you cast a spell from anywhere other than your hand, return this card from your graveyard to the battlefield tapped."
+    assert self_recursion.matches("Poxwalkers", t, "Creature") and not graveyard.matches("Poxwalkers", t, "Creature")
+    both = "Return Z from your graveyard to your hand. Return target creature card from your graveyard to your hand."
+    assert graveyard.matches("Z", both, "Sorcery") and self_recursion.matches("Z", both, "Sorcery")
+
+
+def test_death_trigger_kinds_and_outlets():
+    assert death_triggers.kind("K", "Whenever another creature dies, each opponent loses 1 life.") == "watcher"
+    assert death_triggers.kind("K", "When K dies, draw a card.") == "self"
+    assert death_triggers.kind("K", "Flying") is None
+    assert sacrifice.matches("V", "Sacrifice a creature: Scry 1.", "Creature") and not sacrifice.matches("V", "Flying", "Creature")
+
+
+def test_no_win_rates_anywhere():
+    txt = (ROOT / "data/grixis/mechanics/examples.json").read_text()
+    assert "win_rate" not in txt and "win_probability" not in txt

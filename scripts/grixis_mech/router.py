@@ -6,9 +6,12 @@ from . import MODULES
 PLANNED = {  # step E family -> Oracle feature regex (module ids not in MODULES are planned for later 66.x batches)
     "attack_trigger_proxy": None,  # uses the module's own matcher
     "graveyard_recursion": None,
+    "self_recursion": None,
     "graveyard_tutoring": r"(?:search your library|mill|surveil|put [^.]{0,40} into your graveyard)",
-    "sacrifice_costs": r"sacrifice (?:a|an|another|two|X) [^:]{0,40}:|, sacrifice ",
-    "death_triggers": r"whenever [^.]{0,60}\bdies\b|when [^.]{0,30} dies",
+    "sacrifice_costs": None,
+    "death_triggers": None,
+    "sacrifice_other": r", sacrifice |sacrifice (?:a|an|another|two|X) [^:]{0,40}:|as an additional cost to cast [^,]{0,40}, sacrifice",
+    "death_other": r"\bdies\b",
     "cast_triggers": r"whenever you cast",
     "activated_engines": r"\{T\}(?:, [^:]{0,40})?: (?!add )|^\{[^}]+\}(?:\{[^}]+\})*: ",
     "repeatable_draw": r"(?:at the beginning of|whenever)[^.]{0,80}draw (?:a|one|two|\w+) cards?",

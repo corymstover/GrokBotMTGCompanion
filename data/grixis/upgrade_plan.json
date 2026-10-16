@@ -113,8 +113,8 @@
       "id": "E",
       "name": "mechanic test modules (sim v1.2)",
       "batches": [
-        10,
-        14
+        "66.1 framework, router, attack + recursion",
+        "66.2 death layer, death triggers, sacrifice, self-recursion split, 9,044/9,040 reconciliation"
       ],
       "status": "in_progress",
       "depends_on": [
@@ -128,13 +128,20 @@
       "schema": "data/grixis/schemas/mechanic_module.schema.json",
       "implemented_modules": [
         "attack_trigger_proxy",
-        "graveyard_recursion"
+        "graveyard_recursion",
+        "self_recursion",
+        "death_triggers",
+        "sacrifice_costs"
       ],
       "legacy_not_modelable_routed": {
-        "not_modelable": 582,
-        "planned_module": 6300,
-        "routed": 2158
-      }
+        "routed": 2412,
+        "planned_module": 6048,
+        "not_modelable": 580,
+        "total": 9040
+      },
+      "shared_layers": [
+        "deaths (bounded removal/wipe/sacrifice grid; lower bound = v1.1 no-death)"
+      ]
     },
     {
       "order": 4,

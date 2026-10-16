@@ -6674,6 +6674,11 @@
 2,
 "Step E: targeted mechanic modules (simulator v1.2 framework), batch 66.1",
 "step-e-targeted-mechanic-modules-simulator-v12-framework-batch-661"
+],
+[
+3,
+"Step E batch 66.2: shared death layer, death triggers, sacrifice, self-recursion split",
+"step-e-batch-662-shared-death-layer-death-triggers-sacrifice-self-recursion-split"
 ]
 ],
 "issues": [],
