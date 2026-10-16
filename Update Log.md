@@ -15,6 +15,8 @@ schema: 2
 
 ## Contents
 - [2026-10-16 — Bot cycle 58 (M1: interaction edges for M4; source attestation coverage)](#2026-10-16--bot-cycle-58-m1-interaction-edges-for-m4-source-attestation-coverage)
+- [2026-10-16 — Bot cycle 57.5 (M3: knowledge pages on lift, synergy, commander-first)](#2026-10-16--bot-cycle-575-m3-knowledge-pages-on-lift-synergy-commander-first)
+- [2026-10-16 — Bot cycle 57.4 (M3: scripted stress scenarios)](#2026-10-16--bot-cycle-574-m3-scripted-stress-scenarios)
 - [2026-10-16 — Bot cycle 57.3 (M3: paired champion-vs-challenger tests)](#2026-10-16--bot-cycle-573-m3-paired-champion-vs-challenger-tests)
 - [2026-10-16 — Bot cycle 57.2 (M3: goldfish simulator core)](#2026-10-16--bot-cycle-572-m3-goldfish-simulator-core)
 - [2026-10-16 — Bot cycle 57.1 (M3: evidence layer)](#2026-10-16--bot-cycle-571-m3-evidence-layer)
@@ -92,6 +94,32 @@ schema: 2
 - **M1:** criteria 1–5 are met (status in [Authority Model](grixis/Grixis%20Authority%20Model.md#m1)). M1 acceptance is not recorded; that is Cory's.
 - **Not touched:** `data/grixis/registry*`, blueprints, existing schemas, `grixis_refine.py`, exception data and simulator code. No decklist changed.
 - **Files:** `scripts/grixis_interactions.py`, `data/grixis/schemas/interaction_edges.schema.json` (new), `data/grixis_interactions/edges/` (new), `_attestation_dispositions.json` (new), 3 reviews, rendered pages, `tests/test_interaction_edges.py`, `grixis/interactions/README.md`, `grixis/Grixis Authority Model.md`, `README.md`, `data/grixis/evidence/` (stale snapshots), `data/kb_index.json`.
+
+## 2026-10-16 — Bot cycle 57.5 (M3: knowledge pages on lift, synergy, commander-first)
+- **[EDH Lift and Synergy](EDH%20Lift%20and%20Synergy.md):**
+  - Definitions paraphrased from EDHREC's own articles (Julia Maddalena, 15 Dec 2025; keattz changelog, 1 Oct 2026; dev-team interview): inclusion; potential decks, limited by spoil date and colour universe; synergy (retired, a difference); lift (a ratio centred on 1, symmetric, logarithmic).
+  - Four worked rows from the cache, including the identity check and a row that fails it.
+  - Reading guidance, and how the companion classes EDHREC data.
+- **[EDH Commander-First Deckbuilding](EDH%20Commander-First%20Deckbuilding.md):**
+  - CR 903.3 / 903.4 / 903.5a–c / 903.8 quoted verbatim; all 6 quotes verified against the cached CR by `lore-quotes`.
+  - Wizards' Commander format page and the Oct 21, 2025 and Feb 9, 2026 bracket updates (cited URLs already in `data/citations.json`).
+  - The companion's pipeline (blueprint → evidence → paired and stress tests → human approval) as labelled guidance, plus a table of which evidence can decide.
+- **Registered:** both pages in `front_matter.py` and in the `lore_quotes.py` rules pages; listed in the Knowledge Index and README.
+- **Unchanged:** no decklist or interaction file was touched; M2 is still waiting for Cory; Tresserhorn's Lord stays `PENDING_RELEASE`.
+
+## 2026-10-16 — Bot cycle 57.4 (M3: scripted stress scenarios)
+- **What it adds:** `scripts/grixis_stress.py` runs 9 deterministic scenarios in the same engine. Each perturbed game is paired with the unperturbed game on identical shuffles.
+  - The scenarios: commander removed once or twice, graveyard exiled, artifacts wiped, board wipe, first key spell countered, mana screw, colour screw, key engine exiled.
+  - Primary metrics and thresholds were pre-registered before any run. Each record carries CI95s and recovery metrics (recast share, recovery turns, within 2 turns). There are no win rates.
+- **Records:** 558, in `data/grixis/stress/` (62 decks × 9 scenarios × 500 paired games). Results are in [the Authority Model, M3 criterion 7](grixis/Grixis%20Authority%20Model.md#m3). In short:
+  - commander removal costs a median of 2.2 commander turns, with a median recovery of 2.0 turns;
+  - an artifact wipe costs about 1.1 mana on turn 8;
+  - graveyard exile measures nothing yet, because the model has no recursion.
+- **Simulator:** `play_game` gained scenario hooks (graveyard and exile zones, a resolve step, end-step events). Plain games are unchanged: a 62-deck regression gives identical games. It also gained `artifact` / `gy_text` card flags and deck `engine` / `gy_combo` sets.
+- **Versioning:** paired-test ids are now keyed by simulator *version*, not by code hash. `--check` requires an exact re-run, so a behaviour change needs a version bump. The 6 v1.0 records were regenerated with identical results; only their ids and code hash changed.
+- **Schema:** `test.schema.json` gains an optional `scenario_metrics`.
+- **Checks:** a new `validate_all` step `stress` (24 steps). `tests/test_stress.py` adds 9 tests.
+- **Unchanged:** no decklist or interaction file was touched; M2 is still waiting for Cory; Tresserhorn's Lord stays `PENDING_RELEASE`.
 
 ## 2026-10-16 — Bot cycle 57.3 (M3: paired champion-vs-challenger tests)
 - **`scripts/grixis_paired.py`:** aligned libraries; both lists get the same shuffles and mulligan reshuffles on identical seeds.

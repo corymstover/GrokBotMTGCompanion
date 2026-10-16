@@ -3,7 +3,7 @@
  "records": [
   {
    "schema_version": 1,
-   "id": "test:nicol-bolas:goldfish:538d53ee0ee9545a",
+   "id": "test:nicol-bolas:goldfish:de72c881fb7b11d7",
    "deck_id": "Nicol_Bolas",
    "kind": "goldfish_mc",
    "baseline_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
@@ -11,7 +11,7 @@
    "simulator": {
     "name": "grixis_sim",
     "version": "1.0",
-    "model_sha256": "sha256:c78326fdc11a3e11a7a5e113c1e7a1fce6847ca6c046f096de16288d22061362"
+    "model_sha256": "sha256:d34115a0e77bce978e24cc1bb092ccb00f27c235f0b30fd318f1491c42f2057f"
    },
    "seed": 57,
    "paired": true,
