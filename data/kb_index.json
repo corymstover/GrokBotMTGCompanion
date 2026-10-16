@@ -1,7 +1,7 @@
 {
 "schema": 2,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 474,
+"entries": 476,
 "note": "Pages, decks and lore entries (Bot cycle 31); card entries are indexed by data/card_index.csv.",
 "items": [
 {
@@ -1632,6 +1632,51 @@
 ]
 },
 {
+"path": "EDH Commander-First Deckbuilding.md",
+"kind": "page",
+"title": "EDH Commander-First Deckbuilding",
+"category": "edh",
+"tags": [
+"commander-first",
+"methodology",
+"blueprints",
+"simulator",
+"deckbuilding-rules"
+],
+"headings": [
+[
+2,
+"The rules (fact)",
+"the-rules-fact"
+],
+[
+2,
+"The format's intent (official)",
+"the-formats-intent-official"
+],
+[
+2,
+"The method (guidance)",
+"the-method-guidance"
+],
+[
+2,
+"What the evidence can and can't say",
+"what-the-evidence-can-and-cant-say"
+],
+[
+2,
+"Sources",
+"sources"
+]
+],
+"issues": [],
+"related": [
+"EDH Lift and Synergy.md",
+"EDH Standards.md"
+]
+},
+{
 "path": "EDH Deck Evaluation Checklist.md",
 "kind": "page",
 "title": "EDH Deck Evaluation Checklist",
@@ -1926,6 +1971,50 @@
 "EDH Win Conditions.md",
 "Rules Interactions.md",
 "cEDH Primer.md"
+]
+},
+{
+"path": "EDH Lift and Synergy.md",
+"kind": "page",
+"title": "EDH Lift and Synergy",
+"category": "edh",
+"tags": [
+"lift",
+"synergy",
+"edhrec",
+"evidence",
+"methodology"
+],
+"headings": [
+[
+2,
+"Definitions (EDHREC's own)",
+"definitions-edhrecs-own"
+],
+[
+2,
+"Worked examples from the cache",
+"worked-examples-from-the-cache"
+],
+[
+2,
+"How to read them",
+"how-to-read-them"
+],
+[
+2,
+"How the companion uses them",
+"how-the-companion-uses-them"
+],
+[
+2,
+"Sources",
+"sources"
+]
+],
+"issues": [],
+"related": [
+"EDH Commander-First Deckbuilding.md"
 ]
 },
 {
@@ -3830,11 +3919,11 @@
 ],
 "related": [
 "EDH Bracket Calibration.md",
+"EDH Commander-First Deckbuilding.md",
+"EDH Lift and Synergy.md",
 "Knowledge Index.md",
 "Lore Primary Sources.md",
-"grixis/Grixis Authority Model.md",
-"Art & Flavor Story Links.md",
-"Card Data Conventions.md"
+"grixis/Grixis Authority Model.md"
 ]
 },
 {
@@ -5792,6 +5881,11 @@
 "headings": [
 [
 2,
+"2026-10-16 — Bot cycle 57.5 (M3: knowledge pages on lift, synergy, commander-first)",
+"2026-10-16--bot-cycle-575-m3-knowledge-pages-on-lift-synergy-commander-first"
+],
+[
+2,
 "2026-10-16 — Bot cycle 57.4 (M3: scripted stress scenarios)",
 "2026-10-16--bot-cycle-574-m3-scripted-stress-scenarios"
 ],
@@ -6465,9 +6559,9 @@
 "Front-Matter Schema.md",
 "grixis/Grixis Authority Gap Analysis.md",
 "Update Log.md",
-"grixis/Grixis Refinement Cycle.md",
-"grixis/README.md",
-"grixis/Grixis Evaluation.md"
+"EDH Commander-First Deckbuilding.md",
+"EDH Lift and Synergy.md",
+"grixis/Grixis Refinement Cycle.md"
 ]
 },
 {

@@ -11117,6 +11117,41 @@
      "status": "verified-other"
     }
    ]
+  },
+  "EDH Lift and Synergy.md": {
+   "counts": {},
+   "quotes": []
+  },
+  "EDH Commander-First Deckbuilding.md": {
+   "counts": {
+    "rules": 6
+   },
+   "quotes": [
+    {
+     "fp": "696d9c2db3d5",
+     "status": "rules"
+    },
+    {
+     "fp": "88cb6a58ca9a",
+     "status": "rules"
+    },
+    {
+     "fp": "81c177ca18da",
+     "status": "rules"
+    },
+    {
+     "fp": "2c7ed0a1f4dd",
+     "status": "rules"
+    },
+    {
+     "fp": "8809da3f4b1d",
+     "status": "rules"
+    },
+    {
+     "fp": "0284ffb9b88c",
+     "status": "rules"
+    }
+   ]
   }
  }
 }

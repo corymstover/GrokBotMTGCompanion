@@ -5,7 +5,7 @@ tags: [grixis, authority, governance, legality, approvals]
 issues: []
 generated_by: hand-written
 sources: [grixis-repo]
-related: ["Front-Matter Schema.md", "grixis/Grixis Authority Gap Analysis.md", "Update Log.md", "grixis/Grixis Refinement Cycle.md", "grixis/README.md", "EDH Commander-First Deckbuilding.md"]
+related: ["Front-Matter Schema.md", "grixis/Grixis Authority Gap Analysis.md", "Update Log.md", "EDH Commander-First Deckbuilding.md", "EDH Lift and Synergy.md", "grixis/Grixis Refinement Cycle.md"]
 schema: 2
 ---
 
