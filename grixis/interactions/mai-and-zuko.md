@@ -9,13 +9,13 @@ schema: 2
 
 # Mai and Zuko — Interaction Review
 
-> Bot cycle 49 · batch C · reviewed 2026-10-16. Deck: [Mai and Zuko](../decks/mai-and-zuko.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 49 · batch C · reviewed 2026-10-16. Deck: [Mai and Zuko](../decks/mai-and-zuko.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/mai-and-zuko.txt`](../../exports/grixis-archidekt/mai-and-zuko.txt) · SHA-256 `0e399fea73acb804044395007e7bb9d9416863b41e09c9f10cd1c3f4c5b9651e` |
 | Rulings | **9** (9 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Mai_and_Zuko_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/mai_and_zuko_2026-10-14/Mai_and_Zuko_Rules_Attestation.json) (17 interactions, all PASS) |
 
 ## Contents

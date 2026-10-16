@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
- "pass_id": "audit:loki-the-deceiver:c59:81f26242490d",
+ "pass_id": "audit:loki-the-deceiver:c59:f865a7081722",
  "snapshot": {
-  "id": "sha256:81f26242490da53c3b336c18245ebdf8842cacf8aac48d07b31fc7677c6badd3",
-  "graph": "sha256:556605dbc26fdfbe1bc0e2ef22cb6d6cfda2001f1e686f33119b069b0b7349c3",
-  "evidence": "sha256:ac3026dd01fb3e0722cccdc682f3549ccade00f3f8c2c2f032b6270824137f40",
+  "id": "sha256:f865a7081722f3d578c04c1ad83684f928e5f95901afe8d2165af4504075818a",
+  "graph": "sha256:4a5e4d6c85741723583f2a1ec2fda8b742166a8775fe01c7efa53d1e8bef665c",
+  "evidence": "sha256:ed219403a4fcc53f014983aa9bb89d94bf2eb3a479a6b6977059701017637f32",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -129,7 +129,7 @@
   "screened": 156,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:ac3026dd01fb3e0722cccdc682f3549ccade00f3f8c2c2f032b6270824137f40"
+  "snapshot": "sha256:ed219403a4fcc53f014983aa9bb89d94bf2eb3a479a6b6977059701017637f32"
  },
  "slots": [
   {"card":"An Offer You Can't Refuse","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["counter","ramp"],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"],"graph_refs":["graph:data/grixis/graph/loki-the-deceiver.json#metrics/An Offer You Can't Refuse"],"alternatives":["evidence:data/grixis/evidence/loki-the-deceiver.json#Counterspell"],"redundancy":15,"reason":"functional retain ({U} instant): role counter, ramp. Oracle: “Counter target noncreature spell”. Role counter (3 in list), ramp (14 in list). Redundancy 15 (other cards sharing a key role). Best alternative: Counterspell (shared key role, EDHREC 44%). EDHREC inclusion 30.9%, synergy -0.01. Blueprint names it in requirements/value.","evidence":["blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value","evidence:data/grixis/evidence/loki-the-deceiver.json#An Offer You Can't Refuse","graph:data/grixis/graph/loki-the-deceiver.json#metrics/An Offer You Can't Refuse","oracle:An Offer You Can't Refuse"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":2,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

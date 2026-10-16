@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:2d8e189c82bd365dac434291ece20263bc7adc308ae8d45bc76e7c6eb24e91f2",
+  "id": "sha256:bfbb83d823c22ebbebd3d164200f38659697fe225408f94b2e9eb611e00a66e9",
   "inputs": {
    ".cache/edhrec/commanders__doctor-doom-king-of-latveria.json": "sha256:b376072787be5d66281ac297846eb737b8de4176dbe099d915e01d7fa2f165e6",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/doctor-doom-king-of-latveria.json": "sha256:4c48a513db13030b53cc6a479caa96b01dff5c631381ca4ed6b2d1d06b1ca67c",
    "grixis/decks/doctor-doom-king-of-latveria.md": "sha256:17b524ecd67d605c50e7cf54d59aeb5b68e8257c52654faeb92916074f275593",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

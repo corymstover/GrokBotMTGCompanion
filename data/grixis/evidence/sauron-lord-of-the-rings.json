@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:f97d19a646563f3902a7524d84c748f3461e3e723ed74e744e2d35ea44dad1c4",
+  "id": "sha256:9d25b182c496034220de5093551845e161efe41e8675c3fdb4bf15f67a58ebc2",
   "inputs": {
    ".cache/edhrec/commanders__sauron-lord-of-the-rings.json": "sha256:5c171021621eb0ef5c3964a1473b50437b1a5f04f3ad7376fd1ee1490555063d",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/sauron-lord-of-the-rings.json": "sha256:0a1560d2ee4e5d17d9015f50c0f2ce5058839af46b3f16cab4086bee8067ffa1",
    "grixis/decks/sauron-lord-of-the-rings.md": "sha256:557052d5e27e160f8de7674ca70ea75835a1b2f70c12525ba5a995127d80d833",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

@@ -9,13 +9,13 @@ schema: 2
 
 # Ashnod the Uncaring — Interaction Review
 
-> Bot cycle 46 · batch A · reviewed 2026-10-16. Deck: [Ashnod the Uncaring](../decks/ashnod-the-uncaring.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 46 · batch A · reviewed 2026-10-16. Deck: [Ashnod the Uncaring](../decks/ashnod-the-uncaring.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/ashnod-the-uncaring.txt`](../../exports/grixis-archidekt/ashnod-the-uncaring.txt) · SHA-256 `b96f2d08a8659c3e51611c2203ca4599c4c606f927280f1b7515abb96385ce39` |
 | Rulings | **12** (10 verified · 0 uncertain · 2 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (Ashnod the Uncaring — RULES PASS WITH DOCUMENTATION CORRECTION) · [`Ashnod_Oracle_Correction_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Ashnod_Oracle_Correction_2026-10-14.md) () |
 
 ## Contents

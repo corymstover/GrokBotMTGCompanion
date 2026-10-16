@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:aafdb2a3ad4da24183ff692f84700b330841f58fedfb14794c6bccee7df108c8",
+  "id": "sha256:d0ab99061525ee0bd32395d3c6f1fd66c77eed8048b8fb9f83f9269a9be4cf1f",
   "inputs": {
    ".cache/edhrec/commanders__anhelo-the-painter.json": "sha256:5df6fbcfa1301173ea71d4a0bb53d821c8a8ad1e1964a83e2f7399fcc9a08f98",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/anhelo-the-painter.json": "sha256:3edde107f44f2e2169a66bf65846663cb1dee3e87f403389e9e14e699535f1e7",
    "grixis/decks/anhelo-the-painter.md": "sha256:275c46e7ac1ff1d2c1cb0af1e11216d586f446e916182ca3fa2469dbe2909d53",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

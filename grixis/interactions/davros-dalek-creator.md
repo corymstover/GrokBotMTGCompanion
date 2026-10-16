@@ -9,13 +9,13 @@ schema: 2
 
 # Davros, Dalek Creator — Interaction Review
 
-> Bot cycle 46 · batch A · reviewed 2026-10-16. Deck: [Davros, Dalek Creator](../decks/davros-dalek-creator.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 46 · batch A · reviewed 2026-10-16. Deck: [Davros, Dalek Creator](../decks/davros-dalek-creator.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/davros-dalek-creator.txt`](../../exports/grixis-archidekt/davros-dalek-creator.txt) · SHA-256 `c4d7cc547b742cc562c33e9ab3debca5d2c51fdeaad0b81a9f01e0a2c4f5bf30` |
 | Rulings | **9** (9 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Davros_Dalek_Creator_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json) (15 interactions, all PASS) |
 
 ## Contents

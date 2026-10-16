@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
- "pass_id": "audit:kess-dissident-mage:c59:aaa7911ccc37",
+ "pass_id": "audit:kess-dissident-mage:c59:5aa2b72220ef",
  "snapshot": {
-  "id": "sha256:aaa7911ccc370cf871329513841a7455c0e6065ce058594c7f1513b8923c3b4d",
-  "graph": "sha256:331283c5fc7e8a2fdcaedaa6415240b19ab8c04b65fc84aadfaefa5bc06e4f04",
-  "evidence": "sha256:65e8f435147f595ded25f2e4ac2290783f74ab835bba2759ce31be24be90e2c9",
+  "id": "sha256:5aa2b72220ef7e3c1804cfaf249bb00c1431d7b4b57dfb32ea980e93bdebc118",
+  "graph": "sha256:a26b479e287559dc2d89fa197807bb2c9fa29db412a45795659fb2e8a453c144",
+  "evidence": "sha256:ecb3d388c1c644b2860ebf85b28db18698dc8317ddf92073196dc79e7b233363",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -142,7 +142,7 @@
   "screened": 202,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:65e8f435147f595ded25f2e4ac2290783f74ab835bba2759ce31be24be90e2c9"
+  "snapshot": "sha256:ecb3d388c1c644b2860ebf85b28db18698dc8317ddf92073196dc79e7b233363"
  },
  "slots": [
   {"card":"Ad Nauseam","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/kess-dissident-mage.json#metrics/Ad Nauseam"],"alternatives":["evidence:data/grixis/evidence/kess-dissident-mage.json#Preordain"],"redundancy":0,"reason":"weak retain ({3}{B}{B} instant): no structure; Oracle hook instants and sorceries. Oracle: “Reveal the top card of your library and put that card into your hand”. Redundancy 0 (no shared job). Best alternative: Preordain (same Oracle hook (instants and sorceries), EDHREC 41%). EDHREC inclusion 11.8%, synergy +0.07.","evidence":["evidence:data/grixis/evidence/kess-dissident-mage.json#Ad Nauseam","graph:data/grixis/graph/kess-dissident-mage.json#metrics/Ad Nauseam","oracle:Ad Nauseam"],"structural_necessity":"independent","evidence_classes":{"derived_metric":1,"fact":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

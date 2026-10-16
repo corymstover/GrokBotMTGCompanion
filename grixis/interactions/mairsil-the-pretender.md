@@ -9,13 +9,13 @@ schema: 2
 
 # Mairsil, the Pretender — Interaction Review
 
-> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Mairsil, the Pretender](../decks/mairsil-the-pretender.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Mairsil, the Pretender](../decks/mairsil-the-pretender.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/mairsil-the-pretender.txt`](../../exports/grixis-archidekt/mairsil-the-pretender.txt) · SHA-256 `843c09811f41b7bcdf5d7e4aec1c27de69d48dfa071cd3cc905541618bf10e94` |
 | Rulings | **11** (10 verified · 1 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md) (Approval-ready verification; rules conclusions re-checked against Oracle, rulings and CR) |
 
 ## Contents

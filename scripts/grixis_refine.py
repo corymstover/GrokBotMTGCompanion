@@ -958,8 +958,8 @@ def plan_v2(dids, R, summ):
     st2, st4 = (ms.get("M2") or {}).get("status", "not_started"), (ms.get("M4") or {}).get("status", "not_started")
     gate_open = st2 == "accepted" and st4 == "accepted"
     return {"_doc": "Bot cycle 47+: grixis_refine v2 output. Recommendations only: never a final list, never written to deck pages or exports. "
-                    "Labeled exploratory until M2 and M4 are accepted (Cory constraint 6). Schema: data/grixis/schemas/refine_v2.schema.json.",
-            "schema_version": 1, "engine": "grixis_refine v2", "exploratory": not gate_open, "generated": dt.date.today().isoformat(),
+                    "Always exploratory: M2+M4 acceptance opens the M6 gate (Cory constraint 6) but approves no refinement result (t52u); M6 decisions need a judgment_review. Schema: data/grixis/schemas/refine_v2.schema.json.",
+            "schema_version": 1, "engine": "grixis_refine v2", "exploratory": True, "generated": dt.date.today().isoformat(),
             "m6_gate": {"M2": st2, "M4": st4, "open": gate_open},
             "lift_check": {"pages": lift["pages"], "cardviews": lift["cardviews"], "with_lift": lift["with_lift"], "with_trend": lift["with_trend"],
                            "note": "Confirmed in the cached EDHREC commander JSON: each cardview carries synergy, lift, num_decks, potential_decks and trend_zscore. "

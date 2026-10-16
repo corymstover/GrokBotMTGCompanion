@@ -9,13 +9,13 @@ schema: 2
 
 # Sedris, the Traitor King — Interaction Review
 
-> Bot cycle 54 · batch E · reviewed 2026-10-16. Deck: [Sedris, the Traitor King](../decks/sedris-the-traitor-king.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 54 · batch E · reviewed 2026-10-16. Deck: [Sedris, the Traitor King](../decks/sedris-the-traitor-king.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/sedris-the-traitor-king.txt`](../../exports/grixis-archidekt/sedris-the-traitor-king.txt) · SHA-256 `ddcd18ab4826834cde491cd21b8f9697c77677dc8890a696b3ad6bd5f4e96aa0` |
 | Rulings | **6** (6 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Sedris_the_Traitor_King_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json) (Rules attestation (12 items, all PASS) re-verified) · [`Sedris_the_Traitor_King_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Sedris_the_Traitor_King_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification) |
 
 ## Contents

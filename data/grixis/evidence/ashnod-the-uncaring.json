@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:806b112c8bbef6ae93365d7b5d30e51974fe5704494f4e953e56045e37579818",
+  "id": "sha256:03880f66738abdb0282cb9af9149b64f2606df9724d72edcafa634b04213585e",
   "inputs": {
    ".cache/edhrec/commanders__ashnod-the-uncaring.json": "sha256:aaa9e1c6b55749f69cc8cc572be14c100b72a0085e491fbf55ab79c494a091d5",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/ashnod-the-uncaring.json": "sha256:da8bec39914e8bb55866e6035fcfb17f6f19cd72c7844a9f579cea36c44609ed",
    "grixis/decks/ashnod-the-uncaring.md": "sha256:6df978460379f81f417cbb3ab99c297c24ae76b0f8425b151fe1277348880b72",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

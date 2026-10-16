@@ -17,7 +17,7 @@
    "rule": "remaining legendary creatures with EDHREC rank ≤ 9,647 (2026-10-15 bulk)"
   }
  ],
- "bulk": "2026-10-15",
+ "bulk": "2026-10-16",
  "cards": {
   "00037840-6089-42ec-8c5c-281f9f474504": {
    "anchor": "nissa-worldsoul-speaker",
@@ -34983,7 +34983,7 @@
   },
   "1a6fce11-e77c-41f1-9ff7-9a93b18071db": {
    "anchor": "ebondeath-dracolich",
-   "batch": 35,
+   "batch": 36,
    "lines": [
     "- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)",
     "- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Ebondeath, Dracolich + Rooftop Storm + Carrion Feeder](https://commanderspellbook.com/combo/2438-2452-4484/) (Infinite +1/+1 counters on a creature, Infinite death triggers) · EDHREC as commander: 316 decks; highest synergy [Bladewing's Thrall](../../cards/B/bla.md#bladewings-thrall) (+65%), [Boneyard Scourge](../../cards/B/bo.md#boneyard-scourge) (+50%), [Gravecrawler](../../cards/G/gra.md#gravecrawler) (+49%) · EDHREC: in 21,539 decks; most often under [Sivitri, Dragon Master](../../cards/S/si.md#sivitri-dragon-master) (48.3% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (5.0% of its decks), [Ghoulcaller Gisa](../../cards/G/gh.md#ghoulcaller-gisa) (18.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
@@ -291379,7 +291379,7 @@
   },
   "ef32a4a9-14e2-4738-b4c2-53ce5e1d2a53": {
    "anchor": "geist-of-saint-thalia",
-   "batch": 36,
+   "batch": 35,
    "lines": [
     "- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)",
     "- **Synergy:** *Proven* — KB decks (1): [Fire Lord Azula (Grixis)](../../grixis/decks/fire-lord-azula.md) · Commander Spellbook: 71 combos; most popular [Sensei's Divining Top + Mystic Forge + Geist of Saint Thalia](https://commanderspellbook.com/combo/985-5078-8176/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 802 decks; highest synergy [Springleaf Drum](../../cards/S/spr.md#springleaf-drum) (+33%), [Mystic Forge](../../cards/M/my.md#mystic-forge) (+28%), [Sensei's Divining Top](../../cards/S/sen.md#senseis-divining-top) (+28%) · EDHREC: in 22,244 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (19.4% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (8.3% of its decks), [Denzilore Fatehold](../../cards/D/den.md#denzilore-fatehold) (8.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)"

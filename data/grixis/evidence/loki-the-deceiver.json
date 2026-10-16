@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:ac3026dd01fb3e0722cccdc682f3549ccade00f3f8c2c2f032b6270824137f40",
+  "id": "sha256:ed219403a4fcc53f014983aa9bb89d94bf2eb3a479a6b6977059701017637f32",
   "inputs": {
    ".cache/edhrec/commanders__loki-the-deceiver.json": "sha256:4ce025476b9b15798032b180975d684535cd62647ca6c73cc6a481e0ab23a070",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/loki-the-deceiver.json": "sha256:a9e825015b04fa3b5674a641c57068b061500c0664a60e73d25a6a336e03e5fa",
    "grixis/decks/loki-the-deceiver.md": "sha256:8d41f82459f441d3d2f096c1d58f7031923b950ecf405300b44062a66bd5dffd",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

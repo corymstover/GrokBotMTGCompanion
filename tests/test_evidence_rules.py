@@ -62,8 +62,9 @@ def test_optimizer_passes_must_be_independent():
 def test_v2_output_is_exploratory_and_never_final():
     d = load("data/grixis_refine_v2.json")
     ms = load("data/grixis/registry.json")["program"]["milestones"]
+    # Bot cycle 63.2: M2+M4 accepted opens the M6 gate, but v2 output stays exploratory (t52u: approves no refinement result)
     gate = ms["M2"]["status"] == "accepted" and ms["M4"]["status"] == "accepted"
-    assert d["exploratory"] is (not gate) and d["m6_gate"]["open"] is gate
+    assert gate and d["exploratory"] is True and d["m6_gate"]["open"] is gate
     assert len(d["decks"]) == 62  # no ceiling shortcut: every deck analyzed
     for did, x in d["decks"].items():
         assert x["state"] == "CHALLENGER" and "unapproved" in x["label"]

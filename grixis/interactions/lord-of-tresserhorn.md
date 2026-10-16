@@ -9,13 +9,13 @@ schema: 2
 
 # Lord of Tresserhorn — Interaction Review
 
-> Bot cycle 49 · batch C · reviewed 2026-10-16. Deck: [Lord of Tresserhorn](../decks/lord-of-tresserhorn.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 49 · batch C · reviewed 2026-10-16. Deck: [Lord of Tresserhorn](../decks/lord-of-tresserhorn.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/lord-of-tresserhorn.txt`](../../exports/grixis-archidekt/lord-of-tresserhorn.txt) · SHA-256 `ce42932da71b7ae64899536b586fe031cd51f6a639074fd94590d1d66a79379b` |
 | Rulings | **13** (12 verified · 0 uncertain · 1 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Lord_of_Tresserhorn_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/lord_of_tresserhorn_2026-10-14/Lord_of_Tresserhorn_Rules_Attestation.json) (21 interactions, all PASS) |
 
 ## Contents

@@ -19,17 +19,17 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:a4c7ce8d3708fe4f86481830230fbf18f141b8a175399db49660961309b946a3",
+  "id": "sha256:a16ca68bd82d2a14185345814f555194173e34c13c3b65b977e29030c2587f2c",
   "inputs": {
    "exports/grixis-archidekt/dr-eggman.txt": "sha256:7110223f41570f87c3e5aa879cb46f2727ab94c43f96163cd861f2561882744a",
    "data/grixis/blueprints/dr-eggman.json": "sha256:1b358d01ab99a73671a3eac60c0082bcc663132db20aa86378450b20cee6e47b",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
    "data/grixis_interactions/dr-eggman.json": "sha256:a04516c9b8afe07daf826cf543cea81b3186f6416925f351bba1a2a89af65512",
    "data/grixis_interactions/edges/dr-eggman.json": "sha256:be43f37d28808bf7a0f9f3e0c6b400ae40e8357fccb54f39d69eb7319845b7cb",
-   "data/grixis/evidence/dr-eggman.json": "sha256:954bb22107fe84da1d94addd453f8dc1303ba74d230d661c08fede31d48b2df2",
+   "data/grixis/evidence/dr-eggman.json": "sha256:62f0a3a4d938903a2d971d12f36ab4d22cf6c71da4106d3c3810e70ddc49c262",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:78386fc6e5ac722cd25b35f37a1b2d2ff0c427ce1aa77578fee7bf459da5c4d4",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "m1": {

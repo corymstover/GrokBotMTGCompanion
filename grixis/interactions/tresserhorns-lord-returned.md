@@ -9,13 +9,13 @@ schema: 2
 
 # Tresserhorn's Lord, Returned — Interaction Review
 
-> Bot cycle 56 · batch F · reviewed 2026-10-16. Deck: [Tresserhorn's Lord, Returned](../decks/tresserhorns-lord-returned.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 56 · batch F · reviewed 2026-10-16. Deck: [Tresserhorn's Lord, Returned](../decks/tresserhorns-lord-returned.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/tresserhorns-lord-returned.txt`](../../exports/grixis-archidekt/tresserhorns-lord-returned.txt) · SHA-256 `d30533e2a9574c55552115353ba2c16fc36aacf11be3c4b700d52bc9cddbcd3e` |
 | Rulings | **7** (5 verified · 0 uncertain · 2 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification (no rules attestation JSON in source)) |
 
 ## Contents

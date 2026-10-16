@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:01f702e5c15709844669bd83b7281ada7b38c0204f0b200b1dc31254b9e8692b",
+  "id": "sha256:19dde112394d697b8320afcf2225a8c78ccba081960d3f58d2125aee04dbc239",
   "inputs": {
    ".cache/edhrec/commanders__zevlor-elturel-exile.json": "sha256:cb68b5677d214c417a8300828f3edd55184da56864bc2214a420958fbd4cad1e",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/zevlor-elturel-exile.json": "sha256:9108de423d6769a08c0b7ee71ca6f3c5b5303c96f40fe715d45cf6f6d2ea82d7",
    "grixis/decks/zevlor-elturel-exile.md": "sha256:e46c0f9f870bd50971d1d84e1fd583b5e367676a5659e95331fc861d605ca8b3",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

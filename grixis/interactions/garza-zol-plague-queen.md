@@ -9,13 +9,13 @@ schema: 2
 
 # Garza Zol, Plague Queen — Interaction Review
 
-> Bot cycle 48 · batch B · reviewed 2026-10-16. Deck: [Garza Zol, Plague Queen](../decks/garza-zol-plague-queen.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 48 · batch B · reviewed 2026-10-16. Deck: [Garza Zol, Plague Queen](../decks/garza-zol-plague-queen.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/garza-zol-plague-queen.txt`](../../exports/grixis-archidekt/garza-zol-plague-queen.txt) · SHA-256 `b0dfe1fc5ad19d3d8b3eeb350b1abc42f0de3e32526032a558b5717df32e5fda` |
 | Rulings | **11** (10 verified · 0 uncertain · 1 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Garza_Zol_Plague_Queen_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json) (15 interactions, all PASS) |
 
 ## Contents

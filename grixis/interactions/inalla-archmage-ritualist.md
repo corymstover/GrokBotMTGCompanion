@@ -9,13 +9,13 @@ schema: 2
 
 # Inalla, Archmage Ritualist — Interaction Review
 
-> Bot cycle 49 · batch C · reviewed 2026-10-16. Deck: [Inalla, Archmage Ritualist](../decks/inalla-archmage-ritualist.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 49 · batch C · reviewed 2026-10-16. Deck: [Inalla, Archmage Ritualist](../decks/inalla-archmage-ritualist.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/inalla-archmage-ritualist.txt`](../../exports/grixis-archidekt/inalla-archmage-ritualist.txt) · SHA-256 `45924e0eabb7a253004d5cdf69c32f7ab82d1e0e7406938a033a8f8b39026598` |
 | Rulings | **10** (9 verified · 1 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Inalla_Archmage_Ritualist_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json) (15 interactions, all PASS (the Kefka and Samut items refer to cards not in the current list)) |
 
 ## Contents

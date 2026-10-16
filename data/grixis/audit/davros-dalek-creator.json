@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
- "pass_id": "audit:davros-dalek-creator:c59:8ce4088d1656",
+ "pass_id": "audit:davros-dalek-creator:c59:9593f7315e31",
  "snapshot": {
-  "id": "sha256:8ce4088d1656bc4e602455ae6c0c1051430bc580165c6964d8b7db07f9312793",
-  "graph": "sha256:0342f04514e66c7e0951ba518fcc098f2f21be7721a9f57f46cb8f2124ba0bfb",
-  "evidence": "sha256:a83c0ed88ef9d96b13d9f36ca74b0e2c752f351e5bfb4e0ba4f91a04dea30ce4",
+  "id": "sha256:9593f7315e31a1e2c603fa22553a49c8c4eb662da3fc6dcba32777b5c2916980",
+  "graph": "sha256:fe344d551c1630751df891ee4866e0bb04f901714575cdce853f740b7a8146c1",
+  "evidence": "sha256:7aea847163fb601915e04676b1b3f0c75aa93fc1de4b733f0be8d146a90db047",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -131,7 +131,7 @@
   "screened": 168,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:a83c0ed88ef9d96b13d9f36ca74b0e2c752f351e5bfb4e0ba4f91a04dea30ce4"
+  "snapshot": "sha256:7aea847163fb601915e04676b1b3f0c75aa93fc1de4b733f0be8d146a90db047"
  },
  "slots": [
   {"card":"Ancient Tomb","quantity":1,"zone":"main","disposition":"flexible","review_status":"provisional","classifier":"script","roles":["land"],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/davros-dalek-creator.json#metrics/Ancient Tomb"],"alternatives":["evidence:data/grixis/evidence/davros-dalek-creator.json#Haunted Ridge"],"redundancy":33,"reason":"flexible (land, makes C): 33 other lands sharing a colour. Oracle: “{T}: Add {C}{C}”. Land (34 in list). Redundancy 33 (other lands sharing a colour). Best alternative: Haunted Ridge (shared key role, EDHREC 72%). No EDHREC row.","evidence":["graph:data/grixis/graph/davros-dalek-creator.json#metrics/Ancient Tomb","oracle:Ancient Tomb"],"structural_necessity":"redundant","evidence_classes":{"fact":1,"heuristic":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

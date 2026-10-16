@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
- "pass_id": "audit:belakor-the-dark-master:c59:0c0276cb115c",
+ "pass_id": "audit:belakor-the-dark-master:c59:9f5724a55f0e",
  "snapshot": {
-  "id": "sha256:0c0276cb115cad4aef121412d6500f86a3e59e0aafdba50f5730780e42c8ea49",
-  "graph": "sha256:c6545d753df1e074249665b9baf7a3eec7479ec68ef076c15cb905ceee268bb1",
-  "evidence": "sha256:c48a588adbd0cd5ad26135cfa3a13e52be6dc7138326ee4ce3ebe749ea075cfb",
+  "id": "sha256:9f5724a55f0e2672fffe2fdf3443e16555d67452b3b7bf752453930c7290d9f5",
+  "graph": "sha256:030bd4890495c641be86a78d05a7184b200757805f65a9dcfc9b495a63e4abde",
+  "evidence": "sha256:da30cc57a9b98999dc08d5ffb89bc129d9ff7e0998807fd460a78766c660235b",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -145,7 +145,7 @@
   "screened": 175,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:c48a588adbd0cd5ad26135cfa3a13e52be6dc7138326ee4ce3ebe749ea075cfb"
+  "snapshot": "sha256:da30cc57a9b98999dc08d5ffb89bc129d9ff7e0998807fd460a78766c660235b"
  },
  "slots": [
   {"card":"Abyssal Harvester","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":["wipe"],"packages":["pkg:high-power-demons"],"blueprint_refs":["blueprint:data/grixis/blueprints/belakor-the-dark-master.json#packages/pkg:high-power-demons"],"graph_refs":["graph:data/grixis/graph/belakor-the-dark-master.json#metrics/Abyssal Harvester"],"alternatives":["evidence:data/grixis/evidence/belakor-the-dark-master.json#Varragoth, Bloodsky Sire"],"redundancy":17,"reason":"functional retain ({1}{B}{B} creature): required package pkg:high-power-demons. Oracle: “{T}: Exile target creature card from a graveyard that was put there this turn”. Role wipe (3 in list). Packages pkg:high-power-demons. Redundancy 17 (other cards in its package(s)). Best alternative: Varragoth, Bloodsky Sire (blueprint package candidate, EDHREC 60%). EDHREC inclusion 26.4%, synergy +0.25. Blueprint names it in packages/pkg:high-power-demons.","evidence":["blueprint:data/grixis/blueprints/belakor-the-dark-master.json#packages/pkg:high-power-demons","evidence:data/grixis/evidence/belakor-the-dark-master.json#Abyssal Harvester","graph:data/grixis/graph/belakor-the-dark-master.json#metrics/Abyssal Harvester","oracle:Abyssal Harvester"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":true},

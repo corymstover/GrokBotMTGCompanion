@@ -9,13 +9,13 @@ schema: 2
 
 # Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept — Interaction Review
 
-> Bot cycle 54 · batch E · reviewed 2026-10-16. Deck: [Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept](../decks/rograkh-son-of-rohgahh-silas-renn.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 54 · batch E · reviewed 2026-10-16. Deck: [Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept](../decks/rograkh-son-of-rohgahh-silas-renn.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/rograkh-son-of-rohgahh-silas-renn.txt`](../../exports/grixis-archidekt/rograkh-son-of-rohgahh-silas-renn.txt) · SHA-256 `74b8f96561a79946547da9f34f1926dc4bab81b65fab224e8edb1b7198cbb57a` |
 | Rulings | **8** (7 verified · 0 uncertain · 1 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`RogSi_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/rogsi_2026-10-15/gate_output/RogSi_Rules_Attestation.json) (Rules attestation (14 items, all PASS) re-verified) · [`RogSi_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/RogSi_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification) |
 
 ## Contents

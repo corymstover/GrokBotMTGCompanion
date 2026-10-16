@@ -10,8 +10,8 @@
   "note": "The source repo mixed the two: two decks' recorded approved_list_sha256 values match no file because they are logical/list digests (source exports/archidekt_2026-10-15/README.txt). The companion stores both, under different prefixes, and only lh1 is authoritative."
  },
  "snapshots": {
-  "id": "snap-20261015",
-  "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz",
+  "id": "snap-20261016",
+  "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz",
   "rulings_bulk": "rulings-20261015090033.jsonl.gz",
   "comprehensive_rules": "MagicCompRules-20260925.txt",
   "edhrec_cache": "1968 commander pages, file dates 2026-10-15..2026-10-16",
@@ -54,11 +54,14 @@
     "scope_note": "Milestone acceptance only; approves no decks and sets no cory_reviewed. M1: the interaction reviews (rulings, edges) are complete."
    },
    "M2": {
-    "status": "in_progress",
-    "accepted_by": null,
-    "accepted_date": null,
+    "status": "accepted",
+    "accepted_by": "corymstover",
+    "accepted_date": "2026-10-16",
     "criteria_doc": "grixis/Grixis Authority Model.md#m2",
-    "pending_note": "Cory completed the 8-blueprint sample review (chat t50u, 2026-10-16T17:47Z; Parnesse, Sol'kanar the Swamp King, Bjorna/Cecily, Thraximundar, Tresserhorn's Lord Returned, The Madcap Jester, Wick, Mairsil): the framework passes in principle, and his corrections were applied in Bot cycle 62 (per-blueprint cory_reviewed records in data/grixis/blueprint_reviews.json). M2 is NOT accepted and waits on Cory's explicit acceptance."
+    "accepted_at": "2026-10-16T19:02Z",
+    "acceptance_evidence": "In-chat acceptance by Cory on 2026-10-16 at 19:02 UTC (chat message t52u), relayed by MTG Bot; recorded in Bot cycle 63. Follows PR #140 (cycle 62 corrections, validate_all 29/29 PASS).",
+    "scope_verbatim": "M2 Commander Blueprints are accepted as complete following the 8-Blueprint human review, the cycle-62 correction pass, and successful downstream validation. M4 dependency graphs and 99-slot audits are accepted as complete after regeneration from the corrected M2 data. This acceptance applies only to the M2 and M4 milestones. It does not approve any decklist, challenger, swap, M5 conclusion, or later refinement result. No deck may move to APPROVED or CANONICAL_LOCKED without my explicit per-deck sign-off.",
+    "scope_note": "Milestone acceptance only; approves no decklist, challenger, swap, M5 conclusion or refinement result, and moves no deck state."
    },
    "M3": {
     "status": "accepted",
@@ -71,18 +74,21 @@
     "scope_note": "Milestone acceptance only; approves no decks and sets no cory_reviewed. M3: evidence layer, simulator v1.1, paired tests and stress scenarios are evidence-generating infrastructure within their documented model limitations; their results never alone satisfy a decision (decision_support_ok needs a non-test decision-class item; M6 also needs a judgment_review)."
    },
    "M4": {
-    "status": "in_progress",
-    "accepted_by": null,
-    "accepted_date": null,
+    "status": "accepted",
+    "accepted_by": "corymstover",
+    "accepted_date": "2026-10-16",
     "criteria_doc": "grixis/Grixis Authority Model.md#m4",
-    "pending_note": "Built (graph + 99-slot audit) but stays unaccepted until the corrected M2 blueprint data (Bot cycle 62) has propagated into the regenerated graphs and audits and Cory has reviewed them (Cory, t49u/t50u). Not accepted."
+    "accepted_at": "2026-10-16T19:02Z",
+    "acceptance_evidence": "In-chat acceptance by Cory on 2026-10-16 at 19:02 UTC (chat message t52u), relayed by MTG Bot; recorded in Bot cycle 63. Follows PR #140 (cycle 62 corrections, validate_all 29/29 PASS).",
+    "scope_verbatim": "M2 Commander Blueprints are accepted as complete following the 8-Blueprint human review, the cycle-62 correction pass, and successful downstream validation. M4 dependency graphs and 99-slot audits are accepted as complete after regeneration from the corrected M2 data. This acceptance applies only to the M2 and M4 milestones. It does not approve any decklist, challenger, swap, M5 conclusion, or later refinement result. No deck may move to APPROVED or CANONICAL_LOCKED without my explicit per-deck sign-off.",
+    "scope_note": "Milestone acceptance only; approves no decklist, challenger, swap, M5 conclusion or refinement result, and moves no deck state."
    },
    "M5": {
     "status": "in_progress",
     "accepted_by": null,
     "accepted_date": null,
     "criteria_doc": "grixis/Grixis Authority Model.md#m5",
-    "pending_note": "Exploratory only (Cory, t49u): candidate universes, screening reviews and swap hypotheses are non-authoritative evidence. No list changes, no challengers promoted. Not accepted."
+    "pending_note": "Exploratory only: candidate universes, screening reviews and swap hypotheses are non-authoritative evidence, regenerated in cycle 62.3 against the corrected blueprints. Awaiting Cory's freshness review and acceptance (t52u sequence: accept M2+M4, review/accept refreshed M5, final clean validation/freeze snapshot, then M6). Not accepted."
    },
    "M6": {
     "status": "not_started",
@@ -148,7 +154,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -214,7 +220,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -277,7 +283,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -323,7 +329,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -386,7 +392,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -432,7 +438,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -495,7 +501,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -541,7 +547,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -604,7 +610,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -650,7 +656,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -713,7 +719,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -768,7 +774,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -831,7 +837,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -877,7 +883,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -948,7 +954,7 @@
      "Trade Secrets",
      "Yawgmoth's Bargain"
     ],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz + Wizards B&R (2026-10-16)"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz + Wizards B&R (2026-10-16)"
    },
    "project_authorization_status": "authorized_exceptions",
    "project_exceptions": [
@@ -1011,7 +1017,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -1074,7 +1080,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -1129,7 +1135,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -1192,7 +1198,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -1240,7 +1246,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -1303,7 +1309,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -1351,7 +1357,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -1414,7 +1420,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -1462,7 +1468,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -1525,7 +1531,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -1573,7 +1579,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -1636,7 +1642,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -1684,7 +1690,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -1747,7 +1753,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -1795,7 +1801,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -1858,7 +1864,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -1906,7 +1912,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -1969,7 +1975,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -2017,7 +2023,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -2080,7 +2086,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -2128,7 +2134,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -2191,7 +2197,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -2239,7 +2245,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -2302,7 +2308,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -2350,7 +2356,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -2413,7 +2419,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -2479,7 +2485,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -2553,7 +2559,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -2601,7 +2607,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -2665,7 +2671,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -2713,7 +2719,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -2776,7 +2782,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -2824,7 +2830,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -2887,7 +2893,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -2935,7 +2941,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -2998,7 +3004,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -3046,7 +3052,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -3109,7 +3115,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -3180,7 +3186,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -3243,7 +3249,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -3291,7 +3297,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -3354,7 +3360,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -3402,7 +3408,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -3465,7 +3471,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -3513,7 +3519,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -3576,7 +3582,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -3624,7 +3630,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -3687,7 +3693,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -3735,7 +3741,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -3798,7 +3804,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -3846,7 +3852,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -3909,7 +3915,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -3957,7 +3963,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -4020,7 +4026,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -4068,7 +4074,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -4131,7 +4137,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -4179,7 +4185,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -4242,7 +4248,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -4290,7 +4296,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -4353,7 +4359,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -4401,7 +4407,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -4464,7 +4470,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -4512,7 +4518,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -4575,7 +4581,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -4623,7 +4629,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -4686,7 +4692,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -4734,7 +4740,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -4797,7 +4803,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -4863,7 +4869,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -4926,7 +4932,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -4974,7 +4980,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -5037,7 +5043,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -5085,7 +5091,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -5148,7 +5154,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -5196,7 +5202,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -5259,7 +5265,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -5307,7 +5313,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -5371,7 +5377,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -5419,7 +5425,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -5482,7 +5488,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -5530,7 +5536,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -5593,7 +5599,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [
@@ -5643,7 +5649,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -5706,7 +5712,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [
@@ -5756,7 +5762,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -5819,7 +5825,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -5867,7 +5873,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -5930,7 +5936,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -5996,7 +6002,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -6059,7 +6065,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -6107,7 +6113,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -6170,7 +6176,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -6218,7 +6224,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -6281,7 +6287,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -6329,7 +6335,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -6395,7 +6401,7 @@
      "The Madcap Jester",
      "Dragon's Smile"
     ],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz; legal from 2026-11-13 (Wizards)"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz; legal from 2026-11-13 (Wizards)"
    },
    "project_authorization_status": "authorized_future_release",
    "project_exceptions": [
@@ -6446,7 +6452,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -6509,7 +6515,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -6575,7 +6581,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -6638,7 +6644,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -6686,7 +6692,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -6749,7 +6755,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -6797,7 +6803,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -6862,7 +6868,7 @@
     "cards": [
      "Tresserhorn's Lord, Returned"
     ],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz; legal from 2026-11-13 (Wizards)"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz; legal from 2026-11-13 (Wizards)"
    },
    "project_authorization_status": "authorized_future_release",
    "project_exceptions": [
@@ -6919,7 +6925,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -6982,7 +6988,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -7030,7 +7036,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,
@@ -7093,7 +7099,7 @@
    "official_commander_compliance": {
     "status": "compliant",
     "cards": [],
-    "checked": "Scryfall oracle-cards-20261015090201.jsonl.gz"
+    "checked": "Scryfall oracle-cards-20261016090200.jsonl.gz"
    },
    "project_authorization_status": "none",
    "project_exceptions": [],
@@ -7141,7 +7147,7 @@
     "floor_above_source_claim": false
    },
    "blueprint_version": 1,
-   "snapshots": "snap-20261015",
+   "snapshots": "snap-20261016",
    "test_suite_version": null,
    "test_result_hash": null,
    "finalization_certificate": null,

@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
- "pass_id": "audit:sauron-lord-of-the-rings:c59:e0a75679b20f",
+ "pass_id": "audit:sauron-lord-of-the-rings:c59:da164b167286",
  "snapshot": {
-  "id": "sha256:e0a75679b20ff343324703376df213016a2d551926b7f45e19f1c5e7544cb0f9",
-  "graph": "sha256:7ad364ee5d5972e98c203b77fa5e721003f7baf64f7c5537611d4c93c6ef7ef2",
-  "evidence": "sha256:f97d19a646563f3902a7524d84c748f3461e3e723ed74e744e2d35ea44dad1c4",
+  "id": "sha256:da164b1672862eca717fc12b7eb17a2d01aea457bef29d7626d41fa159d000c1",
+  "graph": "sha256:92684744817da38683635b011f2e8988f2db0742e68cdabb3151e9040f9ec9a2",
+  "evidence": "sha256:9d25b182c496034220de5093551845e161efe41e8675c3fdb4bf15f67a58ebc2",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -133,7 +133,7 @@
   "screened": 178,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:f97d19a646563f3902a7524d84c748f3461e3e723ed74e744e2d35ea44dad1c4"
+  "snapshot": "sha256:9d25b182c496034220de5093551845e161efe41e8675c3fdb4bf15f67a58ebc2"
  },
  "slots": [
   {"card":"Ancient Brass Dragon","quantity":1,"zone":"main","disposition":"functional_retain","review_status":"provisional","classifier":"script","roles":[],"packages":["pkg:targets"],"blueprint_refs":["blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets"],"graph_refs":["graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Ancient Brass Dragon"],"alternatives":[],"redundancy":9,"reason":"functional retain ({5}{B}{B} creature): required package pkg:targets. Oracle: “Flying”. Packages pkg:targets. Redundancy 9 (other cards in its package(s)). EDHREC inclusion 11.4%, synergy +0.10. Blueprint names it in packages/pkg:targets.","evidence":["blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets","evidence:data/grixis/evidence/sauron-lord-of-the-rings.json#Ancient Brass Dragon","graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Ancient Brass Dragon","oracle:Ancient Brass Dragon"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"strategic_judgment":1},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":false},

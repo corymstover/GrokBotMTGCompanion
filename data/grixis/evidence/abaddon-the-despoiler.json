@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:97ed555e9efe79de95c2c4a64ef354aba262642e00f6a5da9e3999b81254708b",
+  "id": "sha256:0fc4f87a143232a8b30c8d138613e438af918da3f2bc077fb4968c31b41b75a0",
   "inputs": {
    ".cache/edhrec/commanders__abaddon-the-despoiler.json": "sha256:372f64fa1a77814462609b8f70199a452d3bc992f5d412bae5b3e3faa7b74da1",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/abaddon-the-despoiler.json": "sha256:6ba92f052b108f4f79792d3ba9ae488d3356e54415ad4207e85b30f1bf7a7f17",
    "grixis/decks/abaddon-the-despoiler.md": "sha256:7e9b9de7d6b789368eb1ccb8ace13ca5ad1746620766d452886c8206df6d2f84",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

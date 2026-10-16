@@ -9,13 +9,13 @@ schema: 2
 
 # Parnesse, the Subtle Brush — Interaction Review
 
-> Bot cycle 54 · batch E · reviewed 2026-10-16. Deck: [Parnesse, the Subtle Brush](../decks/parnesse-the-subtle-brush.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 54 · batch E · reviewed 2026-10-16. Deck: [Parnesse, the Subtle Brush](../decks/parnesse-the-subtle-brush.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/parnesse-the-subtle-brush.txt`](../../exports/grixis-archidekt/parnesse-the-subtle-brush.txt) · SHA-256 `8c32a449aa6ee96ff110e1813f40a6797b0dea722a57acdd91e0ac93e78fd93b` |
 | Rulings | **10** (8 verified · 1 uncertain · 1 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Parnesse_the_Subtle_Brush_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/parnesse_2026-10-15/gate_output/Parnesse_the_Subtle_Brush_Rules_Attestation.json) (Rules attestation (12 items, all PASS) re-verified) · [`Parnesse_the_Subtle_Brush_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Parnesse_the_Subtle_Brush_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification) |
 
 ## Contents

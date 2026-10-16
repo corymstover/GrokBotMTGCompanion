@@ -9,13 +9,13 @@ schema: 2
 
 # The Madcap Jester — Interaction Review
 
-> Bot cycle 56 · batch F · reviewed 2026-10-16. Deck: [The Madcap Jester](../decks/the-madcap-jester.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 56 · batch F · reviewed 2026-10-16. Deck: [The Madcap Jester](../decks/the-madcap-jester.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/the-madcap-jester.txt`](../../exports/grixis-archidekt/the-madcap-jester.txt) · SHA-256 `1ce93f38a1dc81a07c3f499beb168ba2ac0512da1718ea02ab4204cefb0d8f03` |
 | Rulings | **7** (6 verified · 1 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`The_Madcap_Jester_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json) (Rules attestation (13 items, all PASS) re-verified) · [`The_Madcap_Jester_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/The_Madcap_Jester_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification) |
 
 ## Contents

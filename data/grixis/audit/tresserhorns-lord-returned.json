@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
- "pass_id": "audit:tresserhorns-lord-returned:c59:85c22e1b4f28",
+ "pass_id": "audit:tresserhorns-lord-returned:c59:2fa18efc681e",
  "snapshot": {
-  "id": "sha256:85c22e1b4f283680815e94d3eda4b092f8e7ee7d99ee8401a9fcddf5a0929cdd",
-  "graph": "sha256:49c821d860a7b17714e84979fb3e3f672ddbe7021eacf2c3c93dd7b55c4550bc",
-  "evidence": "sha256:f859946fdcacb7bea8010e9af0c06804f177c4a02bc610b6ad2d263b48e7cd03",
+  "id": "sha256:2fa18efc681e0621bda59e1a6b5eb1a100fae695453b79fa821d6b890bfbb2b4",
+  "graph": "sha256:6a7673b19ffd6e3fe6b3e00f175f088859841ce9c5b437a69d3a394bed04ed89",
+  "evidence": "sha256:0a3039e1f99aaf56747a7a0a95b6333836bcf9c48a78bff0720eeabe2e755c81",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 182,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:f859946fdcacb7bea8010e9af0c06804f177c4a02bc610b6ad2d263b48e7cd03"
+  "snapshot": "sha256:0a3039e1f99aaf56747a7a0a95b6333836bcf9c48a78bff0720eeabe2e755c81"
  },
  "slots": [
   {"card":"Accursed Marauder","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Accursed Marauder"],"alternatives":["evidence:data/grixis/evidence/tresserhorns-lord-returned.json#Pawn of Ulamog"],"redundancy":0,"reason":"weak retain ({1}{B} creature): no structure; Oracle hook sacrifice. Oracle: “When this creature enters, each player sacrifices a nontoken creature of thei…”. Redundancy 0 (no shared job). Best alternative: Pawn of Ulamog (same Oracle hook (sacrifice), EDHREC 36%). EDHREC inclusion 32.6%, synergy +0.31.","evidence":["evidence:data/grixis/evidence/tresserhorns-lord-returned.json#Accursed Marauder","graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Accursed Marauder","oracle:Accursed Marauder"],"structural_necessity":"independent","evidence_classes":{"derived_metric":1,"fact":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

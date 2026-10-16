@@ -9,13 +9,13 @@ schema: 2
 
 # Marchesa, Dealer of Death — Interaction Review
 
-> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Marchesa, Dealer of Death](../decks/marchesa-dealer-of-death.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 51 · batch D · reviewed 2026-10-16. Deck: [Marchesa, Dealer of Death](../decks/marchesa-dealer-of-death.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/marchesa-dealer-of-death.txt`](../../exports/grixis-archidekt/marchesa-dealer-of-death.txt) · SHA-256 `0f07ba66bdbfb883b3513098988621df7b83092eb5cc08cf01669416b961d4cb` |
 | Rulings | **8** (8 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification; rules sections re-checked against Oracle, rulings and CR) |
 
 ## Contents

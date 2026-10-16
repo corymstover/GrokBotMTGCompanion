@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
- "pass_id": "audit:zevlor-elturel-exile:c59:a4e772d5d402",
+ "pass_id": "audit:zevlor-elturel-exile:c59:38d2b9b71eeb",
  "snapshot": {
-  "id": "sha256:a4e772d5d402ecafd930c47f09b40d536ae9360fc5af1099a49d0a3ecfbba4bf",
-  "graph": "sha256:dee3e6b90ace108d58b91d62c742c29649ce2673c5addbceead492d6028a10c0",
-  "evidence": "sha256:01f702e5c15709844669bd83b7281ada7b38c0204f0b200b1dc31254b9e8692b",
+  "id": "sha256:38d2b9b71eebb091edc1d99190f71a4acefa4b15f746004c8d6b2378b4b73aec",
+  "graph": "sha256:3faa4bec0ba4dfd42f9dfe3eae37562c38d3e35811ac16958afa243c1e8f95ba",
+  "evidence": "sha256:19dde112394d697b8320afcf2225a8c78ccba081960d3f58d2125aee04dbc239",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -143,7 +143,7 @@
   "screened": 193,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:01f702e5c15709844669bd83b7281ada7b38c0204f0b200b1dc31254b9e8692b"
+  "snapshot": "sha256:19dde112394d697b8320afcf2225a8c78ccba081960d3f58d2125aee04dbc239"
  },
  "slots": [
   {"card":"Abrade","quantity":1,"zone":"main","disposition":"flexible","review_status":"provisional","classifier":"script","roles":["removal"],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Abrade"],"alternatives":["evidence:data/grixis/evidence/zevlor-elturel-exile.json#You Find Some Prisoners"],"redundancy":12,"reason":"flexible ({1}{R} instant): 12 other cards sharing a key role. Oracle: “Choose one —”. Role removal (13 in list). Redundancy 12 (other cards sharing a key role). Best alternative: You Find Some Prisoners (shared key role, EDHREC 21%). EDHREC inclusion 28.1%, synergy +0.19.","evidence":["evidence:data/grixis/evidence/zevlor-elturel-exile.json#Abrade","graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Abrade","oracle:Abrade"],"structural_necessity":"redundant","evidence_classes":{"derived_metric":1,"fact":1,"heuristic":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

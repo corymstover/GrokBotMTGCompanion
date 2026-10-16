@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:ce9a53a1af4d876530f6b0c1839d775a289391eb87e505c847570ffeab9701e1",
+  "id": "sha256:50453223f2dfd7c8f5c21efc1bda249595fc811bd4cb384690fc086228f0adc3",
   "inputs": {
    ".cache/edhrec/commanders__inalla-archmage-ritualist.json": "sha256:ecd88caaf2c1a1c186f0c3198412926b24e7828cf9c1a02e9353c26174fa5255",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/inalla-archmage-ritualist.json": "sha256:03385927bc30542d1ae4ee2fa6102019a940e6566e5388b4c08596462820d995",
    "grixis/decks/inalla-archmage-ritualist.md": "sha256:d25e3dd6c8b56c9ae06c08e165edc728a4e76a5516137dd9fcb9cb8b19fb0fd6",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

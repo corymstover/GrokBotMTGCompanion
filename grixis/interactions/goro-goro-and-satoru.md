@@ -9,13 +9,13 @@ schema: 2
 
 # Goro-Goro and Satoru — Interaction Review
 
-> Bot cycle 48 · batch B · reviewed 2026-10-16. Deck: [Goro-Goro and Satoru](../decks/goro-goro-and-satoru.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 48 · batch B · reviewed 2026-10-16. Deck: [Goro-Goro and Satoru](../decks/goro-goro-and-satoru.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/goro-goro-and-satoru.txt`](../../exports/grixis-archidekt/goro-goro-and-satoru.txt) · SHA-256 `bdc129bcd94c00b293ddaabb4585ac3130fb4eca7ca8646177335900e7aedfec` |
 | Rulings | **9** (9 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Goro_Goro_and_Satoru_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json) (12 interactions, all PASS) |
 
 ## Contents

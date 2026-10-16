@@ -9,13 +9,13 @@ schema: 2
 
 # Admiral Brass, Unsinkable — Interaction Review
 
-> Bot cycle 46 · batch A · reviewed 2026-10-16. Deck: [Admiral Brass, Unsinkable](../decks/admiral-brass-unsinkable.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 46 · batch A · reviewed 2026-10-16. Deck: [Admiral Brass, Unsinkable](../decks/admiral-brass-unsinkable.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/admiral-brass-unsinkable.txt`](../../exports/grixis-archidekt/admiral-brass-unsinkable.txt) · SHA-256 `e29dc5ed5ec6cc85863cf82408f7ecb29128e6668b5adf6ac60ea2c2b4deb2b5` |
 | Rulings | **15** (13 verified · 1 uncertain · 1 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #3: RULES PASS) |
 
 ## Contents

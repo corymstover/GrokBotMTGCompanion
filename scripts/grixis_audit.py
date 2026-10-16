@@ -57,8 +57,10 @@ HATE_RX = re.compile(r"(exile (all cards from )?(target player's|all|each oppone
                      r"artifacts? (and creatures? )?your opponents control|players can't (search|cast|draw)|"
                      r"each opponent can't|your opponents can't)", re.I)
 AUTHORITY = {"status": "provisional",
-             "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided "
-                       "(Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
+             "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, "
+                       "challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided "
+                       "(Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; "
+                       "M6 decisions need a judgment_review.",
              "m2_status": None}
 DISPOSITION_RULES = [
     ["project_requirement", "the card is a registered project exception or authorized future-release card"],
@@ -362,7 +364,7 @@ def check(verbose=True, rebuild=True):
             p.append(f"{s}: {doc['slot_total']} slots, expected {expect}")
         for x in doc["slots"]:
             if x["review_status"] != "provisional":
-                p.append(f"{s}: {x['card']} is not provisional while M2 is not accepted (constraint 6)")
+                p.append(f"{s}: {x['card']} is not provisional; script dispositions never become authoritative, even after M2/M4 acceptance (constraint 6; t52u scope)")
             if x["complete_eligible"] != (ga.disposition_status(x) == "complete"):
                 p.append(f"{s}: {x['card']} complete_eligible inconsistent")
             tot[x["disposition"]] += x["quantity"]

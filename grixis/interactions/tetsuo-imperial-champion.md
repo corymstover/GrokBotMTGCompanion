@@ -9,13 +9,13 @@ schema: 2
 
 # Tetsuo, Imperial Champion — Interaction Review
 
-> Bot cycle 56 · batch F · reviewed 2026-10-16. Deck: [Tetsuo, Imperial Champion](../decks/tetsuo-imperial-champion.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-15), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
+> Bot cycle 56 · batch F · reviewed 2026-10-16. Deck: [Tetsuo, Imperial Champion](../decks/tetsuo-imperial-champion.md) · method and format: [Interaction reviews](README.md). Every ruling below was checked against current Oracle text (Scryfall oracle bulk 2026-10-16), Scryfall rulings (bulk 2026-10-15) and the [Comprehensive Rules](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt) effective 2026-09-25; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. Source attestations from the archived source repo were re-verified, not copied.
 
 | | |
 |---|---|
 | Canonical project list | [`exports/grixis-archidekt/tetsuo-imperial-champion.txt`](../../exports/grixis-archidekt/tetsuo-imperial-champion.txt) · SHA-256 `1e551bc95c4918b340539539ed8ba1275f791d4f19330eb6141f84a48927a0d4` |
 | Rulings | **6** (6 verified · 0 uncertain · 0 flags) |
-| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
+| CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-16 · rulings 2026-10-15 |
 | Source attestations | [`Tetsuo_Imperial_Champion_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/tetsuo_imperial_champion_2026-10-15/gate_output/Tetsuo_Imperial_Champion_Rules_Attestation.json) (Rules attestation (19 items, all PASS) re-verified) · [`Tetsuo_Imperial_Champion_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tetsuo_Imperial_Champion_Approval_Ready_Verification_2026-10-15.md) (Approval-ready verification) |
 
 ## Contents

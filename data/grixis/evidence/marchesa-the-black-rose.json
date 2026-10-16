@@ -29,7 +29,7 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:f45df3fc1f0a9df3f4e116f5e023af051e9cb5e72987c04b2be21c865161274d",
+  "id": "sha256:840d37ef0a468d90500b4b41c9295c0f6150f0515381eff6806e4147ba3ac259",
   "inputs": {
    ".cache/edhrec/commanders__marchesa-the-black-rose.json": "sha256:102aa2b4bf67b0e6f9885edf818bd5dd607f13f8bd635f61f66880a08376eb02",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
@@ -37,7 +37,7 @@
    "data/grixis/blueprints/marchesa-the-black-rose.json": "sha256:60f6d36fce7a9eec5ece113472328f6824f095fe44fdcaff10756496668d4187",
    "grixis/decks/marchesa-the-black-rose.md": "sha256:37481760e82a190ec1bda444053e87505dbfaf39129bd03da162764c0b79066c",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
-   "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
  "counts": {

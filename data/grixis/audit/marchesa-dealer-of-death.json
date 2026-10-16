@@ -5,17 +5,17 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
- "pass_id": "audit:marchesa-dealer-of-death:c59:06a78bc41e8b",
+ "pass_id": "audit:marchesa-dealer-of-death:c59:1727010525d4",
  "snapshot": {
-  "id": "sha256:06a78bc41e8b91069601c45767c352f378554b1c3874f95ab482605ba9cfb131",
-  "graph": "sha256:1b1bc1bafe8093a3674d8062f7db9b0a3af082661214a30b3f1c7b8987693925",
-  "evidence": "sha256:472f2a2663aa05739b755a0119dc03ebf47259d55f525455ccf104d350e4181a",
+  "id": "sha256:1727010525d4d6840209e92fb04edffcfc28d311719d26258484d9484cf4fa27",
+  "graph": "sha256:28c0eddc5a61743f2780ca1ed41e64fd44c0bfe7f6030bce789b4fac0215d46a",
+  "evidence": "sha256:4896852923faa5665c4c02881b9d64c588fdf190d0b334610390606dec11c0ec",
   "m1": "ingested"
  },
  "authority": {
   "status": "provisional",
-  "reason": "M2 (blueprints) is not accepted, so no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot is provisional until M2 is accepted and the slot is confirmed.",
-  "m2_status": "in_progress"
+  "reason": "M2 and M4 are accepted as infrastructure (Cory t52u, Bot cycle 63), but acceptance approves no decklist, challenger, swap or disposition: no audit disposition is authoritative and no cut/add is decided (Cory constraints 2 and 6). Every slot stays provisional (classifier script) until a human confirms it; M6 decisions need a judgment_review.",
+  "m2_status": "accepted"
  },
  "rules": [
   [
@@ -141,7 +141,7 @@
   "screened": 211,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:472f2a2663aa05739b755a0119dc03ebf47259d55f525455ccf104d350e4181a"
+  "snapshot": "sha256:4896852923faa5665c4c02881b9d64c588fdf190d0b334610390606dec11c0ec"
  },
  "slots": [
   {"card":"Ad Nauseam","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":["blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json#engines/fast-mana-draw","blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json#plan/value"],"graph_refs":["graph:data/grixis/graph/marchesa-dealer-of-death.json#metrics/Ad Nauseam"],"alternatives":[],"redundancy":0,"reason":"weak retain ({3}{B}{B} instant): no structure; blueprint mention. Oracle: “Reveal the top card of your library and put that card into your hand”. Redundancy 0 (no shared job). No EDHREC row. Blueprint names it in plan/value, engines/fast-mana-draw.","evidence":["blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json#engines/fast-mana-draw","blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json#plan/value","graph:data/grixis/graph/marchesa-dealer-of-death.json#metrics/Ad Nauseam","oracle:Ad Nauseam"],"structural_necessity":"independent","evidence_classes":{"fact":1,"strategic_judgment":2},"decision_support":{"ok":true,"why_not":[]},"m1_flags":[],"complete_eligible":false},
