@@ -47,13 +47,36 @@ These apply to every later milestone. Each names where it is enforced today.
 | # | Rule | Enforced by |
 |---|---|---|
 | 1 | **One canonical project list per commander.** Bjorna + Cecily has `canonical_project_list` (with the authorized exceptions), `official_commander_compliance`, and an *optional* `official_legal_projection` labeled **"derived compliance projection (not canonical)"** in data and exports. A projection can never be canonical or in an approval state, and can never be approved. | `registry.schema.json` (`label` and `canonical` are constants, `approval_state` must be null); `approval_problems()` (also rejects a projection whose hash equals the canonical one, or any approval record naming it); `grixis_refine.py --check` on `exports/grixis-archidekt/index.json`; tests in `tests/test_legality.py`. |
-| 2 | **Automated dispositions need evidence refs** to the blueprint, the dependency graph and the alternatives considered (plus redundancy, role/package and a reason), or they are **provisional**. | `audit.schema.json` (`review_status: provisional / complete`, required ref arrays); `disposition_status()` / `audit_problems()` flag a slot marked complete without them. |
-| 3 | **The 15–40 full-review range is a default workload, not a gate.** Any candidate can be escalated to full review for: dependency analysis, a new card, an unusual Oracle interaction, a package gap, reviewer evidence (or a suspected rank miss). | `candidate.schema.json` (`workload.is_gate` is the constant `false`; `escalation.reasons` enum); `candidate_problems()` requires reasons, evidence refs and full review for an escalated candidate. |
+| 2 | **Automated dispositions need evidence refs** to the blueprint, the dependency graph and the alternatives considered (plus redundancy, role/package and a reason), or they are **provisional**. | `audit.schema.json` (`review_status: provisional / complete`, required ref arrays); `disposition_status()` / `audit_problems()` flag a slot marked complete without them. Bot cycle 61: scripted candidate reviews are `screening_review`s (`can_decide: false`); only a `judgment_review` can support an M6 decision (`decision_review_problems()`, `swap_decision_problems()`; see [review kinds](#review-kinds-screening-vs-judgment)). |
+| 3 | **The 15–40 full-review range is a default workload, not a gate.** Any candidate can be escalated to full review for: dependency analysis, a new card, an unusual Oracle interaction, a package gap, reviewer evidence (or a suspected rank miss). | `candidate.schema.json` (`workload.is_gate` is the constant `false`; `escalation.reasons` enum); `candidate_problems()` requires reasons, evidence refs and full review for an escalated candidate. Bot cycle 61: no cap of any kind (`triage.escalation_cap` is the constant `null`); every card meeting a reason is escalated and reviewed. |
 | 4 | **Ceilings:** store `source_ceiling`, `grok_estimated_ceiling`, the evidence for each, and `resolved_ceiling` (null until Cory reviews). Never overwrite source history. Disagreement is flagged, not overridden. | `registry.schema.json` `ceiling`; `approval_problems()` (resolved_ceiling needs a human `resolved_by`; `disagreement` must equal source ≠ estimate); `--build` preserves human-set fields and never rewrites `source_ceiling` from anything but the archived source. |
 | 5 | **Cycle counts are estimates.** Each milestone has explicit [acceptance criteria](#milestone-acceptance-criteria); a milestone is accepted only by Cory. | `program.milestones` in the registry (`status`, `accepted_by`, `accepted_date`, `criteria_doc` linking here). |
 | 6 | **M6 is gated on M2 + M4 acceptance.** Before then, v2 recommendations are labeled **exploratory**. `APPROVAL_READY` and above also need M2 + M4 accepted. | `grixis_authority.py --check` (v2 output must say `exploratory: true` until both are accepted); `refine_v2.schema.json` `m6_gate`; `approval_problems()` for the gated states. |
 | 7 | **Two optimizers, two objective functions.** The commander-first optimizer and the performance optimizer produce **independent first passes** from different objective functions (not two weightings of one score), reconciled afterwards. | `optimizer_pass.schema.json` (`pass_a` / `pass_b`, `objective_function.family` blueprint_fidelity vs measured_performance, `formula_sha256`, `informed_by`, `blind_to`, `reconciliation`); `check_reconciliation()` rejects equal families, equal formulas, a pass informed by the other, or performance inputs in the commander-first objective (and vice versa). |
 | 8 | **APPROVAL_READY, APPROVED and CANONICAL_LOCKED stay distinct.** Nothing becomes approved or locked without Cory's explicit sign-off. | State machine (`TRANSITIONS`: APPROVED only from APPROVAL_READY, CANONICAL_LOCKED only from APPROVED); `approval_problems()` needs a human approval record matching the exact hash, a separate `CANONICAL_LOCKED` decision for locking, and a certificate for APPROVAL_READY. |
+
+### Review kinds: screening vs judgment
+Bot cycle 61 (rule 2, no checkbox compliance). Two review kinds are distinct in schema, data and checker:
+
+| Kind | Who writes it | Evidence | Can it support a decision? |
+|---|---|---|---|
+| `screening_review` (`candidate.review`) | a script (`method: scripted`, `by: script:…`) | heuristic / derived (`evidence_class`), plus facts it cites | **Never.** `decision_support.can_decide` is the constant `false`. |
+| `judgment_review` (`candidate.judgment_review`, M6) | a named human or an agent's judgment (`method: human / agent_judgment`), never a script | `evidence_items` that pass `decision_support_ok` (at least one fact, test result or strategic judgment) and the swaps it covers | Yes: the only way. |
+
+`decision_review_problems()` rejects any candidate without a valid `judgment_review`, including one with a screening review only and one "judgment" authored by a script. `swap_decision_problems()` rejects a swap with a verdict or a decided state (`APPROVAL_READY`, `APPROVED`, `REJECTED`) unless every add has a judgment review covering that swap. `grixis_candidates.py --check` fails on a scripted review that isn't a screening review, on any decision-capable candidate without a judgment review, and on a script-authored judgment review.
+
+### No absolute protections
+Bot cycle 61 (swap hypotheses). No incumbent is immune. A cut has a recorded protection level (`swap.burden.level`):
+- **standard:** an unprotected incumbent with no combo and nothing it breaks.
+- **elevated:** core, strong retain, a Spellbook combo piece, or anything in the graph's `breaks_if_removed`.
+- **project_exception:** a registered authorized exception, such as Bjorna's Trade Secrets and Yawgmoth's Bargain, or the pending MBC cards.
+
+Elevated and project-exception cuts must clear `BURDEN_RULES`, which every candidate file records under `swap_rules`:
+- **B1 evidence:** the add is tier A with EDHREC inclusion at least the cut's + 0.05, or it completes an infinite Spellbook variant without the cut.
+- **B2 compensation:** every graph break is compensated. A combo break needs an interchangeable incumbent or the add's own variant; a package break needs the add to fit the package; a win break needs a new infinite route. Engines need judgment, so a script never treats them as compensated.
+- **B3 identity:** identity-core cuts need the same Oracle hook and a package fit.
+
+The swap records the cost: breaks, compensation, what remains uncompensated (must be empty) and the compensating adds. A project-exception cut also carries a label that only Cory can revoke the exception. Each deck file lists its project requirements, showing how often each was evaluated and how often the burden cleared. Lutri is the companion, outside the 100, so it is recorded as a project-level question rather than a swap. The one remaining exclusion is not a protection: a piece of the very combo the add completes.
 
 Further standing rules from the same steering:
 - **Adversarial testing means scripted stress scenarios plus red-team analysis.** No multiplayer win-rate simulation (see [testing doctrine](#testing-doctrine-stress-scenarios-and-red-team)).
@@ -141,7 +164,7 @@ Trade Secrets and Yawgmoth's Bargain (banned) are verified `AUTHORIZED_EXCEPTION
 | `data/grixis/tests/<slug>.json` | M3 paired champion-vs-challenger records (Bot cycle 57.3, `test.schema.json`); `scripts/grixis_paired.py --run-registered` / `--check` (step `paired-tests`) / `--deck SLUG --swap "Cut=>Add"` (ad hoc, not stored). |
 | `data/grixis/graph/<slug>.json` | M4 dependency graph per deck (Bot cycle 59.1, `graph.schema.json`): Spellbook, blueprint, role and M1 layers with classed edges; per-card necessity, breaks-if-removed, redundancy, best alternative; `scripts/grixis_graph.py --build` / `--check` (step `graph`) / `--show SLUG CARD`. |
 | `data/grixis/audit/<slug>.json` | M4 99-slot audit per deck (Bot cycle 59.2, `audit.schema.json`): a provisional disposition, refs, evidence classes and decision support for every slot, a boilerplate lint and a goldfish baseline; `scripts/grixis_audit.py --build` / `--check` (step `audit`) / `--summary`. |
-| `data/grixis/candidates/<slug>.json` | M5 candidate deep dive per deck (Bot cycle 60, `candidate_universe.schema.json`; records `candidate`, `swap`, `test` schemas): 200–500 candidates with sources and screening, triage, escalations, full reviews, exploratory swap hypotheses and v1.1 paired tests; `scripts/grixis_candidates.py --build` / `--check` (step `candidates`) / `--summary`. `spellbook_almost.json`: Spellbook near-miss snapshot (step `spellbook-near`). `tournament/<slug>.json`: EDHTop16 evidence for the 13 cEDH-ceiling decks (step `tournament`). |
+| `data/grixis/candidates/<slug>.json.gz` | M5 candidate deep dive per deck (Bot cycle 60; cycle 61: no escalation cap, `screening_review`s, protection burdens, deterministic gzip; `candidate_universe.schema.json`; records `candidate`, `swap`, `test` schemas): 200–500 candidates with sources and screening, triage, escalations, full reviews, exploratory swap hypotheses and v1.1 paired tests; `scripts/grixis_candidates.py --build` / `--check` (step `candidates`) / `--summary`. `spellbook_almost.json`: Spellbook near-miss snapshot (step `spellbook-near`). `tournament/<slug>.json`: EDHTop16 evidence for the 13 cEDH-ceiling decks (step `tournament`). |
 | `data/grixis/stress/<slug>.json` | M3 stress records (Bot cycle 57.4): 9 scripted scenarios per deck, paired against the unperturbed game; `scripts/grixis_stress.py --build` / `--check` (step `stress`) / `--summary`. |
 | `data/grixis_refine_v2.json` | v2 exploratory recommendations (never final). |
 | `exports/grixis-archidekt/index.json` | Label, role, state, compliance and both hashes for every export file. |
@@ -300,6 +323,21 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 ### M5
 **Candidate deep dive.** Per deck a recorded candidate universe (definition, sources, size, snapshot), triage with the default 15–40 full reviews and escalations with reasons; tournament evidence only for decks whose estimated ceiling is cEDH, with sample size and date.
 
+*Bot cycle 61 revision (after Cory's review of the cycle-60 report; constraints 2 and 3, no absolute protections).* The 12-per-reason escalation cap is gone. Every card meeting a reason is escalated and gets a screening review: 20,774 escalated and 22,971 screening reviews (300–420 per deck). The reviews are relabeled `screening_review`, scripted and never decision-capable ([review kinds](#review-kinds-screening-vs-judgment)).
+
+Swap hypotheses no longer treat core, strong-retain or combo pieces as immune ([burden](#no-absolute-protections)). There are 25,933 swaps:
+- **standard:** 22,527.
+- **elevated:** 3,382, all with the burden cleared and every graph break compensated.
+- **project_exception:** 24, labeled. Yawgmoth's Bargain cleared 26 times in 177 evaluations, Trade Secrets 6 in 193 and Dragon's Smile 15 in 163.
+
+Other review outcomes:
+- **Paired tests:** 16,889 at v1.1. Verdicts: pass 1,227 · fail 1,305 · inconclusive 6,020 · no detectable difference 8,337.
+- **Not modelable:** 9,044 swaps, each recorded with its reason.
+- **Dominated:** 395 reviews have no swap because the would-be cut dominates them on every recorded axis (MV, overall rank, roles, hook, no package, Spellbook or blueprint edge). Each records its card-specific reason in `dominated_by`.
+- **No cut:** 26 reviews have no standard cut and no elevated cut that clears, with the closest failure recorded.
+
+Deck files are now `<slug>.json.gz`, written as deterministic gzip and checked on the decompressed text. All 62 come to 14 MB, down from 44 MB of plain JSON, while holding about 6x the reviews. EDHTop16 rows were re-fetched for the larger review set of the 13 cEDH-ceiling decks. The figures below are from cycle 60 unless they say otherwise.
+
 *Status (Bot cycle 60; `program.milestones.M5: in_progress`).* Sub-cycles: **60.1** universe, triage, full reviews, swap hypotheses and paired tests · **60.2** tournament evidence. Everything is provisional and exploratory. No list changed, no challenger was registered or promoted, and no swap has a decision (constraints 2, 6 and 8). Criteria:
 1. ✅ *(60.1)* **A recorded universe per deck:** `scripts/grixis_candidates.py` writes `data/grixis/candidates/<slug>.json` (`candidate_universe.schema.json`). Each file records the definition, sources, size, exclusions and a snapshot (graph, evidence, audit, Oracle and default-cards bulk, Spellbook snapshot, EDHREC pages, simulator sha). The universe is Commander-legal cards in identity, not basic lands and not already in the list. 62 decks, 30,975 candidates: 61 decks at the 500 cap, The Valeyard at 475. Sources:
    - **EDHREC:** the M3 evidence-layer candidates.
@@ -317,7 +355,7 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
    - `rank_miss_suspected` 2.
    - `package_gap` 0: no required package is under its `min_count`.
 
-   Each escalation has evidence refs and a full review (`candidate_problems`). At most 12 are taken per reason per deck, and the overflow is listed by name in `triage.escalation_overflow`. In total 3,774 full reviews, 40–71 per deck.
+   Each escalation has evidence refs and a review (`candidate_problems`). *Cycle 61: no cap.* Escalations by reason (a card can have several): dependency_analysis 3,099 · new_card 12,686 · unusual_oracle_interaction 19,031 · rank_miss_suspected 2. All 20,774 escalated cards are reviewed. The cycle-60 cap of 12 per reason, which left an overflow listed by name, is removed.
 4. ✅ *(60.1)* **Each full review is evaluated against:**
    - **the blueprint:** fit, the packages that name the card, the Oracle hook, anti-goals;
    - **the role model:** the role it competes in and the list's role counts;
@@ -339,7 +377,7 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 7. ⏳ Cory's acceptance (`program.milestones.M5`).
 
 ### M6
-**Refinement cycle 1** (starts only after M2 and M4 are accepted). Per deck: independent commander-first and performance passes with different objective functions (rule 7), a reconciliation with a deep-review queue, paired tests of each material swap, stress scenarios and a red-team record, and a schema-valid certificate leading to `APPROVAL_READY` or `REVIEW_REQUIRED`.
+**Refinement cycle 1** (starts only after M2 and M4 are accepted). Every decision-bearing swap needs a `judgment_review` on its adds. An M5 `screening_review` never qualifies ([review kinds](#review-kinds-screening-vs-judgment)). Per deck: independent commander-first and performance passes with different objective functions (rule 7), a reconciliation with a deep-review queue, paired tests of each material swap, stress scenarios and a red-team record, and a schema-valid certificate leading to `APPROVAL_READY` or `REVIEW_REQUIRED`.
 
 ### M7
 **Cory review and refinement cycle 2.** Every packet has Cory's recorded decision; approved hashes match the registry; cycle 2 re-closes changed decks; reopen triggers processed (including the 2026-11-13 release).

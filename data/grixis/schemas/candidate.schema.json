@@ -2,7 +2,7 @@
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/candidate.schema.json",
  "title": "Candidate record with escalation (v1 draft)",
- "description": "The 15–40 full-review range is a default workload, not a gate. Escalated candidates get full review regardless of rank (Cory constraint 3). Bot cycle 60 (M5): optional `sources`, `screening` and `review` (full review against blueprint, role model, graph and best incumbent; swap and goldfish refs).",
+ "description": "The 15–40 full-review range is a default workload, not a gate. Escalated candidates get full review regardless of rank (Cory constraint 3; no cap since Bot cycle 61). Bot cycle 60 (M5): optional `sources`, `screening` and `review`. Bot cycle 61: `review` is a scripted `screening_review` (can_decide false); a human-grade `judgment_review` (M6) is a separate field, and only it can support a decision (grixis_authority.decision_review_problems).",
  "type": "object",
  "properties": {
   "schema_version": {
@@ -31,7 +31,8 @@
    ]
   },
   "full_review": {
-   "type": "boolean"
+   "type": "boolean",
+   "description": "true = a screening_review was done (M5 triage); not a decision-grade review"
   },
   "escalation": {
    "type": "object",
@@ -163,17 +164,26 @@
     "decision_support": {
      "type": "object",
      "properties": {
-      "ok": {
+      "evidence_ok": {
        "type": "boolean"
       },
       "why_not": {
        "type": "array"
+      },
+      "can_decide": {
+       "const": false
+      },
+      "because": {
+       "type": "string"
       }
      },
      "required": [
-      "ok",
-      "why_not"
-     ]
+      "evidence_ok",
+      "why_not",
+      "can_decide",
+      "because"
+     ],
+     "additionalProperties": false
     },
     "swap": {
      "type": "string",
@@ -203,9 +213,82 @@
     },
     "matches_registered_challenger": {
      "type": "string"
+    },
+    "kind": {
+     "const": "screening_review"
+    },
+    "method": {
+     "const": "scripted"
+    },
+    "by": {
+     "type": "string",
+     "pattern": "^script:"
+    },
+    "evidence_class": {
+     "enum": [
+      "heuristic",
+      "derived_metric"
+     ]
+    },
+    "cut_level": {
+     "enum": [
+      "standard",
+      "elevated",
+      "project_exception",
+      null
+     ]
+    },
+    "protected_considered": {
+     "type": "object"
+    },
+    "dominated_by": {
+     "type": "object",
+     "properties": {
+      "card": {
+       "type": "string"
+      },
+      "detail": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "required": [
+      "card",
+      "detail"
+     ],
+     "additionalProperties": false
+    },
+    "elevated_alternative": {
+     "type": "object",
+     "properties": {
+      "card": {
+       "type": "string"
+      },
+      "level": {
+       "enum": [
+        "elevated",
+        "project_exception"
+       ]
+      },
+      "swap": {
+       "type": "string"
+      },
+      "goldfish": {
+       "type": "object"
+      }
+     },
+     "required": [
+      "card",
+      "level"
+     ],
+     "additionalProperties": false
     }
    },
    "required": [
+    "kind",
+    "method",
+    "by",
+    "evidence_class",
     "role",
     "blueprint",
     "graph",
@@ -213,7 +296,83 @@
     "cut",
     "assessment",
     "evidence_classes",
-    "decision_support"
+    "decision_support",
+    "cut_level"
+   ],
+   "additionalProperties": false,
+   "description": "Scripted screening review (M5). Never decision-capable."
+  },
+  "judgment_review": {
+   "type": "object",
+   "description": "M6 decision-grade review (human or agent judgment). Never written by a script.",
+   "properties": {
+    "kind": {
+     "const": "judgment_review"
+    },
+    "method": {
+     "enum": [
+      "human",
+      "agent_judgment"
+     ]
+    },
+    "by": {
+     "type": "string",
+     "minLength": 1
+    },
+    "date": {
+     "type": "string"
+    },
+    "swaps": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "pattern": "^swap:"
+     }
+    },
+    "verdict": {
+     "enum": [
+      "accept",
+      "reject",
+      "hold",
+      null
+     ]
+    },
+    "reasoning": {
+     "type": "string",
+     "minLength": 1
+    },
+    "evidence_items": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "properties": {
+       "id": {
+        "$ref": "common.schema.json#/$defs/evidence_ref"
+       },
+       "class": {
+        "type": "string"
+       },
+       "confidence": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "id",
+       "class",
+       "confidence"
+      ]
+     }
+    }
+   },
+   "required": [
+    "kind",
+    "method",
+    "by",
+    "date",
+    "swaps",
+    "verdict",
+    "reasoning",
+    "evidence_items"
    ],
    "additionalProperties": false
   }

@@ -69,7 +69,8 @@ def fetch():
         if not cmd or not cmd.get("ONE_YEAR") or not cmd["ONE_YEAR"].get("count"):
             doc.update({"status": "no_data", "sample_size": 0, "window": CARD_WINDOW, "commander": None, "cards": {}})
         else:
-            cf = json.loads((CANDS / f"{slug}.json").read_text(encoding="utf-8"))
+            import grixis_candidates as gc
+            cf = gc.load(slug)
             names = sorted({c["card"] for c in cf["candidates"] if c["full_review"]} | {c["review"]["cut"] for c in cf["candidates"]
                                                                                      if c["full_review"] and c["review"].get("cut")})
             cards = {}

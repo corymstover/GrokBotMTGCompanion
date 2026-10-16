@@ -360,6 +360,51 @@ def candidate_problems(c):
             p.append(f"{c.get('card')}: escalation needs evidence refs")
         if not c.get("full_review"):
             p.append(f"{c.get('card')}: an escalated candidate must get full review regardless of rank")
+    if c.get("full_review") and "review" in c and (c["review"] or {}).get("kind") not in REVIEW_KINDS:
+        p.append(f"{c.get('card')}: review kind must be one of {REVIEW_KINDS}")
+    return p
+
+
+# Bot cycle 61 (constraint 2, no checkbox compliance): two review kinds. A scripted `screening_review` triages; only a
+# `judgment_review` (human or agent judgment, with decision-class evidence) can support an M6 decision.
+REVIEW_KINDS = ("screening_review", "judgment_review")
+JUDGMENT_METHODS = ("human", "agent_judgment")
+DECIDED_STATES = ("APPROVAL_READY", "APPROVED", "REJECTED")
+
+
+def decision_review_problems(c, swap_id=None):
+    """Problems preventing candidate `c` from supporting a decision (M6). A screening_review never qualifies."""
+    p = []
+    name = c.get("card")
+    j = c.get("judgment_review")
+    if not j:
+        kind = (c.get("review") or {}).get("kind")
+        p.append(f"{name}: no judgment_review" + (f" (a {kind} cannot satisfy an M6 decision requirement)" if kind else ""))
+        return p
+    if j.get("kind") != "judgment_review":
+        p.append(f"{name}: judgment_review.kind must be judgment_review")
+    if j.get("method") not in JUDGMENT_METHODS:
+        p.append(f"{name}: judgment_review.method must be one of {JUDGMENT_METHODS} (scripted output is a screening_review)")
+    if not j.get("by") or str(j.get("by")).startswith("script"):
+        p.append(f"{name}: judgment_review needs a named reviewer (not a script)")
+    if not j.get("date"):
+        p.append(f"{name}: judgment_review needs a date")
+    ok, why = decision_support_ok(j.get("evidence_items") or [])
+    if not ok:
+        p.append(f"{name}: judgment_review evidence cannot decide: {why}")
+    if swap_id and swap_id not in (j.get("swaps") or []):
+        p.append(f"{name}: judgment_review does not cover {swap_id}")
+    return p
+
+
+def swap_decision_problems(sw, cands_by_card):
+    """A swap with a verdict or a decided state needs a judgment_review on every add (screening never suffices)."""
+    if sw.get("state") not in DECIDED_STATES and (sw.get("decision") or {}).get("verdict") is None:
+        return []
+    p = []
+    for a in sw.get("adds", []):
+        c = cands_by_card.get(a)
+        p += [f"{sw.get('id')}: {x}" for x in (decision_review_problems(c, sw.get("id")) if c else [f"{a}: no candidate record"])]
     return p
 
 
