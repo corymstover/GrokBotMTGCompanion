@@ -1,0 +1,53 @@
+name: Temporary Step B power-core overlay build
+
+on:
+  push:
+    branches: [chatgpt-cycle67-2-power-core]
+
+permissions:
+  contents: write
+
+jobs:
+  build-power-core:
+    if: ${{ !contains(github.event.head_commit.message, 'sync generated power-core overlays') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle67-2-power-core
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check pytest jsonschema
+
+      - name: Unit tests
+        run: python -m pytest -q tests/test_power_core.py
+
+      - name: Build overlays
+        run: python scripts/grixis_power_core.py --build
+
+      - name: Validate overlays
+        run: python scripts/grixis_power_core.py --check
+
+      - name: Summary
+        run: python scripts/grixis_power_core.py --summary
+
+      - name: Commit generated overlays
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/power_core
+          if git diff --cached --quiet; then
+            echo "Power-core overlays already current."
+          else
+            git commit -m "ChatGPT: sync generated power-core overlays"
+            git push origin HEAD:chatgpt-cycle67-2-power-core
+          fi
