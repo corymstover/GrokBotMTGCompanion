@@ -1,0 +1,297 @@
+{
+ "schema_version": 1,
+ "kind": "saturation_certificate",
+ "generated_by": "scripts/grixis_saturation.py v1",
+ "cycle": "Bot cycle 65.1",
+ "deck_id": "The_Valeyard",
+ "slug": "the-valeyard",
+ "list_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+ "snapshot": {
+  "id": "snap-20261016 (development snapshot, Cory D6)",
+  "inputs": {
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz",
+   "default_bulk": "default-cards-20261015090541.jsonl.gz",
+   "spellbook_almost": "sha256:3849d0dbace6d3546697377d0512d6645864d4b403b2a313ed77c05f744a424e",
+   "blueprint": "sha256:a5b092a534388810f6c008cbbbf37f0b318ce71b242c2f69ffa1ca4adb2d2bc8",
+   "evidence": "sha256:5b5953bc6259a5d7bcd3200443ac7f3f4686b859f788496b9f9d28744d60fb24",
+   "audit": "sha256:cafb2fa678e939c855a424f71a76b5124a476d300348466b69c355719134b5a9"
+  }
+ },
+ "evidence_class": "derived_metric",
+ "authority": {
+  "exploratory": true,
+  "can_decide": false,
+  "note": "Discovery coverage evidence only; screening tiers order work and never exclude or decide. M5 stays unaccepted (Cory)."
+ },
+ "stopping_rule": {
+  "material_k": 3,
+  "material_score": 25.0,
+  "stop_after_non_material": 2,
+  "definition": "a pass is material if it adds >= 3 new candidates with screening score >= 25.0 or any new escalated candidate; expansion stops after 2 consecutive non-material rounds",
+  "relevance_predicate": "broad passes nominate cards with EDHREC rank <= 8000, an Oracle hook or a package creature type",
+  "test_tier_rule": "paired_test if screening tier A or escalated; otherwise screen_only (workload order, never exclusion)"
+ },
+ "passes": [
+  {
+   "index": 1,
+   "pass": "edhrec",
+   "kind": "source",
+   "nominated": 146,
+   "new": 144,
+   "duplicates": 0,
+   "new_at_or_above_score": 72,
+   "new_escalated": 0,
+   "material": true,
+   "inputs": [
+    "data/grixis/evidence/the-valeyard.json"
+   ]
+  },
+  {
+   "index": 2,
+   "pass": "spellbook_near_miss",
+   "kind": "source",
+   "nominated": 17,
+   "new": 17,
+   "duplicates": 0,
+   "new_at_or_above_score": 0,
+   "new_escalated": 16,
+   "material": true,
+   "inputs": [
+    "data/grixis/candidates/spellbook_almost.json"
+   ]
+  },
+  {
+   "index": 3,
+   "pass": "blueprint_package",
+   "kind": "source",
+   "nominated": 0,
+   "new": 0,
+   "duplicates": 0,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/blueprints/the-valeyard.json"
+   ]
+  },
+  {
+   "index": 4,
+   "pass": "oracle_text",
+   "kind": "source",
+   "nominated": 0,
+   "new": 0,
+   "duplicates": 0,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "oracle_bulk",
+    "grixis_refine.HOOKS"
+   ]
+  },
+  {
+   "index": 5,
+   "pass": "type_search",
+   "kind": "source",
+   "nominated": 0,
+   "new": 0,
+   "duplicates": 0,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "oracle_bulk",
+    "data/grixis/blueprints/the-valeyard.json"
+   ]
+  },
+  {
+   "index": 6,
+   "pass": "rules_interaction",
+   "kind": "source",
+   "nominated": 136,
+   "new": 97,
+   "duplicates": 10,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis_interactions/the-valeyard.json"
+   ]
+  },
+  {
+   "index": 7,
+   "pass": "new_card",
+   "kind": "source",
+   "nominated": 800,
+   "new": 798,
+   "duplicates": 2,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "default_bulk (earliest printing)"
+   ]
+  },
+  {
+   "index": 8,
+   "pass": "role_gap",
+   "kind": "source",
+   "nominated": 317,
+   "new": 304,
+   "duplicates": 13,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/audit/the-valeyard.json"
+   ]
+  },
+  {
+   "index": 9,
+   "pass": "graph_alternative",
+   "kind": "source",
+   "nominated": 124,
+   "new": 91,
+   "duplicates": 33,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/audit/the-valeyard.json",
+    "data/grixis/graph/the-valeyard.json"
+   ]
+  },
+  {
+   "index": 10,
+   "pass": "tutor_target",
+   "kind": "source",
+   "nominated": 685,
+   "new": 656,
+   "duplicates": 28,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/blueprints/the-valeyard.json"
+   ]
+  },
+  {
+   "index": 11,
+   "pass": "mana_base",
+   "kind": "source",
+   "nominated": 467,
+   "new": 354,
+   "duplicates": 113,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "oracle_bulk produced_mana"
+   ]
+  },
+  {
+   "index": 12,
+   "pass": "archetype_tech",
+   "kind": "source",
+   "nominated": 0,
+   "new": 0,
+   "duplicates": 0,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "exports/grixis-archidekt/*.txt (other canonical lists)"
+   ]
+  },
+  {
+   "index": 13,
+   "pass": "tournament",
+   "kind": "source",
+   "nominated": 0,
+   "new": 0,
+   "duplicates": 0,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": []
+  },
+  {
+   "index": 14,
+   "pass": "expansion_1",
+   "kind": "expansion",
+   "nominated": 1577,
+   "new": 852,
+   "duplicates": 725,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "36 tier-A seeds"
+   ]
+  },
+  {
+   "index": 15,
+   "pass": "expansion_2",
+   "kind": "expansion",
+   "nominated": 0,
+   "new": 0,
+   "duplicates": 0,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "0 tier-A seeds"
+   ]
+  }
+ ],
+ "last_material_pass": 2,
+ "saturated": true,
+ "hard_exclusions": {
+  "already_in_list": 30,
+  "not_commander_legal": 1,
+  "unresolved_name": 1
+ },
+ "hard_exclusion_kinds": [
+  "not_commander_legal",
+  "outside_colour_identity",
+  "already_in_list",
+  "basic_land",
+  "unresolved_name"
+ ],
+ "universe": {
+  "size": 3313,
+  "previous_m5_bound": 500,
+  "by_tier": {
+   "A": 36,
+   "B": 36,
+   "C": 3241
+  },
+  "by_test_tier": {
+   "paired_test": 52,
+   "screen_only": 3261
+  },
+  "per_source": {
+   "edhrec": 144,
+   "expansion_1": 1577,
+   "graph_alternative": 124,
+   "mana_base": 467,
+   "new_card": 800,
+   "role_gap": 317,
+   "rules_interaction": 107,
+   "spellbook_near_miss": 17,
+   "tutor_target": 684
+  },
+  "escalated": 16,
+  "file": "data/grixis/saturation/the-valeyard.universe.json.gz",
+  "sha256": "sha256:60a38ff36e8fbc859c7aa53dad425cfd460797b86855bd7224cd8274e5ced04b"
+ },
+ "blind_spots": [
+  "Cards no pass nominates (outside every source, below the relevance predicate) are undiscovered, not excluded.",
+  "Commander Spellbook near-misses come from the cached almostIncluded snapshot (one missing piece only).",
+  "EDHREC rows exist only for the commander page(s) in the evidence layer; partner/background pages may be thin.",
+  "Tournament evidence exists only for cEDH-ceiling decks and is sparse.",
+  "Oracle hooks use grixis_refine HOOKS regexes; mechanics they do not name are found only via type, keyword or role passes.",
+  "Not-yet-legal cards (pending release) are hard-excluded until legal; they are re-discovered at the Birthday snapshot."
+ ],
+ "runtime_seconds": null
+}

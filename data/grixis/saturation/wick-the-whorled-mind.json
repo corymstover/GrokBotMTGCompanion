@@ -1,0 +1,299 @@
+{
+ "schema_version": 1,
+ "kind": "saturation_certificate",
+ "generated_by": "scripts/grixis_saturation.py v1",
+ "cycle": "Bot cycle 65.1",
+ "deck_id": "Wick__the_Whorled_Mind",
+ "slug": "wick-the-whorled-mind",
+ "list_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+ "snapshot": {
+  "id": "snap-20261016 (development snapshot, Cory D6)",
+  "inputs": {
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz",
+   "default_bulk": "default-cards-20261015090541.jsonl.gz",
+   "spellbook_almost": "sha256:3849d0dbace6d3546697377d0512d6645864d4b403b2a313ed77c05f744a424e",
+   "blueprint": "sha256:0f335e792cb3bba02218d0316639ccf5d5e7fae82080f2bdca938015d96735de",
+   "evidence": "sha256:38c480a487b913c72190b9189ddad15807f13561e194fa52d6ea45e3d0bf4d7f",
+   "audit": "sha256:16c0601e6a867c640d27a56753d394a876fd7ff67165649721eae9b4bcb3b9fc"
+  }
+ },
+ "evidence_class": "derived_metric",
+ "authority": {
+  "exploratory": true,
+  "can_decide": false,
+  "note": "Discovery coverage evidence only; screening tiers order work and never exclude or decide. M5 stays unaccepted (Cory)."
+ },
+ "stopping_rule": {
+  "material_k": 3,
+  "material_score": 25.0,
+  "stop_after_non_material": 2,
+  "definition": "a pass is material if it adds >= 3 new candidates with screening score >= 25.0 or any new escalated candidate; expansion stops after 2 consecutive non-material rounds",
+  "relevance_predicate": "broad passes nominate cards with EDHREC rank <= 8000, an Oracle hook or a package creature type",
+  "test_tier_rule": "paired_test if screening tier A or escalated; otherwise screen_only (workload order, never exclusion)"
+ },
+ "passes": [
+  {
+   "index": 1,
+   "pass": "edhrec",
+   "kind": "source",
+   "nominated": 185,
+   "new": 180,
+   "duplicates": 0,
+   "new_at_or_above_score": 112,
+   "new_escalated": 2,
+   "material": true,
+   "inputs": [
+    "data/grixis/evidence/wick-the-whorled-mind.json"
+   ]
+  },
+  {
+   "index": 2,
+   "pass": "spellbook_near_miss",
+   "kind": "source",
+   "nominated": 123,
+   "new": 121,
+   "duplicates": 2,
+   "new_at_or_above_score": 78,
+   "new_escalated": 113,
+   "material": true,
+   "inputs": [
+    "data/grixis/candidates/spellbook_almost.json"
+   ]
+  },
+  {
+   "index": 3,
+   "pass": "blueprint_package",
+   "kind": "source",
+   "nominated": 0,
+   "new": 0,
+   "duplicates": 0,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/blueprints/wick-the-whorled-mind.json"
+   ]
+  },
+  {
+   "index": 4,
+   "pass": "oracle_text",
+   "kind": "source",
+   "nominated": 5924,
+   "new": 5762,
+   "duplicates": 162,
+   "new_at_or_above_score": 11,
+   "new_escalated": 338,
+   "material": true,
+   "inputs": [
+    "oracle_bulk",
+    "grixis_refine.HOOKS"
+   ]
+  },
+  {
+   "index": 5,
+   "pass": "type_search",
+   "kind": "source",
+   "nominated": 89,
+   "new": 0,
+   "duplicates": 89,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "oracle_bulk",
+    "data/grixis/blueprints/wick-the-whorled-mind.json"
+   ]
+  },
+  {
+   "index": 6,
+   "pass": "rules_interaction",
+   "kind": "source",
+   "nominated": 100,
+   "new": 32,
+   "duplicates": 43,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis_interactions/wick-the-whorled-mind.json"
+   ]
+  },
+  {
+   "index": 7,
+   "pass": "new_card",
+   "kind": "source",
+   "nominated": 801,
+   "new": 463,
+   "duplicates": 338,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "default_bulk (earliest printing)"
+   ]
+  },
+  {
+   "index": 8,
+   "pass": "role_gap",
+   "kind": "source",
+   "nominated": 482,
+   "new": 194,
+   "duplicates": 288,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/audit/wick-the-whorled-mind.json"
+   ]
+  },
+  {
+   "index": 9,
+   "pass": "graph_alternative",
+   "kind": "source",
+   "nominated": 577,
+   "new": 248,
+   "duplicates": 329,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/audit/wick-the-whorled-mind.json",
+    "data/grixis/graph/wick-the-whorled-mind.json"
+   ]
+  },
+  {
+   "index": 10,
+   "pass": "tutor_target",
+   "kind": "source",
+   "nominated": 564,
+   "new": 165,
+   "duplicates": 398,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/blueprints/wick-the-whorled-mind.json"
+   ]
+  },
+  {
+   "index": 11,
+   "pass": "mana_base",
+   "kind": "source",
+   "nominated": 568,
+   "new": 111,
+   "duplicates": 457,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "oracle_bulk produced_mana"
+   ]
+  },
+  {
+   "index": 12,
+   "pass": "archetype_tech",
+   "kind": "source",
+   "nominated": 104,
+   "new": 0,
+   "duplicates": 104,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "exports/grixis-archidekt/*.txt (other canonical lists)"
+   ]
+  },
+  {
+   "index": 13,
+   "pass": "tournament",
+   "kind": "source",
+   "nominated": 0,
+   "new": 0,
+   "duplicates": 0,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": []
+  },
+  {
+   "index": 14,
+   "pass": "expansion_1",
+   "kind": "expansion",
+   "nominated": 3281,
+   "new": 591,
+   "duplicates": 2690,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "67 tier-A seeds"
+   ]
+  },
+  {
+   "index": 15,
+   "pass": "expansion_2",
+   "kind": "expansion",
+   "nominated": 0,
+   "new": 0,
+   "duplicates": 0,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "0 tier-A seeds"
+   ]
+  }
+ ],
+ "last_material_pass": 4,
+ "saturated": true,
+ "hard_exclusions": {
+  "already_in_list": 26,
+  "unresolved_name": 5
+ },
+ "hard_exclusion_kinds": [
+  "not_commander_legal",
+  "outside_colour_identity",
+  "already_in_list",
+  "basic_land",
+  "unresolved_name"
+ ],
+ "universe": {
+  "size": 7867,
+  "previous_m5_bound": 500,
+  "by_tier": {
+   "A": 67,
+   "B": 134,
+   "C": 7666
+  },
+  "by_test_tier": {
+   "paired_test": 519,
+   "screen_only": 7348
+  },
+  "per_source": {
+   "archetype_tech": 104,
+   "edhrec": 180,
+   "expansion_1": 3281,
+   "graph_alternative": 577,
+   "mana_base": 568,
+   "new_card": 801,
+   "oracle_text": 5924,
+   "role_gap": 482,
+   "rules_interaction": 75,
+   "spellbook_near_miss": 123,
+   "tutor_target": 563,
+   "type_search": 89
+  },
+  "escalated": 453,
+  "file": "data/grixis/saturation/wick-the-whorled-mind.universe.json.gz",
+  "sha256": "sha256:8ab33309ae20ea9f66090af19746da2a2e0dbc79bbcd1ceeae01e0287c80debf"
+ },
+ "blind_spots": [
+  "Cards no pass nominates (outside every source, below the relevance predicate) are undiscovered, not excluded.",
+  "Commander Spellbook near-misses come from the cached almostIncluded snapshot (one missing piece only).",
+  "EDHREC rows exist only for the commander page(s) in the evidence layer; partner/background pages may be thin.",
+  "Tournament evidence exists only for cEDH-ceiling decks and is sparse.",
+  "Oracle hooks use grixis_refine HOOKS regexes; mechanics they do not name are found only via type, keyword or role passes.",
+  "Not-yet-legal cards (pending release) are hard-excluded until legal; they are re-discovered at the Birthday snapshot."
+ ],
+ "runtime_seconds": null
+}

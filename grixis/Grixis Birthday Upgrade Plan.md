@@ -86,3 +86,54 @@ Most retrospective items cannot measure detection honestly. The source's approve
 - **`judgment_calibration`:** v1 or other unvalidated labels. Scored as agreement, never as accuracy.
 
 Any benchmark report (step 14) must stratify results by evaluation_role × origin × contamination level and must never give one pooled score (`data/grixis/benchmark/manifest.json` `reporting_rule`, checked by `scripts/grixis_benchmark.py --check`). Only the prospective holdout can measure uncontaminated detection.
+
+## Development-snapshot policy (Cory D6, recorded in Bot cycle 65.1)
+
+- **snap-20261016** stays the frozen development snapshot during A–F.
+- **Deferred staleness, to be cleared at the Birthday snapshot refresh (not now):**
+  - `Grixis Evaluation.md` is built from the 2026-10-15 bulk. Regenerating it rewrites deck pages and cascades.
+  - A 2026-10-16 rulings bulk exists in `/tmp/c64-cache-partial-backup`, while validation uses the 2026-10-15 rulings.
+- **Benchmark corpus:** immutable from this first step-A commit (Bot cycle 65.1). Only `prospective_holdout.json` may grow.
+
+## Step A: adaptive candidate saturation (design, Bot cycle 65.1)
+
+Implements decision D1. Code: `scripts/grixis_saturation.py`. Certificates: `data/grixis/saturation/<slug>.json`, with the full universe in `<slug>.universe.json.gz`. Schema: `data/grixis/schemas/saturation_certificate.schema.json`.
+
+- **No fixed numeric cap.** The M5 bound `UNIVERSE_MIN, UNIVERSE_MAX = 200, 500` is not used. 61 of 62 decks sat exactly at 500. A unit test fails if a universe bound reappears in the saturation code.
+- **Source passes, in fixed order:**
+  1. EDHREC
+  2. Commander Spellbook near-misses
+  3. blueprint package candidates
+  4. Oracle-text hooks
+  5. package creature-type search
+  6. rules interactions (cards and keywords named in the M1 interaction reviews)
+  7. new cards (earliest printing on or after 2026-04-16)
+  8. role gaps (the three thinnest key roles in the 99-slot audit)
+  9. graph alternatives (audit alternative refs, plus same role-and-type signatures as weak incumbents at the same or lower MV)
+  10. tutor targets (blueprint targets and their signatures)
+  11. mana base (lands producing the deck's colours, mana rocks)
+  12. archetype technology (in at least 3 other Grixis canonical lists and sharing the deck's hook or package type)
+  13. tournament (EDHTop16 cards with entries, cEDH decks only)
+- **Expansion rounds:** after the source passes, rounds seeded by the tier-A candidates found so far nominate Oracle-keyword and creature-type neighbours. They repeat until the stopping rule is met.
+- **Materially new:** a pass is material if it adds at least **k = 3** new candidates with screening score **≥ X = 25.0** (tier B), or any new escalated candidate.
+- **Stopping rule:** stop after **N = 2** consecutive non-material expansion rounds. k, X and N are recorded in every certificate.
+- **Hard exclusions only:** not Commander-legal (project exceptions handled as in M5), outside the colour identity, already in the list, basic land, unresolved name.
+- **Screening never excludes.** Every discovered card stays in the universe with a score and tier. Broad passes nominate by a recorded relevance predicate: EDHREC rank ≤ 8000, an Oracle hook, or a package type. A card no pass nominates is undiscovered, not excluded, and certificates list this as a blind spot.
+- **Escalation signals:** dependency evidence (completes an infinite Spellbook variant), package gap (blueprint candidate), new card with a hook or package fit, unusual Oracle interaction (a hook outside EDHREC that also meets a package fit and a role, blueprint or combo need), tournament evidence. Human evidence and anomaly signals are open hooks for later batches.
+- **Tiered testing:** `test_tier = paired_test` if tier A or escalated, otherwise `screen_only`. This orders work only.
+- **Determinism:** fixed pass order and sorted inputs; the universe is gzipped with mtime 0. `--check` validates the schema and re-runs one deck byte-identically (validate_all step `saturation`).
+
+**First measurements** (cycle 65.1, three decks, about 1–2 s per deck after a one-off pool load of about 5 s):
+
+| Deck | Universe (old: 500) | paired_test / screen_only | Last material pass |
+|---|---|---|---|
+| wick-the-whorled-mind | 7,867 | 519 / 7,348 | 4 (oracle_text) |
+| the-valeyard | 3,313 | 52 / 3,261 | 2 (spellbook near-miss) |
+| kess-dissident-mage (B5) | 9,265 | 575 / 8,690 | 7 (new_card) |
+
+**Open questions for later A batches:**
+- The Oracle-hook pass is very broad (about 5–7k hits on hook-rich decks).
+- Archetype-tech and type-search passes found nothing new on these decks; the list parsing and package types need checking.
+- The paired-test budget at full scale is roughly 50–600 per deck.
+- Human-evidence and anomaly escalation are not wired in yet.
+- Integration into `grixis_candidates.py` (regenerating M5) is a later A batch.

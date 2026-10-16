@@ -1,0 +1,302 @@
+{
+ "schema_version": 1,
+ "kind": "saturation_certificate",
+ "generated_by": "scripts/grixis_saturation.py v1",
+ "cycle": "Bot cycle 65.1",
+ "deck_id": "Kess__Dissident_Mage",
+ "slug": "kess-dissident-mage",
+ "list_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+ "snapshot": {
+  "id": "snap-20261016 (development snapshot, Cory D6)",
+  "inputs": {
+   "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz",
+   "default_bulk": "default-cards-20261015090541.jsonl.gz",
+   "spellbook_almost": "sha256:3849d0dbace6d3546697377d0512d6645864d4b403b2a313ed77c05f744a424e",
+   "blueprint": "sha256:25dc8ba6cd88b90ec89f98b7e48ba9c11adb834c916ce020a26bd61889db1049",
+   "evidence": "sha256:6b18da7b8817863cc53525e9be5a768b69d2881253c8feac8a17a95c68664628",
+   "audit": "sha256:f88d7d8617d61c64a0a0ac40389af33e56755ed83a77f819a003e0a7b836357c"
+  }
+ },
+ "evidence_class": "derived_metric",
+ "authority": {
+  "exploratory": true,
+  "can_decide": false,
+  "note": "Discovery coverage evidence only; screening tiers order work and never exclude or decide. M5 stays unaccepted (Cory)."
+ },
+ "stopping_rule": {
+  "material_k": 3,
+  "material_score": 25.0,
+  "stop_after_non_material": 2,
+  "definition": "a pass is material if it adds >= 3 new candidates with screening score >= 25.0 or any new escalated candidate; expansion stops after 2 consecutive non-material rounds",
+  "relevance_predicate": "broad passes nominate cards with EDHREC rank <= 8000, an Oracle hook or a package creature type",
+  "test_tier_rule": "paired_test if screening tier A or escalated; otherwise screen_only (workload order, never exclusion)"
+ },
+ "passes": [
+  {
+   "index": 1,
+   "pass": "edhrec",
+   "kind": "source",
+   "nominated": 202,
+   "new": 191,
+   "duplicates": 0,
+   "new_at_or_above_score": 144,
+   "new_escalated": 11,
+   "material": true,
+   "inputs": [
+    "data/grixis/evidence/kess-dissident-mage.json"
+   ]
+  },
+  {
+   "index": 2,
+   "pass": "spellbook_near_miss",
+   "kind": "source",
+   "nominated": 60,
+   "new": 51,
+   "duplicates": 6,
+   "new_at_or_above_score": 18,
+   "new_escalated": 35,
+   "material": true,
+   "inputs": [
+    "data/grixis/candidates/spellbook_almost.json"
+   ]
+  },
+  {
+   "index": 3,
+   "pass": "blueprint_package",
+   "kind": "source",
+   "nominated": 0,
+   "new": 0,
+   "duplicates": 0,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/blueprints/kess-dissident-mage.json"
+   ]
+  },
+  {
+   "index": 4,
+   "pass": "oracle_text",
+   "kind": "source",
+   "nominated": 6920,
+   "new": 6768,
+   "duplicates": 152,
+   "new_at_or_above_score": 6,
+   "new_escalated": 408,
+   "material": true,
+   "inputs": [
+    "oracle_bulk",
+    "grixis_refine.HOOKS"
+   ]
+  },
+  {
+   "index": 5,
+   "pass": "type_search",
+   "kind": "source",
+   "nominated": 0,
+   "new": 0,
+   "duplicates": 0,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "oracle_bulk",
+    "data/grixis/blueprints/kess-dissident-mage.json"
+   ]
+  },
+  {
+   "index": 6,
+   "pass": "rules_interaction",
+   "kind": "source",
+   "nominated": 613,
+   "new": 120,
+   "duplicates": 472,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis_interactions/kess-dissident-mage.json"
+   ]
+  },
+  {
+   "index": 7,
+   "pass": "new_card",
+   "kind": "source",
+   "nominated": 802,
+   "new": 411,
+   "duplicates": 391,
+   "new_at_or_above_score": 0,
+   "new_escalated": 73,
+   "material": true,
+   "inputs": [
+    "default_bulk (earliest printing)"
+   ]
+  },
+  {
+   "index": 8,
+   "pass": "role_gap",
+   "kind": "source",
+   "nominated": 1770,
+   "new": 231,
+   "duplicates": 1539,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/audit/kess-dissident-mage.json"
+   ]
+  },
+  {
+   "index": 9,
+   "pass": "graph_alternative",
+   "kind": "source",
+   "nominated": 626,
+   "new": 322,
+   "duplicates": 304,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/audit/kess-dissident-mage.json",
+    "data/grixis/graph/kess-dissident-mage.json"
+   ]
+  },
+  {
+   "index": 10,
+   "pass": "tutor_target",
+   "kind": "source",
+   "nominated": 1936,
+   "new": 702,
+   "duplicates": 1232,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/blueprints/kess-dissident-mage.json"
+   ]
+  },
+  {
+   "index": 11,
+   "pass": "mana_base",
+   "kind": "source",
+   "nominated": 498,
+   "new": 194,
+   "duplicates": 304,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "oracle_bulk produced_mana"
+   ]
+  },
+  {
+   "index": 12,
+   "pass": "archetype_tech",
+   "kind": "source",
+   "nominated": 87,
+   "new": 0,
+   "duplicates": 87,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "exports/grixis-archidekt/*.txt (other canonical lists)"
+   ]
+  },
+  {
+   "index": 13,
+   "pass": "tournament",
+   "kind": "source",
+   "nominated": 69,
+   "new": 0,
+   "duplicates": 60,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "data/grixis/candidates/tournament/kess-dissident-mage.json"
+   ]
+  },
+  {
+   "index": 14,
+   "pass": "expansion_1",
+   "kind": "expansion",
+   "nominated": 2375,
+   "new": 275,
+   "duplicates": 2100,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "42 tier-A seeds"
+   ]
+  },
+  {
+   "index": 15,
+   "pass": "expansion_2",
+   "kind": "expansion",
+   "nominated": 0,
+   "new": 0,
+   "duplicates": 0,
+   "new_at_or_above_score": 0,
+   "new_escalated": 0,
+   "material": false,
+   "inputs": [
+    "0 tier-A seeds"
+   ]
+  }
+ ],
+ "last_material_pass": 7,
+ "saturated": true,
+ "hard_exclusions": {
+  "already_in_list": 32,
+  "not_commander_legal": 3,
+  "unresolved_name": 11
+ },
+ "hard_exclusion_kinds": [
+  "not_commander_legal",
+  "outside_colour_identity",
+  "already_in_list",
+  "basic_land",
+  "unresolved_name"
+ ],
+ "universe": {
+  "size": 9265,
+  "previous_m5_bound": 500,
+  "by_tier": {
+   "A": 42,
+   "B": 126,
+   "C": 9097
+  },
+  "by_test_tier": {
+   "paired_test": 575,
+   "screen_only": 8690
+  },
+  "per_source": {
+   "archetype_tech": 87,
+   "edhrec": 191,
+   "expansion_1": 2375,
+   "graph_alternative": 626,
+   "mana_base": 498,
+   "new_card": 802,
+   "oracle_text": 6920,
+   "role_gap": 1770,
+   "rules_interaction": 592,
+   "spellbook_near_miss": 57,
+   "tournament": 60,
+   "tutor_target": 1934
+  },
+  "escalated": 571,
+  "file": "data/grixis/saturation/kess-dissident-mage.universe.json.gz",
+  "sha256": "sha256:5221a9123e9ac66b060ca7f23f7160a89fc80b4e7faa3d283d5ed8959eaa478b"
+ },
+ "blind_spots": [
+  "Cards no pass nominates (outside every source, below the relevance predicate) are undiscovered, not excluded.",
+  "Commander Spellbook near-misses come from the cached almostIncluded snapshot (one missing piece only).",
+  "EDHREC rows exist only for the commander page(s) in the evidence layer; partner/background pages may be thin.",
+  "Tournament evidence exists only for cEDH-ceiling decks and is sparse.",
+  "Oracle hooks use grixis_refine HOOKS regexes; mechanics they do not name are found only via type, keyword or role passes.",
+  "Not-yet-legal cards (pending release) are hard-excluded until legal; they are re-discovered at the Birthday snapshot."
+ ],
+ "runtime_seconds": null
+}

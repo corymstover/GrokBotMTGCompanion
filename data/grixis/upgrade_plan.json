@@ -71,13 +71,13 @@
         3,
         4
       ],
-      "status": "complete_pending_merge",
+      "status": "complete",
       "started": "Bot cycle 64.1",
       "freeze_rule": "corpus immutable once step A begins; only the prospective holdout grows afterwards",
       "completed": "Bot cycle 64.4",
       "pr": 142,
       "items": 612,
-      "note": "Corpus immutable (manifest frozen_at); only the prospective holdout grows. Becomes effective on merge of PR #142."
+      "note": "Merged in PR #142 (fafe2d2). Corpus immutable from the first step-A commit (Bot cycle 65.1); only the prospective holdout grows."
     },
     {
       "order": 2,
@@ -87,13 +87,21 @@
         6,
         8
       ],
-      "status": "next",
+      "status": "in_progress",
       "depends_on": [
         "G0"
       ],
       "decisions": [
         "D1"
-      ]
+      ],
+      "started": "Bot cycle 65.1",
+      "stopping_rule": {
+        "material_k": 3,
+        "material_score": 25.0,
+        "stop_after_non_material": 2
+      },
+      "code": "scripts/grixis_saturation.py",
+      "schema": "data/grixis/schemas/saturation_certificate.schema.json"
     },
     {
       "order": 3,
@@ -298,7 +306,7 @@
     }
   ],
   "snapshots": {
-    "development": "snap-20261016 (frozen during A-F)",
+    "development": "snap-20261016 (frozen during A-F; Cory D6)",
     "birthday": null
   },
   "acceptance_standard": [
@@ -326,5 +334,9 @@
     ],
     "pooled_score_allowed": false,
     "enforced_by": "scripts/grixis_benchmark.py --check (manifest reporting_rule)"
-  }
+  },
+  "deferred_staleness": [
+    "grixis/Grixis Evaluation.md built from the 2026-10-15 bulk (regenerating rewrites deck pages and cascades); clear at the Birthday snapshot refresh",
+    "rulings bulk 2026-10-16 exists in /tmp/c64-cache-partial-backup while validation uses 2026-10-15; clear at the Birthday snapshot refresh"
+  ]
 }
