@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -581,6 +582,20 @@ Complete gate result:
 - Complete gate: `refinement/verification/edward_kenway_2026-10-14/gate_output/Edward_Kenway_2026-10-14_Complete_Gate.json`
 
 The frozen source-package CSV/TXT exports remain preserved as historical baseline evidence. The current-cycle approved artifact above is now canonical.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 48 interaction review: **11 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Edward Kenway — Interaction Review](../interactions/edward-kenway.md).
+
+- **Each tapped permanent counts once** — One Treasure per tapped Assassin/Pirate/Vehicle, never more per permanent. ([edward-01](../interactions/edward-kenway.md#edward-01-each-tapped-permanent-counts-once))
+- **Edward + Time Sieve: five tapped permanents = an extra turn** — Five tapped Assassins/Pirates/Vehicles each turn + Time Sieve = extra turns. ([edward-03](../interactions/edward-kenway.md#edward-03-edward--time-sieve-five-tapped-permanents--an-extra-turn))
+- **Malcolm + Glint-Horn Buccaneer** — Two-plus opponents: each discard pings everyone and Malcolm refunds {1}{R}. ([edward-06](../interactions/edward-kenway.md#edward-06-malcolm--glint-horn-buccaneer))
+- **Fateful Discovery's mandatory draws can deck you during an extra-turn lock** — Manufactor + Fateful Discovery: 3 draws per Treasure, mandatory. Watch your library size during Time Sieve loops. ([edward-08](../interactions/edward-kenway.md#edward-08-fateful-discoverys-mandatory-draws-can-deck-you-during-an-extra-turn-lock))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Fateful Discovery's mandatory draws can deck you during an extra-turn lock: Pilot note, not a list error: with Academy Manufactor and Fateful Discovery both out, the Time Sieve lock needs a kill within a few turns, or Fateful Discovery should be removed from the plan. Spellbook labels the Time Sieve lines 'Lock', not a win. ([edward-08](../interactions/edward-kenway.md#edward-08-fateful-discoverys-mandatory-draws-can-deck-you-during-an-extra-turn-lock))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
