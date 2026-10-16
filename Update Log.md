@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Contradictions & Retcons Log.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md", "Lore Primary Sources.md", "Planes Index.md", "grixis/Grixis Authority Model.md"]
+related: ["Contradictions & Retcons Log.md", "Planeswalker Dossiers.md", "grixis/Grixis Authority Model.md", "Items & Artifacts Index.md", "Lore Primary Sources.md", "Planes Index.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 59.1 (M4: dependency graph)](#2026-10-16--bot-cycle-591-m4-dependency-graph)
 - [2026-10-16 — Bot cycle 57.6 (M3: simulator model v1.1)](#2026-10-16--bot-cycle-576-m3-simulator-model-v11)
 - [2026-10-16 — Bot cycle 57.5 (M3: knowledge pages on lift, synergy, commander-first)](#2026-10-16--bot-cycle-575-m3-knowledge-pages-on-lift-synergy-commander-first)
 - [2026-10-16 — Bot cycle 57.4 (M3: scripted stress scenarios)](#2026-10-16--bot-cycle-574-m3-scripted-stress-scenarios)
@@ -77,6 +78,13 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 59.1 (M4: dependency graph)
+- **M4 started** (`program.milestones.M4: in_progress`), in two sub-cycles: 59.1 dependency graph, 59.2 99-slot audit.
+- **`scripts/grixis_graph.py`** writes a dependency graph per deck (`data/grixis/graph/`, 62 decks, 14,017 classed edges): Spellbook pieces and interchangeable pieces, blueprint packages / engines / wins / tutor targets, heuristic roles, and M1 membership. Per card: breaks-if-removed, redundancy, structural necessity and the best in-role alternative from the evidence layer.
+- **M1 edges:** ingest of the cycle-58 `edges-v1` files is built (read-only, validated, hash-checked) and tested against the open cycle-58 branch; until they are on main a stub layer reads the reviews' card lists.
+- `graph.schema.json` v1; `validate_all` step `graph`; `tests/test_graph.py` (6 tests).
+- See [the Authority Model](grixis/Grixis%20Authority%20Model.md#m4).
 
 ## 2026-10-16 — Bot cycle 57.6 (M3: simulator model v1.1)
 - **`scripts/grixis_sim.py` v1.1:** card draw (resolution / enters, wheels, loot, upkeep and draw-step triggers, suspend), tutors to blueprint targets (closest combo's missing piece → blueprint `tutor_targets` → identity core → highest MV), rituals (only when they enable a card), one-shot mana (Lotus Petal, Mana Vault, Grim Monolith, Jeweled Lotus for the commander) and treasures, and the conditions of Chrome Mox, Mox Diamond, Mox Opal, Mox Amber, Springleaf Drum and Paradise Mantle. `model="1.0"` stays runnable and bit-identical.
